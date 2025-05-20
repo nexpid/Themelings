@@ -557,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['autoInitializeNativeSdk'] = verify;
                     verify = _closure1_slot14;
                     report['beforeSend'] = verify;
-                    verify = '4075';
+                    verify = '4080';
                     report['dist'] = verify;
                     report['dsn'] = oscard;
                     report['environment'] = zuuluu;
@@ -567,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['sampleRate'] = zuuluu;
                     zuuluu = _closure1_slot10;
                     report['ignoreErrors'] = zuuluu;
-                    zuuluu = 'discord_android@282.0.0-2+282200';
+                    zuuluu = 'discord_android@282.1.0-2+282201';
                     report['release'] = zuuluu;
                     zuuluu = _closure1_slot0;
                     oscard = _closure1_slot3;

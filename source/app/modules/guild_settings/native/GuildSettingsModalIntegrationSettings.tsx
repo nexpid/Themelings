@@ -483,14 +483,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 record = null;
                 zuuluu = record != entity;
                 sizing = null;
-                if(!zuuluu) { _fun00010_ip = 75; continue _fun00009 }
- 71:
+                if(!zuuluu) { _fun00010_ip = 76; continue _fun00009 }
+ 72:
                 sizing = michal[entity];
- 75:
+ 76:
                 entity = record != sizing;
                 result = undefined;
-                if(!entity) { _fun00010_ip = 303; continue _fun00009 }
- 87:
+                if(!entity) { _fun00010_ip = 304; continue _fun00009 }
+ 88:
                 zuuluu = _closure1_slot14;
                 michal = _closure1_slot8;
                 entity = {};
@@ -537,11 +537,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report[1] = golfie;
                 entity['children'] = report;
                 result = zuuluu.bind(tangon)(michal, entity);
- 303:
+ 304:
                 michal = cntext.type;
                 entity = 'youtube';
-                if(!(entity !== michal)) { _fun00010_ip = 460; continue _fun00009 }
- 319:
+                if(!(entity !== michal)) { _fun00010_ip = 461; continue _fun00009 }
+ 320:
                 zuuluu = cntext.name;
                 entity = global;
                 entity = entity.HermesInternal;
@@ -571,15 +571,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = oscard.handleToggleEmotes;
                 entity['onPress'] = option;
                 verify = golfie.bind(tangon)(report, entity);
-                _fun00010_ip = 564; continue _fun00009;
- 460:
+                _fun00010_ip = 565; continue _fun00009;
+ 461:
                 entity = cntext.account;
                 michal = record == entity;
                 zuuluu = undefined;
-                if(michal) { _fun00010_ip = 480; continue _fun00009 }
- 475:
+                if(michal) { _fun00010_ip = 481; continue _fun00009 }
+ 476:
                 zuuluu = entity.name;
- 480:
+ 481:
                 report = _closure1_slot0;
                 golfie = _closure1_slot2;
                 entity = 10;
@@ -598,7 +598,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 status = entity.7lNtcX;
                 ctrled = zuuluu;
                 verify = undefined;
- 564:
+ 565:
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot2;
                 entity = 18;
@@ -609,8 +609,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = michal.bind(zuuluu)(entity);
                 entity = record != offset;
                 source = null;
-                if(!entity) { _fun00010_ip = 714; continue _fun00009 }
- 608:
+                if(!entity) { _fun00010_ip = 715; continue _fun00009 }
+ 609:
                 zuuluu = _closure1_slot13;
                 michal = _closure1_slot9;
                 entity = {};
@@ -626,19 +626,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = romeon.isThemeDark;
                 report = report.bind(romeon)(backup);
                 offset = offset.icon;
-                if(report) { _fun00010_ip = 683; continue _fun00009 }
- 675:
+                if(report) { _fun00010_ip = 684; continue _fun00009 }
+ 676:
                 report = offset.lightPNG;
-                _fun00010_ip = 689; continue _fun00009;
- 683:
+                _fun00010_ip = 690; continue _fun00009;
+ 684:
                 report = offset.darkPNG;
- 689:
+ 690:
                 report = golfie.bind(option)(report);
                 entity['source'] = report;
                 report = target.integrationIcon;
                 entity['style'] = report;
                 source = zuuluu.bind(tangon)(michal, entity);
- 714:
+ 715:
                 entity = function() { // Original name: getSubGracePeriodOptions
                     zuuluu = [1, 3, 7, 14, 30];
                     michal = zuuluu.map;
@@ -707,11 +707,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 limora = cntext.user;
                 sierra = record == limora;
                 target = undefined;
-                if(sierra) { _fun00010_ip = 898; continue _fun00009 }
- 889:
+                if(sierra) { _fun00010_ip = 899; continue _fun00009 }
+ 890:
                 sierra = limora.toString;
                 target = sierra.bind(limora)();
- 898:
+ 899:
                 vacuum['text'] = target;
                 vacuum = config.bind(tangon)(sequen, vacuum);
                 sizing['label'] = vacuum;
@@ -779,10 +779,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 vacuum = {};
                 target = cntext.syncing;
                 record = record != target;
-                if(!record) { _fun00010_ip = 1215; continue _fun00009 }
- 1212:
+                if(!record) { _fun00010_ip = 1216; continue _fun00009 }
+ 1213:
                 record = target;
- 1215:
+ 1216:
                 vacuum['isSyncing'] = record;
                 record = oscard.handleSync;
                 vacuum['onPress'] = record;
@@ -1050,15 +1050,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  193:
             zuuluu = tangon == yankee;
             entity = null;
-            if(zuuluu) { _fun00012_ip = 269; continue _fun00011 }
+            if(zuuluu) { _fun00012_ip = 270; continue _fun00011 }
  202:
             zuuluu = tangon == verify;
             entity = null;
-            if(zuuluu) { _fun00012_ip = 269; continue _fun00011 }
+            if(zuuluu) { _fun00012_ip = 270; continue _fun00011 }
  211:
             zuuluu = tangon == offset;
             entity = null;
-            if(zuuluu) { _fun00012_ip = 269; continue _fun00011 }
+            if(zuuluu) { _fun00012_ip = 270; continue _fun00011 }
  220:
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot17;
@@ -1071,7 +1071,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['contentContainerStyle'] = golfie;
             michal['navScrim'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 269:
+ 270:
             return entity;
         }
     };

@@ -275,21 +275,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = null;
             entity = romeon == oscard;
             report = undefined;
-            if(entity) { _fun00006_ip = 175; continue _fun00005 }
- 150:
+            if(entity) { _fun00006_ip = 176; continue _fun00005 }
+ 151:
             entity = oscard.isGroupDM;
             entity = romeon == entity;
             report = undefined;
-            if(entity) { _fun00006_ip = 175; continue _fun00005 }
- 165:
+            if(entity) { _fun00006_ip = 176; continue _fun00005 }
+ 166:
             entity = oscard.isGroupDM;
             report = entity.bind(oscard)();
- 175:
+ 176:
             entity = romeon != report;
-            if(!entity) { _fun00006_ip = 185; continue _fun00005 }
- 182:
+            if(!entity) { _fun00006_ip = 186; continue _fun00005 }
+ 183:
             entity = report;
- 185:
+ 186:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             report = 5;
@@ -301,14 +301,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['autoTrackExposure'] = entity;
             report = 'createChangeChannelNameSystemMessage';
             report = option.bind(verify)(report, golfie, oscard);
-            if(!report) { _fun00006_ip = 240; continue _fun00005 }
- 237:
+            if(!report) { _fun00006_ip = 241; continue _fun00005 }
+ 238:
             report = entity;
- 240:
+ 241:
             oscard = yankee.content;
             entity = '';
-            if(!(entity !== oscard)) { _fun00006_ip = 286; continue _fun00005 }
- 253:
+            if(!(entity !== oscard)) { _fun00006_ip = 287; continue _fun00005 }
+ 254:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 6;
@@ -316,8 +316,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = oscard.bind(zuuluu)(entity);
             entity = entity.t;
             verify = entity.rk0be3;
-            _fun00006_ip = 319; continue _fun00005;
- 286:
+            _fun00006_ip = 320; continue _fun00005;
+ 287:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 6;
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = oscard.bind(zuuluu)(entity);
             entity = entity.t;
             verify = entity.hToFyc;
- 319:
+ 320:
             entity = {};
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -334,29 +334,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(zuuluu)(oscard);
             option = oscard.intl;
             golfie = option.formatToParts;
-            if(report) { _fun00006_ip = 429; continue _fun00005 }
- 355:
+            if(report) { _fun00006_ip = 430; continue _fun00005 }
+ 356:
             oscard = tangon.isForumPost;
             kiloes = _closure1_slot0;
             report = _closure1_slot2;
             report = report[sizing];
             report = kiloes.bind(zuuluu)(report);
             report = report.t;
-            if(oscard) { _fun00006_ip = 394; continue _fun00005 }
- 386:
+            if(oscard) { _fun00006_ip = 395; continue _fun00005 }
+ 387:
             oscard = report.XCPMEB;
-            _fun00006_ip = 400; continue _fun00005;
- 394:
+            _fun00006_ip = 401; continue _fun00005;
+ 395:
             oscard = report.qa0e/v;
- 400:
+ 401:
             report = {};
             report['username'] = backup;
             report['usernameOnClick'] = offset;
             kiloes = yankee.content;
             report['channelName'] = kiloes;
             report = golfie.bind(option)(oscard, report);
-            _fun00006_ip = 503; continue _fun00005;
- 429:
+            _fun00006_ip = 504; continue _fun00005;
+ 430:
             oscard = {};
             oscard['username'] = backup;
             oscard['usernameOnClick'] = offset;
@@ -367,16 +367,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['action'] = backup;
             backup = romeon == foxtra;
             romeon = undefined;
-            if(backup) { _fun00006_ip = 477; continue _fun00005 }
- 471:
+            if(backup) { _fun00006_ip = 478; continue _fun00005 }
+ 472:
             romeon = foxtra.linkColor;
- 477:
+ 478:
             offset['linkColor'] = romeon;
             yankee = yankee.channel_id;
             offset['messageChannelId'] = yankee;
             oscard['onEditGroup'] = offset;
             report = golfie.bind(option)(verify, oscard);
- 503:
+ 504:
             entity['content'] = report;
             report = _closure1_slot1;
             oscard = _closure1_slot2;

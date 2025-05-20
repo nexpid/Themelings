@@ -1,5 +1,5 @@
 // app/modules/messages/UploadRefactorExperiment.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
@@ -12,26 +12,31 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = '__esModule';
     entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = golfie[entity];
+    report = golfie[entity];
+    tangon = argBaz;
     entity = undefined;
+    tangon = tangon.bind(entity)(report);
+    var _closure1_slot0 = tangon;
+    tangon = 1;
+    tangon = golfie[tangon];
     verify = oscard.bind(entity)(tangon);
     option = verify.createExperiment;
     tangon = {'kind': 'user', 'id': '2025-05_upload_refactor', 'label': 'Aligns attachment and non-attachment message sending'};
     report = {'enabled': false, 'showSetting': false};
     tangon['defaultConfig'] = report;
-    yankee = {'id': 1, 'label': 'Enabled'};
-    report = 1;
+    report = {'id': 1, 'label': 'Enabled'};
     offset = {'enabled': true, 'showSetting': false};
-    yankee['config'] = offset;
+    report['config'] = offset;
     offset = new Array(2);
-    offset[0] = yankee;
+    offset[0] = report;
     yankee = {'id': 2, 'label': 'Disabled'};
+    report = 2;
     romeon = {'enabled': true, 'showSetting': true};
     yankee['config'] = romeon;
     offset[1] = yankee;
     tangon['treatments'] = offset;
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot0 = tangon;
+    var _closure1_slot1 = tangon;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -39,14 +44,29 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     michal = function(argFoo) { // Original name: isUploadRefactorEnabled
-        zuuluu = _closure1_slot0;
-        michal = zuuluu.getCurrentConfig;
-        entity = {};
-        tangon = argFoo;
-        entity['location'] = tangon;
-        entity = michal.bind(zuuluu)(entity);
-        entity = entity.enabled;
-        return entity;
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            tangon = _closure1_slot1;
+            michal = tangon.getCurrentConfig;
+            entity = {};
+            report = argFoo;
+            entity['location'] = report;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.enabled;
+            entity = entity.showSetting;
+            if(!entity) { _fun00002_ip = 54; continue _fun00001 }
+ 41:
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.uploadRefactorEnabled;
+            entity = !zuuluu;
+ 54:
+            entity = !entity;
+            if(!entity) { _fun00002_ip = 63; continue _fun00001 }
+ 60:
+            entity = michal;
+ 63:
+            return entity;
+        }
     };
     zuuluu['isUploadRefactorEnabled'] = michal;
     return entity;

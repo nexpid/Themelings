@@ -428,13 +428,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.avatarBackground;
             variable60 = 0;
             oscard = 0;
-            if(verify) { _fun00006_ip = 760; continue _fun00005 }
- 751:
+            if(verify) { _fun00006_ip = 762; continue _fun00005 }
+ 753:
             oscard = 0;
-            if(yankee) { _fun00006_ip = 760; continue _fun00005 }
- 756:
+            if(yankee) { _fun00006_ip = 762; continue _fun00005 }
+ 758:
             oscard = _closure1_slot6;
- 760:
+ 762:
             golfie = golfie + oscard;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -448,55 +448,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable64['backgroundColor'] = entity;
             entity = cntext == zuuluu;
             variable57 = undefined;
-            if(entity) { _fun00006_ip = 831; continue _fun00005 }
- 813:
+            if(entity) { _fun00006_ip = 833; continue _fun00005 }
+ 815:
             entity = zuuluu.username;
             oscard = cntext == entity;
             variable57 = undefined;
-            if(oscard) { _fun00006_ip = 831; continue _fun00005 }
- 827:
+            if(oscard) { _fun00006_ip = 833; continue _fun00005 }
+ 829:
             variable57 = entity[variable60];
- 831:
-            if(!(cntext == variable57)) { _fun00006_ip = 857; continue _fun00005 }
- 835:
+ 833:
+            if(!(cntext == variable57)) { _fun00006_ip = 859; continue _fun00005 }
+ 837:
             oscard = zuuluu.global_name;
             golfie = cntext == oscard;
             entity = undefined;
-            if(golfie) { _fun00006_ip = 854; continue _fun00005 }
- 850:
+            if(golfie) { _fun00006_ip = 856; continue _fun00005 }
+ 852:
             entity = oscard[variable60];
- 854:
+ 856:
             variable57 = entity;
- 857:
-            if(!(cntext == variable57)) { _fun00006_ip = 892; continue _fun00005 }
- 861:
+ 859:
+            if(!(cntext == variable57)) { _fun00006_ip = 894; continue _fun00005 }
+ 863:
             oscard = cntext == michal;
             entity = undefined;
-            if(oscard) { _fun00006_ip = 889; continue _fun00005 }
- 870:
+            if(oscard) { _fun00006_ip = 891; continue _fun00005 }
+ 872:
             michal = michal.nick;
             oscard = cntext == michal;
             entity = undefined;
-            if(oscard) { _fun00006_ip = 889; continue _fun00005 }
- 885:
+            if(oscard) { _fun00006_ip = 891; continue _fun00005 }
+ 887:
             entity = michal[variable60];
- 889:
+ 891:
             variable57 = entity;
- 892:
+ 894:
             entity = zuuluu.pronouns;
             michal = cntext == entity;
             variable53 = undefined;
-            if(michal) { _fun00006_ip = 911; continue _fun00005 }
- 907:
+            if(michal) { _fun00006_ip = 913; continue _fun00005 }
+ 909:
             variable53 = entity[variable60];
- 911:
+ 913:
             entity = zuuluu.bio;
             michal = cntext == entity;
             variable49 = undefined;
-            if(michal) { _fun00006_ip = 930; continue _fun00005 }
- 926:
+            if(michal) { _fun00006_ip = 932; continue _fun00005 }
+ 928:
             variable49 = entity[variable60];
- 930:
+ 932:
             entity = global;
             michal = entity.Object;
             entity = michal.keys;
@@ -504,12 +504,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.length;
             entity = entity > variable60;
             variable59 = null;
-            if(!entity) { _fun00006_ip = 1028; continue _fun00005 }
- 962:
+            if(!entity) { _fun00006_ip = 1030; continue _fun00005 }
+ 964:
             entity = cntext == variable49;
             variable59 = null;
-            if(!entity) { _fun00006_ip = 1028; continue _fun00005 }
- 971:
+            if(!entity) { _fun00006_ip = 1030; continue _fun00005 }
+ 973:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 17;
@@ -522,7 +522,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.t;
             entity = entity.84MExs;
             variable59 = michal.bind(zuuluu)(entity);
- 1028:
+ 1030:
             variable43 = function() { // Original name: handleBlur
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -674,10 +674,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum['displayName'] = variable56;
             vacuum['badges'] = papara;
             papara = variable51;
-            if(!(cntext != variable52)) { _fun00006_ip = 1619; continue _fun00005 }
- 1616:
-            papara = variable52;
+            if(!(cntext != variable52)) { _fun00006_ip = 1622; continue _fun00005 }
  1619:
+            papara = variable52;
+ 1622:
             vacuum['pronouns'] = papara;
             vacuum['badgeContainerBackground'] = quebec;
             vacuum = config.bind(tangon)(sequen, vacuum);
@@ -695,11 +695,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum['style'] = papara;
             target = cntext != variable59;
             papara = null;
-            if(!target) { _fun00006_ip = 1779; continue _fun00005 }
- 1690:
+            if(!target) { _fun00006_ip = 1782; continue _fun00005 }
+ 1693:
             papara = null;
-            if(!(record !== variable59)) { _fun00006_ip = 1779; continue _fun00005 }
- 1696:
+            if(!(record !== variable59)) { _fun00006_ip = 1782; continue _fun00005 }
+ 1699:
             status = _closure1_slot12;
             target = _closure1_slot4;
             record = {};
@@ -717,7 +717,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable50 = variable58.bind(tangon)(variable54, variable50);
             record['children'] = variable50;
             papara = status.bind(tangon)(target, record);
- 1779:
+ 1782:
             record = new Array(10);
             record[0] = papara;
             variable50 = _closure1_slot12;
@@ -740,10 +740,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable58 = variable59.bind(variable60)(variable58);
             target['label'] = variable58;
             target['errorMessage'] = variable57;
-            if(!(cntext != variable56)) { _fun00006_ip = 1880; continue _fun00005 }
- 1877:
-            variable55 = variable56;
+            if(!(cntext != variable56)) { _fun00006_ip = 1883; continue _fun00005 }
  1880:
+            variable55 = variable56;
+ 1883:
             target['value'] = variable55;
             variable55 = function(argFoo) { // Original name: onChange
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
@@ -807,10 +807,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable55 = variable56.bind(variable57)(variable55);
             target['label'] = variable55;
             target['errorMessage'] = variable53;
-            if(!(cntext != variable52)) { _fun00006_ip = 2025; continue _fun00005 }
- 2022:
-            variable51 = variable52;
+            if(!(cntext != variable52)) { _fun00006_ip = 2028; continue _fun00005 }
  2025:
+            variable51 = variable52;
+ 2028:
             target['value'] = variable51;
             variable51 = function(argFoo) { // Original name: onChange
                 zuuluu = _closure1_slot0;
@@ -850,10 +850,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable50 = variable51.bind(variable52)(variable50);
             papara['label'] = variable50;
             papara['errorMessage'] = variable49;
-            if(!(cntext != variable48)) { _fun00006_ip = 2156; continue _fun00005 }
- 2153:
-            variable47 = variable48;
+            if(!(cntext != variable48)) { _fun00006_ip = 2159; continue _fun00005 }
  2156:
+            variable47 = variable48;
+ 2159:
             papara['value'] = variable47;
             variable45 = function(argFoo) { // Original name: onChange
                 zuuluu = _closure1_slot0;
@@ -895,19 +895,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable43 = 15;
             variable43 = variable45[variable43];
             variable44 = variable44.bind(tangon)(variable43);
-            if(foxtra) { _fun00006_ip = 2293; continue _fun00005 }
- 2285:
+            if(foxtra) { _fun00006_ip = 2296; continue _fun00005 }
+ 2288:
             variable43 = variable44.setPendingThemeColors;
-            _fun00006_ip = 2299; continue _fun00005;
- 2293:
+            _fun00006_ip = 2302; continue _fun00005;
+ 2296:
             variable43 = variable44.setTryItOutThemeColors;
- 2299:
+ 2302:
             papara['onProfileThemeColorsChanged'] = variable43;
             papara['pendingAvatarSrc'] = variable42;
-            if(!foxtra) { _fun00006_ip = 2315; continue _fun00005 }
- 2312:
-            variable37 = variable38;
+            if(!foxtra) { _fun00006_ip = 2318; continue _fun00005 }
  2315:
+            variable37 = variable38;
+ 2318:
             papara['pendingThemeColors'] = variable37;
             papara['isTryItOut'] = foxtra;
             papara = status.bind(tangon)(target, papara);
@@ -955,8 +955,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = status.bind(tangon)(target, papara);
             record[8] = papara;
             cntext = cntext != limora;
-            if(!cntext) { _fun00006_ip = 2555; continue _fun00005 }
- 2513:
+            if(!cntext) { _fun00006_ip = 2558; continue _fun00005 }
+ 2516:
             status = _closure1_slot12;
             target = _closure1_slot1;
             whisks = _closure1_slot2;
@@ -967,7 +967,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara['legacyUsername'] = limora;
             papara['pendingLegacyUsernameDisabled'] = sierra;
             cntext = status.bind(tangon)(target, papara);
- 2555:
+ 2558:
             record[9] = cntext;
             vacuum['children'] = record;
             vacuum = config.bind(tangon)(sequen, vacuum);
@@ -986,12 +986,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(2);
             option[0] = romeon;
             verify = !verify;
-            if(!verify) { _fun00006_ip = 2642; continue _fun00005 }
- 2639:
-            verify = !yankee;
+            if(!verify) { _fun00006_ip = 2645; continue _fun00005 }
  2642:
-            if(!verify) { _fun00006_ip = 2688; continue _fun00005 }
+            verify = !yankee;
  2645:
+            if(!verify) { _fun00006_ip = 2691; continue _fun00005 }
+ 2648:
             romeon = _closure1_slot12;
             yankee = _closure1_slot0;
             backup = _closure1_slot2;
@@ -1002,7 +1002,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             offset['isTryItOut'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 2688:
+ 2691:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

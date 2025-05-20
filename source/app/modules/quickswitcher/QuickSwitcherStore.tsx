@@ -1492,11 +1492,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 tangon = zuuluu != tangon;
                 zuuluu = '';
-                if(!tangon) { _fun00044_ip = 44; continue _fun00043 }
- 35:
+                if(!tangon) { _fun00044_ip = 46; continue _fun00043 }
+ 37:
                 tangon = _closure1_slot25;
                 zuuluu = tangon.query;
- 44:
+ 46:
                 entity['query'] = zuuluu;
                 zuuluu = _closure1_slot30;
                 entity['queryMode'] = zuuluu;

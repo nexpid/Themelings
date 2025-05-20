@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  47:
             michal = _closure1_slot4;
             michal = michal.disableSounds;
-            if(michal) { _fun00006_ip = 238; continue _fun00005 }
+            if(michal) { _fun00006_ip = 237; continue _fun00005 }
  66:
             tangon = _closure1_slot1;
             offset = _closure1_slot2;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = yankee.bind(romeon)();
  109:
             michal = offset.bind(entity)(michal);
-            if(!(tangon == michal)) { _fun00006_ip = 157; continue _fun00005 }
+            if(!(tangon == michal)) { _fun00006_ip = 156; continue _fun00005 }
  118:
             romeon = _closure1_slot6;
             yankee = romeon.log;
@@ -169,26 +169,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = 'Unable to find sound for pack name: ';
             offset = foxtra.bind(offset)(backup);
             offset = yankee.bind(romeon)(offset);
- 157:
+ 156:
             oscard = _closure1_slot7;
             offset = michal[verify];
             michal = verify;
-            if(!(tangon != offset)) { _fun00006_ip = 175; continue _fun00005 }
- 172:
+            if(!(tangon != offset)) { _fun00006_ip = 174; continue _fun00005 }
+ 171:
             michal = offset;
- 175:
+ 174:
             echoed = undefined;
             result = michal;
             output = verify;
             sizing = option;
             kiloes = golfie;
             michal = echoed[oscard](result, output, sizing, kiloes, backup);
-            if(!(tangon == report)) { _fun00006_ip = 209; continue _fun00005 }
- 197:
+            if(!(tangon == report)) { _fun00006_ip = 208; continue _fun00005 }
+ 196:
             tangon = michal.play;
             tangon = tangon.bind(michal)();
-            _fun00006_ip = 236; continue _fun00005;
- 209:
+            _fun00006_ip = 235; continue _fun00005;
+ 208:
             tangon = michal.playWithListener;
             report = tangon.bind(michal)();
             tangon = report.then;
@@ -207,9 +207,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             zuuluu = tangon.bind(report)(zuuluu);
- 236:
+ 235:
             return michal;
- 238:
+ 237:
             return entity;
         }
     };

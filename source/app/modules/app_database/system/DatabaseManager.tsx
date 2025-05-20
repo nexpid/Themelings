@@ -714,11 +714,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = backup[verify](foxtra, romeon, yankee, offset, verify);
                 entity = report.bind(oscard)(entity);
                 entity = null;
-                if(!(entity != zuuluu)) { _fun00022_ip = 95; continue _fun00021 }
- 85:
+                if(!(entity != zuuluu)) { _fun00022_ip = 94; continue _fun00021 }
+ 84:
                 entity = zuuluu.close;
                 entity = entity.bind(zuuluu)();
- 95:
+ 94:
                 zuuluu = michal.databases;
                 entity = zuuluu.delete;
                 entity = entity.bind(zuuluu)(tangon);

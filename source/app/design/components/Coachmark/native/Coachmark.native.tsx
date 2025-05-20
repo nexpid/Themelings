@@ -682,10 +682,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.theme;
             michal = option.experimental_withBlurBackground;
             oscard = 'dark';
-            if(michal) { _fun00008_ip = 59; continue _fun00007 }
- 56:
+            if(michal) { _fun00008_ip = 60; continue _fun00007 }
+ 57:
             oscard = entity;
- 59:
+ 60:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot0;
             golfie = _closure1_slot2;

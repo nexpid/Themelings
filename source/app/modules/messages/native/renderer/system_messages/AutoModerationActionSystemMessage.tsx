@@ -25,11 +25,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(verify)(entity);
             entity = michal.isAutomodMessageRecord;
             entity = entity.bind(michal)(kiloes);
-            if(entity) { _fun00002_ip = 77; continue _fun00001 }
- 73:
+            if(entity) { _fun00002_ip = 78; continue _fun00001 }
+ 74:
             entity = null;
             return entity;
- 77:
+ 78:
             michal = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[output];
@@ -52,11 +52,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = null;
             entity = oscard == michal;
             config = undefined;
-            if(entity) { _fun00002_ip = 197; continue _fun00001 }
- 187:
+            if(entity) { _fun00002_ip = 198; continue _fun00001 }
+ 188:
             entity = michal.getGuildId;
             config = entity.bind(michal)();
- 197:
+ 198:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 15;
@@ -94,8 +94,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = michal.bind(zuuluu)(kiloes);
             michal = option;
             yankee = null;
-            if(!tangon) { _fun00002_ip = 2859; continue _fun00001 }
- 386:
+            if(!tangon) { _fun00002_ip = 2860; continue _fun00001 }
+ 387:
             update = _closure1_slot0;
             entity = _closure1_slot2;
             zuuluu = entity[output];
@@ -106,8 +106,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity[output];
             entity = update.bind(verify)(entity);
             entity = entity.IS_BACKWARDS_COMPAT_RAID_TYPE;
-            if(!(entity !== romeon)) { _fun00002_ip = 2061; continue _fun00001 }
- 442:
+            if(!(entity !== romeon)) { _fun00002_ip = 2062; continue _fun00001 }
+ 443:
             update = _closure1_slot0;
             entity = _closure1_slot2;
             status = 17;
@@ -115,24 +115,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = update.bind(verify)(entity);
             entity = entity.AutomodNotificationEmbedTypeKeys;
             entity = entity.RAID;
-            if(!(entity !== romeon)) { _fun00002_ip = 2061; continue _fun00001 }
- 481:
+            if(!(entity !== romeon)) { _fun00002_ip = 2062; continue _fun00001 }
+ 482:
             update = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[status];
             entity = update.bind(verify)(entity);
             entity = entity.AutomodNotificationEmbedTypeKeys;
             entity = entity.MENTION_RAID;
-            if(!(entity !== romeon)) { _fun00002_ip = 1653; continue _fun00001 }
- 517:
+            if(!(entity !== romeon)) { _fun00002_ip = 1654; continue _fun00001 }
+ 518:
             update = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[status];
             entity = update.bind(verify)(entity);
             entity = entity.AutomodNotificationEmbedTypeKeys;
             entity = entity.ACTIVITY_ALERTS_ENABLED;
-            if(!(entity !== romeon)) { _fun00002_ip = 900; continue _fun00001 }
- 553:
+            if(!(entity !== romeon)) { _fun00002_ip = 901; continue _fun00001 }
+ 554:
             entity = {};
             limora = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -205,8 +205,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = '';
             michal = option;
             yankee = entity;
-            _fun00002_ip = 2859; continue _fun00001;
- 900:
+            _fun00002_ip = 2860; continue _fun00001;
+ 901:
             romeon = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[output];
@@ -218,32 +218,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = entity.bind(romeon)(limora);
             entity = oscard != limora;
             update = null;
-            if(!entity) { _fun00002_ip = 977; continue _fun00001 }
- 952:
+            if(!entity) { _fun00002_ip = 978; continue _fun00001 }
+ 953:
             entity = oscard != config;
             update = null;
-            if(!entity) { _fun00002_ip = 977; continue _fun00001 }
- 961:
+            if(!entity) { _fun00002_ip = 978; continue _fun00001 }
+ 962:
             romeon = _closure1_slot9;
             entity = romeon.getMember;
             update = entity.bind(romeon)(config, limora);
- 977:
+ 978:
             entity = oscard == update;
             romeon = undefined;
-            if(entity) { _fun00002_ip = 992; continue _fun00001 }
- 986:
+            if(entity) { _fun00002_ip = 993; continue _fun00001 }
+ 987:
             romeon = update.nick;
- 992:
-            if(!(oscard == romeon)) { _fun00002_ip = 1013; continue _fun00001 }
- 996:
+ 993:
+            if(!(oscard == romeon)) { _fun00002_ip = 1014; continue _fun00001 }
+ 997:
             limora = oscard == status;
             entity = undefined;
-            if(limora) { _fun00002_ip = 1010; continue _fun00001 }
- 1005:
+            if(limora) { _fun00002_ip = 1011; continue _fun00001 }
+ 1006:
             entity = status.username;
- 1010:
+ 1011:
             romeon = entity;
- 1013:
+ 1014:
             status = _closure1_slot0;
             limora = _closure1_slot2;
             entity = 24;
@@ -252,19 +252,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = limora.ensureAvatarSource;
             quebec = oscard == update;
             entity = undefined;
-            if(quebec) { _fun00002_ip = 1054; continue _fun00001 }
- 1048:
+            if(quebec) { _fun00002_ip = 1055; continue _fun00001 }
+ 1049:
             entity = update.avatar;
- 1054:
-            if(!(oscard != entity)) { _fun00002_ip = 1062; continue _fun00001 }
- 1058:
-            if(!(oscard == config)) { _fun00002_ip = 1079; continue _fun00001 }
- 1062:
+ 1055:
+            if(!(oscard != entity)) { _fun00002_ip = 1063; continue _fun00001 }
+ 1059:
+            if(!(oscard == config)) { _fun00002_ip = 1080; continue _fun00001 }
+ 1063:
             quebec = sequen.getAvatarSource;
             entity = false;
             entity = quebec.bind(sequen)(verify, entity, offset);
-            _fun00002_ip = 1146; continue _fun00001;
- 1079:
+            _fun00002_ip = 1147; continue _fun00001;
+ 1080:
             variable36 = _closure1_slot0;
             variable37 = _closure1_slot2;
             quebec = 21;
@@ -276,14 +276,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec['userId'] = variable39;
             variable40 = oscard == update;
             variable39 = undefined;
-            if(variable40) { _fun00002_ip = 1131; continue _fun00001 }
- 1125:
+            if(variable40) { _fun00002_ip = 1132; continue _fun00001 }
+ 1126:
             variable39 = update.avatar;
- 1131:
+ 1132:
             quebec['guildMemberAvatar'] = variable39;
             quebec['guildId'] = config;
             entity = variable36.bind(variable37)(quebec, sequen);
- 1146:
+ 1147:
             status = status.bind(limora)(entity);
             entity = {};
             variable37 = _closure1_slot0;
@@ -377,30 +377,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['enabledByUsername'] = romeon;
             status = oscard == update;
             romeon = undefined;
-            if(status) { _fun00002_ip = 1607; continue _fun00001 }
- 1601:
+            if(status) { _fun00002_ip = 1608; continue _fun00001 }
+ 1602:
             romeon = update.colorString;
- 1607:
+ 1608:
             status = oscard != romeon;
             romeon = undefined;
-            if(!status) { _fun00002_ip = 1631; continue _fun00001 }
- 1616:
+            if(!status) { _fun00002_ip = 1632; continue _fun00001 }
+ 1617:
             status = _closure1_slot4;
             update = update.colorString;
             romeon = status.bind(verify)(update);
- 1631:
+ 1632:
             entity['enabledByColor'] = romeon;
             foxtra = '';
             michal = option;
             yankee = entity;
-            _fun00002_ip = 2859; continue _fun00001;
- 1653:
+            _fun00002_ip = 2860; continue _fun00001;
+ 1654:
             entity = {};
             romeon = zuuluu.raidDatetime;
             update = oscard != romeon;
             romeon = undefined;
-            if(!update) { _fun00002_ip = 1711; continue _fun00001 }
- 1670:
+            if(!update) { _fun00002_ip = 1712; continue _fun00001 }
+ 1671:
             status = _closure1_slot1;
             limora = _closure1_slot2;
             update = 18;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = status.bind(verify)(update);
             update = status.fromNow;
             romeon = update.bind(status)();
- 1711:
+ 1712:
             entity['subtitleLeft'] = romeon;
             limora = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -483,13 +483,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = '';
             michal = option;
             yankee = entity;
-            _fun00002_ip = 2859; continue _fun00001;
- 2061:
+            _fun00002_ip = 2860; continue _fun00001;
+ 2062:
             entity = zuuluu.raidDatetime;
             entity = oscard != entity;
             option = undefined;
-            if(!entity) { _fun00002_ip = 2117; continue _fun00001 }
- 2076:
+            if(!entity) { _fun00002_ip = 2118; continue _fun00001 }
+ 2077:
             romeon = _closure1_slot1;
             update = _closure1_slot2;
             entity = 18;
@@ -499,7 +499,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.bind(verify)(entity);
             entity = romeon.fromNow;
             option = entity.bind(romeon)();
- 2117:
+ 2118:
             romeon = zuuluu.raidType;
             update = _closure1_slot0;
             status = _closure1_slot2;
@@ -512,8 +512,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.raidDatetime;
             entity = oscard != entity;
             variable36 = '';
-            if(!entity) { _fun00002_ip = 2268; continue _fun00001 }
- 2176:
+            if(!entity) { _fun00002_ip = 2269; continue _fun00001 }
+ 2177:
             entity = global;
             status = entity.Date;
             variable47 = zuuluu.raidDatetime;
@@ -534,7 +534,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = quebec.bind(verify)(entity);
             entity = entity.DATE_CONFIG;
             variable36 = status.bind(limora)(update, entity);
- 2268:
+ 2269:
             update = _closure1_slot0;
             entity = _closure1_slot2;
             status = entity[offset];
@@ -544,21 +544,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity[offset];
             entity = update.bind(verify)(entity);
             entity = entity.t;
-            if(romeon) { _fun00002_ip = 2343; continue _fun00001 }
- 2312:
+            if(romeon) { _fun00002_ip = 2344; continue _fun00001 }
+ 2313:
             status = entity.4ylIio;
             update = {};
             variable37 = zuuluu.joinAttempts;
             update['joinCount'] = variable37;
             update = limora.bind(quebec)(status, update);
-            _fun00002_ip = 2370; continue _fun00001;
- 2343:
+            _fun00002_ip = 2371; continue _fun00001;
+ 2344:
             status = entity.5C8Mh4;
             entity = {};
             variable37 = zuuluu.dmsSent;
             entity['dmsSent'] = variable37;
             update = limora.bind(quebec)(status, entity);
- 2370:
+ 2371:
             entity = {};
             entity['subtitleLeft'] = update;
             entity['severity'] = update;
@@ -573,15 +573,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option[offset];
             option = update.bind(verify)(option);
             update = option.t;
-            if(romeon) { _fun00002_ip = 2451; continue _fun00001 }
- 2436:
+            if(romeon) { _fun00002_ip = 2452; continue _fun00001 }
+ 2437:
             option = update.xMwcwc;
             option = status.bind(limora)(option);
-            _fun00002_ip = 2464; continue _fun00001;
- 2451:
+            _fun00002_ip = 2465; continue _fun00001;
+ 2452:
             update = update.8+lHUV;
             option = status.bind(limora)(update);
- 2464:
+ 2465:
             entity['header'] = option;
             variable37 = _closure1_slot0;
             variable40 = _closure1_slot2;
@@ -609,15 +609,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable37 = variable37.bind(verify)(quebec);
             quebec = variable37.makeSource;
             variable41 = _closure1_slot2;
-            if(romeon) { _fun00002_ip = 2602; continue _fun00001 }
- 2593:
+            if(romeon) { _fun00002_ip = 2603; continue _fun00001 }
+ 2594:
             romeon = 23;
             romeon = variable41[romeon];
-            _fun00002_ip = 2609; continue _fun00001;
- 2602:
+            _fun00002_ip = 2610; continue _fun00001;
+ 2603:
             variable40 = 22;
             romeon = variable41[variable40];
- 2609:
+ 2610:
             romeon = variable39.bind(verify)(romeon);
             romeon = quebec.bind(variable37)(romeon);
             romeon = update.bind(limora)(romeon);
@@ -669,25 +669,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.resolvedReason;
             michal = romeon.bind(update)(zuuluu);
             yankee = entity;
- 2859:
+ 2860:
             entity = oscard != config;
             option = null;
-            if(!entity) { _fun00002_ip = 2978; continue _fun00001 }
- 2868:
+            if(!entity) { _fun00002_ip = 2979; continue _fun00001 }
+ 2869:
             zuuluu = _closure1_slot0;
             romeon = _closure1_slot2;
             entity = 24;
             entity = romeon[entity];
             romeon = zuuluu.bind(verify)(entity);
             zuuluu = romeon.ensureAvatarSource;
-            if(!(oscard != whisks)) { _fun00002_ip = 2902; continue _fun00001 }
- 2898:
-            if(!(oscard == config)) { _fun00002_ip = 2915; continue _fun00001 }
- 2902:
+            if(!(oscard != whisks)) { _fun00002_ip = 2903; continue _fun00001 }
+ 2899:
+            if(!(oscard == config)) { _fun00002_ip = 2916; continue _fun00001 }
+ 2903:
             entity = sequen.getAvatarSource;
             entity = entity.bind(sequen)(verify);
-            _fun00002_ip = 2967; continue _fun00001;
- 2915:
+            _fun00002_ip = 2968; continue _fun00001;
+ 2916:
             status = _closure1_slot0;
             limora = _closure1_slot2;
             update = 21;
@@ -700,27 +700,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['guildMemberAvatar'] = whisks;
             update['guildId'] = config;
             entity = status.bind(limora)(update, sequen);
- 2967:
+ 2968:
             entity = zuuluu.bind(romeon)(entity);
             option = entity.uri;
- 2978:
+ 2979:
             entity = oscard != config;
             update = null;
-            if(!entity) { _fun00002_ip = 3008; continue _fun00001 }
- 2987:
+            if(!entity) { _fun00002_ip = 3009; continue _fun00001 }
+ 2988:
             romeon = _closure1_slot9;
             zuuluu = romeon.getMember;
             entity = sequen.id;
             update = zuuluu.bind(romeon)(config, entity);
- 3008:
+ 3009:
             entity = oscard != sierra;
             romeon = undefined;
-            if(!entity) { _fun00002_ip = 3075; continue _fun00001 }
- 3017:
+            if(!entity) { _fun00002_ip = 3076; continue _fun00001 }
+ 3018:
             entity = oscard != config;
             romeon = undefined;
-            if(!entity) { _fun00002_ip = 3075; continue _fun00001 }
- 3026:
+            if(!entity) { _fun00002_ip = 3076; continue _fun00001 }
+ 3027:
             zuuluu = _closure1_slot0;
             status = _closure1_slot2;
             entity = 26;
@@ -733,7 +733,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = 18;
             entity['size'] = sierra;
             romeon = zuuluu.bind(status)(entity);
- 3075:
+ 3076:
             entity = {};
             status = _closure1_slot1;
             variable36 = _closure1_slot2;
@@ -781,10 +781,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(verify)(source);
             sierra = oscard != zuuluu;
             status = null;
-            if(!sierra) { _fun00002_ip = 3290; continue _fun00001 }
- 3287:
+            if(!sierra) { _fun00002_ip = 3291; continue _fun00001 }
+ 3288:
             status = zuuluu;
- 3290:
+ 3291:
             zuuluu = 'colorString';
             entity[zuuluu] = status;
             zuuluu = {};
@@ -803,8 +803,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['headerBadgeText'] = foxtra;
             status = oscard != equals;
             foxtra = '';
-            if(!status) { _fun00002_ip = 3440; continue _fun00001 }
- 3378:
+            if(!status) { _fun00002_ip = 3441; continue _fun00001 }
+ 3379:
             sierra = _closure1_slot0;
             status = _closure1_slot2;
             limora = status[offset];
@@ -818,81 +818,81 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = {};
             status['keyword'] = equals;
             foxtra = limora.bind(whisks)(sierra, status);
- 3440:
+ 3441:
             zuuluu['keywordDisplayText'] = foxtra;
             foxtra = {};
-            if(!(oscard == target)) { _fun00002_ip = 3458; continue _fun00001 }
- 3453:
+            if(!(oscard == target)) { _fun00002_ip = 3459; continue _fun00001 }
+ 3454:
             target = kiloes.id;
- 3458:
+ 3459:
             foxtra['id'] = target;
             status = oscard == papara;
             target = undefined;
-            if(status) { _fun00002_ip = 3476; continue _fun00001 }
- 3471:
+            if(status) { _fun00002_ip = 3477; continue _fun00001 }
+ 3472:
             target = papara.id;
- 3476:
-            if(!(oscard != target)) { _fun00002_ip = 3483; continue _fun00001 }
- 3480:
+ 3477:
+            if(!(oscard != target)) { _fun00002_ip = 3484; continue _fun00001 }
+ 3481:
             record = target;
- 3483:
-            if(!(oscard == record)) { _fun00002_ip = 3492; continue _fun00001 }
- 3487:
+ 3484:
+            if(!(oscard == record)) { _fun00002_ip = 3493; continue _fun00001 }
+ 3488:
             record = kiloes.channel_id;
- 3492:
+ 3493:
             foxtra['channelId'] = record;
             foxtra['guildId'] = config;
             sequen = sequen.id;
             foxtra['userId'] = sequen;
             sequen = undefined;
-            if(!cntext) { _fun00002_ip = 3552; continue _fun00001 }
- 3514:
+            if(!cntext) { _fun00002_ip = 3553; continue _fun00001 }
+ 3515:
             config = oscard == sizing;
             sequen = undefined;
-            if(!config) { _fun00002_ip = 3552; continue _fun00001 }
- 3523:
+            if(!config) { _fun00002_ip = 3553; continue _fun00001 }
+ 3524:
             record = _closure1_slot0;
             config = _closure1_slot2;
             config = config[output];
             record = record.bind(verify)(config);
             config = record.getChannelName;
             sequen = config.bind(record)(papara, cntext);
- 3552:
+ 3553:
             foxtra['channelName'] = sequen;
             foxtra['username'] = echoed;
             echoed = result;
-            if(!(vacuum === ctrled)) { _fun00002_ip = 3587; continue _fun00001 }
- 3568:
+            if(!(vacuum === ctrled)) { _fun00002_ip = 3588; continue _fun00001 }
+ 3569:
             vacuum = _closure1_slot4;
             vacuum = vacuum.bind(verify)(source);
             echoed = result;
-            if(!(oscard != vacuum)) { _fun00002_ip = 3587; continue _fun00001 }
- 3584:
+            if(!(oscard != vacuum)) { _fun00002_ip = 3588; continue _fun00001 }
+ 3585:
             echoed = vacuum;
- 3587:
+ 3588:
             foxtra['usernameColor'] = echoed;
             echoed = _closure1_slot4;
             vacuum = echoed.bind(verify)(source);
             sequen = oscard != vacuum;
             echoed = null;
-            if(!sequen) { _fun00002_ip = 3613; continue _fun00001 }
- 3610:
+            if(!sequen) { _fun00002_ip = 3614; continue _fun00001 }
+ 3611:
             echoed = vacuum;
- 3613:
+ 3614:
             foxtra['roleColor'] = echoed;
             echoed = 'dot';
             echoed = echoed === ctrled;
-            if(!echoed) { _fun00002_ip = 3633; continue _fun00001 }
- 3629:
+            if(!echoed) { _fun00002_ip = 3634; continue _fun00001 }
+ 3630:
             echoed = oscard != source;
- 3633:
+ 3634:
             foxtra['shouldShowRoleDot'] = echoed;
             echoed = _closure1_slot4;
             echoed = echoed.bind(verify)(source);
-            if(!(oscard != echoed)) { _fun00002_ip = 3654; continue _fun00001 }
- 3651:
+            if(!(oscard != echoed)) { _fun00002_ip = 3655; continue _fun00001 }
+ 3652:
             result = echoed;
- 3654:
+ 3655:
             foxtra['colorString'] = result;
             foxtra['avatarURL'] = option;
             foxtra['content'] = golfie;
@@ -927,8 +927,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['ruleDisplayText'] = golfie;
             golfie = oscard != sizing;
             oscard = null;
-            if(!golfie) { _fun00002_ip = 3899; continue _fun00001 }
- 3817:
+            if(!golfie) { _fun00002_ip = 3900; continue _fun00001 }
+ 3818:
             kiloes = _closure1_slot0;
             backup = _closure1_slot2;
             golfie = backup[offset];
@@ -946,7 +946,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.bind(kiloes)(sizing);
             golfie['reason'] = backup;
             oscard = yankee.bind(foxtra)(option, golfie);
- 3899:
+ 3900:
             zuuluu['reasonDisplayText'] = oscard;
             option = _closure1_slot5;
             golfie = option.resolveAssetSource;
@@ -957,15 +957,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = romeon.makeSource;
             foxtra = _closure1_slot1;
             kiloes = _closure1_slot2;
-            if(tangon) { _fun00002_ip = 3959; continue _fun00001 }
- 3950:
+            if(tangon) { _fun00002_ip = 3960; continue _fun00001 }
+ 3951:
             oscard = 31;
             oscard = kiloes[oscard];
-            _fun00002_ip = 3966; continue _fun00001;
- 3959:
+            _fun00002_ip = 3967; continue _fun00001;
+ 3960:
             backup = 30;
             oscard = kiloes[backup];
- 3966:
+ 3967:
             oscard = foxtra.bind(verify)(oscard);
             oscard = yankee.bind(romeon)(oscard);
             oscard = golfie.bind(option)(oscard);
@@ -980,15 +980,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report[offset];
             report = option.bind(verify)(report);
             report = report.t;
-            if(tangon) { _fun00002_ip = 4051; continue _fun00001 }
- 4038:
+            if(tangon) { _fun00002_ip = 4052; continue _fun00001 }
+ 4039:
             tangon = report.DEoVWV;
             tangon = oscard.bind(golfie)(tangon);
-            _fun00002_ip = 4064; continue _fun00001;
- 4051:
+            _fun00002_ip = 4065; continue _fun00001;
+ 4052:
             report = report.UgXhdn;
             tangon = oscard.bind(golfie)(report);
- 4064:
+ 4065:
             zuuluu['actionsText'] = tangon;
             zuuluu['feedbackText'] = michal;
             michal = 'autoModerationContext';

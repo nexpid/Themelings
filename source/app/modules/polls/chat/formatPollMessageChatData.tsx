@@ -674,10 +674,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  28:
             var _closure2_slot0 = michal;
             output = entity.theme;
-            if(!(output === kiloes)) { _fun00016_ip = 45; continue _fun00015 }
- 41:
+            if(!(output === kiloes)) { _fun00016_ip = 46; continue _fun00015 }
+ 42:
             output = 'dark';
- 45:
+ 46:
             entity = entity.formattedExpirationLabel;
             var _closure2_slot1 = kiloes;
             var _closure2_slot2 = kiloes;
@@ -696,13 +696,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot15 = kiloes;
             cntext = oscard.poll;
             michal = null;
-            if(!(michal != cntext)) { _fun00016_ip = 294; continue _fun00015 }
- 126:
+            if(!(michal != cntext)) { _fun00016_ip = 295; continue _fun00015 }
+ 127:
             tangon = _closure1_slot8;
             zuuluu = tangon.getCurrentUser;
             golfie = zuuluu.bind(tangon)();
-            if(!(michal != golfie)) { _fun00016_ip = 294; continue _fun00015 }
- 149:
+            if(!(michal != golfie)) { _fun00016_ip = 295; continue _fun00015 }
+ 150:
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.useReducedMotion;
             _closure2_slot1 = zuuluu;
@@ -713,16 +713,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = michal == tangon;
             report = undefined;
-            if(zuuluu) { _fun00016_ip = 221; continue _fun00015 }
- 196:
+            if(zuuluu) { _fun00016_ip = 222; continue _fun00015 }
+ 197:
             zuuluu = tangon.getGuildId;
             zuuluu = michal == zuuluu;
             report = undefined;
-            if(zuuluu) { _fun00016_ip = 221; continue _fun00015 }
- 211:
+            if(zuuluu) { _fun00016_ip = 222; continue _fun00015 }
+ 212:
             zuuluu = tangon.getGuildId;
             report = zuuluu.bind(tangon)();
- 221:
+ 222:
             tangon = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 15;
@@ -738,18 +738,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['formattedExpirationLabel'] = entity;
             entity = argBar;
             entity = report.bind(kiloes)(oscard, entity, zuuluu);
-            if(!(michal == entity)) { _fun00016_ip = 296; continue _fun00015 }
- 294:
+            if(!(michal == entity)) { _fun00016_ip = 297; continue _fun00015 }
+ 295:
             return kiloes;
- 296:
+ 297:
             offset = entity.canTapAnswers;
             update = entity.canRemoveVote;
             golfie = entity.canShowVoteCounts;
             ctrled = entity.canSubmitVote;
             _closure2_slot3 = ctrled;
             michal = entity.expirationLabel;
-            if(!(kiloes === michal)) { _fun00016_ip = 391; continue _fun00015 }
- 334:
+            if(!(kiloes === michal)) { _fun00016_ip = 392; continue _fun00015 }
+ 335:
             option = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 16;
@@ -762,7 +762,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.e+J3JS;
             michal = report.bind(oscard)(zuuluu);
- 391:
+ 392:
             _closure2_slot4 = michal;
             option = entity.hasSelectedAnswer;
             _closure2_slot5 = option;
@@ -1242,15 +1242,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal[papara];
             michal = ctrled.bind(kiloes)(michal);
             michal = michal.t;
-            if(result) { _fun00016_ip = 963; continue _fun00015 }
- 948:
+            if(result) { _fun00016_ip = 964; continue _fun00015 }
+ 949:
             result = michal.cHfFqq;
             result = zuuluu.bind(verify)(result);
-            _fun00016_ip = 976; continue _fun00015;
- 963:
+            _fun00016_ip = 977; continue _fun00015;
+ 964:
             michal = michal.PVATMz;
             result = zuuluu.bind(verify)(michal);
- 976:
+ 977:
             _closure2_slot15 = result;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -1318,17 +1318,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             zuuluu = zuuluu.bind(verify)(michal);
             michal = undefined;
-            if(!yankee) { _fun00016_ip = 1199; continue _fun00015 }
- 1107:
+            if(!yankee) { _fun00016_ip = 1200; continue _fun00015 }
+ 1108:
             michal = undefined;
-            if(report) { _fun00016_ip = 1199; continue _fun00015 }
- 1112:
+            if(report) { _fun00016_ip = 1200; continue _fun00015 }
+ 1113:
             michal = undefined;
-            if(oscard) { _fun00016_ip = 1199; continue _fun00015 }
- 1117:
+            if(oscard) { _fun00016_ip = 1200; continue _fun00015 }
+ 1118:
             michal = undefined;
-            if(entity) { _fun00016_ip = 1199; continue _fun00015 }
- 1122:
+            if(entity) { _fun00016_ip = 1200; continue _fun00015 }
+ 1123:
             entity = {'label': null, 'presentation': 'textButton', 'enabled': true, 'type': 'showVotes'};
             record = _closure1_slot0;
             verify = _closure1_slot2;
@@ -1343,7 +1343,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = source.bind(ctrled)(verify);
             entity['label'] = verify;
             michal = entity;
- 1199:
+ 1200:
             verify = cntext.allow_multiselect;
             ctrled = _closure1_slot0;
             source = _closure1_slot2;
@@ -1486,10 +1486,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = backup.bind(update)();
             entity['answersInteraction'] = backup;
             backup = undefined;
-            if(!echoed) { _fun00016_ip = 1537; continue _fun00015 }
- 1534:
+            if(!echoed) { _fun00016_ip = 1538; continue _fun00015 }
+ 1535:
             backup = result;
- 1537:
+ 1538:
             entity['answerTapAccessibilityLabel'] = backup;
             entity['layoutType'] = sizing;
             backup = _closure1_slot1;

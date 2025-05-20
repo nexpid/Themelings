@@ -153,15 +153,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.align;
             entity = 'bottom';
             tangon = undefined;
-            foxtra = entity;
+            kiloes = entity;
             if(!(tangon !== zuuluu)) { _fun00004_ip = 25; continue _fun00003 }
  22:
-            foxtra = zuuluu;
+            kiloes = zuuluu;
  25:
             oscard = michal.style;
+            foxtra = michal.imgStyle;
+            michal = michal.resizeMode;
+            verify = 'cover';
+            if(!(tangon !== michal)) { _fun00004_ip = 53; continue _fun00003 }
+ 50:
+            verify = michal;
+ 53:
             michal = _closure1_slot7;
-            entity = entity === foxtra;
-            romeon = michal.bind(tangon)(entity);
+            entity = entity === kiloes;
+            yankee = michal.bind(tangon)(entity);
             report = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 4;
@@ -173,75 +180,77 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(tangon)(entity);
             entity = report.useTheme;
             entity = entity.bind(report)();
-            verify = michal.bind(zuuluu)(entity);
+            offset = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot6;
             michal = _closure1_slot3;
             entity = {};
-            golfie = romeon.wrapper;
+            golfie = yankee.wrapper;
             report = new Array(2);
             report[0] = golfie;
             report[1] = oscard;
             entity['style'] = report;
             option = _closure1_slot5;
-            if(verify) { _fun00004_ip = 162; continue _fun00003 }
- 138:
+            if(offset) { _fun00004_ip = 185; continue _fun00003 }
+ 161:
             oscard = _closure1_slot3;
             report = {};
-            golfie = romeon.solidBackground;
+            golfie = yankee.solidBackground;
             report['style'] = golfie;
             oscard = option.bind(tangon)(oscard, report);
-            _fun00004_ip = 222; continue _fun00003;
- 162:
+            _fun00004_ip = 245; continue _fun00003;
+ 185:
             golfie = _closure1_slot1;
-            offset = _closure1_slot2;
+            backup = _closure1_slot2;
             report = 6;
-            report = offset[report];
+            report = backup[report];
             golfie = golfie.bind(tangon)(report);
             report = {};
-            offset = 'top';
-            if(!(offset !== foxtra)) { _fun00004_ip = 198; continue _fun00003 }
- 192:
-            offset = _closure1_slot9;
-            _fun00004_ip = 202; continue _fun00003;
- 198:
-            offset = _closure1_slot8;
- 202:
-            report['colors'] = offset;
-            offset = romeon.gradient;
-            report['style'] = offset;
+            backup = 'top';
+            if(!(backup !== kiloes)) { _fun00004_ip = 221; continue _fun00003 }
+ 215:
+            backup = _closure1_slot9;
+            _fun00004_ip = 225; continue _fun00003;
+ 221:
+            backup = _closure1_slot8;
+ 225:
+            report['colors'] = backup;
+            backup = yankee.gradient;
+            report['style'] = backup;
             oscard = option.bind(tangon)(golfie, report);
- 222:
+ 245:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot5;
             golfie = _closure1_slot1;
-            offset = _closure1_slot2;
+            backup = _closure1_slot2;
             oscard = 7;
-            oscard = offset[oscard];
+            oscard = backup[oscard];
             golfie = golfie.bind(tangon)(oscard);
             oscard = {};
-            if(verify) { _fun00004_ip = 267; continue _fun00003 }
- 259:
-            offset = romeon.cloudsImageLight;
-            _fun00004_ip = 273; continue _fun00003;
- 267:
-            offset = romeon.cloudsImage;
- 273:
-            oscard['style'] = offset;
-            offset = _closure1_slot1;
-            romeon = _closure1_slot2;
-            if(verify) { _fun00004_ip = 297; continue _fun00003 }
- 288:
-            verify = 9;
-            verify = romeon[verify];
-            _fun00004_ip = 304; continue _fun00003;
- 297:
-            yankee = 8;
-            verify = romeon[yankee];
- 304:
-            verify = offset.bind(tangon)(verify);
-            oscard['source'] = verify;
-            verify = 'cover';
+            if(offset) { _fun00004_ip = 290; continue _fun00003 }
+ 282:
+            backup = yankee.cloudsImageLight;
+            _fun00004_ip = 296; continue _fun00003;
+ 290:
+            backup = yankee.cloudsImage;
+ 296:
+            yankee = new Array(2);
+            yankee[0] = backup;
+            yankee[1] = foxtra;
+            oscard['style'] = yankee;
+            yankee = _closure1_slot1;
+            foxtra = _closure1_slot2;
+            if(offset) { _fun00004_ip = 332; continue _fun00003 }
+ 323:
+            offset = 9;
+            offset = foxtra[offset];
+            _fun00004_ip = 339; continue _fun00003;
+ 332:
+            romeon = 8;
+            offset = foxtra[romeon];
+ 339:
+            offset = yankee.bind(tangon)(offset);
+            oscard['source'] = offset;
             oscard['resizeMode'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;

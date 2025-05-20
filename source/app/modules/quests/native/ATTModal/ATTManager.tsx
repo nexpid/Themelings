@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AnalyticEvents;
     var _closure1_slot12 = tangon;
-    tangon = 15;
+    tangon = 16;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -342,8 +342,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report.bind(entity)(tangon);
                 tangon = report.isIOS;
                 tangon = tangon.bind(report)();
-                if(!tangon) { _fun00008_ip = 97; continue _fun00007 }
- 40: // try_start_0
+                if(!tangon) { _fun00008_ip = 158; continue _fun00007 }
+ 40:
+                report = _closure1_slot1;
+                oscard = _closure1_slot2;
+                tangon = 12;
+                tangon = oscard[tangon];
+                golfie = report.bind(entity)(tangon);
+                oscard = golfie.getCurrentConfig;
+                report = {};
+                tangon = 'ATT_MANAGER';
+                report['location'] = tangon;
+                tangon = {};
+                option = false;
+                tangon['autoTrackExposure'] = option;
+                tangon = oscard.bind(golfie)(report, tangon);
+                tangon = tangon.enabled;
+                if(!tangon) { _fun00008_ip = 158; continue _fun00007 }
+ 101: // try_start_0
                 tangon = function() { // Original name: getAttEligibilityCheckResult
                     entity = undefined;
                     tangon = _closure1_slot14;
@@ -361,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = argBar;
                         report = _closure1_slot1;
                         yankee = _closure1_slot2;
-                        entity = 12;
+                        entity = 13;
                         tangon = yankee[entity];
                         entity = undefined;
                         golfie = report.bind(entity)(tangon);
@@ -411,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  260:
                         zuuluu = _closure1_slot1;
                         tangon = _closure1_slot2;
-                        michal = 13;
+                        michal = 14;
                         michal = tangon[michal];
                         tangon = zuuluu.bind(entity)(michal);
                         zuuluu = tangon.trackExposure;
@@ -425,18 +441,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 zuuluu = tangon.bind(entity)(zuuluu);
                 zuuluu = !zuuluu;
- 62: // try_end0
-                _fun00008_ip = 97; continue _fun00007;
- 64: // catch_target0
+ 123: // try_end0
+                _fun00008_ip = 158; continue _fun00007;
+ 125: // catch_target0
                 CatchBlockStart(arg_register=3);
                 zuuluu = _closure1_slot1;
                 report = _closure1_slot2;
-                michal = 14;
+                michal = 15;
                 michal = report[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.captureException;
                 michal = michal.bind(zuuluu)(tangon);
- 97:
+ 158:
                 return entity;
             }
         };
@@ -452,7 +468,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 16;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

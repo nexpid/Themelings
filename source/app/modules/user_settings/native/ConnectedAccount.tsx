@@ -536,17 +536,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = sizing.bind(output)(backup);
             sizing = result == output;
             backup = undefined;
-            if(sizing) { _fun00004_ip = 831; continue _fun00003 }
- 799:
+            if(sizing) { _fun00004_ip = 835; continue _fun00003 }
+ 803:
             sizing = output.getPlatformUserUrl;
             sizing = result == sizing;
             backup = undefined;
-            if(sizing) { _fun00004_ip = 831; continue _fun00003 }
- 814:
+            if(sizing) { _fun00004_ip = 835; continue _fun00003 }
+ 818:
             sizing = output.getPlatformUserUrl;
             kiloes = kiloes.account;
             backup = sizing.bind(output)(kiloes);
- 831:
+ 835:
             yankee['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);
             offset[1] = yankee;
@@ -2090,13 +2090,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = romeon.isThemeDark;
                 oscard = oscard.bind(romeon)(foxtra);
                 offset = offset.icon;
-                if(oscard) { _fun00032_ip = 203; continue _fun00031 }
- 195:
+                if(oscard) { _fun00032_ip = 204; continue _fun00031 }
+ 196:
                 oscard = offset.lightPNG;
-                _fun00032_ip = 209; continue _fun00031;
- 203:
+                _fun00032_ip = 210; continue _fun00031;
+ 204:
                 oscard = offset.darkPNG;
- 209:
+ 210:
                 oscard = golfie.bind(verify)(oscard);
                 entity['source'] = oscard;
                 entity['disableColor'] = report;

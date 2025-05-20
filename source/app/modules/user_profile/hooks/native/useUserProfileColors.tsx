@@ -100,44 +100,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = michal.bind(report)(oscard);
             report = null;
             michal = report == kiloes;
-            if(entity) { _fun00002_ip = 332; continue _fun00001 }
- 319:
+            if(entity) { _fun00002_ip = 333; continue _fun00001 }
+ 320:
             golfie = undefined;
-            if(michal) { _fun00002_ip = 330; continue _fun00001 }
- 324:
+            if(michal) { _fun00002_ip = 331; continue _fun00001 }
+ 325:
             golfie = kiloes.overlay;
- 330:
-            _fun00002_ip = 346; continue _fun00001;
- 332:
+ 331:
+            _fun00002_ip = 347; continue _fun00001;
+ 333:
             entity = undefined;
-            if(michal) { _fun00002_ip = 343; continue _fun00001 }
- 337:
+            if(michal) { _fun00002_ip = 344; continue _fun00001 }
+ 338:
             entity = kiloes.overlaySyncedWithUserTheme;
- 343:
+ 344:
             golfie = entity;
- 346:
+ 347:
             entity = tangon;
-            if(!(report != option)) { _fun00002_ip = 559; continue _fun00001 }
- 356:
+            if(!(report != option)) { _fun00002_ip = 560; continue _fun00001 }
+ 357:
             entity = tangon;
-            if(!(report != backup)) { _fun00002_ip = 559; continue _fun00001 }
- 366:
+            if(!(report != backup)) { _fun00002_ip = 560; continue _fun00001 }
+ 367:
             entity = tangon;
-            if(!(report != kiloes)) { _fun00002_ip = 559; continue _fun00001 }
- 376:
+            if(!(report != kiloes)) { _fun00002_ip = 560; continue _fun00001 }
+ 377:
             entity = tangon;
-            if(!(report != golfie)) { _fun00002_ip = 559; continue _fun00001 }
- 386:
+            if(!(report != golfie)) { _fun00002_ip = 560; continue _fun00001 }
+ 387:
             michal = {};
             result = michal;
             output = tangon;
             tangon = copyDataProperties(result, output);
             tangon = report == kiloes;
             oscard = undefined;
-            if(tangon) { _fun00002_ip = 413; continue _fun00001 }
- 407:
+            if(tangon) { _fun00002_ip = 414; continue _fun00001 }
+ 408:
             oscard = kiloes.sectionBox;
- 413:
+ 414:
             tangon = 'containerBackground';
             michal[tangon] = oscard;
             foxtra = _closure1_slot0;
@@ -151,10 +151,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = foxtra.calculateOverlayedColor;
             sizing = report == kiloes;
             report = undefined;
-            if(sizing) { _fun00002_ip = 478; continue _fun00001 }
- 472:
+            if(sizing) { _fun00002_ip = 479; continue _fun00001 }
+ 473:
             report = kiloes.overlay;
- 478:
+ 479:
             report = romeon.bind(foxtra)(backup, report);
             oscard = oscard.bind(yankee)(report);
             report = 'gradientSecondaryBackground';
@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = 'avatarBackground';
             michal[zuuluu] = tangon;
             entity = michal;
- 559:
+ 560:
             return entity;
         }
     };

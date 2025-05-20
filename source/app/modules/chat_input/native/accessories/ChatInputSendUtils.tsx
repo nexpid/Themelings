@@ -345,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.ChannelMessage;
             verify = romeon.bind(foxtra)(verify, zuuluu);
             _closure2_slot3 = verify;
-            if(!(report != verify)) { _fun00008_ip = 901; continue _fun00007 }
+            if(!(report != verify)) { _fun00008_ip = 897; continue _fun00007 }
  617:
             romeon = _closure1_slot4;
             zuuluu = romeon.getToken;
@@ -431,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['maxSizeCallback'] = foxtra;
             zuuluu['analyticsLocations'] = option;
             zuuluu = tangon.bind(report)(zuuluu);
-            _fun00008_ip = 901; continue _fun00007;
+            _fun00008_ip = 897; continue _fun00007;
  802:
             option = 13;
             zuuluu = romeon[option];
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = undefined;
             echoed = michal;
             michal = vacuum[tangon](ctrled, source, update, echoed, result);
- 901:
+ 897:
             return entity;
         }
     };

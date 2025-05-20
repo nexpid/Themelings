@@ -572,15 +572,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes[0] = output;
                 output = null;
                 output = output != result;
-                if(!output) { _fun00006_ip = 492; continue _fun00005 }
- 489:
+                if(!output) { _fun00006_ip = 493; continue _fun00005 }
+ 490:
                 output = !sizing;
- 492:
+ 493:
                 sizing = !output;
-                if(output) { _fun00006_ip = 504; continue _fun00005 }
- 498:
+                if(output) { _fun00006_ip = 505; continue _fun00005 }
+ 499:
                 sizing = foxtra.dotDismissed;
- 504:
+ 505:
                 kiloes[1] = sizing;
                 option['style'] = kiloes;
                 offset = yankee.bind(tangon)(offset, option);
@@ -599,10 +599,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = 'text-sm/semibold';
                 verify['variant'] = foxtra;
                 foxtra = 'always-white';
-                if(!backup) { _fun00006_ip = 589; continue _fun00005 }
- 583:
+                if(!backup) { _fun00006_ip = 590; continue _fun00005 }
+ 584:
                 foxtra = 'text-danger';
- 589:
+ 590:
                 verify['color'] = foxtra;
                 foxtra = true;
                 verify['tabularNumbers'] = foxtra;

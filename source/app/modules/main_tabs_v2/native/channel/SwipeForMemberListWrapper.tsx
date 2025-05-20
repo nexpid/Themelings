@@ -1081,16 +1081,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['style'] = romeon;
             foxtra = !status;
             romeon = !foxtra;
-            if(!foxtra) { _fun00002_ip = 1055; continue _fun00001 }
- 1053:
+            if(!foxtra) { _fun00002_ip = 1056; continue _fun00001 }
+ 1054:
             romeon = undefined;
- 1055:
+ 1056:
             offset['accessibilityElementsHidden'] = romeon;
             romeon = undefined;
-            if(!status) { _fun00002_ip = 1071; continue _fun00001 }
- 1065:
+            if(!status) { _fun00002_ip = 1072; continue _fun00001 }
+ 1066:
             romeon = 'no-hide-descendants';
- 1071:
+ 1072:
             offset['importantForAccessibility'] = romeon;
             romeon = new Array(2);
             romeon[0] = yankee;
@@ -1123,34 +1123,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot13;
             ctrled = kiloes.MIDNIGHT;
             kiloes = undefined;
-            if(!(output === ctrled)) { _fun00002_ip = 1218; continue _fun00001 }
- 1212:
+            if(!(output === ctrled)) { _fun00002_ip = 1219; continue _fun00001 }
+ 1213:
             kiloes = update.midnightBorder;
- 1218:
+ 1219:
             backup[2] = kiloes;
             kiloes = undefined;
-            if(sizing) { _fun00002_ip = 1249; continue _fun00001 }
- 1227:
+            if(sizing) { _fun00002_ip = 1250; continue _fun00001 }
+ 1228:
             sizing = _closure1_slot13;
             sizing = sizing.MIDNIGHT;
             kiloes = undefined;
-            if(!(output === sizing)) { _fun00002_ip = 1249; continue _fun00001 }
- 1243:
+            if(!(output === sizing)) { _fun00002_ip = 1250; continue _fun00001 }
+ 1244:
             kiloes = update.midnightRightOverflow;
- 1249:
+ 1250:
             backup[3] = kiloes;
             yankee['style'] = backup;
             backup = !status;
-            if(backup) { _fun00002_ip = 1265; continue _fun00001 }
- 1263:
+            if(backup) { _fun00002_ip = 1266; continue _fun00001 }
+ 1264:
             backup = undefined;
- 1265:
+ 1266:
             yankee['accessibilityElementsHidden'] = backup;
             backup = 'no-hide-descendants';
-            if(!status) { _fun00002_ip = 1281; continue _fun00001 }
- 1279:
+            if(!status) { _fun00002_ip = 1282; continue _fun00001 }
+ 1280:
             backup = undefined;
- 1281:
+ 1282:
             yankee['importantForAccessibility'] = backup;
             output = _closure1_slot14;
             sizing = _closure1_slot0;

@@ -58,42 +58,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = new Array(0);
             zuuluu = golfie.match;
             michal = /^(tel|sms|mailto):([^?;]+)/;
-            option = zuuluu.bind(golfie)(michal);
-            _closure2_slot4 = option;
+            michal = zuuluu.bind(golfie)(michal);
+            _closure2_slot4 = michal;
             zuuluu = null;
-            if(!(zuuluu != option)) { _fun00002_ip = 300; continue _fun00001 }
+            if(!(zuuluu != michal)) { _fun00002_ip = 393; continue _fun00001 }
  161:
-            report = verify.push;
-            michal = {};
-            yankee = _closure1_slot0;
-            offset = _closure1_slot2;
-            backup = 1;
-            offset = offset[backup];
-            offset = yankee.bind(entity)(offset);
-            yankee = offset.intl;
-            offset = yankee.string;
-            foxtra = option[backup];
-            option = 'mailto';
-            if(!(option !== foxtra)) { _fun00002_ip = 245; continue _fun00001 }
+            offset = verify.push;
+            report = {};
+            romeon = _closure1_slot0;
+            yankee = _closure1_slot2;
+            foxtra = 1;
+            yankee = yankee[foxtra];
+            yankee = romeon.bind(entity)(yankee);
+            backup = yankee.intl;
+            romeon = backup.string;
+            kiloes = michal[foxtra];
+            yankee = 'mailto';
+            if(!(yankee !== kiloes)) { _fun00002_ip = 245; continue _fun00001 }
  213:
-            foxtra = _closure1_slot0;
-            option = _closure1_slot2;
-            option = option[backup];
-            option = foxtra.bind(entity)(option);
-            option = option.t;
-            option = option.3zozoa;
+            kiloes = _closure1_slot0;
+            yankee = _closure1_slot2;
+            yankee = yankee[foxtra];
+            yankee = kiloes.bind(entity)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.3zozoa;
             _fun00002_ip = 275; continue _fun00001;
  245:
-            foxtra = _closure1_slot0;
-            romeon = _closure1_slot2;
-            romeon = romeon[backup];
-            romeon = foxtra.bind(entity)(romeon);
-            romeon = romeon.t;
-            option = romeon.ZYLVKi;
+            sizing = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            kiloes = kiloes[foxtra];
+            kiloes = sizing.bind(entity)(kiloes);
+            kiloes = kiloes.t;
+            yankee = kiloes.ZYLVKi;
  275:
-            option = offset.bind(yankee)(option);
-            michal['label'] = option;
-            option = function() { // Original name: onPress
+            yankee = romeon.bind(backup)(yankee);
+            report['label'] = yankee;
+            yankee = function() { // Original name: onPress
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
                 report = 2;
@@ -111,9 +111,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
+            report['onPress'] = yankee;
+            report = offset.bind(verify)(report);
+            report = michal[foxtra];
+            michal = 'tel';
+            if(!(michal === report)) { _fun00002_ip = 393; continue _fun00001 }
+ 312:
+            report = verify.push;
+            michal = {};
+            romeon = _closure1_slot0;
+            option = _closure1_slot2;
+            offset = option[foxtra];
+            offset = romeon.bind(entity)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            option = option[foxtra];
+            option = romeon.bind(entity)(option);
+            option = option.t;
+            option = option.+wbjMT;
+            option = offset.bind(yankee)(option);
+            michal['label'] = option;
+            option = function() { // Original name: onPress
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
+                entity = 4;
+                michal = michal[entity];
+                entity = undefined;
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.openURL;
+                golfie = _closure2_slot0;
+                oscard = golfie.replace;
+                report = 'tel:';
+                michal = 'sms:';
+                michal = oscard.bind(golfie)(report, michal);
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            };
             michal['onPress'] = option;
             michal = report.bind(verify)(michal);
- 300:
+ 393:
             option = {};
             backup = _closure1_slot0;
             offset = _closure1_slot2;
@@ -173,10 +209,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             option['onPress'] = yankee;
             report[1] = option;
-            sizing = 2;
-            result = report;
-            output = verify;
-            option = arraySpread(result, output, sizing);
+            output = 2;
+            echoed = report;
+            result = verify;
+            option = arraySpread(echoed, result, output);
             verify = {};
             yankee = offset[romeon];
             yankee = backup.bind(entity)(yankee);
@@ -206,8 +242,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify['onPress'] = offset;
             report[option] = verify;
             option = option + romeon;
-            if(!(zuuluu != tangon)) { _fun00002_ip = 615; continue _fun00001 }
- 535:
+            if(!(zuuluu != tangon)) { _fun00002_ip = 708; continue _fun00001 }
+ 628:
             tangon = report.unshift;
             zuuluu = {};
             yankee = _closure1_slot0;
@@ -243,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             zuuluu['onPress'] = oscard;
             zuuluu = tangon.bind(report)(zuuluu);
- 615:
+ 708:
             yankee = _closure1_slot0;
             option = _closure1_slot2;
             michal = 7;

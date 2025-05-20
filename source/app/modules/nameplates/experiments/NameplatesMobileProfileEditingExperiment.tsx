@@ -1,4 +1,4 @@
-// app/modules/user_profile/experiments/MobilePerGuildCollectiblesEditExperiment.tsx
+// app/modules/nameplates/experiments/NameplatesMobileProfileEditingExperiment.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
@@ -7,8 +7,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     option = entity.Object;
     report = option.defineProperty;
     tangon = {};
-    romeon = true;
-    tangon['value'] = romeon;
+    yankee = true;
+    tangon['value'] = yankee;
     entity = '__esModule';
     entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
@@ -20,29 +20,29 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = golfie[tangon];
     option = oscard.bind(entity)(tangon);
     report = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2024-08_mobile_perguild_collectibles_edit', 'label': 'Mobile Per-guild Collectibles Edit'};
-    offset = {};
-    yankee = false;
-    offset['enabled'] = yankee;
-    tangon['defaultConfig'] = offset;
-    yankee = {'id': 1, 'label': 'Enable Mobile Per-guild Collectibles Edit'};
-    offset = {};
-    offset['enabled'] = romeon;
-    yankee['config'] = offset;
-    offset = new Array(1);
-    offset[0] = yankee;
-    tangon['treatments'] = offset;
+    tangon = {'kind': 'user', 'id': '2025-05_nameplate_mobile_editing', 'label': 'Nameplates Mobile Profile Editing'};
     verify = verify.OPEN_USER_SETTINGS;
     tangon['commonTriggerPoint'] = verify;
+    verify = {};
+    offset = false;
+    verify['enableMobileProfileEditing'] = offset;
+    tangon['defaultConfig'] = verify;
+    offset = {'id': 1, 'label': 'Enable Edit'};
+    verify = {};
+    verify['enableMobileProfileEditing'] = yankee;
+    offset['config'] = verify;
+    verify = new Array(1);
+    verify[0] = offset;
+    tangon['treatments'] = verify;
     tangon = report.bind(option)(tangon);
     var _closure1_slot0 = tangon;
     report = 2;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/user_profile/experiments/MobilePerGuildCollectiblesEditExperiment.tsx';
+    report = 'modules/nameplates/experiments/NameplatesMobileProfileEditingExperiment.tsx';
     report = oscard.bind(golfie)(report);
-    zuuluu['MobilePerGuildCollectiblesEditExperiment'] = tangon;
+    zuuluu['NameplatesMobileProfileEditingExperiment'] = tangon;
     michal = function(argFoo) {
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;
@@ -50,12 +50,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = argFoo;
         michal['location'] = entity;
         entity = {};
-        report = true;
+        report = false;
         entity['autoTrackExposure'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
+        entity = entity.enableMobileProfileEditing;
         return entity;
     };
-    zuuluu['useShouldEnableMobilePerGuildCollectiblesEdit'] = michal;
+    zuuluu['useNameplatesEnableMobileProfileEditing'] = michal;
     return entity;
 })();

@@ -192,8 +192,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['animatedProps'] = report;
             report = null;
             oscard = report != result;
-            if(!oscard) { _fun00004_ip = 410; continue _fun00003 }
- 341:
+            if(!oscard) { _fun00004_ip = 411; continue _fun00003 }
+ 342:
             option = _closure1_slot5;
             golfie = _closure1_slot4;
             report = {};
@@ -211,14 +211,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['accessibilityLabel'] = romeon;
             report['aria-hidden'] = yankee;
             oscard = option.bind(tangon)(golfie, report);
- 410:
+ 411:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot5;
             golfie = _closure1_slot4;
             oscard = 'none';
-            if(!(oscard === output)) { _fun00004_ip = 492; continue _fun00003 }
- 434:
+            if(!(oscard === output)) { _fun00004_ip = 493; continue _fun00003 }
+ 435:
             oscard = {};
             sequen = oscard;
             vacuum = offset;
@@ -226,18 +226,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.fill;
             yankee = new Array(2);
             yankee[0] = romeon;
-            if(verify) { _fun00004_ip = 471; continue _fun00003 }
- 463:
+            if(verify) { _fun00004_ip = 472; continue _fun00003 }
+ 464:
             verify = foxtra.backdrop;
-            _fun00004_ip = 477; continue _fun00003;
- 471:
+            _fun00004_ip = 478; continue _fun00003;
+ 472:
             verify = foxtra.backdropOpaque;
- 477:
+ 478:
             yankee[1] = verify;
             verify = 'style';
             oscard[verify] = yankee;
-            _fun00004_ip = 613; continue _fun00003;
- 492:
+            _fun00004_ip = 614; continue _fun00003;
+ 493:
             verify = {};
             sequen = verify;
             vacuum = offset;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'children';
             verify[offset] = yankee;
             oscard = verify;
- 613:
+ 614:
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;
             entity['children'] = report;

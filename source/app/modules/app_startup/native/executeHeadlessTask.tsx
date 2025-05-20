@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     sizing = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 2308; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 2297; continue _fun00001 }
  13:
                     backup = sizing;
                     romeon = argBar;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure1_slot5;
                     offset = michal.currentState;
                     michal = 'active';
-                    if(!(michal !== offset)) { _fun00002_ip = 369; continue _fun00001 }
+                    if(!(michal !== offset)) { _fun00002_ip = 368; continue _fun00001 }
  316:
                     sizing = zuuluu;
                     offset = sizing.log;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = sizing.setIsPaused;
                     michal = true;
                     michal = offset.bind(sizing)(michal);
- 369:
+ 368:
                     offset = _closure1_slot1;
                     michal = _closure1_slot3;
                     sizing = 12;
@@ -130,26 +130,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = output.bind(result)(offset, michal);
                     michal = _closure1_slot7;
                     michal = michal.bind(verify)();
-                    SaveGenerator(address=446);
- 444:
+                    SaveGenerator(address=445);
+ 443:
                     return michal;
- 446:
+ 445:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 1669; continue _fun00001 }
- 455:
+                    if(offset) { _fun00002_ip = 1660; continue _fun00001 }
+ 454:
                     result = zuuluu;
                     output = result.log;
                     offset = 'initHeadlessTask completed';
                     offset = output.bind(result)(offset);
                     offset = _closure1_slot8;
                     offset = offset.promise;
-                    SaveGenerator(address=489);
- 487:
+                    SaveGenerator(address=487);
+ 485:
                     return offset;
- 489:
+ 487:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=16);
-                    if(output) { _fun00002_ip = 1347; continue _fun00001 }
- 498:
+                    if(output) { _fun00002_ip = 1339; continue _fun00001 }
+ 496:
                     echoed = zuuluu;
                     result = echoed.log;
                     output = 'Flux Initialized';
@@ -157,14 +157,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = _closure1_slot6;
                     output = result.isAuthenticated;
                     output = output.bind(result)();
-                    if(output) { _fun00002_ip = 557; continue _fun00001 }
- 535:
+                    if(output) { _fun00002_ip = 553; continue _fun00001 }
+ 532:
                     echoed = zuuluu;
                     result = echoed.log;
                     output = 'Analytics Init skipped; not authenticated';
                     output = result.bind(echoed)(output);
-                    _fun00002_ip = 659; continue _fun00001;
- 557:
+                    _fun00002_ip = 654; continue _fun00001;
+ 553:
                     result = _closure1_slot0;
                     echoed = _closure1_slot3;
                     output = 13;
@@ -188,23 +188,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = echoed.log;
                     output = 'Analytics Initialized';
                     output = result.bind(echoed)(output);
- 659:
+ 654:
                     romeon = romeon.bind(verify)();
                     yankee = romeon.bind(verify)(yankee);
-                    SaveGenerator(address=672);
- 670:
+                    SaveGenerator(address=667);
+ 665:
                     return yankee;
- 672:
+ 667:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 1025; continue _fun00001 }
- 681:
+                    if(romeon) { _fun00002_ip = 1018; continue _fun00001 }
+ 676:
                     source = true;
                     foxtra = true;
                     result = zuuluu;
                     output = result.log;
                     romeon = 'Task completed successfully';
                     romeon = output.bind(result)(romeon);
- 705: // try_end0
+ 699: // try_end0
                     output = report.Date;
                     romeon = output.now;
                     output = romeon.bind(output)();
@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = {};
                     romeon['flush'] = source;
                     tangon = echoed.bind(update)(result, output, romeon);
- 916: // try_start_1
+ 909: // try_start_1
                     result = report.Promise;
                     output = result.race;
                     echoed = tangon;
@@ -269,25 +269,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = update.bind(source)(echoed);
                     romeon[1] = echoed;
                     romeon = output.bind(result)(romeon);
-                    SaveGenerator(address=989);
- 987:
+                    SaveGenerator(address=982);
+ 980:
                     return romeon;
- 989:
+ 982:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=16);
-                    if(output) { _fun00002_ip = 997; continue _fun00001 }
- 995: // try_end1
-                    _fun00002_ip = 1022; continue _fun00001;
- 997:
+                    if(output) { _fun00002_ip = 990; continue _fun00001 }
+ 988: // try_end1
+                    _fun00002_ip = 1015; continue _fun00001;
+ 990:
                     return romeon;
- 1000: // catch_target1
+ 993: // catch_target1
                     CatchBlockStart(arg_register=18);
                     result = zuuluu;
                     output = result.warn;
                     romeon = 'Failed to submit analytics';
                     romeon = output.bind(result)(romeon, echoed);
- 1022:
+ 1015:
                     return verify;
- 1025:
+ 1018:
                     output = report.Date;
                     romeon = output.now;
                     output = romeon.bind(output)();
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = true;
                     romeon['flush'] = source;
                     tangon = echoed.bind(update)(result, output, romeon);
- 1238: // try_start_2
+ 1230: // try_start_2
                     result = report.Promise;
                     output = result.race;
                     echoed = tangon;
@@ -353,25 +353,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = update.bind(source)(echoed);
                     romeon[1] = echoed;
                     romeon = output.bind(result)(romeon);
-                    SaveGenerator(address=1311);
- 1309:
+                    SaveGenerator(address=1303);
+ 1301:
                     return romeon;
- 1311:
+ 1303:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=16);
-                    if(output) { _fun00002_ip = 1319; continue _fun00001 }
- 1317: // try_end2
-                    _fun00002_ip = 1344; continue _fun00001;
- 1319:
+                    if(output) { _fun00002_ip = 1311; continue _fun00001 }
+ 1309: // try_end2
+                    _fun00002_ip = 1336; continue _fun00001;
+ 1311:
                     return romeon;
- 1322: // catch_target2
+ 1314: // catch_target2
                     CatchBlockStart(arg_register=18);
                     result = zuuluu;
                     output = result.warn;
                     romeon = 'Failed to submit analytics';
                     romeon = output.bind(result)(romeon, echoed);
- 1344:
+ 1336:
                     return yankee;
- 1347:
+ 1339:
                     romeon = report.Date;
                     yankee = romeon.now;
                     romeon = yankee.bind(romeon)();
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = true;
                     yankee['flush'] = update;
                     tangon = result.bind(echoed)(output, romeon, yankee);
- 1560: // try_start_3
+ 1551: // try_start_3
                     output = report.Promise;
                     romeon = output.race;
                     result = tangon;
@@ -437,25 +437,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = echoed.bind(update)(result);
                     yankee[1] = result;
                     yankee = romeon.bind(output)(yankee);
-                    SaveGenerator(address=1633);
- 1631:
+                    SaveGenerator(address=1624);
+ 1622:
                     return yankee;
- 1633:
+ 1624:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 1641; continue _fun00001 }
- 1639: // try_end3
-                    _fun00002_ip = 1666; continue _fun00001;
- 1641:
+                    if(romeon) { _fun00002_ip = 1632; continue _fun00001 }
+ 1630: // try_end3
+                    _fun00002_ip = 1657; continue _fun00001;
+ 1632:
                     return yankee;
- 1644: // catch_target3
+ 1635: // catch_target3
                     CatchBlockStart(arg_register=17);
                     output = zuuluu;
                     romeon = output.warn;
                     yankee = 'Failed to submit analytics';
                     yankee = romeon.bind(output)(yankee, result);
- 1666:
+ 1657:
                     return offset;
- 1669:
+ 1660:
                     yankee = report.Date;
                     offset = yankee.now;
                     yankee = offset.bind(yankee)();
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = true;
                     offset['flush'] = result;
                     tangon = sizing.bind(output)(romeon, yankee, offset);
- 1882: // try_start_4
+ 1872: // try_start_4
                     romeon = report.Promise;
                     yankee = romeon.race;
                     sizing = tangon;
@@ -521,25 +521,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = output.bind(result)(sizing);
                     offset[1] = sizing;
                     offset = yankee.bind(romeon)(offset);
-                    SaveGenerator(address=1955);
+                    SaveGenerator(address=1945);
+ 1943:
+                    return offset;
+ 1945:
+                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
+                    if(yankee) { _fun00002_ip = 1953; continue _fun00001 }
+ 1951: // try_end4
+                    _fun00002_ip = 1978; continue _fun00001;
  1953:
                     return offset;
- 1955:
-                    ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
-                    if(yankee) { _fun00002_ip = 1963; continue _fun00001 }
- 1961: // try_end4
-                    _fun00002_ip = 1988; continue _fun00001;
- 1963:
-                    return offset;
- 1966: // catch_target4
+ 1956: // catch_target4
                     CatchBlockStart(arg_register=15);
                     romeon = zuuluu;
                     yankee = romeon.warn;
                     offset = 'Failed to submit analytics';
                     offset = yankee.bind(romeon)(offset, sizing);
- 1988:
+ 1978:
                     return michal;
- 1991: // catch_target0
+ 1981: // catch_target0
                     CatchBlockStart(arg_register=1);
                     yankee = report.Date;
                     offset = yankee.now;
@@ -588,7 +588,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = true;
                     oscard['flush'] = foxtra;
                     tangon = yankee.bind(romeon)(offset, option, oscard);
- 2200: // try_start_5
+ 2189: // try_start_5
                     oscard = report.Promise;
                     report = oscard.race;
                     option = tangon;
@@ -604,25 +604,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.bind(verify)(golfie);
                     tangon[1] = golfie;
                     tangon = report.bind(oscard)(tangon);
-                    SaveGenerator(address=2273);
- 2271:
+                    SaveGenerator(address=2262);
+ 2260:
                     return tangon;
- 2273:
+ 2262:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 2281; continue _fun00001 }
- 2279: // try_end5
-                    _fun00002_ip = 2306; continue _fun00001;
- 2281:
+                    if(report) { _fun00002_ip = 2270; continue _fun00001 }
+ 2268: // try_end5
+                    _fun00002_ip = 2295; continue _fun00001;
+ 2270:
                     return tangon;
- 2284: // catch_target5
+ 2273: // catch_target5
                     CatchBlockStart(arg_register=5);
                     report = zuuluu;
                     tangon = report.warn;
                     zuuluu = 'Failed to submit analytics';
                     zuuluu = tangon.bind(report)(zuuluu, oscard);
- 2306:
+ 2295:
                     throw michal;
- 2308:
+ 2297:
                     return entity;
                 }
             };

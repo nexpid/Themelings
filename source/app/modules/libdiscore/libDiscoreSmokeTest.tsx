@@ -1,55 +1,104 @@
 // app/modules/libdiscore/libDiscoreSmokeTest.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = argBar;
+    yankee = argBaz;
     zuuluu = argFre;
     verify = argPlu;
     var _closure1_slot0 = option;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = yankee;
     var _closure1_slot2 = verify;
     oscard = function() { // Original name: libDiscoreSmokeTest
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            entity = _closure1_slot5;
-            if(entity) { _fun00002_ip = 101; continue _fun00001 }
- 10: // try_start_0
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 2;
-            entity = zuuluu[entity];
-            zuuluu = undefined;
-            oscard = tangon.bind(zuuluu)(entity);
-            report = oscard.rustMultiply;
-            tangon = 6;
-            entity = 7;
-            oscard = report.bind(oscard)(tangon, entity);
-            report = _closure1_slot4;
-            tangon = report.info;
-            entity = 'The answer for life the universe and everything is:';
-            entity = tangon.bind(report)(entity, oscard);
-            entity = _closure1_slot6;
-            entity = entity.bind(zuuluu)();
- 80: // try_end0
-            _fun00002_ip = 95; continue _fun00001;
- 82: // catch_target0
-            CatchBlockStart(arg_register=3);
-            zuuluu = _closure1_slot8;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(tangon);
- 95:
-            entity = true;
-            _closure1_slot5 = entity;
- 101:
-            entity = undefined;
-            return entity;
-        }
+        entity = undefined;
+        tangon = _closure1_slot7;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
     };
+    entity = function() { // Original name: _libDiscoreSmokeTest
+        report = undefined;
+        entity = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
+            entity = function* () { // Original name: ?anon_0_
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00002_ip = 162; continue _fun00001 }
+ 10:
+                    michal = _closure1_slot6;
+                    if(michal) { _fun00002_ip = 157; continue _fun00001 }
+ 23: // try_start_0
+                    tangon = _closure1_slot0;
+                    report = _closure1_slot2;
+                    michal = 3;
+                    michal = report[michal];
+                    report = undefined;
+                    tangon = tangon.bind(report)(michal);
+                    michal = tangon.initLibdiscore;
+                    michal = michal.bind(tangon)();
+                    SaveGenerator(address=59);
+ 57:
+                    return michal;
+ 59:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(tangon) { _fun00002_ip = 135; continue _fun00001 }
+ 65:
+                    oscard = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    tangon = 4;
+                    tangon = golfie[tangon];
+                    option = oscard.bind(report)(tangon);
+                    golfie = option.rustMultiply;
+                    oscard = 6;
+                    tangon = 7;
+                    option = golfie.bind(option)(oscard, tangon);
+                    golfie = _closure1_slot5;
+                    oscard = golfie.info;
+                    tangon = 'The answer for life the universe and everything is:';
+                    tangon = oscard.bind(golfie)(tangon, option);
+                    tangon = _closure1_slot8;
+                    tangon = tangon.bind(report)();
+ 133: // try_end0
+                    _fun00002_ip = 151; continue _fun00001;
+ 135:
+                    return michal;
+ 138: // catch_target0
+                    CatchBlockStart(arg_register=4);
+                    tangon = _closure1_slot10;
+                    michal = undefined;
+                    michal = tangon.bind(michal)(report);
+ 151:
+                    michal = true;
+                    _closure1_slot6 = michal;
+ 157:
+                    michal = undefined;
+                    return michal;
+ 162:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot7 = entity;
     report = function() { // Original name: trackLibdiscoreSuccess
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 3;
+            entity = 5;
             zuuluu = zuuluu[entity];
             entity = undefined;
             tangon = tangon.bind(entity)(zuuluu);
@@ -64,11 +113,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  54:
             tangon = _closure1_slot1;
             report = _closure1_slot2;
-            zuuluu = 4;
+            zuuluu = 6;
             zuuluu = report[zuuluu];
             report = tangon.bind(entity)(zuuluu);
             tangon = report.track;
-            michal = _closure1_slot3;
+            michal = _closure1_slot4;
             zuuluu = michal.LIBDISCORE_LOADED;
             michal = {};
             golfie = true;
@@ -78,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot6 = report;
+    var _closure1_slot8 = report;
     tangon = function(argFoo) { // Original name: formatErrorMessage
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -128,77 +177,64 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot7 = tangon;
+    var _closure1_slot9 = tangon;
     michal = function(argFoo) { // Original name: trackLibdiscoreFailure
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-            tangon = argFoo;
-            report = _closure1_slot4;
-            zuuluu = report.error;
-            entity = 'Failed to execute smoke test:';
-            entity = zuuluu.bind(report)(entity, tangon);
-            entity = global;
-            entity = entity.Error;
-            entity = tangon instanceof entity;
-            if(!entity) { _fun00008_ip = 75; continue _fun00007 }
- 42:
-            report = _closure1_slot1;
-            zuuluu = _closure1_slot2;
-            entity = 5;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            zuuluu = report.bind(entity)(zuuluu);
-            entity = zuuluu.captureException;
-            entity = entity.bind(zuuluu)(tangon);
- 75:
-            zuuluu = _closure1_slot7;
-            entity = undefined;
-            oscard = zuuluu.bind(entity)(tangon);
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.track;
-            michal = _closure1_slot3;
-            zuuluu = michal.LIBDISCORE_LOADED;
-            michal = {};
-            golfie = false;
-            michal['success'] = golfie;
-            michal['error'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
-        }
+        tangon = argFoo;
+        report = _closure1_slot5;
+        zuuluu = report.error;
+        entity = 'Failed to execute smoke test:';
+        entity = zuuluu.bind(report)(entity, tangon);
+        zuuluu = _closure1_slot9;
+        entity = undefined;
+        oscard = zuuluu.bind(entity)(tangon);
+        tangon = _closure1_slot1;
+        report = _closure1_slot2;
+        zuuluu = 6;
+        zuuluu = report[zuuluu];
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.track;
+        michal = _closure1_slot4;
+        zuuluu = michal.LIBDISCORE_LOADED;
+        michal = {};
+        golfie = false;
+        michal['success'] = golfie;
+        michal['error'] = oscard;
+        michal = tangon.bind(report)(zuuluu, michal);
+        return entity;
     };
-    var _closure1_slot8 = michal;
+    var _closure1_slot10 = michal;
     entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
+    foxtra = entity.Object;
+    romeon = foxtra.defineProperty;
     golfie = {};
     entity = true;
     golfie['value'] = entity;
     entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
+    entity = romeon.bind(foxtra)(zuuluu, entity, golfie);
     entity = 0;
     golfie = verify[entity];
     entity = undefined;
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.AnalyticEvents;
+    golfie = yankee.bind(entity)(golfie);
     var _closure1_slot3 = golfie;
     golfie = 1;
+    golfie = verify[golfie];
+    golfie = option.bind(entity)(golfie);
+    golfie = golfie.AnalyticEvents;
+    var _closure1_slot4 = golfie;
+    golfie = 2;
     golfie = verify[golfie];
     golfie = option.bind(entity)(golfie);
     romeon = golfie.Logger;
     golfie = romeon.prototype;
     yankee = Object.create(golfie, {constructor: {value: romeon}});
-    kiloes = 'libdiscore';
-    sizing = yankee;
-    golfie = new sizing[romeon](kiloes, backup);
+    sizing = 'libdiscore';
+    output = yankee;
+    golfie = new output[romeon](sizing, kiloes);
     golfie = golfie instanceof Object ? golfie : yankee;
-    var _closure1_slot4 = golfie;
-    golfie = false;
     var _closure1_slot5 = golfie;
-    golfie = 6;
+    golfie = false;
+    var _closure1_slot6 = golfie;
+    golfie = 7;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;

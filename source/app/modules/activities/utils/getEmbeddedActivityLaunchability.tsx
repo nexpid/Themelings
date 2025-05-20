@@ -17,102 +17,102 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = entity.VoiceStateStore;
             entity = michal.getChannel;
             oscard = entity.bind(michal)(tangon);
-            report = _closure1_slot0;
+            report = null;
+            if(!(report != oscard)) { _fun00002_ip = 357; continue _fun00001 }
+ 51:
+            verify = _closure1_slot6;
+            zuuluu = verify.includes;
+            michal = oscard.type;
+            michal = zuuluu.bind(verify)(michal);
+            if(michal) { _fun00002_ip = 88; continue _fun00001 }
+ 76:
+            michal = _closure1_slot8;
+            michal = michal.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL;
+            return michal;
+ 88:
+            verify = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            michal = 5;
+            michal = 6;
             michal = zuuluu[michal];
             zuuluu = undefined;
-            report = report.bind(zuuluu)(michal);
-            michal = report.getIsContextlessActivitiesExperimentEnabled;
-            michal = michal.bind(report)();
-            if(michal) { _fun00002_ip = 98; continue _fun00001 }
- 80:
-            michal = null;
-            if(!(michal == oscard)) { _fun00002_ip = 98; continue _fun00001 }
- 86:
-            michal = _closure1_slot7;
-            michal = michal.NO_CHANNEL;
-            return michal;
- 98:
-            report = _closure1_slot0;
-            verify = _closure1_slot1;
-            michal = 6;
-            michal = verify[michal];
-            report = report.bind(zuuluu)(michal);
-            michal = report.getIsActivitiesEnabledForCurrentPlatform;
-            michal = michal.bind(report)(oscard);
-            if(michal) { _fun00002_ip = 144; continue _fun00001 }
- 132:
-            michal = _closure1_slot7;
+            verify = verify.bind(zuuluu)(michal);
+            michal = verify.getIsActivitiesEnabledForCurrentPlatform;
+            michal = michal.bind(verify)();
+            if(michal) { _fun00002_ip = 135; continue _fun00001 }
+ 123:
+            michal = _closure1_slot8;
             michal = michal.ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS;
             return michal;
- 144:
-            report = null;
-            if(!(report != oscard)) { _fun00002_ip = 356; continue _fun00001 }
- 153:
+ 135:
+            if(!(report != oscard)) { _fun00002_ip = 345; continue _fun00001 }
+ 142:
             michal = oscard.isPrivate;
             michal = michal.bind(oscard)();
-            if(michal) { _fun00002_ip = 356; continue _fun00001 }
- 169:
+            if(michal) { _fun00002_ip = 345; continue _fun00001 }
+ 158:
             michal = oscard.getGuildId;
             verify = michal.bind(oscard)();
-            if(!(report != verify)) { _fun00002_ip = 344; continue _fun00001 }
- 186:
+            if(!(report != verify)) { _fun00002_ip = 333; continue _fun00001 }
+ 175:
             michal = offset.getGuild;
             michal = michal.bind(offset)(verify);
             report = report == michal;
             zuuluu = undefined;
-            if(report) { _fun00002_ip = 211; continue _fun00001 }
- 205:
+            if(report) { _fun00002_ip = 200; continue _fun00001 }
+ 194:
             zuuluu = michal.afkChannelId;
- 211:
+ 200:
             michal = oscard.id;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 332; continue _fun00001 }
- 220:
+            if(!(zuuluu !== michal)) { _fun00002_ip = 321; continue _fun00001 }
+ 209:
             zuuluu = option.can;
-            michal = _closure1_slot6;
+            michal = _closure1_slot7;
             michal = michal.CONNECT;
             michal = zuuluu.bind(option)(michal, oscard);
             report = option.can;
-            zuuluu = _closure1_slot6;
+            zuuluu = _closure1_slot7;
             zuuluu = zuuluu.USE_EMBEDDED_ACTIVITIES;
             zuuluu = report.bind(option)(zuuluu, oscard);
-            if(zuuluu) { _fun00002_ip = 279; continue _fun00001 }
- 267:
-            zuuluu = _closure1_slot7;
+            if(zuuluu) { _fun00002_ip = 268; continue _fun00001 }
+ 256:
+            zuuluu = _closure1_slot8;
             zuuluu = zuuluu.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
             return zuuluu;
- 279:
+ 268:
             report = golfie.getCurrentClientVoiceChannelId;
             zuuluu = oscard.getGuildId;
             zuuluu = zuuluu.bind(oscard)();
             zuuluu = report.bind(golfie)(zuuluu);
             report = oscard.isVocal;
             report = report.bind(oscard)();
-            if(!report) { _fun00002_ip = 356; continue _fun00001 }
- 313:
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 356; continue _fun00001 }
- 317:
-            if(michal) { _fun00002_ip = 356; continue _fun00001 }
- 320:
-            michal = _closure1_slot7;
+            if(!report) { _fun00002_ip = 345; continue _fun00001 }
+ 302:
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 345; continue _fun00001 }
+ 306:
+            if(michal) { _fun00002_ip = 345; continue _fun00001 }
+ 309:
+            michal = _closure1_slot8;
             michal = michal.NO_CHANNEL_CONNECT_PERMISSION;
             return michal;
- 332:
-            michal = _closure1_slot7;
+ 321:
+            michal = _closure1_slot8;
             michal = michal.IS_AFK_CHANNEL;
             return michal;
- 344:
-            michal = _closure1_slot7;
+ 333:
+            michal = _closure1_slot8;
             michal = michal.NO_GUILD;
             return michal;
- 356:
-            entity = _closure1_slot7;
+ 345:
+            entity = _closure1_slot8;
             entity = entity.CAN_LAUNCH;
+            return entity;
+ 357:
+            entity = _closure1_slot8;
+            entity = entity.NO_CHANNEL;
             return entity;
         }
     };
-    var _closure1_slot8 = tangon;
+    var _closure1_slot9 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -121,45 +121,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report['value'] = entity;
     entity = '__esModule';
     entity = verify.bind(offset)(zuuluu, entity, report);
-    foxtra = 0;
-    report = option[foxtra];
+    backup = 0;
+    report = option[backup];
     entity = undefined;
     report = oscard.bind(entity)(report);
     var _closure1_slot2 = report;
-    romeon = 1;
-    report = option[romeon];
+    foxtra = 1;
+    report = option[foxtra];
     report = oscard.bind(entity)(report);
     var _closure1_slot3 = report;
-    yankee = 2;
-    report = option[yankee];
+    romeon = 2;
+    report = option[romeon];
     report = oscard.bind(entity)(report);
     var _closure1_slot4 = report;
-    offset = 3;
-    report = option[offset];
+    yankee = 3;
+    report = option[yankee];
     report = oscard.bind(entity)(report);
     var _closure1_slot5 = report;
-    verify = 4;
+    offset = 4;
+    report = option[offset];
+    report = golfie.bind(entity)(report);
+    report = report.SUPPORTED_ACTIVITIES_CHANNEL_TYPES;
+    var _closure1_slot6 = report;
+    verify = 5;
     report = option[verify];
     report = golfie.bind(entity)(report);
     report = report.Permissions;
-    var _closure1_slot6 = report;
+    var _closure1_slot7 = report;
     report = {};
-    report['CAN_LAUNCH'] = foxtra;
+    report['CAN_LAUNCH'] = backup;
     oscard = 'CAN_LAUNCH';
-    report[foxtra] = oscard;
-    report['NO_USE_EMBEDDED_ACTIVITIES_PERMISSION'] = romeon;
+    report[backup] = oscard;
+    report['NO_USE_EMBEDDED_ACTIVITIES_PERMISSION'] = foxtra;
     oscard = 'NO_USE_EMBEDDED_ACTIVITIES_PERMISSION';
-    report[romeon] = oscard;
-    report['NO_CHANNEL_CONNECT_PERMISSION'] = yankee;
+    report[foxtra] = oscard;
+    report['NO_CHANNEL_CONNECT_PERMISSION'] = romeon;
     oscard = 'NO_CHANNEL_CONNECT_PERMISSION';
-    report[yankee] = oscard;
-    report['NO_CHANNEL'] = offset;
+    report[romeon] = oscard;
+    report['NO_CHANNEL'] = yankee;
     oscard = 'NO_CHANNEL';
-    report[offset] = oscard;
-    report['NO_GUILD'] = verify;
+    report[yankee] = oscard;
+    report['NO_GUILD'] = offset;
     oscard = 'NO_GUILD';
-    report[verify] = oscard;
-    verify = 5;
+    report[offset] = oscard;
     report['IS_AFK_CHANNEL'] = verify;
     oscard = 'IS_AFK_CHANNEL';
     report[verify] = oscard;
@@ -167,7 +171,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report['ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS'] = verify;
     oscard = 'ACTIVITIES_FEATURE_NOT_ENABLED_FOR_OS';
     report[verify] = oscard;
-    var _closure1_slot7 = report;
+    verify = 7;
+    report['ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL'] = verify;
+    oscard = 'ACTIVITIES_FEATURE_NOT_ENABLED_FOR_CHANNEL';
+    report[verify] = oscard;
+    var _closure1_slot8 = report;
     oscard = 9;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
@@ -177,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['EmbeddedActivityLaunchability'] = report;
     zuuluu['getEmbeddedActivityLaunchability'] = tangon;
     tangon = function(argFoo) { // Original name: getEmbeddedActivityLaunchabilityForChannel
-        zuuluu = _closure1_slot8;
+        zuuluu = _closure1_slot9;
         michal = {};
         tangon = argFoo;
         michal['channelId'] = tangon;
@@ -216,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = new Array(1);
         michal[0] = oscard;
         entity = function() {
-            zuuluu = _closure1_slot8;
+            zuuluu = _closure1_slot9;
             michal = {};
             tangon = _closure2_slot0;
             michal['channelId'] = tangon;
@@ -240,11 +248,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argFoo;
-            michal = _closure1_slot7;
+            michal = _closure1_slot8;
             michal = michal.CAN_LAUNCH;
             if(!(michal !== zuuluu)) { _fun00004_ip = 155; continue _fun00003 }
  23:
-            michal = _closure1_slot7;
+            michal = _closure1_slot8;
             michal = michal.NO_USE_EMBEDDED_ACTIVITIES_PERMISSION;
             if(!(michal !== zuuluu)) { _fun00004_ip = 96; continue _fun00003 }
  37:

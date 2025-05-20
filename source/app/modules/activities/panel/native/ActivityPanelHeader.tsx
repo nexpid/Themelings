@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = null;
                     michal = ctrled != entity;
                     entity = null;
-                    if(!michal) { _fun00008_ip = 458; continue _fun00007 }
+                    if(!michal) { _fun00008_ip = 459; continue _fun00007 }
  21:
                     report = _closure1_slot12;
                     golfie = _closure1_slot0;
@@ -391,8 +391,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee[0] = romeon;
                     romeon = _closure2_slot0;
                     romeon = !romeon;
-                    if(!romeon) { _fun00008_ip = 191; continue _fun00007 }
- 161:
+                    if(!romeon) { _fun00008_ip = 192; continue _fun00007 }
+ 162:
                     kiloes = _closure1_slot12;
                     backup = _closure1_slot5;
                     foxtra = {};
@@ -400,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = output.pullIndicator;
                     foxtra['style'] = output;
                     romeon = kiloes.bind(tangon)(backup, foxtra);
- 191:
+ 192:
                     yankee[1] = romeon;
                     backup = _closure1_slot13;
                     foxtra = _closure1_slot5;
@@ -416,16 +416,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = {};
                     source = _closure2_slot0;
                     update = undefined;
-                    if(source) { _fun00008_ip = 270; continue _fun00007 }
- 248:
+                    if(source) { _fun00008_ip = 271; continue _fun00007 }
+ 249:
                     source = _closure2_slot5;
                     source = ctrled == source;
                     update = undefined;
-                    if(source) { _fun00008_ip = 270; continue _fun00007 }
- 261:
+                    if(source) { _fun00008_ip = 271; continue _fun00007 }
+ 262:
                     source = _closure2_slot5;
                     update = source.name;
- 270:
+ 271:
                     kiloes['activityName'] = update;
                     update = _closure2_slot1;
                     kiloes['setMode'] = update;
@@ -442,11 +442,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = _closure2_slot5;
                     ctrled = ctrled == source;
                     source = undefined;
-                    if(ctrled) { _fun00008_ip = 346; continue _fun00007 }
- 337:
+                    if(ctrled) { _fun00008_ip = 347; continue _fun00007 }
+ 338:
                     ctrled = _closure2_slot5;
                     source = ctrled.id;
- 346:
+ 347:
                     output['applicationId'] = source;
                     output = update.bind(tangon)(result, output);
                     kiloes[1] = output;
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = report.bind(tangon)(golfie, oscard);
                     michal['children'] = oscard;
                     entity = report.bind(tangon)(zuuluu, michal);
- 458:
+ 459:
                     return entity;
                 }
             };

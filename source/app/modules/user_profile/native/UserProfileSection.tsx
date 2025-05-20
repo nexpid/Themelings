@@ -109,14 +109,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sizing.contentContainer;
             sequen = yankee;
             zuuluu = copyDataProperties(sequen, vacuum);
-            if(!(offset != michal)) { _fun00002_ip = 173; continue _fun00001 }
- 169:
-            if(!(offset == entity)) { _fun00002_ip = 187; continue _fun00001 }
- 173:
+            if(!(offset != michal)) { _fun00002_ip = 174; continue _fun00001 }
+ 170:
+            if(!(offset == entity)) { _fun00002_ip = 188; continue _fun00001 }
+ 174:
             michal = sizing.contentContainer;
             michal = michal.borderColor;
-            _fun00002_ip = 247; continue _fun00001;
- 187:
+            _fun00002_ip = 248; continue _fun00001;
+ 188:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
             zuuluu = 7;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu[backup];
             entity = entity.dividerOpacity;
             michal = golfie.bind(foxtra)(zuuluu, entity);
- 247:
+ 248:
             entity = 'borderColor';
             yankee[entity] = michal;
             zuuluu = _closure1_slot4;
@@ -146,8 +146,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = copyDataProperties(sequen, vacuum);
             oscard = offset != update;
             golfie = null;
-            if(!oscard) { _fun00002_ip = 437; continue _fun00001 }
- 309:
+            if(!oscard) { _fun00002_ip = 438; continue _fun00001 }
+ 310:
             foxtra = _closure1_slot4;
             option = _closure1_slot2;
             oscard = {};
@@ -176,17 +176,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[1] = kiloes;
             oscard['children'] = backup;
             golfie = foxtra.bind(tangon)(option, oscard);
- 437:
+ 438:
             oscard = new Array(2);
             oscard[0] = golfie;
             option = _closure1_slot3;
             golfie = _closure1_slot2;
             report = {};
             offset = null;
-            if(!romeon) { _fun00002_ip = 463; continue _fun00001 }
- 460:
+            if(!romeon) { _fun00002_ip = 464; continue _fun00001 }
+ 461:
             offset = yankee;
- 463:
+ 464:
             report['style'] = offset;
             report['children'] = verify;
             report = option.bind(tangon)(golfie, report);

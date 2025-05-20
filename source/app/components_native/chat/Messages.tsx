@@ -1394,12 +1394,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = zuuluu._chatRef;
                         zuuluu = zuuluu.current;
                         echoed = tangon.bind(golfie)(zuuluu);
-                        if(!(update !== echoed)) { _fun00032_ip = 209; continue _fun00031 }
+                        if(!(update !== echoed)) { _fun00032_ip = 208; continue _fun00031 }
  140:
                         zuuluu = _closure3_slot0;
                         zuuluu = zuuluu.props;
                         zuuluu = zuuluu.isStaff;
-                        if(!zuuluu) { _fun00032_ip = 381; continue _fun00031 }
+                        if(!zuuluu) { _fun00032_ip = 380; continue _fun00031 }
  161:
                         result = _closure1_slot76;
                         golfie = result.log;
@@ -1411,8 +1411,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         ctrled = update;
                         source = echoed;
                         zuuluu = config[golfie](sequen, vacuum, ctrled, source, update);
-                        _fun00032_ip = 381; continue _fun00031;
- 209:
+                        _fun00032_ip = 380; continue _fun00031;
+ 208:
                         golfie = _closure3_slot0;
                         michal = golfie.props;
                         tangon = michal.visibleMessagesWindowHandler;
@@ -1449,7 +1449,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal['firstVisibleMessageIndex'] = oscard;
                         michal['lastVisibleMessageIndex'] = report;
                         michal = zuuluu.bind(tangon)(michal);
- 381:
+ 380:
                         return entity;
                     }
                 };
@@ -7467,10 +7467,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['interactionStates'] = variable49;
             oscard['interactionComponentStates'] = variable48;
             oscard['interactionComponentStatesVersion'] = variable47;
-            if(!variable45) { _fun00096_ip = 3874; continue _fun00095 }
- 3871:
+            if(!variable45) { _fun00096_ip = 3875; continue _fun00095 }
+ 3872:
             variable45 = variable46;
- 3874:
+ 3875:
             oscard['hasLoadedExperiments'] = variable45;
             oscard['guildSystemChannelFlags'] = variable44;
             oscard['currentUserCommunicationDisabled'] = variable43;
@@ -7484,10 +7484,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = variable36 !== variable37;
             oscard['cacheStoreLoaded'] = variable36;
             oscard['androidKeyboardHeight'] = quebec;
-            if(!(result != equals)) { _fun00096_ip = 3946; continue _fun00095 }
- 3943:
+            if(!(result != equals)) { _fun00096_ip = 3947; continue _fun00095 }
+ 3944:
             whisks = equals;
- 3946:
+ 3947:
             oscard['selectedSummary'] = whisks;
             oscard['keyboardType'] = limora;
             oscard['shouldTrackAnnouncementMessageViews'] = sierra;
@@ -7504,10 +7504,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['resolvedReferralTrialOfferIds'] = update;
             update = result == echoed;
             result = undefined;
-            if(update) { _fun00096_ip = 4030; continue _fun00095 }
- 4025:
+            if(update) { _fun00096_ip = 4031; continue _fun00095 }
+ 4026:
             result = echoed.id;
- 4030:
+ 4031:
             oscard['referralTrialOfferId'] = result;
             oscard['isPremiumTier2User'] = sizing;
             sizing = 'all';
@@ -7515,10 +7515,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['messageShortcutsEnabled'] = sizing;
             oscard['activityInviteMessageIds'] = kiloes;
             romeon = 0;
-            if(!backup) { _fun00096_ip = 4066; continue _fun00095 }
- 4063:
+            if(!backup) { _fun00096_ip = 4067; continue _fun00095 }
+ 4064:
             romeon = foxtra;
- 4066:
+ 4067:
             oscard['guildInviteColorsFetched'] = romeon;
             oscard['isAgeVerified'] = yankee;
             r108 = oscard;

@@ -138,6 +138,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['ORBS_SHOP_HERO_CTA'] = oscard;
     michal = 'ORBS_SHOP_HERO_CTA';
     tangon[oscard] = michal;
+    oscard = 32;
+    tangon['QUEST_ENROLLMENT_BLOCKED_MODAL'] = oscard;
+    michal = 'QUEST_ENROLLMENT_BLOCKED_MODAL';
+    tangon[oscard] = michal;
     michal = {};
     option = entity.Set;
     oscard = option.prototype;

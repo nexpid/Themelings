@@ -2,36 +2,36 @@
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        golfie = argBar;
+        option = argBar;
         oscard = argBaz;
         zuuluu = argFre;
-        option = argPlu;
+        verify = argPlu;
         report = global;
         offset = report.Object;
-        verify = offset.defineProperty;
+        golfie = offset.defineProperty;
         tangon = {};
         entity = true;
         tangon['value'] = entity;
         entity = '__esModule';
-        entity = verify.bind(offset)(zuuluu, entity, tangon);
+        entity = golfie.bind(offset)(zuuluu, entity, tangon);
         entity = 0;
-        tangon = option[entity];
+        tangon = verify[entity];
         entity = undefined;
         tangon = oscard.bind(entity)(tangon);
         var _closure1_slot0 = tangon;
         tangon = 1;
-        tangon = option[tangon];
+        tangon = verify[tangon];
         tangon = oscard.bind(entity)(tangon);
         var _closure1_slot1 = tangon;
         tangon = 2;
-        tangon = option[tangon];
-        tangon = golfie.bind(entity)(tangon);
+        tangon = verify[tangon];
+        tangon = option.bind(entity)(tangon);
         tangon = tangon.NativeModules;
         oscard = tangon.LibDiscoreModule;
         if(oscard) { _fun00002_ip = 150; continue _fun00001 }
  106:
         offset = report.Proxy;
-        verify = {};
+        golfie = {};
         report = function() { // Original name: get
             entity = global;
             zuuluu = entity.Error;
@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        verify['get'] = report;
+        golfie['get'] = report;
         report = offset.prototype;
         oscard = Object.create(report, {constructor: {value: offset}});
         foxtra = {};
         backup = oscard;
-        romeon = verify;
+        romeon = golfie;
         report = new backup[offset](foxtra, romeon, yankee);
         report = report instanceof Object ? report : oscard;
         _fun00002_ip = 156; continue _fun00001;
@@ -60,7 +60,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = argFoo;
         tangon = tangon.LIBDISCORE_JSI;
         var _closure1_slot2 = tangon;
-        report = tangon.NoteStore;
+        oscard = tangon.NoteStore;
+        report = tangon.ExperimentCacher;
         tangon = function() {
             report = _closure1_slot1;
             tangon = function() { // Original name: BlockedDomainsStore
@@ -104,13 +105,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(entity)();
-        oscard = 3;
-        oscard = option[oscard];
-        option = golfie.bind(entity)(oscard);
-        golfie = option.fileFinishedImporting;
-        oscard = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
-        oscard = golfie.bind(option)(oscard);
-        zuuluu['NoteStore'] = report;
+        golfie = 3;
+        golfie = verify[golfie];
+        verify = option.bind(entity)(golfie);
+        option = verify.fileFinishedImporting;
+        golfie = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
+        golfie = option.bind(verify)(golfie);
+        zuuluu['NoteStore'] = oscard;
+        zuuluu['ExperimentCacher'] = report;
         report = function(argFoo, argBar) { // Original name: rustMultiply
             tangon = _closure1_slot2;
             zuuluu = tangon.rustMultiply;

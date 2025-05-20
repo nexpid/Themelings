@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  109:
                     vacuum = _closure1_slot1;
                     sequen = _closure1_slot2;
-                    update = 27;
+                    update = 26;
                     record = sequen[update];
                     papara = vacuum.bind(oscard)(record);
                     cntext = papara.dispatch;
@@ -306,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  231:
                     vacuum = _closure1_slot1;
                     target = _closure1_slot2;
-                    update = 26;
+                    update = 25;
                     update = target[update];
                     sequen = vacuum.bind(oscard)(update);
                     vacuum = sequen.show;
@@ -416,7 +416,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  626:
                     kiloes = _closure1_slot1;
                     config = _closure1_slot2;
-                    backup = 26;
+                    backup = 25;
                     backup = config[backup];
                     update = kiloes.bind(oscard)(backup);
                     kiloes = update.show;
@@ -464,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  819:
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    foxtra = 23;
+                    foxtra = 22;
                     foxtra = kiloes[foxtra];
                     kiloes = backup.bind(oscard)(foxtra);
                     backup = kiloes.handleUploadMessageAttachmentsErrors;
@@ -508,7 +508,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  960:
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    foxtra = 29;
+                    foxtra = 28;
                     foxtra = kiloes[foxtra];
                     backup = backup.bind(oscard)(foxtra);
                     foxtra = backup.createNonce;
@@ -531,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  1042:
                     kiloes = _closure1_slot1;
                     sizing = _closure1_slot2;
-                    foxtra = 27;
+                    foxtra = 26;
                     foxtra = sizing[foxtra];
                     result = kiloes.bind(oscard)(foxtra);
                     output = result.dispatch;
@@ -548,7 +548,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     echoed = echoed.attachments;
                     foxtra['attachments'] = echoed;
                     foxtra = output.bind(result)(foxtra);
-                    foxtra = 30;
+                    foxtra = 29;
                     foxtra = sizing[foxtra];
                     foxtra = kiloes.bind(oscard)(foxtra);
                     romeon = romeon.id;
@@ -593,7 +593,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                     var _closure6_slot0 = zuuluu;
                                     tangon = _closure1_slot1;
                                     zuuluu = _closure1_slot2;
-                                    michal = 27;
+                                    michal = 26;
                                     zuuluu = zuuluu[michal];
                                     michal = undefined;
                                     zuuluu = tangon.bind(michal)(zuuluu);
@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  1186:
                     foxtra = _closure1_slot1;
                     backup = _closure1_slot2;
-                    romeon = 26;
+                    romeon = 25;
                     romeon = backup[romeon];
                     backup = foxtra.bind(oscard)(romeon);
                     foxtra = backup.show;
@@ -695,7 +695,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  1396:
                     romeon = _closure1_slot1;
                     foxtra = _closure1_slot2;
-                    tangon = 27;
+                    tangon = 26;
                     tangon = foxtra[tangon];
                     golfie = romeon.bind(oscard)(tangon);
                     report = golfie.dispatch;
@@ -708,7 +708,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     yankee = yankee.CreateThread;
                     tangon['slowmodeType'] = yankee;
                     yankee = offset;
-                    offset = 28;
+                    offset = 27;
                     offset = foxtra[offset];
                     offset = romeon.bind(oscard)(offset);
                     offset = offset.Millis;
@@ -720,7 +720,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  1503:
                     report = _closure1_slot1;
                     backup = _closure1_slot2;
-                    tangon = 26;
+                    tangon = 25;
                     tangon = backup[tangon];
                     golfie = report.bind(oscard)(tangon);
                     report = golfie.show;
@@ -752,7 +752,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  1644:
                     report = _closure1_slot1;
                     golfie = _closure1_slot2;
-                    tangon = 26;
+                    tangon = 25;
                     tangon = golfie[tangon];
                     golfie = report.bind(oscard)(tangon);
                     report = golfie.show;
@@ -837,7 +837,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  50:
                                     tangon = _closure1_slot1;
                                     zuuluu = _closure1_slot2;
-                                    michal = 27;
+                                    michal = 26;
                                     zuuluu = zuuluu[michal];
                                     michal = undefined;
                                     zuuluu = tangon.bind(michal)(zuuluu);
@@ -873,7 +873,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  1873: // try_start_1
                     report = _closure1_slot1;
                     option = _closure1_slot2;
-                    tangon = 25;
+                    tangon = 24;
                     tangon = option[tangon];
                     oscard = report.bind(oscard)(tangon);
                     report = oscard.fetchMessages;
@@ -991,7 +991,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     golfie = 'PrivateOnly';
     oscard[offset] = golfie;
     var _closure1_slot18 = oscard;
-    golfie = 31;
+    golfie = 30;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
@@ -1255,7 +1255,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  451:
                         backup = _closure1_slot1;
                         kiloes = _closure1_slot2;
-                        offset = 25;
+                        offset = 24;
                         offset = kiloes[offset];
                         foxtra = backup.bind(zuuluu)(offset);
                         romeon = foxtra.sendMessage;
@@ -1270,7 +1270,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  514:
                         yankee = _closure1_slot1;
                         romeon = _closure1_slot2;
-                        offset = 25;
+                        offset = 24;
                         offset = romeon[offset];
                         romeon = yankee.bind(zuuluu)(offset);
                         yankee = romeon.sendStickers;
@@ -1414,7 +1414,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         yankee = argFoo;
                         zuuluu = argBaz;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                        if(report) { _fun00026_ip = 814; continue _fun00025 }
+                        if(report) { _fun00026_ip = 820; continue _fun00025 }
  18:
                         tangon = zuuluu;
                         var _closure5_slot0 = zuuluu;
@@ -1489,18 +1489,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         foxtra = yankee;
                         _closure5_slot2 = yankee;
                         yankee = _closure2_slot6;
-                        if(!(offset != yankee)) { _fun00026_ip = 333; continue _fun00025 }
+                        if(!(offset == yankee)) { _fun00026_ip = 386; continue _fun00025 }
  295:
-                        backup = _closure1_slot0;
-                        sizing = _closure1_slot2;
-                        yankee = 21;
-                        yankee = sizing[yankee];
-                        sizing = backup.bind(report)(yankee);
-                        backup = sizing.isUploadRefactorEnabled;
-                        yankee = 'useCreateForumPostCommon';
-                        yankee = backup.bind(sizing)(yankee);
-                        if(yankee) { _fun00026_ip = 380; continue _fun00025 }
- 333:
+                        yankee = _closure2_slot5;
+                        if(!(offset != yankee)) { _fun00026_ip = 350; continue _fun00025 }
+ 303:
                         output = _closure1_slot22;
                         sequen = _closure2_slot0;
                         vacuum = _closure2_slot3;
@@ -1547,33 +1540,43 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         config = undefined;
                         ctrled = undefined;
                         backup = config[output](sequen, vacuum, ctrled, source, update);
-                        SaveGenerator(address=362);
- 360:
+                        SaveGenerator(address=332);
+ 330:
                         return backup;
- 362:
+ 332:
                         ResumeGenerator(result_out_reg=13, return_bool_out_reg=10);
                         sizing = yankee;
                         yankee = backup;
-                        if(!sizing) { _fun00026_ip = 501; continue _fun00025 }
- 377:
+                        if(!sizing) { _fun00026_ip = 507; continue _fun00025 }
+ 347:
                         return backup;
- 380:
+ 350:
+                        backup = global;
+                        output = backup.Error;
+                        backup = output.prototype;
+                        sizing = Object.create(backup, {constructor: {value: output}});
+                        sequen = 'No upload handler provided';
+                        config = sizing;
+                        backup = new config[output](sequen, vacuum);
+                        backup = backup instanceof Object ? backup : sizing;
+                        throw backup;
+ 386:
                         backup = tangon;
-                        if(!(offset != backup)) { _fun00026_ip = 459; continue _fun00025 }
- 387:
+                        if(!(offset != backup)) { _fun00026_ip = 465; continue _fun00025 }
+ 393:
                         backup = tangon;
                         backup = backup.length;
-                        if(!(backup > kiloes)) { _fun00026_ip = 459; continue _fun00025 }
- 399: // try_start_0
+                        if(!(backup > kiloes)) { _fun00026_ip = 465; continue _fun00025 }
+ 405: // try_start_0
                         backup = _closure2_slot6;
                         tangon = backup.bind(report)(tangon);
-                        SaveGenerator(address=412);
- 410:
+                        SaveGenerator(address=418);
+ 416:
                         return tangon;
- 412:
+ 418:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=13);
-                        if(backup) { _fun00026_ip = 699; continue _fun00025 }
- 421:
+                        if(backup) { _fun00026_ip = 705; continue _fun00025 }
+ 427:
                         romeon = tangon.uploaderFile;
                         backup = foxtra.message;
                         sizing = tangon.files;
@@ -1581,7 +1584,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         foxtra = function(argFoo, argBar) {
                             zuuluu = _closure1_slot0;
                             michal = _closure1_slot2;
-                            entity = 22;
+                            entity = 21;
                             michal = michal[entity];
                             entity = undefined;
                             tangon = zuuluu.bind(entity)(michal);
@@ -1593,7 +1596,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         };
                         foxtra = kiloes.bind(sizing)(foxtra);
                         backup['attachments'] = foxtra;
- 459: // try_end0
+ 465: // try_end0
                         kiloes = _closure1_slot22;
                         sequen = _closure2_slot0;
                         vacuum = _closure2_slot3;
@@ -1619,14 +1622,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         };
                         config = undefined;
                         option = config[kiloes](sequen, vacuum, ctrled, source, update);
-                        SaveGenerator(address=489);
- 487:
+                        SaveGenerator(address=495);
+ 493:
                         return option;
- 489:
+ 495:
                         ResumeGenerator(result_out_reg=7, return_bool_out_reg=11);
                         yankee = option;
-                        if(romeon) { _fun00026_ip = 696; continue _fun00025 }
- 501:
+                        if(romeon) { _fun00026_ip = 702; continue _fun00025 }
+ 507:
                         sizing = _closure1_slot1;
                         backup = _closure1_slot2;
                         foxtra = 17;
@@ -1652,7 +1655,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         romeon = romeon.FirstThreadMessage;
                         romeon = sizing.bind(output)(foxtra, romeon);
                         foxtra = _closure1_slot0;
-                        romeon = 24;
+                        romeon = 23;
                         romeon = backup[romeon];
                         backup = foxtra.bind(report)(romeon);
                         foxtra = backup.trackForumPostCreated;
@@ -1665,17 +1668,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         romeon['postId'] = kiloes;
                         romeon = foxtra.bind(backup)(romeon);
                         romeon = _closure2_slot4;
-                        if(!(offset != romeon)) { _fun00026_ip = 693; continue _fun00025 }
- 684:
+                        if(!(offset != romeon)) { _fun00026_ip = 699; continue _fun00025 }
+ 690:
                         romeon = _closure2_slot4;
                         romeon = romeon.bind(report)(yankee);
- 693:
-                        return yankee;
- 696:
-                        return option;
  699:
+                        return yankee;
+ 702:
+                        return option;
+ 705:
                         return tangon;
- 702: // catch_target0
+ 708: // catch_target0
                         CatchBlockStart(arg_register=3);
                         michal = tangon;
                         option = tangon.file;
@@ -1683,7 +1686,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         oscard = tangon.reason;
                         tangon = _closure1_slot0;
                         yankee = _closure1_slot2;
-                        zuuluu = 23;
+                        zuuluu = 22;
                         zuuluu = yankee[zuuluu];
                         report = tangon.bind(report)(zuuluu);
                         tangon = report.handleUploadMessageAttachmentsErrors;
@@ -1694,19 +1697,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         option = option.bind(yankee)();
                         zuuluu['guildId'] = option;
                         option = _closure2_slot3;
-                        if(!(offset == option)) { _fun00026_ip = 789; continue _fun00025 }
- 783:
-                        option = new Array(0);
-                        _fun00026_ip = 793; continue _fun00025;
+                        if(!(offset == option)) { _fun00026_ip = 795; continue _fun00025 }
  789:
+                        option = new Array(0);
+                        _fun00026_ip = 799; continue _fun00025;
+ 795:
                         option = _closure2_slot3;
- 793:
+ 799:
                         zuuluu['analyticsLocations'] = option;
                         zuuluu['code'] = golfie;
                         zuuluu['reason'] = oscard;
                         zuuluu = tangon.bind(report)(zuuluu);
                         throw michal;
- 814:
+ 820:
                         return entity;
                     }
                 };

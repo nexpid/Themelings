@@ -743,13 +743,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.bind(report)(zuuluu);
                     entity = _closure1_slot12;
                     entity = entity.ACTIVE;
-                    if(!(michal !== entity)) { _fun00022_ip = 87; continue _fun00021 }
- 70:
+                    if(!(michal !== entity)) { _fun00022_ip = 86; continue _fun00021 }
+ 69:
                     zuuluu = _closure2_slot3;
                     michal = undefined;
                     entity = argFoo;
                     entity = zuuluu.bind(michal)(entity);
- 87:
+ 86:
                     entity = undefined;
                     return entity;
                 }
@@ -1045,18 +1045,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 260; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 259; continue _fun00029 }
  10:
                     michal = argFoo;
                     oscard = michal.log;
                     golfie = undefined;
-                    SaveGenerator(address=25);
- 23:
+                    SaveGenerator(address=24);
+ 22:
                     return golfie;
- 25:
+ 24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00030_ip = 257; continue _fun00029 }
- 34:
+                    if(zuuluu) { _fun00030_ip = 256; continue _fun00029 }
+ 33:
                     tangon = _closure1_slot0;
                     option = _closure1_slot3;
                     zuuluu = 32;
@@ -1064,13 +1064,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.bind(golfie)(zuuluu);
                     zuuluu = tangon.preloadAllIntlMessageFiles;
                     zuuluu = zuuluu.bind(tangon)();
-                    SaveGenerator(address=71);
- 69:
+                    SaveGenerator(address=70);
+ 68:
                     return zuuluu;
- 71:
+ 70:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00030_ip = 254; continue _fun00029 }
- 80:
+                    if(tangon) { _fun00030_ip = 253; continue _fun00029 }
+ 79:
                     option = _closure1_slot0;
                     verify = _closure1_slot3;
                     tangon = 33;
@@ -1078,15 +1078,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(golfie)(tangon);
                     tangon = option.waitForAllDefaultIntlMessagesLoaded;
                     tangon = tangon.bind(option)();
-                    SaveGenerator(address=114);
- 112:
+                    SaveGenerator(address=113);
+ 111:
                     return tangon;
- 114:
+ 113:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=7);
-                    if(option) { _fun00030_ip = 251; continue _fun00029 }
- 123:
-                    if(!oscard) { _fun00030_ip = 175; continue _fun00029 }
- 126:
+                    if(option) { _fun00030_ip = 250; continue _fun00029 }
+ 122:
+                    if(!oscard) { _fun00030_ip = 174; continue _fun00029 }
+ 125:
                     option = _closure1_slot1;
                     verify = _closure1_slot3;
                     oscard = 18;
@@ -1097,7 +1097,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = '🌎';
                     oscard = 'i18n loaded';
                     oscard = offset.bind(yankee)(verify, option, oscard);
- 175:
+ 174:
                     option = _closure1_slot0;
                     report = _closure1_slot3;
                     oscard = 35;
@@ -1107,34 +1107,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = report[oscard];
                     report = report.paths;
                     report = option.bind(golfie)(oscard, report);
-                    SaveGenerator(address=217);
- 215:
+                    SaveGenerator(address=216);
+ 214:
                     return report;
- 217:
+ 216:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00030_ip = 248; continue _fun00029 }
- 223:
+                    if(oscard) { _fun00030_ip = 247; continue _fun00029 }
+ 222:
                     oscard = report.default;
                     oscard = oscard.bind(golfie)();
-                    SaveGenerator(address=236);
- 234:
+                    SaveGenerator(address=235);
+ 233:
                     return oscard;
- 236:
+ 235:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(option) { _fun00030_ip = 245; continue _fun00029 }
- 242:
+                    if(option) { _fun00030_ip = 244; continue _fun00029 }
+ 241:
                     return golfie;
- 245:
+ 244:
                     return oscard;
- 248:
+ 247:
                     return report;
- 251:
+ 250:
                     return tangon;
- 254:
+ 253:
                     return zuuluu;
- 257:
+ 256:
                     return michal;
- 260:
+ 259:
                     return entity;
                 }
             };
@@ -1162,7 +1162,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00032_ip = 1727; continue _fun00031 }
+                    if(michal) { _fun00032_ip = 1720; continue _fun00031 }
  12:
                     tangon = undefined;
                     var _closure4_slot0 = tangon;
@@ -1181,7 +1181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = 'Init called when already initialized';
                     michal['message'] = golfie;
                     michal = zuuluu.bind(oscard)(michal);
-                    _fun00032_ip = 1718; continue _fun00031;
+                    _fun00032_ip = 1711; continue _fun00031;
  87:
                     zuuluu = _closure1_slot21;
                     michal = _closure1_slot20;
@@ -1287,7 +1287,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  465:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00032_ip = 1724; continue _fun00031 }
+                    if(golfie) { _fun00032_ip = 1717; continue _fun00031 }
  474:
                     offset = _closure1_slot4;
                     golfie = 2;
@@ -1319,25 +1319,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = ctrled.bind(sequen)(output, vacuum, romeon);
                     romeon = null;
                     output = romeon != echoed;
-                    if(!output) { _fun00032_ip = 614; continue _fun00031 }
- 605:
+                    if(!output) { _fun00032_ip = 613; continue _fun00031 }
+ 604:
                     ctrled = echoed.length;
                     output = ctrled > yankee;
- 614:
-                    if(!output) { _fun00032_ip = 639; continue _fun00031 }
- 617:
+ 613:
+                    if(!output) { _fun00032_ip = 637; continue _fun00031 }
+ 616:
                     sequen = _closure1_slot18;
                     ctrled = sequen.log;
                     output = 'initialURLs';
                     output = ctrled.bind(sequen)(output, echoed);
- 639:
-                    if(!(romeon != result)) { _fun00032_ip = 665; continue _fun00031 }
- 643:
+ 637:
+                    if(!(romeon != result)) { _fun00032_ip = 662; continue _fun00031 }
+ 641:
                     sequen = _closure1_slot18;
                     ctrled = sequen.log;
                     output = 'initialNotification';
                     output = ctrled.bind(sequen)(output, result);
- 665:
+ 662:
                     ctrled = _closure1_slot0;
                     output = _closure1_slot3;
                     sequen = 26;
@@ -1347,8 +1347,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = config.get;
                     output = _closure1_slot14;
                     output = ctrled.bind(config)(output);
-                    if(!(romeon == output)) { _fun00032_ip = 762; continue _fun00031 }
- 709:
+                    if(!(romeon == output)) { _fun00032_ip = 759; continue _fun00031 }
+ 706:
                     ctrled = _closure1_slot0;
                     output = _closure1_slot3;
                     output = output[sequen];
@@ -1360,7 +1360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = record.now;
                     output = output.bind(record)();
                     output = sequen.bind(config)(ctrled, output);
- 762:
+ 759:
                     output = function() { // Original name: trackFirstLaunched
                         entity = undefined;
                         tangon = _closure1_slot28;
@@ -1372,20 +1372,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     output = output.bind(tangon)();
-                    if(oscard) { _fun00032_ip = 792; continue _fun00031 }
- 776:
+                    if(oscard) { _fun00032_ip = 789; continue _fun00031 }
+ 773:
                     output = _closure1_slot36;
                     output = output.bind(tangon)();
-                    if(!(romeon != verify)) { _fun00032_ip = 792; continue _fun00031 }
- 788:
+                    if(!(romeon != verify)) { _fun00032_ip = 789; continue _fun00031 }
+ 785:
                     verify = verify.bind(tangon)();
- 792:
+ 789:
                     output = _closure1_slot1;
                     verify = _closure1_slot3;
                     verify = verify[source];
                     ctrled = output.bind(tangon)(verify);
-                    if(oscard) { _fun00032_ip = 840; continue _fun00031 }
- 812:
+                    if(oscard) { _fun00032_ip = 837; continue _fun00031 }
+ 809:
                     source = ctrled.time;
                     output = 'Flux.initialize()';
                     verify = function() {
@@ -1404,20 +1404,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     verify = source.bind(ctrled)(vacuum, output, verify);
-                    _fun00032_ip = 863; continue _fun00031;
- 840:
+                    _fun00032_ip = 860; continue _fun00031;
+ 837:
                     source = ctrled.markAndLog;
                     output = _closure1_slot18;
                     verify = 'Flux already initialized.';
                     verify = source.bind(ctrled)(output, vacuum, verify);
- 863:
+ 860:
                     output = echoed.forEach;
                     verify = _closure1_slot26;
                     verify = output.bind(echoed)(verify);
                     output = romeon != result;
                     verify = false;
-                    if(!output) { _fun00032_ip = 956; continue _fun00031 }
- 886:
+                    if(!output) { _fun00032_ip = 953; continue _fun00031 }
+ 883:
                     source = _closure1_slot1;
                     echoed = _closure1_slot3;
                     output = 14;
@@ -1440,14 +1440,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = echoed.extraProperties;
                     echoed['tapped_notification'] = update;
                     verify = output.bind(tangon)(result);
+ 953:
+                    if(verify) { _fun00032_ip = 1021; continue _fun00031 }
  956:
-                    if(verify) { _fun00032_ip = 1028; continue _fun00031 }
- 959:
                     output = _closure1_slot10;
                     verify = output.getChannelId;
                     echoed = verify.bind(output)();
-                    if(!(romeon != echoed)) { _fun00032_ip = 1028; continue _fun00031 }
- 977:
+                    if(!(romeon != echoed)) { _fun00032_ip = 1021; continue _fun00031 }
+ 974:
                     output = _closure1_slot1;
                     result = _closure1_slot3;
                     verify = 38;
@@ -1457,7 +1457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = {'channelId': null, 'isPreload': true, 'skipLocalFetch': true};
                     verify['channelId'] = echoed;
                     verify = output.bind(result)(verify);
- 1028:
+ 1021:
                     output = _closure1_slot1;
                     verify = _closure1_slot3;
                     backup = verify[backup];
@@ -1542,26 +1542,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = backup.bind(tangon)(verify);
                     verify = backup.isAndroid;
                     verify = verify.bind(backup)();
-                    if(!verify) { _fun00032_ip = 1149; continue _fun00031 }
- 1125:
+                    if(!verify) { _fun00032_ip = 1142; continue _fun00031 }
+ 1118:
                     backup = _closure1_slot1;
                     verify = _closure1_slot3;
                     sizing = 45;
                     verify = verify[sizing];
                     verify = backup.bind(tangon)(verify);
-                    if(!(romeon == verify)) { _fun00032_ip = 1167; continue _fun00031 }
- 1149:
+                    if(!(romeon == verify)) { _fun00032_ip = 1160; continue _fun00031 }
+ 1142:
                     backup = zuuluu.Promise;
                     verify = backup.resolve;
                     output = verify.bind(backup)();
-                    _fun00032_ip = 1190; continue _fun00031;
- 1167:
+                    _fun00032_ip = 1183; continue _fun00031;
+ 1160:
                     backup = _closure1_slot1;
                     verify = _closure1_slot3;
                     verify = verify[sizing];
                     verify = backup.bind(tangon)(verify);
                     output = verify.applicationReady;
- 1190:
+ 1183:
                     backup = _closure1_slot2;
                     sizing = _closure1_slot3;
                     verify = 46;
@@ -1569,8 +1569,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = backup.bind(tangon)(verify);
                     verify = backup.getToken;
                     verify = verify.bind(backup)();
-                    if(!(romeon == verify)) { _fun00032_ip = 1266; continue _fun00031 }
- 1224:
+                    if(!(romeon == verify)) { _fun00032_ip = 1259; continue _fun00031 }
+ 1217:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot3;
                     verify = 47;
@@ -1580,12 +1580,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.bind(romeon)();
                     verify = romeon.getPromise;
                     sizing = verify.bind(romeon)();
-                    _fun00032_ip = 1282; continue _fun00031;
- 1266:
+                    _fun00032_ip = 1275; continue _fun00031;
+ 1259:
                     romeon = zuuluu.Promise;
                     verify = romeon.resolve;
                     sizing = verify.bind(romeon)();
- 1282:
+ 1275:
                     backup = zuuluu.Promise;
                     romeon = backup.all;
                     verify = new Array(3);
@@ -1644,13 +1644,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu[4] = backup;
                     zuuluu[5] = foxtra;
                     zuuluu = verify.bind(romeon)(zuuluu);
-                    SaveGenerator(address=1524);
- 1522:
+                    SaveGenerator(address=1517);
+ 1515:
                     return zuuluu;
- 1524:
+ 1517:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                    if(verify) { _fun00032_ip = 1721; continue _fun00031 }
- 1533:
+                    if(verify) { _fun00032_ip = 1714; continue _fun00031 }
+ 1526:
                     romeon = _closure1_slot4;
                     verify = 5;
                     verify = romeon.bind(tangon)(zuuluu, verify);
@@ -1687,11 +1687,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     option = verify.bind(offset)(option);
-                    if(oscard) { _fun00032_ip = 1656; continue _fun00031 }
- 1646:
+                    if(oscard) { _fun00032_ip = 1649; continue _fun00031 }
+ 1639:
                     oscard = golfie.init;
                     oscard = oscard.bind(golfie)();
- 1656:
+ 1649:
                     option = _closure1_slot0;
                     golfie = _closure1_slot3;
                     oscard = 53;
@@ -1707,13 +1707,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie[report];
                     report = oscard.bind(tangon)(report);
                     report = report.bind(tangon)();
- 1718:
+ 1711:
                     return tangon;
- 1721:
+ 1714:
                     return zuuluu;
- 1724:
+ 1717:
                     return michal;
- 1727:
+ 1720:
                     return entity;
                 }
             };
@@ -1739,12 +1739,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00034_ip = 379; continue _fun00033 }
+                    if(michal) { _fun00034_ip = 378; continue _fun00033 }
  10:
                     zuuluu = _closure1_slot21;
                     michal = _closure1_slot20;
                     michal = michal.None;
-                    if(!(zuuluu === michal)) { _fun00034_ip = 368; continue _fun00033 }
+                    if(!(zuuluu === michal)) { _fun00034_ip = 367; continue _fun00033 }
  34:
                     michal = _closure1_slot20;
                     michal = michal.HeadlessRan;
@@ -1770,13 +1770,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = offset.bind(report)(verify);
                     michal[2] = verify;
                     michal = golfie.bind(option)(michal);
-                    SaveGenerator(address=137);
- 135:
+                    SaveGenerator(address=136);
+ 134:
                     return michal;
- 137:
+ 136:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00034_ip = 376; continue _fun00033 }
- 146:
+                    if(golfie) { _fun00034_ip = 375; continue _fun00033 }
+ 145:
                     golfie = _closure1_slot36;
                     golfie = golfie.bind(report)();
                     zuuluu = zuuluu.bind(report)();
@@ -1829,13 +1829,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = new Array(1);
                     zuuluu[0] = option;
                     zuuluu = oscard.bind(golfie)(zuuluu);
-                    SaveGenerator(address=309);
- 307:
+                    SaveGenerator(address=308);
+ 306:
                     return zuuluu;
- 309:
+ 308:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00034_ip = 373; continue _fun00033 }
- 315:
+                    if(oscard) { _fun00034_ip = 372; continue _fun00033 }
+ 314:
                     golfie = _closure1_slot4;
                     oscard = 1;
                     golfie = golfie.bind(report)(zuuluu, oscard);
@@ -1849,14 +1849,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = golfie[tangon];
                     tangon = oscard.bind(report)(tangon);
                     tangon = tangon.bind(report)();
- 368:
+ 367:
                     tangon = undefined;
                     return tangon;
- 373:
+ 372:
                     return zuuluu;
- 376:
+ 375:
                     return michal;
- 379:
+ 378:
                     return entity;
                 }
             };
@@ -1892,7 +1892,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.verbose;
             michal = 'No need to apply token storage fix as token already exists.';
             michal = tangon.bind(oscard)(michal);
-            _fun00036_ip = 249; continue _fun00035;
+            _fun00036_ip = 247; continue _fun00035;
  77:
             tangon = _closure1_slot0;
             oscard = _closure1_slot3;
@@ -1917,14 +1917,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)();
             option = michal.token;
  163:
-            if(!(report == option)) { _fun00036_ip = 190; continue _fun00035 }
+            if(!(report == option)) { _fun00036_ip = 189; continue _fun00035 }
  167:
             oscard = _closure1_slot18;
             tangon = oscard.log;
             michal = 'Cannot apply token storage fix as token not in NSUserDefaults.';
             michal = tangon.bind(oscard)(michal);
-            _fun00036_ip = 249; continue _fun00035;
- 190:
+            _fun00036_ip = 247; continue _fun00035;
+ 189:
             oscard = _closure1_slot18;
             tangon = oscard.log;
             michal = 'Applying token storage fix.';
@@ -1937,7 +1937,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.set;
             michal = _closure1_slot15;
             michal = tangon.bind(oscard)(michal, option);
- 249:
+ 247:
             oscard = _closure1_slot2;
             tangon = _closure1_slot3;
             michal = 46;

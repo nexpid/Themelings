@@ -45,7 +45,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.MobilePerGuildCollectiblesEditExperiment;
+    tangon = tangon.NameplatesMobileProfileEditingExperiment;
     option[5] = tangon;
     yankee = michal.OPEN_USER_SETTINGS;
     michal = {};

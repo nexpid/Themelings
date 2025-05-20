@@ -48,8 +48,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             output = entity.SelectedChannelStore;
             verify = entity.VoiceStateStore;
             option = entity.PermissionStore;
-            entity = offset.getChannel;
-            yankee = entity.bind(offset)(backup);
             report = _closure1_slot0;
             tangon = _closure1_slot2;
             entity = 1;
@@ -57,18 +55,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = undefined;
             report = report.bind(tangon)(entity);
             entity = report.getIsActivitiesEnabledForCurrentPlatform;
-            yankee = entity.bind(report)(yankee);
+            yankee = entity.bind(report)();
             entity = null;
-            if(!(entity != sizing)) { _fun00002_ip = 625; continue _fun00001 }
- 133:
-            if(!michal) { _fun00002_ip = 143; continue _fun00001 }
- 136:
-            if(!(entity == backup)) { _fun00002_ip = 515; continue _fun00001 }
- 143:
-            if(!michal) { _fun00002_ip = 193; continue _fun00001 }
- 146:
-            if(!(entity == backup)) { _fun00002_ip = 193; continue _fun00001 }
- 150:
+            if(!(entity != sizing)) { _fun00002_ip = 614; continue _fun00001 }
+ 122:
+            if(!michal) { _fun00002_ip = 132; continue _fun00001 }
+ 125:
+            if(!(entity == backup)) { _fun00002_ip = 504; continue _fun00001 }
+ 132:
+            if(!michal) { _fun00002_ip = 182; continue _fun00001 }
+ 135:
+            if(!(entity == backup)) { _fun00002_ip = 182; continue _fun00001 }
+ 139:
             result = _closure1_slot1;
             update = _closure1_slot2;
             report = 3;
@@ -77,11 +75,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot3;
             report = report.CONTEXTLESS;
             report = result.bind(tangon)(kiloes, report);
-            if(report) { _fun00002_ip = 193; continue _fun00001 }
- 189:
+            if(report) { _fun00002_ip = 182; continue _fun00001 }
+ 178:
             report = false;
             return report;
- 193:
+ 182:
             result = _closure1_slot0;
             update = _closure1_slot2;
             report = 4;
@@ -89,13 +87,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = result.bind(tangon)(report);
             report = result.isDesktop;
             report = report.bind(result)();
-            if(report) { _fun00002_ip = 233; continue _fun00001 }
- 226:
-            if(michal) { _fun00002_ip = 233; continue _fun00001 }
- 229:
+            if(report) { _fun00002_ip = 222; continue _fun00001 }
+ 215:
+            if(michal) { _fun00002_ip = 222; continue _fun00001 }
+ 218:
             michal = false;
             return michal;
- 233:
+ 222:
             report = _closure1_slot1;
             michal = _closure1_slot2;
             result = 3;
@@ -104,13 +102,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot3;
             michal = michal.PARTY_PRIVACY_FRIENDS;
             michal = report.bind(tangon)(kiloes, michal);
-            if(!michal) { _fun00002_ip = 294; continue _fun00001 }
- 272:
+            if(!michal) { _fun00002_ip = 283; continue _fun00001 }
+ 261:
             report = echoed.isFriend;
             michal = sizing.id;
             michal = report.bind(echoed)(michal);
-            if(michal) { _fun00002_ip = 511; continue _fun00001 }
- 294:
+            if(michal) { _fun00002_ip = 500; continue _fun00001 }
+ 283:
             report = _closure1_slot1;
             michal = _closure1_slot2;
             michal = michal[result];
@@ -118,67 +116,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot3;
             michal = michal.PARTY_PRIVACY_VOICE_CHANNEL;
             michal = report.bind(tangon)(kiloes, michal);
-            if(michal) { _fun00002_ip = 334; continue _fun00001 }
- 330:
+            if(michal) { _fun00002_ip = 323; continue _fun00001 }
+ 319:
             michal = false;
             return michal;
- 334:
+ 323:
             report = offset.getChannel;
             michal = output.getVoiceChannelId;
             michal = michal.bind(output)();
             output = report.bind(offset)(michal);
-            if(!(entity != output)) { _fun00002_ip = 507; continue _fun00001 }
- 361:
+            if(!(entity != output)) { _fun00002_ip = 496; continue _fun00001 }
+ 350:
             result = verify.isInChannel;
             report = output.id;
             michal = sizing.id;
             michal = result.bind(verify)(report, michal);
-            if(!michal) { _fun00002_ip = 507; continue _fun00001 }
- 386:
+            if(!michal) { _fun00002_ip = 496; continue _fun00001 }
+ 375:
             report = output.type;
             michal = _closure1_slot4;
             michal = michal.DM;
-            if(!(michal !== report)) { _fun00002_ip = 503; continue _fun00001 }
- 405:
+            if(!(michal !== report)) { _fun00002_ip = 492; continue _fun00001 }
+ 394:
             michal = _closure1_slot4;
             michal = michal.GROUP_DM;
-            if(!(michal !== report)) { _fun00002_ip = 503; continue _fun00001 }
- 419:
+            if(!(michal !== report)) { _fun00002_ip = 492; continue _fun00001 }
+ 408:
             report = golfie.getGuild;
             michal = output.getGuildId;
             michal = michal.bind(output)();
             michal = report.bind(golfie)(michal);
-            if(!(entity != michal)) { _fun00002_ip = 499; continue _fun00001 }
- 443:
+            if(!(entity != michal)) { _fun00002_ip = 488; continue _fun00001 }
+ 432:
             output = michal.hasFeature;
             report = _closure1_slot5;
             report = report.COMMUNITY;
             report = output.bind(michal)(report);
-            if(report) { _fun00002_ip = 499; continue _fun00001 }
- 467:
+            if(report) { _fun00002_ip = 488; continue _fun00001 }
+ 456:
             report = oscard.getMemberCount;
             michal = michal.id;
             report = report.bind(oscard)(michal);
             entity = entity != report;
-            if(!entity) { _fun00002_ip = 497; continue _fun00001 }
- 490:
+            if(!entity) { _fun00002_ip = 486; continue _fun00001 }
+ 479:
             michal = 100;
             entity = report < michal;
- 497:
+ 486:
             return entity;
- 499:
+ 488:
             entity = false;
             return entity;
- 503:
+ 492:
             entity = true;
             return entity;
- 507:
+ 496:
             entity = false;
             return entity;
- 511:
+ 500:
             entity = true;
             return entity;
- 515:
+ 504:
             oscard = _closure1_slot1;
             report = _closure1_slot2;
             entity = 2;
@@ -204,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.CAN_JOIN;
             entity = michal === entity;
             return entity;
- 625:
+ 614:
             entity = false;
             return entity;
         }

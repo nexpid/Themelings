@@ -1658,7 +1658,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = {};
     option = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED'];
     entity['actions'] = option;
-    golfie = function() { // Original name: inlineRequire
+    option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 107;
@@ -1668,16 +1668,32 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = entity.default;
         return entity;
     };
-    entity['inlineRequire'] = golfie;
+    entity['inlineRequire'] = option;
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ApplicationStreamingManager'] = entity;
-    entity = 108;
+    entity = {};
+    option = new Array(0);
+    entity['actions'] = option;
+    golfie = function() { // Original name: inlineRequire
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 108;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        entity = entity.default;
+        return entity;
+    };
+    entity['inlineRequire'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
+    michal['LibdiscoreExperimentManager'] = entity;
+    entity = 109;
     tangon = oscard[entity];
     entity = undefined;
     golfie = report.bind(entity)(tangon);
     tangon = golfie.initialize;
     tangon = tangon.bind(golfie)(michal);
-    tangon = 109;
+    tangon = 110;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

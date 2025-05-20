@@ -1,4 +1,4 @@
-// app/modules/notifications/ActivityNotificationImprovementsExperiment.tsx
+// app/modules/user_profile/experiments/TenureAmbientBadgesExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -7,8 +7,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Object;
     tangon = golfie.defineProperty;
     michal = {};
-    yankee = true;
-    michal['value'] = yankee;
+    offset = true;
+    michal['value'] = offset;
     entity = '__esModule';
     entity = tangon.bind(golfie)(zuuluu, entity, michal);
     entity = 0;
@@ -20,27 +20,27 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = oscard[michal];
     golfie = report.bind(entity)(michal);
     tangon = golfie.createExperiment;
-    michal = {'kind': 'user', 'id': '2025-03_activity_notification_improvements', 'label': 'Activity Notification Improvements'};
+    michal = {'id': '2025-05_tenure_ambient_badges', 'kind': 'user', 'label': 'Tenure Ambient Badges'};
     verify = {};
-    offset = false;
-    verify['disableCurrentActivityNotifications'] = offset;
+    yankee = false;
+    verify['enabled'] = yankee;
     michal['defaultConfig'] = verify;
-    offset = {'id': 1, 'label': 'Disable notifications for current activity'};
-    verify = {};
-    verify['disableCurrentActivityNotifications'] = yankee;
-    offset['config'] = verify;
-    verify = new Array(1);
-    verify[0] = offset;
-    michal['treatments'] = verify;
     option = option.CONNECTION_OPEN;
     michal['commonTriggerPoint'] = option;
+    verify = {'id': 1, 'label': 'Enables new ambient badges for the Nitro tenure badge tooltips.'};
+    option = {};
+    option['enabled'] = offset;
+    verify['config'] = option;
+    option = new Array(1);
+    option[0] = verify;
+    michal['treatments'] = option;
     michal = tangon.bind(golfie)(michal);
     tangon = 2;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/notifications/ActivityNotificationImprovementsExperiment.tsx';
+    tangon = 'modules/user_profile/experiments/TenureAmbientBadgesExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
+    zuuluu['TenureAmbientBadgesExperiment'] = michal;
     return entity;
 })();

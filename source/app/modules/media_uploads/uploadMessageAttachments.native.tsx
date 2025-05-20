@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 336; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 346; continue _fun00001 }
  15:
                     zuuluu = michal.channelId;
                     var _closure4_slot0 = zuuluu;
@@ -27,21 +27,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = michal.nonce;
                     var _closure4_slot2 = verify;
                     golfie = michal.items;
+                    michal = michal.shouldUploadFailureSendNotification;
+                    var _closure4_slot3 = michal;
                     zuuluu = undefined;
-                    var _closure4_slot3 = zuuluu;
                     var _closure4_slot4 = zuuluu;
-                    SaveGenerator(address=63);
- 61:
+                    var _closure4_slot5 = zuuluu;
+                    SaveGenerator(address=73);
+ 71:
                     return zuuluu;
- 63:
+ 73:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 333; continue _fun00001 }
- 72:
+                    if(report) { _fun00002_ip = 343; continue _fun00001 }
+ 82:
                     option = _closure1_slot5;
                     oscard = option.has;
                     oscard = oscard.bind(option)(verify);
-                    if(oscard) { _fun00002_ip = 330; continue _fun00001 }
- 95:
+                    if(oscard) { _fun00002_ip = 340; continue _fun00001 }
+ 105:
                     oscard = _closure1_slot1;
                     option = _closure1_slot2;
                     report = 2;
@@ -55,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = report;
                     report = new romeon[option](yankee, offset, verify);
                     oscard = report instanceof Object ? report : oscard;
-                    _closure4_slot4 = oscard;
+                    _closure4_slot5 = oscard;
                     verify = oscard.on;
                     option = 'start';
                     report = function(argFoo) {
@@ -90,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             golfie = 'key';
                             michal[golfie] = option;
                             michal = zuuluu.bind(tangon)(michal);
-                            _closure4_slot3 = michal;
+                            _closure4_slot4 = michal;
  125:
                             zuuluu = _closure1_slot1;
                             michal = _closure1_slot2;
@@ -105,9 +107,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             golfie = _closure4_slot0;
                             michal['channelId'] = golfie;
                             michal['file'] = oscard;
-                            oscard = _closure4_slot4;
+                            oscard = _closure4_slot5;
                             michal['uploader'] = oscard;
-                            report = _closure4_slot3;
+                            report = _closure4_slot4;
                             michal['message'] = report;
                             michal = zuuluu.bind(tangon)(michal);
                             return entity;
@@ -163,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = tangon.delete;
                         michal = _closure4_slot2;
                         michal = zuuluu.bind(tangon)(michal);
-                        zuuluu = _closure4_slot4;
+                        zuuluu = _closure4_slot5;
                         michal = zuuluu.cancel;
                         michal = michal.bind(zuuluu)();
                         zuuluu = _closure1_slot1;
@@ -180,8 +182,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['channelId'] = oscard;
                         oscard = argFoo;
                         michal['file'] = oscard;
+                        oscard = _closure4_slot4;
+                        michal['messageRecord'] = oscard;
                         report = _closure4_slot3;
-                        michal['messageRecord'] = report;
+                        michal['shouldSendNotification'] = report;
                         michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
@@ -210,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  69:
                             if(!michal) { _fun00006_ip = 82; continue _fun00005 }
  72:
-                            zuuluu = _closure4_slot4;
+                            zuuluu = _closure4_slot5;
                             michal = zuuluu._aborted;
  82:
                             if(!michal) { _fun00006_ip = 146; continue _fun00005 }
@@ -244,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             option = _closure4_slot0;
                             michal['channelId'] = option;
                             michal['file'] = golfie;
-                            oscard = _closure4_slot4;
+                            oscard = _closure4_slot5;
                             oscard = oscard._aborted;
                             michal['aborted'] = oscard;
                             michal['messageRecord'] = report;
@@ -277,23 +281,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = {};
                     tangon = oscard.uploadFilesSimple;
                     tangon = tangon.bind(oscard)(golfie);
-                    SaveGenerator(address=308);
- 306:
+                    SaveGenerator(address=318);
+ 316:
                     return tangon;
- 308:
+ 318:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 327; continue _fun00001 }
- 314:
+                    if(golfie) { _fun00002_ip = 337; continue _fun00001 }
+ 324:
                     report['attachments'] = tangon;
                     report['uploader'] = oscard;
                     return report;
- 327:
+ 337:
                     return tangon;
- 330:
+ 340:
                     return zuuluu;
- 333:
+ 343:
                     return michal;
- 336:
+ 346:
                     return entity;
                 }
             };

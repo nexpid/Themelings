@@ -690,7 +690,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         StartGenerator();
                         tangon = this;
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00020_ip = 172; continue _fun00019 }
+                        if(michal) { _fun00020_ip = 171; continue _fun00019 }
  13:
                         michal = tangon._cachedSession;
                         zuuluu = null;
@@ -707,7 +707,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = tangon._cachedSession;
                         michal = oscard.bind(golfie)(report);
  70:
-                        if(!michal) { _fun00020_ip = 145; continue _fun00019 }
+                        if(!michal) { _fun00020_ip = 144; continue _fun00019 }
  73:
                         golfie = _closure1_slot11;
                         oscard = golfie.log;
@@ -721,26 +721,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = oscard.bind(michal)(report);
                         michal = report.getSession;
                         michal = michal.bind(report)();
-                        SaveGenerator(address=133);
- 131:
+                        SaveGenerator(address=132);
+ 130:
                         return michal;
- 133:
+ 132:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00020_ip = 169; continue _fun00019 }
- 139:
+                        if(report) { _fun00020_ip = 168; continue _fun00019 }
+ 138:
                         tangon['_cachedSession'] = michal;
- 145:
+ 144:
                         tangon = tangon._cachedSession;
                         report = zuuluu == tangon;
                         zuuluu = undefined;
-                        if(report) { _fun00020_ip = 166; continue _fun00019 }
- 160:
+                        if(report) { _fun00020_ip = 165; continue _fun00019 }
+ 159:
                         zuuluu = tangon.uuid;
- 166:
+ 165:
                         return zuuluu;
- 169:
+ 168:
                         return michal;
- 172:
+ 171:
                         return entity;
                     }
                 };

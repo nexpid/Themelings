@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.BackgroundGradientPresetId;
             tangon = report.id;
             tangon = golfie[tangon];
-            _fun00002_ip = 106; continue _fun00001;
+            _fun00002_ip = 107; continue _fun00001;
  77:
             verify = report.theme;
             golfie = global;
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = golfie.concat;
             golfie = 'default ';
             tangon = option.bind(golfie)(verify);
- 106:
+ 107:
             entity['themeName'] = tangon;
             tangon = argBar;
             entity['analyticsLocations'] = tangon;
@@ -125,8 +125,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = report.theme;
             entity = _closure1_slot4;
             entity = entity.MIDNIGHT;
-            if(!(oscard === entity)) { _fun00002_ip = 178; continue _fun00001 }
- 145:
+            if(!(oscard === entity)) { _fun00002_ip = 180; continue _fun00001 }
+ 147:
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
             entity = 4;
@@ -135,14 +135,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.setShouldSyncAppearanceSettings;
             entity = false;
             entity = oscard.bind(golfie)(entity);
- 178:
+ 180:
             oscard = report.theme;
             entity = 'system';
-            if(!(entity !== oscard)) { _fun00002_ip = 282; continue _fun00001 }
- 191:
+            if(!(entity !== oscard)) { _fun00002_ip = 287; continue _fun00001 }
+ 194:
             entity = report.colors;
-            if(!(zuuluu != entity)) { _fun00002_ip = 282; continue _fun00001 }
- 200:
+            if(!(zuuluu != entity)) { _fun00002_ip = 287; continue _fun00001 }
+ 203:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 5;
@@ -161,8 +161,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.theme;
             entity['theme'] = golfie;
             entity = zuuluu.bind(oscard)(entity);
-            _fun00002_ip = 346; continue _fun00001;
- 282:
+            _fun00002_ip = 353; continue _fun00001;
+ 287:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
             michal = 5;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.theme;
             michal['theme'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 346:
+ 353:
             return entity;
         }
     };

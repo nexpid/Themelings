@@ -48,15 +48,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 4;
             michal = report[michal];
             michal = zuuluu.bind(tangon)(michal);
-            if(entity) { _fun00002_ip = 80; continue _fun00001 }
- 67:
+            if(entity) { _fun00002_ip = 81; continue _fun00001 }
+ 68:
             entity = michal.unsafe_rawColors;
             entity = entity.PRIMARY_200;
-            _fun00002_ip = 91; continue _fun00001;
- 80:
+            _fun00002_ip = 92; continue _fun00001;
+ 81:
             michal = michal.colors;
             entity = michal.INTERACTIVE_NORMAL;
- 91:
+ 92:
             return entity;
         }
     };
@@ -83,13 +83,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report[michal];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.unsafe_rawColors;
-            if(entity) { _fun00004_ip = 80; continue _fun00003 }
- 72:
+            if(entity) { _fun00004_ip = 81; continue _fun00003 }
+ 73:
             entity = michal.PRIMARY_500;
-            _fun00004_ip = 86; continue _fun00003;
- 80:
+            _fun00004_ip = 87; continue _fun00003;
+ 81:
             entity = michal.WHITE_500;
- 86:
+ 87:
             return entity;
         }
     };
@@ -115,15 +115,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 4;
             michal = report[michal];
             michal = zuuluu.bind(tangon)(michal);
-            if(entity) { _fun00006_ip = 80; continue _fun00005 }
- 67:
+            if(entity) { _fun00006_ip = 81; continue _fun00005 }
+ 68:
             entity = michal.colors;
             entity = entity.BACKGROUND_SECONDARY;
-            _fun00006_ip = 91; continue _fun00005;
- 80:
+            _fun00006_ip = 92; continue _fun00005;
+ 81:
             michal = michal.unsafe_rawColors;
             entity = michal.PRIMARY_700;
- 91:
+ 92:
             return entity;
         }
     };
@@ -150,13 +150,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report[michal];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.unsafe_rawColors;
-            if(entity) { _fun00008_ip = 80; continue _fun00007 }
- 72:
+            if(entity) { _fun00008_ip = 81; continue _fun00007 }
+ 73:
             entity = michal.PRIMARY_630;
-            _fun00008_ip = 86; continue _fun00007;
- 80:
+            _fun00008_ip = 87; continue _fun00007;
+ 81:
             entity = michal.PRIMARY_300;
- 86:
+ 87:
             return entity;
         }
     };
@@ -183,13 +183,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report[michal];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.unsafe_rawColors;
-            if(entity) { _fun00010_ip = 80; continue _fun00009 }
- 72:
+            if(entity) { _fun00010_ip = 81; continue _fun00009 }
+ 73:
             entity = michal.BRAND_200;
-            _fun00010_ip = 86; continue _fun00009;
- 80:
+            _fun00010_ip = 87; continue _fun00009;
+ 81:
             entity = michal.BRAND_260;
- 86:
+ 87:
             return entity;
         }
     };

@@ -2425,7 +2425,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['rotateZ'] = report;
                     michal[3] = tangon;
                     entity['transform'] = michal;
-                    _fun00038_ip = 349; continue _fun00037;
+                    _fun00038_ip = 353; continue _fun00037;
  281:
                     michal = {'position': 'absolute', 'left': 0, 'top': 0};
                     tangon = _closure2_slot14;
@@ -2436,15 +2436,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['height'] = tangon;
                     tangon = _closure2_slot1;
                     zuuluu = 'transparent';
-                    if(!tangon) { _fun00038_ip = 334; continue _fun00037 }
- 328:
+                    if(!tangon) { _fun00038_ip = 338; continue _fun00037 }
+ 332:
                     zuuluu = 'rgba(100, 200, 300, 0.4)';
- 334:
+ 338:
                     michal['backgroundColor'] = zuuluu;
                     zuuluu = new Array(0);
                     michal['transform'] = zuuluu;
                     entity = michal;
- 349:
+ 353:
                     return entity;
                 }
             };

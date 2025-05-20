@@ -119,50 +119,50 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             if(tangon) { _fun00002_ip = 247; continue _fun00001 }
  241:
             report = _closure1_slot2;
-            _fun00002_ip = 253; continue _fun00001;
+            _fun00002_ip = 252; continue _fun00001;
  247:
             report = zuuluu.log;
- 253:
+ 252:
             entity['log'] = report;
-            if(tangon) { _fun00002_ip = 267; continue _fun00001 }
- 261:
+            if(tangon) { _fun00002_ip = 265; continue _fun00001 }
+ 259:
             report = _closure1_slot2;
-            _fun00002_ip = 272; continue _fun00001;
- 267:
+            _fun00002_ip = 270; continue _fun00001;
+ 265:
             report = zuuluu.warn;
- 272:
+ 270:
             entity['warn'] = report;
-            if(tangon) { _fun00002_ip = 285; continue _fun00001 }
- 279:
+            if(tangon) { _fun00002_ip = 283; continue _fun00001 }
+ 277:
             report = _closure1_slot2;
-            _fun00002_ip = 290; continue _fun00001;
- 285:
+            _fun00002_ip = 288; continue _fun00001;
+ 283:
             report = zuuluu.error;
- 290:
+ 288:
             entity['error'] = report;
-            if(tangon) { _fun00002_ip = 303; continue _fun00001 }
- 297:
+            if(tangon) { _fun00002_ip = 301; continue _fun00001 }
+ 295:
             report = _closure1_slot2;
-            _fun00002_ip = 309; continue _fun00001;
- 303:
+            _fun00002_ip = 307; continue _fun00001;
+ 301:
             report = zuuluu.info;
- 309:
+ 307:
             entity['info'] = report;
-            if(tangon) { _fun00002_ip = 323; continue _fun00001 }
- 317:
+            if(tangon) { _fun00002_ip = 321; continue _fun00001 }
+ 315:
             report = _closure1_slot2;
-            _fun00002_ip = 329; continue _fun00001;
- 323:
+            _fun00002_ip = 327; continue _fun00001;
+ 321:
             report = zuuluu.verbose;
- 329:
+ 327:
             entity['verbose'] = report;
-            if(tangon) { _fun00002_ip = 343; continue _fun00001 }
- 337:
+            if(tangon) { _fun00002_ip = 341; continue _fun00001 }
+ 335:
             michal = _closure1_slot2;
-            _fun00002_ip = 349; continue _fun00001;
- 343:
+            _fun00002_ip = 347; continue _fun00001;
+ 341:
             michal = zuuluu.trace;
- 349:
+ 347:
             entity['trace'] = michal;
             return entity;
         }

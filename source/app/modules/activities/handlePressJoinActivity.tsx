@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 425; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 410; continue _fun00003 }
  15:
                     romeon = michal.channelId;
                     var _closure4_slot0 = romeon;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     var _closure4_slot1 = option;
                     tangon = michal.launchId;
                     var _closure4_slot2 = tangon;
-                    backup = michal.inputApplication;
+                    foxtra = michal.inputApplication;
                     tangon = michal.analyticsLocations;
                     var _closure4_slot3 = tangon;
                     tangon = michal.launchingComponentId;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  108:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 422; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 407; continue _fun00003 }
  117:
                     report = _closure1_slot10;
                     zuuluu = report.getEmbeddedActivitiesForChannel;
@@ -373,8 +373,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     report = report.bind(oscard)(zuuluu);
                     _closure4_slot7 = report;
-                    kiloes = null;
-                    if(!(kiloes == backup)) { _fun00004_ip = 219; continue _fun00003 }
+                    backup = null;
+                    if(!(backup == foxtra)) { _fun00004_ip = 219; continue _fun00003 }
  160:
                     oscard = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -388,47 +388,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  195:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 419; continue _fun00003 }
+                    if(oscard) { _fun00004_ip = 404; continue _fun00003 }
  204:
                     option = _closure1_slot4;
                     oscard = option.createFromServer;
-                    backup = oscard.bind(option)(zuuluu);
+                    foxtra = oscard.bind(option)(zuuluu);
  219:
-                    if(!(kiloes != report)) { _fun00004_ip = 416; continue _fun00003 }
+                    if(!(backup != report)) { _fun00004_ip = 401; continue _fun00003 }
  226:
-                    if(!(kiloes != backup)) { _fun00004_ip = 416; continue _fun00003 }
+                    if(!(backup != foxtra)) { _fun00004_ip = 401; continue _fun00003 }
  233:
                     oscard = _closure1_slot8;
                     report = oscard.getCurrentUser;
                     yankee = report.bind(oscard)();
-                    oscard = _closure1_slot5;
-                    report = oscard.getChannel;
-                    foxtra = report.bind(oscard)(romeon);
                     oscard = _closure1_slot11;
                     report = {};
                     verify = _closure1_slot1;
-                    sizing = _closure1_slot2;
+                    kiloes = _closure1_slot2;
                     option = 8;
-                    option = sizing[option];
+                    option = kiloes[option];
                     verify = verify.bind(tangon)(option);
                     option = {};
-                    sizing = kiloes == yankee;
-                    kiloes = undefined;
-                    if(sizing) { _fun00004_ip = 302; continue _fun00003 }
- 297:
-                    kiloes = yankee.id;
- 302:
-                    option['userId'] = kiloes;
-                    option['application'] = backup;
+                    kiloes = backup == yankee;
+                    backup = undefined;
+                    if(kiloes) { _fun00004_ip = 288; continue _fun00003 }
+ 283:
+                    backup = yankee.id;
+ 288:
+                    option['userId'] = backup;
+                    option['application'] = foxtra;
                     option['channelId'] = romeon;
                     option['currentUser'] = yankee;
                     romeon = _closure1_slot0;
-                    backup = _closure1_slot2;
+                    foxtra = _closure1_slot2;
                     yankee = 13;
-                    yankee = backup[yankee];
+                    yankee = foxtra[yankee];
                     romeon = romeon.bind(tangon)(yankee);
                     yankee = romeon.getIsActivitiesEnabledForCurrentPlatform;
-                    yankee = yankee.bind(romeon)(foxtra);
+                    yankee = yankee.bind(romeon)();
                     option['isActivitiesEnabledForCurrentPlatform'] = yankee;
                     yankee = _closure1_slot5;
                     option['ChannelStore'] = yankee;
@@ -452,13 +449,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     report['handleCanJoin'] = golfie;
                     report = oscard.bind(tangon)(report);
- 416:
+ 401:
                     return tangon;
- 419:
+ 404:
                     return zuuluu;
- 422:
+ 407:
                     return michal;
- 425:
+ 410:
                     return entity;
                 }
             };

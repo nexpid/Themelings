@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {'variant': 'text-md/normal', 'color': 'text-positive'};
             oscard = oscard.discount;
             michal['style'] = oscard;
-            oscard = ['(-$'];
+            oscard = ['(-'];
             oscard[1] = golfie;
             golfie = '%)';
             oscard[2] = golfie;

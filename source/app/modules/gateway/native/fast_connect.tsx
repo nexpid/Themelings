@@ -16,14 +16,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.window;
             michal = entity.WebSocket;
             entity = null;
-            if(!(entity == michal)) { _fun00002_ip = 46; continue _fun00001 }
+            if(!(entity == michal)) { _fun00002_ip = 45; continue _fun00001 }
  20:
             zuuluu = _closure1_slot7;
             michal = zuuluu.log;
             entity = 'Skipping fast_connect because `window.WebSocket` does not exist.';
             entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 59; continue _fun00001;
- 46:
+            _fun00002_ip = 58; continue _fun00001;
+ 45:
             michal = function() { // Original name: newWebSocket
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -90,24 +90,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.bind(entity)(oscard);
                     oscard = tangon.isNaN;
                     oscard = oscard.bind(entity)(verify);
-                    if(oscard) { _fun00004_ip = 567; continue _fun00003 }
- 283:
+                    if(oscard) { _fun00004_ip = 566; continue _fun00003 }
+ 282:
                     offset = _closure1_slot0;
                     oscard = _closure1_slot3;
                     oscard = oscard[yankee];
                     offset = offset.bind(entity)(oscard);
                     oscard = offset.isAndroid;
                     oscard = oscard.bind(offset)();
-                    if(option) { _fun00004_ip = 371; continue _fun00003 }
- 312:
-                    if(oscard) { _fun00004_ip = 338; continue _fun00003 }
- 315:
+                    if(option) { _fun00004_ip = 370; continue _fun00003 }
+ 311:
+                    if(oscard) { _fun00004_ip = 337; continue _fun00003 }
+ 314:
                     option = _closure1_slot4;
                     offset = option.DCDCompressionManager;
                     option = offset.enableZlibStreamSupport;
                     option = option.bind(offset)(verify);
-                    _fun00004_ip = 431; continue _fun00003;
- 338:
+                    _fun00004_ip = 430; continue _fun00003;
+ 337:
                     offset = _closure1_slot1;
                     yankee = _closure1_slot3;
                     option = 11;
@@ -115,17 +115,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = offset.bind(entity)(option);
                     option = offset.enableZlibStreamSupport;
                     option = option.bind(offset)(verify);
-                    _fun00004_ip = 431; continue _fun00003;
- 371:
-                    if(oscard) { _fun00004_ip = 400; continue _fun00003 }
- 374:
+                    _fun00004_ip = 430; continue _fun00003;
+ 370:
+                    if(oscard) { _fun00004_ip = 399; continue _fun00003 }
+ 373:
                     oscard = _closure1_slot4;
                     offset = oscard.DCDCompressionManager;
                     option = offset.enableZstdStreamSupport;
                     oscard = 0;
                     oscard = option.bind(offset)(verify, oscard);
-                    _fun00004_ip = 431; continue _fun00003;
- 400:
+                    _fun00004_ip = 430; continue _fun00003;
+ 399:
                     option = _closure1_slot1;
                     offset = _closure1_slot3;
                     oscard = 11;
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(entity)(oscard);
                     oscard = option.enableZstdStreamSupport;
                     oscard = oscard.bind(option)(verify);
- 431:
+ 430:
                     oscard = {'open': false, 'gateway': null, 'identify': false, 'messages': null, 'clientState': null};
                     oscard['gateway'] = golfie;
                     golfie = new Array(0);
@@ -224,20 +224,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = '🌐';
                     tangon = 'Fastconnect socket created';
                     tangon = oscard.bind(golfie)(report, tangon);
-                    _fun00004_ip = 595; continue _fun00003;
- 567:
+                    _fun00004_ip = 593; continue _fun00003;
+ 566:
                     report = _closure1_slot7;
                     tangon = report.log;
                     zuuluu = michal._socketId;
                     michal = '[FAST CONNECT] Unable to create socketId from NaN value ';
                     michal = tangon.bind(report)(michal, zuuluu);
- 595:
+ 593:
                     return entity;
                 }
             };
             entity = undefined;
             entity = michal.bind(entity)();
- 59:
+ 58:
             entity = undefined;
             return entity;
         }
@@ -318,14 +318,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.window;
             michal = entity._ws;
             entity = null;
-            if(!(entity == michal)) { _fun00008_ip = 46; continue _fun00007 }
+            if(!(entity == michal)) { _fun00008_ip = 45; continue _fun00007 }
  20:
             zuuluu = _closure1_slot7;
             michal = zuuluu.log;
             entity = 'Skipping identifyWebSocket because socket is null';
             entity = michal.bind(zuuluu)(entity);
-            _fun00008_ip = 95; continue _fun00007;
- 46:
+            _fun00008_ip = 94; continue _fun00007;
+ 45:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot3;
             entity = 14;
@@ -387,14 +387,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(!(offset != tangon)) { _fun00010_ip = 63; continue _fun00009 }
  55:
                     michal = '';
-                    if(!(michal === tangon)) { _fun00010_ip = 89; continue _fun00009 }
+                    if(!(michal === tangon)) { _fun00010_ip = 88; continue _fun00009 }
  63:
                     report = _closure1_slot7;
                     zuuluu = report.log;
                     michal = 'Skipping fast_connect because we could not find a token to connect with.';
                     michal = zuuluu.bind(report)(michal);
-                    _fun00010_ip = 805; continue _fun00009;
- 89:
+                    _fun00010_ip = 804; continue _fun00009;
+ 88:
                     report = global;
                     michal = report.window;
                     zuuluu = michal._ws;
@@ -408,13 +408,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.bind(entity)(michal);
                     michal = golfie.isAndroid;
                     michal = michal.bind(golfie)();
-                    if(michal) { _fun00010_ip = 169; continue _fun00009 }
- 152:
+                    if(michal) { _fun00010_ip = 168; continue _fun00009 }
+ 151:
                     michal = _closure1_slot4;
                     michal = michal.DCDFastConnectManager;
                     michal = michal.userId;
-                    _fun00010_ip = 204; continue _fun00009;
- 169:
+                    _fun00010_ip = 203; continue _fun00009;
+ 168:
                     option = _closure1_slot1;
                     verify = _closure1_slot3;
                     golfie = 5;
@@ -423,13 +423,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.getConstants;
                     golfie = golfie.bind(option)();
                     michal = golfie.userId;
- 204:
+ 203:
                     golfie = offset != michal;
                     romeon = null;
-                    if(!golfie) { _fun00010_ip = 216; continue _fun00009 }
- 213:
+                    if(!golfie) { _fun00010_ip = 215; continue _fun00009 }
+ 212:
                     romeon = michal;
- 216:
+ 215:
                     verify = _closure1_slot7;
                     option = verify.info;
                     michal = _closure1_slot5;
@@ -445,15 +445,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = michal.bind(golfie)();
                     michal = offset != golfie;
                     output = null;
-                    if(!michal) { _fun00010_ip = 316; continue _fun00009 }
- 287:
+                    if(!michal) { _fun00010_ip = 315; continue _fun00009 }
+ 286:
                     option = report.Date;
                     michal = option.now;
                     michal = michal.bind(option)();
                     golfie = michal - golfie;
                     michal = 1000;
                     output = golfie / michal;
- 316:
+ 315:
                     michal = {};
                     michal['token'] = tangon;
                     option = {};
@@ -516,8 +516,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(entity)(golfie);
                     golfie = option.isAndroid;
                     golfie = golfie.bind(option)();
-                    if(golfie) { _fun00010_ip = 666; continue _fun00009 }
- 590:
+                    if(golfie) { _fun00010_ip = 665; continue _fun00009 }
+ 589:
                     golfie = _closure1_slot4;
                     foxtra = golfie.DCDFastConnectManager;
                     option = foxtra.prepareIdentify;
@@ -529,31 +529,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = backup.isCacheEnabled;
                     backup = golfie.bind(backup)();
                     golfie = null;
-                    if(!backup) { _fun00010_ip = 645; continue _fun00009 }
- 641:
+                    if(!backup) { _fun00010_ip = 644; continue _fun00009 }
+ 640:
                     golfie = _closure1_slot6;
- 645:
+ 644:
                     vacuum = foxtra;
                     ctrled = romeon;
                     source = verify;
                     update = oscard;
                     echoed = golfie;
                     golfie = vacuum[option](ctrled, source, update, echoed, result);
-                    _fun00010_ip = 787; continue _fun00009;
- 666:
+                    _fun00010_ip = 786; continue _fun00009;
+ 665:
                     option = offset == romeon;
                     golfie = undefined;
-                    if(option) { _fun00010_ip = 684; continue _fun00009 }
- 675:
+                    if(option) { _fun00010_ip = 683; continue _fun00009 }
+ 674:
                     option = romeon.toString;
                     golfie = option.bind(romeon)();
- 684:
+ 683:
                     option = offset != golfie;
                     offset = null;
-                    if(!option) { _fun00010_ip = 696; continue _fun00009 }
- 693:
+                    if(!option) { _fun00010_ip = 695; continue _fun00009 }
+ 692:
                     offset = golfie;
- 696:
+ 695:
                     option = _closure1_slot1;
                     foxtra = _closure1_slot3;
                     golfie = 5;
@@ -569,26 +569,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = romeon.isCacheEnabled;
                     romeon = report.bind(romeon)();
                     report = undefined;
-                    if(!romeon) { _fun00010_ip = 768; continue _fun00009 }
- 764:
+                    if(!romeon) { _fun00010_ip = 767; continue _fun00009 }
+ 763:
                     report = _closure1_slot6;
- 768:
+ 767:
                     vacuum = option;
                     ctrled = offset;
                     source = verify;
                     update = oscard;
                     echoed = report;
                     report = vacuum[golfie](ctrled, source, update, echoed, result);
- 787:
+ 786:
                     michal = michal.client_state;
                     zuuluu['identify'] = tangon;
                     zuuluu['clientState'] = michal;
- 805:
+ 804:
                     return entity;
                 }
             };
             entity = michal.bind(zuuluu)(entity);
- 95:
+ 94:
             entity = undefined;
             return entity;
         }

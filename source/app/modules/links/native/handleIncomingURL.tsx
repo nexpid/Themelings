@@ -35,8 +35,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = zuuluu.bind(report)();
                     zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ACTIVE;
-                    if(!(report !== zuuluu)) { _fun00002_ip = 145; continue _fun00001 }
- 93:
+                    if(!(report !== zuuluu)) { _fun00002_ip = 144; continue _fun00001 }
+ 92:
                     oscard = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 4;
@@ -47,20 +47,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = null;
                     golfie = zuuluu == tangon;
                     zuuluu = 'deeplink';
-                    if(!golfie) { _fun00002_ip = 140; continue _fun00001 }
- 134:
+                    if(!golfie) { _fun00002_ip = 139; continue _fun00001 }
+ 133:
                     zuuluu = 'launcher';
- 140:
+ 139:
                     zuuluu = report.bind(oscard)(zuuluu);
- 145:
+ 144:
                     romeon = null;
                     if(!(romeon != tangon)) { _fun00002_ip = 1142; continue _fun00001 }
- 154:
+ 153:
                     report = tangon.startsWith;
                     zuuluu = 'discordwidget:///';
                     zuuluu = report.bind(tangon)(zuuluu);
                     if(zuuluu) { _fun00002_ip = 731; continue _fun00001 }
- 177:
+ 176:
                     zuuluu = michal.URL;
                     report = zuuluu.prototype;
                     report = Object.create(report, {constructor: {value: zuuluu}});
@@ -71,19 +71,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = zuuluu.hostname;
                     zuuluu = 'l.discord.com';
                     report = tangon;
-                    if(!(zuuluu === oscard)) { _fun00002_ip = 303; continue _fun00001 }
- 225:
+                    if(!(zuuluu === oscard)) { _fun00002_ip = 302; continue _fun00001 }
+ 224:
                     zuuluu = michal.fetch;
                     verify = undefined;
                     michal = {'method': 'HEAD', 'redirect': 'follow'};
                     michal = zuuluu.bind(verify)(tangon, michal);
-                    SaveGenerator(address=257);
- 255:
+                    SaveGenerator(address=256);
+ 254:
                     return michal;
- 257:
+ 256:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(zuuluu) { _fun00002_ip = 728; continue _fun00001 }
- 266:
+ 265:
                     report = michal.url;
                     golfie = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = golfie.bind(verify)(zuuluu);
                     zuuluu = zuuluu.DeeplinkSource;
                     foxtra = zuuluu.Iterable;
- 303:
+ 302:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
                     zuuluu = 7;

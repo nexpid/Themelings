@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = golfie.bind(entity)(tangon);
     tangon = option.prototype;
     golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = 'useHandleBuyNow.android';
+    romeon = 'useHandleBuyNow';
     foxtra = golfie;
     tangon = new foxtra[option](romeon, yankee);
     tangon = tangon instanceof Object ? tangon : golfie;
@@ -182,49 +182,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 121; continue _fun00003 }
- 7: // try_start_0
+                    if(michal) { _fun00004_ip = 141; continue _fun00003 }
+ 10: // try_start_0
                     michal = _closure2_slot3;
-                    if(michal) { _fun00004_ip = 71; continue _fun00003 }
- 17:
+                    if(michal) { _fun00004_ip = 74; continue _fun00003 }
+ 20:
                     report = _closure2_slot4;
                     tangon = undefined;
                     michal = true;
                     michal = report.bind(tangon)(michal);
                     michal = _closure2_slot5;
                     michal = michal.bind(tangon)();
-                    SaveGenerator(address=42);
- 40:
+                    SaveGenerator(address=45);
+ 43:
                     return michal;
- 42:
+ 45:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00004_ip = 68; continue _fun00003 }
- 48:
+                    if(report) { _fun00004_ip = 71; continue _fun00003 }
+ 51:
                     oscard = _closure2_slot1;
                     report = null;
-                    if(!(report != oscard)) { _fun00004_ip = 71; continue _fun00003 }
- 58:
+                    if(!(report != oscard)) { _fun00004_ip = 74; continue _fun00003 }
+ 61:
                     zuuluu = _closure2_slot1;
                     zuuluu = zuuluu.bind(tangon)();
-                    _fun00004_ip = 71; continue _fun00003;
- 68: // try_end0
+                    _fun00004_ip = 74; continue _fun00003;
+ 71: // try_end0
                     return michal;
- 71:
-                    _fun00004_ip = 116; continue _fun00003;
- 73: // catch_target0
-                    CatchBlockStart(arg_register=5);
+ 74:
+                    _fun00004_ip = 136; continue _fun00003;
+ 76: // catch_target0
+                    CatchBlockStart(arg_register=6);
                     tangon = _closure1_slot6;
                     zuuluu = tangon.error;
                     michal = global;
+                    oscard = michal.JSON;
+                    report = oscard.stringify;
+                    oscard = report.bind(oscard)(golfie);
                     michal = michal.HermesInternal;
                     report = michal.concat;
                     michal = 'Error running purchase: ';
                     michal = report.bind(michal)(oscard);
                     michal = zuuluu.bind(tangon)(michal);
- 116:
+ 136:
                     michal = undefined;
                     return michal;
- 121:
+ 141:
                     return entity;
                 }
             };

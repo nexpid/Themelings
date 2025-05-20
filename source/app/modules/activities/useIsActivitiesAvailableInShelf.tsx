@@ -31,40 +31,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golfie = argFoo;
-            option = argBar;
             var _closure2_slot0 = golfie;
             michal = _closure1_slot0;
-            report = _closure1_slot2;
+            option = _closure1_slot2;
             entity = 1;
-            entity = report[entity];
+            entity = option[entity];
             oscard = undefined;
-            verify = michal.bind(oscard)(entity);
-            report = verify.useIsActivitiesEnabledForCurrentPlatform;
-            entity = null;
-            offset = entity != option;
-            michal = undefined;
-            if(!offset) { _fun00002_ip = 57; continue _fun00001 }
- 54:
-            michal = option;
- 57:
-            michal = report.bind(verify)(michal);
+            michal = michal.bind(oscard)(entity);
+            entity = michal.useIsActivitiesEnabledForCurrentPlatform;
+            michal = entity.bind(michal)();
             var _closure2_slot1 = michal;
-            verify = _closure1_slot1;
-            offset = _closure1_slot2;
-            report = 2;
-            report = offset[report];
-            report = verify.bind(oscard)(report);
-            report = report.bind(oscard)(option);
+            report = _closure1_slot1;
+            entity = 2;
+            entity = option[entity];
+            report = report.bind(oscard)(entity);
+            entity = argBar;
+            report = report.bind(oscard)(entity);
+            entity = null;
             entity = entity != golfie;
-            if(!entity) { _fun00002_ip = 106; continue _fun00001 }
- 98:
+            if(!entity) { _fun00002_ip = 89; continue _fun00001 }
+ 81:
             oscard = '';
             entity = oscard !== golfie;
- 106:
-            if(entity) { _fun00002_ip = 112; continue _fun00001 }
- 109:
+ 89:
+            if(entity) { _fun00002_ip = 95; continue _fun00001 }
+ 92:
             entity = report;
- 112:
+ 95:
             var _closure2_slot2 = entity;
             oscard = _closure1_slot3;
             report = oscard.useEffect;
@@ -99,10 +92,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = report.bind(oscard)(zuuluu, tangon);
-            if(!entity) { _fun00002_ip = 158; continue _fun00001 }
- 155:
+            if(!entity) { _fun00002_ip = 141; continue _fun00001 }
+ 138:
             entity = michal;
- 158:
+ 141:
             return entity;
         }
     };

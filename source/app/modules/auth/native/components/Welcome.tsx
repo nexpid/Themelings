@@ -786,7 +786,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.bind(golfie)(report);
             if(!zuuluu) { _fun00006_ip = 431; continue _fun00005 }
  425:
-            if(michal) { _fun00006_ip = 922; continue _fun00005 }
+            if(michal) { _fun00006_ip = 923; continue _fun00005 }
  431:
             vacuum = _closure1_slot0;
             sequen = _closure1_slot2;
@@ -947,7 +947,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 922:
+ 923:
             zuuluu = _closure1_slot21;
             michal = _closure1_slot1;
             report = _closure1_slot2;

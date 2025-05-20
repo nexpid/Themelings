@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     report = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 325; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 321; continue _fun00003 }
  13:
                     oscard = report;
                     tangon = undefined;
@@ -108,8 +108,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  179:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(option) { _fun00004_ip = 310; continue _fun00003 }
- 188:
+                    if(option) { _fun00004_ip = 306; continue _fun00003 }
+ 185:
                     verify = report.performance;
                     option = verify.now;
                     option = option.bind(verify)();
@@ -124,8 +124,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = option.getState;
                     golfie = golfie.bind(option)();
                     golfie = golfie.recordingId;
-                    if(!(golfie === oscard)) { _fun00004_ip = 307; continue _fun00003 }
- 261:
+                    if(!(golfie === oscard)) { _fun00004_ip = 303; continue _fun00003 }
+ 257:
                     golfie = _closure1_slot9;
                     oscard = _closure1_slot12;
                     oscard = oscard.STARTED;
@@ -135,18 +135,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = golfie.now;
                     report = report.bind(golfie)();
                     report = oscard.bind(tangon)(report);
- 304: // try_end0
+ 300: // try_end0
                     return tangon;
- 307:
+ 303:
                     return tangon;
- 310:
+ 306:
                     return michal;
- 313: // catch_target0
+ 309: // catch_target0
                     CatchBlockStart(arg_register=1);
                     zuuluu = _closure1_slot24;
                     zuuluu = zuuluu.bind(tangon)();
                     throw michal;
- 325:
+ 321:
                     return entity;
                 }
             };

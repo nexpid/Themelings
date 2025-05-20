@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                                 StartGenerator();
                                 verify = argFoo;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00002_ip = 243; continue _fun00001 }
+                                if(michal) { _fun00002_ip = 242; continue _fun00001 }
  13:
                                 report = _closure1_slot0;
                                 zuuluu = _closure1_slot1;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                                 return michal;
  114:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(report) { _fun00002_ip = 240; continue _fun00001 }
+                                if(report) { _fun00002_ip = 239; continue _fun00001 }
  120:
                                 option = _closure1_slot4;
                                 golfie = option.log;
@@ -103,8 +103,8 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                                 report = 'Sent message, ok:';
                                 report = golfie.bind(option)(report, oscard);
                                 report = michal.ok;
-                                if(!report) { _fun00002_ip = 223; continue _fun00001 }
- 157:
+                                if(!report) { _fun00002_ip = 222; continue _fun00001 }
+ 156:
                                 tangon = _closure1_slot3;
                                 oscard = tangon.PushNotificationAndroid;
                                 report = oscard.handleDirectReplySuccess;
@@ -120,14 +120,14 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                                 verify = copyDataProperties(kiloes, backup);
                                 tangon = golfie.bind(option)(tangon);
                                 tangon = report.bind(oscard)(tangon);
- 223:
+ 222:
                                 report = _closure3_slot0;
                                 tangon = true;
                                 tangon = report.bind(zuuluu)(tangon);
                                 return zuuluu;
- 240:
+ 239:
                                 return michal;
- 243:
+ 242:
                                 return entity;
                             }
                         };

@@ -685,10 +685,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext.bind(tangon)(result);
             result = cntext.isAndroid;
             result = result.bind(cntext)();
-            if(!result) { _fun00004_ip = 1071; continue _fun00003 }
- 1065:
+            if(!result) { _fun00004_ip = 1072; continue _fun00003 }
+ 1066:
             result = ctrled.modalBackground;
- 1071:
+ 1072:
             backup[1] = result;
             backup[2] = kiloes;
             romeon['style'] = backup;
@@ -700,8 +700,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.bind(tangon)(backup);
             backup = kiloes.isAndroid;
             kiloes = backup.bind(kiloes)();
-            if(!kiloes) { _fun00004_ip = 1172; continue _fun00003 }
- 1121:
+            if(!kiloes) { _fun00004_ip = 1173; continue _fun00003 }
+ 1122:
             result = _closure1_slot9;
             output = _closure1_slot1;
             cntext = _closure1_slot2;
@@ -714,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = ctrled.cloudsBackground;
             backup['style'] = cntext;
             kiloes = result.bind(tangon)(output, backup);
- 1172:
+ 1173:
             backup = new Array(2);
             backup[0] = kiloes;
             limora = _closure1_slot9;
@@ -845,8 +845,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = new Array(3);
             backup[0] = cntext;
             sizing = sizing != whisks;
-            if(!sizing) { _fun00004_ip = 1880; continue _fun00003 }
- 1787:
+            if(!sizing) { _fun00004_ip = 1881; continue _fun00003 }
+ 1788:
             target = _closure1_slot9;
             cntext = _closure1_slot0;
             limora = _closure1_slot2;
@@ -869,7 +869,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = target.bind(tangon)(sierra, status);
             output['children'] = status;
             sizing = target.bind(tangon)(cntext, output);
- 1880:
+ 1881:
             backup[1] = sizing;
             output = _closure1_slot10;
             whisks = _closure1_slot0;
@@ -928,8 +928,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['variant'] = vacuum;
             source = cntext.bind(tangon)(ctrled, source);
             result[1] = source;
-            if(!echoed) { _fun00004_ip = 2202; continue _fun00003 }
- 2135:
+            if(!echoed) { _fun00004_ip = 2203; continue _fun00003 }
+ 2136:
             ctrled = _closure1_slot9;
             source = _closure1_slot0;
             cntext = _closure1_slot2;
@@ -946,7 +946,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['onPress'] = sequen;
             update['variant'] = vacuum;
             echoed = ctrled.bind(tangon)(source, update);
- 2202:
+ 2203:
             result[2] = echoed;
             kiloes['children'] = result;
             kiloes = output.bind(tangon)(sizing, kiloes);
@@ -1343,8 +1343,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.PX_4;
             oscard['spacing'] = romeon;
             oscard['onLayout'] = verify;
-            if(!offset) { _fun00008_ip = 1673; continue _fun00007 }
- 1500:
+            if(!offset) { _fun00008_ip = 1674; continue _fun00007 }
+ 1501:
             sizing = _closure1_slot9;
             romeon = _closure1_slot5;
             verify = {};
@@ -1381,7 +1381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.bind(tangon)(echoed, result);
             verify['children'] = result;
             offset = sizing.bind(tangon)(romeon, verify);
- 1673:
+ 1674:
             verify = new Array(5);
             verify[0] = offset;
             sizing = _closure1_slot9;
@@ -1431,15 +1431,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(tangon)(output);
             result = output.ClosedCaptionsOutlineIcon;
             output = {};
-            if(source) { _fun00008_ip = 1903; continue _fun00007 }
- 1890:
+            if(source) { _fun00008_ip = 1904; continue _fun00007 }
+ 1891:
             source = ctrled.iconDisabled;
             source = source.color;
-            _fun00008_ip = 1913; continue _fun00007;
- 1903:
+            _fun00008_ip = 1914; continue _fun00007;
+ 1904:
             ctrled = ctrled.icon;
             source = ctrled.color;
- 1913:
+ 1914:
             output['color'] = source;
             output = sizing.bind(tangon)(result, output);
             offset['children'] = output;

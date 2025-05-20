@@ -257,30 +257,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = entity.type;
                 oscard = _closure1_slot17;
                 oscard = oscard.SEND;
-                if(!(oscard !== report)) { _fun00006_ip = 127; continue _fun00005 }
- 59:
+                if(!(oscard !== report)) { _fun00006_ip = 126; continue _fun00005 }
+ 58:
                 oscard = _closure1_slot17;
                 oscard = oscard.EDIT;
-                if(!(oscard !== report)) { _fun00006_ip = 108; continue _fun00005 }
- 73:
+                if(!(oscard !== report)) { _fun00006_ip = 107; continue _fun00005 }
+ 72:
                 michal = _closure1_slot17;
                 michal = michal.COMMAND;
-                if(!(michal === report)) { _fun00006_ip = 144; continue _fun00005 }
- 87:
+                if(!(michal === report)) { _fun00006_ip = 143; continue _fun00005 }
+ 86:
                 report = zuuluu.handleCommand;
                 michal = entity.message;
                 michal = report.bind(zuuluu)(michal, tangon);
-                _fun00006_ip = 144; continue _fun00005;
- 108:
+                _fun00006_ip = 143; continue _fun00005;
+ 107:
                 report = zuuluu.handleEdit;
                 michal = entity.message;
                 michal = report.bind(zuuluu)(michal, tangon);
-                _fun00006_ip = 144; continue _fun00005;
- 127:
+                _fun00006_ip = 143; continue _fun00005;
+ 126:
                 michal = zuuluu.handleSend;
                 entity = entity.message;
                 entity = michal.bind(zuuluu)(entity, tangon);
- 144:
+ 143:
                 entity = undefined;
                 return entity;
             }
@@ -303,11 +303,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = tangon.get;
                 tangon = entity.bind(tangon)(zuuluu);
                 entity = null;
-                if(!(entity != tangon)) { _fun00008_ip = 61; continue _fun00007 }
- 51:
+                if(!(entity != tangon)) { _fun00008_ip = 60; continue _fun00007 }
+ 50:
                 entity = tangon.abort;
                 entity = entity.bind(tangon)();
- 61:
+ 60:
                 tangon = michal.requests;
                 entity = tangon.delete;
                 entity = entity.bind(tangon)(zuuluu);
@@ -592,7 +592,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = option.get;
                 oscard = 'send_fail_100';
                 oscard = golfie.bind(option)(oscard);
-                if(oscard) { _fun00016_ip = 416; continue _fun00015 }
+                if(oscard) { _fun00016_ip = 415; continue _fun00015 }
  158:
                 golfie = _closure1_slot1;
                 option = _closure1_slot2;
@@ -602,7 +602,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = oscard.bind(zuuluu)();
                 oscard = michal != golfie;
                 yankee = undefined;
-                if(!oscard) { _fun00016_ip = 223; continue _fun00015 }
+                if(!oscard) { _fun00016_ip = 222; continue _fun00015 }
  191:
                 oscard = {};
                 oscard['location'] = golfie;
@@ -611,7 +611,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = 'Overlay location: ';
                 golfie = option.bind(offset)(golfie, oscard);
                 yankee = oscard;
- 223:
+ 222:
                 golfie = entity.createResponseHandler;
                 oscard = report.nonce;
                 option = golfie.bind(entity)(oscard, tangon);
@@ -674,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report[verify] = offset;
                 report = oscard.bind(golfie)(report, option);
                 return zuuluu;
- 416:
+ 415:
                 oscard = entity.logger;
                 report = oscard.log;
                 entity = 'Skipping message send because send_fail_100 is enabled';
