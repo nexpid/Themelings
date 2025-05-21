@@ -290,7 +290,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = 52;
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
-    golfie = golfie.HotwheelsActivityFeedMlModelV3Experiment;
+    golfie = golfie.HotwheelsActivityFeedMlModelUAV2Experiment;
     verify[56] = golfie;
     golfie = 53;
     golfie = oscard[golfie];

@@ -251,26 +251,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 7;
             golfie = verify[golfie];
             golfie = option.bind(entity)(golfie);
-            option = golfie.LibdiscoreExperiments;
+            option = golfie.AllLibdiscoreExperiments;
             golfie = option.forEach;
             report = function(argFoo) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
-                    zuuluu = entity.getCurrentConfig;
-                    michal = {};
-                    tangon = 'default';
-                    michal['location'] = tangon;
-                    michal = zuuluu.bind(entity)(michal);
-                    michal = michal.enabled;
-                    if(!michal) { _fun00012_ip = 60; continue _fun00011 }
- 32:
+                    report = entity._discordExperiment;
+                    michal = null;
+                    michal = michal != report;
+                    if(!michal) { _fun00012_ip = 44; continue _fun00011 }
+ 18:
+                    tangon = report.getCurrentConfig;
+                    zuuluu = {};
+                    oscard = 'default';
+                    zuuluu['location'] = oscard;
+                    zuuluu = tangon.bind(report)(zuuluu);
+                    michal = zuuluu.enabled;
+ 44:
+                    if(!michal) { _fun00012_ip = 69; continue _fun00011 }
+ 47:
                     zuuluu = _closure2_slot0;
                     michal = zuuluu.add;
-                    entity = entity.definition;
                     entity = entity.id;
                     entity = michal.bind(zuuluu)(entity);
- 60:
+ 69:
                     entity = undefined;
                     return entity;
                 }
@@ -353,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot7 = tangon;
     tangon = null;
     var _closure1_slot8 = tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -419,8 +424,73 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = '_initialize';
         report['key'] = entity;
         entity = function() { // Original name: value
-            michal = _closure1_slot12;
+            michal = function() { // Original name: initializeAllExperiments
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot1;
+                entity = 7;
+                michal = michal[entity];
+                entity = undefined;
+                michal = zuuluu.bind(entity)(michal);
+                tangon = michal.AllLibdiscoreExperiments;
+                zuuluu = tangon.forEach;
+                michal = function(argFoo) {
+                    tangon = argFoo;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot1;
+                    entity = 8;
+                    michal = michal[entity];
+                    entity = undefined;
+                    report = zuuluu.bind(entity)(michal);
+                    zuuluu = report.createExperiment;
+                    michal = {};
+                    oscard = 'user';
+                    michal['kind'] = oscard;
+                    oscard = tangon.id;
+                    michal['id'] = oscard;
+                    offset = tangon.feature;
+                    option = global;
+                    oscard = option.HermesInternal;
+                    verify = oscard.concat;
+                    golfie = 'libdiscore ';
+                    oscard = ' Migration';
+                    oscard = verify.bind(golfie)(offset, oscard);
+                    michal['label'] = oscard;
+                    oscard = {};
+                    verify = false;
+                    oscard['enabled'] = verify;
+                    michal['defaultConfig'] = oscard;
+                    golfie = {'id': 0, 'label': 'Control'};
+                    oscard = {};
+                    oscard['enabled'] = verify;
+                    golfie['config'] = oscard;
+                    oscard = new Array(2);
+                    oscard[0] = golfie;
+                    golfie = {};
+                    verify = 1;
+                    golfie['id'] = verify;
+                    offset = tangon.feature;
+                    option = option.HermesInternal;
+                    verify = option.concat;
+                    option = 'Use libdiscore ';
+                    option = verify.bind(option)(offset);
+                    golfie['label'] = option;
+                    option = {};
+                    verify = true;
+                    option['enabled'] = verify;
+                    golfie['config'] = option;
+                    oscard[1] = golfie;
+                    michal['treatments'] = oscard;
+                    zuuluu = zuuluu.bind(report)(michal);
+                    michal = tangon.setDiscordExperiment;
+                    michal = michal.bind(tangon)(zuuluu);
+                    return entity;
+                };
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            };
             entity = undefined;
+            michal = michal.bind(entity)();
+            michal = _closure1_slot12;
             michal = michal.bind(entity)();
             return entity;
         };
@@ -445,7 +515,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 9;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

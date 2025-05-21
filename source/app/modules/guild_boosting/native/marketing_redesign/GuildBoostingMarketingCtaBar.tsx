@@ -331,8 +331,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = equals[report];
             verify = quebec.bind(tangon)(report);
             report = verify.useIsInReverseTrial;
-            report = report.bind(verify)();
-            config = report.isInReverseTrial;
+            config = report.bind(verify)();
             report = 20;
             report = equals[report];
             report = sierra.bind(tangon)(report);
@@ -645,8 +644,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot11;
             foxtra = verify.NONE;
             verify = null;
-            if(!(update !== foxtra)) { _fun00004_ip = 1664; continue _fun00003 }
- 1612:
+            if(!(update !== foxtra)) { _fun00004_ip = 1666; continue _fun00003 }
+ 1614:
             source = _closure1_slot12;
             update = _closure1_slot1;
             target = _closure1_slot2;
@@ -659,7 +658,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = kiloes.fpCountdownPill;
             foxtra['style'] = config;
             verify = source.bind(tangon)(update, foxtra);
- 1664:
+ 1666:
             option[3] = verify;
             source = _closure1_slot12;
             update = _closure1_slot1;
@@ -686,13 +685,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = record[foxtra];
             record = status.bind(tangon)(record);
             record = record.Colors;
-            if(config) { _fun00004_ip = 1787; continue _fun00003 }
- 1779:
+            if(config) { _fun00004_ip = 1789; continue _fun00003 }
+ 1781:
             config = record.BRAND;
-            _fun00004_ip = 1793; continue _fun00003;
- 1787:
+            _fun00004_ip = 1795; continue _fun00003;
+ 1789:
             config = record.WHITE;
- 1793:
+ 1795:
             verify['buttonColor'] = config;
             record = _closure1_slot0;
             config = _closure1_slot2;
@@ -705,13 +704,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = record[papara];
             record = cntext.bind(tangon)(record);
             record = record.unsafe_rawColors;
-            if(config) { _fun00004_ip = 1859; continue _fun00003 }
- 1851:
+            if(config) { _fun00004_ip = 1861; continue _fun00003 }
+ 1853:
             config = record.WHITE_500;
-            _fun00004_ip = 1865; continue _fun00003;
- 1859:
+            _fun00004_ip = 1867; continue _fun00003;
+ 1861:
             config = record.BRAND_500;
- 1865:
+ 1867:
             verify['buttonTextColor'] = config;
             verify['guild'] = sequen;
             verify['previousGuildSubscriptionSlot'] = vacuum;
@@ -752,8 +751,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = yankee;
             golfie = golfie[foxtra];
             golfie = verify.bind(tangon)(golfie);
-            if(oscard) { _fun00004_ip = 2209; continue _fun00003 }
- 2052:
+            if(oscard) { _fun00004_ip = 2211; continue _fun00003 }
+ 2054:
             oscard = {};
             yankee = kiloes.cta;
             verify = new Array(2);
@@ -818,8 +817,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             oscard['onPress'] = verify;
-            _fun00004_ip = 2378; continue _fun00003;
- 2209:
+            _fun00004_ip = 2380; continue _fun00003;
+ 2211:
             verify = {};
             sizing = kiloes.cta;
             yankee = new Array(2);
@@ -907,7 +906,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify['renderIcon'] = offset;
             oscard = verify;
- 2378:
+ 2380:
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;
             entity['children'] = report;

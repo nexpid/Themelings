@@ -7,7 +7,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot0 = oscard;
     var _closure1_slot1 = option;
     var _closure1_slot2 = golfie;
-    michal = function(argFoo) { // Original name: useIsPlanEligibleForGiftingPromotion
+    tangon = function(argFoo) { // Original name: useIsPlanEligibleForGiftingPromotion
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = michal;
+    var _closure1_slot5 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useShouldShowSelectFreeSkuStep'] = report;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: useShouldAutoSelectGiftingPromotionReward
+    report = function(argFoo, argBar, argBaz) { // Original name: useShouldAutoSelectGiftingPromotionReward
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             michal = argBar;
@@ -279,7 +279,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useShouldAutoSelectGiftingPromotionReward'] = tangon;
-    zuuluu['useIsPlanEligibleForGiftingPromotion'] = michal;
+    zuuluu['useShouldAutoSelectGiftingPromotionReward'] = report;
+    zuuluu['useIsPlanEligibleForGiftingPromotion'] = tangon;
+    michal = function(argFoo) { // Original name: createGradientStyle
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+            zuuluu = argFoo;
+            option = arguments[1];
+            entity = undefined;
+            if(!(option === entity)) { _fun00014_ip = 22; continue _fun00013 }
+ 12:
+            option = 78.98;
+ 22:
+            oscard = null;
+            if(!(oscard == zuuluu)) { _fun00014_ip = 30; continue _fun00013 }
+ 28:
+            return entity;
+ 30:
+            michal = global;
+            tangon = michal.Array;
+            entity = tangon.isArray;
+            entity = entity.bind(tangon)(zuuluu);
+            report = zuuluu;
+            if(entity) { _fun00014_ip = 60; continue _fun00013 }
+ 54:
+            report = zuuluu.gradient;
+ 60:
+            entity = {};
+            golfie = michal.Array;
+            tangon = golfie.isArray;
+            tangon = tangon.bind(golfie)(zuuluu);
+            golfie = option;
+            if(tangon) { _fun00014_ip = 103; continue _fun00013 }
+ 84:
+            tangon = zuuluu.angle;
+            golfie = option;
+            if(!(oscard != tangon)) { _fun00014_ip = 103; continue _fun00013 }
+ 97:
+            golfie = zuuluu.angle;
+ 103:
+            tangon = report.join;
+            zuuluu = ', ';
+            offset = tangon.bind(report)(zuuluu);
+            michal = michal.HermesInternal;
+            report = michal.concat;
+            foxtra = 'linear-gradient(';
+            yankee = 'deg, ';
+            verify = ')';
+            romeon = golfie;
+            michal = foxtra[report](romeon, yankee, offset, verify, option);
+            entity['background'] = michal;
+            return entity;
+        }
+    };
+    zuuluu['createGradientStyle'] = michal;
     return entity;
 })();

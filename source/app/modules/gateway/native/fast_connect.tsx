@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report.log;
                     michal = 'Skipping fast_connect because we could not find a token to connect with.';
                     michal = zuuluu.bind(report)(michal);
-                    _fun00010_ip = 804; continue _fun00009;
+                    _fun00010_ip = 802; continue _fun00009;
  88:
                     report = global;
                     michal = report.window;
@@ -516,8 +516,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(entity)(golfie);
                     golfie = option.isAndroid;
                     golfie = golfie.bind(option)();
-                    if(golfie) { _fun00010_ip = 665; continue _fun00009 }
- 589:
+                    if(golfie) { _fun00010_ip = 663; continue _fun00009 }
+ 587:
                     golfie = _closure1_slot4;
                     foxtra = golfie.DCDFastConnectManager;
                     option = foxtra.prepareIdentify;
@@ -529,31 +529,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = backup.isCacheEnabled;
                     backup = golfie.bind(backup)();
                     golfie = null;
-                    if(!backup) { _fun00010_ip = 644; continue _fun00009 }
- 640:
+                    if(!backup) { _fun00010_ip = 642; continue _fun00009 }
+ 638:
                     golfie = _closure1_slot6;
- 644:
+ 642:
                     vacuum = foxtra;
                     ctrled = romeon;
                     source = verify;
                     update = oscard;
                     echoed = golfie;
                     golfie = vacuum[option](ctrled, source, update, echoed, result);
-                    _fun00010_ip = 786; continue _fun00009;
- 665:
+                    _fun00010_ip = 784; continue _fun00009;
+ 663:
                     option = offset == romeon;
                     golfie = undefined;
-                    if(option) { _fun00010_ip = 683; continue _fun00009 }
- 674:
+                    if(option) { _fun00010_ip = 681; continue _fun00009 }
+ 672:
                     option = romeon.toString;
                     golfie = option.bind(romeon)();
- 683:
+ 681:
                     option = offset != golfie;
                     offset = null;
-                    if(!option) { _fun00010_ip = 695; continue _fun00009 }
- 692:
+                    if(!option) { _fun00010_ip = 693; continue _fun00009 }
+ 690:
                     offset = golfie;
- 695:
+ 693:
                     option = _closure1_slot1;
                     foxtra = _closure1_slot3;
                     golfie = 5;
@@ -569,21 +569,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = romeon.isCacheEnabled;
                     romeon = report.bind(romeon)();
                     report = undefined;
-                    if(!romeon) { _fun00010_ip = 767; continue _fun00009 }
- 763:
+                    if(!romeon) { _fun00010_ip = 765; continue _fun00009 }
+ 761:
                     report = _closure1_slot6;
- 767:
+ 765:
                     vacuum = option;
                     ctrled = offset;
                     source = verify;
                     update = oscard;
                     echoed = report;
                     report = vacuum[golfie](ctrled, source, update, echoed, result);
- 786:
+ 784:
                     michal = michal.client_state;
                     zuuluu['identify'] = tangon;
                     zuuluu['clientState'] = michal;
- 804:
+ 802:
                     return entity;
                 }
             };

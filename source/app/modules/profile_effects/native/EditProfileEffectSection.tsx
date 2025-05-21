@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = 8;
                     oscard = verify[oscard];
                     oscard = option.bind(entity)(oscard);
-                    oscard = oscard.EDIT_PROFILE_EFFECT_ACTION_SHEET;
+                    oscard = oscard.EDIT_PROFILE_EFFECT_SHEET;
                     zuuluu['analyticsSource'] = oscard;
                     option = _closure2_slot0;
                     oscard = null;

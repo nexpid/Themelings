@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon = romeon.radii;
     romeon = romeon.sm;
     verify['borderBottomRightRadius'] = romeon;
-    tangon['sampleProfile'] = verify;
+    tangon['profileSkeletonBackground'] = verify;
     verify = {'position': 'absolute', 'top': 0, 'left': 0, 'width': '100%', 'height': '100%', 'borderTopLeftRadius': null, 'borderTopRightRadius': null, 'overflow': 'hidden'};
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);
@@ -97,9 +97,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot4;
             golfie = _closure1_slot3;
             report = {};
-            romeon = romeon.sampleProfile;
+            romeon = romeon.profileSkeletonBackground;
             report['style'] = romeon;
-            romeon = 'contain';
+            romeon = 'cover';
             report['resizeMode'] = romeon;
             if(yankee) { _fun00002_ip = 146; continue _fun00001 }
  112:

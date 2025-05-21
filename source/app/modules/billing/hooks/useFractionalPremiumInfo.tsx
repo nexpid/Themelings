@@ -55,11 +55,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            foxtra = michal.isFetching;
+            romeon = michal.isFetching;
             oscard = undefined;
-            if(!(foxtra === oscard)) { _fun00002_ip = 19; continue _fun00001 }
+            if(!(romeon === oscard)) { _fun00002_ip = 19; continue _fun00001 }
  17:
-            foxtra = false;
+            romeon = false;
  19:
             offset = michal.entitlements;
             option = michal.unactivatedFractionalPremiumUnits;
@@ -73,33 +73,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot11;
             verify = verify.NONE;
             michal['fractionalState'] = verify;
-            kiloes = _closure1_slot1;
+            foxtra = _closure1_slot1;
             verify = _closure1_slot2;
             backup = 7;
-            romeon = verify[backup];
-            sizing = kiloes.bind(oscard)(romeon);
-            romeon = 0;
-            sizing = sizing.bind(oscard)(romeon);
+            kiloes = verify[backup];
+            sizing = foxtra.bind(oscard)(kiloes);
+            kiloes = 0;
+            sizing = sizing.bind(oscard)(kiloes);
             michal['startsAt'] = sizing;
             verify = verify[backup];
-            verify = kiloes.bind(oscard)(verify);
-            verify = verify.bind(oscard)(romeon);
+            verify = foxtra.bind(oscard)(verify);
+            verify = verify.bind(oscard)(kiloes);
             michal['endsAt'] = verify;
             verify = '';
             michal['currentEntitlementId'] = verify;
-            kiloes = new Array(0);
-            michal['unactivatedUnits'] = kiloes;
+            foxtra = new Array(0);
+            michal['unactivatedUnits'] = foxtra;
             michal['fetched'] = golfie;
-            if(foxtra) { _fun00002_ip = 712; continue _fun00001 }
+            if(romeon) { _fun00002_ip = 736; continue _fun00001 }
  162:
-            sizing = null;
-            if(!(sizing != yankee)) { _fun00002_ip = 710; continue _fun00001 }
+            romeon = null;
+            if(!(romeon != yankee)) { _fun00002_ip = 734; continue _fun00001 }
  171:
             yankee = offset.length;
-            if(!(romeon === yankee)) { _fun00002_ip = 192; continue _fun00001 }
+            if(!(kiloes === yankee)) { _fun00002_ip = 192; continue _fun00001 }
  180:
             yankee = option.length;
-            if(!(romeon !== yankee)) { _fun00002_ip = 710; continue _fun00001 }
+            if(!(kiloes !== yankee)) { _fun00002_ip = 734; continue _fun00001 }
  192:
             foxtra = offset.filter;
             yankee = function(argFoo) {
@@ -117,8 +117,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            kiloes = foxtra.bind(offset)(yankee);
-            foxtra = kiloes.sort;
+            sizing = foxtra.bind(offset)(yankee);
+            foxtra = sizing.sort;
             yankee = function(argFoo, argBar) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -159,112 +159,121 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            yankee = foxtra.bind(kiloes)(yankee);
+            yankee = foxtra.bind(sizing)(yankee);
             foxtra = yankee.reverse;
             foxtra = foxtra.bind(yankee)();
             foxtra = yankee.length;
-            if(!(foxtra > romeon)) { _fun00002_ip = 293; continue _fun00001 }
+            if(!(foxtra > kiloes)) { _fun00002_ip = 293; continue _fun00001 }
  242:
-            kiloes = yankee.length;
+            sizing = yankee.length;
             foxtra = offset.length;
-            if(!(kiloes === foxtra)) { _fun00002_ip = 583; continue _fun00001 }
+            if(!(sizing === foxtra)) { _fun00002_ip = 607; continue _fun00001 }
  259:
-            foxtra = yankee[romeon];
+            foxtra = yankee[kiloes];
             foxtra = foxtra.startsAt;
-            if(!(sizing != foxtra)) { _fun00002_ip = 583; continue _fun00001 }
+            if(!(romeon != foxtra)) { _fun00002_ip = 607; continue _fun00001 }
  276:
-            foxtra = yankee[romeon];
+            foxtra = yankee[kiloes];
             foxtra = foxtra.endsAt;
-            if(!(sizing != foxtra)) { _fun00002_ip = 583; continue _fun00001 }
+            if(!(romeon != foxtra)) { _fun00002_ip = 607; continue _fun00001 }
  293:
-            foxtra = yankee.length;
-            foxtra = foxtra > romeon;
-            kiloes = _closure1_slot11;
-            kiloes = kiloes.NONE;
-            if(!foxtra) { _fun00002_ip = 363; continue _fun00001 }
- 315:
-            if(!(sizing != entity)) { _fun00002_ip = 338; continue _fun00001 }
- 319:
+            foxtra = yankee[kiloes];
+            sizing = romeon != foxtra;
+            yankee = null;
+            if(!sizing) { _fun00002_ip = 309; continue _fun00001 }
+ 306:
+            yankee = foxtra;
+ 309:
+            foxtra = _closure1_slot11;
+            foxtra = foxtra.NONE;
+            if(!(romeon != yankee)) { _fun00002_ip = 371; continue _fun00001 }
+ 323:
+            if(!(romeon != entity)) { _fun00002_ip = 346; continue _fun00001 }
+ 327:
             sizing = entity.status;
             entity = _closure1_slot10;
             entity = entity.PAUSED;
-            if(!(sizing !== entity)) { _fun00002_ip = 350; continue _fun00001 }
- 338:
+            if(!(sizing !== entity)) { _fun00002_ip = 358; continue _fun00001 }
+ 346:
             entity = _closure1_slot11;
             entity = entity.FP_ONLY;
-            _fun00002_ip = 360; continue _fun00001;
- 350:
+            _fun00002_ip = 368; continue _fun00001;
+ 358:
             sizing = _closure1_slot11;
             entity = sizing.FP_SUB_PAUSED;
- 360:
-            kiloes = entity;
- 363:
-            if(!result) { _fun00002_ip = 375; continue _fun00001 }
- 366:
-            entity = yankee.length;
-            result = entity > romeon;
- 375:
-            if(!result) { _fun00002_ip = 402; continue _fun00001 }
- 378:
-            entity = yankee[romeon];
-            sizing = entity.sourceType;
+ 368:
+            foxtra = entity;
+ 371:
+            if(!result) { _fun00002_ip = 403; continue _fun00001 }
+ 374:
+            entity = romeon == yankee;
+            sizing = undefined;
+            if(entity) { _fun00002_ip = 389; continue _fun00001 }
+ 383:
+            sizing = yankee.sourceType;
+ 389:
             entity = _closure1_slot8;
             entity = entity.REVERSE_TRIAL;
             result = sizing === entity;
- 402:
+ 403:
             entity = {};
-            entity['isFractionalPremiumActive'] = foxtra;
-            entity['fractionalState'] = kiloes;
+            sizing = romeon != yankee;
+            entity['isFractionalPremiumActive'] = sizing;
+            entity['fractionalState'] = foxtra;
+            if(!(romeon == yankee)) { _fun00002_ip = 447; continue _fun00001 }
+ 423:
             sizing = _closure1_slot1;
-            kiloes = _closure1_slot2;
-            kiloes = kiloes[backup];
-            output = sizing.bind(oscard)(kiloes);
-            if(foxtra) { _fun00002_ip = 441; continue _fun00001 }
- 434:
-            kiloes = output.bind(oscard)(romeon);
-            _fun00002_ip = 456; continue _fun00001;
- 441:
-            sizing = yankee[romeon];
-            sizing = sizing.startsAt;
-            kiloes = output.bind(oscard)(sizing);
- 456:
-            entity['startsAt'] = kiloes;
+            foxtra = _closure1_slot2;
+            foxtra = foxtra[backup];
+            foxtra = sizing.bind(oscard)(foxtra);
+            foxtra = foxtra.bind(oscard)(kiloes);
+            _fun00002_ip = 475; continue _fun00001;
+ 447:
+            output = _closure1_slot1;
+            sizing = _closure1_slot2;
+            sizing = sizing[backup];
+            output = output.bind(oscard)(sizing);
+            sizing = yankee.startsAt;
+            foxtra = output.bind(oscard)(sizing);
+ 475:
+            entity['startsAt'] = foxtra;
+            if(!(romeon == yankee)) { _fun00002_ip = 508; continue _fun00001 }
+ 484:
+            sizing = _closure1_slot1;
+            foxtra = _closure1_slot2;
+            foxtra = foxtra[backup];
+            foxtra = sizing.bind(oscard)(foxtra);
+            foxtra = foxtra.bind(oscard)(kiloes);
+            _fun00002_ip = 573; continue _fun00001;
+ 508:
             kiloes = _closure1_slot1;
             output = _closure1_slot2;
             backup = output[backup];
             kiloes = kiloes.bind(oscard)(backup);
-            if(foxtra) { _fun00002_ip = 488; continue _fun00001 }
- 481:
-            foxtra = kiloes.bind(oscard)(romeon);
-            _fun00002_ip = 540; continue _fun00001;
- 488:
             sizing = _closure1_slot0;
             backup = 10;
             backup = output[backup];
             output = sizing.bind(oscard)(backup);
             sizing = output.extendDateWithUnconsumedFractionalPremium;
-            backup = yankee[romeon];
-            ctrled = backup.endsAt;
+            ctrled = yankee.endsAt;
             vacuum = output;
             source = option;
             update = undefined;
             echoed = result;
             backup = vacuum[sizing](ctrled, source, update, echoed, result);
             foxtra = kiloes.bind(oscard)(backup);
- 540:
+ 573:
             entity['endsAt'] = foxtra;
-            foxtra = yankee.length;
-            foxtra = foxtra > romeon;
-            if(!foxtra) { _fun00002_ip = 566; continue _fun00001 }
- 557:
-            yankee = yankee[romeon];
+            romeon = romeon != yankee;
+            if(!romeon) { _fun00002_ip = 590; continue _fun00001 }
+ 585:
             verify = yankee.id;
- 566:
+ 590:
             entity['currentEntitlementId'] = verify;
             entity['unactivatedUnits'] = option;
             entity['fetched'] = golfie;
             return entity;
- 583:
+ 607:
             entity = global;
             verify = entity.Array;
             option = verify.from;
@@ -298,9 +307,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = new vacuum[entity](ctrled, source);
             entity = entity instanceof Object ? entity : tangon;
             throw entity;
- 710:
+ 734:
             return michal;
- 712:
+ 736:
             entity = {};
             ctrled = entity;
             source = michal;
@@ -322,10 +331,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = arguments[0];
             romeon = undefined;
-            if(!(entity === romeon)) { _fun00008_ip = 21; continue _fun00007 }
+            if(!(entity === romeon)) { _fun00008_ip = 25; continue _fun00007 }
  11:
             entity = {'forceFetch': false, 'excludeReverseTrial': false, 'excludeReverseTrialFromCountdown': false};
- 21:
+ 25:
             tangon = entity.forceFetch;
             zuuluu = entity.excludeReverseTrial;
             var _closure2_slot0 = zuuluu;
@@ -413,33 +422,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot6 = verify;
             entity = null;
             backup = entity !== yankee;
-            if(!backup) { _fun00008_ip = 310; continue _fun00007 }
- 297:
+            if(!backup) { _fun00008_ip = 314; continue _fun00007 }
+ 301:
             entity = _closure1_slot7;
             entity = entity.fetchingAllEntitlements;
             backup = !entity;
- 310:
-            if(!backup) { _fun00008_ip = 335; continue _fun00007 }
- 313:
+ 314:
+            if(!backup) { _fun00008_ip = 339; continue _fun00007 }
+ 317:
             entity = _closure1_slot7;
             entity = entity.fetchedAllEntitlements;
             entity = !entity;
-            if(entity) { _fun00008_ip = 332; continue _fun00007 }
- 329:
+            if(entity) { _fun00008_ip = 336; continue _fun00007 }
+ 333:
             entity = tangon;
- 332:
+ 336:
             backup = entity;
- 335:
+ 339:
             _closure2_slot7 = backup;
             report = _closure1_slot4;
             tangon = report.useState;
             foxtra = _closure1_slot12;
             entity = {};
-            if(backup) { _fun00008_ip = 367; continue _fun00007 }
- 357:
+            if(backup) { _fun00008_ip = 371; continue _fun00007 }
+ 361:
             kiloes = _closure1_slot7;
             backup = kiloes.fetchingAllEntitlements;
- 367:
+ 371:
             entity['isFetching'] = backup;
             entity['entitlements'] = offset;
             entity['unactivatedFractionalPremiumUnits'] = option;

@@ -1,13 +1,13 @@
 // app/modules/media/MediaTypes.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
+    verify = argBar;
     zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
+    offset = argPlu;
+    var _closure1_slot0 = verify;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = verify;
-    report = function(argFoo) { // Original name: toContentScanMetadata
+    var _closure1_slot2 = offset;
+    oscard = function(argFoo) { // Original name: toContentScanMetadata
         michal = argFoo;
         entity = {};
         zuuluu = michal.version;
@@ -16,143 +16,100 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['flags'] = michal;
         return entity;
     };
-    var _closure1_slot5 = report;
+    var _closure1_slot6 = oscard;
     tangon = function(argFoo) { // Original name: messageAttachmentToUnfurledMediaItem
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscard = argFoo;
-            zuuluu = _closure1_slot0;
+            michal = _closure1_slot0;
             entity = _closure1_slot2;
             verify = 1;
             entity = entity[verify];
-            option = undefined;
-            offset = zuuluu.bind(option)(entity);
-            tangon = offset.hasFlag;
+            zuuluu = undefined;
+            offset = michal.bind(zuuluu)(entity);
+            option = offset.hasFlag;
             entity = oscard.flags;
             golfie = null;
             yankee = golfie != entity;
             report = 0;
-            zuuluu = 0;
-            if(!yankee) { _fun00002_ip = 55; continue _fun00001 }
- 52:
-            zuuluu = entity;
- 55:
+            if(!yankee) { _fun00002_ip = 53; continue _fun00001 }
+ 50:
+            report = entity;
+ 53:
             entity = _closure1_slot3;
             entity = entity.CONTAINS_EXPLICIT_MEDIA;
-            entity = tangon.bind(offset)(zuuluu, entity);
-            offset = 0;
-            if(!entity) { _fun00002_ip = 90; continue _fun00001 }
- 76:
+            entity = option.bind(offset)(report, entity);
+            report = 0;
+            if(!entity) { _fun00002_ip = 87; continue _fun00001 }
+ 74:
             entity = _closure1_slot4;
             entity = entity.EXPLICIT;
-            offset = report + entity;
- 90:
+            report = entity | 0;
+ 87:
+            option = _closure1_slot0;
+            entity = _closure1_slot2;
+            entity = entity[verify];
+            offset = option.bind(zuuluu)(entity);
+            verify = offset.hasFlag;
+            entity = oscard.flags;
+            yankee = golfie != entity;
+            option = 0;
+            if(!yankee) { _fun00002_ip = 127; continue _fun00001 }
+ 124:
+            option = entity;
+ 127:
+            entity = _closure1_slot3;
+            entity = entity.IS_ANIMATED;
+            entity = verify.bind(offset)(option, entity);
+            michal = 0;
+            if(!entity) { _fun00002_ip = 161; continue _fun00001 }
+ 148:
+            entity = _closure1_slot5;
+            entity = entity.IS_ANIMATED;
+            michal = entity | 0;
+ 161:
             entity = {};
-            zuuluu = oscard.url;
-            entity['url'] = zuuluu;
-            zuuluu = oscard.proxy_url;
-            entity['proxyUrl'] = zuuluu;
-            zuuluu = oscard.height;
-            entity['height'] = zuuluu;
-            zuuluu = oscard.width;
-            entity['width'] = zuuluu;
-            zuuluu = oscard.content_type;
-            entity['contentType'] = zuuluu;
-            zuuluu = oscard.placeholder;
-            entity['placeholder'] = zuuluu;
-            zuuluu = oscard.placeholder_version;
-            entity['placeholderVersion'] = zuuluu;
-            tangon = _closure1_slot0;
-            yankee = _closure1_slot2;
-            zuuluu = 2;
-            zuuluu = yankee[zuuluu];
-            zuuluu = tangon.bind(option)(zuuluu);
-            zuuluu = zuuluu.UnfurledMediaLoadingState;
-            zuuluu = zuuluu.LOADED_SUCCESS;
-            entity['loadingState'] = zuuluu;
-            zuuluu = oscard.content_scan_version;
-            tangon = golfie == zuuluu;
+            option = oscard.url;
+            entity['url'] = option;
+            option = oscard.proxy_url;
+            entity['proxyUrl'] = option;
+            option = oscard.height;
+            entity['height'] = option;
+            option = oscard.width;
+            entity['width'] = option;
+            option = oscard.content_type;
+            entity['contentType'] = option;
+            option = oscard.placeholder;
+            entity['placeholder'] = option;
+            option = oscard.placeholder_version;
+            entity['placeholderVersion'] = option;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            tangon = 2;
+            tangon = verify[tangon];
+            tangon = option.bind(zuuluu)(tangon);
+            tangon = tangon.UnfurledMediaLoadingState;
+            tangon = tangon.LOADED_SUCCESS;
+            entity['loadingState'] = tangon;
+            tangon = oscard.content_scan_version;
+            tangon = golfie == tangon;
             zuuluu = undefined;
-            if(tangon) { _fun00002_ip = 235; continue _fun00001 }
- 215:
+            if(tangon) { _fun00002_ip = 306; continue _fun00001 }
+ 286:
             tangon = {};
-            yankee = oscard.content_scan_version;
-            tangon['version'] = yankee;
-            tangon['flags'] = offset;
+            oscard = oscard.content_scan_version;
+            tangon['version'] = oscard;
+            tangon['flags'] = report;
             zuuluu = tangon;
- 235:
+ 306:
             entity['contentScanMetadata'] = zuuluu;
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu[verify];
-            tangon = tangon.bind(option)(zuuluu);
-            zuuluu = tangon.hasFlag;
-            oscard = oscard.flags;
-            golfie = golfie != oscard;
-            report = 0;
-            if(!golfie) { _fun00002_ip = 280; continue _fun00001 }
- 277:
-            report = oscard;
- 280:
-            michal = _closure1_slot3;
-            michal = michal.IS_ANIMATED;
-            michal = zuuluu.bind(tangon)(report, michal);
-            entity['srcIsAnimated'] = michal;
+            entity['flags'] = michal;
             return entity;
         }
     };
-    var _closure1_slot6 = tangon;
-    entity = function(argFoo) { // Original name: getUnfurledMediaItemType
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-            entity = argFoo;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            oscard = 3;
-            michal = michal[oscard];
-            report = undefined;
-            golfie = tangon.bind(report)(michal);
-            tangon = golfie.isImageContentType;
-            michal = entity.contentType;
-            michal = tangon.bind(golfie)(michal);
-            if(michal) { _fun00004_ip = 150; continue _fun00003 }
- 48:
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            michal = michal[oscard];
-            oscard = tangon.bind(report)(michal);
-            tangon = oscard.isVideoContentType;
-            michal = entity.contentType;
-            michal = tangon.bind(oscard)(michal);
-            if(!michal) { _fun00004_ip = 138; continue _fun00003 }
- 85:
-            tangon = entity.proxyUrl;
-            michal = null;
-            if(!(michal != tangon)) { _fun00004_ip = 138; continue _fun00003 }
- 97:
-            tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = oscard[zuuluu];
-            tangon = tangon.bind(report)(zuuluu);
-            zuuluu = tangon.toURLSafe;
-            entity = entity.proxyUrl;
-            entity = zuuluu.bind(tangon)(entity);
-            if(!(michal == entity)) { _fun00004_ip = 144; continue _fun00003 }
- 138:
-            entity = 'INVALID';
-            return entity;
- 144:
-            entity = 'VIDEO';
-            return entity;
- 150:
-            entity = 'IMAGE';
-            return entity;
-        }
-    };
-    var _closure1_slot7 = entity;
+    var _closure1_slot7 = tangon;
     entity = function(argFoo) { // Original name: getMessageAttachmentMediaItemType
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             michal = argFoo;
             tangon = _closure1_slot0;
@@ -165,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.filename;
             tangon = tangon.bind(golfie)(entity);
             entity = 'IMAGE';
-            if(tangon) { _fun00006_ip = 100; continue _fun00005 }
+            if(tangon) { _fun00004_ip = 100; continue _fun00003 }
  52:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -175,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.filename;
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = 'INVALID';
-            if(!zuuluu) { _fun00006_ip = 97; continue _fun00005 }
+            if(!zuuluu) { _fun00004_ip = 97; continue _fun00003 }
  93:
             michal = 'VIDEO';
  97:
@@ -186,92 +143,142 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     var _closure1_slot8 = entity;
     entity = global;
-    offset = entity.Object;
-    golfie = offset.defineProperty;
-    oscard = {};
+    option = entity.Object;
+    golfie = option.defineProperty;
+    report = {};
     entity = true;
-    oscard['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(offset)(zuuluu, entity, oscard);
+    entity = golfie.bind(option)(zuuluu, entity, report);
     entity = 0;
-    oscard = verify[entity];
+    report = offset[entity];
     entity = undefined;
-    oscard = option.bind(entity)(oscard);
-    oscard = oscard.MessageAttachmentFlags;
-    var _closure1_slot3 = oscard;
-    oscard = {};
-    offset = 1;
-    oscard['EXPLICIT'] = offset;
-    golfie = 'EXPLICIT';
-    oscard[offset] = golfie;
-    var _closure1_slot4 = oscard;
-    golfie = 5;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/media/MediaTypes.tsx';
-    golfie = option.bind(verify)(golfie);
-    zuuluu['ContentScanFlags'] = oscard;
-    zuuluu['toContentScanMetadata'] = report;
+    report = verify.bind(entity)(report);
+    report = report.MessageAttachmentFlags;
+    var _closure1_slot3 = report;
+    golfie = {};
+    yankee = 1;
+    golfie['EXPLICIT'] = yankee;
+    report = 'EXPLICIT';
+    golfie[yankee] = report;
+    var _closure1_slot4 = golfie;
+    report = {};
+    report['IS_ANIMATED'] = yankee;
+    option = 'IS_ANIMATED';
+    report[yankee] = option;
+    var _closure1_slot5 = report;
+    option = 5;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
+    verify = offset.fileFinishedImporting;
+    option = 'modules/media/MediaTypes.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['ContentScanFlags'] = golfie;
+    zuuluu['toContentScanMetadata'] = oscard;
+    zuuluu['UnfurledMediaItemFlags'] = report;
     report = function(argFoo) { // Original name: toUnfurledMediaItem
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            oscard = argFoo;
+            zuuluu = argFoo;
             entity = {};
-            michal = oscard.url;
+            michal = zuuluu.url;
             entity['url'] = michal;
-            michal = oscard.proxy_url;
+            michal = zuuluu.proxy_url;
             entity['proxyUrl'] = michal;
-            michal = oscard.height;
+            michal = zuuluu.height;
             entity['height'] = michal;
-            michal = oscard.width;
+            michal = zuuluu.width;
             entity['width'] = michal;
-            michal = oscard.placeholder;
+            michal = zuuluu.placeholder;
             entity['placeholder'] = michal;
-            michal = oscard.placeholder_version;
+            michal = zuuluu.placeholder_version;
             entity['placeholderVersion'] = michal;
-            michal = oscard.content_type;
+            michal = zuuluu.content_type;
             entity['contentType'] = michal;
-            michal = oscard.loading_state;
+            michal = zuuluu.loading_state;
             entity['loadingState'] = michal;
-            michal = oscard.content_scan_metadata;
-            zuuluu = null;
-            tangon = zuuluu != michal;
+            tangon = zuuluu.content_scan_metadata;
+            michal = null;
+            report = michal != tangon;
             golfie = undefined;
-            michal = undefined;
-            if(!tangon) { _fun00008_ip = 126; continue _fun00007 }
+            tangon = undefined;
+            if(!report) { _fun00006_ip = 126; continue _fun00005 }
  108:
-            report = _closure1_slot5;
-            tangon = oscard.content_scan_metadata;
-            michal = report.bind(golfie)(tangon);
+            oscard = _closure1_slot6;
+            report = zuuluu.content_scan_metadata;
+            tangon = oscard.bind(golfie)(report);
  126:
-            entity['contentScanMetadata'] = michal;
-            report = _closure1_slot0;
-            option = _closure1_slot2;
-            tangon = 1;
-            tangon = option[tangon];
-            report = report.bind(golfie)(tangon);
-            tangon = report.hasFlag;
-            oscard = oscard.flags;
-            golfie = zuuluu != oscard;
-            zuuluu = 0;
-            if(!golfie) { _fun00008_ip = 177; continue _fun00007 }
- 174:
-            zuuluu = oscard;
- 177:
-            michal = _closure1_slot3;
-            michal = michal.IS_ANIMATED;
-            michal = tangon.bind(report)(zuuluu, michal);
-            entity['srcIsAnimated'] = michal;
+            entity['contentScanMetadata'] = tangon;
+            zuuluu = zuuluu.flags;
+            tangon = michal != zuuluu;
+            michal = 0;
+            if(!tangon) { _fun00006_ip = 148; continue _fun00005 }
+ 145:
+            michal = zuuluu;
+ 148:
+            entity['flags'] = michal;
             return entity;
         }
     };
     zuuluu['toUnfurledMediaItem'] = report;
     zuuluu['messageAttachmentToUnfurledMediaItem'] = tangon;
+    tangon = function(argFoo) { // Original name: getUnfurledMediaItemType
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+            zuuluu = argFoo;
+            michal = _closure1_slot0;
+            entity = _closure1_slot2;
+            report = 3;
+            entity = entity[report];
+            option = undefined;
+            tangon = michal.bind(option)(entity);
+            michal = tangon.isImageContentType;
+            entity = zuuluu.contentType;
+            michal = michal.bind(tangon)(entity);
+            entity = 'IMAGE';
+            if(michal) { _fun00008_ip = 168; continue _fun00007 }
+ 52:
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[report];
+            report = tangon.bind(option)(michal);
+            tangon = report.isVideoContentType;
+            michal = zuuluu.contentType;
+            report = tangon.bind(report)(michal);
+            tangon = 'INVALID';
+            michal = tangon;
+            if(!report) { _fun00008_ip = 165; continue _fun00007 }
+ 96:
+            golfie = zuuluu.proxyUrl;
+            report = null;
+            golfie = report != golfie;
+            michal = tangon;
+            if(!golfie) { _fun00008_ip = 165; continue _fun00007 }
+ 114:
+            golfie = _closure1_slot1;
+            verify = _closure1_slot2;
+            oscard = 4;
+            oscard = verify[oscard];
+            golfie = golfie.bind(option)(oscard);
+            oscard = golfie.toURLSafe;
+            zuuluu = zuuluu.proxyUrl;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            zuuluu = report != zuuluu;
+            michal = tangon;
+            if(!zuuluu) { _fun00008_ip = 165; continue _fun00007 }
+ 161:
+            michal = 'VIDEO';
+ 165:
+            entity = michal;
+ 168:
+            return entity;
+        }
+    };
+    zuuluu['getUnfurledMediaItemType'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: messageAttachmentToMediaItem
         tangon = argFoo;
         entity = {};
-        report = _closure1_slot6;
+        report = _closure1_slot7;
         zuuluu = undefined;
         oscard = report.bind(zuuluu)(tangon);
         golfie = entity;
@@ -303,25 +310,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['messageAttachmentToMediaItem'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: unfurledMediaItemToMediaItem
-        tangon = argFoo;
-        entity = {};
-        oscard = entity;
-        report = tangon;
-        michal = copyDataProperties(oscard, report);
-        zuuluu = _closure1_slot7;
-        michal = undefined;
-        zuuluu = zuuluu.bind(michal)(tangon);
-        michal = 'type';
-        entity[michal] = zuuluu;
-        zuuluu = {};
-        michal = argBar;
-        zuuluu['message'] = michal;
-        michal = 'sourceMetadata';
-        entity[michal] = zuuluu;
-        return entity;
-    };
-    zuuluu['unfurledMediaItemToMediaItem'] = tangon;
     michal = function(argFoo, argBar, argBaz) { // Original name: embedMediaToMediaItem
         michal = argFoo;
         entity = {};

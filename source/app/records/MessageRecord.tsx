@@ -267,8 +267,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = report.bind(entity)(zuuluu, tangon);
         tangon = michal.reporting_user_id;
         zuuluu['reporting_user_id'] = tangon;
-        michal = michal.reported_user_id;
-        zuuluu['reported_user_id'] = michal;
+        tangon = michal.reported_user_id;
+        zuuluu['reported_user_id'] = tangon;
+        tangon = michal.reporting_member;
+        zuuluu['reporting_member'] = tangon;
+        michal = michal.reported_member;
+        zuuluu['reported_member'] = michal;
         return entity;
     };
     var _closure1_slot14 = michal;

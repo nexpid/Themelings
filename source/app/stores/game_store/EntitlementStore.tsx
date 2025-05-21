@@ -865,101 +865,69 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['value'] = golfie;
         entity[14] = report;
         report = {};
-        golfie = 'getReverseTrialEntitlementInfo';
+        golfie = 'getReverseTrialEntitlement';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
             _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
-                foxtra = argFoo;
+                verify = argFoo;
                 zuuluu = this;
                 entity = global;
                 entity = entity.Date;
                 michal = entity.prototype;
                 michal = Object.create(michal, {constructor: {value: entity}});
-                source = michal;
-                entity = new source[entity](update);
-                romeon = entity instanceof Object ? entity : michal;
+                backup = michal;
+                entity = new backup[entity](foxtra);
+                option = entity instanceof Object ? entity : michal;
                 michal = zuuluu.getForApplication;
                 entity = _closure1_slot13;
-                michal = michal.bind(zuuluu)(entity);
-                offset = null;
-                if(!(offset == michal)) { _fun00028_ip = 60; continue _fun00027 }
- 58:
-                return offset;
- 60:
-                entity = _closure1_slot25;
-                verify = undefined;
-                option = entity.bind(verify)(michal);
-                zuuluu = option.bind(verify)();
-                entity = zuuluu.done;
-                report = false;
-                oscard = null;
+                zuuluu = michal.bind(zuuluu)(entity);
+                entity = null;
+                if(!(entity != zuuluu)) { _fun00028_ip = 192; continue _fun00027 }
+ 61:
+                michal = _closure1_slot25;
+                oscard = undefined;
+                report = michal.bind(oscard)(zuuluu);
+                zuuluu = report.bind(oscard)();
+                michal = zuuluu.done;
                 tangon = zuuluu;
-                zuuluu = null;
-                michal = false;
-                if(entity) { _fun00028_ip = 262; continue _fun00027 }
- 97:
-                entity = tangon.value;
-                backup = entity.endsAt;
-                output = offset != backup;
-                if(!output) { _fun00028_ip = 125; continue _fun00027 }
+                if(michal) { _fun00028_ip = 192; continue _fun00027 }
+ 87:
+                michal = tangon.value;
+                zuuluu = michal.endsAt;
+                offset = entity != zuuluu;
+                if(!offset) { _fun00028_ip = 115; continue _fun00027 }
+ 105:
+                zuuluu = michal.endsAt;
+                offset = zuuluu < option;
  115:
-                backup = entity.endsAt;
-                output = backup < romeon;
- 125:
-                backup = output;
-                if(output) { _fun00028_ip = 151; continue _fun00027 }
- 131:
-                sizing = entity.sourceType;
-                kiloes = _closure1_slot11;
-                kiloes = kiloes.REVERSE_TRIAL;
-                backup = sizing === kiloes;
- 151:
-                if(backup) { _fun00028_ip = 156; continue _fun00027 }
- 154:
-                report = true;
- 156:
-                backup = entity.startsAt;
-                sizing = offset != backup;
-                kiloes = entity.type;
-                backup = _closure1_slot12;
-                backup = backup.FRACTIONAL_REDEMPTION;
-                kiloes = kiloes !== backup;
-                backup = report;
-                if(kiloes) { _fun00028_ip = 211; continue _fun00027 }
- 191:
-                echoed = entity.sourceType;
-                result = _closure1_slot11;
-                result = result.REVERSE_TRIAL;
-                kiloes = echoed !== result;
- 211:
-                if(kiloes) { _fun00028_ip = 223; continue _fun00027 }
- 214:
-                if(!output) { _fun00028_ip = 220; continue _fun00027 }
- 217:
-                output = !foxtra;
- 220:
-                kiloes = output;
- 223:
-                if(kiloes) { _fun00028_ip = 229; continue _fun00027 }
- 226:
-                kiloes = !sizing;
- 229:
-                if(kiloes) { _fun00028_ip = 235; continue _fun00027 }
- 232:
-                oscard = entity;
- 235:
-                sizing = option.bind(verify)();
-                entity = sizing.done;
-                report = backup;
-                tangon = sizing;
-                zuuluu = oscard;
-                michal = report;
-                if(!entity) { _fun00028_ip = 97; continue _fun00027 }
- 262:
-                entity = {};
-                entity['reverseTrialEntitlement'] = zuuluu;
-                entity['hasBankedFractionalNitro'] = michal;
+                zuuluu = michal.startsAt;
+                zuuluu = entity != zuuluu;
+                romeon = michal.type;
+                yankee = _closure1_slot12;
+                yankee = yankee.FRACTIONAL_REDEMPTION;
+                if(!(romeon === yankee)) { _fun00028_ip = 173; continue _fun00027 }
+ 144:
+                romeon = michal.sourceType;
+                yankee = _closure1_slot11;
+                yankee = yankee.REVERSE_TRIAL;
+                if(!(romeon === yankee)) { _fun00028_ip = 173; continue _fun00027 }
+ 164:
+                if(!offset) { _fun00028_ip = 170; continue _fun00027 }
+ 167:
+                if(!verify) { _fun00028_ip = 173; continue _fun00027 }
+ 170:
+                if(zuuluu) { _fun00028_ip = 190; continue _fun00027 }
+ 173:
+                offset = report.bind(oscard)();
+                zuuluu = offset.done;
+                tangon = offset;
+                if(zuuluu) { _fun00028_ip = 192; continue _fun00027 }
+ 188:
+                _fun00028_ip = 87; continue _fun00027;
+ 190:
+                return michal;
+ 192:
                 return entity;
             }
         };

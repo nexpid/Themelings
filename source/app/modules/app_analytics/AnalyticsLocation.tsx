@@ -481,7 +481,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = 'edit profile effect modal';
     michal['EDIT_PROFILE_EFFECT_MODAL'] = entity;
     entity = 'edit profile effect action sheet';
-    michal['EDIT_PROFILE_EFFECT_ACTION_SHEET'] = entity;
+    michal['EDIT_PROFILE_EFFECT_SHEET'] = entity;
     entity = 'edit nameplate modal';
     michal['EDIT_NAMEPLATE_MODAL'] = entity;
     entity = 'edit nameplate sheet';

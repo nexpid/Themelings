@@ -570,73 +570,79 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = function(argFoo, argBar, argBaz, argCor) { // Original name: zoomScale
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            zuuluu = argFoo;
+            tangon = argFoo;
             verify = argBar;
             option = argBaz;
-            oscard = argCor;
+            zuuluu = argCor;
             entity = global;
             golfie = entity.Math;
-            report = golfie.max;
+            oscard = golfie.max;
             michal = null;
-            yankee = michal != zuuluu;
+            yankee = michal != tangon;
             offset = 0;
-            tangon = 0;
+            report = 0;
             if(!yankee) { _fun00012_ip = 63; continue _fun00011 }
  38:
-            tangon = 0;
-            if(!(offset !== zuuluu)) { _fun00012_ip = 63; continue _fun00011 }
+            report = 0;
+            if(!(offset !== tangon)) { _fun00012_ip = 63; continue _fun00011 }
  44:
             yankee = michal != verify;
-            tangon = 0;
+            report = 0;
             if(!yankee) { _fun00012_ip = 63; continue _fun00011 }
  53:
-            tangon = 0;
-            if(!(tangon !== verify)) { _fun00012_ip = 63; continue _fun00011 }
+            report = 0;
+            if(!(report !== verify)) { _fun00012_ip = 63; continue _fun00011 }
  59:
-            tangon = zuuluu / option;
+            report = tangon / option;
  63:
-            zuuluu = 2;
-            report = report.bind(golfie)(zuuluu, tangon);
-            golfie = michal != option;
-            if(!golfie) { _fun00012_ip = 113; continue _fun00011 }
+            tangon = 2;
+            golfie = oscard.bind(golfie)(tangon, report);
+            report = michal != option;
+            if(!report) { _fun00012_ip = 113; continue _fun00011 }
  79:
-            verify = option * report;
-            tangon = entity.window;
-            offset = tangon.innerWidth;
-            tangon = 1.6;
-            tangon = offset * tangon;
-            golfie = verify > tangon;
+            verify = option * golfie;
+            oscard = entity.window;
+            offset = oscard.innerWidth;
+            oscard = 1.6;
+            oscard = offset * oscard;
+            report = verify > oscard;
  113:
-            tangon = zuuluu;
-            if(!golfie) { _fun00012_ip = 149; continue _fun00011 }
+            oscard = tangon;
+            if(!report) { _fun00012_ip = 149; continue _fun00011 }
  119:
-            golfie = entity.window;
-            verify = golfie.innerWidth;
-            golfie = 1.6;
-            golfie = verify * golfie;
-            tangon = golfie / option;
+            report = entity.window;
+            verify = report.innerWidth;
+            report = 1.6;
+            report = verify * report;
+            oscard = report / option;
  149:
-            michal = michal != oscard;
+            michal = michal != zuuluu;
             if(!michal) { _fun00012_ip = 190; continue _fun00011 }
  156:
-            option = oscard * report;
-            golfie = entity.window;
-            verify = golfie.innerHeight;
-            golfie = 1.6;
-            golfie = verify * golfie;
-            michal = option > golfie;
+            option = zuuluu * golfie;
+            report = entity.window;
+            verify = report.innerHeight;
+            report = 1.6;
+            report = verify * report;
+            michal = option > report;
  190:
-            if(!michal) { _fun00012_ip = 223; continue _fun00011 }
- 193:
+            report = tangon;
+            if(!michal) { _fun00012_ip = 226; continue _fun00011 }
+ 196:
             michal = entity.window;
-            golfie = michal.innerHeight;
+            option = michal.innerHeight;
             michal = 1.6;
-            michal = golfie * michal;
-            zuuluu = michal / oscard;
- 223:
-            michal = entity.Math;
-            entity = michal.min;
-            entity = entity.bind(michal)(report, tangon, zuuluu);
+            michal = option * michal;
+            report = michal / zuuluu;
+ 226:
+            zuuluu = entity.Math;
+            michal = zuuluu.min;
+            michal = michal.bind(zuuluu)(golfie, oscard, report);
+            zuuluu = entity.parseFloat;
+            entity = michal.toFixed;
+            michal = entity.bind(michal)(tangon);
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         }
     };

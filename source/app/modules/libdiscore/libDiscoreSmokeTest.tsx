@@ -94,38 +94,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     var _closure1_slot7 = entity;
     report = function() { // Original name: trackLibdiscoreSuccess
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        oscard = new Array(0);
+        var _closure2_slot0 = oscard;
+        golfie = _closure1_slot0;
+        report = _closure1_slot2;
+        entity = 5;
+        tangon = report[entity];
+        entity = undefined;
+        tangon = golfie.bind(entity)(tangon);
+        golfie = tangon.AllLibdiscoreExperiments;
+        tangon = golfie.forEach;
+        zuuluu = function(argFoo) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 5;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.libdiscoreNoteStoreEnabled;
-            zuuluu = zuuluu.bind(tangon)();
-            if(zuuluu) { _fun00004_ip = 44; continue _fun00003 }
- 38:
-            oscard = new Array(0);
-            _fun00004_ip = 54; continue _fun00003;
- 44:
-            oscard = ['note_store'];
- 54:
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 6;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.track;
-            michal = _closure1_slot4;
-            zuuluu = michal.LIBDISCORE_LOADED;
-            michal = {};
-            golfie = true;
-            michal['success'] = golfie;
-            michal['experimental_features'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            return entity;
-        }
+                entity = argFoo;
+                michal = entity.cachedIsEnabled;
+                michal = michal.bind(entity)();
+                if(!michal) { _fun00004_ip = 39; continue _fun00003 }
+ 16:
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.push;
+                entity = entity.feature;
+                entity = michal.bind(zuuluu)(entity);
+ 39:
+                entity = undefined;
+                return entity;
+            }
+        };
+        zuuluu = tangon.bind(golfie)(zuuluu);
+        tangon = _closure1_slot1;
+        zuuluu = 6;
+        zuuluu = report[zuuluu];
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.track;
+        michal = _closure1_slot4;
+        zuuluu = michal.LIBDISCORE_LOADED;
+        michal = {};
+        golfie = true;
+        michal['success'] = golfie;
+        michal['experimental_features'] = oscard;
+        michal = tangon.bind(report)(zuuluu, michal);
+        return entity;
     };
     var _closure1_slot8 = report;
     tangon = function(argFoo) { // Original name: formatErrorMessage

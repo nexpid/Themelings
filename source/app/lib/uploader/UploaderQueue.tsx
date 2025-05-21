@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     tangon = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 291; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 293; continue _fun00003 }
  15:
                     michal = undefined;
                     golfie = undefined;
@@ -119,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = option.bind(offset)();
                     golfie = offset;
                     option = null;
-                    if(!(option != offset)) { _fun00004_ip = 260; continue _fun00003 }
+                    if(!(option != offset)) { _fun00004_ip = 262; continue _fun00003 }
  113: // try_start_0
                     yankee = _closure1_slot3;
                     offset = yankee.log;
@@ -175,13 +175,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = golfie;
                     report = new kiloes[option](backup, foxtra);
                     report = report instanceof Object ? report : golfie;
-                    SaveGenerator(address=179);
- 177:
-                    return report;
+                    SaveGenerator(address=181);
  179:
+                    return report;
+ 181:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 228; continue _fun00003 }
- 185:
+                    if(golfie) { _fun00004_ip = 230; continue _fun00003 }
+ 187:
                     option = _closure1_slot3;
                     golfie = option.log;
                     offset = verify.id;
@@ -190,20 +190,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = 'drainQueue() Uploader complete - ';
                     oscard = verify.bind(oscard)(offset);
                     oscard = golfie.bind(option)(oscard);
- 226: // try_end0
-                    _fun00004_ip = 247; continue _fun00003;
- 228:
+ 228: // try_end0
+                    _fun00004_ip = 249; continue _fun00003;
+ 230:
                     return report;
- 231: // catch_target0
+ 233: // catch_target0
                     CatchBlockStart(arg_register=6);
                     oscard = _closure1_slot3;
                     report = oscard.error;
                     report = report.bind(oscard)(golfie);
- 247:
+ 249:
                     report = tangon.drainQueue;
                     report = report.bind(tangon)();
                     return michal;
- 260:
+ 262:
                     oscard = _closure1_slot3;
                     report = oscard.log;
                     zuuluu = 'drainQueue() - No uploads left, setting drainingQueue to false';
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = false;
                     tangon['drainingQueue'] = zuuluu;
                     return michal;
- 291:
+ 293:
                     return entity;
                 }
             };

@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.isAndroid;
                 zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00012_ip = 74; continue _fun00011 }
+                if(!zuuluu) { _fun00012_ip = 72; continue _fun00011 }
  37:
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.default;
                 michal = zuuluu.clearLogs;
                 michal = michal.bind(zuuluu)();
- 74:
+ 72:
                 return entity;
             }
         };

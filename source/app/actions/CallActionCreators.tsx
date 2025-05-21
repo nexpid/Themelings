@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     michal['call'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: ring
+    golfie = function(argFoo, argBar, argBaz) { // Original name: ring
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             yankee = argFoo;
@@ -300,6 +300,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['url'] = verify;
             verify = {};
             verify['recipients'] = oscard;
+            offset = argBaz;
+            verify['analytics_location'] = offset;
             entity['body'] = verify;
             verify = true;
             entity['oldFormErrors'] = verify;
@@ -309,12 +311,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = _closure1_slot9;
             entity = entity.GUILD_VOICE;
             entity = golfie === entity;
-            if(!entity) { _fun00010_ip = 253; continue _fun00009 }
- 249:
+            if(!entity) { _fun00010_ip = 261; continue _fun00009 }
+ 257:
             entity = zuuluu != oscard;
- 253:
-            if(!entity) { _fun00010_ip = 312; continue _fun00009 }
- 256:
+ 261:
+            if(!entity) { _fun00010_ip = 320; continue _fun00009 }
+ 264:
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
             michal = 11;
@@ -328,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = report.guild_id;
             michal['guildId'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 312:
+ 320:
             entity = undefined;
             return entity;
         }

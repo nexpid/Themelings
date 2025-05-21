@@ -307,40 +307,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo, argBar) { // Original name: updateRegion
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            tangon = argBar;
+            tangon = argFoo;
+            zuuluu = argBar;
             entity = null;
-            if(!(entity == tangon)) { _fun00012_ip = 26; continue _fun00011 }
- 9:
-            zuuluu = _closure1_slot12;
-            michal = zuuluu.getPreferredRegion;
-            tangon = michal.bind(zuuluu)();
- 26:
-            entity = entity != tangon;
-            if(!entity) { _fun00012_ip = 84; continue _fun00011 }
- 33:
+            if(!(entity == zuuluu)) { _fun00012_ip = 29; continue _fun00011 }
+ 12:
             report = _closure1_slot12;
-            zuuluu = report.getRegion;
+            michal = report.getPreferredRegion;
+            zuuluu = michal.bind(report)();
+ 29:
+            entity = entity != zuuluu;
+            if(!entity) { _fun00012_ip = 73; continue _fun00011 }
+ 36:
+            oscard = _closure1_slot12;
+            report = oscard.getRegion;
             golfie = _closure1_slot14;
-            oscard = golfie.getHostname;
-            option = _closure1_slot14;
-            michal = option.getActiveStreamKey;
-            michal = michal.bind(option)();
-            michal = oscard.bind(golfie)(michal);
-            michal = zuuluu.bind(report)(michal);
-            entity = tangon !== michal;
- 84:
-            if(!entity) { _fun00012_ip = 127; continue _fun00011 }
- 87:
-            zuuluu = _closure1_slot0;
+            michal = golfie.getHostname;
+            michal = michal.bind(golfie)(tangon);
+            michal = report.bind(oscard)(michal);
+            entity = zuuluu !== michal;
+ 73:
+            if(!entity) { _fun00012_ip = 113; continue _fun00011 }
+ 76:
+            report = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 16;
             michal = michal[entity];
             entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.changeStreamRegion;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity, tangon);
- 127:
+            michal = report.bind(entity)(michal);
+            entity = michal.changeStreamRegion;
+            entity = entity.bind(michal)(tangon, zuuluu);
+ 113:
             entity = undefined;
             return entity;
         }

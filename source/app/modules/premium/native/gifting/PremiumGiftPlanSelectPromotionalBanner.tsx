@@ -108,54 +108,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = null;
             michal = verify == entity;
             golfie = undefined;
-            if(michal) { _fun00004_ip = 84; continue _fun00003 }
+            if(michal) { _fun00004_ip = 99; continue _fun00003 }
  63:
             michal = entity.planSelection;
             zuuluu = verify == michal;
             golfie = undefined;
-            if(zuuluu) { _fun00004_ip = 84; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 99; continue _fun00003 }
  78:
+            michal = michal.gradientConfig;
+            zuuluu = verify == michal;
+            golfie = undefined;
+            if(zuuluu) { _fun00004_ip = 99; continue _fun00003 }
+ 93:
             golfie = michal.gradient;
- 84:
+ 99:
             michal = verify == entity;
             kiloes = undefined;
-            if(michal) { _fun00004_ip = 118; continue _fun00003 }
- 93:
+            if(michal) { _fun00004_ip = 133; continue _fun00003 }
+ 108:
             zuuluu = entity.planSelection;
             michal = verify == zuuluu;
             kiloes = undefined;
-            if(michal) { _fun00004_ip = 118; continue _fun00003 }
- 108:
+            if(michal) { _fun00004_ip = 133; continue _fun00003 }
+ 123:
             michal = zuuluu.heading;
             kiloes = michal.bind(zuuluu)();
- 118:
+ 133:
             zuuluu = verify == entity;
             michal = undefined;
-            if(zuuluu) { _fun00004_ip = 148; continue _fun00003 }
- 127:
+            if(zuuluu) { _fun00004_ip = 163; continue _fun00003 }
+ 142:
             zuuluu = entity.planSelection;
             tangon = verify == zuuluu;
             michal = undefined;
-            if(tangon) { _fun00004_ip = 148; continue _fun00003 }
- 142:
+            if(tangon) { _fun00004_ip = 163; continue _fun00003 }
+ 157:
             michal = zuuluu.subheading;
- 148:
+ 163:
             michal = verify != michal;
             yankee = undefined;
-            if(!michal) { _fun00004_ip = 174; continue _fun00003 }
- 157:
+            if(!michal) { _fun00004_ip = 189; continue _fun00003 }
+ 172:
             michal = entity.planSelection;
             entity = michal.subheading;
             yankee = entity.bind(michal)(offset);
- 174:
+ 189:
             michal = verify != golfie;
             entity = null;
-            if(!michal) { _fun00004_ip = 432; continue _fun00003 }
- 186:
+            if(!michal) { _fun00004_ip = 447; continue _fun00003 }
+ 201:
             michal = verify != kiloes;
             entity = null;
-            if(!michal) { _fun00004_ip = 432; continue _fun00003 }
- 198:
+            if(!michal) { _fun00004_ip = 447; continue _fun00003 }
+ 213:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -188,12 +193,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = golfie;
             golfie = 1;
             golfie = offset > golfie;
-            if(!golfie) { _fun00004_ip = 353; continue _fun00003 }
- 349:
+            if(!golfie) { _fun00004_ip = 368; continue _fun00003 }
+ 364:
             golfie = verify != yankee;
- 353:
-            if(!golfie) { _fun00004_ip = 418; continue _fun00003 }
- 356:
+ 368:
+            if(!golfie) { _fun00004_ip = 433; continue _fun00003 }
+ 371:
             offset = _closure1_slot4;
             verify = _closure1_slot0;
             option = _closure1_slot2;
@@ -205,11 +210,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = romeon;
             option['children'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 418:
+ 433:
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 432:
+ 447:
             return entity;
         }
     };

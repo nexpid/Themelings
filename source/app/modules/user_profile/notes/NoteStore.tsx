@@ -26,24 +26,26 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         option = michal instanceof Object ? michal : golfie;
         verify = 1;
         michal = oscard[verify];
-        golfie = report.bind(entity)(michal);
-        michal = golfie.libdiscoreNoteStoreEnabled;
+        michal = report.bind(entity)(michal);
+        golfie = michal.NoteStoreExperiment;
+        michal = golfie.cachedIsEnabled;
         michal = michal.bind(golfie)();
-        if(michal) { _fun00002_ip = 123; continue _fun00001 }
- 109:
+        if(michal) { _fun00002_ip = 129; continue _fun00001 }
+ 115:
         michal = 3;
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
-        _fun00002_ip = 135; continue _fun00001;
- 123:
+        _fun00002_ip = 141; continue _fun00001;
+ 129:
         golfie = 2;
         golfie = oscard[golfie];
         michal = report.bind(entity)(golfie);
- 135:
+ 141:
         golfie = option.info;
         verify = oscard[verify];
-        offset = report.bind(entity)(verify);
-        verify = offset.libdiscoreNoteStoreEnabled;
+        verify = report.bind(entity)(verify);
+        offset = verify.NoteStoreExperiment;
+        verify = offset.cachedIsEnabled;
         offset = verify.bind(offset)();
         tangon = tangon.HermesInternal;
         verify = tangon.concat;

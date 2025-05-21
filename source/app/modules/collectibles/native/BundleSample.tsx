@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset[0] = yankee;
     verify['transform'] = offset;
     tangon['pfx'] = verify;
-    verify = {'position': 'absolute', 'top': 34, 'left': 72, 'transform': null, 'zIndex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
+    verify = {'position': 'absolute', 'top': 66, 'right': 40, 'transform': null, 'zIndex': 1, 'alignItems': 'center', 'justifyContent': 'center'};
     yankee = {};
     offset = '8deg';
     yankee['rotate'] = offset;

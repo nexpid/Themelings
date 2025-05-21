@@ -60,8 +60,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     oscard['heading'] = yankee;
-    yankee = ['rgba(255, 144, 144, 1)', 'rgba(243, 14, 216, 1)'];
-    oscard['gradient'] = yankee;
+    yankee = {};
+    foxtra = ['rgba(255, 144, 144, 1)', 'rgba(243, 14, 216, 1)'];
+    yankee['gradient'] = foxtra;
+    oscard['gradientConfig'] = yankee;
     yankee = function() { // Original name: getImageUrl
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
@@ -228,11 +230,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     oscard['getImageUrl'] = offset;
-    offset = function() { // Original name: gradient
-        entity = ['rgba(255, 144, 144, 1)', 'rgba(243, 14, 216, 1)'];
+    offset = function() { // Original name: gradientConfig
+        entity = {};
+        michal = ['rgba(255, 144, 144, 1)', 'rgba(243, 14, 216, 1)'];
+        entity['gradient'] = michal;
         return entity;
     };
-    oscard['gradient'] = offset;
+    oscard['gradientConfig'] = offset;
     michal['planSelectionBanner'] = oscard;
     oscard = {};
     offset = function() { // Original name: getAnimatedImageUrl
@@ -299,6 +303,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     oscard['body'] = offset;
+    offset = {};
+    yankee = ['rgba(221, 98, 98, 1), rgba(171, 12, 152, 1)'];
+    offset['gradient'] = yankee;
+    oscard['gradientConfig'] = offset;
     michal['billingSettingsMarketingBanner'] = oscard;
     oscard = {};
     offset = 3;

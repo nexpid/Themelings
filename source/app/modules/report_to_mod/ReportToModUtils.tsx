@@ -9,35 +9,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = offset;
     golfie = function(argFoo) { // Original name: isModeratorReportOrPostChannelId
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            tangon = _closure1_slot4;
-            zuuluu = tangon.getChannel;
-            entity = argFoo;
-            tangon = zuuluu.bind(tangon)(entity);
-            entity = _closure1_slot11;
-            zuuluu = undefined;
-            entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00002_ip = 43; continue _fun00001 }
- 34:
-            michal = _closure1_slot11;
-            entity = michal.bind(zuuluu)(tangon);
- 43:
-            return entity;
-        }
+        zuuluu = _closure1_slot11;
+        tangon = _closure1_slot4;
+        michal = tangon.getChannel;
+        entity = argFoo;
+        michal = michal.bind(tangon)(entity);
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        return entity;
     };
     var _closure1_slot8 = golfie;
     oscard = function(argFoo) { // Original name: isModeratorReportChannel
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tangon = argFoo;
             entity = null;
             entity = entity != tangon;
-            if(!entity) { _fun00004_ip = 38; continue _fun00003 }
+            if(!entity) { _fun00002_ip = 38; continue _fun00001 }
  12:
             michal = tangon.isModeratorReportChannel;
             michal = michal.bind(tangon)();
-            if(!michal) { _fun00004_ip = 35; continue _fun00003 }
+            if(!michal) { _fun00002_ip = 35; continue _fun00001 }
  25:
             zuuluu = tangon.isForumChannel;
             michal = zuuluu.bind(tangon)();
@@ -49,16 +41,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot9 = oscard;
     report = function(argFoo) { // Original name: isModeratorReportPostChannel
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tangon = argFoo;
             entity = null;
             entity = entity != tangon;
-            if(!entity) { _fun00006_ip = 38; continue _fun00005 }
+            if(!entity) { _fun00004_ip = 38; continue _fun00003 }
  12:
             michal = tangon.isModeratorReportChannel;
             michal = michal.bind(tangon)();
-            if(!michal) { _fun00006_ip = 35; continue _fun00005 }
+            if(!michal) { _fun00004_ip = 35; continue _fun00003 }
  25:
             zuuluu = tangon.isForumPost;
             michal = zuuluu.bind(tangon)();
@@ -70,17 +62,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot10 = report;
     tangon = function(argFoo) { // Original name: isModeratorReportOrPostChannel
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
             entity = null;
             entity = entity != report;
-            if(!entity) { _fun00008_ip = 41; continue _fun00007 }
+            if(!entity) { _fun00006_ip = 41; continue _fun00005 }
  12:
             michal = _closure1_slot9;
             tangon = undefined;
             michal = michal.bind(tangon)(report);
-            if(michal) { _fun00008_ip = 38; continue _fun00007 }
+            if(michal) { _fun00006_ip = 38; continue _fun00005 }
  29:
             zuuluu = _closure1_slot10;
             michal = zuuluu.bind(tangon)(report);
@@ -121,14 +113,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.bind(entity)(option);
     option = option.ReportToModPermissions;
     var _closure1_slot7 = option;
-    option = 11;
+    option = 12;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
     option = 'modules/report_to_mod/ReportToModUtils.tsx';
     option = verify.bind(offset)(option);
     option = function(argFoo) { // Original name: canReportMessageToMods
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             report = _closure1_slot0;
@@ -140,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = report.canReportUser;
             zuuluu = entity.author;
             zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00010_ip = 52; continue _fun00009 }
+            if(zuuluu) { _fun00008_ip = 52; continue _fun00007 }
  48:
             zuuluu = false;
             return zuuluu;
@@ -150,19 +142,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.channel_id;
             entity = zuuluu.bind(tangon)(entity);
             zuuluu = null;
-            if(!(zuuluu != entity)) { _fun00010_ip = 133; continue _fun00009 }
+            if(!(zuuluu != entity)) { _fun00008_ip = 133; continue _fun00007 }
  77:
             tangon = _closure1_slot5;
             michal = tangon.getGuild;
             entity = entity.guild_id;
             tangon = michal.bind(tangon)(entity);
-            if(!(zuuluu != tangon)) { _fun00010_ip = 129; continue _fun00009 }
+            if(!(zuuluu != tangon)) { _fun00008_ip = 129; continue _fun00007 }
  100:
             entity = tangon.getModeratorReportingEnabled;
             entity = entity.bind(tangon)();
             michal = tangon.getModeratorReportChannelId;
             michal = michal.bind(tangon)();
-            if(!entity) { _fun00010_ip = 127; continue _fun00009 }
+            if(!entity) { _fun00008_ip = 127; continue _fun00007 }
  123:
             entity = zuuluu != michal;
  127:
@@ -177,11 +169,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['canReportMessageToMods'] = option;
     option = function(argFoo) {
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = arguments[1];
             golfie = undefined;
-            if(!(report === golfie)) { _fun00012_ip = 35; continue _fun00011 }
+            if(!(report === golfie)) { _fun00010_ip = 35; continue _fun00009 }
  9:
             zuuluu = _closure1_slot5;
             entity = new Array(2);
@@ -199,25 +191,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             entity = zuuluu.bind(tangon)(entity, report);
             tangon = null;
-            if(!(tangon != entity)) { _fun00012_ip = 213; continue _fun00011 }
+            if(!(tangon != entity)) { _fun00010_ip = 213; continue _fun00009 }
  82:
             verify = entity.user;
             option = entity.guild;
             zuuluu = tangon == option;
-            if(zuuluu) { _fun00012_ip = 112; continue _fun00011 }
+            if(zuuluu) { _fun00010_ip = 112; continue _fun00009 }
  99:
             entity = option.getModeratorReportingEnabled;
             entity = entity.bind(option)();
             zuuluu = !entity;
  112:
-            if(zuuluu) { _fun00012_ip = 129; continue _fun00011 }
+            if(zuuluu) { _fun00010_ip = 129; continue _fun00009 }
  115:
             entity = option.getModeratorReportChannelId;
             entity = entity.bind(option)();
             zuuluu = tangon == entity;
  129:
             entity = !zuuluu;
-            if(zuuluu) { _fun00012_ip = 211; continue _fun00011 }
+            if(zuuluu) { _fun00010_ip = 211; continue _fun00009 }
  135:
             oscard = _closure1_slot1;
             offset = _closure1_slot2;
@@ -245,6 +237,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['canAccessReportsChannel'] = option;
+    option = function(argFoo) { // Original name: getReportToModChannelId
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            zuuluu = _closure1_slot5;
+            michal = zuuluu.getGuild;
+            entity = argFoo;
+            tangon = michal.bind(zuuluu)(entity);
+            entity = null;
+            zuuluu = entity == tangon;
+            michal = undefined;
+            if(zuuluu) { _fun00012_ip = 41; continue _fun00011 }
+ 31:
+            zuuluu = tangon.getModeratorReportChannelId;
+            michal = zuuluu.bind(tangon)();
+ 41:
+            zuuluu = entity != michal;
+            entity = null;
+            if(!zuuluu) { _fun00012_ip = 53; continue _fun00011 }
+ 50:
+            entity = michal;
+ 53:
+            return entity;
+        }
+    };
+    zuuluu['getReportToModChannelId'] = option;
     zuuluu['isModeratorReportOrPostChannelId'] = golfie;
     golfie = function(argFoo) { // Original name: isModeratorReportChannelId
         zuuluu = _closure1_slot9;
@@ -326,7 +343,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['isSafeToTransitionToReportForCurrentUser'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: isModeratorReportThreadStarterMessage
+    tangon = function(argFoo, argBar) { // Original name: isModeratorReportThreadStarterMessage
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             zuuluu = argFoo;
@@ -350,6 +367,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['isModeratorReportThreadStarterMessage'] = michal;
+    zuuluu['isModeratorReportThreadStarterMessage'] = tangon;
+    michal = function(argFoo) { // Original name: sortedModeratorReportTags
+        zuuluu = argFoo;
+        michal = zuuluu.sort;
+        entity = function(argFoo, argBar) {
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                entity = argFoo;
+                zuuluu = entity.id;
+                tangon = _closure1_slot0;
+                entity = _closure1_slot2;
+                oscard = 11;
+                entity = entity[oscard];
+                report = undefined;
+                entity = tangon.bind(report)(entity);
+                entity = entity.ReservedTagIds;
+                entity = entity.MULTIPLE_REPORTS;
+                zuuluu = zuuluu == entity;
+                entity = -1;
+                if(zuuluu) { _fun00018_ip = 110; continue _fun00017 }
+ 58:
+                zuuluu = argBar;
+                zuuluu = zuuluu.id;
+                tangon = _closure1_slot0;
+                michal = _closure1_slot2;
+                michal = michal[oscard];
+                michal = tangon.bind(report)(michal);
+                michal = michal.ReservedTagIds;
+                michal = michal.MULTIPLE_REPORTS;
+                zuuluu = zuuluu == michal;
+                michal = 0;
+                if(!zuuluu) { _fun00018_ip = 107; continue _fun00017 }
+ 104:
+                michal = 1;
+ 107:
+                entity = michal;
+ 110:
+                return entity;
+            }
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['sortedModeratorReportTags'] = michal;
     return entity;
 })();

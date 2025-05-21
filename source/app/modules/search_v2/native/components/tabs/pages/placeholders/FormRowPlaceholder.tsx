@@ -225,7 +225,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = 'modules/search_v2/native/components/tabs/pages/placeholders/FormRowPlaceholder.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
-    michal = function() { // Original name: MessageRowPlaceholderItem
+    michal = function(argFoo) { // Original name: MessageRowPlaceholderItem
+        entity = argFoo;
+        oscard = entity.style;
         entity = _closure1_slot8;
         tangon = undefined;
         foxtra = entity.bind(tangon)();
@@ -236,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = michal.bind(tangon)(entity);
         michal = zuuluu.usePlaceholderAnimatedStyle;
         entity = true;
-        oscard = michal.bind(zuuluu)(entity);
+        golfie = michal.bind(zuuluu)(entity);
         zuuluu = _closure1_slot7;
         michal = _closure1_slot1;
         entity = 8;
@@ -244,10 +246,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal.bind(tangon)(entity);
         michal = entity.View;
         entity = {};
-        report = new Array(2);
-        report[0] = oscard;
-        oscard = foxtra.itemContainer;
-        report[1] = oscard;
+        report = new Array(3);
+        report[0] = golfie;
+        golfie = foxtra.itemContainer;
+        report[1] = golfie;
+        report[2] = oscard;
         entity['style'] = report;
         report = 'none';
         entity['pointerEvents'] = report;

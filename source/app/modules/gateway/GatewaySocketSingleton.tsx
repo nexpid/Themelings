@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon['hasToken'] = michal;
                 michal = 'handleIdentify called';
                 michal = report.bind(oscard)(michal, tangon);
-                if(!(entity != zuuluu)) { _fun00004_ip = 344; continue _fun00003 }
+                if(!(entity != zuuluu)) { _fun00004_ip = 342; continue _fun00003 }
  61:
                 tangon = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.clear;
                 zuuluu = zuuluu.bind(tangon)();
                 return michal;
- 344:
+ 342:
                 return entity;
             }
         };

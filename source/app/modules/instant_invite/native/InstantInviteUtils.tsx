@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = true;
  20:
             foxtra = null;
-            if(!(foxtra != golfie)) { _fun00008_ip = 381; continue _fun00007 }
+            if(!(foxtra != golfie)) { _fun00008_ip = 379; continue _fun00007 }
  29:
             option = _closure1_slot0;
             verify = _closure1_slot2;
@@ -507,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             michal = tangon.bind(report)(zuuluu, oscard, michal);
- 381:
+ 379:
             return entity;
         }
     };

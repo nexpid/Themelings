@@ -241,8 +241,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = entity.startsWith;
             zuuluu = 'data:image';
             zuuluu = tangon.bind(entity)(zuuluu);
-            if(zuuluu) { _fun00010_ip = 431; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 468; continue _fun00009 }
  105:
+            oscard = _closure1_slot1;
+            foxtra = _closure1_slot2;
+            tangon = 7;
+            tangon = foxtra[tangon];
+            oscard = oscard.bind(golfie)(tangon);
+            tangon = oscard.isDiscordCdnUrl;
+            tangon = tangon.bind(oscard)(entity);
+            if(tangon) { _fun00010_ip = 468; continue _fun00009 }
+ 145:
             tangon = _closure1_slot13;
             foxtra = tangon.bind(golfie)(entity);
             oscard = _closure1_slot3;
@@ -253,47 +262,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 1;
             oscard = foxtra[oscard];
             foxtra = null;
-            if(!(foxtra != backup)) { _fun00010_ip = 155; continue _fun00009 }
- 149:
+            if(!(foxtra != backup)) { _fun00010_ip = 192; continue _fun00009 }
+ 186:
             oscard['format'] = backup;
- 155:
-            if(!(foxtra != offset)) { _fun00010_ip = 165; continue _fun00009 }
- 159:
+ 192:
+            if(!(foxtra != offset)) { _fun00010_ip = 202; continue _fun00009 }
+ 196:
             oscard['quality'] = offset;
- 165:
-            if(!michal) { _fun00010_ip = 171; continue _fun00009 }
- 168:
-            michal = report;
- 171:
+ 202:
             if(!michal) { _fun00010_ip = 208; continue _fun00009 }
- 174:
-            offset = _closure1_slot7;
-            report = offset.test;
-            report = report.bind(offset)(entity);
-            if(report) { _fun00010_ip = 205; continue _fun00009 }
- 191:
-            foxtra = _closure1_slot8;
-            offset = foxtra.test;
-            report = offset.bind(foxtra)(entity);
  205:
             michal = report;
  208:
-            if(!michal) { _fun00010_ip = 219; continue _fun00009 }
+            if(!michal) { _fun00010_ip = 245; continue _fun00009 }
  211:
+            offset = _closure1_slot7;
+            report = offset.test;
+            report = report.bind(offset)(entity);
+            if(report) { _fun00010_ip = 242; continue _fun00009 }
+ 228:
+            foxtra = _closure1_slot8;
+            offset = foxtra.test;
+            report = offset.bind(foxtra)(entity);
+ 242:
+            michal = report;
+ 245:
+            if(!michal) { _fun00010_ip = 256; continue _fun00009 }
+ 248:
             michal = true;
             oscard['animated'] = michal;
- 219:
+ 256:
             report = _closure1_slot8;
             michal = report.test;
             michal = michal.bind(report)(entity);
-            if(!michal) { _fun00010_ip = 248; continue _fun00009 }
- 236:
+            if(!michal) { _fun00010_ip = 285; continue _fun00009 }
+ 273:
             michal = 'webp';
             oscard['format'] = michal;
- 248:
+ 285:
             report = _closure1_slot0;
             offset = _closure1_slot2;
-            michal = 7;
+            michal = 8;
             michal = offset[michal];
             offset = report.bind(golfie)(michal);
             report = offset.fit;
@@ -308,27 +317,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = michal.width;
             michal = michal.height;
             option = report === option;
-            if(!option) { _fun00010_ip = 328; continue _fun00009 }
- 324:
+            if(!option) { _fun00010_ip = 365; continue _fun00009 }
+ 361:
             option = michal === verify;
- 328:
-            if(option) { _fun00010_ip = 349; continue _fun00009 }
- 331:
+ 365:
+            if(option) { _fun00010_ip = 386; continue _fun00009 }
+ 368:
             report = report | 0;
             oscard['width'] = report;
             michal = michal | 0;
             oscard['height'] = michal;
- 349:
+ 386:
             report = _closure1_slot1;
             option = _closure1_slot2;
-            michal = 8;
+            michal = 9;
             michal = option[michal];
             report = report.bind(golfie)(michal);
             michal = report.isEmpty;
             report = michal.bind(report)(oscard);
             michal = tangon;
-            if(report) { _fun00010_ip = 429; continue _fun00009 }
- 386:
+            if(report) { _fun00010_ip = 466; continue _fun00009 }
+ 423:
             report = _closure1_slot1;
             option = _closure1_slot2;
             zuuluu = 6;
@@ -339,9 +348,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = '?';
             zuuluu = zuuluu + report;
             michal = tangon + zuuluu;
- 429:
+ 466:
             return michal;
- 431:
+ 468:
             return entity;
         }
     };
@@ -389,13 +398,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = new backup[offset](foxtra, romeon);
     report = report instanceof Object ? report : verify;
     var _closure1_slot10 = report;
-    report = 10;
+    report = 11;
     report = golfie[report];
     verify = option.bind(entity)(report);
     option = verify.fileFinishedImporting;
     report = 'modules/image_upload/ImageLoaderUtils.tsx';
     report = option.bind(verify)(report);
-    report = 9;
+    report = 10;
     report = golfie[report];
     report = oscard.bind(entity)(report);
     zuuluu['getDevicePixelRatio'] = report;
@@ -641,7 +650,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  15:
             zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
-            entity = 9;
+            entity = 10;
             entity = offset[entity];
             entity = zuuluu.bind(tangon)(entity);
             yankee = entity.bind(tangon)();
@@ -760,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  202:
             option = _closure1_slot1;
             backup = _closure1_slot2;
-            michal = 9;
+            michal = 10;
             michal = backup[michal];
             michal = option.bind(zuuluu)(michal);
             option = michal.bind(zuuluu)();

@@ -573,7 +573,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = zuuluu.bind(tangon)(report);
             report = golfie.useIsInReverseTrial;
             report = report.bind(golfie)();
-            report = report.isInReverseTrial;
             _closure2_slot3 = report;
             report = 32;
             golfie = oscard[report];

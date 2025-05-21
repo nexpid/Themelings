@@ -13,49 +13,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 option = argFoo;
-                entity = global;
-                offset = entity.Math;
-                tangon = offset.max;
-                report = _closure1_slot0;
-                michal = _closure1_slot2;
+                michal = _closure1_slot0;
+                entity = _closure1_slot2;
                 golfie = 4;
-                michal = michal[golfie];
+                entity = entity[golfie];
                 oscard = undefined;
-                michal = report.bind(oscard)(michal);
-                yankee = michal.Storage;
-                verify = yankee.get;
+                entity = michal.bind(oscard)(entity);
+                report = entity.Storage;
+                tangon = report.get;
                 michal = _closure1_slot6;
-                report = 0;
-                verify = verify.bind(yankee)(michal, report);
-                michal = null;
-                yankee = michal != verify;
-                michal = 0;
-                if(!yankee) { _fun00004_ip = 78; continue _fun00003 }
- 75:
-                michal = verify;
- 78:
-                verify = 200;
-                tangon = tangon.bind(offset)(michal, verify);
-                michal = entity.Math;
-                entity = michal.max;
-                michal = entity.bind(michal)(option, verify);
-                verify = _closure1_slot0;
-                offset = _closure1_slot2;
-                entity = 5;
-                entity = offset[entity];
-                entity = verify.bind(oscard)(entity);
-                entity = entity.KeyboardTypes;
-                offset = entity.SYSTEM;
-                verify = argBar;
-                entity = tangon;
-                if(!(verify === offset)) { _fun00004_ip = 201; continue _fun00003 }
- 146:
-                entity = tangon;
-                if(!(report !== option)) { _fun00004_ip = 201; continue _fun00003 }
- 153:
+                entity = 253;
+                michal = tangon.bind(report)(michal, entity);
+                tangon = null;
+                tangon = tangon != michal;
+                if(!tangon) { _fun00004_ip = 64; continue _fun00003 }
+ 61:
                 entity = michal;
-                if(!(michal !== tangon)) { _fun00004_ip = 201; continue _fun00003 }
- 160:
+ 64:
+                tangon = _closure1_slot0;
+                report = _closure1_slot2;
+                michal = 5;
+                michal = report[michal];
+                michal = tangon.bind(oscard)(michal);
+                michal = michal.KeyboardTypes;
+                tangon = michal.SYSTEM;
+                michal = argBar;
+                if(!(michal === tangon)) { _fun00004_ip = 175; continue _fun00003 }
+ 103:
+                michal = 0;
+                if(!(michal !== option)) { _fun00004_ip = 175; continue _fun00003 }
+ 109:
+                michal = global;
+                report = michal.Math;
+                tangon = report.max;
+                michal = 200;
+                michal = tangon.bind(report)(option, michal);
+                if(!(michal !== entity)) { _fun00004_ip = 173; continue _fun00003 }
+ 135:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
                 tangon = tangon[golfie];
@@ -64,8 +58,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = report.set;
                 zuuluu = _closure1_slot6;
                 zuuluu = tangon.bind(report)(zuuluu, michal);
-                entity = michal;
- 201:
+ 173:
+                return michal;
+ 175:
                 return entity;
             }
         };
@@ -191,28 +186,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         offset = entity.keyboardContexts;
                         kiloes = offset[report];
                         offset = _closure2_slot0;
-                        offset = offset.keyboardType;
-                        backup = yankee == offset;
-                        foxtra = undefined;
+                        foxtra = offset.keyboardType;
+                        backup = yankee == foxtra;
+                        offset = undefined;
                         if(backup) { _fun00008_ip = 221; continue _fun00007 }
  216:
-                        foxtra = offset.context;
+                        offset = foxtra.context;
  221:
-                        if(!(yankee == foxtra)) { _fun00008_ip = 235; continue _fun00007 }
- 225:
-                        offset = entity.keyboardContexts;
-                        foxtra = offset[report];
- 235:
+                        foxtra = kiloes;
+                        if(!(yankee != offset)) { _fun00008_ip = 231; continue _fun00007 }
+ 228:
+                        foxtra = offset;
+ 231:
                         backup = 'object';
                         offset = typeof kiloes;
-                        if(!(backup === offset)) { _fun00008_ip = 253; continue _fun00007 }
- 246:
+                        if(!(backup === offset)) { _fun00008_ip = 249; continue _fun00007 }
+ 242:
                         offset = typeof foxtra;
-                        if(!(backup !== offset)) { _fun00008_ip = 259; continue _fun00007 }
- 253:
+                        if(!(backup !== offset)) { _fun00008_ip = 255; continue _fun00007 }
+ 249:
                         offset = kiloes !== foxtra;
-                        _fun00008_ip = 288; continue _fun00007;
- 259:
+                        _fun00008_ip = 284; continue _fun00007;
+ 255:
                         output = _closure1_slot1;
                         result = _closure1_slot2;
                         backup = 10;
@@ -220,16 +215,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         backup = output.bind(romeon)(backup);
                         backup = backup.bind(romeon)(kiloes, foxtra);
                         offset = !backup;
- 288:
+ 284:
                         oscard = _closure2_slot0;
                         oscard = oscard.keyboardOpen;
-                        if(!(yankee == oscard)) { _fun00008_ip = 308; continue _fun00007 }
- 302:
+                        if(!(yankee == oscard)) { _fun00008_ip = 304; continue _fun00007 }
+ 298:
                         oscard = entity.keyboardOpen;
- 308:
-                        yankee = entity.keyboardOpen;
-                        if(!(oscard !== yankee)) { _fun00008_ip = 369; continue _fun00007 }
- 318:
+ 304:
+                        if(!oscard) { _fun00008_ip = 358; continue _fun00007 }
+ 307:
                         backup = entity.keyboardContexts;
                         kiloes = _closure1_slot0;
                         yankee = _closure1_slot2;
@@ -240,23 +234,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         yankee = yankee.SYSTEM;
                         yankee = backup[yankee];
                         yankee = yankee.keyboardWillOpen;
-                        if(yankee) { _fun00008_ip = 405; continue _fun00007 }
- 369:
+                        if(yankee) { _fun00008_ip = 394; continue _fun00007 }
+ 358:
                         backup = entity.keyboardContexts;
-                        if(offset) { _fun00008_ip = 383; continue _fun00007 }
- 378:
+                        if(offset) { _fun00008_ip = 372; continue _fun00007 }
+ 367:
                         offset = backup;
-                        _fun00008_ip = 403; continue _fun00007;
- 383:
+                        _fun00008_ip = 392; continue _fun00007;
+ 372:
                         yankee = {};
                         source = yankee;
                         update = backup;
                         backup = copyDataProperties(source, update);
                         yankee[report] = foxtra;
                         offset = yankee;
- 403:
-                        _fun00008_ip = 506; continue _fun00007;
- 405:
+ 392:
+                        _fun00008_ip = 495; continue _fun00007;
+ 394:
                         yankee = {};
                         update = entity.keyboardContexts;
                         source = yankee;
@@ -280,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         foxtra[kiloes] = sizing;
                         yankee[backup] = foxtra;
                         offset = yankee;
- 506:
+ 495:
                         yankee = _closure1_slot1;
                         foxtra = _closure1_slot2;
                         michal = 10;
@@ -290,25 +284,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = yankee.bind(romeon)(michal, offset);
                         michal = !michal;
                         yankee = entity.keyboardDuration;
-                        if(!(yankee === verify)) { _fun00008_ip = 604; continue _fun00007 }
- 551:
-                        if(michal) { _fun00008_ip = 604; continue _fun00007 }
- 554:
+                        if(!(yankee === verify)) { _fun00008_ip = 593; continue _fun00007 }
+ 540:
+                        if(michal) { _fun00008_ip = 593; continue _fun00007 }
+ 543:
                         michal = entity.keyboardHeight;
-                        if(!(michal === option)) { _fun00008_ip = 604; continue _fun00007 }
- 564:
+                        if(!(michal === option)) { _fun00008_ip = 593; continue _fun00007 }
+ 553:
                         michal = entity.keyboardHeightExcludingSafeAreaInsets;
-                        if(!(michal === golfie)) { _fun00008_ip = 604; continue _fun00007 }
- 574:
+                        if(!(michal === golfie)) { _fun00008_ip = 593; continue _fun00007 }
+ 563:
                         michal = entity.keyboardType;
-                        if(!(michal === report)) { _fun00008_ip = 604; continue _fun00007 }
- 584:
+                        if(!(michal === report)) { _fun00008_ip = 593; continue _fun00007 }
+ 573:
                         michal = entity.customKeyboardHeight;
-                        if(!(michal === zuuluu)) { _fun00008_ip = 604; continue _fun00007 }
- 594:
+                        if(!(michal === zuuluu)) { _fun00008_ip = 593; continue _fun00007 }
+ 583:
                         michal = entity.keyboardOpen;
-                        if(!(michal !== oscard)) { _fun00008_ip = 649; continue _fun00007 }
- 604:
+                        if(!(michal !== oscard)) { _fun00008_ip = 638; continue _fun00007 }
+ 593:
                         michal = {};
                         michal['keyboardContexts'] = offset;
                         michal['keyboardDuration'] = verify;
@@ -319,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['keyboardTypePrevious'] = tangon;
                         michal['customKeyboardHeight'] = zuuluu;
                         entity = michal;
- 649:
+ 638:
                         return entity;
                     }
                 };
