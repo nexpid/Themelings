@@ -431,6 +431,24 @@
     "midnight": "#ffffff00",
     "darker": "#ffffff00"
   },
+  "BUTTON_EXPRESSIVE_BACKGROUND": {
+    "dark": "#ffffff",
+    "light": "#5865f2",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
+  "BUTTON_EXPRESSIVE_BACKGROUND_ACTIVE": {
+    "dark": "#efeff0",
+    "light": "#3c45a5",
+    "midnight": "#efeff0",
+    "darker": "#efeff0"
+  },
+  "BUTTON_EXPRESSIVE_BACKGROUND_HOVER": {
+    "dark": "#ffffff",
+    "light": "#4752c4",
+    "midnight": "#ffffff",
+    "darker": "#ffffff"
+  },
   "BUTTON_FILLED_BRAND_BACKGROUND": {
     "dark": "#5865f2",
     "light": "#5865f2",
