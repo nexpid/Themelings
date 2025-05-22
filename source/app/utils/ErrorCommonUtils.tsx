@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(golfie == report)) { _fun00002_ip = 84; continue _fun00001 }
  80:
             report = {};
-            _fun00002_ip = 119; continue _fun00001;
+            _fun00002_ip = 117; continue _fun00001;
  84:
             golfie = {};
             verify = _closure1_slot1;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = option._currentDispatchActionType;
             golfie['currentAction'] = option;
             report = golfie;
- 119:
+ 117:
             romeon = michal;
             yankee = report;
             report = copyDataProperties(romeon, yankee);

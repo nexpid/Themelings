@@ -623,7 +623,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = undefined;
                     if(michal) { _fun00022_ip = 43; continue _fun00021 }
  37:
-                    oscard = entity.affinity;
+                    oscard = entity.communicationProbability;
  43:
                     golfie = tangon != oscard;
                     entity = 0;
@@ -640,7 +640,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     if(oscard) { _fun00022_ip = 93; continue _fun00021 }
  87:
-                    zuuluu = report.affinity;
+                    zuuluu = report.communicationProbability;
  93:
                     tangon = tangon != zuuluu;
                     michal = 0;

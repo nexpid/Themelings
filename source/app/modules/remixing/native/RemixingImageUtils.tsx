@@ -422,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = argFoo;
                     oscard = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                    if(golfie) { _fun00006_ip = 409; continue _fun00005 }
+                    if(golfie) { _fun00006_ip = 411; continue _fun00005 }
  16:
                     report = argBar;
                     option = undefined;
@@ -462,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu;
  126:
                     zuuluu = michal;
-                    if(!(golfie != zuuluu)) { _fun00006_ip = 373; continue _fun00005 }
+                    if(!(golfie != zuuluu)) { _fun00006_ip = 375; continue _fun00005 }
  136:
                     offset = michal;
                     verify = offset.encodeToBase64;
@@ -475,7 +475,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = michal.PNG;
                     michal = 100;
                     tangon = verify.bind(offset)(zuuluu, michal);
- 189: // try_start_0
+ 191: // try_start_0
                     zuuluu = _closure1_slot0;
                     verify = _closure1_slot3;
                     michal = 17;
@@ -483,8 +483,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(option)(michal);
                     michal = zuuluu.isAndroid;
                     michal = michal.bind(zuuluu)();
-                    if(michal) { _fun00006_ip = 277; continue _fun00005 }
- 221:
+                    if(michal) { _fun00006_ip = 279; continue _fun00005 }
+ 223:
                     michal = _closure1_slot5;
                     romeon = michal.DCDFileManager;
                     yankee = romeon.writeFile;
@@ -494,17 +494,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = 'base64';
                     echoed = romeon;
                     michal = echoed[yankee](result, output, sizing, kiloes, backup);
-                    SaveGenerator(address=262);
- 260:
-                    return michal;
+                    SaveGenerator(address=264);
  262:
+                    return michal;
+ 264:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     verify = zuuluu;
                     zuuluu = michal;
-                    if(!verify) { _fun00006_ip = 363; continue _fun00005 }
- 274: // try_end0
+                    if(!verify) { _fun00006_ip = 365; continue _fun00005 }
+ 276: // try_end0
                     return michal;
- 277: // try_start_1
+ 279: // try_start_1
                     offset = _closure1_slot1;
                     michal = _closure1_slot3;
                     verify = 18;
@@ -512,8 +512,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = offset.bind(option)(michal);
                     golfie = golfie == michal;
                     michal = undefined;
-                    if(golfie) { _fun00006_ip = 350; continue _fun00005 }
- 306:
+                    if(golfie) { _fun00006_ip = 352; continue _fun00005 }
+ 308:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot3;
                     oscard = oscard[verify];
@@ -525,22 +525,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = 'base64';
                     echoed = verify;
                     michal = echoed[option](result, output, sizing, kiloes, backup);
- 350:
-                    SaveGenerator(address=354);
  352:
-                    return michal;
+                    SaveGenerator(address=356);
  354:
+                    return michal;
+ 356:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
                     zuuluu = michal;
-                    if(tangon) { _fun00006_ip = 366; continue _fun00005 }
- 363: // try_end1
+                    if(tangon) { _fun00006_ip = 368; continue _fun00005 }
+ 365: // try_end1
                     return zuuluu;
- 366:
+ 368:
                     return michal;
- 369: // catch_target0 // catch_target1
+ 371: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     throw michal;
- 373:
+ 375:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -550,7 +550,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new echoed[tangon](result, output);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 409:
+ 411:
                     return entity;
                 }
             };

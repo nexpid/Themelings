@@ -46,8 +46,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = oscard.bind(entity)(tangon);
     report = option.createStyles;
     tangon = {};
-    verify = {'borderWidth': 2, 'borderColor': 'transparent', 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'marginTop': 10};
+    verify = {'borderWidth': 2, 'borderColor': null, 'borderRadius': null, 'backgroundColor': null, 'alignItems': 'center', 'justifyContent': 'center', 'marginTop': 10};
     yankee = 6;
+    foxtra = golfie[yankee];
+    foxtra = romeon.bind(entity)(foxtra);
+    foxtra = foxtra.colors;
+    foxtra = foxtra.BORDER_SUBTLE;
+    verify['borderColor'] = foxtra;
     foxtra = golfie[yankee];
     foxtra = romeon.bind(entity)(foxtra);
     foxtra = foxtra.radii;
@@ -56,7 +61,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = golfie[yankee];
     foxtra = romeon.bind(entity)(foxtra);
     foxtra = foxtra.colors;
-    foxtra = foxtra.BACKGROUND_FLOATING;
+    foxtra = foxtra.BG_SURFACE_RAISED;
     verify['backgroundColor'] = foxtra;
     tangon['item'] = verify;
     verify = {};
@@ -307,96 +312,94 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = argFoo;
-            backup = tangon.avatarDecoration;
-            foxtra = tangon.isSelected;
-            option = tangon.children;
-            zuuluu = {'avatarDecoration': 0, 'isSelected': 0, 'children': 0};
+            foxtra = tangon.avatarDecoration;
+            romeon = tangon.isSelected;
             entity = null;
-            result = zuuluu;
-            output = null;
-            michal = silentSetPrototypeOf(result, output);
-            result = {};
-            output = tangon;
-            sizing = zuuluu;
-            oscard = copyDataProperties(result, output, sizing);
+            zuuluu = Object.create(entity);
+            michal = 0;
+            zuuluu['avatarDecoration'] = michal;
+            zuuluu['isSelected'] = michal;
+            output = {};
+            sizing = tangon;
+            kiloes = zuuluu;
+            oscard = copyDataProperties(output, sizing, kiloes);
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 16;
             michal = zuuluu[michal];
             tangon = undefined;
-            yankee = report.bind(tangon)(michal);
-            offset = yankee.useStateFromStores;
+            offset = report.bind(tangon)(michal);
+            verify = offset.useStateFromStores;
             michal = _closure1_slot4;
-            verify = new Array(1);
-            verify[0] = michal;
+            option = new Array(1);
+            option[0] = michal;
             michal = function() {
                 michal = _closure1_slot4;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            yankee = offset.bind(yankee)(verify, michal);
-            offset = _closure1_slot1;
+            offset = verify.bind(offset)(option, michal);
+            verify = _closure1_slot1;
             michal = 17;
             michal = zuuluu[michal];
-            verify = offset.bind(tangon)(michal);
-            michal = verify.canUseCollectibles;
-            michal = michal.bind(verify)(yankee);
-            verify = 18;
-            verify = zuuluu[verify];
-            offset = offset.bind(tangon)(verify);
-            verify = backup.skuId;
-            verify = offset.bind(tangon)(verify);
-            verify = verify.purchase;
-            romeon = 19;
-            zuuluu = zuuluu[romeon];
+            option = verify.bind(tangon)(michal);
+            michal = option.canUseCollectibles;
+            michal = michal.bind(option)(offset);
+            option = 18;
+            option = zuuluu[option];
+            verify = verify.bind(tangon)(option);
+            option = foxtra.skuId;
+            option = verify.bind(tangon)(option);
+            option = option.purchase;
+            verify = 19;
+            zuuluu = zuuluu[verify];
             offset = report.bind(tangon)(zuuluu);
             report = offset.isProductNew;
-            zuuluu = backup.skuId;
+            zuuluu = foxtra.skuId;
             offset = report.bind(offset)(zuuluu);
             zuuluu = _closure1_slot8;
             yankee = zuuluu.bind(tangon)();
-            report = entity == verify;
-            if(report) { _fun00006_ip = 249; continue _fun00005 }
- 212:
+            report = entity == option;
+            if(report) { _fun00006_ip = 236; continue _fun00005 }
+ 199:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[romeon];
+            entity = entity[verify];
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.isPremiumCollectiblesPurchase;
-            entity = entity.bind(zuuluu)(verify);
-            if(!entity) { _fun00006_ip = 246; continue _fun00005 }
- 243:
+            entity = entity.bind(zuuluu)(option);
+            if(!entity) { _fun00006_ip = 233; continue _fun00005 }
+ 230:
             entity = !michal;
- 246:
+ 233:
             report = entity;
- 249:
+ 236:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot9;
             entity = {};
-            entity['isSelected'] = foxtra;
-            verify = backup.label;
-            entity['accessibilityLabel'] = verify;
-            result = entity;
-            output = oscard;
-            oscard = copyDataProperties(result, output);
-            romeon = _closure1_slot6;
-            verify = _closure1_slot1;
-            kiloes = _closure1_slot2;
+            entity['isSelected'] = romeon;
+            option = foxtra.label;
+            entity['accessibilityLabel'] = option;
+            output = entity;
+            sizing = oscard;
+            oscard = copyDataProperties(output, sizing);
+            verify = _closure1_slot6;
+            option = _closure1_slot1;
+            backup = _closure1_slot2;
             oscard = 20;
-            oscard = kiloes[oscard];
-            verify = verify.bind(tangon)(oscard);
+            oscard = backup[oscard];
+            option = option.bind(tangon)(oscard);
             oscard = {};
-            oscard['avatarDecoration'] = backup;
-            backup = _closure1_slot5;
-            oscard['size'] = backup;
-            oscard['animate'] = foxtra;
-            verify = romeon.bind(tangon)(verify, oscard);
-            oscard = new Array(3);
-            oscard[0] = verify;
-            oscard[1] = option;
-            if(!report) { _fun00006_ip = 409; continue _fun00005 }
- 348:
+            oscard['avatarDecoration'] = foxtra;
+            foxtra = _closure1_slot5;
+            oscard['size'] = foxtra;
+            oscard['animate'] = romeon;
+            option = verify.bind(tangon)(option, oscard);
+            oscard = new Array(2);
+            oscard[0] = option;
+            if(!report) { _fun00006_ip = 392; continue _fun00005 }
+ 331:
             verify = _closure1_slot6;
             option = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -411,8 +414,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = yankee;
             golfie['isNew'] = offset;
             report = verify.bind(tangon)(option, golfie);
- 409:
-            oscard[2] = report;
+ 392:
+            oscard[1] = report;
             report = 'children';
             entity[report] = oscard;
             entity = zuuluu.bind(tangon)(michal, entity);

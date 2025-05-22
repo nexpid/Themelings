@@ -86,6 +86,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['DO_NOT_DISPLAY'] = tangon;
     entity = 'DO_NOT_DISPLAY';
     michal[tangon] = entity;
+    tangon = 22;
+    michal['EXTERNAL_DIALOG'] = tangon;
+    entity = 'EXTERNAL_DIALOG';
+    michal[tangon] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

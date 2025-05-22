@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = golfie[yankee];
     backup = romeon.bind(entity)(backup);
     backup = backup.colors;
-    backup = backup.BACKGROUND_PRIMARY;
+    backup = backup.BACKGROUND_BASE_LOW;
     offset['backgroundColor'] = backup;
     michal['container'] = offset;
     offset = {'flexDirection': 'column', 'alignItems': 'center', 'paddingBottom': 88};
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = kiloes[report];
             sizing = config.bind(tangon)(zuuluu);
             oscard = sizing.useAnimatedStyle;
-            zuuluu = function() { // Original name: R
+            zuuluu = function() { // Original name: O
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     michal = _closure2_slot9;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = kiloes[report];
             source = config.bind(tangon)(zuuluu);
             result = source.useAnimatedStyle;
-            zuuluu = function() { // Original name: O
+            zuuluu = function() { // Original name: R
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     zuuluu = _closure2_slot9;
@@ -1346,8 +1346,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = zuuluu.bind(tangon)(ctrled, foxtra);
             foxtra = new Array(2);
             foxtra[0] = ctrled;
-            if(kiloes) { _fun00024_ip = 746; continue _fun00023 }
- 533:
+            if(kiloes) { _fun00024_ip = 742; continue _fun00023 }
+ 529:
             vacuum = _closure1_slot15;
             ctrled = _closure1_slot6;
             kiloes = {};
@@ -1396,8 +1396,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen[1] = config;
             kiloes['children'] = sequen;
             kiloes = vacuum.bind(tangon)(ctrled, kiloes);
-            _fun00024_ip = 803; continue _fun00023;
- 746:
+            _fun00024_ip = 799; continue _fun00023;
+ 742:
             sequen = _closure1_slot14;
             vacuum = _closure1_slot6;
             ctrled = {};
@@ -1410,7 +1410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = sequen.bind(tangon)(record, config);
             ctrled['children'] = config;
             kiloes = sequen.bind(tangon)(vacuum, ctrled);
- 803:
+ 799:
             foxtra[1] = kiloes;
             offset['children'] = foxtra;
             romeon = verify.bind(tangon)(romeon, offset);

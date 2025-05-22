@@ -482,7 +482,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = output[report];
             report = sizing.bind(tangon)(report);
             oscard = report.Text;
-            report = {'variant': 'text-xs/bold', 'color': 'interactive-muted'};
+            report = {'variant': 'heading-sm/medium', 'color': 'text-muted'};
             golfie = golfie.header;
             report['children'] = golfie;
             oscard = option.bind(tangon)(oscard, report);

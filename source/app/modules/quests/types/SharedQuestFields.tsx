@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = zuuluu;
-        zuuluu = new Array(9);
+        zuuluu = new Array(10);
         zuuluu[0] = entity;
         entity = {};
         oscard = '_defaultRewardV2';
@@ -222,15 +222,84 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['get'] = oscard;
         zuuluu[8] = entity;
         entity = {};
+        oscard = 'defaultWatchVideoTask';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                michal = this;
+                entity = michal.quest;
+                zuuluu = entity.taskConfigV2;
+                entity = null;
+                if(!(entity != zuuluu)) { _fun00006_ip = 193; continue _fun00005 }
+ 24:
+                zuuluu = michal.quest;
+                zuuluu = zuuluu.taskConfigV2;
+                report = entity == zuuluu;
+                golfie = undefined;
+                tangon = undefined;
+                if(report) { _fun00006_ip = 92; continue _fun00005 }
+ 47:
+                report = zuuluu.tasks;
+                oscard = _closure1_slot0;
+                option = _closure1_slot1;
+                zuuluu = 4;
+                zuuluu = option[zuuluu];
+                zuuluu = oscard.bind(golfie)(zuuluu);
+                zuuluu = zuuluu.FirstPartyQuestTaskTypes;
+                zuuluu = zuuluu.WATCH_VIDEO;
+                tangon = report[zuuluu];
+ 92:
+                michal = michal.quest;
+                michal = michal.taskConfigV2;
+                report = entity == michal;
+                zuuluu = undefined;
+                if(report) { _fun00006_ip = 158; continue _fun00005 }
+ 113:
+                report = michal.tasks;
+                oscard = _closure1_slot0;
+                option = _closure1_slot1;
+                michal = 4;
+                michal = option[michal];
+                michal = oscard.bind(golfie)(michal);
+                michal = michal.FirstPartyQuestTaskTypes;
+                michal = michal.WATCH_VIDEO_ON_MOBILE;
+                zuuluu = report[michal];
+ 158:
+                if(!(entity != tangon)) { _fun00006_ip = 169; continue _fun00005 }
+ 162:
+                michal = zuuluu;
+                if(!(entity == michal)) { _fun00006_ip = 191; continue _fun00005 }
+ 169:
+                if(!(entity != zuuluu)) { _fun00006_ip = 176; continue _fun00005 }
+ 173:
+                tangon = zuuluu;
+ 176:
+                report = entity != tangon;
+                zuuluu = null;
+                if(!report) { _fun00006_ip = 188; continue _fun00005 }
+ 185:
+                zuuluu = tangon;
+ 188:
+                michal = zuuluu;
+ 191:
+                return michal;
+ 193:
+                return entity;
+            }
+        };
+        entity['get'] = oscard;
+        zuuluu[9] = entity;
+        entity = {};
         oscard = 'build';
         entity['key'] = oscard;
         michal = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 zuuluu = argFoo;
                 michal = zuuluu.configVersion;
                 entity = 2;
-                if(!(entity === michal)) { _fun00006_ip = 48; continue _fun00005 }
+                if(!(entity === michal)) { _fun00008_ip = 48; continue _fun00007 }
  16:
                 entity = _closure2_slot0;
                 michal = entity.prototype;

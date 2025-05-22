@@ -1,4 +1,4 @@
-// app/modules/avatar_decorations/native/useAvatarDecorationListLayout.tsx
+// app/modules/collectibles/native/useCollectibleListLayout.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/avatar_decorations/native/useAvatarDecorationListLayout.tsx';
+    tangon = 'modules/collectibles/native/useCollectibleListLayout.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: _default
         tangon = _closure1_slot2;

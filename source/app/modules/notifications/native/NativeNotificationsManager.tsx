@@ -342,108 +342,236 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00014_ip = 693; continue _fun00013 }
- 10:
+                            if(michal) { _fun00014_ip = 961; continue _fun00013 }
+ 12:
                             michal = undefined;
-                            golfie = undefined;
-                            oscard = undefined;
                             option = undefined;
-                            foxtra = undefined;
-                            backup = undefined;
+                            var _closure5_slot0 = michal;
+                            oscard = undefined;
+                            golfie = undefined;
+                            report = undefined;
+                            verify = undefined;
                             kiloes = undefined;
+                            var _closure5_slot1 = michal;
+                            yankee = undefined;
                             sizing = undefined;
                             output = undefined;
-                            report = _closure1_slot0;
+                            result = undefined;
+                            echoed = undefined;
+                            update = undefined;
+                            source = undefined;
+                            foxtra = _closure1_slot0;
                             tangon = _closure1_slot2;
-                            verify = 9;
-                            tangon = tangon[verify];
-                            report = report.bind(michal)(tangon);
-                            tangon = report.isIOS;
-                            tangon = tangon.bind(report)();
-                            if(tangon) { _fun00014_ip = 81; continue _fun00013 }
- 64:
-                            report = _closure3_slot0;
-                            tangon = report.handleSetCallNotificationExperiment;
-                            tangon = tangon.bind(report)();
- 81: // try_start_0
-                            report = _closure1_slot0;
+                            romeon = 9;
+                            tangon = tangon[romeon];
+                            foxtra = foxtra.bind(michal)(tangon);
+                            tangon = foxtra.isIOS;
+                            tangon = tangon.bind(foxtra)();
+                            if(tangon) { _fun00014_ip = 101; continue _fun00013 }
+ 84:
+                            foxtra = _closure3_slot0;
+                            tangon = foxtra.handleSetCallNotificationExperiment;
+                            tangon = tangon.bind(foxtra)();
+ 101: // try_start_0
+                            foxtra = _closure1_slot0;
                             tangon = _closure1_slot2;
-                            tangon = tangon[verify];
-                            report = report.bind(michal)(tangon);
-                            tangon = report.isIOS;
-                            tangon = tangon.bind(report)();
-                            romeon = 'cache';
-                            if(!tangon) { _fun00014_ip = 119; continue _fun00013 }
- 115:
-                            romeon = 'shared';
+                            tangon = tangon[romeon];
+                            foxtra = foxtra.bind(michal)(tangon);
+                            tangon = foxtra.isIOS;
+                            foxtra = tangon.bind(foxtra)();
+                            tangon = 'cache';
+                            if(!foxtra) { _fun00014_ip = 139; continue _fun00013 }
+ 135:
+                            tangon = 'shared';
+ 139:
+                            option = tangon;
+                            _closure5_slot0 = tangon;
+                            backup = 'processing_notifications';
+                            oscard = backup;
+                            golfie = 'processing_notification_states';
+                            tangon = function() {
+                                tangon = _closure1_slot3;
+                                zuuluu = undefined;
+                                michal = function* (argFoo, argBar) {
+                                    entity = function* (argFoo, argBar) { // Original name: ?anon_0_
+                                        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+                                            StartGenerator();
+                                            verify = argBar;
+                                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                                            if(michal) { _fun00016_ip = 184; continue _fun00015 }
+ 13:
+                                            zuuluu = _closure1_slot0;
+                                            michal = _closure1_slot2;
+                                            offset = 10;
+                                            michal = michal[offset];
+                                            option = undefined;
+                                            report = zuuluu.bind(option)(michal);
+                                            zuuluu = report.removeFile;
+                                            michal = _closure5_slot0;
+                                            michal = zuuluu.bind(report)(michal, verify);
+                                            SaveGenerator(address=61);
+ 59:
+                                            return michal;
+ 61:
+                                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                                            if(zuuluu) { _fun00016_ip = 181; continue _fun00015 }
+ 67:
+                                            report = _closure1_slot0;
+                                            zuuluu = _closure1_slot2;
+                                            zuuluu = zuuluu[offset];
+                                            yankee = report.bind(option)(zuuluu);
+                                            golfie = yankee.moveFile;
+                                            report = _closure5_slot0;
+                                            zuuluu = argFoo;
+                                            zuuluu = golfie.bind(yankee)(report, zuuluu, verify);
+                                            SaveGenerator(address=108);
+ 106:
+                                            return zuuluu;
+ 108:
+                                            ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                                            if(report) { _fun00016_ip = 178; continue _fun00015 }
+ 114:
+                                            report = null;
+                                            if(!zuuluu) { _fun00016_ip = 172; continue _fun00015 }
  119:
-                            golfie = romeon;
-                            yankee = 'processing_notifications';
-                            oscard = yankee;
-                            report = _closure1_slot0;
-                            tangon = _closure1_slot2;
-                            offset = 10;
-                            tangon = tangon[offset];
-                            verify = report.bind(michal)(tangon);
-                            report = verify.moveFile;
-                            tangon = 'notifications_to_track';
-                            tangon = report.bind(verify)(romeon, tangon, yankee);
-                            SaveGenerator(address=174);
+                                            golfie = _closure1_slot0;
+                                            oscard = _closure1_slot2;
+                                            oscard = oscard[offset];
+                                            option = golfie.bind(option)(oscard);
+                                            golfie = option.readFile;
+                                            oscard = _closure5_slot0;
+                                            tangon = 'utf8';
+                                            tangon = golfie.bind(option)(oscard, verify, tangon);
+                                            SaveGenerator(address=163);
+ 161:
+                                            return tangon;
+ 163:
+                                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                                            report = tangon;
+                                            if(oscard) { _fun00016_ip = 175; continue _fun00015 }
  172:
+                                            return report;
+ 175:
+                                            return tangon;
+ 178:
+                                            return zuuluu;
+ 181:
+                                            return michal;
+ 184:
+                                            return entity;
+                                        }
+                                    };
+                                    return entity;
+                                };
+                                michal = tangon.bind(zuuluu)(michal);
+                                var _closure6_slot0 = michal;
+                                entity = function() {
+                                    entity = undefined;
+                                    tangon = _closure6_slot0;
+                                    zuuluu = tangon.apply;
+                                    entity = arguments;
+                                    michal = entity;
+                                    entity = this;
+                                    entity = zuuluu.bind(tangon)(entity, michal);
+                                    return entity;
+                                };
+                                return entity;
+                            };
+                            foxtra = tangon.bind(michal)();
+                            report = foxtra;
+                            tangon = 'notifications_to_track';
+                            tangon = foxtra.bind(michal)(tangon, backup);
+                            SaveGenerator(address=191);
+ 189:
                             return tangon;
- 174:
-                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                            if(report) { _fun00014_ip = 664; continue _fun00013 }
- 183:
-                            if(tangon) { _fun00014_ip = 189; continue _fun00013 }
- 186: // try_end0
-                            return michal;
- 189: // try_start_1
-                            verify = _closure1_slot0;
-                            report = _closure1_slot2;
-                            report = report[offset];
-                            result = verify.bind(michal)(report);
-                            romeon = result.readFile;
-                            yankee = golfie;
-                            verify = oscard;
-                            report = 'utf8';
-                            report = romeon.bind(result)(yankee, verify, report);
-                            SaveGenerator(address=235);
- 233:
+ 191:
+                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=12);
+                            if(foxtra) { _fun00014_ip = 932; continue _fun00013 }
+ 200:
+                            verify = tangon;
+                            backup = null;
+                            if(!(backup != tangon)) { _fun00014_ip = 929; continue _fun00013 }
+ 212:
+                            foxtra = global;
+                            ctrled = foxtra.Map;
+                            vacuum = ctrled.prototype;
+                            vacuum = Object.create(vacuum, {constructor: {value: ctrled}});
+                            status = vacuum;
+                            ctrled = new status[ctrled](target);
+                            ctrled = ctrled instanceof Object ? ctrled : vacuum;
+                            kiloes = ctrled;
+                            _closure5_slot1 = ctrled;
+                            vacuum = _closure1_slot0;
+                            ctrled = _closure1_slot2;
+                            ctrled = ctrled[romeon];
+                            vacuum = vacuum.bind(michal)(ctrled);
+                            ctrled = vacuum.isIOS;
+                            ctrled = ctrled.bind(vacuum)();
+                            if(!ctrled) { _fun00014_ip = 359; continue _fun00013 }
+ 277:
+                            vacuum = report;
+                            ctrled = golfie;
+                            report = 'notification_states_to_track';
+                            report = vacuum.bind(michal)(report, ctrled);
+                            SaveGenerator(address=299);
+ 297:
                             return report;
- 235:
-                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                            if(verify) { _fun00014_ip = 661; continue _fun00013 }
- 244:
-                            option = report;
-                            romeon = null;
-                            if(!(romeon != report)) { _fun00014_ip = 658; continue _fun00013 }
- 256:
-                            backup = function(argFoo) { // Original name: normalizeTimestampToMs
-                                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 299:
+                            ResumeGenerator(result_out_reg=4, return_bool_out_reg=21);
+                            if(ctrled) { _fun00014_ip = 926; continue _fun00013 }
+ 308:
+                            yankee = report;
+                            if(!(backup !== report)) { _fun00014_ip = 359; continue _fun00013 }
+ 315:
+                            ctrled = yankee;
+                            yankee = ctrled.trim;
+                            vacuum = yankee.bind(ctrled)();
+                            ctrled = vacuum.split;
+                            yankee = '\n';
+                            vacuum = ctrled.bind(vacuum)(yankee);
+                            ctrled = vacuum.forEach;
+                            yankee = function(argFoo) {
+                                entity = global;
+                                zuuluu = entity.JSON;
+                                michal = zuuluu.parse;
+                                entity = argFoo;
+                                entity = michal.bind(zuuluu)(entity);
+                                tangon = _closure5_slot1;
+                                zuuluu = tangon.set;
+                                michal = entity._local_uuid;
+                                entity = entity.app_state;
+                                entity = zuuluu.bind(tangon)(michal, entity);
+                                entity = undefined;
+                                return entity;
+                            };
+                            yankee = ctrled.bind(vacuum)(yankee);
+ 359:
+                            output = function(argFoo) { // Original name: normalizeTimestampToMs
+                                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                                     report = argFoo;
                                     entity = null;
-                                    if(!(entity == report)) { _fun00016_ip = 13; continue _fun00015 }
+                                    if(!(entity == report)) { _fun00018_ip = 13; continue _fun00017 }
  9:
                                     entity = undefined;
                                     return entity;
  13:
                                     zuuluu = typeof report;
                                     entity = 'number';
-                                    if(!(entity !== zuuluu)) { _fun00016_ip = 55; continue _fun00015 }
+                                    if(!(entity !== zuuluu)) { _fun00018_ip = 55; continue _fun00017 }
  24:
                                     tangon = undefined;
                                     michal = 'string';
                                     entity = undefined;
-                                    if(!(michal === zuuluu)) { _fun00016_ip = 53; continue _fun00015 }
+                                    if(!(michal === zuuluu)) { _fun00018_ip = 53; continue _fun00017 }
  36:
                                     michal = global;
                                     zuuluu = michal.parseInt;
                                     michal = 10;
                                     entity = zuuluu.bind(tangon)(report, michal);
  53:
-                                    _fun00016_ip = 83; continue _fun00015;
+                                    _fun00018_ip = 83; continue _fun00017;
  55:
                                     michal = global;
                                     tangon = michal.Math;
@@ -455,116 +583,167 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                     return entity;
                                 }
                             };
-                            verify = _closure1_slot12;
-                            yankee = option;
-                            option = yankee.trim;
-                            result = option.bind(yankee)();
-                            yankee = result.split;
-                            option = '\n';
-                            option = yankee.bind(result)(option);
-                            option = verify.bind(michal)(option);
-                            kiloes = option;
-                            option = option.bind(michal)();
-                            foxtra = option;
-                            option = option.done;
-                            yankee = global;
-                            verify = 11;
-                            if(option) { _fun00014_ip = 614; continue _fun00013 }
- 327:
-                            option = foxtra;
-                            echoed = option.value;
-                            result = yankee.JSON;
-                            option = result.parse;
-                            source = option.bind(result)(echoed);
-                            output = source;
-                            result = _closure1_slot1;
-                            option = _closure1_slot2;
-                            option = option[verify];
-                            update = result.bind(michal)(option);
-                            echoed = update.track;
-                            option = _closure1_slot10;
-                            result = option.PUSH_NOTIFICATION_RECEIVED;
-                            option = {};
-                            vacuum = backup;
-                            ctrled = source.timestamp;
-                            ctrled = vacuum.bind(michal)(ctrled);
-                            option['notification_received_timestamp'] = ctrled;
-                            ctrled = source.push_action_type;
-                            option['push_action_type'] = ctrled;
-                            ctrled = source.notif_instance_id;
-                            option['notif_instance_id'] = ctrled;
-                            ctrled = source.notif_type_id;
-                            option['notif_type_id'] = ctrled;
-                            ctrled = source.join_id;
-                            option['join_id'] = ctrled;
-                            ctrled = source.notif_user_id;
-                            option['notif_user_id'] = ctrled;
-                            ctrled = source.receiving_user_id;
-                            option['receiving_user_id'] = ctrled;
-                            ctrled = source.message_id;
-                            option['message_id'] = ctrled;
-                            ctrled = source.message_type;
-                            option['message_type'] = ctrled;
-                            ctrled = source.guild_id;
-                            option['guild_id'] = ctrled;
-                            ctrled = source.channel_id;
-                            option['channel_id'] = ctrled;
-                            source = source.channel_type;
-                            sizing = source;
-                            ctrled = romeon == source;
-                            source = undefined;
-                            if(ctrled) { _fun00014_ip = 546; continue _fun00013 }
- 534:
-                            vacuum = sizing;
-                            ctrled = vacuum.toString;
-                            source = ctrled.bind(vacuum)();
- 546:
-                            option['channel_type'] = source;
-                            source = output;
-                            ctrled = source.rel_type;
-                            option['rel_type'] = ctrled;
-                            ctrled = source.mention_type;
-                            option['mention_type'] = ctrled;
-                            source = source.app_state;
-                            option['app_state'] = source;
-                            option = echoed.bind(update)(result, option);
-                            option = kiloes;
-                            option = option.bind(michal)();
-                            foxtra = option;
-                            option = option.done;
-                            if(!option) { _fun00014_ip = 327; continue _fun00013 }
- 614:
-                            verify = _closure1_slot0;
-                            option = _closure1_slot2;
-                            option = option[offset];
-                            verify = verify.bind(michal)(option);
-                            option = verify.removeFile;
-                            oscard = option.bind(verify)(golfie, oscard);
-                            SaveGenerator(address=647);
- 645:
+                            offset = _closure1_slot12;
+                            yankee = verify;
+                            verify = yankee.trim;
+                            ctrled = verify.bind(yankee)();
+                            yankee = ctrled.split;
+                            verify = '\n';
+                            verify = yankee.bind(ctrled)(verify);
+                            verify = offset.bind(michal)(verify);
+                            result = verify;
+                            verify = verify.bind(michal)();
+                            sizing = verify;
+                            verify = verify.done;
+                            yankee = 11;
+                            offset = 'background';
+                            if(verify) { _fun00014_ip = 804; continue _fun00013 }
+ 430:
+                            verify = sizing;
+                            vacuum = verify.value;
+                            ctrled = foxtra.JSON;
+                            verify = ctrled.parse;
+                            source = verify.bind(ctrled)(vacuum);
+                            ctrled = _closure1_slot0;
+                            verify = _closure1_slot2;
+                            verify = verify[romeon];
+                            ctrled = ctrled.bind(michal)(verify);
+                            verify = ctrled.isIOS;
+                            verify = verify.bind(ctrled)();
+                            if(!verify) { _fun00014_ip = 542; continue _fun00013 }
+ 485:
+                            verify = source;
+                            verify = verify._local_uuid;
+                            if(!(michal !== verify)) { _fun00014_ip = 542; continue _fun00013 }
+ 498:
+                            ctrled = source;
+                            sequen = kiloes;
+                            vacuum = sequen.get;
+                            verify = ctrled._local_uuid;
+                            verify = vacuum.bind(sequen)(verify);
+                            update = verify;
+                            vacuum = backup != verify;
+                            verify = offset;
+                            if(!vacuum) { _fun00014_ip = 536; continue _fun00013 }
+ 533:
+                            verify = update;
+ 536:
+                            ctrled['app_state'] = verify;
+ 542:
+                            ctrled = _closure1_slot1;
+                            verify = _closure1_slot2;
+                            verify = verify[yankee];
+                            sequen = ctrled.bind(michal)(verify);
+                            vacuum = sequen.track;
+                            verify = _closure1_slot10;
+                            ctrled = verify.PUSH_NOTIFICATION_RECEIVED;
+                            verify = {};
+                            cntext = output;
+                            config = source;
+                            record = config.timestamp;
+                            record = cntext.bind(michal)(record);
+                            verify['notification_received_timestamp'] = record;
+                            record = config.push_action_type;
+                            verify['push_action_type'] = record;
+                            record = config.notif_instance_id;
+                            verify['notif_instance_id'] = record;
+                            record = config.notif_type_id;
+                            verify['notif_type_id'] = record;
+                            record = config.join_id;
+                            verify['join_id'] = record;
+                            record = config.notif_user_id;
+                            verify['notif_user_id'] = record;
+                            record = config.receiving_user_id;
+                            verify['receiving_user_id'] = record;
+                            record = config.message_id;
+                            verify['message_id'] = record;
+                            record = config.message_type;
+                            verify['message_type'] = record;
+                            record = config.guild_id;
+                            verify['guild_id'] = record;
+                            record = config.channel_id;
+                            verify['channel_id'] = record;
+                            config = config.channel_type;
+                            echoed = config;
+                            record = backup == config;
+                            config = undefined;
+                            if(record) { _fun00014_ip = 736; continue _fun00013 }
+ 724:
+                            cntext = echoed;
+                            record = cntext.toString;
+                            config = record.bind(cntext)();
+ 736:
+                            verify['channel_type'] = config;
+                            config = source;
+                            record = config.rel_type;
+                            verify['rel_type'] = record;
+                            record = config.mention_type;
+                            verify['mention_type'] = record;
+                            config = config.app_state;
+                            verify['app_state'] = config;
+                            verify = vacuum.bind(sequen)(ctrled, verify);
+                            verify = result;
+                            verify = verify.bind(michal)();
+                            sizing = verify;
+                            verify = verify.done;
+                            if(!verify) { _fun00014_ip = 430; continue _fun00013 }
+ 804:
+                            offset = _closure1_slot0;
+                            verify = _closure1_slot2;
+                            yankee = 10;
+                            verify = verify[yankee];
+                            foxtra = offset.bind(michal)(verify);
+                            offset = foxtra.removeFile;
+                            verify = option;
+                            oscard = offset.bind(foxtra)(verify, oscard);
+                            SaveGenerator(address=843);
+ 841:
                             return oscard;
- 647:
-                            ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                            if(golfie) { _fun00014_ip = 655; continue _fun00013 }
- 653: // try_end1
-                            _fun00014_ip = 690; continue _fun00013;
- 655:
+ 843:
+                            ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
+                            if(verify) { _fun00014_ip = 923; continue _fun00013 }
+ 849:
+                            offset = _closure1_slot0;
+                            verify = _closure1_slot2;
+                            verify = verify[romeon];
+                            offset = offset.bind(michal)(verify);
+                            verify = offset.isIOS;
+                            verify = verify.bind(offset)();
+                            if(!verify) { _fun00014_ip = 918; continue _fun00013 }
+ 879:
+                            offset = _closure1_slot0;
+                            verify = _closure1_slot2;
+                            verify = verify[yankee];
+                            offset = offset.bind(michal)(verify);
+                            verify = offset.removeFile;
+                            golfie = verify.bind(offset)(option, golfie);
+                            SaveGenerator(address=912);
+ 910:
+                            return golfie;
+ 912:
+                            ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
+                            if(option) { _fun00014_ip = 920; continue _fun00013 }
+ 918: // try_end0
+                            _fun00014_ip = 958; continue _fun00013;
+ 920:
+                            return golfie;
+ 923:
                             return oscard;
- 658:
-                            return michal;
- 661:
+ 926:
                             return report;
- 664:
+ 929:
+                            return michal;
+ 932:
                             return tangon;
- 667: // catch_target0 // catch_target1
+ 935: // catch_target0
                             CatchBlockStart(arg_register=5);
                             report = _closure1_slot11;
                             tangon = report.error;
                             zuuluu = 'Error tracking push notifications';
                             zuuluu = tangon.bind(report)(zuuluu, oscard);
- 690:
+ 958:
                             return michal;
- 693:
+ 961:
                             return entity;
                         }
                     };
@@ -573,7 +752,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.bind(report)(zuuluu);
                 entity['handlePostConnectionOpen'] = zuuluu;
                 michal = function() {
-                    _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+                    _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                         tangon = _closure1_slot0;
                         zuuluu = _closure1_slot2;
@@ -583,7 +762,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = tangon.bind(entity)(zuuluu);
                         zuuluu = tangon.isIOS;
                         zuuluu = zuuluu.bind(tangon)();
-                        if(zuuluu) { _fun00018_ip = 215; continue _fun00017 }
+                        if(zuuluu) { _fun00020_ip = 215; continue _fun00019 }
  41:
                         tangon = _closure1_slot1;
                         report = _closure1_slot2;
@@ -608,12 +787,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = zuuluu.DCDNotificationManager;
                         zuuluu = zuuluu.setShowMissedCallNotifications;
                         report = null;
-                        if(!(report != zuuluu)) { _fun00018_ip = 174; continue _fun00017 }
+                        if(!(report != zuuluu)) { _fun00020_ip = 174; continue _fun00019 }
  147:
                         zuuluu = _closure1_slot9;
                         oscard = zuuluu.DCDNotificationManager;
                         zuuluu = oscard.setShowMissedCallNotifications;
-                        if(golfie) { _fun00018_ip = 169; continue _fun00017 }
+                        if(golfie) { _fun00020_ip = 169; continue _fun00019 }
  166:
                         golfie = tangon;
  169:
@@ -622,7 +801,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = _closure1_slot9;
                         zuuluu = zuuluu.DCDNotificationManager;
                         zuuluu = zuuluu.setShowFullscreenCallUI;
-                        if(!(report != zuuluu)) { _fun00018_ip = 215; continue _fun00017 }
+                        if(!(report != zuuluu)) { _fun00020_ip = 215; continue _fun00019 }
  194:
                         michal = _closure1_slot9;
                         zuuluu = michal.DCDNotificationManager;

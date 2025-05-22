@@ -61,6 +61,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['APP_LAUNCHER_ONBOARDING'] = entity;
     entity = 'VIRTUAL_CURRENCY_ONBOARDING';
     michal['VIRTUAL_CURRENCY_ONBOARDING'] = entity;
+    entity = 'ACCOUNT_NAME_ZONE';
+    michal['ACCOUNT_NAME_ZONE'] = entity;
     report = argPlu;
     entity = 0;
     oscard = report[entity];

@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, __, argPlu) {
             report = 0;
             foxtra = foxtra[report];
             report = '/';
-            if(!(report === foxtra)) { _fun00002_ip = 979; continue _fun00001 }
+            if(!(report === foxtra)) { _fun00002_ip = 977; continue _fun00001 }
  152:
             report = zuuluu;
             kiloes = _closure1_slot0;
@@ -268,31 +268,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, __, argPlu) {
             verify = offset.bind(yankee)(verify, romeon);
  646:
             oscard = oscard.isTracingRequests;
-            if(!oscard) { _fun00002_ip = 979; continue _fun00001 }
- 660:
+            if(!oscard) { _fun00002_ip = 977; continue _fun00001 }
+ 658:
             oscard = option.getCurrentUser;
             oscard = oscard.bind(option)();
             verify = _closure1_slot7;
             option = verify.generate;
             yankee = report == oscard;
             offset = undefined;
-            if(yankee) { _fun00002_ip = 693; continue _fun00001 }
- 688:
+            if(yankee) { _fun00002_ip = 691; continue _fun00001 }
+ 686:
             offset = oscard.id;
- 693:
+ 691:
             yankee = report != offset;
             oscard = '0';
-            if(!yankee) { _fun00002_ip = 709; continue _fun00001 }
- 706:
+            if(!yankee) { _fun00002_ip = 707; continue _fun00001 }
+ 704:
             oscard = offset;
- 709:
+ 707:
             offset = option.bind(verify)(oscard);
             golfie = offset;
             verify = zuuluu;
             option = verify.set;
             oscard = 'x-client-trace-id';
             oscard = option.bind(verify)(oscard, offset);
- 737: // try_start_0
+ 735: // try_start_0
             oscard = global;
             offset = oscard.URL;
             option = zuuluu;
@@ -306,8 +306,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, __, argPlu) {
             verify = _closure1_slot8;
             option = verify.test;
             option = option.bind(verify)(offset);
-            if(option) { _fun00002_ip = 975; continue _fun00001 }
- 799:
+            if(option) { _fun00002_ip = 973; continue _fun00001 }
+ 797:
             romeon = golfie;
             golfie = oscard.URLSearchParams;
             option = golfie.prototype;
@@ -341,15 +341,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, __, argPlu) {
             golfie = golfie.bind(oscard)(offset);
             oscard = 'https://datadog.discord.tools/apm/';
             oscard = option.bind(verify)(golfie, oscard);
-            if(!(report != oscard)) { _fun00002_ip = 975; continue _fun00001 }
- 966:
+            if(!(report != oscard)) { _fun00002_ip = 973; continue _fun00001 }
+ 964:
             report = oscard.toString;
             report = report.bind(oscard)();
- 975: // try_end0
-            _fun00002_ip = 979; continue _fun00001;
- 977: // catch_target0
+ 973: // try_end0
+            _fun00002_ip = 977; continue _fun00001;
+ 975: // catch_target0
             CatchBlockStart(arg_register=4);
- 979:
+ 977:
             report = _closure1_slot2;
             oscard = _closure1_slot3;
             tangon = 16;

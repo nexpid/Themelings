@@ -1,20 +1,20 @@
 // app/modules/main_tabs_v2/native/utils/useTabsVisible.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
-    report = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
     var _closure1_slot2 = golfie;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    option = entity.Object;
+    report = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
     tangon = golfie[entity];
     entity = undefined;
@@ -23,14 +23,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = tangon;
     tangon = 1;
     tangon = golfie[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
     tangon = tangon.DM_WIDTH;
-    var _closure1_slot5 = tangon;
-    tangon = 3;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
     tangon = golfie[tangon];
     option = oscard.bind(entity)(tangon);
     report = option.create;
@@ -41,8 +37,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     tangon = report.bind(option)(tangon);
-    var _closure1_slot6 = tangon;
-    report = 11;
+    var _closure1_slot5 = tangon;
+    report = 10;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -52,48 +48,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: useTabsVisible
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot1;
             oscard = _closure1_slot2;
-            entity = 4;
+            entity = 3;
             entity = oscard[entity];
             report = undefined;
-            entity = zuuluu.bind(report)(entity);
+            entity = tangon.bind(report)(entity);
             entity = entity.bind(report)();
             zuuluu = entity.isChatBesideChannelList;
-            tangon = _closure1_slot0;
-            entity = 5;
+            entity = 4;
             entity = oscard[entity];
-            golfie = tangon.bind(report)(entity);
-            oscard = golfie.useStateFromStores;
-            entity = _closure1_slot4;
-            tangon = new Array(1);
-            tangon[0] = entity;
-            entity = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                    entity = _closure1_slot4;
-                    entity = entity.keyboardOpen;
-                    if(!entity) { _fun00004_ip = 47; continue _fun00003 }
- 16:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
-                    michal = 6;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    michal = zuuluu.isAndroid;
-                    entity = michal.bind(zuuluu)();
- 47:
-                    return entity;
-                }
-            };
-            entity = oscard.bind(golfie)(tangon, entity);
+            entity = tangon.bind(report)(entity);
+            entity = entity.bind(report)();
             entity = !entity;
-            if(!entity) { _fun00002_ip = 138; continue _fun00001 }
+            if(entity) { _fun00002_ip = 89; continue _fun00001 }
+ 57:
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            tangon = 5;
+            tangon = golfie[tangon];
+            oscard = oscard.bind(report)(tangon);
+            tangon = oscard.isAndroid;
+            tangon = tangon.bind(oscard)();
+            entity = !tangon;
  89:
+            if(!entity) { _fun00002_ip = 141; continue _fun00001 }
+ 92:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
-            michal = 7;
+            michal = 6;
             michal = oscard[michal];
             report = tangon.bind(report)(michal);
             tangon = report.coerceGuildsRoute;
@@ -101,41 +84,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(report)(michal);
             michal = null;
             michal = michal == tangon;
-            if(!michal) { _fun00002_ip = 135; continue _fun00001 }
- 132:
-            michal = zuuluu;
+            if(!michal) { _fun00002_ip = 138; continue _fun00001 }
  135:
-            entity = !michal;
+            michal = zuuluu;
  138:
+            entity = !michal;
+ 141:
             return entity;
         }
     };
     zuuluu['useTabsVisible'] = tangon;
     tangon = function(argFoo) { // Original name: setTabsHeight
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argFoo;
             var _closure2_slot0 = zuuluu;
             michal = 0;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 58; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 58; continue _fun00003 }
  15:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            michal = 8;
+            michal = 7;
             zuuluu = zuuluu[michal];
             michal = undefined;
             zuuluu = tangon.bind(michal)(zuuluu);
             michal = zuuluu.batchUpdates;
             entity = function() {
-                zuuluu = _closure1_slot6;
+                zuuluu = _closure1_slot5;
                 michal = zuuluu.setState;
                 entity = function(argFoo) {
-                    _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = argFoo;
                         tangon = _closure2_slot0;
                         michal = entity.tabsHeight;
-                        if(!(tangon !== michal)) { _fun00008_ip = 34; continue _fun00007 }
+                        if(!(tangon !== michal)) { _fun00006_ip = 34; continue _fun00005 }
  20:
                         michal = {};
                         zuuluu = _closure2_slot0;
@@ -157,22 +140,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['setTabsHeight'] = tangon;
     tangon = function() { // Original name: useMainTabsHeight
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = arguments[0];
             zuuluu = undefined;
-            if(!(michal === zuuluu)) { _fun00010_ip = 25; continue _fun00009 }
+            if(!(michal === zuuluu)) { _fun00008_ip = 25; continue _fun00007 }
  11:
             michal = {'enabled': true, 'ignoreQuestDock': false};
  25:
             tangon = michal.enabled;
-            if(!(tangon === zuuluu)) { _fun00010_ip = 36; continue _fun00009 }
+            if(!(tangon === zuuluu)) { _fun00008_ip = 36; continue _fun00007 }
  34:
             tangon = true;
  36:
             var _closure2_slot0 = tangon;
             michal = michal.ignoreQuestDock;
-            if(!(michal === zuuluu)) { _fun00010_ip = 52; continue _fun00009 }
+            if(!(michal === zuuluu)) { _fun00008_ip = 52; continue _fun00007 }
  50:
             michal = false;
  52:
@@ -180,19 +163,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot2 = zuuluu;
             report = _closure1_slot0;
             oscard = _closure1_slot2;
-            tangon = 9;
+            tangon = 8;
             tangon = oscard[tangon];
             report = report.bind(zuuluu)(tangon);
             tangon = report.useMobileQuestDockHeight;
             tangon = tangon.bind(report)();
             _closure2_slot2 = tangon;
-            michal = _closure1_slot6;
+            michal = _closure1_slot5;
             entity = function(argFoo) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     michal = _closure2_slot0;
                     entity = 0;
-                    if(!michal) { _fun00012_ip = 56; continue _fun00011 }
+                    if(!michal) { _fun00010_ip = 56; continue _fun00009 }
  12:
                     tangon = _closure1_slot3;
                     zuuluu = tangon.roundToNearestPixel;
@@ -200,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.tabsHeight;
                     golfie = _closure2_slot1;
                     report = 0;
-                    if(golfie) { _fun00012_ip = 47; continue _fun00011 }
+                    if(golfie) { _fun00010_ip = 47; continue _fun00009 }
  43:
                     report = _closure2_slot2;
  47:
@@ -216,24 +199,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['useMainTabsHeight'] = tangon;
     michal = function() { // Original name: useMainTabsWidth
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
-            entity = 10;
+            entity = 9;
             entity = oscard[entity];
             tangon = undefined;
             entity = report.bind(tangon)(entity);
             zuuluu = entity.bind(tangon)();
-            entity = 4;
+            entity = 3;
             entity = oscard[entity];
             entity = report.bind(tangon)(entity);
             entity = entity.bind(tangon)();
             tangon = entity.isChatBesideChannelList;
             entity = '100%';
-            if(!tangon) { _fun00014_ip = 68; continue _fun00013 }
+            if(!tangon) { _fun00012_ip = 68; continue _fun00011 }
  60:
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             entity = michal + zuuluu;
  68:
             return entity;

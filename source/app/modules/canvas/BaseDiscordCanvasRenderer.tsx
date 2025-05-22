@@ -507,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal = report.done;
                 tangon = 3;
                 oscard = report;
-                if(michal) { _fun00014_ip = 132; continue _fun00013 }
+                if(michal) { _fun00014_ip = 134; continue _fun00013 }
  50:
                 result = oscard.value;
                 michal = option.drawRoundedImage;
@@ -523,17 +523,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 report = foxtra.bind(zuuluu)(report);
                 report = report.DrawResultStatus;
                 report = report.Failure;
-                if(!(michal === report)) { _fun00014_ip = 130; continue _fun00013 }
- 113:
+                if(!(michal === report)) { _fun00014_ip = 132; continue _fun00013 }
+ 115:
                 foxtra = golfie.bind(zuuluu)();
                 report = foxtra.done;
                 oscard = foxtra;
-                if(report) { _fun00014_ip = 132; continue _fun00013 }
- 128:
-                _fun00014_ip = 50; continue _fun00013;
+                if(report) { _fun00014_ip = 134; continue _fun00013 }
  130:
-                return michal;
+                _fun00014_ip = 50; continue _fun00013;
  132:
+                return michal;
+ 134:
                 michal = _closure1_slot0;
                 entity = _closure1_slot2;
                 entity = entity[tangon];

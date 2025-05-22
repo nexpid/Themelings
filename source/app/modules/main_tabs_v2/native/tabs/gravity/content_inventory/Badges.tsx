@@ -426,7 +426,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.isEntryNew;
             michal = entity.bind(michal)(zuuluu);
             entity = null;
-            if(!michal) { _fun00008_ip = 183; continue _fun00007 }
+            if(!michal) { _fun00008_ip = 185; continue _fun00007 }
  53:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot13;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.STATUS_POSITIVE;
             michal['iconColor'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 183:
+ 185:
             return entity;
         }
     };
@@ -478,12 +478,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             michal = zuuluu == romeon;
             entity = null;
-            if(michal) { _fun00010_ip = 212; continue _fun00009 }
+            if(michal) { _fun00010_ip = 214; continue _fun00009 }
  59:
             michal = 2;
             michal = romeon < michal;
             entity = null;
-            if(michal) { _fun00010_ip = 212; continue _fun00009 }
+            if(michal) { _fun00010_ip = 214; continue _fun00009 }
  74:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot13;
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.CONTENT_INVENTORY_OVERLAY_TEXT_SECONDARY;
             michal['iconColor'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 212:
+ 214:
             return entity;
         }
     };

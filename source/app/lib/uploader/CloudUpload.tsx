@@ -1510,7 +1510,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     oscard = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 1660; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 1658; continue _fun00029 }
  15:
                     var _closure4_slot0 = oscard;
                     golfie = undefined;
@@ -1534,7 +1534,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = oscard.status;
                     michal = _closure1_slot17;
                     michal = michal.COMPLETED;
-                    if(!(zuuluu !== michal)) { _fun00030_ip = 1587; continue _fun00029 }
+                    if(!(zuuluu !== michal)) { _fun00030_ip = 1585; continue _fun00029 }
  92:
                     zuuluu = oscard.setStatus;
                     michal = _closure1_slot17;
@@ -1558,7 +1558,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  174:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00030_ip = 1657; continue _fun00029 }
+                    if(zuuluu) { _fun00030_ip = 1655; continue _fun00029 }
  183:
                     romeon = oscard.status;
                     zuuluu = _closure1_slot17;
@@ -1568,7 +1568,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = oscard.handleComplete;
                     zuuluu = oscard.id;
                     zuuluu = romeon.bind(oscard)(zuuluu);
-                    _fun00030_ip = 1587; continue _fun00029;
+                    _fun00030_ip = 1585; continue _fun00029;
  223:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
@@ -1583,7 +1583,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  263:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=11);
-                    if(romeon) { _fun00030_ip = 1654; continue _fun00029 }
+                    if(romeon) { _fun00030_ip = 1652; continue _fun00029 }
  272:
                     _closure4_slot2 = zuuluu;
                     backup = _closure1_slot0;
@@ -1598,15 +1598,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _closure4_slot3 = papara;
                     romeon = zuuluu.filename;
                     backup = null;
-                    if(!(backup != romeon)) { _fun00030_ip = 1590; continue _fun00029 }
+                    if(!(backup != romeon)) { _fun00030_ip = 1588; continue _fun00029 }
  337:
                     sequen = zuuluu.filename;
                     romeon = '';
-                    if(!(romeon !== sequen)) { _fun00030_ip = 1590; continue _fun00029 }
+                    if(!(romeon !== sequen)) { _fun00030_ip = 1588; continue _fun00029 }
  354:
                     romeon = oscard.currentSize;
                     sequen = 0;
-                    if(!(sequen !== romeon)) { _fun00030_ip = 1590; continue _fun00029 }
+                    if(!(sequen !== romeon)) { _fun00030_ip = 1588; continue _fun00029 }
  369:
                     romeon = oscard.currentSize;
                     cntext = backup != romeon;
@@ -1618,20 +1618,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = papara.getMaxFileSize;
                     romeon = oscard.channelId;
                     romeon = cntext.bind(papara)(romeon);
-                    if(!(!(config > romeon))) { _fun00030_ip = 1566; continue _fun00029 }
+                    if(!(!(config > romeon))) { _fun00030_ip = 1564; continue _fun00029 }
  410:
                     cntext = _closure1_slot11;
                     config = cntext.get;
                     romeon = 'upload_fail_50';
                     romeon = config.bind(cntext)(romeon);
-                    if(!romeon) { _fun00030_ip = 466; continue _fun00029 }
- 433:
+                    if(!romeon) { _fun00030_ip = 464; continue _fun00029 }
+ 431:
                     config = report.Math;
                     romeon = config.random;
                     config = romeon.bind(config)();
                     romeon = 0.5;
-                    if(!(!(config < romeon))) { _fun00030_ip = 1541; continue _fun00029 }
- 466:
+                    if(!(!(config < romeon))) { _fun00030_ip = 1539; continue _fun00029 }
+ 464:
                     config = _closure1_slot1;
                     cntext = _closure1_slot2;
                     romeon = 22;
@@ -1649,8 +1649,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _closure4_slot4 = romeon;
                     kiloes = null;
                     romeon = romeon.enabled;
-                    if(!romeon) { _fun00030_ip = 566; continue _fun00029 }
- 534:
+                    if(!romeon) { _fun00030_ip = 564; continue _fun00029 }
+ 532:
                     papara = oscard.trackTime;
                     cntext = _closure1_slot4;
                     romeon = function* () {
@@ -1685,7 +1685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = cntext.bind(golfie)(romeon);
                     romeon = 'hashTimeMs';
                     kiloes = papara.bind(oscard)(romeon, cntext);
- 566: // try_start_0
+ 564: // try_start_0
                     papara = _closure1_slot16;
                     cntext = papara.log;
                     sierra = oscard.id;
@@ -1752,13 +1752,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = cntext.bind(golfie)(romeon);
                     romeon = 'getUploadUrlTimeMs';
                     romeon = papara.bind(oscard)(romeon, cntext);
-                    SaveGenerator(address=643);
- 641:
+                    SaveGenerator(address=641);
+ 639:
                     return romeon;
- 643:
+ 641:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=26);
-                    if(cntext) { _fun00030_ip = 1329; continue _fun00029 }
- 652:
+                    if(cntext) { _fun00030_ip = 1327; continue _fun00029 }
+ 650:
                     papara = oscard.setResponseUrl;
                     cntext = romeon.body;
                     cntext = cntext.attachments;
@@ -1771,24 +1771,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = cntext[sequen];
                     cntext = cntext.upload_filename;
                     cntext = papara.bind(oscard)(cntext);
- 724: // try_end0
+ 722: // try_end0
                     cntext = kiloes;
-                    if(!(backup == cntext)) { _fun00030_ip = 733; continue _fun00029 }
+                    if(!(backup == cntext)) { _fun00030_ip = 731; continue _fun00029 }
+ 729:
+                    _fun00030_ip = 757; continue _fun00029;
  731:
-                    _fun00030_ip = 759; continue _fun00029;
+                    SaveGenerator(address=735);
  733:
-                    SaveGenerator(address=737);
- 735:
                     return kiloes;
- 737:
+ 735:
                     ResumeGenerator(result_out_reg=14, return_bool_out_reg=26);
-                    if(cntext) { _fun00030_ip = 1326; continue _fun00029 }
- 746:
+                    if(cntext) { _fun00030_ip = 1324; continue _fun00029 }
+ 744:
                     record = kiloes;
-                    if(!(backup != kiloes)) { _fun00030_ip = 759; continue _fun00029 }
- 753:
+                    if(!(backup != kiloes)) { _fun00030_ip = 757; continue _fun00029 }
+ 751:
                     oscard['contentHash'] = record;
- 759: // try_start_1
+ 757: // try_start_1
                     cntext = _closure1_slot1;
                     papara = _closure1_slot2;
                     record = 24;
@@ -1803,11 +1803,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = config;
                     _closure4_slot5 = config;
                     config = config.enabled;
-                    if(!config) { _fun00030_ip = 832; continue _fun00029 }
- 819:
+                    if(!config) { _fun00030_ip = 830; continue _fun00029 }
+ 817:
                     output = output.chunkSize;
-                    if(!(!(output > sequen))) { _fun00030_ip = 1130; continue _fun00029 }
- 832:
+                    if(!(!(output > sequen))) { _fun00030_ip = 1128; continue _fun00029 }
+ 830:
                     output = {};
                     sequen = oscard.contentHash;
                     output['md5Hash'] = sequen;
@@ -1845,46 +1845,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sequen = sequen.bind(golfie)(output);
                     output = 'uploadTimeMs';
                     output = config.bind(oscard)(output, sequen);
-                    SaveGenerator(address=885);
- 883:
+                    SaveGenerator(address=883);
+ 881:
                     return output;
- 885:
+ 883:
                     ResumeGenerator(result_out_reg=16, return_bool_out_reg=23);
-                    if(sequen) { _fun00030_ip = 1127; continue _fun00029 }
- 894:
+                    if(sequen) { _fun00030_ip = 1125; continue _fun00029 }
+ 892:
                     result = output;
                     sequen = update;
                     sequen = sequen.enabled;
-                    if(!sequen) { _fun00030_ip = 1175; continue _fun00029 }
- 911:
+                    if(!sequen) { _fun00030_ip = 1173; continue _fun00029 }
+ 909:
                     source = false;
                     sequen = oscard.getEtagFromResponse;
                     vacuum = result;
                     vacuum = sequen.bind(oscard)(vacuum);
                     ctrled = vacuum;
-                    if(!(backup != vacuum)) { _fun00030_ip = 955; continue _fun00029 }
- 936:
+                    if(!(backup != vacuum)) { _fun00030_ip = 953; continue _fun00029 }
+ 934:
                     vacuum = ctrled;
                     oscard['etag'] = vacuum;
                     ctrled = oscard.contentHash;
                     source = vacuum === ctrled;
- 955:
+ 953:
                     ctrled = oscard.uploadAnalytics;
                     ctrled['validUploadHash'] = source;
-                    if(source) { _fun00030_ip = 1175; continue _fun00029 }
- 973:
+                    if(source) { _fun00030_ip = 1173; continue _fun00029 }
+ 971:
                     update = update.enforced;
-                    if(!update) { _fun00030_ip = 1175; continue _fun00029 }
- 985:
+                    if(!update) { _fun00030_ip = 1173; continue _fun00029 }
+ 983:
                     update = oscard.filename;
                     echoed = update;
-                    if(!(backup == update)) { _fun00030_ip = 1005; continue _fun00029 }
- 998:
+                    if(!(backup == update)) { _fun00030_ip = 1003; continue _fun00029 }
+ 996:
                     config = oscard.id;
-                    _fun00030_ip = 1008; continue _fun00029;
- 1005:
+                    _fun00030_ip = 1006; continue _fun00029;
+ 1003:
                     config = echoed;
- 1008:
+ 1006:
                     equals = oscard.etag;
                     limora = oscard.contentHash;
                     echoed = report.HermesInternal;
@@ -1908,12 +1908,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = _closure1_slot14;
                     echoed = echoed.INVALID_FILE_ASSET;
                     echoed = update.bind(oscard)(echoed);
- 1122: // try_end1
+ 1120: // try_end1
                     echoed = undefined;
                     return echoed;
- 1127:
+ 1125:
                     return output;
- 1130: // try_start_2
+ 1128: // try_start_2
                     update = oscard.trackTime;
                     echoed = _closure1_slot4;
                     output = function* () {
@@ -1948,32 +1948,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = echoed.bind(golfie)(output);
                     output = 'uploadTimeMs';
                     output = update.bind(oscard)(output, echoed);
-                    SaveGenerator(address=1166);
- 1164:
+                    SaveGenerator(address=1164);
+ 1162:
                     return output;
- 1166:
+ 1164:
                     ResumeGenerator(result_out_reg=16, return_bool_out_reg=18);
-                    if(echoed) { _fun00030_ip = 1212; continue _fun00029 }
- 1172:
+                    if(echoed) { _fun00030_ip = 1210; continue _fun00029 }
+ 1170:
                     result = output;
- 1175:
+ 1173:
                     update = oscard.trackUploadFinished;
                     echoed = _closure1_slot17;
                     echoed = echoed.COMPLETED;
                     echoed = update.bind(oscard)(echoed);
                     echoed = oscard.handleComplete;
                     result = echoed.bind(oscard)(result);
- 1207: // try_end2
-                    _fun00030_ip = 1587; continue _fun00029;
- 1212:
+ 1205: // try_end2
+                    _fun00030_ip = 1585; continue _fun00029;
+ 1210:
                     return output;
- 1215: // catch_target1 // catch_target2
+ 1213: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=15);
                     result = oscard.status;
                     output = _closure1_slot17;
                     output = output.CANCELED;
-                    if(!(result !== output)) { _fun00030_ip = 1310; continue _fun00029 }
- 1236:
+                    if(!(result !== output)) { _fun00030_ip = 1308; continue _fun00029 }
+ 1234:
                     update = _closure1_slot16;
                     echoed = update.info;
                     result = sizing;
@@ -1987,59 +1987,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = echoed.bind(update)(output);
                     output = oscard.handleError;
                     output = output.bind(oscard)(result);
-                    _fun00030_ip = 1587; continue _fun00029;
- 1310:
+                    _fun00030_ip = 1585; continue _fun00029;
+ 1308:
                     output = oscard.handleComplete;
                     sizing = output.bind(oscard)(sizing);
-                    _fun00030_ip = 1587; continue _fun00029;
- 1326:
+                    _fun00030_ip = 1585; continue _fun00029;
+ 1324:
                     return kiloes;
- 1329:
+ 1327:
                     return romeon;
- 1332: // catch_target0
+ 1330: // catch_target0
                     CatchBlockStart(arg_register=11);
                     offset = romeon;
                     kiloes = backup == romeon;
                     romeon = undefined;
-                    if(kiloes) { _fun00030_ip = 1371; continue _fun00029 }
- 1346:
+                    if(kiloes) { _fun00030_ip = 1369; continue _fun00029 }
+ 1344:
                     kiloes = offset;
                     kiloes = kiloes.body;
                     foxtra = kiloes;
                     kiloes = backup == kiloes;
                     romeon = undefined;
-                    if(kiloes) { _fun00030_ip = 1371; continue _fun00029 }
- 1366:
+                    if(kiloes) { _fun00030_ip = 1369; continue _fun00029 }
+ 1364:
                     romeon = foxtra.code;
- 1371:
+ 1369:
                     yankee = romeon;
-                    if(!(backup == romeon)) { _fun00030_ip = 1388; continue _fun00029 }
- 1378:
+                    if(!(backup == romeon)) { _fun00030_ip = 1386; continue _fun00029 }
+ 1376:
                     romeon = offset;
                     romeon = romeon.status;
-                    _fun00030_ip = 1391; continue _fun00029;
- 1388:
+                    _fun00030_ip = 1389; continue _fun00029;
+ 1386:
                     romeon = yankee;
- 1391:
+ 1389:
                     verify = romeon;
                     yankee = _closure1_slot14;
                     yankee = yankee.ENTITY_TOO_LARGE;
-                    if(!(romeon !== yankee)) { _fun00030_ip = 1525; continue _fun00029 }
- 1408:
+                    if(!(romeon !== yankee)) { _fun00030_ip = 1523; continue _fun00029 }
+ 1406:
                     foxtra = _closure1_slot16;
                     romeon = foxtra.error;
                     yankee = verify;
-                    if(!(backup == yankee)) { _fun00030_ip = 1451; continue _fun00029 }
- 1424:
+                    if(!(backup == yankee)) { _fun00030_ip = 1449; continue _fun00029 }
+ 1422:
                     kiloes = report.JSON;
                     backup = kiloes.stringify;
                     yankee = offset;
                     yankee = yankee.body;
                     output = backup.bind(kiloes)(yankee);
-                    _fun00030_ip = 1454; continue _fun00029;
- 1451:
+                    _fun00030_ip = 1452; continue _fun00029;
+ 1449:
                     output = verify;
- 1454:
+ 1452:
                     sizing = oscard.id;
                     yankee = report.HermesInternal;
                     kiloes = yankee.concat;
@@ -2054,12 +2054,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = romeon.bind(golfie)(yankee);
                     yankee = romeon.captureException;
                     offset = yankee.bind(romeon)(offset);
- 1525:
+ 1523:
                     offset = oscard.handleError;
                     verify = offset.bind(oscard)(verify);
                     verify = undefined;
                     return verify;
- 1541:
+ 1539:
                     offset = report.setTimeout;
                     verify = function() {
                         zuuluu = _closure4_slot0;
@@ -2071,15 +2071,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     option = 1000;
                     option = offset.bind(golfie)(verify, option);
-                    _fun00030_ip = 1587; continue _fun00029;
- 1566:
+                    _fun00030_ip = 1585; continue _fun00029;
+ 1564:
                     verify = oscard.handleError;
                     option = _closure1_slot14;
                     option = option.ENTITY_TOO_LARGE;
                     option = verify.bind(oscard)(option);
- 1587:
+ 1585:
                     return golfie;
- 1590:
+ 1588:
                     verify = _closure1_slot16;
                     option = verify.error;
                     golfie = report.JSON;
@@ -2093,11 +2093,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     tangon = undefined;
                     return tangon;
- 1654:
+ 1652:
                     return zuuluu;
- 1657:
+ 1655:
                     return michal;
- 1660:
+ 1658:
                     return entity;
                 }
             };

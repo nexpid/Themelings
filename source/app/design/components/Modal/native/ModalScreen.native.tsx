@@ -4,7 +4,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
-    var _closure1_slot0 = report;
+    var _closure1_slot0 = yankee;
     var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
@@ -21,7 +21,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.bind(entity)(golfie);
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = yankee.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
     var _closure1_slot2 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
@@ -43,7 +44,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['container'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot4 = tangon;
-    tangon = 7;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -57,42 +58,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = entity.children;
             michal = _closure1_slot4;
             tangon = undefined;
-            oscard = michal.bind(tangon)();
-            michal = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = option[zuuluu];
-            romeon = michal.bind(tangon)(zuuluu);
-            yankee = romeon.useStateFromStores;
-            zuuluu = _closure1_slot2;
-            offset = new Array(1);
-            offset[0] = zuuluu;
-            golfie = function() {
-                entity = _closure1_slot2;
-                entity = entity.keyboardOpen;
-                return entity;
-            };
-            zuuluu = new Array(0);
-            golfie = yankee.bind(romeon)(offset, golfie, zuuluu);
+            offset = michal.bind(tangon)();
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 5;
+            michal = oscard[michal];
+            michal = zuuluu.bind(tangon)(michal);
+            michal = michal.bind(tangon)();
+            option = michal.insets;
             zuuluu = _closure1_slot3;
-            entity = 6;
-            entity = option[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.SafeAreaPaddingView;
+            michal = _closure1_slot2;
             entity = {};
-            golfie = !golfie;
-            entity['bottom'] = golfie;
-            golfie = oscard.container;
+            golfie = offset.container;
             oscard = new Array(2);
             oscard[0] = golfie;
-            golfie = null;
-            golfie = golfie != verify;
-            if(!golfie) { _fun00002_ip = 145; continue _fun00001 }
- 136:
-            option = {};
-            option['backgroundColor'] = verify;
-            golfie = option;
- 145:
+            golfie = {};
+            yankee = null;
+            if(!(yankee == verify)) { _fun00002_ip = 97; continue _fun00001 }
+ 87:
+            offset = offset.container;
+            verify = offset.backgroundColor;
+ 97:
+            golfie['backgroundColor'] = verify;
+            verify = option.left;
+            golfie['paddingLeft'] = verify;
+            verify = option.right;
+            golfie['paddingRight'] = verify;
+            option = option.bottom;
+            golfie['paddingBottom'] = option;
             oscard[1] = golfie;
             entity['style'] = oscard;
             entity['children'] = report;

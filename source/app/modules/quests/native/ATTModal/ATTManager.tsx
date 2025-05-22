@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot13 = michal;
+            _closure1_slot12 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot12 = entity;
     entity = function() { // Original name: _getAttEligibilityCheckResult
         report = undefined;
         entity = undefined;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = {'currentUserMissing': false, 'iosVersionRequirementFailed': false, 'accountAgeRequirementFailed': false};
                     option = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    verify = 10;
+                    verify = 9;
                     golfie = zuuluu[verify];
                     zuuluu = undefined;
                     golfie = option.bind(zuuluu)(golfie);
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  85:
                     option = _closure1_slot1;
                     offset = _closure1_slot2;
-                    golfie = 11;
+                    golfie = 10;
                     golfie = offset[golfie];
                     option = option.bind(zuuluu)(golfie);
                     golfie = option.age;
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = 14.5;
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    michal = 9;
+                    michal = 8;
                     michal = offset[michal];
                     option = option.bind(zuuluu)(michal);
                     michal = option.isIOS;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot14 = tangon;
+        _closure1_slot13 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -271,12 +271,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot12 = tangon;
-    tangon = 16;
+    tangon = 14;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -298,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 option = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot5;
-                entity = _closure1_slot13;
+                entity = _closure1_slot12;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00006_ip = 84; continue _fun00005 }
  71:
@@ -336,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
-                entity = 9;
+                entity = 8;
                 tangon = tangon[entity];
                 entity = undefined;
                 report = report.bind(entity)(tangon);
@@ -346,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  40:
                 report = _closure1_slot1;
                 oscard = _closure1_slot2;
-                tangon = 12;
+                tangon = 11;
                 tangon = oscard[tangon];
                 golfie = report.bind(entity)(tangon);
                 oscard = golfie.getCurrentConfig;
@@ -362,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  101: // try_start_0
                 tangon = function() { // Original name: getAttEligibilityCheckResult
                     entity = undefined;
-                    tangon = _closure1_slot14;
+                    tangon = _closure1_slot13;
                     zuuluu = tangon.apply;
                     entity = arguments;
                     michal = entity;
@@ -370,72 +365,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity, michal);
                     return entity;
                 };
-                zuuluu = function(argFoo, argBar) {
+                zuuluu = function(argFoo) {
                     _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                        zuuluu = argFoo;
-                        verify = argBar;
-                        report = _closure1_slot1;
-                        yankee = _closure1_slot2;
-                        entity = 13;
-                        tangon = yankee[entity];
-                        entity = undefined;
-                        golfie = report.bind(entity)(tangon);
-                        oscard = golfie.track;
-                        tangon = _closure1_slot12;
-                        report = tangon.ATT_ELIGIBILITY_CHECKED;
-                        tangon = {};
-                        tangon['eligible'] = zuuluu;
-                        option = verify.currentUserMissing;
-                        tangon['current_user_missing'] = option;
-                        option = verify.iosVersionRequirementFailed;
-                        tangon['ios_version_requirement_failed'] = option;
-                        option = verify.accountAgeRequirementFailed;
-                        tangon['account_age_requirement_failed'] = option;
-                        foxtra = verify.attTrackingStatus;
-                        offset = _closure1_slot0;
-                        option = 10;
-                        romeon = yankee[option];
-                        romeon = offset.bind(entity)(romeon);
-                        romeon = romeon.ATTTrackingStatus;
-                        romeon = romeon.AUTHORIZED;
-                        romeon = foxtra === romeon;
-                        tangon['att_status_authorized'] = romeon;
-                        foxtra = verify.attTrackingStatus;
-                        romeon = yankee[option];
-                        romeon = offset.bind(entity)(romeon);
-                        romeon = romeon.ATTTrackingStatus;
-                        romeon = romeon.DENIED;
-                        romeon = foxtra === romeon;
-                        tangon['att_status_denied'] = romeon;
-                        foxtra = verify.attTrackingStatus;
-                        romeon = yankee[option];
-                        romeon = offset.bind(entity)(romeon);
-                        romeon = romeon.ATTTrackingStatus;
-                        romeon = romeon.RESTRICTED;
-                        romeon = foxtra === romeon;
-                        tangon['att_status_restricted'] = romeon;
-                        verify = verify.attTrackingStatus;
-                        option = yankee[option];
-                        option = offset.bind(entity)(option);
-                        option = option.ATTTrackingStatus;
-                        option = option.NOT_DETERMINED;
-                        option = verify === option;
-                        tangon['att_status_not_determined'] = option;
-                        tangon = oscard.bind(golfie)(report, tangon);
-                        if(!zuuluu) { _fun00010_ip = 303; continue _fun00009 }
- 260:
+                        entity = argFoo;
+                        if(!entity) { _fun00010_ip = 54; continue _fun00009 }
+ 6:
                         zuuluu = _closure1_slot1;
-                        tangon = _closure1_slot2;
-                        michal = 14;
-                        michal = tangon[michal];
-                        tangon = zuuluu.bind(entity)(michal);
-                        zuuluu = tangon.trackExposure;
-                        michal = {};
-                        report = 'ATT_MANAGER';
-                        michal['location'] = report;
-                        michal = zuuluu.bind(tangon)(michal);
- 303:
+                        michal = _closure1_slot2;
+                        entity = 12;
+                        michal = michal[entity];
+                        entity = undefined;
+                        zuuluu = zuuluu.bind(entity)(michal);
+                        michal = zuuluu.trackExposure;
+                        entity = {};
+                        tangon = 'ATT_MANAGER';
+                        entity['location'] = tangon;
+                        entity = michal.bind(zuuluu)(entity);
+ 54:
+                        entity = undefined;
                         return entity;
                     }
                 };
@@ -447,7 +395,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 CatchBlockStart(arg_register=3);
                 zuuluu = _closure1_slot1;
                 report = _closure1_slot2;
-                michal = 15;
+                michal = 13;
                 michal = report[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.captureException;
@@ -468,7 +416,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 17;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -26,5 +26,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = 'modules/user_settings/UserSettingsVoiceAndVideoConstants.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['InputProfile'] = michal;
+    michal = 150;
+    zuuluu['DEFAULT_PTT_LATCH_TIME'] = michal;
+    michal = 500;
+    zuuluu['MAX_PTT_LATCH_TIME'] = michal;
+    michal = [0, 100, 200, 300, 400, 500];
+    zuuluu['PTT_LATCH_TIMES'] = michal;
     return entity;
 })();

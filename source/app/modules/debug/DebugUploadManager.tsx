@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 1097; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 1099; continue _fun00003 }
  12:
                     zuuluu = argFoo;
                     michal = undefined;
@@ -500,17 +500,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['Content-Type'] = golfie;
                     zuuluu['headers'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=1035);
- 1033:
-                    return zuuluu;
+                    SaveGenerator(address=1037);
  1035:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 1043; continue _fun00003 }
- 1041: // try_end6
-                    _fun00004_ip = 1094; continue _fun00003;
- 1043:
                     return zuuluu;
- 1046: // catch_target4 // catch_target5 // catch_target6
+ 1037:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(tangon) { _fun00004_ip = 1045; continue _fun00003 }
+ 1043: // try_end6
+                    _fun00004_ip = 1096; continue _fun00003;
+ 1045:
+                    return zuuluu;
+ 1048: // catch_target4 // catch_target5 // catch_target6
                     CatchBlockStart(arg_register=2);
                     report = _closure1_slot8;
                     tangon = report.error;
@@ -521,9 +521,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = 'uploadAppLogFiles: upload app log files error ';
                     zuuluu = oscard.bind(zuuluu)(golfie);
                     zuuluu = tangon.bind(report)(zuuluu);
- 1094:
+ 1096:
                     return michal;
- 1097:
+ 1099:
                     return entity;
                 }
             };

@@ -531,14 +531,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             michal = argFoo;
             report = arguments[1];
-            backup = michal.backgroundGradientPresetId;
-            var _closure2_slot0 = backup;
+            kiloes = michal.backgroundGradientPresetId;
+            var _closure2_slot0 = kiloes;
+            backup = michal.customUserThemeSettings;
+            var _closure2_slot1 = backup;
             romeon = michal.theme;
-            var _closure2_slot1 = romeon;
+            var _closure2_slot2 = romeon;
             zuuluu = michal.useSystemTheme;
             oscard = undefined;
-            if(!(report === oscard)) { _fun00012_ip = 75; continue _fun00011 }
- 40:
+            if(!(report === oscard)) { _fun00012_ip = 85; continue _fun00011 }
+ 50:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;
@@ -546,22 +548,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(oscard)(michal);
             michal = michal.UserSettingsDelay;
             report = michal.INFREQUENT_USER_ACTION;
- 75:
+ 85:
             michal = 'system';
             foxtra = michal === romeon;
             tangon = _closure1_slot7;
-            if(foxtra) { _fun00012_ip = 101; continue _fun00011 }
- 93:
-            kiloes = tangon.OFF;
-            _fun00012_ip = 107; continue _fun00011;
- 101:
-            kiloes = tangon.ON;
- 107:
+            if(foxtra) { _fun00012_ip = 111; continue _fun00011 }
+ 103:
+            sizing = tangon.OFF;
+            _fun00012_ip = 117; continue _fun00011;
+ 111:
+            sizing = tangon.ON;
+ 117:
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00012_ip = 116; continue _fun00011 }
- 113:
-            kiloes = zuuluu;
- 116:
+            if(!(tangon != zuuluu)) { _fun00012_ip = 126; continue _fun00011 }
+ 123:
+            sizing = zuuluu;
+ 126:
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
             zuuluu = 8;
@@ -572,7 +574,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = 'UNSYNCED_USER_SETTINGS_UPDATE';
             option['type'] = yankee;
             yankee = {};
-            yankee['useSystemTheme'] = kiloes;
+            yankee['useSystemTheme'] = sizing;
             option['settings'] = yankee;
             option = verify.bind(offset)(option);
             zuuluu = golfie[zuuluu];
@@ -585,13 +587,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = {};
             offset = {};
             yankee = {};
-            yankee['backgroundGradientPresetId'] = backup;
+            yankee['backgroundGradientPresetId'] = kiloes;
+            yankee['customUserThemeSettings'] = backup;
             offset['clientThemeSettings'] = yankee;
             yankee = undefined;
-            if(foxtra) { _fun00012_ip = 218; continue _fun00011 }
- 215:
+            if(foxtra) { _fun00012_ip = 233; continue _fun00011 }
+ 230:
             yankee = romeon;
- 218:
+ 233:
             offset['theme'] = yankee;
             verify['settings'] = offset;
             option['appearance'] = verify;
@@ -601,10 +604,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.shouldSync;
             tangon = 'appearance';
             zuuluu = zuuluu.bind(golfie)(tangon);
-            if(zuuluu) { _fun00012_ip = 267; continue _fun00011 }
- 265:
+            if(zuuluu) { _fun00012_ip = 282; continue _fun00011 }
+ 280:
             return oscard;
- 267:
+ 282:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;
@@ -616,34 +619,57 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     zuuluu = argFoo;
-                    oscard = _closure1_slot8;
-                    tangon = _closure2_slot1;
+                    report = _closure1_slot8;
+                    tangon = _closure2_slot2;
                     entity = undefined;
-                    tangon = oscard.bind(entity)(tangon);
+                    tangon = report.bind(entity)(tangon);
                     zuuluu['theme'] = tangon;
-                    option = {};
-                    michal = _closure2_slot0;
-                    option['backgroundGradientPresetId'] = michal;
+                    oscard = {};
+                    tangon = _closure2_slot0;
+                    oscard['backgroundGradientPresetId'] = tangon;
+                    michal = _closure2_slot1;
+                    oscard['customUserThemeSettings'] = michal;
                     michal = {};
-                    oscard = option.backgroundGradientPresetId;
-                    tangon = null;
-                    oscard = tangon != oscard;
+                    tangon = oscard.backgroundGradientPresetId;
+                    report = null;
+                    option = report != tangon;
                     tangon = undefined;
-                    if(!oscard) { _fun00014_ip = 108; continue _fun00013 }
- 60:
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    report = 7;
-                    report = golfie[report];
-                    report = oscard.bind(entity)(report);
-                    golfie = report.UInt32Value;
-                    oscard = golfie.create;
-                    report = {};
-                    option = option.backgroundGradientPresetId;
-                    report['value'] = option;
-                    tangon = oscard.bind(golfie)(report);
- 108:
+                    if(!option) { _fun00014_ip = 117; continue _fun00013 }
+ 69:
+                    option = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    golfie = 7;
+                    golfie = verify[golfie];
+                    golfie = option.bind(entity)(golfie);
+                    verify = golfie.UInt32Value;
+                    option = verify.create;
+                    golfie = {};
+                    offset = oscard.backgroundGradientPresetId;
+                    golfie['value'] = offset;
+                    tangon = option.bind(verify)(golfie);
+ 117:
                     michal['backgroundGradientPresetId'] = tangon;
+                    tangon = oscard.customUserThemeSettings;
+                    report = report != tangon;
+                    tangon = undefined;
+                    if(!report) { _fun00014_ip = 208; continue _fun00013 }
+ 137:
+                    report = {};
+                    golfie = oscard.customUserThemeSettings;
+                    golfie = golfie.colors;
+                    report['colors'] = golfie;
+                    golfie = oscard.customUserThemeSettings;
+                    golfie = golfie.gradientColorStops;
+                    report['gradientColorStops'] = golfie;
+                    golfie = oscard.customUserThemeSettings;
+                    golfie = golfie.gradientAngle;
+                    report['gradientAngle'] = golfie;
+                    oscard = oscard.customUserThemeSettings;
+                    oscard = oscard.baseMix;
+                    report['baseMix'] = oscard;
+                    tangon = report;
+ 208:
+                    michal['customUserThemeSettings'] = tangon;
                     zuuluu['clientThemeSettings'] = michal;
                     return entity;
                 }

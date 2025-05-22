@@ -57,6 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = entity.reason;
             entity = undefined;
             var _closure2_slot3 = entity;
+            var _closure2_slot4 = entity;
             report = _closure1_slot2;
             oscard = _closure1_slot3;
             tangon = 11;
@@ -80,21 +81,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = golfie.length;
             tangon = 0;
             option = romeon;
-            if(!(report > tangon)) { _fun00004_ip = 160; continue _fun00003 }
- 130:
+            if(!(report > tangon)) { _fun00004_ip = 164; continue _fun00003 }
+ 134:
             tangon = global;
             tangon = tangon.HermesInternal;
             oscard = tangon.concat;
             report = '';
             tangon = ' + ';
             option = oscard.bind(report)(romeon, tangon, golfie);
- 160:
+ 164:
+            _closure2_slot3 = option;
             golfie = 'request_state';
-            if(!offset) { _fun00004_ip = 173; continue _fun00003 }
- 169:
+            if(!offset) { _fun00004_ip = 181; continue _fun00003 }
+ 177:
             golfie = 'paused';
- 173:
-            _closure2_slot3 = golfie;
+ 181:
+            _closure2_slot4 = golfie;
             report = _closure1_slot1;
             oscard = _closure1_slot3;
             tangon = 14;
@@ -105,10 +107,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.GATEWAY_CONNECT_SKIPPED;
             zuuluu = {};
             romeon = null;
-            if(!(romeon != yankee)) { _fun00004_ip = 223; continue _fun00003 }
- 220:
+            if(!(romeon != yankee)) { _fun00004_ip = 231; continue _fun00003 }
+ 228:
             offset = yankee;
- 223:
+ 231:
             zuuluu['actually_skipped'] = offset;
             zuuluu['client_app_state'] = verify;
             zuuluu['connect_reason'] = option;
@@ -149,8 +151,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = offset.getState;
                     verify = verify.bind(offset)();
                     michal['client_app_state'] = verify;
+                    verify = _closure2_slot4;
+                    michal['skip_context'] = verify;
                     golfie = _closure2_slot3;
-                    michal['skip_context'] = golfie;
+                    michal['original_connect_reason'] = golfie;
                     golfie = _closure1_slot2;
                     oscard = 12;
                     oscard = option[oscard];

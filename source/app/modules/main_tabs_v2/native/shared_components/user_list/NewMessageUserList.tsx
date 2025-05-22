@@ -912,15 +912,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu === michal;
                     report = entity.type;
                     michal = 'UserSearchItem';
-                    if(!(michal !== report)) { _fun00024_ip = 147; continue _fun00023 }
+                    if(!(michal !== report)) { _fun00024_ip = 149; continue _fun00023 }
  78:
                     report = entity.type;
                     michal = 'GroupDMChannelRecord';
-                    if(!(michal !== report)) { _fun00024_ip = 95; continue _fun00023 }
- 91:
+                    if(!(michal !== report)) { _fun00024_ip = 97; continue _fun00023 }
+ 93:
                     michal = undefined;
                     return michal;
- 95:
+ 97:
                     michal = {};
                     report = 'gdm';
                     michal['type'] = report;
@@ -935,7 +935,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['end'] = zuuluu;
                     michal['props'] = report;
                     return michal;
- 147:
+ 149:
                     entity = entity.data;
                     oscard = entity.type;
                     report = entity.user;
@@ -954,48 +954,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = oscard == yankee;
                     offset = undefined;
                     verify = undefined;
-                    if(romeon) { _fun00024_ip = 234; continue _fun00023 }
- 220:
+                    if(romeon) { _fun00024_ip = 236; continue _fun00023 }
+ 222:
                     romeon = report.username;
                     verify = undefined;
-                    if(!(romeon !== yankee)) { _fun00024_ip = 234; continue _fun00023 }
- 231:
+                    if(!(romeon !== yankee)) { _fun00024_ip = 236; continue _fun00023 }
+ 233:
                     verify = yankee;
- 234:
+ 236:
                     michal['nickname'] = verify;
                     verify = _closure2_slot2;
                     michal['onPress'] = verify;
                     verify = _closure2_slot1;
                     yankee = oscard == verify;
                     verify = undefined;
-                    if(yankee) { _fun00024_ip = 279; continue _fun00023 }
- 260:
+                    if(yankee) { _fun00024_ip = 281; continue _fun00023 }
+ 262:
                     foxtra = _closure2_slot1;
                     romeon = foxtra.includes;
                     yankee = report.id;
                     verify = romeon.bind(foxtra)(yankee);
- 279:
+ 281:
                     oscard = oscard != verify;
-                    if(!oscard) { _fun00024_ip = 289; continue _fun00023 }
- 286:
+                    if(!oscard) { _fun00024_ip = 291; continue _fun00023 }
+ 288:
                     oscard = verify;
- 289:
+ 291:
                     michal['disabled'] = oscard;
                     michal['selected'] = option;
                     romeon = _closure1_slot7;
                     yankee = romeon.isFriend;
                     verify = report.id;
                     verify = yankee.bind(romeon)(verify);
-                    if(!verify) { _fun00024_ip = 327; continue _fun00023 }
- 324:
-                    if(option) { _fun00024_ip = 333; continue _fun00023 }
- 327:
+                    if(!verify) { _fun00024_ip = 329; continue _fun00023 }
+ 326:
+                    if(option) { _fun00024_ip = 335; continue _fun00023 }
+ 329:
                     golfie = _closure2_slot4;
-                    _fun00024_ip = 343; continue _fun00023;
- 333:
+                    _fun00024_ip = 345; continue _fun00023;
+ 335:
                     option = _closure1_slot9;
                     golfie = option.TOGGLE;
- 343:
+ 345:
                     michal['mode'] = golfie;
                     verify = _closure1_slot10;
                     option = _closure1_slot0;

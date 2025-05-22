@@ -182,9 +182,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     update = update.sm;
     kiloes['borderRadius'] = update;
     verify['rewardImg'] = kiloes;
-    kiloes = {'display': 'flex', 'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'flex-end'};
+    kiloes = {'display': 'flex', 'flexDirection': 'row', 'flexWrap': 'wrap', 'justifyContent': 'space-between', 'alignItems': 'flex-end'};
     verify['heroFooterContainer'] = kiloes;
-    kiloes = {'flex': 1, 'display': 'flex', 'flexDirection': 'column', 'alignItems': 'flex-start'};
+    kiloes = {'display': 'flex', 'flexDirection': 'column', 'alignItems': 'flex-start'};
     verify['heroFooterLeftContainer'] = kiloes;
     kiloes = {};
     kiloes['display'] = echoed;

@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.ContentInventoryEntryType;
             michal = michal.LAUNCHED_ACTIVITY;
             zuuluu = undefined;
-            if(!(michal === report)) { _fun00004_ip = 2270; continue _fun00003 }
+            if(!(michal === report)) { _fun00004_ip = 2272; continue _fun00003 }
  252:
             oscard = _closure1_slot4;
             report = oscard.getApplication;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report;
  456:
             zuuluu = michal;
-            _fun00004_ip = 2270; continue _fun00003;
+            _fun00004_ip = 2272; continue _fun00003;
  464:
             michal = tangon.extra;
             michal = michal.entries;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report;
  781:
             zuuluu = michal;
-            _fun00004_ip = 2270; continue _fun00003;
+            _fun00004_ip = 2272; continue _fun00003;
  789:
             michal = tangon.extra;
             michal = michal.media;
@@ -467,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report;
  1237:
             zuuluu = michal;
-            _fun00004_ip = 2270; continue _fun00003;
+            _fun00004_ip = 2272; continue _fun00003;
  1245:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -589,7 +589,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report;
  1737:
             zuuluu = michal;
-            _fun00004_ip = 2270; continue _fun00003;
+            _fun00004_ip = 2272; continue _fun00003;
  1745:
             oscard = _closure1_slot4;
             report = oscard.getApplication;
@@ -599,7 +599,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = null;
             oscard = report == verify;
             michal = undefined;
-            if(oscard) { _fun00004_ip = 2267; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 2269; continue _fun00003 }
  1786:
             option = verify.getIconURL;
             oscard = _closure1_slot7;
@@ -614,7 +614,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.bind(entity)(verify);
             option = report == oscard;
             michal = undefined;
-            if(option) { _fun00004_ip = 2267; continue _fun00003 }
+            if(option) { _fun00004_ip = 2269; continue _fun00003 }
  1840:
             option = new Array(0);
             yankee = _closure1_slot0;
@@ -641,7 +641,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset['badgeUrl'] = kiloes;
             offset = foxtra.bind(entity)(tangon, backup, offset);
             offset = yankee.bind(option)(offset);
-            _fun00004_ip = 2231; continue _fun00003;
+            _fun00004_ip = 2233; continue _fun00003;
  1952:
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -651,7 +651,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = offset.bind(yankee)(tangon);
             report = report == foxtra;
             michal = undefined;
-            if(report) { _fun00004_ip = 2267; continue _fun00003 }
+            if(report) { _fun00004_ip = 2269; continue _fun00003 }
  1992:
             report = global;
             romeon = report.Math;
@@ -704,7 +704,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['badgeUrl'] = romeon;
             report['text'] = yankee;
             report = offset.bind(option)(report);
- 2231:
+ 2233:
             report = {};
             report['imageUrl'] = verify;
             verify = tangon.extra;
@@ -713,9 +713,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['subtitles'] = option;
             report['gradientColors'] = oscard;
             michal = report;
- 2267:
+ 2269:
             zuuluu = michal;
- 2270:
+ 2272:
             oscard = _closure1_slot6;
             report = oscard.getUser;
             michal = tangon.author_id;
@@ -723,8 +723,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = null;
             oscard = report == romeon;
             michal = undefined;
-            if(oscard) { _fun00004_ip = 2440; continue _fun00003 }
- 2305:
+            if(oscard) { _fun00004_ip = 2442; continue _fun00003 }
+ 2307:
             option = _closure1_slot1;
             offset = _closure1_slot2;
             oscard = 6;
@@ -746,23 +746,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(offset)(golfie);
             offset = report == verify;
             golfie = undefined;
-            if(offset) { _fun00004_ip = 2409; continue _fun00003 }
- 2403:
+            if(offset) { _fun00004_ip = 2411; continue _fun00003 }
+ 2405:
             golfie = verify.uri;
- 2409:
+ 2411:
             oscard['avatarUrl'] = golfie;
             oscard['userActionDescription'] = option;
             golfie = {};
             golfie['ariaDescription'] = option;
             oscard['userClickable'] = golfie;
             michal = oscard;
- 2440:
-            if(!(report != zuuluu)) { _fun00004_ip = 2448; continue _fun00003 }
- 2444:
-            if(!(report == michal)) { _fun00004_ip = 2450; continue _fun00003 }
- 2448:
-            return entity;
+ 2442:
+            if(!(report != zuuluu)) { _fun00004_ip = 2450; continue _fun00003 }
+ 2446:
+            if(!(report == michal)) { _fun00004_ip = 2452; continue _fun00003 }
  2450:
+            return entity;
+ 2452:
             entity = {};
             tangon = tangon.id;
             entity['contentId'] = tangon;

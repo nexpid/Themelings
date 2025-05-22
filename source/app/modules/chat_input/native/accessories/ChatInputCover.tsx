@@ -131,10 +131,10 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity.KeyboardTypes;
             tangon = entity.SYSTEM;
             entity = null;
-            if(!(golfie !== tangon)) { _fun00002_ip = 226; continue _fun00001 }
+            if(!(golfie !== tangon)) { _fun00002_ip = 222; continue _fun00001 }
  159:
             entity = null;
-            if(michal) { _fun00002_ip = 226; continue _fun00001 }
+            if(michal) { _fun00002_ip = 222; continue _fun00001 }
  164:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot4;
@@ -148,7 +148,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 226:
+ 222:
             return entity;
         }
     };

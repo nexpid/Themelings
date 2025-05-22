@@ -18,8 +18,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     option = verify.createExperiment;
     tangon = {'kind': 'user', 'id': '2024-06_content_entry_embed', 'label': 'Content Inventory Embed'};
     report = {};
-    offset = false;
-    report['enabled'] = offset;
+    report['enabled'] = romeon;
     tangon['defaultConfig'] = report;
     yankee = {'id': 1, 'label': 'Enabled'};
     report = 1;

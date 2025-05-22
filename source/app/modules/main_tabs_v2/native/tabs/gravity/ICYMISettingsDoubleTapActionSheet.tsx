@@ -89,8 +89,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['accessibilityLabel'] = yankee;
             offset = offset.doubleTapBehavior;
             yankee = null;
-            if(!(yankee == offset)) { _fun00002_ip = 265; continue _fun00001 }
- 233:
+            if(!(yankee == offset)) { _fun00002_ip = 261; continue _fun00001 }
+ 229:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
             yankee = 6;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = romeon.bind(tangon)(yankee);
             yankee = yankee.GravityICYMIDoubleTapBehavior;
             offset = yankee.DEFAULT;
- 265:
+ 261:
             report['defaultValue'] = offset;
             verify = function(argFoo) { // Original name: onChange
                 zuuluu = _closure1_slot1;

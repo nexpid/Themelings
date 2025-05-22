@@ -2690,6 +2690,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
                     if(zuuluu) { _fun00022_ip = 482; continue _fun00021 }
  18:
+                    backup = option;
                     golfie = michal;
                     var _closure4_slot0 = michal;
                     michal = argCor;
@@ -2699,7 +2700,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = undefined;
                     yankee = undefined;
                     tangon = undefined;
-                    backup = option;
                     zuuluu = _closure1_slot0;
                     verify = _closure1_slot3;
                     michal = 31;

@@ -24,7 +24,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
     golfie = golfie.VanillaExperiment;
-    option = new Array(8);
+    option = new Array(9);
     option[0] = golfie;
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
@@ -57,6 +57,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.VoiceMicButtonStateExperiment;
     option[7] = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.HideRTCButtonsExperiment;
+    option[8] = tangon;
     yankee = michal.VOICE_CALL;
     michal = {};
     tangon = 'voice call initiated';
@@ -68,7 +73,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     offset = michal;
     michal = new foxtra[verify](romeon, yankee, offset, verify);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

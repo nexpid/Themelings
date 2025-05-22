@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = tangon;
             if(!(offset != zuuluu)) { _fun00014_ip = 485; continue _fun00013 }
  389:
-            zuuluu = zuuluu.affinity;
+            zuuluu = zuuluu.communicationProbability;
             yankee = tangon;
             if(!(zuuluu > oscard)) { _fun00014_ip = 485; continue _fun00013 }
  402:
@@ -462,13 +462,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = 0;
                     if(!oscard) { _fun00016_ip = 56; continue _fun00015 }
  50:
-                    entity = report.affinity;
+                    entity = report.communicationProbability;
  56:
                     tangon = tangon != zuuluu;
                     michal = 0;
                     if(!tangon) { _fun00016_ip = 71; continue _fun00015 }
  65:
-                    michal = zuuluu.affinity;
+                    michal = zuuluu.communicationProbability;
  71:
                     entity = michal - entity;
                     return entity;

@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = undefined;
                         if(tangon) { _fun00002_ip = 38; continue _fun00001 }
  32:
-                        michal = zuuluu.affinity;
+                        michal = zuuluu.communicationProbability;
  38:
                         zuuluu = entity != michal;
                         entity = 0;

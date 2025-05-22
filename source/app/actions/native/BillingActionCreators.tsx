@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 549; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 580; continue _fun00009 }
  10:
                     report = undefined;
                     option = undefined;
@@ -362,7 +362,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  61:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00010_ip = 539; continue _fun00009 }
+                    if(golfie) { _fun00010_ip = 570; continue _fun00009 }
  70:
                     foxtra = michal;
                     yankee = _closure1_slot0;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = backup.v3;
                     golfie = golfie.bind(backup)(michal);
                     oscard = golfie;
-                    if(!(yankee !== golfie)) { _fun00010_ip = 488; continue _fun00009 }
+                    if(!(yankee !== golfie)) { _fun00010_ip = 519; continue _fun00009 }
  150:
                     backup = _closure1_slot9;
                     yankee = backup.getGiftOptionsForKey;
@@ -441,36 +441,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  314:
                     option['reward_sku_ids'] = offset;
                     tangon['giftInfoOptions'] = option;
-                    offset = romeon;
-                    foxtra = yankee == offset;
-                    offset = undefined;
-                    if(foxtra) { _fun00010_ip = 345; continue _fun00009 }
- 336:
                     foxtra = romeon;
-                    offset = foxtra.gift_style;
+                    backup = yankee == foxtra;
+                    foxtra = undefined;
+                    if(backup) { _fun00010_ip = 345; continue _fun00009 }
+ 336:
+                    backup = romeon;
+                    foxtra = backup.gift_style;
  345:
-                    offset = yankee != offset;
-                    option = offset;
-                    if(offset) { _fun00010_ip = 377; continue _fun00009 }
+                    foxtra = yankee != foxtra;
+                    offset = foxtra;
+                    if(foxtra) { _fun00010_ip = 380; continue _fun00009 }
  355:
+                    foxtra = romeon;
+                    backup = yankee == foxtra;
+                    foxtra = undefined;
+                    if(backup) { _fun00010_ip = 376; continue _fun00009 }
+ 367:
+                    backup = romeon;
+                    foxtra = backup.reward_sku_ids;
+ 376:
+                    offset = yankee != foxtra;
+ 380:
+                    option = offset;
+                    if(offset) { _fun00010_ip = 408; continue _fun00009 }
+ 386:
                     offset = romeon;
                     foxtra = yankee == offset;
                     offset = undefined;
-                    if(foxtra) { _fun00010_ip = 373; continue _fun00009 }
- 367:
-                    offset = romeon.reward_sku_ids;
- 373:
+                    if(foxtra) { _fun00010_ip = 404; continue _fun00009 }
+ 398:
+                    offset = romeon.recipient_id;
+ 404:
                     option = yankee != offset;
- 377:
+ 408:
                     tangon['isGift'] = option;
                     tangon = golfie.bind(report)(tangon);
-                    SaveGenerator(address=391);
- 389:
+                    SaveGenerator(address=422);
+ 420:
                     return tangon;
- 391:
+ 422:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00010_ip = 485; continue _fun00009 }
- 397:
+                    if(golfie) { _fun00010_ip = 516; continue _fun00009 }
+ 428:
                     offset = _closure1_slot1;
                     golfie = _closure1_slot3;
                     option = 18;
@@ -490,12 +503,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = verify.set;
                     golfie = _closure1_slot20;
                     golfie = option.bind(verify)(golfie, offset);
- 480: // try_end0
+ 511: // try_end0
                     golfie = true;
                     return golfie;
- 485:
+ 516:
                     return tangon;
- 488: // try_start_1
+ 519: // try_start_1
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot3;
                     zuuluu = 18;
@@ -507,16 +520,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['type'] = golfie;
                     zuuluu['key'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 534: // try_end1
+ 565: // try_end1
                     zuuluu = false;
                     return zuuluu;
- 539:
+ 570:
                     return michal;
- 542: // catch_target0 // catch_target1
+ 573: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=1);
                     michal = false;
                     return michal;
- 549:
+ 580:
                     return entity;
                 }
             };

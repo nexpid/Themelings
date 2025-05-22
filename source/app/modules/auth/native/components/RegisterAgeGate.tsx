@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function() { // Original name: RegisterAgeGate
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            vacuum = function() { // Original name: handleSubmit
+            sequen = function() { // Original name: handleSubmit
                 entity = undefined;
                 tangon = _closure2_slot10;
                 zuuluu = tangon.apply;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
-            var _closure2_slot9 = vacuum;
+            var _closure2_slot9 = sequen;
             entity = function() { // Original name: _handleSubmit
                 tangon = undefined;
                 entity = undefined;
@@ -386,8 +386,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  291:
             michal = romeon.bind(result)(michal);
             michal = backup.bind(tangon)(michal, option);
-            cntext = michal[golfie];
-            var _closure2_slot4 = cntext;
+            update = michal[golfie];
+            var _closure2_slot4 = update;
             michal = michal[report];
             var _closure2_slot5 = michal;
             kiloes = result.useMemo;
@@ -420,7 +420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = result.useState;
             michal = michal.bind(result)(output);
             michal = backup.bind(tangon)(michal, option);
-            update = michal[golfie];
+            source = michal[golfie];
             michal = michal[report];
             var _closure2_slot7 = michal;
             report = _closure1_slot1;
@@ -445,8 +445,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            source = golfie.bind(backup)(zuuluu, michal);
-            var _closure2_slot8 = source;
+            ctrled = golfie.bind(backup)(zuuluu, michal);
+            var _closure2_slot8 = ctrled;
             zuuluu = _closure1_slot11;
             michal = function(argFoo) {
                 entity = argFoo;
@@ -493,7 +493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = result[entity];
             entity = backup.bind(tangon)(entity);
             entity = entity.bind(tangon)(quebec);
-            ctrled = !entity;
+            vacuum = !entity;
             zuuluu = _closure1_slot15;
             michal = _closure1_slot16;
             entity = {};
@@ -505,62 +505,62 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = result[golfie];
             output = backup.bind(tangon)(golfie);
             golfie = {};
-            config = _closure1_slot0;
+            record = _closure1_slot0;
             backup = 27;
             echoed = result[backup];
-            echoed = config.bind(tangon)(echoed);
-            sequen = echoed.intl;
-            echoed = sequen.string;
+            echoed = record.bind(tangon)(echoed);
+            config = echoed.intl;
+            echoed = config.string;
             result = result[backup];
-            result = config.bind(tangon)(result);
+            result = record.bind(tangon)(result);
             result = result.t;
             result = result.NgL2GR;
-            result = echoed.bind(sequen)(result);
+            result = echoed.bind(config)(result);
             golfie['headerText'] = result;
             result = verify.flexGrow;
             golfie['contentStyle'] = result;
             result = {};
-            sequen = verify.inputGroup;
+            config = verify.inputGroup;
             echoed = new Array(2);
-            echoed[0] = sequen;
-            sequen = null;
-            if(!source) { _fun00002_ip = 755; continue _fun00001 }
+            echoed[0] = config;
+            config = null;
+            if(!ctrled) { _fun00002_ip = 755; continue _fun00001 }
  749:
-            sequen = verify.inputGroupConsentRequired;
+            config = verify.inputGroupConsentRequired;
  755:
-            echoed[1] = sequen;
+            echoed[1] = config;
             result['style'] = echoed;
-            sequen = null;
+            config = null;
             if(!option) { _fun00002_ip = 823; continue _fun00001 }
  768:
             echoed = foxtra != papara;
-            sequen = null;
+            config = null;
             if(!echoed) { _fun00002_ip = 823; continue _fun00001 }
  777:
             echoed = '';
-            sequen = null;
+            config = null;
             if(!(echoed !== papara)) { _fun00002_ip = 823; continue _fun00001 }
  787:
-            record = _closure1_slot14;
-            config = _closure1_slot1;
+            cntext = _closure1_slot14;
+            record = _closure1_slot1;
             target = _closure1_slot2;
             echoed = 28;
             echoed = target[echoed];
-            config = config.bind(tangon)(echoed);
+            record = record.bind(tangon)(echoed);
             echoed = {};
             echoed['children'] = papara;
-            sequen = record.bind(tangon)(config, echoed);
+            config = cntext.bind(tangon)(record, echoed);
  823:
             echoed = new Array(2);
-            echoed[0] = sequen;
-            record = _closure1_slot14;
+            echoed[0] = config;
+            cntext = _closure1_slot14;
             limora = _closure1_slot0;
             target = _closure1_slot2;
-            sequen = 29;
-            sequen = target[sequen];
-            sequen = limora.bind(tangon)(sequen);
-            config = sequen.Input;
-            sequen = {};
+            config = 29;
+            config = target[config];
+            config = limora.bind(tangon)(config);
+            record = config.Input;
+            config = {};
             status = target[backup];
             status = limora.bind(tangon)(status);
             sierra = status.intl;
@@ -570,9 +570,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = target.t;
             target = target.xNpFJy;
             target = status.bind(sierra)(target);
-            sequen['label'] = target;
+            config['label'] = target;
             target = null;
-            if(!ctrled) { _fun00002_ip = 977; continue _fun00001 }
+            if(!vacuum) { _fun00002_ip = 977; continue _fun00001 }
  916:
             status = foxtra != quebec;
             target = null;
@@ -590,7 +590,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = status.udnqh4;
             target = sierra.bind(limora)(status);
  977:
-            sequen['errorMessage'] = target;
+            config['errorMessage'] = target;
             sierra = _closure1_slot14;
             status = _closure1_slot0;
             limora = _closure1_slot2;
@@ -644,28 +644,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = whisks.bind(equals)(limora);
             target['accessibilityHint'] = limora;
             target = sierra.bind(tangon)(status, target);
-            sequen['children'] = target;
-            sequen = record.bind(tangon)(config, sequen);
-            echoed[1] = sequen;
+            config['children'] = target;
+            config = cntext.bind(tangon)(record, config);
+            echoed[1] = config;
             result['children'] = echoed;
             echoed = zuuluu.bind(tangon)(oscard, result);
             result = new Array(4);
             result[0] = echoed;
-            config = _closure1_slot14;
-            sequen = _closure1_slot6;
+            record = _closure1_slot14;
+            config = _closure1_slot6;
             echoed = {};
             target = verify.button;
-            record = new Array(2);
-            record[0] = target;
+            cntext = new Array(2);
+            cntext[0] = target;
             target = null;
-            if(!source) { _fun00002_ip = 1254; continue _fun00001 }
+            if(!ctrled) { _fun00002_ip = 1254; continue _fun00001 }
  1248:
             target = verify.buttonConsentRequired;
  1254:
-            record[1] = target;
-            echoed['style'] = record;
-            record = !option;
-            if(!record) { _fun00002_ip = 1382; continue _fun00001 }
+            cntext[1] = target;
+            echoed['style'] = cntext;
+            cntext = !option;
+            if(!cntext) { _fun00002_ip = 1382; continue _fun00001 }
  1268:
             sierra = _closure1_slot14;
             quebec = _closure1_slot0;
@@ -677,8 +677,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = {};
             whisks = 'lg';
             target['size'] = whisks;
-            target['loading'] = update;
-            target['disabled'] = ctrled;
+            target['loading'] = source;
+            target['disabled'] = vacuum;
             whisks = function() { // Original name: onPress
                 michal = _closure2_slot9;
                 entity = undefined;
@@ -696,49 +696,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = limora.wC4TlZ;
             limora = whisks.bind(equals)(limora);
             target['text'] = limora;
-            record = sierra.bind(tangon)(status, target);
+            cntext = sierra.bind(tangon)(status, target);
  1382:
-            echoed['children'] = record;
-            echoed = config.bind(tangon)(sequen, echoed);
+            echoed['children'] = cntext;
+            echoed = record.bind(tangon)(config, echoed);
             result[1] = echoed;
             echoed = null;
             if(option) { _fun00002_ip = 1456; continue _fun00001 }
  1401:
-            sequen = foxtra == papara;
+            config = foxtra == papara;
             echoed = null;
-            if(sequen) { _fun00002_ip = 1456; continue _fun00001 }
+            if(config) { _fun00002_ip = 1456; continue _fun00001 }
  1410:
-            sequen = '';
+            config = '';
             echoed = null;
-            if(!(sequen !== papara)) { _fun00002_ip = 1456; continue _fun00001 }
+            if(!(config !== papara)) { _fun00002_ip = 1456; continue _fun00001 }
  1420:
-            record = _closure1_slot14;
-            config = _closure1_slot1;
+            cntext = _closure1_slot14;
+            record = _closure1_slot1;
             target = _closure1_slot2;
-            sequen = 32;
-            sequen = target[sequen];
-            config = config.bind(tangon)(sequen);
-            sequen = {};
-            sequen['children'] = papara;
-            echoed = record.bind(tangon)(config, sequen);
+            config = 32;
+            config = target[config];
+            record = record.bind(tangon)(config);
+            config = {};
+            config['children'] = papara;
+            echoed = cntext.bind(tangon)(record, config);
  1456:
             result[2] = echoed;
             echoed = !option;
             if(!echoed) { _fun00002_ip = 1533; continue _fun00001 }
  1466:
-            record = _closure1_slot14;
-            config = _closure1_slot1;
+            cntext = _closure1_slot14;
+            record = _closure1_slot1;
             papara = _closure1_slot2;
-            sequen = 33;
-            sequen = papara[sequen];
-            config = config.bind(tangon)(sequen);
-            sequen = {};
+            config = 33;
+            config = papara[config];
+            record = record.bind(tangon)(config);
+            config = {};
             papara = global;
             papara = papara.Boolean;
-            papara = papara.bind(tangon)(source);
-            sequen['consentRequired'] = papara;
-            sequen['consent'] = cntext;
-            cntext = function() { // Original name: onToggleConsent
+            papara = papara.bind(tangon)(ctrled);
+            config['consentRequired'] = papara;
+            config['consent'] = update;
+            papara = function() { // Original name: onToggleConsent
                 zuuluu = _closure2_slot5;
                 michal = undefined;
                 entity = function(argFoo) {
@@ -749,32 +749,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(michal)(entity);
                 return entity;
             };
-            sequen['onToggleConsent'] = cntext;
-            echoed = record.bind(tangon)(config, sequen);
+            config['onToggleConsent'] = papara;
+            echoed = cntext.bind(tangon)(record, config);
  1533:
             result[3] = echoed;
             golfie['children'] = result;
             output = zuuluu.bind(tangon)(output, golfie);
             golfie = new Array(2);
             golfie[0] = output;
-            if(!option) { _fun00002_ip = 1620; continue _fun00001 }
+            if(!option) { _fun00002_ip = 1637; continue _fun00001 }
  1558:
             echoed = _closure1_slot14;
             result = _closure1_slot1;
-            sequen = _closure1_slot2;
+            config = _closure1_slot2;
             output = 34;
-            output = sequen[output];
+            output = config[output];
             result = result.bind(tangon)(output);
             output = {};
-            output['onPress'] = vacuum;
-            output['disabled'] = ctrled;
-            output['loading'] = update;
-            update = true;
-            output['privacy'] = update;
-            output['consentRequired'] = source;
-            output['finalPage'] = update;
+            output['onPress'] = sequen;
+            output['disabled'] = vacuum;
+            output['loading'] = source;
+            source = true;
+            output['privacy'] = source;
+            output['consentRequired'] = ctrled;
+            output['finalPage'] = source;
+            output['consent'] = update;
+            update = function() { // Original name: onToggleConsent
+                zuuluu = _closure2_slot5;
+                michal = undefined;
+                entity = function(argFoo) {
+                    entity = argFoo;
+                    entity = !entity;
+                    return entity;
+                };
+                entity = zuuluu.bind(michal)(entity);
+                return entity;
+            };
+            output['onToggleConsent'] = update;
             option = echoed.bind(tangon)(result, output);
- 1620:
+ 1637:
             golfie[1] = option;
             report['children'] = golfie;
             oscard = zuuluu.bind(tangon)(oscard, report);
@@ -809,15 +822,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.isThemeLight;
             kiloes = backup.bind(kiloes)(sizing);
             backup = 'dark';
-            if(!kiloes) { _fun00002_ip = 1774; continue _fun00001 }
- 1770:
-            backup = 'light';
- 1774:
-            oscard['theme'] = backup;
-            if(!(foxtra == romeon)) { _fun00002_ip = 1787; continue _fun00001 }
- 1783:
-            romeon = _closure1_slot19;
+            if(!kiloes) { _fun00002_ip = 1791; continue _fun00001 }
  1787:
+            backup = 'light';
+ 1791:
+            oscard['theme'] = backup;
+            if(!(foxtra == romeon)) { _fun00002_ip = 1804; continue _fun00001 }
+ 1800:
+            romeon = _closure1_slot19;
+ 1804:
             oscard['date'] = romeon;
             yankee = _closure1_slot20;
             oscard['maximumDate'] = yankee;

@@ -260,11 +260,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot17 = entity;
-    entity = function() { // Original name: handleUserAffinitiesStoreUpdate
+    entity = function() { // Original name: handleUserAffinitiesV2StoreUpdate
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             michal = _closure1_slot7;
-            entity = michal.needsRefresh;
+            entity = michal.shouldFetch;
             michal = entity.bind(michal)();
             if(michal) { _fun00014_ip = 24; continue _fun00013 }
  20:
@@ -321,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon.bind(michal)();
  44:
             tangon = _closure1_slot7;
-            michal = tangon.needsRefresh;
+            michal = tangon.shouldFetch;
             michal = michal.bind(tangon)();
             michal = !michal;
             _closure1_slot11 = michal;

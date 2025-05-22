@@ -17,7 +17,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     StartGenerator();
                     golfie = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 171; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 173; continue _fun00001 }
  13:
                     report = undefined;
                     if(!(golfie === report)) { _fun00002_ip = 21; continue _fun00001 }
@@ -29,23 +29,23 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     return report;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 168; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 170; continue _fun00001 }
  34:
                     oscard = _closure1_slot4;
                     zuuluu = oscard.canWriteCaches;
                     zuuluu = zuuluu.bind(oscard)(golfie);
-                    if(!zuuluu) { _fun00002_ip = 159; continue _fun00001 }
+                    if(!zuuluu) { _fun00002_ip = 161; continue _fun00001 }
  57:
                     oscard = _closure1_slot3;
                     zuuluu = oscard.loadAllMissingChannels;
                     zuuluu = zuuluu.bind(oscard)();
-                    SaveGenerator(address=75);
- 73:
-                    return zuuluu;
+                    SaveGenerator(address=77);
  75:
+                    return zuuluu;
+ 77:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 165; continue _fun00001 }
- 81:
+                    if(oscard) { _fun00002_ip = 167; continue _fun00001 }
+ 83:
                     golfie = new Array(0);
                     oscard = _closure1_slot0;
                     option = _closure1_slot1;
@@ -62,21 +62,21 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     oscard = tangon.Promise;
                     tangon = oscard.all;
                     tangon = tangon.bind(oscard)(golfie);
-                    SaveGenerator(address=153);
- 151:
-                    return tangon;
+                    SaveGenerator(address=155);
  153:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 162; continue _fun00001 }
- 159:
-                    return report;
- 162:
                     return tangon;
- 165:
+ 155:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    if(oscard) { _fun00002_ip = 164; continue _fun00001 }
+ 161:
+                    return report;
+ 164:
+                    return tangon;
+ 167:
                     return zuuluu;
- 168:
+ 170:
                     return michal;
- 171:
+ 173:
                     return entity;
                 }
             };

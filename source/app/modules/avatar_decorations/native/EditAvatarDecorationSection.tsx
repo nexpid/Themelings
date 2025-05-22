@@ -594,7 +594,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = sizing[tangon];
             tangon = option.bind(report)(tangon);
             option = tangon.Text;
-            tangon = {'variant': 'text-xs/bold', 'color': 'interactive-muted'};
+            tangon = {'variant': 'heading-sm/medium', 'color': 'text-muted'};
             kiloes = kiloes.header;
             tangon['children'] = kiloes;
             golfie = verify.bind(report)(option, tangon);

@@ -500,31 +500,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure1_slot2;
                 entity = 4;
                 entity = zuuluu[entity];
-                golfie = undefined;
-                zuuluu = michal.bind(golfie)(entity);
+                offset = undefined;
+                zuuluu = michal.bind(offset)(entity);
                 michal = zuuluu.getSearchContextId;
                 entity = _closure2_slot0;
                 zuuluu = michal.bind(zuuluu)(entity);
                 entity = argFoo;
                 michal = entity.states;
                 entity = michal.get;
-                oscard = entity.bind(michal)(zuuluu);
+                verify = entity.bind(michal)(zuuluu);
                 entity = null;
-                if(!(entity != oscard)) { _fun00020_ip = 123; continue _fun00019 }
+                if(!(entity != verify)) { _fun00020_ip = 163; continue _fun00019 }
  68:
-                option = oscard.tagsManager;
-                zuuluu = oscard.textInputValue;
-                tangon = oscard.querySearchResults;
+                zuuluu = verify.textInputValue;
+                report = verify.tagsManager;
+                oscard = verify.querySearchResults;
+                tangon = verify.tagsVersion;
                 michal = _closure1_slot8;
-                zuuluu = michal.bind(golfie)(option, zuuluu);
+                golfie = michal.bind(offset)(report, zuuluu);
+                michal = report.getPrefixTag;
+                michal = michal.bind(report)();
+                zuuluu = entity != michal;
                 michal = {};
-                report = _closure1_slot13;
-                report = report.bind(golfie)(oscard);
-                michal['isInitialSearchQuery'] = report;
-                zuuluu = tangon !== zuuluu;
-                michal['isPendingSearchResults'] = zuuluu;
+                option = _closure1_slot13;
+                option = option.bind(offset)(verify);
+                michal['isInitialSearchQuery'] = option;
+                golfie = oscard !== golfie;
+                michal['isPendingSearchResults'] = golfie;
+                michal['searchResultsQuery'] = oscard;
+                michal['tagsManager'] = report;
+                michal['tagsVersion'] = tangon;
+                michal['isAutocompleteVisible'] = zuuluu;
                 return michal;
- 123:
+ 163:
                 return entity;
             }
         };
@@ -562,21 +570,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['getHasUserAddedSearchTags'] = tangon;
-    tangon = function(argFoo) { // Original name: useHasUserAddedSearchTags
-        tangon = _closure1_slot11;
-        zuuluu = undefined;
-        michal = argFoo;
-        entity = function(argFoo) {
-            entity = argFoo;
-            michal = entity.tagsManager;
-            entity = michal.hasUserAddedTags;
-            entity = entity.bind(michal)();
-            return entity;
-        };
-        entity = tangon.bind(zuuluu)(michal, entity);
-        return entity;
-    };
-    zuuluu['useHasUserAddedSearchTags'] = tangon;
     tangon = function(argFoo) { // Original name: useSearchTags
         tangon = _closure1_slot11;
         zuuluu = undefined;
@@ -846,7 +839,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['getSearchTagsChannelIds'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getSearchTagsUserIds
+    michal = function(argFoo, argBar) { // Original name: getSearchTagsUserIds
         michal = argBar;
         var _closure2_slot0 = michal;
         tangon = _closure1_slot10;
@@ -863,36 +856,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zuuluu['getSearchTagsUserIds'] = tangon;
-    tangon = function(argFoo) { // Original name: getIsEmptySearchTags
-        tangon = _closure1_slot10;
-        zuuluu = undefined;
-        michal = argFoo;
-        entity = function(argFoo) {
-            entity = argFoo;
-            michal = entity.tagsManager;
-            entity = michal.isEmpty;
-            entity = entity.bind(michal)();
-            return entity;
-        };
-        entity = tangon.bind(zuuluu)(michal, entity);
-        return entity;
-    };
-    zuuluu['getIsEmptySearchTags'] = tangon;
-    michal = function(argFoo) { // Original name: useIsEmptySearchTags
-        tangon = _closure1_slot11;
-        zuuluu = undefined;
-        michal = argFoo;
-        entity = function(argFoo) {
-            entity = argFoo;
-            michal = entity.tagsManager;
-            entity = michal.isEmpty;
-            entity = entity.bind(michal)();
-            return entity;
-        };
-        entity = tangon.bind(zuuluu)(michal, entity);
-        return entity;
-    };
-    zuuluu['useIsEmptySearchTags'] = michal;
+    zuuluu['getSearchTagsUserIds'] = michal;
     return entity;
 })();
