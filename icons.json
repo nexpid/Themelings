@@ -11439,6 +11439,24 @@
         "width": 24,
         "height": 24
     },
+    "nameplate_avatar_placeholder_dark_mode": {
+        "file": "images/nameplate_avatar_placeholder_dark_mode.png",
+        "hash": "bc97c4c1b8a21ac60657238688c5ddb3",
+        "scales": [
+            1
+        ],
+        "width": 32,
+        "height": 32
+    },
+    "nameplate_avatar_placeholder_light_mode": {
+        "file": "images/nameplate_avatar_placeholder_light_mode.png",
+        "hash": "3d1bee4f97a38e116b3609be3da31a91",
+        "scales": [
+            1
+        ],
+        "width": 32,
+        "height": 32
+    },
     "NatureIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/NatureIcon.png",
         "hash": "b33dc2d7b053297709d9eb10ccfc5f4e",
