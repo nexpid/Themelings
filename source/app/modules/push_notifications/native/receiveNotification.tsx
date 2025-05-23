@@ -494,7 +494,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = tangon;
             entity = tangon.type;
             zuuluu = 'MESSAGE_CREATE';
-            if(!(zuuluu !== entity)) { _fun00010_ip = 771; continue _fun00009 }
+            if(!(zuuluu !== entity)) { _fun00010_ip = 772; continue _fun00009 }
  25:
             oscard = tangon.type;
             report = 'GENERIC_PUSH_NOTIFICATION_SENT';
@@ -684,8 +684,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 'Notification clicked of type ';
             report = option.bind(report)(verify);
             report = oscard.bind(golfie)(report);
-            _fun00010_ip = 922; continue _fun00009;
- 771:
+            _fun00010_ip = 924; continue _fun00009;
+ 772:
             option = _closure1_slot14;
             golfie = option.log;
             vacuum = tangon.type;
@@ -719,39 +719,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['isPreload'] = report;
             oscard = golfie.bind(option)(oscard);
             entity = true;
- 922:
+ 924:
             tangon = tangon.type;
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 931:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 933:
             zuuluu = 'FORUM_THREAD_CREATED';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 939:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 941:
             zuuluu = 'RELATIONSHIP_ADD';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 947:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 949:
             zuuluu = 'CALL_RING';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 955:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 957:
             zuuluu = 'CALL_CONNECT';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 963:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 965:
             zuuluu = 'FRIEND_SUGGESTION_CREATE';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 971:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 973:
             zuuluu = 'STAGE_INSTANCE_CREATE';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 979:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 981:
             zuuluu = 'GUILD_SCHEDULED_EVENT_UPDATE';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 987:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 989:
             zuuluu = 'GUILD_STREAM_START';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 997:
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
+ 999:
             zuuluu = 'GENERIC_PUSH_NOTIFICATION_SENT';
-            if(!(zuuluu !== tangon)) { _fun00010_ip = 1009; continue _fun00009 }
- 1007:
-            return entity;
+            if(!(zuuluu !== tangon)) { _fun00010_ip = 1011; continue _fun00009 }
  1009:
+            return entity;
+ 1011:
             zuuluu = function() { // Original name: dispatch
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:

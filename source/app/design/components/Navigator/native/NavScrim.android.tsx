@@ -1,0 +1,101 @@
+// app/design/components/Navigator/native/NavScrim.android.tsx
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
+    report = argBar;
+    romeon = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = romeon;
+    var _closure1_slot1 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    golfie = oscard[entity];
+    tangon = argCor;
+    entity = undefined;
+    golfie = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    yankee = tangon.StyleSheet;
+    tangon = tangon.View;
+    var _closure1_slot2 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    verify = report.bind(entity)(tangon);
+    option = verify.createStyles;
+    tangon = {};
+    offset = {};
+    backup = yankee.absoluteFillObject;
+    kiloes = offset;
+    yankee = copyDataProperties(kiloes, backup);
+    yankee = 4;
+    yankee = oscard[yankee];
+    yankee = romeon.bind(entity)(yankee);
+    yankee = yankee.colors;
+    romeon = yankee.ANDROID_NAVIGATION_SCRIM_BACKGROUND;
+    yankee = 'backgroundColor';
+    offset[yankee] = romeon;
+    yankee = 'top';
+    offset[yankee] = entity;
+    tangon['androidNavScrim'] = offset;
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = golfie.memo;
+    michal = function() {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = _closure1_slot4;
+            report = undefined;
+            oscard = entity.bind(report)();
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            entity = 5;
+            entity = tangon[entity];
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = {};
+            tangon = false;
+            entity['includeCustomKeyboardHeightAndroid'] = tangon;
+            entity = zuuluu.bind(report)(entity);
+            option = entity.insets;
+            tangon = option.bottom;
+            zuuluu = 0;
+            entity = null;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 115; continue _fun00001 }
+ 66:
+            tangon = _closure1_slot3;
+            zuuluu = _closure1_slot2;
+            michal = {};
+            golfie = oscard.androidNavScrim;
+            oscard = new Array(2);
+            oscard[0] = golfie;
+            golfie = {};
+            option = option.bottom;
+            golfie['height'] = option;
+            oscard[1] = golfie;
+            michal['style'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
+ 115:
+            return entity;
+        }
+    };
+    michal = tangon.bind(golfie)(michal);
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Navigator/native/NavScrim.android.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['NavScrim'] = michal;
+    return entity;
+})();

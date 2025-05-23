@@ -386,18 +386,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             golfie = michal != oscard;
             report = 50;
-            if(!golfie) { _fun00014_ip = 71; continue _fun00013 }
- 68:
+            if(!golfie) { _fun00014_ip = 69; continue _fun00013 }
+ 66:
             report = oscard;
- 71:
+ 69:
             entity['midpointPercentage'] = report;
             report = tangon.angle;
             oscard = michal != report;
             michal = 0;
-            if(!oscard) { _fun00014_ip = 94; continue _fun00013 }
- 91:
+            if(!oscard) { _fun00014_ip = 92; continue _fun00013 }
+ 89:
             michal = report;
- 94:
+ 92:
             entity['angle'] = michal;
             report = _closure1_slot7;
             oscard = tangon.colors;
@@ -447,26 +447,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.LIGHT;
             entity = 'light';
             golfie = entity;
-            if(!(zuuluu !== report)) { _fun00016_ip = 92; continue _fun00015 }
- 33:
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
+ 32:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.DARK;
             oscard = 'darker';
             golfie = oscard;
-            if(!(zuuluu !== report)) { _fun00016_ip = 92; continue _fun00015 }
- 54:
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
+ 53:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.DARKER;
             golfie = oscard;
-            if(!(zuuluu !== report)) { _fun00016_ip = 92; continue _fun00015 }
- 71:
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
+ 70:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.MIDNIGHT;
             golfie = 'midnight';
-            if(!(zuuluu !== report)) { _fun00016_ip = 92; continue _fun00015 }
- 89:
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
+ 88:
             golfie = entity;
- 92:
+ 91:
             option = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 6;

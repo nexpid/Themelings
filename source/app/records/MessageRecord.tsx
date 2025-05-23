@@ -326,12 +326,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = this;
                 entity = _closure1_slot3;
                 oscard = _closure2_slot0;
-                report = undefined;
-                entity = entity.bind(report)(golfie, oscard);
+                tangon = undefined;
+                entity = entity.bind(tangon)(golfie, oscard);
                 zuuluu = _closure1_slot12;
                 entity = new Array(1);
                 entity[0] = michal;
-                entity = zuuluu.bind(report)(golfie, oscard, entity);
+                entity = zuuluu.bind(tangon)(golfie, oscard, entity);
                 zuuluu = michal.id;
                 entity['id'] = zuuluu;
                 zuuluu = michal.channel_id;
@@ -391,189 +391,191 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.state;
                 if(zuuluu) { _fun00010_ip = 255; continue _fun00009 }
  245:
-                tangon = _closure1_slot9;
-                zuuluu = tangon.SENT;
+                report = _closure1_slot9;
+                zuuluu = report.SENT;
  255:
                 entity['state'] = zuuluu;
-                zuuluu = michal.nonce;
-                if(zuuluu) { _fun00010_ip = 272; continue _fun00009 }
- 270:
+                report = michal.nonce;
                 zuuluu = null;
- 272:
-                entity['nonce'] = zuuluu;
-                zuuluu = michal.blocked;
-                if(zuuluu) { _fun00010_ip = 289; continue _fun00009 }
- 287:
-                zuuluu = false;
- 289:
-                entity['blocked'] = zuuluu;
-                zuuluu = michal.ignored;
-                if(zuuluu) { _fun00010_ip = 306; continue _fun00009 }
- 304:
-                zuuluu = false;
- 306:
-                entity['ignored'] = zuuluu;
-                zuuluu = michal.call;
-                if(zuuluu) { _fun00010_ip = 322; continue _fun00009 }
- 320:
-                zuuluu = null;
- 322:
-                entity['call'] = zuuluu;
-                zuuluu = michal.bot;
-                if(zuuluu) { _fun00010_ip = 339; continue _fun00009 }
- 337:
-                zuuluu = false;
- 339:
-                entity['bot'] = zuuluu;
-                zuuluu = michal.webhookId;
-                if(zuuluu) { _fun00010_ip = 356; continue _fun00009 }
- 354:
-                zuuluu = null;
- 356:
-                entity['webhookId'] = zuuluu;
-                zuuluu = michal.reactions;
-                if(zuuluu) { _fun00010_ip = 375; continue _fun00009 }
- 371:
-                zuuluu = new Array(0);
- 375:
-                entity['reactions'] = zuuluu;
-                zuuluu = michal.application_id;
-                if(zuuluu) { _fun00010_ip = 395; continue _fun00009 }
- 390:
-                zuuluu = michal.applicationId;
- 395:
-                if(zuuluu) { _fun00010_ip = 400; continue _fun00009 }
- 398:
-                zuuluu = null;
- 400:
-                entity['applicationId'] = zuuluu;
-                zuuluu = michal.application;
-                if(zuuluu) { _fun00010_ip = 416; continue _fun00009 }
- 414:
-                zuuluu = null;
- 416:
-                entity['application'] = zuuluu;
-                zuuluu = michal.activity;
-                if(zuuluu) { _fun00010_ip = 433; continue _fun00009 }
- 431:
-                zuuluu = null;
- 433:
-                entity['activity'] = zuuluu;
-                zuuluu = michal.activity_instance;
-                if(zuuluu) { _fun00010_ip = 454; continue _fun00009 }
- 448:
-                zuuluu = michal.activityInstance;
- 454:
-                if(zuuluu) { _fun00010_ip = 459; continue _fun00009 }
+                oscard = zuuluu != report;
+                tangon = undefined;
+                if(!oscard) { _fun00010_ip = 281; continue _fun00009 }
+ 278:
+                tangon = report;
+ 281:
+                entity['nonce'] = tangon;
+                tangon = michal.blocked;
+                if(tangon) { _fun00010_ip = 298; continue _fun00009 }
+ 296:
+                tangon = false;
+ 298:
+                entity['blocked'] = tangon;
+                tangon = michal.ignored;
+                if(tangon) { _fun00010_ip = 315; continue _fun00009 }
+ 313:
+                tangon = false;
+ 315:
+                entity['ignored'] = tangon;
+                tangon = michal.call;
+                if(tangon) { _fun00010_ip = 331; continue _fun00009 }
+ 329:
+                tangon = null;
+ 331:
+                entity['call'] = tangon;
+                tangon = michal.bot;
+                if(tangon) { _fun00010_ip = 348; continue _fun00009 }
+ 346:
+                tangon = false;
+ 348:
+                entity['bot'] = tangon;
+                tangon = michal.webhookId;
+                if(tangon) { _fun00010_ip = 365; continue _fun00009 }
+ 363:
+                tangon = null;
+ 365:
+                entity['webhookId'] = tangon;
+                tangon = michal.reactions;
+                if(tangon) { _fun00010_ip = 384; continue _fun00009 }
+ 380:
+                tangon = new Array(0);
+ 384:
+                entity['reactions'] = tangon;
+                tangon = michal.application_id;
+                if(tangon) { _fun00010_ip = 404; continue _fun00009 }
+ 399:
+                tangon = michal.applicationId;
+ 404:
+                if(tangon) { _fun00010_ip = 409; continue _fun00009 }
+ 407:
+                tangon = null;
+ 409:
+                entity['applicationId'] = tangon;
+                tangon = michal.application;
+                if(tangon) { _fun00010_ip = 425; continue _fun00009 }
+ 423:
+                tangon = null;
+ 425:
+                entity['application'] = tangon;
+                tangon = michal.activity;
+                if(tangon) { _fun00010_ip = 442; continue _fun00009 }
+ 440:
+                tangon = null;
+ 442:
+                entity['activity'] = tangon;
+                tangon = michal.activity_instance;
+                if(tangon) { _fun00010_ip = 463; continue _fun00009 }
  457:
-                zuuluu = null;
- 459:
-                entity['activityInstance'] = zuuluu;
-                zuuluu = michal.messageReference;
-                if(zuuluu) { _fun00010_ip = 476; continue _fun00009 }
- 474:
-                zuuluu = null;
- 476:
-                entity['messageReference'] = zuuluu;
-                zuuluu = michal.hit;
-                if(zuuluu) { _fun00010_ip = 499; continue _fun00009 }
- 493:
-                zuuluu = michal.isSearchHit;
- 499:
-                if(zuuluu) { _fun00010_ip = 504; continue _fun00009 }
+                tangon = michal.activityInstance;
+ 463:
+                if(tangon) { _fun00010_ip = 468; continue _fun00009 }
+ 466:
+                tangon = null;
+ 468:
+                entity['activityInstance'] = tangon;
+                tangon = michal.messageReference;
+                if(tangon) { _fun00010_ip = 485; continue _fun00009 }
+ 483:
+                tangon = null;
+ 485:
+                entity['messageReference'] = tangon;
+                tangon = michal.hit;
+                if(tangon) { _fun00010_ip = 508; continue _fun00009 }
  502:
-                zuuluu = false;
- 504:
-                entity['isSearchHit'] = zuuluu;
-                zuuluu = michal.loggingName;
-                if(zuuluu) { _fun00010_ip = 521; continue _fun00009 }
- 519:
-                zuuluu = null;
- 521:
-                entity['loggingName'] = zuuluu;
-                zuuluu = michal.colorString;
-                entity['colorString'] = zuuluu;
-                zuuluu = michal.nick;
-                entity['nick'] = zuuluu;
-                zuuluu = michal.interaction;
-                if(zuuluu) { _fun00010_ip = 562; continue _fun00009 }
- 560:
-                zuuluu = null;
- 562:
-                entity['interaction'] = zuuluu;
-                zuuluu = michal.interactionData;
-                if(zuuluu) { _fun00010_ip = 579; continue _fun00009 }
- 577:
-                zuuluu = null;
- 579:
-                entity['interactionData'] = zuuluu;
-                zuuluu = michal.interactionMetadata;
-                if(zuuluu) { _fun00010_ip = 596; continue _fun00009 }
- 594:
-                zuuluu = null;
- 596:
-                entity['interactionMetadata'] = zuuluu;
-                zuuluu = michal.interactionError;
-                if(zuuluu) { _fun00010_ip = 613; continue _fun00009 }
- 611:
-                zuuluu = null;
- 613:
-                entity['interactionError'] = zuuluu;
-                zuuluu = michal.roleSubscriptionData;
-                entity['roleSubscriptionData'] = zuuluu;
-                zuuluu = michal.purchaseNotification;
-                entity['purchaseNotification'] = zuuluu;
-                zuuluu = michal.poll;
-                entity['poll'] = zuuluu;
-                zuuluu = michal.potions;
-                entity['potions'] = zuuluu;
-                zuuluu = michal.referralTrialOfferId;
-                if(zuuluu) { _fun00010_ip = 678; continue _fun00009 }
- 676:
-                zuuluu = null;
- 678:
-                entity['referralTrialOfferId'] = zuuluu;
+                tangon = michal.isSearchHit;
+ 508:
+                if(tangon) { _fun00010_ip = 513; continue _fun00009 }
+ 511:
+                tangon = false;
+ 513:
+                entity['isSearchHit'] = tangon;
+                tangon = michal.loggingName;
+                if(tangon) { _fun00010_ip = 530; continue _fun00009 }
+ 528:
+                tangon = null;
+ 530:
+                entity['loggingName'] = tangon;
+                tangon = michal.colorString;
+                entity['colorString'] = tangon;
+                tangon = michal.nick;
+                entity['nick'] = tangon;
+                tangon = michal.interaction;
+                if(tangon) { _fun00010_ip = 571; continue _fun00009 }
+ 569:
+                tangon = null;
+ 571:
+                entity['interaction'] = tangon;
+                tangon = michal.interactionData;
+                if(tangon) { _fun00010_ip = 588; continue _fun00009 }
+ 586:
+                tangon = null;
+ 588:
+                entity['interactionData'] = tangon;
+                tangon = michal.interactionMetadata;
+                if(tangon) { _fun00010_ip = 605; continue _fun00009 }
+ 603:
+                tangon = null;
+ 605:
+                entity['interactionMetadata'] = tangon;
+                tangon = michal.interactionError;
+                if(tangon) { _fun00010_ip = 622; continue _fun00009 }
+ 620:
+                tangon = null;
+ 622:
+                entity['interactionError'] = tangon;
+                tangon = michal.roleSubscriptionData;
+                entity['roleSubscriptionData'] = tangon;
+                tangon = michal.purchaseNotification;
+                entity['purchaseNotification'] = tangon;
+                tangon = michal.poll;
+                entity['poll'] = tangon;
+                tangon = michal.potions;
+                entity['potions'] = tangon;
+                tangon = michal.referralTrialOfferId;
+                if(tangon) { _fun00010_ip = 687; continue _fun00009 }
+ 685:
+                tangon = null;
+ 687:
+                entity['referralTrialOfferId'] = tangon;
                 tangon = michal.gift_info;
-                zuuluu = null;
-                if(!(zuuluu == tangon)) { _fun00010_ip = 702; continue _fun00009 }
- 696:
+                if(!(zuuluu == tangon)) { _fun00010_ip = 709; continue _fun00009 }
+ 703:
                 tangon = michal.giftInfo;
- 702:
+ 709:
                 entity['giftInfo'] = tangon;
                 tangon = michal.giftingPrompt;
-                if(tangon) { _fun00010_ip = 719; continue _fun00009 }
- 717:
+                if(tangon) { _fun00010_ip = 726; continue _fun00009 }
+ 724:
                 tangon = null;
- 719:
+ 726:
                 entity['giftingPrompt'] = tangon;
                 tangon = michal.messageSnapshots;
-                if(tangon) { _fun00010_ip = 738; continue _fun00009 }
- 734:
+                if(tangon) { _fun00010_ip = 745; continue _fun00009 }
+ 741:
                 tangon = new Array(0);
- 738:
+ 745:
                 entity['messageSnapshots'] = tangon;
                 tangon = michal.isUnsupported;
-                if(tangon) { _fun00010_ip = 755; continue _fun00009 }
- 753:
+                if(tangon) { _fun00010_ip = 762; continue _fun00009 }
+ 760:
                 tangon = false;
- 755:
+ 762:
                 entity['isUnsupported'] = tangon;
                 tangon = michal.changelog_id;
-                if(!(zuuluu == tangon)) { _fun00010_ip = 785; continue _fun00009 }
- 771:
+                if(!(zuuluu == tangon)) { _fun00010_ip = 792; continue _fun00009 }
+ 778:
                 report = michal.changelogId;
-                if(report) { _fun00010_ip = 782; continue _fun00009 }
- 780:
+                if(report) { _fun00010_ip = 789; continue _fun00009 }
+ 787:
                 report = null;
- 782:
+ 789:
                 tangon = report;
- 785:
+ 792:
                 entity['changelogId'] = tangon;
                 michal = michal.chatWallpaperInfo;
-                if(michal) { _fun00010_ip = 802; continue _fun00009 }
- 800:
+                if(michal) { _fun00010_ip = 809; continue _fun00009 }
+ 807:
                 michal = null;
- 802:
+ 809:
                 entity['chatWallpaperInfo'] = michal;
                 return entity;
             }
@@ -976,7 +978,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 zuuluu = option.bind(yankee)(zuuluu);
                 entity = _closure3_slot4;
-                if(!(golfie === entity)) { _fun00016_ip = 477; continue _fun00015 }
+                if(!(golfie === entity)) { _fun00016_ip = 493; continue _fun00015 }
  130:
                 golfie = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -985,7 +987,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = golfie.bind(offset)(entity);
                 entity = entity.ReactionTypes;
                 entity = entity.BURST;
-                if(!(michal !== entity)) { _fun00016_ip = 333; continue _fun00015 }
+                if(!(michal !== entity)) { _fun00016_ip = 345; continue _fun00015 }
  172:
                 golfie = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -993,7 +995,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = golfie.bind(offset)(entity);
                 entity = entity.ReactionTypes;
                 entity = entity.VOTE;
-                if(!(michal !== entity)) { _fun00016_ip = 267; continue _fun00015 }
+                if(!(michal !== entity)) { _fun00016_ip = 275; continue _fun00015 }
  205:
                 michal = zuuluu.push;
                 entity = {'emoji': null, 'me': null, 'me_burst': false, 'count': 1, 'count_details': null, 'burst_count': 0};
@@ -1004,8 +1006,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = new Array(0);
                 entity['burst_colors'] = golfie;
                 entity = michal.bind(zuuluu)(entity);
-                _fun00016_ip = 477; continue _fun00015;
- 267:
+                _fun00016_ip = 493; continue _fun00015;
+ 275:
                 michal = zuuluu.push;
                 entity = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
                 entity['emoji'] = oscard;
@@ -1015,8 +1017,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = new Array(0);
                 entity['burst_colors'] = golfie;
                 entity = michal.bind(zuuluu)(entity);
-                _fun00016_ip = 477; continue _fun00015;
- 333:
+                _fun00016_ip = 493; continue _fun00015;
+ 345:
                 michal = zuuluu.push;
                 entity = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
                 entity['emoji'] = oscard;
@@ -1032,10 +1034,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = golfie.buildPlatformedThemedEmojiColorPalette;
                 report = {};
                 yankee = null;
-                if(!(yankee == verify)) { _fun00016_ip = 423; continue _fun00015 }
- 419:
+                if(!(yankee == verify)) { _fun00016_ip = 439; continue _fun00015 }
+ 435:
                 verify = new Array(0);
- 423:
+ 439:
                 report['colors'] = verify;
                 verify = _closure1_slot0;
                 yankee = _closure1_slot2;
@@ -1048,7 +1050,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.bind(golfie)(report);
                 entity['themedBurstColors'] = report;
                 entity = michal.bind(zuuluu)(entity);
- 477:
+ 493:
                 michal = tangon.set;
                 entity = 'reactions';
                 entity = michal.bind(tangon)(entity, zuuluu);

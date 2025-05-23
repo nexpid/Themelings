@@ -78,13 +78,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot3;
             entity = {};
             entity['style'] = golfie;
-            if(report) { _fun00002_ip = 300; continue _fun00001 }
+            if(report) { _fun00002_ip = 299; continue _fun00001 }
  143:
             report = null;
-            if(!(report != foxtra)) { _fun00002_ip = 300; continue _fun00001 }
+            if(!(report != foxtra)) { _fun00002_ip = 299; continue _fun00001 }
  152:
             report = '';
-            if(!(report !== foxtra)) { _fun00002_ip = 300; continue _fun00001 }
+            if(!(report !== foxtra)) { _fun00002_ip = 299; continue _fun00001 }
  163:
             option = _closure1_slot5;
             golfie = _closure1_slot1;
@@ -106,24 +106,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = backup.bind(kiloes)(romeon);
             kiloes = _closure1_slot1;
             sizing = _closure1_slot2;
-            if(romeon) { _fun00002_ip = 264; continue _fun00001 }
- 250:
+            if(romeon) { _fun00002_ip = 263; continue _fun00001 }
+ 249:
             romeon = 10;
             romeon = sizing[romeon];
             romeon = kiloes.bind(tangon)(romeon);
-            _fun00002_ip = 276; continue _fun00001;
- 264:
+            _fun00002_ip = 275; continue _fun00001;
+ 263:
             backup = 9;
             backup = sizing[backup];
             romeon = kiloes.bind(tangon)(backup);
- 276:
+ 275:
             report['placeholder'] = romeon;
             romeon = {};
             romeon['uri'] = foxtra;
             report['source'] = romeon;
             report = option.bind(tangon)(golfie, report);
-            _fun00002_ip = 358; continue _fun00001;
- 300:
+            _fun00002_ip = 357; continue _fun00001;
+ 299:
             option = _closure1_slot5;
             golfie = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['adjustsFontSizeToFit'] = offset;
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 358:
+ 357:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

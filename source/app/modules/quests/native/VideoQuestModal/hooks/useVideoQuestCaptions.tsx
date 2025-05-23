@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = 'error';
     tangon['ERROR'] = golfie;
     var _closure1_slot4 = tangon;
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -48,21 +48,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 2;
             report = michal[offset];
             verify = undefined;
-            oscard = tangon.bind(verify)(report);
-            report = oscard.resolveVideoQuestAsset;
+            option = tangon.bind(verify)(report);
+            golfie = option.resolveVideoQuestAsset;
+            report = 3;
+            report = michal[report];
+            report = tangon.bind(verify)(report);
+            report = report.FirstPartyQuestTaskTypes;
+            backup = report.WATCH_VIDEO_ON_MOBILE;
+            report = michal[offset];
+            report = tangon.bind(verify)(report);
+            report = report.VideoVariant;
+            foxtra = report.VIDEO;
             michal = michal[offset];
             michal = tangon.bind(verify)(michal);
-            michal = michal.VideoQuestAssetId;
-            tangon = michal.VIDEO_PLAYER_CAPTION;
-            michal = argFoo;
-            michal = report.bind(oscard)(tangon, michal);
+            michal = michal.VideoAssetProperty;
+            romeon = michal.CAPTION;
+            kiloes = argFoo;
+            sizing = option;
+            michal = sizing[golfie](kiloes, backup, foxtra, romeon, yankee);
             yankee = null;
             tangon = yankee == michal;
             golfie = undefined;
-            if(tangon) { _fun00002_ip = 79; continue _fun00001 }
- 74:
+            if(tangon) { _fun00002_ip = 125; continue _fun00001 }
+ 120:
             golfie = michal.url;
- 79:
+ 125:
             var _closure2_slot0 = golfie;
             oscard = _closure1_slot3;
             tangon = oscard.useState;
@@ -101,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  41:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot1;
-                    michal = 3;
+                    michal = 4;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     michal = tangon.bind(michal)(zuuluu);
@@ -121,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  3: // try_start_0
                             report = _closure1_slot0;
                             tangon = _closure1_slot1;
-                            zuuluu = 4;
+                            zuuluu = 5;
                             tangon = tangon[zuuluu];
                             zuuluu = undefined;
                             report = report.bind(zuuluu)(tangon);

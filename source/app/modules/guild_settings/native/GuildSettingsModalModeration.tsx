@@ -633,34 +633,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = 'render';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            oscard = this;
+            romeon = this;
             tangon = _closure1_slot15;
             zuuluu = _closure1_slot16;
             michal = {};
             golfie = _closure1_slot0;
-            report = _closure1_slot2;
+            verify = _closure1_slot2;
             entity = 16;
-            report = report[entity];
+            report = verify[entity];
             entity = undefined;
             report = golfie.bind(entity)(report);
-            golfie = report.Form;
+            option = report.Form;
             report = {};
-            option = oscard.props;
-            option = option.contentContainerStyle;
-            report['contentContainerStyle'] = option;
-            option = oscard.renderVerificationLevelSection;
-            verify = option.bind(oscard)();
-            option = new Array(2);
-            option[0] = verify;
-            verify = oscard.renderExplicitContentFilter;
-            verify = verify.bind(oscard)();
-            option[1] = verify;
-            report['children'] = option;
-            golfie = tangon.bind(entity)(golfie, report);
+            offset = romeon.props;
+            offset = offset.contentContainerStyle;
+            report['contentContainerStyle'] = offset;
+            offset = romeon.renderVerificationLevelSection;
+            yankee = offset.bind(romeon)();
+            offset = new Array(2);
+            offset[0] = yankee;
+            yankee = romeon.renderExplicitContentFilter;
+            yankee = yankee.bind(romeon)();
+            offset[1] = yankee;
+            report['children'] = offset;
+            option = tangon.bind(entity)(option, report);
             report = new Array(2);
-            report[0] = golfie;
-            oscard = oscard.props;
-            oscard = oscard.navScrim;
+            report[0] = option;
+            option = _closure1_slot14;
+            oscard = 18;
+            oscard = verify[oscard];
+            oscard = golfie.bind(entity)(oscard);
+            golfie = oscard.NavScrim;
+            oscard = {};
+            oscard = option.bind(entity)(golfie, oscard);
             report[1] = oscard;
             michal['children'] = report;
             entity = tangon.bind(entity)(zuuluu, michal);
@@ -740,7 +745,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot17 = tangon;
-    tangon = 21;
+    tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -750,23 +755,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             michal = argFoo;
-            verify = michal.contentContainerStyle;
-            option = michal.navScrim;
+            option = michal.contentContainerStyle;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 18;
+            michal = 19;
             michal = tangon[michal];
             report = undefined;
             golfie = zuuluu.bind(report)(michal);
             michal = golfie.useNavigation;
-            backup = michal.bind(golfie)();
-            michal = 19;
+            foxtra = michal.bind(golfie)();
+            michal = 20;
             golfie = tangon[michal];
-            romeon = zuuluu.bind(report)(golfie);
-            yankee = romeon.useStateFromStoresObject;
+            yankee = zuuluu.bind(report)(golfie);
+            offset = yankee.useStateFromStoresObject;
             golfie = _closure1_slot9;
-            offset = new Array(1);
-            offset[0] = golfie;
+            verify = new Array(1);
+            verify[0] = golfie;
             golfie = function() {
                 michal = _closure1_slot9;
                 entity = michal.getProps;
@@ -780,11 +784,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['hasChanges'] = michal;
                 return entity;
             };
-            golfie = yankee.bind(romeon)(offset, golfie);
-            foxtra = golfie.guild;
-            var _closure2_slot0 = foxtra;
-            romeon = golfie.submitting;
-            yankee = golfie.hasChanges;
+            golfie = offset.bind(yankee)(verify, golfie);
+            romeon = golfie.guild;
+            var _closure2_slot0 = romeon;
+            yankee = golfie.submitting;
+            offset = golfie.hasChanges;
             michal = tangon[michal];
             tangon = zuuluu.bind(report)(michal);
             zuuluu = tangon.useStateFromStores;
@@ -800,32 +804,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
-            offset = zuuluu.bind(tangon)(michal, entity);
+            verify = zuuluu.bind(tangon)(michal, entity);
             entity = null;
-            michal = entity != foxtra;
-            if(!michal) { _fun00014_ip = 252; continue _fun00013 }
- 164:
+            michal = entity != romeon;
+            if(!michal) { _fun00014_ip = 241; continue _fun00013 }
+ 158:
             tangon = _closure1_slot14;
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
-            michal = 20;
+            michal = 21;
             michal = golfie[michal];
             michal = zuuluu.bind(report)(michal);
             zuuluu = michal.RedesignCompat;
             michal = {};
             golfie = _closure1_slot17;
             oscard = {};
-            oscard['navigation'] = backup;
-            oscard['guild'] = foxtra;
-            oscard['submitting'] = romeon;
-            oscard['hasChanges'] = yankee;
-            oscard['canManageGuild'] = offset;
-            oscard['contentContainerStyle'] = verify;
-            oscard['navScrim'] = option;
+            oscard['navigation'] = foxtra;
+            oscard['guild'] = romeon;
+            oscard['submitting'] = yankee;
+            oscard['hasChanges'] = offset;
+            oscard['canManageGuild'] = verify;
+            oscard['contentContainerStyle'] = option;
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 252:
+ 241:
             return entity;
         }
     };

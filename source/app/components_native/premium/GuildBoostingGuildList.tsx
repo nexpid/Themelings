@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = michal.total;
             michal = entity == yankee;
             entity = null;
-            if(michal) { _fun00002_ip = 604; continue _fun00001 }
+            if(michal) { _fun00002_ip = 603; continue _fun00001 }
  148:
             tangon = _closure1_slot9;
             option = _closure1_slot1;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[2] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 604:
+ 603:
             return entity;
         }
     };

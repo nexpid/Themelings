@@ -1,4 +1,4 @@
-// app/modules/collectibles/experiments/CollectiblesTileImpressionLoggingExperiment.tsx
+// app/modules/collectibles/experiments/CollectiblesShopV2Experiment.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -16,15 +16,15 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     verify = report.bind(entity)(tangon);
     option = verify.createExperiment;
-    golfie = {'kind': 'user', 'id': '2024-10_shop_tile_impression_logging', 'label': 'Shop tile impressions logging'};
+    golfie = {'kind': 'user', 'id': '2025-04_improved_collectibles_shop', 'label': 'Collectibles Shop V2 Experiment'};
     tangon = {};
     offset = false;
-    tangon['enabled'] = offset;
+    tangon['useRefactoredCollectiblesShop'] = offset;
     golfie['defaultConfig'] = tangon;
-    yankee = {'id': 1, 'label': 'Enable shop tile impression logging'};
+    yankee = {'id': 1, 'label': 'Use Refactored Collectibles Shop'};
     tangon = 1;
     offset = {};
-    offset['enabled'] = romeon;
+    offset['useRefactoredCollectiblesShop'] = romeon;
     yankee['config'] = offset;
     offset = new Array(1);
     offset[0] = yankee;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/collectibles/experiments/CollectiblesTileImpressionLoggingExperiment.tsx';
+    tangon = 'modules/collectibles/experiments/CollectiblesShopV2Experiment.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) {
         zuuluu = _closure1_slot0;
@@ -43,9 +43,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = argFoo;
         entity['location'] = tangon;
         entity = michal.bind(zuuluu)(entity);
-        entity = entity.enabled;
+        entity = entity.useRefactoredCollectiblesShop;
         return entity;
     };
-    zuuluu['useCollectiblesTileImpressionLogging'] = michal;
+    zuuluu['useCollectiblesShopV2'] = michal;
     return entity;
 })();

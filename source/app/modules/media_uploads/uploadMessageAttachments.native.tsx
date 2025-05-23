@@ -204,8 +204,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = tangon.getMessageForFile;
                             michal = golfie.id;
                             report = zuuluu.bind(tangon)(michal);
-                            michal = null;
-                            michal = michal != report;
+                            verify = null;
+                            michal = verify != report;
                             if(!michal) { _fun00006_ip = 69; continue _fun00005 }
  56:
                             tangon = report.content;
@@ -217,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = _closure4_slot5;
                             michal = zuuluu._aborted;
  82:
-                            if(!michal) { _fun00006_ip = 146; continue _fun00005 }
+                            if(!michal) { _fun00006_ip = 155; continue _fun00005 }
  85:
                             tangon = _closure1_slot1;
                             zuuluu = _closure1_slot2;
@@ -230,11 +230,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             option = 'MESSAGE_DELETE';
                             michal['type'] = option;
                             option = report.nonce;
+                            if(!(verify == option)) { _fun00006_ip = 137; continue _fun00005 }
+ 132:
+                            option = report.id;
+ 137:
                             michal['id'] = option;
                             option = report.channel_id;
                             michal['channelId'] = option;
                             michal = zuuluu.bind(tangon)(michal);
- 146:
+ 155:
                             zuuluu = _closure1_slot1;
                             michal = _closure1_slot2;
                             entity = 4;

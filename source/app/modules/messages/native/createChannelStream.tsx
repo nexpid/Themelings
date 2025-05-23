@@ -261,30 +261,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot19 = option;
             entity = new Array(0);
             var _closure2_slot14 = entity;
-            yankee = {};
-            var _closure2_slot15 = yankee;
+            romeon = {};
+            var _closure2_slot15 = romeon;
             verify = _closure1_slot10;
             michal = offset.slice;
             offset = michal.bind(offset)();
             michal = offset.reverse;
             michal = michal.bind(offset)();
-            offset = verify.bind(option)(michal);
-            verify = offset.bind(option)();
+            yankee = verify.bind(option)(michal);
+            verify = yankee.bind(option)();
             michal = verify.done;
-            if(michal) { _fun00008_ip = 275; continue _fun00007 }
- 225:
-            romeon = verify.value;
-            backup = _closure1_slot5;
-            foxtra = backup.getMessageForFile;
-            michal = romeon.id;
-            michal = foxtra.bind(backup)(michal);
+            offset = null;
+            if(michal) { _fun00008_ip = 296; continue _fun00007 }
+ 227:
+            foxtra = verify.value;
+            kiloes = _closure1_slot5;
+            backup = kiloes.getMessageForFile;
+            michal = foxtra.id;
+            michal = backup.bind(kiloes)(michal);
+            kiloes = offset == michal;
+            backup = undefined;
+            if(kiloes) { _fun00008_ip = 267; continue _fun00007 }
+ 261:
+            backup = michal.nonce;
+ 267:
+            if(!(offset != backup)) { _fun00008_ip = 281; continue _fun00007 }
+ 271:
             michal = michal.nonce;
-            yankee[michal] = romeon;
-            romeon = offset.bind(option)();
-            michal = romeon.done;
-            verify = romeon;
-            if(!michal) { _fun00008_ip = 225; continue _fun00007 }
- 275:
+            romeon[michal] = foxtra;
+ 281:
+            foxtra = yankee.bind(option)();
+            michal = foxtra.done;
+            verify = foxtra;
+            if(!michal) { _fun00008_ip = 227; continue _fun00007 }
+ 296:
             michal = function(argFoo) { // Original name: unreadFilter
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -1108,42 +1118,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.length;
             michal = 0;
             michal = michal === zuuluu;
-            if(!michal) { _fun00008_ip = 373; continue _fun00007 }
- 364:
+            if(!michal) { _fun00008_ip = 394; continue _fun00007 }
+ 385:
             zuuluu = report.loadingMore;
             michal = !zuuluu;
- 373:
-            if(!michal) { _fun00008_ip = 394; continue _fun00007 }
- 376:
-            zuuluu = report.hasMoreAfter;
-            if(zuuluu) { _fun00008_ip = 391; continue _fun00007 }
- 385:
-            zuuluu = report.hasMoreBefore;
- 391:
-            michal = zuuluu;
  394:
-            if(!michal) { _fun00008_ip = 545; continue _fun00007 }
- 400:
+            if(!michal) { _fun00008_ip = 415; continue _fun00007 }
+ 397:
+            zuuluu = report.hasMoreAfter;
+            if(zuuluu) { _fun00008_ip = 412; continue _fun00007 }
+ 406:
+            zuuluu = report.hasMoreBefore;
+ 412:
+            michal = zuuluu;
+ 415:
+            if(!michal) { _fun00008_ip = 566; continue _fun00007 }
+ 421:
             zuuluu = entity.push;
             michal = {};
             verify = report.hasMoreBefore;
             offset = _closure1_slot7;
-            if(verify) { _fun00008_ip = 428; continue _fun00007 }
- 420:
+            if(verify) { _fun00008_ip = 449; continue _fun00007 }
+ 441:
             verify = offset.LOAD_AFTER;
-            _fun00008_ip = 434; continue _fun00007;
- 428:
+            _fun00008_ip = 455; continue _fun00007;
+ 449:
             verify = offset.LOAD_BEFORE;
- 434:
+ 455:
             michal['rowType'] = verify;
             verify = _closure1_slot6;
-            if(golfie) { _fun00008_ip = 454; continue _fun00007 }
- 446:
+            if(golfie) { _fun00008_ip = 475; continue _fun00007 }
+ 467:
             golfie = verify.NOOP;
-            _fun00008_ip = 460; continue _fun00007;
- 454:
+            _fun00008_ip = 481; continue _fun00007;
+ 475:
             golfie = verify.UPDATE;
- 460:
+ 481:
             michal['changeType'] = golfie;
             michal['roleStyle'] = oscard;
             report = report.loadingMore;
@@ -1162,7 +1172,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.bind(oscard)(tangon);
             michal['text'] = tangon;
             michal = zuuluu.bind(entity)(michal);
- 545:
+ 566:
             return entity;
         }
     };

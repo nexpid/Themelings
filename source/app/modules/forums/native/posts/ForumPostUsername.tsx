@@ -10,146 +10,167 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: ForumPostUsername
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.thread;
-            romeon = entity.authorName;
-            echoed = entity.authorColor;
-            offset = entity.containerStyle;
-            output = entity.roleDotStyle;
-            backup = entity.textStyle;
-            yankee = entity.suffix;
-            entity = entity.hasUnreads;
-            michal = _closure1_slot8;
+            michal = argFoo;
+            entity = michal.thread;
+            romeon = michal.authorName;
+            ctrled = michal.authorColor;
+            source = michal.authorColors;
+            offset = michal.containerStyle;
+            echoed = michal.roleDotStyle;
+            backup = michal.textStyle;
+            yankee = michal.suffix;
+            michal = michal.hasUnreads;
+            zuuluu = _closure1_slot8;
             report = undefined;
-            foxtra = michal.bind(report)();
-            michal = {};
-            michal['thread'] = zuuluu;
-            michal = michal.thread;
-            zuuluu = _closure1_slot5;
-            michal = michal.parent_id;
-            michal = zuuluu.bind(report)(michal);
-            zuuluu = michal.layoutType;
-            tangon = _closure1_slot0;
+            foxtra = zuuluu.bind(report)();
+            zuuluu = {};
+            zuuluu['thread'] = entity;
+            zuuluu = zuuluu.thread;
+            tangon = _closure1_slot5;
+            zuuluu = zuuluu.parent_id;
+            zuuluu = tangon.bind(report)(zuuluu);
+            tangon = zuuluu.layoutType;
+            oscard = _closure1_slot0;
+            option = _closure1_slot2;
+            zuuluu = 7;
+            zuuluu = option[zuuluu];
+            zuuluu = oscard.bind(report)(zuuluu);
+            zuuluu = zuuluu.ForumLayout;
+            zuuluu = zuuluu.GRID;
+            option = 158;
+            if(!(tangon === zuuluu)) { _fun00002_ip = 146; continue _fun00001 }
+ 143:
+            option = 72;
+ 146:
+            tangon = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 7;
-            michal = oscard[michal];
-            michal = tangon.bind(report)(michal);
-            michal = michal.ForumLayout;
-            michal = michal.GRID;
-            oscard = 158;
-            if(!(zuuluu === michal)) { _fun00002_ip = 140; continue _fun00001 }
- 137:
-            oscard = 72;
- 140:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 8;
-            michal = tangon[michal];
-            michal = zuuluu.bind(report)(michal);
-            option = michal.bind(report)();
-            zuuluu = _closure1_slot0;
-            michal = 9;
-            michal = tangon[michal];
-            michal = zuuluu.bind(report)(michal);
-            michal = michal.GRID_HORIZONTAL_PADDING;
-            michal = option - michal;
-            option = michal - oscard;
-            michal = 10;
-            michal = tangon[michal];
-            oscard = zuuluu.bind(report)(michal);
-            tangon = oscard.useStateFromStores;
-            michal = _closure1_slot4;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            michal = function() {
+            zuuluu = 8;
+            zuuluu = oscard[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            verify = zuuluu.bind(report)();
+            tangon = _closure1_slot0;
+            zuuluu = 9;
+            zuuluu = oscard[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            zuuluu = zuuluu.GRID_HORIZONTAL_PADDING;
+            zuuluu = verify - zuuluu;
+            option = zuuluu - option;
+            zuuluu = 10;
+            zuuluu = oscard[zuuluu];
+            verify = tangon.bind(report)(zuuluu);
+            oscard = verify.useStateFromStores;
+            zuuluu = _closure1_slot4;
+            tangon = new Array(1);
+            tangon[0] = zuuluu;
+            zuuluu = function() {
                 entity = _closure1_slot4;
                 entity = entity.roleStyle;
                 return entity;
             };
-            verify = tangon.bind(oscard)(zuuluu, michal);
-            michal = 'username';
-            if(!(michal === verify)) { _fun00002_ip = 252; continue _fun00001 }
- 246:
-            michal = null;
-            if(!(michal == echoed)) { _fun00002_ip = 256; continue _fun00001 }
+            verify = oscard.bind(verify)(tangon, zuuluu);
+            zuuluu = 'username';
+            if(!(zuuluu === verify)) { _fun00002_ip = 258; continue _fun00001 }
  252:
+            zuuluu = null;
+            if(!(zuuluu == ctrled)) { _fun00002_ip = 262; continue _fun00001 }
+ 258:
             kiloes = {};
-            _fun00002_ip = 265; continue _fun00001;
- 256:
-            michal = {};
-            michal['color'] = echoed;
-            kiloes = michal;
- 265:
-            if(entity) { _fun00002_ip = 286; continue _fun00001 }
- 268:
-            sizing = {};
-            entity = 0.8;
-            sizing['opacity'] = entity;
-            _fun00002_ip = 288; continue _fun00001;
- 286:
-            sizing = {};
- 288:
+            _fun00002_ip = 271; continue _fun00001;
+ 262:
+            zuuluu = {};
+            zuuluu['color'] = ctrled;
+            kiloes = zuuluu;
+ 271:
+            if(michal) { _fun00002_ip = 292; continue _fun00001 }
+ 274:
+            result = {};
+            michal = 0.8;
+            result['opacity'] = michal;
+            _fun00002_ip = 294; continue _fun00001;
+ 292:
+            result = {};
+ 294:
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
+            michal = 11;
+            michal = tangon[michal];
+            oscard = zuuluu.bind(report)(michal);
+            michal = oscard.useMemoizedProcessedGradientRoleColors;
+            sizing = michal.bind(oscard)(source);
+            michal = 12;
+            michal = tangon[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.useIsRoleStyleAndRoleColorsEligibleForERC;
+            entity = entity.guild_id;
+            output = michal.bind(zuuluu)(entity, verify, sizing);
             oscard = null;
             michal = oscard == romeon;
             entity = null;
-            if(michal) { _fun00002_ip = 583; continue _fun00001 }
- 302:
+            if(michal) { _fun00002_ip = 668; continue _fun00001 }
+ 369:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot3;
             michal = {};
-            result = {};
-            result['maxWidth'] = option;
-            source = foxtra.authorContainer;
-            ctrled = result;
-            option = copyDataProperties(ctrled, source);
+            update = {};
+            update['maxWidth'] = option;
+            config = foxtra.authorContainer;
+            record = update;
+            option = copyDataProperties(record, config);
             option = new Array(3);
-            option[0] = result;
-            option[1] = sizing;
+            option[0] = update;
+            option[1] = result;
             option[2] = offset;
             michal['style'] = option;
             option = 'button';
             michal['accessibilityRole'] = option;
             option = 'dot';
             option = option === verify;
-            if(!option) { _fun00002_ip = 375; continue _fun00001 }
- 371:
-            option = oscard != echoed;
- 375:
-            if(!option) { _fun00002_ip = 470; continue _fun00001 }
- 378:
+            if(!option) { _fun00002_ip = 442; continue _fun00001 }
+ 438:
+            option = oscard != ctrled;
+ 442:
+            if(!option) { _fun00002_ip = 541; continue _fun00001 }
+ 445:
             offset = _closure1_slot6;
             verify = _closure1_slot3;
             oscard = {};
-            result = foxtra.roleDotContainer;
-            sizing = new Array(2);
-            sizing[0] = result;
-            sizing[1] = output;
-            oscard['style'] = sizing;
-            result = _closure1_slot6;
-            output = _closure1_slot0;
-            update = _closure1_slot2;
-            sizing = 11;
-            sizing = update[sizing];
-            sizing = output.bind(report)(sizing);
-            output = sizing.RoleDot;
-            sizing = {};
-            update = 'small';
-            sizing['size'] = update;
-            sizing['color'] = echoed;
-            sizing = result.bind(report)(output, sizing);
-            oscard['children'] = sizing;
+            update = foxtra.roleDotContainer;
+            result = new Array(2);
+            result[0] = update;
+            result[1] = echoed;
+            oscard['style'] = result;
+            update = _closure1_slot6;
+            echoed = _closure1_slot0;
+            vacuum = _closure1_slot2;
+            result = 13;
+            result = vacuum[result];
+            result = echoed.bind(report)(result);
+            echoed = result.RoleDot;
+            result = {};
+            vacuum = 'small';
+            result['size'] = vacuum;
+            result['color'] = ctrled;
+            result['colors'] = source;
+            result = update.bind(report)(echoed, result);
+            oscard['children'] = result;
             option = offset.bind(report)(verify, oscard);
- 470:
+ 541:
             oscard = new Array(2);
             oscard[0] = option;
             verify = _closure1_slot7;
             option = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 12;
+            golfie = 14;
             golfie = offset[golfie];
             golfie = option.bind(report)(golfie);
             option = golfie.Text;
-            golfie = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'lineClamp': 1};
+            golfie = {'variant': 'text-sm/semibold', 'color': 'header-primary', 'gradientColors': null, 'lineClamp': 1};
+            offset = undefined;
+            if(!output) { _fun00002_ip = 600; continue _fun00001 }
+ 597:
+            offset = sizing;
+ 600:
+            golfie['gradientColors'] = offset;
             offset = new Array(3);
             offset[0] = kiloes;
             offset[1] = backup;
@@ -164,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 583:
+ 668:
             return entity;
         }
     };
@@ -216,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['authorName'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 13;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -226,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            foxtra = entity.thread;
+            backup = entity.thread;
             oscard = entity.hasUnreads;
             offset = entity.suffix;
             verify = entity.containerStyle;
@@ -239,56 +260,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = undefined;
             zuuluu = zuuluu.bind(report)(entity);
             entity = zuuluu.useForumPostAuthor;
-            entity = entity.bind(zuuluu)(foxtra);
+            entity = entity.bind(zuuluu)(backup);
             zuuluu = entity.user;
             tangon = entity.author;
             entity = null;
             yankee = entity == tangon;
-            romeon = undefined;
+            foxtra = undefined;
             if(yankee) { _fun00004_ip = 103; continue _fun00003 }
  97:
-            romeon = tangon.nick;
+            foxtra = tangon.nick;
  103:
-            if(!(entity == romeon)) { _fun00004_ip = 124; continue _fun00003 }
+            if(!(entity == foxtra)) { _fun00004_ip = 124; continue _fun00003 }
  107:
-            backup = entity == zuuluu;
+            romeon = entity == zuuluu;
             yankee = undefined;
-            if(backup) { _fun00004_ip = 121; continue _fun00003 }
+            if(romeon) { _fun00004_ip = 121; continue _fun00003 }
  116:
             yankee = zuuluu.username;
  121:
-            romeon = yankee;
+            foxtra = yankee;
  124:
-            backup = entity == tangon;
-            yankee = undefined;
-            if(backup) { _fun00004_ip = 139; continue _fun00003 }
+            yankee = entity == tangon;
+            romeon = undefined;
+            if(yankee) { _fun00004_ip = 139; continue _fun00003 }
  133:
-            yankee = tangon.colorString;
+            romeon = tangon.colorString;
  139:
+            kiloes = entity == tangon;
+            yankee = undefined;
+            if(kiloes) { _fun00004_ip = 154; continue _fun00003 }
+ 148:
+            yankee = tangon.colorStrings;
+ 154:
             zuuluu = entity == zuuluu;
             entity = null;
-            if(zuuluu) { _fun00004_ip = 204; continue _fun00003 }
- 148:
+            if(zuuluu) { _fun00004_ip = 224; continue _fun00003 }
+ 163:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot9;
             michal = {};
-            michal['thread'] = foxtra;
-            michal['authorName'] = romeon;
-            michal['authorColor'] = yankee;
+            michal['thread'] = backup;
+            michal['authorName'] = foxtra;
+            michal['authorColor'] = romeon;
+            michal['authorColors'] = yankee;
             michal['suffix'] = offset;
             michal['containerStyle'] = verify;
             michal['roleDotStyle'] = option;
             michal['textStyle'] = golfie;
             michal['hasUnreads'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 204:
+ 224:
             return entity;
         }
     };
     zuuluu['ForumPostAuthor'] = tangon;
     michal = function(argFoo) { // Original name: ForumPostMessageAuthor
         entity = argFoo;
-        romeon = entity.thread;
+        foxtra = entity.thread;
         offset = entity.message;
         report = entity.hasUnreads;
         verify = entity.suffix;
@@ -302,15 +330,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = undefined;
         zuuluu = zuuluu.bind(tangon)(michal);
         michal = zuuluu.useForumPostMessageAuthor;
-        michal = michal.bind(zuuluu)(offset, romeon);
-        yankee = michal.authorName;
-        offset = michal.authorColor;
+        michal = michal.bind(zuuluu)(offset, foxtra);
+        romeon = michal.authorName;
+        yankee = michal.authorColor;
+        offset = michal.authorColors;
         zuuluu = _closure1_slot6;
         michal = _closure1_slot9;
         entity = {};
-        entity['thread'] = romeon;
-        entity['authorName'] = yankee;
-        entity['authorColor'] = offset;
+        entity['thread'] = foxtra;
+        entity['authorName'] = romeon;
+        entity['authorColor'] = yankee;
+        entity['authorColors'] = offset;
         entity['suffix'] = verify;
         entity['containerStyle'] = option;
         entity['roleDotStyle'] = golfie;

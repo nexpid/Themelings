@@ -335,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         tangon = 'wss:';
  515:
         var _closure1_slot30 = tangon;
-        tangon = 61;
+        tangon = 62;
         tangon = oscard[tangon];
         tangon = golfie.bind(entity)(tangon);
         michal = function(argFoo) {
@@ -6557,24 +6557,38 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = function() {
                         _fun00169: for(var _fun00170_ip = 0; ; ) switch(_fun00170_ip) {
  0:
-                            michal = _closure3_slot1;
-                            zuuluu = 0;
-                            if(!(michal > zuuluu)) { _fun00170_ip = 33; continue _fun00169 }
- 13:
-                            report = _closure3_slot0;
-                            tangon = report._trackSecureFrameTransition;
-                            michal = _closure3_slot1;
-                            michal = tangon.bind(report)(zuuluu, michal);
- 33:
-                            entity = _closure3_slot0;
-                            michal = entity._connection;
-                            entity = null;
-                            if(!(entity != michal)) { _fun00170_ip = 60; continue _fun00169 }
- 49:
-                            entity = michal.executeSecureFramesTransition;
-                            entity = entity.bind(michal)(zuuluu);
- 60:
                             entity = undefined;
+                            michal = undefined;
+                            report = _closure3_slot1;
+                            tangon = 0;
+                            if(!(report > tangon)) { _fun00170_ip = 37; continue _fun00169 }
+ 17:
+                            golfie = _closure3_slot0;
+                            oscard = golfie._trackSecureFrameTransition;
+                            report = _closure3_slot1;
+                            report = oscard.bind(golfie)(tangon, report);
+ 37: // try_start_0
+                            zuuluu = _closure3_slot0;
+                            report = zuuluu._connection;
+                            michal = report;
+                            zuuluu = null;
+                            if(!(zuuluu != report)) { _fun00170_ip = 70; continue _fun00169 }
+ 56:
+                            zuuluu = michal;
+                            michal = zuuluu.executeSecureFramesTransition;
+                            michal = michal.bind(zuuluu)(tangon);
+ 70: // try_end0
+                            _fun00170_ip = 108; continue _fun00169;
+ 72: // catch_target0
+                            CatchBlockStart(arg_register=3);
+                            zuuluu = _closure1_slot1;
+                            report = _closure1_slot3;
+                            michal = 59;
+                            michal = report[michal];
+                            zuuluu = zuuluu.bind(entity)(michal);
+                            michal = zuuluu.captureException;
+                            michal = michal.bind(zuuluu)(tangon);
+ 108:
                             return entity;
                         }
                     };
@@ -6856,24 +6870,40 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = function(argFoo) { // Original name: value
                 _fun00183: for(var _fun00184_ip = 0; ; ) switch(_fun00184_ip) {
  0:
-                    zuuluu = argFoo;
-                    entity = this;
-                    report = entity.logger;
-                    tangon = report.info;
-                    michal = global;
-                    michal = michal.HermesInternal;
-                    oscard = michal.concat;
-                    michal = 'Executing DAVE protocol transition: ';
-                    michal = oscard.bind(michal)(zuuluu);
-                    michal = tangon.bind(report)(michal);
-                    michal = entity._connection;
-                    entity = null;
-                    if(!(entity != michal)) { _fun00184_ip = 69; continue _fun00183 }
- 58:
-                    entity = michal.executeSecureFramesTransition;
-                    entity = entity.bind(michal)(zuuluu);
- 69:
+                    verify = argFoo;
+                    tangon = this;
+                    michal = verify;
                     entity = undefined;
+                    zuuluu = undefined;
+                    golfie = tangon.logger;
+                    oscard = golfie.info;
+                    report = global;
+                    report = report.HermesInternal;
+                    option = report.concat;
+                    report = 'Executing DAVE protocol transition: ';
+                    report = option.bind(report)(verify);
+                    report = oscard.bind(golfie)(report);
+ 53: // try_start_0
+                    report = tangon._connection;
+                    zuuluu = report;
+                    tangon = null;
+                    if(!(tangon != report)) { _fun00184_ip = 82; continue _fun00183 }
+ 68:
+                    tangon = zuuluu;
+                    zuuluu = tangon.executeSecureFramesTransition;
+                    michal = zuuluu.bind(tangon)(michal);
+ 82: // try_end0
+                    _fun00184_ip = 120; continue _fun00183;
+ 84: // catch_target0
+                    CatchBlockStart(arg_register=3);
+                    zuuluu = _closure1_slot1;
+                    report = _closure1_slot3;
+                    michal = 59;
+                    michal = report[michal];
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.captureException;
+                    michal = michal.bind(zuuluu)(tangon);
+ 120:
                     return entity;
                 }
             };
@@ -7446,7 +7476,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  61:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot3;
-                    entity = 59;
+                    entity = 60;
                     michal = michal[entity];
                     entity = undefined;
                     zuuluu = zuuluu.bind(entity)(michal);
@@ -7503,7 +7533,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  37:
                     report = _closure1_slot1;
                     zuuluu = _closure1_slot3;
-                    michal = 60;
+                    michal = 61;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     zuuluu = report.bind(michal)(zuuluu);
@@ -7609,7 +7639,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         michal = michal.bind(entity)(tangon);
-        tangon = 62;
+        tangon = 63;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;

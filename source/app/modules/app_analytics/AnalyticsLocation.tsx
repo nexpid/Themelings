@@ -604,6 +604,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['COLLECTIBLES_SHOP_FULLSCREEN'] = entity;
     entity = 'collectibles shop orbs tab';
     michal['COLLECTIBLES_SHOP_ORBS_TAB'] = entity;
+    entity = 'collectibles shop avatar decorations tab';
+    michal['COLLECTIBLES_SHOP_AVATAR_DECORATIONS_TAB'] = entity;
+    entity = 'collectibles shop profile effects tab';
+    michal['COLLECTIBLES_SHOP_PROFILE_EFFECTS_TAB'] = entity;
+    entity = 'collectibles shop nameplates tab';
+    michal['COLLECTIBLES_SHOP_NAMEPLATES_TAB'] = entity;
+    entity = 'collectibles shop bundles tab';
+    michal['COLLECTIBLES_SHOP_BUNDLES_TAB'] = entity;
     entity = 'collectibles shop index page';
     michal['COLLECTIBLES_SHOP_INDEX_PAGE'] = entity;
     entity = 'collectibles shop card';

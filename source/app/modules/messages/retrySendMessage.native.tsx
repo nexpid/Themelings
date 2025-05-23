@@ -47,16 +47,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = romeon.bind(foxtra)(option, golfie, zuuluu);
             zuuluu = report.isCommandType;
             zuuluu = zuuluu.bind(report)();
-            if(zuuluu) { _fun00002_ip = 277; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 298; continue _fun00001 }
  89:
-            output = report.content;
+            kiloes = report.content;
             zuuluu = report.tts;
-            backup = report.messageReference;
-            kiloes = report.flags;
-            sizing = report.nonce;
-            foxtra = null;
-            golfie = foxtra == offset;
-            romeon = undefined;
+            romeon = report.messageReference;
+            sizing = report.flags;
+            output = report.nonce;
+            backup = null;
+            golfie = backup == offset;
+            foxtra = undefined;
             if(golfie) { _fun00002_ip = 145; continue _fun00001 }
  128:
             option = offset.map;
@@ -82,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            romeon = option.bind(offset)(golfie);
+            foxtra = option.bind(offset)(golfie);
  145:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -91,24 +91,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = offset.sendMessage;
             option = oscard.id;
             golfie = {};
-            golfie['content'] = output;
+            golfie['content'] = kiloes;
             golfie['tts'] = zuuluu;
             zuuluu = new Array(0);
             golfie['invalidEmojis'] = zuuluu;
             zuuluu = new Array(0);
             golfie['validNonShortcutEmojis'] = zuuluu;
             zuuluu = {};
-            zuuluu['nonce'] = sizing;
-            zuuluu['flags'] = kiloes;
-            kiloes = foxtra != backup;
-            foxtra = undefined;
-            if(!kiloes) { _fun00002_ip = 225; continue _fun00001 }
- 222:
-            foxtra = backup;
- 225:
-            zuuluu['messageReference'] = foxtra;
-            zuuluu['attachmentsToUpload'] = romeon;
-            yankee = function(argFoo, argBar, argBaz) { // Original name: onAttachmentUploadError
+            source = zuuluu;
+            update = tangon;
+            kiloes = copyDataProperties(source, update);
+            kiloes = 'nonce';
+            zuuluu[kiloes] = output;
+            kiloes = 'flags';
+            zuuluu[kiloes] = sizing;
+            kiloes = backup != romeon;
+            backup = undefined;
+            if(!kiloes) { _fun00002_ip = 244; continue _fun00001 }
+ 241:
+            backup = romeon;
+ 244:
+            romeon = 'messageReference';
+            zuuluu[romeon] = backup;
+            romeon = 'attachmentsToUpload';
+            zuuluu[romeon] = foxtra;
+            romeon = function(argFoo, argBar, argBaz) { // Original name: onAttachmentUploadError
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 3;
@@ -132,28 +139,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            zuuluu['onAttachmentUploadError'] = yankee;
-            source = zuuluu;
-            update = tangon;
-            yankee = copyDataProperties(source, update);
+            yankee = 'onAttachmentUploadError';
+            zuuluu[yankee] = romeon;
             ctrled = offset;
             source = option;
             update = golfie;
             echoed = undefined;
             result = zuuluu;
             zuuluu = ctrled[verify](source, update, echoed, result, output);
-            _fun00002_ip = 337; continue _fun00001;
- 277:
+            _fun00002_ip = 358; continue _fun00001;
+ 298:
             zuuluu = report.interactionData;
             option = null;
             zuuluu = option != zuuluu;
-            if(!zuuluu) { _fun00002_ip = 301; continue _fun00001 }
- 292:
+            if(!zuuluu) { _fun00002_ip = 322; continue _fun00001 }
+ 313:
             golfie = tangon.applicationId;
             zuuluu = option != golfie;
- 301:
-            if(!zuuluu) { _fun00002_ip = 337; continue _fun00001 }
- 304:
+ 322:
+            if(!zuuluu) { _fun00002_ip = 358; continue _fun00001 }
+ 325:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 1;
@@ -161,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.retryCommandMessage;
             michal = michal.bind(zuuluu)(report, oscard, tangon);
- 337:
+ 358:
             return entity;
         }
     };

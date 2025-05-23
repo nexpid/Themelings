@@ -49,8 +49,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.isReady;
             michal = zuuluu.bind(tangon)();
  57:
-            if(!michal) { _fun00002_ip = 174; continue _fun00001 }
- 60:
+            if(!michal) { _fun00002_ip = 188; continue _fun00001 }
+ 63:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 3;
@@ -61,27 +61,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = 'USER_SETTINGS_MODAL_INIT';
             michal['type'] = option;
             option = report.screen;
-            if(!(golfie == option)) { _fun00002_ip = 115; continue _fun00001 }
- 105:
+            if(!(golfie == option)) { _fun00002_ip = 118; continue _fun00001 }
+ 108:
             verify = _closure1_slot3;
             option = verify.OVERVIEW;
- 115:
+ 118:
             michal['section'] = option;
             option = report.subsection;
             verify = golfie != option;
             golfie = null;
-            if(!verify) { _fun00002_ip = 137; continue _fun00001 }
- 134:
-            golfie = option;
+            if(!verify) { _fun00002_ip = 140; continue _fun00001 }
  137:
+            golfie = option;
+ 140:
             michal['subsection'] = golfie;
             golfie = report.analyticsLocation;
             michal['analyticsLocation'] = golfie;
+            golfie = report.scrollPosition;
+            michal['scrollPosition'] = golfie;
             michal = zuuluu.bind(oscard)(michal);
             zuuluu = tangon.navigate;
             michal = 'settings';
             michal = zuuluu.bind(tangon)(michal, report);
- 174:
+ 188:
             return entity;
         }
     };

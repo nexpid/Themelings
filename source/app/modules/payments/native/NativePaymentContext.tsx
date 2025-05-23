@@ -59,14 +59,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = 5;
         option = oscard[tangon];
         tangon = undefined;
-        offset = zuuluu.bind(tangon)(option);
-        verify = offset.useNativeIAPPayments;
-        option = {};
-        yankee = new Array(0);
-        option['productIds'] = yankee;
-        yankee = false;
-        option['fetchingProductIDs'] = yankee;
-        option = verify.bind(offset)(option);
+        verify = zuuluu.bind(tangon)(option);
+        option = verify.useNativeIAPPayments;
+        option = option.bind(verify)();
         yankee = option.nativePaymentsConnected;
         option = option.storeFront;
         var _closure2_slot1 = option;

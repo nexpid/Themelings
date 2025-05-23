@@ -360,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     tangon = tangon.bind(entity)();
-    oscard = 18;
+    oscard = 19;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['openRewardDetailsBottomSheet'] = oscard;
     zuuluu['viewReward'] = report;
     zuuluu['handleRewardClaimThenView'] = tangon;
-    michal = function() {
+    tangon = function() {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zuuluu = arguments[0];
@@ -444,6 +444,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['openQuestHome'] = michal;
+    zuuluu['openQuestHome'] = tangon;
+    michal = function(argFoo) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            zuuluu = argFoo;
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 18;
+            michal = michal[entity];
+            entity = undefined;
+            michal = tangon.bind(entity)(michal);
+            entity = michal.isIOS;
+            entity = entity.bind(michal)();
+            tangon = zuuluu.mimetype;
+            michal = 'video/mp4';
+            michal = michal === tangon;
+            if(entity) { _fun00012_ip = 81; continue _fun00011 }
+ 57:
+            entity = michal;
+            if(michal) { _fun00012_ip = 79; continue _fun00011 }
+ 63:
+            tangon = zuuluu.mimetype;
+            zuuluu = 'video/webm';
+            entity = zuuluu === tangon;
+ 79:
+            _fun00012_ip = 84; continue _fun00011;
+ 81:
+            entity = michal;
+ 84:
+            return entity;
+        }
+    };
+    zuuluu['isHeroVideoSupported'] = michal;
     return entity;
 })();

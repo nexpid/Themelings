@@ -583,16 +583,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup;
  228:
             entity['theme'] = foxtra;
-            if(!(yankee == offset)) { _fun00010_ip = 252; continue _fun00009 }
- 237:
+            if(!(yankee == offset)) { _fun00010_ip = 251; continue _fun00009 }
+ 236:
             foxtra = yankee != romeon;
             yankee = undefined;
-            if(!foxtra) { _fun00010_ip = 249; continue _fun00009 }
- 246:
+            if(!foxtra) { _fun00010_ip = 248; continue _fun00009 }
+ 245:
             yankee = romeon;
- 249:
+ 248:
             offset = yankee;
- 252:
+ 251:
             entity['initialState'] = offset;
             golfie = function() { // Original name: onReady
                 zuuluu = _closure1_slot0;

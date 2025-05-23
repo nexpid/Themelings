@@ -444,15 +444,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = _closure1_slot11;
                     report = golfie.getCurrentAppIntent;
                     report = report.bind(golfie)();
-                    if(!(zuuluu == oscard)) { _fun00012_ip = 160; continue _fun00011 }
- 125:
+                    if(!(zuuluu == oscard)) { _fun00012_ip = 161; continue _fun00011 }
+ 126:
                     offset = _closure1_slot18;
                     verify = offset.stopBroadcastWithError;
                     option = -1;
                     golfie = 'Not currently in a voice channel';
                     golfie = verify.bind(offset)(option, golfie);
-                    _fun00012_ip = 382; continue _fun00011;
- 160:
+                    _fun00012_ip = 383; continue _fun00011;
+ 161:
                     golfie = oscard.getGuildId;
                     yankee = golfie.bind(oscard)();
                     option = _closure1_slot0;
@@ -470,8 +470,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = option.getCurrentUserActiveStream;
                     yankee = golfie.bind(option)();
                     var _closure4_slot0 = yankee;
-                    if(!(zuuluu != yankee)) { _fun00012_ip = 382; continue _fun00011 }
- 246:
+                    if(!(zuuluu != yankee)) { _fun00012_ip = 383; continue _fun00011 }
+ 247:
                     option = _closure1_slot1;
                     romeon = _closure1_slot2;
                     golfie = 23;
@@ -489,8 +489,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = _closure1_slot18;
                     golfie = oscard.platform;
                     oscard = 'android';
-                    if(!(oscard === golfie)) { _fun00012_ip = 354; continue _fun00011 }
- 328:
+                    if(!(oscard === golfie)) { _fun00012_ip = 355; continue _fun00011 }
+ 329:
                     option = _closure1_slot23;
                     golfie = option.start;
                     oscard = 15000;
@@ -546,15 +546,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     tangon = golfie.bind(option)(oscard, tangon);
- 354:
-                    if(!(zuuluu != report)) { _fun00012_ip = 382; continue _fun00011 }
- 358:
+ 355:
+                    if(!(zuuluu != report)) { _fun00012_ip = 383; continue _fun00011 }
+ 359:
                     tangon = _closure1_slot10;
                     zuuluu = tangon.openURL;
                     michal = _closure1_slot17;
                     michal = michal.bind(entity)(report);
                     michal = zuuluu.bind(tangon)(michal);
- 382:
+ 383:
                     return entity;
                 }
             };
@@ -594,24 +594,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = 'Broadcast Annotated:';
                     michal = tangon.bind(report)(michal, zuuluu);
                     michal = 'com.hammerandchisel.discord';
-                    if(!(michal !== zuuluu)) { _fun00014_ip = 97; continue _fun00013 }
- 37:
+                    if(!(michal !== zuuluu)) { _fun00014_ip = 98; continue _fun00013 }
+ 38:
                     report = _closure1_slot24;
                     tangon = report.indexOf;
                     michal = 0;
                     oscard = tangon.bind(report)(zuuluu, michal);
                     michal = -1;
-                    if(!(oscard > michal)) { _fun00014_ip = 83; continue _fun00013 }
- 64:
+                    if(!(oscard > michal)) { _fun00014_ip = 84; continue _fun00013 }
+ 65:
                     report = _closure1_slot24;
                     tangon = report.splice;
                     michal = 1;
                     michal = tangon.bind(report)(oscard, michal);
- 83:
+ 84:
                     michal = _closure1_slot24;
                     entity = michal.push;
                     entity = entity.bind(michal)(zuuluu);
- 97:
+ 98:
                     entity = undefined;
                     return entity;
                 }

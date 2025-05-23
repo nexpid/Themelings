@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['isModeratorReportThreadStarterMessage'] = tangon;
-    michal = function(argFoo) { // Original name: sortedModeratorReportTags
+    tangon = function(argFoo) { // Original name: sortedModeratorReportTags
         zuuluu = argFoo;
         michal = zuuluu.sort;
         entity = function(argFoo, argBar) {
@@ -410,6 +410,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zuuluu['sortedModeratorReportTags'] = michal;
+    zuuluu['sortedModeratorReportTags'] = tangon;
+    michal = function(argFoo) { // Original name: isModeratorReportMessage
+        entity = argFoo;
+        zuuluu = entity.messageSnapshots;
+        michal = zuuluu.some;
+        entity = function(argFoo) {
+            entity = argFoo;
+            michal = entity.moderatorReport;
+            entity = null;
+            entity = entity != michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['isModeratorReportMessage'] = michal;
     return entity;
 })();

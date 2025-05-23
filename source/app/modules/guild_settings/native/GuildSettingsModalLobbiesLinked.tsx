@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot5 = tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -154,20 +154,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: GuildSettingsModalLobbiesLinked
         entity = argFoo;
-        offset = entity.contentContainerStyle;
-        oscard = entity.navScrim;
+        romeon = entity.contentContainerStyle;
         zuuluu = entity.guildId;
         golfie = _closure1_slot0;
-        romeon = _closure1_slot2;
+        verify = _closure1_slot2;
         entity = 7;
-        entity = romeon[entity];
+        entity = verify[entity];
         tangon = undefined;
         michal = golfie.bind(tangon)(entity);
         entity = michal.useChannelsAllowedToUnlink;
-        option = entity.bind(michal)(zuuluu);
+        report = entity.bind(michal)(zuuluu);
         michal = _closure1_slot1;
         entity = 8;
-        entity = romeon[entity];
+        entity = verify[entity];
         zuuluu = michal.bind(tangon)(entity);
         michal = zuuluu.groupBy;
         entity = function(argFoo) {
@@ -185,28 +184,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu = michal.bind(zuuluu)(option, entity);
+        zuuluu = michal.bind(zuuluu)(report, entity);
         var _closure2_slot0 = zuuluu;
         entity = global;
         michal = entity.Object;
         entity = michal.keys;
-        yankee = entity.bind(michal)(zuuluu);
-        var _closure2_slot1 = yankee;
+        foxtra = entity.bind(michal)(zuuluu);
+        var _closure2_slot1 = foxtra;
         zuuluu = _closure1_slot5;
         entity = 9;
-        entity = romeon[entity];
+        entity = verify[entity];
         entity = golfie.bind(tangon)(entity);
         michal = entity.RedesignCompat;
         entity = {};
-        option = _closure1_slot4;
+        offset = _closure1_slot4;
         report = 5;
-        report = romeon[report];
+        report = verify[report];
         report = golfie.bind(tangon)(report);
-        golfie = report.Form;
+        option = report.Form;
         report = {};
-        report['contentContainerStyle'] = offset;
-        offset = yankee.map;
-        verify = function(argFoo) {
+        report['contentContainerStyle'] = romeon;
+        romeon = foxtra.map;
+        yankee = function(argFoo) {
             report = argFoo;
             tangon = _closure1_slot4;
             zuuluu = _closure1_slot6;
@@ -224,11 +223,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.bind(entity)(zuuluu, michal, report);
             return entity;
         };
-        verify = offset.bind(yankee)(verify);
-        report['children'] = verify;
-        golfie = option.bind(tangon)(golfie, report);
+        yankee = romeon.bind(foxtra)(yankee);
+        report['children'] = yankee;
+        option = offset.bind(tangon)(option, report);
         report = new Array(2);
-        report[0] = golfie;
+        report[0] = option;
+        option = _closure1_slot4;
+        oscard = 10;
+        oscard = verify[oscard];
+        oscard = golfie.bind(tangon)(oscard);
+        golfie = oscard.NavScrim;
+        oscard = {};
+        oscard = option.bind(tangon)(golfie, oscard);
         report[1] = oscard;
         entity['children'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);

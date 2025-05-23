@@ -2026,28 +2026,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00033: for(var _fun00034_ip = 0; ; ) switch(_fun00034_ip) {
  0:
                     StartGenerator();
-                    verify = argFoo;
+                    yankee = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00034_ip = 388; continue _fun00033 }
+                    if(michal) { _fun00034_ip = 437; continue _fun00033 }
  13:
-                    golfie = verify;
+                    golfie = yankee;
                     michal = undefined;
                     option = undefined;
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
+                    romeon = _closure1_slot0;
+                    foxtra = _closure1_slot2;
                     zuuluu = 17;
-                    tangon = yankee[zuuluu];
-                    report = offset.bind(michal)(tangon);
-                    tangon = report.resolveVideoQuestAsset;
-                    zuuluu = yankee[zuuluu];
-                    zuuluu = offset.bind(michal)(zuuluu);
-                    zuuluu = zuuluu.VideoQuestAssetId;
-                    zuuluu = zuuluu.VIDEO_PLAYER_TRANSCRIPT;
-                    tangon = tangon.bind(report)(zuuluu, verify);
+                    tangon = foxtra[zuuluu];
+                    offset = romeon.bind(michal)(tangon);
+                    verify = offset.resolveVideoQuestAsset;
+                    tangon = 18;
+                    tangon = foxtra[tangon];
+                    tangon = romeon.bind(michal)(tangon);
+                    tangon = tangon.FirstPartyQuestTaskTypes;
+                    sizing = tangon.WATCH_VIDEO;
+                    tangon = foxtra[zuuluu];
+                    tangon = romeon.bind(michal)(tangon);
+                    tangon = tangon.VideoVariant;
+                    kiloes = tangon.VIDEO;
+                    zuuluu = foxtra[zuuluu];
+                    zuuluu = romeon.bind(michal)(zuuluu);
+                    zuuluu = zuuluu.VideoAssetProperty;
+                    backup = zuuluu.TRANSCRIPT;
+                    result = offset;
+                    output = yankee;
+                    tangon = result[verify](output, sizing, kiloes, backup, foxtra);
                     option = tangon;
                     zuuluu = null;
-                    if(!(zuuluu == tangon)) { _fun00034_ip = 145; continue _fun00033 }
- 85:
+                    if(!(zuuluu == tangon)) { _fun00034_ip = 194; continue _fun00033 }
+ 134:
                     tangon = _closure1_slot5;
                     zuuluu = tangon.getState;
                     report = zuuluu.bind(tangon)();
@@ -2060,8 +2071,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = verify.FAILURE;
                     zuuluu['fetchStatus'] = verify;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    _fun00034_ip = 385; continue _fun00033;
- 145:
+                    _fun00034_ip = 434; continue _fun00033;
+ 194:
                     tangon = _closure1_slot5;
                     zuuluu = tangon.getState;
                     report = zuuluu.bind(tangon)();
@@ -2074,7 +2085,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = verify.FETCHING;
                     zuuluu['fetchStatus'] = verify;
                     zuuluu = tangon.bind(report)(zuuluu);
- 200: // try_start_0
+ 249: // try_start_0
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
                     zuuluu = 4;
@@ -2088,13 +2099,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = true;
                     zuuluu['rejectWithError'] = option;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=256);
- 254:
+                    SaveGenerator(address=305);
+ 303:
                     return zuuluu;
- 256:
+ 305:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 328; continue _fun00033 }
- 262:
+                    if(tangon) { _fun00034_ip = 377; continue _fun00033 }
+ 311:
                     report = _closure1_slot5;
                     tangon = report.getState;
                     option = tangon.bind(report)();
@@ -2109,11 +2120,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = zuuluu.text;
                     tangon['text'] = verify;
                     tangon = report.bind(option)(tangon);
- 326: // try_end0
-                    _fun00034_ip = 385; continue _fun00033;
- 328:
+ 375: // try_end0
+                    _fun00034_ip = 434; continue _fun00033;
+ 377:
                     return zuuluu;
- 331: // catch_target0
+ 380: // catch_target0
                     CatchBlockStart(arg_register=2);
                     tangon = _closure1_slot5;
                     zuuluu = tangon.getState;
@@ -2126,9 +2137,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.FAILURE;
                     zuuluu['fetchStatus'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 385:
+ 434:
                     return michal;
- 388:
+ 437:
                     return entity;
                 }
             };
@@ -2242,7 +2253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  92: // try_start_0
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    zuuluu = 18;
+                    zuuluu = 19;
                     zuuluu = golfie[zuuluu];
                     oscard = oscard.bind(tangon)(zuuluu);
                     zuuluu = oscard.getMobileAdData;
@@ -2331,7 +2342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.Endpoints;
     var _closure1_slot7 = tangon;
-    tangon = 19;
+    tangon = 20;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -1078,14 +1078,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                             tangon = 0;
                             zuuluu = tangon < entity;
                             entity = undefined;
-                            if(!zuuluu) { _fun00018_ip = 68; continue _fun00017 }
- 47:
+                            if(!zuuluu) { _fun00018_ip = 70; continue _fun00017 }
+ 49:
                             zuuluu = report[tangon];
                             zuuluu = oscard.bind(entity)(zuuluu);
                             tangon = tangon + 1;
                             zuuluu = report.length;
-                            if(tangon < zuuluu) { _fun00018_ip = 47; continue _fun00017 }
- 68:
+                            if(tangon < zuuluu) { _fun00018_ip = 49; continue _fun00017 }
+ 70:
                             golfie = _closure1_slot23;
                             zuuluu = _closure1_slot1;
                             tangon = _closure1_slot2;
@@ -1862,7 +1862,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 243; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 244; continue _fun00029 }
  10:
                     zuuluu = global;
                     report = zuuluu.TextDecoder;
@@ -1897,23 +1897,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     verify = null;
                     offset = verify == offset;
                     verify = 'redacted';
-                    if(!offset) { _fun00030_ip = 162; continue _fun00029 }
- 160:
+                    if(!offset) { _fun00030_ip = 163; continue _fun00029 }
+ 161:
                     verify = undefined;
- 162:
+ 163:
                     michal = 'user';
                     report[michal] = verify;
                     michal = 'Received TTI Test Action';
                     michal = golfie.bind(option)(michal, report);
                     michal = _closure1_slot5;
                     michal = michal.promise;
-                    SaveGenerator(address=197);
- 195:
+                    SaveGenerator(address=198);
+ 196:
                     return michal;
- 197:
+ 198:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00030_ip = 240; continue _fun00029 }
- 203:
+                    if(report) { _fun00030_ip = 241; continue _fun00029 }
+ 204:
                     report = _closure1_slot13;
                     tangon = oscard.type;
                     tangon = report[tangon];
@@ -1922,9 +1922,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                     zuuluu = tangon.resolve;
                     zuuluu = zuuluu.bind(tangon)();
                     return zuuluu;
- 240:
+ 241:
                     return michal;
- 243:
+ 244:
                     return entity;
                 }
             };

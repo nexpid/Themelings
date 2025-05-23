@@ -396,12 +396,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot12;
             tangon = undefined;
             offset = entity.bind(tangon)();
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 10;
-            entity = oscard[entity];
-            option = zuuluu.bind(tangon)(entity);
-            report = option.useStateFromStores;
+            entity = zuuluu[entity];
+            oscard = michal.bind(tangon)(entity);
+            report = oscard.useStateFromStores;
             entity = _closure1_slot5;
             michal = new Array(1);
             michal[0] = entity;
@@ -410,52 +410,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.roleStyle;
                 return entity;
             };
-            romeon = report.bind(option)(michal, entity);
+            romeon = report.bind(oscard)(michal, entity);
+            michal = _closure1_slot1;
             entity = 24;
-            entity = oscard[entity];
-            option = zuuluu.bind(tangon)(entity);
-            report = option.useCanUseEnhancedRoleColors;
-            michal = result.guild_id;
-            entity = 'GuildChannelMessageRowLabel';
-            entity = report.bind(option)(michal, entity);
-            report = _closure1_slot1;
-            michal = 25;
-            michal = oscard[michal];
-            michal = report.bind(tangon)(michal);
-            michal = michal.bind(tangon)(verify);
-            sizing = michal.nick;
-            kiloes = michal.colorString;
-            report = michal.colorStrings;
-            michal = 26;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.useMemoizedProcessedGradientRoleColors;
-            echoed = michal.bind(zuuluu)(report);
-            michal = 'username';
-            if(!(michal === romeon)) { _fun00010_ip = 189; continue _fun00009 }
- 183:
-            michal = null;
-            if(!(michal == kiloes)) { _fun00010_ip = 193; continue _fun00009 }
- 189:
+            entity = zuuluu[entity];
+            entity = michal.bind(tangon)(entity);
+            entity = entity.bind(tangon)(verify);
+            sizing = entity.nick;
+            kiloes = entity.colorString;
+            oscard = entity.colorStrings;
+            entity = 'username';
+            if(!(entity === romeon)) { _fun00010_ip = 131; continue _fun00009 }
+ 125:
+            entity = null;
+            if(!(entity == kiloes)) { _fun00010_ip = 135; continue _fun00009 }
+ 131:
             output = {};
-            _fun00010_ip = 202; continue _fun00009;
- 193:
-            michal = {};
-            michal['color'] = kiloes;
-            output = michal;
- 202:
-            update = entity;
-            if(!update) { _fun00010_ip = 216; continue _fun00009 }
- 208:
-            entity = 'hidden';
-            update = entity !== romeon;
- 216:
-            if(!update) { _fun00010_ip = 231; continue _fun00009 }
- 219:
-            michal = echoed.length;
-            entity = 1;
-            update = michal > entity;
- 231:
+            _fun00010_ip = 144; continue _fun00009;
+ 135:
+            entity = {};
+            entity['color'] = kiloes;
+            output = entity;
+ 144:
+            michal = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            entity = 25;
+            entity = zuuluu[entity];
+            report = michal.bind(tangon)(entity);
+            entity = report.useMemoizedProcessedGradientRoleColors;
+            echoed = entity.bind(report)(oscard);
+            entity = 26;
+            entity = zuuluu[entity];
+            zuuluu = michal.bind(tangon)(entity);
+            michal = zuuluu.useIsRoleStyleAndRoleColorsEligibleForERC;
+            entity = result.guild_id;
+            update = michal.bind(zuuluu)(entity, romeon, echoed);
             zuuluu = _closure1_slot11;
             michal = _closure1_slot4;
             entity = {};
@@ -468,13 +457,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = oscard;
             oscard = 'dot';
             oscard = oscard === romeon;
-            if(!oscard) { _fun00010_ip = 288; continue _fun00009 }
- 282:
+            if(!oscard) { _fun00010_ip = 262; continue _fun00009 }
+ 256:
             romeon = null;
             oscard = romeon != kiloes;
- 288:
-            if(!oscard) { _fun00010_ip = 341; continue _fun00009 }
- 291:
+ 262:
+            if(!oscard) { _fun00010_ip = 315; continue _fun00009 }
+ 265:
             backup = _closure1_slot10;
             foxtra = _closure1_slot0;
             source = _closure1_slot2;
@@ -487,7 +476,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['size'] = source;
             romeon['color'] = kiloes;
             oscard = backup.bind(tangon)(foxtra, romeon);
- 341:
+ 315:
             romeon = new Array(2);
             romeon[0] = oscard;
             kiloes = _closure1_slot10;
@@ -500,10 +489,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = {'variant': 'text-sm/semibold', 'color': 'interactive-active', 'lineClamp': 1};
             foxtra['style'] = output;
             output = undefined;
-            if(!update) { _fun00010_ip = 404; continue _fun00009 }
- 401:
+            if(!update) { _fun00010_ip = 378; continue _fun00009 }
+ 375:
             output = echoed;
- 404:
+ 378:
             foxtra['gradientColors'] = output;
             foxtra['children'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
@@ -532,10 +521,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.extractTimestamp;
             foxtra = verify.id;
             oscard = null;
-            if(!(oscard == foxtra)) { _fun00010_ip = 547; continue _fun00009 }
- 542:
+            if(!(oscard == foxtra)) { _fun00010_ip = 521; continue _fun00009 }
+ 516:
             foxtra = result.id;
- 547:
+ 521:
             foxtra = sizing.bind(output)(foxtra);
             foxtra = backup.bind(kiloes)(foxtra);
             option['children'] = foxtra;
@@ -544,8 +533,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.isPoll;
             option = option.bind(verify)();
             oscard = null;
-            if(!option) { _fun00010_ip = 628; continue _fun00009 }
- 586:
+            if(!option) { _fun00010_ip = 602; continue _fun00009 }
+ 560:
             verify = _closure1_slot10;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -556,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.pollBadge;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 628:
+ 602:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

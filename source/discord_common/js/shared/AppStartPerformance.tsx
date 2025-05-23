@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = this;
                     entity = michal.isTracing;
-                    if(!entity) { _fun00008_ip = 116; continue _fun00007 }
+                    if(!entity) { _fun00008_ip = 117; continue _fun00007 }
  12:
                     tangon = michal.logs;
                     zuuluu = tangon.push;
@@ -228,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity);
                     entity = michal.addImportLogDetail;
                     entity = entity.bind(michal)();
- 116:
+ 117:
                     entity = undefined;
                     return entity;
                 }
@@ -247,8 +247,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = zuuluu.log;
                     entity = entity.bind(zuuluu)(report);
                     entity = michal.isTracing;
-                    if(!entity) { _fun00010_ip = 109; continue _fun00009 }
- 28:
+                    if(!entity) { _fun00010_ip = 111; continue _fun00009 }
+ 29:
                     tangon = michal.logs;
                     zuuluu = tangon.push;
                     entity = {};
@@ -267,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity);
                     entity = michal.addImportLogDetail;
                     entity = entity.bind(michal)();
- 109:
+ 111:
                     entity = undefined;
                     return entity;
                 }
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = argBaz;
                     golfie = this;
                     entity = golfie.isTracing;
-                    if(!entity) { _fun00016_ip = 177; continue _fun00015 }
+                    if(!entity) { _fun00016_ip = 178; continue _fun00015 }
  18:
                     entity = golfie.logs;
                     entity = entity.length;
@@ -391,19 +391,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = golfie[tangon];
                     verify = oscard == option;
                     golfie = undefined;
-                    if(verify) { _fun00016_ip = 151; continue _fun00015 }
- 145:
+                    if(verify) { _fun00016_ip = 152; continue _fun00015 }
+ 146:
                     golfie = option.prefix;
- 151:
+ 152:
                     option = oscard != golfie;
                     oscard = '';
-                    if(!option) { _fun00016_ip = 165; continue _fun00015 }
- 162:
+                    if(!option) { _fun00016_ip = 166; continue _fun00015 }
+ 163:
                     oscard = golfie;
- 165:
+ 166:
                     entity['prefix'] = oscard;
                     entity = michal.bind(zuuluu)(tangon, report, entity);
- 177:
+ 178:
                     entity = undefined;
                     return entity;
                 }
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     tangon = this;
                     entity = tangon.isTracing;
-                    if(!entity) { _fun00018_ip = 120; continue _fun00017 }
+                    if(!entity) { _fun00018_ip = 121; continue _fun00017 }
  12:
                     zuuluu = tangon.logs;
                     michal = zuuluu.push;
@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = option.bind(golfie)(oscard, report, tangon);
                     entity['log'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 120:
+ 121:
                     entity = undefined;
                     return entity;
                 }

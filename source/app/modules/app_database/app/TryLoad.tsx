@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 66; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
  7:
                     michal = argFoo;
  10: // try_start_0
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal, report);
                     michal = null;
                     return michal;
- 66:
+ 67:
                     return entity;
                 }
             };
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 233; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 234; continue _fun00003 }
  10:
                     option = argFoo;
                     michal = argBar;
@@ -118,12 +118,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard['action'] = michal;
                     romeon = yankee;
                     michal = null;
-                    if(!(michal == romeon)) { _fun00004_ip = 188; continue _fun00003 }
- 186:
-                    _fun00004_ip = 191; continue _fun00003;
- 188:
+                    if(!(michal == romeon)) { _fun00004_ip = 189; continue _fun00003 }
+ 187:
+                    _fun00004_ip = 192; continue _fun00003;
+ 189:
                     option = yankee;
- 191:
+ 192:
                     golfie = golfie.HermesInternal;
                     golfie = golfie.concat;
                     golfie = golfie.bind(offset)(option, verify);
@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['args'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 233:
+ 234:
                     return entity;
                 }
             };
@@ -256,12 +256,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['action'] = entity;
             yankee = offset;
             entity = null;
-            if(!(entity == yankee)) { _fun00008_ip = 164; continue _fun00007 }
- 162:
-            _fun00008_ip = 167; continue _fun00007;
- 164:
+            if(!(entity == yankee)) { _fun00008_ip = 165; continue _fun00007 }
+ 163:
+            _fun00008_ip = 168; continue _fun00007;
+ 165:
             golfie = offset;
- 167:
+ 168:
             oscard = oscard.HermesInternal;
             oscard = oscard.concat;
             oscard = oscard.bind(verify)(golfie, option);

@@ -81,92 +81,97 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            michal = argFoo;
-            zuuluu = argBar;
+            zuuluu = argFoo;
+            michal = argBar;
             entity = {};
-            tangon = null;
-            if(!(tangon != zuuluu)) { _fun00004_ip = 20; continue _fun00003 }
+            report = null;
+            if(!(report != michal)) { _fun00004_ip = 20; continue _fun00003 }
  14:
-            entity['tab'] = zuuluu;
+            entity['tab'] = michal;
  20:
-            if(!(tangon != michal)) { _fun00004_ip = 311; continue _fun00003 }
+            if(!(report != zuuluu)) { _fun00004_ip = 329; continue _fun00003 }
  27:
-            report = michal.noCache;
-            zuuluu = true;
-            if(!(zuuluu === report)) { _fun00004_ip = 47; continue _fun00003 }
+            tangon = zuuluu.noCache;
+            michal = true;
+            if(!(michal === tangon)) { _fun00004_ip = 47; continue _fun00003 }
  39:
-            entity['no_cache'] = zuuluu;
+            entity['no_cache'] = michal;
  47:
-            report = michal.includeUnpublished;
-            if(!(zuuluu === report)) { _fun00004_ip = 63; continue _fun00003 }
+            tangon = zuuluu.includeUnpublished;
+            if(!(michal === tangon)) { _fun00004_ip = 63; continue _fun00003 }
  57:
-            entity['include_unpublished'] = zuuluu;
+            entity['include_unpublished'] = michal;
  63:
-            report = michal.includeBundles;
-            if(!(zuuluu === report)) { _fun00004_ip = 81; continue _fun00003 }
+            tangon = zuuluu.includeBundles;
+            if(!(michal === tangon)) { _fun00004_ip = 81; continue _fun00003 }
  73:
-            entity['include_bundles'] = zuuluu;
+            entity['include_bundles'] = michal;
  81:
-            report = michal.includePopularPicks;
-            if(!(zuuluu === report)) { _fun00004_ip = 99; continue _fun00003 }
+            tangon = zuuluu.includePopularPicks;
+            if(!(michal === tangon)) { _fun00004_ip = 99; continue _fun00003 }
  91:
-            entity['include_popular_picks'] = zuuluu;
+            entity['include_popular_picks'] = michal;
  99:
-            report = michal.includeDynamicBlocks;
-            if(!(zuuluu === report)) { _fun00004_ip = 117; continue _fun00003 }
+            tangon = zuuluu.includeDynamicBlocks;
+            if(!(michal === tangon)) { _fun00004_ip = 117; continue _fun00003 }
  109:
-            entity['include_dynamic_blocks'] = zuuluu;
+            entity['include_dynamic_blocks'] = michal;
  117:
-            zuuluu = michal.countryCode;
-            zuuluu = tangon != zuuluu;
-            if(!zuuluu) { _fun00004_ip = 144; continue _fun00003 }
+            tangon = zuuluu.countryCode;
+            tangon = report != tangon;
+            if(!tangon) { _fun00004_ip = 144; continue _fun00003 }
  130:
-            oscard = michal.countryCode;
-            report = '';
-            zuuluu = report !== oscard;
+            golfie = zuuluu.countryCode;
+            oscard = '';
+            tangon = oscard !== golfie;
  144:
-            if(!zuuluu) { _fun00004_ip = 159; continue _fun00003 }
+            if(!tangon) { _fun00004_ip = 159; continue _fun00003 }
  147:
-            zuuluu = michal.countryCode;
-            entity['country_code'] = zuuluu;
+            tangon = zuuluu.countryCode;
+            entity['country_code'] = tangon;
  159:
-            zuuluu = michal.paymentGateway;
-            if(!(tangon !== zuuluu)) { _fun00004_ip = 181; continue _fun00003 }
+            tangon = zuuluu.paymentGateway;
+            if(!(report !== tangon)) { _fun00004_ip = 181; continue _fun00003 }
  169:
-            zuuluu = michal.paymentGateway;
-            entity['payment_gateway'] = zuuluu;
+            tangon = zuuluu.paymentGateway;
+            entity['payment_gateway'] = tangon;
  181:
-            option = michal.variantsReturnStyle;
-            verify = _closure1_slot0;
-            report = _closure1_slot1;
-            golfie = 2;
-            report = report[golfie];
-            oscard = undefined;
-            report = verify.bind(oscard)(report);
-            report = report.ShopVariantsReturnStyle;
-            report = report.VARIANTS_GROUP;
-            if(!(option === report)) { _fun00004_ip = 263; continue _fun00003 }
+            verify = zuuluu.variantsReturnStyle;
+            offset = _closure1_slot0;
+            oscard = _closure1_slot1;
+            option = 2;
+            oscard = oscard[option];
+            golfie = undefined;
+            oscard = offset.bind(golfie)(oscard);
+            oscard = oscard.ShopVariantsReturnStyle;
+            oscard = oscard.VARIANTS_GROUP;
+            if(!(verify === oscard)) { _fun00004_ip = 263; continue _fun00003 }
  228:
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[golfie];
-            zuuluu = report.bind(oscard)(zuuluu);
-            zuuluu = zuuluu.ShopVariantsReturnStyle;
-            zuuluu = zuuluu.VARIANTS_GROUP;
-            entity['variants_return_style'] = zuuluu;
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            tangon = tangon[option];
+            tangon = oscard.bind(golfie)(tangon);
+            tangon = tangon.ShopVariantsReturnStyle;
+            tangon = tangon.VARIANTS_GROUP;
+            entity['variants_return_style'] = tangon;
  263:
-            zuuluu = michal.shopHomeConfig;
-            if(!(tangon != zuuluu)) { _fun00004_ip = 287; continue _fun00003 }
+            tangon = zuuluu.shopHomeConfig;
+            if(!(report != tangon)) { _fun00004_ip = 287; continue _fun00003 }
  273:
-            zuuluu = michal.shopHomeConfig;
-            entity['shop_home_config'] = zuuluu;
+            tangon = zuuluu.shopHomeConfig;
+            entity['shop_home_config'] = tangon;
  287:
-            zuuluu = michal.skipNumCategories;
-            if(!(tangon != zuuluu)) { _fun00004_ip = 311; continue _fun00003 }
+            tangon = zuuluu.skipNumCategories;
+            if(!(report != tangon)) { _fun00004_ip = 311; continue _fun00003 }
  297:
-            michal = michal.skipNumCategories;
-            entity['skip_num_categories'] = michal;
+            tangon = zuuluu.skipNumCategories;
+            entity['skip_num_categories'] = tangon;
  311:
+            zuuluu = zuuluu.includeNameplatesOnMobile;
+            if(!(michal === zuuluu)) { _fun00004_ip = 329; continue _fun00003 }
+ 321:
+            entity['include_nameplates_on_mobile'] = michal;
+ 329:
             return entity;
         }
     };

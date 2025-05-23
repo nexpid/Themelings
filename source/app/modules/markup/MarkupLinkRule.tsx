@@ -504,106 +504,123 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
+            golfie = undefined;
+            tangon = undefined;
             report = undefined;
-            michal = undefined;
-            zuuluu = undefined;
             oscard = undefined;
  11: // try_start_0
-            tangon = global;
-            option = tangon.URL;
-            romeon = entity;
-            golfie = option.prototype;
-            golfie = Object.create(golfie, {constructor: {value: option}});
-            foxtra = golfie;
-            entity = new foxtra[option](romeon, yankee);
-            entity = entity instanceof Object ? entity : golfie;
-            zuuluu = entity;
-            entity = entity.protocol;
+            option = /\\/;
+            zuuluu = option.test;
             michal = entity;
-            golfie = null;
-            option = golfie != entity;
-            entity = '';
-            yankee = entity;
-            if(!option) { _fun00014_ip = 73; continue _fun00013 }
- 70:
-            yankee = michal;
- 73:
-            oscard = yankee;
-            offset = _closure1_slot5;
-            verify = offset.includes;
-            option = yankee.toLowerCase;
-            option = option.bind(yankee)();
-            option = verify.bind(offset)(option);
-            if(option) { _fun00014_ip = 147; continue _fun00013 }
- 106:
-            offset = tangon.Error;
-            verify = oscard;
-            option = 'Provided protocol is not allowed: ';
-            romeon = option + verify;
-            verify = offset.prototype;
-            verify = Object.create(verify, {constructor: {value: offset}});
-            foxtra = verify;
-            option = new foxtra[offset](romeon, yankee);
-            option = option instanceof Object ? option : verify;
-            throw option;
- 147:
-            verify = oscard;
-            option = 'http:';
-            if(!(option !== verify)) { _fun00014_ip = 169; continue _fun00013 }
- 158:
-            option = oscard;
-            oscard = 'https:';
-            if(!(oscard === option)) { _fun00014_ip = 236; continue _fun00013 }
- 169:
-            oscard = zuuluu;
-            oscard = oscard.hostname;
-            if(!(golfie != oscard)) { _fun00014_ip = 202; continue _fun00013 }
- 182:
-            oscard = zuuluu;
-            oscard = oscard.hostname;
-            golfie = oscard.length;
-            oscard = 0;
-            if(!(oscard === golfie)) { _fun00014_ip = 236; continue _fun00013 }
- 202:
-            golfie = tangon.Error;
-            tangon = golfie.prototype;
-            oscard = Object.create(tangon, {constructor: {value: golfie}});
-            romeon = 'no hostname';
-            foxtra = oscard;
-            tangon = new foxtra[golfie](romeon, yankee);
-            tangon = tangon instanceof Object ? tangon : oscard;
-            throw tangon;
- 236:
+            zuuluu = zuuluu.bind(option)(michal);
+            michal = global;
+            if(zuuluu) { _fun00014_ip = 398; continue _fun00013 }
+ 46:
+            verify = michal.URL;
+            foxtra = entity;
+            option = verify.prototype;
+            option = Object.create(option, {constructor: {value: verify}});
+            backup = option;
+            zuuluu = new backup[verify](foxtra, romeon);
+            zuuluu = zuuluu instanceof Object ? zuuluu : option;
+            report = zuuluu;
+            zuuluu = zuuluu.protocol;
             tangon = zuuluu;
-            golfie = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 5;
-            zuuluu = oscard[zuuluu];
-            option = golfie.bind(report)(zuuluu);
-            golfie = option.toASCII;
-            verify = tangon.hostname;
-            zuuluu = verify.toLowerCase;
-            zuuluu = zuuluu.bind(verify)();
-            zuuluu = golfie.bind(option)(zuuluu);
-            tangon['hostname'] = zuuluu;
-            zuuluu = _closure1_slot0;
-            michal = 2;
-            golfie = oscard[michal];
-            option = zuuluu.bind(report)(golfie);
-            golfie = option.safelyMakeUrlHumanReadable;
-            golfie = golfie.bind(option)(tangon);
-            tangon['username'] = entity;
-            tangon['password'] = entity;
-            entity = {};
-            entity['target'] = golfie;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.safelyMakeUrlHumanReadable;
-            michal = michal.bind(zuuluu)(tangon);
-            entity['displayTarget'] = michal;
- 363: // try_end0
-            return entity;
- 365: // catch_target0
+            option = null;
+            verify = option != zuuluu;
+            zuuluu = '';
+            romeon = zuuluu;
+            if(!verify) { _fun00014_ip = 106; continue _fun00013 }
+ 103:
+            romeon = tangon;
+ 106:
+            oscard = romeon;
+            yankee = _closure1_slot5;
+            offset = yankee.includes;
+            verify = romeon.toLowerCase;
+            verify = verify.bind(romeon)();
+            verify = offset.bind(yankee)(verify);
+            if(verify) { _fun00014_ip = 180; continue _fun00013 }
+ 139:
+            yankee = michal.Error;
+            offset = oscard;
+            verify = 'Provided protocol is not allowed: ';
+            foxtra = verify + offset;
+            offset = yankee.prototype;
+            offset = Object.create(offset, {constructor: {value: yankee}});
+            backup = offset;
+            verify = new backup[yankee](foxtra, romeon);
+            verify = verify instanceof Object ? verify : offset;
+            throw verify;
+ 180:
+            offset = oscard;
+            verify = 'http:';
+            if(!(verify !== offset)) { _fun00014_ip = 202; continue _fun00013 }
+ 191:
+            verify = oscard;
+            oscard = 'https:';
+            if(!(oscard === verify)) { _fun00014_ip = 269; continue _fun00013 }
+ 202:
+            oscard = report;
+            oscard = oscard.hostname;
+            if(!(option != oscard)) { _fun00014_ip = 235; continue _fun00013 }
+ 215:
+            oscard = report;
+            oscard = oscard.hostname;
+            option = oscard.length;
+            oscard = 0;
+            if(!(oscard === option)) { _fun00014_ip = 269; continue _fun00013 }
+ 235:
+            verify = michal.Error;
+            oscard = verify.prototype;
+            option = Object.create(oscard, {constructor: {value: verify}});
+            foxtra = 'no hostname';
+            backup = option;
+            oscard = new backup[verify](foxtra, romeon);
+            oscard = oscard instanceof Object ? oscard : option;
+            throw oscard;
+ 269:
+            oscard = report;
+            verify = _closure1_slot1;
+            option = _closure1_slot2;
+            report = 5;
+            report = option[report];
+            offset = verify.bind(golfie)(report);
+            verify = offset.toASCII;
+            yankee = oscard.hostname;
+            report = yankee.toLowerCase;
+            report = report.bind(yankee)();
+            report = verify.bind(offset)(report);
+            oscard['hostname'] = report;
+            report = _closure1_slot0;
+            tangon = 2;
+            verify = option[tangon];
+            offset = report.bind(golfie)(verify);
+            verify = offset.safelyMakeUrlHumanReadable;
+            verify = verify.bind(offset)(oscard);
+            oscard['username'] = zuuluu;
+            oscard['password'] = zuuluu;
+            zuuluu = {};
+            zuuluu['target'] = verify;
+            tangon = option[tangon];
+            report = report.bind(golfie)(tangon);
+            tangon = report.safelyMakeUrlHumanReadable;
+            tangon = tangon.bind(report)(oscard);
+            zuuluu['displayTarget'] = tangon;
+ 396: // try_end0
+            return zuuluu;
+ 398: // try_start_1
+            zuuluu = michal.Error;
+            michal = entity;
+            entity = 'Rejected due to backslash obfuscation: ';
+            foxtra = entity + michal;
+            michal = zuuluu.prototype;
+            michal = Object.create(michal, {constructor: {value: zuuluu}});
+            backup = michal;
+            entity = new backup[zuuluu](foxtra, romeon);
+            entity = entity instanceof Object ? entity : michal;
+            throw entity;
+ 439: // try_end1 // catch_target0 // catch_target1
             CatchBlockStart(arg_register=0);
             entity = null;
             return entity;

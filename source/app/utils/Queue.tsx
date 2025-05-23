@@ -117,16 +117,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure3_slot0 = tangon;
                 zuuluu = tangon.timeout;
                 michal = null;
-                if(!(michal === zuuluu)) { _fun00004_ip = 185; continue _fun00003 }
+                if(!(michal === zuuluu)) { _fun00004_ip = 186; continue _fun00003 }
  24:
                 michal = tangon.queue;
                 zuuluu = michal.length;
                 michal = 0;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 185; continue _fun00003 }
+                if(!(michal !== zuuluu)) { _fun00004_ip = 186; continue _fun00003 }
  44:
                 zuuluu = tangon.draining;
                 michal = true;
-                if(!(michal !== zuuluu)) { _fun00004_ip = 185; continue _fun00003 }
+                if(!(michal !== zuuluu)) { _fun00004_ip = 186; continue _fun00003 }
  59:
                 tangon['draining'] = michal;
                 zuuluu = tangon.queue;
@@ -171,14 +171,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = false;
                         golfie['draining'] = report;
                         report = null;
-                        if(!(report != oscard)) { _fun00006_ip = 206; continue _fun00005 }
- 91:
+                        if(!(report != oscard)) { _fun00006_ip = 207; continue _fun00005 }
+ 92:
                         verify = oscard.retryAfter;
-                        if(!(report == verify)) { _fun00006_ip = 111; continue _fun00005 }
- 101:
+                        if(!(report == verify)) { _fun00006_ip = 112; continue _fun00005 }
+ 102:
                         report = _closure3_slot0;
                         verify = report.defaultRetryAfter;
- 111:
+ 112:
                         oscard = _closure3_slot0;
                         option = oscard.logger;
                         golfie = option.info;
@@ -210,8 +210,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         };
                         report = option.bind(golfie)(report, verify);
                         oscard['timeout'] = report;
-                        _fun00006_ip = 261; continue _fun00005;
- 206:
+                        _fun00006_ip = 262; continue _fun00005;
+ 207:
                         report = tangon.setImmediate;
                         tangon = undefined;
                         zuuluu = function() {
@@ -221,25 +221,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         };
                         zuuluu = report.bind(tangon)(zuuluu);
- 224: // try_start_0
+ 225: // try_start_0
                         zuuluu = _closure3_slot2;
                         michal = zuuluu.bind(tangon)(michal);
- 233: // try_end0
-                        _fun00006_ip = 261; continue _fun00005;
- 235: // catch_target0
+ 234: // try_end0
+                        _fun00006_ip = 262; continue _fun00005;
+ 236: // catch_target0
                         CatchBlockStart(arg_register=3);
                         entity = _closure3_slot0;
                         zuuluu = entity.logger;
                         michal = zuuluu.error;
                         entity = '';
                         entity = michal.bind(zuuluu)(entity, tangon);
- 261:
+ 262:
                         entity = undefined;
                         return entity;
                     }
                 };
                 entity = michal.bind(tangon)(zuuluu, entity);
- 185:
+ 186:
                 entity = undefined;
                 return entity;
             }

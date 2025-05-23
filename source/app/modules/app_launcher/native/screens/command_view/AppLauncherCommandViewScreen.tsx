@@ -2912,9 +2912,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = echoed;
             report = entity.onCommandExecuted;
             tangon = undefined;
+            var _closure2_slot4 = tangon;
             var _closure2_slot5 = tangon;
-            var _closure2_slot6 = tangon;
-            var _closure2_slot7 = tangon;
             romeon = _closure1_slot1;
             kiloes = _closure1_slot3;
             verify = 54;
@@ -2925,15 +2924,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = verify != offset;
             offset = 'channel should not be null';
             offset = output.bind(tangon)(sizing, offset);
-            offset = _closure1_slot15;
-            vacuum = offset.bind(tangon)();
-            var _closure2_slot2 = vacuum;
             offset = 55;
             offset = kiloes[offset];
             offset = romeon.bind(tangon)(offset);
             source = offset.bind(tangon)();
-            var _closure2_slot3 = source;
-            papara = foxtra.channel;
+            var _closure2_slot2 = source;
+            cntext = foxtra.channel;
             offset = function(argFoo, argBar, argBaz, argCor) { // Original name: usePreSelectedCommand
                 _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
@@ -3197,97 +3193,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            target = undefined;
-            cntext = backup;
-            record = oscard;
-            config = golfie;
-            romeon = target[offset](papara, cntext, record, config, sequen);
+            papara = undefined;
+            record = backup;
+            config = oscard;
+            sequen = golfie;
+            romeon = papara[offset](cntext, record, config, sequen, vacuum);
             output = romeon.command;
             kiloes = romeon.sectionDescriptor;
             offset = romeon.hasPermission;
             romeon = romeon.loading;
-            var _closure2_slot4 = romeon;
-            if(!(verify != yankee)) { _fun00042_ip = 219; continue _fun00041 }
- 216:
+            var _closure2_slot3 = romeon;
+            if(!(verify != yankee)) { _fun00042_ip = 203; continue _fun00041 }
+ 200:
             output = yankee;
- 219:
-            if(!(verify != zuuluu)) { _fun00042_ip = 226; continue _fun00041 }
- 223:
+ 203:
+            if(!(verify != zuuluu)) { _fun00042_ip = 210; continue _fun00041 }
+ 207:
             kiloes = zuuluu;
- 226:
-            ctrled = _closure1_slot0;
-            sequen = _closure1_slot3;
+ 210:
+            sizing = _closure1_slot0;
+            result = _closure1_slot3;
             zuuluu = 25;
-            zuuluu = sequen[zuuluu];
-            sizing = ctrled.bind(tangon)(zuuluu);
+            zuuluu = result[zuuluu];
+            sizing = sizing.bind(tangon)(zuuluu);
             zuuluu = sizing.useRequiredAppLauncherContext;
             zuuluu = zuuluu.bind(sizing)();
             update = zuuluu.bottomSheetExpandReasonRef;
-            _closure2_slot5 = update;
-            result = _closure1_slot6;
-            sizing = result.useContext;
-            zuuluu = 41;
-            zuuluu = sequen[zuuluu];
-            zuuluu = ctrled.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.PortalKeyboardContext;
-            zuuluu = sizing.bind(result)(zuuluu);
-            zuuluu = zuuluu.setAndroidNavScrimStyle;
-            _closure2_slot6 = zuuluu;
-            ctrled = _closure1_slot6;
-            result = ctrled.useEffect;
-            sizing = new Array(2);
-            sizing[0] = vacuum;
-            sizing[1] = zuuluu;
-            zuuluu = function() {
-                _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
- 0:
-                    zuuluu = _closure2_slot6;
-                    michal = null;
-                    if(!(michal != zuuluu)) { _fun00048_ip = 34; continue _fun00047 }
- 13:
-                    tangon = _closure2_slot6;
-                    zuuluu = {};
-                    michal = 'transparent';
-                    zuuluu['backgroundColor'] = michal;
-                    michal = undefined;
-                    michal = tangon.bind(michal)(zuuluu);
- 34:
-                    tangon = _closure2_slot2;
-                    zuuluu = tangon.addListener;
-                    michal = 'beforeRemove';
-                    entity = function() {
-                        _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
- 0:
-                            zuuluu = _closure2_slot6;
-                            michal = null;
-                            if(!(michal != zuuluu)) { _fun00050_ip = 24; continue _fun00049 }
- 13:
-                            michal = _closure2_slot6;
-                            entity = undefined;
-                            entity = michal.bind(entity)(entity);
- 24:
-                            entity = undefined;
-                            return entity;
-                        }
-                    };
-                    entity = zuuluu.bind(tangon)(michal, entity);
-                    return entity;
-                }
-            };
-            zuuluu = result.bind(ctrled)(zuuluu, sizing);
+            _closure2_slot4 = update;
             ctrled = verify != output;
-            if(!ctrled) { _fun00042_ip = 374; continue _fun00041 }
- 350:
+            if(!ctrled) { _fun00042_ip = 281; continue _fun00041 }
+ 257:
             zuuluu = output.options;
-            if(!(verify == zuuluu)) { _fun00042_ip = 363; continue _fun00041 }
- 359:
+            if(!(verify == zuuluu)) { _fun00042_ip = 270; continue _fun00041 }
+ 266:
             zuuluu = new Array(0);
- 363:
+ 270:
             sizing = zuuluu.length;
             zuuluu = 0;
             ctrled = sizing > zuuluu;
- 374:
-            _closure2_slot7 = ctrled;
+ 281:
+            _closure2_slot5 = ctrled;
             result = _closure1_slot6;
             sizing = result.useEffect;
             zuuluu = new Array(6);
@@ -3298,17 +3243,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[4] = update;
             zuuluu[5] = echoed;
             michal = function() {
-                _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
+                _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
-                    michal = _closure2_slot3;
-                    if(!michal) { _fun00052_ip = 43; continue _fun00051 }
+                    michal = _closure2_slot2;
+                    if(!michal) { _fun00048_ip = 43; continue _fun00047 }
  10:
-                    zuuluu = _closure2_slot7;
-                    if(zuuluu) { _fun00052_ip = 40; continue _fun00051 }
+                    zuuluu = _closure2_slot5;
+                    if(zuuluu) { _fun00048_ip = 40; continue _fun00047 }
  17:
-                    tangon = _closure2_slot4;
+                    tangon = _closure2_slot3;
                     tangon = !tangon;
-                    if(!tangon) { _fun00052_ip = 37; continue _fun00051 }
+                    if(!tangon) { _fun00048_ip = 37; continue _fun00047 }
  27:
                     oscard = _closure2_slot0;
                     report = null;
@@ -3318,9 +3263,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  40:
                     michal = zuuluu;
  43:
-                    if(!michal) { _fun00052_ip = 111; continue _fun00051 }
+                    if(!michal) { _fun00048_ip = 111; continue _fun00047 }
  46:
-                    tangon = _closure2_slot5;
+                    tangon = _closure2_slot4;
                     report = _closure1_slot0;
                     zuuluu = _closure1_slot3;
                     michal = 25;
@@ -3332,7 +3277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['current'] = zuuluu;
                     tangon = _closure2_slot1;
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00052_ip = 111; continue _fun00051 }
+                    if(!(zuuluu != tangon)) { _fun00048_ip = 111; continue _fun00047 }
  103:
                     entity = _closure2_slot1;
                     entity = entity.bind(michal)();
@@ -3347,32 +3292,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             result = verify != output;
             sizing = undefined;
-            if(!result) { _fun00042_ip = 450; continue _fun00041 }
- 447:
+            if(!result) { _fun00042_ip = 357; continue _fun00041 }
+ 354:
             sizing = output;
- 450:
+ 357:
             entity['command'] = sizing;
             entity['context'] = foxtra;
             sizing = verify != kiloes;
             foxtra = undefined;
-            if(!sizing) { _fun00042_ip = 471; continue _fun00041 }
- 468:
+            if(!sizing) { _fun00042_ip = 378; continue _fun00041 }
+ 375:
             foxtra = kiloes;
- 471:
+ 378:
             entity['section'] = foxtra;
             kiloes = verify != backup;
             foxtra = null;
-            if(!kiloes) { _fun00042_ip = 487; continue _fun00041 }
- 484:
+            if(!kiloes) { _fun00042_ip = 394; continue _fun00041 }
+ 391:
             foxtra = backup;
- 487:
+ 394:
             entity['preSelectedCommand'] = foxtra;
             entity['loading'] = romeon;
             verify = verify != yankee;
-            if(verify) { _fun00042_ip = 507; continue _fun00041 }
- 504:
+            if(verify) { _fun00042_ip = 414; continue _fun00041 }
+ 411:
             verify = offset;
- 507:
+ 414:
             entity['hasPermissions'] = verify;
             entity['installOnDemand'] = option;
             entity['sectionName'] = golfie;
@@ -3847,7 +3792,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 'modules/app_launcher/native/screens/command_view/AppLauncherCommandViewScreen.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: AppLauncherCommandViewScreen
-        _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
+        _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
  0:
             entity = argFoo;
             entity = entity.route;
@@ -3864,7 +3809,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = romeon.type;
             zuuluu = 'channel';
             entity = null;
-            if(!(zuuluu === tangon)) { _fun00054_ip = 146; continue _fun00053 }
+            if(!(zuuluu === tangon)) { _fun00050_ip = 146; continue _fun00049 }
  82:
             report = _closure1_slot20;
             tangon = _closure1_slot29;

@@ -884,7 +884,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.getCurrentUser;
                     report = tangon.bind(report)();
                     tangon = null;
-                    if(!(tangon != report)) { _fun00032_ip = 210; continue _fun00031 }
+                    if(!(tangon != report)) { _fun00032_ip = 211; continue _fun00031 }
  97:
                     report = _closure1_slot25;
                     tangon = {};
@@ -965,7 +965,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 'Dispatched INITIAL_GUILD ';
                     michal = report.bind(michal)(oscard);
                     michal = zuuluu.bind(tangon)(michal);
- 210:
+ 211:
                     return entity;
                 }
             };
@@ -1906,7 +1906,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(tangon);
             report = tangon.author;
             zuuluu = null;
-            if(!(zuuluu != report)) { _fun00062_ip = 80; continue _fun00061 }
+            if(!(zuuluu != report)) { _fun00062_ip = 76; continue _fun00061 }
  29:
             zuuluu = _closure1_slot25;
             michal = {'type': 'MESSAGE_CREATE', 'guildId': null, 'channelId': null, 'message': null, 'optimistic': false, 'isPushNotification': false};
@@ -1916,7 +1916,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['channelId'] = report;
             michal['message'] = tangon;
             michal = zuuluu.bind(entity)(michal);
- 80:
+ 76:
             return entity;
         }
     };

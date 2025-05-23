@@ -91,10 +91,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = offset.colors;
     offset = offset.HEADER_PRIMARY;
     verify['color'] = offset;
-    offset = 16;
+    offset = 25;
     verify['margin'] = offset;
     michal['title'] = verify;
     verify = {'textAlign': 'center', 'marginTop': 16};
+    offset = 16;
     backup = golfie[romeon];
     backup = foxtra.bind(entity)(backup);
     backup = backup.colors;
@@ -1355,25 +1356,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output[source];
             result = result.bind(tangon)(output);
             output = {};
-            if(ctrled) { _fun00010_ip = 1579; continue _fun00009 }
- 1545:
-            if(kiloes) { _fun00010_ip = 1579; continue _fun00009 }
- 1548:
+            if(ctrled) { _fun00010_ip = 1583; continue _fun00009 }
+ 1549:
+            if(kiloes) { _fun00010_ip = 1583; continue _fun00009 }
+ 1552:
             ctrled = _closure1_slot0;
             kiloes = _closure1_slot2;
             kiloes = kiloes[source];
             kiloes = ctrled.bind(tangon)(kiloes);
             kiloes = kiloes.ButtonColors;
             kiloes = kiloes.GREEN;
-            _fun00010_ip = 1608; continue _fun00009;
- 1579:
+            _fun00010_ip = 1612; continue _fun00009;
+ 1583:
             vacuum = _closure1_slot0;
             ctrled = _closure1_slot2;
             ctrled = ctrled[source];
             ctrled = vacuum.bind(tangon)(ctrled);
             ctrled = ctrled.ButtonColors;
             kiloes = ctrled.BRAND;
- 1608:
+ 1612:
             output['color'] = kiloes;
             output['onPress'] = backup;
             backup = _closure1_slot0;

@@ -911,13 +911,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot10;
                     entity = tangon.getCountryCode;
                     entity = entity.bind(tangon)();
-                    entity = entity.code;
+                    entity = entity.alpha2;
                     michal = michal.bind(zuuluu)(entity);
                     entity = 8;
-                    if(!michal) { _fun00012_ip = 75; continue _fun00011 }
- 72:
+                    if(!michal) { _fun00012_ip = 76; continue _fun00011 }
+ 73:
                     entity = 12;
- 75:
+ 76:
                     return entity;
                 }
             };
@@ -1462,13 +1462,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     michal = _closure2_slot15;
-                    if(!michal) { _fun00018_ip = 64; continue _fun00017 }
+                    if(michal) { _fun00018_ip = 17; continue _fun00017 }
  10:
+                    michal = _closure2_slot14;
+                    if(!michal) { _fun00018_ip = 71; continue _fun00017 }
+ 17:
                     michal = _closure2_slot2;
                     zuuluu = michal.password;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00018_ip = 64; continue _fun00017 }
- 26:
+                    if(!(michal != zuuluu)) { _fun00018_ip = 71; continue _fun00017 }
+ 33:
                     oscard = _closure2_slot2;
                     michal = oscard.password;
                     report = _closure1_slot5;
@@ -1477,7 +1480,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report.bind(tangon)(oscard, zuuluu);
                     michal = _closure1_slot16;
                     michal = michal.bind(tangon)(zuuluu);
- 64:
+ 71:
                     zuuluu = _closure2_slot7;
                     entity = undefined;
                     michal = argFoo;

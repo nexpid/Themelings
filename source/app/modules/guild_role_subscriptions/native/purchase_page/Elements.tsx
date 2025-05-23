@@ -316,14 +316,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 12;
             michal = golfie[michal];
             report = undefined;
-            option = oscard.bind(report)(michal);
-            tangon = option.useNativeIAPPayments;
-            michal = {};
-            verify = new Array(0);
-            michal['productIds'] = verify;
-            verify = false;
-            michal['fetchingProductIDs'] = verify;
-            michal = tangon.bind(option)(michal);
+            tangon = oscard.bind(report)(michal);
+            michal = tangon.useNativeIAPPayments;
+            michal = michal.bind(tangon)();
             tangon = michal.storeFront;
             option = _closure1_slot2;
             michal = 13;
@@ -363,8 +358,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             tangon = entity == michal;
             entity = 'No Price Available';
-            if(tangon) { _fun00008_ip = 273; continue _fun00007 }
- 200:
+            if(tangon) { _fun00008_ip = 254; continue _fun00007 }
+ 181:
             tangon = _closure1_slot0;
             oscard = _closure1_slot3;
             zuuluu = 16;
@@ -380,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = '';
             michal = '/mo.';
             entity = tangon.bind(zuuluu)(report, michal);
- 273:
+ 254:
             return entity;
         }
     };

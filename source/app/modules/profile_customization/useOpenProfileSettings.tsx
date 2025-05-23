@@ -53,10 +53,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             verify = michal.guild;
             var _closure2_slot0 = verify;
             option = michal.scrollPosition;
+            var _closure2_slot1 = option;
             golfie = michal.analyticsLocation;
-            var _closure2_slot1 = golfie;
+            var _closure2_slot2 = golfie;
             oscard = michal.analyticsLocations;
-            var _closure2_slot2 = oscard;
+            var _closure2_slot3 = oscard;
             report = michal.openWithoutBackstack;
             zuuluu = _closure1_slot2;
             michal = new Array(5);
@@ -104,10 +105,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
                     report = oscard.GUILD;
  131:
                     michal['subsection'] = report;
-                    report = _closure2_slot1;
+                    report = _closure2_slot2;
                     michal['analyticsLocation'] = report;
-                    tangon = _closure2_slot2;
-                    michal['analyticsLocations'] = tangon;
+                    report = _closure2_slot3;
+                    michal['analyticsLocations'] = report;
+                    tangon = _closure2_slot1;
+                    michal['scrollPosition'] = tangon;
                     michal = zuuluu.bind(entity)(michal);
                     return entity;
                 }

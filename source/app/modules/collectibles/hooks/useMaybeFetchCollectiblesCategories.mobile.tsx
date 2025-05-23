@@ -55,20 +55,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = {};
             zuuluu['includeUnpublished'] = verify;
             zuuluu['paymentGateway'] = option;
+            verify = oscard == entity;
+            option = undefined;
+            if(verify) { _fun00002_ip = 133; continue _fun00001 }
+ 127:
+            option = entity.countryCode;
+ 133:
+            zuuluu['countryCode'] = option;
             zuuluu['includeBundles'] = golfie;
+            golfie = true;
+            zuuluu['includeNameplatesOnMobile'] = golfie;
             option = oscard == entity;
             golfie = undefined;
-            if(option) { _fun00002_ip = 138; continue _fun00001 }
- 132:
+            if(option) { _fun00002_ip = 165; continue _fun00001 }
+ 159:
             golfie = entity.logPerf;
- 138:
+ 165:
             zuuluu['logPerf'] = golfie;
             oscard = oscard == entity;
             michal = undefined;
-            if(oscard) { _fun00002_ip = 158; continue _fun00001 }
- 152:
+            if(oscard) { _fun00002_ip = 185; continue _fun00001 }
+ 179:
             michal = entity.noOp;
- 158:
+ 185:
             entity = argBar;
             entity = tangon.bind(report)(zuuluu, michal, entity);
             return entity;

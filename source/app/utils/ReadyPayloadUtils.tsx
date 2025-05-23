@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = report.bind(oscard)(entity);
             report = michal.data_mode;
             entity = 'partial';
-            if(!(entity === report)) { _fun00014_ip = 753; continue _fun00013 }
+            if(!(entity === report)) { _fun00014_ip = 754; continue _fun00013 }
  45:
             golfie = null;
             if(!(golfie != option)) { _fun00014_ip = 684; continue _fun00013 }
@@ -493,7 +493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 'Guild data was missing from store, but hash was still available.';
             entity = report.bind(oscard)(entity);
             throw entity;
- 753:
+ 754:
             entity = {};
             report = michal.id;
             entity['id'] = report;
@@ -525,8 +525,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = null;
             option = golfie == offset;
             report = undefined;
-            if(option) { _fun00014_ip = 930; continue _fun00013 }
- 913:
+            if(option) { _fun00014_ip = 931; continue _fun00013 }
+ 914:
             verify = offset.map;
             option = function(argFoo) {
                 tangon = _closure1_slot6;
@@ -538,11 +538,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             report = verify.bind(offset)(option);
- 930:
-            if(!(golfie == report)) { _fun00014_ip = 938; continue _fun00013 }
- 934:
+ 931:
+            if(!(golfie == report)) { _fun00014_ip = 939; continue _fun00013 }
+ 935:
             report = new Array(0);
- 938:
+ 939:
             entity['threads'] = report;
             report = _closure1_slot19;
             tangon = michal.threads;
@@ -587,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  37:
             tangon = michal.data_mode;
             entity = 'partial';
-            if(!(entity === tangon)) { _fun00016_ip = 793; continue _fun00015 }
+            if(!(entity === tangon)) { _fun00016_ip = 794; continue _fun00015 }
  54:
             if(!(report != option)) { _fun00016_ip = 719; continue _fun00015 }
  61:
@@ -780,7 +780,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 'Guild data was missing from store, but hash was still available.';
             entity = oscard.bind(tangon)(entity);
             throw entity;
- 793:
+ 794:
             entity = {};
             tangon = michal.id;
             entity['id'] = tangon;
@@ -810,8 +810,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report == verify;
             oscard = undefined;
             tangon = undefined;
-            if(golfie) { _fun00016_ip = 959; continue _fun00015 }
- 942:
+            if(golfie) { _fun00016_ip = 960; continue _fun00015 }
+ 943:
             option = verify.map;
             golfie = function(argFoo) {
                 tangon = _closure1_slot6;
@@ -823,11 +823,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             tangon = option.bind(verify)(golfie);
- 959:
-            if(!(report == tangon)) { _fun00016_ip = 967; continue _fun00015 }
- 963:
+ 960:
+            if(!(report == tangon)) { _fun00016_ip = 968; continue _fun00015 }
+ 964:
             tangon = new Array(0);
- 967:
+ 968:
             entity['threads'] = tangon;
             report = _closure1_slot19;
             tangon = michal.threads;
@@ -1014,15 +1014,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity == option;
             verify = undefined;
             zuuluu = undefined;
-            if(yankee) { _fun00022_ip = 96; continue _fun00021 }
- 90:
+            if(yankee) { _fun00022_ip = 92; continue _fun00021 }
+ 86:
             zuuluu = option.friends;
- 96:
+ 92:
             tangon = golfie.bind(verify)(tangon, zuuluu);
             golfie = entity == offset;
             zuuluu = undefined;
-            if(golfie) { _fun00022_ip = 128; continue _fun00021 }
- 111:
+            if(golfie) { _fun00022_ip = 124; continue _fun00021 }
+ 107:
             option = offset.map;
             golfie = function(argFoo, argBar) {
                 _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
@@ -1070,11 +1070,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = option.bind(offset)(golfie);
+ 124:
+            if(!(entity == zuuluu)) { _fun00022_ip = 132; continue _fun00021 }
  128:
-            if(!(entity == zuuluu)) { _fun00022_ip = 136; continue _fun00021 }
- 132:
             zuuluu = new Array(0);
- 136:
+ 132:
             option = _closure1_slot14;
             golfie = argBar;
             oscard = function(argFoo) {
@@ -1095,11 +1095,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             oscard = option.bind(verify)(golfie, offset, oscard);
-            if(!(entity != oscard)) { _fun00022_ip = 171; continue _fun00021 }
- 161:
+            if(!(entity != oscard)) { _fun00022_ip = 167; continue _fun00021 }
+ 157:
             entity = zuuluu.push;
             entity = entity.bind(zuuluu)(oscard);
- 171:
+ 167:
             entity = {};
             _closure1_slot11 = entity;
             entity = {};

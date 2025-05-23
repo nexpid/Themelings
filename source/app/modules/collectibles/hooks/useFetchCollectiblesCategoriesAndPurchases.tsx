@@ -220,6 +220,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = option.logPerf;
  162:
             tangon['logPerf'] = zuuluu;
+            golfie = entity == option;
+            zuuluu = undefined;
+            if(golfie) { _fun00006_ip = 182; continue _fun00005 }
+ 176:
+            zuuluu = option.countryCode;
+ 182:
+            tangon['countryCode'] = zuuluu;
             zuuluu = argBar;
             zuuluu = oscard.bind(report)(tangon, zuuluu);
             offset = zuuluu.isFetching;
@@ -229,16 +236,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot7;
             verify = entity == option;
             michal = undefined;
-            if(verify) { _fun00006_ip = 219; continue _fun00005 }
- 213:
+            if(verify) { _fun00006_ip = 239; continue _fun00005 }
+ 233:
             michal = option.stalePurchasesOK;
- 219:
+ 239:
             verify = entity == option;
             entity = undefined;
-            if(verify) { _fun00006_ip = 233; continue _fun00005 }
- 228:
+            if(verify) { _fun00006_ip = 253; continue _fun00005 }
+ 248:
             entity = option.location;
- 233:
+ 253:
             michal = tangon.bind(report)(michal, entity);
             option = michal.isClaiming;
             report = michal.fetchPurchasesError;
@@ -246,10 +253,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = michal.isFetching;
             entity = {};
             yankee = offset;
-            if(yankee) { _fun00006_ip = 274; continue _fun00005 }
- 271:
+            if(yankee) { _fun00006_ip = 294; continue _fun00005 }
+ 291:
             yankee = verify;
- 274:
+ 294:
             entity['isFetching'] = yankee;
             entity['isFetchingCategories'] = offset;
             entity['isFetchingPurchases'] = verify;

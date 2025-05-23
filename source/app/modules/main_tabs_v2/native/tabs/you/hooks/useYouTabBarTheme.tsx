@@ -124,17 +124,17 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             michal[0] = offset;
             yankee = verify == option;
             offset = undefined;
-            if(yankee) { _fun00002_ip = 290; continue _fun00001 }
- 284:
+            if(yankee) { _fun00002_ip = 289; continue _fun00001 }
+ 283:
             offset = option.overlay;
- 290:
+ 289:
             michal[1] = offset;
             verify = verify == option;
             golfie = undefined;
-            if(verify) { _fun00002_ip = 309; continue _fun00001 }
- 303:
+            if(verify) { _fun00002_ip = 308; continue _fun00001 }
+ 302:
             golfie = option.overlaySyncedWithUserTheme;
- 309:
+ 308:
             michal[2] = golfie;
             michal[3] = oscard;
             michal[4] = report;
@@ -236,8 +236,8 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     entity['theme'] = tangon;
                     tangon = michal != report;
                     michal = null;
-                    if(!tangon) { _fun00004_ip = 356; continue _fun00003 }
- 325:
+                    if(!tangon) { _fun00004_ip = 355; continue _fun00003 }
+ 324:
                     tangon = _closure1_slot0;
                     golfie = _closure1_slot2;
                     zuuluu = 10;
@@ -245,7 +245,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     tangon = tangon.bind(oscard)(zuuluu);
                     zuuluu = tangon.int2hex;
                     michal = zuuluu.bind(tangon)(report);
- 356:
+ 355:
                     entity['primaryColor'] = michal;
                     return entity;
                 }

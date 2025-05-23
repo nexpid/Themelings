@@ -19,19 +19,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = argFoo;
                     verify = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 267; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 271; continue _fun00001 }
  16:
                     michal = offset.metadata;
                     report = null;
-                    if(!(report == michal)) { _fun00002_ip = 264; continue _fun00001 }
+                    if(!(report == michal)) { _fun00002_ip = 268; continue _fun00001 }
  31:
                     tangon = _closure1_slot4;
                     zuuluu = tangon.getActivityMetadata;
                     zuuluu = zuuluu.bind(tangon)(verify);
-                    if(!(report == zuuluu)) { _fun00002_ip = 261; continue _fun00001 }
+                    if(!(report == zuuluu)) { _fun00002_ip = 265; continue _fun00001 }
  58:
                     tangon = offset.session_id;
-                    if(!(report != tangon)) { _fun00002_ip = 225; continue _fun00001 }
+                    if(!(report != tangon)) { _fun00002_ip = 229; continue _fun00001 }
  71:
                     report = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -49,13 +49,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = romeon.bind(foxtra)(verify, yankee, offset);
                     tangon['url'] = offset;
                     tangon = report.bind(golfie)(tangon);
-                    SaveGenerator(address=157);
- 155:
+                    SaveGenerator(address=161);
+ 159:
                     return tangon;
- 157:
+ 161:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 222; continue _fun00001 }
- 163:
+                    if(report) { _fun00002_ip = 226; continue _fun00001 }
+ 167:
                     report = tangon.body;
                     golfie = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -70,9 +70,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard['userId'] = verify;
                     oscard = golfie.bind(option)(oscard);
                     return report;
- 222:
+ 226:
                     return tangon;
- 225:
+ 229:
                     tangon = global;
                     oscard = tangon.Error;
                     tangon = oscard.prototype;
@@ -82,11 +82,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = new output[oscard](sizing, kiloes);
                     tangon = tangon instanceof Object ? tangon : report;
                     throw tangon;
- 261:
+ 265:
                     return zuuluu;
- 264:
+ 268:
                     return michal;
- 267:
+ 271:
                     return entity;
                 }
             };

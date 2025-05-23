@@ -63,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report['platformIcon'] = offset;
     report = option.bind(verify)(report);
     var _closure1_slot11 = report;
-    report = 20;
+    report = 21;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -74,7 +74,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             foxtra = entity.contentContainerStyle;
-            option = entity.navScrim;
             oscard = undefined;
             var _closure2_slot4 = oscard;
             entity = _closure1_slot11;
@@ -121,15 +120,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.getGuildPermissionProps;
                     entity = _closure2_slot2;
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00004_ip = 51; continue _fun00003;
+                    _fun00004_ip = 47; continue _fun00003;
  37:
                     entity = {'canManageWebhooks': false, 'canManageGuild': false};
- 51:
+ 47:
                     return entity;
                 }
             };
             golfie = offset.bind(yankee)(verify, golfie);
-            result = golfie.canManageWebhooks;
+            output = golfie.canManageWebhooks;
             backup = golfie.canManageGuild;
             verify = _closure1_slot1;
             golfie = 9;
@@ -153,8 +152,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             tangon = michal == golfie;
             zuuluu = undefined;
-            if(tangon) { _fun00002_ip = 262; continue _fun00001 }
- 245:
+            if(tangon) { _fun00002_ip = 256; continue _fun00001 }
+ 239:
             report = golfie.filter;
             tangon = function(argFoo) {
                 zuuluu = _closure1_slot10;
@@ -165,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             zuuluu = report.bind(golfie)(tangon);
- 262:
+ 256:
             _closure2_slot4 = zuuluu;
             report = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -175,41 +174,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = golfie.useChannelsAllowedToUnlink;
             verify = michal == entity;
             tangon = undefined;
-            if(verify) { _fun00002_ip = 306; continue _fun00001 }
- 301:
+            if(verify) { _fun00002_ip = 300; continue _fun00001 }
+ 295:
             tangon = entity.id;
- 306:
+ 300:
             tangon = report.bind(golfie)(tangon);
             report = tangon.length;
             tangon = 0;
-            output = report > tangon;
-            if(!backup) { _fun00002_ip = 355; continue _fun00001 }
- 325:
+            sizing = report > tangon;
+            if(!backup) { _fun00002_ip = 349; continue _fun00001 }
+ 319:
             golfie = michal == zuuluu;
             report = undefined;
-            if(golfie) { _fun00002_ip = 339; continue _fun00001 }
- 334:
+            if(golfie) { _fun00002_ip = 333; continue _fun00001 }
+ 328:
             report = zuuluu.length;
- 339:
+ 333:
             golfie = michal != report;
             zuuluu = 0;
-            if(!golfie) { _fun00002_ip = 351; continue _fun00001 }
- 348:
+            if(!golfie) { _fun00002_ip = 345; continue _fun00001 }
+ 342:
             zuuluu = report;
- 351:
+ 345:
             backup = zuuluu > tangon;
- 355:
+ 349:
             zuuluu = michal == entity;
             entity = null;
-            if(zuuluu) { _fun00002_ip = 1184; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 1216; continue _fun00001 }
+ 361:
+            if(output) { _fun00002_ip = 375; continue _fun00001 }
+ 364:
+            if(sizing) { _fun00002_ip = 375; continue _fun00001 }
  367:
-            if(result) { _fun00002_ip = 381; continue _fun00001 }
- 370:
-            if(output) { _fun00002_ip = 381; continue _fun00001 }
- 373:
             michal = null;
-            if(!backup) { _fun00002_ip = 1181; continue _fun00001 }
- 381:
+            if(!backup) { _fun00002_ip = 1213; continue _fun00001 }
+ 375:
             report = _closure1_slot9;
             romeon = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -219,62 +218,62 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.RedesignCompat;
             zuuluu = {};
             offset = _closure1_slot7;
-            vacuum = 12;
-            golfie = yankee[vacuum];
+            ctrled = 12;
+            golfie = yankee[ctrled];
             golfie = romeon.bind(oscard)(golfie);
             verify = golfie.Form;
             golfie = {};
             golfie['contentContainerStyle'] = foxtra;
-            yankee = yankee[vacuum];
+            yankee = yankee[ctrled];
             yankee = romeon.bind(oscard)(yankee);
             romeon = yankee.FormSection;
             yankee = {};
-            if(!result) { _fun00002_ip = 888; continue _fun00001 }
- 465:
-            update = _closure1_slot9;
-            echoed = _closure1_slot8;
+            if(!output) { _fun00002_ip = 882; continue _fun00001 }
+ 459:
+            echoed = _closure1_slot9;
+            result = _closure1_slot8;
             foxtra = {};
-            config = _closure1_slot7;
-            cntext = _closure1_slot0;
-            record = _closure1_slot2;
-            source = record[vacuum];
-            source = cntext.bind(oscard)(source);
-            ctrled = source.FormRow;
-            source = {};
-            papara = 13;
-            sequen = record[papara];
-            sequen = cntext.bind(oscard)(sequen);
-            status = sequen.intl;
-            target = status.string;
-            sequen = record[papara];
-            sequen = cntext.bind(oscard)(sequen);
-            sequen = sequen.t;
-            sequen = sequen.jp25IS;
-            sequen = target.bind(status)(sequen);
-            source['label'] = sequen;
-            sequen = record[papara];
-            sequen = cntext.bind(oscard)(sequen);
-            status = sequen.intl;
-            target = status.string;
-            sequen = record[papara];
-            sequen = cntext.bind(oscard)(sequen);
-            sequen = sequen.t;
-            sequen = sequen.mKIOkJ;
-            sequen = target.bind(status)(sequen);
-            source['subLabel'] = sequen;
-            sequen = 14;
-            sequen = record[sequen];
-            sequen = cntext.bind(oscard)(sequen);
-            sequen = sequen.WebhookIcon;
-            source['leading'] = sequen;
-            sequen = record[vacuum];
-            sequen = cntext.bind(oscard)(sequen);
-            sequen = sequen.FormRow;
-            target = sequen.Arrow;
-            sequen = {};
-            sequen = config.bind(oscard)(target, sequen);
-            source['trailing'] = sequen;
-            sequen = function() { // Original name: onPress
+            sequen = _closure1_slot7;
+            record = _closure1_slot0;
+            config = _closure1_slot2;
+            update = config[ctrled];
+            update = record.bind(oscard)(update);
+            source = update.FormRow;
+            update = {};
+            cntext = 13;
+            vacuum = config[cntext];
+            vacuum = record.bind(oscard)(vacuum);
+            target = vacuum.intl;
+            papara = target.string;
+            vacuum = config[cntext];
+            vacuum = record.bind(oscard)(vacuum);
+            vacuum = vacuum.t;
+            vacuum = vacuum.jp25IS;
+            vacuum = papara.bind(target)(vacuum);
+            update['label'] = vacuum;
+            vacuum = config[cntext];
+            vacuum = record.bind(oscard)(vacuum);
+            target = vacuum.intl;
+            papara = target.string;
+            vacuum = config[cntext];
+            vacuum = record.bind(oscard)(vacuum);
+            vacuum = vacuum.t;
+            vacuum = vacuum.mKIOkJ;
+            vacuum = papara.bind(target)(vacuum);
+            update['subLabel'] = vacuum;
+            vacuum = 14;
+            vacuum = config[vacuum];
+            vacuum = record.bind(oscard)(vacuum);
+            vacuum = vacuum.WebhookIcon;
+            update['leading'] = vacuum;
+            vacuum = config[ctrled];
+            vacuum = record.bind(oscard)(vacuum);
+            vacuum = vacuum.FormRow;
+            papara = vacuum.Arrow;
+            vacuum = {};
+            vacuum = sequen.bind(oscard)(papara, vacuum);
+            update['trailing'] = vacuum;
+            vacuum = function() { // Original name: onPress
                 zuuluu = _closure2_slot1;
                 michal = zuuluu.push;
                 entity = _closure1_slot6;
@@ -282,47 +281,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            source['onPress'] = sequen;
-            ctrled = config.bind(oscard)(ctrled, source);
-            source = new Array(2);
-            source[0] = ctrled;
-            ctrled = record[vacuum];
-            ctrled = cntext.bind(oscard)(ctrled);
-            sequen = ctrled.FormRow;
-            ctrled = {};
-            target = record[papara];
-            target = cntext.bind(oscard)(target);
-            sierra = target.intl;
-            status = sierra.string;
-            target = record[papara];
-            target = cntext.bind(oscard)(target);
-            target = target.t;
-            target = target.OrV60t;
-            target = status.bind(sierra)(target);
-            ctrled['label'] = target;
-            target = record[papara];
-            target = cntext.bind(oscard)(target);
-            status = target.intl;
+            update['onPress'] = vacuum;
+            source = sequen.bind(oscard)(source, update);
+            update = new Array(2);
+            update[0] = source;
+            source = config[ctrled];
+            source = record.bind(oscard)(source);
+            vacuum = source.FormRow;
+            source = {};
+            papara = config[cntext];
+            papara = record.bind(oscard)(papara);
+            status = papara.intl;
             target = status.string;
-            papara = record[papara];
-            papara = cntext.bind(oscard)(papara);
+            papara = config[cntext];
+            papara = record.bind(oscard)(papara);
             papara = papara.t;
-            papara = papara.rQREJi;
+            papara = papara.OrV60t;
             papara = target.bind(status)(papara);
-            ctrled['subLabel'] = papara;
-            papara = 15;
-            papara = record[papara];
-            papara = cntext.bind(oscard)(papara);
-            papara = papara.ChannelsFollowedIcon;
-            ctrled['leading'] = papara;
-            record = record[vacuum];
-            record = cntext.bind(oscard)(record);
-            record = record.FormRow;
-            cntext = record.Arrow;
-            record = {};
-            record = config.bind(oscard)(cntext, record);
-            ctrled['trailing'] = record;
-            record = function() { // Original name: onPress
+            source['label'] = papara;
+            papara = config[cntext];
+            papara = record.bind(oscard)(papara);
+            target = papara.intl;
+            papara = target.string;
+            cntext = config[cntext];
+            cntext = record.bind(oscard)(cntext);
+            cntext = cntext.t;
+            cntext = cntext.rQREJi;
+            cntext = papara.bind(target)(cntext);
+            source['subLabel'] = cntext;
+            cntext = 15;
+            cntext = config[cntext];
+            cntext = record.bind(oscard)(cntext);
+            cntext = cntext.ChannelsFollowedIcon;
+            source['leading'] = cntext;
+            config = config[ctrled];
+            config = record.bind(oscard)(config);
+            config = config.FormRow;
+            record = config.Arrow;
+            config = {};
+            config = sequen.bind(oscard)(record, config);
+            source['trailing'] = config;
+            config = function() { // Original name: onPress
                 zuuluu = _closure2_slot1;
                 michal = zuuluu.push;
                 entity = _closure1_slot6;
@@ -330,57 +329,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            ctrled['onPress'] = record;
-            ctrled = config.bind(oscard)(sequen, ctrled);
-            source[1] = ctrled;
-            foxtra['children'] = source;
-            result = update.bind(oscard)(echoed, foxtra);
- 888:
+            source['onPress'] = config;
+            source = sequen.bind(oscard)(vacuum, source);
+            update[1] = source;
+            foxtra['children'] = update;
+            output = echoed.bind(oscard)(result, foxtra);
+ 882:
             foxtra = new Array(3);
-            foxtra[0] = result;
-            if(!output) { _fun00002_ip = 1107; continue _fun00001 }
- 902:
-            update = _closure1_slot7;
-            ctrled = _closure1_slot0;
-            source = _closure1_slot2;
-            result = source[vacuum];
-            result = ctrled.bind(oscard)(result);
-            echoed = result.FormRow;
-            result = {};
-            sequen = 13;
-            config = source[sequen];
-            config = ctrled.bind(oscard)(config);
-            cntext = config.intl;
-            record = cntext.string;
-            config = source[sequen];
-            config = ctrled.bind(oscard)(config);
-            config = config.t;
-            config = config.tqtDXF;
-            config = record.bind(cntext)(config);
-            result['label'] = config;
-            config = source[sequen];
-            config = ctrled.bind(oscard)(config);
-            record = config.intl;
+            foxtra[0] = output;
+            if(!sizing) { _fun00002_ip = 1101; continue _fun00001 }
+ 896:
+            echoed = _closure1_slot7;
+            source = _closure1_slot0;
+            update = _closure1_slot2;
+            output = update[ctrled];
+            output = source.bind(oscard)(output);
+            result = output.FormRow;
+            output = {};
+            vacuum = 13;
+            sequen = update[vacuum];
+            sequen = source.bind(oscard)(sequen);
+            record = sequen.intl;
             config = record.string;
-            sequen = source[sequen];
-            sequen = ctrled.bind(oscard)(sequen);
+            sequen = update[vacuum];
+            sequen = source.bind(oscard)(sequen);
             sequen = sequen.t;
-            sequen = sequen.v8819f;
+            sequen = sequen.tqtDXF;
             sequen = config.bind(record)(sequen);
-            result['subLabel'] = sequen;
-            sequen = 16;
-            sequen = source[sequen];
-            sequen = ctrled.bind(oscard)(sequen);
-            sequen = sequen.RefreshIcon;
-            result['leading'] = sequen;
-            source = source[vacuum];
-            source = ctrled.bind(oscard)(source);
-            source = source.FormRow;
-            ctrled = source.Arrow;
-            source = {};
-            source = update.bind(oscard)(ctrled, source);
-            result['trailing'] = source;
-            source = function() { // Original name: onPress
+            output['label'] = sequen;
+            sequen = update[vacuum];
+            sequen = source.bind(oscard)(sequen);
+            config = sequen.intl;
+            sequen = config.string;
+            vacuum = update[vacuum];
+            vacuum = source.bind(oscard)(vacuum);
+            vacuum = vacuum.t;
+            vacuum = vacuum.v8819f;
+            vacuum = sequen.bind(config)(vacuum);
+            output['subLabel'] = vacuum;
+            vacuum = 16;
+            vacuum = update[vacuum];
+            vacuum = source.bind(oscard)(vacuum);
+            vacuum = vacuum.RefreshIcon;
+            output['leading'] = vacuum;
+            update = update[ctrled];
+            update = source.bind(oscard)(update);
+            update = update.FormRow;
+            source = update.Arrow;
+            update = {};
+            update = echoed.bind(oscard)(source, update);
+            output['trailing'] = update;
+            update = function() { // Original name: onPress
                 zuuluu = _closure2_slot1;
                 michal = zuuluu.push;
                 entity = _closure1_slot6;
@@ -388,12 +387,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            result['onPress'] = source;
-            output = update.bind(oscard)(echoed, result);
- 1107:
-            foxtra[1] = output;
-            if(!backup) { _fun00002_ip = 1135; continue _fun00001 }
- 1114:
+            output['onPress'] = update;
+            sizing = echoed.bind(oscard)(result, output);
+ 1101:
+            foxtra[1] = sizing;
+            if(!backup) { _fun00002_ip = 1129; continue _fun00001 }
+ 1108:
             output = _closure1_slot10;
             sizing = output.map;
             kiloes = function(argFoo) {
@@ -510,7 +509,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             backup = sizing.bind(output)(kiloes);
- 1135:
+ 1129:
             foxtra[2] = backup;
             yankee['children'] = foxtra;
             yankee = report.bind(oscard)(romeon, yankee);
@@ -518,12 +517,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.bind(oscard)(verify, golfie);
             golfie = new Array(2);
             golfie[0] = verify;
+            offset = _closure1_slot7;
+            verify = _closure1_slot0;
+            yankee = _closure1_slot2;
+            option = 20;
+            option = yankee[option];
+            option = verify.bind(oscard)(option);
+            verify = option.NavScrim;
+            option = {};
+            option = offset.bind(oscard)(verify, option);
             golfie[1] = option;
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 1181:
+ 1213:
             entity = michal;
- 1184:
+ 1216:
             return entity;
         }
     };

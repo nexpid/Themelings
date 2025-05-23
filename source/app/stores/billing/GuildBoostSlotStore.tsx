@@ -35,23 +35,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot8 = michal;
+            _closure1_slot9 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot8 = entity;
+    var _closure1_slot9 = entity;
     option = function(argFoo) { // Original name: handleGuildBoostsUpdate
         entity = argFoo;
         tangon = entity.guildBoostSlot;
         michal = {};
-        report = _closure1_slot7;
+        report = _closure1_slot8;
         oscard = michal;
         zuuluu = copyDataProperties(oscard, report);
         zuuluu = tangon.id;
         michal[zuuluu] = tangon;
-        _closure1_slot7 = michal;
+        _closure1_slot8 = michal;
         entity = undefined;
         return entity;
     };
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = global;
             report = entity.Object;
             tangon = report.values;
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot8;
             report = tangon.bind(report)(zuuluu);
             zuuluu = report.length;
             tangon = 0;
@@ -81,12 +81,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.length;
             if(tangon < zuuluu) { _fun00004_ip = 41; continue _fun00003 }
  93:
-            _closure1_slot7 = michal;
+            _closure1_slot8 = michal;
             entity = undefined;
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot10 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -122,8 +122,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = michal;
     michal = false;
     var _closure1_slot6 = michal;
-    michal = {};
     var _closure1_slot7 = michal;
+    michal = {};
+    var _closure1_slot8 = michal;
     michal = 6;
     michal = report[michal];
     michal = oscard.bind(entity)(michal);
@@ -141,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot3;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot2;
-                entity = _closure1_slot8;
+                entity = _closure1_slot9;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00006_ip = 69; continue _fun00005 }
  51:
@@ -179,13 +180,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot5;
             michal = new Array(1);
             michal[0] = report;
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             entity = zuuluu.bind(tangon)(michal, entity);
             entity = undefined;
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(4);
+        entity = new Array(5);
         entity[0] = report;
         report = {};
         golfie = 'hasFetched';
@@ -197,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[1] = report;
         report = {};
-        golfie = 'boostSlots';
+        golfie = 'isFetching';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             entity = _closure1_slot7;
@@ -206,16 +207,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[2] = report;
         report = {};
+        golfie = 'boostSlots';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            entity = _closure1_slot8;
+            return entity;
+        };
+        report['get'] = golfie;
+        entity[3] = report;
+        report = {};
         golfie = 'getGuildBoostSlot';
         report['key'] = golfie;
         oscard = function(argFoo) { // Original name: value
-            michal = _closure1_slot7;
+            michal = _closure1_slot8;
             entity = argFoo;
             entity = michal[entity];
             return entity;
         };
         report['value'] = oscard;
-        entity[3] = report;
+        entity[4] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -226,21 +236,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = report[michal];
     romeon = oscard.bind(entity)(michal);
     michal = {};
-    verify = function(argFoo) { // Original name: handleGuildBoostsFetch
+    verify = function() { // Original name: handleGuildBoostsFetch
+        entity = true;
+        _closure1_slot7 = entity;
+        entity = undefined;
+        return entity;
+    };
+    michal['GUILD_BOOST_SLOTS_FETCH'] = verify;
+    verify = function(argFoo) { // Original name: handleGuildBoostsFetchSuccess
         entity = argFoo;
         tangon = entity.guildBoostSlots;
         entity = {};
-        _closure1_slot7 = entity;
+        _closure1_slot8 = entity;
         zuuluu = tangon.forEach;
         entity = function(argFoo) {
             zuuluu = argFoo;
-            michal = _closure1_slot7;
+            michal = _closure1_slot8;
             entity = zuuluu.id;
             michal[entity] = zuuluu;
             entity = undefined;
             return entity;
         };
         entity = zuuluu.bind(tangon)(entity);
+        entity = false;
+        _closure1_slot7 = entity;
         entity = true;
         _closure1_slot6 = entity;
         entity = undefined;
@@ -252,9 +271,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['GUILD_BOOST_SLOT_UPDATE'] = option;
     tangon = function() { // Original name: handleLogout
         entity = {};
-        _closure1_slot7 = entity;
+        _closure1_slot8 = entity;
         entity = false;
         _closure1_slot6 = entity;
+        _closure1_slot7 = entity;
         entity = undefined;
         return entity;
     };

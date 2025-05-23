@@ -1,4 +1,4 @@
-// app/modules/client_themes/ClientThemes.messages.js
+// app/modules/client_themes/intl/ClientThemes.messages.js
 module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
@@ -52,7 +52,7 @@ module.exports = (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/client_themes/ClientThemes.messages.js';
+    report = 'modules/client_themes/intl/ClientThemes.messages.js';
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
     zuuluu['messagesLoader'] = michal;

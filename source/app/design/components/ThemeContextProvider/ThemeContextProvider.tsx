@@ -112,104 +112,104 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 entity = {};
                 tangon = _closure2_slot0;
                 oscard = null;
-                if(!(oscard == tangon)) { _fun00002_ip = 58; continue _fun00001 }
+                if(!(oscard == tangon)) { _fun00002_ip = 57; continue _fun00001 }
  46:
                 tangon = _closure2_slot10;
                 tangon = tangon.theme;
-                _fun00002_ip = 62; continue _fun00001;
- 58:
+                _fun00002_ip = 61; continue _fun00001;
+ 57:
                 tangon = _closure2_slot0;
- 62:
+ 61:
                 entity['theme'] = tangon;
                 tangon = _closure2_slot1;
-                if(!(oscard == tangon)) { _fun00002_ip = 87; continue _fun00001 }
- 75:
+                if(!(oscard == tangon)) { _fun00002_ip = 85; continue _fun00001 }
+ 73:
                 tangon = _closure2_slot10;
                 tangon = tangon.primaryColor;
-                _fun00002_ip = 91; continue _fun00001;
- 87:
+                _fun00002_ip = 89; continue _fun00001;
+ 85:
                 tangon = _closure2_slot1;
- 91:
+ 89:
                 entity['primaryColor'] = tangon;
                 tangon = _closure2_slot2;
-                if(!(oscard == tangon)) { _fun00002_ip = 116; continue _fun00001 }
- 104:
+                if(!(oscard == tangon)) { _fun00002_ip = 114; continue _fun00001 }
+ 102:
                 tangon = _closure2_slot10;
                 tangon = tangon.secondaryColor;
-                _fun00002_ip = 120; continue _fun00001;
- 116:
+                _fun00002_ip = 118; continue _fun00001;
+ 114:
                 tangon = _closure2_slot2;
- 120:
+ 118:
                 entity['secondaryColor'] = tangon;
                 tangon = _closure2_slot3;
-                if(!(oscard == tangon)) { _fun00002_ip = 145; continue _fun00001 }
- 133:
+                if(!(oscard == tangon)) { _fun00002_ip = 143; continue _fun00001 }
+ 131:
                 tangon = _closure2_slot10;
                 tangon = tangon.gradient;
-                _fun00002_ip = 149; continue _fun00001;
- 145:
+                _fun00002_ip = 147; continue _fun00001;
+ 143:
                 tangon = _closure2_slot3;
- 149:
+ 147:
                 entity['gradient'] = tangon;
                 tangon = _closure2_slot4;
-                if(!(oscard == tangon)) { _fun00002_ip = 173; continue _fun00001 }
- 162:
+                if(!(oscard == tangon)) { _fun00002_ip = 171; continue _fun00001 }
+ 160:
                 tangon = _closure2_slot10;
                 tangon = tangon.flags;
-                _fun00002_ip = 177; continue _fun00001;
- 173:
+                _fun00002_ip = 175; continue _fun00001;
+ 171:
                 tangon = _closure2_slot4;
- 177:
+ 175:
                 entity['flags'] = tangon;
                 tangon = _closure2_slot5;
-                if(!(oscard == tangon)) { _fun00002_ip = 201; continue _fun00001 }
- 189:
+                if(!(oscard == tangon)) { _fun00002_ip = 199; continue _fun00001 }
+ 187:
                 tangon = _closure2_slot10;
                 tangon = tangon.contrast;
-                _fun00002_ip = 205; continue _fun00001;
- 201:
+                _fun00002_ip = 203; continue _fun00001;
+ 199:
                 tangon = _closure2_slot5;
- 205:
+ 203:
                 entity['contrast'] = tangon;
                 tangon = _closure2_slot6;
-                if(!(oscard == tangon)) { _fun00002_ip = 230; continue _fun00001 }
- 218:
+                if(!(oscard == tangon)) { _fun00002_ip = 228; continue _fun00001 }
+ 216:
                 tangon = _closure2_slot10;
                 tangon = tangon.saturation;
-                _fun00002_ip = 234; continue _fun00001;
- 230:
+                _fun00002_ip = 232; continue _fun00001;
+ 228:
                 tangon = _closure2_slot6;
- 234:
+ 232:
                 entity['saturation'] = tangon;
                 tangon = _closure2_slot7;
-                if(!(oscard == tangon)) { _fun00002_ip = 259; continue _fun00001 }
- 247:
+                if(!(oscard == tangon)) { _fun00002_ip = 257; continue _fun00001 }
+ 245:
                 tangon = _closure2_slot10;
                 tangon = tangon.density;
-                _fun00002_ip = 263; continue _fun00001;
- 259:
+                _fun00002_ip = 261; continue _fun00001;
+ 257:
                 tangon = _closure2_slot7;
- 263:
+ 261:
                 entity['density'] = tangon;
                 tangon = _closure2_slot8;
-                if(!(oscard == tangon)) { _fun00002_ip = 288; continue _fun00001 }
- 276:
+                if(!(oscard == tangon)) { _fun00002_ip = 286; continue _fun00001 }
+ 274:
                 tangon = _closure2_slot10;
                 tangon = tangon.disableAdaptiveTheme;
-                _fun00002_ip = 292; continue _fun00001;
- 288:
+                _fun00002_ip = 290; continue _fun00001;
+ 286:
                 tangon = _closure2_slot8;
- 292:
+ 290:
                 entity['disableAdaptiveTheme'] = tangon;
                 tangon = _closure2_slot9;
-                if(!(oscard == tangon)) { _fun00002_ip = 317; continue _fun00001 }
- 305:
+                if(!(oscard == tangon)) { _fun00002_ip = 315; continue _fun00001 }
+ 303:
                 tangon = _closure2_slot10;
                 tangon = tangon.reduceAdaptiveTheme;
-                _fun00002_ip = 321; continue _fun00001;
- 317:
+                _fun00002_ip = 319; continue _fun00001;
+ 315:
                 tangon = _closure2_slot9;
- 321:
+ 319:
                 entity['reduceAdaptiveTheme'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;

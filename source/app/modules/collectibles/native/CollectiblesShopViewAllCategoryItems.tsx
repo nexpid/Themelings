@@ -232,10 +232,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = oscard.bind(tangon)(zuuluu);
             zuuluu = romeon.useAndroidUnsyncedFilter;
             romeon = zuuluu.bind(romeon)();
+            zuuluu = 18;
+            zuuluu = verify[zuuluu];
+            foxtra = oscard.bind(tangon)(zuuluu);
+            zuuluu = foxtra.useNameplateFilter;
+            foxtra = zuuluu.bind(foxtra)();
             zuuluu = sequen.products;
+            zuuluu = foxtra.bind(tangon)(zuuluu);
             zuuluu = romeon.bind(tangon)(zuuluu);
             sizing = offset.bind(tangon)(zuuluu);
-            result = 18;
+            result = 19;
             zuuluu = verify[result];
             romeon = oscard.bind(tangon)(zuuluu);
             offset = romeon.useSharedValue;
@@ -252,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.set;
                     report = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 19;
+                    entity = 20;
                     michal = michal[entity];
                     entity = undefined;
                     oscard = report.bind(entity)(michal);
@@ -293,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = _closure1_slot11;
             zuuluu['__initData'] = foxtra;
             source = offset.bind(romeon)(zuuluu);
-            zuuluu = 20;
+            zuuluu = 21;
             zuuluu = verify[zuuluu];
             verify = oscard.bind(tangon)(zuuluu);
             oscard = verify.useMobileShopAdaptiveBackButtonColorEnabled;
@@ -303,10 +309,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = null;
             zuuluu = echoed == option;
             verify = undefined;
-            if(zuuluu) { _fun00004_ip = 505; continue _fun00003 }
- 499:
+            if(zuuluu) { _fun00004_ip = 532; continue _fun00003 }
+ 526:
             verify = option.sessionId;
- 505:
+ 532:
             zuuluu = new Array(3);
             zuuluu[0] = verify;
             zuuluu[1] = report;
@@ -317,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
-                    entity = 21;
+                    entity = 22;
                     michal = michal[entity];
                     entity = undefined;
                     report = zuuluu.bind(entity)(michal);
@@ -362,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.AnalyticsLocationProvider;
             entity = {};
             entity['value'] = report;
-            report = 22;
+            report = 23;
             report = ctrled[report];
             report = foxtra.bind(tangon)(report);
             oscard = report.CollectiblesAnalyticsProvider;
@@ -380,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             offset = update.rootContainer;
             golfie['style'] = offset;
-            offset = 23;
+            offset = 24;
             offset = ctrled[offset];
             offset = foxtra.bind(tangon)(offset);
             foxtra = offset.CollectiblesProgressiveImage;
@@ -392,36 +398,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = ctrled.absoluteFill;
             offset['style'] = ctrled;
             ctrled = undefined;
-            if(!(tangon !== config)) { _fun00004_ip = 759; continue _fun00003 }
- 694:
+            if(!(tangon !== config)) { _fun00004_ip = 786; continue _fun00003 }
+ 721:
             papara = config.primary;
             record = echoed == papara;
             cntext = undefined;
-            if(record) { _fun00004_ip = 719; continue _fun00003 }
- 709:
+            if(record) { _fun00004_ip = 746; continue _fun00003 }
+ 736:
             record = papara.toHexString;
             cntext = record.bind(papara)();
- 719:
+ 746:
             record = new Array(2);
             record[0] = cntext;
             target = config.secondary;
             papara = echoed == target;
             cntext = undefined;
-            if(papara) { _fun00004_ip = 752; continue _fun00003 }
- 742:
+            if(papara) { _fun00004_ip = 779; continue _fun00003 }
+ 769:
             papara = target.toHexString;
             cntext = papara.bind(target)();
- 752:
+ 779:
             record[1] = cntext;
             ctrled = record;
- 759:
+ 786:
             offset['placeholderGradient'] = ctrled;
             foxtra = zuuluu.bind(tangon)(foxtra, offset);
             offset = new Array(4);
             offset[0] = foxtra;
             ctrled = _closure1_slot7;
-            if(romeon) { _fun00004_ip = 855; continue _fun00003 }
- 785:
+            if(romeon) { _fun00004_ip = 882; continue _fun00003 }
+ 812:
             foxtra = _closure1_slot1;
             record = _closure1_slot2;
             romeon = 9;
@@ -432,22 +438,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['logo'] = record;
             record = echoed == config;
             echoed = undefined;
-            if(record) { _fun00004_ip = 842; continue _fun00003 }
- 827:
+            if(record) { _fun00004_ip = 869; continue _fun00003 }
+ 854:
             record = config.label;
             config = record.toHexString;
             echoed = config.bind(record)();
- 842:
+ 869:
             romeon['buttonColor'] = echoed;
             romeon = ctrled.bind(tangon)(foxtra, romeon);
-            _fun00004_ip = 876; continue _fun00003;
- 855:
+            _fun00004_ip = 903; continue _fun00003;
+ 882:
             echoed = _closure1_slot10;
             foxtra = {};
             foxtra['category'] = sequen;
             foxtra['backgroundUrl'] = vacuum;
             romeon = ctrled.bind(tangon)(echoed, foxtra);
- 876:
+ 903:
             offset[1] = romeon;
             foxtra = _closure1_slot7;
             romeon = _closure1_slot1;
@@ -481,7 +487,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 24;
+    tangon = 25;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

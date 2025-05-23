@@ -1074,7 +1074,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = backup;
             zuuluu = copyDataProperties(cntext, record);
             entity = tangon.bind(report)(michal, entity);
-            _fun00018_ip = 1561; continue _fun00017;
+            _fun00018_ip = 1560; continue _fun00017;
  1276:
             romeon = _closure1_slot0;
             output = _closure1_slot3;
@@ -1263,7 +1263,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1561:
+ 1560:
             return entity;
         }
     };

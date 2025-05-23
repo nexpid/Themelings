@@ -413,10 +413,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             report['useThemedBarStyle'] = romeon;
             option = romeon;
-            if(romeon) { _fun00004_ip = 682; continue _fun00003 }
- 679:
+            if(romeon) { _fun00004_ip = 681; continue _fun00003 }
+ 678:
             option = foxtra;
- 682:
+ 681:
             report['showStatus'] = option;
             report['channel'] = update;
             backup = _closure1_slot15;
@@ -437,16 +437,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = {};
             foxtra['channel'] = update;
             result = romeon;
-            if(result) { _fun00004_ip = 771; continue _fun00003 }
- 765:
+            if(result) { _fun00004_ip = 770; continue _fun00003 }
+ 764:
             echoed = null;
             result = echoed != ctrled;
- 771:
-            if(result) { _fun00004_ip = 780; continue _fun00003 }
- 774:
+ 770:
+            if(result) { _fun00004_ip = 779; continue _fun00003 }
+ 773:
             echoed = null;
             result = echoed != source;
- 780:
+ 779:
             foxtra['omitPTT'] = result;
             foxtra['disableGradient'] = romeon;
             foxtra['forceReveal'] = romeon;
@@ -512,12 +512,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['children'] = output;
             foxtra = sizing.bind(tangon)(backup, foxtra);
             option[1] = foxtra;
-            if(!verify) { _fun00004_ip = 1066; continue _fun00003 }
- 1063:
+            if(!verify) { _fun00004_ip = 1065; continue _fun00003 }
+ 1062:
             verify = !romeon;
- 1066:
-            if(!verify) { _fun00004_ip = 1113; continue _fun00003 }
- 1069:
+ 1065:
+            if(!verify) { _fun00004_ip = 1112; continue _fun00003 }
+ 1068:
             backup = _closure1_slot15;
             foxtra = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -534,11 +534,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             romeon['onClose'] = kiloes;
             verify = backup.bind(tangon)(foxtra, romeon);
- 1113:
+ 1112:
             option[2] = verify;
             verify = null;
-            if(!yankee) { _fun00004_ip = 1154; continue _fun00003 }
- 1122:
+            if(!yankee) { _fun00004_ip = 1153; continue _fun00003 }
+ 1121:
             romeon = _closure1_slot15;
             yankee = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -547,7 +547,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(tangon)(offset);
             offset = {};
             verify = romeon.bind(tangon)(yankee, offset);
- 1154:
+ 1153:
             option[3] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
