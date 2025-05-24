@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.PlatformTypes;
     var _closure1_slot4 = tangon;
-    tangon = 15;
+    tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -161,17 +161,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.body;
                     zuuluu = entity.url;
                     entity = null;
-                    if(!(entity != zuuluu)) { _fun00008_ip = 55; continue _fun00007 }
+                    if(!(entity != zuuluu)) { _fun00008_ip = 125; continue _fun00007 }
  19:
+                    tangon = _closure1_slot0;
+                    report = _closure1_slot2;
+                    entity = 15;
+                    entity = report[entity];
+                    report = undefined;
+                    entity = tangon.bind(report)(entity);
+                    oscard = entity.ExperimentConnectionFlowRefactor;
+                    tangon = oscard.getCurrentConfig;
+                    entity = {};
+                    golfie = 'authorizeConnection.native:authorizeConnection';
+                    entity['location'] = golfie;
+                    entity = tangon.bind(oscard)(entity);
+                    entity = entity.enabled;
                     tangon = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    entity = 13;
-                    michal = michal[entity];
-                    entity = undefined;
-                    michal = tangon.bind(entity)(michal);
+                    oscard = _closure1_slot2;
+                    michal = 13;
+                    michal = oscard[michal];
+                    michal = tangon.bind(report)(michal);
+                    if(entity) { _fun00008_ip = 114; continue _fun00007 }
+ 101:
                     entity = michal.openURL;
                     entity = entity.bind(michal)(zuuluu);
- 55:
+                    _fun00008_ip = 125; continue _fun00007;
+ 114:
+                    entity = michal.openURLExternally;
+                    entity = entity.bind(michal)(zuuluu);
+ 125:
                     entity = undefined;
                     return entity;
                 }

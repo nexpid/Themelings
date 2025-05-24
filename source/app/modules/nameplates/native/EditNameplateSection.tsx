@@ -261,7 +261,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = result[report];
         report = output.bind(tangon)(report);
         oscard = report.Text;
-        report = {'variant': 'heading-sm/medium', 'color': 'text-muted'};
+        report = {'variant': 'heading-sm/medium', 'color': 'header-primary'};
+        backup = {};
+        kiloes = result[yankee];
+        kiloes = output.bind(tangon)(kiloes);
+        kiloes = kiloes.GUTTER_SIZE;
+        backup['paddingHorizontal'] = kiloes;
+        report['style'] = backup;
         golfie = golfie.header;
         report['children'] = golfie;
         oscard = option.bind(tangon)(oscard, report);

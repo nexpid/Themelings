@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = golfie.isArray;
             golfie = report.bind(golfie)(verify);
             report = verify;
-            if(!golfie) { _fun00004_ip = 130; continue _fun00003 }
+            if(!golfie) { _fun00004_ip = 131; continue _fun00003 }
  77:
             option = _closure1_slot10;
             golfie = _closure1_slot0;
@@ -72,11 +72,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 9;
             oscard = offset[oscard];
             oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.Text;
+            golfie = oscard.TextWithIOSLinkWorkaround;
             oscard = {'variant': 'text-xs/normal', 'color': 'text-muted'};
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 130:
+ 131:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

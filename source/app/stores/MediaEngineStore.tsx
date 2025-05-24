@@ -4432,50 +4432,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = oscard.isLinux;
             zuuluu = tangon.bind(oscard)();
  65:
-            if(zuuluu) { _fun00108_ip = 194; continue _fun00107 }
- 71:
+            if(zuuluu) { _fun00108_ip = 95; continue _fun00107 }
+ 68:
             oscard = _closure1_slot0;
             tangon = _closure1_slot3;
             tangon = tangon[report];
             oscard = oscard.bind(entity)(tangon);
             tangon = oscard.isMac;
-            tangon = tangon.bind(oscard)();
-            if(!tangon) { _fun00108_ip = 191; continue _fun00107 }
- 101:
-            golfie = _closure1_slot1;
-            oscard = _closure1_slot3;
-            option = 51;
-            option = oscard[option];
-            verify = golfie.bind(entity)(option);
-            option = verify.satisfies;
-            yankee = 52;
-            oscard = oscard[yankee];
-            golfie = golfie.bind(entity)(oscard);
-            oscard = null;
-            oscard = oscard == golfie;
-            golfie = undefined;
-            if(oscard) { _fun00108_ip = 179; continue _fun00107 }
- 150:
-            offset = _closure1_slot1;
-            oscard = _closure1_slot3;
-            oscard = oscard[yankee];
-            oscard = offset.bind(entity)(oscard);
-            oscard = oscard.os;
-            golfie = oscard.release;
- 179:
-            oscard = '>=21.0.0';
-            tangon = option.bind(verify)(golfie, oscard);
- 191:
-            zuuluu = tangon;
- 194:
-            if(!zuuluu) { _fun00108_ip = 233; continue _fun00107 }
- 197:
+            zuuluu = tangon.bind(oscard)();
+ 95:
+            if(!zuuluu) { _fun00108_ip = 134; continue _fun00107 }
+ 98:
             zuuluu = _closure1_slot97;
-            if(zuuluu) { _fun00108_ip = 233; continue _fun00107 }
- 204:
+            if(zuuluu) { _fun00108_ip = 134; continue _fun00107 }
+ 105:
             zuuluu = _closure1_slot98;
-            if(zuuluu) { _fun00108_ip = 233; continue _fun00107 }
- 211:
+            if(zuuluu) { _fun00108_ip = 134; continue _fun00107 }
+ 112:
             zuuluu = true;
             _closure1_slot97 = zuuluu;
             zuuluu = function() { // Original name: setupKrispNativeModule
@@ -4489,44 +4462,44 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             zuuluu = zuuluu.bind(entity)();
-            _fun00108_ip = 361; continue _fun00107;
- 233:
+            _fun00108_ip = 262; continue _fun00107;
+ 134:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu[report];
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = tangon.isWeb;
             zuuluu = zuuluu.bind(tangon)();
-            if(!zuuluu) { _fun00108_ip = 291; continue _fun00107 }
- 263:
+            if(!zuuluu) { _fun00108_ip = 192; continue _fun00107 }
+ 164:
             oscard = _closure1_slot68;
             tangon = oscard.supports;
             zuuluu = _closure1_slot46;
             zuuluu = zuuluu.NOISE_CANCELLATION;
             zuuluu = tangon.bind(oscard)(zuuluu);
-            if(zuuluu) { _fun00108_ip = 341; continue _fun00107 }
- 291:
+            if(zuuluu) { _fun00108_ip = 242; continue _fun00107 }
+ 192:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu[report];
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = tangon.isWeb;
             zuuluu = zuuluu.bind(tangon)();
-            if(!zuuluu) { _fun00108_ip = 361; continue _fun00107 }
- 321:
+            if(!zuuluu) { _fun00108_ip = 262; continue _fun00107 }
+ 222:
             tangon = _closure1_slot138;
             zuuluu = {};
             report = false;
             zuuluu['noiseCancellation'] = report;
             zuuluu = tangon.bind(entity)(zuuluu);
-            _fun00108_ip = 361; continue _fun00107;
- 341:
+            _fun00108_ip = 262; continue _fun00107;
+ 242:
             zuuluu = true;
             _closure1_slot98 = zuuluu;
             zuuluu = _closure1_slot66;
             michal = zuuluu.emitChange;
             michal = michal.bind(zuuluu)();
- 361:
+ 262:
             return entity;
         }
     };

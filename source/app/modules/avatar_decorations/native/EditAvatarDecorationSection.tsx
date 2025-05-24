@@ -79,8 +79,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  56:
             foxtra = false;
  58:
-            echoed = entity.guildId;
-            var _closure2_slot4 = echoed;
+            update = entity.guildId;
+            var _closure2_slot4 = update;
             var _closure2_slot5 = report;
             var _closure2_slot6 = report;
             var _closure2_slot7 = report;
@@ -91,8 +91,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot5 = tangon;
             verify = _closure1_slot1;
             result = _closure1_slot2;
-            vacuum = 5;
-            entity = result[vacuum];
+            echoed = 5;
+            entity = result[echoed];
             entity = verify.bind(report)(entity);
             entity = entity.bind(report)();
             zuuluu = entity.size;
@@ -115,8 +115,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot0;
             entity = 8;
             entity = result[entity];
-            update = verify.bind(report)(entity);
-            result = update.useStateFromStores;
+            source = verify.bind(report)(entity);
+            result = source.useStateFromStores;
             entity = _closure1_slot6;
             verify = new Array(1);
             verify[0] = entity;
@@ -126,12 +126,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            entity = result.bind(update)(verify, entity);
+            entity = result.bind(source)(verify, entity);
             _closure2_slot8 = entity;
             result = romeon.useMemo;
-            update = kiloes.items;
+            source = kiloes.items;
             verify = new Array(3);
-            verify[0] = update;
+            verify[0] = source;
             verify[1] = option;
             verify[2] = entity;
             option = function() {
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            source = result.bind(romeon)(option, verify);
+            ctrled = result.bind(romeon)(option, verify);
             verify = romeon.useCallback;
             option = new Array(2);
             option[0] = golfie;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             result = verify.bind(romeon)(golfie, option);
             _closure2_slot9 = result;
-            option = source.findIndex;
+            option = ctrled.findIndex;
             golfie = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -281,33 +281,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            ctrled = option.bind(source)(golfie);
+            vacuum = option.bind(ctrled)(golfie);
             golfie = 0;
             verify = -1;
             option = 0;
-            if(!(verify !== ctrled)) { _fun00002_ip = 411; continue _fun00001 }
+            if(!(verify !== vacuum)) { _fun00002_ip = 411; continue _fun00001 }
  365:
             verify = global;
-            update = verify.Math;
-            romeon = update.floor;
+            source = verify.Math;
+            romeon = source.floor;
             sequen = _closure1_slot0;
             verify = _closure1_slot2;
-            verify = verify[vacuum];
+            verify = verify[echoed];
             verify = sequen.bind(report)(verify);
             verify = verify.ROW_SIZE;
-            verify = ctrled / verify;
-            option = romeon.bind(update)(verify);
+            verify = vacuum / verify;
+            option = romeon.bind(source)(verify);
  411:
-            ctrled = _closure1_slot0;
+            vacuum = _closure1_slot0;
             verify = _closure1_slot2;
             romeon = 15;
             romeon = verify[romeon];
-            update = ctrled.bind(report)(romeon);
-            romeon = update.chunk;
-            verify = verify[vacuum];
-            verify = ctrled.bind(report)(verify);
+            source = vacuum.bind(report)(romeon);
+            romeon = source.chunk;
+            verify = verify[echoed];
+            verify = vacuum.bind(report)(verify);
             verify = verify.ROW_SIZE;
-            romeon = romeon.bind(update)(source, verify);
+            romeon = romeon.bind(source)(ctrled, verify);
             verify = {};
             verify['shouldScroll'] = foxtra;
             verify['initialScrollIndex'] = option;
@@ -394,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = _closure1_slot3;
             verify = foxtra.useCallback;
             option = new Array(6);
-            option[0] = echoed;
+            option[0] = update;
             option[1] = result;
             option[2] = output;
             option[3] = sizing;
@@ -576,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             foxtra = verify.bind(foxtra)(zuuluu, option);
-            if(!(michal != entity)) { _fun00002_ip = 820; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 845; continue _fun00001 }
  554:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot5;
@@ -585,20 +585,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = tangon;
             tangon = romeon.length;
             golfie = tangon > golfie;
-            if(!golfie) { _fun00002_ip = 644; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 669; continue _fun00001 }
  586:
             verify = _closure1_slot7;
-            option = _closure1_slot0;
-            sizing = _closure1_slot2;
+            result = _closure1_slot0;
+            output = _closure1_slot2;
             tangon = 17;
-            tangon = sizing[tangon];
-            tangon = option.bind(report)(tangon);
+            tangon = output[tangon];
+            tangon = result.bind(report)(tangon);
             option = tangon.Text;
-            tangon = {'variant': 'heading-sm/medium', 'color': 'text-muted'};
+            tangon = {'variant': 'heading-sm/medium', 'color': 'header-primary'};
+            sizing = {};
+            output = output[echoed];
+            output = result.bind(report)(output);
+            output = output.GUTTER_SIZE;
+            sizing['paddingHorizontal'] = output;
+            tangon['style'] = sizing;
             kiloes = kiloes.header;
             tangon['children'] = kiloes;
             golfie = verify.bind(report)(option, tangon);
- 644:
+ 669:
             tangon = new Array(2);
             tangon[0] = golfie;
             verify = _closure1_slot7;
@@ -654,8 +660,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[1] = golfie;
             entity['children'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 864; continue _fun00001;
- 820:
+            _fun00002_ip = 889; continue _fun00001;
+ 845:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -664,7 +670,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 864:
+ 889:
             return entity;
         }
     };

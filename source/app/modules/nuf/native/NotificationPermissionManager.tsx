@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00014_ip = 155; continue _fun00013 }
+                            if(michal) { _fun00014_ip = 153; continue _fun00013 }
  10:
                             michal = _closure1_slot9;
                             zuuluu = michal.NativePermissionManager;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return michal;
  37:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00014_ip = 152; continue _fun00013 }
+                            if(zuuluu) { _fun00014_ip = 150; continue _fun00013 }
  43:
                             report = _closure1_slot0;
                             oscard = _closure1_slot2;
@@ -483,9 +483,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             tangon['background_app_enabled'] = option;
                             tangon = oscard.bind(golfie)(report, tangon);
                             return zuuluu;
- 152:
+ 150:
                             return michal;
- 155:
+ 153:
                             return entity;
                         }
                     };

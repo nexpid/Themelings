@@ -113,12 +113,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity[zuuluu];
             golfie = undefined;
             zuuluu = option.bind(golfie)(zuuluu);
-            report = zuuluu.ClientThemeColorPickerExperiment;
-            tangon = report.useExperiment;
+            oscard = zuuluu.ClientThemeColorPickerExperiment;
+            report = oscard.useExperiment;
+            tangon = {};
+            zuuluu = 'SyncThemeSetting';
+            tangon['location'] = zuuluu;
             zuuluu = {};
-            oscard = 'SyncThemeSetting';
-            zuuluu['location'] = oscard;
-            zuuluu = tangon.bind(report)(zuuluu);
+            verify = false;
+            zuuluu['autoTrackExposure'] = verify;
+            zuuluu = report.bind(oscard)(tangon, zuuluu);
             tangon = zuuluu.enabled;
             zuuluu = 8;
             report = entity[zuuluu];
@@ -133,8 +136,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = report.trim;
             oscard = entity.bind(report)();
             entity = oscard;
-            if(!tangon) { _fun00002_ip = 210; continue _fun00001 }
- 124:
+            if(!tangon) { _fun00002_ip = 220; continue _fun00001 }
+ 134:
             tangon = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = option[zuuluu];
@@ -153,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = '';
             michal = '\n\n';
             entity = tangon.bind(zuuluu)(oscard, michal, report);
- 210:
+ 220:
             return entity;
         }
     };

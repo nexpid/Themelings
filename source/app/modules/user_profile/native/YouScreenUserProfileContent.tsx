@@ -290,8 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             backup = 'YouScreenUserProfileContent';
             michal['location'] = backup;
-            michal = golfie.bind(yankee)(michal);
-            target = michal.isEligibleForCustomStatusLabels;
+            target = golfie.bind(yankee)(michal);
             var _closure2_slot2 = target;
             golfie = _closure1_slot4;
             michal = golfie.useState;
@@ -344,11 +343,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(zuuluu)(entity);
             entity = papara != yankee;
             status = undefined;
-            if(!entity) { _fun00002_ip = 491; continue _fun00001 }
- 482:
+            if(!entity) { _fun00002_ip = 485; continue _fun00001 }
+ 476:
             entity = yankee.label;
             status = entity.bind(yankee)();
- 491:
+ 485:
             zuuluu = _closure1_slot8;
             backup = _closure1_slot1;
             target = _closure1_slot2;
@@ -419,10 +418,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['user'] = output;
             target = papara == vacuum;
             papara = undefined;
-            if(target) { _fun00002_ip = 787; continue _fun00001 }
- 781:
+            if(target) { _fun00002_ip = 781; continue _fun00001 }
+ 775:
             papara = vacuum.pronouns;
- 787:
+ 781:
             yankee['pronouns'] = papara;
             yankee['badges'] = cntext;
             yankee['badgeContainerBackground'] = echoed;

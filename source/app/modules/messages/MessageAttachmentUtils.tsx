@@ -13,7 +13,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = argFoo;
             option = argBaz;
             report = null;
-            if(!(report != zuuluu)) { _fun00002_ip = 372; continue _fun00001 }
+            if(!(report != zuuluu)) { _fun00002_ip = 482; continue _fun00001 }
  15:
             if(!option) { _fun00002_ip = 66; continue _fun00001 }
  18:
@@ -26,78 +26,105 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = oscard.isPendingScanVersion;
             entity = zuuluu.contentScanVersion;
             entity = tangon.bind(oscard)(entity);
-            if(entity) { _fun00002_ip = 346; continue _fun00001 }
+            if(entity) { _fun00002_ip = 456; continue _fun00001 }
  66:
-            golfie = zuuluu.type;
-            verify = _closure1_slot0;
+            verify = zuuluu.type;
+            golfie = _closure1_slot0;
             entity = _closure1_slot2;
             offset = 7;
             oscard = entity[offset];
             entity = undefined;
-            oscard = verify.bind(entity)(oscard);
+            oscard = golfie.bind(entity)(oscard);
             oscard = oscard.ForumPostMediaTypes;
             oscard = oscard.EMBED;
-            if(!(oscard !== golfie)) { _fun00002_ip = 181; continue _fun00001 }
- 112:
-            verify = _closure1_slot0;
+            if(!(oscard !== verify)) { _fun00002_ip = 288; continue _fun00001 }
+ 115:
+            golfie = _closure1_slot0;
             oscard = _closure1_slot2;
             oscard = oscard[offset];
-            oscard = verify.bind(entity)(oscard);
+            oscard = golfie.bind(entity)(oscard);
             oscard = oscard.ForumPostMediaTypes;
             oscard = oscard.ATTACHMENT;
-            verify = undefined;
-            if(!(oscard === golfie)) { _fun00002_ip = 213; continue _fun00001 }
- 147:
+            if(!(oscard !== verify)) { _fun00002_ip = 240; continue _fun00001 }
+ 148:
             golfie = _closure1_slot0;
-            offset = _closure1_slot2;
-            oscard = 4;
-            oscard = offset[oscard];
+            oscard = _closure1_slot2;
+            oscard = oscard[offset];
             oscard = golfie.bind(entity)(oscard);
-            oscard = oscard.ObscuredMediaTypes;
-            verify = oscard.Attachment;
-            _fun00002_ip = 213; continue _fun00001;
- 181:
-            golfie = _closure1_slot0;
-            offset = _closure1_slot2;
-            oscard = 4;
-            oscard = offset[oscard];
-            oscard = golfie.bind(entity)(oscard);
-            oscard = oscard.ObscuredMediaTypes;
-            verify = oscard.Embed;
- 213:
-            if(!(report != verify)) { _fun00002_ip = 263; continue _fun00001 }
- 217:
+            oscard = oscard.ForumPostMediaTypes;
+            oscard = oscard.COMPONENT;
+            golfie = null;
+            if(!(oscard === verify)) { _fun00002_ip = 334; continue _fun00001 }
+ 186:
+            oscard = {};
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
+            verify = 4;
+            verify = yankee[verify];
+            verify = offset.bind(entity)(verify);
+            verify = verify.ObscuredMediaTypes;
+            verify = verify.GenericMedia;
+            oscard['type'] = verify;
+            verify = zuuluu.srcUnfurledMediaItem;
+            oscard['media'] = verify;
+            golfie = oscard;
+            _fun00002_ip = 334; continue _fun00001;
+ 240:
+            oscard = {};
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
+            verify = 4;
+            verify = yankee[verify];
+            verify = offset.bind(entity)(verify);
+            verify = verify.ObscuredMediaTypes;
+            verify = verify.Attachment;
+            oscard['type'] = verify;
+            oscard['media'] = zuuluu;
+            golfie = oscard;
+            _fun00002_ip = 334; continue _fun00001;
+ 288:
+            oscard = {};
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
+            verify = 4;
+            verify = yankee[verify];
+            verify = offset.bind(entity)(verify);
+            verify = verify.ObscuredMediaTypes;
+            verify = verify.Embed;
+            oscard['type'] = verify;
+            oscard['media'] = zuuluu;
+            golfie = oscard;
+ 334:
+            if(!(report != golfie)) { _fun00002_ip = 373; continue _fun00001 }
+ 338:
             oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
+            verify = _closure1_slot2;
             report = 4;
-            report = golfie[report];
-            golfie = oscard.bind(entity)(report);
-            oscard = golfie.isMediaObscured;
-            report = {};
-            report['type'] = verify;
-            report['media'] = zuuluu;
-            report = oscard.bind(golfie)(report, option);
-            if(report) { _fun00002_ip = 317; continue _fun00001 }
- 263:
+            report = verify[report];
+            oscard = oscard.bind(entity)(report);
+            report = oscard.isMediaObscured;
+            report = report.bind(oscard)(golfie, option);
+            if(report) { _fun00002_ip = 427; continue _fun00001 }
+ 373:
             report = zuuluu.spoiler;
             zuuluu = new Array(2);
-            if(report) { _fun00002_ip = 291; continue _fun00001 }
- 276:
+            if(report) { _fun00002_ip = 401; continue _fun00001 }
+ 386:
             report = false;
             zuuluu[0] = report;
             zuuluu[1] = entity;
             entity = zuuluu;
-            _fun00002_ip = 315; continue _fun00001;
- 291:
+            _fun00002_ip = 425; continue _fun00001;
+ 401:
             report = argBar;
             zuuluu[0] = report;
             report = _closure1_slot9;
             report = report.SPOILER;
             zuuluu[1] = report;
             entity = zuuluu;
- 315:
-            _fun00002_ip = 344; continue _fun00001;
- 317:
+ 425:
+            _fun00002_ip = 454; continue _fun00001;
+ 427:
             zuuluu = new Array(2);
             report = true;
             zuuluu[0] = report;
@@ -105,9 +132,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = tangon.EXPLICIT_CONTENT;
             zuuluu[1] = tangon;
             entity = zuuluu;
- 344:
+ 454:
             return entity;
- 346:
+ 456:
             entity = new Array(2);
             zuuluu = true;
             entity[0] = zuuluu;
@@ -115,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.POTENTIAL_EXPLICIT_CONTENT;
             entity[1] = michal;
             return entity;
- 372:
+ 482:
             entity = new Array(2);
             michal = false;
             entity[0] = michal;

@@ -74,14 +74,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = romeon.radii;
     romeon = romeon.xs;
     verify['borderRadius'] = romeon;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.BACKGROUND_TERTIARY;
-    verify['backgroundColor'] = offset;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.colors;
+    romeon = romeon.BACKGROUND_TERTIARY;
+    verify['backgroundColor'] = romeon;
     tangon['profileEffect'] = verify;
+    romeon = '100%';
     verify = {'height': '100%', 'width': '100%', 'resizeMode': 'contain'};
     tangon['sampleProfile'] = verify;
+    verify = {};
+    verify['width'] = romeon;
+    tangon['nameplateContainer'] = verify;
+    verify = {};
+    offset = oscard[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_56;
+    verify['paddingBottom'] = offset;
+    tangon['nameplateContainerOffCenter'] = verify;
     verify = {};
     offset = 8;
     verify['gap'] = offset;
@@ -110,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['acceptButton'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot12 = tangon;
-    tangon = 35;
+    tangon = 36;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -133,6 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             var _closure2_slot7 = tangon;
             var _closure2_slot8 = tangon;
+            var _closure2_slot9 = tangon;
             michal = _closure1_slot12;
             result = michal.bind(tangon)();
             var _closure2_slot5 = result;
@@ -186,10 +198,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = null;
             zuuluu = echoed != michal;
             status = '';
-            if(!zuuluu) { _fun00002_ip = 210; continue _fun00001 }
- 207:
+            if(!zuuluu) { _fun00002_ip = 214; continue _fun00001 }
+ 211:
             status = michal;
- 210:
+ 214:
             _closure2_slot7 = status;
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -222,27 +234,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = oscard.isCollectiblesGiftCode;
             oscard = michal.bind(oscard)(yankee);
             michal = null;
-            if(!oscard) { _fun00002_ip = 362; continue _fun00001 }
- 356:
+            if(!oscard) { _fun00002_ip = 366; continue _fun00001 }
+ 360:
             michal = yankee.skuId;
- 362:
+ 366:
             michal = zuuluu.bind(report)(michal);
             michal = michal.product;
             zuuluu = echoed == michal;
             ctrled = undefined;
-            if(zuuluu) { _fun00002_ip = 394; continue _fun00001 }
- 382:
+            if(zuuluu) { _fun00002_ip = 398; continue _fun00001 }
+ 386:
             zuuluu = michal.items;
             michal = 0;
             ctrled = zuuluu[michal];
- 394:
+ 398:
             option = echoed != vacuum;
-            if(!option) { _fun00002_ip = 412; continue _fun00001 }
- 401:
+            if(!option) { _fun00002_ip = 416; continue _fun00001 }
+ 405:
             zuuluu = vacuum.length;
             michal = 0;
             option = zuuluu > michal;
- 412:
+ 416:
+            _closure2_slot9 = option;
             report = _closure1_slot3;
             oscard = report.useEffect;
             zuuluu = new Array(4);
@@ -330,10 +343,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = new Array(2);
             golfie[0] = romeon;
             romeon = undefined;
-            if(!option) { _fun00002_ip = 567; continue _fun00001 }
- 561:
+            if(!option) { _fun00002_ip = 575; continue _fun00001 }
+ 569:
             romeon = result.bodyWithMessage;
- 567:
+ 575:
             golfie[1] = romeon;
             report['contentContainerStyle'] = golfie;
             golfie = false;
@@ -349,10 +362,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = result.text;
             golfie['style'] = kiloes;
             kiloes = yankee.isSubscription;
-            if(!kiloes) { _fun00002_ip = 651; continue _fun00001 }
- 644:
-            if(!(echoed == config)) { _fun00002_ip = 1078; continue _fun00001 }
- 651:
+            if(!kiloes) { _fun00002_ip = 659; continue _fun00001 }
+ 652:
+            if(!(echoed == config)) { _fun00002_ip = 1256; continue _fun00001 }
+ 659:
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;
             papara = 20;
@@ -362,10 +375,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {};
             cntext = echoed == ctrled;
             record = undefined;
-            if(cntext) { _fun00002_ip = 693; continue _fun00001 }
- 688:
+            if(cntext) { _fun00002_ip = 701; continue _fun00001 }
+ 696:
             record = ctrled.type;
- 693:
+ 701:
             kiloes['type'] = record;
             kiloes['sender'] = status;
             sierra = sizing.bind(update)(kiloes);
@@ -451,6 +464,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = kiloes[target];
             sizing = cntext.bind(tangon)(sizing);
             sizing = sizing.CollectiblesItemType;
+            sizing = sizing.NAMEPLATE;
+            update['type'] = sizing;
+            sizing = kiloes[papara];
+            sizing = cntext.bind(tangon)(sizing);
+            quebec = sizing.P;
+            equals = quebec.not;
+            sizing = kiloes[papara];
+            sizing = cntext.bind(tangon)(sizing);
+            sizing = sizing.P;
+            sizing = sizing.nullish;
+            sizing = equals.bind(quebec)(sizing);
+            update['sender'] = sizing;
+            sizing = function() {
+                report = _closure1_slot0;
+                oscard = _closure1_slot2;
+                entity = 22;
+                zuuluu = oscard[entity];
+                michal = undefined;
+                zuuluu = report.bind(michal)(zuuluu);
+                tangon = zuuluu.intl;
+                zuuluu = tangon.formatToPlainString;
+                entity = oscard[entity];
+                entity = report.bind(michal)(entity);
+                entity = entity.t;
+                michal = entity.vFiQlZ;
+                entity = {};
+                report = _closure2_slot7;
+                entity['sender'] = report;
+                entity = zuuluu.bind(tangon)(michal, entity);
+                return entity;
+            };
+            sierra = record.bind(sierra)(update, sizing);
+            record = sierra.with;
+            update = {};
+            sizing = kiloes[target];
+            sizing = cntext.bind(tangon)(sizing);
+            sizing = sizing.CollectiblesItemType;
             sizing = sizing.AVATAR_DECORATION;
             update['type'] = sizing;
             sizing = kiloes[papara];
@@ -474,13 +524,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
+            sierra = record.bind(sierra)(update, sizing);
+            record = sierra.with;
+            update = {};
+            sizing = kiloes[target];
+            sizing = cntext.bind(tangon)(sizing);
+            sizing = sizing.CollectiblesItemType;
+            sizing = sizing.PROFILE_EFFECT;
+            update['type'] = sizing;
+            sizing = kiloes[papara];
+            sizing = cntext.bind(tangon)(sizing);
+            sizing = sizing.P;
+            sizing = sizing.nullish;
+            update['sender'] = sizing;
+            sizing = function() {
+                report = _closure1_slot0;
+                oscard = _closure1_slot2;
+                entity = 22;
+                michal = oscard[entity];
+                tangon = undefined;
+                michal = report.bind(tangon)(michal);
+                zuuluu = michal.intl;
+                michal = zuuluu.string;
+                entity = oscard[entity];
+                entity = report.bind(tangon)(entity);
+                entity = entity.t;
+                entity = entity.2NxdjY;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
             record = record.bind(sierra)(update, sizing);
             update = record.with;
             sizing = {};
             target = kiloes[target];
             target = cntext.bind(tangon)(target);
             target = target.CollectiblesItemType;
-            target = target.PROFILE_EFFECT;
+            target = target.NAMEPLATE;
             sizing['type'] = target;
             kiloes = kiloes[papara];
             kiloes = cntext.bind(tangon)(kiloes);
@@ -499,7 +578,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = oscard[entity];
                 entity = report.bind(tangon)(entity);
                 entity = entity.t;
-                entity = entity.2NxdjY;
+                entity = entity.v7F239;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
@@ -522,8 +601,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             kiloes = sizing.bind(update)(kiloes);
-            _fun00002_ip = 1110; continue _fun00001;
- 1078:
+            _fun00002_ip = 1288; continue _fun00001;
+ 1256:
             update = _closure1_slot0;
             record = _closure1_slot2;
             sizing = 16;
@@ -531,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.bind(tangon)(sizing);
             sizing = update.getSubscriptionGiftStartHeaderText;
             kiloes = sizing.bind(update)(config, status);
- 1110:
+ 1288:
             golfie['children'] = kiloes;
             romeon = backup.bind(tangon)(romeon, golfie);
             golfie = new Array(4);
@@ -542,8 +621,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.imageWrapper;
             romeon['style'] = sizing;
             sizing = echoed != whisks;
-            if(!sizing) { _fun00002_ip = 1269; continue _fun00001 }
- 1155:
+            if(!sizing) { _fun00002_ip = 1447; continue _fun00001 }
+ 1333:
             record = _closure1_slot10;
             config = _closure1_slot4;
             update = {};
@@ -571,28 +650,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = record.bind(tangon)(papara, cntext);
             update['children'] = cntext;
             sizing = record.bind(tangon)(config, update);
- 1269:
+ 1447:
             romeon['children'] = sizing;
             romeon = kiloes.bind(tangon)(backup, romeon);
             golfie[1] = romeon;
-            if(!(echoed == ctrled)) { _fun00002_ip = 1304; continue _fun00001 }
- 1287:
-            if(!(echoed != source)) { _fun00002_ip = 1304; continue _fun00001 }
- 1291:
+            if(!(echoed == ctrled)) { _fun00002_ip = 1482; continue _fun00001 }
+ 1465:
+            if(!(echoed != source)) { _fun00002_ip = 1482; continue _fun00001 }
+ 1469:
             romeon = yankee.giftStyle;
-            if(!(echoed != romeon)) { _fun00002_ip = 1497; continue _fun00001 }
- 1304:
+            if(!(echoed != romeon)) { _fun00002_ip = 1721; continue _fun00001 }
+ 1482:
             kiloes = _closure1_slot10;
             backup = _closure1_slot5;
             romeon = {};
             sizing = yankee.isSubscription;
-            if(sizing) { _fun00002_ip = 1331; continue _fun00001 }
- 1323:
+            if(sizing) { _fun00002_ip = 1509; continue _fun00001 }
+ 1501:
             sizing = result.collectiblesAsset;
-            _fun00002_ip = 1337; continue _fun00001;
- 1331:
+            _fun00002_ip = 1515; continue _fun00001;
+ 1509:
             sizing = result.giftCardAsset;
- 1337:
+ 1515:
             romeon['style'] = sizing;
             record = _closure1_slot0;
             cntext = _closure1_slot2;
@@ -645,15 +724,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
             };
-            config = config.bind(papara)(ctrled, update);
-            ctrled = config.with;
-            update = {};
-            sizing = cntext[sizing];
-            sizing = record.bind(tangon)(sizing);
-            sizing = sizing.CollectiblesItemType;
-            sizing = sizing.PROFILE_EFFECT;
-            update['type'] = sizing;
-            sizing = function(argFoo) {
+            papara = config.bind(papara)(ctrled, update);
+            config = papara.with;
+            ctrled = {};
+            update = cntext[sizing];
+            update = record.bind(tangon)(update);
+            update = update.CollectiblesItemType;
+            update = update.PROFILE_EFFECT;
+            ctrled['type'] = update;
+            update = function(argFoo) {
                 tangon = _closure1_slot11;
                 zuuluu = _closure1_slot5;
                 michal = {};
@@ -694,13 +773,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
+            config = config.bind(papara)(ctrled, update);
+            ctrled = config.with;
+            update = {};
+            sizing = cntext[sizing];
+            sizing = record.bind(tangon)(sizing);
+            sizing = sizing.CollectiblesItemType;
+            sizing = sizing.NAMEPLATE;
+            update['type'] = sizing;
+            sizing = function(argFoo) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                    tangon = _closure1_slot10;
+                    zuuluu = _closure1_slot5;
+                    michal = {};
+                    entity = _closure2_slot5;
+                    entity = entity.nameplateContainer;
+                    oscard = new Array(2);
+                    oscard[0] = entity;
+                    verify = _closure2_slot9;
+                    entity = undefined;
+                    golfie = undefined;
+                    if(verify) { _fun00006_ip = 55; continue _fun00005 }
+ 45:
+                    verify = _closure2_slot5;
+                    golfie = verify.nameplateContainerOffCenter;
+ 55:
+                    oscard[1] = golfie;
+                    michal['style'] = oscard;
+                    golfie = _closure1_slot10;
+                    oscard = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    report = 31;
+                    report = verify[report];
+                    report = oscard.bind(entity)(report);
+                    oscard = report.NameplatePreview;
+                    report = {};
+                    option = _closure2_slot4;
+                    report['user'] = option;
+                    option = argFoo;
+                    report['nameplate'] = option;
+                    report = golfie.bind(entity)(oscard, report);
+                    michal['children'] = report;
+                    entity = tangon.bind(entity)(zuuluu, michal);
+                    return entity;
+                }
+            };
             ctrled = ctrled.bind(config)(update, sizing);
             update = ctrled.otherwise;
             sizing = function() {
                 tangon = _closure1_slot10;
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot2;
-                entity = 31;
+                entity = 32;
                 entity = zuuluu[entity];
                 zuuluu = undefined;
                 michal = michal.bind(zuuluu)(entity);
@@ -714,8 +839,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = update.bind(ctrled)(sizing);
             romeon['children'] = sizing;
             romeon = kiloes.bind(tangon)(backup, romeon);
-            _fun00002_ip = 1574; continue _fun00001;
- 1497:
+            _fun00002_ip = 1798; continue _fun00001;
+ 1721:
             sizing = _closure1_slot10;
             kiloes = _closure1_slot1;
             ctrled = _closure1_slot2;
@@ -733,10 +858,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = yankee.skuId;
             backup['skuId'] = update;
             romeon = sizing.bind(tangon)(kiloes, backup);
- 1574:
+ 1798:
             golfie[2] = romeon;
-            if(!option) { _fun00002_ip = 1807; continue _fun00001 }
- 1584:
+            if(!option) { _fun00002_ip = 2031; continue _fun00001 }
+ 1808:
             kiloes = _closure1_slot11;
             backup = _closure1_slot5;
             romeon = {};
@@ -775,10 +900,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = 110;
             config = config > sequen;
             sequen = 'heading-xxl/semibold';
-            if(!config) { _fun00002_ip = 1770; continue _fun00001 }
- 1764:
+            if(!config) { _fun00002_ip = 1994; continue _fun00001 }
+ 1988:
             sequen = 'heading-xl/semibold';
- 1770:
+ 1994:
             update['variant'] = sequen;
             sequen = result.text;
             update['style'] = sequen;
@@ -787,7 +912,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing[1] = update;
             romeon['children'] = sizing;
             option = kiloes.bind(tangon)(backup, romeon);
- 1807:
+ 2031:
             golfie[3] = option;
             report['children'] = golfie;
             oscard = zuuluu.bind(tangon)(oscard, report);
@@ -802,13 +927,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot10;
             kiloes = _closure1_slot1;
             sizing = _closure1_slot2;
-            backup = 32;
+            backup = 33;
             yankee = sizing[backup];
             yankee = kiloes.bind(tangon)(yankee);
-            if(update) { _fun00002_ip = 2209; continue _fun00001 }
- 1885:
-            if(!(echoed == verify)) { _fun00002_ip = 2058; continue _fun00001 }
- 1892:
+            if(update) { _fun00002_ip = 2433; continue _fun00001 }
+ 2109:
+            if(!(echoed == verify)) { _fun00002_ip = 2282; continue _fun00001 }
+ 2116:
             verify = {};
             echoed = result.acceptButton;
             verify['textStyle'] = echoed;
@@ -823,15 +948,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = vacuum[echoed];
             echoed = ctrled.bind(tangon)(echoed);
             echoed = echoed.t;
-            if(offset) { _fun00002_ip = 1969; continue _fun00001 }
- 1956:
+            if(offset) { _fun00002_ip = 2193; continue _fun00001 }
+ 2180:
             offset = echoed.3nWhcH;
             offset = update.bind(source)(offset);
-            _fun00002_ip = 1980; continue _fun00001;
- 1969:
+            _fun00002_ip = 2204; continue _fun00001;
+ 2193:
             echoed = echoed.rTeOBA;
             offset = update.bind(source)(echoed);
- 1980:
+ 2204:
             verify['text'] = offset;
             echoed = _closure1_slot1;
             offset = _closure1_slot2;
@@ -848,7 +973,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = function() { // Original name: onPress
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 34;
+                entity = 35;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -880,7 +1005,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(option)(tangon);
                     report = _closure2_slot6;
                     tangon = report.push;
-                    michal = 33;
+                    michal = 34;
                     michal = golfie[michal];
                     michal = zuuluu.bind(entity)(michal);
                     michal = michal.GiftCodeModalScreens;
@@ -914,7 +1039,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     report = _closure2_slot6;
                     tangon = report.push;
-                    michal = 33;
+                    michal = 34;
                     michal = verify[michal];
                     michal = option.bind(entity)(michal);
                     michal = michal.GiftCodeModalScreens;
@@ -935,8 +1060,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             verify['onPress'] = offset;
-            _fun00002_ip = 2198; continue _fun00001;
- 2058:
+            _fun00002_ip = 2422; continue _fun00001;
+ 2282:
             offset = {};
             result = result.acceptButton;
             offset['textStyle'] = result;
@@ -987,7 +1112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(report)(michal);
                 report = _closure2_slot6;
                 tangon = report.push;
-                michal = 33;
+                michal = 34;
                 michal = golfie[michal];
                 michal = zuuluu.bind(entity)(michal);
                 michal = michal.GiftCodeModalScreens;
@@ -1000,10 +1125,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             offset['onPress'] = result;
             verify = offset;
- 2198:
+ 2422:
             verify = romeon.bind(tangon)(yankee, verify);
-            _fun00002_ip = 2333; continue _fun00001;
- 2209:
+            _fun00002_ip = 2557; continue _fun00001;
+ 2433:
             offset = {};
             update = _closure1_slot0;
             output = 22;
@@ -1032,7 +1157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.push;
                 oscard = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 33;
+                entity = 34;
                 michal = michal[entity];
                 entity = undefined;
                 entity = oscard.bind(entity)(michal);
@@ -1046,7 +1171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             offset['onPress'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 2333:
+ 2557:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;

@@ -916,7 +916,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext[1] = target;
             cntext[2] = papara;
             echoed['style'] = cntext;
-            if(!(config == record)) { _fun00002_ip = 1457; continue _fun00001 }
+            if(!(config == record)) { _fun00002_ip = 1455; continue _fun00001 }
  1195:
             papara = _closure1_slot11;
             cntext = _closure1_slot10;
@@ -971,10 +971,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target[1] = status;
             config['children'] = target;
             config = papara.bind(tangon)(cntext, config);
-            _fun00002_ip = 1461; continue _fun00001;
- 1457:
+            _fun00002_ip = 1459; continue _fun00001;
+ 1455:
             config = record.bind(tangon)();
- 1461:
+ 1459:
             echoed['children'] = config;
             echoed = sequen.bind(tangon)(update, echoed);
             result[1] = echoed;

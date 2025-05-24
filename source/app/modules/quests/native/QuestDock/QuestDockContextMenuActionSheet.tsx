@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot6 = tangon;
-    tangon = 22;
+    tangon = 23;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -61,13 +61,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.QUESTS_BAR_MOBILE;
             entity['location'] = oscard;
             romeon = zuuluu.bind(report)(michal, entity);
-            zuuluu = _closure1_slot6;
             entity = 5;
+            entity = offset[entity];
+            michal = yankee.bind(tangon)(entity);
+            entity = michal.useQuestsExternalDialogMobileExperiment;
+            entity = entity.bind(michal)();
+            var _closure2_slot1 = entity;
+            zuuluu = _closure1_slot6;
+            entity = 6;
             entity = offset[entity];
             entity = yankee.bind(tangon)(entity);
             michal = entity.ActionSheet;
             entity = {};
-            output = 6;
+            output = 7;
             report = offset[output];
             report = yankee.bind(tangon)(report);
             report = report.ActionSheetRow;
@@ -83,23 +89,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.ActionSheetRow;
             result = sizing.Icon;
             sizing = {};
-            echoed = 7;
+            echoed = 8;
             echoed = offset[echoed];
             echoed = yankee.bind(tangon)(echoed);
             echoed = echoed.LinkExternalMediumIcon;
             sizing['IconComponent'] = echoed;
             sizing = verify.bind(tangon)(result, sizing);
             golfie['icon'] = sizing;
-            sizing = 8;
+            sizing = 9;
             offset = offset[sizing];
             offset = yankee.bind(tangon)(offset);
             yankee = offset.FormLabel;
             offset = {};
             echoed = _closure1_slot0;
             update = _closure1_slot2;
-            if(romeon) { _fun00002_ip = 280; continue _fun00001 }
- 231:
-            romeon = 10;
+            if(romeon) { _fun00002_ip = 306; continue _fun00001 }
+ 257:
+            romeon = 11;
             result = update[romeon];
             result = echoed.bind(tangon)(result);
             source = result.intl;
@@ -109,48 +115,74 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.t;
             romeon = romeon.lwQdjI;
             romeon = result.bind(source)(romeon);
-            _fun00002_ip = 308; continue _fun00001;
- 280:
-            result = 9;
+            _fun00002_ip = 334; continue _fun00001;
+ 306:
+            result = 10;
             result = update[result];
             echoed = echoed.bind(tangon)(result);
             result = echoed.getVideoQuestEndCardCtaText;
             kiloes = kiloes.config;
             romeon = result.bind(echoed)(kiloes);
- 308:
+ 334:
             offset['text'] = romeon;
             offset = verify.bind(tangon)(yankee, offset);
             golfie['label'] = offset;
             offset = function() { // Original name: onPress
-                verify = _closure1_slot0;
-                tangon = _closure1_slot2;
-                entity = 9;
-                zuuluu = tangon[entity];
-                entity = undefined;
-                golfie = verify.bind(entity)(zuuluu);
-                oscard = golfie.openGameLink;
-                report = _closure2_slot0;
-                zuuluu = {};
-                option = 11;
-                option = tangon[option];
-                option = verify.bind(entity)(option);
-                option = option.QuestContent;
-                option = option.QUEST_BAR_MOBILE;
-                zuuluu['content'] = option;
-                option = 12;
-                option = tangon[option];
-                option = verify.bind(entity)(option);
-                option = option.QuestContentCTA;
-                option = option.CONTEXT_MENU_OPEN_GAME_LINK;
-                zuuluu['ctaContent'] = option;
-                zuuluu = oscard.bind(golfie)(report, zuuluu);
-                zuuluu = _closure1_slot1;
-                michal = 13;
-                michal = tangon[michal];
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.hideActionSheet;
-                michal = michal.bind(zuuluu)();
-                return entity;
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    tangon = _closure2_slot1;
+                    option = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    entity = 10;
+                    report = verify[entity];
+                    entity = undefined;
+                    oscard = option.bind(entity)(report);
+                    if(tangon) { _fun00004_ip = 112; continue _fun00003 }
+ 35:
+                    golfie = oscard.openGameLink;
+                    report = _closure2_slot0;
+                    tangon = {};
+                    offset = 12;
+                    offset = verify[offset];
+                    offset = option.bind(entity)(offset);
+                    offset = offset.QuestContent;
+                    offset = offset.QUEST_BAR_MOBILE;
+                    tangon['content'] = offset;
+                    offset = 13;
+                    offset = verify[offset];
+                    offset = option.bind(entity)(offset);
+                    offset = offset.QuestContentCTA;
+                    offset = offset.CONTEXT_MENU_OPEN_GAME_LINK;
+                    tangon['ctaContent'] = offset;
+                    tangon = golfie.bind(oscard)(report, tangon);
+                    _fun00004_ip = 187; continue _fun00003;
+ 112:
+                    report = oscard.openGameLinkDirectly;
+                    tangon = _closure2_slot0;
+                    zuuluu = {};
+                    golfie = 12;
+                    golfie = verify[golfie];
+                    golfie = option.bind(entity)(golfie);
+                    golfie = golfie.QuestContent;
+                    golfie = golfie.QUEST_BAR_MOBILE;
+                    zuuluu['content'] = golfie;
+                    golfie = 13;
+                    golfie = verify[golfie];
+                    golfie = option.bind(entity)(golfie);
+                    golfie = golfie.QuestContentCTA;
+                    golfie = golfie.CONTEXT_MENU_OPEN_GAME_LINK;
+                    zuuluu['ctaContent'] = golfie;
+                    zuuluu = report.bind(oscard)(tangon, zuuluu);
+ 187:
+                    zuuluu = _closure1_slot1;
+                    tangon = _closure1_slot2;
+                    michal = 14;
+                    michal = tangon[michal];
+                    zuuluu = zuuluu.bind(entity)(michal);
+                    michal = zuuluu.hideActionSheet;
+                    michal = michal.bind(zuuluu)();
+                    return entity;
+                }
             };
             golfie['onPress'] = offset;
             option = verify.bind(tangon)(option, golfie);
@@ -168,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.ActionSheetRow;
             yankee = offset.Icon;
             offset = {};
-            kiloes = 14;
+            kiloes = 15;
             kiloes = echoed[kiloes];
             kiloes = result.bind(tangon)(kiloes);
             kiloes = kiloes.CopyIcon;
@@ -179,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = result.bind(tangon)(offset);
             yankee = offset.FormLabel;
             offset = {};
-            kiloes = 10;
+            kiloes = 11;
             update = echoed[kiloes];
             update = result.bind(tangon)(update);
             ctrled = update.intl;
@@ -195,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = function() { // Original name: onPress
                 verify = _closure1_slot0;
                 tangon = _closure1_slot2;
-                entity = 9;
+                entity = 10;
                 zuuluu = tangon[entity];
                 entity = undefined;
                 golfie = verify.bind(entity)(zuuluu);
@@ -203,13 +235,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure2_slot0;
                 report = zuuluu.id;
                 zuuluu = {};
-                option = 11;
+                option = 12;
                 option = tangon[option];
                 option = verify.bind(entity)(option);
                 option = option.QuestContent;
                 option = option.QUEST_BAR_MOBILE;
                 zuuluu['content'] = option;
-                option = 12;
+                option = 13;
                 option = tangon[option];
                 option = verify.bind(entity)(option);
                 option = option.QuestContentCTA;
@@ -217,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['ctaContent'] = option;
                 zuuluu = oscard.bind(golfie)(report, zuuluu);
                 zuuluu = _closure1_slot1;
-                michal = 13;
+                michal = 14;
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.hideActionSheet;
@@ -247,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = yankee.Icon;
             yankee = {};
             ctrled = _closure1_slot1;
-            source = 15;
+            source = 16;
             source = echoed[source];
             source = ctrled.bind(tangon)(source);
             yankee['IconComponent'] = source;
@@ -272,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = function() { // Original name: onPress
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
-                verify = 12;
+                verify = 13;
                 zuuluu = tangon[verify];
                 entity = undefined;
                 option = report.bind(entity)(zuuluu);
@@ -281,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = _closure2_slot0;
                 offset = golfie.id;
                 zuuluu['questId'] = offset;
-                offset = 11;
+                offset = 12;
                 offset = tangon[offset];
                 offset = report.bind(entity)(offset);
                 offset = offset.QuestContent;
@@ -293,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = verify.CONTEXT_MENU_LEARN_MORE;
                 zuuluu['questContentCTA'] = verify;
                 zuuluu = oscard.bind(option)(zuuluu);
-                zuuluu = 16;
+                zuuluu = 17;
                 zuuluu = tangon[zuuluu];
                 oscard = report.bind(entity)(zuuluu);
                 report = oscard.openQuestHome;
@@ -302,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['scrollToQuestId'] = golfie;
                 zuuluu = report.bind(oscard)(zuuluu);
                 zuuluu = _closure1_slot1;
-                michal = 13;
+                michal = 14;
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.hideActionSheet;
@@ -322,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.ActionSheetRow;
             source = update.Icon;
             update = {};
-            ctrled = 17;
+            ctrled = 18;
             ctrled = echoed[ctrled];
             ctrled = result.bind(tangon)(ctrled);
             ctrled = ctrled.CircleQuestionIcon;
@@ -348,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = function() { // Original name: onPress
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot2;
-                entity = 18;
+                entity = 19;
                 michal = tangon[entity];
                 entity = undefined;
                 oscard = zuuluu.bind(entity)(michal);
@@ -360,13 +392,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['isTargetedDisclosure'] = golfie;
                 golfie = {};
                 verify = _closure1_slot0;
-                option = 11;
+                option = 12;
                 option = tangon[option];
                 option = verify.bind(entity)(option);
                 option = option.QuestContent;
                 option = option.QUEST_BAR_MOBILE;
                 golfie['content'] = option;
-                option = 12;
+                option = 13;
                 option = tangon[option];
                 option = verify.bind(entity)(option);
                 option = option.QuestContentCTA;
@@ -374,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie['ctaContent'] = option;
                 michal['trackingCtx'] = golfie;
                 michal = report.bind(oscard)(michal);
-                michal = 13;
+                michal = 14;
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.hideActionSheet;
@@ -393,7 +425,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.ActionSheetRow;
             update = output.Icon;
             output = {};
-            source = 19;
+            source = 20;
             source = echoed[source];
             source = result.bind(tangon)(source);
             source = source.XSmallIcon;
@@ -429,34 +461,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot3;
             foxtra = function* () {
                 entity = function* () { // Original name: ?anon_0_
-                    _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 242; continue _fun00003 }
+                        if(michal) { _fun00006_ip = 242; continue _fun00005 }
  10:
                         verify = _closure1_slot0;
                         offset = _closure1_slot2;
-                        michal = 20;
+                        michal = 21;
                         michal = offset[michal];
                         zuuluu = undefined;
                         golfie = verify.bind(zuuluu)(michal);
                         oscard = golfie.dismissQuestContent;
                         romeon = _closure2_slot0;
                         report = romeon.id;
-                        yankee = 11;
+                        yankee = 12;
                         michal = offset[yankee];
                         michal = verify.bind(zuuluu)(michal);
                         michal = michal.QuestContent;
                         michal = michal.QUEST_BAR_MOBILE;
                         michal = oscard.bind(golfie)(report, michal);
                         oscard = _closure1_slot1;
-                        report = 13;
+                        report = 14;
                         report = offset[report];
                         oscard = oscard.bind(zuuluu)(report);
                         report = oscard.hideActionSheet;
                         report = report.bind(oscard)();
-                        option = 12;
+                        option = 13;
                         report = offset[option];
                         golfie = verify.bind(zuuluu)(report);
                         oscard = golfie.trackQuestContentClicked;
@@ -479,11 +511,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return michal;
  200:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 239; continue _fun00003 }
+                        if(report) { _fun00006_ip = 239; continue _fun00005 }
  206:
                         report = _closure1_slot0;
                         oscard = _closure1_slot2;
-                        tangon = 21;
+                        tangon = 22;
                         tangon = oscard[tangon];
                         report = report.bind(zuuluu)(tangon);
                         tangon = report.displayQuestDismissalToast;

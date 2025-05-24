@@ -9,31 +9,30 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     option = entity.Object;
     golfie = option.defineProperty;
     tangon = {};
-    entity = true;
-    tangon['value'] = entity;
+    yankee = true;
+    tangon['value'] = yankee;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    verify = report.bind(entity)(tangon);
-    option = verify.createExperiment;
-    golfie = {'kind': 'user', 'id': '2025-04_custom_status_labels', 'label': 'Custom Status Labels Experiment'};
-    tangon = {'enabledWithActivityStatus': false, 'enabledWithoutActivityStatus': false};
-    golfie['defaultConfig'] = tangon;
-    tangon = {'id': 1, 'label': 'Enable custom status labels'};
-    offset = {'enabledWithActivityStatus': true, 'enabledWithoutActivityStatus': false};
-    tangon['config'] = offset;
-    offset = new Array(2);
-    offset[0] = tangon;
-    yankee = {'id': 2, 'label': 'Enable custom status labels without activity status text update'};
+    option = report.bind(entity)(tangon);
+    golfie = option.createExperiment;
+    tangon = {'kind': 'user', 'id': '2025-04_custom_status_labels', 'label': 'Custom Status Labels Experiment'};
+    verify = {};
+    offset = false;
+    verify['enabled'] = offset;
+    tangon['defaultConfig'] = verify;
+    offset = {'id': 1, 'label': 'Enable custom status labels'};
+    verify = {};
+    verify['enabled'] = yankee;
+    offset['config'] = verify;
+    verify = new Array(1);
+    verify[0] = offset;
+    tangon['treatments'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot2 = tangon;
     tangon = 2;
-    romeon = {'enabledWithActivityStatus': false, 'enabledWithoutActivityStatus': true};
-    yankee['config'] = romeon;
-    offset[1] = yankee;
-    golfie['treatments'] = offset;
-    golfie = option.bind(verify)(golfie);
-    var _closure1_slot2 = golfie;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -68,17 +67,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['autoTrackExposure'] = oscard;
             entity['disable'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
-            zuuluu = entity.enabledWithActivityStatus;
-            michal = entity.enabledWithoutActivityStatus;
-            entity = {};
-            tangon = zuuluu;
-            if(tangon) { _fun00002_ip = 124; continue _fun00001 }
- 121:
-            tangon = michal;
- 124:
-            entity['isEligibleForCustomStatusLabels'] = tangon;
-            entity['enabledWithActivityStatus'] = zuuluu;
-            entity['enabledWithoutActivityStatus'] = michal;
+            entity = entity.enabled;
             return entity;
         }
     };

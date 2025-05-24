@@ -25,7 +25,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.PremiumTypes;
     var _closure1_slot4 = tangon;
-    tangon = 7;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -52,21 +52,14 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         var _closure2_slot0 = tangon;
         tangon = 3;
         tangon = report[tangon];
-        option = oscard.bind(entity)(tangon);
-        golfie = option.useIsPremiumSubscriber;
+        golfie = oscard.bind(entity)(tangon);
+        oscard = golfie.useIsPremiumSubscriber;
         tangon = _closure1_slot4;
         tangon = tangon.TIER_2;
-        tangon = golfie.bind(option)(tangon);
+        tangon = oscard.bind(golfie)(tangon);
         var _closure2_slot1 = tangon;
-        tangon = 4;
-        tangon = report[tangon];
-        oscard = oscard.bind(entity)(tangon);
-        tangon = oscard.useTieredTenureBadgesExperiment;
-        tangon = tangon.bind(oscard)();
-        tangon = tangon.enabled;
-        var _closure2_slot2 = tangon;
         tangon = _closure1_slot1;
-        zuuluu = 5;
+        zuuluu = 4;
         zuuluu = report[zuuluu];
         zuuluu = tangon.bind(entity)(zuuluu);
         michal = function() {
@@ -87,21 +80,17 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
  36:
                 zuuluu = _closure2_slot1;
  40:
-                if(!zuuluu) { _fun00002_ip = 47; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 80; continue _fun00001 }
  43:
-                zuuluu = _closure2_slot2;
- 47:
-                if(!zuuluu) { _fun00002_ip = 87; continue _fun00001 }
- 50:
                 tangon = _closure1_slot1;
                 report = _closure1_slot2;
-                zuuluu = 6;
+                zuuluu = 5;
                 zuuluu = report[zuuluu];
                 zuuluu = tangon.bind(entity)(zuuluu);
                 michal = _closure2_slot0;
                 michal = michal.id;
                 michal = zuuluu.bind(entity)(michal);
- 87:
+ 80:
                 return entity;
             }
         };

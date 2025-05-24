@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00014_ip = 961; continue _fun00013 }
+                            if(michal) { _fun00014_ip = 972; continue _fun00013 }
  12:
                             michal = undefined;
                             option = undefined;
@@ -487,11 +487,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return tangon;
  191:
                             ResumeGenerator(result_out_reg=3, return_bool_out_reg=12);
-                            if(foxtra) { _fun00014_ip = 932; continue _fun00013 }
+                            if(foxtra) { _fun00014_ip = 943; continue _fun00013 }
  200:
                             verify = tangon;
                             backup = null;
-                            if(!(backup != tangon)) { _fun00014_ip = 929; continue _fun00013 }
+                            if(!(backup != tangon)) { _fun00014_ip = 940; continue _fun00013 }
  212:
                             foxtra = global;
                             ctrled = foxtra.Map;
@@ -519,7 +519,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return report;
  299:
                             ResumeGenerator(result_out_reg=4, return_bool_out_reg=21);
-                            if(ctrled) { _fun00014_ip = 926; continue _fun00013 }
+                            if(ctrled) { _fun00014_ip = 937; continue _fun00013 }
  308:
                             yankee = report;
                             if(!(backup !== report)) { _fun00014_ip = 359; continue _fun00013 }
@@ -597,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             verify = verify.done;
                             yankee = 11;
                             offset = 'background';
-                            if(verify) { _fun00014_ip = 804; continue _fun00013 }
+                            if(verify) { _fun00014_ip = 815; continue _fun00013 }
  430:
                             verify = sizing;
                             vacuum = verify.value;
@@ -679,15 +679,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             verify['rel_type'] = record;
                             record = config.mention_type;
                             verify['mention_type'] = record;
-                            config = config.app_state;
-                            verify['app_state'] = config;
+                            record = config.app_state;
+                            verify['app_state'] = record;
+                            config = config.os_enabled;
+                            verify['os_enabled'] = config;
                             verify = vacuum.bind(sequen)(ctrled, verify);
                             verify = result;
                             verify = verify.bind(michal)();
                             sizing = verify;
                             verify = verify.done;
                             if(!verify) { _fun00014_ip = 430; continue _fun00013 }
- 804:
+ 815:
                             offset = _closure1_slot0;
                             verify = _closure1_slot2;
                             yankee = 10;
@@ -696,54 +698,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             offset = foxtra.removeFile;
                             verify = option;
                             oscard = offset.bind(foxtra)(verify, oscard);
-                            SaveGenerator(address=843);
- 841:
+                            SaveGenerator(address=854);
+ 852:
                             return oscard;
- 843:
+ 854:
                             ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                            if(verify) { _fun00014_ip = 923; continue _fun00013 }
- 849:
+                            if(verify) { _fun00014_ip = 934; continue _fun00013 }
+ 860:
                             offset = _closure1_slot0;
                             verify = _closure1_slot2;
                             verify = verify[romeon];
                             offset = offset.bind(michal)(verify);
                             verify = offset.isIOS;
                             verify = verify.bind(offset)();
-                            if(!verify) { _fun00014_ip = 918; continue _fun00013 }
- 879:
+                            if(!verify) { _fun00014_ip = 929; continue _fun00013 }
+ 890:
                             offset = _closure1_slot0;
                             verify = _closure1_slot2;
                             verify = verify[yankee];
                             offset = offset.bind(michal)(verify);
                             verify = offset.removeFile;
                             golfie = verify.bind(offset)(option, golfie);
-                            SaveGenerator(address=912);
- 910:
-                            return golfie;
- 912:
-                            ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                            if(option) { _fun00014_ip = 920; continue _fun00013 }
- 918: // try_end0
-                            _fun00014_ip = 958; continue _fun00013;
- 920:
+                            SaveGenerator(address=923);
+ 921:
                             return golfie;
  923:
+                            ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
+                            if(option) { _fun00014_ip = 931; continue _fun00013 }
+ 929: // try_end0
+                            _fun00014_ip = 969; continue _fun00013;
+ 931:
+                            return golfie;
+ 934:
                             return oscard;
- 926:
+ 937:
                             return report;
- 929:
+ 940:
                             return michal;
- 932:
+ 943:
                             return tangon;
- 935: // catch_target0
+ 946: // catch_target0
                             CatchBlockStart(arg_register=5);
                             report = _closure1_slot11;
                             tangon = report.error;
                             zuuluu = 'Error tracking push notifications';
                             zuuluu = tangon.bind(report)(zuuluu, oscard);
- 958:
+ 969:
                             return michal;
- 961:
+ 972:
                             return entity;
                         }
                     };

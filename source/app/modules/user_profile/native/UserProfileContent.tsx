@@ -102,38 +102,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             oscard = 'CustomStatusBubble';
             michal['location'] = oscard;
-            michal = zuuluu.bind(report)(michal);
-            backup = michal.isEligibleForCustomStatusLabels;
+            backup = zuuluu.bind(report)(michal);
             oscard = _closure1_slot3;
             report = oscard.useRef;
             zuuluu = null;
             michal = null;
-            if(!backup) { _fun00002_ip = 273; continue _fun00001 }
- 235:
+            if(!backup) { _fun00002_ip = 272; continue _fun00001 }
+ 229:
             backup = zuuluu == romeon;
             michal = null;
-            if(!backup) { _fun00002_ip = 273; continue _fun00001 }
- 244:
+            if(!backup) { _fun00002_ip = 272; continue _fun00001 }
+ 238:
             michal = null;
-            if(!option) { _fun00002_ip = 273; continue _fun00001 }
- 249:
+            if(!option) { _fun00002_ip = 272; continue _fun00001 }
+ 243:
+            michal = null;
+            if(offset) { _fun00002_ip = 272; continue _fun00001 }
+ 248:
             kiloes = _closure1_slot1;
             sizing = _closure1_slot2;
             backup = 16;
             backup = sizing[backup];
             backup = kiloes.bind(tangon)(backup);
             michal = backup.bind(tangon)();
- 273:
+ 272:
             report = report.bind(oscard)(michal);
             michal = report.current;
             michal = zuuluu != michal;
             oscard = undefined;
-            if(!michal) { _fun00002_ip = 306; continue _fun00001 }
- 292:
+            if(!michal) { _fun00002_ip = 305; continue _fun00001 }
+ 291:
             zuuluu = report.current;
             michal = zuuluu.label;
             oscard = michal.bind(zuuluu)();
- 306:
+ 305:
             zuuluu = _closure1_slot13;
             michal = _closure1_slot1;
             backup = _closure1_slot2;
@@ -144,16 +146,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['ref'] = foxtra;
             entity['customStatusActivity'] = romeon;
             entity['hasCustomProfileTheme'] = yankee;
-            if(!option) { _fun00002_ip = 352; continue _fun00001 }
- 349:
+            if(!option) { _fun00002_ip = 351; continue _fun00001 }
+ 348:
             option = !offset;
- 352:
+ 351:
             entity['editEnabled'] = option;
             option = undefined;
-            if(offset) { _fun00002_ip = 365; continue _fun00001 }
- 362:
+            if(offset) { _fun00002_ip = 364; continue _fun00001 }
+ 361:
             option = verify;
- 365:
+ 364:
             entity['onPressTruncatedStatus'] = option;
             option = golfie.customStatusBubble;
             entity['style'] = option;

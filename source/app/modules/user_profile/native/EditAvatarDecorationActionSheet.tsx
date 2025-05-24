@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = golfie[yankee];
     backup = romeon.bind(entity)(backup);
     backup = backup.colors;
-    backup = backup.BACKGROUND_BASE_LOW;
+    backup = backup.BACKGROUND_PRIMARY;
     offset['backgroundColor'] = backup;
     michal['container'] = offset;
     offset = {'flexDirection': 'column', 'alignItems': 'center', 'paddingBottom': 88};
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = kiloes[report];
             sizing = config.bind(tangon)(zuuluu);
             oscard = sizing.useAnimatedStyle;
-            zuuluu = function() { // Original name: O
+            zuuluu = function() { // Original name: R
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     michal = _closure2_slot9;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = kiloes[report];
             source = config.bind(tangon)(zuuluu);
             result = source.useAnimatedStyle;
-            zuuluu = function() { // Original name: R
+            zuuluu = function() { // Original name: O
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     zuuluu = _closure2_slot9;

@@ -67,14 +67,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            backup = entity.selectedProfileEffect;
-            var _closure2_slot0 = backup;
+            kiloes = entity.selectedProfileEffect;
+            var _closure2_slot0 = kiloes;
             romeon = entity.setSelectedProfileEffect;
             var _closure2_slot1 = romeon;
             golfie = entity.section;
             var _closure2_slot2 = golfie;
-            output = entity.guildId;
-            var _closure2_slot3 = output;
+            result = entity.guildId;
+            var _closure2_slot3 = result;
             tangon = undefined;
             var _closure2_slot9 = tangon;
             var _closure2_slot10 = tangon;
@@ -83,8 +83,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot4 = oscard;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
-            result = 6;
-            entity = yankee[result];
+            backup = 6;
+            entity = yankee[backup];
             entity = option.bind(tangon)(entity);
             michal = entity.bind(tangon)();
             entity = michal.size;
@@ -104,20 +104,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 9;
             foxtra = yankee[zuuluu];
             echoed = option.bind(tangon)(foxtra);
-            sizing = echoed.useStateFromStores;
+            output = echoed.useStateFromStores;
             foxtra = _closure1_slot5;
-            kiloes = new Array(1);
-            kiloes[0] = foxtra;
+            sizing = new Array(1);
+            sizing[0] = foxtra;
             foxtra = function() {
                 entity = _closure1_slot5;
                 entity = entity.purchases;
                 return entity;
             };
-            foxtra = sizing.bind(echoed)(kiloes, foxtra);
+            foxtra = output.bind(echoed)(sizing, foxtra);
             var _closure2_slot7 = foxtra;
             zuuluu = yankee[zuuluu];
-            kiloes = option.bind(tangon)(zuuluu);
-            yankee = kiloes.useStateFromStores;
+            sizing = option.bind(tangon)(zuuluu);
+            yankee = sizing.useStateFromStores;
             zuuluu = _closure1_slot6;
             option = new Array(1);
             option[0] = zuuluu;
@@ -127,13 +127,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            zuuluu = yankee.bind(kiloes)(option, zuuluu);
+            zuuluu = yankee.bind(sizing)(option, zuuluu);
             var _closure2_slot8 = zuuluu;
-            kiloes = _closure1_slot3;
-            yankee = kiloes.useMemo;
-            sizing = golfie.items;
+            sizing = _closure1_slot3;
+            yankee = sizing.useMemo;
+            output = golfie.items;
             option = new Array(3);
-            option[0] = sizing;
+            option[0] = output;
             option[1] = foxtra;
             option[2] = zuuluu;
             zuuluu = function() {
@@ -211,16 +211,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            yankee = yankee.bind(kiloes)(zuuluu, option);
-            option = kiloes.useCallback;
+            yankee = yankee.bind(sizing)(zuuluu, option);
+            option = sizing.useCallback;
             zuuluu = new Array(2);
             zuuluu[0] = michal;
             foxtra = null;
-            sizing = foxtra == backup;
+            output = foxtra == kiloes;
             michal = undefined;
-            if(sizing) { _fun00002_ip = 319; continue _fun00001 }
+            if(output) { _fun00002_ip = 319; continue _fun00001 }
  313:
-            michal = backup.skuId;
+            michal = kiloes.skuId;
  319:
             zuuluu[1] = michal;
             michal = function() {
@@ -263,31 +263,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            sizing = option.bind(kiloes)(michal, zuuluu);
-            _closure2_slot9 = sizing;
-            kiloes = _closure1_slot0;
+            output = option.bind(sizing)(michal, zuuluu);
+            _closure2_slot9 = output;
+            sizing = _closure1_slot0;
             michal = _closure1_slot2;
             zuuluu = 16;
             zuuluu = michal[zuuluu];
-            option = kiloes.bind(tangon)(zuuluu);
+            option = sizing.bind(tangon)(zuuluu);
             zuuluu = option.chunk;
-            michal = michal[result];
-            michal = kiloes.bind(tangon)(michal);
+            michal = michal[backup];
+            michal = sizing.bind(tangon)(michal);
             michal = michal.ROW_SIZE;
             yankee = zuuluu.bind(option)(yankee, michal);
-            kiloes = foxtra != backup;
-            _closure2_slot10 = kiloes;
+            sizing = foxtra != kiloes;
+            _closure2_slot10 = sizing;
             option = _closure1_slot3;
             zuuluu = option.useCallback;
             michal = new Array(7);
-            michal[0] = output;
-            michal[1] = sizing;
-            michal[2] = kiloes;
-            kiloes = foxtra == backup;
+            michal[0] = result;
+            michal[1] = output;
+            michal[2] = sizing;
+            sizing = foxtra == kiloes;
             foxtra = undefined;
-            if(kiloes) { _fun00002_ip = 434; continue _fun00001 }
+            if(sizing) { _fun00002_ip = 434; continue _fun00001 }
  429:
-            foxtra = backup.id;
+            foxtra = kiloes.id;
  434:
             michal[3] = foxtra;
             michal[4] = romeon;
@@ -482,7 +482,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = output[report];
             report = sizing.bind(tangon)(report);
             oscard = report.Text;
-            report = {'variant': 'heading-sm/medium', 'color': 'text-muted'};
+            report = {'variant': 'heading-sm/medium', 'color': 'header-primary'};
+            foxtra = {};
+            backup = output[backup];
+            backup = sizing.bind(tangon)(backup);
+            backup = backup.GUTTER_SIZE;
+            foxtra['paddingHorizontal'] = backup;
+            report['style'] = foxtra;
             golfie = golfie.header;
             report['children'] = golfie;
             oscard = option.bind(tangon)(oscard, report);

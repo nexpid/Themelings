@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = foxtra.REDESIGN_BUTTON_OVERLAY_ALPHA_BACKGROUND;
     offset['backgroundColor'] = foxtra;
     tangon['labelOuterContainer'] = offset;
-    offset = {'marginStart': 4294967292, 'marginEnd': 4294967292};
+    offset = {'display': 'flex', 'flexDirection': 'row', 'marginStart': 4294967292, 'marginEnd': 4294967292};
     tangon['initialIcons'] = offset;
     offset = {'width': 12, 'height': 12};
     foxtra = oscard[yankee];

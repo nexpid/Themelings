@@ -115,59 +115,59 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            oscard = argFoo;
-            update = oscard.visible;
+            report = argFoo;
+            update = report.visible;
             var _closure2_slot0 = update;
-            yankee = oscard.style;
-            tangon = oscard.source;
+            romeon = report.style;
+            tangon = report.source;
             zuuluu = {'visible': 0, 'style': 0, 'source': 0};
             entity = null;
             sequen = zuuluu;
             vacuum = null;
             michal = silentSetPrototypeOf(sequen, vacuum);
-            report = 0;
+            golfie = 0;
             sequen = {};
-            vacuum = oscard;
+            vacuum = report;
             ctrled = zuuluu;
-            michal = copyDataProperties(sequen, vacuum, ctrled);
+            zuuluu = copyDataProperties(sequen, vacuum, ctrled);
             output = _closure1_slot4;
-            offset = output.useState;
+            yankee = output.useState;
             option = _closure1_slot0;
-            golfie = _closure1_slot2;
-            foxtra = 4;
-            verify = golfie[foxtra];
-            oscard = undefined;
-            verify = option.bind(oscard)(verify);
-            verify = verify.PlayerState;
-            verify = verify.UNREADY;
-            verify = offset.bind(output)(verify);
+            oscard = _closure1_slot2;
+            backup = 4;
+            offset = oscard[backup];
+            report = undefined;
+            offset = option.bind(report)(offset);
+            offset = offset.PlayerState;
+            offset = offset.UNREADY;
+            offset = yankee.bind(output)(offset);
             sizing = _closure1_slot3;
             kiloes = 2;
-            verify = sizing.bind(oscard)(verify, kiloes);
-            offset = verify[report];
-            var _closure2_slot1 = offset;
-            romeon = 1;
-            verify = verify[romeon];
-            var _closure2_slot2 = verify;
-            verify = output.useState;
-            verify = verify.bind(output)(oscard);
-            verify = sizing.bind(oscard)(verify, kiloes);
-            report = verify[report];
-            verify = verify[romeon];
-            var _closure2_slot3 = verify;
-            romeon = _closure1_slot1;
-            verify = 5;
-            kiloes = golfie[verify];
-            kiloes = romeon.bind(oscard)(kiloes);
-            result = kiloes.bind(oscard)(offset);
+            offset = sizing.bind(report)(offset, kiloes);
+            yankee = offset[golfie];
+            var _closure2_slot1 = yankee;
+            foxtra = 1;
+            offset = offset[foxtra];
+            var _closure2_slot2 = offset;
+            offset = output.useState;
+            offset = offset.bind(output)(report);
+            offset = sizing.bind(report)(offset, kiloes);
+            golfie = offset[golfie];
+            offset = offset[foxtra];
+            var _closure2_slot3 = offset;
+            foxtra = _closure1_slot1;
+            offset = 5;
+            kiloes = oscard[offset];
+            kiloes = foxtra.bind(report)(kiloes);
+            result = kiloes.bind(report)(yankee);
             var _closure2_slot4 = result;
-            verify = golfie[verify];
-            verify = romeon.bind(oscard)(verify);
-            echoed = verify.bind(oscard)(update);
+            offset = oscard[offset];
+            offset = foxtra.bind(report)(offset);
+            echoed = offset.bind(report)(update);
             var _closure2_slot5 = echoed;
-            verify = output.useRef;
-            romeon = verify.bind(output)(entity);
-            var _closure2_slot6 = romeon;
+            offset = output.useRef;
+            foxtra = offset.bind(output)(entity);
+            var _closure2_slot6 = foxtra;
             sizing = output.useEffect;
             kiloes = function() {
                 tangon = _closure1_slot1;
@@ -183,8 +183,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             };
-            verify = new Array(0);
-            verify = sizing.bind(output)(kiloes, verify);
+            offset = new Array(0);
+            offset = sizing.bind(output)(kiloes, offset);
             sizing = output.useCallback;
             kiloes = function(argFoo) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -349,16 +349,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            verify = new Array(0);
-            verify = sizing.bind(output)(kiloes, verify);
+            offset = new Array(0);
+            offset = sizing.bind(output)(kiloes, offset);
             sizing = output.useEffect;
             kiloes = new Array(5);
-            kiloes[0] = romeon;
+            kiloes[0] = foxtra;
             kiloes[1] = update;
             kiloes[2] = echoed;
             kiloes[3] = result;
-            kiloes[4] = offset;
-            backup = function() {
+            kiloes[4] = yankee;
+            verify = function() {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     michal = _closure2_slot6;
@@ -447,83 +447,97 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            backup = sizing.bind(output)(backup, kiloes);
+            verify = sizing.bind(output)(verify, kiloes);
             kiloes = 7;
-            golfie = golfie[kiloes];
-            backup = option.bind(oscard)(golfie);
-            option = backup.getYoutubeVideoIdFromURI;
-            golfie = tangon.uri;
-            golfie = option.bind(backup)(golfie);
-            if(!(entity == golfie)) { _fun00004_ip = 385; continue _fun00003 }
+            oscard = oscard[kiloes];
+            verify = option.bind(report)(oscard);
+            option = verify.getYoutubeVideoIdFromURI;
+            oscard = tangon.uri;
+            oscard = option.bind(verify)(oscard);
+            if(!(entity == oscard)) { _fun00004_ip = 385; continue _fun00003 }
  351:
-            backup = _closure1_slot0;
+            verify = _closure1_slot0;
             option = _closure1_slot2;
             option = option[kiloes];
-            backup = backup.bind(oscard)(option);
-            option = backup.getYoutubeClipVideoIdFromURI;
+            verify = verify.bind(report)(option);
+            option = verify.getYoutubeClipVideoIdFromURI;
             tangon = tangon.uri;
-            golfie = option.bind(backup)(tangon);
+            oscard = option.bind(verify)(tangon);
  385:
-            tangon = entity == golfie;
-            entity = null;
-            if(tangon) { _fun00004_ip = 597; continue _fun00003 }
- 397:
+            if(!(entity != oscard)) { _fun00004_ip = 654; continue _fun00003 }
+ 392:
             option = _closure1_slot0;
             tangon = _closure1_slot2;
-            tangon = tangon[foxtra];
-            tangon = option.bind(oscard)(tangon);
+            tangon = tangon[backup];
+            tangon = option.bind(report)(tangon);
             tangon = tangon.PlayerState;
             tangon = tangon.ERRORED;
-            if(!(offset === tangon)) { _fun00004_ip = 440; continue _fun00003 }
- 430:
+            if(!(yankee === tangon)) { _fun00004_ip = 438; continue _fun00003 }
+ 425:
             tangon = 'embed_not_allowed';
-            if(!(tangon !== report)) { _fun00004_ip = 551; continue _fun00003 }
- 440:
-            option = _closure1_slot6;
-            report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            tangon = tangon[foxtra];
-            report = report.bind(oscard)(tangon);
-            tangon = {};
-            tangon['ref'] = romeon;
-            tangon['style'] = yankee;
-            yankee = {};
-            romeon = _closure1_slot7;
-            romeon = romeon.bind(oscard)(golfie);
-            yankee['html'] = romeon;
-            tangon['source'] = yankee;
-            yankee = 'https://www.youtube.com/embed';
-            tangon['baseURL'] = yankee;
-            tangon['playerState'] = offset;
-            tangon['onDataReceived'] = verify;
-            verify = true;
-            tangon['javaScriptEnabled'] = verify;
-            tangon['javaScriptCanOpenWindowsAutomatically'] = verify;
-            sequen = tangon;
-            vacuum = michal;
-            michal = copyDataProperties(sequen, vacuum);
-            michal = golfie.videoId;
-            michal = option.bind(oscard)(report, tangon, michal);
-            _fun00004_ip = 594; continue _fun00003;
- 551:
-            report = _closure1_slot6;
-            tangon = _closure1_slot1;
+            if(!(tangon !== golfie)) { _fun00004_ip = 609; continue _fun00003 }
+ 438:
+            golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 8;
-            zuuluu = option[zuuluu];
-            tangon = tangon.bind(oscard)(zuuluu);
-            zuuluu = {};
-            golfie = golfie.videoId;
-            zuuluu['videoId'] = golfie;
-            michal = report.bind(oscard)(tangon, zuuluu);
- 594:
-            entity = michal;
- 597:
+            tangon = 9;
+            tangon = option[tangon];
+            golfie = golfie.bind(report)(tangon);
+            tangon = golfie.isAndroid;
+            tangon = tangon.bind(golfie)();
+            if(tangon) { _fun00004_ip = 474; continue _fun00003 }
+ 470:
+            verify = {};
+            _fun00004_ip = 488; continue _fun00003;
+ 474:
+            verify = {'nestedScrollEnabled': true, 'overScrollMode': 'never', 'domStorageEnabled': true, 'mixedContentMode': 'compatibility'};
+ 488:
+            option = _closure1_slot6;
+            golfie = _closure1_slot1;
+            tangon = _closure1_slot2;
+            tangon = tangon[backup];
+            golfie = golfie.bind(report)(tangon);
+            tangon = {};
+            tangon['ref'] = foxtra;
+            tangon['style'] = romeon;
+            romeon = {};
+            foxtra = _closure1_slot7;
+            foxtra = foxtra.bind(report)(oscard);
+            romeon['html'] = foxtra;
+            tangon['source'] = romeon;
+            romeon = 'https://www.youtube.com/embed';
+            tangon['baseURL'] = romeon;
+            tangon['playerState'] = yankee;
+            tangon['onDataReceived'] = offset;
+            offset = true;
+            tangon['javaScriptEnabled'] = offset;
+            tangon['javaScriptCanOpenWindowsAutomatically'] = offset;
+            sequen = tangon;
+            vacuum = verify;
+            verify = copyDataProperties(sequen, vacuum);
+            sequen = tangon;
+            vacuum = zuuluu;
+            zuuluu = copyDataProperties(sequen, vacuum);
+            zuuluu = oscard.videoId;
+            zuuluu = option.bind(report)(golfie, tangon, zuuluu);
+            return zuuluu;
+ 609:
+            tangon = _closure1_slot6;
+            zuuluu = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 8;
+            michal = golfie[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = {};
+            oscard = oscard.videoId;
+            michal['videoId'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return michal;
+ 654:
             return entity;
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 9;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -2021,7 +2021,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00032_ip = 192; continue _fun00031 }
+                    if(michal) { _fun00032_ip = 188; continue _fun00031 }
  10:
                     oscard = {'url': null, 'oldFormErrors': true, 'rejectWithError': false};
                     report = _closure1_slot15;
@@ -2031,13 +2031,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard['url'] = michal;
                     zuuluu = _closure2_slot1;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00032_ip = 81; continue _fun00031 }
- 65:
+                    if(!(michal != zuuluu)) { _fun00032_ip = 77; continue _fun00031 }
+ 61:
                     michal = {};
                     zuuluu = _closure2_slot1;
                     michal['channel_id'] = zuuluu;
                     oscard['query'] = michal;
- 81:
+ 77:
                     report = _closure1_slot0;
                     zuuluu = _closure1_slot3;
                     michal = 14;
@@ -2047,13 +2047,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = michal.HTTP;
                     michal = report.get;
                     michal = michal.bind(report)(oscard);
-                    SaveGenerator(address=122);
- 120:
+                    SaveGenerator(address=118);
+ 116:
                     return michal;
- 122:
+ 118:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00032_ip = 189; continue _fun00031 }
- 128:
+                    if(report) { _fun00032_ip = 185; continue _fun00031 }
+ 124:
                     golfie = michal.body;
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
@@ -2069,9 +2069,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon['applications'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 189:
+ 185:
                     return michal;
- 192:
+ 188:
                     return entity;
                 }
             };
@@ -2315,7 +2315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00042_ip = 122; continue _fun00041 }
+                    if(michal) { _fun00042_ip = 118; continue _fun00041 }
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot3;
@@ -2351,17 +2351,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         return entity;
                     };
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=110);
- 108:
+                    SaveGenerator(address=106);
+ 104:
                     return michal;
- 110:
+ 106:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00042_ip = 119; continue _fun00041 }
- 116:
+                    if(tangon) { _fun00042_ip = 115; continue _fun00041 }
+ 112:
                     return zuuluu;
- 119:
+ 115:
                     return michal;
- 122:
+ 118:
                     return entity;
                 }
             };
@@ -2427,7 +2427,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00044_ip = 111; continue _fun00043 }
+                    if(michal) { _fun00044_ip = 107; continue _fun00043 }
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot3;
@@ -2445,17 +2445,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = option.bind(verify)(golfie, oscard);
                     michal['url'] = oscard;
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=99);
- 97:
+                    SaveGenerator(address=95);
+ 93:
                     return michal;
- 99:
+ 95:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00044_ip = 108; continue _fun00043 }
- 105:
+                    if(tangon) { _fun00044_ip = 104; continue _fun00043 }
+ 101:
                     return zuuluu;
- 108:
+ 104:
                     return michal;
- 111:
+ 107:
                     return entity;
                 }
             };
@@ -2479,7 +2479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00046_ip = 111; continue _fun00045 }
+                    if(michal) { _fun00046_ip = 107; continue _fun00045 }
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot3;
@@ -2497,17 +2497,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = option.bind(verify)(golfie, oscard);
                     michal['url'] = oscard;
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=99);
- 97:
+                    SaveGenerator(address=95);
+ 93:
                     return michal;
- 99:
+ 95:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00046_ip = 108; continue _fun00045 }
- 105:
+                    if(tangon) { _fun00046_ip = 104; continue _fun00045 }
+ 101:
                     return zuuluu;
- 108:
+ 104:
                     return michal;
- 111:
+ 107:
                     return entity;
                 }
             };
@@ -2529,7 +2529,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00048_ip = 110; continue _fun00047 }
+                    if(michal) { _fun00048_ip = 106; continue _fun00047 }
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot3;
@@ -2546,18 +2546,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = oscard.bind(golfie)(report);
                     michal['url'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=93);
- 91:
+                    SaveGenerator(address=89);
+ 87:
                     return michal;
- 93:
+ 89:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00048_ip = 107; continue _fun00047 }
- 99:
+                    if(zuuluu) { _fun00048_ip = 103; continue _fun00047 }
+ 95:
                     zuuluu = michal.body;
                     return zuuluu;
- 107:
+ 103:
                     return michal;
- 110:
+ 106:
                     return entity;
                 }
             };

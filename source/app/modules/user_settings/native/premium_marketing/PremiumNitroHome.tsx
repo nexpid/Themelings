@@ -752,7 +752,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = 'function PremiumNitroHomeTsx1(){const{floatTabBottomOffset}=this.__closure;return{bottom:floatTabBottomOffset.get()};}';
     report['code'] = option;
     var _closure1_slot25 = report;
-    report = 48;
+    report = 47;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -765,7 +765,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = michal.onClose;
             tangon = undefined;
             var _closure2_slot6 = tangon;
-            var _closure2_slot7 = tangon;
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 25;
@@ -1035,19 +1034,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = report.bind(tangon)(zuuluu);
             report = offset.useSharedValue;
             zuuluu = -32;
-            if(!michal) { _fun00008_ip = 873; continue _fun00007 }
- 866:
+            if(!michal) { _fun00008_ip = 869; continue _fun00007 }
+ 862:
             romeon = 8;
             zuuluu = result + romeon;
- 873:
+ 869:
             echoed = report.bind(offset)(zuuluu);
             _closure2_slot6 = echoed;
-            zuuluu = _closure1_slot0;
+            romeon = _closure1_slot0;
             papara = _closure1_slot2;
-            report = papara[oscard];
-            romeon = zuuluu.bind(tangon)(report);
-            offset = romeon.useAnimatedStyle;
-            report = function() { // Original name: X
+            zuuluu = papara[oscard];
+            offset = romeon.bind(tangon)(zuuluu);
+            report = offset.useAnimatedStyle;
+            zuuluu = function() { // Original name: X
                 entity = {};
                 zuuluu = _closure2_slot6;
                 michal = zuuluu.get;
@@ -1057,18 +1056,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             output = {};
             output['floatTabBottomOffset'] = echoed;
-            report['__closure'] = output;
+            zuuluu['__closure'] = output;
             output = 15088278002673.0;
-            report['__workletHash'] = output;
+            zuuluu['__workletHash'] = output;
             output = _closure1_slot25;
-            report['__initData'] = output;
-            offset = offset.bind(romeon)(report);
+            zuuluu['__initData'] = output;
+            offset = report.bind(offset)(zuuluu);
             output = _closure1_slot4;
-            romeon = output.useEffect;
-            report = new Array(3);
-            report[0] = echoed;
-            report[1] = result;
-            report[2] = michal;
+            report = output.useEffect;
+            zuuluu = new Array(3);
+            zuuluu[0] = echoed;
+            zuuluu[1] = result;
+            zuuluu[2] = michal;
             michal = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -1101,32 +1100,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = romeon.bind(output)(michal, report);
+            michal = report.bind(output)(michal, zuuluu);
             michal = 35;
-            report = papara[michal];
-            romeon = zuuluu.bind(tangon)(report);
-            report = romeon.useThemeContext;
-            report = report.bind(romeon)();
-            result = report.theme;
+            zuuluu = papara[michal];
+            report = romeon.bind(tangon)(zuuluu);
+            zuuluu = report.useThemeContext;
+            zuuluu = zuuluu.bind(report)();
+            result = zuuluu.theme;
             michal = papara[michal];
-            report = zuuluu.bind(tangon)(michal);
-            michal = report.isThemeDark;
-            echoed = michal.bind(report)(result);
+            zuuluu = romeon.bind(tangon)(michal);
+            michal = zuuluu.isThemeDark;
+            echoed = michal.bind(zuuluu)(result);
             michal = _closure1_slot11;
             output = michal.MIDNIGHT;
             cntext = _closure1_slot1;
             michal = 36;
-            report = papara[michal];
-            romeon = cntext.bind(tangon)(report);
-            report = golfie.endsAt;
+            zuuluu = papara[michal];
+            report = cntext.bind(tangon)(zuuluu);
+            zuuluu = golfie.endsAt;
             michal = papara[michal];
-            michal = zuuluu.bind(tangon)(michal);
+            michal = romeon.bind(tangon)(michal);
             michal = michal.CountDownMessageTypes;
             michal = michal.ENDS_IN;
-            vacuum = romeon.bind(tangon)(report, michal);
-            sequen = _closure1_slot4;
-            romeon = sequen.useEffect;
-            report = function() {
+            vacuum = report.bind(tangon)(zuuluu, michal);
+            romeon = _closure1_slot4;
+            report = romeon.useEffect;
+            zuuluu = function() {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     option = _closure1_slot0;
@@ -1182,19 +1181,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             michal = new Array(0);
-            michal = romeon.bind(sequen)(report, michal);
-            michal = 39;
-            michal = papara[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.useTieredTenureBadgesExperiment;
-            michal = michal.bind(zuuluu)();
-            romeon = michal.enabled;
-            _closure2_slot7 = romeon;
+            michal = report.bind(romeon)(zuuluu, michal);
             report = _closure1_slot4;
             zuuluu = report.useEffect;
-            michal = new Array(1);
-            michal[0] = romeon;
-            entity = function() {
+            michal = function() {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     option = _closure1_slot0;
@@ -1210,13 +1200,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.DismissibleContent;
                     tangon = tangon.WHATS_NEW_TENURE_BADGE_REWARD;
                     tangon = report.bind(golfie)(tangon);
-                    tangon = !tangon;
-                    if(!tangon) { _fun00016_ip = 73; continue _fun00015 }
- 66:
-                    tangon = _closure2_slot7;
- 73:
-                    if(!tangon) { _fun00016_ip = 125; continue _fun00015 }
- 76:
+                    if(tangon) { _fun00016_ip = 112; continue _fun00015 }
+ 63:
                     report = _closure1_slot0;
                     michal = _closure1_slot2;
                     zuuluu = michal[zuuluu];
@@ -1227,11 +1212,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.DismissibleContent;
                     michal = michal.WHATS_NEW_TENURE_BADGE_REWARD;
                     michal = zuuluu.bind(tangon)(michal);
- 125:
+ 112:
                     return entity;
                 }
             };
-            entity = zuuluu.bind(report)(entity, michal);
+            entity = new Array(0);
+            entity = zuuluu.bind(report)(michal, entity);
             zuuluu = _closure1_slot15;
             michal = _closure1_slot5;
             entity = {};
@@ -1243,13 +1229,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = romeon;
             entity['style'] = report;
             backup = _closure1_slot14;
-            report = 40;
+            report = 39;
             report = papara[report];
             romeon = cntext.bind(tangon)(report);
             report = {};
             sequen = kiloes.background;
             report['style'] = sequen;
-            sequen = 41;
+            sequen = 40;
             sequen = papara[sequen];
             sequen = cntext.bind(tangon)(sequen);
             report['source'] = sequen;
@@ -1267,22 +1253,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot13;
             golfie = golfie.NONE;
             golfie = romeon !== golfie;
-            if(!golfie) { _fun00008_ip = 1341; continue _fun00007 }
- 1338:
+            if(!golfie) { _fun00008_ip = 1302; continue _fun00007 }
+ 1299:
             golfie = !option;
- 1341:
-            if(!golfie) { _fun00008_ip = 1381; continue _fun00007 }
- 1344:
+ 1302:
+            if(!golfie) { _fun00008_ip = 1342; continue _fun00007 }
+ 1305:
             backup = _closure1_slot14;
             romeon = _closure1_slot1;
             sequen = _closure1_slot2;
-            option = 42;
+            option = 41;
             option = sequen[option];
             romeon = romeon.bind(tangon)(option);
             option = {};
             option['countdownText'] = vacuum;
             golfie = backup.bind(tangon)(romeon, option);
- 1381:
+ 1342:
             report[2] = golfie;
             romeon = _closure1_slot15;
             option = _closure1_slot5;
@@ -1292,7 +1278,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = _closure1_slot14;
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
-            backup = 43;
+            backup = 42;
             backup = config[backup];
             backup = vacuum.bind(tangon)(backup);
             vacuum = backup.SegmentedControlPages;
@@ -1301,8 +1287,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum, backup);
             backup = new Array(2);
             backup[0] = vacuum;
-            if(!update) { _fun00008_ip = 1492; continue _fun00007 }
- 1458:
+            if(!update) { _fun00008_ip = 1453; continue _fun00007 }
+ 1419:
             config = _closure1_slot14;
             sequen = _closure1_slot5;
             vacuum = {};
@@ -1311,7 +1297,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record[0] = cntext;
             vacuum['style'] = record;
             update = config.bind(tangon)(sequen, vacuum);
- 1492:
+ 1453:
             backup[1] = update;
             golfie['children'] = backup;
             golfie = romeon.bind(tangon)(option, golfie);
@@ -1333,7 +1319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['onLayout'] = foxtra;
             update = _closure1_slot14;
             backup = _closure1_slot0;
-            foxtra = 44;
+            foxtra = 43;
             foxtra = vacuum[foxtra];
             foxtra = backup.bind(tangon)(foxtra);
             backup = foxtra.SegmentedControl;
@@ -1347,12 +1333,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(3);
             verify[0] = offset;
             offset = !echoed;
-            if(!offset) { _fun00008_ip = 1747; continue _fun00007 }
- 1644:
+            if(!offset) { _fun00008_ip = 1708; continue _fun00007 }
+ 1605:
             backup = _closure1_slot14;
             foxtra = _closure1_slot1;
             update = _closure1_slot2;
-            romeon = 45;
+            romeon = 44;
             romeon = update[romeon];
             foxtra = foxtra.bind(tangon)(romeon);
             romeon = {};
@@ -1372,29 +1358,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update[1] = source;
             romeon['style'] = update;
             offset = backup.bind(tangon)(foxtra, romeon);
- 1747:
+ 1708:
             verify[1] = offset;
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            offset = 46;
+            offset = 45;
             offset = foxtra[offset];
             romeon = romeon.bind(tangon)(offset);
             offset = romeon.isAndroid;
             offset = offset.bind(romeon)();
             foxtra = _closure1_slot14;
-            if(offset) { _fun00008_ip = 1907; continue _fun00007 }
- 1787:
+            if(offset) { _fun00008_ip = 1868; continue _fun00007 }
+ 1748:
             romeon = _closure1_slot1;
             backup = _closure1_slot2;
-            offset = 47;
+            offset = 46;
             offset = backup[offset];
             romeon = romeon.bind(tangon)(offset);
             offset = {};
             backup = 0.5;
-            if(!echoed) { _fun00008_ip = 1832; continue _fun00007 }
- 1822:
+            if(!echoed) { _fun00008_ip = 1793; continue _fun00007 }
+ 1783:
             backup = 0.2;
- 1832:
+ 1793:
             offset['blurAmount'] = backup;
             echoed = kiloes.segmentedControlVirtual;
             backup = new Array(2);
@@ -1405,14 +1391,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['style'] = backup;
             offset['blurTheme'] = result;
             backup = undefined;
-            if(!(result === output)) { _fun00008_ip = 1894; continue _fun00007 }
- 1890:
+            if(!(result === output)) { _fun00008_ip = 1855; continue _fun00007 }
+ 1851:
             backup = _closure1_slot18;
- 1894:
+ 1855:
             offset['blurTintRgba'] = backup;
             offset = foxtra.bind(tangon)(romeon, offset);
-            _fun00008_ip = 1971; continue _fun00007;
- 1907:
+            _fun00008_ip = 1932; continue _fun00007;
+ 1868:
             romeon = _closure1_slot5;
             yankee = {};
             output = kiloes.segmentedControlVirtual;
@@ -1425,7 +1411,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[2] = kiloes;
             yankee['style'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 1971:
+ 1932:
             verify[2] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

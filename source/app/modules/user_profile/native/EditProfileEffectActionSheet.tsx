@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = golfie[romeon];
     offset = foxtra.bind(entity)(offset);
     offset = offset.colors;
-    offset = offset.BACKGROUND_BASE_LOW;
+    offset = offset.BACKGROUND_PRIMARY;
     verify['backgroundColor'] = offset;
     michal['container'] = verify;
     verify = {'flexDirection': 'column', 'alignItems': 'center', 'paddingBottom': 88, 'flex': 1};

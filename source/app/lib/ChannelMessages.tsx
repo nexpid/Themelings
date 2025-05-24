@@ -3094,12 +3094,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = {'ready': true, 'loadingMore': false};
                 output = yankee == offset;
                 golfie = undefined;
-                if(output) { _fun00072_ip = 665; continue _fun00071 }
- 659:
+                if(output) { _fun00072_ip = 661; continue _fun00071 }
+ 655:
                 golfie = offset.jumpType;
+ 661:
+                if(!(yankee == golfie)) { _fun00072_ip = 697; continue _fun00071 }
  665:
-                if(!(yankee == golfie)) { _fun00072_ip = 701; continue _fun00071 }
- 669:
                 output = _closure1_slot0;
                 result = _closure1_slot3;
                 kiloes = 7;
@@ -3107,104 +3107,104 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = output.bind(backup)(kiloes);
                 kiloes = kiloes.JumpTypes;
                 golfie = kiloes.ANIMATED;
- 701:
+ 697:
                 entity['jumpType'] = golfie;
                 golfie = yankee == offset;
                 kiloes = undefined;
-                if(golfie) { _fun00072_ip = 721; continue _fun00071 }
- 715:
+                if(golfie) { _fun00072_ip = 717; continue _fun00071 }
+ 711:
                 kiloes = offset.flash;
- 721:
+ 717:
                 golfie = yankee != kiloes;
-                if(!golfie) { _fun00072_ip = 731; continue _fun00071 }
- 728:
+                if(!golfie) { _fun00072_ip = 727; continue _fun00071 }
+ 724:
                 golfie = kiloes;
- 731:
+ 727:
                 entity['jumpFlash'] = golfie;
                 golfie = yankee != offset;
                 entity['jumped'] = golfie;
                 golfie = yankee == offset;
                 kiloes = undefined;
-                if(golfie) { _fun00072_ip = 760; continue _fun00071 }
- 754:
+                if(golfie) { _fun00072_ip = 756; continue _fun00071 }
+ 750:
                 kiloes = offset.present;
- 760:
+ 756:
                 golfie = yankee != kiloes;
-                if(!golfie) { _fun00072_ip = 770; continue _fun00071 }
- 767:
+                if(!golfie) { _fun00072_ip = 766; continue _fun00071 }
+ 763:
                 golfie = kiloes;
- 770:
+ 766:
                 entity['jumpedToPresent'] = golfie;
                 golfie = yankee == offset;
                 kiloes = undefined;
-                if(golfie) { _fun00072_ip = 789; continue _fun00071 }
- 784:
+                if(golfie) { _fun00072_ip = 785; continue _fun00071 }
+ 780:
                 kiloes = offset.messageId;
- 789:
+ 785:
                 output = yankee != kiloes;
                 golfie = null;
-                if(!output) { _fun00072_ip = 801; continue _fun00071 }
- 798:
+                if(!output) { _fun00072_ip = 797; continue _fun00071 }
+ 794:
                 golfie = kiloes;
- 801:
+ 797:
                 entity['jumpTargetId'] = golfie;
                 kiloes = yankee != offset;
                 golfie = 0;
-                if(!kiloes) { _fun00072_ip = 850; continue _fun00071 }
- 815:
+                if(!kiloes) { _fun00072_ip = 846; continue _fun00071 }
+ 811:
                 kiloes = offset.messageId;
                 kiloes = yankee != kiloes;
                 golfie = 0;
-                if(!kiloes) { _fun00072_ip = 850; continue _fun00071 }
- 829:
+                if(!kiloes) { _fun00072_ip = 846; continue _fun00071 }
+ 825:
                 kiloes = offset.offset;
                 kiloes = yankee != kiloes;
                 golfie = 0;
-                if(!kiloes) { _fun00072_ip = 850; continue _fun00071 }
- 844:
+                if(!kiloes) { _fun00072_ip = 846; continue _fun00071 }
+ 840:
                 golfie = offset.offset;
- 850:
+ 846:
                 entity['jumpTargetOffset'] = golfie;
-                if(!(yankee == offset)) { _fun00072_ip = 867; continue _fun00071 }
- 859:
+                if(!(yankee == offset)) { _fun00072_ip = 863; continue _fun00071 }
+ 855:
                 golfie = zuuluu.jumpSequenceId;
-                _fun00072_ip = 880; continue _fun00071;
- 867:
+                _fun00072_ip = 876; continue _fun00071;
+ 863:
                 sizing = zuuluu.jumpSequenceId;
                 kiloes = 1;
                 golfie = sizing + kiloes;
- 880:
+ 876:
                 entity['jumpSequenceId'] = golfie;
                 golfie = yankee == offset;
                 backup = undefined;
-                if(golfie) { _fun00072_ip = 900; continue _fun00071 }
- 894:
+                if(golfie) { _fun00072_ip = 896; continue _fun00071 }
+ 890:
                 backup = offset.returnMessageId;
- 900:
+ 896:
                 kiloes = yankee != backup;
                 golfie = null;
-                if(!kiloes) { _fun00072_ip = 912; continue _fun00071 }
- 909:
+                if(!kiloes) { _fun00072_ip = 908; continue _fun00071 }
+ 905:
                 golfie = backup;
- 912:
+ 908:
                 entity['jumpReturnTargetId'] = golfie;
                 golfie = foxtra;
-                if(!(yankee == offset)) { _fun00072_ip = 936; continue _fun00071 }
- 924:
+                if(!(yankee == offset)) { _fun00072_ip = 932; continue _fun00071 }
+ 920:
                 golfie = foxtra;
-                if(!romeon) { _fun00072_ip = 936; continue _fun00071 }
- 930:
+                if(!romeon) { _fun00072_ip = 932; continue _fun00071 }
+ 926:
                 golfie = zuuluu.hasMoreBefore;
- 936:
+ 932:
                 entity['hasMoreBefore'] = golfie;
                 golfie = verify;
-                if(!(yankee == offset)) { _fun00072_ip = 960; continue _fun00071 }
- 948:
+                if(!(yankee == offset)) { _fun00072_ip = 956; continue _fun00071 }
+ 944:
                 golfie = verify;
-                if(!option) { _fun00072_ip = 960; continue _fun00071 }
- 954:
+                if(!option) { _fun00072_ip = 956; continue _fun00071 }
+ 950:
                 golfie = zuuluu.hasMoreAfter;
- 960:
+ 956:
                 entity['hasMoreAfter'] = golfie;
                 entity['cached'] = oscard;
                 report = report.hasFetched;
