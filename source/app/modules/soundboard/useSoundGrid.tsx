@@ -1037,7 +1037,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = _closure3_slot1;
                     report['lockedCustomSoundCount'] = oscard;
                     entity['soundCounts'] = report;
-                    _fun00022_ip = 1123; continue _fun00021;
+                    _fun00022_ip = 1119; continue _fun00021;
  1060:
                     oscard = _closure1_slot17;
                     report = _closure2_slot4;
@@ -1052,7 +1052,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = {'favoriteSoundCount': 0, 'unlockedCustomSoundCount': 0, 'lockedCustomSoundCount': 0};
                     michal['soundCounts'] = zuuluu;
                     entity = michal;
- 1123:
+ 1119:
                     return entity;
                 }
             };

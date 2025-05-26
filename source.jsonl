@@ -256,7 +256,7 @@
 { "file": "app/utils/BraintreeUtils.tsx", "size": 5296 }
 { "file": "app/stores/billing/BraintreeStore.tsx", "size": 13491 }
 { "file": "discord_common/js/packages/code-splitting/importWithRetry.tsx", "size": 6523 }
-{ "file": "app/utils/DateUtils.tsx", "size": 23315 }
+{ "file": "app/utils/DateUtils.tsx", "size": 23317 }
 { "file": "app/lib/makeDateFormatter.tsx", "size": 64920 }
 { "file": "app/modules/system_date_format/SystemDateFormatterExperiment.tsx", "size": 1523 }
 { "file": "app/lib/intlFormatDate.tsx", "size": 7358 }
@@ -431,8 +431,8 @@
 { "file": "app/modules/links/native/handleSupportedURL.tsx", "size": 88226 }
 { "file": "app/modules/gateway/PostConnectionCallbackStore.tsx", "size": 4125 }
 { "file": "app/modules/nuf/NewUserStore.tsx", "size": 7297 }
-{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 62353 }
-{ "file": "app/stores/CallStore.tsx", "size": 21674 }
+{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 62357 }
+{ "file": "app/stores/CallStore.tsx", "size": 21676 }
 { "file": "app/stores/SelectedChannelStore.tsx", "size": 55289 }
 { "file": "app/stores/GuildChannelStore.tsx", "size": 55726 }
 { "file": "app/modules/channel/GatedChannelStore.tsx", "size": 35412 }
