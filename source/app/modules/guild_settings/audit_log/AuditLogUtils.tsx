@@ -4401,9 +4401,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             return entity;
         };
         entity[report] = tangon;
-        zuuluu = _closure1_slot16;
-        zuuluu = zuuluu.VISIBILITY;
-        michal = function() {
+        tangon = _closure1_slot16;
+        tangon = tangon.VISIBILITY;
+        zuuluu = function() {
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
             entity = 17;
@@ -4414,6 +4414,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = entity.bCl1Eh;
             return entity;
         };
+        entity[tangon] = zuuluu;
+        zuuluu = _closure1_slot16;
+        zuuluu = zuuluu.SERVER_TAG;
+        oscard = _closure1_slot48;
+        golfie = _closure1_slot0;
+        option = _closure1_slot3;
+        michal = 17;
+        tangon = option[michal];
+        report = undefined;
+        tangon = golfie.bind(report)(tangon);
+        tangon = tangon.t;
+        tangon = tangon.ix1dnZ;
+        michal = option[michal];
+        michal = golfie.bind(report)(michal);
+        michal = michal.t;
+        michal = michal.4LKpKS;
+        michal = oscard.bind(report)(tangon, michal);
         entity[zuuluu] = michal;
         return entity;
     };

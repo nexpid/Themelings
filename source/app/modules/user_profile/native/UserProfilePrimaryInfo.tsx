@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot3;
                     michal = undefined;
                     michal = zuuluu.bind(michal)();
-                    _fun00012_ip = 265; continue _fun00011;
+                    _fun00012_ip = 276; continue _fun00011;
  28:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = tangon[entity];
                     entity = zuuluu.bind(offset)(entity);
                     entity = entity.QUEST_COMPLETED_BADGE;
-                    if(!(michal === entity)) { _fun00012_ip = 265; continue _fun00011 }
+                    if(!(michal === entity)) { _fun00012_ip = 276; continue _fun00011 }
  143:
                     michal = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -544,8 +544,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = report.googleAdvertisingId;
                     report = 'google_advertising_id';
                     entity[report] = oscard;
+                    oscard = false;
+                    report = 'is_targeted';
+                    entity[report] = oscard;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 265:
+ 276:
                     entity = undefined;
                     return entity;
                 }

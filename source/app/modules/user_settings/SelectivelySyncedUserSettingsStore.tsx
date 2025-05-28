@@ -270,7 +270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.TEXT;
             michal = golfie[michal];
             tangon = false;
-            if(!(tangon === michal)) { _fun00014_ip = 216; continue _fun00013 }
+            if(!(tangon === michal)) { _fun00014_ip = 214; continue _fun00013 }
  156:
             michal = {};
             michal['shouldSync'] = tangon;
@@ -284,12 +284,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.bind(offset)(oscard, option);
             michal['settings'] = option;
             entity['text'] = michal;
- 216:
+ 214:
             michal = _closure1_slot8;
             michal = michal.APPEARANCE;
             michal = golfie[michal];
-            if(!(tangon === michal)) { _fun00014_ip = 294; continue _fun00013 }
- 234:
+            if(!(tangon === michal)) { _fun00014_ip = 292; continue _fun00013 }
+ 232:
             michal = {};
             michal['shouldSync'] = tangon;
             tangon = _closure1_slot1;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(report)(oscard, zuuluu);
             michal['settings'] = zuuluu;
             entity['appearance'] = michal;
- 294:
+ 292:
             return entity;
         }
     };

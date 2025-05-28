@@ -1,4 +1,4 @@
-// discord_assets/assets/premium/gifting/valentines-gifting-card-hearts_2x.png.js
+// discord_assets/assets/premium/gifting/summer-2025-water-background.png.js
 module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
@@ -16,12 +16,12 @@ module.exports = (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     report = michal.bind(entity)(tangon);
     tangon = report.fileFinishedImporting;
-    michal = '../discord_assets/assets/premium/gifting/valentines-gifting-card-hearts_2x.png.js';
+    michal = '../discord_assets/assets/premium/gifting/summer-2025-water-background.png.js';
     michal = tangon.bind(report)(michal);
-    michal = 'https://cdn.discordapp.com/assets/content/959203f407795dd43700d4831b45a6c59fe9197899875d50cadeb54fc09394c7.png';
+    michal = 'https://cdn.discordapp.com/assets/content/b0036870a27083283e495e31b9198921d9d4169296882bb9b91ad8fa1b8bff24.png';
     zuuluu['default'] = michal;
     michal = {};
-    tangon = 8299;
+    tangon = 749325;
     michal['fileBytes'] = tangon;
     zuuluu['metadata'] = michal;
     return entity;

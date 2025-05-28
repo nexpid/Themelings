@@ -19,11 +19,6 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot2 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.InteractionManager;
-    var _closure1_slot3 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -46,7 +41,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             var _closure2_slot2 = entity;
             report = _closure1_slot0;
             oscard = _closure1_slot1;
-            tangon = 2;
+            tangon = 1;
             tangon = oscard[tangon];
             report = report.bind(entity)(tangon);
             tangon = report.useIsFocused;
@@ -59,9 +54,14 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             zuuluu[1] = golfie;
             zuuluu[2] = oscard;
             michal = function() {
-                zuuluu = _closure1_slot3;
-                michal = zuuluu.runAfterInteractions;
-                entity = function() {
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                michal = 2;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                tangon = tangon.bind(michal)(zuuluu);
+                zuuluu = tangon.runAfterInteractions;
+                michal = function() {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         michal = _closure2_slot1;
@@ -83,8 +83,15 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                         return entity;
                     }
                 };
-                entity = michal.bind(zuuluu)(entity);
-                entity = undefined;
+                michal = zuuluu.bind(tangon)(michal);
+                var _closure3_slot0 = michal;
+                entity = function() {
+                    michal = _closure3_slot0;
+                    entity = michal.cancel;
+                    entity = entity.bind(michal)();
+                    entity = undefined;
+                    return entity;
+                };
                 return entity;
             };
             michal = tangon.bind(report)(michal, zuuluu);

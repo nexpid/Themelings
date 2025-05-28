@@ -29,9 +29,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argBar;
-            result = entity.rating;
-            sizing = entity.reasonCode;
-            kiloes = entity.reasonDescription;
+            update = entity.rating;
+            result = entity.category;
+            output = entity.reasonCode;
+            sizing = entity.reasonDescription;
+            kiloes = entity.variant;
             backup = entity.feedback;
             michal = entity.analyticsData;
             tangon = _closure1_slot2;
@@ -71,15 +73,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.track;
             zuuluu = {};
             verify = null;
-            echoed = verify != result;
-            output = 'no response';
-            if(!echoed) { _fun00002_ip = 219; continue _fun00001 }
- 216:
-            output = result;
- 219:
-            zuuluu['rating'] = output;
-            zuuluu['reason_code'] = sizing;
-            zuuluu['reason_description'] = kiloes;
+            source = verify != update;
+            echoed = 'no response';
+            if(!source) { _fun00002_ip = 229; continue _fun00001 }
+ 226:
+            echoed = update;
+ 229:
+            zuuluu['rating'] = echoed;
+            zuuluu['category'] = result;
+            zuuluu['reason_code'] = output;
+            zuuluu['reason_description'] = sizing;
+            zuuluu['reason_variant'] = kiloes;
             zuuluu['feedback'] = backup;
             backup = oscard.mode;
             zuuluu['audio_input_mode'] = backup;
@@ -100,32 +104,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['noise_cancellation_enabled'] = yankee;
             backup = verify == foxtra;
             yankee = undefined;
-            if(backup) { _fun00002_ip = 350; continue _fun00001 }
- 345:
+            if(backup) { _fun00002_ip = 371; continue _fun00001 }
+ 366:
             yankee = foxtra.name;
- 350:
+ 371:
             zuuluu['input_device_name'] = yankee;
             foxtra = verify == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 369; continue _fun00001 }
- 364:
+            if(foxtra) { _fun00002_ip = 390; continue _fun00001 }
+ 385:
             yankee = romeon.name;
- 369:
+ 390:
             zuuluu['output_device_name'] = yankee;
             yankee = verify == offset;
             verify = undefined;
-            if(yankee) { _fun00002_ip = 390; continue _fun00001 }
- 385:
+            if(yankee) { _fun00002_ip = 411; continue _fun00001 }
+ 406:
             verify = offset.name;
- 390:
+ 411:
             zuuluu['video_device_name'] = verify;
             zuuluu['audio_subsystem'] = option;
             zuuluu['audio_layer'] = golfie;
             oscard = oscard.automaticAudioSubsystem;
             zuuluu['automatic_audio_subsystem'] = oscard;
-            source = zuuluu;
-            update = michal;
-            michal = copyDataProperties(source, update);
+            vacuum = zuuluu;
+            ctrled = michal;
+            michal = copyDataProperties(vacuum, ctrled);
             michal = argFoo;
             michal = tangon.bind(report)(michal, zuuluu);
             return entity;

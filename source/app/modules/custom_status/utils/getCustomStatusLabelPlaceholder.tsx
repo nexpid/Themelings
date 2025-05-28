@@ -31,23 +31,23 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             report = undefined;
             michal = zuuluu.bind(report)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.LISTEN;
-            if(!(michal !== tangon)) { _fun00002_ip = 448; continue _fun00001 }
+            michal = michal.QUESTION;
+            if(!(michal !== tangon)) { _fun00002_ip = 452; continue _fun00001 }
  46:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             michal = michal[oscard];
             michal = zuuluu.bind(report)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.WATCH;
-            if(!(michal !== tangon)) { _fun00002_ip = 391; continue _fun00001 }
+            michal = michal.EXCITED;
+            if(!(michal !== tangon)) { _fun00002_ip = 393; continue _fun00001 }
  82:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
             michal = michal[oscard];
             michal = zuuluu.bind(report)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.PLAY;
+            michal = michal.RECOMMEND;
             if(!(michal !== tangon)) { _fun00002_ip = 334; continue _fun00001 }
  118:
             zuuluu = _closure1_slot0;
@@ -113,10 +113,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = golfie[michal];
             michal = oscard.bind(report)(michal);
             michal = michal.t;
-            michal = michal.r5TNm5;
+            michal = michal.lneQf3;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 391:
+ 393:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 1;
@@ -127,10 +127,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = golfie[michal];
             michal = oscard.bind(report)(michal);
             michal = michal.t;
-            michal = michal.pzz9iI;
+            michal = michal.UZ5AQk;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 448:
+ 452:
             tangon = _closure1_slot0;
             oscard = _closure1_slot1;
             entity = 1;
@@ -141,7 +141,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = oscard[entity];
             entity = tangon.bind(report)(entity);
             entity = entity.t;
-            entity = entity.ylzor6;
+            entity = entity.nLMBxM;
             entity = michal.bind(zuuluu)(entity);
             return entity;
         }

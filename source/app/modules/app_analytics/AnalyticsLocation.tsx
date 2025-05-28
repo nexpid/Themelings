@@ -774,6 +774,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['SEASONAL_GIFTING_REMINDER_COACHMARK'] = entity;
     entity = 'seasonal gifting reminder nagbar';
     michal['SEASONAL_GIFTING_REMINDER_NAGBAR'] = entity;
+    entity = 'gifting promotion coachmark';
+    michal['GIFTING_PROMOTION_COACHMARK'] = entity;
     entity = 'hd streaming potion modal';
     michal['HD_STREAMING_POTION_MODAL'] = entity;
     entity = 'confetti potion modal';

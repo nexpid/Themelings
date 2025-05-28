@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = undefined;
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.LISTEN;
+            michal = michal.QUESTION;
             if(!(michal !== oscard)) { _fun00002_ip = 446; continue _fun00001 }
  75:
             zuuluu = _closure1_slot0;
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = michal[golfie];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.WATCH;
+            michal = michal.EXCITED;
             if(!(michal !== oscard)) { _fun00002_ip = 396; continue _fun00001 }
  111:
             zuuluu = _closure1_slot0;
@@ -61,7 +61,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = michal[golfie];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.PLAY;
+            michal = michal.RECOMMEND;
             if(!(michal !== oscard)) { _fun00002_ip = 346; continue _fun00001 }
  147:
             zuuluu = _closure1_slot0;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = 4;
             michal = golfie[michal];
             michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.GameControllerIcon;
+            zuuluu = michal.SignPostIcon;
             michal = {};
             offset = michal;
             verify = report;
@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = 3;
             michal = golfie[michal];
             michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.TvIcon;
+            zuuluu = michal.StarShootingIcon;
             michal = {};
             offset = michal;
             verify = report;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = 2;
             entity = oscard[entity];
             entity = michal.bind(tangon)(entity);
-            michal = entity.MusicIcon;
+            michal = entity.CalendarIcon;
             entity = {};
             offset = entity;
             verify = report;

@@ -75,10 +75,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = result.isAndroid;
         result = sizing.bind(result)();
         sizing = 0;
-        if(!result) { _fun00002_ip = 316; continue _fun00001 }
- 313:
+        if(!result) { _fun00002_ip = 320; continue _fun00001 }
+ 317:
         sizing = yankee;
- 316:
+ 320:
         sizing = output - sizing;
         verify['paddingVertical'] = sizing;
         tangon['container'] = verify;
@@ -111,10 +111,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
         offset = 0;
-        if(!romeon) { _fun00002_ip = 502; continue _fun00001 }
- 499:
+        if(!romeon) { _fun00002_ip = 506; continue _fun00001 }
+ 503:
         offset = yankee;
- 502:
+ 506:
         verify['paddingBottom'] = offset;
         tangon['emojiButton'] = verify;
         tangon = golfie.bind(option)(tangon);

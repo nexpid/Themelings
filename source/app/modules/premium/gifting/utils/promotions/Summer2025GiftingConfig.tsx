@@ -1,12 +1,12 @@
-// app/modules/premium/gifting/utils/promotions/Valentines2025GiftingConfig.tsx
+// app/modules/premium/gifting/utils/promotions/Summer2025GiftingConfig.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
+    option = argBar;
     romeon = argBaz;
     zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
+    verify = argPlu;
+    var _closure1_slot0 = option;
     var _closure1_slot1 = romeon;
-    var _closure1_slot2 = option;
+    var _closure1_slot2 = verify;
     entity = global;
     report = entity.Object;
     tangon = report.defineProperty;
@@ -16,37 +16,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = '__esModule';
     entity = tangon.bind(report)(zuuluu, entity, michal);
     entity = 0;
-    michal = option[entity];
+    michal = verify[entity];
     entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    yankee = michal.SubscriptionPlans;
+    michal = option.bind(entity)(michal);
+    foxtra = michal.SubscriptionPlans;
     michal = 1;
-    michal = option[michal];
-    michal = golfie.bind(entity)(michal);
-    offset = michal.AnalyticsPages;
-    report = {'skuId': '1326347611069874277', 'assetId': 'a_89b499793e86bf459a8dd4f02ad416f4'};
-    backup = new Array(1);
-    backup[0] = report;
-    michal = {};
-    michal['rewards'] = backup;
-    tangon = 2;
-    oscard = option[tangon];
-    foxtra = golfie.bind(entity)(oscard);
-    oscard = foxtra.getRewardAssetIdMap;
-    oscard = oscard.bind(foxtra)(backup);
-    michal['rewardAssetIdMap'] = oscard;
-    michal['dismissibleContentVersion'] = tangon;
-    foxtra = yankee.PREMIUM_YEAR_TIER_2;
-    oscard = new Array(2);
-    oscard[0] = foxtra;
-    yankee = yankee.PREMIUM_MONTH_TIER_2;
-    oscard[1] = yankee;
-    michal['eligiblePlanIds'] = oscard;
+    michal = verify[michal];
+    michal = option.bind(entity)(michal);
+    yankee = michal.AnalyticsPages;
     oscard = {};
-    yankee = function() { // Original name: heading
+    michal = 2;
+    michal = verify[michal];
+    michal = option.bind(entity)(michal);
+    michal = michal.GiftingPromotionRewardSKUIds;
+    michal = michal.SUMMER_2025_GIFTING_REWARD_SKU_ID;
+    oscard['skuId'] = michal;
+    michal = 'a_f6d7905998db3f6f57671b4ea70fa272';
+    oscard['assetId'] = michal;
+    kiloes = new Array(1);
+    kiloes[0] = oscard;
+    tangon = {};
+    michal = ['rgba(218, 237, 137, 1)', 'rgba(121, 199, 223, 1)', 'rgba(177, 176, 234, 1)'];
+    tangon['gradient'] = michal;
+    var _closure1_slot3 = tangon;
+    michal = {};
+    michal['rewards'] = kiloes;
+    report = 3;
+    golfie = verify[report];
+    backup = option.bind(entity)(golfie);
+    golfie = backup.getRewardAssetIdMap;
+    golfie = golfie.bind(backup)(kiloes);
+    michal['rewardAssetIdMap'] = golfie;
+    michal['dismissibleContentVersion'] = report;
+    backup = foxtra.PREMIUM_YEAR_TIER_2;
+    golfie = new Array(2);
+    golfie[0] = backup;
+    foxtra = foxtra.PREMIUM_MONTH_TIER_2;
+    golfie[1] = foxtra;
+    michal['eligiblePlanIds'] = golfie;
+    golfie = {};
+    foxtra = function() { // Original name: heading
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -55,26 +67,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.PCmL09;
+        entity = entity.Q158XV;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['heading'] = yankee;
-    yankee = {};
-    foxtra = ['rgba(255, 144, 144, 1)', 'rgba(243, 14, 216, 1)'];
-    yankee['gradient'] = foxtra;
-    oscard['gradientConfig'] = yankee;
-    yankee = function() { // Original name: getImageUrl
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
-    };
-    oscard['getImageUrl'] = yankee;
-    yankee = function() { // Original name: getBackgroundImageUrl
+    golfie['heading'] = foxtra;
+    golfie['gradientConfig'] = tangon;
+    foxtra = function() { // Original name: getImageUrl
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 5;
@@ -83,12 +82,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    oscard['getBackgroundImageUrl'] = yankee;
-    michal['planSelection'] = oscard;
-    oscard = {};
-    yankee = {};
-    foxtra = function() { // Original name: getAnimationData
-        zuuluu = _closure1_slot0;
+    golfie['getImageUrl'] = foxtra;
+    foxtra = function() { // Original name: getBackgroundImageUrl
+        zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 6;
         michal = michal[entity];
@@ -96,9 +92,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    yankee['getAnimationData'] = foxtra;
-    foxtra = function() { // Original name: getGlowAnimationData
-        zuuluu = _closure1_slot0;
+    golfie['getBackgroundImageUrl'] = foxtra;
+    foxtra = function() { // Original name: getCardImageUrl
+        zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 7;
         michal = michal[entity];
@@ -106,11 +102,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    yankee['getGlowAnimationData'] = foxtra;
-    oscard['trinketsAnimation'] = yankee;
-    michal['chatGiftIcon'] = oscard;
-    oscard = {};
-    yankee = function(argFoo, argBar) { // Original name: getImageUrl
+    golfie['getCardImageUrl'] = foxtra;
+    michal['planSelection'] = golfie;
+    golfie = {};
+    foxtra = {};
+    backup = function() { // Original name: getAnimationData
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 8;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    foxtra['getAnimationData'] = backup;
+    backup = function() { // Original name: getGlowAnimationData
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 9;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    foxtra['getGlowAnimationData'] = backup;
+    golfie['trinketsAnimation'] = foxtra;
+    michal['chatGiftIcon'] = golfie;
+    golfie = {};
+    foxtra = function(argFoo, argBar) { // Original name: getImageUrl
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = _closure1_slot1;
@@ -118,11 +137,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             if(entity) { _fun00002_ip = 26; continue _fun00001 }
  17:
-            entity = 8;
+            entity = 10;
             michal = tangon[entity];
             _fun00002_ip = 33; continue _fun00001;
  26:
-            entity = 4;
+            entity = 5;
             michal = tangon[entity];
  33:
             entity = undefined;
@@ -130,11 +149,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    oscard['getImageUrl'] = yankee;
-    yankee = function() { // Original name: title
+    golfie['getImageUrl'] = foxtra;
+    foxtra = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -143,15 +162,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.hFzI4u;
+        entity = entity.PWaKU1;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['title'] = yankee;
-    yankee = function() { // Original name: description
+    golfie['title'] = foxtra;
+    foxtra = function() { // Original name: description
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -160,15 +179,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.B7R16u;
+        entity = entity.EWn7kZ;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['description'] = yankee;
-    yankee = function() { // Original name: cta
+    golfie['description'] = foxtra;
+    foxtra = function() { // Original name: cta
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -181,20 +200,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['cta'] = yankee;
-    yankee = 9;
-    yankee = option[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.VALENTINES_GIFTING_COACHMARK;
-    oscard['analyticsLocation'] = yankee;
-    offset = offset.PREMIUM_UPSELL_VALENTINES_GIFTING_CAMPAIGN;
-    oscard['analyticsPage'] = offset;
-    michal['firstTimeNotice'] = oscard;
-    oscard = {};
-    offset = function() { // Original name: desktopBannerText
+    golfie['cta'] = foxtra;
+    foxtra = 11;
+    foxtra = verify[foxtra];
+    foxtra = romeon.bind(entity)(foxtra);
+    foxtra = foxtra.GIFTING_PROMOTION_COACHMARK;
+    golfie['analyticsLocation'] = foxtra;
+    yankee = yankee.PREMUIM_UPSELL_GIFTING_PROMOTION;
+    golfie['analyticsPage'] = yankee;
+    michal['firstTimeNotice'] = golfie;
+    golfie = {};
+    yankee = function() { // Original name: desktopBannerText
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -203,15 +222,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.wxgA+v;
+        entity = entity.Q0VMqK;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['desktopBannerText'] = offset;
-    offset = function() { // Original name: mobileBannerText
+    golfie['desktopBannerText'] = yankee;
+    yankee = function() { // Original name: mobileBannerText
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -220,46 +239,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.d4uO8v;
+        entity = entity.VBnNJS;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['mobileBannerText'] = offset;
-    offset = function() { // Original name: getImageUrl
+    golfie['mobileBannerText'] = yankee;
+    yankee = function() { // Original name: getImageUrl
         entity = '';
         return entity;
     };
-    oscard['getImageUrl'] = offset;
-    offset = function() { // Original name: gradientConfig
-        entity = {};
-        michal = ['rgba(255, 144, 144, 1)', 'rgba(243, 14, 216, 1)'];
-        entity['gradient'] = michal;
+    golfie['getImageUrl'] = yankee;
+    yankee = function() { // Original name: gradientConfig
+        entity = _closure1_slot3;
         return entity;
     };
-    oscard['gradientConfig'] = offset;
-    michal['planSelectionBanner'] = oscard;
-    oscard = {};
-    offset = function() { // Original name: getAnimatedImageUrl
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 8;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
-    };
-    oscard['getAnimatedImageUrl'] = offset;
-    offset = function() { // Original name: getStaticImageUrl
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 4;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
-    };
-    oscard['getStaticImageUrl'] = offset;
-    offset = function() { // Original name: getBackgroundImageUrl
+    golfie['gradientConfig'] = yankee;
+    michal['planSelectionBanner'] = golfie;
+    golfie = {};
+    yankee = function() { // Original name: getAnimatedImageUrl
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 10;
@@ -268,11 +265,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    oscard['getBackgroundImageUrl'] = offset;
-    offset = function() { // Original name: title
+    golfie['getAnimatedImageUrl'] = yankee;
+    yankee = function() { // Original name: getStaticImageUrl
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 5;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    golfie['getStaticImageUrl'] = yankee;
+    yankee = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -281,15 +288,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.hFzI4u;
+        entity = entity.ydPofH;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['title'] = offset;
-    offset = function() { // Original name: body
+    golfie['title'] = yankee;
+    yankee = function() { // Original name: body
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -298,32 +305,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.rbWKaW;
+        entity = entity.iI74ho;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['body'] = offset;
-    offset = {};
-    yankee = ['rgba(221, 98, 98, 1), rgba(171, 12, 152, 1)'];
-    offset['gradient'] = yankee;
-    oscard['gradientConfig'] = offset;
-    michal['billingSettingsMarketingBanner'] = oscard;
-    oscard = {};
-    offset = 3;
-    yankee = option[offset];
-    yankee = golfie.bind(entity)(yankee);
+    golfie['body'] = yankee;
+    yankee = function() { // Original name: additionalTerm
+        report = _closure1_slot0;
+        oscard = _closure1_slot2;
+        entity = 4;
+        michal = oscard[entity];
+        tangon = undefined;
+        michal = report.bind(tangon)(michal);
+        zuuluu = michal.intl;
+        michal = zuuluu.string;
+        entity = oscard[entity];
+        entity = report.bind(tangon)(entity);
+        entity = entity.t;
+        entity = entity.lapGDw;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    golfie['additionalTerm'] = yankee;
+    golfie['gradientConfig'] = tangon;
+    yankee = 12;
+    yankee = verify[yankee];
+    yankee = romeon.bind(entity)(yankee);
+    yankee = yankee.NEUTRAL_71;
+    golfie['textColor'] = yankee;
+    michal['billingSettingsMarketingBanner'] = golfie;
+    golfie = {};
+    yankee = 4;
+    romeon = verify[yankee];
+    romeon = option.bind(entity)(romeon);
+    romeon = romeon.t;
+    romeon = romeon.xFKdb2;
+    golfie['yearGiftText'] = romeon;
+    yankee = verify[yankee];
+    yankee = option.bind(entity)(yankee);
     yankee = yankee.t;
-    yankee = yankee.p0pZXF;
-    oscard['yearGiftText'] = yankee;
-    offset = option[offset];
-    offset = golfie.bind(entity)(offset);
-    offset = offset.t;
-    offset = offset.4ZJ+7e;
-    oscard['monthGiftText'] = offset;
-    offset = function() { // Original name: collectRewardButtonText
+    yankee = yankee.GnL3Gh;
+    golfie['monthGiftText'] = yankee;
+    yankee = function() { // Original name: collectRewardButtonText
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -336,11 +362,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['collectRewardButtonText'] = offset;
-    verify = function() { // Original name: rewardCollectedText
+    golfie['collectRewardButtonText'] = yankee;
+    offset = function() { // Original name: rewardCollectedText
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 3;
+        entity = 4;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -353,16 +379,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    oscard['rewardCollectedText'] = verify;
-    michal['giftPurchaseConfirmation'] = oscard;
-    oscard = 11;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/premium/gifting/utils/promotions/Valentines2025GiftingConfig.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['HEARTS'] = report;
-    zuuluu['VALENTINES_2025_GIFTING_PROMOTION_VERSION'] = tangon;
-    zuuluu['VALENTINES_2025_GIFTING_CONFIG'] = michal;
+    golfie['rewardCollectedText'] = offset;
+    michal['giftPurchaseConfirmation'] = golfie;
+    golfie = 13;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/premium/gifting/utils/promotions/Summer2025GiftingConfig.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['FRESHLY_PICKED'] = oscard;
+    zuuluu['SUMMER_2025_GIFTING_PROMOTION_VERSION'] = report;
+    zuuluu['GRADIENT'] = tangon;
+    zuuluu['SUMMER_2025_GIFTING_CONFIG'] = michal;
     return entity;
 })();

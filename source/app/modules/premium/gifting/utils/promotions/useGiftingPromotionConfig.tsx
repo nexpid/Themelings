@@ -25,14 +25,14 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/premium/gifting/utils/promotions/useGiftingPromotionConfig.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: useGiftingPromotionConfig
+    michal = function() { // Original name: useGiftingPromotionConfig
         report = _closure1_slot0;
         tangon = _closure1_slot1;
         zuuluu = 1;
         tangon = tangon[zuuluu];
         zuuluu = undefined;
         tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useIsValentinesGiftingActive;
+        zuuluu = tangon.useIsSummer2025GiftingActive;
         report = zuuluu.bind(tangon)();
         var _closure2_slot0 = report;
         tangon = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
                 zuuluu = zuuluu[michal];
                 michal = undefined;
                 michal = tangon.bind(michal)(zuuluu);
-                entity = michal.VALENTINES_2025_GIFTING_CONFIG;
+                entity = michal.SUMMER_2025_GIFTING_CONFIG;
  43:
                 return entity;
             }
@@ -60,43 +60,6 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['default'] = tangon;
-    michal = function() { // Original name: useGiftingPromotionFirstTimeCoachmark
-        report = _closure1_slot0;
-        tangon = _closure1_slot1;
-        zuuluu = 1;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
-        zuuluu = tangon.useIsValentinesCoachmarkEnabled;
-        report = zuuluu.bind(tangon)();
-        var _closure2_slot0 = report;
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useMemo;
-        michal = new Array(1);
-        michal[0] = report;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                michal = _closure2_slot0;
-                tangon = undefined;
-                entity = undefined;
-                if(!michal) { _fun00004_ip = 49; continue _fun00003 }
- 14:
-                zuuluu = _closure1_slot0;
-                report = _closure1_slot1;
-                michal = 2;
-                michal = report[michal];
-                michal = zuuluu.bind(tangon)(michal);
-                michal = michal.VALENTINES_2025_GIFTING_CONFIG;
-                entity = michal.firstTimeNotice;
- 49:
-                return entity;
-            }
-        };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
-    };
-    zuuluu['useGiftingPromotionFirstTimeCoachmark'] = michal;
+    zuuluu['default'] = michal;
     return entity;
 })();

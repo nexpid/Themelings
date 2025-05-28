@@ -174,8 +174,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(6);
+        entity = new Array(7);
         entity[0] = report;
+        report = {};
+        golfie = 'isAppFocused';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            michal = this;
+            entity = michal.getFocusedWindowId;
+            michal = entity.bind(michal)();
+            entity = null;
+            entity = entity != michal;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[1] = report;
         report = {};
         golfie = 'isVisible';
         report['key'] = golfie;
@@ -201,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[1] = report;
+        entity[2] = report;
         report = {};
         golfie = 'getFocusedWindowId';
         report['key'] = golfie;
@@ -229,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[2] = report;
+        entity[3] = report;
         report = {};
         golfie = 'getLastFocusedWindowId';
         report['key'] = golfie;
@@ -238,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[3] = report;
+        entity[4] = report;
         report = {};
         golfie = 'isElementFullScreen';
         report['key'] = golfie;
@@ -264,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[5] = report;
         report = {};
         golfie = 'windowSize';
         report['key'] = golfie;
@@ -290,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[5] = report;
+        entity[6] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

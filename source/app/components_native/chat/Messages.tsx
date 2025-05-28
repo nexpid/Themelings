@@ -3721,18 +3721,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = argBar;
                 entity = golfie.bind(oscard)(michal, entity);
                 entity = !entity;
-                if(entity) { _fun00080_ip = 142; continue _fun00079 }
+                if(entity) { _fun00080_ip = 154; continue _fun00079 }
  51:
                 golfie = _closure1_slot1;
                 michal = _closure1_slot2;
                 michal = michal[option];
-                verify = golfie.bind(oscard)(michal);
-                golfie = tangon.props;
-                michal = ['interactionStates'];
-                michal = verify.bind(oscard)(golfie, zuuluu, michal);
+                offset = golfie.bind(oscard)(michal);
+                backup = tangon.props;
+                golfie = {};
+                michal = false;
+                golfie['shouldWarnLargeObjects'] = michal;
+                romeon = ['interactionStates'];
+                kiloes = undefined;
+                foxtra = zuuluu;
+                yankee = golfie;
+                michal = kiloes[offset](backup, foxtra, romeon, yankee, offset);
                 michal = !michal;
-                if(michal) { _fun00080_ip = 139; continue _fun00079 }
- 96:
+                if(michal) { _fun00080_ip = 151; continue _fun00079 }
+ 108:
                 golfie = _closure1_slot1;
                 report = _closure1_slot2;
                 report = report[option];
@@ -3742,9 +3748,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.interactionStates;
                 zuuluu = report.bind(oscard)(tangon, zuuluu);
                 michal = !zuuluu;
- 139:
+ 151:
                 entity = michal;
- 142:
+ 154:
                 return entity;
             }
         };

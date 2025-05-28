@@ -4207,39 +4207,51 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = zuuluu.inputDeviceId;
             oscard = _closure1_slot17;
             tangon = oscard.hasEchoCancellation;
-            offset = tangon.bind(oscard)(golfie);
-            if(offset) { _fun00102_ip = 58; continue _fun00101 }
+            yankee = tangon.bind(oscard)(golfie);
+            if(yankee) { _fun00102_ip = 58; continue _fun00101 }
  52:
-            offset = zuuluu.echoCancellation;
+            yankee = zuuluu.echoCancellation;
  58:
             oscard = _closure1_slot17;
             tangon = oscard.hasNoiseSuppression;
-            verify = tangon.bind(oscard)(golfie);
-            if(verify) { _fun00102_ip = 82; continue _fun00101 }
+            offset = tangon.bind(oscard)(golfie);
+            if(offset) { _fun00102_ip = 82; continue _fun00101 }
  76:
-            verify = zuuluu.noiseSuppression;
+            offset = zuuluu.noiseSuppression;
  82:
             oscard = _closure1_slot17;
             tangon = oscard.hasAutomaticGainControl;
-            option = tangon.bind(oscard)(golfie);
-            if(option) { _fun00102_ip = 106; continue _fun00101 }
+            verify = tangon.bind(oscard)(golfie);
+            if(verify) { _fun00102_ip = 106; continue _fun00101 }
  100:
-            option = zuuluu.automaticGainControl;
+            verify = zuuluu.automaticGainControl;
  106:
-            oscard = zuuluu.noiseCancellation;
-            golfie = _closure1_slot100;
+            golfie = zuuluu.noiseCancellation;
+            option = _closure1_slot100;
+            oscard = _closure1_slot110;
+            tangon = oscard.has;
+            zuuluu = 'voice_filter';
+            oscard = tangon.bind(oscard)(zuuluu);
+            if(!oscard) { _fun00102_ip = 155; continue _fun00101 }
+ 139:
+            zuuluu = _closure1_slot110;
+            tangon = zuuluu.size;
+            zuuluu = 1;
+            oscard = zuuluu === tangon;
+ 155:
             tangon = _closure1_slot68;
             zuuluu = tangon.setLoopback;
             michal = {};
-            michal['echoCancellation'] = offset;
-            offset = !report;
-            michal['echoCancellationPreEcho'] = offset;
-            michal['noiseSuppression'] = verify;
-            michal['automaticGainControl'] = option;
-            michal['noiseCancellation'] = oscard;
-            oscard = null;
-            oscard = oscard !== golfie;
-            michal['voiceFilters'] = oscard;
+            michal['echoCancellation'] = yankee;
+            yankee = !report;
+            michal['echoCancellationPreEcho'] = yankee;
+            michal['noiseSuppression'] = offset;
+            michal['automaticGainControl'] = verify;
+            michal['noiseCancellation'] = golfie;
+            golfie = null;
+            golfie = golfie !== option;
+            michal['voiceFilters'] = golfie;
+            michal['loopbackUseAudioMode'] = oscard;
             michal = zuuluu.bind(tangon)(report, michal);
             return entity;
         }
@@ -8557,34 +8569,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
             michal = argFoo;
             entity = michal.enabled;
-            oscard = michal.loopbackReason;
-            michal = _closure1_slot110;
-            michal = michal.size;
-            report = 0;
-            tangon = michal > report;
-            michal = _closure1_slot110;
-            if(entity) { _fun00228_ip = 51; continue _fun00227 }
- 39:
-            entity = michal.delete;
-            entity = entity.bind(michal)(oscard);
-            _fun00228_ip = 61; continue _fun00227;
- 51:
-            entity = michal.add;
-            entity = entity.bind(michal)(oscard);
- 61:
-            entity = _closure1_slot152;
-            michal = undefined;
-            entity = entity.bind(michal)();
-            entity = _closure1_slot110;
-            entity = entity.size;
-            entity = entity > report;
-            entity = entity !== tangon;
-            if(!entity) { _fun00228_ip = 101; continue _fun00227 }
- 91:
-            zuuluu = _closure1_slot153;
-            zuuluu = zuuluu.bind(michal)();
+            tangon = michal.loopbackReason;
+            zuuluu = _closure1_slot110;
+            if(entity) { _fun00228_ip = 36; continue _fun00227 }
+ 24:
+            entity = zuuluu.delete;
+            entity = entity.bind(zuuluu)(tangon);
+            _fun00228_ip = 46; continue _fun00227;
+ 36:
+            entity = zuuluu.add;
+            entity = entity.bind(zuuluu)(tangon);
+ 46:
+            zuuluu = _closure1_slot152;
             entity = undefined;
- 101:
+            zuuluu = zuuluu.bind(entity)();
+            michal = _closure1_slot153;
+            michal = michal.bind(entity)();
             return entity;
         }
     };
@@ -8883,13 +8883,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = michal.enabled;
             _closure1_slot74 = zuuluu;
             michal = michal.unmute;
-            if(!michal) { _fun00232_ip = 49; continue _fun00231 }
+            if(!michal) { _fun00232_ip = 45; continue _fun00231 }
  24:
             tangon = _closure1_slot138;
             zuuluu = undefined;
             michal = {'mute': false, 'deaf': false};
             michal = tangon.bind(zuuluu)(michal);
- 49:
+ 45:
             zuuluu = _closure1_slot68;
             michal = zuuluu.eachConnection;
             entity = _closure1_slot127;

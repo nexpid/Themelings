@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = undefined;
             michal = oscard.bind(zuuluu)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.LISTEN;
+            michal = michal.QUESTION;
             if(!(michal !== report)) { _fun00002_ip = 318; continue _fun00001 }
  52:
             oscard = _closure1_slot0;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = michal[tangon];
             michal = oscard.bind(zuuluu)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.WATCH;
+            michal = michal.EXCITED;
             if(!(michal !== report)) { _fun00002_ip = 287; continue _fun00001 }
  88:
             oscard = _closure1_slot0;
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = michal[tangon];
             michal = oscard.bind(zuuluu)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.PLAY;
+            michal = michal.RECOMMEND;
             if(!(michal !== report)) { _fun00002_ip = 256; continue _fun00001 }
  124:
             oscard = _closure1_slot0;
@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = michal[tangon];
             michal = report.bind(zuuluu)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.PLAY;
+            michal = michal.RECOMMEND;
             return michal;
  287:
             report = _closure1_slot0;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = michal[tangon];
             michal = report.bind(zuuluu)(michal);
             michal = michal.CustomStatusLabel;
-            michal = michal.WATCH;
+            michal = michal.EXCITED;
             return michal;
  318:
             michal = _closure1_slot0;
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = entity[tangon];
             entity = michal.bind(zuuluu)(entity);
             entity = entity.CustomStatusLabel;
-            entity = entity.LISTEN;
+            entity = entity.QUESTION;
             return entity;
         }
     };

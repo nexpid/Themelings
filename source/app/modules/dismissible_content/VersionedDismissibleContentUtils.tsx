@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = 4;
             zuuluu = report[zuuluu];
             zuuluu = tangon.bind(michal)(zuuluu);
-            zuuluu = zuuluu.VALENTINES_2025_GIFTING_PROMOTION_VERSION;
+            zuuluu = zuuluu.SUMMER_2025_GIFTING_PROMOTION_VERSION;
             return zuuluu;
  340:
             tangon = _closure1_slot2;

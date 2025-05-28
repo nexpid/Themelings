@@ -132,11 +132,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  120:
                 entity = tangon.bind(report)(oscard, entity);
                 var _closure3_slot0 = entity;
-                tangon = true;
-                entity['focusedOrForegrounded'] = tangon;
                 tangon = _closure1_slot0;
                 oscard = _closure1_slot2;
                 zuuluu = 6;
+                zuuluu = oscard[zuuluu];
+                golfie = tangon.bind(report)(zuuluu);
+                zuuluu = golfie.isForegrounded;
+                zuuluu = zuuluu.bind(golfie)();
+                entity['focusedOrForegrounded'] = zuuluu;
+                zuuluu = 7;
                 zuuluu = oscard[zuuluu];
                 zuuluu = tangon.bind(report)(zuuluu);
                 zuuluu = zuuluu.Interval;
@@ -164,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = tangon.start;
                         oscard = _closure1_slot1;
                         report = _closure1_slot2;
-                        michal = 7;
+                        michal = 8;
                         report = report[michal];
                         michal = undefined;
                         michal = oscard.bind(michal)(report);
@@ -192,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['schedulerStarted'] = entity;
                         tangon = _closure1_slot1;
                         zuuluu = _closure1_slot2;
-                        entity = 8;
+                        entity = 9;
                         zuuluu = zuuluu[entity];
                         entity = undefined;
                         tangon = tangon.bind(entity)(zuuluu);
@@ -224,7 +228,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  30:
                         tangon = _closure1_slot1;
                         report = _closure1_slot2;
-                        zuuluu = 8;
+                        zuuluu = 9;
                         zuuluu = report[zuuluu];
                         report = tangon.bind(entity)(zuuluu);
                         tangon = report.addBreadcrumb;
@@ -239,13 +243,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  102:
                         tangon = _closure1_slot0;
                         report = _closure1_slot2;
-                        zuuluu = 9;
+                        zuuluu = 10;
                         zuuluu = report[zuuluu];
                         tangon = tangon.bind(entity)(zuuluu);
                         zuuluu = tangon.getOrRefreshAdSession;
                         oscard = zuuluu.bind(tangon)();
                         tangon = _closure1_slot1;
-                        zuuluu = 10;
+                        zuuluu = 11;
                         zuuluu = report[zuuluu];
                         report = tangon.bind(entity)(zuuluu);
                         tangon = report.track;
@@ -282,13 +286,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon['schedulerStarted'] = zuuluu;
                         report = _closure1_slot0;
                         oscard = _closure1_slot2;
-                        tangon = 9;
+                        tangon = 10;
                         tangon = oscard[tangon];
                         report = report.bind(entity)(tangon);
                         tangon = report.getCurrentAdSession;
                         offset = tangon.bind(report)();
                         report = _closure1_slot1;
-                        tangon = 10;
+                        tangon = 11;
                         tangon = oscard[tangon];
                         golfie = report.bind(entity)(tangon);
                         oscard = golfie.track;
@@ -316,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = oscard.bind(golfie)(report, tangon);
                         tangon = _closure1_slot1;
                         report = _closure1_slot2;
-                        zuuluu = 8;
+                        zuuluu = 9;
                         zuuluu = report[zuuluu];
                         report = tangon.bind(entity)(zuuluu);
                         tangon = report.addBreadcrumb;
@@ -367,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         CatchBlockStart(arg_register=3);
                         zuuluu = _closure1_slot1;
                         report = _closure1_slot2;
-                        michal = 8;
+                        michal = 9;
                         michal = report[michal];
                         zuuluu = zuuluu.bind(entity)(michal);
                         michal = zuuluu.captureException;
@@ -396,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 9;
+                    entity = 10;
                     michal = michal[entity];
                     entity = undefined;
                     zuuluu = zuuluu.bind(entity)(michal);
@@ -408,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = function() {
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 9;
+                    entity = 10;
                     michal = michal[entity];
                     entity = undefined;
                     tangon = zuuluu.bind(entity)(michal);
@@ -463,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = this;
             oscard = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 11;
+            entity = 6;
             tangon = report[entity];
             entity = undefined;
             oscard = oscard.bind(entity)(tangon);

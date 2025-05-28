@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['updateMobilePendingThemeIndex'] = tangon;
-    tangon = function() {
+    michal = function() {
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 0;
@@ -67,51 +67,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['resetBackgroundGradientPreset'] = tangon;
-    tangon = function() {
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'CLIENT_THEMES_EDITOR_OPEN';
-        michal['type'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['openClientThemeEditor'] = tangon;
-    tangon = function() {
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'CLIENT_THEMES_EDITOR_CLOSE';
-        michal['type'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['closeClientThemeEditor'] = tangon;
-    michal = function() {
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'RESET_PREVIEW_CLIENT_THEME';
-        michal['type'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['resetPreviewClientTheme'] = michal;
+    zuuluu['resetBackgroundGradientPreset'] = michal;
     return entity;
 })();

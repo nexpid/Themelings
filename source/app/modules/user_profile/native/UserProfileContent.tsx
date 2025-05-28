@@ -823,7 +823,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity[michal];
             michal = zuuluu.bind(report)(michal);
             michal = michal.bind(report)();
-            target = michal.bottom;
+            variable42 = michal.bottom;
             zuuluu = _closure1_slot0;
             michal = 11;
             entity = entity[michal];
@@ -847,7 +847,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = output.id;
  229:
             zuuluu = result.id;
-            sequen = tangon === zuuluu;
+            config = tangon === zuuluu;
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = oscard[michal];
@@ -956,7 +956,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon[oscard];
             verify = zuuluu.bind(report)(oscard);
             oscard = result.id;
-            cntext = verify.bind(report)(oscard);
+            target = verify.bind(report)(oscard);
             michal = tangon[michal];
             foxtra = option.bind(report)(michal);
             verify = foxtra.useStateFromStoresObject;
@@ -972,7 +972,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(foxtra)(oscard, michal);
             source = michal.pendingBanner;
             vacuum = michal.pendingAvatar;
-            variable42 = michal.pendingAvatarDecoration;
+            variable47 = michal.pendingAvatarDecoration;
             variable46 = michal.pendingGlobalName;
             variable45 = michal.pendingPronouns;
             quebec = michal.pendingBio;
@@ -984,10 +984,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.bind(report)(michal);
             option = verify.getPendingAvatarSrc;
             michal = {};
-            config = result.id;
-            michal['userId'] = config;
+            sequen = result.id;
+            michal['userId'] = sequen;
             michal['image'] = vacuum;
-            variable47 = option.bind(verify)(michal);
+            variable48 = option.bind(verify)(michal);
             michal = 28;
             michal = tangon[michal];
             michal = zuuluu.bind(report)(michal);
@@ -1005,31 +1005,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  705:
             michal['pendingThemeColors'] = tangon;
             michal = zuuluu.bind(report)(michal);
-            oscard = michal.theme;
-            config = michal.primaryColor;
+            verify = michal.theme;
+            record = michal.primaryColor;
             vacuum = michal.secondaryColor;
-            variable37 = entity != config;
+            variable37 = entity != record;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
             michal = 48;
             michal = tangon[michal];
-            tangon = zuuluu.bind(report)(michal);
-            zuuluu = tangon.useUserProfileColors;
+            option = zuuluu.bind(report)(michal);
+            oscard = option.useUserProfileColors;
             michal = {};
-            michal['theme'] = oscard;
-            michal['primaryColor'] = config;
+            michal['theme'] = verify;
+            michal['primaryColor'] = record;
             michal['secondaryColor'] = vacuum;
-            michal = zuuluu.bind(tangon)(michal);
-            record = michal.gradientFallbackBackground;
-            variable48 = michal.avatarBackground;
+            michal = oscard.bind(option)(michal);
+            cntext = michal.gradientFallbackBackground;
+            variable49 = michal.avatarBackground;
             sierra = michal.containerBackground;
+            michal = 15;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(report)(michal);
+            zuuluu = tangon.useIsEligibleForCustomStatusLabelsExperiment;
+            michal = {};
+            oscard = 'UserProfileContent';
+            michal['location'] = oscard;
+            sequen = zuuluu.bind(tangon)(michal);
             zuuluu = _closure1_slot3;
             michal = zuuluu.useRef;
             papara = michal.bind(zuuluu)(entity);
-            if(!(entity != result)) { _fun00010_ip = 2737; continue _fun00009 }
- 822:
-            if(!(entity != output)) { _fun00010_ip = 2737; continue _fun00009 }
- 829:
+            if(!(entity != result)) { _fun00010_ip = 2778; continue _fun00009 }
+ 857:
+            if(!(entity != output)) { _fun00010_ip = 2778; continue _fun00009 }
+ 864:
             whisks = {};
             whisks['backgroundColor'] = sierra;
             _closure2_slot6 = whisks;
@@ -1038,45 +1046,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             verify = _closure1_slot13;
             option = _closure1_slot1;
-            variable49 = _closure1_slot2;
+            variable50 = _closure1_slot2;
             oscard = 49;
-            oscard = variable49[oscard];
+            oscard = variable50[oscard];
             option = option.bind(report)(oscard);
             oscard = {};
             oscard['user'] = result;
             oscard['displayProfile'] = sizing;
             oscard['bannerHeight'] = offset;
             offset = undefined;
-            if(!golfie) { _fun00010_ip = 897; continue _fun00009 }
- 894:
+            if(!golfie) { _fun00010_ip = 932; continue _fun00009 }
+ 929:
             offset = source;
- 897:
+ 932:
             oscard['pendingBanner'] = offset;
             offset = undefined;
-            if(!golfie) { _fun00010_ip = 910; continue _fun00009 }
- 907:
-            offset = variable47;
- 910:
+            if(!golfie) { _fun00010_ip = 945; continue _fun00009 }
+ 942:
+            offset = variable48;
+ 945:
             oscard['pendingAvatarSrc'] = offset;
             offset = undefined;
-            if(!golfie) { _fun00010_ip = 932; continue _fun00009 }
- 920:
+            if(!golfie) { _fun00010_ip = 967; continue _fun00009 }
+ 955:
             source = entity != update;
             offset = undefined;
-            if(!source) { _fun00010_ip = 932; continue _fun00009 }
- 929:
+            if(!source) { _fun00010_ip = 967; continue _fun00009 }
+ 964:
             offset = update;
- 932:
+ 967:
             oscard['pendingAccentColor'] = offset;
             offset = undefined;
-            if(!golfie) { _fun00010_ip = 954; continue _fun00009 }
- 942:
+            if(!golfie) { _fun00010_ip = 989; continue _fun00009 }
+ 977:
             update = entity != foxtra;
             offset = undefined;
-            if(!update) { _fun00010_ip = 954; continue _fun00009 }
- 951:
+            if(!update) { _fun00010_ip = 989; continue _fun00009 }
+ 986:
             offset = foxtra;
- 954:
+ 989:
             oscard['pendingThemeColors'] = offset;
             oscard['disableInteraction'] = golfie;
             option = verify.bind(report)(option, oscard);
@@ -1087,87 +1095,91 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             source = _closure1_slot13;
             update = _closure1_slot1;
-            variable49 = _closure1_slot2;
+            variable50 = _closure1_slot2;
             foxtra = 50;
-            foxtra = variable49[foxtra];
+            foxtra = variable50[foxtra];
             update = update.bind(report)(foxtra);
             foxtra = {};
-            foxtra['backgroundColor'] = variable48;
+            foxtra['backgroundColor'] = variable49;
             foxtra['user'] = result;
             foxtra['guildId'] = equals;
             foxtra['disableStatus'] = ctrled;
             ctrled = undefined;
-            if(!golfie) { _fun00010_ip = 1039; continue _fun00009 }
- 1036:
-            ctrled = variable47;
- 1039:
+            if(!golfie) { _fun00010_ip = 1074; continue _fun00009 }
+ 1071:
+            ctrled = variable48;
+ 1074:
             foxtra['pendingAvatarSrc'] = ctrled;
             ctrled = undefined;
-            if(!golfie) { _fun00010_ip = 1052; continue _fun00009 }
- 1049:
-            ctrled = variable42;
- 1052:
+            if(!golfie) { _fun00010_ip = 1087; continue _fun00009 }
+ 1084:
+            ctrled = variable47;
+ 1087:
             foxtra['pendingAvatarDecoration'] = ctrled;
             update = source.bind(report)(update, foxtra);
             foxtra = new Array(2);
             foxtra[0] = update;
             ctrled = _closure1_slot14;
             source = _closure1_slot1;
-            variable42 = _closure1_slot2;
+            variable47 = _closure1_slot2;
             update = 51;
-            update = variable42[update];
+            update = variable47[update];
             source = source.bind(report)(update);
             update = {};
-            update['fallbackBackground'] = record;
-            update['primaryColor'] = config;
+            update['fallbackBackground'] = cntext;
+            update['primaryColor'] = record;
             update['secondaryColor'] = vacuum;
-            config = yankee.profileContent;
+            record = yankee.profileContent;
             vacuum = new Array(2);
-            vacuum[0] = config;
-            config = {};
-            if(!sequen) { _fun00010_ip = 1136; continue _fun00009 }
- 1131:
-            record = 0;
-            if(!golfie) { _fun00010_ip = 1149; continue _fun00009 }
- 1136:
-            variable42 = entity != cntext;
-            record = 0;
-            if(variable42) { _fun00010_ip = 1149; continue _fun00009 }
- 1145:
-            record = _closure1_slot10;
- 1149:
-            config['paddingTop'] = record;
-            record = _closure1_slot9;
-            record = target + record;
-            config['paddingBottom'] = record;
-            vacuum[1] = config;
+            vacuum[0] = record;
+            record = {};
+            if(!config) { _fun00010_ip = 1171; continue _fun00009 }
+ 1166:
+            cntext = 0;
+            if(!golfie) { _fun00010_ip = 1184; continue _fun00009 }
+ 1171:
+            variable47 = entity != target;
+            cntext = 0;
+            if(variable47) { _fun00010_ip = 1184; continue _fun00009 }
+ 1180:
+            cntext = _closure1_slot10;
+ 1184:
+            record['paddingTop'] = cntext;
+            cntext = _closure1_slot9;
+            cntext = variable42 + cntext;
+            record['paddingBottom'] = cntext;
+            vacuum[1] = record;
             update['containerStyle'] = vacuum;
-            record = _closure1_slot13;
-            config = _closure1_slot16;
+            cntext = _closure1_slot13;
+            record = _closure1_slot16;
             vacuum = {};
-            vacuum['customStatusActivity'] = cntext;
+            vacuum['customStatusActivity'] = target;
             vacuum['user'] = result;
             vacuum['guildId'] = equals;
-            target = entity == kiloes;
-            cntext = undefined;
-            if(target) { _fun00010_ip = 1213; continue _fun00009 }
- 1208:
-            cntext = kiloes.id;
- 1213:
-            vacuum['channelId'] = cntext;
+            variable42 = entity == kiloes;
+            target = undefined;
+            if(variable42) { _fun00010_ip = 1248; continue _fun00009 }
+ 1243:
+            target = kiloes.id;
+ 1248:
+            vacuum['channelId'] = target;
             vacuum['hasCustomProfileTheme'] = variable37;
             vacuum['showUserProfileActionSheet'] = limora;
             vacuum['isPreviewingChanges'] = golfie;
             vacuum['bubbleRef'] = papara;
-            config = record.bind(report)(config, vacuum);
+            record = cntext.bind(report)(record, vacuum);
             vacuum = new Array(4);
-            vacuum[0] = config;
-            if(!sequen) { _fun00010_ip = 1257; continue _fun00009 }
- 1254:
+            vacuum[0] = record;
+            if(!sequen) { _fun00010_ip = 1292; continue _fun00009 }
+ 1289:
+            sequen = config;
+ 1292:
+            if(!sequen) { _fun00010_ip = 1298; continue _fun00009 }
+ 1295:
             sequen = !golfie;
- 1257:
-            if(!sequen) { _fun00010_ip = 1297; continue _fun00009 }
- 1260:
+ 1298:
+            if(!sequen) { _fun00010_ip = 1338; continue _fun00009 }
+ 1301:
             cntext = _closure1_slot13;
             record = _closure1_slot1;
             target = _closure1_slot2;
@@ -1177,7 +1189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = {};
             config['targetRef'] = papara;
             sequen = cntext.bind(report)(record, config);
- 1297:
+ 1338:
             vacuum[1] = sequen;
             record = _closure1_slot14;
             config = _closure1_slot4;
@@ -1190,29 +1202,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext['user'] = result;
             variable47 = entity == kiloes;
             variable42 = undefined;
-            if(variable47) { _fun00010_ip = 1349; continue _fun00009 }
- 1344:
+            if(variable47) { _fun00010_ip = 1390; continue _fun00009 }
+ 1385:
             variable42 = kiloes.id;
- 1349:
+ 1390:
             cntext['channelId'] = variable42;
             cntext['displayProfile'] = sizing;
             variable42 = undefined;
-            if(!golfie) { _fun00010_ip = 1366; continue _fun00009 }
- 1363:
+            if(!golfie) { _fun00010_ip = 1407; continue _fun00009 }
+ 1404:
             variable42 = variable46;
- 1366:
+ 1407:
             cntext['displayNameOverride'] = variable42;
             variable42 = undefined;
-            if(!golfie) { _fun00010_ip = 1379; continue _fun00009 }
- 1376:
+            if(!golfie) { _fun00010_ip = 1420; continue _fun00009 }
+ 1417:
             variable42 = variable45;
- 1379:
+ 1420:
             cntext['pronounsOverride'] = variable42;
             variable42 = undefined;
-            if(!golfie) { _fun00010_ip = 1392; continue _fun00009 }
- 1389:
+            if(!golfie) { _fun00010_ip = 1433; continue _fun00009 }
+ 1430:
             variable42 = variable44;
- 1392:
+ 1433:
             cntext['badgesOverride'] = variable42;
             cntext['badgeContainerBackground'] = sierra;
             cntext['isPreviewingChanges'] = golfie;
@@ -1222,8 +1234,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = result.id;
             papara = output.id;
             papara = target !== papara;
-            if(!papara) { _fun00010_ip = 1478; continue _fun00009 }
- 1438:
+            if(!papara) { _fun00010_ip = 1519; continue _fun00009 }
+ 1479:
             variable42 = _closure1_slot13;
             sierra = _closure1_slot1;
             variable44 = _closure1_slot2;
@@ -1234,13 +1246,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['user'] = result;
             target['guildId'] = equals;
             papara = variable42.bind(report)(sierra, target);
- 1478:
+ 1519:
             cntext[1] = papara;
             papara = _closure1_slot11;
             papara = papara.PENDING_INCOMING;
             papara = echoed === papara;
-            if(!papara) { _fun00010_ip = 1570; continue _fun00009 }
- 1499:
+            if(!papara) { _fun00010_ip = 1611; continue _fun00009 }
+ 1540:
             variable42 = _closure1_slot13;
             sierra = _closure1_slot1;
             variable44 = _closure1_slot2;
@@ -1251,17 +1263,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['user'] = result;
             variable45 = entity == kiloes;
             variable44 = undefined;
-            if(variable45) { _fun00010_ip = 1543; continue _fun00009 }
- 1538:
+            if(variable45) { _fun00010_ip = 1584; continue _fun00009 }
+ 1579:
             variable44 = kiloes.id;
- 1543:
+ 1584:
             target['channelId'] = variable44;
             target['guildId'] = equals;
             target['applicationId'] = variable43;
             target['style'] = whisks;
             target['showUserProfile'] = limora;
             papara = variable42.bind(report)(sierra, target);
- 1570:
+ 1611:
             cntext[2] = papara;
             target = status.map;
             papara = function(argFoo) {
@@ -1319,24 +1331,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = result.id;
             papara = output.id;
             papara = target === papara;
-            if(!papara) { _fun00010_ip = 1659; continue _fun00009 }
- 1656:
+            if(!papara) { _fun00010_ip = 1700; continue _fun00009 }
+ 1697:
             papara = !golfie;
- 1659:
-            if(!papara) { _fun00010_ip = 1682; continue _fun00009 }
- 1662:
+ 1700:
+            if(!papara) { _fun00010_ip = 1723; continue _fun00009 }
+ 1703:
             sierra = _closure1_slot13;
             status = _closure1_slot20;
             target = {};
             target['guildId'] = equals;
             papara = sierra.bind(report)(status, target);
- 1682:
+ 1723:
             cntext[5] = papara;
             target = result.id;
             papara = output.id;
             papara = target !== papara;
-            if(!papara) { _fun00010_ip = 1794; continue _fun00009 }
- 1703:
+            if(!papara) { _fun00010_ip = 1835; continue _fun00009 }
+ 1744:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
             variable42 = _closure1_slot2;
@@ -1345,16 +1357,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = status.bind(report)(target);
             target = {};
             target['user'] = result;
-            if(variable41) { _fun00010_ip = 1750; continue _fun00009 }
- 1736:
+            if(variable41) { _fun00010_ip = 1791; continue _fun00009 }
+ 1777:
             variable42 = _closure1_slot11;
             variable42 = variable42.BLOCKED;
             variable41 = echoed === variable42;
- 1750:
-            if(variable41) { _fun00010_ip = 1759; continue _fun00009 }
- 1753:
+ 1791:
+            if(variable41) { _fun00010_ip = 1800; continue _fun00009 }
+ 1794:
             variable41 = result.isProvisional;
- 1759:
+ 1800:
             target['disableCalls'] = variable41;
             target['disableMessage'] = variable40;
             target['location'] = variable39;
@@ -1362,7 +1374,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable39 = yankee.primaryButtons;
             target['style'] = variable39;
             papara = sierra.bind(report)(status, target);
- 1794:
+ 1835:
             cntext[6] = papara;
             sequen['children'] = cntext;
             sequen = record.bind(report)(config, sequen);
@@ -1373,8 +1385,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = yankee.cards;
             sequen['style'] = cntext;
             papara = result.isProvisional;
-            if(!papara) { _fun00010_ip = 1900; continue _fun00009 }
- 1841:
+            if(!papara) { _fun00010_ip = 1941; continue _fun00009 }
+ 1882:
             status = _closure1_slot13;
             target = _closure1_slot0;
             sierra = _closure1_slot2;
@@ -1389,18 +1401,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = 16;
             cntext['iconSize'] = sierra;
             papara = status.bind(report)(target, cntext);
- 1900:
+ 1941:
             cntext = new Array(10);
             cntext[0] = papara;
             target = result.id;
             papara = output.id;
             papara = target === papara;
-            if(!papara) { _fun00010_ip = 1928; continue _fun00009 }
- 1925:
+            if(!papara) { _fun00010_ip = 1969; continue _fun00009 }
+ 1966:
             papara = !golfie;
- 1928:
-            if(!papara) { _fun00010_ip = 1992; continue _fun00009 }
- 1931:
+ 1969:
+            if(!papara) { _fun00010_ip = 2033; continue _fun00009 }
+ 1972:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
             variable39 = _closure1_slot2;
@@ -1454,7 +1466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['navigateToShop'] = variable38;
             target['hasCustomProfileTheme'] = variable37;
             papara = sierra.bind(report)(status, target);
- 1992:
+ 2033:
             cntext[1] = papara;
             status = _closure1_slot13;
             target = _closure1_slot1;
@@ -1472,8 +1484,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = variable36.length;
             papara = 0;
             papara = target > papara;
-            if(!papara) { _fun00010_ip = 2113; continue _fun00009 }
- 2063:
+            if(!papara) { _fun00010_ip = 2154; continue _fun00009 }
+ 2104:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
             variable37 = _closure1_slot2;
@@ -1486,7 +1498,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['applicationIds'] = variable36;
             target['style'] = whisks;
             papara = sierra.bind(report)(status, target);
- 2113:
+ 2154:
             cntext[3] = papara;
             status = _closure1_slot13;
             target = _closure1_slot1;
@@ -1499,17 +1511,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara['userId'] = sierra;
             papara['displayProfile'] = sizing;
             sierra = undefined;
-            if(!golfie) { _fun00010_ip = 2165; continue _fun00009 }
- 2162:
+            if(!golfie) { _fun00010_ip = 2206; continue _fun00009 }
+ 2203:
             sierra = quebec;
- 2165:
+ 2206:
             papara['pendingBio'] = sierra;
             papara['style'] = whisks;
             papara = status.bind(report)(target, papara);
             cntext[4] = papara;
             papara = entity != equals;
-            if(!papara) { _fun00010_ip = 2240; continue _fun00009 }
- 2191:
+            if(!papara) { _fun00010_ip = 2281; continue _fun00009 }
+ 2232:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
             quebec = _closure1_slot2;
@@ -1522,17 +1534,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['guildId'] = equals;
             target['style'] = whisks;
             papara = sierra.bind(report)(status, target);
- 2240:
+ 2281:
             cntext[5] = papara;
             target = entity == kiloes;
             papara = undefined;
-            if(target) { _fun00010_ip = 2258; continue _fun00009 }
- 2253:
+            if(target) { _fun00010_ip = 2299; continue _fun00009 }
+ 2294:
             papara = kiloes.guild_id;
- 2258:
+ 2299:
             papara = entity != papara;
-            if(!papara) { _fun00010_ip = 2324; continue _fun00009 }
- 2265:
+            if(!papara) { _fun00010_ip = 2365; continue _fun00009 }
+ 2306:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
             equals = _closure1_slot2;
@@ -1547,7 +1559,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['showUserProfile'] = limora;
             target['style'] = whisks;
             papara = sierra.bind(report)(status, target);
- 2324:
+ 2365:
             cntext[6] = papara;
             quebec = _closure1_slot13;
             target = _closure1_slot0;
@@ -1573,8 +1585,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = status.bind(report)(target, papara);
             cntext[8] = papara;
             papara = !golfie;
-            if(!papara) { _fun00010_ip = 2483; continue _fun00009 }
- 2433:
+            if(!papara) { _fun00010_ip = 2524; continue _fun00009 }
+ 2474:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
             equals = _closure1_slot2;
@@ -1587,7 +1599,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['style'] = whisks;
             target['onBack'] = limora;
             papara = sierra.bind(report)(status, target);
- 2483:
+ 2524:
             cntext[9] = papara;
             sequen['children'] = cntext;
             sequen = record.bind(report)(config, sequen);
@@ -1599,8 +1611,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.bind(report)(verify, option);
             oscard[1] = option;
             golfie = !golfie;
-            if(!golfie) { _fun00010_ip = 2721; continue _fun00009 }
- 2538:
+            if(!golfie) { _fun00010_ip = 2762; continue _fun00009 }
+ 2579:
             offset = _closure1_slot14;
             verify = _closure1_slot4;
             option = {};
@@ -1609,35 +1621,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = result.id;
             yankee = output.id;
             foxtra = null;
-            if(!(update !== yankee)) { _fun00010_ip = 2649; continue _fun00009 }
- 2574:
+            if(!(update !== yankee)) { _fun00010_ip = 2690; continue _fun00009 }
+ 2615:
             yankee = result.bot;
             foxtra = null;
-            if(yankee) { _fun00010_ip = 2649; continue _fun00009 }
- 2585:
+            if(yankee) { _fun00010_ip = 2690; continue _fun00009 }
+ 2626:
             yankee = _closure1_slot11;
             yankee = yankee.FRIEND;
-            if(!(echoed !== yankee)) { _fun00010_ip = 2626; continue _fun00009 }
- 2599:
+            if(!(echoed !== yankee)) { _fun00010_ip = 2667; continue _fun00009 }
+ 2640:
             yankee = null;
-            if(!backup) { _fun00010_ip = 2624; continue _fun00009 }
- 2604:
+            if(!backup) { _fun00010_ip = 2665; continue _fun00009 }
+ 2645:
             update = _closure1_slot13;
             echoed = _closure1_slot18;
             backup = {};
             backup['user'] = result;
             yankee = update.bind(report)(echoed, backup);
- 2624:
-            _fun00010_ip = 2646; continue _fun00009;
- 2626:
+ 2665:
+            _fun00010_ip = 2687; continue _fun00009;
+ 2667:
             update = _closure1_slot13;
             echoed = _closure1_slot17;
             backup = {};
             backup['user'] = result;
             yankee = update.bind(report)(echoed, backup);
- 2646:
+ 2687:
             foxtra = yankee;
- 2649:
+ 2690:
             yankee = new Array(2);
             yankee[0] = foxtra;
             backup = _closure1_slot13;
@@ -1655,12 +1667,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             option['children'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 2721:
+ 2762:
             oscard[2] = golfie;
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 2737:
+ 2778:
             return entity;
         }
     };

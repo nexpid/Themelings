@@ -7509,7 +7509,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = _closure1_slot36;
             option = verify.isBlockedOrIgnoredForMessage;
             option = option.bind(verify)(tangon);
-            if(option) { _fun00268_ip = 1171; continue _fun00267 }
+            if(option) { _fun00268_ip = 1191; continue _fun00267 }
  645:
             verify = tangon.type;
             option = _closure1_slot48;
@@ -7524,7 +7524,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  678:
             oscard = _closure1_slot45;
             oscard = oscard.GROUP_DM;
-            if(!(option !== oscard)) { _fun00268_ip = 1171; continue _fun00267 }
+            if(!(option !== oscard)) { _fun00268_ip = 1191; continue _fun00267 }
  695:
             if(!(report != zuuluu)) { _fun00268_ip = 802; continue _fun00267 }
  699:
@@ -7549,7 +7549,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = yankee.bind(romeon)(offset);
             oscard['suppressRoles'] = offset;
             oscard = option.bind(verify)(oscard);
-            if(oscard) { _fun00268_ip = 1038; continue _fun00267 }
+            if(oscard) { _fun00268_ip = 1054; continue _fun00267 }
  802:
             verify = _closure1_slot29;
             option = verify.getChannel;
@@ -7557,39 +7557,39 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = option.bind(verify)(oscard);
             oscard = _closure1_slot86;
             oscard = oscard.bind(entity)(offset);
-            if(oscard) { _fun00268_ip = 1026; continue _fun00267 }
+            if(oscard) { _fun00268_ip = 1038; continue _fun00267 }
  836:
             oscard = _closure1_slot38;
             oscard = oscard.mentionOnAllMessages;
-            if(!oscard) { _fun00268_ip = 1002; continue _fun00267 }
+            if(!oscard) { _fun00268_ip = 1006; continue _fun00267 }
  854:
-            if(!(report != offset)) { _fun00268_ip = 1002; continue _fun00267 }
+            if(!(report != offset)) { _fun00268_ip = 1006; continue _fun00267 }
  861:
             oscard = offset.isThread;
             oscard = oscard.bind(offset)();
-            if(oscard) { _fun00268_ip = 957; continue _fun00267 }
+            if(oscard) { _fun00268_ip = 961; continue _fun00267 }
  874:
             oscard = offset.isVocal;
             oscard = oscard.bind(offset)();
-            if(oscard) { _fun00268_ip = 1002; continue _fun00267 }
+            if(oscard) { _fun00268_ip = 1006; continue _fun00267 }
  887:
             yankee = _closure1_slot38;
             verify = yankee.isChannelMuted;
             option = offset.guild_id;
             oscard = offset.id;
             oscard = verify.bind(yankee)(option, oscard);
-            if(oscard) { _fun00268_ip = 1002; continue _fun00267 }
+            if(oscard) { _fun00268_ip = 1006; continue _fun00267 }
  916:
             option = _closure1_slot38;
             oscard = option.resolvedMessageNotifications;
             option = oscard.bind(option)(offset);
             oscard = _closure1_slot51;
             oscard = oscard.ALL_MESSAGES;
-            if(!(option === oscard)) { _fun00268_ip = 1002; continue _fun00267 }
+            if(!(option === oscard)) { _fun00268_ip = 1006; continue _fun00267 }
  945:
             oscard = {'shouldMention': true, 'isMentionLowImportance': true};
-            _fun00268_ip = 1048; continue _fun00267;
- 957:
+            _fun00268_ip = 1068; continue _fun00267;
+ 961:
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
             option = 59;
@@ -7599,29 +7599,29 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = option.bind(verify)(offset);
             option = _closure1_slot59;
             option = option.ALL_MESSAGES;
-            if(!(verify !== option)) { _fun00268_ip = 1014; continue _fun00267 }
- 1002:
+            if(!(verify !== option)) { _fun00268_ip = 1022; continue _fun00267 }
+ 1006:
             oscard = {'shouldMention': false, 'isMentionLowImportance': false};
-            _fun00268_ip = 1048; continue _fun00267;
- 1014:
+            _fun00268_ip = 1068; continue _fun00267;
+ 1022:
             oscard = {'shouldMention': true, 'isMentionLowImportance': true};
-            _fun00268_ip = 1048; continue _fun00267;
- 1026:
-            oscard = {'shouldMention': true, 'isMentionLowImportance': false};
-            _fun00268_ip = 1048; continue _fun00267;
+            _fun00268_ip = 1068; continue _fun00267;
  1038:
             oscard = {'shouldMention': true, 'isMentionLowImportance': false};
- 1048:
+            _fun00268_ip = 1068; continue _fun00267;
+ 1054:
+            oscard = {'shouldMention': true, 'isMentionLowImportance': false};
+ 1068:
             option = oscard.shouldMention;
             oscard = oscard.isMentionLowImportance;
-            if(!option) { _fun00268_ip = 1171; continue _fun00267 }
- 1063:
+            if(!option) { _fun00268_ip = 1191; continue _fun00267 }
+ 1083:
             golfie['isMentionLowImportance'] = oscard;
             oscard = golfie.mentionCount;
             oscard = oscard + 1;
             golfie['mentionCount'] = oscard;
-            if(!(report != zuuluu)) { _fun00268_ip = 1171; continue _fun00267 }
- 1088:
+            if(!(report != zuuluu)) { _fun00268_ip = 1191; continue _fun00267 }
+ 1108:
             option = _closure1_slot76;
             golfie = option.get;
             oscard = zuuluu.id;
@@ -7632,8 +7632,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report['lastMessageId'] = tangon;
             tangon = _closure1_slot18;
             tangon = tangon.tabFocused;
-            if(!tangon) { _fun00268_ip = 1171; continue _fun00267 }
- 1142:
+            if(!tangon) { _fun00268_ip = 1191; continue _fun00267 }
+ 1162:
             report = _closure1_slot110;
             source = zuuluu.id;
             michal = _closure1_slot58;
@@ -7642,7 +7642,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             ctrled = undefined;
             echoed = undefined;
             michal = ctrled[report](source, update, echoed, result, output);
- 1171:
+ 1191:
             return entity;
         }
     };

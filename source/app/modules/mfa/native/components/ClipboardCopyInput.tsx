@@ -28,24 +28,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    option = tangon.InteractionManager;
-    var _closure1_slot5 = option;
     tangon = tangon.View;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AppStates;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot9 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -54,8 +52,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'flexDirection': 'column', 'alignSelf': 'stretch'};
     tangon['inputContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot10 = tangon;
-    tangon = 11;
+    var _closure1_slot9 = tangon;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -73,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = entity.autoComplete;
         option = entity.keyboardType;
         golfie = entity.isDisabled;
-        zuuluu = _closure1_slot10;
+        zuuluu = _closure1_slot9;
         tangon = undefined;
         report = zuuluu.bind(tangon)();
         echoed = _closure1_slot4;
@@ -90,11 +88,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = output[zuuluu];
         ctrled = oscard.bind(tangon)(zuuluu);
         source = ctrled.useStateFromStores;
-        zuuluu = _closure1_slot7;
+        zuuluu = _closure1_slot6;
         update = new Array(1);
         update[0] = zuuluu;
         zuuluu = function() {
-            michal = _closure1_slot7;
+            michal = _closure1_slot6;
             entity = michal.getState;
             entity = entity.bind(michal)();
             return entity;
@@ -157,7 +155,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 tangon = report.prototype;
                                 tangon = Object.create(tangon, {constructor: {value: report}});
                                 verify = function(argFoo) {
-                                    zuuluu = _closure1_slot5;
+                                    zuuluu = _closure1_slot0;
+                                    michal = _closure1_slot2;
+                                    entity = 9;
+                                    michal = michal[entity];
+                                    entity = undefined;
+                                    zuuluu = zuuluu.bind(entity)(michal);
                                     michal = zuuluu.runAfterInteractions;
                                     entity = argFoo;
                                     entity = michal.bind(zuuluu)(entity);
@@ -175,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  106:
                                 oscard = _closure1_slot0;
                                 report = _closure1_slot2;
-                                tangon = 9;
+                                tangon = 10;
                                 tangon = report[tangon];
                                 report = undefined;
                                 oscard = oscard.bind(report)(tangon);
@@ -232,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 var _closure3_slot0 = michal;
                 zuuluu = _closure2_slot2;
-                michal = _closure1_slot8;
+                michal = _closure1_slot7;
                 michal = michal.ACTIVE;
                 if(!(zuuluu === michal)) { _fun00002_ip = 50; continue _fun00001 }
  37:
@@ -254,12 +257,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         michal = result.bind(echoed)(michal, zuuluu);
-        zuuluu = _closure1_slot9;
-        michal = _closure1_slot6;
+        zuuluu = _closure1_slot8;
+        michal = _closure1_slot5;
         entity = {};
         report = report.inputContainer;
         entity['style'] = report;
-        report = 10;
+        report = 11;
         report = output[report];
         report = oscard.bind(tangon)(report);
         oscard = report.TextInput;

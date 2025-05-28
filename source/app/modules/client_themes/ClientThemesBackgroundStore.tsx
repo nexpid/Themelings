@@ -39,102 +39,99 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot25 = michal;
+            _closure1_slot24 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot25 = entity;
-    entity = function() { // Original name: reset
+    var _closure1_slot24 = entity;
+    tangon = function() { // Original name: reset
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            entity = _closure1_slot20;
+            entity = _closure1_slot19;
             if(!entity) { _fun00004_ip = 16; continue _fun00003 }
  10:
             entity = undefined;
             var _closure1_slot17 = entity;
  16:
             entity = false;
-            _closure1_slot21 = entity;
-            _closure1_slot19 = entity;
+            _closure1_slot20 = entity;
             entity = undefined;
             return entity;
         }
     };
-    var _closure1_slot26 = entity;
     entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    michal = {};
-    option = true;
-    michal['value'] = option;
+    yankee = entity.Object;
+    offset = yankee.defineProperty;
+    option = {};
+    michal = true;
+    option['value'] = michal;
     entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, michal);
+    entity = offset.bind(yankee)(zuuluu, entity, option);
     entity = 0;
-    michal = oscard[entity];
+    option = oscard[entity];
     entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = 5;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot8 = michal;
-    michal = 6;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot9 = michal;
-    michal = 7;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot10 = michal;
-    michal = 8;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot11 = michal;
-    michal = 9;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.isGuildTextChannelType;
-    var _closure1_slot12 = michal;
-    michal = 10;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot13 = michal;
-    michal = 11;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot14 = michal;
-    michal = 12;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.BACKGROUND_GRADIENT_PRESETS_MAP;
-    var _closure1_slot15 = michal;
-    michal = 13;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.SystemThemeState;
-    var _closure1_slot16 = michal;
-    michal = false;
+    option = golfie.bind(entity)(option);
+    var _closure1_slot3 = option;
+    option = 1;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot4 = option;
+    option = 2;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot5 = option;
+    option = 3;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot6 = option;
+    option = 4;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot7 = option;
+    option = 5;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot8 = option;
+    option = 6;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot9 = option;
+    option = 7;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot10 = option;
+    option = 8;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot11 = option;
+    option = 9;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.isGuildTextChannelType;
+    var _closure1_slot12 = option;
+    option = 10;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot13 = option;
+    option = 11;
+    option = oscard[option];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot14 = option;
+    option = 12;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.BACKGROUND_GRADIENT_PRESETS_MAP;
+    var _closure1_slot15 = option;
+    option = 13;
+    option = oscard[option];
+    option = report.bind(entity)(option);
+    option = option.SystemThemeState;
+    var _closure1_slot16 = option;
     var _closure1_slot19 = michal;
-    var _closure1_slot20 = option;
-    var _closure1_slot21 = michal;
+    michal = false;
+    var _closure1_slot20 = michal;
     michal = function() { // Original name: handleUserStoreChange
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -150,17 +147,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(oscard)();
             michal = tangon.bind(report)(michal);
             michal = !michal;
-            tangon = _closure1_slot20;
+            tangon = _closure1_slot19;
             if(!(michal !== tangon)) { _fun00006_ip = 66; continue _fun00005 }
  60:
-            _closure1_slot20 = michal;
+            _closure1_slot19 = michal;
             return entity;
  66:
             entity = false;
             return entity;
         }
     };
-    var _closure1_slot22 = michal;
+    var _closure1_slot21 = michal;
     michal = function() { // Original name: handleSelectivelySyncedStoreChange
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -208,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot23 = michal;
+    var _closure1_slot22 = michal;
     michal = function() { // Original name: handleUserSettingsProtoStoreUpdate
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -290,7 +287,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot24 = michal;
+    var _closure1_slot23 = michal;
     michal = 21;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
@@ -314,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 option = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot5;
-                entity = _closure1_slot25;
+                entity = _closure1_slot24;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00012_ip = 84; continue _fun00011 }
  71:
@@ -405,24 +402,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = tangon.syncWith;
                 oscard = new Array(1);
                 oscard[0] = zuuluu;
-                zuuluu = _closure1_slot22;
+                zuuluu = _closure1_slot21;
                 zuuluu = golfie.bind(tangon)(oscard, zuuluu);
                 oscard = tangon.syncWith;
                 zuuluu = new Array(1);
                 zuuluu[0] = michal;
-                michal = _closure1_slot23;
+                michal = _closure1_slot22;
                 michal = oscard.bind(tangon)(zuuluu, michal);
                 zuuluu = tangon.syncWith;
                 michal = new Array(1);
                 michal[0] = report;
-                entity = _closure1_slot24;
+                entity = _closure1_slot23;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
             }
         };
         report['value'] = entity;
-        entity = new Array(8);
+        entity = new Array(7);
         entity[0] = report;
         report = {};
         golfie = 'getState';
@@ -430,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: value
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                entity = _closure1_slot20;
+                entity = _closure1_slot19;
                 if(entity) { _fun00018_ip = 39; continue _fun00017 }
  10:
                 entity = {};
@@ -489,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[3] = report;
         report = {};
-        golfie = 'isEditorOpen';
+        golfie = 'isPreview';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             entity = _closure1_slot19;
@@ -498,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[4] = report;
         report = {};
-        golfie = 'isPreview';
+        golfie = 'isCoachmark';
         report['key'] = golfie;
         golfie = function() { // Original name: get
             entity = _closure1_slot20;
@@ -507,15 +504,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['get'] = golfie;
         entity[5] = report;
         report = {};
-        golfie = 'isCoachmark';
-        report['key'] = golfie;
-        golfie = function() { // Original name: get
-            entity = _closure1_slot21;
-            return entity;
-        };
-        report['get'] = golfie;
-        entity[6] = report;
-        report = {};
         golfie = 'mobilePendingThemeIndex';
         report['key'] = golfie;
         oscard = function() { // Original name: get
@@ -523,7 +511,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['get'] = oscard;
-        entity[7] = report;
+        entity[6] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -533,9 +521,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option['persistKey'] = michal;
     michal = 22;
     michal = oscard[michal];
-    foxtra = golfie.bind(entity)(michal);
+    backup = golfie.bind(entity)(michal);
     michal = {};
-    verify = function(argFoo) { // Original name: UPDATE_BACKGROUND_GRADIENT_PRESET
+    offset = function(argFoo) { // Original name: UPDATE_BACKGROUND_GRADIENT_PRESET
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = argFoo;
@@ -553,8 +541,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['UPDATE_BACKGROUND_GRADIENT_PRESET'] = verify;
-    verify = function(argFoo) { // Original name: UPDATE_MOBILE_PENDING_THEME_INDEX
+    michal['UPDATE_BACKGROUND_GRADIENT_PRESET'] = offset;
+    offset = function(argFoo) { // Original name: UPDATE_MOBILE_PENDING_THEME_INDEX
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             entity = argFoo;
@@ -571,27 +559,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['UPDATE_MOBILE_PENDING_THEME_INDEX'] = verify;
-    verify = function() { // Original name: CLIENT_THEMES_EDITOR_OPEN
-        entity = true;
-        _closure1_slot19 = entity;
-        entity = undefined;
-        return entity;
-    };
-    michal['CLIENT_THEMES_EDITOR_OPEN'] = verify;
-    verify = function() { // Original name: CLIENT_THEMES_EDITOR_CLOSE
-        michal = _closure1_slot26;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        return entity;
-    };
-    michal['CLIENT_THEMES_EDITOR_CLOSE'] = verify;
-    verify = function() { // Original name: RESET_PREVIEW_CLIENT_THEME
+    michal['UPDATE_MOBILE_PENDING_THEME_INDEX'] = offset;
+    offset = function() { // Original name: RESET_PREVIEW_CLIENT_THEME
         entity = undefined;
         _closure1_slot17 = entity;
         return entity;
     };
-    michal['RESET_PREVIEW_CLIENT_THEME'] = verify;
+    michal['RESET_PREVIEW_CLIENT_THEME'] = offset;
+    michal['CLIENT_THEMES_EDITOR_CLOSE'] = tangon;
     verify = function(argFoo) { // Original name: CHANNEL_SELECT
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
@@ -643,25 +618,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!entity) { _fun00026_ip = 183; continue _fun00025 }
  177:
             entity = true;
-            _closure1_slot21 = entity;
+            _closure1_slot20 = entity;
  183:
             entity = undefined;
             return entity;
         }
     };
     michal['CHANNEL_SELECT'] = verify;
-    tangon = function() { // Original name: handleLogout
-        michal = _closure1_slot26;
-        entity = undefined;
-        michal = michal.bind(entity)();
-        return entity;
-    };
     michal['LOGOUT'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
-    backup = tangon;
-    romeon = michal;
-    michal = new backup[option](foxtra, romeon, yankee);
+    kiloes = tangon;
+    foxtra = michal;
+    michal = new kiloes[option](backup, foxtra, romeon);
     michal = michal instanceof Object ? michal : tangon;
     tangon = 23;
     tangon = oscard[tangon];

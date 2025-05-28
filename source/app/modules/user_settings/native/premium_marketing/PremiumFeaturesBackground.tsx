@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'display': 'flex', 'borderRadius': null, 'flexDirection': 'column', 'justifyContent': 'space-between'};
+    verify = {'display': 'flex', 'borderRadius': null, 'flexDirection': 'column', 'justifyContent': 'space-between', 'overflow': 'hidden'};
     offset = 4;
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['cardContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot5 = tangon;
-    tangon = 7;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -54,46 +54,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: PremiumFeaturesBackground
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = argFoo;
-            michal = tangon.premiumType;
-            oscard = tangon.children;
-            yankee = tangon.style;
-            zuuluu = {'premiumType': 0, 'children': 0, 'style': 0};
-            backup = null;
-            kiloes = zuuluu;
-            entity = silentSetPrototypeOf(kiloes, backup);
-            kiloes = {};
-            backup = tangon;
-            foxtra = zuuluu;
-            report = copyDataProperties(kiloes, backup, foxtra);
-            entity = _closure1_slot5;
+            golfie = argFoo;
+            zuuluu = golfie.premiumType;
+            verify = golfie.opacity;
             tangon = undefined;
-            offset = entity.bind(tangon)();
-            entity = _closure1_slot3;
-            entity = entity.TIER_0;
-            if(!(michal !== entity)) { _fun00002_ip = 115; continue _fun00001 }
- 81:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 5;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.Gradients;
-            option = entity.PREMIUM_TIER_2_TRI_COLOR;
-            _fun00002_ip = 147; continue _fun00001;
- 115:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 5;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.Gradients;
-            option = entity.PREMIUM_TIER_0;
- 147:
+            if(!(verify === tangon)) { _fun00002_ip = 25; continue _fun00001 }
+ 22:
+            verify = 1;
+ 25:
+            var _closure2_slot0 = verify;
+            oscard = golfie.children;
+            yankee = golfie.style;
+            report = {'premiumType': 0, 'opacity': 0, 'children': 0, 'style': 0};
+            backup = null;
+            kiloes = report;
+            michal = silentSetPrototypeOf(kiloes, backup);
+            kiloes = {};
+            backup = golfie;
+            foxtra = report;
+            report = copyDataProperties(kiloes, backup, foxtra);
+            michal = _closure1_slot5;
+            offset = michal.bind(tangon)();
+            michal = _closure1_slot3;
+            michal = michal.TIER_0;
+            if(!(zuuluu !== michal)) { _fun00002_ip = 133; continue _fun00001 }
+ 99:
+            zuuluu = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 5;
+            michal = option[michal];
+            michal = zuuluu.bind(tangon)(michal);
+            michal = michal.Gradients;
+            zuuluu = michal.PREMIUM_TIER_2_TRI_COLOR;
+            _fun00002_ip = 165; continue _fun00001;
+ 133:
+            option = _closure1_slot0;
+            romeon = _closure1_slot2;
+            michal = 5;
+            michal = romeon[michal];
+            michal = option.bind(tangon)(michal);
+            michal = michal.Gradients;
+            zuuluu = michal.PREMIUM_TIER_0;
+ 165:
+            michal = 1;
+            option = zuuluu;
+            if(!(verify < michal)) { _fun00002_ip = 190; continue _fun00001 }
+ 175:
+            michal = zuuluu.map;
+            entity = function(argFoo) {
+                michal = _closure1_slot1;
+                zuuluu = _closure1_slot2;
+                entity = 6;
+                entity = zuuluu[entity];
+                zuuluu = undefined;
+                michal = michal.bind(zuuluu)(entity);
+                entity = argFoo;
+                zuuluu = michal.bind(zuuluu)(entity);
+                michal = zuuluu.alpha;
+                entity = _closure2_slot0;
+                michal = michal.bind(zuuluu)(entity);
+                entity = michal.hex;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            option = michal.bind(zuuluu)(entity);
+ 190:
             zuuluu = _closure1_slot4;
             michal = _closure1_slot1;
             verify = _closure1_slot2;
-            entity = 6;
+            entity = 7;
             entity = verify[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};

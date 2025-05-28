@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['loadingSpinner'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot9 = tangon;
-    tangon = 14;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -122,18 +122,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.NONE;
                     michal = tangon !== zuuluu;
  69:
-                    if(michal) { _fun00004_ip = 112; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 137; continue _fun00003 }
  72:
-                    tangon = _closure1_slot0;
-                    zuuluu = _closure1_slot2;
+                    oscard = _closure1_slot0;
+                    golfie = _closure1_slot2;
                     michal = 7;
-                    zuuluu = zuuluu[michal];
-                    michal = undefined;
-                    zuuluu = tangon.bind(michal)(zuuluu);
-                    michal = zuuluu.fetchVideoTranscript;
-                    entity = _closure2_slot0;
-                    entity = michal.bind(zuuluu)(entity);
- 112:
+                    michal = golfie[michal];
+                    report = undefined;
+                    tangon = oscard.bind(report)(michal);
+                    zuuluu = tangon.fetchVideoTranscript;
+                    michal = _closure2_slot0;
+                    entity = 8;
+                    entity = golfie[entity];
+                    entity = oscard.bind(report)(entity);
+                    entity = entity.FirstPartyQuestTaskTypes;
+                    entity = entity.WATCH_VIDEO_ON_MOBILE;
+                    entity = zuuluu.bind(tangon)(michal, entity);
+ 137:
                     entity = undefined;
                     return entity;
                 }
@@ -196,19 +201,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot7;
             option = _closure1_slot0;
             kiloes = _closure1_slot2;
-            entity = 8;
+            entity = 9;
             entity = kiloes[entity];
             entity = option.bind(tangon)(entity);
             michal = entity.ActionSheet;
             entity = {};
             report = true;
             entity['scrollable'] = report;
-            report = 9;
+            report = 10;
             report = kiloes[report];
             report = option.bind(tangon)(report);
             oscard = report.BottomSheetTitleHeader;
             report = {};
-            golfie = 10;
+            golfie = 11;
             output = kiloes[golfie];
             output = option.bind(tangon)(output);
             result = output.intl;
@@ -221,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['title'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['header'] = report;
-            report = 11;
+            report = 12;
             report = kiloes[report];
             report = option.bind(tangon)(report);
             oscard = report.BottomSheetScrollView;
@@ -230,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['paddingBottom'] = verify;
             report['contentContainerStyle'] = golfie;
             verify = _closure1_slot8;
-            golfie = 12;
+            golfie = 13;
             golfie = kiloes[golfie];
             golfie = option.bind(tangon)(golfie);
             option = golfie.Stack;
@@ -271,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = _closure1_slot7;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 13;
+                entity = 14;
                 entity = zuuluu[entity];
                 tangon = undefined;
                 entity = michal.bind(tangon)(entity);

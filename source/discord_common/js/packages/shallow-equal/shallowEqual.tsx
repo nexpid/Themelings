@@ -1,5 +1,5 @@
 // discord_common/js/packages/shallow-equal/shallowEqual.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
     oscard = entity.Object;
@@ -9,6 +9,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = report.bind(oscard)(zuuluu, entity, tangon);
+    entity = {};
+    var _closure1_slot0 = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];
@@ -18,101 +20,70 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = '../discord_common/js/packages/shallow-equal/shallowEqual.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: shallowEqual
+    tangon = function(argFoo, argBar, argBaz) { // Original name: shallowEqual
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            backup = argFoo;
-            foxtra = argBar;
-            romeon = argBaz;
-            tangon = argCor;
-            entity = backup === foxtra;
-            if(entity) { _fun00002_ip = 304; continue _fun00001 }
- 22:
-            zuuluu = undefined;
-            if(!(zuuluu !== backup)) { _fun00002_ip = 302; continue _fun00001 }
- 31:
-            if(!(zuuluu !== foxtra)) { _fun00002_ip = 302; continue _fun00001 }
- 38:
+            option = argFoo;
+            golfie = argBar;
+            oscard = argBaz;
+            entity = arguments[3];
+            michal = undefined;
+            if(!(entity === michal)) { _fun00002_ip = 25; continue _fun00001 }
+ 18:
+            entity = _closure1_slot0;
+ 25:
+            zuuluu = entity.shouldWarnLargeObjects;
+            entity = entity.logCallback;
+            entity = option === golfie;
+            if(entity) { _fun00002_ip = 184; continue _fun00001 }
+ 47:
+            if(!(michal !== option)) { _fun00002_ip = 182; continue _fun00001 }
+ 54:
+            if(!(michal !== golfie)) { _fun00002_ip = 182; continue _fun00001 }
+ 61:
             michal = global;
-            oscard = michal.Object;
-            report = oscard.keys;
-            oscard = report.bind(oscard)(backup);
-            golfie = michal.Object;
-            report = golfie.keys;
-            report = report.bind(golfie)(foxtra);
-            option = oscard.length;
-            golfie = report.length;
-            if(!(option === golfie)) { _fun00002_ip = 247; continue _fun00001 }
- 89:
-            golfie = new Array(0);
-            verify = oscard.length;
-            option = 0;
-            offset = option < verify;
-            verify = null;
-            yankee = 0;
-            if(!offset) { _fun00002_ip = 170; continue _fun00001 }
- 111:
-            kiloes = oscard[yankee];
-            sizing = backup[kiloes];
-            offset = foxtra[kiloes];
-            if(!(sizing !== offset)) { _fun00002_ip = 158; continue _fun00001 }
- 127:
-            if(!(verify != romeon)) { _fun00002_ip = 144; continue _fun00001 }
- 131:
-            offset = romeon.includes;
-            offset = offset.bind(romeon)(kiloes);
-            if(offset) { _fun00002_ip = 158; continue _fun00001 }
- 144:
-            if(!(verify != tangon)) { _fun00002_ip = 243; continue _fun00001 }
- 148:
-            offset = golfie.push;
-            offset = offset.bind(golfie)(kiloes);
+            tangon = michal.Object;
+            zuuluu = tangon.keys;
+            report = zuuluu.bind(tangon)(option);
+            zuuluu = michal.Object;
+            michal = zuuluu.keys;
+            michal = michal.bind(zuuluu)(golfie);
+            zuuluu = report.length;
+            michal = michal.length;
+            if(!(zuuluu === michal)) { _fun00002_ip = 178; continue _fun00001 }
+ 109:
+            michal = report.length;
+            tangon = 0;
+            michal = tangon < michal;
+            zuuluu = null;
+            if(!michal) { _fun00002_ip = 170; continue _fun00001 }
+ 125:
+            verify = report[tangon];
+            offset = option[verify];
+            michal = golfie[verify];
+            if(!(offset !== michal)) { _fun00002_ip = 158; continue _fun00001 }
+ 141:
+            if(!(zuuluu != oscard)) { _fun00002_ip = 174; continue _fun00001 }
+ 145:
+            michal = oscard.includes;
+            michal = michal.bind(oscard)(verify);
+            if(!michal) { _fun00002_ip = 174; continue _fun00001 }
  158:
-            yankee = yankee + 1;
-            offset = oscard.length;
-            if(yankee < offset) { _fun00002_ip = 111; continue _fun00001 }
+            tangon = tangon + 1;
+            michal = report.length;
+            if(tangon < michal) { _fun00002_ip = 125; continue _fun00001 }
  170:
-            verify = verify != tangon;
-            if(!verify) { _fun00002_ip = 186; continue _fun00001 }
- 177:
-            offset = golfie.length;
-            verify = offset > option;
- 186:
-            if(!verify) { _fun00002_ip = 232; continue _fun00001 }
- 189:
-            offset = golfie.join;
-            verify = ', ';
-            yankee = offset.bind(golfie)(verify);
-            verify = michal.HermesInternal;
-            offset = verify.concat;
-            verify = 'shallowEqual: unequal keys: ';
-            verify = offset.bind(verify)(yankee);
-            verify = tangon.bind(zuuluu)(verify);
- 232:
-            golfie = golfie.length;
-            golfie = option === golfie;
-            return golfie;
- 243:
-            golfie = false;
-            return golfie;
- 247:
-            golfie = null;
-            if(!(golfie != tangon)) { _fun00002_ip = 298; continue _fun00001 }
- 253:
-            option = oscard.length;
-            golfie = report.length;
-            michal = michal.HermesInternal;
-            oscard = michal.concat;
-            report = 'shallowEqual: unequal key lengths ';
-            michal = ' !=== ';
-            michal = oscard.bind(report)(option, michal, golfie);
-            michal = tangon.bind(zuuluu)(michal);
- 298:
+            michal = true;
+            return michal;
+ 174:
             michal = false;
             return michal;
- 302:
+ 178:
+            michal = false;
+            return michal;
+ 182:
             return entity;
- 304:
+ 184:
             entity = true;
             return entity;
         }
@@ -123,17 +94,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             tangon = argFoo;
             zuuluu = argBar;
+            entity = arguments[2];
             var _closure2_slot0 = zuuluu;
+            report = undefined;
+            if(!(entity === report)) { _fun00004_ip = 28; continue _fun00003 }
+ 21:
+            entity = _closure1_slot0;
+ 28:
+            report = entity.logCallback;
+            entity = entity.shouldWarnLargeObjects;
             entity = null;
             entity = entity != zuuluu;
-            if(!entity) { _fun00004_ip = 35; continue _fun00003 }
- 21:
+            if(!entity) { _fun00004_ip = 63; continue _fun00003 }
+ 49:
             report = tangon.length;
             zuuluu = zuuluu.length;
             entity = report === zuuluu;
- 35:
-            if(!entity) { _fun00004_ip = 57; continue _fun00003 }
- 38:
+ 63:
+            if(!entity) { _fun00004_ip = 85; continue _fun00003 }
+ 66:
             zuuluu = tangon.some;
             michal = function(argFoo, argBar) {
                 michal = _closure2_slot0;
@@ -145,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = zuuluu.bind(tangon)(michal);
             entity = !michal;
- 57:
+ 85:
             return entity;
         }
     };

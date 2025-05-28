@@ -3455,7 +3455,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(tangon)();
                 zuuluu = zuuluu.setLoopback;
                 tangon = null;
-                if(!(tangon != zuuluu)) { _fun00078_ip = 152; continue _fun00077 }
+                if(!(tangon != zuuluu)) { _fun00078_ip = 163; continue _fun00077 }
  56:
                 option = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -3475,8 +3475,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu['noiseCancellation'] = yankee;
                 yankee = offset.voiceFilters;
                 zuuluu['voiceFilters'] = yankee;
+                yankee = offset.loopbackUseAudioMode;
+                zuuluu['loopbackUseAudioMode'] = yankee;
                 zuuluu = option.bind(verify)(michal, zuuluu);
- 152:
+ 163:
                 option = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 zuuluu = zuuluu[oscard];
@@ -3484,8 +3486,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = option.getVoiceEngine;
                 zuuluu = zuuluu.bind(option)();
                 zuuluu = zuuluu.setEmitVADLevel2;
-                if(!(tangon == zuuluu)) { _fun00078_ip = 335; continue _fun00077 }
- 192:
+                if(!(tangon == zuuluu)) { _fun00078_ip = 346; continue _fun00077 }
+ 203:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 zuuluu = zuuluu[oscard];
@@ -3494,8 +3496,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = zuuluu.bind(tangon)();
                 option = verify.setEmitVADLevel;
                 tangon = michal;
-                if(michal) { _fun00078_ip = 280; continue _fun00077 }
- 231:
+                if(michal) { _fun00078_ip = 291; continue _fun00077 }
+ 242:
                 yankee = golfie.listenerCount;
                 romeon = _closure1_slot0;
                 foxtra = _closure1_slot2;
@@ -3507,7 +3509,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 yankee = yankee.bind(golfie)(zuuluu);
                 zuuluu = 0;
                 tangon = yankee > zuuluu;
- 280:
+ 291:
                 zuuluu = {};
                 yankee = offset.echoCancellation;
                 zuuluu['echoCancellation'] = yankee;
@@ -3518,8 +3520,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = offset.noiseCancellation;
                 zuuluu['noiseCancellation'] = offset;
                 zuuluu = option.bind(verify)(tangon, michal, zuuluu);
-                _fun00078_ip = 425; continue _fun00077;
- 335:
+                _fun00078_ip = 436; continue _fun00077;
+ 346:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 zuuluu = zuuluu[oscard];
@@ -3527,8 +3529,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.getVoiceEngine;
                 tangon = zuuluu.bind(tangon)();
                 zuuluu = tangon.setEmitVADLevel2;
-                if(michal) { _fun00078_ip = 420; continue _fun00077 }
- 371:
+                if(michal) { _fun00078_ip = 431; continue _fun00077 }
+ 382:
                 oscard = golfie.listenerCount;
                 option = _closure1_slot0;
                 verify = _closure1_slot2;
@@ -3540,9 +3542,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = oscard.bind(golfie)(report);
                 report = 0;
                 michal = oscard > report;
- 420:
+ 431:
                 michal = zuuluu.bind(tangon)(michal);
- 425:
+ 436:
                 return entity;
             }
         };
