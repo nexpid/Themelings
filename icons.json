@@ -13234,6 +13234,16 @@
         "width": 24,
         "height": 24
     },
+    "StarShootingIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/StarShootingIcon.png",
+        "hash": "f8a7ce5938218336d0345b289fcf2775",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "StatusDND": {
         "file": "images/native/status/StatusDND.png",
         "hash": "89ef758cad16b0f89bf10bf57ab078db",
