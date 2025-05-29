@@ -1,4 +1,4 @@
-// discord_common/js/packages/secure-frames/SecureFrames.tsx
+// discord_common/js/packages/libdave/package/index.ts
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = argBar;
     zuuluu = argFre;
@@ -16,7 +16,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     golfie = tangon.bind(entity)(michal);
     oscard = golfie.fileFinishedImporting;
-    michal = '../discord_common/js/packages/secure-frames/SecureFrames.tsx';
+    michal = '../discord_common/js/packages/libdave/package/index.ts';
     michal = oscard.bind(golfie)(michal);
     michal = 1;
     michal = report[michal];

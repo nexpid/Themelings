@@ -193,27 +193,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
-            zuuluu = entity.channelId;
+            tangon = entity.channelId;
             report = entity.sessionId;
             michal = _closure1_slot7;
             entity = michal.getChannel;
-            zuuluu = entity.bind(michal)(zuuluu);
+            tangon = entity.bind(michal)(tangon);
             option = null;
-            michal = option != zuuluu;
+            michal = option != tangon;
             entity = null;
-            if(!michal) { _fun00014_ip = 473; continue _fun00013 }
+            if(!michal) { _fun00014_ip = 490; continue _fun00013 }
  45:
-            michal = zuuluu.isForumLikeChannel;
-            michal = michal.bind(zuuluu)();
+            michal = tangon.isForumLikeChannel;
+            michal = michal.bind(tangon)();
             entity = null;
-            if(!michal) { _fun00014_ip = 473; continue _fun00013 }
+            if(!michal) { _fun00014_ip = 490; continue _fun00013 }
  63:
             michal = {};
-            oscard = zuuluu.topic;
+            oscard = tangon.topic;
             oscard = option != oscard;
             if(!oscard) { _fun00014_ip = 105; continue _fun00013 }
  78:
-            verify = zuuluu.topic;
+            verify = tangon.topic;
             golfie = verify.trim;
             golfie = golfie.bind(verify)();
             verify = golfie.length;
@@ -221,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = verify > golfie;
  105:
             michal['forum_channel_has_guidelines'] = oscard;
-            verify = zuuluu.defaultReactionEmoji;
+            verify = tangon.defaultReactionEmoji;
             offset = option == verify;
             oscard = undefined;
             golfie = undefined;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = verify.emojiId;
  135:
             michal['forum_channel_default_emoji_reaction_id'] = golfie;
-            verify = zuuluu.defaultReactionEmoji;
+            verify = tangon.defaultReactionEmoji;
             offset = option == verify;
             golfie = undefined;
             if(offset) { _fun00014_ip = 163; continue _fun00013 }
@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = verify.emojiName;
  163:
             michal['forum_channel_default_emoji_reaction_name'] = golfie;
-            yankee = zuuluu.availableTags;
+            yankee = tangon.availableTags;
             verify = option == yankee;
             golfie = undefined;
             if(verify) { _fun00014_ip = 202; continue _fun00013 }
@@ -256,16 +256,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = new Array(0);
  210:
             michal['forum_channel_available_tag_ids'] = golfie;
-            verify = zuuluu.hasFlag;
+            verify = tangon.hasFlag;
             golfie = _closure1_slot14;
             golfie = golfie.REQUIRE_TAG;
-            golfie = verify.bind(zuuluu)(golfie);
+            golfie = verify.bind(tangon)(golfie);
             michal['forum_channel_tag_required'] = golfie;
             offset = _closure1_slot10;
             verify = offset.can;
             golfie = _closure1_slot13;
             golfie = golfie.SEND_MESSAGES;
-            golfie = verify.bind(offset)(golfie, zuuluu);
+            golfie = verify.bind(offset)(golfie, tangon);
             michal['forum_channel_can_create_post'] = golfie;
             offset = _closure1_slot1;
             verify = _closure1_slot2;
@@ -278,36 +278,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify[golfie];
             yankee = offset.bind(oscard)(verify);
             offset = yankee.getSortOrderAnalytics;
-            verify = zuuluu.id;
+            verify = tangon.id;
             verify = offset.bind(yankee)(verify);
             michal['forum_channel_sort_order'] = verify;
             if(!(option == report)) { _fun00014_ip = 365; continue _fun00013 }
  351:
             verify = _closure1_slot16;
-            option = zuuluu.id;
+            option = tangon.id;
             report = verify.bind(oscard)(option);
  365:
             michal['forum_channel_session_id'] = report;
             report = _closure1_slot1;
-            tangon = _closure1_slot2;
-            option = tangon[golfie];
+            zuuluu = _closure1_slot2;
+            option = zuuluu[golfie];
             offset = report.bind(oscard)(option);
             verify = offset.getLayoutAnalytics;
-            option = zuuluu.id;
+            option = tangon.id;
             option = verify.bind(offset)(option);
             michal['forum_channel_layout'] = option;
-            option = zuuluu.defaultSortOrder;
+            option = tangon.defaultSortOrder;
             michal['forum_channel_default_sort_order'] = option;
-            tangon = tangon[golfie];
-            oscard = report.bind(oscard)(tangon);
+            zuuluu = zuuluu[golfie];
+            oscard = report.bind(oscard)(zuuluu);
             report = oscard.getTagSettingAnalytics;
-            tangon = zuuluu.id;
-            tangon = report.bind(oscard)(tangon);
-            michal['forum_channel_tag_setting'] = tangon;
-            zuuluu = zuuluu.defaultForumLayout;
+            zuuluu = tangon.id;
+            zuuluu = report.bind(oscard)(zuuluu);
+            michal['forum_channel_tag_setting'] = zuuluu;
+            zuuluu = tangon.defaultForumLayout;
             michal['forum_channel_default_layout'] = zuuluu;
+            zuuluu = tangon.isModeratorReportChannel;
+            zuuluu = zuuluu.bind(tangon)();
+            michal['forum_channel_is_moderator_report_channel'] = zuuluu;
             entity = michal;
- 473:
+ 490:
             return entity;
         }
     };

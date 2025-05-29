@@ -344,7 +344,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu['url'] = oscard;
                 oscard = {};
                 oscard['metrics'] = golfie;
-                golfie = {'built_at': '1748409617711', 'build_number': '4118'};
+                golfie = {'built_at': '1748495890730', 'build_number': '4123'};
                 oscard['client_info'] = golfie;
                 zuuluu['body'] = oscard;
                 oscard = 1;

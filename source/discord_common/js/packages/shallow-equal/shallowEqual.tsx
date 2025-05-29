@@ -111,20 +111,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.length;
             entity = report === zuuluu;
  63:
-            if(!entity) { _fun00004_ip = 85; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 82; continue _fun00003 }
  66:
-            zuuluu = tangon.some;
+            zuuluu = tangon.every;
             michal = function(argFoo, argBar) {
                 michal = _closure2_slot0;
                 entity = argBar;
                 michal = michal[entity];
                 entity = argFoo;
-                entity = michal !== entity;
+                entity = michal === entity;
                 return entity;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            entity = !michal;
- 85:
+            entity = zuuluu.bind(tangon)(michal);
+ 82:
             return entity;
         }
     };

@@ -1,4 +1,4 @@
-// discord_common/js/packages/secure-frames/KeyFingerprint.tsx
+// discord_common/js/packages/libdave/package/KeyFingerprint.ts
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     report = argPlu;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = argBar;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/secure-frames/KeyFingerprint.tsx';
+    tangon = '../discord_common/js/packages/libdave/package/KeyFingerprint.ts';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: generateKeyFingerprint
         entity = undefined;

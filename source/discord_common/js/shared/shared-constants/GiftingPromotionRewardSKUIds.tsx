@@ -18,13 +18,13 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['SEASONAL_GIFTING_2024_SNOWFLAKES_REWARD_SKU_ID'] = michal;
     michal = '1326347611069874277';
     tangon['VALENTINES_GIFTING_2025_HEARTS_SKU_ID'] = michal;
-    michal = '1369404111484751874';
+    michal = '1369404111484751873';
     tangon['SUMMER_2025_GIFTING_REWARD_SKU_ID'] = michal;
     michal = {};
     oscard = entity.Set;
     entity = oscard.prototype;
     report = Object.create(entity, {constructor: {value: oscard}});
-    offset = ['1301993378484850769', '1301993378484850771', '1301993378484850773', '1326347611069874277', '1369404111484751874'];
+    offset = ['1301993378484850769', '1301993378484850771', '1301993378484850773', '1326347611069874277', '1369404111484751873'];
     yankee = report;
     entity = new yankee[oscard](offset, verify);
     entity = entity instanceof Object ? entity : report;

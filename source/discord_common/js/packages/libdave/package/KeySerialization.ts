@@ -1,4 +1,4 @@
-// discord_common/js/packages/secure-frames/KeySerialization.tsx
+// discord_common/js/packages/libdave/package/KeySerialization.ts
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     tangon = argPlu;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/secure-frames/KeySerialization.tsx';
+    tangon = '../discord_common/js/packages/libdave/package/KeySerialization.ts';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: serializeKey
         zuuluu = _closure1_slot0;

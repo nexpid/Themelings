@@ -51,28 +51,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = argFoo;
             report = entity.type;
             option = entity.messageId;
-            zuuluu = entity.userId;
+            tangon = entity.userId;
             golfie = entity.emoji;
             oscard = entity.reactionType;
-            tangon = _closure1_slot12;
-            entity = tangon.ensure;
-            entity = entity.bind(tangon)(option, golfie, oscard);
-            tangon = 'MESSAGE_REACTION_ADD';
-            if(!(tangon !== report)) { _fun00004_ip = 70; continue _fun00003 }
+            zuuluu = _closure1_slot12;
+            entity = zuuluu.ensure;
+            entity = entity.bind(zuuluu)(option, golfie, oscard);
+            zuuluu = 'MESSAGE_REACTION_ADD';
+            if(!(zuuluu !== report)) { _fun00004_ip = 76; continue _fun00003 }
  58:
-            tangon = entity.users;
-            tangon = delete tangon[zuuluu];
-            _fun00004_ip = 101; continue _fun00003;
- 70:
-            tangon = _closure1_slot10;
-            michal = tangon.getUser;
-            michal = michal.bind(tangon)(zuuluu);
-            tangon = null;
-            if(!(tangon != michal)) { _fun00004_ip = 101; continue _fun00003 }
- 91:
-            entity = entity.users;
-            entity[zuuluu] = michal;
- 101:
+            report = entity.users;
+            zuuluu = report.delete;
+            zuuluu = zuuluu.bind(report)(tangon);
+            _fun00004_ip = 114; continue _fun00003;
+ 76:
+            zuuluu = _closure1_slot10;
+            michal = zuuluu.getUser;
+            zuuluu = michal.bind(zuuluu)(tangon);
+            michal = null;
+            if(!(michal != zuuluu)) { _fun00004_ip = 114; continue _fun00003 }
+ 97:
+            michal = entity.users;
+            entity = michal.set;
+            entity = entity.bind(michal)(tangon, zuuluu);
+ 114:
             entity = undefined;
             return entity;
         }
@@ -133,7 +135,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = tangon.bind(entity)(zuuluu, michal);
             michal = false;
             zuuluu['fetched'] = michal;
-            michal = {};
+            michal = global;
+            michal = michal.Map;
+            tangon = michal.prototype;
+            tangon = Object.create(tangon, {constructor: {value: michal}});
+            golfie = tangon;
+            michal = new golfie[michal](oscard);
+            michal = michal instanceof Object ? michal : tangon;
             zuuluu['users'] = michal;
             return entity;
         };
@@ -334,18 +342,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         var _closure2_slot0 = michal;
         michal = zuuluu.forEach;
         entity = function(argFoo) {
-            report = argFoo;
+            oscard = argFoo;
             entity = _closure2_slot0;
-            zuuluu = entity.users;
-            michal = report.id;
+            tangon = entity.users;
+            zuuluu = tangon.set;
+            michal = oscard.id;
             entity = _closure1_slot8;
-            tangon = entity.prototype;
-            tangon = Object.create(tangon, {constructor: {value: entity}});
-            golfie = tangon;
-            oscard = report;
-            entity = new golfie[entity](oscard, report);
-            entity = entity instanceof Object ? entity : tangon;
-            zuuluu[michal] = entity;
+            report = entity.prototype;
+            report = Object.create(report, {constructor: {value: entity}});
+            verify = report;
+            option = oscard;
+            entity = new verify[entity](option, golfie);
+            entity = entity instanceof Object ? entity : report;
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         };
         entity = michal.bind(zuuluu)(entity);

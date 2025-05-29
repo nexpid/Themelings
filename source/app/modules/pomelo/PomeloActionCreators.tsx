@@ -65,20 +65,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 320; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 284; continue _fun00003 }
  10:
                         michal = undefined;
                         offset = undefined;
                         option = undefined;
-                        report = _closure1_slot0;
-                        oscard = _closure1_slot2;
-                        zuuluu = 5;
-                        zuuluu = oscard[zuuluu];
-                        report = report.bind(michal)(zuuluu);
-                        zuuluu = report.hasRegistrationUsernameSuggestions;
-                        zuuluu = zuuluu.bind(report)();
-                        if(!zuuluu) { _fun00004_ip = 317; continue _fun00003 }
- 55:
                         report = _closure1_slot1;
                         zuuluu = _closure1_slot2;
                         oscard = 4;
@@ -89,10 +80,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = 'POMELO_SUGGESTIONS_RESET';
                         zuuluu['type'] = verify;
                         zuuluu = report.bind(golfie)(zuuluu);
- 97: // try_start_0
+ 61: // try_start_0
                         report = _closure1_slot0;
                         golfie = _closure1_slot2;
-                        zuuluu = 6;
+                        zuuluu = 5;
                         zuuluu = golfie[zuuluu];
                         zuuluu = report.bind(michal)(zuuluu);
                         yankee = zuuluu.HTTP;
@@ -105,43 +96,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = null;
                         foxtra = verify == romeon;
                         romeon = undefined;
-                        if(foxtra) { _fun00004_ip = 175; continue _fun00003 }
- 161:
+                        if(foxtra) { _fun00004_ip = 139; continue _fun00003 }
+ 125:
                         foxtra = {};
                         backup = _closure2_slot0;
                         foxtra['global_name'] = backup;
                         romeon = foxtra;
- 175:
+ 139:
                         zuuluu['query'] = romeon;
                         romeon = _closure2_slot1;
                         zuuluu['timeout'] = romeon;
                         romeon = true;
                         zuuluu['rejectWithError'] = romeon;
                         zuuluu = report.bind(yankee)(zuuluu);
-                        SaveGenerator(address=203);
- 201:
+                        SaveGenerator(address=167);
+ 165:
                         return zuuluu;
- 203:
+ 167:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 312; continue _fun00003 }
- 209:
+                        if(report) { _fun00004_ip = 276; continue _fun00003 }
+ 173:
                         option = zuuluu;
                         report = zuuluu.ok;
-                        if(!report) { _fun00004_ip = 250; continue _fun00003 }
- 221:
+                        if(!report) { _fun00004_ip = 214; continue _fun00003 }
+ 185:
                         report = option;
                         report = report.body;
                         offset = report;
                         yankee = verify == report;
                         report = undefined;
-                        if(yankee) { _fun00004_ip = 246; continue _fun00003 }
- 241:
+                        if(yankee) { _fun00004_ip = 210; continue _fun00003 }
+ 205:
                         report = offset.username;
- 246:
-                        if(!(verify == report)) { _fun00004_ip = 252; continue _fun00003 }
- 250: // try_end0
-                        _fun00004_ip = 317; continue _fun00003;
- 252: // try_start_1
+ 210:
+                        if(!(verify == report)) { _fun00004_ip = 216; continue _fun00003 }
+ 214: // try_end0
+                        _fun00004_ip = 281; continue _fun00003;
+ 216: // try_start_1
                         report = _closure1_slot1;
                         tangon = _closure1_slot2;
                         tangon = tangon[oscard];
@@ -155,15 +146,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         golfie = _closure2_slot0;
                         tangon['source'] = golfie;
                         tangon = report.bind(oscard)(tangon);
- 309: // try_end1
+ 273: // try_end1
                         return tangon;
- 312:
+ 276:
                         return zuuluu;
- 315: // catch_target0 // catch_target1
+ 279: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=2);
- 317:
+ 281:
                         return michal;
- 320:
+ 284:
                         return entity;
                     }
                 };
@@ -193,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = undefined;
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    zuuluu = 7;
+                    zuuluu = 6;
                     zuuluu = oscard[zuuluu];
                     report = report.bind(michal)(zuuluu);
                     zuuluu = report.isInPomeloSuggestionsExperiment;
@@ -210,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = {'type': 'POMELO_SUGGESTIONS_FETCH', 'usernameSuggestionLoading': true};
                     zuuluu = report.bind(yankee)(zuuluu);
                     report = _closure1_slot0;
-                    zuuluu = 6;
+                    zuuluu = 5;
                     zuuluu = option[zuuluu];
                     zuuluu = report.bind(michal)(zuuluu);
                     option = zuuluu.HTTP;
@@ -387,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  312: // try_start_0
                         verify = _closure1_slot1;
                         romeon = _closure1_slot2;
-                        michal = 9;
+                        michal = 8;
                         michal = romeon[michal];
                         romeon = verify.bind(tangon)(michal);
                         verify = romeon.post;
@@ -409,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         kiloes = {};
                         result = _closure1_slot0;
                         echoed = _closure1_slot2;
-                        sizing = 10;
+                        sizing = 9;
                         sizing = echoed[sizing];
                         sizing = result.bind(tangon)(sizing);
                         sizing = sizing.NetworkActionNames;
@@ -435,7 +426,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  483:
                         romeon = _closure1_slot1;
                         backup = _closure1_slot2;
-                        verify = 8;
+                        verify = 7;
                         verify = backup[verify];
                         kiloes = romeon.bind(tangon)(verify);
                         backup = kiloes.track;
@@ -471,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         CatchBlockStart(arg_register=11);
                         verify = _closure1_slot0;
                         foxtra = _closure1_slot2;
-                        golfie = 11;
+                        golfie = 10;
                         golfie = foxtra[golfie];
                         golfie = verify.bind(tangon)(golfie);
                         golfie = golfie.APIError;
@@ -494,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         offset = backup;
                         zuuluu = _closure1_slot1;
                         golfie = _closure1_slot2;
-                        verify = 8;
+                        verify = 7;
                         verify = golfie[verify];
                         foxtra = zuuluu.bind(tangon)(verify);
                         romeon = foxtra.track;
@@ -550,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  919:
                         zuuluu = _closure1_slot1;
                         golfie = _closure1_slot2;
-                        option = 8;
+                        option = 7;
                         option = golfie[option];
                         offset = zuuluu.bind(tangon)(option);
                         verify = offset.track;
@@ -612,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  10:
                         tangon = _closure1_slot1;
                         yankee = _closure1_slot2;
-                        michal = 9;
+                        michal = 8;
                         michal = yankee[michal];
                         report = undefined;
                         oscard = tangon.bind(report)(michal);
@@ -625,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal['url'] = golfie;
                         golfie = {};
                         offset = _closure1_slot0;
-                        option = 10;
+                        option = 9;
                         option = yankee[option];
                         option = offset.bind(report)(option);
                         option = option.NetworkActionNames;
@@ -674,7 +665,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['createPomelo'] = tangon;
-    tangon = 12;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

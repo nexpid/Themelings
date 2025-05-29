@@ -2276,6 +2276,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             report = argFoo;
                             report = report.body;
                             michal['bans'] = report;
+                            oscard = _closure2_slot2;
+                            michal['userIds'] = oscard;
                             report = _closure2_slot0;
                             michal['guildId'] = report;
                             michal = zuuluu.bind(tangon)(michal);

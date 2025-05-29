@@ -279,45 +279,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  22:
                         zuuluu = _closure3_slot0;
                         zuuluu = zuuluu.schedulerStarted;
-                        if(!zuuluu) { _fun00012_ip = 271; continue _fun00011 }
- 41:
-                        tangon = _closure3_slot0;
+                        if(!zuuluu) { _fun00012_ip = 140; continue _fun00011 }
+ 38:
+                        michal = _closure3_slot0;
                         zuuluu = false;
-                        tangon['schedulerStarted'] = zuuluu;
-                        report = _closure1_slot0;
-                        oscard = _closure1_slot2;
-                        tangon = 10;
-                        tangon = oscard[tangon];
-                        report = report.bind(entity)(tangon);
-                        tangon = report.getCurrentAdSession;
-                        offset = tangon.bind(report)();
-                        report = _closure1_slot1;
-                        tangon = 11;
-                        tangon = oscard[tangon];
-                        golfie = report.bind(entity)(tangon);
-                        oscard = golfie.track;
-                        tangon = _closure1_slot8;
-                        report = tangon.CLIENT_AD_HEARTBEAT_TERMINATION;
-                        tangon = {};
-                        verify = null;
-                        romeon = verify == offset;
-                        yankee = undefined;
-                        if(romeon) { _fun00012_ip = 136; continue _fun00011 }
- 130:
-                        yankee = offset.uuid;
- 136:
-                        tangon['client_ad_session_id'] = yankee;
-                        yankee = verify == offset;
-                        verify = undefined;
-                        if(yankee) { _fun00012_ip = 156; continue _fun00011 }
- 150:
-                        verify = offset.createdAtTimestamp;
- 156:
-                        tangon['client_heartbeat_initialization_timestamp'] = verify;
-                        verify = 2;
-                        tangon['client_heartbeat_version'] = verify;
-                        tangon['reason'] = option;
-                        tangon = oscard.bind(golfie)(report, tangon);
+                        michal['schedulerStarted'] = zuuluu;
                         tangon = _closure1_slot1;
                         report = _closure1_slot2;
                         zuuluu = 9;
@@ -334,11 +300,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = golfie.bind(oscard)(option);
                         zuuluu['message'] = oscard;
                         zuuluu = tangon.bind(report)(zuuluu);
-                        michal = _closure3_slot0;
                         zuuluu = michal.heartbeatInterval;
                         michal = zuuluu.stop;
                         michal = michal.bind(zuuluu)();
- 271:
+ 140:
                         return entity;
                     }
                 };

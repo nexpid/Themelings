@@ -24,7 +24,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
     golfie = golfie.VanillaExperiment;
-    option = new Array(7);
+    option = new Array(6);
     option[0] = golfie;
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
@@ -47,11 +47,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ShopSKUsInGiftFlowExperiment;
     option[5] = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MentionBadgeOnDMExperiment;
-    option[6] = tangon;
     yankee = michal.DM_GDM_LIST_RENDER;
     michal = {};
     tangon = 'dm/gdm list rendered';
@@ -63,7 +58,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     offset = michal;
     michal = new foxtra[verify](romeon, yankee, offset, verify);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 5;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

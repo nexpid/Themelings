@@ -58,12 +58,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            yankee = entity.guildId;
-            verify = entity.channelId;
-            option = entity.messageId;
-            golfie = entity.jumpType;
-            oscard = entity.preserveDrawerState;
-            report = entity.source;
+            romeon = entity.guildId;
+            offset = entity.channelId;
+            verify = entity.messageId;
+            option = entity.jumpType;
+            golfie = entity.preserveDrawerState;
+            oscard = entity.source;
+            report = entity.isInitialSetup;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot3;
             entity = 8;
@@ -72,20 +73,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(entity)(michal);
             zuuluu = tangon.dispatch;
             michal = {};
-            romeon = 'CHANNEL_SELECT';
-            michal['type'] = romeon;
-            romeon = _closure1_slot9;
-            offset = null;
-            if(!(yankee !== romeon)) { _fun00002_ip = 88; continue _fun00001 }
- 85:
-            offset = yankee;
- 88:
-            michal['guildId'] = offset;
-            michal['channelId'] = verify;
-            michal['messageId'] = option;
-            michal['jumpType'] = golfie;
-            michal['preserveDrawerState'] = oscard;
-            michal['source'] = report;
+            foxtra = 'CHANNEL_SELECT';
+            michal['type'] = foxtra;
+            foxtra = _closure1_slot9;
+            yankee = null;
+            if(!(romeon !== foxtra)) { _fun00002_ip = 94; continue _fun00001 }
+ 91:
+            yankee = romeon;
+ 94:
+            michal['guildId'] = yankee;
+            michal['channelId'] = offset;
+            michal['messageId'] = verify;
+            michal['jumpType'] = option;
+            michal['preserveDrawerState'] = golfie;
+            michal['source'] = oscard;
+            michal['isInitialSetup'] = report;
             michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
