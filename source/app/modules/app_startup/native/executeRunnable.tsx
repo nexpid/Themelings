@@ -37,8 +37,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo, argBar) { // Original name: executeRunnable
         option = argFoo;
+        var _closure2_slot0 = option;
         michal = argBar;
-        var _closure2_slot0 = michal;
+        var _closure2_slot1 = michal;
         zuuluu = _closure1_slot1;
         golfie = _closure1_slot3;
         michal = 2;
@@ -81,7 +82,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 173; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 247; continue _fun00001 }
  10:
                     zuuluu = _closure1_slot0;
                     report = _closure1_slot3;
@@ -104,19 +105,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  86:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 170; continue _fun00001 }
- 92:
+                    if(zuuluu) { _fun00002_ip = 244; continue _fun00001 }
+ 95:
                     zuuluu = _closure1_slot6;
                     zuuluu = zuuluu.promise;
-                    SaveGenerator(address=106);
- 104:
+                    SaveGenerator(address=109);
+ 107:
                     return zuuluu;
- 106:
+ 109:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 167; continue _fun00001 }
- 112:
-                    report = _closure1_slot1;
+                    if(report) { _fun00002_ip = 241; continue _fun00001 }
+ 118:
+                    option = _closure1_slot2;
                     golfie = _closure1_slot3;
+                    report = 4;
+                    report = golfie[report];
+                    verify = option.bind(oscard)(report);
+                    option = verify.startBridgeTo;
+                    offset = _closure2_slot0;
+                    report = offset.toLowerCase;
+                    yankee = report.bind(offset)();
+                    report = global;
+                    report = report.HermesInternal;
+                    offset = report.concat;
+                    report = 'AppContainer:';
+                    report = offset.bind(report)(yankee);
+                    report = option.bind(verify)(report);
+                    report = _closure1_slot1;
                     tangon = 7;
                     tangon = golfie[tangon];
                     option = report.bind(oscard)(tangon);
@@ -132,17 +147,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = zuuluu.bind(entity)(michal);
                         zuuluu = entity.Emitter;
                         michal = zuuluu.batched;
-                        entity = _closure2_slot0;
+                        entity = _closure2_slot1;
                         entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
                     tangon = golfie.bind(option)(oscard, report, tangon);
                     return tangon;
- 167:
+ 241:
                     return zuuluu;
- 170:
+ 244:
                     return michal;
- 173:
+ 247:
                     return entity;
                 }
             };

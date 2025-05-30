@@ -321,8 +321,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.isAndroid;
             offset = verify.bind(offset)();
             verify = undefined;
-            if(!offset) { _fun00002_ip = 855; continue _fun00001 }
- 807:
+            if(!offset) { _fun00002_ip = 859; continue _fun00001 }
+ 811:
             output = _closure1_slot11;
             romeon = _closure1_slot0;
             result = _closure1_slot2;
@@ -334,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 'soundboard-footer';
             offset['name'] = result;
             verify = output.bind(tangon)(romeon, offset);
- 855:
+ 859:
             oscard['footer'] = verify;
             result = _closure1_slot12;
             offset = _closure1_slot5;

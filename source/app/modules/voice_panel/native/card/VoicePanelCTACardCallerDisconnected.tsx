@@ -305,8 +305,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(2);
             verify[0] = foxtra;
             offset = offset != result;
-            if(!offset) { _fun00004_ip = 786; continue _fun00003 }
- 672:
+            if(!offset) { _fun00004_ip = 782; continue _fun00003 }
+ 668:
             foxtra = _closure1_slot8;
             kiloes = _closure1_slot0;
             backup = _closure1_slot2;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(output)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 786:
+ 782:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

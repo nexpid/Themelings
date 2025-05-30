@@ -161,14 +161,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = null;
             sizing = result == kiloes;
             backup = undefined;
-            if(sizing) { _fun00002_ip = 363; continue _fun00001 }
- 358:
+            if(sizing) { _fun00002_ip = 365; continue _fun00001 }
+ 360:
             backup = kiloes.id;
- 363:
+ 365:
             kiloes = result != backup;
             backup = null;
-            if(!kiloes) { _fun00002_ip = 459; continue _fun00001 }
- 372:
+            if(!kiloes) { _fun00002_ip = 461; continue _fun00001 }
+ 374:
             output = _closure1_slot4;
             sizing = _closure1_slot1;
             update = _closure1_slot2;
@@ -179,21 +179,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = echoed.inviter;
             ctrled = result == source;
             update = undefined;
-            if(ctrled) { _fun00002_ip = 426; continue _fun00001 }
- 421:
+            if(ctrled) { _fun00002_ip = 428; continue _fun00001 }
+ 423:
             update = source.id;
- 426:
+ 428:
             kiloes['userId'] = update;
             echoed = echoed.guild;
             update = result == echoed;
             result = undefined;
-            if(update) { _fun00002_ip = 449; continue _fun00001 }
- 444:
+            if(update) { _fun00002_ip = 451; continue _fun00001 }
+ 446:
             result = echoed.id;
- 449:
+ 451:
             kiloes['guildId'] = result;
             backup = output.bind(tangon)(sizing, kiloes);
- 459:
+ 461:
             option['children'] = backup;
             offset = yankee.bind(tangon)(offset, option);
             option = new Array(2);

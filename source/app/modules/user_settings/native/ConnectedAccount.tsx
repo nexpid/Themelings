@@ -647,24 +647,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = option.get;
                         michal = zuuluu.type;
                         sizing = golfie.bind(option)(michal);
-                        offset = _closure1_slot0;
+                        golfie = _closure1_slot0;
                         option = 20;
                         michal = oscard[option];
-                        michal = offset.bind(entity)(michal);
-                        verify = michal.intl;
-                        golfie = verify.string;
+                        michal = golfie.bind(entity)(michal);
+                        offset = michal.intl;
+                        verify = offset.format;
                         michal = oscard[option];
-                        michal = offset.bind(entity)(michal);
+                        michal = golfie.bind(entity)(michal);
                         michal = michal.t;
-                        michal = michal.apVJu7;
-                        offset = golfie.bind(verify)(michal);
+                        golfie = michal.VgqIPj;
+                        michal = {};
+                        romeon = sizing.name;
+                        michal['provider'] = romeon;
+                        offset = verify.bind(offset)(golfie, michal);
                         michal = 25;
                         michal = oscard[michal];
                         michal = tangon.bind(entity)(michal);
                         michal = michal.bind(entity)(zuuluu);
                         verify = undefined;
-                        if(!michal) { _fun00008_ip = 342; continue _fun00007 }
- 150:
+                        if(!michal) { _fun00008_ip = 355; continue _fun00007 }
+ 163:
                         tangon = _closure1_slot20;
                         zuuluu = _closure1_slot11;
                         michal = {};
@@ -709,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard[1] = golfie;
                         michal['children'] = oscard;
                         verify = tangon.bind(entity)(zuuluu, michal);
- 342:
+ 355:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
                         michal = 27;

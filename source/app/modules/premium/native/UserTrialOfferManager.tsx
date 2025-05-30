@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot15 = michal;
+            _closure1_slot14 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -92,10 +92,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot11 = option;
     option = tangon.PREMIUM_TIER_2_REACTIVATION_TRIAL_ID;
     var _closure1_slot12 = option;
-    option = tangon.PREMIUM_TIER_2_NEW_USER_CPV_TRIAL_ID;
-    var _closure1_slot13 = option;
     tangon = tangon.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
-    var _closure1_slot14 = tangon;
+    var _closure1_slot13 = tangon;
     tangon = 17;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
@@ -118,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 verify = entity.bind(tangon)(zuuluu);
                 zuuluu = _closure1_slot5;
-                entity = _closure1_slot15;
+                entity = _closure1_slot14;
                 entity = entity.bind(tangon)();
                 if(entity) { _fun00004_ip = 86; continue _fun00003 }
  73:
@@ -205,10 +203,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = argFoo;
                         report = entity.userTrialOffer;
                         golfie = null;
-                        if(!(golfie != report)) { _fun00008_ip = 372; continue _fun00007 }
+                        if(!(golfie != report)) { _fun00008_ip = 364; continue _fun00007 }
  18:
                         entity = _closure1_slot10;
-                        tangon = new Array(5);
+                        tangon = new Array(4);
                         tangon[0] = entity;
                         entity = _closure1_slot11;
                         tangon[1] = entity;
@@ -216,13 +214,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon[2] = entity;
                         entity = _closure1_slot13;
                         tangon[3] = entity;
-                        entity = _closure1_slot14;
-                        tangon[4] = entity;
                         zuuluu = tangon.includes;
                         entity = report.trial_id;
                         entity = zuuluu.bind(tangon)(entity);
-                        if(!entity) { _fun00008_ip = 372; continue _fun00007 }
- 87:
+                        if(!entity) { _fun00008_ip = 364; continue _fun00007 }
+ 79:
                         tangon = _closure1_slot0;
                         entity = _closure1_slot2;
                         zuuluu = 10;
@@ -244,22 +240,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = tangon.bind(oscard)(entity);
                         entity = tangon.isIOS;
                         option = entity.bind(tangon)();
-                        if(option) { _fun00008_ip = 213; continue _fun00007 }
- 178:
+                        if(option) { _fun00008_ip = 205; continue _fun00007 }
+ 170:
                         tangon = _closure1_slot0;
                         entity = _closure1_slot2;
                         entity = entity[verify];
                         tangon = tangon.bind(oscard)(entity);
                         entity = tangon.isAndroid;
                         entity = entity.bind(tangon)();
-                        if(!entity) { _fun00008_ip = 210; continue _fun00007 }
- 207:
+                        if(!entity) { _fun00008_ip = 202; continue _fun00007 }
+ 199:
                         entity = zuuluu;
- 210:
+ 202:
                         option = entity;
- 213:
+ 205:
                         tangon = report.trial_id;
-                        zuuluu = _closure1_slot14;
+                        zuuluu = _closure1_slot13;
                         yankee = _closure1_slot0;
                         romeon = _closure1_slot2;
                         entity = 12;
@@ -272,17 +268,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = entity.DismissibleContent;
                         entity = entity.TRIAL_FOR_ALL_INITIAL_UPSELL;
                         entity = verify.bind(offset)(entity);
-                        if(!option) { _fun00008_ip = 298; continue _fun00007 }
- 281:
+                        if(!option) { _fun00008_ip = 290; continue _fun00007 }
+ 273:
                         report = report.expires_at;
-                        if(!(golfie != report)) { _fun00008_ip = 300; continue _fun00007 }
- 291:
-                        if(!(tangon === zuuluu)) { _fun00008_ip = 298; continue _fun00007 }
- 295:
-                        if(!entity) { _fun00008_ip = 300; continue _fun00007 }
- 298:
+                        if(!(golfie != report)) { _fun00008_ip = 292; continue _fun00007 }
+ 283:
+                        if(!(tangon === zuuluu)) { _fun00008_ip = 290; continue _fun00007 }
+ 287:
+                        if(!entity) { _fun00008_ip = 292; continue _fun00007 }
+ 290:
                         return oscard;
- 300:
+ 292:
                         tangon = _closure1_slot1;
                         entity = _closure1_slot2;
                         zuuluu = 14;
@@ -299,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = report.bind(oscard)(michal, entity);
                         entity = 'PremiumTrialOfferActionSheet';
                         entity = zuuluu.bind(tangon)(michal, entity);
- 372:
+ 364:
                         entity = undefined;
                         return entity;
                     }

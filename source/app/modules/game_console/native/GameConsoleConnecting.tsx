@@ -136,15 +136,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.type;
             entity = _closure1_slot8;
             entity = entity.XBOX;
-            if(!(entity !== michal)) { _fun00002_ip = 318; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 314; continue _fun00001 }
  146:
             entity = _closure1_slot8;
             entity = entity.PLAYSTATION;
-            if(!(entity !== michal)) { _fun00002_ip = 242; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 238; continue _fun00001 }
  160:
             entity = _closure1_slot8;
             entity = entity.PLAYSTATION_STAGING;
-            if(!(entity !== michal)) { _fun00002_ip = 242; continue _fun00001 }
+            if(!(entity !== michal)) { _fun00002_ip = 238; continue _fun00001 }
  174:
             zuuluu = _closure1_slot9;
             michal = _closure1_slot5;
@@ -158,8 +158,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.WHITE_500;
             entity['color'] = report;
             report = zuuluu.bind(tangon)(michal, entity);
-            _fun00002_ip = 392; continue _fun00001;
- 242:
+            _fun00002_ip = 388; continue _fun00001;
+ 238:
             zuuluu = _closure1_slot9;
             michal = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -178,8 +178,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = !option;
             entity['autoPlay'] = offset;
             report = zuuluu.bind(tangon)(michal, entity);
-            _fun00002_ip = 392; continue _fun00001;
- 318:
+            _fun00002_ip = 388; continue _fun00001;
+ 314:
             zuuluu = _closure1_slot9;
             michal = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = !option;
             entity['autoPlay'] = option;
             report = zuuluu.bind(tangon)(michal, entity);
- 392:
+ 388:
             zuuluu = _closure1_slot9;
             michal = _closure1_slot4;
             entity = {};

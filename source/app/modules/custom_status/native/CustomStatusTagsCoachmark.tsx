@@ -1,24 +1,24 @@
 // app/modules/custom_status/native/CustomStatusTagsCoachmark.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    verify = argBaz;
+    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = verify;
+    var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
     entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
+    verify = entity.Object;
+    option = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    tangon = verify.bind(entity)(tangon);
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
     golfie = oscard[tangon];
@@ -28,25 +28,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    option = tangon.Image;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.ContentDismissActionType;
     var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot6 = tangon;
-    golfie = option.resolveAssetSource;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = verify.bind(entity)(tangon);
-    tangon = golfie.bind(option)(tangon);
-    tangon = tangon.uri;
-    var _closure1_slot7 = tangon;
-    tangon = 14;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -57,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = michal.targetRef;
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        michal = 6;
+        michal = 3;
         golfie = oscard[michal];
         michal = undefined;
         golfie = report.bind(michal)(golfie);
@@ -65,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = golfie.CUSTOM_STATUS_PROMPTS_COACHMARK;
         verify = new Array(1);
         verify[0] = golfie;
-        golfie = 7;
+        golfie = 4;
         golfie = oscard[golfie];
         option = report.bind(michal)(golfie);
         golfie = option.useSelectedDismissibleContent;
@@ -80,10 +64,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = option[golfie];
         var _closure2_slot1 = offset;
         verify = _closure1_slot1;
-        golfie = 8;
+        golfie = 5;
         golfie = oscard[golfie];
         option = verify.bind(michal)(golfie);
-        golfie = 9;
+        golfie = 6;
         golfie = oscard[golfie];
         golfie = verify.bind(michal)(golfie);
         golfie = golfie.CUSTOM_STATUS_TAGS_COACHMARK;
@@ -100,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 10;
+            zuuluu = 7;
             tangon = option[zuuluu];
             oscard = undefined;
             tangon = golfie.bind(oscard)(tangon);
@@ -125,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 'bottom';
             entity['position'] = tangon;
             report = _closure2_slot0;
-            tangon = 6;
+            tangon = 3;
             tangon = option[tangon];
             tangon = golfie.bind(oscard)(tangon);
             tangon = tangon.DismissibleContent;
@@ -153,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['buttonLabel'] = zuuluu;
             zuuluu = 'primary';
             entity['buttonVariant'] = zuuluu;
-            zuuluu = function() { // Original name: onButtonPress
+            michal = function() { // Original name: onButtonPress
                 tangon = _closure2_slot1;
                 entity = _closure1_slot5;
                 zuuluu = entity.TAKE_ACTION;
@@ -161,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.bind(entity)(zuuluu);
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
-                michal = 11;
+                michal = 8;
                 michal = tangon[michal];
                 tangon = zuuluu.bind(entity)(michal);
                 zuuluu = tangon.openEditCustomStatusModal;
@@ -173,27 +157,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            entity['onButtonPress'] = zuuluu;
-            michal = function() { // Original name: renderImgComponent
-                tangon = _closure1_slot6;
-                michal = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                entity = 12;
-                entity = zuuluu[entity];
-                zuuluu = undefined;
-                entity = michal.bind(zuuluu)(entity);
-                michal = entity.SvgUri;
-                entity = {'uri': null, 'width': 184, 'height': 84};
-                report = _closure1_slot7;
-                entity['uri'] = report;
-                entity = tangon.bind(zuuluu)(michal, entity);
-                return entity;
-            };
-            entity['renderImgComponent'] = michal;
+            entity['onButtonPress'] = michal;
             return entity;
         };
         zuuluu = golfie.bind(option)(entity, zuuluu);
-        entity = 13;
+        entity = 9;
         entity = oscard[entity];
         michal = report.bind(michal)(entity);
         entity = michal.useCoachmark;

@@ -502,10 +502,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = null;
                     option = oscard != option;
                     oscard = undefined;
-                    if(!option) { _fun00014_ip = 88; continue _fun00013 }
- 84:
-                    oscard = _closure2_slot3;
+                    if(!option) { _fun00014_ip = 92; continue _fun00013 }
  88:
+                    oscard = _closure2_slot3;
+ 92:
                     michal['channel'] = oscard;
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;

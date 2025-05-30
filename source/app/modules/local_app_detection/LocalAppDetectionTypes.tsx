@@ -1,0 +1,30 @@
+// app/modules/local_app_detection/LocalAppDetectionTypes.tsx
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    entity = global;
+    report = entity.Object;
+    tangon = report.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    tangon = {};
+    entity = 'roblox';
+    tangon['ROBLOX'] = entity;
+    entity = tangon.ROBLOX;
+    michal = new Array(1);
+    michal[0] = entity;
+    report = argPlu;
+    entity = 0;
+    oscard = report[entity];
+    report = argBar;
+    entity = undefined;
+    golfie = report.bind(entity)(oscard);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/local_app_detection/LocalAppDetectionTypes.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['DetectableAppNames'] = tangon;
+    zuuluu['ALL_DETECTABLE_APP_NAMES'] = michal;
+    return entity;
+})();

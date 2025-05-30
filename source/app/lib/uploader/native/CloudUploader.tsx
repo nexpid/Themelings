@@ -2138,7 +2138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     source = argFoo;
                     oscard = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00042_ip = 1341; continue _fun00041 }
+                    if(michal) { _fun00042_ip = 1343; continue _fun00041 }
  18:
                     var _closure4_slot0 = oscard;
                     romeon = source;
@@ -2372,8 +2372,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     output = result.get;
                     foxtra = 'send_fail_100';
                     foxtra = output.bind(result)(foxtra);
-                    if(foxtra) { _fun00042_ip = 983; continue _fun00041 }
- 851:
+                    if(foxtra) { _fun00042_ip = 985; continue _fun00041 }
+ 853:
                     foxtra = offset;
                     offset = {};
                     output = oscard._url;
@@ -2387,18 +2387,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = 'rejectWithError';
                     offset[kiloes] = sizing;
                     offset = foxtra.bind(zuuluu)(offset);
-                    SaveGenerator(address=906);
- 904:
-                    return offset;
+                    SaveGenerator(address=908);
  906:
+                    return offset;
+ 908:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=12);
-                    if(foxtra) { _fun00042_ip = 980; continue _fun00041 }
- 912:
+                    if(foxtra) { _fun00042_ip = 982; continue _fun00041 }
+ 914:
                     tangon = offset;
                     foxtra = romeon;
                     foxtra = foxtra.channel_id;
-                    if(!(yankee != foxtra)) { _fun00042_ip = 975; continue _fun00041 }
- 927:
+                    if(!(yankee != foxtra)) { _fun00042_ip = 977; continue _fun00041 }
+ 929:
                     kiloes = _closure1_slot1;
                     sizing = _closure1_slot2;
                     foxtra = 28;
@@ -2410,18 +2410,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = romeon.body;
                     romeon = true;
                     romeon = sizing.bind(output)(kiloes, foxtra, romeon);
- 975: // try_end0
-                    _fun00042_ip = 1242; continue _fun00041;
- 980:
+ 977: // try_end0
+                    _fun00042_ip = 1244; continue _fun00041;
+ 982:
                     return offset;
- 983: // try_start_1
+ 985: // try_start_1
                     foxtra = _closure1_slot19;
                     romeon = foxtra.log;
                     offset = 'Skipping message send with upload because send_fail_100 is enabled';
                     offset = romeon.bind(foxtra)(offset);
                     offset = verify;
-                    if(!(yankee != offset)) { _fun00042_ip = 1036; continue _fun00041 }
- 1011:
+                    if(!(yankee != offset)) { _fun00042_ip = 1038; continue _fun00041 }
+ 1013:
                     foxtra = verify;
                     romeon = {};
                     yankee = 500;
@@ -2430,27 +2430,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     offset = foxtra.bind(zuuluu)(romeon, yankee, offset);
- 1036:
+ 1038:
                     yankee = oscard._handleComplete;
                     offset = {};
                     offset = yankee.bind(oscard)(offset);
- 1049: // try_end1
+ 1051: // try_end1
                     offset = undefined;
                     return offset;
- 1054: // catch_target0 // catch_target1
+ 1056: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=13);
                     offset = oscard._aborted;
-                    if(offset) { _fun00042_ip = 1315; continue _fun00041 }
- 1068:
+                    if(offset) { _fun00042_ip = 1317; continue _fun00041 }
+ 1070:
                     offset = backup;
                     yankee = offset.status;
                     offset = 400;
-                    if(!(yankee >= offset)) { _fun00042_ip = 1129; continue _fun00041 }
- 1086:
+                    if(!(yankee >= offset)) { _fun00042_ip = 1131; continue _fun00041 }
+ 1088:
                     yankee = verify;
                     offset = null;
-                    if(!(offset != yankee)) { _fun00042_ip = 1129; continue _fun00041 }
- 1095:
+                    if(!(offset != yankee)) { _fun00042_ip = 1131; continue _fun00041 }
+ 1097:
                     yankee = verify;
                     verify = backup;
                     offset = verify.body;
@@ -2521,28 +2521,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     option = option.bind(zuuluu)();
                     option = yankee.bind(zuuluu)(offset, verify, option);
- 1129:
+ 1131:
                     offset = _closure1_slot19;
                     verify = offset.error;
                     option = backup;
                     kiloes = null;
                     option = kiloes == option;
                     sizing = undefined;
-                    if(option) { _fun00042_ip = 1160; continue _fun00041 }
- 1152:
+                    if(option) { _fun00042_ip = 1162; continue _fun00041 }
+ 1154:
                     option = backup;
                     sizing = option.status;
- 1160:
+ 1162:
                     option = global;
                     foxtra = option.JSON;
                     romeon = foxtra.stringify;
                     yankee = backup;
                     kiloes = kiloes == yankee;
                     yankee = undefined;
-                    if(kiloes) { _fun00042_ip = 1191; continue _fun00041 }
- 1186:
+                    if(kiloes) { _fun00042_ip = 1193; continue _fun00041 }
+ 1188:
                     yankee = backup.body;
- 1191:
+ 1193:
                     record = romeon.bind(foxtra)(yankee);
                     sequen = oscard.id;
                     option = option.HermesInternal;
@@ -2553,37 +2553,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     papara = sizing;
                     option = target[foxtra](papara, cntext, record, config, sequen, vacuum);
                     option = verify.bind(offset)(option);
- 1242:
+ 1244:
                     offset = oscard._trackMessageSentWithAttachments;
                     verify = tangon;
                     report = verify;
                     option = null;
                     yankee = option == verify;
                     verify = undefined;
-                    if(yankee) { _fun00042_ip = 1272; continue _fun00041 }
- 1267:
+                    if(yankee) { _fun00042_ip = 1274; continue _fun00041 }
+ 1269:
                     verify = report.body;
- 1272:
+ 1274:
                     report = oscard.files;
                     report = offset.bind(oscard)(verify, report);
                     report = oscard._handleComplete;
                     golfie = tangon;
                     option = option == tangon;
                     tangon = undefined;
-                    if(option) { _fun00042_ip = 1307; continue _fun00041 }
- 1302:
+                    if(option) { _fun00042_ip = 1309; continue _fun00041 }
+ 1304:
                     tangon = golfie.body;
- 1307:
+ 1309:
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 1315:
+ 1317:
                     tangon = _closure1_slot19;
                     zuuluu = tangon.log;
                     michal = 'Upload was aborted for send message; skip handling request error';
                     michal = zuuluu.bind(tangon)(michal);
                     michal = undefined;
                     return michal;
- 1341:
+ 1343:
                     return entity;
                 }
             };

@@ -17,65 +17,100 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar, argBaz) { // Original name: useStateFromStores
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            option = argFoo;
-            tangon = argBar;
-            yankee = argBaz;
-            verify = arguments[3];
-            var _closure2_slot0 = option;
-            var _closure2_slot1 = tangon;
-            var _closure2_slot2 = yankee;
+            golfie = argFoo;
+            option = argBar;
+            romeon = argBaz;
+            offset = arguments[3];
+            var _closure2_slot0 = golfie;
+            var _closure2_slot1 = option;
+            var _closure2_slot2 = romeon;
             report = undefined;
-            if(!(verify === report)) { _fun00002_ip = 39; continue _fun00001 }
+            if(!(offset === report)) { _fun00002_ip = 39; continue _fun00001 }
  32:
-            verify = _closure1_slot7;
+            offset = _closure1_slot7;
  39:
-            var _closure2_slot3 = verify;
+            var _closure2_slot3 = offset;
             var _closure2_slot4 = report;
             var _closure2_slot5 = report;
             var _closure2_slot6 = report;
             entity = _closure1_slot5;
             oscard = null;
             entity = entity.bind(report)(oscard);
-            golfie = entity.current;
-            if(!(oscard == golfie)) { _fun00002_ip = 110; continue _fun00001 }
+            tangon = entity.current;
+            if(!(oscard == tangon)) { _fun00002_ip = 145; continue _fun00001 }
  78:
-            golfie = {};
-            golfie['stores'] = option;
-            golfie['areStatesEqual'] = verify;
-            golfie['getStateFromStores'] = tangon;
-            golfie['prevDeps'] = report;
-            golfie['state'] = report;
-            entity['current'] = golfie;
- 110:
-            entity = entity.current;
-            _closure2_slot4 = entity;
-            option = entity.state;
-            _closure2_slot5 = option;
-            if(!(oscard != yankee)) { _fun00002_ip = 176; continue _fun00001 }
- 132:
-            offset = _closure1_slot0;
-            romeon = _closure1_slot2;
+            tangon = {};
+            tangon['stores'] = golfie;
+            tangon['areStatesEqual'] = offset;
+            tangon['getStateFromStores'] = option;
+            tangon['prevDeps'] = report;
+            tangon['state'] = report;
+            verify = _closure1_slot0;
+            yankee = _closure1_slot2;
             golfie = 2;
-            golfie = romeon[golfie];
-            offset = offset.bind(report)(golfie);
-            golfie = offset.areArraysShallowEqual;
-            entity = entity.prevDeps;
-            golfie = golfie.bind(offset)(yankee, entity);
-            entity = option;
-            if(golfie) { _fun00002_ip = 206; continue _fun00001 }
- 176:
-            tangon = tangon.bind(report)();
-            golfie = oscard != option;
-            if(!golfie) { _fun00002_ip = 193; continue _fun00001 }
- 187:
-            golfie = verify.bind(report)(option, tangon);
- 193:
-            entity = option;
-            if(golfie) { _fun00002_ip = 206; continue _fun00001 }
- 199:
+            golfie = yankee[golfie];
+            verify = verify.bind(report)(golfie);
+            golfie = verify.createContext;
+            golfie = golfie.bind(verify)();
+            tangon['libDiscoreContext'] = golfie;
+            entity['current'] = tangon;
+ 145:
+            golfie = entity.current;
+            _closure2_slot4 = golfie;
+            tangon = golfie.state;
             _closure2_slot5 = tangon;
+            if(!(oscard != romeon)) { _fun00002_ip = 214; continue _fun00001 }
+ 167:
+            verify = _closure1_slot0;
+            yankee = _closure1_slot2;
+            entity = 3;
+            entity = yankee[entity];
+            yankee = verify.bind(report)(entity);
+            verify = yankee.areArraysShallowEqual;
+            entity = golfie.prevDeps;
+            verify = verify.bind(yankee)(romeon, entity);
             entity = tangon;
- 206:
+            if(verify) { _fun00002_ip = 346; continue _fun00001 }
+ 214:
+            verify = golfie.libDiscoreContext;
+            if(!(report !== verify)) { _fun00002_ip = 261; continue _fun00001 }
+ 224:
+            yankee = _closure1_slot0;
+            romeon = _closure1_slot2;
+            verify = 2;
+            verify = romeon[verify];
+            romeon = yankee.bind(report)(verify);
+            yankee = romeon.enterContext;
+            verify = golfie.libDiscoreContext;
+            verify = yankee.bind(romeon)(verify);
+ 261:
+            verify = option.bind(report)();
+            option = oscard != tangon;
+            if(!option) { _fun00002_ip = 278; continue _fun00001 }
+ 272:
+            option = offset.bind(report)(tangon, verify);
+ 278:
+            offset = false;
+            if(option) { _fun00002_ip = 292; continue _fun00001 }
+ 283:
+            _closure2_slot5 = verify;
+            offset = true;
+            tangon = verify;
+ 292:
+            option = golfie.libDiscoreContext;
+            entity = tangon;
+            if(!(report !== option)) { _fun00002_ip = 346; continue _fun00001 }
+ 305:
+            verify = _closure1_slot0;
+            yankee = _closure1_slot2;
+            option = 2;
+            option = yankee[option];
+            verify = verify.bind(report)(option);
+            option = verify.exitContext;
+            golfie = golfie.libDiscoreContext;
+            golfie = option.bind(verify)(golfie, offset);
+            entity = tangon;
+ 346:
             golfie = _closure1_slot6;
             tangon = function() {
                 zuuluu = _closure2_slot4;
@@ -103,38 +138,70 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = function() {
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                michal = 3;
+                michal = 4;
                 zuuluu = zuuluu[michal];
                 michal = undefined;
                 michal = tangon.bind(michal)(zuuluu);
-                report = michal.BatchedStoreListener;
-                golfie = _closure2_slot0;
-                michal = report.prototype;
-                zuuluu = Object.create(michal, {constructor: {value: report}});
-                oscard = function() {
+                oscard = michal.BatchedStoreListener;
+                verify = _closure2_slot0;
+                michal = _closure2_slot4;
+                golfie = michal.libDiscoreContext;
+                michal = oscard.prototype;
+                zuuluu = Object.create(michal, {constructor: {value: oscard}});
+                option = function() {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                        zuuluu = _closure2_slot4;
-                        entity = zuuluu.getStateFromStores;
-                        tangon = entity.bind(zuuluu)();
-                        report = _closure2_slot3;
                         entity = _closure2_slot4;
-                        zuuluu = entity.state;
+                        zuuluu = entity.libDiscoreContext;
                         entity = undefined;
+                        if(!(entity !== zuuluu)) { _fun00004_ip = 63; continue _fun00003 }
+ 19:
+                        tangon = _closure1_slot0;
+                        report = _closure1_slot2;
+                        zuuluu = 2;
+                        zuuluu = report[zuuluu];
+                        report = tangon.bind(entity)(zuuluu);
+                        tangon = report.enterContext;
+                        zuuluu = _closure2_slot4;
+                        zuuluu = zuuluu.libDiscoreContext;
+                        zuuluu = tangon.bind(report)(zuuluu);
+ 63:
+                        tangon = _closure2_slot4;
+                        zuuluu = tangon.getStateFromStores;
+                        tangon = zuuluu.bind(tangon)();
+                        report = _closure2_slot3;
+                        zuuluu = _closure2_slot4;
+                        zuuluu = zuuluu.state;
                         zuuluu = report.bind(entity)(zuuluu, tangon);
-                        if(zuuluu) { _fun00004_ip = 62; continue _fun00003 }
- 41:
+                        report = false;
+                        if(zuuluu) { _fun00004_ip = 124; continue _fun00003 }
+ 101:
                         zuuluu = _closure2_slot4;
                         zuuluu['state'] = tangon;
-                        zuuluu = _closure2_slot6;
-                        michal = {};
-                        michal = zuuluu.bind(entity)(michal);
- 62:
+                        tangon = _closure2_slot6;
+                        zuuluu = {};
+                        zuuluu = tangon.bind(entity)(zuuluu);
+                        report = true;
+ 124:
+                        zuuluu = _closure2_slot4;
+                        zuuluu = zuuluu.libDiscoreContext;
+                        if(!(entity !== zuuluu)) { _fun00004_ip = 183; continue _fun00003 }
+ 138:
+                        tangon = _closure1_slot0;
+                        oscard = _closure1_slot2;
+                        zuuluu = 2;
+                        zuuluu = oscard[zuuluu];
+                        tangon = tangon.bind(entity)(zuuluu);
+                        zuuluu = tangon.exitContext;
+                        michal = _closure2_slot4;
+                        michal = michal.libDiscoreContext;
+                        michal = zuuluu.bind(tangon)(michal, report);
+ 183:
                         return entity;
                     }
                 };
-                option = zuuluu;
-                michal = new option[report](golfie, oscard, report);
+                offset = zuuluu;
+                michal = new offset[oscard](verify, option, golfie, oscard);
                 tangon = michal instanceof Object ? michal : zuuluu;
                 var _closure3_slot0 = tangon;
                 zuuluu = tangon.attach;
@@ -176,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = option;
     report = report.useInsertionEffect;
     var _closure1_slot6 = report;
-    report = 4;
+    report = 5;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -192,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = _closure1_slot8;
         michal = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 2;
+        entity = 3;
         entity = zuuluu[entity];
         report = undefined;
         golfie = michal.bind(report)(entity);
@@ -208,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = _closure1_slot8;
         michal = _closure1_slot0;
         zuuluu = _closure1_slot2;
-        entity = 2;
+        entity = 3;
         entity = zuuluu[entity];
         report = undefined;
         entity = michal.bind(report)(entity);

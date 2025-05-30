@@ -88,22 +88,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.bind(entity)(zuuluu);
             zuuluu = zuuluu.NEW_USER_MODAL_KEY;
             zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00004_ip = 143; continue _fun00003 }
+            if(!zuuluu) { _fun00004_ip = 140; continue _fun00003 }
  90:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            zuuluu = 16;
-            zuuluu = report[zuuluu];
-            oscard = tangon.bind(entity)(zuuluu);
-            report = oscard.transitionTo;
-            zuuluu = _closure1_slot8;
-            tangon = zuuluu.ME;
-            zuuluu = {};
-            option = true;
-            zuuluu['navigationReplace'] = option;
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
-            _fun00004_ip = 193; continue _fun00003;
- 143:
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
             tangon = 15;
@@ -115,9 +101,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.bind(entity)(zuuluu);
             zuuluu = zuuluu.NEW_USER_MODAL_KEY;
             zuuluu = tangon.bind(report)(zuuluu);
- 193:
+ 140:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
+            report = 16;
+            report = tangon[report];
+            golfie = zuuluu.bind(entity)(report);
+            oscard = golfie.transitionTo;
+            michal = _closure1_slot8;
+            report = michal.ME;
+            michal = {};
+            option = true;
+            michal['navigationReplace'] = option;
+            michal = oscard.bind(golfie)(report, michal);
             michal = 17;
             michal = tangon[michal];
             zuuluu = zuuluu.bind(entity)(michal);

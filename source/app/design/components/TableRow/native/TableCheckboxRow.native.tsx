@@ -22,9 +22,13 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    tangon = tangon.Platform;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot3 = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -60,7 +64,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             var _closure2_slot2 = tangon;
             michal = _closure1_slot0;
             output = _closure1_slot1;
-            zuuluu = 2;
+            zuuluu = 3;
             zuuluu = output[zuuluu];
             oscard = michal.bind(tangon)(zuuluu);
             zuuluu = oscard.useSharedValue;
@@ -97,7 +101,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 return entity;
             };
             golfie = oscard.bind(golfie)(entity, zuuluu);
-            entity = 3;
+            entity = 4;
             zuuluu = output[entity];
             oscard = michal.bind(tangon)(zuuluu);
             zuuluu = oscard.getNodeText;
@@ -107,7 +111,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = zuuluu.getNodeText;
             oscard = entity.bind(zuuluu)(kiloes);
             zuuluu = _closure1_slot3;
-            entity = 4;
+            entity = 5;
             entity = output[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.TableRow;
@@ -158,7 +162,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             golfie = _closure1_slot3;
             oscard = _closure1_slot0;
             verify = _closure1_slot1;
-            report = 5;
+            report = 6;
             report = verify[report];
             report = oscard.bind(tangon)(report);
             oscard = report.FormCheckbox;

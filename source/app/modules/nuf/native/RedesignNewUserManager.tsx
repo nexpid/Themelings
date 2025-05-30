@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 michal = offset[michal];
                                 michal = verify.bind(entity)(michal);
                                 zuuluu = michal.NEW_USER_MODAL_KEY;
-                                michal = {'fullScreenGestureEnabled': false, 'presentation': null, 'animation': 'slide_from_right'};
+                                michal = {'fullScreenGestureEnabled': false, 'presentation': null, 'animation': 'slide_from_bottom'};
                                 option = 13;
                                 option = offset[option];
                                 verify = verify.bind(entity)(option);

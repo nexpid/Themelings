@@ -236,16 +236,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot7;
             verify = entity == option;
             michal = undefined;
-            if(verify) { _fun00006_ip = 239; continue _fun00005 }
+            if(verify) { _fun00006_ip = 241; continue _fun00005 }
  233:
             michal = option.stalePurchasesOK;
- 239:
+ 241:
             verify = entity == option;
             entity = undefined;
-            if(verify) { _fun00006_ip = 253; continue _fun00005 }
- 248:
+            if(verify) { _fun00006_ip = 255; continue _fun00005 }
+ 250:
             entity = option.location;
- 253:
+ 255:
             michal = tangon.bind(report)(michal, entity);
             option = michal.isClaiming;
             report = michal.fetchPurchasesError;
@@ -253,10 +253,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = michal.isFetching;
             entity = {};
             yankee = offset;
-            if(yankee) { _fun00006_ip = 294; continue _fun00005 }
- 291:
+            if(yankee) { _fun00006_ip = 296; continue _fun00005 }
+ 293:
             yankee = verify;
- 294:
+ 296:
             entity['isFetching'] = yankee;
             entity['isFetchingCategories'] = offset;
             entity['isFetchingPurchases'] = verify;

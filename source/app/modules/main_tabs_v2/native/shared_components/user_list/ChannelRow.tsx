@@ -551,8 +551,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[entity] = tangon;
             entity = _closure1_slot10;
             entity = entity.TOGGLE;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 804; continue _fun00001 }
- 745:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 808; continue _fun00001 }
+ 749:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -567,8 +567,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = 'trailing';
             entity[option] = verify;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 861; continue _fun00001;
- 804:
+            _fun00002_ip = 865; continue _fun00001;
+ 808:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -583,7 +583,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'checked';
             michal[oscard] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 861:
+ 865:
             return entity;
         }
     };

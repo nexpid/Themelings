@@ -98,8 +98,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['CLIPS_OPT_OUT_OF_VOICE_RECORDING'] = entity;
     entity = 'SEND_FRIEND_REQUESTS';
     michal['SEND_FRIEND_REQUESTS'] = entity;
-    entity = 'SAFETY_SEND_FRIEND_REQUESTS';
-    michal['SAFETY_SEND_FRIEND_REQUESTS'] = entity;
+    entity = 'SAFETY_SEND_FRIEND_REQUESTS_EVERYONE';
+    michal['SAFETY_SEND_FRIEND_REQUESTS_EVERYONE'] = entity;
+    entity = 'SAFETY_SEND_FRIEND_REQUESTS_MUTUAL_FRIENDS';
+    michal['SAFETY_SEND_FRIEND_REQUESTS_MUTUAL_FRIENDS'] = entity;
+    entity = 'SAFETY_SEND_FRIEND_REQUESTS_MUTUAL_GUILDS';
+    michal['SAFETY_SEND_FRIEND_REQUESTS_MUTUAL_GUILDS'] = entity;
     entity = 'SCAN_QR_CODE';
     michal['SCAN_QR_CODE'] = entity;
     entity = 'PREMIUM';

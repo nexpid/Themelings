@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot8 = golfie;
-    golfie = 8;
+    golfie = 9;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['extractPriceByPurchaseTypes'] = oscard;
     zuuluu['isNotBundleProduct'] = report;
     zuuluu['isGPlaySynced'] = tangon;
-    michal = function(argFoo) {
+    tangon = function(argFoo) {
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tangon = argFoo;
@@ -479,6 +479,57 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['filterGPlaySyncedCategories'] = michal;
+    zuuluu['filterGPlaySyncedCategories'] = tangon;
+    michal = function(argFoo) {
+        zuuluu = argFoo;
+        michal = zuuluu.filter;
+        entity = function(argFoo) {
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                michal = argFoo;
+                zuuluu = michal.unpublishedAt;
+                entity = null;
+                entity = entity == zuuluu;
+                if(entity) { _fun00018_ip = 56; continue _fun00017 }
+ 18:
+                tangon = michal.unpublishedAt;
+                zuuluu = global;
+                zuuluu = zuuluu.Date;
+                report = zuuluu.prototype;
+                report = Object.create(report, {constructor: {value: zuuluu}});
+                option = report;
+                zuuluu = new option[zuuluu](golfie);
+                zuuluu = zuuluu instanceof Object ? zuuluu : report;
+                entity = tangon > zuuluu;
+ 56:
+                zuuluu = michal.products;
+                tangon = zuuluu.length;
+                zuuluu = 0;
+                zuuluu = tangon > zuuluu;
+                tangon = michal.skuId;
+                oscard = _closure1_slot0;
+                report = _closure1_slot2;
+                michal = 8;
+                report = report[michal];
+                michal = undefined;
+                michal = oscard.bind(michal)(report);
+                michal = michal.CollectiblesCategorySkuId;
+                michal = michal.NAMEPLATE;
+                michal = tangon !== michal;
+                if(!entity) { _fun00018_ip = 126; continue _fun00017 }
+ 123:
+                entity = zuuluu;
+ 126:
+                if(!entity) { _fun00018_ip = 132; continue _fun00017 }
+ 129:
+                entity = michal;
+ 132:
+                return entity;
+            }
+        };
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['filterHiddenCategories'] = michal;
     return entity;
 })();

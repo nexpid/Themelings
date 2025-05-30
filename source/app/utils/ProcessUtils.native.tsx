@@ -25,11 +25,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = oscard.getCpuCoreCount;
                 zuuluu = golfie == tangon;
  158:
-                if(zuuluu) { _fun00004_ip = 177; continue _fun00003 }
+                if(zuuluu) { _fun00004_ip = 179; continue _fun00003 }
  161:
                 tangon = oscard.getCpuCoreCount;
                 zuuluu = function(argFoo) {
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 zuuluu = tangon.bind(oscard)(zuuluu);
- 177:
+ 179:
                 zuuluu = global;
                 tangon = zuuluu.setInterval;
                 zuuluu = function() {
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = tangon.getCurrentCpuUsagePercent;
                         zuuluu = report == tangon;
  32:
-                        if(zuuluu) { _fun00006_ip = 55; continue _fun00005 }
+                        if(zuuluu) { _fun00006_ip = 57; continue _fun00005 }
  35:
                         oscard = _closure3_slot1;
                         tangon = oscard.getCurrentCpuUsagePercent;
@@ -176,17 +176,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             }
                         };
                         zuuluu = tangon.bind(oscard)(zuuluu);
- 55:
+ 57:
                         zuuluu = _closure3_slot1;
                         zuuluu = report == zuuluu;
-                        if(zuuluu) { _fun00006_ip = 80; continue _fun00005 }
- 66:
+                        if(zuuluu) { _fun00006_ip = 82; continue _fun00005 }
+ 68:
                         tangon = _closure3_slot1;
                         tangon = tangon.getCumulativeCpuUsage;
                         zuuluu = report == tangon;
- 80:
-                        if(zuuluu) { _fun00006_ip = 103; continue _fun00005 }
- 83:
+ 82:
+                        if(zuuluu) { _fun00006_ip = 107; continue _fun00005 }
+ 85:
                         oscard = _closure3_slot1;
                         tangon = oscard.getCumulativeCpuUsage;
                         zuuluu = function(argFoo) {
@@ -211,17 +211,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             }
                         };
                         zuuluu = tangon.bind(oscard)(zuuluu);
- 103:
+ 107:
                         zuuluu = _closure3_slot1;
                         zuuluu = report == zuuluu;
-                        if(zuuluu) { _fun00006_ip = 128; continue _fun00005 }
- 114:
+                        if(zuuluu) { _fun00006_ip = 132; continue _fun00005 }
+ 118:
                         tangon = _closure3_slot1;
                         tangon = tangon.getCurrentMemoryUsageKb;
                         zuuluu = report == tangon;
- 128:
-                        if(zuuluu) { _fun00006_ip = 151; continue _fun00005 }
- 131:
+ 132:
+                        if(zuuluu) { _fun00006_ip = 157; continue _fun00005 }
+ 135:
                         zuuluu = _closure3_slot1;
                         michal = zuuluu.getCurrentMemoryUsageKb;
                         entity = function(argFoo) {
@@ -242,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             }
                         };
                         entity = michal.bind(zuuluu)(entity);
- 151:
+ 157:
                         entity = undefined;
                         return entity;
                     }

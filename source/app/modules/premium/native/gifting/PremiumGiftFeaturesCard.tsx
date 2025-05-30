@@ -224,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['promotionalAvatarSecondary'] = michal;
             michal = {'position': 'absolute', 'top': 0, 'right': 10, 'height': 120, 'width': 150, 'zIndex': 2};
             entity['rotatingAvatars'] = michal;
-            michal = {'position': 'absolute', 'height': 600, 'width': 400, 'right': 0, 'transformOrigin': 'top right'};
+            michal = {'position': 'absolute', 'top': 0, 'left': 0, 'right': 0, 'bottom': 0};
             entity['promotionalCardImage'] = michal;
             michal = {'position': 'absolute', 'height': 400, 'width': 150, 'top': 100, 'right': 0};
             entity['promotionalBackground'] = michal;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             offset = kiloes.promotionalCardImage;
             report['style'] = offset;
-            offset = 'none';
+            offset = 'cover';
             report['resizeMode'] = offset;
             offset = {};
             update = cntext.planSelection;
@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = {};
             record = kiloes.promotionalBackground;
             vacuum['style'] = record;
-            record = 'none';
+            record = 'cover';
             vacuum['resizeMode'] = record;
             record = {};
             status = cntext.planSelection;

@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['hours'] = tangon;
  125:
             entity = zuuluu.days;
-            if(!(!(entity > tangon))) { _fun00002_ip = 326; continue _fun00001 }
+            if(!(!(entity > tangon))) { _fun00002_ip = 318; continue _fun00001 }
  138:
             entity = zuuluu.hours;
             if(!(!(entity > tangon))) { _fun00002_ip = 247; continue _fun00001 }
@@ -94,27 +94,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report + entity;
  281:
             entity = 11;
-            if(!(!(michal > entity))) { _fun00002_ip = 310; continue _fun00001 }
+            if(!(!(michal > entity))) { _fun00002_ip = 306; continue _fun00001 }
  288:
             entity = {'days': 0, 'hours': null, 'minutes': 0, 'seconds': 0};
             entity['hours'] = michal;
-            _fun00002_ip = 324; continue _fun00001;
- 310:
+            _fun00002_ip = 316; continue _fun00001;
+ 306:
             entity = {'days': 1, 'hours': 0, 'minutes': 0, 'seconds': 0};
- 324:
+ 316:
             return entity;
- 326:
+ 318:
             entity = {'days': null, 'hours': 0, 'minutes': 0, 'seconds': 0};
             michal = zuuluu.hours;
-            if(!(!(michal > tangon))) { _fun00002_ip = 358; continue _fun00001 }
- 350:
+            if(!(!(michal > tangon))) { _fun00002_ip = 350; continue _fun00001 }
+ 342:
             michal = zuuluu.days;
-            _fun00002_ip = 371; continue _fun00001;
- 358:
+            _fun00002_ip = 363; continue _fun00001;
+ 350:
             tangon = zuuluu.days;
             zuuluu = 1;
             michal = tangon + zuuluu;
- 371:
+ 363:
             entity['days'] = michal;
             return entity;
         }

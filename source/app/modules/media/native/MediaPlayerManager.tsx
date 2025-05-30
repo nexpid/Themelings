@@ -643,13 +643,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     entity = _closure3_slot1;
                     verify = null;
-                    if(!(verify == entity)) { _fun00018_ip = 41; continue _fun00017 }
+                    if(!(verify == entity)) { _fun00018_ip = 45; continue _fun00017 }
  13:
                     tangon = _closure1_slot19;
                     zuuluu = tangon.setState;
                     entity = {'rate': 0, 'isPlaying': false};
                     entity = zuuluu.bind(tangon)(entity);
- 41:
+ 45:
                     oscard = _closure1_slot18;
                     report = oscard.verbose;
                     yankee = _closure3_slot2;
@@ -657,11 +657,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = verify == entity;
                     entity = undefined;
                     offset = undefined;
-                    if(tangon) { _fun00018_ip = 82; continue _fun00017 }
- 73:
+                    if(tangon) { _fun00018_ip = 86; continue _fun00017 }
+ 77:
                     tangon = _closure3_slot1;
                     offset = tangon.id;
- 82:
+ 86:
                     tangon = global;
                     tangon = tangon.HermesInternal;
                     option = tangon.concat;
@@ -683,13 +683,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = _closure3_slot1;
                     verify = verify != tangon;
                     tangon = undefined;
-                    if(!verify) { _fun00018_ip = 188; continue _fun00017 }
- 184:
-                    tangon = _closure3_slot1;
+                    if(!verify) { _fun00018_ip = 192; continue _fun00017 }
  188:
+                    tangon = _closure3_slot1;
+ 192:
                     tangon = report.bind(entity)(oscard, tangon);
-                    if(tangon) { _fun00018_ip = 252; continue _fun00017 }
- 197:
+                    if(tangon) { _fun00018_ip = 256; continue _fun00017 }
+ 201:
                     oscard = _closure3_slot0;
                     report = oscard.handleMediaPlayerPlaybackSourceChanged;
                     tangon = {};
@@ -704,7 +704,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     tangon = undefined;
                     return tangon;
- 252:
+ 256:
                     report = _closure1_slot19;
                     tangon = report.setState;
                     zuuluu = {};
@@ -715,16 +715,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['isPlaying'] = oscard;
                     oscard = false;
                     option = oscard === option;
-                    if(!option) { _fun00018_ip = 301; continue _fun00017 }
- 293:
+                    if(!option) { _fun00018_ip = 305; continue _fun00017 }
+ 297:
                     oscard = _closure3_slot2;
                     option = oscard > verify;
- 301:
+ 305:
                     oscard = !option;
-                    if(option) { _fun00018_ip = 310; continue _fun00017 }
- 307:
+                    if(option) { _fun00018_ip = 314; continue _fun00017 }
+ 311:
                     oscard = golfie;
- 310:
+ 314:
                     zuuluu['wasPipClosedByUser'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     zuuluu = _closure3_slot0;
@@ -1188,33 +1188,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     zuuluu = _closure1_slot19;
                     entity = zuuluu.getState;
-                    report = entity.bind(zuuluu)();
-                    oscard = report.displayedMediaItemIdsPerChannel;
-                    tangon = report.currentlyDisplayedChannelId;
-                    zuuluu = report.activeMediaPlayerSource;
+                    zuuluu = entity.bind(zuuluu)();
+                    oscard = zuuluu.displayedMediaItemIdsPerChannel;
+                    tangon = zuuluu.currentlyDisplayedChannelId;
+                    report = zuuluu.activeMediaPlayerSource;
                     entity = undefined;
-                    if(!(entity === zuuluu)) { _fun00034_ip = 43; continue _fun00033 }
+                    if(!(entity === report)) { _fun00034_ip = 43; continue _fun00033 }
  41:
-                    zuuluu = {};
+                    report = {};
  43:
-                    yankee = zuuluu.id;
-                    zuuluu = report.wasPipClosedByUser;
-                    golfie = report.progress;
-                    option = report.isPlaying;
-                    if(zuuluu) { _fun00034_ip = 343; continue _fun00033 }
- 72:
-                    if(option) { _fun00034_ip = 99; continue _fun00033 }
- 75:
+                    yankee = report.id;
+                    report = zuuluu.wasPipClosedByUser;
+                    golfie = zuuluu.progress;
+                    option = zuuluu.isPlaying;
+                    zuuluu = zuuluu.showPip;
+                    if(report) { _fun00034_ip = 358; continue _fun00033 }
+ 78:
+                    if(option) { _fun00034_ip = 87; continue _fun00033 }
+ 81:
+                    if(!zuuluu) { _fun00034_ip = 382; continue _fun00033 }
+ 87:
+                    if(option) { _fun00034_ip = 114; continue _fun00033 }
+ 90:
                     zuuluu = null;
                     zuuluu = zuuluu != golfie;
-                    if(!zuuluu) { _fun00034_ip = 96; continue _fun00033 }
- 84:
+                    if(!zuuluu) { _fun00034_ip = 111; continue _fun00033 }
+ 99:
                     report = _closure1_slot21;
                     report = report.bind(entity)(golfie);
                     zuuluu = !report;
- 96:
+ 111:
                     option = zuuluu;
- 99:
+ 114:
                     report = _closure1_slot0;
                     golfie = _closure1_slot2;
                     zuuluu = 20;
@@ -1223,24 +1228,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = report.getFocusedChannelId;
                     golfie = zuuluu.bind(report)();
                     zuuluu = null;
-                    if(!(zuuluu != golfie)) { _fun00034_ip = 172; continue _fun00033 }
- 135:
-                    if(!(tangon !== golfie)) { _fun00034_ip = 172; continue _fun00033 }
- 139:
+                    if(!(zuuluu != golfie)) { _fun00034_ip = 187; continue _fun00033 }
+ 150:
+                    if(!(tangon !== golfie)) { _fun00034_ip = 187; continue _fun00033 }
+ 154:
                     offset = oscard;
                     for(tangon in offset)
- 150:
+ 165:
                     {
- 159:
+ 174:
                         foxtra = tangon;
-                        if(foxtra === golfie) { _fun00034_ip = 150; continue _fun00033 }
- 166:
+                        if(foxtra === golfie) { _fun00034_ip = 165; continue _fun00033 }
+ 181:
                         foxtra = delete oscard[foxtra];
-                        _fun00034_ip = 150; continue _fun00033;
+                        _fun00034_ip = 165; continue _fun00033;
                     }
- 172:
-                    if(!(zuuluu == yankee)) { _fun00034_ip = 213; continue _fun00033 }
- 176:
+ 187:
+                    if(!(zuuluu == yankee)) { _fun00034_ip = 228; continue _fun00033 }
+ 191:
                     verify = _closure1_slot19;
                     report = verify.setState;
                     tangon = {};
@@ -1248,10 +1253,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['currentlyDisplayedChannelId'] = golfie;
                     tangon['displayedMediaItemIdsPerChannel'] = oscard;
                     tangon = report.bind(verify)(tangon);
-                    _fun00034_ip = 367; continue _fun00033;
- 213:
-                    if(!(zuuluu == golfie)) { _fun00034_ip = 251; continue _fun00033 }
- 217:
+                    _fun00034_ip = 382; continue _fun00033;
+ 228:
+                    if(!(zuuluu == golfie)) { _fun00034_ip = 266; continue _fun00033 }
+ 232:
                     verify = _closure1_slot19;
                     report = verify.setState;
                     tangon = {};
@@ -1259,11 +1264,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['currentlyDisplayedChannelId'] = golfie;
                     tangon['displayedMediaItemIdsPerChannel'] = oscard;
                     tangon = report.bind(verify)(tangon);
-                    _fun00034_ip = 367; continue _fun00033;
- 251:
+                    _fun00034_ip = 382; continue _fun00033;
+ 266:
                     offset = oscard[golfie];
-                    if(!(zuuluu == offset)) { _fun00034_ip = 293; continue _fun00033 }
- 259:
+                    if(!(zuuluu == offset)) { _fun00034_ip = 308; continue _fun00033 }
+ 274:
                     report = _closure1_slot19;
                     tangon = report.setState;
                     zuuluu = {};
@@ -1271,30 +1276,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['currentlyDisplayedChannelId'] = golfie;
                     zuuluu['displayedMediaItemIdsPerChannel'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    _fun00034_ip = 367; continue _fun00033;
- 293:
+                    _fun00034_ip = 382; continue _fun00033;
+ 308:
                     report = _closure1_slot19;
                     tangon = report.setState;
                     zuuluu = {};
-                    if(!option) { _fun00034_ip = 321; continue _fun00033 }
- 308:
+                    if(!option) { _fun00034_ip = 336; continue _fun00033 }
+ 323:
                     verify = offset.has;
                     verify = verify.bind(offset)(yankee);
                     option = !verify;
- 321:
+ 336:
                     zuuluu['showPip'] = option;
                     zuuluu['currentlyDisplayedChannelId'] = golfie;
                     zuuluu['displayedMediaItemIdsPerChannel'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    _fun00034_ip = 367; continue _fun00033;
- 343:
+                    _fun00034_ip = 382; continue _fun00033;
+ 358:
                     tangon = _closure1_slot19;
                     zuuluu = tangon.setState;
                     michal = {};
                     report = false;
                     michal['showPip'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 367:
+ 382:
                     return entity;
                 }
             };
