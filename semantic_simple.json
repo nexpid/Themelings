@@ -1883,6 +1883,18 @@
     "midnight": "#5865f2",
     "darker": "#5865f2"
   },
+  "SCRIM_DEFAULT": {
+    "dark": "#000000b8",
+    "light": "#00000085",
+    "midnight": "#000000b8",
+    "darker": "#000000b8"
+  },
+  "SCRIM_LIGHTBOX": {
+    "dark": "#000000eb",
+    "light": "#000000eb",
+    "midnight": "#000000eb",
+    "darker": "#000000eb"
+  },
   "SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": {
     "dark": "#1a1b1e",
     "light": "#dbdee1",

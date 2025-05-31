@@ -9419,6 +9419,66 @@
       }
     ]
   },
+  "SCRIM_DEFAULT": {
+    "dark": [
+      "#000000b8",
+      {
+        "raw": "OPACITY_BLACK_72",
+        "opacity": 0.7215686274509804
+      }
+    ],
+    "light": [
+      "#00000085",
+      {
+        "raw": "OPACITY_BLACK_52",
+        "opacity": 0.5215686274509804
+      }
+    ],
+    "midnight": [
+      "#000000b8",
+      {
+        "raw": "OPACITY_BLACK_72",
+        "opacity": 0.7215686274509804
+      }
+    ],
+    "darker": [
+      "#000000b8",
+      {
+        "raw": "OPACITY_BLACK_72",
+        "opacity": 0.7215686274509804
+      }
+    ]
+  },
+  "SCRIM_LIGHTBOX": {
+    "dark": [
+      "#000000eb",
+      {
+        "raw": "OPACITY_BLACK_92",
+        "opacity": 0.9215686274509803
+      }
+    ],
+    "light": [
+      "#000000eb",
+      {
+        "raw": "OPACITY_BLACK_92",
+        "opacity": 0.9215686274509803
+      }
+    ],
+    "midnight": [
+      "#000000eb",
+      {
+        "raw": "OPACITY_BLACK_92",
+        "opacity": 0.9215686274509803
+      }
+    ],
+    "darker": [
+      "#000000eb",
+      {
+        "raw": "OPACITY_BLACK_92",
+        "opacity": 0.9215686274509803
+      }
+    ]
+  },
   "SCROLLBAR_AUTO_SCROLLBAR_COLOR_THUMB": {
     "dark": [
       "#1a1b1e",
