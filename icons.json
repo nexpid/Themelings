@@ -1616,7 +1616,7 @@
     },
     "CircleCheckIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleCheckIcon.png",
-        "hash": "5ac054fb5ed630a5e8474b3b805caefb",
+        "hash": "ad0e97d050f9cc2b9fcfd80c0860d2bf",
         "scales": [
             2,
             3
@@ -1636,7 +1636,7 @@
     },
     "CircleCheckIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleCheckIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
@@ -1646,7 +1646,7 @@
     },
     "CircleInformationIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleInformationIcon.png",
-        "hash": "54bf1c1e7d989724b70cd9bd40a24c35",
+        "hash": "9afd5fff19d0d26c917270d0d4125f69",
         "scales": [
             2,
             3
@@ -1666,7 +1666,7 @@
     },
     "CircleInformationIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleInformationIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
@@ -1686,7 +1686,7 @@
     },
     "CircleMinusIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleMinusIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
@@ -1706,7 +1706,7 @@
     },
     "CirclePlayIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CirclePlayIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
@@ -1726,7 +1726,7 @@
     },
     "CirclePlusIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CirclePlusIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
@@ -1736,7 +1736,7 @@
     },
     "CircleQuestionIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleQuestionIcon.png",
-        "hash": "25efd53120be258b76212ddd86ab726c",
+        "hash": "d15ae58c9e165d5ead3e83f2a1c218a3",
         "scales": [
             2,
             3
@@ -1756,7 +1756,7 @@
     },
     "CircleQuestionIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleQuestionIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
@@ -1766,7 +1766,7 @@
     },
     "CircleWarningIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon.png",
-        "hash": "8b24fd8a0ac773747887de17d0acd9f3",
+        "hash": "eb5d73de708115fb28eaa02d0f072ef9",
         "scales": [
             2,
             3
@@ -1786,7 +1786,7 @@
     },
     "CircleWarningIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleWarningIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
@@ -1796,7 +1796,7 @@
     },
     "CircleXIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleXIcon.png",
-        "hash": "8453778d3bcb32aede2fd9dd69176d8f",
+        "hash": "fae8c21fa309979285991c5355ca9335",
         "scales": [
             2,
             3
@@ -1816,7 +1816,7 @@
     },
     "CircleXIcon-secondary": {
         "file": "design/components/Icon/native/redesign/generated/images/CircleXIcon-secondary.png",
-        "hash": "0ca1d2da31fe7bf231d7ffde22444778",
+        "hash": "5dda10148b61aa649096747006d15ed5",
         "scales": [
             2,
             3
