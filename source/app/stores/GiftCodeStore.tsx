@@ -1068,13 +1068,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['LOAD_RECENT_MENTIONS_SUCCESS'] = offset;
     offset = function(argFoo) { // Original name: handleLoadPinnedMessages
         entity = argFoo;
-        zuuluu = entity.messages;
+        zuuluu = entity.pins;
         michal = zuuluu.forEach;
         entity = function(argFoo) {
-            zuuluu = _closure1_slot24;
-            michal = undefined;
             entity = argFoo;
-            entity = zuuluu.bind(michal)(entity);
+            zuuluu = entity.message;
+            michal = _closure1_slot24;
+            entity = undefined;
+            entity = michal.bind(entity)(zuuluu);
             entity = false;
             return entity;
         };

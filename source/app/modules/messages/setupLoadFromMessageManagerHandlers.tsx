@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     entity = argFoo;
-                    zuuluu = entity.messages;
+                    zuuluu = entity.pins;
                     tangon = _closure2_slot1;
                     michal = null;
                     if(!(michal != tangon)) { _fun00014_ip = 32; continue _fun00013 }
@@ -230,10 +230,11 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  32:
                     michal = zuuluu.forEach;
                     entity = function(argFoo) {
-                        zuuluu = _closure2_slot0;
-                        michal = undefined;
                         entity = argFoo;
-                        entity = zuuluu.bind(michal)(entity);
+                        zuuluu = entity.message;
+                        michal = _closure2_slot0;
+                        entity = undefined;
+                        entity = michal.bind(entity)(zuuluu);
                         return entity;
                     };
                     entity = michal.bind(zuuluu)(entity);

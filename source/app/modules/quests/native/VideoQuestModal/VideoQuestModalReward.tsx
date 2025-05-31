@@ -47,12 +47,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  41:
             verify = zuuluu;
  44:
-            michal = michal.size;
-            update = 'lg';
-            if(!(tangon !== michal)) { _fun00002_ip = 60; continue _fun00001 }
+            zuuluu = michal.size;
+            source = 'lg';
+            if(!(tangon !== zuuluu)) { _fun00002_ip = 60; continue _fun00001 }
  57:
-            update = michal;
+            source = zuuluu;
  60:
+            output = michal.withRewardTileAnimation;
             golfie = _closure1_slot0;
             foxtra = _closure1_slot2;
             michal = 2;
@@ -66,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = foxtra[michal];
             zuuluu = golfie.bind(tangon)(michal);
             michal = zuuluu.useQuestTaskDetails;
-            echoed = michal.bind(zuuluu)(result);
+            update = michal.bind(zuuluu)(result);
             oscard = _closure1_slot3;
             zuuluu = oscard.useCallback;
             option = result.id;
@@ -87,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            output = zuuluu.bind(oscard)(entity, michal);
+            echoed = zuuluu.bind(oscard)(entity, michal);
             zuuluu = _closure1_slot5;
             oscard = 5;
             entity = foxtra[oscard];
@@ -108,13 +109,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = foxtra[report];
             kiloes = romeon.bind(tangon)(report);
             report = {};
-            source = true;
-            report['hasConfetti'] = source;
+            ctrled = true;
+            report['hasConfetti'] = ctrled;
             report['quest'] = result;
-            report['size'] = update;
-            echoed = echoed.percentComplete;
-            report['progress'] = echoed;
-            report['onPress'] = output;
+            report['size'] = source;
+            update = update.percentComplete;
+            report['progress'] = update;
+            report['onPress'] = echoed;
+            report['withAnimation'] = output;
             kiloes = sizing.bind(tangon)(kiloes, report);
             report = new Array(2);
             report[0] = kiloes;
@@ -128,8 +130,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.spacing;
             option = option.PX_4;
             oscard['spacing'] = option;
-            if(!yankee) { _fun00002_ip = 476; continue _fun00001 }
- 351:
+            if(!yankee) { _fun00002_ip = 487; continue _fun00001 }
+ 362:
             foxtra = _closure1_slot4;
             kiloes = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -155,11 +157,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(output)(kiloes, backup);
             option['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, option);
- 476:
+ 487:
             option = new Array(2);
             option[0] = yankee;
-            if(!verify) { _fun00002_ip = 589; continue _fun00001 }
- 487:
+            if(!verify) { _fun00002_ip = 600; continue _fun00001 }
+ 498:
             romeon = _closure1_slot4;
             sizing = _closure1_slot0;
             output = _closure1_slot2;
@@ -180,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup.bind(kiloes)(foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 589:
+ 600:
             option[1] = verify;
             oscard['children'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);

@@ -651,7 +651,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal['jumpTargetId'] = golfie;
                         michal['jumpType'] = entity;
                         golfie = false;
-                        michal['newlyLoaded'] = golfie;
+                        michal['shouldInitialScroll'] = golfie;
                         michal['animated'] = golfie;
                         michal['scrollPosition'] = entity;
                         michal['focusTargetId'] = oscard;

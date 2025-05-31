@@ -1567,7 +1567,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot32 = entity;
-    entity = function(argFoo) { // Original name: handleSearchFinishOrPinsLoad
+    entity = function(argFoo) { // Original name: handleSearchFinish
         _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
  0:
             entity = argFoo;
@@ -1612,6 +1612,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot33 = entity;
+    entity = function(argFoo) { // Original name: handleLoadPinnedMessages
+        entity = argFoo;
+        tangon = entity.pins;
+        zuuluu = _closure1_slot28;
+        michal = tangon.map;
+        entity = function(argFoo) {
+            entity = argFoo;
+            entity = entity.message;
+            return entity;
+        };
+        michal = michal.bind(tangon)(entity);
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    var _closure1_slot34 = entity;
     entity = function(argFoo) { // Original name: handleForumPostsLoad
         _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
  0:
@@ -1654,7 +1670,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot34 = entity;
+    var _closure1_slot35 = entity;
     entity = function(argFoo) { // Original name: handleThreadsLoad
         _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
@@ -1684,7 +1700,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot35 = entity;
+    var _closure1_slot36 = entity;
     entity = function(argFoo) { // Original name: handleSidebarViewChannel
         _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
@@ -1694,14 +1710,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity != tangon;
             if(!entity) { _fun00058_ip = 31; continue _fun00057 }
  17:
-            zuuluu = _closure1_slot40;
+            zuuluu = _closure1_slot41;
             michal = undefined;
             entity = zuuluu.bind(michal)(tangon);
  31:
             return entity;
         }
     };
-    var _closure1_slot36 = entity;
+    var _closure1_slot37 = entity;
     entity = function(argFoo) { // Original name: handleChannelSelect
         _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
  0:
@@ -1726,7 +1742,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !oscard;
             if(oscard) { _fun00060_ip = 85; continue _fun00059 }
  76:
-            zuuluu = _closure1_slot40;
+            zuuluu = _closure1_slot41;
             michal = zuuluu.bind(tangon)(report);
  85:
             entity = michal;
@@ -1734,7 +1750,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot37 = entity;
+    var _closure1_slot38 = entity;
     entity = function(argFoo) { // Original name: handleUserSettingsUpdate
         _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
  0:
@@ -1755,7 +1771,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity != tangon;
             if(!entity) { _fun00062_ip = 74; continue _fun00061 }
  63:
-            zuuluu = _closure1_slot40;
+            zuuluu = _closure1_slot41;
             michal = undefined;
             entity = zuuluu.bind(michal)(tangon);
  74:
@@ -1765,7 +1781,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot38 = entity;
+    var _closure1_slot39 = entity;
     entity = function(argFoo) { // Original name: handleVoiceChannelChatOpen
         _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
  0:
@@ -1776,14 +1792,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = !michal;
             if(michal) { _fun00064_ip = 37; continue _fun00063 }
  23:
-            zuuluu = _closure1_slot40;
+            zuuluu = _closure1_slot41;
             michal = undefined;
             entity = zuuluu.bind(michal)(tangon);
  37:
             return entity;
         }
     };
-    var _closure1_slot39 = entity;
+    var _closure1_slot40 = entity;
     entity = function(argFoo) { // Original name: maybeScanMessagesForChannelId
         _fun00065: for(var _fun00066_ip = 0; ; ) switch(_fun00066_ip) {
  0:
@@ -1803,7 +1819,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot40 = entity;
+    var _closure1_slot41 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -1965,12 +1981,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = {};
                 tangon = _closure1_slot32;
                 michal['LOAD_MESSAGES_SUCCESS'] = tangon;
-                tangon = _closure1_slot34;
-                michal['LOAD_FORUM_POSTS'] = tangon;
                 tangon = _closure1_slot35;
+                michal['LOAD_FORUM_POSTS'] = tangon;
+                tangon = _closure1_slot36;
                 michal['LOAD_THREADS_SUCCESS'] = tangon;
                 michal['LOAD_ARCHIVED_THREADS_SUCCESS'] = tangon;
-                tangon = _closure1_slot36;
+                tangon = _closure1_slot37;
                 michal['SIDEBAR_VIEW_CHANNEL'] = tangon;
                 tangon = _closure1_slot31;
                 michal['MESSAGE_CREATE'] = tangon;
@@ -1981,12 +1997,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = _closure1_slot33;
                 michal['SEARCH_FINISH'] = tangon;
                 michal['MOD_VIEW_SEARCH_FINISH'] = tangon;
-                report = _closure1_slot37;
-                michal['CHANNEL_SELECT'] = report;
-                michal['LOAD_PINNED_MESSAGES_SUCCESS'] = tangon;
                 tangon = _closure1_slot38;
+                michal['CHANNEL_SELECT'] = tangon;
+                tangon = _closure1_slot34;
+                michal['LOAD_PINNED_MESSAGES_SUCCESS'] = tangon;
+                tangon = _closure1_slot39;
                 michal['USER_SETTINGS_PROTO_UPDATE'] = tangon;
-                zuuluu = _closure1_slot39;
+                zuuluu = _closure1_slot40;
                 michal['CHANNEL_RTC_UPDATE_CHAT_OPEN'] = zuuluu;
                 entity['actions'] = michal;
                 return entity;

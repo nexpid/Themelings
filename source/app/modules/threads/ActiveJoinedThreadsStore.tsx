@@ -1796,7 +1796,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(16);
+        entity = new Array(17);
         entity[0] = report;
         report = {};
         golfie = 'hasActiveJoinedUnreadThreads';
@@ -1870,6 +1870,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['value'] = golfie;
         entity[3] = report;
         report = {};
+        golfie = 'getAllActiveJoinedThreads';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = _closure1_slot16;
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[4] = report;
+        report = {};
         golfie = 'getActiveJoinedThreadsForGuild';
         report['key'] = golfie;
         golfie = function(argFoo) { // Original name: value
@@ -1887,7 +1896,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[5] = report;
         report = {};
         golfie = 'getActiveJoinedUnreadThreadsForGuild';
         report['key'] = golfie;
@@ -1906,7 +1915,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[5] = report;
+        entity[6] = report;
         report = {};
         golfie = 'getActiveJoinedUnreadThreadsForParent';
         report['key'] = golfie;
@@ -1928,7 +1937,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[6] = report;
+        entity[7] = report;
         report = {};
         golfie = 'getActiveJoinedRelevantThreadsForGuild';
         report['key'] = golfie;
@@ -1947,7 +1956,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[7] = report;
+        entity[8] = report;
         report = {};
         golfie = 'getActiveJoinedRelevantThreadsForParent';
         report['key'] = golfie;
@@ -1969,7 +1978,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[8] = report;
+        entity[9] = report;
         report = {};
         golfie = 'getActiveUnjoinedThreadsForGuild';
         report['key'] = golfie;
@@ -1988,7 +1997,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[9] = report;
+        entity[10] = report;
         report = {};
         golfie = 'getActiveUnjoinedUnreadThreadsForGuild';
         report['key'] = golfie;
@@ -2007,7 +2016,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[10] = report;
+        entity[11] = report;
         report = {};
         golfie = 'getActiveUnjoinedUnreadThreadsForParent';
         report['key'] = golfie;
@@ -2029,7 +2038,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[11] = report;
+        entity[12] = report;
         report = {};
         golfie = 'getNewThreadCountsForGuild';
         report['key'] = golfie;
@@ -2048,7 +2057,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[12] = report;
+        entity[13] = report;
         report = {};
         golfie = 'computeAllActiveJoinedThreads';
         report['key'] = golfie;
@@ -2109,7 +2118,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[13] = report;
+        entity[14] = report;
         report = {};
         golfie = 'getNewThreadCount';
         report['key'] = golfie;
@@ -2137,7 +2146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[14] = report;
+        entity[15] = report;
         report = {};
         golfie = 'getActiveThreadCount';
         report['key'] = golfie;
@@ -2190,7 +2199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = oscard;
-        entity[15] = report;
+        entity[16] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

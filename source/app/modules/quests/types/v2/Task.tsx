@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     var _closure1_slot4 = entity;
-    entity = 3;
+    entity = 4;
     tangon = tangon[entity];
     entity = undefined;
     oscard = report.bind(entity)(tangon);
@@ -402,14 +402,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) {
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            tangon = argFoo;
-            michal = tangon;
-            zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00010_ip = 18; continue _fun00009 }
- 14:
-            zuuluu = undefined;
-            return zuuluu;
- 18: // try_start_0
+            michal = argFoo;
+ 5: // try_start_0
             zuuluu = global;
             oscard = zuuluu.Object;
             report = oscard.entries;
@@ -498,11 +492,22 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['tasks'] = zuuluu;
             michal = michal.join_operator;
             entity['joinOperator'] = michal;
- 108: // try_end0
+ 95: // try_end0
             return entity;
- 110: // catch_target0
+ 97: // catch_target0
             CatchBlockStart(arg_register=0);
-            entity = undefined;
+            entity = {};
+            michal = {};
+            entity['tasks'] = michal;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 3;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            michal = michal.QuestTaskJoinOperator;
+            michal = michal.OR;
+            entity['joinOperator'] = michal;
             return entity;
         }
     };

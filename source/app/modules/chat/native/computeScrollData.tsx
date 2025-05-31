@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = michal.scrollToMessageId;
             romeon = michal.jumpTargetId;
             output = michal.jumpType;
-            entity = michal.newlyLoaded;
+            entity = michal.shouldInitialScroll;
             zuuluu = michal.animated;
             golfie = michal.scrollPosition;
             verify = michal.focusTargetId;

@@ -181,41 +181,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = function() { // Original name: get
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                michal = this;
-                entity = michal.quest;
-                zuuluu = entity.taskConfigV2;
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00004_ip = 126; continue _fun00003 }
- 21:
-                michal = michal.quest;
-                michal = michal.taskConfigV2;
-                tangon = michal.tasks;
-                oscard = _closure1_slot0;
-                golfie = _closure1_slot1;
-                zuuluu = 4;
-                michal = golfie[zuuluu];
-                report = undefined;
-                michal = oscard.bind(report)(michal);
-                michal = michal.FirstPartyQuestTaskTypes;
-                michal = michal.ACHIEVEMENT_IN_ACTIVITY;
-                michal = tangon[michal];
-                zuuluu = golfie[zuuluu];
-                zuuluu = oscard.bind(report)(zuuluu);
+                entity = this;
+                entity = entity.quest;
+                entity = entity.taskConfigV2;
+                michal = entity.tasks;
+                report = _closure1_slot0;
+                oscard = _closure1_slot1;
+                entity = 4;
+                zuuluu = oscard[entity];
+                tangon = undefined;
+                zuuluu = report.bind(tangon)(zuuluu);
                 zuuluu = zuuluu.FirstPartyQuestTaskTypes;
-                zuuluu = zuuluu.ACHIEVEMENT_IN_GAME;
-                zuuluu = tangon[zuuluu];
-                if(!(entity != michal)) { _fun00004_ip = 112; continue _fun00003 }
- 109:
-                zuuluu = michal;
- 112:
-                tangon = entity != zuuluu;
-                michal = null;
-                if(!tangon) { _fun00004_ip = 124; continue _fun00003 }
- 121:
+                zuuluu = zuuluu.ACHIEVEMENT_IN_ACTIVITY;
+                zuuluu = michal[zuuluu];
+                entity = oscard[entity];
+                entity = report.bind(tangon)(entity);
+                entity = entity.FirstPartyQuestTaskTypes;
+                entity = entity.ACHIEVEMENT_IN_GAME;
+                michal = michal[entity];
+                entity = null;
+                if(!(entity != zuuluu)) { _fun00004_ip = 96; continue _fun00003 }
+ 93:
                 michal = zuuluu;
- 124:
-                return michal;
- 126:
+ 96:
+                zuuluu = entity != michal;
+                entity = null;
+                if(!zuuluu) { _fun00004_ip = 108; continue _fun00003 }
+ 105:
+                entity = michal;
+ 108:
                 return entity;
             }
         };
@@ -229,62 +223,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 michal = this;
                 entity = michal.quest;
-                zuuluu = entity.taskConfigV2;
-                entity = null;
-                if(!(entity != zuuluu)) { _fun00006_ip = 193; continue _fun00005 }
- 24:
-                zuuluu = michal.quest;
-                zuuluu = zuuluu.taskConfigV2;
-                report = entity == zuuluu;
-                golfie = undefined;
+                entity = entity.taskConfigV2;
+                golfie = entity.tasks;
+                report = _closure1_slot0;
+                oscard = _closure1_slot1;
+                entity = 4;
+                zuuluu = oscard[entity];
                 tangon = undefined;
-                if(report) { _fun00006_ip = 92; continue _fun00005 }
- 47:
-                report = zuuluu.tasks;
-                oscard = _closure1_slot0;
-                option = _closure1_slot1;
-                zuuluu = 4;
-                zuuluu = option[zuuluu];
-                zuuluu = oscard.bind(golfie)(zuuluu);
+                zuuluu = report.bind(tangon)(zuuluu);
                 zuuluu = zuuluu.FirstPartyQuestTaskTypes;
                 zuuluu = zuuluu.WATCH_VIDEO;
-                tangon = report[zuuluu];
- 92:
+                zuuluu = golfie[zuuluu];
                 michal = michal.quest;
                 michal = michal.taskConfigV2;
-                report = entity == michal;
-                zuuluu = undefined;
-                if(report) { _fun00006_ip = 158; continue _fun00005 }
- 113:
-                report = michal.tasks;
-                oscard = _closure1_slot0;
-                option = _closure1_slot1;
-                michal = 4;
-                michal = option[michal];
-                michal = oscard.bind(golfie)(michal);
-                michal = michal.FirstPartyQuestTaskTypes;
-                michal = michal.WATCH_VIDEO_ON_MOBILE;
-                zuuluu = report[michal];
- 158:
-                if(!(entity != tangon)) { _fun00006_ip = 169; continue _fun00005 }
- 162:
-                michal = zuuluu;
-                if(!(entity == michal)) { _fun00006_ip = 191; continue _fun00005 }
- 169:
-                if(!(entity != zuuluu)) { _fun00006_ip = 176; continue _fun00005 }
- 173:
-                tangon = zuuluu;
- 176:
-                report = entity != tangon;
-                zuuluu = null;
-                if(!report) { _fun00006_ip = 188; continue _fun00005 }
- 185:
+                michal = michal.tasks;
+                entity = oscard[entity];
+                entity = report.bind(tangon)(entity);
+                entity = entity.FirstPartyQuestTaskTypes;
+                entity = entity.WATCH_VIDEO_ON_MOBILE;
+                tangon = michal[entity];
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00006_ip = 118; continue _fun00005 }
+ 111:
+                entity = tangon;
+                if(!(michal == entity)) { _fun00006_ip = 140; continue _fun00005 }
+ 118:
+                if(!(michal != tangon)) { _fun00006_ip = 125; continue _fun00005 }
+ 122:
                 zuuluu = tangon;
- 188:
+ 125:
+                tangon = michal != zuuluu;
+                michal = null;
+                if(!tangon) { _fun00006_ip = 137; continue _fun00005 }
+ 134:
                 michal = zuuluu;
- 191:
-                return michal;
- 193:
+ 137:
+                entity = michal;
+ 140:
                 return entity;
             }
         };

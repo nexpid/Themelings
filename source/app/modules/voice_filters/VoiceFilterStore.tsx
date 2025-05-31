@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = michal;
+            _closure1_slot12 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00004_ip = 247; continue _fun00003 }
  234:
-            verify = _closure1_slot13;
+            verify = _closure1_slot14;
             golfie = verify.bind(option)(zuuluu, option);
  247:
             _fun00004_ip = 265; continue _fun00003;
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00004_ip = 283; continue _fun00003;
  270:
-            golfie = _closure1_slot13;
+            golfie = _closure1_slot14;
             oscard = golfie.bind(option)(zuuluu, option);
  283:
             tangon = oscard;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot14 = entity;
     entity = function(argFoo) { // Original name: getVoicePriority
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot15 = entity;
     entity = function(argFoo) { // Original name: getCurrentTemporarilyAvailableVoices
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot16 = entity;
     entity = function(argFoo) { // Original name: sortVoiceFilters
         michal = global;
         tangon = michal.Object;
@@ -320,7 +320,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = zuuluu.bind(tangon)(michal);
         zuuluu = tangon.sort;
         michal = function(argFoo, argBar) {
-            tangon = _closure1_slot14;
+            tangon = _closure1_slot15;
             entity = argFoo;
             report = 1;
             entity = entity[report];
@@ -358,9 +358,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot17 = entity;
     offset = function() { // Original name: handleUpdateLimitedTimeVoices
-        report = _closure1_slot15;
+        report = _closure1_slot16;
         entity = _closure1_slot10;
         tangon = entity.limitedTimeVoices;
         entity = undefined;
@@ -391,13 +391,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu = tangon.bind(report)(zuuluu);
         zuuluu = _closure1_slot10;
-        tangon = _closure1_slot16;
+        tangon = _closure1_slot17;
         michal = zuuluu.voiceFilters;
         michal = tangon.bind(entity)(michal);
         zuuluu['sortedVoiceFilters'] = michal;
         return entity;
     };
-    var _closure1_slot17 = offset;
+    var _closure1_slot18 = offset;
     entity = global;
     verify = entity.Object;
     tangon = verify.defineProperty;
@@ -445,34 +445,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = verify.prototype;
     yankee = Object.create(tangon, {constructor: {value: verify}});
     tangon = 'VoiceFilterStore';
-    kiloes = yankee;
-    backup = tangon;
-    verify = new kiloes[verify](backup, foxtra);
+    sizing = yankee;
+    kiloes = tangon;
+    verify = new sizing[verify](kiloes, backup);
     verify = verify instanceof Object ? verify : yankee;
     var _closure1_slot9 = verify;
+    yankee = {};
+    verify = 7;
+    verify = golfie[verify];
+    verify = oscard.bind(entity)(verify);
+    verify = verify.VoiceFilterNativeModuleState;
+    verify = verify.UNINITIALIZED;
+    yankee['nativeVoiceFilterModuleState'] = verify;
     verify = {};
-    yankee = 7;
-    yankee = golfie[yankee];
-    yankee = oscard.bind(entity)(yankee);
-    yankee = yankee.VoiceFilterNativeModuleState;
-    yankee = yankee.UNINITIALIZED;
-    verify['nativeVoiceFilterModuleState'] = yankee;
-    yankee = {};
-    verify['models'] = yankee;
-    yankee = {};
-    verify['voiceFilters'] = yankee;
-    yankee = {};
-    verify['modelState'] = yankee;
-    yankee = new Array(0);
-    verify['sortedVoiceFilters'] = yankee;
-    yankee = false;
-    verify['catalogFetchFailed'] = yankee;
-    verify['catalogLastFetchTime'] = entity;
-    verify['catalogUpdateTime'] = entity;
-    verify['limitedTimeVoices'] = entity;
-    yankee = null;
-    verify['error'] = yankee;
-    var _closure1_slot10 = verify;
+    yankee['models'] = verify;
+    verify = {};
+    yankee['voiceFilters'] = verify;
+    verify = {};
+    yankee['modelState'] = verify;
+    verify = new Array(0);
+    yankee['sortedVoiceFilters'] = verify;
+    verify = false;
+    yankee['catalogFetchFailed'] = verify;
+    yankee['catalogLastFetchTime'] = entity;
+    yankee['catalogUpdateTime'] = entity;
+    yankee['limitedTimeVoices'] = entity;
+    verify = null;
+    yankee['error'] = verify;
+    var _closure1_slot10 = yankee;
+    var _closure1_slot11 = verify;
     verify = 9;
     verify = golfie[verify];
     verify = option.bind(entity)(verify);
@@ -490,7 +491,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot11;
+                entity = _closure1_slot12;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00016_ip = 69; continue _fun00015 }
  51:
@@ -528,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(16);
+        entity = new Array(17);
         entity[0] = report;
         report = {};
         golfie = 'getVoiceFilters';
@@ -850,13 +851,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'getError';
         report['key'] = golfie;
-        oscard = function() { // Original name: value
+        golfie = function() { // Original name: value
             entity = _closure1_slot10;
             entity = entity.error;
             return entity;
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[15] = report;
+        report = {};
+        golfie = 'getLastReportedLagTimestamp';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = _closure1_slot11;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[16] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -864,7 +874,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify['displayName'] = tangon;
     tangon = 10;
     tangon = golfie[tangon];
-    backup = option.bind(entity)(tangon);
+    kiloes = option.bind(entity)(tangon);
     tangon = {};
     yankee = function(argFoo) { // Original name: handleVoiceFilterDownloadStarted
         entity = argFoo;
@@ -1018,7 +1028,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.limited_time_voices;
             tangon['limitedTimeVoices'] = entity;
             report = {};
-            oscard = _closure1_slot15;
+            oscard = _closure1_slot16;
             entity = _closure1_slot10;
             tangon = entity.limitedTimeVoices;
             entity = undefined;
@@ -1026,7 +1036,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = _closure1_slot10;
             tangon = romeon.catalogUpdateTime;
             oscard['catalogUpdateTime'] = tangon;
-            tangon = _closure1_slot12;
+            tangon = _closure1_slot13;
             michal = michal.voices;
             yankee = tangon.bind(entity)(michal);
             oscard = yankee.bind(entity)();
@@ -1070,7 +1080,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = _closure1_slot10;
             tangon['voiceFilters'] = report;
             report = _closure1_slot10;
-            oscard = _closure1_slot16;
+            oscard = _closure1_slot17;
             tangon = report.voiceFilters;
             tangon = oscard.bind(entity)(tangon);
             report['sortedVoiceFilters'] = tangon;
@@ -1157,7 +1167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.toISOString;
             zuuluu = zuuluu.bind(report)();
             tangon['next_set_end'] = zuuluu;
-            michal = _closure1_slot17;
+            michal = _closure1_slot18;
             michal = michal.bind(entity)();
  232:
             return entity;
@@ -1182,19 +1192,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     tangon['VOICE_FILTER_APPLY_FAILED'] = offset;
-    report = function() { // Original name: handleVoiceFilterRequestSwitch
+    offset = function() { // Original name: handleVoiceFilterRequestSwitch
         michal = _closure1_slot10;
         entity = null;
         michal['error'] = entity;
         entity = undefined;
         return entity;
     };
-    tangon['VOICE_FILTER_REQUEST_SWITCH'] = report;
+    tangon['VOICE_FILTER_REQUEST_SWITCH'] = offset;
+    report = function() { // Original name: handleVoiceFilterLagging
+        entity = global;
+        michal = entity.Date;
+        entity = michal.now;
+        michal = entity.bind(michal)();
+        _closure1_slot11 = michal;
+        entity = undefined;
+        return entity;
+    };
+    tangon['VOICE_FILTER_LAGGING'] = report;
     report = verify.prototype;
     report = Object.create(report, {constructor: {value: verify}});
-    kiloes = report;
-    foxtra = tangon;
-    tangon = new kiloes[verify](backup, foxtra, romeon);
+    sizing = report;
+    backup = tangon;
+    tangon = new sizing[verify](kiloes, backup, foxtra);
     tangon = tangon instanceof Object ? tangon : report;
     report = 11;
     report = golfie[report];

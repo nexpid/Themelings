@@ -339,7 +339,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = verify.bind(tangon)(option, golfie);
  751:
             entity['leading'] = report;
-            _fun00002_ip = 1014; continue _fun00001;
+            _fun00002_ip = 1018; continue _fun00001;
  761:
             report = {};
             offset = _closure1_slot0;
@@ -395,7 +395,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['leading'] = golfie;
             report['disabled'] = oscard;
             entity = report;
- 1014:
+ 1018:
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

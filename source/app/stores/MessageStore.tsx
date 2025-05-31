@@ -1432,12 +1432,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = entity.channelId;
             option = entity.isBefore;
             golfie = entity.isAfter;
-            foxtra = entity.jump;
-            romeon = entity.hasMoreBefore;
-            yankee = entity.hasMoreAfter;
-            backup = entity.messages;
-            offset = entity.isStale;
+            backup = entity.jump;
+            foxtra = entity.hasMoreBefore;
+            romeon = entity.hasMoreAfter;
+            kiloes = entity.messages;
+            yankee = entity.isStale;
             tangon = entity.truncate;
+            offset = entity.avoidInitialScroll;
             oscard = _closure1_slot1;
             entity = _closure1_slot2;
             report = 21;
@@ -1448,42 +1449,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = zuuluu.bind(oscard)(verify);
             oscard = verify.loadComplete;
             zuuluu = {};
-            zuuluu['newMessages'] = backup;
+            zuuluu['newMessages'] = kiloes;
             zuuluu['isBefore'] = option;
             zuuluu['isAfter'] = golfie;
-            zuuluu['jump'] = foxtra;
-            zuuluu['hasMoreBefore'] = romeon;
-            zuuluu['hasMoreAfter'] = yankee;
-            zuuluu['cached'] = offset;
-            offset = true;
-            zuuluu['hasFetched'] = offset;
+            zuuluu['jump'] = backup;
+            zuuluu['hasMoreBefore'] = foxtra;
+            zuuluu['hasMoreAfter'] = romeon;
+            zuuluu['cached'] = yankee;
+            yankee = true;
+            zuuluu['hasFetched'] = yankee;
+            zuuluu['avoidInitialScroll'] = offset;
             oscard = oscard.bind(verify)(zuuluu);
             zuuluu = null;
             zuuluu = zuuluu == tangon;
-            if(zuuluu) { _fun00048_ip = 168; continue _fun00047 }
- 156:
+            if(zuuluu) { _fun00048_ip = 179; continue _fun00047 }
+ 167:
             tangon = !option;
-            if(!tangon) { _fun00048_ip = 165; continue _fun00047 }
- 162:
+            if(!tangon) { _fun00048_ip = 176; continue _fun00047 }
+ 173:
             tangon = !golfie;
- 165:
+ 176:
             zuuluu = tangon;
- 168:
-            if(zuuluu) { _fun00048_ip = 183; continue _fun00047 }
- 171:
+ 179:
+            if(zuuluu) { _fun00048_ip = 194; continue _fun00047 }
+ 182:
             tangon = option;
-            if(!tangon) { _fun00048_ip = 180; continue _fun00047 }
- 177:
+            if(!tangon) { _fun00048_ip = 191; continue _fun00047 }
+ 188:
             tangon = golfie;
- 180:
+ 191:
             zuuluu = tangon;
- 183:
+ 194:
             tangon = oscard;
-            if(zuuluu) { _fun00048_ip = 201; continue _fun00047 }
- 189:
+            if(zuuluu) { _fun00048_ip = 212; continue _fun00047 }
+ 200:
             zuuluu = oscard.truncate;
             tangon = zuuluu.bind(oscard)(option, golfie);
- 201:
+ 212:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             michal = michal[report];

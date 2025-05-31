@@ -455,6 +455,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['quest'] = result;
             source = echoed.questDockRewardTile;
             romeon['style'] = source;
+            source = foxtra;
+            if(!source) { _fun00004_ip = 495; continue _fun00003 }
+ 492:
+            source = ctrled;
+ 495:
+            romeon['withAnimation'] = source;
             sizing = update.bind(tangon)(sizing, romeon);
             romeon = new Array(2);
             romeon[0] = sizing;
@@ -491,13 +497,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = new Array(2);
             ctrled[0] = sequen;
             config = _closure1_slot10;
-            if(vacuum) { _fun00004_ip = 666; continue _fun00003 }
- 660:
+            if(vacuum) { _fun00004_ip = 680; continue _fun00003 }
+ 674:
             sequen = _closure1_slot15;
-            _fun00004_ip = 670; continue _fun00003;
- 666:
+            _fun00004_ip = 684; continue _fun00003;
+ 680:
             sequen = _closure1_slot14;
- 670:
+ 684:
             vacuum = {};
             vacuum['quest'] = result;
             vacuum = config.bind(tangon)(sequen, vacuum);

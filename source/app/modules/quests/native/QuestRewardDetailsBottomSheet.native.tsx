@@ -238,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 12;
             offset = kiloes[offset];
             romeon = result.bind(tangon)(offset);
-            offset = {'quest': null, 'height': 56, 'width': 56};
+            offset = {'quest': null, 'height': 56, 'width': 56, 'withAnimation': true};
             offset['quest'] = ctrled;
             romeon = zuuluu.bind(tangon)(romeon, offset);
             offset = new Array(2);

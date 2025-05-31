@@ -144,21 +144,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             michal = arguments[0];
             zuuluu = undefined;
-            if(!(michal === zuuluu)) { _fun00008_ip = 21; continue _fun00007 }
+            if(!(michal === zuuluu)) { _fun00008_ip = 25; continue _fun00007 }
  11:
             michal = {'enabled': true, 'ignoreQuestDock': false};
- 21:
+ 25:
             tangon = michal.enabled;
-            if(!(tangon === zuuluu)) { _fun00008_ip = 32; continue _fun00007 }
- 30:
+            if(!(tangon === zuuluu)) { _fun00008_ip = 36; continue _fun00007 }
+ 34:
             tangon = true;
- 32:
+ 36:
             var _closure2_slot0 = tangon;
             michal = michal.ignoreQuestDock;
-            if(!(michal === zuuluu)) { _fun00008_ip = 48; continue _fun00007 }
- 46:
+            if(!(michal === zuuluu)) { _fun00008_ip = 52; continue _fun00007 }
+ 50:
             michal = false;
- 48:
+ 52:
             var _closure2_slot1 = michal;
             var _closure2_slot2 = zuuluu;
             report = _closure1_slot0;

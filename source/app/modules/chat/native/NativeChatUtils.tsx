@@ -353,72 +353,80 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function(argFoo, argBar, argBaz) { // Original name: updateRows
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            verify = argFoo;
-            option = argBaz;
-            golfie = null;
-            if(!(golfie == verify)) { _fun00012_ip = 35; continue _fun00011 }
+            yankee = argFoo;
+            verify = argBaz;
+            entity = null;
+            if(!(entity == yankee)) { _fun00012_ip = 35; continue _fun00011 }
  12:
-            zuuluu = _closure1_slot6;
-            michal = undefined;
-            entity = 'updateRows';
-            entity = zuuluu.bind(michal)(entity);
-            _fun00012_ip = 243; continue _fun00011;
+            tangon = _closure1_slot6;
+            zuuluu = undefined;
+            michal = 'updateRows';
+            michal = tangon.bind(zuuluu)(michal);
+            _fun00012_ip = 265; continue _fun00011;
  35:
-            michal = _closure1_slot4;
-            offset = undefined;
-            oscard = michal.bind(offset)(verify);
-            if(!(golfie != oscard)) { _fun00012_ip = 243; continue _fun00011 }
+            zuuluu = _closure1_slot4;
+            romeon = undefined;
+            option = zuuluu.bind(romeon)(yankee);
+            if(!(entity != option)) { _fun00012_ip = 265; continue _fun00011 }
  56:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            michal = 2;
-            michal = tangon[michal];
-            zuuluu = zuuluu.bind(offset)(michal);
-            michal = zuuluu.isIOS;
-            michal = michal.bind(zuuluu)();
-            if(michal) { _fun00012_ip = 111; continue _fun00011 }
+            tangon = _closure1_slot0;
+            report = _closure1_slot2;
+            zuuluu = 2;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(romeon)(zuuluu);
+            zuuluu = tangon.isIOS;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00012_ip = 111; continue _fun00011 }
  89:
-            zuuluu = _closure1_slot1;
-            tangon = _closure1_slot2;
-            michal = 4;
-            michal = tangon[michal];
-            report = zuuluu.bind(offset)(michal);
+            tangon = _closure1_slot1;
+            report = _closure1_slot2;
+            zuuluu = 4;
+            zuuluu = report[zuuluu];
+            golfie = tangon.bind(romeon)(zuuluu);
             _fun00012_ip = 121; continue _fun00011;
  111:
-            michal = _closure1_slot3;
-            report = michal.DCDChatManager;
+            zuuluu = _closure1_slot3;
+            golfie = zuuluu.DCDChatManager;
  121:
-            tangon = report.updateRows;
-            yankee = global;
-            romeon = yankee.JSON;
-            zuuluu = romeon.stringify;
-            michal = argBar;
-            zuuluu = zuuluu.bind(romeon)(michal);
-            michal = option.isLoadingAtTop;
-            romeon = option.scrollData;
-            romeon = golfie != romeon;
-            golfie = null;
-            if(!romeon) { _fun00012_ip = 193; continue _fun00011 }
+            oscard = golfie.updateRows;
+            offset = global;
+            report = offset.JSON;
+            tangon = report.stringify;
+            zuuluu = argBar;
+            report = tangon.bind(report)(zuuluu);
+            tangon = verify.isLoadingAtTop;
+            zuuluu = verify.scrollData;
+            foxtra = entity != zuuluu;
+            zuuluu = null;
+            if(!foxtra) { _fun00012_ip = 193; continue _fun00011 }
  170:
-            romeon = yankee.JSON;
-            yankee = romeon.stringify;
-            option = option.scrollData;
-            golfie = yankee.bind(romeon)(option);
+            backup = offset.JSON;
+            foxtra = backup.stringify;
+            offset = verify.scrollData;
+            zuuluu = foxtra.bind(backup)(offset);
  193:
-            option = _closure1_slot0;
-            yankee = _closure1_slot2;
-            entity = 5;
-            entity = yankee[entity];
-            option = option.bind(offset)(entity);
-            entity = option.getAndIncrementChangesetIdForChat;
-            foxtra = entity.bind(option)(verify);
-            result = report;
-            output = oscard;
-            sizing = zuuluu;
-            kiloes = michal;
-            backup = golfie;
-            entity = result[tangon](output, sizing, kiloes, backup, foxtra, romeon);
- 243:
+            offset = _closure1_slot0;
+            foxtra = _closure1_slot2;
+            michal = 5;
+            michal = foxtra[michal];
+            offset = offset.bind(romeon)(michal);
+            michal = offset.getAndIncrementChangesetIdForChat;
+            michal = michal.bind(offset)(yankee);
+            verify = verify.HACK_iOSForceAnimations;
+            entity = entity != verify;
+            if(!entity) { _fun00012_ip = 240; continue _fun00011 }
+ 237:
+            entity = verify;
+ 240:
+            source = golfie;
+            update = option;
+            echoed = report;
+            result = tangon;
+            output = zuuluu;
+            sizing = michal;
+            kiloes = entity;
+            entity = source[oscard](update, echoed, result, output, sizing, kiloes, backup);
+ 265:
             entity = undefined;
             return entity;
         }

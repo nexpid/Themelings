@@ -65,19 +65,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             var _closure2_slot1 = michal;
+            michal = entity.linkVariant;
+            zuuluu = null;
+            zuuluu = zuuluu != michal;
+            romeon = 'text-sm/medium';
+            if(!zuuluu) { _fun00002_ip = 76; continue _fun00001 }
+ 73:
+            romeon = michal;
+ 76:
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot0;
-            romeon = _closure1_slot2;
+            foxtra = _closure1_slot2;
             michal = 19;
-            michal = romeon[michal];
+            michal = foxtra[michal];
             michal = zuuluu.bind(report)(michal);
             zuuluu = michal.Text;
-            michal = {'variant': 'text-sm/medium', 'accessibilityRole': 'link'};
+            michal = {};
+            michal['variant'] = romeon;
+            romeon = 'link';
+            michal['accessibilityRole'] = romeon;
             option = option.link;
-            if(option) { _fun00002_ip = 112; continue _fun00001 }
- 106:
+            if(option) { _fun00002_ip = 134; continue _fun00001 }
+ 128:
             option = yankee.link;
- 112:
+ 134:
             michal['style'] = option;
             option = function(argFoo) { // Original name: onPress
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -164,9 +175,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = golfie.bind(report)(oscard);
             golfie = option.smartOutput;
             oscard = {};
-            kiloes = oscard;
-            backup = entity;
-            yankee = copyDataProperties(kiloes, backup);
+            sizing = oscard;
+            kiloes = entity;
+            yankee = copyDataProperties(sizing, kiloes);
             romeon = true;
             yankee = 'inLink';
             oscard[yankee] = romeon;

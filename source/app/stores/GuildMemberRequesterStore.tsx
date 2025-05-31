@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot14 = entity;
-    tangon = function(argFoo) { // Original name: handleLoadMessages
+    option = function(argFoo) { // Original name: handleLoadMessages
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
@@ -308,7 +308,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    option = function(argFoo) { // Original name: handleLoadSearchResults
+    verify = function(argFoo) { // Original name: handleLoadSearchResults
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
@@ -494,7 +494,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['CONNECTION_RESUMED'] = offset;
-    verify = function(argFoo) { // Original name: handleGuildMembersChunkBatch
+    offset = function(argFoo) { // Original name: handleGuildMembersChunkBatch
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
@@ -558,14 +558,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['GUILD_MEMBERS_CHUNK_BATCH'] = verify;
-    michal['SEARCH_FINISH'] = option;
-    michal['MOD_VIEW_SEARCH_FINISH'] = option;
-    michal['LOCAL_MESSAGES_LOADED'] = tangon;
-    michal['LOAD_MESSAGES_SUCCESS'] = tangon;
-    michal['LOAD_MESSAGES_AROUND_SUCCESS'] = tangon;
+    michal['GUILD_MEMBERS_CHUNK_BATCH'] = offset;
+    michal['SEARCH_FINISH'] = verify;
+    michal['MOD_VIEW_SEARCH_FINISH'] = verify;
+    michal['LOCAL_MESSAGES_LOADED'] = option;
+    michal['LOAD_MESSAGES_SUCCESS'] = option;
+    michal['LOAD_MESSAGES_AROUND_SUCCESS'] = option;
+    michal['LOAD_RECENT_MENTIONS_SUCCESS'] = option;
+    tangon = function(argFoo) { // Original name: handleLoadPinnedMessages
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+            entity = argFoo;
+            oscard = entity.pins;
+            tangon = entity.channelId;
+            michal = _closure1_slot7;
+            entity = michal.getChannel;
+            michal = entity.bind(michal)(tangon);
+            report = null;
+            entity = report != michal;
+            if(!entity) { _fun00022_ip = 49; continue _fun00021 }
+ 40:
+            tangon = michal.guild_id;
+            entity = report != tangon;
+ 49:
+            if(!entity) { _fun00022_ip = 88; continue _fun00021 }
+ 52:
+            report = _closure1_slot14;
+            tangon = michal.guild_id;
+            zuuluu = oscard.map;
+            michal = function(argFoo) {
+                entity = argFoo;
+                entity = entity.message;
+                return entity;
+            };
+            zuuluu = zuuluu.bind(oscard)(michal);
+            michal = undefined;
+            michal = report.bind(michal)(tangon, zuuluu);
+            entity = false;
+ 88:
+            return entity;
+        }
+    };
     michal['LOAD_PINNED_MESSAGES_SUCCESS'] = tangon;
-    michal['LOAD_RECENT_MENTIONS_SUCCESS'] = tangon;
     tangon = golfie.prototype;
     tangon = Object.create(tangon, {constructor: {value: golfie}});
     sizing = tangon;

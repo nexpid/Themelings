@@ -1127,6 +1127,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot36 = entity;
+    entity = function(argFoo) { // Original name: handleLoadPinnedMessages
+        entity = argFoo;
+        zuuluu = entity.pins;
+        michal = zuuluu.forEach;
+        entity = function(argFoo) {
+            entity = argFoo;
+            tangon = entity.message;
+            zuuluu = _closure1_slot28;
+            entity = undefined;
+            michal = true;
+            michal = zuuluu.bind(entity)(tangon, michal);
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        entity = false;
+        return entity;
+    };
+    var _closure1_slot37 = entity;
     entity = function(argFoo) { // Original name: handleThreadListSync
         _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
@@ -1150,7 +1168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot37 = entity;
+    var _closure1_slot38 = entity;
     entity = function(argFoo) { // Original name: handleLoadSearchResults
         entity = argFoo;
         zuuluu = entity.messages;
@@ -1169,7 +1187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = false;
         return entity;
     };
-    var _closure1_slot38 = entity;
+    var _closure1_slot39 = entity;
     entity = function(argFoo) { // Original name: handleLoadThreadsSuccess
         _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
@@ -1208,7 +1226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot39 = entity;
+    var _closure1_slot40 = entity;
     entity = function(argFoo) { // Original name: handleLoadForumPosts
         entity = argFoo;
         zuuluu = entity.threads;
@@ -1261,7 +1279,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot40 = entity;
+    var _closure1_slot41 = entity;
     entity = function(argFoo) { // Original name: handleLoadMessageRequestsSupplementalDataSuccess
         entity = argFoo;
         zuuluu = entity.supplementalData;
@@ -1291,7 +1309,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot41 = entity;
+    var _closure1_slot42 = entity;
     entity = function(argFoo) { // Original name: handleFetchUsersForGuildEventSuccess
         michal = argFoo;
         zuuluu = michal.guildScheduledEventUsers;
@@ -1331,7 +1349,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot42 = entity;
+    var _closure1_slot43 = entity;
     entity = function(argFoo) { // Original name: handleLoadNotificationCenterItems
         entity = argFoo;
         zuuluu = entity.items;
@@ -1357,7 +1375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot43 = entity;
+    var _closure1_slot44 = entity;
     entity = function(argFoo) { // Original name: handleNotificationCenterItemCreate
         _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
  0:
@@ -1376,7 +1394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot44 = entity;
+    var _closure1_slot45 = entity;
     entity = function(argFoo) { // Original name: handleIncomingMessage
         _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
  0:
@@ -1435,7 +1453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot45 = entity;
+    var _closure1_slot46 = entity;
     entity = function(argFoo) { // Original name: handleCreateChannel
         _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
@@ -1459,7 +1477,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot46 = entity;
+    var _closure1_slot47 = entity;
     entity = function(argFoo) { // Original name: handleUpdateChannels
         _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
@@ -1496,7 +1514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot47 = entity;
+    var _closure1_slot48 = entity;
     entity = function(argFoo) { // Original name: handlePresenceUpdates
         michal = argFoo;
         tangon = michal.updates;
@@ -1582,7 +1600,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot48 = entity;
+    var _closure1_slot49 = entity;
     entity = function(argFoo) { // Original name: handleLoadedBans
         entity = argFoo;
         zuuluu = entity.bans;
@@ -1599,7 +1617,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot49 = entity;
+    var _closure1_slot50 = entity;
     entity = function(argFoo) { // Original name: handleLoadedBansBatch
         entity = argFoo;
         zuuluu = entity.bans;
@@ -1616,7 +1634,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot50 = entity;
+    var _closure1_slot51 = entity;
     entity = function(argFoo) { // Original name: handleBan
         zuuluu = _closure1_slot26;
         entity = argFoo;
@@ -1625,7 +1643,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    var _closure1_slot51 = entity;
+    var _closure1_slot52 = entity;
     entity = function(argFoo) { // Original name: handleRecipient
         _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
  0:
@@ -1643,7 +1661,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot52 = entity;
+    var _closure1_slot53 = entity;
     entity = function(argFoo) { // Original name: handleGuildMembers
         _fun00065: for(var _fun00066_ip = 0; ; ) switch(_fun00066_ip) {
  0:
@@ -1665,7 +1683,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot53 = entity;
+    var _closure1_slot54 = entity;
     entity = function(argFoo) { // Original name: handleGuildMemberListUpdate
         _fun00067: for(var _fun00068_ip = 0; ; ) switch(_fun00068_ip) {
  0:
@@ -1718,7 +1736,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot54 = entity;
+    var _closure1_slot55 = entity;
     entity = function(argFoo) { // Original name: handleGuildMembersChunkBatch
         _fun00069: for(var _fun00070_ip = 0; ; ) switch(_fun00070_ip) {
  0:
@@ -1789,7 +1807,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot55 = entity;
+    var _closure1_slot56 = entity;
     entity = function(argFoo) { // Original name: handlePassiveUpdateV2
         _fun00075: for(var _fun00076_ip = 0; ; ) switch(_fun00076_ip) {
  0:
@@ -1832,7 +1850,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot56 = entity;
+    var _closure1_slot57 = entity;
     entity = function(argFoo) { // Original name: handleLocalMessagesLoaded
         _fun00077: for(var _fun00078_ip = 0; ; ) switch(_fun00078_ip) {
  0:
@@ -1881,7 +1899,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot57 = entity;
+    var _closure1_slot58 = entity;
     entity = function(argFoo) { // Original name: handleThreadMemberListUpdate
         michal = argFoo;
         tangon = michal.members;
@@ -1931,7 +1949,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = _closure2_slot0;
         return entity;
     };
-    var _closure1_slot58 = entity;
+    var _closure1_slot59 = entity;
     entity = function(argFoo) { // Original name: handleThreadMembersUpdate
         _fun00081: for(var _fun00082_ip = 0; ; ) switch(_fun00082_ip) {
  0:
@@ -1988,7 +2006,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot59 = entity;
+    var _closure1_slot60 = entity;
     entity = function(argFoo) { // Original name: handleGuildCreate
         michal = argFoo;
         michal = michal.guild;
@@ -2033,7 +2051,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot60 = entity;
+    var _closure1_slot61 = entity;
     entity = function(argFoo) { // Original name: handleRelationshipAdd
         zuuluu = _closure1_slot26;
         entity = argFoo;
@@ -2043,7 +2061,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    var _closure1_slot61 = entity;
+    var _closure1_slot62 = entity;
     entity = function(argFoo) { // Original name: handleGameRelationshipAdd
         zuuluu = _closure1_slot26;
         entity = argFoo;
@@ -2053,7 +2071,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    var _closure1_slot62 = entity;
+    var _closure1_slot63 = entity;
     entity = function(argFoo) { // Original name: handleLoadRelationships
         entity = argFoo;
         tangon = entity.relationships;
@@ -2078,7 +2096,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot63 = entity;
+    var _closure1_slot64 = entity;
     entity = function(argFoo) { // Original name: handleFriendSuggestionCreate
         zuuluu = _closure1_slot26;
         entity = argFoo;
@@ -2088,7 +2106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    var _closure1_slot64 = entity;
+    var _closure1_slot65 = entity;
     entity = function(argFoo) { // Original name: handleLoadFriendSuggestions
         entity = argFoo;
         tangon = entity.suggestions;
@@ -2113,7 +2131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot65 = entity;
+    var _closure1_slot66 = entity;
     entity = function(argFoo) { // Original name: handleAuditLogFetched
         entity = argFoo;
         zuuluu = entity.users;
@@ -2147,7 +2165,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot66 = entity;
+    var _closure1_slot67 = entity;
     entity = function(argFoo) { // Original name: handleGiftCodeResolve
         _fun00093: for(var _fun00094_ip = 0; ; ) switch(_fun00094_ip) {
  0:
@@ -2166,7 +2184,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot67 = entity;
+    var _closure1_slot68 = entity;
     entity = function(argFoo) { // Original name: handleGuildPremiumSubscriptionsFetchSuccess
         entity = argFoo;
         zuuluu = entity.appliedBoosts;
@@ -2191,7 +2209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot68 = entity;
+    var _closure1_slot69 = entity;
     entity = function(argFoo) { // Original name: handleGuildJoinRequest
         _fun00097: for(var _fun00098_ip = 0; ; ) switch(_fun00098_ip) {
  0:
@@ -2223,7 +2241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot69 = entity;
+    var _closure1_slot70 = entity;
     entity = function(argFoo) { // Original name: handleInitialFamilyCenterLoad
         entity = argFoo;
         oscard = entity.users;
@@ -2255,7 +2273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot70 = entity;
+    var _closure1_slot71 = entity;
     entity = function(argFoo) { // Original name: handleLinkedUserFetch
         entity = argFoo;
         tangon = entity.users;
@@ -2279,7 +2297,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot71 = entity;
+    var _closure1_slot72 = entity;
     entity = function(argFoo) { // Original name: handleRequestLinkSuccess
         entity = argFoo;
         tangon = entity.users;
@@ -2303,7 +2321,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot72 = entity;
+    var _closure1_slot73 = entity;
     entity = function(argFoo) { // Original name: handleTeenActivityFetch
         _fun00105: for(var _fun00106_ip = 0; ; ) switch(_fun00106_ip) {
  0:
@@ -2336,7 +2354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot73 = entity;
+    var _closure1_slot74 = entity;
     entity = function(argFoo) { // Original name: handleTeenActivityMoreFetch
         entity = argFoo;
         entity = entity.familyCenterTeenActivity;
@@ -2361,7 +2379,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot74 = entity;
+    var _closure1_slot75 = entity;
     entity = function(argFoo) { // Original name: handleMemberSafetyGuildMemberSearchSuccess
         michal = argFoo;
         tangon = michal.members;
@@ -2400,7 +2418,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot75 = entity;
+    var _closure1_slot76 = entity;
     entity = function(argFoo) { // Original name: handleLoadGravityHydratedItems
         entity = argFoo;
         tangon = entity.messageItems;
@@ -2428,7 +2446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot76 = entity;
+    var _closure1_slot77 = entity;
     entity = function(argFoo) { // Original name: handleEmbeddedActivityUpdateV2
         entity = argFoo;
         tangon = entity.participants;
@@ -2463,7 +2481,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    var _closure1_slot77 = entity;
+    var _closure1_slot78 = entity;
     entity = function(argFoo) { // Original name: handleInitiateAgeVerification
         _fun00117: for(var _fun00118_ip = 0; ; ) switch(_fun00118_ip) {
  0:
@@ -2506,7 +2524,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             throw entity;
         }
     };
-    var _closure1_slot78 = entity;
+    var _closure1_slot79 = entity;
     entity = function(argFoo) { // Original name: handleCloseAgeVerificationModal
         _fun00119: for(var _fun00120_ip = 0; ; ) switch(_fun00120_ip) {
  0:
@@ -2548,7 +2566,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot79 = entity;
+    var _closure1_slot80 = entity;
     entity = global;
     option = entity.Object;
     oscard = option.defineProperty;
@@ -2642,104 +2660,105 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['USER_UPDATE'] = golfie;
                 golfie = _closure1_slot34;
                 entity['CURRENT_USER_UPDATE'] = golfie;
-                golfie = _closure1_slot48;
+                golfie = _closure1_slot49;
                 entity['PRESENCE_UPDATES'] = golfie;
-                golfie = _closure1_slot38;
+                golfie = _closure1_slot39;
                 entity['SEARCH_FINISH'] = golfie;
                 entity['MOD_VIEW_SEARCH_FINISH'] = golfie;
                 golfie = _closure1_slot36;
                 entity['LOAD_MESSAGES_SUCCESS'] = golfie;
                 entity['LOAD_MESSAGES_AROUND_SUCCESS'] = golfie;
-                entity['LOAD_PINNED_MESSAGES_SUCCESS'] = golfie;
                 entity['LOAD_RECENT_MENTIONS_SUCCESS'] = golfie;
                 golfie = _closure1_slot37;
+                entity['LOAD_PINNED_MESSAGES_SUCCESS'] = golfie;
+                golfie = _closure1_slot38;
                 entity['THREAD_LIST_SYNC'] = golfie;
-                golfie = _closure1_slot45;
+                golfie = _closure1_slot46;
                 entity['MESSAGE_CREATE'] = golfie;
                 entity['MESSAGE_UPDATE'] = golfie;
-                golfie = _closure1_slot49;
-                entity['GUILD_SETTINGS_LOADED_BANS'] = golfie;
                 golfie = _closure1_slot50;
-                entity['GUILD_SETTINGS_LOADED_BANS_BATCH'] = golfie;
-                golfie = _closure1_slot60;
-                entity['GUILD_CREATE'] = golfie;
+                entity['GUILD_SETTINGS_LOADED_BANS'] = golfie;
                 golfie = _closure1_slot51;
+                entity['GUILD_SETTINGS_LOADED_BANS_BATCH'] = golfie;
+                golfie = _closure1_slot61;
+                entity['GUILD_CREATE'] = golfie;
+                golfie = _closure1_slot52;
                 entity['GUILD_BAN_ADD'] = golfie;
                 entity['GUILD_BAN_REMOVE'] = golfie;
-                golfie = _closure1_slot52;
+                golfie = _closure1_slot53;
                 entity['CHANNEL_RECIPIENT_ADD'] = golfie;
                 entity['CHANNEL_RECIPIENT_REMOVE'] = golfie;
-                golfie = _closure1_slot69;
+                golfie = _closure1_slot70;
                 entity['GUILD_JOIN_REQUEST_CREATE'] = golfie;
                 entity['GUILD_JOIN_REQUEST_UPDATE'] = golfie;
-                golfie = _closure1_slot53;
+                golfie = _closure1_slot54;
                 entity['GUILD_MEMBER_ADD'] = golfie;
                 entity['GUILD_MEMBER_UPDATE'] = golfie;
-                golfie = _closure1_slot55;
+                golfie = _closure1_slot56;
                 entity['GUILD_MEMBERS_CHUNK_BATCH'] = golfie;
-                golfie = _closure1_slot54;
+                golfie = _closure1_slot55;
                 entity['GUILD_MEMBER_LIST_UPDATE'] = golfie;
-                golfie = _closure1_slot58;
-                entity['THREAD_MEMBER_LIST_UPDATE'] = golfie;
                 golfie = _closure1_slot59;
+                entity['THREAD_MEMBER_LIST_UPDATE'] = golfie;
+                golfie = _closure1_slot60;
                 entity['THREAD_MEMBERS_UPDATE'] = golfie;
-                golfie = _closure1_slot46;
-                entity['CHANNEL_CREATE'] = golfie;
                 golfie = _closure1_slot47;
+                entity['CHANNEL_CREATE'] = golfie;
+                golfie = _closure1_slot48;
                 entity['CHANNEL_UPDATES'] = golfie;
-                golfie = _closure1_slot61;
-                entity['RELATIONSHIP_ADD'] = golfie;
                 golfie = _closure1_slot62;
-                entity['GAME_RELATIONSHIP_ADD'] = golfie;
+                entity['RELATIONSHIP_ADD'] = golfie;
                 golfie = _closure1_slot63;
-                entity['LOAD_RELATIONSHIPS_SUCCESS'] = golfie;
+                entity['GAME_RELATIONSHIP_ADD'] = golfie;
                 golfie = _closure1_slot64;
-                entity['FRIEND_SUGGESTION_CREATE'] = golfie;
+                entity['LOAD_RELATIONSHIPS_SUCCESS'] = golfie;
                 golfie = _closure1_slot65;
-                entity['LOAD_FRIEND_SUGGESTIONS_SUCCESS'] = golfie;
+                entity['FRIEND_SUGGESTION_CREATE'] = golfie;
                 golfie = _closure1_slot66;
+                entity['LOAD_FRIEND_SUGGESTIONS_SUCCESS'] = golfie;
+                golfie = _closure1_slot67;
                 entity['AUDIT_LOG_FETCH_SUCCESS'] = golfie;
                 entity['AUDIT_LOG_FETCH_NEXT_PAGE_SUCCESS'] = golfie;
-                golfie = _closure1_slot67;
-                entity['GIFT_CODE_RESOLVE_SUCCESS'] = golfie;
                 golfie = _closure1_slot68;
+                entity['GIFT_CODE_RESOLVE_SUCCESS'] = golfie;
+                golfie = _closure1_slot69;
                 entity['GUILD_APPLIED_BOOSTS_FETCH_SUCCESS'] = golfie;
-                golfie = _closure1_slot39;
+                golfie = _closure1_slot40;
                 entity['LOAD_THREADS_SUCCESS'] = golfie;
                 entity['LOAD_ARCHIVED_THREADS_SUCCESS'] = golfie;
-                golfie = _closure1_slot40;
-                entity['LOAD_FORUM_POSTS'] = golfie;
-                golfie = _closure1_slot42;
-                entity['GUILD_SCHEDULED_EVENT_USERS_FETCH_SUCCESS'] = golfie;
-                golfie = _closure1_slot43;
-                entity['LOAD_NOTIFICATION_CENTER_ITEMS_SUCCESS'] = golfie;
-                golfie = _closure1_slot44;
-                entity['NOTIFICATION_CENTER_ITEM_CREATE'] = golfie;
                 golfie = _closure1_slot41;
+                entity['LOAD_FORUM_POSTS'] = golfie;
+                golfie = _closure1_slot43;
+                entity['GUILD_SCHEDULED_EVENT_USERS_FETCH_SUCCESS'] = golfie;
+                golfie = _closure1_slot44;
+                entity['LOAD_NOTIFICATION_CENTER_ITEMS_SUCCESS'] = golfie;
+                golfie = _closure1_slot45;
+                entity['NOTIFICATION_CENTER_ITEM_CREATE'] = golfie;
+                golfie = _closure1_slot42;
                 entity['LOAD_MESSAGE_REQUESTS_SUPPLEMENTAL_DATA_SUCCESS'] = golfie;
-                golfie = _closure1_slot56;
-                entity['PASSIVE_UPDATE_V2'] = golfie;
                 golfie = _closure1_slot57;
+                entity['PASSIVE_UPDATE_V2'] = golfie;
+                golfie = _closure1_slot58;
                 entity['LOCAL_MESSAGES_LOADED'] = golfie;
-                golfie = _closure1_slot70;
-                entity['FAMILY_CENTER_INITIAL_LOAD'] = golfie;
                 golfie = _closure1_slot71;
-                entity['FAMILY_CENTER_LINKED_USERS_FETCH_SUCCESS'] = golfie;
-                golfie = _closure1_slot73;
-                entity['FAMILY_CENTER_TEEN_ACTIVITY_FETCH_SUCCESS'] = golfie;
-                golfie = _closure1_slot74;
-                entity['FAMILY_CENTER_TEEN_ACTIVITY_MORE_FETCH_SUCCESS'] = golfie;
+                entity['FAMILY_CENTER_INITIAL_LOAD'] = golfie;
                 golfie = _closure1_slot72;
-                entity['FAMILY_CENTER_REQUEST_LINK_SUCCESS'] = golfie;
+                entity['FAMILY_CENTER_LINKED_USERS_FETCH_SUCCESS'] = golfie;
+                golfie = _closure1_slot74;
+                entity['FAMILY_CENTER_TEEN_ACTIVITY_FETCH_SUCCESS'] = golfie;
                 golfie = _closure1_slot75;
-                entity['MEMBER_SAFETY_GUILD_MEMBER_SEARCH_SUCCESS'] = golfie;
+                entity['FAMILY_CENTER_TEEN_ACTIVITY_MORE_FETCH_SUCCESS'] = golfie;
+                golfie = _closure1_slot73;
+                entity['FAMILY_CENTER_REQUEST_LINK_SUCCESS'] = golfie;
                 golfie = _closure1_slot76;
-                entity['LOAD_GRAVITY_HYDRATED'] = golfie;
+                entity['MEMBER_SAFETY_GUILD_MEMBER_SEARCH_SUCCESS'] = golfie;
                 golfie = _closure1_slot77;
-                entity['EMBEDDED_ACTIVITY_UPDATE_V2'] = golfie;
+                entity['LOAD_GRAVITY_HYDRATED'] = golfie;
                 golfie = _closure1_slot78;
-                entity['INITIATE_AGE_VERIFICATION'] = golfie;
+                entity['EMBEDDED_ACTIVITY_UPDATE_V2'] = golfie;
                 golfie = _closure1_slot79;
+                entity['INITIATE_AGE_VERIFICATION'] = golfie;
+                golfie = _closure1_slot80;
                 entity['CLOSE_AGE_VERIFICATION_MODAL'] = golfie;
                 offset = new Array(1);
                 offset[0] = entity;
@@ -2748,12 +2767,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure1_slot6;
                 entity = _closure1_slot19;
                 entity = entity.bind(tangon)();
-                if(entity) { _fun00122_ip = 597; continue _fun00121 }
- 584:
+                if(entity) { _fun00122_ip = 601; continue _fun00121 }
+ 588:
                 entity = verify.apply;
                 entity = entity.bind(verify)(report, offset);
-                _fun00122_ip = 631; continue _fun00121;
- 597:
+                _fun00122_ip = 635; continue _fun00121;
+ 601:
                 golfie = global;
                 option = golfie.Reflect;
                 golfie = option.construct;
@@ -2761,7 +2780,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = oscard.bind(tangon)(report);
                 oscard = oscard.constructor;
                 entity = golfie.bind(option)(verify, offset, oscard);
- 631:
+ 635:
                 entity = zuuluu.bind(tangon)(report, entity);
                 var _closure3_slot0 = entity;
                 return entity;

@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = report.Object;
                 oscard = golfie.defineProperties;
                 report = {};
-                option = {'writable': false, 'configurable': false};
+                option = {'writable': false, 'configurable': false, 'enumerable': false};
                 offset = function(argFoo) { // Original name: value
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 option['value'] = offset;
                 report['hasFlag'] = option;
-                option = {'writable': false, 'configurable': false};
+                option = {'writable': false, 'configurable': false, 'enumerable': false};
                 offset = function() { // Original name: value
                     zuuluu = _closure3_slot0;
                     michal = zuuluu.hasFlag;
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 option['value'] = offset;
                 report['isStaff'] = option;
-                option = {'writable': false, 'configurable': false};
+                option = {'writable': false, 'configurable': false, 'enumerable': false};
                 offset = function() { // Original name: value
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -462,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 option['value'] = offset;
                 report['isStaffPersonal'] = option;
-                option = {'writable': false, 'configurable': false};
+                option = {'writable': false, 'configurable': false, 'enumerable': false};
                 verify = function() { // Original name: value
                     _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:

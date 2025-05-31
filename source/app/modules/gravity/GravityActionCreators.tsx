@@ -127,10 +127,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  11:
             zuuluu = {};
  13:
-            tangon = zuuluu.isReloading;
+            tangon = zuuluu.isInitialLoad;
             var _closure2_slot0 = tangon;
+            tangon = zuuluu.isReloading;
+            var _closure2_slot1 = tangon;
             zuuluu = zuuluu.forceRefresh;
-            var _closure2_slot1 = zuuluu;
+            var _closure2_slot2 = zuuluu;
             zuuluu = _closure1_slot3;
             entity = function* () {
                 entity = function* () { // Original name: ?anon_0_
@@ -138,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 378; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 387; continue _fun00005 }
  10:
                         michal = undefined;
                         golfie = undefined;
@@ -151,9 +153,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         report = oscard.icymiEnabled;
                         tangon = 'fetchDehydrated';
                         tangon = report.bind(oscard)(tangon);
-                        if(!tangon) { _fun00006_ip = 375; continue _fun00005 }
+                        if(!tangon) { _fun00006_ip = 384; continue _fun00005 }
  60:
-                        tangon = _closure2_slot0;
+                        tangon = _closure2_slot1;
                         if(!tangon) { _fun00006_ip = 114; continue _fun00005 }
  70:
                         report = _closure1_slot1;
@@ -191,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  198:
                         tangon['url'] = golfie;
                         golfie = {};
-                        offset = _closure2_slot1;
+                        offset = _closure2_slot2;
                         golfie['refresh'] = offset;
                         tangon['query'] = golfie;
                         golfie = false;
@@ -202,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         return tangon;
  232:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00006_ip = 339; continue _fun00005 }
+                        if(report) { _fun00006_ip = 348; continue _fun00005 }
  238:
                         oscard = _closure1_slot1;
                         golfie = _closure1_slot2;
@@ -220,22 +222,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         offset = offset.load_id;
                         report['loadId'] = offset;
                         report['startTime'] = verify;
+                        verify = _closure2_slot1;
+                        report['isReloading'] = verify;
                         option = _closure2_slot0;
-                        report['isReloading'] = option;
+                        report['isInitialLoad'] = option;
                         report = oscard.bind(golfie)(report);
-                        SaveGenerator(address=328);
- 326:
+                        SaveGenerator(address=337);
+ 335:
                         return report;
- 328:
+ 337:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                        if(oscard) { _fun00006_ip = 336; continue _fun00005 }
- 334: // try_end0
-                        _fun00006_ip = 375; continue _fun00005;
- 336:
+                        if(oscard) { _fun00006_ip = 345; continue _fun00005 }
+ 343: // try_end0
+                        _fun00006_ip = 384; continue _fun00005;
+ 345:
                         return report;
- 339:
+ 348:
                         return tangon;
- 342: // catch_target0
+ 351: // catch_target0
                         CatchBlockStart(arg_register=4);
                         tangon = _closure1_slot1;
                         oscard = _closure1_slot2;
@@ -244,9 +248,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         tangon = tangon.bind(michal)(zuuluu);
                         zuuluu = tangon.captureException;
                         zuuluu = zuuluu.bind(tangon)(report);
- 375:
+ 384:
                         return michal;
- 378:
+ 387:
                         return entity;
                     }
                 };

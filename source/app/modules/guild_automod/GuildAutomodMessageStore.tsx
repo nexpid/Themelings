@@ -424,30 +424,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     backup = golfie.bind(entity)(michal);
     michal = {};
     yankee = function() { // Original name: handleConnectionOpen
-        entity = {};
-        _closure1_slot13 = entity;
-        entity = _closure1_slot14;
-        entity = entity + 1;
-        _closure1_slot14 = entity;
-        entity = true;
-        return entity;
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+            entity = global;
+            tangon = entity.Object;
+            michal = tangon.keys;
+            entity = _closure1_slot13;
+            entity = michal.bind(tangon)(entity);
+            michal = entity.length;
+            entity = 0;
+            entity = entity !== michal;
+            if(!entity) { _fun00020_ip = 58; continue _fun00019 }
+ 39:
+            michal = {};
+            _closure1_slot13 = michal;
+            michal = _closure1_slot14;
+            michal = michal + 1;
+            _closure1_slot14 = michal;
+            entity = true;
+ 58:
+            return entity;
+        }
     };
     michal['CONNECTION_OPEN'] = yankee;
     michal['LOAD_MESSAGES_SUCCESS'] = offset;
     michal['LOCAL_MESSAGES_LOADED'] = offset;
     offset = function(argFoo) { // Original name: handleIncidentAlertMessageCreate
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = argFoo;
             report = entity.guildId;
             option = entity.message;
             entity = null;
-            if(!(entity != report)) { _fun00020_ip = 173; continue _fun00019 }
+            if(!(entity != report)) { _fun00022_ip = 173; continue _fun00021 }
  22:
             michal = option.type;
             entity = _closure1_slot12;
             entity = entity.AUTO_MODERATION_ACTION;
-            if(!(michal === entity)) { _fun00020_ip = 169; continue _fun00019 }
+            if(!(michal === entity)) { _fun00022_ip = 169; continue _fun00021 }
  47:
             michal = _closure1_slot0;
             entity = _closure1_slot2;
@@ -464,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(michal)(zuuluu);
             michal = !entity;
             entity = !michal;
-            if(michal) { _fun00020_ip = 167; continue _fun00019 }
+            if(michal) { _fun00022_ip = 167; continue _fun00021 }
  112:
             oscard = _closure1_slot0;
             michal = _closure1_slot2;
@@ -474,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(oscard)(zuuluu);
             oscard = !michal;
             michal = !oscard;
-            if(oscard) { _fun00020_ip = 164; continue _fun00019 }
+            if(oscard) { _fun00022_ip = 164; continue _fun00021 }
  149:
             tangon = _closure1_slot16;
             zuuluu = zuuluu.id;
@@ -506,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['REMOVE_AUTOMOD_MESSAGE_NOTICE'] = verify;
     verify = function(argFoo) { // Original name: handleMessageEndEdit
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.response;
@@ -514,21 +528,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = tangon == zuuluu;
             entity = undefined;
             michal = undefined;
-            if(report) { _fun00022_ip = 27; continue _fun00021 }
+            if(report) { _fun00024_ip = 27; continue _fun00023 }
  22:
             michal = zuuluu.body;
  27:
-            if(!(tangon != michal)) { _fun00022_ip = 91; continue _fun00021 }
+            if(!(tangon != michal)) { _fun00024_ip = 91; continue _fun00023 }
  31:
             michal = zuuluu.body;
             oscard = michal.code;
             report = _closure1_slot10;
             report = report.AUTOMOD_MESSAGE_BLOCKED;
-            if(!(oscard !== report)) { _fun00022_ip = 87; continue _fun00021 }
+            if(!(oscard !== report)) { _fun00024_ip = 87; continue _fun00023 }
  58:
             zuuluu = zuuluu.body;
             zuuluu = zuuluu.id;
-            if(!(tangon != zuuluu)) { _fun00022_ip = 83; continue _fun00021 }
+            if(!(tangon != zuuluu)) { _fun00024_ip = 83; continue _fun00023 }
  72:
             michal = _closure1_slot17;
             michal = michal.bind(entity)(zuuluu);

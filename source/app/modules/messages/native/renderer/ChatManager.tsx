@@ -396,98 +396,106 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                 entity = argFoo;
-                oscard = arguments[1];
-                golfie = this;
+                golfie = arguments[1];
+                option = this;
                 report = entity.message;
-                option = entity.updateMessageIds;
+                oscard = entity.updateMessageIds;
                 michal = entity.forced;
                 tangon = undefined;
-                if(!(oscard === tangon)) { _fun00016_ip = 34; continue _fun00015 }
+                if(!(golfie === tangon)) { _fun00016_ip = 34; continue _fun00015 }
  32:
-                oscard = false;
+                golfie = false;
  34:
-                zuuluu = golfie._messages;
+                zuuluu = option._messages;
                 entity = null;
-                if(!(entity != zuuluu)) { _fun00016_ip = 325; continue _fun00015 }
+                if(!(entity != zuuluu)) { _fun00016_ip = 345; continue _fun00015 }
  49:
                 zuuluu = global;
                 offset = zuuluu.Array;
                 verify = offset.isArray;
-                zuuluu = golfie._messages;
+                zuuluu = option._messages;
                 zuuluu = verify.bind(offset)(zuuluu);
-                if(zuuluu) { _fun00016_ip = 325; continue _fun00015 }
+                if(zuuluu) { _fun00016_ip = 330; continue _fun00015 }
  79:
-                zuuluu = golfie._messages;
+                zuuluu = option._messages;
                 zuuluu = zuuluu._map;
-                if(!(entity != zuuluu)) { _fun00016_ip = 325; continue _fun00015 }
+                if(!(entity != zuuluu)) { _fun00016_ip = 315; continue _fun00015 }
  98:
-                zuuluu = golfie._messages;
+                zuuluu = option._messages;
                 verify = zuuluu._map;
                 zuuluu = report.id;
                 offset = verify[zuuluu];
                 zuuluu = offset;
-                if(!(entity == zuuluu)) { _fun00016_ip = 168; continue _fun00015 }
+                if(!(entity == offset)) { _fun00016_ip = 168; continue _fun00015 }
  126:
                 verify = report.nonce;
                 zuuluu = offset;
                 if(!(entity != verify)) { _fun00016_ip = 168; continue _fun00015 }
  139:
-                golfie = golfie._messages;
-                verify = golfie._map;
-                golfie = report.nonce;
-                zuuluu = verify[golfie];
-                if(!(entity == zuuluu)) { _fun00016_ip = 310; continue _fun00015 }
+                option = option._messages;
+                verify = option._map;
+                option = report.nonce;
+                zuuluu = verify[option];
+                if(!(entity == zuuluu)) { _fun00016_ip = 300; continue _fun00015 }
  168:
-                if(!(entity == zuuluu)) { _fun00016_ip = 187; continue _fun00015 }
+                if(!(entity != zuuluu)) { _fun00016_ip = 285; continue _fun00015 }
  172:
-                golfie = _closure1_slot4;
-                golfie = golfie.INSERT;
-                return golfie;
- 187:
-                if(!oscard) { _fun00016_ip = 223; continue _fun00015 }
- 190:
-                oscard = zuuluu.blocked;
-                if(!oscard) { _fun00016_ip = 223; continue _fun00015 }
- 199:
-                oscard = report.blocked;
-                if(oscard) { _fun00016_ip = 223; continue _fun00015 }
- 208:
-                oscard = _closure1_slot4;
-                oscard = oscard.INSERT;
-                return oscard;
- 223:
-                entity = entity != option;
-                if(!entity) { _fun00016_ip = 245; continue _fun00015 }
- 230:
-                golfie = option.has;
-                oscard = report.id;
-                entity = golfie.bind(option)(oscard);
- 245:
-                if(michal) { _fun00016_ip = 295; continue _fun00015 }
- 248:
-                if(entity) { _fun00016_ip = 295; continue _fun00015 }
- 251:
+                if(!golfie) { _fun00016_ip = 193; continue _fun00015 }
+ 175:
+                golfie = zuuluu.blocked;
+                if(!golfie) { _fun00016_ip = 193; continue _fun00015 }
+ 184:
+                golfie = report.blocked;
+                if(!golfie) { _fun00016_ip = 285; continue _fun00015 }
+ 193:
+                if(michal) { _fun00016_ip = 270; continue _fun00015 }
+ 196:
+                if(!(entity != oscard)) { _fun00016_ip = 218; continue _fun00015 }
+ 200:
+                michal = oscard.has;
+                entity = report.id;
+                entity = michal.bind(oscard)(entity);
+                if(entity) { _fun00016_ip = 270; continue _fun00015 }
+ 218:
                 oscard = _closure1_slot0;
                 golfie = _closure1_slot1;
-                michal = 4;
-                michal = golfie[michal];
-                michal = oscard.bind(tangon)(michal);
-                michal = michal.bind(tangon)(zuuluu, report);
-                if(!michal) { _fun00016_ip = 295; continue _fun00015 }
- 283:
-                entity = _closure1_slot4;
-                entity = entity.NOOP;
-                _fun00016_ip = 308; continue _fun00015;
- 295:
+                entity = 4;
+                entity = golfie[entity];
+                entity = oscard.bind(tangon)(entity);
+                entity = entity.bind(tangon)(zuuluu, report);
+                michal = _closure1_slot4;
+                if(entity) { _fun00016_ip = 262; continue _fun00015 }
+ 254:
+                entity = michal.UPDATE;
+                _fun00016_ip = 268; continue _fun00015;
+ 262:
+                entity = michal.NOOP;
+ 268:
+                _fun00016_ip = 283; continue _fun00015;
+ 270:
                 michal = _closure1_slot4;
                 entity = michal.UPDATE;
- 308:
+ 283:
+                _fun00016_ip = 298; continue _fun00015;
+ 285:
+                michal = _closure1_slot4;
+                entity = michal.INSERT;
+ 298:
+                _fun00016_ip = 313; continue _fun00015;
+ 300:
+                michal = _closure1_slot4;
+                entity = michal.UPDATE;
+ 313:
                 return entity;
- 310:
+ 315:
                 entity = _closure1_slot4;
-                entity = entity.UPDATE;
+                entity = entity.NOOP;
                 return entity;
- 325:
+ 330:
+                entity = _closure1_slot4;
+                entity = entity.NOOP;
+                return entity;
+ 345:
                 entity = _closure1_slot4;
                 entity = entity.NOOP;
                 return entity;

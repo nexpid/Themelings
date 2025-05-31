@@ -140,10 +140,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            output = michal.quest;
+            result = michal.quest;
             verify = michal.size;
-            echoed = michal.progress;
-            var _closure2_slot0 = echoed;
+            update = michal.progress;
+            var _closure2_slot0 = update;
             yankee = michal.loading;
             tangon = undefined;
             if(!(yankee === tangon)) { _fun00002_ip = 40; continue _fun00001 }
@@ -156,6 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  54:
             foxtra = false;
  56:
+            output = michal.withAnimation;
             oscard = michal.onPress;
             var _closure2_slot2 = tangon;
             var _closure2_slot3 = tangon;
@@ -185,51 +186,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _closure2_slot2 = report;
             option = 4;
             michal = {'x-sm': 3, 'sm': 3, 'md': 3, 'md-lg': 4, 'lg': 6};
-            cntext = michal[verify];
+            papara = michal[verify];
             michal = {'x-sm': 40, 'sm': 64, 'md': 70, 'md-lg': 100, 'lg': 128};
-            result = michal[verify];
-            _closure2_slot3 = result;
-            variable38 = 1;
+            echoed = michal[verify];
+            _closure2_slot3 = echoed;
+            variable39 = 1;
             michal = {'x-sm': 1.6, 'sm': 1, 'md': 1.4, 'md-lg': 1.5, 'lg': 1.6};
             michal = michal[verify];
             _closure2_slot4 = michal;
-            status = 2;
-            offset = result / status;
-            verify = cntext / status;
-            target = offset - verify;
+            sierra = 2;
+            offset = echoed / sierra;
+            verify = papara / sierra;
+            status = offset - verify;
             verify = global;
             verify = verify.Math;
             verify = verify.PI;
-            verify = status * verify;
-            record = verify * target;
-            _closure2_slot5 = record;
+            verify = sierra * verify;
+            cntext = verify * status;
+            _closure2_slot5 = cntext;
             verify = _closure1_slot13;
-            sizing = verify.bind(tangon)(result);
+            sizing = verify.bind(tangon)(echoed);
             _closure2_slot6 = sizing;
             verify = zuuluu[option];
             offset = golfie.bind(tangon)(verify);
             verify = offset.useSharedValue;
-            ctrled = verify.bind(offset)(echoed);
-            _closure2_slot7 = ctrled;
+            vacuum = verify.bind(offset)(update);
+            _closure2_slot7 = vacuum;
             zuuluu = zuuluu[option];
             verify = golfie.bind(tangon)(zuuluu);
             golfie = verify.useSharedValue;
-            variable36 = 0;
+            variable37 = 0;
             zuuluu = 0;
-            if(!yankee) { _fun00002_ip = 334; continue _fun00001 }
- 324:
+            if(!yankee) { _fun00002_ip = 340; continue _fun00001 }
+ 330:
             zuuluu = 0.7;
- 334:
-            update = golfie.bind(verify)(zuuluu);
-            _closure2_slot8 = update;
-            golfie = output.userStatus;
+ 340:
+            source = golfie.bind(verify)(zuuluu);
+            _closure2_slot8 = source;
+            golfie = result.userStatus;
             romeon = null;
             verify = romeon == golfie;
             zuuluu = undefined;
-            if(verify) { _fun00002_ip = 366; continue _fun00001 }
- 360:
-            zuuluu = golfie.completedAt;
+            if(verify) { _fun00002_ip = 372; continue _fun00001 }
  366:
+            zuuluu = golfie.completedAt;
+ 372:
             verify = romeon != zuuluu;
             _closure2_slot9 = verify;
             golfie = _closure1_slot0;
@@ -238,17 +239,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = golfie.bind(tangon)(zuuluu);
             golfie = offset.useSharedValue;
             zuuluu = 0;
-            if(!verify) { _fun00002_ip = 404; continue _fun00001 }
- 401:
-            zuuluu = variable38;
- 404:
+            if(!verify) { _fun00002_ip = 410; continue _fun00001 }
+ 407:
+            zuuluu = variable39;
+ 410:
             golfie = golfie.bind(offset)(zuuluu);
             _closure2_slot10 = golfie;
             offset = _closure1_slot0;
             zuuluu = _closure1_slot2;
             backup = zuuluu[option];
-            vacuum = offset.bind(tangon)(backup);
-            source = vacuum.useAnimatedStyle;
+            sequen = offset.bind(tangon)(backup);
+            ctrled = sequen.useAnimatedStyle;
             backup = function() { // Original name: b
                 entity = {};
                 zuuluu = _closure2_slot6;
@@ -262,19 +263,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity[michal] = zuuluu;
                 return entity;
             };
-            sequen = {};
-            sequen['styles'] = sizing;
-            sequen['glowOpacity'] = golfie;
-            backup['__closure'] = sequen;
-            sequen = 6810183053526.0;
-            backup['__workletHash'] = sequen;
-            sequen = _closure1_slot14;
-            backup['__initData'] = sequen;
-            backup = source.bind(vacuum)(backup);
-            source = zuuluu[option];
-            sequen = offset.bind(tangon)(source);
-            vacuum = sequen.useAnimatedProps;
-            source = function() { // Original name: A
+            config = {};
+            config['styles'] = sizing;
+            config['glowOpacity'] = golfie;
+            backup['__closure'] = config;
+            config = 6810183053526.0;
+            backup['__workletHash'] = config;
+            config = _closure1_slot14;
+            backup['__initData'] = config;
+            backup = ctrled.bind(sequen)(backup);
+            ctrled = zuuluu[option];
+            config = offset.bind(tangon)(ctrled);
+            sequen = config.useAnimatedProps;
+            ctrled = function() { // Original name: D
                 entity = {};
                 zuuluu = _closure2_slot5;
                 tangon = _closure2_slot7;
@@ -285,19 +286,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['strokeDashoffset'] = michal;
                 return entity;
             };
-            config = {};
-            config['circumference'] = record;
-            config['animatedProgress'] = ctrled;
-            source['__closure'] = config;
-            config = 17281152506254.0;
-            source['__workletHash'] = config;
-            config = _closure1_slot15;
-            source['__initData'] = config;
-            config = vacuum.bind(sequen)(source);
+            record = {};
+            record['circumference'] = cntext;
+            record['animatedProgress'] = vacuum;
+            ctrled['__closure'] = record;
+            record = 17281152506254.0;
+            ctrled['__workletHash'] = record;
+            record = _closure1_slot15;
+            ctrled['__initData'] = record;
+            record = sequen.bind(config)(ctrled);
             zuuluu = zuuluu[option];
-            source = offset.bind(tangon)(zuuluu);
-            offset = source.useAnimatedStyle;
-            zuuluu = function() { // Original name: D
+            ctrled = offset.bind(tangon)(zuuluu);
+            offset = ctrled.useAnimatedStyle;
+            zuuluu = function() { // Original name: G
                 entity = {};
                 tangon = _closure2_slot8;
                 zuuluu = tangon.get;
@@ -309,21 +310,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = copyDataProperties(oscard, report);
                 return entity;
             };
-            vacuum = {};
-            vacuum['underlayOpacity'] = update;
-            vacuum['styles'] = sizing;
-            zuuluu['__closure'] = vacuum;
-            vacuum = 4427598698568.0;
-            zuuluu['__workletHash'] = vacuum;
-            vacuum = _closure1_slot16;
-            zuuluu['__initData'] = vacuum;
-            offset = offset.bind(source)(zuuluu);
+            sequen = {};
+            sequen['underlayOpacity'] = source;
+            sequen['styles'] = sizing;
+            zuuluu['__closure'] = sequen;
+            sequen = 4427598698568.0;
+            zuuluu['__workletHash'] = sequen;
+            sequen = _closure1_slot16;
+            zuuluu['__initData'] = sequen;
+            offset = offset.bind(ctrled)(zuuluu);
             zuuluu = _closure1_slot4;
-            source = new Array(3);
-            source[0] = ctrled;
-            source[1] = echoed;
-            source[2] = report;
-            echoed = function() {
+            ctrled = new Array(3);
+            ctrled[0] = vacuum;
+            ctrled[1] = update;
+            ctrled[2] = report;
+            update = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zuuluu = _closure2_slot7;
@@ -361,10 +362,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            echoed = zuuluu.bind(tangon)(echoed, source);
-            echoed = new Array(2);
-            echoed[0] = update;
-            echoed[1] = yankee;
+            update = zuuluu.bind(tangon)(update, ctrled);
+            update = new Array(2);
+            update[0] = source;
+            update[1] = yankee;
             yankee = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -403,16 +404,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            yankee = zuuluu.bind(tangon)(yankee, echoed);
+            yankee = zuuluu.bind(tangon)(yankee, update);
             yankee = _closure1_slot5;
-            source = yankee.bind(tangon)(romeon);
-            _closure2_slot11 = source;
-            echoed = _closure1_slot3;
-            update = sizing.confetti;
+            ctrled = yankee.bind(tangon)(romeon);
+            _closure2_slot11 = ctrled;
+            update = _closure1_slot3;
+            source = sizing.confetti;
             yankee = new Array(3);
-            yankee[0] = update;
+            yankee[0] = source;
             yankee[1] = michal;
-            yankee[2] = result;
+            yankee[2] = echoed;
             michal = function() {
                 entity = {};
                 michal = _closure2_slot6;
@@ -434,7 +435,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity[michal] = zuuluu;
                 return entity;
             };
-            update = echoed.bind(tangon)(michal, yankee);
+            source = update.bind(tangon)(michal, yankee);
             michal = new Array(3);
             michal[0] = verify;
             michal[1] = golfie;
@@ -492,163 +493,163 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = zuuluu.bind(tangon)(entity, michal);
-            if(!(romeon != oscard)) { _fun00002_ip = 813; continue _fun00001 }
- 785:
+            if(!(romeon != oscard)) { _fun00002_ip = 819; continue _fun00001 }
+ 791:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 10;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             zuuluu = entity.PressableOpacity;
-            _fun00002_ip = 822; continue _fun00001;
- 813:
+            _fun00002_ip = 828; continue _fun00001;
+ 819:
             entity = _closure1_slot6;
             zuuluu = entity.Fragment;
- 822:
+ 828:
             michal = _closure1_slot9;
             entity = {};
-            if(!(romeon != oscard)) { _fun00002_ip = 840; continue _fun00001 }
- 832:
+            if(!(romeon != oscard)) { _fun00002_ip = 846; continue _fun00001 }
+ 838:
             report = {};
             report['onPress'] = oscard;
-            _fun00002_ip = 842; continue _fun00001;
- 840:
+            _fun00002_ip = 848; continue _fun00001;
+ 846:
             report = {};
- 842:
-            variable41 = entity;
-            variable40 = report;
-            report = copyDataProperties(variable41, variable40);
+ 848:
+            variable42 = entity;
+            variable41 = report;
+            report = copyDataProperties(variable42, variable41);
             golfie = _closure1_slot10;
             verify = _closure1_slot1;
-            papara = _closure1_slot2;
-            report = papara[option];
+            target = _closure1_slot2;
+            report = target[option];
             report = verify.bind(tangon)(report);
             oscard = report.View;
             report = {};
-            echoed = sizing.wrapper;
+            update = sizing.wrapper;
             yankee = new Array(2);
-            yankee[0] = echoed;
+            yankee[0] = update;
             yankee[1] = backup;
             report['style'] = yankee;
-            sequen = _closure1_slot9;
-            option = papara[option];
+            config = _closure1_slot9;
+            option = target[option];
             option = verify.bind(tangon)(option);
             verify = option.View;
             option = {};
             option['style'] = offset;
-            verify = sequen.bind(tangon)(verify, option);
+            verify = config.bind(tangon)(verify, option);
             option = new Array(2);
             option[0] = verify;
             offset = _closure1_slot7;
             verify = {};
             yankee = sizing.container;
             verify['style'] = yankee;
-            vacuum = _closure1_slot0;
-            ctrled = 5;
-            yankee = papara[ctrled];
-            yankee = vacuum.bind(tangon)(yankee);
+            sequen = _closure1_slot0;
+            vacuum = 5;
+            yankee = target[vacuum];
+            yankee = sequen.bind(tangon)(yankee);
             backup = yankee.Svg;
             yankee = {};
-            yankee['height'] = result;
-            yankee['width'] = result;
-            echoed = sizing.canvas;
-            yankee['style'] = echoed;
-            echoed = papara[ctrled];
-            echoed = vacuum.bind(tangon)(echoed);
-            sierra = echoed.Defs;
-            echoed = {};
-            limora = papara[ctrled];
-            limora = vacuum.bind(tangon)(limora);
-            whisks = limora.LinearGradient;
-            limora = {'id': 'underlayGradient', 'x1': '0', 'y1': '0.5', 'x2': '1', 'y2': '0.5'};
-            variable37 = '0';
-            variable39 = '1';
-            equals = papara[ctrled];
-            equals = vacuum.bind(tangon)(equals);
-            quebec = equals.Stop;
-            equals = {};
-            equals['offset'] = variable37;
-            variable37 = _closure1_slot11;
-            variable36 = variable37[variable36];
-            equals['stopColor'] = variable36;
-            quebec = sequen.bind(tangon)(quebec, equals);
-            equals = new Array(2);
-            equals[0] = quebec;
-            quebec = papara[ctrled];
-            quebec = vacuum.bind(tangon)(quebec);
+            yankee['height'] = echoed;
+            yankee['width'] = echoed;
+            update = sizing.canvas;
+            yankee['style'] = update;
+            update = target[vacuum];
+            update = sequen.bind(tangon)(update);
+            limora = update.Defs;
+            update = {};
+            whisks = target[vacuum];
+            whisks = sequen.bind(tangon)(whisks);
+            equals = whisks.LinearGradient;
+            whisks = {'id': 'underlayGradient', 'x1': '0', 'y1': '0.5', 'x2': '1', 'y2': '0.5'};
+            variable38 = '0';
+            variable40 = '1';
+            quebec = target[vacuum];
+            quebec = sequen.bind(tangon)(quebec);
             variable36 = quebec.Stop;
             quebec = {};
-            quebec['offset'] = variable39;
-            variable37 = variable37[variable38];
+            quebec['offset'] = variable38;
+            variable38 = _closure1_slot11;
+            variable37 = variable38[variable37];
             quebec['stopColor'] = variable37;
-            quebec = sequen.bind(tangon)(variable36, quebec);
-            equals[1] = quebec;
-            limora['children'] = equals;
-            limora = golfie.bind(tangon)(whisks, limora);
-            echoed['children'] = limora;
-            sierra = sequen.bind(tangon)(sierra, echoed);
-            echoed = new Array(3);
-            echoed[0] = sierra;
-            ctrled = papara[ctrled];
-            ctrled = vacuum.bind(tangon)(ctrled);
-            vacuum = ctrled.Circle;
-            ctrled = {};
-            papara = result / status;
-            ctrled['cx'] = papara;
-            papara = result / status;
-            ctrled['cy'] = papara;
-            ctrled['r'] = target;
-            papara = 'none';
-            ctrled['fill'] = papara;
-            sierra = 'url(#underlayGradient)';
-            ctrled['stroke'] = sierra;
-            ctrled['strokeWidth'] = cntext;
-            ctrled = sequen.bind(tangon)(vacuum, ctrled);
-            echoed[1] = ctrled;
-            vacuum = _closure1_slot12;
-            ctrled = {};
-            sierra = result / status;
-            ctrled['cx'] = sierra;
-            status = result / status;
-            ctrled['cy'] = status;
-            ctrled['r'] = target;
-            ctrled['fill'] = papara;
-            papara = sizing.progressPath;
-            papara = papara.color;
-            ctrled['stroke'] = papara;
-            ctrled['strokeWidth'] = cntext;
-            ctrled['strokeDasharray'] = record;
-            record = 'round';
-            ctrled['strokeLinecap'] = record;
-            ctrled['animatedProps'] = config;
-            ctrled = sequen.bind(tangon)(vacuum, ctrled);
-            echoed[2] = ctrled;
-            yankee['children'] = echoed;
+            variable36 = config.bind(tangon)(variable36, quebec);
+            quebec = new Array(2);
+            quebec[0] = variable36;
+            variable36 = target[vacuum];
+            variable36 = sequen.bind(tangon)(variable36);
+            variable37 = variable36.Stop;
+            variable36 = {};
+            variable36['offset'] = variable40;
+            variable38 = variable38[variable39];
+            variable36['stopColor'] = variable38;
+            variable36 = config.bind(tangon)(variable37, variable36);
+            quebec[1] = variable36;
+            whisks['children'] = quebec;
+            whisks = golfie.bind(tangon)(equals, whisks);
+            update['children'] = whisks;
+            limora = config.bind(tangon)(limora, update);
+            update = new Array(3);
+            update[0] = limora;
+            vacuum = target[vacuum];
+            vacuum = sequen.bind(tangon)(vacuum);
+            sequen = vacuum.Circle;
+            vacuum = {};
+            target = echoed / sierra;
+            vacuum['cx'] = target;
+            target = echoed / sierra;
+            vacuum['cy'] = target;
+            vacuum['r'] = status;
+            target = 'none';
+            vacuum['fill'] = target;
+            limora = 'url(#underlayGradient)';
+            vacuum['stroke'] = limora;
+            vacuum['strokeWidth'] = papara;
+            vacuum = config.bind(tangon)(sequen, vacuum);
+            update[1] = vacuum;
+            sequen = _closure1_slot12;
+            vacuum = {};
+            limora = echoed / sierra;
+            vacuum['cx'] = limora;
+            sierra = echoed / sierra;
+            vacuum['cy'] = sierra;
+            vacuum['r'] = status;
+            vacuum['fill'] = target;
+            target = sizing.progressPath;
+            target = target.color;
+            vacuum['stroke'] = target;
+            vacuum['strokeWidth'] = papara;
+            vacuum['strokeDasharray'] = cntext;
+            cntext = 'round';
+            vacuum['strokeLinecap'] = cntext;
+            vacuum['animatedProps'] = record;
+            vacuum = config.bind(tangon)(sequen, vacuum);
+            update[2] = vacuum;
+            yankee['children'] = update;
             backup = golfie.bind(tangon)(backup, yankee);
             yankee = new Array(3);
             yankee[0] = backup;
             romeon = null;
-            if(!foxtra) { _fun00002_ip = 1425; continue _fun00001 }
- 1353:
-            echoed = _closure1_slot9;
+            if(!foxtra) { _fun00002_ip = 1431; continue _fun00001 }
+ 1359:
+            update = _closure1_slot9;
             backup = _closure1_slot1;
-            ctrled = _closure1_slot2;
+            vacuum = _closure1_slot2;
             foxtra = 11;
-            foxtra = ctrled[foxtra];
+            foxtra = vacuum[foxtra];
             backup = backup.bind(tangon)(foxtra);
             foxtra = {};
-            foxtra['ref'] = source;
-            foxtra['style'] = update;
-            source = _closure1_slot0;
-            update = 12;
-            update = ctrled[update];
-            update = source.bind(tangon)(update);
-            foxtra['source'] = update;
-            update = false;
-            foxtra['autoPlay'] = update;
-            foxtra['loop'] = update;
-            romeon = echoed.bind(tangon)(backup, foxtra);
- 1425:
+            foxtra['ref'] = ctrled;
+            foxtra['style'] = source;
+            ctrled = _closure1_slot0;
+            source = 12;
+            source = vacuum[source];
+            source = ctrled.bind(tangon)(source);
+            foxtra['source'] = source;
+            source = false;
+            foxtra['autoPlay'] = source;
+            foxtra['loop'] = source;
+            romeon = update.bind(tangon)(backup, foxtra);
+ 1431:
             yankee[1] = romeon;
             backup = _closure1_slot9;
             foxtra = _closure1_slot7;
@@ -656,17 +657,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sizing = sizing.imageContainer;
             romeon['style'] = sizing;
             sizing = _closure1_slot1;
-            echoed = _closure1_slot2;
+            update = _closure1_slot2;
             kiloes = 13;
-            kiloes = echoed[kiloes];
+            kiloes = update[kiloes];
             sizing = sizing.bind(tangon)(kiloes);
             kiloes = {};
-            kiloes['quest'] = output;
-            output = 0.78;
-            echoed = output * result;
-            kiloes['height'] = echoed;
-            output = output * result;
-            kiloes['width'] = output;
+            kiloes['quest'] = result;
+            result = 0.78;
+            update = result * echoed;
+            kiloes['height'] = update;
+            result = result * echoed;
+            kiloes['width'] = result;
+            kiloes['withAnimation'] = output;
             kiloes = backup.bind(tangon)(sizing, kiloes);
             romeon['children'] = kiloes;
             romeon = backup.bind(tangon)(foxtra, romeon);

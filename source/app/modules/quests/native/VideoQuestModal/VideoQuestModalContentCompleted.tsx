@@ -504,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = update.contentRewardsWrapper;
             kiloes[1] = echoed;
             verify['style'] = kiloes;
-            if(backup) { _fun00002_ip = 1308; continue _fun00001 }
+            if(backup) { _fun00002_ip = 1306; continue _fun00001 }
  1061:
             echoed = _closure1_slot8;
             kiloes = _closure1_slot5;
@@ -517,17 +517,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = 27;
             vacuum = equals[vacuum];
             sierra = sierra.bind(tangon)(vacuum);
-            vacuum = {'withQuestName': false, 'withRewardAvailableCopy': false};
+            vacuum = {'withQuestName': false, 'withRewardAvailableCopy': false, 'size': null, 'withRewardTileAnimation': true};
             equals = 'md';
-            if(quebec) { _fun00002_ip = 1140; continue _fun00001 }
- 1126:
+            if(quebec) { _fun00002_ip = 1136; continue _fun00001 }
+ 1122:
             quebec = 'lg';
-            if(!variable36) { _fun00002_ip = 1137; continue _fun00001 }
- 1133:
+            if(!variable36) { _fun00002_ip = 1133; continue _fun00001 }
+ 1129:
             quebec = 'md-lg';
- 1137:
+ 1133:
             equals = quebec;
- 1140:
+ 1136:
             vacuum['size'] = equals;
             sierra = whisks.bind(tangon)(sierra, vacuum);
             vacuum = new Array(2);
@@ -550,32 +550,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = quebec[ctrled];
             quebec = variable36.bind(tangon)(quebec);
             variable36 = quebec.t;
-            if(sizing) { _fun00002_ip = 1269; continue _fun00001 }
- 1254:
+            if(sizing) { _fun00002_ip = 1267; continue _fun00001 }
+ 1252:
             quebec = variable36.qyKLdn;
             quebec = variable37.bind(variable38)(quebec);
-            _fun00002_ip = 1282; continue _fun00001;
- 1269:
+            _fun00002_ip = 1280; continue _fun00001;
+ 1267:
             variable36 = variable36.EMp8/P;
             quebec = variable37.bind(variable38)(variable36);
- 1282:
+ 1280:
             sierra['children'] = quebec;
             sierra = equals.bind(tangon)(whisks, sierra);
             vacuum[1] = sierra;
             backup['children'] = vacuum;
             kiloes = echoed.bind(tangon)(kiloes, backup);
-            _fun00002_ip = 1324; continue _fun00001;
- 1308:
+            _fun00002_ip = 1322; continue _fun00001;
+ 1306:
             vacuum = _closure1_slot7;
             echoed = _closure1_slot4;
             backup = {};
             kiloes = vacuum.bind(tangon)(echoed, backup);
- 1324:
+ 1322:
             backup = new Array(2);
             backup[0] = kiloes;
             kiloes = !sizing;
-            if(sizing) { _fun00002_ip = 1425; continue _fun00001 }
- 1338:
+            if(sizing) { _fun00002_ip = 1423; continue _fun00001 }
+ 1336:
             vacuum = _closure1_slot7;
             echoed = _closure1_slot1;
             sierra = _closure1_slot2;
@@ -596,7 +596,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = target.GREY;
             sizing['color'] = target;
             kiloes = vacuum.bind(tangon)(echoed, sizing);
- 1425:
+ 1423:
             backup[1] = kiloes;
             verify['children'] = backup;
             verify = zuuluu.bind(tangon)(romeon, verify);
@@ -695,8 +695,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(3);
             verify[0] = romeon;
             yankee = yankee != cntext;
-            if(!yankee) { _fun00002_ip = 2007; continue _fun00001 }
- 1905:
+            if(!yankee) { _fun00002_ip = 2005; continue _fun00001 }
+ 1903:
             sizing = _closure1_slot7;
             kiloes = _closure1_slot0;
             papara = _closure1_slot2;
@@ -721,7 +721,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.bind(tangon)(echoed, result);
             romeon['children'] = result;
             yankee = sizing.bind(tangon)(kiloes, romeon);
- 2007:
+ 2005:
             verify[1] = yankee;
             romeon = _closure1_slot8;
             result = _closure1_slot0;

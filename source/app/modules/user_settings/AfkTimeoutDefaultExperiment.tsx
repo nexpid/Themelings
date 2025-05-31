@@ -23,12 +23,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 1;
     offset = {'enabled': true, 'defaultTimeout': 60};
     yankee['config'] = offset;
-    offset = new Array(2);
+    offset = new Array(3);
     offset[0] = yankee;
     yankee = {'id': 2, 'label': 'Set afk_timer default to 2 min'};
     romeon = {'enabled': true, 'defaultTimeout': 120};
     yankee['config'] = romeon;
     offset[1] = yankee;
+    yankee = {'id': 3, 'label': 'Set afk_timer default to 1 min (to test with holdout)'};
+    romeon = {'enabled': true, 'defaultTimeout': 60};
+    yankee['config'] = romeon;
+    offset[2] = yankee;
     tangon['treatments'] = offset;
     tangon = option.bind(verify)(tangon);
     var _closure1_slot0 = tangon;

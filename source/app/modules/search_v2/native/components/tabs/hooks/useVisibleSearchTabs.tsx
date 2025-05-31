@@ -388,6 +388,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = option[verify];
         var _closure2_slot5 = option;
         offset = oscard.useEffect;
+        verify = new Array(1);
+        verify[0] = yankee;
+        option = function() {
+            report = _closure2_slot3;
+            tangon = _closure2_slot1;
+            entity = tangon.getCandidateTabs;
+            zuuluu = entity.bind(tangon)();
+            entity = undefined;
+            zuuluu = report.bind(entity)(zuuluu);
+            report = _closure2_slot4;
+            zuuluu = tangon.getVisibleTabs;
+            zuuluu = zuuluu.bind(tangon)();
+            zuuluu = report.bind(entity)(zuuluu);
+            zuuluu = _closure2_slot5;
+            michal = tangon.getVisibleTabCounts;
+            michal = michal.bind(tangon)();
+            michal = zuuluu.bind(entity)(michal);
+            return entity;
+        };
+        option = offset.bind(oscard)(option, verify);
+        offset = oscard.useEffect;
         verify = new Array(2);
         verify[0] = yankee;
         verify[1] = golfie;

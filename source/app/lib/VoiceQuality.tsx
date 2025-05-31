@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = argFoo;
                     zuuluu = argBar;
                     entity = undefined;
-                    if(!(entity !== michal)) { _fun00004_ip = 151; continue _fun00003 }
+                    if(!(entity !== michal)) { _fun00004_ip = 185; continue _fun00003 }
  15:
                     tangon = michal.restartCount;
                     if(!(entity !== tangon)) { _fun00004_ip = 56; continue _fun00003 }
@@ -130,26 +130,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = oscard.bind(entity)(report, tangon);
                     zuuluu['bufferViolations'] = tangon;
  97:
-                    oscard = michal.timeToFirstCallbackMs;
+                    golfie = michal.timeToFirstCallbackMs;
                     tangon = null;
-                    golfie = tangon != oscard;
+                    option = tangon != golfie;
                     report = 0;
-                    tangon = 0;
-                    if(!golfie) { _fun00004_ip = 119; continue _fun00003 }
+                    oscard = 0;
+                    if(!option) { _fun00004_ip = 119; continue _fun00003 }
  116:
-                    tangon = oscard;
+                    oscard = golfie;
  119:
-                    tangon = report !== tangon;
-                    if(!tangon) { _fun00004_ip = 136; continue _fun00003 }
+                    oscard = report !== oscard;
+                    if(!oscard) { _fun00004_ip = 136; continue _fun00003 }
  126:
-                    report = zuuluu.timeToFirstCallbackMs;
-                    tangon = entity === report;
+                    golfie = zuuluu.timeToFirstCallbackMs;
+                    oscard = entity === golfie;
  136:
-                    if(!tangon) { _fun00004_ip = 151; continue _fun00003 }
+                    if(!oscard) { _fun00004_ip = 151; continue _fun00003 }
  139:
-                    michal = michal.timeToFirstCallbackMs;
-                    zuuluu['timeToFirstCallbackMs'] = michal;
+                    oscard = michal.timeToFirstCallbackMs;
+                    zuuluu['timeToFirstCallbackMs'] = oscard;
  151:
+                    oscard = michal.sessionSampleRate;
+                    golfie = tangon != oscard;
+                    tangon = 0;
+                    if(!golfie) { _fun00004_ip = 169; continue _fun00003 }
+ 166:
+                    tangon = oscard;
+ 169:
+                    if(!(report !== tangon)) { _fun00004_ip = 185; continue _fun00003 }
+ 173:
+                    michal = michal.sessionSampleRate;
+                    zuuluu['sessionSampleRate'] = michal;
+ 185:
                     return entity;
                 }
             };
@@ -1441,51 +1453,57 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = function() { // Original name: value
             _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
-                zuuluu = this;
+                michal = this;
                 entity = {};
-                michal = zuuluu.inputDeviceStats;
-                oscard = michal.restartCount;
-                tangon = null;
-                golfie = tangon == oscard;
-                report = undefined;
+                zuuluu = michal.inputDeviceStats;
+                oscard = zuuluu.restartCount;
+                report = null;
+                golfie = report == oscard;
+                tangon = undefined;
                 if(golfie) { _fun00024_ip = 34; continue _fun00023 }
  28:
-                report = oscard.accumulated;
+                tangon = oscard.accumulated;
  34:
-                entity['input_device_restart_count'] = report;
-                report = zuuluu.outputDeviceStats;
-                oscard = report.restartCount;
-                golfie = tangon == oscard;
-                report = undefined;
+                entity['input_device_restart_count'] = tangon;
+                tangon = michal.outputDeviceStats;
+                oscard = tangon.restartCount;
+                golfie = report == oscard;
+                tangon = undefined;
                 if(golfie) { _fun00024_ip = 68; continue _fun00023 }
  62:
-                report = oscard.accumulated;
+                tangon = oscard.accumulated;
  68:
-                entity['output_device_restart_count'] = report;
-                report = zuuluu.inputDeviceStats;
-                report = report.timeToFirstCallbackMs;
-                entity['input_device_time_to_first_audio'] = report;
-                report = zuuluu.outputDeviceStats;
-                report = report.timeToFirstCallbackMs;
-                entity['output_device_time_to_first_audio'] = report;
-                report = zuuluu.outputDeviceStats;
-                oscard = report.bufferViolations;
-                golfie = tangon == oscard;
-                report = undefined;
+                entity['output_device_restart_count'] = tangon;
+                tangon = michal.inputDeviceStats;
+                tangon = tangon.timeToFirstCallbackMs;
+                entity['input_device_time_to_first_audio'] = tangon;
+                tangon = michal.outputDeviceStats;
+                tangon = tangon.timeToFirstCallbackMs;
+                entity['output_device_time_to_first_audio'] = tangon;
+                tangon = michal.inputDeviceStats;
+                oscard = tangon.bufferViolations;
+                golfie = report == oscard;
+                tangon = undefined;
                 if(golfie) { _fun00024_ip = 140; continue _fun00023 }
  134:
-                report = oscard.accumulated;
+                tangon = oscard.accumulated;
  140:
-                entity['output_device_buffer_underrun_count'] = report;
-                zuuluu = zuuluu.inputDeviceStats;
-                zuuluu = zuuluu.bufferViolations;
-                tangon = tangon == zuuluu;
-                michal = undefined;
-                if(tangon) { _fun00024_ip = 174; continue _fun00023 }
+                entity['input_device_buffer_overfull_count'] = tangon;
+                tangon = michal.outputDeviceStats;
+                tangon = tangon.bufferViolations;
+                report = report == tangon;
+                zuuluu = undefined;
+                if(report) { _fun00024_ip = 174; continue _fun00023 }
  168:
-                michal = zuuluu.accumulated;
+                zuuluu = tangon.accumulated;
  174:
-                entity['input_device_buffer_overfull_count'] = michal;
+                entity['output_device_buffer_underrun_count'] = zuuluu;
+                zuuluu = michal.inputDeviceStats;
+                zuuluu = zuuluu.sessionSampleRate;
+                entity['input_device_session_sample_rate'] = zuuluu;
+                michal = michal.outputDeviceStats;
+                michal = michal.sessionSampleRate;
+                entity['output_device_session_sample_rate'] = michal;
                 return entity;
             }
         };

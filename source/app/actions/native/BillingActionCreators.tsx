@@ -2065,7 +2065,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 1165; continue _fun00033 }
+                    if(tangon) { _fun00034_ip = 1327; continue _fun00033 }
  13:
                     sizing = michal.requestIdentifier;
                     option = michal.skuId;
@@ -2078,40 +2078,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = argBar;
                     oscard = undefined;
                     result = undefined;
+                    source = undefined;
                     ctrled = undefined;
+                    vacuum = undefined;
                     verify = undefined;
-                    SaveGenerator(address=76);
- 74:
+                    SaveGenerator(address=80);
+ 78:
                     return oscard;
- 76:
+ 80:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00034_ip = 1162; continue _fun00033 }
- 85:
+                    if(tangon) { _fun00034_ip = 1324; continue _fun00033 }
+ 89:
                     offset = _closure1_slot31;
                     offset = offset.bind(oscard)();
-                    if(offset) { _fun00034_ip = 104; continue _fun00033 }
- 99:
+                    if(offset) { _fun00034_ip = 108; continue _fun00033 }
+ 103:
                     offset = false;
                     return offset;
- 104:
+ 108:
                     kiloes = _closure1_slot0;
                     output = _closure1_slot3;
                     offset = 36;
                     offset = output[offset];
                     offset = kiloes.bind(oscard)(offset);
                     offset = offset.ProductIds;
-                    vacuum = offset.GENERIC_CONSUMABLE;
-                    result = vacuum;
+                    cntext = offset.GENERIC_CONSUMABLE;
+                    result = cntext;
                     echoed = _closure1_slot1;
                     offset = 18;
                     yankee = output[offset];
-                    source = echoed.bind(oscard)(yankee);
-                    echoed = source.dispatch;
+                    record = echoed.bind(oscard)(yankee);
+                    echoed = record.dispatch;
                     yankee = {};
-                    record = 'IAP_PURCHASE_PRODUCT_START';
-                    yankee['type'] = record;
-                    yankee['productIdentifier'] = vacuum;
-                    yankee = echoed.bind(source)(yankee);
+                    papara = 'IAP_PURCHASE_PRODUCT_START';
+                    yankee['type'] = papara;
+                    yankee['productIdentifier'] = cntext;
+                    yankee = echoed.bind(record)(yankee);
                     yankee = 37;
                     yankee = output[yankee];
                     output = kiloes.bind(oscard)(yankee);
@@ -2127,27 +2129,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = echoed.APPLE_PARTNER;
                     yankee['payment_gateway'] = echoed;
                     yankee = kiloes.bind(output)(yankee);
- 246: // try_start_0
+ 250: // try_start_0
                     kiloes = _closure1_slot39;
                     yankee = update;
                     yankee = kiloes.bind(oscard)(yankee);
-                    if(yankee) { _fun00034_ip = 323; continue _fun00033 }
- 261:
+                    if(yankee) { _fun00034_ip = 327; continue _fun00033 }
+ 265:
                     yankee = global;
                     output = yankee.Error;
-                    source = update;
+                    record = update;
                     yankee = yankee.HermesInternal;
                     echoed = yankee.concat;
                     kiloes = "Unable to create subscription with invalid currency '";
                     yankee = "' ";
-                    status = echoed.bind(kiloes)(source, yankee);
+                    sierra = echoed.bind(kiloes)(record, yankee);
                     kiloes = output.prototype;
                     kiloes = Object.create(kiloes, {constructor: {value: output}});
-                    sierra = kiloes;
-                    yankee = new sierra[output](status, target);
+                    limora = kiloes;
+                    yankee = new limora[output](sierra, status);
                     yankee = yankee instanceof Object ? yankee : kiloes;
                     throw yankee;
- 323:
+ 327:
                     output = update;
                     kiloes = foxtra;
                     yankee = function() { // Original name: retryPendingPurchases
@@ -2161,20 +2163,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     yankee = yankee.bind(oscard)(output, kiloes);
-                    SaveGenerator(address=346);
- 344:
+                    SaveGenerator(address=350);
+ 348:
                     return yankee;
- 346:
+ 350:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=14);
-                    if(kiloes) { _fun00034_ip = 775; continue _fun00033 }
- 355:
+                    if(kiloes) { _fun00034_ip = 937; continue _fun00033 }
+ 359:
                     output = _closure1_slot34;
                     kiloes = {};
-                    source = _closure1_slot0;
-                    vacuum = _closure1_slot3;
+                    record = _closure1_slot0;
+                    cntext = _closure1_slot3;
                     echoed = 34;
-                    echoed = vacuum[echoed];
-                    echoed = source.bind(oscard)(echoed);
+                    echoed = cntext[echoed];
+                    echoed = record.bind(oscard)(echoed);
                     echoed = echoed.APBRequestOperations;
                     echoed = echoed.CHARGE;
                     kiloes['operation'] = echoed;
@@ -2191,27 +2193,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = golfie;
                     kiloes['gift_info_options'] = echoed;
                     kiloes = output.bind(oscard)(kiloes);
-                    SaveGenerator(address=455);
- 453:
+                    SaveGenerator(address=459);
+ 457:
                     return kiloes;
- 455:
+ 459:
                     ResumeGenerator(result_out_reg=14, return_bool_out_reg=16);
-                    if(output) { _fun00034_ip = 772; continue _fun00033 }
- 464:
-                    source = kiloes.requestJSONString;
+                    if(output) { _fun00034_ip = 934; continue _fun00033 }
+ 468:
+                    record = kiloes.requestJSONString;
                     echoed = _closure1_slot32;
                     output = sizing;
                     sizing = result;
-                    sizing = echoed.bind(oscard)(output, source, sizing);
-                    SaveGenerator(address=491);
- 489:
+                    sizing = echoed.bind(oscard)(output, record, sizing);
+                    SaveGenerator(address=495);
+ 493:
                     return sizing;
- 491:
+ 495:
                     ResumeGenerator(result_out_reg=15, return_bool_out_reg=16);
-                    if(output) { _fun00034_ip = 769; continue _fun00033 }
- 500:
-                    source = sizing.purchaseResponse;
+                    if(output) { _fun00034_ip = 931; continue _fun00033 }
+ 504:
+                    output = sizing.purchaseResponse;
+                    source = output;
                     ctrled = sizing.originalPurchase;
+                    record = _closure1_slot1;
+                    cntext = _closure1_slot3;
+                    echoed = 17;
+                    echoed = cntext[echoed];
+                    record = record.bind(oscard)(echoed);
+                    echoed = record.v3;
+                    output = output.transactionReceipt;
+                    vacuum = echoed.bind(record)(output);
+                    output = romeon;
+                    if(!output) { _fun00034_ip = 625; continue _fun00033 }
+ 562:
+                    echoed = _closure1_slot1;
+                    output = _closure1_slot3;
+                    output = output[offset];
+                    record = echoed.bind(oscard)(output);
+                    echoed = record.dispatch;
+                    output = {};
+                    cntext = 'GIFT_PROMOTION_GIFT_OPTIONS_CACHE_ACTION';
+                    output['type'] = cntext;
+                    cntext = vacuum;
+                    output['key'] = cntext;
+                    cntext = {};
+                    status = golfie;
+                    sierra = cntext;
+                    papara = copyDataProperties(sierra, status);
+                    output['giftOptions'] = cntext;
+                    output = echoed.bind(record)(output);
+ 625:
                     echoed = _closure1_slot26;
                     output = {};
                     source = source.transactionReceipt;
@@ -2226,13 +2257,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = romeon;
                     output['isGift'] = update;
                     output = echoed.bind(oscard)(output);
-                    SaveGenerator(address=575);
- 573:
+                    SaveGenerator(address=688);
+ 686:
                     return output;
- 575:
+ 688:
                     ResumeGenerator(result_out_reg=16, return_bool_out_reg=18);
-                    if(echoed) { _fun00034_ip = 766; continue _fun00033 }
- 584:
+                    if(echoed) { _fun00034_ip = 928; continue _fun00033 }
+ 697:
+                    echoed = romeon;
+                    if(!echoed) { _fun00034_ip = 746; continue _fun00033 }
+ 703:
+                    update = _closure1_slot1;
+                    echoed = _closure1_slot3;
+                    echoed = echoed[offset];
+                    source = update.bind(oscard)(echoed);
+                    update = source.dispatch;
+                    echoed = {};
+                    record = 'GIFT_PROMOTION_GIFT_OPTIONS_CLEAR_CACHE_ACTION';
+                    echoed['type'] = record;
+                    echoed['key'] = vacuum;
+                    echoed = update.bind(source)(echoed);
+ 746:
                     update = _closure1_slot0;
                     source = _closure1_slot3;
                     echoed = 21;
@@ -2242,13 +2287,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     echoed = {};
                     echoed['purchase'] = ctrled;
                     echoed = update.bind(source)(echoed);
-                    SaveGenerator(address=626);
- 624:
+                    SaveGenerator(address=788);
+ 786:
                     return echoed;
- 626:
+ 788:
                     ResumeGenerator(result_out_reg=18, return_bool_out_reg=19);
-                    if(update) { _fun00034_ip = 763; continue _fun00033 }
- 635:
+                    if(update) { _fun00034_ip = 925; continue _fun00033 }
+ 797:
                     source = _closure1_slot1;
                     ctrled = _closure1_slot3;
                     update = ctrled[offset];
@@ -2277,20 +2322,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sequen = romeon;
                     update['is_gift'] = sequen;
                     update = ctrled.bind(vacuum)(source, update);
- 758: // try_end0
+ 920: // try_end0
                     update = true;
                     return update;
- 763:
+ 925:
                     return echoed;
- 766:
+ 928:
                     return output;
- 769:
+ 931:
                     return sizing;
- 772:
+ 934:
                     return kiloes;
- 775:
+ 937:
                     return yankee;
- 778: // catch_target0
+ 940: // catch_target0
                     CatchBlockStart(arg_register=16);
                     zuuluu = output;
                     kiloes = _closure1_slot1;
@@ -2310,9 +2355,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = offset.BillingError;
                     kiloes = offset.prototype;
                     kiloes = Object.create(kiloes, {constructor: {value: offset}});
-                    sierra = kiloes;
-                    status = output;
-                    offset = new sierra[offset](status, target);
+                    limora = kiloes;
+                    sierra = output;
+                    offset = new limora[offset](sierra, status);
                     offset = offset instanceof Object ? offset : kiloes;
                     kiloes = offset.code;
                     offset = 39;
@@ -2320,24 +2365,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = sizing.bind(oscard)(yankee);
                     yankee = yankee.ErrorCodes;
                     yankee = yankee.BILLING_CANNOT_CHARGE_ZERO_AMOUNT;
-                    if(!(kiloes === yankee)) { _fun00034_ip = 1140; continue _fun00033 }
- 908:
+                    if(!(kiloes === yankee)) { _fun00034_ip = 1302; continue _fun00033 }
+ 1070:
                     kiloes = backup;
                     yankee = null;
-                    if(!(yankee == kiloes)) { _fun00034_ip = 945; continue _fun00033 }
- 917:
+                    if(!(yankee == kiloes)) { _fun00034_ip = 1107; continue _fun00033 }
+ 1079:
                     kiloes = _closure1_slot0;
                     sizing = _closure1_slot3;
                     yankee = 40;
                     yankee = sizing[yankee];
                     yankee = kiloes.bind(oscard)(yankee);
                     yankee = yankee.purchaseSKU;
-                    _fun00034_ip = 948; continue _fun00033;
- 945:
+                    _fun00034_ip = 1110; continue _fun00033;
+ 1107:
                     yankee = backup;
- 948:
+ 1110:
                     verify = yankee;
- 951: // try_start_1
+ 1113: // try_start_1
                     yankee = verify;
                     verify = option;
                     option = {};
@@ -2359,18 +2404,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['giftInfoOptions'] = golfie;
                     golfie = 'collectibles';
                     golfie = yankee.bind(oscard)(golfie, verify, option);
-                    SaveGenerator(address=1046);
- 1044:
+                    SaveGenerator(address=1208);
+ 1206:
                     return golfie;
- 1046:
+ 1208:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00034_ip = 1057; continue _fun00033 }
- 1052: // try_end1
+                    if(option) { _fun00034_ip = 1219; continue _fun00033 }
+ 1214: // try_end1
                     option = true;
                     return option;
- 1057:
+ 1219:
                     return golfie;
- 1060: // catch_target1
+ 1222: // catch_target1
                     CatchBlockStart(arg_register=6);
                     report = golfie;
                     option = golfie.code;
@@ -2380,8 +2425,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = verify.bind(oscard)(golfie);
                     golfie = golfie.ErrorCodes;
                     golfie = golfie.BILLING_PURCHASE_REQUEST_INVALID;
-                    if(!(option === golfie)) { _fun00034_ip = 1140; continue _fun00033 }
- 1103:
+                    if(!(option === golfie)) { _fun00034_ip = 1302; continue _fun00033 }
+ 1265:
                     option = _closure1_slot0;
                     verify = _closure1_slot3;
                     golfie = 14;
@@ -2391,16 +2436,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = report;
                     report = {};
                     report = option.bind(verify)(golfie, report);
- 1140:
+ 1302:
                     report = _closure1_slot30;
                     tangon = zuuluu;
                     zuuluu = 'collectibles';
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
                     zuuluu = false;
                     return zuuluu;
- 1162:
+ 1324:
                     return michal;
- 1165:
+ 1327:
                     return entity;
                 }
             };

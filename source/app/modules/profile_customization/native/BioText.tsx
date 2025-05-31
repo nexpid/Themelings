@@ -137,30 +137,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  48:
             output = 'text-md/normal';
  54:
+            var _closure2_slot2 = output;
             zuuluu = _closure1_slot10;
             yankee = zuuluu.bind(report)();
             verify = _closure1_slot3;
             oscard = verify.useMemo;
-            tangon = new Array(1);
+            tangon = new Array(2);
             tangon[0] = entity;
+            tangon[1] = output;
             zuuluu = function() {
-                zuuluu = _closure1_slot0;
-                michal = _closure1_slot2;
+                michal = _closure1_slot0;
+                zuuluu = _closure1_slot2;
                 entity = 9;
-                michal = michal[entity];
-                entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.parseBioReact;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
+                entity = zuuluu[entity];
+                report = undefined;
+                tangon = michal.bind(report)(entity);
+                zuuluu = tangon.parseBioReact;
+                michal = _closure2_slot0;
+                entity = {};
+                oscard = _closure2_slot2;
+                entity['linkVariant'] = oscard;
+                entity = zuuluu.bind(tangon)(michal, report, entity);
                 return entity;
             };
             oscard = oscard.bind(verify)(zuuluu, tangon);
             zuuluu = entity.length;
             entity = 0;
             sizing = entity === zuuluu;
-            if(!sizing) { _fun00002_ip = 135; continue _fun00001 }
- 107:
+            if(!sizing) { _fun00002_ip = 143; continue _fun00001 }
+ 115:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             entity = 10;
@@ -168,21 +173,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(report)(entity);
             entity = entity.bind(report)(michal);
             sizing = !entity;
- 135:
+ 143:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             entity = 10;
             entity = tangon[entity];
             entity = zuuluu.bind(report)(entity);
             entity = entity.bind(report)(michal);
-            if(entity) { _fun00002_ip = 264; continue _fun00001 }
- 163:
-            if(!sizing) { _fun00002_ip = 175; continue _fun00001 }
- 166:
+            if(entity) { _fun00002_ip = 272; continue _fun00001 }
+ 171:
+            if(!sizing) { _fun00002_ip = 183; continue _fun00001 }
+ 174:
             entity = null;
             michal = entity == option;
-            if(michal) { _fun00002_ip = 259; continue _fun00001 }
- 175:
+            if(michal) { _fun00002_ip = 267; continue _fun00001 }
+ 183:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot0;
             verify = _closure1_slot2;
@@ -193,23 +198,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             michal['variant'] = output;
             verify = 'text-normal';
-            if(!sizing) { _fun00002_ip = 225; continue _fun00001 }
- 219:
+            if(!sizing) { _fun00002_ip = 233; continue _fun00001 }
+ 227:
             verify = 'text-muted';
- 225:
+ 233:
             michal['color'] = verify;
             michal['lineClamp'] = romeon;
             verify = yankee.text;
             michal['style'] = verify;
-            if(!sizing) { _fun00002_ip = 249; continue _fun00001 }
- 246:
+            if(!sizing) { _fun00002_ip = 257; continue _fun00001 }
+ 254:
             oscard = option;
- 249:
+ 257:
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 259:
-            _fun00002_ip = 591; continue _fun00001;
- 264:
+ 267:
+            _fun00002_ip = 599; continue _fun00001;
+ 272:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot9;
             michal = {};
@@ -223,10 +228,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['variant'] = output;
             foxtra = 'text-normal';
             oscard = foxtra;
-            if(!sizing) { _fun00002_ip = 323; continue _fun00001 }
- 317:
+            if(!sizing) { _fun00002_ip = 331; continue _fun00001 }
+ 325:
             oscard = 'text-muted';
- 323:
+ 331:
             offset['color'] = oscard;
             offset['lineClamp'] = romeon;
             oscard = yankee.text;
@@ -258,10 +263,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.Text;
             option = {};
             option['variant'] = output;
-            if(!sizing) { _fun00002_ip = 472; continue _fun00001 }
- 466:
+            if(!sizing) { _fun00002_ip = 480; continue _fun00001 }
+ 474:
             foxtra = 'text-muted';
- 472:
+ 480:
             option['color'] = foxtra;
             option['lineClamp'] = romeon;
             yankee = yankee.span;
@@ -298,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 591:
+ 599:
             return entity;
         }
     };

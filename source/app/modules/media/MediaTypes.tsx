@@ -161,6 +161,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie['EXPLICIT'] = yankee;
     report = 'EXPLICIT';
     golfie[yankee] = report;
+    option = 2;
+    golfie['GORE'] = option;
+    report = 'GORE';
+    golfie[option] = report;
     var _closure1_slot4 = golfie;
     report = {};
     report['IS_ANIMATED'] = yankee;
