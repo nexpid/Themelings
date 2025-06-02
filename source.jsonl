@@ -105,7 +105,7 @@
 { "file": "app/modules/a11y/AccessibilityStore.tsx", "size": 49615 }
 { "file": "app/modules/user_settings/UserSettingsProtoStore.tsx", "size": 35679 }
 { "file": "discord_common/js/packages/protos/discord_protos/discord_users/v1/user_settings_shared.tsx", "size": 15354 }
-{ "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx", "size": 29988 }
+{ "file": "discord_common/js/packages/protos/google/protobuf/timestamp.tsx", "size": 29987 }
 { "file": "app/modules/user_settings/UserSettingsMigrationsByType.tsx", "size": 1024 }
 { "file": "app/utils/CrossPlatformNativeUtils.native.tsx", "size": 2509 }
 { "file": "app/modules/user_settings/UserSettingsOverridesStore.tsx", "size": 19729 }
@@ -426,8 +426,8 @@
 { "file": "app/modules/links/native/handleSupportedURL.tsx", "size": 88226 }
 { "file": "app/modules/gateway/PostConnectionCallbackStore.tsx", "size": 4125 }
 { "file": "app/modules/nuf/NewUserStore.tsx", "size": 7297 }
-{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 62357 }
-{ "file": "app/stores/CallStore.tsx", "size": 21676 }
+{ "file": "app/modules/gateway/GatewayConnectionStore.tsx", "size": 62353 }
+{ "file": "app/stores/CallStore.tsx", "size": 21674 }
 { "file": "app/stores/SelectedChannelStore.tsx", "size": 55289 }
 { "file": "app/stores/GuildChannelStore.tsx", "size": 55726 }
 { "file": "app/modules/channel/GatedChannelStore.tsx", "size": 35412 }
