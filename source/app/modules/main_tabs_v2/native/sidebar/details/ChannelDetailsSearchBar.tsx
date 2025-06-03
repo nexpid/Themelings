@@ -1,20 +1,20 @@
 // app/modules/main_tabs_v2/native/sidebar/details/ChannelDetailsSearchBar.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
+    option = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = option;
     var _closure1_slot2 = oscard;
     entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
+    verify = entity.Object;
+    golfie = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = golfie.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
     golfie = oscard[entity];
     tangon = argCor;
@@ -23,8 +23,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot3 = golfie;
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.resetSearchQueryState;
+    tangon = option.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
@@ -96,12 +95,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[0] = michal;
             zuuluu[1] = yankee;
             michal = function() {
-                report = _closure1_slot4;
+                oscard = _closure1_slot4;
+                report = oscard.setState;
                 tangon = _closure2_slot2;
-                entity = undefined;
-                tangon = report.bind(entity)(tangon);
+                zuuluu = function(argFoo) {
+                    michal = argFoo;
+                    entity = michal.reset;
+                    entity = entity.bind(michal)();
+                    return entity;
+                };
+                zuuluu = report.bind(oscard)(tangon, zuuluu);
                 report = _closure1_slot5;
                 tangon = _closure2_slot0;
+                entity = undefined;
                 zuuluu = false;
                 michal = 'action';
                 michal = report.bind(entity)(tangon, zuuluu, michal);
@@ -117,20 +123,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    tangon = _closure1_slot4;
+                    report = _closure1_slot4;
+                    tangon = report.setState;
                     zuuluu = _closure2_slot2;
-                    entity = undefined;
-                    zuuluu = tangon.bind(entity)(zuuluu);
+                    entity = function(argFoo) {
+                        michal = argFoo;
+                        entity = michal.reset;
+                        entity = entity.bind(michal)();
+                        return entity;
+                    };
+                    entity = tangon.bind(report)(zuuluu, entity);
                     zuuluu = _closure2_slot1;
-                    if(!(entity === zuuluu)) { _fun00004_ip = 39; continue _fun00003 }
- 29:
+                    entity = undefined;
+                    if(!(entity === zuuluu)) { _fun00004_ip = 55; continue _fun00003 }
+ 45:
                     zuuluu = _closure2_slot3;
                     zuuluu = zuuluu.bind(entity)();
-                    _fun00004_ip = 47; continue _fun00003;
- 39:
+                    _fun00004_ip = 63; continue _fun00003;
+ 55:
                     michal = _closure2_slot1;
                     michal = michal.bind(entity)();
- 47:
+ 63:
                     return entity;
                 }
             };

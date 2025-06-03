@@ -329,10 +329,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['height'] = zuuluu;
         zuuluu = michal.placeholder;
         entity['placeholder'] = zuuluu;
-        michal = michal.placeholderVersion;
-        entity['placeholderVersion'] = michal;
-        michal = argBar;
-        entity['sourceMetadata'] = michal;
+        zuuluu = michal.placeholderVersion;
+        entity['placeholderVersion'] = zuuluu;
+        zuuluu = argBar;
+        entity['sourceMetadata'] = zuuluu;
+        michal = michal.contentType;
+        entity['contentType'] = michal;
         return entity;
     };
     zuuluu['embedMediaToMediaItem'] = michal;

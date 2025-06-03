@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 15;
             entity = update[entity];
             michal = ctrled.bind(tangon)(entity);
-            entity = michal.useMemoizedProcessedGradientRoleColors;
+            entity = michal.useProcessColorStringsArray;
             zuuluu = entity.bind(michal)(zuuluu);
             var _closure2_slot6 = zuuluu;
             entity = 16;

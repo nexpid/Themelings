@@ -27,47 +27,55 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            verify = entity.url;
-            option = entity.proxy_url;
-            golfie = entity.width;
-            oscard = entity.height;
+            offset = entity.url;
+            verify = entity.proxy_url;
+            option = entity.width;
+            golfie = entity.height;
             report = entity.placeholder;
             tangon = entity.placeholder_version;
             michal = entity.description;
-            zuuluu = entity.flags;
+            oscard = entity.flags;
+            zuuluu = entity.content_type;
             entity = {};
-            entity['url'] = verify;
-            entity['proxyURL'] = option;
-            entity['width'] = golfie;
-            entity['height'] = oscard;
+            entity['url'] = offset;
+            entity['proxyURL'] = verify;
+            entity['width'] = option;
+            entity['height'] = golfie;
             entity['placeholder'] = report;
             entity['placeholderVersion'] = tangon;
             entity['description'] = michal;
-            oscard = _closure1_slot0;
+            report = _closure1_slot0;
             tangon = _closure1_slot2;
             michal = 3;
             tangon = tangon[michal];
             michal = undefined;
-            option = oscard.bind(michal)(tangon);
-            golfie = option.hasFlag;
+            offset = report.bind(michal)(tangon);
+            verify = offset.hasFlag;
             tangon = null;
-            verify = tangon != zuuluu;
-            oscard = 0;
-            if(!verify) { _fun00004_ip = 124; continue _fun00003 }
- 121:
-            oscard = zuuluu;
- 124:
-            report = _closure1_slot3;
-            report = report.IS_ANIMATED;
-            report = golfie.bind(option)(oscard, report);
-            entity['srcIsAnimated'] = report;
+            yankee = tangon != oscard;
+            option = 0;
+            if(!yankee) { _fun00004_ip = 130; continue _fun00003 }
+ 127:
+            option = oscard;
+ 130:
+            golfie = _closure1_slot3;
+            golfie = golfie.IS_ANIMATED;
+            golfie = verify.bind(offset)(option, golfie);
+            entity['srcIsAnimated'] = golfie;
+            golfie = tangon != oscard;
+            report = 0;
+            if(!golfie) { _fun00004_ip = 163; continue _fun00003 }
+ 160:
+            report = oscard;
+ 163:
+            entity['flags'] = report;
             tangon = tangon != zuuluu;
-            michal = 0;
-            if(!tangon) { _fun00004_ip = 157; continue _fun00003 }
- 154:
+            michal = undefined;
+            if(!tangon) { _fun00004_ip = 179; continue _fun00003 }
+ 176:
             michal = zuuluu;
- 157:
-            entity['flags'] = michal;
+ 179:
+            entity['contentType'] = michal;
             return entity;
         }
     };

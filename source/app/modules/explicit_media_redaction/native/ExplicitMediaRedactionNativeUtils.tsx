@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity[report];
             tangon = undefined;
             option = zuuluu.bind(tangon)(oscard);
-            oscard = option.shouldRedactExplicitContent;
+            oscard = option.shouldRedactMessageMedia;
             oscard = oscard.bind(option)(verify);
             entity = entity[report];
             zuuluu = zuuluu.bind(tangon)(entity);

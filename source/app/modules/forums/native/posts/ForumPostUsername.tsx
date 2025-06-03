@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 11;
             michal = tangon[michal];
             oscard = zuuluu.bind(report)(michal);
-            michal = oscard.useMemoizedProcessedGradientRoleColors;
+            michal = oscard.useProcessColorStringsArray;
             sizing = michal.bind(oscard)(source);
             michal = 12;
             michal = tangon[michal];

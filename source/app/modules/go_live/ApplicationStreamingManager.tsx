@@ -391,31 +391,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.bind(tangon)();
             michal = tangon.includes;
             michal = michal.bind(tangon)(zuuluu);
-            if(michal) { _fun00018_ip = 129; continue _fun00017 }
+            if(michal) { _fun00018_ip = 143; continue _fun00017 }
  39:
-            oscard = _closure1_slot0;
-            tangon = _closure1_slot2;
+            michal = _closure1_slot19;
+            tangon = michal[zuuluu];
+            michal = null;
+            if(!(michal == tangon)) { _fun00018_ip = 101; continue _fun00017 }
+ 53:
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot2;
             michal = 19;
-            tangon = tangon[michal];
+            oscard = oscard[michal];
             michal = undefined;
-            michal = oscard.bind(michal)(tangon);
+            michal = golfie.bind(michal)(oscard);
             michal = michal.Timeout;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            verify = tangon;
-            michal = new verify[michal](option);
-            tangon = michal instanceof Object ? michal : tangon;
+            oscard = michal.prototype;
+            oscard = Object.create(oscard, {constructor: {value: michal}});
+            offset = oscard;
+            michal = new offset[michal](verify);
+            tangon = michal instanceof Object ? michal : oscard;
+ 101:
             michal = _closure1_slot19;
             michal[zuuluu] = tangon;
             zuuluu = tangon.start;
             michal = argBar;
-            if(michal) { _fun00018_ip = 112; continue _fun00017 }
- 106:
+            if(michal) { _fun00018_ip = 126; continue _fun00017 }
+ 120:
             michal = _closure1_slot21;
-            _fun00018_ip = 116; continue _fun00017;
- 112:
+            _fun00018_ip = 130; continue _fun00017;
+ 126:
             michal = _closure1_slot22;
- 116:
+ 130:
             entity = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
@@ -433,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(tangon)(michal, entity);
- 129:
+ 143:
             entity = undefined;
             return entity;
         }

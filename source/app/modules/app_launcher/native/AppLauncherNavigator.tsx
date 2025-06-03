@@ -29,38 +29,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = golfie;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = romeon.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AppLauncherRouteName;
     var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.AppLauncherRouteName;
+    tangon = tangon.AnalyticEvents;
     var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.AnalyticEvents;
-    var _closure1_slot8 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     option = tangon.jsx;
-    var _closure1_slot9 = option;
+    var _closure1_slot8 = option;
     tangon = tangon.jsxs;
-    var _closure1_slot10 = tangon;
-    tangon = 6;
+    var _closure1_slot9 = tangon;
+    tangon = 5;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     tangon = option.createNativeStackNavigator;
     tangon = tangon.bind(option)();
-    var _closure1_slot11 = tangon;
-    tangon = 7;
+    var _closure1_slot10 = tangon;
+    tangon = 6;
     tangon = oscard[tangon];
     verify = report.bind(entity)(tangon);
     option = verify.createStyles;
     tangon = {};
     offset = {'backgroundColor': null, 'paddingTop': 16, 'overflow': 'visible', 'flex': 1};
-    yankee = 8;
+    yankee = 7;
     yankee = oscard[yankee];
     yankee = romeon.bind(entity)(yankee);
     yankee = yankee.colors;
@@ -68,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['backgroundColor'] = yankee;
     tangon['navigator'] = offset;
     tangon = option.bind(verify)(tangon);
-    var _closure1_slot12 = tangon;
+    var _closure1_slot11 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: AppLauncherNavigator
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -87,32 +83,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = entity.overrideParams;
             offset = _closure1_slot1;
             kiloes = _closure1_slot2;
-            backup = 9;
+            backup = 8;
             zuuluu = kiloes[backup];
             tangon = undefined;
             oscard = offset.bind(tangon)(zuuluu);
-            zuuluu = 10;
+            zuuluu = 9;
             zuuluu = kiloes[zuuluu];
             zuuluu = offset.bind(tangon)(zuuluu);
             zuuluu = zuuluu.APP_LAUNCHER;
             zuuluu = oscard.bind(tangon)(zuuluu);
             sizing = zuuluu.analyticsLocations;
-            zuuluu = _closure1_slot12;
+            zuuluu = _closure1_slot11;
             ctrled = zuuluu.bind(tangon)();
             offset = _closure1_slot0;
+            zuuluu = 10;
+            zuuluu = kiloes[zuuluu];
+            output = offset.bind(tangon)(zuuluu);
+            oscard = output.useKeyboardContextForType;
             zuuluu = 11;
             zuuluu = kiloes[zuuluu];
-            result = offset.bind(tangon)(zuuluu);
-            output = result.useStateFromStores;
-            zuuluu = _closure1_slot6;
-            oscard = new Array(1);
-            oscard[0] = zuuluu;
-            zuuluu = function() {
-                entity = _closure1_slot6;
-                entity = entity.appLauncherKeyboardParams;
-                return entity;
-            };
-            zuuluu = output.bind(result)(oscard, zuuluu);
+            zuuluu = offset.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.KeyboardTypes;
+            zuuluu = zuuluu.APP_LAUNCHER;
+            zuuluu = oscard.bind(output)(zuuluu);
             oscard = 12;
             oscard = kiloes[oscard];
             offset = offset.bind(tangon)(oscard);
@@ -120,10 +113,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = oscard.bind(offset)();
             offset = null;
             kiloes = zuuluu;
-            if(!(offset != report)) { _fun00002_ip = 211; continue _fun00001 }
- 208:
+            if(!(offset != report)) { _fun00002_ip = 216; continue _fun00001 }
+ 213:
             kiloes = report;
- 211:
+ 216:
             papara = kiloes.initialRouteName;
             oscard = _closure1_slot4;
             report = _closure1_slot3;
@@ -140,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 report = tangon.bind(entity)(zuuluu);
                 tangon = report.trackWithMetadata;
-                michal = _closure1_slot8;
+                michal = _closure1_slot7;
                 zuuluu = michal.APPLICATION_COMMAND_TOP_OF_FUNNEL;
                 michal = {};
                 oscard = 'app_launcher';
@@ -151,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = oscard.bind(kiloes)(michal, report);
-            oscard = _closure1_slot9;
+            oscard = _closure1_slot8;
             kiloes = _closure1_slot0;
             target = _closure1_slot2;
             michal = 14;
@@ -166,8 +159,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = backup.AnalyticsLocationProvider;
             backup = {};
             backup['value'] = sizing;
-            result = _closure1_slot10;
-            update = _closure1_slot11;
+            result = _closure1_slot9;
+            update = _closure1_slot10;
             output = update.Navigator;
             sizing = {};
             sizing['initialRouteName'] = papara;
@@ -183,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing['screenOptions'] = echoed;
             source = update.Screen;
             echoed = {};
-            vacuum = _closure1_slot7;
+            vacuum = _closure1_slot6;
             ctrled = vacuum.HOME;
             echoed['name'] = ctrled;
             config = _closure1_slot1;
@@ -209,10 +202,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled['context'] = record;
             config = vacuum.APPLICATION_VIEW;
             vacuum = sequen;
-            if(!(papara !== config)) { _fun00002_ip = 520; continue _fun00001 }
- 518:
+            if(!(papara !== config)) { _fun00002_ip = 525; continue _fun00001 }
+ 523:
             vacuum = {};
- 520:
+ 525:
             limora = ctrled;
             sierra = vacuum;
             vacuum = copyDataProperties(limora, sierra);
@@ -221,11 +214,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['initialParams'] = ctrled;
             update = oscard.bind(tangon)(source, update);
             echoed[1] = update;
-            ctrled = _closure1_slot9;
-            update = _closure1_slot11;
+            ctrled = _closure1_slot8;
+            update = _closure1_slot10;
             source = update.Screen;
             update = {};
-            vacuum = _closure1_slot7;
+            vacuum = _closure1_slot6;
             vacuum = vacuum.COMMAND_VIEW;
             update['name'] = vacuum;
             papara = _closure1_slot1;
@@ -238,19 +231,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = record.type;
             target = 'channel';
             papara = undefined;
-            if(!(target === status)) { _fun00002_ip = 629; continue _fun00001 }
- 626:
+            if(!(target === status)) { _fun00002_ip = 634; continue _fun00001 }
+ 631:
             papara = record;
- 629:
+ 634:
             vacuum['context'] = papara;
             status = zuuluu.initialRouteName;
-            papara = _closure1_slot7;
+            papara = _closure1_slot6;
             target = papara.COMMAND_VIEW;
             papara = sequen;
-            if(!(status !== target)) { _fun00002_ip = 658; continue _fun00001 }
- 656:
+            if(!(status !== target)) { _fun00002_ip = 663; continue _fun00001 }
+ 661:
             papara = {};
- 658:
+ 663:
             limora = vacuum;
             sierra = papara;
             papara = copyDataProperties(limora, sierra);
@@ -258,11 +251,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['initialParams'] = vacuum;
             update = ctrled.bind(tangon)(source, update);
             echoed[2] = update;
-            ctrled = _closure1_slot9;
-            update = _closure1_slot11;
+            ctrled = _closure1_slot8;
+            update = _closure1_slot10;
             source = update.Screen;
             update = {};
-            config = _closure1_slot7;
+            config = _closure1_slot6;
             vacuum = config.APP_LIST_VIEW;
             update['name'] = vacuum;
             cntext = _closure1_slot1;
@@ -275,10 +268,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum['context'] = record;
             record = zuuluu.initialRouteName;
             config = config.APP_LIST_VIEW;
-            if(!(record !== config)) { _fun00002_ip = 767; continue _fun00001 }
- 765:
+            if(!(record !== config)) { _fun00002_ip = 772; continue _fun00001 }
+ 770:
             sequen = {};
- 767:
+ 772:
             limora = vacuum;
             sierra = sequen;
             sequen = copyDataProperties(limora, sierra);
@@ -293,22 +286,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.bind(tangon)(report, michal);
             michal = 'customId';
             michal = michal in zuuluu;
-            if(michal) { _fun00002_ip = 841; continue _fun00001 }
- 833:
+            if(michal) { _fun00002_ip = 846; continue _fun00001 }
+ 838:
             oscard = 'referrerId';
             michal = oscard in zuuluu;
- 841:
-            offset = null;
-            if(!michal) { _fun00002_ip = 873; continue _fun00001 }
  846:
+            offset = null;
+            if(!michal) { _fun00002_ip = 878; continue _fun00001 }
+ 851:
             michal = {};
             oscard = zuuluu.customId;
             michal['customId'] = oscard;
             zuuluu = zuuluu.referrerId;
             michal['referrerId'] = zuuluu;
             offset = michal;
- 873:
-            zuuluu = _closure1_slot9;
+ 878:
+            zuuluu = _closure1_slot8;
             michal = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 19;

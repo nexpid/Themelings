@@ -1,31 +1,29 @@
 // app/modules/search_v2/SearchFetchPendingManager.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
+    golfie = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = oscard;
+    report = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = report;
     entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
+    option = entity.Object;
+    oscard = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
+    entity = oscard.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = oscard[entity];
+    tangon = report[entity];
     entity = undefined;
-    golfie = option.bind(entity)(tangon);
+    oscard = golfie.bind(entity)(tangon);
     tangon = 1;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
+    tangon = report[tangon];
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot2 = tangon;
     tangon = 2;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.subscribeTextInputValue;
+    tangon = report[tangon];
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = function() { // Original name: SearchFetchPendingManager
         zuuluu = this;
@@ -117,11 +115,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot5 = tangon;
-    tangon = golfie.bind(entity)(tangon);
+    tangon = oscard.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 5;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/search_v2/SearchFetchPendingManager.tsx';
     tangon = report.bind(oscard)(tangon);
@@ -143,7 +142,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         entity = tangon.bind(report)(entity);
         var _closure2_slot0 = entity;
-        tangon = _closure1_slot3;
+        report = _closure1_slot3;
+        tangon = report.subscribeTextInputValue;
         zuuluu = argFoo;
         michal = function(argFoo, argBar) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {

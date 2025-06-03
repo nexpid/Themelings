@@ -1610,6 +1610,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['VOICE_FILTER_FIRST_USE_COACHMARK'] = michal;
     entity = 'VOICE_FILTER_FIRST_USE_COACHMARK';
     tangon[michal] = entity;
+    michal = 547;
+    tangon['CHANNEL_REORDER_MODAL_DISMISS_SETTING'] = michal;
+    entity = 'CHANNEL_REORDER_MODAL_DISMISS_SETTING';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot10 = tangon;
     tangon = {};
-    golfie = 'function TabsGradientNativeTsx2(){const{itemDimensions}=this.__closure;return itemDimensions.get().reduce(function(s,layout){var _layout$width;return s+((_layout$width=layout===null||layout===void 0?void 0:layout.width)!==null&&_layout$width!==void 0?_layout$width:0);},0);}';
+    golfie = 'function TabsGradientNativeTsx2(){const{itemDimensions,state}=this.__closure;const items=itemDimensions.get();const itemWidths=items.reduce(function(s,layout){var _layout$width;return s+((_layout$width=layout===null||layout===void 0?void 0:layout.width)!==null&&_layout$width!==void 0?_layout$width:0);},0);const itemsSpacing=items.length*state.itemSpacing;return itemWidths+itemsSpacing;}';
     tangon['code'] = golfie;
     var _closure1_slot11 = tangon;
     tangon = {};
@@ -136,16 +136,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 'design/components/Tabs/native/TabsGradient.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: TabsGradient
-        zuuluu = argFoo;
-        michal = zuuluu.state;
-        oscard = zuuluu.colors;
-        var _closure2_slot0 = oscard;
-        romeon = michal.scrollOffset;
-        var _closure2_slot1 = romeon;
-        backup = michal.itemDimensions;
-        var _closure2_slot2 = backup;
-        offset = michal.pageWidth;
-        var _closure2_slot3 = offset;
+        michal = argFoo;
+        backup = michal.state;
+        var _closure2_slot0 = backup;
+        oscard = michal.colors;
+        var _closure2_slot1 = oscard;
+        romeon = backup.scrollOffset;
+        var _closure2_slot2 = romeon;
+        kiloes = backup.itemDimensions;
+        var _closure2_slot3 = kiloes;
+        offset = backup.pageWidth;
+        var _closure2_slot4 = offset;
         report = _closure1_slot0;
         golfie = _closure1_slot1;
         michal = 3;
@@ -154,11 +155,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = report.bind(tangon)(zuuluu);
         option = verify.useDerivedValue;
         zuuluu = function() { // Original name: f
-            michal = _closure2_slot2;
-            entity = michal.get;
-            tangon = entity.bind(michal)();
-            zuuluu = tangon.reduce;
-            michal = function(argFoo, argBar) {
+            zuuluu = _closure2_slot3;
+            michal = zuuluu.get;
+            zuuluu = michal.bind(zuuluu)();
+            report = zuuluu.reduce;
+            tangon = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zuuluu = argBar;
@@ -180,37 +181,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity = 0;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            michal = 0;
+            michal = report.bind(zuuluu)(tangon, michal);
+            zuuluu = zuuluu.length;
+            entity = _closure2_slot0;
+            entity = entity.itemSpacing;
+            entity = zuuluu * entity;
+            entity = michal + entity;
             return entity;
         };
         yankee = {};
-        yankee['itemDimensions'] = backup;
+        yankee['itemDimensions'] = kiloes;
+        yankee['state'] = backup;
         zuuluu['__closure'] = yankee;
-        yankee = 6225463218151.0;
+        yankee = 456613763143.0;
         zuuluu['__workletHash'] = yankee;
         yankee = _closure1_slot11;
         zuuluu['__initData'] = yankee;
         yankee = option.bind(verify)(zuuluu);
-        var _closure2_slot4 = yankee;
+        var _closure2_slot5 = yankee;
         zuuluu = _closure1_slot14;
         option = golfie[michal];
         backup = report.bind(tangon)(option);
         verify = backup.useDerivedValue;
-        option = function() { // Original name: w
+        option = function() { // Original name: y
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                zuuluu = _closure2_slot1;
+                zuuluu = _closure2_slot2;
                 entity = zuuluu.get;
                 zuuluu = entity.bind(zuuluu)();
                 entity = 0;
                 entity = zuuluu > entity;
                 if(!entity) { _fun00006_ip = 46; continue _fun00005 }
  25:
-                tangon = _closure2_slot4;
+                tangon = _closure2_slot5;
                 zuuluu = tangon.get;
                 zuuluu = zuuluu.bind(tangon)();
-                michal = _closure2_slot3;
+                michal = _closure2_slot4;
                 entity = zuuluu > michal;
  46:
                 return entity;
@@ -230,24 +237,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = golfie[michal];
         golfie = report.bind(tangon)(michal);
         report = golfie.useDerivedValue;
-        michal = function() { // Original name: G
+        michal = function() { // Original name: W
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                zuuluu = _closure2_slot1;
+                zuuluu = _closure2_slot2;
                 entity = zuuluu.get;
                 zuuluu = entity.bind(zuuluu)();
-                tangon = _closure2_slot4;
+                tangon = _closure2_slot5;
                 entity = tangon.get;
                 tangon = entity.bind(tangon)();
-                entity = _closure2_slot3;
+                entity = _closure2_slot4;
                 entity = tangon - entity;
                 entity = zuuluu < entity;
                 if(!entity) { _fun00008_ip = 65; continue _fun00007 }
  44:
-                tangon = _closure2_slot4;
+                tangon = _closure2_slot5;
                 zuuluu = tangon.get;
                 zuuluu = zuuluu.bind(tangon)();
-                michal = _closure2_slot3;
+                michal = _closure2_slot4;
                 entity = zuuluu > michal;
  65:
                 return entity;
@@ -271,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = new Array(1);
         michal[0] = oscard;
         entity = function() {
-            report = _closure2_slot0;
+            report = _closure2_slot1;
             michal = new Array(0);
             tangon = 0;
             oscard = michal;

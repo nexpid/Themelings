@@ -370,32 +370,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
-                    michal = entity.path;
-                    entity = null;
-                    if(!(entity == michal)) { _fun00012_ip = 49; continue _fun00011 }
- 15:
-                    if(!(entity == michal)) { _fun00012_ip = 104; continue _fun00011 }
- 19:
-                    entity = global;
-                    zuuluu = entity.clearTimeout;
-                    entity = _closure3_slot0;
-                    michal = entity.timer;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
-                    _fun00012_ip = 104; continue _fun00011;
- 49:
-                    entity = global;
-                    tangon = entity.clearTimeout;
+                    zuuluu = entity.path;
                     michal = _closure3_slot0;
-                    zuuluu = michal.timer;
-                    report = undefined;
-                    zuuluu = tangon.bind(report)(zuuluu);
-                    tangon = entity.setTimeout;
-                    zuuluu = michal.flushRoute;
+                    tangon = michal.timer;
+                    michal = -1;
+                    if(!(michal !== tangon)) { _fun00012_ip = 57; continue _fun00011 }
+ 32:
+                    michal = global;
+                    report = michal.clearTimeout;
+                    michal = _closure3_slot0;
+                    tangon = michal.timer;
+                    michal = undefined;
+                    michal = report.bind(michal)(tangon);
+ 57:
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00012_ip = 98; continue _fun00011 }
+ 63:
+                    michal = _closure3_slot0;
+                    entity = global;
+                    report = entity.setTimeout;
+                    tangon = michal.flushRoute;
+                    zuuluu = undefined;
                     entity = 200;
-                    entity = tangon.bind(report)(zuuluu, entity);
+                    entity = report.bind(zuuluu)(tangon, entity);
                     michal['timer'] = entity;
- 104:
+ 98:
                     entity = undefined;
                     return entity;
                 }

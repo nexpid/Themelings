@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 24;
             entity = zuuluu[entity];
             michal = michal.bind(tangon)(entity);
-            entity = michal.useMemoizedProcessedGradientRoleColors;
+            entity = michal.useProcessColorStringsArray;
             romeon = entity.bind(michal)(backup);
             foxtra = !golfie;
             if(!foxtra) { _fun00008_ip = 139; continue _fun00007 }

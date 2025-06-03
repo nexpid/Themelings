@@ -8,8 +8,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argFoo;
             zuuluu = michal.type;
             entity = 'contextless';
-            if(!(entity !== zuuluu)) { _fun00002_ip = 60; continue _fun00001 }
- 16:
+            if(!(entity !== zuuluu)) { _fun00002_ip = 62; continue _fun00001 }
+ 18:
             entity = {};
             zuuluu = michal.channel;
             entity['channel'] = zuuluu;
@@ -19,14 +19,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.guild_id;
             michal = zuuluu.bind(tangon)(michal);
             entity['guild'] = michal;
-            _fun00002_ip = 75; continue _fun00001;
- 60:
+            _fun00002_ip = 77; continue _fun00001;
+ 62:
             michal = {};
             zuuluu = undefined;
             michal['channel'] = zuuluu;
             michal['guild'] = zuuluu;
             entity = michal;
- 75:
+ 77:
             return entity;
         }
     };

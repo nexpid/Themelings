@@ -1,30 +1,29 @@
 // app/modules/search_v2/native/components/layout/autocomplete/useSearchSuggestionsGesture.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
+    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
     entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
+    verify = entity.Object;
+    option = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    golfie = oscard[entity];
+    option = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
+    tangon = tangon.bind(entity)(option);
     var _closure1_slot3 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.subscribeTextInputValue;
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = {};
     golfie = 'function inBoundingBox_useSearchSuggestionsGestureTsx1(e,coordinates,safeAreaTop){const touch=e.allTouches[0];if(touch==null)return false;return coordinates.left<touch.absoluteX&&touch.absoluteX<coordinates.right&&coordinates.top<touch.absoluteY+safeAreaTop&&touch.absoluteY+safeAreaTop<coordinates.bottom;}';
@@ -142,10 +141,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[2] = zuuluu;
             zuuluu = function() {
                 tangon = _closure1_slot4;
-                zuuluu = _closure2_slot0;
-                michal = _closure2_slot3;
-                entity = undefined;
-                entity = tangon.bind(entity)(zuuluu, michal);
+                zuuluu = tangon.subscribeTextInputValue;
+                michal = _closure2_slot0;
+                entity = _closure2_slot3;
+                entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
             zuuluu = offset.bind(yankee)(zuuluu, report);

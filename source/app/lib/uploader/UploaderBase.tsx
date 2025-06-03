@@ -500,7 +500,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = this;
                 zuuluu = michal._cancel;
                 entity = null;
-                if(!(entity == zuuluu)) { _fun00016_ip = 103; continue _fun00015 }
+                if(!(entity == zuuluu)) { _fun00016_ip = 98; continue _fun00015 }
  15:
                 entity = global;
                 zuuluu = entity.Date;
@@ -513,14 +513,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.id;
                 entity['id'] = zuuluu;
                 zuuluu = argFoo;
-                zuuluu = zuuluu.name;
                 entity['name'] = zuuluu;
                 zuuluu = argBar;
                 entity['items'] = zuuluu;
                 michal['_file'] = entity;
                 entity = undefined;
                 return entity;
- 103:
+ 98:
                 entity = global;
                 zuuluu = entity.Error;
                 entity = zuuluu.prototype;

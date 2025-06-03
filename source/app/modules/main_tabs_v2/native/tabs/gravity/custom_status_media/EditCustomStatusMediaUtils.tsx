@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/tabs/gravity/custom_status_media/EditCustomStatusMediaUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
+    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00002_ip = 247; continue _fun00001 }
  234:
-            verify = _closure1_slot5;
+            verify = _closure1_slot6;
             golfie = verify.bind(option)(zuuluu, option);
  247:
             _fun00002_ip = 265; continue _fun00001;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00002_ip = 283; continue _fun00001;
  270:
-            golfie = _closure1_slot5;
+            golfie = _closure1_slot6;
             oscard = golfie.bind(option)(zuuluu, option);
  283:
             tangon = oscard;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot4 = entity;
+    var _closure1_slot5 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -182,143 +182,187 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = entity;
+    var _closure1_slot6 = entity;
+    entity = function() { // Original name: _handleUploadingMedia
+        report = undefined;
+        entity = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar, argBaz) {
+            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                    StartGenerator();
+                    yankee = argBar;
+                    option = argBaz;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00008_ip = 419; continue _fun00007 }
+ 16:
+                    oscard = new Array(0);
+                    zuuluu = _closure1_slot5;
+                    tangon = undefined;
+                    michal = argFoo;
+                    offset = zuuluu.bind(tangon)(michal);
+                    zuuluu = offset.bind(tangon)();
+                    michal = zuuluu.done;
+                    verify = 2;
+                    golfie = 3;
+                    if(michal) { _fun00008_ip = 168; continue _fun00007 }
+ 55:
+                    michal = zuuluu.value;
+                    kiloes = michal.item;
+                    backup = _closure1_slot0;
+                    foxtra = _closure1_slot2;
+                    romeon = foxtra[verify];
+                    romeon = backup.bind(tangon)(romeon);
+                    romeon = romeon.UploadTargets;
+                    romeon = romeon.GRAVITY_ATTACHMENT;
+                    kiloes['target'] = romeon;
+                    romeon = oscard.push;
+                    foxtra = foxtra[golfie];
+                    foxtra = backup.bind(tangon)(foxtra);
+                    backup = foxtra.CloudUpload;
+                    output = michal.item;
+                    foxtra = backup.prototype;
+                    foxtra = Object.create(foxtra, {constructor: {value: backup}});
+                    result = foxtra;
+                    sizing = yankee;
+                    michal = new result[backup](output, sizing, kiloes);
+                    michal = michal instanceof Object ? michal : foxtra;
+                    michal = romeon.bind(oscard)(michal);
+                    romeon = offset.bind(tangon)();
+                    michal = romeon.done;
+                    zuuluu = romeon;
+                    if(!michal) { _fun00008_ip = 55; continue _fun00007 }
+ 168:
+                    zuuluu = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    michal = 4;
+                    michal = golfie[michal];
+                    golfie = zuuluu.bind(tangon)(michal);
+                    michal = golfie.prototype;
+                    zuuluu = Object.create(michal, {constructor: {value: golfie}});
+                    michal = 'unused';
+                    result = zuuluu;
+                    output = michal;
+                    sizing = michal;
+                    michal = new result[golfie](output, sizing, kiloes);
+                    zuuluu = michal instanceof Object ? michal : zuuluu;
+                    michal = zuuluu.uploadFilesSimple;
+                    michal = michal.bind(zuuluu)(oscard);
+                    SaveGenerator(address=235);
+ 233:
+                    return michal;
+ 235:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00008_ip = 416; continue _fun00007 }
+ 244:
+                    oscard = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 5;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = oscard.bind(tangon)(zuuluu);
+                    golfie = zuuluu.HTTP;
+                    oscard = golfie.post;
+                    zuuluu = {};
+                    verify = _closure1_slot4;
+                    verify = verify.GRAVITY_ATTACHMENTS_UPLOAD;
+                    zuuluu['url'] = verify;
+                    verify = {};
+                    yankee = michal.map;
+                    offset = function(argFoo, argBar) {
+                        zuuluu = _closure1_slot0;
+                        michal = _closure1_slot2;
+                        entity = 6;
+                        michal = michal[entity];
+                        entity = undefined;
+                        tangon = zuuluu.bind(entity)(michal);
+                        zuuluu = tangon.getAttachmentPayload;
+                        michal = argFoo;
+                        entity = argBar;
+                        entity = zuuluu.bind(tangon)(michal, entity);
+                        return entity;
+                    };
+                    offset = yankee.bind(michal)(offset);
+                    verify['attachments'] = offset;
+                    verify['created_at_ms'] = option;
+                    zuuluu['body'] = verify;
+                    verify = false;
+                    zuuluu['rejectWithError'] = verify;
+                    zuuluu = oscard.bind(golfie)(zuuluu);
+                    SaveGenerator(address=341);
+ 339:
+                    return zuuluu;
+ 341:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(oscard) { _fun00008_ip = 413; continue _fun00007 }
+ 347:
+                    oscard = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    report = 7;
+                    report = golfie[report];
+                    golfie = oscard.bind(tangon)(report);
+                    oscard = golfie.dispatch;
+                    report = {};
+                    verify = 'LOAD_GRAVITY_CURRENT_STATUS_MEDIA';
+                    report['type'] = verify;
+                    verify = zuuluu.body;
+                    verify = verify.attachments;
+                    report['attachments'] = verify;
+                    report['createdAtMs'] = option;
+                    report = oscard.bind(golfie)(report);
+                    return tangon;
+ 413:
+                    return zuuluu;
+ 416:
+                    return michal;
+ 419:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot7 = entity;
     entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
+    verify = entity.Object;
+    option = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.Endpoints;
-    var _closure1_slot3 = tangon;
-    tangon = 5;
+    var _closure1_slot4 = tangon;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/main_tabs_v2/native/tabs/gravity/custom_status_media/EditCustomStatusMediaUtils.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar, argBaz) { // Original name: handleUploadingMedia
-        michal = argFoo;
-        var _closure2_slot0 = michal;
-        michal = argBar;
-        var _closure2_slot1 = michal;
-        michal = argBaz;
-        var _closure2_slot2 = michal;
-        michal = global;
-        zuuluu = michal.Promise;
-        michal = zuuluu.prototype;
-        michal = Object.create(michal, {constructor: {value: zuuluu}});
-        tangon = function(argFoo, argBar) {
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-                entity = argFoo;
-                var _closure3_slot0 = entity;
-                entity = argBar;
-                var _closure3_slot1 = entity;
-                oscard = new Array(0);
-                report = _closure1_slot4;
-                tangon = _closure2_slot0;
-                entity = undefined;
-                offset = report.bind(entity)(tangon);
-                report = offset.bind(entity)();
-                tangon = report.done;
-                verify = 1;
-                option = 2;
-                if(tangon) { _fun00008_ip = 173; continue _fun00007 }
- 59:
-                tangon = report.value;
-                backup = tangon.item;
-                foxtra = _closure1_slot0;
-                romeon = _closure1_slot2;
-                yankee = romeon[verify];
-                yankee = foxtra.bind(entity)(yankee);
-                yankee = yankee.UploadTargets;
-                yankee = yankee.GRAVITY_ATTACHMENT;
-                backup['target'] = yankee;
-                yankee = oscard.push;
-                romeon = romeon[option];
-                romeon = foxtra.bind(entity)(romeon);
-                backup = romeon.CloudUpload;
-                sizing = tangon.item;
-                kiloes = _closure2_slot1;
-                romeon = backup.prototype;
-                romeon = Object.create(romeon, {constructor: {value: backup}});
-                output = romeon;
-                tangon = new output[backup](sizing, kiloes, backup);
-                tangon = tangon instanceof Object ? tangon : romeon;
-                tangon = yankee.bind(oscard)(tangon);
-                yankee = offset.bind(entity)();
-                tangon = yankee.done;
-                report = yankee;
-                if(!tangon) { _fun00008_ip = 59; continue _fun00007 }
- 173:
-                report = _closure1_slot0;
-                option = _closure1_slot2;
-                tangon = 3;
-                tangon = option[tangon];
-                option = report.bind(entity)(tangon);
-                report = option.createCloudUploader;
-                zuuluu = _closure1_slot3;
-                tangon = zuuluu.GRAVITY_ATTACHMENTS_UPLOAD;
-                zuuluu = 'POST';
-                report = report.bind(option)(tangon, zuuluu);
-                tangon = report.uploadFiles;
-                zuuluu = {};
-                golfie = _closure2_slot2;
-                zuuluu['created_at_ms'] = golfie;
-                report = tangon.bind(report)(oscard, zuuluu);
-                tangon = report.then;
-                zuuluu = function(argFoo) {
-                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
- 0:
-                        tangon = argFoo;
-                        entity = null;
-                        if(!(entity != tangon)) { _fun00010_ip = 79; continue _fun00009 }
- 9:
-                        zuuluu = _closure1_slot1;
-                        michal = _closure1_slot2;
-                        entity = 4;
-                        michal = michal[entity];
-                        entity = undefined;
-                        zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.dispatch;
-                        entity = {};
-                        report = 'LOAD_GRAVITY_CURRENT_STATUS_MEDIA';
-                        entity['type'] = report;
-                        tangon = tangon.attachments;
-                        entity['attachments'] = tangon;
-                        tangon = _closure2_slot2;
-                        entity['createdAtMs'] = tangon;
-                        entity = michal.bind(zuuluu)(entity);
- 79:
-                        michal = _closure3_slot0;
-                        entity = undefined;
-                        michal = michal.bind(entity)();
-                        return entity;
-                    }
-                };
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.catch;
-                michal = function(argFoo) {
-                    zuuluu = _closure3_slot1;
-                    michal = undefined;
-                    entity = argFoo;
-                    entity = zuuluu.bind(michal)(entity);
-                    return entity;
-                };
-                michal = zuuluu.bind(tangon)(michal);
-                return entity;
-            }
-        };
-        report = michal;
-        entity = new report[zuuluu](tangon, zuuluu);
-        entity = entity instanceof Object ? entity : michal;
+    michal = function() { // Original name: handleUploadingMedia
+        entity = undefined;
+        tangon = _closure1_slot7;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
     zuuluu['handleUploadingMedia'] = michal;

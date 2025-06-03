@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         michal = function(argFoo) {
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
-            entity = 3;
+            entity = 5;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     offset = function() { // Original name: getTitle
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 5;
+        entity = 6;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -95,7 +95,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = function() { // Original name: additionalSearchTerms
         oscard = _closure1_slot0;
         golfie = _closure1_slot1;
-        michal = 5;
+        michal = 6;
         entity = golfie[michal];
         report = undefined;
         entity = oscard.bind(report)(entity);
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     report['additionalSearchTerms'] = oscard;
-    oscard = 6;
+    oscard = 7;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;

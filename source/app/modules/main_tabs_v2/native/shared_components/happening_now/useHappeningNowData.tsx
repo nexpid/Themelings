@@ -2867,18 +2867,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = function() {
                     _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
  0:
+                        michal = _closure3_slot4;
+                        zuuluu = michal.current;
+                        michal = -1;
+                        if(!(michal !== zuuluu)) { _fun00054_ip = 46; continue _fun00053 }
+ 22:
                         michal = global;
-                        report = michal.clearTimeout;
-                        entity = _closure3_slot4;
-                        tangon = entity.current;
-                        entity = undefined;
-                        tangon = report.bind(entity)(tangon);
-                        tangon = _closure3_slot2;
-                        if(!tangon) { _fun00054_ip = 71; continue _fun00053 }
- 34:
-                        zuuluu = _closure3_slot4;
-                        report = michal.setTimeout;
-                        tangon = function() {
+                        tangon = michal.clearTimeout;
+                        michal = _closure3_slot4;
+                        zuuluu = michal.current;
+                        michal = undefined;
+                        michal = tangon.bind(michal)(zuuluu);
+ 46:
+                        michal = _closure3_slot2;
+                        if(!michal) { _fun00054_ip = 94; continue _fun00053 }
+ 53:
+                        michal = _closure3_slot4;
+                        entity = global;
+                        report = entity.setTimeout;
+                        tangon = undefined;
+                        zuuluu = function() {
                             _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
                                 michal = _closure1_slot27;
@@ -2926,10 +2934,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return entity;
                             }
                         };
-                        michal = 1000;
-                        michal = report.bind(entity)(tangon, michal);
-                        zuuluu['current'] = michal;
- 71:
+                        entity = 1000;
+                        entity = report.bind(tangon)(zuuluu, entity);
+                        michal['current'] = entity;
+ 94:
+                        entity = undefined;
                         return entity;
                     }
                 };
@@ -2951,24 +2960,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal = zuuluu.bind(tangon)(michal);
                     entity = function() {
-                        entity = global;
-                        zuuluu = entity.clearTimeout;
-                        entity = _closure3_slot4;
-                        michal = entity.current;
-                        entity = undefined;
-                        michal = zuuluu.bind(entity)(michal);
-                        tangon = _closure1_slot35;
-                        zuuluu = tangon.forEach;
-                        michal = function(argFoo) {
-                            zuuluu = argFoo;
-                            michal = zuuluu.removeChangeListener;
-                            entity = _closure3_slot6;
+                        _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
+ 0:
+                            michal = _closure3_slot4;
+                            zuuluu = michal.current;
+                            michal = -1;
+                            if(!(michal !== zuuluu)) { _fun00058_ip = 46; continue _fun00057 }
+ 22:
+                            michal = global;
+                            zuuluu = michal.clearTimeout;
+                            entity = _closure3_slot4;
+                            michal = entity.current;
+                            entity = undefined;
+                            entity = zuuluu.bind(entity)(michal);
+ 46:
+                            zuuluu = _closure1_slot35;
+                            michal = zuuluu.forEach;
+                            entity = function(argFoo) {
+                                zuuluu = argFoo;
+                                michal = zuuluu.removeChangeListener;
+                                entity = _closure3_slot6;
+                                entity = michal.bind(zuuluu)(entity);
+                                entity = undefined;
+                                return entity;
+                            };
                             entity = michal.bind(zuuluu)(entity);
                             entity = undefined;
                             return entity;
-                        };
-                        michal = zuuluu.bind(tangon)(michal);
-                        return entity;
+                        }
                     };
                     return entity;
                 };

@@ -1,11 +1,11 @@
 // app/modules/search_v2/native/components/tabs/pages/PinsScreen.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    option = argBaz;
+    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
+    var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: InitialPinsScreen
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -15,14 +15,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = report;
             romeon = entity.isFocused;
             var _closure2_slot1 = romeon;
-            entity = _closure1_slot6;
-            tangon = undefined;
-            entity = entity.bind(tangon)(report);
+            zuuluu = _closure1_slot6;
+            michal = zuuluu.useState;
+            entity = function(argFoo) {
+                michal = argFoo;
+                entity = michal.isInitialSearchQuery;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            entity = michal.bind(zuuluu)(report, entity);
             var _closure2_slot2 = entity;
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            oscard = 6;
-            oscard = zuuluu[oscard];
+            tangon = 6;
+            oscard = zuuluu[tangon];
+            tangon = undefined;
             option = michal.bind(tangon)(oscard);
             golfie = option.useIsSearchImprovedLoadingStatesExperimentEnabled;
             oscard = {};
@@ -232,8 +239,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot14;
             entity = {};
             oscard = !foxtra;
-            if(!oscard) { _fun00002_ip = 460; continue _fun00001 }
- 408:
+            if(!oscard) { _fun00002_ip = 473; continue _fun00001 }
+ 421:
             option = _closure1_slot13;
             golfie = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -246,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['tab'] = kiloes;
             report['visible'] = backup;
             oscard = option.bind(tangon)(golfie, report);
- 460:
+ 473:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot13;
@@ -256,10 +263,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = kiloes[oscard];
             golfie = golfie.bind(tangon)(oscard);
             oscard = {};
-            if(foxtra) { _fun00002_ip = 500; continue _fun00001 }
- 497:
+            if(foxtra) { _fun00002_ip = 513; continue _fun00001 }
+ 510:
             foxtra = !backup;
- 500:
+ 513:
             oscard['visible'] = foxtra;
             romeon = romeon.messagesContentContainer;
             oscard['contentContainerStyle'] = romeon;
@@ -339,30 +346,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot17 = entity;
     entity = global;
     verify = entity.Object;
-    golfie = verify.defineProperty;
+    option = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    golfie = oscard[entity];
+    option = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
+    tangon = tangon.bind(entity)(option);
     var _closure1_slot3 = tangon;
     tangon = 1;
-    golfie = oscard[tangon];
-    golfie = option.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
+    option = oscard[tangon];
+    option = golfie.bind(entity)(option);
+    var _closure1_slot4 = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.FetchState;
     var _closure1_slot5 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.useIsInitialSearchQuery;
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
@@ -401,45 +407,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            option = entity.searchContext;
-            golfie = entity.tab;
-            oscard = entity.isFocused;
-            entity = _closure1_slot6;
-            report = undefined;
-            entity = entity.bind(report)(option);
-            if(!entity) { _fun00012_ip = 123; continue _fun00011 }
- 38:
-            zuuluu = option.type;
+            golfie = entity.searchContext;
+            oscard = entity.tab;
+            michal = entity.isFocused;
+            report = _closure1_slot6;
+            tangon = report.useState;
+            entity = function(argFoo) {
+                michal = argFoo;
+                entity = michal.isInitialSearchQuery;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            entity = tangon.bind(report)(golfie, entity);
+            if(!entity) { _fun00012_ip = 138; continue _fun00011 }
+ 51:
+            tangon = golfie.type;
             entity = _closure1_slot12;
             entity = entity.CHANNEL;
-            if(!(zuuluu !== entity)) { _fun00012_ip = 95; continue _fun00011 }
- 57:
-            zuuluu = option.type;
+            if(!(tangon !== entity)) { _fun00012_ip = 108; continue _fun00011 }
+ 70:
+            tangon = golfie.type;
             entity = _closure1_slot12;
             entity = entity.GUILD_CHANNEL;
-            if(!(zuuluu !== entity)) { _fun00012_ip = 95; continue _fun00011 }
- 76:
-            zuuluu = option.type;
+            if(!(tangon !== entity)) { _fun00012_ip = 108; continue _fun00011 }
+ 89:
+            tangon = golfie.type;
             entity = _closure1_slot12;
             entity = entity.THREAD;
-            if(!(zuuluu === entity)) { _fun00012_ip = 123; continue _fun00011 }
- 95:
-            tangon = _closure1_slot13;
-            zuuluu = _closure1_slot16;
-            entity = {};
-            entity['searchContext'] = option;
-            entity['isFocused'] = oscard;
-            entity = tangon.bind(report)(zuuluu, entity);
-            _fun00012_ip = 154; continue _fun00011;
- 123:
-            tangon = _closure1_slot13;
-            zuuluu = _closure1_slot17;
-            michal = {};
-            michal['searchContext'] = option;
-            michal['tab'] = golfie;
-            michal['isFocused'] = oscard;
-            entity = tangon.bind(report)(zuuluu, michal);
- 154:
+            if(!(tangon === entity)) { _fun00012_ip = 138; continue _fun00011 }
+ 108:
+            option = _closure1_slot13;
+            report = _closure1_slot16;
+            tangon = {};
+            tangon['searchContext'] = golfie;
+            tangon['isFocused'] = michal;
+            entity = undefined;
+            entity = option.bind(entity)(report, tangon);
+            _fun00012_ip = 171; continue _fun00011;
+ 138:
+            report = _closure1_slot13;
+            tangon = _closure1_slot17;
+            zuuluu = {};
+            zuuluu['searchContext'] = golfie;
+            zuuluu['tab'] = oscard;
+            zuuluu['isFocused'] = michal;
+            michal = undefined;
+            entity = report.bind(michal)(tangon, zuuluu);
+ 171:
             return entity;
         }
     };

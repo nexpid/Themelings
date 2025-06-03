@@ -1,13 +1,13 @@
 // app/modules/dismissible_content/DismissibleContentUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
-    verify = argBaz;
+    option = argBar;
+    offset = argBaz;
     zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = verify;
-    var _closure1_slot2 = option;
-    report = function(argFoo) { // Original name: isDismissibleContentDismissed
+    verify = argPlu;
+    var _closure1_slot0 = option;
+    var _closure1_slot1 = offset;
+    var _closure1_slot2 = verify;
+    oscard = function(argFoo) { // Original name: isDismissibleContentDismissed
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             report = argFoo;
@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = report;
+    var _closure1_slot14 = oscard;
     entity = function(argFoo) { // Original name: markDismissibleContentAsDismissedPreProcessing
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  35:
             if(!zuuluu) { _fun00004_ip = 48; continue _fun00003 }
  38:
-            zuuluu = _closure1_slot21;
+            zuuluu = _closure1_slot23;
             zuuluu = zuuluu.bind(entity)(tangon, report);
  48:
             zuuluu = _closure1_slot0;
@@ -192,19 +192,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot17 = entity;
-    entity = function() { // Original name: _markVersionedDismissibleContentAsDismissed
+    entity = function() { // Original name: _markLatestVersionDismissibleContentAsDismissed
         report = undefined;
         entity = undefined;
         tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar) {
-            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
+        zuuluu = function* (argFoo) {
+            entity = function* (argFoo) { // Original name: ?anon_0_
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     StartGenerator();
                     golfie = argFoo;
-                    oscard = arguments[2];
+                    oscard = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 108; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 95; continue _fun00009 }
  13:
                     tangon = undefined;
                     if(!(oscard === tangon)) { _fun00010_ip = 21; continue _fun00009 }
@@ -216,33 +216,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 105; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 92; continue _fun00009 }
  31:
-                    zuuluu = _closure1_slot15;
-                    zuuluu = zuuluu.bind(tangon)(golfie, oscard);
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
-                    zuuluu = 18;
-                    zuuluu = verify[zuuluu];
-                    verify = option.bind(tangon)(zuuluu);
-                    option = verify.addVersionedDismissedContent;
-                    zuuluu = argBar;
-                    zuuluu = option.bind(verify)(golfie, zuuluu);
-                    SaveGenerator(address=83);
- 81:
+                    report = 11;
+                    report = verify[report];
+                    option = option.bind(tangon)(report);
+                    report = option.getVersionedDismissibleContentCurrentVersion;
+                    report = report.bind(option)(golfie);
+                    zuuluu = _closure1_slot19;
+                    zuuluu = zuuluu.bind(tangon)(golfie, report, oscard);
+                    SaveGenerator(address=80);
+ 78:
                     return zuuluu;
- 83:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00010_ip = 102; continue _fun00009 }
- 89:
-                    report = _closure1_slot16;
-                    report = report.bind(tangon)(golfie, oscard);
+ 80:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
+                    if(report) { _fun00010_ip = 89; continue _fun00009 }
+ 86:
                     return tangon;
- 102:
+ 89:
                     return zuuluu;
- 105:
+ 92:
                     return michal;
- 108:
+ 95:
                     return entity;
                 }
             };
@@ -260,51 +257,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot18 = entity;
-    entity = function() { // Original name: _markSnowflakeBoundDismissibleContentAsDismissed
-        report = undefined;
+    report = function() { // Original name: markVersionedDismissibleContentAsDismissed
         entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo, argBar, argBaz) {
-            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
- 0:
-                    StartGenerator();
-                    oscard = argFoo;
-                    report = argBaz;
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 89; continue _fun00011 }
- 13:
-                    michal = _closure1_slot15;
-                    zuuluu = undefined;
-                    michal = michal.bind(zuuluu)(oscard, report);
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
-                    michal = 18;
-                    michal = option[michal];
-                    option = golfie.bind(zuuluu)(michal);
-                    golfie = option.addSnowflakeBoundDismissedContent;
-                    michal = argBar;
-                    michal = golfie.bind(option)(oscard, michal);
-                    SaveGenerator(address=67);
- 65:
-                    return michal;
- 67:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00012_ip = 86; continue _fun00011 }
- 73:
-                    tangon = _closure1_slot16;
-                    tangon = tangon.bind(zuuluu)(oscard, report);
-                    return zuuluu;
- 86:
-                    return michal;
- 89:
-                    return entity;
-                }
-            };
-            return entity;
-        };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot19 = tangon;
+        tangon = _closure1_slot20;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -312,23 +267,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot19 = entity;
-    entity = function() { // Original name: _markTimeRecurringDismissibleContentAsDismissed
+    var _closure1_slot19 = report;
+    entity = function() { // Original name: _markVersionedDismissibleContentAsDismissed
         report = undefined;
         entity = undefined;
         tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        zuuluu = function* (argFoo, argBar) {
+            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     StartGenerator();
                     golfie = argFoo;
-                    oscard = arguments[1];
+                    oscard = arguments[2];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00014_ip = 104; continue _fun00013 }
+                    if(michal) { _fun00012_ip = 108; continue _fun00011 }
  13:
                     tangon = undefined;
-                    if(!(oscard === tangon)) { _fun00014_ip = 21; continue _fun00013 }
+                    if(!(oscard === tangon)) { _fun00012_ip = 21; continue _fun00011 }
  19:
                     oscard = {};
  21:
@@ -337,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  25:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00014_ip = 101; continue _fun00013 }
+                    if(zuuluu) { _fun00012_ip = 105; continue _fun00011 }
  31:
                     zuuluu = _closure1_slot15;
                     zuuluu = zuuluu.bind(tangon)(golfie, oscard);
@@ -345,24 +300,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = _closure1_slot2;
                     zuuluu = 18;
                     zuuluu = verify[zuuluu];
-                    option = option.bind(tangon)(zuuluu);
-                    zuuluu = option.addTimeRecurringDismissedContent;
-                    zuuluu = zuuluu.bind(option)(golfie);
-                    SaveGenerator(address=79);
- 77:
+                    verify = option.bind(tangon)(zuuluu);
+                    option = verify.addVersionedDismissedContent;
+                    zuuluu = argBar;
+                    zuuluu = option.bind(verify)(golfie, zuuluu);
+                    SaveGenerator(address=83);
+ 81:
                     return zuuluu;
- 79:
+ 83:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00014_ip = 98; continue _fun00013 }
- 85:
+                    if(option) { _fun00012_ip = 102; continue _fun00011 }
+ 89:
                     report = _closure1_slot16;
                     report = report.bind(tangon)(golfie, oscard);
                     return tangon;
- 98:
+ 102:
                     return zuuluu;
- 101:
+ 105:
                     return michal;
- 104:
+ 108:
                     return entity;
                 }
             };
@@ -380,8 +336,128 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot20 = entity;
+    entity = function() { // Original name: _markSnowflakeBoundDismissibleContentAsDismissed
+        report = undefined;
+        entity = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar, argBaz) {
+            entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
+                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+                    StartGenerator();
+                    oscard = argFoo;
+                    report = argBaz;
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00014_ip = 89; continue _fun00013 }
+ 13:
+                    michal = _closure1_slot15;
+                    zuuluu = undefined;
+                    michal = michal.bind(zuuluu)(oscard, report);
+                    golfie = _closure1_slot0;
+                    option = _closure1_slot2;
+                    michal = 18;
+                    michal = option[michal];
+                    option = golfie.bind(zuuluu)(michal);
+                    golfie = option.addSnowflakeBoundDismissedContent;
+                    michal = argBar;
+                    michal = golfie.bind(option)(oscard, michal);
+                    SaveGenerator(address=67);
+ 65:
+                    return michal;
+ 67:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
+                    if(golfie) { _fun00014_ip = 86; continue _fun00013 }
+ 73:
+                    tangon = _closure1_slot16;
+                    tangon = tangon.bind(zuuluu)(oscard, report);
+                    return zuuluu;
+ 86:
+                    return michal;
+ 89:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot21 = tangon;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot21 = entity;
+    entity = function() { // Original name: _markTimeRecurringDismissibleContentAsDismissed
+        report = undefined;
+        entity = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo) {
+            entity = function* (argFoo) { // Original name: ?anon_0_
+                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+ 0:
+                    StartGenerator();
+                    golfie = argFoo;
+                    oscard = arguments[1];
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00016_ip = 104; continue _fun00015 }
+ 13:
+                    tangon = undefined;
+                    if(!(oscard === tangon)) { _fun00016_ip = 21; continue _fun00015 }
+ 19:
+                    oscard = {};
+ 21:
+                    SaveGenerator(address=25);
+ 23:
+                    return tangon;
+ 25:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00016_ip = 101; continue _fun00015 }
+ 31:
+                    zuuluu = _closure1_slot15;
+                    zuuluu = zuuluu.bind(tangon)(golfie, oscard);
+                    option = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    zuuluu = 18;
+                    zuuluu = verify[zuuluu];
+                    option = option.bind(tangon)(zuuluu);
+                    zuuluu = option.addTimeRecurringDismissedContent;
+                    zuuluu = zuuluu.bind(option)(golfie);
+                    SaveGenerator(address=79);
+ 77:
+                    return zuuluu;
+ 79:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
+                    if(option) { _fun00016_ip = 98; continue _fun00015 }
+ 85:
+                    report = _closure1_slot16;
+                    report = report.bind(tangon)(golfie, oscard);
+                    return tangon;
+ 98:
+                    return zuuluu;
+ 101:
+                    return michal;
+ 104:
+                    return entity;
+                }
+            };
+            michal = entity.next;
+            michal = michal.bind(entity)();
+            return entity;
+        };
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot22 = tangon;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot22 = entity;
     michal = function(argFoo, argBar) { // Original name: trackDismissibleContentDismissed
-        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             yankee = argFoo;
             golfie = argBar;
@@ -406,7 +482,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = null;
             michal = oscard == zuuluu;
             option = null;
-            if(michal) { _fun00016_ip = 108; continue _fun00015 }
+            if(michal) { _fun00018_ip = 108; continue _fun00017 }
  94:
             michal = tangon.getTime;
             michal = michal.bind(tangon)();
@@ -430,11 +506,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['type'] = romeon;
             foxtra = oscard == golfie;
             romeon = undefined;
-            if(foxtra) { _fun00016_ip = 190; continue _fun00015 }
+            if(foxtra) { _fun00018_ip = 190; continue _fun00017 }
  184:
             romeon = golfie.dismissAction;
  190:
-            if(!(oscard == romeon)) { _fun00016_ip = 204; continue _fun00015 }
+            if(!(oscard == romeon)) { _fun00018_ip = 204; continue _fun00017 }
  194:
             foxtra = _closure1_slot12;
             romeon = foxtra.UNKNOWN;
@@ -443,7 +519,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['content_count'] = offset;
             romeon = oscard == golfie;
             offset = undefined;
-            if(romeon) { _fun00016_ip = 228; continue _fun00015 }
+            if(romeon) { _fun00018_ip = 228; continue _fun00017 }
  222:
             offset = golfie.groupName;
  228:
@@ -459,7 +535,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['bypass_fatigue'] = verify;
             offset = oscard == golfie;
             verify = undefined;
-            if(offset) { _fun00016_ip = 288; continue _fun00015 }
+            if(offset) { _fun00018_ip = 288; continue _fun00017 }
  283:
             verify = golfie.guildId;
  288:
@@ -467,7 +543,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['shown_duration'] = option;
             option = oscard == golfie;
             oscard = undefined;
-            if(option) { _fun00016_ip = 314; continue _fun00015 }
+            if(option) { _fun00018_ip = 314; continue _fun00017 }
  308:
             oscard = golfie.version;
  314:
@@ -476,66 +552,66 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot21 = michal;
+    var _closure1_slot23 = michal;
     entity = global;
-    yankee = entity.Object;
-    offset = yankee.defineProperty;
-    oscard = {};
+    romeon = entity.Object;
+    yankee = romeon.defineProperty;
+    golfie = {};
     entity = true;
-    oscard['value'] = entity;
+    golfie['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, oscard);
+    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
     entity = 0;
-    oscard = option[entity];
+    golfie = verify[entity];
     entity = undefined;
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot3 = oscard;
-    oscard = 1;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot4 = oscard;
-    oscard = 2;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot5 = oscard;
-    oscard = 3;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.DCFEventTypes;
-    var _closure1_slot6 = oscard;
-    oscard = 4;
-    oscard = option[oscard];
-    oscard = verify.bind(entity)(oscard);
-    var _closure1_slot7 = oscard;
-    oscard = 5;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    verify = oscard.addCandidateContent;
-    var _closure1_slot8 = verify;
-    verify = oscard.removeCandidateContent;
-    var _closure1_slot9 = verify;
-    verify = oscard.isContentShown;
-    var _closure1_slot10 = verify;
-    oscard = oscard.getCurrentlyShownCounts;
-    var _closure1_slot11 = oscard;
-    oscard = 6;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.ContentDismissActionType;
-    var _closure1_slot12 = oscard;
-    oscard = 7;
-    oscard = option[oscard];
-    oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.AnalyticEvents;
-    var _closure1_slot13 = oscard;
-    oscard = 19;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'modules/dismissible_content/DismissibleContentUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['isDismissibleContentDismissed'] = report;
-    report = function(argFoo) { // Original name: useIsDismissibleContentDismissed
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot3 = golfie;
+    golfie = 1;
+    golfie = verify[golfie];
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot4 = golfie;
+    golfie = 2;
+    golfie = verify[golfie];
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot5 = golfie;
+    golfie = 3;
+    golfie = verify[golfie];
+    golfie = option.bind(entity)(golfie);
+    golfie = golfie.DCFEventTypes;
+    var _closure1_slot6 = golfie;
+    golfie = 4;
+    golfie = verify[golfie];
+    golfie = offset.bind(entity)(golfie);
+    var _closure1_slot7 = golfie;
+    golfie = 5;
+    golfie = verify[golfie];
+    golfie = option.bind(entity)(golfie);
+    offset = golfie.addCandidateContent;
+    var _closure1_slot8 = offset;
+    offset = golfie.removeCandidateContent;
+    var _closure1_slot9 = offset;
+    offset = golfie.isContentShown;
+    var _closure1_slot10 = offset;
+    golfie = golfie.getCurrentlyShownCounts;
+    var _closure1_slot11 = golfie;
+    golfie = 6;
+    golfie = verify[golfie];
+    golfie = option.bind(entity)(golfie);
+    golfie = golfie.ContentDismissActionType;
+    var _closure1_slot12 = golfie;
+    golfie = 7;
+    golfie = verify[golfie];
+    golfie = option.bind(entity)(golfie);
+    golfie = golfie.AnalyticEvents;
+    var _closure1_slot13 = golfie;
+    golfie = 19;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'modules/dismissible_content/DismissibleContentUtils.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['isDismissibleContentDismissed'] = oscard;
+    oscard = function(argFoo) { // Original name: useIsDismissibleContentDismissed
         michal = argFoo;
         var _closure2_slot0 = michal;
         report = _closure1_slot0;
@@ -558,9 +634,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zuuluu['useIsDismissibleContentDismissed'] = report;
-    report = function(argFoo, argBar) { // Original name: isVersionedDismissibleContentDismissed
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+    zuuluu['useIsDismissibleContentDismissed'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: isVersionedDismissibleContentDismissed
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             oscard = argFoo;
             tangon = argBar;
@@ -572,7 +648,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(golfie)(michal);
             michal = zuuluu.disableNewUserDismissibleContent;
             michal = michal.bind(zuuluu)(oscard);
-            if(michal) { _fun00018_ip = 157; continue _fun00017 }
+            if(michal) { _fun00020_ip = 157; continue _fun00019 }
  45:
             michal = _closure1_slot5;
             michal = michal.settings;
@@ -580,17 +656,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = null;
             option = zuuluu == report;
             michal = undefined;
-            if(option) { _fun00018_ip = 97; continue _fun00017 }
+            if(option) { _fun00020_ip = 97; continue _fun00019 }
  72:
             report = report.recurringDismissibleContentStates;
             report = report[oscard];
             option = zuuluu == report;
             michal = undefined;
-            if(option) { _fun00018_ip = 97; continue _fun00017 }
+            if(option) { _fun00020_ip = 97; continue _fun00019 }
  91:
             michal = report.lastDismissedVersion;
  97:
-            if(!(zuuluu == tangon)) { _fun00018_ip = 132; continue _fun00017 }
+            if(!(zuuluu == tangon)) { _fun00020_ip = 132; continue _fun00019 }
  101:
             report = _closure1_slot0;
             option = _closure1_slot2;
@@ -602,7 +678,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  132:
             entity = {};
             zuuluu = zuuluu != michal;
-            if(!zuuluu) { _fun00018_ip = 145; continue _fun00017 }
+            if(!zuuluu) { _fun00020_ip = 145; continue _fun00019 }
  141:
             zuuluu = michal >= tangon;
  145:
@@ -614,9 +690,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['isVersionedDismissibleContentDismissed'] = report;
-    report = function(argFoo, argBar) { // Original name: isTimeRecurringDismissibleContentDismissed
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+    zuuluu['isVersionedDismissibleContentDismissed'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: isTimeRecurringDismissibleContentDismissed
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             zuuluu = argFoo;
             option = argBar;
@@ -628,7 +704,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(michal)(tangon);
             tangon = report.disableNewUserDismissibleContent;
             tangon = tangon.bind(report)(zuuluu);
-            if(tangon) { _fun00020_ip = 292; continue _fun00019 }
+            if(tangon) { _fun00022_ip = 292; continue _fun00021 }
  48:
             entity = _closure1_slot5;
             entity = entity.settings;
@@ -636,23 +712,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = null;
             tangon = golfie == entity;
             report = undefined;
-            if(tangon) { _fun00020_ip = 100; continue _fun00019 }
+            if(tangon) { _fun00022_ip = 100; continue _fun00021 }
  75:
             entity = entity.recurringDismissibleContentStates;
             entity = entity[zuuluu];
             zuuluu = golfie == entity;
             report = undefined;
-            if(zuuluu) { _fun00020_ip = 100; continue _fun00019 }
+            if(zuuluu) { _fun00022_ip = 100; continue _fun00021 }
  94:
             report = entity.lastDismissedAtMs;
  100:
             entity = golfie != report;
             zuuluu = undefined;
-            if(!entity) { _fun00020_ip = 170; continue _fun00019 }
+            if(!entity) { _fun00022_ip = 170; continue _fun00021 }
  109:
             entity = '0';
             zuuluu = undefined;
-            if(!(entity !== report)) { _fun00020_ip = 170; continue _fun00019 }
+            if(!(entity !== report)) { _fun00022_ip = 170; continue _fun00021 }
  121:
             tangon = global;
             verify = tangon.Number;
@@ -661,18 +737,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(michal)(report);
             oscard = oscard.bind(verify)(entity);
             entity = undefined;
-            if(oscard) { _fun00020_ip = 167; continue _fun00019 }
+            if(oscard) { _fun00022_ip = 167; continue _fun00021 }
  156:
             tangon = tangon.Number;
             entity = tangon.bind(michal)(report);
  167:
             zuuluu = entity;
  170:
-            if(!(michal !== zuuluu)) { _fun00020_ip = 276; continue _fun00019 }
+            if(!(michal !== zuuluu)) { _fun00022_ip = 276; continue _fun00021 }
  174:
             entity = golfie != option;
             tangon = true;
-            if(!entity) { _fun00020_ip = 262; continue _fun00019 }
+            if(!entity) { _fun00022_ip = 262; continue _fun00021 }
  183:
             entity = option.cooldownDurationMs;
             oscard = zuuluu + entity;
@@ -682,11 +758,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(report)();
             report = option.showAfterTimestamp;
             report = golfie == report;
-            if(report) { _fun00020_ip = 249; continue _fun00019 }
+            if(report) { _fun00022_ip = 249; continue _fun00021 }
  223:
             golfie = option.showAfterTimestamp;
             golfie = entity >= golfie;
-            if(!golfie) { _fun00020_ip = 246; continue _fun00019 }
+            if(!golfie) { _fun00022_ip = 246; continue _fun00021 }
  236:
             option = option.showAfterTimestamp;
             golfie = zuuluu <= option;
@@ -694,7 +770,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = golfie;
  249:
             entity = entity < oscard;
-            if(entity) { _fun00020_ip = 259; continue _fun00019 }
+            if(entity) { _fun00022_ip = 259; continue _fun00021 }
  256:
             entity = !report;
  259:
@@ -715,9 +791,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['isTimeRecurringDismissibleContentDismissed'] = report;
-    report = function(argFoo, argBar) { // Original name: isSnowflakeBoundDismissibleContentDismissed
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+    zuuluu['isTimeRecurringDismissibleContentDismissed'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: isSnowflakeBoundDismissibleContentDismissed
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             report = argFoo;
             michal = _closure1_slot0;
@@ -728,7 +804,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(oscard)(entity);
             entity = michal.disableNewUserDismissibleContent;
             entity = entity.bind(michal)(report);
-            if(entity) { _fun00022_ip = 157; continue _fun00021 }
+            if(entity) { _fun00024_ip = 157; continue _fun00023 }
  42:
             entity = _closure1_slot5;
             entity = entity.settings;
@@ -736,19 +812,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = null;
             golfie = zuuluu == entity;
             michal = undefined;
-            if(golfie) { _fun00022_ip = 94; continue _fun00021 }
+            if(golfie) { _fun00024_ip = 94; continue _fun00023 }
  69:
             entity = entity.recurringDismissibleContentStates;
             entity = entity[report];
             report = zuuluu == entity;
             michal = undefined;
-            if(report) { _fun00022_ip = 94; continue _fun00021 }
+            if(report) { _fun00024_ip = 94; continue _fun00023 }
  88:
             michal = entity.lastDismissedObjectId;
  94:
             entity = {};
             zuuluu = zuuluu != michal;
-            if(!zuuluu) { _fun00022_ip = 145; continue _fun00021 }
+            if(!zuuluu) { _fun00024_ip = 145; continue _fun00023 }
  103:
             report = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -769,9 +845,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['isSnowflakeBoundDismissibleContentDismissed'] = report;
-    report = function(argFoo, argBar, argBaz) { // Original name: isTimeRecurringSnowflakeBoundDismissibleContentDismissed
-        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+    zuuluu['isSnowflakeBoundDismissibleContentDismissed'] = oscard;
+    oscard = function(argFoo, argBar, argBaz) { // Original name: isTimeRecurringSnowflakeBoundDismissibleContentDismissed
+        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             tangon = argFoo;
             offset = argBaz;
@@ -783,7 +859,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(report)(entity);
             entity = michal.disableNewUserDismissibleContent;
             entity = entity.bind(michal)(tangon);
-            if(entity) { _fun00024_ip = 374; continue _fun00023 }
+            if(entity) { _fun00026_ip = 374; continue _fun00025 }
  48:
             entity = _closure1_slot5;
             entity = entity.settings;
@@ -791,13 +867,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = null;
             golfie = michal == entity;
             oscard = undefined;
-            if(golfie) { _fun00024_ip = 100; continue _fun00023 }
+            if(golfie) { _fun00026_ip = 100; continue _fun00025 }
  75:
             entity = entity.recurringDismissibleContentStates;
             entity = entity[tangon];
             golfie = michal == entity;
             oscard = undefined;
-            if(golfie) { _fun00024_ip = 100; continue _fun00023 }
+            if(golfie) { _fun00026_ip = 100; continue _fun00025 }
  94:
             oscard = entity.lastDismissedObjectId;
  100:
@@ -806,23 +882,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.userContent;
             option = michal == entity;
             golfie = undefined;
-            if(option) { _fun00024_ip = 150; continue _fun00023 }
+            if(option) { _fun00026_ip = 150; continue _fun00025 }
  125:
             entity = entity.recurringDismissibleContentStates;
             entity = entity[tangon];
             tangon = michal == entity;
             golfie = undefined;
-            if(tangon) { _fun00024_ip = 150; continue _fun00023 }
+            if(tangon) { _fun00026_ip = 150; continue _fun00025 }
  144:
             golfie = entity.lastDismissedAtMs;
  150:
             entity = michal != golfie;
             yankee = undefined;
-            if(!entity) { _fun00024_ip = 220; continue _fun00023 }
+            if(!entity) { _fun00026_ip = 220; continue _fun00025 }
  159:
             entity = '0';
             yankee = undefined;
-            if(!(entity !== golfie)) { _fun00024_ip = 220; continue _fun00023 }
+            if(!(entity !== golfie)) { _fun00026_ip = 220; continue _fun00025 }
  171:
             tangon = global;
             verify = tangon.Number;
@@ -831,7 +907,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(report)(golfie);
             option = option.bind(verify)(entity);
             entity = undefined;
-            if(option) { _fun00024_ip = 217; continue _fun00023 }
+            if(option) { _fun00026_ip = 217; continue _fun00025 }
  206:
             tangon = tangon.Number;
             entity = tangon.bind(report)(golfie);
@@ -840,11 +916,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  220:
             tangon = michal != offset;
             entity = false;
-            if(!tangon) { _fun00024_ip = 317; continue _fun00023 }
+            if(!tangon) { _fun00026_ip = 317; continue _fun00025 }
  229:
             tangon = michal != yankee;
             entity = false;
-            if(!tangon) { _fun00024_ip = 317; continue _fun00023 }
+            if(!tangon) { _fun00026_ip = 317; continue _fun00025 }
  238:
             tangon = offset.cooldownDurationMs;
             option = yankee + tangon;
@@ -854,11 +930,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(golfie)();
             golfie = offset.showAfterTimestamp;
             golfie = michal == golfie;
-            if(golfie) { _fun00024_ip = 304; continue _fun00023 }
+            if(golfie) { _fun00026_ip = 304; continue _fun00025 }
  278:
             verify = offset.showAfterTimestamp;
             verify = tangon >= verify;
-            if(!verify) { _fun00024_ip = 301; continue _fun00023 }
+            if(!verify) { _fun00026_ip = 301; continue _fun00025 }
  291:
             offset = offset.showAfterTimestamp;
             verify = yankee <= offset;
@@ -866,14 +942,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = verify;
  304:
             tangon = tangon < option;
-            if(tangon) { _fun00024_ip = 314; continue _fun00023 }
+            if(tangon) { _fun00026_ip = 314; continue _fun00025 }
  311:
             tangon = !golfie;
  314:
             entity = tangon;
  317:
             michal = michal != oscard;
-            if(!michal) { _fun00024_ip = 366; continue _fun00023 }
+            if(!michal) { _fun00026_ip = 366; continue _fun00025 }
  324:
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -886,7 +962,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = 1;
             michal = zuuluu !== tangon;
  366:
-            if(!entity) { _fun00024_ip = 372; continue _fun00023 }
+            if(!entity) { _fun00026_ip = 372; continue _fun00025 }
  369:
             entity = michal;
  372:
@@ -896,9 +972,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['isTimeRecurringSnowflakeBoundDismissibleContentDismissed'] = report;
-    report = function(argFoo, argBar, argBaz) { // Original name: requestMarkDismissibleContentAsShown
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+    zuuluu['isTimeRecurringSnowflakeBoundDismissibleContentDismissed'] = oscard;
+    oscard = function(argFoo, argBar, argBaz) { // Original name: requestMarkDismissibleContentAsShown
+        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             report = argFoo;
             oscard = argBar;
@@ -908,17 +984,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot10;
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(report);
-            if(zuuluu) { _fun00026_ip = 51; continue _fun00025 }
+            if(zuuluu) { _fun00028_ip = 51; continue _fun00027 }
  36:
             verify = _closure1_slot7;
             option = verify.hasUserHitDCCap;
             zuuluu = option.bind(verify)(report);
  51:
-            if(zuuluu) { _fun00026_ip = 57; continue _fun00025 }
+            if(zuuluu) { _fun00028_ip = 57; continue _fun00027 }
  54:
             zuuluu = golfie;
  57:
-            if(zuuluu) { _fun00026_ip = 169; continue _fun00025 }
+            if(zuuluu) { _fun00028_ip = 169; continue _fun00027 }
  60:
             golfie = _closure1_slot1;
             option = _closure1_slot2;
@@ -940,13 +1016,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = null;
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00026_ip = 149; continue _fun00025 }
+            if(golfie) { _fun00028_ip = 149; continue _fun00027 }
  143:
             report = oscard.groupName;
  149:
             michal['groupName'] = report;
             tangon = function() { // Original name: onAdded
-                _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+                _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                     michal = _closure1_slot11;
                     entity = undefined;
@@ -986,7 +1062,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = null;
                     offset = report == verify;
                     verify = undefined;
-                    if(offset) { _fun00028_ip = 173; continue _fun00027 }
+                    if(offset) { _fun00030_ip = 173; continue _fun00029 }
  163:
                     offset = _closure2_slot1;
                     verify = offset.groupName;
@@ -1005,7 +1081,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = _closure2_slot1;
                     verify = report == option;
                     option = undefined;
-                    if(verify) { _fun00028_ip = 245; continue _fun00027 }
+                    if(verify) { _fun00030_ip = 245; continue _fun00029 }
  236:
                     verify = _closure2_slot1;
                     option = verify.guildId;
@@ -1014,7 +1090,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = _closure2_slot1;
                     verify = report == option;
                     option = undefined;
-                    if(verify) { _fun00028_ip = 272; continue _fun00027 }
+                    if(verify) { _fun00030_ip = 272; continue _fun00029 }
  262:
                     verify = _closure2_slot1;
                     option = verify.version;
@@ -1023,13 +1099,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = oscard.bind(golfie)(tangon, zuuluu);
                     zuuluu = _closure2_slot1;
                     zuuluu = report == zuuluu;
-                    if(zuuluu) { _fun00028_ip = 308; continue _fun00027 }
+                    if(zuuluu) { _fun00030_ip = 308; continue _fun00029 }
  294:
                     tangon = _closure2_slot1;
                     tangon = tangon.onShown;
                     zuuluu = report == tangon;
  308:
-                    if(zuuluu) { _fun00028_ip = 325; continue _fun00027 }
+                    if(zuuluu) { _fun00030_ip = 325; continue _fun00029 }
  311:
                     zuuluu = _closure2_slot1;
                     michal = zuuluu.onShown;
@@ -1044,8 +1120,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['requestMarkDismissibleContentAsShown'] = report;
-    report = function() { // Original name: markDismissibleContentAsDismissed
+    zuuluu['requestMarkDismissibleContentAsShown'] = oscard;
+    oscard = function() { // Original name: markDismissibleContentAsDismissed
         entity = undefined;
         tangon = _closure1_slot17;
         zuuluu = tangon.apply;
@@ -1055,8 +1131,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['markDismissibleContentAsDismissed'] = report;
-    report = function() { // Original name: markVersionedDismissibleContentAsDismissed
+    zuuluu['markDismissibleContentAsDismissed'] = oscard;
+    oscard = function() { // Original name: markLatestVersionDismissibleContentAsDismissed
         entity = undefined;
         tangon = _closure1_slot18;
         zuuluu = tangon.apply;
@@ -1066,10 +1142,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
+    zuuluu['markLatestVersionDismissibleContentAsDismissed'] = oscard;
     zuuluu['markVersionedDismissibleContentAsDismissed'] = report;
     report = function() { // Original name: markSnowflakeBoundDismissibleContentAsDismissed
         entity = undefined;
-        tangon = _closure1_slot19;
+        tangon = _closure1_slot21;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1080,7 +1157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['markSnowflakeBoundDismissibleContentAsDismissed'] = report;
     tangon = function() { // Original name: markTimeRecurringDismissibleContentAsDismissed
         entity = undefined;
-        tangon = _closure1_slot20;
+        tangon = _closure1_slot22;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

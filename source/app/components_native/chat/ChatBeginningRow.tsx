@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 41;
             oscard = yankee[oscard];
             option = verify.bind(tangon)(oscard);
-            oscard = option.useMemoizedProcessedGradientRoleColors;
+            oscard = option.useProcessColorStringsArray;
             option = oscard.bind(option)(golfie);
             oscard = 42;
             oscard = yankee[oscard];

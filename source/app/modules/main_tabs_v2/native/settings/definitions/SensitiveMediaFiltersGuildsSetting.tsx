@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     option = function() { // Original name: getTitle
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 7;
+        entity = 8;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
         report = oscard.handleSensitiveMediaFilterPress;
         michal = _closure1_slot3;
         tangon = michal.bind(entity)();
-        michal = 6;
+        michal = 7;
         michal = golfie[michal];
         michal = zuuluu.bind(entity)(michal);
         michal = michal.ExplicitContentRedaction;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
         michal = function(argFoo) {
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 4;
+            entity = 6;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     tangon = function() { // Original name: additionalSearchTerms
         oscard = _closure1_slot0;
         golfie = _closure1_slot2;
-        michal = 7;
+        michal = 8;
         entity = golfie[michal];
         report = undefined;
         entity = oscard.bind(report)(entity);
@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
         return entity;
     };
     michal['additionalSearchTerms'] = tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

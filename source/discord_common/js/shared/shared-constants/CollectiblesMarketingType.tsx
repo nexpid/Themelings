@@ -22,6 +22,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['BANNER'] = report;
     entity = 'BANNER';
     michal[report] = entity;
+    report = 3;
+    michal['COACHMARK'] = report;
+    entity = 'COACHMARK';
+    michal[report] = entity;
     entity = argPlu;
     report = entity[tangon];
     tangon = argBar;

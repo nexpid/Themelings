@@ -1,4 +1,4 @@
-// app/modules/keyboard/native/InlinePortalKeyboard.ios.tsx
+// app/modules/keyboard/native/PortalKeyboardInlineComponent.ios.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     option = argBaz;
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/keyboard/native/InlinePortalKeyboard.ios.tsx';
+    tangon = 'modules/keyboard/native/PortalKeyboardInlineComponent.ios.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

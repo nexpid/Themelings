@@ -73,10 +73,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = 'starting_channel_id';
             zuuluu = entity in michal;
             entity = undefined;
-            if(!zuuluu) { _fun00006_ip = 32; continue _fun00005 }
- 26:
+            if(!zuuluu) { _fun00006_ip = 36; continue _fun00005 }
+ 28:
             entity = michal.starting_channel_id;
- 32:
+ 36:
             return entity;
         }
     };

@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 1138; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 1140; continue _fun00007 }
  15:
                     zuuluu = michal.channel;
                     var _closure4_slot0 = zuuluu;
@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return foxtra;
  174:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 1135; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 1137; continue _fun00007 }
  183:
                     output = null;
                     if(!(output != kiloes)) { _fun00008_ip = 212; continue _fun00007 }
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  253:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00008_ip = 1132; continue _fun00007 }
+                    if(option) { _fun00008_ip = 1134; continue _fun00007 }
  262:
                     if(!(output != zuuluu)) { _fun00008_ip = 405; continue _fun00007 }
  269:
@@ -869,24 +869,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon['handleRequestError'] = offset;
                     tangon = oscard.bind(golfie)(verify, option, tangon);
-                    SaveGenerator(address=1104);
- 1102:
-                    return tangon;
+                    SaveGenerator(address=1106);
  1104:
+                    return tangon;
+ 1106:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00008_ip = 1129; continue _fun00007 }
- 1110:
+                    if(oscard) { _fun00008_ip = 1131; continue _fun00007 }
+ 1112:
                     oscard = report.resolve;
                     oscard = oscard.bind(report)();
                     report = report.promise;
                     return report;
- 1129:
+ 1131:
                     return tangon;
- 1132:
+ 1134:
                     return zuuluu;
- 1135:
+ 1137:
                     return michal;
- 1138:
+ 1140:
                     return entity;
                 }
             };

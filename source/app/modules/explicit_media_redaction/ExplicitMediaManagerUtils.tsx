@@ -1,7 +1,10 @@
 // app/modules/explicit_media_redaction/ExplicitMediaManagerUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBar;
     zuuluu = argFre;
-    option = argPlu;
+    verify = argPlu;
+    var _closure1_slot0 = option;
+    var _closure1_slot1 = verify;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -73,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00002_ip = 247; continue _fun00001 }
  234:
-            verify = _closure1_slot2;
+            verify = _closure1_slot4;
             golfie = verify.bind(option)(zuuluu, option);
  247:
             _fun00002_ip = 265; continue _fun00001;
@@ -85,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00002_ip = 283; continue _fun00001;
  270:
-            golfie = _closure1_slot2;
+            golfie = _closure1_slot4;
             oscard = golfie.bind(option)(zuuluu, option);
  283:
             tangon = oscard;
@@ -144,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot1 = entity;
+    var _closure1_slot3 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -177,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot2 = entity;
+    var _closure1_slot4 = entity;
     entity = function(argFoo) { // Original name: hasAttachmentsOrEmbeds
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -208,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot3 = entity;
+    var _closure1_slot5 = entity;
     entity = function(argFoo) { // Original name: getContentScanVersionFromEmbed
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -231,101 +234,94 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot4 = entity;
-    oscard = function(argFoo, argBar) { // Original name: shouldScanAttachment
+    var _closure1_slot6 = entity;
+    oscard = function(argFoo) { // Original name: shouldScanAttachment
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = argBar;
-            entity = zuuluu.content_scan_version;
-            michal = null;
-            entity = michal == entity;
-            if(entity) { _fun00012_ip = 44; continue _fun00011 }
- 21:
-            zuuluu = zuuluu.content_scan_version;
-            report = michal != tangon;
-            michal = 1;
-            if(!report) { _fun00012_ip = 40; continue _fun00011 }
- 37:
-            michal = tangon;
- 40:
+            entity = argFoo;
+            zuuluu = entity.content_scan_version;
+            entity = _closure1_slot2;
+            michal = entity.validContentScanVersion;
+            entity = null;
+            entity = entity == zuuluu;
+            if(entity) { _fun00012_ip = 35; continue _fun00011 }
+ 31:
             entity = zuuluu < michal;
- 44:
+ 35:
             return entity;
         }
     };
-    var _closure1_slot5 = oscard;
-    report = function(argFoo, argBar) { // Original name: shouldScanEmbed
+    var _closure1_slot7 = oscard;
+    report = function(argFoo) { // Original name: shouldScanEmbed
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             report = argFoo;
-            tangon = argBar;
+            zuuluu = report.video;
+            entity = null;
+            oscard = entity == zuuluu;
+            tangon = undefined;
+            michal = undefined;
+            if(oscard) { _fun00014_ip = 27; continue _fun00013 }
+ 22:
+            michal = zuuluu.width;
+ 27:
+            zuuluu = 0;
+            if(!(zuuluu === michal)) { _fun00014_ip = 60; continue _fun00013 }
+ 33:
             oscard = report.video;
-            michal = null;
-            golfie = michal == oscard;
-            zuuluu = undefined;
-            entity = undefined;
-            if(golfie) { _fun00014_ip = 30; continue _fun00013 }
- 25:
-            entity = oscard.width;
- 30:
-            oscard = 0;
-            if(!(oscard === entity)) { _fun00014_ip = 63; continue _fun00013 }
- 36:
-            golfie = report.video;
-            option = michal == golfie;
-            entity = undefined;
-            if(option) { _fun00014_ip = 56; continue _fun00013 }
- 51:
-            entity = golfie.height;
- 56:
-            if(!(oscard !== entity)) { _fun00014_ip = 254; continue _fun00013 }
- 63:
-            golfie = report.thumbnail;
-            option = michal == golfie;
-            entity = undefined;
-            if(option) { _fun00014_ip = 83; continue _fun00013 }
- 78:
-            entity = golfie.width;
- 83:
-            if(!(oscard === entity)) { _fun00014_ip = 114; continue _fun00013 }
- 87:
-            golfie = report.thumbnail;
-            option = michal == golfie;
-            entity = undefined;
-            if(option) { _fun00014_ip = 107; continue _fun00013 }
- 102:
-            entity = golfie.height;
- 107:
-            if(!(oscard !== entity)) { _fun00014_ip = 250; continue _fun00013 }
- 114:
-            golfie = report.image;
-            option = michal == golfie;
-            entity = undefined;
-            if(option) { _fun00014_ip = 134; continue _fun00013 }
- 129:
-            entity = golfie.width;
- 134:
-            if(!(oscard === entity)) { _fun00014_ip = 162; continue _fun00013 }
- 138:
-            golfie = report.image;
-            option = michal == golfie;
-            entity = undefined;
-            if(option) { _fun00014_ip = 158; continue _fun00013 }
- 153:
-            entity = golfie.height;
- 158:
-            if(!(oscard !== entity)) { _fun00014_ip = 246; continue _fun00013 }
- 162:
-            entity = 'images';
-            entity = entity in report;
-            if(!entity) { _fun00014_ip = 204; continue _fun00013 }
- 173:
-            golfie = report.images;
-            if(!(michal != golfie)) { _fun00014_ip = 204; continue _fun00013 }
- 183:
-            oscard = golfie.some;
-            entity = function(argFoo) {
+            golfie = entity == oscard;
+            michal = undefined;
+            if(golfie) { _fun00014_ip = 53; continue _fun00013 }
+ 48:
+            michal = oscard.height;
+ 53:
+            if(!(zuuluu !== michal)) { _fun00014_ip = 248; continue _fun00013 }
+ 60:
+            oscard = report.thumbnail;
+            golfie = entity == oscard;
+            michal = undefined;
+            if(golfie) { _fun00014_ip = 80; continue _fun00013 }
+ 75:
+            michal = oscard.width;
+ 80:
+            if(!(zuuluu === michal)) { _fun00014_ip = 111; continue _fun00013 }
+ 84:
+            oscard = report.thumbnail;
+            golfie = entity == oscard;
+            michal = undefined;
+            if(golfie) { _fun00014_ip = 104; continue _fun00013 }
+ 99:
+            michal = oscard.height;
+ 104:
+            if(!(zuuluu !== michal)) { _fun00014_ip = 244; continue _fun00013 }
+ 111:
+            oscard = report.image;
+            golfie = entity == oscard;
+            michal = undefined;
+            if(golfie) { _fun00014_ip = 131; continue _fun00013 }
+ 126:
+            michal = oscard.width;
+ 131:
+            if(!(zuuluu === michal)) { _fun00014_ip = 159; continue _fun00013 }
+ 135:
+            oscard = report.image;
+            golfie = entity == oscard;
+            michal = undefined;
+            if(golfie) { _fun00014_ip = 155; continue _fun00013 }
+ 150:
+            michal = oscard.height;
+ 155:
+            if(!(zuuluu !== michal)) { _fun00014_ip = 240; continue _fun00013 }
+ 159:
+            michal = 'images';
+            michal = michal in report;
+            if(!michal) { _fun00014_ip = 201; continue _fun00013 }
+ 170:
+            oscard = report.images;
+            if(!(entity != oscard)) { _fun00014_ip = 201; continue _fun00013 }
+ 180:
+            zuuluu = oscard.some;
+            michal = function(argFoo) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     michal = argFoo;
@@ -340,139 +336,152 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity = oscard.bind(golfie)(entity);
-            if(entity) { _fun00014_ip = 242; continue _fun00013 }
- 204:
-            entity = _closure1_slot4;
-            zuuluu = entity.bind(zuuluu)(report);
-            entity = michal == zuuluu;
-            if(entity) { _fun00014_ip = 240; continue _fun00013 }
- 223:
-            report = michal != tangon;
-            michal = 1;
-            if(!report) { _fun00014_ip = 236; continue _fun00013 }
- 233:
-            michal = tangon;
- 236:
+            michal = zuuluu.bind(oscard)(michal);
+            if(michal) { _fun00014_ip = 236; continue _fun00013 }
+ 201:
+            zuuluu = _closure1_slot6;
+            zuuluu = zuuluu.bind(tangon)(report);
+            michal = _closure1_slot2;
+            michal = michal.validContentScanVersion;
+            entity = entity == zuuluu;
+            if(entity) { _fun00014_ip = 234; continue _fun00013 }
+ 230:
             entity = zuuluu < michal;
+ 234:
+            return entity;
+ 236:
+            entity = false;
+            return entity;
  240:
-            return entity;
- 242:
             entity = false;
             return entity;
- 246:
+ 244:
             entity = false;
             return entity;
- 250:
-            entity = false;
-            return entity;
- 254:
+ 248:
             entity = false;
             return entity;
         }
     };
-    var _closure1_slot6 = report;
+    var _closure1_slot8 = report;
     entity = function(argFoo) { // Original name: isAttachmentUnscannedForTimeout
-        entity = argFoo;
-        michal = entity.content_scan_version;
-        entity = null;
-        entity = entity == michal;
-        return entity;
-    };
-    var _closure1_slot7 = entity;
-    entity = function(argFoo) { // Original name: isEmbedUnscannedForTimeout
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-            golfie = argFoo;
-            entity = _closure1_slot4;
-            verify = undefined;
-            oscard = entity.bind(verify)(golfie);
-            michal = golfie.video;
-            report = null;
-            zuuluu = report == michal;
-            entity = undefined;
-            if(zuuluu) { _fun00018_ip = 39; continue _fun00017 }
- 34:
-            entity = michal.width;
- 39:
-            option = 0;
-            entity = option !== entity;
-            if(entity) { _fun00018_ip = 72; continue _fun00017 }
- 48:
-            zuuluu = golfie.video;
-            tangon = report == zuuluu;
+            zuuluu = argFoo;
+            report = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
             michal = undefined;
-            if(tangon) { _fun00018_ip = 68; continue _fun00017 }
- 63:
-            michal = zuuluu.height;
- 68:
-            entity = option !== michal;
- 72:
-            if(!entity) { _fun00018_ip = 255; continue _fun00017 }
- 78:
-            zuuluu = golfie.thumbnail;
-            tangon = report == zuuluu;
-            michal = undefined;
-            if(tangon) { _fun00018_ip = 98; continue _fun00017 }
- 93:
-            michal = zuuluu.width;
- 98:
-            michal = option !== michal;
-            if(michal) { _fun00018_ip = 129; continue _fun00017 }
- 105:
-            tangon = golfie.thumbnail;
-            offset = report == tangon;
-            zuuluu = undefined;
-            if(offset) { _fun00018_ip = 125; continue _fun00017 }
- 120:
-            zuuluu = tangon.height;
- 125:
-            michal = option !== zuuluu;
+            report = report.bind(michal)(tangon);
+            tangon = report.isEligibleForSensitiveContentGoreExperiment;
+            michal = 'isAttachmentUnscannedForTimeout';
+            michal = tangon.bind(report)(michal);
+            entity = _closure1_slot2;
+            tangon = entity.validContentScanVersion;
+            report = zuuluu.content_scan_version;
+            entity = null;
+            entity = entity == report;
+            if(entity) { _fun00018_ip = 86; continue _fun00017 }
+ 70:
+            if(!michal) { _fun00018_ip = 83; continue _fun00017 }
+ 73:
+            zuuluu = zuuluu.content_scan_version;
+            michal = zuuluu !== tangon;
+ 83:
+            entity = michal;
+ 86:
+            return entity;
+        }
+    };
+    var _closure1_slot9 = entity;
+    entity = function(argFoo) { // Original name: isEmbedUnscannedForTimeout
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+            report = argFoo;
+            entity = _closure1_slot6;
+            oscard = undefined;
+            tangon = entity.bind(oscard)(report);
+            michal = _closure1_slot0;
+            golfie = _closure1_slot1;
+            entity = 1;
+            entity = golfie[entity];
+            golfie = michal.bind(oscard)(entity);
+            michal = golfie.isEligibleForSensitiveContentGoreExperiment;
+            entity = 'isEmbedUnscannedForTimeout';
+            michal = michal.bind(golfie)(entity);
+            golfie = report.video;
+            entity = null;
+            verify = entity == golfie;
+            option = undefined;
+            if(verify) { _fun00020_ip = 76; continue _fun00019 }
+ 71:
+            option = golfie.width;
+ 76:
+            golfie = 0;
+            if(!(golfie === option)) { _fun00020_ip = 109; continue _fun00019 }
+ 82:
+            verify = report.video;
+            offset = entity == verify;
+            option = undefined;
+            if(offset) { _fun00020_ip = 102; continue _fun00019 }
+ 97:
+            option = verify.height;
+ 102:
+            if(!(golfie !== option)) { _fun00020_ip = 291; continue _fun00019 }
+ 109:
+            verify = report.thumbnail;
+            offset = entity == verify;
+            option = undefined;
+            if(offset) { _fun00020_ip = 129; continue _fun00019 }
+ 124:
+            option = verify.width;
  129:
-            if(!michal) { _fun00018_ip = 252; continue _fun00017 }
- 132:
-            tangon = golfie.image;
-            offset = report == tangon;
-            zuuluu = undefined;
-            if(offset) { _fun00018_ip = 152; continue _fun00017 }
- 147:
-            zuuluu = tangon.width;
- 152:
-            zuuluu = option !== zuuluu;
-            if(zuuluu) { _fun00018_ip = 183; continue _fun00017 }
- 159:
-            offset = golfie.image;
-            yankee = report == offset;
-            tangon = undefined;
-            if(yankee) { _fun00018_ip = 179; continue _fun00017 }
- 174:
-            tangon = offset.height;
- 179:
-            zuuluu = option !== tangon;
- 183:
-            if(!zuuluu) { _fun00018_ip = 249; continue _fun00017 }
- 186:
-            tangon = 'images';
-            option = tangon in golfie;
-            tangon = !option;
-            verify = undefined;
-            if(!option) { _fun00018_ip = 215; continue _fun00017 }
- 202:
-            golfie = golfie.images;
-            tangon = report == golfie;
-            verify = golfie;
- 215:
-            if(tangon) { _fun00018_ip = 239; continue _fun00017 }
- 218:
-            option = verify.some;
-            golfie = function(argFoo) {
-                _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+            if(!(golfie === option)) { _fun00020_ip = 160; continue _fun00019 }
+ 133:
+            verify = report.thumbnail;
+            offset = entity == verify;
+            option = undefined;
+            if(offset) { _fun00020_ip = 153; continue _fun00019 }
+ 148:
+            option = verify.height;
+ 153:
+            if(!(golfie !== option)) { _fun00020_ip = 287; continue _fun00019 }
+ 160:
+            verify = report.image;
+            offset = entity == verify;
+            option = undefined;
+            if(offset) { _fun00020_ip = 180; continue _fun00019 }
+ 175:
+            option = verify.width;
+ 180:
+            if(!(golfie === option)) { _fun00020_ip = 208; continue _fun00019 }
+ 184:
+            option = report.image;
+            verify = entity == option;
+            oscard = undefined;
+            if(verify) { _fun00020_ip = 204; continue _fun00019 }
+ 199:
+            oscard = option.height;
+ 204:
+            if(!(golfie !== oscard)) { _fun00020_ip = 283; continue _fun00019 }
+ 208:
+            oscard = 'images';
+            oscard = oscard in report;
+            if(!oscard) { _fun00020_ip = 250; continue _fun00019 }
+ 219:
+            golfie = report.images;
+            if(!(entity != golfie)) { _fun00020_ip = 250; continue _fun00019 }
+ 229:
+            oscard = golfie.some;
+            report = function(argFoo) {
+                _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                     michal = argFoo;
                     entity = michal.width;
                     zuuluu = 0;
                     entity = zuuluu === entity;
-                    if(!entity) { _fun00020_ip = 26; continue _fun00019 }
+                    if(!entity) { _fun00022_ip = 26; continue _fun00021 }
  17:
                     michal = michal.height;
                     entity = zuuluu === michal;
@@ -480,98 +489,111 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            golfie = option.bind(verify)(golfie);
-            tangon = !golfie;
- 239:
-            if(!tangon) { _fun00018_ip = 246; continue _fun00017 }
- 242:
-            tangon = report == oscard;
- 246:
-            zuuluu = tangon;
- 249:
-            michal = zuuluu;
- 252:
+            report = oscard.bind(golfie)(report);
+            if(report) { _fun00020_ip = 279; continue _fun00019 }
+ 250:
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.validContentScanVersion;
+            entity = entity == tangon;
+            if(entity) { _fun00020_ip = 277; continue _fun00019 }
+ 267:
+            if(!michal) { _fun00020_ip = 274; continue _fun00019 }
+ 270:
+            michal = tangon !== zuuluu;
+ 274:
             entity = michal;
- 255:
+ 277:
+            return entity;
+ 279:
+            entity = false;
+            return entity;
+ 283:
+            entity = false;
+            return entity;
+ 287:
+            entity = false;
+            return entity;
+ 291:
+            entity = false;
             return entity;
         }
     };
-    var _closure1_slot8 = entity;
+    var _closure1_slot10 = entity;
     tangon = function(argFoo) { // Original name: getUnscannedAttachmentsAndEmbedIdsForTimeout
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             michal = argFoo;
             entity = null;
             oscard = entity == michal;
             report = undefined;
-            if(oscard) { _fun00022_ip = 36; continue _fun00021 }
+            if(oscard) { _fun00024_ip = 36; continue _fun00023 }
  16:
             oscard = michal.attachments;
             golfie = entity == oscard;
             report = undefined;
-            if(golfie) { _fun00022_ip = 36; continue _fun00021 }
+            if(golfie) { _fun00024_ip = 36; continue _fun00023 }
  31:
             report = oscard.length;
  36:
             option = entity != report;
             oscard = 0;
             golfie = 0;
-            if(!option) { _fun00022_ip = 50; continue _fun00021 }
+            if(!option) { _fun00024_ip = 50; continue _fun00023 }
  47:
             golfie = report;
  50:
             report = entity == michal;
             option = undefined;
-            if(report) { _fun00022_ip = 79; continue _fun00021 }
+            if(report) { _fun00024_ip = 79; continue _fun00023 }
  59:
             report = michal.embeds;
             verify = entity == report;
             option = undefined;
-            if(verify) { _fun00022_ip = 79; continue _fun00021 }
+            if(verify) { _fun00024_ip = 79; continue _fun00023 }
  74:
             option = report.length;
  79:
             verify = entity != option;
             report = 0;
-            if(!verify) { _fun00022_ip = 91; continue _fun00021 }
+            if(!verify) { _fun00024_ip = 91; continue _fun00023 }
  88:
             report = option;
  91:
-            if(!(oscard === golfie)) { _fun00022_ip = 102; continue _fun00021 }
+            if(!(oscard === golfie)) { _fun00024_ip = 102; continue _fun00023 }
  95:
-            if(!(oscard !== report)) { _fun00022_ip = 278; continue _fun00021 }
+            if(!(oscard !== report)) { _fun00024_ip = 278; continue _fun00023 }
  102:
             report = entity == michal;
             oscard = undefined;
-            if(report) { _fun00022_ip = 143; continue _fun00021 }
+            if(report) { _fun00024_ip = 143; continue _fun00023 }
  111:
             option = michal.attachments;
             report = entity == option;
             oscard = undefined;
-            if(report) { _fun00022_ip = 143; continue _fun00021 }
+            if(report) { _fun00024_ip = 143; continue _fun00023 }
  126:
             golfie = option.filter;
-            report = _closure1_slot7;
+            report = _closure1_slot9;
             oscard = golfie.bind(option)(report);
  143:
-            if(!(entity == oscard)) { _fun00022_ip = 151; continue _fun00021 }
+            if(!(entity == oscard)) { _fun00024_ip = 151; continue _fun00023 }
  147:
             oscard = new Array(0);
  151:
             golfie = entity == michal;
             report = undefined;
-            if(golfie) { _fun00022_ip = 192; continue _fun00021 }
+            if(golfie) { _fun00024_ip = 192; continue _fun00023 }
  160:
             golfie = michal.embeds;
             michal = entity == golfie;
             report = undefined;
-            if(michal) { _fun00022_ip = 192; continue _fun00021 }
+            if(michal) { _fun00024_ip = 192; continue _fun00023 }
  175:
             tangon = golfie.filter;
-            michal = _closure1_slot8;
+            michal = _closure1_slot10;
             report = tangon.bind(golfie)(michal);
  192:
-            if(!(entity == report)) { _fun00022_ip = 200; continue _fun00021 }
+            if(!(entity == report)) { _fun00024_ip = 200; continue _fun00023 }
  196:
             report = new Array(0);
  200:
@@ -613,59 +635,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot9 = tangon;
+    var _closure1_slot11 = tangon;
     entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
+    yankee = entity.Object;
+    offset = yankee.defineProperty;
     golfie = {};
     entity = true;
     golfie['value'] = entity;
     entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, golfie);
+    entity = offset.bind(yankee)(zuuluu, entity, golfie);
     entity = 0;
-    verify = option[entity];
+    offset = verify[entity];
     golfie = argBaz;
     entity = undefined;
-    golfie = golfie.bind(entity)(verify);
-    var _closure1_slot0 = golfie;
-    golfie = 1;
-    option = option[golfie];
-    golfie = argBar;
-    verify = golfie.bind(entity)(option);
+    golfie = golfie.bind(entity)(offset);
+    var _closure1_slot2 = golfie;
+    golfie = 2;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
     golfie = 'modules/explicit_media_redaction/ExplicitMediaManagerUtils.tsx';
     golfie = option.bind(verify)(golfie);
     golfie = function(argFoo) { // Original name: hasAttachmentsEmbedsOrSnapshots
-        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             michal = argFoo;
             tangon = null;
-            if(!(tangon != michal)) { _fun00024_ip = 93; continue _fun00023 }
+            if(!(tangon != michal)) { _fun00026_ip = 93; continue _fun00025 }
  9:
             entity = 'messageSnapshots';
             entity = entity in michal;
-            if(entity) { _fun00024_ip = 28; continue _fun00023 }
+            if(entity) { _fun00026_ip = 28; continue _fun00025 }
  20:
             oscard = michal.message_snapshots;
-            _fun00024_ip = 34; continue _fun00023;
+            _fun00026_ip = 34; continue _fun00025;
  28:
             oscard = michal.messageSnapshots;
  34:
-            entity = _closure1_slot3;
+            entity = _closure1_slot5;
             zuuluu = undefined;
             entity = entity.bind(zuuluu)(michal);
-            if(entity) { _fun00024_ip = 91; continue _fun00023 }
+            if(entity) { _fun00026_ip = 91; continue _fun00025 }
  51:
             michal = tangon != oscard;
-            if(!michal) { _fun00024_ip = 88; continue _fun00023 }
+            if(!michal) { _fun00026_ip = 88; continue _fun00025 }
  58:
             tangon = tangon == oscard;
             zuuluu = undefined;
-            if(tangon) { _fun00024_ip = 85; continue _fun00023 }
+            if(tangon) { _fun00026_ip = 85; continue _fun00025 }
  67:
             report = oscard.some;
             tangon = function(argFoo) {
-                zuuluu = _closure1_slot3;
+                zuuluu = _closure1_slot5;
                 entity = argFoo;
                 michal = entity.message;
                 entity = undefined;
@@ -685,22 +706,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['hasAttachmentsEmbedsOrSnapshots'] = golfie;
-    golfie = function() { // Original name: getValidContentScanVersion
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
- 0:
-            entity = _closure1_slot0;
-            michal = entity.validContentScanVersion;
-            entity = null;
-            zuuluu = entity != michal;
-            entity = 1;
-            if(!zuuluu) { _fun00026_ip = 28; continue _fun00025 }
- 25:
-            entity = michal;
- 28:
-            return entity;
-        }
-    };
-    zuuluu['getValidContentScanVersion'] = golfie;
     zuuluu['shouldScanAttachment'] = oscard;
     zuuluu['shouldScanEmbed'] = report;
     report = function(argFoo) { // Original name: hasAttachmentsOrEmbedsRequiringScan
@@ -712,7 +717,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(oscard != tangon)) { _fun00028_ip = 39; continue _fun00027 }
  15:
             zuuluu = tangon.some;
-            michal = _closure1_slot5;
+            michal = _closure1_slot7;
             michal = zuuluu.bind(tangon)(michal);
             if(michal) { _fun00028_ip = 245; continue _fun00027 }
  39:
@@ -720,7 +725,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(oscard != tangon)) { _fun00028_ip = 73; continue _fun00027 }
  49:
             zuuluu = tangon.some;
-            michal = _closure1_slot6;
+            michal = _closure1_slot8;
             michal = zuuluu.bind(tangon)(michal);
             if(michal) { _fun00028_ip = 245; continue _fun00027 }
  73:
@@ -739,7 +744,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = 0;
             if(!(entity !== zuuluu)) { _fun00028_ip = 241; continue _fun00027 }
  119:
-            entity = _closure1_slot1;
+            entity = _closure1_slot3;
             tangon = undefined;
             zuuluu = entity.bind(tangon)(michal);
             michal = zuuluu.bind(tangon)();
@@ -752,7 +757,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(oscard != verify)) { _fun00028_ip = 183; continue _fun00027 }
  165:
             option = verify.some;
-            golfie = _closure1_slot5;
+            golfie = _closure1_slot7;
             golfie = option.bind(verify)(golfie);
             if(golfie) { _fun00028_ip = 233; continue _fun00027 }
  183:
@@ -761,7 +766,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(oscard != option)) { _fun00028_ip = 216; continue _fun00027 }
  198:
             golfie = option.some;
-            entity = _closure1_slot6;
+            entity = _closure1_slot8;
             entity = golfie.bind(option)(entity);
             if(entity) { _fun00028_ip = 233; continue _fun00027 }
  216:
@@ -790,7 +795,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: hasUnscannedAttachmentsOrEmbedsForTimeout
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot11;
             michal = undefined;
             entity = argFoo;
             michal = zuuluu.bind(michal)(entity);

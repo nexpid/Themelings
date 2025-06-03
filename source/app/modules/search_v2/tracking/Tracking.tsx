@@ -175,8 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot2 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.getSearchQueryString;
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
@@ -204,13 +203,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function(argFoo) { // Original name: trackSearchOpened
         entity = argFoo;
-        tangon = entity.searchContext;
+        golfie = entity.searchContext;
         option = entity.visibleSearchTabs;
         zuuluu = _closure1_slot13;
         entity = undefined;
-        verify = zuuluu.bind(entity)(tangon);
-        zuuluu = _closure1_slot3;
-        golfie = zuuluu.bind(entity)(tangon);
+        oscard = zuuluu.bind(entity)(golfie);
+        report = _closure1_slot3;
+        tangon = report.getState;
+        zuuluu = function(argFoo) {
+            michal = argFoo;
+            entity = michal.getQueryString;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        golfie = tangon.bind(report)(golfie, zuuluu);
         tangon = _closure1_slot0;
         report = _closure1_slot1;
         zuuluu = 5;
@@ -221,6 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = michal.SEARCH_V2_OPENED;
         michal = {};
         offset = michal;
+        verify = oscard;
         oscard = copyDataProperties(offset, verify);
         oscard = 'visible_search_tabs';
         michal[oscard] = option;
@@ -275,12 +282,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['trackSearchClosed'] = tangon;
     tangon = function(argFoo) { // Original name: trackSearchResultEmpty
         entity = argFoo;
-        tangon = entity.searchContext;
+        golfie = entity.searchContext;
         zuuluu = _closure1_slot13;
         entity = undefined;
-        option = zuuluu.bind(entity)(tangon);
-        zuuluu = _closure1_slot3;
-        golfie = zuuluu.bind(entity)(tangon);
+        oscard = zuuluu.bind(entity)(golfie);
+        report = _closure1_slot3;
+        tangon = report.getState;
+        zuuluu = function(argFoo) {
+            michal = argFoo;
+            entity = michal.getQueryString;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        golfie = tangon.bind(report)(golfie, zuuluu);
         tangon = _closure1_slot0;
         report = _closure1_slot1;
         zuuluu = 5;
@@ -291,6 +305,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = michal.SEARCH_V2_RESULT_EMPTY;
         michal = {};
         verify = michal;
+        option = oscard;
         oscard = copyDataProperties(verify, option);
         oscard = golfie.trim;
         oscard = oscard.bind(golfie)();
@@ -409,16 +424,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
-            tangon = entity.searchContext;
-            oscard = entity.channelId;
+            golfie = entity.searchContext;
+            report = entity.channelId;
             zuuluu = _closure1_slot13;
             entity = undefined;
-            offset = zuuluu.bind(entity)(tangon);
-            report = _closure1_slot2;
-            zuuluu = report.getChannel;
-            oscard = zuuluu.bind(report)(oscard);
-            zuuluu = _closure1_slot3;
-            golfie = zuuluu.bind(entity)(tangon);
+            option = zuuluu.bind(entity)(golfie);
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getChannel;
+            oscard = zuuluu.bind(tangon)(report);
+            report = _closure1_slot3;
+            tangon = report.getState;
+            zuuluu = function(argFoo) {
+                michal = argFoo;
+                entity = michal.getQueryString;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            golfie = tangon.bind(report)(golfie, zuuluu);
             tangon = _closure1_slot0;
             report = _closure1_slot1;
             zuuluu = 5;
@@ -429,14 +451,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.SEARCH_V2_RESULT_CLICKED;
             michal = {};
             yankee = michal;
+            offset = option;
             option = copyDataProperties(yankee, offset);
             option = null;
             verify = option == oscard;
             option = undefined;
-            if(verify) { _fun00012_ip = 112; continue _fun00011 }
- 107:
+            if(verify) { _fun00012_ip = 131; continue _fun00011 }
+ 126:
             option = oscard.type;
- 112:
+ 131:
             oscard = 'search_result_channel_type';
             michal[oscard] = option;
             oscard = golfie.trim;
@@ -581,12 +604,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['trackSearchJumpToMessage'] = tangon;
     michal = function(argFoo) { // Original name: trackSearchStarted
         entity = argFoo;
-        tangon = entity.searchContext;
+        golfie = entity.searchContext;
         zuuluu = _closure1_slot13;
         entity = undefined;
-        option = zuuluu.bind(entity)(tangon);
-        zuuluu = _closure1_slot3;
-        golfie = zuuluu.bind(entity)(tangon);
+        oscard = zuuluu.bind(entity)(golfie);
+        report = _closure1_slot3;
+        tangon = report.getState;
+        zuuluu = function(argFoo) {
+            michal = argFoo;
+            entity = michal.getQueryString;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        golfie = tangon.bind(report)(golfie, zuuluu);
         tangon = _closure1_slot0;
         report = _closure1_slot1;
         zuuluu = 5;
@@ -597,6 +627,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = michal.SEARCH_V2_STARTED;
         michal = {};
         verify = michal;
+        option = oscard;
         oscard = copyDataProperties(verify, option);
         oscard = golfie.trim;
         oscard = oscard.bind(golfie)();

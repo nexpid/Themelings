@@ -2029,7 +2029,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = 65;
             record = papara[target];
             status = cntext.bind(zuuluu)(record);
-            record = status.shouldRedactExplicitContent;
+            record = status.shouldRedactMessageMedia;
             status = record.bind(status)(backup);
             record = 66;
             record = papara[record];

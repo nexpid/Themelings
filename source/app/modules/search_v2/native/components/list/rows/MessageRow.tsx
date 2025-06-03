@@ -437,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 25;
             entity = zuuluu[entity];
             report = michal.bind(tangon)(entity);
-            entity = report.useMemoizedProcessedGradientRoleColors;
+            entity = report.useProcessColorStringsArray;
             echoed = entity.bind(report)(oscard);
             entity = 26;
             entity = zuuluu[entity];
