@@ -2189,6 +2189,12 @@
     "midnight": "#4d505b4d",
     "darker": "#4d505b4d"
   },
+  "USER_PROFILE_TOOLBAR_BORDER": {
+    "dark": "#ffffff08",
+    "light": "#0000000a",
+    "midnight": "#6c6f7c14",
+    "darker": "#6c6f7c0f"
+  },
   "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
     "dark": "#2c2d3566",
     "light": "#2c2d3566",

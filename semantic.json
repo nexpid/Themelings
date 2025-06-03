@@ -10949,6 +10949,36 @@
       }
     ]
   },
+  "USER_PROFILE_TOOLBAR_BORDER": {
+    "dark": [
+      "#ffffff08",
+      {
+        "raw": "WHITE",
+        "opacity": 0.03
+      }
+    ],
+    "light": [
+      "#0000000a",
+      {
+        "raw": "BLACK",
+        "opacity": 0.04
+      }
+    ],
+    "midnight": [
+      "#6c6f7c14",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.08
+      }
+    ],
+    "darker": [
+      "#6c6f7c0f",
+      {
+        "raw": "PLUM_11",
+        "opacity": 0.06
+      }
+    ]
+  },
   "VOICE_VIDEO_VIDEO_TILE_BACKGROUND": {
     "dark": [
       "#2c2d3566",
