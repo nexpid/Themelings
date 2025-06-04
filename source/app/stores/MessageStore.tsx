@@ -2502,33 +2502,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             option = entity.channelId;
-            michal = entity.messageRecord;
+            golfie = entity.messageId;
             zuuluu = null;
-            tangon = zuuluu == michal;
-            entity = undefined;
-            golfie = undefined;
-            if(tangon) { _fun00082_ip = 33; continue _fun00081 }
- 27:
-            golfie = michal.nonce;
- 33:
-            if(!(zuuluu != golfie)) { _fun00082_ip = 177; continue _fun00081 }
- 40:
-            report = _closure1_slot25;
-            tangon = report.has;
-            tangon = tangon.bind(report)(golfie);
-            if(!tangon) { _fun00082_ip = 177; continue _fun00081 }
- 60:
+            if(!(zuuluu != golfie)) { _fun00082_ip = 171; continue _fun00081 }
+ 22:
+            tangon = _closure1_slot25;
+            entity = tangon.has;
+            entity = entity.bind(tangon)(golfie);
+            if(entity) { _fun00082_ip = 46; continue _fun00081 }
+ 42:
+            entity = false;
+            return entity;
+ 46:
             oscard = _closure1_slot1;
-            tangon = _closure1_slot2;
+            entity = _closure1_slot2;
             report = 21;
-            tangon = tangon[report];
+            tangon = entity[report];
+            entity = undefined;
             oscard = oscard.bind(entity)(tangon);
             tangon = oscard.getOrCreate;
             tangon = tangon.bind(oscard)(option);
             oscard = tangon.get;
             option = oscard.bind(tangon)(golfie);
-            if(!(zuuluu != option)) { _fun00082_ip = 179; continue _fun00081 }
- 105:
+            if(!(zuuluu != option)) { _fun00082_ip = 167; continue _fun00081 }
+ 93:
             zuuluu = tangon.remove;
             oscard = zuuluu.bind(tangon)(golfie);
             tangon = oscard.merge;
@@ -2544,9 +2541,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.commit;
             michal = michal.bind(zuuluu)(tangon);
- 177:
             return entity;
- 179:
+ 167:
+            entity = false;
+            return entity;
+ 171:
+            entity = false;
             return entity;
         }
     };

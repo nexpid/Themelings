@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity.shouldObscureExplicitMedia;
             entity = entity.shouldAgeVerify;
             verify = michal.spoiler;
-            yankee = michal.flags;
+            romeon = michal.flags;
             zuuluu = michal.content_scan_version;
             offset = undefined;
             if(!(offset === zuuluu)) { _fun00004_ip = 70; continue _fun00003 }
@@ -146,39 +146,63 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.isPendingScanVersion;
             tangon = michal.bind(zuuluu)(report);
  116:
-            zuuluu = offset !== yankee;
-            if(!zuuluu) { _fun00004_ip = 168; continue _fun00003 }
- 123:
-            golfie = _closure1_slot0;
-            romeon = _closure1_slot1;
-            report = 3;
-            report = romeon[report];
-            golfie = golfie.bind(offset)(report);
-            report = golfie.hasFlag;
+            zuuluu = offset !== romeon;
+            report = zuuluu;
+            if(!zuuluu) { _fun00004_ip = 171; continue _fun00003 }
+ 126:
+            yankee = _closure1_slot0;
+            foxtra = _closure1_slot1;
+            golfie = 3;
+            golfie = foxtra[golfie];
+            yankee = yankee.bind(offset)(golfie);
+            golfie = yankee.hasFlag;
             michal = _closure1_slot3;
             michal = michal.CONTAINS_EXPLICIT_MEDIA;
-            zuuluu = report.bind(golfie)(yankee, michal);
- 168:
-            if(!oscard) { _fun00004_ip = 203; continue _fun00003 }
+            report = golfie.bind(yankee)(romeon, michal);
  171:
-            golfie = _closure1_slot2;
-            report = golfie.get;
-            michal = 'obscure_blur_effect_enabled';
-            michal = report.bind(golfie)(michal);
-            if(michal) { _fun00004_ip = 200; continue _fun00003 }
- 197:
+            if(!zuuluu) { _fun00004_ip = 219; continue _fun00003 }
+ 174:
+            yankee = _closure1_slot0;
+            foxtra = _closure1_slot1;
+            golfie = 3;
+            golfie = foxtra[golfie];
+            yankee = yankee.bind(offset)(golfie);
+            golfie = yankee.hasFlag;
+            michal = _closure1_slot3;
+            michal = michal.CONTAINS_GORE_CONTENT;
+            zuuluu = golfie.bind(yankee)(romeon, michal);
+ 219:
+            if(!oscard) { _fun00004_ip = 283; continue _fun00003 }
+ 222:
+            romeon = _closure1_slot2;
+            yankee = romeon.get;
+            michal = 'obscure_blur_effect_explicit_content_enabled';
+            michal = yankee.bind(romeon)(michal);
+            if(michal) { _fun00004_ip = 268; continue _fun00003 }
+ 248:
+            romeon = _closure1_slot2;
+            yankee = romeon.get;
+            golfie = 'obscure_blur_effect_gore_content_enabled';
+            michal = yankee.bind(romeon)(golfie);
+ 268:
+            if(michal) { _fun00004_ip = 274; continue _fun00003 }
+ 271:
+            michal = report;
+ 274:
+            if(michal) { _fun00004_ip = 280; continue _fun00003 }
+ 277:
             michal = zuuluu;
- 200:
+ 280:
             oscard = michal;
- 203:
+ 283:
             michal = oscard;
-            if(!oscard) { _fun00004_ip = 212; continue _fun00003 }
- 209:
+            if(!oscard) { _fun00004_ip = 292; continue _fun00003 }
+ 289:
             michal = entity;
- 212:
+ 292:
             zuuluu = oscard;
-            if(!zuuluu) { _fun00004_ip = 251; continue _fun00003 }
- 218:
+            if(!zuuluu) { _fun00004_ip = 331; continue _fun00003 }
+ 298:
             report = _closure1_slot0;
             golfie = _closure1_slot1;
             entity = 4;
@@ -186,23 +210,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(offset)(entity);
             entity = report.isVerifiedTeen;
             zuuluu = entity.bind(report)();
- 251:
+ 331:
             entity = {};
             report = option;
-            if(!report) { _fun00004_ip = 265; continue _fun00003 }
- 259:
+            if(!report) { _fun00004_ip = 345; continue _fun00003 }
+ 339:
             golfie = true;
             report = golfie === verify;
- 265:
+ 345:
             entity['isSpoiler'] = report;
             report = '';
             golfie = report;
-            if(!option) { _fun00004_ip = 357; continue _fun00003 }
- 280:
+            if(!option) { _fun00004_ip = 437; continue _fun00003 }
+ 360:
             option = true;
             golfie = report;
-            if(!(option === verify)) { _fun00004_ip = 357; continue _fun00003 }
- 289:
+            if(!(option === verify)) { _fun00004_ip = 437; continue _fun00003 }
+ 369:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot1;
             option = 5;
@@ -217,11 +241,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(yankee)(option);
             option = verify.toUpperCase;
             golfie = option.bind(verify)();
- 357:
+ 437:
             entity['spoiler'] = golfie;
             entity['obscure'] = oscard;
-            if(!oscard) { _fun00004_ip = 428; continue _fun00003 }
- 370:
+            if(!oscard) { _fun00004_ip = 508; continue _fun00003 }
+ 450:
             verify = _closure1_slot0;
             yankee = _closure1_slot1;
             oscard = 5;
@@ -234,15 +258,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.t;
             oscard = oscard.SpxcUV;
             report = golfie.bind(option)(oscard);
- 428:
+ 508:
             entity['obscureDescription'] = report;
             entity['obscureAwaitingScan'] = tangon;
             entity['verifyAge'] = michal;
             entity['obscureHideControls'] = zuuluu;
-            if(michal) { _fun00004_ip = 454; continue _fun00003 }
- 451:
+            if(michal) { _fun00004_ip = 534; continue _fun00003 }
+ 531:
             michal = zuuluu;
- 454:
+ 534:
             entity['obscureIsOpaque'] = michal;
             return entity;
         }

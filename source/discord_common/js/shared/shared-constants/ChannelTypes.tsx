@@ -114,7 +114,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = entity.Set;
     oscard = option.prototype;
     golfie = Object.create(oscard, {constructor: {value: option}});
-    yankee = [0, 1, 2, 3, 5, 10, 11, 12, 13, 14, 15, 16];
+    yankee = [0, 1, 2, 3, 5, 10, 11, 12, 13, 14, 15, 16, 17];
     romeon = golfie;
     oscard = new romeon[option](yankee, offset);
     oscard = oscard instanceof Object ? oscard : golfie;
@@ -370,7 +370,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Set;
     entity = golfie.prototype;
     oscard = Object.create(entity, {constructor: {value: golfie}});
-    yankee = [0, 1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16];
+    yankee = [0, 1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 14, 15, 16, 17];
     romeon = oscard;
     entity = new romeon[golfie](yankee, offset);
     entity = entity instanceof Object ? entity : oscard;

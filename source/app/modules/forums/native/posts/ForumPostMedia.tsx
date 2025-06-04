@@ -191,21 +191,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = copyDataProperties(output, sizing);
             verify = romeon.bind(report)(tangon, zuuluu);
  207:
-            tangon = option.obscureReason;
-            romeon = _closure1_slot0;
-            foxtra = _closure1_slot2;
+            zuuluu = option.obscureReason;
+            if(!(michal != zuuluu)) { _fun00006_ip = 268; continue _fun00005 }
+ 217:
+            tangon = _closure1_slot0;
+            romeon = _closure1_slot2;
             zuuluu = 14;
-            zuuluu = foxtra[zuuluu];
-            zuuluu = romeon.bind(report)(zuuluu);
-            zuuluu = zuuluu.ObscureReason;
-            zuuluu = zuuluu.EXPLICIT_CONTENT;
-            if(!(tangon === zuuluu)) { _fun00006_ip = 255; continue _fun00005 }
- 249:
-            if(entity) { _fun00006_ip = 452; continue _fun00005 }
- 255:
+            zuuluu = romeon[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            romeon = zuuluu.AGE_VERIFICATION_OBSCURABLE_REASONS;
+            tangon = romeon.has;
+            zuuluu = option.obscureReason;
+            zuuluu = tangon.bind(romeon)(zuuluu);
+            if(!zuuluu) { _fun00006_ip = 268; continue _fun00005 }
+ 262:
+            if(entity) { _fun00006_ip = 465; continue _fun00005 }
+ 268:
             entity = option.onPress;
-            if(!(michal == entity)) { _fun00006_ip = 321; continue _fun00005 }
- 264:
+            if(!(michal == entity)) { _fun00006_ip = 334; continue _fun00005 }
+ 277:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot5;
             entity = {};
@@ -218,8 +222,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['ref'] = oscard;
             entity['children'] = verify;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00006_ip = 450; continue _fun00005;
- 321:
+            _fun00006_ip = 463; continue _fun00005;
+ 334:
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -265,9 +269,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = backup.bind(report)(foxtra, romeon);
             michal['children'] = romeon;
             entity = tangon.bind(report)(zuuluu, michal);
- 450:
-            _fun00006_ip = 573; continue _fun00005;
- 452:
+ 463:
+            _fun00006_ip = 586; continue _fun00005;
+ 465:
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -312,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 573:
+ 586:
             return entity;
         }
     };

@@ -2688,7 +2688,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = argFoo;
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00022_ip = 482; continue _fun00021 }
+                    if(zuuluu) { _fun00022_ip = 476; continue _fun00021 }
  18:
                     backup = option;
                     golfie = michal;
@@ -2763,7 +2763,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  109:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(option) { _fun00022_ip = 479; continue _fun00021 }
+                    if(option) { _fun00022_ip = 473; continue _fun00021 }
  118:
                     yankee = michal.totalSize;
                     verify = michal.largestUploadedFileSize;
@@ -2773,7 +2773,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = kiloes.max;
                     option = _closure1_slot15;
                     option = foxtra.bind(kiloes)(sizing, option);
-                    if(!(!(verify > option))) { _fun00022_ip = 471; continue _fun00021 }
+                    if(!(!(verify > option))) { _fun00022_ip = 465; continue _fun00021 }
  163:
                     verify = yankee;
                     kiloes = _closure1_slot0;
@@ -2782,27 +2782,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option[foxtra];
                     option = kiloes.bind(oscard)(option);
                     option = option.MAX_TOTAL_ATTACHMENT_SIZE;
-                    if(!(!(verify > option))) { _fun00022_ip = 471; continue _fun00021 }
+                    if(!(!(verify > option))) { _fun00022_ip = 465; continue _fun00021 }
  199: // try_start_0
-                    verify = _closure1_slot0;
+                    verify = _closure1_slot1;
                     kiloes = _closure1_slot3;
                     option = 34;
                     option = kiloes[option];
-                    kiloes = verify.bind(oscard)(option);
-                    verify = kiloes.stageAttachmentFiles;
+                    verify = verify.bind(oscard)(option);
                     option = backup;
-                    option = verify.bind(kiloes)(option);
-                    SaveGenerator(address=237);
- 235:
+                    option = verify.bind(oscard)(option);
+                    SaveGenerator(address=231);
+ 229:
                     return option;
- 237:
+ 231:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(verify) { _fun00022_ip = 245; continue _fun00021 }
- 243: // try_end0
-                    _fun00022_ip = 354; continue _fun00021;
- 245:
+                    if(verify) { _fun00022_ip = 239; continue _fun00021 }
+ 237: // try_end0
+                    _fun00022_ip = 348; continue _fun00021;
+ 239:
                     return option;
- 248: // catch_target0
+ 242: // catch_target0
                     CatchBlockStart(arg_register=7);
                     verify = _closure1_slot2;
                     echoed = _closure1_slot3;
@@ -2827,18 +2826,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['count'] = echoed;
                     golfie = output.bind(result)(sizing, golfie);
                     golfie = verify.bind(kiloes)(option, oscard, golfie);
- 354:
+ 348:
                     verify = _closure1_slot25;
                     option = backup;
                     golfie = true;
                     golfie = verify.bind(oscard)(option, golfie);
-                    SaveGenerator(address=373);
- 371:
+                    SaveGenerator(address=367);
+ 365:
                     return golfie;
- 373:
+ 367:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00022_ip = 468; continue _fun00021 }
- 379:
+                    if(option) { _fun00022_ip = 462; continue _fun00021 }
+ 373:
                     yankee = golfie.totalSize;
                     tangon = golfie.largestUploadedFileSize;
                     kiloes = backup;
@@ -2853,33 +2852,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     romeon = backup.bind(kiloes)(romeon);
                     verify = romeon;
-                    if(romeon) { _fun00022_ip = 443; continue _fun00021 }
- 416:
+                    if(romeon) { _fun00022_ip = 437; continue _fun00021 }
+ 410:
                     romeon = _closure1_slot0;
                     offset = _closure1_slot3;
                     offset = offset[foxtra];
                     offset = romeon.bind(oscard)(offset);
                     offset = offset.MAX_TOTAL_ATTACHMENT_SIZE;
                     verify = yankee > offset;
- 443:
+ 437:
                     verify = !verify;
                     option = verify;
-                    if(verify) { _fun00022_ip = 465; continue _fun00021 }
- 452:
+                    if(verify) { _fun00022_ip = 459; continue _fun00021 }
+ 446:
                     offset = report;
                     verify = tangon;
                     verify = offset.bind(oscard)(verify);
                     option = false;
- 465:
+ 459:
                     return option;
- 468:
+ 462:
                     return golfie;
- 471:
+ 465:
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 479:
+ 473:
                     return michal;
- 482:
+ 476:
                     return entity;
                 }
             };

@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report['config'] = offset;
     offset = new Array(2);
     offset[0] = report;
-    yankee = {'id': 2, 'label': 'Disabled'};
+    yankee = {'id': 2, 'label': 'Enabled with Debug Setting'};
     report = 2;
     romeon = {'enabled': true, 'showSetting': true};
     yankee['config'] = romeon;

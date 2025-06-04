@@ -315,6 +315,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['INVITE_ACCEPT'] = michal;
     michal = 'impression_localized_pricing_upsell_viewed';
     tangon['LOCALIZED_PRICING_UPSELL_VIEWED'] = michal;
+    michal = 'impression_masked_link_modal';
+    tangon['MASKED_LINK_MODAL'] = michal;
     michal = 'impression_messages_empty_nux';
     tangon['MESSAGES_EMPTY_NUX'] = michal;
     michal = 'impression_multi_account_switch_landing';

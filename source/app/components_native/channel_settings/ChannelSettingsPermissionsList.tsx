@@ -574,7 +574,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = tangon === entity;
                     report = _closure2_slot4;
                     entity = null;
-                    if(!(entity != report)) { _fun00012_ip = 342; continue _fun00011 }
+                    if(!(entity != report)) { _fun00012_ip = 352; continue _fun00011 }
  79:
                     verify = _closure2_slot1;
                     report = _closure1_slot11;
@@ -648,8 +648,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = {};
                     yankee = offset.name;
                     option['name'] = yankee;
-                    offset = offset.colorString;
-                    option['color'] = offset;
+                    yankee = offset.colorString;
+                    option['color'] = yankee;
+                    offset = offset.colorStrings;
+                    option['colors'] = offset;
                     option = report.bind(tangon)(verify, option);
                     michal['label'] = option;
                     golfie = function() { // Original name: onPress
@@ -671,7 +673,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['start'] = oscard;
                     michal = report.bind(tangon)(zuuluu, michal);
                     return michal;
- 342:
+ 352:
                     return entity;
                 }
             };

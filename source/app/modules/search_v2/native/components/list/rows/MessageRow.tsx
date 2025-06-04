@@ -417,19 +417,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             entity = entity.bind(tangon)(verify);
             sizing = entity.nick;
-            kiloes = entity.colorString;
-            oscard = entity.colorStrings;
+            source = entity.colorString;
+            kiloes = entity.colorStrings;
             entity = 'username';
             if(!(entity === romeon)) { _fun00010_ip = 131; continue _fun00009 }
  125:
             entity = null;
-            if(!(entity == kiloes)) { _fun00010_ip = 135; continue _fun00009 }
+            if(!(entity == source)) { _fun00010_ip = 135; continue _fun00009 }
  131:
             output = {};
             _fun00010_ip = 144; continue _fun00009;
  135:
             entity = {};
-            entity['color'] = kiloes;
+            entity['color'] = source;
             output = entity;
  144:
             michal = _closure1_slot0;
@@ -438,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu[entity];
             report = michal.bind(tangon)(entity);
             entity = report.useProcessColorStringsArray;
-            echoed = entity.bind(report)(oscard);
+            echoed = entity.bind(report)(kiloes);
             entity = 26;
             entity = zuuluu[entity];
             zuuluu = michal.bind(tangon)(entity);
@@ -460,23 +460,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!oscard) { _fun00010_ip = 262; continue _fun00009 }
  256:
             romeon = null;
-            oscard = romeon != kiloes;
+            oscard = romeon != source;
  262:
-            if(!oscard) { _fun00010_ip = 315; continue _fun00009 }
+            if(!oscard) { _fun00010_ip = 319; continue _fun00009 }
  265:
             backup = _closure1_slot10;
             foxtra = _closure1_slot0;
-            source = _closure1_slot2;
+            ctrled = _closure1_slot2;
             romeon = 27;
-            romeon = source[romeon];
+            romeon = ctrled[romeon];
             romeon = foxtra.bind(tangon)(romeon);
             foxtra = romeon.RoleDot;
             romeon = {};
-            source = 'small';
-            romeon['size'] = source;
-            romeon['color'] = kiloes;
+            ctrled = 'small';
+            romeon['size'] = ctrled;
+            romeon['color'] = source;
+            romeon['colors'] = kiloes;
             oscard = backup.bind(tangon)(foxtra, romeon);
- 315:
+ 319:
             romeon = new Array(2);
             romeon[0] = oscard;
             kiloes = _closure1_slot10;
@@ -489,10 +490,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = {'variant': 'text-sm/semibold', 'color': 'interactive-active', 'lineClamp': 1};
             foxtra['style'] = output;
             output = undefined;
-            if(!update) { _fun00010_ip = 378; continue _fun00009 }
- 375:
+            if(!update) { _fun00010_ip = 382; continue _fun00009 }
+ 379:
             output = echoed;
- 378:
+ 382:
             foxtra['gradientColors'] = output;
             foxtra['children'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
@@ -521,10 +522,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.extractTimestamp;
             foxtra = verify.id;
             oscard = null;
-            if(!(oscard == foxtra)) { _fun00010_ip = 521; continue _fun00009 }
- 516:
+            if(!(oscard == foxtra)) { _fun00010_ip = 525; continue _fun00009 }
+ 520:
             foxtra = result.id;
- 521:
+ 525:
             foxtra = sizing.bind(output)(foxtra);
             foxtra = backup.bind(kiloes)(foxtra);
             option['children'] = foxtra;
@@ -533,8 +534,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.isPoll;
             option = option.bind(verify)();
             oscard = null;
-            if(!option) { _fun00010_ip = 602; continue _fun00009 }
- 560:
+            if(!option) { _fun00010_ip = 606; continue _fun00009 }
+ 564:
             verify = _closure1_slot10;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -545,7 +546,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.pollBadge;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 602:
+ 606:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

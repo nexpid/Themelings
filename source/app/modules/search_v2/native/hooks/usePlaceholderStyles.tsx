@@ -26,10 +26,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = tangon.FADE_LAYOUT_ANIMATION_DURATION;
     var _closure1_slot4 = tangon;
     tangon = {};
-    golfie = 'function usePlaceholderStylesTsx1(){const{useReducedMotion,visible,isImprovedLoadingStateEnabled,withRepeat,withSequence,withTiming,STANDARD_EASING,FADE_LAYOUT_ANIMATION_DURATION}=this.__closure;if(useReducedMotion){return{opacity:visible?isImprovedLoadingStateEnabled?1:0.7:0};}if(visible){return{opacity:withRepeat(withSequence(withTiming(isImprovedLoadingStateEnabled?0.5:0.3,{duration:0}),withTiming(isImprovedLoadingStateEnabled?1:0.7,{duration:1300,easing:STANDARD_EASING}),withTiming(isImprovedLoadingStateEnabled?0.5:0.3,{duration:1300,easing:STANDARD_EASING})),-1)};}return{opacity:withTiming(0,{duration:FADE_LAYOUT_ANIMATION_DURATION})};}';
+    golfie = 'function usePlaceholderStylesTsx1(){const{useReducedMotion,visible,withRepeat,withSequence,withTiming,STANDARD_EASING,FADE_LAYOUT_ANIMATION_DURATION}=this.__closure;if(useReducedMotion){return{opacity:visible?1:0};}if(visible){return{opacity:withRepeat(withSequence(withTiming(0.5,{duration:0}),withTiming(1,{duration:1300,easing:STANDARD_EASING}),withTiming(0.5,{duration:1300,easing:STANDARD_EASING})),-1)};}return{opacity:withTiming(0,{duration:FADE_LAYOUT_ANIMATION_DURATION})};}';
     tangon['code'] = golfie;
     var _closure1_slot5 = tangon;
-    tangon = 8;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -60,8 +60,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['useFullscreenPlaceholderCount'] = tangon;
     michal = function(argFoo) { // Original name: usePlaceholderAnimatedStyle
-        yankee = argFoo;
-        var _closure2_slot0 = yankee;
+        offset = argFoo;
+        var _closure2_slot0 = offset;
         option = _closure1_slot0;
         verify = _closure1_slot2;
         michal = 3;
@@ -77,138 +77,100 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.useReducedMotion;
             return entity;
         };
-        romeon = report.bind(oscard)(zuuluu, michal);
-        var _closure2_slot1 = romeon;
-        michal = 4;
-        michal = verify[michal];
-        report = option.bind(golfie)(michal);
-        zuuluu = report.useIsSearchImprovedLoadingStatesExperimentEnabled;
-        michal = {};
-        oscard = 'usePlaceholderAnimatedStyle';
-        michal['location'] = oscard;
-        offset = zuuluu.bind(report)(michal);
-        var _closure2_slot2 = offset;
-        oscard = 5;
+        yankee = report.bind(oscard)(zuuluu, michal);
+        var _closure2_slot1 = yankee;
+        oscard = 4;
         michal = verify[oscard];
         zuuluu = option.bind(golfie)(michal);
         michal = zuuluu.useAnimatedStyle;
-        entity = function() { // Original name: s
+        entity = function() { // Original name: A
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = _closure2_slot1;
                 michal = {};
-                report = _closure2_slot0;
-                if(entity) { _fun00002_ip = 368; continue _fun00001 }
+                tangon = _closure2_slot0;
+                if(entity) { _fun00002_ip = 290; continue _fun00001 }
  19:
-                oscard = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                if(report) { _fun00002_ip = 82; continue _fun00001 }
+                sizing = _closure1_slot0;
+                output = _closure1_slot2;
+                if(tangon) { _fun00002_ip = 82; continue _fun00001 }
  33:
-                entity = 6;
-                golfie = zuuluu[entity];
-                entity = undefined;
-                verify = oscard.bind(entity)(golfie);
-                option = verify.withTiming;
-                golfie = {};
+                zuuluu = 5;
+                report = output[zuuluu];
+                zuuluu = undefined;
+                oscard = sizing.bind(zuuluu)(report);
+                report = oscard.withTiming;
+                zuuluu = {};
                 entity = _closure1_slot4;
-                golfie['duration'] = entity;
+                zuuluu['duration'] = entity;
                 entity = 0;
-                entity = option.bind(verify)(entity, golfie);
+                entity = report.bind(oscard)(entity, zuuluu);
                 michal['opacity'] = entity;
                 entity = michal;
-                _fun00002_ip = 366; continue _fun00001;
+                _fun00002_ip = 288; continue _fun00001;
  82:
-                verify = 5;
-                golfie = zuuluu[verify];
-                output = undefined;
-                option = oscard.bind(output)(golfie);
-                golfie = option.withRepeat;
-                verify = zuuluu[verify];
-                yankee = oscard.bind(output)(verify);
-                offset = yankee.withSequence;
-                foxtra = 6;
-                zuuluu = zuuluu[foxtra];
-                romeon = oscard.bind(output)(zuuluu);
-                verify = romeon.withTiming;
-                zuuluu = _closure2_slot2;
-                backup = 0.3;
-                oscard = backup;
-                if(!zuuluu) { _fun00002_ip = 164; continue _fun00001 }
- 154:
-                oscard = 0.5;
- 164:
+                zuuluu = 4;
+                report = output[zuuluu];
+                kiloes = undefined;
+                golfie = sizing.bind(kiloes)(report);
+                oscard = golfie.withRepeat;
+                zuuluu = output[zuuluu];
+                offset = sizing.bind(kiloes)(zuuluu);
+                verify = offset.withSequence;
+                zuuluu = 5;
+                report = output[zuuluu];
+                yankee = sizing.bind(kiloes)(report);
+                option = yankee.withTiming;
+                report = {};
+                romeon = 0;
+                report['duration'] = romeon;
+                foxtra = 0.5;
+                option = option.bind(yankee)(foxtra, report);
+                report = output[zuuluu];
+                echoed = sizing.bind(kiloes)(report);
+                romeon = echoed.withTiming;
+                yankee = {};
+                result = 1300;
+                yankee['duration'] = result;
+                backup = 6;
+                report = output[backup];
+                report = sizing.bind(kiloes)(report);
+                report = report.STANDARD_EASING;
+                yankee['easing'] = report;
+                report = 1;
+                report = romeon.bind(echoed)(report, yankee);
+                zuuluu = output[zuuluu];
+                romeon = sizing.bind(kiloes)(zuuluu);
+                yankee = romeon.withTiming;
                 zuuluu = {};
-                sizing = 0;
-                zuuluu['duration'] = sizing;
-                verify = verify.bind(romeon)(oscard, zuuluu);
-                oscard = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                zuuluu = zuuluu[foxtra];
-                source = oscard.bind(output)(zuuluu);
-                update = source.withTiming;
-                zuuluu = _closure2_slot2;
-                echoed = 0.7;
-                if(!zuuluu) { _fun00002_ip = 220; continue _fun00001 }
- 217:
-                echoed = 1;
- 220:
-                oscard = {};
-                sizing = 1300;
-                oscard['duration'] = sizing;
-                romeon = _closure1_slot0;
-                zuuluu = _closure1_slot2;
-                result = 7;
-                ctrled = zuuluu[result];
-                ctrled = romeon.bind(output)(ctrled);
-                ctrled = ctrled.STANDARD_EASING;
-                oscard['easing'] = ctrled;
-                oscard = update.bind(source)(echoed, oscard);
-                zuuluu = zuuluu[foxtra];
-                foxtra = romeon.bind(output)(zuuluu);
-                romeon = foxtra.withTiming;
-                zuuluu = _closure2_slot2;
-                if(!zuuluu) { _fun00002_ip = 300; continue _fun00001 }
- 290:
-                backup = 0.5;
- 300:
-                zuuluu = {};
-                zuuluu['duration'] = sizing;
-                sizing = _closure1_slot0;
-                kiloes = _closure1_slot2;
-                kiloes = kiloes[result];
-                kiloes = sizing.bind(output)(kiloes);
-                kiloes = kiloes.STANDARD_EASING;
-                zuuluu['easing'] = kiloes;
-                zuuluu = romeon.bind(foxtra)(backup, zuuluu);
-                oscard = offset.bind(yankee)(verify, oscard, zuuluu);
+                zuuluu['duration'] = result;
+                backup = output[backup];
+                backup = sizing.bind(kiloes)(backup);
+                backup = backup.STANDARD_EASING;
+                zuuluu['easing'] = backup;
+                zuuluu = yankee.bind(romeon)(foxtra, zuuluu);
+                report = verify.bind(offset)(option, report, zuuluu);
                 zuuluu = -1;
-                zuuluu = golfie.bind(option)(oscard, zuuluu);
+                zuuluu = oscard.bind(golfie)(report, zuuluu);
                 michal['opacity'] = zuuluu;
                 entity = michal;
- 366:
-                _fun00002_ip = 403; continue _fun00001;
- 368:
+ 288:
+                _fun00002_ip = 305; continue _fun00001;
+ 290:
                 zuuluu = 0;
-                if(!report) { _fun00002_ip = 396; continue _fun00001 }
- 373:
-                report = _closure2_slot2;
-                tangon = 0.7;
-                if(!report) { _fun00002_ip = 393; continue _fun00001 }
- 390:
-                tangon = 1;
- 393:
-                zuuluu = tangon;
- 396:
+                if(!tangon) { _fun00002_ip = 298; continue _fun00001 }
+ 295:
+                zuuluu = 1;
+ 298:
                 michal['opacity'] = zuuluu;
                 entity = michal;
- 403:
+ 305:
                 return entity;
             }
         };
         report = {};
-        report['useReducedMotion'] = romeon;
-        report['visible'] = yankee;
-        report['isImprovedLoadingStateEnabled'] = offset;
+        report['useReducedMotion'] = yankee;
+        report['visible'] = offset;
         offset = verify[oscard];
         offset = option.bind(golfie)(offset);
         offset = offset.withRepeat;
@@ -217,12 +179,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = option.bind(golfie)(oscard);
         oscard = oscard.withSequence;
         report['withSequence'] = oscard;
-        oscard = 6;
+        oscard = 5;
         oscard = verify[oscard];
         oscard = option.bind(golfie)(oscard);
         oscard = oscard.withTiming;
         report['withTiming'] = oscard;
-        oscard = 7;
+        oscard = 6;
         oscard = verify[oscard];
         oscard = option.bind(golfie)(oscard);
         oscard = oscard.STANDARD_EASING;
@@ -230,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = _closure1_slot4;
         report['FADE_LAYOUT_ANIMATION_DURATION'] = oscard;
         entity['__closure'] = report;
-        report = 4016685585654.0;
+        report = 9750536800906.0;
         entity['__workletHash'] = report;
         tangon = _closure1_slot5;
         entity['__initData'] = tangon;

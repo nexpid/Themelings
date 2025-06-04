@@ -82,34 +82,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['icon'] = oscard;
             golfie = null;
             oscard = golfie != verify;
-            if(!oscard) { _fun00002_ip = 180; continue _fun00001 }
- 162:
+            if(!oscard) { _fun00002_ip = 176; continue _fun00001 }
+ 158:
             offset = verify.globalName;
-            if(!(golfie == offset)) { _fun00002_ip = 177; continue _fun00001 }
- 172:
+            if(!(golfie == offset)) { _fun00002_ip = 173; continue _fun00001 }
+ 168:
             offset = verify.username;
- 177:
+ 173:
             oscard = offset;
- 180:
+ 176:
             entity['label'] = oscard;
             offset = golfie == verify;
             oscard = undefined;
-            if(offset) { _fun00002_ip = 201; continue _fun00001 }
- 195:
+            if(offset) { _fun00002_ip = 197; continue _fun00001 }
+ 191:
             oscard = verify.globalName;
- 201:
+ 197:
             offset = golfie != oscard;
             oscard = undefined;
-            if(!offset) { _fun00002_ip = 227; continue _fun00001 }
- 210:
+            if(!offset) { _fun00002_ip = 223; continue _fun00001 }
+ 206:
             offset = golfie == verify;
             golfie = undefined;
-            if(offset) { _fun00002_ip = 224; continue _fun00001 }
- 219:
+            if(offset) { _fun00002_ip = 220; continue _fun00001 }
+ 215:
             golfie = verify.username;
- 224:
+ 220:
             oscard = golfie;
- 227:
+ 223:
             entity['subLabel'] = oscard;
             golfie = {};
             oscard = 'unblock';

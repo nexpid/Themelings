@@ -627,7 +627,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = output.bind(tangon)(romeon, yankee);
             option[2] = yankee;
             verify = null;
-            if(!offset) { _fun00002_ip = 1452; continue _fun00001 }
+            if(!offset) { _fun00002_ip = 1448; continue _fun00001 }
  1320:
             romeon = _closure1_slot13;
             yankee = _closure1_slot6;
@@ -737,7 +737,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = romeon.bind(tangon)(backup, foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1452:
+ 1448:
             option[3] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

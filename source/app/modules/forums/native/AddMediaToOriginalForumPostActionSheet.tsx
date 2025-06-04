@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 972; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 960; continue _fun00001 }
  15:
                     report = michal.threadId;
                     offset = report;
@@ -46,20 +46,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return report;
  94:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 969; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 957; continue _fun00001 }
  103:
                     update = _closure1_slot1;
                     sizing = _closure1_slot2;
                     result = 12;
                     result = sizing[result];
-                    source = update.bind(report)(result);
-                    result = source.prototype;
-                    echoed = Object.create(result, {constructor: {value: source}});
-                    result = 'unused';
+                    result = update.bind(report)(result);
+                    echoed = result.prototype;
+                    echoed = Object.create(echoed, {constructor: {value: result}});
                     record = echoed;
-                    config = result;
-                    sequen = result;
-                    result = new record[source](config, sequen, vacuum);
+                    result = new record[result](config);
                     ctrled = result instanceof Object ? result : echoed;
                     foxtra = ctrled;
                     _closure4_slot4 = ctrled;
@@ -173,25 +170,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = sizing.bind(update)(source);
                     echoed = result.bind(echoed)(sizing);
                     sizing = null;
-                    if(!(sizing == echoed)) { _fun00002_ip = 320; continue _fun00001 }
- 314:
+                    if(!(sizing == echoed)) { _fun00002_ip = 308; continue _fun00001 }
+ 302:
                     result = new Array(0);
-                    _fun00002_ip = 326; continue _fun00001;
- 320:
+                    _fun00002_ip = 314; continue _fun00001;
+ 308:
                     result = echoed.attachments;
- 326:
+ 314:
                     yankee = result;
- 329: // try_start_0
+ 317: // try_start_0
                     result = foxtra;
                     foxtra = result.uploadFilesSimple;
                     oscard = foxtra.bind(result)(oscard);
-                    SaveGenerator(address=347);
- 345:
+                    SaveGenerator(address=335);
+ 333:
                     return oscard;
- 347:
+ 335:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=12);
-                    if(foxtra) { _fun00002_ip = 845; continue _fun00001 }
- 356:
+                    if(foxtra) { _fun00002_ip = 833; continue _fun00001 }
+ 344:
                     foxtra = 0;
                     sequen = yankee;
                     yankee = new Array(0);
@@ -214,19 +211,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     backup = result.bind(oscard)(backup);
                     romeon = backup;
-                    if(!(sizing == backup)) { _fun00002_ip = 404; continue _fun00001 }
- 398:
+                    if(!(sizing == backup)) { _fun00002_ip = 392; continue _fun00001 }
+ 386:
                     backup = new Array(0);
-                    _fun00002_ip = 407; continue _fun00001;
- 404:
+                    _fun00002_ip = 395; continue _fun00001;
+ 392:
                     backup = romeon;
- 407:
+ 395:
                     vacuum = foxtra;
                     config = yankee;
                     sequen = backup;
                     foxtra = arraySpread(config, sequen, vacuum);
                     output = yankee;
- 423: // try_start_1 // try_end0
+ 411: // try_start_1 // try_end0
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
                     yankee = 20;
@@ -251,17 +248,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = true;
                     yankee['rejectWithError'] = backup;
                     yankee = romeon.bind(foxtra)(yankee);
-                    SaveGenerator(address=529);
- 527:
+                    SaveGenerator(address=517);
+ 515:
                     return yankee;
- 529:
+ 517:
                     ResumeGenerator(result_out_reg=10, return_bool_out_reg=11);
-                    if(romeon) { _fun00002_ip = 540; continue _fun00001 }
- 535: // try_end1
-                    _fun00002_ip = 842; continue _fun00001;
- 540:
+                    if(romeon) { _fun00002_ip = 528; continue _fun00001 }
+ 523: // try_end1
+                    _fun00002_ip = 830; continue _fun00001;
+ 528:
                     return yankee;
- 543: // catch_target1
+ 531: // catch_target1
                     CatchBlockStart(arg_register=12);
                     romeon = tangon;
                     yankee = false;
@@ -286,8 +283,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = yankee.code;
                     yankee = _closure1_slot11;
                     yankee = yankee.EXPLICIT_CONTENT;
-                    if(!(romeon !== yankee)) { _fun00002_ip = 772; continue _fun00001 }
- 645:
+                    if(!(romeon !== yankee)) { _fun00002_ip = 760; continue _fun00001 }
+ 633:
                     romeon = _closure1_slot1;
                     update = _closure1_slot2;
                     yankee = 24;
@@ -311,18 +308,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = output.getAnyErrorMessage;
                     backup = backup.bind(output)();
                     kiloes = backup;
-                    if(!(sizing == backup)) { _fun00002_ip = 758; continue _fun00001 }
- 748:
+                    if(!(sizing == backup)) { _fun00002_ip = 746; continue _fun00001 }
+ 736:
                     backup = verify;
                     backup = backup.message;
-                    _fun00002_ip = 761; continue _fun00001;
- 758:
+                    _fun00002_ip = 749; continue _fun00001;
+ 746:
                     backup = kiloes;
- 761:
+ 749:
                     yankee['body'] = backup;
                     yankee = romeon.bind(foxtra)(yankee);
-                    _fun00002_ip = 842; continue _fun00001;
- 772:
+                    _fun00002_ip = 830; continue _fun00001;
+ 760:
                     romeon = _closure1_slot1;
                     kiloes = _closure1_slot2;
                     yankee = 22;
@@ -338,11 +335,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.TrackMediaRedactionContext;
                     verify = verify.EXPLICIT_MEDIA_ADD_MEDIA_TO_FORUM_POST_BLOCKED;
                     verify = romeon.bind(foxtra)(yankee, offset, verify);
- 842:
+ 830:
                     return report;
- 845:
+ 833:
                     return oscard;
- 848: // catch_target0
+ 836: // catch_target0
                     CatchBlockStart(arg_register=5);
                     verify = tangon;
                     tangon = false;
@@ -372,9 +369,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.bind(report)(zuuluu);
                     zuuluu = undefined;
                     return zuuluu;
- 969:
+ 957:
                     return michal;
- 972:
+ 960:
                     return entity;
                 }
             };

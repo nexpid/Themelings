@@ -106,8 +106,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = null;
             entity = tangon != michal;
             oscard = null;
-            if(!entity) { _fun00004_ip = 77; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 92; continue _fun00003 }
  14:
+            entity = michal.brandColorPrimary;
+            entity = tangon == entity;
+            oscard = null;
+            if(!entity) { _fun00004_ip = 92; continue _fun00003 }
+ 29:
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 5;
@@ -123,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 64;
             entity['size'] = golfie;
             oscard = zuuluu.bind(report)(entity);
- 77:
+ 92:
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 6;
@@ -133,14 +138,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             entity = report.bind(zuuluu)(oscard, entity);
             report = tangon == michal;
-            if(report) { _fun00004_ip = 124; continue _fun00003 }
- 118:
+            if(report) { _fun00004_ip = 139; continue _fun00003 }
+ 133:
             zuuluu = michal.brandColorPrimary;
- 124:
-            if(!(tangon != zuuluu)) { _fun00004_ip = 134; continue _fun00003 }
- 128:
+ 139:
+            if(!(tangon != zuuluu)) { _fun00004_ip = 149; continue _fun00003 }
+ 143:
             entity = michal.brandColorPrimary;
- 134:
+ 149:
             return entity;
         }
     };

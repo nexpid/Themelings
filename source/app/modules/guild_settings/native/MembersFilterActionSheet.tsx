@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = null;
                     foxtra = romeon != sizing;
  107:
-                    if(!foxtra) { _fun00006_ip = 173; continue _fun00005 }
+                    if(!foxtra) { _fun00006_ip = 183; continue _fun00005 }
  110:
                     output = _closure1_slot8;
                     sizing = _closure1_slot0;
@@ -286,8 +286,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon['containerStyles'] = result;
                     result = kiloes.colorString;
                     romeon['color'] = result;
+                    result = kiloes.colorStrings;
+                    romeon['colors'] = result;
                     foxtra = output.bind(entity)(sizing, romeon);
- 173:
+ 183:
                     romeon = new Array(2);
                     romeon[0] = foxtra;
                     output = _closure1_slot8;
@@ -308,18 +310,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = null;
                     update = ctrled != echoed;
                     echoed = null;
-                    if(!update) { _fun00006_ip = 283; continue _fun00005 }
- 254:
+                    if(!update) { _fun00006_ip = 293; continue _fun00005 }
+ 264:
                     source = _closure2_slot5;
                     update = 'username';
                     echoed = null;
-                    if(!(update === source)) { _fun00006_ip = 283; continue _fun00005 }
- 268:
+                    if(!(update === source)) { _fun00006_ip = 293; continue _fun00005 }
+ 278:
                     update = {};
                     source = kiloes.colorString;
                     update['color'] = source;
                     echoed = update;
- 283:
+ 293:
                     result[1] = echoed;
                     foxtra['style'] = result;
                     result = kiloes.name;

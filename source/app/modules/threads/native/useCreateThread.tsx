@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             StartGenerator();
                             zuuluu = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                            if(tangon) { _fun00004_ip = 204; continue _fun00003 }
+                            if(tangon) { _fun00004_ip = 192; continue _fun00003 }
  15:
                             var _closure5_slot0 = zuuluu;
                             golfie = undefined;
@@ -188,14 +188,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             option = _closure1_slot2;
                             tangon = 9;
                             tangon = option[tangon];
-                            verify = oscard.bind(golfie)(tangon);
-                            tangon = verify.prototype;
-                            oscard = Object.create(tangon, {constructor: {value: verify}});
-                            tangon = 'unneeded';
-                            romeon = oscard;
-                            yankee = tangon;
-                            offset = tangon;
-                            tangon = new romeon[verify](yankee, offset, verify);
+                            tangon = oscard.bind(golfie)(tangon);
+                            oscard = tangon.prototype;
+                            oscard = Object.create(oscard, {constructor: {value: tangon}});
+                            yankee = oscard;
+                            tangon = new yankee[tangon](offset);
                             tangon = tangon instanceof Object ? tangon : oscard;
                             _closure5_slot1 = tangon;
                             oscard = _closure1_slot0;
@@ -258,21 +255,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = oscard.bind(tangon)(report, michal);
                             michal = tangon.uploadFilesSimple;
                             michal = michal.bind(tangon)(zuuluu);
-                            SaveGenerator(address=174);
- 172:
+                            SaveGenerator(address=162);
+ 160:
                             return michal;
- 174:
+ 162:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00004_ip = 201; continue _fun00003 }
- 180:
+                            if(zuuluu) { _fun00004_ip = 189; continue _fun00003 }
+ 168:
                             zuuluu = {};
                             tangon = tangon._file;
                             zuuluu['uploaderFile'] = tangon;
                             zuuluu['files'] = michal;
                             return zuuluu;
- 201:
+ 189:
                             return michal;
- 204:
+ 192:
                             return entity;
                         }
                     };

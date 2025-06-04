@@ -57,7 +57,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             verify = entity.name;
-            romeon = entity.color;
+            foxtra = entity.color;
+            romeon = entity.colors;
             michal = _closure1_slot0;
             zuuluu = _closure1_slot1;
             entity = 4;
@@ -77,17 +78,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             entity = 'username';
             entity = entity === golfie;
-            if(!entity) { _fun00002_ip = 89; continue _fun00001 }
- 83:
+            if(!entity) { _fun00002_ip = 94; continue _fun00001 }
+ 88:
             michal = null;
-            entity = michal != romeon;
- 89:
-            if(!entity) { _fun00002_ip = 101; continue _fun00001 }
- 92:
+            entity = michal != foxtra;
+ 94:
+            if(!entity) { _fun00002_ip = 106; continue _fun00001 }
+ 97:
             entity = {};
-            entity['color'] = romeon;
+            entity['color'] = foxtra;
             offset = entity;
- 101:
+ 106:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot2;
             entity = {};
@@ -96,27 +97,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = report;
             report = 'dot';
             golfie = report === golfie;
-            if(!golfie) { _fun00002_ip = 141; continue _fun00001 }
- 135:
+            if(!golfie) { _fun00002_ip = 146; continue _fun00001 }
+ 140:
             report = null;
-            golfie = report != romeon;
- 141:
-            if(!golfie) { _fun00002_ip = 201; continue _fun00001 }
- 144:
+            golfie = report != foxtra;
+ 146:
+            if(!golfie) { _fun00002_ip = 210; continue _fun00001 }
+ 149:
             yankee = _closure1_slot4;
             option = _closure1_slot0;
-            foxtra = _closure1_slot1;
+            backup = _closure1_slot1;
             report = 5;
-            report = foxtra[report];
+            report = backup[report];
             report = option.bind(tangon)(report);
             option = report.RoleDot;
             report = {};
-            report['color'] = romeon;
+            report['color'] = foxtra;
+            report['colors'] = romeon;
             romeon = _closure1_slot6;
             romeon = romeon.roleDot;
             report['containerStyles'] = romeon;
             golfie = yankee.bind(tangon)(option, report);
- 201:
+ 210:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot4;

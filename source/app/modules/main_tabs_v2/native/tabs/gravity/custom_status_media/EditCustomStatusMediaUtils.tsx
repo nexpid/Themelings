@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = argBar;
                     option = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 419; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 407; continue _fun00007 }
  16:
                     oscard = new Array(0);
                     zuuluu = _closure1_slot5;
@@ -238,24 +238,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = _closure1_slot2;
                     michal = 4;
                     michal = golfie[michal];
-                    golfie = zuuluu.bind(tangon)(michal);
-                    michal = golfie.prototype;
-                    zuuluu = Object.create(michal, {constructor: {value: golfie}});
-                    michal = 'unused';
+                    michal = zuuluu.bind(tangon)(michal);
+                    zuuluu = michal.prototype;
+                    zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
                     result = zuuluu;
-                    output = michal;
-                    sizing = michal;
-                    michal = new result[golfie](output, sizing, kiloes);
+                    michal = new result[michal](output);
                     zuuluu = michal instanceof Object ? michal : zuuluu;
                     michal = zuuluu.uploadFilesSimple;
                     michal = michal.bind(zuuluu)(oscard);
-                    SaveGenerator(address=235);
- 233:
+                    SaveGenerator(address=223);
+ 221:
                     return michal;
- 235:
+ 223:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 416; continue _fun00007 }
- 244:
+                    if(zuuluu) { _fun00008_ip = 404; continue _fun00007 }
+ 232:
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
                     zuuluu = 5;
@@ -289,13 +286,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = false;
                     zuuluu['rejectWithError'] = verify;
                     zuuluu = oscard.bind(golfie)(zuuluu);
-                    SaveGenerator(address=341);
- 339:
+                    SaveGenerator(address=329);
+ 327:
                     return zuuluu;
- 341:
+ 329:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00008_ip = 413; continue _fun00007 }
- 347:
+                    if(oscard) { _fun00008_ip = 401; continue _fun00007 }
+ 335:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
                     report = 7;
@@ -311,11 +308,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['createdAtMs'] = option;
                     report = oscard.bind(golfie)(report);
                     return tangon;
- 413:
+ 401:
                     return zuuluu;
- 416:
+ 404:
                     return michal;
- 419:
+ 407:
                     return entity;
                 }
             };

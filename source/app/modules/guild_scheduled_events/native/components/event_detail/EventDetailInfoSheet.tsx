@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  56:
                     entity = oscard != report;
  60:
-                    if(!entity) { _fun00010_ip = 125; continue _fun00009 }
+                    if(!entity) { _fun00010_ip = 135; continue _fun00009 }
  63:
                     option = _closure1_slot11;
                     oscard = _closure1_slot0;
@@ -528,10 +528,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = 'small';
                     report['size'] = verify;
                     verify = _closure2_slot5;
-                    verify = verify.colorString;
-                    report['color'] = verify;
+                    romeon = verify.colorString;
+                    report['color'] = romeon;
+                    verify = verify.colorStrings;
+                    report['colors'] = verify;
                     entity = option.bind(golfie)(oscard, report);
- 125:
+ 135:
                     report = new Array(2);
                     report[0] = entity;
                     option = _closure1_slot11;
@@ -547,36 +549,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = null;
                     foxtra = romeon != verify;
                     verify = undefined;
-                    if(!foxtra) { _fun00010_ip = 234; continue _fun00009 }
- 182:
+                    if(!foxtra) { _fun00010_ip = 244; continue _fun00009 }
+ 192:
                     backup = _closure2_slot3;
                     foxtra = 'username';
                     verify = undefined;
-                    if(!(foxtra === backup)) { _fun00010_ip = 234; continue _fun00009 }
- 196:
+                    if(!(foxtra === backup)) { _fun00010_ip = 244; continue _fun00009 }
+ 206:
                     foxtra = _closure2_slot5;
                     foxtra = foxtra.colorString;
                     foxtra = romeon != foxtra;
                     verify = undefined;
-                    if(!foxtra) { _fun00010_ip = 234; continue _fun00009 }
- 215:
+                    if(!foxtra) { _fun00010_ip = 244; continue _fun00009 }
+ 225:
                     foxtra = {};
                     backup = _closure2_slot5;
                     backup = backup.colorString;
                     foxtra['color'] = backup;
                     verify = foxtra;
- 234:
+ 244:
                     oscard['style'] = verify;
                     verify = _closure2_slot5;
                     foxtra = romeon == verify;
                     verify = undefined;
-                    if(foxtra) { _fun00010_ip = 261; continue _fun00009 }
- 251:
+                    if(foxtra) { _fun00010_ip = 271; continue _fun00009 }
+ 261:
                     foxtra = _closure2_slot5;
                     verify = foxtra.nick;
- 261:
-                    if(!(romeon == verify)) { _fun00010_ip = 300; continue _fun00009 }
- 265:
+ 271:
+                    if(!(romeon == verify)) { _fun00010_ip = 310; continue _fun00009 }
+ 275:
                     romeon = _closure1_slot1;
                     foxtra = _closure1_slot2;
                     yankee = 27;
@@ -585,7 +587,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = romeon.getName;
                     offset = _closure2_slot4;
                     verify = yankee.bind(romeon)(offset);
- 300:
+ 310:
                     oscard['children'] = verify;
                     oscard = option.bind(entity)(golfie, oscard);
                     report[1] = oscard;

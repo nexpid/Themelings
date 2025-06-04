@@ -951,19 +951,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             option = entity.channelId;
-            golfie = entity.messageRecord;
+            golfie = entity.messageId;
             oscard = entity.reason;
             zuuluu = entity.noSendFailed;
             report = entity.shouldSendNotification;
             tangon = null;
             entity = tangon != golfie;
-            if(!entity) { _fun00024_ip = 47; continue _fun00023 }
- 41:
+            if(!entity) { _fun00024_ip = 46; continue _fun00023 }
+ 40:
             michal = true;
             entity = michal !== zuuluu;
- 47:
-            if(!entity) { _fun00024_ip = 136; continue _fun00023 }
- 50:
+ 46:
+            if(!entity) { _fun00024_ip = 130; continue _fun00023 }
+ 49:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             entity = 27;
@@ -975,20 +975,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = 'MESSAGE_SEND_FAILED';
             entity['type'] = verify;
             entity['channelId'] = option;
-            golfie = golfie.id;
             entity['messageId'] = golfie;
             golfie = tangon != oscard;
             tangon = null;
-            if(!golfie) { _fun00024_ip = 115; continue _fun00023 }
- 112:
+            if(!golfie) { _fun00024_ip = 109; continue _fun00023 }
+ 106:
             tangon = oscard;
- 115:
+ 109:
             entity['reason'] = tangon;
             tangon = false;
             tangon = tangon !== report;
             entity['shouldNotify'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 136:
+ 130:
             entity = undefined;
             return entity;
         }

@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = 15;
             output = sequen[echoed];
             record = record.bind(report)(output);
-            output = record.getMaxQuality;
+            output = record.useMaxQuality;
             result = output.bind(record)(update);
             output = 16;
             output = sequen[output];

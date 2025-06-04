@@ -1614,6 +1614,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CHANNEL_REORDER_MODAL_DISMISS_SETTING'] = michal;
     entity = 'CHANNEL_REORDER_MODAL_DISMISS_SETTING';
     tangon[michal] = entity;
+    michal = 548;
+    tangon['CUSTOM_THEME_COACHMARK'] = michal;
+    entity = 'CUSTOM_THEME_COACHMARK';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

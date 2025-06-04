@@ -311,14 +311,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee['VIDEO'] = option;
     report = 'VIDEO';
     yankee[option] = report;
-    report = 13;
-    yankee['CLIENT_DISCONNECT'] = report;
-    foxtra = 'CLIENT_DISCONNECT';
-    yankee[report] = foxtra;
-    backup = 14;
-    yankee['SESSION_UPDATE'] = backup;
+    option = 13;
+    yankee['CLIENT_DISCONNECT'] = option;
+    report = 'CLIENT_DISCONNECT';
+    yankee[option] = report;
+    report = 14;
+    yankee['SESSION_UPDATE'] = report;
     foxtra = 'SESSION_UPDATE';
-    yankee[backup] = foxtra;
+    yankee[report] = foxtra;
     backup = 15;
     yankee['MEDIA_SINK_WANTS'] = backup;
     foxtra = 'MEDIA_SINK_WANTS';
@@ -658,31 +658,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 entity = report.bind(tangon)(entity);
  105:
-                report = zuuluu.Date;
-                entity = report.now;
-                entity = entity.bind(report)();
-                tangon['connectionStartTime'] = entity;
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot2;
+                entity = 10;
+                oscard = oscard[entity];
+                entity = undefined;
+                golfie = golfie.bind(entity)(oscard);
+                oscard = golfie.now;
+                oscard = oscard.bind(golfie)();
+                tangon['connectionStartTime'] = oscard;
                 golfie = zuuluu.setTimeout;
                 oscard = _closure1_slot15;
-                entity = undefined;
                 report = function() {
-                    entity = global;
-                    zuuluu = entity.Date;
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    entity = 10;
+                    michal = michal[entity];
+                    entity = undefined;
+                    zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.now;
                     zuuluu = michal.bind(zuuluu)();
-                    report = _closure3_slot0;
-                    michal = report.connectionStartTime;
-                    oscard = zuuluu - michal;
-                    tangon = report.handleClose;
-                    entity = entity.HermesInternal;
-                    zuuluu = entity.concat;
-                    michal = 'The connection timed out after ';
-                    entity = ' ms - did not receive OP_HELLO in time.';
-                    zuuluu = zuuluu.bind(michal)(oscard, entity);
-                    michal = false;
-                    entity = 0;
-                    entity = tangon.bind(report)(michal, entity, zuuluu);
-                    entity = undefined;
+                    oscard = _closure3_slot0;
+                    michal = oscard.connectionStartTime;
+                    golfie = zuuluu - michal;
+                    report = oscard.handleClose;
+                    michal = global;
+                    michal = michal.HermesInternal;
+                    tangon = michal.concat;
+                    zuuluu = 'The connection timed out after ';
+                    michal = ' ms - did not receive OP_HELLO in time.';
+                    tangon = tangon.bind(zuuluu)(golfie, michal);
+                    zuuluu = false;
+                    michal = 0;
+                    michal = report.bind(oscard)(zuuluu, michal, tangon);
                     return entity;
                 };
                 report = golfie.bind(entity)(report, oscard);
@@ -707,58 +715,62 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         michal = _closure3_slot0;
                         tangon = michal.connectionState;
-                        zuuluu = _closure1_slot14;
-                        zuuluu = zuuluu.CONNECTING;
-                        if(!(tangon !== zuuluu)) { _fun00016_ip = 72; continue _fun00015 }
+                        michal = _closure1_slot14;
+                        michal = michal.CONNECTING;
+                        if(!(tangon !== michal)) { _fun00016_ip = 72; continue _fun00015 }
  30:
-                        zuuluu = _closure3_slot0;
-                        tangon = zuuluu.connectionState;
-                        zuuluu = _closure1_slot14;
-                        zuuluu = zuuluu.RECONNECTING;
-                        if(!(tangon === zuuluu)) { _fun00016_ip = 97; continue _fun00015 }
+                        michal = _closure3_slot0;
+                        tangon = michal.connectionState;
+                        michal = _closure1_slot14;
+                        michal = michal.RECONNECTING;
+                        if(!(tangon === michal)) { _fun00016_ip = 97; continue _fun00015 }
  54:
                         tangon = _closure3_slot0;
-                        zuuluu = tangon.doResumeOrClose;
-                        zuuluu = zuuluu.bind(tangon)();
+                        michal = tangon.doResumeOrClose;
+                        michal = michal.bind(tangon)();
                         _fun00016_ip = 97; continue _fun00015;
  72:
                         report = _closure3_slot0;
                         tangon = report.emit;
-                        zuuluu = _closure1_slot18;
-                        zuuluu = zuuluu.Connect;
-                        zuuluu = tangon.bind(report)(zuuluu);
+                        michal = _closure1_slot18;
+                        michal = michal.Connect;
+                        michal = tangon.bind(report)(michal);
  97:
-                        tangon = _closure3_slot0;
+                        report = _closure3_slot0;
                         entity = _closure1_slot14;
                         entity = entity.CONNECTED;
-                        tangon['connectionState'] = entity;
-                        entity = global;
-                        report = entity.Date;
-                        zuuluu = report.now;
-                        report = zuuluu.bind(report)();
-                        zuuluu = tangon.connectionStartTime;
-                        golfie = report - zuuluu;
-                        oscard = tangon.logger;
-                        report = oscard.info;
-                        kiloes = tangon.url;
-                        zuuluu = entity.HermesInternal;
-                        offset = zuuluu.concat;
-                        sizing = '[CONNECTED] ';
-                        backup = ' in ';
-                        romeon = ' ms';
-                        foxtra = golfie;
-                        zuuluu = sizing[offset](kiloes, backup, foxtra, romeon, yankee);
-                        zuuluu = report.bind(oscard)(zuuluu);
-                        zuuluu = tangon.emit;
-                        michal = _closure1_slot18;
-                        michal = michal.Ping;
-                        oscard = entity.Math;
-                        report = oscard.round;
-                        entity = 2;
-                        entity = golfie / entity;
-                        entity = report.bind(oscard)(entity);
-                        entity = zuuluu.bind(tangon)(michal, entity);
+                        report['connectionState'] = entity;
+                        tangon = _closure1_slot0;
+                        michal = _closure1_slot2;
+                        entity = 10;
+                        michal = michal[entity];
                         entity = undefined;
+                        tangon = tangon.bind(entity)(michal);
+                        michal = tangon.now;
+                        tangon = michal.bind(tangon)();
+                        michal = report.connectionStartTime;
+                        option = tangon - michal;
+                        golfie = report.logger;
+                        oscard = golfie.info;
+                        sizing = report.url;
+                        michal = global;
+                        tangon = michal.HermesInternal;
+                        yankee = tangon.concat;
+                        output = '[CONNECTED] ';
+                        kiloes = ' in ';
+                        foxtra = ' ms';
+                        backup = option;
+                        tangon = output[yankee](sizing, kiloes, backup, foxtra, romeon);
+                        tangon = oscard.bind(golfie)(tangon);
+                        tangon = report.emit;
+                        zuuluu = _closure1_slot18;
+                        zuuluu = zuuluu.Ping;
+                        golfie = michal.Math;
+                        oscard = golfie.round;
+                        michal = 2;
+                        michal = option / michal;
+                        michal = oscard.bind(golfie)(michal);
+                        michal = tangon.bind(report)(zuuluu, michal);
                         return entity;
                     }
                 };
@@ -1470,45 +1482,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = function() { // Original name: value
             _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
-                michal = this;
-                entity = global;
-                zuuluu = entity.Date;
-                entity = zuuluu.now;
-                entity = entity.bind(zuuluu)();
-                zuuluu = michal.serverId;
-                tangon = null;
-                if(!(tangon !== zuuluu)) { _fun00024_ip = 92; continue _fun00023 }
- 32:
-                zuuluu = michal.token;
-                if(!(tangon !== zuuluu)) { _fun00024_ip = 92; continue _fun00023 }
- 42:
-                zuuluu = michal.sessionId;
-                if(!(tangon !== zuuluu)) { _fun00024_ip = 92; continue _fun00023 }
- 52:
-                zuuluu = michal.resumable;
-                if(!zuuluu) { _fun00024_ip = 92; continue _fun00023 }
- 61:
-                zuuluu = michal.lastHeartbeatAckTime;
-                if(!(tangon != zuuluu)) { _fun00024_ip = 128; continue _fun00023 }
- 71:
-                zuuluu = michal.lastHeartbeatAckTime;
-                tangon = entity - zuuluu;
-                zuuluu = _closure1_slot16;
-                if(!(!(tangon <= zuuluu))) { _fun00024_ip = 128; continue _fun00023 }
- 92:
-                oscard = michal.disconnect;
-                zuuluu = _closure1_slot13;
-                report = zuuluu.UNRESUMABLE;
-                tangon = false;
-                zuuluu = 'Cannot resume connection.';
-                zuuluu = oscard.bind(michal)(tangon, report, zuuluu);
-                _fun00024_ip = 146; continue _fun00023;
- 128:
-                zuuluu = michal.doResume;
-                zuuluu = zuuluu.bind(michal)();
-                michal['lastHeartbeatAckTime'] = entity;
- 146:
+                zuuluu = this;
+                report = _closure1_slot0;
+                michal = _closure1_slot2;
+                entity = 10;
+                michal = michal[entity];
                 entity = undefined;
+                report = report.bind(entity)(michal);
+                michal = report.now;
+                michal = michal.bind(report)();
+                report = zuuluu.serverId;
+                oscard = null;
+                if(!(oscard !== report)) { _fun00024_ip = 106; continue _fun00023 }
+ 49:
+                report = zuuluu.token;
+                if(!(oscard !== report)) { _fun00024_ip = 106; continue _fun00023 }
+ 59:
+                report = zuuluu.sessionId;
+                if(!(oscard !== report)) { _fun00024_ip = 106; continue _fun00023 }
+ 69:
+                report = zuuluu.resumable;
+                if(!report) { _fun00024_ip = 106; continue _fun00023 }
+ 78:
+                report = zuuluu.lastHeartbeatAckTime;
+                if(!(oscard != report)) { _fun00024_ip = 139; continue _fun00023 }
+ 88:
+                report = zuuluu.lastHeartbeatAckTime;
+                oscard = michal - report;
+                report = _closure1_slot16;
+                if(!(!(oscard <= report))) { _fun00024_ip = 139; continue _fun00023 }
+ 106:
+                golfie = zuuluu.disconnect;
+                tangon = _closure1_slot13;
+                oscard = tangon.UNRESUMABLE;
+                report = false;
+                tangon = 'Cannot resume connection.';
+                tangon = golfie.bind(zuuluu)(report, oscard, tangon);
+                _fun00024_ip = 157; continue _fun00023;
+ 139:
+                tangon = zuuluu.doResume;
+                tangon = tangon.bind(zuuluu)();
+                zuuluu['lastHeartbeatAckTime'] = michal;
+ 157:
                 return entity;
             }
         };
@@ -1588,27 +1603,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                 entity = argFoo;
-                michal = this;
+                zuuluu = this;
                 report = entity.v;
                 oscard = null;
                 golfie = oscard != report;
                 tangon = 3;
-                zuuluu = tangon;
+                michal = tangon;
                 if(!golfie) { _fun00028_ip = 29; continue _fun00027 }
  26:
-                zuuluu = report;
+                michal = report;
  29:
-                michal['serverVersion'] = zuuluu;
-                zuuluu = michal.serverVersion;
-                if(!(!(zuuluu <= tangon))) { _fun00028_ip = 148; continue _fun00027 }
+                zuuluu['serverVersion'] = michal;
+                michal = zuuluu.serverVersion;
+                if(!(!(michal <= tangon))) { _fun00028_ip = 148; continue _fun00027 }
  45:
                 tangon = entity.heartbeat_interval;
-                zuuluu = michal.heartbeatIntervalModifier;
-                zuuluu = tangon * zuuluu;
-                michal['heartbeatInterval'] = zuuluu;
+                michal = zuuluu.heartbeatIntervalModifier;
+                michal = tangon * michal;
+                zuuluu['heartbeatInterval'] = michal;
                 golfie = _closure1_slot0;
                 report = _closure1_slot2;
-                tangon = 10;
+                tangon = 11;
                 report = report[tangon];
                 tangon = undefined;
                 tangon = golfie.bind(tangon)(report);
@@ -1619,60 +1634,64 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option.Math;
                 report = golfie.min;
                 tangon = _closure1_slot17;
-                zuuluu = michal.heartbeatInterval;
-                if(!(oscard == zuuluu)) { _fun00028_ip = 134; continue _fun00027 }
+                michal = zuuluu.heartbeatInterval;
+                if(!(oscard == michal)) { _fun00028_ip = 134; continue _fun00027 }
  128:
-                zuuluu = option.NaN;
+                michal = option.NaN;
  134:
-                zuuluu = report.bind(golfie)(tangon, zuuluu);
-                michal['heartbeatInterval'] = zuuluu;
+                michal = report.bind(golfie)(tangon, michal);
+                zuuluu['heartbeatInterval'] = michal;
                 _fun00028_ip = 218; continue _fun00027;
  148:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
-                zuuluu = 10;
-                tangon = tangon[zuuluu];
-                zuuluu = undefined;
-                zuuluu = report.bind(zuuluu)(tangon);
-                tangon = zuuluu.isPlatformEmbedded;
-                zuuluu = 0.1;
+                michal = 11;
+                tangon = tangon[michal];
+                michal = undefined;
+                michal = report.bind(michal)(tangon);
+                tangon = michal.isPlatformEmbedded;
+                michal = 0.1;
                 if(!tangon) { _fun00028_ip = 202; continue _fun00027 }
  192:
-                zuuluu = 0.25;
+                michal = 0.25;
  202:
                 entity = entity.heartbeat_interval;
-                entity = entity * zuuluu;
-                michal['heartbeatInterval'] = entity;
+                entity = entity * michal;
+                zuuluu['heartbeatInterval'] = entity;
  218:
-                entity = global;
-                tangon = entity.Date;
-                zuuluu = tangon.now;
-                tangon = zuuluu.bind(tangon)();
-                zuuluu = michal.connectionStartTime;
-                yankee = tangon - zuuluu;
-                tangon = michal.logger;
-                zuuluu = tangon.info;
-                report = michal.heartbeatInterval;
-                oscard = oscard != report;
-                offset = '??';
-                if(!oscard) { _fun00028_ip = 278; continue _fun00027 }
- 275:
-                offset = report;
- 278:
-                kiloes = michal.serverVersion;
-                entity = entity.HermesInternal;
-                option = entity.concat;
-                result = '[HELLO] heartbeat interval: ';
-                sizing = ', version: ';
-                backup = ', took ';
-                romeon = ' ms';
-                output = offset;
-                foxtra = yankee;
-                entity = result[option](output, sizing, kiloes, backup, foxtra, romeon, yankee);
-                entity = zuuluu.bind(tangon)(entity);
-                entity = michal.startHeartbeater;
-                entity = entity.bind(michal)();
+                tangon = _closure1_slot0;
+                michal = _closure1_slot2;
+                entity = 10;
+                michal = michal[entity];
                 entity = undefined;
+                tangon = tangon.bind(entity)(michal);
+                michal = tangon.now;
+                tangon = michal.bind(tangon)();
+                michal = zuuluu.connectionStartTime;
+                romeon = tangon - michal;
+                report = zuuluu.logger;
+                tangon = report.info;
+                michal = zuuluu.heartbeatInterval;
+                oscard = oscard != michal;
+                yankee = '??';
+                if(!oscard) { _fun00028_ip = 295; continue _fun00027 }
+ 292:
+                yankee = michal;
+ 295:
+                sizing = zuuluu.serverVersion;
+                michal = global;
+                michal = michal.HermesInternal;
+                verify = michal.concat;
+                echoed = '[HELLO] heartbeat interval: ';
+                output = ', version: ';
+                kiloes = ', took ';
+                foxtra = ' ms';
+                result = yankee;
+                backup = romeon;
+                michal = echoed[verify](result, output, sizing, kiloes, backup, foxtra, romeon);
+                michal = tangon.bind(report)(michal);
+                michal = zuuluu.startHeartbeater;
+                michal = michal.bind(zuuluu)();
                 return entity;
             }
         };
@@ -1689,40 +1708,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = offset.backoff;
                 entity = zuuluu.succeed;
                 entity = entity.bind(zuuluu)();
-                entity = global;
-                tangon = entity.Date;
-                zuuluu = tangon.now;
-                tangon = zuuluu.bind(tangon)();
-                zuuluu = offset.connectionStartTime;
-                golfie = tangon - zuuluu;
-                tangon = offset.logger;
-                zuuluu = tangon.info;
-                entity = entity.HermesInternal;
-                oscard = entity.concat;
-                report = '[READY] took ';
-                entity = ' ms';
-                entity = oscard.bind(report)(golfie, entity);
-                entity = zuuluu.bind(tangon)(entity);
-                zuuluu = offset.serverVersion;
-                entity = 6;
-                if(!(zuuluu >= entity)) { _fun00030_ip = 134; continue _fun00029 }
- 107:
-                tangon = offset.send;
-                entity = _closure1_slot12;
-                zuuluu = entity.VOICE_BACKEND_VERSION;
-                entity = {};
-                entity = tangon.bind(offset)(zuuluu, entity);
- 134:
+                report = _closure1_slot0;
+                tangon = _closure1_slot2;
+                entity = 10;
+                tangon = tangon[entity];
+                entity = undefined;
+                report = report.bind(entity)(tangon);
+                tangon = report.now;
+                report = tangon.bind(report)();
+                tangon = offset.connectionStartTime;
+                verify = report - tangon;
+                oscard = offset.logger;
+                report = oscard.info;
+                tangon = global;
+                tangon = tangon.HermesInternal;
+                option = tangon.concat;
+                golfie = '[READY] took ';
+                tangon = ' ms';
+                tangon = option.bind(golfie)(verify, tangon);
+                tangon = report.bind(oscard)(tangon);
+                report = offset.serverVersion;
+                tangon = 6;
+                if(!(report >= tangon)) { _fun00030_ip = 150; continue _fun00029 }
+ 126:
+                oscard = offset.send;
+                tangon = _closure1_slot12;
+                report = tangon.VOICE_BACKEND_VERSION;
+                tangon = {};
+                tangon = oscard.bind(offset)(report, tangon);
+ 150:
                 verify = offset.emit;
-                zuuluu = _closure1_slot18;
-                option = zuuluu.Ready;
+                tangon = _closure1_slot18;
+                option = tangon.Ready;
                 output = michal.ip;
                 sizing = michal.port;
                 kiloes = michal.modes;
                 backup = michal.ssrc;
                 yankee = _closure1_slot23;
                 zuuluu = michal.streams;
-                entity = undefined;
                 foxtra = yankee.bind(entity)(zuuluu);
                 romeon = michal.experiments;
                 echoed = offset;
@@ -2076,49 +2099,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = function(argFoo) { // Original name: value
             _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
-                michal = argFoo;
-                entity = this;
-                report = entity.logger;
+                entity = argFoo;
+                michal = this;
+                report = michal.logger;
                 tangon = report.info;
                 zuuluu = 'Heartbeat ACK received';
                 zuuluu = tangon.bind(report)(zuuluu);
-                tangon = entity.serverVersion;
+                tangon = michal.serverVersion;
                 zuuluu = 8;
-                oscard = michal;
+                verify = entity;
                 if(!(tangon >= zuuluu)) { _fun00040_ip = 49; continue _fun00039 }
  44:
-                oscard = michal.t;
+                verify = entity.t;
  49:
-                report = entity.emit;
-                michal = _closure1_slot18;
-                tangon = michal.Ping;
-                zuuluu = global;
-                golfie = zuuluu.Date;
-                michal = golfie.now;
-                michal = michal.bind(golfie)();
-                michal = michal - oscard;
-                michal = report.bind(entity)(tangon, michal);
-                tangon = zuuluu.Date;
-                michal = tangon.now;
-                michal = michal.bind(tangon)();
-                entity['lastHeartbeatAckTime'] = michal;
-                michal = true;
-                entity['heartbeatAck'] = michal;
-                tangon = entity.expeditedHeartbeatTimeout;
-                michal = null;
-                if(!(michal !== tangon)) { _fun00040_ip = 183; continue _fun00039 }
- 136:
-                report = zuuluu.clearTimeout;
-                tangon = entity.expeditedHeartbeatTimeout;
-                zuuluu = undefined;
-                zuuluu = report.bind(zuuluu)(tangon);
-                entity['expeditedHeartbeatTimeout'] = michal;
-                zuuluu = entity.logger;
-                michal = zuuluu.info;
-                entity = 'Expedited heartbeat succeeded';
-                entity = michal.bind(zuuluu)(entity);
- 183:
+                option = michal.emit;
+                zuuluu = _closure1_slot18;
+                golfie = zuuluu.Ping;
+                tangon = _closure1_slot0;
+                report = _closure1_slot2;
+                zuuluu = 10;
+                oscard = report[zuuluu];
                 entity = undefined;
+                offset = tangon.bind(entity)(oscard);
+                oscard = offset.now;
+                oscard = oscard.bind(offset)();
+                oscard = oscard - verify;
+                oscard = option.bind(michal)(golfie, oscard);
+                zuuluu = report[zuuluu];
+                tangon = tangon.bind(entity)(zuuluu);
+                zuuluu = tangon.now;
+                zuuluu = zuuluu.bind(tangon)();
+                michal['lastHeartbeatAckTime'] = zuuluu;
+                zuuluu = true;
+                michal['heartbeatAck'] = zuuluu;
+                tangon = michal.expeditedHeartbeatTimeout;
+                zuuluu = null;
+                if(!(zuuluu !== tangon)) { _fun00040_ip = 200; continue _fun00039 }
+ 153:
+                tangon = global;
+                report = tangon.clearTimeout;
+                tangon = michal.expeditedHeartbeatTimeout;
+                tangon = report.bind(entity)(tangon);
+                michal['expeditedHeartbeatTimeout'] = zuuluu;
+                tangon = michal.logger;
+                zuuluu = tangon.info;
+                michal = 'Expedited heartbeat succeeded';
+                michal = zuuluu.bind(tangon)(michal);
+ 200:
                 return entity;
             }
         };
@@ -2181,7 +2208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure3_slot0 = zuuluu;
                 report = _closure1_slot1;
                 tangon = _closure1_slot2;
-                entity = 11;
+                entity = 12;
                 tangon = tangon[entity];
                 entity = undefined;
                 golfie = report.bind(entity)(tangon);
@@ -2252,49 +2279,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = this;
                 michal = tangon.serverVersion;
                 entity = 8;
-                if(!(!(michal >= entity))) { _fun00046_ip = 82; continue _fun00045 }
+                if(!(!(michal >= entity))) { _fun00046_ip = 99; continue _fun00045 }
  16:
                 zuuluu = tangon.logger;
                 michal = zuuluu.info;
                 entity = 'Sending heartbeat';
                 entity = michal.bind(zuuluu)(entity);
                 zuuluu = tangon.send;
-                entity = _closure1_slot12;
-                michal = entity.HEARTBEAT;
-                entity = global;
-                report = entity.Date;
+                michal = _closure1_slot12;
+                michal = michal.HEARTBEAT;
+                oscard = _closure1_slot0;
+                report = _closure1_slot2;
+                entity = 10;
+                report = report[entity];
+                entity = undefined;
+                report = oscard.bind(entity)(report);
                 entity = report.now;
                 entity = entity.bind(report)();
                 entity = zuuluu.bind(tangon)(michal, entity);
-                _fun00046_ip = 197; continue _fun00045;
- 82:
+                _fun00046_ip = 230; continue _fun00045;
+ 99:
                 entity = tangon.lastRecvSeqNum;
                 michal = null;
                 michal = michal != entity;
                 report = -1;
-                if(!michal) { _fun00046_ip = 106; continue _fun00045 }
- 103:
+                if(!michal) { _fun00046_ip = 123; continue _fun00045 }
+ 120:
                 report = entity;
- 106:
+ 123:
                 zuuluu = tangon.logger;
                 michal = zuuluu.info;
-                oscard = global;
-                entity = oscard.HermesInternal;
-                golfie = entity.concat;
+                entity = global;
+                entity = entity.HermesInternal;
+                oscard = entity.concat;
                 entity = 'Sending heartbeat with last received sequence number: ';
-                entity = golfie.bind(entity)(report);
+                entity = oscard.bind(entity)(report);
                 entity = michal.bind(zuuluu)(entity);
                 zuuluu = tangon.send;
                 entity = _closure1_slot12;
                 michal = entity.HEARTBEAT;
                 entity = {};
-                golfie = oscard.Date;
+                option = _closure1_slot0;
+                golfie = _closure1_slot2;
+                oscard = 10;
+                golfie = golfie[oscard];
+                oscard = undefined;
+                golfie = option.bind(oscard)(golfie);
                 oscard = golfie.now;
                 oscard = oscard.bind(golfie)();
                 entity['t'] = oscard;
                 entity['seq_ack'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
- 197:
+ 230:
                 entity = undefined;
                 return entity;
             }

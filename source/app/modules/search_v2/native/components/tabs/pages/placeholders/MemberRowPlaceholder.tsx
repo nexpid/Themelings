@@ -1,9 +1,10 @@
 // app/modules/search_v2/native/components/tabs/pages/placeholders/MemberRowPlaceholder.tsx
-export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
-    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
     var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
@@ -48,8 +49,7 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
         oscard = _closure1_slot1;
         entity = 3;
         entity = oscard[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.MessageRowPlaceholderItem;
+        michal = michal.bind(tangon)(entity);
         entity = {};
         report = report.container;
         entity['style'] = report;

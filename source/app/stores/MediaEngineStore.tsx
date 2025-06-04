@@ -239,10 +239,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = undefined;
             zuuluu = report.bind(zuuluu)(tangon);
             zuuluu = zuuluu.isPlatformEmbedded;
-            if(zuuluu) { _fun00010_ip = 80; continue _fun00009 }
- 78:
+            if(zuuluu) { _fun00010_ip = 76; continue _fun00009 }
+ 74:
             zuuluu = false;
- 80:
+ 76:
             michal['autoThreshold'] = zuuluu;
             zuuluu = true;
             tangon = new Array(0);
@@ -7410,10 +7410,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  56:
             entity = false;
             _closure1_slot96 = entity;
-            _fun00202_ip = 153; continue _fun00201;
+            _fun00202_ip = 149; continue _fun00201;
  67:
             michal = _closure1_slot96;
-            if(michal) { _fun00202_ip = 153; continue _fun00201 }
+            if(michal) { _fun00202_ip = 149; continue _fun00201 }
  77:
             michal = true;
             _closure1_slot96 = michal;
@@ -7425,7 +7425,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  102:
             michal = zuuluu.deaf;
  108:
-            if(!michal) { _fun00202_ip = 153; continue _fun00201 }
+            if(!michal) { _fun00202_ip = 149; continue _fun00201 }
  111:
             zuuluu = _closure1_slot138;
             michal = {'deaf': false, 'mute': false};
@@ -7434,7 +7434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = zuuluu.eachConnection;
             entity = _closure1_slot127;
             entity = michal.bind(zuuluu)(entity);
- 153:
+ 149:
             entity = undefined;
             return entity;
         }
@@ -8883,13 +8883,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = michal.enabled;
             _closure1_slot74 = zuuluu;
             michal = michal.unmute;
-            if(!michal) { _fun00232_ip = 49; continue _fun00231 }
+            if(!michal) { _fun00232_ip = 45; continue _fun00231 }
  24:
             tangon = _closure1_slot138;
             zuuluu = undefined;
             michal = {'mute': false, 'deaf': false};
             michal = tangon.bind(zuuluu)(michal);
- 49:
+ 45:
             zuuluu = _closure1_slot68;
             michal = zuuluu.eachConnection;
             entity = _closure1_slot127;

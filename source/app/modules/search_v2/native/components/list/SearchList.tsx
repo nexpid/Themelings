@@ -322,43 +322,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.type;
             michal = _closure1_slot6;
             michal = michal.DM;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 1065; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 1047; continue _fun00005 }
  33:
             michal = _closure1_slot6;
             michal = michal.GROUP_DM;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 1017; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 999; continue _fun00005 }
  50:
             michal = _closure1_slot6;
             michal = michal.SEARCH_HISTORY_ITEM;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 969; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 951; continue _fun00005 }
  67:
             michal = _closure1_slot6;
             michal = michal.MEDIA;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 921; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 903; continue _fun00005 }
  84:
             michal = _closure1_slot6;
             michal = michal.MEDIA_PLACEHOLDER;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 867; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 855; continue _fun00005 }
  101:
             michal = _closure1_slot6;
             michal = michal.FILE_OR_LINK_PLACEHOLDER;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 813; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 807; continue _fun00005 }
  118:
             michal = _closure1_slot6;
             michal = michal.MEDIA_GRID;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 765; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 759; continue _fun00005 }
  135:
             michal = _closure1_slot6;
             michal = michal.GUILD_TEXT_CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 717; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 711; continue _fun00005 }
  152:
             michal = _closure1_slot6;
             michal = michal.GUILD_VOICE_CHANNEL;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 669; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 663; continue _fun00005 }
  169:
             michal = _closure1_slot6;
             michal = michal.MESSAGE;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 621; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 615; continue _fun00005 }
  186:
             michal = _closure1_slot6;
             michal = michal.MESSAGE_PLACEHOLDER;
@@ -473,17 +473,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return michal;
  579:
             oscard = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 15;
             michal = tangon[michal];
             tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.MessageRowPlaceholderItem;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 621:
+ 615:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -497,7 +496,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 669:
+ 663:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -511,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 717:
+ 711:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -525,7 +524,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 765:
+ 759:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -539,37 +538,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 813:
+ 807:
             oscard = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 10;
             michal = tangon[michal];
             tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.FileOrLinkGridPlaceholderItem;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             option = report.props;
             verify = michal;
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 867:
+ 855:
             oscard = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 9;
             michal = tangon[michal];
             tangon = undefined;
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.MediaGridPlaceholderItem;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             option = report.props;
             verify = michal;
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 921:
+ 903:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -583,7 +580,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 969:
+ 951:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -597,7 +594,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 1017:
+ 999:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -611,7 +608,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = copyDataProperties(verify, option);
             michal = oscard.bind(tangon)(zuuluu, michal);
             return michal;
- 1065:
+ 1047:
             tangon = _closure1_slot7;
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;

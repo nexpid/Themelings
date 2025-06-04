@@ -3236,7 +3236,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00054_ip = 1815; continue _fun00053 }
+                    if(zuuluu) { _fun00054_ip = 1812; continue _fun00053 }
  12:
                     offset = undefined;
                     var _closure4_slot0 = offset;
@@ -3251,15 +3251,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     verify = undefined;
                     backup = undefined;
                     var _closure4_slot8 = offset;
-                    echoed = undefined;
                     var _closure4_slot9 = offset;
-                    var _closure4_slot10 = offset;
                     ctrled = undefined;
+                    var _closure4_slot10 = offset;
                     var _closure4_slot11 = offset;
+                    echoed = undefined;
                     var _closure4_slot12 = offset;
-                    var _closure4_slot13 = offset;
                     foxtra = undefined;
-                    var _closure4_slot14 = offset;
+                    var _closure4_slot13 = offset;
                     sizing = undefined;
                     yankee = undefined;
                     option = undefined;
@@ -3273,8 +3272,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = _closure2_slot0;
                     tangon = report.bind(offset)(tangon);
                     romeon = null;
-                    if(!(romeon == tangon)) { _fun00054_ip = 1776; continue _fun00053 }
- 140:
+                    if(!(romeon == tangon)) { _fun00054_ip = 1773; continue _fun00053 }
+ 136:
                     report = _closure2_slot1;
                     papara = report.content;
                     _closure4_slot0 = papara;
@@ -3283,10 +3282,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     _closure4_slot1 = kiloes;
                     report = report.tts;
                     sierra = offset !== report;
-                    if(!sierra) { _fun00054_ip = 185; continue _fun00053 }
- 182:
+                    if(!sierra) { _fun00054_ip = 181; continue _fun00053 }
+ 178:
                     sierra = report;
- 185:
+ 181:
                     kiloes = _closure2_slot2;
                     report = kiloes.activityAction;
                     output = kiloes.location;
@@ -3310,10 +3309,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     cntext = romeon != record;
                     kiloes = 0;
                     variable36 = 0;
-                    if(!cntext) { _fun00054_ip = 303; continue _fun00053 }
- 300:
+                    if(!cntext) { _fun00054_ip = 299; continue _fun00053 }
+ 296:
                     variable36 = record;
- 303:
+ 299:
                     cntext = _closure1_slot1;
                     limora = _closure1_slot2;
                     record = 63;
@@ -3328,8 +3327,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     cntext = limora[cntext];
                     limora = papara;
                     papara = variable36;
-                    if(!record) { _fun00054_ip = 410; continue _fun00053 }
- 361:
+                    if(!record) { _fun00054_ip = 406; continue _fun00053 }
+ 357:
                     _closure4_slot0 = cntext;
                     whisks = _closure1_slot0;
                     quebec = _closure1_slot2;
@@ -3341,124 +3340,125 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     record = record.SUPPRESS_NOTIFICATIONS;
                     papara = whisks.bind(quebec)(variable36, record);
                     limora = cntext;
- 410:
+ 406:
                     cntext = false;
                     backup = false;
                     record = _closure2_slot2;
                     record = record.messageReference;
                     quebec = romeon == record;
                     whisks = undefined;
-                    if(quebec) { _fun00054_ip = 438; continue _fun00053 }
- 433:
+                    if(quebec) { _fun00054_ip = 434; continue _fun00053 }
+ 429:
                     whisks = record.type;
- 438:
+ 434:
                     record = _closure1_slot40;
                     record = record.FORWARD;
                     record = whisks === record;
                     _closure4_slot8 = record;
                     whisks = '';
-                    if(!(whisks === limora)) { _fun00054_ip = 538; continue _fun00053 }
+                    if(!(whisks === limora)) { _fun00054_ip = 534; continue _fun00053 }
+ 460:
+                    if(!(romeon == report)) { _fun00054_ip = 534; continue _fun00053 }
  464:
-                    if(!(romeon == report)) { _fun00054_ip = 538; continue _fun00053 }
+                    if(!(romeon == sequen)) { _fun00054_ip = 534; continue _fun00053 }
  468:
-                    if(!(romeon == sequen)) { _fun00054_ip = 538; continue _fun00053 }
+                    if(!(romeon == config)) { _fun00054_ip = 534; continue _fun00053 }
  472:
-                    if(!(romeon == config)) { _fun00054_ip = 538; continue _fun00053 }
+                    if(!(romeon == vacuum)) { _fun00054_ip = 534; continue _fun00053 }
  476:
-                    if(!(romeon == vacuum)) { _fun00054_ip = 538; continue _fun00053 }
- 480:
-                    if(record) { _fun00054_ip = 538; continue _fun00053 }
+                    if(record) { _fun00054_ip = 534; continue _fun00053 }
+ 479:
+                    if(!(romeon != output)) { _fun00054_ip = 492; continue _fun00053 }
  483:
-                    if(!(romeon != output)) { _fun00054_ip = 496; continue _fun00053 }
- 487:
                     record = output.length;
-                    if(!(kiloes === record)) { _fun00054_ip = 538; continue _fun00053 }
- 496:
+                    if(!(kiloes === record)) { _fun00054_ip = 534; continue _fun00053 }
+ 492:
                     record = source;
-                    if(!(romeon != record)) { _fun00054_ip = 515; continue _fun00053 }
- 503:
+                    if(!(romeon != record)) { _fun00054_ip = 511; continue _fun00053 }
+ 499:
                     record = source;
                     record = record.length;
-                    if(!(!(record > kiloes))) { _fun00054_ip = 536; continue _fun00053 }
- 515:
+                    if(!(!(record > kiloes))) { _fun00054_ip = 532; continue _fun00053 }
+ 511:
                     record = global;
                     whisks = record.Promise;
                     record = whisks.resolve;
                     record = record.bind(whisks)();
                     return record;
- 536:
+ 532:
                     backup = true;
+ 534:
+                    if(!(romeon == status)) { _fun00054_ip = 550; continue _fun00053 }
  538:
-                    if(!(romeon == status)) { _fun00054_ip = 554; continue _fun00053 }
- 542:
                     record = _closure1_slot36;
-                    whisks = record.DEFAULT;
-                    _fun00054_ip = 564; continue _fun00053;
- 554:
+                    quebec = record.DEFAULT;
+                    _fun00054_ip = 560; continue _fun00053;
+ 550:
                     record = _closure1_slot36;
-                    whisks = record.REPLY;
- 564:
-                    _closure4_slot10 = whisks;
+                    quebec = record.REPLY;
+ 560:
+                    _closure4_slot9 = quebec;
                     record = _closure2_slot2;
                     record = record.nonce;
-                    if(!(romeon == record)) { _fun00054_ip = 612; continue _fun00053 }
- 582:
+                    if(!(romeon == record)) { _fun00054_ip = 608; continue _fun00053 }
+ 578:
                     variable36 = _closure1_slot0;
                     variable37 = _closure1_slot2;
-                    quebec = 46;
-                    quebec = variable37[quebec];
-                    variable36 = variable36.bind(offset)(quebec);
-                    quebec = variable36.createNonce;
-                    record = quebec.bind(variable36)();
- 612:
+                    whisks = 46;
+                    whisks = variable37[whisks];
+                    variable36 = variable36.bind(offset)(whisks);
+                    whisks = variable36.createNonce;
+                    record = whisks.bind(variable36)();
+ 608:
                     ctrled = record;
+                    _closure4_slot10 = record;
                     _closure4_slot11 = record;
-                    _closure4_slot12 = record;
-                    record = _closure2_slot2;
-                    record = record.eagerDispatch;
-                    if(!(cntext !== record)) { _fun00054_ip = 868; continue _fun00053 }
- 640:
-                    cntext = _closure1_slot1;
-                    quebec = _closure1_slot2;
+                    whisks = _closure1_slot1;
+                    variable36 = _closure1_slot2;
                     record = 44;
-                    record = quebec[record];
-                    cntext = cntext.bind(offset)(record);
+                    record = variable36[record];
+                    whisks = whisks.bind(offset)(record);
                     record = {};
-                    quebec = _closure2_slot0;
-                    record['channelId'] = quebec;
+                    variable36 = _closure2_slot0;
+                    record['channelId'] = variable36;
                     record['content'] = limora;
                     record['tts'] = sierra;
-                    record['type'] = whisks;
+                    record['type'] = quebec;
                     record['messageReference'] = status;
                     record['allowedMentions'] = target;
-                    whisks = undefined;
-                    if(!(kiloes !== papara)) { _fun00054_ip = 702; continue _fun00053 }
- 699:
-                    whisks = papara;
- 702:
-                    record['flags'] = whisks;
-                    whisks = ctrled;
-                    record['nonce'] = whisks;
-                    whisks = _closure1_slot0;
-                    quebec = _closure1_slot2;
-                    variable36 = 65;
-                    variable36 = quebec[variable36];
-                    variable37 = whisks.bind(offset)(variable36);
-                    variable36 = variable37.createPollServerDataFromCreateRequest;
-                    variable36 = variable36.bind(variable37)(config);
-                    record['poll'] = variable36;
-                    record = cntext.bind(offset)(record);
-                    echoed = record;
-                    _closure4_slot9 = record;
-                    cntext = 66;
-                    cntext = quebec[cntext];
-                    quebec = whisks.bind(offset)(cntext);
+                    quebec = undefined;
+                    if(!(kiloes !== papara)) { _fun00054_ip = 681; continue _fun00053 }
+ 678:
+                    quebec = papara;
+ 681:
+                    record['flags'] = quebec;
+                    quebec = ctrled;
+                    record['nonce'] = quebec;
+                    variable36 = _closure1_slot0;
+                    variable37 = _closure1_slot2;
+                    quebec = 65;
+                    quebec = variable37[quebec];
+                    variable36 = variable36.bind(offset)(quebec);
+                    quebec = variable36.createPollServerDataFromCreateRequest;
+                    quebec = quebec.bind(variable36)(config);
+                    record['poll'] = quebec;
+                    echoed = whisks.bind(offset)(record);
+                    record = _closure2_slot2;
+                    record = record.eagerDispatch;
+                    if(!(cntext !== record)) { _fun00054_ip = 865; continue _fun00053 }
+ 748:
+                    cntext = _closure1_slot0;
+                    whisks = _closure1_slot2;
+                    record = 66;
+                    record = whisks[record];
+                    quebec = cntext.bind(offset)(record);
                     whisks = quebec.updateComboOnMessageSend;
                     cntext = _closure2_slot0;
+                    record = echoed;
                     record = record.id;
                     record = whisks.bind(quebec)(cntext, record);
-                    if(!(romeon != sequen)) { _fun00054_ip = 838; continue _fun00053 }
- 799:
+                    if(!(romeon != sequen)) { _fun00054_ip = 835; continue _fun00053 }
+ 796:
                     cntext = echoed;
                     whisks = sequen.map;
                     record = function(argFoo) {
@@ -3478,7 +3478,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     };
                     record = whisks.bind(quebec)(record);
                     cntext['sticker_items'] = record;
- 838:
+ 835:
                     variable37 = _closure1_slot52;
                     variable36 = variable37.receiveMessage;
                     variable41 = _closure2_slot0;
@@ -3487,15 +3487,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     variable39 = true;
                     variable42 = variable37;
                     record = variable42[variable36](variable41, variable40, variable39, variable38, variable37);
- 868:
+ 865:
                     record = _closure1_slot49;
-                    if(record) { _fun00054_ip = 957; continue _fun00053 }
- 875:
-                    if(!(romeon != equals)) { _fun00054_ip = 957; continue _fun00053 }
- 879:
+                    if(record) { _fun00054_ip = 954; continue _fun00053 }
+ 872:
+                    if(!(romeon != equals)) { _fun00054_ip = 954; continue _fun00053 }
+ 876:
                     record = equals.length;
-                    if(!(record > kiloes)) { _fun00054_ip = 957; continue _fun00053 }
- 888:
+                    if(!(record > kiloes)) { _fun00054_ip = 954; continue _fun00053 }
+ 885:
                     record = true;
                     _closure1_slot49 = record;
                     cntext = _closure1_slot26;
@@ -3510,7 +3510,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     cntext = _closure1_slot52;
                     record = cntext.sendBotMessage;
                     record = record.bind(cntext)(quebec, equals, whisks);
- 957:
+ 954:
                     record = {};
                     whisks = _closure1_slot0;
                     equals = _closure1_slot2;
@@ -3532,31 +3532,31 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     cntext['flags'] = papara;
                     record['message'] = cntext;
                     foxtra = record;
-                    _closure4_slot14 = record;
-                    if(!(romeon != report)) { _fun00054_ip = 1223; continue _fun00053 }
- 1054:
+                    _closure4_slot13 = record;
+                    if(!(romeon != report)) { _fun00054_ip = 1220; continue _fun00053 }
+ 1051:
                     cntext = romeon == report;
                     record = undefined;
-                    if(cntext) { _fun00054_ip = 1075; continue _fun00053 }
- 1063:
+                    if(cntext) { _fun00054_ip = 1072; continue _fun00053 }
+ 1060:
                     cntext = report.activity;
                     record = cntext.session_id;
- 1075:
+ 1072:
                     target = report.type;
                     cntext = _closure1_slot44;
                     papara = cntext.JOIN_REQUEST;
                     cntext = record;
-                    if(!(target !== papara)) { _fun00054_ip = 1118; continue _fun00053 }
- 1097:
+                    if(!(target !== papara)) { _fun00054_ip = 1115; continue _fun00053 }
+ 1094:
                     cntext = record;
-                    if(!(romeon == cntext)) { _fun00054_ip = 1118; continue _fun00053 }
- 1104:
+                    if(!(romeon == cntext)) { _fun00054_ip = 1115; continue _fun00053 }
+ 1101:
                     papara = _closure1_slot18;
                     record = papara.getSessionId;
                     cntext = record.bind(papara)();
- 1118:
-                    if(!(romeon != cntext)) { _fun00054_ip = 1223; continue _fun00053 }
- 1122:
+ 1115:
+                    if(!(romeon != cntext)) { _fun00054_ip = 1220; continue _fun00053 }
+ 1119:
                     record = {};
                     papara = report.type;
                     record['type'] = papara;
@@ -3564,55 +3564,55 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     cntext = report.activity;
                     report = cntext.party;
                     report = romeon != report;
-                    if(!report) { _fun00054_ip = 1172; continue _fun00053 }
- 1157:
+                    if(!report) { _fun00054_ip = 1169; continue _fun00053 }
+ 1154:
                     papara = cntext.party;
                     papara = papara.id;
                     report = romeon != papara;
+ 1169:
+                    if(!report) { _fun00054_ip = 1189; continue _fun00053 }
  1172:
-                    if(!report) { _fun00054_ip = 1192; continue _fun00053 }
- 1175:
                     report = cntext.party;
                     report = report.id;
                     record['party_id'] = report;
- 1192:
+ 1189:
                     report = foxtra;
                     papara = report.message;
                     cntext = cntext.application_id;
                     papara['application_id'] = cntext;
                     report = report.message;
                     report['activity'] = record;
- 1223:
-                    if(!(romeon != config)) { _fun00054_ip = 1241; continue _fun00053 }
- 1227:
+ 1220:
+                    if(!(romeon != config)) { _fun00054_ip = 1238; continue _fun00053 }
+ 1224:
                     report = foxtra;
                     report = report.message;
                     report['poll'] = config;
- 1241:
-                    if(!(romeon != sequen)) { _fun00054_ip = 1259; continue _fun00053 }
- 1245:
+ 1238:
+                    if(!(romeon != sequen)) { _fun00054_ip = 1256; continue _fun00053 }
+ 1242:
                     report = foxtra;
                     report = report.message;
                     report['sticker_ids'] = sequen;
- 1259:
+ 1256:
                     sequen = _closure1_slot11;
                     report = sequen.isEnabled;
                     report = report.bind(sequen)();
-                    if(!report) { _fun00054_ip = 1294; continue _fun00053 }
- 1276:
+                    if(!report) { _fun00054_ip = 1291; continue _fun00053 }
+ 1273:
                     report = foxtra;
                     sequen = report.message;
                     report = true;
                     sequen['has_poggermode_enabled'] = report;
- 1294:
-                    if(!(romeon != vacuum)) { _fun00054_ip = 1312; continue _fun00053 }
- 1298:
+ 1291:
+                    if(!(romeon != vacuum)) { _fun00054_ip = 1309; continue _fun00053 }
+ 1295:
                     report = foxtra;
                     report = report.message;
                     report['content_inventory_entry'] = vacuum;
- 1312:
-                    if(!(romeon != result)) { _fun00054_ip = 1373; continue _fun00053 }
- 1316:
+ 1309:
+                    if(!(romeon != result)) { _fun00054_ip = 1370; continue _fun00053 }
+ 1313:
                     report = foxtra;
                     vacuum = report.message;
                     sequen = _closure1_slot0;
@@ -3625,26 +3625,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     vacuum['confetti_potion'] = report;
                     report = result.callback;
                     report = report.bind(result)();
- 1373:
+ 1370:
                     report = romeon != output;
-                    if(!report) { _fun00054_ip = 1389; continue _fun00053 }
- 1380:
+                    if(!report) { _fun00054_ip = 1386; continue _fun00053 }
+ 1377:
                     result = output.length;
                     report = result > kiloes;
+ 1386:
+                    if(!report) { _fun00054_ip = 1403; continue _fun00053 }
  1389:
-                    if(!report) { _fun00054_ip = 1406; continue _fun00053 }
- 1392:
                     report = foxtra;
                     report = report.message;
                     report['attachments'] = output;
- 1406:
+ 1403:
                     report = source;
-                    if(!(romeon != report)) { _fun00054_ip = 1606; continue _fun00053 }
- 1416:
+                    if(!(romeon != report)) { _fun00054_ip = 1603; continue _fun00053 }
+ 1413:
                     report = source;
                     report = report.length;
-                    if(!(report > kiloes)) { _fun00054_ip = 1606; continue _fun00053 }
- 1431: // try_start_0
+                    if(!(report > kiloes)) { _fun00054_ip = 1603; continue _fun00053 }
+ 1428: // try_start_0
                     output = _closure1_slot0;
                     result = _closure1_slot2;
                     report = 68;
@@ -3661,37 +3661,37 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     update = update.doNotNotifyOnError;
                     update = !update;
                     echoed = update;
-                    if(!update) { _fun00054_ip = 1502; continue _fun00053 }
- 1500:
+                    if(!update) { _fun00054_ip = 1499; continue _fun00053 }
+ 1497:
                     echoed = undefined;
- 1502:
+ 1499:
                     report['shouldUploadFailureSendNotification'] = echoed;
                     report = output.bind(result)(report);
-                    SaveGenerator(address=1516);
- 1514:
+                    SaveGenerator(address=1513);
+ 1511:
                     return report;
- 1516:
+ 1513:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=16);
-                    if(output) { _fun00054_ip = 1648; continue _fun00053 }
- 1525:
+                    if(output) { _fun00054_ip = 1645; continue _fun00053 }
+ 1522:
                     sizing = report;
-                    if(!(romeon != report)) { _fun00054_ip = 1645; continue _fun00053 }
- 1532:
+                    if(!(romeon != report)) { _fun00054_ip = 1642; continue _fun00053 }
+ 1529:
                     yankee = sizing.attachments;
                     sizing = sizing.uploader;
-                    _closure4_slot13 = sizing;
-                    if(!backup) { _fun00054_ip = 1570; continue _fun00053 }
- 1551:
+                    _closure4_slot12 = sizing;
+                    if(!backup) { _fun00054_ip = 1567; continue _fun00053 }
+ 1548:
                     backup = yankee;
-                    if(!(romeon != backup)) { _fun00054_ip = 1642; continue _fun00053 }
- 1558:
+                    if(!(romeon != backup)) { _fun00054_ip = 1639; continue _fun00053 }
+ 1555:
                     backup = yankee;
                     backup = backup.length;
-                    if(!(kiloes !== backup)) { _fun00054_ip = 1642; continue _fun00053 }
- 1570:
+                    if(!(kiloes !== backup)) { _fun00054_ip = 1639; continue _fun00053 }
+ 1567:
                     backup = yankee;
-                    if(!(romeon != backup)) { _fun00054_ip = 1606; continue _fun00053 }
- 1577:
+                    if(!(romeon != backup)) { _fun00054_ip = 1603; continue _fun00053 }
+ 1574:
                     foxtra = foxtra.message;
                     kiloes = yankee;
                     backup = kiloes.map;
@@ -3710,7 +3710,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     };
                     yankee = backup.bind(kiloes)(yankee);
                     foxtra['attachments'] = yankee;
- 1606: // try_end0
+ 1603: // try_end0
                     yankee = global;
                     backup = yankee.Promise;
                     yankee = backup.prototype;
@@ -3751,19 +3751,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         zuuluu = report[zuuluu];
                         report = tangon.bind(entity)(zuuluu);
                         tangon = report.enqueue;
-                        zuuluu = _closure4_slot14;
+                        zuuluu = _closure4_slot13;
                         michal = function(argFoo) {
                             _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
                                 zuuluu = argFoo;
-                                result = global;
-                                michal = result.Date;
+                                entity = global;
+                                michal = entity.Date;
                                 entity = michal.now;
                                 tangon = entity.bind(michal)();
                                 michal = _closure5_slot2;
                                 kiloes = tangon - michal;
                                 michal = zuuluu.ok;
-                                if(michal) { _fun00056_ip = 1281; continue _fun00055 }
+                                if(michal) { _fun00056_ip = 1211; continue _fun00055 }
  48:
                                 verify = _closure1_slot47;
                                 option = verify.log;
@@ -3772,14 +3772,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 oscard['hasErr'] = michal;
                                 michal = zuuluu.status;
                                 oscard['status'] = michal;
-                                offset = zuuluu.body;
+                                yankee = zuuluu.body;
                                 golfie = null;
-                                yankee = golfie == offset;
-                                tangon = undefined;
+                                romeon = golfie == yankee;
+                                report = undefined;
                                 michal = undefined;
-                                if(yankee) { _fun00056_ip = 103; continue _fun00055 }
+                                if(romeon) { _fun00056_ip = 103; continue _fun00055 }
  98:
-                                michal = offset.code;
+                                michal = yankee.code;
  103:
                                 oscard['code'] = michal;
                                 michal = zuuluu.err;
@@ -3787,50 +3787,50 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 michal = 'Failed to send message';
                                 michal = option.bind(verify)(michal, oscard);
                                 michal = zuuluu.hasErr;
-                                if(michal) { _fun00056_ip = 983; continue _fun00055 }
+                                if(michal) { _fun00056_ip = 720; continue _fun00055 }
  141:
                                 oscard = zuuluu.status;
                                 michal = 400;
                                 option = oscard >= michal;
-                                offset = undefined;
+                                yankee = undefined;
                                 michal = false;
-                                if(!option) { _fun00056_ip = 1012; continue _fun00055 }
+                                if(!option) { _fun00056_ip = 749; continue _fun00055 }
  166:
                                 verify = zuuluu.status;
                                 option = 500;
                                 option = verify < option;
-                                offset = undefined;
+                                yankee = undefined;
                                 michal = false;
-                                if(!option) { _fun00056_ip = 1012; continue _fun00055 }
+                                if(!option) { _fun00056_ip = 749; continue _fun00055 }
  191:
                                 option = zuuluu.body;
-                                offset = undefined;
+                                yankee = undefined;
                                 michal = false;
-                                if(!option) { _fun00056_ip = 1012; continue _fun00055 }
+                                if(!option) { _fun00056_ip = 749; continue _fun00055 }
  206:
                                 option = zuuluu.body;
                                 verify = option.code;
                                 option = _closure1_slot27;
                                 option = option.SLOWMODE_RATE_LIMITED;
-                                if(!(verify !== option)) { _fun00056_ip = 842; continue _fun00055 }
+                                if(!(verify !== option)) { _fun00056_ip = 579; continue _fun00055 }
  233:
                                 verify = _closure1_slot0;
-                                yankee = _closure1_slot2;
+                                romeon = _closure1_slot2;
                                 option = 77;
-                                option = yankee[option];
-                                option = verify.bind(tangon)(option);
-                                yankee = option.AUTOMOD_ERROR_CODES;
-                                verify = yankee.has;
+                                option = romeon[option];
+                                option = verify.bind(report)(option);
+                                romeon = option.AUTOMOD_ERROR_CODES;
+                                verify = romeon.has;
                                 option = zuuluu.body;
                                 option = option.code;
-                                option = verify.bind(yankee)(option);
-                                if(option) { _fun00056_ip = 746; continue _fun00055 }
+                                option = verify.bind(romeon)(option);
+                                if(option) { _fun00056_ip = 483; continue _fun00055 }
  285:
                                 option = zuuluu.body;
                                 verify = option.code;
                                 option = _closure1_slot27;
                                 option = option.POGGERMODE_TEMPORARILY_DISABLED;
-                                if(!(verify !== option)) { _fun00056_ip = 697; continue _fun00055 }
+                                if(!(verify !== option)) { _fun00056_ip = 434; continue _fun00055 }
  312:
                                 option = zuuluu.body;
                                 verify = option.code;
@@ -3849,217 +3849,209 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 verify = _closure4_slot7;
                                 option = golfie != verify;
  365:
-                                offset = undefined;
+                                yankee = undefined;
                                 michal = false;
-                                if(option) { _fun00056_ip = 1012; continue _fun00055 }
+                                if(option) { _fun00056_ip = 749; continue _fun00055 }
  375:
-                                romeon = _closure1_slot52;
-                                yankee = romeon.sendClydeError;
+                                foxtra = _closure1_slot52;
+                                romeon = foxtra.sendClydeError;
                                 verify = _closure2_slot0;
                                 option = zuuluu.body;
                                 option = option.code;
-                                option = yankee.bind(romeon)(verify, option);
-                                offset = undefined;
+                                option = romeon.bind(foxtra)(verify, option);
+                                yankee = undefined;
                                 michal = false;
-                                _fun00056_ip = 1012; continue _fun00055;
+                                _fun00056_ip = 749; continue _fun00055;
  417:
                                 option = _closure1_slot46;
-                                option = option.EXPLICIT_CONTENT;
-                                verify = _closure4_slot13;
-                                if(!(golfie != verify)) { _fun00056_ip = 620; continue _fun00055 }
- 441:
-                                yankee = _closure1_slot1;
-                                output = _closure1_slot2;
-                                verify = 43;
-                                verify = output[verify];
-                                romeon = yankee.bind(tangon)(verify);
-                                yankee = romeon.dispatch;
-                                verify = {};
-                                backup = 'UPLOAD_FAIL';
-                                verify['type'] = backup;
-                                backup = _closure2_slot0;
-                                verify['channelId'] = backup;
-                                backup = _closure4_slot13;
-                                backup = backup._file;
-                                verify['file'] = backup;
-                                sizing = _closure1_slot0;
-                                backup = 49;
-                                backup = output[backup];
-                                output = sizing.bind(tangon)(backup);
-                                sizing = output.createMessageRecord;
-                                backup = {};
-                                config = _closure4_slot9;
-                                record = backup;
-                                update = copyDataProperties(record, config);
-                                echoed = _closure4_slot13;
-                                echoed = echoed._file;
-                                update = echoed.id;
-                                result = result.HermesInternal;
-                                echoed = result.concat;
-                                result = 'pending-upload-';
-                                echoed = echoed.bind(result)(update);
-                                result = 'key';
-                                backup[result] = echoed;
-                                backup = sizing.bind(output)(backup);
-                                verify['messageRecord'] = backup;
-                                backup = _closure1_slot46;
-                                backup = backup.EXPLICIT_CONTENT;
-                                verify['reason'] = backup;
-                                backup = true;
-                                verify['noSendFailed'] = backup;
-                                verify = yankee.bind(romeon)(verify);
- 620:
-                                sizing = _closure1_slot52;
-                                backup = sizing.sendExplicitMediaClydeError;
-                                romeon = _closure2_slot0;
-                                verify = zuuluu.body;
-                                yankee = verify.attachments;
-                                output = _closure1_slot0;
-                                result = _closure1_slot2;
-                                verify = 47;
-                                verify = result[verify];
-                                verify = output.bind(tangon)(verify);
-                                verify = verify.TrackMediaRedactionContext;
-                                verify = verify.EXPLICIT_MEDIA_MESSAGE_SEND_BLOCKED;
-                                verify = backup.bind(sizing)(romeon, yankee, verify);
-                                offset = option;
+                                yankee = option.EXPLICIT_CONTENT;
                                 michal = false;
-                                _fun00056_ip = 1012; continue _fun00055;
- 697:
+                                _fun00056_ip = 749; continue _fun00055;
+ 434:
                                 verify = _closure1_slot1;
-                                yankee = _closure1_slot2;
+                                romeon = _closure1_slot2;
                                 option = 43;
-                                option = yankee[option];
-                                yankee = verify.bind(tangon)(option);
-                                verify = yankee.dispatch;
+                                option = romeon[option];
+                                romeon = verify.bind(report)(option);
+                                verify = romeon.dispatch;
                                 option = {};
-                                romeon = 'POGGERMODE_TEMPORARILY_DISABLED';
-                                option['type'] = romeon;
-                                option = verify.bind(yankee)(option);
-                                offset = undefined;
+                                foxtra = 'POGGERMODE_TEMPORARILY_DISABLED';
+                                option['type'] = foxtra;
+                                option = verify.bind(romeon)(option);
+                                yankee = undefined;
                                 michal = false;
-                                _fun00056_ip = 1012; continue _fun00055;
- 746:
+                                _fun00056_ip = 749; continue _fun00055;
+ 483:
                                 verify = _closure1_slot1;
-                                yankee = _closure1_slot2;
+                                romeon = _closure1_slot2;
                                 option = 43;
-                                option = yankee[option];
-                                yankee = verify.bind(tangon)(option);
-                                verify = yankee.dispatch;
+                                option = romeon[option];
+                                romeon = verify.bind(report)(option);
+                                verify = romeon.dispatch;
                                 option = {};
-                                romeon = 'MESSAGE_SEND_FAILED_AUTOMOD';
-                                option['type'] = romeon;
-                                romeon = _closure4_slot14;
-                                option['messageData'] = romeon;
-                                romeon = {};
+                                foxtra = 'MESSAGE_SEND_FAILED_AUTOMOD';
+                                option['type'] = foxtra;
+                                foxtra = _closure4_slot13;
+                                option['messageData'] = foxtra;
+                                foxtra = {};
                                 backup = zuuluu.body;
                                 backup = backup.code;
-                                romeon['code'] = backup;
+                                foxtra['code'] = backup;
                                 backup = zuuluu.body;
                                 backup = backup.message;
-                                romeon['message'] = backup;
-                                option['errorResponseBody'] = romeon;
-                                option = verify.bind(yankee)(option);
-                                offset = undefined;
+                                foxtra['message'] = backup;
+                                option['errorResponseBody'] = foxtra;
+                                option = verify.bind(romeon)(option);
+                                yankee = undefined;
                                 michal = false;
-                                _fun00056_ip = 1012; continue _fun00055;
- 842:
+                                _fun00056_ip = 749; continue _fun00055;
+ 579:
                                 option = zuuluu.body;
-                                romeon = option.retry_after;
-                                golfie = golfie != romeon;
-                                if(!golfie) { _fun00056_ip = 866; continue _fun00055 }
- 860:
-                                option = 0;
-                                golfie = romeon > option;
- 866:
-                                offset = undefined;
+                                backup = option.retry_after;
+                                option = golfie != backup;
+                                if(!option) { _fun00056_ip = 603; continue _fun00055 }
+ 597:
+                                verify = 0;
+                                option = backup > verify;
+ 603:
+                                yankee = undefined;
                                 michal = false;
-                                if(!golfie) { _fun00056_ip = 1012; continue _fun00055 }
- 876:
-                                backup = _closure1_slot1;
-                                sizing = _closure1_slot2;
-                                golfie = 43;
-                                golfie = sizing[golfie];
-                                verify = backup.bind(tangon)(golfie);
-                                option = verify.dispatch;
-                                golfie = {};
-                                yankee = 'SLOWMODE_SET_COOLDOWN';
-                                golfie['type'] = yankee;
-                                yankee = _closure2_slot0;
-                                golfie['channelId'] = yankee;
-                                yankee = _closure1_slot25;
-                                yankee = yankee.SendMessage;
-                                golfie['slowmodeType'] = yankee;
-                                yankee = 76;
-                                yankee = sizing[yankee];
-                                yankee = backup.bind(tangon)(yankee);
-                                yankee = yankee.Millis;
-                                yankee = yankee.SECOND;
-                                yankee = romeon * yankee;
-                                golfie['cooldownMs'] = yankee;
-                                golfie = option.bind(verify)(golfie);
-                                offset = undefined;
+                                if(!option) { _fun00056_ip = 749; continue _fun00055 }
+ 613:
+                                sizing = _closure1_slot1;
+                                output = _closure1_slot2;
+                                option = 43;
+                                option = output[option];
+                                romeon = sizing.bind(report)(option);
+                                verify = romeon.dispatch;
+                                option = {};
+                                foxtra = 'SLOWMODE_SET_COOLDOWN';
+                                option['type'] = foxtra;
+                                foxtra = _closure2_slot0;
+                                option['channelId'] = foxtra;
+                                foxtra = _closure1_slot25;
+                                foxtra = foxtra.SendMessage;
+                                option['slowmodeType'] = foxtra;
+                                foxtra = 76;
+                                foxtra = output[foxtra];
+                                foxtra = sizing.bind(report)(foxtra);
+                                foxtra = foxtra.Millis;
+                                foxtra = foxtra.SECOND;
+                                foxtra = backup * foxtra;
+                                option['cooldownMs'] = foxtra;
+                                option = verify.bind(romeon)(option);
+                                yankee = undefined;
                                 michal = false;
-                                _fun00056_ip = 1012; continue _fun00055;
- 983:
+                                _fun00056_ip = 749; continue _fun00055;
+ 720:
                                 oscard = zuuluu.err;
-                                golfie = oscard.code;
+                                option = oscard.code;
                                 michal = false;
                                 oscard = 'ABORTED';
-                                offset = undefined;
-                                if(!(oscard === golfie)) { _fun00056_ip = 1012; continue _fun00055 }
- 1008:
+                                yankee = undefined;
+                                if(!(oscard === option)) { _fun00056_ip = 749; continue _fun00055 }
+ 745:
                                 michal = true;
-                                offset = undefined;
- 1012:
-                                if(michal) { _fun00056_ip = 1234; continue _fun00055 }
- 1018:
-                                oscard = _closure1_slot1;
+                                yankee = undefined;
+ 749:
+                                if(michal) { _fun00056_ip = 1164; continue _fun00055 }
+ 755:
+                                oscard = _closure4_slot12;
+                                if(!(golfie != oscard)) { _fun00056_ip = 852; continue _fun00055 }
+ 766:
+                                option = _closure1_slot1;
+                                verify = _closure1_slot2;
+                                oscard = 43;
+                                oscard = verify[oscard];
+                                verify = option.bind(report)(oscard);
+                                option = verify.dispatch;
+                                oscard = {};
+                                romeon = 'UPLOAD_FAIL';
+                                oscard['type'] = romeon;
+                                romeon = _closure2_slot0;
+                                oscard['channelId'] = romeon;
+                                romeon = _closure4_slot12;
+                                romeon = romeon._file;
+                                oscard['file'] = romeon;
+                                romeon = _closure4_slot11;
+                                oscard['messageId'] = romeon;
+                                oscard['reason'] = yankee;
+                                romeon = true;
+                                oscard['noSendFailed'] = romeon;
+                                oscard = option.bind(verify)(oscard);
+ 852:
+                                oscard = zuuluu.hasErr;
+                                if(oscard) { _fun00056_ip = 951; continue _fun00055 }
+ 861:
+                                oscard = _closure1_slot46;
+                                oscard = oscard.EXPLICIT_CONTENT;
+                                if(!(yankee === oscard)) { _fun00056_ip = 951; continue _fun00055 }
+ 875:
+                                romeon = _closure1_slot52;
+                                verify = romeon.sendExplicitMediaClydeError;
+                                option = _closure2_slot0;
+                                oscard = zuuluu.body;
+                                foxtra = golfie == oscard;
+                                golfie = undefined;
+                                if(foxtra) { _fun00056_ip = 912; continue _fun00055 }
+ 906:
+                                golfie = oscard.attachments;
+ 912:
+                                foxtra = _closure1_slot0;
+                                backup = _closure1_slot2;
+                                oscard = 47;
+                                oscard = backup[oscard];
+                                oscard = foxtra.bind(report)(oscard);
+                                oscard = oscard.TrackMediaRedactionContext;
+                                oscard = oscard.EXPLICIT_MEDIA_MESSAGE_SEND_BLOCKED;
+                                oscard = verify.bind(romeon)(option, golfie, oscard);
+ 951:
+                                golfie = _closure1_slot1;
                                 option = _closure1_slot2;
-                                michal = 43;
-                                michal = option[michal];
-                                verify = oscard.bind(tangon)(michal);
+                                oscard = 43;
+                                oscard = option[oscard];
+                                verify = golfie.bind(report)(oscard);
                                 golfie = verify.dispatch;
                                 oscard = {};
-                                michal = 'MESSAGE_SEND_FAILED';
-                                oscard['type'] = michal;
-                                michal = _closure4_slot12;
+                                romeon = 'MESSAGE_SEND_FAILED';
+                                oscard['type'] = romeon;
+                                michal = _closure4_slot11;
                                 oscard['messageId'] = michal;
-                                yankee = _closure2_slot0;
-                                oscard['channelId'] = yankee;
-                                yankee = _closure2_slot2;
-                                yankee = yankee.doNotNotifyOnError;
-                                yankee = !yankee;
-                                oscard['shouldNotify'] = yankee;
-                                oscard['reason'] = offset;
+                                romeon = _closure2_slot0;
+                                oscard['channelId'] = romeon;
+                                romeon = _closure2_slot2;
+                                romeon = romeon.doNotNotifyOnError;
+                                romeon = !romeon;
+                                oscard['shouldNotify'] = romeon;
+                                oscard['reason'] = yankee;
                                 oscard = golfie.bind(verify)(oscard);
                                 golfie = _closure1_slot0;
                                 oscard = 70;
                                 oscard = option[oscard];
-                                option = golfie.bind(tangon)(oscard);
+                                option = golfie.bind(report)(oscard);
                                 golfie = option.logMessageSendFailure;
                                 oscard = {};
-                                offset = zuuluu.hasErr;
+                                yankee = zuuluu.hasErr;
                                 verify = undefined;
-                                if(offset) { _fun00056_ip = 1143; continue _fun00055 }
- 1138:
+                                if(yankee) { _fun00056_ip = 1073; continue _fun00055 }
+ 1068:
                                 verify = zuuluu.status;
- 1143:
+ 1073:
                                 oscard['failureCode'] = verify;
-                                offset = zuuluu.hasErr;
+                                yankee = zuuluu.hasErr;
                                 verify = undefined;
-                                if(!offset) { _fun00056_ip = 1170; continue _fun00055 }
- 1159:
-                                offset = zuuluu.err;
-                                verify = offset.message;
- 1170:
+                                if(!yankee) { _fun00056_ip = 1100; continue _fun00055 }
+ 1089:
+                                yankee = zuuluu.err;
+                                verify = yankee.message;
+ 1100:
                                 oscard['errorMessage'] = verify;
                                 oscard = golfie.bind(option)(oscard);
                                 golfie = _closure1_slot1;
                                 option = _closure1_slot2;
                                 oscard = 67;
                                 oscard = option[oscard];
-                                golfie = golfie.bind(tangon)(oscard);
+                                golfie = golfie.bind(report)(oscard);
                                 oscard = golfie.cancelPendingSendRequests;
                                 michal = _closure2_slot0;
                                 golfie = oscard.bind(golfie)(michal);
@@ -4089,186 +4081,186 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                     return entity;
                                 };
                                 michal = oscard.bind(golfie)(michal);
-                                _fun00056_ip = 1267; continue _fun00055;
- 1234:
+                                _fun00056_ip = 1197; continue _fun00055;
+ 1164:
                                 verify = _closure1_slot52;
                                 option = verify.deleteMessage;
                                 golfie = _closure2_slot0;
-                                oscard = _closure4_slot12;
+                                oscard = _closure4_slot11;
                                 michal = true;
                                 michal = option.bind(verify)(golfie, oscard, michal);
- 1267:
+ 1197:
                                 michal = _closure5_slot1;
-                                michal = michal.bind(tangon)(zuuluu);
-                                _fun00056_ip = 2538; continue _fun00055;
- 1281:
+                                michal = michal.bind(report)(zuuluu);
+                                _fun00056_ip = 2545; continue _fun00055;
+ 1211:
                                 oscard = _closure1_slot1;
-                                option = _closure1_slot2;
+                                verify = _closure1_slot2;
                                 michal = 61;
-                                tangon = option[michal];
+                                report = verify[michal];
                                 michal = undefined;
-                                verify = oscard.bind(michal)(tangon);
-                                golfie = verify.donateSentMessage;
-                                oscard = _closure4_slot0;
+                                yankee = oscard.bind(michal)(report);
+                                oscard = yankee.donateSentMessage;
+                                report = _closure4_slot0;
                                 backup = _closure2_slot0;
-                                oscard = golfie.bind(verify)(oscard, backup);
+                                report = oscard.bind(yankee)(report, backup);
                                 romeon = _closure1_slot52;
-                                verify = romeon.receiveMessage;
+                                yankee = romeon.receiveMessage;
                                 config = zuuluu.body;
-                                oscard = {};
-                                yankee = {};
-                                yankee['duration'] = kiloes;
+                                report = {};
+                                foxtra = {};
+                                foxtra['duration'] = kiloes;
                                 kiloes = _closure5_slot3;
-                                yankee['queueSize'] = kiloes;
-                                oscard['sendAnalytics'] = yankee;
-                                yankee = _closure4_slot6;
-                                oscard['poll'] = yankee;
+                                foxtra['queueSize'] = kiloes;
+                                report['sendAnalytics'] = foxtra;
+                                foxtra = _closure4_slot6;
+                                report['poll'] = foxtra;
                                 cntext = romeon;
                                 record = backup;
                                 sequen = true;
-                                vacuum = oscard;
-                                oscard = cntext[verify](record, config, sequen, vacuum, ctrled);
-                                golfie = _closure1_slot0;
-                                oscard = 59;
-                                oscard = option[oscard];
-                                option = golfie.bind(michal)(oscard);
-                                golfie = option.getSentConfettiPotionEmoji;
-                                oscard = zuuluu.body;
-                                oscard = golfie.bind(option)(oscard);
-                                romeon = null;
-                                if(!(romeon != oscard)) { _fun00056_ip = 1556; continue _fun00055 }
- 1431:
+                                vacuum = report;
+                                report = cntext[yankee](record, config, sequen, vacuum, ctrled);
+                                oscard = _closure1_slot0;
+                                report = 59;
+                                report = verify[report];
+                                verify = oscard.bind(michal)(report);
+                                oscard = verify.getSentConfettiPotionEmoji;
+                                report = zuuluu.body;
+                                report = oscard.bind(verify)(report);
+                                verify = null;
+                                if(!(verify != report)) { _fun00056_ip = 1486; continue _fun00055 }
+ 1361:
                                 backup = _closure1_slot0;
                                 kiloes = _closure1_slot2;
-                                golfie = 71;
-                                golfie = kiloes[golfie];
-                                verify = backup.bind(michal)(golfie);
-                                option = verify.fetchConsumableEntitlement;
-                                golfie = 72;
-                                golfie = kiloes[golfie];
-                                golfie = backup.bind(michal)(golfie);
-                                golfie = golfie.CONFETTI_POTION_SKU_ID;
-                                golfie = option.bind(verify)(golfie);
-                                golfie = 73;
-                                golfie = kiloes[golfie];
-                                verify = backup.bind(michal)(golfie);
-                                option = verify.triggerConfettiByEmoji;
-                                golfie = {};
-                                sizing = oscard.name;
-                                golfie['name'] = sizing;
-                                oscard = oscard.id;
-                                golfie['id'] = oscard;
-                                oscard = 74;
+                                oscard = 71;
+                                oscard = kiloes[oscard];
+                                romeon = backup.bind(michal)(oscard);
+                                yankee = romeon.fetchConsumableEntitlement;
+                                oscard = 72;
                                 oscard = kiloes[oscard];
                                 oscard = backup.bind(michal)(oscard);
-                                oscard = oscard.ConfettiTriggerAnalyticsLocation;
-                                vacuum = oscard.MessageSent;
-                                cntext = verify;
-                                record = golfie;
+                                oscard = oscard.CONFETTI_POTION_SKU_ID;
+                                oscard = yankee.bind(romeon)(oscard);
+                                oscard = 73;
+                                oscard = kiloes[oscard];
+                                romeon = backup.bind(michal)(oscard);
+                                yankee = romeon.triggerConfettiByEmoji;
+                                oscard = {};
+                                sizing = report.name;
+                                oscard['name'] = sizing;
+                                report = report.id;
+                                oscard['id'] = report;
+                                report = 74;
+                                report = kiloes[report];
+                                report = backup.bind(michal)(report);
+                                report = report.ConfettiTriggerAnalyticsLocation;
+                                vacuum = report.MessageSent;
+                                cntext = romeon;
+                                record = oscard;
                                 config = undefined;
                                 sequen = true;
-                                oscard = cntext[option](record, config, sequen, vacuum, ctrled);
- 1556:
-                                golfie = _closure1_slot1;
-                                option = _closure1_slot2;
-                                oscard = 53;
-                                oscard = option[oscard];
-                                option = golfie.bind(michal)(oscard);
-                                golfie = option.cast;
-                                oscard = _closure2_slot0;
-                                option = golfie.bind(option)(oscard);
-                                golfie = _closure1_slot8;
-                                oscard = golfie.getRequest;
-                                oscard = oscard.bind(golfie)(option);
-                                if(!(romeon != oscard)) { _fun00056_ip = 1695; continue _fun00055 }
- 1610:
-                                backup = oscard.guildId;
-                                verify = oscard.userId;
-                                yankee = oscard.applicationStatus;
-                                golfie = _closure1_slot0;
-                                option = _closure1_slot2;
-                                oscard = 75;
-                                oscard = option[oscard];
-                                option = golfie.bind(michal)(oscard);
-                                golfie = option.trackMemberApplicationInterviewMessage;
-                                oscard = {};
-                                oscard['guildId'] = backup;
+                                report = cntext[yankee](record, config, sequen, vacuum, ctrled);
+ 1486:
+                                oscard = _closure1_slot1;
+                                yankee = _closure1_slot2;
+                                report = 53;
+                                report = yankee[report];
+                                yankee = oscard.bind(michal)(report);
+                                oscard = yankee.cast;
+                                report = _closure2_slot0;
+                                yankee = oscard.bind(yankee)(report);
+                                oscard = _closure1_slot8;
+                                report = oscard.getRequest;
+                                report = report.bind(oscard)(yankee);
+                                if(!(verify != report)) { _fun00056_ip = 1625; continue _fun00055 }
+ 1540:
+                                backup = report.guildId;
+                                romeon = report.userId;
+                                foxtra = report.applicationStatus;
+                                oscard = _closure1_slot0;
+                                yankee = _closure1_slot2;
+                                report = 75;
+                                report = yankee[report];
+                                yankee = oscard.bind(michal)(report);
+                                oscard = yankee.trackMemberApplicationInterviewMessage;
+                                report = {};
+                                report['guildId'] = backup;
                                 backup = _closure2_slot0;
-                                oscard['channelId'] = backup;
+                                report['channelId'] = backup;
                                 backup = zuuluu.body;
                                 backup = backup.id;
-                                oscard['messageId'] = backup;
-                                oscard['joinRequestStatus'] = yankee;
-                                oscard['joinRequestUserId'] = verify;
-                                oscard = golfie.bind(option)(oscard);
- 1695:
-                                option = _closure1_slot10;
-                                golfie = option.recordMessageSendApiResponse;
-                                oscard = _closure4_slot11;
-                                oscard = golfie.bind(option)(oscard);
-                                golfie = _closure4_slot10;
-                                oscard = _closure1_slot36;
-                                oscard = oscard.REPLY;
-                                if(!(golfie === oscard)) { _fun00056_ip = 2178; continue _fun00055 }
- 1737:
-                                oscard = zuuluu.body;
-                                output = oscard.id;
-                                yankee = _closure2_slot0;
-                                oscard = _closure4_slot5;
-                                oscard = romeon == oscard;
-                                option = undefined;
-                                if(oscard) { _fun00056_ip = 1774; continue _fun00055 }
- 1764:
-                                oscard = _closure4_slot5;
-                                option = oscard.message_id;
- 1774:
-                                golfie = _closure1_slot13;
-                                oscard = golfie.getPendingReplyActionSource;
-                                golfie = oscard.bind(golfie)(yankee);
-                                oscard = 'message_swipe';
-                                if(!(oscard !== golfie)) { _fun00056_ip = 2006; continue _fun00055 }
- 1804:
-                                oscard = 'message_shortcut';
-                                if(!(oscard === golfie)) { _fun00056_ip = 2178; continue _fun00055 }
- 1817:
-                                golfie = _closure1_slot19;
-                                oscard = golfie.getChannel;
-                                result = oscard.bind(golfie)(yankee);
-                                golfie = _closure1_slot1;
-                                verify = _closure1_slot2;
-                                oscard = 40;
-                                oscard = verify[oscard];
-                                backup = golfie.bind(michal)(oscard);
-                                verify = backup.track;
-                                oscard = _closure1_slot28;
-                                golfie = oscard.MESSAGE_SHORTCUT_ACTION_SENT;
-                                oscard = {};
-                                oscard['message_id'] = output;
-                                oscard['channel_id'] = yankee;
-                                sizing = romeon == result;
+                                report['messageId'] = backup;
+                                report['joinRequestStatus'] = foxtra;
+                                report['joinRequestUserId'] = romeon;
+                                report = oscard.bind(yankee)(report);
+ 1625:
+                                yankee = _closure1_slot10;
+                                oscard = yankee.recordMessageSendApiResponse;
+                                report = _closure4_slot10;
+                                report = oscard.bind(yankee)(report);
+                                oscard = _closure4_slot9;
+                                report = _closure1_slot36;
+                                report = report.REPLY;
+                                if(!(oscard === report)) { _fun00056_ip = 2108; continue _fun00055 }
+ 1667:
+                                report = zuuluu.body;
+                                output = report.id;
+                                foxtra = _closure2_slot0;
+                                report = _closure4_slot5;
+                                report = verify == report;
+                                yankee = undefined;
+                                if(report) { _fun00056_ip = 1704; continue _fun00055 }
+ 1694:
+                                report = _closure4_slot5;
+                                yankee = report.message_id;
+ 1704:
+                                oscard = _closure1_slot13;
+                                report = oscard.getPendingReplyActionSource;
+                                oscard = report.bind(oscard)(foxtra);
+                                report = 'message_swipe';
+                                if(!(report !== oscard)) { _fun00056_ip = 1936; continue _fun00055 }
+ 1734:
+                                report = 'message_shortcut';
+                                if(!(report === oscard)) { _fun00056_ip = 2108; continue _fun00055 }
+ 1747:
+                                oscard = _closure1_slot19;
+                                report = oscard.getChannel;
+                                result = report.bind(oscard)(foxtra);
+                                oscard = _closure1_slot1;
+                                romeon = _closure1_slot2;
+                                report = 40;
+                                report = romeon[report];
+                                backup = oscard.bind(michal)(report);
+                                romeon = backup.track;
+                                report = _closure1_slot28;
+                                oscard = report.MESSAGE_SHORTCUT_ACTION_SENT;
+                                report = {};
+                                report['message_id'] = output;
+                                report['channel_id'] = foxtra;
+                                sizing = verify == result;
                                 kiloes = undefined;
-                                if(sizing) { _fun00056_ip = 1891; continue _fun00055 }
- 1886:
+                                if(sizing) { _fun00056_ip = 1821; continue _fun00055 }
+ 1816:
                                 kiloes = result.guild_id;
- 1891:
-                                oscard['guild_id'] = kiloes;
-                                oscard['original_message_id'] = option;
+ 1821:
+                                report['guild_id'] = kiloes;
+                                report['original_message_id'] = yankee;
                                 kiloes = 'reply';
-                                oscard['action'] = kiloes;
+                                report['action'] = kiloes;
                                 sizing = _closure1_slot0;
                                 kiloes = _closure1_slot2;
                                 echoed = 30;
                                 kiloes = kiloes[echoed];
                                 update = sizing.bind(michal)(kiloes);
                                 sizing = update.collectGuildAnalyticsMetadata;
-                                source = romeon == result;
+                                source = verify == result;
                                 kiloes = undefined;
-                                if(source) { _fun00056_ip = 1948; continue _fun00055 }
- 1943:
+                                if(source) { _fun00056_ip = 1878; continue _fun00055 }
+ 1873:
                                 kiloes = result.guild_id;
- 1948:
+ 1878:
                                 config = sizing.bind(update)(kiloes);
-                                record = oscard;
+                                record = report;
                                 kiloes = copyDataProperties(record, config);
                                 sizing = _closure1_slot0;
                                 kiloes = _closure1_slot2;
@@ -4276,127 +4268,127 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                 sizing = sizing.bind(michal)(kiloes);
                                 kiloes = sizing.collectChannelAnalyticsMetadata;
                                 config = kiloes.bind(sizing)(result);
-                                record = oscard;
+                                record = report;
                                 kiloes = copyDataProperties(record, config);
-                                oscard = verify.bind(backup)(golfie, oscard);
-                                _fun00056_ip = 2178; continue _fun00055;
- 2006:
-                                oscard = romeon != option;
+                                report = romeon.bind(backup)(oscard, report);
+                                _fun00056_ip = 2108; continue _fun00055;
+ 1936:
+                                report = verify != yankee;
                                 sizing = null;
-                                if(!oscard) { _fun00056_ip = 2031; continue _fun00055 }
- 2015:
-                                golfie = _closure1_slot22;
-                                oscard = golfie.getMessage;
-                                sizing = oscard.bind(golfie)(yankee, option);
- 2031:
-                                golfie = _closure1_slot19;
-                                oscard = golfie.getChannel;
-                                kiloes = oscard.bind(golfie)(yankee);
-                                golfie = _closure1_slot26;
-                                oscard = golfie.getCurrentUser;
-                                backup = oscard.bind(golfie)();
-                                golfie = _closure1_slot1;
-                                option = _closure1_slot2;
-                                oscard = 40;
-                                oscard = option[oscard];
-                                verify = golfie.bind(michal)(oscard);
-                                option = verify.track;
-                                oscard = _closure1_slot28;
-                                golfie = oscard.MESSAGE_SWIPE_ACTION_SENT;
-                                oscard = {};
-                                oscard['message_id'] = output;
-                                oscard['channel_id'] = yankee;
-                                output = romeon == kiloes;
-                                yankee = undefined;
-                                if(output) { _fun00056_ip = 2118; continue _fun00055 }
- 2113:
-                                yankee = kiloes.guild_id;
- 2118:
-                                oscard['guild_id'] = yankee;
-                                yankee = 'reply';
-                                oscard['swipe_action'] = yankee;
-                                yankee = romeon != backup;
-                                if(!yankee) { _fun00056_ip = 2167; continue _fun00055 }
- 2138:
+                                if(!report) { _fun00056_ip = 1961; continue _fun00055 }
+ 1945:
+                                oscard = _closure1_slot22;
+                                report = oscard.getMessage;
+                                sizing = report.bind(oscard)(foxtra, yankee);
+ 1961:
+                                oscard = _closure1_slot19;
+                                report = oscard.getChannel;
+                                kiloes = report.bind(oscard)(foxtra);
+                                oscard = _closure1_slot26;
+                                report = oscard.getCurrentUser;
+                                backup = report.bind(oscard)();
+                                oscard = _closure1_slot1;
+                                yankee = _closure1_slot2;
+                                report = 40;
+                                report = yankee[report];
+                                romeon = oscard.bind(michal)(report);
+                                yankee = romeon.track;
+                                report = _closure1_slot28;
+                                oscard = report.MESSAGE_SWIPE_ACTION_SENT;
+                                report = {};
+                                report['message_id'] = output;
+                                report['channel_id'] = foxtra;
+                                output = verify == kiloes;
+                                foxtra = undefined;
+                                if(output) { _fun00056_ip = 2048; continue _fun00055 }
+ 2043:
+                                foxtra = kiloes.guild_id;
+ 2048:
+                                report['guild_id'] = foxtra;
+                                foxtra = 'reply';
+                                report['swipe_action'] = foxtra;
+                                foxtra = verify != backup;
+                                if(!foxtra) { _fun00056_ip = 2097; continue _fun00055 }
+ 2068:
                                 kiloes = backup.id;
-                                output = romeon == sizing;
+                                output = verify == sizing;
                                 backup = undefined;
-                                if(output) { _fun00056_ip = 2163; continue _fun00055 }
- 2152:
+                                if(output) { _fun00056_ip = 2093; continue _fun00055 }
+ 2082:
                                 sizing = sizing.author;
                                 backup = sizing.id;
- 2163:
-                                yankee = kiloes === backup;
- 2167:
-                                oscard['is_own_message'] = yankee;
-                                oscard = option.bind(verify)(golfie, oscard);
- 2178:
-                                option = _closure1_slot1;
-                                verify = _closure1_slot2;
-                                golfie = 43;
-                                oscard = verify[golfie];
-                                kiloes = option.bind(michal)(oscard);
+ 2093:
+                                foxtra = kiloes === backup;
+ 2097:
+                                report['is_own_message'] = foxtra;
+                                report = yankee.bind(romeon)(oscard, report);
+ 2108:
+                                romeon = _closure1_slot1;
+                                yankee = _closure1_slot2;
+                                oscard = 43;
+                                report = yankee[oscard];
+                                kiloes = romeon.bind(michal)(report);
                                 backup = kiloes.dispatch;
-                                yankee = {};
-                                oscard = 'SLOWMODE_RESET_COOLDOWN';
-                                yankee['type'] = oscard;
-                                oscard = _closure1_slot25;
-                                oscard = oscard.SendMessage;
-                                yankee['slowmodeType'] = oscard;
-                                oscard = _closure2_slot0;
-                                yankee['channelId'] = oscard;
-                                yankee = backup.bind(kiloes)(yankee);
-                                yankee = verify[golfie];
-                                kiloes = option.bind(michal)(yankee);
+                                foxtra = {};
+                                report = 'SLOWMODE_RESET_COOLDOWN';
+                                foxtra['type'] = report;
+                                report = _closure1_slot25;
+                                report = report.SendMessage;
+                                foxtra['slowmodeType'] = report;
+                                report = _closure2_slot0;
+                                foxtra['channelId'] = report;
+                                foxtra = backup.bind(kiloes)(foxtra);
+                                foxtra = yankee[oscard];
+                                kiloes = romeon.bind(michal)(foxtra);
                                 backup = kiloes.dispatch;
-                                yankee = {};
+                                foxtra = {};
                                 sizing = 'EMOJI_TRACK_USAGE';
-                                yankee['type'] = sizing;
+                                foxtra['type'] = sizing;
                                 sizing = _closure4_slot1;
-                                yankee['emojiUsed'] = sizing;
-                                yankee = backup.bind(kiloes)(yankee);
-                                yankee = verify[golfie];
-                                kiloes = option.bind(michal)(yankee);
+                                foxtra['emojiUsed'] = sizing;
+                                foxtra = backup.bind(kiloes)(foxtra);
+                                foxtra = yankee[oscard];
+                                kiloes = romeon.bind(michal)(foxtra);
                                 backup = kiloes.dispatch;
-                                yankee = {};
+                                foxtra = {};
                                 sizing = 'STICKER_TRACK_USAGE';
-                                yankee['type'] = sizing;
+                                foxtra['type'] = sizing;
                                 sizing = _closure4_slot4;
-                                yankee['stickerIds'] = sizing;
-                                yankee = backup.bind(kiloes)(yankee);
-                                golfie = verify[golfie];
-                                verify = option.bind(michal)(golfie);
-                                option = verify.dispatch;
-                                golfie = {};
-                                yankee = 'LOCAL_MESSAGE_CREATE';
-                                golfie['type'] = yankee;
+                                foxtra['stickerIds'] = sizing;
+                                foxtra = backup.bind(kiloes)(foxtra);
+                                yankee = yankee[oscard];
+                                foxtra = romeon.bind(michal)(yankee);
+                                romeon = foxtra.dispatch;
                                 yankee = {};
-                                yankee['channel_id'] = oscard;
-                                backup = _closure1_slot26;
-                                foxtra = backup.getCurrentUser;
-                                foxtra = foxtra.bind(backup)();
-                                yankee['author'] = foxtra;
-                                golfie['message'] = yankee;
-                                golfie = option.bind(verify)(golfie);
-                                golfie = {};
-                                option = _closure4_slot0;
-                                golfie['content'] = option;
-                                golfie['channelId'] = oscard;
-                                oscard = zuuluu.body;
-                                oscard = oscard.id;
-                                golfie['messageId'] = oscard;
-                                oscard = _closure4_slot2;
-                                option = romeon != oscard;
-                                verify = 'chat_input';
-                                oscard = verify;
-                                if(!option) { _fun00056_ip = 2434; continue _fun00055 }
- 2430:
-                                oscard = _closure4_slot2;
- 2434:
-                                golfie['location'] = oscard;
-                                oscard = _closure4_slot3;
-                                golfie['suggested'] = oscard;
-                                oscard = function(argFoo) { // Original name: trackCodedLinks
+                                backup = 'LOCAL_MESSAGE_CREATE';
+                                yankee['type'] = backup;
+                                backup = {};
+                                backup['channel_id'] = report;
+                                sizing = _closure1_slot26;
+                                kiloes = sizing.getCurrentUser;
+                                kiloes = kiloes.bind(sizing)();
+                                backup['author'] = kiloes;
+                                yankee['message'] = backup;
+                                yankee = romeon.bind(foxtra)(yankee);
+                                yankee = {};
+                                romeon = _closure4_slot0;
+                                yankee['content'] = romeon;
+                                yankee['channelId'] = report;
+                                report = zuuluu.body;
+                                report = report.id;
+                                yankee['messageId'] = report;
+                                report = _closure4_slot2;
+                                romeon = verify != report;
+                                backup = 'chat_input';
+                                report = backup;
+                                if(!romeon) { _fun00056_ip = 2364; continue _fun00055 }
+ 2360:
+                                report = _closure4_slot2;
+ 2364:
+                                yankee['location'] = report;
+                                report = _closure4_slot3;
+                                yankee['suggested'] = report;
+                                report = function(argFoo) { // Original name: trackCodedLinks
                                     _fun00057: for(var _fun00058_ip = 0; ; ) switch(_fun00058_ip) {
  0:
                                         zuuluu = argFoo;
@@ -4765,21 +4757,21 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                         return entity;
                                     }
                                 };
-                                oscard = oscard.bind(michal)(golfie);
-                                option = _closure4_slot0;
-                                golfie = _closure2_slot0;
-                                oscard = zuuluu.body;
-                                oscard = oscard.id;
-                                yankee = _closure4_slot2;
-                                yankee = romeon != yankee;
-                                if(!yankee) { _fun00056_ip = 2490; continue _fun00055 }
- 2486:
-                                verify = _closure4_slot2;
- 2490:
-                                tangon = _closure2_slot2;
-                                tangon = tangon.isGiftLinkSentOnBehalfOfUser;
-                                tangon = !tangon;
-                                report = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: trackGiftCodes
+                                report = report.bind(michal)(yankee);
+                                foxtra = _closure4_slot0;
+                                romeon = _closure2_slot0;
+                                report = zuuluu.body;
+                                yankee = report.id;
+                                report = _closure4_slot2;
+                                report = verify != report;
+                                if(!report) { _fun00056_ip = 2420; continue _fun00055 }
+ 2416:
+                                backup = _closure4_slot2;
+ 2420:
+                                report = _closure2_slot2;
+                                report = report.isGiftLinkSentOnBehalfOfUser;
+                                report = !report;
+                                offset = function(argFoo, argBar, argBaz, argCor, argGra) { // Original name: trackGiftCodes
                                     entity = argBar;
                                     var _closure7_slot0 = entity;
                                     entity = argBaz;
@@ -4842,16 +4834,36 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                                     michal = zuuluu.bind(tangon)(michal);
                                     return entity;
                                 };
-                                ctrled = !tangon;
+                                ctrled = !report;
                                 cntext = undefined;
-                                record = option;
-                                config = golfie;
-                                sequen = oscard;
-                                vacuum = verify;
-                                tangon = cntext[report](record, config, sequen, vacuum, ctrled, source);
+                                record = foxtra;
+                                config = romeon;
+                                sequen = yankee;
+                                vacuum = backup;
+                                report = cntext[offset](record, config, sequen, vacuum, ctrled, source);
+                                report = _closure4_slot12;
+                                if(!(verify != report)) { _fun00056_ip = 2536; continue _fun00055 }
+ 2467:
+                                report = _closure1_slot1;
+                                tangon = _closure1_slot2;
+                                tangon = tangon[oscard];
+                                oscard = report.bind(michal)(tangon);
+                                report = oscard.dispatch;
+                                tangon = {};
+                                verify = 'UPLOAD_COMPLETE';
+                                tangon['type'] = verify;
+                                option = _closure2_slot0;
+                                tangon['channelId'] = option;
+                                golfie = _closure4_slot12;
+                                golfie = golfie._file;
+                                tangon['file'] = golfie;
+                                golfie = false;
+                                tangon['aborted'] = golfie;
+                                tangon = report.bind(oscard)(tangon);
+ 2536:
                                 entity = _closure5_slot0;
                                 entity = entity.bind(michal)(zuuluu);
- 2538:
+ 2545:
                                 entity = undefined;
                                 return entity;
                             }
@@ -4863,13 +4875,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     yankee = new variable42[backup](variable41, variable40);
                     yankee = yankee instanceof Object ? yankee : foxtra;
                     return yankee;
+ 1639:
+                    return offset;
  1642:
                     return offset;
  1645:
-                    return offset;
- 1648:
                     return report;
- 1651: // catch_target0
+ 1648: // catch_target0
                     CatchBlockStart(arg_register=4);
                     sizing = report.file;
                     option = sizing;
@@ -4889,23 +4901,23 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report['failureCode'] = kiloes;
                     kiloes = romeon == backup;
                     backup = undefined;
-                    if(kiloes) { _fun00054_ip = 1741; continue _fun00053 }
- 1732:
+                    if(kiloes) { _fun00054_ip = 1738; continue _fun00053 }
+ 1729:
                     kiloes = oscard;
                     backup = kiloes.msg;
- 1741:
+ 1738:
                     report['errorMessage'] = backup;
                     report = yankee.bind(foxtra)(report);
                     yankee = verify;
                     yankee = romeon == yankee;
                     report = yankee;
-                    if(yankee) { _fun00054_ip = 1771; continue _fun00053 }
- 1764:
+                    if(yankee) { _fun00054_ip = 1768; continue _fun00053 }
+ 1761:
                     report = verify.bind(offset)(option, golfie, oscard);
- 1771:
+ 1768:
                     report = undefined;
                     return report;
- 1776:
+ 1773:
                     oscard = _closure1_slot48;
                     report = oscard.info;
                     zuuluu = 'Converting channel to a private channel';
@@ -4927,7 +4939,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     };
                     michal = zuuluu.bind(tangon)(michal);
                     return michal;
- 1815:
+ 1812:
                     return entity;
                 }
             };

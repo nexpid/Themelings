@@ -102,29 +102,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = report.bind(tangon)(michal);
                     michal = michal.ObscureReason;
                     michal = michal.SPOILER;
-                    if(!(michal !== zuuluu)) { _fun00006_ip = 168; continue _fun00005 }
- 48:
+                    if(!(michal !== zuuluu)) { _fun00006_ip = 204; continue _fun00005 }
+ 51:
                     report = _closure1_slot0;
                     michal = _closure1_slot2;
                     michal = michal[oscard];
                     michal = report.bind(tangon)(michal);
                     michal = michal.ObscureReason;
                     michal = michal.EXPLICIT_CONTENT;
-                    if(!(michal !== zuuluu)) { _fun00006_ip = 120; continue _fun00005 }
- 81:
+                    if(!(michal !== zuuluu)) { _fun00006_ip = 156; continue _fun00005 }
+ 84:
+                    report = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    michal = michal[oscard];
+                    michal = report.bind(tangon)(michal);
+                    michal = michal.ObscureReason;
+                    michal = michal.GORE_CONTENT;
+                    if(!(michal !== zuuluu)) { _fun00006_ip = 156; continue _fun00005 }
+ 117:
                     report = _closure1_slot0;
                     michal = _closure1_slot2;
                     michal = michal[oscard];
                     michal = report.bind(tangon)(michal);
                     michal = michal.ObscureReason;
                     michal = michal.POTENTIAL_EXPLICIT_CONTENT;
-                    if(!(michal !== zuuluu)) { _fun00006_ip = 116; continue _fun00005 }
- 114:
+                    if(!(michal !== zuuluu)) { _fun00006_ip = 152; continue _fun00005 }
+ 150:
                     return tangon;
- 116:
+ 152:
                     michal = null;
                     return michal;
- 120:
+ 156:
                     report = _closure1_slot8;
                     zuuluu = _closure1_slot0;
                     oscard = _closure1_slot2;
@@ -137,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['size'] = oscard;
                     michal = report.bind(tangon)(zuuluu, michal);
                     return michal;
- 168:
+ 204:
                     zuuluu = _closure1_slot8;
                     michal = _closure1_slot0;
                     report = _closure1_slot2;

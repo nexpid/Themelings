@@ -1,5 +1,5 @@
 // app/modules/explicit_media_redaction/native/ExplicitMediaRedactionNativeUtils.tsx
-export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -36,11 +36,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/explicit_media_redaction/native/ExplicitMediaRedactionNativeUtils.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar, argBaz) {
+    tangon = function(argFoo, argBar, argBaz, argCor) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            option = argBaz;
-            entity = argBar;
+            option = argCor;
+            entity = argBaz;
             var _closure2_slot0 = entity;
             michal = _closure1_slot3;
             entity = michal.getCurrentUser;
@@ -224,28 +224,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['onPress'] = tangon;
             michal = zuuluu.bind(report)(michal);
  459:
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
             michal = 8;
-            michal = yankee[michal];
-            tangon = offset.bind(entity)(michal);
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
             zuuluu = tangon.showSimpleActionSheet;
             michal = {};
             oscard = _closure1_slot4;
             michal['key'] = oscard;
             oscard = {};
-            golfie = 4;
-            option = yankee[golfie];
-            option = offset.bind(entity)(option);
-            verify = option.intl;
-            option = verify.string;
-            golfie = yankee[golfie];
-            golfie = offset.bind(entity)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.uEz8JC;
-            golfie = option.bind(verify)(golfie);
-            oscard['title'] = golfie;
             golfie = argFoo;
+            oscard['title'] = golfie;
+            golfie = argBar;
             oscard['subtitle'] = golfie;
             michal['header'] = oscard;
             michal['options'] = report;
