@@ -33,142 +33,124 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            verify = entity.file;
-            offset = entity.guildId;
-            golfie = entity.analyticsLocations;
+            option = entity.file;
+            verify = entity.guildId;
+            report = entity.analyticsLocations;
             michal = entity.code;
             oscard = entity.reason;
-            zuuluu = entity.onRecoverDraft;
             entity = _closure1_slot3;
             entity = entity.ENTITY_TOO_LARGE;
-            if(!(michal !== entity)) { _fun00002_ip = 419; continue _fun00001 }
- 57:
+            if(!(michal !== entity)) { _fun00002_ip = 389; continue _fun00001 }
+ 51:
             entity = _closure1_slot3;
             entity = entity.TOO_MANY_ATTACHMENTS;
-            if(!(michal !== entity)) { _fun00002_ip = 253; continue _fun00001 }
- 74:
+            if(!(michal !== entity)) { _fun00002_ip = 235; continue _fun00001 }
+ 68:
             entity = _closure1_slot3;
             entity = entity.ENTITY_EMPTY;
             entity = michal === entity;
-            if(!entity) { _fun00002_ip = 248; continue _fun00001 }
- 94:
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 106; continue _fun00001 }
- 100:
-            michal = undefined;
-            michal = zuuluu.bind(michal)();
- 106:
-            tangon = _closure1_slot1;
-            sizing = _closure1_slot2;
-            michal = 3;
-            michal = sizing[michal];
-            kiloes = undefined;
-            report = tangon.bind(kiloes)(michal);
-            tangon = report.show;
-            michal = {};
-            backup = _closure1_slot0;
-            yankee = 4;
-            romeon = sizing[yankee];
-            romeon = backup.bind(kiloes)(romeon);
-            output = romeon.intl;
-            foxtra = output.string;
-            romeon = sizing[yankee];
-            romeon = backup.bind(kiloes)(romeon);
-            romeon = romeon.t;
-            romeon = romeon.B3vFdX;
-            romeon = foxtra.bind(output)(romeon);
-            michal['title'] = romeon;
-            romeon = sizing[yankee];
-            romeon = backup.bind(kiloes)(romeon);
-            foxtra = romeon.intl;
-            romeon = foxtra.string;
-            yankee = sizing[yankee];
-            yankee = backup.bind(kiloes)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.9ZpT2N;
-            yankee = romeon.bind(foxtra)(yankee);
-            michal['body'] = yankee;
-            michal = tangon.bind(report)(michal);
-            entity = true;
- 248:
-            _fun00002_ip = 417; continue _fun00001;
- 253:
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 265; continue _fun00001 }
- 259:
-            michal = undefined;
-            michal = zuuluu.bind(michal)();
- 265:
-            tangon = _closure1_slot1;
-            sizing = _closure1_slot2;
-            michal = 3;
-            michal = sizing[michal];
-            kiloes = undefined;
-            report = tangon.bind(kiloes)(michal);
-            tangon = report.show;
-            michal = {};
-            romeon = _closure1_slot0;
-            yankee = 4;
-            foxtra = sizing[yankee];
-            foxtra = romeon.bind(kiloes)(foxtra);
-            output = foxtra.intl;
-            backup = output.string;
-            foxtra = sizing[yankee];
-            foxtra = romeon.bind(kiloes)(foxtra);
-            foxtra = foxtra.t;
-            foxtra = foxtra.wOr6hI;
-            foxtra = backup.bind(output)(foxtra);
-            michal['title'] = foxtra;
-            foxtra = sizing[yankee];
-            foxtra = romeon.bind(kiloes)(foxtra);
-            backup = foxtra.intl;
-            foxtra = backup.formatToPlainString;
-            yankee = sizing[yankee];
-            yankee = romeon.bind(kiloes)(yankee);
-            yankee = yankee.t;
-            romeon = yankee.qqyp/f;
-            yankee = {};
-            kiloes = _closure1_slot4;
-            yankee['limit'] = kiloes;
-            yankee = foxtra.bind(backup)(romeon, yankee);
-            michal['body'] = yankee;
-            michal = tangon.bind(report)(michal);
-            entity = true;
- 417:
-            _fun00002_ip = 523; continue _fun00001;
- 419:
-            report = null;
-            if(!(report != zuuluu)) { _fun00002_ip = 431; continue _fun00001 }
- 425:
-            michal = undefined;
-            michal = zuuluu.bind(michal)();
- 431:
+            if(!entity) { _fun00002_ip = 230; continue _fun00001 }
+ 88:
             zuuluu = _closure1_slot1;
-            yankee = _closure1_slot2;
+            kiloes = _closure1_slot2;
+            michal = 3;
+            michal = kiloes[michal];
+            backup = undefined;
+            tangon = zuuluu.bind(backup)(michal);
+            zuuluu = tangon.show;
+            michal = {};
+            foxtra = _closure1_slot0;
+            offset = 4;
+            yankee = kiloes[offset];
+            yankee = foxtra.bind(backup)(yankee);
+            sizing = yankee.intl;
+            romeon = sizing.string;
+            yankee = kiloes[offset];
+            yankee = foxtra.bind(backup)(yankee);
+            yankee = yankee.t;
+            yankee = yankee.B3vFdX;
+            yankee = romeon.bind(sizing)(yankee);
+            michal['title'] = yankee;
+            yankee = kiloes[offset];
+            yankee = foxtra.bind(backup)(yankee);
+            romeon = yankee.intl;
+            yankee = romeon.string;
+            offset = kiloes[offset];
+            offset = foxtra.bind(backup)(offset);
+            offset = offset.t;
+            offset = offset.9ZpT2N;
+            offset = yankee.bind(romeon)(offset);
+            michal['body'] = offset;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = true;
+ 230:
+            _fun00002_ip = 387; continue _fun00001;
+ 235:
+            zuuluu = _closure1_slot1;
+            kiloes = _closure1_slot2;
+            michal = 3;
+            michal = kiloes[michal];
+            backup = undefined;
+            tangon = zuuluu.bind(backup)(michal);
+            zuuluu = tangon.show;
+            michal = {};
+            yankee = _closure1_slot0;
+            offset = 4;
+            romeon = kiloes[offset];
+            romeon = yankee.bind(backup)(romeon);
+            sizing = romeon.intl;
+            foxtra = sizing.string;
+            romeon = kiloes[offset];
+            romeon = yankee.bind(backup)(romeon);
+            romeon = romeon.t;
+            romeon = romeon.wOr6hI;
+            romeon = foxtra.bind(sizing)(romeon);
+            michal['title'] = romeon;
+            romeon = kiloes[offset];
+            romeon = yankee.bind(backup)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.formatToPlainString;
+            offset = kiloes[offset];
+            offset = yankee.bind(backup)(offset);
+            offset = offset.t;
+            yankee = offset.qqyp/f;
+            offset = {};
+            backup = _closure1_slot4;
+            offset['limit'] = backup;
+            offset = romeon.bind(foxtra)(yankee, offset);
+            michal['body'] = offset;
+            michal = zuuluu.bind(tangon)(michal);
+            entity = true;
+ 387:
+            _fun00002_ip = 483; continue _fun00001;
+ 389:
+            zuuluu = _closure1_slot1;
+            offset = _closure1_slot2;
             michal = 1;
-            michal = yankee[michal];
+            michal = offset[michal];
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['file'] = verify;
-            verify = _closure1_slot0;
-            option = 2;
-            option = yankee[option];
-            verify = verify.bind(tangon)(option);
-            option = verify.maxFileSize;
-            option = option.bind(verify)(offset);
-            michal['maxSize'] = option;
-            michal['analyticsLocations'] = golfie;
+            michal['file'] = option;
+            option = _closure1_slot0;
+            golfie = 2;
+            golfie = offset[golfie];
+            option = option.bind(tangon)(golfie);
+            golfie = option.maxFileSize;
+            golfie = golfie.bind(option)(verify);
+            michal['maxSize'] = golfie;
+            michal['analyticsLocations'] = report;
+            report = null;
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00002_ip = 511; continue _fun00001 }
- 506:
+            if(golfie) { _fun00002_ip = 471; continue _fun00001 }
+ 466:
             report = oscard.type;
- 511:
+ 471:
             michal['errorReason'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity = true;
- 523:
+ 483:
             return entity;
         }
     };

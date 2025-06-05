@@ -549,7 +549,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot19 = entity;
-    romeon = function() { // Original name: voiceEligibilityCheck
+    update = function() { // Original name: voiceEligibilityCheck
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             zuuluu = _closure1_slot8;
@@ -609,144 +609,178 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = 8;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    output = michal.FeedbackGroup;
+    sizing = michal.FeedbackGroup;
     offset = michal.FeedbackType;
     report = michal.FeedbackTypePrecedence;
     var _closure1_slot10 = report;
     michal = michal.MAX_REPRESENTABLE_DATE;
     var _closure1_slot11 = michal;
-    echoed = {'chance': 0.2, 'cooldown': 86400000};
+    result = {'chance': 0.2, 'cooldown': 86400000};
     michal = {};
     verify = offset.VOICE;
     report = {};
     vacuum = report;
-    ctrled = echoed;
+    ctrled = result;
     yankee = copyDataProperties(vacuum, ctrled);
-    yankee = output.AV;
-    result = 'group';
-    report[result] = yankee;
-    backup = 9;
-    yankee = golfie[backup];
+    yankee = sizing.AV;
+    output = 'group';
+    report[output] = yankee;
+    foxtra = 9;
+    yankee = golfie[foxtra];
     yankee = oscard.bind(entity)(yankee);
     yankee = yankee.HotspotLocations;
     yankee = yankee.VOICE_CALL_FEEDBACK;
-    sizing = 'hotspot';
-    report[sizing] = yankee;
-    yankee = 'lastVoiceFeedback';
-    kiloes = 'storageKey';
+    kiloes = 'hotspot';
     report[kiloes] = yankee;
+    yankee = 'lastVoiceFeedback';
+    backup = 'storageKey';
+    report[backup] = yankee;
     yankee = offset.VOICE;
-    foxtra = 'feedbackType';
-    report[foxtra] = yankee;
-    update = new Array(1);
-    update[0] = romeon;
+    romeon = 'feedbackType';
+    report[romeon] = yankee;
+    echoed = new Array(1);
+    echoed[0] = update;
     yankee = 'eligibilityChecks';
-    report[yankee] = update;
+    report[yankee] = echoed;
     michal[verify] = report;
     verify = offset.STREAM;
     report = {};
     vacuum = report;
-    ctrled = echoed;
-    update = copyDataProperties(vacuum, ctrled);
-    update = output.AV;
-    report[result] = update;
-    update = golfie[backup];
-    update = oscard.bind(entity)(update);
-    update = update.HotspotLocations;
-    update = update.REPORT_PROBLEM_POST_STREAM;
-    report[sizing] = update;
-    update = 'lastStreamFeedback';
-    report[kiloes] = update;
-    update = offset.STREAM;
-    report[foxtra] = update;
+    ctrled = result;
+    echoed = copyDataProperties(vacuum, ctrled);
+    echoed = sizing.AV;
+    report[output] = echoed;
+    echoed = golfie[foxtra];
+    echoed = oscard.bind(entity)(echoed);
+    echoed = echoed.HotspotLocations;
+    echoed = echoed.REPORT_PROBLEM_POST_STREAM;
+    report[kiloes] = echoed;
+    echoed = 'lastStreamFeedback';
+    report[backup] = echoed;
+    echoed = offset.STREAM;
+    report[romeon] = echoed;
     michal[verify] = report;
     verify = offset.VIDEO_BACKGROUND;
     report = {};
     vacuum = report;
-    ctrled = echoed;
-    update = copyDataProperties(vacuum, ctrled);
-    update = output.AV;
-    report[result] = update;
-    update = golfie[backup];
-    update = oscard.bind(entity)(update);
-    update = update.HotspotLocations;
-    update = update.VIDEO_BACKGROUND_FEEDBACK;
-    report[sizing] = update;
-    update = 'lastVideoBackgroundFeedback';
-    report[kiloes] = update;
-    update = offset.VIDEO_BACKGROUND;
-    report[foxtra] = update;
+    ctrled = result;
+    echoed = copyDataProperties(vacuum, ctrled);
+    echoed = sizing.AV;
+    report[output] = echoed;
+    echoed = golfie[foxtra];
+    echoed = oscard.bind(entity)(echoed);
+    echoed = echoed.HotspotLocations;
+    echoed = echoed.VIDEO_BACKGROUND_FEEDBACK;
+    report[kiloes] = echoed;
+    echoed = 'lastVideoBackgroundFeedback';
+    report[backup] = echoed;
+    echoed = offset.VIDEO_BACKGROUND;
+    report[romeon] = echoed;
     michal[verify] = report;
     verify = offset.ACTIVITY;
     report = {'cooldown': 0, 'chance': 0.5, 'group': null, 'hotspot': null, 'storageKey': 'lastActivityFeedback'};
-    update = output.AV;
-    report['group'] = update;
-    update = golfie[backup];
-    update = oscard.bind(entity)(update);
-    update = update.HotspotLocations;
-    update = update.POST_ACTIVITY_FEEDBACK;
-    report['hotspot'] = update;
-    update = offset.ACTIVITY;
-    report['feedbackType'] = update;
+    echoed = sizing.AV;
+    report['group'] = echoed;
+    echoed = golfie[foxtra];
+    echoed = oscard.bind(entity)(echoed);
+    echoed = echoed.HotspotLocations;
+    echoed = echoed.POST_ACTIVITY_FEEDBACK;
+    report['hotspot'] = echoed;
+    echoed = offset.ACTIVITY;
+    report['feedbackType'] = echoed;
     michal[verify] = report;
     verify = offset.IN_APP_REPORTS;
     report = {'cooldown': 172800000, 'chance': 0.5, 'group': null, 'hotspot': null, 'storageKey': 'inAppReportsFeedback'};
-    update = output.SOCIAL;
-    report['group'] = update;
-    update = golfie[backup];
-    update = oscard.bind(entity)(update);
-    update = update.HotspotLocations;
-    update = update.IN_APP_REPORTS_FEEDBACK;
-    report['hotspot'] = update;
-    update = offset.IN_APP_REPORTS;
-    report['feedbackType'] = update;
+    echoed = sizing.SOCIAL;
+    report['group'] = echoed;
+    echoed = golfie[foxtra];
+    echoed = oscard.bind(entity)(echoed);
+    echoed = echoed.HotspotLocations;
+    echoed = echoed.IN_APP_REPORTS_FEEDBACK;
+    report['hotspot'] = echoed;
+    echoed = offset.IN_APP_REPORTS;
+    report['feedbackType'] = echoed;
     michal[verify] = report;
     verify = offset.USER_DM_MUTE;
     report = {'cooldown': 604800000, 'chance': 1, 'group': null, 'hotspot': null, 'storageKey': 'userDmMute'};
-    update = output.SOCIAL;
-    report['group'] = update;
-    update = golfie[backup];
-    update = oscard.bind(entity)(update);
-    update = update.HotspotLocations;
-    update = update.USER_DM_MUTE_FEEDBACK;
-    report['hotspot'] = update;
-    update = offset.USER_DM_MUTE;
-    report['feedbackType'] = update;
+    echoed = sizing.SOCIAL;
+    report['group'] = echoed;
+    echoed = golfie[foxtra];
+    echoed = oscard.bind(entity)(echoed);
+    echoed = echoed.HotspotLocations;
+    echoed = echoed.USER_DM_MUTE_FEEDBACK;
+    report['hotspot'] = echoed;
+    echoed = offset.USER_DM_MUTE;
+    report['feedbackType'] = echoed;
     michal[verify] = report;
     verify = offset.BLOCK_USER;
     report = {'cooldown': 0, 'chance': 1, 'group': null, 'hotspot': null, 'storageKey': 'blockUser'};
-    update = output.SOCIAL;
-    report['group'] = update;
-    update = golfie[backup];
-    update = oscard.bind(entity)(update);
-    update = update.HotspotLocations;
-    update = update.BLOCK_USER_FEEDBACK;
-    report['hotspot'] = update;
-    update = offset.BLOCK_USER;
-    report['feedbackType'] = update;
+    echoed = sizing.SOCIAL;
+    report['group'] = echoed;
+    echoed = golfie[foxtra];
+    echoed = oscard.bind(entity)(echoed);
+    echoed = echoed.HotspotLocations;
+    echoed = echoed.BLOCK_USER_FEEDBACK;
+    report['hotspot'] = echoed;
+    echoed = offset.BLOCK_USER;
+    report['feedbackType'] = echoed;
     michal[verify] = report;
     verify = offset.VOICE_FILTER;
     report = {};
     vacuum = report;
-    ctrled = echoed;
+    ctrled = result;
     echoed = copyDataProperties(vacuum, ctrled);
-    output = output.AV;
-    report[result] = output;
-    backup = golfie[backup];
-    backup = oscard.bind(entity)(backup);
-    backup = backup.HotspotLocations;
-    backup = backup.VOICE_FILTER_FEEDBACK;
-    report[sizing] = backup;
-    backup = 'lastVoiceFilterFeedback';
-    report[kiloes] = backup;
-    offset = offset.VOICE_FILTER;
-    report[foxtra] = offset;
+    echoed = sizing.AV;
+    report[output] = echoed;
+    echoed = golfie[foxtra];
+    echoed = oscard.bind(entity)(echoed);
+    echoed = echoed.HotspotLocations;
+    echoed = echoed.VOICE_FILTER_FEEDBACK;
+    report[kiloes] = echoed;
+    echoed = 'lastVoiceFilterFeedback';
+    report[backup] = echoed;
+    echoed = offset.VOICE_FILTER;
+    report[romeon] = echoed;
+    echoed = new Array(1);
+    echoed[0] = update;
+    report[yankee] = echoed;
+    michal[verify] = report;
+    verify = offset.SEARCH_RESULTS;
+    report = {};
+    vacuum = report;
+    ctrled = result;
+    result = copyDataProperties(vacuum, ctrled);
+    sizing = sizing.SEARCH;
+    report[output] = sizing;
+    foxtra = golfie[foxtra];
+    foxtra = oscard.bind(entity)(foxtra);
+    foxtra = foxtra.HotspotLocations;
+    foxtra = foxtra.SEARCH_RESULTS_FEEDBACK;
+    report[kiloes] = foxtra;
+    foxtra = 'searchResultsFeedback';
+    report[backup] = foxtra;
+    offset = offset.SEARCH_RESULTS;
+    report[romeon] = offset;
     offset = new Array(1);
+    romeon = function() { // Original name: searchResultsEligibilityCheck
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 16;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.getIsSearchResultsFeedbackExperimentEnabled;
+        entity = {};
+        tangon = 'FeedbackManager';
+        entity['location'] = tangon;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
     offset[0] = romeon;
     report[yankee] = offset;
     michal[verify] = report;
     var _closure1_slot12 = michal;
-    report = 16;
+    report = 17;
     report = golfie[report];
     report = option.bind(entity)(report);
     tangon = function(argFoo) {
@@ -794,14 +828,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = oscard[zuuluu];
                 report = tangon.bind(report)(zuuluu);
                 tangon = report.debounce;
-                zuuluu = function(argFoo) {
+                zuuluu = function(argFoo, argBar) {
                     _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
+                        tangon = argBar;
                         michal = _closure3_slot0;
                         michal = michal.feedbackTypeToShow;
                         zuuluu = null;
-                        if(!(zuuluu != michal)) { _fun00020_ip = 58; continue _fun00019 }
- 19:
+                        if(!(zuuluu == michal)) { _fun00020_ip = 34; continue _fun00019 }
+ 22:
+                        if(!(zuuluu != tangon)) { _fun00020_ip = 73; continue _fun00019 }
+ 26:
+                        michal = undefined;
+                        michal = tangon.bind(michal)();
+                        _fun00020_ip = 73; continue _fun00019;
+ 34:
                         entity = _closure3_slot0;
                         report = entity.feedbackTypeToShow;
                         tangon = function(argFoo) { // Original name: updateLastFeedbackDate
@@ -883,7 +924,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity['feedbackTypeToShow'] = zuuluu;
                         entity = argFoo;
                         entity = entity.bind(michal)();
- 58:
+ 73:
                         entity = undefined;
                         return entity;
                     }
@@ -903,12 +944,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         oscard = 'possiblyShowFeedbackModal';
         report['key'] = oscard;
-        entity = function(argFoo, argBar) { // Original name: value
+        entity = function(argFoo, argBar, argBaz) { // Original name: value
             _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
-                michal = argFoo;
-                tangon = this;
-                zuuluu = function(argFoo) { // Original name: feedbackTypeIsEligibleToBeShown
+                zuuluu = argFoo;
+                michal = argBaz;
+                report = this;
+                tangon = function(argFoo) { // Original name: feedbackTypeIsEligibleToBeShown
                     _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                         oscard = argFoo;
@@ -1000,30 +1042,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 entity = undefined;
-                zuuluu = zuuluu.bind(entity)(michal);
-                zuuluu = !zuuluu;
-                if(zuuluu) { _fun00024_ip = 71; continue _fun00023 }
+                tangon = tangon.bind(entity)(zuuluu);
+                if(!tangon) { _fun00024_ip = 88; continue _fun00023 }
  28:
-                oscard = tangon.feedbackTypeToShow;
-                report = null;
-                report = report != oscard;
-                if(!report) { _fun00024_ip = 68; continue _fun00023 }
- 43:
-                oscard = _closure1_slot10;
-                golfie = tangon.feedbackTypeToShow;
-                golfie = oscard[golfie];
-                oscard = oscard[michal];
-                report = golfie < oscard;
- 68:
-                zuuluu = report;
- 71:
-                if(zuuluu) { _fun00024_ip = 94; continue _fun00023 }
- 74:
-                tangon['feedbackTypeToShow'] = michal;
-                zuuluu = tangon.showFeedbackModalDebounced;
-                michal = argBar;
-                michal = zuuluu.bind(tangon)(michal);
+                oscard = report.feedbackTypeToShow;
+                tangon = null;
+                if(!(tangon != oscard)) { _fun00024_ip = 65; continue _fun00023 }
+ 40:
+                tangon = _closure1_slot10;
+                oscard = report.feedbackTypeToShow;
+                oscard = tangon[oscard];
+                tangon = tangon[zuuluu];
+                if(!(!(oscard < tangon))) { _fun00024_ip = 88; continue _fun00023 }
+ 65:
+                report['feedbackTypeToShow'] = zuuluu;
+                tangon = report.showFeedbackModalDebounced;
+                zuuluu = argBar;
+                zuuluu = tangon.bind(report)(zuuluu, michal);
+                _fun00024_ip = 98; continue _fun00023;
+ 88:
+                zuuluu = null;
+                if(!(zuuluu != michal)) { _fun00024_ip = 98; continue _fun00023 }
  94:
+                michal = michal.bind(entity)();
+ 98:
                 return entity;
             }
         };
@@ -1034,7 +1076,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     tangon = tangon.bind(entity)(report);
-    report = 17;
+    report = 18;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

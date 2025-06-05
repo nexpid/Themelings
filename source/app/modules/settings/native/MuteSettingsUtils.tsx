@@ -270,13 +270,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             tangon = zuuluu.bind(tangon)(michal);
             michal = null;
-            if(!(michal != tangon)) { _fun00008_ip = 164; continue _fun00007 }
+            if(!(michal != tangon)) { _fun00008_ip = 160; continue _fun00007 }
  29:
             michal = tangon.isThread;
             report = michal.bind(tangon)();
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            if(report) { _fun00008_ip = 129; continue _fun00007 }
+            if(report) { _fun00008_ip = 125; continue _fun00007 }
  50:
             report = 14;
             report = michal[report];
@@ -294,8 +294,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = {'muted': false, 'mute_config': null};
             backup = verify;
             entity = backup[option](foxtra, romeon, yankee, offset, verify);
-            _fun00008_ip = 164; continue _fun00007;
- 129:
+            _fun00008_ip = 160; continue _fun00007;
+ 125:
             entity = 13;
             michal = michal[entity];
             entity = undefined;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = false;
             entity['muted'] = report;
             entity = michal.bind(zuuluu)(tangon, entity);
- 164:
+ 160:
             entity = undefined;
             return entity;
         }

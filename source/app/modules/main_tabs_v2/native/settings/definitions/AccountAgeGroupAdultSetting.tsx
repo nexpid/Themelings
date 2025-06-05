@@ -37,7 +37,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.2UzQiY;
+        entity = entity./52UY2;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
@@ -56,7 +56,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.Y0A/1N;
+        entity = entity.XxRj7e;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };

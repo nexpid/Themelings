@@ -42,10 +42,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot5 = tangon;
     tangon = {};
-    golfie = "function PortalKeyboardFooterIOSIosTsx1(){const{interpolate,progress,bottom,animatedSheetIndex,height,EXPRESSION_FOOTER_HEIGHT}=this.__closure;const offset=interpolate(progress.get(),[0,1],[0,bottom]);if(animatedSheetIndex.get()>=0){return{transform:[{translateY:height.get()+offset}]};}return{transform:[{translateY:interpolate(animatedSheetIndex.get(),[-1,0],[EXPRESSION_FOOTER_HEIGHT+bottom,0],'clamp')}]};}";
+    golfie = "function PortalKeyboardFooterIOSIosTsx1(){const{interpolate,progress,bottom,animatedSheetIndex,height,EXPRESSION_FOOTER_HEIGHT}=this.__closure;const offset=interpolate(progress.get(),[0,1],[0,bottom]);if(animatedSheetIndex.get()>=0){return{transform:[{translateY:-height.get()+offset}]};}return{transform:[{translateY:interpolate(animatedSheetIndex.get(),[-1,0],[EXPRESSION_FOOTER_HEIGHT+bottom,0],'clamp')}]};}";
     tangon['code'] = golfie;
     var _closure1_slot6 = tangon;
-    tangon = 9;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -85,11 +85,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = oscard.bind(tangon)(entity);
             entity = verify.useReanimatedKeyboardAnimation;
             entity = entity.bind(verify)();
-            backup = entity.height;
-            _closure2_slot3 = backup;
             output = entity.progress;
-            _closure2_slot4 = output;
+            _closure2_slot3 = output;
             entity = 6;
+            entity = option[entity];
+            entity = michal.bind(tangon)(entity);
+            backup = entity.bind(tangon)();
+            _closure2_slot4 = backup;
+            entity = 7;
             verify = option[entity];
             yankee = oscard.bind(tangon)(verify);
             offset = yankee.useAnimatedStyle;
@@ -98,12 +101,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure1_slot0;
                     entity = _closure1_slot2;
-                    oscard = 6;
+                    oscard = 7;
                     entity = entity[oscard];
                     romeon = undefined;
                     option = michal.bind(romeon)(entity);
                     report = option.interpolate;
-                    michal = _closure2_slot4;
+                    michal = _closure2_slot3;
                     entity = michal.get;
                     tangon = entity.bind(michal)();
                     entity = _closure2_slot2;
@@ -131,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = -1;
                     golfie[0] = oscard;
                     golfie[1] = michal;
-                    oscard = 7;
+                    oscard = 8;
                     oscard = foxtra[oscard];
                     oscard = yankee.bind(romeon)(oscard);
                     yankee = oscard.EXPRESSION_FOOTER_HEIGHT;
@@ -150,20 +153,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new Array(1);
                     michal[0] = tangon;
                     entity['transform'] = michal;
-                    _fun00004_ip = 280; continue _fun00003;
+                    _fun00004_ip = 283; continue _fun00003;
  239:
                     michal = {};
                     tangon = {};
-                    oscard = _closure2_slot3;
+                    oscard = _closure2_slot4;
                     zuuluu = oscard.get;
                     zuuluu = zuuluu.bind(oscard)();
+                    zuuluu = -zuuluu;
                     zuuluu = zuuluu + report;
                     tangon['translateY'] = zuuluu;
                     zuuluu = new Array(1);
                     zuuluu[0] = tangon;
                     michal['transform'] = zuuluu;
                     entity = michal;
- 280:
+ 283:
                     return entity;
                 }
             };
@@ -176,13 +180,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['bottom'] = sizing;
             foxtra['animatedSheetIndex'] = kiloes;
             foxtra['height'] = backup;
-            backup = 7;
+            backup = 8;
             backup = option[backup];
             backup = oscard.bind(tangon)(backup);
             backup = backup.EXPRESSION_FOOTER_HEIGHT;
             foxtra['EXPRESSION_FOOTER_HEIGHT'] = backup;
             verify['__closure'] = foxtra;
-            foxtra = 5681202963788.0;
+            foxtra = 15152615727457.0;
             verify['__workletHash'] = foxtra;
             foxtra = _closure1_slot6;
             verify['__initData'] = foxtra;
@@ -209,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.View;
             entity = {};
             entity['style'] = report;
-            report = 8;
+            report = 9;
             report = option[report];
             report = oscard.bind(tangon)(report);
             oscard = report.PortalHost;

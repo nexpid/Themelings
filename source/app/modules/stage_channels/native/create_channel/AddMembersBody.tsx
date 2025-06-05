@@ -599,7 +599,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = romeon;
             romeon = null;
             update = romeon != config;
-            if(!update) { _fun00004_ip = 1124; continue _fun00003 }
+            if(!update) { _fun00004_ip = 1128; continue _fun00003 }
  1037:
             ctrled = _closure1_slot16;
             source = _closure1_slot7;
@@ -619,10 +619,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = ctrled.bind(tangon)(sequen, vacuum);
             update['children'] = vacuum;
             romeon = ctrled.bind(tangon)(source, update);
- 1124:
+ 1128:
             report[1] = romeon;
-            if(!option) { _fun00004_ip = 1270; continue _fun00003 }
- 1134:
+            if(!option) { _fun00004_ip = 1274; continue _fun00003 }
+ 1138:
             source = _closure1_slot16;
             update = _closure1_slot7;
             romeon = {};
@@ -653,11 +653,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = source.bind(tangon)(vacuum, ctrled);
             romeon['children'] = ctrled;
             option = source.bind(tangon)(update, romeon);
- 1270:
+ 1274:
             report[2] = option;
             option = _closure1_slot16;
-            if(oscard) { _fun00004_ip = 1420; continue _fun00003 }
- 1284:
+            if(oscard) { _fun00004_ip = 1424; continue _fun00003 }
+ 1288:
             oscard = {};
             romeon = {};
             ctrled = _closure1_slot1;
@@ -669,8 +669,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.PX_16;
             romeon['paddingHorizontal'] = update;
             kiloes = 0;
-            if(echoed) { _fun00004_ip = 1363; continue _fun00003 }
- 1327:
+            if(echoed) { _fun00004_ip = 1367; continue _fun00003 }
+ 1331:
             echoed = result.bottom;
             update = _closure1_slot1;
             result = _closure1_slot3;
@@ -679,7 +679,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.spacing;
             result = result.PX_16;
             kiloes = echoed + result;
- 1363:
+ 1367:
             romeon['paddingBottom'] = kiloes;
             oscard['contentContainerStyle'] = romeon;
             romeon = function(argFoo) { // Original name: renderItem
@@ -950,8 +950,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'always';
             oscard['keyboardShouldPersistTaps'] = offset;
             oscard = option.bind(tangon)(golfie, oscard);
-            _fun00004_ip = 1563; continue _fun00003;
- 1420:
+            _fun00004_ip = 1567; continue _fun00003;
+ 1424:
             golfie = {};
             yankee = _closure1_slot1;
             romeon = _closure1_slot3;
@@ -984,7 +984,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = option.bind(tangon)(verify, golfie);
- 1563:
+ 1567:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

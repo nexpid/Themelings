@@ -88,18 +88,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     michal = _closure2_slot3;
-                    if(!michal) { _fun00004_ip = 42; continue _fun00003 }
+                    if(!michal) { _fun00004_ip = 44; continue _fun00003 }
  10:
                     tangon = _closure2_slot1;
                     michal = {};
-                    zuuluu = 'VIEW';
+                    zuuluu = 'VIEW_ACTIVITY_CARD';
                     michal['action'] = zuuluu;
                     zuuluu = undefined;
                     michal = tangon.bind(zuuluu)(michal);
                     michal = _closure2_slot2;
                     entity = true;
                     entity = michal.bind(zuuluu)(entity);
- 42:
+ 44:
                     entity = undefined;
                     return entity;
                 }

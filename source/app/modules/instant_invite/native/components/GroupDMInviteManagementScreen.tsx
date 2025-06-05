@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00004_ip = 146; continue _fun00003 }
+                                if(michal) { _fun00004_ip = 152; continue _fun00003 }
  10:
                                 report = _closure1_slot0;
                                 zuuluu = _closure1_slot2;
@@ -68,13 +68,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 golfie = option.bind(verify)(golfie);
                                 michal['url'] = golfie;
                                 michal = report.bind(oscard)(michal);
-                                SaveGenerator(address=92);
- 90:
+                                SaveGenerator(address=96);
+ 94:
                                 return michal;
- 92:
+ 96:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(report) { _fun00004_ip = 143; continue _fun00003 }
- 98:
+                                if(report) { _fun00004_ip = 149; continue _fun00003 }
+ 102:
                                 golfie = michal.body;
                                 oscard = golfie.map;
                                 report = function(argFoo) {
@@ -108,9 +108,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 tangon = false;
                                 tangon = report.bind(zuuluu)(tangon);
                                 return zuuluu;
- 143:
+ 149:
                                 return michal;
- 146:
+ 152:
                                 return entity;
                             }
                         };
@@ -271,11 +271,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = yankee.bind(romeon)(golfie, offset);
-            if(tangon) { _fun00002_ip = 532; continue _fun00001 }
- 290:
+            if(tangon) { _fun00002_ip = 540; continue _fun00001 }
+ 298:
             entity = entity.length;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 361; continue _fun00001 }
- 299:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 369; continue _fun00001 }
+ 307:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot7;
             entity = {};
@@ -289,8 +289,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['initialNumToRender'] = golfie;
             entity['windowSize'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 530; continue _fun00001;
- 361:
+            _fun00002_ip = 538; continue _fun00001;
+ 369:
             oscard = _closure1_slot11;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -329,9 +329,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(verify)(golfie);
             zuuluu['body'] = golfie;
             entity = oscard.bind(report)(tangon, zuuluu);
- 530:
-            _fun00002_ip = 570; continue _fun00001;
- 532:
+ 538:
+            _fun00002_ip = 578; continue _fun00001;
+ 540:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.SceneLoadingIndicator;
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 570:
+ 578:
             return entity;
         }
     };

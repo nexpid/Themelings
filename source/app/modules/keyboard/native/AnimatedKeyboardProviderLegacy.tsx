@@ -87,10 +87,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = golfie.bind(verify)(michal);
     var _closure1_slot4 = golfie;
     michal = {};
-    option = function() { // Original name: Component
-        tangon = _closure1_slot2;
-        zuuluu = tangon.useEffect;
-        michal = function() {
+    option = function(argFoo) { // Original name: Component
+        entity = argFoo;
+        entity = entity.children;
+        report = _closure1_slot2;
+        tangon = report.useEffect;
+        zuuluu = function() {
             zuuluu = _closure1_slot3;
             michal = undefined;
             entity = function() {
@@ -106,9 +108,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(michal)(entity);
             return entity;
         };
-        entity = new Array(0);
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = null;
+        michal = new Array(0);
+        michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
     michal['Component'] = option;

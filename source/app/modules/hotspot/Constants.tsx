@@ -94,6 +94,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['USER_DM_MUTE_FEEDBACK'] = entity;
     entity = 'BLOCK_USER_FEEDBACK';
     michal['BLOCK_USER_FEEDBACK'] = entity;
+    entity = 'SEARCH_RESULTS_FEEDBACK';
+    michal['SEARCH_RESULTS_FEEDBACK'] = entity;
     entity = 'CLIPS_CHANNEL_ATTACH_REMINDER';
     michal['CLIPS_CHANNEL_ATTACH_REMINDER'] = entity;
     tangon = argPlu;

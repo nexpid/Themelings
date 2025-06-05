@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = verify[zuuluu];
         entity = option.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.K0z0AA;
+        entity = entity.HphYKi;
         entity = report.bind(oscard)(entity);
         michal['title'] = entity;
         entity = verify[zuuluu];
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = verify[zuuluu];
         entity = option.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.ldhmmp;
+        entity = entity.GCZC+/;
         entity = report.bind(oscard)(entity);
         michal['description'] = entity;
         entity = new Array(3);
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = verify[zuuluu];
         report = option.bind(tangon)(report);
         report = report.t;
-        report = report.60uRDA;
+        report = report.nkO4Ly;
         report = oscard.bind(offset)(report);
         michal['title'] = report;
         report = verify[zuuluu];
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = verify[zuuluu];
         report = option.bind(tangon)(report);
         report = report.t;
-        report = report.h90JkZ;
+        report = report.rHZFsL;
         report = oscard.bind(offset)(report);
         michal['description'] = report;
         entity[1] = michal;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = verify[zuuluu];
         report = option.bind(tangon)(report);
         report = report.t;
-        report = report.Jc2+09;
+        report = report.aVwLfn;
         report = oscard.bind(offset)(report);
         michal['title'] = report;
         report = verify[zuuluu];
@@ -97,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = verify[zuuluu];
         zuuluu = option.bind(tangon)(zuuluu);
         zuuluu = zuuluu.t;
-        tangon = zuuluu.rw9yFR;
+        tangon = zuuluu.n5vd1N;
         zuuluu = {};
         golfie = function() { // Original name: handleOnHelpUrlHook
             oscard = _closure1_slot1;
@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = oscard.bind(entity)(zuuluu);
             oscard = golfie.getArticleURL;
             zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.TIGGER_PAWTECT_UK_AND_AUS_ONLY_SYSTEM_DMS;
+            zuuluu = zuuluu.TIGGER_PAWTECT_SYSTEM_DMS;
             zuuluu = oscard.bind(golfie)(zuuluu);
             zuuluu = tangon.bind(report)(zuuluu);
             golfie = _closure1_slot0;

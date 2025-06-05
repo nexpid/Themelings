@@ -291,6 +291,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie['RING_TONE'] = tangon;
     tangon = 'media';
     golfie['MEDIA'] = tangon;
+    tangon = 'notification_no_vibration';
+    golfie['NOTIFICATION_NO_VIBRATION'] = tangon;
     tangon = {};
     option = golfie.VOICE;
     tangon['call_calling'] = option;
@@ -344,13 +346,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['user_moved'] = option;
     option = golfie.MEDIA;
     tangon['vibing_wumpus'] = option;
-    option = golfie.NOTIFICATION;
+    option = golfie.NOTIFICATION_NO_VIBRATION;
     tangon['activity_end'] = option;
-    option = golfie.NOTIFICATION;
+    option = golfie.NOTIFICATION_NO_VIBRATION;
     tangon['activity_launch'] = option;
-    option = golfie.NOTIFICATION;
+    option = golfie.NOTIFICATION_NO_VIBRATION;
     tangon['activity_user_join'] = option;
-    option = golfie.NOTIFICATION;
+    option = golfie.NOTIFICATION_NO_VIBRATION;
     tangon['activity_user_left'] = option;
     golfie = golfie.RING_TONE;
     tangon['call_ringing_halloween'] = golfie;

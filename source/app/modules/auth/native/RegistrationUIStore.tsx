@@ -1,10 +1,12 @@
 // app/modules/auth/native/RegistrationUIStore.tsx
-export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = golfie;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -24,11 +26,15 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity['errors'] = michal;
         michal = {};
         entity['registrationOptions'] = michal;
+        michal = false;
+        entity['submitting'] = michal;
+        michal = undefined;
+        entity['registrationVariant'] = michal;
         return entity;
     };
     tangon = report.bind(option)(tangon);
-    var _closure1_slot2 = tangon;
-    report = 2;
+    var _closure1_slot3 = tangon;
+    report = 3;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -39,14 +45,14 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = argFoo;
         var _closure2_slot0 = entity;
         tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 1;
         zuuluu = zuuluu[entity];
         entity = undefined;
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = tangon.batchUpdates;
         michal = function() {
-            zuuluu = _closure1_slot2;
+            zuuluu = _closure1_slot3;
             michal = zuuluu.setState;
             entity = {};
             tangon = _closure2_slot0;
@@ -62,20 +68,20 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: updateRegistrationOptions
         entity = argFoo;
         var _closure2_slot0 = entity;
-        tangon = _closure1_slot2;
+        tangon = _closure1_slot3;
         zuuluu = tangon.getState;
         zuuluu = zuuluu.bind(tangon)();
         zuuluu = zuuluu.registrationOptions;
         var _closure2_slot1 = zuuluu;
         tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 1;
         zuuluu = zuuluu[entity];
         entity = undefined;
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = tangon.batchUpdates;
         michal = function() {
-            zuuluu = _closure1_slot2;
+            zuuluu = _closure1_slot3;
             michal = zuuluu.setState;
             entity = {};
             tangon = {};
@@ -96,20 +102,49 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     zuuluu['updateRegistrationOptions'] = tangon;
     tangon = function() { // Original name: resetRegistration
         zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 1;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = tangon.batchUpdates;
         michal = function() {
-            zuuluu = _closure1_slot2;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.setState;
+            michal = {};
+            entity = {};
+            michal['errors'] = entity;
+            entity = {};
+            michal['registrationOptions'] = entity;
+            entity = false;
+            michal['submitting'] = entity;
+            entity = undefined;
+            michal['registrationVariant'] = entity;
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        };
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['resetRegistration'] = tangon;
+    tangon = function(argFoo) { // Original name: setSubmitting
+        entity = argFoo;
+        var _closure2_slot0 = entity;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        entity = 1;
+        zuuluu = zuuluu[entity];
+        entity = undefined;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
             michal = zuuluu.setState;
             entity = {};
             tangon = {};
             entity['errors'] = tangon;
-            tangon = {};
-            entity['registrationOptions'] = tangon;
+            tangon = _closure2_slot0;
+            entity['submitting'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             entity = undefined;
             return entity;
@@ -117,18 +152,54 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['resetRegistration'] = tangon;
-    michal = function() { // Original name: doesRegistrationHaveIdentityType
+    zuuluu['setSubmitting'] = tangon;
+    tangon = function() { // Original name: getRegistrationVariant
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            michal = _closure1_slot2;
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.getState;
+            entity = entity.bind(zuuluu)();
+            entity = entity.registrationVariant;
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00002_ip = 31; continue _fun00001 }
+ 29:
+            return entity;
+ 31:
+            tangon = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            entity = 2;
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.getCurrentConfig;
+            zuuluu = {};
+            entity = 'Auth';
+            zuuluu['location'] = entity;
+            entity = {};
+            oscard = true;
+            entity['autoTrackExposure'] = oscard;
+            entity = tangon.bind(report)(zuuluu, entity);
+            entity = entity.variant;
+            tangon = _closure1_slot3;
+            zuuluu = tangon.setState;
+            michal = {};
+            michal['registrationVariant'] = entity;
+            michal = zuuluu.bind(tangon)(michal);
+            return entity;
+        }
+    };
+    zuuluu['getRegistrationVariant'] = tangon;
+    michal = function() { // Original name: doesRegistrationHaveIdentityType
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            michal = _closure1_slot3;
             entity = michal.getState;
             entity = entity.bind(michal)();
             michal = entity.registrationOptions;
             entity = michal.email;
             zuuluu = null;
             entity = zuuluu != entity;
-            if(entity) { _fun00002_ip = 48; continue _fun00001 }
+            if(entity) { _fun00004_ip = 48; continue _fun00003 }
  38:
             michal = michal.phone;
             entity = zuuluu != michal;

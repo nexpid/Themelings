@@ -39,7 +39,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.2UzQiY;
+        entity = entity./52UY2;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
@@ -69,11 +69,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             michal = michal.t;
             if(entity) { _fun00002_ip = 97; continue _fun00001 }
  82:
-            entity = michal.Qdv3DA;
+            entity = michal.UX0OdX;
             entity = zuuluu.bind(tangon)(entity);
             _fun00002_ip = 110; continue _fun00001;
  97:
-            michal = michal.dJOmCw;
+            michal = michal.sK0dmJ;
             entity = zuuluu.bind(tangon)(michal);
  110:
             return entity;

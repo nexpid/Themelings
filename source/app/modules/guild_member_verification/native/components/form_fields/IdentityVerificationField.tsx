@@ -59,8 +59,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = yankee.bind(tangon)(verify, golfie);
             report[1] = golfie;
             verify = _closure1_slot5;
-            if(oscard) { _fun00002_ip = 361; continue _fun00001 }
- 209:
+            if(oscard) { _fun00002_ip = 365; continue _fun00001 }
+ 213:
             romeon = _closure1_slot1;
             kiloes = _closure1_slot2;
             yankee = 8;
@@ -93,8 +93,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['text'] = yankee;
             oscard['onPress'] = option;
             oscard = verify.bind(tangon)(golfie, oscard);
-            _fun00002_ip = 491; continue _fun00001;
- 361:
+            _fun00002_ip = 495; continue _fun00001;
+ 365:
             option = _closure1_slot4;
             golfie = {};
             offset = offset.verifiedContainer;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = romeon.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 491:
+ 495:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

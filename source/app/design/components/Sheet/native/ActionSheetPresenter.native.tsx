@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.isAndroid;
             oscard = report.bind(oscard)();
             report = foxtra;
-            if(!oscard) { _fun00002_ip = 516; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 520; continue _fun00001 }
  382:
             option = _closure1_slot9;
             golfie = _closure1_slot5;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 516:
+ 520:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

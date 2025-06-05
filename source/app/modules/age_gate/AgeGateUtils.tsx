@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.t;
             if(entity) { _fun00008_ip = 235; continue _fun00007 }
  135:
-            entity = report.SFWVER;
+            entity = report.5B+npK;
             entity = oscard.bind(golfie)(entity);
             michal['verifyAgreementButtonText'] = entity;
             offset = _closure1_slot0;
@@ -199,18 +199,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = entity.t;
             if(zuuluu) { _fun00008_ip = 212; continue _fun00007 }
  197:
-            entity = offset.NjO/s7;
+            entity = offset.u/xqhY;
             entity = yankee.bind(romeon)(entity);
             _fun00008_ip = 225; continue _fun00007;
  212:
-            offset = offset.+tEu6+;
+            offset = offset.akjk0d;
             entity = yankee.bind(romeon)(offset);
  225:
             michal['verifyGateDescription'] = entity;
             entity = michal;
             _fun00008_ip = 339; continue _fun00007;
  235:
-            report = report.2L5V8/;
+            report = report.PBG51t;
             report = oscard.bind(golfie)(report);
             michal['verifyAgreementButtonText'] = report;
             report = _closure1_slot0;
@@ -224,12 +224,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.t;
             if(zuuluu) { _fun00008_ip = 315; continue _fun00007 }
  297:
-            report = tangon.ECL1eX;
+            report = tangon.x1coPj;
             zuuluu = {};
             zuuluu = oscard.bind(golfie)(report, zuuluu);
             _fun00008_ip = 331; continue _fun00007;
  315:
-            report = tangon.8yts9f;
+            report = tangon.7uIWQE;
             tangon = {};
             zuuluu = oscard.bind(golfie)(report, tangon);
  331:

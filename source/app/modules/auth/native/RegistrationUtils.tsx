@@ -197,55 +197,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = argFoo;
             entity = argBar;
             oscard = entity.isConsentRequired;
-            tangon = entity.ignoreBirthday;
             entity = golfie.email;
             option = null;
             entity = option != entity;
-            if(entity) { _fun00004_ip = 43; continue _fun00003 }
- 33:
+            if(entity) { _fun00004_ip = 37; continue _fun00003 }
+ 27:
             michal = golfie.phoneToken;
             entity = option != michal;
- 43:
-            if(!entity) { _fun00004_ip = 139; continue _fun00003 }
- 46:
+ 37:
+            if(!entity) { _fun00004_ip = 124; continue _fun00003 }
+ 40:
             michal = golfie.username;
             michal = option != michal;
-            if(!michal) { _fun00004_ip = 136; continue _fun00003 }
- 58:
+            if(!michal) { _fun00004_ip = 121; continue _fun00003 }
+ 52:
             zuuluu = golfie.password;
             zuuluu = option != zuuluu;
-            if(!zuuluu) { _fun00004_ip = 133; continue _fun00003 }
- 71:
-            report = golfie.birthday;
-            report = option == report;
-            if(!report) { _fun00004_ip = 87; continue _fun00003 }
- 84:
-            report = !tangon;
- 87:
-            tangon = !report;
-            if(report) { _fun00004_ip = 130; continue _fun00003 }
- 93:
+            if(!zuuluu) { _fun00004_ip = 118; continue _fun00003 }
+ 65:
+            tangon = golfie.birthday;
+            tangon = option != tangon;
+            if(!tangon) { _fun00004_ip = 115; continue _fun00003 }
+ 78:
             report = golfie.consent;
             report = option != report;
-            if(!report) { _fun00004_ip = 127; continue _fun00003 }
- 106:
+            if(!report) { _fun00004_ip = 112; continue _fun00003 }
+ 91:
             oscard = !oscard;
-            if(oscard) { _fun00004_ip = 124; continue _fun00003 }
- 112:
+            if(oscard) { _fun00004_ip = 109; continue _fun00003 }
+ 97:
             option = golfie.consent;
             golfie = true;
             oscard = golfie === option;
- 124:
+ 109:
             report = oscard;
- 127:
+ 112:
             tangon = report;
- 130:
+ 115:
             zuuluu = tangon;
- 133:
+ 118:
             michal = zuuluu;
- 136:
+ 121:
             entity = michal;
- 139:
+ 124:
             return entity;
         }
     };

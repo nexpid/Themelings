@@ -358,16 +358,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function() {
         tangon = _closure1_slot3;
         zuuluu = undefined;
-        michal = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
+        michal = function* () {
+            entity = function* () { // Original name: ?anon_0_
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 257; continue _fun00009 }
- 10:
-                    option = argFoo;
- 13: // try_start_0
+                    if(michal) { _fun00010_ip = 243; continue _fun00009 }
+ 10: // try_start_0
                     report = _closure1_slot0;
                     zuuluu = _closure1_slot2;
                     michal = 5;
@@ -380,19 +378,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = _closure1_slot6;
                     golfie = golfie.SOUNDBOARD_DEFAULT_SOUNDS;
                     michal['url'] = golfie;
-                    golfie = {};
-                    golfie['guild_ids'] = option;
-                    michal['query'] = golfie;
                     golfie = false;
                     michal['rejectWithError'] = golfie;
                     michal = report.bind(oscard)(michal);
-                    SaveGenerator(address=90);
- 88:
+                    SaveGenerator(address=76);
+ 74:
                     return michal;
- 90:
+ 76:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00010_ip = 168; continue _fun00009 }
- 96:
+                    if(report) { _fun00010_ip = 154; continue _fun00009 }
+ 82:
                     golfie = michal.body;
                     oscard = golfie.map;
                     report = function(argFoo) {
@@ -420,11 +415,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['type'] = option;
                     tangon['soundboardSounds'] = golfie;
                     tangon = report.bind(oscard)(tangon);
- 165: // try_end0
+ 151: // try_end0
                     return zuuluu;
- 168:
+ 154:
                     return michal;
- 171: // catch_target0
+ 157: // catch_target0
                     CatchBlockStart(arg_register=3);
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -447,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new yankee[michal](offset, verify);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 257:
+ 243:
                     return entity;
                 }
             };
@@ -515,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot10 = tangon;
-    tangon = function(argFoo) { // Original name: _maybeFetchDefaultSounds
+    tangon = function() { // Original name: _maybeFetchDefaultSounds
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             zuuluu = _closure1_slot4;
@@ -544,7 +539,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = 'SOUNDBOARD_FETCH_DEFAULT_SOUNDS_SUCCESS';
             entity = tangon.bind(zuuluu)(entity);
             michal = _closure1_slot9;
-            michal = michal.bind(zuuluu)(zuuluu);
+            michal = michal.bind(zuuluu)();
             return entity;
         }
     };

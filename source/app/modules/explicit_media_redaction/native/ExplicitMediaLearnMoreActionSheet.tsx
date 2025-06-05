@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  599:
             _fun00002_ip = 614; continue _fun00001;
  601:
-            kiloes = kiloes.H2kKw8;
+            kiloes = kiloes.f3ARDQ;
             backup = echoed.bind(update)(kiloes);
  614:
             yankee['children'] = backup;
@@ -405,7 +405,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  815:
             _fun00002_ip = 846; continue _fun00001;
  817:
-            update = update.+2/AhI;
+            update = update.KPGVWl;
             update = vacuum.bind(sequen)(update);
             echoed['text'] = update;
             update = function() { // Original name: handleAgeVerifyButtonPress
@@ -498,8 +498,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output[ctrled];
             output = result.bind(tangon)(output);
             output = output.t;
-            if(sizing) { _fun00002_ip = 1086; continue _fun00001 }
- 1056:
+            if(sizing) { _fun00002_ip = 1090; continue _fun00001 }
+ 1060:
             result = output.Ge0HUl;
             sizing = {};
             ctrled = function() { // Original name: handleFalsePositiveHook
@@ -544,9 +544,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sizing['handleFalsePositiveHook'] = ctrled;
             sizing = echoed.bind(update)(result, sizing);
-            _fun00002_ip = 1114; continue _fun00001;
- 1086:
-            result = output.3HvI8P;
+            _fun00002_ip = 1118; continue _fun00001;
+ 1090:
+            result = output.TGqx+v;
             output = {};
             source = function() { // Original name: handleOnHelpUrlHook
                 golfie = _closure1_slot1;
@@ -561,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = golfie.bind(entity)(zuuluu);
                 golfie = option.getArticleURL;
                 zuuluu = _closure1_slot7;
-                zuuluu = zuuluu.TIGGER_PAWTECT_UK_AND_AUS_ONLY_LEARN_MORE;
+                zuuluu = zuuluu.TIGGER_PAWTECT_LEARN_MORE;
                 zuuluu = golfie.bind(option)(zuuluu);
                 zuuluu = tangon.bind(oscard)(zuuluu);
                 zuuluu = _closure2_slot6;
@@ -576,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             output['handleOnHelpUrlHook'] = source;
             sizing = echoed.bind(update)(result, output);
- 1114:
+ 1118:
             foxtra['children'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             romeon[2] = foxtra;

@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(oscard)(michal);
             michal = michal.GravityItemTypes;
             michal = michal.SUMMARY;
-            if(!(report !== michal)) { _fun00002_ip = 907; continue _fun00001 }
+            if(!(report !== michal)) { _fun00002_ip = 1058; continue _fun00001 }
  58:
             report = golfie.type;
             verify = _closure1_slot0;
@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(oscard)(michal);
             michal = michal.GravityItemTypes;
             michal = michal.MESSAGE;
-            if(!(report !== michal)) { _fun00002_ip = 578; continue _fun00001 }
+            if(!(report !== michal)) { _fun00002_ip = 729; continue _fun00001 }
  99:
             report = golfie.type;
             verify = _closure1_slot0;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(oscard)(michal);
             michal = michal.GravityItemTypes;
             michal = michal.ACTIVITY;
-            if(!(report !== michal)) { _fun00002_ip = 467; continue _fun00001 }
+            if(!(report !== michal)) { _fun00002_ip = 618; continue _fun00001 }
  140:
             report = golfie.type;
             verify = _closure1_slot0;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(oscard)(michal);
             michal = michal.GravityItemTypes;
             michal = michal.CUSTOM_STATUS;
-            if(!(report !== michal)) { _fun00002_ip = 467; continue _fun00001 }
+            if(!(report !== michal)) { _fun00002_ip = 618; continue _fun00001 }
  181:
             report = golfie.type;
             verify = _closure1_slot0;
@@ -58,18 +58,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify.bind(oscard)(michal);
             michal = michal.GravityItemTypes;
             michal = michal.GUILD_EVENT;
-            if(!(report !== michal)) { _fun00002_ip = 360; continue _fun00001 }
+            if(!(report !== michal)) { _fun00002_ip = 511; continue _fun00001 }
  222:
+            report = golfie.type;
+            verify = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[option];
+            michal = verify.bind(oscard)(michal);
+            michal = michal.GravityItemTypes;
+            michal = michal.RECOMMENDED_GUILDS;
+            if(!(report !== michal)) { _fun00002_ip = 413; continue _fun00001 }
+ 263:
             report = golfie.type;
             michal = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[option];
             entity = michal.bind(oscard)(entity);
             entity = entity.GravityItemTypes;
-            michal = entity.RECOMMENDED_GUILDS;
+            michal = entity.GENERATED_CANDIDATE;
             entity = null;
-            if(!(report === michal)) { _fun00002_ip = 358; continue _fun00001 }
- 262:
+            if(!(report === michal)) { _fun00002_ip = 411; continue _fun00001 }
+ 303:
+            michal = {};
+            report = tangon.id;
+            michal['id'] = report;
+            report = global;
+            option = report.Date;
+            oscard = option.now;
+            oscard = oscard.bind(option)();
+            michal['timestamp'] = oscard;
+            oscard = {};
+            option = 'generatedCandidate';
+            oscard['kind'] = option;
+            option = golfie.candidate;
+            oscard['item'] = option;
+            michal['data'] = oscard;
+            oscard = tangon.score;
+            michal['score'] = oscard;
+            option = report.JSON;
+            oscard = option.stringify;
+            report = tangon.score_components;
+            report = oscard.bind(option)(report);
+            michal['debugScore'] = report;
+            michal['unread'] = zuuluu;
+            entity = michal;
+ 411:
+            _fun00002_ip = 509; continue _fun00001;
+ 413:
             michal = {};
             report = tangon.id;
             michal['id'] = report;
@@ -91,9 +126,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['debugScore'] = report;
             michal['unread'] = zuuluu;
             entity = michal;
- 358:
-            _fun00002_ip = 465; continue _fun00001;
- 360:
+ 509:
+            _fun00002_ip = 616; continue _fun00001;
+ 511:
             michal = {};
             report = tangon.id;
             michal['id'] = report;
@@ -117,9 +152,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['debugScore'] = report;
             michal['unread'] = zuuluu;
             entity = michal;
- 465:
-            _fun00002_ip = 573; continue _fun00001;
- 467:
+ 616:
+            _fun00002_ip = 724; continue _fun00001;
+ 618:
             michal = {};
             report = tangon.id;
             michal['id'] = report;
@@ -143,19 +178,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['debugScore'] = report;
             michal['unread'] = zuuluu;
             entity = michal;
- 573:
-            _fun00002_ip = 905; continue _fun00001;
- 578:
+ 724:
+            _fun00002_ip = 1056; continue _fun00001;
+ 729:
             michal = golfie.message;
             report = michal.id;
             michal = golfie.message;
             michal = michal.channel_id;
-            if(!(report === michal)) { _fun00002_ip = 617; continue _fun00001 }
- 602:
+            if(!(report === michal)) { _fun00002_ip = 768; continue _fun00001 }
+ 753:
             report = golfie.threadChannel;
             michal = null;
-            if(!(michal == report)) { _fun00002_ip = 770; continue _fun00001 }
- 617:
+            if(!(michal == report)) { _fun00002_ip = 921; continue _fun00001 }
+ 768:
             michal = {};
             report = tangon.id;
             michal['id'] = report;
@@ -187,8 +222,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.bind(option)(report);
             michal['debugScore'] = report;
             michal['unread'] = zuuluu;
-            _fun00002_ip = 902; continue _fun00001;
- 770:
+            _fun00002_ip = 1053; continue _fun00001;
+ 921:
             report = {};
             oscard = tangon.id;
             report['id'] = oscard;
@@ -217,11 +252,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['debugScore'] = oscard;
             report['unread'] = zuuluu;
             michal = report;
- 902:
+ 1053:
             entity = michal;
- 905:
-            _fun00002_ip = 1014; continue _fun00001;
- 907:
+ 1056:
+            _fun00002_ip = 1165; continue _fun00001;
+ 1058:
             michal = {};
             report = tangon.id;
             michal['id'] = report;
@@ -245,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['debugScore'] = tangon;
             michal['unread'] = zuuluu;
             entity = michal;
- 1014:
+ 1165:
             return entity;
         }
     };

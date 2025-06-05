@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         config = result[sizing];
         config = kiloes.bind(tangon)(config);
         config = config.t;
-        config = config.FQ+YOD;
+        config = config.JHNunp;
         config = record.bind(cntext)(config);
         source['children'] = config;
         source = offset.bind(tangon)(sequen, source);
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         config = result[sizing];
         config = kiloes.bind(tangon)(config);
         config = config.t;
-        config = config.Cc41tb;
+        config = config.+BLIGh;
         config = record.bind(cntext)(config);
         source['children'] = config;
         source = offset.bind(tangon)(sequen, source);
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         vacuum = result[sizing];
         vacuum = kiloes.bind(tangon)(vacuum);
         vacuum = vacuum.t;
-        sequen = vacuum.RV75dn;
+        sequen = vacuum.L+FgkZ;
         vacuum = {};
         cntext = function() { // Original name: handleOnHelpUrlHook
             oscard = _closure1_slot1;
@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard.bind(entity)(zuuluu);
             oscard = golfie.getArticleURL;
             zuuluu = _closure1_slot7;
-            zuuluu = zuuluu.TIGGER_PAWTECT_UK_AND_AUS_ONLY_LEARN_MORE;
+            zuuluu = zuuluu.TIGGER_PAWTECT_LEARN_MORE;
             zuuluu = oscard.bind(golfie)(zuuluu);
             zuuluu = tangon.bind(report)(zuuluu);
             golfie = _closure1_slot0;
@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         echoed = result[sizing];
         echoed = kiloes.bind(tangon)(echoed);
         echoed = echoed.t;
-        update = echoed.TYfgw8;
+        update = echoed.pJAxgY;
         echoed = {};
         vacuum = function() { // Original name: handleOnRequestHook
             tangon = _closure1_slot1;
@@ -411,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = result[sizing];
         sizing = kiloes.bind(tangon)(sizing);
         sizing = sizing.t;
-        sizing = sizing.VLbVho;
+        sizing = sizing.SJMnkZ;
         sizing = echoed.bind(update)(sizing);
         yankee['text'] = sizing;
         backup = function() { // Original name: onPress

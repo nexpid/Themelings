@@ -319,6 +319,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['MASKED_LINK_MODAL'] = michal;
     michal = 'impression_messages_empty_nux';
     tangon['MESSAGES_EMPTY_NUX'] = michal;
+    michal = 'impression_modal_root_legacy';
+    tangon['MODAL_ROOT_LEGACY'] = michal;
     michal = 'impression_multi_account_switch_landing';
     tangon['MULTI_ACCOUNT_SWITCH_LANDING'] = michal;
     michal = 'impression_new_user_intent_start';

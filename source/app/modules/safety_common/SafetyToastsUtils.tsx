@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = option[michal];
             michal = golfie.bind(oscard)(michal);
             michal = michal.t;
-            michal = michal.EnTLDg;
+            michal = michal.XwKo1t;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
  561:

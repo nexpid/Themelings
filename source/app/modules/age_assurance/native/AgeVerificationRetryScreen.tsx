@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = verify[tangon];
                 entity = option.bind(golfie)(entity);
                 entity = entity.t;
-                entity = entity.JrEDy8;
+                entity = entity.RtOE1t;
                 entity = report.bind(oscard)(entity);
                 michal['title'] = entity;
                 entity = verify[tangon];
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = verify[tangon];
                 entity = option.bind(golfie)(entity);
                 entity = entity.t;
-                entity = entity.tgLAxc;
+                entity = entity.ecdUKC;
                 entity = report.bind(oscard)(entity);
                 michal['description'] = entity;
                 entity = function() { // Original name: onPress
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = verify[tangon];
                 report = option.bind(golfie)(report);
                 report = report.t;
-                report = report.NpmOHx;
+                report = report.LZO+HR;
                 report = oscard.bind(offset)(report);
                 michal['title'] = report;
                 report = verify[tangon];
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = verify[tangon];
                 tangon = option.bind(golfie)(tangon);
                 tangon = tangon.t;
-                tangon = tangon.O3/wAg;
+                tangon = tangon.ty+iWF;
                 tangon = report.bind(oscard)(tangon);
                 michal['description'] = tangon;
                 zuuluu = function() { // Original name: onPress
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = result[foxtra];
             ctrled = backup.bind(tangon)(ctrled);
             ctrled = ctrled.t;
-            ctrled = ctrled.Bx15q6;
+            ctrled = ctrled.5l3R/v;
             ctrled = vacuum.bind(sequen)(ctrled);
             echoed['children'] = ctrled;
             echoed = romeon.bind(tangon)(update, echoed);
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = result[foxtra];
             ctrled = backup.bind(tangon)(ctrled);
             ctrled = ctrled.t;
-            ctrled = ctrled.bG+/SE;
+            ctrled = ctrled.O7SO0N;
             ctrled = vacuum.bind(sequen)(ctrled);
             echoed['children'] = ctrled;
             echoed = romeon.bind(tangon)(update, echoed);
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = result[foxtra];
             foxtra = backup.bind(tangon)(foxtra);
             foxtra = foxtra.t;
-            backup = foxtra.RV75dn;
+            backup = foxtra.L+FgkZ;
             foxtra = {};
             output = function() { // Original name: handleOnHelpUrlHook
                 oscard = _closure1_slot1;
@@ -399,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = oscard.bind(entity)(zuuluu);
                 oscard = golfie.getArticleURL;
                 zuuluu = _closure1_slot8;
-                zuuluu = zuuluu.TIGGER_PAWTECT_UK_AND_AUS_ONLY_LEARN_MORE;
+                zuuluu = zuuluu.TIGGER_PAWTECT_LEARN_MORE;
                 zuuluu = oscard.bind(golfie)(zuuluu);
                 zuuluu = tangon.bind(report)(zuuluu);
                 golfie = _closure1_slot0;

@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = entity.bind(report)(zuuluu);
             entity = null;
             zuuluu = entity == golfie;
-            if(zuuluu) { _fun00002_ip = 101; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 105; continue _fun00001 }
  37:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot0;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'children';
             michal[oscard] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 101:
+ 105:
             return entity;
         }
     };

@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.t;
             if(tangon) { _fun00002_ip = 212; continue _fun00001 }
  199:
-            tangon = verify.WiSJBA;
+            tangon = verify./nicWl;
             tangon = offset.bind(yankee)(tangon);
             _fun00002_ip = 223; continue _fun00001;
  212:
-            verify = verify.+2/AhI;
+            verify = verify.KPGVWl;
             tangon = offset.bind(yankee)(verify);
  223:
             entity['text'] = tangon;
@@ -190,11 +190,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.t;
             if(tangon) { _fun00004_ip = 212; continue _fun00003 }
  199:
-            tangon = verify.WiSJBA;
+            tangon = verify./nicWl;
             tangon = offset.bind(yankee)(tangon);
             _fun00004_ip = 223; continue _fun00003;
  212:
-            verify = verify.+2/AhI;
+            verify = verify.KPGVWl;
             tangon = offset.bind(yankee)(verify);
  223:
             entity['text'] = tangon;

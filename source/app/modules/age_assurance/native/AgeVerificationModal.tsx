@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = offset[report];
         report = verify.bind(option)(report);
         report = report.t;
-        report = report.N+j4PD;
+        report = report.Mqtf3N;
         report = oscard.bind(golfie)(report);
         michal['headerTitle'] = report;
         report = function() { // Original name: headerLeft

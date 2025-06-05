@@ -3236,466 +3236,467 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00054_ip = 1812; continue _fun00053 }
+                    if(zuuluu) { _fun00054_ip = 1831; continue _fun00053 }
  12:
-                    offset = undefined;
-                    var _closure4_slot0 = offset;
-                    var _closure4_slot1 = offset;
-                    var _closure4_slot2 = offset;
-                    var _closure4_slot3 = offset;
-                    var _closure4_slot4 = offset;
-                    var _closure4_slot5 = offset;
-                    var _closure4_slot6 = offset;
-                    var _closure4_slot7 = offset;
-                    source = undefined;
-                    verify = undefined;
-                    backup = undefined;
-                    var _closure4_slot8 = offset;
-                    var _closure4_slot9 = offset;
-                    ctrled = undefined;
-                    var _closure4_slot10 = offset;
-                    var _closure4_slot11 = offset;
-                    echoed = undefined;
-                    var _closure4_slot12 = offset;
-                    foxtra = undefined;
-                    var _closure4_slot13 = offset;
-                    sizing = undefined;
                     yankee = undefined;
+                    var _closure4_slot0 = yankee;
+                    var _closure4_slot1 = yankee;
+                    var _closure4_slot2 = yankee;
+                    var _closure4_slot3 = yankee;
+                    var _closure4_slot4 = yankee;
+                    var _closure4_slot5 = yankee;
+                    var _closure4_slot6 = yankee;
+                    var _closure4_slot7 = yankee;
+                    ctrled = undefined;
+                    offset = undefined;
+                    kiloes = undefined;
+                    var _closure4_slot8 = yankee;
+                    var _closure4_slot9 = yankee;
+                    vacuum = undefined;
+                    var _closure4_slot10 = yankee;
+                    var _closure4_slot11 = yankee;
+                    update = undefined;
+                    var _closure4_slot12 = yankee;
+                    backup = undefined;
+                    var _closure4_slot13 = yankee;
+                    output = undefined;
+                    romeon = undefined;
+                    verify = undefined;
                     option = undefined;
                     golfie = undefined;
                     oscard = undefined;
                     report = _closure1_slot1;
-                    romeon = _closure1_slot2;
+                    foxtra = _closure1_slot2;
                     tangon = 57;
-                    tangon = romeon[tangon];
-                    report = report.bind(offset)(tangon);
+                    tangon = foxtra[tangon];
+                    report = report.bind(yankee)(tangon);
                     tangon = _closure2_slot0;
-                    tangon = report.bind(offset)(tangon);
-                    romeon = null;
-                    if(!(romeon == tangon)) { _fun00054_ip = 1773; continue _fun00053 }
- 136:
+                    tangon = report.bind(yankee)(tangon);
+                    foxtra = null;
+                    if(!(foxtra == tangon)) { _fun00054_ip = 1792; continue _fun00053 }
+ 138:
                     report = _closure2_slot1;
-                    papara = report.content;
-                    _closure4_slot0 = papara;
-                    equals = report.invalidEmojis;
-                    kiloes = report.validNonShortcutEmojis;
-                    _closure4_slot1 = kiloes;
+                    target = report.content;
+                    _closure4_slot0 = target;
+                    quebec = report.invalidEmojis;
+                    sizing = report.validNonShortcutEmojis;
+                    _closure4_slot1 = sizing;
                     report = report.tts;
-                    sierra = offset !== report;
-                    if(!sierra) { _fun00054_ip = 181; continue _fun00053 }
- 178:
-                    sierra = report;
- 181:
-                    kiloes = _closure2_slot2;
-                    report = kiloes.activityAction;
-                    output = kiloes.location;
-                    _closure4_slot2 = output;
-                    output = kiloes.suggestedInvite;
-                    _closure4_slot3 = output;
-                    sequen = kiloes.stickerIds;
-                    _closure4_slot4 = sequen;
-                    result = kiloes.confettiPotionData;
-                    status = kiloes.messageReference;
-                    _closure4_slot5 = status;
-                    target = kiloes.allowedMentions;
-                    config = kiloes.poll;
-                    _closure4_slot6 = config;
-                    vacuum = kiloes.contentInventoryEntry;
-                    _closure4_slot7 = vacuum;
-                    output = kiloes.attachments;
-                    source = kiloes.attachmentsToUpload;
-                    verify = kiloes.onAttachmentUploadError;
-                    record = kiloes.flags;
-                    cntext = romeon != record;
-                    kiloes = 0;
-                    variable36 = 0;
-                    if(!cntext) { _fun00054_ip = 299; continue _fun00053 }
- 296:
-                    variable36 = record;
- 299:
-                    cntext = _closure1_slot1;
-                    limora = _closure1_slot2;
-                    record = 63;
-                    record = limora[record];
-                    record = cntext.bind(offset)(record);
-                    limora = record.bind(offset)(papara);
-                    cntext = _closure1_slot3;
-                    record = 2;
-                    limora = cntext.bind(offset)(limora, record);
-                    record = limora[kiloes];
-                    cntext = 1;
-                    cntext = limora[cntext];
-                    limora = papara;
-                    papara = variable36;
-                    if(!record) { _fun00054_ip = 406; continue _fun00053 }
- 357:
-                    _closure4_slot0 = cntext;
-                    whisks = _closure1_slot0;
-                    quebec = _closure1_slot2;
-                    record = 64;
-                    record = quebec[record];
-                    quebec = whisks.bind(offset)(record);
-                    whisks = quebec.addFlag;
-                    record = _closure1_slot34;
-                    record = record.SUPPRESS_NOTIFICATIONS;
-                    papara = whisks.bind(quebec)(variable36, record);
-                    limora = cntext;
- 406:
-                    cntext = false;
-                    backup = false;
-                    record = _closure2_slot2;
-                    record = record.messageReference;
-                    quebec = romeon == record;
-                    whisks = undefined;
-                    if(quebec) { _fun00054_ip = 434; continue _fun00053 }
- 429:
-                    whisks = record.type;
- 434:
-                    record = _closure1_slot40;
-                    record = record.FORWARD;
-                    record = whisks === record;
-                    _closure4_slot8 = record;
-                    whisks = '';
-                    if(!(whisks === limora)) { _fun00054_ip = 534; continue _fun00053 }
- 460:
-                    if(!(romeon == report)) { _fun00054_ip = 534; continue _fun00053 }
- 464:
-                    if(!(romeon == sequen)) { _fun00054_ip = 534; continue _fun00053 }
- 468:
-                    if(!(romeon == config)) { _fun00054_ip = 534; continue _fun00053 }
- 472:
-                    if(!(romeon == vacuum)) { _fun00054_ip = 534; continue _fun00053 }
- 476:
-                    if(record) { _fun00054_ip = 534; continue _fun00053 }
- 479:
-                    if(!(romeon != output)) { _fun00054_ip = 492; continue _fun00053 }
- 483:
-                    record = output.length;
-                    if(!(kiloes === record)) { _fun00054_ip = 534; continue _fun00053 }
- 492:
-                    record = source;
-                    if(!(romeon != record)) { _fun00054_ip = 511; continue _fun00053 }
- 499:
-                    record = source;
-                    record = record.length;
-                    if(!(!(record > kiloes))) { _fun00054_ip = 532; continue _fun00053 }
- 511:
-                    record = global;
-                    whisks = record.Promise;
-                    record = whisks.resolve;
-                    record = record.bind(whisks)();
-                    return record;
- 532:
-                    backup = true;
- 534:
-                    if(!(romeon == status)) { _fun00054_ip = 550; continue _fun00053 }
- 538:
-                    record = _closure1_slot36;
-                    quebec = record.DEFAULT;
-                    _fun00054_ip = 560; continue _fun00053;
- 550:
-                    record = _closure1_slot36;
-                    quebec = record.REPLY;
- 560:
-                    _closure4_slot9 = quebec;
-                    record = _closure2_slot2;
-                    record = record.nonce;
-                    if(!(romeon == record)) { _fun00054_ip = 608; continue _fun00053 }
- 578:
-                    variable36 = _closure1_slot0;
-                    variable37 = _closure1_slot2;
-                    whisks = 46;
-                    whisks = variable37[whisks];
-                    variable36 = variable36.bind(offset)(whisks);
-                    whisks = variable36.createNonce;
-                    record = whisks.bind(variable36)();
- 608:
-                    ctrled = record;
-                    _closure4_slot10 = record;
-                    _closure4_slot11 = record;
-                    whisks = _closure1_slot1;
-                    variable36 = _closure1_slot2;
-                    record = 44;
-                    record = variable36[record];
-                    whisks = whisks.bind(offset)(record);
-                    record = {};
-                    variable36 = _closure2_slot0;
-                    record['channelId'] = variable36;
-                    record['content'] = limora;
-                    record['tts'] = sierra;
-                    record['type'] = quebec;
-                    record['messageReference'] = status;
-                    record['allowedMentions'] = target;
-                    quebec = undefined;
-                    if(!(kiloes !== papara)) { _fun00054_ip = 681; continue _fun00053 }
- 678:
-                    quebec = papara;
- 681:
-                    record['flags'] = quebec;
-                    quebec = ctrled;
-                    record['nonce'] = quebec;
-                    variable36 = _closure1_slot0;
-                    variable37 = _closure1_slot2;
-                    quebec = 65;
-                    quebec = variable37[quebec];
-                    variable36 = variable36.bind(offset)(quebec);
-                    quebec = variable36.createPollServerDataFromCreateRequest;
-                    quebec = quebec.bind(variable36)(config);
-                    record['poll'] = quebec;
-                    echoed = whisks.bind(offset)(record);
-                    record = _closure2_slot2;
-                    record = record.eagerDispatch;
-                    if(!(cntext !== record)) { _fun00054_ip = 865; continue _fun00053 }
- 748:
-                    cntext = _closure1_slot0;
+                    limora = yankee !== report;
+                    if(!limora) { _fun00054_ip = 183; continue _fun00053 }
+ 180:
+                    limora = report;
+ 183:
+                    sizing = _closure2_slot2;
+                    report = sizing.activityAction;
+                    result = sizing.location;
+                    _closure4_slot2 = result;
+                    result = sizing.suggestedInvite;
+                    _closure4_slot3 = result;
+                    config = sizing.stickerIds;
+                    _closure4_slot4 = config;
+                    echoed = sizing.confettiPotionData;
+                    sierra = sizing.messageReference;
+                    _closure4_slot5 = sierra;
+                    status = sizing.allowedMentions;
+                    record = sizing.poll;
+                    _closure4_slot6 = record;
+                    sequen = sizing.contentInventoryEntry;
+                    _closure4_slot7 = sequen;
+                    result = sizing.attachments;
+                    ctrled = sizing.attachmentsToUpload;
+                    offset = sizing.onAttachmentUploadError;
+                    cntext = sizing.flags;
+                    papara = foxtra != cntext;
+                    sizing = 0;
+                    variable37 = 0;
+                    if(!papara) { _fun00054_ip = 301; continue _fun00053 }
+ 298:
+                    variable37 = cntext;
+ 301:
+                    papara = _closure1_slot1;
                     whisks = _closure1_slot2;
-                    record = 66;
-                    record = whisks[record];
-                    quebec = cntext.bind(offset)(record);
-                    whisks = quebec.updateComboOnMessageSend;
-                    cntext = _closure2_slot0;
-                    record = echoed;
-                    record = record.id;
-                    record = whisks.bind(quebec)(cntext, record);
-                    if(!(romeon != sequen)) { _fun00054_ip = 835; continue _fun00053 }
- 796:
-                    cntext = echoed;
-                    whisks = sequen.map;
-                    record = function(argFoo) {
+                    cntext = 63;
+                    cntext = whisks[cntext];
+                    cntext = papara.bind(yankee)(cntext);
+                    whisks = cntext.bind(yankee)(target);
+                    papara = _closure1_slot3;
+                    cntext = 2;
+                    whisks = papara.bind(yankee)(whisks, cntext);
+                    cntext = whisks[sizing];
+                    papara = 1;
+                    papara = whisks[papara];
+                    whisks = target;
+                    target = variable37;
+                    if(!cntext) { _fun00054_ip = 408; continue _fun00053 }
+ 359:
+                    _closure4_slot0 = papara;
+                    equals = _closure1_slot0;
+                    variable36 = _closure1_slot2;
+                    cntext = 64;
+                    cntext = variable36[cntext];
+                    variable36 = equals.bind(yankee)(cntext);
+                    equals = variable36.addFlag;
+                    cntext = _closure1_slot34;
+                    cntext = cntext.SUPPRESS_NOTIFICATIONS;
+                    target = equals.bind(variable36)(variable37, cntext);
+                    whisks = papara;
+ 408:
+                    papara = false;
+                    kiloes = false;
+                    cntext = _closure2_slot2;
+                    cntext = cntext.messageReference;
+                    variable36 = foxtra == cntext;
+                    equals = undefined;
+                    if(variable36) { _fun00054_ip = 436; continue _fun00053 }
+ 431:
+                    equals = cntext.type;
+ 436:
+                    cntext = _closure1_slot40;
+                    cntext = cntext.FORWARD;
+                    cntext = equals === cntext;
+                    _closure4_slot8 = cntext;
+                    equals = '';
+                    if(!(equals === whisks)) { _fun00054_ip = 536; continue _fun00053 }
+ 462:
+                    if(!(foxtra == report)) { _fun00054_ip = 536; continue _fun00053 }
+ 466:
+                    if(!(foxtra == config)) { _fun00054_ip = 536; continue _fun00053 }
+ 470:
+                    if(!(foxtra == record)) { _fun00054_ip = 536; continue _fun00053 }
+ 474:
+                    if(!(foxtra == sequen)) { _fun00054_ip = 536; continue _fun00053 }
+ 478:
+                    if(cntext) { _fun00054_ip = 536; continue _fun00053 }
+ 481:
+                    if(!(foxtra != result)) { _fun00054_ip = 494; continue _fun00053 }
+ 485:
+                    cntext = result.length;
+                    if(!(sizing === cntext)) { _fun00054_ip = 536; continue _fun00053 }
+ 494:
+                    cntext = ctrled;
+                    if(!(foxtra != cntext)) { _fun00054_ip = 513; continue _fun00053 }
+ 501:
+                    cntext = ctrled;
+                    cntext = cntext.length;
+                    if(!(!(cntext > sizing))) { _fun00054_ip = 534; continue _fun00053 }
+ 513:
+                    cntext = global;
+                    equals = cntext.Promise;
+                    cntext = equals.resolve;
+                    cntext = cntext.bind(equals)();
+                    return cntext;
+ 534:
+                    kiloes = true;
+ 536:
+                    if(!(foxtra == sierra)) { _fun00054_ip = 552; continue _fun00053 }
+ 540:
+                    cntext = _closure1_slot36;
+                    variable36 = cntext.DEFAULT;
+                    _fun00054_ip = 562; continue _fun00053;
+ 552:
+                    cntext = _closure1_slot36;
+                    variable36 = cntext.REPLY;
+ 562:
+                    _closure4_slot9 = variable36;
+                    cntext = _closure2_slot2;
+                    cntext = cntext.nonce;
+                    if(!(foxtra == cntext)) { _fun00054_ip = 610; continue _fun00053 }
+ 580:
+                    variable37 = _closure1_slot0;
+                    variable38 = _closure1_slot2;
+                    equals = 46;
+                    equals = variable38[equals];
+                    variable37 = variable37.bind(yankee)(equals);
+                    equals = variable37.createNonce;
+                    cntext = equals.bind(variable37)();
+ 610:
+                    vacuum = cntext;
+                    _closure4_slot10 = cntext;
+                    _closure4_slot11 = cntext;
+                    equals = _closure1_slot1;
+                    variable37 = _closure1_slot2;
+                    cntext = 44;
+                    cntext = variable37[cntext];
+                    equals = equals.bind(yankee)(cntext);
+                    cntext = {};
+                    variable37 = _closure2_slot0;
+                    cntext['channelId'] = variable37;
+                    cntext['content'] = whisks;
+                    cntext['tts'] = limora;
+                    cntext['type'] = variable36;
+                    cntext['messageReference'] = sierra;
+                    cntext['allowedMentions'] = status;
+                    variable36 = undefined;
+                    if(!(sizing !== target)) { _fun00054_ip = 683; continue _fun00053 }
+ 680:
+                    variable36 = target;
+ 683:
+                    cntext['flags'] = variable36;
+                    variable36 = vacuum;
+                    cntext['nonce'] = variable36;
+                    variable37 = _closure1_slot0;
+                    variable38 = _closure1_slot2;
+                    variable36 = 65;
+                    variable36 = variable38[variable36];
+                    variable37 = variable37.bind(yankee)(variable36);
+                    variable36 = variable37.createPollServerDataFromCreateRequest;
+                    variable36 = variable36.bind(variable37)(record);
+                    cntext['poll'] = variable36;
+                    update = equals.bind(yankee)(cntext);
+                    cntext = _closure2_slot2;
+                    cntext = cntext.eagerDispatch;
+                    if(!(papara !== cntext)) { _fun00054_ip = 867; continue _fun00053 }
+ 750:
+                    papara = _closure1_slot0;
+                    equals = _closure1_slot2;
+                    cntext = 66;
+                    cntext = equals[cntext];
+                    variable36 = papara.bind(yankee)(cntext);
+                    equals = variable36.updateComboOnMessageSend;
+                    papara = _closure2_slot0;
+                    cntext = update;
+                    cntext = cntext.id;
+                    cntext = equals.bind(variable36)(papara, cntext);
+                    if(!(foxtra != config)) { _fun00054_ip = 837; continue _fun00053 }
+ 798:
+                    papara = update;
+                    equals = config.map;
+                    cntext = function(argFoo) {
                         zuuluu = _closure1_slot16;
                         michal = zuuluu.getStickerById;
                         entity = argFoo;
                         entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    quebec = whisks.bind(sequen)(record);
-                    whisks = quebec.filter;
-                    record = function(argFoo) {
+                    variable36 = equals.bind(config)(cntext);
+                    equals = variable36.filter;
+                    cntext = function(argFoo) {
                         michal = null;
                         entity = argFoo;
                         entity = michal != entity;
                         return entity;
                     };
-                    record = whisks.bind(quebec)(record);
-                    cntext['sticker_items'] = record;
- 835:
-                    variable37 = _closure1_slot52;
-                    variable36 = variable37.receiveMessage;
-                    variable41 = _closure2_slot0;
-                    variable40 = echoed;
-                    variable38 = _closure2_slot2;
-                    variable39 = true;
-                    variable42 = variable37;
-                    record = variable42[variable36](variable41, variable40, variable39, variable38, variable37);
- 865:
-                    record = _closure1_slot49;
-                    if(record) { _fun00054_ip = 954; continue _fun00053 }
- 872:
-                    if(!(romeon != equals)) { _fun00054_ip = 954; continue _fun00053 }
- 876:
-                    record = equals.length;
-                    if(!(record > kiloes)) { _fun00054_ip = 954; continue _fun00053 }
- 885:
-                    record = true;
-                    _closure1_slot49 = record;
-                    cntext = _closure1_slot26;
-                    record = cntext.getCurrentUser;
-                    whisks = record.bind(cntext)();
-                    cntext = _closure1_slot52;
-                    record = cntext.validateMessage;
-                    quebec = _closure2_slot0;
-                    record = record.bind(cntext)(equals, whisks, quebec);
-                    equals = record.errorMessage;
-                    whisks = record.errorMessageName;
-                    cntext = _closure1_slot52;
-                    record = cntext.sendBotMessage;
-                    record = record.bind(cntext)(quebec, equals, whisks);
- 954:
-                    record = {};
-                    whisks = _closure1_slot0;
-                    equals = _closure1_slot2;
-                    cntext = 67;
-                    cntext = equals[cntext];
-                    cntext = whisks.bind(offset)(cntext);
-                    cntext = cntext.MessageDataType;
-                    cntext = cntext.SEND;
-                    record['type'] = cntext;
+                    cntext = equals.bind(variable36)(cntext);
+                    papara['sticker_items'] = cntext;
+ 837:
+                    variable38 = _closure1_slot52;
+                    variable37 = variable38.receiveMessage;
+                    variable42 = _closure2_slot0;
+                    variable41 = update;
+                    variable39 = _closure2_slot2;
+                    variable40 = true;
+                    variable43 = variable38;
+                    cntext = variable43[variable37](variable42, variable41, variable40, variable39, variable38);
+ 867:
+                    cntext = _closure1_slot49;
+                    if(cntext) { _fun00054_ip = 956; continue _fun00053 }
+ 874:
+                    if(!(foxtra != quebec)) { _fun00054_ip = 956; continue _fun00053 }
+ 878:
+                    cntext = quebec.length;
+                    if(!(cntext > sizing)) { _fun00054_ip = 956; continue _fun00053 }
+ 887:
+                    cntext = true;
+                    _closure1_slot49 = cntext;
+                    papara = _closure1_slot26;
+                    cntext = papara.getCurrentUser;
+                    equals = cntext.bind(papara)();
+                    papara = _closure1_slot52;
+                    cntext = papara.validateMessage;
+                    variable36 = _closure2_slot0;
+                    cntext = cntext.bind(papara)(quebec, equals, variable36);
+                    quebec = cntext.errorMessage;
+                    equals = cntext.errorMessageName;
+                    papara = _closure1_slot52;
+                    cntext = papara.sendBotMessage;
+                    cntext = cntext.bind(papara)(variable36, quebec, equals);
+ 956:
                     cntext = {};
-                    whisks = _closure2_slot0;
-                    cntext['channelId'] = whisks;
-                    cntext['content'] = limora;
-                    limora = ctrled;
-                    cntext['nonce'] = limora;
-                    cntext['tts'] = sierra;
-                    cntext['message_reference'] = status;
-                    cntext['allowed_mentions'] = target;
-                    cntext['flags'] = papara;
-                    record['message'] = cntext;
-                    foxtra = record;
-                    _closure4_slot13 = record;
-                    if(!(romeon != report)) { _fun00054_ip = 1220; continue _fun00053 }
- 1051:
-                    cntext = romeon == report;
-                    record = undefined;
-                    if(cntext) { _fun00054_ip = 1072; continue _fun00053 }
- 1060:
-                    cntext = report.activity;
-                    record = cntext.session_id;
- 1072:
+                    equals = _closure1_slot0;
+                    quebec = _closure1_slot2;
+                    papara = 67;
+                    papara = quebec[papara];
+                    papara = equals.bind(yankee)(papara);
+                    papara = papara.MessageDataType;
+                    papara = papara.SEND;
+                    cntext['type'] = papara;
+                    papara = {};
+                    equals = _closure2_slot0;
+                    papara['channelId'] = equals;
+                    papara['content'] = whisks;
+                    whisks = vacuum;
+                    papara['nonce'] = whisks;
+                    papara['tts'] = limora;
+                    papara['message_reference'] = sierra;
+                    papara['allowed_mentions'] = status;
+                    papara['flags'] = target;
+                    cntext['message'] = papara;
+                    backup = cntext;
+                    _closure4_slot13 = cntext;
+                    if(!(foxtra != report)) { _fun00054_ip = 1222; continue _fun00053 }
+ 1053:
+                    papara = foxtra == report;
+                    cntext = undefined;
+                    if(papara) { _fun00054_ip = 1074; continue _fun00053 }
+ 1062:
+                    papara = report.activity;
+                    cntext = papara.session_id;
+ 1074:
+                    status = report.type;
+                    papara = _closure1_slot44;
+                    target = papara.JOIN_REQUEST;
+                    papara = cntext;
+                    if(!(status !== target)) { _fun00054_ip = 1117; continue _fun00053 }
+ 1096:
+                    papara = cntext;
+                    if(!(foxtra == papara)) { _fun00054_ip = 1117; continue _fun00053 }
+ 1103:
+                    target = _closure1_slot18;
+                    cntext = target.getSessionId;
+                    papara = cntext.bind(target)();
+ 1117:
+                    if(!(foxtra != papara)) { _fun00054_ip = 1222; continue _fun00053 }
+ 1121:
+                    cntext = {};
                     target = report.type;
-                    cntext = _closure1_slot44;
-                    papara = cntext.JOIN_REQUEST;
-                    cntext = record;
-                    if(!(target !== papara)) { _fun00054_ip = 1115; continue _fun00053 }
- 1094:
-                    cntext = record;
-                    if(!(romeon == cntext)) { _fun00054_ip = 1115; continue _fun00053 }
- 1101:
-                    papara = _closure1_slot18;
-                    record = papara.getSessionId;
-                    cntext = record.bind(papara)();
- 1115:
-                    if(!(romeon != cntext)) { _fun00054_ip = 1220; continue _fun00053 }
- 1119:
-                    record = {};
-                    papara = report.type;
-                    record['type'] = papara;
-                    record['session_id'] = cntext;
-                    cntext = report.activity;
-                    report = cntext.party;
-                    report = romeon != report;
-                    if(!report) { _fun00054_ip = 1169; continue _fun00053 }
- 1154:
-                    papara = cntext.party;
-                    papara = papara.id;
-                    report = romeon != papara;
- 1169:
-                    if(!report) { _fun00054_ip = 1189; continue _fun00053 }
- 1172:
-                    report = cntext.party;
+                    cntext['type'] = target;
+                    cntext['session_id'] = papara;
+                    papara = report.activity;
+                    report = papara.party;
+                    report = foxtra != report;
+                    if(!report) { _fun00054_ip = 1171; continue _fun00053 }
+ 1156:
+                    target = papara.party;
+                    target = target.id;
+                    report = foxtra != target;
+ 1171:
+                    if(!report) { _fun00054_ip = 1191; continue _fun00053 }
+ 1174:
+                    report = papara.party;
                     report = report.id;
-                    record['party_id'] = report;
- 1189:
-                    report = foxtra;
-                    papara = report.message;
-                    cntext = cntext.application_id;
-                    papara['application_id'] = cntext;
+                    cntext['party_id'] = report;
+ 1191:
+                    report = backup;
+                    target = report.message;
+                    papara = papara.application_id;
+                    target['application_id'] = papara;
                     report = report.message;
-                    report['activity'] = record;
- 1220:
-                    if(!(romeon != config)) { _fun00054_ip = 1238; continue _fun00053 }
- 1224:
-                    report = foxtra;
+                    report['activity'] = cntext;
+ 1222:
+                    if(!(foxtra != record)) { _fun00054_ip = 1240; continue _fun00053 }
+ 1226:
+                    report = backup;
                     report = report.message;
-                    report['poll'] = config;
- 1238:
-                    if(!(romeon != sequen)) { _fun00054_ip = 1256; continue _fun00053 }
- 1242:
-                    report = foxtra;
+                    report['poll'] = record;
+ 1240:
+                    if(!(foxtra != config)) { _fun00054_ip = 1258; continue _fun00053 }
+ 1244:
+                    report = backup;
                     report = report.message;
-                    report['sticker_ids'] = sequen;
- 1256:
-                    sequen = _closure1_slot11;
-                    report = sequen.isEnabled;
-                    report = report.bind(sequen)();
-                    if(!report) { _fun00054_ip = 1291; continue _fun00053 }
- 1273:
-                    report = foxtra;
-                    sequen = report.message;
+                    report['sticker_ids'] = config;
+ 1258:
+                    config = _closure1_slot11;
+                    report = config.isEnabled;
+                    report = report.bind(config)();
+                    if(!report) { _fun00054_ip = 1293; continue _fun00053 }
+ 1275:
+                    report = backup;
+                    config = report.message;
                     report = true;
-                    sequen['has_poggermode_enabled'] = report;
- 1291:
-                    if(!(romeon != vacuum)) { _fun00054_ip = 1309; continue _fun00053 }
- 1295:
-                    report = foxtra;
+                    config['has_poggermode_enabled'] = report;
+ 1293:
+                    if(!(foxtra != sequen)) { _fun00054_ip = 1311; continue _fun00053 }
+ 1297:
+                    report = backup;
                     report = report.message;
-                    report['content_inventory_entry'] = vacuum;
- 1309:
-                    if(!(romeon != result)) { _fun00054_ip = 1370; continue _fun00053 }
- 1313:
-                    report = foxtra;
-                    vacuum = report.message;
-                    sequen = _closure1_slot0;
-                    config = _closure1_slot2;
+                    report['content_inventory_entry'] = sequen;
+ 1311:
+                    if(!(foxtra != echoed)) { _fun00054_ip = 1372; continue _fun00053 }
+ 1315:
+                    report = backup;
+                    sequen = report.message;
+                    config = _closure1_slot0;
+                    record = _closure1_slot2;
                     report = 59;
-                    report = config[report];
-                    sequen = sequen.bind(offset)(report);
-                    report = sequen.constructCreateConfettiPotionRequest;
-                    report = report.bind(sequen)(result);
-                    vacuum['confetti_potion'] = report;
-                    report = result.callback;
-                    report = report.bind(result)();
- 1370:
-                    report = romeon != output;
-                    if(!report) { _fun00054_ip = 1386; continue _fun00053 }
- 1377:
-                    result = output.length;
-                    report = result > kiloes;
- 1386:
-                    if(!report) { _fun00054_ip = 1403; continue _fun00053 }
- 1389:
-                    report = foxtra;
+                    report = record[report];
+                    config = config.bind(yankee)(report);
+                    report = config.constructCreateConfettiPotionRequest;
+                    report = report.bind(config)(echoed);
+                    sequen['confetti_potion'] = report;
+                    report = echoed.callback;
+                    report = report.bind(echoed)();
+ 1372:
+                    report = foxtra != result;
+                    if(!report) { _fun00054_ip = 1388; continue _fun00053 }
+ 1379:
+                    echoed = result.length;
+                    report = echoed > sizing;
+ 1388:
+                    if(!report) { _fun00054_ip = 1405; continue _fun00053 }
+ 1391:
+                    report = backup;
                     report = report.message;
-                    report['attachments'] = output;
- 1403:
-                    report = source;
-                    if(!(romeon != report)) { _fun00054_ip = 1603; continue _fun00053 }
- 1413:
-                    report = source;
+                    report['attachments'] = result;
+ 1405:
+                    report = ctrled;
+                    if(!(foxtra != report)) { _fun00054_ip = 1605; continue _fun00053 }
+ 1415:
+                    report = ctrled;
                     report = report.length;
-                    if(!(report > kiloes)) { _fun00054_ip = 1603; continue _fun00053 }
- 1428: // try_start_0
-                    output = _closure1_slot0;
-                    result = _closure1_slot2;
+                    if(!(report > sizing)) { _fun00054_ip = 1605; continue _fun00053 }
+ 1430: // try_start_0
+                    result = _closure1_slot0;
+                    echoed = _closure1_slot2;
                     report = 68;
-                    report = result[report];
-                    result = output.bind(offset)(report);
-                    output = result.uploadMessageAttachments;
+                    report = echoed[report];
+                    echoed = result.bind(yankee)(report);
+                    result = echoed.uploadMessageAttachments;
                     report = {};
-                    vacuum = _closure2_slot0;
-                    report['channelId'] = vacuum;
-                    report['nonce'] = ctrled;
-                    report['items'] = source;
-                    report['message'] = echoed;
-                    update = _closure2_slot2;
-                    update = update.doNotNotifyOnError;
-                    update = !update;
-                    echoed = update;
-                    if(!update) { _fun00054_ip = 1499; continue _fun00053 }
- 1497:
-                    echoed = undefined;
+                    sequen = _closure2_slot0;
+                    report['channelId'] = sequen;
+                    report['nonce'] = vacuum;
+                    report['items'] = ctrled;
+                    report['message'] = update;
+                    source = _closure2_slot2;
+                    source = source.doNotNotifyOnError;
+                    source = !source;
+                    update = source;
+                    if(!source) { _fun00054_ip = 1501; continue _fun00053 }
  1499:
-                    report['shouldUploadFailureSendNotification'] = echoed;
-                    report = output.bind(result)(report);
-                    SaveGenerator(address=1513);
- 1511:
-                    return report;
+                    update = undefined;
+ 1501:
+                    report['shouldUploadFailureSendNotification'] = update;
+                    report = result.bind(echoed)(report);
+                    SaveGenerator(address=1515);
  1513:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=16);
-                    if(output) { _fun00054_ip = 1645; continue _fun00053 }
- 1522:
-                    sizing = report;
-                    if(!(romeon != report)) { _fun00054_ip = 1642; continue _fun00053 }
- 1529:
-                    yankee = sizing.attachments;
-                    sizing = sizing.uploader;
-                    _closure4_slot12 = sizing;
-                    if(!backup) { _fun00054_ip = 1567; continue _fun00053 }
- 1548:
-                    backup = yankee;
-                    if(!(romeon != backup)) { _fun00054_ip = 1639; continue _fun00053 }
- 1555:
-                    backup = yankee;
-                    backup = backup.length;
-                    if(!(kiloes !== backup)) { _fun00054_ip = 1639; continue _fun00053 }
- 1567:
-                    backup = yankee;
-                    if(!(romeon != backup)) { _fun00054_ip = 1603; continue _fun00053 }
- 1574:
-                    foxtra = foxtra.message;
-                    kiloes = yankee;
-                    backup = kiloes.map;
-                    yankee = function(argFoo, argBar) {
+                    return report;
+ 1515:
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=17);
+                    if(result) { _fun00054_ip = 1647; continue _fun00053 }
+ 1524:
+                    output = report;
+                    if(!(foxtra != report)) { _fun00054_ip = 1644; continue _fun00053 }
+ 1531:
+                    romeon = output.attachments;
+                    output = output.uploader;
+                    _closure4_slot12 = output;
+                    if(!kiloes) { _fun00054_ip = 1569; continue _fun00053 }
+ 1550:
+                    kiloes = romeon;
+                    if(!(foxtra != kiloes)) { _fun00054_ip = 1641; continue _fun00053 }
+ 1557:
+                    kiloes = romeon;
+                    kiloes = kiloes.length;
+                    if(!(sizing !== kiloes)) { _fun00054_ip = 1641; continue _fun00053 }
+ 1569:
+                    kiloes = romeon;
+                    if(!(foxtra != kiloes)) { _fun00054_ip = 1605; continue _fun00053 }
+ 1576:
+                    backup = backup.message;
+                    sizing = romeon;
+                    kiloes = sizing.map;
+                    romeon = function(argFoo, argBar) {
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot2;
                         entity = 69;
@@ -3708,14 +3709,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = zuuluu.bind(tangon)(michal, entity);
                         return entity;
                     };
-                    yankee = backup.bind(kiloes)(yankee);
-                    foxtra['attachments'] = yankee;
- 1603: // try_end0
-                    yankee = global;
-                    backup = yankee.Promise;
-                    yankee = backup.prototype;
-                    foxtra = Object.create(yankee, {constructor: {value: backup}});
-                    variable41 = function(argFoo, argBar) {
+                    romeon = kiloes.bind(sizing)(romeon);
+                    backup['attachments'] = romeon;
+ 1605: // try_end0
+                    romeon = global;
+                    kiloes = romeon.Promise;
+                    romeon = kiloes.prototype;
+                    backup = Object.create(romeon, {constructor: {value: kiloes}});
+                    variable42 = function(argFoo, argBar) {
                         entity = argFoo;
                         var _closure5_slot0 = entity;
                         entity = argBar;
@@ -4871,53 +4872,59 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         michal = tangon.bind(report)(zuuluu, michal, oscard);
                         return entity;
                     };
-                    variable42 = foxtra;
-                    yankee = new variable42[backup](variable41, variable40);
-                    yankee = yankee instanceof Object ? yankee : foxtra;
+                    variable43 = backup;
+                    romeon = new variable43[kiloes](variable42, variable41);
+                    romeon = romeon instanceof Object ? romeon : backup;
+                    return romeon;
+ 1641:
                     return yankee;
- 1639:
-                    return offset;
- 1642:
-                    return offset;
- 1645:
+ 1644:
+                    return yankee;
+ 1647:
                     return report;
- 1648: // catch_target0
+ 1650: // catch_target0
                     CatchBlockStart(arg_register=4);
-                    sizing = report.file;
+                    output = report.file;
+                    verify = output;
+                    sizing = report.code;
                     option = sizing;
-                    kiloes = report.code;
+                    kiloes = report.reason;
                     golfie = kiloes;
-                    backup = report.reason;
-                    oscard = backup;
-                    yankee = _closure1_slot0;
-                    foxtra = _closure1_slot2;
+                    oscard = report.responseBody;
+                    romeon = _closure1_slot0;
+                    backup = _closure1_slot2;
                     report = 70;
-                    report = foxtra[report];
-                    foxtra = yankee.bind(offset)(report);
-                    yankee = foxtra.logMessageSendFailure;
+                    report = backup[report];
+                    backup = romeon.bind(yankee)(report);
+                    romeon = backup.logMessageSendFailure;
                     report = {};
-                    sizing = sizing.items;
-                    report['fileItems'] = sizing;
-                    report['failureCode'] = kiloes;
-                    kiloes = romeon == backup;
-                    backup = undefined;
-                    if(kiloes) { _fun00054_ip = 1738; continue _fun00053 }
- 1729:
-                    kiloes = oscard;
-                    backup = kiloes.msg;
- 1738:
-                    report['errorMessage'] = backup;
-                    report = yankee.bind(foxtra)(report);
-                    yankee = verify;
-                    yankee = romeon == yankee;
-                    report = yankee;
-                    if(yankee) { _fun00054_ip = 1768; continue _fun00053 }
- 1761:
-                    report = verify.bind(offset)(option, golfie, oscard);
- 1768:
+                    output = output.items;
+                    report['fileItems'] = output;
+                    report['failureCode'] = sizing;
+                    sizing = foxtra == kiloes;
+                    kiloes = undefined;
+                    if(sizing) { _fun00054_ip = 1746; continue _fun00053 }
+ 1737:
+                    sizing = golfie;
+                    kiloes = sizing.msg;
+ 1746:
+                    report['errorMessage'] = kiloes;
+                    report = romeon.bind(backup)(report);
+                    romeon = offset;
+                    romeon = foxtra == romeon;
+                    report = romeon;
+                    if(romeon) { _fun00054_ip = 1787; continue _fun00053 }
+ 1769:
+                    variable42 = verify;
+                    variable41 = option;
+                    variable40 = golfie;
+                    variable39 = oscard;
+                    variable43 = undefined;
+                    report = variable43[offset](variable42, variable41, variable40, variable39, variable38);
+ 1787:
                     report = undefined;
                     return report;
- 1773:
+ 1792:
                     oscard = _closure1_slot48;
                     report = oscard.info;
                     zuuluu = 'Converting channel to a private channel';
@@ -4939,7 +4946,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     };
                     michal = zuuluu.bind(tangon)(michal);
                     return michal;
- 1812:
+ 1831:
                     return entity;
                 }
             };

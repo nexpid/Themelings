@@ -1512,7 +1512,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup[result];
             backup = output.bind(tangon)(backup);
             backup = backup.t;
-            backup = backup.i4jeWV;
+            backup = backup.K50GHR;
             backup = kiloes.bind(sizing)(backup);
             offset['text'] = backup;
             offset['onPress'] = foxtra;

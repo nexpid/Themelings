@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['onPress'] = backup;
             verify = foxtra.bind(tangon)(yankee, verify);
             report[1] = verify;
-            if(option) { _fun00002_ip = 1200; continue _fun00001 }
+            if(option) { _fun00002_ip = 1192; continue _fun00001 }
  758:
             verify = _closure1_slot16;
             option = _closure1_slot7;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result[kiloes];
             sizing = source.bind(tangon)(sizing);
             sizing = sizing.t;
-            if(oscard) { _fun00002_ip = 1037; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 1033; continue _fun00001 }
  880:
             oscard = sizing.65XQam;
             oscard = update.bind(ctrled)(oscard);
@@ -564,8 +564,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = vacuum;
             yankee['children'] = oscard;
             oscard = yankee;
-            _fun00002_ip = 1189; continue _fun00001;
- 1037:
+            _fun00002_ip = 1181; continue _fun00001;
+ 1033:
             sizing = sizing.HQ2nKi;
             sizing = update.bind(ctrled)(sizing);
             foxtra['text'] = sizing;
@@ -614,10 +614,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[1] = backup;
             yankee['children'] = foxtra;
             oscard = yankee;
- 1189:
+ 1181:
             oscard = verify.bind(tangon)(option, oscard);
-            _fun00002_ip = 1332; continue _fun00001;
- 1200:
+            _fun00002_ip = 1324; continue _fun00001;
+ 1192:
             verify = _closure1_slot15;
             backup = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -659,7 +659,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie['onPress'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1332:
+ 1324:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
