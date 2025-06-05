@@ -11439,24 +11439,6 @@
         "width": 24,
         "height": 24
     },
-    "nameplate_avatar_placeholder_dark_mode": {
-        "file": "images/nameplate_avatar_placeholder_dark_mode.png",
-        "hash": "bc97c4c1b8a21ac60657238688c5ddb3",
-        "scales": [
-            1
-        ],
-        "width": 32,
-        "height": 32
-    },
-    "nameplate_avatar_placeholder_light_mode": {
-        "file": "images/nameplate_avatar_placeholder_light_mode.png",
-        "hash": "3d1bee4f97a38e116b3609be3da31a91",
-        "scales": [
-            1
-        ],
-        "width": 32,
-        "height": 32
-    },
     "NatureIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/NatureIcon.png",
         "hash": "b33dc2d7b053297709d9eb10ccfc5f4e",
@@ -13647,6 +13629,26 @@
     "ThreadPlusIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ThreadPlusIcon.png",
         "hash": "dfc732054137add14f7eba7bbb6a477f",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ThumbsDownIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ThumbsDownIcon.png",
+        "hash": "7eb3a9e3107d67501326ccf971f8cb21",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "ThumbsUpIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ThumbsUpIcon.png",
+        "hash": "4c241667f757e837a93344b0a35d155f",
         "scales": [
             2,
             3
