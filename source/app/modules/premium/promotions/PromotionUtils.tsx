@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = function(argFoo, argBar) { // Original name: getPromotionImageURL
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            yankee = argFoo;
+            verify = argFoo;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 8;
@@ -402,48 +402,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.isThemeDark;
             entity = argBar;
             entity = michal.bind(zuuluu)(entity);
-            offset = 'logo-light';
+            option = 'logo-light';
             if(!entity) { _fun00012_ip = 57; continue _fun00011 }
  51:
-            offset = 'logo-dark';
+            option = 'logo-dark';
  57:
             michal = global;
             entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            verify = entity.CDN_HOST;
+            golfie = entity.CDN_HOST;
             entity = null;
-            if(!(entity == verify)) { _fun00012_ip = 156; continue _fun00011 }
+            if(!(entity == golfie)) { _fun00012_ip = 156; continue _fun00011 }
  83:
             entity = michal.location;
-            echoed = entity.protocol;
+            result = entity.protocol;
             entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            result = entity.API_ENDPOINT;
+            output = entity.API_ENDPOINT;
             entity = michal.HermesInternal;
             oscard = entity.concat;
-            update = '';
-            output = '/promotions/';
-            kiloes = '/';
-            foxtra = '?size=256';
-            sizing = yankee;
-            backup = offset;
-            entity = update[oscard](echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
-            _fun00012_ip = 218; continue _fun00011;
- 156:
-            zuuluu = michal.location;
-            echoed = zuuluu.protocol;
-            michal = michal.HermesInternal;
-            golfie = michal.concat;
-            update = '';
-            result = '//';
+            echoed = '';
             sizing = '/promotions/';
             backup = '/';
             romeon = '?size=256';
-            output = verify;
-            kiloes = yankee;
-            foxtra = offset;
-            entity = update[golfie](echoed, result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
- 218:
+            kiloes = verify;
+            foxtra = option;
+            entity = echoed[oscard](result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
+            _fun00012_ip = 202; continue _fun00011;
+ 156:
+            michal = michal.HermesInternal;
+            oscard = michal.concat;
+            echoed = 'https://';
+            output = '/promotions/';
+            kiloes = '/';
+            foxtra = '?size=256';
+            result = golfie;
+            sizing = verify;
+            backup = option;
+            entity = echoed[oscard](result, output, sizing, kiloes, backup, foxtra, romeon);
+ 202:
             return entity;
         }
     };

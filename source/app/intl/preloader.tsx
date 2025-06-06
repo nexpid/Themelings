@@ -15,7 +15,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 514; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 545; continue _fun00001 }
  10:
                     michal = global;
                     tangon = michal.Promise;
@@ -30,7 +30,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     verify = report[michal];
                     michal = report.paths;
                     verify = offset.bind(option)(verify, michal);
-                    michal = new Array(15);
+                    michal = new Array(16);
                     michal[0] = verify;
                     verify = report[oscard];
                     yankee = golfie.bind(option)(verify);
@@ -96,14 +96,14 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     offset = romeon.bind(option)(yankee, offset);
                     michal[9] = offset;
                     offset = report[oscard];
+                    romeon = golfie.bind(option)(offset);
+                    offset = 12;
+                    yankee = report[offset];
+                    offset = report.paths;
+                    offset = romeon.bind(option)(yankee, offset);
+                    michal[10] = offset;
+                    offset = report[oscard];
                     yankee = golfie.bind(option)(offset);
-                    offset = report[verify];
-                    verify = report.paths;
-                    verify = yankee.bind(option)(offset, verify);
-                    michal[10] = verify;
-                    verify = report[oscard];
-                    yankee = golfie.bind(option)(verify);
-                    verify = 12;
                     offset = report[verify];
                     verify = report.paths;
                     verify = yankee.bind(option)(offset, verify);
@@ -122,16 +122,23 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     verify = report.paths;
                     verify = yankee.bind(option)(offset, verify);
                     michal[13] = verify;
+                    verify = report[oscard];
+                    yankee = golfie.bind(option)(verify);
+                    verify = 15;
+                    offset = report[verify];
+                    verify = report.paths;
+                    verify = yankee.bind(option)(offset, verify);
+                    michal[14] = verify;
                     oscard = report[oscard];
                     golfie = golfie.bind(option)(oscard);
-                    oscard = 15;
+                    oscard = 16;
                     oscard = report[oscard];
                     report = report.paths;
                     report = golfie.bind(option)(oscard, report);
-                    michal[14] = report;
+                    michal[15] = report;
                     michal = zuuluu.bind(tangon)(michal);
                     return michal;
- 514:
+ 545:
                     return entity;
                 }
             };
@@ -161,7 +168,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot2 = tangon;
-    tangon = 16;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

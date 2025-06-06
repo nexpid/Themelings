@@ -216,16 +216,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = null;
             foxtra = golfie == offset;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 534; continue _fun00001 }
- 523:
+            if(foxtra) { _fun00002_ip = 538; continue _fun00001 }
+ 527:
             offset = offset.topic;
             yankee = offset.length;
- 534:
+ 538:
             offset = 0;
             offset = yankee > offset;
             golfie = null;
-            if(!offset) { _fun00002_ip = 679; continue _fun00001 }
- 548:
+            if(!offset) { _fun00002_ip = 683; continue _fun00001 }
+ 552:
             yankee = _closure1_slot5;
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = yankee.bind(tangon)(foxtra, romeon);
             option['children'] = romeon;
             golfie = yankee.bind(tangon)(offset, option);
- 679:
+ 683:
             report[2] = golfie;
             option = _closure1_slot5;
             golfie = _closure1_slot4;

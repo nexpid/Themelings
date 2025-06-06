@@ -89,9 +89,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = global;
             michal = entity.window;
             michal = michal.GLOBAL_ENV;
-            romeon = michal.CDN_HOST;
+            tangon = michal.CDN_HOST;
             michal = null;
-            if(!(michal == romeon)) { _fun00004_ip = 113; continue _fun00003 }
+            if(!(michal == tangon)) { _fun00004_ip = 113; continue _fun00003 }
  77:
             michal = entity.location;
             zuuluu = michal.protocol;
@@ -99,16 +99,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.GLOBAL_ENV;
             michal = michal.API_ENDPOINT;
             report = zuuluu + michal;
-            _fun00004_ip = 153; continue _fun00003;
+            _fun00004_ip = 135; continue _fun00003;
  113:
-            michal = entity.location;
-            yankee = michal.protocol;
             michal = entity.HermesInternal;
-            tangon = michal.concat;
-            zuuluu = '';
-            michal = '//';
-            report = tangon.bind(zuuluu)(yankee, michal, romeon);
- 153:
+            zuuluu = michal.concat;
+            michal = 'https://';
+            report = zuuluu.bind(michal)(tangon);
+ 135:
             tangon = _closure1_slot4;
             zuuluu = {};
             zuuluu['storageHash'] = golfie;

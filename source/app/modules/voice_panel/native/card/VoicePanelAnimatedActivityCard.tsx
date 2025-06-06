@@ -960,7 +960,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             offset = offset.bind(echoed)(tangon, oscard);
-            if(!(entity != update)) { _fun00002_ip = 2273; continue _fun00001 }
+            if(!(entity != update)) { _fun00002_ip = 2271; continue _fun00001 }
  1825:
             tangon = _closure1_slot13;
             if(sizing) { _fun00002_ip = 1840; continue _fun00001 }
@@ -1014,7 +1014,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['application'] = yankee;
             oscard = verify.bind(report)(tangon, zuuluu);
  2014:
-            _fun00002_ip = 2228; continue _fun00001;
+            _fun00002_ip = 2226; continue _fun00001;
  2019:
             verify = _closure1_slot15;
             tangon = _closure1_slot0;
@@ -1033,10 +1033,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             offset['layout'] = backup;
             backup = 'none';
-            if(!sizing) { _fun00002_ip = 2096; continue _fun00001 }
+            if(!sizing) { _fun00002_ip = 2094; continue _fun00001 }
  2090:
-            backup = 'box-none';
- 2096:
+            backup = 'auto';
+ 2094:
             offset['pointerEvents'] = backup;
             offset['style'] = foxtra;
             sizing = _closure1_slot15;
@@ -1050,16 +1050,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['layoutMode'] = echoed;
             echoed = result > output;
             output = 0;
-            if(!echoed) { _fun00002_ip = 2152; continue _fun00001 }
- 2149:
+            if(!echoed) { _fun00002_ip = 2150; continue _fun00001 }
+ 2147:
             output = result;
- 2152:
+ 2150:
             backup = sizing.bind(report)(backup, foxtra, output);
             foxtra = new Array(2);
             foxtra[0] = backup;
             backup = null;
-            if(!kiloes) { _fun00002_ip = 2204; continue _fun00001 }
- 2172:
+            if(!kiloes) { _fun00002_ip = 2202; continue _fun00001 }
+ 2170:
             output = _closure1_slot15;
             sizing = _closure1_slot1;
             result = _closure1_slot2;
@@ -1068,13 +1068,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.bind(report)(kiloes);
             kiloes = {};
             backup = output.bind(report)(sizing, kiloes);
- 2204:
+ 2202:
             foxtra[1] = backup;
             offset['children'] = foxtra;
             offset = romeon.bind(report)(yankee, offset);
             zuuluu['children'] = offset;
             oscard = verify.bind(report)(tangon, zuuluu);
- 2228:
+ 2226:
             tangon = _closure1_slot15;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -1086,7 +1086,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 2273:
+ 2271:
             return entity;
         }
     };

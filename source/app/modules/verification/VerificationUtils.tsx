@@ -69,7 +69,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = new Array(1);
     option[0] = offset;
     michal[verify] = option;
-    option = golfie.AGREEMENTS;
+    verify = golfie.AGREEMENTS;
+    option = new Array(0);
+    michal[verify] = option;
+    option = golfie.REQUIRE_SAFETY_FLOWS;
     golfie = new Array(0);
     michal[option] = golfie;
     var _closure1_slot5 = michal;

@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  487:
             option = new Array(2);
             option[0] = yankee;
-            if(!verify) { _fun00002_ip = 600; continue _fun00001 }
+            if(!verify) { _fun00002_ip = 598; continue _fun00001 }
  498:
             romeon = _closure1_slot4;
             sizing = _closure1_slot0;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = backup.bind(kiloes)(foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 600:
+ 598:
             option[1] = verify;
             oscard['children'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);

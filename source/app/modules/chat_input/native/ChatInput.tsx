@@ -2377,21 +2377,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[4] = kiloes;
             sizing = _closure1_slot0;
             output = _closure1_slot3;
-            kiloes = 33;
+            kiloes = 70;
             kiloes = output[kiloes];
             sizing = sizing.bind(report)(kiloes);
-            kiloes = sizing.isAndroid;
+            kiloes = sizing.isLegacyAndroidKeyboard;
             sizing = kiloes.bind(sizing)();
             kiloes = undefined;
-            if(!sizing) { _fun00004_ip = 2969; continue _fun00003 }
- 2943:
+            if(!sizing) { _fun00004_ip = 2970; continue _fun00003 }
+ 2944:
             output = _closure1_slot0;
             result = _closure1_slot3;
             sizing = 65;
             sizing = result[sizing];
             sizing = output.bind(report)(sizing);
             kiloes = sizing.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
- 2969:
+ 2970:
             backup[5] = kiloes;
             yankee['children'] = backup;
             yankee = foxtra.bind(report)(romeon, yankee);
@@ -2399,12 +2399,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = offset;
             oscard = oscard.bind(report)(tangon, entity);
             entity = oscard;
-            if(zuuluu) { _fun00004_ip = 3061; continue _fun00003 }
- 3003:
+            if(zuuluu) { _fun00004_ip = 3062; continue _fun00003 }
+ 3004:
             tangon = _closure1_slot29;
             zuuluu = _closure1_slot1;
             offset = _closure1_slot3;
-            michal = 70;
+            michal = 71;
             michal = offset[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
@@ -2415,7 +2415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isReadonly'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 3061:
+ 3062:
             return entity;
         }
     };
@@ -2424,7 +2424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['displayName'] = michal;
     michal = golfie.memo;
     michal = michal.bind(golfie)(tangon);
-    tangon = 71;
+    tangon = 72;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

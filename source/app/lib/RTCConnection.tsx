@@ -2889,26 +2889,34 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = michal.push;
                     entity = entity.bind(michal)(tangon);
  267:
-                    oscard = _closure1_slot0;
-                    tangon = _closure1_slot3;
-                    entity = 41;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    golfie = oscard.bind(entity)(tangon);
+                    tangon = zuuluu.context;
+                    entity = _closure1_slot25;
+                    entity = entity.DEFAULT;
+                    entity = tangon === entity;
+                    if(!entity) { _fun00086_ip = 333; continue _fun00085 }
+ 289:
+                    golfie = _closure1_slot0;
+                    oscard = _closure1_slot3;
+                    tangon = 41;
+                    oscard = oscard[tangon];
+                    tangon = undefined;
+                    golfie = golfie.bind(tangon)(oscard);
                     oscard = golfie.getAudioBitrateAdaptationExperimentConfig;
                     tangon = 'RtcConnection';
                     tangon = oscard.bind(golfie)(tangon);
-                    tangon = tangon.enabled;
-                    if(!tangon) { _fun00086_ip = 330; continue _fun00085 }
- 314:
-                    oscard = michal.push;
-                    tangon = 'audio_transport_cc';
-                    tangon = oscard.bind(michal)(tangon);
- 330:
+                    entity = tangon.enabled;
+ 333:
+                    if(!entity) { _fun00086_ip = 352; continue _fun00085 }
+ 336:
+                    tangon = michal.push;
+                    entity = 'audio_transport_cc';
+                    entity = tangon.bind(michal)(entity);
+ 352:
                     oscard = _closure1_slot1;
-                    golfie = _closure1_slot3;
-                    tangon = 42;
-                    tangon = golfie[tangon];
+                    tangon = _closure1_slot3;
+                    entity = 42;
+                    tangon = tangon[entity];
+                    entity = undefined;
                     offset = oscard.bind(entity)(tangon);
                     verify = offset.getCurrentConfig;
                     golfie = {};
@@ -2919,12 +2927,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard['autoTrackExposure'] = option;
                     oscard = verify.bind(offset)(golfie, oscard);
                     oscard = oscard.enabled;
-                    if(!oscard) { _fun00086_ip = 407; continue _fun00085 }
- 391:
+                    if(!oscard) { _fun00086_ip = 431; continue _fun00085 }
+ 415:
                     golfie = michal.push;
                     oscard = 'keyframe_on_join';
                     oscard = golfie.bind(michal)(oscard);
- 407:
+ 431:
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot3;
                     report = 43;
@@ -2937,12 +2945,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon['autoTrackExposure'] = option;
                     tangon = oscard.bind(golfie)(report, tangon);
                     tangon = tangon.enabled;
-                    if(!tangon) { _fun00086_ip = 476; continue _fun00085 }
- 460:
+                    if(!tangon) { _fun00086_ip = 500; continue _fun00085 }
+ 484:
                     report = michal.push;
                     tangon = 'network_aware_socket';
                     tangon = report.bind(michal)(tangon);
- 476:
+ 500:
                     zuuluu['_selectedExperiments'] = michal;
                     return entity;
                 }

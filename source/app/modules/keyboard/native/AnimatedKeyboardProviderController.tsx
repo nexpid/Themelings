@@ -1,0 +1,224 @@
+// app/modules/keyboard/native/AnimatedKeyboardProviderController.tsx
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscard;
+    entity = global;
+    golfie = entity.Object;
+    tangon = golfie.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = tangon.bind(golfie)(zuuluu, entity, michal);
+    verify = 0;
+    tangon = oscard[verify];
+    michal = argCor;
+    entity = undefined;
+    offset = michal.bind(entity)(tangon);
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    tangon = michal.jsx;
+    var _closure1_slot2 = tangon;
+    michal = michal.jsxs;
+    var _closure1_slot3 = michal;
+    michal = 2;
+    tangon = oscard[michal];
+    golfie = report.bind(entity)(tangon);
+    tangon = golfie.makeMutable;
+    golfie = tangon.bind(golfie)(verify);
+    var _closure1_slot4 = golfie;
+    tangon = oscard[michal];
+    verify = report.bind(entity)(tangon);
+    tangon = verify.makeMutable;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.KeyboardState;
+    michal = michal.UNKNOWN;
+    tangon = tangon.bind(verify)(michal);
+    var _closure1_slot5 = tangon;
+    michal = {};
+    verify = 'function AnimatedKeyboardProviderControllerTsx1(e){const{animatedKeyboardState,KeyboardState}=this.__closure;animatedKeyboardState.set(e.height===0?KeyboardState.CLOSED:KeyboardState.OPEN);}';
+    michal['code'] = verify;
+    var _closure1_slot6 = michal;
+    michal = {};
+    verify = 'function AnimatedKeyboardProviderControllerTsx2(e){const{animatedKeyboardHeight}=this.__closure;animatedKeyboardHeight.set(e.height);}';
+    michal['code'] = verify;
+    var _closure1_slot7 = michal;
+    michal = {};
+    verify = 'function AnimatedKeyboardProviderControllerTsx3(e){const{animatedKeyboardState,KeyboardState,animatedKeyboardHeight}=this.__closure;animatedKeyboardState.set(e.height===0?KeyboardState.CLOSED:KeyboardState.OPEN);animatedKeyboardHeight.set(e.height);}';
+    michal['code'] = verify;
+    var _closure1_slot8 = michal;
+    verify = offset.memo;
+    michal = function() {
+        offset = _closure1_slot0;
+        yankee = _closure1_slot1;
+        michal = 3;
+        michal = yankee[michal];
+        verify = undefined;
+        tangon = offset.bind(verify)(michal);
+        zuuluu = tangon.useKeyboardHandler;
+        michal = {};
+        oscard = function(argFoo) { // Original name: o
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                zuuluu = _closure1_slot5;
+                michal = zuuluu.set;
+                entity = argFoo;
+                report = entity.height;
+                entity = 0;
+                if(!(entity !== report)) { _fun00002_ip = 62; continue _fun00001 }
+ 26:
+                oscard = _closure1_slot0;
+                report = _closure1_slot1;
+                entity = 2;
+                report = report[entity];
+                entity = undefined;
+                entity = oscard.bind(entity)(report);
+                entity = entity.KeyboardState;
+                entity = entity.OPEN;
+                _fun00002_ip = 96; continue _fun00001;
+ 62:
+                oscard = _closure1_slot0;
+                report = _closure1_slot1;
+                tangon = 2;
+                report = report[tangon];
+                tangon = undefined;
+                tangon = oscard.bind(tangon)(report);
+                tangon = tangon.KeyboardState;
+                entity = tangon.CLOSED;
+ 96:
+                entity = michal.bind(zuuluu)(entity);
+                entity = undefined;
+                return entity;
+            }
+        };
+        golfie = {};
+        romeon = _closure1_slot5;
+        golfie['animatedKeyboardState'] = romeon;
+        option = 2;
+        foxtra = yankee[option];
+        foxtra = offset.bind(verify)(foxtra);
+        foxtra = foxtra.KeyboardState;
+        golfie['KeyboardState'] = foxtra;
+        oscard['__closure'] = golfie;
+        golfie = 12130162639136.0;
+        oscard['__workletHash'] = golfie;
+        golfie = _closure1_slot6;
+        oscard['__initData'] = golfie;
+        michal['onStart'] = oscard;
+        oscard = function(argFoo) { // Original name: t
+            zuuluu = _closure1_slot4;
+            michal = zuuluu.set;
+            entity = argFoo;
+            entity = entity.height;
+            entity = michal.bind(zuuluu)(entity);
+            entity = undefined;
+            return entity;
+        };
+        foxtra = {};
+        golfie = _closure1_slot4;
+        foxtra['animatedKeyboardHeight'] = golfie;
+        oscard['__closure'] = foxtra;
+        foxtra = 1398293011995.0;
+        oscard['__workletHash'] = foxtra;
+        foxtra = _closure1_slot7;
+        oscard['__initData'] = foxtra;
+        michal['onMove'] = oscard;
+        entity = function(argFoo) { // Original name: e
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                entity = argFoo;
+                report = _closure1_slot5;
+                tangon = report.set;
+                oscard = entity.height;
+                zuuluu = 0;
+                if(!(zuuluu !== oscard)) { _fun00004_ip = 62; continue _fun00003 }
+ 26:
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot1;
+                zuuluu = 2;
+                oscard = oscard[zuuluu];
+                zuuluu = undefined;
+                zuuluu = golfie.bind(zuuluu)(oscard);
+                zuuluu = zuuluu.KeyboardState;
+                zuuluu = zuuluu.OPEN;
+                _fun00004_ip = 96; continue _fun00003;
+ 62:
+                option = _closure1_slot0;
+                golfie = _closure1_slot1;
+                oscard = 2;
+                golfie = golfie[oscard];
+                oscard = undefined;
+                oscard = option.bind(oscard)(golfie);
+                oscard = oscard.KeyboardState;
+                zuuluu = oscard.CLOSED;
+ 96:
+                zuuluu = tangon.bind(report)(zuuluu);
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.set;
+                entity = entity.height;
+                entity = michal.bind(zuuluu)(entity);
+                entity = undefined;
+                return entity;
+            }
+        };
+        oscard = {};
+        oscard['animatedKeyboardState'] = romeon;
+        option = yankee[option];
+        option = offset.bind(verify)(option);
+        option = option.KeyboardState;
+        oscard['KeyboardState'] = option;
+        oscard['animatedKeyboardHeight'] = golfie;
+        entity['__closure'] = oscard;
+        oscard = 10688534401196.0;
+        entity['__workletHash'] = oscard;
+        report = _closure1_slot8;
+        entity['__initData'] = report;
+        michal['onEnd'] = entity;
+        entity = new Array(0);
+        entity = zuuluu.bind(tangon)(michal, entity);
+        entity = null;
+        return entity;
+    };
+    michal = verify.bind(offset)(michal);
+    var _closure1_slot9 = michal;
+    michal = {};
+    option = function(argFoo) { // Original name: Component
+        entity = argFoo;
+        golfie = entity.children;
+        tangon = _closure1_slot3;
+        michal = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        entity = 3;
+        entity = zuuluu[entity];
+        zuuluu = undefined;
+        entity = michal.bind(zuuluu)(entity);
+        michal = entity.KeyboardProvider;
+        entity = {'enabled': true, 'navigationBarTranslucent': true, 'preserveEdgeToEdge': true, 'statusBarTranslucent': true};
+        report = new Array(2);
+        report[0] = golfie;
+        option = _closure1_slot2;
+        golfie = _closure1_slot9;
+        oscard = {};
+        oscard = option.bind(zuuluu)(golfie, oscard);
+        report[1] = oscard;
+        entity['children'] = report;
+        entity = tangon.bind(zuuluu)(michal, entity);
+        return entity;
+    };
+    michal['Component'] = option;
+    michal['animatedKeyboardHeight'] = golfie;
+    michal['animatedKeyboardState'] = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/keyboard/native/AnimatedKeyboardProviderController.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['default'] = michal;
+    return entity;
+})();

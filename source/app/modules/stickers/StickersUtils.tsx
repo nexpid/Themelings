@@ -536,9 +536,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             oscard = argBar;
             entity = argFoo;
-            sizing = entity.banner_asset_id;
+            backup = entity.banner_asset_id;
             entity = null;
-            if(!(entity != sizing)) { _fun00014_ip = 277; continue _fun00013 }
+            if(!(entity != backup)) { _fun00014_ip = 261; continue _fun00013 }
  23:
             tangon = _closure1_slot0;
             report = _closure1_slot1;
@@ -547,10 +547,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = undefined;
             michal = tangon.bind(golfie)(michal);
             michal = michal.SUPPORTS_WEBP;
-            kiloes = 'png';
+            foxtra = 'png';
             if(!michal) { _fun00014_ip = 69; continue _fun00013 }
  63:
-            kiloes = 'webp';
+            foxtra = 'webp';
  69:
             michal = _closure1_slot14;
             if(!(entity == michal)) { _fun00014_ip = 140; continue _fun00013 }
@@ -562,32 +562,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot9;
             report = offset.STORE_ASSET;
             tangon = _closure1_slot7;
-            report = report.bind(offset)(tangon, sizing, kiloes);
+            report = report.bind(offset)(tangon, backup, foxtra);
             michal = michal.HermesInternal;
             tangon = michal.concat;
             michal = '';
             tangon = tangon.bind(michal)(verify, option, report);
-            _fun00014_ip = 209; continue _fun00013;
+            _fun00014_ip = 193; continue _fun00013;
  140:
+            source = _closure1_slot14;
+            echoed = _closure1_slot7;
             michal = global;
-            report = michal.location;
-            config = report.protocol;
-            vacuum = _closure1_slot14;
-            source = _closure1_slot7;
             michal = michal.HermesInternal;
-            yankee = michal.concat;
-            record = '';
-            sequen = '//';
-            ctrled = '/app-assets/';
-            update = '/store/';
-            result = '.';
-            echoed = sizing;
-            output = kiloes;
-            tangon = record[yankee](config, sequen, vacuum, ctrled, source, update, echoed, result, output, sizing);
- 209:
+            offset = michal.concat;
+            ctrled = 'https://';
+            update = '/app-assets/';
+            result = '/store/';
+            sizing = '.';
+            output = backup;
+            kiloes = foxtra;
+            tangon = ctrled[offset](source, update, echoed, result, output, sizing, kiloes, backup);
+ 193:
             michal = tangon;
-            if(!(entity != oscard)) { _fun00014_ip = 275; continue _fun00013 }
- 216:
+            if(!(entity != oscard)) { _fun00014_ip = 259; continue _fun00013 }
+ 200:
             report = _closure1_slot0;
             option = _closure1_slot1;
             zuuluu = 9;
@@ -601,9 +598,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = '?size=';
             zuuluu = report.bind(zuuluu)(oscard);
             michal = tangon + zuuluu;
- 275:
+ 259:
             return michal;
- 277:
+ 261:
             return entity;
         }
     };

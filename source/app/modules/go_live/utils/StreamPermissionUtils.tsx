@@ -427,11 +427,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = argFoo;
             michal = _closure1_slot10;
             michal = michal.REMOTE_MODE;
-            if(!(michal !== zuuluu)) { _fun00012_ip = 235; continue _fun00011 }
+            if(!(michal !== zuuluu)) { _fun00012_ip = 231; continue _fun00011 }
  23:
             michal = _closure1_slot10;
             michal = michal.CHANNEL_FULL;
-            if(!(michal !== zuuluu)) { _fun00012_ip = 174; continue _fun00011 }
+            if(!(michal !== zuuluu)) { _fun00012_ip = 172; continue _fun00011 }
  40:
             michal = _closure1_slot10;
             michal = michal.NO_PERMISSION;
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.pgUTZG;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 174:
+ 172:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 8;
@@ -481,7 +481,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.elyVbm;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 235:
+ 231:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 8;
@@ -499,6 +499,144 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     zuuluu['getStreamCTAString'] = oscard;
+    oscard = function(argFoo) { // Original name: getStreamCTAAriaLabel
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+            zuuluu = argFoo;
+            michal = _closure1_slot10;
+            michal = michal.REMOTE_MODE;
+            if(!(michal !== zuuluu)) { _fun00014_ip = 456; continue _fun00013 }
+ 23:
+            michal = _closure1_slot10;
+            michal = michal.CHANNEL_FULL;
+            if(!(michal !== zuuluu)) { _fun00014_ip = 323; continue _fun00013 }
+ 40:
+            michal = _closure1_slot10;
+            michal = michal.NO_PERMISSION;
+            if(!(michal !== zuuluu)) { _fun00014_ip = 190; continue _fun00013 }
+ 57:
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 8;
+            zuuluu = option[michal];
+            report = undefined;
+            zuuluu = golfie.bind(report)(zuuluu);
+            oscard = zuuluu.intl;
+            tangon = oscard.string;
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(report)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.7Xq/nZ;
+            oscard = tangon.bind(oscard)(zuuluu);
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = option[michal];
+            michal = golfie.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.9C444u;
+            report = zuuluu.bind(tangon)(michal);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = '';
+            michal = ': ';
+            michal = tangon.bind(zuuluu)(oscard, michal, report);
+            return michal;
+ 190:
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 8;
+            zuuluu = option[michal];
+            report = undefined;
+            zuuluu = golfie.bind(report)(zuuluu);
+            oscard = zuuluu.intl;
+            tangon = oscard.string;
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(report)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.7Xq/nZ;
+            oscard = tangon.bind(oscard)(zuuluu);
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = option[michal];
+            michal = golfie.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.pgUTZG;
+            report = zuuluu.bind(tangon)(michal);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = '';
+            michal = ': ';
+            michal = tangon.bind(zuuluu)(oscard, michal, report);
+            return michal;
+ 323:
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            michal = 8;
+            zuuluu = option[michal];
+            report = undefined;
+            zuuluu = golfie.bind(report)(zuuluu);
+            oscard = zuuluu.intl;
+            tangon = oscard.string;
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(report)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.7Xq/nZ;
+            oscard = tangon.bind(oscard)(zuuluu);
+            zuuluu = option[michal];
+            zuuluu = golfie.bind(report)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = option[michal];
+            michal = golfie.bind(report)(michal);
+            michal = michal.t;
+            michal = michal.elyVbm;
+            report = zuuluu.bind(tangon)(michal);
+            michal = global;
+            michal = michal.HermesInternal;
+            tangon = michal.concat;
+            zuuluu = '';
+            michal = ': ';
+            michal = tangon.bind(zuuluu)(oscard, michal, report);
+            return michal;
+ 456:
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            entity = 8;
+            michal = golfie[entity];
+            tangon = undefined;
+            michal = oscard.bind(tangon)(michal);
+            report = michal.intl;
+            zuuluu = report.string;
+            michal = golfie[entity];
+            michal = oscard.bind(tangon)(michal);
+            michal = michal.t;
+            michal = michal.7Xq/nZ;
+            report = zuuluu.bind(report)(michal);
+            michal = golfie[entity];
+            michal = oscard.bind(tangon)(michal);
+            zuuluu = michal.intl;
+            michal = zuuluu.string;
+            entity = golfie[entity];
+            entity = oscard.bind(tangon)(entity);
+            entity = entity.t;
+            entity = entity.1i3tSU;
+            tangon = michal.bind(zuuluu)(entity);
+            entity = global;
+            entity = entity.HermesInternal;
+            zuuluu = entity.concat;
+            michal = '';
+            entity = ': ';
+            entity = zuuluu.bind(michal)(report, entity, tangon);
+            return entity;
+        }
+    };
+    zuuluu['getStreamCTAAriaLabel'] = oscard;
     zuuluu['StreamUnavailableReasons'] = report;
     zuuluu['canWatchStream'] = tangon;
     tangon = function(argFoo) { // Original name: useCanWatchStream
@@ -536,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     };
     zuuluu['useCanWatchStream'] = tangon;
     michal = function(argFoo, argBar, argBaz) { // Original name: getStreamEligibleChannels
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             option = argBar;
             golfie = argBaz;
@@ -549,13 +687,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = zuuluu.bind(report)(michal);
             zuuluu = tangon.bind(report)();
             michal = zuuluu.done;
-            if(michal) { _fun00014_ip = 96; continue _fun00013 }
+            if(michal) { _fun00016_ip = 96; continue _fun00015 }
  47:
             michal = zuuluu.value;
             verify = michal.channel;
             michal = _closure1_slot13;
             michal = michal.bind(report)(verify, option, golfie);
-            if(!michal) { _fun00014_ip = 81; continue _fun00013 }
+            if(!michal) { _fun00016_ip = 81; continue _fun00015 }
  71:
             michal = entity.push;
             michal = michal.bind(entity)(verify);
@@ -563,7 +701,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = tangon.bind(report)();
             michal = verify.done;
             zuuluu = verify;
-            if(!michal) { _fun00014_ip = 47; continue _fun00013 }
+            if(!michal) { _fun00016_ip = 47; continue _fun00015 }
  96:
             return entity;
         }

@@ -1844,8 +1844,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['guild'] = yankee;
             oscard['pendingAdditions'] = offset;
             oscard['setPendingAdditions'] = verify;
-            verify = true;
-            oscard['fullScreen'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;
             entity['children'] = report;

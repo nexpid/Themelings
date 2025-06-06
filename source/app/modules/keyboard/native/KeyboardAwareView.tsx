@@ -285,16 +285,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = argFoo;
             entity = tangon.disabled;
             report = undefined;
-            if(!(entity === report)) { _fun00012_ip = 46; continue _fun00011 }
+            if(!(entity === report)) { _fun00012_ip = 47; continue _fun00011 }
  14:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot1;
             michal = 11;
             michal = oscard[michal];
             zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.isAndroid;
+            michal = zuuluu.isLegacyAndroidKeyboard;
             entity = michal.bind(zuuluu)();
- 46:
+ 47:
             michal = null;
             zuuluu = Object.create(michal);
             michal = 0;
@@ -304,16 +304,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = zuuluu;
             oscard = copyDataProperties(offset, verify, option);
             tangon = _closure1_slot7;
-            if(entity) { _fun00012_ip = 103; continue _fun00011 }
- 79:
+            if(entity) { _fun00012_ip = 104; continue _fun00011 }
+ 80:
             zuuluu = _closure1_slot9;
             entity = {};
             offset = entity;
             verify = oscard;
             golfie = copyDataProperties(offset, verify);
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00012_ip = 144; continue _fun00011;
- 103:
+            _fun00012_ip = 145; continue _fun00011;
+ 104:
             zuuluu = _closure1_slot4;
             michal = {};
             golfie = oscard.children;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.style;
             michal['style'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 144:
+ 145:
             return entity;
         }
     };

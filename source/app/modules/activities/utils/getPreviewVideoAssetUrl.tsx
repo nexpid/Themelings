@@ -26,44 +26,41 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo, argBar) { // Original name: getPreviewVideoAssetUrl
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            yankee = argFoo;
-            offset = argBar;
+            verify = argFoo;
+            option = argBar;
             michal = global;
             entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            verify = entity.CDN_HOST;
+            golfie = entity.CDN_HOST;
             entity = michal.window;
             entity = entity.GLOBAL_ENV;
             oscard = entity.API_ENDPOINT;
             entity = null;
-            if(!(entity == verify)) { _fun00002_ip = 112; continue _fun00001 }
+            if(!(entity == golfie)) { _fun00002_ip = 112; continue _fun00001 }
  50:
             entity = michal.location;
             report = entity.protocol;
             tangon = _closure1_slot0;
             zuuluu = tangon.STORE_ASSET;
             entity = 'mp4';
-            tangon = zuuluu.bind(tangon)(yankee, offset, entity);
+            tangon = zuuluu.bind(tangon)(verify, option, entity);
             entity = michal.HermesInternal;
             zuuluu = entity.concat;
             entity = '';
             entity = zuuluu.bind(entity)(report, oscard, tangon);
-            _fun00002_ip = 176; continue _fun00001;
+            _fun00002_ip = 160; continue _fun00001;
  112:
-            zuuluu = michal.location;
-            echoed = zuuluu.protocol;
             michal = michal.HermesInternal;
-            golfie = michal.concat;
-            update = '';
-            result = '//';
-            sizing = '/app-assets/';
-            backup = '/store/';
-            romeon = '.mp4';
-            output = verify;
-            kiloes = yankee;
-            foxtra = offset;
-            entity = update[golfie](echoed, result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
- 176:
+            oscard = michal.concat;
+            sizing = 'https://';
+            backup = '/app-assets/';
+            romeon = '/store/';
+            offset = '.mp4';
+            kiloes = golfie;
+            foxtra = verify;
+            yankee = option;
+            entity = sizing[oscard](kiloes, backup, foxtra, romeon, yankee, offset, verify);
+ 160:
             return entity;
         }
     };

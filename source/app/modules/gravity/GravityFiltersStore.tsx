@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot6 = michal;
     michal = {};
     var _closure1_slot7 = michal;
-    michal = 6;
+    michal = 7;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.DeviceSettingsStore;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(6);
+        entity = new Array(7);
         entity[0] = report;
         report = {};
         golfie = 'negativeContentOnly';
@@ -167,19 +167,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[2] = report;
         report = {};
-        golfie = 'getDoubleTapBehavior';
+        golfie = 'onlyShowRecentGeneratedCandidates';
         report['key'] = golfie;
         golfie = function() { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot1;
+                entity = 5;
+                zuuluu = zuuluu[entity];
+                entity = undefined;
+                report = tangon.bind(entity)(zuuluu);
+                tangon = report.getICYMINewConversationSummaryExperiment;
+                zuuluu = 'processRawItems';
+                entity = false;
+                entity = tangon.bind(report)(zuuluu, entity);
+                entity = entity.contentGenerationEnabled;
+                zuuluu = !entity;
+                entity = !zuuluu;
+                if(zuuluu) { _fun00008_ip = 76; continue _fun00007 }
+ 60:
+                michal = _closure1_slot7;
+                zuuluu = michal.onlyShowRecentGeneratedCandidates;
+                michal = true;
+                entity = michal === zuuluu;
+ 76:
+                return entity;
+            }
+        };
+        report['value'] = golfie;
+        entity[3] = report;
+        report = {};
+        golfie = 'getDoubleTapBehavior';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
                 entity = _closure1_slot7;
                 entity = entity.doubleTapBehavior;
                 zuuluu = null;
-                if(!(zuuluu == entity)) { _fun00008_ip = 53; continue _fun00007 }
+                if(!(zuuluu == entity)) { _fun00010_ip = 53; continue _fun00009 }
  19:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot1;
-                michal = 5;
+                michal = 6;
                 zuuluu = zuuluu[michal];
                 michal = undefined;
                 michal = tangon.bind(michal)(zuuluu);
@@ -190,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = golfie;
-        entity[3] = report;
+        entity[4] = report;
         report = {};
         golfie = 'getState';
         report['key'] = golfie;
@@ -199,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = golfie;
-        entity[4] = report;
+        entity[5] = report;
         report = {};
         golfie = 'getUserAgnosticState';
         report['key'] = golfie;
@@ -208,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[5] = report;
+        entity[6] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -216,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = 'GravityFiltersStore';
     option['displayName'] = michal;
     option['persistKey'] = michal;
-    michal = 7;
+    michal = 8;
     michal = oscard[michal];
     romeon = golfie.bind(entity)(michal);
     michal = {};
@@ -234,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     yankee = michal;
     michal = new foxtra[option](romeon, yankee, offset);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

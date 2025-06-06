@@ -271,21 +271,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  160:
             verify = _closure1_slot26;
             offset = _closure1_slot8;
-            report = offset.getUserAffinitiesUserIds;
+            report = offset.getUserAffinities;
             report = report.bind(offset)();
             offset = verify.bind(zuuluu)(report);
             verify = offset.bind(zuuluu)();
             report = verify.done;
-            if(report) { _fun00010_ip = 225; continue _fun00009 }
+            if(report) { _fun00010_ip = 231; continue _fun00009 }
  195:
-            yankee = verify.value;
-            report = golfie.add;
-            report = report.bind(golfie)(yankee);
+            report = verify.value;
+            yankee = golfie.add;
+            report = report.otherUserId;
+            report = yankee.bind(golfie)(report);
             yankee = offset.bind(zuuluu)();
             report = yankee.done;
             verify = yankee;
             if(!report) { _fun00010_ip = 195; continue _fun00009 }
- 225:
+ 231:
             michal = michal.Set;
             report = michal.prototype;
             report = Object.create(report, {constructor: {value: michal}});
@@ -296,8 +297,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = _closure1_slot21;
             michal = _closure1_slot14;
             michal = michal.EMBEDDED_APPLICATION;
-            if(!(verify === michal)) { _fun00010_ip = 402; continue _fun00009 }
- 276:
+            if(!(verify === michal)) { _fun00010_ip = 408; continue _fun00009 }
+ 282:
             verify = _closure1_slot7;
             michal = verify.getChannelHistory;
             offset = michal.bind(verify)();
@@ -353,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(verify)(entity);
- 402:
+ 408:
             michal = _closure1_slot0;
             entity = _closure1_slot1;
             entity = entity[option];
@@ -580,12 +581,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.get;
                 oscard = entity.bind(michal)(report);
                 michal = _closure1_slot8;
-                entity = michal.getUserAffinitiesUserIds;
+                entity = michal.getUserAffinities;
                 tangon = entity.bind(michal)();
+                michal = tangon.map;
+                entity = function(argFoo) {
+                    entity = argFoo;
+                    entity = entity.otherUserId;
+                    return entity;
+                };
+                tangon = michal.bind(tangon)(entity);
                 entity = null;
                 michal = entity != oscard;
-                if(!michal) { _fun00014_ip = 102; continue _fun00013 }
- 43:
+                if(!michal) { _fun00014_ip = 119; continue _fun00013 }
+ 60:
                 michal = {};
                 oscard = oscard.index;
                 michal['rowNum'] = oscard;
@@ -594,12 +602,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure1_slot23;
                 report = report.length;
                 michal['numTotal'] = report;
-                tangon = tangon.size;
+                tangon = tangon.length;
                 michal['numAffinityConnections'] = tangon;
                 zuuluu = _closure1_slot17;
                 michal['isFiltered'] = zuuluu;
                 entity = michal;
- 102:
+ 119:
                 return entity;
             }
         };

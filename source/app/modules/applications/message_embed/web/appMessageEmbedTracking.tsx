@@ -35,6 +35,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     report['ACTIVITY_INSTANCE'] = tangon;
     tangon = 'rich_presence_invite';
     report['RICH_PRESENCE_INVITE'] = tangon;
+    tangon = 'legacy_rich_presence_invite';
+    report['LEGACY_RICH_PRESENCE_INVITE'] = tangon;
     tangon = 'unknown';
     report['UNKNOWN'] = tangon;
     tangon = {};
@@ -46,6 +48,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon['ADD_APP'] = oscard;
     oscard = 'join_server';
     tangon['JOIN_SERVER'] = oscard;
+    oscard = 'invite';
+    tangon['INVITE'] = oscard;
+    oscard = 'sync';
+    tangon['SYNC'] = oscard;
     oscard = 2;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);

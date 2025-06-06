@@ -32,50 +32,50 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         oscard = verify == michal;
         entity = undefined;
         report = undefined;
-        if(oscard) { _fun00002_ip = 151; continue _fun00001 }
- 130:
+        if(oscard) { _fun00002_ip = 153; continue _fun00001 }
+ 132:
         michal = michal.navigator;
         oscard = verify == michal;
         report = undefined;
-        if(oscard) { _fun00002_ip = 151; continue _fun00001 }
- 145:
+        if(oscard) { _fun00002_ip = 153; continue _fun00001 }
+ 147:
         report = michal.platform;
- 151:
+ 153:
         michal = 'MacIntel';
         michal = michal === report;
-        if(!michal) { _fun00002_ip = 204; continue _fun00001 }
- 164:
+        if(!michal) { _fun00002_ip = 206; continue _fun00001 }
+ 166:
         oscard = tangon.window;
         golfie = verify == oscard;
         report = undefined;
-        if(golfie) { _fun00002_ip = 200; continue _fun00001 }
- 179:
+        if(golfie) { _fun00002_ip = 202; continue _fun00001 }
+ 181:
         oscard = oscard.navigator;
         golfie = verify == oscard;
         report = undefined;
-        if(golfie) { _fun00002_ip = 200; continue _fun00001 }
- 194:
+        if(golfie) { _fun00002_ip = 202; continue _fun00001 }
+ 196:
         report = oscard.standalone;
- 200:
+ 202:
         michal = entity !== report;
- 204:
-        if(!michal) { _fun00002_ip = 252; continue _fun00001 }
- 207:
+ 206:
+        if(!michal) { _fun00002_ip = 254; continue _fun00001 }
+ 209:
         tangon = tangon.window;
         oscard = verify == tangon;
         report = undefined;
-        if(oscard) { _fun00002_ip = 245; continue _fun00001 }
- 222:
+        if(oscard) { _fun00002_ip = 247; continue _fun00001 }
+ 224:
         tangon = tangon.navigator;
         oscard = verify == tangon;
         report = undefined;
-        if(oscard) { _fun00002_ip = 245; continue _fun00001 }
- 237:
+        if(oscard) { _fun00002_ip = 247; continue _fun00001 }
+ 239:
         report = tangon.maxTouchPoints;
- 245:
+ 247:
         tangon = 1;
         michal = report > tangon;
- 252:
+ 254:
         oscard = romeon.has;
         golfie = 0;
         tangon = option[golfie];
@@ -84,71 +84,71 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         backup = verify != foxtra;
         report = '';
         tangon = report;
-        if(!backup) { _fun00002_ip = 291; continue _fun00001 }
- 288:
+        if(!backup) { _fun00002_ip = 293; continue _fun00001 }
+ 290:
         tangon = foxtra;
- 291:
+ 293:
         oscard = oscard.bind(romeon)(tangon);
-        if(oscard) { _fun00002_ip = 302; continue _fun00001 }
- 299:
+        if(oscard) { _fun00002_ip = 304; continue _fun00001 }
+ 301:
         oscard = michal;
- 302:
+ 304:
         michal = !oscard;
-        if(!michal) { _fun00002_ip = 376; continue _fun00001 }
- 308:
+        if(!michal) { _fun00002_ip = 378; continue _fun00001 }
+ 310:
         tangon = yankee.has;
         romeon = option[golfie];
         romeon = offset.bind(entity)(romeon);
         foxtra = verify == romeon;
         romeon = undefined;
-        if(foxtra) { _fun00002_ip = 361; continue _fun00001 }
- 331:
+        if(foxtra) { _fun00002_ip = 363; continue _fun00001 }
+ 333:
         foxtra = option[golfie];
         foxtra = offset.bind(entity)(foxtra);
         foxtra = foxtra.os;
         backup = verify == foxtra;
         romeon = undefined;
-        if(backup) { _fun00002_ip = 361; continue _fun00001 }
- 355:
+        if(backup) { _fun00002_ip = 363; continue _fun00001 }
+ 357:
         romeon = foxtra.family;
- 361:
+ 363:
         foxtra = verify != romeon;
-        if(!foxtra) { _fun00002_ip = 371; continue _fun00001 }
- 368:
+        if(!foxtra) { _fun00002_ip = 373; continue _fun00001 }
+ 370:
         report = romeon;
- 371:
+ 373:
         michal = tangon.bind(yankee)(report);
- 376:
+ 378:
         tangon = option[golfie];
         tangon = offset.bind(entity)(tangon);
         tangon = verify == tangon;
         report = undefined;
-        if(tangon) { _fun00002_ip = 424; continue _fun00001 }
- 394:
+        if(tangon) { _fun00002_ip = 426; continue _fun00001 }
+ 396:
         tangon = option[golfie];
         tangon = offset.bind(entity)(tangon);
         tangon = tangon.os;
         yankee = verify == tangon;
         report = undefined;
-        if(yankee) { _fun00002_ip = 424; continue _fun00001 }
- 418:
+        if(yankee) { _fun00002_ip = 426; continue _fun00001 }
+ 420:
         report = tangon.family;
- 424:
+ 426:
         tangon = option[golfie];
         tangon = offset.bind(entity)(tangon);
         yankee = verify == tangon;
         tangon = undefined;
-        if(yankee) { _fun00002_ip = 472; continue _fun00001 }
- 442:
+        if(yankee) { _fun00002_ip = 474; continue _fun00001 }
+ 444:
         golfie = option[golfie];
         golfie = offset.bind(entity)(golfie);
         golfie = golfie.os;
         verify = verify == golfie;
         tangon = undefined;
-        if(verify) { _fun00002_ip = 472; continue _fun00001 }
- 466:
+        if(verify) { _fun00002_ip = 474; continue _fun00001 }
+ 468:
         tangon = golfie.family;
- 472:
+ 474:
         golfie = 1;
         option = option[golfie];
         golfie = argBar;

@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(tangon);
     golfie = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-03_audio_bitrate_adaptation', 'label': 'Audio Bitrate Adaptation'};
+    tangon = {'kind': 'user', 'id': '2025-06_audio_bitrate_adaptation', 'label': 'Audio Bitrate Adaptation'};
     verify = {};
     offset = false;
     verify['enabled'] = offset;

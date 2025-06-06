@@ -26,11 +26,11 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) { // Original name: getSoundboardSoundURL
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = argFoo;
+            oscard = argFoo;
             michal = global;
             entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            golfie = entity.CDN_HOST;
+            report = entity.CDN_HOST;
             zuuluu = entity.PROJECT_ENV;
             entity = 'development';
             if(!(entity === zuuluu)) { _fun00002_ip = 111; continue _fun00001 }
@@ -39,29 +39,24 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             option = entity.protocol;
             entity = michal.window;
             entity = entity.GLOBAL_ENV;
-            oscard = entity.API_ENDPOINT;
+            golfie = entity.API_ENDPOINT;
             zuuluu = _closure1_slot0;
             entity = zuuluu.SOUNDBOARD_SOUND;
-            tangon = entity.bind(zuuluu)(report);
+            tangon = entity.bind(zuuluu)(oscard);
             entity = michal.HermesInternal;
             zuuluu = entity.concat;
             entity = '';
-            entity = zuuluu.bind(entity)(option, oscard, tangon);
-            _fun00002_ip = 172; continue _fun00001;
+            entity = zuuluu.bind(entity)(option, golfie, tangon);
+            _fun00002_ip = 152; continue _fun00001;
  111:
-            zuuluu = michal.location;
-            oscard = zuuluu.protocol;
             tangon = _closure1_slot0;
             zuuluu = tangon.SOUNDBOARD_SOUND;
-            verify = zuuluu.bind(tangon)(report);
+            tangon = zuuluu.bind(tangon)(oscard);
             michal = michal.HermesInternal;
-            tangon = michal.concat;
-            foxtra = '';
-            yankee = '//';
-            romeon = oscard;
-            offset = golfie;
-            entity = foxtra[tangon](romeon, yankee, offset, verify, option);
- 172:
+            zuuluu = michal.concat;
+            michal = 'https://';
+            entity = zuuluu.bind(michal)(report, tangon);
+ 152:
             return entity;
         }
     };

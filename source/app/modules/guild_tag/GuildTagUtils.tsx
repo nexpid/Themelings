@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = function(argFoo, argBar) { // Original name: getGuildTagBadgeUrl
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            yankee = argBar;
+            verify = argBar;
             zuuluu = arguments[2];
             michal = undefined;
             if(!(zuuluu === michal)) { _fun00006_ip = 25; continue _fun00005 }
@@ -110,31 +110,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.SIZE_12;
  25:
             tangon = null;
-            if(!(tangon != yankee)) { _fun00006_ip = 55; continue _fun00005 }
+            if(!(tangon != verify)) { _fun00006_ip = 55; continue _fun00005 }
  31:
             entity = global;
             report = entity.window;
             report = report.GLOBAL_ENV;
-            offset = report.CDN_HOST;
-            if(!(tangon == offset)) { _fun00006_ip = 57; continue _fun00005 }
+            option = report.CDN_HOST;
+            if(!(tangon == option)) { _fun00006_ip = 57; continue _fun00005 }
  55:
             return michal;
  57:
             michal = _closure1_slot4;
-            romeon = michal[zuuluu];
-            michal = entity.location;
-            update = michal.protocol;
+            offset = michal[zuuluu];
             entity = entity.HermesInternal;
-            golfie = entity.concat;
-            source = '';
-            echoed = '//';
-            output = '/clan-badges/';
-            sizing = argFoo;
-            kiloes = '/';
-            foxtra = '.png?size=';
-            result = offset;
-            backup = yankee;
-            entity = source[golfie](update, echoed, result, output, sizing, kiloes, backup, foxtra, romeon, yankee);
+            oscard = entity.concat;
+            output = 'https://';
+            kiloes = '/clan-badges/';
+            backup = argFoo;
+            foxtra = '/';
+            yankee = '.png?size=';
+            sizing = option;
+            romeon = verify;
+            entity = output[oscard](sizing, kiloes, backup, foxtra, romeon, yankee, offset, verify);
             return entity;
         }
     };

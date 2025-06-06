@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 158; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 154; continue _fun00001 }
  10:
                     report = _closure1_slot3;
                     tangon = report.APPLICATION_DISCLOSURES;
@@ -32,13 +32,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = {'url': null, 'retries': 3, 'rejectWithError': false};
                     michal['url'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=92);
- 90:
+                    SaveGenerator(address=88);
+ 86:
                     return michal;
- 92:
+ 88:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 155; continue _fun00001 }
- 98:
+                    if(zuuluu) { _fun00002_ip = 151; continue _fun00001 }
+ 94:
                     zuuluu = {};
                     tangon = michal.body;
                     tangon = tangon.disclosures;
@@ -50,9 +50,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.all_acked;
                     zuuluu['allAcked'] = tangon;
                     return zuuluu;
- 155:
+ 151:
                     return michal;
- 158:
+ 154:
                     return entity;
                 }
             };

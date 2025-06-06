@@ -35,8 +35,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            backup = entity.itemId;
-            foxtra = entity.hash;
+            romeon = entity.itemId;
+            yankee = entity.hash;
             option = entity.containerWidth;
             report = undefined;
             if(!(option === report)) { _fun00002_ip = 32; continue _fun00001 }
@@ -63,20 +63,20 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['size'] = golfie;
             golfie = option.prototype;
             golfie = Object.create(golfie, {constructor: {value: option}});
-            record = golfie;
-            config = entity;
-            entity = new record[option](config, sequen);
+            ctrled = golfie;
+            source = entity;
+            entity = new ctrled[option](source, update);
             golfie = entity instanceof Object ? entity : golfie;
             entity = golfie.toString;
-            romeon = entity.bind(golfie)();
+            offset = entity.bind(golfie)();
             entity = 2;
             entity = oscard[entity];
             entity = tangon.bind(report)(entity);
             entity = entity.SUPPORTS_WEBP;
-            yankee = 'png';
+            verify = 'png';
             if(!entity) { _fun00002_ip = 177; continue _fun00001 }
  171:
-            yankee = 'webp';
+            verify = 'webp';
  177:
             tangon = _closure1_slot4;
             entity = null;
@@ -87,34 +87,31 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             golfie = _closure1_slot3;
             tangon = _closure1_slot2;
             entity = tangon.APPLICATION_DIRECTORY_COLLECTION_ITEM_IMAGE;
-            vacuum = entity.bind(tangon)(backup, foxtra, yankee);
+            echoed = entity.bind(tangon)(romeon, yankee, verify);
             entity = michal.HermesInternal;
             report = entity.concat;
-            record = '';
-            ctrled = '?';
-            config = option;
-            sequen = golfie;
-            source = romeon;
-            entity = record[report](config, sequen, vacuum, ctrled, source, update);
-            _fun00002_ip = 325; continue _fun00001;
+            ctrled = '';
+            result = '?';
+            source = option;
+            update = golfie;
+            output = offset;
+            entity = ctrled[report](source, update, echoed, result, output, sizing);
+            _fun00002_ip = 309; continue _fun00001;
  254:
-            tangon = michal.location;
-            config = tangon.protocol;
-            vacuum = _closure1_slot4;
+            source = _closure1_slot4;
             michal = michal.HermesInternal;
-            option = michal.concat;
-            record = '';
-            sequen = '//';
-            ctrled = '/app-assets/application-directory/collection-items/';
-            update = '/';
-            result = '.';
-            sizing = '?';
-            source = backup;
-            echoed = foxtra;
+            golfie = michal.concat;
+            ctrled = 'https://';
+            update = '/app-assets/application-directory/collection-items/';
+            result = '/';
+            sizing = '.';
+            backup = '?';
+            echoed = romeon;
             output = yankee;
-            kiloes = romeon;
-            entity = record[option](config, sequen, vacuum, ctrled, source, update, echoed, result, output, sizing, kiloes, backup);
- 325:
+            kiloes = verify;
+            foxtra = offset;
+            entity = ctrled[golfie](source, update, echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
+ 309:
             return entity;
         }
     };

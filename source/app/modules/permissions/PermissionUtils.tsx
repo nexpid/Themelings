@@ -1781,7 +1781,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.Permissions;
     var _closure1_slot2 = report;
-    report = 2;
+    report = 3;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -2221,29 +2221,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['generateChannelVoiceChatSection'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: generateChannelAppsSection
-        entity = {};
-        michal = argBar;
-        entity['title'] = michal;
-        report = _closure1_slot4;
-        zuuluu = _closure1_slot2;
-        zuuluu = zuuluu.USE_APPLICATION_COMMANDS;
-        tangon = new Array(3);
-        tangon[0] = zuuluu;
-        zuuluu = _closure1_slot2;
-        zuuluu = zuuluu.USE_EMBEDDED_ACTIVITIES;
-        tangon[1] = zuuluu;
-        michal = _closure1_slot2;
-        michal = michal.USE_EXTERNAL_APPS;
-        tangon[2] = michal;
-        zuuluu = undefined;
-        michal = argFoo;
-        michal = report.bind(zuuluu)(tangon, michal);
-        entity['permissions'] = michal;
-        return entity;
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            zuuluu = arguments[2];
+            report = undefined;
+            if(!(zuuluu === report)) { _fun00018_ip = 21; continue _fun00017 }
+ 9:
+            entity = {};
+            michal = true;
+            entity['showActivities'] = michal;
+            zuuluu = entity;
+ 21:
+            entity = {};
+            michal = argBar;
+            entity['title'] = michal;
+            tangon = _closure1_slot4;
+            oscard = _closure1_slot2;
+            golfie = oscard.USE_APPLICATION_COMMANDS;
+            oscard = new Array(3);
+            oscard[0] = golfie;
+            golfie = zuuluu.showActivities;
+            zuuluu = null;
+            if(!golfie) { _fun00018_ip = 76; continue _fun00017 }
+ 66:
+            golfie = _closure1_slot2;
+            zuuluu = golfie.USE_EMBEDDED_ACTIVITIES;
+ 76:
+            oscard[1] = zuuluu;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.USE_EXTERNAL_APPS;
+            oscard[2] = zuuluu;
+            zuuluu = oscard.filter;
+            golfie = _closure1_slot0;
+            option = _closure1_slot1;
+            michal = 2;
+            michal = option[michal];
+            michal = golfie.bind(report)(michal);
+            michal = michal.isNotNullish;
+            zuuluu = zuuluu.bind(oscard)(michal);
+            michal = argFoo;
+            michal = tangon.bind(report)(zuuluu, michal);
+            entity['permissions'] = michal;
+            return entity;
+        }
     };
     zuuluu['generateChannelAppsSection'] = tangon;
     tangon = function(argFoo, argBar, argBaz) { // Original name: generateChannelStageVoiceSection
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = {};
             michal = argBar;
@@ -2252,7 +2276,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot2;
             oscard = michal.CONNECT;
             michal = argBaz;
-            if(michal) { _fun00018_ip = 70; continue _fun00017 }
+            if(michal) { _fun00020_ip = 70; continue _fun00019 }
  32:
             tangon = new Array(3);
             tangon[0] = oscard;
@@ -2262,7 +2286,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot2;
             michal = michal.MOVE_MEMBERS;
             tangon[2] = michal;
-            _fun00018_ip = 123; continue _fun00017;
+            _fun00020_ip = 123; continue _fun00019;
  70:
             michal = new Array(4);
             michal[0] = oscard;
@@ -2324,20 +2348,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['generateChannelEventsSection'] = tangon;
     michal = function(argFoo) { // Original name: renderDescription
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             tangon = argFoo;
             michal = null;
             entity = tangon;
-            if(!(michal != entity)) { _fun00020_ip = 92; continue _fun00019 }
+            if(!(michal != entity)) { _fun00022_ip = 92; continue _fun00021 }
  12:
             report = typeof tangon;
             michal = 'string';
-            if(!(michal !== report)) { _fun00020_ip = 79; continue _fun00019 }
+            if(!(michal !== report)) { _fun00022_ip = 79; continue _fun00021 }
  23:
             zuuluu = 'function';
             michal = tangon;
-            if(!(zuuluu === report)) { _fun00020_ip = 77; continue _fun00019 }
+            if(!(zuuluu === report)) { _fun00022_ip = 77; continue _fun00021 }
  34:
             oscard = _closure1_slot0;
             report = _closure1_slot1;
@@ -2350,7 +2374,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = {};
             michal = report.bind(oscard)(tangon, zuuluu);
  77:
-            _fun00020_ip = 89; continue _fun00019;
+            _fun00022_ip = 89; continue _fun00021;
  79:
             zuuluu = tangon.trim;
             michal = zuuluu.bind(tangon)();
