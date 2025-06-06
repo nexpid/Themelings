@@ -65,39 +65,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  166:
             michal = _closure1_slot6;
             michal = michal.RECENT;
-            if(!(michal !== verify)) { _fun00002_ip = 776; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 746; continue _fun00001 }
  183:
             michal = _closure1_slot6;
             michal = michal.PEOPLE;
-            if(!(michal !== verify)) { _fun00002_ip = 737; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 707; continue _fun00001 }
  200:
             michal = _closure1_slot6;
             michal = michal.MEMBERS;
-            if(!(michal !== verify)) { _fun00002_ip = 698; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 668; continue _fun00001 }
  217:
             michal = _closure1_slot6;
             michal = michal.GUILD_CHANNELS;
-            if(!(michal !== verify)) { _fun00002_ip = 659; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 629; continue _fun00001 }
  234:
             michal = _closure1_slot6;
             michal = michal.MEDIA;
-            if(!(michal !== verify)) { _fun00002_ip = 604; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 580; continue _fun00001 }
  251:
             michal = _closure1_slot6;
             michal = michal.FILES;
-            if(!(michal !== verify)) { _fun00002_ip = 549; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 531; continue _fun00001 }
  268:
             michal = _closure1_slot6;
             michal = michal.LINKS;
-            if(!(michal !== verify)) { _fun00002_ip = 494; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 482; continue _fun00001 }
  285:
             michal = _closure1_slot6;
             michal = michal.THREADS;
-            if(!(michal !== verify)) { _fun00002_ip = 444; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 432; continue _fun00001 }
  302:
             michal = _closure1_slot6;
             michal = michal.MESSAGES;
-            if(!(michal !== verify)) { _fun00002_ip = 389; continue _fun00001 }
+            if(!(michal !== verify)) { _fun00002_ip = 383; continue _fun00001 }
  316:
             michal = _closure1_slot6;
             michal = michal.PINS;
@@ -107,37 +107,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return michal;
  334:
             golfie = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
-            michal = 14;
+            michal = 17;
             michal = yankee[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.PinsScreen;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal['tab'] = verify;
             michal['searchContext'] = report;
             michal['isFocused'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 389:
+ 383:
             golfie = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
-            michal = 12;
+            michal = 16;
             michal = yankee[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.MessagesScreen;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal['tab'] = verify;
             michal['searchContext'] = report;
             michal['isFocused'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 444:
+ 432:
             golfie = _closure1_slot7;
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot2;
-            michal = 13;
+            michal = 15;
             michal = yankee[michal];
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = michal.SearchTabsThreadScreen;
@@ -146,49 +144,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['showFloatingActionButton'] = offset;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 494:
+ 482:
             golfie = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
-            michal = 12;
+            michal = 14;
             michal = offset[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.LinksScreen;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal['tab'] = verify;
             michal['searchContext'] = report;
             michal['isFocused'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 549:
+ 531:
             golfie = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
-            michal = 12;
+            michal = 13;
             michal = offset[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.FilesScreen;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal['tab'] = verify;
             michal['searchContext'] = report;
             michal['isFocused'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 604:
+ 580:
             golfie = _closure1_slot7;
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
             michal = 12;
             michal = offset[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            zuuluu = michal.MediaScreen;
+            zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal['tab'] = verify;
             michal['searchContext'] = report;
             michal['isFocused'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 659:
+ 629:
             golfie = _closure1_slot7;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
@@ -199,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['searchContext'] = report;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 698:
+ 668:
             golfie = _closure1_slot7;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
@@ -210,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['searchContext'] = report;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 737:
+ 707:
             golfie = _closure1_slot7;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
@@ -221,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['searchContext'] = report;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 776:
+ 746:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -288,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = report.createContext;
     michal = michal.bind(report)(entity);
     var _closure1_slot9 = michal;
-    report = 17;
+    report = 20;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -304,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         offset = michal.bind(zuuluu)(entity);
         michal = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 15;
+        entity = 18;
         entity = zuuluu[entity];
         tangon = undefined;
         golfie = michal.bind(tangon)(entity);
@@ -312,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = entity != offset;
         entity = '[SearchTabsPageContext] Context should not be null.';
         entity = golfie.bind(tangon)(oscard, entity);
-        entity = 16;
+        entity = 19;
         entity = zuuluu[entity];
         michal = michal.bind(tangon)(entity);
         entity = offset.selectedTab;

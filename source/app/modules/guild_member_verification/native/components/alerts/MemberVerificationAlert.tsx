@@ -98,8 +98,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[oscard] = option;
             oscard = golfie != sizing;
             option = null;
-            if(!oscard) { _fun00002_ip = 170; continue _fun00001 }
- 124:
+            if(!oscard) { _fun00002_ip = 174; continue _fun00001 }
+ 128:
             romeon = _closure1_slot4;
             yankee = _closure1_slot3;
             oscard = {};
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = romeon.bind(tangon)(sizing, backup);
             oscard['children'] = backup;
             option = romeon.bind(tangon)(yankee, oscard);
- 170:
+ 174:
             oscard = new Array(4);
             oscard[0] = option;
             romeon = _closure1_slot4;
@@ -129,8 +129,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = option;
             option = golfie != foxtra;
             golfie = null;
-            if(!option) { _fun00002_ip = 317; continue _fun00001 }
- 255:
+            if(!option) { _fun00002_ip = 321; continue _fun00001 }
+ 259:
             romeon = _closure1_slot4;
             yankee = _closure1_slot0;
             option = _closure1_slot2;
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = backup;
             option['children'] = foxtra;
             golfie = romeon.bind(tangon)(yankee, option);
- 317:
+ 321:
             oscard[2] = golfie;
             option = _closure1_slot4;
             golfie = _closure1_slot3;

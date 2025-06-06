@@ -398,8 +398,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['IN_GAME_DMS'] = entity;
     entity = 'PLAY_SHORTCUT_ROW';
     michal['PLAY_SHORTCUT_ROW'] = entity;
-    entity = 'UPLOAD_REFACTOR';
-    michal['UPLOAD_REFACTOR'] = entity;
     entity = 'CUSTOM_STATUS_NOTIFICATIONS';
     michal['CUSTOM_STATUS_NOTIFICATIONS'] = entity;
     tangon = argPlu;

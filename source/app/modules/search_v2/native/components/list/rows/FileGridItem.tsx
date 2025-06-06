@@ -205,12 +205,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[1] = sizing;
             zuuluu[2] = michal;
             michal = function() {
-                tangon = _closure2_slot1;
+                zuuluu = _closure2_slot1;
+                michal = {};
                 entity = _closure2_slot0;
-                zuuluu = entity.channelId;
-                michal = entity.messageId;
+                tangon = entity.channelId;
+                michal['channelId'] = tangon;
+                entity = entity.messageId;
+                michal['messageId'] = entity;
                 entity = undefined;
-                michal = tangon.bind(entity)(zuuluu, michal);
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
             report = report.bind(golfie)(michal, zuuluu);

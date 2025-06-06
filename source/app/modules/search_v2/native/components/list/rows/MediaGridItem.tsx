@@ -222,12 +222,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = output;
             report[1] = zuuluu;
             zuuluu = function() {
-                tangon = _closure2_slot2;
-                zuuluu = _closure2_slot0;
+                zuuluu = _closure2_slot2;
+                michal = {};
+                tangon = _closure2_slot0;
+                michal['media'] = tangon;
                 entity = _closure2_slot3;
-                michal = entity.current;
+                entity = entity.current;
+                michal['originView'] = entity;
                 entity = undefined;
-                michal = tangon.bind(entity)(zuuluu, michal);
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
             option = oscard.bind(option)(zuuluu, report);

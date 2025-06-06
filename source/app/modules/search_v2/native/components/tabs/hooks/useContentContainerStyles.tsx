@@ -1,4 +1,4 @@
-// app/modules/search_v2/native/components/tabs/pages/useContentContainerStyles.tsx
+// app/modules/search_v2/native/components/tabs/hooks/useContentContainerStyles.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -44,7 +44,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/search_v2/native/components/tabs/pages/useContentContainerStyles.tsx';
+    tangon = 'modules/search_v2/native/components/tabs/hooks/useContentContainerStyles.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['useContentContainerStyles'] = michal;
     return entity;

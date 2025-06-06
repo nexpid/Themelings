@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['dangerouslyCast'] = tangon;
-    michal = function(argFoo) { // Original name: assertUnreachable
+    tangon = function(argFoo) { // Original name: assertUnreachable
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = arguments[1];
@@ -70,6 +70,14 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             throw entity;
         }
     };
-    zuuluu['assertUnreachable'] = michal;
+    zuuluu['assertUnreachable'] = tangon;
+    michal = function(argFoo) { // Original name: arrayIsNotEmpty
+        entity = argFoo;
+        michal = entity.length;
+        entity = 0;
+        entity = michal > entity;
+        return entity;
+    };
+    zuuluu['arrayIsNotEmpty'] = michal;
     return entity;
 })();

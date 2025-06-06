@@ -635,7 +635,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['useOnPressSearchLink'] = oscard;
-    oscard = function(argFoo) { // Original name: useOnPressSearchItem
+    oscard = function(argFoo) { // Original name: useOnPressMessageItem
         michal = argFoo;
         oscard = michal.searchContext;
         var _closure2_slot0 = oscard;
@@ -709,7 +709,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['useOnPressSearchItem'] = oscard;
+    zuuluu['useOnPressMessageItem'] = oscard;
     zuuluu['getMediaViewerSources'] = report;
     report = function(argFoo) { // Original name: useOnPressMediaItem
         michal = argFoo;

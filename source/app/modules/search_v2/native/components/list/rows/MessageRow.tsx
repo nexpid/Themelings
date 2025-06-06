@@ -735,12 +735,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[1] = backup;
             tangon[2] = zuuluu;
             zuuluu = function() {
-                tangon = _closure2_slot1;
+                zuuluu = _closure2_slot1;
+                michal = {};
                 entity = _closure2_slot0;
-                zuuluu = entity.channel_id;
-                michal = entity.id;
+                tangon = entity.channel_id;
+                michal['channelId'] = tangon;
+                entity = entity.id;
+                michal['messageId'] = entity;
                 entity = undefined;
-                michal = tangon.bind(entity)(zuuluu, michal);
+                michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
             golfie = golfie.bind(verify)(zuuluu, tangon);

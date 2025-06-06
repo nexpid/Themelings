@@ -557,13 +557,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['default'] = tangon;
-    michal = function() { // Original name: usePeopleSearchResults
+    tangon = function() { // Original name: usePeopleSearchResults
         zuuluu = _closure1_slot8;
         michal = zuuluu.useField;
         entity = 'data';
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zuuluu['usePeopleSearchResults'] = michal;
+    zuuluu['usePeopleSearchResults'] = tangon;
+    michal = function() { // Original name: getPeopleSearchResultsCount
+        zuuluu = _closure1_slot8;
+        michal = zuuluu.getField;
+        entity = 'count';
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['getPeopleSearchResultsCount'] = michal;
     return entity;
 })();
