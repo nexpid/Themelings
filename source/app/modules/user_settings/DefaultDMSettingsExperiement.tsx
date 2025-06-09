@@ -16,70 +16,81 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = 0;
     report = verify[tangon];
     entity = undefined;
-    offset = option.bind(entity)(report);
-    oscard = offset.createExperiment;
+    golfie = option.bind(entity)(report);
+    oscard = golfie.createExperiment;
     report = {'kind': 'user', 'id': '2025-02_dm_defaults_new_users', 'label': 'Default DM Settings - New Users'};
-    golfie = {'enabled': false, 'dmOffByDefault': false, 'messageRequestOnByDefault': false};
-    report['defaultConfig'] = golfie;
-    golfie = {'id': 1, 'label': 'DM Off by Default'};
-    yankee = {'enabled': true, 'dmOffByDefault': true, 'messageRequestOnByDefault': false};
-    golfie['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = golfie;
-    romeon = {'id': 2, 'label': 'Message Reqeust On by Default'};
-    golfie = 2;
-    foxtra = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    report['treatments'] = yankee;
-    oscard = oscard.bind(offset)(report);
+    offset = {'enabled': false, 'dmOffByDefault': false, 'messageRequestOnByDefault': false};
+    report['defaultConfig'] = offset;
+    yankee = {'id': 1, 'label': 'DM Off by Default'};
+    offset = {'enabled': true, 'dmOffByDefault': true, 'messageRequestOnByDefault': false};
+    yankee['config'] = offset;
+    offset = new Array(2);
+    offset[0] = yankee;
+    yankee = {'id': 2, 'label': 'Message Reqeust On by Default'};
+    romeon = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
+    yankee['config'] = romeon;
+    offset[1] = yankee;
+    report['treatments'] = offset;
+    oscard = oscard.bind(golfie)(report);
     var _closure1_slot2 = oscard;
     tangon = verify[tangon];
-    offset = option.bind(entity)(tangon);
-    report = offset.createExperiment;
+    golfie = option.bind(entity)(tangon);
+    report = golfie.createExperiment;
     tangon = {'kind': 'user', 'id': '2025-02_dm_defaults', 'label': 'Default DM Settings'};
-    yankee = {'enabled': false, 'dmOffByDefault': false, 'messageRequestOnByDefault': false};
-    tangon['defaultConfig'] = yankee;
-    romeon = {'id': 1, 'label': 'DM Off by Default'};
-    yankee = {'enabled': true, 'dmOffByDefault': true, 'messageRequestOnByDefault': false};
-    romeon['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = romeon;
-    romeon = {'id': 2, 'label': 'Message Reqeust On by Default'};
-    foxtra = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    tangon['treatments'] = yankee;
-    report = report.bind(offset)(tangon);
+    offset = {'enabled': false, 'dmOffByDefault': false, 'messageRequestOnByDefault': false};
+    tangon['defaultConfig'] = offset;
+    yankee = {'id': 1, 'label': 'DM Off by Default'};
+    offset = {'enabled': true, 'dmOffByDefault': true, 'messageRequestOnByDefault': false};
+    yankee['config'] = offset;
+    offset = new Array(2);
+    offset[0] = yankee;
+    yankee = {'id': 2, 'label': 'Message Reqeust On by Default'};
+    romeon = {'enabled': true, 'dmOffByDefault': false, 'messageRequestOnByDefault': true};
+    yankee['config'] = romeon;
+    offset[1] = yankee;
+    tangon['treatments'] = offset;
+    report = report.bind(golfie)(tangon);
     var _closure1_slot3 = report;
     tangon = function(argFoo) { // Original name: isEligibleForMessageRequestOnByDefault
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            michal = argFoo;
-            golfie = _closure1_slot3;
-            report = golfie.getCurrentConfig;
-            tangon = {};
-            tangon['location'] = michal;
-            entity = {};
-            oscard = false;
-            entity['autoTrackExposure'] = oscard;
-            entity = report.bind(golfie)(tangon, entity);
-            report = _closure1_slot2;
-            tangon = report.getCurrentConfig;
+            tangon = argFoo;
+            oscard = _closure1_slot3;
+            report = oscard.getCurrentConfig;
             zuuluu = {};
-            zuuluu['location'] = michal;
-            michal = {};
-            michal['autoTrackExposure'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
+            zuuluu['location'] = tangon;
+            entity = {};
+            option = false;
+            entity['autoTrackExposure'] = option;
+            entity = report.bind(oscard)(zuuluu, entity);
+            golfie = _closure1_slot2;
+            oscard = golfie.getCurrentConfig;
+            report = {};
+            report['location'] = tangon;
+            zuuluu = {};
+            zuuluu['autoTrackExposure'] = option;
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
             entity = entity.messageRequestOnByDefault;
             if(entity) { _fun00002_ip = 81; continue _fun00001 }
  75:
-            entity = michal.messageRequestOnByDefault;
+            entity = zuuluu.messageRequestOnByDefault;
  81:
+            if(entity) { _fun00002_ip = 117; continue _fun00001 }
+ 84:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 1;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            michal = zuuluu.isEligibleForSettingsDefaultsAggregate;
+            entity = michal.bind(zuuluu)(tangon);
+ 117:
             return entity;
         }
     };
     var _closure1_slot4 = tangon;
+    golfie = 3;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
@@ -146,27 +157,39 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = function(argFoo) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            michal = argFoo;
-            golfie = _closure1_slot3;
-            report = golfie.useExperiment;
-            tangon = {};
-            tangon['location'] = michal;
-            entity = {};
-            oscard = false;
-            entity['autoTrackExposure'] = oscard;
-            entity = report.bind(golfie)(tangon, entity);
-            report = _closure1_slot2;
-            tangon = report.useExperiment;
+            report = argFoo;
+            oscard = _closure1_slot3;
+            tangon = oscard.useExperiment;
             zuuluu = {};
-            zuuluu['location'] = michal;
-            michal = {};
-            michal['autoTrackExposure'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
+            zuuluu['location'] = report;
+            entity = {};
+            option = false;
+            entity['autoTrackExposure'] = option;
+            entity = tangon.bind(oscard)(zuuluu, entity);
+            golfie = _closure1_slot2;
+            oscard = golfie.useExperiment;
+            tangon = {};
+            tangon['location'] = report;
+            zuuluu = {};
+            zuuluu['autoTrackExposure'] = option;
+            zuuluu = oscard.bind(golfie)(tangon, zuuluu);
+            oscard = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 1;
+            tangon = tangon[michal];
+            michal = undefined;
+            tangon = oscard.bind(michal)(tangon);
+            michal = tangon.useIsEligibleForSettingsDefaultsAggregate;
+            michal = michal.bind(tangon)(report);
             entity = entity.messageRequestOnByDefault;
-            if(entity) { _fun00008_ip = 81; continue _fun00007 }
- 75:
-            entity = michal.messageRequestOnByDefault;
- 81:
+            if(entity) { _fun00008_ip = 114; continue _fun00007 }
+ 108:
+            entity = zuuluu.messageRequestOnByDefault;
+ 114:
+            if(entity) { _fun00008_ip = 120; continue _fun00007 }
+ 117:
+            entity = michal;
+ 120:
             return entity;
         }
     };
@@ -177,7 +200,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot1;
-            entity = 1;
+            entity = 2;
             entity = tangon[entity];
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(entity);

@@ -120,12 +120,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['style'] = backup;
             output = kiloes == sizing;
             backup = undefined;
-            if(output) { _fun00002_ip = 436; continue _fun00001 }
- 431:
+            if(output) { _fun00002_ip = 432; continue _fun00001 }
+ 427:
             backup = sizing.title;
+ 432:
+            if(!(kiloes == backup)) { _fun00002_ip = 493; continue _fun00001 }
  436:
-            if(!(kiloes == backup)) { _fun00002_ip = 497; continue _fun00001 }
- 440:
             result = _closure1_slot0;
             echoed = _closure1_slot2;
             kiloes = 11;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.t;
             kiloes = kiloes.u9zxnZ;
             backup = sizing.bind(output)(kiloes);
- 497:
+ 493:
             option['children'] = backup;
             option = foxtra.bind(tangon)(offset, option);
             report[1] = option;

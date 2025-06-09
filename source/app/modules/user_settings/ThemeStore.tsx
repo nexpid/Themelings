@@ -51,11 +51,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = _closure1_slot2;
         michal = 13;
         michal = tangon[michal];
-        tangon = undefined;
-        zuuluu = zuuluu.bind(tangon)(michal);
-        michal = _closure1_slot18;
-        entity = _closure1_slot17;
-        entity = zuuluu.bind(tangon)(michal, entity);
+        report = undefined;
+        tangon = zuuluu.bind(report)(michal);
+        zuuluu = _closure1_slot18;
+        michal = _closure1_slot17;
+        entity = _closure1_slot19;
+        entity = tangon.bind(report)(zuuluu, michal, entity);
         return entity;
     };
     var _closure1_slot21 = entity;

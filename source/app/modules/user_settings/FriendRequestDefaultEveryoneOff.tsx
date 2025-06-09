@@ -3,6 +3,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     golfie = argBar;
     zuuluu = argFre;
     option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = option;
     entity = global;
     oscard = entity.Object;
     report = oscard.defineProperty;
@@ -19,19 +21,19 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = {'kind': 'user', 'id': '2025-01_friend_requests_alerts', 'label': 'Friend Request Setting Defaults'};
     oscard = {'enabled': false, 'bucket': 0};
     report['defaultConfig'] = oscard;
-    romeon = {'id': 1, 'label': 'warning'};
-    oscard = 1;
+    oscard = {'id': 1, 'label': 'warning'};
     yankee = {'enabled': true, 'bucket': 1};
-    romeon['config'] = yankee;
+    oscard['config'] = yankee;
     yankee = new Array(2);
-    yankee[0] = romeon;
+    yankee[0] = oscard;
     romeon = {'id': 2, 'label': 'defaults'};
+    oscard = 2;
     foxtra = {'enabled': true, 'bucket': 2};
     romeon['config'] = foxtra;
     yankee[1] = romeon;
     report['treatments'] = yankee;
     report = verify.bind(offset)(report);
-    var _closure1_slot0 = report;
+    var _closure1_slot2 = report;
     tangon = option[tangon];
     offset = golfie.bind(entity)(tangon);
     verify = offset.createExperiment;
@@ -49,7 +51,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     yankee[1] = romeon;
     tangon['treatments'] = yankee;
     tangon = verify.bind(offset)(tangon);
-    var _closure1_slot1 = tangon;
+    var _closure1_slot3 = tangon;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -61,7 +63,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            oscard = _closure1_slot0;
+            oscard = _closure1_slot2;
             report = oscard.getCurrentConfig;
             zuuluu = {};
             zuuluu['location'] = michal;
@@ -74,7 +76,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = zuuluu === entity;
             if(entity) { _fun00002_ip = 92; continue _fun00001 }
  53:
-            oscard = _closure1_slot1;
+            oscard = _closure1_slot3;
             report = oscard.getCurrentConfig;
             tangon = {};
             tangon['location'] = michal;
@@ -91,30 +93,40 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = function(argFoo) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            michal = argFoo;
-            oscard = _closure1_slot0;
+            tangon = argFoo;
+            oscard = _closure1_slot2;
             report = oscard.getCurrentConfig;
             zuuluu = {};
-            zuuluu['location'] = michal;
+            zuuluu['location'] = tangon;
             entity = {};
-            golfie = false;
-            entity['autoTrackExposure'] = golfie;
+            verify = false;
+            entity['autoTrackExposure'] = verify;
             entity = report.bind(oscard)(zuuluu, entity);
             entity = entity.bucket;
             zuuluu = 1;
             entity = zuuluu === entity;
             if(entity) { _fun00004_ip = 92; continue _fun00003 }
  53:
-            oscard = _closure1_slot1;
-            report = oscard.getCurrentConfig;
-            tangon = {};
-            tangon['location'] = michal;
-            michal = {};
-            michal['autoTrackExposure'] = golfie;
-            michal = report.bind(oscard)(tangon, michal);
-            michal = michal.bucket;
-            entity = zuuluu === michal;
+            option = _closure1_slot3;
+            golfie = option.getCurrentConfig;
+            oscard = {};
+            oscard['location'] = tangon;
+            report = {};
+            report['autoTrackExposure'] = verify;
+            report = golfie.bind(option)(oscard, report);
+            report = report.bucket;
+            entity = zuuluu === report;
  92:
+            if(entity) { _fun00004_ip = 125; continue _fun00003 }
+ 95:
+            report = _closure1_slot0;
+            michal = _closure1_slot1;
+            zuuluu = michal[zuuluu];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
+            michal = zuuluu.isEligibleForSettingsDefaultsAggregate;
+            entity = michal.bind(zuuluu)(tangon);
+ 125:
             return entity;
         }
     };
@@ -123,7 +135,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
-            golfie = _closure1_slot0;
+            golfie = _closure1_slot2;
             report = golfie.useExperiment;
             tangon = {};
             tangon['location'] = michal;
@@ -132,7 +144,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity['autoTrackExposure'] = oscard;
             entity = report.bind(golfie)(tangon, entity);
             entity = entity.bucket;
-            report = _closure1_slot1;
+            report = _closure1_slot3;
             tangon = report.useExperiment;
             zuuluu = {};
             zuuluu['location'] = michal;
@@ -153,30 +165,41 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) {
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            michal = argFoo;
-            golfie = _closure1_slot0;
-            report = golfie.useExperiment;
-            tangon = {};
-            tangon['location'] = michal;
-            entity = {};
-            oscard = false;
-            entity['autoTrackExposure'] = oscard;
-            entity = report.bind(golfie)(tangon, entity);
-            entity = entity.bucket;
-            report = _closure1_slot1;
+            oscard = argFoo;
+            report = _closure1_slot2;
             tangon = report.useExperiment;
             zuuluu = {};
-            zuuluu['location'] = michal;
-            michal = {};
-            michal['autoTrackExposure'] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
-            zuuluu = michal.bucket;
-            michal = 1;
-            entity = michal === entity;
-            if(entity) { _fun00008_ip = 92; continue _fun00007 }
- 88:
-            entity = michal === zuuluu;
- 92:
+            zuuluu['location'] = oscard;
+            entity = {};
+            option = false;
+            entity['autoTrackExposure'] = option;
+            entity = tangon.bind(report)(zuuluu, entity);
+            entity = entity.bucket;
+            golfie = _closure1_slot3;
+            report = golfie.useExperiment;
+            tangon = {};
+            tangon['location'] = oscard;
+            zuuluu = {};
+            zuuluu['autoTrackExposure'] = option;
+            zuuluu = report.bind(golfie)(tangon, zuuluu);
+            tangon = zuuluu.bucket;
+            golfie = _closure1_slot0;
+            michal = _closure1_slot1;
+            zuuluu = 1;
+            report = michal[zuuluu];
+            michal = undefined;
+            report = golfie.bind(michal)(report);
+            michal = report.useIsEligibleForSettingsDefaultsAggregate;
+            michal = michal.bind(report)(oscard);
+            entity = zuuluu === entity;
+            if(entity) { _fun00008_ip = 122; continue _fun00007 }
+ 118:
+            entity = zuuluu === tangon;
+ 122:
+            if(entity) { _fun00008_ip = 128; continue _fun00007 }
+ 125:
+            entity = michal;
+ 128:
             return entity;
         }
     };

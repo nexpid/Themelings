@@ -1165,14 +1165,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 kiloes = sizing.logResumeAnalytics;
                 offset = zuuluu.resumeAnalytics;
                 offset = kiloes.bind(sizing)(offset);
+                kiloes = zuuluu.socket;
+                offset = kiloes.handleResumeDispatched;
+                offset = offset.bind(kiloes)();
                 oscard = verify[oscard];
                 golfie = golfie.bind(entity)(oscard);
                 oscard = golfie.createResumeAnalytics;
                 oscard = oscard.bind(golfie)();
                 zuuluu['resumeAnalytics'] = oscard;
-                golfie = zuuluu.socket;
-                oscard = golfie.handleResumeDispatched;
-                oscard = oscard.bind(golfie)();
                 _fun00028_ip = 537; continue _fun00027;
  429:
                 golfie = _closure1_slot0;

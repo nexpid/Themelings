@@ -272,11 +272,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = _closure2_slot0;
                     michal = entity.creator_id;
                     entity = null;
-                    if(!(entity == michal)) { _fun00006_ip = 35; continue _fun00005 }
+                    if(!(entity == michal)) { _fun00006_ip = 31; continue _fun00005 }
  19:
                     entity = {'creator': null, 'creatorMember': null};
-                    _fun00006_ip = 105; continue _fun00005;
- 35:
+                    _fun00006_ip = 101; continue _fun00005;
+ 31:
                     michal = {};
                     golfie = _closure1_slot9;
                     oscard = golfie.getUser;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
                     michal['creatorMember'] = zuuluu;
                     entity = michal;
- 105:
+ 101:
                     return entity;
                 }
             };

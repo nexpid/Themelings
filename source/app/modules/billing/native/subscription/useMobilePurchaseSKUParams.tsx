@@ -52,86 +52,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                michal = _closure2_slot0;
+                entity = _closure2_slot0;
+                oscard = null;
+                michal = oscard == entity;
                 entity = null;
-                if(!(entity != michal)) { _fun00002_ip = 258; continue _fun00001 }
- 16:
+                if(michal) { _fun00002_ip = 191; continue _fun00001 }
+ 21:
                 michal = _closure2_slot1;
-                if(!(entity !== michal)) { _fun00002_ip = 258; continue _fun00001 }
- 27:
+                entity = null;
+                if(!(oscard !== michal)) { _fun00002_ip = 191; continue _fun00001 }
+ 34:
                 michal = _closure2_slot3;
-                if(!(entity != michal)) { _fun00002_ip = 258; continue _fun00001 }
- 38:
-                michal = _closure2_slot2;
-                michal = entity == michal;
-                option = undefined;
-                tangon = undefined;
-                if(michal) { _fun00002_ip = 63; continue _fun00001 }
- 53:
-                michal = _closure2_slot2;
-                tangon = michal.isGift;
- 63:
-                if(tangon) { _fun00002_ip = 68; continue _fun00001 }
- 66:
-                tangon = false;
- 68:
-                michal = tangon;
-                if(!michal) { _fun00002_ip = 101; continue _fun00001 }
- 74:
-                zuuluu = _closure2_slot2;
-                oscard = entity == zuuluu;
-                zuuluu = undefined;
-                if(oscard) { _fun00002_ip = 97; continue _fun00001 }
- 87:
-                oscard = _closure2_slot2;
-                zuuluu = oscard.giftRecipientId;
- 97:
-                michal = entity != zuuluu;
- 101:
-                if(!michal) { _fun00002_ip = 135; continue _fun00001 }
- 104:
-                zuuluu = _closure2_slot2;
-                zuuluu = entity == zuuluu;
-                oscard = undefined;
-                if(zuuluu) { _fun00002_ip = 127; continue _fun00001 }
- 117:
-                zuuluu = _closure2_slot2;
-                oscard = zuuluu.giftRecipientId;
- 127:
-                zuuluu = '';
-                michal = zuuluu !== oscard;
- 135:
-                zuuluu = undefined;
-                if(!michal) { _fun00002_ip = 171; continue _fun00001 }
- 140:
-                michal = {};
-                oscard = _closure2_slot2;
-                golfie = oscard.giftRecipientId;
-                michal['recipient_id'] = golfie;
-                oscard = oscard.giftMessage;
-                michal['custom_message'] = oscard;
-                zuuluu = michal;
- 171:
+                michal = oscard == michal;
+                entity = null;
+                if(michal) { _fun00002_ip = 191; continue _fun00001 }
+ 50:
                 michal = {};
                 golfie = _closure1_slot0;
-                verify = _closure1_slot2;
-                oscard = 2;
-                oscard = verify[oscard];
-                golfie = golfie.bind(option)(oscard);
-                oscard = golfie.v4;
-                oscard = oscard.bind(golfie)();
-                michal['requestIdentifier'] = oscard;
-                oscard = _closure2_slot0;
-                michal['skuId'] = oscard;
+                report = _closure1_slot2;
+                zuuluu = 2;
+                report = report[zuuluu];
+                zuuluu = undefined;
+                golfie = golfie.bind(zuuluu)(report);
+                report = golfie.v4;
+                report = report.bind(golfie)();
+                michal['requestIdentifier'] = report;
+                report = _closure2_slot0;
+                michal['skuId'] = report;
                 report = _closure2_slot1;
-                oscard = report.country;
-                michal['countryCode'] = oscard;
+                golfie = report.country;
+                michal['countryCode'] = golfie;
                 report = report.currency;
                 michal['currency'] = report;
-                michal['isGift'] = tangon;
+                report = _closure2_slot2;
+                report = oscard == report;
+                golfie = undefined;
+                if(report) { _fun00002_ip = 150; continue _fun00001 }
+ 140:
+                report = _closure2_slot2;
+                golfie = report.isGift;
+ 150:
+                report = true;
+                report = report === golfie;
+                michal['isGift'] = report;
+                report = _closure2_slot2;
+                report = oscard == report;
+                zuuluu = undefined;
+                if(report) { _fun00002_ip = 183; continue _fun00001 }
+ 174:
+                tangon = _closure2_slot2;
+                zuuluu = tangon.options;
+ 183:
                 michal['giftInfoOptions'] = zuuluu;
-                return michal;
- 258:
+                entity = michal;
+ 191:
                 return entity;
             }
         };

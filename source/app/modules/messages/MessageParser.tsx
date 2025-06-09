@@ -1406,47 +1406,105 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = argFoo;
             entity = argBaz;
-            tangon = entity.isNotification;
+            verify = entity.isNotification;
+            tangon = entity.guild;
+            golfie = undefined;
+            var _closure2_slot0 = golfie;
             oscard = _closure1_slot13;
             report = oscard.getUser;
             michal = 1;
             michal = zuuluu[michal];
             oscard = report.bind(oscard)(michal);
             michal = null;
-            if(!(michal != oscard)) { _fun00030_ip = 239; continue _fun00029 }
- 46:
-            verify = _closure1_slot1;
+            if(!(michal != oscard)) { _fun00030_ip = 425; continue _fun00029 }
+ 59:
+            yankee = _closure1_slot1;
             report = _closure1_slot2;
             option = 19;
             report = report[option];
-            golfie = undefined;
-            offset = verify.bind(golfie)(report);
-            verify = offset.getUserTag;
+            romeon = yankee.bind(golfie)(report);
+            yankee = romeon.getUserTag;
             report = {};
-            foxtra = 'always';
+            kiloes = 'always';
+            foxtra = kiloes;
+            if(!verify) { _fun00030_ip = 120; continue _fun00029 }
+ 99:
+            backup = _closure1_slot12;
+            backup = backup.enabled;
+            foxtra = kiloes;
+            if(!backup) { _fun00030_ip = 120; continue _fun00029 }
+ 114:
+            foxtra = 'never';
+ 120:
+            report['identifiable'] = foxtra;
+            report = yankee.bind(romeon)(oscard, report);
+            _closure2_slot0 = report;
+            if(verify) { _fun00030_ip = 339; continue _fun00029 }
+ 141:
+            yankee = michal == tangon;
+            verify = undefined;
+            if(yankee) { _fun00030_ip = 155; continue _fun00029 }
+ 150:
+            verify = tangon.id;
+ 155:
+            verify = michal != verify;
+            foxtra = '';
             yankee = foxtra;
-            if(!tangon) { _fun00030_ip = 109; continue _fun00029 }
- 88:
-            romeon = _closure1_slot12;
-            romeon = romeon.enabled;
-            yankee = foxtra;
-            if(!romeon) { _fun00030_ip = 109; continue _fun00029 }
- 103:
-            yankee = 'never';
- 109:
-            report['identifiable'] = yankee;
-            report = verify.bind(offset)(oscard, report);
-            if(tangon) { _fun00030_ip = 153; continue _fun00029 }
- 123:
+            if(!verify) { _fun00030_ip = 308; continue _fun00029 }
+ 172:
+            romeon = _closure1_slot9;
+            verify = romeon.getRoles;
+            tangon = tangon.id;
+            kiloes = verify.bind(romeon)(tangon);
+            verify = michal != kiloes;
+            tangon = foxtra;
+            if(!verify) { _fun00030_ip = 305; continue _fun00029 }
+ 202:
+            verify = global;
+            backup = verify.Object;
+            romeon = backup.values;
+            backup = romeon.bind(backup)(kiloes);
+            romeon = backup.some;
+            offset = function(argFoo) {
+                michal = _closure2_slot0;
+                entity = michal.toLowerCase;
+                zuuluu = entity.bind(michal)();
+                michal = zuuluu.startsWith;
+                entity = argFoo;
+                tangon = entity.name;
+                entity = tangon.toLowerCase;
+                entity = entity.bind(tangon)();
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            offset = romeon.bind(backup)(offset);
+            tangon = foxtra;
+            if(!offset) { _fun00030_ip = 305; continue _fun00029 }
+ 242:
+            romeon = oscard.discriminator;
+            offset = verify.HermesInternal;
+            offset = offset.concat;
+            backup = offset.bind(foxtra)(romeon);
+            foxtra = backup.padStart;
+            romeon = 4;
+            offset = '0';
+            romeon = foxtra.bind(backup)(romeon, offset);
+            verify = verify.HermesInternal;
+            offset = verify.concat;
+            verify = '#';
+            tangon = offset.bind(verify)(romeon);
+ 305:
+            yankee = tangon;
+ 308:
             tangon = {};
             verify = global;
             verify = verify.HermesInternal;
             offset = verify.concat;
             verify = '@';
-            verify = offset.bind(verify)(report);
+            verify = offset.bind(verify)(report, yankee);
             tangon['content'] = verify;
             return tangon;
- 153:
+ 339:
             tangon = _closure1_slot1;
             entity = _closure1_slot2;
             entity = entity[option];
@@ -1454,24 +1512,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.getGlobalName;
             oscard = entity.bind(tangon)(oscard);
             entity = {};
-            if(!(michal == oscard)) { _fun00030_ip = 211; continue _fun00029 }
- 187:
+            if(!(michal == oscard)) { _fun00030_ip = 397; continue _fun00029 }
+ 373:
             michal = global;
             michal = michal.HermesInternal;
             tangon = michal.concat;
             michal = '@';
             michal = tangon.bind(michal)(report);
-            _fun00030_ip = 233; continue _fun00029;
- 211:
+            _fun00030_ip = 419; continue _fun00029;
+ 397:
             tangon = global;
             tangon = tangon.HermesInternal;
             report = tangon.concat;
             tangon = '@';
             michal = report.bind(tangon)(oscard);
- 233:
+ 419:
             entity['content'] = michal;
             return entity;
- 239:
+ 425:
             entity = {};
             michal = 0;
             michal = zuuluu[michal];

@@ -30,6 +30,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['Cobalt'] = entity;
     entity = 'clover';
     tangon['Clover'] = entity;
+    entity = 'lemon';
+    tangon['Lemon'] = entity;
+    entity = 'white';
+    tangon['White'] = entity;
     michal = {};
     entity = 'account';
     michal['ACCOUNT'] = entity;

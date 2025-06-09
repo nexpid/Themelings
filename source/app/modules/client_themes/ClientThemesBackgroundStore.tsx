@@ -220,9 +220,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  29:
             tangon = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 18;
+            entity = 19;
             michal = michal[entity];
             entity = undefined;
+            tangon = tangon.bind(entity)(michal);
+            michal = tangon.shouldIgnoreThemeChange;
+            michal = michal.bind(tangon)();
+            if(michal) { _fun00010_ip = 269; continue _fun00009 }
+ 67:
+            tangon = _closure1_slot0;
+            report = _closure1_slot2;
+            michal = 18;
+            michal = report[michal];
             michal = tangon.bind(entity)(michal);
             tangon = michal.ClientThemeSettings;
             michal = tangon.getSetting;
@@ -233,62 +242,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot16;
             michal = michal.ON;
             michal = tangon === michal;
-            if(!michal) { _fun00010_ip = 106; continue _fun00009 }
- 100:
+            if(!michal) { _fun00010_ip = 142; continue _fun00009 }
+ 136:
             tangon = null;
             michal = tangon != report;
- 106:
-            if(!michal) { _fun00010_ip = 150; continue _fun00009 }
- 109:
+ 142:
+            if(!michal) { _fun00010_ip = 186; continue _fun00009 }
+ 145:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
-            michal = 19;
+            michal = 20;
             michal = oscard[michal];
             oscard = tangon.bind(entity)(michal);
             tangon = oscard.setUseSystemTheme;
             michal = _closure1_slot16;
             michal = michal.OFF;
             michal = tangon.bind(oscard)(michal);
- 150:
+ 186:
             tangon = null;
-            if(!(tangon == report)) { _fun00010_ip = 170; continue _fun00009 }
- 156:
+            if(!(tangon == report)) { _fun00010_ip = 206; continue _fun00009 }
+ 192:
             michal = _closure1_slot17;
-            if(!(tangon != michal)) { _fun00010_ip = 231; continue _fun00009 }
- 164:
+            if(!(tangon != michal)) { _fun00010_ip = 267; continue _fun00009 }
+ 200:
             _closure1_slot17 = entity;
-            _fun00010_ip = 231; continue _fun00009;
- 170:
+            _fun00010_ip = 267; continue _fun00009;
+ 206:
             michal = _closure1_slot15;
             michal = michal[report];
             report = _closure1_slot17;
             golfie = tangon == report;
             oscard = undefined;
-            if(golfie) { _fun00010_ip = 196; continue _fun00009 }
- 191:
+            if(golfie) { _fun00010_ip = 232; continue _fun00009 }
+ 227:
             oscard = report.id;
- 196:
+ 232:
             golfie = tangon == michal;
             report = undefined;
-            if(golfie) { _fun00010_ip = 210; continue _fun00009 }
- 205:
+            if(golfie) { _fun00010_ip = 246; continue _fun00009 }
+ 241:
             report = michal.id;
- 210:
+ 246:
             report = oscard === report;
             tangon = tangon == michal;
-            if(tangon) { _fun00010_ip = 224; continue _fun00009 }
- 221:
+            if(tangon) { _fun00010_ip = 260; continue _fun00009 }
+ 257:
             tangon = report;
- 224:
-            if(tangon) { _fun00010_ip = 231; continue _fun00009 }
- 227:
+ 260:
+            if(tangon) { _fun00010_ip = 267; continue _fun00009 }
+ 263:
             _closure1_slot17 = michal;
- 231:
+ 267:
+            return entity;
+ 269:
+            entity = false;
             return entity;
         }
     };
     var _closure1_slot23 = michal;
-    michal = 21;
+    michal = 22;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.PersistedStore;
@@ -472,7 +484,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  18:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
-                zuuluu = 20;
+                zuuluu = 21;
                 tangon = tangon[zuuluu];
                 zuuluu = undefined;
                 tangon = report.bind(zuuluu)(tangon);
@@ -519,7 +531,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = 'ClientThemesBackgroundStore';
     option['displayName'] = michal;
     option['persistKey'] = michal;
-    michal = 22;
+    michal = 23;
     michal = oscard[michal];
     backup = golfie.bind(entity)(michal);
     michal = {};
@@ -632,7 +644,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = michal;
     michal = new kiloes[option](backup, foxtra, romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 23;
+    tangon = 24;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

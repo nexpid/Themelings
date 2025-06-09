@@ -1396,7 +1396,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen[1] = config;
             kiloes['children'] = sequen;
             kiloes = vacuum.bind(tangon)(ctrled, kiloes);
-            _fun00024_ip = 799; continue _fun00023;
+            _fun00024_ip = 803; continue _fun00023;
  746:
             sequen = _closure1_slot14;
             vacuum = _closure1_slot6;
@@ -1410,7 +1410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = sequen.bind(tangon)(record, config);
             ctrled['children'] = config;
             kiloes = sequen.bind(tangon)(vacuum, ctrled);
- 799:
+ 803:
             foxtra[1] = kiloes;
             offset['children'] = foxtra;
             romeon = verify.bind(tangon)(romeon, offset);

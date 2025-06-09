@@ -135,31 +135,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: resolveGoreSettingWithDefaultsForTeen
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            entity = argFoo;
-            michal = entity.isDm;
+            michal = argFoo;
+            entity = michal.isDm;
             tangon = undefined;
-            if(!(michal === tangon)) { _fun00006_ip = 17; continue _fun00005 }
+            if(!(entity === tangon)) { _fun00006_ip = 17; continue _fun00005 }
  15:
-            michal = false;
- 17:
-            entity = entity.isFriend;
-            if(!(entity === tangon)) { _fun00006_ip = 29; continue _fun00005 }
- 27:
             entity = false;
+ 17:
+            michal = michal.isFriend;
+            if(!(michal === tangon)) { _fun00006_ip = 29; continue _fun00005 }
+ 27:
+            michal = false;
  29:
-            if(!michal) { _fun00006_ip = 35; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 35; continue _fun00005 }
  32:
-            if(entity) { _fun00006_ip = 72; continue _fun00005 }
+            if(michal) { _fun00006_ip = 83; continue _fun00005 }
  35:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            entity = 3;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.ExplicitContentRedaction;
-            entity = entity.BLOCK;
-            _fun00006_ip = 107; continue _fun00005;
- 72:
+            zuuluu = _closure1_slot0;
+            report = _closure1_slot1;
+            michal = 3;
+            michal = report[michal];
+            michal = zuuluu.bind(tangon)(michal);
+            michal = michal.ExplicitContentRedaction;
+            if(entity) { _fun00006_ip = 75; continue _fun00005 }
+ 67:
+            entity = michal.BLUR;
+            _fun00006_ip = 81; continue _fun00005;
+ 75:
+            entity = michal.BLOCK;
+ 81:
+            _fun00006_ip = 118; continue _fun00005;
+ 83:
             zuuluu = _closure1_slot0;
             report = _closure1_slot1;
             michal = 3;
@@ -167,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.ExplicitContentRedaction;
             entity = michal.BLUR;
- 107:
+ 118:
             return entity;
         }
     };

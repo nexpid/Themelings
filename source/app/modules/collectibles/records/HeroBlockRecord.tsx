@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = function(argFoo) { // Original name: HeroBlockRecord
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                michal = argFoo;
+                tangon = argFoo;
                 zuuluu = this;
                 oscard = _closure1_slot2;
                 report = _closure2_slot0;
@@ -35,47 +35,64 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.bind(entity)(zuuluu, report);
                 report = _closure1_slot0;
                 oscard = _closure1_slot1;
-                tangon = 2;
-                tangon = oscard[tangon];
-                tangon = report.bind(entity)(tangon);
-                tangon = tangon.ShopBlockType;
-                tangon = tangon.HERO;
-                zuuluu['type'] = tangon;
-                tangon = michal.category_sku_id;
-                zuuluu['categorySkuId'] = tangon;
-                tangon = michal.name;
-                zuuluu['name'] = tangon;
-                tangon = michal.summary;
-                zuuluu['summary'] = tangon;
-                tangon = michal.category_store_listing_id;
-                zuuluu['categoryStoreListingId'] = tangon;
-                tangon = michal.fallback_banner_url;
-                zuuluu['fallbackBannerUrl'] = tangon;
-                tangon = michal.banner_asset;
-                zuuluu['bannerAsset'] = tangon;
-                tangon = michal.logo_url;
-                zuuluu['logoUrl'] = tangon;
-                tangon = michal.title;
-                zuuluu['title'] = tangon;
-                tangon = michal.ranked_sku_ids;
-                zuuluu['rankedSkuIds'] = tangon;
-                report = michal.unpublished_at;
-                tangon = null;
-                report = tangon != report;
-                if(!report) { _fun00002_ip = 229; continue _fun00001 }
- 195:
-                report = global;
-                golfie = report.Date;
-                verify = michal.unpublished_at;
-                oscard = golfie.prototype;
-                oscard = Object.create(oscard, {constructor: {value: golfie}});
-                offset = oscard;
-                report = new offset[golfie](verify, option);
-                tangon = report instanceof Object ? report : oscard;
- 229:
-                zuuluu['unpublishedAt'] = tangon;
-                michal = michal.banner_text_color;
-                zuuluu['bannerTextColor'] = michal;
+                michal = 2;
+                michal = oscard[michal];
+                michal = report.bind(entity)(michal);
+                michal = michal.ShopBlockType;
+                michal = michal.HERO;
+                zuuluu['type'] = michal;
+                michal = tangon.category_sku_id;
+                zuuluu['categorySkuId'] = michal;
+                michal = tangon.name;
+                zuuluu['name'] = michal;
+                michal = tangon.summary;
+                zuuluu['summary'] = michal;
+                michal = tangon.category_store_listing_id;
+                zuuluu['categoryStoreListingId'] = michal;
+                michal = tangon.fallback_banner_url;
+                zuuluu['fallbackBannerUrl'] = michal;
+                michal = tangon.banner_asset;
+                zuuluu['bannerAsset'] = michal;
+                michal = tangon.logo_url;
+                zuuluu['logoUrl'] = michal;
+                michal = tangon.title;
+                zuuluu['title'] = michal;
+                michal = tangon.ranked_sku_ids;
+                zuuluu['rankedSkuIds'] = michal;
+                report = tangon.unpublished_at;
+                michal = null;
+                oscard = michal != report;
+                report = null;
+                if(!oscard) { _fun00002_ip = 231; continue _fun00001 }
+ 197:
+                oscard = global;
+                option = oscard.Date;
+                offset = tangon.unpublished_at;
+                golfie = option.prototype;
+                golfie = Object.create(golfie, {constructor: {value: option}});
+                yankee = golfie;
+                oscard = new yankee[option](offset, verify);
+                report = oscard instanceof Object ? oscard : golfie;
+ 231:
+                zuuluu['unpublishedAt'] = report;
+                report = tangon.banner_text_color;
+                zuuluu['bannerTextColor'] = report;
+                oscard = tangon.config;
+                golfie = michal == oscard;
+                report = undefined;
+                if(golfie) { _fun00002_ip = 269; continue _fun00001 }
+ 263:
+                report = oscard.responsive;
+ 269:
+                zuuluu['responsive'] = report;
+                tangon = tangon.config;
+                report = michal == tangon;
+                michal = undefined;
+                if(report) { _fun00002_ip = 297; continue _fun00001 }
+ 289:
+                michal = tangon.background_style;
+ 297:
+                zuuluu['backgroundStyle'] = michal;
                 return entity;
             }
         };

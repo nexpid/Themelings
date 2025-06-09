@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     option = function() { // Original name: getTitle
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 7;
+        entity = 6;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -50,14 +50,14 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     golfie = function() { // Original name: useGoreContentGuildsSettingValue
         zuuluu = _closure1_slot0;
         report = _closure1_slot2;
-        entity = 4;
+        entity = 3;
         entity = report[entity];
         michal = undefined;
         tangon = zuuluu.bind(michal)(entity);
         entity = tangon.useGoreContentSettingOrDefault;
         entity = entity.bind(tangon)();
         tangon = entity.goreContentGuilds;
-        entity = 5;
+        entity = 4;
         entity = report[entity];
         zuuluu = zuuluu.bind(michal)(entity);
         entity = zuuluu.redactionSettingToRenderedString;
@@ -69,12 +69,12 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     golfie = function() { // Original name: onGoreContentGuildsOnPress
         zuuluu = _closure1_slot0;
         option = _closure1_slot2;
-        entity = 6;
+        entity = 5;
         tangon = option[entity];
         entity = undefined;
         golfie = zuuluu.bind(entity)(tangon);
         oscard = golfie.handleSensitiveMediaFilterPress;
-        tangon = 7;
+        tangon = 6;
         report = option[tangon];
         report = zuuluu.bind(entity)(report);
         verify = report.intl;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
         report = report.bind(verify)(tangon);
         michal = _closure1_slot3;
         romeon = michal.bind(entity)();
-        michal = 9;
+        michal = 8;
         michal = option[michal];
         michal = zuuluu.bind(entity)(michal);
         michal = michal.ExplicitContentRedaction;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
         yankee = function(argFoo) {
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 8;
+            entity = 7;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -115,40 +115,43 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     };
     michal['onPress'] = golfie;
     golfie = function() { // Original name: useHasGoreContentGuildsSetting
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot2;
+        entity = 2;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.useIsEligibleForSensitiveContentGoreExperiment;
+        entity = 'GoreMediaFiltersGuildsSetting';
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    michal['usePredicate'] = golfie;
+    golfie = function() { // Original name: useIsDisabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 2;
-            entity = report[entity];
-            zuuluu = undefined;
-            oscard = tangon.bind(zuuluu)(entity);
-            tangon = oscard.useIsEligibleForSensitiveContentGoreExperiment;
-            entity = 'GoreMediaFiltersGuildsSetting';
-            entity = tangon.bind(oscard)(entity);
-            tangon = _closure1_slot1;
-            michal = 3;
-            michal = report[michal];
-            michal = tangon.bind(zuuluu)(michal);
-            zuuluu = michal.bind(zuuluu)();
-            if(!entity) { _fun00002_ip = 80; continue _fun00001 }
- 65:
-            michal = null;
-            michal = michal == zuuluu;
-            if(michal) { _fun00002_ip = 77; continue _fun00001 }
- 74:
-            michal = zuuluu;
- 77:
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 9;
+            entity = michal[entity];
+            michal = undefined;
+            entity = zuuluu.bind(michal)(entity);
+            michal = entity.bind(michal)();
+            entity = null;
+            entity = entity == michal;
+            if(entity) { _fun00002_ip = 41; continue _fun00001 }
+ 38:
             entity = michal;
- 80:
+ 41:
+            entity = !entity;
             return entity;
         }
     };
-    michal['usePredicate'] = golfie;
+    michal['useIsDisabled'] = golfie;
     tangon = function() { // Original name: additionalSearchTerms
         oscard = _closure1_slot0;
         golfie = _closure1_slot2;
-        michal = 7;
+        michal = 6;
         entity = golfie[michal];
         report = undefined;
         entity = oscard.bind(report)(entity);

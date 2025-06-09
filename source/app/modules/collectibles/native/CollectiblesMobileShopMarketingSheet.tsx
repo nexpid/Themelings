@@ -152,25 +152,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal[0] = golfie;
         michal[1] = oscard;
         michal[2] = entity;
-        entity = function(argFoo) {
+        entity = function(argFoo, argBar) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                michal = argFoo;
-                entity = michal.nativeEvent;
-                entity = entity.layout;
-                tangon = entity.height;
+                michal = argBar;
                 zuuluu = _closure2_slot2;
-                if(!(tangon !== zuuluu)) { _fun00002_ip = 65; continue _fun00001 }
- 30:
+                if(!(michal !== zuuluu)) { _fun00002_ip = 33; continue _fun00001 }
+ 14:
                 zuuluu = _closure2_slot3;
-                michal = michal.nativeEvent;
-                michal = michal.layout;
-                michal = michal.height;
                 entity = _closure2_slot1;
                 michal = michal + entity;
                 entity = undefined;
                 entity = zuuluu.bind(entity)(michal);
- 65:
+ 33:
                 entity = undefined;
                 return entity;
             }
@@ -206,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = update.bind(tangon)(golfie);
         option = golfie.BottomSheetScrollView;
         golfie = {};
-        golfie['onLayout'] = verify;
+        golfie['onContentSizeChange'] = verify;
         verify = false;
         golfie['scrollsToTop'] = verify;
         offset = result.container;

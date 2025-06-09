@@ -140,9 +140,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure3_slot0 = entity;
                 offset = 0;
                 var _closure3_slot1 = offset;
-                zuuluu = _closure2_slot2;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00002_ip = 50; continue _fun00001 }
+                tangon = _closure2_slot2;
+                zuuluu = null;
+                if(!(zuuluu != tangon)) { _fun00002_ip = 50; continue _fun00001 }
  29:
                 tangon = _closure2_slot2;
                 zuuluu = tangon.forEach;
@@ -155,59 +155,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = zuuluu.bind(entity)(michal);
                     zuuluu = tangon.getFiles;
                     michal = argFoo;
-                    tangon = zuuluu.bind(tangon)(michal);
-                    zuuluu = tangon.forEach;
-                    michal = function(argFoo) {
-                        report = _closure3_slot0;
-                        tangon = report.push;
+                    michal = zuuluu.bind(tangon)(michal);
+                    tangon = michal.forEach;
+                    zuuluu = function(argFoo, argBar) {
+                        tangon = _closure3_slot1;
+                        zuuluu = argBar;
+                        offset = tangon + zuuluu;
+                        var _closure5_slot0 = offset;
+                        tangon = _closure3_slot0;
+                        zuuluu = tangon.push;
                         michal = {};
-                        entity = _closure1_slot4;
-                        entity = entity.FILE;
-                        michal['type'] = entity;
-                        oscard = {};
-                        entity = argFoo;
-                        oscard['data'] = entity;
+                        report = _closure1_slot4;
+                        report = report.FILE;
+                        michal['type'] = report;
+                        report = {};
+                        oscard = argFoo;
+                        report['data'] = oscard;
                         entity = function(argFoo) { // Original name: onPress
                             tangon = _closure2_slot5;
-                            zuuluu = _closure3_slot1;
+                            zuuluu = _closure5_slot0;
                             michal = undefined;
                             entity = argFoo;
                             entity = tangon.bind(michal)(entity, zuuluu);
                             return entity;
                         };
-                        oscard['onPress'] = entity;
+                        report['onPress'] = entity;
                         entity = _closure2_slot3;
-                        oscard['imageStyle'] = entity;
-                        option = _closure1_slot0;
-                        golfie = _closure1_slot2;
+                        report['imageStyle'] = entity;
+                        golfie = _closure1_slot0;
+                        oscard = _closure1_slot2;
                         entity = 10;
-                        golfie = golfie[entity];
+                        oscard = oscard[entity];
                         entity = undefined;
-                        verify = option.bind(entity)(golfie);
-                        option = verify.getGridItemSpacingStyles;
-                        golfie = {};
-                        yankee = _closure3_slot1;
-                        golfie['itemIndex'] = yankee;
-                        yankee = _closure1_slot7;
-                        golfie['spacing'] = yankee;
-                        offset = _closure1_slot6;
-                        golfie['numColumns'] = offset;
-                        golfie = option.bind(verify)(golfie);
-                        oscard['containerStyle'] = golfie;
-                        michal['props'] = oscard;
-                        michal = tangon.bind(report)(michal);
-                        michal = _closure3_slot1;
-                        michal = michal + 1;
-                        _closure3_slot1 = michal;
+                        option = golfie.bind(entity)(oscard);
+                        golfie = option.getGridItemSpacingStyles;
+                        oscard = {};
+                        oscard['itemIndex'] = offset;
+                        offset = _closure1_slot7;
+                        oscard['spacing'] = offset;
+                        verify = _closure1_slot6;
+                        oscard['numColumns'] = verify;
+                        oscard = golfie.bind(option)(oscard);
+                        report['containerStyle'] = oscard;
+                        michal['props'] = report;
+                        michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
-                    michal = zuuluu.bind(tangon)(michal);
+                    zuuluu = tangon.bind(michal)(zuuluu);
+                    tangon = _closure3_slot1;
+                    michal = michal.length;
+                    michal = tangon + michal;
+                    _closure3_slot1 = michal;
                     return entity;
                 };
                 michal = zuuluu.bind(tangon)(michal);
  50:
                 michal = _closure2_slot6;
-                if(!(michal > offset)) { _fun00002_ip = 297; continue _fun00001 }
+                if(!(michal > offset)) { _fun00002_ip = 279; continue _fun00001 }
  61:
                 option = entity.length;
                 zuuluu = _closure1_slot0;
@@ -224,48 +228,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = _closure2_slot6;
                 michal['placeholderCount'] = report;
                 report = zuuluu.bind(tangon)(michal);
-                romeon = offset < report;
+                yankee = offset < report;
                 tangon = global;
                 zuuluu = 'file-or-link-placeholder-';
                 michal = 10;
                 offset = 0;
-                if(!romeon) { _fun00002_ip = 297; continue _fun00001 }
+                if(!yankee) { _fun00002_ip = 279; continue _fun00001 }
  150:
-                foxtra = entity.push;
-                romeon = {};
-                backup = _closure1_slot4;
-                backup = backup.FILE_OR_LINK_PLACEHOLDER;
-                romeon['type'] = backup;
-                kiloes = _closure3_slot1;
-                backup = tangon.HermesInternal;
-                backup = backup.concat;
-                backup = backup.bind(zuuluu)(kiloes);
-                romeon['key'] = backup;
+                romeon = entity.push;
+                yankee = {};
+                foxtra = _closure1_slot4;
+                foxtra = foxtra.FILE_OR_LINK_PLACEHOLDER;
+                yankee['type'] = foxtra;
+                foxtra = tangon.HermesInternal;
+                foxtra = foxtra.concat;
+                foxtra = foxtra.bind(zuuluu)(offset);
+                yankee['key'] = foxtra;
+                foxtra = {};
+                backup = _closure2_slot3;
+                foxtra['imageStyle'] = backup;
+                kiloes = _closure1_slot0;
+                backup = _closure1_slot2;
+                backup = backup[michal];
+                sizing = kiloes.bind(oscard)(backup);
+                kiloes = sizing.getGridItemSpacingStyles;
                 backup = {};
-                kiloes = _closure2_slot3;
-                backup['imageStyle'] = kiloes;
-                sizing = _closure1_slot0;
-                kiloes = _closure1_slot2;
-                kiloes = kiloes[michal];
-                output = sizing.bind(oscard)(kiloes);
-                sizing = output.getGridItemSpacingStyles;
-                kiloes = {};
-                result = option + offset;
-                kiloes['itemIndex'] = result;
-                result = _closure1_slot7;
-                kiloes['spacing'] = result;
-                result = _closure1_slot6;
-                kiloes['numColumns'] = result;
-                kiloes = sizing.bind(output)(kiloes);
-                backup['containerStyle'] = kiloes;
-                romeon['props'] = backup;
-                romeon = foxtra.bind(entity)(romeon);
-                romeon = _closure3_slot1;
-                romeon = romeon + 1;
-                _closure3_slot1 = romeon;
+                output = option + offset;
+                backup['itemIndex'] = output;
+                output = _closure1_slot7;
+                backup['spacing'] = output;
+                output = _closure1_slot6;
+                backup['numColumns'] = output;
+                backup = kiloes.bind(sizing)(backup);
+                foxtra['containerStyle'] = backup;
+                yankee['props'] = foxtra;
+                yankee = romeon.bind(entity)(yankee);
                 offset = offset + 1;
                 if(offset < report) { _fun00002_ip = 150; continue _fun00001 }
- 297:
+ 279:
                 return entity;
             }
         };

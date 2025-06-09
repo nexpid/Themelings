@@ -37,10 +37,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.surface;
             golfie = entity.skipFetchingShelf;
             oscard = undefined;
-            if(!(golfie === oscard)) { _fun00002_ip = 25; continue _fun00001 }
- 23:
-            golfie = true;
+            if(!(golfie === oscard)) { _fun00002_ip = 27; continue _fun00001 }
  25:
+            golfie = true;
+ 27:
             var _closure2_slot0 = golfie;
             var _closure2_slot1 = oscard;
             report = _closure1_slot0;

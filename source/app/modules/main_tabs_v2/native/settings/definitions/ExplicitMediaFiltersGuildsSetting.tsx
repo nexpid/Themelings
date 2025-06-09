@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     golfie = function() { // Original name: getTitle
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 6;
+        entity = 5;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 5;
+            entity = 4;
             zuuluu = zuuluu[entity];
             entity = undefined;
             tangon = tangon.bind(entity)(zuuluu);
@@ -73,14 +73,14 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     golfie = function() { // Original name: useObscuredContentGuildsSettingValue
         zuuluu = _closure1_slot0;
         report = _closure1_slot2;
-        entity = 3;
+        entity = 2;
         entity = report[entity];
         michal = undefined;
         tangon = zuuluu.bind(michal)(entity);
         entity = tangon.useExplicitContentSettingOrDefault;
         entity = entity.bind(tangon)();
         tangon = entity.explicitContentGuilds;
-        entity = 4;
+        entity = 3;
         entity = report[entity];
         zuuluu = zuuluu.bind(michal)(entity);
         entity = zuuluu.redactionSettingToRenderedString;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 5;
+            entity = 4;
             zuuluu = zuuluu[entity];
             entity = undefined;
             report = tangon.bind(entity)(zuuluu);
@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
             oscard = tangon.bind(report)(zuuluu);
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 6;
+            zuuluu = 5;
             tangon = option[zuuluu];
             tangon = golfie.bind(entity)(tangon);
             report = tangon.intl;
@@ -122,13 +122,13 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
  113:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
-            tangon = 7;
+            tangon = 6;
             tangon = option[tangon];
             oscard = zuuluu.bind(entity)(tangon);
             report = oscard.handleSensitiveMediaFilterPress;
             michal = _closure1_slot4;
             yankee = michal.bind(entity)();
-            michal = 9;
+            michal = 8;
             michal = option[michal];
             michal = zuuluu.bind(entity)(michal);
             michal = michal.ExplicitContentRedaction;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
             offset = function(argFoo) {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 8;
+                entity = 7;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -157,12 +157,12 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
         }
     };
     michal['onPress'] = golfie;
-    golfie = function() { // Original name: useHasObscuredContentGuildsSetting
+    golfie = function() { // Original name: useIsDisabled
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 2;
+            entity = 9;
             entity = michal[entity];
             michal = undefined;
             entity = zuuluu.bind(michal)(entity);
@@ -173,16 +173,17 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
  38:
             entity = michal;
  41:
+            entity = !entity;
             return entity;
         }
     };
-    michal['usePredicate'] = golfie;
+    michal['useIsDisabled'] = golfie;
     tangon = function() { // Original name: getSearchTerms
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            entity = 5;
+            entity = 4;
             entity = tangon[entity];
             golfie = undefined;
             tangon = zuuluu.bind(golfie)(entity);
@@ -191,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity);
             oscard = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 6;
+            zuuluu = 5;
             michal = option[zuuluu];
             michal = oscard.bind(golfie)(michal);
             report = michal.intl;

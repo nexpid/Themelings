@@ -14,6 +14,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = 'Hide ICYMI tab';
     entity['description'] = tangon;
     michal['hide_icymi_tab'] = entity;
+    entity = {};
+    tangon = 'Go back to regular input';
+    entity['description'] = tangon;
+    michal['go_back_to_regular_input'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];
