@@ -3,6 +3,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -40,26 +42,42 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify[1] = offset;
     michal['treatments'] = verify;
     michal = report.bind(option)(michal);
-    var _closure1_slot0 = michal;
-    report = 2;
+    var _closure1_slot2 = michal;
+    report = 3;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
     report = 'modules/premium/experiments/VoiceFiltersEA.tsx';
     report = oscard.bind(golfie)(report);
     tangon = function(argFoo) { // Original name: useVoiceFiltersEA
-        entity = argFoo;
-        entity = entity.location;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.useExperiment;
-        michal = {};
-        michal['location'] = entity;
-        entity = {};
-        report = false;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = argFoo;
+            entity = entity.location;
+            report = _closure1_slot2;
+            tangon = report.useExperiment;
+            zuuluu = {};
+            zuuluu['location'] = entity;
+            entity = {};
+            oscard = false;
+            entity['autoTrackExposure'] = oscard;
+            entity = tangon.bind(report)(zuuluu, entity);
+            entity = entity.enabled;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            tangon = tangon.bind(michal)(zuuluu);
+            zuuluu = tangon.useAreVoiceFiltersEnabled;
+            michal = {'location': 'VoiceFiltersEarlyAccess', 'autoTrackExposure': true};
+            michal = zuuluu.bind(tangon)(michal);
+            if(!entity) { _fun00002_ip = 100; continue _fun00001 }
+ 97:
+            entity = michal;
+ 100:
+            return entity;
+        }
     };
     zuuluu['default'] = tangon;
     zuuluu['VoiceFiltersEA'] = michal;

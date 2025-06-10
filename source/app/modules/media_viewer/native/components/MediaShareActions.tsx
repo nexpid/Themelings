@@ -90,60 +90,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tangon = _closure1_slot1;
-                    zuuluu = _closure1_slot2;
+                    michal = _closure1_slot2;
                     entity = 11;
-                    zuuluu = zuuluu[entity];
+                    michal = michal[entity];
                     entity = undefined;
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.hideActionSheet;
-                    zuuluu = zuuluu.bind(tangon)();
+                    tangon = tangon.bind(entity)(michal);
+                    michal = tangon.hideActionSheet;
+                    michal = michal.bind(tangon)();
                     tangon = _closure2_slot0;
                     tangon = tangon.videoURI;
                     report = null;
-                    if(!(report == tangon)) { _fun00006_ip = 170; continue _fun00005 }
- 54:
+                    if(!(report == tangon)) { _fun00006_ip = 184; continue _fun00005 }
+ 57:
                     tangon = _closure2_slot0;
                     tangon = tangon.sourceURI;
-                    if(!(report != tangon)) { _fun00006_ip = 222; continue _fun00005 }
- 71:
+                    if(!(report != tangon)) { _fun00006_ip = 243; continue _fun00005 }
+ 74:
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
                     tangon = 13;
                     tangon = option[tangon];
                     offset = golfie.bind(entity)(tangon);
                     verify = offset.urlMatchesFileExtension;
-                    report = _closure2_slot0;
-                    oscard = report.sourceURI;
-                    tangon = _closure1_slot8;
-                    tangon = verify.bind(offset)(oscard, tangon);
+                    tangon = _closure2_slot0;
+                    oscard = tangon.sourceURI;
+                    report = _closure1_slot8;
+                    report = verify.bind(offset)(oscard, report);
                     oscard = 12;
                     oscard = option[oscard];
-                    golfie = golfie.bind(entity)(oscard);
-                    oscard = golfie.downloadMediaAsset;
-                    report = report.sourceURI;
-                    option = _closure1_slot9;
-                    if(tangon) { _fun00006_ip = 156; continue _fun00005 }
- 148:
-                    tangon = option.IMAGE;
-                    _fun00006_ip = 162; continue _fun00005;
- 156:
-                    tangon = option.GIF;
- 162:
-                    tangon = oscard.bind(golfie)(report, tangon);
-                    _fun00006_ip = 222; continue _fun00005;
- 170:
+                    option = golfie.bind(entity)(oscard);
+                    golfie = option.downloadMediaAssetWithContentType;
+                    oscard = tangon.sourceURI;
+                    tangon = _closure1_slot9;
+                    if(report) { _fun00006_ip = 159; continue _fun00005 }
+ 151:
+                    report = tangon.IMAGE;
+                    _fun00006_ip = 165; continue _fun00005;
+ 159:
+                    report = tangon.GIF;
+ 165:
+                    tangon = _closure2_slot0;
+                    tangon = tangon.contentType;
+                    tangon = golfie.bind(option)(oscard, report, tangon);
+                    _fun00006_ip = 243; continue _fun00005;
+ 184:
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
                     tangon = 12;
                     tangon = oscard[tangon];
-                    report = report.bind(entity)(tangon);
-                    tangon = report.downloadMediaAsset;
-                    zuuluu = _closure2_slot0;
-                    zuuluu = zuuluu.videoURI;
-                    michal = _closure1_slot9;
-                    michal = michal.VIDEO;
-                    michal = tangon.bind(report)(zuuluu, michal);
- 222:
+                    oscard = report.bind(entity)(tangon);
+                    report = oscard.downloadMediaAssetWithContentType;
+                    michal = _closure2_slot0;
+                    tangon = michal.videoURI;
+                    zuuluu = _closure1_slot9;
+                    zuuluu = zuuluu.VIDEO;
+                    michal = michal.contentType;
+                    michal = report.bind(oscard)(tangon, zuuluu, michal);
+ 243:
                     return entity;
                 }
             };

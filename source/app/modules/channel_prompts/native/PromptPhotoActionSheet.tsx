@@ -294,11 +294,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  18:
                     entity = 'back';
                     entity = entity === zuuluu;
-                    _fun00006_ip = 38; continue _fun00005;
+                    _fun00006_ip = 36; continue _fun00005;
  28:
                     michal = 'front';
                     entity = michal === zuuluu;
- 38:
+ 36:
                     return entity;
                 }
             };

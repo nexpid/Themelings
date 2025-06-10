@@ -600,7 +600,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = romeon;
             romeon = null;
             result = romeon != vacuum;
-            if(!result) { _fun00004_ip = 1114; continue _fun00003 }
+            if(!result) { _fun00004_ip = 1118; continue _fun00003 }
  1027:
             update = _closure1_slot16;
             echoed = _closure1_slot7;
@@ -620,10 +620,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = update.bind(tangon)(ctrled, source);
             result['children'] = source;
             romeon = update.bind(tangon)(echoed, result);
- 1114:
+ 1118:
             report[1] = romeon;
-            if(!option) { _fun00004_ip = 1260; continue _fun00003 }
- 1124:
+            if(!option) { _fun00004_ip = 1264; continue _fun00003 }
+ 1128:
             echoed = _closure1_slot16;
             result = _closure1_slot7;
             romeon = {};
@@ -654,11 +654,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = echoed.bind(tangon)(source, update);
             romeon['children'] = update;
             option = echoed.bind(tangon)(result, romeon);
- 1260:
+ 1264:
             report[2] = option;
             option = _closure1_slot16;
-            if(oscard) { _fun00004_ip = 1397; continue _fun00003 }
- 1274:
+            if(oscard) { _fun00004_ip = 1401; continue _fun00003 }
+ 1278:
             oscard = {};
             romeon = {};
             echoed = _closure1_slot1;
@@ -945,8 +945,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'always';
             oscard['keyboardShouldPersistTaps'] = offset;
             oscard = option.bind(tangon)(golfie, oscard);
-            _fun00004_ip = 1540; continue _fun00003;
- 1397:
+            _fun00004_ip = 1544; continue _fun00003;
+ 1401:
             golfie = {};
             yankee = _closure1_slot1;
             romeon = _closure1_slot3;
@@ -979,7 +979,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = option.bind(tangon)(verify, golfie);
- 1540:
+ 1544:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

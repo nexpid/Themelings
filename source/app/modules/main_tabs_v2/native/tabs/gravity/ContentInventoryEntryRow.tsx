@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[0] = yankee;
             michal = function() {
                 zuuluu = _closure1_slot3;
-                michal = zuuluu.isBlocked;
+                michal = zuuluu.isBlockedOrIgnored;
                 entity = _closure2_slot0;
                 entity = entity.author_id;
                 entity = michal.bind(zuuluu)(entity);

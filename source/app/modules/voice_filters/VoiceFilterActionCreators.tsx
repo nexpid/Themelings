@@ -21,21 +21,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/voice_filters/VoiceFilterActionCreators.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function() { // Original name: loadVoiceFilterModule
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'VOICE_FILTER_LOAD_MODULE';
-        michal['type'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
-    };
-    zuuluu['loadVoiceFilterModule'] = tangon;
     tangon = function(argFoo) { // Original name: setVoiceFilterLoopback
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
@@ -56,25 +41,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: requestVoiceFilterSwitch
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = arguments[1];
-            entity = undefined;
-            if(!(report === entity)) { _fun00002_ip = 11; continue _fun00001 }
+            tangon = arguments[1];
+            zuuluu = undefined;
+            if(!(tangon === zuuluu)) { _fun00002_ip = 11; continue _fun00001 }
  9:
-            report = null;
+            tangon = null;
  11:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            michal = 0;
-            michal = tangon[michal];
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            oscard = 'VOICE_FILTER_REQUEST_SWITCH';
-            michal['type'] = oscard;
-            oscard = argFoo;
-            michal['newVoiceFilterId'] = oscard;
-            michal['analyticsContext'] = report;
-            michal = zuuluu.bind(tangon)(michal);
+            michal = _closure1_slot0;
+            report = _closure1_slot1;
+            entity = 0;
+            entity = report[entity];
+            zuuluu = michal.bind(zuuluu)(entity);
+            michal = zuuluu.dispatch;
+            entity = {};
+            report = 'VOICE_FILTER_REQUEST_SWITCH';
+            entity['type'] = report;
+            report = argFoo;
+            entity['newVoiceFilterId'] = report;
+            entity['analyticsContext'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };

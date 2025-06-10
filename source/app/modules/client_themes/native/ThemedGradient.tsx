@@ -31,21 +31,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = michal;
     michal = 3;
     michal = golfie[michal];
-    michal = report.bind(entity)(michal);
+    michal = oscard.bind(entity)(michal);
+    michal = michal.Color;
     var _closure1_slot5 = michal;
     michal = 4;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    michal = michal.Color;
-    var _closure1_slot6 = michal;
-    michal = 5;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
     report = michal.jsx;
-    var _closure1_slot7 = report;
+    var _closure1_slot6 = report;
     michal = michal.jsxs;
-    var _closure1_slot8 = michal;
-    michal = 6;
+    var _closure1_slot7 = michal;
+    michal = 5;
     michal = golfie[michal];
     option = oscard.bind(entity)(michal);
     report = option.createStyles;
@@ -59,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'position': 'absolute', 'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
     michal['absolute'] = verify;
     michal = report.bind(option)(michal);
-    var _closure1_slot9 = michal;
+    var _closure1_slot8 = michal;
     michal = function(argFoo) { // Original name: Gradient
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -82,15 +78,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.mixColorOverride;
             var _closure2_slot2 = entity;
             var _closure2_slot3 = tangon;
-            michal = _closure1_slot9;
+            michal = _closure1_slot8;
             option = michal.bind(tangon)();
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.getWidth;
-            romeon = michal.bind(zuuluu)();
-            michal = zuuluu.getHeight;
-            yankee = michal.bind(zuuluu)();
             michal = _closure1_slot1;
             sizing = _closure1_slot2;
+            zuuluu = 6;
+            zuuluu = sizing[zuuluu];
+            zuuluu = michal.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.bind(tangon)();
+            romeon = zuuluu.width;
+            yankee = zuuluu.height;
             zuuluu = 7;
             zuuluu = sizing[zuuluu];
             zuuluu = michal.bind(tangon)(zuuluu);
@@ -278,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = kiloes.bind(output)(zuuluu);
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot6;
             entity = 12;
             entity = sizing[entity];
             michal = michal.bind(tangon)(entity);
@@ -296,40 +293,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(sizing)(foxtra);
             entity['locations'] = foxtra;
             foxtra = null;
-            if(!(foxtra == backup)) { _fun00002_ip = 227; continue _fun00001 }
- 221:
+            if(!(foxtra == backup)) { _fun00002_ip = 229; continue _fun00001 }
+ 223:
             backup = report.angle;
- 227:
+ 229:
             entity['angle'] = backup;
             report = report.angleCenter;
-            if(!(foxtra == report)) { _fun00002_ip = 252; continue _fun00001 }
- 242:
+            if(!(foxtra == report)) { _fun00002_ip = 258; continue _fun00001 }
+ 244:
             report = {'x': 0.5, 'y': 0.5};
- 252:
+ 258:
             entity['angleCenter'] = report;
             report = true;
             entity['useAngle'] = report;
-            if(!offset) { _fun00002_ip = 276; continue _fun00001 }
- 267:
+            if(!offset) { _fun00002_ip = 282; continue _fun00001 }
+ 273:
             report = {};
             report['width'] = romeon;
             offset = report;
- 276:
+ 282:
             report = new Array(5);
             report[0] = offset;
-            if(!verify) { _fun00002_ip = 296; continue _fun00001 }
- 287:
+            if(!verify) { _fun00002_ip = 302; continue _fun00001 }
+ 293:
             offset = {};
             offset['height'] = yankee;
             verify = offset;
- 296:
+ 302:
             report[1] = verify;
             verify = option.linearGradient;
             report[2] = verify;
-            if(!golfie) { _fun00002_ip = 319; continue _fun00001 }
- 313:
-            golfie = option.absolute;
+            if(!golfie) { _fun00002_ip = 325; continue _fun00001 }
  319:
+            golfie = option.absolute;
+ 325:
             report[3] = golfie;
             report[4] = oscard;
             entity['style'] = report;
@@ -337,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = michal;
+    var _closure1_slot9 = michal;
     report = 16;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -364,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = report;
             output = tangon;
             yankee = copyDataProperties(echoed, result, output);
-            michal = _closure1_slot9;
+            michal = _closure1_slot8;
             offset = michal.bind(oscard)();
             michal = yankee.withOverlay;
             report = _closure1_slot0;
@@ -373,12 +370,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = option[tangon];
             foxtra = report.bind(oscard)(tangon);
             verify = foxtra.useStateFromStoresObject;
-            tangon = _closure1_slot5;
+            tangon = _closure1_slot4;
             golfie = new Array(1);
             golfie[0] = tangon;
             tangon = function() {
                 entity = {};
-                michal = _closure1_slot5;
+                michal = _closure1_slot4;
                 michal = michal.gradientPreset;
                 entity['preset'] = michal;
                 return entity;
@@ -401,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = golfie[tangon];
             golfie = report.bind(oscard)(tangon);
             report = golfie.getColor;
-            tangon = _closure1_slot6;
+            tangon = _closure1_slot5;
             if(option) { _fun00006_ip = 225; continue _fun00005 }
  212:
             option = tangon.WHITE_500;
@@ -433,8 +430,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  288:
             if(michal) { _fun00006_ip = 331; continue _fun00005 }
  291:
-            tangon = _closure1_slot7;
-            zuuluu = _closure1_slot10;
+            tangon = _closure1_slot6;
+            zuuluu = _closure1_slot9;
             michal = {};
             echoed = michal;
             result = yankee;
@@ -444,13 +441,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(oscard)(zuuluu, michal);
             _fun00006_ip = 476; continue _fun00005;
  331:
-            report = _closure1_slot8;
+            report = _closure1_slot7;
             tangon = _closure1_slot3;
             zuuluu = {};
             golfie = offset.absolute;
             zuuluu['style'] = golfie;
-            verify = _closure1_slot7;
-            option = _closure1_slot10;
+            verify = _closure1_slot6;
+            option = _closure1_slot9;
             golfie = {};
             echoed = golfie;
             result = yankee;

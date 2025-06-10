@@ -1,25 +1,25 @@
 // app/modules/collectibles/native/ProfileEffectProductPreview.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
     var _closure1_slot2 = oscard;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    option = entity.Object;
+    golfie = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    option = oscard[entity];
+    golfie = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(option);
+    tangon = tangon.bind(entity)(golfie);
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -27,14 +27,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot5 = tangon;
-    tangon = 4;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
@@ -48,8 +44,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['width'] = offset;
     tangon['profilePreview'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 10;
+    var _closure1_slot5 = tangon;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -60,54 +56,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             kiloes = entity.product;
-            entity = _closure1_slot6;
+            entity = _closure1_slot5;
             tangon = undefined;
             verify = entity.bind(tangon)();
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
+            entity = 4;
+            entity = zuuluu[entity];
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useCurrentUser;
+            offset = entity.bind(michal)();
+            michal = _closure1_slot1;
             entity = 5;
             entity = zuuluu[entity];
-            oscard = michal.bind(tangon)(entity);
-            entity = oscard.useCurrentUser;
-            offset = entity.bind(oscard)();
-            entity = 6;
-            entity = zuuluu[entity];
-            oscard = michal.bind(tangon)(entity);
-            zuuluu = oscard.useStateFromStores;
-            entity = _closure1_slot4;
-            michal = new Array(1);
-            michal[0] = entity;
-            entity = function() {
-                michal = _closure1_slot4;
-                entity = michal.getWidth;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            option = zuuluu.bind(oscard)(michal, entity);
+            entity = michal.bind(tangon)(entity);
+            entity = entity.bind(tangon)();
+            option = entity.width;
             entity = kiloes.items;
             entity = entity.length;
             michal = 0;
-            if(!(!(entity <= michal))) { _fun00002_ip = 373; continue _fun00001 }
- 116:
+            if(!(!(entity <= michal))) { _fun00002_ip = 354; continue _fun00001 }
+ 97:
             zuuluu = kiloes.type;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 7;
+            entity = 6;
             entity = golfie[entity];
             entity = oscard.bind(tangon)(entity);
             entity = entity.CollectiblesItemType;
             entity = entity.BUNDLE;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 169; continue _fun00001 }
- 157:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 150; continue _fun00001 }
+ 138:
             entity = kiloes.items;
             golfie = entity[michal];
-            _fun00002_ip = 182; continue _fun00001;
- 169:
+            _fun00002_ip = 163; continue _fun00001;
+ 150:
             michal = kiloes.items;
             entity = 1;
             golfie = michal[entity];
- 182:
-            zuuluu = _closure1_slot5;
+ 163:
+            zuuluu = _closure1_slot4;
             michal = _closure1_slot3;
             entity = {};
             oscard = verify.container;
@@ -116,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['pointerEvents'] = oscard;
             romeon = _closure1_slot0;
             yankee = _closure1_slot2;
-            oscard = 8;
+            oscard = 7;
             foxtra = yankee[oscard];
             foxtra = romeon.bind(tangon)(foxtra);
             backup = foxtra.intl;
@@ -133,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'button';
             entity['accessibilityRole'] = oscard;
             oscard = _closure1_slot1;
-            report = 9;
+            report = 8;
             report = yankee[report];
             oscard = oscard.bind(tangon)(report);
             report = {};
@@ -150,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 373:
+ 354:
             entity = null;
             return entity;
         }

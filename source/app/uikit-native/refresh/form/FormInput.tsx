@@ -283,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     }
                 };
                 entity['focus'] = zuuluu;
-                michal = function() { // Original name: blur
+                zuuluu = function() { // Original name: blur
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = _closure2_slot0;
@@ -305,7 +305,61 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                entity['blur'] = michal;
+                entity['blur'] = zuuluu;
+                zuuluu = function(argFoo) { // Original name: setText
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+                        entity = _closure2_slot0;
+                        if(entity) { _fun00010_ip = 16; continue _fun00009 }
+ 10:
+                        entity = _closure2_slot2;
+                        _fun00010_ip = 20; continue _fun00009;
+ 16:
+                        entity = _closure2_slot1;
+ 20:
+                        zuuluu = entity.current;
+                        entity = null;
+                        if(!(entity != zuuluu)) { _fun00010_ip = 45; continue _fun00009 }
+ 31:
+                        michal = zuuluu.setText;
+                        entity = argFoo;
+                        entity = michal.bind(zuuluu)(entity);
+ 45:
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['setText'] = zuuluu;
+                michal = function() { // Original name: getText
+                    _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+                        entity = _closure2_slot0;
+                        if(entity) { _fun00012_ip = 16; continue _fun00011 }
+ 10:
+                        entity = _closure2_slot2;
+                        _fun00012_ip = 20; continue _fun00011;
+ 16:
+                        entity = _closure2_slot1;
+ 20:
+                        tangon = entity.current;
+                        entity = null;
+                        zuuluu = entity == tangon;
+                        michal = undefined;
+                        if(zuuluu) { _fun00012_ip = 46; continue _fun00011 }
+ 36:
+                        zuuluu = tangon.getText;
+                        michal = zuuluu.bind(tangon)();
+ 46:
+                        zuuluu = entity != michal;
+                        entity = '';
+                        if(!zuuluu) { _fun00012_ip = 60; continue _fun00011 }
+ 57:
+                        entity = michal;
+ 60:
+                        return entity;
+                    }
+                };
+                entity['getText'] = michal;
                 return entity;
             };
             zuuluu = config.bind(limora)(report, zuuluu);

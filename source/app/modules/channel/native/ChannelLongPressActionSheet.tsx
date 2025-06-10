@@ -171,10 +171,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.bind(tangon)(oscard);
             offset = yankee.useOptInEnabledForGuild;
             oscard = null;
-            if(!(oscard == golfie)) { _fun00004_ip = 228; continue _fun00003 }
- 224:
-            golfie = _closure1_slot23;
+            if(!(oscard == golfie)) { _fun00004_ip = 232; continue _fun00003 }
  228:
+            golfie = _closure1_slot23;
+ 232:
             ctrled = offset.bind(yankee)(golfie);
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -332,8 +332,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = offset.useSetting;
             yankee = golfie.bind(offset)();
             _closure2_slot3 = yankee;
-            if(!(oscard == result)) { _fun00004_ip = 626; continue _fun00003 }
- 559:
+            if(!(oscard == result)) { _fun00004_ip = 642; continue _fun00003 }
+ 575:
             foxtra = _closure1_slot27;
             offset = _closure1_slot1;
             papara = _closure1_slot2;
@@ -349,8 +349,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['size'] = kiloes;
             golfie['channel'] = output;
             kiloes = foxtra.bind(tangon)(offset, golfie);
-            _fun00004_ip = 691; continue _fun00003;
- 626:
+            _fun00004_ip = 707; continue _fun00003;
+ 642:
             foxtra = _closure1_slot27;
             offset = _closure1_slot1;
             papara = _closure1_slot2;
@@ -366,7 +366,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.LARGE;
             golfie['size'] = sizing;
             kiloes = foxtra.bind(tangon)(offset, golfie);
- 691:
+ 707:
             offset = _closure1_slot0;
             golfie = _closure1_slot2;
             golfie = golfie[zuuluu];
@@ -383,12 +383,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             whisks = foxtra.bind(sizing)(offset, golfie);
             papara = oscard != whisks;
-            if(!papara) { _fun00004_ip = 759; continue _fun00003 }
- 743:
+            if(!papara) { _fun00004_ip = 777; continue _fun00003 }
+ 761:
             offset = output.isOwner;
             golfie = whisks.id;
             papara = offset.bind(output)(golfie);
- 759:
+ 777:
             golfie = _closure1_slot0;
             offset = _closure1_slot2;
             zuuluu = offset[zuuluu];
@@ -421,17 +421,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.useVoiceActivityNotificationSettingsExperiment;
             sizing = zuuluu.bind(golfie)(output);
             offset = oscard != whisks;
-            if(!offset) { _fun00004_ip = 873; continue _fun00003 }
- 847:
+            if(!offset) { _fun00004_ip = 893; continue _fun00003 }
+ 867:
             zuuluu = whisks.isStaff;
             zuuluu = zuuluu.bind(whisks)();
-            if(zuuluu) { _fun00004_ip = 870; continue _fun00003 }
- 860:
+            if(zuuluu) { _fun00004_ip = 890; continue _fun00003 }
+ 880:
             golfie = whisks.isStaffPersonal;
             zuuluu = golfie.bind(whisks)();
- 870:
+ 890:
             offset = zuuluu;
- 873:
+ 893:
             golfie = _closure1_slot0;
             whisks = _closure1_slot2;
             zuuluu = 76;
@@ -441,36 +441,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = zuuluu.bind(golfie)(output);
             golfie = oscard == whisks;
             zuuluu = undefined;
-            if(golfie) { _fun00004_ip = 919; continue _fun00003 }
- 913:
-            zuuluu = whisks.isTier1;
- 919:
-            golfie = oscard != zuuluu;
-            if(!golfie) { _fun00004_ip = 942; continue _fun00003 }
- 926:
-            zuuluu = oscard != whisks;
-            if(!zuuluu) { _fun00004_ip = 939; continue _fun00003 }
+            if(golfie) { _fun00004_ip = 939; continue _fun00003 }
  933:
             zuuluu = whisks.isTier1;
  939:
+            golfie = oscard != zuuluu;
+            if(!golfie) { _fun00004_ip = 962; continue _fun00003 }
+ 946:
+            zuuluu = oscard != whisks;
+            if(!zuuluu) { _fun00004_ip = 959; continue _fun00003 }
+ 953:
+            zuuluu = whisks.isTier1;
+ 959:
             golfie = !zuuluu;
- 942:
+ 962:
             equals = oscard == whisks;
             zuuluu = undefined;
-            if(equals) { _fun00004_ip = 957; continue _fun00003 }
- 951:
-            zuuluu = whisks.isTier2;
- 957:
-            zuuluu = oscard != zuuluu;
-            if(!zuuluu) { _fun00004_ip = 980; continue _fun00003 }
- 964:
-            oscard = oscard != whisks;
-            if(!oscard) { _fun00004_ip = 977; continue _fun00003 }
+            if(equals) { _fun00004_ip = 977; continue _fun00003 }
  971:
-            oscard = whisks.isTier2;
+            zuuluu = whisks.isTier2;
  977:
+            zuuluu = oscard != zuuluu;
+            if(!zuuluu) { _fun00004_ip = 1000; continue _fun00003 }
+ 984:
+            oscard = oscard != whisks;
+            if(!oscard) { _fun00004_ip = 997; continue _fun00003 }
+ 991:
+            oscard = whisks.isTier2;
+ 997:
             zuuluu = !oscard;
- 980:
+ 1000:
             oscard = {};
             oscard['channel'] = output;
             oscard['canManageChannel'] = limora;
@@ -539,7 +539,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     config['buttons'] = zuuluu;
                     zuuluu = backup.isDM;
                     zuuluu = zuuluu.bind(backup)();
-                    if(!zuuluu) { _fun00010_ip = 428; continue _fun00009 }
+                    if(!zuuluu) { _fun00010_ip = 432; continue _fun00009 }
  216:
                     option = config.buttons;
                     report = option.push;
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     zuuluu['onPress'] = record;
                     zuuluu = report.bind(option)(zuuluu);
- 428:
+ 432:
                     report = {};
                     zuuluu = 'gdm';
                     report['sectionKey'] = zuuluu;
@@ -634,8 +634,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['buttons'] = option;
                     option = backup.isGroupDM;
                     option = option.bind(backup)();
-                    if(!option) { _fun00010_ip = 814; continue _fun00009 }
- 488:
+                    if(!option) { _fun00010_ip = 824; continue _fun00009 }
+ 492:
                     status = zuuluu.buttons;
                     record = status.push;
                     option = {};
@@ -815,8 +815,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     option['onPress'] = whisks;
                     option = record.bind(status)(option);
-                    if(!tangon) { _fun00010_ip = 814; continue _fun00009 }
- 708:
+                    if(!tangon) { _fun00010_ip = 824; continue _fun00009 }
+ 716:
                     record = report.buttons;
                     option = record.push;
                     tangon = {};
@@ -862,15 +862,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon['onPress'] = papara;
                     tangon = option.bind(record)(tangon);
- 814:
+ 824:
                     tangon = config.buttons;
                     option = tangon.length;
                     tangon = 0;
-                    if(!(option > tangon)) { _fun00010_ip = 841; continue _fun00009 }
- 831:
+                    if(!(option > tangon)) { _fun00010_ip = 851; continue _fun00009 }
+ 841:
                     option = entity.push;
                     option = option.bind(entity)(config);
- 841:
+ 851:
                     option = backup.getGuildId;
                     config = option.bind(backup)();
                     _closure3_slot7 = config;
@@ -879,8 +879,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['sectionKey'] = record;
                     record = new Array(0);
                     option['buttons'] = record;
-                    if(!source) { _fun00010_ip = 992; continue _fun00009 }
- 880:
+                    if(!source) { _fun00010_ip = 1004; continue _fun00009 }
+ 890:
                     papara = option.buttons;
                     record = papara.push;
                     source = {};
@@ -917,25 +917,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     source['onPress'] = status;
                     source = record.bind(papara)(source);
- 992:
+ 1004:
                     source = null;
                     source = source == config;
-                    if(source) { _fun00010_ip = 1011; continue _fun00009 }
- 1001:
+                    if(source) { _fun00010_ip = 1023; continue _fun00009 }
+ 1013:
                     config = backup.isThread;
                     source = config.bind(backup)();
- 1011:
-                    if(source) { _fun00010_ip = 1404; continue _fun00009 }
- 1017:
-                    source = offset;
-                    if(!source) { _fun00010_ip = 1036; continue _fun00009 }
  1023:
+                    if(source) { _fun00010_ip = 1422; continue _fun00009 }
+ 1029:
+                    source = offset;
+                    if(!source) { _fun00010_ip = 1048; continue _fun00009 }
+ 1035:
                     config = backup.isCategory;
                     config = config.bind(backup)();
                     source = !config;
- 1036:
-                    if(!source) { _fun00010_ip = 1178; continue _fun00009 }
- 1042:
+ 1048:
+                    if(!source) { _fun00010_ip = 1192; continue _fun00009 }
+ 1054:
                     record = option.buttons;
                     config = record.push;
                     source = {};
@@ -949,15 +949,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     status = variable36[status];
                     status = quebec.bind(romeon)(status);
                     status = status.t;
-                    if(target) { _fun00010_ip = 1118; continue _fun00009 }
- 1105:
+                    if(target) { _fun00010_ip = 1130; continue _fun00009 }
+ 1117:
                     target = status.N2c/Ul;
                     target = sierra.bind(whisks)(target);
-                    _fun00010_ip = 1129; continue _fun00009;
- 1118:
+                    _fun00010_ip = 1141; continue _fun00009;
+ 1130:
                     status = status.z7I3gY;
                     target = sierra.bind(whisks)(status);
- 1129:
+ 1141:
                     source['label'] = target;
                     target = _closure1_slot0;
                     status = _closure1_slot2;
@@ -1043,9 +1043,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     source['onPress'] = papara;
                     source = config.bind(record)(source);
- 1178:
-                    if(!offset) { _fun00010_ip = 1404; continue _fun00009 }
- 1184:
+ 1192:
+                    if(!offset) { _fun00010_ip = 1422; continue _fun00009 }
+ 1198:
                     config = option.buttons;
                     source = config.push;
                     offset = {};
@@ -1059,33 +1059,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     record = target[record];
                     record = papara.bind(romeon)(record);
                     record = record.t;
-                    if(equals) { _fun00010_ip = 1350; continue _fun00009 }
- 1247:
-                    if(limora) { _fun00010_ip = 1263; continue _fun00009 }
- 1250:
+                    if(equals) { _fun00010_ip = 1366; continue _fun00009 }
+ 1261:
+                    if(limora) { _fun00010_ip = 1277; continue _fun00009 }
+ 1264:
                     equals = record.9mysCg;
                     equals = status.bind(sierra)(equals);
-                    _fun00010_ip = 1276; continue _fun00009;
- 1263:
+                    _fun00010_ip = 1290; continue _fun00009;
+ 1277:
                     quebec = record.3zySTE;
                     equals = status.bind(sierra)(quebec);
- 1276:
+ 1290:
                     offset['label'] = equals;
                     equals = _closure1_slot0;
                     quebec = _closure1_slot2;
-                    if(limora) { _fun00010_ip = 1311; continue _fun00009 }
- 1291:
+                    if(limora) { _fun00010_ip = 1325; continue _fun00009 }
+ 1305:
                     limora = 39;
                     limora = quebec[limora];
                     limora = equals.bind(romeon)(limora);
                     limora = limora.PlusLargeIcon;
-                    _fun00010_ip = 1329; continue _fun00009;
- 1311:
+                    _fun00010_ip = 1343; continue _fun00009;
+ 1325:
                     whisks = 38;
                     whisks = quebec[whisks];
                     whisks = equals.bind(romeon)(whisks);
                     limora = whisks.XSmallIcon;
- 1329:
+ 1343:
                     offset['IconComponent'] = limora;
                     limora = function() { // Original name: onPress
                         zuuluu = _closure1_slot0;
@@ -1111,8 +1111,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     offset['onPress'] = limora;
                     limora = source.bind(config)(offset);
-                    _fun00010_ip = 1404; continue _fun00009;
- 1350:
+                    _fun00010_ip = 1422; continue _fun00009;
+ 1366:
                     record = record.jNphKS;
                     record = status.bind(sierra)(record);
                     offset['label'] = record;
@@ -1154,23 +1154,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     offset['onPress'] = record;
                     offset = source.bind(config)(offset);
- 1404:
+ 1422:
                     config = _closure1_slot8;
                     source = backup.type;
                     source = config.bind(romeon)(source);
-                    if(source) { _fun00010_ip = 1438; continue _fun00009 }
- 1424:
+                    if(source) { _fun00010_ip = 1456; continue _fun00009 }
+ 1442:
                     record = _closure1_slot9;
                     config = backup.type;
                     source = record.bind(romeon)(config);
- 1438:
-                    if(source) { _fun00010_ip = 1451; continue _fun00009 }
- 1441:
+ 1456:
+                    if(source) { _fun00010_ip = 1469; continue _fun00009 }
+ 1459:
                     config = backup.isForumLikeChannel;
                     source = config.bind(backup)();
- 1451:
-                    if(!source) { _fun00010_ip = 1570; continue _fun00009 }
- 1454:
+ 1469:
+                    if(!source) { _fun00010_ip = 1590; continue _fun00009 }
+ 1472:
                     record = option.buttons;
                     config = record.push;
                     source = {};
@@ -1210,11 +1210,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     source['onPress'] = papara;
                     source = config.bind(record)(source);
- 1570:
+ 1590:
                     source = backup.isPrivate;
                     source = source.bind(backup)();
-                    if(!source) { _fun00010_ip = 1719; continue _fun00009 }
- 1586:
+                    if(!source) { _fun00010_ip = 1741; continue _fun00009 }
+ 1606:
                     record = option.buttons;
                     config = record.push;
                     source = {};
@@ -1228,15 +1228,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     papara = limora[papara];
                     papara = sierra.bind(romeon)(papara);
                     papara = papara.t;
-                    if(cntext) { _fun00010_ip = 1659; continue _fun00009 }
- 1646:
+                    if(cntext) { _fun00010_ip = 1679; continue _fun00009 }
+ 1666:
                     cntext = papara.N2c/Ul;
                     cntext = target.bind(status)(cntext);
-                    _fun00010_ip = 1670; continue _fun00009;
- 1659:
+                    _fun00010_ip = 1690; continue _fun00009;
+ 1679:
                     papara = papara.z7I3gY;
                     cntext = target.bind(status)(papara);
- 1670:
+ 1690:
                     source['label'] = cntext;
                     papara = _closure1_slot0;
                     target = _closure1_slot2;
@@ -1262,14 +1262,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     source['onPress'] = cntext;
                     source = config.bind(record)(source);
- 1719:
+ 1741:
                     source = {};
                     config = 'safety-warning-tooling';
                     source['sectionKey'] = config;
                     config = new Array(0);
                     source['buttons'] = config;
-                    if(!sequen) { _fun00010_ip = 1855; continue _fun00009 }
- 1744:
+                    if(!sequen) { _fun00010_ip = 1879; continue _fun00009 }
+ 1766:
                     record = source.buttons;
                     config = record.push;
                     sequen = {};
@@ -1308,9 +1308,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     sequen['onPress'] = cntext;
                     sequen = config.bind(record)(sequen);
- 1855:
-                    if(!update) { _fun00010_ip = 1969; continue _fun00009 }
- 1858:
+ 1879:
+                    if(!update) { _fun00010_ip = 1995; continue _fun00009 }
+ 1882:
                     config = source.buttons;
                     sequen = config.push;
                     update = {};
@@ -1349,22 +1349,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     update['onPress'] = record;
                     update = sequen.bind(config)(update);
- 1969:
+ 1995:
                     update = source.buttons;
                     update = update.length;
-                    if(!(update > tangon)) { _fun00010_ip = 1994; continue _fun00009 }
- 1984:
+                    if(!(update > tangon)) { _fun00010_ip = 2020; continue _fun00009 }
+ 2010:
                     update = entity.push;
                     update = update.bind(entity)(source);
- 1994:
-                    if(!oscard) { _fun00010_ip = 2011; continue _fun00009 }
- 1997:
+ 2020:
+                    if(!oscard) { _fun00010_ip = 2037; continue _fun00009 }
+ 2023:
                     source = _closure1_slot8;
                     update = backup.type;
                     oscard = source.bind(romeon)(update);
- 2011:
-                    if(!oscard) { _fun00010_ip = 2154; continue _fun00009 }
- 2017:
+ 2037:
+                    if(!oscard) { _fun00010_ip = 2182; continue _fun00009 }
+ 2043:
                     source = option.buttons;
                     update = source.push;
                     oscard = {};
@@ -1378,15 +1378,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sequen = papara[sequen];
                     sequen = cntext.bind(romeon)(sequen);
                     sequen = sequen.t;
-                    if(vacuum) { _fun00010_ip = 2092; continue _fun00009 }
- 2077:
+                    if(vacuum) { _fun00010_ip = 2118; continue _fun00009 }
+ 2103:
                     vacuum = sequen.LOp2MT;
                     vacuum = config.bind(record)(vacuum);
-                    _fun00010_ip = 2105; continue _fun00009;
- 2092:
+                    _fun00010_ip = 2131; continue _fun00009;
+ 2118:
                     sequen = sequen.n7rKhY;
                     vacuum = config.bind(record)(sequen);
- 2105:
+ 2131:
                     oscard['label'] = vacuum;
                     sequen = _closure1_slot0;
                     config = _closure1_slot2;
@@ -1412,14 +1412,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = vacuum;
                     oscard = update.bind(source)(oscard);
- 2154:
+ 2182:
                     oscard = option.buttons;
                     oscard = oscard.length;
-                    if(!(oscard > tangon)) { _fun00010_ip = 2179; continue _fun00009 }
- 2169:
+                    if(!(oscard > tangon)) { _fun00010_ip = 2207; continue _fun00009 }
+ 2197:
                     oscard = entity.push;
                     oscard = oscard.bind(entity)(option);
- 2179:
+ 2207:
                     option = {};
                     oscard = 'notifications';
                     option['sectionKey'] = oscard;
@@ -1428,18 +1428,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = _closure1_slot10;
                     oscard = backup.type;
                     oscard = update.bind(romeon)(oscard);
-                    if(oscard) { _fun00010_ip = 2226; continue _fun00009 }
- 2216:
+                    if(oscard) { _fun00010_ip = 2254; continue _fun00009 }
+ 2244:
                     update = backup.isCategory;
                     oscard = update.bind(backup)();
- 2226:
-                    if(oscard) { _fun00010_ip = 2239; continue _fun00009 }
- 2229:
+ 2254:
+                    if(oscard) { _fun00010_ip = 2267; continue _fun00009 }
+ 2257:
                     update = backup.isForumLikeChannel;
                     oscard = update.bind(backup)();
- 2239:
-                    if(!oscard) { _fun00010_ip = 2351; continue _fun00009 }
- 2242:
+ 2267:
+                    if(!oscard) { _fun00010_ip = 2381; continue _fun00009 }
+ 2270:
                     source = option.buttons;
                     update = source.push;
                     oscard = {};
@@ -1475,26 +1475,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = vacuum;
                     oscard = update.bind(source)(oscard);
- 2351:
+ 2381:
                     update = _closure1_slot11;
                     oscard = backup.type;
                     oscard = update.bind(romeon)(oscard);
-                    if(oscard) { _fun00010_ip = 2413; continue _fun00009 }
- 2368:
+                    if(oscard) { _fun00010_ip = 2443; continue _fun00009 }
+ 2398:
                     oscard = backup.isCategory;
                     oscard = oscard.bind(backup)();
-                    if(oscard) { _fun00010_ip = 2413; continue _fun00009 }
- 2381:
-                    if(!echoed) { _fun00010_ip = 2397; continue _fun00009 }
- 2384:
+                    if(oscard) { _fun00010_ip = 2443; continue _fun00009 }
+ 2411:
+                    if(!echoed) { _fun00010_ip = 2427; continue _fun00009 }
+ 2414:
                     oscard = backup.isGuildVoice;
                     oscard = oscard.bind(backup)();
-                    if(oscard) { _fun00010_ip = 2413; continue _fun00009 }
- 2397:
+                    if(oscard) { _fun00010_ip = 2443; continue _fun00009 }
+ 2427:
                     oscard = backup.isForumLikeChannel;
                     oscard = oscard.bind(backup)();
-                    if(!oscard) { _fun00010_ip = 3068; continue _fun00009 }
- 2413:
+                    if(!oscard) { _fun00010_ip = 3102; continue _fun00009 }
+ 2443:
                     vacuum = _closure1_slot0;
                     oscard = _closure1_slot2;
                     sequen = 21;
@@ -1505,27 +1505,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard[sequen];
                     oscard = vacuum.bind(romeon)(oscard);
                     oscard = oscard.t;
-                    if(ctrled) { _fun00010_ip = 2768; continue _fun00009 }
- 2463:
+                    if(ctrled) { _fun00010_ip = 2800; continue _fun00009 }
+ 2493:
                     ctrled = oscard.tbeRRE;
                     vacuum = update.bind(source)(ctrled);
                     ctrled = backup.isCategory;
                     ctrled = ctrled.bind(backup)();
-                    if(ctrled) { _fun00010_ip = 2647; continue _fun00009 }
- 2492:
+                    if(ctrled) { _fun00010_ip = 2677; continue _fun00009 }
+ 2522:
                     ctrled = backup.isDM;
                     ctrled = ctrled.bind(backup)();
-                    if(ctrled) { _fun00010_ip = 2591; continue _fun00009 }
- 2505:
+                    if(ctrled) { _fun00010_ip = 2621; continue _fun00009 }
+ 2535:
                     ctrled = backup.isGroupDM;
                     ctrled = ctrled.bind(backup)();
-                    if(ctrled) { _fun00010_ip = 2591; continue _fun00009 }
- 2518:
+                    if(ctrled) { _fun00010_ip = 2621; continue _fun00009 }
+ 2548:
                     ctrled = backup.isThread;
                     ctrled = ctrled.bind(backup)();
                     record = vacuum;
-                    if(!ctrled) { _fun00010_ip = 2701; continue _fun00009 }
- 2537:
+                    if(!ctrled) { _fun00010_ip = 2731; continue _fun00009 }
+ 2567:
                     cntext = _closure1_slot0;
                     ctrled = _closure1_slot2;
                     vacuum = ctrled[sequen];
@@ -1537,8 +1537,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = ctrled.t;
                     ctrled = ctrled.bUUd8v;
                     record = vacuum.bind(config)(ctrled);
-                    _fun00010_ip = 2701; continue _fun00009;
- 2591:
+                    _fun00010_ip = 2731; continue _fun00009;
+ 2621:
                     cntext = _closure1_slot0;
                     ctrled = _closure1_slot2;
                     vacuum = ctrled[sequen];
@@ -1550,8 +1550,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = ctrled.t;
                     ctrled = ctrled.LO3kaG;
                     record = vacuum.bind(config)(ctrled);
-                    _fun00010_ip = 2701; continue _fun00009;
- 2647:
+                    _fun00010_ip = 2731; continue _fun00009;
+ 2677:
                     cntext = _closure1_slot0;
                     ctrled = _closure1_slot2;
                     vacuum = ctrled[sequen];
@@ -1563,7 +1563,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     ctrled = ctrled.t;
                     ctrled = ctrled.pNMCg4;
                     record = vacuum.bind(config)(ctrled);
- 2701:
+ 2731:
                     config = option.buttons;
                     vacuum = config.push;
                     ctrled = {};
@@ -1613,27 +1613,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     ctrled['onPress'] = record;
                     ctrled = vacuum.bind(config)(ctrled);
-                    _fun00010_ip = 3068; continue _fun00009;
- 2768:
+                    _fun00010_ip = 3102; continue _fun00009;
+ 2800:
                     oscard = oscard.OYefmZ;
                     update = update.bind(source)(oscard);
                     oscard = backup.isCategory;
                     oscard = oscard.bind(backup)();
-                    if(oscard) { _fun00010_ip = 2952; continue _fun00009 }
- 2797:
+                    if(oscard) { _fun00010_ip = 2984; continue _fun00009 }
+ 2829:
                     oscard = backup.isDM;
                     oscard = oscard.bind(backup)();
-                    if(oscard) { _fun00010_ip = 2896; continue _fun00009 }
- 2810:
+                    if(oscard) { _fun00010_ip = 2928; continue _fun00009 }
+ 2842:
                     oscard = backup.isGroupDM;
                     oscard = oscard.bind(backup)();
-                    if(oscard) { _fun00010_ip = 2896; continue _fun00009 }
- 2823:
+                    if(oscard) { _fun00010_ip = 2928; continue _fun00009 }
+ 2855:
                     oscard = backup.isThread;
                     oscard = oscard.bind(backup)();
                     ctrled = update;
-                    if(!oscard) { _fun00010_ip = 3006; continue _fun00009 }
- 2842:
+                    if(!oscard) { _fun00010_ip = 3038; continue _fun00009 }
+ 2874:
                     vacuum = _closure1_slot0;
                     oscard = _closure1_slot2;
                     update = oscard[sequen];
@@ -1645,8 +1645,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.t;
                     oscard = oscard.Cq/TzM;
                     ctrled = update.bind(source)(oscard);
-                    _fun00010_ip = 3006; continue _fun00009;
- 2896:
+                    _fun00010_ip = 3038; continue _fun00009;
+ 2928:
                     vacuum = _closure1_slot0;
                     oscard = _closure1_slot2;
                     update = oscard[sequen];
@@ -1658,8 +1658,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.t;
                     oscard = oscard.s5/5fn;
                     ctrled = update.bind(source)(oscard);
-                    _fun00010_ip = 3006; continue _fun00009;
- 2952:
+                    _fun00010_ip = 3038; continue _fun00009;
+ 2984:
                     vacuum = _closure1_slot0;
                     oscard = _closure1_slot2;
                     update = oscard[sequen];
@@ -1671,7 +1671,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.t;
                     oscard = oscard.olaBeH;
                     ctrled = update.bind(source)(oscard);
- 3006:
+ 3038:
                     source = option.buttons;
                     update = source.push;
                     oscard = {};
@@ -1715,36 +1715,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = ctrled;
                     oscard = update.bind(source)(oscard);
- 3068:
+ 3102:
                     update = _closure1_slot8;
                     oscard = backup.type;
                     oscard = update.bind(romeon)(oscard);
-                    if(oscard) { _fun00010_ip = 3095; continue _fun00009 }
- 3085:
+                    if(oscard) { _fun00010_ip = 3129; continue _fun00009 }
+ 3119:
                     update = backup.isCategory;
                     oscard = update.bind(backup)();
- 3095:
-                    if(oscard) { _fun00010_ip = 3108; continue _fun00009 }
- 3098:
+ 3129:
+                    if(oscard) { _fun00010_ip = 3142; continue _fun00009 }
+ 3132:
                     update = backup.isGuildStageVoice;
                     oscard = update.bind(backup)();
- 3108:
-                    if(oscard) { _fun00010_ip = 3127; continue _fun00009 }
- 3111:
-                    if(!echoed) { _fun00010_ip = 3124; continue _fun00009 }
- 3114:
+ 3142:
+                    if(oscard) { _fun00010_ip = 3161; continue _fun00009 }
+ 3145:
+                    if(!echoed) { _fun00010_ip = 3158; continue _fun00009 }
+ 3148:
                     update = backup.isGuildVoice;
                     echoed = update.bind(backup)();
- 3124:
+ 3158:
                     oscard = echoed;
- 3127:
-                    if(oscard) { _fun00010_ip = 3140; continue _fun00009 }
- 3130:
+ 3161:
+                    if(oscard) { _fun00010_ip = 3174; continue _fun00009 }
+ 3164:
                     echoed = backup.isForumLikeChannel;
                     oscard = echoed.bind(backup)();
- 3140:
-                    if(!oscard) { _fun00010_ip = 3259; continue _fun00009 }
- 3143:
+ 3174:
+                    if(!oscard) { _fun00010_ip = 3295; continue _fun00009 }
+ 3177:
                     update = option.buttons;
                     echoed = update.push;
                     oscard = {};
@@ -1789,14 +1789,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = source;
                     oscard = echoed.bind(update)(oscard);
- 3259:
+ 3295:
                     oscard = option.buttons;
                     oscard = oscard.length;
-                    if(!(oscard > tangon)) { _fun00010_ip = 3284; continue _fun00009 }
- 3274:
+                    if(!(oscard > tangon)) { _fun00010_ip = 3320; continue _fun00009 }
+ 3310:
                     oscard = entity.push;
                     oscard = oscard.bind(entity)(option);
- 3284:
+ 3320:
                     option = {};
                     oscard = 'threads';
                     option['sectionKey'] = oscard;
@@ -1804,21 +1804,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['buttons'] = oscard;
                     oscard = backup.isThread;
                     oscard = oscard.bind(backup)();
-                    if(oscard) { _fun00010_ip = 3327; continue _fun00009 }
- 3317:
+                    if(oscard) { _fun00010_ip = 3363; continue _fun00009 }
+ 3353:
                     echoed = backup.isForumLikeChannel;
                     oscard = echoed.bind(backup)();
- 3327:
-                    if(oscard) { _fun00010_ip = 3333; continue _fun00009 }
- 3330:
+ 3363:
+                    if(oscard) { _fun00010_ip = 3369; continue _fun00009 }
+ 3366:
                     oscard = !result;
- 3333:
-                    if(oscard) { _fun00010_ip = 3339; continue _fun00009 }
- 3336:
+ 3369:
+                    if(oscard) { _fun00010_ip = 3375; continue _fun00009 }
+ 3372:
                     oscard = sizing;
- 3339:
-                    if(oscard) { _fun00010_ip = 3451; continue _fun00009 }
- 3342:
+ 3375:
+                    if(oscard) { _fun00010_ip = 3489; continue _fun00009 }
+ 3378:
                     result = option.buttons;
                     sizing = result.push;
                     oscard = {};
@@ -1853,14 +1853,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = echoed;
                     oscard = sizing.bind(result)(oscard);
- 3451:
+ 3489:
                     oscard = option.buttons;
                     oscard = oscard.length;
-                    if(!(oscard > tangon)) { _fun00010_ip = 3476; continue _fun00009 }
- 3466:
+                    if(!(oscard > tangon)) { _fun00010_ip = 3514; continue _fun00009 }
+ 3504:
                     oscard = entity.push;
                     oscard = oscard.bind(entity)(option);
- 3476:
+ 3514:
                     option = {};
                     oscard = 'voice';
                     option['sectionKey'] = oscard;
@@ -1869,12 +1869,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = _closure1_slot9;
                     oscard = backup.type;
                     oscard = sizing.bind(romeon)(oscard);
-                    if(!oscard) { _fun00010_ip = 3516; continue _fun00009 }
- 3513:
+                    if(!oscard) { _fun00010_ip = 3554; continue _fun00009 }
+ 3551:
                     oscard = !kiloes;
- 3516:
-                    if(!oscard) { _fun00010_ip = 3659; continue _fun00009 }
- 3522:
+ 3554:
+                    if(!oscard) { _fun00010_ip = 3699; continue _fun00009 }
+ 3560:
                     sizing = option.buttons;
                     kiloes = sizing.push;
                     oscard = {};
@@ -1888,15 +1888,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     result = ctrled[result];
                     result = source.bind(romeon)(result);
                     result = result.t;
-                    if(output) { _fun00010_ip = 3597; continue _fun00009 }
- 3582:
+                    if(output) { _fun00010_ip = 3635; continue _fun00009 }
+ 3620:
                     output = result.LxzNio;
                     output = echoed.bind(update)(output);
-                    _fun00010_ip = 3610; continue _fun00009;
- 3597:
+                    _fun00010_ip = 3648; continue _fun00009;
+ 3635:
                     result = result.JYF2OT;
                     output = echoed.bind(update)(result);
- 3610:
+ 3648:
                     oscard['label'] = output;
                     result = _closure1_slot0;
                     echoed = _closure1_slot2;
@@ -1920,11 +1920,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = output;
                     oscard = kiloes.bind(sizing)(oscard);
- 3659:
+ 3699:
                     oscard = backup.isGuildVocal;
                     oscard = oscard.bind(backup)();
-                    if(!oscard) { _fun00010_ip = 3952; continue _fun00009 }
- 3675:
+                    if(!oscard) { _fun00010_ip = 3998; continue _fun00009 }
+ 3715:
                     oscard = backup.isGuildStageVoice;
                     vacuum = oscard.bind(backup)();
                     sizing = option.buttons;
@@ -1940,8 +1940,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = echoed[output];
                     update = result.bind(romeon)(update);
                     update = update.t;
-                    if(vacuum) { _fun00010_ip = 3802; continue _fun00009 }
- 3745:
+                    if(vacuum) { _fun00010_ip = 3844; continue _fun00009 }
+ 3785:
                     vacuum = update.ZXxLQk;
                     vacuum = source.bind(ctrled)(vacuum);
                     oscard['label'] = vacuum;
@@ -1968,8 +1968,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = vacuum;
                     vacuum = kiloes.bind(sizing)(oscard);
-                    _fun00010_ip = 3952; continue _fun00009;
- 3802:
+                    _fun00010_ip = 3998; continue _fun00009;
+ 3844:
                     update = update.7vb2cX;
                     update = source.bind(ctrled)(update);
                     oscard['label'] = update;
@@ -2034,19 +2034,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = output;
                     oscard = kiloes.bind(sizing)(oscard);
- 3952:
+ 3998:
                     oscard = backup.isGuildStageVoice;
                     oscard = oscard.bind(backup)();
-                    if(!oscard) { _fun00010_ip = 3968; continue _fun00009 }
- 3965:
+                    if(!oscard) { _fun00010_ip = 4014; continue _fun00009 }
+ 4011:
                     oscard = foxtra;
- 3968:
-                    if(!oscard) { _fun00010_ip = 3974; continue _fun00009 }
- 3971:
+ 4014:
+                    if(!oscard) { _fun00010_ip = 4020; continue _fun00009 }
+ 4017:
                     oscard = yankee;
- 3974:
-                    if(!oscard) { _fun00010_ip = 4093; continue _fun00009 }
- 3977:
+ 4020:
+                    if(!oscard) { _fun00010_ip = 4141; continue _fun00009 }
+ 4023:
                     foxtra = option.buttons;
                     yankee = foxtra.push;
                     oscard = {};
@@ -2084,21 +2084,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     oscard['onPress'] = kiloes;
                     oscard = yankee.bind(foxtra)(oscard);
- 4093:
+ 4141:
                     oscard = option.buttons;
                     oscard = oscard.length;
-                    if(!(oscard > tangon)) { _fun00010_ip = 4118; continue _fun00009 }
- 4108:
+                    if(!(oscard > tangon)) { _fun00010_ip = 4166; continue _fun00009 }
+ 4156:
                     oscard = entity.push;
                     oscard = oscard.bind(entity)(option);
- 4118:
+ 4166:
                     oscard = {};
                     option = 'admin-actions';
                     oscard['sectionKey'] = option;
                     option = new Array(0);
                     oscard['buttons'] = option;
-                    if(!golfie) { _fun00010_ip = 4525; continue _fun00009 }
- 4146:
+                    if(!golfie) { _fun00010_ip = 4577; continue _fun00009 }
+ 4194:
                     yankee = oscard.buttons;
                     option = yankee.push;
                     golfie = {};
@@ -2114,15 +2114,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = kiloes[echoed];
                     kiloes = result.bind(romeon)(kiloes);
                     kiloes = kiloes.t;
-                    if(foxtra) { _fun00010_ip = 4231; continue _fun00009 }
- 4216:
+                    if(foxtra) { _fun00010_ip = 4279; continue _fun00009 }
+ 4264:
                     foxtra = kiloes.3gUsJS;
                     foxtra = sizing.bind(output)(foxtra);
-                    _fun00010_ip = 4244; continue _fun00009;
- 4231:
+                    _fun00010_ip = 4292; continue _fun00009;
+ 4279:
                     kiloes = kiloes.zdPFs7;
                     foxtra = sizing.bind(output)(kiloes);
- 4244:
+ 4292:
                     golfie['label'] = foxtra;
                     kiloes = _closure1_slot0;
                     sizing = _closure1_slot2;
@@ -2155,23 +2155,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = _closure1_slot8;
                     golfie = backup.type;
                     golfie = option.bind(romeon)(golfie);
-                    if(golfie) { _fun00010_ip = 4320; continue _fun00009 }
- 4310:
+                    if(golfie) { _fun00010_ip = 4370; continue _fun00009 }
+ 4360:
                     option = backup.isForumLikeChannel;
                     golfie = option.bind(backup)();
- 4320:
-                    if(golfie) { _fun00010_ip = 4333; continue _fun00009 }
- 4323:
+ 4370:
+                    if(golfie) { _fun00010_ip = 4383; continue _fun00009 }
+ 4373:
                     option = backup.isGuildVoice;
                     golfie = option.bind(backup)();
- 4333:
-                    if(golfie) { _fun00010_ip = 4346; continue _fun00009 }
- 4336:
+ 4383:
+                    if(golfie) { _fun00010_ip = 4396; continue _fun00009 }
+ 4386:
                     option = backup.isCategory;
                     golfie = option.bind(backup)();
- 4346:
-                    if(!golfie) { _fun00010_ip = 4525; continue _fun00009 }
- 4352:
+ 4396:
+                    if(!golfie) { _fun00010_ip = 4577; continue _fun00009 }
+ 4402:
                     yankee = oscard.buttons;
                     option = yankee.push;
                     golfie = {};
@@ -2186,33 +2186,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = kiloes[echoed];
                     kiloes = result.bind(romeon)(kiloes);
                     kiloes = kiloes.t;
-                    if(foxtra) { _fun00010_ip = 4432; continue _fun00009 }
- 4419:
+                    if(foxtra) { _fun00010_ip = 4482; continue _fun00009 }
+ 4469:
                     foxtra = kiloes.dEaPc3;
                     foxtra = sizing.bind(output)(foxtra);
-                    _fun00010_ip = 4443; continue _fun00009;
- 4432:
+                    _fun00010_ip = 4493; continue _fun00009;
+ 4482:
                     kiloes = kiloes.fUYU+v;
                     foxtra = sizing.bind(output)(kiloes);
- 4443:
+ 4493:
                     golfie['label'] = foxtra;
                     foxtra = backup.isCategory;
                     foxtra = foxtra.bind(backup)();
                     kiloes = _closure1_slot0;
                     sizing = _closure1_slot2;
-                    if(foxtra) { _fun00010_ip = 4488; continue _fun00009 }
- 4468:
+                    if(foxtra) { _fun00010_ip = 4538; continue _fun00009 }
+ 4518:
                     foxtra = 62;
                     foxtra = sizing[foxtra];
                     foxtra = kiloes.bind(romeon)(foxtra);
                     foxtra = foxtra.CopyIcon;
-                    _fun00010_ip = 4506; continue _fun00009;
- 4488:
+                    _fun00010_ip = 4556; continue _fun00009;
+ 4538:
                     backup = 39;
                     backup = sizing[backup];
                     backup = kiloes.bind(romeon)(backup);
                     foxtra = backup.PlusLargeIcon;
- 4506:
+ 4556:
                     golfie['IconComponent'] = foxtra;
                     foxtra = function() { // Original name: onPress
                         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
@@ -2266,9 +2266,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     golfie['onPress'] = foxtra;
                     golfie = option.bind(yankee)(golfie);
- 4525:
-                    if(!michal) { _fun00010_ip = 4639; continue _fun00009 }
- 4528:
+ 4577:
+                    if(!michal) { _fun00010_ip = 4693; continue _fun00009 }
+ 4580:
                     option = oscard.buttons;
                     golfie = option.push;
                     michal = {};
@@ -2310,28 +2310,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal['onPress'] = verify;
                     michal = golfie.bind(option)(michal);
- 4639:
+ 4693:
                     michal = oscard.buttons;
                     michal = michal.length;
-                    if(!(michal > tangon)) { _fun00010_ip = 4664; continue _fun00009 }
- 4654:
+                    if(!(michal > tangon)) { _fun00010_ip = 4718; continue _fun00009 }
+ 4708:
                     michal = entity.push;
                     michal = michal.bind(entity)(oscard);
- 4664:
+ 4718:
                     michal = report.buttons;
                     michal = michal.length;
-                    if(!(michal > tangon)) { _fun00010_ip = 4689; continue _fun00009 }
- 4679:
+                    if(!(michal > tangon)) { _fun00010_ip = 4743; continue _fun00009 }
+ 4733:
                     michal = entity.push;
                     michal = michal.bind(entity)(report);
- 4689:
+ 4743:
                     michal = zuuluu.buttons;
                     michal = michal.length;
-                    if(!(michal > tangon)) { _fun00010_ip = 4714; continue _fun00009 }
- 4704:
+                    if(!(michal > tangon)) { _fun00010_ip = 4768; continue _fun00009 }
+ 4758:
                     michal = entity.push;
                     michal = michal.bind(entity)(zuuluu);
- 4714:
+ 4768:
                     return entity;
                 }
             };
@@ -2340,8 +2340,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = output.isGroupDM;
             zuuluu = zuuluu.bind(output)();
             foxtra = undefined;
-            if(!zuuluu) { _fun00004_ip = 1208; continue _fun00003 }
- 1125:
+            if(!zuuluu) { _fun00004_ip = 1230; continue _fun00003 }
+ 1147:
             oscard = _closure1_slot0;
             result = _closure1_slot2;
             zuuluu = 21;
@@ -2360,7 +2360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result + output;
             zuuluu['members'] = output;
             foxtra = golfie.bind(sizing)(oscard, zuuluu);
- 1208:
+ 1230:
             golfie = _closure1_slot4;
             oscard = golfie.useEffect;
             sizing = offset.length;
@@ -2666,15 +2666,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.bind(option)(entity, zuuluu);
             entity = null;
             zuuluu = entity != golfie;
-            if(!zuuluu) { _fun00028_ip = 147; continue _fun00027 }
- 122:
+            if(!zuuluu) { _fun00028_ip = 151; continue _fun00027 }
+ 126:
             tangon = _closure1_slot27;
             zuuluu = _closure1_slot30;
             michal = {};
             michal['channel'] = golfie;
             michal['onClose'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 147:
+ 151:
             return entity;
         }
     };

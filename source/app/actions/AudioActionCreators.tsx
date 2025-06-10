@@ -1997,7 +1997,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['interact'] = golfie;
-    tangon = function(argFoo) { // Original name: setEnableHardwareMuteNotice
+    golfie = function(argFoo) { // Original name: setEnableHardwareMuteNotice
         _fun00083: for(var _fun00084_ip = 0; ; ) switch(_fun00084_ip) {
  0:
             zuuluu = _closure1_slot13;
@@ -2021,7 +2021,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['setEnableHardwareMuteNotice'] = tangon;
+    michal['setEnableHardwareMuteNotice'] = golfie;
+    tangon = function(argFoo) { // Original name: setKrispSuppressionLevel
+        _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
+ 0:
+            zuuluu = _closure1_slot13;
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)();
+            if(zuuluu) { _fun00086_ip = 66; continue _fun00085 }
+ 16:
+            zuuluu = _closure1_slot1;
+            tangon = _closure1_slot2;
+            michal = 11;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.dispatch;
+            michal = {};
+            report = 'AUDIO_SET_KRISP_SUPPRESSION_LEVEL';
+            michal['type'] = report;
+            report = argFoo;
+            michal['level'] = report;
+            michal = zuuluu.bind(tangon)(michal);
+ 66:
+            return entity;
+        }
+    };
+    michal['setKrispSuppressionLevel'] = tangon;
     tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

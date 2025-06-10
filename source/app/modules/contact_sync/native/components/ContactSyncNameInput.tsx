@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = source.bind(tangon)(echoed, romeon);
             yankee[3] = romeon;
             romeon = null;
-            if(!backup) { _fun00002_ip = 886; continue _fun00001 }
+            if(!backup) { _fun00002_ip = 890; continue _fun00001 }
  782:
             echoed = _closure1_slot6;
             sequen = _closure1_slot0;
@@ -293,7 +293,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = ctrled.bind(vacuum)(source);
             foxtra['children'] = source;
             romeon = echoed.bind(tangon)(backup, foxtra);
- 886:
+ 890:
             yankee[4] = romeon;
             report['children'] = yankee;
             yankee = zuuluu.bind(tangon)(michal, report);
@@ -310,10 +310,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = 'primary';
             yankee['variant'] = echoed;
             echoed = 'lg';
-            if(!option) { _fun00002_ip = 959; continue _fun00001 }
- 955:
-            echoed = 'md';
+            if(!option) { _fun00002_ip = 963; continue _fun00001 }
  959:
+            echoed = 'md';
+ 963:
             yankee['size'] = echoed;
             yankee['text'] = result;
             result = function() { // Original name: onPress
@@ -331,8 +331,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = backup.bind(tangon)(romeon, yankee);
             report[1] = yankee;
             golfie = null;
-            if(!option) { _fun00002_ip = 1147; continue _fun00001 }
- 1013:
+            if(!option) { _fun00002_ip = 1151; continue _fun00001 }
+ 1017:
             romeon = _closure1_slot6;
             yankee = _closure1_slot5;
             option = {};
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = romeon.bind(tangon)(backup, foxtra);
             option['children'] = foxtra;
             golfie = romeon.bind(tangon)(yankee, option);
- 1147:
+ 1151:
             report[2] = golfie;
             option = _closure1_slot6;
             golfie = _closure1_slot1;

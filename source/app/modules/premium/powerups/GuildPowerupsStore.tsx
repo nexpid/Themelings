@@ -137,9 +137,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = {};
             zuuluu['allPowerups'] = oscard;
             oscard = {};
-            zuuluu['unlockedPowerups'] = oscard;
-            oscard = {};
             zuuluu['powerupCatalog'] = oscard;
+            oscard = {};
+            zuuluu['unlockedPowerups'] = oscard;
             zuuluu['appliedBoosts'] = report;
             tangon[michal] = zuuluu;
  67:
@@ -469,6 +469,134 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = 'GuildPowerupsStore';
     option['displayName'] = michal;
     option['persistKey'] = michal;
+    michal = new Array(1);
+    verify = function(argFoo) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+            golfie = argFoo;
+            zuuluu = null;
+            entity = golfie;
+            if(!(zuuluu != entity)) { _fun00024_ip = 80; continue _fun00023 }
+ 14:
+            report = global;
+            tangon = report.Object;
+            zuuluu = tangon.fromEntries;
+            oscard = report.Object;
+            report = oscard.entries;
+            golfie = report.bind(oscard)(golfie);
+            oscard = golfie.filter;
+            report = function(argFoo) {
+                _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+ 0:
+                    tangon = argFoo;
+                    entity = tangon[Symbol.iterator];
+                    tangon = entity().next;
+                    michal = tangon().value;
+                    michal = entity;
+                    oscard = undefined;
+                    zuuluu = michal === oscard;
+                    michal = undefined;
+                    if(zuuluu) { _fun00026_ip = 49; continue _fun00025 }
+ 24:
+                    report = tangon().value;
+                    tangon = entity;
+                    tangon = tangon === oscard;
+                    michal = undefined;
+                    zuuluu = tangon;
+                    if(tangon) { _fun00026_ip = 49; continue _fun00025 }
+ 43:
+                    michal = report;
+                    zuuluu = tangon;
+ 49:
+                    if(zuuluu) { _fun00026_ip = 55; continue _fun00025 }
+ 52:
+                    entity.return();
+ 55:
+                    entity = null;
+                    entity = entity != michal;
+                    if(!entity) { _fun00026_ip = 75; continue _fun00025 }
+ 64:
+                    zuuluu = 'object';
+                    michal = typeof michal;
+                    entity = zuuluu === michal;
+ 75:
+                    return entity;
+                }
+            };
+            oscard = oscard.bind(golfie)(report);
+            report = oscard.map;
+            michal = function(argFoo) {
+                _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+ 0:
+                    report = argFoo;
+                    entity = report[Symbol.iterator];
+                    report = entity().next;
+                    tangon = report().value;
+                    michal = entity;
+                    golfie = undefined;
+                    zuuluu = michal === golfie;
+                    michal = undefined;
+                    if(zuuluu) { _fun00028_ip = 27; continue _fun00027 }
+ 24:
+                    michal = tangon;
+ 27:
+                    tangon = undefined;
+                    if(zuuluu) { _fun00028_ip = 57; continue _fun00027 }
+ 32:
+                    oscard = report().value;
+                    report = entity;
+                    report = report === golfie;
+                    tangon = undefined;
+                    zuuluu = report;
+                    if(report) { _fun00028_ip = 57; continue _fun00027 }
+ 51:
+                    tangon = oscard;
+                    zuuluu = report;
+ 57:
+                    if(zuuluu) { _fun00028_ip = 63; continue _fun00027 }
+ 60:
+                    entity.return();
+ 63:
+                    entity = new Array(2);
+                    entity[0] = michal;
+                    michal = {};
+                    verify = michal;
+                    option = tangon;
+                    zuuluu = copyDataProperties(verify, option);
+                    oscard = tangon.allPowerups;
+                    zuuluu = null;
+                    if(!(zuuluu == oscard)) { _fun00028_ip = 97; continue _fun00027 }
+ 95:
+                    oscard = {};
+ 97:
+                    report = 'allPowerups';
+                    michal[report] = oscard;
+                    oscard = tangon.powerupCatalog;
+                    if(!(zuuluu == oscard)) { _fun00028_ip = 118; continue _fun00027 }
+ 116:
+                    oscard = {};
+ 118:
+                    report = 'powerupCatalog';
+                    michal[report] = oscard;
+                    tangon = tangon.unlockedPowerups;
+                    if(!(zuuluu == tangon)) { _fun00028_ip = 139; continue _fun00027 }
+ 137:
+                    tangon = {};
+ 139:
+                    zuuluu = 'unlockedPowerups';
+                    michal[zuuluu] = tangon;
+                    entity[1] = michal;
+                    return entity;
+                }
+            };
+            michal = report.bind(oscard)(michal);
+            entity = zuuluu.bind(tangon)(michal);
+ 80:
+            return entity;
+        }
+    };
+    michal[0] = verify;
+    option['migrations'] = michal;
     michal = 10;
     michal = oscard[michal];
     romeon = golfie.bind(entity)(michal);

@@ -467,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot17;
                     zuuluu['reactionsTheme'] = michal;
                     michal = _closure2_slot4;
-                    if(michal) { _fun00010_ip = 275; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 271; continue _fun00009 }
  90:
                     michal = {'numberOfLines': 3, 'expandable': true};
                     option = _closure1_slot0;
@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = 'fade';
                     michal['outAnimation'] = tangon;
                     zuuluu['truncation'] = michal;
- 275:
+ 271:
                     return entity;
                 }
             };

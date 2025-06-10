@@ -50,6 +50,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['NOTIFICATIONS'] = entity;
     entity = 'notification center';
     michal['NOTIFICATION_CENTER'] = entity;
+    entity = 'notifications inbox';
+    michal['NOTIFICATIONS_INBOX'] = entity;
     entity = 'push notification';
     michal['PUSH_NOTIFICATION'] = entity;
     entity = 'friend request notification';

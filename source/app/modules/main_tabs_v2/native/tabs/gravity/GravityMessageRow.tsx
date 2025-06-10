@@ -1148,7 +1148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[0] = romeon;
             entity = function() {
                 zuuluu = _closure1_slot8;
-                michal = zuuluu.isBlocked;
+                michal = zuuluu.isBlockedOrIgnored;
                 entity = _closure2_slot0;
                 entity = entity.author;
                 entity = entity.id;

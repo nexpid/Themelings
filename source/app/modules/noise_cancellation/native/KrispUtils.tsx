@@ -2,23 +2,23 @@
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
-    report = entity.Object;
-    tangon = report.defineProperty;
-    michal = {};
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(report)(zuuluu, entity, michal);
-    michal = argPlu;
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    tangon = argPlu;
     entity = 0;
-    tangon = michal[entity];
-    michal = argBar;
+    report = tangon[entity];
+    tangon = argBar;
     entity = undefined;
-    report = michal.bind(entity)(tangon);
-    tangon = report.fileFinishedImporting;
-    michal = 'modules/noise_cancellation/native/KrispUtils.tsx';
-    michal = tangon.bind(report)(michal);
-    michal = function() { // Original name: getKrispModel
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/noise_cancellation/native/KrispUtils.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function() { // Original name: getKrispModel
         entity = global;
         zuuluu = entity.Promise;
         michal = zuuluu.resolve;
@@ -26,6 +26,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zuuluu['getKrispModel'] = michal;
+    zuuluu['getKrispModel'] = tangon;
+    michal = function() { // Original name: setKrispSuppressionLevel
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['setKrispSuppressionLevel'] = michal;
     return entity;
 })();

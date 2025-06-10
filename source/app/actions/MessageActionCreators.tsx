@@ -1129,7 +1129,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 michal = golfie[michal];
                 michal = oscard.bind(report)(michal);
                 michal = michal.t;
-                michal = michal.bNMQVF;
+                michal = michal.i4AbAQ;
                 michal = zuuluu.bind(tangon)(michal);
                 entity['message'] = michal;
                 michal = 'BOT_GUILD_EXPLICIT_CONTENT';

@@ -99,28 +99,31 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
                 golfie = offset.bind(yankee)(golfie);
                 michal['label'] = golfie;
                 golfie = _closure1_slot3;
-                golfie = golfie.QUEST_HOME;
-                yankee = new Array(6);
+                golfie = golfie.COLLECTIBLES_SHOP;
+                yankee = new Array(7);
                 yankee[0] = golfie;
+                golfie = _closure1_slot3;
+                golfie = golfie.QUEST_HOME;
+                yankee[1] = golfie;
                 zuuluu = null;
-                if(!oscard) { _fun00002_ip = 369; continue _fun00001 }
- 359:
+                if(!oscard) { _fun00002_ip = 383; continue _fun00001 }
+ 373:
                 oscard = _closure1_slot3;
                 zuuluu = oscard.PREMIUM;
- 369:
-                yankee[1] = zuuluu;
-                zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.PREMIUM_GUILD_BOOSTING;
+ 383:
                 yankee[2] = zuuluu;
                 zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.PREMIUM_GIFTING;
+                zuuluu = zuuluu.PREMIUM_GUILD_BOOSTING;
                 yankee[3] = zuuluu;
                 zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.GUILD_ROLE_SUBSCRIPTIONS;
+                zuuluu = zuuluu.PREMIUM_GIFTING;
                 yankee[4] = zuuluu;
                 zuuluu = _closure1_slot3;
-                zuuluu = zuuluu.PREMIUM_RESTORE_SUBSCRIPTION;
+                zuuluu = zuuluu.GUILD_ROLE_SUBSCRIPTIONS;
                 yankee[5] = zuuluu;
+                zuuluu = _closure1_slot3;
+                zuuluu = zuuluu.PREMIUM_RESTORE_SUBSCRIPTION;
+                yankee[6] = zuuluu;
                 offset = yankee.filter;
                 golfie = _closure1_slot0;
                 zuuluu = _closure1_slot1;

@@ -1630,6 +1630,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CLIENT_THEMES_APPEARANCE_SETTINGS_NEW_BADGE'] = michal;
     entity = 'CLIENT_THEMES_APPEARANCE_SETTINGS_NEW_BADGE';
     tangon[michal] = entity;
+    michal = 552;
+    tangon['CUSTOM_THEME_ENTRYPOINT_NEW_BADGE'] = michal;
+    entity = 'CUSTOM_THEME_ENTRYPOINT_NEW_BADGE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

@@ -757,17 +757,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.7fNJgI;
             report = kiloes.bind(update)(report);
             entity['headerText'] = report;
-            report = foxtra[echoed];
-            report = config.bind(tangon)(report);
-            update = report.intl;
-            kiloes = update.string;
-            report = foxtra[echoed];
-            report = config.bind(tangon)(report);
-            report = report.t;
-            report = report.euS7r6;
-            report = kiloes.bind(update)(report);
-            entity['subHeaderText'] = report;
             kiloes = _closure1_slot11;
+            report = 10;
+            report = foxtra[report];
+            report = config.bind(tangon)(report);
+            update = report.Text;
+            report = {'variant': 'text-sm/medium', 'color': 'header-secondary'};
+            papara = foxtra[echoed];
+            papara = config.bind(tangon)(papara);
+            status = papara.intl;
+            target = status.string;
+            papara = foxtra[echoed];
+            papara = config.bind(tangon)(papara);
+            papara = papara.t;
+            papara = papara.euS7r6;
+            papara = target.bind(status)(papara);
+            report['children'] = papara;
+            report = kiloes.bind(tangon)(update, report);
+            entity['subHeader'] = report;
             report = 25;
             report = foxtra[report];
             oscard = oscard.bind(tangon)(report);
@@ -863,19 +870,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['label'] = foxtra;
             sequen = _closure1_slot0;
             config = _closure1_slot2;
-            if(result) { _fun00004_ip = 1153; continue _fun00003 }
- 1133:
+            if(result) { _fun00004_ip = 1194; continue _fun00003 }
+ 1174:
             foxtra = 28;
             foxtra = config[foxtra];
             foxtra = sequen.bind(tangon)(foxtra);
             foxtra = foxtra.EyeIcon;
-            _fun00004_ip = 1171; continue _fun00003;
- 1153:
+            _fun00004_ip = 1212; continue _fun00003;
+ 1194:
             vacuum = 27;
             vacuum = config[vacuum];
             vacuum = sequen.bind(tangon)(vacuum);
             foxtra = vacuum.EyeSlashIcon;
- 1171:
+ 1212:
             oscard['trailingIcon'] = foxtra;
             foxtra = {};
             record = _closure1_slot0;
@@ -887,15 +894,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum[echoed];
             vacuum = record.bind(tangon)(vacuum);
             vacuum = vacuum.t;
-            if(result) { _fun00004_ip = 1235; continue _fun00003 }
- 1222:
+            if(result) { _fun00004_ip = 1276; continue _fun00003 }
+ 1263:
             result = vacuum.nFzpMz;
             result = sequen.bind(config)(result);
-            _fun00004_ip = 1246; continue _fun00003;
- 1235:
+            _fun00004_ip = 1287; continue _fun00003;
+ 1276:
             vacuum = vacuum.Nusip6;
             result = sequen.bind(config)(vacuum);
- 1246:
+ 1287:
             foxtra['accessibilityLabel'] = result;
             result = function() { // Original name: onPress
                 zuuluu = _closure2_slot3;
@@ -957,8 +964,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.isAndroid;
             option = oscard.bind(option)();
             oscard = null;
-            if(!option) { _fun00004_ip = 1536; continue _fun00003 }
- 1454:
+            if(!option) { _fun00004_ip = 1577; continue _fun00003 }
+ 1495:
             kiloes = _closure1_slot11;
             foxtra = _closure1_slot14;
             option = {};
@@ -977,7 +984,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.bind(result)(sizing);
             option['text'] = sizing;
             oscard = kiloes.bind(tangon)(foxtra, option);
- 1536:
+ 1577:
             report[3] = oscard;
             foxtra = _closure1_slot11;
             option = _closure1_slot6;
@@ -1069,12 +1076,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset.message;
             option = romeon != oscard;
             oscard = null;
-            if(!option) { _fun00004_ip = 1940; continue _fun00003 }
- 1878:
+            if(!option) { _fun00004_ip = 1981; continue _fun00003 }
+ 1919:
             option = offset.message;
             oscard = null;
-            if(!(verify !== option)) { _fun00004_ip = 1940; continue _fun00003 }
- 1889:
+            if(!(verify !== option)) { _fun00004_ip = 1981; continue _fun00003 }
+ 1930:
             verify = _closure1_slot11;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -1087,7 +1094,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.message;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1940:
+ 1981:
             report[6] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

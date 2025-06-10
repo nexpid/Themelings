@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = null;
             report = golfie == tangon;
             tangon = undefined;
-            if(report) { _fun00004_ip = 95; continue _fun00003 }
+            if(report) { _fun00004_ip = 93; continue _fun00003 }
  66:
             option = _closure1_slot1;
             report = _closure1_slot2;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(michal)(report);
             report = option.getWindowSize;
             tangon = report.bind(option)();
- 95:
+ 93:
             kiloes = yankee;
             backup = tangon;
             tangon = copyDataProperties(kiloes, backup);
@@ -119,38 +119,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = report.bind(michal)(tangon);
             tangon = golfie == tangon;
             offset = undefined;
-            if(tangon) { _fun00004_ip = 160; continue _fun00003 }
- 131:
+            if(tangon) { _fun00004_ip = 156; continue _fun00003 }
+ 129:
             report = _closure1_slot1;
             tangon = _closure1_slot2;
             tangon = tangon[oscard];
             report = report.bind(michal)(tangon);
             tangon = report.getScreenSize;
             offset = tangon.bind(report)();
+ 156:
+            if(!(golfie == offset)) { _fun00004_ip = 178; continue _fun00003 }
  160:
-            if(!(golfie == offset)) { _fun00004_ip = 182; continue _fun00003 }
- 164:
             oscard = _closure1_slot3;
             report = oscard.get;
             tangon = 'screen';
             offset = report.bind(oscard)(tangon);
- 182:
+ 178:
             oscard = yankee.fontScale;
             report = offset.width;
             tangon = offset.height;
             report = report > tangon;
             option = golfie == entity;
             tangon = undefined;
-            if(option) { _fun00004_ip = 217; continue _fun00003 }
- 211:
+            if(option) { _fun00004_ip = 213; continue _fun00003 }
+ 207:
             tangon = entity.windowDimensions;
- 217:
+ 213:
             option = golfie == entity;
             verify = undefined;
-            if(option) { _fun00004_ip = 232; continue _fun00003 }
- 226:
+            if(option) { _fun00004_ip = 228; continue _fun00003 }
+ 222:
             verify = entity.windowDimensionsIgnoringKeyboard;
- 232:
+ 228:
             option = _closure1_slot5;
             backup = false;
             sizing = undefined;
@@ -165,25 +165,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = sizing[option](kiloes, backup, foxtra, romeon, yankee);
             golfie = golfie == entity;
             michal = undefined;
-            if(golfie) { _fun00004_ip = 283; continue _fun00003 }
- 277:
+            if(golfie) { _fun00004_ip = 279; continue _fun00003 }
+ 273:
             michal = entity.windowDimensions;
+ 279:
+            if(!(michal === tangon)) { _fun00004_ip = 303; continue _fun00003 }
  283:
-            if(!(michal === tangon)) { _fun00004_ip = 307; continue _fun00003 }
- 287:
             michal = entity.fontScale;
-            if(!(michal === oscard)) { _fun00004_ip = 307; continue _fun00003 }
- 297:
+            if(!(michal === oscard)) { _fun00004_ip = 303; continue _fun00003 }
+ 293:
             michal = entity.screenIsLandscape;
-            if(!(michal !== report)) { _fun00004_ip = 332; continue _fun00003 }
- 307:
+            if(!(michal !== report)) { _fun00004_ip = 328; continue _fun00003 }
+ 303:
             michal = {};
             michal['fontScale'] = oscard;
             michal['screenIsLandscape'] = report;
             michal['windowDimensions'] = tangon;
             michal['windowDimensionsIgnoringKeyboard'] = zuuluu;
             entity = michal;
- 332:
+ 328:
             return entity;
         }
     };

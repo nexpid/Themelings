@@ -147,7 +147,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         kiloes = backup[verify];
         kiloes = offset.bind(tangon)(kiloes);
         kiloes = kiloes.t;
-        kiloes = kiloes.bNMQVF;
+        kiloes = kiloes.i4AbAQ;
         kiloes = output.bind(result)(kiloes);
         golfie['children'] = kiloes;
         golfie = option.bind(tangon)(romeon, golfie);

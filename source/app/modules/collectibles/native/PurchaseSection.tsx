@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['buttonContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot10 = tangon;
-    tangon = 25;
+    tangon = 28;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.BUNDLE;
             backup = kiloes !== foxtra;
  461:
-            if(romeon) { _fun00002_ip = 1415; continue _fun00001 }
+            if(romeon) { _fun00002_ip = 1411; continue _fun00001 }
  467:
             if(!zuuluu) { _fun00002_ip = 537; continue _fun00001 }
  470:
@@ -245,11 +245,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = kiloes.bind(tangon)(foxtra, romeon);
             return romeon;
  537:
-            if(yankee) { _fun00002_ip = 1305; continue _fun00001 }
+            if(yankee) { _fun00002_ip = 1301; continue _fun00001 }
  543:
             if(!zuuluu) { _fun00002_ip = 552; continue _fun00001 }
  546:
-            if(michal) { _fun00002_ip = 1305; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1301; continue _fun00001 }
  552:
             zuuluu = entity.type;
             romeon = _closure1_slot0;
@@ -362,7 +362,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = result.bind(tangon)(ctrled, source);
             kiloes['icon'] = source;
             update = function() { // Original name: onPress
+                report = _closure1_slot1;
+                tangon = _closure1_slot2;
+                entity = 24;
+                zuuluu = tangon[entity];
                 entity = undefined;
+                oscard = report.bind(entity)(zuuluu);
+                report = oscard.hideActionSheet;
+                zuuluu = _closure1_slot0;
+                michal = 25;
+                michal = tangon[michal];
+                michal = zuuluu.bind(entity)(michal);
+                michal = michal.PRODUCT_DETAIL_ACTION_SHEET_KEY;
+                michal = report.bind(oscard)(michal);
+                michal = 26;
+                michal = tangon[michal];
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.openShopGiftModal;
+                michal = {};
+                report = _closure2_slot0;
+                michal['product'] = report;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
             kiloes['onPress'] = update;
@@ -387,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot7;
             foxtra = _closure1_slot0;
             kiloes = _closure1_slot2;
-            romeon = 24;
+            romeon = 27;
             romeon = kiloes[romeon];
             romeon = foxtra.bind(tangon)(romeon);
             foxtra = romeon.TextWithIOSLinkWorkaround;
@@ -431,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = yankee;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 1305:
+ 1301:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -457,7 +477,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onPress'] = verify;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 1415:
+ 1411:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot1;
             offset = _closure1_slot2;

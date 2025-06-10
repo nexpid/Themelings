@@ -26,6 +26,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/collectibles/native/openProductDetailActionSheet.tsx';
     tangon = report.bind(oscard)(tangon);
+    tangon = 'Shop Product Preview';
+    zuuluu['PRODUCT_DETAIL_ACTION_SHEET_KEY'] = tangon;
     michal = function(argFoo) { // Original name: openProductDetailActionSheet
         entity = argFoo;
         golfie = entity.product;

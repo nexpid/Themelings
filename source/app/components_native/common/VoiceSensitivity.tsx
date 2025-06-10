@@ -49,25 +49,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot9 = tangon;
     tangon = 7;
     tangon = oscard[tangon];
-    tangon = yankee.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.AppStates;
     var _closure1_slot10 = tangon;
     tangon = 8;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.AppStates;
+    tangon = tangon.NativePermissionTypes;
     var _closure1_slot11 = tangon;
     tangon = 9;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.NativePermissionTypes;
-    var _closure1_slot12 = tangon;
-    tangon = 10;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     golfie = tangon.jsx;
-    var _closure1_slot13 = golfie;
+    var _closure1_slot12 = golfie;
     tangon = tangon.jsxs;
-    var _closure1_slot14 = tangon;
+    var _closure1_slot13 = tangon;
     golfie = option.create;
     tangon = {};
     verify = {'position': 'relative', 'height': 20};
@@ -75,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'position': 'absolute', 'top': 7, 'left': 0, 'right': 0, 'bottom': 7, 'flexDirection': 'row'};
     tangon['sensitivityBar'] = verify;
     verify = {'position': 'absolute', 'backgroundColor': null, 'opacity': 0.5, 'top': 7, 'left': 0, 'right': 0, 'bottom': 7};
-    offset = 11;
+    offset = 10;
     foxtra = oscard[offset];
     foxtra = yankee.bind(entity)(foxtra);
     foxtra = foxtra.unsafe_rawColors;
@@ -100,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['sensitivityMax'] = verify;
     verify = {};
     verify['flex'] = romeon;
-    foxtra = 12;
+    foxtra = 11;
     foxtra = oscard[foxtra];
     sizing = report.bind(entity)(foxtra);
     kiloes = sizing.hexWithOpacity;
@@ -123,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'flex': 1, 'backgroundColor': 'transparent', 'marginVertical': 4294967286};
     tangon['sensitivitySlider'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot15 = tangon;
+    var _closure1_slot14 = tangon;
     tangon = 19;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -163,24 +159,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 1;
             zuuluu = zuuluu[update];
             var _closure2_slot2 = zuuluu;
-            golfie = _closure1_slot0;
+            report = _closure1_slot1;
             romeon = _closure1_slot2;
-            zuuluu = 13;
-            report = romeon[zuuluu];
-            vacuum = golfie.bind(tangon)(report);
-            ctrled = vacuum.useStateFromStores;
-            report = _closure1_slot10;
-            source = new Array(1);
-            source[0] = report;
-            echoed = function() {
-                michal = _closure1_slot10;
-                entity = michal.getWidth;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            report = new Array(0);
-            report = ctrled.bind(vacuum)(source, echoed, report);
+            zuuluu = 12;
+            zuuluu = romeon[zuuluu];
+            zuuluu = report.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.bind(tangon)();
+            report = zuuluu.width;
             var _closure2_slot3 = report;
+            golfie = _closure1_slot0;
+            zuuluu = 13;
             zuuluu = romeon[zuuluu];
             source = golfie.bind(tangon)(zuuluu);
             echoed = source.useStateFromStores;
@@ -326,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     zuuluu = undefined;
                                     golfie = report.bind(zuuluu)(michal);
                                     oscard = golfie.hasPermission;
-                                    michal = _closure1_slot12;
+                                    michal = _closure1_slot11;
                                     report = michal.AUDIO;
                                     michal = {};
                                     option = false;
@@ -381,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     var _closure3_slot1 = michal;
                     zuuluu = _closure2_slot4;
-                    michal = _closure1_slot11;
+                    michal = _closure1_slot10;
                     michal = michal.ACTIVE;
                     if(!(zuuluu !== michal)) { _fun00008_ip = 41; continue _fun00007 }
  37:
@@ -425,18 +413,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             zuuluu = golfie.bind(option)(zuuluu, report);
-            if(entity) { _fun00002_ip = 839; continue _fun00001 }
- 530:
-            report = _closure1_slot14;
+            if(entity) { _fun00002_ip = 820; continue _fun00001 }
+ 511:
+            report = _closure1_slot13;
             zuuluu = _closure1_slot6;
             entity = {};
-            backup = _closure1_slot15;
+            backup = _closure1_slot14;
             golfie = backup.sensitivity;
             entity['style'] = golfie;
             golfie = {};
             option = backup.sensitivityBar;
             golfie['style'] = option;
-            offset = _closure1_slot13;
+            offset = _closure1_slot12;
             option = {};
             option['ref'] = kiloes;
             result = backup.sensitivityCommon;
@@ -507,21 +495,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = golfie;
             entity = report.bind(tangon)(zuuluu, entity);
             return entity;
- 839:
-            entity = _closure1_slot15;
-            if(michal) { _fun00002_ip = 854; continue _fun00001 }
- 846:
+ 820:
+            entity = _closure1_slot14;
+            if(michal) { _fun00002_ip = 835; continue _fun00001 }
+ 827:
             yankee = entity.sensitivityDefault;
-            _fun00002_ip = 860; continue _fun00001;
- 854:
+            _fun00002_ip = 841; continue _fun00001;
+ 835:
             yankee = entity.sensitivitySpeaking;
- 860:
-            zuuluu = _closure1_slot14;
+ 841:
+            zuuluu = _closure1_slot13;
             michal = _closure1_slot6;
             entity = {};
-            option = _closure1_slot13;
+            option = _closure1_slot12;
             report = {};
-            offset = _closure1_slot15;
+            offset = _closure1_slot14;
             golfie = offset.sensitivity;
             report['style'] = golfie;
             golfie = {};

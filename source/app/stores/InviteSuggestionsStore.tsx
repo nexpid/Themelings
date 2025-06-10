@@ -259,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(verify) { _fun00010_ip = 142; continue _fun00009 }
  122:
             romeon = _closure1_slot11;
-            yankee = romeon.isBlocked;
+            yankee = romeon.isBlockedOrIgnored;
             offset = report.id;
             verify = yankee.bind(romeon)(offset);
  142:

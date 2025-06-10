@@ -27,18 +27,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.StaticChannelRoute;
     var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.StaticChannelRoute;
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -55,36 +51,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = offset;
             tangon = undefined;
             var _closure2_slot3 = tangon;
-            michal = _closure1_slot0;
+            michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
+            entity = 6;
+            entity = zuuluu[entity];
+            entity = michal.bind(tangon)(entity);
+            entity = entity.bind(tangon)();
+            yankee = entity.width;
+            verify = entity.height;
+            entity = global;
+            option = entity.Math;
+            golfie = option.min;
+            michal = entity.Math;
+            entity = michal.min;
+            michal = entity.bind(michal)(yankee, verify);
+            entity = 0.9;
+            michal = entity * michal;
+            entity = 500;
+            michal = golfie.bind(option)(michal, entity);
+            entity = 32;
+            option = michal - entity;
+            michal = _closure1_slot0;
             entity = 7;
-            golfie = zuuluu[entity];
-            yankee = michal.bind(tangon)(golfie);
-            verify = yankee.useStateFromStores;
-            golfie = _closure1_slot5;
-            option = new Array(1);
-            option[0] = golfie;
-            golfie = function() {
-                entity = global;
-                tangon = entity.Math;
-                zuuluu = tangon.min;
-                oscard = entity.Math;
-                report = oscard.min;
-                golfie = _closure1_slot5;
-                entity = golfie.getWidth;
-                michal = entity.bind(golfie)();
-                entity = golfie.getHeight;
-                entity = entity.bind(golfie)();
-                michal = report.bind(oscard)(michal, entity);
-                entity = 0.9;
-                michal = entity * michal;
-                entity = 500;
-                michal = zuuluu.bind(tangon)(michal, entity);
-                entity = 32;
-                entity = michal - entity;
-                return entity;
-            };
-            option = verify.bind(yankee)(option, golfie);
             entity = zuuluu[entity];
             golfie = michal.bind(tangon)(entity);
             zuuluu = golfie.useStateFromStores;
@@ -114,10 +102,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             verify = entity == michal;
             entity = undefined;
-            if(verify) { _fun00002_ip = 147; continue _fun00001 }
- 142:
+            if(verify) { _fun00002_ip = 203; continue _fun00001 }
+ 198:
             entity = michal.name;
- 147:
+ 203:
             michal = new Array(1);
             michal[0] = entity;
             entity = function() {
@@ -136,12 +124,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = {};
                     tangon = _closure1_slot1;
                     option = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 4;
                     zuuluu = option[zuuluu];
                     zuuluu = tangon.bind(golfie)(zuuluu);
                     entity['image'] = zuuluu;
                     zuuluu = _closure1_slot0;
-                    michal = 6;
+                    michal = 5;
                     tangon = option[michal];
                     tangon = zuuluu.bind(golfie)(tangon);
                     verify = tangon.intl;
@@ -179,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = tangon.bind(entity)(michal);
                     report = oscard.transitionToGuildSync;
                     tangon = _closure2_slot0;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ROLE_SUBSCRIPTIONS;
                     zuuluu = report.bind(oscard)(tangon, entity, zuuluu);
                     tangon = _closure2_slot1;
@@ -193,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             _closure2_slot3 = entity;
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot6;
             michal = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 9;
@@ -201,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = {};
             oscard = _closure1_slot0;
-            yankee = 6;
+            yankee = 5;
             romeon = verify[yankee];
             romeon = oscard.bind(tangon)(romeon);
             foxtra = romeon.intl;
@@ -214,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['cancelText'] = yankee;
             entity['onClose'] = offset;
             report = function() { // Original name: renderConfirmButton
-                tangon = _closure1_slot7;
+                tangon = _closure1_slot6;
                 option = _closure1_slot0;
                 verify = _closure1_slot2;
                 entity = 10;
@@ -225,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = {};
                 report = _closure2_slot3;
                 entity['onPress'] = report;
-                report = 6;
+                report = 5;
                 oscard = verify[report];
                 oscard = option.bind(zuuluu)(oscard);
                 golfie = oscard.intl;

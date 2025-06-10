@@ -2127,7 +2127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00040_ip = 1610; continue _fun00039 }
+                    if(zuuluu) { _fun00040_ip = 1614; continue _fun00039 }
  15:
                     var _closure4_slot0 = michal;
                     oscard = _closure1_slot0;
@@ -2154,7 +2154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  117:
                     oscard = michal.reactNativeFilePrepped;
                     report = true;
-                    if(!(report !== oscard)) { _fun00040_ip = 1549; continue _fun00039 }
+                    if(!(report !== oscard)) { _fun00040_ip = 1553; continue _fun00039 }
  132:
                     verify = _closure1_slot16;
                     option = verify.log;
@@ -2216,13 +2216,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return tangon;
  212:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00040_ip = 1546; continue _fun00039 }
+                    if(golfie) { _fun00040_ip = 1550; continue _fun00039 }
  221:
                     option = null;
-                    if(!(option != tangon)) { _fun00040_ip = 1502; continue _fun00039 }
+                    if(!(option != tangon)) { _fun00040_ip = 1506; continue _fun00039 }
  230:
                     golfie = tangon.file;
-                    if(!(option != golfie)) { _fun00040_ip = 1502; continue _fun00039 }
+                    if(!(option != golfie)) { _fun00040_ip = 1506; continue _fun00039 }
  243:
                     golfie = tangon.uri;
                     verify = tangon.file;
@@ -2235,7 +2235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = romeon.isResolvedUpload;
                     verify = tangon.file;
                     verify = offset.bind(romeon)(verify);
-                    if(!verify) { _fun00040_ip = 940; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 944; continue _fun00039 }
  303:
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
@@ -2247,21 +2247,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset['videoCompressionQuality'] = verify;
                     verify = tangon.file;
                     verify = verify.isImage;
-                    if(!verify) { _fun00040_ip = 410; continue _fun00039 }
+                    if(!verify) { _fun00040_ip = 414; continue _fun00039 }
  366:
                     offset = michal.uploadAnalytics;
-                    verify = michal.item;
-                    verify = verify.width;
+                    verify = tangon.file;
+                    verify = verify.sourceWidth;
                     offset['sourceMediaWidth'] = verify;
                     offset = michal.uploadAnalytics;
-                    verify = michal.item;
-                    verify = verify.height;
+                    verify = tangon.file;
+                    verify = verify.sourceHeight;
                     offset['sourceMediaHeight'] = verify;
- 410:
+ 414:
                     verify = tangon.file;
                     verify = verify.videoMetadata;
-                    if(!(foxtra !== verify)) { _fun00040_ip = 666; continue _fun00039 }
- 429:
+                    if(!(foxtra !== verify)) { _fun00040_ip = 670; continue _fun00039 }
+ 433:
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
                     verify = verify.videoMetadata;
@@ -2302,11 +2302,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.videoMetadata;
                     verify = verify.sourceLevel;
                     offset['sourceVideoLevel'] = verify;
- 666:
+ 670:
                     verify = tangon.file;
                     verify = verify.encodingConfig;
-                    if(!(foxtra !== verify)) { _fun00040_ip = 940; continue _fun00039 }
- 685:
+                    if(!(foxtra !== verify)) { _fun00040_ip = 944; continue _fun00039 }
+ 689:
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
                     verify = verify.encodingConfig;
@@ -2327,10 +2327,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.encodingConfig;
                     romeon = verify.useHEVC;
                     verify = 'avc1';
-                    if(!romeon) { _fun00040_ip = 814; continue _fun00039 }
- 808:
+                    if(!romeon) { _fun00040_ip = 818; continue _fun00039 }
+ 812:
                     verify = 'hvc1';
- 814:
+ 818:
                     offset['targetVideoCodec'] = verify;
                     offset = michal.uploadAnalytics;
                     verify = tangon.file;
@@ -2352,16 +2352,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.encodingConfig;
                     verify = verify.progressUpdateGranularity;
                     offset['progressUpdateGranularity'] = verify;
- 940:
+ 944:
                     michal['filename'] = yankee;
-                    if(!(option != yankee)) { _fun00040_ip = 1355; continue _fun00039 }
- 953:
-                    if(!(option != golfie)) { _fun00040_ip = 1355; continue _fun00039 }
- 960:
+                    if(!(option != yankee)) { _fun00040_ip = 1359; continue _fun00039 }
+ 957:
+                    if(!(option != golfie)) { _fun00040_ip = 1359; continue _fun00039 }
+ 964:
                     verify = tangon.file;
                     verify = verify.type;
-                    if(!(option != verify)) { _fun00040_ip = 1355; continue _fun00039 }
- 978:
+                    if(!(option != verify)) { _fun00040_ip = 1359; continue _fun00039 }
+ 982:
                     offset = yankee.split;
                     verify = '.';
                     offset = offset.bind(yankee)(verify);
@@ -2369,28 +2369,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = verify.bind(offset)();
                     verify = option == offset;
                     romeon = undefined;
-                    if(verify) { _fun00040_ip = 1021; continue _fun00039 }
- 1011:
+                    if(verify) { _fun00040_ip = 1025; continue _fun00039 }
+ 1015:
                     verify = offset.toLowerCase;
                     romeon = verify.bind(offset)();
- 1021:
+ 1025:
                     backup = 'image/jpeg';
                     verify = 'jpg';
                     offset = backup;
-                    if(!(verify !== romeon)) { _fun00040_ip = 1064; continue _fun00039 }
- 1040:
+                    if(!(verify !== romeon)) { _fun00040_ip = 1068; continue _fun00039 }
+ 1044:
                     verify = 'jpeg';
                     offset = backup;
-                    if(!(verify !== romeon)) { _fun00040_ip = 1064; continue _fun00039 }
- 1053:
+                    if(!(verify !== romeon)) { _fun00040_ip = 1068; continue _fun00039 }
+ 1057:
                     verify = tangon.file;
                     offset = verify.type;
- 1064:
+ 1068:
                     verify = michal.uploadAnalytics;
                     verify['convertedMimeType'] = offset;
                     result = tangon.fileSize;
-                    if(!(option == result)) { _fun00040_ip = 1137; continue _fun00039 }
- 1086:
+                    if(!(option == result)) { _fun00040_ip = 1141; continue _fun00039 }
+ 1090:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
                     verify = 16;
@@ -2398,22 +2398,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = romeon.bind(foxtra)(verify);
                     verify = romeon.getFileData;
                     verify = verify.bind(romeon)(golfie);
-                    SaveGenerator(address=1121);
- 1119:
+                    SaveGenerator(address=1125);
+ 1123:
                     return verify;
- 1121:
+ 1125:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=11);
-                    if(romeon) { _fun00040_ip = 1134; continue _fun00039 }
- 1127:
+                    if(romeon) { _fun00040_ip = 1138; continue _fun00039 }
+ 1131:
                     result = verify.size;
-                    _fun00040_ip = 1137; continue _fun00039;
- 1134:
+                    _fun00040_ip = 1141; continue _fun00039;
+ 1138:
                     return verify;
- 1137:
+ 1141:
                     michal['postCompressionSize'] = result;
                     michal['currentSize'] = result;
-                    if(!(option != result)) { _fun00040_ip = 1280; continue _fun00039 }
- 1156:
+                    if(!(option != result)) { _fun00040_ip = 1284; continue _fun00039 }
+ 1160:
                     romeon = _closure1_slot16;
                     verify = romeon.log;
                     echoed = michal.id;
@@ -2441,7 +2441,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['item'] = option;
                     michal['reactNativeFilePrepped'] = report;
                     return michal;
- 1280:
+ 1284:
                     offset = _closure1_slot16;
                     verify = offset.error;
                     foxtra = michal.id;
@@ -2458,7 +2458,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = new record[offset](config, sequen);
                     option = option instanceof Object ? option : verify;
                     throw option;
- 1355:
+ 1359:
                     romeon = _closure1_slot16;
                     verify = romeon.error;
                     kiloes = {};
@@ -2490,7 +2490,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = new record[verify](config, sequen);
                     golfie = golfie instanceof Object ? golfie : option;
                     throw golfie;
- 1502:
+ 1506:
                     option = _closure1_slot16;
                     golfie = option.error;
                     offset = michal.id;
@@ -2500,9 +2500,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = verify.bind(oscard)(offset);
                     oscard = golfie.bind(option)(oscard);
                     return michal;
- 1546:
+ 1550:
                     return tangon;
- 1549:
+ 1553:
                     tangon = michal.uploadAnalytics;
                     tangon['fileAlreadyPrepped'] = report;
                     report = _closure1_slot16;
@@ -2515,7 +2515,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = oscard.bind(zuuluu)(golfie);
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 1610:
+ 1614:
                     return entity;
                 }
             };

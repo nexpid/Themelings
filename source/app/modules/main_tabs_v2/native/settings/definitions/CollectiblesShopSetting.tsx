@@ -28,7 +28,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 2;
+        entity = 3;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -44,10 +44,23 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['title'] = tangon;
     tangon = null;
     michal['parent'] = tangon;
-    tangon = 3;
+    tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.useStaffOrDevEnvSettingPredicate;
+    tangon = tangon.ShopIcon;
+    michal['IconComponent'] = tangon;
+    tangon = function() { // Original name: useCollectiblesShopSettingPredicate
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 2;
+        michal = michal[entity];
+        entity = undefined;
+        zuuluu = zuuluu.bind(entity)(michal);
+        michal = zuuluu.useMobileShopSettingsEntryPoint;
+        entity = 'CollectiblesShopSetting';
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
     michal['usePredicate'] = tangon;
     tangon = {};
     option = option.COLLECTIBLES_SHOP;
@@ -55,7 +68,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = function() { // Original name: getComponent
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 4;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -64,7 +77,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     };
     tangon['getComponent'] = golfie;
     michal['screen'] = tangon;
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

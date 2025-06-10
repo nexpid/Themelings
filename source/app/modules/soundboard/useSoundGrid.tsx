@@ -400,7 +400,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = function() {
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 17;
+            entity = 18;
             michal = michal[entity];
             entity = undefined;
             michal = zuuluu.bind(entity)(michal);
@@ -480,7 +480,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.PremiumTypes;
     var _closure1_slot12 = report;
-    report = 18;
+    report = 19;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -489,71 +489,72 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = function(argFoo) { // Original name: useSoundGrid
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
-            kiloes = argFoo;
+            sizing = argFoo;
             michal = arguments[1];
-            golfie = arguments[2];
-            var _closure2_slot0 = kiloes;
-            sizing = undefined;
-            if(!(michal === sizing)) { _fun00016_ip = 23; continue _fun00015 }
+            option = arguments[2];
+            var _closure2_slot0 = sizing;
+            report = undefined;
+            if(!(michal === report)) { _fun00016_ip = 23; continue _fun00015 }
  21:
             michal = {};
  23:
-            offset = michal.filterOutEmptyCurrentGuild;
-            if(!(offset === sizing)) { _fun00016_ip = 35; continue _fun00015 }
+            yankee = michal.filterOutEmptyCurrentGuild;
+            if(!(yankee === report)) { _fun00016_ip = 35; continue _fun00015 }
  33:
-            offset = false;
+            yankee = false;
  35:
-            var _closure2_slot1 = offset;
-            if(!(golfie === sizing)) { _fun00016_ip = 45; continue _fun00015 }
+            var _closure2_slot1 = yankee;
+            if(!(option === report)) { _fun00016_ip = 45; continue _fun00015 }
  43:
-            golfie = false;
+            option = false;
  45:
-            var _closure2_slot2 = golfie;
-            var _closure2_slot3 = sizing;
-            var _closure2_slot4 = sizing;
-            var _closure2_slot5 = sizing;
-            var _closure2_slot6 = sizing;
-            var _closure2_slot7 = sizing;
-            var _closure2_slot8 = sizing;
-            var _closure2_slot9 = sizing;
-            var _closure2_slot10 = sizing;
-            var _closure2_slot11 = sizing;
-            var _closure2_slot12 = sizing;
-            var _closure2_slot13 = sizing;
-            var _closure2_slot14 = sizing;
-            var _closure2_slot15 = sizing;
+            var _closure2_slot2 = option;
+            var _closure2_slot3 = report;
+            var _closure2_slot4 = report;
+            var _closure2_slot5 = report;
+            var _closure2_slot6 = report;
+            var _closure2_slot7 = report;
+            var _closure2_slot8 = report;
+            var _closure2_slot9 = report;
+            var _closure2_slot10 = report;
+            var _closure2_slot11 = report;
+            var _closure2_slot12 = report;
+            var _closure2_slot13 = report;
+            var _closure2_slot14 = report;
+            var _closure2_slot15 = report;
+            var _closure2_slot16 = report;
             tangon = _closure1_slot0;
-            update = _closure1_slot2;
+            source = _closure1_slot2;
             zuuluu = 12;
-            report = update[zuuluu];
-            verify = tangon.bind(sizing)(report);
-            option = verify.useStateFromStores;
-            report = _closure1_slot7;
-            oscard = new Array(1);
-            oscard[0] = report;
-            report = function() {
+            oscard = source[zuuluu];
+            offset = tangon.bind(report)(oscard);
+            verify = offset.useStateFromStores;
+            oscard = _closure1_slot7;
+            golfie = new Array(1);
+            golfie[0] = oscard;
+            oscard = function() {
                 michal = _closure1_slot7;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            foxtra = option.bind(verify)(oscard, report);
-            romeon = _closure1_slot1;
-            verify = 13;
-            report = update[verify];
-            option = romeon.bind(sizing)(report);
-            oscard = option.isPremium;
-            report = _closure1_slot12;
-            report = report.TIER_2;
-            report = oscard.bind(option)(foxtra, report);
-            _closure2_slot3 = report;
-            oscard = update[zuuluu];
-            backup = tangon.bind(sizing)(oscard);
-            yankee = backup.useStateFromStoresArray;
-            oscard = _closure1_slot9;
-            option = new Array(1);
-            option[0] = oscard;
-            oscard = function() {
+            backup = verify.bind(offset)(golfie, oscard);
+            foxtra = _closure1_slot1;
+            offset = 13;
+            oscard = source[offset];
+            verify = foxtra.bind(report)(oscard);
+            golfie = verify.isPremium;
+            oscard = _closure1_slot12;
+            oscard = oscard.TIER_2;
+            oscard = golfie.bind(verify)(backup, oscard);
+            _closure2_slot3 = oscard;
+            golfie = source[zuuluu];
+            kiloes = tangon.bind(report)(golfie);
+            romeon = kiloes.useStateFromStoresArray;
+            golfie = _closure1_slot9;
+            verify = new Array(1);
+            verify[0] = golfie;
+            golfie = function() {
                 zuuluu = _closure1_slot9;
                 entity = zuuluu.getSounds;
                 michal = entity.bind(zuuluu)();
@@ -567,33 +568,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity[2] = michal;
                 return entity;
             };
-            yankee = yankee.bind(backup)(option, oscard);
-            option = _closure1_slot3;
-            oscard = 3;
-            option = option.bind(sizing)(yankee, oscard);
-            oscard = 0;
-            result = option[oscard];
-            _closure2_slot4 = result;
-            oscard = 1;
-            output = option[oscard];
-            _closure2_slot5 = output;
-            oscard = 2;
-            oscard = option[oscard];
-            _closure2_slot6 = oscard;
-            option = 14;
-            option = update[option];
-            backup = tangon.bind(sizing)(option);
-            yankee = backup.useSortedGuildIdsForSoundboard;
-            option = false;
-            echoed = yankee.bind(backup)(kiloes, option);
-            _closure2_slot7 = echoed;
-            option = update[zuuluu];
-            source = tangon.bind(sizing)(option);
-            kiloes = source.useStateFromStoresArray;
-            yankee = _closure1_slot5;
-            backup = new Array(1);
-            backup[0] = yankee;
-            option = function() {
+            romeon = romeon.bind(kiloes)(verify, golfie);
+            verify = _closure1_slot3;
+            golfie = 3;
+            verify = verify.bind(report)(romeon, golfie);
+            golfie = 0;
+            echoed = verify[golfie];
+            _closure2_slot4 = echoed;
+            golfie = 1;
+            result = verify[golfie];
+            _closure2_slot5 = result;
+            golfie = 2;
+            golfie = verify[golfie];
+            _closure2_slot6 = golfie;
+            verify = 14;
+            verify = source[verify];
+            kiloes = tangon.bind(report)(verify);
+            romeon = kiloes.useSortedGuildIdsForSoundboard;
+            verify = false;
+            update = romeon.bind(kiloes)(sizing, verify);
+            _closure2_slot7 = update;
+            verify = source[zuuluu];
+            output = tangon.bind(report)(verify);
+            sizing = output.useStateFromStoresArray;
+            romeon = _closure1_slot5;
+            kiloes = new Array(1);
+            kiloes[0] = romeon;
+            verify = function() {
                 entity = new Array(0);
                 var _closure3_slot0 = entity;
                 tangon = _closure2_slot7;
@@ -619,19 +620,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            option = kiloes.bind(source)(backup, option);
-            _closure2_slot8 = option;
-            verify = update[verify];
-            romeon = romeon.bind(sizing)(verify);
-            verify = romeon.canUseSoundboardEverywhere;
-            verify = verify.bind(romeon)(foxtra);
-            _closure2_slot9 = verify;
-            romeon = update[zuuluu];
-            backup = tangon.bind(sizing)(romeon);
-            foxtra = backup.useStateFromStores;
-            romeon = new Array(1);
-            romeon[0] = yankee;
-            yankee = function() {
+            verify = sizing.bind(output)(kiloes, verify);
+            _closure2_slot8 = verify;
+            offset = source[offset];
+            foxtra = foxtra.bind(report)(offset);
+            offset = foxtra.canUseSoundboardEverywhere;
+            offset = offset.bind(foxtra)(backup);
+            _closure2_slot9 = offset;
+            foxtra = source[zuuluu];
+            kiloes = tangon.bind(report)(foxtra);
+            backup = kiloes.useStateFromStores;
+            foxtra = new Array(1);
+            foxtra[0] = romeon;
+            romeon = function() {
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     zuuluu = _closure1_slot5;
@@ -649,17 +650,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            romeon = foxtra.bind(backup)(romeon, yankee);
-            _closure2_slot10 = romeon;
-            yankee = update[zuuluu];
-            source = tangon.bind(sizing)(yankee);
-            kiloes = source.useStateFromStores;
-            yankee = _closure1_slot6;
+            foxtra = backup.bind(kiloes)(foxtra, romeon);
+            _closure2_slot10 = foxtra;
+            romeon = source[zuuluu];
+            output = tangon.bind(report)(romeon);
+            sizing = output.useStateFromStores;
+            romeon = _closure1_slot6;
+            kiloes = new Array(1);
+            kiloes[0] = romeon;
             backup = new Array(1);
-            backup[0] = yankee;
-            foxtra = new Array(1);
-            foxtra[0] = romeon;
-            yankee = function() {
+            backup[0] = foxtra;
+            romeon = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 15;
@@ -672,120 +673,132 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.canCreateExpressions;
                 return entity;
             };
-            yankee = kiloes.bind(source)(backup, yankee, foxtra);
-            _closure2_slot11 = yankee;
-            foxtra = 16;
-            foxtra = update[foxtra];
-            kiloes = tangon.bind(sizing)(foxtra);
-            backup = kiloes.useRecentlyHeardExperiment;
-            foxtra = {'location': 'soundboard-useSoundGrid', 'autoTrackExposure': true};
-            backup = backup.bind(kiloes)(foxtra);
-            foxtra = backup.canSeeRecentlyHeard;
-            _closure2_slot12 = foxtra;
-            backup = backup.canSeeFrequentlyPlayed;
-            _closure2_slot13 = backup;
-            kiloes = _closure1_slot18;
-            kiloes = kiloes.bind(sizing)();
-            _closure2_slot14 = kiloes;
-            zuuluu = update[zuuluu];
-            update = tangon.bind(sizing)(zuuluu);
-            sizing = update.useStateFromStoresArray;
+            romeon = sizing.bind(output)(kiloes, romeon, backup);
+            _closure2_slot11 = romeon;
+            backup = 16;
+            backup = source[backup];
+            sizing = tangon.bind(report)(backup);
+            kiloes = sizing.useRecentlyHeardExperiment;
+            backup = {'location': 'soundboard-useSoundGrid', 'autoTrackExposure': true};
+            kiloes = kiloes.bind(sizing)(backup);
+            backup = kiloes.canSeeRecentlyHeard;
+            _closure2_slot12 = backup;
+            kiloes = kiloes.canSeeFrequentlyPlayed;
+            _closure2_slot13 = kiloes;
+            sizing = _closure1_slot18;
+            sizing = sizing.bind(report)();
+            _closure2_slot14 = sizing;
+            zuuluu = source[zuuluu];
+            vacuum = tangon.bind(report)(zuuluu);
+            ctrled = vacuum.useStateFromStoresArray;
             zuuluu = _closure1_slot8;
-            tangon = new Array(1);
-            tangon[0] = zuuluu;
+            output = new Array(1);
+            output[0] = zuuluu;
             zuuluu = function() {
                 entity = _closure1_slot8;
                 entity = entity.recentlyHeardSoundIds;
                 return entity;
             };
-            sizing = sizing.bind(update)(tangon, zuuluu);
-            _closure2_slot15 = sizing;
+            output = ctrled.bind(vacuum)(output, zuuluu);
+            _closure2_slot15 = output;
+            zuuluu = 17;
+            zuuluu = source[zuuluu];
+            zuuluu = tangon.bind(report)(zuuluu);
+            report = zuuluu.SoundboardDefaultReorderingExperiment;
+            tangon = report.useExperiment;
+            zuuluu = {};
+            source = 'useSoundGrid';
+            zuuluu['location'] = source;
+            report = tangon.bind(report)(zuuluu);
+            _closure2_slot16 = report;
             tangon = _closure1_slot4;
             zuuluu = tangon.useMemo;
-            michal = new Array(15);
-            michal[0] = echoed;
-            michal[1] = result;
-            michal[2] = output;
-            michal[3] = sizing;
-            michal[4] = kiloes;
-            michal[5] = backup;
-            michal[6] = foxtra;
-            michal[7] = romeon;
-            michal[8] = yankee;
-            michal[9] = offset;
-            michal[10] = verify;
-            michal[11] = option;
-            michal[12] = golfie;
-            michal[13] = oscard;
-            michal[14] = report;
+            michal = new Array(16);
+            michal[0] = update;
+            michal[1] = echoed;
+            michal[2] = result;
+            michal[3] = output;
+            michal[4] = sizing;
+            michal[5] = kiloes;
+            michal[6] = backup;
+            michal[7] = foxtra;
+            michal[8] = romeon;
+            michal[9] = yankee;
+            michal[10] = offset;
+            michal[11] = verify;
+            michal[12] = option;
+            michal[13] = golfie;
+            michal[14] = oscard;
+            report = report.enabled;
+            michal[15] = report;
             entity = function() {
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                    output = 0;
-                    var _closure3_slot0 = output;
-                    var _closure3_slot1 = output;
-                    tangon = new Array(0);
-                    entity = _closure2_slot2;
-                    if(entity) { _fun00022_ip = 1060; continue _fun00021 }
+                    result = 0;
+                    var _closure3_slot0 = result;
+                    var _closure3_slot1 = result;
+                    zuuluu = new Array(0);
+                    tangon = _closure2_slot2;
+                    if(tangon) { _fun00022_ip = 1068; continue _fun00021 }
  32:
                     report = _closure1_slot16;
-                    entity = {};
-                    entity['sections'] = tangon;
+                    tangon = {};
+                    tangon['sections'] = zuuluu;
                     golfie = _closure2_slot7;
-                    entity['guildIds'] = golfie;
+                    tangon['guildIds'] = golfie;
                     golfie = _closure2_slot4;
-                    entity['allSounds'] = golfie;
+                    tangon['allSounds'] = golfie;
                     golfie = global;
                     verify = golfie.Array;
                     option = verify.from;
                     golfie = _closure2_slot5;
                     golfie = option.bind(verify)(golfie);
-                    entity['potentialSoundIdsForSection'] = golfie;
+                    tangon['potentialSoundIdsForSection'] = golfie;
                     verify = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    sizing = 9;
-                    option = golfie[sizing];
+                    output = 9;
+                    option = golfie[output];
                     golfie = undefined;
                     option = verify.bind(golfie)(option);
                     option = option.SoundboardSoundGridSectionType;
                     option = option.FAVORITES;
-                    entity['sectionType'] = option;
+                    tangon['sectionType'] = option;
                     option = true;
-                    entity['sortById'] = option;
-                    entity = report.bind(golfie)(entity);
-                    entity = _closure2_slot12;
-                    if(!entity) { _fun00022_ip = 230; continue _fun00021 }
+                    tangon['sortById'] = option;
+                    tangon = report.bind(golfie)(tangon);
+                    tangon = _closure2_slot12;
+                    if(!tangon) { _fun00022_ip = 230; continue _fun00021 }
  146:
                     report = _closure1_slot16;
-                    entity = {};
-                    entity['sections'] = tangon;
+                    tangon = {};
+                    tangon['sections'] = zuuluu;
                     option = _closure2_slot7;
-                    entity['guildIds'] = option;
+                    tangon['guildIds'] = option;
                     option = _closure2_slot4;
-                    entity['allSounds'] = option;
+                    tangon['allSounds'] = option;
                     option = _closure2_slot15;
-                    entity['potentialSoundIdsForSection'] = option;
+                    tangon['potentialSoundIdsForSection'] = option;
                     verify = _closure1_slot0;
                     option = _closure1_slot2;
-                    option = option[sizing];
+                    option = option[output];
                     option = verify.bind(golfie)(option);
                     option = option.SoundboardSoundGridSectionType;
                     option = option.RECENTLY_HEARD;
-                    entity['sectionType'] = option;
+                    tangon['sectionType'] = option;
                     option = false;
-                    entity['sortById'] = option;
-                    entity = report.bind(golfie)(entity);
+                    tangon['sortById'] = option;
+                    tangon = report.bind(golfie)(tangon);
  230:
-                    entity = _closure2_slot13;
-                    if(!entity) { _fun00022_ip = 338; continue _fun00021 }
+                    tangon = _closure2_slot13;
+                    if(!tangon) { _fun00022_ip = 338; continue _fun00021 }
  237:
                     report = _closure1_slot16;
-                    entity = {};
-                    entity['sections'] = tangon;
+                    tangon = {};
+                    tangon['sections'] = zuuluu;
                     option = _closure2_slot7;
-                    entity['guildIds'] = option;
+                    tangon['guildIds'] = option;
                     option = _closure2_slot4;
-                    entity['allSounds'] = option;
+                    tangon['allSounds'] = option;
                     offset = _closure2_slot14;
                     verify = offset.map;
                     option = function(argFoo) {
@@ -794,32 +807,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     option = verify.bind(offset)(option);
-                    entity['potentialSoundIdsForSection'] = option;
+                    tangon['potentialSoundIdsForSection'] = option;
                     verify = _closure1_slot0;
                     option = _closure1_slot2;
-                    option = option[sizing];
+                    option = option[output];
                     option = verify.bind(golfie)(option);
                     option = option.SoundboardSoundGridSectionType;
                     option = option.FREQUENTLY_USED;
-                    entity['sectionType'] = option;
+                    tangon['sectionType'] = option;
                     option = false;
-                    entity['sortById'] = option;
-                    entity = report.bind(golfie)(entity);
+                    tangon['sortById'] = option;
+                    tangon = report.bind(golfie)(tangon);
  338:
-                    entity = _closure2_slot10;
-                    if(!(golfie !== entity)) { _fun00022_ip = 642; continue _fun00021 }
+                    tangon = _closure2_slot10;
+                    if(!(golfie !== tangon)) { _fun00022_ip = 642; continue _fun00021 }
  349:
                     verify = _closure2_slot10;
-                    entity = {};
+                    tangon = {};
                     report = _closure2_slot11;
-                    entity['currentGuildHasAddPermissions'] = report;
+                    tangon['currentGuildHasAddPermissions'] = report;
                     report = _closure2_slot4;
-                    entity['allSounds'] = report;
+                    tangon['allSounds'] = report;
                     report = _closure2_slot1;
-                    entity['filterOutEmptyCurrentGuild'] = report;
-                    report = entity.currentGuildHasAddPermissions;
-                    yankee = entity.allSounds;
-                    entity = entity.filterOutEmptyCurrentGuild;
+                    tangon['filterOutEmptyCurrentGuild'] = report;
+                    report = tangon.currentGuildHasAddPermissions;
+                    yankee = tangon.allSounds;
+                    tangon = tangon.filterOutEmptyCurrentGuild;
                     offset = yankee.get;
                     option = verify.id;
                     offset = offset.bind(yankee)(option);
@@ -844,7 +857,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = report;
  480:
                     report = option.length;
-                    report = output === report;
+                    report = result === report;
                     offset = !offset;
                     if(!offset) { _fun00022_ip = 498; continue _fun00021 }
  495:
@@ -852,7 +865,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  498:
                     if(offset) { _fun00022_ip = 504; continue _fun00021 }
  501:
-                    offset = entity;
+                    offset = tangon;
  504:
                     if(offset) { _fun00022_ip = 556; continue _fun00021 }
  507:
@@ -860,7 +873,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = {};
                     foxtra = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    romeon = romeon[sizing];
+                    romeon = romeon[output];
                     romeon = foxtra.bind(golfie)(romeon);
                     romeon = romeon.SoundboardSoundItemType;
                     romeon = romeon.ADD_SOUND;
@@ -868,18 +881,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset['guild'] = verify;
                     offset = yankee.bind(option)(offset);
  556:
-                    if(!entity) { _fun00022_ip = 562; continue _fun00021 }
+                    if(!tangon) { _fun00022_ip = 562; continue _fun00021 }
  559:
-                    entity = report;
+                    tangon = report;
  562:
-                    if(entity) { _fun00022_ip = 642; continue _fun00021 }
+                    if(tangon) { _fun00022_ip = 642; continue _fun00021 }
  565:
-                    report = tangon.push;
-                    entity = {};
+                    report = zuuluu.push;
+                    tangon = {};
                     offset = {};
                     romeon = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    yankee = yankee[sizing];
+                    yankee = yankee[output];
                     yankee = romeon.bind(golfie)(yankee);
                     yankee = yankee.SoundboardSoundGridSectionType;
                     yankee = yankee.GUILD;
@@ -887,105 +900,109 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset['guild'] = verify;
                     yankee = false;
                     offset['isNitroLocked'] = yankee;
-                    entity['categoryInfo'] = offset;
+                    tangon['categoryInfo'] = offset;
                     verify = verify.id;
-                    entity['key'] = verify;
-                    entity['items'] = option;
-                    entity = report.bind(tangon)(entity);
+                    tangon['key'] = verify;
+                    tangon['items'] = option;
+                    tangon = report.bind(zuuluu)(tangon);
  642:
-                    entity = _closure2_slot9;
-                    if(entity) { _fun00022_ip = 663; continue _fun00021 }
+                    tangon = _closure2_slot9;
+                    if(tangon) { _fun00022_ip = 658; continue _fun00021 }
  649:
-                    report = _closure1_slot17;
-                    entity = _closure2_slot4;
-                    entity = report.bind(golfie)(tangon, entity);
- 663:
-                    entity = {};
-                    entity['sections'] = tangon;
-                    report = _closure2_slot8;
-                    entity['guilds'] = report;
-                    report = _closure2_slot10;
-                    kiloes = null;
-                    option = kiloes == report;
-                    report = undefined;
-                    if(option) { _fun00022_ip = 703; continue _fun00021 }
- 694:
-                    option = _closure2_slot10;
-                    report = option.id;
- 703:
-                    entity['currentGuildId'] = report;
+                    report = _closure2_slot16;
+                    tangon = report.enabled;
+ 658:
+                    if(tangon) { _fun00022_ip = 675; continue _fun00021 }
+ 661:
+                    option = _closure1_slot17;
                     report = _closure2_slot4;
-                    entity['allSounds'] = report;
-                    report = _closure2_slot3;
-                    entity['hasNitro'] = report;
-                    backup = entity.sections;
-                    report = entity.guilds;
-                    foxtra = entity.currentGuildId;
-                    romeon = entity.allSounds;
-                    yankee = entity.hasNitro;
-                    entity = _closure1_slot13;
-                    offset = entity.bind(golfie)(report);
-                    report = offset.bind(golfie)();
-                    entity = report.done;
-                    verify = report;
+                    report = option.bind(golfie)(zuuluu, report);
+ 675:
+                    report = {};
+                    report['sections'] = zuuluu;
+                    option = _closure2_slot8;
+                    report['guilds'] = option;
+                    option = _closure2_slot10;
+                    sizing = null;
+                    verify = sizing == option;
                     option = undefined;
-                    report = undefined;
-                    if(entity) { _fun00022_ip = 956; continue _fun00021 }
- 787:
-                    source = verify.value;
-                    entity = source.id;
-                    if(!(entity !== foxtra)) { _fun00022_ip = 938; continue _fun00021 }
- 804:
-                    echoed = _closure1_slot15;
-                    result = romeon.get;
-                    entity = source.id;
-                    result = result.bind(romeon)(entity);
-                    entity = result;
-                    if(!(kiloes == result)) { _fun00022_ip = 834; continue _fun00021 }
- 830:
-                    entity = new Array(0);
- 834:
-                    entity = echoed.bind(golfie)(entity);
-                    echoed = entity.length;
-                    option = result;
-                    report = entity;
-                    if(!(echoed > output)) { _fun00022_ip = 938; continue _fun00021 }
- 854:
-                    update = backup.push;
-                    echoed = {};
-                    ctrled = {};
-                    sequen = _closure1_slot0;
-                    vacuum = _closure1_slot2;
-                    vacuum = vacuum[sizing];
-                    vacuum = sequen.bind(golfie)(vacuum);
-                    vacuum = vacuum.SoundboardSoundGridSectionType;
-                    vacuum = vacuum.GUILD;
-                    ctrled['type'] = vacuum;
-                    ctrled['guild'] = source;
-                    vacuum = !yankee;
-                    ctrled['isNitroLocked'] = vacuum;
-                    echoed['categoryInfo'] = ctrled;
-                    source = source.id;
-                    echoed['key'] = source;
-                    echoed['items'] = entity;
-                    echoed = update.bind(backup)(echoed);
-                    option = result;
-                    report = entity;
- 938:
-                    result = offset.bind(golfie)();
-                    entity = result.done;
-                    verify = result;
-                    if(!entity) { _fun00022_ip = 787; continue _fun00021 }
- 956:
-                    entity = _closure2_slot9;
-                    if(!entity) { _fun00022_ip = 977; continue _fun00021 }
- 963:
+                    if(verify) { _fun00022_ip = 715; continue _fun00021 }
+ 706:
+                    verify = _closure2_slot10;
+                    option = verify.id;
+ 715:
+                    report['currentGuildId'] = option;
+                    option = _closure2_slot4;
+                    report['allSounds'] = option;
+                    option = _closure2_slot3;
+                    report['hasNitro'] = option;
+                    kiloes = report.sections;
+                    option = report.guilds;
+                    backup = report.currentGuildId;
+                    foxtra = report.allSounds;
+                    romeon = report.hasNitro;
+                    report = _closure1_slot13;
+                    yankee = report.bind(golfie)(option);
+                    option = yankee.bind(golfie)();
+                    report = option.done;
+                    offset = option;
+                    verify = undefined;
+                    option = undefined;
+                    if(report) { _fun00022_ip = 968; continue _fun00021 }
+ 799:
+                    ctrled = offset.value;
+                    report = ctrled.id;
+                    if(!(report !== backup)) { _fun00022_ip = 950; continue _fun00021 }
+ 816:
+                    update = _closure1_slot15;
+                    echoed = foxtra.get;
+                    report = ctrled.id;
+                    echoed = echoed.bind(foxtra)(report);
+                    report = echoed;
+                    if(!(sizing == echoed)) { _fun00022_ip = 846; continue _fun00021 }
+ 842:
+                    report = new Array(0);
+ 846:
+                    report = update.bind(golfie)(report);
+                    update = report.length;
+                    verify = echoed;
+                    option = report;
+                    if(!(update > result)) { _fun00022_ip = 950; continue _fun00021 }
+ 866:
+                    source = kiloes.push;
+                    update = {};
+                    vacuum = {};
+                    config = _closure1_slot0;
+                    sequen = _closure1_slot2;
+                    sequen = sequen[output];
+                    sequen = config.bind(golfie)(sequen);
+                    sequen = sequen.SoundboardSoundGridSectionType;
+                    sequen = sequen.GUILD;
+                    vacuum['type'] = sequen;
+                    vacuum['guild'] = ctrled;
+                    sequen = !romeon;
+                    vacuum['isNitroLocked'] = sequen;
+                    update['categoryInfo'] = vacuum;
+                    ctrled = ctrled.id;
+                    update['key'] = ctrled;
+                    update['items'] = report;
+                    update = source.bind(kiloes)(update);
+                    verify = echoed;
+                    option = report;
+ 950:
+                    echoed = yankee.bind(golfie)();
+                    report = echoed.done;
+                    offset = echoed;
+                    if(!report) { _fun00022_ip = 799; continue _fun00021 }
+ 968:
+                    if(!tangon) { _fun00022_ip = 985; continue _fun00021 }
+ 971:
                     report = _closure1_slot17;
-                    entity = _closure2_slot4;
-                    entity = report.bind(golfie)(tangon, entity);
- 977:
-                    report = tangon.forEach;
-                    entity = function(argFoo) {
+                    tangon = _closure2_slot4;
+                    tangon = report.bind(golfie)(zuuluu, tangon);
+ 985:
+                    report = zuuluu.forEach;
+                    tangon = function(argFoo) {
                         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                             michal = argFoo;
@@ -1021,13 +1038,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    entity = report.bind(tangon)(entity);
-                    entity = {};
-                    entity['categories'] = tangon;
+                    tangon = report.bind(zuuluu)(tangon);
+                    tangon = {};
+                    tangon['categories'] = zuuluu;
                     report = _closure2_slot4;
-                    entity['allSounds'] = report;
+                    tangon['allSounds'] = report;
                     report = _closure2_slot6;
-                    entity['isFetching'] = report;
+                    tangon['isFetching'] = report;
                     report = {};
                     golfie = _closure2_slot5;
                     golfie = golfie.size;
@@ -1036,23 +1053,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['unlockedCustomSoundCount'] = golfie;
                     oscard = _closure3_slot1;
                     report['lockedCustomSoundCount'] = oscard;
-                    entity['soundCounts'] = report;
-                    _fun00022_ip = 1123; continue _fun00021;
- 1060:
-                    oscard = _closure1_slot17;
-                    report = _closure2_slot4;
-                    michal = undefined;
-                    michal = oscard.bind(michal)(tangon, report);
-                    michal = {};
-                    michal['categories'] = tangon;
+                    tangon['soundCounts'] = report;
+                    return tangon;
+ 1068:
+                    report = _closure1_slot17;
                     tangon = _closure2_slot4;
-                    michal['allSounds'] = tangon;
-                    zuuluu = _closure2_slot6;
-                    michal['isFetching'] = zuuluu;
-                    zuuluu = {'favoriteSoundCount': 0, 'unlockedCustomSoundCount': 0, 'lockedCustomSoundCount': 0};
-                    michal['soundCounts'] = zuuluu;
-                    entity = michal;
- 1123:
+                    entity = undefined;
+                    entity = report.bind(entity)(zuuluu, tangon);
+                    entity = {};
+                    entity['categories'] = zuuluu;
+                    zuuluu = _closure2_slot4;
+                    entity['allSounds'] = zuuluu;
+                    michal = _closure2_slot6;
+                    entity['isFetching'] = michal;
+                    michal = {'favoriteSoundCount': 0, 'unlockedCustomSoundCount': 0, 'lockedCustomSoundCount': 0};
+                    entity['soundCounts'] = michal;
                     return entity;
                 }
             };
