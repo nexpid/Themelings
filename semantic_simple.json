@@ -65,6 +65,18 @@
     "midnight": "#0c0c0e",
     "darker": "#202024"
   },
+  "BACKGROUND_BASE_LOWER": {
+    "dark": "#323339",
+    "light": "#fbfbfb",
+    "midnight": "#070709",
+    "darker": "#1a1a1e"
+  },
+  "BACKGROUND_BASE_LOWEST": {
+    "dark": "#2c2d32",
+    "light": "#f3f3f4",
+    "midnight": "#000000",
+    "darker": "#121214"
+  },
   "BACKGROUND_FLOATING": {
     "dark": "#111214",
     "light": "#ffffff",

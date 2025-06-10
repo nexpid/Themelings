@@ -329,6 +329,66 @@
       }
     ]
   },
+  "BACKGROUND_BASE_LOWER": {
+    "dark": [
+      "#323339",
+      {
+        "raw": "NEUTRAL_69",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#fbfbfb",
+      {
+        "raw": "NEUTRAL_2",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#070709",
+      {
+        "raw": "NEUTRAL_97",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#1a1a1e",
+      {
+        "raw": "NEUTRAL_86",
+        "opacity": 1
+      }
+    ]
+  },
+  "BACKGROUND_BASE_LOWEST": {
+    "dark": [
+      "#2c2d32",
+      {
+        "raw": "NEUTRAL_73",
+        "opacity": 1
+      }
+    ],
+    "light": [
+      "#f3f3f4",
+      {
+        "raw": "NEUTRAL_4",
+        "opacity": 1
+      }
+    ],
+    "midnight": [
+      "#000000",
+      {
+        "raw": "NEUTRAL_100",
+        "opacity": 1
+      }
+    ],
+    "darker": [
+      "#121214",
+      {
+        "raw": "NEUTRAL_92",
+        "opacity": 1
+      }
+    ]
+  },
   "BACKGROUND_FLOATING": {
     "dark": [
       "#111214",
@@ -2133,28 +2193,28 @@
     "dark": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "light": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "midnight": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "darker": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ]
@@ -2343,28 +2403,28 @@
     "dark": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "light": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "midnight": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "darker": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ]
@@ -2523,28 +2583,28 @@
     "dark": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "light": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "midnight": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "darker": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ]
@@ -2553,28 +2613,28 @@
     "dark": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "light": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "midnight": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "darker": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ]
@@ -2583,28 +2643,28 @@
     "dark": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "light": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "midnight": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "darker": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ]
@@ -3843,28 +3903,28 @@
     "dark": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "light": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "midnight": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ],
     "darker": [
       "#ffffff00",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0
       }
     ]
@@ -3993,28 +4053,28 @@
     "dark": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "light": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "midnight": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ],
     "darker": [
       "#ffffff",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 1
       }
     ]
@@ -4023,7 +4083,7 @@
     "dark": [
       "#ffffff1a",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.1
       }
     ],
@@ -4037,14 +4097,14 @@
     "midnight": [
       "#ffffff1a",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.1
       }
     ],
     "darker": [
       "#ffffff1a",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.1
       }
     ]
@@ -4053,7 +4113,7 @@
     "dark": [
       "#ffffff03",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.01
       }
     ],
@@ -4067,14 +4127,14 @@
     "midnight": [
       "#ffffff03",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.01
       }
     ],
     "darker": [
       "#ffffff03",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.01
       }
     ]
@@ -4083,7 +4143,7 @@
     "dark": [
       "#ffffff0d",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.05
       }
     ],
@@ -4097,14 +4157,14 @@
     "midnight": [
       "#ffffff0d",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.05
       }
     ],
     "darker": [
       "#ffffff0d",
       {
-        "raw": "WHITE_500",
+        "raw": "WHITE",
         "opacity": 0.05
       }
     ]
