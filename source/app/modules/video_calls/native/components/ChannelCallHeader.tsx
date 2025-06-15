@@ -661,8 +661,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     zuuluu = michal.bind(zuuluu)(entity);
                     entity = null;
-                    if(!(entity != zuuluu)) { _fun00014_ip = 86; continue _fun00013 }
- 50:
+                    if(!(entity != zuuluu)) { _fun00014_ip = 87; continue _fun00013 }
+ 51:
                     tangon = _closure1_slot1;
                     michal = _closure1_slot2;
                     entity = 38;
@@ -671,7 +671,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = tangon.bind(entity)(michal);
                     entity = michal.setVideoDevice;
                     entity = entity.bind(michal)(zuuluu);
- 86:
+ 87:
                     entity = undefined;
                     return entity;
                 }

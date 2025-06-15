@@ -33,6 +33,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report['DISPLAY_NAME'] = entity;
     entity = 'account_information';
     report['ACCOUNT_INFORMATION'] = entity;
+    entity = 'username';
+    report['USERNAME'] = entity;
+    entity = 'password';
+    report['PASSWORD'] = entity;
+    entity = 'identity_and_password';
+    report['IDENTITY_AND_PASSWORD'] = entity;
     entity = 'full';
     report['FULL'] = entity;
     entity = 'age_gate';
@@ -58,6 +64,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon['REGISTER'] = entity;
     entity = 'Captcha';
     tangon['CAPTCHA'] = entity;
+    entity = 'Username';
+    tangon['USERNAME'] = entity;
+    entity = 'Password';
+    tangon['PASSWORD'] = entity;
+    entity = 'Account Identity and Password';
+    tangon['ACCOUNT_IDENTITY_AND_PASSWORD'] = entity;
     var _closure1_slot2 = tangon;
     entity = 1;
     golfie = golfie[entity];
@@ -81,7 +93,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.AuthStates;
             zuuluu = zuuluu.REGISTER_IDENTITY;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 231; continue _fun00001 }
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 375; continue _fun00001 }
  46:
             report = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -89,7 +101,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.AuthStates;
             zuuluu = zuuluu.REGISTER_DISPLAY_NAME;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 219; continue _fun00001 }
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 363; continue _fun00001 }
  82:
             report = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -97,42 +109,78 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.AuthStates;
             zuuluu = zuuluu.REGISTER_ACCOUNT_INFORMATION;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 207; continue _fun00001 }
- 115:
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 351; continue _fun00001 }
+ 118:
             report = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.AuthStates;
             zuuluu = zuuluu.AGE_GATE;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 195; continue _fun00001 }
- 148:
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 339; continue _fun00001 }
+ 154:
             report = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             zuuluu = report.bind(michal)(zuuluu);
             zuuluu = zuuluu.AuthStates;
             zuuluu = zuuluu.VERIFY_PHONE;
-            if(!(zuuluu !== tangon)) { _fun00002_ip = 183; continue _fun00001 }
- 181:
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 327; continue _fun00001 }
+ 190:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.AuthStates;
+            zuuluu = zuuluu.REGISTER_USERNAME;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 315; continue _fun00001 }
+ 223:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.AuthStates;
+            zuuluu = zuuluu.REGISTER_PASSWORD;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 303; continue _fun00001 }
+ 256:
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            zuuluu = zuuluu[oscard];
+            zuuluu = report.bind(michal)(zuuluu);
+            zuuluu = zuuluu.AuthStates;
+            zuuluu = zuuluu.REGISTER_IDENTITY_AND_PASSWORD;
+            if(!(zuuluu !== tangon)) { _fun00002_ip = 291; continue _fun00001 }
+ 289:
             return michal;
- 183:
+ 291:
+            michal = _closure1_slot2;
+            michal = michal.ACCOUNT_IDENTITY_AND_PASSWORD;
+            return michal;
+ 303:
+            michal = _closure1_slot2;
+            michal = michal.PASSWORD;
+            return michal;
+ 315:
+            michal = _closure1_slot2;
+            michal = michal.USERNAME;
+            return michal;
+ 327:
             michal = _closure1_slot2;
             michal = michal.PHONE_VERIFICATION;
             return michal;
- 195:
+ 339:
             michal = _closure1_slot2;
             michal = michal.AGE_GATE;
             return michal;
- 207:
+ 351:
             michal = _closure1_slot2;
             michal = michal.ACCOUNT_INFORMATION;
             return michal;
- 219:
+ 363:
             michal = _closure1_slot2;
             michal = michal.ACCOUNT_DISPLAY_NAME;
             return michal;
- 231:
+ 375:
             entity = _closure1_slot2;
             entity = entity.ACCOUNT_IDENTITY;
             return entity;

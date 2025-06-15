@@ -153,17 +153,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             option = new Array(2);
             option[0] = offset;
-            if(!verify) { _fun00002_ip = 281; continue _fun00001 }
- 258:
+            if(!verify) { _fun00002_ip = 285; continue _fun00001 }
+ 262:
             offset = {};
-            if(!(foxtra == yankee)) { _fun00002_ip = 274; continue _fun00001 }
- 264:
+            if(!(foxtra == yankee)) { _fun00002_ip = 278; continue _fun00001 }
+ 268:
             romeon = romeon.default;
             yankee = romeon.backgroundColor;
- 274:
+ 278:
             offset['backgroundColor'] = yankee;
             verify = offset;
- 281:
+ 285:
             option[1] = verify;
             report['style'] = option;
             report['children'] = golfie;

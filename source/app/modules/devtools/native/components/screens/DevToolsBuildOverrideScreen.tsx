@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = _closure1_slot9;
             tangon = undefined;
-            offset = entity.bind(tangon)();
+            verify = entity.bind(tangon)();
             michal = _closure1_slot1;
             option = _closure1_slot2;
             entity = 9;
@@ -100,13 +100,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = true;
             entity['includeKeyboardHeightIOS'] = output;
             entity = michal.bind(tangon)(entity);
-            verify = entity.insets;
-            report = entity.onScroll;
+            golfie = entity.insets;
             oscard = _closure1_slot0;
             entity = 10;
             entity = option[entity];
-            golfie = oscard.bind(tangon)(entity);
-            zuuluu = golfie.useStateFromStores;
+            report = oscard.bind(tangon)(entity);
+            zuuluu = report.useStateFromStores;
             entity = _closure1_slot6;
             michal = new Array(1);
             michal[0] = entity;
@@ -134,7 +133,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            result = zuuluu.bind(golfie)(michal, entity);
+            result = zuuluu.bind(report)(michal, entity);
             var _closure2_slot0 = result;
             zuuluu = _closure1_slot4;
             michal = zuuluu.useState;
@@ -169,30 +168,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     zuuluu = entity == michal;
                     entity = undefined;
-                    if(zuuluu) { _fun00006_ip = 49; continue _fun00005 }
- 44:
+                    if(zuuluu) { _fun00006_ip = 50; continue _fun00005 }
+ 45:
                     entity = michal.label;
- 49:
+ 50:
                     return entity;
                 }
             };
             zuuluu = _closure1_slot7;
             michal = _closure1_slot5;
             entity = {};
-            golfie = offset.content;
-            entity['style'] = golfie;
-            golfie = {};
-            status = offset.contentContainer;
-            sierra = golfie;
-            yankee = copyDataProperties(sierra, status);
-            offset = offset.contentContainer;
-            offset = offset.padding;
-            verify = verify.bottom;
-            offset = offset + verify;
-            verify = 'paddingBottom';
-            golfie[verify] = offset;
-            entity['contentContainerStyle'] = golfie;
-            entity['onScroll'] = report;
+            report = verify.content;
+            entity['style'] = report;
+            report = {};
+            status = verify.contentContainer;
+            sierra = report;
+            offset = copyDataProperties(sierra, status);
+            verify = verify.contentContainer;
+            verify = verify.padding;
+            golfie = golfie.bottom;
+            verify = verify + golfie;
+            golfie = 'paddingBottom';
+            report[golfie] = verify;
+            entity['contentContainerStyle'] = report;
             golfie = _closure1_slot8;
             report = 12;
             report = option[report];
@@ -204,8 +202,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = null;
             option = offset != result;
             verify = null;
-            if(!option) { _fun00002_ip = 648; continue _fun00001 }
- 302:
+            if(!option) { _fun00002_ip = 637; continue _fun00001 }
+ 291:
             sizing = _closure1_slot8;
             config = _closure1_slot0;
             record = _closure1_slot2;
@@ -297,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[2] = update;
             option['children'] = echoed;
             verify = sizing.bind(tangon)(yankee, option);
- 648:
+ 637:
             option = new Array(4);
             option[0] = verify;
             sizing = _closure1_slot7;
@@ -310,10 +308,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = {};
             result = offset != result;
             echoed = backup;
-            if(!result) { _fun00002_ip = 704; continue _fun00001 }
- 698:
+            if(!result) { _fun00002_ip = 693; continue _fun00001 }
+ 687:
             echoed = 'New';
- 704:
+ 693:
             result = ' Override Type';
             result = echoed + result;
             verify['title'] = result;
@@ -385,10 +383,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = update.bind(source)(yankee);
             update = offset == yankee;
             offset = undefined;
-            if(update) { _fun00002_ip = 872; continue _fun00001 }
- 867:
+            if(update) { _fun00002_ip = 862; continue _fun00001 }
+ 857:
             offset = yankee.icon;
- 872:
+ 862:
             result['icon'] = offset;
             yankee = _closure1_slot7;
             offset = _closure1_slot0;

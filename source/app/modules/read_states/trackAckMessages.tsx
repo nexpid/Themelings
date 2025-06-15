@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/read_states/trackAckMessages.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: trackAckMessages
+    michal = function(argFoo, argBar) { // Original name: trackAckMessages
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golfie = argFoo;
@@ -69,9 +69,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = option.bind(verify)();
  85:
             michal['guild_id'] = golfie;
+            golfie = argBar;
+            michal['location'] = golfie;
             golfie = global;
-            option = golfie.location;
-            michal['location'] = option;
             option = golfie.Object;
             golfie = option.values;
             verify = _closure1_slot4;

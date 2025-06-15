@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['overrideDismissibleContentFramework'] = tangon;
-    michal = function(argFoo) {
+    tangon = function(argFoo) {
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 0;
@@ -103,6 +103,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['overrideNewUserMinAgeRequired'] = michal;
+    zuuluu['overrideNewUserMinAgeRequired'] = tangon;
+    michal = function(argFoo) {
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'DCF_OVERRIDE_LAST_DC_DISMISSED';
+        michal['type'] = report;
+        report = argFoo;
+        michal['dismissibleContent'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['overrideDCFLastDCDismissed'] = michal;
     return entity;
 })();

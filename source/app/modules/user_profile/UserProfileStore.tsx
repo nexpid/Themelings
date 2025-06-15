@@ -1561,10 +1561,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = 9;
     option = oscard[option];
     option = offset.bind(entity)(option);
-    var _closure1_slot12 = option;
-    option = 10;
-    option = oscard[option];
-    option = offset.bind(entity)(option);
+    verify = 10;
+    verify = oscard[verify];
+    verify = offset.bind(entity)(verify);
+    var _closure1_slot12 = verify;
     verify = 11;
     verify = oscard[verify];
     verify = offset.bind(entity)(verify);

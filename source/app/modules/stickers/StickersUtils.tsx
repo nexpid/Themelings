@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = michal;
             tangon = michal.cover_sticker_id;
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00004_ip = 46; continue _fun00003 }
+            if(!(zuuluu != tangon)) { _fun00004_ip = 47; continue _fun00003 }
  21:
             report = michal.stickers;
             tangon = report.find;
@@ -159,13 +159,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = tangon.bind(report)(entity);
-            if(!(zuuluu == entity)) { _fun00004_ip = 60; continue _fun00003 }
- 46:
+            if(!(zuuluu == entity)) { _fun00004_ip = 61; continue _fun00003 }
+ 47:
             zuuluu = michal.stickers;
             michal = 0;
             michal = zuuluu[michal];
             return michal;
- 60:
+ 61:
             return entity;
         }
     };
@@ -723,7 +723,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.getUploadCount;
             zuuluu = zuuluu.bind(tangon)(option, golfie);
             tangon = 0;
-            if(!(!(zuuluu > tangon))) { _fun00022_ip = 285; continue _fun00021 }
+            if(!(!(zuuluu > tangon))) { _fun00022_ip = 249; continue _fun00021 }
  40:
             oscard = _closure1_slot5;
             zuuluu = oscard.getStickerPreview;
@@ -732,7 +732,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(oscard != zuuluu)) { _fun00022_ip = 76; continue _fun00021 }
  64:
             zuuluu = zuuluu.length;
-            if(!(!(zuuluu > tangon))) { _fun00022_ip = 281; continue _fun00021 }
+            if(!(!(zuuluu > tangon))) { _fun00022_ip = 245; continue _fun00021 }
  76:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -742,24 +742,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.bind(tangon)(zuuluu);
             zuuluu = zuuluu.StickerSelectLocation;
             zuuluu = zuuluu.STICKER_PICKER;
-            if(!(zuuluu !== report)) { _fun00022_ip = 261; continue _fun00021 }
- 117:
+            if(!(zuuluu !== report)) { _fun00022_ip = 225; continue _fun00021 }
+ 114:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
             zuuluu = golfie.bind(tangon)(zuuluu);
             zuuluu = zuuluu.StickerSelectLocation;
             zuuluu = zuuluu.AUTOCOMPLETE;
-            if(!(zuuluu !== report)) { _fun00022_ip = 216; continue _fun00021 }
- 150:
-            golfie = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[oscard];
-            zuuluu = golfie.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.StickerSelectLocation;
-            zuuluu = zuuluu.EXPRESSION_SUGGESTIONS;
-            if(!(zuuluu !== report)) { _fun00022_ip = 216; continue _fun00021 }
- 183:
+            if(!(zuuluu !== report)) { _fun00022_ip = 180; continue _fun00021 }
+ 147:
             report = _closure1_slot0;
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[oscard];
@@ -768,7 +760,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.BUILT_IN_INTEGRATION;
             zuuluu = false;
             return zuuluu;
- 216:
+ 180:
             zuuluu = _closure1_slot0;
             report = _closure1_slot1;
             entity = 10;
@@ -780,16 +772,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 1;
             entity = zuuluu > entity;
             return entity;
- 261:
+ 225:
             entity = michal.trim;
             michal = entity.bind(michal)();
             entity = '';
             entity = entity !== michal;
             return entity;
- 281:
+ 245:
             entity = true;
             return entity;
- 285:
+ 249:
             entity = true;
             return entity;
         }

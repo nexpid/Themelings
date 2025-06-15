@@ -113,76 +113,82 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = function(argFoo) { // Original name: selectVoiceChannel
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            golfie = argFoo;
-            oscard = arguments[1];
-            report = arguments[2];
+            option = argFoo;
+            golfie = arguments[1];
+            oscard = arguments[2];
+            report = arguments[3];
             entity = undefined;
-            if(!(oscard === entity)) { _fun00004_ip = 17; continue _fun00003 }
- 15:
+            if(!(golfie === entity)) { _fun00004_ip = 20; continue _fun00003 }
+ 18:
+            golfie = false;
+ 20:
+            if(!(oscard === entity)) { _fun00004_ip = 26; continue _fun00003 }
+ 24:
             oscard = false;
- 17:
-            if(!(report === entity)) { _fun00004_ip = 23; continue _fun00003 }
- 21:
-            report = false;
- 23:
+ 26:
+            if(!(report === entity)) { _fun00004_ip = 32; continue _fun00003 }
+ 30:
+            report = {};
+ 32:
             tangon = _closure1_slot5;
             zuuluu = tangon.getChannel;
-            verify = zuuluu.bind(tangon)(golfie);
+            offset = zuuluu.bind(tangon)(option);
             zuuluu = null;
-            option = zuuluu == verify;
+            verify = zuuluu == offset;
             tangon = undefined;
-            if(option) { _fun00004_ip = 61; continue _fun00003 }
- 51:
-            option = verify.getGuildId;
-            tangon = option.bind(verify)();
- 61:
-            if(!(zuuluu != golfie)) { _fun00004_ip = 69; continue _fun00003 }
- 65:
-            if(!(zuuluu == tangon)) { _fun00004_ip = 101; continue _fun00003 }
- 69:
-            verify = _closure1_slot0;
-            offset = _closure1_slot3;
-            option = 10;
-            option = offset[option];
-            verify = verify.bind(entity)(option);
-            option = verify.endHangout;
-            option = option.bind(verify)();
-            _fun00004_ip = 133; continue _fun00003;
- 101:
-            verify = _closure1_slot0;
-            offset = _closure1_slot3;
-            option = 10;
-            option = offset[option];
-            verify = verify.bind(entity)(option);
-            option = verify.startHangout;
-            option = option.bind(verify)(tangon, golfie);
- 133:
+            if(verify) { _fun00004_ip = 70; continue _fun00003 }
+ 60:
+            verify = offset.getGuildId;
+            tangon = verify.bind(offset)();
+ 70:
+            if(!(zuuluu != option)) { _fun00004_ip = 78; continue _fun00003 }
+ 74:
+            if(!(zuuluu == tangon)) { _fun00004_ip = 110; continue _fun00003 }
+ 78:
+            offset = _closure1_slot0;
+            yankee = _closure1_slot3;
+            verify = 10;
+            verify = yankee[verify];
+            offset = offset.bind(entity)(verify);
+            verify = offset.endHangout;
+            verify = verify.bind(offset)();
+            _fun00004_ip = 142; continue _fun00003;
+ 110:
+            offset = _closure1_slot0;
+            yankee = _closure1_slot3;
+            verify = 10;
+            verify = yankee[verify];
+            offset = offset.bind(entity)(verify);
+            verify = offset.startHangout;
+            verify = verify.bind(offset)(tangon, option);
+ 142:
+            offset = _closure1_slot6;
+            verify = offset.isSupported;
+            verify = verify.bind(offset)();
+            if(!verify) { _fun00004_ip = 235; continue _fun00003 }
+ 159:
+            if(!(zuuluu != option)) { _fun00004_ip = 187; continue _fun00003 }
+ 163:
             verify = _closure1_slot6;
-            option = verify.isSupported;
-            option = option.bind(verify)();
-            if(!option) { _fun00004_ip = 223; continue _fun00003 }
- 150:
-            if(!(zuuluu != golfie)) { _fun00004_ip = 178; continue _fun00003 }
- 154:
-            option = _closure1_slot6;
-            zuuluu = option.getMediaEngine;
-            option = zuuluu.bind(option)();
-            zuuluu = option.interact;
-            zuuluu = zuuluu.bind(option)();
- 178:
+            zuuluu = verify.getMediaEngine;
+            verify = zuuluu.bind(verify)();
+            zuuluu = verify.interact;
+            zuuluu = zuuluu.bind(verify)();
+ 187:
             zuuluu = _closure1_slot0;
-            option = _closure1_slot3;
+            verify = _closure1_slot3;
             michal = 11;
-            michal = option[michal];
+            michal = verify[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.selectVoiceChannelAdditional;
-            kiloes = zuuluu;
+            output = zuuluu;
+            sizing = option;
+            kiloes = tangon;
             backup = golfie;
-            foxtra = tangon;
-            romeon = oscard;
-            yankee = report;
-            michal = kiloes[michal](backup, foxtra, romeon, yankee, offset);
- 223:
+            foxtra = oscard;
+            romeon = report;
+            michal = output[michal](sizing, kiloes, backup, foxtra, romeon, yankee);
+ 235:
             return entity;
         }
     };

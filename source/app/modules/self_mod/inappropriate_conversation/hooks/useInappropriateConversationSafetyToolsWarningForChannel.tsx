@@ -45,9 +45,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             golfie = option.useInappropriateConversationWarningsForChannel;
             oscard = argFoo;
             oscard = golfie.bind(option)(oscard);
-            if(!report) { _fun00002_ip = 127; continue _fun00001 }
+            if(!report) { _fun00002_ip = 129; continue _fun00001 }
  100:
-            if(!tangon) { _fun00002_ip = 127; continue _fun00001 }
+            if(!tangon) { _fun00002_ip = 129; continue _fun00001 }
  103:
             report = oscard.filter;
             tangon = function(argFoo) {
@@ -59,10 +59,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             };
             tangon = report.bind(oscard)(tangon);
             report = tangon.length;
-            if(!(michal === report)) { _fun00002_ip = 129; continue _fun00001 }
- 127:
-            return zuuluu;
+            if(!(michal === report)) { _fun00002_ip = 131; continue _fun00001 }
  129:
+            return zuuluu;
+ 131:
             zuuluu = tangon.sort;
             entity = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {

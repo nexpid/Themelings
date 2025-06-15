@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  38:
                 entity = entity != report;
                 tangon = false;
-                if(!entity) { _fun00002_ip = 87; continue _fun00001 }
+                if(!entity) { _fun00002_ip = 88; continue _fun00001 }
  47:
                 michal = report.split;
                 entity = '.';
@@ -81,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(report)(entity);
                 entity = -1;
                 tangon = entity !== michal;
- 87:
+ 88:
                 michal = _closure1_slot0;
                 report = _closure1_slot2;
                 entity = 4;

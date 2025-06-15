@@ -185,10 +185,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu * golfie;
             echoed = report.bind(oscard)(zuuluu);
             foxtra = michal;
-            if(foxtra) { _fun00002_ip = 673; continue _fun00001 }
- 670:
+            if(foxtra) { _fun00002_ip = 669; continue _fun00001 }
+ 666:
             foxtra = entity;
- 673:
+ 669:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot5;
             entity = {};

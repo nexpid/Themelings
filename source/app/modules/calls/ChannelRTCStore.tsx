@@ -324,12 +324,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = option.size;
                             zuuluu = zuuluu.bind(option)();
                             report = 0;
-                            if(!(report !== zuuluu)) { _fun00016_ip = 553; continue _fun00015 }
+                            if(!(report !== zuuluu)) { _fun00016_ip = 555; continue _fun00015 }
  55:
                             oscard = _closure1_slot16;
                             zuuluu = oscard.getVoiceChannelId;
                             zuuluu = zuuluu.bind(oscard)();
-                            if(!(zuuluu === tangon)) { _fun00016_ip = 553; continue _fun00015 }
+                            if(!(zuuluu === tangon)) { _fun00016_ip = 555; continue _fun00015 }
  76:
                             zuuluu = _closure1_slot22;
                             zuuluu = zuuluu.NONE;
@@ -363,14 +363,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             };
                             zuuluu = oscard.bind(offset)(zuuluu);
                             offset = null;
-                            if(!(offset == zuuluu)) { _fun00016_ip = 330; continue _fun00015 }
- 153:
+                            if(!(offset == zuuluu)) { _fun00016_ip = 332; continue _fun00015 }
+ 154:
                             oscard = option.size;
                             romeon = oscard.bind(option)();
                             yankee = 1;
                             oscard = golfie;
-                            if(!(yankee !== romeon)) { _fun00016_ip = 386; continue _fun00015 }
- 175:
+                            if(!(yankee !== romeon)) { _fun00016_ip = 388; continue _fun00015 }
+ 176:
                             backup = option.size;
                             kiloes = _closure1_slot0;
                             romeon = _closure1_slot2;
@@ -379,8 +379,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             romeon = romeon.ChannelRTCParticipantsIndexes;
                             romeon = romeon.VIDEO;
                             romeon = backup.bind(option)(romeon);
-                            if(!(yankee !== romeon)) { _fun00016_ip = 269; continue _fun00015 }
- 218:
+                            if(!(yankee !== romeon)) { _fun00016_ip = 271; continue _fun00015 }
+ 219:
                             romeon = option.toArray;
                             backup = romeon.bind(option)();
                             romeon = backup.find;
@@ -409,17 +409,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             romeon = romeon.bind(backup)(verify);
                             backup = offset == romeon;
                             verify = undefined;
-                            if(backup) { _fun00016_ip = 257; continue _fun00015 }
- 252:
+                            if(backup) { _fun00016_ip = 259; continue _fun00015 }
+ 254:
                             verify = romeon.id;
- 257:
-                            if(!(offset != verify)) { _fun00016_ip = 264; continue _fun00015 }
- 261:
+ 259:
+                            if(!(offset != verify)) { _fun00016_ip = 266; continue _fun00015 }
+ 263:
                             golfie = verify;
- 264:
+ 266:
                             oscard = golfie;
-                            _fun00016_ip = 386; continue _fun00015;
- 269:
+                            _fun00016_ip = 388; continue _fun00015;
+ 271:
                             verify = option.toArray;
                             romeon = _closure1_slot0;
                             golfie = _closure1_slot2;
@@ -432,8 +432,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             golfie = golfie.bind(entity)(verify, yankee);
                             golfie = golfie[report];
                             oscard = golfie.id;
-                            _fun00016_ip = 386; continue _fun00015;
- 330:
+                            _fun00016_ip = 388; continue _fun00015;
+ 332:
                             verify = _closure1_slot1;
                             yankee = _closure1_slot2;
                             golfie = 23;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             golfie = 'Impossible condition';
                             golfie = yankee.bind(entity)(verify, golfie);
                             oscard = zuuluu.id;
- 386:
+ 388:
                             zuuluu = _closure1_slot48;
                             verify = zuuluu.bind(entity)(tangon);
                             golfie = _closure1_slot8;
@@ -456,45 +456,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = _closure1_slot22;
                             zuuluu = zuuluu.AUTO;
                             golfie = report;
-                            if(!(golfie !== zuuluu)) { _fun00016_ip = 529; continue _fun00015 }
- 429:
+                            if(!(golfie !== zuuluu)) { _fun00016_ip = 531; continue _fun00015 }
+ 431:
                             zuuluu = _closure1_slot22;
                             zuuluu = zuuluu.NONE;
                             golfie = report;
-                            if(!(report !== zuuluu)) { _fun00016_ip = 529; continue _fun00015 }
- 446:
+                            if(!(report !== zuuluu)) { _fun00016_ip = 531; continue _fun00015 }
+ 448:
                             zuuluu = option.getParticipant;
                             verify = zuuluu.bind(option)(report);
                             zuuluu = offset == verify;
-                            if(zuuluu) { _fun00016_ip = 513; continue _fun00015 }
- 464:
+                            if(zuuluu) { _fun00016_ip = 515; continue _fun00015 }
+ 466:
                             yankee = verify.type;
                             option = _closure1_slot21;
                             option = option.STREAM;
                             option = yankee === option;
-                            if(!option) { _fun00016_ip = 510; continue _fun00015 }
- 486:
+                            if(!option) { _fun00016_ip = 512; continue _fun00015 }
+ 488:
                             romeon = _closure1_slot11;
                             yankee = romeon.getActiveStreamForStreamKey;
                             verify = verify.id;
                             verify = yankee.bind(romeon)(verify);
                             option = offset == verify;
- 510:
+ 512:
                             zuuluu = option;
- 513:
+ 515:
                             golfie = report;
-                            if(!zuuluu) { _fun00016_ip = 529; continue _fun00015 }
- 519:
+                            if(!zuuluu) { _fun00016_ip = 531; continue _fun00015 }
+ 521:
                             zuuluu = _closure1_slot22;
                             golfie = zuuluu.NONE;
- 529:
+ 531:
                             report = _closure1_slot51;
                             zuuluu = new Array(2);
                             zuuluu[0] = golfie;
                             zuuluu[1] = oscard;
                             zuuluu = report.bind(entity)(tangon, zuuluu);
                             return entity;
- 553:
+ 555:
                             zuuluu = _closure1_slot51;
                             michal = null;
                             michal = zuuluu.bind(entity)(tangon, michal);

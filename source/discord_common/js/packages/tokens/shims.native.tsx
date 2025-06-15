@@ -34,26 +34,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['unsafe_getRawColor'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getResolvedSemanticColor
-        report = argBar;
-        golfie = _closure1_slot0;
-        option = _closure1_slot1;
-        entity = 0;
-        michal = option[entity];
-        oscard = undefined;
-        michal = golfie.bind(oscard)(michal);
-        tangon = michal.internal;
-        zuuluu = tangon.resolveSemanticColor;
-        michal = report.theme;
-        entity = option[entity];
-        entity = golfie.bind(oscard)(entity);
-        oscard = entity.colors;
-        entity = argFoo;
-        entity = oscard[entity];
-        entity = zuuluu.bind(tangon)(michal, entity, report);
-        return entity;
-    };
-    zuuluu['getResolvedSemanticColor'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: unsafe_getResolvedRawColor
         zuuluu = _closure1_slot0;
         oscard = _closure1_slot1;

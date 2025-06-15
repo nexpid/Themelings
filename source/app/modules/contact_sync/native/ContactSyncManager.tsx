@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = zuuluu.getCurrentUser;
                         zuuluu = michal.bind(zuuluu)();
                         michal = null;
-                        if(!(michal != zuuluu)) { _fun00008_ip = 129; continue _fun00007 }
+                        if(!(michal != zuuluu)) { _fun00008_ip = 127; continue _fun00007 }
  22:
                         tangon = _closure1_slot8;
                         zuuluu = tangon.getLocalAccount;
@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = report.bind(zuuluu)(michal);
                         michal = report.isContactSyncEnabled;
                         michal = michal.bind(report)(oscard);
-                        if(!michal) { _fun00008_ip = 129; continue _fun00007 }
+                        if(!michal) { _fun00008_ip = 127; continue _fun00007 }
  83:
                         michal = _closure1_slot0;
                         entity = _closure1_slot1;
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 michal = _closure1_slot13;
                                 zuuluu = michal.AUTHORIZED;
                                 michal = argFoo;
-                                if(!(michal === zuuluu)) { _fun00010_ip = 62; continue _fun00009 }
+                                if(!(michal === zuuluu)) { _fun00010_ip = 60; continue _fun00009 }
  20:
                                 zuuluu = _closure1_slot0;
                                 michal = _closure1_slot1;
@@ -349,13 +349,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                     return entity;
                                 };
                                 entity = michal.bind(zuuluu)(entity);
- 62:
+ 60:
                                 entity = undefined;
                                 return entity;
                             }
                         };
                         entity = michal.bind(zuuluu)(entity);
- 129:
+ 127:
                         entity = undefined;
                         return entity;
                     }

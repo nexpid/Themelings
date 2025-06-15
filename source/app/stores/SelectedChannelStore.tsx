@@ -1541,10 +1541,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(report, michal);
             zuuluu = null;
             zuuluu = zuuluu == michal;
-            if(zuuluu) { _fun00060_ip = 75; continue _fun00059 }
- 70:
+            if(zuuluu) { _fun00060_ip = 76; continue _fun00059 }
+ 71:
             entity = michal.id;
- 75:
+ 76:
             return entity;
         }
     };

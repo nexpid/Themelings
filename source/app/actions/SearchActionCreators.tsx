@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['addQueryToHistory'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: removeQueryFromHistory
+    tangon = function(argFoo, argBar) { // Original name: removeQueryFromHistory
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
         entity = 4;
@@ -439,6 +439,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['removeQueryFromHistory'] = michal;
+    zuuluu['removeQueryFromHistory'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: updateSearchResultsQuery
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 4;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'SEARCH_RESULTS_QUERY_UPDATE';
+        michal['type'] = report;
+        report = argFoo;
+        michal['searchId'] = report;
+        report = argBar;
+        michal['queryString'] = report;
+        report = argBaz;
+        michal['query'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['updateSearchResultsQuery'] = michal;
     return entity;
 })();

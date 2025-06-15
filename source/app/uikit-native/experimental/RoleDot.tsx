@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             entity = argFoo;
             result = entity.color;
-            output = entity.colors;
+            sizing = entity.colors;
             tangon = entity.size;
             report = undefined;
             if(!(tangon === report)) { _fun00002_ip = 28; continue _fun00001 }
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu[entity];
             option = michal.bind(report)(entity);
             entity = option.useFontScale;
-            sizing = entity.bind(option)();
+            output = entity.bind(option)();
             entity = 7;
             entity = zuuluu[entity];
             zuuluu = michal.bind(report)(entity);
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             if(!(entity == result)) { _fun00002_ip = 133; continue _fun00001 }
  126:
-            if(!(entity != output)) { _fun00002_ip = 704; continue _fun00001 }
+            if(!(entity != sizing)) { _fun00002_ip = 746; continue _fun00001 }
  133:
             michal = 16;
             zuuluu = 'normal';
@@ -133,14 +133,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  144:
             michal = 20;
  147:
-            option = michal * sizing;
+            option = michal * output;
             tangon = 2;
             michal = option / tangon;
             oscard = michal + tangon;
             zuuluu = oscard - tangon;
             backup = {};
             michal = {};
-            offset = tangon * sizing;
+            offset = tangon * output;
             michal['paddingRight'] = offset;
             romeon = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -151,11 +151,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.bind(romeon)();
             if(offset) { _fun00002_ip = 217; continue _fun00001 }
  211:
-            offset = tangon * sizing;
+            offset = tangon * output;
             _fun00002_ip = 224; continue _fun00001;
  217:
             romeon = 3;
-            offset = romeon * sizing;
+            offset = romeon * output;
  224:
             michal['paddingTop'] = offset;
             michal['height'] = option;
@@ -205,20 +205,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = _closure1_slot4;
             offset = _closure1_slot3;
             option = {};
-            sizing = foxtra.borderBase;
+            output = foxtra.borderBase;
             romeon = new Array(1);
-            romeon[0] = sizing;
+            romeon[0] = output;
             option['style'] = romeon;
             romeon = {};
             echoed = foxtra.borderColor;
-            sizing = new Array(3);
-            sizing[0] = echoed;
+            output = new Array(3);
+            output[0] = echoed;
             echoed = backup.border;
-            sizing[1] = echoed;
+            output[1] = echoed;
             echoed = {};
             echoed['backgroundColor'] = result;
-            sizing[2] = echoed;
-            romeon['style'] = sizing;
+            output[2] = echoed;
+            romeon['style'] = output;
             romeon = yankee.bind(report)(offset, romeon);
             option['children'] = romeon;
             offset = yankee.bind(report)(offset, option);
@@ -226,39 +226,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[0] = offset;
             if(!verify) { _fun00002_ip = 503; continue _fun00001 }
  489:
-            if(!(entity != output)) { _fun00002_ip = 503; continue _fun00001 }
+            if(!(entity != sizing)) { _fun00002_ip = 503; continue _fun00001 }
  493:
-            verify = output.secondaryColor;
-            if(!(entity == verify)) { _fun00002_ip = 559; continue _fun00001 }
+            verify = sizing.secondaryColor;
+            if(!(entity == verify)) { _fun00002_ip = 562; continue _fun00001 }
  503:
             yankee = _closure1_slot4;
             offset = _closure1_slot3;
             verify = {};
-            sizing = foxtra.dot;
+            output = foxtra.dot;
             romeon = new Array(3);
-            romeon[0] = sizing;
-            sizing = backup.dot;
-            romeon[1] = sizing;
-            sizing = {};
-            sizing['backgroundColor'] = result;
-            romeon[2] = sizing;
+            romeon[0] = output;
+            output = backup.dot;
+            romeon[1] = output;
+            output = {};
+            output['backgroundColor'] = result;
+            romeon[2] = output;
             verify['style'] = romeon;
             verify = yankee.bind(report)(offset, verify);
-            _fun00002_ip = 678; continue _fun00001;
- 559:
+            _fun00002_ip = 720; continue _fun00001;
+ 562:
             romeon = _closure1_slot4;
             yankee = _closure1_slot1;
-            result = _closure1_slot2;
+            echoed = _closure1_slot2;
             offset = 8;
-            offset = result[offset];
+            offset = echoed[offset];
             yankee = yankee.bind(report)(offset);
             offset = {};
-            sizing = _closure1_slot0;
+            result = sizing.primaryColor;
+            output = new Array(3);
+            output[0] = result;
+            result = sizing.secondaryColor;
+            output[1] = result;
+            sizing = sizing.tertiaryColor;
+            output[2] = sizing;
+            sizing = output.filter;
+            result = _closure1_slot0;
             kiloes = 9;
-            kiloes = result[kiloes];
-            sizing = sizing.bind(report)(kiloes);
-            kiloes = sizing.processColorStringsArray;
-            kiloes = kiloes.bind(sizing)(output);
+            kiloes = echoed[kiloes];
+            kiloes = result.bind(report)(kiloes);
+            kiloes = kiloes.isNotNullish;
+            kiloes = sizing.bind(output)(kiloes);
             offset['colors'] = kiloes;
             kiloes = {'x': 0, 'y': 0};
             offset['start'] = kiloes;
@@ -271,14 +279,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[1] = backup;
             offset['style'] = foxtra;
             verify = romeon.bind(report)(yankee, offset);
- 678:
+ 720:
             option[1] = verify;
             oscard['children'] = option;
             oscard = golfie.bind(report)(zuuluu, oscard);
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 704:
+ 746:
             return entity;
         }
     };

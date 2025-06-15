@@ -143,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = zuuluu;
             golfie = michal.activity;
             oscard = null;
-            if(!(oscard == golfie)) { _fun00004_ip = 73; continue _fun00003 }
+            if(!(oscard == golfie)) { _fun00004_ip = 74; continue _fun00003 }
  40:
             zuuluu = _closure1_slot3;
             michal = zuuluu.getEmbeddedActivitiesForChannel;
@@ -157,21 +157,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             golfie = zuuluu.bind(tangon)(michal);
- 73:
+ 74:
             michal = global;
             tangon = michal.Array;
             zuuluu = tangon.from;
             option = oscard == golfie;
             report = undefined;
             michal = undefined;
-            if(option) { _fun00004_ip = 103; continue _fun00003 }
- 97:
+            if(option) { _fun00004_ip = 104; continue _fun00003 }
+ 98:
             michal = golfie.userIds;
- 103:
-            if(!(oscard == michal)) { _fun00004_ip = 111; continue _fun00003 }
- 107:
+ 104:
+            if(!(oscard == michal)) { _fun00004_ip = 112; continue _fun00003 }
+ 108:
             michal = new Array(0);
- 111:
+ 112:
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.map;
             entity = function(argFoo) {

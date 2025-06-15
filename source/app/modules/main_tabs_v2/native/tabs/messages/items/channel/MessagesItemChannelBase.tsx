@@ -413,21 +413,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(tangon)(entity);
             michal = zuuluu.useNameplate;
             entity = {};
-            golfie = 'MessagesItemChannelBase';
-            entity['location'] = golfie;
             entity['user'] = oscard;
             config = michal.bind(zuuluu)(entity);
             kiloes = null;
             romeon = kiloes != config;
-            if(!romeon) { _fun00002_ip = 495; continue _fun00001 }
- 483:
+            if(!romeon) { _fun00002_ip = 485; continue _fun00001 }
+ 473:
             entity = vacuum;
-            if(vacuum) { _fun00002_ip = 492; continue _fun00001 }
- 489:
+            if(vacuum) { _fun00002_ip = 482; continue _fun00001 }
+ 479:
             entity = offset;
- 492:
+ 482:
             romeon = entity;
- 495:
+ 485:
             oscard = _closure1_slot4;
             zuuluu = oscard.useCallback;
             entity = sequen.guild_id;
@@ -544,22 +542,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(tangon)(option);
             option = {};
             yankee = undefined;
-            if(!romeon) { _fun00002_ip = 815; continue _fun00001 }
- 812:
+            if(!romeon) { _fun00002_ip = 805; continue _fun00001 }
+ 802:
             yankee = config;
- 815:
+ 805:
             option['nameplate'] = yankee;
             option['isFocused'] = vacuum;
             option['isPressed'] = offset;
             yankee = source;
-            if(yankee) { _fun00002_ip = 839; continue _fun00001 }
- 836:
+            if(yankee) { _fun00002_ip = 829; continue _fun00001 }
+ 826:
             yankee = update;
- 839:
-            if(yankee) { _fun00002_ip = 845; continue _fun00001 }
- 842:
+ 829:
+            if(yankee) { _fun00002_ip = 835; continue _fun00001 }
+ 832:
             yankee = result;
- 845:
+ 835:
             option['isMuted'] = yankee;
             option['fadeIn'] = offset;
             offset = record.nameplate;
@@ -568,8 +566,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(5);
             option[0] = verify;
             verify = vacuum;
-            if(!verify) { _fun00002_ip = 920; continue _fun00001 }
- 885:
+            if(!verify) { _fun00002_ip = 910; continue _fun00001 }
+ 875:
             config = _closure1_slot13;
             yankee = _closure1_slot5;
             offset = {};
@@ -578,7 +576,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = 'none';
             offset['pointerEvents'] = record;
             verify = config.bind(tangon)(yankee, offset);
- 920:
+ 910:
             option[1] = verify;
             yankee = _closure1_slot13;
             offset = _closure1_slot1;
@@ -631,8 +629,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['blocked'] = result;
             result = kiloes == echoed;
             kiloes = undefined;
-            if(result) { _fun00002_ip = 1164; continue _fun00001 }
- 1146:
+            if(result) { _fun00002_ip = 1154; continue _fun00001 }
+ 1136:
             result = echoed.some;
             output = function(argFoo) {
                 entity = argFoo;
@@ -643,7 +641,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             kiloes = result.bind(echoed)(output);
- 1164:
+ 1154:
             kiloes = sizing === kiloes;
             verify['hasActivity'] = kiloes;
             verify['hasUnreadMessages'] = backup;

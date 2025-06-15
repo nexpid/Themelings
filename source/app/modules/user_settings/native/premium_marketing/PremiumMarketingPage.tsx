@@ -107,9 +107,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = offset.TIER_0_MARKETING_PAGE_BACK_BUTTON_BG;
     verify['backgroundColor'] = offset;
     tangon['backButtonBackground'] = verify;
+    verify = {'marginBottom': 16, 'marginHorizontal': 'auto', 'textAlign': 'center'};
+    tangon['promotionCardHeader'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 26;
+    tangon = 29;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -121,9 +123,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = argFoo;
             foxtra = michal.userHasSubscription;
             var _closure2_slot0 = foxtra;
-            backup = michal.subscriptionDetails;
-            romeon = michal.billingInfo;
-            sizing = michal.accountCredit;
+            sizing = michal.subscriptionDetails;
+            backup = michal.billingInfo;
+            vacuum = michal.accountCredit;
             source = michal.applicationId;
             entity = michal.onClose;
             ctrled = michal.premiumFeatureCardOrder;
@@ -170,8 +172,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot3;
             report = 2;
             oscard = oscard.bind(tangon)(offset, report);
-            sequen = 0;
-            report = oscard[sequen];
+            config = 0;
+            report = oscard[config];
             var _closure2_slot3 = report;
             report = 1;
             report = oscard[report];
@@ -191,51 +193,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             michal = oscard.bind(golfie)(michal, report);
-            offset = null;
-            if(!(offset == entity)) { _fun00002_ip = 305; continue _fun00001 }
- 298:
+            yankee = null;
+            if(!(yankee == entity)) { _fun00002_ip = 301; continue _fun00001 }
+ 296:
             entity = function() {
                 michal = _closure2_slot1;
                 entity = michal.pop;
                 entity = entity.bind(michal)();
                 return entity;
             };
- 305:
+ 301:
             _closure2_slot5 = entity;
-            vacuum = !foxtra;
-            if(!vacuum) { _fun00002_ip = 508; continue _fun00001 }
- 318:
+            sequen = !foxtra;
+            if(!sequen) { _fun00002_ip = 502; continue _fun00001 }
+ 314:
             report = _closure1_slot9;
             golfie = _closure1_slot0;
-            yankee = _closure1_slot2;
+            offset = _closure1_slot2;
             oscard = 14;
-            entity = yankee[oscard];
+            entity = offset[oscard];
             entity = golfie.bind(tangon)(entity);
             michal = entity.CircularIconButton;
             entity = {};
-            record = kiloes.backButton;
-            result = new Array(2);
-            result[0] = record;
-            record = kiloes.backButtonBackground;
-            result[1] = record;
-            entity['style'] = result;
-            result = 15;
-            record = yankee[result];
-            record = golfie.bind(tangon)(record);
-            cntext = record.intl;
-            record = cntext.string;
-            result = yankee[result];
+            result = kiloes.backButton;
+            romeon = new Array(2);
+            romeon[0] = result;
+            result = kiloes.backButtonBackground;
+            romeon[1] = result;
+            entity['style'] = romeon;
+            romeon = 15;
+            result = offset[romeon];
             result = golfie.bind(tangon)(result);
-            result = result.t;
-            result = result.13/7kZ;
-            result = record.bind(cntext)(result);
-            entity['accessibilityLabel'] = result;
-            record = _closure1_slot1;
-            result = 16;
-            result = yankee[result];
-            result = record.bind(tangon)(result);
-            entity['source'] = result;
-            oscard = yankee[oscard];
+            cntext = result.intl;
+            result = cntext.string;
+            romeon = offset[romeon];
+            romeon = golfie.bind(tangon)(romeon);
+            romeon = romeon.t;
+            romeon = romeon.13/7kZ;
+            romeon = result.bind(cntext)(romeon);
+            entity['accessibilityLabel'] = romeon;
+            result = _closure1_slot1;
+            romeon = 16;
+            romeon = offset[romeon];
+            romeon = result.bind(tangon)(romeon);
+            entity['source'] = romeon;
+            oscard = offset[oscard];
             oscard = golfie.bind(tangon)(oscard);
             oscard = oscard.CircularIconButton;
             oscard = oscard.Sizes;
@@ -250,28 +252,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity['onPress'] = oscard;
-            vacuum = report.bind(tangon)(michal, entity);
- 508:
-            yankee = offset != zuuluu;
-            if(!yankee) { _fun00002_ip = 546; continue _fun00001 }
- 515:
+            sequen = report.bind(tangon)(michal, entity);
+ 502:
+            romeon = yankee != zuuluu;
+            if(!romeon) { _fun00002_ip = 540; continue _fun00001 }
+ 509:
             michal = _closure1_slot1;
             report = _closure1_slot2;
             entity = 17;
             entity = report[entity];
             michal = michal.bind(tangon)(entity);
             entity = michal.hasAccountCredit;
-            yankee = entity.bind(michal)(zuuluu);
- 546:
+            romeon = entity.bind(michal)(zuuluu);
+ 540:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 18;
             entity = zuuluu[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
-            zuuluu = true;
-            entity['forceFetch'] = zuuluu;
+            report = true;
+            entity['forceFetch'] = report;
             result = michal.bind(tangon)(entity);
+            michal = _closure1_slot0;
+            entity = 19;
+            entity = zuuluu[entity];
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useIsEligibleForBogoPromotion;
+            offset = entity.bind(michal)();
             zuuluu = _closure1_slot10;
             michal = _closure1_slot5;
             entity = {};
@@ -282,17 +290,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = oscard;
             oscard = {};
             golfie = 0;
-            if(foxtra) { _fun00002_ip = 623; continue _fun00001 }
- 620:
+            if(foxtra) { _fun00002_ip = 643; continue _fun00001 }
+ 640:
             golfie = option;
- 623:
+ 643:
             oscard['paddingTop'] = golfie;
             report[2] = oscard;
             entity['style'] = report;
             golfie = _closure1_slot9;
             oscard = _closure1_slot1;
             option = _closure1_slot2;
-            report = 19;
+            report = 20;
             report = option[report];
             oscard = oscard.bind(tangon)(report);
             report = {};
@@ -302,9 +310,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot10;
             golfie = _closure1_slot6;
             oscard = {};
-            record = kiloes.scrollContainer;
-            oscard['contentContainerStyle'] = record;
-            config = function(argFoo) { // Original name: onScroll
+            cntext = kiloes.scrollContainer;
+            oscard['contentContainerStyle'] = cntext;
+            record = function(argFoo) { // Original name: onScroll
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = argFoo;
@@ -325,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  62:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
-                    zuuluu = 20;
+                    zuuluu = 21;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     oscard = report.bind(zuuluu)(tangon);
@@ -344,60 +352,118 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            oscard['onScroll'] = config;
-            oscard['scrollEventThrottle'] = sequen;
+            oscard['onScroll'] = record;
+            oscard['scrollEventThrottle'] = config;
             oscard['showsVerticalScrollIndicator'] = verify;
-            verify = new Array(9);
-            verify[0] = vacuum;
-            verify[1] = backup;
-            verify[2] = romeon;
-            offset = null;
-            if(!yankee) { _fun00002_ip = 795; continue _fun00001 }
- 740:
+            verify = new Array(11);
+            verify[0] = sequen;
+            verify[1] = sizing;
+            verify[2] = backup;
+            yankee = null;
+            if(!romeon) { _fun00002_ip = 813; continue _fun00001 }
+ 758:
+            sizing = _closure1_slot9;
+            backup = _closure1_slot5;
+            romeon = {};
+            config = kiloes.accountCreditContainer;
+            sequen = new Array(2);
+            sequen[0] = config;
+            if(foxtra) { _fun00002_ip = 793; continue _fun00001 }
+ 785:
+            config = kiloes.accountCreditContainerWithSpacing;
+            _fun00002_ip = 795; continue _fun00001;
+ 793:
+            config = {};
+ 795:
+            sequen[1] = config;
+            romeon['style'] = sequen;
+            romeon['children'] = vacuum;
+            yankee = sizing.bind(tangon)(backup, romeon);
+ 813:
+            verify[3] = yankee;
             backup = _closure1_slot9;
-            romeon = _closure1_slot5;
+            romeon = _closure1_slot1;
+            sizing = _closure1_slot2;
+            yankee = 22;
+            yankee = sizing[yankee];
+            romeon = romeon.bind(tangon)(yankee);
             yankee = {};
-            sequen = kiloes.accountCreditContainer;
+            if(foxtra) { _fun00002_ip = 850; continue _fun00001 }
+ 846:
+            vacuum = {};
+            _fun00002_ip = 856; continue _fun00001;
+ 850:
+            vacuum = kiloes.sectionWithTopMargin;
+ 856:
+            sizing = new Array(2);
+            sizing[0] = vacuum;
+            vacuum = kiloes.sectionWidth;
+            sizing[1] = vacuum;
+            yankee['style'] = sizing;
+            yankee = backup.bind(tangon)(romeon, yankee);
+            verify[4] = yankee;
+            yankee = offset;
+            if(!offset) { _fun00002_ip = 1055; continue _fun00001 }
+ 897:
+            sizing = _closure1_slot9;
+            backup = _closure1_slot5;
+            romeon = {};
+            sequen = kiloes.sectionWithPadding;
             vacuum = new Array(2);
             vacuum[0] = sequen;
-            if(foxtra) { _fun00002_ip = 775; continue _fun00001 }
- 767:
-            sequen = kiloes.accountCreditContainerWithSpacing;
-            _fun00002_ip = 777; continue _fun00001;
- 775:
-            sequen = {};
- 777:
+            sequen = kiloes.sectionWidth;
             vacuum[1] = sequen;
-            yankee['style'] = vacuum;
-            yankee['children'] = sizing;
+            romeon['style'] = vacuum;
+            papara = _closure1_slot0;
+            target = _closure1_slot2;
+            vacuum = 23;
+            vacuum = target[vacuum];
+            vacuum = papara.bind(tangon)(vacuum);
+            sequen = vacuum.Text;
+            vacuum = {'style': null, 'variant': 'heading-xl/extrabold', 'color': 'header-primary'};
+            config = kiloes.promotionCardHeader;
+            vacuum['style'] = config;
+            config = 15;
+            record = target[config];
+            record = papara.bind(tangon)(record);
+            cntext = record.intl;
+            record = cntext.string;
+            config = target[config];
+            config = papara.bind(tangon)(config);
+            config = config.t;
+            config = config.QPC/eX;
+            config = record.bind(cntext)(config);
+            vacuum['children'] = config;
+            vacuum = sizing.bind(tangon)(sequen, vacuum);
+            romeon['children'] = vacuum;
+            yankee = sizing.bind(tangon)(backup, romeon);
+ 1055:
+            verify[5] = yankee;
+            if(!offset) { _fun00002_ip = 1136; continue _fun00001 }
+ 1062:
+            backup = _closure1_slot9;
+            romeon = _closure1_slot1;
+            sizing = _closure1_slot2;
+            yankee = 24;
+            yankee = sizing[yankee];
+            romeon = romeon.bind(tangon)(yankee);
+            yankee = {};
+            vacuum = kiloes.sectionWithPadding;
+            sizing = new Array(2);
+            sizing[0] = vacuum;
+            vacuum = kiloes.sectionWidth;
+            sizing[1] = vacuum;
+            yankee['style'] = sizing;
+            yankee['applicationId'] = source;
+            yankee['onPaymentSuccess'] = update;
+            yankee['onPaymentDismiss'] = echoed;
             offset = backup.bind(tangon)(romeon, yankee);
- 795:
-            verify[3] = offset;
+ 1136:
+            verify[6] = offset;
             romeon = _closure1_slot9;
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
-            offset = 21;
-            offset = backup[offset];
-            yankee = yankee.bind(tangon)(offset);
-            offset = {};
-            if(foxtra) { _fun00002_ip = 832; continue _fun00001 }
- 828:
-            sizing = {};
-            _fun00002_ip = 838; continue _fun00001;
- 832:
-            sizing = kiloes.sectionWithTopMargin;
- 838:
-            backup = new Array(2);
-            backup[0] = sizing;
-            sizing = kiloes.sectionWidth;
-            backup[1] = sizing;
-            offset['style'] = backup;
-            offset = romeon.bind(tangon)(yankee, offset);
-            verify[4] = offset;
-            romeon = _closure1_slot9;
-            yankee = _closure1_slot1;
-            backup = _closure1_slot2;
-            offset = 22;
+            offset = 25;
             offset = backup[offset];
             sizing = yankee.bind(tangon)(offset);
             offset = {};
@@ -412,8 +478,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['onPaymentSuccess'] = update;
             offset['onPaymentDismiss'] = echoed;
             offset = romeon.bind(tangon)(sizing, offset);
-            verify[5] = offset;
-            offset = 23;
+            verify[7] = offset;
+            offset = 26;
             offset = backup[offset];
             sizing = yankee.bind(tangon)(offset);
             offset = {};
@@ -424,8 +490,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[1] = update;
             offset['style'] = echoed;
             offset = romeon.bind(tangon)(sizing, offset);
-            verify[6] = offset;
-            offset = 24;
+            verify[8] = offset;
+            offset = 27;
             offset = backup[offset];
             sizing = yankee.bind(tangon)(offset);
             offset = {};
@@ -443,8 +509,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result === output;
             offset['isFractionalOnly'] = output;
             offset = romeon.bind(tangon)(sizing, offset);
-            verify[7] = offset;
-            offset = 25;
+            verify[9] = offset;
+            offset = 28;
             offset = backup[offset];
             yankee = yankee.bind(tangon)(offset);
             offset = {};
@@ -459,7 +525,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = !foxtra;
             offset['showSubscribeButton'] = foxtra;
             offset = romeon.bind(tangon)(yankee, offset);
-            verify[8] = offset;
+            verify[10] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;

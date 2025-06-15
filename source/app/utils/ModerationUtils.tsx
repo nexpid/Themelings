@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.bind(entity)(report);
     report = report.ExplicitContentFilterTypes;
     var _closure1_slot5 = report;
-    report = 6;
+    report = 7;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -408,35 +408,52 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  9:
             golfie = false;
  11:
+            verify = _closure1_slot0;
+            entity = _closure1_slot1;
+            michal = 5;
+            michal = entity[michal];
+            oscard = verify.bind(report)(michal);
+            tangon = oscard.isEligibleForSensitiveContentGoreExperiment;
+            michal = 'generateContentFilterHighlightedOptions';
+            option = tangon.bind(oscard)(michal);
             michal = {};
-            romeon = _closure1_slot0;
-            option = _closure1_slot1;
             yankee = 4;
-            entity = option[yankee];
-            entity = romeon.bind(report)(entity);
-            oscard = entity.intl;
+            tangon = entity[yankee];
+            tangon = verify.bind(report)(tangon);
+            oscard = tangon.intl;
             tangon = oscard.string;
-            entity = option[yankee];
-            entity = romeon.bind(report)(entity);
+            entity = entity[yankee];
+            entity = verify.bind(report)(entity);
             entity = entity.t;
             entity = entity.iHuPEx;
             entity = tangon.bind(oscard)(entity);
             michal['name'] = entity;
-            entity = option[yankee];
-            entity = romeon.bind(report)(entity);
-            oscard = entity.intl;
-            tangon = oscard.string;
-            entity = option[yankee];
-            entity = romeon.bind(report)(entity);
-            entity = entity.t;
-            entity = entity.dzbET0;
-            entity = tangon.bind(oscard)(entity);
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            oscard = entity[yankee];
+            oscard = tangon.bind(report)(oscard);
+            verify = oscard.intl;
+            oscard = verify.string;
+            entity = entity[yankee];
+            entity = tangon.bind(report)(entity);
+            tangon = entity.t;
+            if(option) { _fun00006_ip = 161; continue _fun00005 }
+ 148:
+            entity = tangon.dzbET0;
+            entity = oscard.bind(verify)(entity);
+            _fun00006_ip = 172; continue _fun00005;
+ 161:
+            tangon = tangon.Z+yUWF;
+            entity = oscard.bind(verify)(tangon);
+ 172:
             michal['desc'] = entity;
-            tangon = _closure1_slot4;
-            entity = tangon.ALL_MEMBERS;
+            entity = _closure1_slot4;
+            entity = entity.ALL_MEMBERS;
             michal['value'] = entity;
+            romeon = _closure1_slot0;
+            tangon = _closure1_slot1;
             oscard = 2;
-            entity = option[oscard];
+            entity = tangon[oscard];
             offset = romeon.bind(report)(entity);
             verify = offset.unsafe_getRawColor;
             entity = 'RED_400';
@@ -445,32 +462,75 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = new Array(3);
             entity[0] = michal;
             michal = {};
-            verify = option[yankee];
-            verify = romeon.bind(report)(verify);
-            foxtra = verify.intl;
-            offset = foxtra.string;
-            verify = option[yankee];
-            verify = romeon.bind(report)(verify);
-            verify = verify.t;
-            verify = verify.ynfFaG;
-            verify = offset.bind(foxtra)(verify);
-            michal['name'] = verify;
-            verify = option[yankee];
+            verify = tangon[yankee];
             verify = romeon.bind(report)(verify);
             offset = verify.intl;
             verify = offset.string;
-            option = option[yankee];
-            option = romeon.bind(report)(option);
-            option = option.t;
-            option = option.qZ1eHh;
-            option = verify.bind(offset)(option);
-            michal['desc'] = option;
+            tangon = tangon[yankee];
+            tangon = romeon.bind(report)(tangon);
+            tangon = tangon.t;
+            tangon = tangon.ynfFaG;
+            tangon = verify.bind(offset)(tangon);
+            michal['name'] = tangon;
+            verify = _closure1_slot0;
+            tangon = _closure1_slot1;
+            offset = tangon[yankee];
+            offset = verify.bind(report)(offset);
+            romeon = offset.intl;
+            offset = romeon.string;
+            tangon = tangon[yankee];
+            tangon = verify.bind(report)(tangon);
+            verify = tangon.t;
+            if(option) { _fun00006_ip = 345; continue _fun00005 }
+ 332:
+            tangon = verify.qZ1eHh;
+            tangon = offset.bind(romeon)(tangon);
+            _fun00006_ip = 356; continue _fun00005;
+ 345:
+            verify = verify.3fRINz;
+            tangon = offset.bind(romeon)(verify);
+ 356:
+            michal['desc'] = tangon;
+            tangon = _closure1_slot4;
             tangon = tangon.MEMBERS_WITHOUT_ROLES;
             michal['value'] = tangon;
             michal['disabled'] = golfie;
-            option = null;
-            if(!golfie) { _fun00006_ip = 347; continue _fun00005 }
- 295:
+            verify = null;
+            if(!golfie) { _fun00006_ip = 436; continue _fun00005 }
+ 384:
+            backup = _closure1_slot0;
+            offset = _closure1_slot1;
+            romeon = offset[yankee];
+            romeon = backup.bind(report)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.string;
+            offset = offset[yankee];
+            offset = backup.bind(report)(offset);
+            offset = offset.t;
+            offset = offset.j9WtHx;
+            verify = romeon.bind(foxtra)(offset);
+ 436:
+            michal['tooltipText'] = verify;
+            foxtra = _closure1_slot0;
+            verify = _closure1_slot1;
+            offset = verify[oscard];
+            backup = foxtra.bind(report)(offset);
+            romeon = backup.unsafe_getRawColor;
+            offset = 'YELLOW_360';
+            offset = romeon.bind(backup)(offset);
+            michal['color'] = offset;
+            entity[1] = michal;
+            michal = {};
+            offset = verify[yankee];
+            offset = foxtra.bind(report)(offset);
+            romeon = offset.intl;
+            offset = romeon.string;
+            verify = verify[yankee];
+            verify = foxtra.bind(report)(verify);
+            verify = verify.t;
+            verify = verify.VbSyAw;
+            verify = offset.bind(romeon)(verify);
+            michal['name'] = verify;
             foxtra = _closure1_slot0;
             verify = _closure1_slot1;
             offset = verify[yankee];
@@ -480,47 +540,23 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             verify = verify[yankee];
             verify = foxtra.bind(report)(verify);
             verify = verify.t;
-            verify = verify.j9WtHx;
+            if(option) { _fun00006_ip = 588; continue _fun00005 }
+ 575:
+            option = verify.jesz8f;
+            option = offset.bind(romeon)(option);
+            _fun00006_ip = 599; continue _fun00005;
+ 588:
+            verify = verify.M6GNsL;
             option = offset.bind(romeon)(verify);
- 347:
-            michal['tooltipText'] = option;
-            romeon = _closure1_slot0;
-            option = _closure1_slot1;
-            verify = option[oscard];
-            foxtra = romeon.bind(report)(verify);
-            offset = foxtra.unsafe_getRawColor;
-            verify = 'YELLOW_360';
-            verify = offset.bind(foxtra)(verify);
-            michal['color'] = verify;
-            entity[1] = michal;
-            michal = {};
-            verify = option[yankee];
-            verify = romeon.bind(report)(verify);
-            foxtra = verify.intl;
-            offset = foxtra.string;
-            verify = option[yankee];
-            verify = romeon.bind(report)(verify);
-            verify = verify.t;
-            verify = verify.VbSyAw;
-            verify = offset.bind(foxtra)(verify);
-            michal['name'] = verify;
-            verify = option[yankee];
-            verify = romeon.bind(report)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            option = option[yankee];
-            option = romeon.bind(report)(option);
-            option = option.t;
-            option = option.jesz8f;
-            option = verify.bind(offset)(option);
+ 599:
             michal['desc'] = option;
             option = _closure1_slot4;
             option = option.DISABLED;
             michal['value'] = option;
             michal['disabled'] = golfie;
             tangon = null;
-            if(!golfie) { _fun00006_ip = 566; continue _fun00005 }
- 514:
+            if(!golfie) { _fun00006_ip = 679; continue _fun00005 }
+ 627:
             offset = _closure1_slot0;
             golfie = _closure1_slot1;
             option = golfie[yankee];
@@ -532,7 +568,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             golfie = golfie.t;
             golfie = golfie.j9WtHx;
             tangon = option.bind(verify)(golfie);
- 566:
+ 679:
             michal['tooltipText'] = tangon;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -556,62 +592,104 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  9:
             report = false;
  11:
+            offset = _closure1_slot0;
+            entity = _closure1_slot1;
+            michal = 5;
+            michal = entity[michal];
+            oscard = offset.bind(option)(michal);
+            zuuluu = oscard.isEligibleForSensitiveContentGoreExperiment;
+            michal = 'generateContentFilterOptions';
+            oscard = zuuluu.bind(oscard)(michal);
             michal = {};
-            yankee = _closure1_slot0;
-            oscard = _closure1_slot1;
             verify = 4;
-            entity = oscard[verify];
-            entity = yankee.bind(option)(entity);
-            golfie = entity.intl;
+            zuuluu = entity[verify];
+            zuuluu = offset.bind(option)(zuuluu);
+            golfie = zuuluu.intl;
             zuuluu = golfie.string;
-            entity = oscard[verify];
-            entity = yankee.bind(option)(entity);
+            entity = entity[verify];
+            entity = offset.bind(option)(entity);
             entity = entity.t;
             entity = entity.iHuPEx;
             entity = zuuluu.bind(golfie)(entity);
             michal['name'] = entity;
-            entity = oscard[verify];
-            entity = yankee.bind(option)(entity);
-            golfie = entity.intl;
-            zuuluu = golfie.string;
-            entity = oscard[verify];
-            entity = yankee.bind(option)(entity);
-            entity = entity.t;
-            entity = entity.dzbET0;
-            entity = zuuluu.bind(golfie)(entity);
+            zuuluu = _closure1_slot0;
+            entity = _closure1_slot1;
+            golfie = entity[verify];
+            golfie = zuuluu.bind(option)(golfie);
+            offset = golfie.intl;
+            golfie = offset.string;
+            entity = entity[verify];
+            entity = zuuluu.bind(option)(entity);
+            zuuluu = entity.t;
+            if(oscard) { _fun00008_ip = 159; continue _fun00007 }
+ 146:
+            entity = zuuluu.dzbET0;
+            entity = golfie.bind(offset)(entity);
+            _fun00008_ip = 170; continue _fun00007;
+ 159:
+            zuuluu = zuuluu.Z+yUWF;
+            entity = golfie.bind(offset)(zuuluu);
+ 170:
             michal['desc'] = entity;
-            zuuluu = _closure1_slot4;
-            entity = zuuluu.ALL_MEMBERS;
+            entity = _closure1_slot4;
+            entity = entity.ALL_MEMBERS;
             michal['value'] = entity;
             entity = new Array(3);
             entity[0] = michal;
             michal = {};
-            golfie = oscard[verify];
-            golfie = yankee.bind(option)(golfie);
-            romeon = golfie.intl;
-            offset = romeon.string;
-            golfie = oscard[verify];
-            golfie = yankee.bind(option)(golfie);
-            golfie = golfie.t;
-            golfie = golfie.ynfFaG;
-            golfie = offset.bind(romeon)(golfie);
-            michal['name'] = golfie;
-            golfie = oscard[verify];
+            yankee = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            golfie = zuuluu[verify];
             golfie = yankee.bind(option)(golfie);
             offset = golfie.intl;
             golfie = offset.string;
-            oscard = oscard[verify];
-            oscard = yankee.bind(option)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.qZ1eHh;
-            oscard = golfie.bind(offset)(oscard);
-            michal['desc'] = oscard;
+            zuuluu = zuuluu[verify];
+            zuuluu = yankee.bind(option)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.ynfFaG;
+            zuuluu = golfie.bind(offset)(zuuluu);
+            michal['name'] = zuuluu;
+            golfie = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            offset = zuuluu[verify];
+            offset = golfie.bind(option)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            zuuluu = zuuluu[verify];
+            zuuluu = golfie.bind(option)(zuuluu);
+            golfie = zuuluu.t;
+            if(oscard) { _fun00008_ip = 312; continue _fun00007 }
+ 299:
+            zuuluu = golfie.qZ1eHh;
+            zuuluu = offset.bind(yankee)(zuuluu);
+            _fun00008_ip = 323; continue _fun00007;
+ 312:
+            golfie = golfie.3fRINz;
+            zuuluu = offset.bind(yankee)(golfie);
+ 323:
+            michal['desc'] = zuuluu;
+            zuuluu = _closure1_slot4;
             zuuluu = zuuluu.MEMBERS_WITHOUT_ROLES;
             michal['value'] = zuuluu;
             michal['disabled'] = report;
-            oscard = null;
-            if(!report) { _fun00008_ip = 316; continue _fun00007 }
- 264:
+            golfie = null;
+            if(!report) { _fun00008_ip = 403; continue _fun00007 }
+ 351:
+            foxtra = _closure1_slot0;
+            offset = _closure1_slot1;
+            yankee = offset[verify];
+            yankee = foxtra.bind(option)(yankee);
+            romeon = yankee.intl;
+            yankee = romeon.string;
+            offset = offset[verify];
+            offset = foxtra.bind(option)(offset);
+            offset = offset.t;
+            offset = offset.j9WtHx;
+            golfie = yankee.bind(romeon)(offset);
+ 403:
+            michal['tooltipText'] = golfie;
+            entity[1] = michal;
+            michal = {};
             romeon = _closure1_slot0;
             golfie = _closure1_slot1;
             offset = golfie[verify];
@@ -621,41 +699,35 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             golfie = golfie[verify];
             golfie = romeon.bind(option)(golfie);
             golfie = golfie.t;
-            golfie = golfie.j9WtHx;
-            oscard = offset.bind(yankee)(golfie);
- 316:
-            michal['tooltipText'] = oscard;
-            entity[1] = michal;
-            michal = {};
-            yankee = _closure1_slot0;
-            oscard = _closure1_slot1;
-            golfie = oscard[verify];
-            golfie = yankee.bind(option)(golfie);
-            romeon = golfie.intl;
-            offset = romeon.string;
-            golfie = oscard[verify];
-            golfie = yankee.bind(option)(golfie);
-            golfie = golfie.t;
             golfie = golfie.VbSyAw;
-            golfie = offset.bind(romeon)(golfie);
+            golfie = offset.bind(yankee)(golfie);
             michal['name'] = golfie;
-            golfie = oscard[verify];
-            golfie = yankee.bind(option)(golfie);
-            offset = golfie.intl;
-            golfie = offset.string;
-            oscard = oscard[verify];
-            oscard = yankee.bind(option)(oscard);
-            oscard = oscard.t;
-            oscard = oscard.jesz8f;
-            oscard = golfie.bind(offset)(oscard);
+            romeon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            offset = golfie[verify];
+            offset = romeon.bind(option)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            golfie = golfie[verify];
+            golfie = romeon.bind(option)(golfie);
+            golfie = golfie.t;
+            if(oscard) { _fun00008_ip = 527; continue _fun00007 }
+ 514:
+            oscard = golfie.jesz8f;
+            oscard = offset.bind(yankee)(oscard);
+            _fun00008_ip = 538; continue _fun00007;
+ 527:
+            golfie = golfie.M6GNsL;
+            oscard = offset.bind(yankee)(golfie);
+ 538:
             michal['desc'] = oscard;
             oscard = _closure1_slot4;
             oscard = oscard.DISABLED;
             michal['value'] = oscard;
             michal['disabled'] = report;
             zuuluu = null;
-            if(!report) { _fun00008_ip = 507; continue _fun00007 }
- 455:
+            if(!report) { _fun00008_ip = 618; continue _fun00007 }
+ 566:
             golfie = _closure1_slot0;
             tangon = _closure1_slot1;
             report = tangon[verify];
@@ -667,7 +739,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = tangon.t;
             tangon = tangon.j9WtHx;
             zuuluu = report.bind(oscard)(tangon);
- 507:
+ 618:
             michal['tooltipText'] = zuuluu;
             entity[2] = michal;
             return entity;
@@ -700,7 +772,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = entity.TgipjI;
         entity = zuuluu.bind(golfie)(entity);
         michal['desc'] = entity;
-        golfie = 5;
+        golfie = 6;
         entity = oscard[golfie];
         entity = report.bind(tangon)(entity);
         entity = entity.DmSpamFilterV2;

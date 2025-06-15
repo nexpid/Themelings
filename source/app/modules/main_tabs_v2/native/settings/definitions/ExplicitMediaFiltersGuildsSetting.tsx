@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
             golfie = tangon.bind(report)(oscard);
             _fun00004_ip = 113; continue _fun00003;
  102:
-            zuuluu = zuuluu.wr6InJ;
+            zuuluu = zuuluu.GYpoAg;
             golfie = tangon.bind(report)(zuuluu);
  113:
             zuuluu = _closure1_slot0;

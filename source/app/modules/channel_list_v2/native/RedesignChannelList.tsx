@@ -1488,10 +1488,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     zuuluu = entity == michal;
                     entity = undefined;
-                    if(zuuluu) { _fun00026_ip = 42; continue _fun00025 }
- 37:
+                    if(zuuluu) { _fun00026_ip = 43; continue _fun00025 }
+ 38:
                     entity = michal.index;
- 42:
+ 43:
                     return entity;
                 }
             };
@@ -1517,10 +1517,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     zuuluu = entity == michal;
                     entity = undefined;
-                    if(zuuluu) { _fun00030_ip = 42; continue _fun00029 }
- 37:
+                    if(zuuluu) { _fun00030_ip = 43; continue _fun00029 }
+ 38:
                     entity = michal.index;
- 42:
+ 43:
                     return entity;
                 }
             };

@@ -526,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     offset = argCor;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00014_ip = 365; continue _fun00013 }
+                    if(michal) { _fun00014_ip = 366; continue _fun00013 }
  13:
                     oscard = _closure1_slot26;
                     zuuluu = undefined;
@@ -542,7 +542,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  60:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00014_ip = 362; continue _fun00013 }
+                    if(report) { _fun00014_ip = 363; continue _fun00013 }
  69:
                     yankee = michal.JSBundleLoadedTimestamp;
                     verify = michal.JSBundleParsedTimestamp;
@@ -608,9 +608,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['logEventProperties'] = verify;
                     tangon = golfie.bind(option)(oscard, report, tangon);
                     return zuuluu;
- 362:
+ 363:
                     return michal;
- 365:
+ 366:
                     return entity;
                 }
             };
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00016_ip = 386; continue _fun00015 }
+                    if(michal) { _fun00016_ip = 387; continue _fun00015 }
  12:
                     zuuluu = undefined;
                     var _closure4_slot0 = zuuluu;
@@ -707,7 +707,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  138:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
-                    if(option) { _fun00016_ip = 383; continue _fun00015 }
+                    if(option) { _fun00016_ip = 384; continue _fun00015 }
  147:
                     foxtra = _closure1_slot1;
                     backup = _closure1_slot2;
@@ -758,8 +758,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = golfie.TTIManager;
                     golfie = option.runningTTIAutomation;
                     golfie = golfie.bind(option)();
-                    if(!golfie) { _fun00016_ip = 380; continue _fun00015 }
- 369:
+                    if(!golfie) { _fun00016_ip = 381; continue _fun00015 }
+ 370:
                     tangon = function(argFoo, argBar) { // Original name: logToDevice
                         golfie = {};
                         zuuluu = _closure1_slot24;
@@ -878,11 +878,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     tangon = tangon.bind(zuuluu)(report, oscard);
- 380:
+ 381:
                     return zuuluu;
- 383:
+ 384:
                     return michal;
- 386:
+ 387:
                     return entity;
                 }
             };

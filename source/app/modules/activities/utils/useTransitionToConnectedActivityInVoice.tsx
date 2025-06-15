@@ -74,11 +74,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00002_ip = 269; continue _fun00001 }
+                            if(michal) { _fun00002_ip = 237; continue _fun00001 }
  12:
                             michal = argFoo;
-                            offset = michal.location;
-                            var _closure6_slot0 = offset;
+                            option = michal.location;
+                            var _closure6_slot0 = option;
                             tangon = undefined;
                             var _closure6_slot1 = tangon;
                             SaveGenerator(address=34);
@@ -86,40 +86,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return tangon;
  34:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00002_ip = 266; continue _fun00001 }
+                            if(zuuluu) { _fun00002_ip = 234; continue _fun00001 }
  43:
                             oscard = _closure1_slot0;
-                            zuuluu = _closure1_slot2;
-                            yankee = 5;
-                            zuuluu = zuuluu[yankee];
+                            verify = _closure1_slot2;
+                            zuuluu = 5;
+                            zuuluu = verify[zuuluu];
                             oscard = oscard.bind(tangon)(zuuluu);
                             zuuluu = oscard.getEmbeddedActivityLocationChannelId;
-                            verify = zuuluu.bind(oscard)(offset);
+                            verify = zuuluu.bind(oscard)(option);
                             oscard = null;
-                            if(!(oscard == verify)) { _fun00002_ip = 111; continue _fun00001 }
- 83:
-                            option = _closure1_slot0;
-                            zuuluu = _closure1_slot2;
-                            zuuluu = zuuluu[yankee];
-                            option = option.bind(tangon)(zuuluu);
-                            zuuluu = option.getEmbeddedActivityLocationStartingChannelId;
-                            verify = zuuluu.bind(option)(offset);
- 111:
-                            if(!(oscard != verify)) { _fun00002_ip = 260; continue _fun00001 }
- 118:
+                            if(!(oscard != verify)) { _fun00002_ip = 228; continue _fun00001 }
+ 86:
                             option = _closure1_slot1;
                             offset = _closure1_slot2;
                             zuuluu = 6;
                             zuuluu = offset[zuuluu];
                             zuuluu = option.bind(tangon)(zuuluu);
                             zuuluu = zuuluu.bind(tangon)(verify);
-                            if(!zuuluu) { _fun00002_ip = 260; continue _fun00001 }
- 146:
+                            if(!zuuluu) { _fun00002_ip = 228; continue _fun00001 }
+ 114:
                             option = _closure1_slot6;
                             zuuluu = option.getVoiceChannelId;
                             zuuluu = zuuluu.bind(option)();
-                            if(!(zuuluu !== verify)) { _fun00002_ip = 205; continue _fun00001 }
- 164:
+                            if(!(zuuluu !== verify)) { _fun00002_ip = 173; continue _fun00001 }
+ 132:
                             option = _closure1_slot1;
                             offset = _closure1_slot2;
                             zuuluu = 7;
@@ -128,22 +119,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = {};
                             zuuluu['channelId'] = verify;
                             zuuluu = option.bind(tangon)(zuuluu);
-                            SaveGenerator(address=199);
- 197:
+                            SaveGenerator(address=167);
+ 165:
                             return zuuluu;
- 199:
+ 167:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                            if(option) { _fun00002_ip = 263; continue _fun00001 }
- 205:
+                            if(option) { _fun00002_ip = 231; continue _fun00001 }
+ 173:
                             option = _closure1_slot5;
                             golfie = option.getChannel;
                             golfie = golfie.bind(option)(verify);
                             option = oscard == golfie;
                             oscard = undefined;
-                            if(option) { _fun00002_ip = 233; continue _fun00001 }
- 228:
+                            if(option) { _fun00002_ip = 201; continue _fun00001 }
+ 196:
                             oscard = golfie.guild_id;
- 233:
+ 201:
                             _closure6_slot1 = oscard;
                             oscard = global;
                             golfie = oscard.setTimeout;
@@ -171,13 +162,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             };
                             report = 0;
                             report = golfie.bind(tangon)(oscard, report);
- 260:
+ 228:
                             return tangon;
- 263:
+ 231:
                             return zuuluu;
- 266:
+ 234:
                             return michal;
- 269:
+ 237:
                             return entity;
                         }
                     };

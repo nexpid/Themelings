@@ -442,10 +442,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = entity.LIGHT;
                     kiloes = 'dark';
                     entity = argBaz;
-                    if(!(entity === michal)) { _fun00010_ip = 28; continue _fun00009 }
- 24:
+                    if(!(entity === michal)) { _fun00010_ip = 27; continue _fun00009 }
+ 23:
                     kiloes = 'light';
- 28:
+ 27:
                     romeon = _closure1_slot0;
                     golfie = _closure1_slot2;
                     entity = 12;

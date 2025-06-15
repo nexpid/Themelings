@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = ctrled.shouldDisableInteractiveComponents;
             output = ctrled.shouldObscureSpoiler;
             var _closure2_slot3 = output;
-            sizing = ctrled.shouldObscureExplicitMedia;
+            sizing = ctrled.enabledContentHarmTypeFlags;
             var _closure2_slot4 = sizing;
             entity = ctrled.shouldShowMosaicMediaDescriptions;
             var _closure2_slot5 = entity;
@@ -296,8 +296,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             echoed = echoed.bot;
             romeon['isAuthorBot'] = echoed;
             romeon['shouldObscureSpoiler'] = output;
-            romeon['shouldObscureExplicitMedia'] = sizing;
             romeon['shouldAgeVerify'] = zuuluu;
+            romeon['enabledContentHarmTypeFlags'] = sizing;
             romeon = backup.bind(kiloes)(romeon);
             sequen = romeon.isSpoiler;
             vacuum = romeon.spoilerDescription;
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = _closure2_slot3;
                     entity['shouldObscureSpoiler'] = offset;
                     offset = _closure2_slot4;
-                    entity['shouldObscureExplicitMedia'] = offset;
+                    entity['enabledContentHarmTypeFlags'] = offset;
                     offset = _closure2_slot6;
                     entity['shouldAgeVerify'] = offset;
                     entity = michal.bind(golfie)(entity);
@@ -699,8 +699,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = result.bot;
             romeon['isAuthorBot'] = result;
             romeon['shouldObscureSpoiler'] = output;
-            romeon['shouldObscureExplicitMedia'] = sizing;
             romeon['shouldAgeVerify'] = zuuluu;
+            romeon['enabledContentHarmTypeFlags'] = sizing;
             romeon = backup.bind(kiloes)(romeon);
             update = romeon.isSpoiler;
             echoed = romeon.spoilerDescription;

@@ -104,14 +104,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(entity == michal)) { _fun00004_ip = 96; continue _fun00003 }
  69:
             michal = tangon.navigate;
-            entity = _closure1_slot11;
+            entity = _closure1_slot10;
             entity = entity.SEARCH_CHAT_PREVIEW;
             entity = michal.bind(tangon)(entity, oscard);
             _fun00004_ip = 167; continue _fun00003;
  96:
             zuuluu = tangon.navigate;
             michal = {};
-            entity = _closure1_slot11;
+            entity = _closure1_slot10;
             entity = entity.SEARCH_CHAT_PREVIEW;
             michal['screen'] = entity;
             entity = {};
@@ -513,12 +513,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = 5;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.SearchFilterAddLocations;
+    oscard = oscard.SearchNavigatorScreens;
     var _closure1_slot10 = oscard;
     oscard = 6;
     oscard = option[oscard];
     oscard = golfie.bind(entity)(oscard);
-    oscard = oscard.SearchNavigatorScreens;
+    oscard = oscard.SearchFilterAddLocations;
     var _closure1_slot11 = oscard;
     oscard = 7;
     oscard = option[oscard];
@@ -1309,7 +1309,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = golfie.bind(option)(oscard, report);
                 report = _closure1_slot1;
                 golfie = _closure1_slot2;
-                zuuluu = 10;
+                zuuluu = 9;
                 zuuluu = golfie[zuuluu];
                 report = report.bind(entity)(zuuluu);
                 zuuluu = report.fetchInitialMessages;
@@ -1339,7 +1339,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity['searchContext'] = oscard;
                         report = report.searchTokenType;
                         entity['searchTokenType'] = report;
-                        tangon = _closure1_slot10;
+                        tangon = _closure1_slot11;
                         tangon = tangon.SEARCH_HISTORY;
                         entity['location'] = tangon;
                         entity = michal.bind(zuuluu)(entity);

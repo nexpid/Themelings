@@ -23,6 +23,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
+    tangon = [1, 100, 1000, 10000];
+    var _closure1_slot4 = tangon;
     michal = function() {
         tangon = _closure1_slot3;
         zuuluu = function(argFoo, argBar) { // Original name: VoiceDuration
@@ -56,6 +58,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = new romeon[report](yankee);
                 report = report instanceof Object ? report : oscard;
                 zuuluu['listeningUsers'] = report;
+                report = michal.Map;
+                oscard = report.prototype;
+                oscard = Object.create(oscard, {constructor: {value: report}});
+                romeon = oscard;
+                report = new romeon[report](yankee);
+                report = report instanceof Object ? report : oscard;
+                zuuluu['timesUntilSpeakingDurationMilestonesMs'] = report;
                 report = _closure1_slot0;
                 oscard = _closure1_slot1;
                 tangon = 2;
@@ -160,6 +169,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = tangon.voiceFilterSpeaking;
                 zuuluu = report.clear;
                 zuuluu = zuuluu.bind(report)();
+                report = tangon.timesUntilSpeakingDurationMilestonesMs;
+                zuuluu = report.clear;
+                zuuluu = zuuluu.bind(report)();
                 report = tangon.connected;
                 zuuluu = report.start;
                 zuuluu = zuuluu.bind(report)();
@@ -237,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['value'] = michal;
-        michal = new Array(9);
+        michal = new Array(10);
         michal[0] = entity;
         entity = {};
         oscard = '_getVoiceFilterStopWatch';
@@ -292,39 +304,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.getVoiceFilterId;
                 michal = michal.bind(tangon)();
                 michal = zuuluu.bind(entity)(michal);
-                tangon = entity.speaking;
                 zuuluu = argFoo;
-                if(zuuluu) { _fun00010_ip = 105; continue _fun00009 }
- 42:
-                zuuluu = tangon.stop;
-                zuuluu = zuuluu.bind(tangon)();
-                report = entity.listening;
-                zuuluu = report.isRunning;
-                zuuluu = zuuluu.bind(report)();
-                if(zuuluu) { _fun00010_ip = 87; continue _fun00009 }
- 71:
-                report = entity.participation;
-                zuuluu = report.stop;
-                zuuluu = zuuluu.bind(report)();
- 87:
+                if(zuuluu) { _fun00010_ip = 154; continue _fun00009 }
+ 36:
+                zuuluu = entity.connected;
+                oscard = zuuluu.lastStartTime;
+                zuuluu = entity.speaking;
+                report = zuuluu.lastStartTime;
+                zuuluu = entity.speaking;
+                tangon = zuuluu.lastElapsed;
+                golfie = entity.speaking;
+                zuuluu = golfie.stop;
+                zuuluu = zuuluu.bind(golfie)();
+                golfie = entity.listening;
+                zuuluu = golfie.isRunning;
+                zuuluu = zuuluu.bind(golfie)();
+                if(zuuluu) { _fun00010_ip = 123; continue _fun00009 }
+ 107:
+                golfie = entity.participation;
+                zuuluu = golfie.stop;
+                zuuluu = zuuluu.bind(golfie)();
+ 123:
                 zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00010_ip = 144; continue _fun00009 }
- 93:
+                if(!(zuuluu != michal)) { _fun00010_ip = 139; continue _fun00009 }
+ 129:
                 zuuluu = michal.stop;
                 zuuluu = zuuluu.bind(michal)();
-                _fun00010_ip = 144; continue _fun00009;
- 105:
+ 139:
+                zuuluu = entity.computeSpeakingDurationMilestones;
+                zuuluu = zuuluu.bind(entity)(oscard, report, tangon);
+                _fun00010_ip = 199; continue _fun00009;
+ 154:
+                tangon = entity.speaking;
                 zuuluu = tangon.start;
                 zuuluu = zuuluu.bind(tangon)();
                 zuuluu = entity.participation;
                 entity = zuuluu.start;
                 entity = entity.bind(zuuluu)();
                 entity = null;
-                if(!(entity != michal)) { _fun00010_ip = 144; continue _fun00009 }
- 135:
+                if(!(entity != michal)) { _fun00010_ip = 199; continue _fun00009 }
+ 190:
                 entity = michal.start;
                 entity = entity.bind(michal)();
- 144:
+ 199:
                 entity = undefined;
                 return entity;
             }
@@ -443,39 +465,116 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['value'] = oscard;
         michal[5] = entity;
         entity = {};
+        oscard = 'computeSpeakingDurationMilestones';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar, argBaz) { // Original name: value
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+                report = argFoo;
+                tangon = argBar;
+                michal = this;
+                var _closure3_slot0 = michal;
+                var _closure3_slot1 = report;
+                var _closure3_slot2 = tangon;
+                zuuluu = argBaz;
+                var _closure3_slot3 = zuuluu;
+                zuuluu = null;
+                if(!(zuuluu != report)) { _fun00018_ip = 128; continue _fun00017 }
+ 36:
+                if(!(zuuluu != tangon)) { _fun00018_ip = 128; continue _fun00017 }
+ 40:
+                zuuluu = michal.speaking;
+                michal = zuuluu.elapsed;
+                zuuluu = michal.bind(zuuluu)();
+                michal = zuuluu.asMilliseconds;
+                michal = michal.bind(zuuluu)();
+                var _closure3_slot4 = michal;
+                tangon = _closure1_slot4;
+                zuuluu = tangon.filter;
+                michal = function(argFoo) {
+                    entity = _closure3_slot0;
+                    zuuluu = entity.timesUntilSpeakingDurationMilestonesMs;
+                    michal = zuuluu.has;
+                    entity = argFoo;
+                    entity = michal.bind(zuuluu)(entity);
+                    entity = !entity;
+                    return entity;
+                };
+                tangon = zuuluu.bind(tangon)(michal);
+                zuuluu = tangon.filter;
+                michal = function(argFoo) {
+                    michal = _closure3_slot4;
+                    entity = argFoo;
+                    entity = michal >= entity;
+                    return entity;
+                };
+                zuuluu = zuuluu.bind(tangon)(michal);
+                michal = zuuluu.forEach;
+                entity = function(argFoo) {
+                    tangon = argFoo;
+                    michal = _closure3_slot0;
+                    zuuluu = michal.timesUntilSpeakingDurationMilestonesMs;
+                    michal = zuuluu.set;
+                    oscard = _closure3_slot2;
+                    report = _closure3_slot1;
+                    report = oscard - report;
+                    report = report + tangon;
+                    entity = _closure3_slot3;
+                    entity = report - entity;
+                    entity = michal.bind(zuuluu)(tangon, entity);
+                    entity = undefined;
+                    return entity;
+                };
+                entity = michal.bind(zuuluu)(entity);
+ 128:
+                entity = undefined;
+                return entity;
+            }
+        };
+        entity['value'] = oscard;
+        michal[6] = entity;
+        entity = {};
         oscard = 'stop';
         entity['key'] = oscard;
         oscard = function() { // Original name: value
-            entity = this;
-            zuuluu = entity.speaking;
-            michal = zuuluu.stop;
-            michal = michal.bind(zuuluu)();
-            zuuluu = entity.listening;
-            michal = zuuluu.stop;
-            michal = michal.bind(zuuluu)();
-            zuuluu = entity.participation;
-            michal = zuuluu.stop;
-            michal = michal.bind(zuuluu)();
-            zuuluu = entity.connected;
-            michal = zuuluu.stop;
-            michal = michal.bind(zuuluu)();
-            zuuluu = entity.muted;
-            michal = zuuluu.stop;
-            michal = michal.bind(zuuluu)();
-            zuuluu = entity.voiceFilterSpeaking;
-            michal = zuuluu.forEach;
+            report = this;
+            entity = report.connected;
+            tangon = entity.lastStartTime;
+            entity = report.speaking;
+            zuuluu = entity.lastStartTime;
+            entity = report.speaking;
+            michal = entity.lastElapsed;
+            oscard = report.speaking;
+            entity = oscard.stop;
+            entity = entity.bind(oscard)();
+            oscard = report.listening;
+            entity = oscard.stop;
+            entity = entity.bind(oscard)();
+            oscard = report.participation;
+            entity = oscard.stop;
+            entity = entity.bind(oscard)();
+            oscard = report.connected;
+            entity = oscard.stop;
+            entity = entity.bind(oscard)();
+            oscard = report.muted;
+            entity = oscard.stop;
+            entity = entity.bind(oscard)();
+            golfie = report.voiceFilterSpeaking;
+            oscard = golfie.forEach;
             entity = function(argFoo) {
                 michal = argFoo;
                 entity = michal.stop;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            entity = michal.bind(zuuluu)(entity);
+            entity = oscard.bind(golfie)(entity);
+            entity = report.computeSpeakingDurationMilestones;
+            entity = entity.bind(report)(tangon, zuuluu, michal);
             entity = undefined;
             return entity;
         };
         entity['value'] = oscard;
-        michal[6] = entity;
+        michal[7] = entity;
         entity = {};
         oscard = 'getVoiceFilterSpeakingDurationMs';
         entity['key'] = oscard;
@@ -492,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = arraySpread(golfie, oscard, report);
             michal = tangon.map;
             entity = function(argFoo) {
-                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+                _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     report = argFoo;
                     entity = report[Symbol.iterator];
@@ -502,24 +601,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = undefined;
                     tangon = michal === golfie;
                     michal = undefined;
-                    if(tangon) { _fun00018_ip = 27; continue _fun00017 }
+                    if(tangon) { _fun00020_ip = 27; continue _fun00019 }
  24:
                     michal = zuuluu;
  27:
                     zuuluu = undefined;
-                    if(tangon) { _fun00018_ip = 57; continue _fun00017 }
+                    if(tangon) { _fun00020_ip = 57; continue _fun00019 }
  32:
                     oscard = report().value;
                     report = entity;
                     report = report === golfie;
                     zuuluu = undefined;
                     tangon = report;
-                    if(report) { _fun00018_ip = 57; continue _fun00017 }
+                    if(report) { _fun00020_ip = 57; continue _fun00019 }
  51:
                     zuuluu = oscard;
                     tangon = report;
  57:
-                    if(tangon) { _fun00018_ip = 63; continue _fun00017 }
+                    if(tangon) { _fun00020_ip = 63; continue _fun00019 }
  60:
                     entity.return();
  63:
@@ -542,59 +641,68 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[7] = entity;
+        michal[8] = entity;
         entity = {};
         oscard = 'getDurationStats';
         entity['key'] = oscard;
         report = function() { // Original name: value
-            michal = this;
+            zuuluu = this;
+            var _closure3_slot0 = zuuluu;
+            oscard = zuuluu.computeSpeakingDurationMilestones;
+            entity = zuuluu.connected;
+            report = entity.lastStartTime;
+            entity = zuuluu.speaking;
+            tangon = entity.lastStartTime;
+            entity = zuuluu.speaking;
+            entity = entity.lastElapsed;
+            entity = oscard.bind(zuuluu)(report, tangon, entity);
             entity = {};
-            tangon = michal.listening;
-            zuuluu = tangon.elapsed;
-            tangon = zuuluu.bind(tangon)();
-            zuuluu = tangon.asMilliseconds;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['duration_listening_ms'] = zuuluu;
-            tangon = michal.speaking;
-            zuuluu = tangon.elapsed;
-            tangon = zuuluu.bind(tangon)();
-            zuuluu = tangon.asMilliseconds;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['duration_speaking_ms'] = zuuluu;
-            tangon = michal.participation;
-            zuuluu = tangon.elapsed;
-            tangon = zuuluu.bind(tangon)();
-            zuuluu = tangon.asMilliseconds;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['duration_participation_ms'] = zuuluu;
-            tangon = michal.connected;
-            zuuluu = tangon.elapsed;
-            tangon = zuuluu.bind(tangon)();
-            zuuluu = tangon.asMilliseconds;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['duration_connected_ms'] = zuuluu;
-            tangon = michal.muted;
-            zuuluu = tangon.elapsed;
-            tangon = zuuluu.bind(tangon)();
-            zuuluu = tangon.asMilliseconds;
-            zuuluu = zuuluu.bind(tangon)();
-            entity['duration_muted_ms'] = zuuluu;
-            tangon = michal.voiceFilterSpeaking;
-            zuuluu = tangon.keys;
-            golfie = zuuluu.bind(tangon)();
-            tangon = new Array(0);
-            option = tangon;
-            oscard = 0;
-            report = arraySpread(option, golfie, oscard);
-            entity['duration_speaking_voice_filter_ids'] = tangon;
-            tangon = michal.voiceFilterSpeaking;
-            michal = tangon.values;
-            golfie = michal.bind(tangon)();
-            tangon = new Array(0);
-            option = tangon;
-            michal = arraySpread(option, golfie, oscard);
-            zuuluu = tangon.map;
-            michal = function(argFoo) {
+            report = zuuluu.listening;
+            tangon = report.elapsed;
+            report = tangon.bind(report)();
+            tangon = report.asMilliseconds;
+            tangon = tangon.bind(report)();
+            entity['duration_listening_ms'] = tangon;
+            report = zuuluu.speaking;
+            tangon = report.elapsed;
+            report = tangon.bind(report)();
+            tangon = report.asMilliseconds;
+            tangon = tangon.bind(report)();
+            entity['duration_speaking_ms'] = tangon;
+            report = zuuluu.participation;
+            tangon = report.elapsed;
+            report = tangon.bind(report)();
+            tangon = report.asMilliseconds;
+            tangon = tangon.bind(report)();
+            entity['duration_participation_ms'] = tangon;
+            report = zuuluu.connected;
+            tangon = report.elapsed;
+            report = tangon.bind(report)();
+            tangon = report.asMilliseconds;
+            tangon = tangon.bind(report)();
+            entity['duration_connected_ms'] = tangon;
+            report = zuuluu.muted;
+            tangon = report.elapsed;
+            report = tangon.bind(report)();
+            tangon = report.asMilliseconds;
+            tangon = tangon.bind(report)();
+            entity['duration_muted_ms'] = tangon;
+            report = zuuluu.voiceFilterSpeaking;
+            tangon = report.keys;
+            option = tangon.bind(report)();
+            report = new Array(0);
+            verify = report;
+            golfie = 0;
+            oscard = arraySpread(verify, option, golfie);
+            entity['duration_speaking_voice_filter_ids'] = report;
+            report = zuuluu.voiceFilterSpeaking;
+            zuuluu = report.values;
+            option = zuuluu.bind(report)();
+            report = new Array(0);
+            verify = report;
+            zuuluu = arraySpread(verify, option, golfie);
+            tangon = report.map;
+            zuuluu = function(argFoo) {
                 michal = argFoo;
                 entity = michal.elapsed;
                 michal = entity.bind(michal)();
@@ -602,12 +710,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(michal)();
                 return entity;
             };
-            michal = zuuluu.bind(tangon)(michal);
-            entity['duration_speaking_voice_filter_ms'] = michal;
+            zuuluu = tangon.bind(report)(zuuluu);
+            entity['duration_speaking_voice_filter_ms'] = zuuluu;
+            report = _closure1_slot4;
+            tangon = report.filter;
+            zuuluu = function(argFoo) {
+                entity = _closure3_slot0;
+                zuuluu = entity.timesUntilSpeakingDurationMilestonesMs;
+                michal = zuuluu.has;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            report = tangon.bind(report)(zuuluu);
+            tangon = report.reduce;
+            zuuluu = function(argFoo, argBar) {
+                report = argBar;
+                entity = {};
+                oscard = argFoo;
+                golfie = entity;
+                michal = copyDataProperties(golfie, oscard);
+                michal = global;
+                michal = michal.HermesInternal;
+                tangon = michal.concat;
+                zuuluu = 'time_to_first_';
+                michal = 'ms_speech_ms';
+                zuuluu = tangon.bind(zuuluu)(report, michal);
+                michal = _closure3_slot0;
+                tangon = michal.timesUntilSpeakingDurationMilestonesMs;
+                michal = tangon.get;
+                michal = michal.bind(tangon)(report);
+                entity[zuuluu] = michal;
+                return entity;
+            };
+            michal = {};
+            option = tangon.bind(report)(zuuluu, michal);
+            verify = entity;
+            michal = copyDataProperties(verify, option);
             return entity;
         };
         entity['value'] = report;
-        michal[8] = entity;
+        michal[9] = entity;
         entity = undefined;
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;

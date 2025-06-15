@@ -1094,8 +1094,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable43 = _closure1_slot13;
             quebec = _closure1_slot1;
             variable47 = _closure1_slot3;
-            if(target) { _fun00008_ip = 1273; continue _fun00007 }
- 1214:
+            if(target) { _fun00008_ip = 1274; continue _fun00007 }
+ 1215:
             target = 34;
             target = variable47[target];
             sierra = quebec.bind(tangon)(target);
@@ -1108,8 +1108,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable48 = whisks.expandDescriptionCTAStyle;
             target['expandDescriptionCTAStyle'] = variable48;
             target = variable43.bind(tangon)(sierra, target);
-            _fun00008_ip = 1330; continue _fun00007;
- 1273:
+            _fun00008_ip = 1331; continue _fun00007;
+ 1274:
             sierra = 33;
             sierra = variable47[sierra];
             quebec = quebec.bind(tangon)(sierra);
@@ -1123,7 +1123,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = variable44 > variable45;
             sierra['hasCommands'] = variable44;
             target = variable43.bind(tangon)(quebec, sierra);
- 1330:
+ 1331:
             sequen[1] = target;
             quebec = _closure1_slot13;
             sierra = _closure1_slot1;
@@ -1134,8 +1134,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = {};
             variable44 = papara == config;
             variable43 = 24;
-            if(variable44) { _fun00008_ip = 1400; continue _fun00007 }
- 1370:
+            if(variable44) { _fun00008_ip = 1401; continue _fun00007 }
+ 1371:
             variable45 = _closure1_slot1;
             variable46 = _closure1_slot3;
             variable44 = 10;
@@ -1143,7 +1143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = variable45.bind(tangon)(variable44);
             variable44 = variable44.spacing;
             variable43 = variable44.PX_16;
- 1400:
+ 1401:
             target['size'] = variable43;
             target = quebec.bind(tangon)(sierra, target);
             sequen[2] = target;
@@ -1151,18 +1151,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = variable41.length;
             config = 1;
             config = target > config;
-            if(!config) { _fun00008_ip = 1436; continue _fun00007 }
- 1433:
+            if(!config) { _fun00008_ip = 1437; continue _fun00007 }
+ 1434:
             config = !kiloes;
- 1436:
-            if(!config) { _fun00008_ip = 1452; continue _fun00007 }
- 1439:
+ 1437:
+            if(!config) { _fun00008_ip = 1453; continue _fun00007 }
+ 1440:
             sierra = record.type;
             target = 'channel';
             config = target === sierra;
- 1452:
-            if(!config) { _fun00008_ip = 1517; continue _fun00007 }
- 1455:
+ 1453:
+            if(!config) { _fun00008_ip = 1518; continue _fun00007 }
+ 1456:
             quebec = _closure1_slot13;
             sierra = _closure1_slot1;
             target = _closure1_slot3;
@@ -1177,11 +1177,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['installOnDemand'] = variable37;
             target['sectionName'] = variable36;
             config = quebec.bind(tangon)(sierra, target);
- 1517:
+ 1518:
             sequen[4] = config;
             config = null;
-            if(!cntext) { _fun00008_ip = 1697; continue _fun00007 }
- 1529:
+            if(!cntext) { _fun00008_ip = 1698; continue _fun00007 }
+ 1530:
             sierra = _closure1_slot0;
             target = _closure1_slot3;
             target = target[limora];
@@ -1189,8 +1189,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = sierra.isEmbeddedApp;
             target = target.bind(sierra)(foxtra);
             config = null;
-            if(target) { _fun00008_ip = 1697; continue _fun00007 }
- 1565:
+            if(target) { _fun00008_ip = 1698; continue _fun00007 }
+ 1566:
             limora = _closure1_slot13;
             sierra = _closure1_slot6;
             target = {};
@@ -1218,16 +1218,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = variable37.bind(tangon)(variable36, quebec);
             target['children'] = quebec;
             config = limora.bind(tangon)(sierra, target);
- 1697:
+ 1698:
             sequen[5] = config;
             config = null;
-            if(cntext) { _fun00008_ip = 1953; continue _fun00007 }
- 1709:
+            if(cntext) { _fun00008_ip = 1954; continue _fun00007 }
+ 1710:
             cntext = record.type;
             record = 'channel';
             config = null;
-            if(!(record === cntext)) { _fun00008_ip = 1953; continue _fun00007 }
- 1727:
+            if(!(record === cntext)) { _fun00008_ip = 1954; continue _fun00007 }
+ 1728:
             papara = _closure1_slot14;
             cntext = _closure1_slot6;
             record = {};
@@ -1262,8 +1262,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = limora.bind(tangon)(sierra, target);
             target = new Array(2);
             target[0] = sierra;
-            if(!status) { _fun00008_ip = 1939; continue _fun00007 }
- 1890:
+            if(!status) { _fun00008_ip = 1940; continue _fun00007 }
+ 1891:
             whisks = _closure1_slot13;
             limora = _closure1_slot1;
             quebec = _closure1_slot3;
@@ -1281,11 +1281,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sierra['onSortOptionPress'] = equals;
             status = whisks.bind(tangon)(limora, sierra);
- 1939:
+ 1940:
             target[1] = status;
             record['children'] = target;
             config = papara.bind(tangon)(cntext, record);
- 1953:
+ 1954:
             sequen[6] = config;
             vacuum['children'] = sequen;
             vacuum = zuuluu.bind(tangon)(michal, vacuum);
@@ -1311,10 +1311,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.animatedProps;
             golfie['animatedProps'] = report;
             report = undefined;
-            if(!kiloes) { _fun00008_ip = 2079; continue _fun00007 }
- 2075:
+            if(!kiloes) { _fun00008_ip = 2080; continue _fun00007 }
+ 2076:
             report = 'loading';
- 2079:
+ 2080:
             golfie = backup.bind(tangon)(option, golfie, report);
             report = new Array(2);
             report[0] = golfie;

@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 410; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 411; continue _fun00003 }
  15:
                     romeon = michal.channelId;
                     var _closure4_slot0 = romeon;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  108:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 407; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 408; continue _fun00003 }
  117:
                     report = _closure1_slot10;
                     zuuluu = report.getEmbeddedActivitiesForChannel;
@@ -374,8 +374,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.bind(oscard)(zuuluu);
                     _closure4_slot7 = report;
                     backup = null;
-                    if(!(backup == foxtra)) { _fun00004_ip = 219; continue _fun00003 }
- 160:
+                    if(!(backup == foxtra)) { _fun00004_ip = 220; continue _fun00003 }
+ 161:
                     oscard = _closure1_slot1;
                     verify = _closure1_slot2;
                     zuuluu = 12;
@@ -383,21 +383,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.bind(tangon)(zuuluu);
                     zuuluu = oscard.fetchApplication;
                     zuuluu = zuuluu.bind(oscard)(option);
-                    SaveGenerator(address=195);
- 193:
+                    SaveGenerator(address=196);
+ 194:
                     return zuuluu;
- 195:
+ 196:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 404; continue _fun00003 }
- 204:
+                    if(oscard) { _fun00004_ip = 405; continue _fun00003 }
+ 205:
                     option = _closure1_slot4;
                     oscard = option.createFromServer;
                     foxtra = oscard.bind(option)(zuuluu);
- 219:
-                    if(!(backup != report)) { _fun00004_ip = 401; continue _fun00003 }
- 226:
-                    if(!(backup != foxtra)) { _fun00004_ip = 401; continue _fun00003 }
- 233:
+ 220:
+                    if(!(backup != report)) { _fun00004_ip = 402; continue _fun00003 }
+ 227:
+                    if(!(backup != foxtra)) { _fun00004_ip = 402; continue _fun00003 }
+ 234:
                     oscard = _closure1_slot8;
                     report = oscard.getCurrentUser;
                     yankee = report.bind(oscard)();
@@ -411,10 +411,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = {};
                     kiloes = backup == yankee;
                     backup = undefined;
-                    if(kiloes) { _fun00004_ip = 288; continue _fun00003 }
- 283:
+                    if(kiloes) { _fun00004_ip = 289; continue _fun00003 }
+ 284:
                     backup = yankee.id;
- 288:
+ 289:
                     option['userId'] = backup;
                     option['application'] = foxtra;
                     option['channelId'] = romeon;
@@ -449,13 +449,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     report['handleCanJoin'] = golfie;
                     report = oscard.bind(tangon)(report);
- 401:
+ 402:
                     return tangon;
- 404:
+ 405:
                     return zuuluu;
- 407:
+ 408:
                     return michal;
- 410:
+ 411:
                     return entity;
                 }
             };

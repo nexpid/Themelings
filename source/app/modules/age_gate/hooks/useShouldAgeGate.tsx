@@ -73,10 +73,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = null;
             option = michal == tangon;
             golfie = undefined;
-            if(option) { _fun00002_ip = 120; continue _fun00001 }
- 114:
+            if(option) { _fun00002_ip = 124; continue _fun00001 }
+ 118:
             golfie = tangon.nsfwAllowed;
- 120:
+ 124:
             tangon = true;
             tangon = tangon === golfie;
             option = _closure1_slot0;
@@ -108,20 +108,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.bind(option)(oscard, zuuluu);
             michal = michal == report;
             entity = undefined;
-            if(michal) { _fun00002_ip = 190; continue _fun00001 }
- 180:
+            if(michal) { _fun00002_ip = 196; continue _fun00001 }
+ 186:
             michal = report.isNSFW;
             entity = michal.bind(report)();
- 190:
-            if(!entity) { _fun00002_ip = 205; continue _fun00001 }
- 193:
-            michal = !tangon;
-            if(!tangon) { _fun00002_ip = 202; continue _fun00001 }
+ 196:
+            if(!entity) { _fun00002_ip = 211; continue _fun00001 }
  199:
-            michal = !zuuluu;
- 202:
-            entity = michal;
+            michal = !tangon;
+            if(!tangon) { _fun00002_ip = 208; continue _fun00001 }
  205:
+            michal = !zuuluu;
+ 208:
+            entity = michal;
+ 211:
             return entity;
         }
     };

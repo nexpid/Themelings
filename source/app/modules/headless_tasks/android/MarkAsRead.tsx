@@ -1,10 +1,18 @@
 // app/modules/headless_tasks/android/MarkAsRead.tsx
 export default (function(argFoo, argBar, _, __, argGra, ___, argPlu) {
     zuuluu = argBar;
-    michal = argPlu;
+    tangon = argPlu;
     var _closure1_slot0 = zuuluu;
-    var _closure1_slot1 = michal;
-    tangon = function(argFoo) {
+    var _closure1_slot1 = tangon;
+    entity = 0;
+    report = tangon[entity];
+    entity = undefined;
+    report = zuuluu.bind(entity)(report);
+    oscard = report.AnalyticsObjectTypes;
+    var _closure1_slot2 = oscard;
+    report = report.AnalyticsObjects;
+    var _closure1_slot3 = report;
+    report = function(argFoo) {
         michal = argFoo;
         var _closure2_slot0 = michal;
         michal = global;
@@ -12,21 +20,29 @@ export default (function(argFoo, argBar, _, __, argGra, ___, argPlu) {
         michal = zuuluu.prototype;
         michal = Object.create(michal, {constructor: {value: zuuluu}});
         tangon = function(argFoo) {
-            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot0;
             michal = _closure1_slot1;
-            entity = 0;
+            entity = 1;
             michal = michal[entity];
             entity = undefined;
-            oscard = zuuluu.bind(entity)(michal);
-            report = oscard.ack;
+            golfie = tangon.bind(entity)(michal);
+            oscard = golfie.ack;
             michal = _closure2_slot0;
-            offset = michal.channelId;
-            golfie = michal.messageId;
+            foxtra = michal.channelId;
+            tangon = {};
+            option = _closure1_slot3;
+            option = option.MARK_CHANNEL_AS_READ_FROM_NOTIFICATION;
+            tangon['object'] = option;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.ACK_MANUAL;
+            tangon['objectType'] = zuuluu;
+            verify = michal.messageId;
             zuuluu = true;
-            yankee = oscard;
-            verify = true;
-            option = true;
-            michal = yankee[report](offset, verify, option, golfie, oscard);
+            backup = golfie;
+            romeon = tangon;
+            yankee = true;
+            offset = true;
+            michal = backup[oscard](foxtra, romeon, yankee, offset, verify, option);
             michal = argFoo;
             michal = michal.bind(entity)(zuuluu);
             return entity;
@@ -36,11 +52,10 @@ export default (function(argFoo, argBar, _, __, argGra, ___, argPlu) {
         entity = entity instanceof Object ? entity : michal;
         return entity;
     };
-    entity = argGra;
-    entity['exports'] = tangon;
-    entity = 1;
-    michal = michal[entity];
-    entity = undefined;
+    michal = argGra;
+    michal['exports'] = report;
+    michal = 2;
+    michal = tangon[michal];
     tangon = zuuluu.bind(entity)(michal);
     zuuluu = tangon.fileFinishedImporting;
     michal = 'modules/headless_tasks/android/MarkAsRead.tsx';

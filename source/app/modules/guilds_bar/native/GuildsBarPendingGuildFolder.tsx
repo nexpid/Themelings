@@ -132,16 +132,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = michal.bind(zuuluu)(entity);
                         tangon = null;
                         entity = tangon == michal;
-                        if(entity) { _fun00006_ip = 51; continue _fun00005 }
- 42:
+                        if(entity) { _fun00006_ip = 52; continue _fun00005 }
+ 43:
                         zuuluu = michal.action;
                         entity = tangon == zuuluu;
- 51:
-                        if(entity) { _fun00006_ip = 63; continue _fun00005 }
- 54:
+ 52:
+                        if(entity) { _fun00006_ip = 64; continue _fun00005 }
+ 55:
                         entity = michal.action;
                         entity = entity.bind(michal)();
- 63:
+ 64:
                         entity = undefined;
                         return entity;
                     }

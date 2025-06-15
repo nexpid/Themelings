@@ -18,8 +18,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['PRIVATE_CHANNEL'] = entity;
     entity = 'pcm';
     michal['PRIVATE_CHANNEL_MESSAGE'] = entity;
-    entity = 'cl';
-    michal['CONTEXTLESS'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

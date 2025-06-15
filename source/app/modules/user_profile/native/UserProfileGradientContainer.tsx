@@ -102,22 +102,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = zuuluu.bind(option)(foxtra);
             zuuluu = null;
             foxtra = zuuluu == option;
-            if(michal) { _fun00002_ip = 246; continue _fun00001 }
- 233:
+            if(michal) { _fun00002_ip = 247; continue _fun00001 }
+ 234:
             michal = undefined;
-            if(foxtra) { _fun00002_ip = 244; continue _fun00001 }
- 238:
+            if(foxtra) { _fun00002_ip = 245; continue _fun00001 }
+ 239:
             michal = option.overlay;
- 244:
-            _fun00002_ip = 260; continue _fun00001;
- 246:
+ 245:
+            _fun00002_ip = 261; continue _fun00001;
+ 247:
             zuuluu = undefined;
-            if(foxtra) { _fun00002_ip = 257; continue _fun00001 }
- 251:
+            if(foxtra) { _fun00002_ip = 258; continue _fun00001 }
+ 252:
             zuuluu = option.overlaySyncedWithUserTheme;
- 257:
+ 258:
             michal = zuuluu;
- 260:
+ 261:
             _closure2_slot4 = michal;
             option = _closure1_slot4;
             backup = option.useMemo;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  31:
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    zuuluu = 6;
+                    zuuluu = 7;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     report = report.bind(zuuluu)(tangon);
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  31:
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    zuuluu = 6;
+                    zuuluu = 7;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     report = report.bind(zuuluu)(tangon);
@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 6;
+                entity = 7;
                 michal = michal[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(michal);
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot6;
             michal = _closure1_slot0;
             yankee = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = yankee[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.UserProfileGradientContextProvider;
@@ -222,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['borderPrimaryColor'] = romeon;
             entity['borderSecondaryColor'] = oscard;
             oscard = _closure1_slot1;
-            report = 8;
+            report = 9;
             report = yankee[report];
             oscard = oscard.bind(tangon)(report);
             report = {};
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 9;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

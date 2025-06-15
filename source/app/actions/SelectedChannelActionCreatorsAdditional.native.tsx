@@ -66,20 +66,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = argFoo;
             report = arguments[2];
             tangon = arguments[3];
+            entity = arguments[4];
             var _closure2_slot0 = golfie;
-            entity = argBar;
-            var _closure2_slot1 = entity;
+            zuuluu = argBar;
+            var _closure2_slot1 = zuuluu;
             option = undefined;
-            if(!(report === option)) { _fun00002_ip = 30; continue _fun00001 }
- 28:
+            if(!(report === option)) { _fun00002_ip = 33; continue _fun00001 }
+ 31:
             report = false;
- 30:
+ 33:
             var _closure2_slot2 = report;
-            if(!(tangon === option)) { _fun00002_ip = 40; continue _fun00001 }
- 38:
+            if(!(tangon === option)) { _fun00002_ip = 43; continue _fun00001 }
+ 41:
             tangon = false;
- 40:
+ 43:
             var _closure2_slot3 = tangon;
+            if(!(entity === option)) { _fun00002_ip = 53; continue _fun00001 }
+ 51:
+            entity = {};
+ 53:
+            entity = entity.lockVoiceStateForResume;
+            if(!(entity === option)) { _fun00002_ip = 65; continue _fun00001 }
+ 63:
+            entity = false;
+ 65:
+            var _closure2_slot4 = entity;
             oscard = _closure1_slot3;
             zuuluu = oscard.getChannel;
             oscard = zuuluu.bind(oscard)(golfie);
@@ -87,18 +98,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = verify.getCurrentUser;
             verify = zuuluu.bind(verify)();
             zuuluu = null;
-            if(!(zuuluu != verify)) { _fun00002_ip = 398; continue _fun00001 }
- 83:
-            if(!(zuuluu != oscard)) { _fun00002_ip = 108; continue _fun00001 }
- 87:
-            offset = oscard.nsfw;
-            if(!offset) { _fun00002_ip = 108; continue _fun00001 }
- 96:
-            verify = verify.nsfwAllowed;
-            if(!verify) { _fun00002_ip = 398; continue _fun00001 }
+            if(!(zuuluu != verify)) { _fun00002_ip = 423; continue _fun00001 }
  108:
-            if(!(zuuluu != oscard)) { _fun00002_ip = 358; continue _fun00001 }
- 115:
+            if(!(zuuluu != oscard)) { _fun00002_ip = 133; continue _fun00001 }
+ 112:
+            offset = oscard.nsfw;
+            if(!offset) { _fun00002_ip = 133; continue _fun00001 }
+ 121:
+            verify = verify.nsfwAllowed;
+            if(!verify) { _fun00002_ip = 423; continue _fun00001 }
+ 133:
+            if(!(zuuluu != oscard)) { _fun00002_ip = 383; continue _fun00001 }
+ 140:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             zuuluu = 9;
@@ -113,8 +124,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.guild_id;
             yankee = offset.bind(yankee)(zuuluu);
             zuuluu = yankee.canChat;
-            if(zuuluu) { _fun00002_ip = 252; continue _fun00001 }
- 185:
+            if(zuuluu) { _fun00002_ip = 277; continue _fun00001 }
+ 210:
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
             zuuluu = 10;
@@ -122,8 +133,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = offset.bind(option)(zuuluu);
             zuuluu = offset.canLurkerListen;
             zuuluu = zuuluu.bind(offset)(oscard);
-            if(zuuluu) { _fun00002_ip = 252; continue _fun00001 }
- 219:
+            if(zuuluu) { _fun00002_ip = 277; continue _fun00001 }
+ 244:
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
             zuuluu = 11;
@@ -132,25 +143,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = offset.unverifiedVoiceGate;
             zuuluu = zuuluu.bind(offset)(yankee);
             return zuuluu;
- 252:
+ 277:
             zuuluu = oscard.isPrivate;
             zuuluu = zuuluu.bind(oscard)();
             zuuluu = !zuuluu;
-            if(!zuuluu) { _fun00002_ip = 297; continue _fun00001 }
- 268:
+            if(!zuuluu) { _fun00002_ip = 322; continue _fun00001 }
+ 293:
             romeon = _closure1_slot6;
             yankee = romeon.can;
             offset = _closure1_slot10;
             offset = offset.CONNECT;
             offset = yankee.bind(romeon)(offset, oscard);
             zuuluu = !offset;
- 297:
-            if(!verify) { _fun00002_ip = 352; continue _fun00001 }
- 300:
+ 322:
+            if(!verify) { _fun00002_ip = 377; continue _fun00001 }
+ 325:
             offset = oscard.isGuildStageVoice;
             offset = offset.bind(oscard)();
-            if(!offset) { _fun00002_ip = 352; continue _fun00001 }
- 313:
+            if(!offset) { _fun00002_ip = 377; continue _fun00001 }
+ 338:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
             offset = 12;
@@ -159,12 +170,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = romeon.getStageHasMedia;
             offset = oscard.id;
             offset = yankee.bind(romeon)(offset);
-            if(offset) { _fun00002_ip = 402; continue _fun00001 }
- 352:
-            if(verify) { _fun00002_ip = 400; continue _fun00001 }
- 355:
-            if(zuuluu) { _fun00002_ip = 400; continue _fun00001 }
- 358:
+            if(offset) { _fun00002_ip = 427; continue _fun00001 }
+ 377:
+            if(verify) { _fun00002_ip = 425; continue _fun00001 }
+ 380:
+            if(zuuluu) { _fun00002_ip = 425; continue _fun00001 }
+ 383:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             zuuluu = 16;
@@ -191,8 +202,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['currentVoiceChannelId'] = oscard;
                 oscard = _closure2_slot2;
                 michal['video'] = oscard;
-                report = _closure2_slot3;
-                michal['stream'] = report;
+                oscard = _closure2_slot3;
+                michal['stream'] = oscard;
+                report = _closure2_slot4;
+                michal['lockVoiceStateForResume'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
@@ -201,11 +214,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = tangon;
             foxtra = report;
             michal = output[zuuluu](sizing, kiloes, backup, foxtra, romeon);
- 398:
+ 423:
             return option;
- 400:
+ 425:
             return option;
- 402:
+ 427:
             tangon = _closure1_slot1;
             michal = _closure1_slot2;
             zuuluu = 13;

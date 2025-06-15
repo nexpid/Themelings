@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = echoed.expiresAt;
                 yankee = verify != yankee;
                 verify = null;
-                if(!yankee) { _fun00008_ip = 563; continue _fun00007 }
+                if(!yankee) { _fun00008_ip = 561; continue _fun00007 }
  403:
                 romeon = _closure1_slot11;
                 backup = _closure1_slot0;
@@ -423,7 +423,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = kiloes.bind(sizing)(backup, foxtra);
                 offset['children'] = foxtra;
                 verify = romeon.bind(tangon)(yankee, offset);
- 563:
+ 561:
                 oscard['children'] = verify;
                 oscard = golfie.bind(tangon)(option, oscard);
                 report[1] = oscard;

@@ -234,10 +234,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = arraySpread(verify, option, golfie);
                     entity = entity.overwrites;
                     oscard = null;
-                    if(!(oscard == entity)) { _fun00004_ip = 122; continue _fun00003 }
- 118:
-                    entity = new Array(0);
+                    if(!(oscard == entity)) { _fun00004_ip = 126; continue _fun00003 }
  122:
+                    entity = new Array(0);
+ 126:
                     verify = tangon;
                     option = entity;
                     golfie = report;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.setOptions;
                     entity = {};
                     tangon = _closure2_slot3;
-                    if(tangon) { _fun00008_ip = 190; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 192; continue _fun00007 }
  183:
                     tangon = function() {
                         tangon = _closure1_slot8;
@@ -322,8 +322,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = tangon.bind(zuuluu)(michal, entity);
                         return entity;
                     };
-                    _fun00008_ip = 195; continue _fun00007;
- 190:
+                    _fun00008_ip = 199; continue _fun00007;
+ 192:
                     tangon = function() {
                         tangon = _closure1_slot8;
                         michal = _closure1_slot0;
@@ -337,7 +337,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = tangon.bind(zuuluu)(michal, entity);
                         return entity;
                     };
- 195:
+ 199:
                     entity['headerRight'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
                     entity = undefined;
@@ -378,8 +378,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = result.message;
             golfie = backup != oscard;
             oscard = null;
-            if(!golfie) { _fun00002_ip = 565; continue _fun00001 }
- 468:
+            if(!golfie) { _fun00002_ip = 569; continue _fun00001 }
+ 472:
             yankee = _closure1_slot8;
             option = _closure1_slot5;
             golfie = {};
@@ -402,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = yankee.bind(tangon)(output, sizing);
             golfie['children'] = sizing;
             oscard = yankee.bind(tangon)(option, golfie);
- 565:
+ 569:
             report[1] = oscard;
             option = _closure1_slot8;
             golfie = _closure1_slot1;

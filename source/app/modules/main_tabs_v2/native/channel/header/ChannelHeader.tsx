@@ -87,31 +87,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.useShouldAgeGateChannel;
             zuuluu = zuuluu.bind(tangon)(verify);
             option = !zuuluu;
-            if(!option) { _fun00002_ip = 135; continue _fun00001 }
- 132:
+            if(!option) { _fun00002_ip = 137; continue _fun00001 }
+ 134:
             option = entity;
- 135:
+ 137:
             entity = _closure1_slot5;
             entity = entity.ROLE_SUBSCRIPTIONS;
-            if(!(verify !== entity)) { _fun00002_ip = 522; continue _fun00001 }
- 152:
+            if(!(verify !== entity)) { _fun00002_ip = 524; continue _fun00001 }
+ 154:
             entity = _closure1_slot5;
             entity = entity.GUILD_HOME;
-            if(!(verify !== entity)) { _fun00002_ip = 488; continue _fun00001 }
- 169:
+            if(!(verify !== entity)) { _fun00002_ip = 490; continue _fun00001 }
+ 171:
             foxtra = null;
-            if(!(foxtra != yankee)) { _fun00002_ip = 191; continue _fun00001 }
- 175:
+            if(!(foxtra != yankee)) { _fun00002_ip = 193; continue _fun00001 }
+ 177:
             entity = yankee.isPrivate;
             entity = entity.bind(yankee)();
-            if(entity) { _fun00002_ip = 440; continue _fun00001 }
- 191:
-            if(!(foxtra != yankee)) { _fun00002_ip = 208; continue _fun00001 }
- 195:
+            if(entity) { _fun00002_ip = 442; continue _fun00001 }
+ 193:
+            if(!(foxtra != yankee)) { _fun00002_ip = 210; continue _fun00001 }
+ 197:
             entity = yankee.isForumLikeChannel;
             entity = entity.bind(yankee)();
-            if(entity) { _fun00002_ip = 287; continue _fun00001 }
- 208:
+            if(entity) { _fun00002_ip = 289; continue _fun00001 }
+ 210:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -122,18 +122,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['channelId'] = verify;
             backup = foxtra == yankee;
             oscard = undefined;
-            if(backup) { _fun00002_ip = 252; continue _fun00001 }
- 247:
+            if(backup) { _fun00002_ip = 254; continue _fun00001 }
+ 249:
             oscard = yankee.guild_id;
- 252:
+ 254:
             entity['guildId'] = oscard;
             entity['pressable'] = option;
             entity['isGuildMemberCountVisible'] = romeon;
             entity['isNavigationScreen'] = offset;
             entity['screenIndex'] = golfie;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 438; continue _fun00001;
- 287:
+            _fun00002_ip = 440; continue _fun00001;
+ 289:
             oscard = _closure1_slot6;
             tangon = _closure1_slot1;
             backup = _closure1_slot2;
@@ -144,10 +144,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['channelId'] = verify;
             backup = foxtra == yankee;
             foxtra = undefined;
-            if(backup) { _fun00002_ip = 331; continue _fun00001 }
- 326:
+            if(backup) { _fun00002_ip = 333; continue _fun00001 }
+ 328:
             foxtra = yankee.guild_id;
- 331:
+ 333:
             zuuluu['guildId'] = foxtra;
             zuuluu['pressable'] = option;
             zuuluu['isGuildMemberCountVisible'] = romeon;
@@ -156,8 +156,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = yankee.isForumChannel;
             yankee = offset.bind(yankee)();
             offset = undefined;
-            if(yankee) { _fun00002_ip = 427; continue _fun00001 }
- 370:
+            if(yankee) { _fun00002_ip = 429; continue _fun00001 }
+ 372:
             backup = _closure1_slot0;
             kiloes = _closure1_slot2;
             yankee = 16;
@@ -170,12 +170,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.t;
             yankee = yankee.L9fR+P;
             offset = romeon.bind(foxtra)(yankee);
- 427:
+ 429:
             zuuluu['searchPlaceholder'] = offset;
             entity = oscard.bind(report)(tangon, zuuluu);
- 438:
-            _fun00002_ip = 486; continue _fun00001;
  440:
+            _fun00002_ip = 488; continue _fun00001;
+ 442:
             oscard = _closure1_slot6;
             tangon = _closure1_slot1;
             offset = _closure1_slot2;
@@ -187,9 +187,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['pressable'] = option;
             zuuluu['screenIndex'] = golfie;
             entity = oscard.bind(report)(tangon, zuuluu);
- 486:
-            _fun00002_ip = 520; continue _fun00001;
  488:
+            _fun00002_ip = 522; continue _fun00001;
+ 490:
             oscard = _closure1_slot6;
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -198,9 +198,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = {};
             entity = oscard.bind(report)(tangon, zuuluu);
- 520:
-            _fun00002_ip = 554; continue _fun00001;
  522:
+            _fun00002_ip = 556; continue _fun00001;
+ 524:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 554:
+ 556:
             return entity;
         }
     };

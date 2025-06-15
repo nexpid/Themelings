@@ -332,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!vacuum) { _fun00002_ip = 855; continue _fun00001 }
  845:
             target = equals.colorStrings;
-            if(!(verify == target)) { _fun00002_ip = 908; continue _fun00001 }
+            if(!(verify == target)) { _fun00002_ip = 911; continue _fun00001 }
  855:
             limora = _closure1_slot9;
             sierra = _closure1_slot1;
@@ -346,21 +346,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['style'] = whisks;
             target['onSelect'] = update;
             sierra = limora.bind(tangon)(sierra, target);
-            _fun00002_ip = 1015; continue _fun00001;
- 908:
+            _fun00002_ip = 1069; continue _fun00001;
+ 911:
             whisks = _closure1_slot9;
             limora = _closure1_slot1;
-            variable38 = _closure1_slot2;
+            variable39 = _closure1_slot2;
             target = 19;
-            target = variable38[target];
+            target = variable39[target];
             limora = limora.bind(tangon)(target);
             target = {};
-            variable36 = _closure1_slot0;
-            quebec = 20;
-            quebec = variable38[quebec];
-            variable36 = variable36.bind(tangon)(quebec);
-            quebec = variable36.processColorStringsArray;
+            quebec = equals.colorStrings;
+            quebec = quebec.primaryColor;
+            variable36 = new Array(3);
+            variable36[0] = quebec;
+            quebec = equals.colorStrings;
+            quebec = quebec.secondaryColor;
+            variable36[1] = quebec;
             equals = equals.colorStrings;
+            equals = equals.tertiaryColor;
+            variable36[2] = equals;
+            quebec = variable36.filter;
+            variable38 = _closure1_slot0;
+            equals = 20;
+            equals = variable39[equals];
+            equals = variable38.bind(tangon)(equals);
+            equals = equals.isNotNullish;
             equals = quebec.bind(variable36)(equals);
             target['colors'] = equals;
             equals = {'x': 0, 'y': 0};
@@ -370,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = status.colorBlock;
             target['style'] = equals;
             sierra = whisks.bind(tangon)(limora, target);
- 1015:
+ 1069:
             target = new Array(2);
             target[0] = sierra;
             whisks = _closure1_slot9;
@@ -385,15 +395,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra['variant'] = equals;
             variable36 = _closure1_slot0;
             variable39 = _closure1_slot2;
-            if(vacuum) { _fun00002_ip = 1098; continue _fun00001 }
- 1073:
+            if(vacuum) { _fun00002_ip = 1152; continue _fun00001 }
+ 1127:
             equals = 24;
             equals = variable39[equals];
             quebec = variable36.bind(tangon)(equals);
             equals = quebec.int2hex;
             equals = equals.bind(quebec)(variable37);
-            _fun00002_ip = 1146; continue _fun00001;
- 1098:
+            _fun00002_ip = 1200; continue _fun00001;
+ 1152:
             quebec = variable39[echoed];
             quebec = variable36.bind(tangon)(quebec);
             variable37 = quebec.intl;
@@ -404,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = variable38.bind(tangon)(quebec);
             quebec = quebec.vQz+6e;
             equals = variable36.bind(variable37)(quebec);
- 1146:
+ 1200:
             sierra['children'] = equals;
             sierra = whisks.bind(tangon)(limora, sierra);
             target[1] = sierra;
@@ -415,10 +425,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = zuuluu.bind(tangon)(config, sequen);
             option['label'] = sequen;
             sequen = sizing;
-            if(sizing) { _fun00002_ip = 1197; continue _fun00001 }
- 1194:
+            if(sizing) { _fun00002_ip = 1251; continue _fun00001 }
+ 1248:
             sequen = vacuum;
- 1197:
+ 1251:
             option['disabled'] = sequen;
             option['onPress'] = update;
             sequen = _closure1_slot0;
@@ -429,8 +439,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.Arrow;
             option['trailing'] = update;
             update = undefined;
-            if(!vacuum) { _fun00002_ip = 1296; continue _fun00001 }
- 1244:
+            if(!vacuum) { _fun00002_ip = 1350; continue _fun00001 }
+ 1298:
             record = _closure1_slot0;
             vacuum = _closure1_slot2;
             sequen = vacuum[echoed];
@@ -442,14 +452,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum.t;
             vacuum = vacuum.ZTpgyM;
             update = sequen.bind(config)(vacuum);
- 1296:
+ 1350:
             option['subLabel'] = update;
             yankee = romeon.bind(tangon)(yankee, option);
             option = new Array(2);
             option[0] = yankee;
             verify = null;
-            if(!offset) { _fun00002_ip = 1580; continue _fun00001 }
- 1323:
+            if(!offset) { _fun00002_ip = 1634; continue _fun00001 }
+ 1377:
             romeon = _closure1_slot10;
             yankee = _closure1_slot4;
             offset = {};
@@ -506,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update[1] = vacuum;
             offset['children'] = update;
             verify = romeon.bind(tangon)(yankee, offset);
- 1580:
+ 1634:
             option[1] = verify;
             oscard['children'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);
@@ -524,10 +534,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify.FormSwitchRow;
             verify = {};
             offset = sizing;
-            if(sizing) { _fun00002_ip = 1657; continue _fun00001 }
- 1654:
+            if(sizing) { _fun00002_ip = 1711; continue _fun00001 }
+ 1708:
             offset = output;
- 1657:
+ 1711:
             verify['disabled'] = offset;
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -567,10 +577,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = yankee.bind(tangon)(offset);
             yankee = offset.FormSwitchRow;
             offset = {};
-            if(sizing) { _fun00002_ip = 1847; continue _fun00001 }
- 1844:
+            if(sizing) { _fun00002_ip = 1901; continue _fun00001 }
+ 1898:
             sizing = output;
- 1847:
+ 1901:
             offset['disabled'] = sizing;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;

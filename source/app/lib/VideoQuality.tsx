@@ -3112,7 +3112,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         zuuluu = argFoo;
                         entity = null;
-                        if(!(entity != zuuluu)) { _fun00046_ip = 1058; continue _fun00045 }
+                        if(!(entity != zuuluu)) { _fun00046_ip = 1059; continue _fun00045 }
  14:
                         yankee = zuuluu.ssrc;
                         var _closure4_slot0 = yankee;
@@ -3209,57 +3209,57 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         option = option.MediaEngineContextTypes;
                         option = option.STREAM;
                         verify = true;
-                        if(!(offset === option)) { _fun00046_ip = 453; continue _fun00045 }
- 344:
+                        if(!(offset === option)) { _fun00046_ip = 454; continue _fun00045 }
+ 345:
                         option = _closure3_slot0;
                         offset = option.connection;
                         option = offset.getRemoteVideoSinkWants;
                         offset = option.bind(offset)(yankee);
                         option = entity != offset;
-                        if(!option) { _fun00046_ip = 378; continue _fun00045 }
- 372:
+                        if(!option) { _fun00046_ip = 379; continue _fun00045 }
+ 373:
                         yankee = 0;
                         option = yankee !== offset;
- 378:
-                        if(option) { _fun00046_ip = 404; continue _fun00045 }
- 381:
+ 379:
+                        if(option) { _fun00046_ip = 405; continue _fun00045 }
+ 382:
                         yankee = entity == tangon;
                         romeon = undefined;
-                        if(yankee) { _fun00046_ip = 396; continue _fun00045 }
- 390:
+                        if(yankee) { _fun00046_ip = 397; continue _fun00045 }
+ 391:
                         romeon = tangon.quality;
- 396:
+ 397:
                         yankee = _closure3_slot6;
                         option = romeon !== yankee;
- 404:
+ 405:
                         yankee = offset;
-                        if(option) { _fun00046_ip = 435; continue _fun00045 }
- 410:
+                        if(option) { _fun00046_ip = 436; continue _fun00045 }
+ 411:
                         option = _closure3_slot0;
                         romeon = option.connection;
                         offset = romeon.getRemoteVideoSinkWants;
                         option = 'any';
                         yankee = offset.bind(romeon)(option);
- 435:
+ 436:
                         romeon = entity != yankee;
                         offset = 0;
                         option = 0;
-                        if(!romeon) { _fun00046_ip = 449; continue _fun00045 }
- 446:
+                        if(!romeon) { _fun00046_ip = 450; continue _fun00045 }
+ 447:
                         option = yankee;
- 449:
+ 450:
                         verify = option > offset;
- 453:
+ 454:
                         option = _closure3_slot0;
                         option = option.videoStopped;
                         option = option.value;
-                        if(option) { _fun00046_ip = 474; continue _fun00045 }
- 471:
+                        if(option) { _fun00046_ip = 475; continue _fun00045 }
+ 472:
                         option = !verify;
- 474:
+ 475:
                         verify = report.isVideoStopped;
-                        if(!(option !== verify)) { _fun00046_ip = 528; continue _fun00045 }
- 484:
+                        if(!(option !== verify)) { _fun00046_ip = 529; continue _fun00045 }
+ 485:
                         offset = report.setVideoStopped;
                         yankee = _closure1_slot0;
                         romeon = _closure1_slot2;
@@ -3269,9 +3269,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = verify.VideoStoppedReasons;
                         verify = verify.SenderStopped;
                         verify = offset.bind(report)(option, verify);
- 528:
-                        if(option) { _fun00046_ip = 1058; continue _fun00045 }
- 534:
+ 529:
+                        if(option) { _fun00046_ip = 1059; continue _fun00045 }
+ 535:
                         yankee = report.appendAndIncrementStats;
                         verify = _closure1_slot0;
                         offset = _closure1_slot2;
@@ -3288,29 +3288,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = verify.bind(golfie)(oscard);
                         oscard = oscard.CodecTypes;
                         oscard = oscard.UNKNOWN;
-                        if(!(option !== oscard)) { _fun00046_ip = 640; continue _fun00045 }
- 620:
+                        if(!(option !== oscard)) { _fun00046_ip = 641; continue _fun00045 }
+ 621:
                         verify = _closure3_slot4;
                         option = verify.add;
                         oscard = report.encoderCodec;
                         oscard = option.bind(verify)(oscard);
- 640:
+ 641:
                         oscard = entity == tangon;
                         verify = undefined;
-                        if(oscard) { _fun00046_ip = 655; continue _fun00045 }
- 649:
+                        if(oscard) { _fun00046_ip = 656; continue _fun00045 }
+ 650:
                         verify = tangon.maxBitrate;
- 655:
+ 656:
                         option = report.appendTargetRates;
                         oscard = entity == tangon;
                         golfie = undefined;
-                        if(oscard) { _fun00046_ip = 676; continue _fun00045 }
- 670:
+                        if(oscard) { _fun00046_ip = 677; continue _fun00045 }
+ 671:
                         golfie = tangon.maxFrameRate;
- 676:
+ 677:
                         oscard = zuuluu.bitrateTarget;
-                        if(!(entity == oscard)) { _fun00046_ip = 739; continue _fun00045 }
- 686:
+                        if(!(entity == oscard)) { _fun00046_ip = 740; continue _fun00045 }
+ 687:
                         tangon = global;
                         romeon = tangon.Math;
                         yankee = romeon.min;
@@ -3318,18 +3318,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         foxtra = tangon.availableOutgoingBitrate;
                         backup = entity != foxtra;
                         tangon = 0;
-                        if(!backup) { _fun00046_ip = 721; continue _fun00045 }
- 718:
+                        if(!backup) { _fun00046_ip = 722; continue _fun00045 }
+ 719:
                         tangon = foxtra;
- 721:
+ 722:
                         foxtra = entity != verify;
                         offset = 0;
-                        if(!foxtra) { _fun00046_ip = 733; continue _fun00045 }
- 730:
+                        if(!foxtra) { _fun00046_ip = 734; continue _fun00045 }
+ 731:
                         offset = verify;
- 733:
+ 734:
                         oscard = yankee.bind(romeon)(tangon, offset);
- 739:
+ 740:
                         tangon = _closure3_slot3;
                         kiloes = tangon.availableOutgoingBitrate;
                         echoed = report;
@@ -3340,91 +3340,91 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = zuuluu.averageEncodeTime;
                         golfie = entity != oscard;
                         tangon = 0;
-                        if(!golfie) { _fun00046_ip = 783; continue _fun00045 }
- 780:
+                        if(!golfie) { _fun00046_ip = 784; continue _fun00045 }
+ 781:
                         tangon = oscard;
- 783:
+ 784:
                         report['averageEncodeTime'] = tangon;
                         oscard = zuuluu.framesDroppedRateLimiter;
                         golfie = entity != oscard;
                         tangon = null;
-                        if(!golfie) { _fun00046_ip = 807; continue _fun00045 }
- 804:
+                        if(!golfie) { _fun00046_ip = 808; continue _fun00045 }
+ 805:
                         tangon = oscard;
- 807:
+ 808:
                         report['framesDroppedRateLimiter'] = tangon;
                         oscard = zuuluu.framesDroppedEncoderQueue;
                         golfie = entity != oscard;
                         tangon = null;
-                        if(!golfie) { _fun00046_ip = 831; continue _fun00045 }
- 828:
+                        if(!golfie) { _fun00046_ip = 832; continue _fun00045 }
+ 829:
                         tangon = oscard;
- 831:
+ 832:
                         report['framesDroppedEncoderQueue'] = tangon;
                         oscard = zuuluu.framesDroppedCongestionWindow;
                         golfie = entity != oscard;
                         tangon = null;
-                        if(!golfie) { _fun00046_ip = 855; continue _fun00045 }
- 852:
+                        if(!golfie) { _fun00046_ip = 856; continue _fun00045 }
+ 853:
                         tangon = oscard;
- 855:
+ 856:
                         report['framesDroppedCongestionWindow'] = tangon;
                         oscard = zuuluu.framesDroppedEncoder;
                         golfie = entity != oscard;
                         tangon = null;
-                        if(!golfie) { _fun00046_ip = 879; continue _fun00045 }
- 876:
+                        if(!golfie) { _fun00046_ip = 880; continue _fun00045 }
+ 877:
                         tangon = oscard;
- 879:
+ 880:
                         report['framesDroppedEncoder'] = tangon;
                         tangon = _closure3_slot0;
                         report = tangon.hqSimulcastStreamEncoded;
                         oscard = zuuluu.hqSimulcastStreamEncoded;
                         tangon = entity != oscard;
-                        if(!tangon) { _fun00046_ip = 911; continue _fun00045 }
- 908:
+                        if(!tangon) { _fun00046_ip = 912; continue _fun00045 }
+ 909:
                         tangon = oscard;
- 911:
+ 912:
                         report['value'] = tangon;
                         tangon = _closure3_slot0;
                         report = tangon.lqSimulcastStreamEncoded;
                         oscard = zuuluu.lqSimulcastStreamEncoded;
                         tangon = entity != oscard;
-                        if(!tangon) { _fun00046_ip = 943; continue _fun00045 }
- 940:
+                        if(!tangon) { _fun00046_ip = 944; continue _fun00045 }
+ 941:
                         tangon = oscard;
- 943:
+ 944:
                         report['value'] = tangon;
                         tangon = _closure3_slot0;
                         report = tangon.bothSimulcastStreamsEncoded;
                         tangon = tangon.hqSimulcastStreamEncoded;
                         tangon = tangon.value;
-                        if(!tangon) { _fun00046_ip = 988; continue _fun00045 }
- 973:
+                        if(!tangon) { _fun00046_ip = 989; continue _fun00045 }
+ 974:
                         oscard = _closure3_slot0;
                         oscard = oscard.lqSimulcastStreamEncoded;
                         tangon = oscard.value;
- 988:
+ 989:
                         report['value'] = tangon;
                         tangon = _closure3_slot0;
                         report = tangon.bandwidthLimitedResolution;
                         oscard = zuuluu.bandwidthLimitedResolution;
                         tangon = entity != oscard;
-                        if(!tangon) { _fun00046_ip = 1020; continue _fun00045 }
- 1017:
+                        if(!tangon) { _fun00046_ip = 1021; continue _fun00045 }
+ 1018:
                         tangon = oscard;
- 1020:
+ 1021:
                         report['value'] = tangon;
                         michal = _closure3_slot0;
                         michal = michal.bandwidthLimitedFramerate;
                         zuuluu = zuuluu.bandwidthLimitedFrameRate;
                         entity = entity != zuuluu;
-                        if(!entity) { _fun00046_ip = 1052; continue _fun00045 }
- 1049:
+                        if(!entity) { _fun00046_ip = 1053; continue _fun00045 }
+ 1050:
                         entity = zuuluu;
- 1052:
+ 1053:
                         michal['value'] = entity;
- 1058:
+ 1059:
                         entity = undefined;
                         return entity;
                     }
@@ -3456,13 +3456,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         };
                         tangon = michal.bind(zuuluu)(entity);
                         oscard = null;
-                        if(!(oscard != tangon)) { _fun00048_ip = 388; continue _fun00047 }
- 34:
+                        if(!(oscard != tangon)) { _fun00048_ip = 389; continue _fun00047 }
+ 35:
                         michal = _closure3_slot0;
                         michal = michal.inboundStats;
                         michal = michal[backup];
-                        if(!(oscard == michal)) { _fun00048_ip = 129; continue _fun00047 }
- 55:
+                        if(!(oscard == michal)) { _fun00048_ip = 130; continue _fun00047 }
+ 56:
                         golfie = _closure1_slot0;
                         report = _closure1_slot2;
                         zuuluu = 9;
@@ -3480,7 +3480,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = report.inboundStats;
                         report[backup] = zuuluu;
                         michal = zuuluu;
- 129:
+ 130:
                         golfie = _closure1_slot0;
                         report = _closure1_slot2;
                         offset = 9;
@@ -3495,18 +3495,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         option = report.statCollectionPausedUsers;
                         report = option.has;
                         report = report.bind(option)(backup);
-                        if(report) { _fun00048_ip = 229; continue _fun00047 }
- 201:
+                        if(report) { _fun00048_ip = 230; continue _fun00047 }
+ 202:
                         report = michal.appendAndIncrementStats;
                         report = report.bind(michal)(golfie);
                         option = michal.appendTransportStats;
                         report = _closure3_slot3;
                         report = option.bind(michal)(report);
- 229:
+ 230:
                         option = golfie.packets;
                         report = 0;
-                        if(!(option > report)) { _fun00048_ip = 283; continue _fun00047 }
- 241:
+                        if(!(option > report)) { _fun00048_ip = 284; continue _fun00047 }
+ 242:
                         foxtra = _closure3_slot0;
                         romeon = foxtra.emit;
                         option = _closure1_slot8;
@@ -3516,7 +3516,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         echoed = foxtra;
                         output = backup;
                         golfie = echoed[romeon](result, output, sizing, kiloes, backup);
- 283:
+ 284:
                         golfie = michal.decoderCodec;
                         option = _closure1_slot0;
                         zuuluu = _closure1_slot2;
@@ -3524,27 +3524,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = option.bind(verify)(zuuluu);
                         zuuluu = zuuluu.CodecTypes;
                         zuuluu = zuuluu.UNKNOWN;
-                        if(!(golfie !== zuuluu)) { _fun00048_ip = 342; continue _fun00047 }
- 322:
+                        if(!(golfie !== zuuluu)) { _fun00048_ip = 343; continue _fun00047 }
+ 323:
                         option = _closure3_slot5;
                         golfie = option.add;
                         zuuluu = michal.decoderCodec;
                         zuuluu = golfie.bind(option)(zuuluu);
- 342:
+ 343:
                         zuuluu = michal.timeToFirstFrame;
                         zuuluu = oscard == zuuluu;
-                        if(!zuuluu) { _fun00048_ip = 365; continue _fun00047 }
- 355:
+                        if(!zuuluu) { _fun00048_ip = 366; continue _fun00047 }
+ 356:
                         tangon = tangon.framesDecoded;
                         zuuluu = tangon > report;
- 365:
-                        if(!zuuluu) { _fun00048_ip = 388; continue _fun00047 }
- 368:
+ 366:
+                        if(!zuuluu) { _fun00048_ip = 389; continue _fun00047 }
+ 369:
                         zuuluu = _closure3_slot1;
                         entity = michal.startTime;
                         entity = zuuluu - entity;
                         michal['timeToFirstFrame'] = entity;
- 388:
+ 389:
                         entity = undefined;
                         return entity;
                     }
@@ -3655,7 +3655,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = report == michal;
                 entity = undefined;
                 tangon = undefined;
-                if(zuuluu) { _fun00054_ip = 47; continue _fun00053 }
+                if(zuuluu) { _fun00054_ip = 48; continue _fun00053 }
  16:
                 michal = michal.rtp;
                 oscard = michal.outbound;
@@ -3668,22 +3668,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 tangon = zuuluu.bind(oscard)(michal);
- 47:
+ 48:
                 michal = this;
                 zuuluu = michal.videoEffectDuration;
                 michal = report == tangon;
                 oscard = undefined;
-                if(michal) { _fun00054_ip = 70; continue _fun00053 }
- 65:
+                if(michal) { _fun00054_ip = 71; continue _fun00053 }
+ 66:
                 oscard = tangon.type;
- 70:
+ 71:
                 michal = 'video';
                 michal = michal === oscard;
-                if(!michal) { _fun00054_ip = 90; continue _fun00053 }
- 81:
+                if(!michal) { _fun00054_ip = 91; continue _fun00053 }
+ 82:
                 tangon = tangon.filter;
                 michal = report != tangon;
- 90:
+ 91:
                 zuuluu['value'] = michal;
                 return entity;
             }

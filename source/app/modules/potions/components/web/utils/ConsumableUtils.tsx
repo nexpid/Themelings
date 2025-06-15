@@ -244,27 +244,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = golfie[michal];
         michal = 4;
         michal = golfie[michal];
+        var _closure2_slot4 = michal;
         golfie = _closure1_slot4;
-        oscard = new Array(4);
+        oscard = new Array(5);
         oscard[0] = zuuluu;
         oscard[1] = yankee;
         oscard[2] = offset;
         oscard[3] = verify;
+        oscard[4] = michal;
         entity = function() {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
+                zuuluu = _closure2_slot4;
+                michal = null;
+                michal = michal != zuuluu;
+                if(michal) { _fun00008_ip = 20; continue _fun00007 }
+ 16:
                 michal = _closure2_slot2;
-                if(michal) { _fun00008_ip = 14; continue _fun00007 }
- 10:
+ 20:
+                if(michal) { _fun00008_ip = 27; continue _fun00007 }
+ 23:
                 michal = _closure2_slot3;
- 14:
-                if(michal) { _fun00008_ip = 24; continue _fun00007 }
- 17:
+ 27:
+                if(michal) { _fun00008_ip = 37; continue _fun00007 }
+ 30:
                 zuuluu = _closure2_slot1;
                 michal = !zuuluu;
- 24:
-                if(michal) { _fun00008_ip = 67; continue _fun00007 }
- 27:
+ 37:
+                if(michal) { _fun00008_ip = 80; continue _fun00007 }
+ 40:
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 michal = 17;
@@ -274,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.fetchConsumableEntitlement;
                 entity = _closure2_slot0;
                 entity = michal.bind(zuuluu)(entity);
- 67:
+ 80:
                 entity = undefined;
                 return entity;
             }

@@ -901,42 +901,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         zuuluu = _closure1_slot6;
-                        entity = zuuluu.getCurrentEmbeddedActivity;
-                        report = entity.bind(zuuluu)();
-                        tangon = _closure1_slot0;
-                        entity = _closure1_slot2;
-                        golfie = 21;
-                        zuuluu = entity[golfie];
-                        entity = undefined;
-                        option = tangon.bind(entity)(zuuluu);
-                        tangon = option.getEmbeddedActivityLocationStartingChannelId;
-                        oscard = null;
-                        verify = oscard == report;
-                        zuuluu = undefined;
-                        if(verify) { _fun00010_ip = 61; continue _fun00009 }
- 56:
-                        zuuluu = report.location;
- 61:
-                        tangon = tangon.bind(option)(zuuluu);
+                        michal = zuuluu.getCurrentEmbeddedActivity;
+                        tangon = michal.bind(zuuluu)();
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot2;
-                        michal = michal[golfie];
+                        entity = 21;
+                        michal = michal[entity];
+                        entity = undefined;
                         zuuluu = zuuluu.bind(entity)(michal);
                         michal = zuuluu.getEmbeddedActivityLocationChannelId;
-                        oscard = oscard == report;
-                        entity = undefined;
-                        if(oscard) { _fun00010_ip = 103; continue _fun00009 }
- 98:
-                        entity = report.location;
- 103:
-                        zuuluu = michal.bind(zuuluu)(entity);
+                        report = null;
+                        report = report == tangon;
+                        if(report) { _fun00010_ip = 59; continue _fun00009 }
+ 54:
+                        entity = tangon.location;
+ 59:
+                        michal = michal.bind(zuuluu)(entity);
                         entity = _closure3_slot11;
-                        entity = tangon !== entity;
-                        if(!entity) { _fun00010_ip = 130; continue _fun00009 }
- 122:
-                        michal = _closure3_slot11;
-                        entity = zuuluu !== michal;
- 130:
+                        entity = michal !== entity;
                         return entity;
                     }
                 };

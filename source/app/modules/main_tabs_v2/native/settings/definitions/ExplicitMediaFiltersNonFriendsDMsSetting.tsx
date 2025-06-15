@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = tangon.bind(report)(oscard);
             _fun00002_ip = 113; continue _fun00001;
  102:
-            zuuluu = zuuluu.wr6InJ;
+            zuuluu = zuuluu.GYpoAg;
             oscard = tangon.bind(report)(zuuluu);
  113:
             tangon = _closure1_slot0;
@@ -81,20 +81,38 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     verify = function() { // Original name: getTitle
-        report = _closure1_slot0;
-        oscard = _closure1_slot1;
-        entity = 5;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.D2EGSk;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            entity = 4;
+            entity = tangon[entity];
+            oscard = undefined;
+            tangon = zuuluu.bind(oscard)(entity);
+            zuuluu = tangon.isEligibleForSensitiveContentGoreExperiment;
+            entity = 'ExplicitMediaFiltersFriendsDMsSetting';
+            entity = zuuluu.bind(tangon)(entity);
+            report = _closure1_slot0;
+            golfie = _closure1_slot1;
+            michal = 5;
+            zuuluu = golfie[michal];
+            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = golfie[michal];
+            michal = report.bind(oscard)(michal);
+            michal = michal.t;
+            if(entity) { _fun00004_ip = 104; continue _fun00003 }
+ 89:
+            entity = michal.D2EGSk;
+            entity = zuuluu.bind(tangon)(entity);
+            _fun00004_ip = 115; continue _fun00003;
+ 104:
+            michal = michal.Yh+HX1;
+            entity = zuuluu.bind(tangon)(michal);
+ 115:
+            return entity;
+        }
     };
     var _closure1_slot3 = verify;
     entity = global;
@@ -120,7 +138,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report['type'] = offset;
     report['title'] = verify;
     verify = function() { // Original name: parent
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
@@ -132,10 +150,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = 'ExplicitMediaFiltersNonFriendsDMsSetting';
             entity = zuuluu.bind(tangon)(entity);
             michal = _closure1_slot2;
-            if(entity) { _fun00004_ip = 57; continue _fun00003 }
+            if(entity) { _fun00006_ip = 57; continue _fun00005 }
  49:
             entity = michal.CONTENT_AND_SOCIAL_DISCORD;
-            _fun00004_ip = 63; continue _fun00003;
+            _fun00006_ip = 63; continue _fun00005;
  57:
             entity = michal.SENSITIVE_CONTENT_FILTERS;
  63:
@@ -146,7 +164,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report['useTrailing'] = tangon;
     report['onPress'] = michal;
     oscard = function() { // Original name: getSearchTerms
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot1;
@@ -167,7 +185,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = option[zuuluu];
             michal = oscard.bind(golfie)(michal);
             michal = michal.t;
-            if(entity) { _fun00006_ip = 257; continue _fun00005 }
+            if(entity) { _fun00008_ip = 257; continue _fun00007 }
  92:
             entity = michal.uEz8JC;
             verify = tangon.bind(report)(entity);
@@ -203,7 +221,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             verify = verify.aWD+tr;
             verify = offset.bind(yankee)(verify);
             entity[3] = verify;
-            _fun00006_ip = 375; continue _fun00005;
+            _fun00008_ip = 375; continue _fun00007;
  257:
             michal = michal.N/oRIy;
             tangon = tangon.bind(report)(michal);

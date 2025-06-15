@@ -315,25 +315,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report == michal;
             entity = undefined;
             tangon = undefined;
-            if(zuuluu) { _fun00016_ip = 51; continue _fun00015 }
+            if(zuuluu) { _fun00016_ip = 52; continue _fun00015 }
  16:
             zuuluu = michal.appearance;
             oscard = report == zuuluu;
             tangon = undefined;
-            if(oscard) { _fun00016_ip = 51; continue _fun00015 }
+            if(oscard) { _fun00016_ip = 52; continue _fun00015 }
  31:
             zuuluu = zuuluu.settings;
             report = report == zuuluu;
             tangon = undefined;
-            if(report) { _fun00016_ip = 51; continue _fun00015 }
+            if(report) { _fun00016_ip = 52; continue _fun00015 }
  46:
             tangon = zuuluu.theme;
- 51:
+ 52:
             zuuluu = 'amoled';
-            if(!(zuuluu !== tangon)) { _fun00016_ip = 63; continue _fun00015 }
- 61:
+            if(!(zuuluu !== tangon)) { _fun00016_ip = 64; continue _fun00015 }
+ 62:
             return entity;
- 63:
+ 64:
             entity = {};
             option = entity;
             golfie = michal;

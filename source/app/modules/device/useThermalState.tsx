@@ -12,7 +12,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             entity = argFoo;
             michal = null;
-            if(!(michal != entity)) { _fun00002_ip = 256; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 255; continue _fun00001 }
  12:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -22,7 +22,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.isIOS;
             zuuluu = zuuluu.bind(tangon)();
-            if(zuuluu) { _fun00002_ip = 254; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 253; continue _fun00001 }
  52:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -38,54 +38,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  93:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.NONE;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 242; continue _fun00001 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 241; continue _fun00001 }
  110:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.LIGHT;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 230; continue _fun00001 }
- 124:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 229; continue _fun00001 }
+ 123:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.MODERATE;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 230; continue _fun00001 }
- 138:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 229; continue _fun00001 }
+ 137:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.SEVERE;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 218; continue _fun00001 }
- 152:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 217; continue _fun00001 }
+ 151:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.CRITICAL;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
- 166:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 205; continue _fun00001 }
+ 165:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.EMERGENCY;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
- 180:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 205; continue _fun00001 }
+ 179:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.SHUTDOWN;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 206; continue _fun00001 }
- 194:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 205; continue _fun00001 }
+ 193:
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.UNHANDLED;
             return zuuluu;
- 206:
+ 205:
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.CRITICAL;
             return zuuluu;
- 218:
+ 217:
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.SERIOUS;
             return zuuluu;
- 230:
+ 229:
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.FAIR;
             return zuuluu;
- 242:
+ 241:
             michal = _closure1_slot3;
             michal = michal.NOMINAL;
             return michal;
- 254:
+ 253:
             return entity;
- 256:
+ 255:
             entity = _closure1_slot3;
             entity = entity.UNHANDLED;
             return entity;

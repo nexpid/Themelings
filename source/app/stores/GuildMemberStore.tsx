@@ -3307,32 +3307,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00099: for(var _fun00100_ip = 0; ; ) switch(_fun00100_ip) {
  0:
             entity = argFoo;
-            option = entity.location;
+            oscard = entity.location;
             report = entity.participants;
             zuuluu = _closure1_slot0;
-            entity = _closure1_slot2;
-            verify = 21;
-            entity = entity[verify];
+            tangon = _closure1_slot2;
+            entity = 21;
+            entity = tangon[entity];
             tangon = undefined;
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.getEmbeddedActivityLocationGuildId;
-            zuuluu = entity.bind(zuuluu)(option);
+            zuuluu = entity.bind(zuuluu)(oscard);
             entity = null;
-            if(!(entity == zuuluu)) { _fun00100_ip = 84; continue _fun00099 }
- 56:
-            golfie = _closure1_slot0;
-            oscard = _closure1_slot2;
-            oscard = oscard[verify];
-            golfie = golfie.bind(tangon)(oscard);
-            oscard = golfie.getEmbeddedActivityLocationStartingGuildId;
-            zuuluu = oscard.bind(golfie)(option);
- 84:
             entity = entity != zuuluu;
-            if(!entity) { _fun00100_ip = 101; continue _fun00099 }
- 91:
+            if(!entity) { _fun00100_ip = 69; continue _fun00099 }
+ 59:
             michal = _closure1_slot43;
             entity = michal.bind(tangon)(zuuluu, report);
- 101:
+ 69:
             return entity;
         }
     };

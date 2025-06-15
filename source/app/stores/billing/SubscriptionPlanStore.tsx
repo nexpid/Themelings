@@ -598,12 +598,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = michal.interval;
                         entity = report.bind(oscard)(entity);
                         entity = tangon - entity;
-                        if(entity) { _fun00016_ip = 84; continue _fun00015 }
- 68:
+                        if(entity) { _fun00016_ip = 86; continue _fun00015 }
+ 70:
                         zuuluu = zuuluu.intervalCount;
                         michal = michal.intervalCount;
                         entity = zuuluu - michal;
- 84:
+ 86:
                         return entity;
                     }
                 };

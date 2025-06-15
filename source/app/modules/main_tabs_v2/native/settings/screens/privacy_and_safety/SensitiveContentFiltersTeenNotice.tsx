@@ -1,0 +1,141 @@
+// app/modules/main_tabs_v2/native/settings/screens/privacy_and_safety/SensitiveContentFiltersTeenNotice.tsx
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
+    report = argBar;
+    yankee = argBaz;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = yankee;
+    var _closure1_slot2 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    golfie = oscard[entity];
+    tangon = argCor;
+    entity = undefined;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.SafetySettingsNoticeType;
+    var _closure1_slot4 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot5 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = {};
+    verify = {};
+    offset = 5;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.spacing;
+    romeon = romeon.PX_16;
+    verify['marginHorizontal'] = romeon;
+    offset = oscard[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_16;
+    verify['marginTop'] = offset;
+    tangon['teenNotice'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 12;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/main_tabs_v2/native/settings/screens/privacy_and_safety/SensitiveContentFiltersTeenNotice.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function() { // Original name: ContentAndSocialTeenNotice
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = _closure1_slot6;
+            report = undefined;
+            oscard = entity.bind(report)();
+            michal = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            entity = 6;
+            entity = zuuluu[entity];
+            entity = michal.bind(report)(entity);
+            zuuluu = entity.bind(report)();
+            entity = null;
+            michal = entity == zuuluu;
+            if(michal) { _fun00002_ip = 51; continue _fun00001 }
+ 48:
+            michal = zuuluu;
+ 51:
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot2;
+            zuuluu = 7;
+            zuuluu = golfie[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.useSensitiveContentFilterHelpArticle;
+            zuuluu = zuuluu.bind(tangon)();
+            var _closure2_slot0 = zuuluu;
+            entity = null;
+            if(michal) { _fun00002_ip = 208; continue _fun00001 }
+ 90:
+            tangon = _closure1_slot5;
+            zuuluu = _closure1_slot3;
+            michal = {};
+            oscard = oscard.teenNotice;
+            michal['style'] = oscard;
+            golfie = _closure1_slot1;
+            romeon = _closure1_slot2;
+            oscard = 8;
+            oscard = romeon[oscard];
+            golfie = golfie.bind(report)(oscard);
+            oscard = {};
+            yankee = _closure1_slot0;
+            offset = 9;
+            offset = romeon[offset];
+            offset = yankee.bind(report)(offset);
+            offset = offset.t;
+            offset = offset.EUo0ys;
+            oscard['label'] = offset;
+            verify = function() { // Original name: labelHook
+                report = _closure1_slot1;
+                oscard = _closure1_slot2;
+                entity = 10;
+                michal = oscard[entity];
+                entity = undefined;
+                tangon = report.bind(entity)(michal);
+                zuuluu = tangon.openURL;
+                michal = 11;
+                michal = oscard[michal];
+                oscard = report.bind(entity)(michal);
+                report = oscard.getArticleURL;
+                michal = _closure2_slot0;
+                michal = report.bind(oscard)(michal);
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            };
+            oscard['labelHook'] = verify;
+            option = _closure1_slot4;
+            option = option.SENSITIVE_CONTENT_FILTER_TEEN_NOTICE;
+            oscard['noticeType'] = option;
+            oscard = tangon.bind(report)(golfie, oscard);
+            michal['children'] = oscard;
+            entity = tangon.bind(report)(zuuluu, michal);
+ 208:
+            return entity;
+        }
+    };
+    zuuluu['ContentAndSocialTeenNotice'] = michal;
+    return entity;
+})();

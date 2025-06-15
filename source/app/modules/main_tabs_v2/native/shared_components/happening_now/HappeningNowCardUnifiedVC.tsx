@@ -31,7 +31,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 entity = _closure2_slot0;
                 zuuluu = null;
-                if(!(zuuluu != entity)) { _fun00002_ip = 169; continue _fun00001 }
+                if(!(zuuluu != entity)) { _fun00002_ip = 170; continue _fun00001 }
  16:
                 report = _closure1_slot4;
                 michal = report.getAllApplicationStreamsForChannel;
@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = oscard.length;
                 report = 0;
                 entity = entity > report;
-                if(!entity) { _fun00002_ip = 75; continue _fun00001 }
+                if(!entity) { _fun00002_ip = 76; continue _fun00001 }
  52:
                 option = oscard.find;
                 michal = function(argFoo) {
@@ -52,8 +52,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal = option.bind(oscard)(michal);
-                if(!(zuuluu == michal)) { _fun00002_ip = 160; continue _fun00001 }
- 75:
+                if(!(zuuluu == michal)) { _fun00002_ip = 161; continue _fun00001 }
+ 76:
                 verify = _closure1_slot3;
                 option = verify.getEmbeddedActivitiesForChannel;
                 golfie = _closure2_slot0;
@@ -65,30 +65,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = undefined;
                 tangon = verify.bind(golfie)(tangon);
                 tangon = tangon.bind(golfie)(option);
-                if(!(zuuluu == tangon)) { _fun00002_ip = 148; continue _fun00001 }
- 125:
-                if(entity) { _fun00002_ip = 132; continue _fun00001 }
- 128:
+                if(!(zuuluu == tangon)) { _fun00002_ip = 149; continue _fun00001 }
+ 126:
+                if(entity) { _fun00002_ip = 133; continue _fun00001 }
+ 129:
                 entity = {};
-                _fun00002_ip = 146; continue _fun00001;
- 132:
+                _fun00002_ip = 147; continue _fun00001;
+ 133:
                 zuuluu = {};
                 report = oscard[report];
                 zuuluu['stream'] = report;
                 entity = zuuluu;
- 146:
-                _fun00002_ip = 158; continue _fun00001;
- 148:
+ 147:
+                _fun00002_ip = 159; continue _fun00001;
+ 149:
                 zuuluu = {};
                 zuuluu['activity'] = tangon;
                 entity = zuuluu;
- 158:
+ 159:
                 return entity;
- 160:
+ 161:
                 entity = {};
                 entity['stream'] = michal;
                 return entity;
- 169:
+ 170:
                 entity = {};
                 return entity;
             }

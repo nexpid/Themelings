@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = "function PortalKeyboardFooterIOSIosTsx1(){const{interpolate,progress,bottom,animatedSheetIndex,height,EXPRESSION_FOOTER_HEIGHT}=this.__closure;const offset=interpolate(progress.get(),[0,1],[0,bottom]);if(animatedSheetIndex.get()>=0){return{transform:[{translateY:-height.get()+offset}]};}return{transform:[{translateY:interpolate(animatedSheetIndex.get(),[-1,0],[EXPRESSION_FOOTER_HEIGHT+bottom,0],'clamp')}]};}";
     tangon['code'] = golfie;
     var _closure1_slot6 = tangon;
-    tangon = 10;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -85,14 +85,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = oscard.bind(tangon)(entity);
             entity = verify.useReanimatedKeyboardAnimation;
             entity = entity.bind(verify)();
+            backup = entity.height;
+            _closure2_slot3 = backup;
             output = entity.progress;
-            _closure2_slot3 = output;
+            _closure2_slot4 = output;
             entity = 6;
-            entity = option[entity];
-            entity = michal.bind(tangon)(entity);
-            backup = entity.bind(tangon)();
-            _closure2_slot4 = backup;
-            entity = 7;
             verify = option[entity];
             yankee = oscard.bind(tangon)(verify);
             offset = yankee.useAnimatedStyle;
@@ -101,12 +98,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     michal = _closure1_slot0;
                     entity = _closure1_slot2;
-                    oscard = 7;
+                    oscard = 6;
                     entity = entity[oscard];
                     romeon = undefined;
                     option = michal.bind(romeon)(entity);
                     report = option.interpolate;
-                    michal = _closure2_slot3;
+                    michal = _closure2_slot4;
                     entity = michal.get;
                     tangon = entity.bind(michal)();
                     entity = _closure2_slot2;
@@ -134,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = -1;
                     golfie[0] = oscard;
                     golfie[1] = michal;
-                    oscard = 8;
+                    oscard = 7;
                     oscard = foxtra[oscard];
                     oscard = yankee.bind(romeon)(oscard);
                     yankee = oscard.EXPRESSION_FOOTER_HEIGHT;
@@ -157,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  239:
                     michal = {};
                     tangon = {};
-                    oscard = _closure2_slot4;
+                    oscard = _closure2_slot3;
                     zuuluu = oscard.get;
                     zuuluu = zuuluu.bind(oscard)();
                     zuuluu = -zuuluu;
@@ -180,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['bottom'] = sizing;
             foxtra['animatedSheetIndex'] = kiloes;
             foxtra['height'] = backup;
-            backup = 8;
+            backup = 7;
             backup = option[backup];
             backup = oscard.bind(tangon)(backup);
             backup = backup.EXPRESSION_FOOTER_HEIGHT;
@@ -213,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.View;
             entity = {};
             entity['style'] = report;
-            report = 9;
+            report = 8;
             report = option[report];
             report = oscard.bind(tangon)(report);
             oscard = report.PortalHost;

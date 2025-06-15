@@ -60,10 +60,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = null;
             oscard = report == michal;
             report = undefined;
-            if(oscard) { _fun00002_ip = 89; continue _fun00001 }
- 83:
+            if(oscard) { _fun00002_ip = 87; continue _fun00001 }
+ 81:
             report = michal.applicationRoleConnections;
- 89:
+ 87:
             michal = new Array(1);
             michal[0] = report;
             entity = function() {

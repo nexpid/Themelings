@@ -580,8 +580,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = michal.bind(oscard)(entity);
             entity = null;
             michal = entity == oscard;
-            if(michal) { _fun00012_ip = 89; continue _fun00011 }
- 49:
+            if(michal) { _fun00012_ip = 90; continue _fun00011 }
+ 50:
             michal = {};
             golfie = _closure2_slot3;
             michal['previousToken'] = golfie;
@@ -591,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['focusOffset'] = tangon;
             michal['anchorOffset'] = zuuluu;
             entity = michal;
- 89:
+ 90:
             return entity;
         }
     };
@@ -611,7 +611,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             tangon = entity.length;
             entity = 0;
-            if(!(entity !== tangon)) { _fun00016_ip = 412; continue _fun00015 }
+            if(!(entity !== tangon)) { _fun00016_ip = 408; continue _fun00015 }
  46:
             if(!(golfie != zuuluu)) { _fun00016_ip = 377; continue _fun00015 }
  53:
@@ -712,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.FILTER_ALL;
             entity['type'] = michal;
             return entity;
- 412:
+ 408:
             entity = {'type': null, 'filter': null, 'token': null};
             michal = _closure1_slot7;
             michal = michal.EMPTY;

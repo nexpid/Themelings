@@ -38,7 +38,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = this;
             var _closure2_slot0 = michal;
             option = null;
-            if(!(option != verify)) { _fun00002_ip = 173; continue _fun00001 }
+            if(!(option != verify)) { _fun00002_ip = 175; continue _fun00001 }
  30:
             report = _closure1_slot1;
             michal = _closure1_slot2;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onChannelCreated'] = entity;
             entity = 'CREATE_CHANNEL_MODAL_KEY';
             entity = tangon.bind(report)(zuuluu, michal, entity);
- 173:
+ 175:
             entity = undefined;
             return entity;
         }

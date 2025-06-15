@@ -381,11 +381,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal = michal.bind(tangon)(entity);
                     entity = null;
-                    if(!(entity != michal)) { _fun00010_ip = 55; continue _fun00009 }
- 44:
+                    if(!(entity != michal)) { _fun00010_ip = 56; continue _fun00009 }
+ 45:
                     entity = michal.onKeyCommand;
                     entity = entity.bind(michal)(zuuluu);
- 55:
+ 56:
                     entity = undefined;
                     return entity;
                 }

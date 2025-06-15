@@ -65,11 +65,11 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            kiloes = entity.textVariant;
+            output = entity.textVariant;
             report = undefined;
-            if(!(kiloes === report)) { _fun00002_ip = 23; continue _fun00001 }
+            if(!(output === report)) { _fun00002_ip = 23; continue _fun00001 }
  17:
-            kiloes = 'text-sm/normal';
+            output = 'text-sm/normal';
  23:
             backup = entity.textColor;
             if(!(backup === report)) { _fun00002_ip = 39; continue _fun00001 }
@@ -92,19 +92,11 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 entity = entity.checked;
                 return entity;
             };
-            output = zuuluu.bind(report)(entity);
-            _closure2_slot0 = output;
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 5;
-            entity = tangon[entity];
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.getMobileMarketingEmailOptInCopy;
-            entity = entity.bind(zuuluu)();
-            romeon = entity.copy;
+            yankee = zuuluu.bind(report)(entity);
+            _closure2_slot0 = yankee;
             entity = null;
-            if(!michal) { _fun00002_ip = 334; continue _fun00001 }
- 131:
+            if(!michal) { _fun00002_ip = 395; continue _fun00001 }
+ 99:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot2;
             michal = {};
@@ -116,13 +108,25 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             option = _closure1_slot7;
             golfie = _closure1_slot3;
             oscard = {};
-            yankee = 'checkbox';
-            oscard['accessibilityRole'] = yankee;
-            oscard['accessibilityLabel'] = romeon;
-            yankee = {};
-            yankee['selected'] = output;
-            oscard['accessibilityState'] = yankee;
-            offset = function() { // Original name: onPress
+            romeon = 'checkbox';
+            oscard['accessibilityRole'] = romeon;
+            kiloes = _closure1_slot0;
+            sizing = _closure1_slot1;
+            romeon = 5;
+            offset = sizing[romeon];
+            offset = kiloes.bind(report)(offset);
+            echoed = offset.intl;
+            result = echoed.string;
+            offset = sizing[romeon];
+            offset = kiloes.bind(report)(offset);
+            offset = offset.t;
+            offset = offset.ylFCLi;
+            offset = result.bind(echoed)(offset);
+            oscard['accessibilityLabel'] = offset;
+            offset = {};
+            offset['selected'] = yankee;
+            oscard['accessibilityState'] = offset;
+            verify = function() { // Original name: onPress
                 zuuluu = _closure1_slot5;
                 entity = _closure2_slot0;
                 michal = !entity;
@@ -130,29 +134,36 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 entity = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            oscard['onPress'] = offset;
-            offset = foxtra.checkboxRow;
-            oscard['style'] = offset;
-            yankee = _closure1_slot0;
-            sizing = _closure1_slot1;
+            oscard['onPress'] = verify;
+            verify = foxtra.checkboxRow;
+            oscard['style'] = verify;
             verify = 6;
             verify = sizing[verify];
-            verify = yankee.bind(report)(verify);
+            verify = kiloes.bind(report)(verify);
             offset = verify.FormCheckbox;
             verify = {};
-            verify['checked'] = output;
+            verify['checked'] = yankee;
             offset = tangon.bind(report)(offset, verify);
             verify = new Array(2);
             verify[0] = offset;
             offset = 7;
             offset = sizing[offset];
-            offset = yankee.bind(report)(offset);
+            offset = kiloes.bind(report)(offset);
             yankee = offset.Text;
             offset = {};
-            offset['variant'] = kiloes;
+            offset['variant'] = output;
             offset['color'] = backup;
             foxtra = foxtra.checkboxLabel;
             offset['style'] = foxtra;
+            foxtra = sizing[romeon];
+            foxtra = kiloes.bind(report)(foxtra);
+            backup = foxtra.intl;
+            foxtra = backup.string;
+            romeon = sizing[romeon];
+            romeon = kiloes.bind(report)(romeon);
+            romeon = romeon.t;
+            romeon = romeon.ylFCLi;
+            romeon = foxtra.bind(backup)(romeon);
             offset['children'] = romeon;
             offset = tangon.bind(report)(yankee, offset);
             verify[1] = offset;
@@ -160,7 +171,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 334:
+ 395:
             return entity;
         }
     };

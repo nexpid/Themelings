@@ -179,13 +179,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = oscard[entity];
             entity = report.bind(tangon)(entity);
             entity = entity.unsafe_rawColors;
-            if(zuuluu) { _fun00004_ip = 153; continue _fun00003 }
- 145:
+            if(zuuluu) { _fun00004_ip = 154; continue _fun00003 }
+ 146:
             verify = entity.PRIMARY_300;
-            _fun00004_ip = 159; continue _fun00003;
- 153:
+            _fun00004_ip = 160; continue _fun00003;
+ 154:
             verify = entity.PRIMARY_500;
- 159:
+ 160:
             _closure2_slot3 = verify;
             oscard = _closure1_slot0;
             offset = _closure1_slot2;
@@ -229,15 +229,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = output[offset];
             offset = backup.bind(tangon)(offset);
             backup = offset.t;
-            if(golfie) { _fun00004_ip = 360; continue _fun00003 }
- 347:
+            if(golfie) { _fun00004_ip = 361; continue _fun00003 }
+ 348:
             offset = backup.lfIHs7;
             offset = kiloes.bind(sizing)(offset);
-            _fun00004_ip = 371; continue _fun00003;
- 360:
+            _fun00004_ip = 372; continue _fun00003;
+ 361:
             backup = backup.Kfcszs;
             offset = kiloes.bind(sizing)(backup);
- 371:
+ 372:
             report['accessibilityLabel'] = offset;
             offset = function() { // Original name: onPress
                 option = _closure1_slot0;
@@ -272,13 +272,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[1] = foxtra;
             report['style'] = offset;
             offset = _closure1_slot9;
-            if(golfie) { _fun00004_ip = 435; continue _fun00003 }
- 421:
+            if(golfie) { _fun00004_ip = 436; continue _fun00003 }
+ 422:
             golfie = {};
             golfie['color'] = verify;
             golfie = offset.bind(tangon)(option, golfie);
-            _fun00004_ip = 530; continue _fun00003;
- 435:
+            _fun00004_ip = 531; continue _fun00003;
+ 436:
             verify = _closure1_slot1;
             kiloes = _closure1_slot2;
             option = 21;
@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 530:
+ 531:
             report['children'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;

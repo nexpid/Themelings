@@ -23,8 +23,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.length;
             entity = 0;
             entity = zuuluu > entity;
-            if(!entity) { _fun00002_ip = 50; continue _fun00001 }
- 34:
+            if(!entity) { _fun00002_ip = 54; continue _fun00001 }
+ 36:
             zuuluu = tangon.every;
             michal = function(argFoo) {
                 entity = argFoo;
@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(tangon)(michal);
- 50:
+ 54:
             return entity;
         }
     };
@@ -159,8 +159,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.length;
             zuuluu = 0;
-            if(!(!(michal > zuuluu))) { _fun00006_ip = 78; continue _fun00005 }
- 43:
+            if(!(!(michal > zuuluu))) { _fun00006_ip = 84; continue _fun00005 }
+ 47:
             michal = tangon.filter;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -173,12 +173,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = michal.length;
             tangon = 1;
             entity = null;
-            if(!(tangon === report)) { _fun00006_ip = 76; continue _fun00005 }
- 72:
-            entity = michal[zuuluu];
- 76:
-            return entity;
+            if(!(tangon === report)) { _fun00006_ip = 82; continue _fun00005 }
  78:
+            entity = michal[zuuluu];
+ 82:
+            return entity;
+ 84:
             entity = null;
             return entity;
         }

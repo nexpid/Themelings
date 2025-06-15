@@ -1001,10 +1001,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         echoed = option.bind(entity)(result);
         result = echoed.isAndroid;
         result = result.bind(echoed)();
-        if(!result) { _fun00002_ip = 667; continue _fun00001 }
- 661:
+        if(!result) { _fun00002_ip = 668; continue _fun00001 }
+ 662:
         output = -2;
- 667:
+ 668:
         romeon['marginTop'] = output;
         oscard['headingText'] = romeon;
         romeon = {'width': 7, 'height': 7, 'marginRight': 7};

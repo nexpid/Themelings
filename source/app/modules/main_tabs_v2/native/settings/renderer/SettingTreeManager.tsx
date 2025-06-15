@@ -442,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = entity.type;
                 zuuluu = _closure1_slot4;
                 zuuluu = zuuluu.ROUTE;
-                if(!(option !== zuuluu)) { _fun00014_ip = 119; continue _fun00013 }
+                if(!(option !== zuuluu)) { _fun00014_ip = 120; continue _fun00013 }
  60:
                 zuuluu = tangon.getAncestors;
                 golfie = zuuluu.bind(tangon)(golfie);
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SETTING_RENDERER_CONFIG;
                 michal = michal[zuuluu];
                 return michal;
- 119:
+ 120:
                 return entity;
             }
         };

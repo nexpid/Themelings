@@ -700,84 +700,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     var _closure1_slot37 = entity;
     entity = function() { // Original name: handleFetchGameProfileFeed
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
- 0:
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 19;
-            michal = michal[entity];
-            entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            oscard = michal.ReEnableGameProfileInventoryExperiment;
-            report = oscard.getCurrentConfig;
-            zuuluu = {};
-            michal = 'ContentInventoryManager';
-            zuuluu['location'] = michal;
-            michal = {};
-            golfie = true;
-            michal['autoTrackExposure'] = golfie;
-            michal = report.bind(oscard)(zuuluu, michal);
-            michal = michal.enabled;
-            if(!michal) { _fun00018_ip = 135; continue _fun00017 }
- 72:
-            zuuluu = _closure1_slot30;
-            michal = {};
-            report = _closure1_slot14;
-            report = report.GAME_PROFILE_FEED;
-            michal['feedId'] = report;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            tangon = 20;
-            tangon = oscard[tangon];
-            tangon = report.bind(entity)(tangon);
-            tangon = tangon.ContentInventoryFeature;
-            tangon = tangon.GAME_PROFILE;
-            michal['feature'] = tangon;
-            michal = zuuluu.bind(entity)(michal);
- 135:
-            return entity;
-        }
+        zuuluu = _closure1_slot30;
+        michal = {};
+        tangon = _closure1_slot14;
+        tangon = tangon.GLOBAL_FEED;
+        michal['feedId'] = tangon;
+        report = _closure1_slot0;
+        tangon = _closure1_slot2;
+        entity = 20;
+        tangon = tangon[entity];
+        entity = undefined;
+        tangon = report.bind(entity)(tangon);
+        tangon = tangon.ContentInventoryFeature;
+        tangon = tangon.GAME_PROFILE;
+        michal['feature'] = tangon;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
     };
     var _closure1_slot38 = entity;
-    entity = function() { // Original name: handleFetchOverlayInvitesFeed
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
- 0:
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 21;
-            michal = michal[entity];
-            entity = undefined;
-            oscard = zuuluu.bind(entity)(michal);
-            report = oscard.getCurrentConfig;
-            zuuluu = {};
-            michal = 'ContentInventoryManager';
-            zuuluu['location'] = michal;
-            michal = {};
-            golfie = true;
-            michal['autoTrackExposure'] = golfie;
-            michal = report.bind(oscard)(zuuluu, michal);
-            michal = michal.enabled;
-            if(!michal) { _fun00020_ip = 129; continue _fun00019 }
- 66:
-            zuuluu = _closure1_slot30;
-            michal = {};
-            report = _closure1_slot14;
-            report = report.GAME_PROFILE_FEED;
-            michal['feedId'] = report;
-            report = _closure1_slot0;
-            oscard = _closure1_slot2;
-            tangon = 20;
-            tangon = oscard[tangon];
-            tangon = report.bind(entity)(tangon);
-            tangon = tangon.ContentInventoryFeature;
-            tangon = tangon.OVERLAY_INVITES;
-            michal['feature'] = tangon;
-            michal = zuuluu.bind(entity)(michal);
- 129:
-            return entity;
-        }
-    };
-    var _closure1_slot39 = entity;
     verify = global;
     yankee = verify.Object;
     offset = yankee.defineProperty;
@@ -895,12 +835,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 3000;
     tangon = offset.bind(yankee)(verify, tangon, option);
     var _closure1_slot23 = tangon;
-    tangon = 22;
+    tangon = 21;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
         zuuluu = function(argFoo) { // Original name: ContentInventoryManager
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+            _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                 report = this;
                 foxtra = 0;
@@ -919,11 +859,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure1_slot5;
                 entity = _closure1_slot24;
                 entity = entity.bind(tangon)();
-                if(entity) { _fun00022_ip = 84; continue _fun00021 }
+                if(entity) { _fun00018_ip = 84; continue _fun00017 }
  71:
                 entity = verify.apply;
                 entity = entity.bind(verify)(report, offset);
-                _fun00022_ip = 118; continue _fun00021;
+                _fun00018_ip = 118; continue _fun00017;
  84:
                 oscard = global;
                 option = oscard.Reflect;
@@ -949,10 +889,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['CONTENT_INVENTORY_INBOX_STALE'] = tangon;
                 tangon = _closure1_slot37;
                 michal['SPOTIFY_NEW_TRACK'] = tangon;
-                tangon = _closure1_slot38;
-                michal['GAME_PROFILE_OPEN'] = tangon;
-                zuuluu = _closure1_slot39;
-                michal['OVERLAY_READY'] = zuuluu;
+                zuuluu = _closure1_slot38;
+                michal['GAME_PROFILE_OPEN'] = zuuluu;
                 entity['actions'] = michal;
                 return entity;
             }
@@ -972,7 +910,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     sizing = tangon;
     michal = new sizing[michal](kiloes);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 23;
+    tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -487,11 +487,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = undefined;
             if(!michal) { _fun00008_ip = 304; continue _fun00007 }
  443:
-            if(!(tangon != golfie)) { _fun00008_ip = 479; continue _fun00007 }
+            if(!(tangon != golfie)) { _fun00008_ip = 480; continue _fun00007 }
  447:
             oscard = golfie;
             michal = offset;
-            if(!(tangon == offset)) { _fun00008_ip = 526; continue _fun00007 }
+            if(!(tangon == offset)) { _fun00008_ip = 527; continue _fun00007 }
  457:
             verify = option.find;
             zuuluu = function(argFoo) {
@@ -513,42 +513,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = verify.bind(option)(zuuluu);
             oscard = golfie;
-            _fun00008_ip = 526; continue _fun00007;
- 479:
+            _fun00008_ip = 527; continue _fun00007;
+ 480:
             verify = option.length;
             zuuluu = 0;
-            if(!(verify > zuuluu)) { _fun00008_ip = 501; continue _fun00007 }
- 490:
+            if(!(verify > zuuluu)) { _fun00008_ip = 502; continue _fun00007 }
+ 491:
             zuuluu = option[zuuluu];
             _closure2_slot0 = zuuluu;
             golfie = zuuluu;
- 501:
+ 502:
             verify = option.length;
             zuuluu = 1;
             oscard = golfie;
             michal = offset;
-            if(!(verify > zuuluu)) { _fun00008_ip = 526; continue _fun00007 }
- 519:
+            if(!(verify > zuuluu)) { _fun00008_ip = 527; continue _fun00007 }
+ 520:
             michal = option[zuuluu];
             oscard = golfie;
- 526:
-            if(!(tangon != oscard)) { _fun00008_ip = 548; continue _fun00007 }
- 530:
+ 527:
+            if(!(tangon != oscard)) { _fun00008_ip = 549; continue _fun00007 }
+ 531:
             zuuluu = oscard;
-            if(!(tangon == michal)) { _fun00008_ip = 568; continue _fun00007 }
- 537:
+            if(!(tangon == michal)) { _fun00008_ip = 569; continue _fun00007 }
+ 538:
             tangon = 0;
             michal = report[tangon];
             zuuluu = oscard;
-            _fun00008_ip = 568; continue _fun00007;
- 548:
+            _fun00008_ip = 569; continue _fun00007;
+ 549:
             tangon = 0;
             tangon = report[tangon];
             _closure2_slot0 = tangon;
             entity = 1;
             michal = report[entity];
             zuuluu = tangon;
- 568:
+ 569:
             entity = {};
             entity['firstBotApplication'] = zuuluu;
             entity['secondBotApplication'] = michal;

@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot3;
                     entity = null;
                     zuuluu = entity == zuuluu;
-                    if(zuuluu) { _fun00006_ip = 62; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 63; continue _fun00005 }
  16:
                     tangon = _closure1_slot6;
                     zuuluu = tangon.getEmbeddedActivitiesForChannel;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     entity = zuuluu.bind(tangon)(michal);
- 62:
+ 63:
                     return entity;
                 }
             };

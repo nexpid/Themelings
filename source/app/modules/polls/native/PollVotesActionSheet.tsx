@@ -375,7 +375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             yankee = tangon.bind(oscard)(zuuluu, michal);
             michal = backup.poll;
             michal = entity == michal;
-            if(michal) { _fun00004_ip = 629; continue _fun00003 }
+            if(michal) { _fun00004_ip = 625; continue _fun00003 }
  213:
             tangon = _closure1_slot15;
             zuuluu = _closure1_slot7;
@@ -499,7 +499,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard[2] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 629:
+ 625:
             return entity;
         }
     };
@@ -1345,12 +1345,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  296:
             zuuluu = romeon == sequen;
             result = undefined;
-            if(zuuluu) { _fun00020_ip = 343; continue _fun00019 }
+            if(zuuluu) { _fun00020_ip = 344; continue _fun00019 }
  305:
             zuuluu = sequen.poll;
             oscard = romeon == zuuluu;
             result = undefined;
-            if(oscard) { _fun00020_ip = 343; continue _fun00019 }
+            if(oscard) { _fun00020_ip = 344; continue _fun00019 }
  320:
             oscard = zuuluu.answers;
             zuuluu = oscard.find;
@@ -1366,24 +1366,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             result = zuuluu.bind(oscard)(michal);
- 343:
+ 344:
             zuuluu = romeon == foxtra;
             michal = undefined;
-            if(zuuluu) { _fun00020_ip = 373; continue _fun00019 }
- 352:
+            if(zuuluu) { _fun00020_ip = 374; continue _fun00019 }
+ 353:
             zuuluu = foxtra.count_details;
             oscard = romeon == zuuluu;
             michal = undefined;
-            if(oscard) { _fun00020_ip = 373; continue _fun00019 }
- 367:
+            if(oscard) { _fun00020_ip = 374; continue _fun00019 }
+ 368:
             michal = zuuluu.vote;
- 373:
+ 374:
             zuuluu = romeon != michal;
             verify = 0;
-            if(!zuuluu) { _fun00020_ip = 385; continue _fun00019 }
- 382:
+            if(!zuuluu) { _fun00020_ip = 386; continue _fun00019 }
+ 383:
             verify = michal;
- 385:
+ 386:
             zuuluu = _closure1_slot14;
             sizing = _closure1_slot0;
             update = _closure1_slot2;
@@ -1418,11 +1418,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option['style'] = echoed;
             update = romeon == result;
             echoed = undefined;
-            if(update) { _fun00020_ip = 550; continue _fun00019 }
- 539:
+            if(update) { _fun00020_ip = 551; continue _fun00019 }
+ 540:
             result = result.poll_media;
             echoed = result.text;
- 550:
+ 551:
             result = new Array(3);
             result[0] = echoed;
             echoed = ' - ';
@@ -1448,16 +1448,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             sizing = output.bind(tangon)(sizing, option);
             option = new Array(2);
             option[0] = sizing;
-            if(!(romeon != foxtra)) { _fun00020_ip = 672; continue _fun00019 }
- 668:
-            if(!(!(verify > yankee))) { _fun00020_ip = 690; continue _fun00019 }
- 672:
+            if(!(romeon != foxtra)) { _fun00020_ip = 673; continue _fun00019 }
+ 669:
+            if(!(!(verify > yankee))) { _fun00020_ip = 691; continue _fun00019 }
+ 673:
             romeon = _closure1_slot14;
             yankee = _closure1_slot22;
             verify = {};
             verify = romeon.bind(tangon)(yankee, verify);
-            _fun00020_ip = 719; continue _fun00019;
- 690:
+            _fun00020_ip = 720; continue _fun00019;
+ 691:
             romeon = _closure1_slot14;
             yankee = _closure1_slot21;
             offset = {};
@@ -1465,7 +1465,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset['messageId'] = backup;
             offset['reaction'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 719:
+ 720:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

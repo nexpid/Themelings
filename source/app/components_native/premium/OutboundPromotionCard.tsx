@@ -261,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure2_slot3;
-                    if(!entity) { _fun00004_ip = 62; continue _fun00003 }
+                    if(!entity) { _fun00004_ip = 60; continue _fun00003 }
  10:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity['importer'] = tangon;
                     entity = michal.bind(zuuluu)(entity);
- 62:
+ 60:
                     entity = undefined;
                     return entity;
                 }

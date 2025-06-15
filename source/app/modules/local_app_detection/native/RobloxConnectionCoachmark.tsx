@@ -31,10 +31,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.ROBLOX;
             oscard = zuuluu.bind(oscard)(michal);
             golfie = 'white';
-            if(!entity) { _fun00002_ip = 99; continue _fun00001 }
- 95:
+            if(!entity) { _fun00002_ip = 100; continue _fun00001 }
+ 96:
             golfie = 'black';
- 99:
+ 100:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 26;
@@ -42,13 +42,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.makeSource;
             oscard = oscard.icon;
-            if(entity) { _fun00002_ip = 141; continue _fun00001 }
- 133:
+            if(entity) { _fun00002_ip = 142; continue _fun00001 }
+ 134:
             entity = oscard.lightPNG;
-            _fun00002_ip = 147; continue _fun00001;
- 141:
+            _fun00002_ip = 148; continue _fun00001;
+ 142:
             entity = oscard.darkPNG;
- 147:
+ 148:
             option = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot13;
             michal = _closure1_slot5;
@@ -97,10 +97,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.isThemeDark;
             entity = entity.bind(michal)(zuuluu);
             sizing = 'black';
-            if(!entity) { _fun00004_ip = 55; continue _fun00003 }
- 51:
+            if(!entity) { _fun00004_ip = 56; continue _fun00003 }
+ 52:
             sizing = 'white';
- 55:
+ 56:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot1;
             output = _closure1_slot2;

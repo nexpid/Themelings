@@ -341,13 +341,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure2_slot1;
                 tangon = tangon.bind(report)(zuuluu);
                 zuuluu = _closure1_slot10;
-                if(tangon) { _fun00012_ip = 58; continue _fun00011 }
+                if(tangon) { _fun00012_ip = 57; continue _fun00011 }
  50:
                 report = zuuluu.LIGHT;
-                _fun00012_ip = 64; continue _fun00011;
- 58:
+                _fun00012_ip = 62; continue _fun00011;
+ 57:
                 report = zuuluu.DARK;
- 64:
+ 62:
                 oscard = _closure1_slot0;
                 option = _closure1_slot2;
                 entity = 17;

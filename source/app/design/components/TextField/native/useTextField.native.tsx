@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity['getText'] = zuuluu;
-                michal = function(argFoo) { // Original name: setText
+                zuuluu = function(argFoo) { // Original name: setText
                     _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                         tangon = argFoo;
@@ -270,7 +270,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                entity['setText'] = michal;
+                entity['setText'] = zuuluu;
+                zuuluu = function(argFoo) { // Original name: measure
+                    _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+                        entity = _closure2_slot1;
+                        zuuluu = entity.current;
+                        entity = null;
+                        if(!(entity != zuuluu)) { _fun00020_ip = 32; continue _fun00019 }
+ 18:
+                        michal = zuuluu.measure;
+                        entity = argFoo;
+                        entity = michal.bind(zuuluu)(entity);
+ 32:
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['measure'] = zuuluu;
+                zuuluu = function(argFoo) { // Original name: measureInWindow
+                    _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+                        entity = _closure2_slot1;
+                        zuuluu = entity.current;
+                        entity = null;
+                        if(!(entity != zuuluu)) { _fun00022_ip = 32; continue _fun00021 }
+ 18:
+                        michal = zuuluu.measureInWindow;
+                        entity = argFoo;
+                        entity = michal.bind(zuuluu)(entity);
+ 32:
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['measureInWindow'] = zuuluu;
+                michal = function(argFoo, argBar, argBaz) { // Original name: measureLayout
+                    _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+                        entity = _closure2_slot1;
+                        report = entity.current;
+                        entity = null;
+                        if(!(entity != report)) { _fun00024_ip = 40; continue _fun00023 }
+ 18:
+                        tangon = report.measureLayout;
+                        zuuluu = argFoo;
+                        michal = argBar;
+                        entity = argBaz;
+                        entity = tangon.bind(report)(zuuluu, michal, entity);
+ 40:
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                entity['measureLayout'] = michal;
                 return entity;
             };
             entity = option.bind(verify)(report, entity, golfie);

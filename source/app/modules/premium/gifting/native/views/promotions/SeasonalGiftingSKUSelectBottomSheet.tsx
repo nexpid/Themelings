@@ -151,10 +151,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = golfie.bind(offset)(entity, michal);
             michal = _closure1_slot5;
             entity = {};
-            if(!report) { _fun00002_ip = 398; continue _fun00001 }
- 392:
+            if(!report) { _fun00002_ip = 396; continue _fun00001 }
+ 390:
             report = oscard.selectedRow;
- 398:
+ 396:
             entity['style'] = report;
             golfie = _closure1_slot6;
             oscard = _closure1_slot0;
@@ -349,10 +349,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = null;
             echoed = kiloes == result;
             kiloes = undefined;
-            if(echoed) { _fun00004_ip = 393; continue _fun00003 }
- 387:
+            if(echoed) { _fun00004_ip = 389; continue _fun00003 }
+ 383:
             kiloes = result.assetId;
- 393:
+ 389:
             golfie['asset'] = kiloes;
             golfie = foxtra.bind(tangon)(option, golfie);
             romeon[1] = golfie;

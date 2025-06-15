@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(tangon)();
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.PUSH_TO_TALK;
-            if(!(tangon === zuuluu)) { _fun00002_ip = 355; continue _fun00001 }
+            if(!(tangon === zuuluu)) { _fun00002_ip = 357; continue _fun00001 }
  36:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.DismissibleContent;
             zuuluu = zuuluu.CONSOLE_PTT_DISABLE_ALERT;
             zuuluu = tangon.bind(report)(zuuluu);
-            if(zuuluu) { _fun00002_ip = 355; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 357; continue _fun00001 }
  99:
             zuuluu = {};
             tangon = _closure1_slot6;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu[michal];
             var _closure2_slot0 = zuuluu;
             michal = null;
-            if(!(michal != zuuluu)) { _fun00002_ip = 335; continue _fun00001 }
+            if(!(michal != zuuluu)) { _fun00002_ip = 337; continue _fun00001 }
  300:
             michal = global;
             zuuluu = michal.Promise;
@@ -165,15 +165,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal;
             entity = new foxtra[zuuluu](romeon, yankee);
             entity = entity instanceof Object ? entity : michal;
-            _fun00002_ip = 353; continue _fun00001;
- 335:
+            _fun00002_ip = 355; continue _fun00001;
+ 337:
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
             entity = michal.bind(zuuluu)();
- 353:
-            return entity;
  355:
+            return entity;
+ 357:
             entity = global;
             michal = entity.Promise;
             entity = michal.resolve;

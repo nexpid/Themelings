@@ -146,10 +146,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             offset = michal == foxtra;
             michal = undefined;
-            if(offset) { _fun00002_ip = 246; continue _fun00001 }
- 241:
+            if(offset) { _fun00002_ip = 248; continue _fun00001 }
+ 243:
             michal = foxtra.id;
- 246:
+ 248:
             michal = golfie.bind(tangon)(kiloes, michal, backup);
             _closure2_slot6 = michal;
             offset = _closure1_slot1;

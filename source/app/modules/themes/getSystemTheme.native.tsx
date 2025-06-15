@@ -35,7 +35,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             michal = zuuluu.getColorScheme;
             zuuluu = michal.bind(zuuluu)();
             michal = 'light';
-            if(!(michal !== zuuluu)) { _fun00002_ip = 57; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 56; continue _fun00001 }
  25:
             michal = 'dark';
             if(!(michal !== zuuluu)) { _fun00002_ip = 45; continue _fun00001 }
@@ -47,7 +47,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             michal = _closure1_slot1;
             michal = michal.DARK;
             return michal;
- 57:
+ 56:
             entity = _closure1_slot1;
             entity = entity.LIGHT;
             return entity;

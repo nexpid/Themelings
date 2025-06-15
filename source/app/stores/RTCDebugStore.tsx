@@ -586,7 +586,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  64:
                 entity = zuuluu == oscard;
                 tangon = undefined;
-                if(entity) { _fun00014_ip = 92; continue _fun00013 }
+                if(entity) { _fun00014_ip = 93; continue _fun00013 }
  73:
                 report = oscard.find;
                 entity = function(argFoo) {
@@ -597,22 +597,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 tangon = report.bind(oscard)(entity);
- 92:
+ 93:
                 entity = {};
                 oscard = zuuluu == tangon;
                 report = undefined;
-                if(oscard) { _fun00014_ip = 114; continue _fun00013 }
- 103:
+                if(oscard) { _fun00014_ip = 115; continue _fun00013 }
+ 104:
                 oscard = tangon.codec;
                 report = oscard.name;
- 114:
+ 115:
                 entity['codec'] = report;
                 report = zuuluu == tangon;
                 zuuluu = undefined;
-                if(report) { _fun00014_ip = 134; continue _fun00013 }
- 128:
+                if(report) { _fun00014_ip = 135; continue _fun00013 }
+ 129:
                 zuuluu = tangon.resolution;
- 134:
+ 135:
                 entity['resolution'] = zuuluu;
                 entity['bitrateEstimate'] = michal;
                 return entity;
@@ -653,7 +653,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  74:
                 michal = report == option;
                 tangon = undefined;
-                if(michal) { _fun00016_ip = 102; continue _fun00015 }
+                if(michal) { _fun00016_ip = 103; continue _fun00015 }
  83:
                 oscard = option.find;
                 michal = function(argFoo) {
@@ -664,26 +664,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 tangon = oscard.bind(option)(michal);
- 102:
+ 103:
                 michal = global;
                 option = michal.Array;
                 oscard = option.isArray;
                 verify = report == entity;
                 michal = undefined;
-                if(verify) { _fun00016_ip = 130; continue _fun00015 }
- 124:
+                if(verify) { _fun00016_ip = 131; continue _fun00015 }
+ 125:
                 michal = entity.availableOutgoingBitrate;
- 130:
+ 131:
                 oscard = oscard.bind(option)(michal);
-                if(!oscard) { _fun00016_ip = 153; continue _fun00015 }
- 138:
+                if(!oscard) { _fun00016_ip = 154; continue _fun00015 }
+ 139:
                 michal = entity.availableOutgoingBitrate;
                 michal = michal.length;
                 oscard = michal > golfie;
- 153:
+ 154:
                 michal = undefined;
-                if(!oscard) { _fun00016_ip = 191; continue _fun00015 }
- 158:
+                if(!oscard) { _fun00016_ip = 192; continue _fun00015 }
+ 159:
                 oscard = entity.availableOutgoingBitrate;
                 entity = entity.availableOutgoingBitrate;
                 golfie = entity.length;
@@ -691,22 +691,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = golfie - entity;
                 entity = oscard[entity];
                 michal = entity.value;
- 191:
+ 192:
                 entity = {};
                 golfie = report == tangon;
                 oscard = undefined;
-                if(golfie) { _fun00016_ip = 213; continue _fun00015 }
- 202:
+                if(golfie) { _fun00016_ip = 214; continue _fun00015 }
+ 203:
                 golfie = tangon.codec;
                 oscard = golfie.name;
- 213:
+ 214:
                 entity['codec'] = oscard;
                 report = report == tangon;
                 zuuluu = undefined;
-                if(report) { _fun00016_ip = 233; continue _fun00015 }
- 227:
+                if(report) { _fun00016_ip = 234; continue _fun00015 }
+ 228:
                 zuuluu = tangon.resolution;
- 233:
+ 234:
                 entity['resolution'] = zuuluu;
                 entity['bitrateEstimate'] = michal;
                 return entity;

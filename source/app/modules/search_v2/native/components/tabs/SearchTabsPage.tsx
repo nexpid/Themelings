@@ -11,36 +11,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            verify = entity.tab;
+            offset = entity.tab;
             report = entity.searchContext;
-            option = entity.isFocused;
+            verify = entity.isFocused;
             oscard = entity.selectMediaTab;
+            option = entity.onViewableItemsChanged;
             golfie = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 7;
+            michal = 8;
             michal = tangon[michal];
             tangon = undefined;
-            offset = golfie.bind(tangon)(michal);
-            golfie = offset.useIsSwipeToMemberListExperimentEnabled;
+            yankee = golfie.bind(tangon)(michal);
+            golfie = yankee.useIsSwipeToMemberListExperimentEnabled;
             michal = global;
             michal = michal.HermesInternal;
-            yankee = michal.concat;
+            romeon = michal.concat;
             michal = 'SearchTabsPage-';
-            michal = yankee.bind(michal)(verify);
-            offset = golfie.bind(offset)(michal);
+            michal = romeon.bind(michal)(offset);
+            yankee = golfie.bind(yankee)(michal);
             golfie = _closure1_slot4;
             michal = golfie.useState;
-            yankee = michal.bind(golfie)(option);
+            romeon = michal.bind(golfie)(verify);
             golfie = _closure1_slot3;
             michal = 2;
-            yankee = golfie.bind(tangon)(yankee, michal);
+            romeon = golfie.bind(tangon)(romeon, michal);
             michal = 0;
-            michal = yankee[michal];
+            michal = romeon[michal];
             golfie = 1;
-            golfie = yankee[golfie];
+            golfie = romeon[golfie];
             var _closure2_slot0 = golfie;
-            romeon = _closure1_slot4;
-            yankee = romeon.useEffect;
+            foxtra = _closure1_slot4;
+            romeon = foxtra.useEffect;
             golfie = function() {
                 entity = global;
                 tangon = entity.setTimeout;
@@ -57,170 +58,178 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             zuuluu = new Array(0);
-            zuuluu = yankee.bind(romeon)(golfie, zuuluu);
-            if(michal) { _fun00002_ip = 166; continue _fun00001 }
- 162:
+            zuuluu = romeon.bind(foxtra)(golfie, zuuluu);
+            if(michal) { _fun00002_ip = 172; continue _fun00001 }
+ 168:
             michal = null;
             return michal;
- 166:
-            michal = _closure1_slot6;
+ 172:
+            michal = _closure1_slot7;
             michal = michal.RECENT;
-            if(!(michal !== verify)) { _fun00002_ip = 746; continue _fun00001 }
- 183:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 792; continue _fun00001 }
+ 189:
+            michal = _closure1_slot7;
             michal = michal.PEOPLE;
-            if(!(michal !== verify)) { _fun00002_ip = 707; continue _fun00001 }
- 200:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 748; continue _fun00001 }
+ 206:
+            michal = _closure1_slot7;
             michal = michal.MEMBERS;
-            if(!(michal !== verify)) { _fun00002_ip = 668; continue _fun00001 }
- 217:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 704; continue _fun00001 }
+ 223:
+            michal = _closure1_slot7;
             michal = michal.GUILD_CHANNELS;
-            if(!(michal !== verify)) { _fun00002_ip = 629; continue _fun00001 }
- 234:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 660; continue _fun00001 }
+ 240:
+            michal = _closure1_slot7;
             michal = michal.MEDIA;
-            if(!(michal !== verify)) { _fun00002_ip = 580; continue _fun00001 }
- 251:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 606; continue _fun00001 }
+ 257:
+            michal = _closure1_slot7;
             michal = michal.FILES;
-            if(!(michal !== verify)) { _fun00002_ip = 531; continue _fun00001 }
- 268:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 552; continue _fun00001 }
+ 274:
+            michal = _closure1_slot7;
             michal = michal.LINKS;
-            if(!(michal !== verify)) { _fun00002_ip = 482; continue _fun00001 }
- 285:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 498; continue _fun00001 }
+ 291:
+            michal = _closure1_slot7;
             michal = michal.THREADS;
-            if(!(michal !== verify)) { _fun00002_ip = 432; continue _fun00001 }
- 302:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 448; continue _fun00001 }
+ 308:
+            michal = _closure1_slot7;
             michal = michal.MESSAGES;
-            if(!(michal !== verify)) { _fun00002_ip = 383; continue _fun00001 }
- 316:
-            michal = _closure1_slot6;
+            if(!(michal !== offset)) { _fun00002_ip = 394; continue _fun00001 }
+ 322:
+            michal = _closure1_slot7;
             michal = michal.PINS;
-            if(!(michal !== verify)) { _fun00002_ip = 334; continue _fun00001 }
- 330:
+            if(!(michal !== offset)) { _fun00002_ip = 340; continue _fun00001 }
+ 336:
             michal = null;
             return michal;
- 334:
-            golfie = _closure1_slot7;
+ 340:
+            golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            yankee = _closure1_slot2;
+            romeon = _closure1_slot2;
+            michal = 18;
+            michal = romeon[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = {};
+            michal['tab'] = offset;
+            michal['searchContext'] = report;
+            michal['isFocused'] = verify;
+            michal['onViewableItemsChanged'] = option;
+            michal = golfie.bind(tangon)(zuuluu, michal);
+            return michal;
+ 394:
+            golfie = _closure1_slot8;
+            zuuluu = _closure1_slot1;
+            romeon = _closure1_slot2;
             michal = 17;
-            michal = yankee[michal];
+            michal = romeon[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['tab'] = verify;
+            michal['tab'] = offset;
             michal['searchContext'] = report;
-            michal['isFocused'] = option;
+            michal['isFocused'] = verify;
+            michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 383:
-            golfie = _closure1_slot7;
-            zuuluu = _closure1_slot1;
-            yankee = _closure1_slot2;
-            michal = 16;
-            michal = yankee[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['tab'] = verify;
-            michal['searchContext'] = report;
-            michal['isFocused'] = option;
-            michal = golfie.bind(tangon)(zuuluu, michal);
-            return michal;
- 432:
-            golfie = _closure1_slot7;
+ 448:
+            golfie = _closure1_slot8;
             zuuluu = _closure1_slot0;
-            yankee = _closure1_slot2;
-            michal = 15;
-            michal = yankee[michal];
+            romeon = _closure1_slot2;
+            michal = 16;
+            michal = romeon[michal];
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = michal.SearchTabsThreadScreen;
             michal = {};
             michal['searchContext'] = report;
-            michal['showFloatingActionButton'] = offset;
+            michal['showFloatingActionButton'] = yankee;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 482:
-            golfie = _closure1_slot7;
+ 498:
+            golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            offset = _closure1_slot2;
+            yankee = _closure1_slot2;
+            michal = 15;
+            michal = yankee[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = {};
+            michal['tab'] = offset;
+            michal['searchContext'] = report;
+            michal['isFocused'] = verify;
+            michal['onViewableItemsChanged'] = option;
+            michal = golfie.bind(tangon)(zuuluu, michal);
+            return michal;
+ 552:
+            golfie = _closure1_slot8;
+            zuuluu = _closure1_slot1;
+            yankee = _closure1_slot2;
             michal = 14;
-            michal = offset[michal];
+            michal = yankee[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['tab'] = verify;
+            michal['tab'] = offset;
             michal['searchContext'] = report;
-            michal['isFocused'] = option;
+            michal['isFocused'] = verify;
+            michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 531:
-            golfie = _closure1_slot7;
+ 606:
+            golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            offset = _closure1_slot2;
+            yankee = _closure1_slot2;
             michal = 13;
-            michal = offset[michal];
+            michal = yankee[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['tab'] = verify;
+            michal['tab'] = offset;
             michal['searchContext'] = report;
-            michal['isFocused'] = option;
+            michal['isFocused'] = verify;
+            michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 580:
-            golfie = _closure1_slot7;
+ 660:
+            golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            offset = _closure1_slot2;
+            verify = _closure1_slot2;
             michal = 12;
-            michal = offset[michal];
+            michal = verify[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['tab'] = verify;
             michal['searchContext'] = report;
-            michal['isFocused'] = option;
+            michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 629:
-            golfie = _closure1_slot7;
+ 704:
+            golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
+            verify = _closure1_slot2;
             michal = 11;
-            michal = option[michal];
+            michal = verify[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal['searchContext'] = report;
+            michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 668:
-            golfie = _closure1_slot7;
+ 748:
+            golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
+            verify = _closure1_slot2;
             michal = 10;
-            michal = option[michal];
+            michal = verify[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
             michal['searchContext'] = report;
+            michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 707:
-            golfie = _closure1_slot7;
-            zuuluu = _closure1_slot1;
-            option = _closure1_slot2;
-            michal = 9;
-            michal = option[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['searchContext'] = report;
-            michal = golfie.bind(tangon)(zuuluu, michal);
-            return michal;
- 746:
-            zuuluu = _closure1_slot7;
+ 792:
+            zuuluu = _closure1_slot8;
             michal = _closure1_slot1;
             golfie = _closure1_slot2;
-            entity = 8;
+            entity = 9;
             entity = golfie[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
@@ -230,7 +239,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     option = entity.Object;
     report = option.defineProperty;
@@ -256,22 +265,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = michal;
     michal = 3;
     michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.SearchTabs;
+    michal = romeon.bind(entity)(michal);
     var _closure1_slot6 = michal;
     michal = 4;
     michal = golfie[michal];
     michal = oscard.bind(entity)(michal);
-    michal = michal.jsx;
+    michal = michal.SearchTabs;
     var _closure1_slot7 = michal;
     michal = 5;
+    michal = golfie[michal];
+    michal = oscard.bind(entity)(michal);
+    michal = michal.jsx;
+    var _closure1_slot8 = michal;
+    michal = 6;
     michal = golfie[michal];
     verify = oscard.bind(entity)(michal);
     option = verify.createStyles;
     michal = {};
     offset = {};
     offset['flex'] = yankee;
-    yankee = 6;
+    yankee = 7;
     yankee = golfie[yankee];
     yankee = romeon.bind(entity)(yankee);
     yankee = yankee.colors;
@@ -279,11 +292,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset['backgroundColor'] = yankee;
     michal['container'] = offset;
     michal = option.bind(verify)(michal);
-    var _closure1_slot8 = michal;
+    var _closure1_slot9 = michal;
     michal = report.createContext;
     michal = michal.bind(report)(entity);
-    var _closure1_slot9 = michal;
-    report = 20;
+    var _closure1_slot10 = michal;
+    report = 22;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -291,43 +304,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     tangon = function(argFoo) { // Original name: ConnectedSearchTabsPage
         entity = argFoo;
-        verify = entity.tab;
-        option = entity.searchContext;
+        offset = entity.tab;
+        verify = entity.searchContext;
         zuuluu = _closure1_slot4;
         michal = zuuluu.useContext;
-        entity = _closure1_slot9;
-        offset = michal.bind(zuuluu)(entity);
+        entity = _closure1_slot10;
+        yankee = michal.bind(zuuluu)(entity);
         michal = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 18;
+        entity = 19;
         entity = zuuluu[entity];
         tangon = undefined;
         golfie = michal.bind(tangon)(entity);
         entity = null;
-        oscard = entity != offset;
+        oscard = entity != yankee;
         entity = '[SearchTabsPageContext] Context should not be null.';
         entity = golfie.bind(tangon)(oscard, entity);
-        entity = 19;
+        entity = _closure1_slot9;
+        oscard = entity.bind(tangon)();
+        entity = 20;
         entity = zuuluu[entity];
         michal = michal.bind(tangon)(entity);
-        entity = offset.selectedTab;
-        yankee = michal.bind(tangon)(entity);
-        entity = _closure1_slot8;
-        oscard = entity.bind(tangon)();
-        zuuluu = _closure1_slot7;
+        entity = yankee.selectedTab;
+        entity = michal.bind(tangon)(entity);
+        romeon = entity === offset;
+        golfie = _closure1_slot6;
+        michal = golfie.useState;
+        entity = function(argFoo) {
+            michal = argFoo;
+            entity = michal.isInitialSearchQuery;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        golfie = michal.bind(golfie)(verify, entity);
+        michal = _closure1_slot0;
+        entity = 21;
+        entity = zuuluu[entity];
+        zuuluu = michal.bind(tangon)(entity);
+        michal = zuuluu.useSearchResultsViewedAnalytics;
+        entity = {};
+        entity['searchContext'] = verify;
+        entity['tab'] = offset;
+        entity['isFocused'] = romeon;
+        entity['isInitialSearchQuery'] = golfie;
+        entity = michal.bind(zuuluu)(entity);
+        option = entity.onViewableItemsChanged;
+        zuuluu = _closure1_slot8;
         michal = _closure1_slot5;
         entity = {};
         oscard = oscard.container;
         entity['style'] = oscard;
-        golfie = _closure1_slot7;
-        oscard = _closure1_slot10;
+        golfie = _closure1_slot8;
+        oscard = _closure1_slot11;
         report = {};
-        yankee = yankee === verify;
-        report['isFocused'] = yankee;
-        offset = offset.selectMediaTab;
-        report['selectMediaTab'] = offset;
-        report['tab'] = verify;
-        report['searchContext'] = option;
+        report['isFocused'] = romeon;
+        yankee = yankee.selectMediaTab;
+        report['selectMediaTab'] = yankee;
+        report['tab'] = offset;
+        report['searchContext'] = verify;
+        report['onViewableItemsChanged'] = option;
         report = golfie.bind(tangon)(oscard, report);
         entity['children'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);

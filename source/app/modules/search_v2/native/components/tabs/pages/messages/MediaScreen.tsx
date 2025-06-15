@@ -1,43 +1,43 @@
 // app/modules/search_v2/native/components/tabs/pages/messages/MediaScreen.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golfie = argBaz;
+    option = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    var _closure1_slot1 = option;
     var _closure1_slot2 = oscard;
     entity = global;
     verify = entity.Object;
-    option = verify.defineProperty;
+    golfie = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = golfie.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    option = oscard[entity];
+    golfie = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot3 = tangon;
+    golfie = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = golfie;
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = option.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = option.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.SearchListItemTypes;
-    var _closure1_slot6 = golfie;
-    golfie = tangon.MEDIA_NUM_COLUMNS;
-    var _closure1_slot7 = golfie;
-    golfie = tangon.EMPTY_MEDIA_RESULTS;
-    var _closure1_slot8 = golfie;
+    option = tangon.SearchListItemTypes;
+    var _closure1_slot6 = option;
+    option = tangon.MEDIA_NUM_COLUMNS;
+    var _closure1_slot7 = option;
+    option = tangon.EMPTY_MEDIA_RESULTS;
+    var _closure1_slot8 = option;
     tangon = tangon.MEDIA_ITEM_GAP_WIDTH;
     var _closure1_slot9 = tangon;
     tangon = 4;
@@ -50,59 +50,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot11 = tangon;
-    tangon = 22;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/search_v2/native/components/tabs/pages/messages/MediaScreen.tsx';
-    tangon = report.bind(oscard)(tangon);
+    tangon = golfie.memo;
     michal = function(argFoo) { // Original name: MediaScreen
         entity = argFoo;
-        backup = entity.searchContext;
-        var _closure2_slot0 = backup;
-        foxtra = entity.tab;
-        var _closure2_slot1 = foxtra;
-        romeon = entity.isFocused;
-        verify = _closure1_slot0;
-        offset = _closure1_slot2;
+        kiloes = entity.searchContext;
+        var _closure2_slot0 = kiloes;
+        backup = entity.tab;
+        var _closure2_slot1 = backup;
+        foxtra = entity.isFocused;
+        report = entity.onViewableItemsChanged;
+        offset = _closure1_slot0;
+        yankee = _closure1_slot2;
         michal = 6;
-        michal = offset[michal];
+        michal = yankee[michal];
         tangon = undefined;
-        report = verify.bind(tangon)(michal);
-        michal = report.useContentContainerStyles;
-        option = michal.bind(report)();
+        oscard = offset.bind(tangon)(michal);
+        michal = oscard.useContentContainerStyles;
+        verify = michal.bind(oscard)();
         michal = _closure1_slot1;
-        report = 7;
-        report = offset[report];
-        report = michal.bind(tangon)(report);
-        yankee = report.bind(tangon)();
-        var _closure2_slot2 = yankee;
-        report = 8;
-        report = offset[report];
-        oscard = verify.bind(tangon)(report);
-        report = oscard.useSearchMessages;
-        kiloes = report.bind(oscard)(backup, foxtra);
-        var _closure2_slot3 = kiloes;
-        report = 9;
-        report = offset[report];
-        sizing = verify.bind(tangon)(report);
-        oscard = sizing.useSearchMessagesLoadingState;
-        report = {};
-        report['searchContext'] = backup;
-        report['tab'] = foxtra;
-        report['placeholderHeight'] = yankee;
-        golfie = _closure1_slot7;
-        report['numColumns'] = golfie;
-        sizing = oscard.bind(sizing)(report);
-        oscard = sizing.isFirstPageLoading;
-        report = sizing.isNextPageLoading;
-        result = sizing.placeholderCount;
-        var _closure2_slot4 = result;
-        output = _closure1_slot3;
-        update = output.useMemo;
-        echoed = new Array(1);
-        echoed[0] = kiloes;
-        sizing = function() {
+        oscard = 7;
+        oscard = yankee[oscard];
+        oscard = michal.bind(tangon)(oscard);
+        romeon = oscard.bind(tangon)();
+        var _closure2_slot2 = romeon;
+        oscard = 8;
+        oscard = yankee[oscard];
+        golfie = offset.bind(tangon)(oscard);
+        oscard = golfie.useSearchMessages;
+        sizing = oscard.bind(golfie)(kiloes, backup);
+        var _closure2_slot3 = sizing;
+        oscard = 9;
+        oscard = yankee[oscard];
+        output = offset.bind(tangon)(oscard);
+        golfie = output.useSearchMessagesLoadingState;
+        oscard = {};
+        oscard['searchContext'] = kiloes;
+        oscard['tab'] = backup;
+        oscard['placeholderHeight'] = romeon;
+        option = _closure1_slot7;
+        oscard['numColumns'] = option;
+        output = golfie.bind(output)(oscard);
+        golfie = output.isFirstPageLoading;
+        oscard = output.isNextPageLoading;
+        echoed = output.placeholderCount;
+        var _closure2_slot4 = echoed;
+        result = _closure1_slot3;
+        source = result.useMemo;
+        update = new Array(1);
+        update[0] = sizing;
+        output = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zuuluu = _closure2_slot3;
@@ -136,13 +132,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        echoed = update.bind(output)(sizing, echoed);
-        var _closure2_slot5 = echoed;
-        source = output.useCallback;
-        update = new Array(2);
-        update[0] = backup;
-        update[1] = foxtra;
-        sizing = function() {
+        update = source.bind(result)(output, update);
+        var _closure2_slot5 = update;
+        ctrled = result.useCallback;
+        source = new Array(2);
+        source[0] = kiloes;
+        source[1] = backup;
+        output = function() {
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             entity = 11;
@@ -238,26 +234,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report.bind(oscard)(tangon, zuuluu, michal);
             return entity;
         };
-        ctrled = source.bind(output)(sizing, update);
-        sizing = 13;
-        sizing = offset[sizing];
-        source = verify.bind(tangon)(sizing);
-        update = source.useOnPressMediaItem;
-        sizing = {};
-        sizing['searchContext'] = backup;
-        sizing['mediaResults'] = echoed;
-        sizing['onEndReached'] = ctrled;
-        ctrled = 500;
-        sizing['onEndReachedThreshold'] = ctrled;
-        source = update.bind(source)(sizing);
-        var _closure2_slot6 = source;
-        update = output.useCallback;
-        sizing = new Array(4);
-        sizing[0] = source;
-        sizing[1] = backup;
-        sizing[2] = foxtra;
-        sizing[3] = kiloes;
-        kiloes = function(argFoo, argBar) {
+        vacuum = ctrled.bind(result)(output, source);
+        output = 13;
+        output = yankee[output];
+        ctrled = offset.bind(tangon)(output);
+        source = ctrled.useOnPressMediaItem;
+        output = {};
+        output['searchContext'] = kiloes;
+        output['mediaResults'] = update;
+        output['onEndReached'] = vacuum;
+        vacuum = 500;
+        output['onEndReachedThreshold'] = vacuum;
+        ctrled = source.bind(ctrled)(output);
+        var _closure2_slot6 = ctrled;
+        source = result.useCallback;
+        output = new Array(4);
+        output[0] = ctrled;
+        output[1] = kiloes;
+        output[2] = backup;
+        output[3] = sizing;
+        sizing = function(argFoo, argBar) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
@@ -269,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = entity == oscard;
                 entity = undefined;
                 option = undefined;
-                if(oscard) { _fun00006_ip = 62; continue _fun00005 }
+                if(oscard) { _fun00006_ip = 63; continue _fun00005 }
  41:
                 golfie = _closure2_slot3;
                 oscard = golfie.find;
@@ -282,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 option = oscard.bind(golfie)(michal);
- 62:
+ 63:
                 golfie = _closure1_slot0;
                 verify = _closure1_slot2;
                 oscard = 15;
@@ -290,8 +286,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = golfie.bind(entity)(oscard);
                 oscard = golfie.shouldAgeVerifyForSearchMedia;
                 oscard = oscard.bind(golfie)(report, option);
-                if(oscard) { _fun00006_ip = 188; continue _fun00005 }
- 100:
+                if(oscard) { _fun00006_ip = 189; continue _fun00005 }
+ 101:
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
                 oscard = 18;
@@ -312,8 +308,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = golfie.bind(option)(oscard);
                 zuuluu = _closure2_slot6;
                 zuuluu = zuuluu.bind(entity)(report, tangon);
-                _fun00006_ip = 247; continue _fun00005;
- 188:
+                _fun00006_ip = 248; continue _fun00005;
+ 189:
                 tangon = _closure1_slot1;
                 oscard = _closure1_slot2;
                 zuuluu = 16;
@@ -327,18 +323,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.AgeVerificationModalEntryPoint;
                 michal = michal.SEARCH_MEDIA_PREVIEW;
                 michal = zuuluu.bind(tangon)(michal);
- 247:
+ 248:
                 return entity;
             }
         };
-        update = update.bind(output)(kiloes, sizing);
-        var _closure2_slot7 = update;
-        sizing = output.useMemo;
-        kiloes = new Array(4);
-        kiloes[0] = update;
-        kiloes[1] = echoed;
-        kiloes[2] = yankee;
-        kiloes[3] = result;
+        source = source.bind(result)(sizing, output);
+        var _closure2_slot7 = source;
+        output = result.useMemo;
+        sizing = new Array(4);
+        sizing[0] = source;
+        sizing[1] = update;
+        sizing[2] = romeon;
+        sizing[3] = echoed;
         zuuluu = function() {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -371,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['onPress'] = entity;
                     golfie = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    entity = 19;
+                    entity = 11;
                     oscard = oscard[entity];
                     entity = undefined;
                     option = golfie.bind(entity)(oscard);
@@ -401,7 +397,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = entity.length;
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
-                michal = 20;
+                michal = 19;
                 michal = tangon[michal];
                 golfie = undefined;
                 tangon = zuuluu.bind(golfie)(michal);
@@ -416,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = offset < oscard;
                 report = global;
                 tangon = 'media-placeholder-';
-                zuuluu = 19;
+                zuuluu = 11;
                 michal = 2;
                 offset = 0;
                 if(!romeon) { _fun00008_ip = 292; continue _fun00007 }
@@ -460,30 +456,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        kiloes = sizing.bind(output)(zuuluu, kiloes);
+        sizing = output.bind(result)(zuuluu, sizing);
         zuuluu = _closure1_slot11;
         entity = 18;
-        entity = offset[entity];
+        entity = yankee[entity];
         michal = michal.bind(tangon)(entity);
         entity = {};
-        entity['data'] = kiloes;
-        entity['searchContext'] = backup;
-        entity['tab'] = foxtra;
-        entity['isFocused'] = romeon;
-        entity['estimatedItemSize'] = yankee;
-        option = option.mediaContentContainer;
-        entity['contentContainerStyle'] = option;
-        option = 21;
-        option = offset[option];
-        option = verify.bind(tangon)(option);
-        option = option.MediaVerticalSeparator;
-        entity['ItemSeparatorComponent'] = option;
-        entity['numColumns'] = golfie;
-        entity['isFirstPageLoading'] = oscard;
-        entity['isNextPageLoading'] = report;
+        entity['data'] = sizing;
+        entity['searchContext'] = kiloes;
+        entity['tab'] = backup;
+        entity['isFocused'] = foxtra;
+        entity['estimatedItemSize'] = romeon;
+        verify = verify.mediaContentContainer;
+        entity['contentContainerStyle'] = verify;
+        verify = 20;
+        verify = yankee[verify];
+        verify = offset.bind(tangon)(verify);
+        verify = verify.MediaVerticalSeparator;
+        entity['ItemSeparatorComponent'] = verify;
+        entity['numColumns'] = option;
+        entity['isFirstPageLoading'] = golfie;
+        entity['isNextPageLoading'] = oscard;
+        entity['onViewableItemsChanged'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
+    michal = tangon.bind(golfie)(michal);
+    tangon = 21;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/search_v2/native/components/tabs/pages/messages/MediaScreen.tsx';
+    tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;
 })();

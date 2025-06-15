@@ -163,7 +163,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 110; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 112; continue _fun00003 }
  7:
                         report = _closure2_slot2;
                         zuuluu = undefined;
@@ -185,20 +185,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         };
                         michal = option.bind(verify)(michal);
                         michal = oscard.bind(golfie)(report, michal);
-                        SaveGenerator(address=87);
- 85:
-                        return michal;
+                        SaveGenerator(address=89);
  87:
+                        return michal;
+ 89:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 107; continue _fun00003 }
- 93:
+                        if(report) { _fun00004_ip = 109; continue _fun00003 }
+ 95:
                         report = _closure2_slot2;
                         tangon = false;
                         tangon = report.bind(zuuluu)(tangon);
                         return zuuluu;
- 107:
+ 109:
                         return michal;
- 110:
+ 112:
                         return entity;
                     }
                 };

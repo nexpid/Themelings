@@ -92,23 +92,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot3;
             tangon = zuuluu.LIGHT;
             zuuluu = argBar;
-            if(!(zuuluu !== tangon)) { _fun00004_ip = 53; continue _fun00003 }
- 45:
+            if(!(zuuluu !== tangon)) { _fun00004_ip = 52; continue _fun00003 }
+ 44:
             report = michal.darkBackground;
-            _fun00004_ip = 59; continue _fun00003;
- 53:
+            _fun00004_ip = 58; continue _fun00003;
+ 52:
             report = michal.lightBackground;
- 59:
-            if(oscard) { _fun00004_ip = 65; continue _fun00003 }
- 62:
+ 58:
+            if(oscard) { _fun00004_ip = 64; continue _fun00003 }
+ 61:
             oscard = entity;
- 65:
+ 64:
             entity = {};
             golfie = '00';
-            if(!oscard) { _fun00004_ip = 82; continue _fun00003 }
- 76:
+            if(!oscard) { _fun00004_ip = 81; continue _fun00003 }
+ 75:
             golfie = '1A';
- 82:
+ 81:
             michal = global;
             zuuluu = michal.HermesInternal;
             zuuluu = zuuluu.concat;
@@ -116,10 +116,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(report, golfie);
             entity['left'] = zuuluu;
             zuuluu = '4D';
-            if(!oscard) { _fun00004_ip = 124; continue _fun00003 }
- 118:
+            if(!oscard) { _fun00004_ip = 123; continue _fun00003 }
+ 117:
             zuuluu = '80';
- 124:
+ 123:
             michal = michal.HermesInternal;
             michal = michal.concat;
             michal = michal.bind(tangon)(report, zuuluu);

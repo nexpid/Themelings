@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = output[zuuluu];
             option = report.bind(sizing)(zuuluu);
             golfie = option.getAttachmentObscurityProps;
-            zuuluu = {'attachment': null, 'shouldObscureSpoiler': true, 'shouldObscureExplicitMedia': false};
+            zuuluu = {'attachment': null, 'shouldObscureSpoiler': true, 'enabledContentHarmTypeFlags': 0};
             zuuluu['attachment'] = tangon;
             zuuluu['shouldAgeVerify'] = verify;
             zuuluu = golfie.bind(option)(zuuluu);

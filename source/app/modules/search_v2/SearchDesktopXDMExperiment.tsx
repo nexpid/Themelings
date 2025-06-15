@@ -1,0 +1,86 @@
+// app/modules/search_v2/SearchDesktopXDMExperiment.tsx
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    romeon = true;
+    tangon['value'] = romeon;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    tangon = oscard[entity];
+    entity = undefined;
+    verify = report.bind(entity)(tangon);
+    option = verify.createExperiment;
+    golfie = {'kind': 'user', 'id': '2025-06_search_desktop_xdm_experiment', 'label': 'Search Desktop XDM Experiment'};
+    tangon = {};
+    offset = false;
+    tangon['enabled'] = offset;
+    golfie['defaultConfig'] = tangon;
+    yankee = {'id': 1, 'label': 'Enables xDM search on desktop'};
+    tangon = 1;
+    offset = {};
+    offset['enabled'] = romeon;
+    yankee['config'] = offset;
+    offset = new Array(1);
+    offset[0] = yankee;
+    golfie['treatments'] = offset;
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot0 = golfie;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/search_v2/SearchDesktopXDMExperiment.tsx';
+    tangon = report.bind(oscard)(tangon);
+    tangon = function(argFoo) { // Original name: getIsSearchDesktopXDMExperimentEnabled
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            michal = undefined;
+            if(!(report === michal)) { _fun00002_ip = 22; continue _fun00001 }
+ 20:
+            report = true;
+ 22:
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['location'] = entity;
+            entity = {};
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = entity.enabled;
+            return entity;
+        }
+    };
+    zuuluu['getIsSearchDesktopXDMExperimentEnabled'] = tangon;
+    michal = function(argFoo) { // Original name: useIsSearchDesktopXDMExperimentEnabled
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            michal = undefined;
+            if(!(report === michal)) { _fun00004_ip = 22; continue _fun00003 }
+ 20:
+            report = true;
+ 22:
+            tangon = _closure1_slot0;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            michal['location'] = entity;
+            entity = {};
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = entity.enabled;
+            return entity;
+        }
+    };
+    zuuluu['useIsSearchDesktopXDMExperimentEnabled'] = michal;
+    return entity;
+})();

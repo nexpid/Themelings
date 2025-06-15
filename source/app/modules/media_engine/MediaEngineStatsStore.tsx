@@ -244,93 +244,93 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             };
             tangon = tangon.bind(report)(zuuluu);
             verify = null;
-            if(!(verify == entity)) { _fun00010_ip = 57; continue _fun00009 }
- 32:
+            if(!(verify == entity)) { _fun00010_ip = 58; continue _fun00009 }
+ 33:
             zuuluu = {'packetsSentOrReceived': 0, 'packetsLost': 0, 'packetLossRate': 0, 'frameRate': 0, 'resolution': 0, 'numDatapoints': 0, 'frameRateAggregated': 0, 'resolutionAggregated': 0};
             report = argFoo;
             zuuluu['minVersion'] = report;
             entity = zuuluu;
- 57:
-            if(!(verify != tangon)) { _fun00010_ip = 686; continue _fun00009 }
- 64:
+ 58:
+            if(!(verify != tangon)) { _fun00010_ip = 688; continue _fun00009 }
+ 65:
             zuuluu = _closure1_slot15;
             oscard = undefined;
             zuuluu = zuuluu.bind(oscard)(tangon);
-            if(zuuluu) { _fun00010_ip = 101; continue _fun00009 }
- 81:
+            if(zuuluu) { _fun00010_ip = 102; continue _fun00009 }
+ 82:
             zuuluu = tangon.packetsReceived;
             golfie = verify != zuuluu;
             report = 0;
-            if(!golfie) { _fun00010_ip = 99; continue _fun00009 }
- 96:
+            if(!golfie) { _fun00010_ip = 100; continue _fun00009 }
+ 97:
             report = zuuluu;
- 99:
-            _fun00010_ip = 122; continue _fun00009;
- 101:
+ 100:
+            _fun00010_ip = 123; continue _fun00009;
+ 102:
             golfie = tangon.packetsSent;
             offset = verify != golfie;
             zuuluu = 0;
-            if(!offset) { _fun00010_ip = 119; continue _fun00009 }
- 116:
+            if(!offset) { _fun00010_ip = 120; continue _fun00009 }
+ 117:
             zuuluu = golfie;
- 119:
+ 120:
             report = zuuluu;
- 122:
+ 123:
             zuuluu = _closure1_slot15;
             zuuluu = zuuluu.bind(oscard)(tangon);
             yankee = tangon.packetsLost;
             foxtra = verify != yankee;
-            if(zuuluu) { _fun00010_ip = 154; continue _fun00009 }
- 144:
+            if(zuuluu) { _fun00010_ip = 155; continue _fun00009 }
+ 145:
             zuuluu = 0;
-            if(!foxtra) { _fun00010_ip = 152; continue _fun00009 }
- 149:
+            if(!foxtra) { _fun00010_ip = 153; continue _fun00009 }
+ 150:
             zuuluu = yankee;
- 152:
-            _fun00010_ip = 165; continue _fun00009;
- 154:
+ 153:
+            _fun00010_ip = 166; continue _fun00009;
+ 155:
             offset = 0;
-            if(!foxtra) { _fun00010_ip = 162; continue _fun00009 }
- 159:
+            if(!foxtra) { _fun00010_ip = 163; continue _fun00009 }
+ 160:
             offset = yankee;
- 162:
+ 163:
             zuuluu = offset;
- 165:
+ 166:
             offset = _closure1_slot15;
             offset = offset.bind(oscard)(tangon);
-            if(offset) { _fun00010_ip = 197; continue _fun00009 }
- 177:
+            if(offset) { _fun00010_ip = 198; continue _fun00009 }
+ 178:
             offset = tangon.frameRateDecode;
             yankee = verify != offset;
             foxtra = 0;
-            if(!yankee) { _fun00010_ip = 195; continue _fun00009 }
- 192:
+            if(!yankee) { _fun00010_ip = 196; continue _fun00009 }
+ 193:
             foxtra = offset;
- 195:
-            _fun00010_ip = 218; continue _fun00009;
- 197:
+ 196:
+            _fun00010_ip = 219; continue _fun00009;
+ 198:
             yankee = tangon.frameRateEncode;
             backup = verify != yankee;
             offset = 0;
-            if(!backup) { _fun00010_ip = 215; continue _fun00009 }
- 212:
+            if(!backup) { _fun00010_ip = 216; continue _fun00009 }
+ 213:
             offset = yankee;
- 215:
+ 216:
             foxtra = offset;
- 218:
+ 219:
             offset = tangon.resolution;
             yankee = verify == offset;
             tangon = undefined;
-            if(yankee) { _fun00010_ip = 238; continue _fun00009 }
- 233:
+            if(yankee) { _fun00010_ip = 239; continue _fun00009 }
+ 234:
             tangon = offset.height;
- 238:
+ 239:
             offset = verify != tangon;
             yankee = 0;
-            if(!offset) { _fun00010_ip = 250; continue _fun00009 }
- 247:
+            if(!offset) { _fun00010_ip = 251; continue _fun00009 }
+ 248:
             yankee = tangon;
- 250:
+ 251:
             offset = entity.numDatapoints;
             tangon = 1;
             offset = offset + tangon;
@@ -343,8 +343,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['resolutionAggregated'] = offset;
             yankee = verify == romeon;
             offset = undefined;
-            if(yankee) { _fun00010_ip = 325; continue _fun00009 }
- 310:
+            if(yankee) { _fun00010_ip = 327; continue _fun00009 }
+ 311:
             yankee = romeon.find;
             michal = function(argFoo) {
                 entity = argFoo;
@@ -354,97 +354,97 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             offset = yankee.bind(romeon)(michal);
- 325:
-            if(!(verify != offset)) { _fun00010_ip = 342; continue _fun00009 }
- 329:
+ 327:
+            if(!(verify != offset)) { _fun00010_ip = 344; continue _fun00009 }
+ 331:
             yankee = entity.minVersion;
             michal = argBar;
-            if(!(!(michal >= yankee))) { _fun00010_ip = 359; continue _fun00009 }
- 342:
+            if(!(!(michal >= yankee))) { _fun00010_ip = 361; continue _fun00009 }
+ 344:
             entity['packetsSentOrReceived'] = report;
             entity['packetsLost'] = zuuluu;
-            _fun00010_ip = 608; continue _fun00009;
- 359:
+            _fun00010_ip = 610; continue _fun00009;
+ 361:
             michal = entity.numDatapoints;
             michal = michal - tangon;
             entity['numDatapoints'] = michal;
             michal = _closure1_slot15;
             michal = michal.bind(oscard)(offset);
-            if(michal) { _fun00010_ip = 407; continue _fun00009 }
- 387:
+            if(michal) { _fun00010_ip = 409; continue _fun00009 }
+ 389:
             michal = offset.packetsReceived;
             yankee = verify != michal;
             tangon = 0;
-            if(!yankee) { _fun00010_ip = 405; continue _fun00009 }
- 402:
+            if(!yankee) { _fun00010_ip = 407; continue _fun00009 }
+ 404:
             tangon = michal;
- 405:
-            _fun00010_ip = 428; continue _fun00009;
  407:
+            _fun00010_ip = 430; continue _fun00009;
+ 409:
             yankee = offset.packetsSent;
             romeon = verify != yankee;
             michal = 0;
-            if(!romeon) { _fun00010_ip = 425; continue _fun00009 }
- 422:
+            if(!romeon) { _fun00010_ip = 427; continue _fun00009 }
+ 424:
             michal = yankee;
- 425:
+ 427:
             tangon = michal;
- 428:
+ 430:
             michal = _closure1_slot15;
             michal = michal.bind(oscard)(offset);
             romeon = offset.packetsLost;
             foxtra = verify != romeon;
-            if(michal) { _fun00010_ip = 460; continue _fun00009 }
- 450:
+            if(michal) { _fun00010_ip = 462; continue _fun00009 }
+ 452:
             michal = 0;
-            if(!foxtra) { _fun00010_ip = 458; continue _fun00009 }
- 455:
+            if(!foxtra) { _fun00010_ip = 460; continue _fun00009 }
+ 457:
             michal = romeon;
- 458:
-            _fun00010_ip = 471; continue _fun00009;
  460:
+            _fun00010_ip = 473; continue _fun00009;
+ 462:
             yankee = 0;
-            if(!foxtra) { _fun00010_ip = 468; continue _fun00009 }
- 465:
+            if(!foxtra) { _fun00010_ip = 470; continue _fun00009 }
+ 467:
             yankee = romeon;
- 468:
+ 470:
             michal = yankee;
- 471:
+ 473:
             option = _closure1_slot15;
             option = option.bind(oscard)(offset);
-            if(option) { _fun00010_ip = 503; continue _fun00009 }
- 483:
+            if(option) { _fun00010_ip = 505; continue _fun00009 }
+ 485:
             yankee = offset.frameRateDecode;
             romeon = verify != yankee;
             option = 0;
-            if(!romeon) { _fun00010_ip = 501; continue _fun00009 }
- 498:
+            if(!romeon) { _fun00010_ip = 503; continue _fun00009 }
+ 500:
             option = yankee;
- 501:
-            _fun00010_ip = 524; continue _fun00009;
  503:
+            _fun00010_ip = 526; continue _fun00009;
+ 505:
             romeon = offset.frameRateEncode;
             foxtra = verify != romeon;
             yankee = 0;
-            if(!foxtra) { _fun00010_ip = 521; continue _fun00009 }
- 518:
+            if(!foxtra) { _fun00010_ip = 523; continue _fun00009 }
+ 520:
             yankee = romeon;
- 521:
+ 523:
             option = yankee;
- 524:
+ 526:
             offset = offset.resolution;
             yankee = verify == offset;
             oscard = undefined;
-            if(yankee) { _fun00010_ip = 544; continue _fun00009 }
- 539:
+            if(yankee) { _fun00010_ip = 546; continue _fun00009 }
+ 541:
             oscard = offset.height;
- 544:
+ 546:
             verify = verify != oscard;
             golfie = 0;
-            if(!verify) { _fun00010_ip = 556; continue _fun00009 }
- 553:
+            if(!verify) { _fun00010_ip = 558; continue _fun00009 }
+ 555:
             golfie = oscard;
- 556:
+ 558:
             oscard = entity.frameRateAggregated;
             oscard = oscard - option;
             entity['frameRateAggregated'] = oscard;
@@ -455,7 +455,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['packetsSentOrReceived'] = tangon;
             michal = zuuluu - michal;
             entity['packetsLost'] = michal;
- 608:
+ 610:
             zuuluu = entity.frameRateAggregated;
             michal = entity.numDatapoints;
             michal = zuuluu / michal;
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = zuuluu / michal;
             entity['packetLossRate'] = michal;
             return entity;
- 686:
+ 688:
             return entity;
         }
     };

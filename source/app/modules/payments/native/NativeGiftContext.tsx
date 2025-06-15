@@ -263,10 +263,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[9] = result;
             sierra = status == option;
             status = undefined;
-            if(sierra) { _fun00002_ip = 814; continue _fun00001 }
- 808:
+            if(sierra) { _fun00002_ip = 812; continue _fun00001 }
+ 806:
             status = option.skuId;
- 814:
+ 812:
             zuuluu[10] = status;
             zuuluu[11] = papara;
             michal = function(argFoo) {
@@ -325,8 +325,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.isAndroid;
                     michal = michal.bind(zuuluu)();
-                    if(!michal) { _fun00004_ip = 120; continue _fun00003 }
- 71:
+                    if(!michal) { _fun00004_ip = 116; continue _fun00003 }
+ 69:
                     verify = function(argFoo) { // Original name: handleGPlayUpdatePurchaseAction
                         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -380,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = option.subscribe;
                     michal = 'GPLAY_UPDATE_PURCHASE_STATE';
                     michal = zuuluu.bind(option)(michal, verify);
- 120:
+ 116:
                     zuuluu = _closure2_slot2;
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -411,71 +411,71 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = null;
                     offset = verify == option;
                     option = undefined;
-                    if(offset) { _fun00004_ip = 259; continue _fun00003 }
- 250:
+                    if(offset) { _fun00004_ip = 255; continue _fun00003 }
+ 246:
                     offset = _closure2_slot8;
                     option = offset.id;
- 259:
+ 255:
                     report['recipient_id'] = option;
                     option = _closure2_slot5;
                     report['custom_message'] = option;
                     option = _closure2_slot7;
                     offset = verify == option;
                     option = undefined;
-                    if(offset) { _fun00004_ip = 295; continue _fun00003 }
- 286:
+                    if(offset) { _fun00004_ip = 291; continue _fun00003 }
+ 282:
                     offset = _closure2_slot7;
                     option = offset.id;
- 295:
+ 291:
                     report['emoji_id'] = option;
                     option = _closure2_slot7;
                     offset = verify == option;
                     option = undefined;
-                    if(offset) { _fun00004_ip = 322; continue _fun00003 }
- 313:
+                    if(offset) { _fun00004_ip = 318; continue _fun00003 }
+ 309:
                     offset = _closure2_slot7;
                     option = offset.surrogates;
- 322:
+ 318:
                     report['emoji_name'] = option;
                     option = _closure2_slot6;
                     offset = verify == option;
                     option = undefined;
-                    if(offset) { _fun00004_ip = 350; continue _fun00003 }
- 340:
+                    if(offset) { _fun00004_ip = 346; continue _fun00003 }
+ 336:
                     offset = _closure2_slot6;
                     option = offset.soundId;
- 350:
+ 346:
                     report['sound_id'] = option;
                     option = _closure2_slot14;
                     offset = verify == option;
                     option = undefined;
-                    if(offset) { _fun00004_ip = 378; continue _fun00003 }
- 368:
+                    if(offset) { _fun00004_ip = 374; continue _fun00003 }
+ 364:
                     offset = _closure2_slot14;
                     option = offset.skuId;
+ 374:
+                    if(!(verify != option)) { _fun00004_ip = 396; continue _fun00003 }
  378:
-                    if(!(verify != option)) { _fun00004_ip = 400; continue _fun00003 }
- 382:
                     option = _closure2_slot3;
                     oscard = _closure1_slot8;
                     oscard = oscard.TIER_2;
-                    if(!(option !== oscard)) { _fun00004_ip = 406; continue _fun00003 }
- 400:
+                    if(!(option !== oscard)) { _fun00004_ip = 402; continue _fun00003 }
+ 396:
                     oscard = new Array(0);
-                    _fun00004_ip = 440; continue _fun00003;
- 406:
+                    _fun00004_ip = 436; continue _fun00003;
+ 402:
                     option = _closure2_slot14;
                     verify = verify == option;
                     option = undefined;
-                    if(verify) { _fun00004_ip = 429; continue _fun00003 }
- 419:
+                    if(verify) { _fun00004_ip = 425; continue _fun00003 }
+ 415:
                     golfie = _closure2_slot14;
                     option = golfie.skuId;
- 429:
+ 425:
                     golfie = new Array(1);
                     golfie[0] = option;
                     oscard = golfie;
- 440:
+ 436:
                     report['reward_sku_ids'] = oscard;
                     michal['giftInfoOptions'] = report;
                     report = function() { // Original name: onPurchaseComplete

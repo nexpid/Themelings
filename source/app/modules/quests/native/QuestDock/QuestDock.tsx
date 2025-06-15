@@ -1360,11 +1360,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = {};
                     backup = _closure2_slot8;
                     foxtra = undefined;
-                    if(backup) { _fun00024_ip = 139; continue _fun00023 }
+                    if(backup) { _fun00024_ip = 138; continue _fun00023 }
  129:
                     backup = _closure1_slot20;
                     foxtra = backup.DARK;
- 139:
+ 138:
                     verify['theme'] = foxtra;
                     backup = _closure1_slot21;
                     foxtra = _closure1_slot37;

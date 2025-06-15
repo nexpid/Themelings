@@ -425,34 +425,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = source.REFRESH_MEDIUM_32;
             option['size'] = source;
             source = undefined;
-            if(!echoed) { _fun00004_ip = 466; continue _fun00003 }
- 460:
-            source = foxtra.notConnectedAvatar;
+            if(!echoed) { _fun00004_ip = 472; continue _fun00003 }
  466:
+            source = foxtra.notConnectedAvatar;
+ 472:
             option['style'] = source;
             option = update.bind(tangon)(result, option);
             entity['icon'] = option;
             entity['subLabel'] = golfie;
-            if(!oscard) { _fun00004_ip = 491; continue _fun00003 }
- 488:
-            if(report) { _fun00004_ip = 534; continue _fun00003 }
- 491:
-            report = null;
-            if(!(report == kiloes)) { _fun00004_ip = 506; continue _fun00003 }
+            if(!oscard) { _fun00004_ip = 497; continue _fun00003 }
+ 494:
+            if(report) { _fun00004_ip = 540; continue _fun00003 }
  497:
+            report = null;
+            if(!(report == kiloes)) { _fun00004_ip = 512; continue _fun00003 }
+ 503:
             oscard = report != romeon;
             report = undefined;
-            if(!oscard) { _fun00004_ip = 532; continue _fun00003 }
- 506:
+            if(!oscard) { _fun00004_ip = 538; continue _fun00003 }
+ 512:
             option = _closure1_slot5;
             golfie = _closure1_slot8;
             oscard = {};
             oscard['muteDeafenIconState'] = kiloes;
             oscard['videoIconState'] = romeon;
             report = option.bind(tangon)(golfie, oscard);
- 532:
-            _fun00004_ip = 644; continue _fun00003;
- 534:
+ 538:
+            _fun00004_ip = 652; continue _fun00003;
+ 540:
             option = _closure1_slot5;
             result = _closure1_slot0;
             update = _closure1_slot2;
@@ -491,11 +491,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = romeon.bind(kiloes)(verify);
             oscard['text'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 644:
+ 652:
             entity['trailing'] = report;
             romeon = null;
-            if(!(romeon == sizing)) { _fun00004_ip = 686; continue _fun00003 }
- 655:
+            if(!(romeon == sizing)) { _fun00004_ip = 694; continue _fun00003 }
+ 663:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             report = 22;
@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(tangon)(report);
             report = oscard.getName;
             sizing = report.bind(oscard)(output);
- 686:
+ 694:
             golfie = _closure1_slot6;
             oscard = _closure1_slot1;
             result = _closure1_slot2;
@@ -523,10 +523,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 'text-md/semibold';
             option['variant'] = result;
             result = 'text-normal';
-            if(!echoed) { _fun00004_ip = 772; continue _fun00003 }
- 766:
+            if(!echoed) { _fun00004_ip = 780; continue _fun00003 }
+ 774:
             result = 'text-muted';
- 772:
+ 780:
             option['color'] = result;
             option['children'] = sizing;
             verify = kiloes.bind(tangon)(verify, option);
@@ -544,11 +544,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = sizing.bind(tangon)(kiloes, verify);
             option[1] = verify;
             verify = null;
-            if(!backup) { _fun00004_ip = 904; continue _fun00003 }
- 844:
+            if(!backup) { _fun00004_ip = 912; continue _fun00003 }
+ 852:
             verify = null;
-            if(!yankee) { _fun00004_ip = 904; continue _fun00003 }
- 849:
+            if(!yankee) { _fun00004_ip = 912; continue _fun00003 }
+ 857:
             romeon = _closure1_slot5;
             yankee = _closure1_slot0;
             backup = _closure1_slot2;
@@ -562,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.icon;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 904:
+ 912:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

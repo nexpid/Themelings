@@ -272,11 +272,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = _closure2_slot0;
                     michal = entity.creator_id;
                     entity = null;
-                    if(!(entity == michal)) { _fun00006_ip = 31; continue _fun00005 }
+                    if(!(entity == michal)) { _fun00006_ip = 35; continue _fun00005 }
  19:
                     entity = {'creator': null, 'creatorMember': null};
-                    _fun00006_ip = 101; continue _fun00005;
- 31:
+                    _fun00006_ip = 105; continue _fun00005;
+ 35:
                     michal = {};
                     golfie = _closure1_slot9;
                     oscard = golfie.getUser;
@@ -291,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = report.bind(oscard)(tangon, zuuluu);
                     michal['creatorMember'] = zuuluu;
                     entity = michal;
- 101:
+ 105:
                     return entity;
                 }
             };
@@ -306,13 +306,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = 18;
             entity = entity[sizing];
             entity = option.bind(tangon)(entity);
-            if(michal) { _fun00002_ip = 426; continue _fun00001 }
- 418:
+            if(michal) { _fun00002_ip = 436; continue _fun00001 }
+ 428:
             michal = entity.GuildEventCardPrimaryAction;
-            _fun00002_ip = 432; continue _fun00001;
- 426:
+            _fun00002_ip = 442; continue _fun00001;
+ 436:
             michal = entity.HubGuildEventCardPrimaryAction;
- 432:
+ 442:
             entity = {};
             entity['event'] = romeon;
             option = function() { // Original name: handleCloseAction
@@ -447,12 +447,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[4] = oscard;
             oscard = null;
             option = oscard != record;
-            if(!option) { _fun00002_ip = 996; continue _fun00001 }
- 993:
+            if(!option) { _fun00002_ip = 1008; continue _fun00001 }
+ 1005:
             option = result;
- 996:
-            if(!option) { _fun00002_ip = 1225; continue _fun00001 }
- 1002:
+ 1008:
+            if(!option) { _fun00002_ip = 1239; continue _fun00001 }
+ 1014:
             echoed = _closure1_slot12;
             backup = _closure1_slot4;
             verify = {};
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update[1] = ctrled;
             verify['children'] = update;
             option = echoed.bind(tangon)(backup, verify);
- 1225:
+ 1239:
             report[5] = option;
             backup = _closure1_slot11;
             verify = _closure1_slot0;
@@ -625,8 +625,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = new Array(3);
             kiloes[0] = output;
             output = null;
-            if(!result) { _fun00002_ip = 1382; continue _fun00001 }
- 1316:
+            if(!result) { _fun00002_ip = 1396; continue _fun00001 }
+ 1330:
             update = _closure1_slot11;
             vacuum = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -641,7 +641,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['iconSize'] = ctrled;
             result['event'] = romeon;
             output = update.bind(tangon)(echoed, result);
- 1382:
+ 1396:
             kiloes[1] = output;
             result = _closure1_slot11;
             update = _closure1_slot0;
@@ -663,8 +663,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = backup.bind(tangon)(verify, option);
             report[7] = option;
             oscard = oscard != foxtra;
-            if(!oscard) { _fun00002_ip = 1553; continue _fun00001 }
- 1482:
+            if(!oscard) { _fun00002_ip = 1569; continue _fun00001 }
+ 1496:
             verify = _closure1_slot11;
             option = _closure1_slot1;
             backup = _closure1_slot2;
@@ -687,7 +687,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['onRecurrencePress'] = yankee;
             golfie['activeRecurrenceId'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1553:
+ 1569:
             report[8] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

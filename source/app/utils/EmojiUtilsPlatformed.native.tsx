@@ -437,10 +437,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  21:
             michal = false;
  23:
-            if(!michal) { _fun00010_ip = 277; continue _fun00009 }
+            if(!michal) { _fun00010_ip = 273; continue _fun00009 }
  29:
             oscard = null;
-            if(!(oscard != entity)) { _fun00010_ip = 277; continue _fun00009 }
+            if(!(oscard != entity)) { _fun00010_ip = 273; continue _fun00009 }
  38:
             verify = entity.LIGHT;
             report = entity.DARK;
@@ -449,76 +449,76 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = _closure1_slot6;
             yankee = oscard == verify;
             option = undefined;
-            if(yankee) { _fun00010_ip = 76; continue _fun00009 }
- 70:
+            if(yankee) { _fun00010_ip = 74; continue _fun00009 }
+ 68:
             option = verify.accentColor;
- 76:
+ 74:
             option = offset.bind(tangon)(option);
             zuuluu['accentColor'] = option;
             offset = _closure1_slot6;
             yankee = oscard == verify;
             option = undefined;
-            if(yankee) { _fun00010_ip = 104; continue _fun00009 }
- 99:
+            if(yankee) { _fun00010_ip = 102; continue _fun00009 }
+ 97:
             option = verify.backgroundColor;
- 104:
+ 102:
             option = offset.bind(tangon)(option);
             zuuluu['backgroundColor'] = option;
             offset = _closure1_slot6;
             yankee = oscard == verify;
             option = undefined;
-            if(yankee) { _fun00010_ip = 132; continue _fun00009 }
- 126:
+            if(yankee) { _fun00010_ip = 130; continue _fun00009 }
+ 124:
             option = verify.highlightColor;
- 132:
+ 130:
             option = offset.bind(tangon)(option);
             zuuluu['highlightColor'] = option;
             offset = oscard == verify;
             option = undefined;
-            if(offset) { _fun00010_ip = 156; continue _fun00009 }
- 151:
+            if(offset) { _fun00010_ip = 154; continue _fun00009 }
+ 149:
             option = verify.opacity;
- 156:
+ 154:
             zuuluu['opacity'] = option;
             michal['LIGHT'] = zuuluu;
             zuuluu = {};
             verify = _closure1_slot6;
             offset = oscard == report;
             option = undefined;
-            if(offset) { _fun00010_ip = 186; continue _fun00009 }
- 180:
+            if(offset) { _fun00010_ip = 183; continue _fun00009 }
+ 177:
             option = report.accentColor;
- 186:
+ 183:
             option = verify.bind(tangon)(option);
             zuuluu['accentColor'] = option;
             verify = _closure1_slot6;
             offset = oscard == report;
             option = undefined;
-            if(offset) { _fun00010_ip = 214; continue _fun00009 }
- 209:
+            if(offset) { _fun00010_ip = 211; continue _fun00009 }
+ 206:
             option = report.backgroundColor;
- 214:
+ 211:
             option = verify.bind(tangon)(option);
             zuuluu['backgroundColor'] = option;
             option = _closure1_slot6;
             verify = oscard == report;
             golfie = undefined;
-            if(verify) { _fun00010_ip = 242; continue _fun00009 }
- 236:
+            if(verify) { _fun00010_ip = 239; continue _fun00009 }
+ 233:
             golfie = report.highlightColor;
- 242:
+ 239:
             golfie = option.bind(tangon)(golfie);
             zuuluu['highlightColor'] = golfie;
             oscard = oscard == report;
             tangon = undefined;
-            if(oscard) { _fun00010_ip = 266; continue _fun00009 }
- 261:
+            if(oscard) { _fun00010_ip = 263; continue _fun00009 }
+ 258:
             tangon = report.opacity;
- 266:
+ 263:
             zuuluu['opacity'] = tangon;
             michal['DARK'] = zuuluu;
             return michal;
- 277:
+ 273:
             return entity;
         }
     };

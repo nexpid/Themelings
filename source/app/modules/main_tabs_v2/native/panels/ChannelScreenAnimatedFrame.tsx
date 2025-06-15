@@ -200,10 +200,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(4);
             report[0] = offset;
             offset = undefined;
-            if(!(romeon === yankee)) { _fun00002_ip = 328; continue _fun00001 }
- 322:
+            if(!(romeon === yankee)) { _fun00002_ip = 327; continue _fun00001 }
+ 321:
             offset = verify.midnightContainer;
- 328:
+ 327:
             report[1] = offset;
             report[2] = option;
             report[3] = golfie;

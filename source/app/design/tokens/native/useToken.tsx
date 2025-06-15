@@ -71,13 +71,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.useThemeContext;
             backup = entity.bind(michal)();
             report = null;
-            if(!(report == romeon)) { _fun00002_ip = 52; continue _fun00001 }
+            if(!(report == romeon)) { _fun00002_ip = 53; continue _fun00001 }
  47:
             romeon = backup.theme;
- 52:
+ 53:
             entity = foxtra;
-            if(!(report != entity)) { _fun00002_ip = 474; continue _fun00001 }
- 62:
+            if(!(report != entity)) { _fun00002_ip = 475; continue _fun00001 }
+ 63:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             option = 0;
@@ -87,8 +87,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.isSemanticColor;
             michal = michal.bind(zuuluu)(foxtra);
             offset = foxtra;
-            if(!michal) { _fun00002_ip = 138; continue _fun00001 }
- 104:
+            if(!michal) { _fun00002_ip = 139; continue _fun00001 }
+ 105:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
             michal = michal[option];
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.internal;
             michal = zuuluu.getSemanticColorName;
             offset = michal.bind(zuuluu)(foxtra);
- 138:
+ 139:
             echoed = backup.key;
             michal = global;
             michal = michal.HermesInternal;
@@ -112,12 +112,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.get;
             offset = michal.bind(zuuluu)(oscard);
             zuuluu = offset;
-            if(!(report == offset)) { _fun00002_ip = 444; continue _fun00001 }
- 204:
+            if(!(report == offset)) { _fun00002_ip = 445; continue _fun00001 }
+ 205:
             verify = 'string';
             michal = typeof foxtra;
-            if(!(verify !== michal)) { _fun00002_ip = 323; continue _fun00001 }
- 215:
+            if(!(verify !== michal)) { _fun00002_ip = 324; continue _fun00001 }
+ 216:
             verify = _closure1_slot1;
             michal = _closure1_slot2;
             michal = michal[option];
@@ -126,8 +126,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = verify.isSemanticColor;
             michal = michal.bind(verify)(foxtra);
             zuuluu = offset;
-            if(!michal) { _fun00002_ip = 444; continue _fun00001 }
- 258:
+            if(!michal) { _fun00002_ip = 445; continue _fun00001 }
+ 259:
             verify = _closure1_slot1;
             sizing = _closure1_slot2;
             michal = sizing[option];
@@ -141,18 +141,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = kiloes.getSemanticColorContextFromThemeContext;
             michal = michal.bind(kiloes)(backup);
             zuuluu = verify.bind(yankee)(romeon, foxtra, michal);
-            _fun00002_ip = 444; continue _fun00001;
- 323:
+            _fun00002_ip = 445; continue _fun00001;
+ 324:
             yankee = foxtra[option];
             verify = '#';
             michal = foxtra;
-            if(!(verify !== yankee)) { _fun00002_ip = 471; continue _fun00001 }
- 341:
+            if(!(verify !== yankee)) { _fun00002_ip = 472; continue _fun00001 }
+ 342:
             verify = _closure1_slot4;
             verify = foxtra in verify;
             zuuluu = offset;
-            if(!verify) { _fun00002_ip = 444; continue _fun00001 }
- 355:
+            if(!verify) { _fun00002_ip = 445; continue _fun00001 }
+ 356:
             verify = _closure1_slot1;
             kiloes = _closure1_slot2;
             offset = kiloes[option];
@@ -172,18 +172,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = foxtra.getSemanticColorContextFromThemeContext;
             option = option.bind(foxtra)(backup);
             zuuluu = offset.bind(yankee)(romeon, verify, option);
- 444:
+ 445:
             report = report != zuuluu;
             michal = undefined;
-            if(!report) { _fun00002_ip = 471; continue _fun00001 }
- 453:
+            if(!report) { _fun00002_ip = 472; continue _fun00001 }
+ 454:
             report = _closure1_slot3;
             tangon = report.set;
             tangon = tangon.bind(report)(oscard, zuuluu);
             michal = zuuluu;
- 471:
+ 472:
             entity = michal;
- 474:
+ 475:
             return entity;
         }
     };

@@ -54,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 tangon = _closure2_slot1;
                 zuuluu = null;
-                if(!(zuuluu != tangon)) { _fun00002_ip = 124; continue _fun00001 }
+                if(!(zuuluu != tangon)) { _fun00002_ip = 125; continue _fun00001 }
  15:
                 report = _closure1_slot3;
                 tangon = report.getEmbeddedActivitiesForChannel;
@@ -69,8 +69,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 michal = tangon.bind(report)(michal);
-                if(!(zuuluu != michal)) { _fun00002_ip = 118; continue _fun00001 }
- 58:
+                if(!(zuuluu != michal)) { _fun00002_ip = 119; continue _fun00001 }
+ 59:
                 zuuluu = global;
                 tangon = zuuluu.Array;
                 zuuluu = tangon.from;
@@ -93,12 +93,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(zuuluu)(entity);
-                _fun00002_ip = 122; continue _fun00001;
- 118:
+                _fun00002_ip = 123; continue _fun00001;
+ 119:
                 entity = new Array(0);
- 122:
+ 123:
                 return entity;
- 124:
+ 125:
                 entity = new Array(0);
                 return entity;
             }

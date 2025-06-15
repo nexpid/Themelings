@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             zuuluu = _closure1_slot10;
             zuuluu = michal in zuuluu;
-            if(zuuluu) { _fun00004_ip = 51; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 55; continue _fun00003 }
  17:
             tangon = _closure1_slot10;
             zuuluu = {'activeCommand': null, 'activeCommandSection': null, 'activeOptionName': null, 'preferredCommandId': null, 'optionStates': null, 'initialValues': null, 'commandOrigin': null};
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = {};
             zuuluu['initialValues'] = report;
             tangon[michal] = zuuluu;
- 51:
+ 55:
             entity = _closure1_slot10;
             entity = entity[michal];
             return entity;
@@ -605,12 +605,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 report = entity == tangon;
                 michal = undefined;
-                if(report) { _fun00016_ip = 69; continue _fun00015 }
+                if(report) { _fun00016_ip = 70; continue _fun00015 }
  40:
                 report = tangon.options;
                 tangon = entity == report;
                 michal = undefined;
-                if(tangon) { _fun00016_ip = 69; continue _fun00015 }
+                if(tangon) { _fun00016_ip = 70; continue _fun00015 }
  54:
                 tangon = report.find;
                 zuuluu = function(argFoo) {
@@ -622,13 +622,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 michal = tangon.bind(report)(zuuluu);
- 69:
+ 70:
                 zuuluu = entity != michal;
                 entity = null;
-                if(!zuuluu) { _fun00016_ip = 81; continue _fun00015 }
- 78:
+                if(!zuuluu) { _fun00016_ip = 82; continue _fun00015 }
+ 79:
                 entity = michal;
- 81:
+ 82:
                 return entity;
             }
         };
@@ -717,12 +717,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 oscard = zuuluu == tangon;
                 entity = undefined;
-                if(oscard) { _fun00018_ip = 72; continue _fun00017 }
+                if(oscard) { _fun00018_ip = 73; continue _fun00017 }
  43:
                 tangon = tangon.options;
                 zuuluu = zuuluu == tangon;
                 entity = undefined;
-                if(zuuluu) { _fun00018_ip = 72; continue _fun00017 }
+                if(zuuluu) { _fun00018_ip = 73; continue _fun00017 }
  57:
                 zuuluu = tangon.find;
                 michal = function(argFoo) {
@@ -733,7 +733,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 entity = zuuluu.bind(tangon)(michal);
- 72:
+ 73:
                 return entity;
             }
         };

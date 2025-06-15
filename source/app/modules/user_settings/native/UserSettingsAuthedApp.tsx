@@ -1138,7 +1138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source[0] = ctrled;
             ctrled = offset.terms_of_service_url;
             ctrled = vacuum != ctrled;
-            if(!ctrled) { _fun00002_ip = 2011; continue _fun00001 }
+            if(!ctrled) { _fun00002_ip = 2013; continue _fun00001 }
  1912:
             cntext = _closure1_slot21;
             sierra = _closure1_slot0;
@@ -1187,12 +1187,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen['onPress'] = papara;
             sequen['arrow'] = echoed;
             ctrled = cntext.bind(tangon)(record, sequen);
- 2011:
+ 2013:
             source[1] = ctrled;
             ctrled = offset.privacy_policy_url;
             ctrled = vacuum != ctrled;
-            if(!ctrled) { _fun00002_ip = 2127; continue _fun00001 }
- 2028:
+            if(!ctrled) { _fun00002_ip = 2131; continue _fun00001 }
+ 2030:
             record = _closure1_slot21;
             status = _closure1_slot0;
             cntext = _closure1_slot2;
@@ -1240,7 +1240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum['onPress'] = cntext;
             vacuum['arrow'] = echoed;
             ctrled = record.bind(tangon)(sequen, vacuum);
- 2127:
+ 2131:
             source[2] = ctrled;
             kiloes['children'] = source;
             kiloes = result.bind(tangon)(output, kiloes);
@@ -1404,14 +1404,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             option = option.bind(tangon)();
             report[4] = option;
-            if(!oscard) { _fun00002_ip = 2407; continue _fun00001 }
- 2387:
+            if(!oscard) { _fun00002_ip = 2411; continue _fun00001 }
+ 2391:
             verify = _closure1_slot21;
             option = _closure1_slot24;
             golfie = {};
             golfie['application'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 2407:
+ 2411:
             report[5] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

@@ -1468,7 +1468,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['InappropriateConversationsManager'] = entity;
     entity = {};
-    option = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'IDLE', 'WINDOW_FOCUS', 'CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN', 'CONTENT_INVENTORY_MANUAL_REFRESH', 'CONTENT_INVENTORY_INBOX_STALE', 'SPOTIFY_NEW_TRACK', 'GAME_PROFILE_OPEN', 'OVERLAY_READY'];
+    option = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'IDLE', 'WINDOW_FOCUS', 'CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN', 'CONTENT_INVENTORY_MANUAL_REFRESH', 'CONTENT_INVENTORY_INBOX_STALE', 'SPOTIFY_NEW_TRACK', 'GAME_PROFILE_OPEN'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
@@ -1484,7 +1484,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ContentInventoryManager'] = entity;
     entity = {};
-    option = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'FETCH_MOBILE_AD_DATA_BEGIN', 'LOGOUT'];
+    option = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'LOGOUT'];
     entity['actions'] = option;
     option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;

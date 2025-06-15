@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot21 = entity;
-    entity = ['channelId'];
+    entity = ['channelId', 'analyticsLocation'];
     var _closure1_slot3 = entity;
     entity = global;
     oscard = entity.Object;
@@ -559,32 +559,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure3_slot0 = entity;
                 var _closure3_slot1 = report;
                 sizing = report.channelId;
+                option = report.analyticsLocation;
                 oscard = _closure1_slot4;
                 michal = _closure1_slot3;
                 zuuluu = undefined;
-                output = oscard.bind(zuuluu)(report, michal);
-                golfie = _closure1_slot0;
-                option = _closure1_slot2;
-                oscard = 14;
-                oscard = option[oscard];
-                golfie = golfie.bind(zuuluu)(oscard);
-                oscard = golfie.getSignalStrength;
-                option = oscard.bind(golfie)();
-                foxtra = {};
-                golfie = _closure1_slot12;
-                oscard = golfie.getType;
-                oscard = oscard.bind(golfie)();
-                foxtra['mobile_network_type'] = oscard;
-                result = foxtra;
-                michal = copyDataProperties(result, output);
+                oscard = oscard.bind(zuuluu)(report, michal);
+                golfie = _closure1_slot1;
+                offset = _closure1_slot2;
+                michal = 14;
+                michal = offset[michal];
+                michal = golfie.bind(zuuluu)(michal);
+                golfie = michal.bind(zuuluu)();
                 michal = null;
+                if(!(michal != golfie)) { _fun00016_ip = 82; continue _fun00015 }
+ 79:
+                option = golfie;
+ 82:
+                golfie = michal != option;
+                yankee = undefined;
+                if(!golfie) { _fun00016_ip = 100; continue _fun00015 }
+ 91:
+                golfie = {};
+                golfie['location'] = option;
+                yankee = golfie;
+ 100:
+                option = _closure1_slot0;
+                offset = _closure1_slot2;
+                golfie = 15;
+                golfie = offset[golfie];
+                option = option.bind(zuuluu)(golfie);
+                golfie = option.getSignalStrength;
+                option = golfie.bind(option)();
+                foxtra = {};
+                offset = _closure1_slot12;
+                golfie = offset.getType;
+                golfie = golfie.bind(offset)();
+                foxtra['mobile_network_type'] = golfie;
+                result = foxtra;
+                output = oscard;
+                oscard = copyDataProperties(result, output);
                 oscard = michal != option;
-                if(!oscard) { _fun00016_ip = 122; continue _fun00015 }
- 112:
+                if(!oscard) { _fun00016_ip = 180; continue _fun00015 }
+ 170:
                 golfie = {};
                 golfie['signal_strength'] = option;
                 oscard = golfie;
- 122:
+ 180:
                 result = foxtra;
                 output = oscard;
                 oscard = copyDataProperties(result, output);
@@ -592,26 +612,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = option.get;
                 oscard = 'send_fail_100';
                 oscard = golfie.bind(option)(oscard);
-                if(oscard) { _fun00016_ip = 416; continue _fun00015 }
- 158:
-                golfie = _closure1_slot1;
-                option = _closure1_slot2;
-                oscard = 15;
-                oscard = option[oscard];
-                oscard = golfie.bind(zuuluu)(oscard);
-                golfie = oscard.bind(zuuluu)();
-                oscard = michal != golfie;
-                yankee = undefined;
-                if(!oscard) { _fun00016_ip = 223; continue _fun00015 }
- 191:
-                oscard = {};
-                oscard['location'] = golfie;
-                offset = entity.logger;
-                option = offset.log;
-                golfie = 'Overlay location: ';
-                golfie = option.bind(offset)(golfie, oscard);
-                yankee = oscard;
- 223:
+                if(oscard) { _fun00016_ip = 409; continue _fun00015 }
+ 216:
                 golfie = entity.createResponseHandler;
                 oscard = report.nonce;
                 option = golfie.bind(entity)(oscard, tangon);
@@ -674,7 +676,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report[verify] = offset;
                 report = oscard.bind(golfie)(report, option);
                 return zuuluu;
- 416:
+ 409:
                 oscard = entity.logger;
                 report = oscard.log;
                 entity = 'Skipping message send because send_fail_100 is enabled';

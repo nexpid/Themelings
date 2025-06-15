@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            golfie = entity.contents;
+            oscard = entity.contents;
             report = entity.content;
             verify = entity.start;
             option = entity.end;
@@ -123,23 +123,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.DismissibleContent;
-            oscard = michal[report];
+            zuuluu = michal[report];
+            golfie = _closure1_slot1;
             michal = 9;
             michal = offset[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.toggleDismissibleContentDismissState;
-            offset = null;
-            if(!(offset == golfie)) { _fun00002_ip = 111; continue _fun00001 }
- 83:
-            offset = global;
-            offset = offset.Uint8Array;
-            yankee = offset.prototype;
-            yankee = Object.create(yankee, {constructor: {value: offset}});
-            backup = yankee;
-            offset = new backup[offset](foxtra);
-            golfie = offset instanceof Object ? offset : yankee;
- 111:
-            michal = michal.bind(zuuluu)(oscard, golfie);
+            michal = golfie.bind(tangon)(michal);
+            golfie = null;
+            if(!(golfie == oscard)) { _fun00002_ip = 109; continue _fun00001 }
+ 81:
+            golfie = global;
+            golfie = golfie.Uint8Array;
+            offset = golfie.prototype;
+            offset = Object.create(offset, {constructor: {value: golfie}});
+            foxtra = offset;
+            golfie = new foxtra[golfie](romeon);
+            oscard = golfie instanceof Object ? golfie : offset;
+ 109:
+            michal = michal.bind(tangon)(zuuluu, oscard);
             oscard = michal.isDismissed;
             golfie = michal.handleToggleDismissState;
             zuuluu = _closure1_slot8;

@@ -86,32 +86,32 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             entity['location'] = option;
             entity = tangon.bind(golfie)(entity);
             tangon = !michal;
-            if(tangon) { _fun00002_ip = 132; continue _fun00001 }
- 129:
+            if(tangon) { _fun00002_ip = 134; continue _fun00001 }
+ 131:
             tangon = !entity;
- 132:
+ 134:
             entity = !tangon;
-            if(!tangon) { _fun00002_ip = 177; continue _fun00001 }
- 138:
-            if(michal) { _fun00002_ip = 168; continue _fun00001 }
- 141:
+            if(!tangon) { _fun00002_ip = 179; continue _fun00001 }
+ 140:
+            if(michal) { _fun00002_ip = 170; continue _fun00001 }
+ 143:
             tangon = null;
             tangon = tangon == oscard;
             report = undefined;
-            if(tangon) { _fun00002_ip = 162; continue _fun00001 }
- 152:
+            if(tangon) { _fun00002_ip = 164; continue _fun00001 }
+ 154:
             tangon = oscard.isStaff;
             report = tangon.bind(oscard)();
- 162:
+ 164:
             tangon = true;
             michal = tangon === report;
- 168:
-            if(!michal) { _fun00002_ip = 174; continue _fun00001 }
- 171:
+ 170:
+            if(!michal) { _fun00002_ip = 176; continue _fun00001 }
+ 173:
             michal = zuuluu;
- 174:
+ 176:
             entity = michal;
- 177:
+ 179:
             return entity;
         }
     };

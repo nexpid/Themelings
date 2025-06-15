@@ -94,8 +94,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['glowMask'] = michal;
         michal = {'width': '150%', 'height': '150%', 'position': 'absolute', 'top': '-25%', 'left': '-25%', 'zIndex': 0, 'opacity': 0.8};
         entity['glowLottie'] = michal;
+        zuuluu = 'none';
         michal = {'zIndex': 4, 'position': 'absolute', 'pointerEvents': 'none', 'width': '175%', 'height': '175%', 'top': '-43%', 'left': '-38%'};
         entity['trinketsLottie'] = michal;
+        michal = {};
+        michal['pointerEvents'] = zuuluu;
+        entity['glowAnimation'] = michal;
         return entity;
     };
     tangon = golfie.bind(option)(tangon);
@@ -258,7 +262,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = _closure1_slot13;
         report['exiting'] = oscard;
         oscard = _closure1_slot4;
-        oscard = oscard.absoluteFill;
+        option = oscard.absoluteFill;
+        oscard = new Array(2);
+        oscard[0] = option;
+        option = offset.glowAnimation;
+        oscard[1] = option;
         report['style'] = oscard;
         foxtra = false;
         report['collapsable'] = foxtra;

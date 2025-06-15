@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00004_ip = 343; continue _fun00003 }
+            if(michal) { _fun00004_ip = 345; continue _fun00003 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 343:
+ 345:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -275,10 +275,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  192:
             report = oscard;
  195:
-            if(report) { _fun00010_ip = 378; continue _fun00009 }
+            if(report) { _fun00010_ip = 380; continue _fun00009 }
  201:
             report = 0;
-            if(!(!(verify <= report))) { _fun00010_ip = 378; continue _fun00009 }
+            if(!(!(verify <= report))) { _fun00010_ip = 380; continue _fun00009 }
  210:
             report = global;
             oscard = report.Date;
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity = true;
             entity = tangon.bind(report)(zuuluu, michal, entity);
- 378:
+ 380:
             entity = undefined;
             return entity;
         }

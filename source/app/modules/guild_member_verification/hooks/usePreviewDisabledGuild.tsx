@@ -113,12 +113,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = oscard.bind(golfie)(michal, report);
             michal = null;
-            if(!(michal == entity)) { _fun00002_ip = 199; continue _fun00001 }
- 133:
+            if(!(michal == entity)) { _fun00002_ip = 205; continue _fun00001 }
+ 139:
             report = michal != tangon;
             michal = null;
-            if(!report) { _fun00002_ip = 196; continue _fun00001 }
- 142:
+            if(!report) { _fun00002_ip = 202; continue _fun00001 }
+ 148:
             report = _closure1_slot4;
             zuuluu = {};
             foxtra = zuuluu;
@@ -133,9 +133,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = zuuluu;
             zuuluu = new backup[report](foxtra, romeon);
             michal = zuuluu instanceof Object ? zuuluu : tangon;
- 196:
+ 202:
             entity = michal;
- 199:
+ 205:
             return entity;
         }
     };

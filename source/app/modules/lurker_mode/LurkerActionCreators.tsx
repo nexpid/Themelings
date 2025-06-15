@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     option = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 165; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 169; continue _fun00001 }
  15:
                     var _closure4_slot0 = option;
                     report = _closure1_slot5;
@@ -47,8 +47,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = report.bind(oscard)(tangon);
                     report = oscard.length;
                     tangon = 0;
-                    if(!(tangon !== report)) { _fun00002_ip = 157; continue _fun00001 }
- 62:
+                    if(!(tangon !== report)) { _fun00002_ip = 161; continue _fun00001 }
+ 64:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
                     zuuluu = 4;
@@ -152,18 +152,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.bind(golfie)();
                     michal = report.bind(oscard)(michal);
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=151);
- 149:
+                    SaveGenerator(address=155);
+ 153:
                     return michal;
- 151:
+ 155:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 162; continue _fun00001 }
- 157:
+                    if(zuuluu) { _fun00002_ip = 166; continue _fun00001 }
+ 161:
                     zuuluu = undefined;
                     return zuuluu;
- 162:
+ 166:
                     return michal;
- 165:
+ 169:
                     return entity;
                 }
             };

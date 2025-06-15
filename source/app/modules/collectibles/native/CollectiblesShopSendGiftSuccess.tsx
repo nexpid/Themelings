@@ -54,11 +54,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = romeon.spacing;
     romeon = romeon.PX_24;
     verify['paddingBottom'] = romeon;
-    romeon = oscard[offset];
-    romeon = yankee.bind(entity)(romeon);
-    romeon = romeon.radii;
-    romeon = romeon.xl;
-    verify['borderRadius'] = romeon;
     romeon = 'center';
     verify['alignItems'] = romeon;
     tangon['alertContainer'] = verify;

@@ -92,8 +92,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.bind(option)(entity, zuuluu);
             entity = null;
             michal = entity != michal;
-            if(!michal) { _fun00002_ip = 267; continue _fun00001 }
- 157:
+            if(!michal) { _fun00002_ip = 271; continue _fun00001 }
+ 161:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -117,7 +117,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['header'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 267:
+ 271:
             return entity;
         }
     };

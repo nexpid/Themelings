@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = ctrled[sizing];
             sizing = result.bind(tangon)(sizing);
             result = sizing.Text;
-            sizing = {'variant': 'text-md/normal', 'lineClamp': 2, 'color': 'text-primary'};
+            sizing = {'variant': 'text-md/normal', 'lineClamp': 5, 'color': 'text-primary'};
             source = _closure1_slot1;
             update = 17;
             update = ctrled[update];

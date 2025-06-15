@@ -202,13 +202,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = michal.bind(zuuluu)(entity);
                         entity = null;
                         michal = entity == zuuluu;
-                        if(michal) { _fun00006_ip = 56; continue _fun00005 }
- 42:
+                        if(michal) { _fun00006_ip = 57; continue _fun00005 }
+ 43:
                         michal = {};
                         michal['activity'] = tangon;
                         michal['application'] = zuuluu;
                         entity = michal;
- 56:
+ 57:
                         return entity;
                     }
                 };

@@ -164,24 +164,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
-    option = report.bind(entity)(tangon);
-    golfie = option.createStyles;
+    verify = report.bind(entity)(tangon);
+    option = verify.createStyles;
+    golfie = {};
     tangon = {};
-    verify = {};
     offset = 'center';
-    verify['textAlign'] = offset;
+    tangon['textAlign'] = offset;
     offset = 4;
     offset = oscard[offset];
     offset = yankee.bind(entity)(offset);
     offset = offset.spacing;
     offset = offset.PX_32;
-    verify['marginHorizontal'] = offset;
-    tangon['title'] = verify;
-    verify = {'width': '80%', 'borderBottomWidth': 1, 'borderColor': 'rgba(255, 255, 255, 0.15)', 'marginTop': 16, 'marginBottom': 16};
-    tangon['divider'] = verify;
-    tangon = golfie.bind(option)(tangon);
-    var _closure1_slot9 = tangon;
-    tangon = 15;
+    tangon['marginHorizontal'] = offset;
+    golfie['title'] = tangon;
+    tangon = 16;
+    offset = {'width': '80%', 'borderBottomWidth': 1, 'borderColor': 'rgba(255, 255, 255, 0.15)', 'marginTop': 16, 'marginBottom': 16};
+    golfie['divider'] = offset;
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot9 = golfie;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -191,69 +191,96 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            option = entity.quest;
-            var _closure2_slot0 = option;
+            tangon = entity.quest;
+            var _closure2_slot0 = tangon;
             golfie = entity.product;
             report = entity.onSuccess;
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
+            option = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             entity = 12;
-            michal = michal[entity];
+            zuuluu = zuuluu[entity];
             entity = undefined;
-            verify = zuuluu.bind(entity)(michal);
-            zuuluu = verify.getQuestLogger;
-            michal = {};
+            verify = option.bind(entity)(zuuluu);
+            option = verify.getQuestLogger;
+            zuuluu = {};
             offset = _closure1_slot4;
             offset = offset.QUEST_HOME_MOBILE;
-            michal['location'] = offset;
-            offset = zuuluu.bind(verify)(michal);
-            verify = null;
-            if(!(verify == golfie)) { _fun00004_ip = 106; continue _fun00003 }
+            zuuluu['location'] = offset;
+            verify = option.bind(verify)(zuuluu);
+            offset = null;
+            if(!(offset == golfie)) { _fun00004_ip = 106; continue _fun00003 }
  85:
-            zuuluu = offset.warn;
-            michal = 'Product is null';
-            michal = zuuluu.bind(offset)(michal);
-            _fun00004_ip = 283; continue _fun00003;
+            option = verify.warn;
+            zuuluu = 'Product is null';
+            zuuluu = option.bind(verify)(zuuluu);
+            _fun00004_ip = 384; continue _fun00003;
  106:
-            michal = {};
-            offset = golfie.styles;
-            yankee = verify == offset;
-            zuuluu = undefined;
-            if(yankee) { _fun00004_ip = 129; continue _fun00003 }
- 123:
-            zuuluu = offset.buttonColors;
- 129:
-            if(!(verify == zuuluu)) { _fun00004_ip = 137; continue _fun00003 }
- 133:
-            zuuluu = new Array(0);
- 137:
-            michal['buttonColors'] = zuuluu;
-            offset = golfie.styles;
-            yankee = verify == offset;
-            zuuluu = undefined;
-            if(yankee) { _fun00004_ip = 163; continue _fun00003 }
- 157:
-            zuuluu = offset.confettiColors;
- 163:
-            if(!(verify == zuuluu)) { _fun00004_ip = 171; continue _fun00003 }
- 167:
-            zuuluu = new Array(0);
- 171:
-            michal['confettiColors'] = zuuluu;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            zuuluu = 13;
+            zuuluu = verify[zuuluu];
+            verify = option.bind(entity)(zuuluu);
+            option = verify.getIsQuestBrandColorRemovalExperimentEnabled;
+            zuuluu = {};
+            yankee = tangon.config;
+            zuuluu['questConfig'] = yankee;
+            yankee = _closure1_slot4;
+            yankee = yankee.COLLECTIBLE_REWARD_MODAL;
+            zuuluu['location'] = yankee;
+            verify = option.bind(verify)(zuuluu);
+            zuuluu = {};
+            yankee = golfie.styles;
+            romeon = offset == yankee;
+            option = undefined;
+            if(romeon) { _fun00004_ip = 186; continue _fun00003 }
+ 180:
+            option = yankee.buttonColors;
+ 186:
+            if(!(offset == option)) { _fun00004_ip = 194; continue _fun00003 }
+ 190:
+            option = new Array(0);
+ 194:
+            zuuluu['buttonColors'] = option;
+            yankee = golfie.styles;
+            romeon = offset == yankee;
+            option = undefined;
+            if(romeon) { _fun00004_ip = 220; continue _fun00003 }
+ 214:
+            option = yankee.confettiColors;
+ 220:
+            if(!(offset == option)) { _fun00004_ip = 228; continue _fun00003 }
+ 224:
+            option = new Array(0);
+ 228:
+            zuuluu['confettiColors'] = option;
+            offset = _closure1_slot1;
+            yankee = _closure1_slot2;
+            option = 14;
+            option = yankee[option];
+            option = offset.bind(entity)(option);
+            if(verify) { _fun00004_ip = 274; continue _fun00003 }
+ 256:
+            tangon = tangon.config;
+            tangon = tangon.colors;
+            tangon = tangon.primary;
+            _fun00004_ip = 305; continue _fun00003;
+ 274:
+            offset = _closure1_slot1;
+            yankee = _closure1_slot2;
+            verify = 4;
+            verify = yankee[verify];
+            verify = offset.bind(entity)(verify);
+            verify = verify.unsafe_rawColors;
+            tangon = verify.PRIMARY_330;
+ 305:
+            option = option.bind(entity)(tangon);
+            tangon = new Array(1);
+            tangon[0] = option;
+            zuuluu['backgroundColors'] = tangon;
+            golfie['styles'] = zuuluu;
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
-            verify = 13;
-            verify = tangon[verify];
-            verify = zuuluu.bind(entity)(verify);
-            option = option.config;
-            option = option.colors;
-            option = option.primary;
-            verify = verify.bind(entity)(option);
-            option = new Array(1);
-            option[0] = verify;
-            michal['backgroundColors'] = option;
-            golfie['styles'] = michal;
-            michal = 14;
+            michal = 15;
             michal = tangon[michal];
             tangon = zuuluu.bind(entity)(michal);
             zuuluu = tangon.open;
@@ -272,7 +299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['renderMessages'] = oscard;
             michal['onSuccess'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 283:
+ 384:
             return entity;
         }
     };

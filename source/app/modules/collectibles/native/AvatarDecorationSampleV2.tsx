@@ -1,0 +1,170 @@
+// app/modules/collectibles/native/AvatarDecorationSampleV2.tsx
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    golfie = oscard[entity];
+    tangon = argCor;
+    entity = undefined;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.Image;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.View;
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot5 = golfie;
+    golfie = tangon.Fragment;
+    var _closure1_slot6 = golfie;
+    tangon = tangon.jsxs;
+    var _closure1_slot7 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createStyles;
+    tangon = function(argFoo) {
+        report = argFoo;
+        entity = {};
+        michal = {};
+        zuuluu = 'absolute';
+        michal['position'] = zuuluu;
+        tangon = 0.8333333333333334;
+        oscard = report * tangon;
+        michal['height'] = oscard;
+        oscard = report * tangon;
+        michal['width'] = oscard;
+        report = report * tangon;
+        tangon = 2;
+        tangon = report / tangon;
+        michal['borderRadius'] = tangon;
+        entity['avatar'] = michal;
+        michal = {};
+        michal['position'] = zuuluu;
+        entity['avatarDecoration'] = michal;
+        michal = {};
+        zuuluu = 0.4;
+        michal['opacity'] = zuuluu;
+        entity['purchased'] = michal;
+        return entity;
+    };
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot8 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/collectibles/native/AvatarDecorationSampleV2.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: _default
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = argFoo;
+            backup = entity.item;
+            foxtra = entity.size;
+            option = entity.avatarSource;
+            romeon = entity.animate;
+            yankee = entity.isPurchased;
+            entity = entity.bundle;
+            entity = _closure1_slot8;
+            tangon = undefined;
+            kiloes = entity.bind(tangon)(foxtra);
+            michal = _closure1_slot1;
+            oscard = _closure1_slot2;
+            entity = 4;
+            entity = oscard[entity];
+            zuuluu = michal.bind(tangon)(entity);
+            michal = backup.type;
+            report = _closure1_slot0;
+            entity = 5;
+            entity = oscard[entity];
+            entity = report.bind(tangon)(entity);
+            entity = entity.CollectiblesItemType;
+            entity = entity.AVATAR_DECORATION;
+            michal = michal === entity;
+            entity = 'Item cannot be undefined';
+            entity = zuuluu.bind(tangon)(michal, entity);
+            zuuluu = _closure1_slot7;
+            michal = _closure1_slot6;
+            entity = {};
+            golfie = _closure1_slot5;
+            oscard = _closure1_slot3;
+            report = {};
+            sizing = kiloes.avatar;
+            offset = new Array(2);
+            offset[0] = sizing;
+            sizing = yankee;
+            if(!yankee) { _fun00002_ip = 166; continue _fun00001 }
+ 160:
+            sizing = kiloes.purchased;
+ 166:
+            offset[1] = sizing;
+            report['style'] = offset;
+            offset = 'contain';
+            report['resizeMode'] = offset;
+            offset = null;
+            if(!(offset == option)) { _fun00002_ip = 209; continue _fun00001 }
+ 189:
+            sizing = _closure1_slot1;
+            output = _closure1_slot2;
+            offset = 6;
+            offset = output[offset];
+            option = sizing.bind(tangon)(offset);
+ 209:
+            report['source'] = option;
+            oscard = golfie.bind(tangon)(oscard, report);
+            report = new Array(2);
+            report[0] = oscard;
+            option = _closure1_slot5;
+            golfie = _closure1_slot4;
+            oscard = {};
+            sizing = kiloes.avatarDecoration;
+            offset = new Array(2);
+            offset[0] = sizing;
+            if(!yankee) { _fun00002_ip = 260; continue _fun00001 }
+ 254:
+            yankee = kiloes.purchased;
+ 260:
+            offset[1] = yankee;
+            oscard['style'] = offset;
+            yankee = _closure1_slot5;
+            offset = _closure1_slot1;
+            kiloes = _closure1_slot2;
+            verify = 7;
+            verify = kiloes[verify];
+            offset = offset.bind(tangon)(verify);
+            verify = {};
+            verify['avatarDecoration'] = backup;
+            verify['size'] = foxtra;
+            verify['animate'] = romeon;
+            verify = yankee.bind(tangon)(offset, verify);
+            oscard['children'] = verify;
+            oscard = option.bind(tangon)(golfie, oscard);
+            report[1] = oscard;
+            entity['children'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['default'] = michal;
+    michal = 0.8333333333333334;
+    zuuluu['avatarPlaceholderSizeRatio'] = michal;
+    return entity;
+})();

@@ -34,7 +34,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.EMPTY_STRING_SNOWFLAKE_ID;
     var _closure1_slot6 = tangon;
-    tangon = 11;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -124,17 +124,17 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             michal[0] = offset;
             yankee = verify == option;
             offset = undefined;
-            if(yankee) { _fun00002_ip = 289; continue _fun00001 }
- 283:
+            if(yankee) { _fun00002_ip = 290; continue _fun00001 }
+ 284:
             offset = option.overlay;
- 289:
+ 290:
             michal[1] = offset;
             verify = verify == option;
             golfie = undefined;
-            if(verify) { _fun00002_ip = 308; continue _fun00001 }
- 302:
+            if(verify) { _fun00002_ip = 309; continue _fun00001 }
+ 303:
             golfie = option.overlaySyncedWithUserTheme;
- 308:
+ 309:
             michal[2] = golfie;
             michal[3] = oscard;
             michal[4] = report;
@@ -182,7 +182,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  93:
                     zuuluu = _closure1_slot0;
                     option = _closure1_slot2;
-                    entity = 7;
+                    entity = 8;
                     entity = option[entity];
                     zuuluu = zuuluu.bind(oscard)(entity);
                     entity = zuuluu.calculateOverlayedColor;
@@ -190,7 +190,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  128:
                     report = _closure1_slot0;
                     entity = _closure1_slot2;
-                    option = 7;
+                    option = 8;
                     entity = entity[option];
                     report = report.bind(oscard)(entity);
                     entity = report.getProfileTheme;
@@ -205,13 +205,13 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
  179:
                     golfie = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    entity = 8;
+                    entity = 9;
                     entity = yankee[entity];
                     entity = golfie.bind(oscard)(entity);
                     verify = entity.bind(oscard)(tangon);
                     golfie = verify.set;
                     tangon = _closure1_slot0;
-                    entity = 9;
+                    entity = 10;
                     entity = yankee[entity];
                     tangon = tangon.bind(oscard)(entity);
                     entity = tangon.isThemeLight;
@@ -236,16 +236,16 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     entity['theme'] = tangon;
                     tangon = michal != report;
                     michal = null;
-                    if(!tangon) { _fun00004_ip = 355; continue _fun00003 }
- 324:
+                    if(!tangon) { _fun00004_ip = 356; continue _fun00003 }
+ 325:
                     tangon = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    zuuluu = 10;
+                    zuuluu = 11;
                     zuuluu = golfie[zuuluu];
                     tangon = tangon.bind(oscard)(zuuluu);
                     zuuluu = tangon.int2hex;
                     michal = zuuluu.bind(tangon)(report);
- 355:
+ 356:
                     entity['primaryColor'] = michal;
                     return entity;
                 }

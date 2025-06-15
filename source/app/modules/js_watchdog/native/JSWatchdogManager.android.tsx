@@ -125,10 +125,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = offset.includes;
         option = 'dev';
         option = verify.bind(offset)(option);
-        if(!tangon) { _fun00002_ip = 373; continue _fun00001 }
- 370:
+        if(!tangon) { _fun00002_ip = 374; continue _fun00001 }
+ 371:
         tangon = !option;
- 373:
+ 374:
         var _closure1_slot13 = tangon;
         tangon = 17;
         tangon = oscard[tangon];

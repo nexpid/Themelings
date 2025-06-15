@@ -1,10 +1,12 @@
 // app/modules/profile_customization/native/Banner.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -21,9 +23,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.View;
-    var _closure1_slot2 = golfie;
-    tangon = tangon.ImageBackground;
+    tangon = tangon.View;
     var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon['image'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             offset = zuuluu.bind(tangon)();
             option = {};
             report = _closure1_slot0;
-            romeon = _closure1_slot1;
+            romeon = _closure1_slot2;
             zuuluu = 5;
             zuuluu = romeon[zuuluu];
             report = report.bind(tangon)(zuuluu);
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity = entity + michal;
             option['height'] = entity;
             zuuluu = _closure1_slot5;
-            michal = _closure1_slot2;
+            michal = _closure1_slot3;
             entity = {};
             yankee = offset.root;
             report = new Array(3);
@@ -96,16 +96,20 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity['style'] = report;
             report = null;
             golfie = report != verify;
-            if(!golfie) { _fun00002_ip = 181; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 197; continue _fun00001 }
  151:
             option = _closure1_slot5;
-            golfie = _closure1_slot3;
+            golfie = _closure1_slot1;
+            yankee = _closure1_slot2;
+            oscard = 6;
+            oscard = yankee[oscard];
+            golfie = golfie.bind(tangon)(oscard);
             oscard = {};
             offset = offset.image;
             oscard['style'] = offset;
             oscard['source'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 181:
+ 197:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

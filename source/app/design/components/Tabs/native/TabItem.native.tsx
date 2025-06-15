@@ -381,10 +381,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing[0] = output;
             output = {};
             result = 0;
-            if(!echoed) { _fun00004_ip = 250; continue _fun00003 }
- 247:
+            if(!echoed) { _fun00004_ip = 248; continue _fun00003 }
+ 245:
             result = 1;
- 250:
+ 248:
             output['flexGrow'] = result;
             sizing[1] = output;
             entity['style'] = sizing;
@@ -430,8 +430,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = option;
             option = report != foxtra;
             report = null;
-            if(!option) { _fun00004_ip = 421; continue _fun00003 }
- 387:
+            if(!option) { _fun00004_ip = 417; continue _fun00003 }
+ 383:
             verify = _closure1_slot4;
             option = _closure1_slot15;
             golfie = {};
@@ -440,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['activeIndex'] = yankee;
             golfie['pressed'] = offset;
             report = verify.bind(tangon)(option, golfie);
- 421:
+ 417:
             oscard[1] = report;
             report = 'children';
             entity[report] = oscard;

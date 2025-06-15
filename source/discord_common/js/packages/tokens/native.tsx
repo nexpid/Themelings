@@ -23,22 +23,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = michal.Themes;
     var _closure1_slot3 = oscard;
     michal = 1;
-    tangon = offset[michal];
-    tangon = verify.bind(entity)(tangon);
-    tangon = tangon._private;
-    tangon = tangon.SemanticColors;
+    michal = offset[michal];
+    michal = verify.bind(entity)(michal);
+    michal = michal._private;
+    tangon = michal.SemanticColors;
     var _closure1_slot4 = tangon;
+    michal = 2;
     michal = offset[michal];
     michal = verify.bind(entity)(michal);
     michal = michal._private;
     report = michal.RawColors;
     var _closure1_slot5 = report;
-    michal = 2;
+    michal = 3;
     michal = offset[michal];
     michal = verify.bind(entity)(michal);
     michal = michal._private;
     michal = michal.Shadows;
-    option = 3;
+    option = 4;
     option = offset[option];
     option = verify.bind(entity)(option);
     option = option._private;
@@ -49,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = golfie;
     golfie = {};
     golfie['themes'] = oscard;
-    romeon = 4;
+    romeon = 5;
     backup = offset[romeon];
     kiloes = foxtra.bind(entity)(backup);
     backup = function(argFoo, argBar) {
@@ -136,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     romeon = foxtra.bind(entity)(michal, romeon);
     golfie['shadows'] = romeon;
-    romeon = 5;
+    romeon = 6;
     romeon = offset[romeon];
     romeon = verify.bind(entity)(romeon);
     romeon = romeon.Radius;
@@ -224,127 +225,127 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  172:
             romeon = oscard;
             tangon = entity;
-            if(!(zuuluu != verify)) { _fun00006_ip = 441; continue _fun00005 }
+            if(!(zuuluu != verify)) { _fun00006_ip = 442; continue _fun00005 }
  185:
             verify = 'gradient';
             verify = verify in option;
             romeon = oscard;
             tangon = entity;
-            if(!verify) { _fun00006_ip = 441; continue _fun00005 }
+            if(!verify) { _fun00006_ip = 442; continue _fun00005 }
  205:
             verify = option.gradient;
             foxtra = zuuluu == golfie;
             option = undefined;
-            if(foxtra) { _fun00006_ip = 231; continue _fun00005 }
+            if(foxtra) { _fun00006_ip = 232; continue _fun00005 }
  220:
             foxtra = golfie.gradient;
             option = foxtra.theme;
- 231:
+ 232:
             option = verify[option];
             romeon = oscard;
             tangon = entity;
-            if(!(zuuluu != option)) { _fun00006_ip = 441; continue _fun00005 }
- 248:
+            if(!(zuuluu != option)) { _fun00006_ip = 442; continue _fun00005 }
+ 249:
             oscard = _closure1_slot1;
             verify = _closure1_slot2;
-            entity = 6;
+            entity = 7;
             entity = verify[entity];
             oscard = oscard.bind(report)(entity);
             verify = option.color;
             entity = _closure1_slot5;
             entity = verify in entity;
-            if(entity) { _fun00006_ip = 315; continue _fun00005 }
- 284:
+            if(entity) { _fun00006_ip = 316; continue _fun00005 }
+ 285:
             verify = zuuluu == golfie;
             entity = undefined;
-            if(verify) { _fun00006_ip = 313; continue _fun00005 }
- 293:
+            if(verify) { _fun00006_ip = 314; continue _fun00005 }
+ 294:
             verify = golfie.gradient;
             foxtra = verify.colors;
             verify = option.color;
             entity = foxtra[verify];
- 313:
-            _fun00006_ip = 328; continue _fun00005;
- 315:
+ 314:
+            _fun00006_ip = 329; continue _fun00005;
+ 316:
             foxtra = _closure1_slot5;
             verify = option.color;
             entity = foxtra[verify];
- 328:
+ 329:
             foxtra = oscard.bind(report)(entity);
             entity = 'saturation';
             entity = entity in option;
             backup = foxtra;
-            if(!entity) { _fun00006_ip = 370; continue _fun00005 }
- 347:
+            if(!entity) { _fun00006_ip = 371; continue _fun00005 }
+ 348:
             verify = foxtra.set;
             oscard = option.saturation;
             entity = 'hsl.s';
             backup = verify.bind(foxtra)(entity, oscard);
- 370:
+ 371:
             entity = 'lightness';
             entity = entity in option;
             oscard = backup;
-            if(!entity) { _fun00006_ip = 407; continue _fun00005 }
- 384:
+            if(!entity) { _fun00006_ip = 408; continue _fun00005 }
+ 385:
             foxtra = backup.set;
             verify = option.lightness;
             entity = 'hsl.l';
             oscard = foxtra.bind(backup)(entity, verify);
- 407:
+ 408:
             entity = oscard.hex;
             oscard = entity.bind(oscard)();
             entity = 'opacity';
             verify = entity in option;
             entity = 1;
-            if(!verify) { _fun00006_ip = 435; continue _fun00005 }
- 430:
+            if(!verify) { _fun00006_ip = 436; continue _fun00005 }
+ 431:
             entity = option.opacity;
- 435:
+ 436:
             tangon = entity;
             romeon = oscard;
- 441:
+ 442:
             oscard = zuuluu == golfie;
             entity = undefined;
-            if(oscard) { _fun00006_ip = 456; continue _fun00005 }
- 450:
+            if(oscard) { _fun00006_ip = 457; continue _fun00005 }
+ 451:
             entity = golfie.contrast;
- 456:
+ 457:
             option = zuuluu != entity;
             oscard = 1;
             verify = oscard;
-            if(!option) { _fun00006_ip = 472; continue _fun00005 }
- 469:
+            if(!option) { _fun00006_ip = 473; continue _fun00005 }
+ 470:
             verify = entity;
- 472:
+ 473:
             option = zuuluu == golfie;
             entity = undefined;
-            if(option) { _fun00006_ip = 487; continue _fun00005 }
- 481:
+            if(option) { _fun00006_ip = 488; continue _fun00005 }
+ 482:
             entity = golfie.saturation;
- 487:
+ 488:
             zuuluu = zuuluu != entity;
             golfie = oscard;
-            if(!zuuluu) { _fun00006_ip = 500; continue _fun00005 }
- 497:
+            if(!zuuluu) { _fun00006_ip = 501; continue _fun00005 }
+ 498:
             golfie = entity;
- 500:
+ 501:
             option = romeon;
-            if(!(golfie < oscard)) { _fun00006_ip = 540; continue _fun00005 }
- 507:
+            if(!(golfie < oscard)) { _fun00006_ip = 541; continue _fun00005 }
+ 508:
             zuuluu = _closure1_slot0;
             foxtra = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = foxtra[entity];
             zuuluu = zuuluu.bind(report)(entity);
             entity = zuuluu.transformColorForReducedSaturation;
             option = entity.bind(zuuluu)(romeon, offset, golfie);
- 540:
+ 541:
             zuuluu = option;
-            if(!(oscard !== verify)) { _fun00006_ip = 592; continue _fun00005 }
- 547:
+            if(!(oscard !== verify)) { _fun00006_ip = 593; continue _fun00005 }
+ 548:
             golfie = _closure1_slot0;
             romeon = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = romeon[entity];
             golfie = golfie.bind(report)(entity);
             entity = golfie.transformColorContrast;
@@ -354,13 +355,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = yankee;
             kiloes = verify;
             zuuluu = echoed[entity](result, output, sizing, kiloes, backup);
- 592:
+ 593:
             entity = zuuluu;
-            if(!(oscard !== tangon)) { _fun00006_ip = 644; continue _fun00005 }
- 599:
+            if(!(oscard !== tangon)) { _fun00006_ip = 645; continue _fun00005 }
+ 600:
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
-            michal = 6;
+            michal = 7;
             michal = golfie[michal];
             michal = oscard.bind(report)(michal);
             zuuluu = michal.bind(report)(zuuluu);
@@ -368,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = michal.bind(zuuluu)(tangon);
             michal = zuuluu.hex;
             entity = michal.bind(zuuluu)();
- 644:
+ 645:
             return entity;
         }
     };
@@ -376,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = function(argFoo, argBar, argBaz) { // Original name: adjustColorSaturation
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
-        entity = 7;
+        entity = 8;
         michal = michal[entity];
         entity = undefined;
         report = zuuluu.bind(entity)(michal);
@@ -391,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = function(argFoo, argBar, argBaz, argCor) { // Original name: adjustColorContrast
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
-        entity = 7;
+        entity = 8;
         michal = michal[entity];
         entity = undefined;
         oscard = zuuluu.bind(entity)(michal);
@@ -406,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     option['adjustColorContrast'] = yankee;
     golfie['internal'] = option;
-    option = 8;
+    option = 9;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;

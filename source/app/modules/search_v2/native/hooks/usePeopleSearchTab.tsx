@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal[entity];
                 entity = undefined;
                 michal = zuuluu.bind(entity)(michal);
-                entity = michal.fetchUserAffinities;
+                entity = michal.fetchUserAffinitiesV2;
                 entity = entity.bind(michal)();
  45:
                 entity = undefined;

@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = oscard[michal];
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = michal.GifAutoPlay;
-            michal = zuuluu.getSetting;
+            michal = zuuluu.useSetting;
             golfie = michal.bind(zuuluu)();
             oscard = _closure1_slot4;
             zuuluu = oscard.useState;

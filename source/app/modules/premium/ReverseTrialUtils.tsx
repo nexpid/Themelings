@@ -230,11 +230,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = entity.bind(zuuluu)();
                 entity = null;
                 zuuluu = entity != golfie;
-                if(!zuuluu) { _fun00004_ip = 93; continue _fun00003 }
- 84:
+                if(!zuuluu) { _fun00004_ip = 91; continue _fun00003 }
+ 82:
                 golfie = golfie.isBoostOnly;
                 zuuluu = !golfie;
- 93:
+ 91:
                 var _closure3_slot1 = zuuluu;
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
@@ -309,10 +309,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 tangon = report.bind(oscard)(tangon);
                 entity = null;
-                if(zuuluu) { _fun00004_ip = 180; continue _fun00003 }
- 177:
+                if(zuuluu) { _fun00004_ip = 174; continue _fun00003 }
+ 171:
                 entity = michal;
- 180:
+ 174:
                 return entity;
             }
         };

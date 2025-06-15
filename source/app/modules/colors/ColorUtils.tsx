@@ -7,17 +7,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot0 = report;
     var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
-    entity = function(argFoo) { // Original name: kebabToShoutingCamelCase
-        michal = argFoo;
-        entity = michal.toUpperCase;
-        tangon = entity.bind(michal)();
-        zuuluu = tangon.replace;
-        michal = /-/g;
-        entity = '_';
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
-    };
-    var _closure1_slot6 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -41,18 +30,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.HEXColors;
     var _closure1_slot5 = tangon;
-    tangon = 8;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/colors/ColorUtils.tsx';
     tangon = report.bind(oscard)(tangon);
     tangon = function(argFoo) { // Original name: getColor
+        zuuluu = argFoo;
         michal = _closure1_slot5;
-        tangon = _closure1_slot6;
-        zuuluu = undefined;
-        entity = argFoo;
-        entity = tangon.bind(zuuluu)(entity);
+        entity = zuuluu.toUpperCase;
+        report = entity.bind(zuuluu)();
+        tangon = report.replace;
+        zuuluu = /-/g;
+        entity = '_';
+        entity = tangon.bind(report)(zuuluu, entity);
         entity = michal[entity];
         return entity;
     };
@@ -78,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useColorValue'] = tangon;
-    tangon = function(argFoo) { // Original name: useDesaturatedColorString
+    michal = function(argFoo) { // Original name: useDesaturatedColorString
         oscard = argFoo;
         var _closure2_slot0 = oscard;
         report = _closure1_slot0;
@@ -148,84 +140,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['useDesaturatedColorString'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: useThemedColorValue
-        option = argFoo;
-        report = argBar;
-        var _closure2_slot0 = option;
-        var _closure2_slot1 = report;
-        golfie = _closure1_slot0;
-        verify = _closure1_slot2;
-        zuuluu = 6;
-        zuuluu = verify[zuuluu];
-        tangon = undefined;
-        oscard = golfie.bind(tangon)(zuuluu);
-        zuuluu = oscard.useTheme;
-        oscard = zuuluu.bind(oscard)();
-        var _closure2_slot2 = oscard;
-        zuuluu = 4;
-        zuuluu = verify[zuuluu];
-        verify = golfie.bind(tangon)(zuuluu);
-        golfie = verify.useStateFromStores;
-        zuuluu = _closure1_slot4;
-        tangon = new Array(1);
-        tangon[0] = zuuluu;
-        zuuluu = function() {
-            entity = _closure1_slot4;
-            entity = entity.saturation;
-            return entity;
-        };
-        golfie = golfie.bind(verify)(tangon, zuuluu);
-        var _closure2_slot3 = golfie;
-        tangon = _closure1_slot3;
-        zuuluu = tangon.useMemo;
-        michal = new Array(4);
-        michal[0] = option;
-        michal[1] = golfie;
-        michal[2] = oscard;
-        michal[3] = report;
-        entity = function() {
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-                entity = _closure2_slot0;
-                verify = null;
-                michal = verify == entity;
-                entity = null;
-                if(michal) { _fun00006_ip = 110; continue _fun00005 }
- 18:
-                michal = {};
-                report = _closure1_slot0;
-                oscard = _closure1_slot2;
-                tangon = 7;
-                tangon = oscard[tangon];
-                option = undefined;
-                oscard = report.bind(option)(tangon);
-                report = oscard.getResolvedSemanticColor;
-                tangon = _closure1_slot6;
-                zuuluu = _closure2_slot0;
-                tangon = tangon.bind(option)(zuuluu);
-                zuuluu = {};
-                option = _closure2_slot1;
-                if(!(verify == option)) { _fun00006_ip = 80; continue _fun00005 }
- 74:
-                option = _closure2_slot2;
-                _fun00006_ip = 84; continue _fun00005;
- 80:
-                option = _closure2_slot1;
- 84:
-                zuuluu['theme'] = option;
-                golfie = _closure2_slot3;
-                zuuluu['saturation'] = golfie;
-                zuuluu = report.bind(oscard)(tangon, zuuluu);
-                michal['hex'] = zuuluu;
-                entity = michal;
- 110:
-                return entity;
-            }
-        };
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
-    };
-    zuuluu['useThemedColorValue'] = michal;
+    zuuluu['useDesaturatedColorString'] = michal;
     return entity;
 })();

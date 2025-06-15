@@ -164,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             limora = michal.bind(tangon)(entity);
             backup = null;
-            if(!(backup != limora)) { _fun00006_ip = 4532; continue _fun00005 }
+            if(!(backup != limora)) { _fun00006_ip = 4569; continue _fun00005 }
  63:
             michal = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = sizing.bind(yankee)(golfie);
             golfie = golfie.CodedLinkType;
             golfie = golfie.INVITE;
-            if(!(option !== golfie)) { _fun00006_ip = 4478; continue _fun00005 }
+            if(!(option !== golfie)) { _fun00006_ip = 4515; continue _fun00005 }
  260:
             option = oscard.type;
             sizing = _closure1_slot0;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = sizing.bind(yankee)(golfie);
             golfie = golfie.CodedLinkType;
             golfie = golfie.TEMPLATE;
-            if(!(option !== golfie)) { _fun00006_ip = 4433; continue _fun00005 }
+            if(!(option !== golfie)) { _fun00006_ip = 4470; continue _fun00005 }
  301:
             option = oscard.type;
             sizing = _closure1_slot0;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = sizing.bind(yankee)(golfie);
             golfie = golfie.CodedLinkType;
             golfie = golfie.BUILD_OVERRIDE;
-            if(!(option !== golfie)) { _fun00006_ip = 4388; continue _fun00005 }
+            if(!(option !== golfie)) { _fun00006_ip = 4425; continue _fun00005 }
  342:
             option = oscard.type;
             sizing = _closure1_slot0;
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = sizing.bind(yankee)(golfie);
             golfie = golfie.CodedLinkType;
             golfie = golfie.MANUAL_BUILD_OVERRIDE;
-            if(!(option !== golfie)) { _fun00006_ip = 4388; continue _fun00005 }
+            if(!(option !== golfie)) { _fun00006_ip = 4425; continue _fun00005 }
  383:
             option = oscard.type;
             sizing = _closure1_slot0;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = golfie.bind(yankee)(limora);
             golfie = verify.length;
             option = 0;
-            if(!(!(golfie > option))) { _fun00006_ip = 4344; continue _fun00005 }
+            if(!(!(golfie > option))) { _fun00006_ip = 4381; continue _fun00005 }
  1023:
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(backup != offset)) { _fun00006_ip = 1071; continue _fun00005 }
  1059:
             golfie = offset.length;
-            if(!(!(golfie > option))) { _fun00006_ip = 4304; continue _fun00005 }
+            if(!(!(golfie > option))) { _fun00006_ip = 4341; continue _fun00005 }
  1071:
             romeon = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -410,9 +410,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = romeon.bind(yankee)(golfie);
             golfie = romeon.isDiscordProtocol;
             golfie = golfie.bind(romeon)(kiloes);
-            if(!golfie) { _fun00006_ip = 2834; continue _fun00005 }
+            if(!golfie) { _fun00006_ip = 2871; continue _fun00005 }
  1139:
-            if(!(backup != whisks)) { _fun00006_ip = 2834; continue _fun00005 }
+            if(!(backup != whisks)) { _fun00006_ip = 2871; continue _fun00005 }
  1146:
             romeon = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -421,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = romeon.bind(yankee)(golfie);
             golfie = romeon.tryParseChannelPath;
             romeon = golfie.bind(romeon)(whisks);
-            if(!(backup == romeon)) { _fun00006_ip = 4191; continue _fun00005 }
+            if(!(backup == romeon)) { _fun00006_ip = 4228; continue _fun00005 }
  1184:
             kiloes = whisks.match;
             golfie = _closure1_slot20;
@@ -430,7 +430,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1203:
             golfie = output.length;
             sizing = 1;
-            if(!(!(golfie > sizing))) { _fun00006_ip = 4147; continue _fun00005 }
+            if(!(!(golfie > sizing))) { _fun00006_ip = 4184; continue _fun00005 }
  1218:
             kiloes = whisks.match;
             golfie = _closure1_slot11;
@@ -439,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1237:
             golfie = echoed.length;
             result = 1;
-            if(!(!(golfie > result))) { _fun00006_ip = 4104; continue _fun00005 }
+            if(!(!(golfie > result))) { _fun00006_ip = 4141; continue _fun00005 }
  1252:
             kiloes = whisks.match;
             golfie = _closure1_slot12;
@@ -459,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = foxtra;
  1310:
             source = kiloes.bind(source)(golfie);
-            if(!(backup == source)) { _fun00006_ip = 4044; continue _fun00005 }
+            if(!(backup == source)) { _fun00006_ip = 4081; continue _fun00005 }
  1322:
             kiloes = whisks.match;
             golfie = _closure1_slot10;
@@ -468,118 +468,128 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1341:
             vacuum = kiloes.length;
             golfie = 1;
-            if(!(!(vacuum > golfie))) { _fun00006_ip = 4001; continue _fun00005 }
+            if(!(!(vacuum > golfie))) { _fun00006_ip = 4038; continue _fun00005 }
  1356:
             sequen = whisks.match;
             vacuum = _closure1_slot9;
             sequen = sequen.bind(whisks)(vacuum);
-            if(!(backup != sequen)) { _fun00006_ip = 2667; continue _fun00005 }
+            if(!(backup != sequen)) { _fun00006_ip = 2704; continue _fun00005 }
  1378:
             record = sequen.length;
             vacuum = 1;
-            if(!(record > vacuum)) { _fun00006_ip = 2667; continue _fun00005 }
+            if(!(record > vacuum)) { _fun00006_ip = 2704; continue _fun00005 }
  1393:
             record = sequen[vacuum];
             vacuum = 'composeMessage';
-            if(!(vacuum !== record)) { _fun00006_ip = 2641; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2678; continue _fun00005 }
  1410:
             vacuum = 'contactSync';
-            if(!(vacuum !== record)) { _fun00006_ip = 2620; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2657; continue _fun00005 }
  1423:
             vacuum = 'addFriends';
-            if(!(vacuum !== record)) { _fun00006_ip = 2599; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2636; continue _fun00005 }
  1436:
             vacuum = 'friends';
-            if(!(vacuum !== record)) { _fun00006_ip = 2546; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2583; continue _fun00005 }
  1447:
             vacuum = 'editProfile';
-            if(!(vacuum !== record)) { _fun00006_ip = 2525; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2562; continue _fun00005 }
  1460:
             vacuum = 'voiceChannel';
-            if(!(vacuum !== record)) { _fun00006_ip = 2431; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2468; continue _fun00005 }
  1471:
             vacuum = 'sessionManagement';
-            if(!(vacuum !== record)) { _fun00006_ip = 2407; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2444; continue _fun00005 }
  1484:
             vacuum = 'home';
-            if(!(vacuum !== record)) { _fun00006_ip = 2330; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2367; continue _fun00005 }
  1495:
             vacuum = 'icymi';
-            if(!(vacuum !== record)) { _fun00006_ip = 2306; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2343; continue _fun00005 }
  1506:
             vacuum = 'connections';
-            if(!(vacuum !== record)) { _fun00006_ip = 2251; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2288; continue _fun00005 }
  1517:
             vacuum = 'family-center';
-            if(!(vacuum !== record)) { _fun00006_ip = 2222; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2259; continue _fun00005 }
  1530:
             vacuum = 'promo-url';
-            if(!(vacuum !== record)) { _fun00006_ip = 2154; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2191; continue _fun00005 }
  1543:
             vacuum = 'account-standing';
-            if(!(vacuum !== record)) { _fun00006_ip = 2125; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2162; continue _fun00005 }
  1556:
             vacuum = 'open-shop';
-            if(!(vacuum !== record)) { _fun00006_ip = 2101; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2138; continue _fun00005 }
  1569:
             vacuum = 'authorized-apps';
-            if(!(vacuum !== record)) { _fun00006_ip = 2077; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 2114; continue _fun00005 }
  1582:
             vacuum = 'share';
-            if(!(vacuum !== record)) { _fun00006_ip = 1850; continue _fun00005 }
+            if(!(vacuum !== record)) { _fun00006_ip = 1887; continue _fun00005 }
  1593:
             vacuum = 'dave-protocol-verification';
-            if(!(vacuum !== record)) { _fun00006_ip = 1706; continue _fun00005 }
- 1603:
+            if(!(vacuum !== record)) { _fun00006_ip = 1743; continue _fun00005 }
+ 1606:
             vacuum = 'gift';
-            if(!(vacuum !== record)) { _fun00006_ip = 1682; continue _fun00005 }
- 1611:
+            if(!(vacuum !== record)) { _fun00006_ip = 1719; continue _fun00005 }
+ 1614:
             vacuum = 'store';
-            if(!(vacuum !== record)) { _fun00006_ip = 1658; continue _fun00005 }
- 1619:
-            sequen = 'connected-games';
+            if(!(vacuum !== record)) { _fun00006_ip = 1695; continue _fun00005 }
+ 1622:
+            vacuum = 'connected-games';
+            if(!(vacuum !== record)) { _fun00006_ip = 1671; continue _fun00005 }
+ 1632:
+            sequen = 'boost-settings';
             vacuum = null;
-            if(!(sequen === record)) { _fun00006_ip = 2660; continue _fun00005 }
- 1634:
+            if(!(sequen === record)) { _fun00006_ip = 2697; continue _fun00005 }
+ 1647:
+            sequen = {};
+            record = _closure1_slot7;
+            record = record.BOOST_SETTINGS;
+            sequen['type'] = record;
+            vacuum = sequen;
+            _fun00006_ip = 2697; continue _fun00005;
+ 1671:
             sequen = {};
             record = _closure1_slot7;
             record = record.CONNECTED_GAMES;
             sequen['type'] = record;
             vacuum = sequen;
-            _fun00006_ip = 2660; continue _fun00005;
- 1658:
+            _fun00006_ip = 2697; continue _fun00005;
+ 1695:
             sequen = {};
             record = _closure1_slot7;
             record = record.NITRO_HOME;
             sequen['type'] = record;
             vacuum = sequen;
-            _fun00006_ip = 2660; continue _fun00005;
- 1682:
+            _fun00006_ip = 2697; continue _fun00005;
+ 1719:
             sequen = {};
             record = _closure1_slot7;
             record = record.GIFT;
             sequen['type'] = record;
             vacuum = sequen;
-            _fun00006_ip = 2660; continue _fun00005;
- 1706:
+            _fun00006_ip = 2697; continue _fun00005;
+ 1743:
             record = _closure1_slot21;
             cntext = backup != foxtra;
             sequen = entity;
-            if(!cntext) { _fun00006_ip = 1723; continue _fun00005 }
- 1720:
+            if(!cntext) { _fun00006_ip = 1760; continue _fun00005 }
+ 1757:
             sequen = foxtra;
- 1723:
+ 1760:
             sequen = record.bind(yankee)(sequen);
             cntext = sequen.userId;
             record = sequen.fingerprint;
             sequen = backup != cntext;
             vacuum = null;
-            if(!sequen) { _fun00006_ip = 2660; continue _fun00005 }
- 1751:
+            if(!sequen) { _fun00006_ip = 2697; continue _fun00005 }
+ 1788:
             sequen = backup != record;
             vacuum = null;
-            if(!sequen) { _fun00006_ip = 2660; continue _fun00005 }
- 1763:
+            if(!sequen) { _fun00006_ip = 2697; continue _fun00005 }
+ 1800:
             status = _closure1_slot0;
             sierra = _closure1_slot2;
             sequen = 14;
@@ -592,8 +602,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sequen = status.bind(sierra)(sequen);
             sequen = sequen.enabled;
             vacuum = null;
-            if(!sequen) { _fun00006_ip = 2660; continue _fun00005 }
- 1817:
+            if(!sequen) { _fun00006_ip = 2697; continue _fun00005 }
+ 1854:
             sequen = {};
             status = _closure1_slot7;
             status = status.DAVE_PROTOCOL_VERIFICATION;
@@ -601,8 +611,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sequen['userId'] = cntext;
             sequen['fingerprint'] = record;
             vacuum = sequen;
-            _fun00006_ip = 2660; continue _fun00005;
- 1850:
+            _fun00006_ip = 2697; continue _fun00005;
+ 1887:
             record = _closure1_slot0;
             cntext = _closure1_slot2;
             sequen = 13;
@@ -611,15 +621,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sequen = record.isIOS;
             sequen = sequen.bind(record)();
             vacuum = null;
-            if(!sequen) { _fun00006_ip = 2660; continue _fun00005 }
- 1888:
+            if(!sequen) { _fun00006_ip = 2697; continue _fun00005 }
+ 1925:
             record = _closure1_slot21;
             cntext = backup != foxtra;
             sequen = entity;
-            if(!cntext) { _fun00006_ip = 1905; continue _fun00005 }
- 1902:
+            if(!cntext) { _fun00006_ip = 1942; continue _fun00005 }
+ 1939:
             sequen = foxtra;
- 1905:
+ 1942:
             record = record.bind(yankee)(sequen);
             status = record.text;
             cntext = record.channelId;
@@ -636,25 +646,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sierra = 'string';
             variable36 = typeof sequen;
             record = undefined;
-            if(!(sierra === variable36)) { _fun00006_ip = 1967; continue _fun00005 }
- 1954:
+            if(!(sierra === variable36)) { _fun00006_ip = 2004; continue _fun00005 }
+ 1991:
             equals = equals.bind(yankee)(sequen);
             record = undefined;
-            if(!equals) { _fun00006_ip = 1967; continue _fun00005 }
- 1964:
+            if(!equals) { _fun00006_ip = 2004; continue _fun00005 }
+ 2001:
             record = sequen;
- 1967:
+ 2004:
             sequen = typeof quebec;
-            if(!(sierra !== sequen)) { _fun00006_ip = 1978; continue _fun00005 }
- 1974:
+            if(!(sierra !== sequen)) { _fun00006_ip = 2015; continue _fun00005 }
+ 2011:
             equals = {};
-            _fun00006_ip = 1997; continue _fun00005;
- 1978:
+            _fun00006_ip = 2034; continue _fun00005;
+ 2015:
             sequen = global;
             sierra = sequen.JSON;
             sequen = sierra.parse;
             equals = sequen.bind(sierra)(quebec);
- 1997:
+ 2034:
             sequen = global;
             sierra = sequen.Object;
             sequen = sierra.entries;
@@ -719,65 +729,65 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update['shareId'] = record;
             update['attachmentManifest'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2077:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2114:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.AUTHORIZED_APPS;
             update['type'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2101:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2138:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.SHOP;
             update['type'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2125:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2162:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.ACCOUNT_STANDING;
             update['type'] = sequen;
             update['pathname'] = whisks;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2154:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2191:
             sequen = _closure1_slot21;
             record = backup != foxtra;
             update = entity;
-            if(!record) { _fun00006_ip = 2171; continue _fun00005 }
- 2168:
+            if(!record) { _fun00006_ip = 2208; continue _fun00005 }
+ 2205:
             update = foxtra;
- 2171:
+ 2208:
             update = sequen.bind(yankee)(update);
             sequen = update.promo_url;
             vacuum = null;
-            if(!(yankee !== sequen)) { _fun00006_ip = 2660; continue _fun00005 }
- 2193:
+            if(!(yankee !== sequen)) { _fun00006_ip = 2697; continue _fun00005 }
+ 2230:
             update = {};
             record = _closure1_slot7;
             record = record.FEATURE_PROMO_URL;
             update['type'] = record;
             update['promoUrl'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2222:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2259:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.FAMILY_CENTER;
             update['type'] = sequen;
             update['pathname'] = whisks;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2251:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2288:
             sequen = _closure1_slot21;
             record = backup != foxtra;
             update = entity;
-            if(!record) { _fun00006_ip = 2268; continue _fun00005 }
- 2265:
+            if(!record) { _fun00006_ip = 2305; continue _fun00005 }
+ 2302:
             update = foxtra;
- 2268:
+ 2305:
             update = sequen.bind(yankee)(update);
             sequen = update.source;
             update = {};
@@ -786,22 +796,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update['type'] = record;
             update['source'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2306:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2343:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.ICYMI;
             update['type'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2330:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2367:
             sequen = _closure1_slot21;
             record = backup != foxtra;
             update = entity;
-            if(!record) { _fun00006_ip = 2347; continue _fun00005 }
- 2344:
+            if(!record) { _fun00006_ip = 2384; continue _fun00005 }
+ 2381:
             update = foxtra;
- 2347:
+ 2384:
             update = sequen.bind(yankee)(update);
             cntext = update.guild_id;
             record = update.highlight_channel_id;
@@ -814,22 +824,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update['highlightChannelId'] = record;
             update['highlightMessageId'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2407:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2444:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.SESSION_MANAGEMENT;
             update['type'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2431:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2468:
             sequen = _closure1_slot21;
             record = backup != foxtra;
             update = entity;
-            if(!record) { _fun00006_ip = 2448; continue _fun00005 }
- 2445:
+            if(!record) { _fun00006_ip = 2485; continue _fun00005 }
+ 2482:
             update = foxtra;
- 2448:
+ 2485:
             update = sequen.bind(yankee)(update);
             sierra = update.guild_id;
             status = update.channel_id;
@@ -846,22 +856,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update['via'] = record;
             update['action'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2525:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2562:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.EDIT_PROFILE;
             update['type'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2546:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2583:
             sequen = _closure1_slot21;
             record = backup != foxtra;
             update = entity;
-            if(!record) { _fun00006_ip = 2563; continue _fun00005 }
- 2560:
+            if(!record) { _fun00006_ip = 2600; continue _fun00005 }
+ 2597:
             update = foxtra;
- 2563:
+ 2600:
             update = sequen.bind(yankee)(update);
             sequen = update.user_id;
             update = {};
@@ -870,89 +880,89 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update['type'] = record;
             update['userId'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2599:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2636:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.ADD_FRIENDS;
             update['type'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2620:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2657:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.CONTACT_SYNC;
             update['type'] = sequen;
             vacuum = update;
-            _fun00006_ip = 2660; continue _fun00005;
- 2641:
+            _fun00006_ip = 2697; continue _fun00005;
+ 2678:
             update = {};
             sequen = _closure1_slot7;
             sequen = sequen.COMPOSE_MESSAGE;
             update['type'] = sequen;
             vacuum = update;
- 2660:
-            if(!(backup == vacuum)) { _fun00006_ip = 3982; continue _fun00005 }
- 2667:
+ 2697:
+            if(!(backup == vacuum)) { _fun00006_ip = 4019; continue _fun00005 }
+ 2704:
             sequen = _closure1_slot0;
             update = _closure1_slot2;
             update = update[config];
             sequen = sequen.bind(yankee)(update);
             update = sequen.tryParseEventDetailsPath;
             config = update.bind(sequen)(whisks);
-            if(!(backup == config)) { _fun00006_ip = 3916; continue _fun00005 }
- 2702:
+            if(!(backup == config)) { _fun00006_ip = 3953; continue _fun00005 }
+ 2739:
             sequen = whisks.match;
             update = _closure1_slot14;
             update = sequen.bind(whisks)(update);
-            if(!(backup == update)) { _fun00006_ip = 3583; continue _fun00005 }
- 2724:
+            if(!(backup == update)) { _fun00006_ip = 3620; continue _fun00005 }
+ 2761:
             sequen = whisks.match;
             update = _closure1_slot15;
             sequen = sequen.bind(whisks)(update);
-            if(!(backup == sequen)) { _fun00006_ip = 3481; continue _fun00005 }
- 2746:
+            if(!(backup == sequen)) { _fun00006_ip = 3518; continue _fun00005 }
+ 2783:
             record = whisks.match;
             update = _closure1_slot16;
             cntext = record.bind(whisks)(update);
-            if(!(backup == cntext)) { _fun00006_ip = 3377; continue _fun00005 }
- 2768:
+            if(!(backup == cntext)) { _fun00006_ip = 3414; continue _fun00005 }
+ 2805:
             record = whisks.match;
             update = _closure1_slot17;
             record = record.bind(whisks)(update);
-            if(!(backup == record)) { _fun00006_ip = 3248; continue _fun00005 }
- 2790:
+            if(!(backup == record)) { _fun00006_ip = 3285; continue _fun00005 }
+ 2827:
             status = whisks.match;
             update = _closure1_slot18;
             status = status.bind(whisks)(update);
-            if(!(backup == status)) { _fun00006_ip = 3094; continue _fun00005 }
- 2812:
+            if(!(backup == status)) { _fun00006_ip = 3131; continue _fun00005 }
+ 2849:
             sierra = whisks.match;
             update = _closure1_slot19;
             update = sierra.bind(whisks)(update);
-            if(!(backup == update)) { _fun00006_ip = 3013; continue _fun00005 }
- 2834:
+            if(!(backup == update)) { _fun00006_ip = 3050; continue _fun00005 }
+ 2871:
             sierra = backup == target;
             update = undefined;
-            if(sierra) { _fun00006_ip = 2858; continue _fun00005 }
- 2843:
+            if(sierra) { _fun00006_ip = 2895; continue _fun00005 }
+ 2880:
             whisks = target.match;
             sierra = _closure1_slot13;
             update = whisks.bind(target)(sierra);
- 2858:
-            if(!(backup == update)) { _fun00006_ip = 2971; continue _fun00005 }
- 2862:
+ 2895:
+            if(!(backup == update)) { _fun00006_ip = 3008; continue _fun00005 }
+ 2899:
             update = _closure1_slot8;
             sierra = backup == update;
             update = undefined;
-            if(sierra) { _fun00006_ip = 2890; continue _fun00005 }
- 2875:
+            if(sierra) { _fun00006_ip = 2927; continue _fun00005 }
+ 2912:
             sierra = _closure1_slot8;
             sierra = sierra.url;
             update = sierra.host;
- 2890:
-            if(!(target !== update)) { _fun00006_ip = 2929; continue _fun00005 }
- 2894:
+ 2927:
+            if(!(target !== update)) { _fun00006_ip = 2966; continue _fun00005 }
+ 2931:
             update = {};
             update['fingerprint'] = michal;
             update['attemptId'] = tangon;
@@ -961,8 +971,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sierra = sierra.NONE;
             target['type'] = sierra;
             update['payload'] = target;
-            _fun00006_ip = 2969; continue _fun00005;
- 2929:
+            _fun00006_ip = 3006; continue _fun00005;
+ 2966:
             target = {};
             target['fingerprint'] = michal;
             target['attemptId'] = tangon;
@@ -973,9 +983,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sierra['url'] = limora;
             target['payload'] = sierra;
             update = target;
- 2969:
-            _fun00006_ip = 3011; continue _fun00005;
- 2971:
+ 3006:
+            _fun00006_ip = 3048; continue _fun00005;
+ 3008:
             target = {};
             target['fingerprint'] = michal;
             target['attemptId'] = tangon;
@@ -986,18 +996,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sierra['url'] = limora;
             target['payload'] = sierra;
             update = target;
- 3011:
+ 3048:
             return update;
- 3013:
+ 3050:
             target = _closure1_slot21;
             update = global;
             sierra = update.decodeURIComponent;
             limora = backup != foxtra;
             update = entity;
-            if(!limora) { _fun00006_ip = 3038; continue _fun00005 }
- 3035:
+            if(!limora) { _fun00006_ip = 3075; continue _fun00005 }
+ 3072:
             update = foxtra;
- 3038:
+ 3075:
             update = sierra.bind(yankee)(update);
             update = target.bind(yankee)(update);
             sierra = update.user_code;
@@ -1011,7 +1021,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             target['userCode'] = sierra;
             update['payload'] = target;
             return update;
- 3094:
+ 3131:
             target = _closure1_slot3;
             update = 3;
             target = target.bind(yankee)(status, update);
@@ -1022,10 +1032,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             target = _closure1_slot21;
             status = backup != foxtra;
             update = entity;
-            if(!status) { _fun00006_ip = 3138; continue _fun00005 }
- 3135:
+            if(!status) { _fun00006_ip = 3175; continue _fun00005 }
+ 3172:
             update = foxtra;
- 3138:
+ 3175:
             update = target.bind(yankee)(update);
             status = update.feature;
             update = {};
@@ -1051,7 +1061,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             target['feature'] = status;
             update['payload'] = target;
             return update;
- 3248:
+ 3285:
             update = _closure1_slot3;
             record = update.bind(yankee)(record, papara);
             update = 1;
@@ -1083,7 +1093,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             record['settingsSubsection'] = papara;
             update['payload'] = record;
             return update;
- 3377:
+ 3414:
             record = _closure1_slot3;
             update = 2;
             record = record.bind(yankee)(cntext, update);
@@ -1095,10 +1105,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             cntext = update.decodeURIComponent;
             target = backup != foxtra;
             update = entity;
-            if(!target) { _fun00006_ip = 3426; continue _fun00005 }
- 3423:
+            if(!target) { _fun00006_ip = 3463; continue _fun00005 }
+ 3460:
             update = foxtra;
- 3426:
+ 3463:
             update = cntext.bind(yankee)(update);
             cntext = record.bind(yankee)(update);
             update = {};
@@ -1112,16 +1122,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             record['searchParams'] = cntext;
             update['payload'] = record;
             return update;
- 3481:
+ 3518:
             record = _closure1_slot21;
             update = global;
             cntext = update.decodeURIComponent;
             papara = backup != foxtra;
             update = entity;
-            if(!papara) { _fun00006_ip = 3506; continue _fun00005 }
- 3503:
+            if(!papara) { _fun00006_ip = 3543; continue _fun00005 }
+ 3540:
             update = foxtra;
- 3506:
+ 3543:
             update = cntext.bind(yankee)(update);
             update = record.bind(yankee)(update);
             cntext = update.code;
@@ -1140,7 +1150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sequen['callbackState'] = record;
             update['payload'] = sequen;
             return update;
- 3583:
+ 3620:
             record = _closure1_slot21;
             update = global;
             sequen = update.decodeURIComponent;
@@ -1149,10 +1159,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             papara = sequen.key;
             target = sequen.redirect;
             status = sequen.fingerprint;
-            if(!(backup != papara)) { _fun00006_ip = 3788; continue _fun00005 }
- 3629:
-            if(!(backup != target)) { _fun00006_ip = 3788; continue _fun00005 }
- 3636:
+            if(!(backup != papara)) { _fun00006_ip = 3825; continue _fun00005 }
+ 3666:
+            if(!(backup != target)) { _fun00006_ip = 3825; continue _fun00005 }
+ 3673:
             cntext = update.URL;
             sequen = update.location;
             sierra = sequen.protocol;
@@ -1168,13 +1178,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             variable40 = target;
             sequen = new variable41[cntext](variable40, variable39, variable38);
             cntext = sequen instanceof Object ? sequen : record;
-            if(!(backup != status)) { _fun00006_ip = 3738; continue _fun00005 }
- 3716:
+            if(!(backup != status)) { _fun00006_ip = 3775; continue _fun00005 }
+ 3753:
             target = cntext.searchParams;
             record = target.append;
             sequen = 'fingerprint';
             sequen = record.bind(target)(sequen, status);
- 3738:
+ 3775:
             sequen = {};
             sequen['fingerprint'] = status;
             sequen['attemptId'] = tangon;
@@ -1187,7 +1197,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             record['fingerprint'] = status;
             sequen['payload'] = record;
             return sequen;
- 3788:
+ 3825:
             record = _closure1_slot1;
             limora = _closure1_slot2;
             sequen = 15;
@@ -1217,7 +1227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = new variable41[record](variable40, variable39);
             update = update instanceof Object ? update : sequen;
             throw update;
- 3916:
+ 3953:
             update = {};
             update['fingerprint'] = michal;
             update['attemptId'] = tangon;
@@ -1233,13 +1243,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sequen['recurrenceId'] = config;
             update['payload'] = sequen;
             return update;
- 3982:
+ 4019:
             update = {};
             update['fingerprint'] = michal;
             update['attemptId'] = tangon;
             update['payload'] = vacuum;
             return update;
- 4001:
+ 4038:
             update = kiloes[golfie];
             golfie = {};
             golfie['fingerprint'] = michal;
@@ -1251,7 +1261,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes['guildId'] = update;
             golfie['payload'] = kiloes;
             return golfie;
- 4044:
+ 4081:
             golfie = {};
             golfie['fingerprint'] = michal;
             golfie['attemptId'] = tangon;
@@ -1268,7 +1278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes['props'] = update;
             golfie['payload'] = kiloes;
             return golfie;
- 4104:
+ 4141:
             golfie = {};
             golfie['fingerprint'] = michal;
             golfie['attemptId'] = tangon;
@@ -1280,7 +1290,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes['userId'] = result;
             golfie['payload'] = kiloes;
             return golfie;
- 4147:
+ 4184:
             golfie = {};
             golfie['fingerprint'] = michal;
             golfie['attemptId'] = tangon;
@@ -1292,13 +1302,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes['questId'] = sizing;
             golfie['payload'] = kiloes;
             return golfie;
- 4191:
+ 4228:
             golfie = _closure1_slot21;
             kiloes = backup != foxtra;
-            if(!kiloes) { _fun00006_ip = 4205; continue _fun00005 }
- 4202:
+            if(!kiloes) { _fun00006_ip = 4242; continue _fun00005 }
+ 4239:
             entity = foxtra;
- 4205:
+ 4242:
             entity = golfie.bind(yankee)(entity);
             yankee = entity.summaryId;
             entity = {};
@@ -1306,15 +1316,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['attemptId'] = tangon;
             golfie = {};
             foxtra = romeon.messageId;
-            if(!(backup == foxtra)) { _fun00006_ip = 4251; continue _fun00005 }
- 4239:
+            if(!(backup == foxtra)) { _fun00006_ip = 4288; continue _fun00005 }
+ 4276:
             foxtra = _closure1_slot7;
             foxtra = foxtra.CHANNEL;
-            _fun00006_ip = 4261; continue _fun00005;
- 4251:
+            _fun00006_ip = 4298; continue _fun00005;
+ 4288:
             backup = _closure1_slot7;
             foxtra = backup.MESSAGE;
- 4261:
+ 4298:
             golfie['type'] = foxtra;
             foxtra = romeon.guildId;
             golfie['guildId'] = foxtra;
@@ -1325,7 +1335,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['summaryId'] = yankee;
             entity['payload'] = golfie;
             return entity;
- 4304:
+ 4341:
             entity = {};
             entity['fingerprint'] = michal;
             entity['attemptId'] = tangon;
@@ -1336,7 +1346,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['remoteAuthFingerprint'] = offset;
             entity['payload'] = golfie;
             return entity;
- 4344:
+ 4381:
             entity = {};
             entity['fingerprint'] = michal;
             entity['attemptId'] = tangon;
@@ -1348,7 +1358,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['giftCode'] = option;
             entity['payload'] = golfie;
             return entity;
- 4388:
+ 4425:
             entity = {};
             entity['fingerprint'] = michal;
             entity['attemptId'] = tangon;
@@ -1360,7 +1370,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['overrideUrl'] = option;
             entity['payload'] = golfie;
             return entity;
- 4433:
+ 4470:
             entity = {};
             entity['fingerprint'] = michal;
             entity['attemptId'] = tangon;
@@ -1372,7 +1382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie['guildTemplateCode'] = option;
             entity['payload'] = golfie;
             return entity;
- 4478:
+ 4515:
             entity = {};
             entity['fingerprint'] = michal;
             entity['attemptId'] = tangon;
@@ -1386,7 +1396,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['deeplinkAttemptId'] = tangon;
             entity['payload'] = michal;
             return entity;
- 4532:
+ 4569:
             entity = {};
             michal = {};
             zuuluu = _closure1_slot7;

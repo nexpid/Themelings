@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot5 = zuuluu;
         zuuluu = michal.themedBackgroundColor;
         var _closure2_slot6 = zuuluu;
-        zuuluu = michal.shouldObscureExplicitMedia;
+        zuuluu = michal.enabledContentHarmTypeFlags;
         var _closure2_slot7 = zuuluu;
         zuuluu = michal.shouldAgeVerify;
         var _closure2_slot8 = zuuluu;
@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = _closure2_slot5;
                 zuuluu['shouldObscureSpoiler'] = golfie;
                 golfie = _closure2_slot7;
-                zuuluu['shouldObscureExplicitMedia'] = golfie;
+                zuuluu['enabledContentHarmTypeFlags'] = golfie;
                 oscard = _closure2_slot8;
                 zuuluu['shouldAgeVerify'] = oscard;
                 whisks = tangon.bind(report)(zuuluu);

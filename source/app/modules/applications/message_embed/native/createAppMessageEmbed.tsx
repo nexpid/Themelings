@@ -72,8 +72,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.getApplication;
             backup = entity.bind(zuuluu)(tangon);
             entity = null;
-            if(!(entity != backup)) { _fun00002_ip = 1329; continue _fun00001 }
- 95:
+            if(!(entity != backup)) { _fun00002_ip = 1330; continue _fun00001 }
+ 96:
             foxtra = backup.name;
             echoed = backup.bot;
             romeon = backup.tags;
@@ -86,21 +86,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(report)(zuuluu);
             zuuluu = golfie.isEmbeddedApp;
             zuuluu = zuuluu.bind(golfie)(backup);
-            if(!zuuluu) { _fun00002_ip = 206; continue _fun00001 }
- 157:
+            if(!zuuluu) { _fun00002_ip = 207; continue _fun00001 }
+ 158:
             verify = _closure1_slot4;
             golfie = verify.getApplicationAssetFetchState;
             verify = golfie.bind(verify)(tangon);
             golfie = _closure1_slot5;
             golfie = golfie.NOT_FETCHED;
-            if(!(verify !== golfie)) { _fun00002_ip = 1291; continue _fun00001 }
- 189:
+            if(!(verify !== golfie)) { _fun00002_ip = 1292; continue _fun00001 }
+ 190:
             golfie = _closure1_slot5;
             golfie = golfie.FETCHING;
-            if(!(verify !== golfie)) { _fun00002_ip = 1289; continue _fun00001 }
- 206:
-            if(!(entity == source)) { _fun00002_ip = 269; continue _fun00001 }
- 210:
+            if(!(verify !== golfie)) { _fun00002_ip = 1290; continue _fun00001 }
+ 207:
+            if(!(entity == source)) { _fun00002_ip = 270; continue _fun00001 }
+ 211:
             result = _closure1_slot0;
             update = _closure1_slot2;
             golfie = 9;
@@ -113,8 +113,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.t;
             golfie = golfie.RjceQU;
             yankee = verify.bind(yankee)(golfie);
-            _fun00002_ip = 333; continue _fun00001;
- 269:
+            _fun00002_ip = 334; continue _fun00001;
+ 270:
             verify = _closure1_slot0;
             ctrled = _closure1_slot2;
             golfie = 9;
@@ -129,10 +129,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = {};
             golfie['count'] = source;
             yankee = result.bind(update)(verify, golfie);
- 333:
+ 334:
             verify = new Array(0);
-            if(!zuuluu) { _fun00002_ip = 687; continue _fun00001 }
- 343:
+            if(!zuuluu) { _fun00002_ip = 688; continue _fun00001 }
+ 344:
             golfie = _closure1_slot0;
             result = _closure1_slot2;
             zuuluu = 10;
@@ -143,8 +143,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.instanceId;
             kiloes = golfie.isCurrentlyInInstance;
             golfie = golfie.canLaunchInChannel;
-            if(golfie) { _fun00002_ip = 484; continue _fun00001 }
- 396:
+            if(golfie) { _fun00002_ip = 485; continue _fun00001 }
+ 397:
             result = verify.push;
             golfie = {};
             update = 'play_in_dm';
@@ -163,8 +163,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = source.bind(ctrled)(update);
             golfie['label'] = update;
             golfie = result.bind(verify)(golfie);
-            _fun00002_ip = 687; continue _fun00001;
- 484:
+            _fun00002_ip = 688; continue _fun00001;
+ 485:
             source = _closure1_slot0;
             golfie = _closure1_slot2;
             ctrled = 9;
@@ -177,11 +177,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.t;
             golfie = golfie.cnBQPD;
             golfie = result.bind(update)(golfie);
-            if(kiloes) { _fun00002_ip = 605; continue _fun00001 }
- 544:
+            if(kiloes) { _fun00002_ip = 606; continue _fun00001 }
+ 545:
             result = golfie;
-            if(!(entity != zuuluu)) { _fun00002_ip = 657; continue _fun00001 }
- 551:
+            if(!(entity != zuuluu)) { _fun00002_ip = 658; continue _fun00001 }
+ 552:
             source = _closure1_slot0;
             zuuluu = _closure1_slot2;
             golfie = zuuluu[ctrled];
@@ -193,8 +193,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.VJlc0d;
             result = golfie.bind(update)(zuuluu);
-            _fun00002_ip = 657; continue _fun00001;
- 605:
+            _fun00002_ip = 658; continue _fun00001;
+ 606:
             source = _closure1_slot0;
             zuuluu = _closure1_slot2;
             golfie = zuuluu[ctrled];
@@ -206,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.t;
             zuuluu = zuuluu.DPfdsr;
             result = golfie.bind(update)(zuuluu);
- 657:
+ 658:
             golfie = verify.push;
             zuuluu = {};
             update = 'play_in_channel';
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['label'] = result;
             zuuluu['disabled'] = kiloes;
             zuuluu = golfie.bind(verify)(zuuluu);
- 687:
+ 688:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
             result = 11;
@@ -222,11 +222,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(report)(zuuluu);
             zuuluu = golfie.getViewAction;
             golfie = zuuluu.bind(golfie)(backup);
-            if(!(entity != golfie)) { _fun00002_ip = 732; continue _fun00001 }
- 722:
+            if(!(entity != golfie)) { _fun00002_ip = 733; continue _fun00001 }
+ 723:
             zuuluu = verify.push;
             zuuluu = zuuluu.bind(verify)(golfie);
- 732:
+ 733:
             golfie = romeon.join;
             zuuluu = ' ∙ ';
             romeon = golfie.bind(romeon)(zuuluu);
@@ -238,8 +238,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(report)(zuuluu);
             zuuluu = golfie.isEmbeddedApp;
             zuuluu = zuuluu.bind(golfie)(backup);
-            if(!zuuluu) { _fun00002_ip = 902; continue _fun00001 }
- 790:
+            if(!zuuluu) { _fun00002_ip = 903; continue _fun00001 }
+ 791:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
             kiloes = 8;
@@ -248,10 +248,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = offset.getAssetIds;
             zuuluu = _closure1_slot9;
             offset = golfie.bind(offset)(ctrled, zuuluu);
-            if(!(entity == offset)) { _fun00002_ip = 834; continue _fun00001 }
- 830:
+            if(!(entity == offset)) { _fun00002_ip = 835; continue _fun00001 }
+ 831:
             offset = new Array(0);
- 834:
+ 835:
             golfie = _closure1_slot3;
             zuuluu = 1;
             golfie = golfie.bind(report)(offset, zuuluu);
@@ -259,8 +259,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             source = golfie[zuuluu];
             zuuluu = entity != source;
             golfie = null;
-            if(!zuuluu) { _fun00002_ip = 898; continue _fun00001 }
- 862:
+            if(!zuuluu) { _fun00002_ip = 899; continue _fun00001 }
+ 863:
             offset = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[kiloes];
@@ -268,11 +268,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = kiloes.getAssetImage;
             zuuluu = 512;
             golfie = offset.bind(kiloes)(ctrled, source, zuuluu);
- 898:
-            if(!(entity == golfie)) { _fun00002_ip = 1017; continue _fun00001 }
- 902:
-            if(!(entity != update)) { _fun00002_ip = 980; continue _fun00001 }
- 906:
+ 899:
+            if(!(entity == golfie)) { _fun00002_ip = 1018; continue _fun00001 }
+ 903:
+            if(!(entity != update)) { _fun00002_ip = 981; continue _fun00001 }
+ 907:
             offset = _closure1_slot0;
             kiloes = _closure1_slot2;
             zuuluu = 12;
@@ -289,46 +289,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = false;
             zuuluu['canAnimate'] = update;
             offset = offset.bind(kiloes)(zuuluu);
-            if(!(entity == offset)) { _fun00002_ip = 996; continue _fun00001 }
- 980:
+            if(!(entity == offset)) { _fun00002_ip = 997; continue _fun00001 }
+ 981:
             kiloes = {'bannerRatio': 'bot', 'staticBannerSrc': null};
-            _fun00002_ip = 1036; continue _fun00001;
- 996:
+            _fun00002_ip = 1037; continue _fun00001;
+ 997:
             zuuluu = {};
             update = 'bot';
             zuuluu['bannerRatio'] = update;
             zuuluu['staticBannerSrc'] = offset;
             kiloes = zuuluu;
-            _fun00002_ip = 1036; continue _fun00001;
- 1017:
+            _fun00002_ip = 1037; continue _fun00001;
+ 1018:
             zuuluu = {};
             offset = 'activity';
             zuuluu['bannerRatio'] = offset;
             zuuluu['staticBannerSrc'] = golfie;
             kiloes = zuuluu;
- 1036:
+ 1037:
             zuuluu = entity != output;
             offset = null;
-            if(!zuuluu) { _fun00002_ip = 1075; continue _fun00001 }
- 1045:
+            if(!zuuluu) { _fun00002_ip = 1076; continue _fun00001 }
+ 1046:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[result];
             golfie = golfie.bind(report)(zuuluu);
             zuuluu = golfie.getAppIconSrc;
             offset = zuuluu.bind(golfie)(tangon, output, echoed);
- 1075:
+ 1076:
             zuuluu = offset;
-            if(!(entity == zuuluu)) { _fun00002_ip = 1088; continue _fun00001 }
- 1082:
+            if(!(entity == zuuluu)) { _fun00002_ip = 1089; continue _fun00001 }
+ 1083:
             zuuluu = kiloes.staticBannerSrc;
- 1088:
+ 1089:
             golfie = entity != zuuluu;
             output = undefined;
-            if(!golfie) { _fun00002_ip = 1100; continue _fun00001 }
- 1097:
+            if(!golfie) { _fun00002_ip = 1101; continue _fun00001 }
+ 1098:
             output = zuuluu;
- 1100:
+ 1101:
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[result];
@@ -373,9 +373,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 'headerText';
             zuuluu[oscard] = entity;
             return zuuluu;
- 1289:
+ 1290:
             return entity;
- 1291:
+ 1292:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 8;
@@ -385,13 +385,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot9;
             zuuluu = oscard.bind(golfie)(tangon, zuuluu);
             return entity;
- 1329:
+ 1330:
             oscard = _closure1_slot6;
             zuuluu = oscard.isFetchingApplication;
             oscard = zuuluu.bind(oscard)(tangon);
             zuuluu = false;
-            if(!(zuuluu === oscard)) { _fun00002_ip = 1381; continue _fun00001 }
- 1350:
+            if(!(zuuluu === oscard)) { _fun00002_ip = 1382; continue _fun00001 }
+ 1351:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
             michal = 6;
@@ -399,7 +399,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = zuuluu.fetchApplication;
             michal = michal.bind(zuuluu)(tangon);
- 1381:
+ 1382:
             return entity;
         }
     };

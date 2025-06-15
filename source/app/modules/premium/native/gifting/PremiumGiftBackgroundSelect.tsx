@@ -167,16 +167,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[0] = kiloes;
             kiloes = null;
             kiloes = kiloes != sizing;
-            if(!kiloes) { _fun00002_ip = 437; continue _fun00001 }
- 433:
+            if(!kiloes) { _fun00002_ip = 431; continue _fun00001 }
+ 427:
             kiloes = sizing < result;
- 437:
-            if(!kiloes) { _fun00002_ip = 449; continue _fun00001 }
- 440:
+ 431:
+            if(!kiloes) { _fun00002_ip = 443; continue _fun00001 }
+ 434:
             sizing = {};
             sizing['flex'] = output;
             kiloes = sizing;
- 449:
+ 443:
             backup[1] = kiloes;
             oscard['contentContainerStyle'] = backup;
             backup = romeon.scrollView;

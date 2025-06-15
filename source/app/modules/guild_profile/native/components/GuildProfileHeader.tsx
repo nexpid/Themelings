@@ -45,8 +45,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.GuildVisibility;
             entity = entity.PUBLIC;
             offset = option;
-            if(!(michal === entity)) { _fun00002_ip = 301; continue _fun00001 }
- 164:
+            if(!(michal === entity)) { _fun00002_ip = 302; continue _fun00001 }
+ 165:
             michal = _closure1_slot0;
             entity = _closure1_slot2;
             option = entity[foxtra];
@@ -65,24 +65,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(michal)(zuuluu);
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
-            if(entity) { _fun00002_ip = 265; continue _fun00001 }
- 251:
+            if(entity) { _fun00002_ip = 266; continue _fun00001 }
+ 252:
             entity = 17;
             entity = golfie[entity];
             entity = zuuluu.bind(tangon)(entity);
-            _fun00002_ip = 277; continue _fun00001;
- 265:
+            _fun00002_ip = 278; continue _fun00001;
+ 266:
             michal = 16;
             michal = golfie[michal];
             entity = zuuluu.bind(tangon)(michal);
- 277:
+ 278:
             _closure2_slot0 = entity;
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 18;
             entity = zuuluu[entity];
             offset = michal.bind(tangon)(entity);
- 301:
+ 302:
             zuuluu = _closure1_slot12;
             romeon = _closure1_slot0;
             verify = _closure1_slot2;

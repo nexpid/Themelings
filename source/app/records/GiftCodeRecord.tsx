@@ -39,13 +39,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = michal;
+            _closure1_slot12 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
     michal = global;
     offset = michal.Object;
     option = offset.defineProperty;
@@ -84,14 +84,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = option;
     option = 7;
     option = golfie[option];
+    option = verify.bind(entity)(option);
+    var _closure1_slot9 = option;
+    option = 8;
+    option = golfie[option];
     option = oscard.bind(entity)(option);
     option = option.PremiumSubscriptionSKUToPremiumType;
-    var _closure1_slot9 = option;
+    var _closure1_slot10 = option;
     verify = michal.Object;
     option = verify.freeze;
     michal = {'PAYMENT_SOURCE_REQUIRED': 1, 'EXISTING_PREMIUM_SUBSCRIPTION_DISALLOWED': 2, 'NOT_SELF_REDEEMABLE': 4};
     michal = option.bind(verify)(michal);
-    var _closure1_slot10 = michal;
+    var _closure1_slot11 = michal;
     tangon = function(argFoo) {
         report = function(argFoo) { // Original name: GiftCodeRecord
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -105,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot6;
                 offset = entity.bind(tangon)(zuuluu);
                 zuuluu = _closure1_slot5;
-                entity = _closure1_slot11;
+                entity = _closure1_slot12;
                 entity = entity.bind(tangon)();
                 if(entity) { _fun00004_ip = 65; continue _fun00003 }
  52:
@@ -180,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  18:
                 report = _closure1_slot1;
                 zuuluu = _closure1_slot2;
-                michal = 8;
+                michal = 9;
                 michal = zuuluu[michal];
                 zuuluu = undefined;
                 michal = report.bind(zuuluu)(michal);
@@ -252,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.isSubscription;
                 if(!entity) { _fun00008_ip = 29; continue _fun00007 }
  12:
-                zuuluu = _closure1_slot9;
+                zuuluu = _closure1_slot10;
                 michal = michal.skuId;
                 entity = zuuluu[michal];
  29:
@@ -271,14 +275,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: get
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            michal = 9;
+            michal = 10;
             zuuluu = zuuluu[michal];
             michal = undefined;
             tangon = tangon.bind(michal)(zuuluu);
             zuuluu = tangon.hasFlag;
             michal = this;
             michal = michal.flags;
-            entity = _closure1_slot10;
+            entity = _closure1_slot11;
             entity = entity.NOT_SELF_REDEEMABLE;
             entity = zuuluu.bind(tangon)(michal, entity);
             entity = !entity;
@@ -292,14 +296,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: get
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            michal = 9;
+            michal = 10;
             zuuluu = zuuluu[michal];
             michal = undefined;
             tangon = tangon.bind(michal)(zuuluu);
             zuuluu = tangon.hasFlag;
             michal = this;
             michal = michal.flags;
-            entity = _closure1_slot10;
+            entity = _closure1_slot11;
             entity = entity.EXISTING_PREMIUM_SUBSCRIPTION_DISALLOWED;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
@@ -336,143 +340,127 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = function(argFoo) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-                report = argFoo;
+                tangon = argFoo;
                 zuuluu = _closure2_slot0;
                 entity = {};
-                tangon = report.user;
+                report = tangon.user;
                 michal = null;
-                oscard = michal != tangon;
-                tangon = null;
+                oscard = michal != report;
+                report = null;
                 if(!oscard) { _fun00010_ip = 38; continue _fun00009 }
  28:
-                oscard = report.user;
-                tangon = oscard.id;
+                oscard = tangon.user;
+                report = oscard.id;
  38:
-                entity['userId'] = tangon;
-                tangon = report.code;
-                entity['code'] = tangon;
-                tangon = report.sku_id;
-                entity['skuId'] = tangon;
-                tangon = report.application_id;
-                entity['applicationId'] = tangon;
-                tangon = report.uses;
-                entity['uses'] = tangon;
-                tangon = report.max_uses;
-                entity['maxUses'] = tangon;
-                tangon = report.store_listing;
-                oscard = michal != tangon;
-                tangon = null;
+                entity['userId'] = report;
+                report = tangon.code;
+                entity['code'] = report;
+                report = tangon.sku_id;
+                entity['skuId'] = report;
+                report = tangon.application_id;
+                entity['applicationId'] = report;
+                report = tangon.uses;
+                entity['uses'] = report;
+                report = tangon.max_uses;
+                entity['maxUses'] = report;
+                report = tangon.store_listing;
+                oscard = michal != report;
+                report = null;
                 if(!oscard) { _fun00010_ip = 120; continue _fun00009 }
  109:
-                oscard = report.store_listing;
-                tangon = oscard.id;
+                oscard = tangon.store_listing;
+                report = oscard.id;
  120:
-                entity['storeListingId'] = tangon;
-                tangon = report.expires_at;
-                oscard = michal != tangon;
-                tangon = null;
+                entity['storeListingId'] = report;
+                report = tangon.expires_at;
+                oscard = michal != report;
+                report = null;
                 if(!oscard) { _fun00010_ip = 176; continue _fun00009 }
  140:
                 golfie = _closure1_slot1;
                 option = _closure1_slot2;
-                oscard = 8;
+                oscard = 9;
                 oscard = option[oscard];
                 option = undefined;
                 golfie = golfie.bind(option)(oscard);
-                oscard = report.expires_at;
-                tangon = golfie.bind(option)(oscard);
+                oscard = tangon.expires_at;
+                report = golfie.bind(option)(oscard);
  176:
-                entity['expiresAt'] = tangon;
-                tangon = report.redeemed;
-                entity['redeemed'] = tangon;
-                tangon = report.subscription_plan;
-                if(!(michal == tangon)) { _fun00010_ip = 210; continue _fun00009 }
+                entity['expiresAt'] = report;
+                report = tangon.redeemed;
+                entity['redeemed'] = report;
+                report = tangon.subscription_plan;
+                if(!(michal == report)) { _fun00010_ip = 210; continue _fun00009 }
  202:
-                tangon = report.subscription_plan_id;
+                report = tangon.subscription_plan_id;
                 _fun00010_ip = 221; continue _fun00009;
  210:
-                oscard = report.subscription_plan;
-                tangon = oscard.id;
+                oscard = tangon.subscription_plan;
+                report = oscard.id;
  221:
-                entity['subscriptionPlanId'] = tangon;
-                tangon = report.subscription_plan;
-                oscard = michal != tangon;
-                tangon = null;
+                entity['subscriptionPlanId'] = report;
+                report = tangon.subscription_plan;
+                oscard = michal != report;
+                report = null;
                 if(!oscard) { _fun00010_ip = 265; continue _fun00009 }
  241:
-                option = _closure1_slot8;
+                option = _closure1_slot9;
                 golfie = option.createFromServer;
-                oscard = report.subscription_plan;
-                tangon = golfie.bind(option)(oscard);
+                oscard = tangon.subscription_plan;
+                report = golfie.bind(option)(oscard);
  265:
-                entity['subscriptionPlan'] = tangon;
-                tangon = false;
-                entity['revoked'] = tangon;
-                tangon = report.entitlement_branches;
-                oscard = michal != tangon;
-                tangon = null;
+                entity['subscriptionPlan'] = report;
+                report = false;
+                entity['revoked'] = report;
+                report = tangon.entitlement_branches;
+                oscard = michal != report;
+                report = null;
                 if(!oscard) { _fun00010_ip = 298; continue _fun00009 }
  292:
-                tangon = report.entitlement_branches;
+                report = tangon.entitlement_branches;
  298:
-                entity['entitlementBranches'] = tangon;
-                tangon = report.flags;
-                oscard = michal != tangon;
-                tangon = 0;
+                entity['entitlementBranches'] = report;
+                report = tangon.flags;
+                oscard = michal != report;
+                report = 0;
                 if(!oscard) { _fun00010_ip = 322; continue _fun00009 }
  317:
-                tangon = report.flags;
+                report = tangon.flags;
  322:
-                entity['flags'] = tangon;
-                tangon = report.gift_style;
-                entity['giftStyle'] = tangon;
-                tangon = report.subscription_trial;
-                oscard = michal != tangon;
-                tangon = null;
+                entity['flags'] = report;
+                report = tangon.gift_style;
+                entity['giftStyle'] = report;
+                report = tangon.subscription_trial;
+                oscard = michal != report;
+                report = null;
                 if(!oscard) { _fun00010_ip = 423; continue _fun00009 }
  352:
                 oscard = {};
-                golfie = report.subscription_trial;
+                golfie = tangon.subscription_trial;
                 golfie = golfie.id;
                 oscard['id'] = golfie;
-                golfie = report.subscription_trial;
+                golfie = tangon.subscription_trial;
                 golfie = golfie.interval;
                 oscard['interval'] = golfie;
-                golfie = report.subscription_trial;
+                golfie = tangon.subscription_trial;
                 golfie = golfie.interval_count;
                 oscard['intervalCount'] = golfie;
-                golfie = report.subscription_trial;
+                golfie = tangon.subscription_trial;
                 golfie = golfie.sku_id;
                 oscard['skuId'] = golfie;
-                tangon = oscard;
+                report = oscard;
  423:
-                entity['subscriptionTrial'] = tangon;
-                tangon = report.promotion;
-                tangon = michal != tangon;
+                entity['subscriptionTrial'] = report;
+                report = tangon.promotion;
+                report = michal != report;
                 michal = null;
-                if(!tangon) { _fun00010_ip = 560; continue _fun00009 }
+                if(!report) { _fun00010_ip = 467; continue _fun00009 }
  443:
-                tangon = {};
-                oscard = report.promotion;
-                oscard = oscard.id;
-                tangon['id'] = oscard;
-                oscard = report.promotion;
-                oscard = oscard.start_date;
-                tangon['startDate'] = oscard;
-                oscard = report.promotion;
-                oscard = oscard.end_date;
-                tangon['endDate'] = oscard;
-                oscard = report.promotion;
-                oscard = oscard.inbound_header_text;
-                tangon['inboundHeaderText'] = oscard;
-                oscard = report.promotion;
-                oscard = oscard.inbound_body_text;
-                tangon['inboundBodyText'] = oscard;
-                report = report.promotion;
-                report = report.inbound_help_center_link;
-                tangon['inboundHelpCenterLink'] = report;
-                michal = tangon;
- 560:
+                oscard = _closure1_slot8;
+                report = oscard.createFromServer;
+                tangon = tangon.promotion;
+                michal = report.bind(oscard)(tangon);
+ 467:
                 entity['promotion'] = michal;
                 michal = zuuluu.prototype;
                 michal = Object.create(michal, {constructor: {value: zuuluu}});
@@ -490,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     tangon = tangon.bind(entity)(report);
-    report = 10;
+    report = 11;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

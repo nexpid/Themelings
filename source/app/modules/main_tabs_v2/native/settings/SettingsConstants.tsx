@@ -224,8 +224,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['EMOJI_REACTIONS_ON_MESSAGES'] = entity;
     entity = 'CHAT_EMOJI_EMOTICONS';
     michal['CHAT_EMOJI_EMOTICONS'] = entity;
-    entity = 'STICKER_SUGGESTIONS';
-    michal['STICKER_SUGGESTIONS'] = entity;
     entity = 'STICKER_AUTOCOMPLETE';
     michal['STICKER_AUTOCOMPLETE'] = entity;
     entity = 'TEXT_AND_MEDIA_SYNC';

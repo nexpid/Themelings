@@ -43,13 +43,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = null;
             entity = oscard == offset;
             report = null;
-            if(entity) { _fun00002_ip = 900; continue _fun00001 }
+            if(entity) { _fun00002_ip = 898; continue _fun00001 }
  78:
             entity = offset.length;
             option = 1;
             entity = entity < option;
             report = null;
-            if(entity) { _fun00002_ip = 900; continue _fun00001 }
+            if(entity) { _fun00002_ip = 898; continue _fun00001 }
  98:
             golfie = _closure1_slot0;
             entity = _closure1_slot2;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             echoed = michal.bind(offset)(entity);
             entity = oscard == echoed;
             report = null;
-            if(entity) { _fun00002_ip = 900; continue _fun00001 }
+            if(entity) { _fun00002_ip = 898; continue _fun00001 }
  173:
             michal = _closure1_slot1;
             entity = _closure1_slot2;
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             result = michal.bind(offset)(entity);
             entity = oscard == result;
             report = null;
-            if(entity) { _fun00002_ip = 900; continue _fun00001 }
+            if(entity) { _fun00002_ip = 898; continue _fun00001 }
  219:
             michal = _closure1_slot1;
             entity = _closure1_slot2;
@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = entity.bind(michal)(golfie);
             entity = oscard == yankee;
             report = null;
-            if(entity) { _fun00002_ip = 900; continue _fun00001 }
+            if(entity) { _fun00002_ip = 898; continue _fun00001 }
  259:
             backup = _closure1_slot0;
             offset = _closure1_slot2;
@@ -216,11 +216,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {};
             kiloes = oscard == sizing;
             offset = undefined;
-            if(kiloes) { _fun00002_ip = 773; continue _fun00001 }
- 763:
+            if(kiloes) { _fun00002_ip = 772; continue _fun00001 }
+ 762:
             kiloes = sizing.toHexString;
             offset = kiloes.bind(sizing)();
- 773:
+ 772:
             michal['accentColor'] = offset;
             offset = _closure1_slot0;
             verify = _closure1_slot2;
@@ -234,28 +234,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['backgroundColor'] = verify;
             offset = oscard == yankee;
             verify = undefined;
-            if(offset) { _fun00002_ip = 841; continue _fun00001 }
- 831:
+            if(offset) { _fun00002_ip = 840; continue _fun00001 }
+ 830:
             offset = yankee.toHexString;
             verify = offset.bind(yankee)();
- 841:
+ 840:
             michal['highlightColor'] = verify;
             verify = oscard == option;
             oscard = undefined;
-            if(verify) { _fun00002_ip = 861; continue _fun00001 }
- 855:
+            if(verify) { _fun00002_ip = 860; continue _fun00001 }
+ 854:
             oscard = option.saturation;
- 861:
+ 860:
             golfie = oscard < golfie;
             oscard = 0.2;
-            if(!golfie) { _fun00002_ip = 888; continue _fun00001 }
- 878:
+            if(!golfie) { _fun00002_ip = 887; continue _fun00001 }
+ 877:
             oscard = 0.5;
- 888:
+ 887:
             michal['opacity'] = oscard;
             entity['DARK'] = michal;
             report = entity;
- 900:
+ 898:
             michal = _closure1_slot1;
             oscard = _closure1_slot2;
             entity = 2;
@@ -283,11 +283,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             tangon = argFoo;
             entity = null;
-            if(!(entity != tangon)) { _fun00004_ip = 192; continue _fun00003 }
+            if(!(entity != tangon)) { _fun00004_ip = 190; continue _fun00003 }
  12:
             zuuluu = tangon.length;
             michal = 1;
-            if(!(!(zuuluu < michal))) { _fun00004_ip = 192; continue _fun00003 }
+            if(!(!(zuuluu < michal))) { _fun00004_ip = 190; continue _fun00003 }
  27:
             zuuluu = _closure1_slot3;
             michal = {};
@@ -298,59 +298,59 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = zuuluu.bind(tangon)(michal);
             oscard = entity == report;
             michal = argBaz;
-            if(michal) { _fun00004_ip = 78; continue _fun00003 }
+            if(michal) { _fun00004_ip = 77; continue _fun00003 }
  65:
             zuuluu = undefined;
-            if(oscard) { _fun00004_ip = 76; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 75; continue _fun00003 }
  70:
             zuuluu = report.LIGHT;
- 76:
-            _fun00004_ip = 92; continue _fun00003;
- 78:
+ 75:
+            _fun00004_ip = 90; continue _fun00003;
+ 77:
             michal = undefined;
-            if(oscard) { _fun00004_ip = 89; continue _fun00003 }
- 83:
+            if(oscard) { _fun00004_ip = 87; continue _fun00003 }
+ 82:
             michal = report.DARK;
- 89:
+ 87:
             zuuluu = michal;
- 92:
+ 90:
             michal = {};
             oscard = entity == zuuluu;
             report = undefined;
-            if(oscard) { _fun00004_ip = 108; continue _fun00003 }
- 103:
+            if(oscard) { _fun00004_ip = 106; continue _fun00003 }
+ 101:
             report = zuuluu.backgroundColor;
- 108:
+ 106:
             michal['backgroundColor'] = report;
             oscard = entity == zuuluu;
             report = undefined;
-            if(oscard) { _fun00004_ip = 127; continue _fun00003 }
- 121:
+            if(oscard) { _fun00004_ip = 125; continue _fun00003 }
+ 119:
             report = zuuluu.accentColor;
- 127:
+ 125:
             michal['accentColor'] = report;
             oscard = entity == zuuluu;
             report = undefined;
-            if(oscard) { _fun00004_ip = 147; continue _fun00003 }
- 141:
+            if(oscard) { _fun00004_ip = 145; continue _fun00003 }
+ 139:
             report = zuuluu.highlightColor;
- 147:
+ 145:
             michal['highlightColor'] = report;
             report = entity == zuuluu;
             tangon = undefined;
-            if(report) { _fun00004_ip = 166; continue _fun00003 }
- 161:
+            if(report) { _fun00004_ip = 164; continue _fun00003 }
+ 159:
             tangon = zuuluu.opacity;
- 166:
+ 164:
             report = entity != tangon;
             zuuluu = 0.15;
-            if(!report) { _fun00004_ip = 186; continue _fun00003 }
- 183:
+            if(!report) { _fun00004_ip = 184; continue _fun00003 }
+ 181:
             zuuluu = tangon;
- 186:
+ 184:
             michal['opacity'] = zuuluu;
             return michal;
- 192:
+ 190:
             return entity;
         }
     };

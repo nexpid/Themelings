@@ -364,7 +364,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 243; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 245; continue _fun00009 }
  10: // try_start_0
                     report = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -386,7 +386,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  76:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00010_ip = 154; continue _fun00009 }
+                    if(report) { _fun00010_ip = 156; continue _fun00009 }
  82:
                     golfie = michal.body;
                     oscard = golfie.map;
@@ -415,11 +415,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['type'] = option;
                     tangon['soundboardSounds'] = golfie;
                     tangon = report.bind(oscard)(tangon);
- 151: // try_end0
+ 153: // try_end0
                     return zuuluu;
- 154:
+ 156:
                     return michal;
- 157: // catch_target0
+ 159: // catch_target0
                     CatchBlockStart(arg_register=3);
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -442,7 +442,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new yankee[michal](offset, verify);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 243:
+ 245:
                     return entity;
                 }
             };

@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 307; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 309; continue _fun00001 }
  10:
                     michal = argFoo;
                     verify = michal.guildId;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return golfie;
  24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 304; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 306; continue _fun00001 }
  33:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  119:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 301; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 303; continue _fun00001 }
  128:
                     report = zuuluu.hasFeature;
                     tangon = _closure1_slot8;
@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.COMMUNITY;
                     tangon = option.bind(zuuluu)(report);
  173:
-                    if(!tangon) { _fun00002_ip = 289; continue _fun00001 }
+                    if(!tangon) { _fun00002_ip = 291; continue _fun00001 }
  176:
                     report = _closure1_slot0;
                     option = _closure1_slot2;
@@ -79,12 +79,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  211:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 298; continue _fun00001 }
+                    if(report) { _fun00002_ip = 300; continue _fun00001 }
  217:
                     option = _closure1_slot6;
                     report = option.shouldShowOnboarding;
                     report = report.bind(option)(verify);
-                    if(!report) { _fun00002_ip = 289; continue _fun00001 }
+                    if(!report) { _fun00002_ip = 291; continue _fun00001 }
  235:
                     option = _closure1_slot12;
                     report = function() { // Original name: fetchLandingAsset
@@ -98,36 +98,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     report = report.bind(golfie)(zuuluu);
-                    SaveGenerator(address=255);
- 253:
-                    return report;
+                    SaveGenerator(address=257);
  255:
+                    return report;
+ 257:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 295; continue _fun00001 }
- 261:
+                    if(offset) { _fun00002_ip = 297; continue _fun00001 }
+ 263:
                     option[verify] = report;
                     option = _closure1_slot15;
                     oscard = zuuluu.id;
                     oscard = option.bind(golfie)(oscard);
-                    SaveGenerator(address=283);
- 281:
-                    return oscard;
+                    SaveGenerator(address=285);
  283:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 292; continue _fun00001 }
- 289:
-                    return golfie;
- 292:
                     return oscard;
- 295:
+ 285:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
+                    if(option) { _fun00002_ip = 294; continue _fun00001 }
+ 291:
+                    return golfie;
+ 294:
+                    return oscard;
+ 297:
                     return report;
- 298:
+ 300:
                     return tangon;
- 301:
+ 303:
                     return zuuluu;
- 304:
+ 306:
                     return michal;
- 307:
+ 309:
                     return entity;
                 }
             };

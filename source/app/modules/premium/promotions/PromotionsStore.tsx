@@ -24,24 +24,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot13 = michal;
+            _closure1_slot14 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot14 = entity;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00004_ip = 345; continue _fun00003 }
+            if(michal) { _fun00004_ip = 343; continue _fun00003 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00004_ip = 247; continue _fun00003 }
  234:
-            verify = _closure1_slot15;
+            verify = _closure1_slot16;
             golfie = verify.bind(option)(zuuluu, option);
  247:
             _fun00004_ip = 265; continue _fun00003;
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00004_ip = 283; continue _fun00003;
  270:
-            golfie = _closure1_slot15;
+            golfie = _closure1_slot16;
             oscard = golfie.bind(option)(zuuluu, option);
  283:
             tangon = oscard;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot15 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -217,59 +217,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot16 = entity;
     entity = function() { // Original name: getLatestActiveOutboundPromotionStartDate
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            michal = _closure1_slot14;
-            entity = _closure1_slot11;
-            option = undefined;
-            golfie = michal.bind(option)(entity);
-            entity = golfie.bind(option)();
-            michal = entity.done;
-            oscard = null;
-            report = global;
-            tangon = entity;
-            zuuluu = null;
+            zuuluu = _closure1_slot15;
+            entity = _closure1_slot12;
+            michal = undefined;
+            golfie = zuuluu.bind(michal)(entity);
+            tangon = golfie.bind(michal)();
+            zuuluu = tangon.done;
             entity = null;
-            if(michal) { _fun00010_ip = 151; continue _fun00009 }
- 41:
-            michal = tangon.value;
-            offset = oscard == zuuluu;
-            if(offset) { _fun00010_ip = 118; continue _fun00009 }
- 53:
-            romeon = report.Date;
-            foxtra = michal.startDate;
-            yankee = romeon.prototype;
-            yankee = Object.create(yankee, {constructor: {value: romeon}});
-            backup = yankee;
-            verify = new backup[romeon](foxtra, romeon);
-            yankee = verify instanceof Object ? verify : yankee;
-            verify = report.Date;
-            romeon = verify.prototype;
-            romeon = Object.create(romeon, {constructor: {value: verify}});
-            backup = romeon;
-            foxtra = zuuluu;
-            verify = new backup[verify](foxtra, romeon);
-            verify = verify instanceof Object ? verify : romeon;
-            offset = yankee > verify;
- 118:
-            verify = zuuluu;
-            if(!offset) { _fun00010_ip = 130; continue _fun00009 }
- 124:
-            verify = michal.startDate;
- 130:
-            offset = golfie.bind(option)();
-            michal = offset.done;
-            zuuluu = verify;
-            tangon = offset;
-            entity = zuuluu;
-            if(!michal) { _fun00010_ip = 41; continue _fun00009 }
- 151:
+            oscard = tangon;
+            report = null;
+            tangon = null;
+            if(zuuluu) { _fun00010_ip = 88; continue _fun00009 }
+ 39:
+            zuuluu = oscard.value;
+            option = entity == report;
+            if(option) { _fun00010_ip = 61; continue _fun00009 }
+ 51:
+            verify = zuuluu.startDate;
+            option = verify > report;
+ 61:
+            if(!option) { _fun00010_ip = 70; continue _fun00009 }
+ 64:
+            report = zuuluu.startDate;
+ 70:
+            verify = golfie.bind(michal)();
+            zuuluu = verify.done;
+            oscard = verify;
+            tangon = report;
+            if(!zuuluu) { _fun00010_ip = 39; continue _fun00009 }
+ 88:
+            zuuluu = entity == tangon;
+            michal = undefined;
+            if(zuuluu) { _fun00010_ip = 107; continue _fun00009 }
+ 97:
+            zuuluu = tangon.toISOString;
+            michal = zuuluu.bind(tangon)();
+ 107:
+            zuuluu = entity != michal;
+            entity = null;
+            if(!zuuluu) { _fun00010_ip = 119; continue _fun00009 }
+ 116:
+            entity = michal;
+ 119:
             return entity;
         }
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot17 = entity;
     entity = function() { // Original name: initializeFromUserSettings
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -295,11 +292,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  61:
             michal = tangon;
  64:
-            _closure1_slot12 = michal;
+            _closure1_slot13 = michal;
             return entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot18 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -335,15 +332,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = michal;
     golfie = false;
     michal = null;
-    option = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null, 'bogoPromotion': null};
+    option = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null};
     var _closure1_slot6 = option;
-    var _closure1_slot7 = golfie;
-    var _closure1_slot8 = michal;
-    var _closure1_slot9 = golfie;
-    var _closure1_slot10 = michal;
+    var _closure1_slot7 = michal;
+    var _closure1_slot8 = golfie;
+    var _closure1_slot9 = michal;
+    var _closure1_slot10 = golfie;
+    var _closure1_slot11 = michal;
     golfie = new Array(0);
-    var _closure1_slot11 = golfie;
-    var _closure1_slot12 = michal;
+    var _closure1_slot12 = golfie;
+    var _closure1_slot13 = michal;
     michal = 6;
     michal = report[michal];
     michal = oscard.bind(entity)(michal);
@@ -361,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot3;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot2;
-                entity = _closure1_slot13;
+                entity = _closure1_slot14;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00014_ip = 69; continue _fun00013 }
  51:
@@ -410,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure1_slot5;
                 michal = new Array(1);
                 michal[0] = report;
-                entity = _closure1_slot17;
+                entity = _closure1_slot18;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
                 return entity;
@@ -423,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'outboundPromotions';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot11;
+            entity = _closure1_slot12;
             return entity;
         };
         report['get'] = golfie;
@@ -442,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'lastDismissedOutboundPromotionStartDate';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot12;
+            entity = _closure1_slot13;
             return entity;
         };
         report['get'] = golfie;
@@ -451,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'lastFetchedActivePromotions';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot10;
+            entity = _closure1_slot11;
             return entity;
         };
         report['get'] = golfie;
@@ -460,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'isFetchingActiveOutboundPromotions';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             return entity;
         };
         report['get'] = golfie;
@@ -489,8 +487,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'bogoPromotion';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot6;
-            entity = entity.bogoPromotion;
+            entity = _closure1_slot7;
             return entity;
         };
         report['get'] = golfie;
@@ -499,7 +496,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'isFetchingActiveBogoPromotion';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot7;
+            entity = _closure1_slot8;
             return entity;
         };
         report['get'] = golfie;
@@ -508,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'lastFetchedActiveBogoPromotion';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             return entity;
         };
         report['get'] = golfie;
@@ -530,27 +527,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie['displayName'] = michal;
     michal = 'PromotionsPersistedStore';
     golfie['persistKey'] = michal;
+    michal = new Array(1);
+    option = function(argFoo) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            entity = argFoo;
+ 3: // try_start_0
+            michal = entity;
+            michal = delete michal.bogoPromotion;
+ 11: // try_end0
+            _fun00018_ip = 15; continue _fun00017;
+ 13: // catch_target0
+            CatchBlockStart(arg_register=1);
+ 15:
+            return entity;
+        }
+    };
+    michal[0] = option;
+    golfie['migrations'] = michal;
     michal = 7;
     michal = report[michal];
     yankee = oscard.bind(entity)(michal);
     michal = {};
     option = function(argFoo) { // Original name: handleActiveOutboundPromotionsFetchSuccess
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.activeOutboundPromotions;
             michal = entity.consumedInboundPromotionId;
-            _closure1_slot11 = zuuluu;
+            _closure1_slot12 = zuuluu;
             zuuluu = global;
             tangon = zuuluu.Date;
             zuuluu = tangon.now;
             zuuluu = zuuluu.bind(tangon)();
-            _closure1_slot10 = zuuluu;
+            _closure1_slot11 = zuuluu;
             zuuluu = false;
-            _closure1_slot9 = zuuluu;
+            _closure1_slot10 = zuuluu;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.hasFetchedConsumedInboundPromotionId;
-            if(zuuluu) { _fun00018_ip = 84; continue _fun00017 }
+            if(zuuluu) { _fun00020_ip = 84; continue _fun00019 }
  62:
             tangon = _closure1_slot6;
             zuuluu = true;
@@ -565,68 +580,77 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['ACTIVE_OUTBOUND_PROMOTIONS_FETCH_SUCCESS'] = option;
     option = function() { // Original name: handleActiveOutboundPromotionsFetchStart
         entity = true;
-        _closure1_slot9 = entity;
+        _closure1_slot10 = entity;
         entity = undefined;
         return entity;
     };
     michal['ACTIVE_OUTBOUND_PROMOTIONS_FETCH'] = option;
     option = function() { // Original name: handleActiveOutboundPromotionsFetchFail
         entity = new Array(0);
-        _closure1_slot11 = entity;
+        _closure1_slot12 = entity;
         entity = false;
-        _closure1_slot9 = entity;
+        _closure1_slot10 = entity;
         entity = undefined;
         return entity;
     };
     michal['ACTIVE_OUTBOUND_PROMOTIONS_FETCH_FAIL'] = option;
     option = function(argFoo) { // Original name: handleActiveBogoPromotionFetchSuccess
         entity = argFoo;
-        zuuluu = entity.activePromotion;
-        entity = _closure1_slot6;
-        entity['bogoPromotion'] = zuuluu;
+        michal = entity.activePromotion;
+        entity = {};
+        zuuluu = michal.id;
+        entity['id'] = zuuluu;
+        tangon = michal.startDate;
+        zuuluu = tangon.toISOString;
+        zuuluu = zuuluu.bind(tangon)();
+        entity['startDate'] = zuuluu;
+        zuuluu = michal.endDate;
+        michal = zuuluu.toISOString;
+        michal = michal.bind(zuuluu)();
+        entity['endDate'] = michal;
+        _closure1_slot7 = entity;
         entity = global;
         zuuluu = entity.Date;
         entity = zuuluu.now;
         entity = entity.bind(zuuluu)();
-        _closure1_slot8 = entity;
+        _closure1_slot9 = entity;
         entity = false;
-        _closure1_slot7 = entity;
+        _closure1_slot8 = entity;
         entity = undefined;
         return entity;
     };
     michal['ACTIVE_BOGO_PROMOTION_FETCH_SUCCESS'] = option;
     option = function() { // Original name: handleActiveBogoPromotionFetchStart
         entity = true;
-        _closure1_slot7 = entity;
+        _closure1_slot8 = entity;
         entity = undefined;
         return entity;
     };
     michal['ACTIVE_BOGO_PROMOTION_FETCH'] = option;
     option = function() { // Original name: handleActiveBogoPromotionFetchFail
-        zuuluu = _closure1_slot6;
         entity = null;
-        zuuluu['bogoPromotion'] = entity;
-        entity = false;
         _closure1_slot7 = entity;
+        entity = false;
+        _closure1_slot8 = entity;
         entity = undefined;
         return entity;
     };
     michal['ACTIVE_BOGO_PROMOTION_FETCH_FAIL'] = option;
     option = function() { // Original name: handleDismissOutboundPromotionNotice
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-            entity = _closure1_slot11;
+            entity = _closure1_slot12;
             michal = entity.length;
             entity = 0;
-            if(!(entity !== michal)) { _fun00020_ip = 40; continue _fun00019 }
+            if(!(entity !== michal)) { _fun00022_ip = 40; continue _fun00021 }
  18:
-            michal = _closure1_slot16;
+            michal = _closure1_slot17;
             entity = undefined;
             michal = michal.bind(entity)();
             tangon = null;
-            if(!(tangon != michal)) { _fun00020_ip = 38; continue _fun00019 }
+            if(!(tangon != michal)) { _fun00022_ip = 38; continue _fun00021 }
  34:
-            _closure1_slot12 = michal;
+            _closure1_slot13 = michal;
  38:
             return entity;
  40:
@@ -636,20 +660,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['OUTBOUND_PROMOTION_NOTICE_DISMISS'] = option;
     option = function() { // Original name: handleOutboundPromotionsSeen
-        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
-            entity = _closure1_slot11;
+            entity = _closure1_slot12;
             zuuluu = entity.length;
             entity = 0;
-            if(!(entity !== zuuluu)) { _fun00022_ip = 50; continue _fun00021 }
+            if(!(entity !== zuuluu)) { _fun00024_ip = 50; continue _fun00023 }
  18:
-            zuuluu = _closure1_slot16;
+            zuuluu = _closure1_slot17;
             entity = undefined;
             zuuluu = zuuluu.bind(entity)();
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00022_ip = 48; continue _fun00021 }
+            if(!(tangon != zuuluu)) { _fun00024_ip = 48; continue _fun00023 }
  34:
-            _closure1_slot12 = zuuluu;
+            _closure1_slot13 = zuuluu;
             michal = _closure1_slot6;
             michal['lastSeenOutboundPromotionStartDate'] = zuuluu;
  48:
@@ -662,15 +686,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['OUTBOUND_PROMOTIONS_SEEN'] = option;
     tangon = function() { // Original name: handleLogout
         zuuluu = false;
-        entity = null;
-        tangon = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null, 'bogoPromotion': null};
+        michal = null;
+        tangon = {'hasFetchedConsumedInboundPromotionId': false, 'consumedInboundPromotionId': null, 'lastSeenOutboundPromotionStartDate': null};
         _closure1_slot6 = tangon;
-        _closure1_slot9 = zuuluu;
-        _closure1_slot10 = entity;
-        _closure1_slot7 = zuuluu;
-        _closure1_slot8 = entity;
-        entity = new Array(0);
-        _closure1_slot11 = entity;
+        _closure1_slot10 = zuuluu;
+        _closure1_slot11 = michal;
+        _closure1_slot8 = zuuluu;
+        _closure1_slot9 = michal;
+        zuuluu = new Array(0);
+        _closure1_slot12 = zuuluu;
+        _closure1_slot7 = michal;
         entity = undefined;
         return entity;
     };

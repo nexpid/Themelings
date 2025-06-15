@@ -13,14 +13,14 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 1;
+    entity = 2;
     tangon = tangon[entity];
     entity = undefined;
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/explicit_media_redaction/SensitiveMediaRedactionSettingUtils.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: getShouldObscureForSetting
+    tangon = function(argFoo) { // Original name: getShouldObscureForSetting
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = argFoo;
@@ -46,6 +46,20 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getShouldObscureForSetting'] = michal;
+    zuuluu['getShouldObscureForSetting'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: areSettingsEqual
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 1;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.isEqual;
+        michal = argFoo;
+        entity = argBar;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    zuuluu['areSettingsEqual'] = michal;
     return entity;
 })();

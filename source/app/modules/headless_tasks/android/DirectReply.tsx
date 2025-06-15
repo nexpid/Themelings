@@ -17,6 +17,11 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
     var _closure1_slot3 = report;
     report = 2;
     report = tangon[report];
+    report = zuuluu.bind(entity)(report);
+    report = report.MessageSendLocation;
+    var _closure1_slot4 = report;
+    report = 3;
+    report = tangon[report];
     golfie = oscard.bind(entity)(report);
     report = golfie.prototype;
     oscard = Object.create(report, {constructor: {value: golfie}});
@@ -24,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
     verify = oscard;
     report = new verify[golfie](option, golfie);
     report = report instanceof Object ? report : oscard;
-    var _closure1_slot4 = report;
+    var _closure1_slot5 = report;
     report = function(argFoo) {
         michal = argFoo;
         var _closure2_slot0 = michal;
@@ -35,19 +40,19 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
         tangon = function(argFoo) {
             entity = argFoo;
             var _closure3_slot0 = entity;
-            oscard = _closure1_slot4;
-            report = oscard.log;
-            zuuluu = _closure2_slot0;
-            tangon = 'Executing DirectReply with ';
-            tangon = report.bind(oscard)(tangon, zuuluu);
-            tangon = _closure1_slot3;
-            report = tangon.PushNotificationAndroid;
+            report = _closure1_slot5;
+            tangon = report.log;
+            zuuluu = 'Executing DirectReply';
+            zuuluu = tangon.bind(report)(zuuluu);
+            zuuluu = _closure1_slot3;
+            report = zuuluu.PushNotificationAndroid;
             tangon = report.markNotificationAsDirectReply;
+            zuuluu = _closure2_slot0;
             zuuluu = zuuluu.channelId;
             zuuluu = tangon.bind(report)(zuuluu);
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            entity = 3;
+            entity = 4;
             zuuluu = zuuluu[entity];
             entity = undefined;
             tangon = tangon.bind(entity)(zuuluu);
@@ -64,11 +69,11 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                                 StartGenerator();
                                 verify = argFoo;
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00002_ip = 243; continue _fun00001 }
+                                if(michal) { _fun00002_ip = 257; continue _fun00001 }
  13:
                                 report = _closure1_slot0;
                                 zuuluu = _closure1_slot1;
-                                michal = 4;
+                                michal = 5;
                                 michal = zuuluu[michal];
                                 zuuluu = undefined;
                                 offset = report.bind(zuuluu)(michal);
@@ -85,26 +90,29 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                                 oscard['validNonShortcutEmojis'] = michal;
                                 michal = {};
                                 michal['eagerDispatch'] = report;
+                                yankee = _closure1_slot4;
+                                yankee = yankee.PUSH_NOTIFICATION;
+                                michal['location'] = yankee;
                                 sizing = offset;
                                 backup = oscard;
                                 foxtra = false;
                                 romeon = michal;
                                 michal = sizing[option](kiloes, backup, foxtra, romeon, yankee);
-                                SaveGenerator(address=114);
- 112:
+                                SaveGenerator(address=128);
+ 126:
                                 return michal;
- 114:
+ 128:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                                if(report) { _fun00002_ip = 240; continue _fun00001 }
- 120:
-                                option = _closure1_slot4;
+                                if(report) { _fun00002_ip = 254; continue _fun00001 }
+ 134:
+                                option = _closure1_slot5;
                                 golfie = option.log;
                                 oscard = michal.ok;
                                 report = 'Sent message, ok:';
                                 report = golfie.bind(option)(report, oscard);
                                 report = michal.ok;
-                                if(!report) { _fun00002_ip = 223; continue _fun00001 }
- 157:
+                                if(!report) { _fun00002_ip = 237; continue _fun00001 }
+ 171:
                                 tangon = _closure1_slot3;
                                 oscard = tangon.PushNotificationAndroid;
                                 report = oscard.handleDirectReplySuccess;
@@ -120,14 +128,14 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                                 verify = copyDataProperties(kiloes, backup);
                                 tangon = golfie.bind(option)(tangon);
                                 tangon = report.bind(oscard)(tangon);
- 223:
+ 237:
                                 report = _closure3_slot0;
                                 tangon = true;
                                 tangon = report.bind(zuuluu)(tangon);
                                 return zuuluu;
- 240:
+ 254:
                                 return michal;
- 243:
+ 257:
                                 return entity;
                             }
                         };
@@ -143,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
                     return entity;
                 };
                 var _closure4_slot0 = michal;
-                tangon = _closure1_slot4;
+                tangon = _closure1_slot5;
                 zuuluu = tangon.log;
                 michal = 'Storage loaded';
                 michal = zuuluu.bind(tangon)(michal);
@@ -172,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, __, argPlu) {
     };
     michal = argGra;
     michal['exports'] = report;
-    michal = 5;
+    michal = 6;
     michal = tangon[michal];
     tangon = zuuluu.bind(entity)(michal);
     zuuluu = tangon.fileFinishedImporting;

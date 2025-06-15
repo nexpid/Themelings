@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.bind(entity)(option);
     option = option.ReportToModPermissions;
     var _closure1_slot7 = option;
-    option = 12;
+    option = 13;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
@@ -291,16 +291,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: isSafeToTransitionToReportForCurrentUser
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            oscard = argFoo;
+            report = argFoo;
             zuuluu = null;
-            if(!(zuuluu != oscard)) { _fun00014_ip = 146; continue _fun00013 }
+            if(!(zuuluu != report)) { _fun00014_ip = 171; continue _fun00013 }
  12:
             tangon = _closure1_slot0;
-            report = _closure1_slot2;
+            oscard = _closure1_slot2;
             entity = 9;
-            entity = report[entity];
-            report = undefined;
-            tangon = tangon.bind(report)(entity);
+            entity = oscard[entity];
+            golfie = undefined;
+            tangon = tangon.bind(golfie)(entity);
             entity = tangon.isCurrentUserTeen;
             entity = entity.bind(tangon)();
             if(entity) { _fun00014_ip = 54; continue _fun00013 }
@@ -309,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
  54:
             entity = _closure1_slot8;
-            entity = entity.bind(report)(oscard);
+            entity = entity.bind(golfie)(report);
             if(entity) { _fun00014_ip = 70; continue _fun00013 }
  66:
             entity = true;
@@ -317,27 +317,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  70:
             tangon = _closure1_slot3;
             entity = tangon.getMessage;
-            tangon = entity.bind(tangon)(oscard);
+            tangon = entity.bind(tangon)(report);
             entity = tangon.loaded;
-            tangon = tangon.firstMessage;
+            report = tangon.firstMessage;
             entity = !entity;
             if(entity) { _fun00014_ip = 107; continue _fun00013 }
  103:
-            entity = zuuluu == tangon;
+            entity = zuuluu == report;
  107:
-            if(entity) { _fun00014_ip = 144; continue _fun00013 }
+            if(entity) { _fun00014_ip = 169; continue _fun00013 }
  110:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
+            oscard = _closure1_slot0;
+            option = _closure1_slot2;
             michal = 10;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.hasExplicitMedia;
-            michal = michal.bind(zuuluu)(tangon);
+            michal = option[michal];
+            tangon = oscard.bind(golfie)(michal);
+            zuuluu = tangon.messageHasObscurableMediaForBitmask;
+            michal = 11;
+            michal = option[michal];
+            michal = oscard.bind(golfie)(michal);
+            michal = michal.ContentHarmTypeBitMask;
+            michal = michal.EXPLICIT;
+            michal = zuuluu.bind(tangon)(report, michal);
             entity = !michal;
- 144:
+ 169:
             return entity;
- 146:
+ 171:
             entity = true;
             return entity;
         }
@@ -378,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = entity.id;
                 tangon = _closure1_slot0;
                 entity = _closure1_slot2;
-                oscard = 11;
+                oscard = 12;
                 entity = entity[oscard];
                 report = undefined;
                 entity = tangon.bind(report)(entity);

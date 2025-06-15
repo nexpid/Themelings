@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = report.BLOCK;
     tangon[oscard] = report;
     var _closure1_slot6 = tangon;
-    report = function(argFoo) { // Original name: resolveSettingWithDefaults
+    report = function(argFoo) { // Original name: resolveExplicitContentSettingWithDefaults
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(report)(michal);
             michal = michal.ExplicitContentRedaction;
             michal = michal.UNSET_EXPLICIT_CONTENT_REDACTION;
-            if(!(entity === michal)) { _fun00002_ip = 295; continue _fun00001 }
+            if(!(entity === michal)) { _fun00002_ip = 297; continue _fun00001 }
  83:
             option = _closure1_slot2;
             michal = option.getCurrentUser;
@@ -167,40 +167,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.isEligibleForSensitiveContentDefaultsMixed;
             offset = 'resolveSettingWithDefaults';
             option = option.bind(verify)(offset);
-            if(option) { _fun00002_ip = 272; continue _fun00001 }
- 140:
+            if(option) { _fun00002_ip = 274; continue _fun00001 }
+ 142:
             verify = _closure1_slot0;
             option = _closure1_slot1;
             option = option[yankee];
             verify = verify.bind(report)(option);
             option = verify.isEligibleForSensitiveContentDefaultsAllBlur;
             option = option.bind(verify)(offset);
-            if(option) { _fun00002_ip = 238; continue _fun00001 }
- 171:
+            if(option) { _fun00002_ip = 240; continue _fun00001 }
+ 173:
             option = tangon == michal;
             tangon = undefined;
-            if(option) { _fun00002_ip = 186; continue _fun00001 }
- 180:
+            if(option) { _fun00002_ip = 188; continue _fun00001 }
+ 182:
             tangon = michal.nsfwAllowed;
- 186:
+ 188:
             michal = false;
-            if(!(michal !== tangon)) { _fun00002_ip = 215; continue _fun00001 }
- 192:
+            if(!(michal !== tangon)) { _fun00002_ip = 217; continue _fun00001 }
+ 194:
             tangon = _closure1_slot8;
             michal = {};
             michal['isDm'] = golfie;
             michal['isFriend'] = oscard;
             michal = tangon.bind(report)(michal);
-            _fun00002_ip = 236; continue _fun00001;
- 215:
+            _fun00002_ip = 238; continue _fun00001;
+ 217:
             option = _closure1_slot9;
             tangon = {};
             tangon['isDm'] = golfie;
             tangon['isFriend'] = oscard;
             michal = option.bind(report)(tangon);
- 236:
-            _fun00002_ip = 270; continue _fun00001;
  238:
+            _fun00002_ip = 272; continue _fun00001;
+ 240:
             option = _closure1_slot0;
             verify = _closure1_slot1;
             tangon = 2;
@@ -208,17 +208,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = option.bind(report)(tangon);
             tangon = tangon.ExplicitContentRedaction;
             michal = tangon.BLUR;
- 270:
-            _fun00002_ip = 293; continue _fun00001;
  272:
+            _fun00002_ip = 295; continue _fun00001;
+ 274:
             tangon = _closure1_slot10;
             zuuluu = {};
             zuuluu['isDm'] = golfie;
             zuuluu['isFriend'] = oscard;
             michal = tangon.bind(report)(zuuluu);
- 293:
-            return michal;
  295:
+            return michal;
+ 297:
             return entity;
         }
     };
@@ -353,28 +353,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot10 = tangon;
-    tangon = function() { // Original name: getExplicitContentSettingOrDefault
+    tangon = function(argFoo) { // Original name: getExplicitContentSettingOrDefault
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
+            oscard = argFoo;
+            report = null;
+            if(!(report == oscard)) { _fun00010_ip = 50; continue _fun00009 }
+ 9:
             zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
+            michal = _closure1_slot1;
             entity = 4;
-            entity = tangon[entity];
-            tangon = undefined;
-            entity = zuuluu.bind(tangon)(entity);
-            zuuluu = entity.ExplicitContentSettings;
-            entity = zuuluu.getSetting;
-            oscard = entity.bind(zuuluu)();
+            michal = michal[entity];
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+            michal = entity.ExplicitContentSettings;
+            entity = michal.getSetting;
+            oscard = entity.bind(michal)();
+ 50:
             entity = {};
             golfie = _closure1_slot7;
             zuuluu = {};
-            report = null;
             verify = report == oscard;
+            tangon = undefined;
             option = undefined;
-            if(verify) { _fun00010_ip = 66; continue _fun00009 }
- 60:
+            if(verify) { _fun00010_ip = 78; continue _fun00009 }
+ 72:
             option = oscard.explicitContentGuilds;
- 66:
+ 78:
             zuuluu['setting'] = option;
             zuuluu = golfie.bind(tangon)(zuuluu);
             entity['explicitContentGuilds'] = zuuluu;
@@ -382,10 +387,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = {};
             verify = report == oscard;
             option = undefined;
-            if(verify) { _fun00010_ip = 102; continue _fun00009 }
- 96:
+            if(verify) { _fun00010_ip = 114; continue _fun00009 }
+ 108:
             option = oscard.explicitContentNonFriendDm;
- 102:
+ 114:
             zuuluu['setting'] = option;
             option = true;
             zuuluu['isDm'] = option;
@@ -395,10 +400,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {'setting': null, 'isDm': true, 'isFriend': true};
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00010_ip = 157; continue _fun00009 }
- 151:
+            if(golfie) { _fun00010_ip = 165; continue _fun00009 }
+ 159:
             report = oscard.explicitContentFriendDm;
- 157:
+ 165:
             michal['setting'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity['explicitContentFriendDm'] = michal;
@@ -412,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = option.fileFinishedImporting;
     oscard = 'modules/explicit_media_redaction/SensitiveMediaExplicitRedactionSettingsUtils.tsx';
     oscard = golfie.bind(option)(oscard);
-    zuuluu['resolveSettingWithDefaults'] = report;
+    zuuluu['resolveExplicitContentSettingWithDefaults'] = report;
     zuuluu['getExplicitContentSettingOrDefault'] = tangon;
     tangon = function(argFoo) {
         zuuluu = _closure1_slot11;

@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(13);
+        entity = new Array(14);
         entity[0] = report;
         report = {};
         golfie = 'getMessage';
@@ -702,6 +702,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[11] = report;
         report = {};
+        golfie = 'getShowNoResultsAlt';
+        report['key'] = golfie;
+        golfie = function(argFoo) { // Original name: value
+            tangon = _closure1_slot17;
+            zuuluu = undefined;
+            michal = argFoo;
+            entity = function(argFoo) {
+                entity = argFoo;
+                entity = entity.showNoResultsAlt;
+                return entity;
+            };
+            entity = tangon.bind(zuuluu)(michal, entity);
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[12] = report;
+        report = {};
         golfie = 'getLastSearchAnalyticsId';
         report['key'] = golfie;
         oscard = function() { // Original name: value
@@ -709,7 +726,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[12] = report;
+        entity[13] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

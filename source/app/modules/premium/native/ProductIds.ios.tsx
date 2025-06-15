@@ -611,6 +611,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     zuuluu['SubscriptionProductIds'] = oscard;
     zuuluu['AppStorePremiumProductIdsToPremiumBundledItems'] = report;
     zuuluu['TrialIdToProductOfferId'] = tangon;
+    tangon = 'premium-tier-2-monthly-bogo';
+    zuuluu['BOGO_OFFER_ID'] = tangon;
     michal = function(argFoo) { // Original name: getProductIdForGift
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:

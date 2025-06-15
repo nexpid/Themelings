@@ -2056,7 +2056,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = offset[oscard];
                         oscard = verify.bind(entity)(oscard);
                         oscard = oscard.t;
-                        oscard = oscard.Aoo5dH;
+                        oscard = oscard.6+JeWV;
                         report = golfie.bind(option)(oscard);
  203:
                         michal['content'] = report;
@@ -2092,7 +2092,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = 51;
                                 michal = oscard[michal];
                                 michal = zuuluu.bind(report)(michal);
-                                zuuluu = michal.EducationIcon;
+                                zuuluu = michal.LightbulbIcon;
                                 michal = {};
                                 entity = tangon.bind(report)(zuuluu, michal);
  131:

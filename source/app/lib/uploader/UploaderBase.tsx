@@ -1137,7 +1137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = argFoo;
                     tangon = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 383; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 385; continue _fun00029 }
  18:
                     var _closure4_slot0 = yankee;
                     golfie = _closure1_slot11;
@@ -1161,8 +1161,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     oscard = report.bind(oscard)(zuuluu);
                     zuuluu = null;
-                    if(!(zuuluu != oscard)) { _fun00030_ip = 375; continue _fun00029 }
- 109:
+                    if(!(zuuluu != oscard)) { _fun00030_ip = 377; continue _fun00029 }
+ 110:
                     report = oscard.status;
                     option = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -1172,8 +1172,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = option.bind(golfie)(zuuluu);
                     zuuluu = zuuluu.CloudUploadStatus;
                     zuuluu = zuuluu.CANCELED;
-                    if(!(report !== zuuluu)) { _fun00030_ip = 375; continue _fun00029 }
- 155:
+                    if(!(report !== zuuluu)) { _fun00030_ip = 377; continue _fun00029 }
+ 156:
                     report = tangon.files;
                     zuuluu = report.indexOf;
                     romeon = zuuluu.bind(report)(oscard);
@@ -1208,13 +1208,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(golfie)(michal);
                     michal = zuuluu.cancelGetAttachmentFile;
                     michal = michal.bind(zuuluu)(oscard);
-                    SaveGenerator(address=310);
- 308:
-                    return michal;
+                    SaveGenerator(address=312);
  310:
+                    return michal;
+ 312:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00030_ip = 380; continue _fun00029 }
- 316:
+                    if(zuuluu) { _fun00030_ip = 382; continue _fun00029 }
+ 318:
                     zuuluu = oscard.cancel;
                     zuuluu = zuuluu.bind(oscard)();
                     golfie = tangon.emit;
@@ -1223,16 +1223,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = golfie.bind(tangon)(zuuluu, oscard);
                     zuuluu = tangon.files;
                     zuuluu = zuuluu.length;
-                    if(!(report === zuuluu)) { _fun00030_ip = 375; continue _fun00029 }
- 365:
+                    if(!(report === zuuluu)) { _fun00030_ip = 377; continue _fun00029 }
+ 367:
                     zuuluu = tangon.cancel;
                     zuuluu = zuuluu.bind(tangon)();
- 375:
+ 377:
                     zuuluu = undefined;
                     return zuuluu;
- 380:
+ 382:
                     return michal;
- 383:
+ 385:
                     return entity;
                 }
             };

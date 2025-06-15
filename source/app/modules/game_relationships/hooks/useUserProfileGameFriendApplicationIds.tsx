@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 michal = _closure2_slot1;
-                if(michal) { _fun00004_ip = 35; continue _fun00003 }
+                if(michal) { _fun00004_ip = 33; continue _fun00003 }
  10:
                 zuuluu = _closure2_slot2;
                 michal = zuuluu.map;
@@ -104,10 +104,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(zuuluu)(entity);
-                _fun00004_ip = 42; continue _fun00003;
- 35:
+                _fun00004_ip = 40; continue _fun00003;
+ 33:
                 entity = _closure1_slot5;
- 42:
+ 40:
                 return entity;
             }
         };

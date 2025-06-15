@@ -1020,10 +1020,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(zuuluu)(entity);
                 entity = null;
                 zuuluu = entity != michal;
-                if(!zuuluu) { _fun00032_ip = 51; continue _fun00031 }
- 46:
+                if(!zuuluu) { _fun00032_ip = 52; continue _fun00031 }
+ 47:
                 entity = michal.channel;
- 51:
+ 52:
                 return entity;
             }
         };

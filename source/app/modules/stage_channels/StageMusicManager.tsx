@@ -52,36 +52,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.getVoiceChannelId;
             golfie = entity.bind(zuuluu)();
             zuuluu = null;
-            if(!(zuuluu != golfie)) { _fun00004_ip = 447; continue _fun00003 }
+            if(!(zuuluu != golfie)) { _fun00004_ip = 448; continue _fun00003 }
  26:
             tangon = _closure1_slot7;
             entity = tangon.getChannel;
             tangon = entity.bind(tangon)(golfie);
-            if(!(zuuluu != tangon)) { _fun00004_ip = 423; continue _fun00003 }
+            if(!(zuuluu != tangon)) { _fun00004_ip = 424; continue _fun00003 }
  47:
             entity = tangon.isGuildStageVoice;
             entity = entity.bind(tangon)();
-            if(!entity) { _fun00004_ip = 423; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 424; continue _fun00003 }
  63:
             tangon = _closure1_slot8;
             entity = tangon.isSelfDeaf;
             entity = entity.bind(tangon)();
-            if(entity) { _fun00004_ip = 399; continue _fun00003 }
+            if(entity) { _fun00004_ip = 400; continue _fun00003 }
  83:
             tangon = _closure1_slot13;
             entity = tangon.shouldPlay;
             entity = entity.bind(tangon)();
-            if(entity) { _fun00004_ip = 342; continue _fun00003 }
+            if(entity) { _fun00004_ip = 343; continue _fun00003 }
  103:
             tangon = _closure1_slot12;
             entity = tangon.isLive;
             entity = entity.bind(tangon)(golfie);
-            if(entity) { _fun00004_ip = 318; continue _fun00003 }
+            if(entity) { _fun00004_ip = 319; continue _fun00003 }
  124:
             tangon = _closure1_slot13;
             entity = tangon.isMuted;
             entity = entity.bind(tangon)();
-            if(entity) { _fun00004_ip = 294; continue _fun00003 }
+            if(entity) { _fun00004_ip = 295; continue _fun00003 }
  144:
             entity = global;
             report = entity.Object;
@@ -108,11 +108,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity = tangon.bind(report)(entity);
             entity = zuuluu != entity;
-            if(entity) { _fun00004_ip = 267; continue _fun00003 }
- 203:
+            if(entity) { _fun00004_ip = 268; continue _fun00003 }
+ 204:
             zuuluu = _closure1_slot15;
-            if(zuuluu) { _fun00004_ip = 267; continue _fun00003 }
- 210:
+            if(zuuluu) { _fun00004_ip = 268; continue _fun00003 }
+ 211:
             tangon = _closure1_slot16;
             oscard = _closure1_slot14;
             report = _closure1_slot8;
@@ -126,19 +126,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)();
             zuuluu = true;
             _closure1_slot15 = zuuluu;
-            _fun00004_ip = 290; continue _fun00003;
- 267:
-            if(!entity) { _fun00004_ip = 290; continue _fun00003 }
- 270:
+            _fun00004_ip = 291; continue _fun00003;
+ 268:
+            if(!entity) { _fun00004_ip = 291; continue _fun00003 }
+ 271:
             zuuluu = _closure1_slot16;
             entity = zuuluu.pause;
             entity = entity.bind(zuuluu)();
             entity = false;
             _closure1_slot15 = entity;
- 290:
+ 291:
             entity = undefined;
             return entity;
- 294:
+ 295:
             zuuluu = _closure1_slot16;
             entity = zuuluu.pause;
             entity = entity.bind(zuuluu)();
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _closure1_slot15 = entity;
             entity = undefined;
             return entity;
- 318:
+ 319:
             zuuluu = _closure1_slot16;
             entity = zuuluu.stop;
             entity = entity.bind(zuuluu)();
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _closure1_slot15 = entity;
             entity = undefined;
             return entity;
- 342:
+ 343:
             tangon = _closure1_slot16;
             report = _closure1_slot14;
             zuuluu = _closure1_slot8;
@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = true;
             _closure1_slot15 = zuuluu;
             return entity;
- 399:
+ 400:
             zuuluu = _closure1_slot16;
             entity = zuuluu.stop;
             entity = entity.bind(zuuluu)();
@@ -177,7 +177,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _closure1_slot15 = entity;
             entity = undefined;
             return entity;
- 423:
+ 424:
             zuuluu = _closure1_slot16;
             entity = zuuluu.stop;
             entity = entity.bind(zuuluu)();
@@ -185,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _closure1_slot15 = entity;
             entity = undefined;
             return entity;
- 447:
+ 448:
             zuuluu = _closure1_slot16;
             entity = zuuluu.stop;
             entity = entity.bind(zuuluu)();
@@ -562,14 +562,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             zuuluu = oscard.bind(golfie)(report, zuuluu);
-            if(!entity) { _fun00016_ip = 181; continue _fun00015 }
- 177:
+            if(!entity) { _fun00016_ip = 182; continue _fun00015 }
+ 178:
             entity = tangon == zuuluu;
- 181:
-            if(!entity) { _fun00016_ip = 187; continue _fun00015 }
- 184:
+ 182:
+            if(!entity) { _fun00016_ip = 188; continue _fun00015 }
+ 185:
             entity = !michal;
- 187:
+ 188:
             return entity;
         }
     };
@@ -608,14 +608,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot12;
             zuuluu = report.getStageInstanceByChannel;
             zuuluu = zuuluu.bind(report)(oscard);
-            if(!entity) { _fun00018_ip = 121; continue _fun00017 }
- 117:
+            if(!entity) { _fun00018_ip = 122; continue _fun00017 }
+ 118:
             entity = tangon == zuuluu;
- 121:
-            if(!entity) { _fun00018_ip = 127; continue _fun00017 }
- 124:
+ 122:
+            if(!entity) { _fun00018_ip = 128; continue _fun00017 }
+ 125:
             entity = !michal;
- 127:
+ 128:
             return entity;
         }
     };

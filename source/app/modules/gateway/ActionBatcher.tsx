@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  49:
             michal = zuuluu.@@iterator;
  55:
-            if(michal) { _fun00002_ip = 345; continue _fun00001 }
+            if(michal) { _fun00002_ip = 343; continue _fun00001 }
  61:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 345:
+ 343:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure3_slot1 = tangon;
                 michal = null;
                 zuuluu['action'] = michal;
-                if(!(michal != tangon)) { _fun00008_ip = 83; continue _fun00007 }
+                if(!(michal != tangon)) { _fun00008_ip = 81; continue _fun00007 }
  30:
                 report = _closure1_slot0;
                 zuuluu = _closure1_slot1;
@@ -269,7 +269,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(zuuluu)(entity);
- 83:
+ 81:
                 entity = undefined;
                 return entity;
             }

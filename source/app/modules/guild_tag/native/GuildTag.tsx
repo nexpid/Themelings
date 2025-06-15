@@ -69,10 +69,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         foxtra = oscard.bind(romeon)();
         oscard = 16;
         romeon = oscard;
-        if(!foxtra) { _fun00002_ip = 287; continue _fun00001 }
- 284:
+        if(!foxtra) { _fun00002_ip = 288; continue _fun00001 }
+ 285:
         romeon = 14;
- 287:
+ 288:
         yankee['lineHeight'] = romeon;
         romeon = 'hidden';
         yankee['overflow'] = romeon;

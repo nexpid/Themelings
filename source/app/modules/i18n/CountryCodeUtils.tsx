@@ -28,10 +28,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00002_ip = 56; continue _fun00001 }
- 54:
+            if(!(zuuluu == michal)) { _fun00002_ip = 57; continue _fun00001 }
+ 55:
             return entity;
- 56:
+ 57:
             entity = {};
             zuuluu = michal.name;
             entity['name'] = zuuluu;
@@ -4419,10 +4419,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00004_ip = 56; continue _fun00003 }
- 54:
+            if(!(zuuluu == michal)) { _fun00004_ip = 57; continue _fun00003 }
+ 55:
             return entity;
- 56:
+ 57:
             entity = {};
             zuuluu = michal.name;
             entity['name'] = zuuluu;

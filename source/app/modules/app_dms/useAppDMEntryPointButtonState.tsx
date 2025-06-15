@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ApplicationFlags;
     var _closure1_slot6 = tangon;
-    tangon = 16;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -158,40 +158,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = output.id;
             golfie = michal === entity;
  290:
-            if(!golfie) { _fun00002_ip = 395; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 343; continue _fun00001 }
  293:
-            entity = report.location;
-            michal = entity.kind;
-            tangon = _closure1_slot0;
-            sizing = _closure1_slot2;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 8;
-            entity = sizing[entity];
-            entity = tangon.bind(backup)(entity);
-            entity = entity.EmbeddedActivityLocationKind;
-            entity = entity.CONTEXTLESS;
-            entity = michal === entity;
-            if(entity) { _fun00002_ip = 392; continue _fun00001 }
- 342:
-            tangon = _closure1_slot0;
-            sizing = _closure1_slot2;
-            michal = 9;
-            michal = sizing[michal];
-            sizing = tangon.bind(backup)(michal);
-            tangon = sizing.getEmbeddedActivityLocationChannelId;
-            michal = report.location;
-            tangon = tangon.bind(sizing)(michal);
-            michal = result.channel;
-            michal = michal.id;
-            entity = tangon === michal;
- 392:
-            golfie = entity;
- 395:
+            entity = tangon[entity];
+            tangon = michal.bind(backup)(entity);
+            michal = tangon.getEmbeddedActivityLocationChannelId;
+            entity = report.location;
+            michal = michal.bind(tangon)(entity);
+            entity = result.channel;
+            entity = entity.id;
+            golfie = michal === entity;
+ 343:
             tangon = _closure1_slot1;
             sizing = _closure1_slot2;
-            entity = 10;
+            entity = 9;
             entity = sizing[entity];
             michal = tangon.bind(backup)(entity);
-            entity = 11;
+            entity = 10;
             entity = sizing[entity];
             entity = tangon.bind(backup)(entity);
             entity = entity.APP_DMS_ENTRY_POINT_COMMAND_BUTTON;
@@ -201,17 +187,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.recipients;
             entity = yankee != entity;
             tangon = undefined;
-            if(!entity) { _fun00002_ip = 479; continue _fun00001 }
- 464:
+            if(!entity) { _fun00002_ip = 427; continue _fun00001 }
+ 412:
             entity = result.channel;
             entity = entity.recipients;
             tangon = entity[romeon];
- 479:
+ 427:
             entity = {};
             entity['isExecutingLaunchInteraction'] = option;
             romeon = _closure1_slot0;
             sizing = _closure1_slot2;
-            option = 12;
+            option = 11;
             option = sizing[option];
             sizing = romeon.bind(backup)(option);
             romeon = sizing.useIsPrimaryAppCommandUsableInAppDM;
@@ -221,10 +207,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['applicationId'] = output;
             option['botUserId'] = tangon;
             option = romeon.bind(sizing)(option);
-            if(!option) { _fun00002_ip = 543; continue _fun00001 }
- 540:
-            if(oscard) { _fun00002_ip = 577; continue _fun00001 }
- 543:
+            if(!option) { _fun00002_ip = 491; continue _fun00001 }
+ 488:
+            if(oscard) { _fun00002_ip = 525; continue _fun00001 }
+ 491:
             romeon = _closure1_slot0;
             option = _closure1_slot2;
             option = option[kiloes];
@@ -232,12 +218,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = option.intl;
             option = romeon.string;
             option = option.bind(romeon)(foxtra);
-            _fun00002_ip = 693; continue _fun00001;
- 577:
-            if(golfie) { _fun00002_ip = 638; continue _fun00001 }
- 580:
-            if(!(yankee == verify)) { _fun00002_ip = 636; continue _fun00001 }
- 584:
+            _fun00002_ip = 641; continue _fun00001;
+ 525:
+            if(golfie) { _fun00002_ip = 586; continue _fun00001 }
+ 528:
+            if(!(yankee == verify)) { _fun00002_ip = 584; continue _fun00001 }
+ 532:
             sizing = _closure1_slot0;
             yankee = _closure1_slot2;
             romeon = yankee[kiloes];
@@ -249,9 +235,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.t;
             yankee = yankee.zKX8Nj;
             verify = romeon.bind(foxtra)(yankee);
- 636:
-            _fun00002_ip = 690; continue _fun00001;
- 638:
+ 584:
+            _fun00002_ip = 638; continue _fun00001;
+ 586:
             foxtra = _closure1_slot0;
             offset = _closure1_slot2;
             yankee = offset[kiloes];
@@ -263,9 +249,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.t;
             offset = offset.Hi1/aW;
             verify = yankee.bind(romeon)(offset);
- 690:
+ 638:
             option = verify;
- 693:
+ 641:
             entity['buttonText'] = option;
             entity['hasActiveMatchingEmbeddedActivity'] = golfie;
             entity['isEmbeddedApp'] = oscard;
@@ -298,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot5 = verify;
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;
-            report = 12;
+            report = 11;
             oscard = oscard[report];
             report = undefined;
             golfie = golfie.bind(report)(oscard);
@@ -337,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = michal.bind(zuuluu)(entity);
                     michal = _closure1_slot1;
                     golfie = _closure1_slot2;
-                    entity = 14;
+                    entity = 13;
                     entity = golfie[entity];
                     michal = michal.bind(zuuluu)(entity);
                     entity = {};
@@ -359,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity['onExecutedCallback'] = oscard;
                     oscard = _closure1_slot0;
-                    report = 15;
+                    report = 14;
                     report = golfie[report];
                     report = oscard.bind(zuuluu)(report);
                     report = report.CommandOrigin;
@@ -370,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  156:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
-                    entity = 13;
+                    entity = 12;
                     entity = michal[entity];
                     michal = undefined;
                     entity = zuuluu.bind(michal)(entity);

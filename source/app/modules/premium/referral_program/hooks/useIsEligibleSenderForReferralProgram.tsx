@@ -70,10 +70,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = tangon.bind(report)(zuuluu, michal);
-            if(!entity) { _fun00002_ip = 150; continue _fun00001 }
- 147:
+            if(!entity) { _fun00002_ip = 148; continue _fun00001 }
+ 145:
             entity = michal;
- 150:
+ 148:
             return entity;
         }
     };

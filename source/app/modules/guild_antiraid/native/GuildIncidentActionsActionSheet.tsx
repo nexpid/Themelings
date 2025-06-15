@@ -282,10 +282,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     zuuluu = null;
                     zuuluu = zuuluu == michal;
-                    if(zuuluu) { _fun00004_ip = 46; continue _fun00003 }
- 41:
+                    if(zuuluu) { _fun00004_ip = 47; continue _fun00003 }
+ 42:
                     entity = michal.label;
- 46:
+ 47:
                     return entity;
                 }
             };

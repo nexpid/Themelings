@@ -430,11 +430,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = report;
     report = 7;
     report = verify[report];
-    report = oscard.bind(entity)(report);
-    var _closure1_slot9 = report;
+    offset = oscard.bind(entity)(report);
     report = 8;
     report = verify[report];
-    offset = oscard.bind(entity)(report);
+    report = oscard.bind(entity)(report);
+    var _closure1_slot9 = report;
     report = 9;
     report = verify[report];
     report = oscard.bind(entity)(report);

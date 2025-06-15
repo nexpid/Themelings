@@ -61,10 +61,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(zuuluu)(entity);
                 entity = null;
                 zuuluu = entity != michal;
-                if(!zuuluu) { _fun00002_ip = 38; continue _fun00001 }
- 35:
+                if(!zuuluu) { _fun00002_ip = 39; continue _fun00001 }
+ 36:
                 entity = michal;
- 38:
+ 39:
                 return entity;
             }
         };

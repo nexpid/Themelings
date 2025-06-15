@@ -227,28 +227,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: getTransformedUser
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            zuuluu = argFoo;
+            tangon = argFoo;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00010_ip = 354; continue _fun00009 }
+            if(!(entity != tangon)) { _fun00010_ip = 469; continue _fun00009 }
  12:
             oscard = _closure1_slot13;
             report = oscard.isBlockedOrIgnored;
-            michal = zuuluu.id;
+            michal = tangon.id;
             michal = report.bind(oscard)(michal);
-            if(michal) { _fun00010_ip = 354; continue _fun00009 }
+            if(michal) { _fun00010_ip = 469; continue _fun00009 }
  41:
             michal = {};
-            report = zuuluu.id;
+            report = tangon.id;
             michal['id'] = report;
-            oscard = zuuluu.discriminator;
+            oscard = tangon.discriminator;
             report = '0';
             if(!(report === oscard)) { _fun00010_ip = 75; continue _fun00009 }
  68:
-            report = zuuluu.username;
+            report = tangon.username;
             _fun00010_ip = 114; continue _fun00009;
  75:
-            offset = zuuluu.username;
-            verify = zuuluu.discriminator;
+            offset = tangon.username;
+            verify = tangon.discriminator;
             oscard = global;
             oscard = oscard.HermesInternal;
             option = oscard.concat;
@@ -264,24 +264,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = undefined;
             oscard = oscard.bind(golfie)(report);
             report = oscard.getGlobalName;
-            report = report.bind(oscard)(zuuluu);
+            report = report.bind(oscard)(tangon);
             if(!(entity != report)) { _fun00010_ip = 167; continue _fun00009 }
  155:
-            report = zuuluu.globalName;
+            report = tangon.globalName;
             michal['globalName'] = report;
  167:
-            report = zuuluu.bot;
+            report = tangon.bot;
             if(!report) { _fun00010_ip = 184; continue _fun00009 }
  176:
             report = true;
             michal['isBot'] = report;
  184:
             report = _closure1_slot10;
-            report = zuuluu instanceof report;
+            report = tangon instanceof report;
             if(report) { _fun00010_ip = 283; continue _fun00009 }
  195:
             report = 'flags';
-            report = report in zuuluu;
+            report = report in tangon;
             if(report) { _fun00010_ip = 216; continue _fun00009 }
  206:
             report = false;
@@ -292,40 +292,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot3;
             report = 13;
             report = option[report];
-            option = oscard.bind(golfie)(report);
-            golfie = option.hasFlag;
-            report = zuuluu.flags;
-            verify = entity != report;
+            verify = oscard.bind(golfie)(report);
+            option = verify.hasFlag;
+            report = tangon.flags;
+            offset = entity != report;
             oscard = 0;
-            if(!verify) { _fun00010_ip = 259; continue _fun00009 }
+            if(!offset) { _fun00010_ip = 259; continue _fun00009 }
  256:
             oscard = report;
  259:
             report = _closure1_slot15;
             report = report.PROVISIONAL_ACCOUNT;
-            report = golfie.bind(option)(oscard, report);
+            report = option.bind(verify)(oscard, report);
             michal['isProvisional'] = report;
             _fun00010_ip = 295; continue _fun00009;
  283:
-            report = zuuluu.isProvisional;
+            report = tangon.isProvisional;
             michal['isProvisional'] = report;
  295:
-            golfie = _closure1_slot13;
-            oscard = golfie.isFriend;
-            report = zuuluu.id;
-            report = oscard.bind(golfie)(report);
+            option = _closure1_slot13;
+            oscard = option.isFriend;
+            report = tangon.id;
+            report = oscard.bind(option)(report);
             if(!report) { _fun00010_ip = 352; continue _fun00009 }
  318:
             report = true;
             michal['isFriend'] = report;
-            report = _closure1_slot13;
-            tangon = report.getNickname;
-            zuuluu = zuuluu.id;
-            zuuluu = tangon.bind(report)(zuuluu);
-            michal['friendNickname'] = zuuluu;
+            option = _closure1_slot13;
+            oscard = option.getNickname;
+            report = tangon.id;
+            report = oscard.bind(option)(report);
+            michal['friendNickname'] = report;
  352:
+            report = _closure1_slot10;
+            report = tangon instanceof report;
+            if(report) { _fun00010_ip = 451; continue _fun00009 }
+ 363:
+            report = 'flags';
+            report = report in tangon;
+            if(report) { _fun00010_ip = 384; continue _fun00009 }
+ 374:
+            report = false;
+            michal['isStaff'] = report;
+            _fun00010_ip = 467; continue _fun00009;
+ 384:
+            oscard = _closure1_slot2;
+            option = _closure1_slot3;
+            report = 13;
+            report = option[report];
+            golfie = oscard.bind(golfie)(report);
+            oscard = golfie.hasFlag;
+            option = tangon.flags;
+            verify = entity != option;
+            report = 0;
+            if(!verify) { _fun00010_ip = 427; continue _fun00009 }
+ 424:
+            report = option;
+ 427:
+            zuuluu = _closure1_slot15;
+            zuuluu = zuuluu.STAFF;
+            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            michal['isStaff'] = zuuluu;
+            _fun00010_ip = 467; continue _fun00009;
+ 451:
+            zuuluu = tangon.isStaff;
+            zuuluu = zuuluu.bind(tangon)();
+            michal['isStaff'] = zuuluu;
+ 467:
             return michal;
- 354:
+ 469:
             return entity;
         }
     };

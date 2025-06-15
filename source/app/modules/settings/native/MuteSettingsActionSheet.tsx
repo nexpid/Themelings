@@ -562,7 +562,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(offset)(golfie);
             michal['children'] = golfie;
             offset = report.bind(tangon)(zuuluu, michal);
-            _fun00004_ip = 802; continue _fun00003;
+            _fun00004_ip = 803; continue _fun00003;
  446:
             report = _closure1_slot11;
             michal = _closure1_slot3;
@@ -639,19 +639,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update[vacuum];
             update = ctrled.bind(tangon)(update);
             update = update.MuteSettingType;
-            if(echoed) { _fun00004_ip = 772; continue _fun00003 }
- 764:
+            if(echoed) { _fun00004_ip = 773; continue _fun00003 }
+ 765:
             echoed = update.CHANNEL;
-            _fun00004_ip = 778; continue _fun00003;
- 772:
+            _fun00004_ip = 779; continue _fun00003;
+ 773:
             echoed = update.DM;
- 778:
+ 779:
             option['type'] = echoed;
             option = foxtra.bind(tangon)(romeon, option);
             golfie[1] = option;
             michal['children'] = golfie;
             offset = report.bind(tangon)(zuuluu, michal);
- 802:
+ 803:
             report = _closure1_slot3;
             zuuluu = report.useMemo;
             michal = new Array(1);
@@ -697,8 +697,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = offset;
             offset = true;
             verify = null;
-            if(!(offset === yankee)) { _fun00004_ip = 1292; continue _fun00003 }
- 950:
+            if(!(offset === yankee)) { _fun00004_ip = 1293; continue _fun00003 }
+ 951:
             romeon = _closure1_slot10;
             vacuum = _closure1_slot0;
             config = _closure1_slot2;
@@ -768,15 +768,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['children'] = source;
             result = update.bind(tangon)(echoed, result);
             foxtra['trailing'] = result;
-            if(sizing) { _fun00004_ip = 1272; continue _fun00003 }
- 1269:
+            if(sizing) { _fun00004_ip = 1273; continue _fun00003 }
+ 1270:
             sizing = output;
- 1272:
+ 1273:
             foxtra['disabled'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1292:
+ 1293:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

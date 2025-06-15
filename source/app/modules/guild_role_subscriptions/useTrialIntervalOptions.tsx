@@ -114,7 +114,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 if(!(entity == report)) { _fun00002_ip = 45; continue _fun00001 }
  39:
                 michal = _closure2_slot0;
-                _fun00002_ip = 79; continue _fun00001;
+                _fun00002_ip = 80; continue _fun00001;
  45:
                 report = zuuluu.find;
                 tangon = function(argFoo) {
@@ -146,12 +146,12 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 tangon = report.bind(zuuluu)(tangon);
                 report = entity == tangon;
                 entity = undefined;
-                if(report) { _fun00002_ip = 76; continue _fun00001 }
- 71:
+                if(report) { _fun00002_ip = 77; continue _fun00001 }
+ 72:
                 entity = tangon.value;
- 76:
+ 77:
                 michal = entity;
- 79:
+ 80:
                 entity = {};
                 entity['options'] = zuuluu;
                 entity['selectedOption'] = michal;

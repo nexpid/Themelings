@@ -3507,17 +3507,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = entity.canManageChannels;
                 michal = entity.guild;
                 entity = null;
-                if(!(entity != michal)) { _fun00058_ip = 536; continue _fun00057 }
+                if(!(entity != michal)) { _fun00058_ip = 537; continue _fun00057 }
  49:
                 michal = tangon.showVoiceSettings;
                 michal = michal.bind(tangon)();
-                if(!michal) { _fun00058_ip = 534; continue _fun00057 }
+                if(!michal) { _fun00058_ip = 535; continue _fun00057 }
  65:
-                if(!yankee) { _fun00058_ip = 534; continue _fun00057 }
+                if(!yankee) { _fun00058_ip = 535; continue _fun00057 }
  71:
                 michal = zuuluu.isGuildStageVoice;
                 michal = michal.bind(zuuluu)();
-                if(michal) { _fun00058_ip = 534; continue _fun00057 }
+                if(michal) { _fun00058_ip = 535; continue _fun00057 }
  87:
                 romeon = entity == report;
                 if(romeon) { _fun00058_ip = 105; continue _fun00057 }
@@ -3528,7 +3528,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  105:
                 zuuluu = entity != report;
                 michal = null;
-                if(!zuuluu) { _fun00058_ip = 131; continue _fun00057 }
+                if(!zuuluu) { _fun00058_ip = 132; continue _fun00057 }
  114:
                 tangon = report.find;
                 zuuluu = function(argFoo) {
@@ -3540,9 +3540,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal = tangon.bind(report)(zuuluu);
- 131:
-                if(!(entity == michal)) { _fun00058_ip = 197; continue _fun00057 }
- 135:
+ 132:
+                if(!(entity == michal)) { _fun00058_ip = 198; continue _fun00057 }
+ 136:
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
                 zuuluu = 34;
@@ -3556,10 +3556,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.t;
                 zuuluu = zuuluu.JEmsam;
                 kiloes = tangon.bind(report)(zuuluu);
-                _fun00058_ip = 202; continue _fun00057;
- 197:
+                _fun00058_ip = 203; continue _fun00057;
+ 198:
                 kiloes = michal.name;
- 202:
+ 203:
                 michal = new Array(0);
                 tangon = michal.push;
                 option = _closure1_slot49;
@@ -3621,10 +3621,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = option.bind(golfie)(backup, foxtra);
                 zuuluu['trailing'] = foxtra;
                 yankee = !yankee;
-                if(yankee) { _fun00058_ip = 489; continue _fun00057 }
- 486:
+                if(yankee) { _fun00058_ip = 490; continue _fun00057 }
+ 487:
                 yankee = romeon;
- 489:
+ 490:
                 zuuluu['disabled'] = yankee;
                 offset = function() { // Original name: onPress
                     zuuluu = _closure3_slot0;
@@ -3641,9 +3641,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = option.bind(golfie)(oscard, report, zuuluu);
                 zuuluu = tangon.bind(michal)(zuuluu);
                 return michal;
- 534:
+ 535:
                 return entity;
- 536:
+ 537:
                 return entity;
             }
         };

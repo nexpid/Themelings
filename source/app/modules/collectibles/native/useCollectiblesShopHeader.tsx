@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.bind(report)();
             _closure2_slot1 = golfie;
             report = _closure1_slot3;
-            tangon = report.useEffect;
+            tangon = report.useLayoutEffect;
             zuuluu = new Array(2);
             zuuluu[0] = golfie;
             zuuluu[1] = oscard;

@@ -415,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
-                michal = zuuluu.fetchUserAffinities;
+                michal = zuuluu.fetchUserAffinitiesV2;
                 michal = michal.bind(zuuluu)();
                 return entity;
             };
@@ -1507,7 +1507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = zuuluu.add;
                         report = _closure2_slot21;
                         report = report[entity];
-                        report = report.user_id;
+                        report = report.otherUserId;
                         report = oscard.bind(zuuluu)(report);
                         entity = entity + 1;
                         if(entity < tangon) { _fun00034_ip = 124; continue _fun00033 }

@@ -351,7 +351,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = null;
             if(!(backup != kiloes)) { _fun00004_ip = 741; continue _fun00003 }
  737:
-            if(!(backup == romeon)) { _fun00004_ip = 815; continue _fun00003 }
+            if(!(backup == romeon)) { _fun00004_ip = 818; continue _fun00003 }
  741:
             option = backup != sizing;
             golfie = null;
@@ -373,8 +373,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['deadline'] = sizing;
             golfie = yankee.bind(tangon)(offset, option);
  813:
-            _fun00004_ip = 915; continue _fun00003;
- 815:
+            _fun00004_ip = 949; continue _fun00003;
+ 818:
             yankee = _closure1_slot7;
             offset = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -384,24 +384,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option.IconButton;
             option = {};
             option['accessibilityLabel'] = kiloes;
-            if(!(backup == foxtra)) { _fun00004_ip = 893; continue _fun00003 }
- 855:
+            if(!(backup == foxtra)) { _fun00004_ip = 927; continue _fun00003 }
+ 858:
             sizing = _closure1_slot7;
             kiloes = _closure1_slot0;
-            output = _closure1_slot2;
+            echoed = _closure1_slot2;
             backup = 12;
-            backup = output[backup];
+            backup = echoed[backup];
             backup = kiloes.bind(tangon)(backup);
             kiloes = backup.ArrowSmallRightIcon;
             backup = {};
+            result = _closure1_slot1;
+            output = 5;
+            output = echoed[output];
+            output = result.bind(tangon)(output);
+            output = output.colors;
+            output = output.BUTTON_FILLED_BRAND_TEXT;
+            backup['color'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 893:
+ 927:
             option['icon'] = foxtra;
             foxtra = 'sm';
             option['size'] = foxtra;
             option['onPress'] = romeon;
             golfie = yankee.bind(tangon)(offset, option);
- 915:
+ 949:
             entity['trailing'] = golfie;
             option = _closure1_slot7;
             golfie = _closure1_slot0;

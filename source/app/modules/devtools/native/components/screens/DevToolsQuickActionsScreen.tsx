@@ -43,13 +43,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.updateTheme;
             report = _closure1_slot14;
             michal = argFoo;
-            if(michal) { _fun00002_ip = 49; continue _fun00001 }
+            if(michal) { _fun00002_ip = 48; continue _fun00001 }
  41:
             michal = report.DARK;
-            _fun00002_ip = 55; continue _fun00001;
- 49:
+            _fun00002_ip = 53; continue _fun00001;
+ 48:
             michal = report.LIGHT;
- 55:
+ 53:
             michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
@@ -567,8 +567,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = oscard.bind(golfie)(zuuluu, report);
-            if(michal) { _fun00008_ip = 2839; continue _fun00007 }
- 456:
+            if(michal) { _fun00008_ip = 2840; continue _fun00007 }
+ 457:
             report = _closure1_slot21;
             zuuluu = _closure1_slot6;
             michal = {};
@@ -648,10 +648,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.TableSwitchRow;
             output = {};
             sizing = 'Light Theme';
-            if(!romeon) { _fun00008_ip = 746; continue _fun00007 }
- 740:
+            if(!romeon) { _fun00008_ip = 747; continue _fun00007 }
+ 741:
             sizing = '(using system theme)';
- 746:
+ 747:
             output['label'] = sizing;
             output['disabled'] = romeon;
             ctrled = _closure1_slot20;
@@ -804,10 +804,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {};
             sizing = 'Change to en-US';
             vacuum = 'en-US';
-            if(!(vacuum === config)) { _fun00008_ip = 1208; continue _fun00007 }
- 1202:
+            if(!(vacuum === config)) { _fun00008_ip = 1209; continue _fun00007 }
+ 1203:
             sizing = 'Change to pt-BR';
- 1208:
+ 1209:
             romeon['label'] = sizing;
             sizing = 'Toggle to a non-english locale for change log testing, etc.';
             romeon['subLabel'] = sizing;
@@ -1046,8 +1046,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = kiloes.isAndroid;
             kiloes = romeon.bind(kiloes)();
             romeon = null;
-            if(!kiloes) { _fun00008_ip = 2318; continue _fun00007 }
- 2205:
+            if(!kiloes) { _fun00008_ip = 2319; continue _fun00007 }
+ 2206:
             sizing = _closure1_slot20;
             vacuum = _closure1_slot0;
             record = _closure1_slot2;
@@ -1078,7 +1078,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['onValueChange'] = source;
             romeon = sizing.bind(tangon)(kiloes, foxtra);
- 2318:
+ 2319:
             update[9] = romeon;
             foxtra = _closure1_slot20;
             sizing = _closure1_slot0;
@@ -1227,7 +1227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 2839:
+ 2840:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
             michal = 38;

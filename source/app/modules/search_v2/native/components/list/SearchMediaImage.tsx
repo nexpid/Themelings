@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  141:
             report = _closure1_slot0;
             golfie = _closure1_slot2;
-            tangon = 7;
+            tangon = 11;
             tangon = golfie[tangon];
             golfie = undefined;
             report = report.bind(golfie)(tangon);
@@ -280,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  212:
             offset = _closure1_slot0;
             tangon = _closure1_slot2;
-            report = 11;
+            report = 12;
             tangon = tangon[report];
             offset = offset.bind(golfie)(tangon);
             tangon = offset.isAndroid;
@@ -300,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  283:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            zuuluu = 12;
+            zuuluu = 13;
             tangon = yankee[zuuluu];
             tangon = offset.bind(golfie)(tangon);
             report = tangon.intl;
@@ -318,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot8;
             yankee = _closure1_slot0;
             echoed = _closure1_slot2;
-            offset = 13;
+            offset = 14;
             offset = echoed[offset];
             offset = yankee.bind(golfie)(offset);
             yankee = offset.ImageWithPlaceholder;
@@ -422,7 +422,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['sound'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot11 = tangon;
-    tangon = 20;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -447,7 +447,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = verify.height;
             offset = _closure1_slot1;
             sizing = _closure1_slot2;
-            option = 14;
+            option = 15;
             option = sizing[option];
             sizing = offset.bind(tangon)(option);
             option = null;
@@ -474,15 +474,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = option[zuuluu];
             option = _closure1_slot0;
             backup = _closure1_slot2;
-            zuuluu = 15;
+            zuuluu = 16;
             zuuluu = backup[zuuluu];
             offset = option.bind(tangon)(zuuluu);
             zuuluu = offset.getAttachmentThumbnailURI;
             offset = zuuluu.bind(offset)(verify, sizing, kiloes);
-            zuuluu = 16;
+            zuuluu = 17;
             zuuluu = backup[zuuluu];
             option = option.bind(tangon)(zuuluu);
-            zuuluu = option.useShouldRedactExplicitContent;
+            zuuluu = option.useEnabledHarmTypesBitmaskForChannelAndAuthorId;
             foxtra = zuuluu.bind(option)(foxtra, romeon);
             _closure2_slot1 = foxtra;
             romeon = _closure1_slot4;
@@ -493,7 +493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 7;
+                entity = 11;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -540,14 +540,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = entity.renderFallback;
         option = _closure1_slot0;
         foxtra = _closure1_slot2;
-        tangon = 17;
+        tangon = 18;
         verify = foxtra[tangon];
         tangon = undefined;
         offset = option.bind(tangon)(verify);
         verify = offset.getEmbedImage;
         verify = verify.bind(offset)(sizing);
         result = _closure1_slot1;
-        offset = 14;
+        offset = 15;
         offset = foxtra[offset];
         echoed = result.bind(tangon)(offset);
         offset = null;
@@ -568,15 +568,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         echoed = offset[zuuluu];
         zuuluu = 1;
         result = offset[zuuluu];
-        zuuluu = 15;
+        zuuluu = 16;
         zuuluu = foxtra[zuuluu];
         offset = option.bind(tangon)(zuuluu);
         zuuluu = offset.getEmbedMediaURI;
         offset = zuuluu.bind(offset)(verify, echoed, result);
-        zuuluu = 16;
+        zuuluu = 17;
         zuuluu = foxtra[zuuluu];
         option = option.bind(tangon)(zuuluu);
-        zuuluu = option.useShouldRedactExplicitContent;
+        zuuluu = option.useEnabledHarmTypesBitmaskForChannelAndAuthorId;
         foxtra = zuuluu.bind(option)(output, romeon);
         var _closure2_slot4 = foxtra;
         romeon = _closure1_slot4;
@@ -590,7 +590,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = function() {
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 7;
+            entity = 11;
             michal = michal[entity];
             entity = undefined;
             golfie = zuuluu.bind(entity)(michal);
@@ -658,7 +658,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = _closure1_slot8;
         oscard = _closure1_slot0;
         option = _closure1_slot2;
-        report = 18;
+        report = 19;
         report = option[report];
         report = oscard.bind(tangon)(report);
         oscard = report.CirclePlayIcon;
@@ -706,7 +706,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = _closure1_slot8;
         oscard = _closure1_slot0;
         verify = _closure1_slot2;
-        report = 19;
+        report = 20;
         report = verify[report];
         report = oscard.bind(tangon)(report);
         oscard = report.AttachmentIcon;

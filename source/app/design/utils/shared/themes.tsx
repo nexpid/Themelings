@@ -37,19 +37,19 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = argFoo;
             zuuluu = _closure1_slot0;
             zuuluu = zuuluu.DARK;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 52; continue _fun00001 }
- 20:
+            if(!(zuuluu !== michal)) { _fun00002_ip = 49; continue _fun00001 }
+ 19:
             zuuluu = _closure1_slot0;
             zuuluu = zuuluu.MIDNIGHT;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 52; continue _fun00001 }
- 34:
+            if(!(zuuluu !== michal)) { _fun00002_ip = 49; continue _fun00001 }
+ 32:
             entity = _closure1_slot0;
             entity = entity.DARKER;
-            if(!(entity !== michal)) { _fun00002_ip = 52; continue _fun00001 }
- 48:
+            if(!(entity !== michal)) { _fun00002_ip = 49; continue _fun00001 }
+ 45:
             entity = false;
             return entity;
- 52:
+ 49:
             entity = true;
             return entity;
         }

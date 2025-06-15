@@ -90,12 +90,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             tangon = tangon.bind(entity)(zuuluu);
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00004_ip = 61; continue _fun00003 }
- 48:
+            if(!(zuuluu != tangon)) { _fun00004_ip = 62; continue _fun00003 }
+ 49:
             zuuluu = argBar;
             tangon['tokenStatus'] = zuuluu;
             _closure1_slot12 = entity;
- 61:
+ 62:
             entity = undefined;
             return entity;
         }
@@ -585,8 +585,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             tangon = report.bind(entity)(tangon);
             report = null;
-            if(!(report != tangon)) { _fun00018_ip = 92; continue _fun00017 }
- 53:
+            if(!(report != tangon)) { _fun00018_ip = 93; continue _fun00017 }
+ 54:
             report = zuuluu.avatar;
             tangon['avatar'] = report;
             report = zuuluu.username;
@@ -594,7 +594,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.discriminator;
             tangon['discriminator'] = zuuluu;
             _closure1_slot12 = entity;
- 92:
+ 93:
             entity = undefined;
             return entity;
         }

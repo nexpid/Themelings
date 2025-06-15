@@ -156,10 +156,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = !oscard;
             entity['accessibilityElementsHidden'] = report;
             report = 'no-hide-descendants';
-            if(!oscard) { _fun00002_ip = 268; continue _fun00001 }
- 264:
-            report = 'auto';
+            if(!oscard) { _fun00002_ip = 272; continue _fun00001 }
  268:
+            report = 'auto';
+ 272:
             entity['importantForAccessibility'] = report;
             golfie = _closure1_slot6;
             oscard = _closure1_slot5;
@@ -616,8 +616,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot8;
             foxtra = michal.bind(tangon)();
             michal = null;
-            if(!(michal == verify)) { _fun00010_ip = 240; continue _fun00009 }
- 212:
+            if(!(michal == verify)) { _fun00010_ip = 244; continue _fun00009 }
+ 216:
             golfie = global;
             golfie = golfie.Date;
             option = golfie.prototype;
@@ -625,7 +625,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = option;
             golfie = new variable36[golfie](quebec);
             verify = golfie instanceof Object ? golfie : option;
- 240:
+ 244:
             _closure2_slot4 = verify;
             option = _closure1_slot4;
             golfie = option.useState;
@@ -677,8 +677,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot12 = zuuluu;
             zuuluu = michal != papara;
             result = undefined;
-            if(!zuuluu) { _fun00010_ip = 509; continue _fun00009 }
- 454:
+            if(!zuuluu) { _fun00010_ip = 513; continue _fun00009 }
+ 458:
             zuuluu = global;
             output = zuuluu.Date;
             zuuluu = papara.getFullYear;
@@ -693,11 +693,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = 0;
             zuuluu = new variable36[output](quebec, equals, whisks, limora, sierra, status);
             result = zuuluu instanceof Object ? zuuluu : golfie;
- 509:
+ 513:
             michal = michal != target;
             output = undefined;
-            if(!michal) { _fun00010_ip = 563; continue _fun00009 }
- 518:
+            if(!michal) { _fun00010_ip = 567; continue _fun00009 }
+ 522:
             michal = global;
             golfie = michal.Date;
             michal = target.getFullYear;
@@ -710,7 +710,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = 0;
             michal = new variable36[golfie](quebec, equals, whisks, limora, sierra);
             output = michal instanceof Object ? michal : zuuluu;
- 563:
+ 567:
             option = _closure1_slot4;
             golfie = option.useEffect;
             zuuluu = new Array(1);
@@ -855,11 +855,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot14;
             report = {};
             romeon = kiloes;
-            if(!kiloes) { _fun00010_ip = 750; continue _fun00009 }
- 742:
+            if(!kiloes) { _fun00010_ip = 762; continue _fun00009 }
+ 754:
             backup = backup.bind(tangon)(update);
             romeon = !backup;
- 750:
+ 762:
             report['show'] = romeon;
             ctrled = _closure1_slot0;
             record = _closure1_slot2;
@@ -890,11 +890,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = _closure1_slot6;
             option = _closure1_slot14;
             golfie = {};
-            if(!kiloes) { _fun00010_ip = 895; continue _fun00009 }
- 887:
+            if(!kiloes) { _fun00010_ip = 907; continue _fun00009 }
+ 899:
             source = source.bind(tangon)(update);
             kiloes = !source;
- 895:
+ 907:
             golfie['show'] = kiloes;
             ctrled = _closure1_slot0;
             sequen = _closure1_slot2;
@@ -934,10 +934,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = ctrled.isThemeLight;
             ctrled = source.bind(ctrled)(vacuum);
             source = 'dark';
-            if(!ctrled) { _fun00010_ip = 1077; continue _fun00009 }
- 1073:
+            if(!ctrled) { _fun00010_ip = 1089; continue _fun00009 }
+ 1085:
             source = 'light';
- 1077:
+ 1089:
             foxtra['theme'] = source;
             foxtra['date'] = update;
             foxtra['onDateChange'] = echoed;

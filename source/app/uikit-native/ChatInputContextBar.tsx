@@ -347,12 +347,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = null;
             option = sizing == backup;
             oscard = undefined;
-            if(option) { _fun00002_ip = 748; continue _fun00001 }
- 742:
+            if(option) { _fun00002_ip = 744; continue _fun00001 }
+ 738:
             oscard = backup.showMentionToggle;
- 748:
-            if(!oscard) { _fun00002_ip = 1239; continue _fun00001 }
- 754:
+ 744:
+            if(!oscard) { _fun00002_ip = 1235; continue _fun00001 }
+ 750:
             verify = _closure1_slot10;
             ctrled = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -386,15 +386,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra[echoed];
             foxtra = vacuum.bind(tangon)(foxtra);
             foxtra = foxtra.t;
-            if(romeon) { _fun00002_ip = 922; continue _fun00001 }
- 907:
+            if(romeon) { _fun00002_ip = 918; continue _fun00001 }
+ 903:
             romeon = foxtra.+LXBxc;
             romeon = update.bind(ctrled)(romeon);
-            _fun00002_ip = 935; continue _fun00001;
- 922:
+            _fun00002_ip = 931; continue _fun00001;
+ 918:
             foxtra = foxtra.PBgTSE;
             romeon = update.bind(ctrled)(foxtra);
- 935:
+ 931:
             golfie['accessibilityHint'] = romeon;
             golfie['activeOpacity'] = yankee;
             golfie['onPress'] = offset;
@@ -420,10 +420,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[0] = update;
             source = backup.shouldMention;
             update = null;
-            if(!source) { _fun00002_ip = 1054; continue _fun00001 }
- 1048:
+            if(!source) { _fun00002_ip = 1050; continue _fun00001 }
+ 1044:
             update = output.replyMentionIconActive;
- 1054:
+ 1050:
             foxtra[1] = update;
             offset['style'] = foxtra;
             yankee = romeon.bind(tangon)(yankee, offset);
@@ -438,10 +438,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = {'variant': 'text-sm/bold', 'color': 'text-muted'};
             result = backup.shouldMention;
             sizing = null;
-            if(!result) { _fun00002_ip = 1133; continue _fun00001 }
- 1127:
+            if(!result) { _fun00002_ip = 1129; continue _fun00001 }
+ 1123:
             sizing = output.replyMentionButtonActive;
- 1133:
+ 1129:
             yankee['style'] = sizing;
             backup = backup.shouldMention;
             result = _closure1_slot0;
@@ -453,21 +453,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes[echoed];
             kiloes = result.bind(tangon)(kiloes);
             kiloes = kiloes.t;
-            if(backup) { _fun00002_ip = 1202; continue _fun00001 }
- 1187:
+            if(backup) { _fun00002_ip = 1198; continue _fun00001 }
+ 1183:
             backup = kiloes.U7f3bG;
             backup = sizing.bind(output)(backup);
-            _fun00002_ip = 1215; continue _fun00001;
- 1202:
+            _fun00002_ip = 1211; continue _fun00001;
+ 1198:
             kiloes = kiloes.p9jC2t;
             backup = sizing.bind(output)(kiloes);
- 1215:
+ 1211:
             yankee['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);
             offset[1] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1239:
+ 1235:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

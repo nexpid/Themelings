@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 zuuluu = entity == tangon;
                 entity = undefined;
-                if(zuuluu) { _fun00006_ip = 51; continue _fun00005 }
+                if(zuuluu) { _fun00006_ip = 52; continue _fun00005 }
  34:
                 zuuluu = tangon.find;
                 michal = function(argFoo) {
@@ -168,7 +168,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 entity = zuuluu.bind(tangon)(michal);
- 51:
+ 52:
                 return entity;
             }
         };
@@ -230,23 +230,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     michal = michal.bind(tangon)(entity);
                     entity = undefined;
-                    if(!(entity === michal)) { _fun00008_ip = 82; continue _fun00007 }
- 39:
+                    if(!(entity === michal)) { _fun00008_ip = 83; continue _fun00007 }
+ 40:
                     oscard = zuuluu.id;
                     report = _closure1_slot8;
                     report = oscard in report;
-                    if(report) { _fun00008_ip = 93; continue _fun00007 }
- 58:
+                    if(report) { _fun00008_ip = 94; continue _fun00007 }
+ 59:
                     report = _closure1_slot5;
                     oscard = report.bind(entity)(zuuluu);
                     report = _closure1_slot8;
                     tangon = zuuluu.id;
                     report[tangon] = oscard;
-                    _fun00008_ip = 93; continue _fun00007;
- 82:
+                    _fun00008_ip = 94; continue _fun00007;
+ 83:
                     michal = michal.id;
                     zuuluu['id'] = michal;
- 93:
+ 94:
                     return entity;
                 }
             };

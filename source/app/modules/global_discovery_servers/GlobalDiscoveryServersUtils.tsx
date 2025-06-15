@@ -923,11 +923,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity = michal.bind(zuuluu)(entity);
             michal = null;
-            if(!(michal == entity)) { _fun00016_ip = 114; continue _fun00015 }
- 108:
+            if(!(michal == entity)) { _fun00016_ip = 115; continue _fun00015 }
+ 109:
             michal = 0;
             entity = zuuluu[michal];
- 114:
+ 115:
             entity = entity.code;
             return entity;
         }

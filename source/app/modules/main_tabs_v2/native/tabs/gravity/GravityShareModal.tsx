@@ -1380,7 +1380,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = backup[option];
             option = foxtra.bind(entity)(option);
             option = option.t;
-            option = option.DUrG8P;
+            option = option.NPVaws;
             option = yankee.bind(romeon)(option);
             _fun00022_ip = 246; continue _fun00021;
  189:

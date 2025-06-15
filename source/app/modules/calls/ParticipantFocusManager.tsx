@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.getChannelId;
                 oscard = entity.bind(zuuluu)();
                 entity = null;
-                if(!(entity != oscard)) { _fun00006_ip = 115; continue _fun00005 }
+                if(!(entity != oscard)) { _fun00006_ip = 116; continue _fun00005 }
  25:
                 report = _closure1_slot6;
                 zuuluu = report.getSelectedParticipantId;
@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot5;
                 michal = zuuluu.getRTCConnection;
                 zuuluu = michal.bind(zuuluu)();
-                if(!(entity != zuuluu)) { _fun00006_ip = 115; continue _fun00005 }
+                if(!(entity != zuuluu)) { _fun00006_ip = 116; continue _fun00005 }
  73:
                 michal = zuuluu.setSelectedParticipant;
                 report = oscard.find;
@@ -182,12 +182,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = report.bind(oscard)(tangon);
                 report = entity == tangon;
                 entity = undefined;
-                if(report) { _fun00006_ip = 110; continue _fun00005 }
- 105:
+                if(report) { _fun00006_ip = 111; continue _fun00005 }
+ 106:
                 entity = tangon.id;
- 110:
+ 111:
                 entity = michal.bind(zuuluu)(entity);
- 115:
+ 116:
                 entity = undefined;
                 return entity;
             }

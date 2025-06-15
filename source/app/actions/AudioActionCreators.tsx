@@ -2022,7 +2022,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['setEnableHardwareMuteNotice'] = golfie;
-    tangon = function(argFoo) { // Original name: setKrispSuppressionLevel
+    golfie = function(argFoo) { // Original name: setKrispSuppressionLevel
         _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
  0:
             zuuluu = _closure1_slot13;
@@ -2046,7 +2046,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['setKrispSuppressionLevel'] = tangon;
+    michal['setKrispSuppressionLevel'] = golfie;
+    tangon = function(argFoo) { // Original name: setKrispModelOverride
+        _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
+ 0:
+            tangon = this;
+            zuuluu = _closure1_slot13;
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)();
+            if(zuuluu) { _fun00088_ip = 112; continue _fun00087 }
+ 19:
+            report = _closure1_slot1;
+            oscard = _closure1_slot2;
+            zuuluu = 11;
+            zuuluu = oscard[zuuluu];
+            oscard = report.bind(entity)(zuuluu);
+            report = oscard.dispatch;
+            zuuluu = {};
+            golfie = 'AUDIO_SET_KRISP_MODEL_OVERRIDE';
+            zuuluu['type'] = golfie;
+            golfie = argFoo;
+            zuuluu['model'] = golfie;
+            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = _closure1_slot6;
+            michal = zuuluu.getNoiseCancellation;
+            michal = michal.bind(zuuluu)();
+            if(!michal) { _fun00088_ip = 112; continue _fun00087 }
+ 86:
+            zuuluu = tangon.setNoiseCancellation;
+            michal = false;
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.setNoiseCancellation;
+            michal = true;
+            michal = zuuluu.bind(tangon)(michal);
+ 112:
+            return entity;
+        }
+    };
+    michal['setKrispModelOverride'] = tangon;
     tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

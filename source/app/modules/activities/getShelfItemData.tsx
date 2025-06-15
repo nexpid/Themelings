@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = null;
             michal = report == option;
             zuuluu = undefined;
-            if(michal) { _fun00002_ip = 52; continue _fun00001 }
+            if(michal) { _fun00002_ip = 53; continue _fun00001 }
  37:
             oscard = option.find;
             michal = function(argFoo) {
@@ -45,13 +45,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             zuuluu = oscard.bind(option)(michal);
- 52:
-            if(!(report == zuuluu)) { _fun00002_ip = 74; continue _fun00001 }
- 56:
+ 53:
+            if(!(report == zuuluu)) { _fun00002_ip = 75; continue _fun00001 }
+ 57:
             oscard = _closure1_slot0;
             michal = oscard.getApplication;
             zuuluu = michal.bind(oscard)(golfie);
- 74:
+ 75:
             michal = tangon.find;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -63,17 +63,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.bind(tangon)(entity);
             michal = report == tangon;
             entity = null;
-            if(michal) { _fun00002_ip = 121; continue _fun00001 }
- 98:
+            if(michal) { _fun00002_ip = 123; continue _fun00001 }
+ 100:
             michal = report == zuuluu;
             entity = null;
-            if(michal) { _fun00002_ip = 121; continue _fun00001 }
- 107:
+            if(michal) { _fun00002_ip = 123; continue _fun00001 }
+ 109:
             michal = {};
             michal['activity'] = tangon;
             michal['application'] = zuuluu;
             entity = michal;
- 121:
+ 123:
             return entity;
         }
     };

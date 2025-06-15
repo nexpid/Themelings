@@ -85,23 +85,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             verify = zuuluu == golfie;
             oscard = undefined;
-            if(verify) { _fun00002_ip = 175; continue _fun00001 }
- 170:
+            if(verify) { _fun00002_ip = 179; continue _fun00001 }
+ 174:
             oscard = golfie.id;
- 175:
-            if(!(zuuluu == oscard)) { _fun00002_ip = 211; continue _fun00001 }
  179:
+            if(!(zuuluu == oscard)) { _fun00002_ip = 215; continue _fun00001 }
+ 183:
             golfie = backup.emoji;
             verify = zuuluu == golfie;
             oscard = undefined;
-            if(verify) { _fun00002_ip = 199; continue _fun00001 }
- 194:
+            if(verify) { _fun00002_ip = 203; continue _fun00001 }
+ 198:
             oscard = golfie.name;
- 199:
+ 203:
             oscard = zuuluu != oscard;
             golfie = null;
-            if(!oscard) { _fun00002_ip = 416; continue _fun00001 }
- 211:
+            if(!oscard) { _fun00002_ip = 420; continue _fun00001 }
+ 215:
             yankee = _closure1_slot8;
             verify = _closure1_slot4;
             oscard = {};
@@ -120,8 +120,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['fastImageStyle'] = sizing;
             output = zuuluu != update;
             sizing = undefined;
-            if(!output) { _fun00002_ip = 357; continue _fun00001 }
- 296:
+            if(!output) { _fun00002_ip = 361; continue _fun00001 }
+ 300:
             result = _closure1_slot1;
             echoed = _closure1_slot2;
             output = 9;
@@ -136,33 +136,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = _closure1_slot7;
             output['size'] = update;
             sizing = result.bind(echoed)(output);
- 357:
+ 361:
             romeon['src'] = sizing;
             sizing = backup.emoji;
             result = zuuluu == sizing;
             output = undefined;
-            if(result) { _fun00002_ip = 382; continue _fun00001 }
- 377:
+            if(result) { _fun00002_ip = 386; continue _fun00001 }
+ 381:
             output = sizing.name;
- 382:
+ 386:
             result = zuuluu != output;
             sizing = '';
-            if(!result) { _fun00002_ip = 396; continue _fun00001 }
- 393:
+            if(!result) { _fun00002_ip = 400; continue _fun00001 }
+ 397:
             sizing = output;
- 396:
+ 400:
             romeon['name'] = sizing;
             romeon = kiloes.bind(tangon)(foxtra, romeon);
             oscard['children'] = romeon;
             golfie = yankee.bind(tangon)(verify, oscard);
- 416:
+ 420:
             oscard = null;
-            if(!michal) { _fun00002_ip = 563; continue _fun00001 }
- 424:
+            if(!michal) { _fun00002_ip = 567; continue _fun00001 }
+ 428:
             michal = backup.isUnseen;
             oscard = null;
-            if(!michal) { _fun00002_ip = 563; continue _fun00001 }
- 438:
+            if(!michal) { _fun00002_ip = 567; continue _fun00001 }
+ 442:
             verify = _closure1_slot8;
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.newBadge;
             michal['textStyle'] = yankee;
             oscard = verify.bind(tangon)(zuuluu, michal);
- 563:
+ 567:
             verify = _closure1_slot9;
             zuuluu = _closure1_slot4;
             michal = {};
@@ -363,8 +363,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = new Array(0);
             kiloes = zuuluu.bind(tangon)(michal, entity);
             entity = null;
-            if(!(entity != update)) { _fun00006_ip = 591; continue _fun00005 }
- 201:
+            if(!(entity != update)) { _fun00006_ip = 599; continue _fun00005 }
+ 207:
             tangon = _closure1_slot8;
             output = _closure1_slot0;
             result = _closure1_slot2;
@@ -473,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 591:
+ 599:
             return entity;
         }
     };

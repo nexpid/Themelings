@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 184; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 186; continue _fun00001 }
  15:
                     romeon = michal.directoryChannelId;
                     zuuluu = michal.directoryGuildName;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return tangon;
  62:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 181; continue _fun00001 }
+                    if(report) { _fun00002_ip = 183; continue _fun00001 }
  68:
                     verify = _closure1_slot2;
                     foxtra = _closure1_slot3;
@@ -75,7 +75,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  122:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 178; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 180; continue _fun00001 }
  128:
                     oscard = oscard.bind(tangon)();
                     oscard = _closure1_slot1;
@@ -126,11 +126,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['importer'] = option;
                     report = oscard.bind(golfie)(report);
                     return tangon;
- 178:
+ 180:
                     return zuuluu;
- 181:
+ 183:
                     return michal;
- 184:
+ 186:
                     return entity;
                 }
             };

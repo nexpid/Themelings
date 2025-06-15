@@ -285,12 +285,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     tangon = tangon.bind(report)(michal);
                     michal = null;
-                    if(!(michal != tangon)) { _fun00012_ip = 53; continue _fun00011 }
- 39:
+                    if(!(michal != tangon)) { _fun00012_ip = 54; continue _fun00011 }
+ 40:
                     michal = _closure2_slot1;
                     entity = zuuluu.soundId;
                     michal[entity] = zuuluu;
- 53:
+ 54:
                     entity = undefined;
                     return entity;
                 }
@@ -729,7 +729,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[12] = option;
             michal[13] = golfie;
             michal[14] = oscard;
-            report = report.enabled;
+            report = report.moveDefaultToBottom;
             michal[15] = report;
             entity = function() {
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
@@ -739,7 +739,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     var _closure3_slot1 = result;
                     zuuluu = new Array(0);
                     tangon = _closure2_slot2;
-                    if(tangon) { _fun00022_ip = 1068; continue _fun00021 }
+                    if(tangon) { _fun00022_ip = 1069; continue _fun00021 }
  32:
                     report = _closure1_slot16;
                     tangon = {};
@@ -907,17 +907,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(zuuluu)(tangon);
  642:
                     tangon = _closure2_slot9;
-                    if(tangon) { _fun00022_ip = 658; continue _fun00021 }
+                    if(tangon) { _fun00022_ip = 659; continue _fun00021 }
  649:
                     report = _closure2_slot16;
-                    tangon = report.enabled;
- 658:
-                    if(tangon) { _fun00022_ip = 675; continue _fun00021 }
- 661:
+                    tangon = report.moveDefaultToBottom;
+ 659:
+                    if(tangon) { _fun00022_ip = 676; continue _fun00021 }
+ 662:
                     option = _closure1_slot17;
                     report = _closure2_slot4;
                     report = option.bind(golfie)(zuuluu, report);
- 675:
+ 676:
                     report = {};
                     report['sections'] = zuuluu;
                     option = _closure2_slot8;
@@ -926,11 +926,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = null;
                     verify = sizing == option;
                     option = undefined;
-                    if(verify) { _fun00022_ip = 715; continue _fun00021 }
- 706:
+                    if(verify) { _fun00022_ip = 716; continue _fun00021 }
+ 707:
                     verify = _closure2_slot10;
                     option = verify.id;
- 715:
+ 716:
                     report['currentGuildId'] = option;
                     option = _closure2_slot4;
                     report['allSounds'] = option;
@@ -948,27 +948,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = option;
                     verify = undefined;
                     option = undefined;
-                    if(report) { _fun00022_ip = 968; continue _fun00021 }
- 799:
+                    if(report) { _fun00022_ip = 969; continue _fun00021 }
+ 800:
                     ctrled = offset.value;
                     report = ctrled.id;
-                    if(!(report !== backup)) { _fun00022_ip = 950; continue _fun00021 }
- 816:
+                    if(!(report !== backup)) { _fun00022_ip = 951; continue _fun00021 }
+ 817:
                     update = _closure1_slot15;
                     echoed = foxtra.get;
                     report = ctrled.id;
                     echoed = echoed.bind(foxtra)(report);
                     report = echoed;
-                    if(!(sizing == echoed)) { _fun00022_ip = 846; continue _fun00021 }
- 842:
+                    if(!(sizing == echoed)) { _fun00022_ip = 847; continue _fun00021 }
+ 843:
                     report = new Array(0);
- 846:
+ 847:
                     report = update.bind(golfie)(report);
                     update = report.length;
                     verify = echoed;
                     option = report;
-                    if(!(update > result)) { _fun00022_ip = 950; continue _fun00021 }
- 866:
+                    if(!(update > result)) { _fun00022_ip = 951; continue _fun00021 }
+ 867:
                     source = kiloes.push;
                     update = {};
                     vacuum = {};
@@ -989,18 +989,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     update = source.bind(kiloes)(update);
                     verify = echoed;
                     option = report;
- 950:
+ 951:
                     echoed = yankee.bind(golfie)();
                     report = echoed.done;
                     offset = echoed;
-                    if(!report) { _fun00022_ip = 799; continue _fun00021 }
- 968:
-                    if(!tangon) { _fun00022_ip = 985; continue _fun00021 }
- 971:
+                    if(!report) { _fun00022_ip = 800; continue _fun00021 }
+ 969:
+                    if(!tangon) { _fun00022_ip = 986; continue _fun00021 }
+ 972:
                     report = _closure1_slot17;
                     tangon = _closure2_slot4;
                     tangon = report.bind(golfie)(zuuluu, tangon);
- 985:
+ 986:
                     report = zuuluu.forEach;
                     tangon = function(argFoo) {
                         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
@@ -1055,7 +1055,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['lockedCustomSoundCount'] = oscard;
                     tangon['soundCounts'] = report;
                     return tangon;
- 1068:
+ 1069:
                     report = _closure1_slot17;
                     tangon = _closure2_slot4;
                     entity = undefined;

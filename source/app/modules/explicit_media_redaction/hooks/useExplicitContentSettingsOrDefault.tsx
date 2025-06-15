@@ -70,15 +70,15 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             tangon = 2;
             zuuluu = zuuluu[tangon];
             verify = golfie.bind(report)(zuuluu);
-            option = verify.resolveSettingWithDefaults;
+            option = verify.resolveExplicitContentSettingWithDefaults;
             zuuluu = {};
             golfie = null;
             yankee = golfie == oscard;
             offset = undefined;
-            if(yankee) { _fun00002_ip = 95; continue _fun00001 }
- 89:
+            if(yankee) { _fun00002_ip = 97; continue _fun00001 }
+ 91:
             offset = oscard.explicitContentGuilds;
- 95:
+ 97:
             zuuluu['setting'] = offset;
             zuuluu = option.bind(verify)(zuuluu);
             entity['explicitContentGuilds'] = zuuluu;
@@ -86,14 +86,14 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu[tangon];
             verify = option.bind(report)(zuuluu);
-            option = verify.resolveSettingWithDefaults;
+            option = verify.resolveExplicitContentSettingWithDefaults;
             zuuluu = {};
             yankee = golfie == oscard;
             offset = undefined;
-            if(yankee) { _fun00002_ip = 150; continue _fun00001 }
- 144:
+            if(yankee) { _fun00002_ip = 152; continue _fun00001 }
+ 146:
             offset = oscard.explicitContentNonFriendDm;
- 150:
+ 152:
             zuuluu['setting'] = offset;
             offset = true;
             zuuluu['isDm'] = offset;
@@ -103,14 +103,14 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             michal = _closure1_slot1;
             michal = michal[tangon];
             tangon = zuuluu.bind(report)(michal);
-            zuuluu = tangon.resolveSettingWithDefaults;
+            zuuluu = tangon.resolveExplicitContentSettingWithDefaults;
             michal = {'setting': null, 'isDm': true, 'isFriend': true};
             golfie = golfie == oscard;
             report = undefined;
-            if(golfie) { _fun00002_ip = 224; continue _fun00001 }
- 218:
+            if(golfie) { _fun00002_ip = 222; continue _fun00001 }
+ 216:
             report = oscard.explicitContentFriendDm;
- 224:
+ 222:
             michal['setting'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity['explicitContentFriendDm'] = michal;
@@ -168,10 +168,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             golfie = null;
             yankee = golfie == oscard;
             offset = undefined;
-            if(yankee) { _fun00006_ip = 95; continue _fun00005 }
- 89:
+            if(yankee) { _fun00006_ip = 97; continue _fun00005 }
+ 91:
             offset = oscard.goreContentGuilds;
- 95:
+ 97:
             zuuluu['setting'] = offset;
             zuuluu = option.bind(verify)(zuuluu);
             entity['goreContentGuilds'] = zuuluu;
@@ -183,10 +183,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             zuuluu = {};
             yankee = golfie == oscard;
             offset = undefined;
-            if(yankee) { _fun00006_ip = 150; continue _fun00005 }
- 144:
+            if(yankee) { _fun00006_ip = 152; continue _fun00005 }
+ 146:
             offset = oscard.goreContentNonFriendDm;
- 150:
+ 152:
             zuuluu['setting'] = offset;
             offset = true;
             zuuluu['isDm'] = offset;
@@ -200,10 +200,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             michal = {'setting': null, 'isDm': true, 'isFriend': true};
             golfie = golfie == oscard;
             report = undefined;
-            if(golfie) { _fun00006_ip = 224; continue _fun00005 }
- 218:
+            if(golfie) { _fun00006_ip = 222; continue _fun00005 }
+ 216:
             report = oscard.goreContentFriendDm;
- 224:
+ 222:
             michal['setting'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity['goreContentFriendDm'] = michal;

@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = zuuluu[michal];
         michal = undefined;
         zuuluu = tangon.bind(michal)(zuuluu);
-        michal = zuuluu.fetchUserAffinities;
+        michal = zuuluu.fetchUserAffinitiesV2;
         zuuluu = michal.bind(zuuluu)();
         michal = zuuluu.then;
         entity = function() {

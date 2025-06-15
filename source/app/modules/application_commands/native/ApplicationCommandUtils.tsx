@@ -194,19 +194,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = null;
                     zuuluu = tangon == zuuluu;
                     oscard = undefined;
-                    if(zuuluu) { _fun00006_ip = 129; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 130; continue _fun00005 }
  74:
                     zuuluu = _closure2_slot0;
                     zuuluu = zuuluu.props;
                     zuuluu = zuuluu.activeCommand;
                     report = tangon == zuuluu;
                     oscard = undefined;
-                    if(report) { _fun00006_ip = 129; continue _fun00005 }
+                    if(report) { _fun00006_ip = 130; continue _fun00005 }
  98:
                     golfie = zuuluu.options;
                     zuuluu = tangon == golfie;
                     oscard = undefined;
-                    if(zuuluu) { _fun00006_ip = 129; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 130; continue _fun00005 }
  112:
                     report = golfie.find;
                     zuuluu = function(argFoo) {
@@ -217,12 +217,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     oscard = report.bind(golfie)(zuuluu);
- 129:
-                    if(!(tangon != oscard)) { _fun00006_ip = 179; continue _fun00005 }
- 133:
+ 130:
+                    if(!(tangon != oscard)) { _fun00006_ip = 180; continue _fun00005 }
+ 134:
                     zuuluu = _closure2_slot0;
-                    if(!(tangon != zuuluu)) { _fun00006_ip = 179; continue _fun00005 }
- 141:
+                    if(!(tangon != zuuluu)) { _fun00006_ip = 180; continue _fun00005 }
+ 142:
                     report = _closure2_slot0;
                     tangon = report.insertOrJumpCommandOption;
                     zuuluu = {};
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = undefined;
                     option = zuuluu;
                     michal = romeon[tangon](yankee, offset, verify, option, golfie);
- 179:
+ 180:
                     return entity;
                 }
             };

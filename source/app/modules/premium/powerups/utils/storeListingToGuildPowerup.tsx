@@ -133,7 +133,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
  326:
             report = oscard.guild_features;
  332:
-            if(!(sizing != report)) { _fun00002_ip = 825; continue _fun00001 }
+            if(!(sizing != report)) { _fun00002_ip = 826; continue _fun00001 }
  339:
             golfie = _closure1_slot3;
             oscard = report.additional_emoji_slots;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             option = backup;
             golfie = foxtra;
             oscard = romeon;
-            if(!michal) { _fun00002_ip = 753; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 754; continue _fun00001 }
  422:
             echoed = output.find;
             michal = function(argFoo) {
@@ -168,107 +168,107 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             ctrled = echoed.bind(output)(michal);
             michal = sizing == ctrled;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 511; continue _fun00001 }
- 448:
+            if(michal) { _fun00002_ip = 512; continue _fun00001 }
+ 449:
             michal = ctrled.sku;
             update = sizing == michal;
             yankee = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 511; continue _fun00001 }
- 466:
+            if(update) { _fun00002_ip = 512; continue _fun00001 }
+ 467:
             michal = michal.powerup_metadata;
             update = sizing == michal;
             yankee = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 511; continue _fun00001 }
- 484:
+            if(update) { _fun00002_ip = 512; continue _fun00001 }
+ 485:
             update = michal.guild_features;
             michal = sizing == update;
             yankee = update;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 511; continue _fun00001 }
- 502:
+            if(michal) { _fun00002_ip = 512; continue _fun00001 }
+ 503:
             echoed = update.additional_emoji_slots;
             yankee = update;
- 511:
+ 512:
             update = sizing != echoed;
             michal = 0;
-            if(!update) { _fun00002_ip = 523; continue _fun00001 }
- 520:
+            if(!update) { _fun00002_ip = 524; continue _fun00001 }
+ 521:
             michal = echoed;
- 523:
+ 524:
             source = backup + michal;
             michal = sizing == ctrled;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 599; continue _fun00001 }
- 536:
+            if(michal) { _fun00002_ip = 600; continue _fun00001 }
+ 537:
             michal = ctrled.sku;
             update = sizing == michal;
             offset = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 599; continue _fun00001 }
- 554:
+            if(update) { _fun00002_ip = 600; continue _fun00001 }
+ 555:
             michal = michal.powerup_metadata;
             update = sizing == michal;
             offset = michal;
             echoed = undefined;
-            if(update) { _fun00002_ip = 599; continue _fun00001 }
- 572:
+            if(update) { _fun00002_ip = 600; continue _fun00001 }
+ 573:
             update = michal.guild_features;
             michal = sizing == update;
             offset = update;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 599; continue _fun00001 }
- 590:
+            if(michal) { _fun00002_ip = 600; continue _fun00001 }
+ 591:
             echoed = update.additional_sound_slots;
             offset = update;
- 599:
+ 600:
             update = sizing != echoed;
             michal = 0;
-            if(!update) { _fun00002_ip = 611; continue _fun00001 }
- 608:
+            if(!update) { _fun00002_ip = 612; continue _fun00001 }
+ 609:
             michal = echoed;
- 611:
+ 612:
             update = foxtra + michal;
             michal = sizing == ctrled;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 687; continue _fun00001 }
- 624:
+            if(michal) { _fun00002_ip = 688; continue _fun00001 }
+ 625:
             michal = ctrled.sku;
             vacuum = sizing == michal;
             verify = michal;
             echoed = undefined;
-            if(vacuum) { _fun00002_ip = 687; continue _fun00001 }
- 642:
+            if(vacuum) { _fun00002_ip = 688; continue _fun00001 }
+ 643:
             michal = michal.powerup_metadata;
             vacuum = sizing == michal;
             verify = michal;
             echoed = undefined;
-            if(vacuum) { _fun00002_ip = 687; continue _fun00001 }
- 660:
+            if(vacuum) { _fun00002_ip = 688; continue _fun00001 }
+ 661:
             vacuum = michal.guild_features;
             michal = sizing == vacuum;
             verify = vacuum;
             echoed = undefined;
-            if(michal) { _fun00002_ip = 687; continue _fun00001 }
- 678:
+            if(michal) { _fun00002_ip = 688; continue _fun00001 }
+ 679:
             echoed = vacuum.additional_sticker_slots;
             verify = vacuum;
- 687:
+ 688:
             vacuum = sizing != echoed;
             michal = 0;
-            if(!vacuum) { _fun00002_ip = 699; continue _fun00001 }
- 696:
+            if(!vacuum) { _fun00002_ip = 700; continue _fun00001 }
+ 697:
             michal = echoed;
- 699:
+ 700:
             echoed = romeon + michal;
             vacuum = sizing == ctrled;
             michal = undefined;
-            if(vacuum) { _fun00002_ip = 724; continue _fun00001 }
- 712:
+            if(vacuum) { _fun00002_ip = 725; continue _fun00001 }
+ 713:
             ctrled = ctrled.sku;
             michal = ctrled.dependent_sku_id;
- 724:
+ 725:
             _closure2_slot0 = michal;
             backup = source;
             foxtra = update;
@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             golfie = foxtra;
             oscard = romeon;
             if(sizing != michal) { _fun00002_ip = 422; continue _fun00001 }
- 753:
+ 754:
             michal = {};
             tangon = _closure1_slot2;
             tangon = tangon.LEVEL;
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             sequen = zuuluu;
             zuuluu = copyDataProperties(config, sequen);
             return michal;
- 825:
+ 826:
             return entity;
         }
     };

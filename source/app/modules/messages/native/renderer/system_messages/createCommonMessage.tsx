@@ -34,8 +34,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.isThemeDark;
             zuuluu = entity.bind(zuuluu)(tangon);
             entity = 'rgba(201,210,240,0.6)';
-            if(!zuuluu) { _fun00002_ip = 122; continue _fun00001 }
- 53:
+            if(!zuuluu) { _fun00002_ip = 123; continue _fun00001 }
+ 54:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 2;
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = michal.WHITE_500;
             michal = 0.1;
             entity = tangon.bind(report)(zuuluu, michal);
- 122:
+ 123:
             return entity;
         }
     };

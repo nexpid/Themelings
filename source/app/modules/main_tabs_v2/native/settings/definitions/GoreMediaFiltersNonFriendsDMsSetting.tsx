@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = oscard[entity];
         entity = report.bind(tangon)(entity);
         entity = entity.t;
-        entity = entity.D2EGSk;
+        entity = entity.Yh+HX1;
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };

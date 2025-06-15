@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  68:
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.NO_PREFERENCE;
-            if(!(michal === zuuluu)) { _fun00002_ip = 297; continue _fun00001 }
+            if(!(michal === zuuluu)) { _fun00002_ip = 299; continue _fun00001 }
  85:
             report = _closure1_slot2;
             zuuluu = report.getAppearanceSettings;
@@ -73,12 +73,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = null;
             golfie = oscard == report;
             zuuluu = undefined;
-            if(golfie) { _fun00002_ip = 115; continue _fun00001 }
+            if(golfie) { _fun00002_ip = 116; continue _fun00001 }
  110:
             zuuluu = report.theme;
- 115:
-            if(!(oscard == zuuluu)) { _fun00002_ip = 295; continue _fun00001 }
- 122:
+ 116:
+            if(!(oscard == zuuluu)) { _fun00002_ip = 297; continue _fun00001 }
+ 123:
             golfie = _closure1_slot0;
             verify = _closure1_slot1;
             report = 5;
@@ -86,19 +86,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.bind(option)(report);
             report = golfie.shouldIgnoreThemeChange;
             report = report.bind(golfie)();
-            if(report) { _fun00002_ip = 290; continue _fun00001 }
- 158:
+            if(report) { _fun00002_ip = 292; continue _fun00001 }
+ 159:
             report = _closure1_slot4;
             report = report.settings;
             golfie = report.appearance;
             verify = oscard == golfie;
             report = undefined;
-            if(verify) { _fun00002_ip = 188; continue _fun00001 }
- 183:
+            if(verify) { _fun00002_ip = 190; continue _fun00001 }
+ 184:
             report = golfie.theme;
- 188:
-            if(!(oscard == report)) { _fun00002_ip = 224; continue _fun00001 }
- 192:
+ 190:
+            if(!(oscard == report)) { _fun00002_ip = 226; continue _fun00001 }
+ 194:
             golfie = _closure1_slot0;
             verify = _closure1_slot1;
             oscard = 6;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             oscard = oscard.Theme;
             report = oscard.UNSET;
- 224:
+ 226:
             golfie = _closure1_slot0;
             verify = _closure1_slot1;
             oscard = 6;
@@ -114,25 +114,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             oscard = oscard.Theme;
             oscard = oscard.UNSET;
-            if(!(report === oscard)) { _fun00002_ip = 274; continue _fun00001 }
- 260:
+            if(!(report === oscard)) { _fun00002_ip = 276; continue _fun00001 }
+ 262:
             oscard = _closure1_slot6;
             oscard = oscard.NO_PREFERENCE;
-            if(!(michal === oscard)) { _fun00002_ip = 284; continue _fun00001 }
- 274:
+            if(!(michal === oscard)) { _fun00002_ip = 286; continue _fun00001 }
+ 276:
             tangon = _closure1_slot5;
             tangon = tangon[report];
-            _fun00002_ip = 288; continue _fun00001;
- 284:
+            _fun00002_ip = 290; continue _fun00001;
+ 286:
             tangon = entity[michal];
- 288:
-            return tangon;
  290:
+            return tangon;
+ 292:
             tangon = argBaz;
             return tangon;
- 295:
-            return zuuluu;
  297:
+            return zuuluu;
+ 299:
             entity = entity[michal];
             return entity;
         }

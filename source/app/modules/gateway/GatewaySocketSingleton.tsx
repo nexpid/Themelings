@@ -155,8 +155,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = golfie.bind(entity)(verify);
         verify = yankee.isDesktop;
         verify = verify.bind(yankee)();
-        if(!verify) { _fun00002_ip = 309; continue _fun00001 }
- 268:
+        if(!verify) { _fun00002_ip = 305; continue _fun00001 }
+ 266:
         verify = 10;
         verify = option[verify];
         verify = offset.bind(entity)(verify);
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         verify = romeon.bind(foxtra)(yankee, verify);
- 309:
+ 305:
         verify = 11;
         yankee = option[verify];
         foxtra = offset.bind(entity)(yankee);

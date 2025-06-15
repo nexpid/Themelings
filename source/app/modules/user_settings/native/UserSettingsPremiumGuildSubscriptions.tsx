@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -230,17 +230,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report['destinationPane'] = option;
                         report = oscard.bind(golfie)(report);
                         report = null;
-                        if(!(report == zuuluu)) { _fun00006_ip = 167; continue _fun00005 }
- 145:
+                        if(!(report == zuuluu)) { _fun00006_ip = 166; continue _fun00005 }
+ 144:
                         report = tangon.push;
                         michal = _closure1_slot15;
                         michal = michal.PREMIUM;
                         michal = report.bind(tangon)(michal);
-                        _fun00006_ip = 178; continue _fun00005;
- 167:
+                        _fun00006_ip = 177; continue _fun00005;
+ 166:
                         michal = tangon.navigate;
                         michal = michal.bind(tangon)(zuuluu);
- 178:
+ 177:
                         return entity;
                     }
                 };
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.props;
                 michal = entity.hasSlots;
                 entity = null;
-                if(!michal) { _fun00010_ip = 413; continue _fun00009 }
+                if(!michal) { _fun00010_ip = 414; continue _fun00009 }
  41:
                 tangon = _closure1_slot18;
                 michal = _closure1_slot8;
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard[1] = golfie;
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 413:
+ 414:
                 return entity;
             }
         };

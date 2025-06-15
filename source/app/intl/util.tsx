@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             golfie = zuuluu.bind(oscard)(michal);
             michal = golfie.includes;
             michal = michal.bind(golfie)(entity);
-            if(michal) { _fun00004_ip = 205; continue _fun00003 }
+            if(michal) { _fun00004_ip = 207; continue _fun00003 }
  67:
             zuuluu = entity.split;
             michal = '-';
@@ -142,7 +142,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             michal = oscard[zuuluu];
             michal = option.bind(golfie)(michal);
             zuuluu = oscard[zuuluu];
-            if(michal) { _fun00004_ip = 200; continue _fun00003 }
+            if(michal) { _fun00004_ip = 202; continue _fun00003 }
  108:
             michal = 'zh';
             if(!(michal === zuuluu)) { _fun00004_ip = 142; continue _fun00003 }
@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
  128:
             oscard = oscard[michal];
             michal = 'Hant';
-            if(!(michal !== oscard)) { _fun00004_ip = 171; continue _fun00003 }
+            if(!(michal !== oscard)) { _fun00004_ip = 172; continue _fun00003 }
  142:
             oscard = golfie.find;
             michal = function(argFoo) {
@@ -171,12 +171,12 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             oscard = oscard.bind(golfie)(michal);
             option = null;
             michal = tangon;
-            if(!(option != oscard)) { _fun00004_ip = 169; continue _fun00003 }
- 166:
+            if(!(option != oscard)) { _fun00004_ip = 170; continue _fun00003 }
+ 167:
             michal = oscard;
- 169:
-            _fun00004_ip = 198; continue _fun00003;
- 171:
+ 170:
+            _fun00004_ip = 200; continue _fun00003;
+ 172:
             oscard = golfie.find;
             report = function(argFoo) {
                 michal = 'zh-TW';
@@ -186,18 +186,18 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             };
             report = oscard.bind(golfie)(report);
             oscard = null;
-            if(!(oscard != report)) { _fun00004_ip = 195; continue _fun00003 }
- 192:
+            if(!(oscard != report)) { _fun00004_ip = 197; continue _fun00003 }
+ 194:
             tangon = report;
- 195:
+ 197:
             michal = tangon;
- 198:
-            _fun00004_ip = 203; continue _fun00003;
  200:
+            _fun00004_ip = 205; continue _fun00003;
+ 202:
             michal = zuuluu;
- 203:
-            return michal;
  205:
+            return michal;
+ 207:
             return entity;
         }
     };

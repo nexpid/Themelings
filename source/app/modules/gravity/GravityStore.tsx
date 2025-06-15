@@ -3798,51 +3798,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = function(argFoo) {
                 _fun00093: for(var _fun00094_ip = 0; ; ) switch(_fun00094_ip) {
  0:
-                    michal = argFoo;
+                    entity = argFoo;
                     zuuluu = _closure2_slot3;
-                    entity = michal.content_id;
-                    report = zuuluu[entity];
-                    zuuluu = null;
-                    if(!(zuuluu == report)) { _fun00094_ip = 47; continue _fun00093 }
+                    michal = entity.content_id;
+                    oscard = zuuluu[michal];
+                    michal = null;
+                    if(!(michal == oscard)) { _fun00094_ip = 50; continue _fun00093 }
  26:
-                    oscard = _closure1_slot41;
-                    tangon = michal.content_id;
-                    entity = true;
-                    oscard[tangon] = entity;
-                    _fun00094_ip = 166; continue _fun00093;
- 47:
-                    oscard = _closure1_slot39;
-                    tangon = michal.content_id;
-                    tangon = oscard[tangon];
-                    if(!(zuuluu != tangon)) { _fun00094_ip = 111; continue _fun00093 }
- 68:
-                    oscard = tangon.type;
+                    report = _closure1_slot41;
+                    tangon = entity.content_id;
+                    zuuluu = true;
+                    report[tangon] = zuuluu;
+                    _fun00094_ip = 200; continue _fun00093;
+ 50:
+                    report = _closure1_slot39;
+                    zuuluu = entity.content_id;
+                    report = report[zuuluu];
+                    if(!(michal != report)) { _fun00094_ip = 114; continue _fun00093 }
+ 71:
+                    zuuluu = report.type;
                     option = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    zuuluu = 24;
-                    golfie = golfie[zuuluu];
-                    zuuluu = undefined;
-                    zuuluu = option.bind(zuuluu)(golfie);
-                    zuuluu = zuuluu.GravityItemTypes;
-                    zuuluu = zuuluu.GENERATED_CANDIDATE;
-                    if(!(oscard !== zuuluu)) { _fun00094_ip = 129; continue _fun00093 }
- 111:
-                    oscard = _closure1_slot41;
-                    zuuluu = michal.content_id;
-                    michal = true;
-                    oscard[zuuluu] = michal;
-                    _fun00094_ip = 166; continue _fun00093;
- 129:
+                    michal = 24;
+                    michal = golfie[michal];
+                    golfie = undefined;
+                    michal = option.bind(golfie)(michal);
+                    michal = michal.GravityItemTypes;
+                    michal = michal.GENERATED_CANDIDATE;
+                    if(!(zuuluu !== michal)) { _fun00094_ip = 132; continue _fun00093 }
+ 114:
+                    zuuluu = _closure1_slot41;
+                    michal = entity.content_id;
+                    entity = true;
+                    zuuluu[michal] = entity;
+                    _fun00094_ip = 200; continue _fun00093;
+ 132:
                     zuuluu = _closure1_slot40;
-                    michal = report.content_id;
+                    michal = oscard.content_id;
                     entity = {};
                     offset = entity;
-                    verify = tangon;
-                    tangon = copyDataProperties(offset, verify);
+                    verify = report;
+                    report = copyDataProperties(offset, verify);
+                    report = _closure1_slot0;
+                    option = _closure1_slot2;
+                    tangon = 23;
+                    tangon = option[tangon];
+                    report = report.bind(golfie)(tangon);
+                    tangon = report.createGravityGeneratedCandidateFromServer;
+                    report = tangon.bind(report)(oscard);
                     tangon = 'candidate';
                     entity[tangon] = report;
                     zuuluu[michal] = entity;
- 166:
+ 200:
                     entity = undefined;
                     return entity;
                 }

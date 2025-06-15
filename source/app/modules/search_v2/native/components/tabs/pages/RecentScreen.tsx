@@ -571,7 +571,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = entity == michal;
                 entity = undefined;
                 option = undefined;
-                if(michal) { _fun00010_ip = 62; continue _fun00009 }
+                if(michal) { _fun00010_ip = 63; continue _fun00009 }
  41:
                 golfie = _closure2_slot4;
                 oscard = golfie.find;
@@ -584,7 +584,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 option = oscard.bind(golfie)(michal);
- 62:
+ 63:
                 golfie = _closure1_slot0;
                 verify = _closure1_slot2;
                 oscard = 23;
@@ -592,8 +592,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = golfie.bind(entity)(oscard);
                 oscard = golfie.shouldAgeVerifyForSearchMedia;
                 oscard = oscard.bind(golfie)(report, option);
-                if(oscard) { _fun00010_ip = 295; continue _fun00009 }
- 103:
+                if(oscard) { _fun00010_ip = 296; continue _fun00009 }
+ 104:
                 option = _closure1_slot8;
                 golfie = option.getState;
                 yankee = _closure2_slot0;
@@ -645,8 +645,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = golfie.bind(option)(oscard);
                 zuuluu = _closure2_slot9;
                 zuuluu = zuuluu.bind(entity)(report, tangon);
-                _fun00010_ip = 354; continue _fun00009;
- 295:
+                _fun00010_ip = 355; continue _fun00009;
+ 296:
                 tangon = _closure1_slot1;
                 oscard = _closure1_slot2;
                 zuuluu = 24;
@@ -660,7 +660,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.AgeVerificationModalEntryPoint;
                 michal = michal.SEARCH_MEDIA_PREVIEW;
                 michal = zuuluu.bind(tangon)(michal);
- 354:
+ 355:
                 return entity;
             }
         };
@@ -1241,7 +1241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = option.bind(golfie)(tangon);
     var _closure1_slot22 = tangon;
     tangon = golfie.memo;
-    michal = function(argFoo) {
+    michal = function(argFoo) { // Original name: RecentScreenContainer
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             entity = argFoo;

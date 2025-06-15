@@ -42,12 +42,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = argFoo;
                     oscard = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 293; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 291; continue _fun00001 }
  16:
                     michal = null;
-                    if(!(michal != oscard)) { _fun00002_ip = 257; continue _fun00001 }
+                    if(!(michal != oscard)) { _fun00002_ip = 255; continue _fun00001 }
  25:
-                    if(!(michal != golfie)) { _fun00002_ip = 221; continue _fun00001 }
+                    if(!(michal != golfie)) { _fun00002_ip = 219; continue _fun00001 }
  32:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -94,13 +94,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         }
                     };
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=103);
- 101:
+                    SaveGenerator(address=101);
+ 99:
                     return michal;
- 103:
+ 101:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 218; continue _fun00001 }
- 109:
+                    if(tangon) { _fun00002_ip = 216; continue _fun00001 }
+ 107:
                     report = _closure1_slot0;
                     offset = _closure1_slot2;
                     tangon = 4;
@@ -128,9 +128,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = zuuluu;
                     zuuluu = kiloes[oscard](backup, foxtra, romeon, yankee, offset);
                     return zuuluu;
- 218:
+ 216:
                     return michal;
- 221:
+ 219:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new kiloes[tangon](backup, foxtra);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 257:
+ 255:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -150,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new kiloes[tangon](backup, foxtra);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 293:
+ 291:
                     return entity;
                 }
             };

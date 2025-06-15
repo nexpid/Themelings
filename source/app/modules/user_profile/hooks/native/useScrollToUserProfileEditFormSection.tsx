@@ -114,18 +114,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = function(argFoo, argBar) {
                             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                                michal = _closure2_slot0;
-                                report = michal.current;
-                                michal = null;
-                                if(!(michal != report)) { _fun00006_ip = 44; continue _fun00005 }
+                                entity = _closure2_slot0;
+                                zuuluu = entity.current;
+                                entity = null;
+                                if(!(entity != zuuluu)) { _fun00006_ip = 57; continue _fun00005 }
  18:
-                                tangon = report.scrollToPosition;
-                                entity = _closure2_slot3;
-                                zuuluu = !entity;
-                                michal = argFoo;
-                                entity = argBar;
-                                entity = tangon.bind(report)(michal, entity, zuuluu);
- 44:
+                                michal = zuuluu.scrollTo;
+                                entity = {};
+                                report = argFoo;
+                                entity['x'] = report;
+                                report = argBar;
+                                entity['y'] = report;
+                                tangon = _closure2_slot3;
+                                tangon = !tangon;
+                                entity['animated'] = tangon;
+                                entity = michal.bind(zuuluu)(entity);
+ 57:
                                 entity = undefined;
                                 return entity;
                             }

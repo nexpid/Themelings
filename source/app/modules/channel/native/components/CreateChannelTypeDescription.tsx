@@ -105,8 +105,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             };
             zuuluu = golfie.bind(option)(zuuluu, tangon);
             entity = null;
-            if(!michal) { _fun00002_ip = 324; continue _fun00001 }
- 208:
+            if(!michal) { _fun00002_ip = 326; continue _fun00001 }
+ 210:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot3;
             michal = {};
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 324:
+ 326:
             return entity;
         }
     };

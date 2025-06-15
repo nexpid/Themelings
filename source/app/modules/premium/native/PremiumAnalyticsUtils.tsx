@@ -175,10 +175,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = null;
             tangon = tangon == zuuluu;
             michal = undefined;
-            if(tangon) { _fun00004_ip = 115; continue _fun00003 }
- 110:
+            if(tangon) { _fun00004_ip = 113; continue _fun00003 }
+ 108:
             michal = zuuluu.section;
- 115:
+ 113:
             entity['location_section'] = michal;
             return entity;
         }

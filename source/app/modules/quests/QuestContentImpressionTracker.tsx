@@ -188,9 +188,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             oscard['min_viewport_percentage'] = michal;
                             michal = offset.triggeredByStatusChange;
                             oscard['triggered_by_status_change'] = michal;
-                            michal = _closure1_slot6;
-                            michal = michal.googleAdvertisingId;
-                            oscard['google_advertising_id'] = michal;
                             romeon = _closure1_slot1;
                             yankee = _closure1_slot2;
                             michal = 10;
@@ -209,22 +206,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             offset = offset.bind(entity)(michal);
                             michal = offset.getAdUser;
                             michal = michal.bind(offset)();
-                            zuuluu = zuuluu != michal;
-                            if(!zuuluu) { _fun00006_ip = 480; continue _fun00005 }
- 450:
-                            yankee = _closure1_slot0;
-                            romeon = _closure1_slot2;
-                            offset = 12;
-                            offset = romeon[offset];
-                            yankee = yankee.bind(entity)(offset);
-                            offset = yankee.isIOS;
-                            zuuluu = offset.bind(yankee)();
- 480:
-                            if(!zuuluu) { _fun00006_ip = 497; continue _fun00005 }
- 483:
+                            if(!(zuuluu != michal)) { _fun00006_ip = 522; continue _fun00005 }
+ 430:
+                            offset = _closure1_slot0;
+                            zuuluu = _closure1_slot2;
+                            yankee = 12;
+                            zuuluu = zuuluu[yankee];
+                            offset = offset.bind(entity)(zuuluu);
+                            zuuluu = offset.isIOS;
+                            zuuluu = zuuluu.bind(offset)();
+                            if(zuuluu) { _fun00006_ip = 508; continue _fun00005 }
+ 463:
+                            offset = _closure1_slot0;
+                            zuuluu = _closure1_slot2;
+                            zuuluu = zuuluu[yankee];
+                            offset = offset.bind(entity)(zuuluu);
+                            zuuluu = offset.isAndroid;
+                            zuuluu = zuuluu.bind(offset)();
+                            if(!zuuluu) { _fun00006_ip = 522; continue _fun00005 }
+ 492:
+                            zuuluu = michal.advertisingId;
+                            oscard['android_advertising_id'] = zuuluu;
+                            _fun00006_ip = 522; continue _fun00005;
+ 508:
                             michal = michal.advertisingId;
                             oscard['apple_advertising_id'] = michal;
- 497:
+ 522:
                             zuuluu = _closure1_slot0;
                             michal = _closure1_slot2;
                             michal = michal[tangon];
@@ -519,8 +526,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = report.isEligibleForQuestsClientMonitoring;
                         zuuluu = 'QuestImpressionTracker';
                         zuuluu = tangon.bind(report)(zuuluu);
-                        if(!zuuluu) { _fun00012_ip = 331; continue _fun00011 }
- 198:
+                        if(!zuuluu) { _fun00012_ip = 327; continue _fun00011 }
+ 194:
                         tangon = _closure1_slot1;
                         verify = _closure1_slot2;
                         zuuluu = 14;
@@ -550,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard[0] = golfie;
                         zuuluu['tags'] = oscard;
                         zuuluu = tangon.bind(report)(zuuluu);
- 331:
+ 327:
                         zuuluu = _closure3_slot0;
                         michal = true;
                         zuuluu['isRunning'] = michal;
@@ -598,10 +605,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = foxtra.bind(backup)();
                 zuuluu['id'] = foxtra;
                 foxtra = null;
-                if(!(foxtra == yankee)) { _fun00004_ip = 227; continue _fun00003 }
- 223:
+                if(!(foxtra == yankee)) { _fun00004_ip = 215; continue _fun00003 }
+ 211:
                 yankee = _closure1_slot7;
- 227:
+ 215:
                 zuuluu['adDecisionData'] = yankee;
                 zuuluu['questContent'] = offset;
                 zuuluu['questContentPosition'] = option;
@@ -613,12 +620,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option.isArray;
                 option = golfie.bind(option)(verify);
                 golfie = verify;
-                if(option) { _fun00004_ip = 302; continue _fun00003 }
- 291:
+                if(option) { _fun00004_ip = 290; continue _fun00003 }
+ 279:
                 option = new Array(1);
                 option[0] = verify;
                 golfie = option;
- 302:
+ 290:
                 zuuluu['quests'] = golfie;
                 zuuluu['trackGuildAndChannelMetadata'] = oscard;
                 zuuluu['triggeredByStatusChange'] = report;
@@ -678,7 +685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(michal) { _fun00016_ip = 31; continue _fun00015 }
  24:
             report = zuuluu.id;
-            _fun00016_ip = 74; continue _fun00015;
+            _fun00016_ip = 72; continue _fun00015;
  31:
             michal = zuuluu.sort;
             tangon = michal.bind(zuuluu)();
@@ -692,7 +699,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.join;
             michal = '_';
             report = zuuluu.bind(tangon)(michal);
- 74:
+ 72:
             entity = entity.HermesInternal;
             tangon = entity.concat;
             zuuluu = '';

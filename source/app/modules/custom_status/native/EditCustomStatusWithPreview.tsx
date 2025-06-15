@@ -336,8 +336,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = tangon.bind(report)(michal);
             michal = verify.useCustomStatusActivity;
             offset = michal.bind(verify)();
-            record = 20;
-            michal = option[record];
+            config = 20;
+            michal = option[config];
             yankee = tangon.bind(report)(michal);
             verify = yankee.useStateFromStores;
             michal = _closure1_slot7;
@@ -826,7 +826,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity, michal);
             michal = romeon == update;
             entity = null;
-            if(michal) { _fun00002_ip = 2287; continue _fun00001 }
+            if(michal) { _fun00002_ip = 2321; continue _fun00001 }
  928:
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot6;
@@ -876,31 +876,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = sizing.Text;
             sizing = {'accessibilityRole': 'header', 'variant': 'text-sm/semibold', 'color': 'header-secondary'};
             target = _closure1_slot0;
-            vacuum = _closure1_slot2;
+            record = _closure1_slot2;
             ctrled = 11;
-            equals = vacuum[ctrled];
+            equals = record[ctrled];
             equals = target.bind(report)(equals);
             variable37 = equals.intl;
             equals = variable37.string;
-            vacuum = vacuum[ctrled];
-            vacuum = target.bind(report)(vacuum);
-            target = vacuum.t;
+            record = record[ctrled];
+            record = target.bind(report)(record);
+            target = record.t;
             if(result) { _fun00002_ip = 1195; continue _fun00001 }
  1180:
-            vacuum = target.UcdRn5;
-            vacuum = equals.bind(variable37)(vacuum);
+            record = target.UcdRn5;
+            record = equals.bind(variable37)(record);
             _fun00002_ip = 1208; continue _fun00001;
  1195:
             target = target.zOdg0N;
-            vacuum = equals.bind(variable37)(target);
+            record = equals.bind(variable37)(target);
  1208:
-            sizing['children'] = vacuum;
+            sizing['children'] = record;
             echoed = update.bind(report)(echoed, sizing);
             sizing = new Array(2);
             sizing[0] = echoed;
             if(!result) { _fun00002_ip = 1276; continue _fun00001 }
  1229:
-            vacuum = _closure1_slot13;
+            record = _closure1_slot13;
             update = _closure1_slot1;
             target = _closure1_slot2;
             echoed = 35;
@@ -977,7 +977,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             echoed['onChange'] = target;
-            result = vacuum.bind(report)(update, echoed);
+            result = record.bind(report)(update, echoed);
  1276:
             sizing[1] = result;
             backup['children'] = sizing;
@@ -993,15 +993,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!update) { _fun00002_ip = 1345; continue _fun00001 }
  1325:
             target = _closure1_slot13;
-            vacuum = _closure1_slot17;
+            record = _closure1_slot17;
             echoed = {};
             echoed['label'] = status;
-            update = target.bind(report)(vacuum, echoed);
+            update = target.bind(report)(record, echoed);
  1345:
             echoed = new Array(2);
             echoed[0] = update;
             target = _closure1_slot14;
-            vacuum = _closure1_slot5;
+            record = _closure1_slot5;
             update = {};
             status = variable38.statusInputRow;
             update['style'] = status;
@@ -1043,11 +1043,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable45 = variable36.bind(report)(variable44);
             variable44 = {};
             variable44['emoji'] = sierra;
-            variable44['size'] = record;
-            record = variable38.emoji;
-            variable44['style'] = record;
-            record = true;
-            variable44['withPlaceholder'] = record;
+            variable44['size'] = config;
+            config = variable38.emoji;
+            variable44['style'] = config;
+            config = true;
+            variable44['withPlaceholder'] = config;
             variable44 = variable46.bind(report)(variable45, variable44);
             status['children'] = variable44;
             equals = variable37.bind(report)(equals, status);
@@ -1091,12 +1091,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals['autoCapitalize'] = variable39;
             variable38 = variable38.statusText;
             equals['inputTextStyle'] = variable38;
-            equals['multiline'] = record;
+            equals['multiline'] = config;
             variable38 = 'blurAndSubmit';
             equals['submitBehavior'] = variable38;
             variable38 = 'done';
             equals['returnKeyType'] = variable38;
-            equals['autoFocus'] = record;
+            equals['autoFocus'] = config;
             equals = variable37.bind(report)(variable36, equals);
             status[1] = equals;
             sierra = romeon != sierra;
@@ -1114,7 +1114,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1813:
             status[2] = sierra;
             update['children'] = status;
-            update = target.bind(report)(vacuum, update);
+            update = target.bind(report)(record, update);
             echoed[1] = update;
             kiloes['children'] = echoed;
             kiloes = result.bind(report)(sizing, kiloes);
@@ -1123,31 +1123,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = option.bind(report)(foxtra, yankee);
             verify[1] = yankee;
             sizing = _closure1_slot13;
-            vacuum = _closure1_slot0;
-            status = _closure1_slot2;
+            echoed = _closure1_slot0;
+            result = _closure1_slot2;
             yankee = 38;
-            foxtra = status[yankee];
-            foxtra = vacuum.bind(report)(foxtra);
+            foxtra = result[yankee];
+            foxtra = echoed.bind(report)(foxtra);
             kiloes = foxtra.TableRowGroup;
             foxtra = {};
             update = _closure1_slot13;
             backup = 39;
-            result = status[backup];
-            result = vacuum.bind(report)(result);
+            result = result[backup];
+            result = echoed.bind(report)(result);
             echoed = result.TableRow;
             result = {};
-            target = status[ctrled];
-            target = vacuum.bind(report)(target);
-            limora = target.intl;
-            sierra = limora.string;
-            target = status[ctrled];
-            target = vacuum.bind(report)(target);
-            target = target.t;
-            target = target.E45wvL;
-            target = sierra.bind(limora)(target);
-            result['label'] = target;
-            result['arrow'] = record;
-            config = function() { // Original name: onPress
+            target = _closure1_slot0;
+            record = _closure1_slot2;
+            status = record[ctrled];
+            status = target.bind(report)(status);
+            sierra = status.intl;
+            status = sierra.string;
+            record = record[ctrled];
+            record = target.bind(report)(record);
+            target = record.t;
+            if(papara) { _fun00002_ip = 1972; continue _fun00001 }
+ 1959:
+            record = target.E45wvL;
+            record = status.bind(sierra)(record);
+            _fun00002_ip = 1985; continue _fun00001;
+ 1972:
+            target = target.+14vvb;
+            record = status.bind(sierra)(target);
+ 1985:
+            result['label'] = record;
+            result['arrow'] = config;
+            vacuum = function() { // Original name: onPress
                 tangon = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 31;
@@ -1177,8 +1186,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(tangon, michal, zuuluu);
                 return entity;
             };
-            result['onPress'] = config;
+            result['onPress'] = vacuum;
             config = _closure1_slot13;
+            vacuum = _closure1_slot0;
+            status = _closure1_slot2;
             source = status[source];
             source = vacuum.bind(report)(source);
             vacuum = source.Text;
@@ -1198,8 +1209,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = sizing.bind(report)(kiloes, foxtra);
             verify[2] = foxtra;
             offset = romeon != offset;
-            if(!offset) { _fun00002_ip = 2263; continue _fun00001 }
- 2072:
+            if(!offset) { _fun00002_ip = 2297; continue _fun00001 }
+ 2106:
             foxtra = _closure1_slot13;
             source = _closure1_slot0;
             result = _closure1_slot2;
@@ -1243,13 +1254,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(report)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 2263:
+ 2297:
             verify[3] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 2287:
+ 2321:
             return entity;
         }
     };

@@ -116,12 +116,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     tangon = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 63; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 65; continue _fun00003 }
  10:
                     zuuluu = _closure1_slot4;
                     michal = zuuluu.shouldFetch;
                     michal = michal.bind(zuuluu)(tangon);
-                    if(!michal) { _fun00004_ip = 55; continue _fun00003 }
+                    if(!michal) { _fun00004_ip = 57; continue _fun00003 }
  31:
                     zuuluu = function() { // Original name: fetchMemberCountsFromBackend
                         entity = undefined;
@@ -135,18 +135,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     michal = undefined;
                     michal = zuuluu.bind(michal)(tangon);
-                    SaveGenerator(address=49);
- 47:
-                    return michal;
+                    SaveGenerator(address=51);
  49:
+                    return michal;
+ 51:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 60; continue _fun00003 }
- 55:
+                    if(zuuluu) { _fun00004_ip = 62; continue _fun00003 }
+ 57:
                     zuuluu = undefined;
                     return zuuluu;
- 60:
+ 62:
                     return michal;
- 63:
+ 65:
                     return entity;
                 }
             };
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon.get;
             entity = entity.bind(tangon)(verify);
             tangon = null;
-            if(!(tangon == entity)) { _fun00006_ip = 106; continue _fun00005 }
+            if(!(tangon == entity)) { _fun00006_ip = 108; continue _fun00005 }
  71:
             option = _closure1_slot6;
             golfie = option.set;
@@ -285,12 +285,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = entity.bind(zuuluu)(oscard, report);
-            _fun00006_ip = 123; continue _fun00005;
- 106:
+            _fun00006_ip = 125; continue _fun00005;
+ 108:
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
             entity = michal.bind(zuuluu)(tangon);
- 123:
+ 125:
             return entity;
         }
     };

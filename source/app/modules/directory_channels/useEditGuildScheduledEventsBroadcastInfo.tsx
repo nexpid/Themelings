@@ -118,15 +118,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure1_slot8;
                     michal = undefined;
                     michal = tangon.bind(michal)(zuuluu);
-                    _fun00004_ip = 69; continue _fun00003;
+                    _fun00004_ip = 71; continue _fun00003;
  30:
                     michal = _closure2_slot5;
                     michal = michal.current;
-                    if(michal) { _fun00004_ip = 69; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 71; continue _fun00003 }
  42:
                     michal = _closure2_slot6;
                     entity = null;
-                    if(!(entity != michal)) { _fun00004_ip = 69; continue _fun00003 }
+                    if(!(entity != michal)) { _fun00004_ip = 71; continue _fun00003 }
  52:
                     entity = function() {
                         tangon = _closure1_slot2;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = undefined;
                     entity = entity.bind(michal)();
                     entity = entity.bind(michal)();
- 69:
+ 71:
                     entity = undefined;
                     return entity;
                 }
@@ -269,10 +269,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['broadcastInfo'] = tangon;
             tangon = michal;
-            if(!tangon) { _fun00002_ip = 298; continue _fun00001 }
- 295:
+            if(!tangon) { _fun00002_ip = 304; continue _fun00001 }
+ 301:
             tangon = report;
- 298:
+ 304:
             entity['broadcastToDirectoryChannels'] = tangon;
             entity['setBroadcastToDirectoryChannels'] = zuuluu;
             entity['canEveryoneRoleViewEvent'] = michal;

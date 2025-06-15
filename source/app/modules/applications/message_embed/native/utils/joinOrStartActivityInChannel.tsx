@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 363; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 365; continue _fun00001 }
  15:
                     kiloes = michal.appId;
                     var _closure4_slot0 = kiloes;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  54:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 360; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 362; continue _fun00001 }
  63:
                     report = _closure1_slot4;
                     zuuluu = report.getSelfEmbeddedActivityForChannel;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  111:
                     if(!(offset === kiloes)) { _fun00002_ip = 122; continue _fun00001 }
  115:
-                    if(!(option !== verify)) { _fun00002_ip = 284; continue _fun00001 }
+                    if(!(option !== verify)) { _fun00002_ip = 286; continue _fun00001 }
  122:
                     offset = _closure1_slot4;
                     option = offset.getEmbeddedActivitiesForChannel;
@@ -67,11 +67,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = 0;
                     offset = offset > golfie;
                     backup = undefined;
-                    if(!offset) { _fun00002_ip = 178; continue _fun00001 }
- 168:
+                    if(!offset) { _fun00002_ip = 180; continue _fun00001 }
+ 170:
                     golfie = option[golfie];
                     backup = golfie.compositeInstanceId;
- 178:
+ 180:
                     option = _closure1_slot0;
                     sizing = _closure1_slot2;
                     golfie = 5;
@@ -93,32 +93,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie['customId'] = romeon;
                     golfie['referrerId'] = yankee;
                     golfie = option.bind(offset)(golfie);
-                    SaveGenerator(address=272);
- 270:
-                    return golfie;
+                    SaveGenerator(address=274);
  272:
+                    return golfie;
+ 274:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 281; continue _fun00001 }
- 278:
+                    if(option) { _fun00002_ip = 283; continue _fun00001 }
+ 280:
                     return golfie;
- 281:
+ 283:
                     return golfie;
- 284:
+ 286:
                     option = _closure1_slot5;
                     golfie = option.getChannel;
                     option = golfie.bind(option)(verify);
                     verify = report == option;
                     golfie = undefined;
-                    if(verify) { _fun00002_ip = 312; continue _fun00001 }
- 307:
+                    if(verify) { _fun00002_ip = 314; continue _fun00001 }
+ 309:
                     golfie = option.guild_id;
- 312:
+ 314:
                     option = report != golfie;
                     report = null;
-                    if(!option) { _fun00002_ip = 324; continue _fun00001 }
- 321:
+                    if(!option) { _fun00002_ip = 326; continue _fun00001 }
+ 323:
                     report = golfie;
- 324:
+ 326:
                     golfie = _closure1_slot1;
                     option = _closure1_slot2;
                     tangon = 4;
@@ -128,9 +128,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = tangon.bind(oscard)(report, zuuluu);
                     zuuluu = true;
                     return zuuluu;
- 360:
+ 362:
                     return michal;
- 363:
+ 365:
                     return entity;
                 }
             };

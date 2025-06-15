@@ -808,21 +808,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal = tangon.bind(report)(michal);
                     tangon = _closure2_slot2;
-                    if(!(entity != tangon)) { _fun00016_ip = 150; continue _fun00015 }
- 119:
-                    if(!(entity != michal)) { _fun00016_ip = 150; continue _fun00015 }
- 123:
+                    if(!(entity != tangon)) { _fun00016_ip = 151; continue _fun00015 }
+ 120:
+                    if(!(entity != michal)) { _fun00016_ip = 151; continue _fun00015 }
+ 124:
                     tangon = _closure2_slot2;
                     report = tangon.id;
                     tangon = michal.id;
-                    if(!(report === tangon)) { _fun00016_ip = 150; continue _fun00015 }
- 141:
+                    if(!(report === tangon)) { _fun00016_ip = 151; continue _fun00015 }
+ 142:
                     zuuluu = _closure2_slot1;
                     entity = null;
-                    if(zuuluu) { _fun00016_ip = 153; continue _fun00015 }
- 150:
+                    if(zuuluu) { _fun00016_ip = 154; continue _fun00015 }
+ 151:
                     entity = michal;
- 153:
+ 154:
                     return entity;
                 }
             };
@@ -862,7 +862,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     var _closure3_slot0 = tangon;
                     entity = null;
                     tangon = entity == tangon;
-                    if(tangon) { _fun00022_ip = 74; continue _fun00021 }
+                    if(tangon) { _fun00022_ip = 75; continue _fun00021 }
  32:
                     report = _closure1_slot8;
                     tangon = report.getParticipants;
@@ -891,7 +891,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     entity = zuuluu.bind(tangon)(michal);
- 74:
+ 75:
                     return entity;
                 }
             };
@@ -1105,7 +1105,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(michal) { _fun00030_ip = 108; continue _fun00029 }
  99:
                     michal = _closure2_slot2;
-                    _fun00030_ip = 264; continue _fun00029;
+                    _fun00030_ip = 265; continue _fun00029;
  108:
                     if(!golfie) { _fun00030_ip = 156; continue _fun00029 }
  111:
@@ -1121,10 +1121,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = _closure1_slot11;
                     golfie = verify.getId;
                     golfie = golfie.bind(verify)();
-                    if(!(option === golfie)) { _fun00030_ip = 204; continue _fun00029 }
+                    if(!(option === golfie)) { _fun00030_ip = 205; continue _fun00029 }
  156:
                     michal = undefined;
-                    if(!oscard) { _fun00030_ip = 264; continue _fun00029 }
+                    if(!oscard) { _fun00030_ip = 265; continue _fun00029 }
  161:
                     option = _closure1_slot8;
                     golfie = option.getStreamParticipants;
@@ -1143,8 +1143,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     michal = golfie.bind(option)(oscard);
-                    _fun00030_ip = 264; continue _fun00029;
- 204:
+                    _fun00030_ip = 265; continue _fun00029;
+ 205:
                     golfie = _closure1_slot8;
                     oscard = golfie.getParticipant;
                     report = _closure2_slot0;
@@ -1154,27 +1154,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon.id;
                     report = oscard.bind(golfie)(report, tangon);
                     tangon = entity != report;
-                    if(!tangon) { _fun00030_ip = 256; continue _fun00029 }
- 250:
+                    if(!tangon) { _fun00030_ip = 257; continue _fun00029 }
+ 251:
                     tangon = report.localVideoDisabled;
- 256:
+ 257:
                     michal = report;
-                    if(!tangon) { _fun00030_ip = 264; continue _fun00029 }
- 262:
+                    if(!tangon) { _fun00030_ip = 265; continue _fun00029 }
+ 263:
                     michal = null;
- 264:
+ 265:
                     tangon = entity == michal;
                     zuuluu = undefined;
-                    if(tangon) { _fun00030_ip = 279; continue _fun00029 }
- 273:
+                    if(tangon) { _fun00030_ip = 280; continue _fun00029 }
+ 274:
                     zuuluu = michal.streamId;
- 279:
+ 280:
                     zuuluu = entity != zuuluu;
                     entity = null;
-                    if(!zuuluu) { _fun00030_ip = 291; continue _fun00029 }
- 288:
+                    if(!zuuluu) { _fun00030_ip = 292; continue _fun00029 }
+ 289:
                     entity = michal;
- 291:
+ 292:
                     return entity;
                 }
             };

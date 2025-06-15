@@ -1,50 +1,10 @@
 // app/modules/keyboard/native/AnimatedKeyboardExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
-    oscard = argBar;
+    golfie = argBar;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = golfie;
-    entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
-    tangon = {};
-    yankee = true;
-    tangon['value'] = yankee;
-    entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    tangon = golfie[entity];
-    entity = undefined;
-    option = oscard.bind(entity)(tangon);
-    report = option.createExperiment;
-    tangon = {'kind': 'user', 'id': '2025-06_animated_keyboard_android', 'label': 'Animated Keyboard (Android)'};
-    verify = {};
-    offset = false;
-    verify['enabled'] = offset;
-    tangon['defaultConfig'] = verify;
-    offset = {'id': 1, 'label': 'Enable Animated Keyboard (Android)'};
-    verify = {};
-    verify['enabled'] = yankee;
-    offset['config'] = verify;
-    verify = new Array(1);
-    verify[0] = offset;
-    tangon['treatments'] = verify;
-    tangon = report.bind(option)(tangon);
-    option = tangon.getCurrentConfig;
-    report = {};
-    verify = 'isAnimatedKeyboardEnabled';
-    report['location'] = verify;
-    report = option.bind(tangon)(report);
-    report = report.enabled;
-    var _closure1_slot2 = report;
-    report = 2;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/keyboard/native/AnimatedKeyboardExperiment.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['AnimatedKeyboardExperiment'] = tangon;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = option;
     michal = function() { // Original name: isLegacyAndroidKeyboard
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -64,6 +24,65 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             return entity;
         }
     };
+    var _closure1_slot4 = michal;
+    entity = global;
+    verify = entity.Object;
+    oscard = verify.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = oscard.bind(verify)(zuuluu, entity, report);
+    entity = 0;
+    report = option[entity];
+    entity = undefined;
+    offset = golfie.bind(entity)(report);
+    verify = offset.createExperiment;
+    report = {'kind': 'user', 'id': '2025-06_animated_keyboard_android', 'label': 'Animated Keyboard (Android)'};
+    oscard = {'enabled': false, 'reanimated': false};
+    report['defaultConfig'] = oscard;
+    oscard = {'id': 1, 'label': 'Enable w/ Reanimated(Android)'};
+    yankee = {'enabled': true, 'reanimated': true};
+    oscard['config'] = yankee;
+    yankee = new Array(2);
+    yankee[0] = oscard;
+    romeon = {'id': 2, 'label': 'Enable w/ KeyboardController (Android)'};
+    oscard = 2;
+    foxtra = {'enabled': true, 'reanimated': false};
+    romeon['config'] = foxtra;
+    yankee[1] = romeon;
+    report['treatments'] = yankee;
+    report = verify.bind(offset)(report);
+    offset = report.getCurrentConfig;
+    verify = {};
+    yankee = 'isAnimatedKeyboardEnabled';
+    verify['location'] = yankee;
+    verify = offset.bind(report)(verify);
+    offset = verify.enabled;
+    var _closure1_slot2 = offset;
+    verify = verify.reanimated;
+    var _closure1_slot3 = verify;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/keyboard/native/AnimatedKeyboardExperiment.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['AnimatedKeyboardExperiment'] = report;
+    tangon = function() { // Original name: isReanimatedKeyboardEnabled
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = _closure1_slot4;
+            entity = undefined;
+            entity = zuuluu.bind(entity)();
+            entity = !entity;
+            if(!entity) { _fun00004_ip = 23; continue _fun00003 }
+ 19:
+            entity = _closure1_slot3;
+ 23:
+            return entity;
+        }
+    };
+    zuuluu['isReanimatedKeyboardEnabled'] = tangon;
     zuuluu['isLegacyAndroidKeyboard'] = michal;
     return entity;
 })();

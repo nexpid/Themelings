@@ -1,0 +1,38 @@
+// app/modules/experiments/apex/ApexTypes.tsx
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    entity = global;
+    report = entity.Object;
+    tangon = report.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    report = {};
+    oscard = 1;
+    report['User'] = oscard;
+    entity = 'User';
+    report[oscard] = entity;
+    tangon = {};
+    michal = report.User;
+    entity = 'user';
+    tangon[michal] = entity;
+    michal = {};
+    michal['IsOverride'] = oscard;
+    entity = 'IsOverride';
+    michal[oscard] = entity;
+    oscard = argPlu;
+    entity = 0;
+    golfie = oscard[entity];
+    oscard = argBar;
+    entity = undefined;
+    option = oscard.bind(entity)(golfie);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/experiments/apex/ApexTypes.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['UnitType'] = report;
+    zuuluu['UnitTypeToKind'] = tangon;
+    zuuluu['ExperimentFlags'] = michal;
+    return entity;
+})();

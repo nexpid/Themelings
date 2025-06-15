@@ -780,23 +780,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 };
                                 golfie = michal.bind(tangon)(entity);
                                 entity = undefined;
-                                if(!(entity !== golfie)) { _fun00028_ip = 380; continue _fun00027 }
- 46:
+                                if(!(entity !== golfie)) { _fun00028_ip = 381; continue _fun00027 }
+ 47:
                                 michal = golfie.quality;
                                 option = null;
                                 oscard = option != michal;
                                 report = 0;
-                                if(!oscard) { _fun00028_ip = 66; continue _fun00027 }
- 63:
+                                if(!oscard) { _fun00028_ip = 67; continue _fun00027 }
+ 64:
                                 report = michal;
- 66:
+ 67:
                                 michal = 100;
-                                if(!(report < michal)) { _fun00028_ip = 380; continue _fun00027 }
- 76:
+                                if(!(report < michal)) { _fun00028_ip = 381; continue _fun00027 }
+ 77:
                                 report = golfie.type;
                                 michal = 'video';
-                                if(!(michal === report)) { _fun00028_ip = 380; continue _fun00027 }
- 92:
+                                if(!(michal === report)) { _fun00028_ip = 381; continue _fun00027 }
+ 93:
                                 michal = global;
                                 verify = michal.Math;
                                 oscard = verify.floor;
@@ -813,24 +813,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 report = golfie.minBitrate;
                                 romeon = option != report;
                                 oscard = 0;
-                                if(!romeon) { _fun00028_ip = 179; continue _fun00027 }
- 176:
+                                if(!romeon) { _fun00028_ip = 180; continue _fun00027 }
+ 177:
                                 oscard = report;
- 179:
+ 180:
                                 romeon = golfie.maxBitrate;
                                 report = offset;
-                                if(!(option != romeon)) { _fun00028_ip = 195; continue _fun00027 }
- 192:
+                                if(!(option != romeon)) { _fun00028_ip = 196; continue _fun00027 }
+ 193:
                                 report = romeon;
- 195:
+ 196:
                                 report = verify.bind(entity)(offset, oscard, report);
                                 oscard = golfie.targetBitrate;
                                 option = option != oscard;
                                 tangon = 0;
-                                if(!option) { _fun00028_ip = 220; continue _fun00027 }
- 217:
+                                if(!option) { _fun00028_ip = 221; continue _fun00027 }
+ 218:
                                 tangon = oscard;
- 220:
+ 221:
                                 verify = michal.Math;
                                 option = verify.abs;
                                 oscard = report - tangon;
@@ -841,13 +841,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 oscard = oscard / tangon;
                                 tangon = 0.1;
                                 tangon = oscard > tangon;
-                                if(tangon) { _fun00028_ip = 283; continue _fun00027 }
- 273:
+                                if(tangon) { _fun00028_ip = 284; continue _fun00027 }
+ 274:
                                 oscard = golfie.targetBitrate;
                                 tangon = entity === oscard;
- 283:
-                                if(!tangon) { _fun00028_ip = 380; continue _fun00027 }
- 286:
+ 284:
+                                if(!tangon) { _fun00028_ip = 381; continue _fun00027 }
+ 287:
                                 zuuluu = _closure3_slot0;
                                 oscard = zuuluu.logger;
                                 tangon = oscard.info;
@@ -866,7 +866,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = michal.bind(tangon)(report);
                                 michal = zuuluu.updateVideoQuality;
                                 michal = michal.bind(zuuluu)();
- 380:
+ 381:
                                 return entity;
                             }
                         };
@@ -5338,32 +5338,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = config == michal;
                 sequen = undefined;
                 tangon = undefined;
-                if(entity) { _fun00134_ip = 69; continue _fun00133 }
- 63:
+                if(entity) { _fun00134_ip = 70; continue _fun00133 }
+ 64:
                 tangon = michal.payloadType;
- 69:
+ 70:
                 report = config != tangon;
                 entity = 0;
-                if(!report) { _fun00134_ip = 81; continue _fun00133 }
- 78:
+                if(!report) { _fun00134_ip = 82; continue _fun00133 }
+ 79:
                 entity = tangon;
- 81:
+ 82:
                 zuuluu['type'] = entity;
                 zuuluu['name'] = papara;
                 entity = 48000;
                 tangon = {};
                 oscard = config == michal;
                 report = undefined;
-                if(oscard) { _fun00134_ip = 116; continue _fun00133 }
- 110:
+                if(oscard) { _fun00134_ip = 117; continue _fun00133 }
+ 111:
                 report = michal.payloadType;
- 116:
+ 117:
                 oscard = config != report;
                 michal = 0;
-                if(!oscard) { _fun00134_ip = 128; continue _fun00133 }
- 125:
+                if(!oscard) { _fun00134_ip = 129; continue _fun00133 }
+ 126:
                 michal = report;
- 128:
+ 129:
                 tangon['type'] = michal;
                 tangon['name'] = papara;
                 tangon['freq'] = entity;
@@ -5378,10 +5378,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot23;
                 report = tangon.STREAM;
                 tangon = argBaz;
-                if(!(tangon === report)) { _fun00134_ip = 203; continue _fun00133 }
- 197:
+                if(!(tangon === report)) { _fun00134_ip = 204; continue _fun00133 }
+ 198:
                 zuuluu['channels'] = entity;
- 203:
+ 204:
                 tangon = new Array(0);
                 report = {'name': '', 'type': 0, 'rtxType': 0};
                 entity = {};
@@ -5406,13 +5406,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = undefined;
                 oscard = undefined;
                 report = romeon;
-                if(entity) { _fun00134_ip = 819; continue _fun00133 }
- 302:
+                if(entity) { _fun00134_ip = 820; continue _fun00133 }
+ 303:
                 sierra = foxtra.value;
                 entity = sierra.name;
                 target = romeon;
-                if(!(entity !== papara)) { _fun00134_ip = 795; continue _fun00133 }
- 322:
+                if(!(entity !== papara)) { _fun00134_ip = 796; continue _fun00133 }
+ 323:
                 status = {};
                 limora = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -5424,29 +5424,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 status['name'] = entity;
                 entity = config == sierra;
                 whisks = undefined;
-                if(entity) { _fun00134_ip = 376; continue _fun00133 }
- 370:
+                if(entity) { _fun00134_ip = 377; continue _fun00133 }
+ 371:
                 whisks = sierra.payloadType;
- 376:
+ 377:
                 limora = config != whisks;
                 entity = 0;
-                if(!limora) { _fun00134_ip = 388; continue _fun00133 }
- 385:
+                if(!limora) { _fun00134_ip = 389; continue _fun00133 }
+ 386:
                 entity = whisks;
- 388:
+ 389:
                 status['type'] = entity;
                 entity = config == sierra;
                 limora = undefined;
-                if(entity) { _fun00134_ip = 407; continue _fun00133 }
- 401:
+                if(entity) { _fun00134_ip = 408; continue _fun00133 }
+ 402:
                 limora = sierra.rtxPayloadType;
- 407:
+ 408:
                 equals = config != limora;
                 entity = 0;
-                if(!equals) { _fun00134_ip = 419; continue _fun00133 }
- 416:
+                if(!equals) { _fun00134_ip = 420; continue _fun00133 }
+ 417:
                 entity = limora;
- 419:
+ 420:
                 status['rtxType'] = entity;
                 equals = record.getCodecParams;
                 entity = sierra.name;
@@ -5457,47 +5457,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure1_slot11;
                 entity = entity.RESET_DECODER_ON_ERRORS;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 489; continue _fun00133 }
- 475:
+                if(!entity) { _fun00134_ip = 490; continue _fun00133 }
+ 476:
                 entity = status.params;
                 entity['reset-on-errors'] = ctrled;
- 489:
+ 490:
                 quebec = record.experimentFlags;
                 equals = quebec.has;
                 entity = _closure1_slot11;
                 entity = entity.SOFTWARE_FALLBACK_ON_ERRORS;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 532; continue _fun00133 }
- 518:
+                if(!entity) { _fun00134_ip = 533; continue _fun00133 }
+ 519:
                 entity = status.params;
                 entity['fallback-after-errors'] = sizing;
- 532:
+ 533:
                 quebec = record.experimentFlags;
                 equals = quebec.has;
                 entity = _closure1_slot11;
                 entity = entity.SOFTWARE_FALLBACK_ON_CONSECUTIVE_ERRORS;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 575; continue _fun00133 }
- 561:
+                if(!entity) { _fun00134_ip = 576; continue _fun00133 }
+ 562:
                 entity = status.params;
                 entity['fallback-on-consecutive-errors'] = ctrled;
- 575:
+ 576:
                 quebec = record.experimentFlags;
                 equals = quebec.has;
                 entity = _closure1_slot11;
                 entity = entity.SIGNAL_AV1_HARDWARE_DECODE;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 618; continue _fun00133 }
- 604:
+                if(!entity) { _fun00134_ip = 619; continue _fun00133 }
+ 605:
                 entity = status.params;
                 entity['hardware-av1-decode'] = ctrled;
- 618:
+ 619:
                 equals = record.hardwareH264;
                 entity = output;
-                if(!equals) { _fun00134_ip = 633; continue _fun00133 }
- 630:
+                if(!equals) { _fun00134_ip = 634; continue _fun00133 }
+ 631:
                 entity = ctrled;
- 633:
+ 634:
                 equals = status.params;
                 equals['hardware-h264'] = entity;
                 equals = tangon.push;
@@ -5510,8 +5510,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = offset;
                 golfie = status;
                 oscard = entity;
-                if(!(equals === cntext)) { _fun00134_ip = 795; continue _fun00133 }
- 685:
+                if(!(equals === cntext)) { _fun00134_ip = 796; continue _fun00133 }
+ 686:
                 equals = {};
                 variable39 = equals;
                 variable38 = status;
@@ -5525,11 +5525,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 quebec = _closure1_slot11;
                 quebec = quebec.VIDEOTOOLBOX_RATE_CONTROL;
                 quebec = variable36.bind(variable37)(quebec);
-                if(!quebec) { _fun00134_ip = 762; continue _fun00133 }
- 748:
+                if(!quebec) { _fun00134_ip = 763; continue _fun00133 }
+ 749:
                 quebec = equals.params;
                 quebec['fixed-rate-presentation-timestamps'] = ctrled;
- 762:
+ 763:
                 quebec = equals.params;
                 quebec['hardware-h264'] = entity;
                 target = equals;
@@ -5539,14 +5539,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = offset;
                 golfie = status;
                 oscard = entity;
- 795:
+ 796:
                 status = update.bind(sequen)();
                 entity = status.done;
                 romeon = target;
                 foxtra = status;
                 report = romeon;
-                if(!entity) { _fun00134_ip = 302; continue _fun00133 }
- 819:
+                if(!entity) { _fun00134_ip = 303; continue _fun00133 }
+ 820:
                 entity = {};
                 entity['videoEncoder'] = report;
                 entity['videoDecoders'] = tangon;

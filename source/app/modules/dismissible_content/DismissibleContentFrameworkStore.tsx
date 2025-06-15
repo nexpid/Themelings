@@ -425,17 +425,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
             zuuluu = tangon.has;
             zuuluu = zuuluu.bind(tangon)(golfie);
-            if(zuuluu) { _fun00010_ip = 378; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 374; continue _fun00009 }
  115:
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.dailyCapOverridden;
-            if(zuuluu) { _fun00010_ip = 378; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 374; continue _fun00009 }
  131:
             zuuluu = _closure1_slot9;
             tangon = zuuluu.dismissibleContentSeenDuringSession;
             zuuluu = tangon.has;
             zuuluu = zuuluu.bind(tangon)(golfie);
-            if(zuuluu) { _fun00010_ip = 378; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 374; continue _fun00009 }
  157:
             zuuluu = _closure1_slot9;
             tangon = zuuluu.dismissibleContentSeenDuringSession;
@@ -472,7 +472,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot9;
             zuuluu = michal.numberOfDCsShownToday;
             michal = 3;
-            if(!(zuuluu > michal)) { _fun00010_ip = 378; continue _fun00009 }
+            if(!(zuuluu > michal)) { _fun00010_ip = 374; continue _fun00009 }
  300:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -490,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.numberOfDCsShownToday;
             michal['shown_dcs'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
- 378:
+ 374:
             return entity;
         }
     };
@@ -508,6 +508,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['DCF_HANDLE_DC_DISMISSED'] = verify;
+    verify = function(argFoo) { // Original name: handleResetLastDCDismissed
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            entity = argFoo;
+            zuuluu = entity.dismissibleContent;
+            michal = _closure1_slot9;
+            entity = null;
+            tangon = entity != zuuluu;
+            if(!tangon) { _fun00012_ip = 28; continue _fun00011 }
+ 25:
+            entity = zuuluu;
+ 28:
+            michal['lastDCDismissed'] = entity;
+            entity = undefined;
+            return entity;
+        }
+    };
+    michal['DCF_OVERRIDE_LAST_DC_DISMISSED'] = verify;
     tangon = function() { // Original name: resetStore
         zuuluu = _closure1_slot9;
         michal = null;

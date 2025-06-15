@@ -170,7 +170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 zuuluu = _closure2_slot4;
-                if(zuuluu) { _fun00002_ip = 94; continue _fun00001 }
+                if(zuuluu) { _fun00002_ip = 98; continue _fun00001 }
  12:
                 tangon = _closure2_slot5;
                 report = undefined;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity = michal.bind(zuuluu)(entity);
- 94:
+ 98:
                 entity = undefined;
                 return entity;
             }

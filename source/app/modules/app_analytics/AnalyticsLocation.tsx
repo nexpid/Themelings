@@ -544,6 +544,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['CLIENT_THEMES_EDITOR'] = entity;
     entity = 'client themes theme selector';
     michal['CLIENT_THEMES_THEME_SELECTOR'] = entity;
+    entity = 'custom themes editor coachmark';
+    michal['CUSTOM_THEMES_EDITOR_COACHMARK'] = entity;
+    entity = 'custom themes editor';
+    michal['CUSTOM_THEMES_EDITOR'] = entity;
     entity = 'automod profile quarantine alert';
     michal['AUTOMOD_PROFILE_QUARANTINE_ALERT'] = entity;
     entity = 'share nitro embed';
@@ -640,6 +644,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['COLLECTIBLES_EXPIRY_MODAL'] = entity;
     entity = 'collectibles gift customization modal';
     michal['COLLECTIBLES_GIFT_CUSTOMIZATION_MODAL'] = entity;
+    entity = 'collectibles mobile gift modal';
+    michal['COLLECTIBLES_MOBILE_GIFT_MODAL'] = entity;
     entity = 'premium subscription april campaign modal';
     michal['PREMIUM_SUBSCRIPTION_APRIL_CAMPAIGN_MODAL'] = entity;
     entity = 'premium billing info';

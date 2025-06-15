@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     zuuluu['getEmbeddedActivityLocationChannelId'] = tangon;
-    tangon = function(argFoo) { // Original name: getEmbeddedActivityLocationGuildId
+    michal = function(argFoo) { // Original name: getEmbeddedActivityLocationGuildId
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             michal = argFoo;
@@ -59,48 +59,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getEmbeddedActivityLocationGuildId'] = tangon;
-    tangon = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingChannelId
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-            michal = argFoo;
-            entity = null;
-            if(!(entity == michal)) { _fun00006_ip = 13; continue _fun00005 }
- 9:
-            entity = undefined;
-            return entity;
- 13:
-            entity = 'starting_channel_id';
-            zuuluu = entity in michal;
-            entity = undefined;
-            if(!zuuluu) { _fun00006_ip = 36; continue _fun00005 }
- 28:
-            entity = michal.starting_channel_id;
- 36:
-            return entity;
-        }
-    };
-    zuuluu['getEmbeddedActivityLocationStartingChannelId'] = tangon;
-    michal = function(argFoo) { // Original name: getEmbeddedActivityLocationStartingGuildId
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-            michal = argFoo;
-            entity = null;
-            if(!(entity == michal)) { _fun00008_ip = 13; continue _fun00007 }
- 9:
-            entity = undefined;
-            return entity;
- 13:
-            entity = 'starting_guild_id';
-            zuuluu = entity in michal;
-            entity = undefined;
-            if(!zuuluu) { _fun00008_ip = 36; continue _fun00007 }
- 28:
-            entity = michal.starting_guild_id;
- 36:
-            return entity;
-        }
-    };
-    zuuluu['getEmbeddedActivityLocationStartingGuildId'] = michal;
+    zuuluu['getEmbeddedActivityLocationGuildId'] = michal;
     return entity;
 })();

@@ -24,8 +24,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = 'modules/user_settings/native/profiles/UserProfileEditConstants.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['UserProfileEditAutoFocusElement'] = michal;
-    michal = 150;
-    zuuluu['KEYBOARD_DELAY_MS'] = michal;
     michal = ['rgba(0, 0, 0, 0)', '#000'];
     zuuluu['DEFAULT_UPSELL_GRADIENT_COLORS'] = michal;
     michal = [0, 0.95];

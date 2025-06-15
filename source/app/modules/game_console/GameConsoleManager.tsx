@@ -529,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = zuuluu.bind(report)();
                         var _closure4_slot0 = report;
                         zuuluu = null;
-                        if(!(zuuluu != report)) { _fun00014_ip = 97; continue _fun00013 }
+                        if(!(zuuluu != report)) { _fun00014_ip = 98; continue _fun00013 }
  38:
                         oscard = tangon.find;
                         report = function(argFoo) {
@@ -540,8 +540,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         };
                         oscard = oscard.bind(tangon)(report);
-                        if(!(zuuluu != oscard)) { _fun00014_ip = 93; continue _fun00013 }
- 59:
+                        if(!(zuuluu != oscard)) { _fun00014_ip = 94; continue _fun00013 }
+ 60:
                         zuuluu = _closure3_slot0;
                         report = zuuluu.rollbackCommandTimeout;
                         zuuluu = report.stop;
@@ -549,10 +549,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = _closure1_slot20;
                         zuuluu = undefined;
                         zuuluu = report.bind(zuuluu)(oscard);
- 93:
+ 94:
                         zuuluu = undefined;
                         return zuuluu;
- 97:
+ 98:
                         zuuluu = tangon.map;
                         michal = function(argFoo) {
                             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {

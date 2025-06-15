@@ -1,38 +1,12 @@
 // app/modules/premium/promotions/PromotionUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
-    offset = argBaz;
+    oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
-    verify = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = offset;
-    var _closure1_slot2 = verify;
-    oscard = function(argFoo) { // Original name: outboundPromotionFromServer
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.id;
-        entity['id'] = zuuluu;
-        zuuluu = michal.start_date;
-        entity['startDate'] = zuuluu;
-        zuuluu = michal.end_date;
-        entity['endDate'] = zuuluu;
-        zuuluu = michal.outbound_redemption_end_date;
-        entity['outboundRedemptionEndDate'] = zuuluu;
-        zuuluu = michal.outbound_title;
-        entity['outboundTitle'] = zuuluu;
-        zuuluu = michal.outbound_redemption_modal_body;
-        entity['outboundRedemptionModalBody'] = zuuluu;
-        zuuluu = michal.outbound_redemption_page_link;
-        entity['outboundRedemptionPageLink'] = zuuluu;
-        zuuluu = michal.outbound_redemption_url_format;
-        entity['outboundRedemptionUrlFormat'] = zuuluu;
-        zuuluu = michal.outbound_terms_and_conditions;
-        entity['outboundTermsAndConditions'] = zuuluu;
-        michal = michal.flags;
-        entity['flags'] = michal;
-        return entity;
-    };
-    var _closure1_slot11 = oscard;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo) { // Original name: claimedOutboundPromotionCodeFromServer
         michal = argFoo;
         entity = {};
@@ -42,10 +16,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['userId'] = zuuluu;
         zuuluu = michal.claimed_at;
         entity['claimedAt'] = zuuluu;
-        tangon = _closure1_slot11;
-        zuuluu = michal.promotion;
-        michal = undefined;
-        michal = tangon.bind(michal)(zuuluu);
+        tangon = _closure1_slot6;
+        zuuluu = tangon.createFromServer;
+        michal = michal.promotion;
+        michal = zuuluu.bind(tangon)(michal);
         entity['promotion'] = michal;
         return entity;
     };
@@ -64,14 +38,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  10:
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    michal = 9;
+                    michal = 10;
                     tangon = tangon[michal];
                     michal = undefined;
                     michal = report.bind(michal)(tangon);
                     report = michal.HTTP;
                     tangon = report.get;
                     michal = {};
-                    oscard = _closure1_slot10;
+                    oscard = _closure1_slot11;
                     oscard = oscard.CLAIMED_OUTBOUND_PROMOTION_CODES;
                     michal['url'] = oscard;
                     oscard = {};
@@ -129,14 +103,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = _closure1_slot12;
                     zuuluu = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    michal = 9;
+                    michal = 10;
                     michal = tangon[michal];
                     tangon = undefined;
                     michal = zuuluu.bind(tangon)(michal);
                     oscard = michal.HTTP;
                     zuuluu = oscard.post;
                     michal = {};
-                    verify = _closure1_slot10;
+                    verify = _closure1_slot11;
                     option = verify.CLAIM_OUTBOUND_PROMOTION_CODE;
                     golfie = argFoo;
                     golfie = option.bind(verify)(golfie);
@@ -172,12 +146,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot14 = entity;
-    report = function() { // Original name: getNextUnseenOutboundPromotionId
+    tangon = function() { // Original name: getNextUnseenOutboundPromotionId
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             report = entity.outboundPromotions;
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             entity = entity.consumedInboundPromotionId;
             var _closure2_slot0 = entity;
             tangon = report.filter;
@@ -193,12 +167,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  27:
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    zuuluu = 10;
+                    zuuluu = 11;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     tangon = oscard.bind(zuuluu)(tangon);
                     zuuluu = tangon.hasFlag;
-                    michal = _closure1_slot9;
+                    michal = _closure1_slot10;
                     michal = michal.SUPPRESS_NOTIFICATION;
                     michal = zuuluu.bind(tangon)(report, michal);
                     entity = !michal;
@@ -214,12 +188,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity == report;
             option = undefined;
             tangon = undefined;
-            if(oscard) { _fun00006_ip = 132; continue _fun00005 }
- 75:
+            if(oscard) { _fun00006_ip = 130; continue _fun00005 }
+ 73:
             oscard = report.recurringDismissibleContentStates;
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            report = 11;
+            report = 12;
             report = offset[report];
             report = verify.bind(option)(report);
             report = report.DismissibleContent;
@@ -227,21 +201,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = oscard[report];
             oscard = entity == report;
             tangon = undefined;
-            if(oscard) { _fun00006_ip = 132; continue _fun00005 }
- 126:
+            if(oscard) { _fun00006_ip = 130; continue _fun00005 }
+ 124:
             tangon = report.lastDismissedObjectId;
- 132:
+ 130:
             var _closure2_slot1 = tangon;
             oscard = golfie;
-            if(!(entity != tangon)) { _fun00006_ip = 160; continue _fun00005 }
- 143:
+            if(!(entity != tangon)) { _fun00006_ip = 156; continue _fun00005 }
+ 141:
             report = golfie.filter;
             tangon = function(argFoo) {
                 entity = argFoo;
                 tangon = entity.id;
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 12;
+                entity = 13;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -253,39 +227,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             oscard = report.bind(golfie)(tangon);
- 160:
-            report = _closure1_slot6;
+ 156:
+            report = _closure1_slot7;
             tangon = report.getPremiumTypeSubscription;
             report = tangon.bind(report)();
             tangon = entity == report;
-            if(tangon) { _fun00006_ip = 190; continue _fun00005 }
- 181:
+            if(tangon) { _fun00006_ip = 186; continue _fun00005 }
+ 177:
             report = report.hasActiveTrial;
             tangon = !report;
- 190:
-            report = _closure1_slot7;
+ 186:
+            report = _closure1_slot8;
             zuuluu = report.hasAnyUnexpiredOffer;
             zuuluu = zuuluu.bind(report)();
-            if(!tangon) { _fun00006_ip = 213; continue _fun00005 }
- 207:
+            if(!tangon) { _fun00006_ip = 209; continue _fun00005 }
+ 203:
             report = oscard;
-            if(!zuuluu) { _fun00006_ip = 230; continue _fun00005 }
- 213:
+            if(!zuuluu) { _fun00006_ip = 224; continue _fun00005 }
+ 209:
             tangon = oscard.filter;
             zuuluu = function(argFoo) {
-                zuuluu = _closure1_slot16;
-                michal = undefined;
-                entity = argFoo;
-                entity = zuuluu.bind(michal)(entity);
+                michal = argFoo;
+                entity = michal.isRedeemableByTrialUsers;
+                entity = entity.bind(michal)();
                 return entity;
             };
             report = tangon.bind(oscard)(zuuluu);
- 230:
+ 224:
             tangon = report.length;
             zuuluu = 0;
             entity = null;
-            if(!(zuuluu !== tangon)) { _fun00006_ip = 270; continue _fun00005 }
- 243:
+            if(!(zuuluu !== tangon)) { _fun00006_ip = 262; continue _fun00005 }
+ 237:
             tangon = report.sort;
             michal = function(argFoo, argBar) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
@@ -319,83 +292,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(report)(michal);
             michal = michal[zuuluu];
             entity = michal.id;
- 270:
+ 262:
             return entity;
         }
     };
-    var _closure1_slot15 = report;
-    tangon = function(argFoo) { // Original name: isOutboundPromotionRedeemableByTrialUsers
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot2;
-        michal = 10;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.hasFlag;
-        michal = argFoo;
-        michal = michal.flags;
-        entity = _closure1_slot9;
-        entity = entity.IS_OUTBOUND_REDEEMABLE_BY_TRIAL_USERS;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
-    };
-    var _closure1_slot16 = tangon;
+    var _closure1_slot15 = tangon;
     entity = global;
-    romeon = entity.Object;
-    yankee = romeon.defineProperty;
-    golfie = {};
+    offset = entity.Object;
+    verify = offset.defineProperty;
+    report = {};
     entity = true;
-    golfie['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = yankee.bind(romeon)(zuuluu, entity, golfie);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    golfie = verify[entity];
+    report = golfie[entity];
     entity = undefined;
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot3 = golfie;
-    golfie = 1;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot4 = golfie;
-    golfie = 2;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot5 = golfie;
-    golfie = 3;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot6 = golfie;
-    golfie = 4;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot7 = golfie;
-    golfie = 5;
-    golfie = verify[golfie];
-    golfie = offset.bind(entity)(golfie);
-    var _closure1_slot8 = golfie;
-    golfie = 6;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.PromotionFlags;
-    var _closure1_slot9 = golfie;
-    golfie = 7;
-    golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    golfie = golfie.Endpoints;
-    var _closure1_slot10 = golfie;
-    golfie = 16;
-    golfie = verify[golfie];
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'modules/premium/promotions/PromotionUtils.tsx';
-    golfie = option.bind(verify)(golfie);
-    golfie = function(argFoo, argBar) { // Original name: getPromotionImageURL
+    report = option.bind(entity)(report);
+    var _closure1_slot3 = report;
+    report = 1;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot4 = report;
+    report = 2;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot5 = report;
+    report = 3;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot6 = report;
+    report = 4;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot7 = report;
+    report = 5;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot8 = report;
+    report = 6;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot9 = report;
+    report = 7;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.PromotionFlags;
+    var _closure1_slot10 = report;
+    report = 8;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.Endpoints;
+    var _closure1_slot11 = report;
+    report = 17;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/premium/promotions/PromotionUtils.tsx';
+    report = oscard.bind(golfie)(report);
+    report = function(argFoo, argBar) { // Original name: getPromotionImageURL
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             verify = argFoo;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 8;
+            entity = 9;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -444,21 +405,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getPromotionImageURL'] = golfie;
-    zuuluu['outboundPromotionFromServer'] = oscard;
-    oscard = function(argFoo) { // Original name: bogoPromotionFromServer
-        michal = argFoo;
-        entity = {};
-        zuuluu = michal.id;
-        entity['id'] = zuuluu;
-        zuuluu = michal.start_date;
-        entity['startDate'] = zuuluu;
-        michal = michal.end_date;
-        entity['endDate'] = michal;
-        return entity;
-    };
-    zuuluu['bogoPromotionFromServer'] = oscard;
-    oscard = function() { // Original name: fetchClaimedOutboundPromotionCodes
+    zuuluu['getPromotionImageURL'] = report;
+    report = function() { // Original name: fetchClaimedOutboundPromotionCodes
         entity = undefined;
         tangon = _closure1_slot13;
         zuuluu = tangon.apply;
@@ -468,8 +416,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['fetchClaimedOutboundPromotionCodes'] = oscard;
-    oscard = function() { // Original name: claimOutboundPromotion
+    zuuluu['fetchClaimedOutboundPromotionCodes'] = report;
+    report = function() { // Original name: claimOutboundPromotion
         entity = undefined;
         tangon = _closure1_slot14;
         zuuluu = tangon.apply;
@@ -479,18 +427,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    zuuluu['claimOutboundPromotion'] = oscard;
-    oscard = function(argFoo, argBar) { // Original name: getOutboundPromotionRedemptionUrl
+    zuuluu['claimOutboundPromotion'] = report;
+    report = function(argFoo, argBar) { // Original name: getOutboundPromotionRedemptionUrl
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             michal = argBar;
             zuuluu = michal.outboundRedemptionUrlFormat;
             entity = null;
-            if(!(entity == zuuluu)) { _fun00014_ip = 23; continue _fun00013 }
+            if(!(entity == zuuluu)) { _fun00014_ip = 37; continue _fun00013 }
  15:
-            entity = michal.outboundRedemptionPageLink;
-            _fun00014_ip = 64; continue _fun00013;
- 23:
+            zuuluu = michal.outboundRedemptionPageLink;
+            tangon = entity != zuuluu;
+            entity = '';
+            if(!tangon) { _fun00014_ip = 35; continue _fun00013 }
+ 32:
+            entity = zuuluu;
+ 35:
+            _fun00014_ip = 78; continue _fun00013;
+ 37:
             report = michal.outboundRedemptionUrlFormat;
             tangon = report.replace;
             michal = global;
@@ -500,29 +454,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.bind(zuuluu)(michal);
             michal = '{code}';
             entity = tangon.bind(report)(michal, zuuluu);
- 64:
+ 78:
             return entity;
         }
     };
-    zuuluu['getOutboundPromotionRedemptionUrl'] = oscard;
-    zuuluu['getNextUnseenOutboundPromotionId'] = report;
-    report = function() { // Original name: shouldShowOutboundPromotionNotice
+    zuuluu['getOutboundPromotionRedemptionUrl'] = report;
+    zuuluu['getNextUnseenOutboundPromotionId'] = tangon;
+    tangon = function() { // Original name: shouldShowOutboundPromotionNotice
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 13;
+            entity = 14;
             entity = report[entity];
             golfie = undefined;
             report = tangon.bind(golfie)(entity);
             tangon = report.getDCF3PIntegrationExperiment;
             entity = 'outbound_promotion_notice';
             entity = tangon.bind(report)(entity);
-            if(entity) { _fun00016_ip = 260; continue _fun00015 }
+            if(entity) { _fun00016_ip = 252; continue _fun00015 }
  50:
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             report = entity.outboundPromotions;
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             entity = entity.consumedInboundPromotionId;
             var _closure2_slot0 = entity;
             tangon = report.filter;
@@ -538,12 +492,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  27:
                     oscard = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    zuuluu = 10;
+                    zuuluu = 11;
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     tangon = oscard.bind(zuuluu)(tangon);
                     zuuluu = tangon.hasFlag;
-                    michal = _closure1_slot9;
+                    michal = _closure1_slot10;
                     michal = michal.SUPPRESS_NOTIFICATION;
                     michal = zuuluu.bind(tangon)(report, michal);
                     entity = !michal;
@@ -552,13 +506,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             oscard = tangon.bind(report)(entity);
-            entity = _closure1_slot8;
+            entity = _closure1_slot9;
             entity = entity.lastSeenOutboundPromotionStartDate;
             var _closure2_slot1 = entity;
             tangon = null;
             option = oscard;
-            if(!(tangon != entity)) { _fun00016_ip = 131; continue _fun00015 }
- 114:
+            if(!(tangon != entity)) { _fun00016_ip = 127; continue _fun00015 }
+ 112:
             report = oscard.filter;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -581,45 +535,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             option = report.bind(oscard)(entity);
- 131:
-            report = _closure1_slot6;
+ 127:
+            report = _closure1_slot7;
             entity = report.getPremiumTypeSubscription;
             report = entity.bind(report)();
             oscard = tangon == report;
             entity = undefined;
-            if(oscard) { _fun00016_ip = 160; continue _fun00015 }
- 154:
+            if(oscard) { _fun00016_ip = 156; continue _fun00015 }
+ 150:
             entity = report.trialId;
- 160:
+ 156:
             report = tangon != entity;
-            oscard = _closure1_slot7;
+            oscard = _closure1_slot8;
             entity = oscard.hasAnyUnexpiredOffer;
             entity = entity.bind(oscard)();
-            if(report) { _fun00016_ip = 187; continue _fun00015 }
- 181:
+            if(report) { _fun00016_ip = 183; continue _fun00015 }
+ 177:
             report = option;
-            if(!entity) { _fun00016_ip = 204; continue _fun00015 }
- 187:
+            if(!entity) { _fun00016_ip = 198; continue _fun00015 }
+ 183:
             oscard = option.filter;
             entity = function(argFoo) {
-                zuuluu = _closure1_slot16;
-                michal = undefined;
-                entity = argFoo;
-                entity = zuuluu.bind(michal)(entity);
+                michal = argFoo;
+                entity = michal.isRedeemableByTrialUsers;
+                entity = entity.bind(michal)();
                 return entity;
             };
             report = oscard.bind(option)(entity);
- 204:
+ 198:
             oscard = report.length;
             entity = 0;
-            if(!(entity !== oscard)) { _fun00016_ip = 256; continue _fun00015 }
- 215:
-            entity = _closure1_slot8;
+            if(!(entity !== oscard)) { _fun00016_ip = 248; continue _fun00015 }
+ 209:
+            entity = _closure1_slot9;
             entity = entity.lastDismissedOutboundPromotionStartDate;
             var _closure2_slot2 = entity;
             entity = tangon == entity;
-            if(entity) { _fun00016_ip = 254; continue _fun00015 }
- 236:
+            if(entity) { _fun00016_ip = 246; continue _fun00015 }
+ 230:
             tangon = report.some;
             zuuluu = function(argFoo) {
                 entity = argFoo;
@@ -642,25 +595,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = tangon.bind(report)(zuuluu);
- 254:
+ 246:
             return entity;
- 256:
+ 248:
             entity = false;
             return entity;
- 260:
+ 252:
             entity = _closure1_slot15;
             oscard = entity.bind(golfie)();
             entity = null;
             entity = entity != oscard;
-            if(!entity) { _fun00016_ip = 350; continue _fun00015 }
- 277:
+            if(!entity) { _fun00016_ip = 342; continue _fun00015 }
+ 269:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
-            michal = 14;
+            michal = 15;
             michal = option[michal];
             report = zuuluu.bind(golfie)(michal);
             tangon = report.isTimeRecurringSnowflakeBoundDismissibleContentDismissed;
-            michal = 11;
+            michal = 12;
             michal = option[michal];
             michal = zuuluu.bind(golfie)(michal);
             michal = michal.DismissibleContent;
@@ -670,58 +623,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['cooldownDurationMs'] = golfie;
             michal = tangon.bind(report)(zuuluu, oscard, michal);
             entity = !michal;
- 350:
+ 342:
             return entity;
         }
     };
-    zuuluu['shouldShowOutboundPromotionNotice'] = report;
-    report = function(argFoo) { // Original name: shouldShowOutboundPromotionOnPlatform
+    zuuluu['shouldShowOutboundPromotionNotice'] = tangon;
+    tangon = function(argFoo) { // Original name: shouldShowOutboundPromotionOnPlatform
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot2;
-            entity = 15;
-            entity = tangon[entity];
-            report = undefined;
-            zuuluu = zuuluu.bind(report)(entity);
+            tangon = argFoo;
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            entity = 16;
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            zuuluu = report.bind(entity)(zuuluu);
             entity = zuuluu.isIOS;
             entity = entity.bind(zuuluu)();
             entity = !entity;
-            if(entity) { _fun00020_ip = 94; continue _fun00019 }
- 41:
-            tangon = _closure1_slot0;
-            oscard = _closure1_slot2;
-            zuuluu = 10;
-            zuuluu = oscard[zuuluu];
-            report = tangon.bind(report)(zuuluu);
-            tangon = report.hasFlag;
-            zuuluu = argFoo;
-            zuuluu = zuuluu.flags;
-            michal = _closure1_slot9;
+            if(entity) { _fun00020_ip = 68; continue _fun00019 }
+ 44:
+            zuuluu = tangon.hasFlag;
+            michal = _closure1_slot10;
             michal = michal.IS_BLOCKED_IOS;
-            michal = tangon.bind(report)(zuuluu, michal);
+            michal = zuuluu.bind(tangon)(michal);
             entity = !michal;
- 94:
+ 68:
             return entity;
         }
     };
-    zuuluu['shouldShowOutboundPromotionOnPlatform'] = report;
-    zuuluu['isOutboundPromotionRedeemableByTrialUsers'] = tangon;
+    zuuluu['shouldShowOutboundPromotionOnPlatform'] = tangon;
     michal = function(argFoo, argBar) { // Original name: isTrialUserEligibleToSeeOutboundPromotion
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-            tangon = argFoo;
-            michal = tangon.id;
+            zuuluu = argFoo;
+            michal = zuuluu.id;
             entity = argBar;
             michal = entity[michal];
             entity = null;
             entity = entity != michal;
-            if(entity) { _fun00022_ip = 38; continue _fun00021 }
+            if(entity) { _fun00022_ip = 34; continue _fun00021 }
  24:
-            zuuluu = _closure1_slot16;
-            michal = undefined;
-            entity = zuuluu.bind(michal)(tangon);
- 38:
+            michal = zuuluu.isRedeemableByTrialUsers;
+            entity = michal.bind(zuuluu)();
+ 34:
             return entity;
         }
     };

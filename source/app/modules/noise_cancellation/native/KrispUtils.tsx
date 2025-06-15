@@ -27,10 +27,15 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     zuuluu['getKrispModel'] = tangon;
-    michal = function() { // Original name: setKrispSuppressionLevel
+    tangon = function() { // Original name: setKrispSuppressionLevel
         entity = undefined;
         return entity;
     };
-    zuuluu['setKrispSuppressionLevel'] = michal;
+    zuuluu['setKrispSuppressionLevel'] = tangon;
+    michal = function() { // Original name: setKrispModelOverride
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['setKrispModelOverride'] = michal;
     return entity;
 })();

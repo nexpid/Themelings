@@ -196,22 +196,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 6293; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 6272; continue _fun00007 }
  15:
                     golfie = michal.command;
-                    variable69 = michal.optionValues;
-                    var _closure4_slot0 = variable69;
+                    variable68 = michal.optionValues;
+                    var _closure4_slot0 = variable68;
                     oscard = michal.context;
-                    echoed = michal.commandTargetId;
+                    option = michal.commandTargetId;
                     output = michal.maxSizeCallback;
                     backup = michal.commandOrigin;
                     foxtra = undefined;
                     if(!(backup === foxtra)) { _fun00008_ip = 95; continue _fun00007 }
  60:
                     report = _closure1_slot0;
-                    option = _closure1_slot3;
+                    verify = _closure1_slot3;
                     tangon = 9;
-                    tangon = option[tangon];
+                    tangon = verify[tangon];
                     tangon = report.bind(foxtra)(tangon);
                     tangon = tangon.CommandOrigin;
                     backup = tangon.CHAT;
@@ -223,39 +223,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot22;
  118:
                     yankee = michal.source;
-                    option = michal.clientSupportsContextlessActivityLaunch;
-                    SaveGenerator(address=135);
- 133:
+                    SaveGenerator(address=127);
+ 125:
                     return foxtra;
- 135:
+ 127:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 6290; continue _fun00007 }
- 144:
+                    if(zuuluu) { _fun00008_ip = 6269; continue _fun00007 }
+ 136:
                     zuuluu = oscard.channel;
                     offset = null;
-                    if(!(offset != zuuluu)) { _fun00008_ip = 6178; continue _fun00007 }
- 158:
+                    if(!(offset != zuuluu)) { _fun00008_ip = 6157; continue _fun00007 }
+ 150:
                     verify = _closure1_slot10;
                     report = verify.getSource;
                     zuuluu = oscard.channel;
                     zuuluu = zuuluu.id;
                     zuuluu = report.bind(verify)(zuuluu);
-                    if(!(offset != zuuluu)) { _fun00008_ip = 193; continue _fun00007 }
- 190:
+                    if(!(offset != zuuluu)) { _fun00008_ip = 185; continue _fun00007 }
+ 182:
                     yankee = zuuluu;
- 193:
+ 185:
                     verify = _closure1_slot10;
                     report = verify.getCommandOrigin;
                     zuuluu = oscard.channel;
                     zuuluu = zuuluu.id;
                     zuuluu = report.bind(verify)(zuuluu);
-                    if(!(offset != zuuluu)) { _fun00008_ip = 227; continue _fun00007 }
- 224:
+                    if(!(offset != zuuluu)) { _fun00008_ip = 219; continue _fun00007 }
+ 216:
                     backup = zuuluu;
- 227:
+ 219:
                     zuuluu = oscard.autocomplete;
-                    if(!(offset == zuuluu)) { _fun00008_ip = 291; continue _fun00007 }
- 237:
+                    if(!(offset == zuuluu)) { _fun00008_ip = 283; continue _fun00007 }
+ 229:
                     report = _closure1_slot1;
                     verify = _closure1_slot3;
                     zuuluu = 10;
@@ -269,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['command'] = golfie;
                     zuuluu['commandOrigin'] = backup;
                     zuuluu = report.bind(verify)(zuuluu);
- 291:
+ 283:
                     report = _closure1_slot1;
                     verify = _closure1_slot3;
                     zuuluu = 11;
@@ -279,54 +278,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = oscard.channel;
                     zuuluu = zuuluu.id;
                     zuuluu = report.bind(verify)(zuuluu);
-                    SaveGenerator(address=336);
- 334:
+                    SaveGenerator(address=328);
+ 326:
                     return zuuluu;
- 336:
+ 328:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00008_ip = 6287; continue _fun00007 }
- 345:
-                    sequen = new Array(0);
+                    if(report) { _fun00008_ip = 6266; continue _fun00007 }
+ 337:
+                    vacuum = new Array(0);
                     result = new Array(0);
                     verify = _closure1_slot0;
                     report = _closure1_slot3;
-                    variable68 = 12;
-                    report = report[variable68];
+                    variable67 = 12;
+                    report = report[variable67];
                     verify = verify.bind(foxtra)(report);
                     report = verify.getCommandAttachmentDraftType;
                     update = report.bind(verify)(backup);
                     report = golfie.options;
-                    if(!(offset != report)) { _fun00008_ip = 5615; continue _fun00007 }
- 396:
+                    if(!(offset != report)) { _fun00008_ip = 5607; continue _fun00007 }
+ 388:
                     verify = _closure1_slot18;
                     report = golfie.options;
-                    variable67 = verify.bind(foxtra)(report);
-                    verify = variable67.bind(foxtra)();
+                    variable66 = verify.bind(foxtra)(report);
+                    verify = variable66.bind(foxtra)();
                     report = verify.done;
-                    variable66 = global;
-                    variable65 = 'Unexpected value for option "';
-                    variable64 = '"';
-                    variable63 = 16;
-                    variable62 = '';
-                    variable61 = 'Failed to resolve ';
-                    variable60 = 'channelMention';
-                    variable59 = 17;
-                    variable58 = 'text';
-                    variable57 = 'roleMention';
-                    variable56 = false;
-                    variable55 = '@everyone';
-                    variable54 = 'textMention';
-                    variable53 = 'userMention';
-                    variable52 = 15;
-                    variable51 = 14;
-                    variable50 = 13;
-                    variable49 = 0;
-                    variable48 = 'Option "';
-                    variable47 = '" expects a single option type';
-                    variable46 = 1;
-                    variable45 = '" expects a value';
-                    variable44 = verify;
-                    variable43 = undefined;
+                    variable65 = global;
+                    variable64 = 'Unexpected value for option "';
+                    variable63 = '"';
+                    variable62 = 16;
+                    variable61 = '';
+                    variable60 = 'Failed to resolve ';
+                    variable59 = 'channelMention';
+                    variable58 = 17;
+                    variable57 = 'text';
+                    variable56 = 'roleMention';
+                    variable55 = false;
+                    variable54 = '@everyone';
+                    variable53 = 'textMention';
+                    variable52 = 'userMention';
+                    variable51 = 15;
+                    variable50 = 14;
+                    variable49 = 13;
+                    variable48 = 0;
+                    variable47 = 'Option "';
+                    variable46 = '" expects a single option type';
+                    variable45 = 1;
+                    variable44 = '" expects a value';
+                    variable43 = verify;
                     variable42 = undefined;
                     variable41 = undefined;
                     variable40 = undefined;
@@ -345,21 +343,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = undefined;
                     record = undefined;
                     config = undefined;
-                    vacuum = undefined;
+                    sequen = undefined;
                     ctrled = undefined;
                     source = undefined;
+                    echoed = undefined;
                     verify = undefined;
-                    if(report) { _fun00008_ip = 5615; continue _fun00007 }
- 566:
-                    r112 = variable44.value;
-                    variable93 = r112.type;
-                    variable70 = _closure1_slot0;
+                    if(report) { _fun00008_ip = 5607; continue _fun00007 }
+ 558:
+                    r111 = variable43.value;
+                    variable92 = r111.type;
+                    variable69 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable70.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable69.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.SUB_COMMAND;
-                    variable92 = variable43;
                     variable91 = variable42;
                     variable90 = variable41;
                     variable89 = variable40;
@@ -378,20 +376,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable76 = cntext;
                     variable75 = record;
                     variable74 = config;
-                    variable73 = vacuum;
+                    variable73 = sequen;
                     variable72 = ctrled;
                     variable71 = source;
-                    variable70 = verify;
-                    if(!(variable93 !== report)) { _fun00008_ip = 5528; continue _fun00007 }
- 681:
-                    variable93 = r112.type;
-                    variable94 = _closure1_slot0;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(!(variable92 !== report)) { _fun00008_ip = 5520; continue _fun00007 }
+ 673:
+                    variable92 = r111.type;
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.SUB_COMMAND_GROUP;
-                    variable92 = variable43;
                     variable91 = variable42;
                     variable90 = variable41;
                     variable89 = variable40;
@@ -410,15 +408,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable76 = cntext;
                     variable75 = record;
                     variable74 = config;
-                    variable73 = vacuum;
+                    variable73 = sequen;
                     variable72 = ctrled;
                     variable71 = source;
-                    variable70 = verify;
-                    if(!(variable93 !== report)) { _fun00008_ip = 5528; continue _fun00007 }
- 791:
-                    report = r112.name;
-                    report = report in variable69;
-                    variable92 = variable43;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(!(variable92 !== report)) { _fun00008_ip = 5520; continue _fun00007 }
+ 783:
+                    report = r111.name;
+                    report = report in variable68;
                     variable91 = variable42;
                     variable90 = variable41;
                     variable89 = variable40;
@@ -437,190 +435,190 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable76 = cntext;
                     variable75 = record;
                     variable74 = config;
-                    variable73 = vacuum;
+                    variable73 = sequen;
                     variable72 = ctrled;
                     variable71 = source;
-                    variable70 = verify;
-                    if(!report) { _fun00008_ip = 5528; continue _fun00007 }
- 875:
-                    r109 = oscard.autocomplete;
-                    report = offset == r109;
-                    variable93 = undefined;
-                    if(report) { _fun00008_ip = 895; continue _fun00007 }
- 890:
-                    variable93 = r109.name;
- 895:
-                    report = r112.name;
-                    r107 = variable93 === report;
-                    if(r107) { _fun00008_ip = 909; continue _fun00007 }
- 907:
-                    r107 = undefined;
- 909:
-                    variable93 = r112.type;
-                    variable94 = _closure1_slot0;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(!report) { _fun00008_ip = 5520; continue _fun00007 }
+ 867:
+                    r108 = oscard.autocomplete;
+                    report = offset == r108;
+                    variable92 = undefined;
+                    if(report) { _fun00008_ip = 887; continue _fun00007 }
+ 882:
+                    variable92 = r108.name;
+ 887:
+                    report = r111.name;
+                    r106 = variable92 === report;
+                    if(r106) { _fun00008_ip = 901; continue _fun00007 }
+ 899:
+                    r106 = undefined;
+ 901:
+                    variable92 = r111.type;
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.STRING;
-                    if(!(variable93 === report)) { _fun00008_ip = 1419; continue _fun00007 }
- 950:
-                    variable93 = _closure1_slot2;
-                    report = _closure1_slot3;
-                    report = report[variable51];
-                    variable94 = variable93.bind(foxtra)(report);
-                    variable93 = variable94.getOptionalString;
-                    report = r112.name;
-                    variable93 = variable93.bind(variable94)(variable69, report);
-                    report = offset == variable93;
-                    variable94 = undefined;
-                    if(report) { _fun00008_ip = 1003; continue _fun00007 }
- 993:
-                    report = variable93.trim;
-                    variable94 = report.bind(variable93)();
- 1003:
-                    variable95 = offset != variable94;
-                    report = variable62;
-                    if(!variable95) { _fun00008_ip = 1016; continue _fun00007 }
- 1013:
-                    report = variable94;
- 1016:
-                    variable95 = r112.choices;
-                    if(!(offset == variable95)) { _fun00008_ip = 1113; continue _fun00007 }
- 1026:
-                    variable96 = r112.autocomplete;
-                    variable95 = undefined;
-                    if(!variable96) { _fun00008_ip = 1148; continue _fun00007 }
- 1037:
-                    variable96 = oscard.autocomplete;
-                    if(!(offset != variable96)) { _fun00008_ip = 1050; continue _fun00007 }
- 1047:
-                    if(r107) { _fun00008_ip = 1097; continue _fun00007 }
- 1050:
-                    variable97 = _closure1_slot0;
-                    variable96 = _closure1_slot3;
-                    variable96 = variable96[variable52];
-                    variable99 = variable97.bind(foxtra)(variable96);
-                    variable98 = variable99.findAutocompleteChoiceStringValue;
-                    variable96 = oscard.channel;
-                    variable97 = variable96.id;
-                    variable96 = r112.name;
-                    variable96 = variable98.bind(variable99)(variable97, variable96, report);
-                    _fun00008_ip = 1108; continue _fun00007;
- 1097:
-                    variable97 = oscard.autocomplete;
-                    variable96 = variable97.query;
- 1108:
-                    variable95 = variable96;
-                    _fun00008_ip = 1148; continue _fun00007;
- 1113:
-                    variable97 = _closure1_slot0;
-                    variable96 = _closure1_slot3;
-                    variable96 = variable96[variable52];
-                    variable98 = variable97.bind(foxtra)(variable96);
-                    variable97 = variable98.findChoiceStringValue;
-                    variable96 = r112.choices;
-                    variable95 = variable97.bind(variable98)(variable96, report);
- 1148:
-                    if(!(offset == variable95)) { _fun00008_ip = 1155; continue _fun00007 }
- 1152:
-                    variable95 = report;
- 1155:
-                    if(!(variable62 === variable95)) { _fun00008_ip = 1244; continue _fun00007 }
- 1159:
-                    variable96 = oscard.autocomplete;
-                    if(!(offset != variable96)) { _fun00008_ip = 1244; continue _fun00007 }
- 1169:
-                    variable92 = r109;
-                    variable91 = variable42;
-                    variable90 = r107;
-                    variable89 = variable95;
-                    variable88 = variable39;
-                    variable87 = variable38;
-                    variable86 = variable37;
-                    variable85 = variable36;
-                    variable84 = quebec;
-                    variable83 = equals;
-                    variable82 = whisks;
-                    variable81 = limora;
-                    variable80 = sierra;
-                    variable79 = status;
-                    variable78 = target;
-                    variable77 = papara;
-                    variable76 = cntext;
-                    variable75 = record;
-                    variable74 = config;
-                    variable73 = vacuum;
-                    variable72 = variable94;
-                    variable71 = variable93;
-                    variable70 = report;
-                    if(!r107) { _fun00008_ip = 5528; continue _fun00007 }
- 1244:
-                    variable97 = _closure1_slot1;
-                    variable96 = _closure1_slot3;
-                    variable96 = variable96[variable63];
-                    variable98 = variable97.bind(foxtra)(variable96);
-                    variable96 = oscard.autocomplete;
-                    variable97 = offset != variable96;
-                    if(variable97) { _fun00008_ip = 1278; continue _fun00007 }
- 1274:
-                    variable97 = offset != variable95;
- 1278:
-                    variable99 = r112.name;
-                    variable96 = variable66.HermesInternal;
-                    variable96 = variable96.concat;
-                    variable96 = variable96.bind(variable48)(variable99, variable45);
-                    variable96 = variable98.bind(foxtra)(variable97, variable96);
-                    variable97 = sequen.push;
-                    variable96 = {};
-                    variable98 = r112.type;
-                    variable96['type'] = variable98;
-                    variable98 = r112.name;
-                    variable96['name'] = variable98;
-                    variable96['value'] = variable95;
-                    variable96['focused'] = r107;
-                    variable96 = variable97.bind(sequen)(variable96);
-                    variable92 = r109;
-                    variable91 = variable42;
-                    variable90 = r107;
-                    variable89 = variable95;
-                    variable88 = variable39;
-                    variable87 = variable38;
-                    variable86 = variable37;
-                    variable85 = variable36;
-                    variable84 = quebec;
-                    variable83 = equals;
-                    variable82 = whisks;
-                    variable81 = limora;
-                    variable80 = sierra;
-                    variable79 = status;
-                    variable78 = target;
-                    variable77 = papara;
-                    variable76 = cntext;
-                    variable75 = record;
-                    variable74 = config;
-                    variable73 = vacuum;
-                    variable72 = variable94;
-                    variable71 = variable93;
-                    variable70 = report;
-                    _fun00008_ip = 5528; continue _fun00007;
- 1419:
-                    variable93 = r112.type;
-                    variable94 = _closure1_slot0;
+                    if(!(variable92 === report)) { _fun00008_ip = 1411; continue _fun00007 }
+ 942:
+                    variable92 = _closure1_slot2;
                     report = _closure1_slot3;
                     report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    variable93 = variable92.bind(foxtra)(report);
+                    variable92 = variable93.getOptionalString;
+                    report = r111.name;
+                    variable92 = variable92.bind(variable93)(variable68, report);
+                    report = offset == variable92;
+                    variable93 = undefined;
+                    if(report) { _fun00008_ip = 995; continue _fun00007 }
+ 985:
+                    report = variable92.trim;
+                    variable93 = report.bind(variable92)();
+ 995:
+                    variable94 = offset != variable93;
+                    report = variable61;
+                    if(!variable94) { _fun00008_ip = 1008; continue _fun00007 }
+ 1005:
+                    report = variable93;
+ 1008:
+                    variable94 = r111.choices;
+                    if(!(offset == variable94)) { _fun00008_ip = 1105; continue _fun00007 }
+ 1018:
+                    variable95 = r111.autocomplete;
+                    variable94 = undefined;
+                    if(!variable95) { _fun00008_ip = 1140; continue _fun00007 }
+ 1029:
+                    variable95 = oscard.autocomplete;
+                    if(!(offset != variable95)) { _fun00008_ip = 1042; continue _fun00007 }
+ 1039:
+                    if(r106) { _fun00008_ip = 1089; continue _fun00007 }
+ 1042:
+                    variable96 = _closure1_slot0;
+                    variable95 = _closure1_slot3;
+                    variable95 = variable95[variable51];
+                    variable98 = variable96.bind(foxtra)(variable95);
+                    variable97 = variable98.findAutocompleteChoiceStringValue;
+                    variable95 = oscard.channel;
+                    variable96 = variable95.id;
+                    variable95 = r111.name;
+                    variable95 = variable97.bind(variable98)(variable96, variable95, report);
+                    _fun00008_ip = 1100; continue _fun00007;
+ 1089:
+                    variable96 = oscard.autocomplete;
+                    variable95 = variable96.query;
+ 1100:
+                    variable94 = variable95;
+                    _fun00008_ip = 1140; continue _fun00007;
+ 1105:
+                    variable96 = _closure1_slot0;
+                    variable95 = _closure1_slot3;
+                    variable95 = variable95[variable51];
+                    variable97 = variable96.bind(foxtra)(variable95);
+                    variable96 = variable97.findChoiceStringValue;
+                    variable95 = r111.choices;
+                    variable94 = variable96.bind(variable97)(variable95, report);
+ 1140:
+                    if(!(offset == variable94)) { _fun00008_ip = 1147; continue _fun00007 }
+ 1144:
+                    variable94 = report;
+ 1147:
+                    if(!(variable61 === variable94)) { _fun00008_ip = 1236; continue _fun00007 }
+ 1151:
+                    variable95 = oscard.autocomplete;
+                    if(!(offset != variable95)) { _fun00008_ip = 1236; continue _fun00007 }
+ 1161:
+                    variable91 = r108;
+                    variable90 = variable41;
+                    variable89 = r106;
+                    variable88 = variable94;
+                    variable87 = variable38;
+                    variable86 = variable37;
+                    variable85 = variable36;
+                    variable84 = quebec;
+                    variable83 = equals;
+                    variable82 = whisks;
+                    variable81 = limora;
+                    variable80 = sierra;
+                    variable79 = status;
+                    variable78 = target;
+                    variable77 = papara;
+                    variable76 = cntext;
+                    variable75 = record;
+                    variable74 = config;
+                    variable73 = sequen;
+                    variable72 = ctrled;
+                    variable71 = variable93;
+                    variable70 = variable92;
+                    variable69 = report;
+                    if(!r106) { _fun00008_ip = 5520; continue _fun00007 }
+ 1236:
+                    variable96 = _closure1_slot1;
+                    variable95 = _closure1_slot3;
+                    variable95 = variable95[variable62];
+                    variable97 = variable96.bind(foxtra)(variable95);
+                    variable95 = oscard.autocomplete;
+                    variable96 = offset != variable95;
+                    if(variable96) { _fun00008_ip = 1270; continue _fun00007 }
+ 1266:
+                    variable96 = offset != variable94;
+ 1270:
+                    variable98 = r111.name;
+                    variable95 = variable65.HermesInternal;
+                    variable95 = variable95.concat;
+                    variable95 = variable95.bind(variable47)(variable98, variable44);
+                    variable95 = variable97.bind(foxtra)(variable96, variable95);
+                    variable96 = vacuum.push;
+                    variable95 = {};
+                    variable97 = r111.type;
+                    variable95['type'] = variable97;
+                    variable97 = r111.name;
+                    variable95['name'] = variable97;
+                    variable95['value'] = variable94;
+                    variable95['focused'] = r106;
+                    variable95 = variable96.bind(vacuum)(variable95);
+                    variable91 = r108;
+                    variable90 = variable41;
+                    variable89 = r106;
+                    variable88 = variable94;
+                    variable87 = variable38;
+                    variable86 = variable37;
+                    variable85 = variable36;
+                    variable84 = quebec;
+                    variable83 = equals;
+                    variable82 = whisks;
+                    variable81 = limora;
+                    variable80 = sierra;
+                    variable79 = status;
+                    variable78 = target;
+                    variable77 = papara;
+                    variable76 = cntext;
+                    variable75 = record;
+                    variable74 = config;
+                    variable73 = sequen;
+                    variable72 = ctrled;
+                    variable71 = variable93;
+                    variable70 = variable92;
+                    variable69 = report;
+                    _fun00008_ip = 5520; continue _fun00007;
+ 1411:
+                    variable92 = r111.type;
+                    variable93 = _closure1_slot0;
+                    report = _closure1_slot3;
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.ATTACHMENT;
-                    if(!(variable93 === report)) { _fun00008_ip = 1781; continue _fun00007 }
- 1460:
+                    if(!(variable92 === report)) { _fun00008_ip = 1773; continue _fun00007 }
+ 1452:
                     report = oscard.autocomplete;
                     report = offset != report;
-                    variable92 = r109;
-                    variable91 = variable42;
-                    variable90 = r107;
-                    variable89 = undefined;
-                    variable88 = variable39;
+                    variable91 = r108;
+                    variable90 = variable41;
+                    variable89 = r106;
+                    variable88 = undefined;
                     variable87 = variable38;
                     variable86 = variable37;
                     variable85 = variable36;
@@ -635,24 +633,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable76 = cntext;
                     variable75 = record;
                     variable74 = config;
-                    variable73 = vacuum;
+                    variable73 = sequen;
                     variable72 = ctrled;
                     variable71 = source;
-                    variable70 = verify;
-                    if(report) { _fun00008_ip = 5528; continue _fun00007 }
- 1544:
-                    variable95 = _closure1_slot8;
-                    variable94 = variable95.getUpload;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(report) { _fun00008_ip = 5520; continue _fun00007 }
+ 1536:
+                    variable94 = _closure1_slot8;
+                    variable93 = variable94.getUpload;
                     report = oscard.channel;
-                    variable93 = report.id;
-                    report = r112.name;
-                    report = variable94.bind(variable95)(variable93, report, update);
-                    variable93 = offset == report;
-                    variable92 = r109;
-                    variable91 = variable42;
-                    variable90 = r107;
-                    variable89 = undefined;
-                    variable88 = variable39;
+                    variable92 = report.id;
+                    report = r111.name;
+                    report = variable93.bind(variable94)(variable92, report, update);
+                    variable92 = offset == report;
+                    variable91 = r108;
+                    variable90 = variable41;
+                    variable89 = r106;
+                    variable88 = undefined;
                     variable87 = variable38;
                     variable86 = variable37;
                     variable85 = variable36;
@@ -667,29 +665,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable76 = cntext;
                     variable75 = record;
                     variable74 = config;
-                    variable73 = report;
-                    variable72 = ctrled;
+                    variable73 = sequen;
+                    variable72 = report;
                     variable71 = source;
-                    variable70 = verify;
-                    if(variable93) { _fun00008_ip = 5528; continue _fun00007 }
- 1654:
-                    variable95 = result.length;
-                    variable93 = result.push;
-                    variable93 = variable93.bind(result)(report);
-                    variable94 = sequen.push;
-                    variable93 = {};
-                    variable96 = r112.type;
-                    variable93['type'] = variable96;
-                    variable96 = r112.name;
-                    variable93['name'] = variable96;
-                    variable93['value'] = variable95;
-                    variable93['focused'] = r107;
-                    variable93 = variable94.bind(sequen)(variable93);
-                    variable92 = r109;
-                    variable91 = variable42;
-                    variable90 = r107;
-                    variable89 = undefined;
-                    variable88 = variable39;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(variable92) { _fun00008_ip = 5520; continue _fun00007 }
+ 1646:
+                    variable94 = result.length;
+                    variable92 = result.push;
+                    variable92 = variable92.bind(result)(report);
+                    variable93 = vacuum.push;
+                    variable92 = {};
+                    variable95 = r111.type;
+                    variable92['type'] = variable95;
+                    variable95 = r111.name;
+                    variable92['name'] = variable95;
+                    variable92['value'] = variable94;
+                    variable92['focused'] = r106;
+                    variable92 = variable93.bind(vacuum)(variable92);
+                    variable91 = r108;
+                    variable90 = variable41;
+                    variable89 = r106;
+                    variable88 = undefined;
                     variable87 = variable38;
                     variable86 = variable37;
                     variable85 = variable36;
@@ -704,44 +702,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable76 = cntext;
                     variable75 = record;
                     variable74 = config;
-                    variable73 = report;
-                    variable72 = ctrled;
+                    variable73 = sequen;
+                    variable72 = report;
                     variable71 = source;
-                    variable70 = verify;
-                    _fun00008_ip = 5528; continue _fun00007;
- 1781:
-                    variable94 = _closure1_slot2;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    _fun00008_ip = 5520; continue _fun00007;
+ 1773:
+                    variable93 = _closure1_slot2;
                     report = _closure1_slot3;
-                    variable93 = report[variable51];
-                    variable95 = variable94.bind(foxtra)(variable93);
-                    variable94 = variable95.filterEmpty;
-                    variable93 = r112.name;
-                    variable93 = variable69[variable93];
-                    r105 = variable94.bind(variable95)(variable93);
-                    variable93 = _closure1_slot1;
-                    report = report[variable63];
-                    variable94 = variable93.bind(foxtra)(report);
+                    variable92 = report[variable50];
+                    variable94 = variable93.bind(foxtra)(variable92);
+                    variable93 = variable94.filterEmpty;
+                    variable92 = r111.name;
+                    variable92 = variable68[variable92];
+                    r104 = variable93.bind(variable94)(variable92);
+                    variable92 = _closure1_slot1;
+                    report = report[variable62];
+                    variable93 = variable92.bind(foxtra)(report);
                     report = oscard.autocomplete;
-                    variable93 = offset != report;
-                    if(variable93) { _fun00008_ip = 1853; continue _fun00007 }
- 1844:
-                    report = r105.length;
-                    variable93 = variable46 === report;
- 1853:
-                    variable95 = r112.name;
-                    report = variable66.HermesInternal;
+                    variable92 = offset != report;
+                    if(variable92) { _fun00008_ip = 1845; continue _fun00007 }
+ 1836:
+                    report = r104.length;
+                    variable92 = variable45 === report;
+ 1845:
+                    variable94 = r111.name;
+                    report = variable65.HermesInternal;
                     report = report.concat;
-                    report = report.bind(variable48)(variable95, variable47);
-                    report = variable94.bind(foxtra)(variable93, report);
-                    report = r105[variable49];
-                    if(!(offset == report)) { _fun00008_ip = 1963; continue _fun00007 }
- 1889:
-                    variable92 = r109;
-                    variable91 = variable42;
-                    variable90 = r107;
-                    variable89 = undefined;
-                    variable88 = r105;
-                    variable87 = variable38;
+                    report = report.bind(variable47)(variable94, variable46);
+                    report = variable93.bind(foxtra)(variable92, report);
+                    report = r104[variable48];
+                    if(!(offset == report)) { _fun00008_ip = 1955; continue _fun00007 }
+ 1881:
+                    variable91 = r108;
+                    variable90 = variable41;
+                    variable89 = r106;
+                    variable88 = undefined;
+                    variable87 = r104;
                     variable86 = variable37;
                     variable85 = variable36;
                     variable84 = quebec;
@@ -755,91 +753,91 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable76 = cntext;
                     variable75 = record;
                     variable74 = config;
-                    variable73 = vacuum;
+                    variable73 = sequen;
                     variable72 = ctrled;
                     variable71 = source;
-                    variable70 = verify;
-                    if(!r107) { _fun00008_ip = 5528; continue _fun00007 }
- 1963:
-                    r108 = r105[variable49];
-                    r104 = r108;
-                    if(!(offset == r108)) { _fun00008_ip = 1988; continue _fun00007 }
- 1974:
-                    r104 = {'type': 'text', 'text': ''};
- 1988:
-                    variable93 = r112.type;
-                    variable94 = _closure1_slot0;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(!r106) { _fun00008_ip = 5520; continue _fun00007 }
+ 1955:
+                    r107 = r104[variable48];
+                    r103 = r107;
+                    if(!(offset == r107)) { _fun00008_ip = 1980; continue _fun00007 }
+ 1966:
+                    r103 = {'type': 'text', 'text': ''};
+ 1980:
+                    variable92 = r111.type;
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.CHANNEL;
-                    if(!(report !== variable93)) { _fun00008_ip = 4811; continue _fun00007 }
- 2029:
-                    variable94 = _closure1_slot0;
+                    if(!(report !== variable92)) { _fun00008_ip = 4803; continue _fun00007 }
+ 2021:
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.ROLE;
-                    if(!(report !== variable93)) { _fun00008_ip = 4275; continue _fun00007 }
- 2065:
-                    variable94 = _closure1_slot0;
+                    if(!(report !== variable92)) { _fun00008_ip = 4267; continue _fun00007 }
+ 2057:
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.USER;
-                    if(!(report !== variable93)) { _fun00008_ip = 3872; continue _fun00007 }
- 2101:
-                    variable94 = _closure1_slot0;
+                    if(!(report !== variable92)) { _fun00008_ip = 3864; continue _fun00007 }
+ 2093:
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.MENTIONABLE;
-                    if(!(report !== variable93)) { _fun00008_ip = 3123; continue _fun00007 }
- 2137:
-                    variable94 = _closure1_slot0;
+                    if(!(report !== variable92)) { _fun00008_ip = 3115; continue _fun00007 }
+ 2129:
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.BOOLEAN;
-                    if(!(report !== variable93)) { _fun00008_ip = 2983; continue _fun00007 }
- 2173:
-                    variable94 = _closure1_slot0;
+                    if(!(report !== variable92)) { _fun00008_ip = 2975; continue _fun00007 }
+ 2165:
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.INTEGER;
-                    if(!(report !== variable93)) { _fun00008_ip = 2640; continue _fun00007 }
- 2209:
-                    variable94 = _closure1_slot0;
+                    if(!(report !== variable92)) { _fun00008_ip = 2632; continue _fun00007 }
+ 2201:
+                    variable93 = _closure1_slot0;
                     report = _closure1_slot3;
-                    report = report[variable50];
-                    report = variable94.bind(foxtra)(report);
+                    report = report[variable49];
+                    report = variable93.bind(foxtra)(report);
                     report = report.ApplicationCommandOptionType;
                     report = report.NUMBER;
-                    if(!(report !== variable93)) { _fun00008_ip = 2297; continue _fun00007 }
- 2242:
-                    variable94 = variable66.Error;
-                    variable95 = r112.type;
-                    report = variable66.HermesInternal;
-                    variable93 = report.concat;
+                    if(!(report !== variable92)) { _fun00008_ip = 2289; continue _fun00007 }
+ 2234:
+                    variable93 = variable65.Error;
+                    variable94 = r111.type;
+                    report = variable65.HermesInternal;
+                    variable92 = report.concat;
                     report = 'Unsupported option type: ';
-                    r122 = variable93.bind(report)(variable95);
-                    variable93 = variable94.prototype;
-                    variable93 = Object.create(variable93, {constructor: {value: variable94}});
-                    r123 = variable93;
-                    report = new r123[variable94](r122, r121);
-                    report = report instanceof Object ? report : variable93;
+                    r121 = variable92.bind(report)(variable94);
+                    variable92 = variable93.prototype;
+                    variable92 = Object.create(variable92, {constructor: {value: variable93}});
+                    r122 = variable92;
+                    report = new r122[variable93](r121, r120);
+                    report = report instanceof Object ? report : variable92;
                     throw report;
- 2297:
-                    r110 = r104.type;
-                    r106 = undefined;
-                    r103 = variable37;
+ 2289:
+                    r109 = r103.type;
+                    r105 = undefined;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -851,51 +849,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 2350:
-                    r111 = r104.text;
-                    r110 = r111.trim;
-                    r110 = r110.bind(r111)();
-                    r111 = r112.choices;
-                    if(!(offset == r111)) { _fun00008_ip = 2462; continue _fun00007 }
- 2375:
-                    r113 = r112.autocomplete;
-                    r111 = undefined;
-                    if(!r113) { _fun00008_ip = 2497; continue _fun00007 }
- 2386:
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable57 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 2342:
+                    r110 = r103.text;
+                    r109 = r110.trim;
+                    r109 = r109.bind(r110)();
+                    r110 = r111.choices;
+                    if(!(offset == r110)) { _fun00008_ip = 2454; continue _fun00007 }
+ 2367:
+                    r112 = r111.autocomplete;
+                    r110 = undefined;
+                    if(!r112) { _fun00008_ip = 2489; continue _fun00007 }
+ 2378:
+                    r112 = oscard.autocomplete;
+                    if(!(offset != r112)) { _fun00008_ip = 2391; continue _fun00007 }
+ 2388:
+                    if(r106) { _fun00008_ip = 2438; continue _fun00007 }
+ 2391:
+                    r113 = _closure1_slot0;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable51];
+                    r115 = r113.bind(foxtra)(r112);
+                    r114 = r115.findAutocompleteChoiceNumberValue;
+                    r112 = oscard.channel;
+                    r113 = r112.id;
+                    r112 = r111.name;
+                    r112 = r114.bind(r115)(r113, r112, r109);
+                    _fun00008_ip = 2449; continue _fun00007;
+ 2438:
                     r113 = oscard.autocomplete;
-                    if(!(offset != r113)) { _fun00008_ip = 2399; continue _fun00007 }
- 2396:
-                    if(r107) { _fun00008_ip = 2446; continue _fun00007 }
- 2399:
-                    r114 = _closure1_slot0;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable52];
-                    r116 = r114.bind(foxtra)(r113);
-                    r115 = r116.findAutocompleteChoiceNumberValue;
-                    r113 = oscard.channel;
-                    r114 = r113.id;
-                    r113 = r112.name;
-                    r113 = r115.bind(r116)(r114, r113, r110);
-                    _fun00008_ip = 2457; continue _fun00007;
- 2446:
-                    r114 = oscard.autocomplete;
-                    r113 = r114.query;
- 2457:
-                    r111 = r113;
-                    _fun00008_ip = 2497; continue _fun00007;
- 2462:
-                    r114 = _closure1_slot0;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable52];
-                    r115 = r114.bind(foxtra)(r113);
-                    r114 = r115.findChoiceNumberValue;
-                    r113 = r112.choices;
-                    r111 = r114.bind(r115)(r113, r110);
- 2497:
-                    r106 = r111;
-                    r103 = variable37;
+                    r112 = r113.query;
+ 2449:
+                    r110 = r112;
+                    _fun00008_ip = 2489; continue _fun00007;
+ 2454:
+                    r113 = _closure1_slot0;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable51];
+                    r114 = r113.bind(foxtra)(r112);
+                    r113 = r114.findChoiceNumberValue;
+                    r112 = r111.choices;
+                    r110 = r113.bind(r114)(r112, r109);
+ 2489:
+                    r105 = r110;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -907,20 +905,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = r110;
-                    if(!(offset == r106)) { _fun00008_ip = 5187; continue _fun00007 }
- 2546:
-                    r113 = variable66.Number;
-                    r114 = _closure1_slot2;
-                    r111 = _closure1_slot3;
-                    r111 = r111[variable51];
-                    r115 = r114.bind(foxtra)(r111);
-                    r114 = r115.normalizeNumericString;
-                    r111 = _closure1_slot6;
-                    r111 = r111.locale;
-                    r111 = r114.bind(r115)(r111, r110);
-                    r106 = r113.bind(foxtra)(r111);
-                    r103 = variable37;
+                    variable92 = config;
+                    report = r109;
+                    if(!(offset == r105)) { _fun00008_ip = 5179; continue _fun00007 }
+ 2538:
+                    r112 = variable65.Number;
+                    r113 = _closure1_slot2;
+                    r110 = _closure1_slot3;
+                    r110 = r110[variable50];
+                    r114 = r113.bind(foxtra)(r110);
+                    r113 = r114.normalizeNumericString;
+                    r110 = _closure1_slot6;
+                    r110 = r110.locale;
+                    r110 = r113.bind(r114)(r110, r109);
+                    r105 = r112.bind(foxtra)(r110);
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -932,12 +930,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = r110;
-                    _fun00008_ip = 5187; continue _fun00007;
- 2640:
-                    r110 = r104.type;
-                    r106 = undefined;
-                    r103 = variable37;
+                    variable92 = config;
+                    report = r109;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 2632:
+                    r109 = r103.type;
+                    r105 = undefined;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -949,93 +947,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 2693:
-                    r111 = r104.text;
-                    r110 = r111.trim;
-                    r110 = r110.bind(r111)();
-                    r111 = r112.choices;
-                    if(!(offset == r111)) { _fun00008_ip = 2805; continue _fun00007 }
- 2718:
-                    r113 = r112.autocomplete;
-                    r111 = undefined;
-                    if(!r113) { _fun00008_ip = 2840; continue _fun00007 }
- 2729:
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable57 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 2685:
+                    r110 = r103.text;
+                    r109 = r110.trim;
+                    r109 = r109.bind(r110)();
+                    r110 = r111.choices;
+                    if(!(offset == r110)) { _fun00008_ip = 2797; continue _fun00007 }
+ 2710:
+                    r112 = r111.autocomplete;
+                    r110 = undefined;
+                    if(!r112) { _fun00008_ip = 2832; continue _fun00007 }
+ 2721:
+                    r112 = oscard.autocomplete;
+                    if(!(offset != r112)) { _fun00008_ip = 2734; continue _fun00007 }
+ 2731:
+                    if(r106) { _fun00008_ip = 2781; continue _fun00007 }
+ 2734:
+                    r113 = _closure1_slot0;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable51];
+                    r115 = r113.bind(foxtra)(r112);
+                    r114 = r115.findAutocompleteChoiceNumberValue;
+                    r112 = oscard.channel;
+                    r113 = r112.id;
+                    r112 = r111.name;
+                    r112 = r114.bind(r115)(r113, r112, r109);
+                    _fun00008_ip = 2792; continue _fun00007;
+ 2781:
                     r113 = oscard.autocomplete;
-                    if(!(offset != r113)) { _fun00008_ip = 2742; continue _fun00007 }
- 2739:
-                    if(r107) { _fun00008_ip = 2789; continue _fun00007 }
- 2742:
-                    r114 = _closure1_slot0;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable52];
-                    r116 = r114.bind(foxtra)(r113);
-                    r115 = r116.findAutocompleteChoiceNumberValue;
-                    r113 = oscard.channel;
-                    r114 = r113.id;
-                    r113 = r112.name;
-                    r113 = r115.bind(r116)(r114, r113, r110);
-                    _fun00008_ip = 2800; continue _fun00007;
- 2789:
-                    r114 = oscard.autocomplete;
-                    r113 = r114.query;
- 2800:
-                    r111 = r113;
-                    _fun00008_ip = 2840; continue _fun00007;
- 2805:
-                    r114 = _closure1_slot0;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable52];
-                    r115 = r114.bind(foxtra)(r113);
-                    r114 = r115.findChoiceNumberValue;
-                    r113 = r112.choices;
-                    r111 = r114.bind(r115)(r113, r110);
- 2840:
-                    r106 = r111;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = r110;
-                    report = config;
-                    if(!(offset == r106)) { _fun00008_ip = 5187; continue _fun00007 }
- 2889:
-                    r113 = variable66.Number;
-                    r114 = _closure1_slot2;
-                    r111 = _closure1_slot3;
-                    r111 = r111[variable51];
-                    r115 = r114.bind(foxtra)(r111);
-                    r114 = r115.normalizeNumericString;
-                    r111 = _closure1_slot6;
-                    r111 = r111.locale;
-                    r111 = r114.bind(r115)(r111, r110);
-                    r106 = r113.bind(foxtra)(r111);
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = r110;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 2983:
-                    r110 = r104.type;
-                    r106 = undefined;
-                    r103 = variable37;
+                    r112 = r113.query;
+ 2792:
+                    r110 = r112;
+                    _fun00008_ip = 2832; continue _fun00007;
+ 2797:
+                    r113 = _closure1_slot0;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable51];
+                    r114 = r113.bind(foxtra)(r112);
+                    r113 = r114.findChoiceNumberValue;
+                    r112 = r111.choices;
+                    r110 = r113.bind(r114)(r112, r109);
+ 2832:
+                    r105 = r110;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1047,19 +1003,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 3036:
-                    r111 = _closure1_slot0;
+                    variable92 = r109;
+                    report = sequen;
+                    if(!(offset == r105)) { _fun00008_ip = 5179; continue _fun00007 }
+ 2881:
+                    r112 = variable65.Number;
+                    r113 = _closure1_slot2;
                     r110 = _closure1_slot3;
-                    r110 = r110[variable52];
-                    r113 = r111.bind(foxtra)(r110);
-                    r111 = r113.toChoiceBooleanValue;
-                    r114 = r104.text;
-                    r110 = r114.trim;
-                    r110 = r110.bind(r114)();
-                    r106 = r111.bind(r113)(r110);
-                    r103 = variable37;
+                    r110 = r110[variable50];
+                    r114 = r113.bind(foxtra)(r110);
+                    r113 = r114.normalizeNumericString;
+                    r110 = _closure1_slot6;
+                    r110 = r110.locale;
+                    r110 = r113.bind(r114)(r110, r109);
+                    r105 = r112.bind(foxtra)(r110);
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1071,24 +1028,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3123:
-                    r110 = r104.type;
-                    if(!(variable53 !== r110)) { _fun00008_ip = 3823; continue _fun00007 }
- 3135:
-                    r110 = r104.type;
-                    if(!(variable57 !== r110)) { _fun00008_ip = 3773; continue _fun00007 }
- 3147:
-                    r110 = r104.type;
-                    if(!(variable54 === r110)) { _fun00008_ip = 3168; continue _fun00007 }
- 3156:
-                    r110 = r104.text;
-                    if(!(variable55 !== r110)) { _fun00008_ip = 3707; continue _fun00007 }
- 3168:
-                    r110 = r104.type;
-                    r106 = undefined;
-                    r103 = variable37;
+                    variable92 = r109;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 2975:
+                    r109 = r103.type;
+                    r105 = undefined;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1100,301 +1045,354 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 3221:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable68];
-                    r113 = r111.bind(foxtra)(r110);
-                    r111 = r113.isSnowflake;
-                    r110 = r104.text;
-                    r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 3648; continue _fun00007 }
- 3260:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable59];
-                    r116 = r111.bind(foxtra)(r110);
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable57 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 3028:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable51];
+                    r112 = r110.bind(foxtra)(r109);
+                    r110 = r112.toChoiceBooleanValue;
+                    r113 = r103.text;
+                    r109 = r113.trim;
+                    r109 = r109.bind(r113)();
+                    r105 = r110.bind(r112)(r109);
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3115:
+                    r109 = r103.type;
+                    if(!(variable52 !== r109)) { _fun00008_ip = 3815; continue _fun00007 }
+ 3127:
+                    r109 = r103.type;
+                    if(!(variable56 !== r109)) { _fun00008_ip = 3765; continue _fun00007 }
+ 3139:
+                    r109 = r103.type;
+                    if(!(variable53 === r109)) { _fun00008_ip = 3160; continue _fun00007 }
+ 3148:
+                    r109 = r103.text;
+                    if(!(variable54 !== r109)) { _fun00008_ip = 3699; continue _fun00007 }
+ 3160:
+                    r109 = r103.type;
+                    r105 = undefined;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable57 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 3213:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable67];
+                    r112 = r110.bind(foxtra)(r109);
+                    r110 = r112.isSnowflake;
+                    r109 = r103.text;
+                    r109 = r110.bind(r112)(r109);
+                    if(r109) { _fun00008_ip = 3640; continue _fun00007 }
+ 3252:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable58];
+                    r115 = r110.bind(foxtra)(r109);
+                    r114 = r115.resolveApplicationCommandOption;
+                    r113 = r103.text;
+                    r110 = oscard.guild;
+                    r109 = offset == r110;
+                    r112 = undefined;
+                    if(r109) { _fun00008_ip = 3299; continue _fun00007 }
+ 3294:
+                    r112 = r110.id;
+ 3299:
+                    r109 = oscard.channel;
+                    r109 = r109.id;
+                    r109 = r114.bind(r115)(r113, r112, r109);
+                    r113 = offset == r109;
+                    r112 = undefined;
+                    if(r113) { _fun00008_ip = 3330; continue _fun00007 }
+ 3325:
+                    r112 = r109.type;
+ 3330:
+                    if(!(variable52 !== r112)) { _fun00008_ip = 3591; continue _fun00007 }
+ 3337:
+                    r113 = offset == r109;
+                    r112 = undefined;
+                    if(r113) { _fun00008_ip = 3351; continue _fun00007 }
+ 3346:
+                    r112 = r109.type;
+ 3351:
+                    if(!(variable56 !== r112)) { _fun00008_ip = 3541; continue _fun00007 }
+ 3358:
+                    r113 = offset == r109;
+                    r112 = undefined;
+                    if(r113) { _fun00008_ip = 3372; continue _fun00007 }
+ 3367:
+                    r112 = r109.type;
+ 3372:
+                    if(!(variable53 === r112)) { _fun00008_ip = 3385; continue _fun00007 }
+ 3376:
+                    r112 = r109.text;
+                    if(!(variable54 !== r112)) { _fun00008_ip = 3475; continue _fun00007 }
+ 3385:
+                    r113 = _closure1_slot1;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable62];
+                    r113 = r113.bind(foxtra)(r112);
+                    r114 = r103.text;
+                    r112 = variable65.HermesInternal;
+                    r112 = r112.concat;
+                    r112 = r112.bind(variable60)(r114);
+                    r112 = r113.bind(foxtra)(variable55, r112);
+                    r105 = undefined;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = r110;
+                    variable94 = r109;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3475:
+                    r112 = oscard.guild;
+                    r114 = offset == r112;
+                    r113 = undefined;
+                    if(r114) { _fun00008_ip = 3494; continue _fun00007 }
+ 3489:
+                    r113 = r112.id;
+ 3494:
+                    r105 = r113;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = r110;
+                    variable94 = r109;
+                    variable93 = r112;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3541:
+                    r105 = r109.roleId;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = r110;
+                    variable94 = r109;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3591:
+                    r105 = r109.userId;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = r110;
+                    variable94 = r109;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3640:
+                    r110 = r103.text;
+                    r109 = r110.trim;
+                    r105 = r109.bind(r110)();
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3699:
+                    r109 = oscard.guild;
+                    r112 = offset == r109;
+                    r110 = undefined;
+                    if(r112) { _fun00008_ip = 3718; continue _fun00007 }
+ 3713:
+                    r110 = r109.id;
+ 3718:
+                    r105 = r110;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = r109;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3765:
+                    r105 = r103.roleId;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3815:
+                    r105 = r103.userId;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 3864:
+                    r109 = r103.type;
+                    if(!(variable52 !== r109)) { _fun00008_ip = 4218; continue _fun00007 }
+ 3876:
+                    r109 = r103.type;
+                    r105 = undefined;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable57 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 3929:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable67];
+                    r112 = r110.bind(foxtra)(r109);
+                    r110 = r112.isSnowflake;
+                    r109 = r103.text;
+                    r109 = r110.bind(r112)(r109);
+                    if(r109) { _fun00008_ip = 4159; continue _fun00007 }
+ 3968:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable58];
+                    r116 = r110.bind(foxtra)(r109);
                     r115 = r116.resolveApplicationCommandOption;
-                    r114 = r104.text;
-                    r111 = oscard.guild;
-                    r110 = offset == r111;
+                    r114 = r103.text;
+                    r110 = oscard.guild;
+                    r109 = offset == r110;
                     r113 = undefined;
-                    if(r110) { _fun00008_ip = 3307; continue _fun00007 }
- 3302:
-                    r113 = r111.id;
- 3307:
-                    r110 = oscard.channel;
-                    r110 = r110.id;
-                    r110 = r115.bind(r116)(r114, r113, r110);
-                    r114 = offset == r110;
-                    r113 = undefined;
-                    if(r114) { _fun00008_ip = 3338; continue _fun00007 }
- 3333:
-                    r113 = r110.type;
- 3338:
-                    if(!(variable53 !== r113)) { _fun00008_ip = 3599; continue _fun00007 }
- 3345:
-                    r114 = offset == r110;
-                    r113 = undefined;
-                    if(r114) { _fun00008_ip = 3359; continue _fun00007 }
- 3354:
-                    r113 = r110.type;
- 3359:
-                    if(!(variable57 !== r113)) { _fun00008_ip = 3549; continue _fun00007 }
- 3366:
-                    r114 = offset == r110;
-                    r113 = undefined;
-                    if(r114) { _fun00008_ip = 3380; continue _fun00007 }
- 3375:
-                    r113 = r110.type;
- 3380:
-                    if(!(variable54 === r113)) { _fun00008_ip = 3393; continue _fun00007 }
- 3384:
-                    r113 = r110.text;
-                    if(!(variable55 !== r113)) { _fun00008_ip = 3483; continue _fun00007 }
- 3393:
-                    r114 = _closure1_slot1;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable63];
-                    r114 = r114.bind(foxtra)(r113);
-                    r115 = r104.text;
-                    r113 = variable66.HermesInternal;
+                    if(r109) { _fun00008_ip = 4015; continue _fun00007 }
+ 4010:
+                    r113 = r110.id;
+ 4015:
+                    r109 = oscard.channel;
+                    r119 = r109.id;
+                    r109 = {};
+                    r109['allowRoles'] = variable55;
+                    r122 = r116;
+                    r121 = r114;
+                    r120 = r113;
+                    r118 = r109;
+                    r109 = r122[r115](r121, r120, r119, r118, r117);
+                    r113 = _closure1_slot1;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable62];
+                    r114 = r113.bind(foxtra)(r112);
+                    r113 = offset == r109;
+                    r112 = undefined;
+                    if(r113) { _fun00008_ip = 4079; continue _fun00007 }
+ 4074:
+                    r112 = r109.type;
+ 4079:
+                    r115 = r103.text;
+                    r113 = variable65.HermesInternal;
                     r113 = r113.concat;
-                    r113 = r113.bind(variable61)(r115);
-                    r113 = r114.bind(foxtra)(variable56, r113);
-                    r106 = undefined;
-                    r103 = variable37;
+                    r113 = r113.bind(variable60)(r115);
+                    r112 = variable52 === r112;
+                    r112 = r114.bind(foxtra)(r112, r113);
+                    r105 = r109.userId;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
                     variable100 = whisks;
                     variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = r111;
-                    variable95 = r110;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3483:
-                    r113 = oscard.guild;
-                    r115 = offset == r113;
-                    r114 = undefined;
-                    if(r115) { _fun00008_ip = 3502; continue _fun00007 }
- 3497:
-                    r114 = r113.id;
- 3502:
-                    r106 = r114;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = r111;
-                    variable95 = r110;
-                    variable94 = r113;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3549:
-                    r106 = r110.roleId;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = r111;
-                    variable95 = r110;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3599:
-                    r106 = r110.userId;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = r111;
-                    variable95 = r110;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3648:
-                    r111 = r104.text;
-                    r110 = r111.trim;
-                    r106 = r110.bind(r111)();
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3707:
-                    r110 = oscard.guild;
-                    r113 = offset == r110;
-                    r111 = undefined;
-                    if(r113) { _fun00008_ip = 3726; continue _fun00007 }
- 3721:
-                    r111 = r110.id;
- 3726:
-                    r106 = r111;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = r110;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3773:
-                    r106 = r104.roleId;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3823:
-                    r106 = r104.userId;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 3872:
-                    r110 = r104.type;
-                    if(!(variable53 !== r110)) { _fun00008_ip = 4226; continue _fun00007 }
- 3884:
-                    r110 = r104.type;
-                    r106 = undefined;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 3937:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable68];
-                    r113 = r111.bind(foxtra)(r110);
-                    r111 = r113.isSnowflake;
-                    r110 = r104.text;
-                    r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 4167; continue _fun00007 }
- 3976:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable59];
-                    r117 = r111.bind(foxtra)(r110);
-                    r116 = r117.resolveApplicationCommandOption;
-                    r115 = r104.text;
-                    r111 = oscard.guild;
-                    r110 = offset == r111;
-                    r114 = undefined;
-                    if(r110) { _fun00008_ip = 4023; continue _fun00007 }
- 4018:
-                    r114 = r111.id;
- 4023:
-                    r110 = oscard.channel;
-                    r120 = r110.id;
-                    r110 = {};
-                    r110['allowRoles'] = variable56;
-                    r123 = r117;
-                    r122 = r115;
-                    r121 = r114;
-                    r119 = r110;
-                    r110 = r123[r116](r122, r121, r120, r119, r118);
-                    r114 = _closure1_slot1;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable63];
-                    r115 = r114.bind(foxtra)(r113);
-                    r114 = offset == r110;
-                    r113 = undefined;
-                    if(r114) { _fun00008_ip = 4087; continue _fun00007 }
- 4082:
-                    r113 = r110.type;
- 4087:
-                    r116 = r104.text;
-                    r114 = variable66.HermesInternal;
-                    r114 = r114.concat;
-                    r114 = r114.bind(variable61)(r116);
-                    r113 = variable53 === r113;
-                    r113 = r115.bind(foxtra)(r113, r114);
-                    r106 = r110.userId;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = r111;
                     variable98 = r110;
-                    variable97 = status;
+                    variable97 = r109;
                     variable96 = target;
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 4167:
-                    r111 = r104.text;
-                    r110 = r111.trim;
-                    r106 = r110.bind(r111)();
-                    r103 = variable37;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 4159:
+                    r110 = r103.text;
+                    r109 = r110.trim;
+                    r105 = r109.bind(r110)();
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1406,11 +1404,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 4226:
-                    r106 = r104.userId;
-                    r103 = variable37;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 4218:
+                    r105 = r103.userId;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1422,18 +1420,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 4275:
-                    r110 = r104.type;
-                    if(!(variable57 !== r110)) { _fun00008_ip = 4761; continue _fun00007 }
- 4287:
-                    r110 = r104.type;
-                    if(!(variable58 !== r110)) { _fun00008_ip = 4471; continue _fun00007 }
- 4299:
-                    r110 = r104.type;
-                    r106 = undefined;
-                    r103 = variable37;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 4267:
+                    r109 = r103.type;
+                    if(!(variable56 !== r109)) { _fun00008_ip = 4753; continue _fun00007 }
+ 4279:
+                    r109 = r103.type;
+                    if(!(variable57 !== r109)) { _fun00008_ip = 4463; continue _fun00007 }
+ 4291:
+                    r109 = r103.type;
+                    r105 = undefined;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1445,12 +1443,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    if(!(variable54 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 4352:
-                    r110 = r104.text;
-                    r106 = undefined;
-                    r103 = variable37;
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable53 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 4344:
+                    r109 = r103.text;
+                    r105 = undefined;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1462,194 +1460,194 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    if(!(variable55 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 4405:
-                    r110 = oscard.guild;
-                    r113 = offset == r110;
-                    r111 = undefined;
-                    if(r113) { _fun00008_ip = 4424; continue _fun00007 }
- 4419:
-                    r111 = r110.id;
- 4424:
-                    r106 = r111;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = r110;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 4471:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable68];
-                    r113 = r111.bind(foxtra)(r110);
-                    r111 = r113.isSnowflake;
-                    r110 = r104.text;
-                    r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 4702; continue _fun00007 }
- 4510:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable59];
-                    r117 = r111.bind(foxtra)(r110);
-                    r116 = r117.resolveApplicationCommandOption;
-                    r115 = r104.text;
-                    r111 = oscard.guild;
-                    r110 = offset == r111;
-                    r114 = undefined;
-                    if(r110) { _fun00008_ip = 4557; continue _fun00007 }
- 4552:
-                    r114 = r111.id;
- 4557:
-                    r110 = oscard.channel;
-                    r120 = r110.id;
-                    r110 = {};
-                    r110['allowUsers'] = variable56;
-                    r123 = r117;
-                    r122 = r115;
-                    r121 = r114;
-                    r119 = r110;
-                    r110 = r123[r116](r122, r121, r120, r119, r118);
-                    r114 = _closure1_slot1;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable63];
-                    r115 = r114.bind(foxtra)(r113);
-                    r114 = offset == r110;
-                    r113 = undefined;
-                    if(r114) { _fun00008_ip = 4621; continue _fun00007 }
- 4616:
-                    r113 = r110.type;
- 4621:
-                    r116 = r104.text;
-                    r114 = variable66.HermesInternal;
-                    r114 = r114.concat;
-                    r114 = r114.bind(variable61)(r116);
-                    r113 = variable57 === r113;
-                    r113 = r115.bind(foxtra)(r113, r114);
-                    r106 = r110.roleId;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = r111;
-                    r100 = r110;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 4702:
-                    r111 = r104.text;
-                    r110 = r111.trim;
-                    r106 = r110.bind(r111)();
-                    r103 = variable37;
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable54 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 4397:
+                    r109 = oscard.guild;
+                    r112 = offset == r109;
+                    r110 = undefined;
+                    if(r112) { _fun00008_ip = 4416; continue _fun00007 }
+ 4411:
+                    r110 = r109.id;
+ 4416:
+                    r105 = r110;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
                     variable100 = whisks;
-                    variable99 = limora;
+                    variable99 = r109;
                     variable98 = sierra;
                     variable97 = status;
                     variable96 = target;
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 4761:
-                    r106 = r104.roleId;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 4811:
-                    r110 = r104.type;
-                    if(!(variable60 !== r110)) { _fun00008_ip = 5143; continue _fun00007 }
- 4823:
-                    r110 = r104.type;
-                    r106 = undefined;
-                    r103 = variable37;
-                    r102 = variable36;
-                    r101 = quebec;
-                    r100 = equals;
-                    variable100 = whisks;
-                    variable99 = limora;
-                    variable98 = sierra;
-                    variable97 = status;
-                    variable96 = target;
-                    variable95 = papara;
-                    variable94 = cntext;
-                    variable93 = record;
-                    report = config;
-                    if(!(variable58 === r110)) { _fun00008_ip = 5187; continue _fun00007 }
- 4876:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable68];
-                    r113 = r111.bind(foxtra)(r110);
-                    r111 = r113.isSnowflake;
-                    r110 = r104.text;
-                    r110 = r111.bind(r113)(r110);
-                    if(r110) { _fun00008_ip = 5087; continue _fun00007 }
- 4915:
-                    r111 = _closure1_slot0;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable59];
-                    r116 = r111.bind(foxtra)(r110);
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 4463:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable67];
+                    r112 = r110.bind(foxtra)(r109);
+                    r110 = r112.isSnowflake;
+                    r109 = r103.text;
+                    r109 = r110.bind(r112)(r109);
+                    if(r109) { _fun00008_ip = 4694; continue _fun00007 }
+ 4502:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable58];
+                    r116 = r110.bind(foxtra)(r109);
                     r115 = r116.resolveApplicationCommandOption;
-                    r114 = r104.text;
-                    r111 = oscard.guild;
-                    r110 = offset == r111;
+                    r114 = r103.text;
+                    r110 = oscard.guild;
+                    r109 = offset == r110;
                     r113 = undefined;
-                    if(r110) { _fun00008_ip = 4962; continue _fun00007 }
- 4957:
-                    r113 = r111.id;
- 4962:
-                    r110 = oscard.channel;
-                    r110 = r110.id;
-                    r110 = r115.bind(r116)(r114, r113, r110);
-                    r114 = _closure1_slot1;
-                    r113 = _closure1_slot3;
-                    r113 = r113[variable63];
-                    r115 = r114.bind(foxtra)(r113);
-                    r114 = offset == r110;
-                    r113 = undefined;
-                    if(r114) { _fun00008_ip = 5010; continue _fun00007 }
- 5005:
-                    r113 = r110.type;
- 5010:
-                    r116 = r104.text;
-                    r114 = variable66.HermesInternal;
-                    r114 = r114.concat;
-                    r114 = r114.bind(variable61)(r116);
-                    r113 = variable60 === r113;
-                    r113 = r115.bind(foxtra)(r113, r114);
-                    r106 = r110.channelId;
-                    r103 = r111;
+                    if(r109) { _fun00008_ip = 4549; continue _fun00007 }
+ 4544:
+                    r113 = r110.id;
+ 4549:
+                    r109 = oscard.channel;
+                    r119 = r109.id;
+                    r109 = {};
+                    r109['allowUsers'] = variable55;
+                    r122 = r116;
+                    r121 = r114;
+                    r120 = r113;
+                    r118 = r109;
+                    r109 = r122[r115](r121, r120, r119, r118, r117);
+                    r113 = _closure1_slot1;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable62];
+                    r114 = r113.bind(foxtra)(r112);
+                    r113 = offset == r109;
+                    r112 = undefined;
+                    if(r113) { _fun00008_ip = 4613; continue _fun00007 }
+ 4608:
+                    r112 = r109.type;
+ 4613:
+                    r115 = r103.text;
+                    r113 = variable65.HermesInternal;
+                    r113 = r113.concat;
+                    r113 = r113.bind(variable60)(r115);
+                    r112 = variable56 === r112;
+                    r112 = r114.bind(foxtra)(r112, r113);
+                    r105 = r109.roleId;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = r110;
+                    variable100 = r109;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 4694:
+                    r110 = r103.text;
+                    r109 = r110.trim;
+                    r105 = r109.bind(r110)();
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 4753:
+                    r105 = r103.roleId;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 4803:
+                    r109 = r103.type;
+                    if(!(variable59 !== r109)) { _fun00008_ip = 5135; continue _fun00007 }
+ 4815:
+                    r109 = r103.type;
+                    r105 = undefined;
+                    r102 = variable36;
+                    r101 = quebec;
+                    r100 = equals;
+                    variable100 = whisks;
+                    variable99 = limora;
+                    variable98 = sierra;
+                    variable97 = status;
+                    variable96 = target;
+                    variable95 = papara;
+                    variable94 = cntext;
+                    variable93 = record;
+                    variable92 = config;
+                    report = sequen;
+                    if(!(variable57 === r109)) { _fun00008_ip = 5179; continue _fun00007 }
+ 4868:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable67];
+                    r112 = r110.bind(foxtra)(r109);
+                    r110 = r112.isSnowflake;
+                    r109 = r103.text;
+                    r109 = r110.bind(r112)(r109);
+                    if(r109) { _fun00008_ip = 5079; continue _fun00007 }
+ 4907:
+                    r110 = _closure1_slot0;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable58];
+                    r115 = r110.bind(foxtra)(r109);
+                    r114 = r115.resolveApplicationCommandOption;
+                    r113 = r103.text;
+                    r110 = oscard.guild;
+                    r109 = offset == r110;
+                    r112 = undefined;
+                    if(r109) { _fun00008_ip = 4954; continue _fun00007 }
+ 4949:
+                    r112 = r110.id;
+ 4954:
+                    r109 = oscard.channel;
+                    r109 = r109.id;
+                    r109 = r114.bind(r115)(r113, r112, r109);
+                    r113 = _closure1_slot1;
+                    r112 = _closure1_slot3;
+                    r112 = r112[variable62];
+                    r114 = r113.bind(foxtra)(r112);
+                    r113 = offset == r109;
+                    r112 = undefined;
+                    if(r113) { _fun00008_ip = 5002; continue _fun00007 }
+ 4997:
+                    r112 = r109.type;
+ 5002:
+                    r115 = r103.text;
+                    r113 = variable65.HermesInternal;
+                    r113 = r113.concat;
+                    r113 = r113.bind(variable60)(r115);
+                    r112 = variable59 === r112;
+                    r112 = r114.bind(foxtra)(r112, r113);
+                    r105 = r109.channelId;
                     r102 = r110;
-                    r101 = quebec;
+                    r101 = r109;
                     r100 = equals;
                     variable100 = whisks;
                     variable99 = limora;
@@ -1659,13 +1657,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 5087:
-                    r111 = r104.text;
-                    r110 = r111.trim;
-                    r106 = r110.bind(r111)();
-                    r103 = variable37;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 5079:
+                    r110 = r103.text;
+                    r109 = r110.trim;
+                    r105 = r109.bind(r110)();
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1677,11 +1675,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
-                    _fun00008_ip = 5187; continue _fun00007;
- 5143:
-                    r106 = r104.channelId;
-                    r103 = variable37;
+                    variable92 = config;
+                    report = sequen;
+                    _fun00008_ip = 5179; continue _fun00007;
+ 5135:
+                    r105 = r103.channelId;
                     r102 = variable36;
                     r101 = quebec;
                     r100 = equals;
@@ -1693,59 +1691,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable95 = papara;
                     variable94 = cntext;
                     variable93 = record;
-                    report = config;
- 5187:
-                    r110 = variable62 !== r106;
-                    if(r110) { _fun00008_ip = 5204; continue _fun00007 }
- 5194:
-                    r111 = oscard.autocomplete;
-                    r110 = offset == r111;
- 5204:
-                    if(r110) { _fun00008_ip = 5210; continue _fun00007 }
- 5207:
-                    r110 = r107;
- 5210:
-                    variable92 = r109;
-                    variable91 = r108;
-                    variable90 = r107;
-                    variable89 = r106;
-                    variable88 = r105;
-                    variable87 = r104;
-                    variable86 = r103;
-                    variable85 = r102;
-                    variable84 = r101;
-                    variable83 = r100;
-                    variable82 = variable100;
-                    variable81 = variable99;
-                    variable80 = variable98;
-                    variable79 = variable97;
-                    variable78 = variable96;
-                    variable77 = variable95;
-                    variable76 = variable94;
-                    variable75 = variable93;
-                    variable74 = report;
-                    variable73 = vacuum;
-                    variable72 = ctrled;
-                    variable71 = source;
-                    variable70 = verify;
-                    if(!r110) { _fun00008_ip = 5528; continue _fun00007 }
- 5285:
-                    r111 = _closure1_slot1;
-                    r110 = _closure1_slot3;
-                    r110 = r110[variable63];
-                    r113 = r111.bind(foxtra)(r110);
+                    variable92 = config;
+                    report = sequen;
+ 5179:
+                    r109 = variable61 !== r105;
+                    if(r109) { _fun00008_ip = 5196; continue _fun00007 }
+ 5186:
                     r110 = oscard.autocomplete;
-                    r111 = offset != r110;
-                    if(r111) { _fun00008_ip = 5319; continue _fun00007 }
- 5315:
-                    r111 = offset != r106;
- 5319:
-                    r114 = r112.name;
-                    r110 = variable66.HermesInternal;
-                    r110 = r110.concat;
-                    r110 = r110.bind(variable65)(r114, variable64);
-                    r110 = r113.bind(foxtra)(r111, r110);
-                    variable92 = r109;
+                    r109 = offset == r110;
+ 5196:
+                    if(r109) { _fun00008_ip = 5202; continue _fun00007 }
+ 5199:
+                    r109 = r106;
+ 5202:
                     variable91 = r108;
                     variable90 = r107;
                     variable89 = r106;
@@ -1763,23 +1721,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable77 = variable95;
                     variable76 = variable94;
                     variable75 = variable93;
-                    variable74 = report;
-                    variable73 = vacuum;
+                    variable74 = variable92;
+                    variable73 = report;
                     variable72 = ctrled;
                     variable71 = source;
-                    variable70 = verify;
-                    if(!(offset != r106)) { _fun00008_ip = 5528; continue _fun00007 }
- 5420:
-                    r111 = sequen.push;
-                    r110 = {};
-                    r113 = r112.type;
-                    r110['type'] = r113;
-                    r112 = r112.name;
-                    r110['name'] = r112;
-                    r110['value'] = r106;
-                    r110['focused'] = r107;
-                    r110 = r111.bind(sequen)(r110);
-                    variable92 = r109;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(!r109) { _fun00008_ip = 5520; continue _fun00007 }
+ 5277:
+                    r110 = _closure1_slot1;
+                    r109 = _closure1_slot3;
+                    r109 = r109[variable62];
+                    r112 = r110.bind(foxtra)(r109);
+                    r109 = oscard.autocomplete;
+                    r110 = offset != r109;
+                    if(r110) { _fun00008_ip = 5311; continue _fun00007 }
+ 5307:
+                    r110 = offset != r105;
+ 5311:
+                    r113 = r111.name;
+                    r109 = variable65.HermesInternal;
+                    r109 = r109.concat;
+                    r109 = r109.bind(variable64)(r113, variable63);
+                    r109 = r112.bind(foxtra)(r110, r109);
                     variable91 = r108;
                     variable90 = r107;
                     variable89 = r106;
@@ -1797,15 +1761,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable77 = variable95;
                     variable76 = variable94;
                     variable75 = variable93;
-                    variable74 = report;
-                    variable73 = vacuum;
+                    variable74 = variable92;
+                    variable73 = report;
                     variable72 = ctrled;
                     variable71 = source;
-                    variable70 = verify;
- 5528:
-                    variable93 = variable67.bind(foxtra)();
-                    report = variable93.done;
-                    variable43 = variable92;
+                    variable70 = echoed;
+                    variable69 = verify;
+                    if(!(offset != r105)) { _fun00008_ip = 5520; continue _fun00007 }
+ 5412:
+                    r110 = vacuum.push;
+                    r109 = {};
+                    r112 = r111.type;
+                    r109['type'] = r112;
+                    r111 = r111.name;
+                    r109['name'] = r111;
+                    r109['value'] = r105;
+                    r109['focused'] = r106;
+                    r109 = r110.bind(vacuum)(r109);
+                    variable91 = r108;
+                    variable90 = r107;
+                    variable89 = r106;
+                    variable88 = r105;
+                    variable87 = r104;
+                    variable86 = r103;
+                    variable85 = r102;
+                    variable84 = r101;
+                    variable83 = r100;
+                    variable82 = variable100;
+                    variable81 = variable99;
+                    variable80 = variable98;
+                    variable79 = variable97;
+                    variable78 = variable96;
+                    variable77 = variable95;
+                    variable76 = variable94;
+                    variable75 = variable93;
+                    variable74 = variable92;
+                    variable73 = report;
+                    variable72 = ctrled;
+                    variable71 = source;
+                    variable70 = echoed;
+                    variable69 = verify;
+ 5520:
+                    variable92 = variable66.bind(foxtra)();
+                    report = variable92.done;
                     variable42 = variable91;
                     variable41 = variable90;
                     variable40 = variable89;
@@ -1824,118 +1822,114 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = variable76;
                     record = variable75;
                     config = variable74;
-                    vacuum = variable73;
+                    sequen = variable73;
                     ctrled = variable72;
                     source = variable71;
-                    verify = variable70;
-                    variable44 = variable93;
-                    if(!report) { _fun00008_ip = 566; continue _fun00007 }
- 5615:
+                    echoed = variable70;
+                    verify = variable69;
+                    variable43 = variable92;
+                    if(!report) { _fun00008_ip = 558; continue _fun00007 }
+ 5607:
                     verify = golfie.subCommandPath;
-                    report = sequen;
-                    if(!(offset != verify)) { _fun00008_ip = 5714; continue _fun00007 }
- 5628:
+                    report = vacuum;
+                    if(!(offset != verify)) { _fun00008_ip = 5706; continue _fun00007 }
+ 5620:
                     verify = golfie.subCommandPath;
                     verify = verify.length;
-                    vacuum = 1;
-                    ctrled = verify - vacuum;
-                    source = 0;
-                    verify = sequen;
+                    ctrled = 1;
+                    source = verify - ctrled;
+                    echoed = 0;
+                    verify = vacuum;
                     report = verify;
-                    if(!(ctrled >= source)) { _fun00008_ip = 5714; continue _fun00007 }
- 5658:
-                    sequen = golfie.subCommandPath;
-                    record = sequen[ctrled];
-                    sequen = record.name;
-                    config = {};
-                    record = record.type;
-                    config['type'] = record;
-                    config['name'] = sequen;
-                    config['options'] = verify;
-                    sequen = new Array(1);
-                    sequen[0] = config;
-                    ctrled = ctrled - vacuum;
-                    verify = sequen;
+                    if(!(source >= echoed)) { _fun00008_ip = 5706; continue _fun00007 }
+ 5650:
+                    vacuum = golfie.subCommandPath;
+                    config = vacuum[source];
+                    vacuum = config.name;
+                    sequen = {};
+                    config = config.type;
+                    sequen['type'] = config;
+                    sequen['name'] = vacuum;
+                    sequen['options'] = verify;
+                    vacuum = new Array(1);
+                    vacuum[0] = sequen;
+                    source = source - ctrled;
+                    verify = vacuum;
                     report = verify;
-                    if(ctrled >= source) { _fun00008_ip = 5658; continue _fun00007 }
- 5714:
+                    if(source >= echoed) { _fun00008_ip = 5650; continue _fun00007 }
+ 5706:
                     verify = golfie.execute;
-                    if(!(offset == verify)) { _fun00008_ip = 6181; continue _fun00007 }
- 5727:
-                    source = golfie.inputType;
-                    ctrled = _closure1_slot0;
+                    if(!(offset == verify)) { _fun00008_ip = 6160; continue _fun00007 }
+ 5719:
+                    echoed = golfie.inputType;
+                    source = _closure1_slot0;
                     verify = _closure1_slot3;
-                    vacuum = 9;
-                    verify = verify[vacuum];
-                    verify = ctrled.bind(foxtra)(verify);
+                    ctrled = 9;
+                    verify = verify[ctrled];
+                    verify = source.bind(foxtra)(verify);
                     verify = verify.ApplicationCommandInputType;
                     verify = verify.BUILT_IN;
-                    if(!(source !== verify)) { _fun00008_ip = 6178; continue _fun00007 }
- 5772:
-                    source = golfie.inputType;
-                    ctrled = _closure1_slot0;
+                    if(!(echoed !== verify)) { _fun00008_ip = 6157; continue _fun00007 }
+ 5764:
+                    echoed = golfie.inputType;
+                    source = _closure1_slot0;
                     verify = _closure1_slot3;
-                    verify = verify[vacuum];
-                    verify = ctrled.bind(foxtra)(verify);
+                    verify = verify[ctrled];
+                    verify = source.bind(foxtra)(verify);
                     verify = verify.ApplicationCommandInputType;
                     verify = verify.BUILT_IN_TEXT;
-                    if(!(source !== verify)) { _fun00008_ip = 6178; continue _fun00007 }
- 5814:
-                    source = golfie.inputType;
-                    ctrled = _closure1_slot0;
+                    if(!(echoed !== verify)) { _fun00008_ip = 6157; continue _fun00007 }
+ 5806:
+                    echoed = golfie.inputType;
+                    source = _closure1_slot0;
                     verify = _closure1_slot3;
-                    verify = verify[vacuum];
-                    verify = ctrled.bind(foxtra)(verify);
+                    verify = verify[ctrled];
+                    verify = source.bind(foxtra)(verify);
                     verify = verify.ApplicationCommandInputType;
                     verify = verify.BUILT_IN_INTEGRATION;
-                    if(!(source !== verify)) { _fun00008_ip = 6178; continue _fun00007 }
- 5856:
+                    if(!(echoed !== verify)) { _fun00008_ip = 6157; continue _fun00007 }
+ 5848:
                     verify = {};
-                    source = golfie.version;
-                    verify['version'] = source;
-                    ctrled = golfie.rootCommand;
-                    vacuum = offset == ctrled;
-                    source = undefined;
-                    if(vacuum) { _fun00008_ip = 5889; continue _fun00007 }
- 5884:
-                    source = ctrled.id;
- 5889:
-                    if(!(offset == source)) { _fun00008_ip = 5898; continue _fun00007 }
- 5893:
-                    source = golfie.id;
- 5898:
-                    verify['id'] = source;
-                    source = golfie.guildId;
-                    verify['guild_id'] = source;
-                    ctrled = golfie.rootCommand;
-                    vacuum = offset == ctrled;
-                    source = undefined;
-                    if(vacuum) { _fun00008_ip = 5931; continue _fun00007 }
- 5926:
-                    source = ctrled.name;
- 5931:
-                    if(!(offset == source)) { _fun00008_ip = 5941; continue _fun00007 }
- 5935:
-                    source = golfie.untranslatedName;
- 5941:
-                    verify['name'] = source;
-                    source = golfie.type;
-                    verify['type'] = source;
-                    verify['options'] = report;
+                    echoed = golfie.version;
+                    verify['version'] = echoed;
                     source = golfie.rootCommand;
-                    verify['application_command'] = source;
-                    if(!(offset != echoed)) { _fun00008_ip = 5979; continue _fun00007 }
- 5973:
-                    verify['target_id'] = echoed;
- 5979:
-                    if(!option) { _fun00008_ip = 5992; continue _fun00007 }
- 5982:
-                    option = true;
-                    verify['client_supports_contextless_activity_launch'] = option;
- 5992:
+                    ctrled = offset == source;
+                    echoed = undefined;
+                    if(ctrled) { _fun00008_ip = 5881; continue _fun00007 }
+ 5876:
+                    echoed = source.id;
+ 5881:
+                    if(!(offset == echoed)) { _fun00008_ip = 5890; continue _fun00007 }
+ 5885:
+                    echoed = golfie.id;
+ 5890:
+                    verify['id'] = echoed;
+                    echoed = golfie.guildId;
+                    verify['guild_id'] = echoed;
+                    source = golfie.rootCommand;
+                    ctrled = offset == source;
+                    echoed = undefined;
+                    if(ctrled) { _fun00008_ip = 5923; continue _fun00007 }
+ 5918:
+                    echoed = source.name;
+ 5923:
+                    if(!(offset == echoed)) { _fun00008_ip = 5933; continue _fun00007 }
+ 5927:
+                    echoed = golfie.untranslatedName;
+ 5933:
+                    verify['name'] = echoed;
+                    echoed = golfie.type;
+                    verify['type'] = echoed;
+                    verify['options'] = report;
+                    echoed = golfie.rootCommand;
+                    verify['application_command'] = echoed;
+                    if(!(offset != option)) { _fun00008_ip = 5971; continue _fun00007 }
+ 5965:
+                    verify['target_id'] = option;
+ 5971:
                     option = oscard.autocomplete;
-                    if(!(offset == option)) { _fun00008_ip = 6145; continue _fun00007 }
- 6005:
+                    if(!(offset == option)) { _fun00008_ip = 6124; continue _fun00007 }
+ 5984:
                     offset = _closure1_slot1;
                     echoed = _closure1_slot3;
                     option = 20;
@@ -1967,19 +1961,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['sectionName'] = kiloes;
                     option['source'] = yankee;
                     tangon = tangon.bind(foxtra)(golfie, oscard, verify);
-                    SaveGenerator(address=6124);
- 6122:
+                    SaveGenerator(address=6103);
+ 6101:
                     return tangon;
- 6124:
+ 6103:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=14);
-                    if(kiloes) { _fun00008_ip = 6142; continue _fun00007 }
- 6130:
+                    if(kiloes) { _fun00008_ip = 6121; continue _fun00007 }
+ 6109:
                     option['interactionLifecycleOptions'] = tangon;
                     option = offset.bind(foxtra)(option);
-                    _fun00008_ip = 6178; continue _fun00007;
- 6142:
+                    _fun00008_ip = 6157; continue _fun00007;
+ 6121:
                     return tangon;
- 6145:
+ 6124:
                     option = _closure1_slot0;
                     offset = _closure1_slot3;
                     tangon = 19;
@@ -1987,9 +1981,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(foxtra)(tangon);
                     tangon = option.performAutocomplete;
                     tangon = tangon.bind(option)(golfie, oscard, verify);
- 6178:
+ 6157:
                     return foxtra;
- 6181:
+ 6160:
                     option = _closure1_slot1;
                     verify = _closure1_slot3;
                     tangon = 18;
@@ -2013,11 +2007,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = golfie.execute;
                     tangon = tangon.bind(golfie)(report, oscard);
                     return tangon;
- 6287:
+ 6266:
                     return zuuluu;
- 6290:
+ 6269:
                     return michal;
- 6293:
+ 6272:
                     return entity;
                 }
             };
