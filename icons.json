@@ -693,14 +693,14 @@
         "height": 12
     },
     "badge": {
-        "file": "modules/premium/native/images/perks/badge.png",
-        "hash": "7d09a15a2a5682035199dcfee2a26d08",
+        "file": "images/native/premium/guild_boosting/perks/badge.png",
+        "hash": "6d92319c85fd42e305e389df8a64c64a",
         "scales": [
             2,
             3
         ],
-        "width": 300,
-        "height": 175
+        "width": 20,
+        "height": 20
     },
     "badge_2": {
         "file": "images/native/premium/guild_boosting/perks/badge_2.png",
@@ -2648,14 +2648,14 @@
         "height": 24
     },
     "emoji": {
-        "file": "modules/premium/native/images/perks/emoji.png",
-        "hash": "337f717407aa04f32bdedf504de7310b",
+        "file": "images/native/premium/guild_boosting/perks/emoji.png",
+        "hash": "6ce9cfa41f5b080fb1f9fac04190337a",
         "scales": [
             2,
             3
         ],
-        "width": 300,
-        "height": 175
+        "width": 24,
+        "height": 24
     },
     "emoji-negative": {
         "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-negative.png",
@@ -4607,8 +4607,8 @@
         "height": 32
     },
     "ic_check_18px": {
-        "file": "images/native/icons/ic_check_18px.png",
-        "hash": "0b73baa146c1e8e06b259fb4eb1affa0",
+        "file": "images/native/uikit/ic_check_18px.png",
+        "hash": "b1593fdc9e59f19aeb3fd9a550216915",
         "scales": [
             2,
             3
@@ -9254,14 +9254,14 @@
         "height": 80
     },
     "img_nitro_badge": {
-        "file": "images/native/premium/perks/img_nitro_badge.png",
-        "hash": "9d054f4a2e6965892d17aa00d900146e",
+        "file": "images/native/premium/upsell/img_nitro_badge.png",
+        "hash": "ff5825c454c175379e6be98cbe46511a",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 120,
+        "height": 80
     },
     "img_nitro_basic": {
         "file": "images/native/premium/perks/img_nitro_basic.png",
@@ -10970,16 +10970,6 @@
         "width": 161,
         "height": 161
     },
-    "locked-pack": {
-        "file": "modules/expression_suggestions/native/images/locked-pack.png",
-        "hash": "a8ce8c0b63b17c9f358f01beb594e117",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 16,
-        "height": 16
-    },
     "LockIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/LockIcon.png",
         "hash": "b8e3692fa2d78fb367ae2124f8d6eb37",
@@ -11059,15 +11049,13 @@
         "height": 52
     },
     "mallow": {
-        "file": "modules/contact_sync/native/images/mallow.png",
-        "hash": "22ff64f3c42212e7404d5af41f019eda",
+        "file": "modules/nuf_channels/native/images/mallow.png",
+        "hash": "94bb0fdcfba6a856a1567cdd4f281049",
         "scales": [
-            1,
-            2,
-            3
+            1
         ],
-        "width": 102,
-        "height": 106
+        "width": 120,
+        "height": 120
     },
     "mallow_1": {
         "file": "images/native/avatars/mallow_1.png",
@@ -13287,14 +13275,14 @@
         "height": 16
     },
     "sticker": {
-        "file": "modules/premium/native/images/perks/sticker.png",
-        "hash": "fac2e3b3b87c5c331642c571eab831c9",
+        "file": "images/native/premium/guild_boosting/perks/sticker.png",
+        "hash": "4f7f3933dfbb31e71ae1545e9b3d82b6",
         "scales": [
             2,
             3
         ],
-        "width": 300,
-        "height": 175
+        "width": 20,
+        "height": 20
     },
     "sticker_search_empty": {
         "file": "modules/stickers/native/images/sticker_search_empty.png",
@@ -14171,11 +14159,12 @@
         "height": 1320
     },
     "video": {
-        "file": "images/native/icons/voice_calls/video.png",
-        "hash": "c902e6fcc190a5ea75515cf2b526309d",
+        "file": "modules/voice_panel/native/images/video.png",
+        "hash": "a9d9f17a82c0681a83d7c3c4c21e6009",
         "scales": [
             2,
-            3
+            3,
+            4
         ],
         "width": 24,
         "height": 24
