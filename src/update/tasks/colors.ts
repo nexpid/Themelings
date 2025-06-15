@@ -67,7 +67,7 @@ export function getInternalSemanticColors(
 	raw: Record<string, string>,
 ): SemanticColors {
 	const moduleLine = code.findIndex((l) =>
-		l.includes("colors/generated/generated-definitions.tsx'"),
+		l.includes("colors/generated/native/generated-definitions.tsx'"),
 	);
 	if (moduleLine === -1) throw new Error("Cannot find semanticColorsHookLine!");
 
