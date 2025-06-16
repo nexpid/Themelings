@@ -757,28 +757,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = {'idleJitterBufferFlush': true, 'ducking': false};
                 report = verify.bind(golfie)(report);
                 report = golfie.setNativeScreenSharePickerCallbacks;
-                if(!(oscard != report)) { _fun00006_ip = 642; continue _fun00005 }
- 611:
+                if(!(oscard != report)) { _fun00006_ip = 646; continue _fun00005 }
+ 615:
                 romeon = golfie.setNativeScreenSharePickerCallbacks;
                 yankee = entity.handleNativeScreenSharePickerUpdate;
                 verify = entity.handleNativeScreenSharePickerCancel;
                 report = entity.handleNativeScreenSharePickerError;
                 report = romeon.bind(golfie)(yankee, verify, report);
- 642:
+ 646:
                 report = golfie.setAudioDeviceModuleErrorCallback;
-                if(!(oscard != report)) { _fun00006_ip = 669; continue _fun00005 }
- 652:
+                if(!(oscard != report)) { _fun00006_ip = 673; continue _fun00005 }
+ 656:
                 verify = golfie.setAudioDeviceModuleErrorCallback;
                 report = entity.handleAudioDeviceModuleErrorCallback;
                 report = verify.bind(golfie)(report);
- 669:
+ 673:
                 report = golfie.setVideoCodecErrorCallback;
-                if(!(oscard != report)) { _fun00006_ip = 696; continue _fun00005 }
- 679:
+                if(!(oscard != report)) { _fun00006_ip = 700; continue _fun00005 }
+ 683:
                 verify = golfie.setVideoCodecErrorCallback;
                 report = entity.handleVideoCodecErrorCallback;
                 report = verify.bind(golfie)(report);
- 696:
+ 700:
                 yankee = entity.on;
                 verify = entity.handleRemoveListener;
                 report = 'removeListener';
@@ -794,8 +794,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = verify.getVoiceEngine;
                 report = report.bind(verify)();
                 report = report.getAudioSubsystem;
-                if(!(oscard == report)) { _fun00006_ip = 880; continue _fun00005 }
- 777:
+                if(!(oscard == report)) { _fun00006_ip = 884; continue _fun00005 }
+ 781:
                 verify = _closure1_slot0;
                 report = _closure1_slot2;
                 report = report[offset];
@@ -803,8 +803,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = verify.getVoiceEngine;
                 report = report.bind(verify)();
                 report = report.getUseLegacyAudioDevice;
-                if(!(oscard != report)) { _fun00006_ip = 923; continue _fun00005 }
- 814:
+                if(!(oscard != report)) { _fun00006_ip = 927; continue _fun00005 }
+ 818:
                 verify = _closure1_slot0;
                 report = _closure1_slot2;
                 report = report[offset];
@@ -814,16 +814,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = verify.getUseLegacyAudioDevice;
                 report = report.bind(verify)();
                 verify = _closure1_slot14;
-                if(report) { _fun00006_ip = 866; continue _fun00005 }
- 858:
+                if(report) { _fun00006_ip = 870; continue _fun00005 }
+ 862:
                 report = verify.STANDARD;
-                _fun00006_ip = 872; continue _fun00005;
- 866:
+                _fun00006_ip = 876; continue _fun00005;
+ 870:
                 report = verify.LEGACY;
- 872:
+ 876:
                 entity['audioSubsystem'] = report;
-                _fun00006_ip = 923; continue _fun00005;
- 880:
+                _fun00006_ip = 927; continue _fun00005;
+ 884:
                 verify = _closure1_slot0;
                 report = _closure1_slot2;
                 report = report[offset];
@@ -841,46 +841,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 report = verify.bind(offset)(report);
- 923:
+ 927:
                 report = golfie.pingVoiceThread;
                 report = oscard != report;
-                if(!report) { _fun00006_ip = 952; continue _fun00005 }
- 936:
+                if(!report) { _fun00006_ip = 956; continue _fun00005 }
+ 940:
                 verify = option.window;
                 offset = 'undefined';
                 verify = typeof verify;
                 report = offset !== verify;
- 952:
-                if(!report) { _fun00006_ip = 981; continue _fun00005 }
- 955:
+ 956:
+                if(!report) { _fun00006_ip = 985; continue _fun00005 }
+ 959:
                 option = option.window;
                 option = option.GLOBAL_ENV;
                 verify = option.RELEASE_CHANNEL;
                 option = 'canary';
                 report = option === verify;
- 981:
-                if(!report) { _fun00006_ip = 994; continue _fun00005 }
- 984:
+ 985:
+                if(!report) { _fun00006_ip = 998; continue _fun00005 }
+ 988:
                 report = entity.watchdogTick;
                 report = report.bind(entity)();
- 994:
+ 998:
                 report = golfie.setActiveSinksChangeCallback;
-                if(!(oscard != report)) { _fun00006_ip = 1021; continue _fun00005 }
- 1004:
+                if(!(oscard != report)) { _fun00006_ip = 1025; continue _fun00005 }
+ 1008:
                 option = golfie.setActiveSinksChangeCallback;
                 report = entity.handleActiveSinksChange;
                 report = option.bind(golfie)(report);
- 1021:
+ 1025:
                 report = golfie.setLoopbackPlaybackGainMultiplier;
-                if(!(oscard != report)) { _fun00006_ip = 1046; continue _fun00005 }
- 1031:
+                if(!(oscard != report)) { _fun00006_ip = 1050; continue _fun00005 }
+ 1035:
                 option = golfie.setLoopbackPlaybackGainMultiplier;
                 report = _closure1_slot20;
                 report = option.bind(golfie)(report);
- 1046:
+ 1050:
                 report = golfie.setVoiceFiltersFailedCallback;
-                if(!(oscard != report)) { _fun00006_ip = 1072; continue _fun00005 }
- 1056:
+                if(!(oscard != report)) { _fun00006_ip = 1076; continue _fun00005 }
+ 1060:
                 oscard = golfie.setVoiceFiltersFailedCallback;
                 report = function(argFoo) {
                     tangon = _closure3_slot0;
@@ -898,7 +898,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 report = oscard.bind(golfie)(report);
- 1072:
+ 1076:
                 report = _closure1_slot1;
                 oscard = _closure1_slot2;
                 tangon = 16;
