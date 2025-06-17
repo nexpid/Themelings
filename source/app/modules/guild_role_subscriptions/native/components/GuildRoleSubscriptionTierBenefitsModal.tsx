@@ -347,10 +347,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = golfie.bind(entity)(oscard, report);
                     michal = _closure2_slot0;
                     report = argFoo;
-                    if(!report) { _fun00010_ip = 85; continue _fun00009 }
- 80:
+                    if(!report) { _fun00010_ip = 84; continue _fun00009 }
+ 79:
                     zuuluu = tangon.value;
- 85:
+ 84:
                     michal = michal.bind(entity)(zuuluu);
                     return entity;
                 }

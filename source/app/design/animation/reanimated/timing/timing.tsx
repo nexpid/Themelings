@@ -17,10 +17,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = oscard[entity];
     entity = undefined;
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.CONFIG_NEVER_ANIMATE;
+    tangon = tangon.CONFIG_NEVER_ANIMATE_TIMING;
     var _closure1_slot2 = tangon;
     tangon = {};
-    golfie = "function withTiming_timingTsx1(toValue,config,shouldAnimate='respect-motion-settings',callback){const{accessibilityPreferencesSharedValue,REAwithTiming,CONFIG_NEVER_ANIMATE}=this.__closure;const reducedMotionEnabled=accessibilityPreferencesSharedValue.get().reduceMotion;const animate=shouldAnimate==='animate-always'||shouldAnimate==='respect-motion-settings'&&!reducedMotionEnabled;return REAwithTiming(toValue,animate?config:CONFIG_NEVER_ANIMATE,callback);}";
+    golfie = "function withTiming_timingTsx1(toValue,config,shouldAnimate='respect-motion-settings',callback){const{accessibilityPreferencesSharedValue,REAwithTiming,CONFIG_NEVER_ANIMATE_TIMING}=this.__closure;const reducedMotionEnabled=accessibilityPreferencesSharedValue.get().reduceMotion;const animate=shouldAnimate==='animate-always'||shouldAnimate==='respect-motion-settings'&&!reducedMotionEnabled;return REAwithTiming(toValue,animate?config:CONFIG_NEVER_ANIMATE_TIMING,callback);}";
     tangon['code'] = golfie;
     var _closure1_slot3 = tangon;
     michal = function() {
@@ -80,9 +80,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         tangon = tangon.withTiming;
         zuuluu['REAwithTiming'] = tangon;
         tangon = _closure1_slot2;
-        zuuluu['CONFIG_NEVER_ANIMATE'] = tangon;
+        zuuluu['CONFIG_NEVER_ANIMATE_TIMING'] = tangon;
         entity['__closure'] = zuuluu;
-        zuuluu = 4118665843476.0;
+        zuuluu = 9297601463860.0;
         entity['__workletHash'] = zuuluu;
         michal = _closure1_slot3;
         entity['__initData'] = michal;

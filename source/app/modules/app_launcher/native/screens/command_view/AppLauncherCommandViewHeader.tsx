@@ -471,10 +471,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = sizing;
             sizing = backup == kiloes;
             backup = undefined;
-            if(sizing) { _fun00002_ip = 852; continue _fun00001 }
- 847:
+            if(sizing) { _fun00002_ip = 851; continue _fun00001 }
+ 846:
             backup = kiloes.displayName;
- 852:
+ 851:
             golfie['children'] = backup;
             golfie = foxtra.bind(tangon)(option, golfie);
             report[2] = golfie;

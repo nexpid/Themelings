@@ -1284,10 +1284,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = record.isThemeLight;
             record = sequen.bind(record)(cntext);
             sequen = null;
-            if(!record) { _fun00008_ip = 940; continue _fun00007 }
- 934:
+            if(!record) { _fun00008_ip = 939; continue _fun00007 }
+ 933:
             sequen = config.visualEffectViewBackground;
- 940:
+ 939:
             echoed[1] = sequen;
             yankee['style'] = echoed;
             backup = result.bind(tangon)(backup, yankee);

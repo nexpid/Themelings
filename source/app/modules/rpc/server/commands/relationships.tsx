@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = offset.pickBy;
         option = {};
         yankee = _closure1_slot3;
-        entity = yankee.getRelationships;
+        entity = yankee.getMutableRelationships;
         romeon = entity.bind(yankee)();
         foxtra = option;
         entity = copyDataProperties(foxtra, romeon);

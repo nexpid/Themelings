@@ -496,13 +496,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot6;
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(golfie);
-            if(oscard) { _fun00008_ip = 178; continue _fun00007 }
- 46:
-            if(tangon) { _fun00008_ip = 150; continue _fun00007 }
- 49:
+            if(oscard) { _fun00008_ip = 177; continue _fun00007 }
+ 45:
+            if(tangon) { _fun00008_ip = 149; continue _fun00007 }
+ 48:
             tangon = report.mentioned;
-            if(tangon) { _fun00008_ip = 122; continue _fun00007 }
- 58:
+            if(tangon) { _fun00008_ip = 121; continue _fun00007 }
+ 57:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             michal = 10;
@@ -511,40 +511,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.hasEphemeralAppearance;
             michal = michal.bind(tangon)(report);
             entity = undefined;
-            if(!michal) { _fun00008_ip = 120; continue _fun00007 }
- 94:
+            if(!michal) { _fun00008_ip = 119; continue _fun00007 }
+ 93:
             michal = {};
             tangon = zuuluu.ephemeralBackgroundColor;
             michal['backgroundColor'] = tangon;
             tangon = zuuluu.ephemeralGutterColor;
             michal['gutterColor'] = tangon;
             entity = michal;
- 120:
-            _fun00008_ip = 148; continue _fun00007;
- 122:
+ 119:
+            _fun00008_ip = 147; continue _fun00007;
+ 121:
             michal = {};
             tangon = zuuluu.mentionedBackgroundColor;
             michal['backgroundColor'] = tangon;
             tangon = zuuluu.mentionedGutterColor;
             michal['gutterColor'] = tangon;
             entity = michal;
- 148:
-            _fun00008_ip = 176; continue _fun00007;
- 150:
+ 147:
+            _fun00008_ip = 175; continue _fun00007;
+ 149:
             michal = {};
             tangon = zuuluu.automodBlockedBackgroundColor;
             michal['backgroundColor'] = tangon;
             tangon = zuuluu.automodBlockedGutterColor;
             michal['gutterColor'] = tangon;
             entity = michal;
- 176:
-            _fun00008_ip = 193; continue _fun00007;
- 178:
+ 175:
+            _fun00008_ip = 192; continue _fun00007;
+ 177:
             michal = {};
             zuuluu = zuuluu.editingColor;
             michal['backgroundColor'] = zuuluu;
             entity = michal;
- 193:
+ 192:
             return entity;
         }
     };

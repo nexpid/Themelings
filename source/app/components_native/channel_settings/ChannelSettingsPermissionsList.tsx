@@ -255,77 +255,70 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         entity = _closure3_slot0;
-                        if(!entity) { _fun00006_ip = 296; continue _fun00005 }
+                        if(!entity) { _fun00006_ip = 277; continue _fun00005 }
  13:
                         entity = _closure3_slot2;
-                        romeon = null;
-                        if(!(romeon != entity)) { _fun00006_ip = 296; continue _fun00005 }
+                        yankee = null;
+                        if(!(yankee != entity)) { _fun00006_ip = 277; continue _fun00005 }
  26:
                         michal = new Array(0);
                         zuuluu = _closure1_slot8;
                         entity = zuuluu.getMutableAllGuildsAndMembers;
                         zuuluu = entity.bind(zuuluu)();
                         entity = _closure3_slot2;
-                        offset = zuuluu[entity];
-                        report = 12;
-                        tangon = undefined;
-                        zuuluu = 0;
-                        entity = true;
-                        for(oscard in offset)
- 75:
+                        verify = zuuluu[entity];
+                        tangon = 12;
+                        zuuluu = undefined;
+                        entity = 0;
+                        for(report in verify)
+ 73:
                         {
- 87:
-                            result = oscard;
-                            kiloes = _closure1_slot10;
-                            backup = kiloes.getUser;
-                            kiloes = backup.bind(kiloes)(result);
-                            backup = romeon != kiloes;
-                            if(!backup) { _fun00006_ip = 126; continue _fun00005 }
- 112:
-                            sizing = kiloes.isClyde;
-                            sizing = sizing.bind(kiloes)();
-                            backup = entity !== sizing;
- 126:
-                            if(!backup) { _fun00006_ip = 154; continue _fun00005 }
- 129:
+ 85:
+                            output = report;
+                            backup = _closure1_slot10;
+                            foxtra = backup.getUser;
+                            backup = foxtra.bind(backup)(output);
+                            foxtra = yankee != backup;
+                            if(!foxtra) { _fun00006_ip = 135; continue _fun00005 }
+ 110:
+                            kiloes = _closure3_slot1;
+                            sizing = yankee == kiloes;
+                            kiloes = undefined;
+                            if(sizing) { _fun00006_ip = 131; continue _fun00005 }
+ 123:
                             sizing = _closure3_slot1;
-                            output = romeon == sizing;
-                            sizing = undefined;
-                            if(output) { _fun00006_ip = 150; continue _fun00005 }
- 142:
-                            output = _closure3_slot1;
-                            sizing = output[result];
- 150:
-                            backup = romeon == sizing;
+                            kiloes = sizing[output];
+ 131:
+                            foxtra = yankee == kiloes;
+ 135:
+                            if(!foxtra) { _fun00006_ip = 209; continue _fun00005 }
+ 138:
+                            kiloes = _closure3_slot3;
+                            kiloes = kiloes.length;
+                            kiloes = entity === kiloes;
+                            if(kiloes) { _fun00006_ip = 206; continue _fun00005 }
  154:
-                            if(!backup) { _fun00006_ip = 228; continue _fun00005 }
- 157:
-                            sizing = _closure3_slot3;
-                            sizing = sizing.length;
-                            sizing = zuuluu === sizing;
-                            if(sizing) { _fun00006_ip = 225; continue _fun00005 }
- 173:
-                            result = _closure1_slot1;
-                            output = _closure1_slot3;
-                            output = output[report];
-                            echoed = result.bind(tangon)(output);
-                            result = _closure3_slot3;
-                            output = result.toLowerCase;
-                            result = output.bind(result)();
-                            update = kiloes.username;
-                            output = update.toLowerCase;
-                            output = output.bind(update)();
-                            sizing = echoed.bind(tangon)(result, output);
- 225:
-                            backup = sizing;
- 228:
-                            if(!backup) { _fun00006_ip = 75; continue _fun00005 }
- 234:
-                            backup = michal.push;
-                            backup = backup.bind(michal)(kiloes);
-                            _fun00006_ip = 75; continue _fun00005;
+                            output = _closure1_slot1;
+                            sizing = _closure1_slot3;
+                            sizing = sizing[tangon];
+                            result = output.bind(zuuluu)(sizing);
+                            output = _closure3_slot3;
+                            sizing = output.toLowerCase;
+                            output = sizing.bind(output)();
+                            echoed = backup.username;
+                            sizing = echoed.toLowerCase;
+                            sizing = sizing.bind(echoed)();
+                            kiloes = result.bind(zuuluu)(output, sizing);
+ 206:
+                            foxtra = kiloes;
+ 209:
+                            if(!foxtra) { _fun00006_ip = 73; continue _fun00005 }
+ 215:
+                            foxtra = michal.push;
+                            foxtra = foxtra.bind(michal)(backup);
+                            _fun00006_ip = 73; continue _fun00005;
                         }
- 249:
+ 230:
                         zuuluu = michal.sort;
                         entity = function(argFoo, argBar) {
                             entity = argFoo;
@@ -348,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal[0] = zuuluu;
                         entity['sections'] = michal;
                         return entity;
- 296:
+ 277:
                         entity = _closure1_slot15;
                         return entity;
                     }

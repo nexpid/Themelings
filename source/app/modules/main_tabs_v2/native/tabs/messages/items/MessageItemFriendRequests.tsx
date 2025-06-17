@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[2] = michal;
             zuuluu = function() {
                 tangon = _closure1_slot6;
-                zuuluu = tangon.getRelationships;
+                zuuluu = tangon.getMutableRelationships;
                 report = zuuluu.bind(tangon)();
                 oscard = _closure1_slot0;
                 tangon = _closure1_slot2;

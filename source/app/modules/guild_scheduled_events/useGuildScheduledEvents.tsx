@@ -741,10 +741,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = null;
                 report = entity == tangon;
                 entity = undefined;
-                if(report) { _fun00020_ip = 85; continue _fun00019 }
- 80:
+                if(report) { _fun00020_ip = 84; continue _fun00019 }
+ 79:
                 entity = tangon.channel_id;
- 85:
+ 84:
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             }

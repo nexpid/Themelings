@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.bind(michal)(verify);
             michal = golfie.length;
             entity = entity.length;
-            if(!(michal === entity)) { _fun00002_ip = 211; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 214; continue _fun00001 }
  57:
             entity = golfie.length;
             oscard = 0;
@@ -28,24 +28,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = 2;
             zuuluu = undefined;
             michal = null;
-            if(!entity) { _fun00002_ip = 195; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 198; continue _fun00001 }
  81:
             yankee = golfie[oscard];
             entity = option.Number;
             entity = entity.bind(zuuluu)(yankee);
             yankee = offset[entity];
             entity = verify[entity];
-            if(!(michal != entity)) { _fun00002_ip = 207; continue _fun00001 }
+            if(!(michal != entity)) { _fun00002_ip = 210; continue _fun00001 }
  108:
-            if(!(michal != yankee)) { _fun00002_ip = 207; continue _fun00001 }
+            if(!(michal != yankee)) { _fun00002_ip = 210; continue _fun00001 }
  112:
             romeon = entity.category;
-            if(!(michal != romeon)) { _fun00002_ip = 203; continue _fun00001 }
- 121:
+            if(!(michal != romeon)) { _fun00002_ip = 206; continue _fun00001 }
+ 122:
             foxtra = yankee.category;
             romeon = entity.category;
-            if(!(foxtra === romeon)) { _fun00002_ip = 199; continue _fun00001 }
- 135:
+            if(!(foxtra === romeon)) { _fun00002_ip = 202; continue _fun00001 }
+ 138:
             foxtra = _closure1_slot0;
             romeon = _closure1_slot1;
             romeon = romeon[tangon];
@@ -54,27 +54,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = yankee.activeVoiceChannels;
             entity = entity.activeVoiceChannels;
             entity = romeon.bind(foxtra)(yankee, entity);
-            if(entity) { _fun00002_ip = 183; continue _fun00001 }
- 179:
+            if(entity) { _fun00002_ip = 186; continue _fun00001 }
+ 182:
             entity = false;
             return entity;
- 183:
+ 186:
             oscard = oscard + 1;
             entity = golfie.length;
             if(oscard < entity) { _fun00002_ip = 81; continue _fun00001 }
- 195:
+ 198:
             entity = true;
             return entity;
- 199:
+ 202:
             entity = false;
             return entity;
- 203:
+ 206:
             entity = false;
             return entity;
- 207:
+ 210:
             entity = false;
             return entity;
- 211:
+ 214:
             entity = false;
             return entity;
         }
@@ -151,13 +151,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = 0;
                 tangon = undefined;
                 zuuluu = undefined;
-                if(!michal) { _fun00004_ip = 375; continue _fun00003 }
+                if(!michal) { _fun00004_ip = 377; continue _fun00003 }
  67:
                 michal = _closure2_slot1;
                 michal = michal[report];
                 sizing = tangon;
                 kiloes = zuuluu;
-                if(!(yankee !== michal)) { _fun00004_ip = 350; continue _fun00003 }
+                if(!(yankee !== michal)) { _fun00004_ip = 352; continue _fun00003 }
  88:
                 output = _closure1_slot0;
                 michal = _closure1_slot1;
@@ -175,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.SECTION_INDEX_FIRST_NAMED_CATEGORY;
                 sizing = tangon;
                 kiloes = zuuluu;
-                if(!(!(report < michal))) { _fun00004_ip = 350; continue _fun00003 }
+                if(!(!(report < michal))) { _fun00004_ip = 352; continue _fun00003 }
  160:
                 output = _closure1_slot0;
                 michal = _closure1_slot1;
@@ -188,14 +188,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.canHaveVoiceSummary;
                 sizing = tangon;
                 kiloes = zuuluu;
-                if(!michal) { _fun00004_ip = 350; continue _fun00003 }
+                if(!michal) { _fun00004_ip = 352; continue _fun00003 }
  216:
                 output = _closure2_slot2;
                 michal = output.getNamedCategoryFromSection;
                 output = michal.bind(output)(report);
                 kiloes = zuuluu;
                 sizing = output;
-                if(!(option != sizing)) { _fun00004_ip = 350; continue _fun00003 }
+                if(!(option != sizing)) { _fun00004_ip = 352; continue _fun00003 }
  241:
                 result = _closure1_slot0;
                 michal = _closure1_slot1;
@@ -216,22 +216,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 result = michal.length;
                 sizing = output;
                 kiloes = michal;
-                if(!(yankee !== result)) { _fun00004_ip = 350; continue _fun00003 }
- 329:
+                if(!(yankee !== result)) { _fun00004_ip = 352; continue _fun00003 }
+ 330:
                 result = {};
                 result['category'] = output;
                 result['activeVoiceChannels'] = michal;
                 entity[report] = result;
                 sizing = output;
                 kiloes = michal;
- 350:
+ 352:
                 report = report + 1;
                 michal = _closure2_slot1;
                 michal = michal.length;
                 tangon = sizing;
                 zuuluu = kiloes;
                 if(report < michal) { _fun00004_ip = 67; continue _fun00003 }
- 375:
+ 377:
                 return entity;
             }
         };

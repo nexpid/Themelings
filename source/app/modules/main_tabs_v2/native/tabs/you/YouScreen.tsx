@@ -113,8 +113,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.ACTION_SHEET_GRADIENT_BG;
             variable36 = backup.bind(output)(verify, option);
             variable40 = null;
-            if(!(variable40 != offset)) { _fun00002_ip = 530; continue _fun00001 }
- 460:
+            if(!(variable40 != offset)) { _fun00002_ip = 529; continue _fun00001 }
+ 459:
             result = _closure1_slot0;
             update = _closure1_slot2;
             verify = 26;
@@ -127,13 +127,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = update.calculateOverlayedColor;
             ctrled = variable40 == source;
             verify = undefined;
-            if(ctrled) { _fun00002_ip = 519; continue _fun00001 }
- 513:
+            if(ctrled) { _fun00002_ip = 518; continue _fun00001 }
+ 512:
             verify = source.overlay;
- 519:
+ 518:
             verify = result.bind(update)(offset, verify);
             variable36 = backup.bind(output)(verify);
- 530:
+ 529:
             backup = _closure1_slot4;
             verify = backup.useRef;
             vacuum = verify.bind(backup)(variable40);
@@ -522,24 +522,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = cntext.GifAutoPlay;
             cntext = target.getSetting;
             variable47 = cntext.bind(target)();
-            if(variable47) { _fun00002_ip = 1480; continue _fun00001 }
- 1477:
+            if(variable47) { _fun00002_ip = 1479; continue _fun00001 }
+ 1476:
             variable47 = update;
- 1480:
+ 1479:
             update = variable40 == romeon;
             whisks = undefined;
-            if(update) { _fun00002_ip = 1511; continue _fun00001 }
- 1489:
+            if(update) { _fun00002_ip = 1510; continue _fun00001 }
+ 1488:
             cntext = romeon.getBannerURL;
             update = {};
             update['canAnimate'] = variable47;
             update['size'] = backup;
             whisks = cntext.bind(romeon)(update);
- 1511:
+ 1510:
             update = variable40 != whisks;
             variable50 = null;
-            if(!update) { _fun00002_ip = 1551; continue _fun00001 }
- 1520:
+            if(!update) { _fun00002_ip = 1550; continue _fun00001 }
+ 1519:
             cntext = _closure1_slot0;
             target = _closure1_slot2;
             update = 31;
@@ -547,7 +547,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext.bind(tangon)(update);
             update = cntext.makeSource;
             variable50 = update.bind(cntext)(whisks);
- 1551:
+ 1550:
             cntext = _closure1_slot0;
             target = _closure1_slot2;
             update = 31;
@@ -577,11 +577,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['displayProfile'] = romeon;
             variable49 = cntext.bind(target)(update);
             quebec = variable40 == romeon;
-            if(quebec) { _fun00002_ip = 1693; continue _fun00001 }
- 1684:
+            if(quebec) { _fun00002_ip = 1692; continue _fun00001 }
+ 1683:
             update = romeon.isLoaded;
             quebec = !update;
- 1693:
+ 1692:
             cntext = _closure1_slot1;
             target = _closure1_slot2;
             update = 34;
@@ -602,19 +602,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             variable53 = target.bind(sierra)(backup, update);
-            if(cntext) { _fun00002_ip = 1761; continue _fun00001 }
- 1754:
+            if(cntext) { _fun00002_ip = 1760; continue _fun00001 }
+ 1753:
             target = foxtra.top;
-            _fun00002_ip = 1765; continue _fun00001;
- 1761:
+            _fun00002_ip = 1764; continue _fun00001;
+ 1760:
             target = _closure1_slot14;
- 1765:
+ 1764:
             foxtra = variable40 == romeon;
             variable37 = undefined;
-            if(foxtra) { _fun00002_ip = 1780; continue _fun00001 }
- 1774:
+            if(foxtra) { _fun00002_ip = 1779; continue _fun00001 }
+ 1773:
             variable37 = romeon.profileEffectId;
- 1780:
+ 1779:
             update = variable40 != variable37;
             backup = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -642,10 +642,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot13 = variable38;
             foxtra = variable40 == variable38;
             backup = undefined;
-            if(foxtra) { _fun00002_ip = 1850; continue _fun00001 }
- 1844:
+            if(foxtra) { _fun00002_ip = 1849; continue _fun00001 }
+ 1843:
             backup = variable38.dismissibleContent;
- 1850:
+ 1849:
             ctrled = _closure1_slot0;
             sierra = _closure1_slot2;
             variable45 = 36;
@@ -753,14 +753,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = ctrled.bind(tangon)(foxtra);
             sierra = whisks.useSelectedVersionedDismissibleContent;
             ctrled = null;
-            if(!backup) { _fun00002_ip = 2104; continue _fun00001 }
- 2023:
+            if(!backup) { _fun00002_ip = 2103; continue _fun00001 }
+ 2022:
             foxtra = variable40 == variable38;
             variable42 = undefined;
-            if(foxtra) { _fun00002_ip = 2037; continue _fun00001 }
- 2032:
+            if(foxtra) { _fun00002_ip = 2036; continue _fun00001 }
+ 2031:
             variable42 = variable38.type;
- 2037:
+ 2036:
             variable48 = _closure1_slot0;
             variable52 = _closure1_slot2;
             foxtra = 37;
@@ -769,27 +769,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.CollectiblesMarketingType;
             foxtra = foxtra.COACHTIP;
             ctrled = null;
-            if(!(variable42 === foxtra)) { _fun00002_ip = 2104; continue _fun00001 }
- 2075:
+            if(!(variable42 === foxtra)) { _fun00002_ip = 2103; continue _fun00001 }
+ 2074:
             variable42 = _closure1_slot0;
             foxtra = _closure1_slot2;
             foxtra = foxtra[variable45];
             foxtra = variable42.bind(tangon)(foxtra);
             foxtra = foxtra.DismissibleContent;
             ctrled = foxtra.COLLECTIBLES_SHOP_ENTRY_MARKETING;
- 2104:
+ 2103:
             foxtra = variable40 == variable38;
             variable42 = undefined;
-            if(foxtra) { _fun00002_ip = 2119; continue _fun00001 }
- 2113:
+            if(foxtra) { _fun00002_ip = 2118; continue _fun00001 }
+ 2112:
             variable42 = variable38.version;
- 2119:
+ 2118:
             variable45 = variable40 != variable42;
             foxtra = 0;
-            if(!variable45) { _fun00002_ip = 2131; continue _fun00001 }
- 2128:
+            if(!variable45) { _fun00002_ip = 2130; continue _fun00001 }
+ 2127:
             foxtra = variable42;
- 2131:
+ 2130:
             ctrled = sierra.bind(whisks)(ctrled, foxtra);
             foxtra = _closure1_slot3;
             foxtra = foxtra.bind(tangon)(ctrled, status);
@@ -802,10 +802,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled[0] = variable57;
             variable42 = variable40 == variable38;
             whisks = undefined;
-            if(variable42) { _fun00002_ip = 2190; continue _fun00001 }
- 2185:
+            if(variable42) { _fun00002_ip = 2189; continue _fun00001 }
+ 2184:
             whisks = variable38.type;
- 2190:
+ 2189:
             ctrled[1] = whisks;
             ctrled[2] = limora;
             ctrled[3] = output;
@@ -856,10 +856,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = _closure1_slot4;
             output = ctrled.useRef;
             status = output.bind(ctrled)(variable40);
-            if(!backup) { _fun00002_ip = 2249; continue _fun00001 }
- 2246:
+            if(!backup) { _fun00002_ip = 2248; continue _fun00001 }
+ 2245:
             variable59 = foxtra;
- 2249:
+ 2248:
             _closure2_slot18 = variable59;
             ctrled = _closure1_slot4;
             output = ctrled.useCallback;
@@ -968,24 +968,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['openedAt'] = yankee;
             foxtra = variable40 == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 2588; continue _fun00001 }
- 2582:
+            if(foxtra) { _fun00002_ip = 2586; continue _fun00001 }
+ 2580:
             yankee = romeon.fetchStartedAt;
- 2588:
+ 2586:
             option['fetchStartedAt'] = yankee;
             foxtra = variable40 == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 2608; continue _fun00001 }
- 2602:
+            if(foxtra) { _fun00002_ip = 2606; continue _fun00001 }
+ 2600:
             yankee = romeon.fetchEndedAt;
- 2608:
+ 2606:
             option['fetchEndedAt'] = yankee;
             foxtra = variable40 == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 2628; continue _fun00001 }
- 2622:
+            if(foxtra) { _fun00002_ip = 2626; continue _fun00001 }
+ 2620:
             yankee = romeon.isLoaded;
- 2628:
+ 2626:
             option['isLoaded'] = yankee;
             foxtra = _closure1_slot24;
             romeon = _closure1_slot1;
@@ -999,12 +999,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot19;
             yankee['nativeID'] = backup;
             kiloes = variable42;
-            if(variable42) { _fun00002_ip = 2686; continue _fun00001 }
- 2683:
+            if(variable42) { _fun00002_ip = 2684; continue _fun00001 }
+ 2681:
             kiloes = variable38;
- 2686:
-            if(!kiloes) { _fun00002_ip = 2892; continue _fun00001 }
- 2692:
+ 2684:
+            if(!kiloes) { _fun00002_ip = 2890; continue _fun00001 }
+ 2690:
             output = _closure1_slot24;
             sizing = _closure1_slot0;
             backup = _closure1_slot2;
@@ -1013,8 +1013,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = backup.LayerScope;
             backup = {};
             backup['zIndex'] = papara;
-            if(!variable42) { _fun00002_ip = 2821; continue _fun00001 }
- 2729:
+            if(!variable42) { _fun00002_ip = 2819; continue _fun00001 }
+ 2727:
             variable48 = _closure1_slot23;
             variable45 = _closure1_slot1;
             variable60 = _closure1_slot2;
@@ -1035,11 +1035,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara['decorationAsset'] = variable57;
             papara['navigateToShop'] = limora;
             variable42 = variable48.bind(tangon)(variable45, papara);
- 2821:
+ 2819:
             papara = new Array(2);
             papara[0] = variable42;
-            if(!variable38) { _fun00002_ip = 2878; continue _fun00001 }
- 2832:
+            if(!variable38) { _fun00002_ip = 2876; continue _fun00001 }
+ 2830:
             variable48 = _closure1_slot23;
             variable45 = _closure1_slot1;
             variable42 = _closure1_slot2;
@@ -1051,11 +1051,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable63 = variable42;
             variable52 = copyDataProperties(variable63, variable62);
             variable38 = variable48.bind(tangon)(variable45, variable42);
- 2878:
+ 2876:
             papara[1] = variable38;
             backup['children'] = papara;
             kiloes = output.bind(tangon)(sizing, backup);
- 2892:
+ 2890:
             backup = new Array(2);
             backup[0] = kiloes;
             output = _closure1_slot24;
@@ -1086,8 +1086,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara[1] = record;
             result['style'] = papara;
             papara = cntext;
-            if(!papara) { _fun00002_ip = 3206; continue _fun00001 }
- 3019:
+            if(!papara) { _fun00002_ip = 3203; continue _fun00001 }
+ 3017:
             variable38 = _closure1_slot23;
             variable45 = _closure1_slot0;
             variable52 = _closure1_slot2;
@@ -1149,12 +1149,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42 = variable48.bind(tangon)(variable45, variable42);
             cntext['children'] = variable42;
             papara = variable38.bind(tangon)(variable36, cntext);
- 3206:
+ 3203:
             cntext = new Array(3);
             cntext[0] = papara;
             papara = !update;
-            if(update) { _fun00002_ip = 3287; continue _fun00001 }
- 3220:
+            if(update) { _fun00002_ip = 3284; continue _fun00001 }
+ 3217:
             variable42 = _closure1_slot23;
             variable38 = _closure1_slot1;
             variable45 = _closure1_slot2;
@@ -1170,7 +1170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36['settingsButtonRef'] = status;
             variable36['paddingTop'] = target;
             papara = variable42.bind(tangon)(variable38, variable36);
- 3287:
+ 3284:
             cntext[1] = papara;
             variable38 = _closure1_slot24;
             variable36 = _closure1_slot1;
@@ -1193,10 +1193,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42[2] = variable43;
             papara['style'] = variable42;
             variable40 = variable40 != variable50;
-            if(!variable40) { _fun00002_ip = 3744; continue _fun00001 }
+            if(!variable40) { _fun00002_ip = 3741; continue _fun00001 }
+ 3379:
+            if(variable39) { _fun00002_ip = 3439; continue _fun00001 }
  3382:
-            if(variable39) { _fun00002_ip = 3442; continue _fun00001 }
- 3385:
             variable43 = _closure1_slot23;
             variable42 = _closure1_slot1;
             variable45 = _closure1_slot2;
@@ -1210,8 +1210,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable39['accessibilityLabel'] = variable51;
             variable39['source'] = variable50;
             variable39 = variable43.bind(tangon)(variable42, variable39);
-            _fun00002_ip = 3741; continue _fun00001;
- 3442:
+            _fun00002_ip = 3738; continue _fun00001;
+ 3439:
             variable45 = _closure1_slot24;
             variable56 = _closure1_slot0;
             variable54 = _closure1_slot2;
@@ -1255,8 +1255,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable46 = new Array(2);
             variable46[0] = variable48;
             variable47 = !variable47;
-            if(!variable47) { _fun00002_ip = 3727; continue _fun00001 }
- 3602:
+            if(!variable47) { _fun00002_ip = 3724; continue _fun00001 }
+ 3599:
             variable50 = _closure1_slot23;
             variable54 = _closure1_slot0;
             variable51 = _closure1_slot2;
@@ -1285,13 +1285,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable51 = config.gifTagText;
             variable48['textStyle'] = variable51;
             variable47 = variable50.bind(tangon)(variable49, variable48);
- 3727:
+ 3724:
             variable46[1] = variable47;
             variable42['children'] = variable46;
             variable39 = variable45.bind(tangon)(variable43, variable42);
- 3741:
+ 3738:
             variable40 = variable39;
- 3744:
+ 3741:
             variable39 = new Array(2);
             variable39[0] = variable40;
             variable42 = _closure1_slot0;
@@ -1301,12 +1301,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42 = variable42.bind(tangon)(variable40);
             variable40 = variable42.isIOS;
             variable40 = variable40.bind(variable42)();
-            if(!variable40) { _fun00002_ip = 3788; continue _fun00001 }
- 3785:
+            if(!variable40) { _fun00002_ip = 3785; continue _fun00001 }
+ 3782:
             variable40 = variable41;
+ 3785:
+            if(!variable40) { _fun00002_ip = 3823; continue _fun00001 }
  3788:
-            if(!variable40) { _fun00002_ip = 3826; continue _fun00001 }
- 3791:
             variable43 = _closure1_slot23;
             variable42 = _closure1_slot25;
             variable41 = {};
@@ -1315,7 +1315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = variable44.absoluteFillObject;
             variable41['style'] = variable44;
             variable40 = variable43.bind(tangon)(variable42, variable41);
- 3826:
+ 3823:
             variable39[1] = variable40;
             papara['children'] = variable39;
             papara = variable38.bind(tangon)(variable36, papara);
@@ -1324,8 +1324,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum, result);
             result = new Array(3);
             result[0] = vacuum;
-            if(!update) { _fun00002_ip = 4041; continue _fun00001 }
- 3868:
+            if(!update) { _fun00002_ip = 4038; continue _fun00001 }
+ 3865:
             sequen = _closure1_slot24;
             cntext = _closure1_slot1;
             variable36 = _closure1_slot2;
@@ -1363,7 +1363,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[1] = record;
             source['children'] = config;
             update = sequen.bind(tangon)(vacuum, source);
- 4041:
+ 4038:
             result[1] = update;
             source = _closure1_slot23;
             update = _closure1_slot1;

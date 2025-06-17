@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             verify = 'overlay';
             golfie = undefined;
-            if(!(verify === offset)) { _fun00002_ip = 192; continue _fun00001 }
+            if(!(verify === offset)) { _fun00002_ip = 191; continue _fun00001 }
  161:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
@@ -92,7 +92,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(zuuluu)(option);
             option = option.colors;
             golfie = option.WHITE;
- 192:
+ 191:
             report['color'] = golfie;
             report = tangon.bind(zuuluu)(oscard, report);
             entity['children'] = report;

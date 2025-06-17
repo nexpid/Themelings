@@ -338,10 +338,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 zuuluu = entity == michal;
                 entity = undefined;
-                if(zuuluu) { _fun00006_ip = 51; continue _fun00005 }
- 45:
+                if(zuuluu) { _fun00006_ip = 50; continue _fun00005 }
+ 44:
                 entity = michal.planId;
- 51:
+ 50:
                 return entity;
             }
         };

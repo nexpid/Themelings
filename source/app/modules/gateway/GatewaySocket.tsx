@@ -3156,7 +3156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = entity.message;
                 entity = null;
                 report = entity != michal;
-                if(!report) { _fun00074_ip = 58; continue _fun00073 }
+                if(!report) { _fun00074_ip = 57; continue _fun00073 }
  25:
                 entity = tangon.error;
                 oscard = entity.message;
@@ -3165,7 +3165,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(oscard)(entity);
                 entity = 0;
                 report = michal >= entity;
- 58:
+ 57:
                 michal = zuuluu.resetSocketOnError;
                 entity = {};
                 option = entity;

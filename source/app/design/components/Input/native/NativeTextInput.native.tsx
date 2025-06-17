@@ -305,8 +305,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(oscard)();
             oscard = michal.theme;
             michal = entity.keyboardAppearance;
-            if(!(report == michal)) { _fun00004_ip = 185; continue _fun00003 }
- 129:
+            if(!(report == michal)) { _fun00004_ip = 186; continue _fun00003 }
+ 128:
             report = _closure1_slot0;
             option = _closure1_slot2;
             michal = 10;
@@ -316,14 +316,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(report)(oscard);
             report = _closure1_slot9;
             if(michal) { _fun00004_ip = 174; continue _fun00003 }
- 167:
+ 166:
             michal = report.LIGHT;
-            _fun00004_ip = 179; continue _fun00003;
+            _fun00004_ip = 180; continue _fun00003;
  174:
             michal = report.DARK;
- 179:
+ 180:
             entity['keyboardAppearance'] = michal;
- 185:
+ 186:
             oscard = _closure1_slot10;
             report = _closure1_slot5;
             michal = {};
@@ -346,10 +346,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = oscard.bind(tangon)(report, michal);
             report = entity.multiline;
             entity = michal;
-            if(report) { _fun00004_ip = 291; continue _fun00003 }
- 286:
+            if(report) { _fun00004_ip = 292; continue _fun00003 }
+ 287:
             entity = zuuluu.bind(tangon)(michal);
- 291:
+ 292:
             return entity;
         }
     };

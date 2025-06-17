@@ -190,65 +190,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                oscard = argFoo;
-                entity = undefined;
-                zuuluu = undefined;
+                michal = argFoo;
+                zuuluu = _closure2_slot2;
+                if(!zuuluu) { _fun00004_ip = 34; continue _fun00003 }
+ 13:
+                tangon = michal.nativeEvent;
+                tangon = tangon.data;
+                report = 'string';
+                tangon = typeof tangon;
+                zuuluu = report !== tangon;
+ 34:
+                if(!zuuluu) { _fun00004_ip = 84; continue _fun00003 }
+ 37:
+                michal = michal.nativeEvent;
+                zuuluu = michal.data;
+                michal = null;
+                report = michal == zuuluu;
+                michal = undefined;
                 tangon = undefined;
-                report = _closure2_slot2;
-                if(!report) { _fun00004_ip = 170; continue _fun00003 }
- 22:
-                report = oscard;
-                report = report.nativeEvent;
-                report = report.data;
-                golfie = 'string';
-                report = typeof report;
-                if(!(golfie !== report)) { _fun00004_ip = 96; continue _fun00003 }
- 46:
-                report = oscard;
-                report = report.nativeEvent;
-                report = report.data;
-                golfie = null;
-                option = golfie == report;
-                golfie = undefined;
-                if(option) { _fun00004_ip = 76; continue _fun00003 }
- 70:
-                golfie = report.eventType;
+                if(report) { _fun00004_ip = 66; continue _fun00003 }
+ 60:
+                tangon = zuuluu.eventType;
+ 66:
+                zuuluu = 'Verification.Result';
+                if(!(zuuluu === tangon)) { _fun00004_ip = 84; continue _fun00003 }
  76:
-                report = 'Verification.Result';
-                if(!(report === golfie)) { _fun00004_ip = 170; continue _fun00003 }
- 86:
-                report = _closure2_slot3;
-                report = report.bind(entity)();
-                _fun00004_ip = 170; continue _fun00003;
- 96:
-                report = null;
-                tangon = null;
- 100: // try_start_0
-                golfie = global;
-                option = golfie.JSON;
-                golfie = option.parse;
-                oscard = oscard.nativeEvent;
-                oscard = oscard.data;
-                tangon = golfie.bind(option)(oscard);
- 129: // try_end0
-                _fun00004_ip = 135; continue _fun00003;
- 131: // catch_target0
-                CatchBlockStart(arg_register=5);
-                tangon = null;
- 135:
-                zuuluu = tangon;
-                report = report == tangon;
-                tangon = undefined;
-                if(report) { _fun00004_ip = 152; continue _fun00003 }
- 147:
-                tangon = zuuluu.status;
- 152:
-                zuuluu = 'AGE_CHECK_COMPLETE';
-                if(!(zuuluu === tangon)) { _fun00004_ip = 170; continue _fun00003 }
- 162:
-                michal = _closure2_slot3;
-                michal = michal.bind(entity)();
- 170:
+                entity = _closure2_slot3;
+                entity = entity.bind(michal)();
+ 84:
+                entity = undefined;
                 return entity;
             }
         };

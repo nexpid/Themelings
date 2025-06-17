@@ -300,13 +300,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = golfie[romeon];
         output = foxtra.bind(entity)(output);
         output = output.spacing;
-        if(sizing) { _fun00002_ip = 425; continue _fun00001 }
- 418:
+        if(sizing) { _fun00002_ip = 424; continue _fun00001 }
+ 417:
         sizing = output.PX_16;
-        _fun00002_ip = 431; continue _fun00001;
- 425:
+        _fun00002_ip = 430; continue _fun00001;
+ 424:
         sizing = output.PX_12;
- 431:
+ 430:
         yankee['lineHeight'] = sizing;
         kiloes = kiloes.PRIMARY_BOLD;
         yankee['fontFamily'] = kiloes;
@@ -330,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = golfie[romeon];
         backup = foxtra.bind(entity)(backup);
         backup = backup.colors;
-        backup = backup.BUTTON_OUTLINE_DANGER_BORDER;
+        backup = backup.STATUS_DANGER;
         yankee['backgroundColor'] = backup;
         option['mention'] = yankee;
         yankee = {};

@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     tangon = option.bind(oscard)(report, tangon);
                     report = {};
-                    tangon = oscard.uploadFilesSimple;
+                    tangon = oscard.uploadFiles;
                     tangon = tangon.bind(oscard)(golfie);
                     SaveGenerator(address=391);
  389:

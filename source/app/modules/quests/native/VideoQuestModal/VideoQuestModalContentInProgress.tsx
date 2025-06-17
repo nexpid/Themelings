@@ -1343,8 +1343,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.PX_4;
             oscard['spacing'] = romeon;
             oscard['onLayout'] = verify;
-            if(!offset) { _fun00008_ip = 1673; continue _fun00007 }
- 1500:
+            if(!offset) { _fun00008_ip = 1672; continue _fun00007 }
+ 1499:
             sizing = _closure1_slot9;
             romeon = _closure1_slot5;
             verify = {};
@@ -1381,7 +1381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = sizing.bind(tangon)(echoed, result);
             verify['children'] = result;
             offset = sizing.bind(tangon)(romeon, verify);
- 1673:
+ 1672:
             verify = new Array(5);
             verify[0] = offset;
             sizing = _closure1_slot9;
@@ -1431,15 +1431,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = result.bind(tangon)(output);
             result = output.ClosedCaptionsOutlineIcon;
             output = {};
-            if(source) { _fun00008_ip = 1903; continue _fun00007 }
- 1890:
+            if(source) { _fun00008_ip = 1902; continue _fun00007 }
+ 1889:
             source = ctrled.iconDisabled;
             source = source.color;
-            _fun00008_ip = 1913; continue _fun00007;
- 1903:
+            _fun00008_ip = 1912; continue _fun00007;
+ 1902:
             ctrled = ctrled.icon;
             source = ctrled.color;
- 1913:
+ 1912:
             output['color'] = source;
             output = sizing.bind(tangon)(result, output);
             offset['children'] = output;

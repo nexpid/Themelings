@@ -316,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot14 = michal;
     michal = 'DeveloperOptionsStore';
     var _closure1_slot15 = michal;
-    verify = {'trace': false, 'canary': false, 'logGatewayEvents': false, 'logOverlayEvents': false, 'logAnalyticsEvents': false, 'sourceMapsEnabled': false, 'axeEnabled': false, 'cssDebuggingEnabled': false, 'layoutDebuggingEnabled': false, 'analyticsDebuggerEnabled': false, 'bugReporterEnabled': true, 'idleStatusIndicatorEnabled': false, 'onlyShowPreviewAppCollections': false, 'disableAppCollectionsCache': false, 'isStreamInfoOverlayEnabled': false, 'preventPopoutClose': false};
+    verify = {'trace': false, 'canary': false, 'logGatewayEvents': false, 'logOverlayEvents': false, 'logAnalyticsEvents': false, 'sourceMapsEnabled': false, 'axeEnabled': false, 'cssDebuggingEnabled': false, 'layoutDebuggingEnabled': false, 'analyticsDebuggerEnabled': false, 'bugReporterEnabled': true, 'idleStatusIndicatorEnabled': false, 'onlyShowPreviewAppCollections': false, 'disableAppCollectionsCache': false, 'isStreamInfoOverlayEnabled': false, 'preventPopoutClose': false, 'logKeyboardMismatches': false};
     var _closure1_slot16 = verify;
     option = {};
     echoed = option;
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(18);
+        entity = new Array(19);
         entity[0] = report;
         report = {};
         golfie = 'isTracingRequests';
@@ -564,6 +564,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report['get'] = golfie;
         entity[16] = report;
         report = {};
+        golfie = 'logKeyboardMismatches';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            entity = _closure1_slot17;
+            entity = entity.logKeyboardMismatches;
+            return entity;
+        };
+        report['get'] = golfie;
+        entity[17] = report;
+        report = {};
         golfie = 'getDebugOptionsHeaderValue';
         report['key'] = golfie;
         oscard = function() { // Original name: getDebugOptionsHeaderValue
@@ -598,7 +608,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[17] = report;
+        entity[18] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

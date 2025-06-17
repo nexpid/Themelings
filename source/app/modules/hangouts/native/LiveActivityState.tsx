@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report.id;
             oscard = zuuluu.bind(oscard)(option, michal);
             zuuluu = null;
-            if(!(zuuluu != oscard)) { _fun00006_ip = 224; continue _fun00005 }
+            if(!(zuuluu != oscard)) { _fun00006_ip = 223; continue _fun00005 }
  45:
             golfie = _closure1_slot3;
             michal = golfie.getEmbeddedActivitiesForChannel;
@@ -159,49 +159,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = golfie.bind(option)(report, tangon);
             report = zuuluu == tangon;
             golfie = undefined;
-            if(report) { _fun00006_ip = 120; continue _fun00005 }
- 115:
+            if(report) { _fun00006_ip = 119; continue _fun00005 }
+ 114:
             golfie = tangon.type;
- 120:
+ 119:
             entity = _closure1_slot14;
             report = entity.LISTENING;
             tangon = oscard.selfStream;
             entity = 'screenshare';
-            if(tangon) { _fun00006_ip = 222; continue _fun00005 }
- 143:
+            if(tangon) { _fun00006_ip = 221; continue _fun00005 }
+ 142:
             zuuluu = zuuluu != michal;
             michal = 'activity';
-            if(zuuluu) { _fun00006_ip = 219; continue _fun00005 }
- 154:
+            if(zuuluu) { _fun00006_ip = 218; continue _fun00005 }
+ 153:
             tangon = oscard.selfVideo;
             zuuluu = 'video';
-            if(tangon) { _fun00006_ip = 216; continue _fun00005 }
- 167:
+            if(tangon) { _fun00006_ip = 215; continue _fun00005 }
+ 166:
             tangon = 'music';
-            if(!(golfie !== report)) { _fun00006_ip = 213; continue _fun00005 }
- 177:
+            if(!(golfie !== report)) { _fun00006_ip = 212; continue _fun00005 }
+ 176:
             golfie = oscard.selfDeaf;
             report = 'deafened';
-            if(golfie) { _fun00006_ip = 210; continue _fun00005 }
- 190:
+            if(golfie) { _fun00006_ip = 209; continue _fun00005 }
+ 189:
             golfie = oscard.selfMute;
             oscard = 'default';
-            if(!golfie) { _fun00006_ip = 207; continue _fun00005 }
- 203:
+            if(!golfie) { _fun00006_ip = 206; continue _fun00005 }
+ 202:
             oscard = 'muted';
- 207:
+ 206:
             report = oscard;
- 210:
+ 209:
             tangon = report;
- 213:
+ 212:
             zuuluu = tangon;
- 216:
+ 215:
             michal = zuuluu;
- 219:
+ 218:
             entity = michal;
- 222:
+ 221:
             return entity;
- 224:
+ 223:
             entity = 'default';
             return entity;
         }

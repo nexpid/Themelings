@@ -1080,7 +1080,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = romeon.isNotNullish;
                 romeon = entity.bind(romeon)(backup);
                 entity = undefined;
-                if(!romeon) { _fun00032_ip = 471; continue _fun00031 }
+                if(!romeon) { _fun00032_ip = 469; continue _fun00031 }
  120:
                 kiloes = option.voiceChannelActivities;
                 backup = kiloes.find;
@@ -1107,8 +1107,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = backup.length;
                 oscard = oscard.length;
                 backup = backup < oscard;
-                if(!backup) { _fun00032_ip = 219; continue _fun00031 }
- 185:
+                if(!backup) { _fun00032_ip = 217; continue _fun00031 }
+ 183:
                 kiloes = _closure1_slot0;
                 oscard = _closure1_slot1;
                 oscard = oscard[yankee];
@@ -1116,191 +1116,191 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = sizing.isNotNullish;
                 oscard = option.voiceChannelId;
                 backup = kiloes.bind(sizing)(oscard);
- 219:
+ 217:
                 oscard = undefined;
-                if(!backup) { _fun00032_ip = 230; continue _fun00031 }
- 224:
+                if(!backup) { _fun00032_ip = 228; continue _fun00031 }
+ 222:
                 oscard = 'activity_launch';
- 230:
+ 228:
                 backup = offset === foxtra;
-                if(!backup) { _fun00032_ip = 265; continue _fun00031 }
- 237:
+                if(!backup) { _fun00032_ip = 263; continue _fun00031 }
+ 235:
                 sizing = _closure1_slot0;
                 kiloes = _closure1_slot1;
                 kiloes = kiloes[yankee];
                 sizing = sizing.bind(offset)(kiloes);
                 kiloes = sizing.isNotNullish;
                 backup = kiloes.bind(sizing)(romeon);
- 265:
-                if(!backup) { _fun00032_ip = 274; continue _fun00031 }
- 268:
+ 263:
+                if(!backup) { _fun00032_ip = 272; continue _fun00031 }
+ 266:
                 oscard = 'activity_end';
- 274:
+ 272:
                 backup = offset === romeon;
-                if(!backup) { _fun00032_ip = 309; continue _fun00031 }
- 281:
+                if(!backup) { _fun00032_ip = 307; continue _fun00031 }
+ 279:
                 sizing = _closure1_slot0;
                 kiloes = _closure1_slot1;
                 kiloes = kiloes[yankee];
                 sizing = sizing.bind(offset)(kiloes);
                 kiloes = sizing.isNotNullish;
                 backup = kiloes.bind(sizing)(foxtra);
- 309:
-                if(!backup) { _fun00032_ip = 330; continue _fun00031 }
- 312:
+ 307:
+                if(!backup) { _fun00032_ip = 328; continue _fun00031 }
+ 310:
                 kiloes = foxtra.userIds;
                 sizing = kiloes.size;
                 kiloes = 1;
                 backup = sizing > kiloes;
- 330:
-                if(!backup) { _fun00032_ip = 339; continue _fun00031 }
- 333:
+ 328:
+                if(!backup) { _fun00032_ip = 337; continue _fun00031 }
+ 331:
                 oscard = 'activity_user_join';
- 339:
+ 337:
                 kiloes = _closure1_slot0;
                 backup = _closure1_slot1;
                 backup = backup[yankee];
                 kiloes = kiloes.bind(offset)(backup);
                 backup = kiloes.isNotNullish;
                 backup = backup.bind(kiloes)(foxtra);
-                if(!backup) { _fun00032_ip = 398; continue _fun00031 }
- 370:
+                if(!backup) { _fun00032_ip = 396; continue _fun00031 }
+ 368:
                 sizing = _closure1_slot0;
                 kiloes = _closure1_slot1;
                 kiloes = kiloes[yankee];
                 sizing = sizing.bind(offset)(kiloes);
                 kiloes = sizing.isNotNullish;
                 backup = kiloes.bind(sizing)(romeon);
- 398:
+ 396:
                 entity = oscard;
-                if(!backup) { _fun00032_ip = 471; continue _fun00031 }
- 404:
+                if(!backup) { _fun00032_ip = 469; continue _fun00031 }
+ 402:
                 backup = foxtra.userIds;
                 kiloes = backup.size;
                 backup = romeon.userIds;
                 backup = backup.size;
-                if(!(kiloes > backup)) { _fun00032_ip = 436; continue _fun00031 }
- 430:
+                if(!(kiloes > backup)) { _fun00032_ip = 434; continue _fun00031 }
+ 428:
                 oscard = 'activity_user_join';
- 436:
+ 434:
                 foxtra = foxtra.userIds;
                 foxtra = foxtra.size;
                 romeon = romeon.userIds;
                 romeon = romeon.size;
-                if(!(foxtra < romeon)) { _fun00032_ip = 468; continue _fun00031 }
- 462:
+                if(!(foxtra < romeon)) { _fun00032_ip = 466; continue _fun00031 }
+ 460:
                 oscard = 'activity_user_left';
- 468:
+ 466:
                 entity = oscard;
- 471:
+ 469:
                 oscard = entity;
-                if(verify) { _fun00032_ip = 716; continue _fun00031 }
- 480:
+                if(verify) { _fun00032_ip = 714; continue _fun00031 }
+ 478:
                 verify = option.connectedChannelActivities;
                 verify = verify.length;
                 michal = michal.length;
                 michal = verify < michal;
-                if(!michal) { _fun00032_ip = 523; continue _fun00031 }
- 503:
+                if(!michal) { _fun00032_ip = 521; continue _fun00031 }
+ 501:
                 verify = option.channelActivities;
                 verify = verify.length;
                 tangon = tangon.length;
                 michal = verify < tangon;
- 523:
-                if(!michal) { _fun00032_ip = 532; continue _fun00031 }
- 526:
+ 521:
+                if(!michal) { _fun00032_ip = 530; continue _fun00031 }
+ 524:
                 entity = 'activity_launch';
- 532:
+ 530:
                 michal = option.userConnectedActivity;
                 tangon = null;
                 tangon = tangon == golfie;
-                if(!tangon) { _fun00032_ip = 575; continue _fun00031 }
- 547:
+                if(!tangon) { _fun00032_ip = 573; continue _fun00031 }
+ 545:
                 romeon = _closure1_slot0;
                 verify = _closure1_slot1;
                 verify = verify[yankee];
                 romeon = romeon.bind(offset)(verify);
                 verify = romeon.isNotNullish;
                 tangon = verify.bind(romeon)(michal);
- 575:
-                if(!tangon) { _fun00032_ip = 584; continue _fun00031 }
- 578:
+ 573:
+                if(!tangon) { _fun00032_ip = 582; continue _fun00031 }
+ 576:
                 entity = 'activity_end';
- 584:
+ 582:
                 verify = _closure1_slot0;
                 tangon = _closure1_slot1;
                 tangon = tangon[yankee];
                 verify = verify.bind(offset)(tangon);
                 tangon = verify.isNotNullish;
                 tangon = tangon.bind(verify)(golfie);
-                if(!tangon) { _fun00032_ip = 643; continue _fun00031 }
- 615:
+                if(!tangon) { _fun00032_ip = 641; continue _fun00031 }
+ 613:
                 verify = _closure1_slot0;
                 report = _closure1_slot1;
                 report = report[yankee];
                 verify = verify.bind(offset)(report);
                 report = verify.isNotNullish;
                 tangon = report.bind(verify)(michal);
- 643:
+ 641:
                 oscard = entity;
-                if(!tangon) { _fun00032_ip = 716; continue _fun00031 }
- 649:
+                if(!tangon) { _fun00032_ip = 714; continue _fun00031 }
+ 647:
                 tangon = golfie.userIds;
                 report = tangon.size;
                 tangon = michal.userIds;
                 tangon = tangon.size;
-                if(!(report > tangon)) { _fun00032_ip = 681; continue _fun00031 }
- 675:
+                if(!(report > tangon)) { _fun00032_ip = 679; continue _fun00031 }
+ 673:
                 entity = 'activity_user_join';
- 681:
+ 679:
                 tangon = golfie.userIds;
                 tangon = tangon.size;
                 michal = michal.userIds;
                 michal = michal.size;
-                if(!(tangon < michal)) { _fun00032_ip = 713; continue _fun00031 }
- 707:
+                if(!(tangon < michal)) { _fun00032_ip = 711; continue _fun00031 }
+ 705:
                 entity = 'activity_user_left';
- 713:
+ 711:
                 oscard = entity;
- 716:
+ 714:
                 verify = null;
                 michal = verify != oscard;
-                if(michal) { _fun00032_ip = 745; continue _fun00031 }
- 725:
+                if(michal) { _fun00032_ip = 743; continue _fun00031 }
+ 723:
                 entity = option.connectedActivityLocation;
                 entity = verify == entity;
-                if(!entity) { _fun00032_ip = 742; continue _fun00031 }
- 738:
+                if(!entity) { _fun00032_ip = 740; continue _fun00031 }
+ 736:
                 entity = verify == zuuluu;
- 742:
+ 740:
                 michal = entity;
- 745:
+ 743:
                 entity = oscard;
-                if(michal) { _fun00032_ip = 920; continue _fun00031 }
- 754:
+                if(michal) { _fun00032_ip = 918; continue _fun00031 }
+ 752:
                 michal = option.connectedActivityLocation;
-                if(!(verify == michal)) { _fun00032_ip = 780; continue _fun00031 }
- 764:
+                if(!(verify == michal)) { _fun00032_ip = 778; continue _fun00031 }
+ 762:
                 tangon = verify != zuuluu;
                 michal = 'activity_launch';
-                if(tangon) { _fun00032_ip = 917; continue _fun00031 }
- 780:
+                if(tangon) { _fun00032_ip = 915; continue _fun00031 }
+ 778:
                 tangon = option.connectedActivityLocation;
-                if(!(verify != tangon)) { _fun00032_ip = 803; continue _fun00031 }
- 790:
+                if(!(verify != tangon)) { _fun00032_ip = 801; continue _fun00031 }
+ 788:
                 tangon = verify == zuuluu;
                 zuuluu = 'activity_end';
-                if(tangon) { _fun00032_ip = 914; continue _fun00031 }
- 803:
+                if(tangon) { _fun00032_ip = 912; continue _fun00031 }
+ 801:
                 report = verify != golfie;
-                if(!report) { _fun00032_ip = 820; continue _fun00031 }
- 810:
+                if(!report) { _fun00032_ip = 818; continue _fun00031 }
+ 808:
                 tangon = option.userConnectedActivity;
                 report = verify != tangon;
- 820:
+ 818:
                 tangon = oscard;
-                if(!report) { _fun00032_ip = 911; continue _fun00031 }
- 826:
+                if(!report) { _fun00032_ip = 909; continue _fun00031 }
+ 824:
                 report = option.userConnectedActivity;
                 report = report.userIds;
                 verify = report.size;
@@ -1308,27 +1308,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = report.size;
                 verify = verify < report;
                 report = 'activity_user_join';
-                if(verify) { _fun00032_ip = 908; continue _fun00031 }
- 867:
+                if(verify) { _fun00032_ip = 906; continue _fun00031 }
+ 865:
                 option = option.userConnectedActivity;
                 option = option.userIds;
                 option = option.size;
                 golfie = golfie.userIds;
                 golfie = golfie.size;
-                if(!(option > golfie)) { _fun00032_ip = 905; continue _fun00031 }
- 899:
+                if(!(option > golfie)) { _fun00032_ip = 903; continue _fun00031 }
+ 897:
                 oscard = 'activity_user_leave';
- 905:
+ 903:
                 report = oscard;
- 908:
+ 906:
                 tangon = report;
- 911:
+ 909:
                 zuuluu = tangon;
- 914:
+ 912:
                 michal = zuuluu;
- 917:
+ 915:
                 entity = michal;
- 920:
+ 918:
                 return entity;
             }
         };

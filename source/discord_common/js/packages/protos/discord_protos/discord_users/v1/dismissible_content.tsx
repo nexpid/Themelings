@@ -1650,6 +1650,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET'] = michal;
     entity = 'GOOGLE_PLAY_PRICE_CHANGE_ACTION_SHEET';
     tangon[michal] = entity;
+    michal = 557;
+    tangon['REFERRAL_PROGRAM_NITRO_TAB_BADGE'] = michal;
+    entity = 'REFERRAL_PROGRAM_NITRO_TAB_BADGE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

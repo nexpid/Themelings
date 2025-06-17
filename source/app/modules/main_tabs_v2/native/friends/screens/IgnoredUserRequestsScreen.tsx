@@ -72,23 +72,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 8;
             report = verify[golfie];
             romeon = option.bind(tangon)(report);
-            yankee = romeon.useStateFromStores;
+            yankee = romeon.useStateFromStoresArray;
             report = _closure1_slot4;
             offset = new Array(1);
             offset[0] = report;
             report = function() {
-                michal = _closure1_slot4;
-                entity = michal.getRelationships;
-                entity = entity.bind(michal)();
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = 9;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                zuuluu = tangon.bind(michal)(zuuluu);
+                michal = zuuluu.getPendingRelationshipIds;
+                tangon = _closure1_slot4;
+                entity = tangon.getMutableRelationships;
+                entity = entity.bind(tangon)();
+                entity = michal.bind(zuuluu)(entity);
+                entity = entity.ignoredUserIds;
                 return entity;
             };
-            yankee = yankee.bind(romeon)(offset, report);
-            report = 9;
-            report = verify[report];
-            offset = option.bind(tangon)(report);
-            report = offset.getPendingRelationshipIds;
-            report = report.bind(offset)(yankee);
-            report = report.ignoredUserIds;
+            report = yankee.bind(romeon)(offset, report);
             var _closure2_slot1 = report;
             golfie = verify[golfie];
             offset = option.bind(tangon)(golfie);
@@ -186,12 +189,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(verify)(michal, golfie);
             option = report.length;
             michal = 0;
-            if(!(michal === option)) { _fun00002_ip = 309; continue _fun00001 }
- 297:
+            if(!(michal === option)) { _fun00002_ip = 281; continue _fun00001 }
+ 269:
             michal = zuuluu.goBack;
             michal = michal.bind(zuuluu)();
             return tangon;
- 309:
+ 281:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot0;
             option = _closure1_slot2;

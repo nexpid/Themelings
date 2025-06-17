@@ -257,109 +257,116 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = golfie[verify];
     yankee = offset.bind(entity)(verify);
     offset = yankee.anyScopeRegex;
-    verify = /^s\\/((?:.+?)[^\\]|.)\\/(.*)/;
+    verify = /^s\\/([^\\/\\]*(?:\\.[^\\/\\]*)*)\\/([^\\/\\]*(?:\\.[^\\/\\]*)*)(?:\\/([g]*))?$/;
     verify = offset.bind(yankee)(verify);
     option['match'] = verify;
     verify = function(argFoo, argBar) { // Original name: action
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            golfie = argFoo;
+            offset = argFoo;
             michal = argBar;
             entity = michal.isEdit;
             michal = michal.channel;
-            if(entity) { _fun00006_ip = 426; continue _fun00005 }
+            if(entity) { _fun00006_ip = 446; continue _fun00005 }
  25:
             report = _closure1_slot5;
             tangon = report.getLastEditableMessage;
             entity = michal.id;
             entity = tangon.bind(report)(entity);
             tangon = null;
-            if(!(tangon != entity)) { _fun00006_ip = 414; continue _fun00005 }
+            if(!(tangon != entity)) { _fun00006_ip = 434; continue _fun00005 }
  59:
             report = entity.id;
-            if(!(tangon != report)) { _fun00006_ip = 414; continue _fun00005 }
+            if(!(tangon != report)) { _fun00006_ip = 434; continue _fun00005 }
  71:
             report = global;
-            verify = report.Array;
-            option = verify.from;
-            offset = golfie.match;
+            option = report.Array;
+            golfie = option.from;
+            verify = offset.match;
             report = this;
             report = report.match;
             report = report.regex;
-            report = offset.bind(golfie)(report);
+            report = verify.bind(offset)(report);
             if(!(tangon == report)) { _fun00006_ip = 118; continue _fun00005 }
  114:
             report = new Array(0);
  118:
-            offset = option.bind(verify)(report);
-            verify = _closure1_slot3;
+            verify = golfie.bind(option)(report);
+            option = _closure1_slot3;
             report = undefined;
-            option = 3;
-            verify = verify.bind(report)(offset, option);
+            golfie = 4;
+            verify = option.bind(report)(verify, golfie);
+            golfie = 0;
+            option = verify[golfie];
             option = 1;
-            romeon = verify[option];
+            foxtra = verify[option];
             option = 2;
-            offset = verify[option];
-            yankee = romeon.replace;
-            verify = _closure1_slot9;
+            romeon = verify[option];
+            option = 3;
+            yankee = verify[option];
+            option = tangon == yankee;
+            verify = undefined;
+            if(option) { _fun00006_ip = 188; continue _fun00005 }
+ 174:
+            offset = yankee.split;
+            option = '';
+            verify = offset.bind(yankee)(option);
+ 188:
+            if(!(tangon == verify)) { _fun00006_ip = 196; continue _fun00005 }
+ 192:
+            verify = new Array(0);
+ 196:
+            yankee = foxtra.replace;
+            offset = _closure1_slot9;
             option = function(argFoo, argBar) {
                 entity = argBar;
                 return entity;
             };
-            yankee = yankee.bind(romeon)(verify, option);
-            option = offset.replace;
+            yankee = yankee.bind(foxtra)(offset, option);
+            option = romeon.replace;
             oscard = function(argFoo, argBar) {
                 entity = argBar;
                 return entity;
             };
-            foxtra = option.bind(offset)(verify, oscard);
-            option = foxtra.endsWith;
-            oscard = '/g';
-            option = option.bind(foxtra)(oscard);
-            offset = foxtra;
-            oscard = false;
-            if(!option) { _fun00006_ip = 238; continue _fun00005 }
- 217:
-            romeon = foxtra.slice;
-            verify = 0;
-            option = -2;
-            offset = romeon.bind(foxtra)(verify, option);
-            oscard = true;
- 238:
+            offset = option.bind(romeon)(offset, oscard);
+            option = verify.includes;
+            oscard = 'g';
+            oscard = option.bind(verify)(oscard);
             verify = entity.content;
-            if(oscard) { _fun00006_ip = 259; continue _fun00005 }
- 246:
+            if(oscard) { _fun00006_ip = 271; continue _fun00005 }
+ 258:
             oscard = verify.replace;
             oscard = oscard.bind(verify)(yankee, offset);
-            _fun00006_ip = 271; continue _fun00005;
- 259:
+            _fun00006_ip = 283; continue _fun00005;
+ 271:
             option = verify.replaceAll;
             oscard = option.bind(verify)(yankee, offset);
- 271:
-            if(!(tangon != oscard)) { _fun00006_ip = 283; continue _fun00005 }
- 275:
-            tangon = '';
-            if(!(tangon === oscard)) { _fun00006_ip = 344; continue _fun00005 }
  283:
+            if(!(tangon != oscard)) { _fun00006_ip = 305; continue _fun00005 }
+ 287:
+            tangon = oscard.trim;
+            option = tangon.bind(oscard)();
+            tangon = '';
+            if(!(tangon === option)) { _fun00006_ip = 364; continue _fun00005 }
+ 305:
             tangon = entity.attachments;
-            option = tangon.length;
-            tangon = 0;
-            if(!(tangon === option)) { _fun00006_ip = 344; continue _fun00005 }
- 300:
-            option = _closure1_slot1;
-            verify = _closure1_slot2;
+            tangon = tangon.length;
+            if(!(golfie === tangon)) { _fun00006_ip = 364; continue _fun00005 }
+ 320:
+            golfie = _closure1_slot1;
+            option = _closure1_slot2;
             tangon = 9;
-            tangon = verify[tangon];
-            offset = option.bind(report)(tangon);
-            verify = offset.deleteMessage;
-            option = michal.id;
+            tangon = option[tangon];
+            verify = golfie.bind(report)(tangon);
+            option = verify.deleteMessage;
+            golfie = michal.id;
             tangon = entity.id;
-            tangon = verify.bind(offset)(option, tangon);
-            _fun00006_ip = 402; continue _fun00005;
- 344:
+            tangon = option.bind(verify)(golfie, tangon);
+            _fun00006_ip = 422; continue _fun00005;
+ 364:
             tangon = entity.content;
-            if(!(golfie !== tangon)) { _fun00006_ip = 402; continue _fun00005 }
- 353:
+            if(!(oscard !== tangon)) { _fun00006_ip = 422; continue _fun00005 }
+ 373:
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
             zuuluu = 9;
@@ -371,17 +378,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['content'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal, entity);
- 402:
+ 422:
             entity = {};
             michal = '';
             entity['content'] = michal;
             return entity;
- 414:
+ 434:
             entity = {};
             michal = '';
             entity['content'] = michal;
             return entity;
- 426:
+ 446:
             entity = undefined;
             return entity;
         }

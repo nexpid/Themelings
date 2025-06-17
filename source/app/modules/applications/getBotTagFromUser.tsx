@@ -29,27 +29,19 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = argFoo;
             michal = entity.isSystemUser;
             michal = michal.bind(entity)();
-            if(michal) { _fun00002_ip = 70; continue _fun00001 }
+            if(michal) { _fun00002_ip = 42; continue _fun00001 }
  16:
-            michal = entity.isClyde;
-            michal = michal.bind(entity)();
-            if(michal) { _fun00002_ip = 55; continue _fun00001 }
- 29:
             michal = entity.bot;
             entity = undefined;
-            if(!michal) { _fun00002_ip = 83; continue _fun00001 }
- 40:
+            if(!michal) { _fun00002_ip = 55; continue _fun00001 }
+ 27:
             michal = _closure1_slot0;
             entity = michal.BOT;
-            _fun00002_ip = 83; continue _fun00001;
- 55:
-            michal = _closure1_slot0;
-            entity = michal.AI;
-            _fun00002_ip = 83; continue _fun00001;
- 70:
+            _fun00002_ip = 55; continue _fun00001;
+ 42:
             michal = _closure1_slot0;
             entity = michal.SYSTEM_DM;
- 83:
+ 55:
             return entity;
         }
     };

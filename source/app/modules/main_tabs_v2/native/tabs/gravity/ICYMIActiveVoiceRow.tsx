@@ -227,8 +227,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(entity);
                     entity = null;
                     tangon = entity == zuuluu;
-                    if(tangon) { _fun00008_ip = 74; continue _fun00007 }
- 36:
+                    if(tangon) { _fun00008_ip = 73; continue _fun00007 }
+ 35:
                     report = _closure1_slot12;
                     tangon = report.getStreamForUser;
                     zuuluu = zuuluu.user;
@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot0;
                     michal = michal.id;
                     entity = tangon.bind(report)(zuuluu, michal);
- 74:
+ 73:
                     return entity;
                 }
             };

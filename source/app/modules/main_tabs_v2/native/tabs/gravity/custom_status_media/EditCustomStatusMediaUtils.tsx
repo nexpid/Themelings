@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     result = zuuluu;
                     michal = new result[michal](output);
                     zuuluu = michal instanceof Object ? michal : zuuluu;
-                    michal = zuuluu.uploadFilesSimple;
+                    michal = zuuluu.uploadFiles;
                     michal = michal.bind(zuuluu)(oscard);
                     SaveGenerator(address=223);
  221:

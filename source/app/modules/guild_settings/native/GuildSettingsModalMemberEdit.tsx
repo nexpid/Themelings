@@ -740,13 +740,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         output = entity.colorString;
                         kiloes = null;
                         output = kiloes != output;
-                        if(!output) { _fun00014_ip = 150; continue _fun00013 }
- 135:
+                        if(!output) { _fun00014_ip = 149; continue _fun00013 }
+ 134:
                         output = {};
                         result = entity.colorString;
                         output['color'] = result;
                         kiloes = output;
- 150:
+ 149:
                         option['style'] = kiloes;
                         kiloes = entity.name;
                         option['text'] = kiloes;
@@ -1369,30 +1369,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure1_slot22;
                 entity = kiloes.context;
                 report = undefined;
-                config = michal.bind(report)(entity);
+                sierra = michal.bind(report)(entity);
                 entity = kiloes.state;
-                variable36 = entity.nick;
+                quebec = entity.nick;
                 entity = kiloes.props;
                 ctrled = entity.user;
-                sierra = entity.guild;
-                status = entity.guildRoles;
-                target = entity.member;
-                papara = entity.editRoles;
-                whisks = entity.nicknameError;
-                cntext = entity.currentUser;
-                record = entity.isEditing;
-                update = entity.canChangeNick;
-                echoed = entity.canManageRoles;
-                sizing = entity.canKick;
+                status = entity.guild;
+                target = entity.guildRoles;
+                papara = entity.member;
+                cntext = entity.editRoles;
+                limora = entity.nicknameError;
+                record = entity.currentUser;
+                config = entity.isEditing;
+                echoed = entity.canChangeNick;
+                result = entity.canManageRoles;
+                backup = entity.canKick;
                 option = entity.canBan;
-                output = entity.canDisableCommunication;
+                sizing = entity.canDisableCommunication;
                 entity = null;
-                if(!(entity != target)) { _fun00028_ip = 1772; continue _fun00027 }
+                if(!(entity != papara)) { _fun00028_ip = 1753; continue _fun00027 }
  123:
                 tangon = _closure1_slot20;
                 zuuluu = _closure1_slot10;
                 michal = {};
-                oscard = config.rowLabel;
+                oscard = sierra.rowLabel;
                 michal['style'] = oscard;
                 verify = _closure1_slot19;
                 golfie = _closure1_slot0;
@@ -1433,8 +1433,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard[1] = golfie;
                 michal['children'] = oscard;
                 sequen = tangon.bind(report)(zuuluu, michal);
-                michal = entity != target;
-                result = null;
+                michal = entity != papara;
+                output = null;
                 if(!michal) { _fun00028_ip = 596; continue _fun00027 }
  311:
                 zuuluu = _closure1_slot0;
@@ -1443,42 +1443,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon[michal];
                 zuuluu = zuuluu.bind(report)(michal);
                 michal = zuuluu.isMemberCommunicationDisabled;
-                michal = michal.bind(zuuluu)(target);
+                michal = michal.bind(zuuluu)(papara);
                 oscard = _closure1_slot19;
                 romeon = _closure1_slot0;
-                limora = _closure1_slot3;
+                whisks = _closure1_slot3;
                 zuuluu = 18;
-                zuuluu = limora[zuuluu];
+                zuuluu = whisks[zuuluu];
                 zuuluu = romeon.bind(report)(zuuluu);
                 tangon = zuuluu.FormSection;
                 zuuluu = {};
                 offset = _closure1_slot19;
                 golfie = 30;
-                golfie = limora[golfie];
+                golfie = whisks[golfie];
                 golfie = romeon.bind(report)(golfie);
                 verify = golfie.TableRow;
                 golfie = {};
                 yankee = 'danger';
                 golfie['variant'] = yankee;
                 yankee = 19;
-                foxtra = limora[yankee];
+                foxtra = whisks[yankee];
                 foxtra = romeon.bind(report)(foxtra);
-                backup = foxtra.intl;
-                foxtra = backup.formatToPlainString;
-                yankee = limora[yankee];
+                update = foxtra.intl;
+                foxtra = update.formatToPlainString;
+                yankee = whisks[yankee];
                 yankee = romeon.bind(report)(yankee);
                 yankee = yankee.t;
                 if(michal) { _fun00028_ip = 519; continue _fun00027 }
  445:
                 romeon = yankee.FN7NIS;
                 michal = {};
-                quebec = _closure1_slot1;
-                equals = limora[vacuum];
-                quebec = quebec.bind(report)(equals);
-                equals = quebec.getName;
-                equals = equals.bind(quebec)(ctrled);
+                variable36 = _closure1_slot1;
+                equals = whisks[vacuum];
+                variable36 = variable36.bind(report)(equals);
+                equals = variable36.getName;
+                equals = equals.bind(variable36)(ctrled);
                 michal['user'] = equals;
-                michal = foxtra.bind(backup)(romeon, michal);
+                michal = foxtra.bind(update)(romeon, michal);
                 golfie['label'] = michal;
                 michal = kiloes.handleSetCommunicationDisabled;
                 golfie['onPress'] = michal;
@@ -1490,12 +1490,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = yankee.RuL6o6;
                 yankee = {};
                 equals = _closure1_slot1;
-                limora = limora[vacuum];
-                equals = equals.bind(report)(limora);
-                limora = equals.getName;
-                limora = limora.bind(equals)(ctrled);
-                yankee['user'] = limora;
-                yankee = foxtra.bind(backup)(romeon, yankee);
+                whisks = whisks[vacuum];
+                equals = equals.bind(report)(whisks);
+                whisks = equals.getName;
+                whisks = whisks.bind(equals)(ctrled);
+                yankee['user'] = whisks;
+                yankee = foxtra.bind(update)(romeon, yankee);
                 golfie['label'] = yankee;
                 yankee = kiloes.handleClearCommunicationDisabled;
                 golfie['onPress'] = yankee;
@@ -1503,15 +1503,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['children'] = golfie;
                 michal = oscard.bind(report)(tangon, zuuluu);
  593:
-                result = michal;
+                output = michal;
  596:
                 zuuluu = ctrled.id;
-                michal = sierra.ownerId;
+                michal = status.ownerId;
                 michal = zuuluu !== michal;
                 if(!michal) { _fun00028_ip = 625; continue _fun00027 }
  614:
-                zuuluu = sierra.isOwnerWithRequiredMfaLevel;
-                michal = zuuluu.bind(sierra)(cntext);
+                zuuluu = status.isOwnerWithRequiredMfaLevel;
+                michal = zuuluu.bind(status)(record);
  625:
                 if(!michal) { _fun00028_ip = 637; continue _fun00027 }
  628:
@@ -1522,28 +1522,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 if(!michal) { _fun00028_ip = 786; continue _fun00027 }
  645:
                 tangon = _closure1_slot19;
-                backup = _closure1_slot0;
-                limora = _closure1_slot3;
+                update = _closure1_slot0;
+                whisks = _closure1_slot3;
                 michal = 18;
-                michal = limora[michal];
-                michal = backup.bind(report)(michal);
+                michal = whisks[michal];
+                michal = update.bind(report)(michal);
                 zuuluu = michal.FormSection;
                 michal = {};
                 offset = _closure1_slot19;
                 oscard = 30;
-                oscard = limora[oscard];
-                oscard = backup.bind(report)(oscard);
+                oscard = whisks[oscard];
+                oscard = update.bind(report)(oscard);
                 verify = oscard.TableRow;
                 oscard = {};
                 yankee = 'danger';
                 oscard['variant'] = yankee;
                 yankee = 19;
-                romeon = limora[yankee];
-                romeon = backup.bind(report)(romeon);
+                romeon = whisks[yankee];
+                romeon = update.bind(report)(romeon);
                 foxtra = romeon.intl;
                 romeon = foxtra.string;
-                yankee = limora[yankee];
-                yankee = backup.bind(report)(yankee);
+                yankee = whisks[yankee];
+                yankee = update.bind(report)(yankee);
                 yankee = yankee.t;
                 yankee = yankee.Z5s7PD;
                 yankee = romeon.bind(foxtra)(yankee);
@@ -1574,184 +1574,178 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = foxtra.bind(report)(oscard);
                 offset = oscard.FormSection;
                 oscard = {};
-                backup = _closure1_slot19;
+                update = _closure1_slot19;
                 romeon = variable37[verify];
                 romeon = foxtra.bind(report)(romeon);
                 foxtra = romeon.FormRow;
                 romeon = {};
-                quebec = _closure1_slot19;
+                variable36 = _closure1_slot19;
                 equals = _closure1_slot1;
-                limora = 31;
-                limora = variable37[limora];
-                equals = equals.bind(report)(limora);
-                limora = {};
-                variable37 = config.avatar;
-                limora['style'] = variable37;
-                limora['user'] = ctrled;
-                variable37 = sierra.id;
-                limora['guildId'] = variable37;
-                limora = quebec.bind(report)(equals, limora);
-                romeon['leading'] = limora;
-                config = config.userInfo;
-                romeon['DEPRECATED_style'] = config;
+                whisks = 31;
+                whisks = variable37[whisks];
+                equals = equals.bind(report)(whisks);
+                whisks = {};
+                variable37 = sierra.avatar;
+                whisks['style'] = variable37;
+                whisks['user'] = ctrled;
+                variable37 = status.id;
+                whisks['guildId'] = variable37;
+                whisks = variable36.bind(report)(equals, whisks);
+                romeon['leading'] = whisks;
+                sierra = sierra.userInfo;
+                romeon['DEPRECATED_style'] = sierra;
                 romeon['label'] = sequen;
-                romeon = backup.bind(report)(foxtra, romeon);
+                romeon = update.bind(report)(foxtra, romeon);
                 oscard['children'] = romeon;
                 offset = yankee.bind(report)(offset, oscard);
                 oscard = new Array(4);
                 oscard[0] = offset;
-                offset = ctrled.isClyde;
-                offset = offset.bind(ctrled)();
-                offset = !offset;
-                if(!offset) { _fun00028_ip = 1571; continue _fun00027 }
- 1003:
-                foxtra = _closure1_slot20;
-                romeon = _closure1_slot21;
-                yankee = {};
-                if(update) { _fun00028_ip = 1030; continue _fun00027 }
- 1016:
-                sequen = cntext.id;
-                backup = ctrled.id;
-                update = sequen === backup;
- 1030:
-                if(!update) { _fun00028_ip = 1271; continue _fun00027 }
- 1036:
-                config = _closure1_slot19;
+                romeon = _closure1_slot20;
+                yankee = _closure1_slot21;
+                offset = {};
+                if(echoed) { _fun00028_ip = 1011; continue _fun00027 }
+ 997:
+                update = record.id;
+                foxtra = ctrled.id;
+                echoed = update === foxtra;
+ 1011:
+                if(!echoed) { _fun00028_ip = 1252; continue _fun00027 }
+ 1017:
+                sequen = _closure1_slot19;
+                variable36 = _closure1_slot0;
+                sierra = _closure1_slot3;
+                foxtra = sierra[verify];
+                foxtra = variable36.bind(report)(foxtra);
+                update = foxtra.FormSection;
+                foxtra = {};
+                variable38 = 19;
+                whisks = sierra[variable38];
+                whisks = variable36.bind(report)(whisks);
+                equals = whisks.intl;
+                whisks = equals.string;
+                sierra = sierra[variable38];
+                sierra = variable36.bind(report)(sierra);
+                sierra = sierra.t;
+                sierra = sierra.621LJC;
+                sierra = whisks.bind(equals)(sierra);
+                foxtra['title'] = sierra;
+                whisks = entity != limora;
+                sierra = undefined;
+                if(!whisks) { _fun00028_ip = 1111; continue _fun00027 }
+ 1108:
+                sierra = limora;
+ 1111:
+                foxtra['error'] = sierra;
+                whisks = _closure1_slot19;
                 variable37 = _closure1_slot0;
-                limora = _closure1_slot3;
-                backup = limora[verify];
-                backup = variable37.bind(report)(backup);
-                sequen = backup.FormSection;
-                backup = {};
-                variable39 = 19;
-                equals = limora[variable39];
+                equals = _closure1_slot3;
+                sierra = equals[verify];
+                sierra = variable37.bind(report)(sierra);
+                limora = sierra.FormInput;
+                sierra = {};
+                sierra['value'] = quebec;
+                quebec = false;
+                sierra['showTopContainer'] = quebec;
+                quebec = equals[variable38];
+                quebec = variable37.bind(report)(quebec);
+                variable36 = quebec.intl;
+                quebec = variable36.string;
+                equals = equals[variable38];
                 equals = variable37.bind(report)(equals);
-                quebec = equals.intl;
-                equals = quebec.string;
-                limora = limora[variable39];
-                limora = variable37.bind(report)(limora);
-                limora = limora.t;
-                limora = limora.621LJC;
-                limora = equals.bind(quebec)(limora);
-                backup['title'] = limora;
-                equals = entity != whisks;
-                limora = undefined;
-                if(!equals) { _fun00028_ip = 1130; continue _fun00027 }
- 1127:
-                limora = whisks;
- 1130:
-                backup['error'] = limora;
-                equals = _closure1_slot19;
-                variable38 = _closure1_slot0;
-                quebec = _closure1_slot3;
-                limora = quebec[verify];
-                limora = variable38.bind(report)(limora);
-                whisks = limora.FormInput;
-                limora = {};
-                limora['value'] = variable36;
-                variable36 = false;
-                limora['showTopContainer'] = variable36;
-                variable36 = quebec[variable39];
-                variable36 = variable38.bind(report)(variable36);
-                variable37 = variable36.intl;
-                variable36 = variable37.string;
-                quebec = quebec[variable39];
-                quebec = variable38.bind(report)(quebec);
-                quebec = quebec.t;
-                quebec = quebec.h7UKXl;
-                quebec = variable36.bind(variable37)(quebec);
-                limora['placeholder'] = quebec;
-                quebec = kiloes.handleChangeNickname;
-                limora['onChange'] = quebec;
-                quebec = kiloes.handleSaveNickname;
-                limora['onEndEditing'] = quebec;
-                quebec = 32;
-                limora['maxLength'] = quebec;
-                limora = equals.bind(report)(whisks, limora);
-                backup['children'] = limora;
-                update = config.bind(report)(sequen, backup);
- 1271:
-                backup = new Array(4);
-                backup[0] = update;
-                if(!echoed) { _fun00028_ip = 1366; continue _fun00027 }
- 1282:
-                config = _closure1_slot19;
-                sequen = _closure1_slot23;
-                update = {};
-                update['guild'] = sierra;
-                update['guildRoles'] = status;
-                if(record) { _fun00028_ip = 1310; continue _fun00027 }
- 1304:
-                papara = target.roles;
- 1310:
-                if(!(entity == papara)) { _fun00028_ip = 1318; continue _fun00027 }
- 1314:
-                papara = new Array(0);
- 1318:
-                update['roles'] = papara;
-                cntext = cntext.id;
-                update['currentUserId'] = cntext;
-                update['isEditing'] = record;
-                record = kiloes.handleToggleRole;
-                update['onToggleRole'] = record;
-                record = kiloes.handleStartEditingRoles;
-                update['onStartEditing'] = record;
-                echoed = config.bind(report)(sequen, update);
- 1366:
-                backup[1] = echoed;
-                if(!output) { _fun00028_ip = 1376; continue _fun00027 }
- 1373:
-                output = result;
- 1376:
-                backup[2] = output;
-                if(!sizing) { _fun00028_ip = 1557; continue _fun00027 }
- 1386:
-                echoed = _closure1_slot19;
-                cntext = _closure1_slot0;
-                status = _closure1_slot3;
-                output = status[verify];
-                output = cntext.bind(report)(output);
-                result = output.FormSection;
-                output = {};
-                config = _closure1_slot19;
-                update = 30;
-                update = status[update];
-                update = cntext.bind(report)(update);
-                sequen = update.TableRow;
-                update = {};
-                record = 'danger';
-                update['variant'] = record;
-                record = 19;
-                papara = status[record];
-                papara = cntext.bind(report)(papara);
-                target = papara.intl;
-                papara = target.formatToPlainString;
-                record = status[record];
-                record = cntext.bind(report)(record);
-                record = record.t;
-                cntext = record.yOiJHB;
-                record = {};
-                sierra = _closure1_slot1;
-                status = status[vacuum];
-                sierra = sierra.bind(report)(status);
-                status = sierra.getName;
-                status = status.bind(sierra)(ctrled);
-                record['user'] = status;
-                record = papara.bind(target)(cntext, record);
-                update['label'] = record;
-                record = kiloes.handleKick;
-                update['onPress'] = record;
-                update = config.bind(report)(sequen, update);
-                output['children'] = update;
-                sizing = echoed.bind(report)(result, output);
- 1557:
-                backup[3] = sizing;
-                yankee['children'] = backup;
-                offset = foxtra.bind(report)(romeon, yankee);
- 1571:
+                equals = equals.t;
+                equals = equals.h7UKXl;
+                equals = quebec.bind(variable36)(equals);
+                sierra['placeholder'] = equals;
+                equals = kiloes.handleChangeNickname;
+                sierra['onChange'] = equals;
+                equals = kiloes.handleSaveNickname;
+                sierra['onEndEditing'] = equals;
+                equals = 32;
+                sierra['maxLength'] = equals;
+                sierra = whisks.bind(report)(limora, sierra);
+                foxtra['children'] = sierra;
+                echoed = sequen.bind(report)(update, foxtra);
+ 1252:
+                foxtra = new Array(4);
+                foxtra[0] = echoed;
+                if(!result) { _fun00028_ip = 1347; continue _fun00027 }
+ 1263:
+                sequen = _closure1_slot19;
+                update = _closure1_slot23;
+                echoed = {};
+                echoed['guild'] = status;
+                echoed['guildRoles'] = target;
+                if(config) { _fun00028_ip = 1291; continue _fun00027 }
+ 1285:
+                cntext = papara.roles;
+ 1291:
+                if(!(entity == cntext)) { _fun00028_ip = 1299; continue _fun00027 }
+ 1295:
+                cntext = new Array(0);
+ 1299:
+                echoed['roles'] = cntext;
+                record = record.id;
+                echoed['currentUserId'] = record;
+                echoed['isEditing'] = config;
+                config = kiloes.handleToggleRole;
+                echoed['onToggleRole'] = config;
+                config = kiloes.handleStartEditingRoles;
+                echoed['onStartEditing'] = config;
+                result = sequen.bind(report)(update, echoed);
+ 1347:
+                foxtra[1] = result;
+                if(!sizing) { _fun00028_ip = 1357; continue _fun00027 }
+ 1354:
+                sizing = output;
+ 1357:
+                foxtra[2] = sizing;
+                if(!backup) { _fun00028_ip = 1538; continue _fun00027 }
+ 1367:
+                result = _closure1_slot19;
+                record = _closure1_slot0;
+                target = _closure1_slot3;
+                sizing = target[verify];
+                sizing = record.bind(report)(sizing);
+                output = sizing.FormSection;
+                sizing = {};
+                sequen = _closure1_slot19;
+                echoed = 30;
+                echoed = target[echoed];
+                echoed = record.bind(report)(echoed);
+                update = echoed.TableRow;
+                echoed = {};
+                config = 'danger';
+                echoed['variant'] = config;
+                config = 19;
+                cntext = target[config];
+                cntext = record.bind(report)(cntext);
+                papara = cntext.intl;
+                cntext = papara.formatToPlainString;
+                config = target[config];
+                config = record.bind(report)(config);
+                config = config.t;
+                record = config.yOiJHB;
+                config = {};
+                status = _closure1_slot1;
+                target = target[vacuum];
+                status = status.bind(report)(target);
+                target = status.getName;
+                target = target.bind(status)(ctrled);
+                config['user'] = target;
+                config = cntext.bind(papara)(record, config);
+                echoed['label'] = config;
+                config = kiloes.handleKick;
+                echoed['onPress'] = config;
+                echoed = sequen.bind(report)(update, echoed);
+                sizing['children'] = echoed;
+                backup = result.bind(report)(output, sizing);
+ 1538:
+                foxtra[3] = backup;
+                offset['children'] = foxtra;
+                offset = romeon.bind(report)(yankee, offset);
                 oscard[1] = offset;
-                if(!option) { _fun00028_ip = 1752; continue _fun00027 }
- 1581:
+                if(!option) { _fun00028_ip = 1733; continue _fun00027 }
+ 1562:
                 yankee = _closure1_slot19;
                 output = _closure1_slot0;
                 update = _closure1_slot3;
@@ -1790,13 +1784,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = backup.bind(report)(foxtra, romeon);
                 verify['children'] = romeon;
                 option = yankee.bind(report)(offset, verify);
- 1752:
+ 1733:
                 oscard[2] = option;
                 oscard[3] = golfie;
                 michal['children'] = oscard;
                 michal = tangon.bind(report)(zuuluu, michal);
                 return michal;
- 1772:
+ 1753:
                 return entity;
             }
         };

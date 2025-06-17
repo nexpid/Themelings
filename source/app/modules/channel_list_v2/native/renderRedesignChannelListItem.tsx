@@ -287,31 +287,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = entity.item;
                 zuuluu = verify.kind;
                 entity = 'newPanelsListHeader';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 2085; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 2086; continue _fun00007 }
  26:
                 entity = 'liveChannelNotice';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1979; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1980; continue _fun00007 }
  37:
                 entity = 'mfaWarning';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1909; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1910; continue _fun00007 }
  50:
                 entity = 'guildProgress';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1825; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1826; continue _fun00007 }
  63:
                 entity = 'newMemberActions';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1730; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1731; continue _fun00007 }
  74:
                 entity = 'showAllVoiceChannelsButton';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1604; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1605; continue _fun00007 }
  87:
                 entity = 'sectionHeaderRecentlyVisited';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1497; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1498; continue _fun00007 }
  100:
                 entity = 'sectionHeaderFavorites';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1392; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1393; continue _fun00007 }
  113:
                 entity = 'sectionHeaderRecents';
-                if(!(entity !== zuuluu)) { _fun00008_ip = 1256; continue _fun00007 }
+                if(!(entity !== zuuluu)) { _fun00008_ip = 1257; continue _fun00007 }
  126:
                 entity = 'sectionHeaderCategory';
                 if(!(entity !== zuuluu)) { _fun00008_ip = 1182; continue _fun00007 }
@@ -603,7 +603,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['withMarginTop'] = report;
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
- 1256:
+ 1257:
                 entity = _closure2_slot0;
                 report = _closure1_slot21;
                 zuuluu = _closure1_slot0;
@@ -612,8 +612,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon[michal];
                 tangon = undefined;
                 michal = zuuluu.bind(tangon)(michal);
-                if(entity) { _fun00008_ip = 1349; continue _fun00007 }
- 1295:
+                if(entity) { _fun00008_ip = 1350; continue _fun00007 }
+ 1296:
                 zuuluu = michal.SuggestedCategory;
                 entity = {};
                 golfie = _closure2_slot1;
@@ -625,8 +625,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = !golfie;
                 entity['withMarginTop'] = golfie;
                 entity = report.bind(tangon)(zuuluu, entity);
-                _fun00008_ip = 1390; continue _fun00007;
- 1349:
+                _fun00008_ip = 1391; continue _fun00007;
+ 1350:
                 zuuluu = michal.RecentlyActiveCategory;
                 michal = {};
                 oscard = _closure2_slot1;
@@ -636,9 +636,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = !oscard;
                 michal['withMarginTop'] = oscard;
                 entity = report.bind(tangon)(zuuluu, michal);
- 1390:
+ 1391:
                 return entity;
- 1392:
+ 1393:
                 option = _closure1_slot0;
                 offset = _closure1_slot2;
                 entity = 20;
@@ -663,7 +663,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['withMarginTop'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
- 1497:
+ 1498:
                 option = _closure1_slot0;
                 offset = _closure1_slot2;
                 entity = 20;
@@ -688,7 +688,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['withMarginTop'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
- 1604:
+ 1605:
                 tangon = _closure1_slot21;
                 zuuluu = _closure1_slot4;
                 michal = {};
@@ -697,10 +697,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report['marginHorizontal'] = golfie;
                 option = verify.isLastShownChannelActive;
                 oscard = 8;
-                if(!option) { _fun00008_ip = 1642; continue _fun00007 }
- 1639:
+                if(!option) { _fun00008_ip = 1643; continue _fun00007 }
+ 1640:
                 oscard = golfie;
- 1642:
+ 1643:
                 report['marginTop'] = oscard;
                 michal['style'] = report;
                 golfie = _closure1_slot21;
@@ -722,7 +722,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['children'] = report;
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
- 1730:
+ 1731:
                 tangon = _closure1_slot21;
                 zuuluu = _closure1_slot4;
                 michal = {};
@@ -746,7 +746,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['children'] = report;
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
- 1825:
+ 1826:
                 tangon = _closure1_slot21;
                 zuuluu = _closure1_slot4;
                 michal = {};
@@ -768,7 +768,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['children'] = report;
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
- 1909:
+ 1910:
                 tangon = _closure1_slot21;
                 zuuluu = _closure1_slot4;
                 michal = {};
@@ -787,7 +787,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['children'] = report;
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
- 1979:
+ 1980:
                 tangon = _closure1_slot21;
                 michal = _closure1_slot1;
                 option = _closure1_slot2;
@@ -813,7 +813,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['guild'] = report;
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
- 2085:
+ 2086:
                 tangon = _closure1_slot21;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
@@ -2356,7 +2356,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  158:
             zuuluu = offset.getNamedCategoryFromSection;
             option = zuuluu.bind(offset)(option);
-            if(!(entity != option)) { _fun00026_ip = 240; continue _fun00025 }
+            if(!(entity != option)) { _fun00026_ip = 241; continue _fun00025 }
  173:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -2372,12 +2372,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu.length;
             tangon = 0;
             michal = null;
-            if(!(tangon !== report)) { _fun00026_ip = 238; continue _fun00025 }
- 235:
+            if(!(tangon !== report)) { _fun00026_ip = 239; continue _fun00025 }
+ 236:
             michal = zuuluu;
- 238:
+ 239:
             return michal;
- 240:
+ 241:
             return entity;
         }
     };

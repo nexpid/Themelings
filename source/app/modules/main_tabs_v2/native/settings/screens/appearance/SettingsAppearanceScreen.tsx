@@ -43,21 +43,21 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     var _closure1_slot7 = tangon;
     tangon = golfie.memo;
     michal = function() {
-        entity = function() { // Original name: useFontScalingSectionTitle
-            entity = _closure1_slot5;
-            oscard = undefined;
-            entity = entity.bind(oscard)();
-            var _closure3_slot0 = entity;
-            report = _closure1_slot0;
+        entity = function() { // Original name: useFontScalingData
+            zuuluu = _closure1_slot5;
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)();
+            var _closure3_slot0 = zuuluu;
+            oscard = _closure1_slot0;
             golfie = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = golfie[zuuluu];
-            report = report.bind(oscard)(zuuluu);
-            zuuluu = report.useNativeStackNavigation;
-            zuuluu = zuuluu.bind(report)();
-            var _closure3_slot1 = zuuluu;
+            report = 5;
+            report = golfie[report];
+            oscard = oscard.bind(entity)(report);
+            report = oscard.useNativeStackNavigation;
+            golfie = report.bind(oscard)();
+            var _closure3_slot1 = golfie;
             report = _closure1_slot2;
-            golfie = report.useEffect;
+            option = report.useEffect;
             oscard = function() {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -109,17 +109,17 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 }
             };
             tangon = new Array(0);
-            tangon = golfie.bind(report)(oscard, tangon);
+            tangon = option.bind(report)(oscard, tangon);
             oscard = report.useEffect;
             tangon = new Array(5);
-            tangon[0] = zuuluu;
-            zuuluu = entity.fontScale;
-            tangon[1] = zuuluu;
-            zuuluu = entity.isClassicChatFontScaleEnabled;
-            tangon[2] = zuuluu;
-            zuuluu = entity.persistedFontScale;
-            tangon[3] = zuuluu;
-            zuuluu = entity.persistedIsClassicChatFontScaleEnabled;
+            tangon[0] = golfie;
+            golfie = zuuluu.fontScale;
+            tangon[1] = golfie;
+            golfie = zuuluu.isClassicChatFontScaleEnabled;
+            tangon[2] = golfie;
+            golfie = zuuluu.persistedFontScale;
+            tangon[3] = golfie;
+            zuuluu = zuuluu.persistedIsClassicChatFontScaleEnabled;
             tangon[4] = zuuluu;
             zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -212,24 +212,13 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             };
             michal = new Array(0);
             michal = tangon.bind(report)(zuuluu, michal);
-            michal = entity.fontScale;
-            entity = 1;
-            michal = michal / entity;
-            entity = 100;
-            michal = michal * entity;
-            entity = '%';
-            entity = michal + entity;
             return entity;
         };
         tangon = undefined;
-        golfie = entity.bind(tangon)();
-        var _closure2_slot0 = golfie;
+        entity = entity.bind(tangon)();
         oscard = _closure1_slot2;
         report = oscard.useMemo;
-        zuuluu = new Array(1);
-        zuuluu[0] = golfie;
-        michal = function() {
-            romeon = _closure2_slot0;
+        zuuluu = function() {
             michal = {};
             option = _closure1_slot0;
             verify = _closure1_slot1;
@@ -257,15 +246,13 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             michal = {};
             report = verify[tangon];
             report = option.bind(golfie)(report);
-            yankee = report.intl;
-            offset = yankee.formatToPlainString;
+            offset = report.intl;
+            oscard = offset.string;
             report = verify[tangon];
             report = option.bind(golfie)(report);
             report = report.t;
-            oscard = report.zR3S9/;
-            report = {};
-            report['value'] = romeon;
-            report = offset.bind(yankee)(oscard, report);
+            report = report.i19n5O;
+            report = oscard.bind(offset)(report);
             michal['label'] = report;
             oscard = zuuluu.ANDROID_FONT_SCALE;
             report = new Array(2);
@@ -320,7 +307,8 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             entity[5] = michal;
             return entity;
         };
-        report = report.bind(oscard)(michal, zuuluu);
+        michal = new Array(0);
+        report = report.bind(oscard)(zuuluu, michal);
         zuuluu = _closure1_slot7;
         michal = _closure1_slot0;
         oscard = _closure1_slot1;

@@ -39,10 +39,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(michal) { _fun00002_ip = 114; continue _fun00001 }
  106:
             backup = entity.REDESIGN_BUTTON_SECONDARY_TEXT;
-            _fun00002_ip = 120; continue _fun00001;
+            _fun00002_ip = 119; continue _fun00001;
  114:
             backup = entity.WHITE;
- 120:
+ 119:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot3;
             entity = {};

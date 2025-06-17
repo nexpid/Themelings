@@ -31,10 +31,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.ROBLOX;
             oscard = zuuluu.bind(oscard)(michal);
             golfie = 'white';
-            if(!entity) { _fun00002_ip = 100; continue _fun00001 }
- 96:
+            if(!entity) { _fun00002_ip = 99; continue _fun00001 }
+ 95:
             golfie = 'black';
- 100:
+ 99:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
             michal = 26;
@@ -42,13 +42,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.makeSource;
             oscard = oscard.icon;
-            if(entity) { _fun00002_ip = 142; continue _fun00001 }
- 134:
+            if(entity) { _fun00002_ip = 141; continue _fun00001 }
+ 133:
             entity = oscard.lightPNG;
-            _fun00002_ip = 148; continue _fun00001;
- 142:
+            _fun00002_ip = 147; continue _fun00001;
+ 141:
             entity = oscard.darkPNG;
- 148:
+ 147:
             option = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot13;
             michal = _closure1_slot5;
@@ -97,10 +97,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.isThemeDark;
             entity = entity.bind(michal)(zuuluu);
             sizing = 'black';
-            if(!entity) { _fun00004_ip = 56; continue _fun00003 }
- 52:
+            if(!entity) { _fun00004_ip = 55; continue _fun00003 }
+ 51:
             sizing = 'white';
- 56:
+ 55:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot1;
             output = _closure1_slot2;
@@ -527,7 +527,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         config = source[config];
         config = record.bind(tangon)(config);
         config = config.colors;
-        config = config.BUTTON_FILLED_BRAND_TEXT;
+        config = config.WHITE;
         ctrled['color'] = config;
         ctrled = sequen.bind(tangon)(vacuum, ctrled);
         romeon['icon'] = ctrled;

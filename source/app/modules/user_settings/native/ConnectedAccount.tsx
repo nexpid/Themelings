@@ -2093,13 +2093,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = romeon.isThemeDark;
                 oscard = oscard.bind(romeon)(foxtra);
                 offset = offset.icon;
-                if(oscard) { _fun00032_ip = 204; continue _fun00031 }
- 196:
+                if(oscard) { _fun00032_ip = 203; continue _fun00031 }
+ 195:
                 oscard = offset.lightPNG;
-                _fun00032_ip = 210; continue _fun00031;
- 204:
+                _fun00032_ip = 209; continue _fun00031;
+ 203:
                 oscard = offset.darkPNG;
- 210:
+ 209:
                 oscard = golfie.bind(verify)(oscard);
                 entity['source'] = oscard;
                 entity['disableColor'] = report;

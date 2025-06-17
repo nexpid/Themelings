@@ -521,10 +521,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon['index'] = verify;
                             zuuluu = tangon.kind;
                             oscard = 'channel';
-                            if(!(oscard !== zuuluu)) { _fun00016_ip = 220; continue _fun00015 }
+                            if(!(oscard !== zuuluu)) { _fun00016_ip = 221; continue _fun00015 }
  37:
                             entity = 'thread';
-                            if(!(entity !== zuuluu)) { _fun00016_ip = 171; continue _fun00015 }
+                            if(!(entity !== zuuluu)) { _fun00016_ip = 172; continue _fun00015 }
  48:
                             entity = 'sectionHeaderCategory';
                             if(!(entity !== zuuluu)) { _fun00016_ip = 126; continue _fun00015 }
@@ -536,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             if(!(entity !== zuuluu)) { _fun00016_ip = 88; continue _fun00015 }
  78:
                             entity = tangon.kind;
-                            _fun00016_ip = 271; continue _fun00015;
+                            _fun00016_ip = 272; continue _fun00015;
  88:
                             option = tangon.kind;
                             zuuluu = global;
@@ -545,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = '';
                             zuuluu = '-';
                             entity = golfie.bind(report)(option, zuuluu, verify);
-                            _fun00016_ip = 271; continue _fun00015;
+                            _fun00016_ip = 272; continue _fun00015;
  126:
                             verify = tangon.kind;
                             zuuluu = tangon.category;
@@ -556,8 +556,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             report = '';
                             zuuluu = '-';
                             entity = golfie.bind(report)(verify, zuuluu, option);
-                            _fun00016_ip = 271; continue _fun00015;
- 171:
+                            _fun00016_ip = 272; continue _fun00015;
+ 172:
                             kiloes = tangon.kind;
                             foxtra = tangon.section;
                             yankee = tangon.threadId;
@@ -569,8 +569,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             backup = zuuluu;
                             romeon = zuuluu;
                             entity = sizing[golfie](kiloes, backup, foxtra, romeon, yankee, offset);
-                            _fun00016_ip = 271; continue _fun00015;
- 220:
+                            _fun00016_ip = 272; continue _fun00015;
+ 221:
                             kiloes = tangon.kind;
                             foxtra = tangon.section;
                             zuuluu = tangon.channel;
@@ -583,113 +583,113 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             backup = zuuluu;
                             romeon = zuuluu;
                             entity = sizing[golfie](kiloes, backup, foxtra, romeon, yankee, offset);
- 271:
+ 272:
                             tangon['itemKey'] = entity;
                             entity = tangon.kind;
                             zuuluu = 'sectionHeaderCategory';
                             entity = zuuluu === entity;
-                            if(entity) { _fun00016_ip = 310; continue _fun00015 }
- 295:
+                            if(entity) { _fun00016_ip = 311; continue _fun00015 }
+ 296:
                             golfie = tangon.kind;
                             report = 'sectionHeaderFavorites';
                             entity = report === golfie;
- 310:
-                            if(entity) { _fun00016_ip = 328; continue _fun00015 }
- 313:
+ 311:
+                            if(entity) { _fun00016_ip = 329; continue _fun00015 }
+ 314:
                             golfie = tangon.kind;
                             report = 'sectionHeaderRecents';
                             entity = report === golfie;
- 328:
-                            if(entity) { _fun00016_ip = 346; continue _fun00015 }
- 331:
+ 329:
+                            if(entity) { _fun00016_ip = 347; continue _fun00015 }
+ 332:
                             golfie = tangon.kind;
                             report = 'sectionHeaderRecentlyVisited';
                             entity = report === golfie;
- 346:
-                            if(entity) { _fun00016_ip = 416; continue _fun00015 }
- 349:
+ 347:
+                            if(entity) { _fun00016_ip = 417; continue _fun00015 }
+ 350:
                             report = tangon.kind;
                             report = oscard === report;
-                            if(!report) { _fun00016_ip = 388; continue _fun00015 }
- 361:
+                            if(!report) { _fun00016_ip = 389; continue _fun00015 }
+ 362:
                             oscard = tangon.channel;
                             golfie = oscard.type;
                             oscard = _closure1_slot14;
                             oscard = oscard.GUILD_CATEGORY;
                             report = golfie === oscard;
- 388:
-                            if(!report) { _fun00016_ip = 413; continue _fun00015 }
- 391:
+ 389:
+                            if(!report) { _fun00016_ip = 414; continue _fun00015 }
+ 392:
                             golfie = tangon.section;
                             oscard = _closure2_slot0;
                             oscard = oscard.voiceChannelsSectionNumber;
                             report = golfie === oscard;
- 413:
+ 414:
                             entity = report;
- 416:
-                            if(!entity) { _fun00016_ip = 528; continue _fun00015 }
- 419:
+ 417:
+                            if(!entity) { _fun00016_ip = 529; continue _fun00015 }
+ 420:
                             report = _closure3_slot0;
                             golfie = null;
                             verify = golfie == report;
                             oscard = undefined;
-                            if(verify) { _fun00016_ip = 439; continue _fun00015 }
- 434:
+                            if(verify) { _fun00016_ip = 440; continue _fun00015 }
+ 435:
                             oscard = report.kind;
- 439:
+ 440:
                             report = 'happeningNow';
                             report = report === oscard;
-                            if(report) { _fun00016_ip = 478; continue _fun00015 }
- 450:
+                            if(report) { _fun00016_ip = 479; continue _fun00015 }
+ 451:
                             oscard = _closure3_slot0;
                             verify = golfie == oscard;
                             option = undefined;
-                            if(verify) { _fun00016_ip = 468; continue _fun00015 }
- 463:
+                            if(verify) { _fun00016_ip = 469; continue _fun00015 }
+ 464:
                             option = oscard.kind;
- 468:
+ 469:
                             oscard = 'sectionFooterSeparator';
                             report = oscard === option;
- 478:
-                            if(report) { _fun00016_ip = 489; continue _fun00015 }
- 481:
+ 479:
+                            if(report) { _fun00016_ip = 490; continue _fun00015 }
+ 482:
                             oscard = _closure3_slot0;
                             report = golfie == oscard;
- 489:
-                            if(report) { _fun00016_ip = 525; continue _fun00015 }
- 492:
+ 490:
+                            if(report) { _fun00016_ip = 526; continue _fun00015 }
+ 493:
                             oscard = _closure3_slot0;
                             oscard = golfie != oscard;
-                            if(!oscard) { _fun00016_ip = 522; continue _fun00015 }
- 503:
+                            if(!oscard) { _fun00016_ip = 523; continue _fun00015 }
+ 504:
                             golfie = _closure3_slot0;
                             option = golfie.kind;
                             golfie = 'newPanelsListHeader';
                             oscard = golfie === option;
- 522:
+ 523:
                             report = oscard;
- 525:
+ 526:
                             entity = report;
- 528:
-                            if(!entity) { _fun00016_ip = 539; continue _fun00015 }
- 531:
+ 529:
+                            if(!entity) { _fun00016_ip = 540; continue _fun00015 }
+ 532:
                             entity = true;
                             tangon['isFirstCategory'] = entity;
- 539:
+ 540:
                             entity = tangon.kind;
-                            if(!(zuuluu === entity)) { _fun00016_ip = 589; continue _fun00015 }
- 548:
+                            if(!(zuuluu === entity)) { _fun00016_ip = 590; continue _fun00015 }
+ 549:
                             zuuluu = tangon.isFirstCategory;
                             entity = _closure2_slot8;
-                            if(zuuluu) { _fun00016_ip = 583; continue _fun00015 }
- 564:
+                            if(zuuluu) { _fun00016_ip = 584; continue _fun00015 }
+ 565:
                             zuuluu = _closure1_slot11;
                             zuuluu = entity + zuuluu;
                             tangon['height'] = zuuluu;
-                            _fun00016_ip = 589; continue _fun00015;
- 583:
+                            _fun00016_ip = 590; continue _fun00015;
+ 584:
                             tangon['height'] = entity;
- 589:
+ 590:
                             zuuluu = _closure3_slot2;
                             entity = tangon.height;
                             entity = zuuluu + entity;
@@ -711,13 +711,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = report.isReadableItem;
                             zuuluu = _closure3_slot0;
                             zuuluu = tangon.bind(report)(zuuluu);
-                            if(!zuuluu) { _fun00016_ip = 706; continue _fun00015 }
- 688:
+                            if(!zuuluu) { _fun00016_ip = 707; continue _fun00015 }
+ 689:
                             tangon = _closure3_slot5;
                             zuuluu = tangon.push;
                             michal = _closure3_slot0;
                             michal = zuuluu.bind(tangon)(michal);
- 706:
+ 707:
                             return entity;
                         }
                     };
@@ -769,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = undefined;
                     oscard = undefined;
                     report = undefined;
-                    if(entity) { _fun00014_ip = 1346; continue _fun00013 }
+                    if(entity) { _fun00014_ip = 1350; continue _fun00013 }
  206:
                     variable46 = romeon.value;
                     variable40 = cntext + 1;
@@ -788,7 +788,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable36 = verify;
                     quebec = option;
                     equals = report;
-                    if(!entity) { _fun00014_ip = 1310; continue _fun00013 }
+                    if(!entity) { _fun00014_ip = 1314; continue _fun00013 }
  276:
                     variable39 = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -797,7 +797,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable39 = variable41.isFavoritesSection;
                     entity = _closure2_slot0;
                     entity = variable39.bind(variable41)(variable40, entity);
-                    if(entity) { _fun00014_ip = 790; continue _fun00013 }
+                    if(entity) { _fun00014_ip = 792; continue _fun00013 }
  315:
                     variable39 = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -806,7 +806,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable39 = variable41.isRecentsSection;
                     entity = _closure2_slot0;
                     entity = variable39.bind(variable41)(variable40, entity);
-                    if(entity) { _fun00014_ip = 702; continue _fun00013 }
+                    if(entity) { _fun00014_ip = 704; continue _fun00013 }
  354:
                     variable39 = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -815,7 +815,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable39 = variable41.isVoiceChannelsSection;
                     entity = _closure2_slot0;
                     entity = variable39.bind(variable41)(variable40, entity);
-                    if(entity) { _fun00014_ip = 571; continue _fun00013 }
+                    if(entity) { _fun00014_ip = 573; continue _fun00013 }
  393:
                     variable39 = _closure1_slot0;
                     entity = _closure1_slot2;
@@ -826,7 +826,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable44 = offset;
                     variable43 = verify;
                     variable42 = option;
-                    if(!(variable40 >= entity)) { _fun00014_ip = 831; continue _fun00013 }
+                    if(!(variable40 >= entity)) { _fun00014_ip = 833; continue _fun00013 }
  435:
                     variable39 = _closure2_slot0;
                     entity = variable39.getNamedCategoryFromSection;
@@ -835,7 +835,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable44 = offset;
                     variable43 = verify;
                     variable42 = entity;
-                    if(!(vacuum != entity)) { _fun00014_ip = 831; continue _fun00013 }
+                    if(!(vacuum != entity)) { _fun00014_ip = 833; continue _fun00013 }
  469:
                     variable39 = {};
                     variable39['kind'] = backup;
@@ -848,13 +848,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable41 = variable48.bind(sierra)(variable41);
                     variable48 = variable41.SECTION_INDEX_FIRST_NAMED_CATEGORY;
                     variable41 = 0;
-                    if(!(variable40 !== variable48)) { _fun00014_ip = 536; continue _fun00013 }
- 516:
+                    if(!(variable40 !== variable48)) { _fun00014_ip = 538; continue _fun00013 }
+ 517:
                     variable48 = _closure2_slot11;
                     variable48 = variable48.category;
                     variable48 = variable48.margin;
                     variable41 = variable48.marginTop;
- 536:
+ 538:
                     variable41 = variable47 + variable41;
                     variable39['height'] = variable41;
                     variable39['isFirstCategory'] = output;
@@ -863,24 +863,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable44 = offset;
                     variable43 = verify;
                     variable42 = entity;
-                    _fun00014_ip = 831; continue _fun00013;
- 571:
+                    _fun00014_ip = 833; continue _fun00013;
+ 573:
                     variable41 = _closure2_slot0;
                     variable39 = variable41.getCategoryFromSection;
                     entity = variable41.voiceChannelsSectionNumber;
                     entity = variable39.bind(variable41)(entity);
                     variable39 = vacuum == entity;
-                    if(variable39) { _fun00014_ip = 609; continue _fun00013 }
- 599:
+                    if(variable39) { _fun00014_ip = 611; continue _fun00013 }
+ 601:
                     variable41 = entity.isEmpty;
                     variable39 = variable41.bind(entity)();
- 609:
+ 611:
                     variable45 = yankee;
                     variable44 = offset;
                     variable43 = entity;
                     variable42 = option;
-                    if(variable39) { _fun00014_ip = 831; continue _fun00013 }
- 627:
+                    if(variable39) { _fun00014_ip = 833; continue _fun00013 }
+ 629:
                     variable39 = {};
                     variable39['kind'] = result;
                     variable39['height'] = target;
@@ -890,8 +890,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable44 = offset;
                     variable43 = entity;
                     variable42 = option;
-                    if(!variable39) { _fun00014_ip = 831; continue _fun00013 }
- 666:
+                    if(!variable39) { _fun00014_ip = 833; continue _fun00013 }
+ 668:
                     variable39 = {};
                     variable39['kind'] = kiloes;
                     variable41 = _closure2_slot8;
@@ -901,8 +901,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable44 = offset;
                     variable43 = entity;
                     variable42 = option;
-                    _fun00014_ip = 831; continue _fun00013;
- 702:
+                    _fun00014_ip = 833; continue _fun00013;
+ 704:
                     variable41 = {};
                     variable41['kind'] = sizing;
                     entity = _closure2_slot8;
@@ -912,16 +912,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.bind(variable39)(variable40);
                     variable47 = vacuum == entity;
                     variable39 = undefined;
-                    if(variable47) { _fun00014_ip = 750; continue _fun00013 }
- 740:
+                    if(variable47) { _fun00014_ip = 752; continue _fun00013 }
+ 742:
                     variable47 = entity.getShownChannelAndThreadIds;
                     variable39 = variable47.bind(entity)();
- 750:
+ 752:
                     variable47 = variable39;
-                    if(!(vacuum == variable39)) { _fun00014_ip = 761; continue _fun00013 }
- 757:
+                    if(!(vacuum == variable39)) { _fun00014_ip = 763; continue _fun00013 }
+ 759:
                     variable47 = new Array(0);
- 761:
+ 763:
                     variable41['channelIds'] = variable47;
                     variable41['isFirstCategory'] = output;
                     variable41 = whisks.bind(sierra)(variable41);
@@ -929,8 +929,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable44 = entity;
                     variable43 = verify;
                     variable42 = option;
-                    _fun00014_ip = 831; continue _fun00013;
- 790:
+                    _fun00014_ip = 833; continue _fun00013;
+ 792:
                     entity = {'kind': 'sectionHeaderFavorites', 'height': null, 'isFirstCategory': false};
                     variable39 = _closure2_slot8;
                     entity['height'] = variable39;
@@ -939,7 +939,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable44 = offset;
                     variable43 = verify;
                     variable42 = option;
- 831:
+ 833:
                     variable41 = function() { // Original name: _loop
                         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
@@ -1236,15 +1236,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable47 = papara < variable46;
                     entity = 0;
                     variable39 = 0;
-                    if(!variable47) { _fun00014_ip = 874; continue _fun00013 }
- 853:
+                    if(!variable47) { _fun00014_ip = 876; continue _fun00013 }
+ 855:
                     variable47 = variable41.bind(sierra)();
                     variable47 = entity + 1;
                     _closure3_slot6 = variable47;
                     entity = variable47;
                     variable39 = entity;
-                    if(variable39 < variable46) { _fun00014_ip = 853; continue _fun00013 }
- 874:
+                    if(variable39 < variable46) { _fun00014_ip = 855; continue _fun00013 }
+ 876:
                     variable46 = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[ctrled];
@@ -1252,8 +1252,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable46 = variable47.isFavoritesSection;
                     entity = _closure2_slot0;
                     entity = variable46.bind(variable47)(variable40, entity);
-                    if(entity) { _fun00014_ip = 943; continue _fun00013 }
- 910:
+                    if(entity) { _fun00014_ip = 945; continue _fun00013 }
+ 912:
                     variable47 = _closure1_slot0;
                     variable46 = _closure1_slot2;
                     variable46 = variable46[ctrled];
@@ -1261,18 +1261,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable47 = variable48.isRecentsSection;
                     variable46 = _closure2_slot0;
                     entity = variable47.bind(variable48)(variable40, variable46);
- 943:
-                    if(!entity) { _fun00014_ip = 961; continue _fun00013 }
- 946:
+ 945:
+                    if(!entity) { _fun00014_ip = 963; continue _fun00013 }
+ 948:
                     entity = {};
                     entity['kind'] = result;
                     entity['height'] = target;
                     entity = whisks.bind(sierra)(entity);
- 961:
+ 963:
                     entity = _closure2_slot6;
                     entity = variable40 in entity;
-                    if(!entity) { _fun00014_ip = 1057; continue _fun00013 }
- 972:
+                    if(!entity) { _fun00014_ip = 1061; continue _fun00013 }
+ 974:
                     entity = _closure2_slot6;
                     entity = entity[variable40];
                     variable47 = entity.category;
@@ -1284,18 +1284,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable46 = variable46.length;
                     variable47 = variable46 > status;
                     variable46 = echoed;
-                    if(variable47) { _fun00014_ip = 1048; continue _fun00013 }
- 1021:
+                    if(variable47) { _fun00014_ip = 1052; continue _fun00013 }
+ 1025:
                     variable48 = _closure2_slot9;
                     variable47 = _closure2_slot11;
                     variable47 = variable47.voiceUsers;
                     variable47 = variable47.height;
                     variable47 = variable48 + variable47;
                     variable46 = variable47 - source;
- 1048:
+ 1052:
                     entity['height'] = variable46;
                     entity = whisks.bind(sierra)(entity);
- 1057:
+ 1061:
                     variable46 = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[ctrled];
@@ -1310,8 +1310,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = variable41;
                     oscard = variable39;
                     equals = report;
-                    if(!entity) { _fun00014_ip = 1310; continue _fun00013 }
- 1117:
+                    if(!entity) { _fun00014_ip = 1314; continue _fun00013 }
+ 1121:
                     variable46 = _closure2_slot0;
                     entity = variable46.getCategoryFromSection;
                     entity = entity.bind(variable46)(variable40);
@@ -1322,13 +1322,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = variable41;
                     oscard = variable39;
                     equals = entity;
-                    if(!(vacuum != equals)) { _fun00014_ip = 1310; continue _fun00013 }
- 1160:
+                    if(!(vacuum != equals)) { _fun00014_ip = 1314; continue _fun00013 }
+ 1164:
                     variable46 = entity.getHiddenChannelIds;
                     variable46 = variable46.bind(entity)();
                     variable46 = variable46.length;
-                    if(!(!(variable46 > papara))) { _fun00014_ip = 1213; continue _fun00013 }
- 1179:
+                    if(!(!(variable46 > papara))) { _fun00014_ip = 1217; continue _fun00013 }
+ 1183:
                     variable46 = entity.isEmpty;
                     variable46 = variable46.bind(entity)();
                     variable38 = variable45;
@@ -1338,8 +1338,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = variable41;
                     oscard = variable39;
                     equals = entity;
-                    if(variable46) { _fun00014_ip = 1310; continue _fun00013 }
- 1213:
+                    if(variable46) { _fun00014_ip = 1314; continue _fun00013 }
+ 1217:
                     variable46 = entity.getShownChannelIds;
                     variable46 = variable46.bind(entity)();
                     variable46 = variable46.length;
@@ -1364,7 +1364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = variable41;
                     oscard = variable39;
                     equals = entity;
- 1310:
+ 1314:
                     variable39 = config.bind(sierra)();
                     entity = variable39.done;
                     yankee = variable38;
@@ -1375,7 +1375,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     cntext = variable40;
                     romeon = variable39;
                     if(!entity) { _fun00014_ip = 206; continue _fun00013 }
- 1346:
+ 1350:
                     entity = {};
                     entity['data'] = tangon;
                     entity['unreadBarsData'] = zuuluu;

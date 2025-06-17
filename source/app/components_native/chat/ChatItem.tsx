@@ -271,7 +271,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         option = yankee.bind(romeon)(option);
         var _closure1_slot20 = option;
-        option = 24;
+        option = 23;
         option = offset[option];
         offset = verify.bind(entity)(option);
         verify = offset.fileFinishedImporting;
@@ -297,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure2_slot2 = sizing;
                 update = zuuluu.modifyRow;
                 var _closure2_slot3 = update;
-                foxtra = zuuluu.pointerEvents;
+                romeon = zuuluu.pointerEvents;
                 report = zuuluu.onLayout;
                 var _closure2_slot4 = report;
                 zuuluu = zuuluu.messageSizeCacheRef;
@@ -315,24 +315,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = 0;
                 oscard = oscard.bind(backup)(verify);
                 output = _closure1_slot3;
-                romeon = 2;
-                option = output.bind(tangon)(oscard, romeon);
+                foxtra = 2;
+                option = output.bind(tangon)(oscard, foxtra);
                 oscard = option[verify];
                 yankee = 1;
                 option = option[yankee];
                 _closure2_slot6 = option;
                 option = backup.useState;
                 option = option.bind(backup)(tangon);
-                option = output.bind(tangon)(option, romeon);
+                option = output.bind(tangon)(option, foxtra);
                 verify = option[verify];
                 _closure2_slot7 = verify;
                 option = option[yankee];
                 _closure2_slot8 = option;
-                romeon = _closure1_slot0;
+                foxtra = _closure1_slot0;
                 output = _closure1_slot2;
                 option = 17;
                 option = output[option];
-                ctrled = romeon.bind(tangon)(option);
+                ctrled = foxtra.bind(tangon)(option);
                 source = ctrled.useStateFromStores;
                 option = _closure1_slot8;
                 yankee = new Array(1);
@@ -346,21 +346,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _closure2_slot9 = option;
                 yankee = 18;
                 yankee = output[yankee];
-                romeon = romeon.bind(tangon)(yankee);
-                yankee = romeon.useShouldFilterKeywords;
-                yankee = yankee.bind(romeon)();
+                foxtra = foxtra.bind(tangon)(yankee);
+                yankee = foxtra.useShouldFilterKeywords;
+                yankee = yankee.bind(foxtra)();
                 _closure2_slot10 = yankee;
-                romeon = _closure1_slot7;
-                source = romeon.roleStyle;
+                foxtra = _closure1_slot7;
+                source = foxtra.roleStyle;
                 _closure2_slot11 = source;
                 output = backup.useMemo;
-                romeon = new Array(6);
-                romeon[0] = verify;
-                romeon[1] = source;
-                romeon[2] = echoed;
-                romeon[3] = update;
-                romeon[4] = result;
-                romeon[5] = yankee;
+                foxtra = new Array(6);
+                foxtra[0] = verify;
+                foxtra[1] = source;
+                foxtra[2] = echoed;
+                foxtra[3] = update;
+                foxtra[4] = result;
+                foxtra[5] = yankee;
                 yankee = function() {
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -423,8 +423,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                result = output.bind(backup)(yankee, romeon);
-                romeon = backup.useMemo;
+                result = output.bind(backup)(yankee, foxtra);
+                foxtra = backup.useMemo;
                 yankee = new Array(2);
                 yankee[0] = sizing;
                 yankee[1] = option;
@@ -465,8 +465,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                yankee = romeon.bind(backup)(option, yankee);
-                romeon = backup.useCallback;
+                yankee = foxtra.bind(backup)(option, yankee);
+                foxtra = backup.useCallback;
                 option = new Array(1);
                 option[0] = report;
                 report = function(argFoo) {
@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                romeon = romeon.bind(backup)(report, option);
+                foxtra = foxtra.bind(backup)(report, option);
                 option = backup.useCallback;
                 report = new Array(2);
                 report[0] = zuuluu;
@@ -586,29 +586,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes['height'] = sizing;
                 backup[2] = kiloes;
                 entity['style'] = backup;
-                entity['onLayout'] = romeon;
-                backup = _closure1_slot0;
-                kiloes = _closure1_slot2;
-                romeon = 23;
-                romeon = kiloes[romeon];
-                backup = backup.bind(tangon)(romeon);
-                romeon = backup.isFabric;
-                backup = romeon.bind(backup)();
-                romeon = 'none';
-                if(backup) { _fun00006_ip = 661; continue _fun00005 }
- 658:
-                romeon = foxtra;
- 661:
+                entity['onLayout'] = foxtra;
                 entity['pointerEvents'] = romeon;
                 option = option != verify;
-                if(!option) { _fun00006_ip = 676; continue _fun00005 }
- 673:
+                if(!option) { _fun00006_ip = 636; continue _fun00005 }
+ 633:
                 option = report;
- 676:
+ 636:
                 report = new Array(2);
                 report[0] = option;
-                if(!oscard) { _fun00006_ip = 717; continue _fun00005 }
- 687:
+                if(!oscard) { _fun00006_ip = 677; continue _fun00005 }
+ 647:
                 verify = _closure1_slot12;
                 option = _closure1_slot6;
                 golfie = {};
@@ -616,7 +604,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = offset.gradient;
                 golfie['style'] = offset;
                 oscard = verify.bind(tangon)(option, golfie);
- 717:
+ 677:
                 report[1] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);

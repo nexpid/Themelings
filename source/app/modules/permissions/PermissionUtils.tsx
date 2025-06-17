@@ -797,30 +797,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['flag'] = verify;
             entity[zuuluu] = michal;
             michal = _closure1_slot2;
-            zuuluu = michal.USE_CLYDE_AI;
-            michal = zuuluu.toString;
-            zuuluu = michal.bind(zuuluu)();
-            michal = {};
-            verify = oscard[option];
-            verify = yankee.bind(golfie)(verify);
-            romeon = verify.intl;
-            offset = romeon.string;
-            verify = oscard[option];
-            verify = yankee.bind(golfie)(verify);
-            verify = verify.t;
-            verify = verify.8eeEZm;
-            verify = offset.bind(romeon)(verify);
-            michal['title'] = verify;
-            verify = oscard[option];
-            verify = yankee.bind(golfie)(verify);
-            verify = verify.t;
-            verify = verify.Tx5TjI;
-            michal['description'] = verify;
-            verify = _closure1_slot2;
-            verify = verify.USE_CLYDE_AI;
-            michal['flag'] = verify;
-            entity[zuuluu] = michal;
-            michal = _closure1_slot2;
             zuuluu = michal.SEND_POLLS;
             michal = zuuluu.toString;
             zuuluu = michal.bind(zuuluu)();
@@ -958,19 +934,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = null;
             offset = verify == report;
             oscard = undefined;
-            if(offset) { _fun00004_ip = 4262; continue _fun00003 }
- 4256:
+            if(offset) { _fun00004_ip = 4149; continue _fun00003 }
+ 4143:
             oscard = report.SOUNDBOARD_DESCRIPTION;
- 4262:
-            if(!(verify == oscard)) { _fun00004_ip = 4296; continue _fun00003 }
- 4266:
+ 4149:
+            if(!(verify == oscard)) { _fun00004_ip = 4183; continue _fun00003 }
+ 4153:
             yankee = _closure1_slot0;
             offset = _closure1_slot1;
             offset = offset[option];
             offset = yankee.bind(golfie)(offset);
             offset = offset.t;
             oscard = offset.+8p+fX;
- 4296:
+ 4183:
             michal['description'] = oscard;
             oscard = _closure1_slot2;
             oscard = oscard.USE_SOUNDBOARD;
@@ -1043,19 +1019,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['title'] = oscard;
             offset = verify == report;
             oscard = undefined;
-            if(offset) { _fun00004_ip = 4640; continue _fun00003 }
- 4634:
+            if(offset) { _fun00004_ip = 4527; continue _fun00003 }
+ 4521:
             oscard = report.PRIORITY_SPEAKER_DESCRIPTION;
- 4640:
-            if(!(verify == oscard)) { _fun00004_ip = 4674; continue _fun00003 }
- 4644:
+ 4527:
+            if(!(verify == oscard)) { _fun00004_ip = 4561; continue _fun00003 }
+ 4531:
             offset = _closure1_slot0;
             verify = _closure1_slot1;
             verify = verify[option];
             verify = offset.bind(golfie)(verify);
             verify = verify.t;
             oscard = verify.OJkrrq;
- 4674:
+ 4561:
             michal['description'] = oscard;
             oscard = _closure1_slot2;
             oscard = oscard.PRIORITY_SPEAKER;
@@ -1182,8 +1158,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.UJxMrK;
             verify = 'string';
             oscard = typeof oscard;
-            if(!(verify !== oscard)) { _fun00004_ip = 5330; continue _fun00003 }
- 5273:
+            if(!(verify !== oscard)) { _fun00004_ip = 5217; continue _fun00003 }
+ 5160:
             verify = _closure1_slot0;
             oscard = _closure1_slot1;
             offset = oscard[option];
@@ -1196,15 +1172,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = oscard.UJxMrK;
             oscard = {};
             oscard = offset.bind(yankee)(verify, oscard);
-            _fun00004_ip = 5358; continue _fun00003;
- 5330:
+            _fun00004_ip = 5245; continue _fun00003;
+ 5217:
             offset = _closure1_slot0;
             verify = _closure1_slot1;
             verify = verify[option];
             verify = offset.bind(golfie)(verify);
             verify = verify.t;
             oscard = verify.UJxMrK;
- 5358:
+ 5245:
             michal['description'] = oscard;
             oscard = _closure1_slot2;
             oscard = oscard.ADMINISTRATOR;
@@ -1275,15 +1251,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify[option];
             verify = romeon.bind(golfie)(verify);
             verify = verify.t;
-            if(oscard) { _fun00004_ip = 5704; continue _fun00003 }
- 5691:
+            if(oscard) { _fun00004_ip = 5591; continue _fun00003 }
+ 5578:
             oscard = verify.kEqgr6;
             oscard = offset.bind(yankee)(oscard);
-            _fun00004_ip = 5715; continue _fun00003;
- 5704:
+            _fun00004_ip = 5602; continue _fun00003;
+ 5591:
             verify = verify.QKe7Q0;
             oscard = offset.bind(yankee)(verify);
- 5715:
+ 5602:
             michal['title'] = oscard;
             oscard = report.showForumPermissions;
             offset = _closure1_slot0;
@@ -1291,13 +1267,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify[option];
             verify = offset.bind(golfie)(verify);
             verify = verify.t;
-            if(oscard) { _fun00004_ip = 5760; continue _fun00003 }
- 5750:
+            if(oscard) { _fun00004_ip = 5647; continue _fun00003 }
+ 5637:
             oscard = verify.AKdc4O;
-            _fun00004_ip = 5768; continue _fun00003;
- 5760:
+            _fun00004_ip = 5655; continue _fun00003;
+ 5647:
             oscard = verify.QAxIIi;
- 5768:
+ 5655:
             michal['description'] = oscard;
             oscard = _closure1_slot2;
             oscard = oscard.MANAGE_THREADS;
@@ -1368,15 +1344,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify[option];
             verify = romeon.bind(golfie)(verify);
             verify = verify.t;
-            if(oscard) { _fun00004_ip = 6114; continue _fun00003 }
- 6101:
+            if(oscard) { _fun00004_ip = 6001; continue _fun00003 }
+ 5988:
             oscard = verify.fTE74u;
             oscard = offset.bind(yankee)(oscard);
-            _fun00004_ip = 6125; continue _fun00003;
- 6114:
+            _fun00004_ip = 6012; continue _fun00003;
+ 6001:
             verify = verify.5QlVGx;
             oscard = offset.bind(yankee)(verify);
- 6125:
+ 6012:
             michal['title'] = oscard;
             report = report.showForumPermissions;
             verify = _closure1_slot0;
@@ -1384,49 +1360,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard[option];
             oscard = verify.bind(golfie)(oscard);
             oscard = oscard.t;
-            if(report) { _fun00004_ip = 6170; continue _fun00003 }
- 6160:
+            if(report) { _fun00004_ip = 6057; continue _fun00003 }
+ 6047:
             report = oscard.6pyXvr;
-            _fun00004_ip = 6178; continue _fun00003;
- 6170:
+            _fun00004_ip = 6065; continue _fun00003;
+ 6057:
             report = oscard.C2ZPEx;
- 6178:
+ 6065:
             michal['description'] = report;
             report = _closure1_slot2;
             report = report.SEND_MESSAGES_IN_THREADS;
             michal['flag'] = report;
             entity[zuuluu] = michal;
             michal = _closure1_slot2;
-            zuuluu = michal.USE_CLYDE_AI;
+            zuuluu = michal.SET_VOICE_CHANNEL_STATUS;
             michal = zuuluu.toString;
             zuuluu = michal.bind(zuuluu)();
             michal = {};
             oscard = _closure1_slot0;
             report = _closure1_slot1;
-            verify = report[option];
-            verify = oscard.bind(golfie)(verify);
-            yankee = verify.intl;
-            offset = yankee.string;
-            verify = report[option];
-            verify = oscard.bind(golfie)(verify);
-            verify = verify.t;
-            verify = verify.8eeEZm;
-            verify = offset.bind(yankee)(verify);
-            michal['title'] = verify;
-            verify = report[option];
-            verify = oscard.bind(golfie)(verify);
-            verify = verify.t;
-            verify = verify.Tx5TjI;
-            michal['description'] = verify;
-            verify = _closure1_slot2;
-            verify = verify.USE_CLYDE_AI;
-            michal['flag'] = verify;
-            entity[zuuluu] = michal;
-            michal = _closure1_slot2;
-            zuuluu = michal.SET_VOICE_CHANNEL_STATUS;
-            michal = zuuluu.toString;
-            zuuluu = michal.bind(zuuluu)();
-            michal = {};
             verify = report[option];
             verify = oscard.bind(golfie)(verify);
             yankee = verify.intl;
@@ -1564,90 +1516,73 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo, argBar) { // Original name: generateGuildTextSection
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            michal = argBar;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.SEND_MESSAGES;
-            golfie = new Array(18);
-            golfie[0] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.SEND_MESSAGES_IN_THREADS;
-            golfie[1] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.CREATE_PUBLIC_THREADS;
-            golfie[2] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.CREATE_PRIVATE_THREADS;
-            golfie[3] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.EMBED_LINKS;
-            golfie[4] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.ATTACH_FILES;
-            golfie[5] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.ADD_REACTIONS;
-            golfie[6] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.USE_EXTERNAL_EMOJIS;
-            golfie[7] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.USE_EXTERNAL_STICKERS;
-            golfie[8] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.USE_EXTERNAL_SOUNDS;
-            golfie[9] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.MENTION_EVERYONE;
-            golfie[10] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.MANAGE_MESSAGES;
-            golfie[11] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.MANAGE_THREADS;
-            golfie[12] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.READ_MESSAGE_HISTORY;
-            golfie[13] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.SEND_TTS_MESSAGES;
-            golfie[14] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.SEND_VOICE_MESSAGES;
-            golfie[15] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.USE_CLYDE_AI;
-            golfie[16] = zuuluu;
-            zuuluu = _closure1_slot2;
-            zuuluu = zuuluu.SEND_POLLS;
-            golfie[17] = zuuluu;
-            report = michal.inSoundmojiExperiment;
-            zuuluu = golfie;
-            if(report) { _fun00008_ip = 293; continue _fun00007 }
- 276:
-            oscard = golfie.filter;
-            report = function(argFoo) {
+            entity = _closure1_slot2;
+            entity = entity.SEND_MESSAGES;
+            zuuluu = new Array(17);
+            zuuluu[0] = entity;
+            entity = _closure1_slot2;
+            entity = entity.SEND_MESSAGES_IN_THREADS;
+            zuuluu[1] = entity;
+            entity = _closure1_slot2;
+            entity = entity.CREATE_PUBLIC_THREADS;
+            zuuluu[2] = entity;
+            entity = _closure1_slot2;
+            entity = entity.CREATE_PRIVATE_THREADS;
+            zuuluu[3] = entity;
+            entity = _closure1_slot2;
+            entity = entity.EMBED_LINKS;
+            zuuluu[4] = entity;
+            entity = _closure1_slot2;
+            entity = entity.ATTACH_FILES;
+            zuuluu[5] = entity;
+            entity = _closure1_slot2;
+            entity = entity.ADD_REACTIONS;
+            zuuluu[6] = entity;
+            entity = _closure1_slot2;
+            entity = entity.USE_EXTERNAL_EMOJIS;
+            zuuluu[7] = entity;
+            entity = _closure1_slot2;
+            entity = entity.USE_EXTERNAL_STICKERS;
+            zuuluu[8] = entity;
+            entity = _closure1_slot2;
+            entity = entity.USE_EXTERNAL_SOUNDS;
+            zuuluu[9] = entity;
+            entity = _closure1_slot2;
+            entity = entity.MENTION_EVERYONE;
+            zuuluu[10] = entity;
+            entity = _closure1_slot2;
+            entity = entity.MANAGE_MESSAGES;
+            zuuluu[11] = entity;
+            entity = _closure1_slot2;
+            entity = entity.MANAGE_THREADS;
+            zuuluu[12] = entity;
+            entity = _closure1_slot2;
+            entity = entity.READ_MESSAGE_HISTORY;
+            zuuluu[13] = entity;
+            entity = _closure1_slot2;
+            entity = entity.SEND_TTS_MESSAGES;
+            zuuluu[14] = entity;
+            entity = _closure1_slot2;
+            entity = entity.SEND_VOICE_MESSAGES;
+            zuuluu[15] = entity;
+            entity = _closure1_slot2;
+            entity = entity.SEND_POLLS;
+            zuuluu[16] = entity;
+            entity = argBar;
+            entity = entity.inSoundmojiExperiment;
+            oscard = zuuluu;
+            if(entity) { _fun00008_ip = 279; continue _fun00007 }
+ 260:
+            michal = zuuluu.filter;
+            entity = function(argFoo) {
                 entity = _closure1_slot2;
                 michal = entity.USE_EXTERNAL_SOUNDS;
                 entity = argFoo;
                 entity = entity !== michal;
                 return entity;
             };
-            zuuluu = oscard.bind(golfie)(report);
- 293:
-            michal = michal.showClydeAIPermissions;
-            oscard = zuuluu;
-            if(michal) { _fun00008_ip = 322; continue _fun00007 }
- 305:
-            michal = zuuluu.filter;
-            entity = function(argFoo) {
-                entity = _closure1_slot2;
-                michal = entity.USE_CLYDE_AI;
-                entity = argFoo;
-                entity = entity !== michal;
-                return entity;
-            };
             oscard = michal.bind(zuuluu)(entity);
- 322:
+ 279:
             zuuluu = _closure1_slot3;
             entity = {};
             verify = _closure1_slot0;
@@ -1972,64 +1907,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = argBaz;
             tangon = _closure1_slot2;
             tangon = tangon.SEND_MESSAGES;
-            golfie = new Array(18);
-            golfie[0] = tangon;
+            oscard = new Array(17);
+            oscard[0] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.SEND_MESSAGES_IN_THREADS;
-            golfie[1] = tangon;
+            oscard[1] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.CREATE_PUBLIC_THREADS;
-            golfie[2] = tangon;
+            oscard[2] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.CREATE_PRIVATE_THREADS;
-            golfie[3] = tangon;
+            oscard[3] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.EMBED_LINKS;
-            golfie[4] = tangon;
+            oscard[4] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.ATTACH_FILES;
-            golfie[5] = tangon;
+            oscard[5] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.ADD_REACTIONS;
-            golfie[6] = tangon;
+            oscard[6] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.USE_EXTERNAL_EMOJIS;
-            golfie[7] = tangon;
+            oscard[7] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.USE_EXTERNAL_STICKERS;
-            golfie[8] = tangon;
+            oscard[8] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.USE_EXTERNAL_SOUNDS;
-            golfie[9] = tangon;
+            oscard[9] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.MENTION_EVERYONE;
-            golfie[10] = tangon;
+            oscard[10] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.MANAGE_MESSAGES;
-            golfie[11] = tangon;
+            oscard[11] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.MANAGE_THREADS;
-            golfie[12] = tangon;
+            oscard[12] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.READ_MESSAGE_HISTORY;
-            golfie[13] = tangon;
+            oscard[13] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.SEND_TTS_MESSAGES;
-            golfie[14] = tangon;
+            oscard[14] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.SEND_VOICE_MESSAGES;
-            golfie[15] = tangon;
-            tangon = _closure1_slot2;
-            tangon = tangon.USE_CLYDE_AI;
-            golfie[16] = tangon;
+            oscard[15] = tangon;
             tangon = _closure1_slot2;
             tangon = tangon.SEND_POLLS;
-            golfie[17] = tangon;
+            oscard[16] = tangon;
             tangon = zuuluu.inSoundmojiExperiment;
-            oscard = golfie;
-            if(tangon) { _fun00014_ip = 293; continue _fun00013 }
- 276:
-            report = golfie.filter;
+            golfie = oscard;
+            if(tangon) { _fun00014_ip = 279; continue _fun00013 }
+ 262:
+            report = oscard.filter;
             tangon = function(argFoo) {
                 entity = _closure1_slot2;
                 michal = entity.USE_EXTERNAL_SOUNDS;
@@ -2037,17 +1969,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity !== michal;
                 return entity;
             };
-            oscard = report.bind(golfie)(tangon);
- 293:
+            golfie = report.bind(oscard)(tangon);
+ 279:
             tangon = zuuluu.showPrivateThreads;
-            if(!tangon) { _fun00014_ip = 308; continue _fun00013 }
- 302:
+            if(!tangon) { _fun00014_ip = 294; continue _fun00013 }
+ 288:
             tangon = zuuluu.showCreateThreads;
- 308:
-            golfie = oscard;
-            if(tangon) { _fun00014_ip = 331; continue _fun00013 }
- 314:
-            report = oscard.filter;
+ 294:
+            oscard = golfie;
+            if(tangon) { _fun00014_ip = 317; continue _fun00013 }
+ 300:
+            report = golfie.filter;
             tangon = function(argFoo) {
                 entity = _closure1_slot2;
                 michal = entity.CREATE_PRIVATE_THREADS;
@@ -2055,36 +1987,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity !== michal;
                 return entity;
             };
-            golfie = report.bind(oscard)(tangon);
- 331:
+            oscard = report.bind(golfie)(tangon);
+ 317:
             tangon = zuuluu.showCreateThreads;
-            oscard = golfie;
-            if(tangon) { _fun00014_ip = 360; continue _fun00013 }
- 343:
-            report = golfie.filter;
-            tangon = function(argFoo) {
+            report = oscard;
+            if(tangon) { _fun00014_ip = 346; continue _fun00013 }
+ 329:
+            tangon = oscard.filter;
+            entity = function(argFoo) {
                 entity = _closure1_slot2;
                 michal = entity.CREATE_PUBLIC_THREADS;
                 entity = argFoo;
                 entity = entity !== michal;
                 return entity;
             };
-            oscard = report.bind(golfie)(tangon);
- 360:
-            tangon = zuuluu.showClydeAIPermissions;
-            report = oscard;
-            if(tangon) { _fun00014_ip = 389; continue _fun00013 }
- 372:
-            tangon = oscard.filter;
-            entity = function(argFoo) {
-                entity = _closure1_slot2;
-                michal = entity.USE_CLYDE_AI;
-                entity = argFoo;
-                entity = entity !== michal;
-                return entity;
-            };
             report = tangon.bind(oscard)(entity);
- 389:
+ 346:
             entity = {};
             tangon = argBar;
             entity['title'] = tangon;

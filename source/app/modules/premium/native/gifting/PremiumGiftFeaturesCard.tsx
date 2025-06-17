@@ -182,16 +182,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['featureText'] = michal;
             michal = {'position': 'absolute', 'top': 22, 'right': null, 'height': null, 'zIndex': 2};
             zuuluu = 10;
-            if(!tangon) { _fun00002_ip = 606; continue _fun00001 }
- 603:
+            if(!tangon) { _fun00002_ip = 605; continue _fun00001 }
+ 602:
             zuuluu = 20;
- 606:
+ 605:
             michal['right'] = zuuluu;
             zuuluu = 64;
-            if(!tangon) { _fun00002_ip = 621; continue _fun00001 }
- 618:
+            if(!tangon) { _fun00002_ip = 620; continue _fun00001 }
+ 617:
             zuuluu = 80;
- 621:
+ 620:
             michal['height'] = zuuluu;
             oscard = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -202,10 +202,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['backgroundColor'] = zuuluu;
             zuuluu = 33;
             oscard = zuuluu;
-            if(!tangon) { _fun00002_ip = 671; continue _fun00001 }
- 668:
+            if(!tangon) { _fun00002_ip = 670; continue _fun00001 }
+ 667:
             oscard = 41;
- 671:
+ 670:
             michal['borderRadius'] = oscard;
             entity['promotionalAvatar'] = michal;
             michal = {'position': 'absolute', 'top': 22, 'right': 55, 'height': 64, 'zIndex': 2};
@@ -216,10 +216,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.colors;
             report = report.BUTTON_OUTLINE_POSITIVE_BORDER;
             michal['backgroundColor'] = report;
-            if(!tangon) { _fun00002_ip = 732; continue _fun00001 }
- 729:
+            if(!tangon) { _fun00002_ip = 731; continue _fun00001 }
+ 728:
             zuuluu = 41;
- 732:
+ 731:
             michal['borderRadius'] = zuuluu;
             entity['promotionalAvatarSecondary'] = michal;
             michal = {'position': 'absolute', 'top': 0, 'right': 10, 'height': 120, 'width': 150, 'zIndex': 2};

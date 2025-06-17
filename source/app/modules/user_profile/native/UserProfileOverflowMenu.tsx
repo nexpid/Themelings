@@ -304,19 +304,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = result.userIsInCall;
             _closure2_slot11 = backup;
             ctrled = result.isUserRinging;
-            if(!romeon) { _fun00002_ip = 686; continue _fun00001 }
- 682:
+            if(!romeon) { _fun00002_ip = 688; continue _fun00001 }
+ 684:
             romeon = entity != record;
- 686:
-            if(!romeon) { _fun00002_ip = 701; continue _fun00001 }
- 689:
+ 688:
+            if(!romeon) { _fun00002_ip = 703; continue _fun00001 }
+ 691:
             result = !backup;
-            if(result) { _fun00002_ip = 698; continue _fun00001 }
- 695:
+            if(result) { _fun00002_ip = 700; continue _fun00001 }
+ 697:
             result = ctrled;
- 698:
+ 700:
             romeon = result;
- 701:
+ 703:
             ctrled = _closure1_slot1;
             target = _closure1_slot2;
             result = 20;
@@ -339,17 +339,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['voice_channel_id'] = record;
             papara = entity == cntext;
             record = undefined;
-            if(papara) { _fun00002_ip = 801; continue _fun00001 }
- 796:
+            if(papara) { _fun00002_ip = 803; continue _fun00001 }
+ 798:
             record = cntext.guild_id;
- 801:
+ 803:
             result['voice_guild_id'] = record;
             ctrled['properties'] = result;
             result = {};
-            if(!yankee) { _fun00002_ip = 819; continue _fun00001 }
- 816:
+            if(!yankee) { _fun00002_ip = 821; continue _fun00001 }
+ 818:
             yankee = romeon;
- 819:
+ 821:
             yankee = !yankee;
             result['disableTrack'] = yankee;
             record = output.id;
@@ -363,10 +363,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[0] = vacuum;
             record = entity == tangon;
             vacuum = undefined;
-            if(record) { _fun00002_ip = 883; continue _fun00001 }
- 878:
+            if(record) { _fun00002_ip = 885; continue _fun00001 }
+ 880:
             vacuum = tangon.id;
- 883:
+ 885:
             yankee[1] = vacuum;
             yankee[2] = offset;
             yankee[3] = oscard;
@@ -420,23 +420,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = source.id;
             ctrled = entity == tangon;
             output = undefined;
-            if(ctrled) { _fun00002_ip = 951; continue _fun00001 }
- 941:
+            if(ctrled) { _fun00002_ip = 955; continue _fun00001 }
+ 945:
             ctrled = tangon.getGuildId;
             output = ctrled.bind(tangon)();
- 951:
+ 955:
             _closure2_slot14 = output;
             output = _closure1_slot11;
             output = output.BLOCKED;
             output = echoed === output;
             record = entity == config;
             ctrled = undefined;
-            if(record) { _fun00002_ip = 983; continue _fun00001 }
- 978:
+            if(record) { _fun00002_ip = 987; continue _fun00001 }
+ 982:
             ctrled = config.guildId;
- 983:
-            if(!(entity != ctrled)) { _fun00002_ip = 1069; continue _fun00001 }
  987:
+            if(!(entity != ctrled)) { _fun00002_ip = 1075; continue _fun00001 }
+ 991:
             record = yankee.push;
             ctrled = {};
             status = _closure1_slot0;
@@ -468,26 +468,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             ctrled['action'] = cntext;
             ctrled = record.bind(yankee)(ctrled);
- 1069:
+ 1075:
             record = entity == sequen;
             ctrled = undefined;
-            if(record) { _fun00002_ip = 1083; continue _fun00001 }
- 1078:
+            if(record) { _fun00002_ip = 1089; continue _fun00001 }
+ 1084:
             ctrled = sequen.guildId;
- 1083:
+ 1089:
             ctrled = entity != ctrled;
-            if(!ctrled) { _fun00002_ip = 1108; continue _fun00001 }
- 1090:
+            if(!ctrled) { _fun00002_ip = 1114; continue _fun00001 }
+ 1096:
             record = entity == config;
             sequen = undefined;
-            if(record) { _fun00002_ip = 1104; continue _fun00001 }
- 1099:
+            if(record) { _fun00002_ip = 1110; continue _fun00001 }
+ 1105:
             sequen = config.guildId;
- 1104:
+ 1110:
             ctrled = entity == sequen;
- 1108:
-            if(!ctrled) { _fun00002_ip = 1193; continue _fun00001 }
- 1111:
+ 1114:
+            if(!ctrled) { _fun00002_ip = 1201; continue _fun00001 }
+ 1117:
             sequen = yankee.push;
             ctrled = {};
             papara = _closure1_slot0;
@@ -518,36 +518,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             ctrled['action'] = config;
             ctrled = sequen.bind(yankee)(ctrled);
- 1193:
-            if(!(result !== vacuum)) { _fun00002_ip = 2106; continue _fun00001 }
- 1200:
+ 1201:
+            if(!(result !== vacuum)) { _fun00002_ip = 2132; continue _fun00001 }
+ 1208:
             result = entity != tangon;
-            if(!result) { _fun00002_ip = 1220; continue _fun00001 }
- 1207:
+            if(!result) { _fun00002_ip = 1228; continue _fun00001 }
+ 1215:
             ctrled = tangon.isThread;
             ctrled = ctrled.bind(tangon)();
             result = !ctrled;
- 1220:
-            if(!result) { _fun00002_ip = 1239; continue _fun00001 }
- 1223:
+ 1228:
+            if(!result) { _fun00002_ip = 1247; continue _fun00001 }
+ 1231:
             ctrled = tangon.isOwner;
             source = source.id;
             result = ctrled.bind(tangon)(source);
- 1239:
+ 1247:
             ctrled = undefined;
-            if(!result) { _fun00002_ip = 1257; continue _fun00001 }
- 1244:
+            if(!result) { _fun00002_ip = 1265; continue _fun00001 }
+ 1252:
             source = tangon.recipients;
             result = entity != source;
             ctrled = source;
- 1257:
-            if(!result) { _fun00002_ip = 1270; continue _fun00001 }
- 1260:
+ 1265:
+            if(!result) { _fun00002_ip = 1278; continue _fun00001 }
+ 1268:
             source = ctrled.includes;
             result = source.bind(ctrled)(vacuum);
- 1270:
-            if(!result) { _fun00002_ip = 1365; continue _fun00001 }
- 1273:
+ 1278:
+            if(!result) { _fun00002_ip = 1375; continue _fun00001 }
+ 1281:
             source = offset.push;
             result = {};
             config = _closure1_slot0;
@@ -586,11 +586,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             result['action'] = ctrled;
             result = source.bind(offset)(result);
- 1365:
+ 1375:
             result = _closure1_slot11;
             result = result.FRIEND;
-            if(!(echoed === result)) { _fun00002_ip = 1475; continue _fun00001 }
- 1379:
+            if(!(echoed === result)) { _fun00002_ip = 1487; continue _fun00001 }
+ 1389:
             echoed = yankee.push;
             result = {};
             sequen = _closure1_slot0;
@@ -603,15 +603,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = config[source];
             source = sequen.bind(report)(source);
             source = source.t;
-            if(update) { _fun00002_ip = 1446; continue _fun00001 }
- 1433:
+            if(update) { _fun00002_ip = 1456; continue _fun00001 }
+ 1443:
             update = source.BGYkaG;
             update = ctrled.bind(vacuum)(update);
-            _fun00002_ip = 1457; continue _fun00001;
- 1446:
+            _fun00002_ip = 1467; continue _fun00001;
+ 1456:
             source = source.8pOYUF;
             update = ctrled.bind(vacuum)(source);
- 1457:
+ 1467:
             result['label'] = update;
             update = function() { // Original name: action
                 zuuluu = _closure2_slot6;
@@ -651,11 +651,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             result['action'] = update;
             result = echoed.bind(yankee)(result);
- 1475:
-            if(!kiloes) { _fun00002_ip = 1563; continue _fun00001 }
- 1478:
-            if(output) { _fun00002_ip = 1563; continue _fun00001 }
- 1481:
+ 1487:
+            if(!kiloes) { _fun00002_ip = 1577; continue _fun00001 }
+ 1490:
+            if(output) { _fun00002_ip = 1577; continue _fun00001 }
+ 1493:
             result = offset.push;
             kiloes = {};
             ctrled = _closure1_slot0;
@@ -707,10 +707,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             kiloes['action'] = echoed;
             kiloes = result.bind(offset)(kiloes);
-            _fun00002_ip = 1646; continue _fun00001;
- 1563:
-            if(output) { _fun00002_ip = 1646; continue _fun00001 }
- 1566:
+            _fun00002_ip = 1662; continue _fun00001;
+ 1577:
+            if(output) { _fun00002_ip = 1662; continue _fun00001 }
+ 1580:
             result = offset.push;
             kiloes = {};
             ctrled = _closure1_slot0;
@@ -786,10 +786,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             kiloes['action'] = echoed;
             kiloes = result.bind(offset)(kiloes);
- 1646:
+ 1662:
             kiloes = offset.push;
-            if(output) { _fun00002_ip = 2031; continue _fun00001 }
- 1657:
+            if(output) { _fun00002_ip = 2055; continue _fun00001 }
+ 1673:
             output = {};
             ctrled = _closure1_slot0;
             result = _closure1_slot2;
@@ -882,8 +882,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             output['action'] = echoed;
             output = kiloes.bind(offset)(output);
-            if(sizing) { _fun00002_ip = 1863; continue _fun00001 }
- 1745:
+            if(sizing) { _fun00002_ip = 1883; continue _fun00001 }
+ 1763:
             output = _closure1_slot0;
             echoed = _closure1_slot2;
             sizing = 34;
@@ -891,8 +891,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.bind(report)(sizing);
             sizing = output.isAndroid;
             sizing = sizing.bind(output)();
-            if(!sizing) { _fun00002_ip = 1944; continue _fun00001 }
- 1780:
+            if(!sizing) { _fun00002_ip = 1966; continue _fun00001 }
+ 1798:
             output = offset.push;
             sizing = {};
             vacuum = _closure1_slot0;
@@ -939,8 +939,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sizing['action'] = echoed;
             sizing = output.bind(offset)(sizing);
-            _fun00002_ip = 1944; continue _fun00001;
- 1863:
+            _fun00002_ip = 1966; continue _fun00001;
+ 1883:
             output = offset.push;
             sizing = {};
             vacuum = _closure1_slot0;
@@ -998,9 +998,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             sizing['action'] = result;
             sizing = output.bind(offset)(sizing);
- 1944:
-            if(!foxtra) { _fun00002_ip = 2106; continue _fun00001 }
- 1950:
+ 1966:
+            if(!foxtra) { _fun00002_ip = 2132; continue _fun00001 }
+ 1972:
             sizing = yankee.push;
             foxtra = {};
             update = _closure1_slot0;
@@ -1037,8 +1037,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['action'] = output;
             foxtra = sizing.bind(yankee)(foxtra);
-            _fun00002_ip = 2106; continue _fun00001;
- 2031:
+            _fun00002_ip = 2132; continue _fun00001;
+ 2055:
             foxtra = {};
             echoed = _closure1_slot0;
             update = _closure1_slot2;
@@ -1097,9 +1097,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra['action'] = sizing;
             foxtra = kiloes.bind(offset)(foxtra);
- 2106:
-            if(!romeon) { _fun00002_ip = 2205; continue _fun00001 }
- 2109:
+ 2132:
+            if(!romeon) { _fun00002_ip = 2233; continue _fun00001 }
+ 2135:
             foxtra = yankee.push;
             romeon = {};
             result = _closure1_slot0;
@@ -1112,15 +1112,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = echoed[kiloes];
             kiloes = result.bind(report)(kiloes);
             kiloes = kiloes.t;
-            if(backup) { _fun00002_ip = 2176; continue _fun00001 }
- 2163:
+            if(backup) { _fun00002_ip = 2202; continue _fun00001 }
+ 2189:
             backup = kiloes.bHa9kJ;
             backup = sizing.bind(output)(backup);
-            _fun00002_ip = 2187; continue _fun00001;
- 2176:
+            _fun00002_ip = 2213; continue _fun00001;
+ 2202:
             kiloes = kiloes.ygslb2;
             backup = sizing.bind(output)(kiloes);
- 2187:
+ 2213:
             romeon['label'] = backup;
             backup = function() { // Original name: action
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
@@ -1192,7 +1192,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             romeon['action'] = backup;
             romeon = foxtra.bind(yankee)(romeon);
- 2205:
+ 2233:
             kiloes = yankee.push;
             romeon = {};
             foxtra = _closure1_slot0;
@@ -1249,8 +1249,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = romeon.DeveloperMode;
             romeon = foxtra.getSetting;
             romeon = romeon.bind(foxtra)();
-            if(!romeon) { _fun00002_ip = 2393; continue _fun00001 }
- 2316:
+            if(!romeon) { _fun00002_ip = 2425; continue _fun00001 }
+ 2346:
             foxtra = yankee.push;
             romeon = {};
             result = _closure1_slot0;
@@ -1293,14 +1293,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             romeon['action'] = backup;
             romeon = foxtra.bind(yankee)(romeon);
- 2393:
+ 2425:
             tangon = entity != tangon;
-            if(!tangon) { _fun00002_ip = 2404; continue _fun00001 }
- 2400:
+            if(!tangon) { _fun00002_ip = 2436; continue _fun00001 }
+ 2432:
             tangon = entity != verify;
- 2404:
-            if(!tangon) { _fun00002_ip = 2484; continue _fun00001 }
- 2407:
+ 2436:
+            if(!tangon) { _fun00002_ip = 2518; continue _fun00001 }
+ 2439:
             verify = yankee.push;
             tangon = {};
             kiloes = _closure1_slot0;
@@ -1371,14 +1371,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             tangon['action'] = romeon;
             tangon = verify.bind(yankee)(tangon);
- 2484:
+ 2518:
             tangon = yankee.length;
-            if(!(golfie === tangon)) { _fun00002_ip = 2504; continue _fun00001 }
- 2493:
+            if(!(golfie === tangon)) { _fun00002_ip = 2538; continue _fun00001 }
+ 2527:
             tangon = offset.length;
             entity = null;
-            if(!(golfie !== tangon)) { _fun00002_ip = 2599; continue _fun00001 }
- 2504:
+            if(!(golfie !== tangon)) { _fun00002_ip = 2635; continue _fun00001 }
+ 2538:
             tangon = _closure1_slot15;
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
@@ -1460,7 +1460,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 2599:
+ 2635:
             return entity;
         }
     };

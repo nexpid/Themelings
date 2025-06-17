@@ -227,13 +227,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = tangon.bind(report)(zuuluu, michal);
                 zuuluu = null;
-                if(!(zuuluu == michal)) { _fun00008_ip = 78; continue _fun00007 }
- 72:
+                if(!(zuuluu == michal)) { _fun00008_ip = 77; continue _fun00007 }
+ 71:
                 entity = _closure1_slot8;
-                _fun00008_ip = 84; continue _fun00007;
- 78:
+                _fun00008_ip = 83; continue _fun00007;
+ 77:
                 entity = michal.activities;
- 84:
+ 83:
                 return entity;
             }
         };
@@ -273,16 +273,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = tangon.bind(report)(zuuluu, michal);
                 tangon = null;
-                if(!(tangon != michal)) { _fun00012_ip = 82; continue _fun00011 }
- 72:
+                if(!(tangon != michal)) { _fun00012_ip = 81; continue _fun00011 }
+ 71:
                 zuuluu = michal.hiddenActivities;
-                if(!(tangon == zuuluu)) { _fun00012_ip = 88; continue _fun00011 }
- 82:
+                if(!(tangon == zuuluu)) { _fun00012_ip = 87; continue _fun00011 }
+ 81:
                 entity = _closure1_slot8;
-                _fun00012_ip = 94; continue _fun00011;
- 88:
+                _fun00012_ip = 93; continue _fun00011;
+ 87:
                 entity = michal.hiddenActivities;
- 94:
+ 93:
                 return entity;
             }
         };

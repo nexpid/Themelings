@@ -23,6 +23,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot1 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot2 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.CommonTriggerPoints;
     michal = function() {
@@ -67,23 +71,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                michal = arguments[0];
-                report = this;
+                zuuluu = arguments[0];
+                michal = this;
                 entity = undefined;
-                if(!(michal === entity)) { _fun00002_ip = 14; continue _fun00001 }
+                if(!(zuuluu === entity)) { _fun00002_ip = 14; continue _fun00001 }
  12:
-                michal = {};
- 14:
-                zuuluu = report.triggerPoint;
-                tangon = report.experiments;
                 zuuluu = {};
-                golfie = report.params;
+ 14:
+                tangon = michal.triggerPoint;
+                report = michal.experiments;
+                tangon = {};
+                option = michal.params;
+                verify = tangon;
+                oscard = copyDataProperties(verify, option);
+                verify = tangon;
                 option = zuuluu;
-                report = copyDataProperties(option, golfie);
-                option = zuuluu;
-                golfie = michal;
-                michal = copyDataProperties(option, golfie);
-                michal = function(argFoo, argBar, argBaz) { // Original name: triggerCommonExperiments
+                zuuluu = copyDataProperties(verify, option);
+                zuuluu = function(argFoo, argBar, argBaz) { // Original name: triggerCommonExperiments
                     zuuluu = argBar;
                     michal = argBaz;
                     var _closure4_slot0 = michal;
@@ -100,7 +104,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                michal = michal.bind(entity)(entity, tangon, zuuluu);
+                zuuluu = zuuluu.bind(entity)(entity, report, tangon);
+                tangon = _closure1_slot2;
+                zuuluu = tangon.trackCommonTriggerPointExposures;
+                michal = michal.params;
+                michal = michal.location;
+                michal = zuuluu.bind(tangon)(michal);
                 return entity;
             }
         };
@@ -121,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)();
-    tangon = 3;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

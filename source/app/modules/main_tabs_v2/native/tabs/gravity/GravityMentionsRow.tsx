@@ -1020,7 +1020,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);
     romeon = romeon.colors;
-    romeon = romeon.BUTTON_OUTLINE_DANGER_BORDER;
+    romeon = romeon.STATUS_DANGER;
     verify['backgroundColor'] = romeon;
     romeon = oscard[offset];
     romeon = yankee.bind(entity)(romeon);

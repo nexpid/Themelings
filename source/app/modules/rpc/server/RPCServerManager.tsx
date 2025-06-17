@@ -1332,7 +1332,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.bind(michal)(zuuluu);
                     zuuluu = tangon.forEach;
                     michal = _closure1_slot12;
-                    entity = michal.getRelationships;
+                    entity = michal.getMutableRelationships;
                     michal = entity.bind(michal)();
                     entity = function(argFoo, argBar) {
                         _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {

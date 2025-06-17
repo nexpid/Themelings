@@ -35,13 +35,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot11 = michal;
+            _closure1_slot12 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
     entity = global;
     option = entity.Object;
     tangon = option.defineProperty;
@@ -93,8 +93,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot8 = michal;
     tangon = null;
     var _closure1_slot9 = tangon;
-    tangon = michal.NOT_FETCHED;
     var _closure1_slot10 = tangon;
+    tangon = michal.NOT_FETCHED;
+    var _closure1_slot11 = tangon;
     tangon = 8;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
@@ -112,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot3;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot2;
-                entity = _closure1_slot11;
+                entity = _closure1_slot12;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 69; continue _fun00003 }
  51:
@@ -155,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(3);
+        entity = new Array(4);
         entity[0] = report;
         report = {};
         golfie = 'getApps';
@@ -167,14 +168,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[1] = report;
         report = {};
-        golfie = 'getFetchState';
+        golfie = 'getNonChildrenApps';
         report['key'] = golfie;
-        oscard = function() { // Original name: value
+        golfie = function() { // Original name: value
             entity = _closure1_slot10;
             return entity;
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[2] = report;
+        report = {};
+        golfie = 'getFetchState';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = _closure1_slot11;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[3] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -188,20 +198,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function() { // Original name: handleUserAuthorizedAppsRequest
         entity = _closure1_slot8;
         entity = entity.FETCHING;
-        _closure1_slot10 = entity;
+        _closure1_slot11 = entity;
         entity = undefined;
         return entity;
     };
     tangon['USER_AUTHORIZED_APPS_REQUEST'] = verify;
     report = function(argFoo) { // Original name: handleAuthorizedAppsUpdate
-        entity = _closure1_slot8;
-        entity = entity.FETCHED;
-        _closure1_slot10 = entity;
-        entity = argFoo;
-        entity = entity.apps;
-        _closure1_slot9 = entity;
-        entity = undefined;
-        return entity;
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            entity = _closure1_slot8;
+            entity = entity.FETCHED;
+            _closure1_slot11 = entity;
+            entity = argFoo;
+            golfie = entity.apps;
+            _closure1_slot9 = golfie;
+            michal = null;
+            report = michal == golfie;
+            entity = undefined;
+            tangon = undefined;
+            if(report) { _fun00006_ip = 62; continue _fun00005 }
+ 43:
+            oscard = golfie.filter;
+            report = function(argFoo) {
+                entity = argFoo;
+                entity = entity.application;
+                michal = entity.parent_id;
+                entity = null;
+                entity = entity == michal;
+                return entity;
+            };
+            tangon = oscard.bind(golfie)(report);
+ 62:
+            report = michal != tangon;
+            michal = null;
+            if(!report) { _fun00006_ip = 74; continue _fun00005 }
+ 71:
+            michal = tangon;
+ 74:
+            _closure1_slot10 = michal;
+            return entity;
+        }
     };
     tangon['USER_AUTHORIZED_APPS_UPDATE'] = report;
     report = option.prototype;

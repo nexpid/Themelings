@@ -245,23 +245,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = entity.bind(michal)(zuuluu);
                     oscard = -1;
                     zuuluu = oscard === report;
-                    if(!zuuluu) { _fun00010_ip = 112; continue _fun00009 }
- 106:
+                    if(!zuuluu) { _fun00010_ip = 110; continue _fun00009 }
+ 104:
                     entity = 0;
-                    if(!(oscard !== tangon)) { _fun00010_ip = 135; continue _fun00009 }
- 112:
+                    if(!(oscard !== tangon)) { _fun00010_ip = 133; continue _fun00009 }
+ 110:
                     michal = oscard;
-                    if(zuuluu) { _fun00010_ip = 132; continue _fun00009 }
- 118:
+                    if(zuuluu) { _fun00010_ip = 130; continue _fun00009 }
+ 116:
                     zuuluu = 1;
-                    if(!(oscard !== tangon)) { _fun00010_ip = 129; continue _fun00009 }
- 125:
+                    if(!(oscard !== tangon)) { _fun00010_ip = 127; continue _fun00009 }
+ 123:
                     zuuluu = report - tangon;
- 129:
+ 127:
                     michal = zuuluu;
- 132:
+ 130:
                     entity = michal;
- 135:
+ 133:
                     return entity;
                 }
             };
@@ -356,26 +356,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = argFoo;
             zuuluu = tangon.bind(report)(zuuluu);
             tangon = 'up';
-            if(!(tangon !== golfie)) { _fun00012_ip = 178; continue _fun00011 }
- 144:
+            if(!(tangon !== golfie)) { _fun00012_ip = 177; continue _fun00011 }
+ 143:
             tangon = 'down';
-            if(!(tangon === golfie)) { _fun00012_ip = 202; continue _fun00011 }
- 152:
+            if(!(tangon === golfie)) { _fun00012_ip = 201; continue _fun00011 }
+ 151:
             golfie = report[zuuluu];
             tangon = zuuluu + oscard;
             tangon = report[tangon];
             report[zuuluu] = tangon;
             tangon = zuuluu + oscard;
             report[tangon] = golfie;
-            _fun00012_ip = 202; continue _fun00011;
- 178:
+            _fun00012_ip = 201; continue _fun00011;
+ 177:
             tangon = report[zuuluu];
             golfie = zuuluu - oscard;
             golfie = report[golfie];
             report[zuuluu] = golfie;
             zuuluu = zuuluu - oscard;
             report[zuuluu] = tangon;
- 202:
+ 201:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot1;
             michal = 3;

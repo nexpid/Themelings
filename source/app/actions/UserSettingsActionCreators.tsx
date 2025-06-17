@@ -13,20 +13,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = argFoo;
             michal = _closure1_slot6;
             michal = michal.DARK;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 204; continue _fun00001 }
- 22:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 212; continue _fun00001 }
+ 23:
             michal = _closure1_slot6;
             michal = michal.LIGHT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 169; continue _fun00001 }
- 38:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 176; continue _fun00001 }
+ 40:
             michal = _closure1_slot6;
             michal = michal.DARKER;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 134; continue _fun00001 }
- 51:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 140; continue _fun00001 }
+ 54:
             michal = _closure1_slot6;
             michal = michal.MIDNIGHT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 99; continue _fun00001 }
- 64:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 104; continue _fun00001 }
+ 68:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 6;
@@ -36,7 +36,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.Theme;
             michal = michal.DARK;
             return michal;
- 99:
+ 104:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 6;
@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.Theme;
             michal = michal.MIDNIGHT;
             return michal;
- 134:
+ 140:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 6;
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.Theme;
             michal = michal.DARKER;
             return michal;
- 169:
+ 176:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             michal = 6;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.Theme;
             michal = michal.LIGHT;
             return michal;
- 204:
+ 212:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 6;
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = {};
             oscard = {};
             oscard['shouldSync'] = golfie;
-            if(golfie) { _fun00006_ip = 153; continue _fun00005 }
+            if(golfie) { _fun00006_ip = 151; continue _fun00005 }
  55:
             golfie = {};
             verify = _closure1_slot5;
@@ -252,10 +252,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = null;
             romeon = offset == yankee;
             offset = undefined;
-            if(romeon) { _fun00006_ip = 100; continue _fun00005 }
- 95:
+            if(romeon) { _fun00006_ip = 98; continue _fun00005 }
+ 93:
             offset = yankee.id;
- 100:
+ 98:
             verify['backgroundGradientPresetId'] = offset;
             golfie['clientThemeSettings'] = verify;
             verify = _closure1_slot0;
@@ -267,10 +267,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.getSetting;
             option = option.bind(verify)();
             golfie['developerMode'] = option;
-            _fun00006_ip = 155; continue _fun00005;
- 153:
+            _fun00006_ip = 153; continue _fun00005;
+ 151:
             golfie = {};
- 155:
+ 153:
             oscard['settings'] = golfie;
             report['appearance'] = oscard;
             michal['changes'] = report;
@@ -378,8 +378,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.shouldSync;
             oscard = 'appearance';
             tangon = tangon.bind(report)(oscard);
-            if(!tangon) { _fun00008_ip = 167; continue _fun00007 }
- 102:
+            if(!tangon) { _fun00008_ip = 166; continue _fun00007 }
+ 101:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 5;
@@ -401,7 +401,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = tangon.bind(report)(oscard, michal, zuuluu);
- 167:
+ 166:
             return entity;
         }
     };
@@ -539,8 +539,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot2 = romeon;
             zuuluu = michal.useSystemTheme;
             oscard = undefined;
-            if(!(report === oscard)) { _fun00012_ip = 85; continue _fun00011 }
- 50:
+            if(!(report === oscard)) { _fun00012_ip = 84; continue _fun00011 }
+ 49:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;
@@ -548,22 +548,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(oscard)(michal);
             michal = michal.UserSettingsDelay;
             report = michal.INFREQUENT_USER_ACTION;
- 85:
+ 84:
             michal = 'system';
             foxtra = michal === romeon;
             tangon = _closure1_slot7;
-            if(foxtra) { _fun00012_ip = 111; continue _fun00011 }
- 103:
+            if(foxtra) { _fun00012_ip = 110; continue _fun00011 }
+ 102:
             sizing = tangon.OFF;
-            _fun00012_ip = 117; continue _fun00011;
- 111:
+            _fun00012_ip = 116; continue _fun00011;
+ 110:
             sizing = tangon.ON;
- 117:
+ 116:
             tangon = null;
-            if(!(tangon != zuuluu)) { _fun00012_ip = 126; continue _fun00011 }
- 123:
+            if(!(tangon != zuuluu)) { _fun00012_ip = 125; continue _fun00011 }
+ 122:
             sizing = zuuluu;
- 126:
+ 125:
             tangon = _closure1_slot1;
             golfie = _closure1_slot2;
             zuuluu = 8;
@@ -591,10 +591,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee['customUserThemeSettings'] = backup;
             offset['clientThemeSettings'] = yankee;
             yankee = undefined;
-            if(foxtra) { _fun00012_ip = 233; continue _fun00011 }
- 230:
+            if(foxtra) { _fun00012_ip = 232; continue _fun00011 }
+ 229:
             yankee = romeon;
- 233:
+ 232:
             offset['theme'] = yankee;
             verify['settings'] = offset;
             option['appearance'] = verify;
@@ -604,10 +604,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = golfie.shouldSync;
             tangon = 'appearance';
             zuuluu = zuuluu.bind(golfie)(tangon);
-            if(zuuluu) { _fun00012_ip = 282; continue _fun00011 }
- 280:
+            if(zuuluu) { _fun00012_ip = 280; continue _fun00011 }
+ 278:
             return oscard;
- 282:
+ 280:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 5;

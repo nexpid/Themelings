@@ -51,11 +51,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.indexOf;
             oscard = zuuluu.bind(tangon)(michal);
             zuuluu = -1;
-            if(!(!(oscard > zuuluu))) { _fun00004_ip = 35; continue _fun00003 }
- 31:
+            if(!(!(oscard > zuuluu))) { _fun00004_ip = 34; continue _fun00003 }
+ 30:
             zuuluu = false;
             return zuuluu;
- 35:
+ 34:
             option = _closure1_slot10;
             zuuluu = new Array(0);
             golfie = 0;

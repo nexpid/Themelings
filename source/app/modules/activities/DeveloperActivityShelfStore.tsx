@@ -315,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure3_slot0 = entity;
                 entity = zuuluu.getIsEnabled;
                 entity = entity.bind(zuuluu)();
-                if(!entity) { _fun00018_ip = 54; continue _fun00017 }
+                if(!entity) { _fun00018_ip = 53; continue _fun00017 }
  25:
                 tangon = _closure1_slot11;
                 zuuluu = tangon.find;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = zuuluu.bind(tangon)(michal);
                 michal = null;
                 entity = michal != zuuluu;
- 54:
+ 53:
                 return entity;
             }
         };
@@ -408,14 +408,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             report = report.bind(oscard)(tangon);
             tangon = null;
-            if(!(tangon != report)) { _fun00020_ip = 67; continue _fun00019 }
- 49:
+            if(!(tangon != report)) { _fun00020_ip = 66; continue _fun00019 }
+ 48:
             entity = _closure1_slot8;
             entity = entity.lastUsedObject;
             entity[zuuluu] = michal;
             entity = undefined;
             return entity;
- 67:
+ 66:
             entity = false;
             return entity;
         }

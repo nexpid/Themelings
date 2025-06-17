@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 }
                             };
                             michal = oscard.bind(tangon)(report, michal);
-                            michal = tangon.uploadFilesSimple;
+                            michal = tangon.uploadFiles;
                             michal = michal.bind(tangon)(zuuluu);
                             SaveGenerator(address=162);
  160:

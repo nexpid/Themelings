@@ -10,20 +10,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: GuildInfoHeader
         michal = argFoo;
         romeon = michal.guild;
-        offset = michal.scrollPosition;
-        var _closure2_slot0 = offset;
-        option = michal.bannerHeight;
-        var _closure2_slot1 = option;
+        option = michal.scrollPosition;
+        var _closure2_slot0 = option;
+        oscard = michal.bannerHeight;
+        var _closure2_slot1 = oscard;
         michal = _closure1_slot19;
         tangon = undefined;
         yankee = michal.bind(tangon)();
         zuuluu = _closure1_slot0;
         foxtra = _closure1_slot2;
-        report = 7;
-        michal = foxtra[report];
-        golfie = zuuluu.bind(tangon)(michal);
-        oscard = golfie.useAnimatedStyle;
-        michal = function() { // Original name: o
+        michal = 7;
+        report = foxtra[michal];
+        offset = zuuluu.bind(tangon)(report);
+        golfie = offset.useAnimatedStyle;
+        report = function() { // Original name: o
             entity = {};
             zuuluu = {};
             michal = global;
@@ -43,15 +43,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         backup = {};
-        backup['scrollPosition'] = offset;
-        backup['bannerHeight'] = option;
-        michal['__closure'] = backup;
+        backup['scrollPosition'] = option;
+        backup['bannerHeight'] = oscard;
+        report['__closure'] = backup;
         backup = 6302330113586.0;
-        michal['__workletHash'] = backup;
+        report['__workletHash'] = backup;
         backup = _closure1_slot20;
-        michal['__initData'] = backup;
-        golfie = oscard.bind(golfie)(michal);
-        michal = foxtra[report];
+        report['__initData'] = backup;
+        golfie = golfie.bind(offset)(report);
+        michal = foxtra[michal];
         zuuluu = zuuluu.bind(tangon)(michal);
         michal = zuuluu.useAnimatedStyle;
         entity = function() { // Original name: s
@@ -73,20 +73,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['transform'] = michal;
             return entity;
         };
-        oscard = {};
-        oscard['scrollPosition'] = offset;
-        oscard['bannerHeight'] = option;
-        entity['__closure'] = oscard;
-        oscard = 16710117141903.0;
-        entity['__workletHash'] = oscard;
-        oscard = _closure1_slot21;
-        entity['__initData'] = oscard;
+        report = {};
+        report['scrollPosition'] = option;
+        report['bannerHeight'] = oscard;
+        entity['__closure'] = report;
+        report = 16710117141903.0;
+        entity['__workletHash'] = report;
+        report = _closure1_slot21;
+        entity['__initData'] = report;
         option = michal.bind(zuuluu)(entity);
         zuuluu = _closure1_slot14;
         offset = _closure1_slot1;
+        report = 22;
         entity = foxtra[report];
-        entity = offset.bind(tangon)(entity);
-        michal = entity.View;
+        michal = offset.bind(tangon)(entity);
         entity = {};
         oscard = new Array(2);
         oscard[0] = golfie;
@@ -97,12 +97,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['style'] = oscard;
         golfie = _closure1_slot13;
         report = foxtra[report];
-        report = offset.bind(tangon)(report);
-        oscard = report.View;
+        oscard = offset.bind(tangon)(report);
         report = {};
         report['style'] = option;
         kiloes = _closure1_slot13;
-        option = 22;
+        option = 23;
         option = foxtra[option];
         backup = offset.bind(tangon)(option);
         option = {'absolute': true, 'tall': true};
@@ -117,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = yankee.headerWrapper;
         oscard['style'] = yankee;
         yankee = _closure1_slot13;
-        verify = 23;
+        verify = 24;
         verify = foxtra[verify];
         offset = offset.bind(tangon)(verify);
         verify = {};
@@ -154,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot5 = offset;
             ctrled = _closure1_slot0;
             source = _closure1_slot2;
-            zuuluu = 24;
+            zuuluu = 25;
             zuuluu = source[zuuluu];
             option = ctrled.bind(report)(zuuluu);
             oscard = option.useStateFromStoresObject;
@@ -179,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.bind(option)(tangon, zuuluu);
             tangon = zuuluu.actionSheetOpen;
             option = zuuluu.useReducedMotion;
-            zuuluu = 25;
+            zuuluu = 26;
             zuuluu = source[zuuluu];
             oscard = ctrled.bind(report)(zuuluu);
             zuuluu = oscard.useIsFocused;
@@ -201,12 +200,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.set;
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 26;
+                entity = 27;
                 michal = oscard[entity];
                 entity = undefined;
                 option = report.bind(entity)(michal);
                 golfie = option.withSpring;
-                michal = 27;
+                michal = 28;
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);
                 oscard = michal.springStandard;
@@ -226,12 +225,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.set;
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 26;
+                entity = 27;
                 michal = oscard[entity];
                 entity = undefined;
                 option = report.bind(entity)(michal);
                 golfie = option.withSpring;
-                michal = 27;
+                michal = 28;
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);
                 oscard = michal.springStandard;
@@ -260,7 +259,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  23:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    entity = 28;
+                    entity = 29;
                     zuuluu = zuuluu[entity];
                     entity = undefined;
                     zuuluu = tangon.bind(entity)(zuuluu);
@@ -439,14 +438,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  577:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
-            zuuluu = 29;
+            zuuluu = 30;
             zuuluu = golfie[zuuluu];
             tangon = option.bind(report)(zuuluu);
             zuuluu = tangon.getAnimatableSourceWithFallback;
             michal = function(argFoo) {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 29;
+                entity = 30;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -474,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onPressIn'] = foxtra;
             michal['onPressOut'] = oscard;
             backup = _closure1_slot13;
-            oscard = 30;
+            oscard = 31;
             oscard = golfie[oscard];
             foxtra = option.bind(report)(oscard);
             oscard = {};
@@ -811,7 +810,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = 'function RedesignGuildHeaderTsx4(){const{interpolate,pressed}=this.__closure;return{opacity:interpolate(pressed.get(),[0,1],[0,0.3])};}';
     report['code'] = option;
     var _closure1_slot23 = report;
-    report = 31;
+    report = 32;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

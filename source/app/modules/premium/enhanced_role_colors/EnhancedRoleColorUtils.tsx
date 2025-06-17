@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     zuuluu['extractColorStringsFromServerColors'] = tangon;
-    michal = function(argFoo) { // Original name: extractColorStringsFromColors
+    tangon = function(argFoo) { // Original name: extractColorStringsFromColors
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argFoo;
@@ -131,6 +131,34 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['extractColorStringsFromColors'] = michal;
+    zuuluu['extractColorStringsFromColors'] = tangon;
+    michal = function(argFoo) { // Original name: getAuthorHasGradientRole
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            zuuluu = argFoo;
+            tangon = null;
+            entity = tangon != zuuluu;
+            if(!entity) { _fun00006_ip = 63; continue _fun00005 }
+ 12:
+            michal = zuuluu.colorStrings;
+            michal = tangon != michal;
+            if(!michal) { _fun00006_ip = 41; continue _fun00005 }
+ 25:
+            report = zuuluu.colorStrings;
+            report = report.primaryColor;
+            michal = tangon != report;
+ 41:
+            if(!michal) { _fun00006_ip = 60; continue _fun00005 }
+ 44:
+            zuuluu = zuuluu.colorStrings;
+            zuuluu = zuuluu.secondaryColor;
+            michal = tangon != zuuluu;
+ 60:
+            entity = michal;
+ 63:
+            return entity;
+        }
+    };
+    zuuluu['getAuthorHasGradientRole'] = michal;
     return entity;
 })();

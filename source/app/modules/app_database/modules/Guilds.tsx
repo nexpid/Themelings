@@ -952,11 +952,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = global;
                 golfie = golfie.Array;
                 golfie = yankee instanceof golfie;
-                if(golfie) { _fun00024_ip = 134; continue _fun00023 }
- 126:
+                if(golfie) { _fun00024_ip = 133; continue _fun00023 }
+ 125:
                 golfie = option.roles;
-                _fun00024_ip = 177; continue _fun00023;
- 134:
+                _fun00024_ip = 176; continue _fun00023;
+ 133:
                 yankee = _closure1_slot0;
                 romeon = _closure1_slot3;
                 offset = 9;
@@ -966,13 +966,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = option.id;
                 option = option.roles;
                 golfie = yankee.bind(romeon)(offset, option);
- 177:
+ 176:
                 michal['roles'] = golfie;
                 golfie = null;
                 option = golfie != verify;
                 golfie = undefined;
-                if(!option) { _fun00024_ip = 223; continue _fun00023 }
- 193:
+                if(!option) { _fun00024_ip = 222; continue _fun00023 }
+ 192:
                 option = {};
                 offset = verify.user;
                 offset = offset.id;
@@ -980,7 +980,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = verify.roles;
                 option['roles'] = verify;
                 golfie = option;
- 223:
+ 222:
                 michal['member'] = golfie;
                 tangon = tangon.bind(oscard)(zuuluu, michal);
                 zuuluu = report.put;

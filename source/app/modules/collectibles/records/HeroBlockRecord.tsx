@@ -88,10 +88,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.config;
                 report = michal == tangon;
                 michal = undefined;
-                if(report) { _fun00002_ip = 297; continue _fun00001 }
+                if(report) { _fun00002_ip = 295; continue _fun00001 }
  289:
                 michal = tangon.background_style;
- 297:
+ 295:
                 zuuluu['backgroundStyle'] = michal;
                 return entity;
             }

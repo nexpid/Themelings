@@ -158,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = michal.style;
             michal = _closure1_slot7;
             offset = michal.bind(report)();
-            if(entity) { _fun00002_ip = 156; continue _fun00001 }
+            if(entity) { _fun00002_ip = 155; continue _fun00001 }
  36:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot3;
@@ -187,8 +187,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(report)(golfie, tangon);
             entity['children'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00002_ip = 408; continue _fun00001;
- 156:
+            _fun00002_ip = 406; continue _fun00001;
+ 155:
             tangon = _closure1_slot6;
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
@@ -244,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 408:
+ 406:
             return entity;
         }
     };

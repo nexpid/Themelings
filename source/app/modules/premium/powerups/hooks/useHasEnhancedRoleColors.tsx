@@ -1,4 +1,4 @@
-// app/modules/premium/powerups/utils/useHasEnhancedRoleColors.tsx
+// app/modules/premium/powerups/hooks/useHasEnhancedRoleColors.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -28,9 +28,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/powerups/utils/useHasEnhancedRoleColors.tsx';
+    tangon = 'modules/premium/powerups/hooks/useHasEnhancedRoleColors.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useHasEnhancedRoleColors
+    tangon = function(argFoo, argBar) { // Original name: useHasEnhancedRoleColors
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
@@ -71,19 +71,57 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.useGuildPowerupsExperimentEnabled;
             oscard = null;
             oscard = oscard != entity;
-            if(!oscard) { _fun00002_ip = 94; continue _fun00001 }
- 91:
+            if(!oscard) { _fun00002_ip = 92; continue _fun00001 }
+ 89:
             zuuluu = entity;
- 94:
+ 92:
             entity = argBar;
             entity = tangon.bind(report)(zuuluu, entity);
-            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
- 106:
+            if(!entity) { _fun00002_ip = 107; continue _fun00001 }
+ 104:
             entity = michal;
- 109:
+ 107:
             return entity;
         }
     };
-    zuuluu['default'] = michal;
+    zuuluu['default'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: getHasEnhancedRoleColors
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            entity = argFoo;
+            tangon = _closure1_slot2;
+            michal = tangon.getGuild;
+            golfie = michal.bind(tangon)(entity);
+            oscard = null;
+            michal = oscard != golfie;
+            if(!michal) { _fun00006_ip = 50; continue _fun00005 }
+ 29:
+            report = golfie.hasFeature;
+            tangon = _closure1_slot3;
+            tangon = tangon.ENHANCED_ROLE_COLORS;
+            michal = report.bind(golfie)(tangon);
+ 50:
+            report = _closure1_slot0;
+            tangon = _closure1_slot1;
+            zuuluu = 3;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            report = report.bind(zuuluu)(tangon);
+            tangon = report.getGuildPowerupsExperimentEnabled;
+            oscard = oscard != entity;
+            if(!oscard) { _fun00006_ip = 88; continue _fun00005 }
+ 85:
+            zuuluu = entity;
+ 88:
+            entity = argBar;
+            entity = tangon.bind(report)(zuuluu, entity);
+            if(!entity) { _fun00006_ip = 103; continue _fun00005 }
+ 100:
+            entity = michal;
+ 103:
+            return entity;
+        }
+    };
+    zuuluu['getHasEnhancedRoleColors'] = michal;
     return entity;
 })();

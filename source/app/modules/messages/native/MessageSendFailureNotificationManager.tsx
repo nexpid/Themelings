@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = entity.channelId;
             oscard = entity.messageId;
             entity = entity.shouldNotify;
-            if(!entity) { _fun00004_ip = 369; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 370; continue _fun00003 }
  25:
             michal = _closure1_slot11;
             entity = michal.getState;
@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity['onDismiss'] = tangon;
             entity = michal.bind(zuuluu)(entity);
-            _fun00004_ip = 369; continue _fun00003;
+            _fun00004_ip = 370; continue _fun00003;
  188:
             entity = undefined;
             return entity;
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['type'] = report;
             entity['userInfo'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 369:
+ 370:
             entity = undefined;
             return entity;
         }

@@ -164,10 +164,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             if(option) { _fun00002_ip = 411; continue _fun00001 }
  403:
             option = verify.INTERACTIVE_NORMAL;
-            _fun00002_ip = 417; continue _fun00001;
+            _fun00002_ip = 416; continue _fun00001;
  411:
             option = verify.WHITE;
- 417:
+ 416:
             report['color'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;

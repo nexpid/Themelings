@@ -24,18 +24,18 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = argFoo;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu.DARK;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 41; continue _fun00001 }
- 19:
+            if(!(zuuluu !== michal)) { _fun00002_ip = 43; continue _fun00001 }
+ 20:
             entity = _closure1_slot2;
             entity = entity.LIGHT;
-            if(!(entity !== michal)) { _fun00002_ip = 36; continue _fun00001 }
- 32:
+            if(!(entity !== michal)) { _fun00002_ip = 38; continue _fun00001 }
+ 34:
             entity = undefined;
             return entity;
- 36:
+ 38:
             entity = 1;
             return entity;
- 41:
+ 43:
             entity = 0;
             return entity;
         }

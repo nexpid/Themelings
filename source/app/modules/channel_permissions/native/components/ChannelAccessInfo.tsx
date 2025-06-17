@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = argFoo;
                     report = argBar;
                     entity = 0;
-                    if(!(entity !== report)) { _fun00004_ip = 523; continue _fun00003 }
+                    if(!(entity !== report)) { _fun00004_ip = 522; continue _fun00003 }
  15:
                     entity = _closure1_slot11;
                     entity = entity.MEMBERS;
@@ -243,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['children'] = report;
                     entity = tangon.bind(entity)(zuuluu, michal);
                     return entity;
- 523:
+ 522:
                     entity = null;
                     return entity;
                 }

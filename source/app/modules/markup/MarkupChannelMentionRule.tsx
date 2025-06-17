@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  121:
             report = golfie;
  124:
-            if(!(tangon != option)) { _fun00006_ip = 151; continue _fun00005 }
+            if(!(tangon != option)) { _fun00006_ip = 150; continue _fun00005 }
  128:
             golfie = option.find;
             entity = function(argFoo) {
@@ -155,12 +155,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             golfie = golfie.bind(option)(entity);
-            if(!(tangon == golfie)) { _fun00006_ip = 354; continue _fun00005 }
- 151:
+            if(!(tangon == golfie)) { _fun00006_ip = 353; continue _fun00005 }
+ 150:
             option = tangon != zuuluu;
             entity = null;
-            if(!option) { _fun00006_ip = 352; continue _fun00005 }
- 163:
+            if(!option) { _fun00006_ip = 351; continue _fun00005 }
+ 162:
             option = {};
             offset = zuuluu.type;
             option['type'] = offset;
@@ -202,9 +202,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = zuuluu.parent_id;
             option['parentId'] = verify;
             entity = option;
- 352:
+ 351:
             return entity;
- 354:
+ 353:
             entity = {};
             option = golfie.type;
             entity['type'] = option;
@@ -215,18 +215,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = golfie.name;
             entity['name'] = golfie;
             golfie = tangon != zuuluu;
-            if(!golfie) { _fun00006_ip = 409; continue _fun00005 }
- 399:
+            if(!golfie) { _fun00006_ip = 408; continue _fun00005 }
+ 398:
             option = zuuluu.isPrivate;
             golfie = option.bind(zuuluu)();
- 409:
+ 408:
             entity['isDm'] = golfie;
             golfie = tangon != zuuluu;
-            if(!golfie) { _fun00006_ip = 431; continue _fun00005 }
- 421:
+            if(!golfie) { _fun00006_ip = 430; continue _fun00005 }
+ 420:
             option = zuuluu.isForumPost;
             golfie = option.bind(zuuluu)();
- 431:
+ 430:
             entity['isForumPost'] = golfie;
             golfie = true;
             entity['isMentionable'] = golfie;
@@ -235,10 +235,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['iconType'] = report;
             tangon = tangon == zuuluu;
             michal = undefined;
-            if(tangon) { _fun00006_ip = 473; continue _fun00005 }
- 467:
+            if(tangon) { _fun00006_ip = 472; continue _fun00005 }
+ 466:
             michal = zuuluu.parent_id;
- 473:
+ 472:
             entity['parentId'] = michal;
             return entity;
         }

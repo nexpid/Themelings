@@ -43,7 +43,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             output = entity.theme;
             tangon = undefined;
             if(!(output === tangon)) { _fun00002_ip = 34; continue _fun00001 }
- 22:
+ 21:
             zuuluu = _closure1_slot3;
             output = zuuluu.DARK;
  34:

@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = result;
  317: // try_start_0
                     result = foxtra;
-                    foxtra = result.uploadFilesSimple;
+                    foxtra = result.uploadFiles;
                     oscard = foxtra.bind(result)(oscard);
                     SaveGenerator(address=335);
  333:

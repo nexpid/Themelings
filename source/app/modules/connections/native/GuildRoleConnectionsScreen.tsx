@@ -408,8 +408,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = tangon.bind(report)(zuuluu);
                             var _closure4_slot2 = tangon;
                             zuuluu = null;
-                            if(!(zuuluu != tangon)) { _fun00010_ip = 152; continue _fun00009 }
- 52:
+                            if(!(zuuluu != tangon)) { _fun00010_ip = 151; continue _fun00009 }
+ 51:
                             zuuluu = global;
                             report = zuuluu.Set;
                             oscard = report.prototype;
@@ -582,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             };
                             michal = zuuluu.bind(tangon)(michal);
                             return entity;
- 152:
+ 151:
                             return entity;
                         }
                     };

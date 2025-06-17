@@ -218,18 +218,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             zuuluu = michal.colorScheme;
             michal = 'light';
-            if(!(michal !== zuuluu)) { _fun00004_ip = 49; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00004_ip = 50; continue _fun00003 }
  30:
             michal = 'dark';
-            if(!(michal === zuuluu)) { _fun00004_ip = 58; continue _fun00003 }
+            if(!(michal === zuuluu)) { _fun00004_ip = 60; continue _fun00003 }
  38:
             michal = _closure1_slot8;
             tangon = michal.DARK;
-            _fun00004_ip = 58; continue _fun00003;
- 49:
+            _fun00004_ip = 60; continue _fun00003;
+ 50:
             michal = _closure1_slot8;
             tangon = michal.LIGHT;
- 58:
+ 60:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 11;

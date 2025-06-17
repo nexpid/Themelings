@@ -570,13 +570,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = entity.bind(michal)();
             entity = null;
             entity = entity != tangon;
-            if(!entity) { _fun00010_ip = 219; continue _fun00009 }
- 201:
+            if(!entity) { _fun00010_ip = 218; continue _fun00009 }
+ 200:
             zuuluu = report.setData;
             michal = 'channel';
             michal = zuuluu.bind(report)(michal, tangon);
             entity = true;
- 219:
+ 218:
             return entity;
         }
     };
@@ -1890,7 +1890,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.trim;
                     oscard = report.bind(oscard)();
                     report = '';
-                    if(!(report === oscard)) { _fun00020_ip = 293; continue _fun00019 }
+                    if(!(report === oscard)) { _fun00020_ip = 291; continue _fun00019 }
  213:
                     oscard = _closure1_slot9;
                     report = oscard.getChannelId;
@@ -1906,8 +1906,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     oscard = oscard.bind(zuuluu)(report);
                     report = null;
-                    if(!(report != oscard)) { _fun00020_ip = 293; continue _fun00019 }
- 256:
+                    if(!(report != oscard)) { _fun00020_ip = 291; continue _fun00019 }
+ 255:
                     verify = zuuluu.splice;
                     report = zuuluu.indexOf;
                     option = report.bind(zuuluu)(oscard);
@@ -1915,7 +1915,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = verify.bind(zuuluu)(option, report);
                     report = zuuluu.unshift;
                     report = report.bind(zuuluu)(oscard);
- 293:
+ 291:
                     oscard = _closure1_slot6;
                     report = oscard.getTextChannelNameDisambiguations;
                     report = report.bind(oscard)(golfie);

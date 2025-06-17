@@ -54,13 +54,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report[golfie];
             report = option.bind(oscard)(report);
             option = report.colors;
-            if(zuuluu) { _fun00002_ip = 118; continue _fun00001 }
- 110:
+            if(zuuluu) { _fun00002_ip = 116; continue _fun00001 }
+ 109:
             report = option.WHITE;
-            _fun00002_ip = 124; continue _fun00001;
- 118:
+            _fun00002_ip = 122; continue _fun00001;
+ 116:
             report = option.INTERACTIVE_NORMAL;
- 124:
+ 122:
             michal['color'] = report;
             entity['iconFill'] = michal;
             michal = {};
@@ -83,13 +83,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon[golfie];
             tangon = report.bind(oscard)(tangon);
             tangon = tangon.colors;
-            if(zuuluu) { _fun00002_ip = 228; continue _fun00001 }
- 220:
+            if(zuuluu) { _fun00002_ip = 225; continue _fun00001 }
+ 218:
             zuuluu = tangon.WHITE;
-            _fun00002_ip = 234; continue _fun00001;
- 228:
+            _fun00002_ip = 231; continue _fun00001;
+ 225:
             zuuluu = tangon.CONTROL_BRAND_FOREGROUND;
- 234:
+ 231:
             michal['backgroundColor'] = zuuluu;
             entity['iconBadgeIndicator'] = michal;
             return entity;

@@ -1,11 +1,11 @@
 // app/modules/launchpad/native/LaunchPadContainer.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    romeon = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = romeon;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
     var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
@@ -49,11 +49,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = offset.absoluteFillObject;
     kiloes = verify;
     yankee = copyDataProperties(kiloes, backup);
-    yankee = 5;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    romeon = yankee.SCROLLBAR_THIN_TRACK;
+    romeon = 'transparent';
     yankee = 'backgroundColor';
     verify[yankee] = romeon;
     tangon['wrapper'] = verify;
@@ -71,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = "function LaunchPadContainerTsx1(){const{interpolate,launchPadSharedState,withSpring,windowDimensions,LAUNCH_PAD_SPRING_CONFIG}=this.__closure;return{borderRadius:interpolate(launchPadSharedState.get(),[0,1],[0,16]),transform:[{scale:withSpring(interpolate(launchPadSharedState.get(),[0,1],[1,(windowDimensions.get().width-16*3)/windowDimensions.get().width]),LAUNCH_PAD_SPRING_CONFIG,'animate-always')},{translateY:withSpring(interpolate(launchPadSharedState.get(),[0,1],[0,-4]),LAUNCH_PAD_SPRING_CONFIG,'animate-always')}]};}";
     tangon['code'] = golfie;
     var _closure1_slot9 = tangon;
-    tangon = 16;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -87,11 +83,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = michal.bind(tangon)();
             foxtra = _closure1_slot1;
             vacuum = _closure1_slot2;
-            michal = 6;
+            michal = 5;
             michal = vacuum[michal];
             michal = foxtra.bind(tangon)(michal);
             update = michal.bind(tangon)();
-            michal = 7;
+            michal = 6;
             michal = vacuum[michal];
             michal = foxtra.bind(tangon)(michal);
             michal = michal.bind(tangon)();
@@ -101,7 +97,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = michal.launchPadShown;
             echoed = michal.gestureState;
             kiloes = michal.updaters;
-            michal = 8;
+            michal = 7;
             michal = vacuum[michal];
             zuuluu = foxtra.bind(tangon)(michal);
             michal = {};
@@ -115,19 +111,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = michal.gesture;
             golfie = michal.gestureRef;
             michal = _closure1_slot0;
-            zuuluu = 9;
+            zuuluu = 8;
             zuuluu = vacuum[zuuluu];
             option = michal.bind(tangon)(zuuluu);
             oscard = option.useICYMISearchExperienceExperiment;
             zuuluu = 'LaunchPadContainer';
             zuuluu = oscard.bind(option)(zuuluu);
             yankee = zuuluu.searchEnabled;
-            zuuluu = 10;
+            zuuluu = 9;
             zuuluu = vacuum[zuuluu];
             zuuluu = foxtra.bind(tangon)(zuuluu);
             verify = zuuluu.bind(tangon)();
             var _closure2_slot1 = verify;
-            offset = 11;
+            offset = 10;
             zuuluu = vacuum[offset];
             oscard = michal.bind(tangon)(zuuluu);
             zuuluu = oscard.useAnimatedStyle;
@@ -135,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = {};
                 yankee = _closure1_slot0;
                 romeon = _closure1_slot2;
-                tangon = 11;
+                tangon = 10;
                 michal = romeon[tangon];
                 offset = undefined;
                 foxtra = yankee.bind(offset)(michal);
@@ -148,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = option.bind(foxtra)(oscard, report, zuuluu);
                 entity['borderRadius'] = zuuluu;
                 zuuluu = {};
-                report = 12;
+                report = 11;
                 oscard = romeon[report];
                 foxtra = yankee.bind(offset)(oscard);
                 oscard = foxtra.withSpring;
@@ -203,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = ctrled.interpolate;
             option['interpolate'] = ctrled;
             option['launchPadSharedState'] = output;
-            ctrled = 12;
+            ctrled = 11;
             ctrled = vacuum[ctrled];
             ctrled = michal.bind(tangon)(ctrled);
             ctrled = ctrled.withSpring;
@@ -218,13 +214,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__initData'] = option;
             ctrled = zuuluu.bind(oscard)(entity);
             zuuluu = _closure1_slot6;
-            entity = 13;
+            entity = 12;
             entity = vacuum[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.GestureDetector;
             entity = {};
             entity['gesture'] = report;
-            report = 14;
+            report = 13;
             report = vacuum[report];
             report = foxtra.bind(tangon)(report);
             oscard = report.Provider;
@@ -258,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot6;
             foxtra = _closure1_slot1;
             source = _closure1_slot2;
-            romeon = 15;
+            romeon = 14;
             romeon = source[romeon];
             foxtra = foxtra.bind(tangon)(romeon);
             romeon = {};

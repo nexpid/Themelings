@@ -168,8 +168,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.id;
             tangon = tangon.bind(report)(michal);
             michal = true;
-            if(!(michal === tangon)) { _fun00006_ip = 104; continue _fun00005 }
- 75:
+            if(!(michal === tangon)) { _fun00006_ip = 105; continue _fun00005 }
+ 76:
             michal = zuuluu.getChannelRecords;
             zuuluu = michal.bind(zuuluu)();
             michal = zuuluu.filter;
@@ -214,10 +214,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             entity = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 108; continue _fun00005;
- 104:
+            _fun00006_ip = 109; continue _fun00005;
+ 105:
             entity = new Array(0);
- 108:
+ 109:
             return entity;
         }
     };

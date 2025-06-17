@@ -44,15 +44,15 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = argFoo;
             michal = entity.l;
             entity = 0.3;
-            if(!(!(michal <= entity))) { _fun00002_ip = 36; continue _fun00001 }
+            if(!(!(michal <= entity))) { _fun00002_ip = 37; continue _fun00001 }
  22:
             entity = _closure1_slot2;
             entity = entity.LIGHT;
-            _fun00002_ip = 48; continue _fun00001;
- 36:
+            _fun00002_ip = 50; continue _fun00001;
+ 37:
             michal = _closure1_slot2;
             entity = michal.DARK;
- 48:
+ 50:
             return entity;
         }
     };
@@ -109,32 +109,32 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             oscard = argFoo;
             report = argBar;
             entity = oscard === report;
-            if(entity) { _fun00004_ip = 83; continue _fun00003 }
+            if(entity) { _fun00004_ip = 87; continue _fun00003 }
  13:
             michal = _closure1_slot2;
             michal = michal.DARK;
             michal = oscard === michal;
-            if(!michal) { _fun00004_ip = 45; continue _fun00003 }
- 32:
+            if(!michal) { _fun00004_ip = 47; continue _fun00003 }
+ 33:
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu.DARKER;
             michal = report === zuuluu;
- 45:
-            if(michal) { _fun00004_ip = 80; continue _fun00003 }
- 48:
+ 47:
+            if(michal) { _fun00004_ip = 84; continue _fun00003 }
+ 50:
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu.DARKER;
             zuuluu = oscard === zuuluu;
-            if(!zuuluu) { _fun00004_ip = 77; continue _fun00003 }
- 64:
+            if(!zuuluu) { _fun00004_ip = 81; continue _fun00003 }
+ 67:
             tangon = _closure1_slot2;
             tangon = tangon.DARK;
             zuuluu = report === tangon;
- 77:
+ 81:
             michal = zuuluu;
- 80:
+ 84:
             entity = michal;
- 83:
+ 87:
             return entity;
         }
     };

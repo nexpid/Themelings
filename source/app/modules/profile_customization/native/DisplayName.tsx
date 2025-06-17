@@ -176,27 +176,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = entity.BOT;
             entity = backup.isSystemUser;
             entity = entity.bind(backup)();
-            if(entity) { _fun00004_ip = 235; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 220; continue _fun00003 }
  191:
-            entity = backup.isClyde;
-            entity = entity.bind(backup)();
-            if(!entity) { _fun00004_ip = 264; continue _fun00003 }
- 204:
-            michal = _closure1_slot1;
-            entity = _closure1_slot2;
-            entity = entity[papara];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.Types;
-            record = entity.AI;
-            _fun00004_ip = 264; continue _fun00003;
- 235:
             michal = _closure1_slot1;
             entity = _closure1_slot2;
             entity = entity[papara];
             entity = michal.bind(tangon)(entity);
             entity = entity.Types;
             record = entity.SYSTEM_DM;
- 264:
+ 220:
             zuuluu = _closure1_slot4;
             romeon = _closure1_slot0;
             verify = _closure1_slot2;
@@ -231,8 +219,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['color'] = output;
             output = new Array(2);
             output[0] = source;
-            if(!result) { _fun00004_ip = 455; continue _fun00003 }
- 407:
+            if(!result) { _fun00004_ip = 411; continue _fun00003 }
+ 363:
             target = _closure1_slot4;
             sierra = _closure1_slot1;
             limora = _closure1_slot2;
@@ -245,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = sierra.bind(tangon)(status);
             source['source'] = status;
             result = target.bind(tangon)(config, source);
- 455:
+ 411:
             output[1] = result;
             verify['children'] = output;
             romeon = golfie.bind(tangon)(romeon, verify);
@@ -254,8 +242,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = backup.bot;
             romeon = null;
             output = null;
-            if(!result) { _fun00004_ip = 548; continue _fun00003 }
- 490:
+            if(!result) { _fun00004_ip = 504; continue _fun00003 }
+ 446:
             config = _closure1_slot4;
             source = _closure1_slot1;
             result = _closure1_slot2;
@@ -269,23 +257,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = record.bind(backup)();
             result['verified'] = record;
             output = config.bind(tangon)(source, result);
- 548:
+ 504:
             verify[1] = output;
             option['children'] = verify;
             verify = golfie.bind(tangon)(oscard, option);
             option = new Array(3);
             option[0] = verify;
             verify = null;
-            if(sizing) { _fun00004_ip = 885; continue _fun00003 }
- 578:
+            if(sizing) { _fun00004_ip = 841; continue _fun00003 }
+ 534:
             result = _closure1_slot5;
             output = _closure1_slot3;
             sizing = {};
             source = foxtra.subNameContainer;
             sizing['style'] = source;
             source = null;
-            if(!echoed) { _fun00004_ip = 689; continue _fun00003 }
- 603:
+            if(!echoed) { _fun00004_ip = 645; continue _fun00003 }
+ 559:
             record = _closure1_slot4;
             config = _closure1_slot1;
             status = _closure1_slot2;
@@ -306,16 +294,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = true;
             echoed['animate'] = papara;
             source = record.bind(tangon)(config, echoed);
- 689:
+ 645:
             echoed = new Array(3);
             echoed[0] = source;
             config = romeon != cntext;
             source = null;
-            if(!config) { _fun00004_ip = 772; continue _fun00003 }
- 706:
+            if(!config) { _fun00004_ip = 728; continue _fun00003 }
+ 662:
             source = null;
-            if(!(ctrled !== cntext)) { _fun00004_ip = 772; continue _fun00003 }
- 712:
+            if(!(ctrled !== cntext)) { _fun00004_ip = 728; continue _fun00003 }
+ 668:
             record = _closure1_slot4;
             config = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -327,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled['style'] = papara;
             ctrled['children'] = cntext;
             source = record.bind(tangon)(config, ctrled);
- 772:
+ 728:
             echoed[1] = source;
             ctrled = _closure1_slot5;
             source = _closure1_slot0;
@@ -351,19 +339,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed[2] = update;
             sizing['children'] = echoed;
             verify = result.bind(tangon)(output, sizing);
- 885:
+ 841:
             option[1] = verify;
             verify = null;
-            if(!kiloes) { _fun00004_ip = 958; continue _fun00003 }
- 894:
+            if(!kiloes) { _fun00004_ip = 914; continue _fun00003 }
+ 850:
             yankee = romeon == yankee;
             verify = null;
-            if(!yankee) { _fun00004_ip = 958; continue _fun00003 }
- 903:
+            if(!yankee) { _fun00004_ip = 914; continue _fun00003 }
+ 859:
             yankee = romeon != backup;
             verify = null;
-            if(!yankee) { _fun00004_ip = 958; continue _fun00003 }
- 912:
+            if(!yankee) { _fun00004_ip = 914; continue _fun00003 }
+ 868:
             romeon = _closure1_slot4;
             yankee = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -375,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.AKAContainer;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 958:
+ 914:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

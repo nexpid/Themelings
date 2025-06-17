@@ -122,10 +122,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['renderItem'] = option;
             option = {};
             offset = 0;
-            if(!yankee) { _fun00002_ip = 377; continue _fun00001 }
- 374:
+            if(!yankee) { _fun00002_ip = 379; continue _fun00001 }
+ 376:
             offset = 24;
- 377:
+ 379:
             option['paddingTop'] = offset;
             offset = verify.bottom;
             yankee = _closure1_slot1;

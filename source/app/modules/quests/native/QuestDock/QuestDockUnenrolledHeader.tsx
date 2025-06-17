@@ -265,13 +265,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report.isThemeDark;
             report = michal.bind(report)(oscard);
             michal = _closure1_slot11;
-            if(report) { _fun00002_ip = 207; continue _fun00001 }
+            if(report) { _fun00002_ip = 208; continue _fun00001 }
  200:
             result = michal.LIGHT;
-            _fun00002_ip = 212; continue _fun00001;
- 207:
+            _fun00002_ip = 214; continue _fun00001;
+ 208:
             result = michal.DARK;
- 212:
+ 214:
             michal = _closure1_slot0;
             kiloes = _closure1_slot2;
             report = 17;
@@ -614,21 +614,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             kiloes = _closure1_slot11;
             kiloes = kiloes.DARK;
-            if(!(result !== kiloes)) { _fun00002_ip = 910; continue _fun00001 }
- 888:
+            if(!(result !== kiloes)) { _fun00002_ip = 913; continue _fun00001 }
+ 891:
             result = _closure1_slot1;
             echoed = _closure1_slot2;
             kiloes = 23;
             kiloes = echoed[kiloes];
             kiloes = result.bind(tangon)(kiloes);
-            _fun00002_ip = 930; continue _fun00001;
- 910:
+            _fun00002_ip = 933; continue _fun00001;
+ 913:
             echoed = _closure1_slot1;
             update = _closure1_slot2;
             result = 22;
             result = update[result];
             kiloes = echoed.bind(tangon)(result);
- 930:
+ 933:
             option['source'] = kiloes;
             kiloes = 'contain';
             option['resizeMode'] = kiloes;

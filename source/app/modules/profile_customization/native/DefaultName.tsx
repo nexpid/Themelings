@@ -121,9 +121,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = report.guildId;
             romeon = report.canShowNicknames;
             michal = report.showGuildAvatar;
-            kiloes = report.onPress;
+            backup = report.onPress;
             config = report.renderRightArrow;
-            backup = report.accessibilityHint;
+            verify = report.accessibilityHint;
             zuuluu = report.overrideDiscriminator;
             entity = report.forcePomelo;
             tangon = undefined;
@@ -155,29 +155,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = report.bind(oscard)(michal);
  143:
             michal = yankee.isPomelo;
-            michal = michal.bind(yankee)();
-            verify = null;
-            record = null;
-            if(michal) { _fun00004_ip = 212; continue _fun00003 }
- 160:
-            record = null;
-            if(entity) { _fun00004_ip = 212; continue _fun00003 }
- 165:
-            entity = yankee.isClyde;
-            entity = entity.bind(yankee)();
-            record = null;
-            if(entity) { _fun00004_ip = 212; continue _fun00003 }
- 180:
-            if(!(verify == zuuluu)) { _fun00004_ip = 190; continue _fun00003 }
- 184:
+            record = michal.bind(yankee)();
+            if(record) { _fun00004_ip = 159; continue _fun00003 }
+ 156:
+            record = entity;
+ 159:
+            if(record) { _fun00004_ip = 196; continue _fun00003 }
+ 162:
+            entity = null;
+            if(!(entity == zuuluu)) { _fun00004_ip = 174; continue _fun00003 }
+ 168:
             zuuluu = yankee.discriminator;
- 190:
+ 174:
             entity = global;
             entity = entity.HermesInternal;
             michal = entity.concat;
             entity = '#';
             record = michal.bind(entity)(zuuluu);
- 212:
+ 196:
             michal = _closure1_slot1;
             entity = _closure1_slot2;
             echoed = 4;
@@ -187,51 +182,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = entity.BOT;
             entity = yankee.isSystemUser;
             entity = entity.bind(yankee)();
-            if(entity) { _fun00004_ip = 301; continue _fun00003 }
- 257:
-            entity = yankee.isClyde;
-            entity = entity.bind(yankee)();
-            if(!entity) { _fun00004_ip = 330; continue _fun00003 }
- 270:
-            michal = _closure1_slot1;
-            entity = _closure1_slot2;
-            entity = entity[echoed];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.Types;
-            result = entity.AI;
-            _fun00004_ip = 330; continue _fun00003;
- 301:
+            if(!entity) { _fun00004_ip = 270; continue _fun00003 }
+ 241:
             michal = _closure1_slot1;
             entity = _closure1_slot2;
             entity = entity[echoed];
             entity = michal.bind(tangon)(entity);
             entity = entity.Types;
             result = entity.SYSTEM_DM;
- 330:
+ 270:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot3;
             entity = {};
             report = offset.flex;
             entity['style'] = report;
             oscard = _closure1_slot0;
-            sizing = _closure1_slot2;
+            kiloes = _closure1_slot2;
             report = 6;
-            report = sizing[report];
+            report = kiloes[report];
             report = oscard.bind(tangon)(report);
             oscard = report.PressableOpacity;
             report = {};
-            sizing = offset.defaultNameContainer;
-            report['style'] = sizing;
-            report['onPress'] = kiloes;
-            kiloes = 'header';
-            report['accessibilityRole'] = kiloes;
-            kiloes = _closure1_slot7;
-            kiloes = kiloes.bind(tangon)(yankee);
-            report['accessibilityLabel'] = kiloes;
-            report['accessibilityHint'] = backup;
+            kiloes = offset.defaultNameContainer;
+            report['style'] = kiloes;
+            report['onPress'] = backup;
+            backup = 'header';
+            report['accessibilityRole'] = backup;
+            backup = _closure1_slot7;
+            backup = backup.bind(tangon)(yankee);
+            report['accessibilityLabel'] = backup;
+            report['accessibilityHint'] = verify;
+            verify = null;
             backup = null;
-            if(!foxtra) { _fun00004_ip = 508; continue _fun00003 }
- 422:
+            if(!foxtra) { _fun00004_ip = 450; continue _fun00003 }
+ 364:
             sizing = _closure1_slot4;
             kiloes = _closure1_slot1;
             sequen = _closure1_slot2;
@@ -252,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = offset.defaultAvatar;
             foxtra['style'] = output;
             backup = sizing.bind(tangon)(kiloes, foxtra);
- 508:
+ 450:
             foxtra = new Array(3);
             foxtra[0] = backup;
             sizing = _closure1_slot5;
@@ -282,8 +266,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = new Array(2);
             output[0] = update;
             update = null;
-            if(source) { _fun00004_ip = 744; continue _fun00003 }
- 631:
+            if(source) { _fun00004_ip = 686; continue _fun00003 }
+ 573:
             vacuum = _closure1_slot5;
             ctrled = _closure1_slot0;
             source = _closure1_slot2;
@@ -293,8 +277,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = {'variant': 'heading-xl/medium', 'color': 'header-secondary'};
             sequen = new Array(2);
             sequen[0] = record;
-            if(!config) { _fun00004_ip = 730; continue _fun00003 }
- 682:
+            if(!config) { _fun00004_ip = 672; continue _fun00003 }
+ 624:
             papara = _closure1_slot4;
             status = _closure1_slot1;
             sierra = _closure1_slot2;
@@ -307,19 +291,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = status.bind(tangon)(target);
             record['source'] = target;
             config = papara.bind(tangon)(cntext, record);
- 730:
+ 672:
             sequen[1] = config;
             source['children'] = sequen;
             update = vacuum.bind(tangon)(ctrled, source);
- 744:
+ 686:
             output[1] = update;
             backup['children'] = output;
             backup = sizing.bind(tangon)(kiloes, backup);
             foxtra[1] = backup;
             kiloes = yankee.bot;
             backup = null;
-            if(!kiloes) { _fun00004_ip = 831; continue _fun00003 }
- 773:
+            if(!kiloes) { _fun00004_ip = 773; continue _fun00003 }
+ 715:
             output = _closure1_slot4;
             sizing = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -333,23 +317,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.bind(yankee)();
             kiloes['verified'] = result;
             backup = output.bind(tangon)(sizing, kiloes);
- 831:
+ 773:
             foxtra[2] = backup;
             report['children'] = foxtra;
             oscard = zuuluu.bind(tangon)(oscard, report);
             report = new Array(2);
             report[0] = oscard;
             oscard = null;
-            if(!romeon) { _fun00004_ip = 922; continue _fun00003 }
- 858:
+            if(!romeon) { _fun00004_ip = 864; continue _fun00003 }
+ 800:
             option = verify == option;
             oscard = null;
-            if(!option) { _fun00004_ip = 922; continue _fun00003 }
- 867:
+            if(!option) { _fun00004_ip = 864; continue _fun00003 }
+ 809:
             option = verify != yankee;
             oscard = null;
-            if(!option) { _fun00004_ip = 922; continue _fun00003 }
- 876:
+            if(!option) { _fun00004_ip = 864; continue _fun00003 }
+ 818:
             verify = _closure1_slot4;
             option = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -361,7 +345,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.AKAContainer;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 922:
+ 864:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

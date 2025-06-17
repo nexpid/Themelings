@@ -1336,7 +1336,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot13;
             entity = undefined;
             zuuluu = zuuluu.bind(entity)();
-            if(zuuluu) { _fun00050_ip = 114; continue _fun00049 }
+            if(zuuluu) { _fun00050_ip = 112; continue _fun00049 }
  22:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
@@ -1360,7 +1360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['enabled'] = oscard;
             michal['location'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 114:
+ 112:
             return entity;
         }
     };

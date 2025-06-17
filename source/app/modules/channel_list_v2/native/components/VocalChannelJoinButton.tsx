@@ -171,10 +171,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.isAndroid;
             golfie = golfie.bind(option)();
             tangon = 0;
-            if(!golfie) { _fun00002_ip = 535; continue _fun00001 }
- 529:
+            if(!golfie) { _fun00002_ip = 534; continue _fun00001 }
+ 528:
             tangon = -2;
- 535:
+ 534:
             michal['marginTop'] = tangon;
             entity['joinButtonText'] = michal;
             michal = {'backgroundColor': null, 'width': 8, 'height': 8};
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = null;
                     tangon = michal == entity;
                     entity = undefined;
-                    if(tangon) { _fun00006_ip = 42; continue _fun00005 }
+                    if(tangon) { _fun00006_ip = 41; continue _fun00005 }
  18:
                     report = _closure2_slot1;
                     tangon = report.find;
@@ -328,7 +328,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     entity = tangon.bind(report)(zuuluu);
- 42:
+ 41:
                     entity = michal != entity;
                     return entity;
                 }

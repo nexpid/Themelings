@@ -198,50 +198,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.SoundboardSoundGridSectionType;
             zuuluu = zuuluu.GUILD;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 471; continue _fun00007 }
- 63:
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 472; continue _fun00007 }
+ 64:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.SoundboardSoundGridSectionType;
             zuuluu = zuuluu.DEFAULTS;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 414; continue _fun00007 }
- 99:
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 415; continue _fun00007 }
+ 100:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.SoundboardSoundGridSectionType;
             zuuluu = zuuluu.FAVORITES;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 357; continue _fun00007 }
- 135:
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 358; continue _fun00007 }
+ 136:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.SoundboardSoundGridSectionType;
             zuuluu = zuuluu.SEARCH;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 353; continue _fun00007 }
- 171:
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 354; continue _fun00007 }
+ 172:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.SoundboardSoundGridSectionType;
             zuuluu = zuuluu.RECENTLY_HEARD;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 296; continue _fun00007 }
- 204:
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 297; continue _fun00007 }
+ 205:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[golfie];
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.SoundboardSoundGridSectionType;
             zuuluu = zuuluu.FREQUENTLY_USED;
-            if(!(zuuluu !== tangon)) { _fun00008_ip = 239; continue _fun00007 }
- 237:
+            if(!(zuuluu !== tangon)) { _fun00008_ip = 240; continue _fun00007 }
+ 238:
             return oscard;
- 239:
+ 240:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 8;
@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.+cGVV1;
             zuuluu = tangon.bind(report)(zuuluu);
             return zuuluu;
- 296:
+ 297:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 8;
@@ -269,10 +269,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.8i/+SE;
             zuuluu = tangon.bind(report)(zuuluu);
             return zuuluu;
- 353:
+ 354:
             zuuluu = null;
             return zuuluu;
- 357:
+ 358:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 8;
@@ -286,7 +286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.y3LQCA;
             zuuluu = tangon.bind(report)(zuuluu);
             return zuuluu;
- 414:
+ 415:
             report = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 8;
@@ -300,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.Rtvk9f;
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 471:
+ 472:
             entity = entity.category;
             entity = entity.categoryInfo;
             entity = entity.guild;
@@ -411,10 +411,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = tangon.bind(offset)(zuuluu, entity);
             entity = null;
-            if(!(entity != option)) { _fun00010_ip = 287; continue _fun00009 }
+            if(!(entity != option)) { _fun00010_ip = 288; continue _fun00009 }
  109:
             offset = !zuuluu;
-            if(!offset) { _fun00010_ip = 163; continue _fun00009 }
+            if(!offset) { _fun00010_ip = 164; continue _fun00009 }
  115:
             tangon = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -426,7 +426,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option.category;
             michal = michal.categoryInfo;
             offset = tangon.bind(romeon)(zuuluu, michal);
- 163:
+ 164:
             _closure2_slot3 = offset;
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot4;
@@ -435,8 +435,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = new Array(1);
             yankee[0] = romeon;
             michal['style'] = yankee;
-            if(!offset) { _fun00010_ip = 236; continue _fun00009 }
- 198:
+            if(!offset) { _fun00010_ip = 237; continue _fun00009 }
+ 199:
             romeon = _closure1_slot6;
             yankee = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -446,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = oscard.PremiumUpsellGradientBackground;
             oscard = {};
             offset = romeon.bind(report)(yankee, oscard);
- 236:
+ 237:
             oscard = new Array(2);
             oscard[0] = offset;
             option = option.soundsByRow;
@@ -530,7 +530,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 287:
+ 288:
             return entity;
         }
     };
@@ -622,53 +622,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.SoundboardSoundGridSectionType;
                     entity = entity.GUILD;
-                    if(!(entity !== michal)) { _fun00018_ip = 511; continue _fun00017 }
- 63:
+                    if(!(entity !== michal)) { _fun00018_ip = 512; continue _fun00017 }
+ 64:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[oscard];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.SoundboardSoundGridSectionType;
                     entity = entity.DEFAULTS;
-                    if(!(entity !== michal)) { _fun00018_ip = 444; continue _fun00017 }
- 99:
+                    if(!(entity !== michal)) { _fun00018_ip = 445; continue _fun00017 }
+ 100:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[oscard];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.SoundboardSoundGridSectionType;
                     entity = entity.FAVORITES;
-                    if(!(entity !== michal)) { _fun00018_ip = 377; continue _fun00017 }
- 135:
+                    if(!(entity !== michal)) { _fun00018_ip = 378; continue _fun00017 }
+ 136:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[oscard];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.SoundboardSoundGridSectionType;
                     entity = entity.RECENTLY_HEARD;
-                    if(!(entity !== michal)) { _fun00018_ip = 310; continue _fun00017 }
- 171:
+                    if(!(entity !== michal)) { _fun00018_ip = 311; continue _fun00017 }
+ 172:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[oscard];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.SoundboardSoundGridSectionType;
                     entity = entity.FREQUENTLY_USED;
-                    if(!(entity !== michal)) { _fun00018_ip = 243; continue _fun00017 }
- 204:
+                    if(!(entity !== michal)) { _fun00018_ip = 244; continue _fun00017 }
+ 205:
                     zuuluu = _closure1_slot0;
                     entity = _closure1_slot2;
                     entity = entity[oscard];
                     entity = zuuluu.bind(tangon)(entity);
                     entity = entity.SoundboardSoundGridSectionType;
                     entity = entity.SEARCH;
-                    if(!(entity !== michal)) { _fun00018_ip = 239; continue _fun00017 }
- 237:
+                    if(!(entity !== michal)) { _fun00018_ip = 240; continue _fun00017 }
+ 238:
                     return tangon;
- 239:
+ 240:
                     entity = null;
                     return entity;
- 243:
+ 244:
                     zuuluu = _closure1_slot6;
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -685,7 +685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['style'] = oscard;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 310:
+ 311:
                     zuuluu = _closure1_slot6;
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -702,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['style'] = oscard;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 377:
+ 378:
                     zuuluu = _closure1_slot6;
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -719,7 +719,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['style'] = oscard;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 444:
+ 445:
                     zuuluu = _closure1_slot6;
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -736,7 +736,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['style'] = oscard;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 511:
+ 512:
                     zuuluu = _closure1_slot6;
                     michal = _closure1_slot1;
                     option = _closure1_slot2;
@@ -775,7 +775,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = null;
                     entity = zuuluu != tangon;
  30:
-                    if(!entity) { _fun00020_ip = 98; continue _fun00019 }
+                    if(!entity) { _fun00020_ip = 99; continue _fun00019 }
  33:
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
@@ -791,7 +791,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.category;
                     michal = michal.categoryInfo;
                     entity = tangon.bind(report)(zuuluu, michal);
- 98:
+ 99:
                     return entity;
                 }
             };
@@ -889,7 +889,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = 9;
             backup = 18;
             romeon = 8;
-            if(golfie) { _fun00014_ip = 443; continue _fun00013 }
+            if(golfie) { _fun00014_ip = 444; continue _fun00013 }
  344:
             vacuum = yankee.value;
             echoed = _closure1_slot1;
@@ -914,7 +914,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = echoed.done;
             yankee = echoed;
             if(!golfie) { _fun00014_ip = 344; continue _fun00013 }
- 443:
+ 444:
             _closure2_slot6 = foxtra;
             romeon = _closure1_slot3;
             backup = romeon.useMemo;

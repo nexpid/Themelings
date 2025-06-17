@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                             entity = argBar;
                             oscard = 0;
-                            if(!(entity > oscard)) { _fun00006_ip = 48; continue _fun00005 }
+                            if(!(entity > oscard)) { _fun00006_ip = 47; continue _fun00005 }
  9:
                             zuuluu = _closure3_slot1;
                             michal = zuuluu.push;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             entity = entity[oscard];
                             entity = tangon.bind(report)(entity);
                             entity = michal.bind(zuuluu)(entity);
- 48:
+ 47:
                             entity = undefined;
                             return entity;
                         }
@@ -1132,16 +1132,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal = michal.bind(zuuluu)(entity);
                     tangon = null;
                     entity = tangon == michal;
-                    if(entity) { _fun00022_ip = 50; continue _fun00021 }
- 41:
+                    if(entity) { _fun00022_ip = 49; continue _fun00021 }
+ 40:
                     zuuluu = michal.action;
                     entity = tangon == zuuluu;
- 50:
-                    if(entity) { _fun00022_ip = 62; continue _fun00021 }
- 53:
+ 49:
+                    if(entity) { _fun00022_ip = 61; continue _fun00021 }
+ 52:
                     entity = michal.action;
                     entity = entity.bind(michal)();
- 62:
+ 61:
                     entity = undefined;
                     return entity;
                 }

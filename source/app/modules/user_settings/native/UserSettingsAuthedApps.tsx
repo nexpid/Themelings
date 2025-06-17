@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[0] = entity;
             entity = function() {
                 michal = _closure1_slot7;
-                entity = michal.getApps;
+                entity = michal.getNonChildrenApps;
                 entity = entity.bind(michal)();
                 return entity;
             };

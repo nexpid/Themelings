@@ -273,22 +273,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot0;
                     golfie = null;
                     michal = golfie == michal;
-                    if(michal) { _fun00006_ip = 53; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 30; continue _fun00005 }
  16:
                     tangon = _closure2_slot0;
                     zuuluu = tangon.isNonUserBot;
-                    zuuluu = zuuluu.bind(tangon)();
-                    if(!zuuluu) { _fun00006_ip = 50; continue _fun00005 }
+                    michal = zuuluu.bind(tangon)();
+ 30:
+                    if(michal) { _fun00006_ip = 103; continue _fun00005 }
  33:
-                    report = _closure2_slot0;
-                    tangon = report.isClyde;
-                    tangon = tangon.bind(report)();
-                    zuuluu = !tangon;
- 50:
-                    michal = zuuluu;
- 53:
-                    if(michal) { _fun00006_ip = 126; continue _fun00005 }
- 56:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
                     michal = 39;
@@ -302,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(oscard)(golfie, entity);
                     entity = {'withMutualGuilds': true, 'dispatchWait': true};
                     entity = tangon.bind(report)(zuuluu, michal, entity);
- 126:
+ 103:
                     entity = undefined;
                     return entity;
                 }
@@ -667,7 +659,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     zuuluu = entity != zuuluu;
                     entity = undefined;
-                    if(!zuuluu) { _fun00012_ip = 42; continue _fun00011 }
+                    if(!zuuluu) { _fun00012_ip = 41; continue _fun00011 }
  18:
                     tangon = _closure2_slot3;
                     zuuluu = tangon.find;
@@ -688,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     entity = zuuluu.bind(tangon)(michal);
- 42:
+ 41:
                     return entity;
                 }
             };

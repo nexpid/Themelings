@@ -168,10 +168,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     zuuluu = entity == michal;
                     entity = undefined;
-                    if(zuuluu) { _fun00006_ip = 50; continue _fun00005 }
- 45:
+                    if(zuuluu) { _fun00006_ip = 49; continue _fun00005 }
+ 44:
                     entity = michal.label;
- 50:
+ 49:
                     return entity;
                 }
             };
@@ -383,10 +383,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = update.bind(source)(yankee);
             update = offset == yankee;
             offset = undefined;
-            if(update) { _fun00002_ip = 862; continue _fun00001 }
- 857:
+            if(update) { _fun00002_ip = 861; continue _fun00001 }
+ 856:
             offset = yankee.icon;
- 862:
+ 861:
             result['icon'] = offset;
             yankee = _closure1_slot7;
             offset = _closure1_slot0;

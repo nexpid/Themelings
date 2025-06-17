@@ -74,10 +74,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  39:
             var _closure2_slot1 = zuuluu;
             golfie = entity.keyboardHeightOffset;
-            if(!(golfie === tangon)) { _fun00004_ip = 55; continue _fun00003 }
- 53:
-            golfie = 0;
+            if(!(golfie === tangon)) { _fun00004_ip = 57; continue _fun00003 }
  55:
+            golfie = 0;
+ 57:
             var _closure2_slot2 = golfie;
             var _closure2_slot3 = tangon;
             var _closure2_slot4 = tangon;

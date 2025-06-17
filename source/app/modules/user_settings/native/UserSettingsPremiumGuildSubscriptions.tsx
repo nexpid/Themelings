@@ -230,17 +230,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report['destinationPane'] = option;
                         report = oscard.bind(golfie)(report);
                         report = null;
-                        if(!(report == zuuluu)) { _fun00006_ip = 166; continue _fun00005 }
- 144:
+                        if(!(report == zuuluu)) { _fun00006_ip = 165; continue _fun00005 }
+ 143:
                         report = tangon.push;
                         michal = _closure1_slot15;
                         michal = michal.PREMIUM;
                         michal = report.bind(tangon)(michal);
-                        _fun00006_ip = 177; continue _fun00005;
- 166:
+                        _fun00006_ip = 176; continue _fun00005;
+ 165:
                         michal = tangon.navigate;
                         michal = michal.bind(tangon)(zuuluu);
- 177:
+ 176:
                         return entity;
                     }
                 };
@@ -327,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.props;
                 michal = entity.hasSlots;
                 entity = null;
-                if(!michal) { _fun00010_ip = 414; continue _fun00009 }
+                if(!michal) { _fun00010_ip = 413; continue _fun00009 }
  41:
                 tangon = _closure1_slot18;
                 michal = _closure1_slot8;
@@ -406,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard[1] = golfie;
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 414:
+ 413:
                 return entity;
             }
         };

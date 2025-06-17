@@ -86,18 +86,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure2_slot1;
                     entity = null;
-                    if(!(entity != zuuluu)) { _fun00004_ip = 73; continue _fun00003 }
+                    if(!(entity != zuuluu)) { _fun00004_ip = 72; continue _fun00003 }
  13:
                     zuuluu = _closure2_slot1;
                     tangon = zuuluu.type;
                     zuuluu = 'text';
-                    if(!(zuuluu === tangon)) { _fun00004_ip = 73; continue _fun00003 }
+                    if(!(zuuluu === tangon)) { _fun00004_ip = 72; continue _fun00003 }
  30:
                     zuuluu = _closure2_slot0;
                     oscard = zuuluu.choices;
                     zuuluu = entity == oscard;
                     tangon = undefined;
-                    if(zuuluu) { _fun00004_ip = 69; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 68; continue _fun00003 }
  49:
                     report = oscard.find;
                     zuuluu = function(argFoo) {
@@ -109,12 +109,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     tangon = report.bind(oscard)(zuuluu);
- 69:
-                    if(!(entity == tangon)) { _fun00004_ip = 77; continue _fun00003 }
- 73:
+ 68:
+                    if(!(entity == tangon)) { _fun00004_ip = 76; continue _fun00003 }
+ 72:
                     entity = undefined;
                     return entity;
- 77:
+ 76:
                     entity = {};
                     entity['choice'] = tangon;
                     michal = _closure2_slot0;

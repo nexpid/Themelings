@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = golfie.bind(entity)(oscard);
     oscard = oscard.ThemeTypes;
     var _closure1_slot7 = oscard;
-    oscard = 7;
+    oscard = 8;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = golfie.bind(option)(oscard);
     zuuluu['processColorStrings'] = report;
     zuuluu['processColorStringsArray'] = tangon;
-    michal = function(argFoo) { // Original name: useProcessColorStringsArray
+    tangon = function(argFoo) { // Original name: useProcessColorStringsArray
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             oscard = argFoo;
@@ -195,6 +195,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useProcessColorStringsArray'] = michal;
+    zuuluu['useProcessColorStringsArray'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: isNativeMessageEligibleForEnhancedRoleColors
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 7;
+            michal = michal[entity];
+            entity = undefined;
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.getHasEnhancedRoleColors;
+            michal = argFoo;
+            entity = 'isNativeMessageEligibleForEnhancedRoleColors';
+            entity = zuuluu.bind(tangon)(michal, entity);
+            if(!entity) { _fun00010_ip = 58; continue _fun00009 }
+ 47:
+            zuuluu = 'hidden';
+            michal = argBar;
+            entity = zuuluu !== michal;
+ 58:
+            return entity;
+        }
+    };
+    zuuluu['isNativeMessageEligibleForEnhancedRoleColors'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: useIsRoleStyleAndRoleColorsEligibleForERC
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            michal = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            entity = 7;
+            entity = zuuluu[entity];
+            tangon = undefined;
+            zuuluu = michal.bind(tangon)(entity);
+            michal = argFoo;
+            entity = 'useIsRoleStyleAndRoleColorsEligibleForERC';
+            entity = zuuluu.bind(tangon)(michal, entity);
+            if(!entity) { _fun00012_ip = 52; continue _fun00011 }
+ 41:
+            zuuluu = 'hidden';
+            michal = argBar;
+            entity = zuuluu !== michal;
+ 52:
+            if(!entity) { _fun00012_ip = 70; continue _fun00011 }
+ 55:
+            michal = argBaz;
+            zuuluu = michal.length;
+            michal = 1;
+            entity = zuuluu > michal;
+ 70:
+            return entity;
+        }
+    };
+    zuuluu['useIsRoleStyleAndRoleColorsEligibleForERC'] = michal;
     return entity;
 })();

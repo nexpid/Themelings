@@ -847,7 +847,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = argBar;
                 zuuluu = zuuluu.bind(tangon)(report, entity);
                 entity = null;
-                if(!(entity == zuuluu)) { _fun00036_ip = 73; continue _fun00035 }
+                if(!(entity == zuuluu)) { _fun00036_ip = 72; continue _fun00035 }
  33:
                 report = tangon.getAllActiveStreams;
                 oscard = report.bind(tangon)();
@@ -862,15 +862,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = report.bind(oscard)(michal);
                 report = entity != michal;
                 entity = null;
-                if(!report) { _fun00036_ip = 71; continue _fun00035 }
- 68:
+                if(!report) { _fun00036_ip = 70; continue _fun00035 }
+ 67:
                 entity = michal;
- 71:
-                _fun00036_ip = 86; continue _fun00035;
- 73:
+ 70:
+                _fun00036_ip = 85; continue _fun00035;
+ 72:
                 michal = tangon.getActiveStreamForApplicationStream;
                 entity = michal.bind(tangon)(zuuluu);
- 86:
+ 85:
                 return entity;
             }
         };
@@ -998,7 +998,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = zuuluu[entity];
                 zuuluu = michal == report;
                 entity = null;
-                if(zuuluu) { _fun00044_ip = 112; continue _fun00043 }
+                if(zuuluu) { _fun00044_ip = 111; continue _fun00043 }
  61:
                 zuuluu = global;
                 tangon = zuuluu.Object;
@@ -1015,12 +1015,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.bind(report)(zuuluu);
                 tangon = michal != zuuluu;
                 michal = null;
-                if(!tangon) { _fun00044_ip = 109; continue _fun00043 }
- 106:
+                if(!tangon) { _fun00044_ip = 108; continue _fun00043 }
+ 105:
                 michal = zuuluu;
- 109:
+ 108:
                 entity = michal;
- 112:
+ 111:
                 return entity;
             }
         };
@@ -1050,7 +1050,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = zuuluu[entity];
                 zuuluu = michal == report;
                 entity = null;
-                if(zuuluu) { _fun00046_ip = 112; continue _fun00045 }
+                if(zuuluu) { _fun00046_ip = 111; continue _fun00045 }
  61:
                 zuuluu = global;
                 tangon = zuuluu.Object;
@@ -1076,12 +1076,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.bind(report)(zuuluu);
                 tangon = michal != zuuluu;
                 michal = null;
-                if(!tangon) { _fun00046_ip = 109; continue _fun00045 }
- 106:
+                if(!tangon) { _fun00046_ip = 108; continue _fun00045 }
+ 105:
                 michal = zuuluu;
- 109:
+ 108:
                 entity = michal;
- 112:
+ 111:
                 return entity;
             }
         };
@@ -1757,13 +1757,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!michal) { _fun00072_ip = 197; continue _fun00071 }
  189:
             michal = _closure1_slot32;
-            if(!(backup == michal)) { _fun00072_ip = 261; continue _fun00071 }
+            if(!(backup == michal)) { _fun00072_ip = 260; continue _fun00071 }
  197:
-            if(!(backup == foxtra)) { _fun00072_ip = 244; continue _fun00071 }
+            if(!(backup == foxtra)) { _fun00072_ip = 243; continue _fun00071 }
  201:
             kiloes = backup != tangon;
             michal = null;
-            if(!kiloes) { _fun00072_ip = 242; continue _fun00071 }
+            if(!kiloes) { _fun00072_ip = 241; continue _fun00071 }
  210:
             sizing = _closure1_slot13;
             kiloes = sizing.getRunningGames;
@@ -1783,31 +1783,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = kiloes.bind(sizing)(zuuluu);
- 242:
-            _fun00072_ip = 259; continue _fun00071;
- 244:
+ 241:
+            _fun00072_ip = 258; continue _fun00071;
+ 243:
             kiloes = _closure1_slot13;
             zuuluu = kiloes.getGameForPID;
             michal = zuuluu.bind(kiloes)(foxtra);
- 259:
-            _fun00072_ip = 265; continue _fun00071;
- 261:
+ 258:
+            _fun00072_ip = 264; continue _fun00071;
+ 260:
             michal = _closure1_slot32;
- 265:
+ 264:
             zuuluu = backup != michal;
             kiloes = null;
-            if(!zuuluu) { _fun00072_ip = 277; continue _fun00071 }
- 274:
+            if(!zuuluu) { _fun00072_ip = 276; continue _fun00071 }
+ 273:
             kiloes = michal;
- 277:
+ 276:
             zuuluu = _closure1_slot6;
             michal = {};
             sizing = backup == kiloes;
             backup = undefined;
-            if(sizing) { _fun00072_ip = 297; continue _fun00071 }
- 292:
+            if(sizing) { _fun00072_ip = 296; continue _fun00071 }
+ 291:
             backup = kiloes.id;
- 297:
+ 296:
             michal['id'] = backup;
             michal['pid'] = foxtra;
             michal['sourceName'] = romeon;

@@ -651,19 +651,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             golfie = zuuluu.bind(report)(oscard);
                             zuuluu = -1;
                             tangon = null;
-                            if(!(zuuluu !== golfie)) { _fun00014_ip = 197; continue _fun00013 }
- 181:
+                            if(!(zuuluu !== golfie)) { _fun00014_ip = 196; continue _fun00013 }
+ 180:
                             zuuluu = report.split;
                             oscard = zuuluu.bind(report)(oscard);
                             zuuluu = 0;
                             tangon = oscard[zuuluu];
- 197:
+ 196:
                             zuuluu = 'http';
-                            if(!(zuuluu !== tangon)) { _fun00014_ip = 270; continue _fun00013 }
- 205:
+                            if(!(zuuluu !== tangon)) { _fun00014_ip = 269; continue _fun00013 }
+ 204:
                             zuuluu = 'https';
-                            if(!(zuuluu !== tangon)) { _fun00014_ip = 270; continue _fun00013 }
- 213:
+                            if(!(zuuluu !== tangon)) { _fun00014_ip = 269; continue _fun00013 }
+ 212:
                             tangon = _closure1_slot7;
                             zuuluu = tangon.info;
                             entity = 'tryHandleCustomScheme';
@@ -715,8 +715,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             output = zuuluu;
                             entity = new output[tangon](sizing, kiloes);
                             entity = entity instanceof Object ? entity : zuuluu;
-                            _fun00014_ip = 303; continue _fun00013;
- 270:
+                            _fun00014_ip = 302; continue _fun00013;
+ 269:
                             zuuluu = global;
                             tangon = zuuluu.Promise;
                             zuuluu = tangon.prototype;
@@ -735,7 +735,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             output = zuuluu;
                             michal = new output[tangon](sizing, kiloes);
                             entity = michal instanceof Object ? michal : zuuluu;
- 303:
+ 302:
                             return entity;
                         }
                     };

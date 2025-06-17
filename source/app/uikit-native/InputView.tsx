@@ -944,7 +944,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  281:
                 backup[3] = kiloes;
                 backup[4] = oscard;
-                if(!(offset == verify)) { _fun00036_ip = 380; continue _fun00035 }
+                if(!(offset == verify)) { _fun00036_ip = 379; continue _fun00035 }
  293:
                 kiloes = _closure1_slot0;
                 output = _closure1_slot2;
@@ -961,19 +961,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = result[kiloes];
                 kiloes = output.bind(tangon)(kiloes);
                 kiloes = kiloes.unsafe_rawColors;
-                if(oscard) { _fun00036_ip = 371; continue _fun00035 }
- 363:
+                if(oscard) { _fun00036_ip = 370; continue _fun00035 }
+ 362:
                 oscard = kiloes.PRIMARY_200;
-                _fun00036_ip = 377; continue _fun00035;
- 371:
+                _fun00036_ip = 376; continue _fun00035;
+ 370:
                 oscard = kiloes.PRIMARY_500;
- 377:
+ 376:
                 verify = oscard;
- 380:
+ 379:
                 kiloes = offset != golfie;
                 oscard = undefined;
-                if(!kiloes) { _fun00036_ip = 454; continue _fun00035 }
- 389:
+                if(!kiloes) { _fun00036_ip = 453; continue _fun00035 }
+ 388:
                 output = _closure1_slot0;
                 update = _closure1_slot2;
                 kiloes = 15;
@@ -988,7 +988,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = {};
                 kiloes['maxLength'] = golfie;
                 oscard = result.bind(echoed)(output, kiloes);
- 454:
+ 453:
                 kiloes = new Array(2);
                 kiloes[0] = oscard;
                 kiloes[1] = zuuluu;
@@ -999,22 +999,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = kiloes.join;
                 zuuluu = ',';
                 oscard = oscard.bind(kiloes)(zuuluu);
-                if(michal) { _fun00036_ip = 529; continue _fun00035 }
- 501:
+                if(michal) { _fun00036_ip = 528; continue _fun00035 }
+ 500:
                 zuuluu = _closure1_slot0;
                 kiloes = _closure1_slot2;
                 michal = 13;
                 michal = kiloes[michal];
                 michal = zuuluu.bind(tangon)(michal);
                 zuuluu = michal.TextInput;
-                _fun00036_ip = 549; continue _fun00035;
- 529:
+                _fun00036_ip = 548; continue _fun00035;
+ 528:
                 kiloes = _closure1_slot1;
                 output = _closure1_slot2;
                 michal = 18;
                 michal = output[michal];
                 zuuluu = kiloes.bind(tangon)(michal);
- 549:
+ 548:
                 michal = _closure1_slot14;
                 entity = {};
                 kiloes = {};
@@ -1038,10 +1038,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['clearButtonMode'] = romeon;
                 romeon = offset != yankee;
                 offset = undefined;
-                if(!romeon) { _fun00036_ip = 662; continue _fun00035 }
- 659:
+                if(!romeon) { _fun00036_ip = 661; continue _fun00035 }
+ 658:
                 offset = yankee;
- 662:
+ 661:
                 entity['placeholder'] = offset;
                 entity['placeholderTextColor'] = verify;
                 entity['editable'] = option;

@@ -580,8 +580,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = michal.bind(oscard)(entity);
             entity = null;
             michal = entity == oscard;
-            if(michal) { _fun00012_ip = 90; continue _fun00011 }
- 50:
+            if(michal) { _fun00012_ip = 89; continue _fun00011 }
+ 49:
             michal = {};
             golfie = _closure2_slot3;
             michal['previousToken'] = golfie;
@@ -591,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['focusOffset'] = tangon;
             michal['anchorOffset'] = zuuluu;
             entity = michal;
- 90:
+ 89:
             return entity;
         }
     };

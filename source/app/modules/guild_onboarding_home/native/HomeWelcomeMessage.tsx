@@ -324,14 +324,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = {};
             offset = entity == source;
             verify = undefined;
-            if(offset) { _fun00004_ip = 347; continue _fun00003 }
- 341:
+            if(offset) { _fun00004_ip = 346; continue _fun00003 }
+ 340:
             verify = source.authorIds;
- 347:
-            if(!(entity == verify)) { _fun00004_ip = 355; continue _fun00003 }
- 351:
+ 346:
+            if(!(entity == verify)) { _fun00004_ip = 354; continue _fun00003 }
+ 350:
             verify = new Array(0);
- 355:
+ 354:
             tangon[sierra] = verify;
             tangon = golfie.bind(option)(tangon);
             option = _closure1_slot3;
@@ -398,19 +398,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.useName;
             update = zuuluu.bind(tangon)(sequen);
-            if(!(entity != source)) { _fun00004_ip = 1166; continue _fun00003 }
- 437:
-            if(!(entity != sequen)) { _fun00004_ip = 1166; continue _fun00003 }
- 444:
-            if(!(entity != status)) { _fun00004_ip = 1166; continue _fun00003 }
- 451:
+            if(!(entity != source)) { _fun00004_ip = 1164; continue _fun00003 }
+ 436:
+            if(!(entity != sequen)) { _fun00004_ip = 1164; continue _fun00003 }
+ 443:
+            if(!(entity != status)) { _fun00004_ip = 1164; continue _fun00003 }
+ 450:
             echoed = entity != michal;
-            if(!echoed) { _fun00004_ip = 473; continue _fun00003 }
- 458:
+            if(!echoed) { _fun00004_ip = 472; continue _fun00003 }
+ 457:
             zuuluu = michal.ownerId;
             michal = status.id;
             echoed = zuuluu === michal;
- 473:
+ 472:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -430,8 +430,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = status.avatarDecoration;
             verify = entity == verify;
             offset = null;
-            if(!verify) { _fun00004_ip = 646; continue _fun00003 }
- 555:
+            if(!verify) { _fun00004_ip = 644; continue _fun00003 }
+ 553:
             romeon = _closure1_slot8;
             yankee = _closure1_slot4;
             verify = {};
@@ -439,12 +439,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = new Array(2);
             kiloes[0] = output;
             output = {};
-            if(!(entity == sizing)) { _fun00004_ip = 593; continue _fun00003 }
- 585:
+            if(!(entity == sizing)) { _fun00004_ip = 591; continue _fun00003 }
+ 583:
             result = 0;
             result = foxtra[result];
-            _fun00004_ip = 628; continue _fun00003;
- 593:
+            _fun00004_ip = 626; continue _fun00003;
+ 591:
             record = _closure1_slot0;
             cntext = _closure1_slot2;
             config = 15;
@@ -453,12 +453,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = cntext.int2rgba;
             config = 1;
             result = record.bind(cntext)(sizing, config);
- 628:
+ 626:
             output['backgroundColor'] = result;
             kiloes[1] = output;
             verify['style'] = kiloes;
             offset = romeon.bind(report)(yankee, verify);
- 646:
+ 644:
             verify = new Array(4);
             verify[0] = offset;
             yankee = _closure1_slot8;
@@ -526,8 +526,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = new Array(2);
             output[0] = result;
             result = null;
-            if(!echoed) { _fun00004_ip = 1021; continue _fun00003 }
- 934:
+            if(!echoed) { _fun00004_ip = 1019; continue _fun00003 }
+ 932:
             cntext = _closure1_slot8;
             status = _closure1_slot1;
             sierra = _closure1_slot2;
@@ -548,7 +548,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed['source'] = target;
             echoed['disableColor'] = papara;
             result = cntext.bind(report)(record, echoed);
- 1021:
+ 1019:
             output[1] = result;
             sizing['children'] = output;
             output = backup.bind(report)(kiloes, sizing);
@@ -565,10 +565,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output['variant'] = config;
             ctrled = _closure1_slot11;
             source = source.message;
-            if(!(entity == update)) { _fun00004_ip = 1099; continue _fun00003 }
- 1094:
+            if(!(entity == update)) { _fun00004_ip = 1097; continue _fun00003 }
+ 1092:
             update = sequen.username;
- 1099:
+ 1097:
             update = ctrled.bind(report)(vacuum, source, update);
             output['children'] = update;
             output = echoed.bind(report)(result, output);
@@ -583,7 +583,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 1166:
+ 1164:
             return entity;
         }
     };

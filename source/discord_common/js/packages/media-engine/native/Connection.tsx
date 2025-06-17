@@ -780,23 +780,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 };
                                 golfie = michal.bind(tangon)(entity);
                                 entity = undefined;
-                                if(!(entity !== golfie)) { _fun00028_ip = 381; continue _fun00027 }
- 47:
+                                if(!(entity !== golfie)) { _fun00028_ip = 380; continue _fun00027 }
+ 46:
                                 michal = golfie.quality;
                                 option = null;
                                 oscard = option != michal;
                                 report = 0;
-                                if(!oscard) { _fun00028_ip = 67; continue _fun00027 }
- 64:
+                                if(!oscard) { _fun00028_ip = 66; continue _fun00027 }
+ 63:
                                 report = michal;
- 67:
+ 66:
                                 michal = 100;
-                                if(!(report < michal)) { _fun00028_ip = 381; continue _fun00027 }
- 77:
+                                if(!(report < michal)) { _fun00028_ip = 380; continue _fun00027 }
+ 76:
                                 report = golfie.type;
                                 michal = 'video';
-                                if(!(michal === report)) { _fun00028_ip = 381; continue _fun00027 }
- 93:
+                                if(!(michal === report)) { _fun00028_ip = 380; continue _fun00027 }
+ 92:
                                 michal = global;
                                 verify = michal.Math;
                                 oscard = verify.floor;
@@ -813,24 +813,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 report = golfie.minBitrate;
                                 romeon = option != report;
                                 oscard = 0;
-                                if(!romeon) { _fun00028_ip = 180; continue _fun00027 }
- 177:
+                                if(!romeon) { _fun00028_ip = 179; continue _fun00027 }
+ 176:
                                 oscard = report;
- 180:
+ 179:
                                 romeon = golfie.maxBitrate;
                                 report = offset;
-                                if(!(option != romeon)) { _fun00028_ip = 196; continue _fun00027 }
- 193:
+                                if(!(option != romeon)) { _fun00028_ip = 195; continue _fun00027 }
+ 192:
                                 report = romeon;
- 196:
+ 195:
                                 report = verify.bind(entity)(offset, oscard, report);
                                 oscard = golfie.targetBitrate;
                                 option = option != oscard;
                                 tangon = 0;
-                                if(!option) { _fun00028_ip = 221; continue _fun00027 }
- 218:
+                                if(!option) { _fun00028_ip = 220; continue _fun00027 }
+ 217:
                                 tangon = oscard;
- 221:
+ 220:
                                 verify = michal.Math;
                                 option = verify.abs;
                                 oscard = report - tangon;
@@ -841,13 +841,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 oscard = oscard / tangon;
                                 tangon = 0.1;
                                 tangon = oscard > tangon;
-                                if(tangon) { _fun00028_ip = 284; continue _fun00027 }
- 274:
+                                if(tangon) { _fun00028_ip = 283; continue _fun00027 }
+ 273:
                                 oscard = golfie.targetBitrate;
                                 tangon = entity === oscard;
- 284:
-                                if(!tangon) { _fun00028_ip = 381; continue _fun00027 }
- 287:
+ 283:
+                                if(!tangon) { _fun00028_ip = 380; continue _fun00027 }
+ 286:
                                 zuuluu = _closure3_slot0;
                                 oscard = zuuluu.logger;
                                 tangon = oscard.info;
@@ -866,7 +866,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = michal.bind(tangon)(report);
                                 michal = zuuluu.updateVideoQuality;
                                 michal = michal.bind(zuuluu)();
- 381:
+ 380:
                                 return entity;
                             }
                         };
@@ -2454,7 +2454,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = michal;
-        michal = new Array(88);
+        michal = new Array(89);
         michal[0] = entity;
         entity = {};
         oscard = 'destroy';
@@ -3693,6 +3693,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['value'] = oscard;
         michal[34] = entity;
         entity = {};
+        oscard = 'getNoiseCancellation';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
+            entity = this;
+            entity = entity.noiseCancellation;
+            return entity;
+        };
+        entity['value'] = oscard;
+        michal[35] = entity;
+        entity = {};
         oscard = 'getVoiceFilterId';
         entity['key'] = oscard;
         oscard = function() { // Original name: value
@@ -3701,7 +3711,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[35] = entity;
+        michal[36] = entity;
         entity = {};
         oscard = 'setVoiceFilterId';
         entity['key'] = oscard;
@@ -3734,7 +3744,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[36] = entity;
+        michal[37] = entity;
         entity = {};
         oscard = 'setExperimentalEncoders';
         entity['key'] = oscard;
@@ -3752,7 +3762,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[37] = entity;
+        michal[38] = entity;
         entity = {};
         oscard = 'setHardwareH264';
         entity['key'] = oscard;
@@ -3770,7 +3780,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[38] = entity;
+        michal[39] = entity;
         entity = {};
         oscard = 'setSoftwareH264';
         entity['key'] = oscard;
@@ -3788,7 +3798,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[39] = entity;
+        michal[40] = entity;
         entity = {};
         oscard = 'setQoS';
         entity['key'] = oscard;
@@ -3806,7 +3816,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[40] = entity;
+        michal[41] = entity;
         entity = {};
         oscard = 'setInputMode';
         entity['key'] = oscard;
@@ -3869,7 +3879,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[41] = entity;
+        michal[42] = entity;
         entity = {};
         oscard = 'setSilenceThreshold';
         entity['key'] = oscard;
@@ -3888,7 +3898,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[42] = entity;
+        michal[43] = entity;
         entity = {};
         oscard = 'setForceAudioInput';
         entity['key'] = oscard;
@@ -3923,7 +3933,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[43] = entity;
+        michal[44] = entity;
         entity = {};
         oscard = 'setSpeakingFlags';
         entity['key'] = oscard;
@@ -3963,7 +3973,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[44] = entity;
+        michal[45] = entity;
         entity = {};
         oscard = 'clearAllSpeaking';
         entity['key'] = oscard;
@@ -3972,7 +3982,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[45] = entity;
+        michal[46] = entity;
         entity = {};
         oscard = 'setEncryption';
         entity['key'] = oscard;
@@ -4000,7 +4010,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[46] = entity;
+        michal[47] = entity;
         entity = {};
         oscard = 'setReconnectInterval';
         entity['key'] = oscard;
@@ -4018,7 +4028,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[47] = entity;
+        michal[48] = entity;
         entity = {};
         oscard = 'setKeyframeInterval';
         entity['key'] = oscard;
@@ -4041,7 +4051,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[48] = entity;
+        michal[49] = entity;
         entity = {};
         oscard = 'setVideoQualityMeasurement';
         entity['key'] = oscard;
@@ -4059,7 +4069,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[49] = entity;
+        michal[50] = entity;
         entity = {};
         oscard = 'setVideoEncoderExperiments';
         entity['key'] = oscard;
@@ -4077,7 +4087,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[50] = entity;
+        michal[51] = entity;
         entity = {};
         oscard = 'setVideoBroadcast';
         entity['key'] = oscard;
@@ -4098,7 +4108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[51] = entity;
+        michal[52] = entity;
         entity = {};
         oscard = 'setGoLiveSource';
         entity['key'] = oscard;
@@ -4306,7 +4316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[52] = entity;
+        michal[53] = entity;
         entity = {};
         oscard = 'clearGoLiveDevices';
         entity['key'] = oscard;
@@ -4337,7 +4347,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[53] = entity;
+        michal[54] = entity;
         entity = {};
         oscard = 'clearDesktopSource';
         entity['key'] = oscard;
@@ -4376,7 +4386,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[54] = entity;
+        michal[55] = entity;
         entity = {};
         oscard = 'setDesktopSourceStatusCallback';
         entity['key'] = oscard;
@@ -4398,7 +4408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[55] = entity;
+        michal[56] = entity;
         entity = {};
         oscard = 'hasDesktopSource';
         entity['key'] = oscard;
@@ -4410,7 +4420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[56] = entity;
+        michal[57] = entity;
         entity = {};
         oscard = 'setDesktopEncodingOptions';
         entity['key'] = oscard;
@@ -4601,7 +4611,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[57] = entity;
+        michal[58] = entity;
         entity = {};
         oscard = 'setSDP';
         entity['key'] = oscard;
@@ -4610,7 +4620,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[58] = entity;
+        michal[59] = entity;
         entity = {};
         oscard = 'setRemoteVideoSinkWants';
         entity['key'] = oscard;
@@ -4625,7 +4635,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[59] = entity;
+        michal[60] = entity;
         entity = {};
         oscard = 'setLocalVideoSinkWants';
         entity['key'] = oscard;
@@ -4748,7 +4758,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[60] = entity;
+        michal[61] = entity;
         entity = {};
         oscard = 'startSamplesLocalPlayback';
         entity['key'] = oscard;
@@ -4801,7 +4811,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[61] = entity;
+        michal[62] = entity;
         entity = {};
         oscard = 'stopAllSamplesLocalPlayback';
         entity['key'] = oscard;
@@ -4814,7 +4824,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[62] = entity;
+        michal[63] = entity;
         entity = {};
         oscard = 'stopSamplesLocalPlayback';
         entity['key'] = oscard;
@@ -4828,7 +4838,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[63] = entity;
+        michal[64] = entity;
         entity = {};
         oscard = 'setBandwidthEstimationExperiments';
         entity['key'] = oscard;
@@ -4844,7 +4854,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[64] = entity;
+        michal[65] = entity;
         entity = {};
         oscard = 'updateVideoQualityCore';
         entity['key'] = oscard;
@@ -4868,7 +4878,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[65] = entity;
+        michal[66] = entity;
         entity = {};
         oscard = 'setStreamParameters';
         entity['key'] = oscard;
@@ -4995,7 +5005,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[66] = entity;
+        michal[67] = entity;
         entity = {};
         oscard = 'applyVideoTransportOptions';
         entity['key'] = oscard;
@@ -5066,7 +5076,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[67] = entity;
+        michal[68] = entity;
         entity = {};
         oscard = 'chooseEncryptionMode';
         entity['key'] = oscard;
@@ -5111,7 +5121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[68] = entity;
+        michal[69] = entity;
         entity = {};
         oscard = 'getUserOptions';
         entity['key'] = oscard;
@@ -5175,7 +5185,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[69] = entity;
+        michal[70] = entity;
         entity = {};
         oscard = 'createInputModeOptions';
         entity['key'] = oscard;
@@ -5240,7 +5250,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[70] = entity;
+        michal[71] = entity;
         entity = {};
         oscard = 'getAttenuationOptions';
         entity['key'] = oscard;
@@ -5259,7 +5269,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[71] = entity;
+        michal[72] = entity;
         entity = {};
         oscard = 'getCodecParams';
         entity['key'] = oscard;
@@ -5312,7 +5322,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[72] = entity;
+        michal[73] = entity;
         entity = {};
         oscard = 'getCodecOptions';
         entity['key'] = oscard;
@@ -5338,32 +5348,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = config == michal;
                 sequen = undefined;
                 tangon = undefined;
-                if(entity) { _fun00134_ip = 70; continue _fun00133 }
- 64:
+                if(entity) { _fun00134_ip = 69; continue _fun00133 }
+ 63:
                 tangon = michal.payloadType;
- 70:
+ 69:
                 report = config != tangon;
                 entity = 0;
-                if(!report) { _fun00134_ip = 82; continue _fun00133 }
- 79:
+                if(!report) { _fun00134_ip = 81; continue _fun00133 }
+ 78:
                 entity = tangon;
- 82:
+ 81:
                 zuuluu['type'] = entity;
                 zuuluu['name'] = papara;
                 entity = 48000;
                 tangon = {};
                 oscard = config == michal;
                 report = undefined;
-                if(oscard) { _fun00134_ip = 117; continue _fun00133 }
- 111:
+                if(oscard) { _fun00134_ip = 116; continue _fun00133 }
+ 110:
                 report = michal.payloadType;
- 117:
+ 116:
                 oscard = config != report;
                 michal = 0;
-                if(!oscard) { _fun00134_ip = 129; continue _fun00133 }
- 126:
+                if(!oscard) { _fun00134_ip = 128; continue _fun00133 }
+ 125:
                 michal = report;
- 129:
+ 128:
                 tangon['type'] = michal;
                 tangon['name'] = papara;
                 tangon['freq'] = entity;
@@ -5378,10 +5388,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot23;
                 report = tangon.STREAM;
                 tangon = argBaz;
-                if(!(tangon === report)) { _fun00134_ip = 204; continue _fun00133 }
- 198:
+                if(!(tangon === report)) { _fun00134_ip = 203; continue _fun00133 }
+ 197:
                 zuuluu['channels'] = entity;
- 204:
+ 203:
                 tangon = new Array(0);
                 report = {'name': '', 'type': 0, 'rtxType': 0};
                 entity = {};
@@ -5406,13 +5416,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = undefined;
                 oscard = undefined;
                 report = romeon;
-                if(entity) { _fun00134_ip = 820; continue _fun00133 }
- 303:
+                if(entity) { _fun00134_ip = 819; continue _fun00133 }
+ 302:
                 sierra = foxtra.value;
                 entity = sierra.name;
                 target = romeon;
-                if(!(entity !== papara)) { _fun00134_ip = 796; continue _fun00133 }
- 323:
+                if(!(entity !== papara)) { _fun00134_ip = 795; continue _fun00133 }
+ 322:
                 status = {};
                 limora = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -5424,29 +5434,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 status['name'] = entity;
                 entity = config == sierra;
                 whisks = undefined;
-                if(entity) { _fun00134_ip = 377; continue _fun00133 }
- 371:
+                if(entity) { _fun00134_ip = 376; continue _fun00133 }
+ 370:
                 whisks = sierra.payloadType;
- 377:
+ 376:
                 limora = config != whisks;
                 entity = 0;
-                if(!limora) { _fun00134_ip = 389; continue _fun00133 }
- 386:
+                if(!limora) { _fun00134_ip = 388; continue _fun00133 }
+ 385:
                 entity = whisks;
- 389:
+ 388:
                 status['type'] = entity;
                 entity = config == sierra;
                 limora = undefined;
-                if(entity) { _fun00134_ip = 408; continue _fun00133 }
- 402:
+                if(entity) { _fun00134_ip = 407; continue _fun00133 }
+ 401:
                 limora = sierra.rtxPayloadType;
- 408:
+ 407:
                 equals = config != limora;
                 entity = 0;
-                if(!equals) { _fun00134_ip = 420; continue _fun00133 }
- 417:
+                if(!equals) { _fun00134_ip = 419; continue _fun00133 }
+ 416:
                 entity = limora;
- 420:
+ 419:
                 status['rtxType'] = entity;
                 equals = record.getCodecParams;
                 entity = sierra.name;
@@ -5457,47 +5467,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure1_slot11;
                 entity = entity.RESET_DECODER_ON_ERRORS;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 490; continue _fun00133 }
- 476:
+                if(!entity) { _fun00134_ip = 489; continue _fun00133 }
+ 475:
                 entity = status.params;
                 entity['reset-on-errors'] = ctrled;
- 490:
+ 489:
                 quebec = record.experimentFlags;
                 equals = quebec.has;
                 entity = _closure1_slot11;
                 entity = entity.SOFTWARE_FALLBACK_ON_ERRORS;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 533; continue _fun00133 }
- 519:
+                if(!entity) { _fun00134_ip = 532; continue _fun00133 }
+ 518:
                 entity = status.params;
                 entity['fallback-after-errors'] = sizing;
- 533:
+ 532:
                 quebec = record.experimentFlags;
                 equals = quebec.has;
                 entity = _closure1_slot11;
                 entity = entity.SOFTWARE_FALLBACK_ON_CONSECUTIVE_ERRORS;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 576; continue _fun00133 }
- 562:
+                if(!entity) { _fun00134_ip = 575; continue _fun00133 }
+ 561:
                 entity = status.params;
                 entity['fallback-on-consecutive-errors'] = ctrled;
- 576:
+ 575:
                 quebec = record.experimentFlags;
                 equals = quebec.has;
                 entity = _closure1_slot11;
                 entity = entity.SIGNAL_AV1_HARDWARE_DECODE;
                 entity = equals.bind(quebec)(entity);
-                if(!entity) { _fun00134_ip = 619; continue _fun00133 }
- 605:
+                if(!entity) { _fun00134_ip = 618; continue _fun00133 }
+ 604:
                 entity = status.params;
                 entity['hardware-av1-decode'] = ctrled;
- 619:
+ 618:
                 equals = record.hardwareH264;
                 entity = output;
-                if(!equals) { _fun00134_ip = 634; continue _fun00133 }
- 631:
+                if(!equals) { _fun00134_ip = 633; continue _fun00133 }
+ 630:
                 entity = ctrled;
- 634:
+ 633:
                 equals = status.params;
                 equals['hardware-h264'] = entity;
                 equals = tangon.push;
@@ -5510,8 +5520,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = offset;
                 golfie = status;
                 oscard = entity;
-                if(!(equals === cntext)) { _fun00134_ip = 796; continue _fun00133 }
- 686:
+                if(!(equals === cntext)) { _fun00134_ip = 795; continue _fun00133 }
+ 685:
                 equals = {};
                 variable39 = equals;
                 variable38 = status;
@@ -5525,11 +5535,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 quebec = _closure1_slot11;
                 quebec = quebec.VIDEOTOOLBOX_RATE_CONTROL;
                 quebec = variable36.bind(variable37)(quebec);
-                if(!quebec) { _fun00134_ip = 763; continue _fun00133 }
- 749:
+                if(!quebec) { _fun00134_ip = 762; continue _fun00133 }
+ 748:
                 quebec = equals.params;
                 quebec['fixed-rate-presentation-timestamps'] = ctrled;
- 763:
+ 762:
                 quebec = equals.params;
                 quebec['hardware-h264'] = entity;
                 target = equals;
@@ -5539,14 +5549,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = offset;
                 golfie = status;
                 oscard = entity;
- 796:
+ 795:
                 status = update.bind(sequen)();
                 entity = status.done;
                 romeon = target;
                 foxtra = status;
                 report = romeon;
-                if(!entity) { _fun00134_ip = 303; continue _fun00133 }
- 820:
+                if(!entity) { _fun00134_ip = 302; continue _fun00133 }
+ 819:
                 entity = {};
                 entity['videoEncoder'] = report;
                 entity['videoDecoders'] = tangon;
@@ -5556,7 +5566,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[73] = entity;
+        michal[74] = entity;
         entity = {};
         oscard = 'getKeyFrameInterval';
         entity['key'] = oscard;
@@ -5590,7 +5600,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[74] = entity;
+        michal[75] = entity;
         entity = {};
         oscard = 'getConnectionTransportOptions';
         entity['key'] = oscard;
@@ -5707,7 +5717,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[75] = entity;
+        michal[76] = entity;
         entity = {};
         oscard = 'setStream';
         entity['key'] = oscard;
@@ -5723,7 +5733,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             throw entity;
         };
         entity['value'] = oscard;
-        michal[76] = entity;
+        michal[77] = entity;
         entity = {};
         oscard = 'getUserIdBySsrc';
         entity['key'] = oscard;
@@ -5732,7 +5742,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[77] = entity;
+        michal[78] = entity;
         entity = {};
         oscard = 'prepareSecureFramesTransition';
         entity['key'] = oscard;
@@ -5767,7 +5777,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[78] = entity;
+        michal[79] = entity;
         entity = {};
         oscard = 'prepareSecureFramesEpoch';
         entity['key'] = oscard;
@@ -5793,7 +5803,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[79] = entity;
+        michal[80] = entity;
         entity = {};
         oscard = 'executeSecureFramesTransition';
         entity['key'] = oscard;
@@ -5870,7 +5880,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[80] = entity;
+        michal[81] = entity;
         entity = {};
         oscard = 'getMLSKeyPackage';
         entity['key'] = oscard;
@@ -5892,7 +5902,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[81] = entity;
+        michal[82] = entity;
         entity = {};
         oscard = 'updateMLSExternalSender';
         entity['key'] = oscard;
@@ -5914,7 +5924,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[82] = entity;
+        michal[83] = entity;
         entity = {};
         oscard = 'processMLSProposals';
         entity['key'] = oscard;
@@ -5937,7 +5947,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[83] = entity;
+        michal[84] = entity;
         entity = {};
         oscard = 'prepareMLSCommitTransition';
         entity['key'] = oscard;
@@ -5965,7 +5975,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[84] = entity;
+        michal[85] = entity;
         entity = {};
         oscard = 'processMLSWelcome';
         entity['key'] = oscard;
@@ -5993,7 +6003,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[85] = entity;
+        michal[86] = entity;
         entity = {};
         oscard = 'getMLSPairwiseFingerprint';
         entity['key'] = oscard;
@@ -6019,7 +6029,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[86] = entity;
+        michal[87] = entity;
         entity = {};
         oscard = 'presentDesktopSourcePicker';
         entity['key'] = oscard;
@@ -6041,7 +6051,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[87] = entity;
+        michal[88] = entity;
         oscard = {};
         entity = 'create';
         oscard['key'] = entity;

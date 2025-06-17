@@ -2688,10 +2688,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     zuuluu = michal.Fragment;
                                     michal = {};
                                     verify = option;
-                                    if(!verify) { _fun00068_ip = 71; continue _fun00067 }
- 67:
+                                    if(!verify) { _fun00068_ip = 70; continue _fun00067 }
+ 66:
                                     verify = '\n';
- 71:
+ 70:
                                     oscard = new Array(3);
                                     oscard[0] = verify;
                                     offset = _closure3_slot1;
@@ -2699,14 +2699,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     entity = undefined;
                                     verify = offset.bind(entity)(yankee, verify);
                                     oscard[1] = verify;
-                                    if(!golfie) { _fun00068_ip = 108; continue _fun00067 }
- 105:
+                                    if(!golfie) { _fun00068_ip = 107; continue _fun00067 }
+ 104:
                                     golfie = !option;
- 108:
-                                    if(!golfie) { _fun00068_ip = 115; continue _fun00067 }
- 111:
+ 107:
+                                    if(!golfie) { _fun00068_ip = 114; continue _fun00067 }
+ 110:
                                     golfie = '\n';
- 115:
+ 114:
                                     oscard[2] = golfie;
                                     michal['children'] = oscard;
                                     entity = tangon.bind(entity)(zuuluu, michal, report);

@@ -3779,7 +3779,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  38:
                 entity = zuuluu.props;
                 entity = entity.currentUserId;
-                if(!(option != entity)) { _fun00082_ip = 3243; continue _fun00081 }
+                if(!(option != entity)) { _fun00082_ip = 3240; continue _fun00081 }
  56:
                 entity = zuuluu.props;
                 entity = entity.messages;
@@ -4016,31 +4016,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  912:
                 backup = foxtra;
  915:
-                if(backup) { _fun00082_ip = 939; continue _fun00081 }
+                if(backup) { _fun00082_ip = 937; continue _fun00081 }
  918:
                 sizing = tangon.theme;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.theme;
                 backup = sizing !== foxtra;
- 939:
+ 937:
                 sizing = tangon.resolvingGiftCodes;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.resolvingGiftCodes;
                 limora = sizing !== foxtra;
-                if(limora) { _fun00082_ip = 984; continue _fun00081 }
- 963:
+                if(limora) { _fun00082_ip = 982; continue _fun00081 }
+ 961:
                 sizing = tangon.resolvedGiftCodes;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.resolvedGiftCodes;
                 limora = sizing !== foxtra;
- 984:
-                if(limora) { _fun00082_ip = 1008; continue _fun00081 }
- 987:
+ 982:
+                if(limora) { _fun00082_ip = 1006; continue _fun00081 }
+ 985:
                 sizing = tangon.acceptingGiftCodes;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.acceptingGiftCodes;
                 limora = sizing !== foxtra;
- 1008:
+ 1006:
                 var _closure3_slot2 = limora;
                 sierra = tangon.uploads;
                 foxtra = zuuluu.props;
@@ -4093,13 +4093,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = foxtra.channel;
                 foxtra = sizing.isForumPost;
                 source = foxtra.bind(sizing)();
-                if(!source) { _fun00082_ip = 1290; continue _fun00081 }
- 1269:
+                if(!source) { _fun00082_ip = 1288; continue _fun00081 }
+ 1267:
                 sizing = tangon.isFollowingForumPost;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.isFollowingForumPost;
                 source = sizing !== foxtra;
- 1290:
+ 1288:
                 var _closure3_slot10 = source;
                 sizing = tangon.showMediaPostSharePrompt;
                 foxtra = zuuluu.props;
@@ -4120,38 +4120,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = zuuluu.props;
                 sizing = sizing.activityInstanceIds;
                 target = output !== sizing;
-                if(target) { _fun00082_ip = 1414; continue _fun00081 }
- 1393:
+                if(target) { _fun00082_ip = 1412; continue _fun00081 }
+ 1391:
                 output = tangon.activityParticipants;
                 sizing = zuuluu.props;
                 sizing = sizing.activityParticipants;
                 target = output !== sizing;
- 1414:
-                if(target) { _fun00082_ip = 1438; continue _fun00081 }
- 1417:
+ 1412:
+                if(target) { _fun00082_ip = 1436; continue _fun00081 }
+ 1415:
                 output = tangon.applicationAssetFetchingIds;
                 sizing = zuuluu.props;
                 sizing = sizing.applicationAssetFetchingIds;
                 target = output !== sizing;
- 1438:
-                if(target) { _fun00082_ip = 1462; continue _fun00081 }
- 1441:
+ 1436:
+                if(target) { _fun00082_ip = 1460; continue _fun00081 }
+ 1439:
                 output = tangon.activityInstancePresenceDetails;
                 sizing = zuuluu.props;
                 sizing = sizing.activityInstancePresenceDetails;
                 target = output !== sizing;
- 1462:
-                if(target) { _fun00082_ip = 1486; continue _fun00081 }
- 1465:
+ 1460:
+                if(target) { _fun00082_ip = 1484; continue _fun00081 }
+ 1463:
                 output = tangon.messagesWithActivitiesLaunching;
                 sizing = zuuluu.props;
                 sizing = sizing.messagesWithActivitiesLaunching;
                 target = output !== sizing;
- 1486:
-                if(target) { _fun00082_ip = 1492; continue _fun00081 }
- 1489:
+ 1484:
+                if(target) { _fun00082_ip = 1490; continue _fun00081 }
+ 1487:
                 target = foxtra;
- 1492:
+ 1490:
                 var _closure3_slot14 = target;
                 sizing = _closure1_slot0;
                 foxtra = _closure1_slot2;
@@ -4172,242 +4172,242 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 foxtra = foxtra.resolvedReferralTrialOfferIds;
                 foxtra = whisks.bind(equals)(sizing, foxtra);
                 sizing = !foxtra;
-                if(sizing) { _fun00082_ip = 1614; continue _fun00081 }
- 1593:
+                if(sizing) { _fun00082_ip = 1612; continue _fun00081 }
+ 1591:
                 whisks = tangon.referralTrialOfferId;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.referralTrialOfferId;
                 sizing = whisks !== foxtra;
- 1614:
-                if(sizing) { _fun00082_ip = 1638; continue _fun00081 }
- 1617:
+ 1612:
+                if(sizing) { _fun00082_ip = 1636; continue _fun00081 }
+ 1615:
                 whisks = tangon.isPremiumTier2User;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.isPremiumTier2User;
                 sizing = whisks !== foxtra;
- 1638:
+ 1636:
                 var _closure3_slot16 = sizing;
                 whisks = tangon.guildInviteColorsFetched;
                 foxtra = zuuluu.props;
                 foxtra = foxtra.guildInviteColorsFetched;
                 foxtra = whisks !== foxtra;
                 var _closure3_slot17 = foxtra;
-                if(backup) { _fun00082_ip = 2583; continue _fun00081 }
- 1673:
-                if(limora) { _fun00082_ip = 2583; continue _fun00081 }
- 1679:
-                if(!(sierra === status)) { _fun00082_ip = 2583; continue _fun00081 }
- 1686:
-                if(target) { _fun00082_ip = 2583; continue _fun00081 }
- 1692:
+                if(backup) { _fun00082_ip = 2581; continue _fun00081 }
+ 1671:
+                if(limora) { _fun00082_ip = 2581; continue _fun00081 }
+ 1677:
+                if(!(sierra === status)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1684:
+                if(target) { _fun00082_ip = 2581; continue _fun00081 }
+ 1690:
                 status = tangon.messages;
                 target = zuuluu.props;
                 target = target.messages;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1716:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1714:
                 status = tangon.editingMessageId;
                 target = zuuluu.props;
                 target = target.editingMessageId;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1740:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1738:
                 status = tangon.replyingMessageId;
                 target = zuuluu.props;
                 target = target.replyingMessageId;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1764:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1762:
                 status = tangon.voiceStateChannelId;
                 target = zuuluu.props;
                 target = target.voiceStateChannelId;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1788:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1786:
                 status = tangon.messageAuthorActivities;
                 target = zuuluu.props;
                 target = target.messageAuthorActivities;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1812:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1810:
                 status = tangon.oldestUnreadMessageId;
                 target = zuuluu.props;
                 target = target.oldestUnreadMessageId;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1836:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1834:
                 status = tangon.invites;
                 target = zuuluu.props;
                 target = target.invites;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1860:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1858:
                 status = tangon.appDirectoryEmbedApplications;
                 target = zuuluu.props;
                 target = target.appDirectoryEmbedApplications;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1884:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1882:
                 status = tangon.invalidAppDirectoryEmbedApplicationIds;
                 target = zuuluu.props;
                 target = target.invalidAppDirectoryEmbedApplicationIds;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1908:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1906:
                 status = tangon.appDirectoryEmbedApplicationFetchStates;
                 target = zuuluu.props;
                 target = target.appDirectoryEmbedApplicationFetchStates;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1932:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1930:
                 status = tangon.guildTemplates;
                 target = zuuluu.props;
                 target = target.guildTemplates;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1956:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1954:
                 status = tangon.buildOverrides;
                 target = zuuluu.props;
                 target = target.buildOverrides;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 1980:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 1978:
                 status = tangon.quests;
                 target = zuuluu.props;
                 target = target.quests;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2004:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2002:
                 status = tangon.isFetchingCurrentQuests;
                 target = zuuluu.props;
                 target = target.isFetchingCurrentQuests;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2028:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2026:
                 status = tangon.participantsLength;
                 target = zuuluu.props;
                 target = target.participantsLength;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2052:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2050:
                 status = tangon.isMessagesReady;
                 target = zuuluu.props;
                 target = target.isMessagesReady;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2076:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2074:
                 status = tangon.channelThreadsVersion;
                 target = zuuluu.props;
                 target = target.channelThreadsVersion;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2100:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2098:
                 status = tangon.rsvpVersion;
                 target = zuuluu.props;
                 target = target.rsvpVersion;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2124:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2122:
                 status = tangon.repliedIds;
                 target = zuuluu.props;
                 target = target.repliedIds;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2148:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2146:
                 status = tangon.hasLoadedExperiments;
                 target = zuuluu.props;
                 target = target.hasLoadedExperiments;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2172:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2170:
                 status = tangon.isMessageRequest;
                 target = zuuluu.props;
                 target = target.isMessageRequest;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2196:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2194:
                 status = tangon.isSpamMessageRequest;
                 target = zuuluu.props;
                 target = target.isSpamMessageRequest;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2220:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2218:
                 status = tangon.currentUserCommunicationDisabled;
                 target = zuuluu.props;
                 target = target.currentUserCommunicationDisabled;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2244:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2242:
                 status = tangon.userSettingsLocale;
                 target = zuuluu.props;
                 target = target.userSettingsLocale;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2268:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2266:
                 status = tangon.selectedSummary;
                 target = zuuluu.props;
                 target = target.selectedSummary;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2292:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2290:
                 status = tangon.showPushFeedback;
                 target = zuuluu.props;
                 target = target.showPushFeedback;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2316:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2314:
                 status = tangon.cacheStoreLoaded;
                 target = zuuluu.props;
                 target = target.cacheStoreLoaded;
-                if(!(status === target)) { _fun00082_ip = 2583; continue _fun00081 }
- 2340:
-                if(papara) { _fun00082_ip = 2583; continue _fun00081 }
- 2346:
-                if(cntext) { _fun00082_ip = 2583; continue _fun00081 }
- 2352:
-                if(!(record === config)) { _fun00082_ip = 2583; continue _fun00081 }
- 2359:
-                if(sequen) { _fun00082_ip = 2583; continue _fun00081 }
- 2365:
-                if(vacuum) { _fun00082_ip = 2583; continue _fun00081 }
- 2371:
-                if(ctrled) { _fun00082_ip = 2583; continue _fun00081 }
- 2377:
-                if(source) { _fun00082_ip = 2583; continue _fun00081 }
- 2383:
-                if(!(option == yankee)) { _fun00082_ip = 2583; continue _fun00081 }
- 2390:
-                if(!(option == verify)) { _fun00082_ip = 2583; continue _fun00081 }
- 2397:
+                if(!(status === target)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2338:
+                if(papara) { _fun00082_ip = 2581; continue _fun00081 }
+ 2344:
+                if(cntext) { _fun00082_ip = 2581; continue _fun00081 }
+ 2350:
+                if(!(record === config)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2357:
+                if(sequen) { _fun00082_ip = 2581; continue _fun00081 }
+ 2363:
+                if(vacuum) { _fun00082_ip = 2581; continue _fun00081 }
+ 2369:
+                if(ctrled) { _fun00082_ip = 2581; continue _fun00081 }
+ 2375:
+                if(source) { _fun00082_ip = 2581; continue _fun00081 }
+ 2381:
+                if(!(option == yankee)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2388:
+                if(!(option == verify)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2395:
                 ctrled = tangon.androidKeyboardHeight;
                 source = zuuluu.props;
                 source = source.androidKeyboardHeight;
-                if(!(ctrled === source)) { _fun00082_ip = 2583; continue _fun00081 }
- 2421:
+                if(!(ctrled === source)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2419:
                 ctrled = tangon.mediaPostPreviewEmbeds;
                 source = zuuluu.props;
                 source = source.mediaPostPreviewEmbeds;
-                if(!(ctrled === source)) { _fun00082_ip = 2583; continue _fun00081 }
- 2445:
+                if(!(ctrled === source)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2443:
                 ctrled = tangon.shouldObscureSpoiler;
                 source = zuuluu.props;
                 source = source.shouldObscureSpoiler;
-                if(!(ctrled === source)) { _fun00082_ip = 2583; continue _fun00081 }
- 2466:
+                if(!(ctrled === source)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2464:
                 ctrled = tangon.shouldFilterKeywords;
                 source = zuuluu.props;
                 source = source.shouldFilterKeywords;
-                if(!(ctrled === source)) { _fun00082_ip = 2583; continue _fun00081 }
- 2487:
+                if(!(ctrled === source)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2485:
                 ctrled = tangon.shouldDisableInteractiveComponents;
                 source = zuuluu.props;
                 source = source.shouldDisableInteractiveComponents;
-                if(!(ctrled === source)) { _fun00082_ip = 2583; continue _fun00081 }
- 2508:
-                if(update) { _fun00082_ip = 2583; continue _fun00081 }
- 2511:
-                if(echoed) { _fun00082_ip = 2583; continue _fun00081 }
- 2514:
+                if(!(ctrled === source)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2506:
+                if(update) { _fun00082_ip = 2581; continue _fun00081 }
+ 2509:
+                if(echoed) { _fun00082_ip = 2581; continue _fun00081 }
+ 2512:
                 update = tangon.threadStartingReferenceMessage;
                 echoed = zuuluu.props;
                 echoed = echoed.threadStartingReferenceMessage;
-                if(!(update === echoed)) { _fun00082_ip = 2583; continue _fun00081 }
- 2535:
-                if(result) { _fun00082_ip = 2583; continue _fun00081 }
- 2538:
+                if(!(update === echoed)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2533:
+                if(result) { _fun00082_ip = 2581; continue _fun00081 }
+ 2536:
                 echoed = tangon.applications;
                 result = zuuluu.props;
                 result = result.applications;
-                if(!(echoed === result)) { _fun00082_ip = 2583; continue _fun00081 }
- 2559:
-                if(output) { _fun00082_ip = 2583; continue _fun00081 }
- 2562:
-                if(sizing) { _fun00082_ip = 2583; continue _fun00081 }
- 2565:
-                if(foxtra) { _fun00082_ip = 2583; continue _fun00081 }
- 2568:
+                if(!(echoed === result)) { _fun00082_ip = 2581; continue _fun00081 }
+ 2557:
+                if(output) { _fun00082_ip = 2581; continue _fun00081 }
+ 2560:
+                if(sizing) { _fun00082_ip = 2581; continue _fun00081 }
+ 2563:
+                if(foxtra) { _fun00082_ip = 2581; continue _fun00081 }
+ 2566:
                 foxtra = zuuluu.recordTimings;
                 foxtra = foxtra.bind(zuuluu)();
-                _fun00082_ip = 3243; continue _fun00081;
- 2583:
+                _fun00082_ip = 3240; continue _fun00081;
+ 2581:
                 sizing = zuuluu._isMounted;
                 foxtra = true;
-                if(!(foxtra === sizing)) { _fun00082_ip = 3247; continue _fun00081 }
- 2598:
+                if(!(foxtra === sizing)) { _fun00082_ip = 3244; continue _fun00081 }
+ 2596:
                 foxtra = global;
                 foxtra = foxtra.Set;
                 sizing = foxtra.prototype;
@@ -4419,65 +4419,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output = tangon.editingMessageId;
                 sizing = zuuluu.props;
                 sizing = sizing.editingMessageId;
-                if(!(output !== sizing)) { _fun00082_ip = 2713; continue _fun00081 }
- 2651:
+                if(!(output !== sizing)) { _fun00082_ip = 2711; continue _fun00081 }
+ 2649:
                 sizing = zuuluu.props;
                 sizing = sizing.editingMessageId;
-                if(!(option != sizing)) { _fun00082_ip = 2687; continue _fun00081 }
- 2666:
+                if(!(option != sizing)) { _fun00082_ip = 2685; continue _fun00081 }
+ 2664:
                 output = foxtra.add;
                 sizing = zuuluu.props;
                 sizing = sizing.editingMessageId;
                 sizing = output.bind(foxtra)(sizing);
- 2687:
+ 2685:
                 sizing = tangon.editingMessageId;
-                if(!(option != sizing)) { _fun00082_ip = 2713; continue _fun00081 }
- 2697:
+                if(!(option != sizing)) { _fun00082_ip = 2711; continue _fun00081 }
+ 2695:
                 output = foxtra.add;
                 sizing = tangon.editingMessageId;
                 sizing = output.bind(foxtra)(sizing);
- 2713:
+ 2711:
                 output = tangon.replyingMessageId;
                 sizing = zuuluu.props;
                 sizing = sizing.replyingMessageId;
-                if(!(output !== sizing)) { _fun00082_ip = 2796; continue _fun00081 }
- 2734:
+                if(!(output !== sizing)) { _fun00082_ip = 2794; continue _fun00081 }
+ 2732:
                 sizing = zuuluu.props;
                 sizing = sizing.replyingMessageId;
-                if(!(option != sizing)) { _fun00082_ip = 2770; continue _fun00081 }
- 2749:
+                if(!(option != sizing)) { _fun00082_ip = 2768; continue _fun00081 }
+ 2747:
                 output = foxtra.add;
                 sizing = zuuluu.props;
                 sizing = sizing.replyingMessageId;
                 sizing = output.bind(foxtra)(sizing);
- 2770:
+ 2768:
                 sizing = tangon.replyingMessageId;
-                if(!(option != sizing)) { _fun00082_ip = 2796; continue _fun00081 }
- 2780:
+                if(!(option != sizing)) { _fun00082_ip = 2794; continue _fun00081 }
+ 2778:
                 output = foxtra.add;
                 sizing = tangon.replyingMessageId;
                 sizing = output.bind(foxtra)(sizing);
- 2796:
+ 2794:
                 output = tangon.isMessagesReady;
                 sizing = zuuluu.props;
                 sizing = sizing.isMessagesReady;
-                if(!(output === sizing)) { _fun00082_ip = 2880; continue _fun00081 }
- 2817:
+                if(!(output === sizing)) { _fun00082_ip = 2878; continue _fun00081 }
+ 2815:
                 output = tangon.isCallActive;
                 sizing = zuuluu.props;
                 sizing = sizing.isCallActive;
-                if(!(output === sizing)) { _fun00082_ip = 2880; continue _fun00081 }
- 2838:
+                if(!(output === sizing)) { _fun00082_ip = 2878; continue _fun00081 }
+ 2836:
                 output = tangon.voiceStateChannelId;
                 sizing = zuuluu.props;
                 sizing = sizing.voiceStateChannelId;
-                if(!(output === sizing)) { _fun00082_ip = 2880; continue _fun00081 }
- 2859:
+                if(!(output === sizing)) { _fun00082_ip = 2878; continue _fun00081 }
+ 2857:
                 output = tangon.participantsLength;
                 sizing = zuuluu.props;
                 sizing = sizing.participantsLength;
-                if(!(output !== sizing)) { _fun00082_ip = 2969; continue _fun00081 }
- 2880:
+                if(!(output !== sizing)) { _fun00082_ip = 2966; continue _fun00081 }
+ 2878:
                 sizing = _closure1_slot1;
                 output = _closure1_slot2;
                 kiloes = 62;
@@ -4499,12 +4499,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 kiloes = output.bind(result)(sizing, kiloes);
-                if(!(option != kiloes)) { _fun00082_ip = 2969; continue _fun00081 }
- 2954:
+                if(!(option != kiloes)) { _fun00082_ip = 2966; continue _fun00081 }
+ 2951:
                 sizing = foxtra.add;
                 kiloes = kiloes.id;
                 kiloes = sizing.bind(foxtra)(kiloes);
- 2969:
+ 2966:
                 sizing = tangon.channelThreadsVersion;
                 kiloes = zuuluu.props;
                 kiloes = kiloes.channelThreadsVersion;
@@ -4528,18 +4528,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = tangon.communicationDisabledVersion;
                 sizing = option != kiloes;
                 option = -1;
-                if(!sizing) { _fun00082_ip = 3091; continue _fun00081 }
- 3088:
+                if(!sizing) { _fun00082_ip = 3088; continue _fun00081 }
+ 3085:
                 option = kiloes;
- 3091:
+ 3088:
                 var _closure3_slot23 = option;
                 tangon = tangon.cacheStoreLoaded;
                 option = !tangon;
-                if(!option) { _fun00082_ip = 3118; continue _fun00081 }
- 3107:
+                if(!option) { _fun00082_ip = 3115; continue _fun00081 }
+ 3104:
                 tangon = zuuluu.props;
                 option = tangon.cacheStoreLoaded;
- 3118:
+ 3115:
                 var _closure3_slot24 = option;
                 tangon = zuuluu.props;
                 kiloes = tangon.messages;
@@ -5002,10 +5002,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(zuuluu)(michal);
                 michal = zuuluu.recordTimings;
                 michal = michal.bind(zuuluu)();
- 3243:
+ 3240:
                 michal = undefined;
                 return michal;
- 3247:
+ 3244:
                 return entity;
             }
         };
@@ -7478,10 +7478,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['interactionStates'] = variable49;
             oscard['interactionComponentStates'] = variable48;
             oscard['interactionComponentStatesVersion'] = variable47;
-            if(!variable45) { _fun00096_ip = 3852; continue _fun00095 }
- 3849:
+            if(!variable45) { _fun00096_ip = 3851; continue _fun00095 }
+ 3848:
             variable45 = variable46;
- 3852:
+ 3851:
             oscard['hasLoadedExperiments'] = variable45;
             oscard['guildSystemChannelFlags'] = variable44;
             oscard['currentUserCommunicationDisabled'] = variable43;
@@ -7495,10 +7495,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36 = variable36 !== variable37;
             oscard['cacheStoreLoaded'] = variable36;
             oscard['androidKeyboardHeight'] = quebec;
-            if(!(result != equals)) { _fun00096_ip = 3924; continue _fun00095 }
- 3921:
+            if(!(result != equals)) { _fun00096_ip = 3923; continue _fun00095 }
+ 3920:
             whisks = equals;
- 3924:
+ 3923:
             oscard['selectedSummary'] = whisks;
             oscard['keyboardType'] = limora;
             oscard['shouldTrackAnnouncementMessageViews'] = sierra;
@@ -7515,10 +7515,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['resolvedReferralTrialOfferIds'] = update;
             update = result == echoed;
             result = undefined;
-            if(update) { _fun00096_ip = 4008; continue _fun00095 }
- 4003:
+            if(update) { _fun00096_ip = 4007; continue _fun00095 }
+ 4002:
             result = echoed.id;
- 4008:
+ 4007:
             oscard['referralTrialOfferId'] = result;
             oscard['isPremiumTier2User'] = sizing;
             sizing = 'all';
@@ -7526,10 +7526,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['messageShortcutsEnabled'] = sizing;
             oscard['activityInviteMessageIds'] = kiloes;
             romeon = 0;
-            if(!backup) { _fun00096_ip = 4044; continue _fun00095 }
- 4041:
+            if(!backup) { _fun00096_ip = 4043; continue _fun00095 }
+ 4040:
             romeon = foxtra;
- 4044:
+ 4043:
             oscard['guildInviteColorsFetched'] = romeon;
             oscard['isAgeVerified'] = yankee;
             r108 = oscard;

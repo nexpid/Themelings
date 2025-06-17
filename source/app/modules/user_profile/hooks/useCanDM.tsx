@@ -117,13 +117,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure2_slot3;
                 entity = !zuuluu;
  20:
-                if(!entity) { _fun00004_ip = 96; continue _fun00003 }
+                if(!entity) { _fun00004_ip = 95; continue _fun00003 }
  23:
                 oscard = _closure1_slot6;
                 report = oscard.isFriend;
                 zuuluu = _closure2_slot0;
                 zuuluu = report.bind(oscard)(zuuluu);
-                if(zuuluu) { _fun00004_ip = 93; continue _fun00003 }
+                if(zuuluu) { _fun00004_ip = 92; continue _fun00003 }
  48:
                 oscard = _closure1_slot5;
                 report = oscard.memberOf;
@@ -141,11 +141,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report.bind(oscard)(tangon);
                 tangon = null;
                 zuuluu = tangon != report;
- 93:
+ 92:
                 entity = zuuluu;
- 96:
-                if(entity) { _fun00004_ip = 176; continue _fun00003 }
- 99:
+ 95:
+                if(entity) { _fun00004_ip = 175; continue _fun00003 }
+ 98:
                 report = _closure1_slot2;
                 tangon = report.getGameFriendsForUser;
                 michal = _closure2_slot0;
@@ -153,8 +153,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = michal.length;
                 michal = 0;
                 michal = tangon > michal;
-                if(!michal) { _fun00004_ip = 173; continue _fun00003 }
- 135:
+                if(!michal) { _fun00004_ip = 172; continue _fun00003 }
+ 134:
                 report = _closure1_slot0;
                 tangon = _closure1_slot1;
                 zuuluu = 6;
@@ -164,9 +164,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = zuuluu.AllowGameFriendDmsInDiscord;
                 zuuluu = tangon.getSetting;
                 michal = zuuluu.bind(tangon)();
- 173:
+ 172:
                 entity = michal;
- 176:
+ 175:
                 return entity;
             }
         };

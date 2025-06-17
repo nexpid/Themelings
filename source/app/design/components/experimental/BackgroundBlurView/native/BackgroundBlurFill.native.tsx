@@ -21,10 +21,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(zuuluu)();
             entity = entity.theme;
             zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00002_ip = 53; continue _fun00001 }
- 50:
+            if(!(zuuluu != michal)) { _fun00002_ip = 52; continue _fun00001 }
+ 49:
             entity = michal;
- 53:
+ 52:
             return entity;
         }
     };

@@ -60,10 +60,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.getChannelId;
                 golfie = zuuluu.bind(tangon)();
                 zuuluu = null;
-                if(!(zuuluu != golfie)) { _fun00002_ip = 189; continue _fun00001 }
+                if(!(zuuluu != golfie)) { _fun00002_ip = 188; continue _fun00001 }
  28:
                 tangon = _closure2_slot0;
-                if(tangon) { _fun00002_ip = 189; continue _fun00001 }
+                if(tangon) { _fun00002_ip = 188; continue _fun00001 }
  41:
                 report = _closure1_slot2;
                 tangon = report.getVideoParticipants;
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = tangon.length;
                 tangon = 0;
                 tangon = report > tangon;
-                if(tangon) { _fun00002_ip = 141; continue _fun00001 }
+                if(tangon) { _fun00002_ip = 140; continue _fun00001 }
  87:
                 oscard = _closure1_slot2;
                 report = oscard.getStreamParticipants;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = report.bind(oscard)(michal);
                 tangon = zuuluu != michal;
- 141:
+ 140:
                 michal = {};
                 oscard = _closure1_slot0;
                 report = _closure1_slot1;
@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = 'externalPipEnabled';
                 michal[zuuluu] = tangon;
                 return michal;
- 189:
+ 188:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot1;
                 entity = 4;

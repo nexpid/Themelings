@@ -153,10 +153,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = golfie.bind(option)(zuuluu, entity, michal);
-            if(kiloes) { _fun00006_ip = 178; continue _fun00005 }
- 176:
+            if(kiloes) { _fun00006_ip = 177; continue _fun00005 }
+ 175:
             report = undefined;
- 178:
+ 177:
             option = _closure1_slot0;
             golfie = _closure1_slot3;
             entity = 26;
@@ -188,24 +188,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = backup[golfie];
             golfie = verify.bind(tangon)(golfie);
             golfie = golfie.unsafe_rawColors;
-            if(option) { _fun00006_ip = 341; continue _fun00005 }
- 317:
+            if(option) { _fun00006_ip = 340; continue _fun00005 }
+ 316:
             verify = golfie.PRIMARY_200;
             option = 0.6;
             option = offset.bind(foxtra)(verify, option);
-            _fun00006_ip = 363; continue _fun00005;
- 341:
+            _fun00006_ip = 362; continue _fun00005;
+ 340:
             verify = golfie.PRIMARY_700;
             golfie = 0.6;
             option = offset.bind(foxtra)(verify, golfie);
- 363:
+ 362:
             backup = null;
             verify = backup != option;
             golfie = undefined;
-            if(!verify) { _fun00006_ip = 377; continue _fun00005 }
- 374:
+            if(!verify) { _fun00006_ip = 376; continue _fun00005 }
+ 373:
             golfie = option;
- 377:
+ 376:
             entity['underlayColor'] = golfie;
             entity['style'] = oscard;
             sierra = entity;
@@ -215,16 +215,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot10;
             report = {};
             option = null;
-            if(!romeon) { _fun00006_ip = 435; continue _fun00005 }
- 411:
+            if(!romeon) { _fun00006_ip = 434; continue _fun00005 }
+ 410:
             option = null;
-            if(kiloes) { _fun00006_ip = 435; continue _fun00005 }
- 416:
+            if(kiloes) { _fun00006_ip = 434; continue _fun00005 }
+ 415:
             verify = {};
             offset = 0.3;
             verify['opacity'] = offset;
             option = verify;
- 435:
+ 434:
             report['style'] = option;
             offset = _closure1_slot21;
             verify = _closure1_slot0;
@@ -234,8 +234,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify.bind(tangon)(option);
             verify = option.FormRow;
             option = {};
-            if(!(backup == vacuum)) { _fun00006_ip = 558; continue _fun00005 }
- 475:
+            if(!(backup == vacuum)) { _fun00006_ip = 557; continue _fun00005 }
+ 474:
             ctrled = _closure1_slot21;
             source = _closure1_slot0;
             papara = _closure1_slot3;
@@ -254,23 +254,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['source'] = config;
             update['style'] = sequen;
             update = ctrled.bind(tangon)(source, update);
-            _fun00006_ip = 582; continue _fun00005;
- 558:
+            _fun00006_ip = 581; continue _fun00005;
+ 557:
             ctrled = _closure1_slot21;
             source = {};
             source['style'] = sequen;
             sequen = 'sm';
             source['size'] = sequen;
             update = ctrled.bind(tangon)(vacuum, source);
- 582:
+ 581:
             option['leading'] = update;
             echoed = echoed.formRowStyle;
             option['style'] = echoed;
             yankee = yankee.name;
             option['label'] = yankee;
             yankee = undefined;
-            if(romeon) { _fun00006_ip = 618; continue _fun00005 }
- 611:
+            if(romeon) { _fun00006_ip = 617; continue _fun00005 }
+ 610:
             yankee = function() {
                 zuuluu = _closure2_slot1;
                 entity = _closure2_slot0;
@@ -279,14 +279,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(entity)(michal);
                 return entity;
             };
- 618:
+ 617:
             option['onPress'] = yankee;
             yankee = null;
-            if(!kiloes) { _fun00006_ip = 697; continue _fun00005 }
- 627:
+            if(!kiloes) { _fun00006_ip = 696; continue _fun00005 }
+ 626:
             yankee = null;
-            if(!romeon) { _fun00006_ip = 697; continue _fun00005 }
- 632:
+            if(!romeon) { _fun00006_ip = 696; continue _fun00005 }
+ 631:
             kiloes = _closure1_slot21;
             backup = _closure1_slot0;
             echoed = _closure1_slot3;
@@ -302,13 +302,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['source'] = output;
             foxtra['style'] = sizing;
             yankee = kiloes.bind(tangon)(backup, foxtra);
- 697:
+ 696:
             option['trailing'] = yankee;
             yankee = undefined;
-            if(!romeon) { _fun00006_ip = 710; continue _fun00005 }
- 707:
+            if(!romeon) { _fun00006_ip = 709; continue _fun00005 }
+ 706:
             yankee = 1;
- 710:
+ 709:
             option['numberOfLines'] = yankee;
             option = offset.bind(tangon)(verify, option);
             report['children'] = option;
@@ -743,11 +743,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output = entity.actionIconStyle;
                 offset = null;
                 romeon = null;
-                if(!update) { _fun00014_ip = 83; continue _fun00013 }
- 72:
+                if(!update) { _fun00014_ip = 84; continue _fun00013 }
+ 73:
                 entity = report.props;
                 romeon = entity.sortHandlers;
- 83:
+ 84:
                 zuuluu = _closure1_slot21;
                 michal = _closure1_slot11;
                 entity = {};
@@ -1038,11 +1038,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = entity.channelList;
                     report = entity.guild;
                     entity = null;
-                    if(!(entity != michal)) { _fun00018_ip = 266; continue _fun00017 }
+                    if(!(entity != michal)) { _fun00018_ip = 264; continue _fun00017 }
  69:
-                    if(!(entity != tangon)) { _fun00018_ip = 266; continue _fun00017 }
+                    if(!(entity != tangon)) { _fun00018_ip = 264; continue _fun00017 }
  76:
-                    if(!(entity != foxtra)) { _fun00018_ip = 266; continue _fun00017 }
+                    if(!(entity != foxtra)) { _fun00018_ip = 264; continue _fun00017 }
  83:
                     offset = _closure1_slot17;
                     michal = offset.getLocalChannel;
@@ -1057,11 +1057,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  122:
                     michal = entity != verify;
                     offset = -1;
-                    if(!michal) { _fun00018_ip = 146; continue _fun00017 }
+                    if(!michal) { _fun00018_ip = 145; continue _fun00017 }
  135:
                     michal = tangon.indexOf;
                     offset = michal.bind(tangon)(verify);
- 146:
+ 145:
                     michal = tangon.indexOf;
                     sizing = michal.bind(tangon)(option);
                     tangon = _closure1_slot30;
@@ -1079,8 +1079,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = update[michal](echoed, result, output, sizing, kiloes, backup);
                     tangon = tangon.bind(oscard)(michal, report);
                     michal = null;
-                    if(!tangon) { _fun00018_ip = 264; continue _fun00017 }
- 217:
+                    if(!tangon) { _fun00018_ip = 262; continue _fun00017 }
+ 215:
                     report = _closure1_slot21;
                     tangon = _closure1_slot10;
                     zuuluu = {};
@@ -1093,9 +1093,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie[1] = option;
                     zuuluu['style'] = golfie;
                     michal = report.bind(oscard)(tangon, zuuluu);
- 264:
+ 262:
                     return michal;
- 266:
+ 264:
                     return entity;
                 }
             };
@@ -1118,62 +1118,62 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = null;
                     entity = 'null';
                     offset = null;
-                    if(!(entity !== zuuluu)) { _fun00020_ip = 88; continue _fun00019 }
- 73:
+                    if(!(entity !== zuuluu)) { _fun00020_ip = 89; continue _fun00019 }
+ 74:
                     michal = _closure1_slot17;
                     entity = michal.getLocalChannel;
                     offset = entity.bind(michal)(zuuluu);
- 88:
-                    if(!(oscard == offset)) { _fun00020_ip = 157; continue _fun00019 }
- 92:
+ 89:
+                    if(!(oscard == offset)) { _fun00020_ip = 158; continue _fun00019 }
+ 93:
                     zuuluu = _closure1_slot21;
                     michal = _closure1_slot10;
                     entity = {};
                     foxtra = oscard == option;
                     tangon = null;
-                    if(!foxtra) { _fun00020_ip = 145; continue _fun00019 }
- 111:
+                    if(!foxtra) { _fun00020_ip = 146; continue _fun00019 }
+ 112:
                     romeon = romeon.null;
                     foxtra = romeon.length;
                     romeon = 0;
                     romeon = foxtra > romeon;
                     tangon = null;
-                    if(!romeon) { _fun00020_ip = 145; continue _fun00019 }
- 133:
+                    if(!romeon) { _fun00020_ip = 146; continue _fun00019 }
+ 134:
                     romeon = {};
                     foxtra = 36;
                     romeon['marginTop'] = foxtra;
                     tangon = romeon;
- 145:
+ 146:
                     entity['style'] = tangon;
                     entity = zuuluu.bind(report)(michal, entity);
-                    _fun00020_ip = 243; continue _fun00019;
- 157:
+                    _fun00020_ip = 245; continue _fun00019;
+ 158:
                     tangon = _closure1_slot21;
                     zuuluu = _closure1_slot24;
                     michal = {};
                     michal['category'] = offset;
                     offset = oscard != option;
-                    if(!offset) { _fun00020_ip = 198; continue _fun00019 }
- 178:
+                    if(!offset) { _fun00020_ip = 200; continue _fun00019 }
+ 180:
                     romeon = option.has;
                     yankee = _closure1_slot18;
                     yankee = yankee.GUILD_CATEGORY;
                     offset = romeon.bind(option)(yankee);
- 198:
+ 200:
                     michal['sortingEnabled'] = offset;
                     verify = verify.edit;
                     michal['editStyle'] = verify;
                     option = oscard == option;
                     oscard = undefined;
-                    if(!option) { _fun00020_ip = 233; continue _fun00019 }
- 223:
+                    if(!option) { _fun00020_ip = 235; continue _fun00019 }
+ 225:
                     golfie = _closure3_slot0;
                     oscard = golfie.handleChannelPress;
- 233:
+ 235:
                     michal['onPress'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 243:
+ 245:
                     return entity;
                 }
             };
@@ -1414,17 +1414,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sequen = zuuluu;
                     michal = cntext[offset](record, config, sequen, vacuum, ctrled, source);
                     foxtra = null;
-                    if(!(foxtra != michal)) { _fun00026_ip = 733; continue _fun00025 }
+                    if(!(foxtra != michal)) { _fun00026_ip = 732; continue _fun00025 }
  155:
-                    if(!(zuuluu !== source)) { _fun00026_ip = 733; continue _fun00025 }
+                    if(!(zuuluu !== source)) { _fun00026_ip = 732; continue _fun00025 }
  162:
-                    if(!(foxtra != source)) { _fun00026_ip = 733; continue _fun00025 }
+                    if(!(foxtra != source)) { _fun00026_ip = 732; continue _fun00025 }
  169:
-                    if(!(foxtra != zuuluu)) { _fun00026_ip = 733; continue _fun00025 }
+                    if(!(foxtra != zuuluu)) { _fun00026_ip = 732; continue _fun00025 }
  176:
                     zuuluu = _closure1_slot30;
                     zuuluu = zuuluu.bind(entity)(michal, tangon);
-                    if(!zuuluu) { _fun00026_ip = 733; continue _fun00025 }
+                    if(!zuuluu) { _fun00026_ip = 732; continue _fun00025 }
  192:
                     yankee = michal.referenceId;
                     tangon = _closure1_slot0;
@@ -1493,7 +1493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     var _closure4_slot3 = tangon;
                     zuuluu = source.parent_id;
                     michal = michal.parentId;
-                    if(!(zuuluu !== michal)) { _fun00026_ip = 322; continue _fun00025 }
+                    if(!(zuuluu !== michal)) { _fun00026_ip = 321; continue _fun00025 }
  304:
                     zuuluu = tangon.find;
                     michal = function(argFoo) {
@@ -1573,7 +1573,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     michal = zuuluu.bind(tangon)(michal);
- 322:
+ 321:
                     report = function() { // Original name: saveUpdates
                         tangon = _closure1_slot1;
                         report = _closure1_slot3;
@@ -1596,11 +1596,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     var _closure4_slot4 = report;
                     michal = _closure4_slot2;
-                    if(!(foxtra == michal)) { _fun00026_ip = 350; continue _fun00025 }
- 341:
+                    if(!(foxtra == michal)) { _fun00026_ip = 349; continue _fun00025 }
+ 340:
                     michal = report.bind(entity)();
-                    _fun00026_ip = 733; continue _fun00025;
- 350:
+                    _fun00026_ip = 732; continue _fun00025;
+ 349:
                     tangon = _closure1_slot12;
                     zuuluu = tangon.getChannel;
                     michal = _closure4_slot2;
@@ -1647,8 +1647,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option['channelName'] = backup;
                     backup = foxtra != result;
                     foxtra = '';
-                    if(!backup) { _fun00026_ip = 590; continue _fun00025 }
- 552:
+                    if(!backup) { _fun00026_ip = 589; continue _fun00025 }
+ 551:
                     kiloes = _closure1_slot0;
                     backup = _closure1_slot3;
                     backup = backup[sizing];
@@ -1657,7 +1657,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = _closure1_slot16;
                     backup = _closure1_slot15;
                     foxtra = sizing.bind(output)(result, kiloes, backup);
- 590:
+ 589:
                     option['categoryName'] = foxtra;
                     option = offset.bind(romeon)(verify, option);
                     michal['body'] = option;
@@ -1695,7 +1695,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['onConfirm'] = oscard;
                     michal['onCancel'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 733:
+ 732:
                     return entity;
                 }
             };
@@ -1946,7 +1946,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = _closure1_slot19;
                                 michal = michal.VIEW_CHANNEL;
                                 michal = tangon.bind(oscard)(michal, report);
-                                if(!michal) { _fun00038_ip = 158; continue _fun00037 }
+                                if(!michal) { _fun00038_ip = 159; continue _fun00037 }
  61:
                                 oscard = _closure4_slot4;
                                 tangon = 1;
@@ -2010,7 +2010,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 zuuluu = _closure4_slot3;
                                 michal = zuuluu.push;
                                 michal = michal.bind(zuuluu)(tangon);
- 158:
+ 159:
                                 return entity;
                             }
                         };

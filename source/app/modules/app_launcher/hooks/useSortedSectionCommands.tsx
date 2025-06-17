@@ -79,14 +79,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = null;
                     tangon = michal == zuuluu;
                     entity = undefined;
-                    if(tangon) { _fun00004_ip = 43; continue _fun00003 }
- 38:
+                    if(tangon) { _fun00004_ip = 42; continue _fun00003 }
+ 37:
                     entity = zuuluu.data;
- 43:
-                    if(!(michal == entity)) { _fun00004_ip = 51; continue _fun00003 }
- 47:
+ 42:
+                    if(!(michal == entity)) { _fun00004_ip = 50; continue _fun00003 }
+ 46:
                     entity = new Array(0);
- 51:
+ 50:
                     return entity;
                 }
             };

@@ -56,18 +56,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot0;
                     entity = michal.isSystemUser;
                     entity = entity.bind(michal)();
-                    if(entity) { _fun00004_ip = 249; continue _fun00003 }
- 23:
-                    michal = _closure2_slot0;
-                    entity = michal.isClyde;
-                    entity = entity.bind(michal)();
-                    if(entity) { _fun00004_ip = 152; continue _fun00003 }
- 40:
+                    if(entity) { _fun00004_ip = 132; continue _fun00003 }
+ 20:
                     entity = _closure2_slot0;
                     michal = entity.bot;
                     entity = null;
-                    if(!michal) { _fun00004_ip = 150; continue _fun00003 }
- 55:
+                    if(!michal) { _fun00004_ip = 130; continue _fun00003 }
+ 35:
                     report = _closure1_slot12;
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -89,33 +84,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.bind(option)();
                     michal['verified'] = golfie;
                     entity = report.bind(tangon)(zuuluu, michal);
- 150:
-                    _fun00004_ip = 247; continue _fun00003;
- 152:
-                    report = _closure1_slot12;
-                    option = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    golfie = 10;
-                    michal = verify[golfie];
-                    tangon = undefined;
-                    zuuluu = option.bind(tangon)(michal);
-                    michal = {};
-                    offset = _closure2_slot2;
-                    offset = offset.botTag;
-                    michal['style'] = offset;
-                    golfie = verify[golfie];
-                    golfie = option.bind(tangon)(golfie);
-                    golfie = golfie.Types;
-                    golfie = golfie.AI;
-                    michal['type'] = golfie;
-                    option = _closure2_slot0;
-                    golfie = option.isVerifiedBot;
-                    golfie = golfie.bind(option)();
-                    michal['verified'] = golfie;
-                    entity = report.bind(tangon)(zuuluu, michal);
- 247:
-                    _fun00004_ip = 344; continue _fun00003;
- 249:
+ 130:
+                    _fun00004_ip = 227; continue _fun00003;
+ 132:
                     report = _closure1_slot12;
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -137,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard.bind(golfie)();
                     michal['verified'] = oscard;
                     entity = report.bind(tangon)(zuuluu, michal);
- 344:
+ 227:
                     return entity;
                 }
             };
@@ -657,7 +628,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             yankee = zuuluu.bind(golfie)(michal);
             var _closure2_slot7 = yankee;
-            if(!entity) { _fun00014_ip = 149; continue _fun00013 }
+            if(!entity) { _fun00014_ip = 148; continue _fun00013 }
  127:
             zuuluu = golfie.find;
             michal = function(argFoo) {
@@ -670,9 +641,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(golfie)(michal);
             michal = null;
             entity = michal == zuuluu;
- 149:
-            if(!entity) { _fun00014_ip = 318; continue _fun00013 }
- 155:
+ 148:
+            if(!entity) { _fun00014_ip = 317; continue _fun00013 }
+ 154:
             michal = yankee.push;
             golfie = _closure1_slot12;
             zuuluu = _closure1_slot21;
@@ -711,7 +682,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['showToastOnPress'] = romeon;
             entity = golfie.bind(tangon)(zuuluu, entity);
             entity = michal.bind(yankee)(entity);
- 318:
+ 317:
             entity = _closure1_slot6;
             entity = entity.bind(tangon)();
             entity = entity.width;

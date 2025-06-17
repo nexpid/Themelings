@@ -112,15 +112,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = entity.disabled;
             backup = entity.theme;
             tangon = undefined;
-            if(!(backup === tangon)) { _fun00002_ip = 56; continue _fun00001 }
- 52:
+            if(!(backup === tangon)) { _fun00002_ip = 55; continue _fun00001 }
+ 51:
             backup = 'dark';
- 56:
+ 55:
             offset = entity.disableBackground;
-            if(!(offset === tangon)) { _fun00002_ip = 68; continue _fun00001 }
- 66:
+            if(!(offset === tangon)) { _fun00002_ip = 67; continue _fun00001 }
+ 65:
             offset = true;
- 68:
+ 67:
             output = entity.containerStyle;
             result = entity.IconComponent;
             entity = _closure1_slot8;
@@ -167,10 +167,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = new Array(3);
             yankee[0] = echoed;
             yankee[1] = output;
-            if(!foxtra) { _fun00002_ip = 207; continue _fun00001 }
- 202:
+            if(!foxtra) { _fun00002_ip = 206; continue _fun00001 }
+ 201:
             foxtra = sizing.disabled;
- 207:
+ 206:
             yankee[2] = foxtra;
             option['style'] = yankee;
             foxtra = _closure1_slot0;
@@ -182,11 +182,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = yankee.bind(foxtra)(backup);
             yankee = null;
             foxtra = null;
-            if(!backup) { _fun00002_ip = 313; continue _fun00001 }
- 253:
+            if(!backup) { _fun00002_ip = 312; continue _fun00001 }
+ 252:
             foxtra = null;
-            if(offset) { _fun00002_ip = 313; continue _fun00001 }
- 258:
+            if(offset) { _fun00002_ip = 312; continue _fun00001 }
+ 257:
             output = _closure1_slot6;
             backup = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -200,11 +200,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.absoluteFill;
             offset['style'] = echoed;
             foxtra = output.bind(tangon)(backup, offset);
- 313:
+ 312:
             offset = new Array(3);
             offset[0] = foxtra;
-            if(!(yankee == result)) { _fun00002_ip = 403; continue _fun00001 }
- 325:
+            if(!(yankee == result)) { _fun00002_ip = 402; continue _fun00001 }
+ 324:
             output = _closure1_slot6;
             update = _closure1_slot1;
             source = _closure1_slot2;
@@ -222,8 +222,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.SMALL_20;
             foxtra['size'] = echoed;
             foxtra = output.bind(tangon)(backup, foxtra);
-            _fun00002_ip = 438; continue _fun00001;
- 403:
+            _fun00002_ip = 437; continue _fun00001;
+ 402:
             output = _closure1_slot6;
             backup = {};
             echoed = sizing.iconColor;
@@ -232,16 +232,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = 'sm';
             backup['size'] = echoed;
             foxtra = output.bind(tangon)(result, backup);
- 438:
+ 437:
             offset[1] = foxtra;
             yankee = yankee != kiloes;
-            if(!yankee) { _fun00002_ip = 455; continue _fun00001 }
- 449:
+            if(!yankee) { _fun00002_ip = 454; continue _fun00001 }
+ 448:
             foxtra = 0;
             yankee = kiloes > foxtra;
- 455:
-            if(!yankee) { _fun00002_ip = 509; continue _fun00001 }
- 458:
+ 454:
+            if(!yankee) { _fun00002_ip = 508; continue _fun00001 }
+ 457:
             backup = _closure1_slot6;
             foxtra = _closure1_slot0;
             output = _closure1_slot2;
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['style'] = sizing;
             romeon['children'] = kiloes;
             yankee = backup.bind(tangon)(foxtra, romeon);
- 509:
+ 508:
             offset[2] = yankee;
             option['children'] = offset;
             offset = golfie.bind(tangon)(michal, option);

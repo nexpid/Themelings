@@ -886,12 +886,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = entity;
             foxtra = michal.reactorUserId;
             tangon = null;
-            if(!(tangon != offset)) { _fun00022_ip = 754; continue _fun00021 }
+            if(!(tangon != offset)) { _fun00022_ip = 753; continue _fun00021 }
  41:
             michal = offset.reactions;
-            if(!(tangon != michal)) { _fun00022_ip = 754; continue _fun00021 }
+            if(!(tangon != michal)) { _fun00022_ip = 753; continue _fun00021 }
  54:
-            if(!(tangon != entity)) { _fun00022_ip = 754; continue _fun00021 }
+            if(!(tangon != entity)) { _fun00022_ip = 753; continue _fun00021 }
  61:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -901,7 +901,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.allowInAppNotifications;
             michal = michal.bind(zuuluu)();
-            if(!michal) { _fun00022_ip = 754; continue _fun00021 }
+            if(!michal) { _fun00022_ip = 753; continue _fun00021 }
  102:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -916,14 +916,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  151:
             yankee = michal.channelId;
             verify = michal.guildId;
-            if(!(tangon != yankee)) { _fun00022_ip = 750; continue _fun00021 }
+            if(!(tangon != yankee)) { _fun00022_ip = 749; continue _fun00021 }
  168:
             zuuluu = _closure1_slot17;
             michal = zuuluu.getCurrentlySelectedChannelId;
             michal = michal.bind(zuuluu)();
-            if(!(michal !== yankee)) { _fun00022_ip = 750; continue _fun00021 }
+            if(!(michal !== yankee)) { _fun00022_ip = 749; continue _fun00021 }
  189:
-            if(!(tangon != verify)) { _fun00022_ip = 750; continue _fun00021 }
+            if(!(tangon != verify)) { _fun00022_ip = 749; continue _fun00021 }
  196:
             oscard = _closure1_slot0;
             option = _closure1_slot2;
@@ -938,7 +938,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = oscard.bind(entity)(michal);
             michal = michal.ReactionNotificationType;
             michal = michal.NOTIFICATIONS_DISABLED;
-            if(!(zuuluu !== michal)) { _fun00022_ip = 746; continue _fun00021 }
+            if(!(zuuluu !== michal)) { _fun00022_ip = 745; continue _fun00021 }
  263:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -988,11 +988,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot18;
             report = option.getUser;
             option = report.bind(option)(foxtra);
-            if(!(tangon != oscard)) { _fun00022_ip = 742; continue _fun00021 }
+            if(!(tangon != oscard)) { _fun00022_ip = 741; continue _fun00021 }
  441:
             if(!(tangon == option)) { _fun00022_ip = 451; continue _fun00021 }
  445:
-            if(!zuuluu) { _fun00022_ip = 742; continue _fun00021 }
+            if(!zuuluu) { _fun00022_ip = 741; continue _fun00021 }
  451:
             backup = offset.reactions;
             foxtra = backup.find;
@@ -1026,19 +1026,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = foxtra.bind(backup)(report);
             backup = tangon != foxtra;
             report = undefined;
-            if(!backup) { _fun00022_ip = 487; continue _fun00021 }
- 484:
+            if(!backup) { _fun00022_ip = 486; continue _fun00021 }
+ 483:
             report = foxtra;
- 487:
-            if(!(tangon == report)) { _fun00022_ip = 501; continue _fun00021 }
- 491:
-            if(zuuluu) { _fun00022_ip = 501; continue _fun00021 }
- 494:
-            if(michal) { _fun00022_ip = 501; continue _fun00021 }
- 497:
+ 486:
+            if(!(tangon == report)) { _fun00022_ip = 500; continue _fun00021 }
+ 490:
+            if(zuuluu) { _fun00022_ip = 500; continue _fun00021 }
+ 493:
+            if(michal) { _fun00022_ip = 500; continue _fun00021 }
+ 496:
             michal = false;
             return michal;
- 501:
+ 500:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 36;
@@ -1054,13 +1054,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(foxtra)(zuuluu, michal);
             zuuluu = michal.enableInAppNotifications;
             michal = michal.enableNotificationsForAllReactions;
-            if(!zuuluu) { _fun00022_ip = 572; continue _fun00021 }
- 569:
-            if(michal) { _fun00022_ip = 576; continue _fun00021 }
- 572:
+            if(!zuuluu) { _fun00022_ip = 571; continue _fun00021 }
+ 568:
+            if(michal) { _fun00022_ip = 575; continue _fun00021 }
+ 571:
             michal = false;
             return michal;
- 576:
+ 575:
             zuuluu = _closure1_slot28;
             michal = {};
             tangon = {};
@@ -1109,16 +1109,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['notification'] = tangon;
             michal = zuuluu.bind(entity)(michal);
             return entity;
- 742:
+ 741:
             entity = false;
             return entity;
- 746:
+ 745:
             entity = false;
             return entity;
- 750:
+ 749:
             entity = false;
             return entity;
- 754:
+ 753:
             entity = false;
             return entity;
         }

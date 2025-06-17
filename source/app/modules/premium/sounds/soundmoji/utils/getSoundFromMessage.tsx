@@ -190,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             zuuluu = entity == tangon;
             entity = undefined;
-            if(zuuluu) { _fun00008_ip = 39; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 38; continue _fun00007 }
  23:
             zuuluu = tangon.find;
             michal = function(argFoo) {
@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(tangon)(michal);
- 39:
+ 38:
             return entity;
         }
     };

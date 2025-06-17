@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = null;
     var _closure1_slot13 = report;
     report = function(argFoo) {
-        report = function(argFoo, argBar) { // Original name: PersistedStore
+        report = function(argFoo, argBar, argBaz) { // Original name: PersistedStore
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 oscard = this;
@@ -185,11 +185,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = undefined;
                 zuuluu = zuuluu.bind(golfie)(oscard, report);
                 tangon = _closure1_slot16;
-                zuuluu = new Array(2);
+                zuuluu = new Array(3);
                 option = argFoo;
                 zuuluu[0] = option;
                 option = argBar;
                 zuuluu[1] = option;
+                option = argBaz;
+                zuuluu[2] = option;
                 tangon = tangon.bind(golfie)(oscard, report, zuuluu);
                 var _closure3_slot0 = tangon;
                 zuuluu = tangon.getClass;
@@ -198,13 +200,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = null;
                 report = zuuluu == report;
                 zuuluu = 0;
-                if(report) { _fun00008_ip = 108; continue _fun00007 }
- 87:
+                if(report) { _fun00008_ip = 115; continue _fun00007 }
+ 94:
                 report = tangon.getClass;
                 report = report.bind(tangon)();
                 report = report.migrations;
                 zuuluu = report.length;
- 108:
+ 115:
                 tangon['_version'] = zuuluu;
                 zuuluu = function(argFoo) {
                     michal = _closure3_slot0;
@@ -251,17 +253,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.persistKey;
                 zuuluu = 'string';
                 michal = typeof michal;
-                if(!(zuuluu === michal)) { _fun00008_ip = 410; continue _fun00007 }
- 218:
+                if(!(zuuluu === michal)) { _fun00008_ip = 417; continue _fun00007 }
+ 225:
                 michal = tangon.initialize;
                 zuuluu = 'function';
                 michal = typeof michal;
-                if(!(zuuluu === michal)) { _fun00008_ip = 338; continue _fun00007 }
- 235:
+                if(!(zuuluu === michal)) { _fun00008_ip = 345; continue _fun00007 }
+ 242:
                 michal = tangon.getState;
                 michal = typeof michal;
-                if(!(zuuluu === michal)) { _fun00008_ip = 266; continue _fun00007 }
- 248:
+                if(!(zuuluu === michal)) { _fun00008_ip = 273; continue _fun00007 }
+ 255:
                 michal = tangon.addChangeListener;
                 entity = function() {
                     michal = _closure3_slot0;
@@ -271,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 entity = michal.bind(tangon)(entity);
                 return tangon;
- 266:
+ 273:
                 entity = global;
                 zuuluu = entity.Error;
                 michal = tangon.getClass;
@@ -288,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = new romeon[zuuluu](yankee, offset);
                 entity = entity instanceof Object ? entity : michal;
                 throw entity;
- 338:
+ 345:
                 entity = global;
                 zuuluu = entity.Error;
                 michal = tangon.getClass;
@@ -305,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = new romeon[zuuluu](yankee, offset);
                 entity = entity instanceof Object ? entity : michal;
                 throw entity;
- 410:
+ 417:
                 entity = global;
                 zuuluu = entity.Error;
                 michal = tangon.getClass;

@@ -474,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = null;
                     michal = entity == michal;
                     option = undefined;
-                    if(michal) { _fun00014_ip = 65; continue _fun00013 }
+                    if(michal) { _fun00014_ip = 64; continue _fun00013 }
  43:
                     tangon = _closure2_slot5;
                     zuuluu = tangon.find;
@@ -487,7 +487,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     option = zuuluu.bind(tangon)(michal);
- 65:
+ 64:
                     _closure3_slot1 = option;
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot2;
@@ -497,20 +497,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = oscard.getAppLauncherIconSource;
                     verify = entity == option;
                     zuuluu = undefined;
-                    if(verify) { _fun00014_ip = 112; continue _fun00013 }
- 107:
+                    if(verify) { _fun00014_ip = 111; continue _fun00013 }
+ 106:
                     zuuluu = option.application;
- 112:
+ 111:
                     offset = tangon.bind(oscard)(zuuluu);
                     zuuluu = _closure2_slot4;
                     tangon = zuuluu.length;
                     zuuluu = 1;
                     yankee = tangon - zuuluu;
-                    if(!(entity != option)) { _fun00014_ip = 331; continue _fun00013 }
- 140:
+                    if(!(entity != option)) { _fun00014_ip = 330; continue _fun00013 }
+ 139:
                     oscard = entity != offset;
-                    if(!oscard) { _fun00014_ip = 192; continue _fun00013 }
- 147:
+                    if(!oscard) { _fun00014_ip = 191; continue _fun00013 }
+ 146:
                     verify = _closure1_slot8;
                     tangon = _closure1_slot1;
                     kiloes = _closure1_slot2;
@@ -522,7 +522,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = 36;
                     zuuluu['iconSize'] = offset;
                     oscard = verify.bind(report)(tangon, zuuluu);
- 192:
+ 191:
                     tangon = _closure1_slot8;
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -563,7 +563,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['icon'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
                     return michal;
- 331:
+ 330:
                     return entity;
                 }
             };

@@ -35,9 +35,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/user_settings/hooks/useAuthorizedSlayerApplications.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() { // Original name: useAuthorizedSlayerApplications
+    michal = function(argFoo) { // Original name: useAuthorizedSlayerApplications
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
+            michal = argFoo;
+            var _closure2_slot0 = michal;
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             report = 2;
@@ -61,25 +63,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(1);
             report[0] = michal;
             michal = function() {
-                michal = _closure1_slot4;
-                entity = michal.getApps;
-                entity = entity.bind(michal)();
-                return entity;
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    entity = _closure2_slot0;
+                    zuuluu = _closure1_slot4;
+                    if(entity) { _fun00004_ip = 29; continue _fun00003 }
+ 17:
+                    entity = zuuluu.getApps;
+                    entity = entity.bind(zuuluu)();
+                    _fun00004_ip = 39; continue _fun00003;
+ 29:
+                    michal = zuuluu.getNonChildrenApps;
+                    entity = michal.bind(zuuluu)();
+ 39:
+                    return entity;
+                }
             };
             report = oscard.bind(golfie)(report, michal);
-            var _closure2_slot0 = report;
+            var _closure2_slot1 = report;
             option = _closure1_slot3;
             golfie = option.useMemo;
             oscard = new Array(1);
             oscard[0] = report;
             michal = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                    tangon = _closure2_slot0;
+                    tangon = _closure2_slot1;
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00004_ip = 55; continue _fun00003 }
+                    if(!(zuuluu != tangon)) { _fun00006_ip = 55; continue _fun00005 }
  15:
-                    tangon = _closure2_slot0;
+                    tangon = _closure2_slot1;
                     zuuluu = tangon.filter;
                     michal = function(argFoo) {
                         michal = _closure1_slot1;
@@ -101,7 +114,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00004_ip = 59; continue _fun00003;
+                    _fun00006_ip = 59; continue _fun00005;
  55:
                     entity = new Array(0);
  59:
@@ -127,11 +140,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.FETCHING;
             zuuluu = tangon === zuuluu;
-            if(!zuuluu) { _fun00002_ip = 173; continue _fun00001 }
- 167:
+            if(!zuuluu) { _fun00002_ip = 180; continue _fun00001 }
+ 174:
             tangon = null;
             zuuluu = tangon == report;
- 173:
+ 180:
             entity['showLoadingIndicator'] = zuuluu;
             entity['slayerSdkApplications'] = michal;
             return entity;

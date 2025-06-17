@@ -183,12 +183,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = tangon;
  490:
             tangon = report;
-            if(!entity) { _fun00002_ip = 611; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 614; continue _fun00001 }
  496:
             entity = _closure1_slot6;
             entity = entity.DARK;
-            if(!(report === entity)) { _fun00002_ip = 546; continue _fun00001 }
- 509:
+            if(!(report === entity)) { _fun00002_ip = 547; continue _fun00001 }
+ 510:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             entity = 10;
@@ -197,13 +197,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = golfie.isThemeDark;
             golfie = entity.bind(golfie)(offset);
             entity = offset;
-            if(golfie) { _fun00002_ip = 608; continue _fun00001 }
- 546:
+            if(golfie) { _fun00002_ip = 611; continue _fun00001 }
+ 547:
             golfie = _closure1_slot6;
             golfie = golfie.DARK;
             golfie = report === golfie;
-            if(!golfie) { _fun00002_ip = 593; continue _fun00001 }
- 562:
+            if(!golfie) { _fun00002_ip = 595; continue _fun00001 }
+ 564:
             verify = _closure1_slot0;
             romeon = _closure1_slot2;
             option = 10;
@@ -211,16 +211,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(yankee)(option);
             option = verify.isThemeLight;
             golfie = option.bind(verify)(offset);
- 593:
-            if(!golfie) { _fun00002_ip = 605; continue _fun00001 }
- 596:
+ 595:
+            if(!golfie) { _fun00002_ip = 608; continue _fun00001 }
+ 598:
             oscard = _closure1_slot6;
             report = oscard.DARKER;
- 605:
-            entity = report;
  608:
-            tangon = entity;
+            entity = report;
  611:
+            tangon = entity;
+ 614:
             entity = {};
             entity['theme'] = tangon;
             entity['primaryColor'] = zuuluu;

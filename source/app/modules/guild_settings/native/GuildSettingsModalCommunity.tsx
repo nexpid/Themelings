@@ -961,10 +961,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = null;
                     zuuluu = zuuluu == michal;
                     offset = undefined;
-                    if(zuuluu) { _fun00024_ip = 66; continue _fun00023 }
- 61:
+                    if(zuuluu) { _fun00024_ip = 65; continue _fun00023 }
+ 60:
                     offset = michal.label;
- 66:
+ 65:
                     zuuluu = _closure1_slot16;
                     verify = _closure1_slot0;
                     yankee = _closure1_slot2;

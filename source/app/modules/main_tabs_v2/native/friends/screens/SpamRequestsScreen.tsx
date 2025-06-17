@@ -72,23 +72,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 8;
             report = verify[golfie];
             foxtra = option.bind(tangon)(report);
-            romeon = foxtra.useStateFromStores;
+            romeon = foxtra.useStateFromStoresArray;
             report = _closure1_slot4;
             offset = new Array(1);
             offset[0] = report;
             report = function() {
-                michal = _closure1_slot4;
-                entity = michal.getRelationships;
-                entity = entity.bind(michal)();
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = 9;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                zuuluu = tangon.bind(michal)(zuuluu);
+                michal = zuuluu.getPendingRelationshipIds;
+                tangon = _closure1_slot4;
+                entity = tangon.getMutableRelationships;
+                entity = entity.bind(tangon)();
+                entity = michal.bind(zuuluu)(entity);
+                entity = entity.spamIds;
                 return entity;
             };
-            romeon = romeon.bind(foxtra)(offset, report);
-            report = 9;
-            report = verify[report];
-            offset = option.bind(tangon)(report);
-            report = offset.getPendingRelationshipIds;
-            report = report.bind(offset)(romeon);
-            report = report.spamIds;
+            report = romeon.bind(foxtra)(offset, report);
             var _closure2_slot1 = report;
             offset = 10;
             offset = verify[offset];
@@ -103,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = yankee.bind(tangon)(offset);
             golfie = verify[golfie];
             offset = option.bind(tangon)(golfie);
-            verify = offset.useStateFromStores;
+            verify = offset.useStateFromStoresArray;
             golfie = _closure1_slot5;
             option = new Array(1);
             option[0] = golfie;
@@ -197,12 +200,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(verify)(michal, golfie);
             option = report.length;
             michal = 0;
-            if(!(michal === option)) { _fun00002_ip = 356; continue _fun00001 }
- 344:
+            if(!(michal === option)) { _fun00002_ip = 329; continue _fun00001 }
+ 317:
             michal = zuuluu.goBack;
             michal = michal.bind(zuuluu)();
             return tangon;
- 356:
+ 329:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot0;
             option = _closure1_slot2;

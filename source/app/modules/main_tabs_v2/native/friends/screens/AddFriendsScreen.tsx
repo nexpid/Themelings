@@ -591,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = tangon.bind(zuuluu)(report);
                 report = option.keys;
                 verify = _closure1_slot10;
-                michal = verify.getRelationships;
+                michal = verify.getMutableRelationships;
                 michal = michal.bind(verify)();
                 option = report.bind(option)(michal);
                 report = option.forEach;

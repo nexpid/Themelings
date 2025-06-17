@@ -299,26 +299,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
-        tangon = function() { // Original name: CloudUploader
+        tangon = function(argFoo) { // Original name: CloudUploader
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 tangon = this;
-                entity = _closure1_slot4;
+                romeon = 0;
+                entity = copyRestArgs(romeon);
+                golfie = _closure1_slot4;
                 michal = _closure2_slot2;
                 zuuluu = undefined;
-                entity = entity.bind(zuuluu)(tangon, michal);
-                verify = ['unused'];
+                golfie = golfie.bind(zuuluu)(tangon, michal);
+                verify = new Array(0);
+                romeon = verify;
+                yankee = entity;
+                offset = 0;
+                entity = arraySpread(romeon, yankee, offset);
                 entity = _closure1_slot7;
                 option = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot6;
                 entity = _closure1_slot18;
                 entity = entity.bind(zuuluu)();
-                if(entity) { _fun00010_ip = 72; continue _fun00009 }
- 59:
+                if(entity) { _fun00010_ip = 84; continue _fun00009 }
+ 71:
                 entity = option.apply;
                 entity = entity.bind(option)(tangon, verify);
-                _fun00010_ip = 106; continue _fun00009;
- 72:
+                _fun00010_ip = 118; continue _fun00009;
+ 84:
                 oscard = global;
                 golfie = oscard.Reflect;
                 oscard = golfie.construct;
@@ -326,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = report.bind(zuuluu)(tangon);
                 report = report.constructor;
                 entity = oscard.bind(golfie)(option, verify, report);
- 106:
+ 118:
                 entity = michal.bind(zuuluu)(tangon, entity);
                 michal = global;
                 zuuluu = michal.Map;
@@ -355,7 +361,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = report.bind(zuuluu)(tangon, michal);
         michal = _closure1_slot5;
         report = {};
-        golfie = 'uploadFilesSimple';
+        golfie = 'uploadFiles';
         report['key'] = golfie;
         option = _closure1_slot3;
         entity = function* (argFoo) {
@@ -750,7 +756,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.enqueue;
                     tangon = function() {
                         entity = _closure4_slot0;
-                        michal = entity.startSimpleUpload;
+                        michal = entity.startUpload;
                         michal = michal.bind(entity)();
                         return entity;
                     };
@@ -780,7 +786,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         entity = option.bind(zuuluu)(entity);
         var _closure2_slot1 = entity;
-        entity = function() { // Original name: uploadFilesSimple
+        entity = function() { // Original name: uploadFiles
             entity = undefined;
             tangon = _closure2_slot1;
             zuuluu = tangon.apply;
@@ -794,7 +800,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = new Array(3);
         entity[0] = report;
         report = {};
-        golfie = 'startSimpleUpload';
+        golfie = 'startUpload';
         report['key'] = golfie;
         golfie = function* () {
             entity = function* () { // Original name: ?anon_0_
@@ -987,7 +993,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         golfie = option.bind(zuuluu)(golfie);
         var _closure2_slot0 = golfie;
-        golfie = function() { // Original name: startSimpleUpload
+        golfie = function() { // Original name: startUpload
             entity = undefined;
             tangon = _closure2_slot0;
             zuuluu = tangon.apply;

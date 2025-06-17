@@ -1241,7 +1241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = romeon.afkChannelId;
                 zuuluu = kiloes != michal;
                 michal = null;
-                if(!zuuluu) { _fun00022_ip = 185; continue _fun00021 }
+                if(!zuuluu) { _fun00022_ip = 184; continue _fun00021 }
  160:
                 tangon = _closure1_slot30;
                 zuuluu = tangon.find;
@@ -1254,19 +1254,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal = zuuluu.bind(tangon)(entity);
- 185:
-                if(!(kiloes == michal)) { _fun00022_ip = 214; continue _fun00021 }
- 189:
+ 184:
+                if(!(kiloes == michal)) { _fun00022_ip = 213; continue _fun00021 }
+ 188:
                 zuuluu = _closure1_slot30;
                 entity = 1;
                 zuuluu = zuuluu[entity];
                 entity = zuuluu.label;
                 foxtra = entity.bind(zuuluu)();
-                _fun00022_ip = 223; continue _fun00021;
- 214:
+                _fun00022_ip = 222; continue _fun00021;
+ 213:
                 entity = michal.label;
                 foxtra = entity.bind(michal)();
- 223:
+ 222:
                 tangon = _closure1_slot27;
                 echoed = _closure1_slot0;
                 update = _closure1_slot2;
@@ -1354,11 +1354,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = output.bind(result)(sizing);
                 oscard['label'] = sizing;
                 yankee = !yankee;
-                if(yankee) { _fun00022_ip = 639; continue _fun00021 }
- 629:
+                if(yankee) { _fun00022_ip = 638; continue _fun00021 }
+ 628:
                 romeon = romeon.afkChannelId;
                 yankee = kiloes == romeon;
- 639:
+ 638:
                 oscard['disabled'] = yankee;
                 romeon = _closure1_slot26;
                 yankee = _closure1_slot0;

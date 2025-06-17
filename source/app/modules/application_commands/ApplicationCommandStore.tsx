@@ -605,12 +605,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 report = entity == tangon;
                 michal = undefined;
-                if(report) { _fun00016_ip = 70; continue _fun00015 }
+                if(report) { _fun00016_ip = 69; continue _fun00015 }
  40:
                 report = tangon.options;
                 tangon = entity == report;
                 michal = undefined;
-                if(tangon) { _fun00016_ip = 70; continue _fun00015 }
+                if(tangon) { _fun00016_ip = 69; continue _fun00015 }
  54:
                 tangon = report.find;
                 zuuluu = function(argFoo) {
@@ -622,13 +622,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 michal = tangon.bind(report)(zuuluu);
- 70:
+ 69:
                 zuuluu = entity != michal;
                 entity = null;
-                if(!zuuluu) { _fun00016_ip = 82; continue _fun00015 }
- 79:
+                if(!zuuluu) { _fun00016_ip = 81; continue _fun00015 }
+ 78:
                 entity = michal;
- 82:
+ 81:
                 return entity;
             }
         };
@@ -717,12 +717,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = null;
                 oscard = zuuluu == tangon;
                 entity = undefined;
-                if(oscard) { _fun00018_ip = 73; continue _fun00017 }
+                if(oscard) { _fun00018_ip = 72; continue _fun00017 }
  43:
                 tangon = tangon.options;
                 zuuluu = zuuluu == tangon;
                 entity = undefined;
-                if(zuuluu) { _fun00018_ip = 73; continue _fun00017 }
+                if(zuuluu) { _fun00018_ip = 72; continue _fun00017 }
  57:
                 zuuluu = tangon.find;
                 michal = function(argFoo) {
@@ -733,7 +733,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 entity = zuuluu.bind(tangon)(michal);
- 73:
+ 72:
                 return entity;
             }
         };

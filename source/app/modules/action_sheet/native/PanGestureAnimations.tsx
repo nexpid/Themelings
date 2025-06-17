@@ -119,10 +119,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 zuuluu = zuuluu.bind(oscard)();
                 option = golfie.length;
-                if(!(tangon !== option)) { _fun00002_ip = 121; continue _fun00001 }
+                if(!(tangon !== option)) { _fun00002_ip = 120; continue _fun00001 }
  81:
                 zuuluu = zuuluu.bind(oscard)(golfie, entity);
-                if(!(tangon !== report)) { _fun00002_ip = 115; continue _fun00001 }
+                if(!(tangon !== report)) { _fun00002_ip = 114; continue _fun00001 }
  91:
                 report = zuuluu.find;
                 michal = function(argFoo) {
@@ -145,12 +145,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = report.bind(zuuluu)(michal);
                 report = null;
-                if(!(report == michal)) { _fun00002_ip = 119; continue _fun00001 }
- 115:
+                if(!(report == michal)) { _fun00002_ip = 118; continue _fun00001 }
+ 114:
                 michal = zuuluu[tangon];
- 119:
+ 118:
                 return michal;
- 121:
+ 120:
                 return entity;
             }
         };

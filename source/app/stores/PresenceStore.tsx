@@ -1102,69 +1102,59 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function(argFoo) { // Original name: value
             _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
-                report = argFoo;
+                tangon = argFoo;
                 golfie = arguments[1];
-                michal = arguments[2];
+                entity = arguments[2];
                 oscard = undefined;
                 if(!(golfie === oscard)) { _fun00046_ip = 17; continue _fun00045 }
  15:
                 golfie = null;
  17:
-                if(!(michal === oscard)) { _fun00046_ip = 34; continue _fun00045 }
+                if(!(entity === oscard)) { _fun00046_ip = 34; continue _fun00045 }
  21:
-                entity = _closure1_slot9;
-                michal = entity.OFFLINE;
+                michal = _closure1_slot9;
+                entity = michal.OFFLINE;
  34:
-                tangon = _closure1_slot8;
-                zuuluu = tangon.getUser;
-                option = zuuluu.bind(tangon)(report);
-                tangon = null;
-                zuuluu = tangon != option;
-                if(!zuuluu) { _fun00046_ip = 82; continue _fun00045 }
+                report = _closure1_slot8;
+                zuuluu = report.getUser;
+                offset = zuuluu.bind(report)(tangon);
+                zuuluu = null;
+                report = zuuluu != offset;
+                if(!report) { _fun00046_ip = 82; continue _fun00045 }
  61:
-                offset = option.hasFlag;
-                verify = _closure1_slot13;
-                verify = verify.BOT_HTTP_INTERACTIONS;
-                zuuluu = offset.bind(option)(verify);
+                verify = offset.hasFlag;
+                option = _closure1_slot13;
+                option = option.BOT_HTTP_INTERACTIONS;
+                report = verify.bind(offset)(option);
  82:
-                if(!zuuluu) { _fun00046_ip = 95; continue _fun00045 }
+                if(!report) { _fun00046_ip = 95; continue _fun00045 }
  85:
-                zuuluu = _closure1_slot9;
-                michal = zuuluu.UNKNOWN;
+                report = _closure1_slot9;
+                entity = report.UNKNOWN;
  95:
-                if(!(tangon != option)) { _fun00046_ip = 112; continue _fun00045 }
+                if(!(zuuluu != golfie)) { _fun00046_ip = 135; continue _fun00045 }
  99:
-                zuuluu = option.isClyde;
-                zuuluu = zuuluu.bind(option)();
-                if(zuuluu) { _fun00046_ip = 169; continue _fun00045 }
- 112:
-                if(!(tangon != golfie)) { _fun00046_ip = 152; continue _fun00045 }
- 116:
-                zuuluu = _closure1_slot26;
-                zuuluu = zuuluu.bind(oscard)(report, golfie);
-                golfie = tangon == zuuluu;
+                report = _closure1_slot26;
+                report = report.bind(oscard)(tangon, golfie);
+                golfie = zuuluu == report;
                 oscard = undefined;
-                if(golfie) { _fun00046_ip = 140; continue _fun00045 }
+                if(golfie) { _fun00046_ip = 123; continue _fun00045 }
+ 118:
+                oscard = report.status;
+ 123:
+                report = entity;
+                if(!(zuuluu != oscard)) { _fun00046_ip = 133; continue _fun00045 }
+ 130:
+                report = oscard;
+ 133:
+                return report;
  135:
-                oscard = zuuluu.status;
- 140:
-                zuuluu = michal;
-                if(!(tangon != oscard)) { _fun00046_ip = 150; continue _fun00045 }
+                michal = _closure1_slot16;
+                michal = michal[tangon];
+                if(!(zuuluu != michal)) { _fun00046_ip = 150; continue _fun00045 }
  147:
-                zuuluu = oscard;
+                entity = michal;
  150:
-                return zuuluu;
- 152:
-                zuuluu = _closure1_slot16;
-                zuuluu = zuuluu[report];
-                if(!(tangon != zuuluu)) { _fun00046_ip = 167; continue _fun00045 }
- 164:
-                michal = zuuluu;
- 167:
-                return michal;
- 169:
-                entity = _closure1_slot9;
-                entity = entity.ONLINE;
                 return entity;
             }
         };

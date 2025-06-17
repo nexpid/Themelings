@@ -40,7 +40,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 186; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 187; continue _fun00001 }
  15:
                     romeon = michal.directoryChannelId;
                     zuuluu = michal.directoryGuildName;
@@ -51,13 +51,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = michal.category;
                     oscard = michal.onClose;
                     tangon = undefined;
-                    SaveGenerator(address=62);
- 60:
+                    SaveGenerator(address=63);
+ 61:
                     return tangon;
- 62:
+ 63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 183; continue _fun00001 }
- 68:
+                    if(report) { _fun00002_ip = 184; continue _fun00001 }
+ 69:
                     verify = _closure1_slot2;
                     foxtra = _closure1_slot3;
                     golfie = 3;
@@ -70,13 +70,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = yankee;
                     backup = offset;
                     zuuluu = result[golfie](output, sizing, kiloes, backup, foxtra);
-                    SaveGenerator(address=122);
- 120:
+                    SaveGenerator(address=123);
+ 121:
                     return zuuluu;
- 122:
+ 123:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 180; continue _fun00001 }
- 128:
+                    if(golfie) { _fun00002_ip = 181; continue _fun00001 }
+ 129:
                     oscard = oscard.bind(tangon)();
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot3;
@@ -126,11 +126,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['importer'] = option;
                     report = oscard.bind(golfie)(report);
                     return tangon;
- 180:
+ 181:
                     return zuuluu;
- 183:
+ 184:
                     return michal;
- 186:
+ 187:
                     return entity;
                 }
             };

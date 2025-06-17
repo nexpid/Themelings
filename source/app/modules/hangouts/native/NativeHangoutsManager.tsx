@@ -604,11 +604,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         var _closure4_slot0 = entity;
                         tangon = _closure1_slot14;
                         zuuluu = null;
-                        if(!(zuuluu != tangon)) { _fun00020_ip = 78; continue _fun00019 }
+                        if(!(zuuluu != tangon)) { _fun00020_ip = 77; continue _fun00019 }
  27:
                         tangon = _closure1_slot14;
                         tangon = tangon.data;
-                        if(!(zuuluu != tangon)) { _fun00020_ip = 78; continue _fun00019 }
+                        if(!(zuuluu != tangon)) { _fun00020_ip = 77; continue _fun00019 }
  40:
                         report = tangon.voiceUsers;
                         tangon = report.find;
@@ -620,12 +620,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             return entity;
                         };
                         michal = tangon.bind(report)(michal);
-                        if(!(zuuluu != michal)) { _fun00020_ip = 78; continue _fun00019 }
- 68:
+                        if(!(zuuluu != michal)) { _fun00020_ip = 77; continue _fun00019 }
+ 67:
                         michal = _closure1_slot20;
                         entity = undefined;
                         entity = michal.bind(entity)();
- 78:
+ 77:
                         entity = undefined;
                         return entity;
                     }

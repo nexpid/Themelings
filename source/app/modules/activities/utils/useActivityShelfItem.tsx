@@ -150,8 +150,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             report = report.bind(verify)(tangon);
             tangon = null;
-            if(!(tangon != michal)) { _fun00004_ip = 299; continue _fun00003 }
- 187:
+            if(!(tangon != michal)) { _fun00004_ip = 298; continue _fun00003 }
+ 186:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
             verify = 14;
@@ -160,37 +160,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = yankee.getEmbeddedActivityLocationChannelId;
             foxtra = tangon == romeon;
             verify = undefined;
-            if(foxtra) { _fun00004_ip = 227; continue _fun00003 }
- 222:
+            if(foxtra) { _fun00004_ip = 226; continue _fun00003 }
+ 221:
             verify = romeon.location;
- 227:
+ 226:
             verify = offset.bind(yankee)(verify);
-            if(!(tangon != option)) { _fun00004_ip = 268; continue _fun00003 }
- 236:
+            if(!(tangon != option)) { _fun00004_ip = 267; continue _fun00003 }
+ 235:
             option = option.id;
-            if(!(verify === option)) { _fun00004_ip = 268; continue _fun00003 }
- 245:
+            if(!(verify === option)) { _fun00004_ip = 267; continue _fun00003 }
+ 244:
             option = tangon == golfie;
             oscard = undefined;
-            if(option) { _fun00004_ip = 259; continue _fun00003 }
- 254:
+            if(option) { _fun00004_ip = 258; continue _fun00003 }
+ 253:
             oscard = golfie.id;
- 259:
+ 258:
             michal = michal.id;
-            if(!(oscard !== michal)) { _fun00004_ip = 287; continue _fun00003 }
- 268:
+            if(!(oscard !== michal)) { _fun00004_ip = 286; continue _fun00003 }
+ 267:
             michal = entity;
-            if(!(tangon != report)) { _fun00004_ip = 297; continue _fun00003 }
- 275:
+            if(!(tangon != report)) { _fun00004_ip = 296; continue _fun00003 }
+ 274:
             tangon = _closure1_slot7;
             michal = tangon.JOIN;
-            _fun00004_ip = 297; continue _fun00003;
- 287:
+            _fun00004_ip = 296; continue _fun00003;
+ 286:
             zuuluu = _closure1_slot7;
             michal = zuuluu.LEAVE;
- 297:
+ 296:
             return michal;
- 299:
+ 298:
             return entity;
         }
     };
@@ -703,8 +703,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['joinableEmbeddedApp'] = verify;
             entity['activityAction'] = option;
             entity['onActivityItemSelected'] = golfie;
-            if(report) { _fun00020_ip = 551; continue _fun00019 }
- 517:
+            if(report) { _fun00020_ip = 550; continue _fun00019 }
+ 516:
             report = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 9;
@@ -712,10 +712,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.EmbeddedActivityLabelTypes;
             zuuluu = zuuluu.NONE;
-            _fun00020_ip = 557; continue _fun00019;
- 551:
+            _fun00020_ip = 556; continue _fun00019;
+ 550:
             zuuluu = tangon.label_type;
- 557:
+ 556:
             entity['labelType'] = zuuluu;
             entity['staffReleasePhase'] = michal;
             return entity;

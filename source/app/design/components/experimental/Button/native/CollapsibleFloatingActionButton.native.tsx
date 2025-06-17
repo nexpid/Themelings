@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.isValidElement;
             zuuluu = zuuluu.bind(golfie)(backup);
             golfie = backup;
-            if(!zuuluu) { _fun00002_ip = 178; continue _fun00001 }
+            if(!zuuluu) { _fun00002_ip = 177; continue _fun00001 }
  125:
             foxtra = _closure1_slot3;
             option = foxtra.cloneElement;
@@ -226,21 +226,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.WHITE;
             zuuluu['color'] = kiloes;
             golfie = option.bind(foxtra)(backup, zuuluu);
- 178:
+ 177:
             option = entity != romeon;
             zuuluu = undefined;
-            if(!option) { _fun00002_ip = 196; continue _fun00001 }
- 187:
+            if(!option) { _fun00002_ip = 195; continue _fun00001 }
+ 186:
             option = {};
             option['bottom'] = romeon;
             zuuluu = option;
- 196:
+ 195:
             tangon = tangon.button;
             option = new Array(2);
             option[0] = tangon;
             option[1] = zuuluu;
-            if(!(entity == offset)) { _fun00002_ip = 352; continue _fun00001 }
- 221:
+            if(!(entity == offset)) { _fun00002_ip = 351; continue _fun00001 }
+ 220:
             tangon = _closure1_slot4;
             zuuluu = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -271,8 +271,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 'pillStyle';
             entity[yankee] = romeon;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 414; continue _fun00001;
- 352:
+            _fun00002_ip = 413; continue _fun00001;
+ 351:
             tangon = _closure1_slot4;
             zuuluu = _closure1_slot8;
             michal = {};
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'icon';
             michal[oscard] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 414:
+ 413:
             return entity;
         }
     };

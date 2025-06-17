@@ -1761,7 +1761,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = this;
                 var _closure3_slot0 = tangon;
                 verify = _closure1_slot12;
-                zuuluu = verify.getRelationships;
+                zuuluu = verify.getMutableRelationships;
                 golfie = zuuluu.bind(verify)();
                 for(zuuluu in golfie)
  34:

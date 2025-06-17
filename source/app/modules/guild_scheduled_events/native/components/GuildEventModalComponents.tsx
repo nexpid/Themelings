@@ -257,10 +257,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             michal = michal == entity;
             verify = undefined;
-            if(michal) { _fun00002_ip = 155; continue _fun00001 }
- 150:
+            if(michal) { _fun00002_ip = 154; continue _fun00001 }
+ 149:
             verify = entity.label;
- 155:
+ 154:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot5;
             entity = {};

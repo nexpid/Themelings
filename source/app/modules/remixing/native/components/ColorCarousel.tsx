@@ -488,7 +488,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = 'RAINBOW';
                 option = foxtra.bind(tangon)(romeon, yankee, offset);
  604:
-                _fun00004_ip = 790; continue _fun00003;
+                _fun00004_ip = 789; continue _fun00003;
  609:
                 romeon = _closure1_slot8;
                 yankee = _closure1_slot5;
@@ -545,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset['children'] = verify;
                 verify = 'next colors';
                 option = romeon.bind(tangon)(yankee, offset, verify);
- 790:
+ 789:
                 golfie[1] = option;
                 report['children'] = golfie;
                 report = oscard.bind(tangon)(michal, report);

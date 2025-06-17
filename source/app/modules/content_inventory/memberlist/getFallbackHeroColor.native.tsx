@@ -1,0 +1,46 @@
+// app/modules/content_inventory/memberlist/getFallbackHeroColor.native.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    zuuluu = argFre;
+    tangon = argPlu;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
+    var _closure1_slot1 = tangon;
+    entity = global;
+    golfie = entity.Object;
+    oscard = golfie.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = oscard.bind(golfie)(zuuluu, entity, report);
+    entity = 1;
+    report = tangon[entity];
+    tangon = argBar;
+    entity = undefined;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/content_inventory/memberlist/getFallbackHeroColor.native.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo, argBar) { // Original name: getFallbackHeroColor
+        zuuluu = _closure1_slot0;
+        oscard = _closure1_slot1;
+        entity = 0;
+        tangon = oscard[entity];
+        michal = undefined;
+        tangon = zuuluu.bind(michal)(tangon);
+        report = tangon.internal;
+        tangon = report.resolveSemanticColor;
+        entity = oscard[entity];
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.colors;
+        zuuluu = entity.BACKGROUND_FLOATING;
+        michal = {};
+        entity = argBar;
+        michal['saturation'] = entity;
+        entity = argFoo;
+        entity = tangon.bind(report)(entity, zuuluu, michal);
+        return entity;
+    };
+    zuuluu['getFallbackHeroColor'] = michal;
+    return entity;
+})();

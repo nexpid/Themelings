@@ -386,18 +386,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             golfie = michal != oscard;
             report = 50;
-            if(!golfie) { _fun00014_ip = 71; continue _fun00013 }
- 68:
+            if(!golfie) { _fun00014_ip = 69; continue _fun00013 }
+ 66:
             report = oscard;
- 71:
+ 69:
             entity['midpointPercentage'] = report;
             report = tangon.angle;
             oscard = michal != report;
             michal = 0;
-            if(!oscard) { _fun00014_ip = 94; continue _fun00013 }
- 91:
+            if(!oscard) { _fun00014_ip = 92; continue _fun00013 }
+ 89:
             michal = report;
- 94:
+ 92:
             entity['angle'] = michal;
             report = _closure1_slot7;
             oscard = tangon.colors;
@@ -447,26 +447,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.LIGHT;
             entity = 'light';
             golfie = entity;
-            if(!(zuuluu !== report)) { _fun00016_ip = 88; continue _fun00015 }
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
  32:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.DARK;
             oscard = 'darker';
             golfie = oscard;
-            if(!(zuuluu !== report)) { _fun00016_ip = 88; continue _fun00015 }
- 52:
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
+ 53:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.DARKER;
             golfie = oscard;
-            if(!(zuuluu !== report)) { _fun00016_ip = 88; continue _fun00015 }
- 68:
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
+ 70:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.MIDNIGHT;
             golfie = 'midnight';
-            if(!(zuuluu !== report)) { _fun00016_ip = 88; continue _fun00015 }
- 85:
-            golfie = entity;
+            if(!(zuuluu !== report)) { _fun00016_ip = 91; continue _fun00015 }
  88:
+            golfie = entity;
+ 91:
             option = _closure1_slot1;
             verify = _closure1_slot2;
             entity = 6;
@@ -590,15 +590,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(option)();
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.LIGHT;
-            if(!(tangon !== zuuluu)) { _fun00020_ip = 55; continue _fun00019 }
- 44:
+            if(!(tangon !== zuuluu)) { _fun00020_ip = 57; continue _fun00019 }
+ 45:
             zuuluu = _closure1_slot4;
             oscard = zuuluu.DARKER;
-            _fun00020_ip = 64; continue _fun00019;
- 55:
+            _fun00020_ip = 67; continue _fun00019;
+ 57:
             zuuluu = _closure1_slot4;
             oscard = zuuluu.LIGHT;
- 64:
+ 67:
             tangon = _closure1_slot0;
             verify = _closure1_slot2;
             zuuluu = 8;

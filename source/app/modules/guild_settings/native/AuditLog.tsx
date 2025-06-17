@@ -1255,10 +1255,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     offset = report > offset;
                                     result = '';
                                     output = result;
-                                    if(!offset) { _fun00028_ip = 90; continue _fun00027 }
- 84:
+                                    if(!offset) { _fun00028_ip = 89; continue _fun00027 }
+ 83:
                                     output = ', ';
- 90:
+ 89:
                                     foxtra = _closure1_slot0;
                                     kiloes = _closure1_slot3;
                                     romeon = 30;
@@ -2002,8 +2002,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = papara.timestampEnd;
                 michal = zuuluu.calendar;
                 yankee = michal.bind(zuuluu)();
-                if(!(oscard !== yankee)) { _fun00038_ip = 208; continue _fun00037 }
- 134:
+                if(!(oscard !== yankee)) { _fun00038_ip = 207; continue _fun00037 }
+ 133:
                 report = _closure1_slot22;
                 zuuluu = _closure1_slot0;
                 offset = _closure1_slot3;
@@ -2021,8 +2021,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset[2] = yankee;
                 michal['children'] = offset;
                 result = report.bind(tangon)(zuuluu, michal);
-                _fun00038_ip = 260; continue _fun00037;
- 208:
+                _fun00038_ip = 259; continue _fun00037;
+ 207:
                 report = _closure1_slot21;
                 zuuluu = _closure1_slot0;
                 offset = _closure1_slot3;
@@ -2035,18 +2035,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['style'] = offset;
                 michal['children'] = oscard;
                 result = report.bind(tangon)(zuuluu, michal);
- 260:
-                if(backup) { _fun00038_ip = 267; continue _fun00037 }
- 263:
+ 259:
+                if(backup) { _fun00038_ip = 266; continue _fun00037 }
+ 262:
                 entity = _closure1_slot19;
- 267:
+ 266:
                 var _closure3_slot3 = entity;
                 oscard = null;
                 update = null;
-                if(!golfie) { _fun00038_ip = 284; continue _fun00037 }
- 278:
+                if(!golfie) { _fun00038_ip = 283; continue _fun00037 }
+ 277:
                 update = echoed.rotate90;
- 284:
+ 283:
                 zuuluu = _closure1_slot22;
                 michal = _closure1_slot0;
                 report = _closure1_slot3;
@@ -2061,16 +2061,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report[1] = verify;
                 entity['style'] = report;
                 report = 'secondary';
-                if(!golfie) { _fun00038_ip = 348; continue _fun00037 }
- 344:
+                if(!golfie) { _fun00038_ip = 347; continue _fun00037 }
+ 343:
                 report = 'primary';
- 348:
+ 347:
                 entity['variant'] = report;
                 report = 'none';
-                if(!golfie) { _fun00038_ip = 363; continue _fun00037 }
- 359:
+                if(!golfie) { _fun00038_ip = 362; continue _fun00037 }
+ 358:
                 report = 'strong';
- 363:
+ 362:
                 entity['border'] = report;
                 report = function() { // Original name: onPress
                     zuuluu = _closure3_slot3;
@@ -2119,10 +2119,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon['accessibilityLabel'] = source;
                 vacuum = oscard == ctrled;
                 source = undefined;
-                if(vacuum) { _fun00038_ip = 549; continue _fun00037 }
- 544:
+                if(vacuum) { _fun00038_ip = 548; continue _fun00037 }
+ 543:
                 source = ctrled.username;
- 549:
+ 548:
                 romeon['accessibilityHint'] = source;
                 output = function() { // Original name: onPress
                     _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
@@ -2193,8 +2193,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = sizing.bind(tangon)(kiloes, romeon);
                 yankee[2] = romeon;
                 romeon = null;
-                if(!backup) { _fun00038_ip = 821; continue _fun00037 }
- 726:
+                if(!backup) { _fun00038_ip = 820; continue _fun00037 }
+ 725:
                 kiloes = _closure1_slot21;
                 output = _closure1_slot1;
                 result = _closure1_slot3;
@@ -2217,18 +2217,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = output.bind(tangon)(sizing);
                 foxtra['source'] = sizing;
                 romeon = kiloes.bind(tangon)(backup, foxtra);
- 821:
+ 820:
                 yankee[3] = romeon;
                 report['children'] = yankee;
                 verify = offset.bind(tangon)(verify, report);
                 report = new Array(2);
                 report[0] = verify;
                 oscard = null;
-                if(!golfie) { _fun00038_ip = 860; continue _fun00037 }
- 848:
+                if(!golfie) { _fun00038_ip = 859; continue _fun00037 }
+ 847:
                 golfie = option.renderChangeSummary;
                 oscard = golfie.bind(option)();
- 860:
+ 859:
                 report[1] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);

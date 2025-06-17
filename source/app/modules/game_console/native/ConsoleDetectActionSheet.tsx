@@ -739,10 +739,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.bind(tangon)(result);
             result = echoed.isThemeDark;
             result = result.bind(echoed)(update);
-            if(!result) { _fun00018_ip = 152; continue _fun00017 }
- 149:
+            if(!result) { _fun00018_ip = 151; continue _fun00017 }
+ 148:
             sizing = output;
- 152:
+ 151:
             oscard = oscard.bind(golfie)(sizing);
             romeon['source'] = oscard;
             golfie = _closure1_slot0;
@@ -871,7 +871,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = argFoo;
                 entity = _closure1_slot9;
                 entity = entity.PLAYSTATION;
-                if(!(entity !== report)) { _fun00020_ip = 188; continue _fun00019 }
+                if(!(entity !== report)) { _fun00020_ip = 187; continue _fun00019 }
  23:
                 entity = _closure1_slot9;
                 entity = entity.XBOX;
@@ -913,7 +913,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['theme'] = golfie;
                 entity = tangon.bind(entity)(zuuluu, michal, report);
                 return entity;
- 188:
+ 187:
                 tangon = _closure1_slot13;
                 zuuluu = _closure1_slot21;
                 michal = {};

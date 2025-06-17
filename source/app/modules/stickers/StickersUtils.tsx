@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = michal;
             tangon = michal.cover_sticker_id;
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00004_ip = 47; continue _fun00003 }
+            if(!(zuuluu != tangon)) { _fun00004_ip = 46; continue _fun00003 }
  21:
             report = michal.stickers;
             tangon = report.find;
@@ -159,13 +159,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = tangon.bind(report)(entity);
-            if(!(zuuluu == entity)) { _fun00004_ip = 61; continue _fun00003 }
- 47:
+            if(!(zuuluu == entity)) { _fun00004_ip = 60; continue _fun00003 }
+ 46:
             zuuluu = michal.stickers;
             michal = 0;
             michal = zuuluu[michal];
             return michal;
- 61:
+ 60:
             return entity;
         }
     };

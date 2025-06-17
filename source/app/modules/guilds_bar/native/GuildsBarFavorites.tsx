@@ -147,10 +147,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             if(golfie) { _fun00002_ip = 357; continue _fun00001 }
  349:
             golfie = option.INTERACTIVE_NORMAL;
-            _fun00002_ip = 363; continue _fun00001;
+            _fun00002_ip = 362; continue _fun00001;
  357:
             golfie = option.WHITE;
- 363:
+ 362:
             report['color'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;

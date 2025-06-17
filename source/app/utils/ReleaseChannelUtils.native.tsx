@@ -26,22 +26,22 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
         report = oscard.bind(entity)(tangon);
         tangon = report.isAndroid;
         option = tangon.bind(report)();
-        if(!option) { _fun00002_ip = 122; continue _fun00001 }
+        if(!option) { _fun00002_ip = 121; continue _fun00001 }
  97:
         report = michal.indexOf;
         tangon = 'canary';
         report = report.bind(michal)(tangon);
         tangon = -1;
         option = tangon === report;
- 122:
-        if(!option) { _fun00002_ip = 150; continue _fun00001 }
- 125:
+ 121:
+        if(!option) { _fun00002_ip = 148; continue _fun00001 }
+ 124:
         report = michal.indexOf;
         tangon = 'beta';
         report = report.bind(michal)(tangon);
         tangon = -1;
         option = tangon === report;
- 150:
+ 148:
         tangon = 'stable';
         report = tangon === michal;
         verify = michal.indexOf;
@@ -49,22 +49,22 @@ export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
         tangon = verify.bind(michal)(tangon);
         offset = -1;
         verify = offset !== tangon;
-        if(verify) { _fun00002_ip = 207; continue _fun00001 }
- 186:
+        if(verify) { _fun00002_ip = 203; continue _fun00001 }
+ 183:
         yankee = michal.indexOf;
         tangon = 'developer';
         tangon = yankee.bind(michal)(tangon);
         verify = offset !== tangon;
- 207:
+ 203:
         tangon = !verify;
-        if(verify) { _fun00002_ip = 222; continue _fun00001 }
- 213:
-        if(report) { _fun00002_ip = 219; continue _fun00001 }
- 216:
+        if(verify) { _fun00002_ip = 218; continue _fun00001 }
+ 209:
+        if(report) { _fun00002_ip = 215; continue _fun00001 }
+ 212:
         report = option;
- 219:
+ 215:
         tangon = report;
- 222:
+ 218:
         report = 2;
         report = golfie[report];
         golfie = oscard.bind(entity)(report);

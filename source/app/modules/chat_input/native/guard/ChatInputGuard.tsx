@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['deadline'] = sizing;
             golfie = yankee.bind(tangon)(offset, option);
  813:
-            _fun00004_ip = 949; continue _fun00003;
+            _fun00004_ip = 948; continue _fun00003;
  818:
             yankee = _closure1_slot7;
             offset = _closure1_slot0;
@@ -384,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = option.IconButton;
             option = {};
             option['accessibilityLabel'] = kiloes;
-            if(!(backup == foxtra)) { _fun00004_ip = 927; continue _fun00003 }
+            if(!(backup == foxtra)) { _fun00004_ip = 926; continue _fun00003 }
  858:
             sizing = _closure1_slot7;
             kiloes = _closure1_slot0;
@@ -399,16 +399,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = echoed[output];
             output = result.bind(tangon)(output);
             output = output.colors;
-            output = output.BUTTON_FILLED_BRAND_TEXT;
+            output = output.WHITE;
             backup['color'] = output;
             foxtra = sizing.bind(tangon)(kiloes, backup);
- 927:
+ 926:
             option['icon'] = foxtra;
             foxtra = 'sm';
             option['size'] = foxtra;
             option['onPress'] = romeon;
             golfie = yankee.bind(tangon)(offset, option);
- 949:
+ 948:
             entity['trailing'] = golfie;
             option = _closure1_slot7;
             golfie = _closure1_slot0;

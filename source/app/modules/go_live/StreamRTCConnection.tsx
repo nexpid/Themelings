@@ -714,50 +714,50 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 zuuluu = null;
                 option = zuuluu == golfie;
                 oscard = undefined;
-                if(option) { _fun00016_ip = 147; continue _fun00015 }
- 141:
+                if(option) { _fun00016_ip = 146; continue _fun00015 }
+ 140:
                 oscard = golfie.stats;
- 147:
+ 146:
                 option = zuuluu != oscard;
                 romeon = 'unknown';
                 yankee = undefined;
                 golfie = romeon;
-                if(!option) { _fun00016_ip = 374; continue _fun00015 }
- 166:
+                if(!option) { _fun00016_ip = 373; continue _fun00015 }
+ 165:
                 yankee = undefined;
                 golfie = romeon;
-                if(!report) { _fun00016_ip = 374; continue _fun00015 }
- 177:
+                if(!report) { _fun00016_ip = 373; continue _fun00015 }
+ 176:
                 oscard = oscard.transport;
                 verify = oscard.inboundBitrateEstimate;
                 oscard = zuuluu != verify;
-                if(!oscard) { _fun00016_ip = 206; continue _fun00015 }
- 196:
+                if(!oscard) { _fun00016_ip = 205; continue _fun00015 }
+ 195:
                 option = 100000000;
                 oscard = verify < option;
- 206:
+ 205:
                 yankee = undefined;
                 golfie = romeon;
-                if(!oscard) { _fun00016_ip = 374; continue _fun00015 }
- 217:
+                if(!oscard) { _fun00016_ip = 373; continue _fun00015 }
+ 216:
                 option = tangon._bandwidthSamples;
                 oscard = option.push;
                 oscard = oscard.bind(option)(verify);
                 oscard = tangon._bandwidthSamples;
                 oscard = oscard.length;
                 offset = 10;
-                if(!(oscard > offset)) { _fun00016_ip = 267; continue _fun00015 }
- 251:
+                if(!(oscard > offset)) { _fun00016_ip = 266; continue _fun00015 }
+ 250:
                 option = tangon._bandwidthSamples;
                 oscard = option.shift;
                 oscard = oscard.bind(option)();
- 267:
+ 266:
                 oscard = tangon._bandwidthSamples;
                 verify = oscard.length;
                 option = undefined;
                 oscard = romeon;
-                if(!(offset === verify)) { _fun00016_ip = 368; continue _fun00015 }
- 287:
+                if(!(offset === verify)) { _fun00016_ip = 367; continue _fun00015 }
+ 286:
                 offset = _closure1_slot1;
                 foxtra = _closure1_slot2;
                 verify = 19;
@@ -769,46 +769,46 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 foxtra = 1500000;
                 backup = offset > foxtra;
                 verify = 'HQ';
-                if(backup) { _fun00016_ip = 362; continue _fun00015 }
- 346:
+                if(backup) { _fun00016_ip = 361; continue _fun00015 }
+ 345:
                 foxtra = offset < foxtra;
-                if(!foxtra) { _fun00016_ip = 359; continue _fun00015 }
- 353:
+                if(!foxtra) { _fun00016_ip = 358; continue _fun00015 }
+ 352:
                 romeon = 'LQ';
- 359:
+ 358:
                 verify = romeon;
- 362:
+ 361:
                 oscard = verify;
                 option = offset;
- 368:
+ 367:
                 yankee = option;
                 golfie = oscard;
- 374:
+ 373:
                 verify = tangon._goLiveQualityManager;
                 oscard = zuuluu == verify;
                 option = undefined;
-                if(oscard) { _fun00016_ip = 399; continue _fun00015 }
- 389:
+                if(oscard) { _fun00016_ip = 398; continue _fun00015 }
+ 388:
                 oscard = verify.isDowngraded;
                 option = oscard.bind(verify)();
- 399:
+ 398:
                 oscard = zuuluu != option;
-                if(!oscard) { _fun00016_ip = 409; continue _fun00015 }
- 406:
+                if(!oscard) { _fun00016_ip = 408; continue _fun00015 }
+ 405:
                 oscard = option;
- 409:
+ 408:
                 option = 'HQ';
-                if(!(option === golfie)) { _fun00016_ip = 422; continue _fun00015 }
- 419:
-                if(oscard) { _fun00016_ip = 512; continue _fun00015 }
- 422:
+                if(!(option === golfie)) { _fun00016_ip = 421; continue _fun00015 }
+ 418:
+                if(oscard) { _fun00016_ip = 511; continue _fun00015 }
+ 421:
                 option = 'LQ';
-                if(!(option === golfie)) { _fun00016_ip = 575; continue _fun00015 }
- 435:
-                if(oscard) { _fun00016_ip = 575; continue _fun00015 }
- 441:
-                if(!michal) { _fun00016_ip = 575; continue _fun00015 }
- 447:
+                if(!(option === golfie)) { _fun00016_ip = 574; continue _fun00015 }
+ 434:
+                if(oscard) { _fun00016_ip = 574; continue _fun00015 }
+ 440:
+                if(!michal) { _fun00016_ip = 574; continue _fun00015 }
+ 446:
                 verify = tangon.logger;
                 option = verify.info;
                 oscard = global;
@@ -818,13 +818,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 oscard = offset.bind(oscard)(yankee);
                 oscard = option.bind(verify)(oscard);
                 verify = tangon._goLiveQualityManager;
-                if(!(zuuluu != verify)) { _fun00016_ip = 575; continue _fun00015 }
- 497:
+                if(!(zuuluu != verify)) { _fun00016_ip = 574; continue _fun00015 }
+ 496:
                 option = verify.setGoLiveStreamDowngraded;
                 oscard = true;
                 oscard = option.bind(verify)(oscard);
-                _fun00016_ip = 575; continue _fun00015;
- 512:
+                _fun00016_ip = 574; continue _fun00015;
+ 511:
                 verify = tangon.logger;
                 option = verify.info;
                 oscard = global;
@@ -834,70 +834,70 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 oscard = offset.bind(oscard)(yankee);
                 oscard = option.bind(verify)(oscard);
                 verify = tangon._goLiveQualityManager;
-                if(!(zuuluu != verify)) { _fun00016_ip = 575; continue _fun00015 }
- 562:
+                if(!(zuuluu != verify)) { _fun00016_ip = 574; continue _fun00015 }
+ 561:
                 option = verify.setGoLiveStreamDowngraded;
                 oscard = false;
                 oscard = option.bind(verify)(oscard);
- 575:
-                if(!report) { _fun00016_ip = 744; continue _fun00015 }
- 581:
+ 574:
+                if(!report) { _fun00016_ip = 743; continue _fun00015 }
+ 580:
                 option = tangon._goLiveQualityManager;
                 report = zuuluu != option;
-                if(!report) { _fun00016_ip = 604; continue _fun00015 }
- 594:
+                if(!report) { _fun00016_ip = 603; continue _fun00015 }
+ 593:
                 oscard = option.senderSupportsSimulcast;
                 report = oscard.bind(option)();
- 604:
+ 603:
                 option = !report;
-                if(option) { _fun00016_ip = 641; continue _fun00015 }
- 610:
+                if(option) { _fun00016_ip = 640; continue _fun00015 }
+ 609:
                 verify = tangon._goLiveQualityManager;
                 report = zuuluu == verify;
                 oscard = undefined;
-                if(report) { _fun00016_ip = 635; continue _fun00015 }
- 625:
+                if(report) { _fun00016_ip = 634; continue _fun00015 }
+ 624:
                 report = verify.isDowngraded;
                 oscard = report.bind(verify)();
- 635:
+ 634:
                 report = false;
                 option = report === oscard;
- 641:
+ 640:
                 oscard = tangon._videoQuality;
-                if(!(zuuluu != oscard)) { _fun00016_ip = 664; continue _fun00015 }
- 651:
+                if(!(zuuluu != oscard)) { _fun00016_ip = 663; continue _fun00015 }
+ 650:
                 report = oscard.setViewedSimulcastQuality;
                 report = report.bind(oscard)(option);
- 664:
+ 663:
                 option = tangon._goLiveQualityManager;
                 report = zuuluu == option;
                 oscard = undefined;
-                if(report) { _fun00016_ip = 689; continue _fun00015 }
- 679:
+                if(report) { _fun00016_ip = 688; continue _fun00015 }
+ 678:
                 report = option.isOneToOneCall;
                 oscard = report.bind(option)();
- 689:
+ 688:
                 report = zuuluu != oscard;
-                if(!report) { _fun00016_ip = 699; continue _fun00015 }
- 696:
+                if(!report) { _fun00016_ip = 698; continue _fun00015 }
+ 695:
                 report = oscard;
- 699:
-                if(!michal) { _fun00016_ip = 712; continue _fun00015 }
- 702:
+ 698:
+                if(!michal) { _fun00016_ip = 711; continue _fun00015 }
+ 701:
                 oscard = 'LQ';
                 michal = oscard === golfie;
- 712:
-                if(!michal) { _fun00016_ip = 718; continue _fun00015 }
- 715:
+ 711:
+                if(!michal) { _fun00016_ip = 717; continue _fun00015 }
+ 714:
                 michal = !report;
- 718:
+ 717:
                 tangon = tangon._videoQuality;
-                if(!(zuuluu != tangon)) { _fun00016_ip = 744; continue _fun00015 }
- 728:
+                if(!(zuuluu != tangon)) { _fun00016_ip = 743; continue _fun00015 }
+ 727:
                 zuuluu = tangon.setEligibleSimulcastQuality;
                 michal = !michal;
                 michal = zuuluu.bind(tangon)(michal);
- 744:
+ 743:
                 return entity;
             }
         };

@@ -159,8 +159,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = config.useThemeContext;
             entity = entity.bind(config)();
             sierra = entity.theme;
-            if(!(option == echoed)) { _fun00002_ip = 396; continue _fun00001 }
- 343:
+            if(!(option == echoed)) { _fun00002_ip = 397; continue _fun00001 }
+ 342:
             config = _closure1_slot0;
             limora = _closure1_slot2;
             entity = 7;
@@ -170,14 +170,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(config)(sierra);
             config = _closure1_slot4;
             if(entity) { _fun00002_ip = 388; continue _fun00001 }
- 381:
+ 380:
             entity = config.LIGHT;
-            _fun00002_ip = 393; continue _fun00001;
+            _fun00002_ip = 394; continue _fun00001;
  388:
             entity = config.DARK;
- 393:
+ 394:
             echoed = entity;
- 396:
+ 397:
             sierra = _closure1_slot3;
             config = sierra.useContext;
             limora = _closure1_slot0;
@@ -187,14 +187,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = limora.bind(oscard)(entity);
             entity = entity.RedesignCompatContext;
             entity = config.bind(sierra)(entity);
-            if(!entity) { _fun00002_ip = 443; continue _fun00001 }
- 440:
+            if(!entity) { _fun00002_ip = 444; continue _fun00001 }
+ 441:
             entity = kiloes;
- 443:
+ 444:
             _closure2_slot0 = entity;
             config = !result;
-            if(config) { _fun00002_ip = 485; continue _fun00001 }
- 453:
+            if(config) { _fun00002_ip = 486; continue _fun00001 }
+ 454:
             sierra = _closure1_slot0;
             limora = _closure1_slot2;
             kiloes = 5;
@@ -203,14 +203,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sierra.isAndroid;
             kiloes = kiloes.bind(sierra)();
             config = !kiloes;
- 485:
+ 486:
             kiloes = !config;
-            if(!config) { _fun00002_ip = 494; continue _fun00001 }
- 491:
+            if(!config) { _fun00002_ip = 495; continue _fun00001 }
+ 492:
             kiloes = source;
- 494:
-            if(!result) { _fun00002_ip = 535; continue _fun00001 }
- 497:
+ 495:
+            if(!result) { _fun00002_ip = 536; continue _fun00001 }
+ 498:
             source = _closure1_slot0;
             config = _closure1_slot2;
             result = 5;
@@ -219,10 +219,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = source.isAndroid;
             source = result.bind(source)();
             result = 'visible-password';
-            if(source) { _fun00002_ip = 538; continue _fun00001 }
- 535:
+            if(source) { _fun00002_ip = 539; continue _fun00001 }
+ 536:
             result = report;
- 538:
+ 539:
             limora = _closure1_slot3;
             report = limora.useRef;
             source = report.bind(limora)(option);
@@ -438,8 +438,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = config.bind(limora)(report, zuuluu);
             report = _closure1_slot5;
-            if(entity) { _fun00002_ip = 885; continue _fun00001 }
- 600:
+            if(entity) { _fun00002_ip = 886; continue _fun00001 }
+ 601:
             zuuluu = _closure1_slot1;
             entity = _closure1_slot2;
             config = 11;
@@ -452,17 +452,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['inputTextColor'] = sierra;
             entity['multiline'] = ctrled;
             sierra = offset.returnKeyType;
-            if(!(option == sierra)) { _fun00002_ip = 670; continue _fun00001 }
- 657:
+            if(!(option == sierra)) { _fun00002_ip = 671; continue _fun00001 }
+ 658:
             sierra = 'done';
-            if(!ctrled) { _fun00002_ip = 668; continue _fun00001 }
- 664:
+            if(!ctrled) { _fun00002_ip = 669; continue _fun00001 }
+ 665:
             sierra = 'default';
- 668:
-            _fun00002_ip = 676; continue _fun00001;
- 670:
+ 669:
+            _fun00002_ip = 677; continue _fun00001;
+ 671:
             sierra = offset.returnKeyType;
- 676:
+ 677:
             entity['returnKeyType'] = sierra;
             entity['onChangeText'] = update;
             entity['keyboardAppearance'] = echoed;
@@ -475,10 +475,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = option != golfie;
             vacuum = '';
             status = vacuum;
-            if(!sierra) { _fun00002_ip = 738; continue _fun00001 }
- 735:
+            if(!sierra) { _fun00002_ip = 739; continue _fun00001 }
+ 736:
             status = golfie;
- 738:
+ 739:
             entity['error'] = status;
             entity['placeholder'] = sizing;
             entity['secureTextEntry'] = kiloes;
@@ -496,31 +496,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = record;
             entity['inputTextStyle'] = sequen;
             sequen = option != verify;
-            if(!sequen) { _fun00002_ip = 823; continue _fun00001 }
- 820:
+            if(!sequen) { _fun00002_ip = 824; continue _fun00001 }
+ 821:
             vacuum = verify;
- 823:
+ 824:
             entity['value'] = vacuum;
-            if(!ctrled) { _fun00002_ip = 859; continue _fun00001 }
- 830:
+            if(!ctrled) { _fun00002_ip = 860; continue _fun00001 }
+ 831:
             sequen = _closure1_slot0;
             vacuum = _closure1_slot2;
             vacuum = vacuum[config];
             vacuum = sequen.bind(oscard)(vacuum);
             vacuum = vacuum.ClearButtonVisibility;
             tangon = vacuum.NEVER;
- 859:
+ 860:
             entity['clearButtonVisibility'] = tangon;
             variable36 = entity;
             quebec = offset;
             tangon = copyDataProperties(variable36, quebec);
             entity = report.bind(oscard)(zuuluu, entity);
-            _fun00002_ip = 1196; continue _fun00001;
- 885:
+            _fun00002_ip = 1197; continue _fun00001;
+ 886:
             tangon = _closure1_slot0;
             vacuum = _closure1_slot2;
-            if(ctrled) { _fun00002_ip = 1043; continue _fun00001 }
- 899:
+            if(ctrled) { _fun00002_ip = 1044; continue _fun00001 }
+ 900:
             michal = 10;
             michal = vacuum[michal];
             michal = tangon.bind(oscard)(michal);
@@ -528,10 +528,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             michal['ref'] = source;
             sequen = 'done';
-            if(!ctrled) { _fun00002_ip = 934; continue _fun00001 }
- 930:
+            if(!ctrled) { _fun00002_ip = 935; continue _fun00001 }
+ 931:
             sequen = 'default';
- 934:
+ 935:
             michal['returnKeyType'] = sequen;
             michal['onChange'] = update;
             michal['keyboardAppearance'] = echoed;
@@ -549,15 +549,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onEndEditing'] = sequen;
             config = option != verify;
             sequen = undefined;
-            if(!config) { _fun00002_ip = 1023; continue _fun00001 }
- 1020:
+            if(!config) { _fun00002_ip = 1024; continue _fun00001 }
+ 1021:
             sequen = verify;
- 1023:
+ 1024:
             michal['value'] = sequen;
             michal['errorMessage'] = golfie;
             michal = report.bind(oscard)(zuuluu, michal);
-            _fun00002_ip = 1193; continue _fun00001;
- 1043:
+            _fun00002_ip = 1194; continue _fun00001;
+ 1044:
             zuuluu = 9;
             zuuluu = vacuum[zuuluu];
             zuuluu = tangon.bind(oscard)(zuuluu);
@@ -565,10 +565,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             zuuluu['ref'] = source;
             source = 'done';
-            if(!ctrled) { _fun00002_ip = 1078; continue _fun00001 }
- 1074:
+            if(!ctrled) { _fun00002_ip = 1079; continue _fun00001 }
+ 1075:
             source = 'default';
- 1078:
+ 1079:
             zuuluu['returnKeyType'] = source;
             zuuluu['onChange'] = update;
             zuuluu['keyboardAppearance'] = echoed;
@@ -588,16 +588,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['onEndEditing'] = offset;
             offset = option != verify;
             option = undefined;
-            if(!offset) { _fun00002_ip = 1178; continue _fun00001 }
- 1175:
+            if(!offset) { _fun00002_ip = 1179; continue _fun00001 }
+ 1176:
             option = verify;
- 1178:
+ 1179:
             zuuluu['value'] = option;
             zuuluu['errorMessage'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 1193:
+ 1194:
             entity = michal;
- 1196:
+ 1197:
             return entity;
         }
     };

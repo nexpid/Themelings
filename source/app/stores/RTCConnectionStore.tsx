@@ -1558,36 +1558,53 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         }
     };
     michal['VOICE_CHANNEL_SELECT'] = yankee;
-    yankee = function(argFoo) { // Original name: handleVoiceServerUpdate
+    yankee = function(argFoo) { // Original name: handleAudioSetNoiseCancellation
         _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
+ 0:
+            zuuluu = _closure1_slot15;
+            entity = null;
+            if(!(entity != zuuluu)) { _fun00060_ip = 32; continue _fun00059 }
+ 13:
+            michal = zuuluu.setNoiseCancellationEnabled;
+            entity = argFoo;
+            entity = entity.enabled;
+            entity = michal.bind(zuuluu)(entity);
+ 32:
+            entity = undefined;
+            return entity;
+        }
+    };
+    michal['AUDIO_SET_NOISE_CANCELLATION'] = yankee;
+    yankee = function(argFoo) { // Original name: handleVoiceServerUpdate
+        _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
  0:
             tangon = argFoo;
             entity = _closure1_slot15;
             oscard = null;
             entity = oscard != entity;
-            if(!entity) { _fun00060_ip = 121; continue _fun00059 }
+            if(!entity) { _fun00062_ip = 121; continue _fun00061 }
  19:
             michal = tangon.guildId;
             michal = oscard == michal;
-            if(michal) { _fun00060_ip = 49; continue _fun00059 }
+            if(michal) { _fun00062_ip = 49; continue _fun00061 }
  31:
             golfie = tangon.guildId;
             zuuluu = _closure1_slot15;
             zuuluu = zuuluu.guildId;
             michal = golfie === zuuluu;
  49:
-            if(!michal) { _fun00060_ip = 118; continue _fun00059 }
+            if(!michal) { _fun00062_ip = 118; continue _fun00061 }
  52:
             zuuluu = tangon.channelId;
             zuuluu = oscard == zuuluu;
-            if(zuuluu) { _fun00060_ip = 82; continue _fun00059 }
+            if(zuuluu) { _fun00062_ip = 82; continue _fun00061 }
  64:
             golfie = tangon.channelId;
             oscard = _closure1_slot15;
             oscard = oscard.channelId;
             zuuluu = golfie === oscard;
  82:
-            if(!zuuluu) { _fun00060_ip = 115; continue _fun00059 }
+            if(!zuuluu) { _fun00062_ip = 115; continue _fun00061 }
  85:
             golfie = _closure1_slot15;
             oscard = golfie.connect;
@@ -1614,18 +1631,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     };
     michal['CLEAR_LAST_SESSION_VOICE_CHANNEL_ID'] = offset;
     offset = function(argFoo) { // Original name: handleGuildDelete
-        _fun00061: for(var _fun00062_ip = 0; ; ) switch(_fun00062_ip) {
+        _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
  0:
             entity = argFoo;
             michal = entity.guild;
             tangon = _closure1_slot15;
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00062_ip = 51; continue _fun00061 }
+            if(!(zuuluu != tangon)) { _fun00064_ip = 51; continue _fun00063 }
  21:
             zuuluu = _closure1_slot15;
             zuuluu = zuuluu.guildId;
             michal = michal.id;
-            if(!(zuuluu === michal)) { _fun00062_ip = 51; continue _fun00061 }
+            if(!(zuuluu === michal)) { _fun00064_ip = 51; continue _fun00063 }
  39:
             michal = _closure1_slot27;
             entity = undefined;
@@ -1640,17 +1657,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     michal['CHANNEL_DELETE'] = golfie;
     michal['THREAD_DELETE'] = golfie;
     golfie = function(argFoo) { // Original name: handleCallDelete
-        _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {
+        _fun00065: for(var _fun00066_ip = 0; ; ) switch(_fun00066_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.channelId;
             tangon = _closure1_slot15;
             michal = null;
-            if(!(michal != tangon)) { _fun00064_ip = 46; continue _fun00063 }
+            if(!(michal != tangon)) { _fun00066_ip = 46; continue _fun00065 }
  21:
             michal = _closure1_slot15;
             michal = michal.channelId;
-            if(!(michal === zuuluu)) { _fun00064_ip = 46; continue _fun00063 }
+            if(!(michal === zuuluu)) { _fun00066_ip = 46; continue _fun00065 }
  34:
             michal = _closure1_slot27;
             entity = undefined;
@@ -1663,20 +1680,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     };
     michal['CALL_DELETE'] = golfie;
     golfie = function(argFoo) { // Original name: handleFocus
-        _fun00065: for(var _fun00066_ip = 0; ; ) switch(_fun00066_ip) {
+        _fun00067: for(var _fun00068_ip = 0; ; ) switch(_fun00068_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.state;
             michal = _closure1_slot12;
             michal = michal.ACTIVE;
             michal = zuuluu === michal;
-            if(!michal) { _fun00066_ip = 38; continue _fun00065 }
+            if(!michal) { _fun00068_ip = 38; continue _fun00067 }
  28:
             tangon = _closure1_slot15;
             zuuluu = null;
             michal = zuuluu != tangon;
  38:
-            if(!michal) { _fun00066_ip = 62; continue _fun00065 }
+            if(!michal) { _fun00068_ip = 62; continue _fun00067 }
  41:
             zuuluu = _closure1_slot15;
             michal = zuuluu.resetBackoff;
@@ -1689,7 +1706,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     };
     michal['APP_STATE_UPDATE'] = golfie;
     golfie = function(argFoo) { // Original name: handleSimulcastDebugOverrideChanged
-        _fun00067: for(var _fun00068_ip = 0; ; ) switch(_fun00068_ip) {
+        _fun00069: for(var _fun00070_ip = 0; ; ) switch(_fun00070_ip) {
  0:
             entity = argFoo;
             report = entity.userId;
@@ -1697,7 +1714,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = entity.quality;
             michal = _closure1_slot15;
             entity = null;
-            if(!(entity != michal)) { _fun00068_ip = 45; continue _fun00067 }
+            if(!(entity != michal)) { _fun00070_ip = 45; continue _fun00069 }
  32:
             entity = michal.setSimulcastDebugOverride;
             entity = entity.bind(michal)(report, tangon, zuuluu);

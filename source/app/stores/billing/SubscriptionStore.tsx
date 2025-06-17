@@ -561,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = null;
                 report = michal == oscard;
                 entity = null;
-                if(report) { _fun00020_ip = 126; continue _fun00019 }
+                if(report) { _fun00020_ip = 125; continue _fun00019 }
  79:
                 report = tangon.Object;
                 tangon = report.values;
@@ -585,12 +585,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.bind(report)(zuuluu);
                 tangon = michal != zuuluu;
                 michal = null;
-                if(!tangon) { _fun00020_ip = 123; continue _fun00019 }
- 120:
+                if(!tangon) { _fun00020_ip = 122; continue _fun00019 }
+ 119:
                 michal = zuuluu;
- 123:
+ 122:
                 entity = michal;
- 126:
+ 125:
                 return entity;
             }
         };

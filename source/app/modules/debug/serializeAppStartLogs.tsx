@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = michal.serverTrace;
                     michal = 0;
                     tangon = zuuluu;
-                    if(!(michal === report)) { _fun00006_ip = 116; continue _fun00005 }
+                    if(!(michal === report)) { _fun00006_ip = 115; continue _fun00005 }
  43:
                     option = _closure1_slot1;
                     golfie = _closure1_slot2;
@@ -130,16 +130,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(verify)(yankee, golfie);
                     golfie = null;
                     verify = golfie == option;
-                    if(verify) { _fun00006_ip = 102; continue _fun00005 }
- 96:
+                    if(verify) { _fun00006_ip = 101; continue _fun00005 }
+ 95:
                     michal = option.timestamp;
- 102:
-                    if(!(golfie == michal)) { _fun00006_ip = 113; continue _fun00005 }
- 106:
+ 101:
+                    if(!(golfie == michal)) { _fun00006_ip = 112; continue _fun00005 }
+ 105:
                     michal = _closure2_slot0;
- 113:
+ 112:
                     tangon = michal;
- 116:
+ 115:
                     backup = _closure2_slot1;
                     foxtra = _closure2_slot2;
                     michal = function(argFoo, argBar, argBaz, argCor) { // Original name: joinLogs
@@ -588,15 +588,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = output[option](sizing, kiloes, backup, foxtra, romeon, yankee);
                     golfie = null;
                     entity = zuuluu;
-                    if(!(golfie != oscard)) { _fun00006_ip = 278; continue _fun00005 }
- 247:
+                    if(!(golfie != oscard)) { _fun00006_ip = 277; continue _fun00005 }
+ 246:
                     report = report + tangon;
                     michal = michal.HermesInternal;
                     tangon = michal.concat;
                     michal = '\n Server trace for trace #';
                     michal = tangon.bind(michal)(report, oscard);
                     entity = zuuluu + michal;
- 278:
+ 277:
                     return entity;
                 }
             };
