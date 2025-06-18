@@ -2113,7 +2113,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = source.bind(report)(update, result);
             result = new Array(2);
             result[0] = update;
-            if(echoed) { _fun00004_ip = 2769; continue _fun00003 }
+            if(echoed) { _fun00004_ip = 2764; continue _fun00003 }
  1948:
             source = _closure1_slot29;
             update = _closure1_slot6;
@@ -2128,7 +2128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1984:
             echoed['importantForAccessibility'] = ctrled;
             cntext = null;
-            if(!golfie) { _fun00004_ip = 2114; continue _fun00003 }
+            if(!golfie) { _fun00004_ip = 2109; continue _fun00003 }
  1994:
             target = _closure1_slot28;
             papara = _closure1_slot1;
@@ -2144,28 +2144,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled['onPressAction'] = variable52;
             ctrled['canStartThreads'] = variable47;
             ctrled['isAppLauncherEnabled'] = variable39;
-            ctrled['isCreatingThread'] = zuuluu;
             ctrled['keyboardType'] = variable46;
             variable39 = variable36;
-            if(!variable36) { _fun00004_ip = 2075; continue _fun00003 }
- 2071:
+            if(!variable36) { _fun00004_ip = 2070; continue _fun00003 }
+ 2066:
             variable39 = equals == variable45;
- 2075:
-            if(variable39) { _fun00004_ip = 2081; continue _fun00003 }
- 2078:
+ 2070:
+            if(variable39) { _fun00004_ip = 2076; continue _fun00003 }
+ 2073:
             variable39 = variable43;
- 2081:
+ 2076:
             variable39 = !variable39;
             ctrled['shouldPhotosButtonBeDisabled'] = variable39;
             ctrled['shouldShowHideChatInputButton'] = variable41;
             variable39 = sierra;
-            if(zuuluu) { _fun00004_ip = 2103; continue _fun00003 }
- 2100:
+            if(zuuluu) { _fun00004_ip = 2098; continue _fun00003 }
+ 2095:
             variable39 = !variable41;
- 2103:
+ 2098:
             ctrled['shouldShowGiftButton'] = variable39;
             cntext = target.bind(report)(papara, ctrled);
- 2114:
+ 2109:
             ctrled = new Array(3);
             ctrled[0] = cntext;
             target = _closure1_slot29;
@@ -2247,8 +2246,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable40 = variable40.rightAccessory;
             variable39['style'] = variable40;
             variable41 = null;
-            if(!golfie) { _fun00004_ip = 2566; continue _fun00003 }
- 2490:
+            if(!golfie) { _fun00004_ip = 2561; continue _fun00003 }
+ 2485:
             variable43 = _closure1_slot28;
             variable42 = _closure1_slot1;
             variable45 = _closure1_slot3;
@@ -2266,7 +2265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable45 = limora.handlePressExpression;
             variable40['onPress'] = variable45;
             variable41 = variable43.bind(report)(variable42, variable40);
- 2566:
+ 2561:
             variable40 = new Array(2);
             variable40[0] = variable41;
             variable43 = _closure1_slot28;
@@ -2287,11 +2286,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext['children'] = status;
             cntext = target.bind(report)(papara, cntext);
             ctrled[1] = cntext;
-            if(golfie) { _fun00004_ip = 2661; continue _fun00003 }
- 2656:
+            if(golfie) { _fun00004_ip = 2656; continue _fun00003 }
+ 2651:
             cntext = null;
-            if(!zuuluu) { _fun00004_ip = 2753; continue _fun00003 }
- 2661:
+            if(!zuuluu) { _fun00004_ip = 2748; continue _fun00003 }
+ 2656:
             status = _closure1_slot28;
             target = _closure1_slot1;
             variable39 = _closure1_slot3;
@@ -2304,10 +2303,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara['canSendVoiceMessage'] = variable38;
             papara['channel'] = verify;
             papara['defaultValue'] = variable37;
-            if(!quebec) { _fun00004_ip = 2717; continue _fun00003 }
- 2714:
+            if(!quebec) { _fun00004_ip = 2712; continue _fun00003 }
+ 2709:
             quebec = variable36;
- 2717:
+ 2712:
             papara['hasPendingAttachments'] = quebec;
             whisks = equals != whisks;
             papara['hasPendingEdit'] = whisks;
@@ -2315,12 +2314,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara['onSendMessage'] = limora;
             papara['requireTextContent'] = sierra;
             cntext = status.bind(report)(target, papara);
- 2753:
+ 2748:
             ctrled[2] = cntext;
             echoed['children'] = ctrled;
             echoed = source.bind(report)(update, echoed);
-            _fun00004_ip = 2824; continue _fun00003;
- 2769:
+            _fun00004_ip = 2819; continue _fun00003;
+ 2764:
             ctrled = _closure1_slot28;
             source = _closure1_slot0;
             update = _closure1_slot3;
@@ -2333,7 +2332,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['chatInputRef'] = sequen;
             update['setShowAppLaunchButton'] = vacuum;
             echoed = ctrled.bind(report)(source, update);
- 2824:
+ 2819:
             result[1] = echoed;
             kiloes['children'] = result;
             kiloes = output.bind(report)(sizing, kiloes);
@@ -2346,15 +2345,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.isLegacyAndroidKeyboard;
             sizing = kiloes.bind(sizing)();
             kiloes = undefined;
-            if(!sizing) { _fun00004_ip = 2903; continue _fun00003 }
- 2877:
+            if(!sizing) { _fun00004_ip = 2898; continue _fun00003 }
+ 2872:
             output = _closure1_slot0;
             result = _closure1_slot3;
             sizing = 63;
             sizing = result[sizing];
             sizing = output.bind(report)(sizing);
             kiloes = sizing.PORTAL_KEYBOARD_PLACEHOLDER_INSTANCE;
- 2903:
+ 2898:
             backup[5] = kiloes;
             yankee['children'] = backup;
             yankee = foxtra.bind(report)(romeon, yankee);
@@ -2362,8 +2361,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = offset;
             oscard = oscard.bind(report)(tangon, entity);
             entity = oscard;
-            if(zuuluu) { _fun00004_ip = 2995; continue _fun00003 }
- 2937:
+            if(zuuluu) { _fun00004_ip = 2990; continue _fun00003 }
+ 2932:
             tangon = _closure1_slot28;
             zuuluu = _closure1_slot1;
             offset = _closure1_slot3;
@@ -2378,7 +2377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isReadonly'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 2995:
+ 2990:
             return entity;
         }
     };

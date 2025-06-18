@@ -1659,7 +1659,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = {};
     option = new Array(0);
     entity['actions'] = option;
-    golfie = function() { // Original name: inlineRequire
+    option = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 107;
@@ -1669,16 +1669,32 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = entity.default;
         return entity;
     };
-    entity['inlineRequire'] = golfie;
+    entity['inlineRequire'] = option;
     entity['hasStoreChangeListeners'] = tangon;
     michal['LibdiscoreExperimentManager'] = entity;
-    entity = 108;
+    entity = {};
+    option = ['CONNECTION_OPEN_SUPPLEMENTAL', 'SAFETY_FLOWS_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE'];
+    entity['actions'] = option;
+    golfie = function() { // Original name: inlineRequire
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 108;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        entity = entity.default;
+        return entity;
+    };
+    entity['inlineRequire'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
+    michal['SafetyFlowsManager'] = entity;
+    entity = 109;
     tangon = oscard[entity];
     entity = undefined;
     golfie = report.bind(entity)(tangon);
     tangon = golfie.initialize;
     tangon = tangon.bind(golfie)(michal);
-    tangon = 109;
+    tangon = 110;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

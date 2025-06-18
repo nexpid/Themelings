@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = zuuluu;
-        zuuluu = new Array(10);
+        zuuluu = new Array(12);
         zuuluu[0] = entity;
         entity = {};
         oscard = '_defaultRewardV2';
@@ -81,6 +81,80 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['get'] = oscard;
         zuuluu[2] = entity;
         entity = {};
+        oscard = 'defaultRewardNameWithArticle';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                michal = this;
+                tangon = _closure1_slot0;
+                report = _closure1_slot1;
+                entity = 2;
+                entity = report[entity];
+                report = undefined;
+                oscard = tangon.bind(report)(entity);
+                tangon = oscard.hasFractionalPremiumQuestReward;
+                entity = michal.quest;
+                entity = tangon.bind(oscard)(entity);
+                if(entity) { _fun00002_ip = 68; continue _fun00001 }
+ 48:
+                entity = michal.defaultReward;
+                entity = entity.messages;
+                entity = entity.nameWithArticle;
+                _fun00002_ip = 105; continue _fun00001;
+ 68:
+                tangon = _closure1_slot0;
+                oscard = _closure1_slot1;
+                zuuluu = 3;
+                zuuluu = oscard[zuuluu];
+                tangon = tangon.bind(report)(zuuluu);
+                zuuluu = tangon.getFractionalPremiumQuestRewardName;
+                michal = michal.quest;
+                entity = zuuluu.bind(tangon)(michal);
+ 105:
+                return entity;
+            }
+        };
+        entity['get'] = oscard;
+        zuuluu[3] = entity;
+        entity = {};
+        oscard = 'defaultRewardName';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: get
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                michal = this;
+                tangon = _closure1_slot0;
+                report = _closure1_slot1;
+                entity = 2;
+                entity = report[entity];
+                report = undefined;
+                oscard = tangon.bind(report)(entity);
+                tangon = oscard.hasFractionalPremiumQuestReward;
+                entity = michal.quest;
+                entity = tangon.bind(oscard)(entity);
+                if(entity) { _fun00004_ip = 67; continue _fun00003 }
+ 48:
+                entity = michal.defaultReward;
+                entity = entity.messages;
+                entity = entity.name;
+                _fun00004_ip = 104; continue _fun00003;
+ 67:
+                tangon = _closure1_slot0;
+                oscard = _closure1_slot1;
+                zuuluu = 3;
+                zuuluu = oscard[zuuluu];
+                tangon = tangon.bind(report)(zuuluu);
+                zuuluu = tangon.getFractionalPremiumQuestRewardName;
+                michal = michal.quest;
+                entity = zuuluu.bind(tangon)(michal);
+ 104:
+                return entity;
+            }
+        };
+        entity['get'] = oscard;
+        zuuluu[4] = entity;
+        entity = {};
         oscard = 'defaultRewardRedemptionInstructionsByPlatform';
         entity['key'] = oscard;
         oscard = function() { // Original name: get
@@ -93,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[3] = entity;
+        zuuluu[5] = entity;
         entity = {};
         oscard = 'rewardsExpireAt';
         entity['key'] = oscard;
@@ -105,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[4] = entity;
+        zuuluu[6] = entity;
         entity = {};
         oscard = 'application';
         entity['key'] = oscard;
@@ -126,7 +200,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[5] = entity;
+        zuuluu[7] = entity;
         entity = {};
         oscard = 'rewardPlatforms';
         entity['key'] = oscard;
@@ -138,12 +212,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['get'] = oscard;
-        zuuluu[6] = entity;
+        zuuluu[8] = entity;
         entity = {};
         oscard = 'questType';
         entity['key'] = oscard;
         oscard = function() { // Original name: get
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zuuluu = _closure1_slot0;
                 tangon = _closure1_slot1;
@@ -159,14 +233,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.bind(report)(entity);
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot1;
-                michal = 3;
+                michal = 4;
                 michal = report[michal];
                 michal = zuuluu.bind(tangon)(michal);
                 michal = michal.QuestType;
-                if(entity) { _fun00002_ip = 88; continue _fun00001 }
+                if(entity) { _fun00006_ip = 88; continue _fun00005 }
  80:
                 entity = michal.GAMEPLAY;
-                _fun00002_ip = 94; continue _fun00001;
+                _fun00006_ip = 94; continue _fun00005;
  88:
                 entity = michal.VIDEO;
  94:
@@ -174,12 +248,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['get'] = oscard;
-        zuuluu[7] = entity;
+        zuuluu[9] = entity;
         entity = {};
         oscard = 'defaultInGameTask';
         entity['key'] = oscard;
         oscard = function() { // Original name: get
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = this;
                 entity = entity.quest;
@@ -187,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = entity.tasks;
                 report = _closure1_slot0;
                 oscard = _closure1_slot1;
-                entity = 4;
+                entity = 5;
                 zuuluu = oscard[entity];
                 tangon = undefined;
                 zuuluu = report.bind(tangon)(zuuluu);
@@ -200,13 +274,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.ACHIEVEMENT_IN_GAME;
                 michal = michal[entity];
                 entity = null;
-                if(!(entity != zuuluu)) { _fun00004_ip = 96; continue _fun00003 }
+                if(!(entity != zuuluu)) { _fun00008_ip = 96; continue _fun00007 }
  93:
                 michal = zuuluu;
  96:
                 zuuluu = entity != michal;
                 entity = null;
-                if(!zuuluu) { _fun00004_ip = 108; continue _fun00003 }
+                if(!zuuluu) { _fun00008_ip = 108; continue _fun00007 }
  105:
                 entity = michal;
  108:
@@ -214,12 +288,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['get'] = oscard;
-        zuuluu[8] = entity;
+        zuuluu[10] = entity;
         entity = {};
         oscard = 'defaultWatchVideoTask';
         entity['key'] = oscard;
         oscard = function() { // Original name: get
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 michal = this;
                 entity = michal.quest;
@@ -227,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = entity.tasks;
                 report = _closure1_slot0;
                 oscard = _closure1_slot1;
-                entity = 4;
+                entity = 5;
                 zuuluu = oscard[entity];
                 tangon = undefined;
                 zuuluu = report.bind(tangon)(zuuluu);
@@ -243,18 +317,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.WATCH_VIDEO_ON_MOBILE;
                 tangon = michal[entity];
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00006_ip = 118; continue _fun00005 }
+                if(!(michal != zuuluu)) { _fun00010_ip = 118; continue _fun00009 }
  111:
                 entity = tangon;
-                if(!(michal == entity)) { _fun00006_ip = 140; continue _fun00005 }
+                if(!(michal == entity)) { _fun00010_ip = 140; continue _fun00009 }
  118:
-                if(!(michal != tangon)) { _fun00006_ip = 125; continue _fun00005 }
+                if(!(michal != tangon)) { _fun00010_ip = 125; continue _fun00009 }
  122:
                 zuuluu = tangon;
  125:
                 tangon = michal != zuuluu;
                 michal = null;
-                if(!tangon) { _fun00006_ip = 137; continue _fun00005 }
+                if(!tangon) { _fun00010_ip = 137; continue _fun00009 }
  134:
                 michal = zuuluu;
  137:
@@ -264,17 +338,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['get'] = oscard;
-        zuuluu[9] = entity;
+        zuuluu[11] = entity;
         entity = {};
         oscard = 'build';
         entity['key'] = oscard;
         michal = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                 zuuluu = argFoo;
                 michal = zuuluu.configVersion;
                 entity = 2;
-                if(!(entity === michal)) { _fun00008_ip = 48; continue _fun00007 }
+                if(!(entity === michal)) { _fun00012_ip = 48; continue _fun00011 }
  16:
                 entity = _closure2_slot0;
                 michal = entity.prototype;
@@ -304,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)();
-    tangon = 5;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

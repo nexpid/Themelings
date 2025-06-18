@@ -727,7 +727,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[1] = foxtra;
             option['children'] = offset;
             verify = yankee.bind(tangon)(verify, option);
-            _fun00004_ip = 1858; continue _fun00003;
+            _fun00004_ip = 1847; continue _fun00003;
  1464:
             offset = _closure1_slot11;
             option = {};
@@ -750,9 +750,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = sequen.t;
             config = sequen.ZUA/Ul;
             sequen = {};
-            target = whisks.defaultReward;
-            target = target.messages;
-            target = target.name;
+            target = whisks.defaultRewardName;
             sequen['rewardName'] = target;
             sequen = cntext.bind(papara)(config, sequen);
             foxtra['children'] = sequen;
@@ -768,10 +766,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = _closure1_slot6;
             config = {};
             target = record;
-            if(!record) { _fun00004_ip = 1642; continue _fun00003 }
- 1636:
+            if(!record) { _fun00004_ip = 1631; continue _fun00003 }
+ 1625:
             target = romeon.platformSelectClaiming;
- 1642:
+ 1631:
             config['style'] = target;
             sierra = _closure1_slot9;
             variable38 = _closure1_slot0;
@@ -827,8 +825,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = papara.bind(tangon)(cntext, config);
             config = new Array(2);
             config[0] = cntext;
-            if(!record) { _fun00004_ip = 1830; continue _fun00003 }
- 1797:
+            if(!record) { _fun00004_ip = 1819; continue _fun00003 }
+ 1786:
             target = _closure1_slot9;
             papara = _closure1_slot5;
             cntext = {};
@@ -837,14 +835,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = 24;
             cntext['size'] = status;
             record = target.bind(tangon)(papara, cntext);
- 1830:
+ 1819:
             config[1] = record;
             backup['children'] = config;
             backup = sequen.bind(tangon)(vacuum, backup);
             foxtra[1] = backup;
             option['children'] = foxtra;
             verify = yankee.bind(tangon)(offset, option);
- 1858:
+ 1847:
             option = new Array(2);
             option[0] = verify;
             yankee = _closure1_slot9;
@@ -863,13 +861,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['disabled'] = ctrled;
             romeon['onPress'] = source;
             romeon['grow'] = echoed;
-            if(result) { _fun00004_ip = 2059; continue _fun00003 }
- 1937:
-            if(!(kiloes != output)) { _fun00004_ip = 1949; continue _fun00003 }
- 1941:
+            if(result) { _fun00004_ip = 2048; continue _fun00003 }
+ 1926:
+            if(!(kiloes != output)) { _fun00004_ip = 1938; continue _fun00003 }
+ 1930:
             kiloes = '';
-            if(!(kiloes === output)) { _fun00004_ip = 2005; continue _fun00003 }
- 1949:
+            if(!(kiloes === output)) { _fun00004_ip = 1994; continue _fun00003 }
+ 1938:
             echoed = _closure1_slot0;
             kiloes = _closure1_slot2;
             output = kiloes[update];
@@ -881,8 +879,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.t;
             kiloes = kiloes.23SS+/;
             kiloes = output.bind(result)(kiloes);
-            _fun00004_ip = 2057; continue _fun00003;
- 2005:
+            _fun00004_ip = 2046; continue _fun00003;
+ 1994:
             source = _closure1_slot0;
             output = _closure1_slot2;
             result = output[update];
@@ -894,9 +892,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.t;
             output = output.+zx47e;
             kiloes = result.bind(echoed)(output);
- 2057:
-            _fun00004_ip = 2113; continue _fun00003;
- 2059:
+ 2046:
+            _fun00004_ip = 2102; continue _fun00003;
+ 2048:
             echoed = _closure1_slot0;
             sizing = _closure1_slot2;
             output = sizing[update];
@@ -908,7 +906,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.t;
             sizing = sizing.SLZMi4;
             kiloes = output.bind(result)(sizing);
- 2113:
+ 2102:
             romeon['text'] = kiloes;
             romeon = backup.bind(tangon)(foxtra, romeon);
             verify['children'] = romeon;

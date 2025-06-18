@@ -225,15 +225,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['location'] = output;
                     golfie = golfie.bind(offset)(tangon, zuuluu);
                     _closure3_slot11 = golfie;
-                    zuuluu = report.defaultReward;
-                    zuuluu = zuuluu.messages;
-                    if(option) { _fun00004_ip = 426; continue _fun00003 }
- 418:
-                    offset = zuuluu.nameWithArticle;
-                    _fun00004_ip = 431; continue _fun00003;
- 426:
-                    offset = zuuluu.name;
- 431:
+                    if(option) { _fun00004_ip = 414; continue _fun00003 }
+ 406:
+                    offset = report.defaultRewardNameWithArticle;
+                    _fun00004_ip = 420; continue _fun00003;
+ 414:
+                    offset = report.defaultRewardName;
+ 420:
                     _closure3_slot12 = offset;
                     tangon = _closure1_slot4;
                     zuuluu = tangon.useMemo;

@@ -75,8 +75,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argCor;
     golfie = tangon.bind(entity)(golfie);
     var _closure1_slot4 = golfie;
-    backup = 2;
-    tangon = oscard[backup];
+    tangon = 2;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.View;
     var _closure1_slot5 = tangon;
@@ -87,8 +87,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    foxtra = tangon.CHAT_INPUT_ACTION_BUTTON_MARGIN;
     yankee = tangon.CHAT_INPUT_ACTION_BUTTON_SIZE;
+    foxtra = tangon.CHAT_INPUT_ACTION_BUTTON_WIDTH;
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
@@ -110,8 +110,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.createStyles;
     tangon = {};
     offset = {};
-    foxtra = backup * foxtra;
-    foxtra = yankee + foxtra;
     offset['width'] = foxtra;
     offset['height'] = yankee;
     tangon['container'] = offset;

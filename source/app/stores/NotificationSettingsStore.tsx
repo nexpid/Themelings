@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     entity = _closure1_slot11;
                     entity = entity.disableAllSounds;
-                    if(entity) { _fun00008_ip = 49; continue _fun00007 }
+                    if(entity) { _fun00008_ip = 50; continue _fun00007 }
  16:
                     michal = _closure1_slot11;
                     tangon = michal.disabledSounds;
@@ -273,7 +273,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = -1;
                     entity = michal !== zuuluu;
- 49:
+ 50:
                     return entity;
                 }
             };

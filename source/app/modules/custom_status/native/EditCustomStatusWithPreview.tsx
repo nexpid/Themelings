@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     kiloes = kiloes.TEXT_PRIMARY;
     verify['color'] = kiloes;
     tangon['status'] = verify;
-    verify = {'fontSize': 16, 'lineHeight': 20, 'fontFamily': null, 'color': null, 'flexGrow': 1, 'height': 'auto'};
+    verify = {'fontSize': 16, 'lineHeight': 20, 'fontFamily': null, 'color': null, 'flexGrow': 1, 'height': 'auto', 'textAlignVertical': 'center'};
     backup = backup.PRIMARY_MEDIUM;
     verify['fontFamily'] = backup;
     backup = oscard[yankee];
@@ -826,7 +826,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity, michal);
             michal = romeon == update;
             entity = null;
-            if(michal) { _fun00002_ip = 2321; continue _fun00001 }
+            if(michal) { _fun00002_ip = 2312; continue _fun00001 }
  928:
             tangon = _closure1_slot13;
             zuuluu = _closure1_slot6;
@@ -1085,8 +1085,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals['autoCorrect'] = variable39;
             equals['showBorder'] = variable39;
             equals['showTopContainer'] = variable39;
-            variable39 = 'top';
-            equals['textAlignVertical'] = variable39;
             variable39 = 'none';
             equals['autoCapitalize'] = variable39;
             variable38 = variable38.statusText;
@@ -1100,18 +1098,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = variable37.bind(report)(variable36, equals);
             status[1] = equals;
             sierra = romeon != sierra;
-            if(sierra) { _fun00002_ip = 1790; continue _fun00001 }
- 1786:
+            if(sierra) { _fun00002_ip = 1781; continue _fun00001 }
+ 1777:
             sierra = whisks !== limora;
- 1790:
-            if(!sierra) { _fun00002_ip = 1813; continue _fun00001 }
- 1793:
+ 1781:
+            if(!sierra) { _fun00002_ip = 1804; continue _fun00001 }
+ 1784:
             equals = _closure1_slot13;
             whisks = _closure1_slot16;
             limora = {};
             limora['onPress'] = quebec;
             sierra = equals.bind(report)(whisks, limora);
- 1813:
+ 1804:
             status[2] = sierra;
             update['children'] = status;
             update = target.bind(report)(record, update);
@@ -1145,15 +1143,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = record[ctrled];
             record = target.bind(report)(record);
             target = record.t;
-            if(papara) { _fun00002_ip = 1972; continue _fun00001 }
- 1959:
+            if(papara) { _fun00002_ip = 1963; continue _fun00001 }
+ 1950:
             record = target.E45wvL;
             record = status.bind(sierra)(record);
-            _fun00002_ip = 1985; continue _fun00001;
- 1972:
+            _fun00002_ip = 1976; continue _fun00001;
+ 1963:
             target = target.+14vvb;
             record = status.bind(sierra)(target);
- 1985:
+ 1976:
             result['label'] = record;
             result['arrow'] = config;
             vacuum = function() { // Original name: onPress
@@ -1209,8 +1207,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = sizing.bind(report)(kiloes, foxtra);
             verify[2] = foxtra;
             offset = romeon != offset;
-            if(!offset) { _fun00002_ip = 2297; continue _fun00001 }
- 2106:
+            if(!offset) { _fun00002_ip = 2288; continue _fun00001 }
+ 2097:
             foxtra = _closure1_slot13;
             source = _closure1_slot0;
             result = _closure1_slot2;
@@ -1254,13 +1252,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(report)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 2297:
+ 2288:
             verify[3] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 2321:
+ 2312:
             return entity;
         }
     };

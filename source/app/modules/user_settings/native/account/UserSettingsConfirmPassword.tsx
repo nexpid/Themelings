@@ -369,7 +369,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(golfie)(zuuluu, michal);
             michal = foxtra == entity;
             entity = null;
-            if(michal) { _fun00002_ip = 1074; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1070; continue _fun00001 }
  311:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot7;
@@ -466,11 +466,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee['onSubmitEditing'] = result;
             config = foxtra == update;
             sequen = undefined;
-            if(config) { _fun00002_ip = 786; continue _fun00001 }
- 775:
+            if(config) { _fun00002_ip = 782; continue _fun00001 }
+ 771:
             config = update.getFieldMessage;
             sequen = config.bind(update)(echoed);
- 786:
+ 782:
             yankee['error'] = sequen;
             sequen = 'done';
             yankee['returnKeyType'] = sequen;
@@ -481,14 +481,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[2] = yankee;
             romeon = foxtra != update;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 903; continue _fun00001 }
- 832:
+            if(!romeon) { _fun00002_ip = 899; continue _fun00001 }
+ 828:
             romeon = update.getFieldMessage;
             romeon = romeon.bind(update)(echoed);
             romeon = foxtra == romeon;
             yankee = null;
-            if(!romeon) { _fun00002_ip = 903; continue _fun00001 }
- 852:
+            if(!romeon) { _fun00002_ip = 899; continue _fun00001 }
+ 848:
             echoed = _closure1_slot10;
             foxtra = _closure1_slot1;
             source = _closure1_slot2;
@@ -501,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.message;
             romeon['children'] = update;
             yankee = echoed.bind(report)(foxtra, romeon);
- 903:
+ 899:
             offset[3] = yankee;
             foxtra = _closure1_slot10;
             romeon = _closure1_slot6;
@@ -526,10 +526,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = update.bind(source)(echoed);
             backup['text'] = echoed;
             backup['onPress'] = result;
-            if(sizing) { _fun00002_ip = 1025; continue _fun00001 }
- 1022:
+            if(sizing) { _fun00002_ip = 1021; continue _fun00001 }
+ 1018:
             sizing = output;
- 1025:
+ 1021:
             backup['loading'] = sizing;
             backup = foxtra.bind(report)(kiloes, backup);
             yankee['children'] = backup;
@@ -540,7 +540,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1074:
+ 1070:
             return entity;
         }
     };

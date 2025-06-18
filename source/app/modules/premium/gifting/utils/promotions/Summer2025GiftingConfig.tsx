@@ -310,23 +310,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     golfie['body'] = yankee;
-    yankee = function() { // Original name: additionalTerm
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 4;
-        michal = oscard[entity];
-        tangon = undefined;
-        michal = report.bind(tangon)(michal);
-        zuuluu = michal.intl;
-        michal = zuuluu.string;
-        entity = oscard[entity];
-        entity = report.bind(tangon)(entity);
-        entity = entity.t;
-        entity = entity.lapGDw;
-        entity = michal.bind(zuuluu)(entity);
-        return entity;
-    };
-    golfie['additionalTerm'] = yankee;
     golfie['gradientConfig'] = tangon;
     yankee = 12;
     yankee = verify[yankee];

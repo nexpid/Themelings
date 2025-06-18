@@ -81,6 +81,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = 40;
     zuuluu['CHAT_INPUT_ACTION_BUTTON_SIZE'] = report;
     zuuluu['CHAT_INPUT_ACTION_BUTTON_MARGIN'] = tangon;
+    report = 48;
+    zuuluu['CHAT_INPUT_ACTION_BUTTON_WIDTH'] = report;
+    report = 36;
+    zuuluu['CHAT_INPUT_MORE_BUTTON_WIDTH'] = report;
     report = 12;
     zuuluu['CHAT_INPUT_HORIZONTAL_PADDING'] = report;
     zuuluu['CHAT_INPUT_HORIZONTAL_PADDING_PARENT'] = tangon;

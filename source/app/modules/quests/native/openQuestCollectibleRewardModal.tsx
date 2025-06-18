@@ -29,9 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.build;
             michal = entity.config;
             offset = oscard.bind(golfie)(michal);
-            michal = offset.defaultReward;
-            michal = michal.messages;
-            source = michal.nameWithArticle;
+            source = offset.defaultRewardNameWithArticle;
             michal = 7;
             michal = tangon[michal];
             zuuluu = zuuluu.bind(report)(michal);
@@ -70,8 +68,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = echoed.bind(update)(result, kiloes);
             oscard['children'] = kiloes;
             verify = backup.bind(report)(verify, oscard);
-            if(entity) { _fun00002_ip = 367; continue _fun00001 }
- 289:
+            if(entity) { _fun00002_ip = 355; continue _fun00001 }
+ 277:
             entity = new Array(2);
             entity[0] = verify;
             kiloes = _closure1_slot6;
@@ -86,8 +84,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity[1] = oscard;
             michal['children'] = entity;
             entity = tangon.bind(report)(zuuluu, michal);
-            _fun00002_ip = 548; continue _fun00001;
- 367:
+            _fun00002_ip = 536; continue _fun00001;
+ 355:
             oscard = new Array(4);
             oscard[0] = verify;
             kiloes = _closure1_slot6;
@@ -127,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard[3] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 548:
+ 536:
             return entity;
         }
     };

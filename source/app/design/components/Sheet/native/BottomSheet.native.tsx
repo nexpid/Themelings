@@ -437,11 +437,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = source;
             tangon = option.windowDimensions;
             verify = tangon.height;
-            sizing = option.wrapperStyle;
-            echoed = option.onChange;
-            var _closure2_slot1 = echoed;
-            result = option.onExpand;
-            var _closure2_slot2 = result;
+            output = option.wrapperStyle;
+            update = option.onChange;
+            var _closure2_slot1 = update;
+            echoed = option.onExpand;
+            var _closure2_slot2 = echoed;
             offset = option.children;
             yankee = option.borderGradient;
             report = option.extraContent;
@@ -461,32 +461,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot20;
             kiloes = false;
             foxtra = option.bind(tangon)(kiloes);
-            output = _closure1_slot1;
+            sizing = _closure1_slot1;
             ctrled = _closure1_slot2;
             option = 8;
             option = ctrled[option];
-            option = output.bind(tangon)(option);
+            option = sizing.bind(tangon)(option);
             option = option.bind(tangon)();
             option = option.top;
-            update = _closure1_slot0;
-            output = 9;
-            output = ctrled[output];
-            update = update.bind(tangon)(output);
-            output = update.useIsScreenReaderEnabled;
-            update = output.bind(update)();
-            var _closure2_slot3 = update;
+            result = _closure1_slot0;
+            sizing = 9;
+            sizing = ctrled[sizing];
+            result = result.bind(tangon)(sizing);
+            sizing = result.useIsScreenReaderEnabled;
+            sizing = sizing.bind(result)();
+            var _closure2_slot3 = sizing;
             if(!(oscard == michal)) { _fun00012_ip = 223; continue _fun00011 }
  215:
-            output = _closure1_slot9;
-            michal = verify * output;
+            result = _closure1_slot9;
+            michal = verify * result;
  223:
             _closure2_slot4 = michal;
-            output = backup;
+            result = backup;
             if(!(oscard != zuuluu)) { _fun00012_ip = 237; continue _fun00011 }
  234:
-            output = zuuluu;
+            result = zuuluu;
  237:
-            if(!(oscard == output)) { _fun00012_ip = 275; continue _fun00011 }
+            if(!(oscard == result)) { _fun00012_ip = 275; continue _fun00011 }
  241:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot2;
@@ -495,15 +495,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = ctrled.bind(tangon)(zuuluu);
             zuuluu = zuuluu.NAV_BAR_HEIGHT_MULTILINE;
             zuuluu = verify - zuuluu;
-            output = zuuluu - option;
+            result = zuuluu - option;
  275:
-            _closure2_slot5 = output;
+            _closure2_slot5 = result;
             option = _closure1_slot4;
             verify = option.useMemo;
             zuuluu = new Array(4);
             zuuluu[0] = source;
-            zuuluu[1] = update;
-            zuuluu[2] = output;
+            zuuluu[1] = sizing;
+            zuuluu[2] = result;
             zuuluu[3] = michal;
             michal = function() {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
@@ -537,13 +537,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(option)(michal, zuuluu);
             zuuluu = verify.length;
             michal = 1;
-            output = zuuluu - michal;
-            _closure2_slot6 = output;
+            sizing = zuuluu - michal;
+            _closure2_slot6 = sizing;
             zuuluu = option.useCallback;
             michal = new Array(3);
-            michal[0] = echoed;
-            michal[1] = result;
-            michal[2] = output;
+            michal[0] = update;
+            michal[1] = echoed;
+            michal[2] = sizing;
             entity = function(argFoo, argBar, argBaz) {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -576,6 +576,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot17;
             michal = _closure1_slot6;
             entity = {};
+            sizing = new Array(2);
+            sizing[0] = output;
+            output = {};
+            output['maxHeight'] = result;
+            sizing[1] = output;
             entity['style'] = sizing;
             entity['children'] = offset;
             offset = zuuluu.bind(tangon)(michal, entity);
@@ -601,8 +606,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'onChange';
             entity[golfie] = option;
             golfie = offset;
-            if(!(oscard != yankee)) { _fun00012_ip = 589; continue _fun00011 }
- 482:
+            if(!(oscard != yankee)) { _fun00012_ip = 608; continue _fun00011 }
+ 501:
             verify = _closure1_slot17;
             option = _closure1_slot1;
             backup = _closure1_slot2;
@@ -627,7 +632,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['colors'] = yankee;
             oscard['children'] = offset;
             golfie = verify.bind(tangon)(option, oscard);
- 589:
+ 608:
             oscard = new Array(2);
             oscard[0] = golfie;
             oscard[1] = report;

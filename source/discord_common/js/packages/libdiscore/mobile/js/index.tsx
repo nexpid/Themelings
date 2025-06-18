@@ -130,14 +130,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu['consumeLogs'] = report;
         zuuluu['BlockedDomainsStore'] = tangon;
-        michal = function() { // Original name: crash
+        tangon = function() { // Original name: crash
             michal = _closure1_slot2;
             entity = michal.crash;
             entity = entity.bind(michal)();
             entity = undefined;
             return entity;
         };
-        zuuluu['crash'] = michal;
+        zuuluu['crash'] = tangon;
+        michal = function(argFoo) { // Original name: generateLaunchSignature
+            zuuluu = _closure1_slot2;
+            michal = zuuluu.generateLaunchSignature;
+            entity = argFoo;
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        zuuluu['generateLaunchSignature'] = michal;
         return entity;
     }
 })();

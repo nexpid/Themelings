@@ -216,9 +216,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.messages;
             kiloes = report.gameTitle;
             _closure2_slot7 = kiloes;
-            zuuluu = zuuluu.defaultReward;
-            zuuluu = zuuluu.messages;
-            foxtra = zuuluu.name;
+            foxtra = zuuluu.defaultRewardName;
             _closure2_slot8 = foxtra;
             report = golfie.useMemo;
             zuuluu = new Array(8);
@@ -459,10 +457,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['size'] = result;
             output = output.percentComplete;
             option['progress'] = output;
-            if(backup) { _fun00002_ip = 474; continue _fun00001 }
- 471:
+            if(backup) { _fun00002_ip = 463; continue _fun00001 }
+ 460:
             backup = oscard;
- 474:
+ 463:
             backup = !backup;
             option['loading'] = backup;
             backup = true;
@@ -471,8 +469,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = new Array(2);
             option[0] = romeon;
             verify = verify != kiloes;
-            if(!verify) { _fun00002_ip = 575; continue _fun00001 }
- 510:
+            if(!verify) { _fun00002_ip = 564; continue _fun00001 }
+ 499:
             backup = _closure1_slot6;
             foxtra = _closure1_slot0;
             output = _closure1_slot2;
@@ -485,14 +483,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['style'] = output;
             romeon['children'] = kiloes;
             verify = backup.bind(tangon)(foxtra, romeon);
- 575:
+ 564:
             option[1] = verify;
             report['children'] = option;
             golfie = zuuluu.bind(tangon)(golfie, report);
             report = new Array(2);
             report[0] = golfie;
-            if(!oscard) { _fun00002_ip = 756; continue _fun00001 }
- 603:
+            if(!oscard) { _fun00002_ip = 745; continue _fun00001 }
+ 592:
             verify = _closure1_slot6;
             option = _closure1_slot4;
             golfie = {};
@@ -524,7 +522,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = verify.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 756:
+ 745:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

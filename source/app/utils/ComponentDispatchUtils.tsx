@@ -234,15 +234,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.indexOf;
                 zuuluu = michal.bind(zuuluu)(tangon);
                 michal = 0;
-                if(!(!(zuuluu >= michal))) { _fun00010_ip = 73; continue _fun00009 }
- 42:
+                if(!(!(zuuluu >= michal))) { _fun00010_ip = 74; continue _fun00009 }
+ 43:
                 zuuluu = entity.emitter;
                 michal = zuuluu.on;
                 michal = michal.bind(zuuluu)(report, tangon);
                 michal = entity._checkSavedDispatches;
                 michal = michal.bind(entity)(report);
-                _fun00010_ip = 141; continue _fun00009;
- 73:
+                _fun00010_ip = 142; continue _fun00009;
+ 74:
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
                 michal = 4;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = tangon.warn;
                 michal = 'ComponentDispatch.subscribe: Attempting to add a duplicate listener';
                 michal = zuuluu.bind(tangon)(michal, report);
- 141:
+ 142:
                 return entity;
             }
         };

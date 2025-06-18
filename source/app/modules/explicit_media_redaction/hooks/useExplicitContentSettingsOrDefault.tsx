@@ -107,10 +107,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             michal = {'setting': null, 'isDm': true, 'isFriend': true};
             golfie = golfie == oscard;
             report = undefined;
-            if(golfie) { _fun00002_ip = 222; continue _fun00001 }
- 216:
+            if(golfie) { _fun00002_ip = 226; continue _fun00001 }
+ 220:
             report = oscard.explicitContentFriendDm;
- 222:
+ 226:
             michal['setting'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity['explicitContentFriendDm'] = michal;
@@ -200,10 +200,10 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             michal = {'setting': null, 'isDm': true, 'isFriend': true};
             golfie = golfie == oscard;
             report = undefined;
-            if(golfie) { _fun00006_ip = 222; continue _fun00005 }
- 216:
+            if(golfie) { _fun00006_ip = 226; continue _fun00005 }
+ 220:
             report = oscard.goreContentFriendDm;
- 222:
+ 226:
             michal['setting'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity['goreContentFriendDm'] = michal;

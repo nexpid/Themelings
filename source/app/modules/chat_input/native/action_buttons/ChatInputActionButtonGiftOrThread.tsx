@@ -129,11 +129,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.View;
     var _closure1_slot4 = tangon;
-    foxtra = 2;
-    tangon = oscard[foxtra];
+    tangon = 2;
+    tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    romeon = tangon.CHAT_INPUT_ACTION_BUTTON_MARGIN;
     yankee = tangon.CHAT_INPUT_ACTION_BUTTON_SIZE;
+    romeon = tangon.CHAT_INPUT_ACTION_BUTTON_WIDTH;
     tangon = tangon.ChatInputActionType;
     var _closure1_slot5 = tangon;
     tangon = 3;
@@ -147,8 +147,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.createStyles;
     tangon = {};
     offset = {};
-    romeon = foxtra * romeon;
-    romeon = yankee + romeon;
     offset['width'] = romeon;
     offset['height'] = yankee;
     tangon['container'] = offset;

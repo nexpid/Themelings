@@ -38,38 +38,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.bind(entity)(zuuluu, michal);
                 tangon = 'string';
                 michal = typeof report;
-                if(!(tangon !== michal)) { _fun00002_ip = 302; continue _fun00001 }
+                if(!(tangon !== michal)) { _fun00002_ip = 311; continue _fun00001 }
  55:
                 michal = report.body;
                 golfie = null;
-                if(!(golfie == michal)) { _fun00002_ip = 73; continue _fun00001 }
+                if(!(golfie == michal)) { _fun00002_ip = 82; continue _fun00001 }
  66:
                 michal = {};
-                _fun00002_ip = 318; continue _fun00001;
- 73:
+                tangon = report.status;
+                michal['status'] = tangon;
+                _fun00002_ip = 327; continue _fun00001;
+ 82:
                 tangon = report.body;
                 tangon = tangon.message;
-                if(!(golfie != tangon)) { _fun00002_ip = 224; continue _fun00001 }
- 90:
+                if(!(golfie != tangon)) { _fun00002_ip = 233; continue _fun00001 }
+ 99:
                 tangon = global;
                 offset = tangon.Array;
                 option = offset.isArray;
                 oscard = report.body;
                 oscard = oscard.message;
                 oscard = option.bind(offset)(oscard);
-                if(oscard) { _fun00002_ip = 224; continue _fun00001 }
- 121:
+                if(oscard) { _fun00002_ip = 233; continue _fun00001 }
+ 130:
                 oscard = report.body;
                 oscard = oscard.code;
-                if(!(golfie != oscard)) { _fun00002_ip = 164; continue _fun00001 }
- 135:
+                if(!(golfie != oscard)) { _fun00002_ip = 173; continue _fun00001 }
+ 144:
                 option = tangon.Array;
                 oscard = option.isArray;
                 tangon = report.body;
                 tangon = tangon.code;
                 tangon = oscard.bind(option)(tangon);
-                if(tangon) { _fun00002_ip = 224; continue _fun00001 }
- 164:
+                if(tangon) { _fun00002_ip = 233; continue _fun00001 }
+ 173:
                 tangon = {};
                 oscard = report.body;
                 oscard = oscard.message;
@@ -83,62 +85,62 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = report.status;
                 tangon['status'] = oscard;
                 michal = tangon;
-                _fun00002_ip = 318; continue _fun00001;
- 224:
+                _fun00002_ip = 327; continue _fun00001;
+ 233:
                 oscard = report.body;
                 tangon = golfie != oscard;
                 offset = null;
-                if(!tangon) { _fun00002_ip = 262; continue _fun00001 }
- 238:
+                if(!tangon) { _fun00002_ip = 271; continue _fun00001 }
+ 247:
                 tangon = global;
                 option = tangon.Object;
                 tangon = option.values;
                 option = tangon.bind(option)(oscard);
                 tangon = 0;
                 offset = option[tangon];
- 262:
+ 271:
                 tangon = {};
                 option = golfie != offset;
                 golfie = undefined;
-                if(!option) { _fun00002_ip = 279; continue _fun00001 }
- 273:
+                if(!option) { _fun00002_ip = 288; continue _fun00001 }
+ 282:
                 option = 0;
                 golfie = offset[option];
- 279:
+ 288:
                 tangon['message'] = golfie;
                 tangon['fields'] = oscard;
                 oscard = report.status;
                 tangon['status'] = oscard;
                 michal = tangon;
-                _fun00002_ip = 318; continue _fun00001;
- 302:
+                _fun00002_ip = 327; continue _fun00001;
+ 311:
                 tangon = {};
                 tangon['message'] = report;
                 report = argBar;
                 tangon['code'] = report;
                 michal = tangon;
- 318:
+ 327:
                 report = michal.message;
                 oscard = michal.code;
                 golfie = michal.retryAfter;
                 tangon = michal.fields;
                 michal = michal.status;
                 option = report;
-                if(option) { _fun00002_ip = 354; continue _fun00001 }
- 351:
+                if(option) { _fun00002_ip = 363; continue _fun00001 }
+ 360:
                 option = verify;
- 354:
+ 363:
                 zuuluu['message'] = option;
                 zuuluu['retryAfter'] = golfie;
-                if(oscard) { _fun00002_ip = 375; continue _fun00001 }
- 369:
+                if(oscard) { _fun00002_ip = 384; continue _fun00001 }
+ 378:
                 oscard = -1;
- 375:
-                zuuluu['code'] = oscard;
-                if(tangon) { _fun00002_ip = 386; continue _fun00001 }
  384:
+                zuuluu['code'] = oscard;
+                if(tangon) { _fun00002_ip = 395; continue _fun00001 }
+ 393:
                 tangon = {};
- 386:
+ 395:
                 zuuluu['fields'] = tangon;
                 zuuluu['status'] = michal;
                 michal = global;

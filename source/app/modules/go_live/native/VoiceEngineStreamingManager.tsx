@@ -594,24 +594,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = 'Broadcast Annotated:';
                     michal = tangon.bind(report)(michal, zuuluu);
                     michal = 'com.hammerandchisel.discord';
-                    if(!(michal !== zuuluu)) { _fun00014_ip = 98; continue _fun00013 }
+                    if(!(michal !== zuuluu)) { _fun00014_ip = 99; continue _fun00013 }
  38:
                     report = _closure1_slot24;
                     tangon = report.indexOf;
                     michal = 0;
                     oscard = tangon.bind(report)(zuuluu, michal);
                     michal = -1;
-                    if(!(oscard > michal)) { _fun00014_ip = 84; continue _fun00013 }
- 65:
+                    if(!(oscard > michal)) { _fun00014_ip = 85; continue _fun00013 }
+ 66:
                     report = _closure1_slot24;
                     tangon = report.splice;
                     michal = 1;
                     michal = tangon.bind(report)(oscard, michal);
- 84:
+ 85:
                     michal = _closure1_slot24;
                     entity = michal.push;
                     entity = entity.bind(michal)(zuuluu);
- 98:
+ 99:
                     entity = undefined;
                     return entity;
                 }

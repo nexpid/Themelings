@@ -806,13 +806,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.Q8gkVF;
             kiloes = sizing.bind(output)(kiloes);
             verify['accessibilityLabel'] = kiloes;
-            if(result) { _fun00010_ip = 663; continue _fun00009 }
- 655:
+            if(result) { _fun00010_ip = 659; continue _fun00009 }
+ 651:
             kiloes = yankee.iconBg;
-            _fun00010_ip = 669; continue _fun00009;
- 663:
+            _fun00010_ip = 665; continue _fun00009;
+ 659:
             kiloes = yankee.iconBgSelected;
- 669:
+ 665:
             verify['style'] = kiloes;
             output = _closure1_slot13;
             sizing = _closure1_slot0;
@@ -822,15 +822,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.bind(tangon)(kiloes);
             sizing = kiloes.MicrophoneIcon;
             kiloes = {};
-            if(result) { _fun00010_ip = 721; continue _fun00009 }
- 708:
+            if(result) { _fun00010_ip = 717; continue _fun00009 }
+ 704:
             result = yankee.iconFill;
             result = result.color;
-            _fun00010_ip = 732; continue _fun00009;
- 721:
+            _fun00010_ip = 728; continue _fun00009;
+ 717:
             echoed = yankee.iconFillSelected;
             result = echoed.color;
- 732:
+ 728:
             kiloes['color'] = result;
             result = 'lg';
             kiloes['size'] = result;

@@ -67,9 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.t;
             verify = option.W8/b3d;
             option = {};
-            foxtra = foxtra.defaultReward;
-            foxtra = foxtra.messages;
-            foxtra = foxtra.name;
+            foxtra = foxtra.defaultRewardName;
             option['rewardName'] = foxtra;
             option = offset.bind(yankee)(verify, option);
             report['children'] = option;
@@ -78,8 +76,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[0] = oscard;
             yankee = null;
             oscard = yankee != source;
-            if(!oscard) { _fun00002_ip = 461; continue _fun00001 }
- 266:
+            if(!oscard) { _fun00002_ip = 450; continue _fun00001 }
+ 255:
             verify = _closure1_slot12;
             option = _closure1_slot11;
             golfie = {};
@@ -106,8 +104,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = new Array(2);
             offset[0] = foxtra;
             yankee = yankee != kiloes;
-            if(!yankee) { _fun00002_ip = 447; continue _fun00001 }
- 397:
+            if(!yankee) { _fun00002_ip = 436; continue _fun00001 }
+ 386:
             backup = _closure1_slot10;
             foxtra = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -117,11 +115,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {'color': 'header-secondary', 'variant': 'text-sm/normal'};
             romeon['children'] = kiloes;
             yankee = backup.bind(tangon)(foxtra, romeon);
- 447:
+ 436:
             offset[1] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 461:
+ 450:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

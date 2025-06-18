@@ -573,14 +573,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         entity = zuuluu.bind(tangon)(entity);
-                        _fun00008_ip = 76; continue _fun00007;
+                        _fun00008_ip = 77; continue _fun00007;
  52:
                         tangon = _closure1_slot32;
                         zuuluu = tangon.indexOf;
                         michal = _closure1_slot12;
                         michal = michal.DARKER;
                         entity = zuuluu.bind(tangon)(michal);
- 76:
+ 77:
                         return entity;
                     }
                 };
@@ -1391,10 +1391,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure1_slot12;
                         tangon = michal.LIGHT;
                         michal = 'light-content';
-                        if(!(entity === tangon)) { _fun00028_ip = 152; continue _fun00027 }
- 146:
+                        if(!(entity === tangon)) { _fun00028_ip = 153; continue _fun00027 }
+ 147:
                         michal = 'dark-content';
- 152:
+ 153:
                         entity = undefined;
                         michal = zuuluu.bind(entity)(michal);
                         return entity;

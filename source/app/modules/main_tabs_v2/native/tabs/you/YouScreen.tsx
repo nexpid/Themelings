@@ -46,109 +46,109 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(yankee)();
             yankee = verify.bind(offset)(option);
             result = _closure1_slot1;
-            verify = _closure1_slot2;
-            option = 17;
-            option = verify[option];
-            option = result.bind(tangon)(option);
-            limora = option.bind(tangon)();
-            var _closure2_slot2 = limora;
-            option = _closure1_slot17;
-            cntext = limora * option;
+            option = _closure1_slot2;
+            verify = 17;
+            verify = option[verify];
+            verify = result.bind(tangon)(verify);
+            whisks = verify.bind(tangon)();
+            var _closure2_slot2 = whisks;
+            verify = _closure1_slot17;
+            cntext = whisks * verify;
             var _closure2_slot3 = cntext;
-            option = _closure1_slot26;
-            config = option.bind(tangon)(limora);
-            option = 18;
-            option = verify[option];
-            offset = result.bind(tangon)(option);
-            option = {};
+            verify = _closure1_slot26;
+            config = verify.bind(tangon)(whisks);
+            verify = 18;
+            verify = option[verify];
+            offset = result.bind(tangon)(verify);
+            verify = {};
             output = _closure1_slot0;
             romeon = 19;
-            foxtra = verify[romeon];
+            foxtra = option[romeon];
             foxtra = output.bind(tangon)(foxtra);
             foxtra = foxtra.ImpressionTypes;
             foxtra = foxtra.VIEW;
-            option['type'] = foxtra;
-            romeon = verify[romeon];
+            verify['type'] = foxtra;
+            romeon = option[romeon];
             romeon = output.bind(tangon)(romeon);
             romeon = romeon.ImpressionNames;
             romeon = romeon.USER_YOU_SCREEN;
-            option['name'] = romeon;
-            option = offset.bind(tangon)(option);
-            option = 20;
-            option = verify[option];
-            offset = result.bind(tangon)(option);
-            option = oscard.id;
-            romeon = offset.bind(tangon)(option);
-            option = 21;
-            option = verify[option];
-            option = result.bind(tangon)(option);
-            foxtra = option.bind(tangon)();
-            option = 22;
-            option = verify[option];
-            offset = result.bind(tangon)(option);
-            option = {};
-            option['user'] = oscard;
-            option['displayProfile'] = romeon;
-            option = offset.bind(tangon)(option);
-            sizing = option.theme;
-            kiloes = option.primaryColor;
-            offset = option.secondaryColor;
-            option = 23;
-            option = verify[option];
-            option = result.bind(tangon)(option);
-            option = option.bind(tangon)();
-            backup = 24;
-            backup = verify[backup];
-            update = output.bind(tangon)(backup);
-            backup = update.useProfileThemeValues;
-            source = backup.bind(update)(sizing);
-            backup = 25;
-            backup = verify[backup];
-            output = output.bind(tangon)(backup);
-            backup = output.useToken;
-            variable56 = 16;
-            verify = verify[variable56];
+            verify['name'] = romeon;
+            verify = offset.bind(tangon)(verify);
+            verify = 20;
+            verify = option[verify];
+            offset = result.bind(tangon)(verify);
+            verify = oscard.id;
+            romeon = offset.bind(tangon)(verify);
+            verify = 21;
+            verify = option[verify];
             verify = result.bind(tangon)(verify);
-            verify = verify.colors;
-            verify = verify.ACTION_SHEET_GRADIENT_BG;
-            variable36 = backup.bind(output)(verify, option);
+            backup = verify.bind(tangon)();
+            verify = 22;
+            verify = option[verify];
+            offset = result.bind(tangon)(verify);
+            verify = {};
+            verify['user'] = oscard;
+            verify['displayProfile'] = romeon;
+            verify = offset.bind(tangon)(verify);
+            sizing = verify.theme;
+            kiloes = verify.primaryColor;
+            offset = verify.secondaryColor;
+            verify = 23;
+            verify = option[verify];
+            verify = result.bind(tangon)(verify);
+            foxtra = verify.bind(tangon)();
+            verify = 24;
+            verify = option[verify];
+            update = output.bind(tangon)(verify);
+            verify = update.useProfileThemeValues;
+            source = verify.bind(update)(sizing);
+            verify = 25;
+            verify = option[verify];
+            output = output.bind(tangon)(verify);
+            verify = output.useToken;
+            variable56 = 16;
+            option = option[variable56];
+            option = result.bind(tangon)(option);
+            option = option.colors;
+            option = option.ACTION_SHEET_GRADIENT_BG;
+            variable36 = verify.bind(output)(option, foxtra);
             variable40 = null;
             if(!(variable40 != offset)) { _fun00002_ip = 529; continue _fun00001 }
  459:
             result = _closure1_slot0;
             update = _closure1_slot2;
-            verify = 26;
-            verify = update[verify];
-            output = result.bind(tangon)(verify);
-            backup = output.int2hex;
-            verify = 27;
-            verify = update[verify];
-            update = result.bind(tangon)(verify);
+            option = 26;
+            option = update[option];
+            output = result.bind(tangon)(option);
+            verify = output.int2hex;
+            option = 27;
+            option = update[option];
+            update = result.bind(tangon)(option);
             result = update.calculateOverlayedColor;
             ctrled = variable40 == source;
-            verify = undefined;
+            option = undefined;
             if(ctrled) { _fun00002_ip = 518; continue _fun00001 }
  512:
-            verify = source.overlay;
+            option = source.overlay;
  518:
-            verify = result.bind(update)(offset, verify);
-            variable36 = backup.bind(output)(verify);
+            option = result.bind(update)(offset, option);
+            variable36 = verify.bind(output)(option);
  529:
-            backup = _closure1_slot4;
-            verify = backup.useRef;
-            vacuum = verify.bind(backup)(variable40);
+            verify = _closure1_slot4;
+            option = verify.useRef;
+            vacuum = option.bind(verify)(variable40);
             target = _closure1_slot0;
-            sierra = _closure1_slot2;
+            limora = _closure1_slot2;
             source = 12;
-            verify = sierra[source];
-            backup = target.bind(tangon)(verify);
-            verify = backup.useSharedValue;
-            output = 0;
-            variable37 = verify.bind(backup)(output);
-            _closure2_slot4 = variable37;
-            verify = sierra[source];
+            option = limora[source];
+            verify = target.bind(tangon)(option);
+            option = verify.useSharedValue;
+            ctrled = 0;
+            option = option.bind(verify)(ctrled);
+            _closure2_slot4 = option;
+            verify = limora[source];
             result = target.bind(tangon)(verify);
-            backup = result.useAnimatedScrollHandler;
+            output = result.useAnimatedScrollHandler;
             verify = function(argFoo) { // Original name: G
                 zuuluu = _closure2_slot4;
                 michal = zuuluu.set;
@@ -160,28 +160,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             update = {};
-            update['scrollPosition'] = variable37;
+            update['scrollPosition'] = option;
             verify['__closure'] = update;
             update = 952837799380.0;
             verify['__workletHash'] = update;
             update = _closure1_slot28;
             verify['__initData'] = update;
-            result = backup.bind(result)(verify);
-            ctrled = _closure1_slot4;
-            update = ctrled.useMemo;
-            backup = new Array(1);
-            backup[0] = limora;
+            result = output.bind(result)(verify);
+            record = _closure1_slot4;
+            update = record.useMemo;
+            output = new Array(1);
+            output[0] = whisks;
             verify = function() {
                 michal = _closure2_slot2;
                 entity = -1;
                 entity = entity * michal;
                 return entity;
             };
-            status = update.bind(ctrled)(verify, backup);
-            _closure2_slot5 = status;
-            verify = sierra[source];
+            sierra = update.bind(record)(verify, output);
+            _closure2_slot5 = sierra;
+            verify = limora[source];
             update = target.bind(tangon)(verify);
-            backup = update.useDerivedValue;
+            output = update.useDerivedValue;
             verify = function() { // Original name: j
                 michal = _closure2_slot4;
                 entity = michal.get;
@@ -190,23 +190,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal <= entity;
                 return entity;
             };
-            ctrled = {};
-            ctrled['scrollPosition'] = variable37;
-            verify['__closure'] = ctrled;
-            ctrled = 588222792165.0;
-            verify['__workletHash'] = ctrled;
-            ctrled = _closure1_slot29;
-            verify['__initData'] = ctrled;
-            papara = backup.bind(update)(verify);
+            record = {};
+            record['scrollPosition'] = option;
+            verify['__closure'] = record;
+            record = 588222792165.0;
+            verify['__workletHash'] = record;
+            record = _closure1_slot29;
+            verify['__initData'] = record;
+            papara = output.bind(update)(verify);
             _closure2_slot6 = papara;
-            ctrled = 28;
-            verify = sierra[ctrled];
-            whisks = target.bind(tangon)(verify);
-            record = whisks.useStateFromStores;
+            status = 28;
+            verify = limora[status];
+            quebec = target.bind(tangon)(verify);
+            record = quebec.useStateFromStores;
             verify = _closure1_slot6;
             update = new Array(1);
             update[0] = verify;
-            backup = function() {
+            output = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     entity = _closure1_slot6;
@@ -220,11 +220,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             verify = new Array(0);
-            whisks = record.bind(whisks)(update, backup, verify);
-            _closure2_slot7 = whisks;
-            verify = sierra[source];
+            quebec = record.bind(quebec)(update, output, verify);
+            _closure2_slot7 = quebec;
+            verify = limora[source];
             update = target.bind(tangon)(verify);
-            backup = update.useAnimatedStyle;
+            output = update.useAnimatedStyle;
             verify = function() { // Original name: J
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -287,14 +287,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             record = {};
-            quebec = sierra[source];
-            quebec = target.bind(tangon)(quebec);
-            quebec = quebec.interpolate;
-            record['interpolate'] = quebec;
-            record['scrollPosition'] = variable37;
-            record['minScrollPosition'] = status;
-            status = _closure1_slot12;
-            record['SCALE_FACTOR'] = status;
+            variable37 = limora[source];
+            variable37 = target.bind(tangon)(variable37);
+            variable37 = variable37.interpolate;
+            record['interpolate'] = variable37;
+            record['scrollPosition'] = option;
+            record['minScrollPosition'] = sierra;
+            sierra = _closure1_slot12;
+            record['SCALE_FACTOR'] = sierra;
             record['translateOnScale'] = cntext;
             record['isNegativeScrollPosition'] = papara;
             verify['__closure'] = record;
@@ -302,10 +302,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['__workletHash'] = record;
             record = _closure1_slot30;
             verify['__initData'] = record;
-            variable43 = backup.bind(update)(verify);
-            verify = sierra[source];
+            variable43 = output.bind(update)(verify);
+            verify = limora[source];
             update = target.bind(tangon)(verify);
-            backup = update.useAnimatedStyle;
+            output = update.useAnimatedStyle;
             verify = function() { // Original name: X
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -333,16 +333,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             record = {};
             record['isNegativeScrollPosition'] = papara;
-            record['scrollPosition'] = variable37;
+            record['scrollPosition'] = option;
             verify['__closure'] = record;
             record = 17425045144242.0;
             verify['__workletHash'] = record;
             record = _closure1_slot31;
             verify['__initData'] = record;
-            record = backup.bind(update)(verify);
-            verify = sierra[source];
+            record = output.bind(update)(verify);
+            verify = limora[source];
             update = target.bind(tangon)(verify);
-            backup = update.useAnimatedStyle;
+            output = update.useAnimatedStyle;
             verify = function() { // Original name: K
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -374,24 +374,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             cntext = {};
             cntext['isNegativeScrollPosition'] = papara;
-            cntext['scrollPosition'] = variable37;
-            cntext['coefficient'] = whisks;
+            cntext['scrollPosition'] = option;
+            cntext['coefficient'] = quebec;
             verify['__closure'] = cntext;
             cntext = 9336428823274.0;
             verify['__workletHash'] = cntext;
             cntext = _closure1_slot32;
             verify['__initData'] = cntext;
-            verify = backup.bind(update)(verify);
+            verify = output.bind(update)(verify);
             update = _closure1_slot1;
-            backup = 29;
-            backup = sierra[backup];
-            backup = update.bind(tangon)(backup);
-            update = backup.bind(tangon)();
-            backup = update.width;
-            _closure2_slot8 = backup;
-            quebec = update.height;
-            _closure2_slot9 = quebec;
-            update = sierra[source];
+            output = 29;
+            output = limora[output];
+            output = update.bind(tangon)(output);
+            update = output.bind(tangon)();
+            output = update.width;
+            _closure2_slot8 = output;
+            variable37 = update.height;
+            _closure2_slot9 = variable37;
+            update = limora[source];
             papara = target.bind(tangon)(update);
             cntext = papara.useAnimatedProps;
             update = function() { // Original name: W
@@ -423,40 +423,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['blurAmount'] = michal;
                 return entity;
             };
-            status = {};
-            variable38 = sierra[source];
+            sierra = {};
+            variable38 = limora[source];
             variable38 = target.bind(tangon)(variable38);
             variable38 = variable38.clamp;
-            status['clamp'] = variable38;
-            variable38 = sierra[source];
+            sierra['clamp'] = variable38;
+            variable38 = limora[source];
             variable38 = target.bind(tangon)(variable38);
             variable38 = variable38.interpolate;
-            status['interpolate'] = variable38;
-            status['scrollPosition'] = variable37;
-            status['windowHeight'] = quebec;
-            status['coefficient'] = whisks;
-            update['__closure'] = status;
-            status = 2402745247838.0;
-            update['__workletHash'] = status;
-            status = _closure1_slot33;
-            update['__initData'] = status;
+            sierra['interpolate'] = variable38;
+            sierra['scrollPosition'] = option;
+            sierra['windowHeight'] = variable37;
+            sierra['coefficient'] = quebec;
+            update['__closure'] = sierra;
+            sierra = 2402745247838.0;
+            update['__workletHash'] = sierra;
+            sierra = _closure1_slot33;
+            update['__initData'] = sierra;
             variable44 = cntext.bind(papara)(update);
             papara = _closure1_slot4;
             cntext = papara.useState;
-            update = variable37.get;
-            update = update.bind(variable37)();
-            update = update < output;
+            update = option.get;
+            update = update.bind(option)();
+            update = update < ctrled;
             cntext = cntext.bind(papara)(update);
             update = _closure1_slot3;
-            status = 2;
-            update = update.bind(tangon)(cntext, status);
-            variable41 = update[output];
+            sierra = 2;
+            update = update.bind(tangon)(cntext, sierra);
+            variable41 = update[ctrled];
             papara = 1;
-            variable38 = update[papara];
-            _closure2_slot10 = variable38;
-            update = sierra[source];
-            quebec = target.bind(tangon)(update);
-            whisks = quebec.useAnimatedReaction;
+            variable39 = update[papara];
+            _closure2_slot10 = variable39;
+            update = limora[source];
+            variable37 = target.bind(tangon)(update);
+            quebec = variable37.useAnimatedReaction;
             cntext = function() { // Original name: Q
                 michal = _closure2_slot4;
                 entity = michal.get;
@@ -466,7 +466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             update = {};
-            update['scrollPosition'] = variable37;
+            update['scrollPosition'] = option;
             cntext['__closure'] = update;
             update = 1515709080541.0;
             cntext['__workletHash'] = update;
@@ -494,30 +494,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable37 = {};
-            variable39 = sierra[source];
-            variable39 = target.bind(tangon)(variable39);
-            variable39 = variable39.runOnJS;
-            variable37['runOnJS'] = variable39;
-            variable37['setShowBlur'] = variable38;
-            update['__closure'] = variable37;
-            variable37 = 11057160578223.0;
-            update['__workletHash'] = variable37;
-            variable37 = _closure1_slot35;
-            update['__initData'] = variable37;
-            update = whisks.bind(quebec)(cntext, update);
-            whisks = _closure1_slot4;
-            cntext = whisks.useState;
+            variable38 = {};
+            variable42 = limora[source];
+            variable42 = target.bind(tangon)(variable42);
+            variable42 = variable42.runOnJS;
+            variable38['runOnJS'] = variable42;
+            variable38['setShowBlur'] = variable39;
+            update['__closure'] = variable38;
+            variable38 = 11057160578223.0;
+            update['__workletHash'] = variable38;
+            variable38 = _closure1_slot35;
+            update['__initData'] = variable38;
+            update = quebec.bind(variable37)(cntext, update);
+            quebec = _closure1_slot4;
+            cntext = quebec.useState;
             update = false;
-            cntext = cntext.bind(whisks)(update);
+            cntext = cntext.bind(quebec)(update);
             update = _closure1_slot3;
-            cntext = update.bind(tangon)(cntext, status);
-            update = cntext[output];
+            cntext = update.bind(tangon)(cntext, sierra);
+            update = cntext[ctrled];
             _closure2_slot11 = update;
             cntext = cntext[papara];
             _closure2_slot12 = cntext;
             cntext = 30;
-            cntext = sierra[cntext];
+            cntext = limora[cntext];
             cntext = target.bind(tangon)(cntext);
             target = cntext.GifAutoPlay;
             cntext = target.getSetting;
@@ -527,16 +527,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable47 = update;
  1479:
             update = variable40 == romeon;
-            whisks = undefined;
+            quebec = undefined;
             if(update) { _fun00002_ip = 1510; continue _fun00001 }
  1488:
             cntext = romeon.getBannerURL;
             update = {};
             update['canAnimate'] = variable47;
-            update['size'] = backup;
-            whisks = cntext.bind(romeon)(update);
+            update['size'] = output;
+            quebec = cntext.bind(romeon)(update);
  1510:
-            update = variable40 != whisks;
+            update = variable40 != quebec;
             variable50 = null;
             if(!update) { _fun00002_ip = 1550; continue _fun00001 }
  1519:
@@ -546,28 +546,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = target[update];
             cntext = cntext.bind(tangon)(update);
             update = cntext.makeSource;
-            variable50 = update.bind(cntext)(whisks);
+            variable50 = update.bind(cntext)(quebec);
  1550:
             cntext = _closure1_slot0;
             target = _closure1_slot2;
             update = 31;
             update = target[update];
-            sierra = cntext.bind(tangon)(update);
-            update = sierra.isAnimatedImageURL;
-            variable39 = update.bind(sierra)(whisks);
+            limora = cntext.bind(tangon)(update);
+            update = limora.isAnimatedImageURL;
+            variable39 = update.bind(limora)(quebec);
             variable55 = 32;
             update = target[variable55];
             update = cntext.bind(tangon)(update);
-            quebec = update.intl;
-            whisks = quebec.formatToPlainString;
+            variable37 = update.intl;
+            quebec = variable37.formatToPlainString;
             update = target[variable55];
             update = cntext.bind(tangon)(update);
             update = update.t;
-            sierra = update.gVn4uL;
+            limora = update.gVn4uL;
             update = {};
-            variable37 = oscard.username;
-            update['username'] = variable37;
-            variable51 = whisks.bind(quebec)(sierra, update);
+            variable38 = oscard.username;
+            update['username'] = variable38;
+            variable51 = quebec.bind(variable37)(limora, update);
             update = 33;
             update = target[update];
             target = cntext.bind(tangon)(update);
@@ -588,12 +588,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = target[update];
             update = cntext.bind(tangon)(update);
             cntext = update.bind(tangon)();
-            sierra = _closure1_slot4;
-            target = sierra.useMemo;
+            limora = _closure1_slot4;
+            target = limora.useMemo;
             update = new Array(2);
-            update[0] = limora;
-            update[1] = backup;
-            backup = function() {
+            update[0] = whisks;
+            update[1] = output;
+            output = function() {
                 entity = {};
                 zuuluu = _closure2_slot8;
                 entity['width'] = zuuluu;
@@ -601,30 +601,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['height'] = michal;
                 return entity;
             };
-            variable53 = target.bind(sierra)(backup, update);
+            variable53 = target.bind(limora)(output, update);
             if(cntext) { _fun00002_ip = 1760; continue _fun00001 }
  1753:
-            target = foxtra.top;
+            target = backup.top;
             _fun00002_ip = 1764; continue _fun00001;
  1760:
             target = _closure1_slot14;
  1764:
-            foxtra = variable40 == romeon;
+            backup = variable40 == romeon;
             variable37 = undefined;
-            if(foxtra) { _fun00002_ip = 1779; continue _fun00001 }
+            if(backup) { _fun00002_ip = 1779; continue _fun00001 }
  1773:
             variable37 = romeon.profileEffectId;
  1779:
             update = variable40 != variable37;
-            backup = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            foxtra = foxtra[ctrled];
-            sierra = backup.bind(tangon)(foxtra);
-            ctrled = sierra.useStateFromStores;
-            foxtra = _closure1_slot7;
-            backup = new Array(1);
-            backup[0] = foxtra;
-            foxtra = function() {
+            output = _closure1_slot0;
+            backup = _closure1_slot2;
+            backup = backup[status];
+            limora = output.bind(tangon)(backup);
+            status = limora.useStateFromStores;
+            backup = _closure1_slot7;
+            output = new Array(1);
+            output[0] = backup;
+            backup = function() {
                 zuuluu = _closure1_slot7;
                 michal = zuuluu.getMarketingBySurface;
                 report = _closure1_slot0;
@@ -638,29 +638,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            variable38 = ctrled.bind(sierra)(backup, foxtra);
-            _closure2_slot13 = variable38;
-            foxtra = variable40 == variable38;
-            backup = undefined;
-            if(foxtra) { _fun00002_ip = 1849; continue _fun00001 }
+            variable42 = status.bind(limora)(output, backup);
+            _closure2_slot13 = variable42;
+            backup = variable40 == variable42;
+            output = undefined;
+            if(backup) { _fun00002_ip = 1849; continue _fun00001 }
  1843:
-            backup = variable38.dismissibleContent;
+            output = variable42.dismissibleContent;
  1849:
-            ctrled = _closure1_slot0;
-            sierra = _closure1_slot2;
-            variable45 = 36;
-            foxtra = sierra[variable45];
-            foxtra = ctrled.bind(tangon)(foxtra);
-            foxtra = foxtra.DismissibleContent;
-            foxtra = foxtra.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-            backup = backup === foxtra;
-            _closure2_slot14 = backup;
-            variable42 = _closure1_slot4;
-            whisks = variable42.useMemo;
-            limora = new Array(2);
-            limora[0] = backup;
-            limora[1] = variable38;
-            foxtra = function() {
+            status = _closure1_slot0;
+            limora = _closure1_slot2;
+            variable48 = 36;
+            backup = limora[variable48];
+            backup = status.bind(tangon)(backup);
+            backup = backup.DismissibleContent;
+            backup = backup.COLLECTIBLES_SHOP_ENTRY_MARKETING;
+            output = output === backup;
+            _closure2_slot14 = output;
+            variable45 = _closure1_slot4;
+            variable38 = variable45.useMemo;
+            whisks = new Array(2);
+            whisks[0] = output;
+            whisks[1] = variable42;
+            backup = function() {
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     zuuluu = _closure2_slot13;
@@ -681,12 +681,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable42 = whisks.bind(variable42)(foxtra, limora);
-            variable48 = _closure1_slot4;
-            whisks = variable48.useMemo;
-            limora = new Array(1);
-            limora[0] = variable38;
-            foxtra = function() {
+            variable45 = variable38.bind(variable45)(backup, whisks);
+            variable52 = _closure1_slot4;
+            variable38 = variable52.useMemo;
+            whisks = new Array(1);
+            whisks[0] = variable42;
+            backup = function() {
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     entity = _closure2_slot13;
@@ -737,79 +737,79 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable57 = whisks.bind(variable48)(foxtra, limora);
+            variable57 = variable38.bind(variable52)(backup, whisks);
             _closure2_slot15 = variable57;
-            foxtra = 38;
-            limora = sierra[foxtra];
-            whisks = ctrled.bind(tangon)(limora);
-            limora = whisks.useSelectedDismissibleContent;
-            whisks = limora.bind(whisks)(variable42);
-            limora = _closure1_slot3;
-            whisks = limora.bind(tangon)(whisks, status);
-            limora = whisks[output];
-            _closure2_slot16 = limora;
-            variable59 = whisks[papara];
-            foxtra = sierra[foxtra];
-            whisks = ctrled.bind(tangon)(foxtra);
-            sierra = whisks.useSelectedVersionedDismissibleContent;
-            ctrled = null;
-            if(!backup) { _fun00002_ip = 2103; continue _fun00001 }
+            backup = 38;
+            whisks = limora[backup];
+            variable38 = status.bind(tangon)(whisks);
+            whisks = variable38.useSelectedDismissibleContent;
+            variable38 = whisks.bind(variable38)(variable45);
+            whisks = _closure1_slot3;
+            variable38 = whisks.bind(tangon)(variable38, sierra);
+            whisks = variable38[ctrled];
+            _closure2_slot16 = whisks;
+            variable59 = variable38[papara];
+            backup = limora[backup];
+            variable38 = status.bind(tangon)(backup);
+            limora = variable38.useSelectedVersionedDismissibleContent;
+            status = null;
+            if(!output) { _fun00002_ip = 2103; continue _fun00001 }
  2022:
-            foxtra = variable40 == variable38;
-            variable42 = undefined;
-            if(foxtra) { _fun00002_ip = 2036; continue _fun00001 }
+            backup = variable40 == variable42;
+            variable45 = undefined;
+            if(backup) { _fun00002_ip = 2036; continue _fun00001 }
  2031:
-            variable42 = variable38.type;
+            variable45 = variable42.type;
  2036:
-            variable48 = _closure1_slot0;
-            variable52 = _closure1_slot2;
-            foxtra = 37;
-            foxtra = variable52[foxtra];
-            foxtra = variable48.bind(tangon)(foxtra);
-            foxtra = foxtra.CollectiblesMarketingType;
-            foxtra = foxtra.COACHTIP;
-            ctrled = null;
-            if(!(variable42 === foxtra)) { _fun00002_ip = 2103; continue _fun00001 }
+            variable52 = _closure1_slot0;
+            variable54 = _closure1_slot2;
+            backup = 37;
+            backup = variable54[backup];
+            backup = variable52.bind(tangon)(backup);
+            backup = backup.CollectiblesMarketingType;
+            backup = backup.COACHTIP;
+            status = null;
+            if(!(variable45 === backup)) { _fun00002_ip = 2103; continue _fun00001 }
  2074:
-            variable42 = _closure1_slot0;
-            foxtra = _closure1_slot2;
-            foxtra = foxtra[variable45];
-            foxtra = variable42.bind(tangon)(foxtra);
-            foxtra = foxtra.DismissibleContent;
-            ctrled = foxtra.COLLECTIBLES_SHOP_ENTRY_MARKETING;
+            variable45 = _closure1_slot0;
+            backup = _closure1_slot2;
+            backup = backup[variable48];
+            backup = variable45.bind(tangon)(backup);
+            backup = backup.DismissibleContent;
+            status = backup.COLLECTIBLES_SHOP_ENTRY_MARKETING;
  2103:
-            foxtra = variable40 == variable38;
-            variable42 = undefined;
-            if(foxtra) { _fun00002_ip = 2118; continue _fun00001 }
+            backup = variable40 == variable42;
+            variable45 = undefined;
+            if(backup) { _fun00002_ip = 2118; continue _fun00001 }
  2112:
-            variable42 = variable38.version;
+            variable45 = variable42.version;
  2118:
-            variable45 = variable40 != variable42;
-            foxtra = 0;
-            if(!variable45) { _fun00002_ip = 2130; continue _fun00001 }
+            variable48 = variable40 != variable45;
+            backup = 0;
+            if(!variable48) { _fun00002_ip = 2130; continue _fun00001 }
  2127:
-            foxtra = variable42;
+            backup = variable45;
  2130:
-            ctrled = sierra.bind(whisks)(ctrled, foxtra);
-            foxtra = _closure1_slot3;
-            foxtra = foxtra.bind(tangon)(ctrled, status);
-            output = foxtra[output];
-            _closure2_slot17 = output;
-            foxtra = foxtra[papara];
-            sierra = _closure1_slot4;
-            status = sierra.useMemo;
-            ctrled = new Array(4);
-            ctrled[0] = variable57;
-            variable42 = variable40 == variable38;
-            whisks = undefined;
-            if(variable42) { _fun00002_ip = 2189; continue _fun00001 }
+            status = limora.bind(variable38)(status, backup);
+            backup = _closure1_slot3;
+            backup = backup.bind(tangon)(status, sierra);
+            ctrled = backup[ctrled];
+            _closure2_slot17 = ctrled;
+            backup = backup[papara];
+            limora = _closure1_slot4;
+            sierra = limora.useMemo;
+            status = new Array(4);
+            status[0] = variable57;
+            variable45 = variable40 == variable42;
+            variable38 = undefined;
+            if(variable45) { _fun00002_ip = 2189; continue _fun00001 }
  2184:
-            whisks = variable38.type;
+            variable38 = variable42.type;
  2189:
-            ctrled[1] = whisks;
-            ctrled[2] = limora;
-            ctrled[3] = output;
-            output = function() {
+            status[1] = variable38;
+            status[2] = whisks;
+            status[3] = ctrled;
+            ctrled = function() {
                 _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     entity = _closure2_slot16;
@@ -849,24 +849,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            variable58 = status.bind(sierra)(output, ctrled);
-            ctrled = _closure1_slot4;
-            output = ctrled.useRef;
-            sierra = output.bind(ctrled)(variable40);
-            ctrled = _closure1_slot4;
-            output = ctrled.useRef;
-            status = output.bind(ctrled)(variable40);
-            if(!backup) { _fun00002_ip = 2248; continue _fun00001 }
+            variable58 = sierra.bind(limora)(ctrled, status);
+            status = _closure1_slot4;
+            ctrled = status.useRef;
+            sierra = ctrled.bind(status)(variable40);
+            status = _closure1_slot4;
+            ctrled = status.useRef;
+            status = ctrled.bind(status)(variable40);
+            if(!output) { _fun00002_ip = 2248; continue _fun00001 }
  2245:
-            variable59 = foxtra;
+            variable59 = backup;
  2248:
             _closure2_slot18 = variable59;
-            ctrled = _closure1_slot4;
-            output = ctrled.useCallback;
-            backup = new Array(2);
-            backup[0] = variable59;
-            backup[1] = michal;
-            foxtra = function() {
+            limora = _closure1_slot4;
+            ctrled = limora.useCallback;
+            output = new Array(2);
+            output[0] = variable59;
+            output[1] = michal;
+            backup = function() {
                 zuuluu = _closure2_slot1;
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)();
@@ -876,11 +876,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            limora = output.bind(ctrled)(foxtra, backup);
+            limora = ctrled.bind(limora)(backup, output);
             ctrled = {};
             ctrled['user'] = oscard;
-            ctrled['userTheme'] = option;
+            ctrled['userTheme'] = foxtra;
             ctrled['scrollViewRef'] = vacuum;
+            ctrled['scrollPosition'] = option;
             foxtra = config.content;
             option = new Array(2);
             option[0] = foxtra;
@@ -968,24 +969,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['openedAt'] = yankee;
             foxtra = variable40 == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 2586; continue _fun00001 }
- 2580:
+            if(foxtra) { _fun00002_ip = 2591; continue _fun00001 }
+ 2585:
             yankee = romeon.fetchStartedAt;
- 2586:
+ 2591:
             option['fetchStartedAt'] = yankee;
             foxtra = variable40 == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 2606; continue _fun00001 }
- 2600:
+            if(foxtra) { _fun00002_ip = 2611; continue _fun00001 }
+ 2605:
             yankee = romeon.fetchEndedAt;
- 2606:
+ 2611:
             option['fetchEndedAt'] = yankee;
             foxtra = variable40 == romeon;
             yankee = undefined;
-            if(foxtra) { _fun00002_ip = 2626; continue _fun00001 }
- 2620:
+            if(foxtra) { _fun00002_ip = 2631; continue _fun00001 }
+ 2625:
             yankee = romeon.isLoaded;
- 2626:
+ 2631:
             option['isLoaded'] = yankee;
             foxtra = _closure1_slot24;
             romeon = _closure1_slot1;
@@ -999,12 +1000,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot19;
             yankee['nativeID'] = backup;
             kiloes = variable42;
-            if(variable42) { _fun00002_ip = 2684; continue _fun00001 }
- 2681:
+            if(variable42) { _fun00002_ip = 2689; continue _fun00001 }
+ 2686:
             kiloes = variable38;
- 2684:
-            if(!kiloes) { _fun00002_ip = 2890; continue _fun00001 }
- 2690:
+ 2689:
+            if(!kiloes) { _fun00002_ip = 2895; continue _fun00001 }
+ 2695:
             output = _closure1_slot24;
             sizing = _closure1_slot0;
             backup = _closure1_slot2;
@@ -1013,8 +1014,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = backup.LayerScope;
             backup = {};
             backup['zIndex'] = papara;
-            if(!variable42) { _fun00002_ip = 2819; continue _fun00001 }
- 2727:
+            if(!variable42) { _fun00002_ip = 2824; continue _fun00001 }
+ 2732:
             variable48 = _closure1_slot23;
             variable45 = _closure1_slot1;
             variable60 = _closure1_slot2;
@@ -1035,11 +1036,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara['decorationAsset'] = variable57;
             papara['navigateToShop'] = limora;
             variable42 = variable48.bind(tangon)(variable45, papara);
- 2819:
+ 2824:
             papara = new Array(2);
             papara[0] = variable42;
-            if(!variable38) { _fun00002_ip = 2876; continue _fun00001 }
- 2830:
+            if(!variable38) { _fun00002_ip = 2881; continue _fun00001 }
+ 2835:
             variable48 = _closure1_slot23;
             variable45 = _closure1_slot1;
             variable42 = _closure1_slot2;
@@ -1051,11 +1052,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable63 = variable42;
             variable52 = copyDataProperties(variable63, variable62);
             variable38 = variable48.bind(tangon)(variable45, variable42);
- 2876:
+ 2881:
             papara[1] = variable38;
             backup['children'] = papara;
             kiloes = output.bind(tangon)(sizing, backup);
- 2890:
+ 2895:
             backup = new Array(2);
             backup[0] = kiloes;
             output = _closure1_slot24;
@@ -1086,8 +1087,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara[1] = record;
             result['style'] = papara;
             papara = cntext;
-            if(!papara) { _fun00002_ip = 3203; continue _fun00001 }
- 3017:
+            if(!papara) { _fun00002_ip = 3208; continue _fun00001 }
+ 3022:
             variable38 = _closure1_slot23;
             variable45 = _closure1_slot0;
             variable52 = _closure1_slot2;
@@ -1149,12 +1150,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42 = variable48.bind(tangon)(variable45, variable42);
             cntext['children'] = variable42;
             papara = variable38.bind(tangon)(variable36, cntext);
- 3203:
+ 3208:
             cntext = new Array(3);
             cntext[0] = papara;
             papara = !update;
-            if(update) { _fun00002_ip = 3284; continue _fun00001 }
- 3217:
+            if(update) { _fun00002_ip = 3289; continue _fun00001 }
+ 3222:
             variable42 = _closure1_slot23;
             variable38 = _closure1_slot1;
             variable45 = _closure1_slot2;
@@ -1170,7 +1171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36['settingsButtonRef'] = status;
             variable36['paddingTop'] = target;
             papara = variable42.bind(tangon)(variable38, variable36);
- 3284:
+ 3289:
             cntext[1] = papara;
             variable38 = _closure1_slot24;
             variable36 = _closure1_slot1;
@@ -1193,10 +1194,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42[2] = variable43;
             papara['style'] = variable42;
             variable40 = variable40 != variable50;
-            if(!variable40) { _fun00002_ip = 3741; continue _fun00001 }
- 3379:
-            if(variable39) { _fun00002_ip = 3439; continue _fun00001 }
- 3382:
+            if(!variable40) { _fun00002_ip = 3746; continue _fun00001 }
+ 3384:
+            if(variable39) { _fun00002_ip = 3444; continue _fun00001 }
+ 3387:
             variable43 = _closure1_slot23;
             variable42 = _closure1_slot1;
             variable45 = _closure1_slot2;
@@ -1210,8 +1211,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable39['accessibilityLabel'] = variable51;
             variable39['source'] = variable50;
             variable39 = variable43.bind(tangon)(variable42, variable39);
-            _fun00002_ip = 3738; continue _fun00001;
- 3439:
+            _fun00002_ip = 3743; continue _fun00001;
+ 3444:
             variable45 = _closure1_slot24;
             variable56 = _closure1_slot0;
             variable54 = _closure1_slot2;
@@ -1255,8 +1256,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable46 = new Array(2);
             variable46[0] = variable48;
             variable47 = !variable47;
-            if(!variable47) { _fun00002_ip = 3724; continue _fun00001 }
- 3599:
+            if(!variable47) { _fun00002_ip = 3729; continue _fun00001 }
+ 3604:
             variable50 = _closure1_slot23;
             variable54 = _closure1_slot0;
             variable51 = _closure1_slot2;
@@ -1285,13 +1286,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable51 = config.gifTagText;
             variable48['textStyle'] = variable51;
             variable47 = variable50.bind(tangon)(variable49, variable48);
- 3724:
+ 3729:
             variable46[1] = variable47;
             variable42['children'] = variable46;
             variable39 = variable45.bind(tangon)(variable43, variable42);
- 3738:
+ 3743:
             variable40 = variable39;
- 3741:
+ 3746:
             variable39 = new Array(2);
             variable39[0] = variable40;
             variable42 = _closure1_slot0;
@@ -1301,12 +1302,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42 = variable42.bind(tangon)(variable40);
             variable40 = variable42.isIOS;
             variable40 = variable40.bind(variable42)();
-            if(!variable40) { _fun00002_ip = 3785; continue _fun00001 }
- 3782:
+            if(!variable40) { _fun00002_ip = 3790; continue _fun00001 }
+ 3787:
             variable40 = variable41;
- 3785:
-            if(!variable40) { _fun00002_ip = 3823; continue _fun00001 }
- 3788:
+ 3790:
+            if(!variable40) { _fun00002_ip = 3828; continue _fun00001 }
+ 3793:
             variable43 = _closure1_slot23;
             variable42 = _closure1_slot25;
             variable41 = {};
@@ -1315,7 +1316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = variable44.absoluteFillObject;
             variable41['style'] = variable44;
             variable40 = variable43.bind(tangon)(variable42, variable41);
- 3823:
+ 3828:
             variable39[1] = variable40;
             papara['children'] = variable39;
             papara = variable38.bind(tangon)(variable36, papara);
@@ -1324,8 +1325,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum, result);
             result = new Array(3);
             result[0] = vacuum;
-            if(!update) { _fun00002_ip = 4038; continue _fun00001 }
- 3865:
+            if(!update) { _fun00002_ip = 4043; continue _fun00001 }
+ 3870:
             sequen = _closure1_slot24;
             cntext = _closure1_slot1;
             variable36 = _closure1_slot2;
@@ -1363,7 +1364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[1] = record;
             source['children'] = config;
             update = sequen.bind(tangon)(vacuum, source);
- 4038:
+ 4043:
             result[1] = update;
             source = _closure1_slot23;
             update = _closure1_slot1;

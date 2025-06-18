@@ -498,7 +498,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['trackSearchInputCleared'] = tangon;
-    michal = function(argFoo) { // Original name: trackSearchStarted
+    tangon = function(argFoo) { // Original name: trackSearchStarted
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
@@ -735,6 +735,120 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['trackSearchStarted'] = michal;
+    zuuluu['trackSearchStarted'] = tangon;
+    tangon = function(argFoo) { // Original name: trackSearchResultsFeedbackModalViewed
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+            entity = argFoo;
+            verify = entity.rating;
+            golfie = entity.searchId;
+            option = entity.searchType;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 5;
+            michal = michal[entity];
+            entity = undefined;
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.trackWithMetadata;
+            michal = _closure1_slot5;
+            zuuluu = michal.SEARCH_RESULTS_FEEDBACK_MODAL_VIEWED;
+            michal = {};
+            michal['rating'] = verify;
+            verify = null;
+            offset = verify != golfie;
+            if(!offset) { _fun00020_ip = 93; continue _fun00019 }
+ 78:
+            yankee = _closure1_slot3;
+            offset = yankee.getAnalyticsId;
+            verify = offset.bind(yankee)(golfie);
+ 93:
+            michal['search_id'] = verify;
+            michal['search_type'] = option;
+            oscard = _closure1_slot10;
+            oscard = oscard.bind(entity)(golfie);
+            michal['search_session_id'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return entity;
+        }
+    };
+    zuuluu['trackSearchResultsFeedbackModalViewed'] = tangon;
+    tangon = function(argFoo) { // Original name: trackSearchResultsFeedbackEntrypointViewed
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+            entity = argFoo;
+            golfie = entity.searchId;
+            option = entity.searchType;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 5;
+            michal = michal[entity];
+            entity = undefined;
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.trackWithMetadata;
+            michal = _closure1_slot5;
+            zuuluu = michal.SEARCH_RESULTS_FEEDBACK_ENTRYPOINT_VIEWED;
+            michal = {};
+            verify = null;
+            offset = verify != golfie;
+            if(!offset) { _fun00022_ip = 82; continue _fun00021 }
+ 67:
+            yankee = _closure1_slot3;
+            offset = yankee.getAnalyticsId;
+            verify = offset.bind(yankee)(golfie);
+ 82:
+            michal['search_id'] = verify;
+            michal['search_type'] = option;
+            oscard = _closure1_slot10;
+            oscard = oscard.bind(entity)(golfie);
+            michal['search_session_id'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return entity;
+        }
+    };
+    zuuluu['trackSearchResultsFeedbackEntrypointViewed'] = tangon;
+    michal = function(argFoo) { // Original name: trackSearchResultsFeedbackSubmitted
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+            entity = argFoo;
+            offset = entity.rating;
+            romeon = entity.searchId;
+            foxtra = entity.searchType;
+            verify = entity.unsatisfiedQuestionOption;
+            option = entity.unsatisfiedQuestionText;
+            golfie = entity.describeSearchQuestionOption;
+            oscard = entity.describeSearchQuestionText;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
+            entity = 5;
+            michal = michal[entity];
+            entity = undefined;
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.trackWithMetadata;
+            michal = _closure1_slot5;
+            zuuluu = michal.SEARCH_RESULTS_FEEDBACK_SUBMITTED;
+            michal = {};
+            backup = null;
+            kiloes = backup != romeon;
+            if(!kiloes) { _fun00024_ip = 120; continue _fun00023 }
+ 105:
+            sizing = _closure1_slot3;
+            kiloes = sizing.getAnalyticsId;
+            backup = kiloes.bind(sizing)(romeon);
+ 120:
+            michal['search_id'] = backup;
+            michal['search_type'] = foxtra;
+            yankee = _closure1_slot10;
+            yankee = yankee.bind(entity)(romeon);
+            michal['search_session_id'] = yankee;
+            michal['rating'] = offset;
+            michal['unsatisfied_question_option'] = verify;
+            michal['unsatisfied_question_text'] = option;
+            michal['describe_search_question_option'] = golfie;
+            michal['describe_search_question_text'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return entity;
+        }
+    };
+    zuuluu['trackSearchResultsFeedbackSubmitted'] = michal;
     return entity;
 })();

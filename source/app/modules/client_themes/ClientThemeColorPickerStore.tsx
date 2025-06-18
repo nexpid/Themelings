@@ -142,6 +142,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/client_themes/ClientThemeColorPickerStore.tsx';
     tangon = report.bind(oscard)(tangon);
+    tangon = '#4394D4';
+    zuuluu['DEFAULT_COLOR'] = tangon;
     tangon = 20;
     zuuluu['DEFAULT_COLOR_INTENSITY'] = tangon;
     zuuluu['useClientThemeColorPickerStore'] = michal;

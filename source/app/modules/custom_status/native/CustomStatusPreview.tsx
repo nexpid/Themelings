@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  30:
             oscard = 16;
  33:
-            tangon = 277;
+            tangon = 301;
             tangon = tangon + oscard;
             michal['maxHeight'] = tangon;
             tangon = zuuluu;

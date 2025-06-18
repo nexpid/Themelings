@@ -44,6 +44,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon['VIEW'] = oscard;
     oscard = 'play';
     tangon['PLAY'] = oscard;
+    oscard = 'cloud_play';
+    tangon['CLOUD_PLAY'] = oscard;
+    oscard = 'join';
+    tangon['JOIN'] = oscard;
     oscard = 'add_app';
     tangon['ADD_APP'] = oscard;
     oscard = 'join_server';

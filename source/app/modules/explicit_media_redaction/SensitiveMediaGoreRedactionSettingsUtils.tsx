@@ -303,10 +303,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {'setting': null, 'isDm': true, 'isFriend': true};
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00010_ip = 165; continue _fun00009 }
- 159:
+            if(golfie) { _fun00010_ip = 169; continue _fun00009 }
+ 163:
             report = oscard.goreContentFriendDm;
- 165:
+ 169:
             michal['setting'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity['goreContentFriendDm'] = michal;
@@ -314,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     var _closure1_slot9 = tangon;
-    oscard = 7;
+    oscard = 6;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -344,47 +344,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['updateGoreContentSetting'] = tangon;
     michal = function() {
-        golfie = _closure1_slot0;
-        option = _closure1_slot1;
-        zuuluu = 6;
-        zuuluu = option[zuuluu];
-        tangon = undefined;
-        oscard = golfie.bind(tangon)(zuuluu);
-        zuuluu = oscard.useIsEligibleForSensitiveContentGoreExperiment;
-        report = 'SensitiveContentFilterSetting';
-        oscard = zuuluu.bind(oscard)(report);
-        var _closure2_slot0 = oscard;
-        zuuluu = 4;
-        zuuluu = option[zuuluu];
-        tangon = golfie.bind(tangon)(zuuluu);
-        zuuluu = tangon.useIsEligibleForSensitiveContentDefaults;
-        report = zuuluu.bind(tangon)(report);
-        var _closure2_slot1 = report;
         tangon = _closure1_slot2;
         zuuluu = tangon.useMemo;
-        michal = new Array(2);
-        michal[0] = oscard;
-        michal[1] = report;
-        entity = function() {
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
- 0:
-                michal = _closure2_slot0;
-                if(!michal) { _fun00012_ip = 17; continue _fun00011 }
- 10:
-                entity = _closure2_slot1;
-                if(entity) { _fun00012_ip = 32; continue _fun00011 }
- 17:
-                entity = _closure1_slot4;
-                entity = entity.EXPLICIT_MEDIA_REDACTION;
-                _fun00012_ip = 45; continue _fun00011;
- 32:
-                michal = _closure1_slot4;
-                entity = michal.EXPLICIT_MEDIA_REDACTION_UK_ONLY;
- 45:
-                return entity;
-            }
+        michal = function() {
+            entity = _closure1_slot4;
+            entity = entity.EXPLICIT_MEDIA_REDACTION;
+            return entity;
         };
-        entity = zuuluu.bind(tangon)(entity, michal);
+        entity = new Array(0);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
     zuuluu['useSensitiveContentFilterHelpArticle'] = michal;

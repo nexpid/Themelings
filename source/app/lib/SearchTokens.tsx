@@ -1890,7 +1890,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.trim;
                     oscard = report.bind(oscard)();
                     report = '';
-                    if(!(report === oscard)) { _fun00020_ip = 291; continue _fun00019 }
+                    if(!(report === oscard)) { _fun00020_ip = 292; continue _fun00019 }
  213:
                     oscard = _closure1_slot9;
                     report = oscard.getChannelId;
@@ -1906,7 +1906,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     oscard = oscard.bind(zuuluu)(report);
                     report = null;
-                    if(!(report != oscard)) { _fun00020_ip = 291; continue _fun00019 }
+                    if(!(report != oscard)) { _fun00020_ip = 292; continue _fun00019 }
  255:
                     verify = zuuluu.splice;
                     report = zuuluu.indexOf;
@@ -1915,7 +1915,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = verify.bind(zuuluu)(option, report);
                     report = zuuluu.unshift;
                     report = report.bind(zuuluu)(oscard);
- 291:
+ 292:
                     oscard = _closure1_slot6;
                     report = oscard.getTextChannelNameDisambiguations;
                     report = report.bind(oscard)(golfie);

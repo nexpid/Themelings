@@ -1717,7 +1717,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = _closure2_slot10;
                         option = michal;
                         oscard = tangon;
-                        if(!(golfie != entity)) { _fun00026_ip = 389; continue _fun00025 }
+                        if(!(golfie != entity)) { _fun00026_ip = 390; continue _fun00025 }
  146:
                         entity = global;
                         foxtra = entity.Math;
@@ -1766,26 +1766,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = backup % entity;
                         entity = golfie + entity;
                         entity = entity - foxtra;
-                        if(!(romeon < entity)) { _fun00026_ip = 305; continue _fun00025 }
- 303:
+                        if(!(romeon < entity)) { _fun00026_ip = 306; continue _fun00025 }
+ 304:
                         michal = false;
- 305:
+ 306:
                         entity = yankee.length;
                         entity = entity - romeon;
-                        if(!(entity < golfie)) { _fun00026_ip = 320; continue _fun00025 }
- 318:
+                        if(!(entity < golfie)) { _fun00026_ip = 321; continue _fun00025 }
+ 319:
                         tangon = false;
- 320:
+ 321:
                         option = michal;
                         oscard = tangon;
-                        if(!tangon) { _fun00026_ip = 389; continue _fun00025 }
- 329:
+                        if(!tangon) { _fun00026_ip = 390; continue _fun00025 }
+ 330:
                         golfie = yankee.length;
                         entity = 0;
                         option = michal;
                         oscard = tangon;
-                        if(!(golfie > entity)) { _fun00026_ip = 389; continue _fun00025 }
- 346:
+                        if(!(golfie > entity)) { _fun00026_ip = 390; continue _fun00025 }
+ 347:
                         romeon = _closure1_slot24;
                         golfie = romeon.lastMessageId;
                         zuuluu = _closure2_slot0;
@@ -1794,11 +1794,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = entity.id;
                         option = michal;
                         oscard = tangon;
-                        if(!(entity === zuuluu)) { _fun00026_ip = 389; continue _fun00025 }
- 384:
+                        if(!(entity === zuuluu)) { _fun00026_ip = 390; continue _fun00025 }
+ 385:
                         oscard = false;
                         option = michal;
- 389:
+ 390:
                         zuuluu = _closure1_slot47;
                         michal = zuuluu.log;
                         config = yankee.length;
@@ -1842,14 +1842,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         michal['forICYMI'] = oscard;
                         oscard = _closure2_slot8;
                         oscard = !oscard;
-                        if(oscard) { _fun00026_ip = 607; continue _fun00025 }
- 585:
+                        if(oscard) { _fun00026_ip = 608; continue _fun00025 }
+ 586:
                         option = _closure1_slot7;
                         golfie = option.lastTimeConnectedChanged;
                         option = golfie.bind(option)();
                         golfie = _closure2_slot9;
                         oscard = option >= golfie;
- 607:
+ 608:
                         michal['isStale'] = oscard;
                         oscard = _closure2_slot5;
                         michal['truncate'] = oscard;

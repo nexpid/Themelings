@@ -293,10 +293,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = argFoo;
             michal = null;
             entity = oscard;
-            if(!(michal != entity)) { _fun00006_ip = 78; continue _fun00005 }
+            if(!(michal != entity)) { _fun00006_ip = 79; continue _fun00005 }
  12:
             michal = 'VOICE';
-            if(!(michal !== oscard)) { _fun00006_ip = 75; continue _fun00005 }
+            if(!(michal !== oscard)) { _fun00006_ip = 76; continue _fun00005 }
  20:
             zuuluu = global;
             report = zuuluu.Object;
@@ -309,9 +309,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.indexOf;
             zuuluu = zuuluu.bind(report)(oscard);
             michal = tangon[zuuluu];
- 75:
+ 76:
             entity = michal;
- 78:
+ 79:
             return entity;
         }
     };

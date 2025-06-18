@@ -135,20 +135,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['isEmailReverification'] = golfie;
-    golfie = function(argFoo) { // Original name: getVerificationTypes
+    golfie = function(argFoo) { // Original name: isFullScreenVerification
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            tangon = argFoo;
+            zuuluu = this;
+            entity = _closure1_slot3;
+            entity = entity.REQUIRE_CAPTCHA;
+            entity = tangon === entity;
+            if(entity) { _fun00006_ip = 40; continue _fun00005 }
+ 26:
+            report = _closure1_slot3;
+            report = report.REQUIRE_VERIFIED_EMAIL;
+            entity = tangon === report;
+ 40:
+            if(entity) { _fun00006_ip = 57; continue _fun00005 }
+ 43:
+            report = _closure1_slot3;
+            report = report.REQUIRE_VERIFIED_PHONE;
+            entity = tangon === report;
+ 57:
+            if(entity) { _fun00006_ip = 74; continue _fun00005 }
+ 60:
+            report = _closure1_slot3;
+            report = report.REQUIRE_REVERIFIED_PHONE;
+            entity = tangon === report;
+ 74:
+            if(entity) { _fun00006_ip = 91; continue _fun00005 }
+ 77:
+            report = _closure1_slot3;
+            report = report.REQUIRE_REVERIFIED_EMAIL_OR_REVERIFIED_PHONE;
+            entity = tangon === report;
+ 91:
+            if(entity) { _fun00006_ip = 108; continue _fun00005 }
+ 94:
+            michal = _closure1_slot3;
+            michal = michal.REQUIRE_VERIFIED_EMAIL_OR_REVERIFIED_PHONE;
+            entity = tangon === michal;
+ 108:
+            if(entity) { _fun00006_ip = 122; continue _fun00005 }
+ 111:
+            michal = zuuluu.isEmailReverification;
+            entity = michal.bind(zuuluu)(tangon);
+ 122:
+            return entity;
+        }
+    };
+    michal['isFullScreenVerification'] = golfie;
+    golfie = function(argFoo) { // Original name: getVerificationTypes
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = argFoo;
             entity = null;
-            if(!(entity != michal)) { _fun00006_ip = 33; continue _fun00005 }
+            if(!(entity != michal)) { _fun00008_ip = 33; continue _fun00007 }
  9:
             zuuluu = 'symbol';
             entity = typeof michal;
-            if(!(zuuluu !== entity)) { _fun00006_ip = 33; continue _fun00005 }
+            if(!(zuuluu !== entity)) { _fun00008_ip = 33; continue _fun00007 }
  20:
             entity = _closure1_slot5;
             entity = entity[michal];
-            _fun00006_ip = 37; continue _fun00005;
+            _fun00008_ip = 37; continue _fun00007;
  33:
             entity = new Array(0);
  37:
@@ -157,24 +204,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['getVerificationTypes'] = golfie;
     golfie = function(argFoo) { // Original name: getButtonTitle
-        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zuuluu = argFoo;
             michal = _closure1_slot4;
             michal = michal.EMAIL;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 315; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 315; continue _fun00009 }
  23:
             michal = _closure1_slot4;
             michal = michal.PHONE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 254; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 254; continue _fun00009 }
  40:
             michal = _closure1_slot4;
             michal = michal.REVERIFY_EMAIL;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 193; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 193; continue _fun00009 }
  57:
             michal = _closure1_slot4;
             michal = michal.REVERIFY_PHONE;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 132; continue _fun00007 }
+            if(!(michal !== zuuluu)) { _fun00010_ip = 132; continue _fun00009 }
  71:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;

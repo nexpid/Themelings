@@ -92,10 +92,14 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = tangon.bind(entity)(oscard);
     oscard = oscard.rustMultiply;
     zuuluu['rustMultiply'] = oscard;
+    oscard = report[michal];
+    oscard = tangon.bind(entity)(oscard);
+    oscard = oscard.crash;
+    zuuluu['crash'] = oscard;
     michal = report[michal];
     michal = tangon.bind(entity)(michal);
-    michal = michal.crash;
-    zuuluu['crash'] = michal;
+    michal = michal.generateLaunchSignature;
+    zuuluu['generateLaunchSignature'] = michal;
     michal = 2;
     michal = report[michal];
     michal = tangon.bind(entity)(michal);

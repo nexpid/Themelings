@@ -278,9 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.bind(tangon)(kiloes);
             sizing = kiloes.Text;
             kiloes = {'variant': 'heading-lg/semibold', 'color': 'text-primary'};
-            update = update.defaultReward;
-            update = update.messages;
-            update = update.name;
+            update = update.defaultRewardName;
             kiloes['children'] = update;
             kiloes = zuuluu.bind(tangon)(sizing, kiloes);
             foxtra[1] = kiloes;
@@ -293,8 +291,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[0] = verify;
             verify = null;
             verify = verify != output;
-            if(!verify) { _fun00002_ip = 711; continue _fun00001 }
- 607:
+            if(!verify) { _fun00002_ip = 700; continue _fun00001 }
+ 596:
             romeon = _closure1_slot6;
             yankee = _closure1_slot7;
             offset = {};
@@ -317,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[1] = backup;
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 711:
+ 700:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
