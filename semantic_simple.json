@@ -41,6 +41,12 @@
     "midnight": "#ffffff12",
     "darker": "#ffffff12"
   },
+  "APP_MESSAGE_EMBED_SECONDARY_TEXT": {
+    "dark": "#ffffffb3",
+    "light": "#ffffffb3",
+    "midnight": "#ffffffb3",
+    "darker": "#ffffffb3"
+  },
   "BACKGROUND_ACCENT": {
     "dark": "#41434a",
     "light": "#6d6f78",

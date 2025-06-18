@@ -209,6 +209,36 @@
       }
     ]
   },
+  "APP_MESSAGE_EMBED_SECONDARY_TEXT": {
+    "dark": [
+      "#ffffffb3",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "light": [
+      "#ffffffb3",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "midnight": [
+      "#ffffffb3",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ],
+    "darker": [
+      "#ffffffb3",
+      {
+        "raw": "WHITE",
+        "opacity": 0.7
+      }
+    ]
+  },
   "BACKGROUND_ACCENT": {
     "dark": [
       "#41434a",
