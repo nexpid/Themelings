@@ -1654,6 +1654,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['REFERRAL_PROGRAM_NITRO_TAB_BADGE'] = michal;
     entity = 'REFERRAL_PROGRAM_NITRO_TAB_BADGE';
     tangon[michal] = entity;
+    michal = 558;
+    tangon['ACTIVITIES_VOICE_LAUNCHER_BADGE'] = michal;
+    entity = 'ACTIVITIES_VOICE_LAUNCHER_BADGE';
+    tangon[michal] = entity;
+    michal = 559;
+    tangon['BOGO_2025_NITRO_TAB_BADGE'] = michal;
+    entity = 'BOGO_2025_NITRO_TAB_BADGE';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

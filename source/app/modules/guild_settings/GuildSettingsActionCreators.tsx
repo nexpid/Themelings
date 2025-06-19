@@ -665,80 +665,83 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             verify = argFoo;
-            tangon = argBar;
+            zuuluu = argBar;
             golfie = arguments[2];
             var _closure2_slot0 = verify;
-            record = tangon.name;
-            config = tangon.description;
-            sequen = tangon.icon;
-            vacuum = tangon.splash;
-            ctrled = tangon.banner;
-            source = tangon.homeHeader;
-            result = tangon.afkChannelId;
-            output = tangon.afkTimeout;
-            sizing = tangon.systemChannelId;
-            kiloes = tangon.verificationLevel;
-            backup = tangon.defaultMessageNotifications;
-            foxtra = tangon.explicitContentFilter;
-            update = tangon.features;
-            romeon = tangon.systemChannelFlags;
-            echoed = tangon.preferredLocale;
-            yankee = tangon.rulesChannelId;
-            michal = tangon.safetyAlertsChannelId;
-            oscard = tangon.discoverySplash;
-            zuuluu = tangon.publicUpdatesChannelId;
-            offset = tangon.premiumProgressBarEnabled;
-            option = tangon.profile;
+            cntext = zuuluu.name;
+            record = zuuluu.description;
+            config = zuuluu.icon;
+            sequen = zuuluu.splash;
+            vacuum = zuuluu.banner;
+            ctrled = zuuluu.homeHeader;
+            echoed = zuuluu.afkChannelId;
+            result = zuuluu.afkTimeout;
+            output = zuuluu.systemChannelId;
+            sizing = zuuluu.verificationLevel;
+            kiloes = zuuluu.defaultMessageNotifications;
+            backup = zuuluu.explicitContentFilter;
+            source = zuuluu.features;
+            foxtra = zuuluu.systemChannelFlags;
+            update = zuuluu.preferredLocale;
+            romeon = zuuluu.rulesChannelId;
+            michal = zuuluu.safetyAlertsChannelId;
+            option = zuuluu.discoverySplash;
+            oscard = zuuluu.publicUpdatesChannelId;
+            yankee = zuuluu.premiumProgressBarEnabled;
+            offset = zuuluu.profile;
+            zuuluu = zuuluu.moderatorReportingEnabled;
             tangon = undefined;
-            if(!(golfie === tangon)) { _fun00010_ip = 146; continue _fun00009 }
- 144:
+            if(!(golfie === tangon)) { _fun00010_ip = 152; continue _fun00009 }
+ 150:
             golfie = {};
- 146:
+ 152:
             var _closure2_slot1 = golfie;
             report = {};
-            report['name'] = record;
-            report['description'] = config;
-            report['icon'] = sequen;
-            report['splash'] = vacuum;
-            report['banner'] = ctrled;
-            report['home_header'] = source;
-            report['features'] = update;
-            report['preferred_locale'] = echoed;
-            report['afk_channel_id'] = result;
-            report['afk_timeout'] = output;
-            report['system_channel_id'] = sizing;
-            report['verification_level'] = kiloes;
-            report['default_message_notifications'] = backup;
-            report['explicit_content_filter'] = foxtra;
-            report['system_channel_flags'] = romeon;
-            report['rules_channel_id'] = yankee;
-            report['discovery_splash'] = oscard;
-            report['public_updates_channel_id'] = zuuluu;
+            report['name'] = cntext;
+            report['description'] = record;
+            report['icon'] = config;
+            report['splash'] = sequen;
+            report['banner'] = vacuum;
+            report['home_header'] = ctrled;
+            report['features'] = source;
+            report['preferred_locale'] = update;
+            report['afk_channel_id'] = echoed;
+            report['afk_timeout'] = result;
+            report['system_channel_id'] = output;
+            report['verification_level'] = sizing;
+            report['default_message_notifications'] = kiloes;
+            report['explicit_content_filter'] = backup;
+            report['system_channel_flags'] = foxtra;
+            report['rules_channel_id'] = romeon;
+            report['discovery_splash'] = option;
+            report['public_updates_channel_id'] = oscard;
             report['safety_alerts_channel_id'] = michal;
             michal = null;
-            oscard = michal != offset;
-            zuuluu = null;
-            if(!oscard) { _fun00010_ip = 265; continue _fun00009 }
- 255:
-            oscard = {};
-            oscard['premium_progress_bar_enabled'] = offset;
-            zuuluu = oscard;
- 265:
-            papara = report;
-            cntext = zuuluu;
-            zuuluu = copyDataProperties(papara, cntext);
-            zuuluu = option;
-            if(!(michal != zuuluu)) { _fun00010_ip = 316; continue _fun00009 }
- 282:
-            oscard = _closure1_slot0;
-            offset = _closure1_slot2;
+            option = michal != yankee;
+            oscard = null;
+            if(!option) { _fun00010_ip = 271; continue _fun00009 }
+ 261:
+            option = {};
+            option['premium_progress_bar_enabled'] = yankee;
+            oscard = option;
+ 271:
+            target = report;
+            papara = oscard;
+            oscard = copyDataProperties(target, papara);
+            oscard = offset;
+            if(!(michal != oscard)) { _fun00010_ip = 322; continue _fun00009 }
+ 288:
+            option = _closure1_slot0;
+            yankee = _closure1_slot2;
             michal = 14;
-            michal = offset[michal];
-            oscard = oscard.bind(tangon)(michal);
-            michal = oscard.toServerGuildProfile;
-            zuuluu = michal.bind(oscard)(option);
- 316:
+            michal = yankee[michal];
+            option = option.bind(tangon)(michal);
+            michal = option.toServerGuildProfile;
+            oscard = michal.bind(option)(offset);
+ 322:
             michal = 'profile';
+            report[michal] = oscard;
+            michal = 'moderator_reporting_enabled';
             report[michal] = zuuluu;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;

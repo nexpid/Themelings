@@ -1,11 +1,11 @@
 // app/modules/auth/native/components/RegistrationBottomButton.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    yankee = argBaz;
+    romeon = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = yankee;
+    var _closure1_slot1 = romeon;
     var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
@@ -40,18 +40,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {'position': 'absolute', 'bottom': 0, 'left': 0, 'right': 0};
     tangon['container'] = verify;
     verify = {'width': '100%', 'padding': 16, 'paddingTop': 0, 'justifyContent': 'flex-end'};
-    offset = 4;
-    offset = oscard[offset];
-    offset = yankee.bind(entity)(offset);
-    offset = offset.colors;
-    offset = offset.BACKGROUND_PRIMARY;
-    verify['backgroundColor'] = offset;
+    offset = 16;
+    yankee = 4;
+    yankee = oscard[yankee];
+    yankee = romeon.bind(entity)(yankee);
+    yankee = yankee.colors;
+    yankee = yankee.BACKGROUND_PRIMARY;
+    verify['backgroundColor'] = yankee;
     tangon['button'] = verify;
     verify = {};
-    offset = 32;
-    verify['paddingBottom'] = offset;
-    tangon['keyboardClosed'] = verify;
-    verify = {'padding': 32, 'paddingBottom': 16};
+    verify['padding'] = offset;
     tangon['privacy'] = verify;
     verify = {};
     offset = 30;
@@ -92,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = entity.onToggleConsent;
             if(!(result === tangon)) { _fun00002_ip = 82; continue _fun00001 }
  73:
-            result = function() { // Original name: R
+            result = function() { // Original name: v
                 entity = undefined;
                 return entity;
             };
@@ -194,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'none';
             report['pointerEvents'] = golfie;
             report = option.bind(tangon)(oscard, report);
-            _fun00002_ip = 593; continue _fun00001;
+            _fun00002_ip = 586; continue _fun00001;
  504:
             golfie = _closure1_slot3;
             oscard = {};
@@ -212,12 +210,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['consentRequired'] = update;
             verify['consent'] = echoed;
             verify['onToggleConsent'] = result;
-            result = true;
-            verify['experimentText'] = result;
             verify = option.bind(tangon)(offset, verify);
             oscard['children'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 593:
+ 586:
             oscard = new Array(2);
             oscard[0] = report;
             option = _closure1_slot4;
@@ -254,15 +250,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = result[backup];
             backup = output.bind(tangon)(backup);
             backup = backup.t;
-            if(foxtra) { _fun00002_ip = 761; continue _fun00001 }
- 748:
+            if(foxtra) { _fun00002_ip = 754; continue _fun00001 }
+ 741:
             foxtra = backup.PDTjLC;
             foxtra = kiloes.bind(sizing)(foxtra);
-            _fun00002_ip = 774; continue _fun00001;
- 761:
+            _fun00002_ip = 765; continue _fun00001;
+ 754:
             backup = backup.825cFx;
             foxtra = kiloes.bind(sizing)(backup);
- 774:
+ 765:
             verify['text'] = foxtra;
             verify['onPress'] = romeon;
             verify['disabled'] = yankee;

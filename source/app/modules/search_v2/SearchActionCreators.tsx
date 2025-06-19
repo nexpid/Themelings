@@ -33,7 +33,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal.searchTabs;
             golfie = michal.searchQueryString;
             var _closure2_slot1 = golfie;
-            romeon = michal.getLimit;
+            kiloes = michal.pagination;
+            backup = michal.trackExactTotalHits;
+            sizing = michal.getLimit;
             tangon = michal.onFetchStart;
             michal = michal.onFetchSuccess;
             var _closure2_slot2 = michal;
@@ -41,12 +43,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot4 = zuuluu;
             oscard = _closure1_slot2;
             offset = _closure1_slot3;
-            backup = 1;
-            michal = offset[backup];
+            romeon = 1;
+            michal = offset[romeon];
             verify = oscard.bind(zuuluu)(michal);
             michal = verify.tokenizeQuery;
             verify = michal.bind(verify)(golfie);
-            michal = offset[backup];
+            michal = offset[romeon];
             oscard = oscard.bind(zuuluu)(michal);
             michal = oscard.getSearchQueryFromTokens;
             oscard = michal.bind(oscard)(verify);
@@ -58,28 +60,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = michal.bind(verify)(option);
             var _closure2_slot3 = yankee;
             michal = null;
-            if(!(michal != yankee)) { _fun00002_ip = 179; continue _fun00001 }
- 150:
+            if(!(michal != yankee)) { _fun00002_ip = 191; continue _fun00001 }
+ 162:
             offset = _closure1_slot2;
             verify = _closure1_slot3;
-            verify = verify[backup];
+            verify = verify[romeon];
             offset = offset.bind(zuuluu)(verify);
             verify = offset.setIncludeNSFW;
             verify = verify.bind(offset)(oscard, yankee);
- 179:
+ 191:
             offset = _closure1_slot1;
             yankee = _closure1_slot3;
             report = 3;
             report = yankee[report];
-            verify = offset.bind(zuuluu)(report);
-            report = verify.getSearchTabFetcher;
-            update = verify;
-            echoed = option;
-            result = oscard;
-            output = golfie;
-            sizing = foxtra;
-            kiloes = romeon;
-            report = update[report](echoed, result, output, sizing, kiloes, backup);
+            romeon = offset.bind(zuuluu)(report);
+            verify = romeon.getSearchTabFetcher;
+            report = {};
+            report['searchContext'] = option;
+            report['searchQuery'] = oscard;
+            report['searchTabs'] = foxtra;
+            report['getLimit'] = sizing;
+            report['pagination'] = kiloes;
+            report['trackExactTotalHits'] = backup;
+            report = verify.bind(romeon)(report);
             romeon = foxtra.map;
             verify = function(argFoo) {
                 zuuluu = _closure1_slot0;
@@ -106,14 +109,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['type'] = foxtra;
             verify['ids'] = romeon;
             verify = offset.bind(yankee)(verify);
-            if(!(michal != tangon)) { _fun00002_ip = 315; continue _fun00001 }
- 293:
+            if(!(michal != tangon)) { _fun00002_ip = 342; continue _fun00001 }
+ 320:
             michal = {};
             michal['searchContext'] = option;
             michal['searchQueryString'] = golfie;
             michal['searchQuery'] = oscard;
             michal = tangon.bind(zuuluu)(michal);
- 315:
+ 342:
             tangon = report.fetch;
             zuuluu = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {

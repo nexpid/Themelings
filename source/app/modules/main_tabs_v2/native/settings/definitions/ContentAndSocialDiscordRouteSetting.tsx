@@ -63,7 +63,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
-        entity = entity.default;
+        entity = entity.DiscordPermissionsPage;
         return entity;
     };
     tangon['getComponent'] = golfie;

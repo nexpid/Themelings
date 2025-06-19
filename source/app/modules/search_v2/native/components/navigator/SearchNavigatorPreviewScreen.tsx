@@ -60,40 +60,42 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             entity = _closure1_slot8;
             tangon = undefined;
             option = entity.bind(tangon)();
-            zuuluu = _closure1_slot0;
+            report = _closure1_slot0;
             verify = _closure1_slot2;
             entity = 5;
             entity = verify[entity];
-            report = zuuluu.bind(tangon)(entity);
-            entity = report.useNavigation;
-            romeon = entity.bind(report)();
-            var _closure2_slot0 = romeon;
+            zuuluu = report.bind(tangon)(entity);
+            entity = zuuluu.useNavigation;
+            zuuluu = entity.bind(zuuluu)();
+            var _closure2_slot0 = zuuluu;
             entity = 6;
             entity = verify[entity];
-            zuuluu = zuuluu.bind(tangon)(entity);
-            entity = zuuluu.useRoute;
-            zuuluu = entity.bind(zuuluu)();
-            entity = zuuluu.params;
+            report = report.bind(tangon)(entity);
+            entity = report.useRoute;
+            report = entity.bind(report)();
+            entity = report.params;
             offset = entity.channelId;
-            entity = zuuluu.params;
+            var _closure2_slot1 = offset;
+            entity = report.params;
             entity = entity.searchContext;
-            var _closure2_slot1 = entity;
-            zuuluu = zuuluu.params;
-            zuuluu = zuuluu.onBeforeJumpToMessage;
-            var _closure2_slot2 = zuuluu;
+            var _closure2_slot2 = entity;
+            report = report.params;
+            romeon = report.onBeforeJumpToMessage;
+            var _closure2_slot3 = romeon;
             oscard = _closure1_slot1;
             report = 7;
             report = verify[report];
             report = oscard.bind(tangon)(report);
             report = report.bind(tangon)();
             yankee = report.width;
-            var _closure2_slot3 = yankee;
+            var _closure2_slot4 = yankee;
             oscard = _closure1_slot3;
             verify = oscard.useCallback;
-            report = new Array(3);
-            report[0] = romeon;
-            report[1] = entity;
-            report[2] = zuuluu;
+            report = new Array(4);
+            report[0] = entity;
+            report[1] = offset;
+            report[2] = romeon;
+            report[3] = zuuluu;
             zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -105,40 +107,42 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     oscard = zuuluu.bind(entity)(michal);
                     report = oscard.trackSearchJumpToMessage;
                     michal = {};
-                    golfie = _closure2_slot1;
+                    golfie = _closure2_slot2;
                     michal['searchContext'] = golfie;
+                    golfie = _closure2_slot1;
+                    michal['channelId'] = golfie;
                     michal = report.bind(oscard)(michal);
-                    report = _closure2_slot2;
+                    report = _closure2_slot3;
                     michal = null;
-                    if(!(michal != report)) { _fun00004_ip = 68; continue _fun00003 }
- 60:
-                    report = _closure2_slot2;
-                    report = report.bind(entity)();
+                    if(!(michal != report)) { _fun00004_ip = 76; continue _fun00003 }
  68:
-                    report = _closure2_slot1;
+                    report = _closure2_slot3;
+                    report = report.bind(entity)();
+ 76:
+                    report = _closure2_slot2;
                     report = report.type;
                     oscard = _closure1_slot6;
                     oscard = oscard.DMS;
-                    if(!(oscard !== report)) { _fun00004_ip = 119; continue _fun00003 }
- 91:
+                    if(!(oscard !== report)) { _fun00004_ip = 127; continue _fun00003 }
+ 99:
                     oscard = _closure1_slot6;
                     oscard = oscard.GUILD;
-                    if(!(oscard !== report)) { _fun00004_ip = 119; continue _fun00003 }
- 105:
+                    if(!(oscard !== report)) { _fun00004_ip = 127; continue _fun00003 }
+ 113:
                     tangon = _closure1_slot6;
                     tangon = tangon.CHANNEL;
-                    if(!(tangon === report)) { _fun00004_ip = 147; continue _fun00003 }
- 119:
+                    if(!(tangon === report)) { _fun00004_ip = 155; continue _fun00003 }
+ 127:
                     tangon = _closure2_slot0;
                     zuuluu = tangon.getParent;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(!(michal != zuuluu)) { _fun00004_ip = 149; continue _fun00003 }
- 137:
+                    if(!(michal != zuuluu)) { _fun00004_ip = 157; continue _fun00003 }
+ 145:
                     michal = zuuluu.goBack;
                     michal = michal.bind(zuuluu)();
- 147:
+ 155:
                     return entity;
- 149:
+ 157:
                     return entity;
                 }
             };
@@ -148,7 +152,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             zuuluu[0] = yankee;
             michal = function() {
                 entity = {};
-                michal = _closure2_slot3;
+                michal = _closure2_slot4;
                 entity['width'] = michal;
                 return entity;
             };
@@ -156,12 +160,12 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             michal = entity.type;
             entity = _closure1_slot6;
             entity = entity.CHANNEL;
-            if(!(entity !== michal)) { _fun00002_ip = 283; continue _fun00001 }
- 226:
+            if(!(entity !== michal)) { _fun00002_ip = 291; continue _fun00001 }
+ 234:
             entity = _closure1_slot6;
             entity = entity.GUILD_CHANNEL;
-            if(!(entity !== michal)) { _fun00002_ip = 283; continue _fun00001 }
- 240:
+            if(!(entity !== michal)) { _fun00002_ip = 291; continue _fun00001 }
+ 248:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot1;
             report = _closure1_slot2;
@@ -173,7 +177,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             entity['onBeforeJumpToMessage'] = verify;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 283:
+ 291:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot5;
             entity = {'horizontal': true, 'scrollEnabled': false, 'bounces': false};

@@ -701,23 +701,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = source.intl;
             ctrled = vacuum.format;
             source = {};
-            config = function(argFoo) { // Original name: hook
-                tangon = _closure1_slot9;
+            config = function(argFoo, argBar) { // Original name: hook
+                report = _closure1_slot9;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
                 entity = 21;
                 entity = zuuluu[entity];
-                zuuluu = undefined;
-                entity = michal.bind(zuuluu)(entity);
-                michal = entity.Text;
-                entity = {};
-                report = _closure2_slot5;
-                entity['style'] = report;
-                report = 'heading-lg/bold';
-                entity['variant'] = report;
-                report = argFoo;
-                entity['children'] = report;
-                entity = tangon.bind(zuuluu)(michal, entity);
+                tangon = undefined;
+                entity = michal.bind(tangon)(entity);
+                zuuluu = entity.Text;
+                michal = {};
+                entity = _closure2_slot5;
+                michal['style'] = entity;
+                entity = 'heading-lg/bold';
+                michal['variant'] = entity;
+                entity = argFoo;
+                michal['children'] = entity;
+                entity = argBar;
+                entity = report.bind(tangon)(zuuluu, michal, entity);
                 return entity;
             };
             source['hook'] = config;

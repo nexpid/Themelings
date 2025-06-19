@@ -765,14 +765,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 32;
             entity = output[entity];
             entity = michal.bind(tangon)(entity);
-            update = entity.bind(tangon)();
+            echoed = entity.bind(tangon)();
             romeon = _closure1_slot0;
-            offset = 6;
-            entity = output[offset];
+            verify = 6;
+            entity = output[verify];
             oscard = romeon.bind(tangon)(entity);
             entity = oscard.getPremiumBranding;
             kiloes = entity.bind(oscard)(zuuluu);
-            entity = output[offset];
+            entity = output[verify];
             entity = romeon.bind(tangon)(entity);
             entity = entity.Branding;
             entity = entity.TIER_0;
@@ -781,7 +781,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  216:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[offset];
+            entity = entity[verify];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.Branding;
             entity = entity.TIER_1;
@@ -789,7 +789,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  252:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[offset];
+            entity = entity[verify];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.Branding;
             entity = entity.BUNDLE;
@@ -797,7 +797,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  285:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[offset];
+            entity = entity[verify];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.Branding;
             entity = entity.TIER_2;
@@ -805,7 +805,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  318:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
-            entity = entity[offset];
+            entity = entity[verify];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.Branding;
             entity = entity.PREMIUM_GUILD;
@@ -836,7 +836,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = entity;
  455:
             entity = _closure1_slot10;
-            verify = entity.bind(tangon)(kiloes);
+            offset = entity.bind(tangon)(kiloes);
             entity = _closure1_slot11;
             yankee = entity.bind(tangon)(kiloes);
             zuuluu = _closure1_slot8;
@@ -865,7 +865,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot12;
             golfie = golfie.bind(tangon)(kiloes);
             report['source'] = golfie;
-            echoed = _closure1_slot7;
+            update = _closure1_slot7;
             result = _closure1_slot3;
             golfie = {};
             ctrled = _closure1_slot14;
@@ -873,43 +873,43 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['source'] = ctrled;
             source = source.logo;
             golfie['style'] = source;
-            result = echoed.bind(tangon)(result, golfie);
+            result = update.bind(tangon)(result, golfie);
             golfie = new Array(3);
             golfie[0] = result;
-            offset = output[offset];
-            offset = romeon.bind(tangon)(offset);
-            offset = offset.Branding;
-            offset = offset.BUNDLE;
+            verify = output[verify];
+            verify = romeon.bind(tangon)(verify);
+            verify = verify.Branding;
+            verify = verify.BUNDLE;
             option = null;
-            if(!(kiloes === offset)) { _fun00016_ip = 712; continue _fun00015 }
+            if(!(kiloes === verify)) { _fun00016_ip = 712; continue _fun00015 }
  662:
             output = _closure1_slot7;
             romeon = _closure1_slot3;
-            offset = {};
-            echoed = _closure1_slot1;
+            verify = {};
+            update = _closure1_slot1;
             source = _closure1_slot2;
             result = 34;
             result = source[result];
-            result = echoed.bind(tangon)(result);
-            offset['source'] = result;
+            result = update.bind(tangon)(result);
+            verify['source'] = result;
             result = sizing.logoPlusPremiumGuild;
-            offset['style'] = result;
-            option = output.bind(tangon)(romeon, offset);
+            verify['style'] = result;
+            option = output.bind(tangon)(romeon, verify);
  712:
             golfie[1] = option;
             romeon = _closure1_slot7;
-            result = _closure1_slot3;
+            verify = _closure1_slot3;
             option = {};
-            offset = _closure1_slot13;
-            offset = offset.bind(tangon)(kiloes);
-            option['source'] = offset;
-            offset = verify.headerImage;
-            verify = new Array(2);
-            verify[0] = offset;
-            offset = sizing.headerImage;
-            verify[1] = offset;
-            option['style'] = verify;
-            option = romeon.bind(tangon)(result, option);
+            output = _closure1_slot13;
+            output = output.bind(tangon)(kiloes);
+            option['source'] = output;
+            output = offset.headerImage;
+            offset = new Array(2);
+            offset[0] = output;
+            output = sizing.headerImage;
+            offset[1] = output;
+            option['style'] = offset;
+            option = romeon.bind(tangon)(verify, option);
             golfie[2] = option;
             report['children'] = golfie;
             oscard = zuuluu.bind(tangon)(oscard, report);
@@ -926,14 +926,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = output[verify];
             offset = offset.bind(tangon)(verify);
             verify = {};
+            result = _closure1_slot15;
+            result = result.bind(tangon)(kiloes, echoed);
+            verify['source'] = result;
             yankee = yankee.animation;
             verify['style'] = yankee;
-            yankee = {};
-            echoed = _closure1_slot15;
-            echoed = echoed.bind(tangon)(kiloes, update);
-            yankee['source'] = echoed;
-            yankee = romeon.bind(tangon)(result, yankee);
-            verify['children'] = yankee;
             offset = romeon.bind(tangon)(offset, verify);
             verify = new Array(2);
             verify[0] = offset;

@@ -607,7 +607,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = 'UserProfileAnalyticsUtils';
             michal['location'] = report;
             michal = zuuluu.bind(tangon)(michal);
-            if(!michal) { _fun00012_ip = 320; continue _fun00011 }
+            if(!michal) { _fun00012_ip = 384; continue _fun00011 }
  57:
             source = backup.guildId;
             output = backup.channelId;
@@ -618,6 +618,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = backup.timeToInteractiveMs;
             option = backup.timeToLoadMs;
             golfie = backup.timeToFetchMs;
+            zuuluu = null;
+            report = zuuluu != verify;
+            tangon = 0;
+            michal = 0;
+            if(!report) { _fun00012_ip = 125; continue _fun00011 }
+ 122:
+            michal = verify;
+ 125:
+            michal = michal <= tangon;
+            if(michal) { _fun00012_ip = 148; continue _fun00011 }
+ 132:
+            kiloes = zuuluu != option;
+            report = 0;
+            if(!kiloes) { _fun00012_ip = 144; continue _fun00011 }
+ 141:
+            report = option;
+ 144:
+            michal = report <= tangon;
+ 148:
+            if(michal) { _fun00012_ip = 167; continue _fun00011 }
+ 151:
+            report = zuuluu != golfie;
+            zuuluu = 0;
+            if(!report) { _fun00012_ip = 163; continue _fun00011 }
+ 160:
+            zuuluu = golfie;
+ 163:
+            michal = zuuluu <= tangon;
+ 167:
+            if(michal) { _fun00012_ip = 384; continue _fun00011 }
+ 173:
             zuuluu = _closure1_slot1;
             result = _closure1_slot2;
             michal = 12;
@@ -664,7 +695,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 'time_to_fetch_ms';
             michal[oscard] = golfie;
             michal = tangon.bind(report)(zuuluu, michal);
- 320:
+ 384:
             return entity;
         }
     };

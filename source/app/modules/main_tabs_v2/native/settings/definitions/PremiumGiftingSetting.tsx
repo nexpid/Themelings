@@ -1,5 +1,5 @@
 // app/modules/main_tabs_v2/native/settings/definitions/PremiumGiftingSetting.tsx
-export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -16,26 +16,31 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     entity = '__esModule';
     entity = tangon.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    michal = oscard[entity];
+    tangon = oscard[entity];
+    michal = argCor;
     entity = undefined;
-    michal = report.bind(entity)(michal);
-    tangon = michal.RendererType;
+    michal = michal.bind(entity)(tangon);
+    var _closure1_slot3 = michal;
     michal = 1;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    option = michal.UserSettingsSections;
+    tangon = michal.RendererType;
     michal = 2;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    option = michal.UserSettingsSections;
+    michal = 3;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
     michal = michal.jsx;
-    var _closure1_slot3 = michal;
+    var _closure1_slot4 = michal;
     michal = {};
     tangon = tangon.ROUTE;
     michal['type'] = tangon;
     tangon = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 7;
+        entity = 8;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -51,56 +56,63 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     michal['title'] = tangon;
     tangon = null;
     michal['parent'] = tangon;
-    tangon = 8;
+    tangon = 9;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.GiftIcon;
     michal['IconComponent'] = tangon;
-    tangon = function() { // Original name: canNavigateToPaymentSetting
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+    tangon = function() { // Original name: useCanNavigateToPaymentSetting
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useCallback;
+        michal = function() {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            michal = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 3;
-            entity = tangon[entity];
-            tangon = undefined;
-            golfie = michal.bind(tangon)(entity);
-            oscard = golfie.getCurrentConfig;
-            report = {};
-            entity = 'ddafe5_1';
-            report['location'] = entity;
-            entity = {};
-            michal = false;
-            entity['autoTrackExposure'] = michal;
-            entity = oscard.bind(golfie)(report, entity);
-            entity = entity.paymentsBlocked;
-            entity = !entity;
-            if(entity) { _fun00002_ip = 96; continue _fun00001 }
+                michal = _closure1_slot1;
+                tangon = _closure1_slot2;
+                entity = 4;
+                entity = tangon[entity];
+                tangon = undefined;
+                golfie = michal.bind(tangon)(entity);
+                oscard = golfie.getCurrentConfig;
+                report = {};
+                entity = 'ddafe5_1';
+                report['location'] = entity;
+                entity = {};
+                michal = false;
+                entity['autoTrackExposure'] = michal;
+                entity = oscard.bind(golfie)(report, entity);
+                entity = entity.paymentsBlocked;
+                entity = !entity;
+                if(entity) { _fun00002_ip = 96; continue _fun00001 }
  70:
-            report = _closure1_slot1;
-            oscard = _closure1_slot2;
-            zuuluu = 4;
-            zuuluu = oscard[zuuluu];
-            zuuluu = report.bind(tangon)(zuuluu);
-            zuuluu = zuuluu.bind(tangon)();
-            entity = false;
+                report = _closure1_slot1;
+                oscard = _closure1_slot2;
+                zuuluu = 5;
+                zuuluu = oscard[zuuluu];
+                zuuluu = report.bind(tangon)(zuuluu);
+                zuuluu = zuuluu.bind(tangon)();
+                entity = false;
  96:
-            return entity;
-        }
+                return entity;
+            }
+        };
+        entity = new Array(0);
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
     };
-    michal['preNavigationAction'] = tangon;
+    michal['usePreNavigationAction'] = tangon;
     tangon = function() { // Original name: usePremiumGiftingSettingTrailing
         zuuluu = _closure1_slot0;
         oscard = _closure1_slot2;
-        michal = 5;
+        michal = 6;
         michal = oscard[michal];
         tangon = undefined;
         zuuluu = zuuluu.bind(tangon)(michal);
         michal = zuuluu.useUnseenOutboundPromotions;
         report = michal.bind(zuuluu)();
-        zuuluu = _closure1_slot3;
+        zuuluu = _closure1_slot4;
         michal = _closure1_slot1;
-        entity = 6;
+        entity = 7;
         entity = oscard[entity];
         michal = michal.bind(tangon)(entity);
         entity = {};
@@ -116,7 +128,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     golfie = function() { // Original name: getComponent
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
-        entity = 9;
+        entity = 10;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -125,7 +137,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     };
     tangon['getComponent'] = golfie;
     michal['screen'] = tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

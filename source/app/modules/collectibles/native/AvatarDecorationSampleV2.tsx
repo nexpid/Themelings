@@ -55,6 +55,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = 2;
         tangon = report / tangon;
         michal['borderRadius'] = tangon;
+        tangon = 0.8;
+        michal['opacity'] = tangon;
         entity['avatar'] = michal;
         michal = {};
         michal['position'] = zuuluu;

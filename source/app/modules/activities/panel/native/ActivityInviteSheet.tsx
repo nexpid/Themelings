@@ -14,28 +14,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             offset = entity.bind(tangon)();
             oscard = new Array(0);
-            zuuluu = 11;
-            michal = 48;
+            michal = 11;
             entity = 10;
-            report = 0;
- 28:
-            verify = oscard.push;
-            romeon = _closure1_slot14;
-            yankee = _closure1_slot0;
-            option = _closure1_slot2;
-            option = option[zuuluu];
-            option = yankee.bind(tangon)(option);
-            yankee = option.PlaceholderRow;
-            option = {};
-            option['row'] = report;
-            foxtra = {};
-            foxtra['height'] = michal;
-            option['style'] = foxtra;
-            option = romeon.bind(tangon)(yankee, option, report);
-            option = verify.bind(oscard)(option);
-            report = report + 1;
-            if(report < entity) { _fun00002_ip = 28; continue _fun00001 }
- 96:
+            zuuluu = 0;
+ 25:
+            option = oscard.push;
+            yankee = _closure1_slot14;
+            verify = _closure1_slot1;
+            report = _closure1_slot2;
+            report = report[michal];
+            verify = verify.bind(tangon)(report);
+            report = {};
+            report['row'] = zuuluu;
+            report = yankee.bind(tangon)(verify, report, zuuluu);
+            report = option.bind(oscard)(report);
+            zuuluu = zuuluu + 1;
+            if(zuuluu < entity) { _fun00002_ip = 25; continue _fun00001 }
+ 77:
             zuuluu = _closure1_slot16;
             michal = _closure1_slot15;
             entity = {};

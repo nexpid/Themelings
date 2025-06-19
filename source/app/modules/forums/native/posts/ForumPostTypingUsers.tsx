@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center'};
+    verify = {'display': 'flex', 'flexDirection': 'row', 'alignItems': 'center', 'flex': 1};
     tangon['container'] = verify;
     verify = {};
     verify['marginEnd'] = offset;
@@ -183,12 +183,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             michal = tangon == entity;
             entity = null;
-            if(michal) { _fun00002_ip = 528; continue _fun00001 }
+            if(michal) { _fun00002_ip = 536; continue _fun00001 }
  315:
             zuuluu = foxtra.length;
             michal = 0;
             entity = null;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 528; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 536; continue _fun00001 }
  331:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot3;
@@ -286,12 +286,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['color'] = romeon;
             yankee = yankee.typingText;
             golfie['style'] = yankee;
+            yankee = 1;
+            golfie['lineClamp'] = yankee;
             golfie['children'] = offset;
             golfie = verify.bind(report)(option, golfie);
             oscard[2] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 528:
+ 536:
             return entity;
         }
     };

@@ -1,5 +1,5 @@
 // app/modules/main_tabs_v2/native/settings/definitions/DataAndPrivacySetting.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+export default (function(_, argBar, __, argCor, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
@@ -14,11 +14,16 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, michal);
     entity = 0;
-    michal = oscard[entity];
+    golfie = oscard[entity];
+    michal = argCor;
     entity = undefined;
+    michal = michal.bind(entity)(golfie);
+    var _closure1_slot2 = michal;
+    michal = 1;
+    michal = oscard[michal];
     michal = report.bind(entity)(michal);
     golfie = michal.RendererType;
-    michal = 1;
+    michal = 2;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
     option = michal.UserSettingsSections;
@@ -28,7 +33,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 2;
+        entity = 5;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -44,7 +49,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['title'] = golfie;
     golfie = null;
     michal['parent'] = golfie;
-    golfie = 3;
+    golfie = 6;
     golfie = oscard[golfie];
     golfie = report.bind(entity)(golfie);
     golfie = golfie.ShieldLockIcon;
@@ -55,7 +60,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = function() { // Original name: getComponent
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
-        entity = 4;
+        entity = 7;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -64,25 +69,32 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     };
     golfie['getComponent'] = option;
     michal['screen'] = golfie;
-    tangon = function() { // Original name: preNavigationAction
-        zuuluu = _closure1_slot0;
-        tangon = _closure1_slot1;
-        entity = 5;
-        entity = tangon[entity];
-        michal = undefined;
-        report = zuuluu.bind(michal)(entity);
-        entity = report.fetchConsents;
-        entity = entity.bind(report)();
-        entity = 6;
-        entity = tangon[entity];
-        michal = zuuluu.bind(michal)(entity);
-        entity = michal.fetchHarvestStatus;
-        entity = entity.bind(michal)();
-        entity = true;
+    tangon = function() { // Original name: usePreNavigationAction
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useCallback;
+        michal = function() {
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            entity = 3;
+            entity = tangon[entity];
+            michal = undefined;
+            report = zuuluu.bind(michal)(entity);
+            entity = report.fetchConsents;
+            entity = entity.bind(report)();
+            entity = 4;
+            entity = tangon[entity];
+            michal = zuuluu.bind(michal)(entity);
+            entity = michal.fetchHarvestStatus;
+            entity = entity.bind(michal)();
+            entity = true;
+            return entity;
+        };
+        entity = new Array(0);
+        entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    michal['preNavigationAction'] = tangon;
-    tangon = 7;
+    michal['usePreNavigationAction'] = tangon;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

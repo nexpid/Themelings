@@ -161,10 +161,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['channelId'] = entity;
             entity = true;
             offset = !offset;
-            if(!offset) { _fun00004_ip = 204; continue _fun00003 }
- 201:
+            if(!offset) { _fun00004_ip = 208; continue _fun00003 }
+ 205:
             offset = verify;
- 204:
+ 208:
             zuuluu['allowHeading'] = offset;
             zuuluu['allowList'] = verify;
             zuuluu['previewLinkTarget'] = option;

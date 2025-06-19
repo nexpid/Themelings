@@ -217,9 +217,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = foxtra[michal];
         michal = romeon.bind(tangon)(michal);
         michal = michal.colors;
-        michal = michal.BACKGROUND_FLOATING;
+        michal = michal.BACKGROUND_BASE_LOW;
         option = option.bind(yankee)(michal);
-        michal = 0.6;
+        michal = 0.8;
         michal = verify.bind(offset)(option, michal);
         option = zuuluu.bind(golfie)(michal);
         zuuluu = _closure1_slot5;

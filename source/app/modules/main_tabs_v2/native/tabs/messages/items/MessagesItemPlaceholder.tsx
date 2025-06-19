@@ -1,9 +1,10 @@
 // app/modules/main_tabs_v2/native/tabs/messages/items/MessagesItemPlaceholder.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
-    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
     var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
@@ -18,40 +19,26 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = argCor;
     entity = undefined;
     golfie = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = golfie;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
-    var _closure1_slot3 = tangon;
+    var _closure1_slot2 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) { // Original name: MessagesItemPlaceholder
         entity = argFoo;
         oscard = entity.row;
-        golfie = entity.height;
-        var _closure2_slot0 = golfie;
-        report = _closure1_slot2;
-        tangon = report.useMemo;
-        zuuluu = new Array(1);
-        zuuluu[0] = golfie;
-        michal = function() {
-            entity = {};
-            michal = _closure2_slot0;
-            entity['height'] = michal;
-            return entity;
-        };
-        report = tangon.bind(report)(michal, zuuluu);
-        tangon = _closure1_slot3;
+        report = entity.height;
+        tangon = _closure1_slot2;
         michal = _closure1_slot0;
         zuuluu = _closure1_slot1;
         entity = 2;
         entity = zuuluu[entity];
         zuuluu = undefined;
-        entity = michal.bind(zuuluu)(entity);
-        michal = entity.PlaceholderRow;
+        michal = michal.bind(zuuluu)(entity);
         entity = {};
         entity['row'] = oscard;
-        entity['style'] = report;
+        entity['height'] = report;
         entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };

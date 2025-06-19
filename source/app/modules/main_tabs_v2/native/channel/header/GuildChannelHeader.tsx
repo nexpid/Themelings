@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = verify.bind(oscard)(option);
                 verify = offset.getArticleURL;
                 option = _closure1_slot16;
-                option = option.CHANNEL_LINKED_LOBBIES;
+                option = option.LINKED_LOBBIES;
                 option = verify.bind(offset)(option);
                 michal['helpdeskArticle'] = option;
                 michal = report.bind(golfie)(zuuluu, michal);

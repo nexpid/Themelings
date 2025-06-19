@@ -8,145 +8,119 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot1 = entity;
     var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: PrivacyPolicyDescription
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            entity = argFoo;
-            option = entity.style;
-            oscard = entity.experimentText;
-            tangon = undefined;
-            if(!(oscard === tangon)) { _fun00002_ip = 22; continue _fun00001 }
- 20:
-            oscard = false;
- 22:
-            zuuluu = _closure1_slot7;
-            golfie = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 7;
-            entity = report[entity];
-            entity = golfie.bind(tangon)(entity);
-            michal = entity.TextWithIOSLinkWorkaround;
-            entity = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
-            entity['style'] = option;
-            yankee = 8;
-            report = report[yankee];
-            report = golfie.bind(tangon)(report);
-            option = report.intl;
-            golfie = option.format;
-            offset = _closure1_slot0;
-            report = _closure1_slot2;
-            report = report[yankee];
-            report = offset.bind(tangon)(report);
-            report = report.t;
-            if(oscard) { _fun00002_ip = 132; continue _fun00001 }
- 122:
-            oscard = report.F+0zT0;
-            _fun00002_ip = 140; continue _fun00001;
- 132:
-            oscard = report.KI+BSU;
- 140:
-            report = {};
-            offset = _closure1_slot6;
-            offset = offset.TERMS;
-            report['termsURL'] = offset;
-            verify = _closure1_slot6;
-            verify = verify.PRIVACY;
-            report['privacyURL'] = verify;
-            report = golfie.bind(option)(oscard, report);
-            entity['children'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
-            return entity;
-        }
+        entity = argFoo;
+        report = entity.style;
+        tangon = _closure1_slot8;
+        oscard = _closure1_slot0;
+        offset = _closure1_slot2;
+        entity = 7;
+        entity = offset[entity];
+        zuuluu = undefined;
+        entity = oscard.bind(zuuluu)(entity);
+        michal = entity.TextWithIOSLinkWorkaround;
+        entity = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
+        entity['style'] = report;
+        report = 8;
+        golfie = offset[report];
+        golfie = oscard.bind(zuuluu)(golfie);
+        option = golfie.intl;
+        golfie = option.format;
+        report = offset[report];
+        report = oscard.bind(zuuluu)(report);
+        report = report.t;
+        oscard = report.KI+BSU;
+        report = {};
+        offset = _closure1_slot7;
+        offset = offset.TERMS;
+        report['termsURL'] = offset;
+        verify = _closure1_slot7;
+        verify = verify.PRIVACY;
+        report['privacyURL'] = verify;
+        report = golfie.bind(option)(oscard, report);
+        entity['children'] = report;
+        entity = tangon.bind(zuuluu)(michal, entity);
+        return entity;
     };
     var _closure1_slot11 = entity;
     entity = function(argFoo) { // Original name: PrivacyPolicyCheckbox
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            echoed = entity.consent;
-            yankee = entity.onToggleConsent;
-            sizing = entity.asCheckbox;
+            verify = entity.consent;
+            oscard = entity.onToggleConsent;
+            report = entity.asCheckbox;
             tangon = undefined;
-            if(!(sizing === tangon)) { _fun00004_ip = 29; continue _fun00003 }
+            if(!(report === tangon)) { _fun00002_ip = 29; continue _fun00001 }
  27:
-            sizing = false;
+            report = false;
  29:
             entity = _closure1_slot10;
-            romeon = entity.bind(tangon)();
+            option = entity.bind(tangon)();
             zuuluu = _closure1_slot9;
-            michal = _closure1_slot8;
+            michal = _closure1_slot4;
             entity = {};
-            golfie = _closure1_slot7;
-            kiloes = _closure1_slot0;
-            option = _closure1_slot2;
-            report = 9;
-            report = option[report];
-            report = kiloes.bind(tangon)(report);
-            oscard = report.TouchableWithoutFeedback;
-            report = {};
-            verify = {};
-            verify['checked'] = echoed;
-            report['accessibilityState'] = verify;
-            verify = 'checkbox';
-            report['accessibilityRole'] = verify;
+            if(report) { _fun00002_ip = 61; continue _fun00001 }
+ 53:
+            golfie = option.radio;
+            _fun00002_ip = 67; continue _fun00001;
+ 61:
+            golfie = option.checkbox;
+ 67:
+            entity['style'] = golfie;
+            golfie = {};
+            golfie['checked'] = verify;
+            entity['accessibilityState'] = golfie;
+            golfie = 'checkbox';
+            entity['accessibilityRole'] = golfie;
+            yankee = _closure1_slot0;
+            golfie = _closure1_slot2;
             backup = 8;
-            verify = option[backup];
-            verify = kiloes.bind(tangon)(verify);
-            offset = verify.intl;
-            verify = offset.string;
-            option = option[backup];
-            option = kiloes.bind(tangon)(option);
-            option = option.t;
-            option = option.Y7Kgvb;
-            option = verify.bind(offset)(option);
-            report['accessibilityLabel'] = option;
-            report['onPress'] = yankee;
-            kiloes = 11;
-            option = {'top': 11, 'bottom': 11, 'left': 11};
-            report['hitSlop'] = option;
-            offset = _closure1_slot7;
-            verify = _closure1_slot3;
-            option = {};
-            output = romeon.radio;
-            option['style'] = output;
-            result = _closure1_slot7;
-            output = _closure1_slot0;
-            update = _closure1_slot2;
-            if(sizing) { _fun00004_ip = 252; continue _fun00003 }
- 216:
-            kiloes = update[kiloes];
-            kiloes = output.bind(tangon)(kiloes);
-            kiloes = kiloes.FormRow;
-            sizing = kiloes.Radio;
-            kiloes = {};
-            kiloes['selected'] = echoed;
-            kiloes = result.bind(tangon)(sizing, kiloes);
-            _fun00004_ip = 283; continue _fun00003;
- 252:
-            sizing = 10;
-            sizing = update[sizing];
-            sizing = output.bind(tangon)(sizing);
-            output = sizing.FormCheckbox;
-            sizing = {};
-            sizing['checked'] = echoed;
-            kiloes = result.bind(tangon)(output, sizing);
- 283:
-            option['children'] = kiloes;
-            option = offset.bind(tangon)(verify, option);
-            report['children'] = option;
-            oscard = golfie.bind(tangon)(oscard, report);
+            option = golfie[backup];
+            option = yankee.bind(tangon)(option);
+            offset = option.intl;
+            option = offset.string;
+            golfie = golfie[backup];
+            golfie = yankee.bind(tangon)(golfie);
+            golfie = golfie.t;
+            golfie = golfie.Y7Kgvb;
+            golfie = option.bind(offset)(golfie);
+            entity['accessibilityLabel'] = golfie;
+            entity['onPress'] = oscard;
+            oscard = {'top': 11, 'bottom': 11, 'left': 11};
+            entity['hitSlop'] = oscard;
+            option = _closure1_slot8;
+            golfie = _closure1_slot0;
+            offset = _closure1_slot2;
+            if(report) { _fun00002_ip = 229; continue _fun00001 }
+ 190:
+            report = 10;
+            report = offset[report];
+            report = golfie.bind(tangon)(report);
+            report = report.FormRow;
+            oscard = report.Radio;
+            report = {};
+            report['selected'] = verify;
+            oscard = option.bind(tangon)(oscard, report);
+            _fun00002_ip = 260; continue _fun00001;
+ 229:
+            report = 9;
+            report = offset[report];
+            report = golfie.bind(tangon)(report);
+            golfie = report.FormCheckbox;
+            report = {};
+            report['checked'] = verify;
+            oscard = option.bind(tangon)(golfie, report);
+ 260:
             report = new Array(2);
             report[0] = oscard;
-            option = _closure1_slot7;
+            option = _closure1_slot8;
             offset = _closure1_slot0;
             verify = _closure1_slot2;
             oscard = 7;
             oscard = verify[oscard];
             oscard = offset.bind(tangon)(oscard);
             golfie = oscard.TextWithIOSLinkWorkaround;
-            oscard = {'style': null, 'variant': 'text-xs/medium', 'color': 'text-muted'};
-            romeon = romeon.hint;
-            oscard['style'] = romeon;
-            oscard['onPress'] = yankee;
+            oscard = {'variant': 'text-xs/medium', 'color': 'text-muted'};
             yankee = verify[backup];
             yankee = offset.bind(tangon)(yankee);
             romeon = yankee.intl;
@@ -156,10 +130,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.t;
             offset = verify.qMDAPz;
             verify = {};
-            backup = _closure1_slot6;
+            backup = _closure1_slot7;
             backup = backup.TERMS;
             verify['termsURL'] = backup;
-            foxtra = _closure1_slot6;
+            foxtra = _closure1_slot7;
             foxtra = foxtra.PRIVACY;
             verify['privacyURL'] = foxtra;
             verify = yankee.bind(romeon)(offset, verify);
@@ -188,29 +162,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.View;
-    var _closure1_slot3 = tangon;
+    golfie = tangon.View;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.Pressable;
+    var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.usePromoEmailConsentStore;
-    var _closure1_slot4 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.useRegistrationUIStore;
-    var _closure1_slot5 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.MarketingURLs;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.jsx;
-    var _closure1_slot7 = golfie;
-    golfie = tangon.Fragment;
     var _closure1_slot8 = golfie;
     tangon = tangon.jsxs;
     var _closure1_slot9 = tangon;
@@ -219,63 +193,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'paddingHorizontal': 0, 'flex': 1};
-    tangon['hint'] = verify;
     verify = {};
-    offset = 'center';
-    verify['textAlign'] = offset;
-    tangon['experimentHint'] = verify;
-    verify = {};
-    offset = 33;
-    verify['width'] = offset;
-    tangon['radio'] = verify;
-    yankee = 'row';
-    verify = {'marginTop': 8, 'flexDirection': 'row', 'alignItems': 'center'};
+    offset = 'row';
+    verify['flexDirection'] = offset;
     tangon['consentForm'] = verify;
-    offset = 12;
-    verify = {'marginTop': 12, 'flexDirection': 'column'};
-    tangon['multiCheckboxForm'] = verify;
-    verify = {};
-    verify['flexDirection'] = yankee;
-    tangon['consentFormWithEmailOptIn'] = verify;
-    verify = {};
-    verify['marginTop'] = offset;
-    tangon['marketingOptInCheckboxWithOtherCheckbox'] = verify;
-    verify = {};
-    offset = 16;
-    verify['marginTop'] = offset;
-    tangon['marketingOptInCheckboxWithHint'] = verify;
+    verify = {'flexDirection': 'column', 'gap': 16};
+    tangon['multiItem'] = verify;
+    verify = {'flexDirection': 'row', 'alignItems': 'flex-start', 'gap': 8};
+    tangon['checkbox'] = verify;
+    verify = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
+    tangon['radio'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot10 = tangon;
-    tangon = 13;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/auth/native/components/PrivacyHint.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: PrivacyHint
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            sizing = entity.consent;
+            backup = entity.consent;
             michal = entity.consentRequired;
-            kiloes = entity.onToggleConsent;
-            tangon = entity.experimentText;
-            oscard = undefined;
-            if(!(tangon === oscard)) { _fun00006_ip = 37; continue _fun00005 }
- 35:
-            tangon = false;
- 37:
+            foxtra = entity.onToggleConsent;
             entity = _closure1_slot10;
+            oscard = undefined;
             yankee = entity.bind(oscard)();
-            report = _closure1_slot4;
+            tangon = _closure1_slot5;
             entity = function(argFoo) {
                 entity = argFoo;
                 entity = entity.required;
                 return entity;
             };
-            entity = report.bind(oscard)(entity);
-            report = _closure1_slot5;
+            entity = tangon.bind(oscard)(entity);
+            tangon = _closure1_slot6;
             zuuluu = function(argFoo) {
                 entity = argFoo;
                 entity = entity.registrationOptions;
@@ -284,118 +237,101 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity != michal;
                 return entity;
             };
-            zuuluu = report.bind(oscard)(zuuluu);
-            if(!zuuluu) { _fun00006_ip = 86; continue _fun00005 }
- 83:
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            if(!zuuluu) { _fun00004_ip = 74; continue _fun00003 }
+ 71:
             zuuluu = entity;
- 86:
-            if(michal) { _fun00006_ip = 220; continue _fun00005 }
- 92:
-            if(!zuuluu) { _fun00006_ip = 220; continue _fun00005 }
- 98:
-            golfie = _closure1_slot9;
-            report = _closure1_slot3;
+ 74:
+            if(michal) { _fun00004_ip = 175; continue _fun00003 }
+ 77:
+            if(!zuuluu) { _fun00004_ip = 175; continue _fun00003 }
+ 80:
+            report = _closure1_slot9;
+            tangon = _closure1_slot3;
             entity = {};
-            verify = yankee.hint;
-            entity['style'] = verify;
-            romeon = _closure1_slot7;
-            offset = _closure1_slot11;
-            verify = {};
-            verify['experimentText'] = tangon;
-            offset = romeon.bind(oscard)(offset, verify);
-            verify = new Array(2);
-            verify[0] = offset;
-            foxtra = _closure1_slot7;
-            romeon = _closure1_slot1;
-            backup = _closure1_slot2;
-            offset = 12;
-            offset = backup[offset];
-            romeon = romeon.bind(oscard)(offset);
-            offset = {'textVariant': 'text-xs/medium', 'textColor': 'text-muted'};
-            backup = yankee.marketingOptInCheckboxWithHint;
-            offset['style'] = backup;
-            offset = foxtra.bind(oscard)(romeon, offset);
-            verify[1] = offset;
-            entity['children'] = verify;
-            entity = golfie.bind(oscard)(report, entity);
-            _fun00006_ip = 505; continue _fun00005;
- 220:
-            if(!michal) { _fun00006_ip = 226; continue _fun00005 }
- 223:
-            if(zuuluu) { _fun00006_ip = 343; continue _fun00005 }
- 226:
-            report = _closure1_slot7;
-            if(michal) { _fun00006_ip = 286; continue _fun00005 }
- 233:
+            golfie = yankee.multiItem;
+            entity['style'] = golfie;
+            verify = _closure1_slot8;
+            option = _closure1_slot1;
+            romeon = _closure1_slot2;
+            golfie = 11;
+            golfie = romeon[golfie];
+            option = option.bind(oscard)(golfie);
+            golfie = {};
+            option = verify.bind(oscard)(option, golfie);
+            golfie = new Array(2);
+            golfie[0] = option;
+            romeon = _closure1_slot8;
+            verify = _closure1_slot11;
+            option = {};
+            option = romeon.bind(oscard)(verify, option);
+            golfie[1] = option;
+            entity['children'] = golfie;
+            entity = report.bind(oscard)(tangon, entity);
+            _fun00004_ip = 395; continue _fun00003;
+ 175:
+            if(!michal) { _fun00004_ip = 181; continue _fun00003 }
+ 178:
+            if(zuuluu) { _fun00004_ip = 259; continue _fun00003 }
+ 181:
+            report = _closure1_slot8;
+            if(michal) { _fun00004_ip = 202; continue _fun00003 }
+ 188:
             zuuluu = _closure1_slot11;
             michal = {};
-            verify = yankee.hint;
-            golfie = new Array(2);
-            golfie[0] = verify;
-            verify = tangon;
-            if(!verify) { _fun00006_ip = 265; continue _fun00005 }
- 259:
-            verify = yankee.experimentHint;
- 265:
-            golfie[1] = verify;
-            michal['style'] = golfie;
-            michal['experimentText'] = tangon;
             michal = report.bind(oscard)(zuuluu, michal);
-            _fun00006_ip = 338; continue _fun00005;
- 286:
+            _fun00004_ip = 254; continue _fun00003;
+ 202:
             tangon = _closure1_slot3;
             zuuluu = {};
             golfie = yankee.consentForm;
             zuuluu['style'] = golfie;
-            offset = _closure1_slot7;
-            verify = _closure1_slot12;
+            verify = _closure1_slot8;
+            option = _closure1_slot12;
             golfie = {};
-            golfie['consent'] = sizing;
-            golfie['onToggleConsent'] = kiloes;
-            golfie = offset.bind(oscard)(verify, golfie);
+            golfie['consent'] = backup;
+            golfie['onToggleConsent'] = foxtra;
+            golfie = verify.bind(oscard)(option, golfie);
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 338:
-            _fun00006_ip = 502; continue _fun00005;
- 343:
+ 254:
+            _fun00004_ip = 392; continue _fun00003;
+ 259:
             report = _closure1_slot9;
             tangon = _closure1_slot3;
             zuuluu = {};
-            golfie = yankee.multiCheckboxForm;
+            golfie = yankee.multiItem;
             zuuluu['style'] = golfie;
-            offset = _closure1_slot7;
-            verify = _closure1_slot3;
-            golfie = {};
-            romeon = yankee.consentFormWithEmailOptIn;
-            golfie['style'] = romeon;
-            backup = _closure1_slot7;
-            foxtra = _closure1_slot12;
-            romeon = {};
-            romeon['consent'] = sizing;
-            romeon['onToggleConsent'] = kiloes;
-            kiloes = true;
-            romeon['asCheckbox'] = kiloes;
-            romeon = backup.bind(oscard)(foxtra, romeon);
-            golfie['children'] = romeon;
-            verify = offset.bind(oscard)(verify, golfie);
-            golfie = new Array(2);
-            golfie[0] = verify;
-            offset = _closure1_slot7;
-            verify = _closure1_slot1;
+            verify = _closure1_slot8;
+            option = _closure1_slot1;
             romeon = _closure1_slot2;
-            option = 12;
-            option = romeon[option];
-            verify = verify.bind(oscard)(option);
-            option = {'textVariant': 'text-xs/medium', 'textColor': 'text-muted'};
-            yankee = yankee.marketingOptInCheckboxWithOtherCheckbox;
+            golfie = 11;
+            golfie = romeon[golfie];
+            option = option.bind(oscard)(golfie);
+            golfie = {};
+            option = verify.bind(oscard)(option, golfie);
+            golfie = new Array(2);
+            golfie[0] = option;
+            verify = _closure1_slot8;
+            option = {};
+            yankee = yankee.consentForm;
             option['style'] = yankee;
-            option = offset.bind(oscard)(verify, option);
+            romeon = _closure1_slot8;
+            yankee = _closure1_slot12;
+            offset = {};
+            offset['consent'] = backup;
+            offset['onToggleConsent'] = foxtra;
+            foxtra = true;
+            offset['asCheckbox'] = foxtra;
+            offset = romeon.bind(oscard)(yankee, offset);
+            option['children'] = offset;
+            option = verify.bind(oscard)(tangon, option);
             golfie[1] = option;
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 502:
+ 392:
             entity = michal;
- 505:
+ 395:
             return entity;
         }
     };

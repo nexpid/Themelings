@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = echoed.bind(report)(result);
             echoed = update.getArticleURL;
             result = _closure1_slot4;
-            result = result.CHANNEL_LINKED_LOBBIES;
+            result = result.LINKED_LOBBIES;
             result = echoed.bind(update)(result);
             backup['helpdeskArticle'] = result;
             backup = sizing.bind(output)(kiloes, backup);

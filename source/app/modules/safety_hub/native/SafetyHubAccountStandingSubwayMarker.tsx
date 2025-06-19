@@ -216,40 +216,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = oscard.intl;
             golfie = option.format;
             oscard = {};
-            offset = function(argFoo) { // Original name: hook
+            offset = function(argFoo, argBar) { // Original name: hook
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     oscard = argFoo;
-                    tangon = _closure1_slot4;
+                    report = _closure1_slot4;
                     michal = _closure1_slot0;
                     zuuluu = _closure1_slot2;
                     entity = 6;
                     entity = zuuluu[entity];
-                    zuuluu = undefined;
-                    entity = michal.bind(zuuluu)(entity);
-                    michal = entity.Text;
+                    tangon = undefined;
+                    entity = michal.bind(tangon)(entity);
+                    zuuluu = entity.Text;
                     entity = _closure2_slot1;
                     if(entity) { _fun00004_ip = 80; continue _fun00003 }
  47:
-                    entity = {'color': 'interactive-normal', 'variant': 'text-xxs/normal'};
-                    report = _closure2_slot2;
-                    report = report.label;
-                    entity['style'] = report;
-                    entity['children'] = oscard;
+                    michal = {'color': 'interactive-normal', 'variant': 'text-xxs/normal'};
+                    entity = _closure2_slot2;
+                    entity = entity.label;
+                    michal['style'] = entity;
+                    michal['children'] = oscard;
                     _fun00004_ip = 118; continue _fun00003;
  80:
-                    report = {};
+                    entity = {};
                     golfie = {};
                     option = _closure2_slot0;
                     option = option.color;
                     golfie['color'] = option;
-                    report['style'] = golfie;
+                    entity['style'] = golfie;
                     golfie = 'text-xxs/bold';
-                    report['variant'] = golfie;
-                    report['children'] = oscard;
-                    entity = report;
+                    entity['variant'] = golfie;
+                    entity['children'] = oscard;
+                    michal = entity;
  118:
-                    entity = tangon.bind(zuuluu)(michal, entity);
+                    entity = argBar;
+                    entity = report.bind(tangon)(zuuluu, michal, entity);
                     return entity;
                 }
             };
