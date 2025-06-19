@@ -651,6 +651,15 @@
         "width": 132,
         "height": 132
     },
+    "avatar_placeholder_non_transparent": {
+        "file": "images/avatar_placeholder_non_transparent.png",
+        "hash": "d2fbf1366ddeefc955e8c11a42f31956",
+        "scales": [
+            1
+        ],
+        "width": 213,
+        "height": 213
+    },
     "background": {
         "file": "images/native/oauth2/background.png",
         "hash": "9f0466452ea774e0a27ad50f4f806303",
