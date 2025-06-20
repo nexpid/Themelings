@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             backup = tangon;
             yankee = result[offset](output, sizing, kiloes, backup, foxtra, romeon);
             offset = null;
-            if(!(offset != yankee)) { _fun00004_ip = 268; continue _fun00003 }
+            if(!(offset != yankee)) { _fun00004_ip = 272; continue _fun00003 }
  68:
             oscard = offset == yankee;
             entity = undefined;
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  188:
             golfie = offset != oscard;
             oscard = undefined;
-            if(!golfie) { _fun00004_ip = 259; continue _fun00003 }
+            if(!golfie) { _fun00004_ip = 263; continue _fun00003 }
  197:
             option = _closure1_slot0;
             verify = _closure1_slot2;
@@ -195,16 +195,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = {'id': null, 'animated': false, 'size': 16};
             romeon = offset == yankee;
             offset = undefined;
-            if(romeon) { _fun00004_ip = 248; continue _fun00003 }
- 242:
+            if(romeon) { _fun00004_ip = 252; continue _fun00003 }
+ 246:
             offset = yankee.emojiId;
- 248:
+ 252:
             golfie['id'] = offset;
             oscard = option.bind(verify)(golfie);
- 259:
+ 263:
             entity['emojiSrc'] = oscard;
             return entity;
- 268:
+ 272:
             entity = {};
             oscard = 'text';
             entity['type'] = oscard;

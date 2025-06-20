@@ -1,5 +1,5 @@
 // app/design/components/Sheet/native/BottomSheet.native.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
     option = argBaz;
     zuuluu = argFre;
@@ -897,7 +897,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = status.useCallback;
             result = new Array(1);
             result[0] = romeon;
-            romeon = function(argFoo, argBar, argBaz) {
+            romeon = function(argFoo, argBar, argBaz, argCor, argGra) {
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
                     zuuluu = argBar;
@@ -909,7 +909,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = tangon.bind(entity)(michal);
                     michal = michal.ANIMATION_SOURCE;
                     tangon = michal.KEYBOARD;
-                    michal = argBaz;
+                    michal = argGra;
                     if(!(michal !== tangon)) { _fun00028_ip = 138; continue _fun00027 }
  47:
                     michal = -1;
