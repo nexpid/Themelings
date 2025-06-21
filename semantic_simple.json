@@ -155,78 +155,6 @@
     "midnight": "#000000",
     "darker": "#1c1d23"
   },
-  "BACKGROUND_MODAL_GRADIENT_BLUE_END": {
-    "dark": "#161a8a73",
-    "light": "#a0a9facc",
-    "midnight": "#161a8a40",
-    "darker": "#161a8a4d"
-  },
-  "BACKGROUND_MODAL_GRADIENT_BLUE_START": {
-    "dark": "#5865f273",
-    "light": "#e6e8ffcc",
-    "midnight": "#5865f240",
-    "darker": "#5865f24d"
-  },
-  "BACKGROUND_MODAL_GRADIENT_GREEN_END": {
-    "dark": "#00663873",
-    "light": "#8af7b5cc",
-    "midnight": "#00663840",
-    "darker": "#0066384d"
-  },
-  "BACKGROUND_MODAL_GRADIENT_GREEN_START": {
-    "dark": "#21bb6373",
-    "light": "#e5fff0cc",
-    "midnight": "#21bb6340",
-    "darker": "#21bb634d"
-  },
-  "BACKGROUND_MODAL_GRADIENT_NITRO_1_END": {
-    "dark": "#1414cb80",
-    "light": "#5865f2e6",
-    "midnight": "#1414cb4d",
-    "darker": "#1414cb66"
-  },
-  "BACKGROUND_MODAL_GRADIENT_NITRO_1_START": {
-    "dark": "#8c138180",
-    "light": "#fd99e9e6",
-    "midnight": "#8c13814d",
-    "darker": "#8c138166"
-  },
-  "BACKGROUND_MODAL_GRADIENT_NITRO_2_END": {
-    "dark": "#1414cb80",
-    "light": "#5865f2e6",
-    "midnight": "#1414cb4d",
-    "darker": "#1414cb66"
-  },
-  "BACKGROUND_MODAL_GRADIENT_NITRO_2_START": {
-    "dark": "#21bb6380",
-    "light": "#e5fff0e6",
-    "midnight": "#21bb634d",
-    "darker": "#21bb6366"
-  },
-  "BACKGROUND_MODAL_GRADIENT_PINK_END": {
-    "dark": "#66006673",
-    "light": "#fd99e9cc",
-    "midnight": "#66006640",
-    "darker": "#6600664d"
-  },
-  "BACKGROUND_MODAL_GRADIENT_PINK_START": {
-    "dark": "#b3269c73",
-    "light": "#fbe6ffcc",
-    "midnight": "#b3269c40",
-    "darker": "#b3269c4d"
-  },
-  "BACKGROUND_MODAL_GRADIENT_PURPLE_END": {
-    "dark": "#3e168973",
-    "light": "#ca9ef9cc",
-    "midnight": "#3e168940",
-    "darker": "#3e16894d"
-  },
-  "BACKGROUND_MODAL_GRADIENT_PURPLE_START": {
-    "dark": "#a056f273",
-    "light": "#f3e6ffcc",
-    "midnight": "#a056f240",
-    "darker": "#a056f24d"
-  },
   "BACKGROUND_MODIFIER_ACCENT": {
     "dark": "#4e50587a",
     "light": "#80848e3d",
@@ -826,6 +754,78 @@
     "light": "#f2f3f5",
     "midnight": "#000000",
     "darker": "#1c1d23"
+  },
+  "EXPRESSIVE_GRADIENT_BLUE_END": {
+    "dark": "#161a8a73",
+    "light": "#a0a9facc",
+    "midnight": "#161a8a40",
+    "darker": "#161a8a4d"
+  },
+  "EXPRESSIVE_GRADIENT_BLUE_START": {
+    "dark": "#5865f273",
+    "light": "#e6e8ffcc",
+    "midnight": "#5865f240",
+    "darker": "#5865f24d"
+  },
+  "EXPRESSIVE_GRADIENT_GREEN_END": {
+    "dark": "#00663873",
+    "light": "#8af7b5cc",
+    "midnight": "#00663840",
+    "darker": "#0066384d"
+  },
+  "EXPRESSIVE_GRADIENT_GREEN_START": {
+    "dark": "#21bb6373",
+    "light": "#e5fff0cc",
+    "midnight": "#21bb6340",
+    "darker": "#21bb634d"
+  },
+  "EXPRESSIVE_GRADIENT_NITRO_GREEN_END": {
+    "dark": "#1414cb80",
+    "light": "#5865f2e6",
+    "midnight": "#1414cb4d",
+    "darker": "#1414cb66"
+  },
+  "EXPRESSIVE_GRADIENT_NITRO_GREEN_START": {
+    "dark": "#21bb6380",
+    "light": "#e5fff0e6",
+    "midnight": "#21bb634d",
+    "darker": "#21bb6366"
+  },
+  "EXPRESSIVE_GRADIENT_NITRO_PINK_END": {
+    "dark": "#1414cb80",
+    "light": "#5865f2e6",
+    "midnight": "#1414cb4d",
+    "darker": "#1414cb66"
+  },
+  "EXPRESSIVE_GRADIENT_NITRO_PINK_START": {
+    "dark": "#8c138180",
+    "light": "#fd99e9e6",
+    "midnight": "#8c13814d",
+    "darker": "#8c138166"
+  },
+  "EXPRESSIVE_GRADIENT_PINK_END": {
+    "dark": "#66006673",
+    "light": "#fd99e9cc",
+    "midnight": "#66006640",
+    "darker": "#6600664d"
+  },
+  "EXPRESSIVE_GRADIENT_PINK_START": {
+    "dark": "#b3269c73",
+    "light": "#fbe6ffcc",
+    "midnight": "#b3269c40",
+    "darker": "#b3269c4d"
+  },
+  "EXPRESSIVE_GRADIENT_PURPLE_END": {
+    "dark": "#3e168973",
+    "light": "#ca9ef9cc",
+    "midnight": "#3e168940",
+    "darker": "#3e16894d"
+  },
+  "EXPRESSIVE_GRADIENT_PURPLE_START": {
+    "dark": "#a056f273",
+    "light": "#f3e6ffcc",
+    "midnight": "#a056f240",
+    "darker": "#a056f24d"
   },
   "FOCUS_PRIMARY": {
     "dark": "#00aafc",
