@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = kiloes.items;
             entity = entity.length;
             michal = 0;
-            if(!(!(entity <= michal))) { _fun00002_ip = 320; continue _fun00001 }
+            if(!(!(entity <= michal))) { _fun00002_ip = 328; continue _fun00001 }
  77:
             zuuluu = kiloes.type;
             oscard = _closure1_slot0;
@@ -125,11 +125,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['maxWidth'] = golfie;
             golfie = true;
             report['borderless'] = golfie;
+            golfie = 1;
+            report['bioLineClamp'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 320:
+ 328:
             entity = null;
             return entity;
         }

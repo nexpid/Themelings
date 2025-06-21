@@ -6168,34 +6168,34 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = function(argFoo) { // Original name: value
                 _fun00159: for(var _fun00160_ip = 0; ; ) switch(_fun00160_ip) {
  0:
-                    oscard = argFoo;
-                    michal = this;
-                    tangon = michal._videoQuality;
-                    zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00160_ip = 401; continue _fun00159 }
+                    golfie = argFoo;
+                    zuuluu = this;
+                    michal = zuuluu._videoQuality;
+                    tangon = null;
+                    if(!(tangon != michal)) { _fun00160_ip = 401; continue _fun00159 }
  21:
-                    report = michal.context;
+                    report = zuuluu.context;
                     entity = _closure1_slot25;
                     entity = entity.DEFAULT;
                     if(!(report === entity)) { _fun00160_ip = 401; continue _fun00159 }
  46:
-                    entity = tangon.getInboundStats;
-                    verify = entity.bind(tangon)(oscard);
-                    entity = zuuluu == verify;
+                    entity = michal.getInboundStats;
+                    verify = entity.bind(michal)(golfie);
+                    entity = tangon == verify;
                     foxtra = undefined;
-                    golfie = undefined;
+                    oscard = undefined;
                     if(entity) { _fun00160_ip = 74; continue _fun00159 }
  68:
-                    golfie = verify.num_frames;
+                    oscard = verify.num_frames;
  74:
-                    option = zuuluu != golfie;
+                    option = tangon != oscard;
                     report = 0;
                     entity = 0;
                     if(!option) { _fun00160_ip = 88; continue _fun00159 }
  85:
-                    entity = golfie;
+                    entity = oscard;
  88:
-                    if(!(zuuluu != verify)) { _fun00160_ip = 401; continue _fun00159 }
+                    if(!(tangon != verify)) { _fun00160_ip = 401; continue _fun00159 }
  95:
                     if(!(entity > report)) { _fun00160_ip = 401; continue _fun00159 }
  102:
@@ -6204,12 +6204,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = 20;
                     entity = backup[entity];
                     option = romeon.bind(foxtra)(entity);
-                    golfie = option.track;
+                    oscard = option.track;
                     entity = _closure1_slot20;
                     report = entity.VIDEO_STREAM_ENDED;
                     entity = {};
-                    offset = michal._getAnalyticsProperties;
-                    kiloes = offset.bind(michal)();
+                    offset = zuuluu._getAnalyticsProperties;
+                    kiloes = offset.bind(zuuluu)();
                     sizing = entity;
                     offset = copyDataProperties(sizing, kiloes);
                     offset = 44;
@@ -6219,12 +6219,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     romeon = offset.bind(romeon)();
                     offset = 'app_hardware_acceleration_enabled';
                     entity[offset] = romeon;
-                    offset = michal.getMediaSessionId;
-                    romeon = offset.bind(michal)();
+                    offset = zuuluu.getMediaSessionId;
+                    romeon = offset.bind(zuuluu)();
                     offset = 'media_session_id';
                     entity[offset] = romeon;
                     offset = 'sender_user_id';
-                    entity[offset] = oscard;
+                    entity[offset] = golfie;
                     romeon = 'User disconnected';
                     offset = 'reason';
                     entity[offset] = romeon;
@@ -6233,11 +6233,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity[romeon] = offset;
                     backup = _closure1_slot18;
                     foxtra = backup.getRegion;
-                    romeon = michal.hostname;
+                    romeon = zuuluu.hostname;
                     foxtra = foxtra.bind(backup)(romeon);
                     romeon = 'guild_region';
                     entity[romeon] = foxtra;
-                    foxtra = michal.hostname;
+                    foxtra = zuuluu.hostname;
                     romeon = 'hostname';
                     entity[romeon] = foxtra;
                     romeon = _closure1_slot15;
@@ -6248,70 +6248,84 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     sizing = entity;
                     kiloes = verify;
                     verify = copyDataProperties(sizing, kiloes);
-                    verify = tangon.getNetworkStats;
-                    kiloes = verify.bind(tangon)();
+                    verify = michal.getNetworkStats;
+                    kiloes = verify.bind(michal)();
                     sizing = entity;
                     verify = copyDataProperties(sizing, kiloes);
-                    verify = tangon.getCodecUsageStats;
-                    kiloes = verify.bind(tangon)(offset, oscard);
+                    verify = michal.getCodecUsageStats;
+                    kiloes = verify.bind(michal)(offset, golfie);
                     sizing = entity;
                     verify = copyDataProperties(sizing, kiloes);
-                    entity = golfie.bind(option)(report, entity);
-                    entity = tangon.destroyUser;
-                    entity = entity.bind(tangon)(oscard);
-                    tangon = michal._videoHealthManager;
-                    if(!(zuuluu != tangon)) { _fun00160_ip = 401; continue _fun00159 }
+                    entity = oscard.bind(option)(report, entity);
+                    entity = michal.destroyUser;
+                    entity = entity.bind(michal)(golfie);
+                    michal = zuuluu._videoHealthManager;
+                    if(!(tangon != michal)) { _fun00160_ip = 401; continue _fun00159 }
  390:
-                    entity = tangon.deleteUser;
-                    entity = entity.bind(tangon)(oscard);
+                    entity = michal.deleteUser;
+                    entity = entity.bind(michal)(golfie);
  401:
-                    tangon = michal._connection;
-                    if(!(zuuluu != tangon)) { _fun00160_ip = 422; continue _fun00159 }
+                    michal = zuuluu._connection;
+                    if(!(tangon != michal)) { _fun00160_ip = 422; continue _fun00159 }
  411:
-                    entity = tangon.destroyUser;
-                    entity = entity.bind(tangon)(oscard);
+                    entity = michal.destroyUser;
+                    entity = entity.bind(michal)(golfie);
  422:
-                    tangon = michal._localMediaSinkWantsManager;
-                    if(!(zuuluu != tangon)) { _fun00160_ip = 443; continue _fun00159 }
+                    michal = zuuluu._localMediaSinkWantsManager;
+                    if(!(tangon != michal)) { _fun00160_ip = 443; continue _fun00159 }
  432:
-                    entity = tangon.destroyUser;
-                    entity = entity.bind(tangon)(oscard);
+                    entity = michal.destroyUser;
+                    entity = entity.bind(michal)(golfie);
  443:
-                    tangon = michal._userIds;
-                    entity = tangon.delete;
-                    entity = entity.bind(tangon)(oscard);
-                    report = michal.emit;
-                    golfie = _closure1_slot0;
-                    tangon = _closure1_slot3;
+                    michal = zuuluu._userIds;
+                    entity = michal.delete;
+                    entity = entity.bind(michal)(golfie);
+                    oscard = zuuluu.emit;
+                    option = _closure1_slot0;
+                    report = _closure1_slot3;
                     entity = 37;
-                    tangon = tangon[entity];
+                    report = report[entity];
                     entity = undefined;
-                    tangon = golfie.bind(entity)(tangon);
-                    tangon = tangon.RTCConnectionEvent;
-                    tangon = tangon.ClientDisconnect;
-                    tangon = report.bind(michal)(tangon, oscard);
-                    oscard = michal._goLiveQualityManager;
-                    if(!(zuuluu != oscard)) { _fun00160_ip = 535; continue _fun00159 }
+                    report = option.bind(entity)(report);
+                    report = report.RTCConnectionEvent;
+                    report = report.ClientDisconnect;
+                    report = oscard.bind(zuuluu)(report, golfie);
+                    golfie = zuuluu._goLiveQualityManager;
+                    if(!(tangon != golfie)) { _fun00160_ip = 535; continue _fun00159 }
  518:
-                    report = oscard.updateCallUserIds;
-                    tangon = michal._userIds;
-                    tangon = report.bind(oscard)(tangon);
+                    oscard = golfie.updateCallUserIds;
+                    report = zuuluu._userIds;
+                    report = oscard.bind(golfie)(report);
  535:
-                    oscard = michal._localMediaSinkWantsManager;
-                    if(!(zuuluu != oscard)) { _fun00160_ip = 562; continue _fun00159 }
+                    golfie = zuuluu._localMediaSinkWantsManager;
+                    if(!(tangon != golfie)) { _fun00160_ip = 562; continue _fun00159 }
  545:
-                    report = oscard.updateCallUserIds;
-                    tangon = michal._userIds;
-                    tangon = report.bind(oscard)(tangon);
+                    oscard = golfie.updateCallUserIds;
+                    report = zuuluu._userIds;
+                    report = oscard.bind(golfie)(report);
  562:
-                    tangon = michal._videoQuality;
-                    if(!(zuuluu != tangon)) { _fun00160_ip = 594; continue _fun00159 }
+                    oscard = zuuluu._videoQuality;
+                    if(!(tangon != oscard)) { _fun00160_ip = 594; continue _fun00159 }
  572:
-                    zuuluu = tangon.updateCallUserIdsCount;
-                    michal = michal._userIds;
-                    michal = michal.size;
-                    michal = zuuluu.bind(tangon)(michal);
+                    report = oscard.updateCallUserIdsCount;
+                    tangon = zuuluu._userIds;
+                    tangon = tangon.size;
+                    tangon = report.bind(oscard)(tangon);
  594:
+                    tangon = zuuluu._userIds;
+                    report = tangon.size;
+                    tangon = 1;
+                    if(!(tangon === report)) { _fun00160_ip = 647; continue _fun00159 }
+ 612:
+                    tangon = _closure1_slot0;
+                    report = _closure1_slot3;
+                    michal = 18;
+                    michal = report[michal];
+                    tangon = tangon.bind(entity)(michal);
+                    michal = tangon.now;
+                    michal = michal.bind(tangon)();
+                    zuuluu['_secureFramesLastBecameAloneTime'] = michal;
+ 647:
                     return entity;
                 }
             };
@@ -6646,88 +6660,88 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     yankee = oscard.protocolVersion;
                     verify = 'protocol_version';
                     michal[verify] = yankee;
+                    yankee = oscard.initReceivedTime;
+                    verify = option._connectStartTime;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'start_to_init_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.initFinishedTime;
                     verify = oscard.initReceivedTime;
-                    option = option._connectStartTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'start_to_init_duration';
-                    michal[option] = verify;
-                    verify = oscard.initFinishedTime;
-                    option = oscard.initReceivedTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'init_duration';
-                    michal[option] = verify;
-                    verify = oscard.firstProposalsFinishedTime;
-                    option = oscard.firstProposalsReceivedTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'first_proposals_duration';
-                    michal[option] = verify;
-                    verify = oscard.lastProposalsFinishedTime;
-                    option = oscard.lastProposalsReceivedTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'last_proposals_duration';
-                    michal[option] = verify;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'init_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.firstProposalsFinishedTime;
+                    verify = oscard.firstProposalsReceivedTime;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'first_proposals_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.lastProposalsFinishedTime;
                     verify = oscard.lastProposalsReceivedTime;
-                    option = oscard.firstProposalsReceivedTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'duration_between_proposals';
-                    michal[option] = verify;
-                    verify = oscard.totalProposalsSize;
-                    option = 'total_proposals_size';
-                    michal[option] = verify;
-                    verify = oscard.totalCommitWelcomeSize;
-                    option = 'total_commit_welcome_size';
-                    michal[option] = verify;
-                    verify = oscard.welcomeFinishedTime;
-                    option = oscard.welcomeReceivedTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'welcome_duration';
-                    michal[option] = verify;
-                    verify = oscard.welcomeSize;
-                    option = 'welcome_size';
-                    michal[option] = verify;
-                    verify = oscard.welcomeError;
-                    option = 'welcome_error';
-                    michal[option] = verify;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'last_proposals_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.lastProposalsReceivedTime;
+                    verify = oscard.firstProposalsReceivedTime;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'duration_between_proposals';
+                    michal[verify] = yankee;
+                    yankee = oscard.totalProposalsSize;
+                    verify = 'total_proposals_size';
+                    michal[verify] = yankee;
+                    yankee = oscard.totalCommitWelcomeSize;
+                    verify = 'total_commit_welcome_size';
+                    michal[verify] = yankee;
+                    yankee = oscard.welcomeReceivedTime;
+                    verify = oscard.initFinishedTime;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'welcome_wait_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.welcomeFinishedTime;
                     verify = oscard.welcomeReceivedTime;
-                    option = oscard.lastProposalsFinishedTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'welcome_wait_duration';
-                    michal[option] = verify;
-                    verify = oscard.commitFinishedTime;
-                    option = oscard.commitReceivedTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'commit_duration';
-                    michal[option] = verify;
-                    verify = oscard.commitSize;
-                    option = 'commit_size';
-                    michal[option] = verify;
-                    verify = oscard.commitError;
-                    option = 'commit_error';
-                    michal[option] = verify;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'welcome_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.welcomeSize;
+                    verify = 'welcome_size';
+                    michal[verify] = yankee;
+                    yankee = oscard.welcomeError;
+                    verify = 'welcome_error';
+                    michal[verify] = yankee;
+                    yankee = oscard.commitReceivedTime;
+                    verify = oscard.lastProposalsFinishedTime;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'commit_wait_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.commitFinishedTime;
                     verify = oscard.commitReceivedTime;
-                    option = oscard.lastProposalsFinishedTime;
+                    yankee = offset.bind(entity)(yankee, verify);
+                    verify = 'commit_duration';
+                    michal[verify] = yankee;
+                    yankee = oscard.commitSize;
+                    verify = 'commit_size';
+                    michal[verify] = yankee;
+                    yankee = oscard.commitError;
+                    verify = 'commit_error';
+                    michal[verify] = yankee;
+                    verify = oscard.prepareReceivedTime;
+                    option = option._secureFramesLastBecameAloneTime;
                     verify = offset.bind(entity)(verify, option);
-                    option = 'commit_wait_duration';
+                    option = 'prepare_wait_duration';
                     michal[option] = verify;
                     verify = oscard.prepareFinishedTime;
                     option = oscard.prepareReceivedTime;
                     verify = offset.bind(entity)(verify, option);
                     option = 'prepare_duration';
                     michal[option] = verify;
-                    verify = oscard.prepareReceivedTime;
-                    option = oscard.lastProposalsFinishedTime;
+                    verify = oscard.executeReceivedTime;
+                    option = oscard.readyTime;
                     verify = offset.bind(entity)(verify, option);
-                    option = 'prepare_wait_duration';
+                    option = 'execute_wait_duration';
                     michal[option] = verify;
                     verify = oscard.executeFinishedTime;
                     option = oscard.executeReceivedTime;
                     verify = offset.bind(entity)(verify, option);
                     option = 'execute_duration';
-                    michal[option] = verify;
-                    verify = oscard.executeReceivedTime;
-                    option = oscard.readyTime;
-                    verify = offset.bind(entity)(verify, option);
-                    option = 'execute_wait_duration';
                     michal[option] = verify;
                     verify = oscard.executeError;
                     option = 'execute_error';
@@ -6821,116 +6835,125 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = function(argFoo) { // Original name: value
                 _fun00177: for(var _fun00178_ip = 0; ; ) switch(_fun00178_ip) {
  0:
-                    golfie = argFoo;
+                    report = argFoo;
                     zuuluu = this;
                     var _closure3_slot0 = zuuluu;
-                    var _closure3_slot1 = golfie;
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot3;
-                    entity = 18;
-                    tangon = tangon[entity];
+                    var _closure3_slot1 = report;
+                    option = _closure1_slot0;
+                    entity = _closure1_slot3;
+                    golfie = 18;
+                    oscard = entity[golfie];
                     entity = undefined;
-                    report = report.bind(entity)(tangon);
-                    tangon = report.now;
-                    tangon = tangon.bind(report)();
-                    var _closure3_slot2 = tangon;
-                    oscard = 0;
-                    if(!(!(golfie > oscard))) { _fun00178_ip = 92; continue _fun00177 }
+                    option = option.bind(entity)(oscard);
+                    oscard = option.now;
+                    option = oscard.bind(option)();
+                    var _closure3_slot2 = option;
+                    offset = 0;
+                    if(!(!(report > offset))) { _fun00178_ip = 98; continue _fun00177 }
  60:
-                    report = zuuluu._connection;
-                    tangon = null;
-                    if(!(tangon != report)) { _fun00178_ip = 179; continue _fun00177 }
- 72:
-                    tangon = report.prepareSecureFramesTransition;
+                    verify = zuuluu._connection;
+                    oscard = null;
+                    if(!(oscard != verify)) { _fun00178_ip = 268; continue _fun00177 }
+ 75:
+                    oscard = verify.prepareSecureFramesTransition;
                     michal = function() {
                         _fun00179: for(var _fun00180_ip = 0; ; ) switch(_fun00180_ip) {
  0:
                             entity = undefined;
-                            offset = undefined;
-                            oscard = undefined;
                             michal = undefined;
-                            tangon = _closure1_slot0;
-                            zuuluu = _closure1_slot3;
-                            verify = 18;
-                            zuuluu = zuuluu[verify];
-                            tangon = tangon.bind(entity)(zuuluu);
-                            zuuluu = tangon.now;
-                            offset = zuuluu.bind(tangon)();
-                            oscard = false;
- 42: // try_start_0
-                            zuuluu = _closure3_slot0;
-                            tangon = zuuluu._connection;
-                            michal = tangon;
-                            zuuluu = null;
-                            if(!(zuuluu != tangon)) { _fun00180_ip = 80; continue _fun00179 }
- 64:
-                            tangon = michal;
-                            zuuluu = tangon.executeSecureFramesTransition;
+                            zuuluu = false;
+ 6: // try_start_0
+                            tangon = _closure3_slot0;
+                            report = tangon._connection;
+                            michal = report;
+                            tangon = null;
+                            if(!(tangon != report)) { _fun00180_ip = 44; continue _fun00179 }
+ 28:
+                            report = michal;
+                            tangon = report.executeSecureFramesTransition;
                             michal = 0;
-                            michal = zuuluu.bind(tangon)(michal);
- 80: // try_end0
-                            _fun00180_ip = 117; continue _fun00179;
- 82: // catch_target0
-                            CatchBlockStart(arg_register=3);
-                            oscard = true;
-                            zuuluu = _closure1_slot1;
-                            report = _closure1_slot3;
+                            michal = tangon.bind(report)(michal);
+ 44: // try_end0
+                            _fun00180_ip = 84; continue _fun00179;
+ 46: // catch_target0
+                            CatchBlockStart(arg_register=4);
+                            zuuluu = true;
+                            tangon = _closure1_slot1;
+                            oscard = _closure1_slot3;
                             michal = 59;
-                            michal = report[michal];
-                            zuuluu = zuuluu.bind(entity)(michal);
-                            michal = zuuluu.captureException;
-                            michal = michal.bind(zuuluu)(tangon);
- 117:
-                            michal = _closure3_slot1;
-                            tangon = 0;
-                            if(!(michal > tangon)) { _fun00180_ip = 218; continue _fun00179 }
- 130:
-                            zuuluu = _closure3_slot0;
-                            report = zuuluu._storeSecureFrameTransitionData;
+                            michal = oscard[michal];
+                            tangon = tangon.bind(entity)(michal);
+                            michal = tangon.captureException;
+                            michal = michal.bind(tangon)(report);
+ 84:
+                            tangon = _closure3_slot0;
+                            report = tangon._storeSecureFrameTransitionData;
                             michal = {};
-                            yankee = _closure3_slot2;
-                            michal['initReceivedTime'] = yankee;
-                            michal['initFinishedTime'] = offset;
-                            option = _closure3_slot1;
-                            michal['protocolVersion'] = option;
+                            golfie = _closure3_slot2;
+                            michal['initReceivedTime'] = golfie;
                             option = _closure1_slot0;
-                            golfie = _closure1_slot3;
-                            golfie = golfie[verify];
+                            verify = _closure1_slot3;
+                            golfie = 18;
+                            golfie = verify[golfie];
                             option = option.bind(entity)(golfie);
                             golfie = option.now;
                             golfie = golfie.bind(option)();
-                            michal['executeFinishedTime'] = golfie;
-                            michal['executeError'] = oscard;
-                            michal = report.bind(zuuluu)(tangon, michal);
-                            michal = zuuluu._trackSecureFrameTransition;
-                            michal = michal.bind(zuuluu)(tangon);
- 218:
+                            michal['initFinishedTime'] = golfie;
+                            oscard = _closure3_slot1;
+                            michal['protocolVersion'] = oscard;
+                            michal['executeError'] = zuuluu;
+                            zuuluu = 0;
+                            michal = report.bind(tangon)(zuuluu, michal);
+                            michal = tangon._trackSecureFrameTransition;
+                            michal = michal.bind(tangon)(zuuluu);
                             return entity;
                         }
                     };
-                    michal = tangon.bind(report)(oscard, golfie, michal);
-                    _fun00178_ip = 179; continue _fun00177;
- 92:
-                    report = zuuluu.logger;
-                    tangon = report.info;
+                    michal = oscard.bind(verify)(offset, report, michal);
+                    _fun00178_ip = 268; continue _fun00177;
+ 98:
+                    verify = zuuluu.logger;
+                    oscard = verify.info;
                     michal = global;
                     michal = michal.HermesInternal;
-                    oscard = michal.concat;
+                    offset = michal.concat;
                     michal = 'DAVE protocol init with protocol version: ';
-                    michal = oscard.bind(michal)(golfie);
-                    michal = tangon.bind(report)(michal);
-                    oscard = zuuluu._connection;
-                    michal = null;
-                    if(!(michal != oscard)) { _fun00178_ip = 169; continue _fun00177 }
- 144:
-                    report = oscard.prepareSecureFramesEpoch;
-                    tangon = zuuluu.trueChannelId;
+                    michal = offset.bind(michal)(report);
+                    michal = oscard.bind(verify)(michal);
+                    yankee = zuuluu._connection;
+                    verify = null;
+                    if(!(verify != yankee)) { _fun00178_ip = 175; continue _fun00177 }
+ 150:
+                    offset = yankee.prepareSecureFramesEpoch;
+                    oscard = zuuluu.trueChannelId;
                     michal = '1';
-                    michal = report.bind(oscard)(michal, golfie, tangon);
- 169:
+                    michal = offset.bind(yankee)(michal, report, oscard);
+ 175:
                     michal = zuuluu._sendMLSKeyPackage;
                     michal = michal.bind(zuuluu)();
- 179:
+                    michal = {};
+                    oscard = zuuluu._secureFramesNextTransitionState;
+                    if(!(verify == oscard)) { _fun00178_ip = 199; continue _fun00177 }
+ 197:
+                    oscard = {};
+ 199:
+                    backup = michal;
+                    foxtra = oscard;
+                    oscard = copyDataProperties(backup, foxtra);
+                    oscard = 'initReceivedTime';
+                    michal[oscard] = option;
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot3;
+                    tangon = tangon[golfie];
+                    oscard = oscard.bind(entity)(tangon);
+                    tangon = oscard.now;
+                    oscard = tangon.bind(oscard)();
+                    tangon = 'initFinishedTime';
+                    michal[tangon] = oscard;
+                    tangon = 'protocolVersion';
+                    michal[tangon] = report;
+                    zuuluu['_secureFramesNextTransitionState'] = michal;
+ 268:
                     return entity;
                 }
             };
@@ -7455,42 +7478,42 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal = function(argFoo, argBar, argBaz) {
                         _fun00203: for(var _fun00204_ip = 0; ; ) switch(_fun00204_ip) {
  0:
-                            golfie = argFoo;
+                            oscard = argFoo;
                             entity = argBar;
-                            tangon = _closure3_slot0;
-                            if(golfie) { _fun00204_ip = 83; continue _fun00203 }
+                            zuuluu = _closure3_slot0;
+                            if(oscard) { _fun00204_ip = 83; continue _fun00203 }
  16:
-                            option = tangon.logger;
-                            oscard = option.warn;
-                            report = _closure3_slot1;
-                            zuuluu = global;
-                            zuuluu = zuuluu.HermesInternal;
-                            verify = zuuluu.concat;
-                            zuuluu = 'Failed to process MLS commit for transition ID ';
-                            zuuluu = verify.bind(zuuluu)(report);
-                            zuuluu = oscard.bind(option)(zuuluu);
-                            zuuluu = tangon._flagMLSInvalidCommitWelcome;
-                            zuuluu = zuuluu.bind(tangon)(report);
-                            zuuluu = tangon._handleSecureFramesInit;
-                            zuuluu = zuuluu.bind(tangon)(entity);
+                            option = zuuluu.logger;
+                            report = option.warn;
+                            tangon = _closure3_slot1;
+                            michal = global;
+                            michal = michal.HermesInternal;
+                            verify = michal.concat;
+                            michal = 'Failed to process MLS commit for transition ID ';
+                            michal = verify.bind(michal)(tangon);
+                            michal = report.bind(option)(michal);
+                            michal = zuuluu._flagMLSInvalidCommitWelcome;
+                            michal = michal.bind(zuuluu)(tangon);
+                            michal = zuuluu._handleSecureFramesInit;
+                            michal = michal.bind(zuuluu)(entity);
                             _fun00204_ip = 122; continue _fun00203;
  83:
-                            report = tangon._handleSecureFramesRosterChange;
-                            zuuluu = argBaz;
-                            zuuluu = report.bind(tangon)(zuuluu);
-                            report = tangon._maybeSendSecureFramesTransitionReady;
-                            zuuluu = _closure3_slot1;
-                            zuuluu = report.bind(tangon)(zuuluu);
-                            zuuluu = tangon._recoverMLSFailures;
-                            zuuluu = zuuluu.bind(tangon)();
+                            tangon = zuuluu._handleSecureFramesRosterChange;
+                            michal = argBaz;
+                            michal = tangon.bind(zuuluu)(michal);
+                            tangon = zuuluu._maybeSendSecureFramesTransitionReady;
+                            michal = _closure3_slot1;
+                            michal = tangon.bind(zuuluu)(michal);
+                            michal = zuuluu._recoverMLSFailures;
+                            michal = michal.bind(zuuluu)();
  122:
-                            oscard = _closure3_slot0;
-                            report = oscard._storeSecureFrameTransitionData;
-                            tangon = _closure3_slot1;
-                            zuuluu = {};
-                            zuuluu['protocolVersion'] = entity;
+                            report = _closure3_slot0;
+                            tangon = report._storeSecureFrameTransitionData;
+                            zuuluu = _closure3_slot1;
+                            michal = {};
+                            michal['protocolVersion'] = entity;
                             entity = _closure3_slot3;
-                            zuuluu['commitReceivedTime'] = entity;
+                            michal['commitReceivedTime'] = entity;
                             verify = _closure1_slot0;
                             option = _closure1_slot3;
                             entity = 18;
@@ -7499,21 +7522,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             verify = verify.bind(entity)(option);
                             option = verify.now;
                             option = option.bind(verify)();
-                            zuuluu['commitFinishedTime'] = option;
-                            option = _closure3_slot2;
-                            option = option.byteLength;
-                            zuuluu['commitSize'] = option;
-                            golfie = !golfie;
-                            zuuluu['commitError'] = golfie;
-                            zuuluu = report.bind(oscard)(tangon, zuuluu);
-                            zuuluu = 0;
-                            if(!(zuuluu === tangon)) { _fun00204_ip = 245; continue _fun00203 }
- 226:
-                            tangon = _closure3_slot0;
-                            zuuluu = tangon._trackSecureFrameTransition;
-                            michal = _closure3_slot1;
-                            michal = zuuluu.bind(tangon)(michal);
- 245:
+                            michal['commitFinishedTime'] = option;
+                            golfie = _closure3_slot2;
+                            golfie = golfie.byteLength;
+                            michal['commitSize'] = golfie;
+                            oscard = !oscard;
+                            michal['commitError'] = oscard;
+                            michal = tangon.bind(report)(zuuluu, michal);
                             return entity;
                         }
                     };
@@ -7561,34 +7576,34 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal = function(argFoo, argBar, argBaz) {
                         _fun00207: for(var _fun00208_ip = 0; ; ) switch(_fun00208_ip) {
  0:
-                            golfie = argFoo;
-                            zuuluu = _closure3_slot0;
-                            if(golfie) { _fun00208_ip = 40; continue _fun00207 }
+                            oscard = argFoo;
+                            michal = _closure3_slot0;
+                            if(oscard) { _fun00208_ip = 40; continue _fun00207 }
  13:
-                            tangon = zuuluu._flagMLSInvalidCommitWelcome;
+                            zuuluu = michal._flagMLSInvalidCommitWelcome;
                             entity = _closure3_slot1;
-                            entity = tangon.bind(zuuluu)(entity);
-                            entity = zuuluu._sendMLSKeyPackage;
-                            entity = entity.bind(zuuluu)();
+                            entity = zuuluu.bind(michal)(entity);
+                            entity = michal._sendMLSKeyPackage;
+                            entity = entity.bind(michal)();
                             _fun00208_ip = 79; continue _fun00207;
  40:
-                            tangon = zuuluu._handleSecureFramesRosterChange;
+                            zuuluu = michal._handleSecureFramesRosterChange;
                             entity = argBaz;
-                            entity = tangon.bind(zuuluu)(entity);
-                            tangon = zuuluu._maybeSendSecureFramesTransitionReady;
+                            entity = zuuluu.bind(michal)(entity);
+                            zuuluu = michal._maybeSendSecureFramesTransitionReady;
                             entity = _closure3_slot1;
-                            entity = tangon.bind(zuuluu)(entity);
-                            entity = zuuluu._recoverMLSFailures;
-                            entity = entity.bind(zuuluu)();
+                            entity = zuuluu.bind(michal)(entity);
+                            entity = michal._recoverMLSFailures;
+                            entity = entity.bind(michal)();
  79:
-                            oscard = _closure3_slot0;
-                            report = oscard._storeSecureFrameTransitionData;
-                            tangon = _closure3_slot1;
-                            zuuluu = {};
+                            report = _closure3_slot0;
+                            tangon = report._storeSecureFrameTransitionData;
+                            zuuluu = _closure3_slot1;
+                            michal = {};
                             entity = argBar;
-                            zuuluu['protocolVersion'] = entity;
+                            michal['protocolVersion'] = entity;
                             entity = _closure3_slot3;
-                            zuuluu['welcomeReceivedTime'] = entity;
+                            michal['welcomeReceivedTime'] = entity;
                             verify = _closure1_slot0;
                             option = _closure1_slot3;
                             entity = 18;
@@ -7597,21 +7612,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             verify = verify.bind(entity)(option);
                             option = verify.now;
                             option = option.bind(verify)();
-                            zuuluu['welcomeFinishedTime'] = option;
-                            option = _closure3_slot2;
-                            option = option.byteLength;
-                            zuuluu['welcomeSize'] = option;
-                            golfie = !golfie;
-                            zuuluu['welcomeError'] = golfie;
-                            zuuluu = report.bind(oscard)(tangon, zuuluu);
-                            zuuluu = 0;
-                            if(!(zuuluu === tangon)) { _fun00208_ip = 205; continue _fun00207 }
- 186:
-                            tangon = _closure3_slot0;
-                            zuuluu = tangon._trackSecureFrameTransition;
-                            michal = _closure3_slot1;
-                            michal = zuuluu.bind(tangon)(michal);
- 205:
+                            michal['welcomeFinishedTime'] = option;
+                            golfie = _closure3_slot2;
+                            golfie = golfie.byteLength;
+                            michal['welcomeSize'] = golfie;
+                            oscard = !oscard;
+                            michal['welcomeError'] = oscard;
+                            michal = tangon.bind(report)(zuuluu, michal);
                             return entity;
                         }
                     };

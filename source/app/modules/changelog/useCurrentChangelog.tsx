@@ -158,12 +158,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['loaded'] = tangon;
             entity = michal;
  244:
-            _fun00002_ip = 269; continue _fun00001;
+            _fun00002_ip = 265; continue _fun00001;
  246:
             michal = {'id': null, 'changelog': null, 'loaded': false};
             michal['id'] = zuuluu;
             entity = michal;
- 269:
+ 265:
             return entity;
         }
     };

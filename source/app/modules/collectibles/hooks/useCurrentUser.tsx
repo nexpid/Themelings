@@ -26,7 +26,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/collectibles/hooks/useCurrentUser.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function() {
+    tangon = function() {
         zuuluu = _closure1_slot0;
         tangon = _closure1_slot2;
         entity = 1;
@@ -54,6 +54,27 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zuuluu['useCurrentUser'] = michal;
+    zuuluu['useCurrentUser'] = tangon;
+    michal = function() {
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        michal = 1;
+        zuuluu = zuuluu[michal];
+        michal = undefined;
+        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = tangon.useStateFromStores;
+        entity = _closure1_slot3;
+        michal = new Array(1);
+        michal[0] = entity;
+        entity = function() {
+            michal = _closure1_slot3;
+            entity = michal.getCurrentUser;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    zuuluu['useCurrentUserIfAvailable'] = michal;
     return entity;
 })();

@@ -1,4 +1,4 @@
-// app/modules/premium/experiments/PaymentModalPremiumRebrandExperiment.tsx
+// app/modules/premium/experiments/PremiumBrandRefreshGA.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
@@ -20,20 +20,20 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = golfie[michal];
     option = oscard.bind(entity)(michal);
     report = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2025-06_payment_modal_nitro_rebrand_experiment', 'label': 'Payment Modal Nitro Rebrand Experiment'};
+    michal = {'kind': 'user', 'id': '2025-09_premium_brand_refresh_ga', 'label': 'Premium Brand Refresh GA'};
     offset = {};
     yankee = false;
     offset['enabled'] = yankee;
     michal['defaultConfig'] = offset;
     verify = verify.CONNECTION_OPEN;
     michal['commonTriggerPoint'] = verify;
-    offset = {'id': 0, 'label': 'User sees control payment modal'};
+    offset = {'id': 0, 'label': 'User sees control'};
     verify = {};
     verify['enabled'] = yankee;
     offset['config'] = verify;
     verify = new Array(2);
     verify[0] = offset;
-    offset = {'id': 1, 'label': 'User sees nitro rebrand payment modal'};
+    offset = {'id': 1, 'label': 'User sees premium brand refresh'};
     yankee = {};
     yankee['enabled'] = romeon;
     offset['config'] = yankee;
@@ -45,9 +45,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/premium/experiments/PaymentModalPremiumRebrandExperiment.tsx';
+    report = 'modules/premium/experiments/PremiumBrandRefreshGA.tsx';
     report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: useEnablePaymentModalPremiumRebrandExperimentDesign
+    tangon = function(argFoo) { // Original name: useEnablePremiumBrandRefresh
         entity = argFoo;
         entity = entity.location;
         tangon = _closure1_slot0;
@@ -62,6 +62,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['default'] = tangon;
-    zuuluu['PaymentModalPremiumRebrandExperiment'] = michal;
+    zuuluu['PremiumBrandRefreshGA'] = michal;
     return entity;
 })();

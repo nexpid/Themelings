@@ -176,15 +176,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.bind(report)(zuuluu);
                     var _closure3_slot0 = zuuluu;
                     michal = _closure2_slot1;
-                    if(michal) { _fun00006_ip = 169; continue _fun00005 }
- 157:
+                    if(michal) { _fun00006_ip = 173; continue _fun00005 }
+ 161:
                     michal = zuuluu.stop;
                     michal = michal.bind(zuuluu)();
-                    _fun00006_ip = 178; continue _fun00005;
- 169:
+                    _fun00006_ip = 182; continue _fun00005;
+ 173:
                     michal = zuuluu.start;
                     michal = michal.bind(zuuluu)();
- 178:
+ 182:
                     entity = function() {
                         michal = _closure3_slot0;
                         entity = michal.stop;
@@ -231,15 +231,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.bind(report)(zuuluu);
                     var _closure3_slot0 = zuuluu;
                     michal = _closure2_slot1;
-                    if(michal) { _fun00008_ip = 169; continue _fun00007 }
- 157:
+                    if(michal) { _fun00008_ip = 173; continue _fun00007 }
+ 161:
                     michal = zuuluu.stop;
                     michal = michal.bind(zuuluu)();
-                    _fun00008_ip = 178; continue _fun00007;
- 169:
+                    _fun00008_ip = 182; continue _fun00007;
+ 173:
                     michal = zuuluu.start;
                     michal = michal.bind(zuuluu)();
- 178:
+ 182:
                     entity = function() {
                         michal = _closure3_slot0;
                         entity = michal.stop;

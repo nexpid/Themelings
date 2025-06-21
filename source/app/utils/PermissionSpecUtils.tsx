@@ -230,15 +230,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = ctrled.type;
             entity = _closure1_slot7;
             entity = entity.GUILD_CATEGORY;
-            if(!(entity !== tangon)) { _fun00006_ip = 2360; continue _fun00005 }
+            if(!(entity !== tangon)) { _fun00006_ip = 2364; continue _fun00005 }
  275:
             entity = _closure1_slot7;
             entity = entity.GUILD_VOICE;
-            if(!(entity !== tangon)) { _fun00006_ip = 1815; continue _fun00005 }
+            if(!(entity !== tangon)) { _fun00006_ip = 1819; continue _fun00005 }
  292:
             entity = _closure1_slot7;
             entity = entity.GUILD_STAGE_VOICE;
-            if(!(entity !== tangon)) { _fun00006_ip = 1192; continue _fun00005 }
+            if(!(entity !== tangon)) { _fun00006_ip = 1196; continue _fun00005 }
  309:
             entity = _closure1_slot7;
             entity = entity.GUILD_FORUM;
@@ -418,8 +418,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = yankee.generateChannelTextSection;
             michal = {'showPrivateThreads': false, 'showCreateThreads': false};
             backup = undefined;
-            if(!kiloes) { _fun00006_ip = 1061; continue _fun00005 }
- 1014:
+            if(!kiloes) { _fun00006_ip = 1065; continue _fun00005 }
+ 1018:
             update = _closure1_slot0;
             result = _closure1_slot3;
             result = result[sizing];
@@ -458,7 +458,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             result['setUpAutomod'] = vacuum;
             backup = update.bind(source)(ctrled, result);
- 1061:
+ 1065:
             michal['sectionDescription'] = backup;
             michal['inSoundmojiExperiment'] = output;
             michal = verify.bind(yankee)(oscard, foxtra, michal);
@@ -509,7 +509,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = entity;
             michal = arraySpread(cntext, record, config);
             return entity;
- 1192:
+ 1196:
             verify = _closure1_slot2;
             michal = _closure1_slot3;
             tangon = 13;
@@ -603,8 +603,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(backup)(michal);
             michal = {};
             backup = undefined;
-            if(!kiloes) { _fun00006_ip = 1703; continue _fun00005 }
- 1636:
+            if(!kiloes) { _fun00006_ip = 1707; continue _fun00005 }
+ 1640:
             echoed = _closure1_slot0;
             result = _closure1_slot3;
             update = result[sizing];
@@ -632,7 +632,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             result['setUpAutomod'] = ctrled;
             backup = update.bind(source)(echoed, result);
- 1703:
+ 1707:
             michal['sectionDescription'] = backup;
             michal['inSoundmojiExperiment'] = output;
             michal = verify.bind(foxtra)(oscard, report, michal);
@@ -657,7 +657,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = report.bind(verify)(oscard, tangon, michal);
             entity[6] = michal;
             return entity;
- 1815:
+ 1819:
             verify = _closure1_slot2;
             michal = _closure1_slot3;
             tangon = 13;
@@ -723,8 +723,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(foxtra)(michal);
             michal = {};
             foxtra = undefined;
-            if(!kiloes) { _fun00006_ip = 2187; continue _fun00005 }
- 2120:
+            if(!kiloes) { _fun00006_ip = 2191; continue _fun00005 }
+ 2124:
             sizing = _closure1_slot0;
             kiloes = _closure1_slot3;
             result = kiloes[backup];
@@ -752,7 +752,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             kiloes['setUpAutomod'] = update;
             foxtra = result.bind(echoed)(sizing, kiloes);
- 2187:
+ 2191:
             michal['sectionDescription'] = foxtra;
             michal['inSoundmojiExperiment'] = output;
             michal = verify.bind(yankee)(oscard, report, michal);
@@ -789,7 +789,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(report)(oscard, michal);
             entity[5] = michal;
             return entity;
- 2360:
+ 2364:
             report = _closure1_slot2;
             yankee = _closure1_slot3;
             tangon = 13;

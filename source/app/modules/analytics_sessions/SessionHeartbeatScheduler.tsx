@@ -796,7 +796,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = golfie.bind(option)(oscard);
         option = _closure1_slot6;
         golfie = option.addChangeListener;
-        oscard = function() {
+        oscard = function() { // Original name: handleRTCStateChange
             zuuluu = _closure1_slot6;
             michal = zuuluu.getState;
             michal = michal.bind(zuuluu)();
@@ -809,15 +809,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = golfie.bind(option)(oscard);
         option = _closure1_slot4;
         golfie = option.addChangeListener;
-        oscard = function() {
-            zuuluu = _closure1_slot4;
-            michal = zuuluu.isAuthenticated;
-            michal = michal.bind(zuuluu)();
-            _closure1_slot22 = michal;
-            michal = _closure1_slot28;
-            entity = undefined;
-            michal = michal.bind(entity)();
-            return entity;
+        oscard = function() { // Original name: handleAuthenticationChange
+            _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.isAuthenticated;
+                michal = michal.bind(zuuluu)();
+                zuuluu = _closure1_slot22;
+                if(!(michal !== zuuluu)) { _fun00020_ip = 112; continue _fun00019 }
+ 25:
+                _closure1_slot22 = michal;
+                tangon = _closure1_slot0;
+                zuuluu = _closure1_slot2;
+                michal = 13;
+                zuuluu = zuuluu[michal];
+                michal = undefined;
+                zuuluu = tangon.bind(michal)(zuuluu);
+                report = zuuluu.Storage;
+                tangon = report.remove;
+                zuuluu = _closure1_slot12;
+                zuuluu = tangon.bind(report)(zuuluu);
+                zuuluu = {'state': 'loaded', 'session': null};
+                _closure1_slot19 = zuuluu;
+                zuuluu = _closure1_slot24;
+                zuuluu = zuuluu.bind(michal)();
+                zuuluu = 0;
+                _closure1_slot18 = zuuluu;
+                entity = _closure1_slot28;
+                entity = entity.bind(michal)();
+ 112:
+                entity = undefined;
+                return entity;
+            }
         };
         oscard = golfie.bind(option)(oscard);
         oscard = 15;
@@ -825,26 +848,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = tangon.bind(entity)(golfie);
         verify = offset.subscribe;
         option = 'WINDOW_FOCUS';
-        golfie = function(argFoo) {
+        golfie = function(argFoo) { // Original name: handleWindowFocus
             entity = argFoo;
             michal = entity.focused;
-            _closure1_slot21 = michal;
-            michal = _closure1_slot28;
-            entity = undefined;
-            michal = michal.bind(entity)();
-            return entity;
-        };
-        golfie = verify.bind(offset)(option, golfie);
-        golfie = report[oscard];
-        offset = tangon.bind(entity)(golfie);
-        verify = offset.subscribe;
-        option = 'APP_STATE_UPDATE';
-        golfie = function(argFoo) {
-            entity = argFoo;
-            zuuluu = entity.state;
-            michal = _closure1_slot8;
-            michal = michal.ACTIVE;
-            michal = zuuluu === michal;
             _closure1_slot21 = michal;
             michal = _closure1_slot28;
             entity = undefined;
@@ -855,26 +861,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = report[oscard];
         option = tangon.bind(entity)(oscard);
         golfie = option.subscribe;
-        oscard = 'LOGOUT';
-        zuuluu = function() {
-            entity = false;
-            _closure1_slot22 = entity;
-            tangon = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 13;
-            michal = michal[entity];
+        oscard = 'APP_STATE_UPDATE';
+        zuuluu = function(argFoo) { // Original name: handleAppStateUpdate
+            entity = argFoo;
+            zuuluu = entity.state;
+            michal = _closure1_slot8;
+            michal = michal.ACTIVE;
+            michal = zuuluu === michal;
+            _closure1_slot21 = michal;
+            michal = _closure1_slot28;
             entity = undefined;
-            michal = tangon.bind(entity)(michal);
-            report = michal.Storage;
-            tangon = report.remove;
-            michal = _closure1_slot12;
-            michal = tangon.bind(report)(michal);
-            michal = {'state': 'loaded', 'session': null};
-            _closure1_slot19 = michal;
-            michal = _closure1_slot24;
             michal = michal.bind(entity)();
-            michal = 0;
-            _closure1_slot18 = michal;
             return entity;
         };
         zuuluu = golfie.bind(option)(oscard, zuuluu);
@@ -894,16 +891,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['initSessionHeartbeatScheduler'] = report;
     zuuluu['getSession'] = tangon;
     michal = function() { // Original name: getActiveSessionUnsafe
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             entity = _closure1_slot19;
             michal = entity.state;
             entity = 'uninitialized';
-            if(!(entity !== michal)) { _fun00020_ip = 34; continue _fun00019 }
+            if(!(entity !== michal)) { _fun00022_ip = 34; continue _fun00021 }
  22:
             entity = _closure1_slot19;
             michal = entity.session;
-            _fun00020_ip = 85; continue _fun00019;
+            _fun00022_ip = 85; continue _fun00021;
  34:
             report = _closure1_slot30;
             oscard = _closure1_slot0;
@@ -921,7 +918,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = null;
             report = tangon == michal;
             entity = null;
-            if(report) { _fun00020_ip = 137; continue _fun00019 }
+            if(report) { _fun00022_ip = 137; continue _fun00021 }
  96:
             oscard = _closure1_slot0;
             report = _closure1_slot2;
@@ -932,7 +929,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.isSessionExpired;
             zuuluu = zuuluu.bind(report)(michal);
             entity = null;
-            if(zuuluu) { _fun00020_ip = 137; continue _fun00019 }
+            if(zuuluu) { _fun00022_ip = 137; continue _fun00021 }
  134:
             entity = michal;
  137:

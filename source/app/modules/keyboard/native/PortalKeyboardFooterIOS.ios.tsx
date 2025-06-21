@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot5 = tangon;
     tangon = {};
-    golfie = "function PortalKeyboardFooterIOSIosTsx1(){const{interpolate,progress,bottom,animatedSheetIndex,height,EXPRESSION_FOOTER_HEIGHT}=this.__closure;const offset=interpolate(progress.get(),[0,1],[0,bottom]);if(animatedSheetIndex.get()>=0){return{transform:[{translateY:-height.get()+offset}]};}return{transform:[{translateY:interpolate(animatedSheetIndex.get(),[-1,0],[EXPRESSION_FOOTER_HEIGHT+bottom,0],'clamp')}]};}";
+    golfie = "function PortalKeyboardFooterIOSIosTsx1(){const{interpolate,progress,bottom,animatedSheetIndex,height,EXPRESSION_FOOTER_HEIGHT}=this.__closure;const offset=interpolate(progress.get(),[0,1],[0,bottom]);if(animatedSheetIndex.get()>=0){return{transform:[{translateY:height.get()+offset}]};}return{transform:[{translateY:interpolate(animatedSheetIndex.get(),[-1,0],[EXPRESSION_FOOTER_HEIGHT+bottom,0],'clamp')}]};}";
     tangon['code'] = golfie;
     var _closure1_slot6 = tangon;
     tangon = 9;
@@ -150,21 +150,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new Array(1);
                     michal[0] = tangon;
                     entity['transform'] = michal;
-                    _fun00004_ip = 283; continue _fun00003;
+                    _fun00004_ip = 280; continue _fun00003;
  239:
                     michal = {};
                     tangon = {};
                     oscard = _closure2_slot3;
                     zuuluu = oscard.get;
                     zuuluu = zuuluu.bind(oscard)();
-                    zuuluu = -zuuluu;
                     zuuluu = zuuluu + report;
                     tangon['translateY'] = zuuluu;
                     zuuluu = new Array(1);
                     zuuluu[0] = tangon;
                     michal['transform'] = zuuluu;
                     entity = michal;
- 283:
+ 280:
                     return entity;
                 }
             };
@@ -183,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.EXPRESSION_FOOTER_HEIGHT;
             foxtra['EXPRESSION_FOOTER_HEIGHT'] = backup;
             verify['__closure'] = foxtra;
-            foxtra = 15152615727457.0;
+            foxtra = 5681202963788.0;
             verify['__workletHash'] = foxtra;
             foxtra = _closure1_slot6;
             verify['__initData'] = foxtra;

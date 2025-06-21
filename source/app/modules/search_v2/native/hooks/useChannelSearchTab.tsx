@@ -1,12 +1,12 @@
 // app/modules/search_v2/native/hooks/useChannelSearchTab.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
+    oscard = argBar;
     verify = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = verify;
-    var _closure1_slot2 = oscard;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo, argBar, argBaz) { // Original name: searchChannels
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;
@@ -41,34 +41,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = global;
     offset = tangon.Object;
     option = offset.defineProperty;
-    golfie = {};
+    report = {};
     entity = true;
-    golfie['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(offset)(zuuluu, entity, golfie);
+    entity = option.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    option = oscard[entity];
-    golfie = argCor;
+    option = golfie[entity];
+    report = argCor;
     entity = undefined;
-    golfie = golfie.bind(entity)(option);
-    var _closure1_slot3 = golfie;
-    golfie = 1;
-    golfie = oscard[golfie];
-    golfie = report.bind(entity)(golfie);
-    golfie = golfie.createZustandStore;
+    report = report.bind(entity)(option);
+    var _closure1_slot3 = report;
+    report = 1;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    report = report.createZustandStore;
     option = 2;
-    option = oscard[option];
-    option = report.bind(entity)(option);
+    option = golfie[option];
+    option = oscard.bind(entity)(option);
     offset = option.GUILD_VOCAL_CHANNELS_KEY;
     var _closure1_slot4 = offset;
     option = option.GUILD_SELECTABLE_CHANNELS_KEY;
     var _closure1_slot5 = option;
     option = 3;
-    option = oscard[option];
+    option = golfie[option];
     option = verify.bind(entity)(option);
     var _closure1_slot6 = option;
     option = 4;
-    option = oscard[option];
+    option = golfie[option];
     option = verify.bind(entity)(option);
     var _closure1_slot7 = option;
     verify = tangon.Object;
@@ -86,15 +86,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = _closure1_slot8;
         return entity;
     };
-    tangon = golfie.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
     var _closure1_slot9 = tangon;
-    tangon = 9;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/search_v2/native/hooks/useChannelSearchTab.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useChannelSearchTabCount
+    report = 9;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/search_v2/native/hooks/useChannelSearchTab.tsx';
+    report = oscard.bind(golfie)(report);
+    report = function(argFoo, argBar) { // Original name: useChannelSearchTabCount
         option = argFoo;
         zuuluu = argBar;
         var _closure2_slot0 = option;
@@ -262,7 +262,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zuuluu['default'] = tangon;
+    zuuluu['default'] = report;
+    zuuluu['ChannelSearchTabStore'] = tangon;
     tangon = function() { // Original name: useTextChannelSearchResults
         zuuluu = _closure1_slot9;
         michal = zuuluu.useField;

@@ -687,42 +687,46 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = michal.numColumns;
             option = michal.onViewableItemsChanged;
             var _closure2_slot0 = option;
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.useRef;
+            report = null;
+            source = michal.bind(zuuluu)(report);
+            var _closure2_slot1 = source;
             michal = _closure1_slot10;
             tangon = undefined;
             oscard = michal.bind(tangon)();
             zuuluu = _closure1_slot1;
-            report = _closure1_slot2;
+            golfie = _closure1_slot2;
             michal = 22;
-            michal = report[michal];
+            michal = golfie[michal];
             michal = zuuluu.bind(tangon)(michal);
             michal = michal.bind(tangon)();
             result = michal.bottom;
-            report = null;
             michal = report == yankee;
             zuuluu = 0.5;
             output = zuuluu;
-            if(michal) { _fun00008_ip = 175; continue _fun00007 }
- 126:
+            if(michal) { _fun00008_ip = 193; continue _fun00007 }
+ 144:
             michal = 1;
             output = zuuluu;
-            if(!(michal !== yankee)) { _fun00008_ip = 175; continue _fun00007 }
- 136:
+            if(!(michal !== yankee)) { _fun00008_ip = 193; continue _fun00007 }
+ 154:
             output = 0.8;
             michal = 2;
-            if(!(michal !== yankee)) { _fun00008_ip = 175; continue _fun00007 }
- 153:
+            if(!(michal !== yankee)) { _fun00008_ip = 193; continue _fun00007 }
+ 171:
             michal = 3;
             michal = yankee >= michal;
             output = undefined;
-            if(!michal) { _fun00008_ip = 175; continue _fun00007 }
- 165:
+            if(!michal) { _fun00008_ip = 193; continue _fun00007 }
+ 183:
             output = 0.99;
- 175:
+ 193:
             golfie = _closure1_slot3;
-            zuuluu = golfie.useCallback;
-            michal = new Array(1);
-            michal[0] = option;
-            entity = function(argFoo) {
+            offset = golfie.useCallback;
+            zuuluu = new Array(1);
+            zuuluu[0] = option;
+            michal = function(argFoo) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = argFoo;
@@ -739,7 +743,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            offset = zuuluu.bind(golfie)(entity, michal);
+            offset = offset.bind(golfie)(michal, zuuluu);
+            zuuluu = golfie.useEffect;
+            michal = new Array(2);
+            michal[0] = echoed;
+            michal[1] = option;
+            entity = function() {
+                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+                    zuuluu = _closure2_slot0;
+                    entity = null;
+                    if(!(entity != zuuluu)) { _fun00012_ip = 36; continue _fun00011 }
+ 13:
+                    michal = _closure2_slot1;
+                    michal = michal.current;
+                    if(!(entity != michal)) { _fun00012_ip = 36; continue _fun00011 }
+ 26:
+                    entity = michal.recomputeViewableItems;
+                    entity = entity.bind(michal)();
+ 36:
+                    entity = undefined;
+                    return entity;
+                }
+            };
+            entity = zuuluu.bind(golfie)(entity, michal);
             zuuluu = _closure1_slot9;
             michal = _closure1_slot4;
             entity = {};
@@ -748,55 +775,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = echoed.length;
             oscard = 0;
             oscard = oscard === golfie;
-            if(!oscard) { _fun00008_ip = 242; continue _fun00007 }
- 238:
+            if(!oscard) { _fun00008_ip = 290; continue _fun00007 }
+ 286:
             oscard = report == foxtra;
- 242:
-            if(!oscard) { _fun00008_ip = 249; continue _fun00007 }
- 245:
+ 290:
+            if(!oscard) { _fun00008_ip = 297; continue _fun00007 }
+ 293:
             oscard = report == backup;
- 249:
-            if(!oscard) { _fun00008_ip = 373; continue _fun00007 }
- 252:
+ 297:
+            if(!oscard) { _fun00008_ip = 421; continue _fun00007 }
+ 300:
             option = _closure1_slot8;
             golfie = _closure1_slot4;
             report = {};
-            source = _closure1_slot5;
-            source = source.absoluteFill;
-            report['style'] = source;
-            vacuum = _closure1_slot8;
-            ctrled = _closure1_slot1;
-            papara = _closure1_slot2;
-            source = 23;
-            source = papara[source];
-            ctrled = ctrled.bind(tangon)(source);
-            source = {};
-            cntext = _closure1_slot0;
-            sequen = 24;
-            config = papara[sequen];
-            config = cntext.bind(tangon)(config);
-            record = config.intl;
-            config = record.string;
-            sequen = papara[sequen];
-            sequen = cntext.bind(tangon)(sequen);
-            sequen = sequen.t;
-            sequen = sequen.V6nAfH;
-            sequen = config.bind(record)(sequen);
-            source['text'] = sequen;
-            source = vacuum.bind(tangon)(ctrled, source);
-            report['children'] = source;
+            ctrled = _closure1_slot5;
+            ctrled = ctrled.absoluteFill;
+            report['style'] = ctrled;
+            sequen = _closure1_slot8;
+            vacuum = _closure1_slot1;
+            target = _closure1_slot2;
+            ctrled = 23;
+            ctrled = target[ctrled];
+            vacuum = vacuum.bind(tangon)(ctrled);
+            ctrled = {};
+            papara = _closure1_slot0;
+            config = 24;
+            record = target[config];
+            record = papara.bind(tangon)(record);
+            cntext = record.intl;
+            record = cntext.string;
+            config = target[config];
+            config = papara.bind(tangon)(config);
+            config = config.t;
+            config = config.V6nAfH;
+            config = record.bind(cntext)(config);
+            ctrled['text'] = config;
+            ctrled = sequen.bind(tangon)(vacuum, ctrled);
+            report['children'] = ctrled;
             oscard = option.bind(tangon)(golfie, report);
- 373:
+ 421:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot8;
             golfie = _closure1_slot0;
-            source = _closure1_slot2;
+            ctrled = _closure1_slot2;
             oscard = 25;
-            oscard = source[oscard];
+            oscard = ctrled[oscard];
             oscard = golfie.bind(tangon)(oscard);
             golfie = oscard.AnimatedFlashList;
-            oscard = {'keyboardDismissMode': 'on-drag', 'keyboardShouldPersistTaps': 'handled'};
+            oscard = {'ref': null, 'keyboardDismissMode': 'on-drag', 'keyboardShouldPersistTaps': 'handled'};
+            oscard['ref'] = source;
             oscard['estimatedItemSize'] = update;
             oscard['data'] = echoed;
             echoed = _closure1_slot15;
@@ -809,9 +837,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = 16;
             output = output + result;
             kiloes['paddingBottom'] = output;
-            status = kiloes;
-            target = sizing;
-            sizing = copyDataProperties(status, target);
+            sierra = kiloes;
+            status = sizing;
+            sizing = copyDataProperties(sierra, status);
             oscard['contentContainerStyle'] = kiloes;
             kiloes = _closure1_slot13;
             oscard['keyExtractor'] = kiloes;
