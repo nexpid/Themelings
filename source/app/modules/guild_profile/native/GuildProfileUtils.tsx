@@ -88,10 +88,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure2_slot0;
                 michal = tangon.bind(report)(zuuluu, michal);
                 entity['canManageChannels'] = michal;
-                _fun00002_ip = 152; continue _fun00001;
+                _fun00002_ip = 156; continue _fun00001;
  142:
                 entity = {'canAccessSettings': false, 'canEditNickname': false, 'canManageChannels': false};
- 152:
+ 156:
                 return entity;
             }
         };
