@@ -172,7 +172,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = option[entity];
                 entity = undefined;
                 tangon = golfie.bind(entity)(michal);
-                zuuluu = tangon.toggleKeyboard;
+                zuuluu = tangon.setKeyboardType;
                 michal = {};
                 oscard = 12;
                 oscard = option[oscard];

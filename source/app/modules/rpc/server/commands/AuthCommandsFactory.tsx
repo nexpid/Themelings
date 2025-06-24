@@ -11,7 +11,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot3 = oscard;
     entity = function() { // Original name: authorizeWithPrompt
         entity = undefined;
-        tangon = _closure1_slot16;
+        tangon = _closure1_slot17;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot16 = entity;
     entity = function() { // Original name: _authorizeWithPrompt
         report = undefined;
         entity = undefined;
@@ -31,80 +31,101 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 1757; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 1771; continue _fun00001 }
  15:
                     source = michal.client_id;
-                    report = michal.response_type;
+                    zuuluu = michal.response_type;
                     oscard = undefined;
-                    if(!(report === oscard)) { _fun00002_ip = 37; continue _fun00001 }
+                    if(!(zuuluu === oscard)) { _fun00002_ip = 37; continue _fun00001 }
  33:
-                    report = 'code';
+                    zuuluu = 'code';
  37:
-                    echoed = report;
+                    echoed = zuuluu;
                     result = michal.redirect_uri;
                     output = michal.code_challenge;
                     sizing = michal.code_challenge_method;
                     kiloes = michal.state;
                     backup = michal.nonce;
-                    limora = michal.scope;
-                    whisks = michal.permissions;
-                    cntext = michal.guild_id;
-                    record = michal.channel_id;
-                    config = michal.prompt;
-                    sequen = michal.disable_guild_select;
+                    whisks = michal.scope;
+                    equals = michal.permissions;
+                    papara = michal.guild_id;
+                    cntext = michal.channel_id;
+                    record = michal.prompt;
+                    config = michal.disable_guild_select;
                     report = michal.integration_type;
-                    ctrled = michal.pid;
-                    variable40 = michal.signal;
+                    vacuum = michal.pid;
+                    ctrled = michal.signal;
+                    zuuluu = michal.isSocketRpcPrivateScope;
                     golfie = argBar;
-                    status = argBaz;
+                    sierra = argBaz;
                     romeon = undefined;
                     option = undefined;
-                    vacuum = undefined;
-                    sierra = undefined;
+                    sequen = undefined;
+                    limora = undefined;
                     update = undefined;
                     verify = undefined;
                     foxtra = undefined;
-                    papara = undefined;
                     target = undefined;
-                    SaveGenerator(address=149);
- 147:
+                    status = undefined;
+                    SaveGenerator(address=155);
+ 153:
                     return oscard;
- 149:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 1754; continue _fun00001 }
- 158:
-                    zuuluu = variable40;
+ 155:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=9);
+                    if(offset) { _fun00002_ip = 1768; continue _fun00001 }
+ 164:
+                    yankee = ctrled;
                     offset = null;
-                    if(!(offset != zuuluu)) { _fun00002_ip = 182; continue _fun00001 }
- 167:
-                    zuuluu = variable40;
-                    zuuluu = zuuluu.aborted;
-                    if(zuuluu) { _fun00002_ip = 1683; continue _fun00001 }
- 182:
-                    zuuluu = source;
-                    if(!(offset != zuuluu)) { _fun00002_ip = 1612; continue _fun00001 }
- 192:
+                    if(!(offset != yankee)) { _fun00002_ip = 188; continue _fun00001 }
+ 173:
+                    yankee = ctrled;
+                    yankee = yankee.aborted;
+                    if(yankee) { _fun00002_ip = 1697; continue _fun00001 }
+ 188:
+                    yankee = source;
+                    if(!(offset != yankee)) { _fun00002_ip = 1626; continue _fun00001 }
+ 198:
+                    if(zuuluu) { _fun00002_ip = 279; continue _fun00001 }
+ 201:
                     zuuluu = result;
-                    if(!(offset == zuuluu)) { _fun00002_ip = 1541; continue _fun00001 }
- 202:
+                    if(!(offset != zuuluu)) { _fun00002_ip = 279; continue _fun00001 }
+ 208:
+                    quebec = _closure1_slot1;
+                    variable36 = _closure1_slot3;
+                    yankee = 8;
+                    yankee = variable36[yankee];
+                    variable36 = quebec.bind(oscard)(yankee);
+                    quebec = {};
+                    zuuluu = _closure1_slot15;
+                    zuuluu = zuuluu.OAUTH2_ERROR;
+                    quebec['errorCode'] = zuuluu;
+                    zuuluu = variable36.prototype;
+                    yankee = Object.create(zuuluu, {constructor: {value: variable36}});
+                    variable43 = 'Redirect URI cannot be used in the RPC OAuth2 Authorization flow';
+                    variable45 = yankee;
+                    variable44 = quebec;
+                    zuuluu = new variable45[variable36](variable44, variable43, variable42);
+                    zuuluu = zuuluu instanceof Object ? zuuluu : yankee;
+                    throw zuuluu;
+ 279:
                     update = new Array(0);
                     yankee = 'string';
-                    zuuluu = typeof limora;
-                    if(!(yankee !== zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
- 217:
+                    zuuluu = typeof whisks;
+                    if(!(yankee !== zuuluu)) { _fun00002_ip = 320; continue _fun00001 }
+ 294:
                     zuuluu = global;
                     yankee = zuuluu.Array;
                     zuuluu = yankee.isArray;
-                    zuuluu = zuuluu.bind(yankee)(limora);
-                    if(!zuuluu) { _fun00002_ip = 274; continue _fun00001 }
- 238:
-                    update = limora;
-                    _fun00002_ip = 274; continue _fun00001;
- 243:
-                    yankee = limora.split;
+                    zuuluu = zuuluu.bind(yankee)(whisks);
+                    if(!zuuluu) { _fun00002_ip = 351; continue _fun00001 }
+ 315:
+                    update = whisks;
+                    _fun00002_ip = 351; continue _fun00001;
+ 320:
+                    yankee = whisks.split;
                     zuuluu = ' ';
-                    limora = yankee.bind(limora)(zuuluu);
-                    yankee = limora.filter;
+                    whisks = yankee.bind(whisks)(zuuluu);
+                    yankee = whisks.filter;
                     zuuluu = function(argFoo) {
                         entity = argFoo;
                         michal = entity.length;
@@ -112,16 +133,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = michal > entity;
                         return entity;
                     };
-                    update = yankee.bind(limora)(zuuluu);
- 274:
-                    limora = _closure1_slot8;
-                    yankee = limora.getCurrentUser;
-                    yankee = yankee.bind(limora)();
-                    if(!(offset != yankee)) { _fun00002_ip = 1473; continue _fun00001 }
- 297:
-                    if(!(offset == report)) { _fun00002_ip = 482; continue _fun00001 }
- 304:
-                    limora = function(argFoo) { // Original name: isUserInstallable
+                    update = yankee.bind(whisks)(zuuluu);
+ 351:
+                    whisks = _closure1_slot8;
+                    yankee = whisks.getCurrentUser;
+                    yankee = yankee.bind(whisks)();
+                    if(!(offset != yankee)) { _fun00002_ip = 1558; continue _fun00001 }
+ 374:
+                    if(!(offset == report)) { _fun00002_ip = 559; continue _fun00001 }
+ 381:
+                    whisks = function(argFoo) { // Original name: isUserInstallable
                         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             michal = argFoo;
@@ -137,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = golfie.bind(report)(oscard);
                             oscard = golfie.hasFlag;
                             report = michal.flags;
-                            tangon = _closure1_slot11;
+                            tangon = _closure1_slot12;
                             tangon = tangon.EMBEDDED;
                             entity = oscard.bind(golfie)(report, tangon);
  64:
@@ -163,73 +184,73 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    equals = _closure1_slot6;
-                    yankee = equals.getApplication;
+                    quebec = _closure1_slot6;
+                    yankee = quebec.getApplication;
                     tangon = source;
-                    tangon = yankee.bind(equals)(tangon);
-                    tangon = limora.bind(oscard)(tangon);
-                    if(tangon) { _fun00002_ip = 445; continue _fun00001 }
- 337:
-                    equals = _closure1_slot7;
-                    tangon = equals.createFromServer;
-                    quebec = _closure1_slot0;
-                    variable36 = _closure1_slot3;
+                    tangon = yankee.bind(quebec)(tangon);
+                    tangon = whisks.bind(oscard)(tangon);
+                    if(tangon) { _fun00002_ip = 522; continue _fun00001 }
+ 414:
+                    quebec = _closure1_slot7;
+                    tangon = quebec.createFromServer;
+                    variable36 = _closure1_slot0;
+                    variable37 = _closure1_slot3;
                     yankee = 11;
-                    yankee = variable36[yankee];
-                    variable37 = quebec.bind(oscard)(yankee);
-                    variable36 = variable37.fetchApplication;
-                    quebec = source;
-                    yankee = variable40;
-                    yankee = variable36.bind(variable37)(quebec, yankee);
-                    SaveGenerator(address=389);
- 387:
+                    yankee = variable37[yankee];
+                    variable38 = variable36.bind(oscard)(yankee);
+                    variable37 = variable38.fetchApplication;
+                    variable36 = source;
+                    yankee = ctrled;
+                    yankee = variable37.bind(variable38)(variable36, yankee);
+                    SaveGenerator(address=466);
+ 464:
                     return yankee;
- 389:
-                    ResumeGenerator(result_out_reg=10, return_bool_out_reg=34);
-                    if(quebec) { _fun00002_ip = 442; continue _fun00001 }
- 395:
-                    tangon = tangon.bind(equals)(yankee);
-                    tangon = limora.bind(oscard)(tangon);
-                    if(tangon) { _fun00002_ip = 445; continue _fun00001 }
- 408:
-                    limora = _closure1_slot0;
-                    equals = _closure1_slot3;
+ 466:
+                    ResumeGenerator(result_out_reg=10, return_bool_out_reg=35);
+                    if(variable36) { _fun00002_ip = 519; continue _fun00001 }
+ 472:
+                    tangon = tangon.bind(quebec)(yankee);
+                    tangon = whisks.bind(oscard)(tangon);
+                    if(tangon) { _fun00002_ip = 522; continue _fun00001 }
+ 485:
+                    whisks = _closure1_slot0;
+                    quebec = _closure1_slot3;
                     tangon = 10;
-                    tangon = equals[tangon];
-                    tangon = limora.bind(oscard)(tangon);
+                    tangon = quebec[tangon];
+                    tangon = whisks.bind(oscard)(tangon);
                     tangon = tangon.ApplicationIntegrationType;
                     tangon = tangon.GUILD_INSTALL;
-                    _fun00002_ip = 477; continue _fun00001;
- 442:
+                    _fun00002_ip = 554; continue _fun00001;
+ 519:
                     return yankee;
- 445:
-                    limora = _closure1_slot0;
-                    equals = _closure1_slot3;
+ 522:
+                    whisks = _closure1_slot0;
+                    quebec = _closure1_slot3;
                     yankee = 10;
-                    yankee = equals[yankee];
-                    yankee = limora.bind(oscard)(yankee);
+                    yankee = quebec[yankee];
+                    yankee = whisks.bind(oscard)(yankee);
                     yankee = yankee.ApplicationIntegrationType;
                     tangon = yankee.USER_INSTALL;
- 477:
+ 554:
                     romeon = tangon;
-                    _fun00002_ip = 495; continue _fun00001;
- 482:
+                    _fun00002_ip = 572; continue _fun00001;
+ 559:
                     tangon = global;
                     tangon = tangon.Number;
                     romeon = tangon.bind(oscard)(report);
- 495: // try_start_0
+ 572: // try_start_0
                     report = global;
-                    equals = report.Promise;
-                    limora = equals.all;
-                    variable36 = _closure1_slot0;
-                    variable38 = _closure1_slot3;
+                    quebec = report.Promise;
+                    whisks = quebec.all;
+                    variable37 = _closure1_slot0;
+                    variable39 = _closure1_slot3;
                     yankee = 12;
-                    tangon = variable38[yankee];
-                    variable39 = variable36.bind(oscard)(tangon);
-                    quebec = variable39.fetchAuthorization;
+                    tangon = variable39[yankee];
+                    variable40 = variable37.bind(oscard)(tangon);
+                    variable36 = variable40.fetchAuthorization;
                     tangon = {};
-                    variable37 = source;
-                    tangon['clientId'] = variable37;
+                    variable38 = source;
+                    tangon['clientId'] = variable38;
                     variable41 = update;
                     tangon['scopes'] = variable41;
                     variable41 = echoed;
@@ -244,153 +265,155 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['state'] = variable41;
                     variable41 = romeon;
                     tangon['integrationType'] = variable41;
-                    tangon['signal'] = variable40;
-                    quebec = quebec.bind(variable39)(tangon);
+                    variable41 = ctrled;
+                    tangon['signal'] = variable41;
+                    variable36 = variable36.bind(variable40)(tangon);
                     tangon = new Array(2);
-                    tangon[0] = quebec;
-                    quebec = 13;
-                    quebec = variable38[quebec];
-                    variable36 = variable36.bind(oscard)(quebec);
-                    quebec = variable36.getDisclosures;
-                    quebec = quebec.bind(variable36)(variable37);
-                    tangon[1] = quebec;
-                    tangon = limora.bind(equals)(tangon);
-                    SaveGenerator(address=654);
- 652:
+                    tangon[0] = variable36;
+                    variable36 = 13;
+                    variable36 = variable39[variable36];
+                    variable37 = variable37.bind(oscard)(variable36);
+                    variable36 = variable37.getDisclosures;
+                    variable36 = variable36.bind(variable37)(variable38);
+                    tangon[1] = variable36;
+                    tangon = whisks.bind(quebec)(tangon);
+                    SaveGenerator(address=734);
+ 732:
                     return tangon;
- 654:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=31);
-                    if(limora) { _fun00002_ip = 1345; continue _fun00001 }
- 663:
-                    equals = _closure1_slot4;
-                    limora = 2;
-                    quebec = equals.bind(oscard)(tangon, limora);
-                    limora = 0;
-                    option = quebec[limora];
-                    equals = 1;
-                    equals = quebec[equals];
-                    vacuum = equals.disclosures;
-                    sierra = equals.allAcked;
- 701: // try_end0
-                    quebec = config;
-                    variable36 = _closure1_slot0;
-                    variable37 = _closure1_slot3;
-                    equals = 14;
-                    equals = variable37[equals];
-                    equals = variable36.bind(oscard)(equals);
-                    equals = equals.OAuth2Prompts;
-                    equals = equals.NONE;
-                    if(!(quebec === equals)) { _fun00002_ip = 765; continue _fun00001 }
- 740:
-                    equals = option;
-                    if(!(offset != equals)) { _fun00002_ip = 765; continue _fun00001 }
- 747:
-                    equals = option;
-                    equals = equals.authorized;
-                    if(!equals) { _fun00002_ip = 765; continue _fun00001 }
- 759:
-                    if(sierra) { _fun00002_ip = 1120; continue _fun00001 }
- 765:
-                    sierra = status;
-                    if(!(offset != sierra)) { _fun00002_ip = 796; continue _fun00001 }
- 772:
-                    quebec = status;
-                    status = option;
-                    equals = status.application;
-                    sierra = record;
-                    status = ctrled;
-                    status = quebec.bind(oscard)(equals, sierra, status);
- 796:
-                    sierra = _closure1_slot2;
-                    equals = _closure1_slot3;
-                    status = 15;
-                    status = equals[status];
-                    status = sierra.bind(oscard)(status);
-                    papara = status.NONE;
- 822: // try_start_1
-                    sierra = _closure1_slot2;
-                    equals = _closure1_slot3;
-                    status = 16;
-                    status = equals[status];
-                    sierra = sierra.bind(oscard)(status);
-                    status = sierra.deserialize;
-                    equals = whisks;
-                    equals = offset != equals;
-                    limora = 0;
-                    if(!equals) { _fun00002_ip = 863; continue _fun00001 }
- 860:
-                    limora = whisks;
- 863:
-                    papara = status.bind(sierra)(limora);
- 868: // try_end1
-                    _fun00002_ip = 872; continue _fun00001;
- 870: // catch_target1
-                    CatchBlockStart(arg_register=29);
- 872:
-                    target = undefined;
+ 734:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=32);
+                    if(whisks) { _fun00002_ip = 1430; continue _fun00001 }
+ 743:
+                    quebec = _closure1_slot4;
+                    whisks = 2;
+                    variable36 = quebec.bind(oscard)(tangon, whisks);
+                    whisks = 0;
+                    option = variable36[whisks];
+                    quebec = 1;
+                    quebec = variable36[quebec];
+                    sequen = quebec.disclosures;
+                    limora = quebec.allAcked;
+ 781: // try_end0
+                    variable36 = record;
+                    variable37 = _closure1_slot0;
+                    variable38 = _closure1_slot3;
+                    quebec = 14;
+                    quebec = variable38[quebec];
+                    quebec = variable37.bind(oscard)(quebec);
+                    quebec = quebec.OAuth2Prompts;
+                    quebec = quebec.NONE;
+                    if(!(variable36 === quebec)) { _fun00002_ip = 845; continue _fun00001 }
+ 820:
+                    quebec = option;
+                    if(!(offset != quebec)) { _fun00002_ip = 845; continue _fun00001 }
+ 827:
+                    quebec = option;
+                    quebec = quebec.authorized;
+                    if(!quebec) { _fun00002_ip = 845; continue _fun00001 }
+ 839:
+                    if(limora) { _fun00002_ip = 1205; continue _fun00001 }
+ 845:
+                    limora = sierra;
+                    if(!(offset != limora)) { _fun00002_ip = 876; continue _fun00001 }
+ 852:
+                    variable36 = sierra;
                     sierra = option;
-                    sierra = sierra.integration_type;
-                    sierra = offset != sierra;
-                    status = sierra;
-                    if(!sierra) { _fun00002_ip = 954; continue _fun00001 }
- 893:
-                    whisks = report.Object;
-                    limora = whisks.values;
-                    equals = _closure1_slot0;
+                    quebec = sierra.application;
+                    limora = cntext;
+                    sierra = vacuum;
+                    sierra = variable36.bind(oscard)(quebec, limora, sierra);
+ 876:
+                    limora = _closure1_slot2;
                     quebec = _closure1_slot3;
-                    sierra = 10;
+                    sierra = 15;
                     sierra = quebec[sierra];
-                    sierra = equals.bind(oscard)(sierra);
-                    sierra = sierra.ApplicationIntegrationType;
-                    whisks = limora.bind(whisks)(sierra);
-                    limora = whisks.includes;
+                    sierra = limora.bind(oscard)(sierra);
+                    target = sierra.NONE;
+ 902: // try_start_1
+                    limora = _closure1_slot2;
+                    quebec = _closure1_slot3;
+                    sierra = 16;
+                    sierra = quebec[sierra];
+                    limora = limora.bind(oscard)(sierra);
+                    sierra = limora.deserialize;
+                    quebec = equals;
+                    quebec = offset != quebec;
+                    whisks = 0;
+                    if(!quebec) { _fun00002_ip = 943; continue _fun00001 }
+ 940:
+                    whisks = equals;
+ 943:
+                    target = sierra.bind(limora)(whisks);
+ 948: // try_end1
+                    _fun00002_ip = 952; continue _fun00001;
+ 950: // catch_target1
+                    CatchBlockStart(arg_register=30);
+ 952:
+                    status = undefined;
+                    limora = option;
+                    limora = limora.integration_type;
+                    limora = offset != limora;
+                    sierra = limora;
+                    if(!limora) { _fun00002_ip = 1034; continue _fun00001 }
+ 973:
+                    equals = report.Object;
+                    whisks = equals.values;
+                    quebec = _closure1_slot0;
+                    variable36 = _closure1_slot3;
+                    limora = 10;
+                    limora = variable36[limora];
+                    limora = quebec.bind(oscard)(limora);
+                    limora = limora.ApplicationIntegrationType;
+                    equals = whisks.bind(equals)(limora);
+                    whisks = equals.includes;
+                    limora = option;
+                    limora = limora.integration_type;
+                    sierra = whisks.bind(equals)(limora);
+ 1034:
+                    if(!sierra) { _fun00002_ip = 1086; continue _fun00001 }
+ 1037:
+                    sierra = report.Map;
+                    limora = sierra.prototype;
+                    limora = Object.create(limora, {constructor: {value: sierra}});
+                    variable45 = limora;
+                    sierra = new variable45[sierra](variable44);
+                    whisks = sierra instanceof Object ? sierra : limora;
+                    status = whisks;
+                    limora = whisks.set;
                     sierra = option;
-                    sierra = sierra.integration_type;
-                    status = limora.bind(whisks)(sierra);
- 954:
-                    if(!status) { _fun00002_ip = 1006; continue _fun00001 }
- 957:
-                    status = report.Map;
-                    sierra = status.prototype;
-                    sierra = Object.create(sierra, {constructor: {value: status}});
-                    variable45 = sierra;
-                    status = new variable45[status](variable44);
-                    limora = status instanceof Object ? status : sierra;
-                    target = limora;
-                    sierra = limora.set;
-                    status = option;
-                    option = status.integration_type;
-                    option = sierra.bind(limora)(option, status);
- 1006:
+                    option = sierra.integration_type;
+                    option = limora.bind(whisks)(option, sierra);
+ 1086:
                     option = golfie;
                     golfie = {};
-                    status = source;
-                    golfie['clientId'] = status;
-                    golfie['authorizations'] = target;
-                    target = update;
-                    golfie['scopes'] = target;
-                    golfie['parsedPermissions'] = papara;
-                    papara = echoed;
-                    golfie['responseType'] = papara;
-                    papara = result;
-                    golfie['redirectUri'] = papara;
-                    papara = output;
-                    golfie['codeChallenge'] = papara;
-                    papara = sizing;
-                    golfie['codeChallengeMethod'] = papara;
-                    papara = kiloes;
-                    golfie['state'] = papara;
-                    golfie['guildId'] = cntext;
-                    golfie['channelId'] = record;
-                    golfie['prompt'] = config;
-                    golfie['disableGuildSelect'] = sequen;
-                    golfie['disclosures'] = vacuum;
-                    vacuum = romeon;
-                    golfie['integrationType'] = vacuum;
-                    golfie['pid'] = ctrled;
+                    sierra = source;
+                    golfie['clientId'] = sierra;
+                    golfie['authorizations'] = status;
+                    status = update;
+                    golfie['scopes'] = status;
+                    golfie['parsedPermissions'] = target;
+                    target = echoed;
+                    golfie['responseType'] = target;
+                    target = result;
+                    golfie['redirectUri'] = target;
+                    target = output;
+                    golfie['codeChallenge'] = target;
+                    target = sizing;
+                    golfie['codeChallengeMethod'] = target;
+                    target = kiloes;
+                    golfie['state'] = target;
+                    golfie['guildId'] = papara;
+                    golfie['channelId'] = cntext;
+                    golfie['prompt'] = record;
+                    golfie['disableGuildSelect'] = config;
+                    golfie['disclosures'] = sequen;
+                    sequen = romeon;
+                    golfie['integrationType'] = sequen;
+                    golfie['pid'] = vacuum;
+                    golfie['signal'] = ctrled;
                     golfie = option.bind(oscard)(golfie);
                     return golfie;
- 1120: // try_start_2
+ 1205: // try_start_2
                     option = _closure1_slot0;
                     golfie = _closure1_slot3;
                     golfie = golfie[yankee];
@@ -409,19 +432,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie['nonce'] = backup;
                     golfie['integrationType'] = romeon;
                     golfie = option.bind(yankee)(golfie);
-                    SaveGenerator(address=1205);
- 1203:
+                    SaveGenerator(address=1290);
+ 1288:
                     return golfie;
- 1205:
+ 1290:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 1219; continue _fun00001 }
- 1211:
+                    if(option) { _fun00002_ip = 1304; continue _fun00001 }
+ 1296:
                     option = golfie.location;
- 1216: // try_end2
+ 1301: // try_end2
                     return option;
- 1219:
+ 1304:
                     return golfie;
- 1222: // catch_target2
+ 1307: // catch_target2
                     CatchBlockStart(arg_register=6);
                     romeon = golfie.body;
                     foxtra = romeon;
@@ -431,20 +454,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = yankee[golfie];
                     yankee = option.bind(oscard)(golfie);
                     option = {};
-                    golfie = _closure1_slot14;
+                    golfie = _closure1_slot15;
                     golfie = golfie.OAUTH2_ERROR;
                     option['errorCode'] = golfie;
                     backup = offset == romeon;
                     romeon = undefined;
-                    if(backup) { _fun00002_ip = 1283; continue _fun00001 }
- 1278:
+                    if(backup) { _fun00002_ip = 1368; continue _fun00001 }
+ 1363:
                     romeon = foxtra.message;
- 1283:
+ 1368:
                     golfie = romeon;
-                    if(romeon) { _fun00002_ip = 1295; continue _fun00001 }
- 1289:
+                    if(romeon) { _fun00002_ip = 1380; continue _fun00001 }
+ 1374:
                     golfie = 'Unknown Error';
- 1295:
+ 1380:
                     romeon = golfie;
                     report = report.HermesInternal;
                     golfie = report.concat;
@@ -457,9 +480,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = new variable45[yankee](variable44, variable43, variable42);
                     report = report instanceof Object ? report : golfie;
                     throw report;
- 1345:
+ 1430:
                     return tangon;
- 1348: // catch_target0
+ 1433: // catch_target0
                     CatchBlockStart(arg_register=3);
                     report = tangon.body;
                     verify = report;
@@ -469,20 +492,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = option[tangon];
                     option = golfie.bind(oscard)(tangon);
                     golfie = {};
-                    tangon = _closure1_slot14;
+                    tangon = _closure1_slot15;
                     tangon = tangon.OAUTH2_ERROR;
                     golfie['errorCode'] = tangon;
                     offset = offset == report;
                     report = undefined;
-                    if(offset) { _fun00002_ip = 1409; continue _fun00001 }
- 1404:
+                    if(offset) { _fun00002_ip = 1494; continue _fun00001 }
+ 1489:
                     report = verify.message;
- 1409:
+ 1494:
                     tangon = report;
-                    if(report) { _fun00002_ip = 1421; continue _fun00001 }
- 1415:
+                    if(report) { _fun00002_ip = 1506; continue _fun00001 }
+ 1500:
                     tangon = 'Unknown Error';
- 1421:
+ 1506:
                     verify = tangon;
                     tangon = global;
                     tangon = tangon.HermesInternal;
@@ -496,14 +519,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = new variable45[option](variable44, variable43, variable42);
                     tangon = tangon instanceof Object ? tangon : report;
                     throw tangon;
- 1473:
+ 1558:
                     report = _closure1_slot1;
                     golfie = _closure1_slot3;
                     tangon = 8;
                     tangon = golfie[tangon];
                     golfie = report.bind(oscard)(tangon);
                     report = {};
-                    zuuluu = _closure1_slot14;
+                    zuuluu = _closure1_slot15;
                     zuuluu = zuuluu.OAUTH2_ERROR;
                     report['errorCode'] = zuuluu;
                     zuuluu = golfie.prototype;
@@ -514,32 +537,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = new variable45[golfie](variable44, variable43, variable42);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 1541:
+ 1626:
                     report = _closure1_slot1;
                     golfie = _closure1_slot3;
                     tangon = 8;
                     tangon = golfie[tangon];
                     golfie = report.bind(oscard)(tangon);
                     report = {};
-                    zuuluu = _closure1_slot14;
-                    zuuluu = zuuluu.OAUTH2_ERROR;
-                    report['errorCode'] = zuuluu;
-                    zuuluu = golfie.prototype;
-                    tangon = Object.create(zuuluu, {constructor: {value: golfie}});
-                    variable43 = 'Redirect URI cannot be used in the RPC OAuth2 Authorization flow';
-                    variable45 = tangon;
-                    variable44 = report;
-                    zuuluu = new variable45[golfie](variable44, variable43, variable42);
-                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
-                    throw zuuluu;
- 1612:
-                    report = _closure1_slot1;
-                    golfie = _closure1_slot3;
-                    tangon = 8;
-                    tangon = golfie[tangon];
-                    golfie = report.bind(oscard)(tangon);
-                    report = {};
-                    zuuluu = _closure1_slot14;
+                    zuuluu = _closure1_slot15;
                     zuuluu = zuuluu.OAUTH2_ERROR;
                     report['errorCode'] = zuuluu;
                     zuuluu = golfie.prototype;
@@ -550,14 +555,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = new variable45[golfie](variable44, variable43, variable42);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 1683:
+ 1697:
                     report = _closure1_slot1;
                     golfie = _closure1_slot3;
                     tangon = 8;
                     tangon = golfie[tangon];
                     oscard = report.bind(oscard)(tangon);
                     report = {};
-                    zuuluu = _closure1_slot14;
+                    zuuluu = _closure1_slot15;
                     zuuluu = zuuluu.UNKNOWN_ERROR;
                     report['errorCode'] = zuuluu;
                     zuuluu = oscard.prototype;
@@ -568,9 +573,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = new variable45[oscard](variable44, variable43, variable42);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     throw zuuluu;
- 1754:
+ 1768:
                     return michal;
- 1757:
+ 1771:
                     return entity;
                 }
             };
@@ -579,7 +584,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot16 = tangon;
+        _closure1_slot17 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -587,7 +592,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot17 = entity;
     entity = function(argFoo, argBar) { // Original name: authenticate
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -615,7 +620,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu.HTTP;
             tangon = report.get;
             zuuluu = {};
-            golfie = _closure1_slot12;
+            golfie = _closure1_slot13;
             golfie = golfie.OAUTH2_CURRENT_AUTH;
             zuuluu['url'] = golfie;
             golfie = {};
@@ -720,7 +725,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = undefined;
                     tangon = tangon.bind(michal)(zuuluu);
                     zuuluu = {};
-                    entity = _closure1_slot14;
+                    entity = _closure1_slot15;
                     entity = entity.INVALID_TOKEN;
                     zuuluu['errorCode'] = entity;
                     entity = tangon.prototype;
@@ -739,7 +744,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = undefined;
                     tangon = tangon.bind(michal)(zuuluu);
                     zuuluu = {};
-                    entity = _closure1_slot14;
+                    entity = _closure1_slot15;
                     entity = entity.INVALID_CLIENTID;
                     zuuluu['errorCode'] = entity;
                     entity = tangon.prototype;
@@ -760,7 +765,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = undefined;
                 tangon = tangon.bind(michal)(zuuluu);
                 zuuluu = {};
-                entity = _closure1_slot14;
+                entity = _closure1_slot15;
                 entity = entity.INVALID_TOKEN;
                 zuuluu['errorCode'] = entity;
                 report = _closure2_slot1;
@@ -797,7 +802,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = undefined;
             report = tangon.bind(michal)(zuuluu);
             tangon = {};
-            michal = _closure1_slot14;
+            michal = _closure1_slot15;
             michal = michal.INVALID_COMMAND;
             tangon['errorCode'] = michal;
             michal = report.prototype;
@@ -816,7 +821,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = undefined;
             tangon = tangon.bind(michal)(zuuluu);
             zuuluu = {};
-            entity = _closure1_slot14;
+            entity = _closure1_slot15;
             entity = entity.INVALID_COMMAND;
             zuuluu['errorCode'] = entity;
             entity = tangon.prototype;
@@ -829,7 +834,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             throw entity;
         }
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot18 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -864,19 +869,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.TransportTypes;
     var _closure1_slot9 = golfie;
-    tangon = tangon.RPC_AUTHENTICATED_SCOPE;
-    var _closure1_slot10 = tangon;
+    golfie = tangon.RPC_AUTHENTICATED_SCOPE;
+    var _closure1_slot10 = golfie;
+    tangon = tangon.RPC_PRIVATE_SCOPE;
+    var _closure1_slot11 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.ApplicationFlags;
-    var _closure1_slot11 = golfie;
-    golfie = tangon.Endpoints;
     var _closure1_slot12 = golfie;
-    golfie = tangon.RPCCommands;
+    golfie = tangon.Endpoints;
     var _closure1_slot13 = golfie;
+    golfie = tangon.RPCCommands;
+    var _closure1_slot14 = golfie;
     tangon = tangon.RPCErrors;
-    var _closure1_slot14 = tangon;
+    var _closure1_slot15 = tangon;
     tangon = 22;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -889,7 +896,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = argBar;
         var _closure2_slot1 = entity;
         entity = {};
-        michal = _closure1_slot13;
+        michal = _closure1_slot14;
         report = michal.AUTHENTICATE;
         golfie = _closure1_slot0;
         oscard = _closure1_slot3;
@@ -924,7 +931,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  80:
                 if(!(report != oscard)) { _fun00010_ip = 99; continue _fun00009 }
  84:
-                michal = _closure1_slot17;
+                michal = _closure1_slot18;
                 michal = michal.bind(tangon)(golfie, oscard);
                 return michal;
  99:
@@ -934,7 +941,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = verify[oscard];
                 verify = option.bind(tangon)(oscard);
                 option = {};
-                michal = _closure1_slot14;
+                michal = _closure1_slot15;
                 michal = michal.INVALID_TOKEN;
                 option['errorCode'] = michal;
                 michal = verify.prototype;
@@ -960,7 +967,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = michal.IDENTIFY;
                 _closure3_slot3 = backup;
                 michal = function() { // Original name: _authorize
-                    report = _closure1_slot15;
+                    report = _closure1_slot16;
                     tangon = {};
                     michal = _closure3_slot2;
                     tangon['client_id'] = michal;
@@ -970,6 +977,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['response_type'] = michal;
                     entity = _closure3_slot1;
                     tangon['signal'] = entity;
+                    entity = false;
+                    tangon['isSocketRpcPrivateScope'] = entity;
                     zuuluu = _closure2_slot0;
                     michal = _closure2_slot1;
                     entity = undefined;
@@ -1034,7 +1043,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             golfie = tangon.Storage;
                             tangon = golfie.set;
                             tangon = tangon.bind(golfie)(verify, option);
-                            golfie = _closure1_slot17;
+                            golfie = _closure1_slot18;
                             tangon = _closure3_slot0;
                             zuuluu = entity.access_token;
                             zuuluu = golfie.bind(oscard)(tangon, zuuluu);
@@ -1046,7 +1055,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = golfie[zuuluu];
                             tangon = tangon.bind(oscard)(zuuluu);
                             zuuluu = {};
-                            report = _closure1_slot14;
+                            report = _closure1_slot15;
                             report = report.OAUTH2_ERROR;
                             zuuluu['errorCode'] = report;
                             golfie = entity.error;
@@ -1078,7 +1087,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = undefined;
                             tangon = tangon.bind(michal)(zuuluu);
                             zuuluu = {};
-                            entity = _closure1_slot14;
+                            entity = _closure1_slot15;
                             entity = entity.UNKNOWN_ERROR;
                             zuuluu['errorCode'] = entity;
                             entity = tangon.prototype;
@@ -1140,7 +1149,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(tangon)();
                 _fun00010_ip = 421; continue _fun00009;
  393:
-                report = _closure1_slot17;
+                report = _closure1_slot18;
                 oscard = report.bind(tangon)(golfie, oscard);
                 report = oscard.catch;
                 zuuluu = function() {
@@ -1185,7 +1194,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report[michal];
                 tangon = zuuluu.bind(tangon)(michal);
                 zuuluu = {};
-                entity = _closure1_slot14;
+                entity = _closure1_slot15;
                 entity = entity.INVALID_COMMAND;
                 zuuluu['errorCode'] = entity;
                 entity = tangon.prototype;
@@ -1209,160 +1218,199 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = argFoo;
                 entity = zuuluu.socket;
                 var _closure3_slot0 = entity;
-                tangon = zuuluu.signal;
+                option = zuuluu.signal;
                 zuuluu = zuuluu.args;
-                oscard = zuuluu.client_id;
-                if(oscard) { _fun00016_ip = 109; continue _fun00015 }
- 36:
-                verify = _closure1_slot1;
-                option = _closure1_slot3;
-                golfie = 8;
-                option = option[golfie];
-                golfie = undefined;
-                verify = verify.bind(golfie)(option);
-                option = {};
-                report = _closure1_slot14;
+                tangon = undefined;
+                var _closure3_slot1 = tangon;
+                verify = zuuluu.client_id;
+                if(verify) { _fun00016_ip = 113; continue _fun00015 }
+ 42:
+                golfie = _closure1_slot1;
+                offset = _closure1_slot3;
+                oscard = 8;
+                oscard = offset[oscard];
+                offset = golfie.bind(tangon)(oscard);
+                golfie = {};
+                report = _closure1_slot15;
                 report = report.INVALID_CLIENTID;
-                option['errorCode'] = report;
-                report = verify.prototype;
-                golfie = Object.create(report, {constructor: {value: verify}});
-                yankee = 'No client id provided';
-                foxtra = golfie;
-                romeon = option;
-                report = new foxtra[verify](romeon, yankee, offset);
-                report = report instanceof Object ? report : golfie;
+                golfie['errorCode'] = report;
+                report = offset.prototype;
+                oscard = Object.create(report, {constructor: {value: offset}});
+                foxtra = 'No client id provided';
+                kiloes = oscard;
+                backup = golfie;
+                report = new kiloes[offset](backup, foxtra, romeon);
+                report = report instanceof Object ? report : oscard;
                 throw report;
- 109:
+ 113:
                 report = entity.authorization;
-                golfie = report.accessToken;
+                oscard = report.accessToken;
                 report = null;
-                if(!(report == golfie)) { _fun00016_ip = 554; continue _fun00015 }
- 130:
+                if(!(report == oscard)) { _fun00016_ip = 589; continue _fun00015 }
+ 134:
                 report = entity.authorization;
                 report = report.authing;
-                if(report) { _fun00016_ip = 481; continue _fun00015 }
- 148:
-                golfie = entity.authorization;
+                if(report) { _fun00016_ip = 518; continue _fun00015 }
+ 152:
+                oscard = entity.authorization;
                 report = true;
-                golfie['authing'] = report;
-                golfie = zuuluu.response_type;
+                oscard['authing'] = report;
+                oscard = zuuluu.response_type;
                 report = 'token';
-                if(!(report !== golfie)) { _fun00016_ip = 394; continue _fun00015 }
- 179:
-                report = entity.application;
-                report = report.id;
-                if(!(report === oscard)) { _fun00016_ip = 307; continue _fun00015 }
- 193:
-                report = zuuluu.scopes;
-                if(report) { _fun00016_ip = 208; continue _fun00015 }
- 202:
-                report = zuuluu.scope;
- 208:
-                oscard = delete zuuluu.scopes;
+                if(!(report !== oscard)) { _fun00016_ip = 433; continue _fun00015 }
+ 183:
+                report = entity.authorization;
+                offset = report.scopes;
+                golfie = offset.includes;
+                report = _closure1_slot11;
+                report = golfie.bind(offset)(report);
+                _closure3_slot1 = report;
+                if(report) { _fun00016_ip = 315; continue _fun00015 }
+ 219:
+                golfie = entity.application;
+                golfie = golfie.id;
+                if(!(golfie !== verify)) { _fun00016_ip = 315; continue _fun00015 }
+ 233:
+                verify = entity.authorization;
+                golfie = false;
+                verify['authing'] = golfie;
+                verify = _closure1_slot1;
+                offset = _closure1_slot3;
+                golfie = 8;
+                golfie = offset[golfie];
+                yankee = verify.bind(tangon)(golfie);
+                offset = {};
                 golfie = _closure1_slot15;
+                golfie = golfie.INVALID_CLIENTID;
+                offset['errorCode'] = golfie;
+                golfie = yankee.prototype;
+                verify = Object.create(golfie, {constructor: {value: yankee}});
+                foxtra = "Application does not match the connection's";
+                kiloes = verify;
+                backup = offset;
+                golfie = new kiloes[yankee](backup, foxtra, romeon);
+                golfie = golfie instanceof Object ? golfie : verify;
+                throw golfie;
+ 315:
+                verify = zuuluu.scopes;
+                if(verify) { _fun00016_ip = 330; continue _fun00015 }
+ 324:
+                verify = zuuluu.scope;
+ 330:
+                golfie = delete zuuluu.scopes;
+                golfie = _closure1_slot16;
                 oscard = {};
-                romeon = oscard;
-                yankee = zuuluu;
-                zuuluu = copyDataProperties(romeon, yankee);
+                backup = oscard;
+                foxtra = zuuluu;
+                zuuluu = copyDataProperties(backup, foxtra);
                 zuuluu = 'scope';
-                oscard[zuuluu] = report;
+                oscard[zuuluu] = verify;
                 zuuluu = 'signal';
-                oscard[zuuluu] = tangon;
+                oscard[zuuluu] = option;
+                zuuluu = 'isSocketRpcPrivateScope';
+                oscard[zuuluu] = report;
                 report = _closure2_slot0;
-                tangon = _closure2_slot1;
-                zuuluu = undefined;
-                report = golfie.bind(zuuluu)(oscard, report, tangon);
-                tangon = report.then;
+                zuuluu = _closure2_slot1;
+                oscard = golfie.bind(tangon)(oscard, report, zuuluu);
+                report = oscard.then;
                 zuuluu = function(argFoo) {
                     _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                        report = argFoo;
+                        michal = argFoo;
                         entity = _closure3_slot0;
-                        michal = entity.authorization;
+                        zuuluu = entity.authorization;
                         entity = false;
-                        michal['authing'] = entity;
-                        zuuluu = null;
-                        if(!(zuuluu != report)) { _fun00018_ip = 334; continue _fun00017 }
+                        zuuluu['authing'] = entity;
+                        report = null;
+                        if(!(report != michal)) { _fun00018_ip = 356; continue _fun00017 }
  33:
                         entity = global;
-                        michal = entity.URL;
-                        tangon = michal.prototype;
-                        tangon = Object.create(tangon, {constructor: {value: michal}});
-                        romeon = tangon;
-                        yankee = report;
-                        michal = new romeon[michal](yankee, offset);
-                        michal = michal instanceof Object ? michal : tangon;
-                        oscard = michal.searchParams;
-                        report = oscard.get;
-                        tangon = 'error';
-                        golfie = report.bind(oscard)(tangon);
-                        if(!(zuuluu != golfie)) { _fun00018_ip = 96; continue _fun00017 }
- 88:
-                        tangon = '';
-                        if(!(tangon === golfie)) { _fun00018_ip = 201; continue _fun00017 }
- 96:
-                        oscard = michal.searchParams;
-                        report = oscard.get;
-                        tangon = 'code';
-                        report = report.bind(oscard)(tangon);
-                        if(!(zuuluu != report)) { _fun00018_ip = 128; continue _fun00017 }
- 120:
-                        tangon = {};
-                        tangon['code'] = report;
-                        return tangon;
- 128:
-                        option = _closure1_slot1;
+                        zuuluu = entity.URL;
+                        tangon = zuuluu.prototype;
+                        tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+                        backup = tangon;
+                        foxtra = michal;
+                        zuuluu = new backup[zuuluu](foxtra, romeon);
+                        tangon = zuuluu instanceof Object ? zuuluu : tangon;
+                        option = tangon.searchParams;
+                        golfie = option.get;
+                        zuuluu = 'code';
+                        zuuluu = golfie.bind(option)(zuuluu);
+                        oscard = _closure3_slot1;
+                        if(oscard) { _fun00018_ip = 344; continue _fun00017 }
+ 94:
+                        option = tangon.searchParams;
+                        golfie = option.get;
+                        oscard = 'error';
+                        verify = golfie.bind(option)(oscard);
+                        if(!(report != verify)) { _fun00018_ip = 126; continue _fun00017 }
+ 118:
+                        oscard = '';
+                        if(!(oscard === verify)) { _fun00018_ip = 211; continue _fun00017 }
+ 126:
+                        if(!(report != zuuluu)) { _fun00018_ip = 138; continue _fun00017 }
+ 130:
+                        oscard = {};
+                        oscard['code'] = zuuluu;
+                        return oscard;
+ 138:
+                        offset = _closure1_slot1;
+                        option = _closure1_slot3;
+                        golfie = 8;
+                        option = option[golfie];
+                        golfie = undefined;
+                        offset = offset.bind(golfie)(option);
+                        option = {};
+                        oscard = _closure1_slot15;
+                        oscard = oscard.OAUTH2_ERROR;
+                        option['errorCode'] = oscard;
+                        oscard = offset.prototype;
+                        golfie = Object.create(oscard, {constructor: {value: offset}});
+                        romeon = 'OAuth2 Error: Unable to find auth code';
+                        backup = golfie;
+                        foxtra = option;
+                        oscard = new backup[offset](foxtra, romeon, yankee);
+                        oscard = oscard instanceof Object ? oscard : golfie;
+                        throw oscard;
+ 211:
+                        golfie = tangon.searchParams;
+                        oscard = golfie.get;
+                        tangon = 'error_description';
+                        tangon = oscard.bind(golfie)(tangon);
+                        report = report != tangon;
+                        option = 'unknown error';
+                        if(!report) { _fun00018_ip = 247; continue _fun00017 }
+ 244:
+                        option = tangon;
+ 247:
+                        golfie = _closure1_slot1;
                         oscard = _closure1_slot3;
                         report = 8;
                         oscard = oscard[report];
                         report = undefined;
-                        option = option.bind(report)(oscard);
-                        oscard = {};
-                        tangon = _closure1_slot14;
+                        oscard = golfie.bind(report)(oscard);
+                        report = {};
+                        tangon = _closure1_slot15;
                         tangon = tangon.OAUTH2_ERROR;
-                        oscard['errorCode'] = tangon;
-                        tangon = option.prototype;
-                        report = Object.create(tangon, {constructor: {value: option}});
-                        offset = 'OAuth2 Error: Unable to find auth code';
-                        romeon = report;
-                        yankee = oscard;
-                        tangon = new romeon[option](yankee, offset, verify);
-                        tangon = tangon instanceof Object ? tangon : report;
-                        throw tangon;
- 201:
-                        report = michal.searchParams;
-                        tangon = report.get;
-                        michal = 'error_description';
-                        michal = tangon.bind(report)(michal);
-                        zuuluu = zuuluu != michal;
-                        oscard = 'unknown error';
-                        if(!zuuluu) { _fun00018_ip = 237; continue _fun00017 }
- 234:
-                        oscard = michal;
- 237:
-                        report = _closure1_slot1;
-                        tangon = _closure1_slot3;
-                        zuuluu = 8;
-                        tangon = tangon[zuuluu];
-                        zuuluu = undefined;
-                        tangon = report.bind(zuuluu)(tangon);
-                        zuuluu = {};
-                        michal = _closure1_slot14;
-                        michal = michal.OAUTH2_ERROR;
-                        zuuluu['errorCode'] = michal;
+                        report['errorCode'] = tangon;
                         entity = entity.HermesInternal;
-                        report = entity.concat;
-                        michal = 'OAuth2 Error: ';
+                        golfie = entity.concat;
+                        tangon = 'OAuth2 Error: ';
                         entity = ': ';
-                        offset = report.bind(michal)(golfie, entity, oscard);
-                        michal = tangon.prototype;
-                        michal = Object.create(michal, {constructor: {value: tangon}});
-                        romeon = michal;
-                        yankee = zuuluu;
-                        entity = new romeon[tangon](yankee, offset, verify);
-                        entity = entity instanceof Object ? entity : michal;
+                        romeon = golfie.bind(tangon)(verify, entity, option);
+                        tangon = oscard.prototype;
+                        tangon = Object.create(tangon, {constructor: {value: oscard}});
+                        backup = tangon;
+                        foxtra = report;
+                        entity = new backup[oscard](foxtra, romeon, yankee);
+                        entity = entity instanceof Object ? entity : tangon;
                         throw entity;
- 334:
+ 344:
+                        entity = {};
+                        entity['code'] = zuuluu;
+                        entity['location'] = michal;
+                        return entity;
+ 356:
                         tangon = _closure1_slot1;
                         zuuluu = _closure1_slot3;
                         michal = 8;
@@ -1370,21 +1418,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = undefined;
                         tangon = tangon.bind(michal)(zuuluu);
                         zuuluu = {};
-                        entity = _closure1_slot14;
+                        entity = _closure1_slot15;
                         entity = entity.UNKNOWN_ERROR;
                         zuuluu['errorCode'] = entity;
                         entity = tangon.prototype;
                         michal = Object.create(entity, {constructor: {value: tangon}});
-                        offset = 'Unknown error occurred';
-                        romeon = michal;
-                        yankee = zuuluu;
-                        entity = new romeon[tangon](yankee, offset, verify);
+                        romeon = 'Unknown error occurred';
+                        backup = michal;
+                        foxtra = zuuluu;
+                        entity = new backup[tangon](foxtra, romeon, yankee);
                         entity = entity instanceof Object ? entity : michal;
                         throw entity;
                     }
                 };
-                tangon = tangon.bind(report)(zuuluu);
-                zuuluu = tangon.catch;
+                report = report.bind(oscard)(zuuluu);
+                zuuluu = report.catch;
                 michal = function(argFoo) {
                     entity = _closure3_slot0;
                     michal = entity.authorization;
@@ -1393,88 +1441,63 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = argFoo;
                     throw entity;
                 };
-                michal = zuuluu.bind(tangon)(michal);
+                michal = zuuluu.bind(report)(michal);
                 return michal;
- 307:
-                zuuluu = entity.authorization;
-                michal = false;
-                zuuluu['authing'] = michal;
-                report = _closure1_slot1;
-                tangon = _closure1_slot3;
-                zuuluu = 8;
-                tangon = tangon[zuuluu];
-                zuuluu = undefined;
-                report = report.bind(zuuluu)(tangon);
-                tangon = {};
-                michal = _closure1_slot14;
-                michal = michal.INVALID_CLIENTID;
-                tangon['errorCode'] = michal;
-                michal = report.prototype;
-                zuuluu = Object.create(michal, {constructor: {value: report}});
-                yankee = "Application does not match the connection's";
-                foxtra = zuuluu;
-                romeon = tangon;
-                michal = new foxtra[report](romeon, yankee, offset);
-                michal = michal instanceof Object ? michal : zuuluu;
-                throw michal;
- 394:
+ 433:
                 michal = entity.authorization;
                 entity = false;
                 michal['authing'] = entity;
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot3;
+                zuuluu = _closure1_slot1;
+                report = _closure1_slot3;
                 michal = 8;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
+                michal = report[michal];
+                report = zuuluu.bind(tangon)(michal);
                 zuuluu = {};
-                entity = _closure1_slot14;
+                entity = _closure1_slot15;
                 entity = entity.INVALID_COMMAND;
                 zuuluu['errorCode'] = entity;
-                entity = tangon.prototype;
-                michal = Object.create(entity, {constructor: {value: tangon}});
-                yankee = 'Authorization response_type "token" is not supported';
-                foxtra = michal;
-                romeon = zuuluu;
-                entity = new foxtra[tangon](romeon, yankee, offset);
+                entity = report.prototype;
+                michal = Object.create(entity, {constructor: {value: report}});
+                foxtra = 'Authorization response_type "token" is not supported';
+                kiloes = michal;
+                backup = zuuluu;
+                entity = new kiloes[report](backup, foxtra, romeon);
                 entity = entity instanceof Object ? entity : michal;
                 throw entity;
- 481:
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot3;
+ 518:
+                zuuluu = _closure1_slot1;
+                report = _closure1_slot3;
                 michal = 8;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
+                michal = report[michal];
+                report = zuuluu.bind(tangon)(michal);
                 zuuluu = {};
-                entity = _closure1_slot14;
+                entity = _closure1_slot15;
                 entity = entity.INVALID_COMMAND;
                 zuuluu['errorCode'] = entity;
-                entity = tangon.prototype;
-                michal = Object.create(entity, {constructor: {value: tangon}});
-                yankee = 'Already authing';
-                foxtra = michal;
-                romeon = zuuluu;
-                entity = new foxtra[tangon](romeon, yankee, offset);
+                entity = report.prototype;
+                michal = Object.create(entity, {constructor: {value: report}});
+                foxtra = 'Already authing';
+                kiloes = michal;
+                backup = zuuluu;
+                entity = new kiloes[report](backup, foxtra, romeon);
                 entity = entity instanceof Object ? entity : michal;
                 throw entity;
- 554:
-                tangon = _closure1_slot1;
-                zuuluu = _closure1_slot3;
+ 589:
+                zuuluu = _closure1_slot1;
+                report = _closure1_slot3;
                 michal = 8;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                tangon = tangon.bind(michal)(zuuluu);
+                michal = report[michal];
+                tangon = zuuluu.bind(tangon)(michal);
                 zuuluu = {};
-                entity = _closure1_slot14;
+                entity = _closure1_slot15;
                 entity = entity.INVALID_COMMAND;
                 zuuluu['errorCode'] = entity;
                 entity = tangon.prototype;
                 michal = Object.create(entity, {constructor: {value: tangon}});
-                yankee = 'Already authenticated';
-                foxtra = michal;
-                romeon = zuuluu;
-                entity = new foxtra[tangon](romeon, yankee, offset);
+                foxtra = 'Already authenticated';
+                kiloes = michal;
+                backup = zuuluu;
+                entity = new kiloes[tangon](backup, foxtra, romeon);
                 entity = entity instanceof Object ? entity : michal;
                 throw entity;
             }

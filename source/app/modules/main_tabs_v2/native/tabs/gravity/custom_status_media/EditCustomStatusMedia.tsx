@@ -1253,7 +1253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 43;
                     michal = golfie[michal];
                     tangon = oscard.bind(entity)(michal);
-                    zuuluu = tangon.toggleKeyboard;
+                    zuuluu = tangon.setKeyboardType;
                     michal = {};
                     report = 25;
                     report = golfie[report];

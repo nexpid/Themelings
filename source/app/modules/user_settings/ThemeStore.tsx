@@ -139,7 +139,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = michal.SystemTheme;
     var _closure1_slot13 = option;
     option = michal.THEME_PREFERENCES_MOBILE;
-    offset = michal.THEME_PREFERENCES_WEB;
     michal = michal.THEME_PREFERENCES_WEB_REFRESH;
     michal = 11;
     michal = oscard[michal];

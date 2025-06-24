@@ -346,85 +346,98 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['fetchEmoji'] = tangon;
     tangon = function(argFoo) { // Original name: uploadEmoji
-        michal = argFoo;
-        offset = michal.guildId;
-        var _closure2_slot0 = offset;
-        option = michal.image;
-        golfie = michal.name;
-        oscard = michal.roles;
-        zuuluu = _closure1_slot1;
-        verify = _closure1_slot2;
-        michal = 8;
-        michal = verify[michal];
-        tangon = undefined;
-        yankee = zuuluu.bind(tangon)(michal);
-        zuuluu = yankee.dispatch;
-        michal = {};
-        romeon = 'EMOJI_UPLOAD_START';
-        michal['type'] = romeon;
-        michal['guildId'] = offset;
-        michal = zuuluu.bind(yankee)(michal);
-        zuuluu = _closure1_slot0;
-        michal = 9;
-        michal = verify[michal];
-        michal = zuuluu.bind(tangon)(michal);
-        tangon = michal.HTTP;
-        zuuluu = tangon.post;
-        michal = {};
-        verify = _closure1_slot7;
-        report = verify.GUILD_EMOJIS;
-        report = report.bind(verify)(offset);
-        michal['url'] = report;
-        report = {};
-        report['image'] = option;
-        report['name'] = golfie;
-        report['roles'] = oscard;
-        michal['body'] = report;
-        report = true;
-        michal['oldFormErrors'] = report;
-        report = false;
-        michal['rejectWithError'] = report;
-        tangon = zuuluu.bind(tangon)(michal);
-        zuuluu = tangon.then;
-        michal = function() {
+        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+ 0:
+            michal = argFoo;
+            romeon = michal.guildId;
+            var _closure2_slot0 = romeon;
+            offset = michal.image;
+            verify = michal.name;
+            option = michal.roles;
+            golfie = michal.analyticsLocation;
             zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 8;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            tangon = 'EMOJI_UPLOAD_STOP';
-            entity['type'] = tangon;
-            tangon = _closure2_slot0;
-            entity['guildId'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
+            tangon = _closure1_slot2;
+            michal = 8;
+            michal = tangon[michal];
+            oscard = undefined;
+            yankee = zuuluu.bind(oscard)(michal);
+            zuuluu = yankee.dispatch;
+            michal = {};
+            foxtra = 'EMOJI_UPLOAD_START';
+            michal['type'] = foxtra;
+            michal['guildId'] = romeon;
+            michal = zuuluu.bind(yankee)(michal);
+            zuuluu = _closure1_slot0;
+            michal = 9;
+            michal = tangon[michal];
+            michal = zuuluu.bind(oscard)(michal);
+            tangon = michal.HTTP;
+            zuuluu = tangon.post;
+            michal = {};
+            yankee = _closure1_slot7;
+            report = yankee.GUILD_EMOJIS;
+            report = report.bind(yankee)(romeon);
+            michal['url'] = report;
+            report = {};
+            report['image'] = offset;
+            report['name'] = verify;
+            report['roles'] = option;
+            michal['body'] = report;
+            report = {};
+            option = null;
+            option = option == golfie;
+            if(option) { _fun00010_ip = 173; continue _fun00009 }
+ 167:
+            oscard = golfie.page;
+ 173:
+            report['client_event_source'] = oscard;
+            michal['context'] = report;
+            report = true;
+            michal['oldFormErrors'] = report;
+            report = false;
+            michal['rejectWithError'] = report;
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.then;
+            michal = function() {
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
+                entity = 8;
+                michal = michal[entity];
+                entity = undefined;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.dispatch;
+                entity = {};
+                tangon = 'EMOJI_UPLOAD_STOP';
+                entity['type'] = tangon;
+                tangon = _closure2_slot0;
+                entity['guildId'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            entity = function(argFoo) {
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
+                entity = 8;
+                michal = michal[entity];
+                entity = undefined;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.dispatch;
+                entity = {};
+                tangon = 'EMOJI_UPLOAD_STOP';
+                entity['type'] = tangon;
+                tangon = _closure2_slot0;
+                entity['guildId'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
+                entity = global;
+                zuuluu = entity.Promise;
+                michal = zuuluu.reject;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
-        };
-        entity = function(argFoo) {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 8;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.dispatch;
-            entity = {};
-            tangon = 'EMOJI_UPLOAD_STOP';
-            entity['type'] = tangon;
-            tangon = _closure2_slot0;
-            entity['guildId'] = tangon;
-            entity = michal.bind(zuuluu)(entity);
-            entity = global;
-            zuuluu = entity.Promise;
-            michal = zuuluu.reject;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        };
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        }
     };
     zuuluu['uploadEmoji'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: deleteEmoji
@@ -470,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['updateEmoji'] = tangon;
     tangon = function(argFoo) { // Original name: favoriteEmoji
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             report = _closure1_slot12;
             entity = undefined;
@@ -478,7 +491,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(entity)(tangon);
             var _closure2_slot0 = report;
             tangon = null;
-            if(!(tangon != report)) { _fun00010_ip = 87; continue _fun00009 }
+            if(!(tangon != report)) { _fun00012_ip = 87; continue _fun00011 }
  29:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -491,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.INFREQUENT_USER_ACTION;
             zuuluu = 'favoriteEmojis';
             michal = function(argFoo) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     zuuluu = argFoo;
                     michal = _closure1_slot11;
@@ -508,14 +521,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = zuuluu.emojis;
                     michal = michal.bind(tangon)(entity);
                     entity = _closure1_slot8;
-                    if(!(!(michal >= entity))) { _fun00012_ip = 129; continue _fun00011 }
+                    if(!(!(michal >= entity))) { _fun00014_ip = 129; continue _fun00013 }
  73:
                     report = zuuluu.emojis;
                     tangon = report.includes;
                     entity = _closure2_slot0;
                     entity = tangon.bind(report)(entity);
                     entity = !entity;
-                    if(!entity) { _fun00012_ip = 124; continue _fun00011 }
+                    if(!entity) { _fun00014_ip = 124; continue _fun00013 }
  102:
                     tangon = zuuluu.emojis;
                     zuuluu = tangon.push;
@@ -523,7 +536,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     entity = undefined;
  124:
-                    _fun00012_ip = 278; continue _fun00011;
+                    _fun00014_ip = 278; continue _fun00013;
  129:
                     zuuluu = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -570,7 +583,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['favoriteEmoji'] = tangon;
     michal = function(argFoo) { // Original name: unfavoriteEmoji
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             report = _closure1_slot12;
             entity = undefined;
@@ -578,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(entity)(tangon);
             var _closure2_slot0 = report;
             tangon = null;
-            if(!(tangon != report)) { _fun00014_ip = 87; continue _fun00013 }
+            if(!(tangon != report)) { _fun00016_ip = 87; continue _fun00015 }
  29:
             report = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -591,7 +604,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.INFREQUENT_USER_ACTION;
             zuuluu = 'favoriteEmojis';
             michal = function(argFoo) {
-                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                     zuuluu = argFoo;
                     tangon = _closure1_slot11;
@@ -603,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = report.includes;
                     michal = _closure2_slot0;
                     michal = tangon.bind(report)(michal);
-                    if(michal) { _fun00016_ip = 59; continue _fun00015 }
+                    if(michal) { _fun00018_ip = 59; continue _fun00017 }
  55:
                     michal = false;
                     return michal;

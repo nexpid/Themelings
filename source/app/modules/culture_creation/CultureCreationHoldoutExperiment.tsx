@@ -1,4 +1,4 @@
-// app/modules/group_dm/CultureCreationHoldoutExperiment.tsx
+// app/modules/culture_creation/CultureCreationHoldoutExperiment.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
@@ -40,10 +40,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/group_dm/CultureCreationHoldoutExperiment.tsx';
+    report = 'modules/culture_creation/CultureCreationHoldoutExperiment.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['CultureCreationHoldoutExperiment'] = tangon;
-    michal = function(argFoo) { // Original name: useIsInCultureCreationHoldout
+    tangon = function(argFoo) { // Original name: useIsInCultureCreationHoldout
         tangon = _closure1_slot0;
         zuuluu = tangon.useExperiment;
         michal = {};
@@ -56,6 +56,20 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = entity.inHoldout;
         return entity;
     };
-    zuuluu['useIsInCultureCreationHoldout'] = michal;
+    zuuluu['useIsInCultureCreationHoldout'] = tangon;
+    michal = function(argFoo) { // Original name: isInCultureCreationHoldout
+        tangon = _closure1_slot0;
+        zuuluu = tangon.getCurrentConfig;
+        michal = {};
+        entity = argFoo;
+        michal['location'] = entity;
+        entity = {};
+        report = false;
+        entity['autoTrackExposure'] = report;
+        entity = zuuluu.bind(tangon)(michal, entity);
+        entity = entity.inHoldout;
+        return entity;
+    };
+    zuuluu['isInCultureCreationHoldout'] = michal;
     return entity;
 })();

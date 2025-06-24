@@ -207,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 472; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 468; continue _fun00005 }
  10:
                         zuuluu = _closure2_slot1;
                         tangon = undefined;
@@ -237,7 +237,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return michal;
  123:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscard) { _fun00006_ip = 469; continue _fun00005 }
+                        if(oscard) { _fun00006_ip = 465; continue _fun00005 }
  132:
                         if(michal) { _fun00006_ip = 249; continue _fun00005 }
  135:
@@ -362,22 +362,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         sizing = verify;
                         verify = copyDataProperties(output, sizing);
                         zuuluu = golfie.bind(option)(oscard, zuuluu);
-                        SaveGenerator(address=446);
- 444:
+                        SaveGenerator(address=442);
+ 440:
                         return zuuluu;
- 446:
+ 442:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                        if(oscard) { _fun00006_ip = 466; continue _fun00005 }
- 452:
+                        if(oscard) { _fun00006_ip = 462; continue _fun00005 }
+ 448:
                         oscard = _closure2_slot1;
                         report = false;
                         report = oscard.bind(tangon)(report);
                         return tangon;
- 466:
+ 462:
                         return zuuluu;
- 469:
+ 465:
                         return michal;
- 472:
+ 468:
                         return entity;
                     }
                 };

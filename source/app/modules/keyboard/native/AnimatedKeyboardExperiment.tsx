@@ -8,19 +8,33 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = function() { // Original name: isLegacyAndroidKeyboard
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
+            michal = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 1;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            zuuluu = tangon.bind(entity)(zuuluu);
-            entity = zuuluu.isAndroid;
-            entity = entity.bind(zuuluu)();
-            if(!entity) { _fun00002_ip = 44; continue _fun00001 }
- 37:
-            michal = _closure1_slot2;
+            entity = tangon[entity];
+            report = undefined;
+            michal = michal.bind(report)(entity);
+            entity = michal.isAndroid;
+            entity = entity.bind(michal)();
+            michal = !entity;
             entity = !michal;
- 44:
+            if(michal) { _fun00002_ip = 89; continue _fun00001 }
+ 43:
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 2;
+            michal = oscard[michal];
+            tangon = tangon.bind(report)(michal);
+            michal = tangon.isFabric;
+            michal = michal.bind(tangon)();
+            michal = !michal;
+            if(!michal) { _fun00002_ip = 86; continue _fun00001 }
+ 79:
+            zuuluu = _closure1_slot2;
+            michal = !zuuluu;
+ 86:
+            entity = michal;
+ 89:
             return entity;
         }
     };
@@ -36,32 +50,32 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = 0;
     report = option[entity];
     entity = undefined;
-    offset = golfie.bind(entity)(report);
-    verify = offset.createExperiment;
+    verify = golfie.bind(entity)(report);
+    oscard = verify.createExperiment;
     report = {'kind': 'user', 'id': '2025-06_animated_keyboard_android', 'label': 'Animated Keyboard (Android)'};
-    oscard = {'enabled': false, 'reanimated': false};
-    report['defaultConfig'] = oscard;
-    oscard = {'id': 1, 'label': 'Enable w/ KeyboardController (Android)'};
-    yankee = {'enabled': true, 'reanimated': false};
-    oscard['config'] = yankee;
-    yankee = new Array(2);
-    yankee[0] = oscard;
-    romeon = {'id': 2, 'label': 'Deprecated Reanimated (Android)'};
-    oscard = 2;
-    foxtra = {'enabled': true, 'reanimated': true};
-    romeon['config'] = foxtra;
-    yankee[1] = romeon;
-    report['treatments'] = yankee;
-    report = verify.bind(offset)(report);
-    offset = report.getCurrentConfig;
-    verify = {};
-    yankee = 'isAnimatedKeyboardEnabled';
-    verify['location'] = yankee;
-    verify = offset.bind(report)(verify);
-    offset = verify.enabled;
-    var _closure1_slot2 = offset;
-    verify = verify.reanimated;
-    var _closure1_slot3 = verify;
+    offset = {'enabled': false, 'reanimated': false};
+    report['defaultConfig'] = offset;
+    yankee = {'id': 1, 'label': 'Enable w/ KeyboardController (Android)'};
+    offset = {'enabled': true, 'reanimated': false};
+    yankee['config'] = offset;
+    offset = new Array(2);
+    offset[0] = yankee;
+    yankee = {'id': 2, 'label': 'Deprecated Reanimated (Android)'};
+    romeon = {'enabled': true, 'reanimated': true};
+    yankee['config'] = romeon;
+    offset[1] = yankee;
+    report['treatments'] = offset;
+    report = oscard.bind(verify)(report);
+    verify = report.getCurrentConfig;
+    oscard = {};
+    offset = 'isAnimatedKeyboardEnabled';
+    oscard['location'] = offset;
+    oscard = verify.bind(report)(oscard);
+    verify = oscard.enabled;
+    var _closure1_slot2 = verify;
+    oscard = oscard.reanimated;
+    var _closure1_slot3 = oscard;
+    oscard = 3;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -73,9 +87,9 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot4;
             entity = undefined;
-            entity = zuuluu.bind(entity)();
-            entity = !entity;
-            if(!entity) { _fun00004_ip = 23; continue _fun00003 }
+            zuuluu = zuuluu.bind(entity)();
+            entity = !zuuluu;
+            if(zuuluu) { _fun00004_ip = 23; continue _fun00003 }
  19:
             entity = _closure1_slot3;
  23:

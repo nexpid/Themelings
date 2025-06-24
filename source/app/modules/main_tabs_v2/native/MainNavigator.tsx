@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = 25;
                         michal = verify[michal];
                         report = option.bind(entity)(michal);
-                        tangon = report.toggleKeyboard;
+                        tangon = report.setKeyboardType;
                         michal = {};
                         oscard = 26;
                         oscard = verify[oscard];

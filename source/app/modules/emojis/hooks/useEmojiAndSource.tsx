@@ -110,24 +110,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = tangon.bind(zuuluu)(entity);
                     entity = entity.EmojiTypes;
                     entity = entity.GUILD;
-                    if(!(michal !== entity)) { _fun00004_ip = 104; continue _fun00003 }
+                    if(!(michal !== entity)) { _fun00004_ip = 108; continue _fun00003 }
  92:
                     entity = {'emoji': null, 'joinedEmojiSourceGuildRecord': null};
-                    _fun00004_ip = 143; continue _fun00003;
- 104:
+                    _fun00004_ip = 147; continue _fun00003;
+ 108:
                     michal = {};
                     michal['emoji'] = oscard;
                     tangon = report.getGuild;
                     golfie = golfie == oscard;
                     zuuluu = undefined;
-                    if(golfie) { _fun00004_ip = 130; continue _fun00003 }
- 125:
+                    if(golfie) { _fun00004_ip = 134; continue _fun00003 }
+ 129:
                     zuuluu = oscard.guildId;
- 130:
+ 134:
                     zuuluu = tangon.bind(report)(zuuluu);
                     michal['joinedEmojiSourceGuildRecord'] = zuuluu;
                     entity = michal;
- 143:
+ 147:
                     return entity;
                 }
             };

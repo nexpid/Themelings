@@ -68,12 +68,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 5;
-            option = oscard[entity];
+            entity = oscard[entity];
             tangon = undefined;
-            yankee = michal.bind(tangon)(option);
-            verify = yankee.getFormattedPriceForCollectiblesProduct;
-            option = true;
-            romeon = verify.bind(yankee)(zuuluu, report, option);
+            verify = michal.bind(tangon)(entity);
+            option = verify.getFormattedPriceForCollectiblesProduct;
+            entity = true;
+            romeon = option.bind(verify)(zuuluu, report, entity);
+            entity = 6;
             entity = oscard[entity];
             michal = michal.bind(tangon)(entity);
             entity = michal.getProductDiscount;
@@ -85,12 +86,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset.priceDescription;
             entity['style'] = oscard;
             oscard = report;
-            if(!oscard) { _fun00002_ip = 174; continue _fun00001 }
- 114:
+            if(!oscard) { _fun00002_ip = 177; continue _fun00001 }
+ 117:
             verify = _closure1_slot5;
             option = _closure1_slot0;
             yankee = _closure1_slot2;
-            report = 6;
+            report = 7;
             report = yankee[report];
             report = option.bind(tangon)(report);
             option = report.NitroWheelIcon;
@@ -98,13 +99,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.wheelIcon;
             report['style'] = yankee;
             oscard = verify.bind(tangon)(option, report);
- 174:
+ 177:
             report = new Array(3);
             report[0] = oscard;
             verify = _closure1_slot5;
             option = _closure1_slot0;
             oscard = _closure1_slot2;
-            yankee = 7;
+            yankee = 8;
             oscard = oscard[yankee];
             oscard = option.bind(tangon)(oscard);
             option = oscard.Text;
@@ -114,8 +115,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = oscard;
             oscard = 0;
             oscard = foxtra > oscard;
-            if(!oscard) { _fun00002_ip = 337; continue _fun00001 }
- 248:
+            if(!oscard) { _fun00002_ip = 340; continue _fun00001 }
+ 251:
             verify = _closure1_slot5;
             option = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -133,7 +134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = romeon.bind(yankee)(foxtra, offset);
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 337:
+ 340:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
@@ -155,33 +156,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity.bind(report)();
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
-            entity = 8;
+            entity = 9;
             entity = oscard[entity];
             michal = tangon.bind(report)(entity);
             entity = michal.useCurrentUser;
             zuuluu = entity.bind(michal)();
-            entity = 5;
+            entity = 6;
             entity = oscard[entity];
             michal = tangon.bind(report)(entity);
             entity = michal.isPremiumCollectiblesProduct;
             golfie = entity.bind(michal)(foxtra);
             verify = _closure1_slot1;
-            entity = 9;
+            entity = 10;
             entity = oscard[entity];
             michal = verify.bind(report)(entity);
             entity = michal.canUseCollectibles;
             romeon = entity.bind(michal)(zuuluu);
-            entity = 10;
+            entity = 11;
             entity = oscard[entity];
             zuuluu = tangon.bind(report)(entity);
             michal = zuuluu.useToken;
-            entity = 11;
+            entity = 12;
             entity = oscard[entity];
             entity = verify.bind(report)(entity);
             entity = entity.colors;
             entity = entity.BACKGROUND_PRIMARY;
             verify = michal.bind(zuuluu)(entity);
-            entity = 12;
+            entity = 13;
             michal = oscard[entity];
             offset = tangon.bind(report)(michal);
             zuuluu = offset.hexToRgbaString;
@@ -209,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  261:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            entity = 13;
+            entity = 14;
             entity = tangon[entity];
             entity = zuuluu.bind(report)(entity);
             entity = entity.CollectiblesItemType;
@@ -226,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = _closure1_slot5;
             oscard = _closure1_slot0;
             sizing = _closure1_slot2;
-            tangon = 7;
+            tangon = 8;
             tangon = sizing[tangon];
             tangon = oscard.bind(report)(tangon);
             oscard = tangon.Text;
@@ -257,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot1;
             backup = _closure1_slot2;
-            michal = 14;
+            michal = 15;
             michal = backup[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
@@ -277,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['end'] = oscard;
             offset = _closure1_slot5;
             verify = _closure1_slot0;
-            oscard = 7;
+            oscard = 8;
             oscard = backup[oscard];
             oscard = verify.bind(report)(oscard);
             verify = oscard.Text;
@@ -308,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 15;
+    tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

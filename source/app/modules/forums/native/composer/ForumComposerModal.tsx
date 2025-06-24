@@ -229,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = tangon[golfie];
                     golfie = undefined;
                     offset = report.bind(golfie)(option);
-                    verify = offset.toggleKeyboard;
+                    verify = offset.setKeyboardType;
                     option = {};
                     yankee = 20;
                     yankee = tangon[yankee];

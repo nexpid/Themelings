@@ -2,36 +2,36 @@
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        option = argBar;
+        golfie = argBar;
         oscard = argBaz;
         zuuluu = argFre;
-        verify = argPlu;
+        option = argPlu;
         report = global;
         offset = report.Object;
-        golfie = offset.defineProperty;
+        verify = offset.defineProperty;
         tangon = {};
         entity = true;
         tangon['value'] = entity;
         entity = '__esModule';
-        entity = golfie.bind(offset)(zuuluu, entity, tangon);
+        entity = verify.bind(offset)(zuuluu, entity, tangon);
         entity = 0;
-        tangon = verify[entity];
+        tangon = option[entity];
         entity = undefined;
         tangon = oscard.bind(entity)(tangon);
         var _closure1_slot0 = tangon;
         tangon = 1;
-        tangon = verify[tangon];
+        tangon = option[tangon];
         tangon = oscard.bind(entity)(tangon);
         var _closure1_slot1 = tangon;
         tangon = 2;
-        tangon = verify[tangon];
-        tangon = option.bind(entity)(tangon);
+        tangon = option[tangon];
+        tangon = golfie.bind(entity)(tangon);
         tangon = tangon.NativeModules;
         oscard = tangon.LibDiscoreModule;
         if(oscard) { _fun00002_ip = 150; continue _fun00001 }
  106:
         offset = report.Proxy;
-        golfie = {};
+        verify = {};
         report = function() { // Original name: get
             entity = global;
             zuuluu = entity.Error;
@@ -43,12 +43,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity instanceof Object ? entity : michal;
             throw entity;
         };
-        golfie['get'] = report;
+        verify['get'] = report;
         report = offset.prototype;
         oscard = Object.create(report, {constructor: {value: offset}});
         foxtra = {};
         backup = oscard;
-        romeon = golfie;
+        romeon = verify;
         report = new backup[offset](foxtra, romeon, yankee);
         report = report instanceof Object ? report : oscard;
         _fun00002_ip = 156; continue _fun00001;
@@ -60,7 +60,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = argFoo;
         tangon = tangon.LIBDISCORE_JSI;
         var _closure1_slot2 = tangon;
-        oscard = tangon.NoteStore;
         report = tangon.ExperimentCacher;
         tangon = function() {
             report = _closure1_slot1;
@@ -105,13 +104,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(entity)();
-        golfie = 3;
-        golfie = verify[golfie];
-        verify = option.bind(entity)(golfie);
-        option = verify.fileFinishedImporting;
-        golfie = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
-        golfie = option.bind(verify)(golfie);
-        zuuluu['NoteStore'] = oscard;
+        oscard = 3;
+        oscard = option[oscard];
+        option = golfie.bind(entity)(oscard);
+        golfie = option.fileFinishedImporting;
+        oscard = '../discord_common/js/packages/libdiscore/mobile/js/index.tsx';
+        oscard = golfie.bind(option)(oscard);
         zuuluu['ExperimentCacher'] = report;
         report = function(argFoo, argBar) { // Original name: rustMultiply
             tangon = _closure1_slot2;
@@ -130,6 +128,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         zuuluu['consumeLogs'] = report;
         zuuluu['BlockedDomainsStore'] = tangon;
+        tangon = function() { // Original name: getKvDatabaseApi
+            entity = {};
+            zuuluu = function(argFoo, argBar) { // Original name: registerStore
+                tangon = argBar;
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.registerKvStore;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity, tangon);
+                michal = entity.token;
+                zuuluu = entity.root;
+                entity = undefined;
+                entity = tangon.bind(entity)(zuuluu);
+                entity = {};
+                entity['token'] = michal;
+                return entity;
+            };
+            entity['registerStore'] = zuuluu;
+            zuuluu = function() { // Original name: getActions
+                michal = _closure1_slot2;
+                entity = michal.getRegisteredActionTypes;
+                entity = entity.bind(michal)();
+                return entity;
+            };
+            entity['getActions'] = zuuluu;
+            michal = function(argFoo) { // Original name: dispatchAction
+                zuuluu = _closure1_slot2;
+                michal = zuuluu.dispatchAction;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            entity['dispatchAction'] = michal;
+            return entity;
+        };
+        zuuluu['getKvDatabaseApi'] = tangon;
         tangon = function() { // Original name: crash
             michal = _closure1_slot2;
             entity = michal.crash;

@@ -537,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu['default'] = oscard;
         zuuluu['keyboardTypeSharedValue'] = report;
         zuuluu['keyboardWillOpenSharedValue'] = tangon;
-        michal = function(argFoo) { // Original name: setKeyboardToggled
+        michal = function(argFoo) { // Original name: setKeyboardType
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 tangon = argFoo;
@@ -578,7 +578,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu['setKeyboardToggled'] = michal;
+        zuuluu['setKeyboardType'] = michal;
         return entity;
     }
 })();

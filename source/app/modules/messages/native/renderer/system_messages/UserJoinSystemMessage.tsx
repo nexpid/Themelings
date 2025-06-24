@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             tangon = argFoo;
             romeon = tangon.message;
-            echoed = tangon.roleStyle;
+            sizing = tangon.roleStyle;
             report = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 6;
@@ -197,14 +197,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = report.getMessageAuthorWithProcessedColor;
             entity = entity.bind(report)(romeon);
             yankee = entity.nick;
-            output = entity.colorString;
-            backup = entity.colorStrings;
+            kiloes = entity.colorString;
+            output = entity.colorStrings;
             verify = entity.guildId;
             golfie = _closure1_slot5;
             report = golfie.getChannel;
             entity = romeon.getChannelId;
             entity = entity.bind(romeon)();
-            kiloes = report.bind(golfie)(entity);
+            foxtra = report.bind(golfie)(entity);
             report = _closure1_slot1;
             entity = 7;
             entity = oscard[entity];
@@ -212,26 +212,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.getSystemMessageUserJoinMobile;
             entity = romeon.id;
             offset = report.bind(oscard)(entity);
-            foxtra = null;
-            entity = foxtra == kiloes;
+            backup = null;
+            entity = backup == foxtra;
             option = undefined;
             if(entity) { _fun00004_ip = 150; continue _fun00003 }
  140:
-            entity = kiloes.getGuildId;
-            option = entity.bind(kiloes)();
+            entity = foxtra.getGuildId;
+            option = entity.bind(foxtra)();
  150:
-            entity = foxtra != option;
+            entity = backup != option;
             oscard = undefined;
             if(!entity) { _fun00004_ip = 327; continue _fun00003 }
  162:
-            entity = foxtra != kiloes;
+            entity = backup != foxtra;
             oscard = undefined;
             if(!entity) { _fun00004_ip = 327; continue _fun00003 }
  174:
             report = _closure1_slot6;
             entity = report.getGuild;
             entity = entity.bind(report)(option);
-            golfie = foxtra != entity;
+            golfie = backup != entity;
             if(!golfie) { _fun00004_ip = 218; continue _fun00003 }
  195:
             report = entity.systemChannelFlags;
@@ -241,14 +241,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = !entity;
  218:
             report = _closure1_slot0;
-            sizing = _closure1_slot2;
+            result = _closure1_slot2;
             entity = 8;
-            entity = sizing[entity];
+            entity = result[entity];
             report = report.bind(zuuluu)(entity);
             entity = report.computeIsStickerReplyEnabled;
             sequen = report;
             vacuum = option;
-            ctrled = kiloes;
+            ctrled = foxtra;
             source = romeon;
             update = golfie;
             entity = sequen[entity](vacuum, ctrled, source, update, echoed);
@@ -256,17 +256,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!entity) { _fun00004_ip = 327; continue _fun00003 }
  268:
             option = _closure1_slot0;
-            kiloes = _closure1_slot2;
+            foxtra = _closure1_slot2;
             entity = 9;
-            entity = kiloes[entity];
+            entity = foxtra[entity];
             golfie = option.bind(zuuluu)(entity);
             report = golfie.transformSticker;
             entity = 10;
-            entity = kiloes[entity];
-            kiloes = option.bind(zuuluu)(entity);
-            option = kiloes.pickWelcomeSticker;
+            entity = foxtra[entity];
+            foxtra = option.bind(zuuluu)(entity);
+            option = foxtra.pickWelcomeSticker;
             entity = romeon.id;
-            entity = option.bind(kiloes)(entity);
+            entity = option.bind(foxtra)(entity);
             oscard = report.bind(golfie)(entity);
  327:
             option = _closure1_slot0;
@@ -275,7 +275,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = golfie[entity];
             report = option.bind(zuuluu)(entity);
             entity = report.isNativeMessageEligibleForEnhancedRoleColors;
-            kiloes = entity.bind(report)(verify, echoed);
+            result = entity.bind(report)(verify, sizing);
             entity = {};
             report = 12;
             golfie = golfie[report];
@@ -285,24 +285,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             golfie['username'] = yankee;
             yankee = {};
-            sizing = 'bindUserMenu';
-            yankee['action'] = sizing;
-            sizing = romeon.author;
-            sizing = sizing.id;
-            yankee['userId'] = sizing;
-            result = 'username';
-            sizing = null;
-            if(!(result === echoed)) { _fun00004_ip = 430; continue _fun00003 }
- 427:
-            sizing = output;
- 430:
-            yankee['linkColor'] = sizing;
+            foxtra = 'bindUserMenu';
+            yankee['action'] = foxtra;
+            foxtra = romeon.author;
+            foxtra = foxtra.id;
+            yankee['userId'] = foxtra;
+            echoed = 'username';
             foxtra = null;
-            if(!kiloes) { _fun00004_ip = 443; continue _fun00003 }
+            if(!(echoed === sizing)) { _fun00004_ip = 430; continue _fun00003 }
+ 427:
+            foxtra = kiloes;
+ 430:
+            yankee['linkColor'] = foxtra;
+            foxtra = null;
+            if(!result) { _fun00004_ip = 443; continue _fun00003 }
  440:
-            foxtra = backup;
+            foxtra = output;
  443:
             yankee['roleColors'] = foxtra;
+            foxtra = 'dot';
+            foxtra = foxtra === sizing;
+            if(!foxtra) { _fun00004_ip = 463; continue _fun00003 }
+ 459:
+            foxtra = backup != kiloes;
+ 463:
+            yankee['shouldShowRoleDot'] = foxtra;
             romeon = romeon.channel_id;
             yankee['messageChannelId'] = romeon;
             romeon = true;

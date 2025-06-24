@@ -65,18 +65,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['isUnsupportedBrowser'] = oscard;
-    oscard = function() { // Original name: getNoteStore
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 0;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.NoteStore;
-        return entity;
-    };
-    zuuluu['getNoteStore'] = oscard;
-    michal = function() { // Original name: getExperimentCacher
+    oscard = function() { // Original name: getExperimentCacher
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 0;
@@ -86,7 +75,19 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = entity.ExperimentCacher;
         return entity;
     };
-    zuuluu['getExperimentCacher'] = michal;
+    zuuluu['getExperimentCacher'] = oscard;
+    michal = function() { // Original name: getKvStoreApi
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        entity = michal.getKvDatabaseApi;
+        entity = entity.bind(michal)();
+        return entity;
+    };
+    zuuluu['getKvStoreApi'] = michal;
     michal = 0;
     oscard = report[michal];
     oscard = tangon.bind(entity)(oscard);

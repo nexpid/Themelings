@@ -454,9 +454,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             offset = offset.bind(yankee)(zuuluu, option);
-            if(michal) { _fun00002_ip = 1025; continue _fun00001 }
+            if(michal) { _fun00002_ip = 1021; continue _fun00001 }
  566:
-            if(entity) { _fun00002_ip = 914; continue _fun00001 }
+            if(entity) { _fun00002_ip = 910; continue _fun00001 }
  572:
             zuuluu = _closure1_slot13;
             michal = _closure1_slot12;
@@ -533,8 +533,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = yankee;
             entity['children'] = option;
             option = zuuluu.bind(tangon)(michal, entity);
-            _fun00002_ip = 1023; continue _fun00001;
- 914:
+            _fun00002_ip = 1019; continue _fun00001;
+ 910:
             zuuluu = _closure1_slot11;
             romeon = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -557,9 +557,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = foxtra.bind(backup)(romeon, yankee);
             entity['children'] = yankee;
             option = zuuluu.bind(tangon)(michal, entity);
- 1023:
-            _fun00002_ip = 1134; continue _fun00001;
- 1025:
+ 1019:
+            _fun00002_ip = 1130; continue _fun00001;
+ 1021:
             zuuluu = _closure1_slot11;
             romeon = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -582,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = foxtra.bind(backup)(romeon, yankee);
             entity['children'] = yankee;
             option = zuuluu.bind(tangon)(michal, entity);
- 1134:
+ 1130:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -591,8 +591,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             michal = entity.Notification;
             entity = {};
-            if(!(kiloes == result)) { _fun00002_ip = 1237; continue _fun00001 }
- 1170:
+            if(!(kiloes == result)) { _fun00002_ip = 1233; continue _fun00001 }
+ 1166:
             foxtra = _closure1_slot11;
             romeon = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -608,8 +608,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.NORMAL;
             yankee['size'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);
-            _fun00002_ip = 1324; continue _fun00001;
- 1237:
+            _fun00002_ip = 1320; continue _fun00001;
+ 1233:
             backup = _closure1_slot11;
             foxtra = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -620,10 +620,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['user'] = result;
             result = kiloes == sizing;
             kiloes = undefined;
-            if(result) { _fun00002_ip = 1281; continue _fun00001 }
- 1276:
+            if(result) { _fun00002_ip = 1277; continue _fun00001 }
+ 1272:
             kiloes = sizing.id;
- 1281:
+ 1277:
             romeon['guildId'] = kiloes;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -633,7 +633,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.NORMAL;
             romeon['size'] = kiloes;
             yankee = backup.bind(tangon)(foxtra, romeon);
- 1324:
+ 1320:
             entity['icon'] = yankee;
             entity['label'] = offset;
             entity['labelStyle'] = golfie;

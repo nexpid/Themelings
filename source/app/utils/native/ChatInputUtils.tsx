@@ -436,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = 3;
             zuuluu = oscard[zuuluu];
             report = golfie.bind(entity)(zuuluu);
-            tangon = report.toggleKeyboard;
+            tangon = report.setKeyboardType;
             zuuluu = {};
             oscard = oscard[option];
             oscard = golfie.bind(entity)(oscard);

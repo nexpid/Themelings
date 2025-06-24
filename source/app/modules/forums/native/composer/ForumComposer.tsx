@@ -2743,7 +2743,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = 56;
                     tangon = golfie[tangon];
                     oscard = option.bind(entity)(tangon);
-                    report = oscard.toggleKeyboard;
+                    report = oscard.setKeyboardType;
                     tangon = {};
                     golfie = golfie[verify];
                     golfie = option.bind(entity)(golfie);
@@ -3019,7 +3019,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = 56;
                     tangon = golfie[tangon];
                     oscard = option.bind(entity)(tangon);
-                    report = oscard.toggleKeyboard;
+                    report = oscard.setKeyboardType;
                     tangon = {};
                     golfie = golfie[verify];
                     golfie = option.bind(entity)(golfie);

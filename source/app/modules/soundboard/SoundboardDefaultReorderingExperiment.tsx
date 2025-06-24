@@ -32,7 +32,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     verify[0] = tangon;
     offset = {'id': 2, 'label': 'Test the performance of an upsell that is always sticky, even when the locked section is not in view.'};
     tangon = 2;
-    yankee = {'moveDefaultToBottom': false, 'alwaysStickyUpsell': true};
+    yankee = {'moveDefaultToBottom': true, 'alwaysStickyUpsell': true};
     offset['config'] = yankee;
     verify[1] = offset;
     michal['treatments'] = verify;

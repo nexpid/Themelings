@@ -1162,7 +1162,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00032_ip = 1727; continue _fun00031 }
+                    if(michal) { _fun00032_ip = 1758; continue _fun00031 }
  12:
                     tangon = undefined;
                     var _closure4_slot0 = tangon;
@@ -1172,26 +1172,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     if(!(zuuluu === michal)) { _fun00032_ip = 87; continue _fun00031 }
  39:
                     zuuluu = _closure1_slot1;
-                    oscard = _closure1_slot3;
+                    golfie = _closure1_slot3;
                     michal = 22;
-                    michal = oscard[michal];
-                    oscard = zuuluu.bind(tangon)(michal);
-                    zuuluu = oscard.addBreadcrumb;
+                    michal = golfie[michal];
+                    golfie = zuuluu.bind(tangon)(michal);
+                    zuuluu = golfie.addBreadcrumb;
                     michal = {};
-                    golfie = 'Init called when already initialized';
-                    michal['message'] = golfie;
-                    michal = zuuluu.bind(oscard)(michal);
-                    _fun00032_ip = 1718; continue _fun00031;
+                    option = 'Init called when already initialized';
+                    michal['message'] = option;
+                    michal = zuuluu.bind(golfie)(michal);
+                    _fun00032_ip = 1749; continue _fun00031;
  87:
                     zuuluu = _closure1_slot21;
                     michal = _closure1_slot20;
                     michal = michal.HeadlessRan;
-                    oscard = zuuluu === michal;
+                    golfie = zuuluu === michal;
                     michal = _closure1_slot20;
                     michal = michal.Full;
                     _closure1_slot21 = michal;
                     verify = undefined;
-                    if(oscard) { _fun00032_ip = 138; continue _fun00031 }
+                    if(golfie) { _fun00032_ip = 138; continue _fun00031 }
  124:
                     michal = _closure1_slot27;
                     michal = michal.bind(tangon)();
@@ -1204,22 +1204,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = zuuluu.isAndroid;
                     michal = michal.bind(zuuluu)();
-                    golfie = _closure1_slot0;
+                    option = _closure1_slot0;
                     offset = _closure1_slot3;
                     zuuluu = 36;
                     zuuluu = offset[zuuluu];
-                    golfie = golfie.bind(tangon)(zuuluu);
+                    option = option.bind(tangon)(zuuluu);
                     if(michal) { _fun00032_ip = 202; continue _fun00031 }
  190:
-                    michal = golfie.lockOrientationForiOS;
-                    michal = michal.bind(golfie)();
+                    michal = option.lockOrientationForiOS;
+                    michal = michal.bind(option)();
                     _fun00032_ip = 222; continue _fun00031;
  202:
-                    zuuluu = golfie.unlockOrientation;
+                    zuuluu = option.unlockOrientation;
                     michal = {};
                     offset = false;
                     michal['unlockAfterRotatingToPreviousLock'] = offset;
-                    michal = zuuluu.bind(golfie)(michal);
+                    michal = zuuluu.bind(option)(michal);
  222:
                     foxtra = _closure1_slot1;
                     yankee = _closure1_slot3;
@@ -1227,10 +1227,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = yankee[backup];
                     zuuluu = foxtra.bind(tangon)(michal);
                     michal = _closure1_slot6;
-                    golfie = michal.currentState;
+                    option = michal.currentState;
                     michal = _closure1_slot12;
                     michal = michal.BACKGROUND;
-                    michal = golfie === michal;
+                    michal = option === michal;
                     zuuluu['didBackgroundApp'] = michal;
                     michal = yankee[backup];
                     michal = foxtra.bind(tangon)(michal);
@@ -1240,7 +1240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(zuuluu)();
                     zuuluu = global;
                     offset = zuuluu.Promise;
-                    golfie = offset.all;
+                    option = offset.all;
                     michal = _closure1_slot24;
                     romeon = michal.bind(tangon)();
                     michal = new Array(5);
@@ -1281,17 +1281,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     yankee = romeon.bind(foxtra)(yankee);
                     michal[4] = yankee;
-                    michal = golfie.bind(offset)(michal);
+                    michal = option.bind(offset)(michal);
                     SaveGenerator(address=465);
  463:
                     return michal;
  465:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00032_ip = 1724; continue _fun00031 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=7);
+                    if(option) { _fun00032_ip = 1755; continue _fun00031 }
  474:
                     offset = _closure1_slot4;
-                    golfie = 2;
-                    romeon = offset.bind(tangon)(michal, golfie);
+                    option = 2;
+                    romeon = offset.bind(tangon)(michal, option);
                     yankee = 0;
                     echoed = romeon[yankee];
                     offset = 1;
@@ -1372,7 +1372,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     output = output.bind(tangon)();
-                    if(oscard) { _fun00032_ip = 792; continue _fun00031 }
+                    if(golfie) { _fun00032_ip = 792; continue _fun00031 }
  776:
                     output = _closure1_slot36;
                     output = output.bind(tangon)();
@@ -1384,7 +1384,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = _closure1_slot3;
                     verify = verify[source];
                     ctrled = output.bind(tangon)(verify);
-                    if(oscard) { _fun00032_ip = 840; continue _fun00031 }
+                    if(golfie) { _fun00032_ip = 840; continue _fun00031 }
  812:
                     source = ctrled.time;
                     output = 'Flux.initialize()';
@@ -1649,7 +1649,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  1524:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=8);
-                    if(verify) { _fun00032_ip = 1721; continue _fun00031 }
+                    if(verify) { _fun00032_ip = 1752; continue _fun00031 }
  1533:
                     romeon = _closure1_slot4;
                     verify = 5;
@@ -1657,22 +1657,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = verify[yankee];
                     offset = verify[offset];
                     romeon = offset.default;
-                    golfie = verify[golfie];
-                    yankee = golfie.default;
-                    golfie = 3;
-                    golfie = verify[golfie];
-                    offset = golfie.default;
-                    _closure4_slot0 = offset;
-                    golfie = 4;
-                    golfie = verify[golfie];
+                    option = verify[option];
+                    offset = option.default;
+                    option = 3;
+                    option = verify[option];
+                    yankee = option.default;
+                    _closure4_slot0 = yankee;
+                    option = 4;
+                    option = verify[option];
                     verify = romeon.registerNotificationCategories;
                     verify = verify.bind(romeon)();
                     verify = romeon.registerListener;
                     verify = verify.bind(romeon)();
-                    verify = yankee.loadServer;
-                    verify = verify.bind(yankee)();
-                    verify = offset.addChangeListener;
-                    option = function() {
+                    verify = offset.loadServer;
+                    verify = verify.bind(offset)();
+                    offset = yankee.addChangeListener;
+                    verify = function() {
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot3;
                         entity = 25;
@@ -1686,34 +1686,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = zuuluu.bind(tangon)(michal);
                         return entity;
                     };
-                    option = verify.bind(offset)(option);
-                    if(oscard) { _fun00032_ip = 1656; continue _fun00031 }
+                    verify = offset.bind(yankee)(verify);
+                    if(golfie) { _fun00032_ip = 1656; continue _fun00031 }
  1646:
-                    oscard = golfie.init;
-                    oscard = oscard.bind(golfie)();
+                    golfie = option.init;
+                    golfie = golfie.bind(option)();
  1656:
-                    option = _closure1_slot0;
-                    golfie = _closure1_slot3;
-                    oscard = 53;
-                    oscard = golfie[oscard];
-                    oscard = option.bind(tangon)(oscard);
-                    oscard = 54;
-                    oscard = golfie[oscard];
-                    option = option.bind(tangon)(oscard);
-                    oscard = option.initSessionHeartbeatScheduler;
-                    oscard = oscard.bind(option)();
-                    oscard = _closure1_slot1;
-                    report = 55;
-                    report = golfie[report];
-                    report = oscard.bind(tangon)(report);
-                    report = report.bind(tangon)();
- 1718:
+                    verify = _closure1_slot0;
+                    option = _closure1_slot3;
+                    golfie = 53;
+                    golfie = option[golfie];
+                    golfie = verify.bind(tangon)(golfie);
+                    golfie = 54;
+                    golfie = option[golfie];
+                    verify = verify.bind(tangon)(golfie);
+                    golfie = verify.initSessionHeartbeatScheduler;
+                    golfie = golfie.bind(verify)();
+                    golfie = _closure1_slot1;
+                    oscard = 55;
+                    oscard = option[oscard];
+                    oscard = golfie.bind(tangon)(oscard);
+                    oscard = oscard.bind(tangon)();
+                    oscard = 14;
+                    oscard = option[oscard];
+                    golfie = golfie.bind(tangon)(oscard);
+                    oscard = 'DispatcherBridge';
+                    report = function() {
+                        zuuluu = _closure1_slot0;
+                        michal = _closure1_slot3;
+                        entity = 56;
+                        michal = michal[entity];
+                        entity = undefined;
+                        michal = zuuluu.bind(entity)(michal);
+                        return entity;
+                    };
+                    report = golfie.bind(tangon)(oscard, report);
+ 1749:
                     return tangon;
- 1721:
+ 1752:
                     return zuuluu;
- 1724:
+ 1755:
                     return michal;
- 1727:
+ 1758:
                     return entity;
                 }
             };
@@ -1782,7 +1796,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(report)();
                     verify = _closure1_slot0;
                     zuuluu = _closure1_slot3;
-                    golfie = 56;
+                    golfie = 57;
                     golfie = zuuluu[golfie];
                     golfie = verify.bind(report)(golfie);
                     option = _closure1_slot1;
@@ -2079,7 +2093,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.loadIndex;
     report = option.recordEnd;
     report = report.bind(option)();
-    report = 57;
+    report = 58;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

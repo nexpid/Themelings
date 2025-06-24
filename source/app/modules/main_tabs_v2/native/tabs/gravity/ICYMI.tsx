@@ -529,115 +529,131 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: itemToType
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            golfie = argFoo;
-            entity = golfie.data;
-            michal = entity.kind;
+            oscard = argFoo;
+            entity = oscard.data;
+            option = entity.kind;
             entity = 'end';
-            if(!(entity !== michal)) { _fun00012_ip = 385; continue _fun00011 }
+            if(!(entity !== option)) { _fun00012_ip = 393; continue _fun00011 }
  24:
-            michal = golfie.data;
-            zuuluu = michal.kind;
             michal = 'loading';
-            if(!(michal !== zuuluu)) { _fun00012_ip = 382; continue _fun00011 }
- 45:
-            zuuluu = golfie.data;
-            zuuluu = zuuluu.kind;
-            report = 'message';
-            if(!(report !== zuuluu)) { _fun00012_ip = 281; continue _fun00011 }
- 66:
-            zuuluu = golfie.data;
-            oscard = zuuluu.kind;
-            zuuluu = 'summary';
-            tangon = 'channelSummary';
-            if(!(tangon !== oscard)) { _fun00012_ip = 279; continue _fun00011 }
+            if(!(michal !== option)) { _fun00012_ip = 391; continue _fun00011 }
+ 35:
+            tangon = 'message';
+            if(!(tangon !== option)) { _fun00012_ip = 294; continue _fun00011 }
+ 46:
+            zuuluu = 'channelSummary';
+            if(!(zuuluu !== option)) { _fun00012_ip = 288; continue _fun00011 }
+ 59:
+            zuuluu = 'guildEvent';
+            if(!(zuuluu !== option)) { _fun00012_ip = 280; continue _fun00011 }
+ 70:
+            zuuluu = 'contentInventory';
+            if(!(zuuluu !== option)) { _fun00012_ip = 209; continue _fun00011 }
+ 83:
+            zuuluu = 'recommendedGuilds';
+            if(!(zuuluu !== option)) { _fun00012_ip = 201; continue _fun00011 }
  93:
-            tangon = golfie.data;
-            option = tangon.kind;
-            tangon = 'guild_event';
-            oscard = 'guildEvent';
-            if(!(oscard !== option)) { _fun00012_ip = 276; continue _fun00011 }
- 120:
-            oscard = golfie.data;
-            option = oscard.kind;
-            oscard = 'contentInventory';
-            if(!(oscard !== option)) { _fun00012_ip = 201; continue _fun00011 }
- 140:
-            oscard = golfie.data;
-            verify = oscard.kind;
-            oscard = 'recommended_guilds';
-            option = 'recommendedGuilds';
-            if(!(option !== verify)) { _fun00012_ip = 199; continue _fun00011 }
- 166:
-            option = golfie.data;
-            offset = option.kind;
+            zuuluu = 'forumThread';
+            if(!(zuuluu !== option)) { _fun00012_ip = 193; continue _fun00011 }
+ 103:
+            zuuluu = 'generatedCandidate';
+            if(!(zuuluu !== option)) { _fun00012_ip = 185; continue _fun00011 }
+ 113:
+            zuuluu = 'search';
+            if(!(zuuluu !== option)) { _fun00012_ip = 183; continue _fun00011 }
+ 121:
+            report = 'voice';
+            if(!(report !== option)) { _fun00012_ip = 181; continue _fun00011 }
+ 129:
+            golfie = 'icymiHeader';
+            if(!(golfie !== option)) { _fun00012_ip = 173; continue _fun00011 }
+ 139:
+            golfie = 'editCustomStatus';
+            if(!(golfie !== option)) { _fun00012_ip = 165; continue _fun00011 }
+ 149:
+            golfie = 'mentions';
+            if(!(golfie !== option)) { _fun00012_ip = 163; continue _fun00011 }
+ 157:
             option = 'unknown';
-            verify = 'forumThread';
-            if(!(verify === offset)) { _fun00012_ip = 196; continue _fun00011 }
- 190:
-            option = 'forum_thread';
- 196:
-            oscard = option;
- 199:
-            _fun00012_ip = 273; continue _fun00011;
+            return option;
+ 163:
+            return golfie;
+ 165:
+            golfie = 'edit_custom_status';
+            return golfie;
+ 173:
+            golfie = 'icymi_header';
+            return golfie;
+ 181:
+            return report;
+ 183:
+            return zuuluu;
+ 185:
+            zuuluu = 'generated_candidate';
+            return zuuluu;
+ 193:
+            zuuluu = 'forum_thread';
+            return zuuluu;
  201:
-            option = golfie.data;
-            option = option.content;
-            offset = option.content_type;
-            yankee = _closure1_slot0;
-            verify = _closure1_slot2;
-            option = 48;
-            verify = verify[option];
-            option = undefined;
-            option = yankee.bind(option)(verify);
-            option = option.ContentInventoryEntryType;
-            verify = option.CUSTOM_STATUS;
-            option = 'hotwheels_gaming_activity';
-            if(!(offset === verify)) { _fun00012_ip = 270; continue _fun00011 }
- 264:
-            option = 'hotwheels_custom_status';
- 270:
-            oscard = option;
- 273:
-            tangon = oscard;
- 276:
-            zuuluu = tangon;
- 279:
-            _fun00012_ip = 379; continue _fun00011;
- 281:
-            verify = golfie.channelType;
+            zuuluu = 'recommended_guilds';
+            return zuuluu;
+ 209:
+            zuuluu = oscard.data;
+            zuuluu = zuuluu.content;
+            golfie = zuuluu.content_type;
             option = _closure1_slot0;
-            oscard = _closure1_slot2;
-            tangon = 47;
-            tangon = oscard[tangon];
-            oscard = undefined;
-            tangon = option.bind(oscard)(tangon);
-            tangon = tangon.ChannelTypes;
-            option = tangon.GUILD_ANNOUNCEMENT;
-            tangon = 'announcement';
-            if(!(verify !== option)) { _fun00012_ip = 376; continue _fun00011 }
- 332:
-            golfie = golfie.data;
-            option = golfie.messageContext;
-            golfie = null;
-            verify = golfie == option;
-            oscard = undefined;
-            if(verify) { _fun00012_ip = 360; continue _fun00011 }
- 354:
-            oscard = option.external_content_application_id;
- 360:
-            oscard = golfie != oscard;
-            if(!oscard) { _fun00012_ip = 373; continue _fun00011 }
+            report = _closure1_slot2;
+            zuuluu = 48;
+            report = report[zuuluu];
+            zuuluu = undefined;
+            zuuluu = option.bind(zuuluu)(report);
+            zuuluu = zuuluu.ContentInventoryEntryType;
+            report = zuuluu.CUSTOM_STATUS;
+            zuuluu = 'hotwheels_gaming_activity';
+            if(!(golfie === report)) { _fun00012_ip = 278; continue _fun00011 }
+ 272:
+            zuuluu = 'hotwheels_custom_status';
+ 278:
+            return zuuluu;
+ 280:
+            zuuluu = 'guild_event';
+            return zuuluu;
+ 288:
+            zuuluu = 'summary';
+            return zuuluu;
+ 294:
+            option = oscard.channelType;
+            golfie = _closure1_slot0;
+            report = _closure1_slot2;
+            zuuluu = 47;
+            zuuluu = report[zuuluu];
+            report = undefined;
+            zuuluu = golfie.bind(report)(zuuluu);
+            zuuluu = zuuluu.ChannelTypes;
+            golfie = zuuluu.GUILD_ANNOUNCEMENT;
+            zuuluu = 'announcement';
+            if(!(option !== golfie)) { _fun00012_ip = 389; continue _fun00011 }
+ 345:
+            oscard = oscard.data;
+            golfie = oscard.messageContext;
+            oscard = null;
+            option = oscard == golfie;
+            report = undefined;
+            if(option) { _fun00012_ip = 373; continue _fun00011 }
  367:
-            report = 'game_message';
+            report = golfie.external_content_application_id;
  373:
-            tangon = report;
- 376:
+            report = oscard != report;
+            if(!report) { _fun00012_ip = 386; continue _fun00011 }
+ 380:
+            tangon = 'game_message';
+ 386:
             zuuluu = tangon;
- 379:
-            michal = zuuluu;
- 382:
-            entity = michal;
- 385:
+ 389:
+            return zuuluu;
+ 391:
+            return michal;
+ 393:
             return entity;
         }
     };

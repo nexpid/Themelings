@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = 9;
             michal = report[michal];
             tangon = oscard.bind(golfie)(michal);
-            zuuluu = tangon.toggleKeyboard;
+            zuuluu = tangon.setKeyboardType;
             michal = {};
             report = report[option];
             report = oscard.bind(golfie)(report);
