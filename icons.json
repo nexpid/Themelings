@@ -790,16 +790,6 @@
         "width": 70,
         "height": 47
     },
-    "bg-fade": {
-        "file": "modules/main_tabs_v2/native/tabs/gravity/images/bg-fade.png",
-        "hash": "b619f558bf59711a5d2fbf97320ac81e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 393,
-        "height": 314
-    },
     "BicycleIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/BicycleIcon.png",
         "hash": "a36cbb879592e39d6a11e7c436505bc2",
@@ -2667,7 +2657,7 @@
         "height": 24
     },
     "emoji-negative": {
-        "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-negative.png",
+        "file": "modules/icymi/native/images/emoji-negative.png",
         "hash": "1c9607c514ba0cca490ff85ef6b52d0d",
         "scales": [
             2,
@@ -2677,7 +2667,7 @@
         "height": 24
     },
     "emoji-neutral": {
-        "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-neutral.png",
+        "file": "modules/icymi/native/images/emoji-neutral.png",
         "hash": "684bf0782561b9ed2466dcb8144cf582",
         "scales": [
             2,
@@ -2687,7 +2677,7 @@
         "height": 24
     },
     "emoji-positive": {
-        "file": "modules/main_tabs_v2/native/tabs/gravity/images/emoji-positive.png",
+        "file": "modules/icymi/native/images/emoji-positive.png",
         "hash": "17237a5c49ea745b655cbec7c093406d",
         "scales": [
             2,
@@ -3285,7 +3275,7 @@
         "height": 24
     },
     "flash": {
-        "file": "modules/main_tabs_v2/native/tabs/gravity/images/flash.png",
+        "file": "modules/icymi/native/images/flash.png",
         "hash": "ebbb7db0461de915440e3bdd6a8249c9",
         "scales": [
             2,
@@ -3848,26 +3838,6 @@
         ],
         "width": 215.5,
         "height": 135
-    },
-    "header-image-dark": {
-        "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-dark.png",
-        "hash": "5bd1e2383d5707a9521e76ccfa792948",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 393,
-        "height": 312
-    },
-    "header-image-light": {
-        "file": "modules/main_tabs_v2/native/tabs/gravity/images/header-image-light.png",
-        "hash": "164980046e2e0cfba4ea5537d5523a32",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 393,
-        "height": 312
     },
     "HeadphonesDenyIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/HeadphonesDenyIcon.png",
