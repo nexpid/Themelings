@@ -24,29 +24,38 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     michal = function() { // Original name: onGoreContentNonFriendsDmOnPress
-        option = _closure1_slot0;
-        verify = _closure1_slot1;
+        offset = _closure1_slot0;
+        yankee = _closure1_slot1;
         entity = 4;
-        zuuluu = verify[entity];
+        michal = yankee[entity];
         entity = undefined;
-        oscard = option.bind(entity)(zuuluu);
-        report = oscard.handleSensitiveMediaFilterPress;
-        zuuluu = 5;
-        tangon = verify[zuuluu];
-        tangon = option.bind(entity)(tangon);
-        golfie = tangon.intl;
-        tangon = golfie.string;
-        zuuluu = verify[zuuluu];
-        zuuluu = option.bind(entity)(zuuluu);
-        zuuluu = zuuluu.t;
-        zuuluu = zuuluu.16/3Bg;
-        tangon = tangon.bind(golfie)(zuuluu);
-        michal = _closure1_slot2;
-        zuuluu = michal.bind(entity)();
-        michal = function(argFoo) {
+        zuuluu = offset.bind(entity)(michal);
+        michal = zuuluu.getGoreContentSettingOrDefault;
+        michal = michal.bind(zuuluu)();
+        report = michal.goreContentNonFriendDm;
+        michal = 5;
+        michal = yankee[michal];
+        tangon = offset.bind(entity)(michal);
+        zuuluu = tangon.handleSensitiveMediaFilterPress;
+        michal = {};
+        golfie = 6;
+        option = yankee[golfie];
+        option = offset.bind(entity)(option);
+        verify = option.intl;
+        option = verify.string;
+        golfie = yankee[golfie];
+        golfie = offset.bind(entity)(golfie);
+        golfie = golfie.t;
+        golfie = golfie.16/3Bg;
+        golfie = option.bind(verify)(golfie);
+        michal['title'] = golfie;
+        oscard = _closure1_slot2;
+        oscard = oscard.bind(entity)();
+        michal['subtitle'] = oscard;
+        oscard = function(argFoo) { // Original name: handlePress
             zuuluu = _closure1_slot0;
             michal = _closure1_slot1;
-            entity = 6;
+            entity = 4;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -57,13 +66,15 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        michal = report.bind(oscard)(tangon, zuuluu, michal);
+        michal['handlePress'] = oscard;
+        michal['currentValue'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
     offset = function() { // Original name: getTitle
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 5;
+        entity = 6;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -105,7 +116,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     verify = function() { // Original name: additionalSearchTerms
         oscard = _closure1_slot0;
         golfie = _closure1_slot1;
-        michal = 5;
+        michal = 6;
         entity = golfie[michal];
         report = undefined;
         entity = oscard.bind(report)(entity);

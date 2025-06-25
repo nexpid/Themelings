@@ -71,18 +71,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = golfie;
             entity = golfie.length;
             zuuluu = 0;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 574; continue _fun00001 }
- 99:
+            if(!(zuuluu !== entity)) { _fun00002_ip = 586; continue _fun00001 }
+ 101:
             entity = 'text-md/normal';
             _closure2_slot1 = entity;
             entity = golfie.length;
             michal = 1;
-            if(!(michal !== entity)) { _fun00002_ip = 348; continue _fun00001 }
- 124:
+            if(!(michal !== entity)) { _fun00002_ip = 358; continue _fun00001 }
+ 126:
             option = golfie.length;
             entity = 2;
-            if(!(entity !== option)) { _fun00002_ip = 264; continue _fun00001 }
- 139:
+            if(!(entity !== option)) { _fun00002_ip = 270; continue _fun00001 }
+ 141:
             entity = golfie.length;
             entity = entity - michal;
             entity = golfie[entity];
@@ -151,8 +151,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['applicationNameLast'] = option;
             golfie = zuuluu.bind(golfie)(michal, entity);
-            _fun00002_ip = 418; continue _fun00001;
- 264:
+            _fun00002_ip = 430; continue _fun00001;
+ 270:
             michal = _closure1_slot0;
             yankee = _closure1_slot2;
             entity = 4;
@@ -212,8 +212,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['applicationName2'] = yankee;
             golfie = zuuluu.bind(option)(michal, entity);
-            _fun00002_ip = 418; continue _fun00001;
- 348:
+            _fun00002_ip = 430; continue _fun00001;
+ 358:
             michal = _closure1_slot0;
             yankee = _closure1_slot2;
             entity = 4;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['applicationName'] = offset;
             golfie = zuuluu.bind(option)(michal, entity);
- 418:
+ 430:
             zuuluu = _closure1_slot3;
             michal = _closure1_slot1;
             option = _closure1_slot2;
@@ -285,7 +285,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 574:
+ 586:
             entity = null;
             return entity;
         }

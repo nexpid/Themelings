@@ -15,7 +15,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 545; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 576; continue _fun00001 }
  10:
                     michal = global;
                     tangon = michal.Promise;
@@ -30,7 +30,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     verify = report[michal];
                     michal = report.paths;
                     verify = offset.bind(option)(verify, michal);
-                    michal = new Array(16);
+                    michal = new Array(17);
                     michal[0] = verify;
                     verify = report[oscard];
                     yankee = golfie.bind(option)(verify);
@@ -129,16 +129,23 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                     verify = report.paths;
                     verify = yankee.bind(option)(offset, verify);
                     michal[14] = verify;
+                    verify = report[oscard];
+                    yankee = golfie.bind(option)(verify);
+                    verify = 16;
+                    offset = report[verify];
+                    verify = report.paths;
+                    verify = yankee.bind(option)(offset, verify);
+                    michal[15] = verify;
                     oscard = report[oscard];
                     golfie = golfie.bind(option)(oscard);
-                    oscard = 16;
+                    oscard = 17;
                     oscard = report[oscard];
                     report = report.paths;
                     report = golfie.bind(option)(oscard, report);
-                    michal[15] = report;
+                    michal[16] = report;
                     michal = zuuluu.bind(tangon)(michal);
                     return michal;
- 545:
+ 576:
                     return entity;
                 }
             };
@@ -168,7 +175,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
     var _closure1_slot2 = tangon;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

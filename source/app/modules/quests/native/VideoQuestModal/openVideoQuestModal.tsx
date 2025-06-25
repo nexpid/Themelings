@@ -28,8 +28,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = argFoo;
         golfie = michal.questId;
         var _closure2_slot0 = golfie;
-        romeon = michal.questContentPosition;
-        offset = michal.initialStep;
+        entity = michal.sourceQuestContent;
+        var _closure2_slot1 = entity;
+        foxtra = michal.questContentPosition;
+        yankee = michal.initialStep;
         tangon = _closure1_slot2;
         verify = _closure1_slot3;
         zuuluu = 0;
@@ -37,8 +39,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = undefined;
         tangon = tangon.bind(option)(zuuluu);
         zuuluu = tangon.v4;
-        yankee = zuuluu.bind(tangon)();
-        var _closure2_slot1 = yankee;
+        romeon = zuuluu.bind(tangon)();
+        var _closure2_slot2 = romeon;
         tangon = _closure1_slot1;
         zuuluu = 1;
         zuuluu = verify[zuuluu];
@@ -47,17 +49,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = _closure1_slot0;
         michal = 3;
         michal = verify[michal];
-        foxtra = oscard.bind(option)(michal);
+        backup = oscard.bind(option)(michal);
         michal = 2;
         zuuluu = verify[michal];
         michal = verify.paths;
-        zuuluu = foxtra.bind(option)(zuuluu, michal);
+        zuuluu = backup.bind(option)(zuuluu, michal);
         michal = {};
         michal['questId'] = golfie;
-        michal['questContentPosition'] = romeon;
-        michal['videoSessionId'] = yankee;
-        michal['initialStep'] = offset;
-        entity = function() { // Original name: onClose
+        michal['questContentPosition'] = foxtra;
+        michal['videoSessionId'] = romeon;
+        michal['initialStep'] = yankee;
+        offset = function() { // Original name: onClose
             zuuluu = _closure1_slot0;
             michal = _closure1_slot3;
             entity = 4;
@@ -68,12 +70,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             report = _closure2_slot0;
             entity['questId'] = report;
-            tangon = _closure2_slot1;
+            report = _closure2_slot1;
+            entity['sourceQuestContent'] = report;
+            tangon = _closure2_slot2;
             entity['videoSessionId'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;
         };
-        michal['onClose'] = entity;
+        michal['onClose'] = offset;
+        michal['sourceQuestContent'] = entity;
         entity = 4;
         entity = verify[entity];
         oscard = oscard.bind(option)(entity);

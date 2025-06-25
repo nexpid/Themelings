@@ -366,13 +366,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['appId'] = backup;
             foxtra = foxtra.id;
             tangon['messageId'] = foxtra;
-            foxtra = oscard.name;
+            sizing = _closure1_slot0;
+            output = _closure1_slot1;
+            foxtra = 8;
+            backup = output[foxtra];
+            backup = sizing.bind(golfie)(backup);
+            kiloes = backup.intl;
+            backup = kiloes.string;
+            foxtra = output[foxtra];
+            foxtra = sizing.bind(golfie)(foxtra);
+            foxtra = foxtra.t;
+            foxtra = foxtra.pkq6Vl;
+            foxtra = backup.bind(kiloes)(foxtra);
             tangon['title'] = foxtra;
             foxtra = entity != yankee;
-            if(!foxtra) { _fun00002_ip = 1024; continue _fun00001 }
- 1021:
+            if(!foxtra) { _fun00002_ip = 1076; continue _fun00001 }
+ 1073:
             verify = yankee;
- 1024:
+ 1076:
             tangon['header'] = verify;
             tangon['info'] = entity;
             tangon['tagline'] = entity;
@@ -405,10 +416,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.getAppGradientColors;
             yankee = entity != offset;
             golfie = undefined;
-            if(!yankee) { _fun00002_ip = 1173; continue _fun00001 }
- 1170:
+            if(!yankee) { _fun00002_ip = 1225; continue _fun00001 }
+ 1222:
             golfie = offset;
- 1173:
+ 1225:
             golfie = option.bind(verify)(golfie);
             tangon['gradientColors'] = golfie;
             golfie = 0;

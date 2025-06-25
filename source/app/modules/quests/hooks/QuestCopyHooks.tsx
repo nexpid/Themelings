@@ -1137,7 +1137,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = argFoo;
             yankee = report.quest;
             verify = report.location;
-            romeon = report.questContent;
+            foxtra = report.questContent;
+            romeon = report.sourceQuestContent;
             golfie = _closure1_slot0;
             option = _closure1_slot1;
             michal = 9;
@@ -1147,7 +1148,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset.useConnectedConsoleLinkOnClick;
             tangon = {};
             tangon['quest'] = yankee;
-            tangon['questContent'] = romeon;
+            tangon['questContent'] = foxtra;
+            tangon['sourceQuestContent'] = romeon;
             offset = oscard.bind(offset)(tangon);
             tangon = 10;
             tangon = option[tangon];
@@ -1169,9 +1171,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = michal.bind(tangon)(yankee);
             michal = _closure1_slot14;
             entity = {};
-            kiloes = entity;
-            backup = report;
-            report = copyDataProperties(kiloes, backup);
+            sizing = entity;
+            kiloes = report;
+            report = copyDataProperties(sizing, kiloes);
             report = 'connectedConsoleLinkOnClick';
             entity[report] = offset;
             offset = false;
@@ -1191,10 +1193,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             oscard = report != tangon;
             report = undefined;
-            if(!oscard) { _fun00018_ip = 229; continue _fun00017 }
- 226:
+            if(!oscard) { _fun00018_ip = 240; continue _fun00017 }
+ 237:
             report = tangon;
- 229:
+ 240:
             tangon = 'thirdPartyTaskDetails';
             entity[tangon] = report;
             entity = michal.bind(zuuluu)(entity);

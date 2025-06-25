@@ -55,16 +55,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = false;
  29:
             entity = _closure1_slot10;
-            option = entity.bind(tangon)();
+            yankee = entity.bind(tangon)();
             zuuluu = _closure1_slot9;
             michal = _closure1_slot4;
             entity = {};
             if(report) { _fun00002_ip = 61; continue _fun00001 }
  53:
-            golfie = option.radio;
+            golfie = yankee.radio;
             _fun00002_ip = 67; continue _fun00001;
  61:
-            golfie = option.checkbox;
+            golfie = yankee.checkbox;
  67:
             entity['style'] = golfie;
             golfie = {};
@@ -72,15 +72,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['accessibilityState'] = golfie;
             golfie = 'checkbox';
             entity['accessibilityRole'] = golfie;
-            yankee = _closure1_slot0;
+            romeon = _closure1_slot0;
             golfie = _closure1_slot2;
             backup = 8;
             option = golfie[backup];
-            option = yankee.bind(tangon)(option);
+            option = romeon.bind(tangon)(option);
             offset = option.intl;
             option = offset.string;
             golfie = golfie[backup];
-            golfie = yankee.bind(tangon)(golfie);
+            golfie = romeon.bind(tangon)(golfie);
             golfie = golfie.t;
             golfie = golfie.Y7Kgvb;
             golfie = option.bind(offset)(golfie);
@@ -121,6 +121,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset.bind(tangon)(oscard);
             golfie = oscard.TextWithIOSLinkWorkaround;
             oscard = {'variant': 'text-xs/medium', 'color': 'text-muted'};
+            yankee = yankee.checkboxLabel;
+            oscard['style'] = yankee;
             yankee = verify[backup];
             yankee = offset.bind(tangon)(yankee);
             romeon = yankee.intl;
@@ -159,8 +161,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argCor;
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
-    tangon = 1;
-    tangon = oscard[tangon];
+    offset = 1;
+    tangon = oscard[offset];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.View;
     var _closure1_slot3 = golfie;
@@ -193,16 +195,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {};
-    offset = 'row';
-    verify['flexDirection'] = offset;
-    tangon['consentForm'] = verify;
     verify = {'flexDirection': 'column', 'gap': 16};
     tangon['multiItem'] = verify;
     verify = {'flexDirection': 'row', 'alignItems': 'flex-start', 'gap': 8};
     tangon['checkbox'] = verify;
     verify = {'flexDirection': 'row', 'alignItems': 'center', 'gap': 8};
     tangon['radio'] = verify;
+    verify = {};
+    verify['flex'] = offset;
+    tangon['checkboxLabel'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot10 = tangon;
     tangon = 12;
@@ -215,12 +216,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
-            backup = entity.consent;
+            romeon = entity.consent;
             michal = entity.consentRequired;
-            foxtra = entity.onToggleConsent;
+            yankee = entity.onToggleConsent;
             entity = _closure1_slot10;
             oscard = undefined;
-            yankee = entity.bind(oscard)();
+            golfie = entity.bind(oscard)();
             tangon = _closure1_slot5;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -249,30 +250,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot9;
             tangon = _closure1_slot3;
             entity = {};
-            golfie = yankee.multiItem;
-            entity['style'] = golfie;
-            verify = _closure1_slot8;
-            option = _closure1_slot1;
-            romeon = _closure1_slot2;
-            golfie = 11;
-            golfie = romeon[golfie];
-            option = option.bind(oscard)(golfie);
-            golfie = {};
-            option = verify.bind(oscard)(option, golfie);
-            golfie = new Array(2);
-            golfie[0] = option;
-            romeon = _closure1_slot8;
-            verify = _closure1_slot11;
-            option = {};
-            option = romeon.bind(oscard)(verify, option);
-            golfie[1] = option;
-            entity['children'] = golfie;
+            verify = golfie.multiItem;
+            entity['style'] = verify;
+            foxtra = _closure1_slot8;
+            offset = _closure1_slot1;
+            backup = _closure1_slot2;
+            verify = 11;
+            verify = backup[verify];
+            offset = offset.bind(oscard)(verify);
+            verify = {};
+            offset = foxtra.bind(oscard)(offset, verify);
+            verify = new Array(2);
+            verify[0] = offset;
+            backup = _closure1_slot8;
+            foxtra = _closure1_slot11;
+            offset = {};
+            offset = backup.bind(oscard)(foxtra, offset);
+            verify[1] = offset;
+            entity['children'] = verify;
             entity = report.bind(oscard)(tangon, entity);
-            _fun00004_ip = 395; continue _fun00003;
+            _fun00004_ip = 336; continue _fun00003;
  175:
             if(!michal) { _fun00004_ip = 181; continue _fun00003 }
  178:
-            if(zuuluu) { _fun00004_ip = 259; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 226; continue _fun00003 }
  181:
             report = _closure1_slot8;
             if(michal) { _fun00004_ip = 202; continue _fun00003 }
@@ -280,58 +281,45 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot11;
             michal = {};
             michal = report.bind(oscard)(zuuluu, michal);
-            _fun00004_ip = 254; continue _fun00003;
+            _fun00004_ip = 224; continue _fun00003;
  202:
-            tangon = _closure1_slot3;
+            tangon = _closure1_slot12;
             zuuluu = {};
-            golfie = yankee.consentForm;
-            zuuluu['style'] = golfie;
-            verify = _closure1_slot8;
-            option = _closure1_slot12;
-            golfie = {};
-            golfie['consent'] = backup;
-            golfie['onToggleConsent'] = foxtra;
-            golfie = verify.bind(oscard)(option, golfie);
-            zuuluu['children'] = golfie;
+            zuuluu['consent'] = romeon;
+            zuuluu['onToggleConsent'] = yankee;
             michal = report.bind(oscard)(tangon, zuuluu);
- 254:
-            _fun00004_ip = 392; continue _fun00003;
- 259:
+ 224:
+            _fun00004_ip = 333; continue _fun00003;
+ 226:
             report = _closure1_slot9;
             tangon = _closure1_slot3;
             zuuluu = {};
-            golfie = yankee.multiItem;
+            golfie = golfie.multiItem;
             zuuluu['style'] = golfie;
-            verify = _closure1_slot8;
-            option = _closure1_slot1;
-            romeon = _closure1_slot2;
+            offset = _closure1_slot8;
+            verify = _closure1_slot1;
+            foxtra = _closure1_slot2;
             golfie = 11;
-            golfie = romeon[golfie];
-            option = option.bind(oscard)(golfie);
+            golfie = foxtra[golfie];
+            verify = verify.bind(oscard)(golfie);
             golfie = {};
-            option = verify.bind(oscard)(option, golfie);
+            verify = offset.bind(oscard)(verify, golfie);
             golfie = new Array(2);
-            golfie[0] = option;
-            verify = _closure1_slot8;
+            golfie[0] = verify;
+            offset = _closure1_slot8;
+            verify = _closure1_slot12;
             option = {};
-            yankee = yankee.consentForm;
-            option['style'] = yankee;
-            romeon = _closure1_slot8;
-            yankee = _closure1_slot12;
-            offset = {};
-            offset['consent'] = backup;
-            offset['onToggleConsent'] = foxtra;
-            foxtra = true;
-            offset['asCheckbox'] = foxtra;
-            offset = romeon.bind(oscard)(yankee, offset);
-            option['children'] = offset;
-            option = verify.bind(oscard)(tangon, option);
+            option['consent'] = romeon;
+            option['onToggleConsent'] = yankee;
+            yankee = true;
+            option['asCheckbox'] = yankee;
+            option = offset.bind(oscard)(verify, option);
             golfie[1] = option;
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 392:
+ 333:
             entity = michal;
- 395:
+ 336:
             return entity;
         }
     };

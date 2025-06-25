@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['marginTop'] = romeon;
     tangon['container'] = verify;
     verify = {};
-    romeon = 16;
+    romeon = 24;
     verify['marginTop'] = romeon;
     tangon['password'] = verify;
     verify = {'marginTop': 16, 'marginBottom': 50};

@@ -82,19 +82,21 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
  57:
                             entity = _closure2_slot2;
  64:
-                            if(!entity) { _fun00004_ip = 116; continue _fun00003 }
+                            if(!entity) { _fun00004_ip = 122; continue _fun00003 }
  67:
                             zuuluu = _closure2_slot1;
-                            tangon = _closure1_slot0;
-                            michal = _closure1_slot1;
+                            michal = {};
+                            report = _closure1_slot0;
+                            tangon = _closure1_slot1;
                             entity = 4;
-                            entity = michal[entity];
-                            michal = undefined;
-                            entity = tangon.bind(michal)(entity);
-                            entity = entity.KeyboardTypes;
-                            entity = entity.SYSTEM;
-                            entity = zuuluu.bind(michal)(entity);
- 116:
+                            tangon = tangon[entity];
+                            entity = undefined;
+                            tangon = report.bind(entity)(tangon);
+                            tangon = tangon.KeyboardTypes;
+                            tangon = tangon.SYSTEM;
+                            michal['type'] = tangon;
+                            entity = zuuluu.bind(entity)(michal);
+ 122:
                             entity = undefined;
                             return entity;
                         }
@@ -105,14 +107,16 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                 entity['imperativeHandle'] = zuuluu;
                 michal = function() { // Original name: openSystemKeyboard
                     zuuluu = _closure2_slot1;
-                    tangon = _closure1_slot0;
-                    michal = _closure1_slot1;
+                    michal = {};
+                    report = _closure1_slot0;
+                    tangon = _closure1_slot1;
                     entity = 4;
-                    michal = michal[entity];
+                    tangon = tangon[entity];
                     entity = undefined;
-                    michal = tangon.bind(entity)(michal);
-                    michal = michal.KeyboardTypes;
-                    michal = michal.SYSTEM;
+                    tangon = report.bind(entity)(tangon);
+                    tangon = tangon.KeyboardTypes;
+                    tangon = tangon.SYSTEM;
+                    michal['type'] = tangon;
                     michal = zuuluu.bind(entity)(michal);
                     return entity;
                 };

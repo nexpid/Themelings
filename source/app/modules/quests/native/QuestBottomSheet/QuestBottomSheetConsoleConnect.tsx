@@ -256,8 +256,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = argFoo;
         option = entity.quest;
         var _closure2_slot0 = option;
-        entity = entity.step;
-        var _closure2_slot1 = entity;
+        michal = entity.step;
+        var _closure2_slot1 = michal;
+        entity = entity.sourceQuestContent;
+        var _closure2_slot2 = entity;
         oscard = _closure1_slot0;
         golfie = _closure1_slot2;
         michal = 6;
@@ -267,13 +269,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = zuuluu.useConnectedAccounts;
         michal = michal.bind(zuuluu)();
         michal = michal.xboxAndPlaystationAccounts;
-        var _closure2_slot2 = michal;
+        var _closure2_slot3 = michal;
         zuuluu = 7;
         zuuluu = golfie[zuuluu];
         oscard = oscard.bind(tangon)(zuuluu);
         zuuluu = oscard.useTrackQuestContentClickedWithImpression;
         zuuluu = zuuluu.bind(oscard)();
-        var _closure2_slot3 = zuuluu;
+        var _closure2_slot4 = zuuluu;
         golfie = _closure1_slot3;
         oscard = golfie.useMemo;
         zuuluu = new Array(2);
@@ -295,7 +297,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure4_slot0 = zuuluu;
                 entity = {};
                 entity['type'] = zuuluu;
-                tangon = _closure2_slot2;
+                tangon = _closure2_slot3;
                 zuuluu = tangon.find;
                 michal = function(argFoo) {
                     entity = argFoo;
@@ -332,13 +334,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure2_slot0;
             golfie = golfie.id;
             zuuluu['questId'] = golfie;
-            michal = _closure2_slot1;
-            zuuluu['initialStep'] = michal;
+            golfie = _closure2_slot1;
+            zuuluu['initialStep'] = golfie;
+            michal = _closure2_slot2;
+            zuuluu['sourceQuestContent'] = michal;
             michal = 'QuestBottomSheet';
             michal = report.bind(oscard)(tangon, michal, zuuluu);
             return entity;
         };
-        var _closure2_slot4 = michal;
+        var _closure2_slot5 = michal;
         zuuluu = _closure1_slot6;
         michal = _closure1_slot7;
         entity = {};
@@ -349,9 +353,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = argFoo;
                 michal = report.account;
                 entity = null;
-                if(!(entity == michal)) { _fun00004_ip = 169; continue _fun00003 }
+                if(!(entity == michal)) { _fun00004_ip = 178; continue _fun00003 }
  18:
-                golfie = _closure2_slot3;
+                golfie = _closure2_slot4;
                 zuuluu = {};
                 entity = _closure2_slot0;
                 entity = entity.id;
@@ -371,6 +375,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = option.QuestContentCTA;
                 option = option.CONNECT_CONSOLE;
                 zuuluu['questContentCTA'] = option;
+                option = _closure2_slot2;
+                zuuluu['sourceQuestContent'] = option;
                 zuuluu = golfie.bind(entity)(zuuluu);
                 zuuluu = _closure1_slot1;
                 michal = 14;
@@ -381,12 +387,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['platformType'] = report;
                 report = 'quests';
                 michal['location'] = report;
-                tangon = _closure2_slot4;
+                tangon = _closure2_slot5;
                 michal['onClose'] = tangon;
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
- 169:
-                oscard = _closure2_slot3;
+ 178:
+                oscard = _closure2_slot4;
                 entity = {};
                 michal = _closure2_slot0;
                 michal = michal.id;
@@ -394,18 +400,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = _closure1_slot0;
                 report = _closure1_slot2;
                 michal = 13;
-                golfie = report[michal];
+                option = report[michal];
                 michal = undefined;
-                golfie = zuuluu.bind(michal)(golfie);
-                golfie = golfie.QuestContent;
-                golfie = golfie.QUEST_BOTTOM_SHEET;
-                entity['questContent'] = golfie;
-                golfie = 7;
-                golfie = report[golfie];
-                golfie = zuuluu.bind(michal)(golfie);
-                golfie = golfie.QuestContentCTA;
-                golfie = golfie.VIEW_CONSOLE_CONNECTIONS;
-                entity['questContentCTA'] = golfie;
+                option = zuuluu.bind(michal)(option);
+                option = option.QuestContent;
+                option = option.QUEST_BOTTOM_SHEET;
+                entity['questContent'] = option;
+                option = 7;
+                option = report[option];
+                option = zuuluu.bind(michal)(option);
+                option = option.QuestContentCTA;
+                option = option.VIEW_CONSOLE_CONNECTIONS;
+                entity['questContentCTA'] = option;
+                golfie = _closure2_slot2;
+                entity['sourceQuestContent'] = golfie;
                 entity = oscard.bind(michal)(entity);
                 oscard = _closure1_slot1;
                 entity = 9;

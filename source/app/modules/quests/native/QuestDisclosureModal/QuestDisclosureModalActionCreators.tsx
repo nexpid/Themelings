@@ -41,8 +41,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['questContent'] = foxtra;
             foxtra = romeon.ctaContent;
             report['questContentCTA'] = foxtra;
-            romeon = romeon.position;
-            report['questContentPosition'] = romeon;
+            foxtra = romeon.position;
+            report['questContentPosition'] = foxtra;
+            romeon = romeon.sourceQuestContent;
+            report['sourceQuestContent'] = romeon;
             report = oscard.bind(yankee)(report);
             report = _closure1_slot1;
             tangon = 1;
@@ -65,10 +67,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = null;
             option = michal == golfie;
             michal = undefined;
-            if(option) { _fun00002_ip = 218; continue _fun00001 }
- 213:
+            if(option) { _fun00002_ip = 229; continue _fun00001 }
+ 224:
             michal = golfie.name;
- 218:
+ 229:
             zuuluu['cosponsorName'] = michal;
             michal = 'QUEST_DISCLOSURE_MODAL';
             michal = report.bind(oscard)(tangon, zuuluu, michal);

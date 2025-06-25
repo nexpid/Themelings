@@ -169,11 +169,11 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             };
             option = backup.bind(kiloes)(option, zuuluu);
             zuuluu = {};
-            cntext = oscard.errors;
-            papara = zuuluu;
-            backup = copyDataProperties(papara, cntext);
             papara = zuuluu;
             cntext = foxtra;
+            foxtra = copyDataProperties(papara, cntext);
+            cntext = oscard.errors;
+            papara = zuuluu;
             foxtra = copyDataProperties(papara, cntext);
             record = _closure1_slot4;
             kiloes = record.useMemo;

@@ -10,7 +10,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     golfie = function() { // Original name: getTitle
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -92,53 +92,55 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
     golfie = function() { // Original name: onObscuredContentGuildsOnPress
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot2;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
             entity = 4;
-            zuuluu = zuuluu[entity];
+            michal = tangon[entity];
             entity = undefined;
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.isEligibleForSensitiveContentGoreExperiment;
-            zuuluu = 'ExplicitMediaFiltersFriendsDMsSetting';
-            oscard = tangon.bind(report)(zuuluu);
+            golfie = zuuluu.bind(entity)(michal);
+            report = golfie.isEligibleForSensitiveContentGoreExperiment;
+            michal = 'ExplicitMediaFiltersFriendsDMsSetting';
+            golfie = report.bind(golfie)(michal);
+            michal = 5;
+            michal = tangon[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.getExplicitContentSettingOrDefault;
+            michal = michal.bind(zuuluu)();
+            report = michal.explicitContentGuilds;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            michal = 6;
+            zuuluu = verify[michal];
+            zuuluu = option.bind(entity)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = verify[michal];
+            michal = option.bind(entity)(michal);
+            michal = michal.t;
+            if(golfie) { _fun00004_ip = 130; continue _fun00003 }
+ 117:
+            golfie = michal.c/UOwM;
+            verify = zuuluu.bind(tangon)(golfie);
+            _fun00004_ip = 141; continue _fun00003;
+ 130:
+            michal = michal.GYpoAg;
+            verify = zuuluu.bind(tangon)(michal);
+ 141:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 5;
-            tangon = option[zuuluu];
-            tangon = golfie.bind(entity)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = zuuluu.t;
-            if(oscard) { _fun00004_ip = 102; continue _fun00003 }
- 89:
-            oscard = zuuluu.c/UOwM;
-            golfie = tangon.bind(report)(oscard);
-            _fun00004_ip = 113; continue _fun00003;
- 102:
-            zuuluu = zuuluu.GYpoAg;
-            golfie = tangon.bind(report)(zuuluu);
- 113:
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot2;
-            tangon = 6;
-            tangon = option[tangon];
-            oscard = zuuluu.bind(entity)(tangon);
-            report = oscard.handleSensitiveMediaFilterPress;
-            michal = _closure1_slot4;
-            yankee = michal.bind(entity)();
-            michal = 8;
+            michal = 7;
             michal = option[michal];
-            michal = zuuluu.bind(entity)(michal);
-            michal = michal.ExplicitContentRedaction;
-            michal = michal.BLOCK;
-            zuuluu = new Array(1);
-            zuuluu[0] = michal;
-            offset = function(argFoo) {
+            tangon = golfie.bind(entity)(michal);
+            zuuluu = tangon.handleSensitiveMediaFilterPress;
+            michal = {};
+            michal['title'] = verify;
+            oscard = _closure1_slot4;
+            oscard = oscard.bind(entity)();
+            michal['subtitle'] = oscard;
+            oscard = function(argFoo) { // Original name: handlePress
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 7;
+                entity = 5;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -149,10 +151,17 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            foxtra = oscard;
-            romeon = golfie;
-            verify = zuuluu;
-            michal = foxtra[report](romeon, yankee, offset, verify, option);
+            michal['handlePress'] = oscard;
+            oscard = 8;
+            oscard = option[oscard];
+            oscard = golfie.bind(entity)(oscard);
+            oscard = oscard.ExplicitContentRedaction;
+            golfie = oscard.BLOCK;
+            oscard = new Array(1);
+            oscard[0] = golfie;
+            michal['excluded'] = oscard;
+            michal['currentValue'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
@@ -192,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, argGra, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity);
             oscard = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 5;
+            zuuluu = 6;
             michal = option[zuuluu];
             michal = oscard.bind(golfie)(michal);
             report = michal.intl;

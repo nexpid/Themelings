@@ -1466,14 +1466,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CONNECTIONS_LINK_CONSOLE_COACHMARK'] = michal;
     entity = 'CONNECTIONS_LINK_CONSOLE_COACHMARK';
     tangon[michal] = entity;
-    michal = 510;
-    tangon['ACTIVITY_POPOUT_NUX_MODAL'] = michal;
-    entity = 'ACTIVITY_POPOUT_NUX_MODAL';
-    tangon[michal] = entity;
-    michal = 511;
-    tangon['ACTIVITY_POPOUT_NUX_QUICK_REFOCUS_TOOLTIP'] = michal;
-    entity = 'ACTIVITY_POPOUT_NUX_QUICK_REFOCUS_TOOLTIP';
-    tangon[michal] = entity;
     michal = 512;
     tangon['SWIPE_TO_MEMBER_LIST_COACHMARK'] = michal;
     entity = 'SWIPE_TO_MEMBER_LIST_COACHMARK';

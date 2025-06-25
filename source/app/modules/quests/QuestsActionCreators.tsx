@@ -703,13 +703,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00014_ip = 461; continue _fun00013 }
+                    if(zuuluu) { _fun00014_ip = 472; continue _fun00013 }
  13:
                     report = argFoo;
                     offset = michal;
                     zuuluu = michal.questContentCTA;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00014_ip = 124; continue _fun00013 }
+                    if(!(michal != zuuluu)) { _fun00014_ip = 135; continue _fun00013 }
  31:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -728,16 +728,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['questContentCTA'] = golfie;
                     golfie = oscard.questContentPosition;
                     michal['questContentPosition'] = golfie;
-                    oscard = oscard.questContentRowIndex;
-                    michal['questContentRowIndex'] = oscard;
+                    golfie = oscard.questContentRowIndex;
+                    michal['questContentRowIndex'] = golfie;
+                    oscard = oscard.sourceQuestContent;
+                    michal['sourceQuestContent'] = oscard;
                     michal = zuuluu.bind(tangon)(michal);
- 124:
+ 135:
                     oscard = _closure1_slot4;
                     tangon = oscard.isEnrolling;
                     zuuluu = report;
                     zuuluu = tangon.bind(oscard)(zuuluu);
-                    if(zuuluu) { _fun00014_ip = 456; continue _fun00013 }
- 151:
+                    if(zuuluu) { _fun00014_ip = 467; continue _fun00013 }
+ 162:
                     golfie = _closure1_slot1;
                     zuuluu = _closure1_slot2;
                     oscard = 5;
@@ -751,7 +753,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = report;
                     zuuluu['questId'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
- 203: // try_start_0
+ 214: // try_start_0
                     foxtra = _closure1_slot0;
                     yankee = _closure1_slot2;
                     zuuluu = 4;
@@ -780,13 +782,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = true;
                     zuuluu['rejectWithError'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
-                    SaveGenerator(address=326);
- 324:
+                    SaveGenerator(address=337);
+ 335:
                     return zuuluu;
- 326:
+ 337:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00014_ip = 407; continue _fun00013 }
- 332:
+                    if(golfie) { _fun00014_ip = 418; continue _fun00013 }
+ 343:
                     option = _closure1_slot1;
                     offset = _closure1_slot2;
                     golfie = offset[oscard];
@@ -803,11 +805,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = yankee.bind(romeon)(offset);
                     golfie['enrolledQuestUserStatus'] = offset;
                     golfie = option.bind(verify)(golfie);
- 405: // try_end0
-                    _fun00014_ip = 456; continue _fun00013;
- 407:
+ 416: // try_end0
+                    _fun00014_ip = 467; continue _fun00013;
+ 418:
                     return zuuluu;
- 410: // catch_target0
+ 421: // catch_target0
                     CatchBlockStart(arg_register=2);
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -819,10 +821,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['type'] = oscard;
                     michal['questId'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 456:
+ 467:
                     michal = undefined;
                     return michal;
- 461:
+ 472:
                     return entity;
                 }
             };

@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity);
             report = _closure1_slot0;
             golfie = _closure1_slot1;
-            michal = 5;
+            michal = 6;
             zuuluu = golfie[michal];
             zuuluu = report.bind(oscard)(zuuluu);
             tangon = zuuluu.intl;
@@ -108,46 +108,55 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     golfie = function() { // Original name: onObscuredContentFriendsDmOnPress
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot1;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
             entity = 4;
-            zuuluu = zuuluu[entity];
+            michal = tangon[entity];
             entity = undefined;
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.isEligibleForSensitiveContentGoreExperiment;
-            zuuluu = 'ExplicitMediaFiltersFriendsDMsSetting';
-            oscard = tangon.bind(report)(zuuluu);
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 5;
-            tangon = option[zuuluu];
-            tangon = golfie.bind(entity)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
-            zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = zuuluu.t;
-            if(oscard) { _fun00006_ip = 102; continue _fun00005 }
- 89:
-            oscard = zuuluu.c/UOwM;
-            oscard = tangon.bind(report)(oscard);
-            _fun00006_ip = 113; continue _fun00005;
- 102:
-            zuuluu = zuuluu.GYpoAg;
-            oscard = tangon.bind(report)(zuuluu);
- 113:
-            tangon = _closure1_slot0;
-            report = _closure1_slot1;
-            zuuluu = 6;
-            zuuluu = report[zuuluu];
-            report = tangon.bind(entity)(zuuluu);
-            tangon = report.handleSensitiveMediaFilterPress;
-            michal = _closure1_slot3;
-            zuuluu = michal.bind(entity)();
-            michal = function(argFoo) {
+            golfie = zuuluu.bind(entity)(michal);
+            report = golfie.isEligibleForSensitiveContentGoreExperiment;
+            michal = 'ExplicitMediaFiltersFriendsDMsSetting';
+            golfie = report.bind(golfie)(michal);
+            michal = 5;
+            michal = tangon[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.getExplicitContentSettingOrDefault;
+            michal = michal.bind(zuuluu)();
+            report = michal.explicitContentFriendDm;
+            option = _closure1_slot0;
+            verify = _closure1_slot1;
+            michal = 6;
+            zuuluu = verify[michal];
+            zuuluu = option.bind(entity)(zuuluu);
+            tangon = zuuluu.intl;
+            zuuluu = tangon.string;
+            michal = verify[michal];
+            michal = option.bind(entity)(michal);
+            michal = michal.t;
+            if(golfie) { _fun00006_ip = 130; continue _fun00005 }
+ 117:
+            golfie = michal.c/UOwM;
+            golfie = zuuluu.bind(tangon)(golfie);
+            _fun00006_ip = 141; continue _fun00005;
+ 130:
+            michal = michal.GYpoAg;
+            golfie = zuuluu.bind(tangon)(michal);
+ 141:
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot1;
+            michal = 7;
+            michal = tangon[michal];
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.handleSensitiveMediaFilterPress;
+            michal = {};
+            michal['title'] = golfie;
+            oscard = _closure1_slot3;
+            oscard = oscard.bind(entity)();
+            michal['subtitle'] = oscard;
+            oscard = function(argFoo) { // Original name: handlePress
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot1;
-                entity = 7;
+                entity = 5;
                 michal = michal[entity];
                 entity = undefined;
                 zuuluu = zuuluu.bind(entity)(michal);
@@ -158,7 +167,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            michal = tangon.bind(report)(oscard, zuuluu, michal);
+            michal['handlePress'] = oscard;
+            michal['currentValue'] = report;
+            michal = zuuluu.bind(tangon)(michal);
             return entity;
         }
     };
@@ -177,7 +188,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = zuuluu.bind(tangon)(entity);
             oscard = _closure1_slot0;
             option = _closure1_slot1;
-            zuuluu = 5;
+            zuuluu = 6;
             michal = option[zuuluu];
             michal = oscard.bind(golfie)(michal);
             report = michal.intl;

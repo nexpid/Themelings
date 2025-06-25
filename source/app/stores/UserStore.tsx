@@ -2455,7 +2455,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot76 = entity;
-    entity = function(argFoo) { // Original name: handleLoadGravityHydratedItems
+    entity = function(argFoo) { // Original name: handleLoadICYMIHydratedItems
         entity = argFoo;
         tangon = entity.messageItems;
         zuuluu = tangon.forEach;
@@ -2789,7 +2789,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = _closure1_slot76;
                 entity['MEMBER_SAFETY_GUILD_MEMBER_SEARCH_SUCCESS'] = golfie;
                 golfie = _closure1_slot77;
-                entity['LOAD_GRAVITY_HYDRATED'] = golfie;
+                entity['LOAD_ICYMI_HYDRATED'] = golfie;
                 golfie = _closure1_slot78;
                 entity['EMBEDDED_ACTIVITY_UPDATE_V2'] = golfie;
                 golfie = _closure1_slot79;

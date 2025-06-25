@@ -132,17 +132,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = _closure2_slot0;
                 zuuluu = {};
                 option = 11;
+                offset = tangon[option];
+                offset = verify.bind(entity)(offset);
+                offset = offset.QuestContent;
+                offset = offset.QUEST_BAR_MOBILE;
+                zuuluu['content'] = offset;
+                offset = 12;
+                offset = tangon[offset];
+                offset = verify.bind(entity)(offset);
+                offset = offset.QuestContentCTA;
+                offset = offset.CONTEXT_MENU_OPEN_GAME_LINK;
+                zuuluu['ctaContent'] = offset;
                 option = tangon[option];
                 option = verify.bind(entity)(option);
                 option = option.QuestContent;
                 option = option.QUEST_BAR_MOBILE;
-                zuuluu['content'] = option;
-                option = 12;
-                option = tangon[option];
-                option = verify.bind(entity)(option);
-                option = option.QuestContentCTA;
-                option = option.CONTEXT_MENU_OPEN_GAME_LINK;
-                zuuluu['ctaContent'] = option;
+                zuuluu['sourceQuestContent'] = option;
                 zuuluu = oscard.bind(golfie)(report, zuuluu);
                 zuuluu = _closure1_slot1;
                 michal = 13;
@@ -204,17 +209,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = zuuluu.id;
                 zuuluu = {};
                 option = 11;
+                offset = tangon[option];
+                offset = verify.bind(entity)(offset);
+                offset = offset.QuestContent;
+                offset = offset.QUEST_BAR_MOBILE;
+                zuuluu['content'] = offset;
+                offset = 12;
+                offset = tangon[offset];
+                offset = verify.bind(entity)(offset);
+                offset = offset.QuestContentCTA;
+                offset = offset.CONTEXT_MENU_COPY_LINK;
+                zuuluu['ctaContent'] = offset;
                 option = tangon[option];
                 option = verify.bind(entity)(option);
                 option = option.QuestContent;
                 option = option.QUEST_BAR_MOBILE;
-                zuuluu['content'] = option;
-                option = 12;
-                option = tangon[option];
-                option = verify.bind(entity)(option);
-                option = option.QuestContentCTA;
-                option = option.CONTEXT_MENU_COPY_LINK;
-                zuuluu['ctaContent'] = option;
+                zuuluu['sourceQuestContent'] = option;
                 zuuluu = oscard.bind(golfie)(report, zuuluu);
                 zuuluu = _closure1_slot1;
                 michal = 13;
@@ -272,26 +282,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = function() { // Original name: onPress
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;
-                verify = 12;
-                zuuluu = tangon[verify];
+                offset = 12;
+                zuuluu = tangon[offset];
                 entity = undefined;
                 option = report.bind(entity)(zuuluu);
                 oscard = option.trackQuestContentClicked;
                 zuuluu = {};
                 golfie = _closure2_slot0;
-                offset = golfie.id;
-                zuuluu['questId'] = offset;
-                offset = 11;
+                verify = golfie.id;
+                zuuluu['questId'] = verify;
+                verify = 11;
+                yankee = tangon[verify];
+                yankee = report.bind(entity)(yankee);
+                yankee = yankee.QuestContent;
+                yankee = yankee.QUEST_BAR_MOBILE;
+                zuuluu['questContent'] = yankee;
                 offset = tangon[offset];
                 offset = report.bind(entity)(offset);
-                offset = offset.QuestContent;
-                offset = offset.QUEST_BAR_MOBILE;
-                zuuluu['questContent'] = offset;
+                offset = offset.QuestContentCTA;
+                offset = offset.CONTEXT_MENU_LEARN_MORE;
+                zuuluu['questContentCTA'] = offset;
                 verify = tangon[verify];
                 verify = report.bind(entity)(verify);
-                verify = verify.QuestContentCTA;
-                verify = verify.CONTEXT_MENU_LEARN_MORE;
-                zuuluu['questContentCTA'] = verify;
+                verify = verify.QuestContent;
+                verify = verify.QUEST_BAR_MOBILE;
+                zuuluu['sourceQuestContent'] = verify;
                 zuuluu = oscard.bind(option)(zuuluu);
                 zuuluu = 16;
                 zuuluu = tangon[zuuluu];
@@ -361,17 +376,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = {};
                 verify = _closure1_slot0;
                 option = 11;
+                offset = tangon[option];
+                offset = verify.bind(entity)(offset);
+                offset = offset.QuestContent;
+                offset = offset.QUEST_BAR_MOBILE;
+                golfie['content'] = offset;
+                offset = 12;
+                offset = tangon[offset];
+                offset = verify.bind(entity)(offset);
+                offset = offset.QuestContentCTA;
+                offset = offset.CONTEXT_MENU_OPEN_DISCLOSURE;
+                golfie['ctaContent'] = offset;
                 option = tangon[option];
                 option = verify.bind(entity)(option);
                 option = option.QuestContent;
                 option = option.QUEST_BAR_MOBILE;
-                golfie['content'] = option;
-                option = 12;
-                option = tangon[option];
-                option = verify.bind(entity)(option);
-                option = option.QuestContentCTA;
-                option = option.CONTEXT_MENU_OPEN_DISCLOSURE;
-                golfie['ctaContent'] = option;
+                golfie['sourceQuestContent'] = option;
                 michal['trackingCtx'] = golfie;
                 michal = report.bind(oscard)(michal);
                 michal = 13;
@@ -433,7 +453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 242; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 268; continue _fun00003 }
  10:
                         verify = _closure1_slot0;
                         offset = _closure1_slot2;
@@ -444,8 +464,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = golfie.dismissQuestContent;
                         romeon = _closure2_slot0;
                         report = romeon.id;
-                        yankee = 11;
-                        michal = offset[yankee];
+                        option = 11;
+                        michal = offset[option];
                         michal = verify.bind(zuuluu)(michal);
                         michal = michal.QuestContent;
                         michal = michal.QUEST_BAR_MOBILE;
@@ -456,31 +476,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = oscard.bind(zuuluu)(report);
                         report = oscard.hideActionSheet;
                         report = report.bind(oscard)();
-                        option = 12;
-                        report = offset[option];
+                        yankee = 12;
+                        report = offset[yankee];
                         golfie = verify.bind(zuuluu)(report);
                         oscard = golfie.trackQuestContentClicked;
                         report = {};
                         romeon = romeon.id;
                         report['questId'] = romeon;
+                        romeon = offset[option];
+                        romeon = verify.bind(zuuluu)(romeon);
+                        romeon = romeon.QuestContent;
+                        romeon = romeon.QUEST_BAR_MOBILE;
+                        report['questContent'] = romeon;
                         yankee = offset[yankee];
                         yankee = verify.bind(zuuluu)(yankee);
-                        yankee = yankee.QuestContent;
-                        yankee = yankee.QUEST_BAR_MOBILE;
-                        report['questContent'] = yankee;
+                        yankee = yankee.QuestContentCTA;
+                        yankee = yankee.CONTEXT_MENU_HIDE_CONTENT;
+                        report['questContentCTA'] = yankee;
                         option = offset[option];
                         option = verify.bind(zuuluu)(option);
-                        option = option.QuestContentCTA;
-                        option = option.CONTEXT_MENU_HIDE_CONTENT;
-                        report['questContentCTA'] = option;
+                        option = option.QuestContent;
+                        option = option.QUEST_BAR_MOBILE;
+                        report['sourceQuestContent'] = option;
                         report = oscard.bind(golfie)(report);
-                        SaveGenerator(address=200);
- 198:
+                        SaveGenerator(address=226);
+ 224:
                         return michal;
- 200:
+ 226:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 239; continue _fun00003 }
- 206:
+                        if(report) { _fun00004_ip = 265; continue _fun00003 }
+ 232:
                         report = _closure1_slot0;
                         oscard = _closure1_slot2;
                         tangon = 21;
@@ -489,9 +514,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = report.displayQuestDismissalToast;
                         tangon = tangon.bind(report)();
                         return zuuluu;
- 239:
+ 265:
                         return michal;
- 242:
+ 268:
                         return entity;
                     }
                 };

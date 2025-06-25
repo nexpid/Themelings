@@ -87,31 +87,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = verify;
  141:
             entity['query'] = golfie;
-            if(!(zuuluu == oscard)) { _fun00004_ip = 182; continue _fun00003 }
+            if(!(zuuluu == oscard)) { _fun00004_ip = 178; continue _fun00003 }
  149:
             golfie = {'type': null, 'filter': null, 'token': null};
             option = _closure1_slot12;
             option = option.EMPTY;
             golfie['type'] = option;
             oscard = golfie;
- 182:
+ 178:
             entity['mode'] = oscard;
-            if(!(zuuluu == tangon)) { _fun00004_ip = 194; continue _fun00003 }
- 190:
+            if(!(zuuluu == tangon)) { _fun00004_ip = 190; continue _fun00003 }
+ 186:
             tangon = new Array(0);
- 194:
+ 190:
             entity['tokens'] = tangon;
             oscard = zuuluu != report;
             tangon = null;
-            if(!oscard) { _fun00004_ip = 211; continue _fun00003 }
- 208:
+            if(!oscard) { _fun00004_ip = 207; continue _fun00003 }
+ 204:
             tangon = report;
- 211:
+ 207:
             entity['cursorScope'] = tangon;
-            if(!(zuuluu == michal)) { _fun00004_ip = 224; continue _fun00003 }
- 220:
+            if(!(zuuluu == michal)) { _fun00004_ip = 220; continue _fun00003 }
+ 216:
             michal = new Array(0);
- 224:
+ 220:
             entity['autocompletes'] = michal;
             return entity;
         }

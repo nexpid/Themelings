@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = oscard.bind(golfie)(report);
                 entity['helpdeskArticle'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
-                _fun00002_ip = 241; continue _fun00001;
+                _fun00002_ip = 243; continue _fun00001;
  122:
                 zuuluu = _closure1_slot0;
                 offset = _closure1_slot2;
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 michal['applicationName'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 241:
+ 243:
                 return entity;
             }
         };

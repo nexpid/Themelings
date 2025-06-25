@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = report.bind(entity)(tangon);
     option = verify.createStyles;
     tangon = {};
-    offset = {'marginTop': 32, 'marginBottom': 24};
+    offset = {'marginTop': 24, 'marginBottom': 24};
     tangon['inputGroup'] = offset;
     offset = {};
     offset['flexGrow'] = yankee;

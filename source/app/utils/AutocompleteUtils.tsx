@@ -2590,67 +2590,67 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  20:
             michal = 10;
  23:
-            sizing = entity.fuzzy;
-            if(!(sizing === oscard)) { _fun00054_ip = 35; continue _fun00053 }
+            result = entity.fuzzy;
+            if(!(result === oscard)) { _fun00054_ip = 35; continue _fun00053 }
  33:
-            sizing = true;
+            result = true;
  35:
-            kiloes = entity.filter;
-            if(!(kiloes === oscard)) { _fun00054_ip = 51; continue _fun00053 }
+            output = entity.filter;
+            if(!(output === oscard)) { _fun00054_ip = 51; continue _fun00053 }
  44:
-            kiloes = _closure1_slot41;
+            output = _closure1_slot41;
  51:
-            backup = entity.boosters;
-            if(!(backup === oscard)) { _fun00054_ip = 63; continue _fun00053 }
+            sizing = entity.boosters;
+            if(!(sizing === oscard)) { _fun00054_ip = 63; continue _fun00053 }
  61:
-            backup = {};
+            sizing = {};
  63:
             golfie = _closure1_slot0;
             option = _closure1_slot3;
-            foxtra = 29;
-            entity = option[foxtra];
+            kiloes = 29;
+            entity = option[kiloes];
             report = golfie.bind(oscard)(entity);
             tangon = report.stripDiacritics;
-            entity = option[foxtra];
+            entity = option[kiloes];
             verify = golfie.bind(oscard)(entity);
             golfie = verify.normalize;
             entity = offset.toLocaleLowerCase;
             entity = entity.bind(offset)();
             entity = golfie.bind(verify)(entity);
             entity = tangon.bind(report)(entity);
-            romeon = {};
-            report = global;
-            output = report.RegExp;
+            backup = {};
+            foxtra = global;
+            yankee = foxtra.RegExp;
             golfie = _closure1_slot1;
             tangon = 27;
-            verify = option[tangon];
-            offset = golfie.bind(oscard)(verify);
-            verify = offset.escape;
-            yankee = verify.bind(offset)(entity);
-            verify = report.HermesInternal;
-            offset = verify.concat;
-            verify = '^';
-            target = offset.bind(verify)(yankee);
-            offset = output.prototype;
-            yankee = Object.create(offset, {constructor: {value: output}});
+            report = option[tangon];
+            verify = golfie.bind(oscard)(report);
+            report = verify.escape;
+            offset = report.bind(verify)(entity);
+            report = foxtra.HermesInternal;
+            verify = report.concat;
+            report = '^';
+            limora = verify.bind(report)(offset);
+            verify = yankee.prototype;
+            verify = Object.create(verify, {constructor: {value: yankee}});
             offset = 'i';
-            status = yankee;
-            papara = offset;
-            verify = new status[output](target, papara, cntext);
-            verify = verify instanceof Object ? verify : yankee;
-            romeon['exactQuery'] = verify;
-            verify = report.RegExp;
+            whisks = verify;
+            sierra = offset;
+            report = new whisks[yankee](limora, sierra, status);
+            report = report instanceof Object ? report : verify;
+            backup['exactQuery'] = report;
+            verify = foxtra.RegExp;
             tangon = option[tangon];
             report = golfie.bind(oscard)(tangon);
             tangon = report.escape;
-            target = tangon.bind(report)(entity);
+            limora = tangon.bind(report)(entity);
             report = verify.prototype;
             report = Object.create(report, {constructor: {value: verify}});
-            status = report;
-            tangon = new status[verify](target, papara, cntext);
+            whisks = report;
+            tangon = new whisks[verify](limora, sierra, status);
             tangon = tangon instanceof Object ? tangon : report;
-            romeon['containQuery'] = tangon;
-            romeon['queryLower'] = entity;
+            backup['containQuery'] = tangon;
+            backup['queryLower'] = entity;
             entity = new Array(0);
             report = _closure1_slot48;
             tangon = 33;
@@ -2664,84 +2664,113 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.bind(golfie)();
             tangon = golfie.value;
             tangon = tangon.bind(golfie)();
-            yankee = report.bind(oscard)(tangon);
-            report = yankee.bind(oscard)();
+            romeon = report.bind(oscard)(tangon);
+            report = romeon.bind(oscard)();
             tangon = report.done;
-            offset = 37;
-            verify = 0;
+            yankee = 37;
+            offset = 0;
+            verify = '';
             option = report;
             golfie = undefined;
             report = undefined;
-            if(tangon) { _fun00054_ip = 647; continue _fun00053 }
- 361:
-            record = option.value;
-            tangon = record.isMultiUserDM;
-            tangon = tangon.bind(record)();
-            result = golfie;
-            output = report;
-            if(!tangon) { _fun00054_ip = 623; continue _fun00053 }
- 388:
-            tangon = kiloes.bind(oscard)(record);
-            result = golfie;
-            output = report;
-            if(!tangon) { _fun00054_ip = 623; continue _fun00053 }
- 405:
-            source = _closure1_slot0;
-            tangon = _closure1_slot3;
-            echoed = tangon[offset];
-            vacuum = source.bind(oscard)(echoed);
-            ctrled = vacuum.computeChannelName;
-            update = _closure1_slot29;
-            echoed = _closure1_slot26;
-            update = ctrled.bind(vacuum)(record, update, echoed);
-            echoed = update.toLocaleLowerCase;
-            ctrled = echoed.bind(update)();
-            echoed = tangon[foxtra];
-            update = source.bind(oscard)(echoed);
-            echoed = update.stripDiacritics;
-            tangon = tangon[foxtra];
-            source = source.bind(oscard)(tangon);
-            tangon = source.normalize;
-            tangon = tangon.bind(source)(ctrled);
-            echoed = echoed.bind(update)(tangon);
-            tangon = _closure1_slot51;
-            tangon = tangon.bind(oscard)(echoed, romeon, sizing);
-            result = echoed;
-            output = tangon;
-            if(!(tangon > verify)) { _fun00054_ip = 623; continue _fun00053 }
- 514:
-            source = entity.push;
-            update = {};
-            ctrled = _closure1_slot36;
-            ctrled = ctrled.GROUP_DM;
-            update['type'] = ctrled;
-            update['record'] = record;
-            vacuum = _closure1_slot50;
-            ctrled = record.id;
-            ctrled = backup[ctrled];
-            ctrled = vacuum.bind(oscard)(tangon, ctrled);
-            update['score'] = ctrled;
+            if(tangon) { _fun00054_ip = 779; continue _fun00053 }
+ 365:
+            papara = option.value;
+            tangon = papara.isMultiUserDM;
+            tangon = tangon.bind(papara)();
+            update = golfie;
+            echoed = report;
+            if(!tangon) { _fun00054_ip = 755; continue _fun00053 }
+ 392:
+            tangon = output.bind(oscard)(papara);
+            update = golfie;
+            echoed = report;
+            if(!tangon) { _fun00054_ip = 755; continue _fun00053 }
+ 409:
             vacuum = _closure1_slot0;
-            ctrled = _closure1_slot3;
-            ctrled = ctrled[offset];
-            config = vacuum.bind(oscard)(ctrled);
+            tangon = _closure1_slot3;
+            source = tangon[yankee];
+            config = vacuum.bind(oscard)(source);
             sequen = config.computeChannelName;
-            vacuum = _closure1_slot29;
-            ctrled = _closure1_slot26;
-            ctrled = sequen.bind(config)(record, vacuum, ctrled);
-            update['comparator'] = ctrled;
-            update['sortable'] = echoed;
-            update = source.bind(entity)(update);
-            result = echoed;
-            output = tangon;
- 623:
-            echoed = yankee.bind(oscard)();
-            tangon = echoed.done;
-            golfie = result;
-            report = output;
-            option = echoed;
-            if(!tangon) { _fun00054_ip = 361; continue _fun00053 }
- 647:
+            ctrled = _closure1_slot29;
+            source = _closure1_slot26;
+            ctrled = sequen.bind(config)(papara, ctrled, source);
+            source = ctrled.toLocaleLowerCase;
+            sequen = source.bind(ctrled)();
+            source = tangon[kiloes];
+            ctrled = vacuum.bind(oscard)(source);
+            source = ctrled.stripDiacritics;
+            tangon = tangon[kiloes];
+            vacuum = vacuum.bind(oscard)(tangon);
+            tangon = vacuum.normalize;
+            tangon = tangon.bind(vacuum)(sequen);
+            source = source.bind(ctrled)(tangon);
+            tangon = _closure1_slot51;
+            config = tangon.bind(oscard)(source, backup, result);
+            ctrled = papara.name;
+            tangon = config;
+            if(!(verify !== ctrled)) { _fun00054_ip = 636; continue _fun00053 }
+ 520:
+            record = _closure1_slot0;
+            ctrled = _closure1_slot3;
+            vacuum = ctrled[yankee];
+            target = record.bind(oscard)(vacuum);
+            cntext = target.computeDefaultGroupDmName;
+            sequen = _closure1_slot29;
+            vacuum = _closure1_slot26;
+            sequen = cntext.bind(target)(papara, sequen, vacuum);
+            vacuum = sequen.toLocaleLowerCase;
+            cntext = vacuum.bind(sequen)();
+            vacuum = ctrled[kiloes];
+            sequen = record.bind(oscard)(vacuum);
+            vacuum = sequen.stripDiacritics;
+            ctrled = ctrled[kiloes];
+            record = record.bind(oscard)(ctrled);
+            ctrled = record.normalize;
+            ctrled = ctrled.bind(record)(cntext);
+            record = vacuum.bind(sequen)(ctrled);
+            sequen = foxtra.Math;
+            vacuum = sequen.max;
+            ctrled = _closure1_slot51;
+            ctrled = ctrled.bind(oscard)(record, backup, result);
+            tangon = vacuum.bind(sequen)(config, ctrled);
+ 636:
+            update = source;
+            echoed = tangon;
+            if(!(tangon > offset)) { _fun00054_ip = 755; continue _fun00053 }
+ 646:
+            vacuum = entity.push;
+            ctrled = {};
+            sequen = _closure1_slot36;
+            sequen = sequen.GROUP_DM;
+            ctrled['type'] = sequen;
+            ctrled['record'] = papara;
+            config = _closure1_slot50;
+            sequen = papara.id;
+            sequen = sizing[sequen];
+            sequen = config.bind(oscard)(tangon, sequen);
+            ctrled['score'] = sequen;
+            config = _closure1_slot0;
+            sequen = _closure1_slot3;
+            sequen = sequen[yankee];
+            cntext = config.bind(oscard)(sequen);
+            record = cntext.computeChannelName;
+            config = _closure1_slot29;
+            sequen = _closure1_slot26;
+            sequen = record.bind(cntext)(papara, config, sequen);
+            ctrled['comparator'] = sequen;
+            ctrled['sortable'] = source;
+            ctrled = vacuum.bind(entity)(ctrled);
+            update = source;
+            echoed = tangon;
+ 755:
+            source = romeon.bind(oscard)();
+            tangon = source.done;
+            golfie = update;
+            report = echoed;
+            option = source;
+            if(!tangon) { _fun00054_ip = 365; continue _fun00053 }
+ 779:
             tangon = entity.sort;
             report = _closure1_slot1;
             golfie = _closure1_slot3;
@@ -2750,10 +2779,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = tangon.bind(entity)(zuuluu);
             zuuluu = entity.length;
-            if(!(zuuluu > michal)) { _fun00054_ip = 693; continue _fun00053 }
- 687:
+            if(!(zuuluu > michal)) { _fun00054_ip = 825; continue _fun00053 }
+ 819:
             entity['length'] = michal;
- 693:
+ 825:
             return entity;
         }
     };

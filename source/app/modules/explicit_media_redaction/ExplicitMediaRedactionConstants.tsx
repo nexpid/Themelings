@@ -50,6 +50,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['EXPLICIT_MEDIA_LEARN_MORE_ACTION_SHEET_KEY'] = tangon;
     tangon = 'ExplicitMediaSenderFalsePositiveActionSheet';
     zuuluu['EXPLICIT_MEDIA_SENDER_FALSE_POSITIVE_ACTION_SHEET_KEY'] = tangon;
+    tangon = 'ExplicitMediaSettingsActionSheet';
+    zuuluu['EXPLICIT_MEDIA_SETTINGS_ACTION_SHEET_KEY'] = tangon;
     zuuluu['SUPPORTED_EMBED_TYPES'] = michal;
     michal = 146;
     zuuluu['EXPLICIT_MEDIA_MIN_WIDTH'] = michal;

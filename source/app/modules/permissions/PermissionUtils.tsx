@@ -2069,7 +2069,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = argBaz;
             entity = _closure1_slot2;
             entity = entity.SEND_MESSAGES;
-            oscard = new Array(14);
+            oscard = new Array(13);
             oscard[0] = entity;
             entity = _closure1_slot2;
             entity = entity.EMBED_LINKS;
@@ -2102,18 +2102,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.SEND_TTS_MESSAGES;
             oscard[10] = entity;
             entity = _closure1_slot2;
-            entity = entity.USE_APPLICATION_COMMANDS;
+            entity = entity.SEND_VOICE_MESSAGES;
             oscard[11] = entity;
             entity = _closure1_slot2;
-            entity = entity.SEND_VOICE_MESSAGES;
-            oscard[12] = entity;
-            entity = _closure1_slot2;
             entity = entity.SEND_POLLS;
-            oscard[13] = entity;
+            oscard[12] = entity;
             entity = zuuluu.inSoundmojiExperiment;
             report = oscard;
-            if(entity) { _fun00016_ip = 237; continue _fun00015 }
- 218:
+            if(entity) { _fun00016_ip = 223; continue _fun00015 }
+ 204:
             tangon = oscard.filter;
             entity = function(argFoo) {
                 entity = _closure1_slot2;
@@ -2123,7 +2120,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             report = tangon.bind(oscard)(entity);
- 237:
+ 223:
             entity = {};
             tangon = argBar;
             entity['title'] = tangon;

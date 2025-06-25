@@ -34,47 +34,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: useWatchTaskPressHandler
         michal = argFoo;
-        option = michal.questId;
-        var _closure2_slot0 = option;
+        verify = michal.questId;
+        var _closure2_slot0 = verify;
+        report = michal.sourceQuestContent;
+        var _closure2_slot1 = report;
         tangon = _closure1_slot3;
-        oscard = tangon.useContext;
-        report = _closure1_slot0;
-        verify = _closure1_slot2;
+        golfie = tangon.useContext;
+        oscard = _closure1_slot0;
+        offset = _closure1_slot2;
         michal = 2;
-        michal = verify[michal];
+        michal = offset[michal];
         zuuluu = undefined;
-        michal = report.bind(zuuluu)(michal);
+        michal = oscard.bind(zuuluu)(michal);
         michal = michal.QuestDockExternalCoordinationContext;
-        michal = oscard.bind(tangon)(michal);
-        golfie = michal.setRestingQuestDockMode;
-        var _closure2_slot1 = golfie;
-        oscard = tangon.useContext;
+        michal = golfie.bind(tangon)(michal);
+        option = michal.setRestingQuestDockMode;
+        var _closure2_slot2 = option;
+        golfie = tangon.useContext;
         michal = 3;
-        michal = verify[michal];
-        michal = report.bind(zuuluu)(michal);
+        michal = offset[michal];
+        michal = oscard.bind(zuuluu)(michal);
         michal = michal.QuestBottomSheetContext;
-        michal = oscard.bind(tangon)(michal);
-        oscard = michal.isInQuestBottomSheet;
-        var _closure2_slot2 = oscard;
+        michal = golfie.bind(tangon)(michal);
+        golfie = michal.isInQuestBottomSheet;
+        var _closure2_slot3 = golfie;
         michal = 4;
-        michal = verify[michal];
-        zuuluu = report.bind(zuuluu)(michal);
+        michal = offset[michal];
+        zuuluu = oscard.bind(zuuluu)(michal);
         michal = zuuluu.useQuestImpression;
-        report = michal.bind(zuuluu)();
-        var _closure2_slot3 = report;
+        oscard = michal.bind(zuuluu)();
+        var _closure2_slot4 = oscard;
         zuuluu = tangon.useCallback;
-        michal = new Array(4);
-        michal[0] = option;
-        michal[1] = golfie;
-        michal[2] = oscard;
-        michal[3] = report;
+        michal = new Array(5);
+        michal[0] = verify;
+        michal[1] = option;
+        michal[2] = golfie;
+        michal[3] = oscard;
+        michal[4] = report;
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                entity = _closure2_slot2;
+                entity = _closure2_slot3;
                 if(entity) { _fun00002_ip = 36; continue _fun00001 }
  13:
-                tangon = _closure2_slot1;
+                tangon = _closure2_slot2;
                 entity = _closure1_slot4;
                 zuuluu = entity.COLLAPSED;
                 entity = undefined;
@@ -98,24 +101,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = {};
-                report = _closure2_slot0;
-                zuuluu['questId'] = report;
-                report = _closure2_slot3;
+                oscard = _closure2_slot0;
+                zuuluu['questId'] = oscard;
+                oscard = _closure2_slot4;
                 golfie = null;
-                option = golfie == report;
-                report = undefined;
+                option = golfie == oscard;
+                oscard = undefined;
                 if(option) { _fun00002_ip = 137; continue _fun00001 }
  123:
-                verify = _closure2_slot3;
+                verify = _closure2_slot4;
                 option = verify.getQuestContentPosition;
-                report = option.bind(verify)();
+                oscard = option.bind(verify)();
  137:
-                zuuluu['questContentPosition'] = report;
+                zuuluu['questContentPosition'] = oscard;
+                oscard = _closure2_slot1;
+                zuuluu['sourceQuestContent'] = oscard;
                 zuuluu = tangon.bind(entity)(zuuluu);
                 option = _closure1_slot0;
                 verify = _closure1_slot2;
-                report = 7;
-                michal = verify[report];
+                oscard = 7;
+                michal = verify[oscard];
                 tangon = option.bind(entity)(michal);
                 zuuluu = tangon.trackQuestContentClicked;
                 michal = {};
@@ -127,31 +132,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = offset.QuestContent;
                 offset = offset.QUEST_BOTTOM_SHEET;
                 michal['questContent'] = offset;
-                report = verify[report];
-                report = option.bind(entity)(report);
-                report = report.QuestContentCTA;
-                report = report.WATCH_VIDEO;
-                michal['questContentCTA'] = report;
-                report = _closure2_slot3;
-                option = golfie == report;
-                report = undefined;
-                if(option) { _fun00002_ip = 266; continue _fun00001 }
- 252:
-                verify = _closure2_slot3;
+                oscard = verify[oscard];
+                oscard = option.bind(entity)(oscard);
+                oscard = oscard.QuestContentCTA;
+                oscard = oscard.WATCH_VIDEO;
+                michal['questContentCTA'] = oscard;
+                oscard = _closure2_slot4;
+                option = golfie == oscard;
+                oscard = undefined;
+                if(option) { _fun00002_ip = 275; continue _fun00001 }
+ 261:
+                verify = _closure2_slot4;
                 option = verify.getQuestContentPosition;
-                report = option.bind(verify)();
- 266:
-                michal['questContentPosition'] = report;
-                report = _closure2_slot3;
-                golfie = golfie == report;
-                report = undefined;
-                if(golfie) { _fun00002_ip = 298; continue _fun00001 }
- 284:
-                golfie = _closure2_slot3;
-                oscard = golfie.getId;
-                report = oscard.bind(golfie)();
- 298:
-                michal['impressionId'] = report;
+                oscard = option.bind(verify)();
+ 275:
+                michal['questContentPosition'] = oscard;
+                oscard = _closure2_slot4;
+                golfie = golfie == oscard;
+                oscard = undefined;
+                if(golfie) { _fun00002_ip = 307; continue _fun00001 }
+ 293:
+                option = _closure2_slot4;
+                golfie = option.getId;
+                oscard = golfie.bind(option)();
+ 307:
+                michal['impressionId'] = oscard;
+                report = _closure2_slot1;
+                michal['sourceQuestContent'] = report;
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             }

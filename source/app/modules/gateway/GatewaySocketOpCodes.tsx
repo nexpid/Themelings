@@ -193,6 +193,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     michal['REQUEST_CHANNEL_MEMBER_COUNT'] = offset;
     verify = 'REQUEST_CHANNEL_MEMBER_COUNT';
     michal[offset] = verify;
+    offset = 40;
+    michal['QOS_HEARTBEAT'] = offset;
+    verify = 'QOS_HEARTBEAT';
+    michal[offset] = verify;
+    offset = 41;
+    michal['UPDATE_TIME_SPENT_SESSION_ID'] = offset;
+    verify = 'UPDATE_TIME_SPENT_SESSION_ID';
+    michal[offset] = verify;
     var _closure1_slot8 = michal;
     option = golfie[option];
     option = oscard.bind(entity)(option);

@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.SHARE_SCREEN_MODAL_KEY;
     var _closure1_slot21 = tangon;
-    tangon = 67;
+    tangon = 68;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -326,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = function() {
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot3;
-                        entity = 65;
+                        entity = 66;
                         michal = michal[entity];
                         entity = undefined;
                         tangon = zuuluu.bind(entity)(michal);
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1010:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
-                    tangon = 64;
+                    tangon = 65;
                     tangon = oscard[tangon];
                     romeon = report.bind(zuuluu)(tangon);
                     result = golfie.applicationId;
@@ -430,14 +430,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = function() {
                         zuuluu = _closure1_slot0;
                         golfie = _closure1_slot3;
-                        entity = 62;
+                        entity = 63;
                         michal = golfie[entity];
                         entity = undefined;
                         tangon = zuuluu.bind(entity)(michal);
                         zuuluu = tangon.openGiftModal;
                         michal = {};
                         oscard = _closure1_slot1;
-                        report = 63;
+                        report = 64;
                         report = golfie[report];
                         report = oscard.bind(entity)(report);
                         oscard = report.DEEPLINK;
@@ -467,8 +467,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = _closure1_slot10;
                         option = option.QUEST_SHARE_LINK_DEEP_LINKED_INTO_MOBILE_CLIENT;
                         michal['event'] = option;
+                        option = 61;
+                        option = tangon[option];
+                        option = zuuluu.bind(entity)(option);
+                        option = option.QuestContent;
+                        option = option.QUEST_EMBED_MOBILE;
+                        michal['sourceQuestContent'] = option;
                         michal = oscard.bind(golfie)(michal);
-                        michal = 61;
+                        michal = 62;
                         michal = tangon[michal];
                         tangon = zuuluu.bind(entity)(michal);
                         zuuluu = tangon.openQuestHome;
@@ -1978,7 +1984,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  20:
             zuuluu = _closure1_slot0;
             report = _closure1_slot3;
-            entity = 66;
+            entity = 67;
             entity = report[entity];
             zuuluu = zuuluu.bind(tangon)(entity);
             entity = zuuluu.browserManagerCloseBrowser;

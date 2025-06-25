@@ -9,29 +9,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot2 = option;
     entity = function(argFoo) { // Original name: openRewardClaimBottomSheet
         entity = argFoo;
-        option = entity.questId;
-        golfie = entity.questContent;
-        oscard = entity.questContentPosition;
+        verify = entity.questId;
+        option = entity.questContent;
+        golfie = entity.questContentPosition;
+        oscard = entity.sourceQuestContent;
         tangon = _closure1_slot1;
         michal = _closure1_slot2;
         zuuluu = 3;
         zuuluu = michal[zuuluu];
-        offset = undefined;
-        report = tangon.bind(offset)(zuuluu);
+        yankee = undefined;
+        report = tangon.bind(yankee)(zuuluu);
         tangon = report.openLazy;
-        verify = _closure1_slot0;
+        offset = _closure1_slot0;
         zuuluu = 5;
         zuuluu = michal[zuuluu];
-        verify = verify.bind(offset)(zuuluu);
+        offset = offset.bind(yankee)(zuuluu);
         zuuluu = 6;
         zuuluu = michal[zuuluu];
         michal = michal.paths;
-        zuuluu = verify.bind(offset)(zuuluu, michal);
+        zuuluu = offset.bind(yankee)(zuuluu, michal);
         michal = _closure1_slot5;
         entity = {};
-        entity['questId'] = option;
-        entity['questContent'] = golfie;
-        entity['questContentPosition'] = oscard;
+        entity['questId'] = verify;
+        entity['questContent'] = option;
+        entity['questContentPosition'] = golfie;
+        entity['sourceQuestContent'] = oscard;
         entity = tangon.bind(report)(zuuluu, michal, entity);
         return entity;
     };
@@ -67,43 +69,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscard = entity.quest;
-            offset = entity.product;
-            report = entity.questContent;
-            tangon = entity.questContentPosition;
-            verify = entity.onSuccess;
-            golfie = _closure1_slot0;
+            golfie = entity.quest;
+            yankee = entity.product;
+            oscard = entity.questContent;
+            report = entity.questContentPosition;
+            offset = entity.onSuccess;
+            tangon = entity.sourceQuestContent;
+            option = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 7;
             zuuluu = zuuluu[entity];
             entity = undefined;
-            option = golfie.bind(entity)(zuuluu);
-            golfie = option.hasQuestRewardCode;
-            zuuluu = oscard.config;
-            zuuluu = golfie.bind(option)(zuuluu);
-            if(zuuluu) { _fun00002_ip = 127; continue _fun00001 }
- 77:
-            golfie = _closure1_slot0;
-            option = _closure1_slot2;
+            verify = option.bind(entity)(zuuluu);
+            option = verify.hasQuestRewardCode;
+            zuuluu = golfie.config;
+            zuuluu = option.bind(verify)(zuuluu);
+            if(zuuluu) { _fun00002_ip = 133; continue _fun00001 }
+ 83:
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
             zuuluu = 8;
-            zuuluu = option[zuuluu];
-            option = golfie.bind(entity)(zuuluu);
-            golfie = option.openQuestCollectibleRewardModal;
+            zuuluu = verify[zuuluu];
+            verify = option.bind(entity)(zuuluu);
+            option = verify.openQuestCollectibleRewardModal;
             zuuluu = {};
-            zuuluu['quest'] = oscard;
-            zuuluu['product'] = offset;
-            zuuluu['onSuccess'] = verify;
-            zuuluu = golfie.bind(option)(zuuluu);
-            _fun00002_ip = 158; continue _fun00001;
- 127:
+            zuuluu['quest'] = golfie;
+            zuuluu['product'] = yankee;
+            zuuluu['onSuccess'] = offset;
+            zuuluu = option.bind(verify)(zuuluu);
+            _fun00002_ip = 169; continue _fun00001;
+ 133:
             zuuluu = _closure1_slot10;
             michal = {};
-            oscard = oscard.id;
-            michal['questId'] = oscard;
-            michal['questContent'] = report;
-            michal['questContentPosition'] = tangon;
+            golfie = golfie.id;
+            michal['questId'] = golfie;
+            michal['questContent'] = oscard;
+            michal['questContentPosition'] = report;
+            michal['sourceQuestContent'] = tangon;
             michal = zuuluu.bind(entity)(michal);
- 158:
+ 169:
             return entity;
         }
     };
@@ -237,107 +241,110 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 373; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 389; continue _fun00005 }
  13:
-                    verify = michal.quest;
-                    option = michal.questContent;
-                    golfie = michal.questContentPosition;
-                    foxtra = michal.product;
+                    offset = michal.quest;
+                    verify = michal.questContent;
+                    option = michal.questContentPosition;
+                    backup = michal.product;
                     tangon = michal.hideActionSheet;
                     report = michal.currentUserHasVerifiedEmailOrPhone;
-                    romeon = michal.onSuccess;
+                    foxtra = michal.onSuccess;
+                    golfie = michal.sourceQuestContent;
                     oscard = undefined;
-                    SaveGenerator(address=61);
- 59:
+                    SaveGenerator(address=67);
+ 65:
                     return oscard;
- 61:
+ 67:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 370; continue _fun00005 }
- 70:
-                    zuuluu = true;
-                    if(!(zuuluu === tangon)) { _fun00006_ip = 109; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 386; continue _fun00005 }
  76:
-                    offset = _closure1_slot1;
-                    yankee = _closure1_slot2;
+                    zuuluu = true;
+                    if(!(zuuluu === tangon)) { _fun00006_ip = 115; continue _fun00005 }
+ 82:
+                    yankee = _closure1_slot1;
+                    romeon = _closure1_slot2;
                     tangon = 3;
-                    tangon = yankee[tangon];
-                    offset = offset.bind(oscard)(tangon);
-                    tangon = offset.hideActionSheet;
-                    tangon = tangon.bind(offset)();
- 109:
-                    if(report) { _fun00006_ip = 236; continue _fun00005 }
+                    tangon = romeon[tangon];
+                    yankee = yankee.bind(oscard)(tangon);
+                    tangon = yankee.hideActionSheet;
+                    tangon = tangon.bind(yankee)();
  115:
-                    kiloes = _closure1_slot1;
-                    sizing = _closure1_slot2;
+                    if(report) { _fun00006_ip = 242; continue _fun00005 }
+ 121:
+                    sizing = _closure1_slot1;
+                    output = _closure1_slot2;
                     report = 13;
-                    report = sizing[report];
-                    yankee = kiloes.bind(oscard)(report);
-                    offset = yankee.open;
+                    report = output[report];
+                    romeon = sizing.bind(oscard)(report);
+                    yankee = romeon.open;
                     report = {};
-                    backup = 'CLAIM_QUEST_REWARD_ERROR';
-                    report['key'] = backup;
-                    echoed = _closure1_slot0;
-                    backup = 14;
-                    output = sizing[backup];
-                    output = echoed.bind(oscard)(output);
-                    result = output.intl;
-                    output = result.string;
-                    backup = sizing[backup];
-                    backup = echoed.bind(oscard)(backup);
-                    backup = backup.t;
-                    backup = backup.HZlu09;
-                    backup = output.bind(result)(backup);
-                    report['content'] = backup;
-                    backup = 15;
-                    backup = sizing[backup];
-                    backup = kiloes.bind(oscard)(backup);
-                    report['icon'] = backup;
-                    report = offset.bind(yankee)(report);
+                    kiloes = 'CLAIM_QUEST_REWARD_ERROR';
+                    report['key'] = kiloes;
+                    update = _closure1_slot0;
+                    kiloes = 14;
+                    result = output[kiloes];
+                    result = update.bind(oscard)(result);
+                    echoed = result.intl;
+                    result = echoed.string;
+                    kiloes = output[kiloes];
+                    kiloes = update.bind(oscard)(kiloes);
+                    kiloes = kiloes.t;
+                    kiloes = kiloes.HZlu09;
+                    kiloes = result.bind(echoed)(kiloes);
+                    report['content'] = kiloes;
+                    kiloes = 15;
+                    kiloes = output[kiloes];
+                    kiloes = sizing.bind(oscard)(kiloes);
+                    report['icon'] = kiloes;
+                    report = yankee.bind(romeon)(report);
                     report = false;
                     return report;
- 236:
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
+ 242:
+                    yankee = _closure1_slot0;
+                    romeon = _closure1_slot2;
                     report = 7;
-                    report = yankee[report];
-                    yankee = offset.bind(oscard)(report);
-                    offset = yankee.hasQuestRewardCode;
-                    report = verify.config;
-                    report = offset.bind(yankee)(report);
-                    if(report) { _fun00006_ip = 336; continue _fun00005 }
- 275:
+                    report = romeon[report];
+                    romeon = yankee.bind(oscard)(report);
+                    yankee = romeon.hasQuestRewardCode;
+                    report = offset.config;
+                    report = yankee.bind(romeon)(report);
+                    if(report) { _fun00006_ip = 347; continue _fun00005 }
+ 281:
                     report = _closure1_slot9;
-                    report = report.bind(oscard)(verify);
-                    SaveGenerator(address=288);
- 286:
+                    report = report.bind(oscard)(offset);
+                    SaveGenerator(address=294);
+ 292:
                     return report;
- 288:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00006_ip = 333; continue _fun00005 }
  294:
-                    yankee = _closure1_slot8;
-                    offset = {};
-                    offset['quest'] = verify;
-                    offset['product'] = foxtra;
-                    offset['questContent'] = option;
-                    offset['questContentPosition'] = golfie;
-                    offset['onSuccess'] = romeon;
-                    offset = yankee.bind(oscard)(offset);
+                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=10);
+                    if(yankee) { _fun00006_ip = 344; continue _fun00005 }
+ 300:
+                    romeon = _closure1_slot8;
+                    yankee = {};
+                    yankee['quest'] = offset;
+                    yankee['product'] = backup;
+                    yankee['questContent'] = verify;
+                    yankee['questContentPosition'] = option;
+                    yankee['onSuccess'] = foxtra;
+                    yankee['sourceQuestContent'] = golfie;
+                    yankee = romeon.bind(oscard)(yankee);
                     return report;
- 333:
+ 344:
                     return report;
- 336:
+ 347:
                     report = _closure1_slot10;
                     tangon = {};
-                    verify = verify.id;
-                    tangon['questId'] = verify;
-                    tangon['questContent'] = option;
-                    tangon['questContentPosition'] = golfie;
+                    offset = offset.id;
+                    tangon['questId'] = offset;
+                    tangon['questContent'] = verify;
+                    tangon['questContentPosition'] = option;
+                    tangon['sourceQuestContent'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 370:
+ 386:
                     return michal;
- 373:
+ 389:
                     return entity;
                 }
             };

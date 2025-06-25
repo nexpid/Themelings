@@ -1,6 +1,7 @@
 // app/design/components/TableRow/native/TableRowGroup.native.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argBar;
+    romeon = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
@@ -64,20 +65,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report['container'] = offset;
     offset = {'borderRadius': null, 'overflow': 'hidden', 'flexGrow': 1, 'flexShrink': 0, 'padding': 0};
     yankee = 4;
-    romeon = golfie[yankee];
-    yankee = argBaz;
-    yankee = yankee.bind(entity)(romeon);
-    yankee = yankee.radii;
-    yankee = yankee.lg;
-    offset['borderRadius'] = yankee;
+    foxtra = golfie[yankee];
+    foxtra = romeon.bind(entity)(foxtra);
+    foxtra = foxtra.radii;
+    foxtra = foxtra.lg;
+    offset['borderRadius'] = foxtra;
     report['content'] = offset;
     offset = {};
-    yankee = 8;
-    offset['marginBottom'] = yankee;
+    foxtra = 8;
+    offset['marginBottom'] = foxtra;
     report['title'] = offset;
     offset = {};
-    offset['marginBottom'] = yankee;
+    offset['marginBottom'] = foxtra;
     report['description'] = offset;
+    offset = {};
+    foxtra = golfie[yankee];
+    foxtra = romeon.bind(entity)(foxtra);
+    foxtra = foxtra.radii;
+    foxtra = foxtra.none;
+    offset['borderBottomLeftRadius'] = foxtra;
+    yankee = golfie[yankee];
+    yankee = romeon.bind(entity)(yankee);
+    yankee = yankee.radii;
+    yankee = yankee.none;
+    offset['borderBottomRightRadius'] = yankee;
+    report['hasTrailingText'] = offset;
     report = option.bind(verify)(report);
     var _closure1_slot7 = report;
     report = 9;
@@ -93,19 +105,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = argFoo;
             report = zuuluu.children;
             echoed = zuuluu.title;
-            result = zuuluu.description;
+            update = zuuluu.description;
             michal = zuuluu.hasIcons;
-            backup = zuuluu.accessibilityRole;
+            result = zuuluu.hasTrailingText;
             tangon = undefined;
-            if(!(backup === tangon)) { _fun00002_ip = 41; continue _fun00001 }
- 37:
+            if(!(result === tangon)) { _fun00002_ip = 40; continue _fun00001 }
+ 38:
+            result = false;
+ 40:
+            backup = zuuluu.accessibilityRole;
+            if(!(backup === tangon)) { _fun00002_ip = 53; continue _fun00001 }
+ 49:
             backup = 'none';
- 41:
+ 53:
             foxtra = zuuluu.accessibilityLabel;
             var _closure2_slot0 = tangon;
             var _closure2_slot1 = tangon;
             zuuluu = _closure1_slot7;
-            kiloes = zuuluu.bind(tangon)();
+            output = zuuluu.bind(tangon)();
             _closure2_slot0 = michal;
             michal = false;
             _closure2_slot1 = michal;
@@ -197,41 +214,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot6;
             oscard = _closure1_slot3;
             report = {};
-            option = kiloes.container;
+            option = output.container;
             report['style'] = option;
-            offset = null;
-            yankee = offset != echoed;
-            if(!yankee) { _fun00002_ip = 193; continue _fun00001 }
- 173:
-            output = _closure1_slot4;
-            sizing = _closure1_slot8;
+            sizing = null;
+            offset = sizing != echoed;
+            if(!offset) { _fun00002_ip = 205; continue _fun00001 }
+ 185:
+            kiloes = _closure1_slot4;
+            yankee = _closure1_slot8;
             option = {};
             option['title'] = echoed;
-            yankee = output.bind(tangon)(sizing, option);
- 193:
+            offset = kiloes.bind(tangon)(yankee, option);
+ 205:
             option = new Array(3);
-            option[0] = yankee;
-            offset = offset != result;
-            if(!offset) { _fun00002_ip = 270; continue _fun00001 }
- 208:
-            output = _closure1_slot4;
-            sizing = _closure1_slot0;
-            echoed = _closure1_slot1;
+            option[0] = offset;
+            offset = sizing != update;
+            if(!offset) { _fun00002_ip = 282; continue _fun00001 }
+ 220:
+            echoed = _closure1_slot4;
+            kiloes = _closure1_slot0;
+            source = _closure1_slot1;
             yankee = 5;
-            yankee = echoed[yankee];
-            yankee = sizing.bind(tangon)(yankee);
-            sizing = yankee.Text;
+            yankee = source[yankee];
+            yankee = kiloes.bind(tangon)(yankee);
+            kiloes = yankee.Text;
             yankee = {'variant': 'text-sm/normal', 'color': 'text-secondary'};
-            echoed = kiloes.description;
-            yankee['style'] = echoed;
-            yankee['children'] = result;
-            offset = output.bind(tangon)(sizing, yankee);
- 270:
+            source = output.description;
+            yankee['style'] = source;
+            yankee['children'] = update;
+            offset = echoed.bind(tangon)(kiloes, yankee);
+ 282:
             option[1] = offset;
             yankee = _closure1_slot4;
             offset = _closure1_slot3;
             verify = {};
-            kiloes = kiloes.content;
+            echoed = output.content;
+            kiloes = new Array(2);
+            kiloes[0] = echoed;
+            sizing = null;
+            if(!result) { _fun00002_ip = 320; continue _fun00001 }
+ 314:
+            sizing = output.hasTrailingText;
+ 320:
+            kiloes[1] = sizing;
             verify['style'] = kiloes;
             verify['accessibilityRole'] = backup;
             verify['accessibilityLabel'] = foxtra;

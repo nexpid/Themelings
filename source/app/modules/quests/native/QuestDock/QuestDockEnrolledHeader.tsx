@@ -86,8 +86,18 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         entity = romeon[entity];
         zuuluu = verify.bind(tangon)(entity);
         michal = zuuluu.useQuestBarSubtitle;
-        entity = false;
-        yankee = michal.bind(zuuluu)(kiloes, entity, oscard);
+        entity = {};
+        entity['quest'] = kiloes;
+        offset = false;
+        entity['isExpanded'] = offset;
+        entity['activeScreen'] = oscard;
+        oscard = 7;
+        oscard = romeon[oscard];
+        oscard = verify.bind(tangon)(oscard);
+        oscard = oscard.QuestContent;
+        oscard = oscard.QUEST_BAR_MOBILE;
+        entity['sourceQuestContent'] = oscard;
+        yankee = michal.bind(zuuluu)(entity);
         zuuluu = _closure1_slot7;
         michal = _closure1_slot5;
         entity = {};
@@ -97,7 +107,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         report = {};
         oscard = golfie.progressIndicatorWrapper;
         report['style'] = oscard;
-        oscard = 7;
+        oscard = 8;
         oscard = romeon[oscard];
         option = option.bind(tangon)(oscard);
         oscard = {'quest': null, 'size': 'x-sm', 'progress': null, 'loading': false, 'hasConfetti': true};
@@ -112,7 +122,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         oscard = {};
         golfie = golfie.copy;
         oscard['style'] = golfie;
-        option = 8;
+        option = 9;
         golfie = romeon[option];
         golfie = verify.bind(tangon)(golfie);
         foxtra = golfie.Text;
@@ -136,7 +146,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
         return entity;
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 9;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

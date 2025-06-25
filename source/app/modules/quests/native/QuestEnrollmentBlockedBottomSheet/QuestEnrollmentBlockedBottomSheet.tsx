@@ -213,14 +213,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot0 = michal;
             michal = entity.questEnrollmentBlockedUntil;
             var _closure2_slot1 = michal;
-            golfie = entity.questContentPosition;
+            option = entity.questContentPosition;
+            golfie = entity.sourceQuestContent;
+            var _closure2_slot2 = golfie;
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
             entity = 6;
             entity = tangon[entity];
             report = undefined;
-            option = zuuluu.bind(report)(entity);
-            tangon = option.useStateFromStores;
+            verify = zuuluu.bind(report)(entity);
+            tangon = verify.useStateFromStores;
             entity = _closure1_slot4;
             zuuluu = new Array(1);
             zuuluu[0] = entity;
@@ -231,44 +233,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            option = tangon.bind(option)(zuuluu, entity);
+            verify = tangon.bind(verify)(zuuluu, entity);
             entity = null;
-            zuuluu = entity == option;
-            if(zuuluu) { _fun00004_ip = 190; continue _fun00003 }
- 95:
+            zuuluu = entity == verify;
+            if(zuuluu) { _fun00004_ip = 205; continue _fun00003 }
+ 105:
             tangon = _closure1_slot5;
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
             michal = 7;
-            michal = offset[michal];
-            michal = verify.bind(report)(michal);
+            michal = yankee[michal];
+            michal = offset.bind(report)(michal);
             zuuluu = michal.QuestContentImpressionTrackerNative;
             michal = {};
-            yankee = true;
-            michal['overrideVisibility'] = yankee;
-            michal['questOrQuests'] = option;
-            option = 8;
-            option = offset[option];
-            option = verify.bind(report)(option);
-            option = option.QuestContent;
-            option = option.QUEST_ENROLLMENT_BLOCKED_BOTTOM_SHEET;
-            michal['questContent'] = option;
-            michal['questContentPosition'] = golfie;
+            romeon = true;
+            michal['overrideVisibility'] = romeon;
+            michal['questOrQuests'] = verify;
+            verify = 8;
+            verify = yankee[verify];
+            verify = offset.bind(report)(verify);
+            verify = verify.QuestContent;
+            verify = verify.QUEST_ENROLLMENT_BLOCKED_BOTTOM_SHEET;
+            michal['questContent'] = verify;
+            michal['questContentPosition'] = option;
+            michal['sourceQuestContent'] = golfie;
             oscard = function() { // Original name: children
                 tangon = _closure1_slot5;
                 zuuluu = _closure1_slot7;
                 michal = {};
                 report = _closure2_slot0;
                 michal['questId'] = report;
-                entity = _closure2_slot1;
-                michal['questEnrollmentBlockedUntil'] = entity;
+                report = _closure2_slot1;
+                michal['questEnrollmentBlockedUntil'] = report;
+                entity = _closure2_slot2;
+                michal['sourceQuestContent'] = entity;
                 entity = undefined;
                 entity = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 190:
+ 205:
             return entity;
         }
     };

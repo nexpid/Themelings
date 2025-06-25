@@ -598,46 +598,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         option = 22;
                         golfie = false;
                         oscard = null;
-                        if(zuuluu) { _fun00020_ip = 215; continue _fun00019 }
+                        if(zuuluu) { _fun00020_ip = 244; continue _fun00019 }
  48:
                         zuuluu = tangon.value;
                         romeon = zuuluu.questId;
-                        sizing = zuuluu.questContentPosition;
-                        backup = zuuluu.messageId;
-                        kiloes = zuuluu.channelId;
+                        result = zuuluu.questContentPosition;
+                        sizing = zuuluu.messageId;
+                        output = zuuluu.channelId;
                         yankee = _closure1_slot20;
                         zuuluu = yankee.getQuest;
-                        foxtra = zuuluu.bind(yankee)(romeon);
-                        if(!(oscard != foxtra)) { _fun00020_ip = 197; continue _fun00019 }
- 94:
+                        kiloes = zuuluu.bind(yankee)(romeon);
+                        if(!(oscard != kiloes)) { _fun00020_ip = 226; continue _fun00019 }
+ 97:
                         romeon = _closure3_slot0;
                         yankee = romeon.ensureImpression;
                         zuuluu = {};
-                        zuuluu['quest'] = foxtra;
-                        result = _closure1_slot0;
-                        output = _closure1_slot2;
-                        output = output[option];
-                        output = result.bind(entity)(output);
-                        output = output.QuestContent;
-                        output = output.QUEST_EMBED_MOBILE;
-                        zuuluu['questContent'] = output;
+                        zuuluu['quest'] = kiloes;
+                        backup = _closure1_slot0;
+                        foxtra = _closure1_slot2;
+                        echoed = foxtra[option];
+                        echoed = backup.bind(entity)(echoed);
+                        echoed = echoed.QuestContent;
+                        echoed = echoed.QUEST_EMBED_MOBILE;
+                        zuuluu['questContent'] = echoed;
                         zuuluu['triggeredByStatusChange'] = golfie;
-                        zuuluu['questContentPosition'] = sizing;
-                        zuuluu['channelId'] = kiloes;
-                        zuuluu['messageId'] = backup;
-                        foxtra = foxtra.id;
-                        zuuluu['questId'] = foxtra;
-                        foxtra = _closure1_slot20;
-                        foxtra = foxtra.questEnrollmentBlockedUntil;
-                        foxtra = oscard != foxtra;
-                        zuuluu['isQuestEnrollmentBlocked'] = foxtra;
+                        zuuluu['questContentPosition'] = result;
+                        zuuluu['channelId'] = output;
+                        zuuluu['messageId'] = sizing;
+                        kiloes = kiloes.id;
+                        zuuluu['questId'] = kiloes;
+                        kiloes = _closure1_slot20;
+                        kiloes = kiloes.questEnrollmentBlockedUntil;
+                        kiloes = oscard != kiloes;
+                        zuuluu['isQuestEnrollmentBlocked'] = kiloes;
+                        foxtra = foxtra[option];
+                        foxtra = backup.bind(entity)(foxtra);
+                        foxtra = foxtra.QuestContent;
+                        foxtra = foxtra.QUEST_EMBED_MOBILE;
+                        zuuluu['sourceQuestContent'] = foxtra;
                         zuuluu = yankee.bind(romeon)(zuuluu);
- 197:
+ 226:
                         yankee = verify.bind(entity)();
                         zuuluu = yankee.done;
                         tangon = yankee;
                         if(!zuuluu) { _fun00020_ip = 48; continue _fun00019 }
- 215:
+ 244:
                         tangon = _closure3_slot0;
                         zuuluu = tangon.stopMany;
                         michal = {};

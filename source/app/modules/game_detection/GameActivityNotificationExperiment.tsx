@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 'modules/game_detection/GameActivityNotificationExperiment.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['default'] = tangon;
-    tangon = function(argFoo) { // Original name: filterPresences
+    tangon = function(argFoo) { // Original name: filterPresencesByGameActivity
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = argFoo;
@@ -129,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['filterPresences'] = tangon;
+    zuuluu['filterPresencesByGameActivity'] = tangon;
     tangon = function(argFoo) { // Original name: isEligibleForGameActivityNotificationExperiment
         tangon = _closure1_slot3;
         zuuluu = tangon.getCurrentConfig;

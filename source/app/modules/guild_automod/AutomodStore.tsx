@@ -295,14 +295,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)();
             zuuluu = zuuluu.rules;
             var _closure3_slot2 = zuuluu;
-            oscard = zuuluu[tangon];
-            var _closure3_slot3 = oscard;
+            report = zuuluu[tangon];
+            var _closure3_slot3 = report;
             zuuluu = global;
             tangon = zuuluu.Object;
             zuuluu = tangon.keys;
-            report = zuuluu.bind(tangon)(oscard);
-            tangon = report.reduce;
-            zuuluu = function(argFoo, argBar) {
+            oscard = zuuluu.bind(tangon)(report);
+            report = oscard.reduce;
+            tangon = function(argFoo, argBar) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = argFoo;
@@ -331,7 +331,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = tangon.bind(report)(zuuluu, oscard);
+            zuuluu = {};
+            zuuluu = report.bind(oscard)(tangon, zuuluu);
             var _closure3_slot4 = zuuluu;
             tangon = _closure1_slot0;
             report = _closure1_slot1;

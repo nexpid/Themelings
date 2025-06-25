@@ -142,6 +142,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['QUEST_ENROLLMENT_BLOCKED_MODAL'] = oscard;
     michal = 'QUEST_ENROLLMENT_BLOCKED_MODAL';
     tangon[oscard] = michal;
+    oscard = 33;
+    tangon['INTERNAL_PREVIEW_TOOL'] = oscard;
+    michal = 'INTERNAL_PREVIEW_TOOL';
+    tangon[oscard] = michal;
     michal = {};
     option = entity.Set;
     oscard = option.prototype;
