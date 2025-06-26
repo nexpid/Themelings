@@ -3888,16 +3888,6 @@
         "width": 70,
         "height": 47
     },
-    "hide_participants": {
-        "file": "modules/video_calls/native/images/hide_participants.png",
-        "hash": "15f823d87b71620ad27c7ed05af0115a",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 280,
-        "height": 132.5
-    },
     "history": {
         "file": "modules/stickers/native/images/history.png",
         "hash": "14e9f26f2a47abbd4dc478a8a748d9e9",
@@ -6158,26 +6148,6 @@
         "width": 24,
         "height": 24
     },
-    "ic_network_offline_24px": {
-        "file": "modules/connectivity/native/images/ic_network_offline_24px.png",
-        "hash": "6fd29bb691b35af3e9cf50d6ec36b1f5",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "ic_network_offline_light_24px": {
-        "file": "modules/connectivity/native/images/ic_network_offline_light_24px.png",
-        "hash": "4ea196e70a55865066bc0efed4aeb7cd",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "ic_nitro_basic_wheel_gradient": {
         "file": "images/native/icons/ic_nitro_basic_wheel_gradient.png",
         "hash": "15492a52206e63f9d08f70b19c6b74cb",
@@ -7031,17 +7001,6 @@
         ],
         "width": 10,
         "height": 10
-    },
-    "ic_start_streaming": {
-        "file": "images/native/icons/ic_start_streaming.png",
-        "hash": "7274ddeb01b723622e14a1dd0189d1cb",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 17,
-        "height": 16
     },
     "ic_sticker_24px": {
         "file": "images/native/icons/ic_sticker_24px.png",
@@ -14051,61 +14010,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "value-prop-camera": {
-        "file": "modules/nuf/native/components/value_props/images/value-prop-camera.png",
-        "hash": "875f3cd6dbb6bd346b4237806cb240e8",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 247,
-        "height": 240
-    },
-    "value-prop-chat": {
-        "file": "modules/nuf/native/components/value_props/images/value-prop-chat.png",
-        "hash": "f5ca783dbcd80a8c832dcfac091e31f1",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 247,
-        "height": 240
-    },
-    "value-prop-servers": {
-        "file": "modules/nuf/native/components/value_props/images/value-prop-servers.png",
-        "hash": "e90edd82271d21471097b847100caa40",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 247,
-        "height": 240
-    },
-    "value-prop-voice": {
-        "file": "modules/nuf/native/components/value_props/images/value-prop-voice.png",
-        "hash": "f34c347e744ccbdcb7ff48cd43f890d8",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 247,
-        "height": 240
-    },
-    "value-prop-welcome": {
-        "file": "modules/nuf/native/components/value_props/images/value-prop-welcome.png",
-        "hash": "da399e03c4e9e1e1c4d12bc6ac5735fd",
-        "scales": [
-            1,
-            2,
-            3
-        ],
-        "width": 247,
-        "height": 240
     },
     "verify-email": {
         "file": "modules/hub/native/images/verify-email.png",
