@@ -423,9 +423,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = golfie.bind(option)(zuuluu);
  82:
             verify = _closure1_slot0;
-            kiloes = _closure1_slot2;
+            backup = _closure1_slot2;
             output = 6;
-            golfie = kiloes[output];
+            golfie = backup[output];
             zuuluu = undefined;
             option = verify.bind(zuuluu)(golfie);
             golfie = option.getMessageAuthorWithProcessedColor;
@@ -433,12 +433,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.nick;
             result = option.colorString;
             echoed = option.colorStrings;
-            backup = option.guildId;
+            kiloes = option.guildId;
             option = 7;
-            option = kiloes[option];
-            verify = verify.bind(zuuluu)(option);
-            option = verify.isNativeMessageEligibleForEnhancedRoleColors;
-            backup = option.bind(verify)(backup, yankee);
+            option = backup[option];
+            backup = verify.bind(zuuluu)(option);
+            verify = backup.isNativeMessageEligibleForEnhancedRoleColors;
+            option = oscard.id;
+            backup = verify.bind(backup)(kiloes, option, yankee);
             verify = {};
             verify['username'] = golfie;
             option = {};
@@ -450,25 +451,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 'username';
             kiloes = golfie === yankee;
             golfie = null;
-            if(!kiloes) { _fun00014_ip = 210; continue _fun00013 }
- 207:
+            if(!kiloes) { _fun00014_ip = 216; continue _fun00013 }
+ 213:
             golfie = result;
- 210:
+ 216:
             option['linkColor'] = golfie;
             option['roleColor'] = result;
             golfie = null;
-            if(!backup) { _fun00014_ip = 228; continue _fun00013 }
- 225:
+            if(!backup) { _fun00014_ip = 234; continue _fun00013 }
+ 231:
             golfie = echoed;
- 228:
+ 234:
             option['roleColors'] = golfie;
             golfie = 'dot';
             golfie = golfie === yankee;
             yankee = golfie;
-            if(!golfie) { _fun00014_ip = 251; continue _fun00013 }
- 247:
+            if(!golfie) { _fun00014_ip = 257; continue _fun00013 }
+ 253:
             yankee = offset != result;
- 251:
+ 257:
             option['shouldShowRoleDot'] = yankee;
             yankee = entity.channel_id;
             option['messageChannelId'] = yankee;
@@ -476,8 +477,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['medium'] = yankee;
             verify['usernameOnClick'] = option;
             oscard = oscard.id;
-            if(!(oscard !== romeon)) { _fun00014_ip = 564; continue _fun00013 }
- 290:
+            if(!(oscard !== romeon)) { _fun00014_ip = 570; continue _fun00013 }
+ 296:
             option = _closure1_slot7;
             oscard = option.getUser;
             yankee = oscard.bind(option)(romeon);
@@ -491,9 +492,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = oscard.colorString;
             foxtra = oscard.colorStrings;
             yankee = {};
-            ctrled = yankee;
-            source = verify;
-            oscard = copyDataProperties(ctrled, source);
+            vacuum = yankee;
+            ctrled = verify;
+            oscard = copyDataProperties(vacuum, ctrled);
             oscard = 'otherUsername';
             yankee[oscard] = output;
             oscard = {};
@@ -501,22 +502,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['userId'] = romeon;
             oscard['otherColorString'] = option;
             romeon = null;
-            if(!kiloes) { _fun00014_ip = 396; continue _fun00013 }
- 393:
+            if(!kiloes) { _fun00014_ip = 402; continue _fun00013 }
+ 399:
             romeon = option;
- 396:
+ 402:
             oscard['linkColor'] = romeon;
             oscard['roleColor'] = option;
             romeon = null;
-            if(!backup) { _fun00014_ip = 414; continue _fun00013 }
- 411:
+            if(!backup) { _fun00014_ip = 420; continue _fun00013 }
+ 417:
             romeon = foxtra;
- 414:
+ 420:
             oscard['roleColors'] = romeon;
-            if(!golfie) { _fun00014_ip = 426; continue _fun00013 }
- 422:
+            if(!golfie) { _fun00014_ip = 432; continue _fun00013 }
+ 428:
             golfie = offset != option;
- 426:
+ 432:
             oscard['shouldShowRoleDot'] = golfie;
             entity = entity.channel_id;
             oscard['messageChannelId'] = entity;
@@ -533,26 +534,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = romeon[oscard];
             oscard = golfie.bind(zuuluu)(oscard);
             golfie = oscard.t;
-            if(report) { _fun00014_ip = 514; continue _fun00013 }
- 500:
+            if(report) { _fun00014_ip = 520; continue _fun00013 }
+ 506:
             oscard = golfie.QtZ0RE;
             oscard = option.bind(offset)(oscard, yankee);
-            _fun00014_ip = 526; continue _fun00013;
- 514:
+            _fun00014_ip = 532; continue _fun00013;
+ 520:
             golfie = golfie.KBrM5u;
             oscard = option.bind(offset)(golfie, yankee);
- 526:
+ 532:
             entity['content'] = oscard;
             golfie = _closure1_slot1;
             option = _closure1_slot2;
             oscard = 9;
             oscard = option[oscard];
             oscard = golfie.bind(zuuluu)(oscard);
-            source = oscard.bind(zuuluu)(tangon);
-            ctrled = entity;
-            oscard = copyDataProperties(ctrled, source);
+            ctrled = oscard.bind(zuuluu)(tangon);
+            vacuum = entity;
+            oscard = copyDataProperties(vacuum, ctrled);
             return entity;
- 564:
+ 570:
             entity = {};
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -564,24 +565,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = yankee[oscard];
             oscard = offset.bind(zuuluu)(oscard);
             oscard = oscard.t;
-            if(report) { _fun00014_ip = 628; continue _fun00013 }
- 614:
+            if(report) { _fun00014_ip = 634; continue _fun00013 }
+ 620:
             report = oscard.Qn5+LS;
             report = golfie.bind(option)(report, verify);
-            _fun00014_ip = 640; continue _fun00013;
- 628:
+            _fun00014_ip = 646; continue _fun00013;
+ 634:
             oscard = oscard.uHmblp;
             report = golfie.bind(option)(oscard, verify);
- 640:
+ 646:
             entity['content'] = report;
             report = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 9;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            source = michal.bind(zuuluu)(tangon);
-            ctrled = entity;
-            michal = copyDataProperties(ctrled, source);
+            ctrled = michal.bind(zuuluu)(tangon);
+            vacuum = entity;
+            michal = copyDataProperties(vacuum, ctrled);
             return entity;
         }
     };

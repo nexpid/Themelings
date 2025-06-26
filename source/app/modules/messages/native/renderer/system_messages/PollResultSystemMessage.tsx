@@ -53,30 +53,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity[tangon];
             golfie = michal.bind(report)(entity);
             entity = null;
-            if(!(entity != golfie)) { _fun00002_ip = 1104; continue _fun00001 }
+            if(!(entity != golfie)) { _fun00002_ip = 1116; continue _fun00001 }
  59:
             michal = oscard.message;
             michal = michal.messageReference;
-            if(!(entity != michal)) { _fun00002_ip = 1102; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 1114; continue _fun00001 }
  77:
             verify = oscard.message;
             romeon = oscard.roleStyle;
             offset = _closure1_slot0;
-            kiloes = _closure1_slot2;
+            backup = _closure1_slot2;
             michal = 1;
-            michal = kiloes[michal];
+            michal = backup[michal];
             option = offset.bind(report)(michal);
             michal = option.getMessageAuthorWithProcessedColor;
             option = michal.bind(option)(verify);
             michal = option.nick;
             yankee = option.colorString;
             foxtra = option.colorStrings;
-            backup = option.guildId;
+            kiloes = option.guildId;
             option = 2;
-            option = kiloes[option];
-            offset = offset.bind(report)(option);
-            option = offset.isNativeMessageEligibleForEnhancedRoleColors;
-            backup = option.bind(offset)(backup, romeon);
+            option = backup[option];
+            backup = offset.bind(report)(option);
+            offset = backup.isNativeMessageEligibleForEnhancedRoleColors;
+            option = verify.author;
+            option = option.id;
+            backup = offset.bind(backup)(kiloes, option, romeon);
             offset = {};
             offset['username'] = michal;
             michal = {};
@@ -88,24 +90,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['colorString'] = yankee;
             kiloes = 'username';
             option = null;
-            if(!(kiloes === romeon)) { _fun00002_ip = 217; continue _fun00001 }
- 214:
+            if(!(kiloes === romeon)) { _fun00002_ip = 229; continue _fun00001 }
+ 226:
             option = yankee;
- 217:
+ 229:
             michal['linkColor'] = option;
             michal['roleColor'] = yankee;
             option = null;
-            if(!backup) { _fun00002_ip = 235; continue _fun00001 }
- 232:
+            if(!backup) { _fun00002_ip = 247; continue _fun00001 }
+ 244:
             option = foxtra;
- 235:
+ 247:
             michal['roleColors'] = option;
             option = 'dot';
             option = option === romeon;
-            if(!option) { _fun00002_ip = 255; continue _fun00001 }
- 251:
+            if(!option) { _fun00002_ip = 267; continue _fun00001 }
+ 263:
             option = entity != yankee;
- 255:
+ 267:
             michal['shouldShowRoleDot'] = option;
             option = verify.channel_id;
             michal['messageChannelId'] = option;
@@ -126,8 +128,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['medium'] = option;
             offset['titleOnClick'] = michal;
             michal = golfie.totalVotes;
-            if(!(tangon !== michal)) { _fun00002_ip = 952; continue _fun00001 }
- 362:
+            if(!(tangon !== michal)) { _fun00002_ip = 964; continue _fun00001 }
+ 374:
             michal = global;
             verify = michal.Math;
             option = verify.round;
@@ -143,15 +145,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = '%';
             romeon = option.bind(tangon)(verify, michal);
             michal = golfie.victorAnswerId;
-            if(!(entity != michal)) { _fun00002_ip = 870; continue _fun00001 }
- 441:
+            if(!(entity != michal)) { _fun00002_ip = 882; continue _fun00001 }
+ 453:
             foxtra = new Array(0);
             kiloes = golfie.victorEmoji;
-            if(!(entity != kiloes)) { _fun00002_ip = 721; continue _fun00001 }
- 458:
+            if(!(entity != kiloes)) { _fun00002_ip = 733; continue _fun00001 }
+ 470:
             michal = kiloes.id;
-            if(!(entity == michal)) { _fun00002_ip = 545; continue _fun00001 }
- 467:
+            if(!(entity == michal)) { _fun00002_ip = 557; continue _fun00001 }
+ 479:
             tangon = foxtra.push;
             michal = {};
             option = 'emoji';
@@ -169,8 +171,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = kiloes.name;
             michal['surrogate'] = option;
             michal = tangon.bind(foxtra)(michal);
-            _fun00002_ip = 697; continue _fun00001;
- 545:
+            _fun00002_ip = 709; continue _fun00001;
+ 557:
             tangon = foxtra.push;
             michal = {};
             option = kiloes.id;
@@ -206,11 +208,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.bind(yankee)(option);
             michal['frozenSrc'] = option;
             michal = tangon.bind(foxtra)(michal);
- 697:
+ 709:
             tangon = foxtra.push;
             michal = {'type': 'text', 'content': ' '};
             michal = tangon.bind(foxtra)(michal);
- 721:
+ 733:
             tangon = foxtra.push;
             michal = {};
             option = 'text';
@@ -230,9 +232,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.t;
             tangon = michal.zFwIxM;
             michal = {};
-            source = michal;
-            update = offset;
-            verify = copyDataProperties(source, update);
+            ctrled = michal;
+            source = offset;
+            verify = copyDataProperties(ctrled, source);
             yankee = _closure1_slot4;
             verify = {};
             backup = 'strong';
@@ -244,8 +246,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = 'percentage';
             michal[verify] = romeon;
             tangon = golfie.bind(option)(tangon, michal);
-            _fun00002_ip = 1057; continue _fun00001;
- 870:
+            _fun00002_ip = 1069; continue _fun00001;
+ 882:
             golfie = _closure1_slot0;
             yankee = _closure1_slot2;
             michal = 3;
@@ -258,14 +260,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.t;
             golfie = michal.dqftZ2;
             michal = {};
-            source = michal;
-            update = offset;
-            yankee = copyDataProperties(source, update);
+            ctrled = michal;
+            source = offset;
+            yankee = copyDataProperties(ctrled, source);
             yankee = 'percentage';
             michal[yankee] = romeon;
             tangon = option.bind(verify)(golfie, michal);
-            _fun00002_ip = 1057; continue _fun00001;
- 952:
+            _fun00002_ip = 1069; continue _fun00001;
+ 964:
             golfie = _closure1_slot0;
             yankee = _closure1_slot2;
             michal = 3;
@@ -278,31 +280,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.t;
             golfie = michal.9dPxsr;
             michal = {};
-            source = michal;
-            update = offset;
-            offset = copyDataProperties(source, update);
+            ctrled = michal;
+            source = offset;
+            offset = copyDataProperties(ctrled, source);
             yankee = _closure1_slot4;
             offset = {'type': 'emoji', 'content': 'frowning', 'surrogate': '😦'};
             yankee = yankee.bind(report)(offset);
             offset = 'sadEmojiHook';
             michal[offset] = yankee;
             tangon = option.bind(verify)(golfie, michal);
- 1057:
+ 1069:
             michal = {};
             golfie = _closure1_slot1;
             option = _closure1_slot2;
             zuuluu = 7;
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(report)(zuuluu);
-            update = zuuluu.bind(report)(oscard);
-            source = michal;
-            zuuluu = copyDataProperties(source, update);
+            source = zuuluu.bind(report)(oscard);
+            ctrled = michal;
+            zuuluu = copyDataProperties(ctrled, source);
             zuuluu = 'content';
             michal[zuuluu] = tangon;
             return michal;
- 1102:
+ 1114:
             return entity;
- 1104:
+ 1116:
             return entity;
         }
     };

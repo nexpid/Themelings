@@ -19,29 +19,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             kiloes = zuuluu.bind(tangon)();
             report = _closure1_slot0;
-            golfie = _closure1_slot2;
+            oscard = _closure1_slot2;
             zuuluu = 41;
-            oscard = golfie[zuuluu];
-            yankee = report.bind(tangon)(oscard);
+            golfie = oscard[zuuluu];
+            yankee = report.bind(tangon)(golfie);
             verify = yankee.useStateFromStores;
-            oscard = _closure1_slot24;
+            golfie = _closure1_slot24;
             option = new Array(1);
-            option[0] = oscard;
-            oscard = function() {
+            option[0] = golfie;
+            golfie = function() {
                 zuuluu = _closure1_slot24;
                 michal = zuuluu.getUser;
                 entity = _closure2_slot0;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            option = verify.bind(yankee)(option, oscard);
-            oscard = golfie[zuuluu];
-            romeon = report.bind(tangon)(oscard);
-            yankee = romeon.useStateFromStores;
-            oscard = _closure1_slot19;
-            verify = new Array(1);
-            verify[0] = oscard;
-            oscard = function() {
+            yankee = verify.bind(yankee)(option, golfie);
+            golfie = oscard[zuuluu];
+            romeon = report.bind(tangon)(golfie);
+            verify = romeon.useStateFromStores;
+            golfie = _closure1_slot19;
+            option = new Array(1);
+            option[0] = golfie;
+            golfie = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     zuuluu = _closure2_slot0;
@@ -58,86 +58,97 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            oscard = yankee.bind(romeon)(verify, oscard);
-            zuuluu = golfie[zuuluu];
-            golfie = report.bind(tangon)(zuuluu);
-            report = golfie.useStateFromStores;
-            verify = _closure1_slot9;
+            golfie = verify.bind(romeon)(option, golfie);
+            zuuluu = oscard[zuuluu];
+            oscard = report.bind(tangon)(zuuluu);
+            report = oscard.useStateFromStores;
+            option = _closure1_slot9;
             zuuluu = new Array(1);
-            zuuluu[0] = verify;
+            zuuluu[0] = option;
             michal = function() {
                 entity = _closure1_slot9;
                 entity = entity.roleStyle;
                 return entity;
             };
-            romeon = report.bind(golfie)(zuuluu, michal);
+            romeon = report.bind(oscard)(zuuluu, michal);
             michal = null;
-            report = michal == oscard;
+            report = michal == golfie;
             zuuluu = undefined;
             if(report) { _fun00002_ip = 181; continue _fun00001 }
  175:
-            zuuluu = oscard.nick;
+            zuuluu = golfie.nick;
  181:
             if(!(michal == zuuluu)) { _fun00002_ip = 216; continue _fun00001 }
  185:
-            golfie = _closure1_slot1;
-            verify = _closure1_slot2;
+            oscard = _closure1_slot1;
+            option = _closure1_slot2;
             report = 42;
-            report = verify[report];
-            golfie = golfie.bind(tangon)(report);
-            report = golfie.getName;
-            zuuluu = report.bind(golfie)(option);
+            report = option[report];
+            oscard = oscard.bind(tangon)(report);
+            report = oscard.getName;
+            zuuluu = report.bind(oscard)(yankee);
  216:
-            golfie = michal != zuuluu;
+            oscard = michal != zuuluu;
             report = '???';
-            if(!golfie) { _fun00002_ip = 232; continue _fun00001 }
+            if(!oscard) { _fun00002_ip = 232; continue _fun00001 }
  229:
             report = zuuluu;
  232:
-            zuuluu = michal == oscard;
-            golfie = undefined;
+            zuuluu = michal == golfie;
+            oscard = undefined;
             if(zuuluu) { _fun00002_ip = 247; continue _fun00001 }
  241:
-            golfie = oscard.colorString;
+            oscard = golfie.colorString;
  247:
-            option = michal != golfie;
+            option = michal != oscard;
             zuuluu = undefined;
             if(!option) { _fun00002_ip = 259; continue _fun00001 }
  256:
-            zuuluu = golfie;
+            zuuluu = oscard;
  259:
-            option = michal == oscard;
-            golfie = undefined;
+            option = michal == golfie;
+            oscard = undefined;
             if(option) { _fun00002_ip = 274; continue _fun00001 }
  268:
-            golfie = oscard.colorStrings;
+            oscard = golfie.colorStrings;
  274:
             verify = _closure1_slot0;
-            yankee = _closure1_slot2;
-            oscard = 43;
-            option = yankee[oscard];
-            foxtra = verify.bind(tangon)(option);
-            option = foxtra.useProcessColorStringsArray;
-            option = option.bind(foxtra)(golfie);
-            oscard = yankee[oscard];
-            verify = verify.bind(tangon)(oscard);
-            oscard = verify.useIsRoleStyleAndRoleColorsEligibleForERC;
-            verify = oscard.bind(verify)(offset, romeon, option);
+            foxtra = _closure1_slot2;
+            golfie = 43;
+            option = foxtra[golfie];
+            backup = verify.bind(tangon)(option);
+            option = backup.useProcessColorStringsArray;
+            option = option.bind(backup)(oscard);
+            golfie = foxtra[golfie];
+            verify = verify.bind(tangon)(golfie);
+            golfie = verify.useIsRoleStyleAndRoleColorsEligibleForERC;
+            foxtra = michal == yankee;
+            sizing = oscard;
+            oscard = undefined;
+            if(foxtra) { _fun00002_ip = 337; continue _fun00001 }
+ 332:
+            oscard = yankee.id;
+ 337:
+            ctrled = verify;
+            source = offset;
+            update = oscard;
+            echoed = romeon;
+            result = option;
+            verify = ctrled[golfie](source, update, echoed, result, output);
             oscard = 'username';
-            sizing = golfie;
-            if(!(oscard !== romeon)) { _fun00002_ip = 503; continue _fun00001 }
- 341:
+            if(!(oscard !== romeon)) { _fun00002_ip = 529; continue _fun00001 }
+ 367:
             offset = _closure1_slot43;
             golfie = _closure1_slot42;
             oscard = {};
             yankee = 'dot';
             romeon = yankee === romeon;
-            if(!romeon) { _fun00002_ip = 366; continue _fun00001 }
- 362:
+            if(!romeon) { _fun00002_ip = 392; continue _fun00001 }
+ 388:
             romeon = michal != zuuluu;
- 366:
-            if(!romeon) { _fun00002_ip = 426; continue _fun00001 }
- 369:
+ 392:
+            if(!romeon) { _fun00002_ip = 452; continue _fun00001 }
+ 395:
             backup = _closure1_slot41;
             foxtra = _closure1_slot0;
             output = _closure1_slot2;
@@ -151,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.threadCreatorRoleDot;
             yankee['containerStyles'] = kiloes;
             romeon = backup.bind(tangon)(foxtra, yankee);
- 426:
+ 452:
             yankee = new Array(2);
             yankee[0] = romeon;
             backup = _closure1_slot41;
@@ -168,15 +179,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['children'] = yankee;
             oscard = offset.bind(tangon)(golfie, oscard);
             return oscard;
- 503:
+ 529:
             michal = michal != zuuluu;
             oscard = undefined;
-            if(!michal) { _fun00002_ip = 521; continue _fun00001 }
- 512:
+            if(!michal) { _fun00002_ip = 547; continue _fun00001 }
+ 538:
             michal = {};
             michal['color'] = zuuluu;
             oscard = michal;
- 521:
+ 547:
             zuuluu = _closure1_slot41;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -193,10 +204,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = !golfie;
             entity['experimental_useNativeText'] = golfie;
             golfie = undefined;
-            if(!verify) { _fun00002_ip = 590; continue _fun00001 }
- 587:
+            if(!verify) { _fun00002_ip = 616; continue _fun00001 }
+ 613:
             golfie = option;
- 590:
+ 616:
             entity['gradientColors'] = golfie;
             entity['style'] = oscard;
             oscard = 'text-md/semibold';

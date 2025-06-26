@@ -129,6 +129,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  240:
             michal['feature_tier'] = foxtra;
             michal['guild_id'] = romeon;
+            romeon = oscard.guildId;
+            michal['home_guild_id'] = romeon;
             romeon = argFoo;
             michal['location_stack'] = romeon;
             michal['rtc_connection_id'] = yankee;
@@ -137,15 +139,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['in_overlay'] = offset;
             michal['application_name'] = option;
             option = oscard.emojiId;
-            if(!(verify == option)) { _fun00002_ip = 307; continue _fun00001 }
- 292:
+            if(!(verify == option)) { _fun00002_ip = 319; continue _fun00001 }
+ 304:
             option = oscard.emojiName;
             verify = verify != option;
             option = 0;
-            if(!verify) { _fun00002_ip = 310; continue _fun00001 }
- 307:
+            if(!verify) { _fun00002_ip = 322; continue _fun00001 }
+ 319:
             option = 1;
- 310:
+ 322:
             michal['emoji_count'] = option;
             michal['feature_selection'] = golfie;
             oscard = oscard.soundId;

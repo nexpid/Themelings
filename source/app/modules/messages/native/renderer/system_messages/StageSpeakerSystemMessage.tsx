@@ -153,12 +153,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = entity.nick;
             kiloes = entity.colorString;
             romeon = entity.colorStrings;
-            golfie = entity.guildId;
+            option = entity.guildId;
             entity = 4;
             entity = backup[entity];
-            report = oscard.bind(zuuluu)(entity);
-            entity = report.isNativeMessageEligibleForEnhancedRoleColors;
-            foxtra = entity.bind(report)(golfie, output);
+            golfie = oscard.bind(zuuluu)(entity);
+            report = golfie.isNativeMessageEligibleForEnhancedRoleColors;
+            entity = yankee.id;
+            foxtra = report.bind(golfie)(option, entity, output);
             entity = {};
             report = 5;
             golfie = backup[report];
@@ -178,16 +179,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['userId'] = yankee;
             sizing = 'username';
             backup = null;
-            if(!(sizing === output)) { _fun00004_ip = 188; continue _fun00003 }
- 185:
+            if(!(sizing === output)) { _fun00004_ip = 194; continue _fun00003 }
+ 191:
             backup = kiloes;
- 188:
+ 194:
             verify['linkColor'] = backup;
             yankee = null;
-            if(!foxtra) { _fun00004_ip = 201; continue _fun00003 }
- 198:
+            if(!foxtra) { _fun00004_ip = 207; continue _fun00003 }
+ 204:
             yankee = romeon;
- 201:
+ 207:
             verify['roleColors'] = yankee;
             offset = offset.channel_id;
             verify['messageChannelId'] = offset;
@@ -201,9 +202,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 6;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            result = michal.bind(zuuluu)(tangon);
-            echoed = entity;
-            michal = copyDataProperties(echoed, result);
+            echoed = michal.bind(zuuluu)(tangon);
+            update = entity;
+            michal = copyDataProperties(update, echoed);
             return entity;
         }
     };

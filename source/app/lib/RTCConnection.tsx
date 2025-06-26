@@ -1344,7 +1344,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['get'] = entity;
-            entity = new Array(99);
+            entity = new Array(100);
             entity[0] = report;
             report = {};
             golfie = 'endpoint';
@@ -2370,6 +2370,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report['value'] = golfie;
             entity[27] = report;
             report = {};
+            golfie = 'getRemoteVideoSinkWants';
+            report['key'] = golfie;
+            golfie = function() { // Original name: value
+                entity = this;
+                entity = entity._remoteVideoSinkWants;
+                return entity;
+            };
+            report['value'] = golfie;
+            entity[28] = report;
+            report = {};
             golfie = 'pauseStatsCollectionForUser';
             report['key'] = golfie;
             golfie = function(argFoo, argBar) { // Original name: value
@@ -2403,7 +2413,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[28] = report;
+            entity[29] = report;
             report = {};
             golfie = 'getOutboundStats';
             report['key'] = golfie;
@@ -2424,7 +2434,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[29] = report;
+            entity[30] = report;
             report = {};
             golfie = 'getInboundStats';
             report['key'] = golfie;
@@ -2446,7 +2456,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[30] = report;
+            entity[31] = report;
             report = {};
             golfie = 'setState';
             report['key'] = golfie;
@@ -2500,7 +2510,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[31] = report;
+            entity[32] = report;
             report = {};
             golfie = 'expeditedHeartbeat';
             report['key'] = golfie;
@@ -2538,7 +2548,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[32] = report;
+            entity[33] = report;
             report = {};
             golfie = 'resetBackoff';
             report['key'] = golfie;
@@ -2570,7 +2580,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[33] = report;
+            entity[34] = report;
             report = {};
             golfie = 'setSelectedParticipant';
             report['key'] = golfie;
@@ -2591,7 +2601,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[34] = report;
+            entity[35] = report;
             report = {};
             golfie = 'setPipOpen';
             report['key'] = golfie;
@@ -2612,7 +2622,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[35] = report;
+            entity[36] = report;
             report = {};
             golfie = 'setClipRecordUser';
             report['key'] = golfie;
@@ -2641,7 +2651,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[36] = report;
+            entity[37] = report;
             report = {};
             golfie = 'setNoiseCancellationEnabled';
             report['key'] = golfie;
@@ -2665,7 +2675,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[37] = report;
+            entity[38] = report;
             report = {};
             golfie = 'setSimulcastDebugOverride';
             report['key'] = golfie;
@@ -2703,7 +2713,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[38] = report;
+            entity[39] = report;
             report = {};
             golfie = 'setVideoSize';
             report['key'] = golfie;
@@ -2733,7 +2743,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[39] = report;
+            entity[40] = report;
             report = {};
             golfie = 'channelId';
             report['key'] = golfie;
@@ -2780,7 +2790,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['set'] = golfie;
-            entity[40] = report;
+            entity[41] = report;
             report = {};
             golfie = 'trueChannelId';
             report['key'] = golfie;
@@ -2812,7 +2822,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['get'] = golfie;
-            entity[41] = report;
+            entity[42] = report;
             report = {};
             golfie = '_cleanupSocket';
             report['key'] = golfie;
@@ -2835,7 +2845,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[42] = report;
+            entity[43] = report;
             report = {};
             golfie = '_chooseExperiments';
             report['key'] = golfie;
@@ -2981,7 +2991,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[43] = report;
+            entity[44] = report;
             report = {};
             golfie = '_handleConnecting';
             report['key'] = golfie;
@@ -3030,7 +3040,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[44] = report;
+            entity[45] = report;
             report = {};
             golfie = '_handleConnect';
             report['key'] = golfie;
@@ -3097,7 +3107,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[45] = report;
+            entity[46] = report;
             report = {};
             golfie = '_handleDisconnect';
             report['key'] = golfie;
@@ -4119,7 +4129,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[46] = report;
+            entity[47] = report;
             report = {};
             golfie = '_handleResuming';
             report['key'] = golfie;
@@ -4145,7 +4155,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[47] = report;
+            entity[48] = report;
             report = {};
             golfie = '_handleReady';
             report['key'] = golfie;
@@ -5274,7 +5284,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[48] = report;
+            entity[49] = report;
             report = {};
             golfie = '_handleSpeaking';
             report['key'] = golfie;
@@ -5327,7 +5337,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[49] = report;
+            entity[50] = report;
             report = {};
             golfie = 'handleFlags';
             report['key'] = golfie;
@@ -5348,7 +5358,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[50] = report;
+            entity[51] = report;
             report = {};
             golfie = 'handlePlatform';
             report['key'] = golfie;
@@ -5371,7 +5381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[51] = report;
+            entity[52] = report;
             report = {};
             golfie = 'getOrCreateVideoQuality';
             report['key'] = golfie;
@@ -5486,7 +5496,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[52] = report;
+            entity[53] = report;
             report = {};
             golfie = '_handleVideoStreamId';
             report['key'] = golfie;
@@ -5645,7 +5655,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[53] = report;
+            entity[54] = report;
             report = {};
             golfie = '_handleLocalVideoDisabled';
             report['key'] = golfie;
@@ -5678,7 +5688,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[54] = report;
+            entity[55] = report;
             report = {};
             golfie = '_handleRemoteStreamsReady';
             report['key'] = golfie;
@@ -5715,7 +5725,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[55] = report;
+            entity[56] = report;
             report = {};
             golfie = '_handleVideo';
             report['key'] = golfie;
@@ -5885,7 +5895,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[56] = report;
+            entity[57] = report;
             report = {};
             golfie = '_handleControlPing';
             report['key'] = golfie;
@@ -5909,7 +5919,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[57] = report;
+            entity[58] = report;
             report = {};
             golfie = '_handlePing';
             report['key'] = golfie;
@@ -5966,7 +5976,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[58] = report;
+            entity[59] = report;
             report = {};
             golfie = '_handlePingTimeout';
             report['key'] = golfie;
@@ -6019,7 +6029,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[59] = report;
+            entity[60] = report;
             report = {};
             golfie = '_handleOutboundLossRate';
             report['key'] = golfie;
@@ -6040,7 +6050,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[60] = report;
+            entity[61] = report;
             report = {};
             golfie = '_handleSoundshareTrace';
             report['key'] = golfie;
@@ -6054,7 +6064,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[61] = report;
+            entity[62] = report;
             report = {};
             golfie = '_getAnalyticsProperties';
             report['key'] = golfie;
@@ -6092,7 +6102,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[62] = report;
+            entity[63] = report;
             report = {};
             golfie = '_handleClientConnect';
             report['key'] = golfie;
@@ -6161,7 +6171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[63] = report;
+            entity[64] = report;
             report = {};
             golfie = '_handleClientDisconnect';
             report['key'] = golfie;
@@ -6330,7 +6340,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[64] = report;
+            entity[65] = report;
             report = {};
             golfie = '_handleCodecs';
             report['key'] = golfie;
@@ -6379,7 +6389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[65] = report;
+            entity[66] = report;
             report = {};
             golfie = '_handleSDP';
             report['key'] = golfie;
@@ -6410,7 +6420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[66] = report;
+            entity[67] = report;
             report = {};
             golfie = '_handleMediaSessionId';
             report['key'] = golfie;
@@ -6474,40 +6484,53 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[67] = report;
+            entity[68] = report;
             report = {};
             golfie = '_handleMediaSinkWants';
             report['key'] = golfie;
             golfie = function(argFoo) { // Original name: value
                 _fun00165: for(var _fun00166_ip = 0; ; ) switch(_fun00166_ip) {
  0:
-                    zuuluu = argFoo;
-                    entity = this;
-                    michal = entity._connection;
-                    oscard = entity.logger;
-                    report = oscard.info;
-                    tangon = global;
-                    option = tangon.JSON;
-                    golfie = option.stringify;
-                    option = golfie.bind(option)(zuuluu);
-                    tangon = tangon.HermesInternal;
-                    golfie = tangon.concat;
-                    tangon = 'Remote media sink wants: ';
-                    tangon = golfie.bind(tangon)(option);
-                    tangon = report.bind(oscard)(tangon);
-                    entity['_remoteVideoSinkWants'] = zuuluu;
-                    entity = null;
-                    if(!(entity != michal)) { _fun00166_ip = 92; continue _fun00165 }
- 81:
-                    entity = michal.setRemoteVideoSinkWants;
-                    entity = entity.bind(michal)(zuuluu);
- 92:
+                    tangon = argFoo;
+                    golfie = this;
+                    zuuluu = golfie._connection;
+                    report = golfie.logger;
+                    michal = report.info;
+                    entity = global;
+                    option = entity.JSON;
+                    oscard = option.stringify;
+                    option = oscard.bind(option)(tangon);
+                    entity = entity.HermesInternal;
+                    oscard = entity.concat;
+                    entity = 'Remote media sink wants: ';
+                    entity = oscard.bind(entity)(option);
+                    entity = michal.bind(report)(entity);
+                    golfie['_remoteVideoSinkWants'] = tangon;
+                    report = _closure1_slot1;
+                    michal = _closure1_slot3;
+                    entity = 34;
+                    michal = michal[entity];
                     entity = undefined;
+                    oscard = report.bind(entity)(michal);
+                    report = oscard.dispatch;
+                    michal = {};
+                    option = 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS';
+                    michal['type'] = option;
+                    golfie = golfie.context;
+                    michal['context'] = golfie;
+                    michal['wants'] = tangon;
+                    michal = report.bind(oscard)(michal);
+                    michal = null;
+                    if(!(michal != zuuluu)) { _fun00166_ip = 151; continue _fun00165 }
+ 140:
+                    michal = zuuluu.setRemoteVideoSinkWants;
+                    michal = michal.bind(zuuluu)(tangon);
+ 151:
                     return entity;
                 }
             };
             report['value'] = golfie;
-            entity[68] = report;
+            entity[69] = report;
             report = {};
             golfie = '_handleCodeVersion';
             report['key'] = golfie;
@@ -6521,7 +6544,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[69] = report;
+            entity[70] = report;
             report = {};
             golfie = '_handleKeyframeInterval';
             report['key'] = golfie;
@@ -6552,7 +6575,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[70] = report;
+            entity[71] = report;
             report = {};
             golfie = '_handleBandwidthEstimationExperiment';
             report['key'] = golfie;
@@ -6590,7 +6613,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[71] = report;
+            entity[72] = report;
             report = {};
             golfie = '_trackSecureFrameTransition';
             report['key'] = golfie;
@@ -6771,7 +6794,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[72] = report;
+            entity[73] = report;
             report = {};
             golfie = '_trackRemainingSecureFrameTransitions';
             report['key'] = golfie;
@@ -6796,7 +6819,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[73] = report;
+            entity[74] = report;
             report = {};
             golfie = '_storeSecureFrameNextTransitionData';
             report['key'] = golfie;
@@ -6832,7 +6855,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[74] = report;
+            entity[75] = report;
             report = {};
             golfie = '_storeSecureFrameTransitionData';
             report['key'] = golfie;
@@ -6876,7 +6899,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[75] = report;
+            entity[76] = report;
             report = {};
             golfie = '_handleSecureFramesInit';
             report['key'] = golfie;
@@ -6996,7 +7019,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[76] = report;
+            entity[77] = report;
             report = {};
             golfie = '_handleSecureFramesRosterChange';
             report['key'] = golfie;
@@ -7081,7 +7104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[77] = report;
+            entity[78] = report;
             report = {};
             golfie = '_handleSecureFramesPrepareTransition';
             report['key'] = golfie;
@@ -7149,7 +7172,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[78] = report;
+            entity[79] = report;
             report = {};
             golfie = '_handleSecureFramesPrepareEpoch';
             report['key'] = golfie;
@@ -7189,7 +7212,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[79] = report;
+            entity[80] = report;
             report = {};
             golfie = '_sendMLSKeyPackage';
             report['key'] = golfie;
@@ -7230,7 +7253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[80] = report;
+            entity[81] = report;
             report = {};
             golfie = '_maybeSendSecureFramesTransitionReady';
             report['key'] = golfie;
@@ -7275,7 +7298,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[81] = report;
+            entity[82] = report;
             report = {};
             golfie = '_handleSecureFramesExecuteTransition';
             report['key'] = golfie;
@@ -7350,7 +7373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[82] = report;
+            entity[83] = report;
             report = {};
             golfie = '_handleMLSExternalSenderPackage';
             report['key'] = golfie;
@@ -7375,7 +7398,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[83] = report;
+            entity[84] = report;
             report = {};
             golfie = '_handleMLSProposals';
             report['key'] = golfie;
@@ -7471,7 +7494,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[84] = report;
+            entity[85] = report;
             report = {};
             golfie = '_handleMLSPrepareCommitTransition';
             report['key'] = golfie;
@@ -7569,7 +7592,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[85] = report;
+            entity[86] = report;
             report = {};
             golfie = '_handleMLSWelcome';
             report['key'] = golfie;
@@ -7659,7 +7682,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[86] = report;
+            entity[87] = report;
             report = {};
             golfie = 'getMLSPairwiseFingerprint';
             report['key'] = golfie;
@@ -7682,7 +7705,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[87] = report;
+            entity[88] = report;
             report = {};
             golfie = '_flagMLSInvalidCommitWelcome';
             report['key'] = golfie;
@@ -7711,7 +7734,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[88] = report;
+            entity[89] = report;
             report = {};
             golfie = '_handleMLSFailure';
             report['key'] = golfie;
@@ -7752,7 +7775,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[89] = report;
+            entity[90] = report;
             report = {};
             golfie = '_recoverMLSFailures';
             report['key'] = golfie;
@@ -7808,7 +7831,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[90] = report;
+            entity[91] = report;
             report = {};
             golfie = '_trackMLSFailures';
             report['key'] = golfie;
@@ -7998,7 +8021,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[91] = report;
+            entity[92] = report;
             report = {};
             golfie = '_alertMLSFailure';
             report['key'] = golfie;
@@ -8056,7 +8079,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[92] = report;
+            entity[93] = report;
             report = {};
             golfie = '_getExtraConnectionOptions';
             report['key'] = golfie;
@@ -8065,7 +8088,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[93] = report;
+            entity[94] = report;
             report = {};
             golfie = 'shouldReportPeriodicStats';
             report['key'] = golfie;
@@ -8104,7 +8127,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[94] = report;
+            entity[95] = report;
             report = {};
             golfie = 'getInputDeviceName';
             report['key'] = golfie;
@@ -8128,7 +8151,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[95] = report;
+            entity[96] = report;
             report = {};
             golfie = 'getOutputDeviceName';
             report['key'] = golfie;
@@ -8152,7 +8175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[96] = report;
+            entity[97] = report;
             report = {};
             golfie = 'getVideoDeviceName';
             report['key'] = golfie;
@@ -8176,7 +8199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[97] = report;
+            entity[98] = report;
             report = {};
             golfie = 'getGoLiveSource';
             report['key'] = golfie;
@@ -8187,7 +8210,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = oscard;
-            entity[98] = report;
+            entity[99] = report;
             entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         };

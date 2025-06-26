@@ -37,8 +37,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot7 = offset;
     offset = tangon.IS_SEARCH_ANSWER_TOKEN;
     var _closure1_slot8 = offset;
-    tangon = tangon.IS_SEARCH_FILTER_TOKEN;
-    var _closure1_slot9 = tangon;
+    offset = tangon.IS_SEARCH_FILTER_TOKEN;
+    var _closure1_slot9 = offset;
+    tangon = tangon.SearchTypes;
+    var _closure1_slot10 = tangon;
     tangon = {};
     offset = report.FILTER_BEFORE;
     tangon[offset] = verify;
@@ -46,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon[offset] = verify;
     report = report.FILTER_ON;
     tangon[report] = verify;
-    var _closure1_slot10 = tangon;
+    var _closure1_slot11 = tangon;
     report = 7;
     report = golfie[report];
     report = option.bind(entity)(report);
@@ -55,8 +57,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     backup = option;
     report = new backup[report](foxtra);
     report = report instanceof Object ? report : option;
-    var _closure1_slot11 = report;
-    report = 9;
+    var _closure1_slot12 = report;
+    report = 10;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -916,7 +918,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['getQueryFromTokens'] = tangon;
     tangon = function(argFoo) { // Original name: tokenizeQuery
-        zuuluu = _closure1_slot11;
+        zuuluu = _closure1_slot12;
         michal = zuuluu.tokenize;
         entity = argFoo;
         entity = michal.bind(zuuluu)(entity);
@@ -924,7 +926,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['tokenizeQuery'] = tangon;
     tangon = function() { // Original name: clearTokenCache
-        michal = _closure1_slot11;
+        michal = _closure1_slot12;
         entity = michal.clearCache;
         entity = entity.bind(michal)();
         return entity;
@@ -938,7 +940,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = entity != zuuluu;
             if(!michal) { _fun00026_ip = 23; continue _fun00025 }
  12:
-            michal = _closure1_slot10;
+            michal = _closure1_slot11;
             entity = michal[zuuluu];
  23:
             return entity;
@@ -982,7 +984,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['filterHasAnswer'] = tangon;
-    michal = function() { // Original name: refreshSearchTokens
+    tangon = function() { // Original name: refreshSearchTokens
         oscard = _closure1_slot0;
         report = _closure1_slot2;
         michal = 5;
@@ -991,7 +993,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = oscard.bind(entity)(tangon);
         tangon = oscard.refreshSearchTokens;
         tangon = tangon.bind(oscard)();
-        oscard = _closure1_slot11;
+        oscard = _closure1_slot12;
         tangon = oscard.reset;
         tangon = tangon.bind(oscard)();
         tangon = _closure1_slot1;
@@ -1003,7 +1005,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = zuuluu.bind(entity)(michal);
         zuuluu = tangon.forOwn;
         michal = function(argFoo, argBar) {
-            zuuluu = _closure1_slot11;
+            zuuluu = _closure1_slot12;
             michal = zuuluu.addRule;
             entity = {};
             tangon = argBar;
@@ -1017,6 +1019,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['refreshSearchTokens'] = michal;
+    zuuluu['refreshSearchTokens'] = tangon;
+    michal = function(argFoo) { // Original name: isChannelFilterSupported
+        _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+ 0:
+            tangon = argFoo;
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            entity = 9;
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            report = report.bind(entity)(zuuluu);
+            zuuluu = report.getIsSearchDesktopXDMExperimentEnabled;
+            entity = {};
+            oscard = 'isGuildOrDMSearchType';
+            entity['location'] = oscard;
+            zuuluu = zuuluu.bind(report)(entity);
+            entity = _closure1_slot10;
+            entity = entity.GUILD;
+            entity = tangon === entity;
+            if(entity) { _fun00030_ip = 91; continue _fun00029 }
+ 68:
+            michal = _closure1_slot10;
+            michal = michal.DMS;
+            michal = tangon === michal;
+            if(!michal) { _fun00030_ip = 88; continue _fun00029 }
+ 85:
+            michal = zuuluu;
+ 88:
+            entity = michal;
+ 91:
+            return entity;
+        }
+    };
+    zuuluu['isChannelFilterSupported'] = michal;
     return entity;
 })();

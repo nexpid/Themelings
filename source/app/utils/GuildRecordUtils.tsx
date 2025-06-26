@@ -285,6 +285,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['max_members'] = zuuluu;
         zuuluu = michal.nsfwLevel;
         entity['nsfw_level'] = zuuluu;
+        zuuluu = michal.ownerConfiguredContentLevel;
+        entity['owner_configured_content_level'] = zuuluu;
         zuuluu = michal.hubType;
         entity['hub_type'] = zuuluu;
         zuuluu = michal.latestOnboardingQuestionId;
@@ -366,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = michal;
  87:
             michal = zuuluu.properties;
-            if(!(entity != michal)) { _fun00010_ip = 1041; continue _fun00009 }
+            if(!(entity != michal)) { _fun00010_ip = 1070; continue _fun00009 }
  100:
             verify = {};
             michal = zuuluu.id;
@@ -537,6 +539,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  821:
             verify['nsfwLevel'] = michal;
             michal = zuuluu.properties;
+            golfie = michal.owner_configured_content_level;
+            option = entity != golfie;
+            michal = null;
+            if(!option) { _fun00010_ip = 850; continue _fun00009 }
+ 847:
+            michal = golfie;
+ 850:
+            verify['ownerConfiguredContentLevel'] = michal;
+            michal = zuuluu.properties;
             michal = michal.hub_type;
             verify['hubType'] = michal;
             michal = zuuluu.properties;
@@ -549,34 +560,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.premium_features;
             golfie = entity != michal;
             michal = null;
-            if(!golfie) { _fun00010_ip = 924; continue _fun00009 }
- 898:
+            if(!golfie) { _fun00010_ip = 953; continue _fun00009 }
+ 927:
             offset = _closure1_slot13;
             golfie = zuuluu.properties;
             option = golfie.premium_features;
             golfie = undefined;
             michal = offset.bind(golfie)(option);
- 924:
+ 953:
             verify['premiumFeatures'] = michal;
             michal = zuuluu.properties;
             michal = michal.moderator_reporting;
             golfie = entity != michal;
             michal = null;
-            if(!golfie) { _fun00010_ip = 976; continue _fun00009 }
- 950:
+            if(!golfie) { _fun00010_ip = 1005; continue _fun00009 }
+ 979:
             option = _closure1_slot14;
             zuuluu = zuuluu.properties;
             golfie = zuuluu.moderator_reporting;
             zuuluu = undefined;
             michal = option.bind(zuuluu)(golfie);
- 976:
+ 1005:
             verify['moderatorReporting'] = michal;
-            if(!(entity != tangon)) { _fun00010_ip = 998; continue _fun00009 }
- 985:
+            if(!(entity != tangon)) { _fun00010_ip = 1027; continue _fun00009 }
+ 1014:
             michal = tangon.merge;
             michal = michal.bind(tangon)(verify);
-            _fun00010_ip = 1039; continue _fun00009;
- 998:
+            _fun00010_ip = 1068; continue _fun00009;
+ 1027:
             offset = _closure1_slot0;
             option = _closure1_slot2;
             golfie = 3;
@@ -586,9 +597,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.dangerouslyCast;
             zuuluu = _closure1_slot3;
             michal = golfie.bind(option)(verify, zuuluu);
- 1039:
+ 1068:
             return michal;
- 1041:
+ 1070:
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
             michal = 2;
@@ -603,34 +614,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.Date;
             michal = zuuluu instanceof michal;
             golfie = tangon.joinedAt;
-            if(michal) { _fun00010_ip = 1114; continue _fun00009 }
- 1109:
+            if(michal) { _fun00010_ip = 1143; continue _fun00009 }
+ 1138:
             zuuluu = golfie;
-            _fun00010_ip = 1124; continue _fun00009;
- 1114:
+            _fun00010_ip = 1153; continue _fun00009;
+ 1143:
             michal = golfie.getTime;
             zuuluu = michal.bind(golfie)();
- 1124:
+ 1153:
             entity = entity.Date;
             entity = oscard instanceof entity;
             michal = oscard;
-            if(!entity) { _fun00010_ip = 1150; continue _fun00009 }
- 1140:
+            if(!entity) { _fun00010_ip = 1179; continue _fun00009 }
+ 1169:
             entity = oscard.getTime;
             michal = entity.bind(oscard)();
- 1150:
+ 1179:
             entity = tangon.premiumSubscriberCount;
-            if(!(report === entity)) { _fun00010_ip = 1167; continue _fun00009 }
- 1160:
+            if(!(report === entity)) { _fun00010_ip = 1196; continue _fun00009 }
+ 1189:
             entity = tangon;
-            if(!(zuuluu !== michal)) { _fun00010_ip = 1190; continue _fun00009 }
- 1167:
+            if(!(zuuluu !== michal)) { _fun00010_ip = 1219; continue _fun00009 }
+ 1196:
             zuuluu = tangon.merge;
             michal = {};
             michal['joinedAt'] = oscard;
             michal['premiumSubscriberCount'] = report;
             entity = zuuluu.bind(tangon)(michal);
- 1190:
+ 1219:
             return entity;
         }
     };
@@ -656,153 +667,161 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     golfie = function(argFoo, argBar) { // Original name: fromBackgroundSync
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            tangon = argFoo;
+            report = argFoo;
             zuuluu = argBar;
-            entity = tangon.properties;
-            report = null;
-            if(!(report == entity)) { _fun00012_ip = 32; continue _fun00011 }
+            entity = report.properties;
+            tangon = null;
+            if(!(tangon == entity)) { _fun00012_ip = 32; continue _fun00011 }
  18:
             oscard = _closure1_slot15;
             michal = undefined;
             entity = oscard.bind(michal)(zuuluu);
  32:
             michal = {};
-            tangon = tangon.id;
-            michal['id'] = tangon;
+            report = report.id;
+            michal['id'] = report;
             oscard = entity.name;
-            golfie = report != oscard;
-            tangon = '';
+            golfie = tangon != oscard;
+            report = '';
             if(!golfie) { _fun00012_ip = 62; continue _fun00011 }
  59:
-            tangon = oscard;
+            report = oscard;
  62:
-            michal['name'] = tangon;
-            tangon = entity.description;
-            michal['description'] = tangon;
-            tangon = entity.icon;
-            michal['icon'] = tangon;
-            tangon = entity.splash;
-            michal['splash'] = tangon;
-            tangon = entity.banner;
-            michal['banner'] = tangon;
-            tangon = entity.home_header;
-            michal['homeHeader'] = tangon;
-            tangon = global;
-            golfie = tangon.Set;
-            tangon = entity.features;
-            if(!(report == tangon)) { _fun00012_ip = 139; continue _fun00011 }
+            michal['name'] = report;
+            report = entity.description;
+            michal['description'] = report;
+            report = entity.icon;
+            michal['icon'] = report;
+            report = entity.splash;
+            michal['splash'] = report;
+            report = entity.banner;
+            michal['banner'] = report;
+            report = entity.home_header;
+            michal['homeHeader'] = report;
+            report = global;
+            golfie = report.Set;
+            report = entity.features;
+            if(!(tangon == report)) { _fun00012_ip = 139; continue _fun00011 }
  135:
-            tangon = new Array(0);
+            report = new Array(0);
  139:
             oscard = golfie.prototype;
             oscard = Object.create(oscard, {constructor: {value: golfie}});
             offset = oscard;
-            verify = tangon;
-            tangon = new offset[golfie](verify, option);
-            tangon = tangon instanceof Object ? tangon : oscard;
-            michal['features'] = tangon;
+            verify = report;
+            report = new offset[golfie](verify, option);
+            report = report instanceof Object ? report : oscard;
+            michal['features'] = report;
             oscard = entity.preferred_locale;
-            golfie = report != oscard;
-            tangon = 'en-us';
+            golfie = tangon != oscard;
+            report = 'en-us';
             if(!golfie) { _fun00012_ip = 189; continue _fun00011 }
  186:
-            tangon = oscard;
+            report = oscard;
  189:
-            michal['preferredLocale'] = tangon;
-            tangon = entity.owner_id;
-            michal['ownerId'] = tangon;
-            tangon = entity.application_id;
-            michal['application_id'] = tangon;
-            tangon = entity.afk_channel_id;
-            michal['afkChannelId'] = tangon;
-            tangon = entity.afk_timeout;
-            michal['afkTimeout'] = tangon;
-            tangon = entity.system_channel_id;
-            michal['systemChannelId'] = tangon;
-            tangon = entity.verification_level;
-            if(!(report == tangon)) { _fun00012_ip = 272; continue _fun00011 }
+            michal['preferredLocale'] = report;
+            report = entity.owner_id;
+            michal['ownerId'] = report;
+            report = entity.application_id;
+            michal['application_id'] = report;
+            report = entity.afk_channel_id;
+            michal['afkChannelId'] = report;
+            report = entity.afk_timeout;
+            michal['afkTimeout'] = report;
+            report = entity.system_channel_id;
+            michal['systemChannelId'] = report;
+            report = entity.verification_level;
+            if(!(tangon == report)) { _fun00012_ip = 272; continue _fun00011 }
  259:
             oscard = _closure1_slot10;
-            tangon = oscard.NONE;
+            report = oscard.NONE;
  272:
-            michal['verificationLevel'] = tangon;
-            tangon = entity.explicit_content_filter;
-            if(!(report == tangon)) { _fun00012_ip = 300; continue _fun00011 }
+            michal['verificationLevel'] = report;
+            report = entity.explicit_content_filter;
+            if(!(tangon == report)) { _fun00012_ip = 300; continue _fun00011 }
  287:
             oscard = _closure1_slot6;
-            tangon = oscard.DISABLED;
+            report = oscard.DISABLED;
  300:
-            michal['explicitContentFilter'] = tangon;
-            tangon = entity.default_message_notifications;
-            if(!(report == tangon)) { _fun00012_ip = 328; continue _fun00011 }
+            michal['explicitContentFilter'] = report;
+            report = entity.default_message_notifications;
+            if(!(tangon == report)) { _fun00012_ip = 328; continue _fun00011 }
  315:
             oscard = _closure1_slot9;
-            tangon = oscard.ALL_MESSAGES;
+            report = oscard.ALL_MESSAGES;
  328:
-            michal['defaultMessageNotifications'] = tangon;
-            tangon = entity.mfa_level;
-            if(!(report == tangon)) { _fun00012_ip = 356; continue _fun00011 }
+            michal['defaultMessageNotifications'] = report;
+            report = entity.mfa_level;
+            if(!(tangon == report)) { _fun00012_ip = 356; continue _fun00011 }
  343:
             oscard = _closure1_slot8;
-            tangon = oscard.NONE;
+            report = oscard.NONE;
  356:
-            michal['mfaLevel'] = tangon;
-            tangon = entity.vanity_url_code;
-            michal['vanityURLCode'] = tangon;
-            tangon = entity.premium_tier;
-            if(!(report == tangon)) { _fun00012_ip = 395; continue _fun00011 }
+            michal['mfaLevel'] = report;
+            report = entity.vanity_url_code;
+            michal['vanityURLCode'] = report;
+            report = entity.premium_tier;
+            if(!(tangon == report)) { _fun00012_ip = 395; continue _fun00011 }
  382:
             oscard = _closure1_slot5;
-            tangon = oscard.NONE;
+            report = oscard.NONE;
  395:
-            michal['premiumTier'] = tangon;
-            tangon = entity.premium_progress_bar_enabled;
-            if(tangon) { _fun00012_ip = 411; continue _fun00011 }
+            michal['premiumTier'] = report;
+            report = entity.premium_progress_bar_enabled;
+            if(report) { _fun00012_ip = 411; continue _fun00011 }
  409:
-            tangon = false;
+            report = false;
  411:
-            michal['premiumProgressBarEnabled'] = tangon;
-            tangon = entity.system_channel_flags;
-            michal['systemChannelFlags'] = tangon;
-            tangon = entity.discovery_splash;
-            michal['discoverySplash'] = tangon;
-            tangon = entity.rules_channel_id;
-            michal['rulesChannelId'] = tangon;
-            tangon = entity.safety_alerts_channel_id;
-            michal['safetyAlertsChannelId'] = tangon;
-            tangon = entity.public_updates_channel_id;
-            michal['publicUpdatesChannelId'] = tangon;
+            michal['premiumProgressBarEnabled'] = report;
+            report = entity.system_channel_flags;
+            michal['systemChannelFlags'] = report;
+            report = entity.discovery_splash;
+            michal['discoverySplash'] = report;
+            report = entity.rules_channel_id;
+            michal['rulesChannelId'] = report;
+            report = entity.safety_alerts_channel_id;
+            michal['safetyAlertsChannelId'] = report;
+            report = entity.public_updates_channel_id;
+            michal['publicUpdatesChannelId'] = report;
             golfie = entity.max_stage_video_channel_users;
-            option = report != golfie;
-            tangon = -1;
-            oscard = tangon;
+            option = tangon != golfie;
+            report = -1;
+            oscard = report;
             if(!option) { _fun00012_ip = 496; continue _fun00011 }
  493:
             oscard = golfie;
  496:
             michal['maxStageVideoChannelUsers'] = oscard;
             golfie = entity.max_video_channel_users;
-            option = report != golfie;
-            oscard = tangon;
+            option = tangon != golfie;
+            oscard = report;
             if(!option) { _fun00012_ip = 520; continue _fun00011 }
  517:
             oscard = golfie;
  520:
             michal['maxVideoChannelUsers'] = oscard;
             oscard = entity.max_members;
-            golfie = report != oscard;
+            golfie = tangon != oscard;
             if(!golfie) { _fun00012_ip = 541; continue _fun00011 }
  538:
-            tangon = oscard;
+            report = oscard;
  541:
-            michal['maxMembers'] = tangon;
-            tangon = entity.nsfw_level;
-            if(!(report == tangon)) { _fun00012_ip = 569; continue _fun00011 }
+            michal['maxMembers'] = report;
+            report = entity.nsfw_level;
+            if(!(tangon == report)) { _fun00012_ip = 569; continue _fun00011 }
  556:
-            report = _closure1_slot7;
-            tangon = report.DEFAULT;
+            oscard = _closure1_slot7;
+            report = oscard.DEFAULT;
  569:
-            michal['nsfwLevel'] = tangon;
+            michal['nsfwLevel'] = report;
+            report = entity.owner_configured_content_level;
+            oscard = tangon != report;
+            tangon = null;
+            if(!oscard) { _fun00012_ip = 592; continue _fun00011 }
+ 589:
+            tangon = report;
+ 592:
+            michal['ownerConfiguredContentLevel'] = tangon;
             tangon = entity.hub_type;
             michal['hubType'] = tangon;
             tangon = entity.latest_onboarding_question_id;
@@ -916,6 +935,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon['maxMembers'] = report;
             report = oscard.nsfw_level;
             tangon['nsfwLevel'] = report;
+            report = oscard.owner_configured_content_level;
+            tangon['ownerConfiguredContentLevel'] = report;
             report = oscard.hub_type;
             tangon['hubType'] = report;
             report = oscard.latest_onboarding_question_id;
@@ -925,29 +946,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.premium_features;
             golfie = entity != report;
             report = null;
-            if(!golfie) { _fun00014_ip = 525; continue _fun00013 }
- 510:
+            if(!golfie) { _fun00014_ip = 536; continue _fun00013 }
+ 521:
             verify = _closure1_slot13;
             golfie = oscard.premium_features;
             report = verify.bind(option)(golfie);
- 525:
+ 536:
             tangon['premiumFeatures'] = report;
             report = oscard.moderator_reporting;
             golfie = entity != report;
             report = null;
-            if(!golfie) { _fun00014_ip = 560; continue _fun00013 }
- 545:
+            if(!golfie) { _fun00014_ip = 571; continue _fun00013 }
+ 556:
             golfie = _closure1_slot14;
             oscard = oscard.moderator_reporting;
             report = golfie.bind(option)(oscard);
- 560:
+ 571:
             tangon['moderatorReporting'] = report;
-            if(!(entity != zuuluu)) { _fun00014_ip = 582; continue _fun00013 }
- 569:
+            if(!(entity != zuuluu)) { _fun00014_ip = 593; continue _fun00013 }
+ 580:
             entity = zuuluu.merge;
             entity = entity.bind(zuuluu)(tangon);
-            _fun00014_ip = 609; continue _fun00013;
- 582:
+            _fun00014_ip = 620; continue _fun00013;
+ 593:
             michal = _closure1_slot3;
             zuuluu = michal.prototype;
             zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
@@ -955,7 +976,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = tangon;
             michal = new foxtra[michal](romeon, yankee);
             entity = michal instanceof Object ? michal : zuuluu;
- 609:
+ 620:
             return entity;
         }
     };

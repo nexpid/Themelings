@@ -20,24 +20,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = argCor;
     entity = undefined;
     tangon = tangon.bind(entity)(golfie);
+    var _closure1_slot3 = tangon;
     foxtra = 1;
     tangon = oscard[foxtra];
     tangon = report.bind(entity)(tangon);
     romeon = tangon.StyleSheet;
     tangon = tangon.View;
-    var _closure1_slot3 = tangon;
+    var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.GIFPickerResultTypes;
-    var _closure1_slot4 = tangon;
+    var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.jsx;
-    var _closure1_slot5 = golfie;
+    var _closure1_slot6 = golfie;
     tangon = tangon.jsxs;
-    var _closure1_slot6 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
@@ -115,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['marginRight'] = offset;
     tangon['categoryNameIcon'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot7 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -125,25 +126,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: GIFPickerCategoryView
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            entity = argFoo;
-            michal = entity.onSelectCategory;
-            var _closure2_slot0 = michal;
-            romeon = entity.item;
+            michal = argFoo;
+            oscard = michal.onSelectCategory;
+            var _closure2_slot0 = oscard;
+            romeon = michal.item;
             var _closure2_slot1 = romeon;
-            entity = _closure1_slot7;
+            michal = _closure1_slot8;
             tangon = undefined;
-            backup = entity.bind(tangon)();
-            zuuluu = _closure1_slot6;
-            michal = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 6;
-            entity = golfie[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.PressableOpacity;
-            entity = {};
-            oscard = backup.container;
-            entity['style'] = oscard;
-            report = function() { // Original name: onPress
+            backup = michal.bind(tangon)();
+            report = _closure1_slot3;
+            zuuluu = report.useCallback;
+            michal = new Array(2);
+            michal[0] = oscard;
+            michal[1] = romeon;
+            entity = function() {
                 tangon = _closure2_slot0;
                 entity = _closure2_slot1;
                 zuuluu = entity.type;
@@ -152,8 +148,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(entity)(zuuluu, michal);
                 return entity;
             };
+            report = zuuluu.bind(report)(entity, michal);
+            zuuluu = _closure1_slot7;
+            michal = _closure1_slot0;
+            golfie = _closure1_slot2;
+            entity = 6;
+            entity = golfie[entity];
+            entity = michal.bind(tangon)(entity);
+            michal = entity.Pressable;
+            entity = {};
+            oscard = backup.container;
+            entity['style'] = oscard;
             entity['onPress'] = report;
-            option = _closure1_slot5;
+            option = _closure1_slot6;
             oscard = _closure1_slot1;
             report = 7;
             report = golfie[report];
@@ -168,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(tangon)(oscard, report);
             report = new Array(3);
             report[0] = oscard;
-            golfie = _closure1_slot3;
+            golfie = _closure1_slot4;
             oscard = {};
             offset = backup.gifOverlay;
             oscard['style'] = offset;
@@ -178,17 +185,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = backup.categoryName;
             oscard['style'] = option;
             offset = romeon.type;
-            option = _closure1_slot4;
+            option = _closure1_slot5;
             option = option.TRENDING_GIFS;
-            if(!(offset !== option)) { _fun00002_ip = 316; continue _fun00001 }
- 207:
+            if(!(offset !== option)) { _fun00002_ip = 343; continue _fun00001 }
+ 234:
             yankee = romeon.type;
-            option = _closure1_slot4;
+            option = _closure1_slot5;
             option = option.FAVORITES;
             offset = null;
-            if(!(yankee === option)) { _fun00002_ip = 314; continue _fun00001 }
- 228:
-            foxtra = _closure1_slot5;
+            if(!(yankee === option)) { _fun00002_ip = 341; continue _fun00001 }
+ 255:
+            foxtra = _closure1_slot6;
             yankee = _closure1_slot0;
             output = _closure1_slot2;
             option = 9;
@@ -208,10 +215,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.WHITE;
             option['color'] = kiloes;
             offset = foxtra.bind(tangon)(yankee, option);
- 314:
-            _fun00002_ip = 402; continue _fun00001;
- 316:
-            foxtra = _closure1_slot5;
+ 341:
+            _fun00002_ip = 429; continue _fun00001;
+ 343:
+            foxtra = _closure1_slot6;
             yankee = _closure1_slot0;
             sizing = _closure1_slot2;
             option = 8;
@@ -231,10 +238,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.WHITE;
             option['color'] = backup;
             offset = foxtra.bind(tangon)(yankee, option);
- 402:
+ 429:
             option = new Array(2);
             option[0] = offset;
-            yankee = _closure1_slot5;
+            yankee = _closure1_slot6;
             backup = _closure1_slot0;
             output = _closure1_slot2;
             verify = 10;

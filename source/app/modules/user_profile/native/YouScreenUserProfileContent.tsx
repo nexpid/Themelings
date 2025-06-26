@@ -249,8 +249,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['secondaryColor'] = offset;
             golfie = option.bind(verify)(golfie);
             option = golfie.gradientFallbackBackground;
-            whisks = golfie.avatarBackground;
             echoed = golfie.containerBackground;
+            whisks = golfie.avatarBackground;
+            equals = golfie.statusBackground;
             sizing = {};
             sizing['backgroundColor'] = echoed;
             verify = _closure1_slot4;
@@ -292,8 +293,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot3;
             michal = 2;
             golfie = golfie.bind(tangon)(yankee, michal);
-            variable36 = 0;
-            status = golfie[variable36];
+            variable37 = 0;
+            status = golfie[variable37];
             michal = 1;
             michal = golfie[michal];
             var _closure2_slot3 = michal;
@@ -337,11 +338,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(zuuluu)(entity);
             entity = target != status;
             sierra = undefined;
-            if(!entity) { _fun00002_ip = 491; continue _fun00001 }
- 482:
+            if(!entity) { _fun00002_ip = 497; continue _fun00001 }
+ 488:
             entity = status.label;
             sierra = entity.bind(status)();
- 491:
+ 497:
             zuuluu = _closure1_slot7;
             yankee = _closure1_slot1;
             limora = _closure1_slot2;
@@ -356,13 +357,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = limora[report];
             oscard = yankee.bind(tangon)(report);
             report = {};
-            quebec = romeon.profileContent;
-            equals = new Array(2);
-            equals[0] = quebec;
-            quebec = {};
-            quebec['paddingTop'] = variable36;
-            equals[1] = quebec;
-            report['containerStyle'] = equals;
+            variable36 = romeon.profileContent;
+            quebec = new Array(2);
+            quebec[0] = variable36;
+            variable36 = {};
+            variable36['paddingTop'] = variable37;
+            quebec[1] = variable36;
+            report['containerStyle'] = quebec;
             report['primaryColor'] = backup;
             report['secondaryColor'] = offset;
             report['fallbackBackground'] = option;
@@ -371,6 +372,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             option['user'] = output;
             option['backgroundColor'] = whisks;
+            whisks = {};
+            whisks['backgroundColor'] = equals;
+            option['statusStyle'] = whisks;
             offset = backup.bind(tangon)(offset, option);
             option = new Array(5);
             option[0] = offset;
@@ -392,8 +396,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['prompt'] = status;
             offset = backup.bind(tangon)(yankee, offset);
             option[1] = offset;
-            if(!verify) { _fun00002_ip = 746; continue _fun00001 }
- 704:
+            if(!verify) { _fun00002_ip = 763; continue _fun00001 }
+ 721:
             backup = _closure1_slot7;
             yankee = _closure1_slot1;
             status = _closure1_slot2;
@@ -404,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['targetRef'] = update;
             offset['scrollPosition'] = kiloes;
             verify = backup.bind(tangon)(yankee, offset);
- 746:
+ 763:
             option[2] = verify;
             yankee = _closure1_slot8;
             offset = _closure1_slot5;
@@ -421,10 +425,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['user'] = output;
             status = target == vacuum;
             target = undefined;
-            if(status) { _fun00002_ip = 815; continue _fun00001 }
- 809:
+            if(status) { _fun00002_ip = 832; continue _fun00001 }
+ 826:
             target = vacuum.pronouns;
- 815:
+ 832:
             backup['pronouns'] = target;
             backup['badges'] = papara;
             backup['badgeContainerBackground'] = echoed;

@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!entity) { _fun00002_ip = 108; continue _fun00001 }
  44:
             zuuluu = global;
-            tangon = zuuluu.Date;
+            tangon = zuuluu.performance;
             zuuluu = tangon.now;
             tangon = zuuluu.bind(tangon)();
             report = _closure1_slot0;

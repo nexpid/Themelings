@@ -109,15 +109,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot7 = tangon;
     tangon = function(argFoo) { // Original name: ChannelCallGridContainer
-        entity = argFoo;
-        report = entity.channel;
-        var _closure2_slot0 = report;
-        oscard = _closure1_slot3;
-        tangon = oscard.useEffect;
-        golfie = report.id;
-        zuuluu = new Array(1);
-        zuuluu[0] = golfie;
-        michal = function() {
+        michal = argFoo;
+        michal = michal.channel;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot3;
+        zuuluu = tangon.useEffect;
+        report = michal.id;
+        michal = new Array(1);
+        michal[0] = report;
+        entity = function() {
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
             entity = 7;
@@ -143,21 +143,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         };
-        michal = tangon.bind(oscard)(michal, zuuluu);
-        tangon = _closure1_slot5;
-        michal = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        entity = 9;
-        entity = zuuluu[entity];
-        zuuluu = undefined;
-        michal = michal.bind(zuuluu)(entity);
-        entity = {};
-        entity['channel'] = report;
-        entity = tangon.bind(zuuluu)(michal, entity);
-        return entity;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        entity = global;
+        zuuluu = entity.Error;
+        entity = zuuluu.prototype;
+        michal = Object.create(entity, {constructor: {value: zuuluu}});
+        golfie = 'Legacy voice and video call controller, slated for removal.';
+        option = michal;
+        entity = new option[zuuluu](golfie, oscard);
+        entity = entity instanceof Object ? entity : michal;
+        throw entity;
     };
     var _closure1_slot8 = tangon;
-    tangon = 10;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

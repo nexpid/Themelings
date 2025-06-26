@@ -325,41 +325,42 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(backup)();
             oscard = tangon.bind(report)(michal);
             output = null;
-            if(!(output != oscard)) { _fun00008_ip = 704; continue _fun00007 }
+            if(!(output != oscard)) { _fun00008_ip = 710; continue _fun00007 }
  59:
             report = _closure1_slot6;
             tangon = report.getGuild;
             michal = oscard.getGuildId;
             michal = michal.bind(oscard)();
             yankee = tangon.bind(report)(michal);
-            if(!(output != yankee)) { _fun00008_ip = 669; continue _fun00007 }
+            if(!(output != yankee)) { _fun00008_ip = 675; continue _fun00007 }
  90:
             tangon = _closure1_slot1;
-            golfie = _closure1_slot2;
+            oscard = _closure1_slot2;
             michal = 6;
-            michal = golfie[michal];
+            michal = oscard[michal];
             report = undefined;
             michal = tangon.bind(report)(michal);
             offset = michal.bind(report)(backup);
             tangon = _closure1_slot0;
             michal = 7;
-            michal = golfie[michal];
-            oscard = tangon.bind(report)(michal);
-            michal = oscard.getMessageAuthorWithProcessedColor;
-            michal = michal.bind(oscard)(backup);
+            michal = oscard[michal];
+            golfie = tangon.bind(report)(michal);
+            michal = golfie.getMessageAuthorWithProcessedColor;
+            michal = michal.bind(golfie)(backup);
             romeon = michal.nick;
             sizing = michal.colorString;
             echoed = michal.colorStrings;
-            oscard = michal.guildId;
+            golfie = michal.guildId;
             michal = 8;
-            michal = golfie[michal];
-            tangon = tangon.bind(report)(michal);
-            michal = tangon.isNativeMessageEligibleForEnhancedRoleColors;
-            update = michal.bind(tangon)(oscard, result);
+            michal = oscard[michal];
+            oscard = tangon.bind(report)(michal);
+            tangon = oscard.isNativeMessageEligibleForEnhancedRoleColors;
+            michal = kiloes.id;
+            update = tangon.bind(oscard)(golfie, michal, result);
             michal = {};
             tangon = 1;
-            if(!(!(offset > tangon))) { _fun00008_ip = 413; continue _fun00007 }
- 203:
+            if(!(!(offset > tangon))) { _fun00008_ip = 419; continue _fun00007 }
+ 209:
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
             tangon = 9;
@@ -381,19 +382,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['colorString'] = sizing;
             ctrled = 'username';
             source = null;
-            if(!(ctrled === result)) { _fun00008_ip = 299; continue _fun00007 }
- 296:
+            if(!(ctrled === result)) { _fun00008_ip = 305; continue _fun00007 }
+ 302:
             source = sizing;
- 299:
+ 305:
             verify['linkColor'] = source;
             verify['roleColor'] = sizing;
             verify['roleColors'] = echoed;
             source = 'dot';
             source = source === result;
-            if(!source) { _fun00008_ip = 329; continue _fun00007 }
- 325:
+            if(!source) { _fun00008_ip = 335; continue _fun00007 }
+ 331:
             source = output != sizing;
- 329:
+ 335:
             verify['shouldShowRoleDot'] = source;
             source = backup.channel_id;
             verify['messageChannelId'] = source;
@@ -411,8 +412,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(source)(foxtra);
             tangon['newTierName'] = verify;
             tangon = golfie.bind(option)(oscard, tangon);
-            _fun00008_ip = 631; continue _fun00007;
- 413:
+            _fun00008_ip = 637; continue _fun00007;
+ 419:
             golfie = _closure1_slot0;
             source = _closure1_slot2;
             oscard = 9;
@@ -434,24 +435,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['colorString'] = sizing;
             source = 'username';
             kiloes = null;
-            if(!(source === result)) { _fun00008_ip = 509; continue _fun00007 }
- 506:
+            if(!(source === result)) { _fun00008_ip = 515; continue _fun00007 }
+ 512:
             kiloes = sizing;
- 509:
+ 515:
             romeon['linkColor'] = kiloes;
             romeon['roleColor'] = sizing;
             kiloes = null;
-            if(!update) { _fun00008_ip = 527; continue _fun00007 }
- 524:
+            if(!update) { _fun00008_ip = 533; continue _fun00007 }
+ 530:
             kiloes = echoed;
- 527:
+ 533:
             romeon['roleColors'] = kiloes;
             kiloes = 'dot';
             kiloes = kiloes === result;
-            if(!kiloes) { _fun00008_ip = 547; continue _fun00007 }
- 543:
+            if(!kiloes) { _fun00008_ip = 553; continue _fun00007 }
+ 549:
             kiloes = output != sizing;
- 547:
+ 553:
             romeon['shouldShowRoleDot'] = kiloes;
             backup = backup.channel_id;
             romeon['messageChannelId'] = backup;
@@ -470,18 +471,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['newTierName'] = yankee;
             oscard['numSubscriptions'] = offset;
             tangon = option.bind(verify)(golfie, oscard);
- 631:
+ 637:
             michal['content'] = tangon;
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
             tangon = 11;
             tangon = golfie[tangon];
             tangon = oscard.bind(report)(tangon);
-            vacuum = tangon.bind(report)(zuuluu);
-            sequen = michal;
-            tangon = copyDataProperties(sequen, vacuum);
+            sequen = tangon.bind(report)(zuuluu);
+            config = michal;
+            tangon = copyDataProperties(config, sequen);
             return michal;
- 669:
+ 675:
             report = _closure1_slot0;
             tangon = _closure1_slot2;
             michal = 5;
@@ -491,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.createUserPremiumGuildSubscriptionSystemMessage;
             michal = michal.bind(tangon)(zuuluu);
             return michal;
- 704:
+ 710:
             tangon = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 5;

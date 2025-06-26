@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 284; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 289; continue _fun00003 }
  10:
                         michal = undefined;
                         offset = undefined;
@@ -108,31 +108,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu['timeout'] = romeon;
                         romeon = true;
                         zuuluu['rejectWithError'] = romeon;
+                        zuuluu['failImmediatelyWhenRateLimited'] = romeon;
                         zuuluu = report.bind(yankee)(zuuluu);
-                        SaveGenerator(address=167);
- 165:
+                        SaveGenerator(address=172);
+ 170:
                         return zuuluu;
- 167:
+ 172:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                        if(report) { _fun00004_ip = 276; continue _fun00003 }
- 173:
+                        if(report) { _fun00004_ip = 281; continue _fun00003 }
+ 178:
                         option = zuuluu;
                         report = zuuluu.ok;
-                        if(!report) { _fun00004_ip = 214; continue _fun00003 }
- 185:
+                        if(!report) { _fun00004_ip = 219; continue _fun00003 }
+ 190:
                         report = option;
                         report = report.body;
                         offset = report;
                         yankee = verify == report;
                         report = undefined;
-                        if(yankee) { _fun00004_ip = 210; continue _fun00003 }
- 205:
-                        report = offset.username;
+                        if(yankee) { _fun00004_ip = 215; continue _fun00003 }
  210:
-                        if(!(verify == report)) { _fun00004_ip = 216; continue _fun00003 }
- 214: // try_end0
-                        _fun00004_ip = 281; continue _fun00003;
- 216: // try_start_1
+                        report = offset.username;
+ 215:
+                        if(!(verify == report)) { _fun00004_ip = 221; continue _fun00003 }
+ 219: // try_end0
+                        _fun00004_ip = 286; continue _fun00003;
+ 221: // try_start_1
                         report = _closure1_slot1;
                         tangon = _closure1_slot2;
                         tangon = tangon[oscard];
@@ -146,15 +147,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         golfie = _closure2_slot0;
                         tangon['source'] = golfie;
                         tangon = report.bind(oscard)(tangon);
- 273: // try_end1
+ 278: // try_end1
                         return tangon;
- 276:
-                        return zuuluu;
- 279: // catch_target0 // catch_target1
-                        CatchBlockStart(arg_register=2);
  281:
+                        return zuuluu;
+ 284: // catch_target0 // catch_target1
+                        CatchBlockStart(arg_register=2);
+ 286:
                         return michal;
- 284:
+ 289:
                         return entity;
                     }
                 };

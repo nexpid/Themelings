@@ -1086,18 +1086,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal[verify] = golfie;
     verify = tangon.ACTIVITY_PIP_MODE_UPDATE;
     golfie = {};
-    yankee = {};
-    kiloes = offset.ANY;
-    backup = oscard[romeon];
-    backup = report.bind(entity)(backup);
-    backup = backup.OAuth2Scopes;
-    output = backup.RPC;
-    backup = new Array(3);
-    backup[0] = output;
-    backup[1] = sizing;
-    backup[2] = foxtra;
-    yankee[kiloes] = backup;
-    golfie['scope'] = yankee;
+    golfie['scope'] = entity;
     yankee = function() { // Original name: handler
         entity = undefined;
         return entity;
@@ -1106,18 +1095,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal[verify] = golfie;
     verify = tangon.ACTIVITY_LAYOUT_MODE_UPDATE;
     golfie = {};
-    yankee = {};
-    kiloes = offset.ANY;
-    backup = oscard[romeon];
-    backup = report.bind(entity)(backup);
-    backup = backup.OAuth2Scopes;
-    output = backup.RPC;
-    backup = new Array(3);
-    backup[0] = output;
-    backup[1] = sizing;
-    backup[2] = foxtra;
-    yankee[kiloes] = backup;
-    golfie['scope'] = yankee;
+    golfie['scope'] = entity;
     yankee = function() { // Original name: handler
         entity = undefined;
         return entity;

@@ -114,6 +114,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = oscard.bind(golfie)(option, verify, report);
  118:
                 entity = michal.bind(zuuluu)(tangon, entity);
+                michal = null;
+                entity['_openATTPrePromptOrFlowTimeoutId'] = michal;
                 michal = {};
                 zuuluu = entity.onPostConnectionOpen;
                 michal['POST_CONNECTION_OPEN'] = zuuluu;
@@ -122,14 +124,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         var _closure2_slot0 = tangon;
-        oscard = _closure1_slot7;
+        report = _closure1_slot7;
         zuuluu = undefined;
-        report = argFoo;
-        report = oscard.bind(zuuluu)(tangon, report);
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
         michal = _closure1_slot4;
         report = {};
-        oscard = 'onPostConnectionOpen';
-        report['key'] = oscard;
+        entity = 'onPostConnectionOpen';
+        report['key'] = entity;
         entity = function() { // Original name: value
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0: // try_start_0
@@ -159,8 +161,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(1);
+        entity = new Array(2);
         entity[0] = report;
+        report = {};
+        golfie = '_terminate';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                michal = this;
+                zuuluu = michal._openATTPrePromptOrFlowTimeoutId;
+                entity = null;
+                if(!(entity != zuuluu)) { _fun00008_ip = 42; continue _fun00007 }
+ 15:
+                zuuluu = global;
+                report = zuuluu.clearTimeout;
+                tangon = michal._openATTPrePromptOrFlowTimeoutId;
+                zuuluu = undefined;
+                zuuluu = report.bind(zuuluu)(tangon);
+                michal['_openATTPrePromptOrFlowTimeoutId'] = entity;
+ 42:
+                entity = undefined;
+                return entity;
+            }
+        };
+        report['value'] = oscard;
+        entity[1] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

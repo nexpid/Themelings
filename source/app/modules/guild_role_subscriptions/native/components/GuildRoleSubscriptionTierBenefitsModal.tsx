@@ -1000,8 +1000,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu.bind(tangon)(michal, entity);
  758:
             zuuluu = _closure1_slot12;
-            entity = _closure1_slot6;
-            michal = entity.SectionList;
+            michal = _closure1_slot6;
             entity = {};
             entity['sections'] = option;
             option = kiloes.listContainer;
@@ -1126,13 +1125,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.getBenefitKey;
             entity['keyExtractor'] = option;
             option = null;
-            if(sizing) { _fun00012_ip = 902; continue _fun00011 }
- 838:
-            if(yankee) { _fun00012_ip = 846; continue _fun00011 }
- 841:
+            if(sizing) { _fun00012_ip = 896; continue _fun00011 }
+ 832:
+            if(yankee) { _fun00012_ip = 840; continue _fun00011 }
+ 835:
             option = null;
-            if(!verify) { _fun00012_ip = 902; continue _fun00011 }
- 846:
+            if(!verify) { _fun00012_ip = 896; continue _fun00011 }
+ 840:
             yankee = _closure1_slot12;
             offset = _closure1_slot1;
             sizing = _closure1_slot3;
@@ -1146,7 +1145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['setChannelAccessFormat'] = foxtra;
             verify['disabled'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 902:
+ 896:
             entity['ListHeaderComponent'] = option;
             option = function(argFoo) { // Original name: renderSectionHeader
                 entity = argFoo;
@@ -1287,7 +1286,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = 2;
     report = golfie[offset];
     report = oscard.bind(entity)(report);
-    option = report.Animated;
+    option = report.SectionList;
     var _closure1_slot6 = option;
     report = report.View;
     var _closure1_slot7 = report;

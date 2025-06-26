@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     option = oscard.bind(entity)(tangon);
     report = option.createExperiment;
     tangon = {'kind': 'user', 'id': '2025-05_mobile_shop_gifting', 'label': 'Mobile Shop Gifting'};
-    verify = verify.COLLECTIBLES_SHOP_OPEN;
+    verify = verify.CONNECTION_OPEN_MOBILE;
     tangon['commonTriggerPoint'] = verify;
     verify = {};
     offset = false;

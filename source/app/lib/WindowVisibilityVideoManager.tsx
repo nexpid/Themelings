@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['discordVisible'] = oscard;
                 entity['incomingVideoEnabled'] = oscard;
                 oscard = global;
-                golfie = oscard.Date;
+                golfie = oscard.performance;
                 oscard = golfie.now;
                 oscard = oscard.bind(golfie)();
                 entity['lastEnabledChange'] = oscard;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 'Incoming video enabled changed, incomingVideoEnabled = ';
                 michal = oscard.bind(michal)(golfie);
                 michal = zuuluu.bind(report)(michal);
-                michal = entity.Date;
+                michal = entity.performance;
                 entity = michal.now;
                 entity = entity.bind(michal)();
                 tangon['lastEnabledChange'] = entity;

@@ -320,27 +320,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  99:
             entity = michal.bind(tangon)(entity);
             backup = _closure1_slot0;
-            result = _closure1_slot2;
+            output = _closure1_slot2;
             michal = 6;
-            michal = result[michal];
+            michal = output[michal];
             tangon = backup.bind(verify)(michal);
             michal = tangon.getMessageAuthorWithProcessedColor;
             tangon = michal.bind(tangon)(kiloes);
             michal = tangon.nick;
             yankee = tangon.colorString;
             sizing = tangon.colorStrings;
-            output = tangon.guildId;
+            result = tangon.guildId;
             tangon = 7;
-            tangon = result[tangon];
+            tangon = output[tangon];
             offset = backup.bind(verify)(tangon);
             tangon = offset.resolveAlertModeColors;
             tangon = tangon.bind(offset)(echoed);
             tangon = tangon.automodUsernameColor;
             offset = 8;
-            offset = result[offset];
-            backup = backup.bind(verify)(offset);
-            offset = backup.isNativeMessageEligibleForEnhancedRoleColors;
-            output = offset.bind(backup)(output, romeon);
+            offset = output[offset];
+            output = backup.bind(verify)(offset);
+            backup = output.isNativeMessageEligibleForEnhancedRoleColors;
+            offset = golfie.id;
+            output = backup.bind(output)(result, offset, romeon);
             backup = {};
             backup['username'] = michal;
             michal = {};
@@ -351,24 +352,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['colorString'] = yankee;
             golfie = 'username';
             offset = null;
-            if(!(golfie === romeon)) { _fun00008_ip = 256; continue _fun00007 }
- 253:
+            if(!(golfie === romeon)) { _fun00008_ip = 262; continue _fun00007 }
+ 259:
             offset = yankee;
- 256:
+ 262:
             michal['linkColor'] = offset;
             michal['roleColor'] = yankee;
             offset = null;
-            if(!output) { _fun00008_ip = 274; continue _fun00007 }
- 271:
+            if(!output) { _fun00008_ip = 280; continue _fun00007 }
+ 277:
             offset = sizing;
- 274:
+ 280:
             michal['roleColors'] = offset;
             offset = 'dot';
             offset = offset === romeon;
-            if(!offset) { _fun00008_ip = 294; continue _fun00007 }
- 290:
+            if(!offset) { _fun00008_ip = 300; continue _fun00007 }
+ 296:
             offset = report != yankee;
- 294:
+ 300:
             michal['shouldShowRoleDot'] = offset;
             offset = kiloes.channel_id;
             michal['messageChannelId'] = offset;
@@ -377,16 +378,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['usernameOnClick'] = michal;
             offset = report == entity;
             michal = undefined;
-            if(offset) { _fun00008_ip = 335; continue _fun00007 }
- 330:
+            if(offset) { _fun00008_ip = 341; continue _fun00007 }
+ 336:
             michal = entity.name;
- 335:
+ 341:
             offset = report != michal;
             entity = '';
-            if(!offset) { _fun00008_ip = 349; continue _fun00007 }
- 346:
+            if(!offset) { _fun00008_ip = 355; continue _fun00007 }
+ 352:
             entity = michal;
- 349:
+ 355:
             backup['guildName'] = entity;
             offset = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -403,9 +404,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 10;
             oscard = romeon[oscard];
             oscard = offset.bind(verify)(oscard);
-            update = oscard.bind(verify)(option);
-            source = entity;
-            oscard = copyDataProperties(source, update);
+            source = oscard.bind(verify)(option);
+            ctrled = entity;
+            oscard = copyDataProperties(ctrled, source);
             yankee = _closure1_slot0;
             oscard = 11;
             option = romeon[oscard];
@@ -431,10 +432,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[golfie] = oscard;
             oscard = report != tangon;
             report = null;
-            if(!oscard) { _fun00008_ip = 547; continue _fun00007 }
- 544:
+            if(!oscard) { _fun00008_ip = 553; continue _fun00007 }
+ 550:
             report = tangon;
- 547:
+ 553:
             tangon = 'usernameColor';
             entity[tangon] = report;
             option = _closure1_slot0;
@@ -456,9 +457,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.uri;
             zuuluu = 'avatarURL';
             entity[zuuluu] = tangon;
-            source = entity;
-            update = michal;
-            michal = copyDataProperties(source, update);
+            ctrled = entity;
+            source = michal;
+            michal = copyDataProperties(ctrled, source);
             return entity;
         }
     };

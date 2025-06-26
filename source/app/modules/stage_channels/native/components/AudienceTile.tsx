@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 12;
             entity = golfie[entity];
             entity = verify.bind(tangon)(entity);
-            michal = entity.TouchableOpacity;
+            michal = entity.Pressable;
             entity = {};
             oscard = 13;
             backup = golfie[oscard];

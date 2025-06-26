@@ -196,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useProcessColorStringsArray'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: isNativeMessageEligibleForEnhancedRoleColors
+    tangon = function(argFoo, argBar, argBaz) { // Original name: isNativeMessageEligibleForEnhancedRoleColors
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             zuuluu = _closure1_slot0;
@@ -207,19 +207,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(entity)(michal);
             zuuluu = tangon.getHasEnhancedRoleColors;
             michal = argFoo;
-            entity = 'isNativeMessageEligibleForEnhancedRoleColors';
+            entity = argBar;
             entity = zuuluu.bind(tangon)(michal, entity);
-            if(!entity) { _fun00010_ip = 58; continue _fun00009 }
- 47:
+            if(!entity) { _fun00010_ip = 57; continue _fun00009 }
+ 46:
             zuuluu = 'hidden';
-            michal = argBar;
+            michal = argBaz;
             entity = zuuluu !== michal;
- 58:
+ 57:
             return entity;
         }
     };
     zuuluu['isNativeMessageEligibleForEnhancedRoleColors'] = tangon;
-    michal = function(argFoo, argBar, argBaz) { // Original name: useIsRoleStyleAndRoleColorsEligibleForERC
+    michal = function(argFoo, argBar, argBaz, argCor) { // Original name: useIsRoleStyleAndRoleColorsEligibleForERC
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             michal = _closure1_slot1;
@@ -229,21 +229,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = undefined;
             zuuluu = michal.bind(tangon)(entity);
             michal = argFoo;
-            entity = 'useIsRoleStyleAndRoleColorsEligibleForERC';
+            entity = argBar;
             entity = zuuluu.bind(tangon)(michal, entity);
-            if(!entity) { _fun00012_ip = 52; continue _fun00011 }
- 41:
+            if(!entity) { _fun00012_ip = 51; continue _fun00011 }
+ 40:
             zuuluu = 'hidden';
-            michal = argBar;
-            entity = zuuluu !== michal;
- 52:
-            if(!entity) { _fun00012_ip = 70; continue _fun00011 }
- 55:
             michal = argBaz;
+            entity = zuuluu !== michal;
+ 51:
+            if(!entity) { _fun00012_ip = 69; continue _fun00011 }
+ 54:
+            michal = argCor;
             zuuluu = michal.length;
             michal = 1;
             entity = zuuluu > michal;
- 70:
+ 69:
             return entity;
         }
     };

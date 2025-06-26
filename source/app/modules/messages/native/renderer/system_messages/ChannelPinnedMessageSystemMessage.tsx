@@ -170,12 +170,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = entity.nick;
             foxtra = entity.colorString;
             kiloes = entity.colorStrings;
-            golfie = entity.guildId;
+            option = entity.guildId;
             entity = 4;
             entity = yankee[entity];
-            report = oscard.bind(zuuluu)(entity);
-            entity = report.isNativeMessageEligibleForEnhancedRoleColors;
-            sizing = entity.bind(report)(golfie, backup);
+            golfie = oscard.bind(zuuluu)(entity);
+            report = golfie.isNativeMessageEligibleForEnhancedRoleColors;
+            entity = offset.author;
+            entity = entity.id;
+            sizing = report.bind(golfie)(option, entity, backup);
             entity = {};
             report = 5;
             golfie = yankee[report];
@@ -198,24 +200,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = null;
             output = 'username';
             yankee = null;
-            if(!(output === backup)) { _fun00004_ip = 195; continue _fun00003 }
- 192:
+            if(!(output === backup)) { _fun00004_ip = 207; continue _fun00003 }
+ 204:
             yankee = foxtra;
- 195:
+ 207:
             verify['linkColor'] = yankee;
             verify['roleColor'] = foxtra;
             yankee = null;
-            if(!sizing) { _fun00004_ip = 213; continue _fun00003 }
- 210:
+            if(!sizing) { _fun00004_ip = 225; continue _fun00003 }
+ 222:
             yankee = kiloes;
- 213:
+ 225:
             verify['roleColors'] = yankee;
             yankee = 'dot';
             yankee = yankee === backup;
-            if(!yankee) { _fun00004_ip = 233; continue _fun00003 }
- 229:
+            if(!yankee) { _fun00004_ip = 245; continue _fun00003 }
+ 241:
             yankee = romeon != foxtra;
- 233:
+ 245:
             verify['shouldShowRoleDot'] = yankee;
             yankee = offset.channel_id;
             verify['messageChannelId'] = yankee;
@@ -233,9 +235,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 6;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            result = michal.bind(zuuluu)(tangon);
-            echoed = entity;
-            michal = copyDataProperties(echoed, result);
+            echoed = michal.bind(zuuluu)(tangon);
+            update = entity;
+            michal = copyDataProperties(update, echoed);
             return entity;
         }
     };

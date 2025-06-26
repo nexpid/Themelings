@@ -202,31 +202,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = tangon.roleStyle;
             foxtra = romeon.author;
             report = _closure1_slot1;
-            golfie = _closure1_slot2;
+            oscard = _closure1_slot2;
             entity = 3;
-            entity = golfie[entity];
+            entity = oscard[entity];
             zuuluu = undefined;
             entity = report.bind(zuuluu)(entity);
             offset = entity.bind(zuuluu)(romeon);
             report = _closure1_slot0;
             entity = 4;
-            entity = golfie[entity];
-            oscard = report.bind(zuuluu)(entity);
-            entity = oscard.getMessageAuthorWithProcessedColor;
-            entity = entity.bind(oscard)(romeon);
+            entity = oscard[entity];
+            golfie = report.bind(zuuluu)(entity);
+            entity = golfie.getMessageAuthorWithProcessedColor;
+            entity = entity.bind(golfie)(romeon);
             yankee = entity.nick;
             kiloes = entity.colorString;
             output = entity.colorStrings;
-            oscard = entity.guildId;
+            golfie = entity.guildId;
             entity = 5;
-            entity = golfie[entity];
-            report = report.bind(zuuluu)(entity);
-            entity = report.isNativeMessageEligibleForEnhancedRoleColors;
-            result = entity.bind(report)(oscard, sizing);
+            entity = oscard[entity];
+            oscard = report.bind(zuuluu)(entity);
+            report = oscard.isNativeMessageEligibleForEnhancedRoleColors;
+            entity = foxtra.id;
+            result = report.bind(oscard)(golfie, entity, sizing);
             entity = {};
             report = 1;
-            if(!(!(offset > report))) { _fun00006_ip = 310; continue _fun00005 }
- 136:
+            if(!(!(offset > report))) { _fun00006_ip = 316; continue _fun00005 }
+ 142:
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
             report = 6;
@@ -249,24 +250,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = null;
             update = 'username';
             backup = null;
-            if(!(update === sizing)) { _fun00006_ip = 234; continue _fun00005 }
- 231:
+            if(!(update === sizing)) { _fun00006_ip = 240; continue _fun00005 }
+ 237:
             backup = kiloes;
- 234:
+ 240:
             verify['linkColor'] = backup;
             verify['roleColor'] = kiloes;
             backup = null;
-            if(!result) { _fun00006_ip = 252; continue _fun00005 }
- 249:
+            if(!result) { _fun00006_ip = 258; continue _fun00005 }
+ 255:
             backup = output;
- 252:
+ 258:
             verify['roleColors'] = backup;
             backup = 'dot';
             backup = backup === sizing;
-            if(!backup) { _fun00006_ip = 272; continue _fun00005 }
- 268:
+            if(!backup) { _fun00006_ip = 278; continue _fun00005 }
+ 274:
             backup = echoed != kiloes;
- 272:
+ 278:
             verify['shouldShowRoleDot'] = backup;
             backup = romeon.channel_id;
             verify['messageChannelId'] = backup;
@@ -274,8 +275,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['medium'] = backup;
             report['usernameOnClick'] = verify;
             report = golfie.bind(option)(oscard, report);
-            _fun00006_ip = 484; continue _fun00005;
- 310:
+            _fun00006_ip = 490; continue _fun00005;
+ 316:
             golfie = _closure1_slot0;
             backup = _closure1_slot2;
             oscard = 6;
@@ -298,24 +299,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = null;
             echoed = 'username';
             foxtra = null;
-            if(!(echoed === sizing)) { _fun00006_ip = 408; continue _fun00005 }
- 405:
+            if(!(echoed === sizing)) { _fun00006_ip = 414; continue _fun00005 }
+ 411:
             foxtra = kiloes;
- 408:
+ 414:
             yankee['linkColor'] = foxtra;
             yankee['roleColor'] = kiloes;
             foxtra = null;
-            if(!result) { _fun00006_ip = 426; continue _fun00005 }
- 423:
+            if(!result) { _fun00006_ip = 432; continue _fun00005 }
+ 429:
             foxtra = output;
- 426:
+ 432:
             yankee['roleColors'] = foxtra;
             foxtra = 'dot';
             foxtra = foxtra === sizing;
-            if(!foxtra) { _fun00006_ip = 446; continue _fun00005 }
- 442:
+            if(!foxtra) { _fun00006_ip = 452; continue _fun00005 }
+ 448:
             foxtra = backup != kiloes;
- 446:
+ 452:
             yankee['shouldShowRoleDot'] = foxtra;
             romeon = romeon.channel_id;
             yankee['messageChannelId'] = romeon;
@@ -324,16 +325,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['usernameOnClick'] = yankee;
             oscard['numSubscriptions'] = offset;
             report = option.bind(verify)(golfie, oscard);
- 484:
+ 490:
             entity['content'] = report;
             report = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 7;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            source = michal.bind(zuuluu)(tangon);
-            ctrled = entity;
-            michal = copyDataProperties(ctrled, source);
+            ctrled = michal.bind(zuuluu)(tangon);
+            vacuum = entity;
+            michal = copyDataProperties(vacuum, ctrled);
             return entity;
         }
     };

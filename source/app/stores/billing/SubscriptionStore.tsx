@@ -154,7 +154,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = _closure1_slot14;
  33:
             entity = null;
-            if(!(entity != verify)) { _fun00006_ip = 234; continue _fun00005 }
+            if(!(entity != verify)) { _fun00006_ip = 255; continue _fun00005 }
  42:
             golfie = verify;
             for(tangon in golfie)
@@ -165,11 +165,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = verify[michal];
                 zuuluu = _closure1_slot29;
                 zuuluu = zuuluu.bind(yankee)(michal);
-                if(zuuluu) { _fun00006_ip = 203; continue _fun00005 }
- 87:
-                zuuluu = _closure1_slot19;
-                if(zuuluu) { _fun00006_ip = 201; continue _fun00005 }
- 94:
+                if(zuuluu) { _fun00006_ip = 224; continue _fun00005 }
+ 90:
+                backup = _closure1_slot9;
+                zuuluu = backup.getSuspendedUserToken;
+                zuuluu = zuuluu.bind(backup)();
+                backup = _closure1_slot19;
+                if(backup) { _fun00006_ip = 222; continue _fun00005 }
+ 111:
+                if(!(entity == zuuluu)) { _fun00006_ip = 222; continue _fun00005 }
+ 115:
                 backup = _closure1_slot9;
                 zuuluu = backup.getId;
                 result = zuuluu.bind(backup)();
@@ -194,22 +199,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = backup.bind(kiloes)(sizing, zuuluu);
                 zuuluu = true;
                 _closure1_slot19 = zuuluu;
- 201:
+ 222:
                 return entity;
- 203:
+ 224:
                 zuuluu = michal.type;
                 if(zuuluu !== foxtra) { _fun00006_ip = 56; continue _fun00005 }
- 215:
-                if(!(entity != romeon)) { _fun00006_ip = 230; continue _fun00005 }
- 219:
+ 236:
+                if(!(entity != romeon)) { _fun00006_ip = 251; continue _fun00005 }
+ 240:
                 zuuluu = romeon.bind(yankee)(michal);
                 if(!zuuluu) { _fun00006_ip = 56; continue _fun00005 }
- 230:
+ 251:
                 return michal;
             }
- 232:
+ 253:
             return entity;
- 234:
+ 255:
             return entity;
         }
     };

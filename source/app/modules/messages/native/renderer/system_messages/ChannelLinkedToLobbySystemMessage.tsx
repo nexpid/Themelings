@@ -57,24 +57,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = yankee;
  86:
             michal = oscard.bind(offset)(michal);
-            if(!(entity != michal)) { _fun00002_ip = 494; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 500; continue _fun00001 }
  98:
             backup = _closure1_slot0;
-            sizing = _closure1_slot2;
+            kiloes = _closure1_slot2;
             oscard = 3;
-            oscard = sizing[oscard];
+            oscard = kiloes[oscard];
             offset = backup.bind(tangon)(oscard);
             oscard = offset.getMessageAuthorWithProcessedColor;
             offset = oscard.bind(offset)(golfie);
             oscard = offset.nick;
             yankee = offset.colorString;
             foxtra = offset.colorStrings;
-            kiloes = offset.guildId;
+            sizing = offset.guildId;
             offset = 4;
-            offset = sizing[offset];
-            backup = backup.bind(tangon)(offset);
-            offset = backup.isNativeMessageEligibleForEnhancedRoleColors;
-            backup = offset.bind(backup)(kiloes, romeon);
+            offset = kiloes[offset];
+            kiloes = backup.bind(tangon)(offset);
+            backup = kiloes.isNativeMessageEligibleForEnhancedRoleColors;
+            offset = option.id;
+            backup = backup.bind(kiloes)(sizing, offset, romeon);
             offset = {};
             offset['username'] = oscard;
             oscard = {};
@@ -85,28 +86,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard['colorString'] = yankee;
             kiloes = 'username';
             option = null;
-            if(!(kiloes === romeon)) { _fun00002_ip = 221; continue _fun00001 }
- 218:
+            if(!(kiloes === romeon)) { _fun00002_ip = 227; continue _fun00001 }
+ 224:
             option = yankee;
- 221:
-            if(!(entity == option)) { _fun00002_ip = 231; continue _fun00001 }
- 225:
-            option = verify.defaultUsernameColor;
+ 227:
+            if(!(entity == option)) { _fun00002_ip = 237; continue _fun00001 }
  231:
+            option = verify.defaultUsernameColor;
+ 237:
             oscard['linkColor'] = option;
             oscard['roleColor'] = yankee;
             option = null;
-            if(!backup) { _fun00002_ip = 249; continue _fun00001 }
- 246:
+            if(!backup) { _fun00002_ip = 255; continue _fun00001 }
+ 252:
             option = foxtra;
- 249:
+ 255:
             oscard['roleColors'] = option;
             option = 'dot';
             option = option === romeon;
-            if(!option) { _fun00002_ip = 269; continue _fun00001 }
- 265:
+            if(!option) { _fun00002_ip = 275; continue _fun00001 }
+ 271:
             option = entity != yankee;
- 269:
+ 275:
             oscard['shouldShowRoleDot'] = option;
             golfie = golfie.channel_id;
             oscard['messageChannelId'] = golfie;
@@ -153,11 +154,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = 7;
             zuuluu = golfie[zuuluu];
             zuuluu = oscard.bind(tangon)(zuuluu);
-            output = zuuluu.bind(tangon)(report);
-            result = michal;
-            zuuluu = copyDataProperties(result, output);
+            result = zuuluu.bind(tangon)(report);
+            echoed = michal;
+            zuuluu = copyDataProperties(echoed, result);
             return michal;
- 494:
+ 500:
             return entity;
         }
     };

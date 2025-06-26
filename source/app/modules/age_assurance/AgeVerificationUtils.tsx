@@ -40,23 +40,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 5;
     tangon = verify[tangon];
     tangon = option.bind(entity)(tangon);
-    tangon = tangon.MessageEmbedTypes;
+    tangon = tangon.FULLSCREEN_AGE_VERIFICATION_ENTRY_POINTS;
     var _closure1_slot8 = tangon;
     tangon = 6;
     tangon = verify[tangon];
     tangon = option.bind(entity)(tangon);
-    tangon = tangon.SafetyToastType;
+    tangon = tangon.MessageEmbedTypes;
     var _closure1_slot9 = tangon;
+    tangon = 7;
+    tangon = verify[tangon];
+    tangon = option.bind(entity)(tangon);
+    tangon = tangon.SafetyToastType;
+    var _closure1_slot10 = tangon;
     oscard = {};
     tangon = 'ctas';
     oscard['CTAS'] = tangon;
     tangon = 'content_type';
     oscard['CONTENT_TYPE'] = tangon;
-    var _closure1_slot10 = oscard;
+    var _closure1_slot11 = oscard;
     report = {};
     tangon = 'retry';
     report['RETRY'] = tangon;
-    var _closure1_slot11 = report;
+    var _closure1_slot12 = report;
     tangon = {};
     golfie = 'verified_adult';
     tangon['VERIFIED_ADULT'] = golfie;
@@ -64,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['VERIFIED_TEEN'] = golfie;
     golfie = 'error';
     tangon['ERROR'] = golfie;
-    golfie = 14;
+    golfie = 15;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
@@ -86,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  35:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = report[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -101,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 8;
+            michal = 9;
             michal = tangon[michal];
             tangon = undefined;
             oscard = zuuluu.bind(tangon)(michal);
@@ -125,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  72:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = report[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -151,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  35:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = report[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -166,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 8;
+            michal = 9;
             michal = tangon[michal];
             tangon = undefined;
             oscard = zuuluu.bind(tangon)(michal);
@@ -190,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  72:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = report[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -216,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  35:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = report[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -231,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 8;
+            michal = 9;
             michal = tangon[michal];
             tangon = undefined;
             oscard = zuuluu.bind(tangon)(michal);
@@ -255,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  72:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = report[entity];
             entity = zuuluu.bind(tangon)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -295,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = zuuluu.embeds;
             report = report[tangon];
             oscard = report.type;
-            report = _closure1_slot8;
+            report = _closure1_slot9;
             report = report.AGE_VERIFICATION_SYSTEM_NOTIFICATION;
             if(!(oscard === report)) { _fun00014_ip = 200; continue _fun00013 }
  116:
@@ -306,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = function(argFoo) {
                 entity = argFoo;
                 michal = entity.rawName;
-                entity = _closure1_slot10;
+                entity = _closure1_slot11;
                 entity = entity.CTAS;
                 entity = michal === entity;
                 return entity;
@@ -321,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = ',';
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.includes;
-            michal = _closure1_slot11;
+            michal = _closure1_slot12;
             michal = michal.RETRY;
             entity = zuuluu.bind(tangon)(michal);
  198:
@@ -348,7 +353,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  35:
             option = _closure1_slot0;
             entity = _closure1_slot2;
-            oscard = 7;
+            oscard = 8;
             entity = entity[oscard];
             entity = option.bind(report)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -379,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
-            entity = 8;
+            entity = 9;
             entity = tangon[entity];
             report = undefined;
             oscard = zuuluu.bind(report)(entity);
@@ -403,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  72:
             option = _closure1_slot0;
             entity = _closure1_slot2;
-            oscard = 7;
+            oscard = 8;
             entity = entity[oscard];
             entity = option.bind(report)(entity);
             entity = entity.AgeVerificationStatusUkAndAusOnly;
@@ -434,54 +439,54 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             golfie = argFoo;
             var _closure2_slot0 = golfie;
-            oscard = _closure1_slot5;
-            tangon = oscard.useState;
-            entity = false;
-            report = tangon.bind(oscard)(entity);
+            option = _closure1_slot5;
+            zuuluu = option.useState;
+            michal = false;
+            oscard = zuuluu.bind(option)(michal);
             tangon = _closure1_slot4;
-            option = undefined;
-            entity = 2;
-            report = tangon.bind(option)(report, entity);
-            entity = 0;
-            tangon = report[entity];
-            entity = 1;
-            entity = report[entity];
-            var _closure2_slot1 = entity;
-            report = _closure1_slot0;
+            michal = undefined;
+            zuuluu = 2;
+            oscard = tangon.bind(michal)(oscard, zuuluu);
+            zuuluu = 0;
+            zuuluu = oscard[zuuluu];
+            tangon = 1;
+            tangon = oscard[tangon];
+            var _closure2_slot1 = tangon;
+            oscard = _closure1_slot0;
             verify = _closure1_slot2;
-            entity = 8;
-            entity = verify[entity];
-            offset = report.bind(option)(entity);
+            tangon = 9;
+            tangon = verify[tangon];
+            offset = oscard.bind(michal)(tangon);
             verify = offset.useStateFromStores;
-            entity = _closure1_slot7;
-            report = new Array(1);
-            report[0] = entity;
-            entity = function() {
+            tangon = _closure1_slot7;
+            oscard = new Array(1);
+            oscard[0] = tangon;
+            tangon = function() {
                 michal = _closure1_slot7;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            verify = verify.bind(offset)(report, entity);
-            report = oscard.useRef;
-            entity = null;
-            offset = entity == verify;
-            entity = undefined;
+            verify = verify.bind(offset)(oscard, tangon);
+            oscard = option.useRef;
+            tangon = null;
+            offset = tangon == verify;
+            tangon = undefined;
             if(offset) { _fun00020_ip = 130; continue _fun00019 }
  124:
-            entity = verify.ageVerificationStatus;
+            tangon = verify.ageVerificationStatus;
  130:
-            entity = report.bind(oscard)(entity);
-            entity = entity.current;
-            var _closure2_slot2 = entity;
+            tangon = oscard.bind(option)(tangon);
+            tangon = tangon.current;
+            var _closure2_slot2 = tangon;
             report = _closure1_slot5;
-            verify = report.useCallback;
+            option = report.useCallback;
             oscard = new Array(1);
-            oscard[0] = entity;
-            entity = function() {
+            oscard[0] = tangon;
+            tangon = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 9;
+                entity = 10;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -494,117 +499,135 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            oscard = verify.bind(report)(entity, oscard);
+            oscard = option.bind(report)(tangon, oscard);
             var _closure2_slot3 = oscard;
-            entity = {};
-            entity['loading'] = tangon;
             tangon = report.useCallback;
-            zuuluu = _closure1_slot3;
-            michal = function* () {
-                entity = function* () { // Original name: ?anon_0_
-                    _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+            entity = function() {
+                tangon = _closure1_slot3;
+                zuuluu = undefined;
+                michal = function* (argFoo) {
+                    entity = function* (argFoo) { // Original name: ?anon_0_
+                        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
-                        StartGenerator();
-                        ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00022_ip = 277; continue _fun00021 }
+                            StartGenerator();
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(michal) { _fun00022_ip = 285; continue _fun00021 }
  10:
-                        tangon = _closure2_slot1;
-                        report = undefined;
-                        michal = true;
-                        michal = tangon.bind(report)(michal);
- 26: // try_start_0 // try_start_1
-                        oscard = _closure1_slot1;
-                        golfie = _closure1_slot2;
-                        michal = 9;
-                        michal = golfie[michal];
-                        option = oscard.bind(report)(michal);
-                        oscard = option.dispatch;
-                        michal = {};
-                        verify = 'INITIATE_AGE_VERIFICATION';
-                        michal['type'] = verify;
-                        michal = oscard.bind(option)(michal);
-                        oscard = _closure1_slot0;
-                        michal = 10;
-                        michal = golfie[michal];
-                        oscard = oscard.bind(report)(michal);
-                        michal = oscard.initiateVerification;
-                        michal = michal.bind(oscard)();
-                        SaveGenerator(address=101);
- 99:
-                        return michal;
- 101:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
-                        if(oscard) { _fun00022_ip = 180; continue _fun00021 }
- 107:
-                        oscard = _closure1_slot1;
-                        golfie = _closure1_slot2;
-                        tangon = 11;
-                        tangon = golfie[tangon];
-                        golfie = oscard.bind(report)(tangon);
-                        oscard = golfie.showAgeVerification;
-                        tangon = {};
-                        option = michal.verification_webview_url;
-                        tangon['webviewUrl'] = option;
-                        option = _closure2_slot0;
-                        tangon['onComplete'] = option;
-                        option = _closure2_slot3;
-                        tangon['onClose'] = option;
-                        option = _closure2_slot3;
-                        tangon['onCancel'] = option;
-                        tangon = oscard.bind(golfie)(tangon);
- 178: // try_end0
-                        _fun00022_ip = 248; continue _fun00021;
- 180: // try_end1
-                        oscard = _closure2_slot1;
-                        tangon = false;
-                        tangon = oscard.bind(report)(tangon);
-                        return michal;
- 194: // try_start_2 // catch_target0
-                        CatchBlockStart(arg_register=1);
-                        oscard = _closure1_slot1;
-                        golfie = _closure1_slot2;
-                        tangon = 12;
-                        tangon = golfie[tangon];
-                        oscard = oscard.bind(report)(tangon);
-                        tangon = oscard.showFailedToast;
-                        michal = _closure1_slot9;
-                        michal = michal.TIGGER_PAWTECT_ERROR;
-                        michal = tangon.bind(oscard)(michal);
-                        michal = _closure2_slot3;
-                        michal = michal.bind(report)();
- 248: // try_end2
-                        tangon = _closure2_slot1;
-                        michal = false;
-                        michal = tangon.bind(report)(michal);
-                        return report;
- 262: // catch_target1 // catch_target2
-                        CatchBlockStart(arg_register=1);
-                        tangon = _closure2_slot1;
-                        zuuluu = false;
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        throw michal;
- 277:
-                        return entity;
-                    }
+                            option = argFoo;
+                            tangon = _closure2_slot1;
+                            report = undefined;
+                            michal = true;
+                            michal = tangon.bind(report)(michal);
+ 29: // try_start_0 // try_start_1
+                            oscard = _closure1_slot1;
+                            golfie = _closure1_slot2;
+                            michal = 10;
+                            michal = golfie[michal];
+                            verify = oscard.bind(report)(michal);
+                            oscard = verify.dispatch;
+                            michal = {};
+                            offset = 'INITIATE_AGE_VERIFICATION';
+                            michal['type'] = offset;
+                            michal = oscard.bind(verify)(michal);
+                            oscard = _closure1_slot0;
+                            michal = 11;
+                            michal = golfie[michal];
+                            oscard = oscard.bind(report)(michal);
+                            michal = oscard.initiateVerification;
+                            michal = michal.bind(oscard)();
+                            SaveGenerator(address=104);
+ 102:
+                            return michal;
+ 104:
+                            ResumeGenerator(result_out_reg=1, return_bool_out_reg=5);
+                            if(oscard) { _fun00022_ip = 188; continue _fun00021 }
+ 110:
+                            oscard = _closure1_slot1;
+                            golfie = _closure1_slot2;
+                            tangon = 12;
+                            tangon = golfie[tangon];
+                            golfie = oscard.bind(report)(tangon);
+                            oscard = golfie.showAgeVerification;
+                            tangon = {};
+                            verify = michal.verification_webview_url;
+                            tangon['webviewUrl'] = verify;
+                            verify = _closure2_slot0;
+                            tangon['onComplete'] = verify;
+                            verify = _closure2_slot3;
+                            tangon['onClose'] = verify;
+                            verify = _closure2_slot3;
+                            tangon['onCancel'] = verify;
+                            tangon['entryPoint'] = option;
+                            tangon = oscard.bind(golfie)(tangon);
+ 186: // try_end0
+                            _fun00022_ip = 256; continue _fun00021;
+ 188: // try_end1
+                            oscard = _closure2_slot1;
+                            tangon = false;
+                            tangon = oscard.bind(report)(tangon);
+                            return michal;
+ 202: // try_start_2 // catch_target0
+                            CatchBlockStart(arg_register=1);
+                            oscard = _closure1_slot1;
+                            golfie = _closure1_slot2;
+                            tangon = 13;
+                            tangon = golfie[tangon];
+                            oscard = oscard.bind(report)(tangon);
+                            tangon = oscard.showFailedToast;
+                            michal = _closure1_slot10;
+                            michal = michal.TIGGER_PAWTECT_ERROR;
+                            michal = tangon.bind(oscard)(michal);
+                            michal = _closure2_slot3;
+                            michal = michal.bind(report)();
+ 256: // try_end2
+                            tangon = _closure2_slot1;
+                            michal = false;
+                            michal = tangon.bind(report)(michal);
+                            return report;
+ 270: // catch_target1 // catch_target2
+                            CatchBlockStart(arg_register=1);
+                            tangon = _closure2_slot1;
+                            zuuluu = false;
+                            zuuluu = tangon.bind(report)(zuuluu);
+                            throw michal;
+ 285:
+                            return entity;
+                        }
+                    };
+                    return entity;
+                };
+                michal = tangon.bind(zuuluu)(michal);
+                var _closure3_slot0 = michal;
+                entity = function() {
+                    entity = undefined;
+                    tangon = _closure3_slot0;
+                    zuuluu = tangon.apply;
+                    entity = arguments;
+                    michal = entity;
+                    entity = this;
+                    entity = zuuluu.bind(tangon)(entity, michal);
+                    return entity;
                 };
                 return entity;
             };
-            zuuluu = zuuluu.bind(option)(michal);
-            michal = new Array(2);
-            michal[0] = golfie;
-            michal[1] = oscard;
-            michal = tangon.bind(report)(zuuluu, michal);
+            michal = entity.bind(michal)();
+            entity = new Array(2);
+            entity[0] = golfie;
+            entity[1] = oscard;
+            michal = tangon.bind(report)(michal, entity);
+            entity = {};
+            entity['loading'] = zuuluu;
             entity['initiateAgeVerification'] = michal;
             return entity;
         }
     };
     zuuluu['useInitiateAgeVerification'] = tangon;
-    michal = function(argFoo) { // Original name: useWatchAgeVerificationStatusChange
+    tangon = function(argFoo) { // Original name: useWatchAgeVerificationStatusChange
         option = argFoo;
         var _closure2_slot0 = option;
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 8;
+        entity = 9;
         tangon = oscard[entity];
         entity = undefined;
         verify = report.bind(entity)(tangon);
@@ -631,7 +654,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = golfie.bind(verify)(report, tangon);
         var _closure2_slot1 = golfie;
         report = _closure1_slot1;
-        tangon = 13;
+        tangon = 14;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
         oscard = tangon.bind(entity)(golfie);
@@ -672,6 +695,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zuuluu['useWatchAgeVerificationStatusChange'] = michal;
+    zuuluu['useWatchAgeVerificationStatusChange'] = tangon;
+    michal = function(argFoo) { // Original name: isFullscreenAgeVerificationEntryPoint
+        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+ 0:
+            tangon = argFoo;
+            entity = null;
+            entity = entity != tangon;
+            if(!entity) { _fun00028_ip = 29; continue _fun00027 }
+ 12:
+            zuuluu = _closure1_slot8;
+            michal = zuuluu.has;
+            entity = michal.bind(zuuluu)(tangon);
+ 29:
+            return entity;
+        }
+    };
+    zuuluu['isFullscreenAgeVerificationEntryPoint'] = michal;
     return entity;
 })();

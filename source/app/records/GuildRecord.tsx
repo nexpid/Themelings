@@ -547,39 +547,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = report.DEFAULT;
  762:
                 entity['nsfwLevel'] = tangon;
+                report = zuuluu.ownerConfiguredContentLevel;
+                oscard = michal != report;
+                tangon = null;
+                if(!oscard) { _fun00012_ip = 786; continue _fun00011 }
+ 783:
+                tangon = report;
+ 786:
+                entity['ownerConfiguredContentLevel'] = tangon;
                 tangon = zuuluu.hubType;
                 entity['hubType'] = tangon;
                 report = zuuluu.latestOnboardingQuestionId;
-                oscard = michal != report;
-                tangon = null;
-                if(!oscard) { _fun00012_ip = 798; continue _fun00011 }
- 795:
-                tangon = report;
- 798:
-                entity['latestOnboardingQuestionId'] = tangon;
-                report = zuuluu.profile;
                 oscard = michal != report;
                 tangon = null;
                 if(!oscard) { _fun00012_ip = 822; continue _fun00011 }
  819:
                 tangon = report;
  822:
-                entity['profile'] = tangon;
-                report = zuuluu.premiumFeatures;
+                entity['latestOnboardingQuestionId'] = tangon;
+                report = zuuluu.profile;
                 oscard = michal != report;
                 tangon = null;
                 if(!oscard) { _fun00012_ip = 846; continue _fun00011 }
  843:
                 tangon = report;
  846:
+                entity['profile'] = tangon;
+                report = zuuluu.premiumFeatures;
+                oscard = michal != report;
+                tangon = null;
+                if(!oscard) { _fun00012_ip = 870; continue _fun00011 }
+ 867:
+                tangon = report;
+ 870:
                 entity['premiumFeatures'] = tangon;
                 zuuluu = zuuluu.moderatorReporting;
                 tangon = michal != zuuluu;
                 michal = null;
-                if(!tangon) { _fun00012_ip = 870; continue _fun00011 }
- 867:
+                if(!tangon) { _fun00012_ip = 894; continue _fun00011 }
+ 891:
                 michal = zuuluu;
- 870:
+ 894:
                 entity['moderatorReporting'] = michal;
                 return entity;
             }
@@ -696,7 +704,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         report['value'] = entity;
-        entity = new Array(20);
+        entity = new Array(21);
         entity[0] = report;
         report = {};
         golfie = 'getSafetyAlertsChannelId';
@@ -1124,7 +1132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = {};
         golfie = 'updateJoinedAt';
         report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
+        golfie = function(argFoo) { // Original name: value
             _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
                 oscard = argFoo;
@@ -1149,15 +1157,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[19] = report;
+        report = {};
+        golfie = 'isNSFW';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+ 0:
+                zuuluu = this;
+                tangon = zuuluu.nsfwLevel;
+                entity = _closure1_slot15;
+                entity = entity.EXPLICIT;
+                entity = tangon === entity;
+                if(entity) { _fun00042_ip = 49; continue _fun00041 }
+ 29:
+                zuuluu = zuuluu.nsfwLevel;
+                michal = _closure1_slot15;
+                michal = michal.AGE_RESTRICTED;
+                entity = zuuluu === michal;
+ 49:
+                return entity;
+            }
+        };
+        report['value'] = oscard;
+        entity[20] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
     michal = michal.bind(entity)(report);
     tangon = function(argFoo) {
         zuuluu = function(argFoo) { // Original name: GuildRecordWithRoles
-            _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+            _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
  0:
                 zuuluu = argFoo;
                 oscard = this;
@@ -1171,24 +1202,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(tangon)(oscard, report, entity);
                 tangon = zuuluu.roles;
                 michal = null;
-                if(!(michal == tangon)) { _fun00042_ip = 61; continue _fun00041 }
+                if(!(michal == tangon)) { _fun00044_ip = 61; continue _fun00043 }
  59:
                 tangon = {};
  61:
                 entity['roles'] = tangon;
                 tangon = zuuluu.member;
-                if(!tangon) { _fun00042_ip = 105; continue _fun00041 }
+                if(!tangon) { _fun00044_ip = 105; continue _fun00043 }
  76:
                 tangon = zuuluu.member;
                 tangon = tangon.userId;
-                if(!tangon) { _fun00042_ip = 105; continue _fun00041 }
+                if(!tangon) { _fun00044_ip = 105; continue _fun00043 }
  90:
                 tangon = zuuluu.member;
                 tangon = tangon.roles;
-                if(tangon) { _fun00042_ip = 113; continue _fun00041 }
+                if(tangon) { _fun00044_ip = 113; continue _fun00043 }
  105:
                 entity['member'] = michal;
-                _fun00042_ip = 153; continue _fun00041;
+                _fun00044_ip = 153; continue _fun00043;
  113:
                 michal = {};
                 tangon = zuuluu.member;

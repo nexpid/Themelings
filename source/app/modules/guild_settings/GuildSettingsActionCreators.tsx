@@ -668,69 +668,71 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             zuuluu = argBar;
             golfie = arguments[2];
             var _closure2_slot0 = verify;
-            cntext = zuuluu.name;
-            record = zuuluu.description;
-            config = zuuluu.icon;
-            sequen = zuuluu.splash;
-            vacuum = zuuluu.banner;
-            ctrled = zuuluu.homeHeader;
-            echoed = zuuluu.afkChannelId;
-            result = zuuluu.afkTimeout;
-            output = zuuluu.systemChannelId;
-            sizing = zuuluu.verificationLevel;
-            kiloes = zuuluu.defaultMessageNotifications;
-            backup = zuuluu.explicitContentFilter;
-            source = zuuluu.features;
-            foxtra = zuuluu.systemChannelFlags;
-            update = zuuluu.preferredLocale;
-            romeon = zuuluu.rulesChannelId;
+            papara = zuuluu.name;
+            cntext = zuuluu.description;
+            record = zuuluu.icon;
+            config = zuuluu.splash;
+            sequen = zuuluu.banner;
+            vacuum = zuuluu.homeHeader;
+            update = zuuluu.afkChannelId;
+            echoed = zuuluu.afkTimeout;
+            result = zuuluu.systemChannelId;
+            output = zuuluu.verificationLevel;
+            sizing = zuuluu.defaultMessageNotifications;
+            kiloes = zuuluu.explicitContentFilter;
+            ctrled = zuuluu.features;
+            backup = zuuluu.systemChannelFlags;
+            source = zuuluu.preferredLocale;
+            foxtra = zuuluu.rulesChannelId;
             michal = zuuluu.safetyAlertsChannelId;
+            romeon = zuuluu.ownerConfiguredContentLevel;
             option = zuuluu.discoverySplash;
             oscard = zuuluu.publicUpdatesChannelId;
             yankee = zuuluu.premiumProgressBarEnabled;
             offset = zuuluu.profile;
             zuuluu = zuuluu.moderatorReportingEnabled;
             tangon = undefined;
-            if(!(golfie === tangon)) { _fun00010_ip = 152; continue _fun00009 }
- 150:
+            if(!(golfie === tangon)) { _fun00010_ip = 158; continue _fun00009 }
+ 156:
             golfie = {};
- 152:
+ 158:
             var _closure2_slot1 = golfie;
             report = {};
-            report['name'] = cntext;
-            report['description'] = record;
-            report['icon'] = config;
-            report['splash'] = sequen;
-            report['banner'] = vacuum;
-            report['home_header'] = ctrled;
-            report['features'] = source;
-            report['preferred_locale'] = update;
-            report['afk_channel_id'] = echoed;
-            report['afk_timeout'] = result;
-            report['system_channel_id'] = output;
-            report['verification_level'] = sizing;
-            report['default_message_notifications'] = kiloes;
-            report['explicit_content_filter'] = backup;
-            report['system_channel_flags'] = foxtra;
-            report['rules_channel_id'] = romeon;
+            report['name'] = papara;
+            report['description'] = cntext;
+            report['icon'] = record;
+            report['splash'] = config;
+            report['banner'] = sequen;
+            report['home_header'] = vacuum;
+            report['features'] = ctrled;
+            report['preferred_locale'] = source;
+            report['afk_channel_id'] = update;
+            report['afk_timeout'] = echoed;
+            report['system_channel_id'] = result;
+            report['verification_level'] = output;
+            report['default_message_notifications'] = sizing;
+            report['explicit_content_filter'] = kiloes;
+            report['system_channel_flags'] = backup;
+            report['rules_channel_id'] = foxtra;
+            report['owner_configured_content_level'] = romeon;
             report['discovery_splash'] = option;
             report['public_updates_channel_id'] = oscard;
             report['safety_alerts_channel_id'] = michal;
             michal = null;
             option = michal != yankee;
             oscard = null;
-            if(!option) { _fun00010_ip = 271; continue _fun00009 }
- 261:
+            if(!option) { _fun00010_ip = 282; continue _fun00009 }
+ 272:
             option = {};
             option['premium_progress_bar_enabled'] = yankee;
             oscard = option;
- 271:
-            target = report;
-            papara = oscard;
-            oscard = copyDataProperties(target, papara);
+ 282:
+            status = report;
+            target = oscard;
+            oscard = copyDataProperties(status, target);
             oscard = offset;
-            if(!(michal != oscard)) { _fun00010_ip = 322; continue _fun00009 }
- 288:
+            if(!(michal != oscard)) { _fun00010_ip = 333; continue _fun00009 }
+ 299:
             option = _closure1_slot0;
             yankee = _closure1_slot2;
             michal = 14;
@@ -738,7 +740,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = option.bind(tangon)(michal);
             michal = option.toServerGuildProfile;
             oscard = michal.bind(option)(offset);
- 322:
+ 333:
             michal = 'profile';
             report[michal] = oscard;
             michal = 'moderator_reporting_enabled';

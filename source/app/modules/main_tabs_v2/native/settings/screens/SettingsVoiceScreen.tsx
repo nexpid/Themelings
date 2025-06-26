@@ -69,7 +69,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             oscard = 12;
             oscard = sizing[oscard];
             oscard = kiloes.bind(tangon)(oscard);
-            golfie = oscard.TouchableOpacity;
+            golfie = oscard.Pressable;
             oscard = {};
             offset = 13;
             offset = sizing[offset];

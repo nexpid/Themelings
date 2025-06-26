@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot7 = golfie;
     tangon = tangon.RegistrationTransitionActionTypes;
     var _closure1_slot8 = tangon;
-    tangon = 11;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -58,97 +58,92 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot2;
             tangon = 5;
             tangon = golfie[tangon];
-            foxtra = undefined;
-            tangon = report.bind(foxtra)(tangon);
+            offset = undefined;
+            tangon = report.bind(offset)(tangon);
             tangon = tangon.TrackRegistrationContext;
-            verify = option.bind(oscard)(tangon);
-            var _closure2_slot1 = verify;
+            option = option.bind(oscard)(tangon);
+            var _closure2_slot1 = option;
             tangon = 6;
             tangon = golfie[tangon];
-            report = report.bind(foxtra)(tangon);
+            report = report.bind(offset)(tangon);
             tangon = report.useNavigation;
-            offset = tangon.bind(report)();
-            var _closure2_slot2 = offset;
+            romeon = tangon.bind(report)();
+            var _closure2_slot2 = romeon;
             report = _closure1_slot6;
             tangon = function(argFoo) {
                 entity = argFoo;
                 entity = entity.registrationOptions;
                 return entity;
             };
-            yankee = report.bind(foxtra)(tangon);
+            tangon = report.bind(offset)(tangon);
             report = oscard.useState;
-            option = yankee.username;
-            golfie = null;
-            if(!(golfie == option)) { _fun00002_ip = 131; continue _fun00001 }
+            golfie = tangon.username;
+            yankee = null;
+            if(!(yankee == golfie)) { _fun00002_ip = 131; continue _fun00001 }
  117:
-            romeon = _closure1_slot5;
-            tangon = romeon.registrationUsernameSuggestion;
-            option = tangon.bind(romeon)();
+            verify = _closure1_slot5;
+            tangon = verify.registrationUsernameSuggestion;
+            golfie = tangon.bind(verify)();
  131:
-            romeon = golfie != option;
+            verify = yankee != golfie;
             tangon = '';
-            if(!romeon) { _fun00002_ip = 145; continue _fun00001 }
+            if(!verify) { _fun00002_ip = 145; continue _fun00001 }
  142:
-            tangon = option;
+            tangon = golfie;
  145:
             oscard = report.bind(oscard)(tangon);
             report = _closure1_slot3;
             tangon = 2;
-            report = report.bind(foxtra)(oscard, tangon);
+            report = report.bind(offset)(oscard, tangon);
             tangon = 0;
-            oscard = report[tangon];
-            var _closure2_slot3 = oscard;
+            golfie = report[tangon];
+            var _closure2_slot3 = golfie;
             tangon = 1;
-            report = report[tangon];
-            option = _closure1_slot6;
+            oscard = report[tangon];
+            report = _closure1_slot6;
             tangon = function(argFoo) {
                 entity = argFoo;
                 entity = entity.errors;
                 return entity;
             };
-            romeon = option.bind(foxtra)(tangon);
-            option = _closure1_slot1;
-            backup = _closure1_slot2;
+            verify = report.bind(offset)(tangon);
+            report = _closure1_slot1;
+            foxtra = _closure1_slot2;
             tangon = 7;
-            tangon = backup[tangon];
-            option = option.bind(foxtra)(tangon);
+            tangon = foxtra[tangon];
+            report = report.bind(offset)(tangon);
             tangon = 'username';
-            option = option.bind(foxtra)(tangon, romeon);
-            romeon = _closure1_slot0;
+            verify = report.bind(offset)(tangon, verify);
+            report = _closure1_slot0;
             tangon = 8;
-            tangon = backup[tangon];
-            backup = romeon.bind(foxtra)(tangon);
-            romeon = backup.useUsernameStatus;
+            tangon = foxtra[tangon];
+            foxtra = report.bind(offset)(tangon);
+            report = foxtra.useUsernameStatus;
             tangon = true;
-            tangon = romeon.bind(backup)(oscard, tangon, tangon);
+            tangon = report.bind(foxtra)(golfie, tangon, tangon);
             var _closure2_slot4 = tangon;
-            golfie = golfie != option;
-            if(!golfie) { _fun00002_ip = 277; continue _fun00001 }
+            report = tangon;
+            if(!(yankee != verify)) { _fun00002_ip = 317; continue _fun00001 }
  268:
-            yankee = yankee.username;
-            golfie = oscard === yankee;
- 277:
-            if(!golfie) { _fun00002_ip = 329; continue _fun00001 }
- 280:
-            golfie = {};
-            romeon = _closure1_slot0;
-            backup = _closure1_slot2;
-            yankee = 9;
-            yankee = backup[yankee];
-            yankee = romeon.bind(foxtra)(yankee);
-            yankee = yankee.NameValidationState;
-            yankee = yankee.ERROR;
-            golfie['type'] = yankee;
-            golfie['message'] = option;
-            _closure2_slot4 = golfie;
-            tangon = golfie;
- 329:
-            option = _closure1_slot4;
-            golfie = option.useCallback;
+            tangon = {};
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            foxtra = 9;
+            foxtra = kiloes[foxtra];
+            foxtra = backup.bind(offset)(foxtra);
+            foxtra = foxtra.NameValidationState;
+            foxtra = foxtra.ERROR;
+            tangon['type'] = foxtra;
+            tangon['message'] = verify;
+            _closure2_slot4 = tangon;
+            report = tangon;
+ 317:
+            verify = _closure1_slot4;
+            tangon = verify.useCallback;
             zuuluu = new Array(4);
-            zuuluu[0] = tangon;
-            zuuluu[1] = offset;
-            zuuluu[2] = verify;
+            zuuluu[0] = report;
+            zuuluu[1] = romeon;
+            zuuluu[2] = option;
             zuuluu[3] = michal;
             michal = function(argFoo) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -231,12 +226,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = golfie.bind(option)(michal, zuuluu);
-            golfie = option.useMemo;
-            michal = new Array(2);
-            michal[0] = oscard;
-            michal[1] = tangon;
-            entity = function() {
+            tangon = tangon.bind(verify)(michal, zuuluu);
+            option = verify.useMemo;
+            zuuluu = new Array(2);
+            zuuluu[0] = golfie;
+            zuuluu[1] = report;
+            michal = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot3;
@@ -270,13 +265,83 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = golfie.bind(option)(entity, michal);
+            zuuluu = option.bind(verify)(michal, zuuluu);
+            option = verify.useCallback;
+            michal = new Array(3);
+            michal[0] = golfie;
+            foxtra = yankee == report;
+            romeon = undefined;
+            if(foxtra) { _fun00002_ip = 416; continue _fun00001 }
+ 411:
+            romeon = report.message;
+ 416:
+            michal[1] = romeon;
+            yankee = yankee == report;
+            offset = undefined;
+            if(yankee) { _fun00002_ip = 434; continue _fun00001 }
+ 429:
+            offset = report.type;
+ 434:
+            michal[2] = offset;
+            entity = function() {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+ 0:
+                    zuuluu = _closure2_slot3;
+                    entity = null;
+                    if(!(entity != zuuluu)) { _fun00008_ip = 97; continue _fun00007 }
+ 13:
+                    tangon = _closure2_slot3;
+                    zuuluu = '';
+                    if(!(zuuluu !== tangon)) { _fun00008_ip = 97; continue _fun00007 }
+ 25:
+                    zuuluu = _closure2_slot4;
+                    report = entity == zuuluu;
+                    oscard = undefined;
+                    tangon = undefined;
+                    if(report) { _fun00008_ip = 45; continue _fun00007 }
+ 40:
+                    tangon = zuuluu.type;
+ 45:
+                    report = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    zuuluu = 9;
+                    zuuluu = golfie[zuuluu];
+                    zuuluu = report.bind(oscard)(zuuluu);
+                    zuuluu = zuuluu.NameValidationState;
+                    zuuluu = zuuluu.ERROR;
+                    entity = null;
+                    if(!(tangon === zuuluu)) { _fun00008_ip = 95; continue _fun00007 }
+ 86:
+                    michal = _closure2_slot4;
+                    entity = michal.message;
+ 95:
+                    _fun00008_ip = 159; continue _fun00007;
+ 97:
+                    oscard = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    michal = 11;
+                    zuuluu = golfie[michal];
+                    report = undefined;
+                    zuuluu = oscard.bind(report)(zuuluu);
+                    tangon = zuuluu.intl;
+                    zuuluu = tangon.string;
+                    michal = golfie[michal];
+                    michal = oscard.bind(report)(michal);
+                    michal = michal.t;
+                    michal = michal.GPfy3N;
+                    entity = zuuluu.bind(tangon)(michal);
+ 159:
+                    return entity;
+                }
+            };
+            michal = option.bind(verify)(entity, michal);
             entity = {};
-            entity['username'] = oscard;
-            entity['setUsername'] = report;
-            entity['usernameStatus'] = tangon;
-            entity['transitionToNextStepOrSubmit'] = zuuluu;
-            entity['preventSubmitUsername'] = michal;
+            entity['username'] = golfie;
+            entity['setUsername'] = oscard;
+            entity['usernameStatus'] = report;
+            entity['transitionToNextStepOrSubmit'] = tangon;
+            entity['preventSubmitUsername'] = zuuluu;
+            entity['validateUsername'] = michal;
             return entity;
         }
     };

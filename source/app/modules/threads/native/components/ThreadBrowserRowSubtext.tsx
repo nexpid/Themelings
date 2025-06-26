@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = foxtra[michal];
         zuuluu = zuuluu.bind(tangon)(michal);
         michal = entity.guild_id;
-        entity = 'ThreadBrowserRowSubtext_CreatedBy';
+        entity = offset.id;
         entity = zuuluu.bind(tangon)(michal, entity);
         var _closure2_slot6 = entity;
         zuuluu = _closure1_slot9;
@@ -598,20 +598,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = yankee;
  224:
             _closure2_slot4 = zuuluu;
-            zuuluu = michal == entity;
-            michal = undefined;
-            if(zuuluu) { _fun00012_ip = 243; continue _fun00011 }
+            yankee = michal == entity;
+            zuuluu = undefined;
+            if(yankee) { _fun00012_ip = 243; continue _fun00011 }
  237:
-            michal = entity.colorStrings;
+            zuuluu = entity.colorStrings;
  243:
-            _closure2_slot5 = michal;
-            zuuluu = _closure1_slot1;
+            _closure2_slot5 = zuuluu;
+            yankee = _closure1_slot1;
             foxtra = _closure1_slot2;
-            michal = 13;
-            michal = foxtra[michal];
-            yankee = zuuluu.bind(tangon)(michal);
+            zuuluu = 13;
+            zuuluu = foxtra[zuuluu];
+            yankee = yankee.bind(tangon)(zuuluu);
             zuuluu = verify.guild_id;
-            michal = 'ThreadBrowserRowSubtext_CreatedBy';
+            foxtra = michal == golfie;
+            michal = undefined;
+            if(foxtra) { _fun00012_ip = 286; continue _fun00011 }
+ 281:
+            michal = golfie.id;
+ 286:
             michal = yankee.bind(tangon)(zuuluu, michal);
             _closure2_slot6 = michal;
             zuuluu = _closure1_slot3;
@@ -671,6 +676,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['accessibilityLabel'] = option;
             golfie = _closure1_slot9;
             verify = _closure1_slot0;
+            foxtra = _closure1_slot2;
             report = 15;
             report = foxtra[report];
             report = verify.bind(tangon)(report);

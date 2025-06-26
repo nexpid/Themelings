@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = entity.nick;
             output = entity.colorString;
             backup = entity.colorStrings;
-            offset = entity.guildId;
+            yankee = entity.guildId;
             oscard = _closure1_slot6;
             report = oscard.getChannel;
             entity = golfie.channel_id;
@@ -407,22 +407,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.id;
             report = option.bind(verify)(report, entity);
             entity = global;
-            yankee = entity.Date;
+            offset = entity.Date;
             verify = _closure1_slot1;
             option = 10;
             option = foxtra[option];
             foxtra = verify.bind(zuuluu)(option);
             verify = foxtra.extractTimestamp;
             option = golfie.id;
-            source = verify.bind(foxtra)(option);
-            verify = yankee.prototype;
-            verify = Object.create(verify, {constructor: {value: yankee}});
-            ctrled = verify;
-            option = new ctrled[yankee](source, update);
+            ctrled = verify.bind(foxtra)(option);
+            verify = offset.prototype;
+            verify = Object.create(verify, {constructor: {value: offset}});
+            vacuum = verify;
+            option = new vacuum[offset](ctrled, source);
             verify = option instanceof Object ? option : verify;
             option = verify.toISOString;
             option = option.bind(verify)();
-            yankee = entity.Date;
+            offset = entity.Date;
             foxtra = null;
             entity = foxtra == report;
             verify = undefined;
@@ -441,11 +441,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  273:
             entity = verify;
  276:
-            verify = yankee.prototype;
-            verify = Object.create(verify, {constructor: {value: yankee}});
-            ctrled = verify;
-            source = entity;
-            entity = new ctrled[yankee](source, update);
+            verify = offset.prototype;
+            verify = Object.create(verify, {constructor: {value: offset}});
+            vacuum = verify;
+            ctrled = entity;
+            entity = new vacuum[offset](ctrled, source);
             verify = entity instanceof Object ? entity : verify;
             entity = verify.toISOString;
             entity = entity.bind(verify)();
@@ -459,9 +459,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = report.rtsState;
  331:
             verify = _closure1_slot0;
-            yankee = _closure1_slot2;
+            offset = _closure1_slot2;
             report = 11;
-            report = yankee[report];
+            report = offset[report];
             report = verify.bind(zuuluu)(report);
             report = report.RequestToSpeakStates;
             report = report.REQUESTED_TO_SPEAK;
@@ -475,9 +475,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot2;
             entity = 12;
             entity = option[entity];
-            report = verify.bind(zuuluu)(entity);
-            entity = report.isNativeMessageEligibleForEnhancedRoleColors;
-            kiloes = entity.bind(report)(offset, echoed);
+            offset = verify.bind(zuuluu)(entity);
+            report = offset.isNativeMessageEligibleForEnhancedRoleColors;
+            entity = sizing.id;
+            kiloes = report.bind(offset)(yankee, entity, echoed);
             entity = {};
             report = 7;
             offset = option[report];
@@ -497,16 +498,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['userId'] = sizing;
             result = 'username';
             sizing = null;
-            if(!(result === echoed)) { _fun00008_ip = 490; continue _fun00007 }
- 487:
+            if(!(result === echoed)) { _fun00008_ip = 496; continue _fun00007 }
+ 493:
             sizing = output;
- 490:
+ 496:
             romeon['linkColor'] = sizing;
             foxtra = null;
-            if(!kiloes) { _fun00008_ip = 503; continue _fun00007 }
- 500:
+            if(!kiloes) { _fun00008_ip = 509; continue _fun00007 }
+ 506:
             foxtra = backup;
- 503:
+ 509:
             romeon['roleColors'] = foxtra;
             foxtra = golfie.channel_id;
             romeon['messageChannelId'] = foxtra;
@@ -535,9 +536,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 13;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            update = michal.bind(zuuluu)(tangon);
-            source = entity;
-            michal = copyDataProperties(source, update);
+            source = michal.bind(zuuluu)(tangon);
+            ctrled = entity;
+            michal = copyDataProperties(ctrled, source);
             return entity;
         }
     };

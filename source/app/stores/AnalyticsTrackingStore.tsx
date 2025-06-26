@@ -122,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['waitFor'] = offset;
     verify = verify.getFingerprint;
     michal['getFingerprint'] = verify;
-    option = function() { // Original name: getSessionId
+    verify = function() { // Original name: getSessionId
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 4;
@@ -151,14 +151,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    michal['getSessionId'] = option;
-    option = 5;
+    michal['getSessionId'] = verify;
+    option = function() { // Original name: getLaunchSignature
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 5;
+        michal = michal[entity];
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        entity = entity.launchSignature;
+        return entity;
+    };
+    michal['getLaunchSignature'] = option;
+    option = 6;
     option = oscard[option];
     option = report.bind(entity)(option);
     option = option.requestSafeIdleCallback;
     michal['scheduleWhenIdle'] = option;
     michal = tangon.bind(golfie)(michal);
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

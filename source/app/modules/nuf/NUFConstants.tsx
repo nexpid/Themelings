@@ -41,7 +41,5 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     zuuluu['NUF_DISCOVERABILITY_MODAL_KEY'] = michal;
     michal = 'nuf-in-app-education-modal-key';
     zuuluu['NUF_IN_APP_EDUCATION_KEY'] = michal;
-    michal = 'nuf-value-props-modal-key';
-    zuuluu['NUF_VALUE_PROPS_MODAL_KEY'] = michal;
     return entity;
 })();

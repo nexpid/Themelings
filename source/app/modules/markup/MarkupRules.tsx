@@ -689,115 +689,89 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity.return();
  58:
             entity = tangon.returnMentionIds;
-            if(entity) { _fun00024_ip = 594; continue _fun00023 }
+            if(entity) { _fun00024_ip = 534; continue _fun00023 }
  70:
             entity = _closure1_slot18;
-            offset = entity.bind(golfie)(tangon);
+            verify = entity.bind(golfie)(tangon);
             option = null;
-            entity = option != offset;
+            entity = option != verify;
             oscard = null;
             if(!entity) { _fun00024_ip = 114; continue _fun00023 }
  93:
-            verify = _closure1_slot6;
-            report = verify.getRole;
-            entity = offset.id;
-            oscard = report.bind(verify)(entity, michal);
+            offset = _closure1_slot6;
+            report = offset.getRole;
+            entity = verify.id;
+            oscard = report.bind(offset)(entity, michal);
  114:
-            if(!(option != oscard)) { _fun00024_ip = 499; continue _fun00023 }
+            if(!(option != oscard)) { _fun00024_ip = 439; continue _fun00023 }
  121:
-            report = _closure1_slot0;
-            verify = _closure1_slot2;
+            offset = _closure1_slot0;
+            yankee = _closure1_slot2;
             entity = 11;
-            entity = verify[entity];
-            yankee = report.bind(golfie)(entity);
-            verify = yankee.getHasEnhancedRoleColors;
-            entity = option == offset;
+            entity = yankee[entity];
+            report = offset.bind(golfie)(entity);
+            entity = report.getIsDefaultErc;
+            entity = entity.bind(report)(oscard);
+            report = 12;
+            report = yankee[report];
+            yankee = offset.bind(golfie)(report);
+            offset = yankee.getHasEnhancedRoleColorsForRole;
+            romeon = option == verify;
             report = undefined;
-            if(entity) { _fun00024_ip = 161; continue _fun00023 }
- 156:
-            report = offset.id;
- 161:
-            entity = 'parse';
-            verify = verify.bind(yankee)(report, entity);
-            entity = oscard.colors;
-            yankee = option == entity;
-            report = undefined;
-            if(yankee) { _fun00024_ip = 191; continue _fun00023 }
- 185:
-            report = entity.primary_color;
- 191:
-            entity = 0;
-            report = entity === report;
-            if(!report) { _fun00024_ip = 224; continue _fun00023 }
- 200:
-            yankee = oscard.colors;
-            romeon = option == yankee;
-            entity = undefined;
-            if(romeon) { _fun00024_ip = 220; continue _fun00023 }
- 214:
-            entity = yankee.secondary_color;
- 220:
-            report = option == entity;
- 224:
-            if(!report) { _fun00024_ip = 251; continue _fun00023 }
- 227:
-            yankee = oscard.colors;
-            romeon = option == yankee;
-            entity = undefined;
-            if(romeon) { _fun00024_ip = 247; continue _fun00023 }
- 241:
-            entity = yankee.tertiary_color;
- 247:
-            report = option == entity;
- 251:
+            if(romeon) { _fun00024_ip = 184; continue _fun00023 }
+ 179:
+            report = verify.id;
+ 184:
+            report = offset.bind(yankee)(report, oscard);
+            if(!report) { _fun00024_ip = 196; continue _fun00023 }
+ 193:
+            report = !entity;
+ 196:
             entity = {};
-            yankee = 'mention';
-            entity['type'] = yankee;
+            offset = 'mention';
+            entity['type'] = offset;
             tangon = tangon.channelId;
             entity['channelId'] = tangon;
-            yankee = option != offset;
+            offset = option != verify;
             tangon = null;
-            if(!yankee) { _fun00024_ip = 284; continue _fun00023 }
- 279:
-            tangon = offset.id;
- 284:
+            if(!offset) { _fun00024_ip = 229; continue _fun00023 }
+ 224:
+            tangon = verify.id;
+ 229:
             entity['guildId'] = tangon;
             entity['roleId'] = michal;
             tangon = oscard.color;
             entity['roleColor'] = tangon;
             tangon = null;
-            if(!verify) { _fun00024_ip = 393; continue _fun00023 }
- 308:
-            tangon = null;
-            if(report) { _fun00024_ip = 393; continue _fun00023 }
- 313:
+            if(!report) { _fun00024_ip = 333; continue _fun00023 }
+ 253:
             report = {};
             offset = oscard.colors;
             yankee = option == offset;
             verify = undefined;
-            if(yankee) { _fun00024_ip = 335; continue _fun00023 }
- 329:
+            if(yankee) { _fun00024_ip = 275; continue _fun00023 }
+ 269:
             verify = offset.primary_color;
- 335:
+ 275:
             report['primaryColor'] = verify;
             offset = oscard.colors;
             yankee = option == offset;
             verify = undefined;
-            if(yankee) { _fun00024_ip = 360; continue _fun00023 }
- 354:
+            if(yankee) { _fun00024_ip = 300; continue _fun00023 }
+ 294:
             verify = offset.secondary_color;
- 360:
+ 300:
             report['secondaryColor'] = verify;
             verify = oscard.colors;
             offset = option == verify;
             option = undefined;
-            if(offset) { _fun00024_ip = 385; continue _fun00023 }
- 379:
+            if(offset) { _fun00024_ip = 325; continue _fun00023 }
+ 319:
             option = verify.tertiary_color;
- 385:
+ 325:
             report['tertiaryColor'] = option;
             tangon = report;
- 393:
+ 333:
             entity['roleColors'] = tangon;
             verify = oscard.name;
             tangon = global;
@@ -822,7 +796,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon[0] = report;
             entity['content'] = tangon;
             return entity;
- 499:
+ 439:
             entity = {};
             tangon = 'text';
             entity['type'] = tangon;
@@ -845,7 +819,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(zuuluu)(report);
             entity['content'] = zuuluu;
             return entity;
- 594:
+ 534:
             entity = {};
             zuuluu = 'roleMention';
             entity['type'] = zuuluu;
@@ -910,7 +884,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  95:
             foxtra = _closure1_slot1;
             backup = _closure1_slot2;
-            verify = 12;
+            verify = 13;
             verify = backup[verify];
             sizing = foxtra.bind(report)(verify);
             backup = sizing.getNickname;
@@ -922,7 +896,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  147:
             backup = _closure1_slot1;
             sizing = _closure1_slot2;
-            foxtra = 13;
+            foxtra = 14;
             foxtra = sizing[foxtra];
             backup = backup.bind(report)(foxtra);
             foxtra = backup.getName;
@@ -1073,7 +1047,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['parse'] = verify;
     option['silentPrefix'] = michal;
-    michal = 14;
+    michal = 15;
     verify = oscard[michal];
     verify = output.bind(entity)(verify);
     verify = verify.channelMention;
@@ -1086,12 +1060,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = output.bind(entity)(michal);
     michal = michal.mediaPostLink;
     option['mediaPostLink'] = michal;
-    michal = 15;
+    michal = 16;
     michal = oscard[michal];
     michal = output.bind(entity)(michal);
     michal = michal.attachmentLink;
     option['attachmentLink'] = michal;
-    michal = 16;
+    michal = 17;
     michal = oscard[michal];
     michal = output.bind(entity)(michal);
     michal = michal.shopLink;
@@ -1200,7 +1174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             michal = _closure1_slot1;
             entity = _closure1_slot2;
-            golfie = 17;
+            golfie = 18;
             entity = entity[golfie];
             oscard = undefined;
             entity = michal.bind(oscard)(entity);
@@ -1237,7 +1211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argFoo;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 17;
+            entity = 18;
             michal = michal[entity];
             entity = undefined;
             report = zuuluu.bind(entity)(michal);
@@ -1277,7 +1251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function(argFoo) { // Original name: match
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
-        entity = 18;
+        entity = 19;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1291,7 +1265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function(argFoo, argBar, argBaz) { // Original name: parse
         michal = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 18;
+        entity = 19;
         entity = zuuluu[entity];
         tangon = undefined;
         zuuluu = michal.bind(tangon)(entity);
@@ -1345,7 +1319,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = function(argFoo) { // Original name: match
         zuuluu = _closure1_slot0;
         michal = _closure1_slot2;
-        entity = 19;
+        entity = 20;
         michal = michal[entity];
         entity = undefined;
         entity = zuuluu.bind(entity)(michal);
@@ -1403,7 +1377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  93:
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 19;
+            entity = 20;
             entity = golfie[entity];
             michal = michal.bind(oscard)(entity);
             entity = michal.parseTimestamp;
@@ -1528,7 +1502,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard[entity];
             golfie = _closure1_slot0;
             offset = _closure1_slot2;
-            entity = 20;
+            entity = 21;
             verify = offset[entity];
             yankee = golfie.bind(report)(verify);
             verify = yankee.staticRouteToTranslation;
@@ -1576,30 +1550,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['parse'] = tangon;
     option['staticRouteLink'] = michal;
-    michal = 21;
-    michal = oscard[michal];
-    michal = output.bind(entity)(michal);
-    option['heading'] = michal;
     michal = 22;
     michal = oscard[michal];
     michal = output.bind(entity)(michal);
-    option['list'] = michal;
+    option['heading'] = michal;
     michal = 23;
     michal = oscard[michal];
     michal = output.bind(entity)(michal);
-    option['subtext'] = michal;
+    option['list'] = michal;
     michal = 24;
+    michal = oscard[michal];
+    michal = output.bind(entity)(michal);
+    option['subtext'] = michal;
+    michal = 25;
     tangon = oscard[michal];
     golfie = output.bind(entity)(tangon);
     tangon = new Array(2);
     tangon[0] = option;
-    option = 25;
+    option = 26;
     option = oscard[option];
     option = output.bind(entity)(option);
     tangon[1] = option;
     kiloes = golfie.bind(entity)(tangon);
     var _closure1_slot19 = kiloes;
-    sizing = 26;
+    sizing = 27;
     tangon = oscard[sizing];
     option = output.bind(entity)(tangon);
     golfie = option.omit;
@@ -1828,7 +1802,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal['PROFILE_BIO_RULES'] = option;
     michal['AUTO_MODERATION_SYSTEM_MESSAGE_RULES'] = golfie;
     michal['NATIVE_SEARCH_RESULT_LINK_RULES'] = tangon;
-    tangon = 27;
+    tangon = 28;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -463,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['ACCESSIBILITY_DARK_SIDEBAR_TOGGLE'] = verify;
-    tangon = function(argFoo) { // Original name: handleUpdateThemePreferences
+    verify = function(argFoo) { // Original name: handleUpdateThemePreferences
         michal = {};
         tangon = _closure1_slot17;
         report = michal;
@@ -478,7 +478,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(entity)();
         return entity;
     };
-    michal['UPDATE_THEME_PREFERENCES'] = tangon;
+    michal['UPDATE_THEME_PREFERENCES'] = verify;
+    verify = function(argFoo) { // Original name: handleSetThemeOverride
+        entity = argFoo;
+        entity = entity.theme;
+        michal = _closure1_slot22;
+        entity = undefined;
+        entity = michal.bind(entity)();
+        return entity;
+    };
+    michal['SET_THEME_OVERRIDE'] = verify;
+    tangon = function() { // Original name: handleClearThemeOverride
+        michal = _closure1_slot22;
+        entity = undefined;
+        entity = michal.bind(entity)();
+        return entity;
+    };
+    michal['CLEAR_THEME_OVERRIDE'] = tangon;
     tangon = option.prototype;
     tangon = Object.create(tangon, {constructor: {value: option}});
     sizing = tangon;

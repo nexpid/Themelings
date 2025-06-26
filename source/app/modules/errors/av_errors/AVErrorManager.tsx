@@ -431,6 +431,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = entity.updateActiveErrors;
                 michal['RTC_CONNECTION_VIDEO'] = zuuluu;
                 zuuluu = entity.updateActiveErrors;
+                michal['RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS'] = zuuluu;
+                zuuluu = entity.updateActiveErrors;
                 michal['VIDEO_STREAM_READY_TIMEOUT'] = zuuluu;
                 zuuluu = entity.updateActiveErrors;
                 michal['CLEAR_VIDEO_STREAM_READY_TIMEOUT'] = zuuluu;

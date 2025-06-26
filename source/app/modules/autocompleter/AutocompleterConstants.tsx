@@ -58,6 +58,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['LINK'] = michal;
     michal = 'IN_APP_NAVIGATION';
     tangon['IN_APP_NAVIGATION'] = michal;
+    michal = 'DM';
+    tangon['DM'] = michal;
     michal = {};
     golfie = '@';
     michal['USER'] = golfie;

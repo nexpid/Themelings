@@ -76,8 +76,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = option.memo;
     tangon = function(argFoo) { // Original name: MediaKeyboardListHeader
         entity = argFoo;
-        echoed = entity.animatedIndex;
-        var _closure2_slot0 = echoed;
+        result = entity.animatedIndex;
+        var _closure2_slot0 = result;
         romeon = entity.disablePolls;
         verify = entity.disableAttach;
         offset = entity.onAttachPress;
@@ -92,27 +92,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         golfie = backup.bind(tangon)(entity);
         oscard = golfie.useStateFromStores;
         entity = _closure1_slot4;
-        michal = new Array(1);
-        michal[0] = entity;
+        zuuluu = new Array(1);
+        zuuluu[0] = entity;
         entity = function() {
             entity = _closure1_slot4;
             entity = entity.useReducedMotion;
             return entity;
         };
-        yankee = oscard.bind(golfie)(michal, entity);
-        var _closure2_slot1 = yankee;
+        echoed = oscard.bind(golfie)(zuuluu, entity);
+        var _closure2_slot1 = echoed;
         entity = 8;
         entity = kiloes[entity];
-        michal = backup.bind(tangon)(entity);
-        entity = michal.useBottomSheetInternal;
-        entity = entity.bind(michal)();
-        output = entity.animatedSnapPoints;
-        var _closure2_slot2 = output;
+        zuuluu = backup.bind(tangon)(entity);
+        entity = zuuluu.useBottomSheetInternal;
+        entity = entity.bind(zuuluu)();
+        option = entity.animatedSnapPoints;
+        var _closure2_slot2 = option;
         entity = 9;
-        michal = kiloes[entity];
-        golfie = backup.bind(tangon)(michal);
+        zuuluu = kiloes[entity];
+        golfie = backup.bind(tangon)(zuuluu);
         oscard = golfie.useAnimatedStyle;
-        michal = function() { // Original name: P
+        zuuluu = function() { // Original name: P
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 michal = _closure2_slot0;
@@ -196,32 +196,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        option = {};
-        option['animatedIndex'] = echoed;
-        result = 10;
-        update = kiloes[result];
+        yankee = {};
+        yankee['animatedIndex'] = result;
+        output = 10;
+        update = kiloes[output];
         update = backup.bind(tangon)(update);
         update = update.animatedIndexThreshold;
-        option['animatedIndexThreshold'] = update;
-        option['animatedSnapPoints'] = output;
-        option['reducedMotion'] = yankee;
-        yankee = 11;
-        yankee = kiloes[yankee];
-        yankee = backup.bind(tangon)(yankee);
-        yankee = yankee.withSpring;
-        option['withSpring'] = yankee;
-        yankee = _closure1_slot7;
-        option['HEADER_SPRING'] = yankee;
-        michal['__closure'] = option;
-        option = 16608464052974.0;
-        michal['__workletHash'] = option;
-        option = _closure1_slot9;
-        michal['__initData'] = option;
-        yankee = oscard.bind(golfie)(michal);
-        michal = kiloes[entity];
-        golfie = backup.bind(tangon)(michal);
-        oscard = golfie.useAnimatedProps;
-        michal = function() { // Original name: T
+        yankee['animatedIndexThreshold'] = update;
+        yankee['animatedSnapPoints'] = option;
+        yankee['reducedMotion'] = echoed;
+        echoed = 11;
+        echoed = kiloes[echoed];
+        echoed = backup.bind(tangon)(echoed);
+        echoed = echoed.withSpring;
+        yankee['withSpring'] = echoed;
+        echoed = _closure1_slot7;
+        yankee['HEADER_SPRING'] = echoed;
+        zuuluu['__closure'] = yankee;
+        yankee = 16608464052974.0;
+        zuuluu['__workletHash'] = yankee;
+        yankee = _closure1_slot9;
+        zuuluu['__initData'] = yankee;
+        yankee = oscard.bind(golfie)(zuuluu);
+        entity = kiloes[entity];
+        oscard = backup.bind(tangon)(entity);
+        zuuluu = oscard.useAnimatedProps;
+        entity = function() { // Original name: T
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = {};
@@ -248,30 +248,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        option = {};
-        option['animatedIndex'] = echoed;
-        result = kiloes[result];
-        result = backup.bind(tangon)(result);
-        result = result.animatedIndexThreshold;
-        option['animatedIndexThreshold'] = result;
-        option['animatedSnapPoints'] = output;
-        michal['__closure'] = option;
-        option = 1463681350701.0;
-        michal['__workletHash'] = option;
-        option = _closure1_slot10;
-        michal['__initData'] = option;
-        oscard = oscard.bind(golfie)(michal);
-        michal = 12;
-        golfie = kiloes[michal];
-        option = backup.bind(tangon)(golfie);
-        golfie = option.useGradientBottom;
-        result = golfie.bind(option)();
-        var _closure2_slot3 = result;
-        output = _closure1_slot3;
-        option = output.useMemo;
-        golfie = new Array(1);
-        golfie[0] = result;
-        zuuluu = function() {
+        golfie = {};
+        golfie['animatedIndex'] = result;
+        output = kiloes[output];
+        output = backup.bind(tangon)(output);
+        output = output.animatedIndexThreshold;
+        golfie['animatedIndexThreshold'] = output;
+        golfie['animatedSnapPoints'] = option;
+        entity['__closure'] = golfie;
+        golfie = 1463681350701.0;
+        entity['__workletHash'] = golfie;
+        golfie = _closure1_slot10;
+        entity['__initData'] = golfie;
+        oscard = zuuluu.bind(oscard)(entity);
+        entity = 12;
+        zuuluu = kiloes[entity];
+        golfie = backup.bind(tangon)(zuuluu);
+        zuuluu = golfie.useGradientBottom;
+        output = zuuluu.bind(golfie)();
+        var _closure2_slot3 = output;
+        option = _closure1_slot3;
+        golfie = option.useMemo;
+        zuuluu = new Array(1);
+        zuuluu[0] = output;
+        michal = function() {
             entity = {};
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -287,16 +287,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = copyDataProperties(oscard, report);
             return entity;
         };
-        golfie = option.bind(output)(zuuluu, golfie);
-        michal = kiloes[michal];
-        zuuluu = backup.bind(tangon)(michal);
-        michal = zuuluu.useClientThemesOverride;
-        option = michal.bind(zuuluu)(golfie);
+        zuuluu = golfie.bind(option)(michal, zuuluu);
+        entity = kiloes[entity];
+        michal = backup.bind(tangon)(entity);
+        entity = michal.useClientThemesOverride;
+        option = entity.bind(michal)(zuuluu);
         zuuluu = _closure1_slot6;
         michal = _closure1_slot1;
+        entity = 13;
         entity = kiloes[entity];
-        entity = michal.bind(tangon)(entity);
-        michal = entity.View;
+        michal = michal.bind(tangon)(entity);
         entity = {};
         output = sizing.header;
         golfie = new Array(3);
@@ -306,12 +306,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['style'] = golfie;
         entity['animatedProps'] = oscard;
         option = _closure1_slot5;
-        oscard = 13;
+        oscard = 14;
         report = kiloes[oscard];
         report = backup.bind(tangon)(report);
         golfie = report.Button;
         report = {'icon': null, 'text': null, 'onPress': null, 'variant': 'secondary', 'size': 'md', 'grow': true};
-        yankee = 14;
+        yankee = 15;
         yankee = kiloes[yankee];
         yankee = backup.bind(tangon)(yankee);
         result = yankee.PollsIcon;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee['style'] = echoed;
         yankee = option.bind(tangon)(result, yankee);
         report['icon'] = yankee;
-        yankee = 15;
+        yankee = 16;
         result = kiloes[yankee];
         result = backup.bind(tangon)(result);
         update = result.intl;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = backup.bind(tangon)(oscard);
         golfie = oscard.Button;
         oscard = {'icon': null, 'text': null, 'onPress': null, 'variant': 'secondary', 'size': 'md', 'grow': true};
-        romeon = 16;
+        romeon = 17;
         romeon = kiloes[romeon];
         romeon = backup.bind(tangon)(romeon);
         foxtra = romeon.AttachmentIcon;
@@ -371,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon = report.bind(option)(tangon);
-    report = 17;
+    report = 18;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

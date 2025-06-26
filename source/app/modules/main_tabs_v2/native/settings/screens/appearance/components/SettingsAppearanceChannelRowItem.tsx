@@ -280,13 +280,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = foxtra.bind(tangon)(romeon);
                 foxtra = romeon.Text;
                 romeon = {'animated': true, 'style': null, 'variant': 'redesign/channel-title/semibold'};
-                if(kiloes) { _fun00004_ip = 471; continue _fun00003 }
- 463:
+                if(kiloes) { _fun00004_ip = 475; continue _fun00003 }
+ 467:
                 source = sizing.textMuted;
-                _fun00004_ip = 477; continue _fun00003;
- 471:
+                _fun00004_ip = 481; continue _fun00003;
+ 475:
                 source = sizing.textNormal;
- 477:
+ 481:
                 romeon['style'] = source;
                 romeon['children'] = echoed;
                 foxtra = result.bind(tangon)(foxtra, romeon);
@@ -310,8 +310,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify[0] = romeon;
                 romeon = offset != backup;
                 offset = null;
-                if(!romeon) { _fun00004_ip = 667; continue _fun00003 }
- 594:
+                if(!romeon) { _fun00004_ip = 671; continue _fun00003 }
+ 598:
                 foxtra = _closure1_slot5;
                 romeon = _closure1_slot0;
                 yankee = _closure1_slot2;
@@ -319,17 +319,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 yankee = romeon.bind(tangon)(yankee);
                 romeon = yankee.Text;
                 yankee = {'animated': true, 'style': null, 'variant': 'redesign/message-preview/medium', 'lineClamp': 1};
-                if(kiloes) { _fun00004_ip = 645; continue _fun00003 }
- 637:
+                if(kiloes) { _fun00004_ip = 649; continue _fun00003 }
+ 641:
                 kiloes = sizing.textMuted;
-                _fun00004_ip = 651; continue _fun00003;
- 645:
+                _fun00004_ip = 655; continue _fun00003;
+ 649:
                 kiloes = sizing.textNormal;
- 651:
+ 655:
                 yankee['style'] = kiloes;
                 yankee['children'] = backup;
                 offset = foxtra.bind(tangon)(romeon, yankee);
- 667:
+ 671:
                 verify[1] = offset;
                 oscard['children'] = verify;
                 oscard = option.bind(tangon)(golfie, oscard);

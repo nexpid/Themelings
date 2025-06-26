@@ -33,23 +33,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 tangon = argFoo;
                 michal = tangon.emoji;
-                option = null;
-                zuuluu = Object.create(option);
-                romeon = 0;
-                zuuluu['emoji'] = romeon;
-                sizing = {};
-                kiloes = tangon;
-                backup = zuuluu;
-                zuuluu = copyDataProperties(sizing, kiloes, backup);
+                golfie = null;
+                zuuluu = Object.create(golfie);
+                yankee = 0;
+                zuuluu['emoji'] = yankee;
+                kiloes = {};
+                backup = tangon;
+                foxtra = zuuluu;
+                zuuluu = copyDataProperties(kiloes, backup, foxtra);
                 tangon = zuuluu.count_details;
-                report = option == tangon;
-                oscard = undefined;
+                report = golfie == tangon;
+                option = undefined;
                 entity = undefined;
                 if(report) { _fun00002_ip = 56; continue _fun00001 }
  50:
                 entity = tangon.vote;
  56:
-                if(!(option == entity)) { _fun00002_ip = 414; continue _fun00001 }
+                if(!(golfie == entity)) { _fun00002_ip = 357; continue _fun00001 }
  63:
                 tangon = _closure2_slot0;
                 if(!tangon) { _fun00002_ip = 79; continue _fun00001 }
@@ -57,87 +57,68 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = michal.animated;
  79:
                 entity = michal.id;
-                if(!(option != entity)) { _fun00002_ip = 147; continue _fun00001 }
+                if(!(golfie != entity)) { _fun00002_ip = 147; continue _fun00001 }
  88:
                 report = _closure1_slot1;
-                golfie = _closure1_slot2;
+                oscard = _closure1_slot2;
                 entity = 1;
-                entity = golfie[entity];
-                golfie = report.bind(oscard)(entity);
-                report = golfie.getEmojiURL;
+                entity = oscard[entity];
+                oscard = report.bind(option)(entity);
+                report = oscard.getEmojiURL;
                 entity = {};
                 verify = michal.id;
                 entity['id'] = verify;
                 entity['animated'] = tangon;
                 verify = 48;
                 entity['size'] = verify;
-                golfie = report.bind(golfie)(entity);
+                oscard = report.bind(oscard)(entity);
                 _fun00002_ip = 183; continue _fun00001;
  147:
                 report = _closure1_slot1;
                 entity = _closure1_slot2;
-                entity = entity[romeon];
-                verify = report.bind(oscard)(entity);
+                entity = entity[yankee];
+                verify = report.bind(option)(entity);
                 report = verify.getURL;
                 entity = michal.name;
-                golfie = report.bind(verify)(entity);
+                oscard = report.bind(verify)(entity);
  183:
                 report = _closure1_slot0;
                 verify = _closure1_slot2;
                 entity = 2;
                 entity = verify[entity];
-                yankee = report.bind(oscard)(entity);
-                offset = yankee.getAccessibleEmojiDisplayName;
-                sizing = zuuluu.me;
-                kiloes = zuuluu.count;
+                offset = report.bind(option)(entity);
+                verify = offset.getAccessibleEmojiDisplayName;
+                kiloes = zuuluu.me;
+                backup = zuuluu.count;
                 entity = zuuluu.burst_count;
-                foxtra = entity > romeon;
-                output = yankee;
-                backup = michal;
-                report = output[offset](sizing, kiloes, backup, foxtra, romeon);
-                entity = michal.name;
-                verify = option == entity;
-                oscard = undefined;
-                if(verify) { _fun00002_ip = 262; continue _fun00001 }
- 257:
-                oscard = entity.length;
- 262:
-                entity = 1;
-                if(!(entity !== oscard)) { _fun00002_ip = 276; continue _fun00001 }
- 269:
-                oscard = michal.name;
-                _fun00002_ip = 291; continue _fun00001;
- 276:
-                verify = michal.name;
-                entity = '️';
-                oscard = verify + entity;
- 291:
+                romeon = entity > yankee;
+                sizing = offset;
+                foxtra = michal;
+                report = sizing[verify](kiloes, backup, foxtra, romeon, yankee);
                 entity = michal.id;
-                if(!(option != entity)) { _fun00002_ip = 329; continue _fun00001 }
- 300:
-                verify = michal.id;
+                if(!(golfie != entity)) { _fun00002_ip = 281; continue _fun00001 }
+ 252:
+                option = michal.id;
                 entity = global;
                 entity = entity.HermesInternal;
-                option = entity.concat;
+                golfie = entity.concat;
                 entity = '';
-                option = option.bind(entity)(verify);
-                _fun00002_ip = 334; continue _fun00001;
- 329:
-                option = michal.id;
- 334:
+                golfie = golfie.bind(entity)(option);
+                _fun00002_ip = 286; continue _fun00001;
+ 281:
+                golfie = michal.id;
+ 286:
                 entity = {};
-                sizing = entity;
-                kiloes = zuuluu;
-                zuuluu = copyDataProperties(sizing, kiloes);
+                kiloes = entity;
+                backup = zuuluu;
+                zuuluu = copyDataProperties(kiloes, backup);
                 zuuluu = {};
-                sizing = zuuluu;
-                kiloes = michal;
-                michal = copyDataProperties(sizing, kiloes);
+                kiloes = zuuluu;
+                backup = michal;
+                michal = copyDataProperties(kiloes, backup);
                 michal = 'id';
-                zuuluu[michal] = option;
-                michal = 'src';
                 zuuluu[michal] = golfie;
-                michal = 'name';
+                michal = 'src';
                 zuuluu[michal] = oscard;
                 michal = 'displayName';
                 zuuluu[michal] = report;
@@ -146,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 'emoji';
                 entity[michal] = zuuluu;
                 return entity;
- 414:
+ 357:
                 entity = new Array(0);
                 return entity;
             }

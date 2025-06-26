@@ -25,7 +25,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
-    tangon = 7;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.EMPTY_NUX_SERVER;
+    var _closure1_slot5 = golfie;
+    golfie = tangon.FAVORITES;
+    var _closure1_slot6 = golfie;
+    tangon = tangon.ME;
+    var _closure1_slot7 = tangon;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -39,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function(argFoo) {
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
-                entity = 2;
+                entity = 3;
                 michal = michal[entity];
                 entity = undefined;
                 entity = zuuluu.bind(entity)(michal);
@@ -54,7 +63,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = entity.includes;
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            oscard = 3;
+            oscard = 4;
             zuuluu = zuuluu[oscard];
             report = undefined;
             zuuluu = golfie.bind(report)(zuuluu);
@@ -92,101 +101,114 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             oscard = undefined;
-            verify = undefined;
             offset = undefined;
+            romeon = undefined;
             foxtra = undefined;
-            backup = undefined;
             yankee = undefined;
             zuuluu = undefined;
             michal = undefined;
             option = undefined;
             golfie = undefined;
             report = undefined;
-            romeon = _closure1_slot0;
-            kiloes = _closure1_slot2;
-            tangon = 4;
-            tangon = kiloes[tangon];
-            output = romeon.bind(oscard)(tangon);
-            sizing = output.parse;
-            romeon = {};
-            tangon = 'bracket';
-            romeon['arrayFormat'] = tangon;
-            tangon = argFoo;
-            michal = sizing.bind(output)(tangon, romeon);
-            romeon = _closure1_slot1;
-            tangon = 5;
-            tangon = kiloes[tangon];
-            tangon = romeon.bind(oscard)(tangon);
-            option = tangon.NONE;
- 95: // try_start_0
-            romeon = _closure1_slot1;
-            kiloes = _closure1_slot2;
-            tangon = 6;
-            tangon = kiloes[tangon];
-            kiloes = romeon.bind(oscard)(tangon);
-            romeon = kiloes.deserialize;
-            tangon = michal;
-            sizing = tangon.permissions;
+            tangon = _closure1_slot0;
+            backup = _closure1_slot2;
+            entity = 5;
+            entity = backup[entity];
+            sizing = tangon.bind(oscard)(entity);
+            kiloes = sizing.parse;
+            tangon = {};
+            entity = 'bracket';
+            tangon['arrayFormat'] = entity;
+            entity = argFoo;
+            michal = kiloes.bind(sizing)(entity, tangon);
+            tangon = _closure1_slot1;
+            entity = 6;
+            entity = backup[entity];
+            entity = tangon.bind(oscard)(entity);
+            option = entity.NONE;
+ 93: // try_start_0
+            tangon = _closure1_slot1;
+            backup = _closure1_slot2;
+            entity = 7;
+            entity = backup[entity];
+            backup = tangon.bind(oscard)(entity);
+            tangon = backup.deserialize;
+            entity = michal;
+            kiloes = entity.permissions;
+            entity = null;
+            kiloes = entity != kiloes;
+            output = '0';
+            entity = output;
+            if(!kiloes) { _fun00004_ip = 175; continue _fun00003 }
+ 146:
+            kiloes = michal;
+            sizing = kiloes.permissions;
+            kiloes = '';
+            entity = output;
+            if(!(kiloes !== sizing)) { _fun00004_ip = 175; continue _fun00003 }
+ 166:
+            kiloes = michal;
+            entity = kiloes.permissions;
+ 175:
+            option = tangon.bind(backup)(entity);
+ 180: // try_end0
+            _fun00004_ip = 184; continue _fun00003;
+ 182: // catch_target0
+            CatchBlockStart(arg_register=0);
+ 184:
+            entity = michal;
+            golfie = entity.channel_id;
+            entity = entity.guild_id;
+            romeon = entity;
             tangon = null;
-            sizing = tangon != sizing;
-            result = '0';
-            tangon = result;
-            if(!sizing) { _fun00004_ip = 177; continue _fun00003 }
- 148:
-            sizing = michal;
-            output = sizing.permissions;
-            sizing = '';
-            tangon = result;
-            if(!(sizing !== output)) { _fun00004_ip = 177; continue _fun00003 }
- 168:
-            sizing = michal;
-            tangon = sizing.permissions;
- 177:
-            option = romeon.bind(kiloes)(tangon);
- 182: // try_end0
-            _fun00004_ip = 186; continue _fun00003;
- 184: // catch_target0
-            CatchBlockStart(arg_register=3);
- 186:
-            tangon = michal;
-            golfie = tangon.channel_id;
-            romeon = tangon.guild_id;
-            foxtra = romeon;
-            tangon = null;
-            if(!(tangon == romeon)) { _fun00004_ip = 244; continue _fun00003 }
- 208:
-            sizing = _closure1_slot3;
-            kiloes = sizing.getChannel;
-            romeon = golfie;
-            romeon = kiloes.bind(sizing)(romeon);
-            backup = romeon;
-            kiloes = tangon == romeon;
-            romeon = undefined;
-            if(kiloes) { _fun00004_ip = 242; continue _fun00003 }
- 237:
-            romeon = backup.guild_id;
+            if(!(tangon == entity)) { _fun00004_ip = 242; continue _fun00003 }
+ 206:
+            kiloes = _closure1_slot3;
+            backup = kiloes.getChannel;
+            entity = golfie;
+            entity = backup.bind(kiloes)(entity);
+            foxtra = entity;
+            backup = tangon == entity;
+            entity = undefined;
+            if(backup) { _fun00004_ip = 240; continue _fun00003 }
+ 235:
+            entity = foxtra.guild_id;
+ 240:
+            _fun00004_ip = 245; continue _fun00003;
  242:
-            _fun00004_ip = 247; continue _fun00003;
- 244:
-            romeon = foxtra;
- 247:
-            offset = romeon;
-            if(!(tangon == romeon)) { _fun00004_ip = 270; continue _fun00003 }
- 254:
+            entity = romeon;
+ 245:
+            offset = entity;
+            if(!(tangon == entity)) { _fun00004_ip = 268; continue _fun00003 }
+ 252:
             romeon = _closure1_slot4;
             entity = romeon.getGuildId;
             entity = entity.bind(romeon)();
-            _fun00004_ip = 273; continue _fun00003;
- 270:
+            _fun00004_ip = 271; continue _fun00003;
+ 268:
             entity = offset;
- 273:
-            verify = entity;
-            offset = tangon != entity;
+ 271:
+            romeon = _closure1_slot7;
+            offset = new Array(3);
+            offset[0] = romeon;
+            romeon = _closure1_slot6;
+            offset[1] = romeon;
+            verify = _closure1_slot5;
+            offset[2] = verify;
+            verify = offset.includes;
+            verify = verify.bind(offset)(entity);
+            offset = entity;
             entity = undefined;
-            if(!offset) { _fun00004_ip = 288; continue _fun00003 }
- 285:
+            if(verify) { _fun00004_ip = 332; continue _fun00003 }
+ 317:
+            romeon = tangon != offset;
+            verify = undefined;
+            if(!romeon) { _fun00004_ip = 329; continue _fun00003 }
+ 326:
+            verify = offset;
+ 329:
             entity = verify;
- 288:
+ 332:
             report = entity;
             entity = {};
             verify = michal;
@@ -195,19 +217,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = tangon != verify;
             offset = '';
             verify = offset;
-            if(!romeon) { _fun00004_ip = 322; continue _fun00003 }
- 319:
+            if(!romeon) { _fun00004_ip = 366; continue _fun00003 }
+ 363:
             verify = yankee;
- 322:
+ 366:
             entity['clientId'] = verify;
             verify = michal;
             verify = verify.scope;
             zuuluu = verify;
             verify = tangon != verify;
-            if(!verify) { _fun00004_ip = 349; continue _fun00003 }
- 346:
+            if(!verify) { _fun00004_ip = 393; continue _fun00003 }
+ 390:
             offset = zuuluu;
- 349:
+ 393:
             verify = offset.split;
             zuuluu = ' ';
             offset = verify.bind(offset)(zuuluu);
@@ -244,14 +266,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.integration_type;
             tangon = tangon == zuuluu;
             zuuluu = undefined;
-            if(tangon) { _fun00004_ip = 521; continue _fun00003 }
- 499:
+            if(tangon) { _fun00004_ip = 565; continue _fun00003 }
+ 543:
             tangon = global;
             report = tangon.Number;
             tangon = michal;
             tangon = tangon.integration_type;
             zuuluu = report.bind(oscard)(tangon);
- 521:
+ 565:
             entity['integrationType'] = zuuluu;
             michal = michal.nonce;
             entity['nonce'] = michal;

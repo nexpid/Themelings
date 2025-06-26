@@ -91,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setUseSystemTheme'] = tangon;
-    michal = function(argFoo) { // Original name: updateThemePreferences
+    tangon = function(argFoo) { // Original name: updateThemePreferences
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 2;
@@ -107,6 +107,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['updateThemePreferences'] = michal;
+    zuuluu['updateThemePreferences'] = tangon;
+    tangon = function(argFoo) { // Original name: setThemeOverride
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 2;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'SET_THEME_OVERRIDE';
+        michal['type'] = report;
+        report = argFoo;
+        michal['theme'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['setThemeOverride'] = tangon;
+    michal = function() { // Original name: clearThemeOverride
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 2;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'CLEAR_THEME_OVERRIDE';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['clearThemeOverride'] = michal;
     return entity;
 })();

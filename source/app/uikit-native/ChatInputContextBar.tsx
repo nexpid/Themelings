@@ -111,21 +111,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.roleStyle;
                 return entity;
             };
-            oscard = report.bind(oscard)(zuuluu, entity);
-            var _closure2_slot0 = oscard;
+            golfie = report.bind(oscard)(zuuluu, entity);
+            var _closure2_slot0 = golfie;
             entity = michal.colorString;
             var _closure2_slot1 = entity;
-            golfie = michal.colorStrings;
-            var _closure2_slot2 = golfie;
+            report = michal.colorStrings;
+            var _closure2_slot2 = report;
             sequen = michal.nick;
             var _closure2_slot3 = sequen;
-            report = michal.guildId;
-            var _closure2_slot4 = report;
+            oscard = michal.guildId;
+            var _closure2_slot4 = oscard;
             option = _closure1_slot3;
             zuuluu = option.useMemo;
             michal = new Array(2);
             michal[0] = entity;
-            michal[1] = oscard;
+            michal[1] = golfie;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -150,12 +150,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = update[entity];
             zuuluu = ctrled.bind(tangon)(michal);
             michal = zuuluu.useProcessColorStringsArray;
-            zuuluu = michal.bind(zuuluu)(golfie);
-            var _closure2_slot6 = zuuluu;
+            report = michal.bind(zuuluu)(report);
+            var _closure2_slot6 = report;
             entity = update[entity];
-            michal = ctrled.bind(tangon)(entity);
-            entity = michal.useIsRoleStyleAndRoleColorsEligibleForERC;
-            entity = entity.bind(michal)(report, oscard, zuuluu);
+            zuuluu = ctrled.bind(tangon)(entity);
+            michal = zuuluu.useIsRoleStyleAndRoleColorsEligibleForERC;
+            entity = backup.message;
+            entity = entity.author;
+            papara = entity.id;
+            status = zuuluu;
+            target = oscard;
+            cntext = golfie;
+            record = report;
+            entity = status[michal](target, papara, cntext, record, config);
             var _closure2_slot7 = entity;
             zuuluu = _closure1_slot10;
             michal = _closure1_slot4;
@@ -346,12 +353,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = null;
             option = sizing == backup;
             oscard = undefined;
-            if(option) { _fun00002_ip = 745; continue _fun00001 }
- 739:
+            if(option) { _fun00002_ip = 770; continue _fun00001 }
+ 764:
             oscard = backup.showMentionToggle;
- 745:
-            if(!oscard) { _fun00002_ip = 1236; continue _fun00001 }
- 751:
+ 770:
+            if(!oscard) { _fun00002_ip = 1261; continue _fun00001 }
+ 776:
             verify = _closure1_slot10;
             ctrled = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -385,15 +392,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra[echoed];
             foxtra = vacuum.bind(tangon)(foxtra);
             foxtra = foxtra.t;
-            if(romeon) { _fun00002_ip = 919; continue _fun00001 }
- 904:
+            if(romeon) { _fun00002_ip = 944; continue _fun00001 }
+ 929:
             romeon = foxtra.+LXBxc;
             romeon = update.bind(ctrled)(romeon);
-            _fun00002_ip = 932; continue _fun00001;
- 919:
+            _fun00002_ip = 957; continue _fun00001;
+ 944:
             foxtra = foxtra.PBgTSE;
             romeon = update.bind(ctrled)(foxtra);
- 932:
+ 957:
             golfie['accessibilityHint'] = romeon;
             golfie['activeOpacity'] = yankee;
             golfie['onPress'] = offset;
@@ -419,10 +426,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra[0] = update;
             source = backup.shouldMention;
             update = null;
-            if(!source) { _fun00002_ip = 1051; continue _fun00001 }
- 1045:
+            if(!source) { _fun00002_ip = 1076; continue _fun00001 }
+ 1070:
             update = output.replyMentionIconActive;
- 1051:
+ 1076:
             foxtra[1] = update;
             offset['style'] = foxtra;
             yankee = romeon.bind(tangon)(yankee, offset);
@@ -437,10 +444,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = {'variant': 'text-sm/bold', 'color': 'text-muted'};
             result = backup.shouldMention;
             sizing = null;
-            if(!result) { _fun00002_ip = 1130; continue _fun00001 }
- 1124:
+            if(!result) { _fun00002_ip = 1155; continue _fun00001 }
+ 1149:
             sizing = output.replyMentionButtonActive;
- 1130:
+ 1155:
             yankee['style'] = sizing;
             backup = backup.shouldMention;
             result = _closure1_slot0;
@@ -452,21 +459,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes[echoed];
             kiloes = result.bind(tangon)(kiloes);
             kiloes = kiloes.t;
-            if(backup) { _fun00002_ip = 1199; continue _fun00001 }
- 1184:
+            if(backup) { _fun00002_ip = 1224; continue _fun00001 }
+ 1209:
             backup = kiloes.U7f3bG;
             backup = sizing.bind(output)(backup);
-            _fun00002_ip = 1212; continue _fun00001;
- 1199:
+            _fun00002_ip = 1237; continue _fun00001;
+ 1224:
             kiloes = kiloes.p9jC2t;
             backup = sizing.bind(output)(kiloes);
- 1212:
+ 1237:
             yankee['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);
             offset[1] = yankee;
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1236:
+ 1261:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

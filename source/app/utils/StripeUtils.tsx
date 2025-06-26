@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  13:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
-            entity = 3;
+            entity = 4;
             zuuluu = zuuluu[entity];
             entity = undefined;
             tangon = tangon.bind(entity)(zuuluu);
@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot8 = tangon;
+    var _closure1_slot9 = tangon;
     entity = function() { // Original name: _authenticatePaymentIntentForPaymentId
         report = undefined;
         entity = undefined;
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  27: // try_start_0
                     zuuluu = _closure1_slot0;
                     option = _closure1_slot1;
-                    michal = 4;
+                    michal = 5;
                     michal = option[michal];
                     michal = zuuluu.bind(tangon)(michal);
                     option = michal.HTTP;
@@ -86,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  109:
                     zuuluu = michal.body;
                     golfie = zuuluu.stripe_payment_intent_client_secret;
-                    zuuluu = _closure1_slot8;
+                    zuuluu = _closure1_slot9;
                     zuuluu = zuuluu.bind(tangon)();
                     SaveGenerator(address=132);
  130:
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = {};
                     kiloes = romeon;
                     sizing = kiloes.status;
-                    kiloes = _closure1_slot7;
+                    kiloes = _closure1_slot8;
                     kiloes = kiloes.REQUIRES_PAYMENT_METHOD;
                     kiloes = sizing === kiloes;
                     backup = kiloes;
@@ -150,27 +150,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  314:
                     foxtra = romeon;
                     backup = foxtra.status;
-                    foxtra = _closure1_slot7;
+                    foxtra = _closure1_slot8;
                     foxtra = foxtra.REQUIRES_PAYMENT_METHOD;
                     if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
  336:
-                    foxtra = _closure1_slot7;
+                    foxtra = _closure1_slot8;
                     foxtra = foxtra.REQUIRES_CONFIRMATION;
                     if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
  350:
-                    foxtra = _closure1_slot7;
+                    foxtra = _closure1_slot8;
                     foxtra = foxtra.REQUIRES_ACTION;
                     if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
  364:
-                    foxtra = _closure1_slot7;
+                    foxtra = _closure1_slot8;
                     foxtra = foxtra.SUCCEEDED;
                     if(!(foxtra !== backup)) { _fun00004_ip = 440; continue _fun00003 }
  378:
-                    foxtra = _closure1_slot7;
+                    foxtra = _closure1_slot8;
                     foxtra = foxtra.PROCESSING;
                     if(!(foxtra !== backup)) { _fun00004_ip = 440; continue _fun00003 }
  392:
-                    yankee = _closure1_slot7;
+                    yankee = _closure1_slot8;
                     yankee = yankee.CANCELED;
                     yankee = {};
                     backup = romeon.status;
@@ -248,7 +248,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -256,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot10 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -277,10 +277,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 2;
     report = golfie[report];
     report = oscard.bind(entity)(report);
-    option = report.Endpoints;
-    var _closure1_slot5 = option;
+    verify = report.Endpoints;
+    var _closure1_slot5 = verify;
     report = report.PaymentSettings;
     var _closure1_slot6 = report;
+    report = 3;
+    report = golfie[report];
+    verify = option.bind(entity)(report);
+    report = verify.prototype;
+    option = Object.create(report, {constructor: {value: verify}});
+    foxtra = 'StripeUtils';
+    backup = option;
+    report = new backup[verify](foxtra, romeon);
+    report = report instanceof Object ? report : option;
+    var _closure1_slot7 = report;
     report = {};
     option = 'requires_payment_method';
     report['REQUIRES_PAYMENT_METHOD'] = option;
@@ -294,8 +304,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report['CANCELED'] = option;
     option = 'succeeded';
     report['SUCCEEDED'] = option;
-    var _closure1_slot7 = report;
-    report = 5;
+    var _closure1_slot8 = report;
+    report = 6;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -479,14 +489,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['validateExpiry'] = report;
     zuuluu['getStripe'] = tangon;
-    tangon = function(argFoo) { // Original name: parseStripePaymentMethod
+    tangon = function() { // Original name: getStripeClientMode
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+            entity = _closure1_slot6;
+            entity = entity.STRIPE;
+            zuuluu = entity.KEY;
+            entity = null;
+            if(!(entity != zuuluu)) { _fun00014_ip = 154; continue _fun00013 }
+ 28:
+            entity = _closure1_slot6;
+            entity = entity.STRIPE;
+            tangon = entity.KEY;
+            zuuluu = tangon.startsWith;
+            entity = 'pk_live';
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = 'live';
+            if(zuuluu) { _fun00014_ip = 152; continue _fun00013 }
+ 68:
+            zuuluu = _closure1_slot6;
+            zuuluu = zuuluu.STRIPE;
+            report = zuuluu.KEY;
+            tangon = report.startsWith;
+            zuuluu = 'pk_test';
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = 'test';
+            if(tangon) { _fun00014_ip = 149; continue _fun00013 }
+ 108:
+            golfie = _closure1_slot7;
+            oscard = golfie.warn;
+            tangon = _closure1_slot6;
+            tangon = tangon.STRIPE;
+            report = tangon.KEY;
+            tangon = 'Unexpected value for Stripe public key: ';
+            tangon = oscard.bind(golfie)(tangon, report);
+            zuuluu = 'unknown';
+ 149:
+            entity = zuuluu;
+ 152:
+            _fun00014_ip = 195; continue _fun00013;
+ 154:
+            report = _closure1_slot7;
+            tangon = report.warn;
+            michal = _closure1_slot6;
+            michal = michal.STRIPE;
+            zuuluu = michal.KEY;
+            michal = 'getStripeClientMode() called before PaymentSettings.STRIPE.KEY initialized: ';
+            michal = tangon.bind(report)(michal, zuuluu);
+            entity = 'unknown';
+ 195:
+            return entity;
+        }
+    };
+    zuuluu['getStripeClientMode'] = tangon;
+    tangon = function(argFoo) { // Original name: parseStripePaymentMethod
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             zuuluu = argFoo;
             entity = zuuluu.billing_details;
             tangon = entity.address;
             report = null;
-            if(!(report == tangon)) { _fun00014_ip = 23; continue _fun00013 }
+            if(!(report == tangon)) { _fun00016_ip = 23; continue _fun00015 }
  21:
             tangon = {};
  23:
@@ -495,7 +558,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = report != golfie;
             entity = '';
             oscard = entity;
-            if(!option) { _fun00014_ip = 47; continue _fun00013 }
+            if(!option) { _fun00016_ip = 47; continue _fun00015 }
  44:
             oscard = golfie;
  47:
@@ -503,7 +566,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.line1;
             option = report != golfie;
             oscard = entity;
-            if(!option) { _fun00014_ip = 70; continue _fun00013 }
+            if(!option) { _fun00016_ip = 70; continue _fun00015 }
  67:
             oscard = golfie;
  70:
@@ -511,7 +574,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.line2;
             option = report != golfie;
             oscard = entity;
-            if(!option) { _fun00014_ip = 94; continue _fun00013 }
+            if(!option) { _fun00016_ip = 94; continue _fun00015 }
  91:
             oscard = golfie;
  94:
@@ -519,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.city;
             option = report != golfie;
             oscard = entity;
-            if(!option) { _fun00014_ip = 118; continue _fun00013 }
+            if(!option) { _fun00016_ip = 118; continue _fun00015 }
  115:
             oscard = golfie;
  118:
@@ -527,7 +590,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.state;
             option = report != golfie;
             oscard = entity;
-            if(!option) { _fun00014_ip = 141; continue _fun00013 }
+            if(!option) { _fun00016_ip = 141; continue _fun00015 }
  138:
             oscard = golfie;
  141:
@@ -535,14 +598,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = tangon.country;
             option = report != golfie;
             oscard = entity;
-            if(!option) { _fun00014_ip = 164; continue _fun00013 }
+            if(!option) { _fun00016_ip = 164; continue _fun00015 }
  161:
             oscard = golfie;
  164:
             michal['country'] = oscard;
             tangon = tangon.postal_code;
             report = report != tangon;
-            if(!report) { _fun00014_ip = 185; continue _fun00013 }
+            if(!report) { _fun00016_ip = 185; continue _fun00015 }
  182:
             entity = tangon;
  185:
@@ -555,9 +618,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['parseStripePaymentMethod'] = tangon;
+    tangon = function(argFoo) { // Original name: parseBillingAddressInfoToStripeBillingDetails
+        zuuluu = argFoo;
+        entity = {};
+        michal = zuuluu.name;
+        entity['name'] = michal;
+        michal = {};
+        tangon = zuuluu.line1;
+        michal['line1'] = tangon;
+        tangon = zuuluu.line2;
+        michal['line2'] = tangon;
+        tangon = zuuluu.city;
+        michal['city'] = tangon;
+        tangon = zuuluu.state;
+        michal['state'] = tangon;
+        tangon = zuuluu.postalCode;
+        michal['postal_code'] = tangon;
+        zuuluu = zuuluu.country;
+        michal['country'] = zuuluu;
+        entity['address'] = michal;
+        return entity;
+    };
+    zuuluu['parseBillingAddressInfoToStripeBillingDetails'] = tangon;
     michal = function() { // Original name: authenticatePaymentIntentForPaymentId
         entity = undefined;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot10;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

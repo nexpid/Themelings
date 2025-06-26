@@ -113,8 +113,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = {};
     tangon = 'Registration';
     verify['REGISTRATION'] = tangon;
-    tangon = 'Value Props';
-    verify['VALUE_PROPS'] = tangon;
     tangon = 'Add Avatar';
     verify['ADD_AVATAR'] = tangon;
     tangon = 'Contact Sync';

@@ -335,12 +335,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = report.bind(tangon)();
             report = new Array(3);
             report[0] = verify;
-            if(!golfie) { _fun00002_ip = 269; continue _fun00001 }
- 266:
+            if(!golfie) { _fun00002_ip = 273; continue _fun00001 }
+ 270:
             golfie = option;
- 269:
-            if(!golfie) { _fun00002_ip = 329; continue _fun00001 }
- 272:
+ 273:
+            if(!golfie) { _fun00002_ip = 333; continue _fun00001 }
+ 276:
             offset = _closure1_slot6;
             verify = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -352,7 +352,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = _closure1_slot5;
             option['children'] = yankee;
             golfie = offset.bind(tangon)(verify, option);
- 329:
+ 333:
             report[1] = golfie;
             oscard = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

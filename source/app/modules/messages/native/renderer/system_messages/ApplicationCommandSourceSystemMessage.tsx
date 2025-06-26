@@ -253,9 +253,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  71:
             offset = michal.name;
  76:
-            if(!(entity != romeon)) { _fun00006_ip = 441; continue _fun00005 }
+            if(!(entity != romeon)) { _fun00006_ip = 453; continue _fun00005 }
  83:
-            if(!(entity != offset)) { _fun00006_ip = 441; continue _fun00005 }
+            if(!(entity != offset)) { _fun00006_ip = 453; continue _fun00005 }
  90:
             golfie = _closure1_slot0;
             backup = _closure1_slot2;
@@ -267,12 +267,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal.nick;
             kiloes = michal.colorString;
             output = michal.colorStrings;
-            option = michal.guildId;
+            verify = michal.guildId;
             michal = 7;
             michal = backup[michal];
-            oscard = golfie.bind(tangon)(michal);
-            michal = oscard.isNativeMessageEligibleForEnhancedRoleColors;
-            result = michal.bind(oscard)(option, sizing);
+            option = golfie.bind(tangon)(michal);
+            oscard = option.isNativeMessageEligibleForEnhancedRoleColors;
+            michal = yankee.author;
+            michal = michal.id;
+            result = oscard.bind(option)(verify, michal, sizing);
             michal = {};
             oscard = 8;
             option = backup[oscard];
@@ -294,24 +296,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['colorString'] = kiloes;
             echoed = 'username';
             backup = null;
-            if(!(echoed === sizing)) { _fun00006_ip = 264; continue _fun00005 }
- 261:
+            if(!(echoed === sizing)) { _fun00006_ip = 276; continue _fun00005 }
+ 273:
             backup = kiloes;
- 264:
+ 276:
             foxtra['linkColor'] = backup;
             foxtra['roleColor'] = kiloes;
             backup = null;
-            if(!result) { _fun00006_ip = 282; continue _fun00005 }
- 279:
+            if(!result) { _fun00006_ip = 294; continue _fun00005 }
+ 291:
             backup = output;
- 282:
+ 294:
             foxtra['roleColors'] = backup;
             backup = 'dot';
             backup = backup === sizing;
-            if(!backup) { _fun00006_ip = 302; continue _fun00005 }
- 298:
+            if(!backup) { _fun00006_ip = 314; continue _fun00005 }
+ 310:
             backup = entity != kiloes;
- 302:
+ 314:
             foxtra['shouldShowRoleDot'] = backup;
             backup = yankee.channel_id;
             foxtra['messageChannelId'] = backup;
@@ -321,11 +323,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = yankee.type;
             yankee = _closure1_slot5;
             yankee = yankee.CHAT_INPUT_COMMAND;
-            if(!(foxtra !== yankee)) { _fun00006_ip = 355; continue _fun00005 }
- 348:
+            if(!(foxtra !== yankee)) { _fun00006_ip = 367; continue _fun00005 }
+ 360:
             yankee = romeon.name;
-            _fun00006_ip = 387; continue _fun00005;
- 355:
+            _fun00006_ip = 399; continue _fun00005;
+ 367:
             kiloes = _closure1_slot6;
             backup = romeon.name;
             romeon = global;
@@ -333,7 +335,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = romeon.concat;
             romeon = '';
             yankee = foxtra.bind(romeon)(kiloes, backup);
- 387:
+ 399:
             oscard['commandName'] = yankee;
             oscard['applicationName'] = offset;
             oscard = option.bind(verify)(golfie, oscard);
@@ -343,11 +345,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 9;
             zuuluu = golfie[zuuluu];
             zuuluu = oscard.bind(tangon)(zuuluu);
-            update = zuuluu.bind(tangon)(report);
-            source = michal;
-            zuuluu = copyDataProperties(source, update);
+            source = zuuluu.bind(tangon)(report);
+            ctrled = michal;
+            zuuluu = copyDataProperties(ctrled, source);
             return michal;
- 441:
+ 453:
             return entity;
         }
     };
