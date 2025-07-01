@@ -236,52 +236,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = argBar;
                 michal = this;
                 golfie = null;
-                if(!(golfie != tangon)) { _fun00010_ip = 308; continue _fun00009 }
+                if(!(golfie != tangon)) { _fun00010_ip = 302; continue _fun00009 }
  18:
                 report = global;
-                entity = report.Object;
-                entity = entity.prototype;
-                option = entity.hasOwnProperty;
-                zuuluu = option.call;
+                option = report.Object;
+                zuuluu = option.hasOwn;
                 entity = michal.usageHistory;
                 entity = zuuluu.bind(option)(entity, tangon);
                 verify = undefined;
-                if(!entity) { _fun00010_ip = 69; continue _fun00009 }
- 59:
+                if(!entity) { _fun00010_ip = 59; continue _fun00009 }
+ 49:
                 entity = michal.usageHistory;
                 verify = entity[tangon];
- 69:
-                if(!(golfie != verify)) { _fun00010_ip = 242; continue _fun00009 }
- 76:
+ 59:
+                if(!(golfie != verify)) { _fun00010_ip = 232; continue _fun00009 }
+ 66:
                 entity = -1;
                 verify['frecency'] = entity;
                 zuuluu = verify.totalUses;
                 entity = 1;
                 entity = zuuluu + entity;
                 verify['totalUses'] = entity;
-                if(!(golfie != oscard)) { _fun00010_ip = 145; continue _fun00009 }
- 111:
+                if(!(golfie != oscard)) { _fun00010_ip = 135; continue _fun00009 }
+ 101:
                 zuuluu = verify.recentUses;
                 entity = zuuluu.push;
                 entity = entity.bind(zuuluu)(oscard);
                 zuuluu = verify.recentUses;
                 entity = zuuluu.sort;
                 entity = entity.bind(zuuluu)();
-                _fun00010_ip = 176; continue _fun00009;
- 145:
+                _fun00010_ip = 166; continue _fun00009;
+ 135:
                 option = verify.recentUses;
                 zuuluu = option.push;
                 offset = report.Date;
                 entity = offset.now;
                 entity = entity.bind(offset)();
                 entity = zuuluu.bind(option)(entity);
- 176:
+ 166:
                 entity = verify.recentUses;
                 option = entity.length;
                 entity = michal.maxSamples;
                 zuuluu = verify;
-                if(!(option > entity)) { _fun00010_ip = 288; continue _fun00009 }
- 200:
+                if(!(option > entity)) { _fun00010_ip = 282; continue _fun00009 }
+ 190:
                 option = verify.recentUses;
                 entity = option.shift;
                 entity = entity.bind(option)();
@@ -289,27 +287,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = entity.length;
                 entity = michal.maxSamples;
                 zuuluu = verify;
-                if(option > entity) { _fun00010_ip = 200; continue _fun00009 }
- 240:
-                _fun00010_ip = 288; continue _fun00009;
- 242:
+                if(option > entity) { _fun00010_ip = 190; continue _fun00009 }
+ 230:
+                _fun00010_ip = 282; continue _fun00009;
+ 232:
                 entity = {'totalUses': 1, 'recentUses': null, 'frecency': 4294967295, 'score': 0};
-                if(!(golfie == oscard)) { _fun00010_ip = 271; continue _fun00009 }
- 256:
+                if(!(golfie == oscard)) { _fun00010_ip = 265; continue _fun00009 }
+ 250:
                 golfie = report.Date;
                 report = golfie.now;
                 oscard = report.bind(golfie)();
- 271:
+ 265:
                 report = new Array(1);
                 report[0] = oscard;
                 entity['recentUses'] = report;
                 zuuluu = entity;
- 288:
+ 282:
                 entity = michal.usageHistory;
                 entity[tangon] = zuuluu;
                 entity = michal.markDirty;
                 entity = entity.bind(michal)();
- 308:
+ 302:
                 entity = undefined;
                 return entity;
             }

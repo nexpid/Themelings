@@ -5,20 +5,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
+    var _closure1_slot1 = oscard;
     entity = function(argFoo, argBar) { // Original name: _getGuildIdsToFetchSoundsFor
+        zuuluu = argFoo;
         michal = argBar;
         var _closure2_slot0 = michal;
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
-        michal = 3;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
-        zuuluu = tangon.keys;
-        michal = argFoo;
-        zuuluu = zuuluu.bind(tangon)(michal);
         michal = zuuluu.filter;
         entity = function(argFoo) {
             zuuluu = _closure2_slot0;
@@ -32,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot5 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -46,16 +37,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     tangon = report.bind(entity)(tangon);
     tangon = tangon.useMemo;
-    var _closure1_slot3 = tangon;
+    var _closure1_slot2 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
+    var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 5;
+    var _closure1_slot4 = tangon;
+    tangon = 4;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -63,18 +54,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: useGuildIdsToFetchSoundsFor
         report = _closure1_slot0;
-        golfie = _closure1_slot2;
-        zuuluu = 4;
+        golfie = _closure1_slot1;
+        zuuluu = 3;
         oscard = golfie[zuuluu];
         tangon = undefined;
         offset = report.bind(tangon)(oscard);
-        verify = offset.useStateFromStores;
-        oscard = _closure1_slot4;
+        verify = offset.useStateFromStoresArray;
+        oscard = _closure1_slot3;
         option = new Array(1);
         option[0] = oscard;
         oscard = function() {
-            michal = _closure1_slot4;
-            entity = michal.getGuilds;
+            michal = _closure1_slot3;
+            entity = michal.getGuildIds;
             entity = entity.bind(michal)();
             return entity;
         };
@@ -83,23 +74,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = golfie[zuuluu];
         option = report.bind(tangon)(zuuluu);
         golfie = option.useStateFromStores;
-        zuuluu = _closure1_slot5;
+        zuuluu = _closure1_slot4;
         report = new Array(1);
         report[0] = zuuluu;
         zuuluu = function() {
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             entity = michal.getSounds;
             entity = entity.bind(michal)();
             return entity;
         };
         report = golfie.bind(option)(report, zuuluu);
         var _closure2_slot1 = report;
-        zuuluu = _closure1_slot3;
+        zuuluu = _closure1_slot2;
         michal = new Array(2);
         michal[0] = oscard;
         michal[1] = report;
         entity = function() {
-            tangon = _closure1_slot6;
+            tangon = _closure1_slot5;
             zuuluu = _closure2_slot0;
             michal = _closure2_slot1;
             entity = undefined;
@@ -111,11 +102,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['useGuildIdsToFetchSoundsFor'] = tangon;
     michal = function() { // Original name: getGuildIdsToFetchSoundsFor
-        tangon = _closure1_slot6;
-        zuuluu = _closure1_slot4;
-        michal = zuuluu.getGuilds;
+        tangon = _closure1_slot5;
+        zuuluu = _closure1_slot3;
+        michal = zuuluu.getGuildIds;
         zuuluu = michal.bind(zuuluu)();
-        michal = _closure1_slot5;
+        michal = _closure1_slot4;
         entity = michal.getSounds;
         michal = entity.bind(michal)();
         entity = undefined;

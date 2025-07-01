@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['updateMobilePendingThemeIndex'] = tangon;
-    michal = function() {
+    tangon = function() {
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 0;
@@ -67,6 +67,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['resetBackgroundGradientPreset'] = michal;
+    zuuluu['resetBackgroundGradientPreset'] = tangon;
+    michal = function() {
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 0;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'RESET_PREVIEW_CLIENT_THEME';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['resetPreviewClientTheme'] = michal;
     return entity;
 })();

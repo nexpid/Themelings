@@ -613,7 +613,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argBar;
             tangon = entity.length;
             entity = 0;
-            if(!(entity !== tangon)) { _fun00016_ip = 408; continue _fun00015 }
+            if(!(entity !== tangon)) { _fun00016_ip = 412; continue _fun00015 }
  46:
             if(!(golfie != zuuluu)) { _fun00016_ip = 377; continue _fun00015 }
  53:
@@ -714,7 +714,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.FILTER_ALL;
             entity['type'] = michal;
             return entity;
- 408:
+ 412:
             entity = {'type': null, 'filter': null, 'token': null};
             michal = _closure1_slot7;
             michal = michal.EMPTY;
@@ -1023,32 +1023,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: isChannelFilterSupported
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
-            tangon = argFoo;
-            report = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            entity = 9;
-            zuuluu = zuuluu[entity];
-            entity = undefined;
-            report = report.bind(entity)(zuuluu);
-            zuuluu = report.getIsSearchDesktopXDMExperimentEnabled;
-            entity = {};
-            oscard = 'isGuildOrDMSearchType';
-            entity['location'] = oscard;
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = _closure1_slot10;
-            entity = entity.GUILD;
-            entity = tangon === entity;
-            if(entity) { _fun00030_ip = 91; continue _fun00029 }
- 68:
+            zuuluu = argFoo;
             michal = _closure1_slot10;
-            michal = michal.DMS;
-            michal = tangon === michal;
-            if(!michal) { _fun00030_ip = 88; continue _fun00029 }
- 85:
-            michal = zuuluu;
- 88:
+            michal = michal.GUILD;
+            if(!(zuuluu !== michal)) { _fun00030_ip = 85; continue _fun00029 }
+ 20:
+            report = _closure1_slot0;
+            tangon = _closure1_slot2;
+            michal = 9;
+            tangon = tangon[michal];
+            michal = undefined;
+            report = report.bind(michal)(tangon);
+            tangon = report.getIsSearchDesktopXDMExperimentEnabled;
+            michal = {};
+            oscard = 'isChannelFilterSupported';
+            michal['location'] = oscard;
+            michal = tangon.bind(report)(michal);
+            entity = _closure1_slot10;
+            entity = entity.DMS;
+            entity = zuuluu === entity;
+            if(!entity) { _fun00030_ip = 83; continue _fun00029 }
+ 80:
             entity = michal;
- 91:
+ 83:
+            return entity;
+ 85:
+            entity = true;
             return entity;
         }
     };

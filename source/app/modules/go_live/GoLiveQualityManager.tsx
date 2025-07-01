@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = zuuluu.DelayedCall;
                 zuuluu = report.prototype;
                 zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-                backup = 500;
+                backup = 2000;
                 foxtra = function() {
                     michal = _closure3_slot0;
                     entity = michal.update;
@@ -1368,30 +1368,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
                         zuuluu = argFoo;
-                        entity = _closure3_slot1;
-                        michal = entity.resolutionWants;
-                        entity = null;
-                        if(!(entity == michal)) { _fun00036_ip = 34; continue _fun00035 }
- 22:
                         michal = _closure3_slot1;
-                        entity = {};
-                        michal['resolutionWants'] = entity;
+                        tangon = michal.pixelCounts;
+                        michal = null;
+                        if(!(michal == tangon)) { _fun00036_ip = 34; continue _fun00035 }
+ 22:
+                        tangon = _closure3_slot1;
+                        michal = {};
+                        tangon['pixelCounts'] = michal;
  34:
-                        entity = _closure3_slot1;
-                        michal = entity[zuuluu];
-                        entity = 0;
-                        if(!(michal > entity)) { _fun00036_ip = 88; continue _fun00035 }
+                        michal = _closure3_slot1;
+                        tangon = michal[zuuluu];
+                        michal = 0;
+                        if(!(tangon > michal)) { _fun00036_ip = 82; continue _fun00035 }
  48:
-                        entity = _closure3_slot1;
-                        michal = entity.resolutionWants;
-                        entity = {};
-                        tangon = _closure3_slot0;
-                        report = tangon.resolutionWidth;
-                        entity['width'] = report;
-                        tangon = tangon.resolutionHeight;
-                        entity['height'] = tangon;
+                        michal = _closure3_slot1;
+                        michal = michal.pixelCounts;
+                        entity = _closure3_slot0;
+                        tangon = entity.resolutionWidth;
+                        entity = entity.resolutionHeight;
+                        entity = tangon * entity;
                         michal[zuuluu] = entity;
- 88:
+ 82:
                         entity = undefined;
                         return entity;
                     }

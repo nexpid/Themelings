@@ -1,42 +1,46 @@
 // app/modules/guild_role_subscriptions/useRoleSubscriptionFormat.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    golfie = argCor;
+    golfie = argBaz;
+    option = argCor;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
+    var _closure1_slot1 = option;
     var _closure1_slot2 = oscard;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    offset = entity.Object;
+    verify = offset.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = verify.bind(offset)(zuuluu, entity, tangon);
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
+    tangon = option.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argBaz;
-    tangon = tangon.bind(entity)(golfie);
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.GuildRoleSubscriptionFormat;
+    tangon = golfie.bind(entity)(tangon);
     var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    tangon = tangon.GuildRoleSubscriptionFormat;
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     tangon = tangon.Permissions;
     tangon = tangon.VIEW_CHANNEL;
-    var _closure1_slot6 = tangon;
-    tangon = 6;
+    var _closure1_slot7 = tangon;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -47,18 +51,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = michal;
         report = _closure1_slot0;
         tangon = _closure1_slot2;
-        zuuluu = 4;
+        zuuluu = 5;
         tangon = tangon[zuuluu];
         zuuluu = undefined;
         oscard = report.bind(zuuluu)(tangon);
         report = oscard.useStateFromStores;
-        zuuluu = _closure1_slot4;
-        tangon = new Array(1);
+        zuuluu = _closure1_slot5;
+        tangon = new Array(2);
         tangon[0] = zuuluu;
+        zuuluu = _closure1_slot4;
+        tangon[1] = zuuluu;
         zuuluu = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tangon = _closure1_slot4;
+                tangon = _closure1_slot5;
                 zuuluu = tangon.getGuild;
                 entity = _closure2_slot0;
                 oscard = zuuluu.bind(tangon)(entity);
@@ -92,22 +98,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  13:
                 report = _closure1_slot1;
                 tangon = _closure1_slot2;
-                zuuluu = 5;
+                zuuluu = 6;
                 tangon = tangon[zuuluu];
                 zuuluu = undefined;
                 report = report.bind(zuuluu)(tangon);
                 tangon = report.has;
                 michal = _closure2_slot1;
                 zuuluu = michal.permissions;
-                michal = _closure1_slot6;
+                michal = _closure1_slot7;
                 michal = tangon.bind(report)(zuuluu, michal);
                 if(michal) { _fun00004_ip = 78; continue _fun00003 }
  66:
-                entity = _closure1_slot5;
+                entity = _closure1_slot6;
                 entity = entity.ALL_CHANNELS;
                 _fun00004_ip = 91; continue _fun00003;
  78:
-                michal = _closure1_slot5;
+                michal = _closure1_slot6;
                 entity = michal.SOME_CHANNELS;
  91:
                 return entity;
@@ -116,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = tangon.bind(report)(entity, zuuluu);
         entity = {};
         entity['format'] = zuuluu;
-        michal = _closure1_slot5;
+        michal = _closure1_slot6;
         michal = michal.ALL_CHANNELS;
         michal = zuuluu === michal;
         entity['isFullServerGating'] = michal;

@@ -318,6 +318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['destroyed'] = report;
                 zuuluu = 0;
                 entity['audioSSRC'] = zuuluu;
+                entity['videoSSRC'] = zuuluu;
                 entity['selfDeaf'] = report;
                 entity['selfMute'] = report;
                 zuuluu = {};

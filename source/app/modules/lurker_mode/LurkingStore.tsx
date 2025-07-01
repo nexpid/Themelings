@@ -51,11 +51,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.indexOf;
             oscard = zuuluu.bind(tangon)(michal);
             zuuluu = -1;
-            if(!(!(oscard > zuuluu))) { _fun00004_ip = 35; continue _fun00003 }
- 31:
+            if(!(!(oscard > zuuluu))) { _fun00004_ip = 34; continue _fun00003 }
+ 30:
             zuuluu = false;
             return zuuluu;
- 35:
+ 34:
             option = _closure1_slot10;
             zuuluu = new Array(0);
             golfie = 0;
@@ -324,47 +324,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon = golfie.bind(entity)(michal);
     michal = {};
     verify = function() { // Original name: handleConnectionOpen
-        entity = global;
-        tangon = entity.Object;
-        zuuluu = tangon.values;
-        report = _closure1_slot6;
-        entity = report.getGuilds;
-        entity = entity.bind(report)();
-        report = zuuluu.bind(tangon)(entity);
-        tangon = report.reduce;
-        zuuluu = function(argFoo, argBar) {
-            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
- 0:
-                report = argFoo;
-                zuuluu = argBar;
-                entity = zuuluu.isLurker;
-                michal = entity.bind(zuuluu)();
-                entity = report;
-                if(!michal) { _fun00016_ip = 58; continue _fun00015 }
- 22:
-                michal = new Array(1);
-                oscard = 0;
-                option = michal;
-                golfie = report;
-                tangon = arraySpread(option, golfie, oscard);
-                zuuluu = zuuluu.id;
-                michal[tangon] = zuuluu;
-                zuuluu = 1;
-                zuuluu = tangon + zuuluu;
-                entity = michal;
- 58:
-                return entity;
-            }
+        tangon = _closure1_slot6;
+        zuuluu = tangon.getGuildsArray;
+        report = zuuluu.bind(tangon)();
+        tangon = report.filter;
+        zuuluu = function(argFoo) {
+            michal = argFoo;
+            entity = michal.isLurker;
+            entity = entity.bind(michal)();
+            return entity;
         };
-        entity = new Array(0);
-        entity = tangon.bind(report)(zuuluu, entity);
+        tangon = tangon.bind(report)(zuuluu);
+        zuuluu = tangon.map;
+        entity = function(argFoo) {
+            entity = argFoo;
+            entity = entity.id;
+            return entity;
+        };
+        entity = zuuluu.bind(tangon)(entity);
         _closure1_slot10 = entity;
         entity = undefined;
         return entity;
     };
     michal['CONNECTION_OPEN'] = verify;
     verify = function(argFoo) { // Original name: handleGuildJoin
-        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+        _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             michal = argFoo;
             golfie = michal.guildId;
@@ -372,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = michal.source;
             zuuluu = michal.directoryChannelId;
             oscard = michal.loadId;
-            if(entity) { _fun00018_ip = 38; continue _fun00017 }
+            if(entity) { _fun00016_ip = 38; continue _fun00015 }
  34:
             entity = false;
             return entity;
@@ -381,21 +365,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = undefined;
             entity = tangon.bind(entity)(golfie);
             entity = null;
-            if(!(entity != oscard)) { _fun00018_ip = 66; continue _fun00017 }
+            if(!(entity != oscard)) { _fun00016_ip = 66; continue _fun00015 }
  58:
             tangon = _closure1_slot11;
             tangon[golfie] = oscard;
  66:
             tangon = _closure1_slot8;
             tangon = tangon.MOBILE_GUILD_DISCOVERY;
-            if(!(tangon !== report)) { _fun00018_ip = 127; continue _fun00017 }
+            if(!(tangon !== report)) { _fun00016_ip = 127; continue _fun00015 }
  80:
             tangon = _closure1_slot8;
             tangon = tangon.DIRECTORY_ENTRY;
-            if(!(tangon !== report)) { _fun00018_ip = 100; continue _fun00017 }
+            if(!(tangon !== report)) { _fun00016_ip = 100; continue _fun00015 }
  94:
             _closure1_slot12 = entity;
-            _fun00018_ip = 147; continue _fun00017;
+            _fun00016_ip = 147; continue _fun00015;
  100:
             entity = {};
             tangon = _closure1_slot8;
@@ -403,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['type'] = tangon;
             entity['directoryChannelId'] = zuuluu;
             _closure1_slot12 = entity;
-            _fun00018_ip = 147; continue _fun00017;
+            _fun00016_ip = 147; continue _fun00015;
  127:
             entity = {};
             zuuluu = _closure1_slot8;
@@ -417,18 +401,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['GUILD_JOIN'] = verify;
     verify = function(argFoo) { // Original name: handleGuildStopLurking
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.ignoredGuildIds;
             michal = function(argFoo) { // Original name: clearLurkingGuilds
-                _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+                _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     tangon = argFoo;
                     michal = global;
                     report = michal.Set;
                     michal = null;
-                    if(!(michal == tangon)) { _fun00022_ip = 23; continue _fun00021 }
+                    if(!(michal == tangon)) { _fun00020_ip = 23; continue _fun00019 }
  19:
                     tangon = new Array(0);
  23:
@@ -450,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = arraySpread(option, golfie, oscard);
                     zuuluu = tangon.reduce;
                     michal = function(argFoo, argBar) {
-                        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+                        _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                             zuuluu = argFoo;
                             report = argBar;
@@ -458,12 +442,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             entity = michal.has;
                             michal = entity.bind(michal)(report);
                             entity = zuuluu;
-                            if(michal) { _fun00024_ip = 52; continue _fun00023 }
+                            if(michal) { _fun00022_ip = 52; continue _fun00021 }
  29:
                             tangon = _closure1_slot14;
                             michal = undefined;
                             michal = tangon.bind(michal)(report);
-                            if(michal) { _fun00024_ip = 49; continue _fun00023 }
+                            if(michal) { _fun00022_ip = 49; continue _fun00021 }
  46:
                             michal = zuuluu;
  49:
@@ -479,7 +463,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity = undefined;
             entity = michal.bind(entity)(zuuluu);
-            if(!entity) { _fun00020_ip = 35; continue _fun00019 }
+            if(!entity) { _fun00018_ip = 35; continue _fun00017 }
  26:
             michal = null;
             _closure1_slot12 = michal;
@@ -501,14 +485,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['GUILD_STOP_LURKING_FAILURE'] = verify;
     verify = function(argFoo) { // Original name: handleGuildCreate
-        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             entity = argFoo;
             tangon = entity.guild;
             entity = tangon.joined_at;
             zuuluu = null;
             michal = zuuluu == entity;
-            if(michal) { _fun00026_ip = 48; continue _fun00025 }
+            if(michal) { _fun00024_ip = 48; continue _fun00023 }
  23:
             oscard = _closure1_slot10;
             report = oscard.includes;
@@ -517,7 +501,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = !entity;
  48:
             entity = !michal;
-            if(michal) { _fun00026_ip = 79; continue _fun00025 }
+            if(michal) { _fun00024_ip = 79; continue _fun00023 }
  54:
             oscard = _closure1_slot14;
             report = tangon.id;
@@ -531,7 +515,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['GUILD_CREATE'] = verify;
     verify = function(argFoo) { // Original name: handleGuildDelete
-        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
+        _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             entity = argFoo;
             michal = entity.guild;
@@ -541,7 +525,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = tangon.bind(report)(entity);
             tangon = !entity;
             entity = !tangon;
-            if(tangon) { _fun00028_ip = 63; continue _fun00027 }
+            if(tangon) { _fun00026_ip = 63; continue _fun00025 }
  39:
             report = _closure1_slot14;
             tangon = michal.id;
@@ -556,7 +540,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['GUILD_DELETE'] = verify;
     tangon = function(argFoo) { // Original name: handleGuildMemberAdd
-        _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
+        _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             michal = argFoo;
             oscard = michal.guildId;
@@ -570,16 +554,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = michal == option;
             report = undefined;
             tangon = undefined;
-            if(verify) { _fun00030_ip = 58; continue _fun00029 }
+            if(verify) { _fun00028_ip = 58; continue _fun00027 }
  53:
             tangon = option.id;
  58:
             tangon = golfie !== tangon;
-            if(tangon) { _fun00030_ip = 69; continue _fun00029 }
+            if(tangon) { _fun00028_ip = 69; continue _fun00027 }
  65:
             tangon = michal == entity;
  69:
-            if(tangon) { _fun00030_ip = 89; continue _fun00029 }
+            if(tangon) { _fun00028_ip = 89; continue _fun00027 }
  72:
             golfie = _closure1_slot10;
             entity = golfie.includes;
@@ -587,7 +571,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = !entity;
  89:
             entity = !tangon;
-            if(tangon) { _fun00030_ip = 110; continue _fun00029 }
+            if(tangon) { _fun00028_ip = 110; continue _fun00027 }
  95:
             tangon = _closure1_slot14;
             tangon = tangon.bind(report)(oscard);

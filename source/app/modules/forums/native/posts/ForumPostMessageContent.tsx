@@ -46,11 +46,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            verify = entity.messageContent;
-            foxtra = entity.message;
-            report = entity.isMessageDeleted;
+            offset = entity.messageContent;
+            backup = entity.message;
+            verify = entity.isMessageDeleted;
             yankee = entity.hasUnreads;
-            offset = entity.messageLoaded;
+            foxtra = entity.messageLoaded;
             option = entity.textStyle;
             oscard = entity.lineClamp;
             tangon = undefined;
@@ -58,6 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  50:
             oscard = 2;
  53:
+            report = entity.senderModifier;
             michal = _closure1_slot4;
             golfie = michal.bind(tangon)();
             zuuluu = _closure1_slot1;
@@ -66,10 +67,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = romeon[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['message'] = foxtra;
-            michal['messageLoaded'] = offset;
-            michal['messageContent'] = verify;
-            michal['isMessageDeleted'] = report;
+            michal['message'] = backup;
+            michal['messageLoaded'] = foxtra;
+            michal['messageContent'] = offset;
+            michal['isMessageDeleted'] = verify;
+            michal['senderModifier'] = report;
             michal = zuuluu.bind(tangon)(michal);
             report = michal.content;
             verify = michal.style;
@@ -83,10 +85,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['variant'] = offset;
             offset = 'text-muted';
-            if(!yankee) { _fun00002_ip = 171; continue _fun00001 }
- 165:
+            if(!yankee) { _fun00002_ip = 182; continue _fun00001 }
+ 176:
             offset = 'text-normal';
- 171:
+ 182:
             entity['color'] = offset;
             entity['lineClamp'] = oscard;
             oscard = 'tail';

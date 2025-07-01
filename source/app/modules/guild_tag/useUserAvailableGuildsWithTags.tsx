@@ -44,12 +44,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal[1] = entity;
         entity = function() {
             michal = _closure1_slot3;
-            entity = michal.getGuilds;
+            entity = michal.getGuildsArray;
             zuuluu = entity.bind(michal)();
-            entity = global;
-            michal = entity.Object;
-            entity = michal.values;
-            zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.filter;
             entity = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

@@ -49,7 +49,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     romeon['notificationCenterVariant'] = foxtra;
     foxtra = report.SERVER_RAIL_TOP;
     romeon['entrypoint'] = foxtra;
-    foxtra = tangon.TABS;
+    foxtra = tangon.DROPDOWN;
     romeon['filterStyle'] = foxtra;
     golfie['config'] = romeon;
     romeon = new Array(4);

@@ -30,24 +30,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = michal;
     michal = 3;
     michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.MobileSetting;
+    michal = golfie.bind(entity)(michal);
+    var _closure1_slot6 = michal;
     michal = 4;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    option = michal.RendererType;
+    golfie = michal.MobileSetting;
     michal = 5;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
+    option = michal.RendererType;
+    michal = 6;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    verify = michal.AnalyticEvents;
+    var _closure1_slot7 = verify;
     michal = michal.ThemeTypes;
-    var _closure1_slot6 = michal;
+    var _closure1_slot8 = michal;
     michal = {};
     option = option.TOGGLE;
     michal['type'] = option;
     option = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot2;
-        entity = 7;
+        entity = 8;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -66,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = function() { // Original name: useSyncThemeAcrossClientsValue
         tangon = _closure1_slot0;
         zuuluu = _closure1_slot2;
-        michal = 9;
+        michal = 10;
         zuuluu = zuuluu[michal];
         michal = undefined;
         tangon = tangon.bind(michal)(zuuluu);
@@ -88,24 +94,72 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['useValue'] = golfie;
     golfie = function(argFoo) { // Original name: onSyncThemeAcrossClientsValueChange
-        zuuluu = _closure1_slot1;
-        michal = _closure1_slot2;
-        entity = 10;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.setShouldSyncAppearanceSettings;
-        michal = argFoo;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            tangon = argFoo;
+            entity = _closure1_slot5;
+            yankee = entity.theme;
+            entity = _closure1_slot3;
+            oscard = entity.gradientPreset;
+            report = null;
+            golfie = report == oscard;
+            entity = undefined;
+            zuuluu = undefined;
+            if(golfie) { _fun00002_ip = 43; continue _fun00001 }
+ 38:
+            zuuluu = oscard.id;
+ 43:
+            oscard = report != zuuluu;
+            offset = null;
+            if(!oscard) { _fun00002_ip = 55; continue _fun00001 }
+ 52:
+            offset = zuuluu;
+ 55:
+            zuuluu = _closure1_slot6;
+            zuuluu = zuuluu.settings;
+            oscard = zuuluu.appearance;
+            golfie = report == oscard;
+            zuuluu = undefined;
+            if(golfie) { _fun00002_ip = 101; continue _fun00001 }
+ 80:
+            oscard = oscard.clientThemeSettings;
+            golfie = report == oscard;
+            zuuluu = undefined;
+            if(golfie) { _fun00002_ip = 101; continue _fun00001 }
+ 95:
+            zuuluu = oscard.customUserThemeSettings;
+ 101:
+            verify = report != zuuluu;
+            oscard = _closure1_slot0;
+            report = _closure1_slot2;
+            zuuluu = 11;
+            zuuluu = report[zuuluu];
+            option = oscard.bind(entity)(zuuluu);
+            golfie = option.track;
+            zuuluu = _closure1_slot7;
+            oscard = zuuluu.SYNC_ACROSS_CLIENTS_TOGGLED;
+            zuuluu = {};
+            zuuluu['is_sync_enabled'] = tangon;
+            zuuluu['base_theme'] = yankee;
+            zuuluu['client_theme'] = offset;
+            zuuluu['has_custom_theme'] = verify;
+            zuuluu = golfie.bind(option)(oscard, zuuluu);
+            zuuluu = _closure1_slot1;
+            michal = 12;
+            michal = report[michal];
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.setShouldSyncAppearanceSettings;
+            michal = michal.bind(zuuluu)(tangon);
+            return entity;
+        }
     };
     michal['onValueChange'] = golfie;
     golfie = function() { // Original name: useSyncThemeAcrossClientsDescription
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             option = _closure1_slot0;
             entity = _closure1_slot2;
-            zuuluu = 6;
+            zuuluu = 7;
             zuuluu = entity[zuuluu];
             golfie = undefined;
             zuuluu = option.bind(golfie)(zuuluu);
@@ -119,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['autoTrackExposure'] = verify;
             zuuluu = report.bind(oscard)(tangon, zuuluu);
             tangon = zuuluu.enabled;
-            zuuluu = 7;
+            zuuluu = 8;
             report = entity[zuuluu];
             report = option.bind(golfie)(report);
             oscard = report.intl;
@@ -132,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = report.trim;
             oscard = entity.bind(report)();
             entity = oscard;
-            if(!tangon) { _fun00002_ip = 220; continue _fun00001 }
+            if(!tangon) { _fun00004_ip = 220; continue _fun00003 }
  134:
             tangon = _closure1_slot0;
             option = _closure1_slot2;
@@ -141,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.intl;
             zuuluu = tangon.string;
             report = _closure1_slot1;
-            michal = 8;
+            michal = 9;
             michal = option[michal];
             michal = report.bind(golfie)(michal);
             michal = michal.xRdYAQ;
@@ -158,11 +212,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['useDescription'] = golfie;
     tangon = function() { // Original name: useIsSyncThemeAcrossClientsDisabled
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            oscard = 9;
+            oscard = 10;
             tangon = report[oscard];
             option = undefined;
             offset = zuuluu.bind(option)(tangon);
@@ -188,7 +242,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             golfie = golfie.bind(verify)(oscard, entity);
-            entity = 11;
+            entity = 13;
             entity = report[entity];
             zuuluu = zuuluu.bind(option)(entity);
             entity = zuuluu.getMobileThemesPresets;
@@ -196,29 +250,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             report = entity != golfie;
             zuuluu = null;
-            if(!report) { _fun00004_ip = 159; continue _fun00003 }
+            if(!report) { _fun00006_ip = 159; continue _fun00005 }
  129:
             verify = entity == oscard;
             report = undefined;
-            if(verify) { _fun00004_ip = 156; continue _fun00003 }
+            if(verify) { _fun00006_ip = 156; continue _fun00005 }
  138:
             oscard = oscard[golfie];
             golfie = entity == oscard;
             report = undefined;
-            if(golfie) { _fun00004_ip = 156; continue _fun00003 }
+            if(golfie) { _fun00006_ip = 156; continue _fun00005 }
  151:
             report = oscard.theme;
  156:
             zuuluu = report;
  159:
-            if(!(entity == zuuluu)) { _fun00004_ip = 179; continue _fun00003 }
+            if(!(entity == zuuluu)) { _fun00006_ip = 179; continue _fun00005 }
  163:
-            entity = _closure1_slot6;
+            entity = _closure1_slot8;
             entity = entity.MIDNIGHT;
             entity = tangon === entity;
-            _fun00004_ip = 193; continue _fun00003;
+            _fun00006_ip = 193; continue _fun00005;
  179:
-            michal = _closure1_slot6;
+            michal = _closure1_slot8;
             michal = michal.MIDNIGHT;
             entity = zuuluu === michal;
  193:
@@ -226,7 +280,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     michal['useIsDisabled'] = tangon;
-    tangon = 12;
+    tangon = 14;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

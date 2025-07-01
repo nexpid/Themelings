@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.get;
                 entity = entity.bind(michal)(report);
                 michal = null;
-                if(!(michal == entity)) { _fun00014_ip = 91; continue _fun00013 }
+                if(!(michal == entity)) { _fun00014_ip = 95; continue _fun00013 }
  28:
                 michal = {'farthestSeenIndex': 0, 'uniqueSeenItems': null, 'totalResultsViewed': 0};
                 tangon = global;
@@ -444,7 +444,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = tangon.set;
                 zuuluu = zuuluu.bind(tangon)(report, michal);
                 return michal;
- 91:
+ 95:
                 return entity;
             }
         };

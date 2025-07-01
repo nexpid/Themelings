@@ -52,6 +52,8 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity['currentlyShownGroup'] = michal;
         michal = 0;
         entity['lastWinnerTime'] = michal;
+        michal = false;
+        entity['postConnectionOpen'] = michal;
         return entity;
     };
     var _closure1_slot3 = option;
@@ -676,7 +678,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['getCurrentlyShownCounts'] = tangon;
-    michal = function() {
+    tangon = function() {
         tangon = _closure1_slot0;
         zuuluu = _closure1_slot1;
         entity = 3;
@@ -687,8 +689,16 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         zuuluu = function() {
             zuuluu = _closure1_slot4;
             michal = zuuluu.setState;
-            entity = _closure1_slot3;
+            entity = function() {
+                michal = _closure1_slot3;
+                entity = undefined;
+                entity = michal.bind(entity)();
+                michal = true;
+                entity['postConnectionOpen'] = michal;
+                return entity;
+            };
             entity = michal.bind(zuuluu)(entity);
+            entity = undefined;
             return entity;
         };
         zuuluu = tangon.bind(report)(zuuluu);
@@ -697,6 +707,14 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         michal = michal.bind(zuuluu)();
         return entity;
     };
-    zuuluu['reset'] = michal;
+    zuuluu['reset'] = tangon;
+    michal = function() {
+        michal = _closure1_slot4;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
+        entity = entity.postConnectionOpen;
+        return entity;
+    };
+    zuuluu['isPostConnectionOpen'] = michal;
     return entity;
 })();

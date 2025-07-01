@@ -1038,11 +1038,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     foxtra = entity.channelList;
                     report = entity.guild;
                     entity = null;
-                    if(!(entity != michal)) { _fun00018_ip = 266; continue _fun00017 }
+                    if(!(entity != michal)) { _fun00018_ip = 264; continue _fun00017 }
  69:
-                    if(!(entity != tangon)) { _fun00018_ip = 266; continue _fun00017 }
+                    if(!(entity != tangon)) { _fun00018_ip = 264; continue _fun00017 }
  76:
-                    if(!(entity != foxtra)) { _fun00018_ip = 266; continue _fun00017 }
+                    if(!(entity != foxtra)) { _fun00018_ip = 264; continue _fun00017 }
  83:
                     offset = _closure1_slot17;
                     michal = offset.getLocalChannel;
@@ -1057,11 +1057,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  122:
                     michal = entity != verify;
                     offset = -1;
-                    if(!michal) { _fun00018_ip = 146; continue _fun00017 }
+                    if(!michal) { _fun00018_ip = 145; continue _fun00017 }
  135:
                     michal = tangon.indexOf;
                     offset = michal.bind(tangon)(verify);
- 146:
+ 145:
                     michal = tangon.indexOf;
                     sizing = michal.bind(tangon)(option);
                     tangon = _closure1_slot30;
@@ -1079,8 +1079,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = update[michal](echoed, result, output, sizing, kiloes, backup);
                     tangon = tangon.bind(oscard)(michal, report);
                     michal = null;
-                    if(!tangon) { _fun00018_ip = 264; continue _fun00017 }
- 217:
+                    if(!tangon) { _fun00018_ip = 262; continue _fun00017 }
+ 215:
                     report = _closure1_slot21;
                     tangon = _closure1_slot10;
                     zuuluu = {};
@@ -1093,9 +1093,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie[1] = option;
                     zuuluu['style'] = golfie;
                     michal = report.bind(oscard)(tangon, zuuluu);
- 264:
+ 262:
                     return michal;
- 266:
+ 264:
                     return entity;
                 }
             };

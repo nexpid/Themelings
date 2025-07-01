@@ -94,6 +94,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['SdpError'] = entity;
     entity = 'voice-filter-changed';
     michal['VoiceFilterChanged'] = entity;
+    entity = 'users-merged';
+    michal['UsersMerged'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

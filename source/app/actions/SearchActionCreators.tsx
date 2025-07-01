@@ -27,14 +27,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = true;
             option['search_everywhere'] = zuuluu;
  62:
-            verify = _closure1_slot0;
+            romeon = _closure1_slot0;
             tangon = _closure1_slot2;
             zuuluu = 3;
             zuuluu = tangon[zuuluu];
-            offset = verify.bind(entity)(zuuluu);
+            offset = romeon.bind(entity)(zuuluu);
             verify = offset.trackSearchStarted;
             zuuluu = {};
-            romeon = _closure1_slot3;
+            yankee = 4;
+            yankee = tangon[yankee];
+            romeon = romeon.bind(entity)(yankee);
             yankee = romeon.getSearchType;
             yankee = yankee.bind(romeon)(golfie);
             zuuluu['searchType'] = yankee;
@@ -43,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['queryString'] = oscard;
             zuuluu = verify.bind(offset)(zuuluu);
             zuuluu = _closure1_slot1;
-            michal = 4;
+            michal = 5;
             michal = tangon[michal];
             tangon = zuuluu.bind(entity)(michal);
             zuuluu = tangon.dispatch;
@@ -79,7 +81,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = option;
     report = report.SearchModes;
     var _closure1_slot5 = report;
-    report = 5;
+    report = 6;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -177,17 +179,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot4;
             entity = argBar;
             michal = entity * michal;
-            tangon = _closure1_slot3;
-            entity = tangon.getQuery;
-            entity = entity.bind(tangon)(report);
             oscard = _closure1_slot3;
+            entity = oscard.getQuery;
+            entity = entity.bind(oscard)(report);
             tangon = oscard.getTotalResults;
             tangon = tangon.bind(oscard)(report);
             oscard = 0;
-            if(!(!(michal < oscard))) { _fun00008_ip = 94; continue _fun00007 }
+            if(!(!(michal < oscard))) { _fun00008_ip = 90; continue _fun00007 }
+ 49:
+            if(!(!(michal > tangon))) { _fun00008_ip = 90; continue _fun00007 }
  53:
-            if(!(!(michal > tangon))) { _fun00008_ip = 94; continue _fun00007 }
- 57:
             tangon = _closure1_slot6;
             zuuluu = {};
             verify = zuuluu;
@@ -198,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = undefined;
             entity = argBaz;
             entity = tangon.bind(michal)(report, zuuluu, entity);
- 94:
+ 90:
             entity = undefined;
             return entity;
         }
@@ -207,7 +208,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: clearHistory
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -226,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = entity;
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         zuuluu = zuuluu[entity];
         entity = undefined;
         tangon = tangon.bind(entity)(zuuluu);
@@ -234,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = function() {
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 4;
+            entity = 5;
             michal = michal[entity];
             entity = undefined;
             tangon = zuuluu.bind(entity)(michal);
@@ -260,7 +261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  9:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 4;
+            entity = 5;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -283,7 +284,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = entity;
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         zuuluu = zuuluu[entity];
         entity = undefined;
         tangon = tangon.bind(entity)(zuuluu);
@@ -291,7 +292,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = function() {
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 4;
+            entity = 5;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -317,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  9:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 4;
+            entity = 5;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -340,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: setShowBlockedResults
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -359,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: addQueryToHistory
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -378,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: removeQueryFromHistory
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -397,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo, argBar, argBaz) { // Original name: updateSearchResultsQuery
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 4;
+        entity = 5;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);

@@ -1060,11 +1060,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  15:
             entity = global;
             report = entity.Date;
-            kiloes = tangon.joinedAt;
+            golfie = tangon.joinedAt;
             zuuluu = report.prototype;
             zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-            sizing = zuuluu;
-            entity = new sizing[report](kiloes, backup);
+            option = zuuluu;
+            entity = new option[report](golfie, oscard);
             entity = entity instanceof Object ? entity : zuuluu;
             tangon['joinedAt'] = entity;
  55:
@@ -1077,35 +1077,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  77:
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});
-            sizing = michal;
-            kiloes = entity;
-            entity = new sizing[zuuluu](kiloes, backup);
+            option = michal;
+            golfie = entity;
+            entity = new option[zuuluu](golfie, oscard);
             entity = entity instanceof Object ? entity : michal;
             tangon['features'] = entity;
-            option = tangon.roles;
-            michal = 4;
-            report = undefined;
-            for(zuuluu in option)
- 128:
-            {
- 137:
-                foxtra = zuuluu;
-                yankee = _closure1_slot0;
-                offset = _closure1_slot2;
-                offset = offset[michal];
-                romeon = yankee.bind(report)(offset);
-                yankee = romeon.fromSerializedGuildRole;
-                offset = tangon.roles;
-                offset = offset[foxtra];
-                offset = yankee.bind(romeon)(offset);
-                _fun00016_ip = 128; continue _fun00015;
-            }
- 180:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
+            report = _closure1_slot0;
+            zuuluu = _closure1_slot2;
             michal = 3;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(report)(michal);
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = report.bind(michal)(zuuluu);
             michal = zuuluu.dangerouslyCast;
             entity = _closure1_slot3;
             entity = michal.bind(zuuluu)(tangon, entity);

@@ -99,70 +99,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity instanceof Object ? entity : zuuluu;
             entity = zuuluu.toISOString;
             entity = entity.bind(zuuluu)();
-            if(!(!(michal < entity))) { _fun00004_ip = 314; continue _fun00003 }
+            if(!(!(michal < entity))) { _fun00004_ip = 241; continue _fun00003 }
  65:
-            verify = _closure1_slot0;
-            offset = _closure1_slot2;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
             entity = 10;
-            michal = offset[entity];
-            option = undefined;
-            zuuluu = verify.bind(option)(michal);
+            michal = verify[entity];
+            tangon = undefined;
+            zuuluu = option.bind(tangon)(michal);
             michal = zuuluu.getQuestTaskDetails;
-            oscard = michal.bind(zuuluu)(report);
-            entity = offset[entity];
-            michal = verify.bind(option)(entity);
+            offset = michal.bind(zuuluu)(report);
+            entity = verify[entity];
+            michal = option.bind(tangon)(entity);
             entity = michal.getThirdPartyTaskDetails;
-            golfie = entity.bind(michal)(report);
+            oscard = entity.bind(michal)(report);
             entity = 11;
-            entity = offset[entity];
-            zuuluu = verify.bind(option)(entity);
+            entity = verify[entity];
+            zuuluu = option.bind(tangon)(entity);
             michal = zuuluu.getQuestsInstructionsToWinReward;
             entity = {};
             entity['quest'] = report;
-            entity['taskDetails'] = oscard;
-            oscard = _closure1_slot6;
-            oscard = oscard.EMBED_MOBILE;
-            entity['location'] = oscard;
-            oscard = 12;
-            oscard = offset[oscard];
-            oscard = verify.bind(option)(oscard);
-            oscard = oscard.QuestContent;
-            oscard = oscard.QUEST_EMBED_MOBILE;
-            entity['questContent'] = oscard;
-            oscard = function() { // Original name: connectedConsoleLinkOnClick
+            entity['taskDetails'] = offset;
+            golfie = _closure1_slot6;
+            golfie = golfie.EMBED_MOBILE;
+            entity['location'] = golfie;
+            golfie = 12;
+            golfie = verify[golfie];
+            golfie = option.bind(tangon)(golfie);
+            golfie = golfie.QuestContent;
+            golfie = golfie.QUEST_EMBED_MOBILE;
+            entity['questContent'] = golfie;
+            golfie = function() { // Original name: connectedConsoleLinkOnClick
                 entity = undefined;
                 return entity;
             };
-            entity['connectedConsoleLinkOnClick'] = oscard;
-            oscard = null;
-            verify = oscard != golfie;
-            oscard = undefined;
-            if(!verify) { _fun00004_ip = 224; continue _fun00003 }
- 221:
-            oscard = golfie;
- 224:
-            entity['thirdPartyTaskDetails'] = oscard;
-            verify = true;
-            entity['withoutMarkdown'] = verify;
-            golfie = _closure1_slot0;
-            offset = _closure1_slot2;
-            oscard = 13;
-            oscard = offset[oscard];
-            oscard = golfie.bind(option)(oscard);
-            option = oscard.QuestBarCopySimplification;
-            golfie = option.getCurrentConfig;
-            oscard = {};
-            tangon = _closure1_slot6;
-            tangon = tangon.EMBED_MOBILE;
-            oscard['location'] = tangon;
-            tangon = {};
-            tangon['autoTrackExposure'] = verify;
-            tangon = golfie.bind(option)(oscard, tangon);
-            tangon = tangon.enabled;
-            entity['withSimplifiedCopy'] = tangon;
+            entity['connectedConsoleLinkOnClick'] = golfie;
+            golfie = null;
+            golfie = golfie != oscard;
+            if(!golfie) { _fun00004_ip = 222; continue _fun00003 }
+ 219:
+            tangon = oscard;
+ 222:
+            entity['thirdPartyTaskDetails'] = tangon;
+            tangon = true;
+            entity['withoutMarkdown'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 314:
+ 241:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 9;
@@ -224,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot3;
             golfie = verify.resolveAssetSource;
             offset = _closure1_slot1;
-            oscard = 16;
+            oscard = 15;
             oscard = yankee[oscard];
             oscard = offset.bind(entity)(oscard);
             oscard = golfie.bind(verify)(oscard);
@@ -285,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity.theme;
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
-            entity = 14;
+            entity = 13;
             entity = romeon[entity];
             offset = offset.bind(foxtra)(entity);
             entity = offset.isThemeDark;
@@ -332,7 +315,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = kiloes.bind(foxtra)(romeon);
             offset['bodyText'] = romeon;
             offset['themeColors'] = tangon;
-            romeon = 15;
+            romeon = 14;
             kiloes = update[romeon];
             sizing = echoed.bind(foxtra)(kiloes);
             kiloes = sizing.getQuestAsset;
@@ -406,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  892:
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
-            tangon = 17;
+            tangon = 16;
             tangon = romeon[tangon];
             oscard = undefined;
             golfie = yankee.bind(oscard)(tangon);
@@ -441,7 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot3;
             verify = offset.resolveAssetSource;
             yankee = _closure1_slot1;
-            golfie = 16;
+            golfie = 15;
             golfie = romeon[golfie];
             golfie = yankee.bind(oscard)(golfie);
             golfie = verify.bind(offset)(golfie);
@@ -453,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  1104:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            tangon = 17;
+            tangon = 16;
             tangon = yankee[tangon];
             oscard = undefined;
             golfie = offset.bind(oscard)(tangon);
@@ -488,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot3;
             option = verify.resolveAssetSource;
             offset = _closure1_slot1;
-            golfie = 16;
+            golfie = 15;
             golfie = yankee[golfie];
             golfie = offset.bind(oscard)(golfie);
             golfie = option.bind(verify)(golfie);
@@ -556,7 +539,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot10 = tangon;
-    tangon = 22;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -569,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = entity.questId;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 20;
+            entity = 19;
             entity = golfie[entity];
             report = undefined;
             zuuluu = oscard.bind(report)(entity);
@@ -578,13 +561,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot13;
             entity = {};
             entity['questId'] = tangon;
-            tangon = 18;
+            tangon = 17;
             tangon = golfie[tangon];
             option = oscard.bind(report)(tangon);
             tangon = option.useEmbedThemeColors;
             tangon = tangon.bind(option)(verify);
             entity['themeColors'] = tangon;
-            tangon = 19;
+            tangon = 18;
             tangon = golfie[tangon];
             golfie = oscard.bind(report)(tangon);
             oscard = golfie.useIsEligibleForQuests;
@@ -602,7 +585,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot1;
             golfie = _closure1_slot2;
-            michal = 21;
+            michal = 20;
             michal = golfie[michal];
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
@@ -624,14 +607,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal['questId'] = entity;
         option = _closure1_slot1;
         oscard = _closure1_slot2;
-        entity = 18;
+        entity = 17;
         tangon = oscard[entity];
         entity = undefined;
         tangon = option.bind(entity)(tangon);
         tangon = tangon.bind(entity)(report);
         michal['themeColors'] = tangon;
         report = _closure1_slot0;
-        tangon = 19;
+        tangon = 18;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.getIsEligibleForQuests;

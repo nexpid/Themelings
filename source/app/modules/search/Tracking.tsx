@@ -14,81 +14,86 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             michal = entity != report;
             oscard = null;
-            if(!michal) { _fun00002_ip = 28; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 50; continue _fun00001 }
  14:
-            zuuluu = _closure1_slot4;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = 4;
+            zuuluu = zuuluu[michal];
             michal = undefined;
-            oscard = zuuluu.bind(michal)(report);
- 28:
-            michal = _closure1_slot7;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.getSearchType;
+            oscard = michal.bind(zuuluu)(report);
+ 50:
+            michal = _closure1_slot6;
             michal = michal.DMS;
-            if(!(oscard !== michal)) { _fun00002_ip = 160; continue _fun00001 }
- 45:
-            michal = _closure1_slot7;
+            if(!(oscard !== michal)) { _fun00002_ip = 182; continue _fun00001 }
+ 67:
+            michal = _closure1_slot6;
             michal = michal.FAVORITES;
-            if(!(oscard !== michal)) { _fun00002_ip = 139; continue _fun00001 }
- 59:
-            michal = _closure1_slot7;
+            if(!(oscard !== michal)) { _fun00002_ip = 161; continue _fun00001 }
+ 81:
+            michal = _closure1_slot6;
             michal = michal.GUILD;
-            if(!(oscard !== michal)) { _fun00002_ip = 114; continue _fun00001 }
- 73:
-            michal = _closure1_slot7;
+            if(!(oscard !== michal)) { _fun00002_ip = 136; continue _fun00001 }
+ 95:
+            michal = _closure1_slot6;
             michal = michal.CHANNEL;
             tangon = null;
-            if(!(oscard === michal)) { _fun00002_ip = 112; continue _fun00001 }
- 89:
+            if(!(oscard === michal)) { _fun00002_ip = 134; continue _fun00001 }
+ 111:
             michal = {};
-            oscard = _closure1_slot7;
+            oscard = _closure1_slot6;
             oscard = oscard.CHANNEL;
             michal['type'] = oscard;
             michal['channelId'] = report;
             tangon = michal;
- 112:
-            _fun00002_ip = 137; continue _fun00001;
- 114:
+ 134:
+            _fun00002_ip = 159; continue _fun00001;
+ 136:
             michal = {};
-            oscard = _closure1_slot7;
+            oscard = _closure1_slot6;
             oscard = oscard.GUILD;
             michal['type'] = oscard;
             michal['guildId'] = report;
             tangon = michal;
- 137:
-            _fun00002_ip = 158; continue _fun00001;
- 139:
+ 159:
+            _fun00002_ip = 180; continue _fun00001;
+ 161:
             michal = {};
-            report = _closure1_slot7;
+            report = _closure1_slot6;
             report = report.FAVORITES;
             michal['type'] = report;
             tangon = michal;
- 158:
-            _fun00002_ip = 179; continue _fun00001;
- 160:
+ 180:
+            _fun00002_ip = 201; continue _fun00001;
+ 182:
             michal = {};
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot6;
             zuuluu = zuuluu.DMS;
             michal['type'] = zuuluu;
             tangon = michal;
- 179:
+ 201:
             michal = entity != tangon;
             entity = null;
-            if(!michal) { _fun00002_ip = 198; continue _fun00001 }
- 188:
+            if(!michal) { _fun00002_ip = 220; continue _fun00001 }
+ 210:
             zuuluu = argBar;
             michal = undefined;
             entity = zuuluu.bind(michal)(tangon);
- 198:
+ 220:
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     entity = function(argFoo) { // Original name: getSearchSessionAnalyticsId
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot8;
         zuuluu = undefined;
         michal = argFoo;
         entity = function(argFoo) {
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 4;
+            entity = 5;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -100,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot9 = entity;
     entity = function(argFoo) { // Original name: getSearchQueryLength
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -127,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot10 = entity;
     entity = function(argFoo) { // Original name: getSearchQueryContentLength
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -159,7 +164,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -168,29 +173,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = option.bind(verify)(zuuluu, entity, tangon);
-    tangon = 0;
-    option = oscard[tangon];
+    entity = 0;
+    tangon = oscard[entity];
     entity = undefined;
-    option = golfie.bind(entity)(option);
-    var _closure1_slot3 = option;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.getSearchType;
-    var _closure1_slot4 = tangon;
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     option = tangon.AnalyticEvents;
-    var _closure1_slot5 = option;
+    var _closure1_slot4 = option;
     option = tangon.SearchTokenTypes;
-    var _closure1_slot6 = option;
+    var _closure1_slot5 = option;
     tangon = tangon.SearchTypes;
-    var _closure1_slot7 = tangon;
+    var _closure1_slot6 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.SearchTabs;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot7 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     option = golfie.bind(entity)(tangon);
@@ -198,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = Object.create(tangon, {constructor: {value: option}});
     romeon = 'SearchTracking';
     tangon = new foxtra[option](romeon, yankee);
-    tangon = 9;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -225,18 +226,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = entity.searchQuery;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
-        michal = _closure1_slot5;
+        michal = _closure1_slot4;
         zuuluu = michal.SEARCH_RESULT_VIEWED;
         michal = {};
         michal['search_type'] = vacuum;
         michal['search_id'] = ctrled;
         michal['prev_search_id'] = update;
-        update = _closure1_slot10;
+        update = _closure1_slot9;
         update = update.bind(entity)(source);
         michal['search_session_id'] = update;
         michal['is_error'] = echoed;
@@ -250,10 +251,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal['page_num_links'] = yankee;
         michal['page_num_embeds'] = offset;
         michal['page_num_attach'] = option;
-        option = _closure1_slot11;
+        option = _closure1_slot10;
         option = option.bind(entity)(verify);
         michal['search_query_length'] = option;
-        oscard = _closure1_slot12;
+        oscard = _closure1_slot11;
         oscard = oscard.bind(entity)(golfie);
         michal['search_query_content_length'] = oscard;
         michal = tangon.bind(report)(zuuluu, michal);
@@ -277,17 +278,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = entity.searchQuery;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 6;
+        entity = 7;
         michal = michal[entity];
         entity = undefined;
         report = zuuluu.bind(entity)(michal);
         tangon = report.track;
-        michal = _closure1_slot5;
+        michal = _closure1_slot4;
         zuuluu = michal.SEARCH_RESULT_SELECTED;
         michal = {};
         michal['search_type'] = echoed;
         michal['search_id'] = output;
-        output = _closure1_slot10;
+        output = _closure1_slot9;
         output = output.bind(entity)(result);
         michal['search_session_id'] = output;
         michal['guild_id'] = sizing;
@@ -298,10 +299,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal['limit'] = yankee;
         michal['offset'] = offset;
         michal['index_num'] = option;
-        option = _closure1_slot11;
+        option = _closure1_slot10;
         option = option.bind(entity)(verify);
         michal['search_query_length'] = option;
-        oscard = _closure1_slot12;
+        oscard = _closure1_slot11;
         oscard = oscard.bind(entity)(golfie);
         michal['search_query_content_length'] = oscard;
         michal = tangon.bind(report)(zuuluu, michal);
@@ -316,16 +317,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = entity.mode;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
-        michal = _closure1_slot5;
+        michal = _closure1_slot4;
         zuuluu = michal.SEARCH_RESULT_SORT_CHANGED;
         michal = {};
         michal['search_id'] = offset;
-        option = _closure1_slot10;
+        option = _closure1_slot9;
         option = option.bind(entity)(verify);
         michal['search_session_id'] = option;
         michal['search_type'] = golfie;
@@ -343,23 +344,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = entity.searchQuery;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
-        michal = _closure1_slot5;
+        michal = _closure1_slot4;
         zuuluu = michal.SEARCH_RESULT_EMPTY;
         michal = {};
         michal['search_id'] = offset;
-        offset = _closure1_slot10;
+        offset = _closure1_slot9;
         offset = offset.bind(entity)(yankee);
         michal['search_session_id'] = offset;
         michal['search_type'] = option;
-        option = _closure1_slot11;
+        option = _closure1_slot10;
         option = option.bind(entity)(verify);
         michal['search_query_length'] = option;
-        oscard = _closure1_slot12;
+        oscard = _closure1_slot11;
         oscard = oscard.bind(entity)(golfie);
         michal['search_query_content_length'] = oscard;
         michal = tangon.bind(report)(zuuluu, michal);
@@ -372,17 +373,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             oscard = entity.searchType;
             option = entity.searchId;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot8;
             entity = undefined;
             michal = function(argFoo) {
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
-                entity = 4;
+                entity = 5;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 report = tangon.bind(entity)(zuuluu);
                 tangon = report.initialize;
-                michal = _closure1_slot8;
+                michal = _closure1_slot7;
                 zuuluu = michal.MESSAGES;
                 michal = argFoo;
                 michal = tangon.bind(report)(michal, zuuluu);
@@ -391,11 +392,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(entity)(option, michal);
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
-            michal = 5;
+            michal = 6;
             michal = tangon[michal];
             report = zuuluu.bind(entity)(michal);
             tangon = report.trackWithMetadata;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             zuuluu = michal.SEARCH_OPENED;
             michal = {};
             verify = null;
@@ -407,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = offset.bind(yankee)(option);
  101:
             michal['search_id'] = verify;
-            golfie = _closure1_slot10;
+            golfie = _closure1_slot9;
             golfie = golfie.bind(entity)(option);
             michal['search_session_id'] = golfie;
             michal['search_type'] = oscard;
@@ -424,12 +425,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = entity.searchType;
             report = _closure1_slot1;
             zuuluu = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             zuuluu = zuuluu[entity];
             entity = undefined;
             golfie = report.bind(entity)(zuuluu);
             oscard = golfie.trackWithMetadata;
-            zuuluu = _closure1_slot5;
+            zuuluu = _closure1_slot4;
             report = zuuluu.SEARCH_CLOSED;
             zuuluu = {};
             verify = null;
@@ -441,16 +442,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = offset.bind(yankee)(tangon);
  82:
             zuuluu['search_id'] = verify;
-            verify = _closure1_slot10;
+            verify = _closure1_slot9;
             verify = verify.bind(entity)(tangon);
             zuuluu['search_session_id'] = verify;
             zuuluu['search_type'] = option;
             zuuluu = oscard.bind(golfie)(report, zuuluu);
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot8;
             michal = function(argFoo) {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 4;
+                entity = 5;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -472,12 +473,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = entity.searchId;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             michal = michal[entity];
             entity = undefined;
             report = zuuluu.bind(entity)(michal);
             tangon = report.trackWithMetadata;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             zuuluu = michal.SEARCH_INPUT_CLEARED;
             michal = {};
             verify = null;
@@ -489,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = offset.bind(yankee)(option);
  82:
             michal['search_id'] = verify;
-            golfie = _closure1_slot10;
+            golfie = _closure1_slot9;
             golfie = golfie.bind(entity)(option);
             michal['search_session_id'] = golfie;
             michal['search_type'] = oscard;
@@ -551,7 +552,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  117:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            michal = 7;
+            michal = 8;
             michal = report[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.tokenizeQuery;
@@ -572,42 +573,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     michal = argFoo;
                     tangon = michal.type;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ANSWER_IN;
                     if(!(tangon !== zuuluu)) { _fun00018_ip = 285; continue _fun00017 }
  28:
                     tangon = michal.type;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ANSWER_USERNAME_FROM;
                     if(!(tangon !== zuuluu)) { _fun00018_ip = 269; continue _fun00017 }
  50:
                     tangon = michal.type;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ANSWER_USERNAME_MENTIONS;
                     if(!(tangon !== zuuluu)) { _fun00018_ip = 253; continue _fun00017 }
  72:
                     tangon = michal.type;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ANSWER_HAS;
                     if(!(tangon !== zuuluu)) { _fun00018_ip = 237; continue _fun00017 }
  94:
                     tangon = michal.type;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ANSWER_BEFORE;
                     if(!(tangon !== zuuluu)) { _fun00018_ip = 221; continue _fun00017 }
  113:
                     tangon = michal.type;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ANSWER_ON;
                     if(!(tangon !== zuuluu)) { _fun00018_ip = 205; continue _fun00017 }
  132:
                     tangon = michal.type;
-                    zuuluu = _closure1_slot6;
+                    zuuluu = _closure1_slot5;
                     zuuluu = zuuluu.ANSWER_AFTER;
                     if(!(tangon !== zuuluu)) { _fun00018_ip = 189; continue _fun00017 }
  151:
                     michal = michal.type;
-                    entity = _closure1_slot6;
+                    entity = _closure1_slot5;
                     entity = entity.ANSWER_PINNED;
                     if(!(michal === entity)) { _fun00018_ip = 299; continue _fun00017 }
  173:
@@ -657,11 +658,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            tangon = 5;
+            tangon = 6;
             michal = michal[tangon];
             foxtra = zuuluu.bind(entity)(michal);
             romeon = foxtra.trackWithMetadata;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             report = michal.MESSAGES_SEARCH_STARTED;
             zuuluu = {};
             sizing = yankee != offset;
@@ -673,19 +674,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = sizing.bind(result)(offset);
  267:
             zuuluu['search_id'] = michal;
-            michal = _closure1_slot10;
+            michal = _closure1_slot9;
             michal = michal.bind(entity)(offset);
             zuuluu['search_session_id'] = michal;
             zuuluu['search_type'] = option;
-            michal = _closure1_slot11;
+            michal = _closure1_slot10;
             michal = michal.bind(entity)(kiloes);
             zuuluu['search_query_length'] = michal;
-            michal = _closure1_slot12;
+            michal = _closure1_slot11;
             michal = michal.bind(entity)(output);
             zuuluu['search_query_content_length'] = michal;
             sizing = _closure1_slot0;
             michal = _closure1_slot2;
-            kiloes = 8;
+            kiloes = 9;
             kiloes = michal[kiloes];
             sizing = sizing.bind(entity)(kiloes);
             kiloes = sizing.searchQueryParamsToSearchMode;
@@ -712,7 +713,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal[tangon];
             report = zuuluu.bind(entity)(michal);
             tangon = report.trackWithMetadata;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             zuuluu = michal.SEARCH_STARTED;
             michal = {};
             romeon = yankee != offset;
@@ -724,7 +725,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = romeon.bind(foxtra)(offset);
  506:
             michal['search_id'] = yankee;
-            verify = _closure1_slot10;
+            verify = _closure1_slot9;
             verify = verify.bind(entity)(offset);
             michal['search_session_id'] = verify;
             michal['search_type'] = option;
@@ -745,12 +746,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = entity.searchType;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             michal = michal[entity];
             entity = undefined;
             report = zuuluu.bind(entity)(michal);
             tangon = report.trackWithMetadata;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             zuuluu = michal.SEARCH_RESULTS_FEEDBACK_MODAL_VIEWED;
             michal = {};
             michal['rating'] = verify;
@@ -764,7 +765,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  93:
             michal['search_id'] = verify;
             michal['search_type'] = option;
-            oscard = _closure1_slot10;
+            oscard = _closure1_slot9;
             oscard = oscard.bind(entity)(golfie);
             michal['search_session_id'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
@@ -780,12 +781,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = entity.searchType;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             michal = michal[entity];
             entity = undefined;
             report = zuuluu.bind(entity)(michal);
             tangon = report.trackWithMetadata;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             zuuluu = michal.SEARCH_RESULTS_FEEDBACK_ENTRYPOINT_VIEWED;
             michal = {};
             verify = null;
@@ -798,7 +799,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  82:
             michal['search_id'] = verify;
             michal['search_type'] = option;
-            oscard = _closure1_slot10;
+            oscard = _closure1_slot9;
             oscard = oscard.bind(entity)(golfie);
             michal['search_session_id'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
@@ -819,12 +820,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity.describeSearchQuestionText;
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             michal = michal[entity];
             entity = undefined;
             report = zuuluu.bind(entity)(michal);
             tangon = report.trackWithMetadata;
-            michal = _closure1_slot5;
+            michal = _closure1_slot4;
             zuuluu = michal.SEARCH_RESULTS_FEEDBACK_SUBMITTED;
             michal = {};
             backup = null;
@@ -837,7 +838,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  120:
             michal['search_id'] = backup;
             michal['search_type'] = foxtra;
-            yankee = _closure1_slot10;
+            yankee = _closure1_slot9;
             yankee = yankee.bind(entity)(romeon);
             michal['search_session_id'] = yankee;
             michal['rating'] = offset;

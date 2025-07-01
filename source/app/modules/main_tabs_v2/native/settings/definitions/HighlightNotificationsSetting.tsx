@@ -17,32 +17,12 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         michal = new Array(1);
         michal[0] = entity;
         entity = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-                entity = global;
-                zuuluu = entity.Object;
-                michal = zuuluu.keys;
-                tangon = _closure1_slot2;
-                entity = tangon.getGuilds;
-                entity = entity.bind(tangon)();
-                michal = michal.bind(zuuluu)(entity);
-                entity = null;
-                tangon = entity == michal;
-                zuuluu = undefined;
-                if(tangon) { _fun00002_ip = 51; continue _fun00001 }
- 46:
-                zuuluu = michal.length;
- 51:
-                tangon = entity != zuuluu;
-                michal = 0;
-                entity = 0;
-                if(!tangon) { _fun00002_ip = 65; continue _fun00001 }
- 62:
-                entity = zuuluu;
- 65:
-                entity = entity > michal;
-                return entity;
-            }
+            michal = _closure1_slot2;
+            entity = michal.getGuildCount;
+            michal = entity.bind(michal)();
+            entity = 0;
+            entity = michal > entity;
+            return entity;
         };
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;

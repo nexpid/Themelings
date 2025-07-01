@@ -137,16 +137,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = function(argFoo) {
                 tangon = _closure1_slot9;
                 michal = _closure1_slot0;
-                zuuluu = _closure1_slot2;
+                golfie = _closure1_slot2;
                 entity = 11;
-                entity = zuuluu[entity];
+                entity = golfie[entity];
                 zuuluu = undefined;
                 entity = michal.bind(zuuluu)(entity);
                 michal = entity.BottomSheetBackdrop;
                 entity = {};
-                golfie = argFoo;
-                option = entity;
-                report = copyDataProperties(option, golfie);
+                option = argFoo;
+                verify = entity;
+                oscard = copyDataProperties(verify, option);
+                oscard = _closure1_slot1;
+                report = 12;
+                report = golfie[report];
+                oscard = oscard.bind(zuuluu)(report);
+                report = 'ViewComponent';
+                entity[report] = oscard;
                 oscard = 'collapse';
                 report = 'pressBehavior';
                 entity[report] = oscard;
@@ -155,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = new Array(0);
             result = output.bind(golfie)(option, zuuluu);
-            zuuluu = 12;
+            zuuluu = 13;
             zuuluu = offset[zuuluu];
             record = source.bind(tangon)(zuuluu);
             output = record.useStateFromStores;
@@ -185,18 +191,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  22:
                     michal = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    entity = 13;
+                    entity = 14;
                     entity = tangon[entity];
                     zuuluu = undefined;
                     golfie = michal.bind(zuuluu)(entity);
                     oscard = golfie.triggerHapticFeedback;
                     michal = _closure1_slot1;
-                    entity = 14;
+                    entity = 15;
                     entity = tangon[entity];
                     entity = michal.bind(zuuluu)(entity);
                     entity = entity.IMPACT_LIGHT;
                     entity = oscard.bind(golfie)(entity);
-                    entity = 15;
+                    entity = 16;
                     entity = tangon[entity];
                     tangon = michal.bind(zuuluu)(entity);
                     zuuluu = tangon.track;
@@ -214,12 +220,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = new Array(0);
             output = record.bind(golfie)(output, zuuluu);
-            zuuluu = 16;
+            zuuluu = 17;
             zuuluu = offset[zuuluu];
             source = source.bind(tangon)(zuuluu);
             zuuluu = source.useIsScreenReaderEnabled;
             source = zuuluu.bind(source)();
-            zuuluu = 17;
+            zuuluu = 18;
             zuuluu = offset[zuuluu];
             report = report.bind(tangon)(zuuluu);
             zuuluu = function() {
@@ -250,7 +256,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 18;
+                    entity = 19;
                     michal = michal[entity];
                     entity = undefined;
                     michal = zuuluu.bind(entity)(michal);
@@ -285,7 +291,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure2_slot1;
                     report = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    entity = 19;
+                    entity = 20;
                     zuuluu = zuuluu[entity];
                     entity = undefined;
                     zuuluu = report.bind(entity)(zuuluu);
@@ -333,6 +339,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = verify[report];
             golfie = offset.bind(tangon)(report);
             report = {};
+            record = 12;
+            record = verify[record];
+            record = offset.bind(tangon)(record);
+            report['BodyComponent'] = record;
             report['ref'] = config;
             report['animationConfigs'] = sequen;
             report['animatedIndex'] = vacuum;
@@ -357,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(tangon)(golfie, report);
             report = new Array(3);
             report[0] = golfie;
-            golfie = 20;
+            golfie = 21;
             golfie = verify[golfie];
             offset = offset.bind(tangon)(golfie);
             golfie = {};
@@ -368,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(tangon)(offset, golfie);
             report[1] = golfie;
             golfie = _closure1_slot0;
-            oscard = 21;
+            oscard = 22;
             oscard = verify[oscard];
             oscard = golfie.bind(tangon)(oscard);
             golfie = oscard.NavScrim;
@@ -381,7 +391,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 22;
+    tangon = 23;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

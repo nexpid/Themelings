@@ -1,4 +1,4 @@
-// discord_common/js/packages/libdave/package/DisplayableCode.ts
+// discord_common/js/packages/libdave/package/src/DisplayableCode.ts
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     report = michal.bind(entity)(tangon);
     tangon = report.fileFinishedImporting;
-    michal = '../discord_common/js/packages/libdave/package/DisplayableCode.ts';
+    michal = '../discord_common/js/packages/libdave/package/src/DisplayableCode.ts';
     michal = tangon.bind(report)(michal);
     michal = function(argFoo, argBar, argBaz) { // Original name: generateDisplayableCode
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

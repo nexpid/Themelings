@@ -355,15 +355,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 michal = _closure1_slot10;
                 michal = michal.useNewNotifications;
-                if(!michal) { _fun00012_ip = 67; continue _fun00011 }
+                if(!michal) { _fun00012_ip = 49; continue _fun00011 }
  16:
-                michal = global;
-                zuuluu = michal.Object;
-                michal = zuuluu.values;
-                tangon = _closure1_slot9;
-                entity = tangon.getGuilds;
-                entity = entity.bind(tangon)();
-                zuuluu = michal.bind(zuuluu)(entity);
+                michal = _closure1_slot9;
+                entity = michal.getGuildsArray;
+                zuuluu = entity.bind(michal)();
                 michal = zuuluu.forEach;
                 entity = function(argFoo) {
                     _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
@@ -512,7 +508,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 entity = michal.bind(zuuluu)(entity);
- 67:
+ 49:
                 entity = undefined;
                 return entity;
             }

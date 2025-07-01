@@ -261,24 +261,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = tangon.bind(option)(entity, michal);
             michal = zuuluu == kiloes;
             entity = null;
-            if(michal) { _fun00002_ip = 982; continue _fun00001 }
+            if(michal) { _fun00002_ip = 984; continue _fun00001 }
  357:
             michal = kiloes.guild_id;
             michal = zuuluu == michal;
             entity = null;
-            if(michal) { _fun00002_ip = 982; continue _fun00001 }
+            if(michal) { _fun00002_ip = 984; continue _fun00001 }
  374:
             michal = zuuluu == ctrled;
             entity = null;
-            if(michal) { _fun00002_ip = 982; continue _fun00001 }
+            if(michal) { _fun00002_ip = 984; continue _fun00001 }
  386:
             michal = zuuluu == oscard;
             entity = null;
-            if(michal) { _fun00002_ip = 982; continue _fun00001 }
+            if(michal) { _fun00002_ip = 984; continue _fun00001 }
  398:
             michal = zuuluu == golfie;
             entity = null;
-            if(michal) { _fun00002_ip = 982; continue _fun00001 }
+            if(michal) { _fun00002_ip = 984; continue _fun00001 }
  410:
             tangon = _closure1_slot8;
             romeon = _closure1_slot0;
@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = sizing[update];
             update = romeon.bind(report)(update);
             config = update.Text;
-            update = {'variant': 'text-md/normal', 'color': 'text-secondary'};
+            update = {'variant': 'text-md/normal', 'color': 'text-secondary', 'style': null, 'lineClamp': 5};
             vacuum = echoed.subtitle;
             update['style'] = vacuum;
             vacuum = 15;
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 982:
+ 984:
             return entity;
         }
     };

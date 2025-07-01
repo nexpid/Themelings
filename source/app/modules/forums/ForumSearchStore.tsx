@@ -354,9 +354,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = copyDataProperties(option, golfie);
             report = 'query';
             michal[report] = oscard;
-            oscard = null;
-            report = 'results';
-            michal[report] = oscard;
             zuuluu[tangon] = michal;
             return entity;
         }

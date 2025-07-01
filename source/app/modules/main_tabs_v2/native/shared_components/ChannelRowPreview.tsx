@@ -21,13 +21,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = michal.content;
             zuuluu = michal.icon;
             verify = entity.layout;
-            foxtra = entity.variant;
+            kiloes = entity.variant;
             yankee = entity.color;
-            sizing = entity.lineClamp;
+            output = entity.lineClamp;
             tangon = undefined;
-            if(!(sizing === tangon)) { _fun00002_ip = 52; continue _fun00001 }
+            if(!(output === tangon)) { _fun00002_ip = 52; continue _fun00001 }
  49:
-            sizing = 1;
+            output = 1;
  52:
             michal = entity.fontScale;
             if(!(michal === tangon)) { _fun00002_ip = 65; continue _fun00001 }
@@ -45,17 +45,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = entity[golfie];
             option = oscard.bind(tangon)(golfie);
             golfie = option.getLayoutStyles;
-            kiloes = golfie.bind(option)(verify);
-            output = 9;
-            entity = entity[output];
+            sizing = golfie.bind(option)(verify);
+            result = 9;
+            entity = entity[result];
             entity = oscard.bind(tangon)(entity);
             oscard = entity.TextStyleSheet;
-            entity = kiloes.messagePreview;
+            entity = sizing.messagePreview;
             entity = entity.text;
             entity = entity.variant;
             entity = oscard[entity];
             entity = entity.lineHeight;
-            option = entity * michal;
+            foxtra = entity * michal;
             verify = null;
             entity = verify != zuuluu;
             oscard = undefined;
@@ -70,13 +70,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal[entity];
             michal = _closure1_slot10;
             entity = {};
-            golfie = kiloes.messagePreview;
+            golfie = sizing.messagePreview;
             golfie = golfie.messageTypeIconSizeNew;
             entity['size'] = golfie;
             entity['color'] = yankee;
             golfie = {};
-            result = 4;
-            golfie['marginLeft'] = result;
+            option = 4;
+            golfie['marginLeft'] = option;
             entity['style'] = golfie;
             oscard = michal.bind(tangon)(zuuluu, entity);
  250:
@@ -84,39 +84,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot5;
             entity = {};
             golfie = {'flexDirection': 'row', 'alignItems': 'center'};
-            golfie['minHeight'] = option;
+            golfie['minHeight'] = foxtra;
             entity['style'] = golfie;
             option = _closure1_slot11;
             golfie = _closure1_slot0;
             report = _closure1_slot2;
-            report = report[output];
+            report = report[result];
             report = golfie.bind(tangon)(report);
             golfie = report.Text;
             report = {};
-            report['lineClamp'] = sizing;
-            if(!(verify == foxtra)) { _fun00002_ip = 336; continue _fun00001 }
+            report['lineClamp'] = output;
+            if(!(verify == kiloes)) { _fun00002_ip = 336; continue _fun00001 }
  320:
-            kiloes = kiloes.messagePreview;
-            kiloes = kiloes.text;
-            foxtra = kiloes.variant;
+            sizing = sizing.messagePreview;
+            sizing = sizing.text;
+            kiloes = sizing.variant;
  336:
-            report['variant'] = foxtra;
+            report['variant'] = kiloes;
             report['maxFontSizeMultiplier'] = romeon;
             report['color'] = yankee;
-            yankee = {};
-            romeon = 1;
-            yankee['flexShrink'] = romeon;
+            yankee = {'flexShrink': 1, 'lineHeight': null, 'paddingBottom': 2};
+            romeon = 2;
+            romeon = foxtra - romeon;
+            yankee['lineHeight'] = romeon;
             report['style'] = yankee;
             yankee = verify != backup;
-            if(!yankee) { _fun00002_ip = 399; continue _fun00001 }
- 370:
+            if(!yankee) { _fun00002_ip = 416; continue _fun00001 }
+ 387:
             verify = global;
             verify = verify.HermesInternal;
             foxtra = verify.concat;
             romeon = '';
             verify = ': ';
             yankee = foxtra.bind(romeon)(backup, verify);
- 399:
+ 416:
             verify = new Array(2);
             verify[0] = yankee;
             verify[1] = offset;

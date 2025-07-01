@@ -20,6 +20,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['NO_GAME_CLOAKED'] = entity;
     entity = 'locked_account';
     michal['LOCKED_ACCOUNT'] = entity;
+    entity = 'child_account';
+    michal['CHILD_ACCOUNT'] = entity;
     entity = 'expired_credential';
     michal['EXPIRED_CREDENTIAL'] = entity;
     entity = 'provider_unavailable';

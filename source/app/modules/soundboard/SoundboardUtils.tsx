@@ -48,7 +48,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot13 = golfie;
+    var _closure1_slot14 = golfie;
     oscard = function(argFoo, argBar, argBaz) { // Original name: canUseSoundboardSound
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  17:
             golfie = _closure1_slot1;
             option = _closure1_slot2;
-            entity = 9;
+            entity = 10;
             entity = option[entity];
             option = golfie.bind(report)(entity);
             golfie = option.canUseSoundboardEverywhere;
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  98:
             if(!entity) { _fun00004_ip = 111; continue _fun00003 }
  101:
-            tangon = _closure1_slot13;
+            tangon = _closure1_slot14;
             entity = tangon.bind(report)(zuuluu, oscard);
  111:
             if(!entity) { _fun00004_ip = 129; continue _fun00003 }
@@ -103,13 +103,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = oscard;
+    var _closure1_slot15 = oscard;
     report = function(argFoo) { // Original name: canMakeSound
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 10;
+            entity = 11;
             michal = michal[entity];
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
@@ -128,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = report;
+    var _closure1_slot16 = report;
     tangon = function() { // Original name: hasSetAnyCustomJoinSound
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot16 = tangon;
+    var _closure1_slot17 = tangon;
     entity = function() { // Original name: _maybePlayCustomJoinSound
         report = undefined;
         entity = undefined;
@@ -180,13 +180,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = michal.bind(zuuluu)();
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
-                    michal = 14;
+                    michal = 15;
                     zuuluu = report[michal];
                     michal = undefined;
                     zuuluu = tangon.bind(michal)(zuuluu);
                     oscard = zuuluu.bind(michal)();
                     tangon = _closure1_slot0;
-                    zuuluu = 15;
+                    zuuluu = 16;
                     zuuluu = report[zuuluu];
                     report = tangon.bind(michal)(zuuluu);
                     tangon = report.getCustomJoinSound;
@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  123:
                     report = _closure1_slot1;
                     option = _closure1_slot2;
-                    zuuluu = 9;
+                    zuuluu = 10;
                     zuuluu = option[zuuluu];
                     report = report.bind(michal)(zuuluu);
                     zuuluu = report.canUseCustomCallSounds;
@@ -214,7 +214,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  160:
                     report = _closure1_slot0;
                     option = _closure1_slot2;
-                    zuuluu = 16;
+                    zuuluu = 17;
                     zuuluu = option[zuuluu];
                     report = report.bind(michal)(zuuluu);
                     zuuluu = report.canSelectedVoiceChannelUseSoundboard;
@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  196:
                     option = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    report = 11;
+                    report = 12;
                     zuuluu = zuuluu[report];
                     option = option.bind(michal)(zuuluu);
                     zuuluu = option.maybeFetchSoundboardSounds;
@@ -250,12 +250,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = option.bind(verify)(yankee, tangon);
                     if(!(offset != verify)) { _fun00010_ip = 444; continue _fun00009 }
  292:
-                    tangon = _closure1_slot13;
+                    tangon = _closure1_slot14;
                     option = tangon.bind(michal)(verify, oscard);
                     tangon = null;
                     if(!option) { _fun00010_ip = 438; continue _fun00009 }
  310:
-                    yankee = _closure1_slot14;
+                    yankee = _closure1_slot15;
                     foxtra = true;
                     output = undefined;
                     sizing = romeon;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = null;
                     if(!option) { _fun00010_ip = 438; continue _fun00009 }
  336:
-                    option = _closure1_slot15;
+                    option = _closure1_slot16;
                     option = option.bind(michal)(oscard);
                     tangon = null;
                     if(!option) { _fun00010_ip = 438; continue _fun00009 }
@@ -276,13 +276,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = golfie[report];
                     yankee = oscard.bind(michal)(report);
                     offset = yankee.playSoundLocally;
-                    report = 12;
+                    report = 13;
                     report = golfie[report];
                     report = oscard.bind(michal)(report);
                     report = report.LocalSoundTrigger;
                     report = report.JOINED_VOICE_CHANNEL;
                     report = offset.bind(yankee)(option, verify, report);
-                    report = 13;
+                    report = 14;
                     report = golfie[report];
                     golfie = oscard.bind(michal)(report);
                     oscard = golfie.sendVoiceChannelCustomCallSoundEffect;
@@ -302,7 +302,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot17 = tangon;
+        _closure1_slot18 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot18 = entity;
     entity = function(argFoo) { // Original name: trackCustomCallSettingsChanged
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = entity.location;
             tangon = _closure1_slot1;
             zuuluu = _closure1_slot2;
-            entity = 21;
+            entity = 22;
             zuuluu = zuuluu[entity];
             entity = undefined;
             report = tangon.bind(entity)(zuuluu);
@@ -347,7 +347,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot19 = entity;
     entity = global;
     foxtra = entity.Object;
     romeon = foxtra.defineProperty;
@@ -396,7 +396,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot11 = yankee;
     option = option.AnalyticEvents;
     var _closure1_slot12 = option;
-    option = 22;
+    option = 8;
+    option = offset[option];
+    option = verify.bind(entity)(option);
+    option = option.ExpressionPickerViewType;
+    var _closure1_slot13 = option;
+    option = 24;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
@@ -407,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
-            entity = 8;
+            entity = 9;
             entity = michal[entity];
             michal = undefined;
             entity = zuuluu.bind(michal)(entity);
@@ -438,18 +443,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = argBar;
         zuuluu = _closure1_slot0;
         tangon = _closure1_slot2;
-        entity = 11;
+        entity = 12;
         michal = tangon[entity];
         entity = undefined;
         option = zuuluu.bind(entity)(michal);
         report = option.playSoundLocally;
-        michal = 12;
+        michal = 13;
         michal = tangon[michal];
         michal = zuuluu.bind(entity)(michal);
         michal = michal.LocalSoundTrigger;
         michal = michal.SOUNDBOARD;
         michal = report.bind(option)(oscard, golfie, michal);
-        michal = 13;
+        michal = 14;
         michal = tangon[michal];
         report = zuuluu.bind(entity)(michal);
         tangon = report.sendVoiceChannelSoundboardEffect;
@@ -465,7 +470,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['hasSetAnyCustomJoinSound'] = tangon;
     tangon = function() { // Original name: maybePlayCustomJoinSound
         entity = undefined;
-        tangon = _closure1_slot17;
+        tangon = _closure1_slot18;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -486,7 +491,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  19:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
-            entity = 17;
+            entity = 18;
             entity = oscard[entity];
             golfie = tangon.bind(report)(entity);
             oscard = golfie.useStateFromStores;
@@ -503,26 +508,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = new Array(0);
             if(zuuluu) { _fun00016_ip = 238; continue _fun00015 }
  84:
-            zuuluu = _closure1_slot16;
+            zuuluu = _closure1_slot17;
             zuuluu = zuuluu.bind(report)();
             if(zuuluu) { _fun00016_ip = 238; continue _fun00015 }
  98:
             golfie = entity.push;
             tangon = _closure1_slot0;
             verify = _closure1_slot2;
-            oscard = 18;
+            oscard = 19;
             zuuluu = verify[oscard];
             zuuluu = tangon.bind(report)(zuuluu);
             zuuluu = zuuluu.DismissibleContent;
             zuuluu = zuuluu.CUSTOM_CALL_SOUNDS_SPARKLES;
             zuuluu = golfie.bind(entity)(zuuluu);
-            zuuluu = 19;
+            zuuluu = 20;
             zuuluu = verify[zuuluu];
             tangon = tangon.bind(report)(zuuluu);
             zuuluu = tangon.ageEligibleForPremiumUpsell;
             tangon = zuuluu.bind(tangon)(option);
             golfie = _closure1_slot1;
-            zuuluu = 9;
+            zuuluu = 10;
             zuuluu = verify[zuuluu];
             golfie = golfie.bind(report)(zuuluu);
             zuuluu = golfie.canUseCustomCallSounds;
@@ -553,7 +558,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot1 = entity;
         golfie = _closure1_slot0;
         option = _closure1_slot2;
-        zuuluu = 20;
+        zuuluu = 21;
         tangon = option[zuuluu];
         entity = undefined;
         report = golfie.bind(entity)(tangon);
@@ -566,13 +571,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = undefined;
             michal = argFoo;
             michal['joinSound'] = entity;
-            zuuluu = _closure1_slot18;
+            zuuluu = _closure1_slot19;
             michal = {};
             oscard = _closure2_slot0;
             michal['guildId'] = oscard;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            report = 12;
+            report = 13;
             option = golfie[report];
             option = oscard.bind(entity)(option);
             option = option.AnalyticsChangeType;
@@ -601,7 +606,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot2 = entity;
         golfie = _closure1_slot0;
         option = _closure1_slot2;
-        zuuluu = 20;
+        zuuluu = 21;
         tangon = option[zuuluu];
         entity = undefined;
         report = golfie.bind(entity)(tangon);
@@ -620,7 +625,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = michal === entity;
                 oscard = _closure1_slot0;
                 entity = _closure1_slot2;
-                golfie = 12;
+                golfie = 13;
                 michal = entity[golfie];
                 entity = undefined;
                 michal = oscard.bind(entity)(michal);
@@ -665,7 +670,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  178:
                 michal['guildId'] = verify;
                 zuuluu['joinSound'] = michal;
-                zuuluu = _closure1_slot18;
+                zuuluu = _closure1_slot19;
                 michal = {};
                 verify = _closure2_slot0;
                 michal['guildId'] = verify;
@@ -688,12 +693,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['updateCustomJoinSound'] = tangon;
-    michal = function(argFoo) { // Original name: trackCustomCallSoundExternallyDeleted
+    tangon = function(argFoo) { // Original name: trackCustomCallSoundExternallyDeleted
         entity = argFoo;
         oscard = entity.location;
         tangon = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 21;
+        entity = 22;
         zuuluu = zuuluu[entity];
         entity = undefined;
         report = tangon.bind(entity)(zuuluu);
@@ -705,6 +710,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };
-    zuuluu['trackCustomCallSoundExternallyDeleted'] = michal;
+    zuuluu['trackCustomCallSoundExternallyDeleted'] = tangon;
+    michal = function(argFoo) { // Original name: trackSoundFavorited
+        entity = argFoo;
+        oscard = entity.sound;
+        option = entity.location;
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 23;
+        michal = michal[entity];
+        entity = undefined;
+        report = zuuluu.bind(entity)(michal);
+        tangon = report.trackWithMetadata;
+        michal = _closure1_slot12;
+        zuuluu = michal.EXPRESSION_FAVORITED;
+        michal = {};
+        michal['location'] = option;
+        golfie = _closure1_slot13;
+        golfie = golfie.SOUNDBOARD;
+        michal['expression_type'] = golfie;
+        golfie = oscard.soundId;
+        michal['expression_id'] = golfie;
+        golfie = oscard.name;
+        michal['expression_name'] = golfie;
+        oscard = oscard.guildId;
+        michal['expression_guild_id'] = oscard;
+        michal = tangon.bind(report)(zuuluu, michal);
+        return entity;
+    };
+    zuuluu['trackSoundFavorited'] = michal;
     return entity;
 })();

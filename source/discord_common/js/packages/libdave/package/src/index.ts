@@ -1,4 +1,4 @@
-// discord_common/js/packages/libdave/package/index.ts
+// discord_common/js/packages/libdave/package/src/index.ts
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = argBar;
     zuuluu = argFre;
@@ -16,7 +16,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     golfie = tangon.bind(entity)(michal);
     oscard = golfie.fileFinishedImporting;
-    michal = '../discord_common/js/packages/libdave/package/index.ts';
+    michal = '../discord_common/js/packages/libdave/package/src/index.ts';
     michal = oscard.bind(golfie)(michal);
     michal = 1;
     michal = report[michal];

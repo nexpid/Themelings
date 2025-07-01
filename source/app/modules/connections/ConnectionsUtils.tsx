@@ -31,18 +31,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = tangon;
     tangon = 3;
     tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    report = tangon.MetadataFields;
-    var _closure1_slot6 = report;
-    tangon = tangon.OperatorTypes;
-    var _closure1_slot7 = tangon;
+    tangon = report.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
     tangon = 4;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
+    report = tangon.MetadataFields;
+    var _closure1_slot7 = report;
+    tangon = tangon.OperatorTypes;
+    var _closure1_slot8 = tangon;
+    tangon = 5;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
     report = tangon.Permissions;
-    var _closure1_slot8 = report;
+    var _closure1_slot9 = report;
     tangon = tangon.PlatformTypes;
-    var _closure1_slot9 = tangon;
+    var _closure1_slot10 = tangon;
     tangon = {};
     tangon['AND'] = verify;
     report = 'AND';
@@ -50,7 +54,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['OR'] = option;
     report = 'OR';
     tangon[option] = report;
-    report = 13;
+    report = 14;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -64,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             entity = zuuluu[entity];
             option = undefined;
             zuuluu = michal.bind(option)(entity);
@@ -96,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.error_description;
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
-            oscard = 6;
+            oscard = 7;
             offset = verify[oscard];
             romeon = golfie.bind(option)(offset);
             yankee = entity.Array;
@@ -155,19 +159,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(tangon)(yankee);
             yankee = zuuluu.bind(report)(michal);
             var _closure2_slot0 = yankee;
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot8;
             zuuluu = zuuluu.EQUAL;
             if(!(zuuluu !== golfie)) { _fun00004_ip = 322; continue _fun00003 }
  89:
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot8;
             zuuluu = zuuluu.NOT_EQUAL;
             if(!(zuuluu !== golfie)) { _fun00004_ip = 287; continue _fun00003 }
  106:
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot8;
             zuuluu = zuuluu.LESS_THAN;
             if(!(zuuluu !== golfie)) { _fun00004_ip = 219; continue _fun00003 }
  120:
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot8;
             zuuluu = zuuluu.GREATER_THAN;
             if(!(zuuluu !== golfie)) { _fun00004_ip = 151; continue _fun00003 }
  134:
@@ -181,7 +185,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  151:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 8;
             zuuluu = foxtra[zuuluu];
             zuuluu = romeon.bind(tangon)(zuuluu);
             zuuluu = zuuluu.t;
@@ -197,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  219:
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 8;
             zuuluu = foxtra[zuuluu];
             zuuluu = romeon.bind(tangon)(zuuluu);
             zuuluu = zuuluu.t;
@@ -213,7 +217,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  287:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 8;
             zuuluu = yankee[zuuluu];
             zuuluu = offset.bind(tangon)(zuuluu);
             zuuluu = zuuluu.t;
@@ -222,17 +226,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  322:
             offset = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            yankee = 7;
+            yankee = 8;
             zuuluu = zuuluu[yankee];
             zuuluu = offset.bind(tangon)(zuuluu);
             zuuluu = zuuluu.t;
             offset = zuuluu.H97H4e;
-            zuuluu = _closure1_slot9;
+            zuuluu = _closure1_slot10;
             zuuluu = zuuluu.PAYPAL;
             zuuluu = verify === zuuluu;
             if(!zuuluu) { _fun00004_ip = 386; continue _fun00003 }
  372:
-            romeon = _closure1_slot6;
+            romeon = _closure1_slot7;
             romeon = romeon.PAYPAL_VERIFIED;
             zuuluu = option === romeon;
  386:
@@ -259,45 +263,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = report;
             if(!(zuuluu != golfie)) { _fun00004_ip = 2134; continue _fun00003 }
  458:
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot10;
             golfie = golfie.REDDIT;
             if(!(golfie !== verify)) { _fun00004_ip = 1869; continue _fun00003 }
  475:
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot10;
             golfie = golfie.STEAM;
             if(!(golfie !== verify)) { _fun00004_ip = 1593; continue _fun00003 }
  492:
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot10;
             golfie = golfie.TWITTER;
             if(!(golfie !== verify)) { _fun00004_ip = 1317; continue _fun00003 }
  509:
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot10;
             golfie = golfie.PAYPAL;
             if(!(golfie !== verify)) { _fun00004_ip = 1181; continue _fun00003 }
  526:
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot10;
             golfie = golfie.EBAY;
             if(!(golfie !== verify)) { _fun00004_ip = 835; continue _fun00003 }
  543:
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot10;
             golfie = golfie.TIKTOK;
             if(!(golfie !== verify)) { _fun00004_ip = 559; continue _fun00003 }
  557:
             return zuuluu;
  559:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.TIKTOK_VERIFIED;
             if(!(golfie !== option)) { _fun00004_ip = 782; continue _fun00003 }
  576:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.TIKTOK_FOLLOWER_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 729; continue _fun00003 }
  593:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.TIKTOK_FOLLOWING_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 676; continue _fun00003 }
  607:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.TIKTOK_LIKES_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 623; continue _fun00003 }
  621:
@@ -305,7 +309,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  623:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -314,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -336,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  676:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -345,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -367,7 +371,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  729:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -376,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -398,7 +402,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  782:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -407,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 michal = oscard[entity];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -424,23 +428,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify.bind(offset)(report, golfie);
             _fun00004_ip = 2134; continue _fun00003;
  835:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.CREATED_AT;
             if(!(golfie !== option)) { _fun00004_ip = 1128; continue _fun00003 }
  852:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.EBAY_TOP_RATED_SELLER;
             if(!(golfie !== option)) { _fun00004_ip = 1075; continue _fun00003 }
  869:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.EBAY_POSITIVE_FEEDBACK_PERCENTAGE;
             if(!(golfie !== option)) { _fun00004_ip = 1022; continue _fun00003 }
  886:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.EBAY_UNIQUE_POSITIVE_FEEDBACK_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 969; continue _fun00003 }
  900:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.EBAY_UNIQUE_NEGATIVE_FEEDBACK_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 916; continue _fun00003 }
  914:
@@ -448,7 +452,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  916:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -457,7 +461,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -479,7 +483,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  969:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -488,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -510,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1022:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -519,7 +523,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -541,7 +545,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1075:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -550,7 +554,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 michal = oscard[entity];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -569,7 +573,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1128:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -578,7 +582,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -598,11 +602,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify.bind(offset)(report, golfie);
             _fun00004_ip = 2134; continue _fun00003;
  1181:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.CREATED_AT;
             if(!(golfie !== option)) { _fun00004_ip = 1264; continue _fun00003 }
  1195:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.PAYPAL_VERIFIED;
             if(!(golfie !== option)) { _fun00004_ip = 1211; continue _fun00003 }
  1209:
@@ -610,7 +614,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1211:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -619,7 +623,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 michal = oscard[entity];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -638,7 +642,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1264:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -647,7 +651,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -667,19 +671,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify.bind(offset)(report, golfie);
             _fun00004_ip = 2134; continue _fun00003;
  1317:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.CREATED_AT;
             if(!(golfie !== option)) { _fun00004_ip = 1540; continue _fun00003 }
  1334:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.TWITTER_VERIFIED;
             if(!(golfie !== option)) { _fun00004_ip = 1487; continue _fun00003 }
  1351:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.TWITTER_FOLLOWERS_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 1434; continue _fun00003 }
  1365:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.TWITTER_STATUSES_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 1381; continue _fun00003 }
  1379:
@@ -687,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1381:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -696,7 +700,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -718,7 +722,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1434:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -727,7 +731,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -749,7 +753,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1487:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -758,7 +762,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 michal = oscard[entity];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -777,7 +781,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1540:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -786,7 +790,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -806,19 +810,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify.bind(offset)(report, golfie);
             _fun00004_ip = 2134; continue _fun00003;
  1593:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.CREATED_AT;
             if(!(golfie !== option)) { _fun00004_ip = 1816; continue _fun00003 }
  1610:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.STEAM_GAME_COUNT;
             if(!(golfie !== option)) { _fun00004_ip = 1763; continue _fun00003 }
  1627:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.STEAM_ITEM_COUNT_TF2;
             if(!(golfie !== option)) { _fun00004_ip = 1710; continue _fun00003 }
  1641:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.STEAM_ITEM_COUNT_DOTA2;
             if(!(golfie !== option)) { _fun00004_ip = 1657; continue _fun00003 }
  1655:
@@ -826,7 +830,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1657:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -835,7 +839,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -857,7 +861,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1710:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -866,7 +870,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -888,7 +892,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1763:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -897,7 +901,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -919,7 +923,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1816:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             offset = golfie.intl;
@@ -928,7 +932,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -948,19 +952,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify.bind(offset)(report, golfie);
             _fun00004_ip = 2134; continue _fun00003;
  1869:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.CREATED_AT;
             if(!(golfie !== option)) { _fun00004_ip = 2086; continue _fun00003 }
  1886:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.REDDIT_TOTAL_KARMA;
             if(!(golfie !== option)) { _fun00004_ip = 2036; continue _fun00003 }
  1903:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.REDDIT_GOLD;
             if(!(golfie !== option)) { _fun00004_ip = 1986; continue _fun00003 }
  1917:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             golfie = golfie.REDDIT_MOD;
             if(!(golfie !== option)) { _fun00004_ip = 1933; continue _fun00003 }
  1931:
@@ -968,7 +972,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1933:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 8;
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(tangon)(zuuluu);
             option = zuuluu.intl;
@@ -977,7 +981,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 michal = oscard[entity];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -996,7 +1000,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1986:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 8;
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(tangon)(zuuluu);
             option = zuuluu.intl;
@@ -1005,7 +1009,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 michal = oscard[entity];
                 tangon = undefined;
                 michal = report.bind(tangon)(michal);
@@ -1024,7 +1028,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  2036:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 8;
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(tangon)(zuuluu);
             option = zuuluu.intl;
@@ -1033,7 +1037,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -1055,7 +1059,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  2086:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
-            michal = 7;
+            michal = 8;
             michal = golfie[michal];
             michal = zuuluu.bind(tangon)(michal);
             tangon = michal.intl;
@@ -1064,7 +1068,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = function() { // Original name: platformQuantityHook
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
-                entity = 7;
+                entity = 8;
                 zuuluu = oscard[entity];
                 michal = undefined;
                 zuuluu = report.bind(michal)(zuuluu);
@@ -1139,7 +1143,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  65:
             if(!verify) { _fun00008_ip = 95; continue _fun00007 }
  68:
-            yankee = _closure1_slot4;
+            yankee = _closure1_slot5;
             offset = yankee.getGuild;
             verify = option.getGuildId;
             verify = verify.bind(option)();
@@ -1194,7 +1198,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = argBar;
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
-                    zuuluu = 6;
+                    zuuluu = 7;
                     zuuluu = report[zuuluu];
                     oscard = undefined;
                     report = tangon.bind(oscard)(zuuluu);
@@ -1215,11 +1219,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = zuuluu.bind(tangon)(michal);
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            michal = 8;
+            michal = 9;
             michal = offset[michal];
             tangon = verify.bind(golfie)(michal);
             zuuluu = tangon.intersection;
-            michal = 9;
+            michal = 10;
             michal = offset[michal];
             michal = verify.bind(golfie)(michal);
             michal = michal.bind(golfie)(option);
@@ -1306,7 +1310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure2_slot0 = michal;
         tangon = _closure1_slot0;
         zuuluu = _closure1_slot2;
-        michal = 10;
+        michal = 11;
         zuuluu = zuuluu[michal];
         michal = undefined;
         tangon = tangon.bind(michal)(zuuluu);
@@ -1314,7 +1318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = _closure1_slot4;
         michal = new Array(2);
         michal[0] = oscard;
-        report = _closure1_slot5;
+        report = _closure1_slot6;
         michal[1] = report;
         entity = function() {
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -1348,20 +1352,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(entity);
                 option = _closure1_slot0;
                 verify = _closure1_slot2;
-                zuuluu = 11;
+                zuuluu = 12;
                 zuuluu = verify[zuuluu];
                 golfie = undefined;
                 report = option.bind(golfie)(zuuluu);
                 tangon = report.isDismissibleContentDismissed;
-                zuuluu = 12;
+                zuuluu = 13;
                 zuuluu = verify[zuuluu];
                 zuuluu = option.bind(golfie)(zuuluu);
                 zuuluu = zuuluu.DismissibleContent;
                 zuuluu = zuuluu.CONNECTIONS_NUX;
                 zuuluu = tangon.bind(report)(zuuluu);
-                report = _closure1_slot5;
+                report = _closure1_slot6;
                 tangon = report.can;
-                michal = _closure1_slot8;
+                michal = _closure1_slot9;
                 michal = michal.MANAGE_ROLES;
                 michal = tangon.bind(report)(michal, oscard);
                 entity = !entity;

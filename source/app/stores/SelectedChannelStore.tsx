@@ -395,14 +395,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = false;
             var _closure2_slot0 = michal;
             tangon = _closure1_slot14;
-            michal = tangon.getGuilds;
-            oscard = michal.bind(tangon)();
-            report = _closure1_slot1;
+            michal = tangon.getGuildsArray;
+            report = michal.bind(tangon)();
+            oscard = _closure1_slot1;
             golfie = _closure1_slot3;
             michal = 16;
             option = golfie[michal];
             tangon = undefined;
-            yankee = report.bind(tangon)(option);
+            yankee = oscard.bind(tangon)(option);
             offset = yankee.each;
             verify = _closure1_slot30;
             option = function(argFoo, argBar) {
@@ -450,11 +450,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             option = offset.bind(yankee)(verify, option);
-            option = golfie[michal];
-            yankee = report.bind(tangon)(option);
-            offset = yankee.each;
-            verify = _closure1_slot32;
-            option = function(argFoo, argBar) {
+            michal = golfie[michal];
+            golfie = oscard.bind(tangon)(michal);
+            oscard = golfie.each;
+            tangon = _closure1_slot32;
+            michal = function(argFoo, argBar) {
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     report = argFoo;
@@ -485,10 +485,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            option = offset.bind(yankee)(verify, option);
-            michal = golfie[michal];
-            report = report.bind(tangon)(michal);
-            tangon = report.each;
+            michal = oscard.bind(golfie)(tangon, michal);
+            tangon = report.forEach;
             michal = function(argFoo) {
                 _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
@@ -511,12 +509,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            michal = tangon.bind(report)(oscard, michal);
+            michal = tangon.bind(report)(michal);
             tangon = _closure1_slot27;
             michal = null;
             tangon = michal != tangon;
-            if(!tangon) { _fun00016_ip = 172; continue _fun00015 }
- 137:
+            if(!tangon) { _fun00016_ip = 161; continue _fun00015 }
+ 126:
             report = global;
             oscard = report.Date;
             report = oscard.now;
@@ -525,13 +523,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard - report;
             report = 300000;
             tangon = oscard >= report;
- 172:
-            if(!tangon) { _fun00016_ip = 185; continue _fun00015 }
- 175:
+ 161:
+            if(!tangon) { _fun00016_ip = 174; continue _fun00015 }
+ 164:
             var _closure1_slot26 = michal;
             michal = true;
             _closure2_slot0 = michal;
- 185:
+ 174:
             entity = _closure2_slot0;
             return entity;
         }

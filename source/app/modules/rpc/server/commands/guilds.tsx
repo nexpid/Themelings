@@ -177,16 +177,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = verify.RPC;
     tangon['scope'] = verify;
     option = function() { // Original name: handler
-        zuuluu = _closure1_slot2;
-        entity = zuuluu.getGuilds;
-        report = entity.bind(zuuluu)();
         entity = {};
-        tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
-        michal = 5;
-        zuuluu = zuuluu[michal];
-        michal = undefined;
-        tangon = tangon.bind(michal)(zuuluu);
+        zuuluu = _closure1_slot2;
+        michal = zuuluu.getGuildsArray;
+        tangon = michal.bind(zuuluu)();
         zuuluu = tangon.map;
         michal = function(argFoo) {
             tangon = argFoo;
@@ -201,13 +195,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['icon_url'] = michal;
             return entity;
         };
-        michal = zuuluu.bind(tangon)(report, michal);
+        michal = zuuluu.bind(tangon)(michal);
         entity['guilds'] = michal;
         return entity;
     };
     tangon['handler'] = option;
     michal[golfie] = tangon;
-    tangon = 6;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

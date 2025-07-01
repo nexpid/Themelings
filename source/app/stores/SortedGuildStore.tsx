@@ -225,37 +225,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo, argBar) { // Original name: insertUnsortedGuilds
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            verify = argFoo;
-            option = argBar;
+            golfie = argFoo;
+            oscard = argBar;
+            zuuluu = _closure1_slot24;
             michal = _closure1_slot14;
-            entity = michal.getGuilds;
-            oscard = entity.bind(michal)();
+            entity = michal.getGuildIds;
+            michal = entity.bind(michal)();
             entity = undefined;
-            for(michal in oscard)
- 33:
-            {
- 42:
-                offset = michal;
-                yankee = verify.bind(entity)(offset);
-                yankee = !yankee;
-                if(yankee) { _fun00010_ip = 71; continue _fun00009 }
- 56:
-                foxtra = _closure1_slot9;
-                romeon = foxtra.isLurking;
-                yankee = romeon.bind(foxtra)(offset);
- 71:
-                if(yankee) { _fun00010_ip = 89; continue _fun00009 }
- 74:
-                foxtra = _closure1_slot13;
-                romeon = foxtra.isCurrentUserGuest;
-                yankee = romeon.bind(foxtra)(offset);
- 89:
-                if(yankee) { _fun00010_ip = 33; continue _fun00009 }
- 92:
-                offset = option.bind(entity)(offset);
-                _fun00010_ip = 33; continue _fun00009;
-            }
- 99:
+            tangon = zuuluu.bind(entity)(michal);
+            zuuluu = tangon.bind(entity)();
+            michal = zuuluu.done;
+            if(michal) { _fun00010_ip = 118; continue _fun00009 }
+ 46:
+            michal = zuuluu.value;
+            option = golfie.bind(entity)(michal);
+            option = !option;
+            if(option) { _fun00010_ip = 77; continue _fun00009 }
+ 62:
+            offset = _closure1_slot9;
+            verify = offset.isLurking;
+            option = verify.bind(offset)(michal);
+ 77:
+            if(option) { _fun00010_ip = 95; continue _fun00009 }
+ 80:
+            offset = _closure1_slot13;
+            verify = offset.isCurrentUserGuest;
+            option = verify.bind(offset)(michal);
+ 95:
+            if(option) { _fun00010_ip = 103; continue _fun00009 }
+ 98:
+            michal = oscard.bind(entity)(michal);
+ 103:
+            option = tangon.bind(entity)();
+            michal = option.done;
+            zuuluu = option;
+            if(!michal) { _fun00010_ip = 46; continue _fun00009 }
+ 118:
             return entity;
         }
     };

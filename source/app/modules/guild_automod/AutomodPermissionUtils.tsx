@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard[0] = offset;
     offset = golfie.AUTOMOD_QUARANTINED_USERNAME_OR_GUILD_NICKNAME;
     oscard[1] = offset;
-    golfie = golfie.AUTOMOD_QUARANTINED_CLAN_TAG;
+    golfie = golfie.AUTOMOD_QUARANTINED_SERVER_TAG;
     oscard[2] = golfie;
     var _closure1_slot3 = oscard;
     golfie = 4;

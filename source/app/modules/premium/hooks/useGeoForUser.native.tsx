@@ -40,101 +40,118 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
     tangon = 'modules/premium/hooks/useGeoForUser.native.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: useGeoForUser
-        golfie = _closure1_slot0;
-        option = _closure1_slot2;
-        report = 4;
-        michal = option[report];
-        oscard = undefined;
-        offset = golfie.bind(oscard)(michal);
-        verify = offset.useStateFromStores;
-        michal = _closure1_slot6;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = function() {
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                tangon = _closure1_slot6;
-                zuuluu = tangon.getProduct;
-                report = _closure1_slot0;
-                michal = _closure1_slot2;
-                entity = 5;
-                michal = michal[entity];
-                entity = undefined;
-                michal = report.bind(entity)(michal);
-                michal = michal.ProductIds;
-                michal = michal.PREMIUM_TIER_2_MONTHLY;
-                michal = zuuluu.bind(tangon)(michal);
-                zuuluu = null;
-                zuuluu = zuuluu == michal;
-                if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
+            golfie = _closure1_slot0;
+            option = _closure1_slot2;
+            oscard = 4;
+            zuuluu = option[oscard];
+            michal = undefined;
+            offset = golfie.bind(michal)(zuuluu);
+            verify = offset.useStateFromStores;
+            zuuluu = _closure1_slot6;
+            tangon = new Array(1);
+            tangon[0] = zuuluu;
+            zuuluu = function() {
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    tangon = _closure1_slot6;
+                    zuuluu = tangon.getProduct;
+                    report = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    entity = 5;
+                    michal = michal[entity];
+                    entity = undefined;
+                    michal = report.bind(entity)(michal);
+                    michal = michal.ProductIds;
+                    michal = michal.PREMIUM_TIER_2_MONTHLY;
+                    michal = zuuluu.bind(tangon)(michal);
+                    zuuluu = null;
+                    zuuluu = zuuluu == michal;
+                    if(zuuluu) { _fun00004_ip = 67; continue _fun00003 }
  61:
-                entity = michal.countryCode;
+                    entity = michal.countryCode;
  67:
+                    return entity;
+                }
+            };
+            tangon = verify.bind(offset)(tangon, zuuluu);
+            zuuluu = option[oscard];
+            yankee = golfie.bind(michal)(zuuluu);
+            offset = yankee.useStateFromStores;
+            zuuluu = _closure1_slot5;
+            verify = new Array(1);
+            verify[0] = zuuluu;
+            zuuluu = function() {
+                entity = _closure1_slot5;
+                entity = entity.ipLocation;
                 return entity;
-            }
-        };
-        zuuluu = verify.bind(offset)(zuuluu, michal);
-        michal = option[report];
-        yankee = golfie.bind(oscard)(michal);
-        offset = yankee.useStateFromStores;
-        michal = _closure1_slot5;
-        verify = new Array(1);
-        verify[0] = michal;
-        michal = function() {
-            entity = _closure1_slot5;
-            entity = entity.ipCountryCode;
-            return entity;
-        };
-        michal = offset.bind(yankee)(verify, michal);
-        report = option[report];
-        option = golfie.bind(oscard)(report);
-        golfie = option.useStateFromStores;
-        report = _closure1_slot4;
-        oscard = new Array(1);
-        oscard[0] = report;
-        report = function() {
-            michal = _closure1_slot4;
-            entity = michal.isAuthenticated;
-            entity = entity.bind(michal)();
-            return entity;
-        };
-        golfie = golfie.bind(option)(oscard, report);
-        var _closure2_slot0 = golfie;
-        oscard = _closure1_slot3;
-        report = oscard.useEffect;
-        tangon = new Array(2);
-        tangon[0] = michal;
-        tangon[1] = golfie;
-        entity = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                entity = _closure2_slot0;
-                if(!entity) { _fun00004_ip = 26; continue _fun00003 }
- 10:
-                michal = _closure1_slot5;
-                michal = michal.ipCountryCodeLoaded;
-                entity = !michal;
- 26:
-                if(!entity) { _fun00004_ip = 64; continue _fun00003 }
- 29:
-                zuuluu = _closure1_slot1;
-                michal = _closure1_slot2;
-                entity = 6;
-                michal = michal[entity];
-                entity = undefined;
-                michal = zuuluu.bind(entity)(michal);
-                entity = michal.fetchIpCountryCode;
+            };
+            zuuluu = offset.bind(yankee)(verify, zuuluu);
+            oscard = option[oscard];
+            verify = golfie.bind(michal)(oscard);
+            option = verify.useStateFromStores;
+            oscard = _closure1_slot4;
+            golfie = new Array(1);
+            golfie[0] = oscard;
+            oscard = function() {
+                michal = _closure1_slot4;
+                entity = michal.isAuthenticated;
                 entity = entity.bind(michal)();
- 64:
-                entity = undefined;
                 return entity;
-            }
-        };
-        entity = report.bind(oscard)(entity, tangon);
-        entity = {};
-        entity['defaultBillingCountryCode'] = zuuluu;
-        entity['ipCountryCode'] = michal;
-        return entity;
+            };
+            option = option.bind(verify)(golfie, oscard);
+            var _closure2_slot0 = option;
+            golfie = _closure1_slot3;
+            oscard = golfie.useEffect;
+            report = new Array(2);
+            report[0] = zuuluu;
+            report[1] = option;
+            entity = function() {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                    entity = _closure2_slot0;
+                    if(!entity) { _fun00006_ip = 28; continue _fun00005 }
+ 10:
+                    michal = _closure1_slot5;
+                    michal = michal.ipLocationLoaded;
+                    entity = !michal;
+ 28:
+                    if(!entity) { _fun00006_ip = 66; continue _fun00005 }
+ 31:
+                    zuuluu = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    entity = 6;
+                    michal = michal[entity];
+                    entity = undefined;
+                    michal = zuuluu.bind(entity)(michal);
+                    entity = michal.fetchIpLocation;
+                    entity = entity.bind(michal)();
+ 66:
+                    entity = undefined;
+                    return entity;
+                }
+            };
+            entity = oscard.bind(golfie)(entity, report);
+            entity = {};
+            entity['defaultBillingCountryCode'] = tangon;
+            tangon = null;
+            oscard = tangon == zuuluu;
+            report = undefined;
+            if(oscard) { _fun00002_ip = 189; continue _fun00001 }
+ 183:
+            report = zuuluu.countryCode;
+ 189:
+            entity['ipCountryCode'] = report;
+            tangon = tangon == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00002_ip = 209; continue _fun00001 }
+ 203:
+            michal = zuuluu.subdivisionCode;
+ 209:
+            entity['ipSubdivisionCode'] = michal;
+            return entity;
+        }
     };
     zuuluu['default'] = michal;
     return entity;

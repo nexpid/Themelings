@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 zuuluu = report.bind(oscard)(tangon, zuuluu);
-                if(zuuluu) { _fun00020_ip = 126; continue _fun00019 }
+                if(zuuluu) { _fun00020_ip = 125; continue _fun00019 }
  82:
                 report = _closure1_slot33;
                 tangon = report.splice;
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.bind(oscard)(michal);
                 michal = 1;
                 michal = tangon.bind(report)(zuuluu, michal);
- 126:
+ 125:
                 return entity;
             }
         };

@@ -906,10 +906,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['CHANNEL_LIST_V2_BROWSE_CHANNELS_NUX'] = michal;
     entity = 'CHANNEL_LIST_V2_BROWSE_CHANNELS_NUX';
     tangon[michal] = entity;
-    michal = 345;
-    tangon['UU_MIGRATION_NOTICE'] = michal;
-    entity = 'UU_MIGRATION_NOTICE';
-    tangon[michal] = entity;
     michal = 346;
     tangon['HANG_STATUS_NEW_BADGE'] = michal;
     entity = 'HANG_STATUS_NEW_BADGE';
@@ -1653,6 +1649,14 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = 559;
     tangon['BOGO_2025_NITRO_TAB_BADGE'] = michal;
     entity = 'BOGO_2025_NITRO_TAB_BADGE';
+    tangon[michal] = entity;
+    michal = 560;
+    tangon['BOGO_2025_ANNOUNCEMENT_MODAL'] = michal;
+    entity = 'BOGO_2025_ANNOUNCEMENT_MODAL';
+    tangon[michal] = entity;
+    michal = 561;
+    tangon['BOOSTER_ENHANCED_ROLE_COLORS_COACHMARK'] = michal;
+    entity = 'BOOSTER_ENHANCED_ROLE_COLORS_COACHMARK';
     tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;

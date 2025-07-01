@@ -106,15 +106,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity['messages'] = zuuluu;
         oscard = _closure1_slot0;
         report = _closure1_slot1;
-        option = 0;
-        verify = report[option];
+        tangon = 0;
+        option = report[tangon];
         tangon = undefined;
-        yankee = oscard.bind(tangon)(verify);
-        offset = yankee.questTaskConfigFromServer;
-        verify = michal.task_config;
-        verify = offset.bind(yankee)(verify);
-        entity['taskConfig'] = verify;
-        option = report[option];
         offset = oscard.bind(tangon)(option);
         verify = offset.questTaskConfigV2FromServer;
         option = michal.task_config_v2;

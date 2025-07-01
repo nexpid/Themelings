@@ -396,14 +396,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = 12;
             ctrled = update[source];
             ctrled = echoed.bind(tangon)(ctrled);
+            sequen = ctrled.intl;
+            vacuum = sequen.string;
+            ctrled = update[source];
+            ctrled = echoed.bind(tangon)(ctrled);
+            ctrled = ctrled.t;
+            ctrled = ctrled.IEpCBQ;
+            ctrled = vacuum.bind(sequen)(ctrled);
+            report['label'] = ctrled;
+            ctrled = update[source];
+            ctrled = echoed.bind(tangon)(ctrled);
             vacuum = ctrled.intl;
             ctrled = vacuum.string;
             source = update[source];
             source = echoed.bind(tangon)(source);
             source = source.t;
-            source = source.IEpCBQ;
+            source = source.47dcUV;
             source = ctrled.bind(vacuum)(source);
-            report['label'] = source;
+            report['accessibilityHint'] = source;
             report['onChange'] = result;
             result = false;
             report['autoCorrect'] = result;
@@ -418,10 +428,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = echoed.isAndroid;
             echoed = result.bind(echoed)();
             result = 'default';
-            if(!echoed) { _fun00004_ip = 433; continue _fun00003 }
- 427:
+            if(!echoed) { _fun00004_ip = 484; continue _fun00003 }
+ 478:
             result = 'visible-password';
- 433:
+ 484:
             report['keyboardType'] = result;
             report['value'] = output;
             report['onSubmitEditing'] = sizing;
@@ -437,10 +447,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['isClearable'] = foxtra;
             romeon = romeon == offset;
             backup = undefined;
-            if(romeon) { _fun00004_ip = 508; continue _fun00003 }
- 503:
+            if(romeon) { _fun00004_ip = 559; continue _fun00003 }
+ 554:
             backup = offset.type;
- 508:
+ 559:
             foxtra = _closure1_slot0;
             kiloes = _closure1_slot2;
             romeon = 7;
@@ -449,10 +459,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.NameValidationState;
             foxtra = romeon.ERROR;
             romeon = undefined;
-            if(!(backup === foxtra)) { _fun00004_ip = 550; continue _fun00003 }
- 546:
+            if(!(backup === foxtra)) { _fun00004_ip = 601; continue _fun00003 }
+ 597:
             romeon = 'error';
- 550:
+ 601:
             report['status'] = romeon;
             report['submitBehavior'] = yankee;
             golfie = option.bind(tangon)(golfie, report);

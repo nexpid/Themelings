@@ -213,10 +213,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         option = report.bind(entity)(golfie);
         golfie = option.isAndroid;
         golfie = golfie.bind(option)();
-        if(!golfie) { _fun00002_ip = 281; continue _fun00001 }
- 278:
+        if(!golfie) { _fun00002_ip = 277; continue _fun00001 }
+ 274:
         michal = tangon;
- 281:
+ 277:
         tangon = 5;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);

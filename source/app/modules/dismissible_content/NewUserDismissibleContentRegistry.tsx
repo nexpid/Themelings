@@ -166,10 +166,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = offset.DismissibleContent;
     offset = offset.Q2_2025_MARKETING_MOMENT_FOLLOW_UP_MODAL;
     tangon[offset] = verify;
+    offset = oscard[option];
+    offset = report.bind(entity)(offset);
+    offset = offset.DismissibleContent;
+    offset = offset.Q2_2025_MARKETING_MOMENT_FIRST_IMPRESSION_MODAL;
+    tangon[offset] = verify;
     option = oscard[option];
     option = report.bind(entity)(option);
     option = option.DismissibleContent;
-    option = option.Q2_2025_MARKETING_MOMENT_FIRST_IMPRESSION_MODAL;
+    option = option.BOGO_2025_ANNOUNCEMENT_MODAL;
     tangon[option] = verify;
     var _closure1_slot5 = tangon;
     tangon = 3;

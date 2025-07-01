@@ -3133,8 +3133,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify.headerTitle;
             golfie['style'] = romeon;
             romeon = null;
-            if(!yankee) { _fun00058_ip = 445; continue _fun00057 }
- 260:
+            if(!yankee) { _fun00058_ip = 449; continue _fun00057 }
+ 264:
             backup = _closure1_slot18;
             output = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -3177,7 +3177,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(tangon)(output, sizing);
             yankee['children'] = sizing;
             romeon = backup.bind(tangon)(foxtra, yankee);
- 445:
+ 449:
             yankee = new Array(3);
             yankee[0] = romeon;
             backup = _closure1_slot18;
@@ -3192,18 +3192,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = verify.headerActions;
             romeon['style'] = sizing;
             result = _closure1_slot18;
-            if(kiloes) { _fun00058_ip = 519; continue _fun00057 }
- 505:
+            if(kiloes) { _fun00058_ip = 523; continue _fun00057 }
+ 509:
             sizing = _closure1_slot31;
             kiloes = {};
             sizing = result.bind(tangon)(sizing, kiloes);
-            _fun00058_ip = 536; continue _fun00057;
- 519:
+            _fun00058_ip = 540; continue _fun00057;
+ 523:
             output = _closure1_slot30;
             kiloes = {};
             kiloes['numUnreadMentions'] = echoed;
             sizing = result.bind(tangon)(output, kiloes);
- 536:
+ 540:
             kiloes = new Array(2);
             kiloes[0] = sizing;
             result = _closure1_slot18;
@@ -3311,14 +3311,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             option = report.bind(oscard)(michal, zuuluu);
-            if(entity) { _fun00060_ip = 209; continue _fun00059 }
+            if(entity) { _fun00060_ip = 210; continue _fun00059 }
  198:
             entity = _closure1_slot5;
             golfie = entity.Fragment;
-            _fun00060_ip = 213; continue _fun00059;
- 209:
+            _fun00060_ip = 214; continue _fun00059;
+ 210:
             golfie = _closure1_slot6;
- 213:
+ 214:
             zuuluu = _closure1_slot18;
             verify = _closure1_slot1;
             backup = _closure1_slot2;

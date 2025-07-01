@@ -183,14 +183,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 michal['RTC_CONNECTION_FLAGS'] = tangon;
-                tangon = function(argFoo) { // Original name: RTC_CONNECTION_USER_CREATE
+                tangon = function(argFoo) { // Original name: RTC_CONNECTION_USERS_MERGED
                     zuuluu = _closure3_slot0;
-                    michal = zuuluu.handleRTCUserCreate;
+                    michal = zuuluu.handleRTCUsersUpdate;
                     entity = argFoo;
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
-                michal['RTC_CONNECTION_USER_CREATE'] = tangon;
+                michal['RTC_CONNECTION_USERS_MERGED'] = tangon;
                 tangon = function(argFoo) { // Original name: CLIPS_INIT_FAILURE
                     zuuluu = _closure3_slot0;
                     michal = zuuluu.handleClipsInitFailure;
@@ -359,28 +359,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = new Array(13);
         entity[0] = report;
         report = {};
-        option = 'handleRTCUserCreate';
+        option = 'handleRTCUsersUpdate';
         report['key'] = option;
         option = function(argFoo) { // Original name: value
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = argFoo;
-                tangon = this;
-                zuuluu = entity.userId;
-                report = entity.context;
-                oscard = _closure1_slot0;
+                tangon = entity.userIds;
+                zuuluu = entity.context;
+                report = _closure1_slot0;
                 michal = _closure1_slot3;
                 entity = 16;
                 michal = michal[entity];
                 entity = undefined;
-                michal = oscard.bind(entity)(michal);
+                michal = report.bind(entity)(michal);
                 michal = michal.MediaEngineContextTypes;
                 michal = michal.DEFAULT;
-                if(!(report === michal)) { _fun00008_ip = 68; continue _fun00007 }
- 57:
-                michal = tangon.applyUserVoiceRecording;
-                michal = michal.bind(tangon)(zuuluu);
- 68:
+                if(!(zuuluu === michal)) { _fun00008_ip = 74; continue _fun00007 }
+ 55:
+                zuuluu = tangon.forEach;
+                michal = this;
+                michal = michal.applyUserVoiceRecording;
+                michal = zuuluu.bind(tangon)(michal);
+ 74:
                 return entity;
             }
         };

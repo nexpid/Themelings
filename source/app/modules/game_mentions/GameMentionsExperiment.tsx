@@ -1,4 +1,4 @@
-// app/modules/premium/experiments/GiftCodeLookupExperiment.tsx
+// app/modules/game_mentions/GameMentionsExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -16,12 +16,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = undefined;
     option = report.bind(entity)(michal);
     golfie = option.createExperiment;
-    michal = {'kind': 'user', 'id': '2025-05_gift_code_lookup', 'label': 'Gift Code Lookup'};
+    michal = {'kind': 'user', 'id': '2025-06_game_mentions_user', 'label': 'Game Mentions - User'};
     tangon = {};
     verify = false;
     tangon['enabled'] = verify;
     michal['defaultConfig'] = tangon;
-    offset = {'id': 1, 'label': 'Gift code lookup enabled'};
+    offset = {'id': 1, 'label': 'Enable Game Mentions'};
     tangon = 1;
     verify = {};
     verify['enabled'] = yankee;
@@ -33,8 +33,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/premium/experiments/GiftCodeLookupExperiment.tsx';
+    tangon = 'modules/game_mentions/GameMentionsExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['GiftCodeLookupExperiment'] = michal;
+    zuuluu['GameMentionsUserExperiment'] = michal;
     return entity;
 })();

@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = argFoo;
                     zuuluu = argBar;
                     entity = undefined;
-                    if(!(entity !== michal)) { _fun00004_ip = 185; continue _fun00003 }
+                    if(!(entity !== michal)) { _fun00004_ip = 223; continue _fun00003 }
  15:
                     tangon = michal.restartCount;
                     if(!(entity !== tangon)) { _fun00004_ip = 56; continue _fun00003 }
@@ -159,9 +159,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  169:
                     if(!(report !== tangon)) { _fun00004_ip = 185; continue _fun00003 }
  173:
-                    michal = michal.sessionSampleRate;
-                    zuuluu['sessionSampleRate'] = michal;
+                    tangon = michal.sessionSampleRate;
+                    zuuluu['sessionSampleRate'] = tangon;
  185:
+                    tangon = michal.timeFromConnectToFirstCallbackMs;
+                    tangon = entity !== tangon;
+                    if(!tangon) { _fun00004_ip = 208; continue _fun00003 }
+ 198:
+                    report = zuuluu.timeFromConnectToFirstCallbackMs;
+                    tangon = entity === report;
+ 208:
+                    if(!tangon) { _fun00004_ip = 223; continue _fun00003 }
+ 211:
+                    michal = michal.timeFromConnectToFirstCallbackMs;
+                    zuuluu['timeFromConnectToFirstCallbackMs'] = michal;
+ 223:
                     return entity;
                 }
             };
@@ -1621,9 +1633,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.inputDeviceStats;
                 zuuluu = zuuluu.sessionSampleRate;
                 entity['input_device_session_sample_rate'] = zuuluu;
+                zuuluu = michal.outputDeviceStats;
+                zuuluu = zuuluu.sessionSampleRate;
+                entity['output_device_session_sample_rate'] = zuuluu;
+                zuuluu = michal.inputDeviceStats;
+                zuuluu = zuuluu.timeFromConnectToFirstCallbackMs;
+                entity['input_device_time_from_connect_to_first_audio_ms'] = zuuluu;
                 michal = michal.outputDeviceStats;
-                michal = michal.sessionSampleRate;
-                entity['output_device_session_sample_rate'] = michal;
+                michal = michal.timeFromConnectToFirstCallbackMs;
+                entity['output_device_time_from_connect_to_first_audio_ms'] = michal;
                 return entity;
             }
         };

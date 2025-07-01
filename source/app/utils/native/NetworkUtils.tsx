@@ -203,15 +203,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = tangon.bind(zuuluu)(michal);
             michal = -1;
             tangon = zuuluu;
-            if(!(michal !== report)) { _fun00014_ip = 71; continue _fun00013 }
- 46:
+            if(!(michal !== report)) { _fun00014_ip = 70; continue _fun00013 }
+ 45:
             zuuluu = tangon.splice;
             michal = 1;
             michal = zuuluu.bind(tangon)(report, michal);
             michal = _closure1_slot10;
             entity = undefined;
             entity = michal.bind(entity)();
- 71:
+ 70:
             entity = undefined;
             return entity;
         }
@@ -332,8 +332,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argFoo;
             report = zuuluu.bind(tangon)(michal);
             michal = -1;
-            if(!(michal !== report)) { _fun00018_ip = 60; continue _fun00017 }
- 31:
+            if(!(michal !== report)) { _fun00018_ip = 59; continue _fun00017 }
+ 30:
             tangon = _closure1_slot6;
             zuuluu = tangon.splice;
             michal = 1;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot10;
             entity = undefined;
             entity = michal.bind(entity)();
- 60:
+ 59:
             entity = undefined;
             return entity;
         }

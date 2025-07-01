@@ -130,16 +130,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu['BlockedDomainsStore'] = tangon;
         tangon = function() { // Original name: getKvDatabaseApi
             entity = {};
-            zuuluu = function(argFoo, argBar) { // Original name: registerStore
-                tangon = argBar;
-                zuuluu = _closure1_slot2;
-                michal = zuuluu.registerKvStore;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity, tangon);
+            zuuluu = function(argFoo, argBar, argBaz) { // Original name: registerStore
+                report = argBar;
+                tangon = _closure1_slot2;
+                zuuluu = tangon.registerKvStore;
+                michal = argFoo;
+                entity = argBaz;
+                entity = zuuluu.bind(tangon)(michal, report, entity);
                 michal = entity.token;
-                zuuluu = entity.root;
+                tangon = entity.root;
+                zuuluu = entity.derived;
                 entity = undefined;
-                entity = tangon.bind(entity)(zuuluu);
+                entity = report.bind(entity)(tangon, zuuluu);
                 entity = {};
                 entity['token'] = michal;
                 return entity;

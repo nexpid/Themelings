@@ -71,13 +71,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['guild_id'] = golfie;
             golfie = argBar;
             michal['location'] = golfie;
-            golfie = global;
-            option = golfie.Object;
-            golfie = option.values;
-            verify = _closure1_slot4;
-            oscard = verify.getGuilds;
-            oscard = oscard.bind(verify)();
-            option = golfie.bind(option)(oscard);
+            golfie = _closure1_slot4;
+            oscard = golfie.getGuildsArray;
+            option = oscard.bind(golfie)();
             golfie = option.map;
             oscard = function(argFoo) {
                 entity = argFoo;

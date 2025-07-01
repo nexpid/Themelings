@@ -1074,7 +1074,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = michal;
-        michal = new Array(69);
+        michal = new Array(70);
         michal[0] = oscard;
         oscard = {};
         golfie = 'interact';
@@ -4602,6 +4602,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard['value'] = option;
         michal[66] = oscard;
         oscard = {};
+        option = 'fetchAsyncResources';
+        oscard['key'] = option;
+        option = function() { // Original name: value
+            entity = global;
+            michal = entity.Promise;
+            entity = michal.resolve;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        oscard['value'] = option;
+        michal[67] = oscard;
+        oscard = {};
         option = 'watchdogTick';
         oscard['key'] = option;
         option = function() { // Original name: value
@@ -4669,7 +4681,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[67] = oscard;
+        michal[68] = oscard;
         oscard = {};
         option = 'connectionsEmpty';
         oscard['key'] = option;
@@ -4682,7 +4694,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         oscard['value'] = option;
-        michal[68] = oscard;
+        michal[69] = oscard;
         oscard = {};
         oscard['key'] = golfie;
         entity = function() { // Original name: value

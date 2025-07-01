@@ -83,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.PomeloEntrypoints;
     var _closure1_slot8 = tangon;
-    tangon = 11;
+    tangon = 10;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -152,7 +152,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = report.bind(oscard)(tangon, zuuluu);
                         tangon = zuuluu.enabled;
                         zuuluu = false;
-                        if(!tangon) { _fun00006_ip = 262; continue _fun00005 }
+                        if(!tangon) { _fun00006_ip = 214; continue _fun00005 }
  77:
                         report = _closure1_slot7;
                         tangon = report.getCurrentUser;
@@ -160,41 +160,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = null;
                         report = tangon == oscard;
                         zuuluu = false;
-                        if(report) { _fun00006_ip = 262; continue _fun00005 }
- 104:
+                        if(report) { _fun00006_ip = 214; continue _fun00005 }
+ 101:
                         report = oscard.isPomelo;
                         report = report.bind(oscard)();
                         zuuluu = false;
-                        if(report) { _fun00006_ip = 262; continue _fun00005 }
- 122:
+                        if(report) { _fun00006_ip = 214; continue _fun00005 }
+ 116:
                         report = oscard.hasVerifiedEmailOrPhone;
                         report = report.bind(oscard)();
                         zuuluu = false;
-                        if(!report) { _fun00006_ip = 262; continue _fun00005 }
- 140:
+                        if(!report) { _fun00006_ip = 214; continue _fun00005 }
+ 131:
                         oscard = _closure1_slot0;
                         option = _closure1_slot1;
-                        report = 9;
-                        report = option[report];
-                        oscard = oscard.bind(entity)(report);
-                        report = oscard.getForceMigration;
-                        report = report.bind(oscard)();
-                        option = 'lastSawPomeloMigration';
-                        if(report) { _fun00006_ip = 185; continue _fun00005 }
- 179:
-                        option = 'lastSawPomelo';
- 185:
-                        oscard = _closure1_slot0;
-                        verify = _closure1_slot1;
                         report = 7;
-                        report = verify[report];
+                        report = option[report];
                         report = oscard.bind(entity)(report);
-                        oscard = report.Storage;
-                        report = oscard.get;
-                        oscard = report.bind(oscard)(option);
+                        option = report.Storage;
+                        oscard = option.get;
+                        report = 'lastSawPomelo';
+                        oscard = oscard.bind(option)(report);
                         tangon = tangon != oscard;
-                        if(!tangon) { _fun00006_ip = 259; continue _fun00005 }
- 228:
+                        if(!tangon) { _fun00006_ip = 211; continue _fun00005 }
+ 180:
                         report = global;
                         option = report.Date;
                         report = option.now;
@@ -202,14 +191,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         oscard = report - oscard;
                         report = 604800000;
                         tangon = oscard < report;
- 259:
+ 211:
                         zuuluu = !tangon;
- 262:
-                        if(!zuuluu) { _fun00006_ip = 373; continue _fun00005 }
- 265:
+ 214:
+                        if(!zuuluu) { _fun00006_ip = 325; continue _fun00005 }
+ 217:
                         tangon = _closure1_slot0;
                         report = _closure1_slot1;
-                        zuuluu = 10;
+                        zuuluu = 9;
                         zuuluu = report[zuuluu];
                         oscard = tangon.bind(entity)(zuuluu);
                         report = oscard.openPomeloModal;
@@ -217,8 +206,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = zuuluu.APP_START;
                         zuuluu = true;
                         zuuluu = report.bind(oscard)(tangon, zuuluu, golfie);
-                        if(!zuuluu) { _fun00006_ip = 373; continue _fun00005 }
- 313:
+                        if(!zuuluu) { _fun00006_ip = 325; continue _fun00005 }
+ 265:
                         zuuluu = _closure1_slot0;
                         tangon = _closure1_slot1;
                         michal = 7;
@@ -232,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = michal.bind(zuuluu)();
                         michal = 'lastSawPomelo';
                         michal = tangon.bind(report)(michal, zuuluu);
- 373:
+ 325:
                         return entity;
                     }
                 };
@@ -255,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 12;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

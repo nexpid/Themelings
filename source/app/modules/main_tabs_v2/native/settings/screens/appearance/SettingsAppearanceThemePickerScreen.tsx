@@ -437,20 +437,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 michal = argFoo;
-                update = michal.defaultIndex;
+                source = michal.defaultIndex;
                 output = michal.mobileThemes;
                 var _closure2_slot0 = output;
                 result = michal.isPreview;
                 var _closure2_slot1 = result;
-                ctrled = michal.isSynced;
-                var _closure2_slot2 = ctrled;
-                sizing = michal.deviceWidth;
+                vacuum = michal.isSynced;
+                var _closure2_slot2 = vacuum;
+                echoed = michal.deviceWidth;
                 golfie = michal.canGoBack;
                 var _closure2_slot3 = golfie;
                 oscard = michal.themeSelector;
                 record = michal.hasSaveButton;
                 var _closure2_slot4 = record;
-                backup = michal.hasMidnightNux;
+                sizing = michal.hasMidnightNux;
                 limora = michal.headerTitle;
                 var _closure2_slot5 = limora;
                 status = michal.onSaveTheme;
@@ -490,12 +490,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 var _closure2_slot8 = whisks;
                 report = _closure1_slot4;
                 michal = report.useState;
-                zuuluu = michal.bind(report)(update);
+                zuuluu = michal.bind(report)(source);
                 michal = _closure1_slot3;
                 sequen = 2;
                 michal = michal.bind(tangon)(zuuluu, sequen);
-                source = 0;
-                kiloes = michal[source];
+                update = 0;
+                kiloes = michal[update];
                 var _closure2_slot9 = kiloes;
                 romeon = 1;
                 michal = michal[romeon];
@@ -505,7 +505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = offset[michal];
                 offset = option.bind(tangon)(michal);
                 option = offset.isThemeDark;
-                michal = output[update];
+                michal = output[source];
                 michal = michal.theme;
                 option = option.bind(offset)(michal);
                 michal = 'dark-content';
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.bind(report)(michal);
                 report = _closure1_slot3;
                 michal = report.bind(tangon)(michal, sequen);
-                vacuum = michal[source];
+                ctrled = michal[update];
                 michal = michal[romeon];
                 _closure2_slot11 = michal;
                 option = _closure1_slot0;
@@ -527,13 +527,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = offset.useHeaderHeight;
                 foxtra = zuuluu.bind(offset)();
                 zuuluu = 'nitro';
-                echoed = zuuluu === oscard;
-                _closure2_slot12 = echoed;
+                backup = zuuluu === oscard;
+                _closure2_slot12 = backup;
                 cntext = _closure1_slot4;
                 zuuluu = cntext.useState;
-                zuuluu = zuuluu.bind(cntext)(source);
+                zuuluu = zuuluu.bind(cntext)(update);
                 zuuluu = report.bind(tangon)(zuuluu, sequen);
-                target = zuuluu[source];
+                target = zuuluu[update];
                 zuuluu = zuuluu[romeon];
                 _closure2_slot13 = zuuluu;
                 offset = cntext.useCallback;
@@ -573,14 +573,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         entity = zuuluu.bind(tangon)(entity);
-                        _fun00008_ip = 77; continue _fun00007;
+                        _fun00008_ip = 76; continue _fun00007;
  52:
                         tangon = _closure1_slot32;
                         zuuluu = tangon.indexOf;
                         michal = _closure1_slot12;
                         michal = michal.DARKER;
                         entity = zuuluu.bind(tangon)(michal);
- 77:
+ 76:
                         return entity;
                     }
                 };
@@ -622,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = cntext.useState;
                 zuuluu = zuuluu.bind(cntext)(papara);
                 report = report.bind(tangon)(zuuluu, sequen);
-                zuuluu = report[source];
+                zuuluu = report[update];
                 variable36 = report[romeon];
                 _closure2_slot15 = variable36;
                 report = 29;
@@ -686,7 +686,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal[report];
                 option = option.bind(tangon)(michal);
                 michal = option.useSharedValue;
-                sequen = output[update];
+                sequen = output[source];
                 cntext = sequen.theme;
                 sequen = 'light';
                 if(!(sequen === cntext)) { _fun00006_ip = 798; continue _fun00005 }
@@ -695,13 +695,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  798:
                 option = michal.bind(option)(romeon);
                 michal = papara.activeIndex;
-                if(!echoed) { _fun00006_ip = 815; continue _fun00005 }
+                if(!backup) { _fun00006_ip = 815; continue _fun00005 }
  812:
                 michal = option;
  815:
                 _closure2_slot17 = michal;
                 sequen = _closure1_slot4;
-                source = sequen.useMemo;
+                update = sequen.useMemo;
                 romeon = function() {
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -723,14 +723,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 option = new Array(0);
-                quebec = source.bind(sequen)(romeon, option);
+                quebec = update.bind(sequen)(romeon, option);
                 _closure2_slot18 = quebec;
                 romeon = _closure1_slot0;
                 option = _closure1_slot2;
-                source = option[report];
-                target = romeon.bind(tangon)(source);
+                update = option[report];
+                target = romeon.bind(tangon)(update);
                 cntext = target.useAnimatedStyle;
-                source = function() { // Original name: xe
+                update = function() { // Original name: Ie
                     _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                         michal = _closure2_slot0;
@@ -815,7 +815,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 equals = {};
                 equals['mobileThemes'] = output;
-                equals['isClientThemesSelector'] = echoed;
+                equals['isClientThemesSelector'] = backup;
                 equals['currentThemeIndex'] = kiloes;
                 equals['themeTypeIndex'] = michal;
                 variable36 = 33;
@@ -835,65 +835,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 variable36 = variable36.timingStandard;
                 equals['timingStandard'] = variable36;
                 equals['bgRaised'] = quebec;
-                source['__closure'] = equals;
+                update['__closure'] = equals;
                 equals = 7123197128081.0;
-                source['__workletHash'] = equals;
+                update['__workletHash'] = equals;
                 equals = _closure1_slot35;
-                source['__initData'] = equals;
-                cntext = cntext.bind(target)(source);
-                source = {};
+                update['__initData'] = equals;
+                cntext = cntext.bind(target)(update);
+                update = {};
                 target = _closure1_slot21;
                 target = target.bind(tangon)(michal);
-                source['textNormal'] = target;
+                update['textNormal'] = target;
                 target = _closure1_slot24;
                 target = target.bind(tangon)(michal);
-                source['textMuted'] = target;
+                update['textMuted'] = target;
                 target = _closure1_slot30;
                 target = target.bind(tangon)(michal);
-                source['textBrand'] = target;
+                update['textBrand'] = target;
                 target = _closure1_slot25;
                 target = target.bind(tangon)(michal);
-                source['borderFaint'] = target;
+                update['borderFaint'] = target;
                 target = _closure1_slot26;
                 target = target.bind(tangon)(michal);
-                source['borderStrong'] = target;
+                update['borderStrong'] = target;
                 target = _closure1_slot22;
                 target = target.bind(tangon)(michal);
-                source['headerPrimary'] = target;
+                update['headerPrimary'] = target;
                 target = _closure1_slot23;
                 target = target.bind(tangon)(michal);
-                source['headerSecondary'] = target;
+                update['headerSecondary'] = target;
                 target = _closure1_slot27;
                 target = target.bind(tangon)(michal);
-                source['activityIcon'] = target;
+                update['activityIcon'] = target;
                 target = _closure1_slot18;
                 target = target.bind(tangon)(michal);
-                source['bgModSubtle'] = target;
+                update['bgModSubtle'] = target;
                 target = _closure1_slot19;
                 target = target.bind(tangon)(michal);
-                source['bgModStrong'] = target;
+                update['bgModStrong'] = target;
                 target = _closure1_slot28;
                 target = target.bind(tangon)(michal);
-                source['iconHeaderSecondary'] = target;
+                update['iconHeaderSecondary'] = target;
                 target = _closure1_slot29;
                 target = target.bind(tangon)(michal);
-                source['iconInteractive'] = target;
+                update['iconInteractive'] = target;
                 target = _closure1_slot17;
                 target = target.bind(tangon)(michal);
-                source['bgBasePrimary'] = target;
+                update['bgBasePrimary'] = target;
                 target = _closure1_slot20;
                 target = target.bind(tangon)(michal);
-                source['bgSurfaceOverlay'] = target;
-                source['bgRaised'] = cntext;
-                _closure2_slot19 = source;
+                update['bgSurfaceOverlay'] = target;
+                update['bgRaised'] = cntext;
+                _closure2_slot19 = update;
                 equals = sequen.useCallback;
                 target = new Array(8);
                 target[0] = kiloes;
-                target[1] = echoed;
+                target[1] = backup;
                 target[2] = michal;
                 target[3] = status;
                 target[4] = output;
-                target[5] = ctrled;
+                target[5] = vacuum;
                 target[6] = whisks;
                 target[7] = sierra;
                 cntext = function() {
@@ -946,7 +946,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 target[2] = kiloes;
                 target[3] = result;
                 target[4] = whisks;
-                target[5] = ctrled;
+                target[5] = vacuum;
                 cntext = function() {
                     _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -1008,14 +1008,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 cntext[1] = equals;
                 cntext[2] = whisks;
                 cntext[3] = output;
-                cntext[4] = ctrled;
+                cntext[4] = vacuum;
                 cntext[5] = result;
                 cntext[6] = limora;
-                cntext[7] = echoed;
+                cntext[7] = backup;
                 cntext[8] = sierra;
-                sierra = source.textNormal;
+                sierra = update.textNormal;
                 cntext[9] = sierra;
-                sierra = source.textBrand;
+                sierra = update.textBrand;
                 cntext[10] = sierra;
                 cntext[11] = golfie;
                 cntext[12] = status;
@@ -1264,7 +1264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 romeon = romeon.bind(sequen)(golfie, option);
                 golfie = michal;
-                if(echoed) { _fun00006_ip = 1808; continue _fun00005 }
+                if(backup) { _fun00006_ip = 1808; continue _fun00005 }
  1546:
                 michal = _closure1_slot37;
                 config = michal.bind(tangon)(output, zuuluu, oscard);
@@ -1301,7 +1301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sequen = status.bind(tangon)(sequen);
                 config = sequen.Text;
                 sequen = {'animated': true, 'variant': 'text-xs/medium'};
-                papara = source.headerSecondary;
+                papara = update.headerSecondary;
                 cntext = new Array(2);
                 cntext[0] = papara;
                 papara = yankee.textCentered;
@@ -1334,11 +1334,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['themes'] = output;
                 michal['currentThemeIndex'] = kiloes;
                 michal['isPreview'] = result;
-                michal['isSynced'] = ctrled;
-                michal['defaultIndex'] = update;
-                michal['deviceWidth'] = sizing;
-                michal['animatedStyles'] = source;
-                michal['hasMidnightNux'] = backup;
+                michal['isSynced'] = vacuum;
+                michal['defaultIndex'] = source;
+                michal['deviceWidth'] = echoed;
+                michal['animatedStyles'] = update;
+                michal['hasMidnightNux'] = sizing;
                 michal['onThemeSelected'] = romeon;
                 offset = option.bind(tangon)(zuuluu, michal);
  1885:
@@ -1391,10 +1391,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure1_slot12;
                         tangon = michal.LIGHT;
                         michal = 'light-content';
-                        if(!(entity === tangon)) { _fun00028_ip = 153; continue _fun00027 }
- 147:
+                        if(!(entity === tangon)) { _fun00028_ip = 152; continue _fun00027 }
+ 146:
                         michal = 'dark-content';
- 153:
+ 152:
                         entity = undefined;
                         michal = zuuluu.bind(entity)(michal);
                         return entity;
@@ -1408,13 +1408,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = entity[zuuluu];
                 oscard = michal.bind(tangon)(zuuluu);
                 zuuluu = new Array(0);
-                update = golfie.bind(option)(oscard, zuuluu);
-                oscard = _closure1_slot0;
-                zuuluu = 43;
-                zuuluu = entity[zuuluu];
-                oscard = oscard.bind(tangon)(zuuluu);
-                zuuluu = oscard.useIsPremiumClientThemesUpsellEnabled;
-                backup = zuuluu.bind(oscard)();
+                echoed = golfie.bind(option)(oscard, zuuluu);
                 zuuluu = _closure1_slot14;
                 entity = entity[report];
                 entity = michal.bind(tangon)(entity);
@@ -1423,21 +1417,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = new Array(2);
                 oscard = {'width': '100%', 'height': '100%'};
                 report[0] = oscard;
-                oscard = !echoed;
-                if(echoed) { _fun00006_ip = 2038; continue _fun00005 }
- 2032:
-                oscard = source.bgBasePrimary;
- 2038:
+                oscard = !backup;
+                if(backup) { _fun00006_ip = 2012; continue _fun00005 }
+ 2006:
+                oscard = update.bgBasePrimary;
+ 2012:
                 report[1] = oscard;
                 entity['style'] = report;
                 sizing = null;
                 oscard = null;
-                if(!echoed) { _fun00006_ip = 2102; continue _fun00005 }
- 2053:
+                if(!backup) { _fun00006_ip = 2076; continue _fun00005 }
+ 2027:
                 option = _closure1_slot13;
                 golfie = _closure1_slot1;
                 romeon = _closure1_slot2;
-                report = 44;
+                report = 43;
                 report = romeon[report];
                 golfie = golfie.bind(tangon)(report);
                 report = {};
@@ -1446,19 +1440,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = true;
                 report['isDimmed'] = romeon;
                 oscard = option.bind(tangon)(golfie, report);
- 2102:
+ 2076:
                 report = new Array(2);
                 report[0] = oscard;
                 option = _closure1_slot14;
                 golfie = _closure1_slot0;
-                ctrled = _closure1_slot2;
-                oscard = 45;
-                oscard = ctrled[oscard];
+                source = _closure1_slot2;
+                oscard = 44;
+                oscard = source[oscard];
                 oscard = golfie.bind(tangon)(oscard);
                 golfie = oscard.SafeAreaPaddingView;
                 oscard = {};
-                sequen = true;
-                oscard['bottom'] = sequen;
+                vacuum = true;
+                oscard['bottom'] = vacuum;
                 romeon = yankee.container;
                 yankee = new Array(2);
                 yankee[0] = romeon;
@@ -1468,39 +1462,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard['style'] = yankee;
                 foxtra = _closure1_slot13;
                 romeon = _closure1_slot1;
-                verify = 46;
-                verify = ctrled[verify];
+                verify = 45;
+                verify = source[verify];
                 yankee = romeon.bind(tangon)(verify);
                 verify = {};
-                verify['animated'] = sequen;
-                verify['barStyle'] = vacuum;
+                verify['animated'] = vacuum;
+                verify['barStyle'] = ctrled;
                 yankee = foxtra.bind(tangon)(yankee, verify);
                 verify = new Array(3);
                 verify[0] = yankee;
-                yankee = 47;
-                yankee = ctrled[yankee];
+                yankee = 46;
+                yankee = source[yankee];
                 romeon = romeon.bind(tangon)(yankee);
                 yankee = {};
                 yankee['themes'] = output;
                 yankee['themeIndex'] = kiloes;
-                yankee['animatedStyles'] = source;
-                yankee['data'] = update;
-                yankee['useGradientBackground'] = echoed;
-                backup = !backup;
-                if(!backup) { _fun00006_ip = 2268; continue _fun00005 }
- 2265:
-                backup = echoed;
- 2268:
-                if(!backup) { _fun00006_ip = 2274; continue _fun00005 }
- 2271:
+                yankee['animatedStyles'] = update;
+                yankee['data'] = echoed;
+                yankee['useGradientBackground'] = backup;
+                if(!backup) { _fun00006_ip = 2239; continue _fun00005 }
+ 2236:
                 backup = result;
- 2274:
-                if(!backup) { _fun00006_ip = 2290; continue _fun00005 }
- 2277:
+ 2239:
+                if(!backup) { _fun00006_ip = 2255; continue _fun00005 }
+ 2242:
                 kiloes = output[kiloes];
                 kiloes = kiloes.colors;
                 backup = sizing != kiloes;
- 2290:
+ 2255:
                 yankee['isNitroLocked'] = backup;
                 yankee = foxtra.bind(tangon)(romeon, yankee);
                 verify[1] = yankee;
@@ -1514,7 +1503,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             }
         };
         var _closure1_slot36 = tangon;
-        tangon = 48;
+        tangon = 47;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;

@@ -3,7 +3,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
         report = argBar;
-        verify = argBaz;
+        golfie = argBaz;
         zuuluu = argFre;
         oscard = argPlu;
         entity = function() { // Original name: _isNativeReflectConstruct
@@ -45,51 +45,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         var _closure1_slot5 = entity;
-        golfie = global;
-        offset = golfie.Object;
-        option = offset.defineProperty;
+        tangon = global;
+        offset = tangon.Object;
+        verify = offset.defineProperty;
         michal = {};
         entity = true;
         michal['value'] = entity;
         entity = '__esModule';
-        entity = option.bind(offset)(zuuluu, entity, michal);
+        entity = verify.bind(offset)(zuuluu, entity, michal);
         entity = 0;
         michal = oscard[entity];
         entity = undefined;
-        michal = verify.bind(entity)(michal);
+        michal = golfie.bind(entity)(michal);
         var _closure1_slot0 = michal;
         michal = 1;
         michal = oscard[michal];
-        michal = verify.bind(entity)(michal);
+        michal = golfie.bind(entity)(michal);
         var _closure1_slot1 = michal;
         michal = 2;
         michal = oscard[michal];
-        michal = verify.bind(entity)(michal);
+        michal = golfie.bind(entity)(michal);
         var _closure1_slot2 = michal;
         michal = 3;
         michal = oscard[michal];
-        michal = verify.bind(entity)(michal);
+        michal = golfie.bind(entity)(michal);
         var _closure1_slot3 = michal;
         michal = 4;
         michal = oscard[michal];
-        michal = verify.bind(entity)(michal);
+        michal = golfie.bind(entity)(michal);
         var _closure1_slot4 = michal;
         michal = 5;
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
-        offset = michal.KvStore;
+        verify = michal.KvStore;
         michal = 6;
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
-        option = michal.Logger;
-        michal = option.prototype;
-        yankee = Object.create(michal, {constructor: {value: option}});
+        golfie = michal.Logger;
+        michal = golfie.prototype;
+        offset = Object.create(michal, {constructor: {value: golfie}});
         michal = 'NoteStore';
-        output = yankee;
-        sizing = michal;
-        option = new output[option](sizing, kiloes);
-        yankee = option instanceof Object ? option : yankee;
-        option = function(argFoo) {
+        sizing = offset;
+        kiloes = michal;
+        golfie = new sizing[golfie](kiloes, backup);
+        offset = golfie instanceof Object ? golfie : offset;
+        golfie = function(argFoo) {
             tangon = function() { // Original name: NoteStore
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -135,20 +135,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = 'getNote';
             report['key'] = oscard;
             entity = function(argFoo) { // Original name: value
-                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-                    entity = this;
-                    michal = entity.kv;
-                    entity = argFoo;
-                    michal = michal[entity];
-                    entity = null;
-                    zuuluu = entity != michal;
-                    if(!zuuluu) { _fun00008_ip = 28; continue _fun00007 }
- 25:
-                    entity = michal;
- 28:
-                    return entity;
-                }
+                zuuluu = this;
+                michal = zuuluu.get;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
             };
             report['value'] = entity;
             entity = new Array(1);
@@ -156,86 +147,78 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         };
-        option = option.bind(entity)(offset);
-        option['displayName'] = michal;
-        offset = yankee.info;
+        golfie = golfie.bind(entity)(verify);
+        golfie['displayName'] = michal;
+        verify = offset.info;
         michal = 7;
-        romeon = oscard[michal];
-        romeon = report.bind(entity)(romeon);
-        foxtra = romeon.NoteStoreExperiment;
-        romeon = foxtra.cachedIsEnabled;
-        foxtra = romeon.bind(foxtra)();
-        golfie = golfie.HermesInternal;
-        romeon = golfie.concat;
-        golfie = 'libdiscore enabled: ';
-        golfie = romeon.bind(golfie)(foxtra);
-        golfie = offset.bind(yankee)(golfie);
-        golfie = 8;
-        golfie = oscard[golfie];
-        golfie = verify.bind(entity)(golfie);
+        yankee = oscard[michal];
+        yankee = report.bind(entity)(yankee);
+        romeon = yankee.NoteStoreExperiment;
+        yankee = romeon.cachedIsEnabled;
+        romeon = yankee.bind(romeon)();
+        tangon = tangon.HermesInternal;
+        yankee = tangon.concat;
+        tangon = 'libdiscore enabled: ';
+        tangon = yankee.bind(tangon)(romeon);
+        tangon = verify.bind(offset)(tangon);
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
-        verify = michal.NoteStoreExperiment;
-        michal = verify.cachedIsEnabled;
-        verify = michal.bind(verify)();
+        tangon = michal.NoteStoreExperiment;
+        michal = tangon.cachedIsEnabled;
+        tangon = michal.bind(tangon)();
         michal = undefined;
-        if(verify) { _fun00002_ip = 325; continue _fun00001 }
- 320:
-        michal = function(argFoo) {
-            entity = argFoo;
-            var _closure2_slot0 = entity;
-            entity = {};
-            zuuluu = function() { // Original name: CONNECTION_OPEN
-                michal = _closure2_slot0;
-                entity = michal.reset;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            entity['CONNECTION_OPEN'] = zuuluu;
-            zuuluu = function() { // Original name: OVERLAY_INITIALIZE
-                michal = _closure2_slot0;
-                entity = michal.reset;
-                entity = entity.bind(michal)();
-                return entity;
-            };
-            entity['OVERLAY_INITIALIZE'] = zuuluu;
-            zuuluu = function(argFoo) { // Original name: USER_NOTE_UPDATE
-                report = argFoo;
-                tangon = _closure2_slot0;
-                zuuluu = tangon.set;
-                michal = report.id;
-                entity = {};
-                oscard = false;
-                entity['loading'] = oscard;
-                report = report.note;
-                entity['note'] = report;
-                entity = zuuluu.bind(tangon)(michal, entity);
-                entity = undefined;
-                return entity;
-            };
-            entity['USER_NOTE_UPDATE'] = zuuluu;
-            michal = function(argFoo) { // Original name: USER_NOTE_LOAD_START
-                tangon = _closure2_slot0;
-                zuuluu = tangon.set;
-                entity = argFoo;
-                michal = entity.userId;
-                entity = {'loading': true, 'note': null};
-                entity = zuuluu.bind(tangon)(michal, entity);
-                entity = undefined;
-                return entity;
-            };
-            entity['USER_NOTE_LOAD_START'] = michal;
+        if(tangon) { _fun00002_ip = 357; continue _fun00001 }
+ 308:
+        tangon = {};
+        verify = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
+            michal = argBar;
+            entity = michal.reset;
+            entity = entity.bind(michal)();
             return entity;
         };
- 325:
-        tangon = option.prototype;
-        tangon = Object.create(tangon, {constructor: {value: option}});
-        output = tangon;
-        sizing = golfie;
+        tangon['CONNECTION_OPEN'] = verify;
+        verify = function(argFoo, argBar) { // Original name: OVERLAY_INITIALIZE
+            michal = argBar;
+            entity = michal.reset;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        tangon['OVERLAY_INITIALIZE'] = verify;
+        verify = function(argFoo, argBar) { // Original name: USER_NOTE_UPDATE
+            report = argFoo;
+            tangon = argBar;
+            zuuluu = tangon.set;
+            michal = report.id;
+            entity = {};
+            oscard = false;
+            entity['loading'] = oscard;
+            report = report.note;
+            entity['note'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = undefined;
+            return entity;
+        };
+        tangon['USER_NOTE_UPDATE'] = verify;
+        option = function(argFoo, argBar) { // Original name: USER_NOTE_LOAD_START
+            tangon = argBar;
+            zuuluu = tangon.set;
+            entity = argFoo;
+            michal = entity.userId;
+            entity = {'loading': true, 'note': null};
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = undefined;
+            return entity;
+        };
+        tangon['USER_NOTE_LOAD_START'] = option;
+        michal = tangon;
+ 357:
+        tangon = golfie.prototype;
+        tangon = Object.create(tangon, {constructor: {value: golfie}});
+        sizing = tangon;
         kiloes = michal;
-        michal = new output[option](sizing, kiloes, backup);
+        michal = new sizing[golfie](kiloes, backup);
         michal = michal instanceof Object ? michal : tangon;
-        tangon = 9;
+        tangon = 8;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;

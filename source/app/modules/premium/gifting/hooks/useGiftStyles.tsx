@@ -19,11 +19,9 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     golfie = tangon.STANDARD_GIFT_OPTIONS;
     var _closure1_slot2 = golfie;
-    golfie = tangon.NITROWEEN_GIFT_OPTIONS;
-    var _closure1_slot3 = golfie;
     tangon = tangon.SEASONAL_GIFT_OPTIONS;
-    var _closure1_slot4 = tangon;
-    tangon = 3;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -32,36 +30,19 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = _closure1_slot0;
-            oscard = _closure1_slot1;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             entity = 1;
-            entity = oscard[entity];
-            zuuluu = undefined;
-            entity = report.bind(zuuluu)(entity);
-            option = entity.HalloweenNitroGiftingCampaign;
-            golfie = option.useExperiment;
-            tangon = {};
-            entity = 'useGiftStyles';
-            tangon['location'] = entity;
-            entity = {};
-            verify = false;
-            entity['autoTrackExposure'] = verify;
-            entity = golfie.bind(option)(tangon, entity);
-            tangon = entity.enabled;
-            entity = 2;
-            entity = oscard[entity];
-            zuuluu = report.bind(zuuluu)(entity);
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            zuuluu = tangon.bind(entity)(zuuluu);
             entity = zuuluu.useIsInSeasonalGiftingXPAndSeasonalGiftingActive;
             zuuluu = entity.bind(zuuluu)();
             entity = _closure1_slot2;
-            if(!tangon) { _fun00002_ip = 100; continue _fun00001 }
- 96:
+            if(!zuuluu) { _fun00002_ip = 46; continue _fun00001 }
+ 42:
             entity = _closure1_slot3;
- 100:
-            if(!zuuluu) { _fun00002_ip = 107; continue _fun00001 }
- 103:
-            entity = _closure1_slot4;
- 107:
+ 46:
             return entity;
         }
     };

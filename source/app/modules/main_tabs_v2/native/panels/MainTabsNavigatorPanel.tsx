@@ -494,8 +494,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  709:
             michal['openWidth'] = oscard;
             oscard = report.bind(tangon)(michal);
-            report = oscard.gesture;
-            golfie = oscard.panelGestureContext;
+            golfie = oscard.gesture;
+            report = oscard.panelGestureContext;
             source = oscard.isDragging;
             ctrled = oscard.translateX;
             var _closure2_slot16 = ctrled;
@@ -800,12 +800,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             kiloes = oscard.bind(option)(michal, zuuluu);
-            michal = _closure1_slot0;
+            oscard = _closure1_slot0;
             target = _closure1_slot2;
             offset = 20;
-            zuuluu = target[offset];
-            oscard = michal.bind(tangon)(zuuluu);
-            zuuluu = oscard.useAnimatedStyle;
+            michal = target[offset];
+            zuuluu = oscard.bind(tangon)(michal);
+            michal = zuuluu.useAnimatedStyle;
             entity = function() { // Original name: re
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
@@ -830,26 +830,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__workletHash'] = option;
             option = _closure1_slot14;
             entity['__initData'] = option;
-            papara = zuuluu.bind(oscard)(entity);
+            papara = michal.bind(zuuluu)(entity);
             foxtra = _closure1_slot1;
             entity = 21;
             entity = target[entity];
-            zuuluu = foxtra.bind(tangon)(entity);
+            michal = foxtra.bind(tangon)(entity);
             entity = 'channel_list_scrim';
-            cntext = zuuluu.bind(tangon)(entity);
+            cntext = michal.bind(tangon)(entity);
             zuuluu = _closure1_slot10;
             entity = 22;
             entity = target[entity];
-            entity = michal.bind(tangon)(entity);
-            michal = entity.GestureDetector;
+            entity = foxtra.bind(tangon)(entity);
+            michal = entity.Provider;
             entity = {};
-            entity['gesture'] = report;
+            entity['value'] = report;
             report = 23;
             report = target[report];
-            report = foxtra.bind(tangon)(report);
-            oscard = report.Provider;
+            report = oscard.bind(tangon)(report);
+            oscard = report.GestureDetector;
             report = {};
-            report['value'] = golfie;
+            report['gesture'] = golfie;
             verify = _closure1_slot11;
             option = _closure1_slot5;
             golfie = {};

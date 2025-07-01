@@ -136,15 +136,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = true;
  38:
             zuuluu = _closure1_slot12;
-            if(!(zuuluu === tangon)) { _fun00008_ip = 217; continue _fun00007 }
+            if(!(zuuluu === tangon)) { _fun00008_ip = 199; continue _fun00007 }
  49:
-            zuuluu = global;
-            oscard = zuuluu.Object;
-            tangon = oscard.values;
-            golfie = _closure1_slot10;
-            zuuluu = golfie.getGuilds;
-            zuuluu = zuuluu.bind(golfie)();
-            tangon = tangon.bind(oscard)(zuuluu);
+            tangon = _closure1_slot10;
+            zuuluu = tangon.getGuildsArray;
+            tangon = zuuluu.bind(tangon)();
             zuuluu = tangon.find;
             michal = function(argFoo) {
                 entity = argFoo;
@@ -155,8 +151,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00008_ip = 153; continue _fun00007 }
- 102:
+            if(!(zuuluu == michal)) { _fun00008_ip = 135; continue _fun00007 }
+ 84:
             _closure1_slot12 = zuuluu;
             oscard = _closure1_slot0;
             tangon = _closure1_slot1;
@@ -169,8 +165,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.ME;
             zuuluu = tangon.bind(oscard)(zuuluu);
             entity = true;
-            _fun00008_ip = 217; continue _fun00007;
- 153:
+            _fun00008_ip = 199; continue _fun00007;
+ 135:
             zuuluu = michal.id;
             _closure1_slot12 = zuuluu;
             oscard = _closure1_slot0;
@@ -186,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report.bind(oscard)(michal);
             michal = zuuluu.bind(tangon)(michal);
             entity = true;
- 217:
+ 199:
             return entity;
         }
     };

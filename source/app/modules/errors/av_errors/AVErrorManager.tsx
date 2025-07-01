@@ -427,8 +427,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = entity.updateActiveErrors;
                 michal['RTC_CONNECTION_UPDATE_ID'] = zuuluu;
                 zuuluu = entity.updateActiveErrors;
-                michal['RTC_CONNECTION_USER_CREATE'] = zuuluu;
-                zuuluu = entity.updateActiveErrors;
                 michal['RTC_CONNECTION_VIDEO'] = zuuluu;
                 zuuluu = entity.updateActiveErrors;
                 michal['RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS'] = zuuluu;

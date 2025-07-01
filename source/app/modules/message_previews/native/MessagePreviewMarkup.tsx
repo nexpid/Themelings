@@ -160,7 +160,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['value'] = entity;
     entity = '__esModule';
     entity = yankee.bind(romeon)(zuuluu, entity, tangon);
-    entity = 6;
+    entity = 7;
     tangon = offset[entity];
     entity = undefined;
     yankee = option.bind(entity)(tangon);
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = new sizing[yankee](kiloes, backup);
     tangon = tangon instanceof Object ? tangon : option;
     var _closure1_slot3 = tangon;
-    option = 7;
+    option = 8;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
@@ -188,7 +188,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argFoo;
             romeon = tangon.content;
             michal = tangon.muted;
-            verify = tangon.guildId;
+            offset = tangon.guildId;
             entity = tangon.channelId;
             golfie = tangon.layout;
             zuuluu = undefined;
@@ -204,10 +204,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  71:
             oscard = tangon.color;
             yankee = tangon.postProcessor;
-            offset = tangon.disableAnimatedEmoji;
-            if(!(offset === zuuluu)) { _fun00004_ip = 94; continue _fun00003 }
+            backup = tangon.disableAnimatedEmoji;
+            if(!(backup === zuuluu)) { _fun00004_ip = 94; continue _fun00003 }
  92:
-            offset = true;
+            backup = true;
  94:
             report = tangon.fontScale;
             if(!(report === zuuluu)) { _fun00004_ip = 107; continue _fun00003 }
@@ -216,22 +216,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  107:
             tangon = tangon.maxFontSizeMultiplier;
             option = '';
-            if(!(option !== romeon)) { _fun00004_ip = 278; continue _fun00003 }
+            if(!(option !== romeon)) { _fun00004_ip = 340; continue _fun00003 }
  124:
-            option = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': null, 'unknownUserMentionPlaceholder': true};
-            foxtra = new Array(0);
-            option['mentionChannels'] = foxtra;
-            foxtra = new Array(0);
-            option['soundboardSounds'] = foxtra;
-            option['disableAnimatedEmoji'] = offset;
-            option['guildId'] = verify;
+            option = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'allowGameMentions': null, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
+            foxtra = true;
+            verify = new Array(0);
+            option['mentionChannels'] = verify;
+            verify = new Array(0);
+            option['soundboardSounds'] = verify;
+            sizing = _closure1_slot0;
+            output = _closure1_slot2;
+            kiloes = 6;
+            kiloes = output[kiloes];
+            kiloes = sizing.bind(zuuluu)(kiloes);
+            output = kiloes.GameMentionsUserExperiment;
+            sizing = output.getCurrentConfig;
+            kiloes = {};
+            result = 'message preview';
+            kiloes['location'] = result;
+            kiloes = sizing.bind(output)(kiloes);
+            kiloes = kiloes.enabled;
+            option['allowGameMentions'] = kiloes;
+            option['disableAnimatedEmoji'] = backup;
+            option['unknownUserMentionPlaceholder'] = foxtra;
+            option['guildId'] = offset;
             option['channelId'] = entity;
             entity = null;
             entity = entity != michal;
-            if(!entity) { _fun00004_ip = 184; continue _fun00003 }
- 181:
+            if(!entity) { _fun00004_ip = 249; continue _fun00003 }
+ 246:
             entity = michal;
- 184:
+ 249:
             option['muted'] = entity;
             michal = _closure1_slot5;
             entity = {};
@@ -253,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['maxFontSizeMultiplier'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 278:
+ 340:
             entity = null;
             return entity;
         }

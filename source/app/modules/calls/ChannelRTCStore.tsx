@@ -600,12 +600,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot33;
             zuuluu = michal[report];
             michal = null;
-            if(!(michal == zuuluu)) { _fun00028_ip = 38; continue _fun00027 }
+            if(!(michal == zuuluu)) { _fun00028_ip = 42; continue _fun00027 }
  20:
             zuuluu = _closure1_slot33;
             michal = {'gridDurationMs': 0, 'focusDurationMs': 0, 'toggleCount': 0, 'lastUpdate': 0};
             zuuluu[report] = michal;
- 38:
+ 42:
             michal = _closure1_slot33;
             zuuluu = michal[report];
             michal = global;
@@ -617,19 +617,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(entity)(report);
             oscard = zuuluu.lastUpdate;
             report = 0;
-            if(!(oscard > report)) { _fun00028_ip = 119; continue _fun00027 }
- 86:
+            if(!(oscard > report)) { _fun00028_ip = 123; continue _fun00027 }
+ 90:
             report = zuuluu.lastUpdate;
             oscard = michal - report;
             report = 'gridDurationMs';
-            if(!tangon) { _fun00028_ip = 107; continue _fun00027 }
- 103:
-            report = 'focusDurationMs';
+            if(!tangon) { _fun00028_ip = 111; continue _fun00027 }
  107:
+            report = 'focusDurationMs';
+ 111:
             tangon = zuuluu[report];
             tangon = tangon + oscard;
             zuuluu[report] = tangon;
- 119:
+ 123:
             zuuluu['lastUpdate'] = michal;
             return entity;
         }

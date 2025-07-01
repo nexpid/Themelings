@@ -544,39 +544,71 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     }
                 };
-                michal = function() {
-                    michal = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    entity = 13;
-                    entity = verify[entity];
-                    option = undefined;
-                    zuuluu = michal.bind(option)(entity);
-                    michal = zuuluu.show;
-                    entity = {};
-                    golfie = _closure1_slot0;
-                    tangon = 7;
-                    report = verify[tangon];
-                    report = golfie.bind(option)(report);
-                    offset = report.intl;
-                    oscard = offset.string;
-                    report = verify[tangon];
-                    report = golfie.bind(option)(report);
-                    report = report.t;
-                    report = report.OjbtDg;
-                    report = oscard.bind(offset)(report);
-                    entity['title'] = report;
-                    report = verify[tangon];
-                    report = golfie.bind(option)(report);
-                    oscard = report.intl;
-                    report = oscard.string;
-                    tangon = verify[tangon];
-                    tangon = golfie.bind(option)(tangon);
-                    tangon = tangon.t;
-                    tangon = tangon.0F5Jys;
-                    tangon = report.bind(oscard)(tangon);
-                    entity['body'] = tangon;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
+                michal = function(argFoo) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                        zuuluu = argFoo;
+                        tangon = null;
+                        michal = tangon == zuuluu;
+                        entity = undefined;
+                        report = undefined;
+                        if(michal) { _fun00006_ip = 21; continue _fun00005 }
+ 16:
+                        report = zuuluu.message;
+ 21:
+                        if(report) { _fun00006_ip = 55; continue _fun00005 }
+ 24:
+                        oscard = tangon == zuuluu;
+                        michal = undefined;
+                        if(oscard) { _fun00006_ip = 52; continue _fun00005 }
+ 33:
+                        zuuluu = zuuluu.body;
+                        tangon = tangon == zuuluu;
+                        michal = undefined;
+                        if(tangon) { _fun00006_ip = 52; continue _fun00005 }
+ 47:
+                        michal = zuuluu.message;
+ 52:
+                        report = michal;
+ 55:
+                        if(report) { _fun00006_ip = 116; continue _fun00005 }
+ 58:
+                        oscard = _closure1_slot0;
+                        golfie = _closure1_slot2;
+                        michal = 7;
+                        zuuluu = golfie[michal];
+                        zuuluu = oscard.bind(entity)(zuuluu);
+                        tangon = zuuluu.intl;
+                        zuuluu = tangon.string;
+                        michal = golfie[michal];
+                        michal = oscard.bind(entity)(michal);
+                        michal = michal.t;
+                        michal = michal.0F5Jys;
+                        report = zuuluu.bind(tangon)(michal);
+ 116:
+                        zuuluu = _closure1_slot1;
+                        offset = _closure1_slot2;
+                        michal = 13;
+                        michal = offset[michal];
+                        tangon = zuuluu.bind(entity)(michal);
+                        zuuluu = tangon.show;
+                        michal = {};
+                        verify = _closure1_slot0;
+                        oscard = 7;
+                        golfie = offset[oscard];
+                        golfie = verify.bind(entity)(golfie);
+                        option = golfie.intl;
+                        golfie = option.string;
+                        oscard = offset[oscard];
+                        oscard = verify.bind(entity)(oscard);
+                        oscard = oscard.t;
+                        oscard = oscard.OjbtDg;
+                        oscard = golfie.bind(option)(oscard);
+                        michal['title'] = oscard;
+                        michal['body'] = report;
+                        michal = zuuluu.bind(tangon)(michal);
+                        return entity;
+                    }
                 };
                 zuuluu = tangon.bind(report)(zuuluu, michal);
                 michal = zuuluu.finally;

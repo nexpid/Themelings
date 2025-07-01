@@ -50,7 +50,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
         tangon = zuuluu.bind(report)(michal);
         michal = null;
         zuuluu = michal != entity;
-        michal = 'user has signed in before accessing shop';
+        michal = 'user has to be signed in before accessing shop';
         michal = tangon.bind(report)(zuuluu, michal);
         return entity;
     };

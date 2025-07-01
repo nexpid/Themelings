@@ -180,7 +180,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.spamCount;
             if(!(verify === golfie)) { _fun00004_ip = 75; continue _fun00003 }
  68:
-            if(!(verify !== zuuluu)) { _fun00004_ip = 648; continue _fun00003 }
+            if(!(verify !== zuuluu)) { _fun00004_ip = 655; continue _fun00003 }
  75:
             if(michal) { _fun00004_ip = 246; continue _fun00003 }
  81:
@@ -240,8 +240,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot9;
             oscard = oscard.buttonContainer;
             michal['style'] = oscard;
-            if(!(entity == backup)) { _fun00004_ip = 431; continue _fun00003 }
- 295:
+            oscard = false;
+            michal['collapsable'] = oscard;
+            if(!(entity == backup)) { _fun00004_ip = 438; continue _fun00003 }
+ 302:
             yankee = _closure1_slot7;
             output = _closure1_slot0;
             result = _closure1_slot2;
@@ -270,8 +272,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = foxtra;
             romeon = copyDataProperties(ctrled, source);
             offset = yankee.bind(report)(offset, oscard);
-            _fun00004_ip = 570; continue _fun00003;
- 431:
+            _fun00004_ip = 577; continue _fun00003;
+ 438:
             romeon = _closure1_slot7;
             output = _closure1_slot0;
             result = _closure1_slot2;
@@ -305,12 +307,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = foxtra;
             foxtra = copyDataProperties(ctrled, source);
             offset = romeon.bind(report)(yankee, oscard);
- 570:
+ 577:
             oscard = new Array(2);
             oscard[0] = offset;
             golfie = golfie > verify;
-            if(!golfie) { _fun00004_ip = 632; continue _fun00003 }
- 585:
+            if(!golfie) { _fun00004_ip = 639; continue _fun00003 }
+ 592:
             offset = _closure1_slot7;
             verify = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -322,12 +324,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = 'right';
             option['badgePosition'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 632:
+ 639:
             oscard[1] = golfie;
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 648:
+ 655:
             return entity;
         }
     };

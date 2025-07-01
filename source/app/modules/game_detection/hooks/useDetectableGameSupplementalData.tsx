@@ -1,39 +1,67 @@
 // app/modules/game_detection/hooks/useDetectableGameSupplementalData.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
+    oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
+    tangon = function(argFoo) { // Original name: useRequestDetectableGameSupplementalData
+        report = argFoo;
+        var _closure2_slot0 = report;
+        tangon = _closure1_slot5;
+        zuuluu = tangon.useEffect;
+        michal = new Array(1);
+        michal[0] = report;
+        entity = function() {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                zuuluu = _closure2_slot0;
+                michal = null;
+                if(!(michal != zuuluu)) { _fun00002_ip = 35; continue _fun00001 }
+ 13:
+                zuuluu = _closure1_slot7;
+                michal = zuuluu.request;
+                entity = _closure2_slot0;
+                entity = michal.bind(zuuluu)(entity);
+ 35:
+                entity = undefined;
+                return entity;
+            }
+        };
+        entity = zuuluu.bind(tangon)(entity, michal);
+        entity = undefined;
+        return entity;
+    };
+    var _closure1_slot8 = tangon;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    tangon = {};
+    offset = entity.Object;
+    verify = offset.defineProperty;
+    report = {};
     entity = true;
-    tangon['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, tangon);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    tangon = oscard[entity];
+    report = golfie[entity];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    option = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(option);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = function() {
+    report = option.bind(entity)(report);
+    var _closure1_slot3 = report;
+    report = 1;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot4 = report;
+    report = 2;
+    verify = golfie[report];
+    report = argCor;
+    report = report.bind(entity)(verify);
+    var _closure1_slot5 = report;
+    report = 3;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot6 = report;
+    report = function() {
         tangon = _closure1_slot4;
         zuuluu = function() { // Original name: DetectableGameSupplementalFetchManager
             zuuluu = this;
@@ -65,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.DelayedCall;
             tangon = oscard.prototype;
             tangon = Object.create(tangon, {constructor: {value: oscard}});
-            verify = 0;
+            verify = 32;
             option = function() {
                 michal = _closure3_slot0;
                 entity = michal._flush;
@@ -83,20 +111,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = 'request';
         entity['key'] = michal;
         michal = function(argFoo) { // Original name: value
-            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 tangon = argFoo;
                 entity = this;
                 zuuluu = entity._pending;
                 michal = zuuluu.has;
                 michal = michal.bind(zuuluu)(tangon);
-                if(michal) { _fun00002_ip = 41; continue _fun00001 }
+                if(michal) { _fun00004_ip = 41; continue _fun00003 }
  25:
                 report = entity._fetched;
                 zuuluu = report.has;
                 michal = zuuluu.bind(report)(tangon);
  41:
-                if(michal) { _fun00002_ip = 79; continue _fun00001 }
+                if(michal) { _fun00004_ip = 79; continue _fun00003 }
  44:
                 zuuluu = entity._pending;
                 michal = zuuluu.add;
@@ -170,46 +198,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;
     };
-    tangon = tangon.bind(entity)();
-    golfie = tangon.prototype;
-    golfie = Object.create(golfie, {constructor: {value: tangon}});
-    foxtra = golfie;
-    tangon = new foxtra[tangon](romeon);
-    tangon = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot7 = tangon;
-    tangon = 8;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/game_detection/hooks/useDetectableGameSupplementalData.tsx';
-    tangon = report.bind(oscard)(tangon);
+    report = report.bind(entity)();
+    option = report.prototype;
+    option = Object.create(option, {constructor: {value: report}});
+    backup = option;
+    report = new backup[report](foxtra);
+    report = report instanceof Object ? report : option;
+    var _closure1_slot7 = report;
+    report = 8;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/game_detection/hooks/useDetectableGameSupplementalData.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['useRequestDetectableGameSupplementalData'] = tangon;
     michal = function(argFoo, argBar) { // Original name: useDetectableGameSupplementalData
-        tangon = argFoo;
+        oscard = argFoo;
         zuuluu = argBar;
-        var _closure2_slot0 = tangon;
+        var _closure2_slot0 = oscard;
         var _closure2_slot1 = zuuluu;
-        oscard = _closure1_slot5;
-        golfie = oscard.useEffect;
-        report = new Array(1);
-        report[0] = tangon;
-        tangon = function() {
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                zuuluu = _closure2_slot0;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00004_ip = 35; continue _fun00003 }
- 13:
-                zuuluu = _closure1_slot7;
-                michal = zuuluu.request;
-                entity = _closure2_slot0;
-                entity = michal.bind(zuuluu)(entity);
- 35:
-                entity = undefined;
-                return entity;
-            }
-        };
-        tangon = golfie.bind(oscard)(tangon, report);
-        report = oscard.useMemo;
+        tangon = _closure1_slot8;
+        report = undefined;
+        tangon = tangon.bind(report)(oscard);
+        golfie = _closure1_slot5;
+        oscard = golfie.useMemo;
         tangon = new Array(1);
         tangon[0] = zuuluu;
         zuuluu = function() {
@@ -232,14 +244,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu = report.bind(oscard)(zuuluu, tangon);
+        zuuluu = oscard.bind(golfie)(zuuluu, tangon);
         var _closure2_slot2 = zuuluu;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
+        tangon = _closure1_slot0;
+        oscard = _closure1_slot2;
         zuuluu = 7;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = oscard[zuuluu];
+        tangon = tangon.bind(report)(zuuluu);
         zuuluu = tangon.useStateFromStoresObject;
         report = _closure1_slot6;
         michal = new Array(1);

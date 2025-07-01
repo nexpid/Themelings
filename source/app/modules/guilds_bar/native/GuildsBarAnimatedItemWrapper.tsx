@@ -573,7 +573,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot6 = target;
             result = option.styles;
             var _closure2_slot7 = result;
-            sizing = option.accessibilityActions;
+            kiloes = option.accessibilityActions;
             yankee = option.onAccessibilityAction;
             report = option.preventClipping;
             if(!(report === tangon)) { _fun00012_ip = 179; continue _fun00011 }
@@ -594,16 +594,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot10 = tangon;
             source = _closure1_slot1;
             cntext = _closure1_slot2;
-            kiloes = 11;
-            kiloes = cntext[kiloes];
-            kiloes = source.bind(tangon)(kiloes);
-            source = kiloes.bind(tangon)(output);
+            sizing = 11;
+            sizing = cntext[sizing];
+            sizing = source.bind(tangon)(sizing);
+            source = sizing.bind(tangon)(output);
             sequen = _closure1_slot0;
-            kiloes = 9;
-            kiloes = cntext[kiloes];
-            papara = sequen.bind(tangon)(kiloes);
-            output = papara.useAnimatedProps;
-            kiloes = function() { // Original name: W
+            sizing = 9;
+            sizing = cntext[sizing];
+            papara = sequen.bind(tangon)(sizing);
+            output = papara.useAnimatedStyle;
+            sizing = function() { // Original name: W
                 _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     entity = {};
@@ -644,12 +644,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora['GUILD_ITEM_SIZE'] = whisks;
             whisks = _closure1_slot11;
             limora['CORNER_SPRING_PHYSICS'] = whisks;
-            kiloes['__closure'] = limora;
+            sizing['__closure'] = limora;
             limora = 11828610342492.0;
-            kiloes['__workletHash'] = limora;
+            sizing['__workletHash'] = limora;
             limora = _closure1_slot17;
-            kiloes['__initData'] = limora;
-            kiloes = output.bind(papara)(kiloes);
+            sizing['__initData'] = limora;
+            sizing = output.bind(papara)(sizing);
             output = 12;
             output = cntext[output];
             cntext = sequen.bind(tangon)(output);
@@ -862,16 +862,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 'collapsable';
             report[verify] = update;
             verify = 'accessibilityActions';
-            report[verify] = sizing;
+            report[verify] = kiloes;
             verify = 'onAccessibilityAction';
             report[verify] = yankee;
             verify = new Array(3);
             verify[0] = offset;
             source = _closure1_slot9;
             offset = _closure1_slot0;
-            sizing = _closure1_slot2;
+            kiloes = _closure1_slot2;
             yankee = 7;
-            yankee = sizing[yankee];
+            yankee = kiloes[yankee];
             yankee = offset.bind(tangon)(yankee);
             update = yankee.TransitionItem;
             yankee = {};
@@ -882,28 +882,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = yankee;
             yankee = _closure1_slot9;
             option = 15;
-            option = sizing[option];
+            option = kiloes[option];
             option = offset.bind(tangon)(option);
             offset = option.ClipViewAnimated;
             option = {};
             update = result.itemShape;
-            sizing = new Array(3);
-            sizing[0] = update;
-            sizing[1] = output;
+            kiloes = new Array(4);
+            kiloes[0] = update;
+            kiloes[1] = output;
             output = undefined;
             if(!echoed) { _fun00012_ip = 930; continue _fun00011 }
  924:
             output = result.itemShapeSelected;
  930:
-            sizing[2] = output;
-            option['style'] = sizing;
-            option['animatedProps'] = kiloes;
+            kiloes[2] = output;
+            kiloes[3] = sizing;
+            option['style'] = kiloes;
             option['cutouts'] = backup;
             romeon = !romeon;
-            if(!romeon) { _fun00012_ip = 957; continue _fun00011 }
- 954:
+            if(!romeon) { _fun00012_ip = 956; continue _fun00011 }
+ 953:
             romeon = foxtra;
- 957:
+ 956:
             option['children'] = romeon;
             option = yankee.bind(tangon)(offset, option);
             verify[2] = option;

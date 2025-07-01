@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo, argBar) { // Original name: handleUnscannedMessages
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            verify = argFoo;
+            option = argFoo;
             tangon = argBar;
             oscard = null;
             zuuluu = tangon;
@@ -273,23 +273,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.isMessageUpdate;
             if(tangon) { _fun00008_ip = 85; continue _fun00007 }
  66:
-            oscard = verify.filter;
+            oscard = option.filter;
             tangon = _closure1_slot25;
-            tangon = oscard.bind(verify)(tangon);
-            _fun00008_ip = 138; continue _fun00007;
+            tangon = oscard.bind(option)(tangon);
+            _fun00008_ip = 117; continue _fun00007;
  85:
-            option = verify.filter;
-            offset = _closure1_slot0;
-            yankee = _closure1_slot2;
-            golfie = 16;
-            golfie = yankee[golfie];
-            golfie = offset.bind(entity)(golfie);
-            golfie = golfie.hasUnscannedMedia;
-            option = option.bind(verify)(golfie);
+            golfie = option.filter;
+            oscard = function(argFoo) {
+                zuuluu = _closure1_slot0;
+                michal = _closure1_slot2;
+                entity = 16;
+                michal = michal[entity];
+                entity = undefined;
+                zuuluu = zuuluu.bind(entity)(michal);
+                michal = zuuluu.hasUnscannedMedia;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            option = golfie.bind(option)(oscard);
             golfie = option.filter;
             oscard = _closure1_slot25;
             tangon = golfie.bind(option)(oscard);
- 138:
+ 117:
             var _closure2_slot0 = tangon;
             golfie = tangon.forEach;
             oscard = function(argFoo) {
@@ -400,8 +406,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             oscard = golfie.bind(tangon)(oscard);
-            if(report) { _fun00008_ip = 215; continue _fun00007 }
- 160:
+            if(report) { _fun00008_ip = 194; continue _fun00007 }
+ 139:
             oscard = global;
             option = oscard.Set;
             golfie = tangon.map;
@@ -410,23 +416,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.channel_id;
                 return entity;
             };
-            foxtra = golfie.bind(tangon)(oscard);
+            yankee = golfie.bind(tangon)(oscard);
             golfie = option.prototype;
             golfie = Object.create(golfie, {constructor: {value: option}});
-            backup = golfie;
-            oscard = new backup[option](foxtra, romeon);
+            romeon = golfie;
+            oscard = new romeon[option](yankee, offset);
             oscard = oscard instanceof Object ? oscard : golfie;
             golfie = oscard.size;
             oscard = 1;
             report = golfie > oscard;
- 215:
+ 194:
             var _closure2_slot1 = report;
-            if(zuuluu) { _fun00008_ip = 237; continue _fun00007 }
- 222:
+            if(zuuluu) { _fun00008_ip = 216; continue _fun00007 }
+ 201:
             zuuluu = _closure1_slot20;
             zuuluu = zuuluu.bind(entity)(tangon, report);
-            _fun00008_ip = 282; continue _fun00007;
- 237:
+            _fun00008_ip = 261; continue _fun00007;
+ 216:
             zuuluu = global;
             tangon = zuuluu.setTimeout;
             report = zuuluu.Math;
@@ -456,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = tangon.bind(entity)(michal, zuuluu);
- 282:
+ 261:
             return entity;
         }
     };
@@ -749,7 +755,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             entity = oscard[entity];
                             zuuluu = undefined;
                             michal = report.bind(zuuluu)(entity);
-                            entity = michal.hasAttachmentsEmbedsOrSnapshots;
+                            entity = michal.hasAttachmentsEmbedsComponentsOrSnapshots;
                             entity = entity.bind(michal)(tangon);
                             michal = 16;
                             michal = oscard[michal];
@@ -787,7 +793,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = tangon[zuuluu];
                             tangon = undefined;
                             oscard = report.bind(tangon)(zuuluu);
-                            report = oscard.hasAttachmentsEmbedsOrSnapshots;
+                            report = oscard.hasAttachmentsEmbedsComponentsOrSnapshots;
                             zuuluu = entity.referenced_message;
                             zuuluu = report.bind(oscard)(zuuluu);
                             if(!zuuluu) { _fun00022_ip = 118; continue _fun00021 }
@@ -1057,7 +1063,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             entity = report[entity];
                             report = undefined;
                             zuuluu = zuuluu.bind(report)(entity);
-                            entity = zuuluu.hasAttachmentsEmbedsOrSnapshots;
+                            entity = zuuluu.hasAttachmentsEmbedsComponentsOrSnapshots;
                             entity = entity.bind(zuuluu)(tangon);
                             if(!entity) { _fun00034_ip = 79; continue _fun00033 }
  42:
@@ -1108,7 +1114,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             zuuluu = tangon[zuuluu];
                             tangon = undefined;
                             oscard = report.bind(tangon)(zuuluu);
-                            report = oscard.hasAttachmentsEmbedsOrSnapshots;
+                            report = oscard.hasAttachmentsEmbedsComponentsOrSnapshots;
                             zuuluu = entity.message;
                             zuuluu = report.bind(oscard)(zuuluu);
                             if(!zuuluu) { _fun00036_ip = 178; continue _fun00035 }

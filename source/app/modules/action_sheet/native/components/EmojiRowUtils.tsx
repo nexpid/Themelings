@@ -53,15 +53,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.THREAD_STARTER_MESSAGE;
             entity = tangon !== michal;
  65:
-            if(!entity) { _fun00002_ip = 90; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 123; continue _fun00001 }
  68:
-            tangon = zuuluu.type;
-            michal = _closure1_slot4;
-            michal = michal.GUILD_INVITE_REMINDER;
-            entity = tangon !== michal;
- 90:
-            if(!entity) { _fun00002_ip = 148; continue _fun00001 }
- 93:
             oscard = _closure1_slot0;
             report = _closure1_slot1;
             tangon = 1;
@@ -74,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.EPHEMERAL;
             michal = tangon.bind(report)(zuuluu, michal);
             entity = !michal;
- 148:
+ 123:
             return entity;
         }
     };

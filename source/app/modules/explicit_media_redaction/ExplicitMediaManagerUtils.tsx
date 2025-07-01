@@ -1,7 +1,7 @@
 // app/modules/explicit_media_redaction/ExplicitMediaManagerUtils.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     zuuluu = argFre;
-    entity = function(argFoo) { // Original name: hasAttachmentsOrEmbeds
+    entity = function(argFoo) { // Original name: hasAttachmentsEmbedsOrComponents
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = argFoo;
@@ -21,13 +21,26 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = tangon != michal;
             if(!michal) { _fun00002_ip = 68; continue _fun00001 }
  51:
-            zuuluu = zuuluu.embeds;
-            tangon = zuuluu.length;
-            zuuluu = 0;
-            michal = tangon > zuuluu;
+            report = zuuluu.embeds;
+            oscard = report.length;
+            report = 0;
+            michal = oscard > report;
  68:
             entity = michal;
  71:
+            if(entity) { _fun00002_ip = 107; continue _fun00001 }
+ 74:
+            michal = zuuluu.components;
+            michal = tangon != michal;
+            if(!michal) { _fun00002_ip = 104; continue _fun00001 }
+ 87:
+            zuuluu = zuuluu.components;
+            tangon = zuuluu.length;
+            zuuluu = 0;
+            michal = tangon > zuuluu;
+ 104:
+            entity = michal;
+ 107:
             return entity;
         }
     };
@@ -49,7 +62,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/explicit_media_redaction/ExplicitMediaManagerUtils.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: hasAttachmentsEmbedsOrSnapshots
+    michal = function(argFoo) { // Original name: hasAttachmentsEmbedsComponentsOrSnapshots
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             michal = argFoo;
@@ -98,6 +111,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['hasAttachmentsEmbedsOrSnapshots'] = michal;
+    zuuluu['hasAttachmentsEmbedsComponentsOrSnapshots'] = michal;
     return entity;
 })();

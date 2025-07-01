@@ -242,10 +242,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['hook'] = zuuluu;
             zuuluu = michal.aliases;
             entity['aliases'] = zuuluu;
-            michal = michal.supportsOutOfProcessOverlay;
-            entity['supportsOutOfProcessOverlay'] = michal;
-            michal = new Array(0);
-            entity['themes'] = michal;
+            zuuluu = michal.supportsOutOfProcessOverlay;
+            entity['supportsOutOfProcessOverlay'] = zuuluu;
+            zuuluu = new Array(0);
+            entity['themes'] = zuuluu;
+            michal = michal.icon;
+            entity['icon'] = michal;
             return entity;
         };
         var _closure1_slot20 = entity;
@@ -971,7 +973,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal.bind(entity)(tangon);
                 tangon = report.bind(entity)();
                 michal = tangon.done;
-                if(michal) { _fun00036_ip = 309; continue _fun00035 }
+                if(michal) { _fun00036_ip = 331; continue _fun00035 }
  76:
                 option = tangon.value;
                 golfie = _closure1_slot21;
@@ -1028,18 +1030,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = option.overlay_methods;
                 verify = offset.bind(yankee)(verify);
                 michal['supportsOutOfProcessOverlay'] = verify;
-                option = option.themes;
-                if(!(oscard == option)) { _fun00036_ip = 281; continue _fun00035 }
+                verify = option.themes;
+                if(!(oscard == verify)) { _fun00036_ip = 281; continue _fun00035 }
  277:
-                option = new Array(0);
+                verify = new Array(0);
  281:
-                michal['themes'] = option;
+                michal['themes'] = verify;
+                verify = option.icon_hash;
+                offset = oscard != verify;
+                option = undefined;
+                if(!offset) { _fun00036_ip = 304; continue _fun00035 }
+ 301:
+                option = verify;
+ 304:
+                michal['icon'] = option;
                 michal = golfie.bind(entity)(michal);
                 golfie = report.bind(entity)();
                 michal = golfie.done;
                 tangon = golfie;
                 if(!michal) { _fun00036_ip = 76; continue _fun00035 }
- 309:
+ 331:
                 _closure1_slot15 = entity;
                 michal = global;
                 tangon = michal.Date;

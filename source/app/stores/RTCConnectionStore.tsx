@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = argBar;
             entity = _closure1_slot16;
             michal = null;
-            if(!(michal != entity)) { _fun00004_ip = 609; continue _fun00003 }
+            if(!(michal != entity)) { _fun00004_ip = 647; continue _fun00003 }
  21:
             report = _closure1_slot9;
             entity = report.getId;
@@ -330,6 +330,30 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = option[report];
             verify = offset.bind(oscard)(verify);
             verify = verify.RTCConnectionEvent;
+            yankee = verify.UsersMerged;
+            verify = function(argFoo, argBar) {
+                zuuluu = _closure1_slot1;
+                michal = _closure1_slot2;
+                entity = 12;
+                michal = michal[entity];
+                entity = undefined;
+                tangon = zuuluu.bind(entity)(michal);
+                zuuluu = tangon.dispatch;
+                michal = {};
+                report = 'RTC_CONNECTION_USERS_MERGED';
+                michal['type'] = report;
+                report = argFoo;
+                michal['userIds'] = report;
+                report = argBar;
+                michal['context'] = report;
+                michal = zuuluu.bind(tangon)(michal);
+                return entity;
+            };
+            verify = romeon.bind(entity)(yankee, verify);
+            romeon = entity.on;
+            verify = option[report];
+            verify = offset.bind(oscard)(verify);
+            verify = verify.RTCConnectionEvent;
             yankee = verify.ClientConnect;
             verify = function(argFoo) {
                 entity = argFoo;
@@ -542,7 +566,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             _closure1_slot22 = michal;
             _closure1_slot23 = michal;
             return entity;
- 609:
+ 647:
             entity = global;
             zuuluu = entity.Error;
             entity = zuuluu.prototype;

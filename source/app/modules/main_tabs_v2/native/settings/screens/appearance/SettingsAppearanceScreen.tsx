@@ -54,59 +54,6 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             golfie = report.bind(oscard)();
             var _closure3_slot1 = golfie;
             report = _closure1_slot3;
-            option = report.useEffect;
-            oscard = function() {
-                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    entity = 5;
-                    tangon = tangon[entity];
-                    entity = undefined;
-                    report = report.bind(entity)(tangon);
-                    tangon = report.isAndroid;
-                    tangon = tangon.bind(report)();
-                    if(!tangon) { _fun00002_ip = 125; continue _fun00001 }
- 39:
-                    oscard = _closure1_slot1;
-                    report = _closure1_slot2;
-                    tangon = 6;
-                    tangon = report[tangon];
-                    oscard = oscard.bind(entity)(tangon);
-                    tangon = oscard.getCustomFontScale;
-                    tangon = tangon.bind(oscard)();
-                    oscard = tangon.fontScale;
-                    var _closure4_slot0 = oscard;
-                    tangon = tangon.isClassicChatFontScaleEnabled;
-                    var _closure4_slot1 = tangon;
-                    tangon = _closure1_slot0;
-                    zuuluu = 7;
-                    zuuluu = report[zuuluu];
-                    tangon = tangon.bind(entity)(zuuluu);
-                    zuuluu = tangon.batchUpdates;
-                    michal = function() {
-                        zuuluu = _closure1_slot5;
-                        michal = zuuluu.setState;
-                        entity = {};
-                        report = _closure4_slot0;
-                        entity['persistedFontScale'] = report;
-                        report = _closure4_slot1;
-                        entity['persistedIsClassicChatFontScaleEnabled'] = report;
-                        report = _closure4_slot0;
-                        entity['fontScale'] = report;
-                        tangon = _closure4_slot1;
-                        entity['isClassicChatFontScaleEnabled'] = tangon;
-                        entity = michal.bind(zuuluu)(entity);
-                        entity = undefined;
-                        return entity;
-                    };
-                    michal = zuuluu.bind(tangon)(michal);
- 125:
-                    return entity;
-                }
-            };
-            tangon = new Array(0);
-            tangon = option.bind(report)(oscard, tangon);
             oscard = report.useEffect;
             tangon = new Array(5);
             tangon[0] = golfie;
@@ -119,7 +66,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             zuuluu = zuuluu.persistedIsClassicChatFontScaleEnabled;
             tangon[4] = zuuluu;
             zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -129,35 +76,35 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(entity)(michal);
                     michal = zuuluu.isAndroid;
                     michal = michal.bind(zuuluu)();
-                    if(!michal) { _fun00004_ip = 217; continue _fun00003 }
+                    if(!michal) { _fun00002_ip = 217; continue _fun00001 }
  40:
                     zuuluu = _closure3_slot0;
                     tangon = zuuluu.persistedFontScale;
                     zuuluu = zuuluu.fontScale;
-                    if(!(tangon === zuuluu)) { _fun00004_ip = 107; continue _fun00003 }
+                    if(!(tangon === zuuluu)) { _fun00002_ip = 107; continue _fun00001 }
  63:
                     zuuluu = _closure3_slot0;
                     tangon = zuuluu.persistedIsClassicChatFontScaleEnabled;
                     zuuluu = zuuluu.isClassicChatFontScaleEnabled;
-                    if(!(tangon === zuuluu)) { _fun00004_ip = 107; continue _fun00003 }
+                    if(!(tangon === zuuluu)) { _fun00002_ip = 107; continue _fun00001 }
  83:
                     oscard = _closure3_slot1;
                     tangon = oscard.setOptions;
                     zuuluu = {};
                     zuuluu['headerRight'] = entity;
                     zuuluu = tangon.bind(oscard)(zuuluu);
-                    _fun00004_ip = 217; continue _fun00003;
+                    _fun00002_ip = 217; continue _fun00001;
  107:
                     tangon = _closure3_slot1;
                     zuuluu = tangon.setOptions;
                     michal = {};
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    report = 8;
+                    report = 6;
                     report = yankee[report];
                     option = offset.bind(entity)(report);
                     golfie = option.getRenderHeaderTextButton;
-                    report = 9;
+                    report = 7;
                     oscard = yankee[report];
                     oscard = offset.bind(entity)(oscard);
                     verify = oscard.intl;
@@ -170,7 +117,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                     report = function() {
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
-                        entity = 6;
+                        entity = 8;
                         michal = michal[entity];
                         entity = undefined;
                         tangon = zuuluu.bind(entity)(michal);
@@ -194,7 +141,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
                 entity = function() {
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 7;
+                    entity = 9;
                     michal = michal[entity];
                     entity = undefined;
                     tangon = zuuluu.bind(entity)(michal);
@@ -223,7 +170,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             michal = {};
             option = _closure1_slot0;
             verify = _closure1_slot2;
-            tangon = 9;
+            tangon = 7;
             zuuluu = verify[tangon];
             golfie = undefined;
             zuuluu = option.bind(golfie)(zuuluu);

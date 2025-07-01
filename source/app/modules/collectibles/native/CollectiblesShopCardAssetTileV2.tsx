@@ -42,9 +42,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.createStyles;
     tangon = {};
     offset = {'display': 'flex', 'justifyContent': 'center', 'alignItems': 'center', 'overflow': 'hidden', 'height': '100%', 'width': '100%'};
+    yankee = 5;
+    foxtra = oscard[yankee];
+    foxtra = romeon.bind(entity)(foxtra);
+    foxtra = foxtra.radii;
+    foxtra = foxtra.sm;
+    offset['borderRadius'] = foxtra;
     tangon['assetContainer'] = offset;
     offset = {'position': 'absolute', 'opacity': 1, 'color': null, 'fontWeight': 'bold'};
-    yankee = 5;
     yankee = oscard[yankee];
     yankee = romeon.bind(entity)(yankee);
     yankee = yankee.colors;

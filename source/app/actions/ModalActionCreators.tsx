@@ -283,13 +283,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = zuuluu.bind(entity)(report);
         oscard = golfie.dispatch;
         report = {};
-        option = 'CHANNEL_SETTINGS_CLOSE';
-        report['type'] = option;
-        report = oscard.bind(golfie)(report);
-        report = tangon[michal];
-        golfie = zuuluu.bind(entity)(report);
-        oscard = golfie.dispatch;
-        report = {};
         option = 'EMAIL_VERIFICATION_MODAL_CLOSE';
         report['type'] = option;
         report = oscard.bind(golfie)(report);

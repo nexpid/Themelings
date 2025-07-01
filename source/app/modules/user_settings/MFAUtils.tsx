@@ -114,22 +114,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 zuuluu = _closure1_slot4;
-                michal = zuuluu.getCurrentUser;
-                tangon = michal.bind(zuuluu)();
-                michal = null;
-                if(!(michal != tangon)) { _fun00004_ip = 35; continue _fun00003 }
+                entity = zuuluu.getCurrentUser;
+                tangon = entity.bind(zuuluu)();
+                entity = null;
+                if(!(entity != tangon)) { _fun00004_ip = 35; continue _fun00003 }
  22:
                 zuuluu = tangon.hasAnyStaffLevel;
                 zuuluu = zuuluu.bind(tangon)();
-                if(zuuluu) { _fun00004_ip = 153; continue _fun00003 }
+                if(zuuluu) { _fun00004_ip = 135; continue _fun00003 }
  35:
                 tangon = _closure1_slot2;
-                zuuluu = tangon.getGuilds;
+                zuuluu = tangon.getGuildsArray;
                 report = zuuluu.bind(tangon)();
-                zuuluu = global;
-                tangon = zuuluu.Object;
-                zuuluu = tangon.values;
-                report = zuuluu.bind(tangon)(report);
                 tangon = report.some;
                 zuuluu = function(argFoo) {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -151,9 +147,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 zuuluu = tangon.bind(report)(zuuluu);
-                michal = null;
-                if(!zuuluu) { _fun00004_ip = 151; continue _fun00003 }
- 92:
+                entity = null;
+                if(!zuuluu) { _fun00004_ip = 133; continue _fun00003 }
+ 74:
                 golfie = _closure1_slot0;
                 option = _closure1_slot1;
                 zuuluu = 4;
@@ -166,23 +162,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = golfie.bind(oscard)(zuuluu);
                 zuuluu = zuuluu.t;
                 zuuluu = zuuluu.HC8uSU;
-                michal = tangon.bind(report)(zuuluu);
- 151:
-                return michal;
- 153:
-                report = _closure1_slot0;
-                oscard = _closure1_slot1;
-                entity = 4;
-                michal = oscard[entity];
-                tangon = undefined;
-                michal = report.bind(tangon)(michal);
-                zuuluu = michal.intl;
-                michal = zuuluu.string;
-                entity = oscard[entity];
-                entity = report.bind(tangon)(entity);
-                entity = entity.t;
-                entity = entity.3iKih4;
-                entity = michal.bind(zuuluu)(entity);
+                entity = tangon.bind(report)(zuuluu);
+ 133:
+                _fun00004_ip = 194; continue _fun00003;
+ 135:
+                oscard = _closure1_slot0;
+                golfie = _closure1_slot1;
+                michal = 4;
+                zuuluu = golfie[michal];
+                report = undefined;
+                zuuluu = oscard.bind(report)(zuuluu);
+                tangon = zuuluu.intl;
+                zuuluu = tangon.string;
+                michal = golfie[michal];
+                michal = oscard.bind(report)(michal);
+                michal = michal.t;
+                michal = michal.3iKih4;
+                entity = zuuluu.bind(tangon)(michal);
+ 194:
                 return entity;
             }
         };

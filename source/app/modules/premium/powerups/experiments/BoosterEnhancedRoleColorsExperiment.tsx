@@ -46,7 +46,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = argBar;
         michal['location'] = entity;
         entity = {};
-        report = false;
+        report = true;
         entity['autoTrackExposure'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabled;
@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = argBar;
         michal['location'] = entity;
         entity = {};
-        report = false;
+        report = true;
         entity['autoTrackExposure'] = report;
         entity = zuuluu.bind(tangon)(michal, entity);
         entity = entity.enabled;

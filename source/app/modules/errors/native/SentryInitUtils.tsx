@@ -478,13 +478,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = 'debug';
                     report = oscard.bind(zuuluu)(report);
                     golfie = -1;
-                    if(!(golfie === report)) { _fun00010_ip = 668; continue _fun00009 }
- 76:
+                    if(!(golfie === report)) { _fun00010_ip = 665; continue _fun00009 }
+ 75:
                     oscard = zuuluu.indexOf;
                     report = 'developer';
                     report = oscard.bind(zuuluu)(report);
-                    if(!(golfie === report)) { _fun00010_ip = 668; continue _fun00009 }
- 100:
+                    if(!(golfie === report)) { _fun00010_ip = 665; continue _fun00009 }
+ 98:
                     option = _closure1_slot0;
                     oscard = _closure1_slot3;
                     report = 12;
@@ -503,10 +503,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = option.bind(entity)(oscard);
                     oscard = option.isAndroid;
                     oscard = oscard.bind(option)();
-                    if(!oscard) { _fun00010_ip = 241; continue _fun00009 }
- 184:
-                    if(!report) { _fun00010_ip = 241; continue _fun00009 }
- 187:
+                    if(!oscard) { _fun00010_ip = 238; continue _fun00009 }
+ 182:
+                    if(!report) { _fun00010_ip = 238; continue _fun00009 }
+ 185:
                     option = _closure1_slot0;
                     verify = _closure1_slot3;
                     oscard = 14;
@@ -517,23 +517,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = verify.indexOf;
                     oscard = 'vivo';
                     oscard = option.bind(verify)(oscard);
-                    if(!(golfie === oscard)) { _fun00010_ip = 668; continue _fun00009 }
- 241:
+                    if(!(golfie === oscard)) { _fun00010_ip = 665; continue _fun00009 }
+ 238:
                     oscard = 0.05;
                     _closure1_slot11 = oscard;
                     oscard = tangon.SentryDsn;
-                    if(report) { _fun00010_ip = 277; continue _fun00009 }
- 264:
+                    if(report) { _fun00010_ip = 274; continue _fun00009 }
+ 261:
                     report = 1;
                     _closure1_slot11 = report;
                     oscard = tangon.SentryAlphaBetaDsn;
+ 274:
+                    if(!michal) { _fun00010_ip = 290; continue _fun00009 }
  277:
-                    if(!michal) { _fun00010_ip = 293; continue _fun00009 }
- 280:
                     oscard = tangon.SentryStaffDsn;
                     report = 1;
                     _closure1_slot11 = report;
- 293:
+ 290:
                     offset = _closure1_slot0;
                     verify = _closure1_slot3;
                     michal = 3;
@@ -546,10 +546,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = offset.isAndroid;
                     verify = verify.bind(offset)();
                     offset = 'ios';
-                    if(!verify) { _fun00010_ip = 350; continue _fun00009 }
- 346:
+                    if(!verify) { _fun00010_ip = 347; continue _fun00009 }
+ 343:
                     offset = 'android';
- 350:
+ 347:
                     verify = '/error-reporting-proxy/';
                     verify = verify + offset;
                     report['tunnel'] = verify;
@@ -557,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['autoInitializeNativeSdk'] = verify;
                     verify = _closure1_slot14;
                     report['beforeSend'] = verify;
-                    verify = '4242';
+                    verify = '4264';
                     report['dist'] = verify;
                     report['dsn'] = oscard;
                     report['environment'] = zuuluu;
@@ -567,7 +567,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report['sampleRate'] = zuuluu;
                     zuuluu = _closure1_slot10;
                     report['ignoreErrors'] = zuuluu;
-                    zuuluu = 'discord_android@287.3.0-2+287203';
+                    zuuluu = 'discord_android@288.2.0-2+288202';
                     report['release'] = zuuluu;
                     zuuluu = _closure1_slot0;
                     oscard = _closure1_slot3;
@@ -627,7 +627,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(michal)(oscard);
                     michal = 'design_id';
                     michal = tangon.bind(report)(michal, zuuluu);
- 668:
+ 665:
                     return entity;
                 }
             };

@@ -61,11 +61,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.getGuild;
                     tangon = _closure2_slot0;
                     tangon = golfie.bind(option)(tangon);
-                    if(!(zuuluu != tangon)) { _fun00004_ip = 162; continue _fun00003 }
+                    if(!(zuuluu != tangon)) { _fun00004_ip = 160; continue _fun00003 }
  82:
                     zuuluu = undefined;
                     zuuluu = oscard.bind(zuuluu)(tangon);
-                    _fun00004_ip = 162; continue _fun00003;
+                    _fun00004_ip = 160; continue _fun00003;
  91:
                     tangon = _closure2_slot0;
                     zuuluu = tangon.forEach;
@@ -88,27 +88,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     michal = zuuluu.bind(tangon)(michal);
-                    _fun00004_ip = 162; continue _fun00003;
+                    _fun00004_ip = 160; continue _fun00003;
  112:
-                    golfie = _closure1_slot1;
-                    tangon = _closure1_slot3;
-                    zuuluu = 4;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    tangon = golfie.bind(zuuluu)(tangon);
-                    zuuluu = tangon.forEach;
-                    golfie = _closure1_slot5;
-                    michal = golfie.getGuilds;
-                    michal = michal.bind(golfie)();
-                    michal = zuuluu.bind(tangon)(michal, oscard);
- 162:
+                    zuuluu = report.push;
+                    tangon = _closure1_slot5;
+                    michal = tangon.getGuildIds;
+                    offset = michal.bind(tangon)();
+                    michal = new Array(0);
+                    verify = 0;
+                    yankee = michal;
+                    tangon = arraySpread(yankee, offset, verify);
+                    yankee = zuuluu;
+                    offset = michal;
+                    verify = report;
+                    michal = apply(yankee, offset, verify);
+ 160:
                     zuuluu = report.length;
                     michal = 0;
-                    if(!(zuuluu > michal)) { _fun00004_ip = 229; continue _fun00003 }
- 173:
+                    if(!(zuuluu > michal)) { _fun00004_ip = 227; continue _fun00003 }
+ 171:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot3;
-                    michal = 5;
+                    michal = 4;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     tangon = tangon.bind(michal)(zuuluu);
@@ -118,7 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(oscard)();
                     entity = _closure2_slot2;
                     entity = zuuluu.bind(tangon)(report, michal, entity);
- 229:
+ 227:
                     entity = undefined;
                     return entity;
                 }
@@ -173,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = entity.bind(zuuluu)();
             zuuluu = _closure1_slot2;
             report = _closure1_slot3;
-            entity = 6;
+            entity = 5;
             entity = report[entity];
             oscard = undefined;
             zuuluu = zuuluu.bind(oscard)(entity);
@@ -192,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  82:
             zuuluu = _closure1_slot0;
             yankee = _closure1_slot3;
-            michal = 7;
+            michal = 6;
             tangon = yankee[michal];
             tangon = zuuluu.bind(oscard)(tangon);
             report = tangon.intl;
@@ -328,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon['requestMembers'] = report;
-    report = 8;
+    report = 7;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

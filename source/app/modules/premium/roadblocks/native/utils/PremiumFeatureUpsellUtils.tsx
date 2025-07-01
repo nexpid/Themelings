@@ -186,34 +186,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['useIsPremiumFileUploadUpsellEnabled'] = tangon;
-    tangon = function() { // Original name: useIsPremiumClientThemesUpsellEnabled
-        zuuluu = _closure1_slot6;
-        michal = {};
-        tangon = function(argFoo) { // Original name: featureEnabledPredicate
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 6;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.canUseClientThemes;
-            entity = argFoo;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        };
-        michal['featureEnabledPredicate'] = tangon;
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
-        entity = 7;
-        tangon = tangon[entity];
-        entity = undefined;
-        tangon = report.bind(entity)(tangon);
-        tangon = tangon.PremiumClientThemesUpsellExperiment;
-        michal['FeatureExperiment'] = tangon;
-        entity = zuuluu.bind(entity)(michal);
-        return entity;
-    };
-    zuuluu['useIsPremiumClientThemesUpsellEnabled'] = tangon;
     tangon = function() { // Original name: useIsPremiumAppIconUpsellEnabled
         zuuluu = _closure1_slot6;
         michal = {};

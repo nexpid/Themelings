@@ -1,4 +1,4 @@
-// discord_common/js/packages/libdave/package/KeySerialization.ts
+// app/actions/AnalyticsTrackingActionCreators.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu = argFre;
     tangon = argPlu;
@@ -19,20 +19,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/libdave/package/KeySerialization.ts';
+    tangon = 'actions/AnalyticsTrackingActionCreators.tsx';
     tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo) { // Original name: serializeKey
+    michal = function(argFoo, argBar) { // Original name: track
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 0;
         michal = michal[entity];
         entity = undefined;
-        zuuluu = zuuluu.bind(entity)(michal);
-        michal = zuuluu.fromByteArray;
-        entity = argFoo;
-        entity = michal.bind(zuuluu)(entity);
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'TRACK';
+        michal['type'] = report;
+        report = argFoo;
+        michal['event'] = report;
+        report = argBar;
+        michal['properties'] = report;
+        michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['serializeKey'] = michal;
+    zuuluu['track'] = michal;
     return entity;
 })();

@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['code'] = golfie;
     var _closure1_slot24 = tangon;
     tangon = {};
-    golfie = 'function useMediaViewerSyncerTsx17(){const{thumbnailsScrolling,viewerScrolling,scrollTo,ref,thumbnailsIndex,screenWidth}=this.__closure;if(thumbnailsScrolling.get()===0||viewerScrolling.get()>0)return;scrollTo(ref,thumbnailsIndex.get()*screenWidth,0,false);}';
+    golfie = 'function useMediaViewerSyncerTsx17(){const{thumbnailsScrolling,viewerScrolling,thumbnailsAnimateTo,scrollTo,ref,thumbnailsIndex,screenWidth}=this.__closure;if(thumbnailsScrolling.get()===0||viewerScrolling.get()>0||thumbnailsAnimateTo.get()!==-1)return;scrollTo(ref,thumbnailsIndex.get()*screenWidth,0,false);}';
     tangon['code'] = golfie;
     var _closure1_slot25 = tangon;
     tangon = {};
@@ -1382,8 +1382,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     zuuluu = zuuluu.bind(tangon)();
                                     entity = zuuluu > oscard;
  42:
-                                    if(entity) { _fun00028_ip = 115; continue _fun00027 }
+                                    if(entity) { _fun00028_ip = 68; continue _fun00027 }
  45:
+                                    tangon = _closure4_slot5;
+                                    zuuluu = tangon.get;
+                                    tangon = zuuluu.bind(tangon)();
+                                    zuuluu = -1;
+                                    entity = zuuluu !== tangon;
+ 68:
+                                    if(entity) { _fun00028_ip = 141; continue _fun00027 }
+ 71:
                                     tangon = _closure1_slot0;
                                     zuuluu = _closure1_slot2;
                                     entity = 3;
@@ -1401,7 +1409,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     romeon = report;
                                     verify = 0;
                                     entity = romeon[tangon](yankee, offset, verify, option, golfie);
- 115:
+ 141:
                                     entity = undefined;
                                     return entity;
                                 }
@@ -1411,6 +1419,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             foxtra['thumbnailsScrolling'] = echoed;
                             kiloes = _closure4_slot7;
                             foxtra['viewerScrolling'] = kiloes;
+                            foxtra['thumbnailsAnimateTo'] = result;
                             sizing = yankee[zuuluu];
                             sizing = offset.bind(option)(sizing);
                             sizing = sizing.scrollTo;
@@ -1420,7 +1429,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             foxtra['thumbnailsIndex'] = sizing;
                             foxtra['screenWidth'] = verify;
                             tangon['__closure'] = foxtra;
-                            foxtra = 6332404461490.0;
+                            foxtra = 16855593341498.0;
                             tangon['__workletHash'] = foxtra;
                             foxtra = _closure1_slot25;
                             tangon['__initData'] = foxtra;

@@ -51,8 +51,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     entity = 'DM_SETTINGS_UPSELL_ACKNOWLEDGED';
     michal[tangon] = entity;
     tangon = 1024;
-    michal['AUTOMOD_QUARANTINED_CLAN_TAG'] = tangon;
-    entity = 'AUTOMOD_QUARANTINED_CLAN_TAG';
+    michal['AUTOMOD_QUARANTINED_SERVER_TAG'] = tangon;
+    entity = 'AUTOMOD_QUARANTINED_SERVER_TAG';
     michal[tangon] = entity;
     tangon = argPlu;
     entity = 0;

@@ -23,7 +23,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot4 = michal;
+    var _closure1_slot5 = michal;
     entity = function(argFoo, argBar) { // Original name: getCurrentRole
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = entity;
+    var _closure1_slot6 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -74,7 +74,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = golfie[report];
     report = option.bind(entity)(report);
     var _closure1_slot3 = report;
-    report = 4;
+    report = 2;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot4 = report;
+    report = 5;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -89,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = michal;
             tangon = _closure1_slot0;
             oscard = _closure1_slot1;
-            michal = 2;
+            michal = 3;
             michal = oscard[michal];
             zuuluu = undefined;
             option = tangon.bind(zuuluu)(michal);
@@ -97,12 +101,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = _closure1_slot2;
             michal = new Array(2);
             michal[0] = offset;
-            verify = _closure1_slot3;
+            verify = _closure1_slot4;
             michal[1] = verify;
             entity = function() {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    report = _closure1_slot5;
+                    report = _closure1_slot6;
                     zuuluu = _closure2_slot0;
                     entity = _closure2_slot1;
                     tangon = undefined;
@@ -111,14 +115,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity != zuuluu;
                     if(!entity) { _fun00008_ip = 44; continue _fun00007 }
  35:
-                    michal = _closure1_slot4;
+                    michal = _closure1_slot5;
                     entity = michal.bind(tangon)(zuuluu);
  44:
                     return entity;
                 }
             };
             michal = golfie.bind(option)(michal, entity);
-            entity = 3;
+            entity = 4;
             entity = oscard[entity];
             tangon = tangon.bind(zuuluu)(entity);
             zuuluu = tangon.useBoosterEnhancedRoleColors;
@@ -136,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             option = argFoo;
-            michal = _closure1_slot5;
+            michal = _closure1_slot6;
             report = undefined;
             entity = argBar;
             tangon = michal.bind(report)(option, entity);
@@ -146,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  30:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
-            michal = 3;
+            michal = 4;
             michal = golfie[michal];
             golfie = oscard.bind(report)(michal);
             oscard = golfie.getBoosterEnhancedRoleColors;
@@ -154,7 +158,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = oscard.bind(golfie)(option, michal);
             if(!michal) { _fun00010_ip = 78; continue _fun00009 }
  69:
-            zuuluu = _closure1_slot4;
+            zuuluu = _closure1_slot5;
             michal = zuuluu.bind(report)(tangon);
  78:
             entity = michal;

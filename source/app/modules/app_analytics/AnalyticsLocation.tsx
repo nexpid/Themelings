@@ -294,6 +294,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['ROLE_MENTION'] = entity;
     entity = 'connections role popout';
     michal['CONNECTIONS_ROLE_POPOUT'] = entity;
+    entity = 'game menu';
+    michal['GAME_MENU'] = entity;
     entity = 'guild profile';
     michal['GUILD_PROFILE'] = entity;
     entity = 'edit avatar';
@@ -772,8 +774,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['IN_CASE_YOU_MISSED_IT_TAB'] = entity;
     entity = 'reverse trial upsell modal';
     michal['REVERSE_TRIAL_UPSELL_MODAL'] = entity;
-    entity = 'nitroween coachmark';
-    michal['NITROWEEN_COACHMARK'] = entity;
     entity = 'seasonal gifting coachmark';
     michal['SEASONAL_GIFTING_COACHMARK'] = entity;
     entity = 'valentines gifting coachmark';

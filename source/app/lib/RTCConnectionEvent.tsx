@@ -34,6 +34,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['SecureFramesUpdate'] = entity;
     entity = 'roster-map-update';
     michal['RosterMapUpdate'] = entity;
+    entity = 'users-merged';
+    michal['UsersMerged'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

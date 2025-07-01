@@ -210,694 +210,616 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: _getQuestsInstructionsToWinReward
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            michal = argFoo;
-            oscard = michal.quest;
-            golfie = michal.taskDetails;
-            foxtra = michal.thirdPartyTaskDetails;
-            report = michal.withoutMarkdown;
-            entity = michal.withSimplifiedCopy;
-            backup = michal.currentUser;
-            if(!entity) { _fun00010_ip = 181; continue _fun00009 }
+            entity = argFoo;
+            option = entity.quest;
+            golfie = entity.taskDetails;
+            romeon = entity.thirdPartyTaskDetails;
+            report = entity.withoutMarkdown;
+            foxtra = entity.currentUser;
+            verify = entity.withVideoQuestShortDescription;
+            oscard = undefined;
+            if(!(verify === oscard)) { _fun00010_ip = 47; continue _fun00009 }
  45:
-            michal = _closure1_slot15;
-            tangon = undefined;
-            zuuluu = michal.bind(tangon)(oscard);
-            michal = _closure1_slot9;
-            michal = michal.PLAY;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2687; continue _fun00009 }
- 76:
-            michal = _closure1_slot9;
-            michal = michal.STREAM;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2606; continue _fun00009 }
- 93:
-            michal = _closure1_slot9;
-            michal = michal.WATCH_VIDEO;
-            if(!(michal !== zuuluu)) { _fun00010_ip = 2547; continue _fun00009 }
- 110:
-            michal = _closure1_slot9;
-            michal = michal.IN_GAME;
-            if(!(michal === zuuluu)) { _fun00010_ip = 181; continue _fun00009 }
- 124:
-            zuuluu = _closure1_slot0;
-            option = _closure1_slot1;
-            michal = 6;
-            michal = option[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            option = michal.SharedQuestFields;
-            zuuluu = option.build;
-            michal = oscard.config;
-            michal = zuuluu.bind(option)(michal);
-            michal = michal.defaultInGameTask;
-            zuuluu = null;
-            if(!(zuuluu == michal)) { _fun00010_ip = 2533; continue _fun00009 }
- 181:
+            verify = false;
+ 47:
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            michal = 8;
+            michal = entity[michal];
+            offset = tangon.bind(oscard)(michal);
+            zuuluu = offset.isPremium;
+            michal = _closure1_slot6;
+            michal = michal.TIER_2;
+            zuuluu = zuuluu.bind(offset)(foxtra, michal);
+            backup = 7;
+            michal = entity[backup];
+            foxtra = tangon.bind(oscard)(michal);
+            offset = foxtra.getCollectibleQuestRewardDuration;
+            michal = option.config;
+            michal = offset.bind(foxtra)(michal);
+            entity = entity[backup];
+            tangon = tangon.bind(oscard)(entity);
+            entity = tangon.isConsoleQuest;
+            entity = entity.bind(tangon)(option);
+            if(!entity) { _fun00010_ip = 177; continue _fun00009 }
+ 143:
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            entity = entity[backup];
+            tangon = tangon.bind(oscard)(entity);
+            entity = tangon.shouldUsePlayOnDesktopTask;
+            entity = entity.bind(tangon)(option);
+            if(entity) { _fun00010_ip = 2067; continue _fun00009 }
+ 177:
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            entity = entity[backup];
+            tangon = tangon.bind(oscard)(entity);
+            entity = tangon.isConsoleQuest;
+            entity = entity.bind(tangon)(option);
+            if(entity) { _fun00010_ip = 1721; continue _fun00009 }
+ 211:
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            entity = entity[backup];
+            tangon = tangon.bind(oscard)(entity);
+            entity = tangon.shouldUsePlayOnDesktopTask;
+            entity = entity.bind(tangon)(option);
+            if(entity) { _fun00010_ip = 1373; continue _fun00009 }
+ 245:
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            entity = entity[backup];
+            offset = tangon.bind(oscard)(entity);
+            tangon = offset.isTieredRewardCodeQuest;
+            entity = {};
+            entity['quest'] = option;
+            entity = tangon.bind(offset)(entity);
+            if(entity) { _fun00010_ip = 1254; continue _fun00009 }
+ 286:
+            tangon = _closure1_slot0;
+            entity = _closure1_slot1;
+            entity = entity[backup];
+            tangon = tangon.bind(oscard)(entity);
+            entity = tangon.hasWatchVideoTasks;
+            entity = entity.bind(tangon)(option);
             offset = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            option = 8;
-            option = zuuluu[option];
-            romeon = undefined;
-            yankee = offset.bind(romeon)(option);
-            verify = yankee.isPremium;
-            option = _closure1_slot6;
-            option = option.TIER_2;
-            verify = verify.bind(yankee)(backup, option);
-            update = 7;
-            option = zuuluu[update];
-            backup = offset.bind(romeon)(option);
-            yankee = backup.getCollectibleQuestRewardDuration;
-            option = oscard.config;
-            option = yankee.bind(backup)(option);
-            zuuluu = zuuluu[update];
-            offset = offset.bind(romeon)(zuuluu);
-            zuuluu = offset.isConsoleQuest;
-            zuuluu = zuuluu.bind(offset)(oscard);
-            if(!zuuluu) { _fun00010_ip = 313; continue _fun00009 }
- 279:
-            offset = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[update];
-            offset = offset.bind(romeon)(zuuluu);
-            zuuluu = offset.shouldUsePlayOnDesktopTask;
-            zuuluu = zuuluu.bind(offset)(oscard);
-            if(zuuluu) { _fun00010_ip = 2190; continue _fun00009 }
- 313:
-            offset = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[update];
-            offset = offset.bind(romeon)(zuuluu);
-            zuuluu = offset.isConsoleQuest;
-            zuuluu = zuuluu.bind(offset)(oscard);
-            if(zuuluu) { _fun00010_ip = 1844; continue _fun00009 }
- 347:
-            offset = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[update];
-            offset = offset.bind(romeon)(zuuluu);
-            zuuluu = offset.shouldUsePlayOnDesktopTask;
-            zuuluu = zuuluu.bind(offset)(oscard);
-            if(zuuluu) { _fun00010_ip = 1496; continue _fun00009 }
- 381:
-            offset = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[update];
-            yankee = offset.bind(romeon)(zuuluu);
-            offset = yankee.isTieredRewardCodeQuest;
-            zuuluu = {};
-            zuuluu['quest'] = oscard;
-            zuuluu = offset.bind(yankee)(zuuluu);
-            if(zuuluu) { _fun00010_ip = 1377; continue _fun00009 }
- 422:
-            offset = _closure1_slot0;
-            zuuluu = _closure1_slot1;
-            zuuluu = zuuluu[update];
-            offset = offset.bind(romeon)(zuuluu);
-            zuuluu = offset.hasWatchVideoTasks;
-            zuuluu = zuuluu.bind(offset)(oscard);
-            yankee = _closure1_slot0;
-            offset = _closure1_slot1;
-            if(zuuluu) { _fun00010_ip = 993; continue _fun00009 }
- 464:
-            zuuluu = offset[update];
-            backup = yankee.bind(romeon)(zuuluu);
-            zuuluu = backup.hasPlayActivityTask;
-            zuuluu = zuuluu.bind(backup)(oscard);
-            if(zuuluu) { _fun00010_ip = 851; continue _fun00009 }
- 490:
-            backup = null;
-            if(!(backup == foxtra)) { _fun00010_ip = 841; continue _fun00009 }
- 499:
+            tangon = _closure1_slot1;
+            if(entity) { _fun00010_ip = 857; continue _fun00009 }
+ 328:
+            entity = tangon[backup];
+            foxtra = offset.bind(oscard)(entity);
+            entity = foxtra.hasPlayActivityTask;
+            entity = entity.bind(foxtra)(option);
+            if(entity) { _fun00010_ip = 715; continue _fun00009 }
+ 354:
+            foxtra = null;
+            if(!(foxtra == romeon)) { _fun00010_ip = 705; continue _fun00009 }
+ 363:
             kiloes = {};
-            kiloes['quest'] = oscard;
+            kiloes['quest'] = option;
             kiloes['taskDetails'] = golfie;
             kiloes['withoutMarkdown'] = report;
-            kiloes['hasNitro'] = verify;
-            kiloes['collectibleRewardDuration'] = option;
-            zuuluu = kiloes.quest;
-            source = kiloes.taskDetails;
+            kiloes['hasNitro'] = zuuluu;
+            kiloes['collectibleRewardDuration'] = michal;
+            entity = kiloes.quest;
+            echoed = kiloes.taskDetails;
             sizing = kiloes.withoutMarkdown;
-            sequen = kiloes.hasNitro;
-            echoed = kiloes.collectibleRewardDuration;
-            config = _closure1_slot0;
-            kiloes = _closure1_slot1;
-            result = 6;
-            result = kiloes[result];
-            result = config.bind(romeon)(result);
-            vacuum = result.SharedQuestFields;
-            ctrled = vacuum.build;
-            result = zuuluu.config;
-            result = ctrled.bind(vacuum)(result);
-            result = result.defaultRewardNameWithArticle;
-            source = source.targetMinutes;
-            ctrled = zuuluu.config;
-            ctrled = ctrled.messages;
-            ctrled = ctrled.gameTitle;
-            vacuum = kiloes[update];
-            cntext = config.bind(romeon)(vacuum);
-            record = cntext.isCollectibleQuestRewardPremiumExtendable;
-            vacuum = zuuluu.config;
-            vacuum = record.bind(cntext)(vacuum);
-            kiloes = kiloes[update];
-            config = config.bind(romeon)(kiloes);
-            kiloes = config.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            zuuluu = zuuluu.config;
-            zuuluu = kiloes.bind(config)(zuuluu);
-            kiloes = _closure1_slot12;
-            if(!sequen) { _fun00010_ip = 687; continue _fun00009 }
- 684:
-            if(vacuum) { _fun00010_ip = 762; continue _fun00009 }
- 687:
-            if(vacuum) { _fun00010_ip = 727; continue _fun00009 }
- 690:
-            if(!(backup == echoed)) { _fun00010_ip = 727; continue _fun00009 }
- 694:
+            ctrled = kiloes.hasNitro;
+            result = kiloes.collectibleRewardDuration;
             vacuum = _closure1_slot0;
-            sequen = _closure1_slot1;
-            backup = 5;
-            backup = sequen[backup];
-            backup = vacuum.bind(romeon)(backup);
-            backup = backup.t;
-            backup = backup.hkJ+Gh;
-            _fun00010_ip = 760; continue _fun00009;
- 727:
-            sequen = _closure1_slot0;
-            config = _closure1_slot1;
-            vacuum = 5;
-            vacuum = config[vacuum];
-            vacuum = sequen.bind(romeon)(vacuum);
-            vacuum = vacuum.t;
-            backup = vacuum.BLyDvL;
- 760:
-            _fun00010_ip = 811; continue _fun00009;
- 762:
-            sequen = _closure1_slot0;
-            config = _closure1_slot1;
-            vacuum = 5;
-            vacuum = config[vacuum];
-            vacuum = sequen.bind(romeon)(vacuum);
-            vacuum = vacuum.t;
-            if(zuuluu) { _fun00010_ip = 800; continue _fun00009 }
- 790:
-            zuuluu = vacuum.smG9qq;
-            _fun00010_ip = 808; continue _fun00009;
- 800:
-            zuuluu = vacuum.X8Yt//;
- 808:
-            backup = zuuluu;
- 811:
-            zuuluu = {};
-            zuuluu['gameTitle'] = ctrled;
-            zuuluu['streamingDurationRequirement'] = source;
-            zuuluu['duration'] = echoed;
-            zuuluu['questReward'] = result;
-            zuuluu = kiloes.bind(romeon)(backup, zuuluu, sizing);
-            _fun00010_ip = 846; continue _fun00009;
- 841:
-            zuuluu = foxtra.description;
- 846:
-            _fun00010_ip = 988; continue _fun00009;
- 851:
+            kiloes = _closure1_slot1;
+            output = 6;
+            output = kiloes[output];
+            output = vacuum.bind(oscard)(output);
+            source = output.SharedQuestFields;
+            update = source.build;
+            output = entity.config;
+            output = update.bind(source)(output);
+            output = output.defaultRewardNameWithArticle;
+            echoed = echoed.targetMinutes;
+            update = entity.config;
+            update = update.messages;
+            update = update.gameTitle;
+            source = kiloes[backup];
+            config = vacuum.bind(oscard)(source);
+            sequen = config.isCollectibleQuestRewardPremiumExtendable;
+            source = entity.config;
+            source = sequen.bind(config)(source);
+            kiloes = kiloes[backup];
+            vacuum = vacuum.bind(oscard)(kiloes);
+            kiloes = vacuum.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            entity = entity.config;
+            entity = kiloes.bind(vacuum)(entity);
+            kiloes = _closure1_slot12;
+            if(!ctrled) { _fun00010_ip = 551; continue _fun00009 }
+ 548:
+            if(source) { _fun00010_ip = 626; continue _fun00009 }
+ 551:
+            if(source) { _fun00010_ip = 591; continue _fun00009 }
+ 554:
+            if(!(foxtra == result)) { _fun00010_ip = 591; continue _fun00009 }
+ 558:
+            source = _closure1_slot0;
+            ctrled = _closure1_slot1;
+            foxtra = 5;
+            foxtra = ctrled[foxtra];
+            foxtra = source.bind(oscard)(foxtra);
+            foxtra = foxtra.t;
+            foxtra = foxtra.hkJ+Gh;
+            _fun00010_ip = 624; continue _fun00009;
+ 591:
+            ctrled = _closure1_slot0;
+            vacuum = _closure1_slot1;
+            source = 5;
+            source = vacuum[source];
+            source = ctrled.bind(oscard)(source);
+            source = source.t;
+            foxtra = source.BLyDvL;
+ 624:
+            _fun00010_ip = 675; continue _fun00009;
+ 626:
+            ctrled = _closure1_slot0;
+            vacuum = _closure1_slot1;
+            source = 5;
+            source = vacuum[source];
+            source = ctrled.bind(oscard)(source);
+            source = source.t;
+            if(entity) { _fun00010_ip = 664; continue _fun00009 }
+ 654:
+            entity = source.smG9qq;
+            _fun00010_ip = 672; continue _fun00009;
+ 664:
+            entity = source.X8Yt//;
+ 672:
+            foxtra = entity;
+ 675:
+            entity = {};
+            entity['gameTitle'] = update;
+            entity['streamingDurationRequirement'] = echoed;
+            entity['duration'] = result;
+            entity['questReward'] = output;
+            entity = kiloes.bind(oscard)(foxtra, entity, sizing);
+            _fun00010_ip = 710; continue _fun00009;
+ 705:
+            entity = romeon.description;
+ 710:
+            _fun00010_ip = 852; continue _fun00009;
+ 715:
             kiloes = {};
-            kiloes['quest'] = oscard;
+            kiloes['quest'] = option;
             kiloes['taskDetails'] = golfie;
             kiloes['withoutMarkdown'] = report;
-            foxtra = kiloes.quest;
-            backup = kiloes.taskDetails;
+            romeon = kiloes.quest;
+            foxtra = kiloes.taskDetails;
             sizing = kiloes.withoutMarkdown;
-            echoed = backup.targetMinutes;
-            backup = _closure1_slot0;
-            source = _closure1_slot1;
-            kiloes = 6;
-            kiloes = source[kiloes];
-            kiloes = backup.bind(romeon)(kiloes);
-            result = kiloes.SharedQuestFields;
-            kiloes = result.build;
-            foxtra = foxtra.config;
-            foxtra = kiloes.bind(result)(foxtra);
-            result = foxtra.defaultRewardNameWithArticle;
-            kiloes = _closure1_slot12;
-            foxtra = 5;
-            foxtra = source[foxtra];
-            foxtra = backup.bind(romeon)(foxtra);
-            foxtra = foxtra.t;
-            backup = foxtra.VYwSSk;
-            foxtra = {};
-            foxtra['streamingDurationRequirement'] = echoed;
-            foxtra['questReward'] = result;
-            zuuluu = kiloes.bind(romeon)(backup, foxtra, sizing);
- 988:
-            _fun00010_ip = 1375; continue _fun00009;
- 993:
-            backup = 6;
-            offset = offset[backup];
-            offset = yankee.bind(romeon)(offset);
-            foxtra = offset.SharedQuestFields;
-            yankee = foxtra.build;
-            offset = oscard.config;
-            offset = yankee.bind(foxtra)(offset);
-            foxtra = offset.defaultWatchVideoTask;
-            yankee = null;
-            kiloes = yankee == foxtra;
-            offset = undefined;
-            if(kiloes) { _fun00010_ip = 1056; continue _fun00009 }
- 1044:
-            foxtra = foxtra.messages;
-            offset = foxtra.videoTitle;
- 1056:
-            foxtra = yankee != offset;
-            kiloes = 'video';
-            if(!foxtra) { _fun00010_ip = 1070; continue _fun00009 }
- 1067:
-            kiloes = offset;
- 1070:
+            result = foxtra.targetMinutes;
             foxtra = _closure1_slot0;
-            offset = _closure1_slot1;
-            backup = offset[backup];
-            backup = foxtra.bind(romeon)(backup);
-            result = backup.SharedQuestFields;
-            sizing = result.build;
-            backup = oscard.config;
-            backup = sizing.bind(result)(backup);
-            backup = backup.defaultRewardNameWithArticle;
-            sizing = offset[update];
-            echoed = foxtra.bind(romeon)(sizing);
-            result = echoed.isCollectibleQuestRewardPremiumExtendable;
-            sizing = oscard.config;
-            sizing = result.bind(echoed)(sizing);
-            offset = offset[update];
-            result = foxtra.bind(romeon)(offset);
-            foxtra = result.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            offset = oscard.config;
-            offset = foxtra.bind(result)(offset);
-            foxtra = _closure1_slot12;
-            if(!sizing) { _fun00010_ip = 1178; continue _fun00009 }
- 1172:
-            if(verify) { _fun00010_ip = 1303; continue _fun00009 }
- 1178:
-            if(sizing) { _fun00010_ip = 1268; continue _fun00009 }
- 1181:
-            if(!(yankee == option)) { _fun00010_ip = 1268; continue _fun00009 }
- 1185:
-            sizing = oscard.id;
-            yankee = _closure1_slot4;
-            if(!(sizing !== yankee)) { _fun00010_ip = 1233; continue _fun00009 }
- 1198:
-            sizing = _closure1_slot0;
-            result = _closure1_slot1;
-            yankee = 5;
-            yankee = result[yankee];
-            yankee = sizing.bind(romeon)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.yMsQ7e;
-            _fun00010_ip = 1266; continue _fun00009;
- 1233:
-            result = _closure1_slot0;
             echoed = _closure1_slot1;
-            sizing = 5;
-            sizing = echoed[sizing];
-            sizing = result.bind(romeon)(sizing);
-            sizing = sizing.t;
-            yankee = sizing.Rsd5bG;
- 1266:
-            _fun00010_ip = 1301; continue _fun00009;
- 1268:
-            result = _closure1_slot0;
-            echoed = _closure1_slot1;
-            sizing = 5;
-            sizing = echoed[sizing];
-            sizing = result.bind(romeon)(sizing);
-            sizing = sizing.t;
-            yankee = sizing.W/HkLC;
- 1301:
-            _fun00010_ip = 1352; continue _fun00009;
- 1303:
-            result = _closure1_slot0;
-            echoed = _closure1_slot1;
-            sizing = 5;
-            sizing = echoed[sizing];
-            sizing = result.bind(romeon)(sizing);
-            sizing = sizing.t;
-            if(offset) { _fun00010_ip = 1341; continue _fun00009 }
- 1331:
-            offset = sizing.vs/xBg;
-            _fun00010_ip = 1349; continue _fun00009;
- 1341:
-            offset = sizing.xqX+golfie;
- 1349:
-            yankee = offset;
- 1352:
-            offset = {};
-            offset['videoTitle'] = kiloes;
-            offset['rewardNameWithArticle'] = backup;
-            offset['duration'] = option;
-            zuuluu = foxtra.bind(romeon)(yankee, offset, report);
- 1375:
-            _fun00010_ip = 1491; continue _fun00009;
- 1377:
-            foxtra = {};
-            foxtra['quest'] = oscard;
-            foxtra['taskDetails'] = golfie;
-            foxtra['withoutMarkdown'] = report;
-            offset = foxtra.quest;
-            yankee = foxtra.taskDetails;
-            backup = foxtra.withoutMarkdown;
-            kiloes = yankee.targetMinutes;
-            offset = offset.config;
+            kiloes = 6;
+            kiloes = echoed[kiloes];
+            kiloes = foxtra.bind(oscard)(kiloes);
+            output = kiloes.SharedQuestFields;
+            kiloes = output.build;
+            romeon = romeon.config;
+            romeon = kiloes.bind(output)(romeon);
+            output = romeon.defaultRewardNameWithArticle;
+            kiloes = _closure1_slot12;
+            romeon = 5;
+            romeon = echoed[romeon];
+            romeon = foxtra.bind(oscard)(romeon);
+            romeon = romeon.t;
+            foxtra = romeon.VYwSSk;
+            romeon = {};
+            romeon['streamingDurationRequirement'] = result;
+            romeon['questReward'] = output;
+            entity = kiloes.bind(oscard)(foxtra, romeon, sizing);
+ 852:
+            _fun00010_ip = 1252; continue _fun00009;
+ 857:
+            romeon = 6;
+            tangon = tangon[romeon];
+            tangon = offset.bind(oscard)(tangon);
+            foxtra = tangon.SharedQuestFields;
+            offset = foxtra.build;
+            tangon = option.config;
+            tangon = offset.bind(foxtra)(tangon);
+            offset = tangon.defaultWatchVideoTask;
+            kiloes = null;
+            foxtra = kiloes == offset;
+            tangon = undefined;
+            if(foxtra) { _fun00010_ip = 920; continue _fun00009 }
+ 908:
             offset = offset.messages;
-            sizing = offset.gameTitle;
-            foxtra = _closure1_slot12;
-            yankee = _closure1_slot0;
-            result = _closure1_slot1;
-            offset = 5;
-            offset = result[offset];
-            offset = yankee.bind(romeon)(offset);
-            offset = offset.t;
-            yankee = offset.a/ia7O;
+            tangon = offset.videoTitle;
+ 920:
+            offset = kiloes != tangon;
+            foxtra = 'video';
+            if(!offset) { _fun00010_ip = 934; continue _fun00009 }
+ 931:
+            foxtra = tangon;
+ 934:
+            offset = _closure1_slot0;
+            tangon = _closure1_slot1;
+            romeon = tangon[romeon];
+            romeon = offset.bind(oscard)(romeon);
+            output = romeon.SharedQuestFields;
+            sizing = output.build;
+            romeon = option.config;
+            romeon = sizing.bind(output)(romeon);
+            romeon = romeon.defaultRewardNameWithArticle;
+            sizing = tangon[backup];
+            result = offset.bind(oscard)(sizing);
+            output = result.isCollectibleQuestRewardPremiumExtendable;
+            sizing = option.config;
+            sizing = output.bind(result)(sizing);
+            tangon = tangon[backup];
+            output = offset.bind(oscard)(tangon);
+            offset = output.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            tangon = option.config;
+            tangon = offset.bind(output)(tangon);
+            offset = _closure1_slot12;
+            if(!sizing) { _fun00010_ip = 1042; continue _fun00009 }
+ 1036:
+            if(zuuluu) { _fun00010_ip = 1180; continue _fun00009 }
+ 1042:
+            if(sizing) { _fun00010_ip = 1145; continue _fun00009 }
+ 1045:
+            if(!(kiloes == michal)) { _fun00010_ip = 1145; continue _fun00009 }
+ 1049:
+            sizing = option.id;
+            kiloes = _closure1_slot4;
+            if(!(sizing !== kiloes)) { _fun00010_ip = 1110; continue _fun00009 }
+ 1062:
+            sizing = _closure1_slot0;
+            output = _closure1_slot1;
+            kiloes = 5;
+            kiloes = output[kiloes];
+            kiloes = sizing.bind(oscard)(kiloes);
+            kiloes = kiloes.t;
+            if(verify) { _fun00010_ip = 1100; continue _fun00009 }
+ 1090:
+            verify = kiloes.yMsQ7e;
+            _fun00010_ip = 1108; continue _fun00009;
+ 1100:
+            verify = kiloes.g+InPD;
+ 1108:
+            _fun00010_ip = 1143; continue _fun00009;
+ 1110:
+            sizing = _closure1_slot0;
+            output = _closure1_slot1;
+            kiloes = 5;
+            kiloes = output[kiloes];
+            kiloes = sizing.bind(oscard)(kiloes);
+            kiloes = kiloes.t;
+            verify = kiloes.Rsd5bG;
+ 1143:
+            _fun00010_ip = 1178; continue _fun00009;
+ 1145:
+            sizing = _closure1_slot0;
+            output = _closure1_slot1;
+            kiloes = 5;
+            kiloes = output[kiloes];
+            kiloes = sizing.bind(oscard)(kiloes);
+            kiloes = kiloes.t;
+            verify = kiloes.W/HkLC;
+ 1178:
+            _fun00010_ip = 1229; continue _fun00009;
+ 1180:
+            sizing = _closure1_slot0;
+            output = _closure1_slot1;
+            kiloes = 5;
+            kiloes = output[kiloes];
+            kiloes = sizing.bind(oscard)(kiloes);
+            kiloes = kiloes.t;
+            if(tangon) { _fun00010_ip = 1218; continue _fun00009 }
+ 1208:
+            tangon = kiloes.vs/xBg;
+            _fun00010_ip = 1226; continue _fun00009;
+ 1218:
+            tangon = kiloes.xqX+golfie;
+ 1226:
+            verify = tangon;
+ 1229:
+            tangon = {};
+            tangon['videoTitle'] = foxtra;
+            tangon['rewardNameWithArticle'] = romeon;
+            tangon['duration'] = michal;
+            entity = offset.bind(oscard)(verify, tangon, report);
+ 1252:
+            _fun00010_ip = 1368; continue _fun00009;
+ 1254:
             offset = {};
-            offset['gameTitle'] = sizing;
-            offset['streamingDurationRequirement'] = kiloes;
-            zuuluu = foxtra.bind(romeon)(yankee, offset, backup);
- 1491:
-            _fun00010_ip = 1839; continue _fun00009;
- 1496:
-            foxtra = {};
-            foxtra['quest'] = oscard;
-            foxtra['taskDetails'] = golfie;
-            foxtra['withoutMarkdown'] = report;
-            foxtra['hasNitro'] = verify;
-            foxtra['collectibleRewardDuration'] = option;
-            offset = foxtra.quest;
-            yankee = foxtra.taskDetails;
-            backup = foxtra.withoutMarkdown;
-            source = foxtra.hasNitro;
-            sizing = foxtra.collectibleRewardDuration;
-            ctrled = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            kiloes = 6;
-            kiloes = foxtra[kiloes];
-            kiloes = ctrled.bind(romeon)(kiloes);
-            echoed = kiloes.SharedQuestFields;
-            result = echoed.build;
-            kiloes = offset.config;
-            kiloes = result.bind(echoed)(kiloes);
-            kiloes = kiloes.defaultRewardNameWithArticle;
-            result = yankee.targetMinutes;
-            yankee = offset.config;
-            yankee = yankee.messages;
-            echoed = yankee.gameTitle;
-            yankee = foxtra[update];
-            sequen = ctrled.bind(romeon)(yankee);
-            vacuum = sequen.isCollectibleQuestRewardPremiumExtendable;
-            yankee = offset.config;
-            yankee = vacuum.bind(sequen)(yankee);
-            foxtra = foxtra[update];
-            ctrled = ctrled.bind(romeon)(foxtra);
-            foxtra = ctrled.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            offset = offset.config;
-            offset = foxtra.bind(ctrled)(offset);
-            foxtra = _closure1_slot12;
-            if(!source) { _fun00010_ip = 1684; continue _fun00009 }
- 1681:
-            if(yankee) { _fun00010_ip = 1761; continue _fun00009 }
- 1684:
-            if(yankee) { _fun00010_ip = 1728; continue _fun00009 }
- 1687:
-            yankee = null;
-            if(!(yankee == sizing)) { _fun00010_ip = 1728; continue _fun00009 }
- 1693:
-            source = _closure1_slot0;
-            ctrled = _closure1_slot1;
-            yankee = 5;
-            yankee = ctrled[yankee];
-            yankee = source.bind(romeon)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.FZL5Q0;
-            _fun00010_ip = 1759; continue _fun00009;
- 1728:
-            ctrled = _closure1_slot0;
-            vacuum = _closure1_slot1;
-            source = 5;
-            source = vacuum[source];
-            source = ctrled.bind(romeon)(source);
-            source = source.t;
-            yankee = source.AwuMRU;
- 1759:
-            _fun00010_ip = 1806; continue _fun00009;
- 1761:
-            ctrled = _closure1_slot0;
-            vacuum = _closure1_slot1;
-            source = 5;
-            source = vacuum[source];
-            source = ctrled.bind(romeon)(source);
-            source = source.t;
-            if(offset) { _fun00010_ip = 1797; continue _fun00009 }
- 1789:
-            offset = source.ziB0HB;
-            _fun00010_ip = 1803; continue _fun00009;
- 1797:
-            offset = source.eb/SnZ;
- 1803:
-            yankee = offset;
- 1806:
-            offset = {};
-            offset['gameTitle'] = echoed;
-            offset['streamingDurationRequirement'] = result;
-            offset['rewardNameWithArticle'] = kiloes;
-            offset['duration'] = sizing;
-            offset['questReward'] = kiloes;
-            zuuluu = foxtra.bind(romeon)(yankee, offset, backup);
- 1839:
-            _fun00010_ip = 2185; continue _fun00009;
- 1844:
-            foxtra = {};
-            foxtra['quest'] = oscard;
-            foxtra['taskDetails'] = golfie;
-            foxtra['withoutMarkdown'] = report;
-            foxtra['hasNitro'] = verify;
-            foxtra['collectibleRewardDuration'] = option;
-            offset = foxtra.quest;
-            yankee = foxtra.taskDetails;
-            backup = foxtra.withoutMarkdown;
-            source = foxtra.hasNitro;
-            sizing = foxtra.collectibleRewardDuration;
-            ctrled = _closure1_slot0;
-            foxtra = _closure1_slot1;
-            kiloes = 6;
-            kiloes = foxtra[kiloes];
-            kiloes = ctrled.bind(romeon)(kiloes);
-            echoed = kiloes.SharedQuestFields;
-            result = echoed.build;
-            kiloes = offset.config;
-            kiloes = result.bind(echoed)(kiloes);
-            result = kiloes.defaultRewardNameWithArticle;
-            kiloes = yankee.targetMinutes;
-            yankee = offset.config;
-            yankee = yankee.messages;
-            echoed = yankee.gameTitle;
-            yankee = foxtra[update];
-            sequen = ctrled.bind(romeon)(yankee);
-            vacuum = sequen.isCollectibleQuestRewardPremiumExtendable;
-            yankee = offset.config;
-            yankee = vacuum.bind(sequen)(yankee);
-            foxtra = foxtra[update];
-            ctrled = ctrled.bind(romeon)(foxtra);
-            foxtra = ctrled.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            offset = offset.config;
-            offset = foxtra.bind(ctrled)(offset);
-            foxtra = _closure1_slot12;
-            if(!source) { _fun00010_ip = 2032; continue _fun00009 }
- 2029:
-            if(yankee) { _fun00010_ip = 2107; continue _fun00009 }
- 2032:
-            if(yankee) { _fun00010_ip = 2074; continue _fun00009 }
- 2035:
-            yankee = null;
-            if(!(yankee == sizing)) { _fun00010_ip = 2074; continue _fun00009 }
- 2041:
-            source = _closure1_slot0;
-            ctrled = _closure1_slot1;
-            yankee = 5;
-            yankee = ctrled[yankee];
-            yankee = source.bind(romeon)(yankee);
-            yankee = yankee.t;
-            yankee = yankee.NIimTk;
-            _fun00010_ip = 2105; continue _fun00009;
- 2074:
-            ctrled = _closure1_slot0;
-            vacuum = _closure1_slot1;
-            source = 5;
-            source = vacuum[source];
-            source = ctrled.bind(romeon)(source);
-            source = source.t;
-            yankee = source.AwuMRU;
- 2105:
-            _fun00010_ip = 2152; continue _fun00009;
- 2107:
-            ctrled = _closure1_slot0;
-            vacuum = _closure1_slot1;
-            source = 5;
-            source = vacuum[source];
-            source = ctrled.bind(romeon)(source);
-            source = source.t;
-            if(offset) { _fun00010_ip = 2143; continue _fun00009 }
- 2135:
-            offset = source.ziB0HB;
-            _fun00010_ip = 2149; continue _fun00009;
- 2143:
-            offset = source.eb/SnZ;
- 2149:
-            yankee = offset;
- 2152:
-            offset = {};
-            offset['gameTitle'] = echoed;
-            offset['targetMinutes'] = kiloes;
-            offset['rewardNameWithArticle'] = result;
-            offset['duration'] = sizing;
-            offset['streamingDurationRequirement'] = kiloes;
-            zuuluu = foxtra.bind(romeon)(yankee, offset, backup);
- 2185:
-            _fun00010_ip = 2531; continue _fun00009;
- 2190:
-            offset = {};
-            offset['quest'] = oscard;
+            offset['quest'] = option;
             offset['taskDetails'] = golfie;
             offset['withoutMarkdown'] = report;
-            offset['hasNitro'] = verify;
-            offset['collectibleRewardDuration'] = option;
-            option = offset.quest;
+            tangon = offset.quest;
             verify = offset.taskDetails;
-            yankee = offset.withoutMarkdown;
+            romeon = offset.withoutMarkdown;
+            foxtra = verify.targetMinutes;
+            tangon = tangon.config;
+            tangon = tangon.messages;
+            kiloes = tangon.gameTitle;
+            offset = _closure1_slot12;
+            verify = _closure1_slot0;
+            sizing = _closure1_slot1;
+            tangon = 5;
+            tangon = sizing[tangon];
+            tangon = verify.bind(oscard)(tangon);
+            tangon = tangon.t;
+            verify = tangon.a/ia7O;
+            tangon = {};
+            tangon['gameTitle'] = kiloes;
+            tangon['streamingDurationRequirement'] = foxtra;
+            entity = offset.bind(oscard)(verify, tangon, romeon);
+ 1368:
+            _fun00010_ip = 1716; continue _fun00009;
+ 1373:
+            offset = {};
+            offset['quest'] = option;
+            offset['taskDetails'] = golfie;
+            offset['withoutMarkdown'] = report;
+            offset['hasNitro'] = zuuluu;
+            offset['collectibleRewardDuration'] = michal;
+            tangon = offset.quest;
+            verify = offset.taskDetails;
+            romeon = offset.withoutMarkdown;
             result = offset.hasNitro;
-            backup = offset.collectibleRewardDuration;
+            kiloes = offset.collectibleRewardDuration;
             echoed = _closure1_slot0;
             offset = _closure1_slot1;
             foxtra = 6;
             foxtra = offset[foxtra];
-            foxtra = echoed.bind(romeon)(foxtra);
-            sizing = foxtra.SharedQuestFields;
-            kiloes = sizing.build;
-            foxtra = option.config;
-            foxtra = kiloes.bind(sizing)(foxtra);
-            kiloes = foxtra.defaultRewardNameWithArticle;
-            foxtra = verify.targetMinutes;
-            verify = option.config;
+            foxtra = echoed.bind(oscard)(foxtra);
+            output = foxtra.SharedQuestFields;
+            sizing = output.build;
+            foxtra = tangon.config;
+            foxtra = sizing.bind(output)(foxtra);
+            foxtra = foxtra.defaultRewardNameWithArticle;
+            sizing = verify.targetMinutes;
+            verify = tangon.config;
             verify = verify.messages;
-            sizing = verify.gameTitle;
-            verify = offset[update];
-            ctrled = echoed.bind(romeon)(verify);
-            source = ctrled.isCollectibleQuestRewardPremiumExtendable;
-            verify = option.config;
-            verify = source.bind(ctrled)(verify);
-            offset = offset[update];
-            echoed = echoed.bind(romeon)(offset);
+            output = verify.gameTitle;
+            verify = offset[backup];
+            source = echoed.bind(oscard)(verify);
+            update = source.isCollectibleQuestRewardPremiumExtendable;
+            verify = tangon.config;
+            verify = update.bind(source)(verify);
+            offset = offset[backup];
+            echoed = echoed.bind(oscard)(offset);
             offset = echoed.isCollectibleQuestRewardPermanentWithPremiumSubscription;
-            option = option.config;
-            option = offset.bind(echoed)(option);
+            tangon = tangon.config;
+            tangon = offset.bind(echoed)(tangon);
             offset = _closure1_slot12;
-            if(!result) { _fun00010_ip = 2378; continue _fun00009 }
- 2375:
-            if(verify) { _fun00010_ip = 2453; continue _fun00009 }
- 2378:
-            if(verify) { _fun00010_ip = 2420; continue _fun00009 }
- 2381:
+            if(!result) { _fun00010_ip = 1561; continue _fun00009 }
+ 1558:
+            if(verify) { _fun00010_ip = 1638; continue _fun00009 }
+ 1561:
+            if(verify) { _fun00010_ip = 1605; continue _fun00009 }
+ 1564:
             verify = null;
-            if(!(verify == backup)) { _fun00010_ip = 2420; continue _fun00009 }
- 2387:
+            if(!(verify == kiloes)) { _fun00010_ip = 1605; continue _fun00009 }
+ 1570:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
             verify = 5;
             verify = echoed[verify];
-            verify = result.bind(romeon)(verify);
+            verify = result.bind(oscard)(verify);
             verify = verify.t;
-            verify = verify.NIimTk;
-            _fun00010_ip = 2451; continue _fun00009;
- 2420:
+            verify = verify.FZL5Q0;
+            _fun00010_ip = 1636; continue _fun00009;
+ 1605:
             echoed = _closure1_slot0;
             update = _closure1_slot1;
             result = 5;
             result = update[result];
-            result = echoed.bind(romeon)(result);
+            result = echoed.bind(oscard)(result);
             result = result.t;
             verify = result.AwuMRU;
- 2451:
-            _fun00010_ip = 2498; continue _fun00009;
- 2453:
+ 1636:
+            _fun00010_ip = 1683; continue _fun00009;
+ 1638:
+            echoed = _closure1_slot0;
+            update = _closure1_slot1;
+            result = 5;
+            result = update[result];
+            result = echoed.bind(oscard)(result);
+            result = result.t;
+            if(tangon) { _fun00010_ip = 1674; continue _fun00009 }
+ 1666:
+            tangon = result.ziB0HB;
+            _fun00010_ip = 1680; continue _fun00009;
+ 1674:
+            tangon = result.eb/SnZ;
+ 1680:
+            verify = tangon;
+ 1683:
+            tangon = {};
+            tangon['gameTitle'] = output;
+            tangon['streamingDurationRequirement'] = sizing;
+            tangon['rewardNameWithArticle'] = foxtra;
+            tangon['duration'] = kiloes;
+            tangon['questReward'] = foxtra;
+            entity = offset.bind(oscard)(verify, tangon, romeon);
+ 1716:
+            _fun00010_ip = 2062; continue _fun00009;
+ 1721:
+            offset = {};
+            offset['quest'] = option;
+            offset['taskDetails'] = golfie;
+            offset['withoutMarkdown'] = report;
+            offset['hasNitro'] = zuuluu;
+            offset['collectibleRewardDuration'] = michal;
+            tangon = offset.quest;
+            verify = offset.taskDetails;
+            romeon = offset.withoutMarkdown;
+            result = offset.hasNitro;
+            kiloes = offset.collectibleRewardDuration;
+            echoed = _closure1_slot0;
+            offset = _closure1_slot1;
+            foxtra = 6;
+            foxtra = offset[foxtra];
+            foxtra = echoed.bind(oscard)(foxtra);
+            output = foxtra.SharedQuestFields;
+            sizing = output.build;
+            foxtra = tangon.config;
+            foxtra = sizing.bind(output)(foxtra);
+            sizing = foxtra.defaultRewardNameWithArticle;
+            foxtra = verify.targetMinutes;
+            verify = tangon.config;
+            verify = verify.messages;
+            output = verify.gameTitle;
+            verify = offset[backup];
+            source = echoed.bind(oscard)(verify);
+            update = source.isCollectibleQuestRewardPremiumExtendable;
+            verify = tangon.config;
+            verify = update.bind(source)(verify);
+            offset = offset[backup];
+            echoed = echoed.bind(oscard)(offset);
+            offset = echoed.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            tangon = tangon.config;
+            tangon = offset.bind(echoed)(tangon);
+            offset = _closure1_slot12;
+            if(!result) { _fun00010_ip = 1909; continue _fun00009 }
+ 1906:
+            if(verify) { _fun00010_ip = 1984; continue _fun00009 }
+ 1909:
+            if(verify) { _fun00010_ip = 1951; continue _fun00009 }
+ 1912:
+            verify = null;
+            if(!(verify == kiloes)) { _fun00010_ip = 1951; continue _fun00009 }
+ 1918:
             result = _closure1_slot0;
             echoed = _closure1_slot1;
-            output = 5;
-            output = echoed[output];
-            output = result.bind(romeon)(output);
-            output = output.t;
-            if(option) { _fun00010_ip = 2489; continue _fun00009 }
- 2481:
-            option = output.ziB0HB;
-            _fun00010_ip = 2495; continue _fun00009;
- 2489:
-            option = output.eb/SnZ;
- 2495:
-            verify = option;
- 2498:
-            option = {};
-            option['gameTitle'] = sizing;
-            option['streamingDurationRequirement'] = foxtra;
-            option['rewardNameWithArticle'] = kiloes;
-            option['duration'] = backup;
-            option['targetMinutes'] = foxtra;
-            zuuluu = offset.bind(romeon)(verify, option, yankee);
- 2531:
-            return zuuluu;
- 2533:
-            michal = michal.messages;
-            michal = michal.taskDescription;
-            return michal;
- 2547:
-            verify = _closure1_slot0;
-            offset = _closure1_slot1;
-            michal = 5;
-            zuuluu = offset[michal];
-            zuuluu = verify.bind(tangon)(zuuluu);
-            option = zuuluu.intl;
-            zuuluu = option.string;
-            michal = offset[michal];
-            michal = verify.bind(tangon)(michal);
-            michal = michal.t;
-            michal = michal.f/J8v7;
-            michal = zuuluu.bind(option)(michal);
-            return michal;
- 2606:
-            option = _closure1_slot12;
-            zuuluu = _closure1_slot0;
-            verify = _closure1_slot1;
-            michal = 5;
-            michal = verify[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.t;
-            zuuluu = michal.NmzoDg;
+            verify = 5;
+            verify = echoed[verify];
+            verify = result.bind(oscard)(verify);
+            verify = verify.t;
+            verify = verify.NIimTk;
+            _fun00010_ip = 1982; continue _fun00009;
+ 1951:
+            echoed = _closure1_slot0;
+            update = _closure1_slot1;
+            result = 5;
+            result = update[result];
+            result = echoed.bind(oscard)(result);
+            result = result.t;
+            verify = result.AwuMRU;
+ 1982:
+            _fun00010_ip = 2029; continue _fun00009;
+ 1984:
+            echoed = _closure1_slot0;
+            update = _closure1_slot1;
+            result = 5;
+            result = update[result];
+            result = echoed.bind(oscard)(result);
+            result = result.t;
+            if(tangon) { _fun00010_ip = 2020; continue _fun00009 }
+ 2012:
+            tangon = result.ziB0HB;
+            _fun00010_ip = 2026; continue _fun00009;
+ 2020:
+            tangon = result.eb/SnZ;
+ 2026:
+            verify = tangon;
+ 2029:
+            tangon = {};
+            tangon['gameTitle'] = output;
+            tangon['targetMinutes'] = foxtra;
+            tangon['rewardNameWithArticle'] = sizing;
+            tangon['duration'] = kiloes;
+            tangon['streamingDurationRequirement'] = foxtra;
+            entity = offset.bind(oscard)(verify, tangon, romeon);
+ 2062:
+            _fun00010_ip = 2408; continue _fun00009;
+ 2067:
+            tangon = {};
+            tangon['quest'] = option;
+            tangon['taskDetails'] = golfie;
+            tangon['withoutMarkdown'] = report;
+            tangon['hasNitro'] = zuuluu;
+            tangon['collectibleRewardDuration'] = michal;
+            michal = tangon.quest;
+            zuuluu = tangon.taskDetails;
+            report = tangon.withoutMarkdown;
+            romeon = tangon.hasNitro;
+            option = tangon.collectibleRewardDuration;
+            foxtra = _closure1_slot0;
+            tangon = _closure1_slot1;
+            golfie = 6;
+            golfie = tangon[golfie];
+            golfie = foxtra.bind(oscard)(golfie);
+            offset = golfie.SharedQuestFields;
+            verify = offset.build;
+            golfie = michal.config;
+            golfie = verify.bind(offset)(golfie);
+            verify = golfie.defaultRewardNameWithArticle;
+            golfie = zuuluu.targetMinutes;
+            zuuluu = michal.config;
+            zuuluu = zuuluu.messages;
+            offset = zuuluu.gameTitle;
+            zuuluu = tangon[backup];
+            sizing = foxtra.bind(oscard)(zuuluu);
+            kiloes = sizing.isCollectibleQuestRewardPremiumExtendable;
+            zuuluu = michal.config;
+            zuuluu = kiloes.bind(sizing)(zuuluu);
+            tangon = tangon[backup];
+            foxtra = foxtra.bind(oscard)(tangon);
+            tangon = foxtra.isCollectibleQuestRewardPermanentWithPremiumSubscription;
+            michal = michal.config;
+            michal = tangon.bind(foxtra)(michal);
+            tangon = _closure1_slot12;
+            if(!romeon) { _fun00010_ip = 2255; continue _fun00009 }
+ 2252:
+            if(zuuluu) { _fun00010_ip = 2330; continue _fun00009 }
+ 2255:
+            if(zuuluu) { _fun00010_ip = 2297; continue _fun00009 }
+ 2258:
+            zuuluu = null;
+            if(!(zuuluu == option)) { _fun00010_ip = 2297; continue _fun00009 }
+ 2264:
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
+            zuuluu = 5;
+            zuuluu = foxtra[zuuluu];
+            zuuluu = romeon.bind(oscard)(zuuluu);
+            zuuluu = zuuluu.t;
+            zuuluu = zuuluu.NIimTk;
+            _fun00010_ip = 2328; continue _fun00009;
+ 2297:
+            foxtra = _closure1_slot0;
+            backup = _closure1_slot1;
+            romeon = 5;
+            romeon = backup[romeon];
+            romeon = foxtra.bind(oscard)(romeon);
+            romeon = romeon.t;
+            zuuluu = romeon.AwuMRU;
+ 2328:
+            _fun00010_ip = 2375; continue _fun00009;
+ 2330:
+            romeon = _closure1_slot0;
+            foxtra = _closure1_slot1;
+            yankee = 5;
+            yankee = foxtra[yankee];
+            yankee = romeon.bind(oscard)(yankee);
+            yankee = yankee.t;
+            if(michal) { _fun00010_ip = 2366; continue _fun00009 }
+ 2358:
+            michal = yankee.ziB0HB;
+            _fun00010_ip = 2372; continue _fun00009;
+ 2366:
+            michal = yankee.eb/SnZ;
+ 2372:
+            zuuluu = michal;
+ 2375:
             michal = {};
-            verify = golfie.targetMinutes;
-            michal['targetMinutes'] = verify;
-            verify = oscard.config;
-            verify = verify.messages;
-            verify = verify.gameTitle;
-            michal['gameTitle'] = verify;
-            michal = option.bind(tangon)(zuuluu, michal, report);
-            return michal;
- 2687:
-            zuuluu = _closure1_slot12;
-            michal = _closure1_slot0;
-            option = _closure1_slot1;
-            entity = 5;
-            entity = option[entity];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.t;
-            michal = entity.goA6o6;
-            entity = {};
-            golfie = golfie.targetMinutes;
-            entity['targetMinutes'] = golfie;
-            oscard = oscard.config;
-            oscard = oscard.messages;
-            oscard = oscard.gameTitle;
-            entity['gameTitle'] = oscard;
-            entity = zuuluu.bind(tangon)(michal, entity, report);
+            michal['gameTitle'] = offset;
+            michal['streamingDurationRequirement'] = golfie;
+            michal['rewardNameWithArticle'] = verify;
+            michal['duration'] = option;
+            michal['targetMinutes'] = golfie;
+            entity = tangon.bind(oscard)(zuuluu, michal, report);
+ 2408:
             return entity;
         }
     };
@@ -908,103 +830,121 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             report = _closure1_slot13;
             zuuluu = {};
-            verify = zuuluu;
-            option = entity;
-            tangon = copyDataProperties(verify, option);
-            oscard = entity.currentUser;
-            tangon = null;
-            if(!(tangon == oscard)) { _fun00012_ip = 47; continue _fun00011 }
+            offset = zuuluu;
+            verify = entity;
+            tangon = copyDataProperties(offset, verify);
+            golfie = entity.currentUser;
+            oscard = null;
+            if(!(oscard == golfie)) { _fun00012_ip = 47; continue _fun00011 }
  34:
-            golfie = _closure1_slot3;
-            tangon = golfie.getCurrentUser;
-            oscard = tangon.bind(golfie)();
+            option = _closure1_slot3;
+            tangon = option.getCurrentUser;
+            golfie = tangon.bind(option)();
  47:
             tangon = 'currentUser';
+            zuuluu[tangon] = golfie;
+            tangon = entity.withVideoQuestShortDescription;
+            oscard = oscard != tangon;
+            if(!oscard) { _fun00012_ip = 72; continue _fun00011 }
+ 69:
+            oscard = tangon;
+ 72:
+            tangon = 'withVideoQuestShortDescription';
             zuuluu[tangon] = oscard;
             tangon = undefined;
             zuuluu = report.bind(tangon)(zuuluu);
             report = entity.withoutMarkdown;
             entity = zuuluu;
-            if(!report) { _fun00012_ip = 84; continue _fun00011 }
- 75:
+            if(!report) { _fun00012_ip = 109; continue _fun00011 }
+ 100:
             michal = _closure1_slot8;
             entity = michal.bind(tangon)(zuuluu);
- 84:
+ 109:
             return entity;
         }
     };
     var _closure1_slot14 = tangon;
-    entity = function(argFoo) { // Original name: getSimplifiedQuestTaskType
-        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+    entity = function(argFoo) { // Original name: useSimplifiedQuestTaskType
+        report = argFoo;
+        var _closure2_slot0 = report;
+        tangon = _closure1_slot2;
+        zuuluu = tangon.useMemo;
+        michal = new Array(1);
+        michal[0] = report;
+        entity = function() {
+            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-            tangon = argFoo;
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            oscard = 7;
-            entity = entity[oscard];
-            report = undefined;
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.isConsoleQuest;
-            entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00014_ip = 223; continue _fun00013 }
- 45:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[oscard];
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.hasPlayActivityTask;
-            entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00014_ip = 223; continue _fun00013 }
- 79:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[oscard];
-            golfie = zuuluu.bind(report)(entity);
-            zuuluu = golfie.hasStreamOnDesktopTask;
-            entity = {};
-            entity['quest'] = tangon;
-            entity = zuuluu.bind(golfie)(entity);
-            if(entity) { _fun00014_ip = 211; continue _fun00013 }
- 117:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[oscard];
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.hasWatchVideoTasks;
-            entity = entity.bind(zuuluu)(tangon);
-            if(entity) { _fun00014_ip = 199; continue _fun00013 }
- 148:
-            zuuluu = _closure1_slot0;
-            entity = _closure1_slot1;
-            entity = entity[oscard];
-            zuuluu = zuuluu.bind(report)(entity);
-            entity = zuuluu.isInGameQuest;
-            entity = entity.bind(zuuluu)(tangon);
-            zuuluu = _closure1_slot9;
-            if(entity) { _fun00014_ip = 191; continue _fun00013 }
- 183:
-            entity = zuuluu.PLAY;
-            _fun00014_ip = 197; continue _fun00013;
- 191:
-            entity = zuuluu.IN_GAME;
- 197:
-            _fun00014_ip = 209; continue _fun00013;
- 199:
-            zuuluu = _closure1_slot9;
-            entity = zuuluu.WATCH_VIDEO;
- 209:
-            _fun00014_ip = 221; continue _fun00013;
- 211:
-            zuuluu = _closure1_slot9;
-            entity = zuuluu.STREAM;
- 221:
-            _fun00014_ip = 233; continue _fun00013;
- 223:
-            michal = _closure1_slot9;
-            entity = michal.PLAY;
- 233:
-            return entity;
-        }
+                tangon = _closure2_slot0;
+                zuuluu = _closure1_slot0;
+                entity = _closure1_slot1;
+                oscard = 7;
+                entity = entity[oscard];
+                report = undefined;
+                zuuluu = zuuluu.bind(report)(entity);
+                entity = zuuluu.isConsoleQuest;
+                entity = entity.bind(zuuluu)(tangon);
+                if(entity) { _fun00014_ip = 227; continue _fun00013 }
+ 49:
+                zuuluu = _closure1_slot0;
+                entity = _closure1_slot1;
+                entity = entity[oscard];
+                zuuluu = zuuluu.bind(report)(entity);
+                entity = zuuluu.hasPlayActivityTask;
+                entity = entity.bind(zuuluu)(tangon);
+                if(entity) { _fun00014_ip = 227; continue _fun00013 }
+ 83:
+                zuuluu = _closure1_slot0;
+                entity = _closure1_slot1;
+                entity = entity[oscard];
+                golfie = zuuluu.bind(report)(entity);
+                zuuluu = golfie.hasStreamOnDesktopTask;
+                entity = {};
+                entity['quest'] = tangon;
+                entity = zuuluu.bind(golfie)(entity);
+                if(entity) { _fun00014_ip = 215; continue _fun00013 }
+ 121:
+                zuuluu = _closure1_slot0;
+                entity = _closure1_slot1;
+                entity = entity[oscard];
+                zuuluu = zuuluu.bind(report)(entity);
+                entity = zuuluu.hasWatchVideoTasks;
+                entity = entity.bind(zuuluu)(tangon);
+                if(entity) { _fun00014_ip = 203; continue _fun00013 }
+ 152:
+                zuuluu = _closure1_slot0;
+                entity = _closure1_slot1;
+                entity = entity[oscard];
+                zuuluu = zuuluu.bind(report)(entity);
+                entity = zuuluu.isInGameQuest;
+                entity = entity.bind(zuuluu)(tangon);
+                zuuluu = _closure1_slot9;
+                if(entity) { _fun00014_ip = 195; continue _fun00013 }
+ 187:
+                entity = zuuluu.PLAY;
+                _fun00014_ip = 201; continue _fun00013;
+ 195:
+                entity = zuuluu.IN_GAME;
+ 201:
+                _fun00014_ip = 213; continue _fun00013;
+ 203:
+                zuuluu = _closure1_slot9;
+                entity = zuuluu.WATCH_VIDEO;
+ 213:
+                _fun00014_ip = 225; continue _fun00013;
+ 215:
+                zuuluu = _closure1_slot9;
+                entity = zuuluu.STREAM;
+ 225:
+                _fun00014_ip = 237; continue _fun00013;
+ 227:
+                michal = _closure1_slot9;
+                entity = michal.PLAY;
+ 237:
+                return entity;
+            }
+        };
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
     };
     var _closure1_slot15 = entity;
     entity = global;
@@ -1134,70 +1074,72 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: useQuestsInstructionsToWinReward
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-            report = argFoo;
-            yankee = report.quest;
-            verify = report.location;
-            foxtra = report.questContent;
-            romeon = report.sourceQuestContent;
-            golfie = _closure1_slot0;
-            option = _closure1_slot1;
-            michal = 9;
-            tangon = option[michal];
+            golfie = argFoo;
+            report = golfie.quest;
+            romeon = golfie.questContent;
+            yankee = golfie.sourceQuestContent;
+            michal = _closure1_slot0;
+            oscard = _closure1_slot1;
+            entity = 9;
+            option = oscard[entity];
             zuuluu = undefined;
-            offset = golfie.bind(zuuluu)(tangon);
-            oscard = offset.useConnectedConsoleLinkOnClick;
-            tangon = {};
-            tangon['quest'] = yankee;
-            tangon['questContent'] = foxtra;
-            tangon['sourceQuestContent'] = romeon;
-            offset = oscard.bind(offset)(tangon);
-            tangon = 10;
-            tangon = option[tangon];
-            foxtra = golfie.bind(zuuluu)(tangon);
-            romeon = foxtra.useStateFromStores;
-            tangon = _closure1_slot3;
-            oscard = new Array(1);
-            oscard[0] = tangon;
-            tangon = function() {
+            offset = michal.bind(zuuluu)(option);
+            verify = offset.useConnectedConsoleLinkOnClick;
+            option = {};
+            option['quest'] = report;
+            option['questContent'] = romeon;
+            option['sourceQuestContent'] = yankee;
+            verify = verify.bind(offset)(option);
+            option = 10;
+            option = oscard[option];
+            romeon = michal.bind(zuuluu)(option);
+            yankee = romeon.useStateFromStores;
+            option = _closure1_slot3;
+            offset = new Array(1);
+            offset[0] = option;
+            option = function() {
                 michal = _closure1_slot3;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
-            oscard = romeon.bind(foxtra)(oscard, tangon);
-            michal = option[michal];
-            tangon = golfie.bind(zuuluu)(michal);
-            michal = tangon.useThirdPartyTaskDetails;
-            tangon = michal.bind(tangon)(yankee);
+            option = yankee.bind(romeon)(offset, option);
+            entity = oscard[entity];
+            michal = michal.bind(zuuluu)(entity);
+            entity = michal.useThirdPartyTaskDetails;
+            report = entity.bind(michal)(report);
             michal = _closure1_slot14;
             entity = {};
-            sizing = entity;
-            kiloes = report;
-            report = copyDataProperties(sizing, kiloes);
-            report = 'connectedConsoleLinkOnClick';
-            entity[report] = offset;
-            offset = false;
-            report = 'withoutMarkdown';
-            entity[report] = offset;
-            report = 11;
-            report = option[report];
-            option = golfie.bind(zuuluu)(report);
-            golfie = option.useIsQuestBarCopySimplificationEnabled;
-            report = {};
-            report['location'] = verify;
-            golfie = golfie.bind(option)(report);
-            report = 'withSimplifiedCopy';
-            entity[report] = golfie;
-            report = 'currentUser';
+            kiloes = entity;
+            backup = golfie;
+            oscard = copyDataProperties(kiloes, backup);
+            oscard = 'connectedConsoleLinkOnClick';
+            entity[oscard] = verify;
+            verify = false;
+            oscard = 'withoutMarkdown';
+            entity[oscard] = verify;
+            oscard = 'currentUser';
+            entity[oscard] = option;
+            oscard = null;
+            option = oscard != report;
+            oscard = undefined;
+            if(!option) { _fun00018_ip = 197; continue _fun00017 }
+ 194:
+            oscard = report;
+ 197:
+            report = 'thirdPartyTaskDetails';
             entity[report] = oscard;
-            report = null;
-            oscard = report != tangon;
-            report = undefined;
-            if(!oscard) { _fun00018_ip = 240; continue _fun00017 }
- 237:
-            report = tangon;
- 240:
-            tangon = 'thirdPartyTaskDetails';
+            report = _closure1_slot0;
+            oscard = _closure1_slot1;
+            tangon = 11;
+            tangon = oscard[tangon];
+            oscard = report.bind(zuuluu)(tangon);
+            report = oscard.useIsVideoQuestShortDescriptionEnabled;
+            tangon = {};
+            golfie = golfie.location;
+            tangon['location'] = golfie;
+            report = report.bind(oscard)(tangon);
+            tangon = 'withVideoQuestShortDescription';
             entity[tangon] = report;
             entity = michal.bind(zuuluu)(entity);
             return entity;
@@ -1208,141 +1150,81 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             entity = argFoo;
-            zuuluu = entity.quest;
-            verify = entity.location;
-            option = entity.autoTrackExposure;
-            oscard = undefined;
-            if(!(option === oscard)) { _fun00020_ip = 28; continue _fun00019 }
- 26:
-            option = true;
- 28:
-            entity = function(argFoo) { // Original name: useSimplifiedQuestTaskType
-                report = argFoo;
-                var _closure3_slot0 = report;
-                tangon = _closure1_slot2;
-                zuuluu = tangon.useMemo;
-                michal = new Array(1);
-                michal[0] = report;
-                entity = function() {
-                    zuuluu = _closure1_slot15;
-                    michal = _closure3_slot0;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
-                    return entity;
-                };
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
-            };
-            report = entity.bind(oscard)(zuuluu);
-            tangon = _closure1_slot0;
-            golfie = _closure1_slot1;
-            entity = 11;
-            entity = golfie[entity];
-            golfie = tangon.bind(oscard)(entity);
-            tangon = golfie.useIsQuestBarCopySimplificationEnabled;
-            entity = {};
-            entity['location'] = verify;
-            entity['autoTrackExposure'] = option;
-            entity = tangon.bind(golfie)(entity);
-            tangon = _closure1_slot9;
-            tangon = tangon.PLAY;
-            if(!(tangon !== report)) { _fun00020_ip = 392; continue _fun00019 }
- 102:
-            tangon = _closure1_slot9;
-            tangon = tangon.STREAM;
-            if(!(tangon !== report)) { _fun00020_ip = 317; continue _fun00019 }
- 119:
-            tangon = _closure1_slot9;
-            tangon = tangon.WATCH_VIDEO;
-            if(!(tangon !== report)) { _fun00020_ip = 258; continue _fun00019 }
- 136:
-            tangon = _closure1_slot9;
-            tangon = tangon.IN_GAME;
-            if(!(tangon !== report)) { _fun00020_ip = 152; continue _fun00019 }
- 150:
-            return oscard;
- 152:
-            zuuluu = zuuluu.config;
-            report = zuuluu.features;
-            tangon = report.includes;
-            zuuluu = _closure1_slot5;
-            zuuluu = zuuluu.START_QUEST_CTA;
-            zuuluu = tangon.bind(report)(zuuluu);
-            option = _closure1_slot0;
-            verify = _closure1_slot1;
-            tangon = 5;
-            report = verify[tangon];
-            report = option.bind(oscard)(report);
-            golfie = report.intl;
-            report = golfie.string;
-            tangon = verify[tangon];
-            tangon = option.bind(oscard)(tangon);
-            tangon = tangon.t;
-            if(zuuluu) { _fun00020_ip = 243; continue _fun00019 }
- 230:
-            zuuluu = tangon.l7E81t;
-            zuuluu = report.bind(golfie)(zuuluu);
-            _fun00020_ip = 256; continue _fun00019;
- 243:
-            tangon = tangon.ToGcxM;
-            zuuluu = report.bind(golfie)(tangon);
- 256:
-            return zuuluu;
- 258:
+            michal = entity.quest;
+            zuuluu = _closure1_slot15;
+            report = undefined;
+            tangon = zuuluu.bind(report)(michal);
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.PLAY;
+            if(!(zuuluu !== tangon)) { _fun00020_ip = 255; continue _fun00019 }
+ 40:
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.STREAM;
+            if(!(zuuluu !== tangon)) { _fun00020_ip = 255; continue _fun00019 }
+ 57:
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.WATCH_VIDEO;
+            if(!(zuuluu !== tangon)) { _fun00020_ip = 196; continue _fun00019 }
+ 74:
+            zuuluu = _closure1_slot9;
+            zuuluu = zuuluu.IN_GAME;
+            if(!(zuuluu !== tangon)) { _fun00020_ip = 90; continue _fun00019 }
+ 88:
+            return report;
+ 90:
+            michal = michal.config;
+            tangon = michal.features;
+            zuuluu = tangon.includes;
+            michal = _closure1_slot5;
+            michal = michal.START_QUEST_CTA;
+            michal = zuuluu.bind(tangon)(michal);
             golfie = _closure1_slot0;
             option = _closure1_slot1;
             zuuluu = 5;
             tangon = option[zuuluu];
-            tangon = golfie.bind(oscard)(tangon);
-            report = tangon.intl;
-            tangon = report.string;
+            tangon = golfie.bind(report)(tangon);
+            oscard = tangon.intl;
+            tangon = oscard.string;
             zuuluu = option[zuuluu];
-            zuuluu = golfie.bind(oscard)(zuuluu);
+            zuuluu = golfie.bind(report)(zuuluu);
             zuuluu = zuuluu.t;
-            zuuluu = zuuluu.umdNio;
-            zuuluu = tangon.bind(report)(zuuluu);
-            return zuuluu;
- 317:
-            tangon = _closure1_slot0;
-            option = _closure1_slot1;
-            zuuluu = 5;
-            report = option[zuuluu];
-            report = tangon.bind(oscard)(report);
-            golfie = report.intl;
-            report = golfie.string;
-            zuuluu = option[zuuluu];
-            zuuluu = tangon.bind(oscard)(zuuluu);
-            tangon = zuuluu.t;
-            if(entity) { _fun00020_ip = 377; continue _fun00019 }
- 364:
-            zuuluu = tangon.l7E81t;
-            zuuluu = report.bind(golfie)(zuuluu);
-            _fun00020_ip = 390; continue _fun00019;
- 377:
-            tangon = tangon.hyrGU1;
-            zuuluu = report.bind(golfie)(tangon);
- 390:
-            return zuuluu;
- 392:
-            report = _closure1_slot0;
+            if(michal) { _fun00020_ip = 181; continue _fun00019 }
+ 168:
+            michal = zuuluu.l7E81t;
+            michal = tangon.bind(oscard)(michal);
+            _fun00020_ip = 194; continue _fun00019;
+ 181:
+            zuuluu = zuuluu.ToGcxM;
+            michal = tangon.bind(oscard)(zuuluu);
+ 194:
+            return michal;
+ 196:
+            oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             michal = 5;
             zuuluu = golfie[michal];
-            zuuluu = report.bind(oscard)(zuuluu);
+            zuuluu = oscard.bind(report)(zuuluu);
             tangon = zuuluu.intl;
             zuuluu = tangon.string;
             michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
+            michal = oscard.bind(report)(michal);
             michal = michal.t;
-            if(entity) { _fun00020_ip = 452; continue _fun00019 }
- 439:
-            entity = michal.l7E81t;
-            entity = zuuluu.bind(tangon)(entity);
-            _fun00020_ip = 465; continue _fun00019;
- 452:
-            michal = michal.Y7LIPT;
-            entity = zuuluu.bind(tangon)(michal);
- 465:
+            michal = michal.umdNio;
+            michal = zuuluu.bind(tangon)(michal);
+            return michal;
+ 255:
+            tangon = _closure1_slot0;
+            oscard = _closure1_slot1;
+            entity = 5;
+            michal = oscard[entity];
+            michal = tangon.bind(report)(michal);
+            zuuluu = michal.intl;
+            michal = zuuluu.string;
+            entity = oscard[entity];
+            entity = tangon.bind(report)(entity);
+            entity = entity.t;
+            entity = entity.l7E81t;
+            entity = michal.bind(zuuluu)(entity);
             return entity;
         }
     };
@@ -1369,6 +1251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             tangon = report.bind(oscard)(michal, tangon);
+            oscard = _closure1_slot2;
             report = oscard.useMemo;
             michal = new Array(1);
             michal[0] = golfie;
@@ -1386,8 +1269,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = report.bind(oscard)(entity, michal);
             entity = null;
-            if(!tangon) { _fun00022_ip = 149; continue _fun00021 }
- 69:
+            if(!tangon) { _fun00022_ip = 153; continue _fun00021 }
+ 73:
             golfie = _closure1_slot0;
             option = _closure1_slot1;
             zuuluu = 5;
@@ -1399,17 +1282,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(oscard)(zuuluu);
             zuuluu = zuuluu.t;
-            if(michal) { _fun00022_ip = 133; continue _fun00021 }
- 118:
+            if(michal) { _fun00022_ip = 137; continue _fun00021 }
+ 122:
             michal = zuuluu.GYGb3N;
             michal = tangon.bind(report)(michal);
-            _fun00022_ip = 146; continue _fun00021;
- 133:
+            _fun00022_ip = 150; continue _fun00021;
+ 137:
             zuuluu = zuuluu.hh7Rb2;
             michal = tangon.bind(report)(zuuluu);
- 146:
+ 150:
             entity = michal;
- 149:
+ 153:
             return entity;
         }
     };

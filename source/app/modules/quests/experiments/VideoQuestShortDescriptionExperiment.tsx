@@ -1,4 +1,4 @@
-// app/modules/quests/experiments/QuestBarCopySimplificationExperiment.tsx
+// app/modules/quests/experiments/VideoQuestShortDescriptionExperiment.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
@@ -16,12 +16,12 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     verify = oscard.bind(entity)(tangon);
     option = verify.createExperiment;
-    tangon = {'id': '2025-01_quest_bar_copy_simplification', 'kind': 'user', 'label': 'Quest Bar Copy Simplification'};
+    tangon = {'id': '2025-06_video_quest_card_short_description', 'kind': 'user', 'label': 'Video Quest Card Description'};
     report = {};
     offset = false;
     report['enabled'] = offset;
     tangon['defaultConfig'] = report;
-    yankee = {'id': 1, 'label': 'Simplified copy'};
+    yankee = {'id': 1, 'label': 'Video Quest Card Short Description'};
     report = 1;
     offset = {};
     offset['enabled'] = romeon;
@@ -34,10 +34,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'modules/quests/experiments/QuestBarCopySimplificationExperiment.tsx';
+    report = 'modules/quests/experiments/VideoQuestShortDescriptionExperiment.tsx';
     report = oscard.bind(golfie)(report);
-    zuuluu['QuestBarCopySimplification'] = tangon;
-    michal = function(argFoo) { // Original name: useIsQuestBarCopySimplificationEnabled
+    zuuluu['VideoQuestShortDescription'] = tangon;
+    michal = function(argFoo) { // Original name: useIsVideoQuestShortDescriptionEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
@@ -59,6 +59,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['useIsQuestBarCopySimplificationEnabled'] = michal;
+    zuuluu['useIsVideoQuestShortDescriptionEnabled'] = michal;
     return entity;
 })();

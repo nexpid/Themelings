@@ -64,19 +64,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            source = entity.messageContent;
+            ctrled = entity.messageContent;
             yankee = entity.firstMessage;
-            output = entity.firstMessageLoaded;
+            result = entity.firstMessageLoaded;
             offset = entity.hasUnreads;
-            ctrled = entity.isNew;
-            update = entity.media;
-            echoed = entity.isEmbed;
-            result = entity.isLocalDeviceMedia;
+            vacuum = entity.isNew;
+            source = entity.media;
+            update = entity.isEmbed;
+            echoed = entity.isLocalDeviceMedia;
             verify = entity.parentChannel;
             romeon = entity.thread;
+            output = entity.senderModifier;
             entity = _closure1_slot9;
             tangon = undefined;
-            vacuum = entity.bind(tangon)();
+            sequen = entity.bind(tangon)();
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 6;
@@ -87,10 +88,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.bind(michal)(romeon, zuuluu);
             entity = _closure1_slot3;
             michal = entity.bind(tangon)(michal, zuuluu);
-            sequen = 0;
-            papara = michal[sequen];
+            config = 0;
+            target = michal[config];
             entity = 1;
-            cntext = michal[entity];
+            papara = michal[entity];
             michal = romeon.hasFlag;
             entity = _closure1_slot5;
             entity = entity.PINNED;
@@ -100,56 +101,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             oscard = _closure1_slot4;
             report = {};
-            golfie = vacuum.content;
+            golfie = sequen.content;
             report['style'] = golfie;
             golfie = sizing;
-            if(sizing) { _fun00002_ip = 195; continue _fun00001 }
- 186:
-            option = papara.length;
-            golfie = sequen !== option;
- 195:
-            if(!golfie) { _fun00002_ip = 345; continue _fun00001 }
+            if(sizing) { _fun00002_ip = 201; continue _fun00001 }
+ 192:
+            option = target.length;
+            golfie = config !== option;
  201:
+            if(!golfie) { _fun00002_ip = 351; continue _fun00001 }
+ 207:
             kiloes = _closure1_slot7;
             backup = _closure1_slot4;
             option = {};
-            vacuum = vacuum.header;
-            option['style'] = vacuum;
-            vacuum = sizing;
-            if(!vacuum) { _fun00002_ip = 258; continue _fun00001 }
- 226:
-            record = _closure1_slot6;
-            config = _closure1_slot1;
-            target = _closure1_slot2;
+            sequen = sequen.header;
+            option['style'] = sequen;
+            sequen = sizing;
+            if(!sequen) { _fun00002_ip = 264; continue _fun00001 }
+ 232:
+            cntext = _closure1_slot6;
+            record = _closure1_slot1;
+            status = _closure1_slot2;
             sizing = 7;
-            sizing = target[sizing];
-            config = config.bind(tangon)(sizing);
+            sizing = status[sizing];
+            record = record.bind(tangon)(sizing);
             sizing = {};
-            vacuum = record.bind(tangon)(config, sizing);
- 258:
+            sequen = cntext.bind(tangon)(record, sizing);
+ 264:
             sizing = new Array(2);
-            sizing[0] = vacuum;
-            vacuum = papara.length;
-            vacuum = sequen !== vacuum;
-            if(!vacuum) { _fun00002_ip = 331; continue _fun00001 }
- 278:
-            record = _closure1_slot6;
-            config = _closure1_slot0;
-            target = _closure1_slot2;
-            sequen = 8;
-            sequen = target[sequen];
-            sequen = config.bind(tangon)(sequen);
-            config = sequen.ForumPostAppliedTagPills;
-            sequen = {};
-            sequen['appliedTags'] = papara;
-            sequen['additionalTagsCount'] = cntext;
-            sequen['hasUnreads'] = offset;
-            vacuum = record.bind(tangon)(config, sequen);
- 331:
-            sizing[1] = vacuum;
+            sizing[0] = sequen;
+            sequen = target.length;
+            sequen = config !== sequen;
+            if(!sequen) { _fun00002_ip = 337; continue _fun00001 }
+ 284:
+            cntext = _closure1_slot6;
+            record = _closure1_slot0;
+            status = _closure1_slot2;
+            config = 8;
+            config = status[config];
+            config = record.bind(tangon)(config);
+            record = config.ForumPostAppliedTagPills;
+            config = {};
+            config['appliedTags'] = target;
+            config['additionalTagsCount'] = papara;
+            config['hasUnreads'] = offset;
+            sequen = cntext.bind(tangon)(record, config);
+ 337:
+            sizing[1] = sequen;
             option['children'] = sizing;
             golfie = kiloes.bind(tangon)(backup, option);
- 345:
+ 351:
             backup = new Array(2);
             backup[0] = golfie;
             option = _closure1_slot6;
@@ -162,12 +163,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['thread'] = romeon;
             kiloes['firstMessage'] = yankee;
             kiloes['hasUnreads'] = offset;
-            kiloes['isNew'] = ctrled;
-            kiloes['messageContent'] = source;
-            kiloes['media'] = update;
-            kiloes['isEmbed'] = echoed;
-            kiloes['isLocalDeviceMedia'] = result;
-            kiloes['firstMessageLoaded'] = output;
+            kiloes['isNew'] = vacuum;
+            kiloes['messageContent'] = ctrled;
+            kiloes['media'] = source;
+            kiloes['isEmbed'] = update;
+            kiloes['isLocalDeviceMedia'] = echoed;
+            kiloes['firstMessageLoaded'] = result;
+            kiloes['senderModifier'] = output;
             kiloes = option.bind(tangon)(sizing, kiloes);
             backup[1] = kiloes;
             report['children'] = backup;

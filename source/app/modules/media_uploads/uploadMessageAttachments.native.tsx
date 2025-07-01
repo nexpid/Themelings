@@ -184,70 +184,80 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                             tangon = argFoo;
-                            oscard = _closure1_slot5;
-                            zuuluu = oscard.delete;
-                            michal = _closure4_slot1;
-                            michal = zuuluu.bind(oscard)(michal);
+                            var _closure5_slot0 = tangon;
+                            golfie = _closure1_slot5;
+                            oscard = golfie.delete;
+                            report = _closure4_slot1;
+                            report = oscard.bind(golfie)(report);
                             oscard = _closure1_slot4;
-                            zuuluu = oscard.getMessageForFile;
-                            michal = tangon.id;
-                            golfie = zuuluu.bind(oscard)(michal);
-                            verify = null;
-                            michal = verify != golfie;
-                            if(!michal) { _fun00004_ip = 69; continue _fun00003 }
- 56:
-                            oscard = golfie.content;
-                            zuuluu = '';
-                            michal = zuuluu === oscard;
- 69:
-                            if(!michal) { _fun00004_ip = 82; continue _fun00003 }
- 72:
-                            zuuluu = _closure4_slot3;
-                            michal = zuuluu._aborted;
- 82:
-                            if(!michal) { _fun00004_ip = 155; continue _fun00003 }
- 85:
-                            oscard = _closure1_slot1;
-                            zuuluu = _closure1_slot2;
-                            michal = 4;
-                            zuuluu = zuuluu[michal];
-                            michal = undefined;
-                            oscard = oscard.bind(michal)(zuuluu);
-                            zuuluu = oscard.dispatch;
-                            michal = {};
-                            option = 'MESSAGE_DELETE';
-                            michal['type'] = option;
-                            option = golfie.nonce;
-                            if(!(verify == option)) { _fun00004_ip = 137; continue _fun00003 }
- 132:
-                            option = golfie.id;
- 137:
-                            michal['id'] = option;
-                            golfie = golfie.channel_id;
-                            michal['channelId'] = golfie;
-                            michal = zuuluu.bind(oscard)(michal);
- 155:
+                            report = oscard.getMessageForFile;
+                            tangon = tangon.id;
+                            oscard = report.bind(oscard)(tangon);
+                            option = null;
+                            tangon = option != oscard;
+                            if(!tangon) { _fun00004_ip = 75; continue _fun00003 }
+ 62:
+                            golfie = oscard.content;
+                            report = '';
+                            tangon = report === golfie;
+ 75:
+                            if(!tangon) { _fun00004_ip = 88; continue _fun00003 }
+ 78:
+                            report = _closure4_slot3;
+                            tangon = report._aborted;
+ 88:
+                            if(!tangon) { _fun00004_ip = 161; continue _fun00003 }
+ 91:
+                            report = _closure1_slot1;
+                            tangon = _closure1_slot2;
+                            zuuluu = 4;
+                            tangon = tangon[zuuluu];
+                            zuuluu = undefined;
+                            report = report.bind(zuuluu)(tangon);
+                            tangon = report.dispatch;
+                            zuuluu = {};
+                            golfie = 'MESSAGE_DELETE';
+                            zuuluu['type'] = golfie;
+                            golfie = oscard.nonce;
+                            if(!(option == golfie)) { _fun00004_ip = 143; continue _fun00003 }
+ 138:
+                            golfie = oscard.id;
+ 143:
+                            zuuluu['id'] = golfie;
+                            oscard = oscard.channel_id;
+                            zuuluu['channelId'] = oscard;
+                            zuuluu = tangon.bind(report)(zuuluu);
+ 161:
                             michal = _closure4_slot3;
                             michal = michal._aborted;
-                            if(!michal) { _fun00004_ip = 232; continue _fun00003 }
- 168:
-                            zuuluu = _closure1_slot1;
-                            michal = _closure1_slot2;
-                            entity = 4;
-                            michal = michal[entity];
-                            entity = undefined;
-                            zuuluu = zuuluu.bind(entity)(michal);
-                            michal = zuuluu.dispatch;
-                            entity = {};
-                            oscard = 'UPLOAD_COMPLETE';
-                            entity['type'] = oscard;
-                            report = _closure4_slot0;
-                            entity['channelId'] = report;
-                            entity['file'] = tangon;
-                            tangon = true;
-                            entity['aborted'] = tangon;
-                            entity = michal.bind(zuuluu)(entity);
- 232:
+                            if(!michal) { _fun00004_ip = 199; continue _fun00003 }
+ 174:
+                            michal = global;
+                            tangon = michal.setTimeout;
+                            zuuluu = undefined;
+                            michal = function() {
+                                zuuluu = _closure1_slot1;
+                                michal = _closure1_slot2;
+                                entity = 4;
+                                michal = michal[entity];
+                                entity = undefined;
+                                tangon = zuuluu.bind(entity)(michal);
+                                zuuluu = tangon.dispatch;
+                                michal = {};
+                                report = 'UPLOAD_COMPLETE';
+                                michal['type'] = report;
+                                report = _closure4_slot0;
+                                michal['channelId'] = report;
+                                report = _closure5_slot0;
+                                michal['file'] = report;
+                                report = true;
+                                michal['aborted'] = report;
+                                michal = zuuluu.bind(tangon)(michal);
+                                return entity;
+                            };
+                            entity = 0;
+                            entity = tangon.bind(zuuluu)(michal, entity);
+ 199:
                             entity = undefined;
                             return entity;
                         }

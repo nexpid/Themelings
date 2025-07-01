@@ -114,10 +114,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         foxtra = report.bind(entity)(romeon);
         romeon = foxtra.isAndroid;
         romeon = romeon.bind(foxtra)();
-        if(!romeon) { _fun00002_ip = 545; continue _fun00001 }
- 542:
+        if(!romeon) { _fun00002_ip = 546; continue _fun00001 }
+ 543:
         yankee = 16;
- 545:
+ 546:
         verify['lineHeight'] = yankee;
         tangon['buttonTextStyle'] = verify;
         verify = {'marginStart': 2, 'marginEnd': 4};

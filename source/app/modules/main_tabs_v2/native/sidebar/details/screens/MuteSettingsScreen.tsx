@@ -766,7 +766,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = entity.bottom;
             entity = null;
             michal = entity == foxtra;
-            if(michal) { _fun00010_ip = 560; continue _fun00009 }
+            if(michal) { _fun00010_ip = 561; continue _fun00009 }
  381:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot4;
@@ -775,20 +775,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = new Array(2);
             oscard[0] = golfie;
             golfie = {};
-            golfie['marginBottom'] = verify;
+            golfie['paddingBottom'] = verify;
             oscard[1] = golfie;
             michal['style'] = oscard;
             offset = _closure1_slot10;
-            if(kiloes) { _fun00010_ip = 452; continue _fun00009 }
- 425:
+            if(kiloes) { _fun00010_ip = 453; continue _fun00009 }
+ 426:
             golfie = _closure1_slot15;
             oscard = {};
             oscard['channel'] = foxtra;
             oscard['applicationId'] = result;
             oscard['navigation'] = sizing;
             golfie = offset.bind(report)(golfie, oscard);
-            _fun00010_ip = 482; continue _fun00009;
- 452:
+            _fun00010_ip = 483; continue _fun00009;
+ 453:
             verify = _closure1_slot14;
             oscard = {};
             oscard['channel'] = foxtra;
@@ -796,14 +796,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['muteConfig'] = output;
             oscard['navigation'] = sizing;
             golfie = offset.bind(report)(verify, oscard);
- 482:
+ 483:
             oscard = new Array(2);
             oscard[0] = golfie;
             golfie = foxtra.isPrivate;
             golfie = golfie.bind(foxtra)();
             golfie = !golfie;
-            if(!golfie) { _fun00010_ip = 546; continue _fun00009 }
- 506:
+            if(!golfie) { _fun00010_ip = 547; continue _fun00009 }
+ 507:
             offset = _closure1_slot10;
             verify = _closure1_slot16;
             option = {};
@@ -813,11 +813,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['messageNotifications'] = romeon;
             option['guildMessageNotifications'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 546:
+ 547:
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 560:
+ 561:
             return entity;
         }
     };

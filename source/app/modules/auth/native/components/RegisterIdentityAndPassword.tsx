@@ -270,60 +270,72 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00006_ip = 503; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 560; continue _fun00005 }
  10:
-                        zuuluu = _closure1_slot7;
                         report = undefined;
+                        oscard = undefined;
+                        golfie = undefined;
+                        tangon = undefined;
+                        zuuluu = _closure1_slot7;
                         michal = {};
                         michal = zuuluu.bind(report)(michal);
-                        tangon = _closure2_slot8;
+                        verify = _closure2_slot8;
                         michal = {};
-                        oscard = _closure1_slot10;
-                        oscard = oscard.ACCOUNT_IDENTITY_AND_PASSWORD;
-                        michal['step'] = oscard;
-                        oscard = _closure1_slot11;
-                        oscard = oscard.SUBMITTED;
-                        michal['actionType'] = oscard;
-                        michal = tangon.bind(report)(michal);
-                        option = {};
+                        offset = _closure1_slot10;
+                        offset = offset.ACCOUNT_IDENTITY_AND_PASSWORD;
+                        michal['step'] = offset;
+                        offset = _closure1_slot11;
+                        offset = offset.SUBMITTED;
+                        michal['actionType'] = offset;
+                        michal = verify.bind(report)(michal);
+                        verify = _closure2_slot7;
+                        michal = true;
+                        michal = verify.bind(report)(michal);
+ 87: // try_start_0
+                        oscard = {};
                         michal = _closure2_slot10;
                         michal = michal.bind(report)();
-                        SaveGenerator(address=84);
- 82:
-                        return michal;
- 84:
-                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00006_ip = 500; continue _fun00005 }
- 93:
-                        oscard = null;
-                        if(!(oscard != michal)) { _fun00006_ip = 105; continue _fun00005 }
+                        SaveGenerator(address=101);
  99:
-                        option['password'] = michal;
- 105:
-                        verify = _closure2_slot1;
-                        offset = _closure1_slot0;
-                        tangon = _closure1_slot2;
+                        return michal;
+ 101:
+                        ResumeGenerator(result_out_reg=1, return_bool_out_reg=8);
+                        if(verify) { _fun00006_ip = 531; continue _fun00005 }
+ 110:
+                        golfie = michal;
+                        verify = null;
+                        if(!(verify != michal)) { _fun00006_ip = 128; continue _fun00005 }
+ 119:
+                        offset = oscard;
+                        offset['password'] = golfie;
+ 128:
+                        offset = _closure2_slot1;
+                        romeon = _closure1_slot0;
+                        golfie = _closure1_slot2;
                         yankee = 11;
-                        tangon = tangon[yankee];
-                        tangon = offset.bind(report)(tangon);
-                        tangon = tangon.PhoneOrEmailSelectorForceMode;
-                        tangon = tangon.EMAIL;
-                        if(!(verify === tangon)) { _fun00006_ip = 163; continue _fun00005 }
- 145:
-                        tangon = _closure2_slot6;
-                        tangon = tangon.bind(report)();
-                        if(!(oscard != tangon)) { _fun00006_ip = 163; continue _fun00005 }
- 157:
-                        option['email'] = tangon;
- 163:
-                        oscard = global;
-                        verify = oscard.Object;
-                        tangon = verify.keys;
-                        tangon = tangon.bind(verify)(option);
+                        golfie = golfie[yankee];
+                        golfie = romeon.bind(report)(golfie);
+                        golfie = golfie.PhoneOrEmailSelectorForceMode;
+                        golfie = golfie.EMAIL;
+                        if(!(offset === golfie)) { _fun00006_ip = 192; continue _fun00005 }
+ 168:
+                        golfie = _closure2_slot6;
+                        golfie = golfie.bind(report)();
+                        tangon = golfie;
+                        if(!(verify != golfie)) { _fun00006_ip = 192; continue _fun00005 }
+ 183:
+                        golfie = oscard;
+                        golfie['email'] = tangon;
+ 192:
+                        golfie = global;
+                        offset = golfie.Object;
+                        verify = offset.keys;
+                        tangon = oscard;
+                        tangon = verify.bind(offset)(tangon);
                         verify = tangon.length;
                         tangon = 0;
-                        if(!(!(verify > tangon))) { _fun00006_ip = 424; continue _fun00005 }
- 195:
+                        if(!(!(verify > tangon))) { _fun00006_ip = 441; continue _fun00005 }
+ 227:
                         verify = _closure2_slot1;
                         offset = _closure1_slot0;
                         tangon = _closure1_slot2;
@@ -331,11 +343,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = offset.bind(report)(tangon);
                         tangon = tangon.PhoneOrEmailSelectorForceMode;
                         tangon = tangon.EMAIL;
-                        if(!(verify !== tangon)) { _fun00006_ip = 334; continue _fun00005 }
- 232: // try_start_0
-                        verify = _closure2_slot7;
-                        tangon = true;
-                        tangon = verify.bind(report)(tangon);
+                        if(!(verify !== tangon)) { _fun00006_ip = 340; continue _fun00005 }
+ 264:
                         verify = _closure1_slot8;
                         tangon = {};
                         offset = _closure2_slot9;
@@ -356,29 +365,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         tangon = verify.bind(report)(tangon);
-                        SaveGenerator(address=285);
- 283:
+                        SaveGenerator(address=306);
+ 304:
                         return tangon;
- 285:
+ 306:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=8);
-                        if(verify) { _fun00006_ip = 305; continue _fun00005 }
- 291: // try_end0
+                        if(verify) { _fun00006_ip = 326; continue _fun00005 }
+ 312: // try_end0
                         offset = _closure2_slot7;
                         verify = false;
                         verify = offset.bind(report)(verify);
                         return report;
- 305:
+ 326:
                         offset = _closure2_slot7;
                         verify = false;
                         verify = offset.bind(report)(verify);
                         return tangon;
- 319: // catch_target0
-                        CatchBlockStart(arg_register=3);
-                        offset = _closure2_slot7;
-                        verify = false;
-                        verify = offset.bind(report)(verify);
-                        throw tangon;
- 334:
+ 340: // try_start_1
                         verify = _closure1_slot8;
                         tangon = {};
                         offset = _closure2_slot3;
@@ -398,29 +401,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         verify = _closure2_slot0;
                         tangon = _closure2_slot8;
                         tangon = yankee.bind(romeon)(offset, verify, tangon);
+ 425: // try_end1
+                        offset = _closure2_slot7;
+                        verify = false;
+                        verify = offset.bind(report)(verify);
                         tangon = undefined;
                         return tangon;
- 424:
+ 441: // try_start_2
                         tangon = _closure1_slot7;
-                        tangon = tangon.bind(report)(option);
-                        tangon = _closure2_slot8;
-                        zuuluu = {};
-                        verify = _closure1_slot10;
-                        verify = verify.ACCOUNT_IDENTITY_AND_PASSWORD;
-                        zuuluu['step'] = verify;
-                        golfie = _closure1_slot11;
-                        golfie = golfie.INPUT_ERROR;
-                        zuuluu['actionType'] = golfie;
-                        golfie = oscard.Object;
-                        oscard = golfie.keys;
-                        oscard = oscard.bind(golfie)(option);
-                        zuuluu['details'] = oscard;
-                        zuuluu = tangon.bind(report)(zuuluu);
-                        zuuluu = undefined;
-                        return zuuluu;
- 500:
+                        verify = oscard;
+                        tangon = tangon.bind(report)(verify);
+                        oscard = _closure2_slot8;
+                        tangon = {};
+                        offset = _closure1_slot10;
+                        offset = offset.ACCOUNT_IDENTITY_AND_PASSWORD;
+                        tangon['step'] = offset;
+                        option = _closure1_slot11;
+                        option = option.INPUT_ERROR;
+                        tangon['actionType'] = option;
+                        option = golfie.Object;
+                        golfie = option.keys;
+                        golfie = golfie.bind(option)(verify);
+                        tangon['details'] = golfie;
+                        tangon = oscard.bind(report)(tangon);
+ 515: // try_end2
+                        golfie = _closure2_slot7;
+                        oscard = false;
+                        oscard = golfie.bind(report)(oscard);
+                        tangon = undefined;
+                        return tangon;
+ 531:
+                        oscard = _closure2_slot7;
+                        tangon = false;
+                        tangon = oscard.bind(report)(tangon);
                         return michal;
- 503:
+ 545: // catch_target0 // catch_target1 // catch_target2
+                        CatchBlockStart(arg_register=1);
+                        tangon = _closure2_slot7;
+                        zuuluu = false;
+                        zuuluu = tangon.bind(report)(zuuluu);
+                        throw michal;
+ 560:
                         return entity;
                     }
                 };

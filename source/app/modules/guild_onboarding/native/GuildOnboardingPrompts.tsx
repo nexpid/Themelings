@@ -1491,25 +1491,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             yankee = 0;
                             option = 'step';
                             zuuluu[option] = yankee;
-                            offset = true;
+                            verify = true;
                             option = 'skipped';
-                            zuuluu[option] = offset;
-                            verify = false;
-                            option = 'back';
                             zuuluu[option] = verify;
+                            offset = false;
+                            option = 'back';
+                            zuuluu[option] = offset;
                             option = 'options_selected';
                             zuuluu[option] = yankee;
                             option = 'in_onboarding';
-                            zuuluu[option] = offset;
-                            option = 'is_final_step';
                             zuuluu[option] = verify;
+                            option = 'is_final_step';
+                            zuuluu[option] = offset;
                             zuuluu = report.bind(golfie)(tangon, zuuluu);
                             zuuluu = _closure2_slot4;
                             if(zuuluu) { _fun00036_ip = 173; continue _fun00035 }
  160:
                             zuuluu = _closure2_slot3;
                             zuuluu = zuuluu.bind(entity)();
-                            _fun00036_ip = 328; continue _fun00035;
+                            _fun00036_ip = 336; continue _fun00035;
  173:
                             report = _closure2_slot0;
                             michal = _closure2_slot3;
@@ -1523,19 +1523,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             if(!(tangon != zuuluu)) { _fun00036_ip = 224; continue _fun00035 }
  215:
                             tangon = zuuluu.guild_id;
-                            if(!(tangon === report)) { _fun00036_ip = 267; continue _fun00035 }
+                            if(!(tangon === report)) { _fun00036_ip = 275; continue _fun00035 }
  224:
                             report = _closure1_slot0;
                             golfie = _closure1_slot2;
                             tangon = 14;
                             tangon = golfie[tangon];
-                            golfie = report.bind(entity)(tangon);
-                            report = golfie.transitionTo;
+                            option = report.bind(entity)(tangon);
+                            golfie = option.transitionTo;
                             tangon = _closure1_slot19;
-                            tangon = tangon.ME;
-                            tangon = report.bind(golfie)(tangon);
-                            _fun00036_ip = 324; continue _fun00035;
- 267:
+                            report = tangon.ME;
+                            tangon = {};
+                            tangon['navigationReplace'] = verify;
+                            tangon = golfie.bind(option)(report, tangon);
+                            _fun00036_ip = 332; continue _fun00035;
+ 275:
                             report = _closure1_slot0;
                             golfie = _closure1_slot2;
                             tangon = 14;
@@ -1548,9 +1550,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu = zuuluu.id;
                             zuuluu = golfie.bind(option)(oscard, zuuluu);
                             zuuluu = tangon.bind(report)(zuuluu);
- 324:
+ 332:
                             michal = michal.bind(entity)();
- 328:
+ 336:
                             return entity;
                         }
                     };

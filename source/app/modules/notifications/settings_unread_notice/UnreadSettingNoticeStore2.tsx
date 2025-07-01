@@ -164,13 +164,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot19;
             zuuluu = zuuluu.channels;
             zuuluu = michal in zuuluu;
-            if(zuuluu) { _fun00010_ip = 47; continue _fun00009 }
+            if(zuuluu) { _fun00010_ip = 51; continue _fun00009 }
  23:
             zuuluu = _closure1_slot19;
             tangon = zuuluu.channels;
             zuuluu = {'lastActionTime': 0, 'viewDuration': 0, 'numSends': 0};
             tangon[michal] = zuuluu;
- 47:
+ 51:
             entity = _closure1_slot19;
             entity = entity.channels;
             entity = entity[michal];

@@ -1,4 +1,4 @@
-// discord_common/js/packages/libdave/package/PairwiseFingerprint.ts
+// discord_common/js/packages/libdave/package/src/PairwiseFingerprint.ts
 export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = '../discord_common/js/packages/libdave/package/PairwiseFingerprint.ts';
+    tangon = '../discord_common/js/packages/libdave/package/src/PairwiseFingerprint.ts';
     tangon = report.bind(oscard)(tangon);
     michal = function() { // Original name: generatePairwiseFingerprint
         entity = undefined;

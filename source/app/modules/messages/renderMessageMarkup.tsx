@@ -70,6 +70,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         report = oscard.bind(tangon)(report);
         entity['allowDevLinks'] = report;
         oscard = zuuluu.Boolean;
+        report = michal.allowGameMentions;
+        report = oscard.bind(tangon)(report);
+        entity['allowGameMentions'] = report;
+        oscard = zuuluu.Boolean;
         report = michal.formatInline;
         report = oscard.bind(tangon)(report);
         entity['formatInline'] = report;
@@ -444,7 +448,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot7 = entity;
     entity = function(argFoo, argBar, argBaz, argCor) { // Original name: renderAutomodMessageMarkupWithParser
-        oscard = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': false, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'disableAutoBlockNewlines': true, 'highlightWord': null, 'disableAnimatedEmoji': false};
+        oscard = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': false, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'allowGameMentions': false, 'disableAutoBlockNewlines': true, 'highlightWord': null, 'disableAnimatedEmoji': false};
         entity = false;
         michal = new Array(0);
         oscard['mentionChannels'] = michal;
@@ -926,7 +930,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['messageId'] = verify;
                     report = zuuluu.bind(tangon)(option, entity);
  107:
-                    tangon = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': true};
+                    tangon = {'allowLinks': false, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': false, 'allowHeading': false, 'allowList': false, 'allowGameMentions': false, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false, 'disableAnimatedEmoji': true};
                     entity = false;
                     zuuluu = new Array(0);
                     tangon['mentionChannels'] = zuuluu;
