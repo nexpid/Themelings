@@ -156,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 10;
             zuuluu = golfie[zuuluu];
             backup = report.bind(tangon)(zuuluu);
-            yankee = backup.useIsDismissibleContentDismissed;
+            yankee = backup.UNSAFE_useIsDismissibleContentDismissed;
             verify = 11;
             zuuluu = golfie[verify];
             zuuluu = report.bind(tangon)(zuuluu);

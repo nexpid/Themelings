@@ -240,12 +240,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot6;
                     tangon = michal.current;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00008_ip = 39; continue _fun00007 }
+                    if(!(michal != tangon)) { _fun00008_ip = 43; continue _fun00007 }
  18:
                     zuuluu = tangon.scrollTo;
                     michal = {'y': 0, 'animated': false};
                     michal = zuuluu.bind(tangon)(michal);
- 39:
+ 43:
                     zuuluu = _closure2_slot4;
                     entity = undefined;
                     michal = argFoo;

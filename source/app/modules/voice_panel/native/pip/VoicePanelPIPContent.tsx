@@ -899,31 +899,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = verify.bind(romeon)(option, entity);
             romeon = null;
             entity = romeon == kiloes;
-            ctrled = undefined;
+            papara = undefined;
             if(entity) { _fun00028_ip = 215; continue _fun00027 }
  210:
-            ctrled = kiloes.user;
+            papara = kiloes.user;
  215:
-            if(!(romeon == ctrled)) { _fun00028_ip = 232; continue _fun00027 }
+            if(!(romeon == papara)) { _fun00028_ip = 232; continue _fun00027 }
  219:
             option = _closure1_slot11;
             entity = option.getCurrentUser;
-            ctrled = entity.bind(option)();
+            papara = entity.bind(option)();
  232:
             option = _closure1_slot0;
             entity = _closure1_slot2;
-            record = 29;
-            entity = entity[record];
+            config = 29;
+            entity = entity[config];
             verify = option.bind(tangon)(entity);
             option = verify.useDominantColorFromImage;
-            foxtra = romeon == ctrled;
+            foxtra = romeon == papara;
             entity = undefined;
             if(foxtra) { _fun00028_ip = 285; continue _fun00027 }
  267:
-            output = ctrled.getAvatarURL;
+            output = papara.getAvatarURL;
             sizing = 80;
             foxtra = false;
-            entity = output.bind(ctrled)(target, sizing, foxtra);
+            entity = output.bind(papara)(target, sizing, foxtra);
  285:
             entity = option.bind(verify)(entity);
             _closure2_slot7 = entity;
@@ -949,8 +949,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = verify.bind(foxtra)(entity, option);
             verify = _closure1_slot4;
             option = verify.useState;
-            papara = false;
-            foxtra = option.bind(verify)(papara);
+            cntext = false;
+            foxtra = option.bind(verify)(cntext);
             verify = _closure1_slot3;
             option = 2;
             verify = verify.bind(tangon)(foxtra, option);
@@ -1000,8 +1000,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot9 = source;
             oscard = _closure1_slot0;
             option = _closure1_slot2;
-            vacuum = 27;
-            verify = option[vacuum];
+            ctrled = 27;
+            verify = option[ctrled];
             result = oscard.bind(tangon)(verify);
             output = result.useAnimatedReaction;
             foxtra = function() { // Original name: h
@@ -1052,20 +1052,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            sequen = {};
-            config = option[vacuum];
-            config = oscard.bind(tangon)(config);
-            config = config.runOnJS;
-            sequen['runOnJS'] = config;
-            sequen['updateIsActivityFocused'] = source;
-            sequen['mode'] = echoed;
-            verify['__closure'] = sequen;
-            sequen = 5971237403457.0;
-            verify['__workletHash'] = sequen;
-            sequen = _closure1_slot25;
-            verify['__initData'] = sequen;
+            vacuum = {};
+            sequen = option[ctrled];
+            sequen = oscard.bind(tangon)(sequen);
+            sequen = sequen.runOnJS;
+            vacuum['runOnJS'] = sequen;
+            vacuum['updateIsActivityFocused'] = source;
+            vacuum['mode'] = echoed;
+            verify['__closure'] = vacuum;
+            vacuum = 5971237403457.0;
+            verify['__workletHash'] = vacuum;
+            vacuum = _closure1_slot25;
+            verify['__initData'] = vacuum;
             verify = output.bind(result)(foxtra, verify);
-            verify = option[vacuum];
+            verify = option[ctrled];
             result = oscard.bind(tangon)(verify);
             output = result.useAnimatedReaction;
             foxtra = function() { // Original name: S
@@ -1114,10 +1114,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             echoed = {};
-            vacuum = option[vacuum];
-            vacuum = oscard.bind(tangon)(vacuum);
-            vacuum = vacuum.runOnJS;
-            echoed['runOnJS'] = vacuum;
+            ctrled = option[ctrled];
+            ctrled = oscard.bind(tangon)(ctrled);
+            ctrled = ctrled.runOnJS;
+            echoed['runOnJS'] = ctrled;
             echoed['updateIsActivityFocused'] = source;
             echoed['focused'] = update;
             verify['__closure'] = echoed;
@@ -1206,7 +1206,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal[option];
             michal = report.bind(tangon)(michal);
             report = {};
-            if(oscard) { _fun00028_ip = 1245; continue _fun00027 }
+            if(oscard) { _fun00028_ip = 1254; continue _fun00027 }
  883:
             report['style'] = entity;
             output = _closure1_slot19;
@@ -1217,43 +1217,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             result = backup.avatarWrapper;
             entity['style'] = result;
-            echoed = romeon != ctrled;
+            echoed = romeon != papara;
             result = null;
-            if(!echoed) { _fun00028_ip = 1063; continue _fun00027 }
+            if(!echoed) { _fun00028_ip = 1072; continue _fun00027 }
  932:
             source = _closure1_slot19;
             update = _closure1_slot1;
-            vacuum = _closure1_slot2;
-            config = 31;
-            echoed = vacuum[config];
+            ctrled = _closure1_slot2;
+            sequen = 31;
+            echoed = ctrled[sequen];
             update = update.bind(tangon)(echoed);
             echoed = {};
-            sequen = _closure1_slot0;
-            vacuum = vacuum[record];
-            record = sequen.bind(tangon)(vacuum);
-            sequen = record.getCachedSourceFromURI;
-            cntext = ctrled.getAvatarURL;
-            vacuum = 80;
-            vacuum = cntext.bind(ctrled)(target, vacuum, papara);
-            vacuum = sequen.bind(record)(vacuum);
-            echoed['source'] = vacuum;
-            sequen = _closure1_slot0;
-            vacuum = _closure1_slot2;
-            vacuum = vacuum[config];
-            vacuum = sequen.bind(tangon)(vacuum);
-            sequen = vacuum.AvatarSizes;
+            vacuum = _closure1_slot0;
+            ctrled = ctrled[config];
+            config = vacuum.bind(tangon)(ctrled);
+            vacuum = config.getCachedSourceFromURI;
+            record = papara.getAvatarURL;
+            ctrled = 80;
+            ctrled = record.bind(papara)(target, ctrled, cntext);
+            ctrled = vacuum.bind(config)(ctrled);
+            echoed['source'] = ctrled;
+            vacuum = _closure1_slot0;
+            ctrled = _closure1_slot2;
+            ctrled = ctrled[sequen];
+            ctrled = vacuum.bind(tangon)(ctrled);
+            vacuum = ctrled.AvatarSizes;
             if(sizing) { _fun00028_ip = 1036; continue _fun00027 }
  1028:
-            vacuum = sequen.XLARGE;
+            ctrled = vacuum.XLARGE;
             _fun00028_ip = 1042; continue _fun00027;
  1036:
-            vacuum = sequen.LARGE;
+            ctrled = vacuum.LARGE;
  1042:
-            echoed['size'] = vacuum;
-            ctrled = ctrled.avatarDecoration;
+            echoed['size'] = ctrled;
+            vacuum = romeon == kiloes;
+            ctrled = undefined;
+            if(vacuum) { _fun00028_ip = 1061; continue _fun00027 }
+ 1055:
+            ctrled = kiloes.userAvatarDecoration;
+ 1061:
             echoed['avatarDecoration'] = ctrled;
             result = source.bind(tangon)(update, echoed);
- 1063:
+ 1072:
             entity['children'] = result;
             oscard = output.bind(tangon)(oscard, entity);
             entity = new Array(3);
@@ -1266,11 +1271,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = result.bind(tangon)(output, oscard);
             entity[1] = oscard;
             oscard = null;
-            if(!sizing) { _fun00028_ip = 1229; continue _fun00027 }
- 1116:
+            if(!sizing) { _fun00028_ip = 1238; continue _fun00027 }
+ 1125:
             oscard = null;
-            if(!verify) { _fun00028_ip = 1229; continue _fun00027 }
- 1121:
+            if(!verify) { _fun00028_ip = 1238; continue _fun00027 }
+ 1130:
             romeon = _closure1_slot19;
             update = _closure1_slot1;
             source = _closure1_slot2;
@@ -1296,12 +1301,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = result.bind(tangon)(output, sizing);
             option['children'] = sizing;
             oscard = romeon.bind(tangon)(verify, option);
- 1229:
+ 1238:
             entity[2] = oscard;
             report['children'] = entity;
             entity = report;
-            _fun00028_ip = 1399; continue _fun00027;
- 1245:
+            _fun00028_ip = 1408; continue _fun00027;
+ 1254:
             option = backup.blackBackground;
             oscard = new Array(2);
             oscard[0] = option;
@@ -1338,7 +1343,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             report['children'] = oscard;
             entity = report;
- 1399:
+ 1408:
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }

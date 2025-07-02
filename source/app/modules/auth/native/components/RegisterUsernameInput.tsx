@@ -52,9 +52,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'marginBottom': 8, 'width': '90%'};
+    verify = {};
+    offset = '90%';
+    verify['width'] = offset;
     tangon['status'] = verify;
-    verify = {'marginBottom': 8, 'width': '100%'};
+    verify = {};
+    offset = '100%';
+    verify['width'] = offset;
     tangon['inputHint'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot12 = tangon;

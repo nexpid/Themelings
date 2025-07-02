@@ -205,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  112:
             option = null;
             golfie = null;
-            if(!michal) { _fun00004_ip = 195; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 196; continue _fun00003 }
  119:
             report = _closure1_slot5;
             zuuluu = _closure1_slot0;
@@ -225,27 +225,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.WHITE;
             michal['color'] = yankee;
             golfie = report.bind(tangon)(zuuluu, michal);
- 195:
-            if(entity) { _fun00004_ip = 206; continue _fun00003 }
- 198:
+ 196:
+            if(entity) { _fun00004_ip = 207; continue _fun00003 }
+ 199:
             foxtra = offset.tagNormal;
-            _fun00004_ip = 212; continue _fun00003;
- 206:
+            _fun00004_ip = 213; continue _fun00003;
+ 207:
             foxtra = offset.tagInverted;
- 212:
-            if(entity) { _fun00004_ip = 223; continue _fun00003 }
- 215:
+ 213:
+            if(entity) { _fun00004_ip = 224; continue _fun00003 }
+ 216:
             yankee = offset.tagTextNormal;
-            _fun00004_ip = 229; continue _fun00003;
- 223:
+            _fun00004_ip = 230; continue _fun00003;
+ 224:
             yankee = offset.tagTextInverted;
- 229:
+ 230:
             entity = option != golfie;
             option = null;
-            if(!entity) { _fun00004_ip = 244; continue _fun00003 }
- 238:
+            if(!entity) { _fun00004_ip = 245; continue _fun00003 }
+ 239:
             option = offset.verifiedTagLeftPadding;
- 244:
+ 245:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot3;
             entity = {};

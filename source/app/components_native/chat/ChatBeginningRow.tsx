@@ -2338,16 +2338,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['subtitle'] = sizing;
             report['isPrivate'] = yankee;
             yankee = undefined;
-            if(!kiloes) { _fun00030_ip = 1130; continue _fun00029 }
- 1127:
+            if(!kiloes) { _fun00030_ip = 1129; continue _fun00029 }
+ 1126:
             yankee = backup;
- 1130:
+ 1129:
             report['subtitleLink'] = yankee;
             option = verify.bind(tangon)(option, report);
             report = new Array(2);
             report[0] = option;
-            if(oscard) { _fun00030_ip = 1186; continue _fun00029 }
- 1152:
+            if(oscard) { _fun00030_ip = 1185; continue _fun00029 }
+ 1151:
             verify = _closure1_slot43;
             option = _closure1_slot42;
             oscard = {};
@@ -2356,8 +2356,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             oscard['children'] = yankee;
             oscard = verify.bind(tangon)(option, oscard);
-            _fun00030_ip = 1222; continue _fun00029;
- 1186:
+            _fun00030_ip = 1221; continue _fun00029;
+ 1185:
             verify = _closure1_slot41;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -2367,7 +2367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             golfie['guild'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1222:
+ 1221:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
@@ -3653,7 +3653,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = golfie[entity];
                     entity = undefined;
                     report = oscard.bind(entity)(zuuluu);
-                    tangon = report.isDismissibleContentDismissed;
+                    tangon = report.UNSAFE_isDismissibleContentDismissed;
                     zuuluu = 108;
                     zuuluu = golfie[zuuluu];
                     zuuluu = oscard.bind(entity)(zuuluu);
@@ -3692,7 +3692,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = golfie[entity];
                     entity = undefined;
                     report = oscard.bind(entity)(zuuluu);
-                    tangon = report.isDismissibleContentDismissed;
+                    tangon = report.UNSAFE_isDismissibleContentDismissed;
                     zuuluu = 108;
                     zuuluu = golfie[zuuluu];
                     zuuluu = oscard.bind(entity)(zuuluu);

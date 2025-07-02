@@ -28,6 +28,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report['SERVER_RAIL_TOP'] = michal;
     michal = 'server-rail-bottom';
     report['SERVER_RAIL_BOTTOM'] = michal;
+    michal = 'title-bar-left';
+    report['TITLE_BAR_LEFT'] = michal;
     tangon = {};
     michal = 'tabs';
     tangon['TABS'] = michal;
@@ -52,7 +54,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     foxtra = tangon.DROPDOWN;
     romeon['filterStyle'] = foxtra;
     golfie['config'] = romeon;
-    romeon = new Array(4);
+    romeon = new Array(5);
     romeon[0] = golfie;
     foxtra = {'id': 2, 'label': 'Show notification center in sidebar'};
     golfie = 2;
@@ -84,6 +86,16 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     backup['filterStyle'] = kiloes;
     foxtra['config'] = backup;
     romeon[3] = foxtra;
+    foxtra = {'id': 5, 'label': 'Title bar left with popout variant'};
+    backup = {};
+    kiloes = oscard.POPOUT;
+    backup['notificationCenterVariant'] = kiloes;
+    kiloes = report.TITLE_BAR_LEFT;
+    backup['entrypoint'] = kiloes;
+    kiloes = tangon.DROPDOWN;
+    backup['filterStyle'] = kiloes;
+    foxtra['config'] = backup;
+    romeon[4] = foxtra;
     michal['treatments'] = romeon;
     michal = offset.bind(yankee)(michal);
     golfie = verify[golfie];

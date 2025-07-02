@@ -1,4 +1,4 @@
-// discord_common/js/shared/Logger.tsx
+// discord_common/js/packages/logger/Logger.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argBar;
     report = argBaz;
@@ -641,7 +641,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = '../discord_common/js/shared/Logger.tsx';
+    report = '../discord_common/js/packages/logger/Logger.tsx';
     report = oscard.bind(golfie)(report);
     report = function(argFoo) { // Original name: setLogFn
         entity = argFoo;

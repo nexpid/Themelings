@@ -932,72 +932,72 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = function(argFoo) { // Original name: value
             _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
-                result = argFoo;
+                output = argFoo;
                 michal = this;
                 entity = new Array(0);
                 tangon = _closure1_slot12;
                 zuuluu = tangon.getUser;
-                option = zuuluu.bind(tangon)(result);
-                verify = null;
-                if(!(verify != option)) { _fun00028_ip = 1008; continue _fun00027 }
+                option = zuuluu.bind(tangon)(output);
+                offset = null;
+                if(!(offset != option)) { _fun00028_ip = 950; continue _fun00027 }
  37:
-                report = _closure1_slot14;
-                tangon = report.getVoiceStateForChannel;
+                oscard = _closure1_slot14;
+                tangon = oscard.getVoiceStateForChannel;
                 zuuluu = michal.channelId;
-                yankee = tangon.bind(report)(zuuluu, result);
-                tangon = report.getVoicePlatformForChannel;
+                yankee = tangon.bind(oscard)(zuuluu, output);
+                tangon = oscard.getVoicePlatformForChannel;
                 zuuluu = michal.channelId;
-                romeon = tangon.bind(report)(zuuluu, result);
-                report = _closure1_slot9;
-                tangon = report.getChannel;
+                romeon = tangon.bind(oscard)(zuuluu, output);
+                oscard = _closure1_slot9;
+                tangon = oscard.getChannel;
                 zuuluu = michal.channelId;
-                offset = tangon.bind(report)(zuuluu);
+                tangon = tangon.bind(oscard)(zuuluu);
+                zuuluu = offset == tangon;
+                verify = undefined;
+                golfie = undefined;
+                if(zuuluu) { _fun00028_ip = 115; continue _fun00027 }
+ 105:
+                zuuluu = tangon.getGuildId;
+                golfie = zuuluu.bind(tangon)();
+ 115:
                 tangon = michal.call;
-                golfie = verify == tangon;
-                report = undefined;
+                oscard = offset == tangon;
                 zuuluu = undefined;
-                if(golfie) { _fun00028_ip = 135; continue _fun00027 }
- 110:
-                golfie = tangon.ringing;
-                tangon = verify == golfie;
+                if(oscard) { _fun00028_ip = 154; continue _fun00027 }
+ 129:
+                oscard = tangon.ringing;
+                tangon = offset == oscard;
                 zuuluu = undefined;
-                if(tangon) { _fun00028_ip = 135; continue _fun00027 }
- 125:
-                tangon = golfie.includes;
-                zuuluu = tangon.bind(golfie)(result);
- 135:
-                if(zuuluu) { _fun00028_ip = 154; continue _fun00027 }
- 138:
-                golfie = michal.guildRingingUsers;
-                tangon = golfie.has;
-                zuuluu = tangon.bind(golfie)(result);
+                if(tangon) { _fun00028_ip = 154; continue _fun00027 }
+ 144:
+                tangon = oscard.includes;
+                zuuluu = tangon.bind(oscard)(output);
  154:
-                golfie = verify != zuuluu;
-                if(!golfie) { _fun00028_ip = 164; continue _fun00027 }
- 161:
-                golfie = zuuluu;
- 164:
-                zuuluu = verify != yankee;
-                if(zuuluu) { _fun00028_ip = 174; continue _fun00027 }
- 171:
-                zuuluu = golfie;
- 174:
-                if(!zuuluu) { _fun00028_ip = 503; continue _fun00027 }
+                if(zuuluu) { _fun00028_ip = 173; continue _fun00027 }
+ 157:
+                oscard = michal.guildRingingUsers;
+                tangon = oscard.has;
+                zuuluu = tangon.bind(oscard)(output);
+ 173:
+                oscard = offset != zuuluu;
+                if(!oscard) { _fun00028_ip = 183; continue _fun00027 }
  180:
+                oscard = zuuluu;
+ 183:
+                zuuluu = offset != yankee;
+                if(zuuluu) { _fun00028_ip = 193; continue _fun00027 }
+ 190:
+                zuuluu = oscard;
+ 193:
+                if(!zuuluu) { _fun00028_ip = 521; continue _fun00027 }
+ 199:
                 tangon = {};
                 zuuluu = _closure1_slot16;
                 zuuluu = zuuluu.USER;
                 tangon['type'] = zuuluu;
-                backup = _closure1_slot13;
-                foxtra = backup.getUserStreamData;
-                kiloes = verify == offset;
-                zuuluu = undefined;
-                if(kiloes) { _fun00028_ip = 225; continue _fun00027 }
- 215:
-                kiloes = offset.getGuildId;
-                zuuluu = kiloes.bind(offset)();
- 225:
-                update = foxtra.bind(backup)(result, zuuluu);
+                foxtra = _closure1_slot13;
+                zuuluu = foxtra.getUserStreamData;
+                update = zuuluu.bind(foxtra)(output, golfie);
                 source = tangon;
                 zuuluu = copyDataProperties(source, update);
                 zuuluu = 'user';
@@ -1013,18 +1013,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 foxtra = _closure1_slot2;
                 zuuluu = 17;
                 zuuluu = foxtra[zuuluu];
-                foxtra = romeon.bind(report)(zuuluu);
+                foxtra = romeon.bind(verify)(zuuluu);
                 romeon = foxtra.getIsSpeaking;
                 zuuluu = {};
-                zuuluu['userId'] = result;
+                zuuluu['userId'] = output;
                 backup = true;
                 zuuluu['checkIsMuted'] = backup;
                 romeon = romeon.bind(foxtra)(zuuluu);
                 zuuluu = 'speaking';
                 tangon[zuuluu] = romeon;
                 zuuluu = michal.lastSpoke;
-                zuuluu = zuuluu[result];
-                foxtra = verify != zuuluu;
+                zuuluu = zuuluu[output];
+                foxtra = offset != zuuluu;
                 romeon = 0;
                 if(!foxtra) { _fun00028_ip = 354; continue _fun00027 }
  351:
@@ -1034,184 +1034,157 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon[zuuluu] = romeon;
                 romeon = _closure1_slot11;
                 zuuluu = romeon.isSoundSharing;
-                romeon = zuuluu.bind(romeon)(result);
+                romeon = zuuluu.bind(romeon)(output);
                 zuuluu = 'soundsharing';
                 tangon[zuuluu] = romeon;
                 zuuluu = 'ringing';
-                tangon[zuuluu] = golfie;
-                golfie = _closure1_slot1;
+                tangon[zuuluu] = oscard;
+                oscard = _closure1_slot1;
                 romeon = _closure1_slot2;
                 zuuluu = 19;
                 zuuluu = romeon[zuuluu];
-                foxtra = golfie.bind(report)(zuuluu);
-                romeon = foxtra.getName;
-                zuuluu = verify == offset;
-                golfie = undefined;
-                if(zuuluu) { _fun00028_ip = 443; continue _fun00027 }
- 433:
-                zuuluu = offset.getGuildId;
-                golfie = zuuluu.bind(offset)();
- 443:
+                foxtra = oscard.bind(verify)(zuuluu);
+                oscard = foxtra.getName;
                 zuuluu = michal.channelId;
-                golfie = romeon.bind(foxtra)(golfie, zuuluu, option);
+                oscard = oscard.bind(foxtra)(golfie, zuuluu, option);
                 zuuluu = 'userNick';
-                tangon[zuuluu] = golfie;
-                romeon = _closure1_slot10;
-                golfie = romeon.isLocalVideoDisabled;
-                zuuluu = option.id;
-                golfie = golfie.bind(romeon)(zuuluu);
-                zuuluu = 'localVideoDisabled';
-                tangon[zuuluu] = golfie;
-                zuuluu = entity.push;
-                zuuluu = zuuluu.bind(entity)(tangon);
- 503:
-                golfie = _closure1_slot6;
-                tangon = golfie.getStreamForUser;
-                romeon = verify == offset;
-                zuuluu = undefined;
-                if(romeon) { _fun00028_ip = 532; continue _fun00027 }
- 522:
-                romeon = offset.getGuildId;
-                zuuluu = romeon.bind(offset)();
- 532:
-                tangon = tangon.bind(golfie)(result, zuuluu);
-                if(!(verify == tangon)) { _fun00028_ip = 577; continue _fun00027 }
- 542:
-                romeon = _closure1_slot6;
-                golfie = romeon.getActiveStreamForUser;
-                foxtra = verify == offset;
-                zuuluu = undefined;
-                if(foxtra) { _fun00028_ip = 571; continue _fun00027 }
- 561:
-                foxtra = offset.getGuildId;
-                zuuluu = foxtra.bind(offset)();
- 571:
-                tangon = golfie.bind(romeon)(result, zuuluu);
- 577:
-                if(!(verify != tangon)) { _fun00028_ip = 1006; continue _fun00027 }
- 584:
-                golfie = tangon.channelId;
-                zuuluu = michal.channelId;
-                if(!(golfie === zuuluu)) { _fun00028_ip = 1006; continue _fun00027 }
- 601:
-                golfie = _closure1_slot0;
-                romeon = _closure1_slot2;
+                tangon[zuuluu] = oscard;
+                oscard = _closure1_slot0;
                 zuuluu = 20;
                 zuuluu = romeon[zuuluu];
-                golfie = golfie.bind(report)(zuuluu);
-                zuuluu = golfie.encodeStreamKey;
-                romeon = zuuluu.bind(golfie)(tangon);
+                oscard = oscard.bind(verify)(zuuluu);
+                zuuluu = oscard.getAvatarDecoration;
+                oscard = zuuluu.bind(oscard)(option, golfie);
+                zuuluu = 'userAvatarDecoration';
+                tangon[zuuluu] = oscard;
+                romeon = _closure1_slot10;
+                oscard = romeon.isLocalVideoDisabled;
+                zuuluu = option.id;
+                oscard = oscard.bind(romeon)(zuuluu);
+                zuuluu = 'localVideoDisabled';
+                tangon[zuuluu] = oscard;
+                zuuluu = entity.push;
+                zuuluu = zuuluu.bind(entity)(tangon);
+ 521:
+                tangon = _closure1_slot6;
+                zuuluu = tangon.getStreamForUser;
+                tangon = zuuluu.bind(tangon)(output, golfie);
+                if(!(offset == tangon)) { _fun00028_ip = 557; continue _fun00027 }
+ 541:
+                oscard = _closure1_slot6;
+                zuuluu = oscard.getActiveStreamForUser;
+                tangon = zuuluu.bind(oscard)(output, golfie);
+ 557:
+                if(!(offset != tangon)) { _fun00028_ip = 948; continue _fun00027 }
+ 564:
+                oscard = tangon.channelId;
+                zuuluu = michal.channelId;
+                if(!(oscard === zuuluu)) { _fun00028_ip = 948; continue _fun00027 }
+ 581:
+                oscard = _closure1_slot0;
+                romeon = _closure1_slot2;
+                zuuluu = 21;
+                zuuluu = romeon[zuuluu];
+                oscard = oscard.bind(verify)(zuuluu);
+                zuuluu = oscard.encodeStreamKey;
+                romeon = zuuluu.bind(oscard)(tangon);
                 zuuluu = michal.getParticipant;
                 backup = zuuluu.bind(michal)(romeon);
-                golfie = tangon.ownerId;
+                oscard = tangon.ownerId;
                 foxtra = _closure1_slot7;
                 zuuluu = foxtra.getId;
                 zuuluu = zuuluu.bind(foxtra)();
-                foxtra = golfie === zuuluu;
-                if(!foxtra) { _fun00028_ip = 690; continue _fun00027 }
- 670:
+                foxtra = oscard === zuuluu;
+                if(!foxtra) { _fun00028_ip = 670; continue _fun00027 }
+ 650:
                 kiloes = _closure1_slot6;
-                golfie = kiloes.isSelfStreamHidden;
+                oscard = kiloes.isSelfStreamHidden;
                 zuuluu = michal.channelId;
-                foxtra = golfie.bind(kiloes)(zuuluu);
- 690:
-                zuuluu = verify == backup;
+                foxtra = oscard.bind(kiloes)(zuuluu);
+ 670:
+                zuuluu = offset == backup;
                 kiloes = undefined;
-                if(zuuluu) { _fun00028_ip = 704; continue _fun00027 }
- 699:
+                if(zuuluu) { _fun00028_ip = 684; continue _fun00027 }
+ 679:
                 kiloes = backup.type;
- 704:
+ 684:
                 zuuluu = _closure1_slot16;
                 zuuluu = zuuluu.STREAM;
-                golfie = null;
-                if(!(kiloes === zuuluu)) { _fun00028_ip = 774; continue _fun00027 }
- 720:
+                oscard = null;
+                if(!(kiloes === zuuluu)) { _fun00028_ip = 754; continue _fun00027 }
+ 700:
                 zuuluu = {};
                 kiloes = backup.maxResolution;
-                sizing = verify != kiloes;
+                sizing = offset != kiloes;
                 kiloes = undefined;
-                if(!sizing) { _fun00028_ip = 755; continue _fun00027 }
- 737:
+                if(!sizing) { _fun00028_ip = 735; continue _fun00027 }
+ 717:
                 sizing = {};
                 update = backup.maxResolution;
                 source = sizing;
-                output = copyDataProperties(source, update);
+                result = copyDataProperties(source, update);
                 kiloes = sizing;
- 755:
+ 735:
                 zuuluu['maxResolution'] = kiloes;
                 backup = backup.maxFrameRate;
                 zuuluu['maxFrameRate'] = backup;
-                golfie = zuuluu;
- 774:
+                oscard = zuuluu;
+ 754:
                 zuuluu = {};
-                output = _closure1_slot13;
-                sizing = output.getUserStreamData;
-                backup = verify == offset;
-                kiloes = undefined;
-                if(backup) { _fun00028_ip = 805; continue _fun00027 }
- 795:
-                backup = offset.getGuildId;
-                kiloes = backup.bind(offset)();
- 805:
+                sizing = _closure1_slot13;
+                kiloes = sizing.getUserStreamData;
                 backup = _closure1_slot19;
                 backup = backup.STREAM;
-                update = sizing.bind(output)(result, kiloes, backup);
+                update = kiloes.bind(sizing)(output, golfie, backup);
                 source = zuuluu;
                 backup = copyDataProperties(source, update);
                 source = zuuluu;
-                update = golfie;
-                golfie = copyDataProperties(source, update);
-                golfie = _closure1_slot16;
-                if(foxtra) { _fun00028_ip = 854; continue _fun00027 }
- 846:
-                foxtra = golfie.STREAM;
-                _fun00028_ip = 860; continue _fun00027;
+                update = oscard;
+                oscard = copyDataProperties(source, update);
+                oscard = _closure1_slot16;
+                if(foxtra) { _fun00028_ip = 815; continue _fun00027 }
+ 807:
+                foxtra = oscard.STREAM;
+                _fun00028_ip = 821; continue _fun00027;
+ 815:
+                foxtra = oscard.HIDDEN_STREAM;
+ 821:
+                oscard = 'type';
+                zuuluu[oscard] = foxtra;
+                oscard = 'id';
+                zuuluu[oscard] = romeon;
+                romeon = offset == yankee;
+                oscard = undefined;
+                if(romeon) { _fun00028_ip = 854; continue _fun00027 }
+ 848:
+                oscard = yankee.selfVideo;
  854:
-                foxtra = golfie.HIDDEN_STREAM;
- 860:
-                golfie = 'type';
-                zuuluu[golfie] = foxtra;
-                golfie = 'id';
-                zuuluu[golfie] = romeon;
-                romeon = verify == yankee;
-                golfie = undefined;
-                if(romeon) { _fun00028_ip = 893; continue _fun00027 }
- 887:
-                golfie = yankee.selfVideo;
- 893:
-                yankee = verify != golfie;
-                if(!yankee) { _fun00028_ip = 903; continue _fun00027 }
- 900:
-                yankee = golfie;
- 903:
-                golfie = 'userVideo';
-                zuuluu[golfie] = yankee;
-                golfie = 'user';
-                zuuluu[golfie] = option;
-                golfie = _closure1_slot1;
-                yankee = _closure1_slot2;
-                oscard = 19;
-                oscard = yankee[oscard];
-                golfie = golfie.bind(report)(oscard);
-                oscard = golfie.getName;
-                verify = verify == offset;
-                report = undefined;
-                if(verify) { _fun00028_ip = 966; continue _fun00027 }
- 956:
-                verify = offset.getGuildId;
-                report = verify.bind(offset)();
- 966:
+                offset = offset != oscard;
+                if(!offset) { _fun00028_ip = 864; continue _fun00027 }
+ 861:
+                offset = oscard;
+ 864:
+                oscard = 'userVideo';
+                zuuluu[oscard] = offset;
+                oscard = 'user';
+                zuuluu[oscard] = option;
+                oscard = _closure1_slot1;
+                offset = _closure1_slot2;
+                report = 19;
+                report = offset[report];
+                oscard = oscard.bind(verify)(report);
+                report = oscard.getName;
                 michal = michal.channelId;
-                report = oscard.bind(golfie)(report, michal, option);
+                report = report.bind(oscard)(golfie, michal, option);
                 michal = 'userNick';
                 zuuluu[michal] = report;
                 michal = 'stream';
                 zuuluu[michal] = tangon;
                 michal = entity.push;
                 michal = michal.bind(entity)(zuuluu);
- 1006:
+ 948:
                 return entity;
- 1008:
+ 950:
                 return entity;
             }
         };
@@ -1222,7 +1195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     golfie = golfie.bind(entity)();
-    option = 21;
+    option = 22;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;

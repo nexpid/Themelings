@@ -523,7 +523,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  287:
             report['top'] = romeon;
             romeon = null;
-            if(foxtra) { _fun00010_ip = 794; continue _fun00009 }
+            if(foxtra) { _fun00010_ip = 795; continue _fun00009 }
  299:
             kiloes = _closure1_slot9;
             backup = _closure1_slot4;
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(sizing) { _fun00010_ip = 330; continue _fun00009 }
  322:
             output = null;
-            if(!ctrled) { _fun00010_ip = 536; continue _fun00009 }
+            if(!ctrled) { _fun00010_ip = 537; continue _fun00009 }
  330:
             echoed = _closure1_slot8;
             papara = _closure1_slot0;
@@ -586,7 +586,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = record.bind(tangon)(vacuum, ctrled);
             sizing['children'] = ctrled;
             output = echoed.bind(tangon)(result, sizing);
- 536:
+ 537:
             sizing = new Array(3);
             sizing[0] = output;
             echoed = _closure1_slot8;
@@ -618,8 +618,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = verify.actionButtons;
             output['style'] = ctrled;
             source = null;
-            if(!update) { _fun00010_ip = 726; continue _fun00009 }
- 685:
+            if(!update) { _fun00010_ip = 727; continue _fun00009 }
+ 686:
             vacuum = _closure1_slot8;
             ctrled = _closure1_slot1;
             record = _closure1_slot2;
@@ -630,7 +630,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['ref'] = config;
             update['onOpen'] = sequen;
             source = vacuum.bind(tangon)(ctrled, update);
- 726:
+ 727:
             update = new Array(2);
             update[0] = source;
             vacuum = _closure1_slot8;
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing[2] = output;
             foxtra['children'] = sizing;
             romeon = kiloes.bind(tangon)(backup, foxtra);
- 794:
+ 795:
             report['children'] = romeon;
             golfie = option.bind(tangon)(golfie, report);
             report = new Array(2);

@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 11;
             entity = report[entity];
             zuuluu = romeon.bind(tangon)(entity);
-            michal = zuuluu.useIsDismissibleContentDismissed;
+            michal = zuuluu.UNSAFE_useIsDismissibleContentDismissed;
             entity = 12;
             entity = report[entity];
             entity = romeon.bind(tangon)(entity);

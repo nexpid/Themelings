@@ -1,11 +1,11 @@
 // app/modules/main_tabs_v2/native/tabs/TabsPerformanceTracker.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
+    golfie = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = golfie;
     var _closure1_slot2 = oscard;
     entity = function(argFoo, argBar) { // Original name: trackForScreen
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -76,18 +76,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot9 = entity;
     entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
+    verify = entity.Object;
+    option = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    golfie = oscard[entity];
+    option = oscard[entity];
     tangon = argCor;
     entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
+    tangon = tangon.bind(entity)(option);
     var _closure1_slot3 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
@@ -96,13 +96,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.Logger;
+    option = golfie.bind(entity)(tangon);
     tangon = option.prototype;
     golfie = Object.create(tangon, {constructor: {value: option}});
-    yankee = 'TabsPerformanceTracker';
-    romeon = golfie;
-    tangon = new romeon[option](yankee, offset);
+    romeon = 'TabsPerformanceTracker';
+    foxtra = golfie;
+    tangon = new foxtra[option](romeon, yankee);
     tangon = tangon instanceof Object ? tangon : golfie;
     var _closure1_slot5 = tangon;
     tangon = {};

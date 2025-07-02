@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = 12;
             oscard = entity[tangon];
             romeon = result.bind(update)(oscard);
-            golfie = romeon.useIsDismissibleContentDismissed;
+            golfie = romeon.UNSAFE_useIsDismissibleContentDismissed;
             oscard = entity[source];
             oscard = result.bind(update)(oscard);
             oscard = oscard.DismissibleContent;
@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = golfie.bind(romeon)(oscard);
             oscard = entity[tangon];
             ctrled = result.bind(update)(oscard);
-            golfie = ctrled.useIsDismissibleContentDismissed;
+            golfie = ctrled.UNSAFE_useIsDismissibleContentDismissed;
             oscard = entity[source];
             oscard = result.bind(update)(oscard);
             oscard = oscard.DismissibleContent;
@@ -389,7 +389,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie.bind(ctrled)(oscard);
             tangon = entity[tangon];
             golfie = result.bind(update)(tangon);
-            tangon = golfie.useIsDismissibleContentDismissed;
+            tangon = golfie.UNSAFE_useIsDismissibleContentDismissed;
             entity = entity[source];
             entity = result.bind(update)(entity);
             entity = entity.DismissibleContent;

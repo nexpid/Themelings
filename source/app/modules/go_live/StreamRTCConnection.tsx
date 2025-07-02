@@ -269,13 +269,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                 entity = argFoo;
                 romeon = this;
-                output = entity.sessionId;
+                result = entity.sessionId;
                 option = entity.streamKey;
-                backup = entity.serverId;
+                kiloes = entity.serverId;
                 offset = entity.initialLayout;
                 zuuluu = entity.analyticsContext;
                 golfie = entity.isStreamer;
                 foxtra = entity.parentMediaSessionId;
+                backup = entity.channelId;
                 entity = _closure1_slot7;
                 yankee = _closure2_slot0;
                 report = undefined;
@@ -287,20 +288,21 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 verify = verify.bind(report)(entity);
                 entity = verify.decodeStreamKey;
                 verify = entity.bind(verify)(option);
-                sizing = verify.guildId;
-                kiloes = verify.channelId;
+                output = verify.guildId;
+                sizing = verify.channelId;
                 entity = {};
-                echoed = _closure1_slot11;
-                result = echoed.getId;
-                result = result.bind(echoed)();
-                entity['userId'] = result;
-                entity['sessionId'] = output;
-                entity['guildId'] = sizing;
-                entity['channelId'] = kiloes;
-                kiloes = _closure1_slot20;
-                kiloes = kiloes.STREAM;
-                entity['context'] = kiloes;
-                entity['rtcServerId'] = backup;
+                update = _closure1_slot11;
+                echoed = update.getId;
+                echoed = echoed.bind(update)();
+                entity['userId'] = echoed;
+                entity['sessionId'] = result;
+                entity['guildId'] = output;
+                entity['channelId'] = sizing;
+                sizing = _closure1_slot20;
+                sizing = sizing.STREAM;
+                entity['context'] = sizing;
+                entity['streamServerId'] = kiloes;
+                entity['streamChannelId'] = backup;
                 entity['parentMediaSessionId'] = foxtra;
                 output = new Array(1);
                 output[0] = entity;
@@ -309,12 +311,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 yankee = _closure1_slot3;
                 entity = _closure1_slot21;
                 entity = entity.bind(report)();
-                if(entity) { _fun00006_ip = 215; continue _fun00005 }
- 202:
+                if(entity) { _fun00006_ip = 225; continue _fun00005 }
+ 212:
                 entity = sizing.apply;
                 entity = entity.bind(sizing)(romeon, output);
-                _fun00006_ip = 249; continue _fun00005;
- 215:
+                _fun00006_ip = 259; continue _fun00005;
+ 225:
                 foxtra = global;
                 kiloes = foxtra.Reflect;
                 backup = kiloes.construct;
@@ -322,7 +324,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 foxtra = foxtra.bind(report)(romeon);
                 foxtra = foxtra.constructor;
                 entity = backup.bind(kiloes)(sizing, output, foxtra);
- 249:
+ 259:
                 entity = yankee.bind(report)(romeon, entity);
                 var _closure3_slot0 = entity;
                 yankee = new Array(0);
@@ -334,12 +336,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 golfie = 18;
                 golfie = oscard[golfie];
                 verify = tangon.bind(report)(golfie);
-                source = entity.isOwner;
+                ctrled = entity.isOwner;
                 option = verify.prototype;
                 option = Object.create(option, {constructor: {value: verify}});
-                vacuum = option;
-                ctrled = offset;
-                golfie = new vacuum[verify](ctrled, source, update);
+                sequen = option;
+                vacuum = offset;
+                golfie = new sequen[verify](vacuum, ctrled, source);
                 golfie = golfie instanceof Object ? golfie : option;
                 entity['_videoStreamStats'] = golfie;
                 entity['analyticsContext'] = zuuluu;

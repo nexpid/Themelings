@@ -1,138 +1,98 @@
 // app/modules/app_launcher/native/base_components/AppLauncherBackButton.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    romeon = argBaz;
+    report = argBar;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = romeon;
-    var _closure1_slot2 = golfie;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
-    report = option.defineProperty;
-    michal = {};
+    golfie = option.defineProperty;
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, michal);
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    report = golfie[entity];
-    michal = argCor;
+    golfie = oscard[entity];
+    tangon = argCor;
     entity = undefined;
-    michal = michal.bind(entity)(report);
-    michal = 1;
-    michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    michal = michal.jsx;
-    var _closure1_slot3 = michal;
-    michal = 2;
-    michal = golfie[michal];
-    verify = oscard.bind(entity)(michal);
-    option = verify.createStyles;
-    report = {};
-    offset = {'width': 32, 'height': 32, 'borderRadius': null, 'alignItems': 'center', 'justifyContent': 'center'};
-    michal = 32;
-    yankee = 3;
-    yankee = golfie[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.radii;
-    yankee = yankee.lg;
-    offset['borderRadius'] = yankee;
-    report['backButtonWrapper'] = offset;
-    report = option.bind(verify)(report);
-    var _closure1_slot4 = report;
-    report = 10;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'modules/app_launcher/native/base_components/AppLauncherBackButton.tsx';
-    report = oscard.bind(golfie)(report);
-    tangon = function(argFoo) { // Original name: AppLauncherBackButton
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.jsx;
+    var _closure1_slot3 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/app_launcher/native/base_components/AppLauncherBackButton.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: AppLauncherBackButton
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            report = entity.onPress;
-            offset = entity.style;
-            golfie = entity.iconColor;
-            entity = _closure1_slot4;
+            oscard = entity.onPress;
+            michal = _closure1_slot0;
+            golfie = _closure1_slot2;
+            entity = 2;
+            entity = golfie[entity];
             tangon = undefined;
-            option = entity.bind(tangon)();
-            michal = _closure1_slot1;
-            verify = _closure1_slot2;
-            entity = 4;
-            entity = verify[entity];
-            entity = michal.bind(tangon)(entity);
-            zuuluu = entity.bind(tangon)();
-            michal = _closure1_slot0;
-            entity = 5;
-            entity = verify[entity];
-            michal = michal.bind(tangon)(entity);
-            entity = michal.useToken;
-            verify = null;
-            if(!(verify == golfie)) { _fun00002_ip = 115; continue _fun00001 }
- 84:
-            yankee = _closure1_slot1;
-            romeon = _closure1_slot2;
-            verify = 3;
-            verify = romeon[verify];
-            verify = yankee.bind(tangon)(verify);
-            verify = verify.colors;
-            golfie = verify.INTERACTIVE_NORMAL;
- 115:
-            verify = entity.bind(michal)(golfie, zuuluu);
-            michal = _closure1_slot0;
-            yankee = _closure1_slot2;
-            entity = 6;
-            entity = yankee[entity];
             zuuluu = michal.bind(tangon)(entity);
             entity = zuuluu.useNavigation;
-            golfie = entity.bind(zuuluu)();
+            zuuluu = entity.bind(zuuluu)();
+            entity = zuuluu.canGoBack;
+            report = entity.bind(zuuluu)();
             zuuluu = _closure1_slot3;
-            entity = 7;
-            entity = yankee[entity];
+            entity = 3;
+            entity = golfie[entity];
             entity = michal.bind(tangon)(entity);
-            michal = entity.PressableOpacity;
-            entity = {};
-            yankee = option.backButtonWrapper;
-            option = new Array(2);
-            option[0] = yankee;
-            option[1] = offset;
-            entity['style'] = option;
-            entity['onPress'] = report;
-            report = golfie.canGoBack;
-            report = report.bind(golfie)();
-            option = _closure1_slot3;
+            michal = entity.IconButton;
+            entity = {'size': 'sm', 'variant': 'secondary-overlay'};
+            verify = _closure1_slot1;
+            yankee = _closure1_slot2;
+            if(report) { _fun00002_ip = 109; continue _fun00001 }
+ 100:
+            golfie = 5;
+            golfie = yankee[golfie];
+            _fun00002_ip = 116; continue _fun00001;
+ 109:
+            offset = 4;
+            golfie = yankee[offset];
+ 116:
+            golfie = verify.bind(tangon)(golfie);
+            entity['icon'] = golfie;
+            entity['onPress'] = oscard;
             golfie = _closure1_slot0;
-            offset = _closure1_slot2;
-            if(report) { _fun00002_ip = 266; continue _fun00001 }
- 226:
-            report = 9;
-            report = offset[report];
-            report = golfie.bind(tangon)(report);
-            oscard = report.XSmallIcon;
-            report = {};
-            report['color'] = verify;
-            yankee = 'md';
-            report['size'] = yankee;
-            report = option.bind(tangon)(oscard, report);
-            _fun00002_ip = 304; continue _fun00001;
- 266:
-            oscard = 8;
-            oscard = offset[oscard];
+            oscard = _closure1_slot2;
+            offset = 6;
+            oscard = oscard[offset];
             oscard = golfie.bind(tangon)(oscard);
-            golfie = oscard.ArrowLargeLeftIcon;
-            oscard = {};
-            oscard['color'] = verify;
-            verify = 'md';
-            oscard['size'] = verify;
-            report = option.bind(tangon)(golfie, oscard);
- 304:
-            entity['children'] = report;
+            golfie = oscard.intl;
+            oscard = golfie.string;
+            verify = _closure1_slot0;
+            option = _closure1_slot2;
+            option = option[offset];
+            option = verify.bind(tangon)(option);
+            option = option.t;
+            if(report) { _fun00002_ip = 192; continue _fun00001 }
+ 184:
+            report = option.cpT0Cg;
+            _fun00002_ip = 198; continue _fun00001;
+ 192:
+            report = option.13/7kZ;
+ 198:
+            report = oscard.bind(golfie)(report);
+            entity['accessibilityLabel'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };
-    zuuluu['default'] = tangon;
+    zuuluu['default'] = michal;
+    michal = 32;
     zuuluu['BACK_BUTTON_SIZE'] = michal;
     return entity;
 })();

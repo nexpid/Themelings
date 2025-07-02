@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[zuuluu];
             tangon = undefined;
             oscard = golfie.bind(tangon)(zuuluu);
-            report = oscard.markDismissibleContentAsDismissed;
+            report = oscard.UNSAFE_markDismissibleContentAsDismissed;
             zuuluu = 3;
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(tangon)(zuuluu);

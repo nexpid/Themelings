@@ -1,8 +1,8 @@
 // app/modules/coded_links/codedLinkQueue.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
+    oscard = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
+    report = argPlu;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -12,30 +12,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = oscard[entity];
+    tangon = report[entity];
     entity = undefined;
-    tangon = report.bind(entity)(tangon);
-    option = tangon.Logger;
+    option = oscard.bind(entity)(tangon);
     tangon = option.prototype;
     golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = 'codedLinkQueue';
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
+    yankee = 'codedLinkQueue';
+    romeon = golfie;
+    tangon = new romeon[option](yankee, offset);
     tangon = tangon instanceof Object ? tangon : golfie;
     var _closure1_slot0 = tangon;
     tangon = 1;
-    golfie = oscard[tangon];
-    tangon = argBaz;
-    option = tangon.bind(entity)(golfie);
-    tangon = option.prototype;
-    golfie = Object.create(tangon, {constructor: {value: option}});
-    romeon = {'concurrency': 5, 'intervalCap': 10, 'interval': 2000};
-    foxtra = golfie;
-    tangon = new foxtra[option](romeon, yankee);
-    verify = tangon instanceof Object ? tangon : golfie;
-    var _closure1_slot1 = verify;
-    option = verify.on;
-    golfie = 'add';
+    tangon = report[tangon];
+    golfie = oscard.bind(entity)(tangon);
+    tangon = golfie.prototype;
+    oscard = Object.create(tangon, {constructor: {value: golfie}});
+    yankee = {'concurrency': 5, 'intervalCap': 10, 'interval': 2000};
+    romeon = oscard;
+    tangon = new romeon[golfie](yankee, offset);
+    option = tangon instanceof Object ? tangon : oscard;
+    var _closure1_slot1 = option;
+    golfie = option.on;
+    oscard = 'add';
     tangon = function() {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -55,10 +53,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    tangon = option.bind(verify)(golfie, tangon);
+    tangon = golfie.bind(option)(oscard, tangon);
     tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
+    report = report[tangon];
+    tangon = argBar;
+    oscard = tangon.bind(entity)(report);
     report = oscard.fileFinishedImporting;
     tangon = 'modules/coded_links/codedLinkQueue.tsx';
     tangon = report.bind(oscard)(tangon);

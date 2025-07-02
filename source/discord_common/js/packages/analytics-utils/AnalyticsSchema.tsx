@@ -472,6 +472,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['AUTHORIZE_IP'] = report;
     report = 'network_action_authorize_payment';
     michal['AUTHORIZE_PAYMENT'] = report;
+    report = 'network_action_billing_ip_location_fetch_error';
+    michal['BILLING_IP_LOCATION_FETCH_ERROR'] = report;
     report = 'network_action_bug_report_submit';
     michal['BUG_REPORT_SUBMIT'] = report;
     report = 'network_action_channel_create';

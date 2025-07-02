@@ -153,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal[entity];
                     entity = undefined;
                     report = zuuluu.bind(entity)(michal);
-                    tangon = report.markDismissibleContentAsDismissed;
+                    tangon = report.UNSAFE_markDismissibleContentAsDismissed;
                     zuuluu = _closure2_slot0;
                     michal = {};
                     golfie = true;

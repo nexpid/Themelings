@@ -1110,8 +1110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot22 = tangon;
     tangon = 15;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    verify = tangon.Logger;
+    verify = golfie.bind(entity)(tangon);
     tangon = verify.prototype;
     option = Object.create(tangon, {constructor: {value: verify}});
     romeon = 'MessageManager';

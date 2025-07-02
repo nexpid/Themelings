@@ -1,22 +1,24 @@
 // app/modules/main_tabs_v2/native/settings/definitions/IOSConversationSuggestionsSetting.tsx
-export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: setConversationSuggestionsEnabled
         entity = argFoo;
         var _closure2_slot0 = entity;
         tangon = _closure1_slot0;
-        zuuluu = _closure1_slot1;
+        zuuluu = _closure1_slot2;
         entity = 5;
         zuuluu = zuuluu[entity];
         entity = undefined;
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = tangon.batchUpdates;
         michal = function() {
-            zuuluu = _closure1_slot3;
+            zuuluu = _closure1_slot4;
             michal = zuuluu.setState;
             entity = {};
             tangon = _closure2_slot0;
@@ -27,7 +29,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    var _closure1_slot5 = entity;
+    var _closure1_slot6 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -41,7 +43,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     michal = argCor;
     entity = undefined;
     michal = michal.bind(entity)(golfie);
-    var _closure1_slot2 = michal;
+    var _closure1_slot3 = michal;
     michal = 1;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
@@ -65,15 +67,15 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         return entity;
     };
     verify = offset.bind(yankee)(verify);
-    var _closure1_slot3 = verify;
+    var _closure1_slot4 = verify;
     michal = michal.IntentsHandler;
-    var _closure1_slot4 = michal;
+    var _closure1_slot5 = michal;
     michal = {};
     option = option.TOGGLE;
     michal['type'] = option;
     option = function() { // Original name: title
         report = _closure1_slot0;
-        oscard = _closure1_slot1;
+        oscard = _closure1_slot2;
         entity = 9;
         michal = oscard[entity];
         tangon = undefined;
@@ -91,15 +93,15 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     golfie = golfie.CONTENT_AND_SOCIAL_DISCORD;
     michal['parent'] = golfie;
     golfie = function() { // Original name: useIOSConversationSuggestionsSettingValue
-        report = _closure1_slot2;
+        report = _closure1_slot3;
         tangon = report.useEffect;
         zuuluu = function() {
-            michal = _closure1_slot4;
+            michal = _closure1_slot5;
             entity = michal.getConversationSuggestionsEnabled;
             zuuluu = entity.bind(michal)();
             michal = zuuluu.then;
             entity = function(argFoo) {
-                zuuluu = _closure1_slot5;
+                zuuluu = _closure1_slot6;
                 entity = undefined;
                 michal = argFoo;
                 michal = zuuluu.bind(entity)(michal);
@@ -112,9 +114,9 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         michal = new Array(0);
         michal = tangon.bind(report)(zuuluu, michal);
         michal = function() { // Original name: useConversationSuggestionsEnabled
-            tangon = _closure1_slot3;
+            tangon = _closure1_slot4;
             michal = _closure1_slot0;
-            zuuluu = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 6;
             entity = zuuluu[entity];
             zuuluu = undefined;
@@ -134,13 +136,13 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     };
     michal['useValue'] = golfie;
     golfie = function(argFoo) { // Original name: onIOSConversationSuggestionsSettingValueChange
-        tangon = _closure1_slot4;
+        tangon = _closure1_slot5;
         zuuluu = tangon.setConversationSuggestionsEnabled;
         michal = argFoo;
         tangon = zuuluu.bind(tangon)(michal);
         zuuluu = tangon.then;
         michal = function(argFoo) {
-            zuuluu = _closure1_slot5;
+            zuuluu = _closure1_slot6;
             entity = undefined;
             michal = argFoo;
             michal = zuuluu.bind(entity)(michal);
@@ -149,13 +151,12 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         zuuluu = zuuluu.bind(tangon)(michal);
         michal = zuuluu.catch;
         entity = function(argFoo) {
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot1;
+            zuuluu = _closure1_slot1;
+            michal = _closure1_slot2;
             entity = 8;
             michal = michal[entity];
             entity = undefined;
-            michal = zuuluu.bind(entity)(michal);
-            tangon = michal.Logger;
+            tangon = zuuluu.bind(entity)(michal);
             michal = tangon.prototype;
             zuuluu = Object.create(michal, {constructor: {value: tangon}});
             golfie = 'ConversationSuggestions';
@@ -175,7 +176,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     michal['onValueChange'] = golfie;
     tangon = function() { // Original name: useHasIOSConversationSuggestionsSetting
         zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 7;
         michal = michal[entity];
         entity = undefined;

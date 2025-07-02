@@ -255,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = golfie[entity];
                     michal = undefined;
                     tangon = oscard.bind(michal)(entity);
-                    zuuluu = tangon.markDismissibleContentAsDismissed;
+                    zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
                     entity = 14;
                     entity = golfie[entity];
                     entity = oscard.bind(michal)(entity);

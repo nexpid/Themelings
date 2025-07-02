@@ -56,6 +56,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     tangon['INVITE'] = oscard;
     oscard = 'sync';
     tangon['SYNC'] = oscard;
+    oscard = 'content';
+    tangon['CONTENT'] = oscard;
     oscard = 2;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);

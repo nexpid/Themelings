@@ -39,12 +39,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure2_slot0;
             entity = undefined;
             zuuluu = tangon.bind(entity)(report, zuuluu);
-            zuuluu = _closure1_slot0;
+            zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 3;
             michal = tangon[michal];
-            michal = zuuluu.bind(entity)(michal);
-            tangon = michal.Logger;
+            tangon = zuuluu.bind(entity)(michal);
             michal = tangon.prototype;
             zuuluu = Object.create(michal, {constructor: {value: tangon}});
             echoed = 'VideoHealthManager';

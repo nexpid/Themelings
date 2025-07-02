@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 11;
                 michal = golfie[michal];
                 report = oscard.bind(zuuluu)(michal);
-                tangon = report.isDismissibleContentDismissed;
+                tangon = report.UNSAFE_isDismissibleContentDismissed;
                 michal = 12;
                 michal = golfie[michal];
                 michal = oscard.bind(zuuluu)(michal);
@@ -354,7 +354,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = oscard[entity];
             michal = undefined;
             tangon = report.bind(michal)(entity);
-            zuuluu = tangon.markDismissibleContentAsDismissed;
+            zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
             entity = 12;
             entity = oscard[entity];
             entity = report.bind(michal)(entity);

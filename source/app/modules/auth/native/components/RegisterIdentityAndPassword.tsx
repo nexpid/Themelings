@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = 24;
     verify = {'paddingTop': 24, 'flex': 1};
     tangon['container'] = verify;
-    verify = {'marginTop': 16, 'marginBottom': 16};
+    verify = {'marginTop': 24, 'marginBottom': 16};
     tangon['button'] = verify;
     verify = {'marginTop': 4, 'alignSelf': 'flex-start'};
     tangon['toggleInputMode'] = verify;

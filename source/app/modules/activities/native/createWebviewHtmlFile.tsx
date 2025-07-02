@@ -237,10 +237,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = michal.iframeWindowVarName;
             backup = michal.isIframeLoadedVarName;
             michal = null;
-            if(!(michal == entity)) { _fun00006_ip = 37; continue _fun00005 }
+            if(!(michal == entity)) { _fun00006_ip = 41; continue _fun00005 }
  27:
             entity = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
- 37:
+ 41:
             config = entity.left;
             vacuum = entity.right;
             source = entity.top;

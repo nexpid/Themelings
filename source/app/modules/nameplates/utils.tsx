@@ -1,5 +1,5 @@
 // app/modules/nameplates/utils.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
@@ -76,53 +76,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = golfie.fileFinishedImporting;
     report = 'modules/nameplates/utils.tsx';
     report = oscard.bind(golfie)(report);
-    report = function(argFoo, argBar, argBaz, argCor) { // Original name: getBackgroundGradientColors
+    report = function(argFoo, argBar) { // Original name: getBackgroundGradientColors
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            michal = argFoo;
-            oscard = argBaz;
-            entity = argCor;
-            report = _closure1_slot4;
-            tangon = undefined;
-            report = report.bind(tangon)(michal);
-            if(report) { _fun00004_ip = 28; continue _fun00003 }
- 26:
-            return tangon;
- 28:
-            zuuluu = _closure1_slot3;
-            tangon = zuuluu.LIGHT;
-            zuuluu = argBar;
-            if(!(zuuluu !== tangon)) { _fun00004_ip = 53; continue _fun00003 }
- 45:
-            report = michal.darkBackground;
-            _fun00004_ip = 59; continue _fun00003;
+            entity = argFoo;
+            tangon = _closure1_slot4;
+            zuuluu = undefined;
+            tangon = tangon.bind(zuuluu)(entity);
+            if(tangon) { _fun00004_ip = 22; continue _fun00003 }
+ 20:
+            return zuuluu;
+ 22:
+            michal = _closure1_slot3;
+            zuuluu = michal.LIGHT;
+            michal = argBar;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 47; continue _fun00003 }
+ 39:
+            report = entity.darkBackground;
+            _fun00004_ip = 53; continue _fun00003;
+ 47:
+            report = entity.lightBackground;
  53:
-            report = michal.lightBackground;
- 59:
-            if(oscard) { _fun00004_ip = 65; continue _fun00003 }
- 62:
-            oscard = entity;
- 65:
             entity = {};
-            golfie = '00';
-            if(!oscard) { _fun00004_ip = 82; continue _fun00003 }
- 76:
-            golfie = '1A';
- 82:
             michal = global;
             zuuluu = michal.HermesInternal;
-            zuuluu = zuuluu.concat;
+            oscard = zuuluu.concat;
             tangon = '';
-            zuuluu = zuuluu.bind(tangon)(report, golfie);
+            zuuluu = '00';
+            zuuluu = oscard.bind(tangon)(report, zuuluu);
             entity['left'] = zuuluu;
-            zuuluu = '4D';
-            if(!oscard) { _fun00004_ip = 124; continue _fun00003 }
- 118:
-            zuuluu = '80';
- 124:
             michal = michal.HermesInternal;
-            michal = michal.concat;
-            michal = michal.bind(tangon)(report, zuuluu);
+            zuuluu = michal.concat;
+            michal = '4D';
+            michal = zuuluu.bind(tangon)(report, michal);
             entity['right'] = michal;
             return entity;
         }

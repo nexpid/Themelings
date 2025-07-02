@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = option.bind(entity)(golfie);
     golfie = golfie.ParticipantTypes;
     var _closure1_slot7 = golfie;
-    golfie = 9;
+    golfie = 10;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;
@@ -198,26 +198,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  54:
                 tangon = zuuluu;
  57:
-                if(!(michal != tangon)) { _fun00010_ip = 511; continue _fun00009 }
+                if(!(michal != tangon)) { _fun00010_ip = 522; continue _fun00009 }
  64:
                 report = _closure1_slot1;
-                option = _closure1_slot2;
-                zuuluu = 8;
-                zuuluu = option[zuuluu];
+                golfie = _closure1_slot2;
+                zuuluu = 9;
+                zuuluu = golfie[zuuluu];
                 zuuluu = report.bind(entity)(zuuluu);
                 verify = zuuluu.bind(entity)(tangon);
                 report = tangon.type;
                 zuuluu = _closure1_slot7;
                 zuuluu = zuuluu.ACTIVITY;
-                if(!(zuuluu !== report)) { _fun00010_ip = 481; continue _fun00009 }
+                if(!(zuuluu !== report)) { _fun00010_ip = 492; continue _fun00009 }
  111:
                 zuuluu = _closure1_slot7;
                 zuuluu = zuuluu.STREAM;
-                if(!(zuuluu !== report)) { _fun00010_ip = 351; continue _fun00009 }
+                if(!(zuuluu !== report)) { _fun00010_ip = 362; continue _fun00009 }
  128:
                 zuuluu = _closure1_slot7;
                 zuuluu = zuuluu.HIDDEN_STREAM;
-                if(!(zuuluu !== report)) { _fun00010_ip = 351; continue _fun00009 }
+                if(!(zuuluu !== report)) { _fun00010_ip = 362; continue _fun00009 }
  145:
                 zuuluu = _closure1_slot7;
                 zuuluu = zuuluu.USER;
@@ -227,7 +227,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return zuuluu;
  163:
                 zuuluu = tangon.user;
-                option = zuuluu.id;
+                golfie = zuuluu.id;
                 report = _closure1_slot4;
                 zuuluu = report.getId;
                 report = zuuluu.bind(report)();
@@ -253,34 +253,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu['selfVideo'] = offset;
                 offset = tangon.userNick;
                 zuuluu['userNick'] = offset;
+                offset = tangon.userAvatarDecoration;
+                zuuluu['userAvatarDecoration'] = offset;
                 yankee = tangon.streamId;
                 romeon = michal != yankee;
                 offset = undefined;
-                if(!romeon) { _fun00010_ip = 280; continue _fun00009 }
- 277:
+                if(!romeon) { _fun00010_ip = 291; continue _fun00009 }
+ 288:
                 offset = yankee;
- 280:
+ 291:
                 zuuluu['streamId'] = offset;
                 offset = tangon.ringing;
                 zuuluu['ringing'] = offset;
                 zuuluu['hasVideo'] = verify;
                 offset = verify;
-                if(!offset) { _fun00010_ip = 335; continue _fun00009 }
- 307:
+                if(!offset) { _fun00010_ip = 346; continue _fun00009 }
+ 318:
                 foxtra = _closure1_slot5;
                 romeon = foxtra.isLocalVideoDisabled;
                 yankee = tangon.user;
                 yankee = yankee.id;
                 yankee = romeon.bind(foxtra)(yankee);
                 offset = !yankee;
- 335:
+ 346:
                 zuuluu['canRenderVideo'] = offset;
-                report = option === report;
+                report = golfie === report;
                 zuuluu['isSelf'] = report;
                 return zuuluu;
- 351:
+ 362:
                 zuuluu = tangon.user;
-                option = zuuluu.id;
+                golfie = zuuluu.id;
                 report = _closure1_slot4;
                 zuuluu = report.getId;
                 report = zuuluu.bind(report)();
@@ -296,25 +298,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 yankee = tangon.streamId;
                 romeon = michal != yankee;
                 offset = undefined;
-                if(!romeon) { _fun00010_ip = 432; continue _fun00009 }
- 429:
+                if(!romeon) { _fun00010_ip = 443; continue _fun00009 }
+ 440:
                 offset = yankee;
- 432:
+ 443:
                 zuuluu['streamId'] = offset;
                 offset = tangon.stream;
                 yankee = offset.guildId;
                 romeon = michal != yankee;
                 offset = undefined;
-                if(!romeon) { _fun00010_ip = 460; continue _fun00009 }
- 457:
+                if(!romeon) { _fun00010_ip = 471; continue _fun00009 }
+ 468:
                 offset = yankee;
- 460:
+ 471:
                 zuuluu['streamGuildId'] = offset;
                 zuuluu['hasVideo'] = verify;
-                report = option === report;
+                report = golfie === report;
                 zuuluu['isSelf'] = report;
                 return zuuluu;
- 481:
+ 492:
                 zuuluu = {};
                 report = tangon.type;
                 zuuluu['type'] = report;
@@ -323,14 +325,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.applicationId;
                 zuuluu['applicationId'] = tangon;
                 return zuuluu;
- 511:
+ 522:
                 report = _closure1_slot6;
                 tangon = report.getUser;
                 zuuluu = _closure2_slot0;
-                offset = tangon.bind(report)(zuuluu);
-                if(!(michal != offset)) { _fun00010_ip = 668; continue _fun00009 }
- 537:
-                tangon = offset.id;
+                verify = tangon.bind(report)(zuuluu);
+                if(!(michal != verify)) { _fun00010_ip = 708; continue _fun00009 }
+ 548:
+                tangon = verify.id;
                 zuuluu = _closure1_slot4;
                 michal = zuuluu.getId;
                 zuuluu = michal.bind(zuuluu)();
@@ -340,27 +342,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['type'] = report;
                 report = _closure2_slot0;
                 michal['id'] = report;
-                michal['user'] = offset;
+                michal['user'] = verify;
                 report = false;
                 michal['selfVideo'] = report;
                 michal['canRenderVideo'] = report;
-                option = _closure1_slot0;
-                verify = _closure1_slot2;
-                golfie = 7;
-                golfie = verify[golfie];
-                verify = option.bind(entity)(golfie);
-                option = verify.getName;
-                golfie = _closure2_slot2;
+                golfie = _closure1_slot0;
+                offset = _closure1_slot2;
+                option = 7;
+                option = offset[option];
+                romeon = golfie.bind(entity)(option);
+                yankee = romeon.getName;
+                option = _closure2_slot2;
                 oscard = _closure2_slot1;
-                oscard = option.bind(verify)(golfie, oscard, offset);
+                oscard = yankee.bind(romeon)(option, oscard, verify);
                 michal['userNick'] = oscard;
+                oscard = 8;
+                oscard = offset[oscard];
+                golfie = golfie.bind(entity)(oscard);
+                oscard = golfie.getAvatarDecoration;
+                oscard = oscard.bind(golfie)(verify, option);
+                michal['userAvatarDecoration'] = oscard;
                 michal['streamId'] = entity;
                 michal['ringing'] = report;
                 michal['hasVideo'] = report;
                 zuuluu = tangon === zuuluu;
                 michal['isSelf'] = zuuluu;
                 return michal;
- 668:
+ 708:
                 return entity;
             }
         };

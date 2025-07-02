@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     romeon = 24;
     verify['marginTop'] = romeon;
     tangon['password'] = verify;
-    verify = {'marginTop': 16, 'marginBottom': 50};
+    verify = {'marginTop': 24, 'marginBottom': 50};
     tangon['button'] = verify;
     verify = {};
     verify['marginTop'] = yankee;

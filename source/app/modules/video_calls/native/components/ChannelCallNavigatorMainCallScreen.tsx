@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 18;
             golfie = option[golfie];
             output = michal.bind(tangon)(golfie);
-            sizing = output.useIsDismissibleContentDismissed;
+            sizing = output.UNSAFE_useIsDismissibleContentDismissed;
             golfie = 19;
             golfie = option[golfie];
             golfie = michal.bind(tangon)(golfie);
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie[michal];
                     report = undefined;
                     tangon = oscard.bind(report)(michal);
-                    zuuluu = tangon.markDismissibleContentAsDismissed;
+                    zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
                     michal = 19;
                     michal = golfie[michal];
                     michal = oscard.bind(report)(michal);

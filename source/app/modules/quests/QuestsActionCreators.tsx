@@ -1711,7 +1711,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     foxtra = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 1043; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 1054; continue _fun00029 }
  13:
                     oscard = foxtra;
                     michal = undefined;
@@ -1755,7 +1755,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return report;
  151:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00030_ip = 757; continue _fun00029 }
+                    if(offset) { _fun00030_ip = 768; continue _fun00029 }
  160:
                     papara = report;
                     romeon = _closure1_slot0;
@@ -1770,7 +1770,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return offset;
  197:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(romeon) { _fun00030_ip = 754; continue _fun00029 }
+                    if(romeon) { _fun00030_ip = 765; continue _fun00029 }
  206:
                     kiloes = offset;
                     foxtra = _closure1_slot0;
@@ -1803,7 +1803,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return romeon;
  306:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=12);
-                    if(foxtra) { _fun00030_ip = 751; continue _fun00029 }
+                    if(foxtra) { _fun00030_ip = 762; continue _fun00029 }
  315:
                     result = romeon.body;
                     output = result;
@@ -1888,6 +1888,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     result = output.ad_identifiers;
                     result = echoed != result;
                     sizing['is_targeted'] = result;
+                    result = output.metadata_raw;
+                    sizing['metadata_raw'] = result;
                     foxtra['adDecisionData'] = sizing;
                     sizing = oscard;
                     foxtra['placement'] = sizing;
@@ -1919,15 +1921,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'quest_id';
                     foxtra[output] = result;
                     foxtra = kiloes.bind(sizing)(backup, foxtra);
- 746: // try_end0
-                    _fun00030_ip = 1040; continue _fun00029;
- 751:
+ 757: // try_end0
+                    _fun00030_ip = 1051; continue _fun00029;
+ 762:
                     return romeon;
- 754:
+ 765:
                     return offset;
- 757:
+ 768:
                     return report;
- 760: // catch_target0
+ 771: // catch_target0
                     CatchBlockStart(arg_register=12);
                     verify = foxtra;
                     backup = _closure1_slot1;
@@ -1955,18 +1957,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = null;
                     backup = offset == foxtra;
                     foxtra = undefined;
-                    if(backup) { _fun00030_ip = 874; continue _fun00029 }
- 866:
+                    if(backup) { _fun00030_ip = 885; continue _fun00029 }
+ 877:
                     backup = verify;
                     foxtra = backup.message;
- 874:
+ 885:
                     option = foxtra;
                     foxtra = offset != foxtra;
                     offset = null;
-                    if(!foxtra) { _fun00030_ip = 889; continue _fun00029 }
- 886:
+                    if(!foxtra) { _fun00030_ip = 900; continue _fun00029 }
+ 897:
                     offset = option;
- 889:
+ 900:
                     option = 'reason';
                     tangon[option] = offset;
                     option = _closure1_slot1;
@@ -2002,9 +2004,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['error'] = golfie;
                     zuuluu['placement'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 1040:
+ 1051:
                     return michal;
- 1043:
+ 1054:
                     return entity;
                 }
             };

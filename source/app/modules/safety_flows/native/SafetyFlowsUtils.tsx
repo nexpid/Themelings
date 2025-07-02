@@ -22,24 +22,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = null;
             michal = golfie == option;
             entity = null;
-            if(michal) { _fun00002_ip = 140; continue _fun00001 }
+            if(michal) { _fun00002_ip = 163; continue _fun00001 }
  49:
-            tangon = 'email_verification';
+            tangon = _closure1_slot0;
+            michal = _closure1_slot2;
+            michal = michal[oscard];
+            michal = tangon.bind(report)(michal);
+            michal = michal.TaskType;
+            tangon = michal.EMAIL_VERIFICATION;
             michal = option;
-            if(!(tangon === verify)) { _fun00002_ip = 137; continue _fun00001 }
- 62:
+            if(!(verify === tangon)) { _fun00002_ip = 160; continue _fun00001 }
+ 85:
             verify = _closure1_slot4;
             tangon = verify.getCurrentUser;
             verify = tangon.bind(verify)();
             offset = golfie == verify;
             tangon = undefined;
-            if(offset) { _fun00002_ip = 90; continue _fun00001 }
- 84:
+            if(offset) { _fun00002_ip = 113; continue _fun00001 }
+ 107:
             tangon = verify.email;
- 90:
+ 113:
             michal = option;
-            if(!(golfie != tangon)) { _fun00002_ip = 137; continue _fun00001 }
- 97:
+            if(!(golfie != tangon)) { _fun00002_ip = 160; continue _fun00001 }
+ 120:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[oscard];
@@ -49,9 +54,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = new Array(1);
             zuuluu[0] = tangon;
             michal = zuuluu;
- 137:
+ 160:
             entity = michal;
- 140:
+ 163:
             return entity;
         }
     };
@@ -125,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = golfie[report];
     report = option.bind(entity)(report);
     var _closure1_slot4 = report;
-    report = 6;
+    report = 10;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -146,48 +151,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo, argBar) { // Original name: navigateToScreenForTask
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = argBar;
-            michal = null;
-            if(!(michal == tangon)) { _fun00006_ip = 72; continue _fun00005 }
+            tangon = argFoo;
+            entity = argBar;
+            zuuluu = null;
+            if(!(zuuluu != entity)) { _fun00006_ip = 98; continue _fun00005 }
  12:
-            oscard = _closure1_slot1;
+            oscard = _closure1_slot5;
+            report = entity.task_type;
+            entity = undefined;
+            report = oscard.bind(entity)(report);
+            if(!(zuuluu == report)) { _fun00006_ip = 80; continue _fun00005 }
+ 36:
+            zuuluu = tangon.push;
+            oscard = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 2;
+            michal = golfie[michal];
+            michal = oscard.bind(entity)(michal);
+            michal = michal.SafetyFlowScreens;
+            michal = michal.UPDATE_APP;
+            michal = zuuluu.bind(tangon)(michal);
+            _fun00006_ip = 96; continue _fun00005;
+ 80:
+            zuuluu = tangon.push;
+            michal = 0;
+            michal = report[michal];
+            michal = zuuluu.bind(tangon)(michal);
+ 96:
+            return entity;
+ 98:
+            option = _closure1_slot1;
             verify = _closure1_slot2;
-            report = 4;
-            report = verify[report];
-            option = undefined;
-            oscard = oscard.bind(option)(report);
-            report = oscard.popWithKey;
-            golfie = _closure1_slot0;
+            michal = 4;
+            michal = verify[michal];
+            golfie = undefined;
+            zuuluu = option.bind(golfie)(michal);
+            michal = zuuluu.popWithKey;
+            report = _closure1_slot0;
             entity = 5;
             entity = verify[entity];
-            entity = golfie.bind(option)(entity);
+            entity = report.bind(golfie)(entity);
             entity = entity.SAFETY_FLOWS_MODAL_KEY;
-            entity = report.bind(oscard)(entity);
-            _fun00006_ip = 156; continue _fun00005;
- 72:
-            report = _closure1_slot5;
-            tangon = tangon.task_type;
-            oscard = undefined;
+            entity = michal.bind(zuuluu)(entity);
+            entity = 6;
+            entity = verify[entity];
+            zuuluu = option.bind(golfie)(entity);
+            michal = zuuluu.open;
+            entity = {};
+            tangon = 'SAFETY_FLOWS_VERIFY_EMAIL_SUCCESS';
+            entity['key'] = tangon;
+            tangon = 7;
+            tangon = verify[tangon];
+            tangon = option.bind(golfie)(tangon);
+            entity['icon'] = tangon;
+            tangon = 8;
+            tangon = verify[tangon];
+            tangon = report.bind(golfie)(tangon);
+            oscard = tangon.intl;
+            report = oscard.string;
+            tangon = 9;
+            tangon = verify[tangon];
+            tangon = option.bind(golfie)(tangon);
+            tangon = tangon./fHz9f;
             tangon = report.bind(oscard)(tangon);
-            if(!(michal == tangon)) { _fun00006_ip = 140; continue _fun00005 }
- 96:
-            michal = zuuluu.push;
-            report = _closure1_slot0;
-            golfie = _closure1_slot2;
-            entity = 2;
-            entity = golfie[entity];
-            entity = report.bind(oscard)(entity);
-            entity = entity.SafetyFlowScreens;
-            entity = entity.UPDATE_APP;
+            entity['content'] = tangon;
             entity = michal.bind(zuuluu)(entity);
-            _fun00006_ip = 156; continue _fun00005;
- 140:
-            michal = zuuluu.push;
-            entity = 0;
-            entity = tangon[entity];
-            entity = michal.bind(zuuluu)(entity);
- 156:
             entity = undefined;
             return entity;
         }

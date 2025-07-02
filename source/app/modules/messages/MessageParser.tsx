@@ -1420,7 +1420,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu[michal];
             oscard = report.bind(oscard)(michal);
             michal = null;
-            if(!(michal != oscard)) { _fun00030_ip = 425; continue _fun00029 }
+            if(!(michal != oscard)) { _fun00030_ip = 467; continue _fun00029 }
  59:
             yankee = _closure1_slot1;
             report = _closure1_slot2;
@@ -1443,27 +1443,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['identifiable'] = foxtra;
             report = yankee.bind(romeon)(oscard, report);
             _closure2_slot0 = report;
-            if(verify) { _fun00030_ip = 339; continue _fun00029 }
+            if(verify) { _fun00030_ip = 381; continue _fun00029 }
  141:
+            verify = oscard.bot;
+            if(verify) { _fun00030_ip = 351; continue _fun00029 }
+ 153:
             yankee = michal == tangon;
             verify = undefined;
-            if(yankee) { _fun00030_ip = 155; continue _fun00029 }
- 150:
+            if(yankee) { _fun00030_ip = 167; continue _fun00029 }
+ 162:
             verify = tangon.id;
- 155:
+ 167:
             verify = michal != verify;
             foxtra = '';
             yankee = foxtra;
-            if(!verify) { _fun00030_ip = 308; continue _fun00029 }
- 172:
+            if(!verify) { _fun00030_ip = 320; continue _fun00029 }
+ 184:
             romeon = _closure1_slot9;
             verify = romeon.getRoles;
             tangon = tangon.id;
             kiloes = verify.bind(romeon)(tangon);
             verify = michal != kiloes;
             tangon = foxtra;
-            if(!verify) { _fun00030_ip = 305; continue _fun00029 }
- 202:
+            if(!verify) { _fun00030_ip = 317; continue _fun00029 }
+ 214:
             verify = global;
             backup = verify.Object;
             romeon = backup.values;
@@ -1483,8 +1486,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             offset = romeon.bind(backup)(offset);
             tangon = foxtra;
-            if(!offset) { _fun00030_ip = 305; continue _fun00029 }
- 242:
+            if(!offset) { _fun00030_ip = 317; continue _fun00029 }
+ 254:
             romeon = oscard.discriminator;
             offset = verify.HermesInternal;
             offset = offset.concat;
@@ -1497,9 +1500,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = verify.concat;
             verify = '#';
             tangon = offset.bind(verify)(romeon);
- 305:
+ 317:
             yankee = tangon;
- 308:
+ 320:
             tangon = {};
             verify = global;
             verify = verify.HermesInternal;
@@ -1508,7 +1511,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.bind(verify)(report, yankee);
             tangon['content'] = verify;
             return tangon;
- 339:
+ 351:
+            tangon = {};
+            verify = global;
+            verify = verify.HermesInternal;
+            offset = verify.concat;
+            verify = '@';
+            verify = offset.bind(verify)(report);
+            tangon['content'] = verify;
+            return tangon;
+ 381:
             tangon = _closure1_slot1;
             entity = _closure1_slot2;
             entity = entity[option];
@@ -1516,24 +1528,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.getGlobalName;
             oscard = entity.bind(tangon)(oscard);
             entity = {};
-            if(!(michal == oscard)) { _fun00030_ip = 397; continue _fun00029 }
- 373:
+            if(!(michal == oscard)) { _fun00030_ip = 439; continue _fun00029 }
+ 415:
             michal = global;
             michal = michal.HermesInternal;
             tangon = michal.concat;
             michal = '@';
             michal = tangon.bind(michal)(report);
-            _fun00030_ip = 419; continue _fun00029;
- 397:
+            _fun00030_ip = 461; continue _fun00029;
+ 439:
             tangon = global;
             tangon = tangon.HermesInternal;
             report = tangon.concat;
             tangon = '@';
             michal = report.bind(tangon)(oscard);
- 419:
+ 461:
             entity['content'] = michal;
             return entity;
- 425:
+ 467:
             entity = {};
             michal = 0;
             michal = zuuluu[michal];

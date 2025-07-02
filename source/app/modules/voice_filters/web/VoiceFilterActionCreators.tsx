@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00002_ip = 246; continue _fun00001 }
  233:
-            verify = _closure1_slot15;
+            verify = _closure1_slot14;
             golfie = verify.bind(option)(zuuluu, option);
  246:
             _fun00002_ip = 264; continue _fun00001;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00002_ip = 282; continue _fun00001;
  269:
-            golfie = _closure1_slot15;
+            golfie = _closure1_slot14;
             oscard = golfie.bind(option)(zuuluu, option);
  282:
             tangon = oscard;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot14 = entity;
     entity = function() { // Original name: _applyVoiceFilterInNativeModule
         report = undefined;
         entity = undefined;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
                     if(zuuluu) { _fun00008_ip = 331; continue _fun00007 }
  42:
-                    zuuluu = _closure1_slot22;
+                    zuuluu = _closure1_slot20;
                     zuuluu = zuuluu.bind(tangon)();
                     SaveGenerator(address=57);
  55:
@@ -227,12 +227,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  83: // try_start_0
                     golfie = _closure1_slot1;
                     option = _closure1_slot2;
-                    oscard = 10;
+                    oscard = 9;
                     oscard = option[oscard];
                     golfie = golfie.bind(tangon)(oscard);
                     oscard = golfie.getVoiceFilters;
                     option = oscard.bind(golfie)();
-                    backup = _closure1_slot10;
+                    backup = _closure1_slot9;
                     golfie = backup.info;
                     offset = verify;
                     oscard = 'Setting voice filter in native module:';
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  167:
                     option = _closure1_slot1;
                     offset = _closure1_slot2;
-                    golfie = 8;
+                    golfie = 7;
                     golfie = offset[golfie];
                     offset = option.bind(tangon)(golfie);
                     option = offset.dispatch;
@@ -272,13 +272,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  253: // catch_target0
                     CatchBlockStart(arg_register=7);
-                    offset = _closure1_slot10;
+                    offset = _closure1_slot9;
                     golfie = offset.error;
                     oscard = 'failed to set voice filter';
                     oscard = golfie.bind(offset)(oscard, option);
                     oscard = _closure1_slot1;
                     golfie = _closure1_slot2;
-                    report = 8;
+                    report = 7;
                     report = golfie[report];
                     golfie = oscard.bind(tangon)(report);
                     oscard = golfie.dispatch;
@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot16 = tangon;
+        _closure1_slot15 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     entity = function() { // Original name: _loadSignedCatalog2
         report = undefined;
         entity = undefined;
@@ -342,14 +342,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = michal.bind(golfie)();
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    michal = 14;
+                    michal = 13;
                     tangon = tangon[michal];
                     michal = undefined;
                     michal = report.bind(michal)(tangon);
                     report = michal.HTTP;
                     tangon = report.get;
                     michal = {};
-                    oscard = _closure1_slot9;
+                    oscard = _closure1_slot8;
                     oscard = oscard.VOICE_FILTERS_CATALOG;
                     michal['url'] = oscard;
                     oscard = {};
@@ -434,7 +434,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot17 = tangon;
+        _closure1_slot16 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -442,8 +442,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot17 = entity;
-    entity = function() { // Original name: _nativeFetchCatalog2
+    var _closure1_slot16 = entity;
+    entity = function() { // Original name: _scanModelState2
         report = undefined;
         entity = undefined;
         tangon = _closure1_slot3;
@@ -452,98 +452,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     StartGenerator();
-                    report = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 209; continue _fun00011 }
- 13:
-                    tangon = _closure1_slot4;
-                    zuuluu = tangon.getToken;
-                    tangon = zuuluu.bind(tangon)();
-                    golfie = _closure1_slot1;
-                    verify = _closure1_slot2;
-                    michal = 11;
-                    michal = verify[michal];
-                    option = undefined;
-                    zuuluu = golfie.bind(option)(michal);
-                    michal = zuuluu.getSuperPropertiesBase64;
-                    zuuluu = michal.bind(zuuluu)();
-                    oscard = 15;
-                    michal = verify[oscard];
-                    romeon = golfie.bind(option)(michal);
-                    michal = null;
-                    yankee = michal != tangon;
-                    offset = 'Authentication token must be available';
-                    offset = romeon.bind(option)(yankee, offset);
-                    oscard = verify[oscard];
-                    golfie = golfie.bind(option)(oscard);
-                    oscard = michal != zuuluu;
-                    michal = 'Analytics superProperties must be available';
-                    michal = golfie.bind(option)(oscard, michal);
-                    michal = report.fetchCatalog;
-                    michal = michal.bind(report)(tangon, zuuluu);
-                    SaveGenerator(address=135);
- 133:
-                    return michal;
- 135:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00012_ip = 206; continue _fun00011 }
- 141:
-                    tangon = global;
-                    report = tangon.JSON;
-                    zuuluu = report.parse;
-                    zuuluu = zuuluu.bind(report)(michal);
-                    report = zuuluu.models;
-                    if(report) { _fun00012_ip = 203; continue _fun00011 }
- 169:
-                    oscard = tangon.Error;
-                    tangon = oscard.prototype;
-                    report = Object.create(tangon, {constructor: {value: oscard}});
-                    backup = 'Voice filters catalog response is empty';
-                    kiloes = report;
-                    tangon = new kiloes[oscard](backup, foxtra);
-                    tangon = tangon instanceof Object ? tangon : report;
-                    throw tangon;
- 203:
-                    return zuuluu;
- 206:
-                    return michal;
- 209:
-                    return entity;
-                }
-            };
-            return entity;
-        };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot18 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
-    };
-    var _closure1_slot18 = entity;
-    entity = function() { // Original name: _scanModelState2
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* (argFoo) {
-            entity = function* (argFoo) { // Original name: ?anon_0_
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
- 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00014_ip = 346; continue _fun00013 }
+                    if(michal) { _fun00012_ip = 346; continue _fun00011 }
  12:
                     tangon = _closure1_slot1;
                     michal = _closure1_slot2;
-                    offset = 10;
+                    offset = 9;
                     michal = michal[offset];
                     golfie = undefined;
                     tangon = tangon.bind(golfie)(michal);
                     michal = tangon.canCheckVoiceFilterFilesExist;
                     michal = michal.bind(tangon)();
-                    if(michal) { _fun00014_ip = 53; continue _fun00013 }
+                    if(michal) { _fun00012_ip = 53; continue _fun00011 }
  50:
                     return golfie;
  53:
@@ -558,7 +478,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = argFoo;
                         entity = {};
                         entity['id'] = tangon;
-                        zuuluu = _closure1_slot7;
+                        zuuluu = _closure1_slot6;
                         michal = undefined;
                         michal = zuuluu.bind(michal)(tangon);
                         entity['fileName'] = michal;
@@ -566,7 +486,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     option = tangon.bind(oscard)(michal);
                     tangon = {};
-                    oscard = _closure1_slot14;
+                    oscard = _closure1_slot13;
                     verify = _closure1_slot1;
                     michal = _closure1_slot2;
                     michal = michal[offset];
@@ -578,13 +498,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  135:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=8);
-                    if(verify) { _fun00014_ip = 343; continue _fun00013 }
+                    if(verify) { _fun00012_ip = 343; continue _fun00011 }
  144:
                     yankee = oscard.bind(golfie)(michal);
                     verify = yankee.bind(golfie)();
                     oscard = verify.done;
-                    offset = 9;
-                    if(oscard) { _fun00014_ip = 245; continue _fun00013 }
+                    offset = 8;
+                    if(oscard) { _fun00012_ip = 245; continue _fun00011 }
  164:
                     oscard = verify.value;
                     romeon = oscard.id;
@@ -595,10 +515,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = backup[offset];
                     backup = kiloes.bind(golfie)(backup);
                     backup = backup.VoiceFilterModelStatus;
-                    if(foxtra) { _fun00014_ip = 216; continue _fun00013 }
+                    if(foxtra) { _fun00012_ip = 216; continue _fun00011 }
  208:
                     foxtra = backup.MISSING;
-                    _fun00014_ip = 222; continue _fun00013;
+                    _fun00012_ip = 222; continue _fun00011;
  216:
                     foxtra = backup.DOWNLOADED;
  222:
@@ -607,7 +527,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = yankee.bind(golfie)();
                     oscard = romeon.done;
                     verify = romeon;
-                    if(!oscard) { _fun00014_ip = 164; continue _fun00013 }
+                    if(!oscard) { _fun00012_ip = 164; continue _fun00011 }
  245:
                     oscard = option.map;
                     report = function(argFoo) {
@@ -618,16 +538,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.bind(option)(report);
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
-                    report = 16;
+                    report = 14;
                     report = verify[report];
                     option = option.bind(golfie)(report);
                     report = option.arrayIsNotEmpty;
                     report = report.bind(option)(oscard);
-                    if(!report) { _fun00014_ip = 337; continue _fun00013 }
+                    if(!report) { _fun00012_ip = 337; continue _fun00011 }
  296:
                     report = _closure1_slot0;
                     option = _closure1_slot2;
-                    zuuluu = 17;
+                    zuuluu = 15;
                     zuuluu = option[zuuluu];
                     report = report.bind(golfie)(zuuluu);
                     zuuluu = report.cleanupUnusedVoiceFilterFiles;
@@ -637,7 +557,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  331:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                    if(report) { _fun00014_ip = 340; continue _fun00013 }
+                    if(report) { _fun00012_ip = 340; continue _fun00011 }
  337:
                     return tangon;
  340:
@@ -645,6 +565,213 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  343:
                     return michal;
  346:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot17 = tangon;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot17 = entity;
+    report = function() { // Original name: refreshVoiceFiltersCatalog
+        entity = undefined;
+        tangon = _closure1_slot19;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot18 = report;
+    entity = function() { // Original name: _refreshVoiceFiltersCatalog
+        report = undefined;
+        entity = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = function* () {
+            entity = function* () { // Original name: ?anon_0_
+                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00014_ip = 513; continue _fun00013 }
+ 12:
+                    michal = undefined;
+                    offset = undefined;
+                    oscard = _closure1_slot5;
+                    zuuluu = oscard.isNativeModuleLoaded;
+                    zuuluu = zuuluu.bind(oscard)();
+                    if(zuuluu) { _fun00014_ip = 62; continue _fun00013 }
+ 36:
+                    golfie = _closure1_slot9;
+                    oscard = golfie.info;
+                    zuuluu = 'Voice Filter catalog refresh ignored, module not loaded.';
+                    zuuluu = oscard.bind(golfie)(zuuluu);
+                    _fun00014_ip = 510; continue _fun00013;
+ 62:
+                    zuuluu = _closure1_slot11;
+                    if(zuuluu) { _fun00014_ip = 510; continue _fun00013 }
+ 72: // try_start_0 // try_start_1
+                    zuuluu = true;
+                    _closure1_slot11 = zuuluu;
+                    oscard = _closure1_slot1;
+                    golfie = _closure1_slot2;
+                    zuuluu = 9;
+                    zuuluu = golfie[zuuluu];
+                    oscard = oscard.bind(michal)(zuuluu);
+                    zuuluu = oscard.getVoiceFilters;
+                    oscard = zuuluu.bind(oscard)();
+                    zuuluu = function() { // Original name: _loadSignedCatalog
+                        entity = undefined;
+                        tangon = _closure1_slot16;
+                        zuuluu = tangon.apply;
+                        entity = arguments;
+                        michal = entity;
+                        entity = this;
+                        entity = zuuluu.bind(tangon)(entity, michal);
+                        return entity;
+                    };
+                    zuuluu = zuuluu.bind(michal)(oscard);
+                    SaveGenerator(address=124);
+ 122:
+                    return zuuluu;
+ 124:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(oscard) { _fun00014_ip = 276; continue _fun00013 }
+ 133:
+                    offset = zuuluu;
+                    golfie = _closure1_slot5;
+                    oscard = golfie.getCatalogLastFetchTime;
+                    golfie = oscard.bind(golfie)();
+                    oscard = null;
+                    oscard = oscard == golfie;
+                    verify = undefined;
+                    if(!oscard) { _fun00014_ip = 191; continue _fun00013 }
+ 163:
+                    oscard = offset;
+                    tangon = function() { // Original name: _scanModelState
+                        entity = undefined;
+                        tangon = _closure1_slot17;
+                        zuuluu = tangon.apply;
+                        entity = arguments;
+                        michal = entity;
+                        entity = this;
+                        entity = zuuluu.bind(tangon)(entity, michal);
+                        return entity;
+                    };
+                    tangon = tangon.bind(michal)(oscard);
+                    SaveGenerator(address=182);
+ 180:
+                    return tangon;
+ 182:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
+                    verify = tangon;
+                    if(oscard) { _fun00014_ip = 267; continue _fun00013 }
+ 191:
+                    golfie = _closure1_slot1;
+                    option = _closure1_slot2;
+                    oscard = 7;
+                    oscard = option[oscard];
+                    option = golfie.bind(michal)(oscard);
+                    golfie = option.dispatch;
+                    oscard = {};
+                    yankee = 'VOICE_FILTER_CATALOG_FETCH_SUCCESS';
+                    oscard['type'] = yankee;
+                    oscard['catalog'] = offset;
+                    oscard['initialModelState'] = verify;
+                    oscard = golfie.bind(option)(oscard);
+                    SaveGenerator(address=247);
+ 245:
+                    return oscard;
+ 247:
+                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
+                    if(golfie) { _fun00014_ip = 258; continue _fun00013 }
+ 253: // try_end0
+                    _fun00014_ip = 483; continue _fun00013;
+ 258: // try_end1
+                    golfie = false;
+                    _closure1_slot11 = golfie;
+                    return oscard;
+ 267:
+                    oscard = false;
+                    _closure1_slot11 = oscard;
+                    return tangon;
+ 276:
+                    tangon = false;
+                    _closure1_slot11 = tangon;
+                    return zuuluu;
+ 285: // try_start_2 // catch_target0
+                    CatchBlockStart(arg_register=7);
+                    oscard = _closure1_slot9;
+                    tangon = oscard.warn;
+                    verify = option.message;
+                    zuuluu = global;
+                    zuuluu = zuuluu.HermesInternal;
+                    golfie = zuuluu.concat;
+                    zuuluu = 'Failed to refresh voice filters catalog: ';
+                    zuuluu = golfie.bind(zuuluu)(verify);
+                    zuuluu = tangon.bind(oscard)(zuuluu);
+                    tangon = _closure1_slot1;
+                    oscard = _closure1_slot2;
+                    zuuluu = 10;
+                    zuuluu = oscard[zuuluu];
+                    offset = tangon.bind(michal)(zuuluu);
+                    verify = offset.track;
+                    zuuluu = _closure1_slot7;
+                    golfie = zuuluu.VOICE_FILTER_ERROR;
+                    zuuluu = {};
+                    yankee = 'Failed to refresh voice filters catalog';
+                    zuuluu['error_message'] = yankee;
+                    romeon = _closure1_slot0;
+                    yankee = 11;
+                    yankee = oscard[yankee];
+                    romeon = romeon.bind(michal)(yankee);
+                    yankee = romeon.serializeError;
+                    yankee = yankee.bind(romeon)(option);
+                    zuuluu['cause'] = yankee;
+                    zuuluu = verify.bind(offset)(golfie, zuuluu);
+                    zuuluu = 12;
+                    zuuluu = oscard[zuuluu];
+                    golfie = tangon.bind(michal)(zuuluu);
+                    zuuluu = golfie.captureException;
+                    zuuluu = zuuluu.bind(golfie)(option);
+                    zuuluu = 7;
+                    zuuluu = oscard[zuuluu];
+                    oscard = tangon.bind(michal)(zuuluu);
+                    tangon = oscard.dispatch;
+                    zuuluu = {};
+                    golfie = 'VOICE_FILTER_CATALOG_FETCH_FAILED';
+                    zuuluu['type'] = golfie;
+                    zuuluu = tangon.bind(oscard)(zuuluu);
+                    SaveGenerator(address=477);
+ 475:
+                    return zuuluu;
+ 477:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
+                    if(tangon) { _fun00014_ip = 491; continue _fun00013 }
+ 483: // try_end2
+                    tangon = false;
+                    _closure1_slot11 = tangon;
+                    _fun00014_ip = 510; continue _fun00013;
+ 491:
+                    tangon = false;
+                    _closure1_slot11 = tangon;
+                    return zuuluu;
+ 500: // catch_target1 // catch_target2
+                    CatchBlockStart(arg_register=2);
+                    tangon = false;
+                    _closure1_slot11 = tangon;
+                    throw zuuluu;
+ 510:
+                    return michal;
+ 513:
                     return entity;
                 }
             };
@@ -660,7 +787,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot19 = entity;
-    report = function() { // Original name: refreshVoiceFiltersCatalog
+    michal = function() { // Original name: maybeSetupVoiceFiltersNativeModule
         entity = undefined;
         tangon = _closure1_slot21;
         zuuluu = tangon.apply;
@@ -670,8 +797,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot20 = report;
-    entity = function() { // Original name: _refreshVoiceFiltersCatalog
+    var _closure1_slot20 = michal;
+    entity = function() { // Original name: _maybeSetupVoiceFiltersNativeModule
         report = undefined;
         entity = undefined;
         tangon = _closure1_slot3;
@@ -681,302 +808,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00016_ip = 690; continue _fun00015 }
- 12:
-                    michal = undefined;
-                    offset = undefined;
-                    zuuluu = undefined;
-                    golfie = _closure1_slot6;
-                    oscard = golfie.isNativeModuleLoaded;
-                    oscard = oscard.bind(golfie)();
-                    if(oscard) { _fun00016_ip = 64; continue _fun00015 }
- 38:
-                    option = _closure1_slot10;
-                    golfie = option.info;
-                    oscard = 'Voice Filter catalog refresh ignored, module not loaded.';
-                    oscard = golfie.bind(option)(oscard);
-                    _fun00016_ip = 687; continue _fun00015;
- 64:
-                    oscard = _closure1_slot12;
-                    if(oscard) { _fun00016_ip = 687; continue _fun00015 }
- 74: // try_start_0 // try_start_2
-                    oscard = true;
-                    _closure1_slot12 = oscard;
-                    golfie = _closure1_slot1;
-                    option = _closure1_slot2;
-                    oscard = 10;
-                    oscard = option[oscard];
-                    golfie = golfie.bind(michal)(oscard);
-                    oscard = golfie.getVoiceFilters;
-                    golfie = oscard.bind(golfie)();
-                    zuuluu = golfie;
-                    yankee = golfie.getCatalogNonce;
-                    golfie = null;
-                    yankee = golfie != yankee;
-                    verify = yankee;
-                    if(!yankee) { _fun00016_ip = 144; continue _fun00015 }
- 131:
-                    yankee = zuuluu;
-                    yankee = yankee.getModuleVersion;
-                    verify = golfie != yankee;
- 144:
-                    option = verify;
-                    if(!verify) { _fun00016_ip = 163; continue _fun00015 }
- 150:
-                    verify = zuuluu;
-                    verify = verify.getRequestedModelIds;
-                    option = golfie != verify;
- 163:
-                    oscard = option;
-                    if(!option) { _fun00016_ip = 182; continue _fun00015 }
- 169:
-                    option = zuuluu;
-                    option = option.setCatalog;
-                    oscard = golfie != option;
- 182:
-                    yankee = oscard;
-                    option = _closure1_slot0;
-                    verify = _closure1_slot2;
-                    oscard = 18;
-                    oscard = verify[oscard];
-                    verify = option.bind(michal)(oscard);
-                    option = verify.isVoiceFiltersSignedCatalogEnabled;
-                    oscard = {'location': 'refreshVoiceFiltersCatalog', 'autoTrackExposure': true};
-                    yankee = !yankee;
-                    oscard['disable'] = yankee;
-                    oscard = option.bind(verify)(oscard);
-                    if(oscard) { _fun00016_ip = 281; continue _fun00015 }
- 241:
-                    option = zuuluu;
-                    oscard = function() { // Original name: _nativeFetchCatalog
-                        entity = undefined;
-                        tangon = _closure1_slot18;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
-                    };
-                    option = oscard.bind(michal)(option);
-                    SaveGenerator(address=260);
- 258:
-                    return option;
- 260:
-                    ResumeGenerator(result_out_reg=7, return_bool_out_reg=5);
-                    verify = oscard;
-                    oscard = option;
-                    if(!verify) { _fun00016_ip = 312; continue _fun00015 }
- 272: // try_end0 // try_end2
-                    verify = false;
-                    _closure1_slot12 = verify;
-                    return option;
- 281: // try_start_1 // try_start_3
-                    option = zuuluu;
-                    zuuluu = function() { // Original name: _loadSignedCatalog
-                        entity = undefined;
-                        tangon = _closure1_slot17;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
-                    };
-                    zuuluu = zuuluu.bind(michal)(option);
-                    SaveGenerator(address=300);
- 298:
-                    return zuuluu;
- 300:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    oscard = zuuluu;
-                    if(option) { _fun00016_ip = 453; continue _fun00015 }
- 312:
-                    offset = oscard;
-                    option = _closure1_slot6;
-                    oscard = option.getCatalogLastFetchTime;
-                    oscard = oscard.bind(option)();
-                    oscard = golfie == oscard;
-                    verify = undefined;
-                    if(!oscard) { _fun00016_ip = 368; continue _fun00015 }
- 340:
-                    oscard = offset;
-                    tangon = function() { // Original name: _scanModelState
-                        entity = undefined;
-                        tangon = _closure1_slot19;
-                        zuuluu = tangon.apply;
-                        entity = arguments;
-                        michal = entity;
-                        entity = this;
-                        entity = zuuluu.bind(tangon)(entity, michal);
-                        return entity;
-                    };
-                    tangon = tangon.bind(michal)(oscard);
-                    SaveGenerator(address=359);
- 357:
-                    return tangon;
- 359:
-                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    verify = tangon;
-                    if(oscard) { _fun00016_ip = 444; continue _fun00015 }
- 368:
-                    golfie = _closure1_slot1;
-                    option = _closure1_slot2;
-                    oscard = 8;
-                    oscard = option[oscard];
-                    option = golfie.bind(michal)(oscard);
-                    golfie = option.dispatch;
-                    oscard = {};
-                    yankee = 'VOICE_FILTER_CATALOG_FETCH_SUCCESS';
-                    oscard['type'] = yankee;
-                    oscard['catalog'] = offset;
-                    oscard['initialModelState'] = verify;
-                    oscard = golfie.bind(option)(oscard);
-                    SaveGenerator(address=424);
- 422:
-                    return oscard;
- 424:
-                    ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                    if(golfie) { _fun00016_ip = 435; continue _fun00015 }
- 430: // try_end1
-                    _fun00016_ip = 660; continue _fun00015;
- 435: // try_end3
-                    golfie = false;
-                    _closure1_slot12 = golfie;
-                    return oscard;
- 444:
-                    oscard = false;
-                    _closure1_slot12 = oscard;
-                    return tangon;
- 453:
-                    tangon = false;
-                    _closure1_slot12 = tangon;
-                    return zuuluu;
- 462: // try_start_4 // catch_target0 // catch_target1
-                    CatchBlockStart(arg_register=7);
-                    oscard = _closure1_slot10;
-                    tangon = oscard.warn;
-                    verify = option.message;
-                    zuuluu = global;
-                    zuuluu = zuuluu.HermesInternal;
-                    golfie = zuuluu.concat;
-                    zuuluu = 'Failed to refresh voice filters catalog: ';
-                    zuuluu = golfie.bind(zuuluu)(verify);
-                    zuuluu = tangon.bind(oscard)(zuuluu);
-                    tangon = _closure1_slot1;
-                    oscard = _closure1_slot2;
-                    zuuluu = 11;
-                    zuuluu = oscard[zuuluu];
-                    offset = tangon.bind(michal)(zuuluu);
-                    verify = offset.track;
-                    zuuluu = _closure1_slot8;
-                    golfie = zuuluu.VOICE_FILTER_ERROR;
-                    zuuluu = {};
-                    yankee = 'Failed to refresh voice filters catalog';
-                    zuuluu['error_message'] = yankee;
-                    romeon = _closure1_slot0;
-                    yankee = 12;
-                    yankee = oscard[yankee];
-                    romeon = romeon.bind(michal)(yankee);
-                    yankee = romeon.serializeError;
-                    yankee = yankee.bind(romeon)(option);
-                    zuuluu['cause'] = yankee;
-                    zuuluu = verify.bind(offset)(golfie, zuuluu);
-                    zuuluu = 13;
-                    zuuluu = oscard[zuuluu];
-                    golfie = tangon.bind(michal)(zuuluu);
-                    zuuluu = golfie.captureException;
-                    zuuluu = zuuluu.bind(golfie)(option);
-                    zuuluu = 8;
-                    zuuluu = oscard[zuuluu];
-                    oscard = tangon.bind(michal)(zuuluu);
-                    tangon = oscard.dispatch;
-                    zuuluu = {};
-                    golfie = 'VOICE_FILTER_CATALOG_FETCH_FAILED';
-                    zuuluu['type'] = golfie;
-                    zuuluu = tangon.bind(oscard)(zuuluu);
-                    SaveGenerator(address=654);
- 652:
-                    return zuuluu;
- 654:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00016_ip = 668; continue _fun00015 }
- 660: // try_end4
-                    tangon = false;
-                    _closure1_slot12 = tangon;
-                    _fun00016_ip = 687; continue _fun00015;
- 668:
-                    tangon = false;
-                    _closure1_slot12 = tangon;
-                    return zuuluu;
- 677: // catch_target2 // catch_target3 // catch_target4
-                    CatchBlockStart(arg_register=2);
-                    tangon = false;
-                    _closure1_slot12 = tangon;
-                    throw zuuluu;
- 687:
-                    return michal;
- 690:
-                    return entity;
-                }
-            };
-            return entity;
-        };
-        tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot21 = tangon;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
-    };
-    var _closure1_slot21 = entity;
-    michal = function() { // Original name: maybeSetupVoiceFiltersNativeModule
-        entity = undefined;
-        tangon = _closure1_slot23;
-        zuuluu = tangon.apply;
-        entity = arguments;
-        michal = entity;
-        entity = this;
-        entity = zuuluu.bind(tangon)(entity, michal);
-        return entity;
-    };
-    var _closure1_slot22 = michal;
-    entity = function() { // Original name: _maybeSetupVoiceFiltersNativeModule
-        report = undefined;
-        entity = undefined;
-        tangon = _closure1_slot3;
-        zuuluu = function* () {
-            entity = function* () { // Original name: ?anon_0_
-                _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
- 0:
-                    StartGenerator();
-                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00018_ip = 999; continue _fun00017 }
+                    if(michal) { _fun00016_ip = 999; continue _fun00015 }
  12:
                     michal = undefined;
                     oscard = undefined;
                     romeon = undefined;
                     yankee = undefined;
-                    tangon = _closure1_slot6;
+                    tangon = _closure1_slot5;
                     zuuluu = tangon.isNativeModuleLoaded;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(zuuluu) { _fun00018_ip = 996; continue _fun00017 }
+                    if(zuuluu) { _fun00016_ip = 996; continue _fun00015 }
  43:
-                    tangon = _closure1_slot6;
+                    tangon = _closure1_slot5;
                     zuuluu = tangon.isNativeModuleLoading;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(zuuluu) { _fun00018_ip = 996; continue _fun00017 }
+                    if(zuuluu) { _fun00016_ip = 996; continue _fun00015 }
  65:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    report = 19;
+                    report = 16;
                     zuuluu = zuuluu[report];
                     tangon = tangon.bind(michal)(zuuluu);
                     zuuluu = tangon.isWindows;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(zuuluu) { _fun00018_ip = 205; continue _fun00017 }
+                    if(zuuluu) { _fun00016_ip = 205; continue _fun00015 }
  98:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -984,11 +839,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon.bind(michal)(zuuluu);
                     zuuluu = tangon.isMac;
                     zuuluu = zuuluu.bind(tangon)();
-                    if(zuuluu) { _fun00018_ip = 205; continue _fun00017 }
+                    if(zuuluu) { _fun00016_ip = 205; continue _fun00015 }
  128:
                     tangon = _closure1_slot1;
                     foxtra = _closure1_slot2;
-                    zuuluu = 8;
+                    zuuluu = 7;
                     zuuluu = foxtra[zuuluu];
                     report = tangon.bind(michal)(zuuluu);
                     tangon = report.dispatch;
@@ -996,18 +851,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = 'VOICE_FILTER_NATIVE_MODULE_STATE_CHANGE';
                     zuuluu['type'] = option;
                     verify = _closure1_slot0;
-                    option = 9;
+                    option = 8;
                     option = foxtra[option];
                     option = verify.bind(michal)(option);
                     option = option.VoiceFilterNativeModuleState;
                     option = option.UNSUPPORTED;
                     zuuluu['state'] = option;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    _fun00018_ip = 996; continue _fun00017;
+                    _fun00016_ip = 996; continue _fun00015;
  205: // try_start_0
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    option = 8;
+                    option = 7;
                     report = zuuluu[option];
                     foxtra = tangon.bind(michal)(report);
                     verify = foxtra.dispatch;
@@ -1015,14 +870,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = 'VOICE_FILTER_NATIVE_MODULE_STATE_CHANGE';
                     report['type'] = kiloes;
                     output = _closure1_slot0;
-                    sizing = 9;
+                    sizing = 8;
                     backup = zuuluu[sizing];
                     backup = output.bind(michal)(backup);
                     backup = backup.VoiceFilterNativeModuleState;
                     backup = backup.LOADING;
                     report['state'] = backup;
                     report = verify.bind(foxtra)(report);
-                    verify = 10;
+                    verify = 9;
                     zuuluu = zuuluu[verify];
                     report = tangon.bind(michal)(zuuluu);
                     tangon = report.ensureModule;
@@ -1033,7 +888,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  310:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00018_ip = 779; continue _fun00017 }
+                    if(tangon) { _fun00016_ip = 779; continue _fun00015 }
  319:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -1049,33 +904,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  365:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00018_ip = 776; continue _fun00017 }
+                    if(report) { _fun00016_ip = 776; continue _fun00015 }
  374:
                     report = oscard;
                     report = report.setVoiceFilterLaggingCallback;
-                    if(!(michal !== report)) { _fun00018_ip = 418; continue _fun00017 }
+                    if(!(michal !== report)) { _fun00016_ip = 418; continue _fun00015 }
  387:
                     foxtra = oscard;
                     verify = foxtra.setVoiceFilterLaggingCallback;
-                    report = _closure1_slot11;
+                    report = _closure1_slot10;
                     report = verify.bind(foxtra)(report);
                     SaveGenerator(address=409);
  407:
                     return report;
  409:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=8);
-                    if(verify) { _fun00018_ip = 773; continue _fun00017 }
+                    if(verify) { _fun00016_ip = 773; continue _fun00015 }
  418:
                     verify = oscard;
                     verify = verify.setVoiceFilterReadyCallback;
-                    if(!(michal !== verify)) { _fun00018_ip = 465; continue _fun00017 }
+                    if(!(michal !== verify)) { _fun00016_ip = 465; continue _fun00015 }
  431:
                     foxtra = oscard;
                     verify = foxtra.setVoiceFilterReadyCallback;
                     oscard = function(argFoo) {
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;
-                        entity = 8;
+                        entity = 7;
                         michal = michal[entity];
                         entity = undefined;
                         tangon = zuuluu.bind(entity)(michal);
@@ -1094,7 +949,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return oscard;
  456:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=8);
-                    if(verify) { _fun00018_ip = 770; continue _fun00017 }
+                    if(verify) { _fun00016_ip = 770; continue _fun00015 }
  465:
                     verify = _closure1_slot1;
                     backup = _closure1_slot2;
@@ -1115,69 +970,69 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return option;
  531:
                     ResumeGenerator(result_out_reg=7, return_bool_out_reg=8);
-                    if(verify) { _fun00018_ip = 767; continue _fun00017 }
+                    if(verify) { _fun00016_ip = 767; continue _fun00015 }
  540:
-                    verify = _closure1_slot20;
+                    verify = _closure1_slot18;
                     verify = verify.bind(michal)();
                     SaveGenerator(address=552);
  550:
                     return verify;
  552:
                     ResumeGenerator(result_out_reg=8, return_bool_out_reg=12);
-                    if(foxtra) { _fun00018_ip = 764; continue _fun00017 }
+                    if(foxtra) { _fun00016_ip = 764; continue _fun00015 }
  561:
-                    backup = _closure1_slot5;
+                    backup = _closure1_slot4;
                     foxtra = backup.getMostRecentlyRequestedVoiceFilter;
                     backup = foxtra.bind(backup)();
                     yankee = backup;
                     foxtra = null;
-                    if(!(foxtra != backup)) { _fun00018_ip = 694; continue _fun00017 }
+                    if(!(foxtra != backup)) { _fun00016_ip = 694; continue _fun00015 }
  586:
-                    sizing = _closure1_slot6;
+                    sizing = _closure1_slot5;
                     kiloes = sizing.getVoiceFilter;
                     backup = yankee;
                     backup = kiloes.bind(sizing)(backup);
                     romeon = backup;
                     kiloes = foxtra == backup;
                     backup = undefined;
-                    if(kiloes) { _fun00018_ip = 624; continue _fun00017 }
+                    if(kiloes) { _fun00016_ip = 624; continue _fun00015 }
  618:
                     backup = romeon.available;
  624:
                     romeon = true;
-                    if(!(romeon === backup)) { _fun00018_ip = 663; continue _fun00017 }
+                    if(!(romeon === backup)) { _fun00016_ip = 663; continue _fun00015 }
  630:
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    romeon = 20;
+                    romeon = 17;
                     romeon = kiloes[romeon];
                     backup = backup.bind(michal)(romeon);
                     romeon = backup.requestVoiceFilterSwitch;
                     yankee = romeon.bind(backup)(yankee);
-                    _fun00018_ip = 694; continue _fun00017;
+                    _fun00016_ip = 694; continue _fun00015;
  663:
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
-                    yankee = 20;
+                    yankee = 17;
                     yankee = backup[yankee];
                     romeon = romeon.bind(michal)(yankee);
                     yankee = romeon.requestVoiceFilterSwitch;
                     yankee = yankee.bind(romeon)(foxtra);
  694:
-                    romeon = _closure1_slot5;
+                    romeon = _closure1_slot4;
                     yankee = romeon.getMediaEngine;
                     foxtra = yankee.bind(romeon)();
                     romeon = foxtra.on;
                     backup = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    yankee = 21;
+                    yankee = 18;
                     yankee = kiloes[yankee];
                     yankee = backup.bind(michal)(yankee);
                     yankee = yankee.MediaEngineEvent;
                     yankee = yankee.VoiceFiltersFailed;
                     offset = function(argFoo) {
                         report = argFoo;
-                        tangon = _closure1_slot10;
+                        tangon = _closure1_slot9;
                         zuuluu = tangon.warn;
                         michal = global;
                         entity = michal.HermesInternal;
@@ -1187,18 +1042,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = zuuluu.bind(tangon)(entity);
                         tangon = _closure1_slot1;
                         oscard = _closure1_slot2;
-                        entity = 11;
+                        entity = 10;
                         zuuluu = oscard[entity];
                         entity = undefined;
                         offset = tangon.bind(entity)(zuuluu);
                         verify = offset.track;
-                        zuuluu = _closure1_slot8;
+                        zuuluu = _closure1_slot7;
                         option = zuuluu.VOICE_FILTER_ERROR;
                         zuuluu = {};
                         golfie = 'Voice Filters failed in process';
                         zuuluu['error_message'] = golfie;
                         romeon = _closure1_slot0;
-                        yankee = 12;
+                        yankee = 11;
                         yankee = oscard[yankee];
                         foxtra = romeon.bind(entity)(yankee);
                         romeon = foxtra.serializeError;
@@ -1212,7 +1067,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         yankee = romeon.bind(foxtra)(yankee);
                         zuuluu['cause'] = yankee;
                         zuuluu = verify.bind(offset)(option, zuuluu);
-                        zuuluu = 13;
+                        zuuluu = 12;
                         zuuluu = oscard[zuuluu];
                         tangon = tangon.bind(entity)(zuuluu);
                         zuuluu = tangon.captureException;
@@ -1231,7 +1086,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     offset = romeon.bind(foxtra)(yankee, offset);
  759: // try_end0
-                    _fun00018_ip = 996; continue _fun00017;
+                    _fun00016_ip = 996; continue _fun00015;
  764:
                     return verify;
  767:
@@ -1246,7 +1101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  782: // catch_target0
                     CatchBlockStart(arg_register=5);
-                    report = _closure1_slot10;
+                    report = _closure1_slot9;
                     tangon = report.warn;
                     verify = oscard.message;
                     zuuluu = global;
@@ -1257,36 +1112,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = tangon.bind(report)(zuuluu);
                     tangon = _closure1_slot1;
                     option = _closure1_slot2;
-                    zuuluu = 11;
+                    zuuluu = 10;
                     zuuluu = option[zuuluu];
                     offset = tangon.bind(michal)(zuuluu);
                     verify = offset.track;
-                    zuuluu = _closure1_slot8;
+                    zuuluu = _closure1_slot7;
                     report = zuuluu.VOICE_FILTER_ERROR;
                     zuuluu = {};
                     yankee = 'Failed to load Voice Filters module';
                     zuuluu['error_message'] = yankee;
                     golfie = _closure1_slot0;
-                    yankee = 12;
+                    yankee = 11;
                     yankee = option[yankee];
                     romeon = golfie.bind(michal)(yankee);
                     yankee = romeon.serializeError;
                     yankee = yankee.bind(romeon)(oscard);
                     zuuluu['cause'] = yankee;
                     zuuluu = verify.bind(offset)(report, zuuluu);
-                    zuuluu = 13;
+                    zuuluu = 12;
                     zuuluu = option[zuuluu];
                     report = tangon.bind(michal)(zuuluu);
                     zuuluu = report.captureException;
                     zuuluu = zuuluu.bind(report)(oscard);
-                    zuuluu = 8;
+                    zuuluu = 7;
                     zuuluu = option[zuuluu];
                     report = tangon.bind(michal)(zuuluu);
                     tangon = report.dispatch;
                     zuuluu = {};
                     oscard = 'VOICE_FILTER_NATIVE_MODULE_STATE_CHANGE';
                     zuuluu['type'] = oscard;
-                    oscard = 9;
+                    oscard = 8;
                     oscard = option[oscard];
                     oscard = golfie.bind(michal)(oscard);
                     oscard = oscard.VoiceFilterNativeModuleState;
@@ -1302,7 +1157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot23 = tangon;
+        _closure1_slot21 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1310,7 +1165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot21 = entity;
     oscard = global;
     foxtra = oscard.Object;
     romeon = foxtra.defineProperty;
@@ -1334,32 +1189,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = offset;
     offset = 3;
     offset = option[offset];
-    offset = yankee.bind(entity)(offset);
+    offset = golfie.bind(entity)(offset);
+    offset = offset.getVoiceFilterModelFileName;
     var _closure1_slot6 = offset;
     offset = 4;
     offset = option[offset];
     offset = golfie.bind(entity)(offset);
-    offset = offset.getVoiceFilterModelFileName;
-    var _closure1_slot7 = offset;
+    romeon = offset.AnalyticEvents;
+    var _closure1_slot7 = romeon;
+    offset = offset.Endpoints;
+    var _closure1_slot8 = offset;
     offset = 5;
     offset = option[offset];
-    offset = golfie.bind(entity)(offset);
-    yankee = offset.AnalyticEvents;
-    var _closure1_slot8 = yankee;
-    offset = offset.Endpoints;
-    var _closure1_slot9 = offset;
-    offset = 6;
-    offset = option[offset];
-    offset = golfie.bind(entity)(offset);
-    romeon = offset.Logger;
+    romeon = yankee.bind(entity)(offset);
     offset = romeon.prototype;
     yankee = Object.create(offset, {constructor: {value: romeon}});
     sizing = 'VoiceFilterActionCreators';
     output = yankee;
     offset = new output[romeon](sizing, kiloes);
     offset = offset instanceof Object ? offset : yankee;
-    var _closure1_slot10 = offset;
-    offset = 7;
+    var _closure1_slot9 = offset;
+    offset = 6;
     offset = option[offset];
     foxtra = golfie.bind(entity)(offset);
     romeon = foxtra.debounce;
@@ -1368,7 +1218,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = function() {
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 8;
+        entity = 7;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -1381,30 +1231,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     verify = 1000;
     verify = romeon.bind(foxtra)(offset, verify, yankee);
-    var _closure1_slot11 = verify;
+    var _closure1_slot10 = verify;
     verify = false;
-    var _closure1_slot12 = verify;
+    var _closure1_slot11 = verify;
     oscard = oscard.Map;
     verify = oscard.prototype;
     verify = Object.create(verify, {constructor: {value: oscard}});
     output = verify;
     oscard = new output[oscard](sizing);
     oscard = oscard instanceof Object ? oscard : verify;
-    var _closure1_slot13 = oscard;
-    oscard = 22;
+    var _closure1_slot12 = oscard;
+    oscard = 19;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
     oscard = 'modules/voice_filters/web/VoiceFilterActionCreators.tsx';
     oscard = golfie.bind(option)(oscard);
     oscard = function(argFoo) { // Original name: downloadVoiceFilterDependency
-        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             foxtra = argFoo;
             entity = arguments[1];
             var _closure2_slot0 = foxtra;
             golfie = undefined;
-            if(!(entity === golfie)) { _fun00020_ip = 20; continue _fun00019 }
+            if(!(entity === golfie)) { _fun00018_ip = 20; continue _fun00017 }
  18:
             entity = null;
  20:
@@ -1414,33 +1264,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = foxtra.modelId;
             _closure2_slot2 = report;
             option = foxtra.fileName;
-            tangon = _closure1_slot6;
+            tangon = _closure1_slot5;
             entity = tangon.getModelState;
             tangon = entity.bind(tangon)(report);
-            oscard = _closure1_slot13;
+            oscard = _closure1_slot12;
             entity = oscard.get;
             entity = entity.bind(oscard)(report);
             oscard = null;
-            if(!(oscard == entity)) { _fun00020_ip = 422; continue _fun00019 }
+            if(!(oscard == entity)) { _fun00018_ip = 422; continue _fun00017 }
  92:
             offset = oscard == tangon;
             romeon = undefined;
-            if(offset) { _fun00020_ip = 106; continue _fun00019 }
+            if(offset) { _fun00018_ip = 106; continue _fun00017 }
  101:
             romeon = tangon.status;
  106:
             backup = _closure1_slot0;
             offset = _closure1_slot2;
-            yankee = 9;
+            yankee = 8;
             offset = offset[yankee];
             offset = backup.bind(golfie)(offset);
             offset = offset.VoiceFilterModelStatus;
             offset = offset.DOWNLOADED;
-            if(!(romeon !== offset)) { _fun00020_ip = 402; continue _fun00019 }
+            if(!(romeon !== offset)) { _fun00018_ip = 402; continue _fun00017 }
  145:
             offset = oscard == tangon;
             oscard = undefined;
-            if(offset) { _fun00020_ip = 159; continue _fun00019 }
+            if(offset) { _fun00018_ip = 159; continue _fun00017 }
  154:
             oscard = tangon.status;
  159:
@@ -1450,11 +1300,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = offset.bind(golfie)(tangon);
             tangon = tangon.VoiceFilterModelStatus;
             tangon = tangon.DOWNLOADING;
-            if(!(oscard !== tangon)) { _fun00020_ip = 349; continue _fun00019 }
+            if(!(oscard !== tangon)) { _fun00018_ip = 349; continue _fun00017 }
  195:
             oscard = _closure1_slot1;
             offset = _closure1_slot2;
-            tangon = 8;
+            tangon = 7;
             tangon = offset[tangon];
             romeon = oscard.bind(golfie)(tangon);
             yankee = romeon.dispatch;
@@ -1465,7 +1315,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             sizing = foxtra;
             foxtra = copyDataProperties(output, sizing);
             tangon = yankee.bind(romeon)(tangon);
-            tangon = 10;
+            tangon = 9;
             tangon = offset[tangon];
             golfie = oscard.bind(golfie)(tangon);
             oscard = golfie.downloadVoiceFilterFile;
@@ -1475,7 +1325,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = entity.totalBytes;
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
-                entity = 8;
+                entity = 7;
                 michal = michal[entity];
                 entity = undefined;
                 tangon = zuuluu.bind(entity)(michal);
@@ -1496,29 +1346,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = oscard.bind(golfie)(verify, option, tangon);
             oscard = golfie.then;
             tangon = function(argFoo) {
-                _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+                _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                     entity = argFoo;
                     entity = entity.fetchedFromNetwork;
-                    if(!entity) { _fun00022_ip = 176; continue _fun00021 }
+                    if(!entity) { _fun00020_ip = 176; continue _fun00019 }
  17:
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    entity = 11;
+                    entity = 10;
                     entity = zuuluu[entity];
                     oscard = undefined;
                     tangon = michal.bind(oscard)(entity);
                     zuuluu = tangon.track;
-                    entity = _closure1_slot8;
+                    entity = _closure1_slot7;
                     michal = entity.VOICE_FILTER_DOWNLOAD_ATTEMPTED;
                     entity = {};
-                    golfie = _closure1_slot5;
+                    golfie = _closure1_slot4;
                     report = golfie.getActiveVoiceFilter;
                     option = report.bind(golfie)();
                     report = null;
                     verify = report != option;
                     golfie = null;
-                    if(!verify) { _fun00022_ip = 87; continue _fun00021 }
+                    if(!verify) { _fun00020_ip = 87; continue _fun00019 }
  84:
                     golfie = option;
  87:
@@ -1533,14 +1383,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = _closure2_slot1;
                     option = report == option;
                     oscard = undefined;
-                    if(option) { _fun00022_ip = 153; continue _fun00021 }
+                    if(option) { _fun00020_ip = 153; continue _fun00019 }
  143:
                     golfie = _closure2_slot1;
                     oscard = golfie.reason;
  153:
                     golfie = report != oscard;
                     report = null;
-                    if(!golfie) { _fun00022_ip = 165; continue _fun00021 }
+                    if(!golfie) { _fun00020_ip = 165; continue _fun00019 }
  162:
                     report = oscard;
  165:
@@ -1549,7 +1399,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  176:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
-                    entity = 8;
+                    entity = 7;
                     michal = michal[entity];
                     entity = undefined;
                     tangon = zuuluu.bind(entity)(michal);
@@ -1570,16 +1420,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = oscard.bind(golfie)(tangon);
             oscard = golfie.catch;
             tangon = function(argFoo) {
-                _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+                _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                     oscard = argFoo;
                     entity = null;
-                    if(!(entity != oscard)) { _fun00024_ip = 23; continue _fun00023 }
+                    if(!(entity != oscard)) { _fun00022_ip = 23; continue _fun00021 }
  9:
                     entity = oscard.USER_CANCELED_DOWNLOAD;
-                    if(entity) { _fun00024_ip = 276; continue _fun00023 }
+                    if(entity) { _fun00022_ip = 276; continue _fun00021 }
  23:
-                    tangon = _closure1_slot10;
+                    tangon = _closure1_slot9;
                     zuuluu = tangon.error;
                     michal = {};
                     michal['reason'] = oscard;
@@ -1590,17 +1440,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(option, michal);
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
-                    michal = 11;
+                    michal = 10;
                     michal = report[michal];
                     zuuluu = undefined;
                     yankee = tangon.bind(zuuluu)(michal);
                     offset = yankee.track;
-                    michal = _closure1_slot8;
+                    michal = _closure1_slot7;
                     verify = michal.VOICE_FILTER_ERROR;
                     michal = {};
                     michal['error_message'] = option;
                     romeon = _closure1_slot0;
-                    entity = 12;
+                    entity = 11;
                     entity = report[entity];
                     backup = romeon.bind(zuuluu)(entity);
                     foxtra = backup.serializeError;
@@ -1615,7 +1465,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = foxtra.bind(backup)(romeon);
                     michal['cause'] = romeon;
                     michal = offset.bind(yankee)(verify, michal);
-                    michal = 13;
+                    michal = 12;
                     michal = report[michal];
                     tangon = tangon.bind(zuuluu)(michal);
                     zuuluu = tangon.captureException;
@@ -1638,9 +1488,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['reason'] = oscard;
                     entity['extra'] = report;
                     entity = zuuluu.bind(tangon)(michal, entity);
-                    _fun00024_ip = 308; continue _fun00023;
+                    _fun00022_ip = 308; continue _fun00021;
  276:
-                    tangon = _closure1_slot10;
+                    tangon = _closure1_slot9;
                     zuuluu = tangon.info;
                     michal = _closure2_slot0;
                     entity = 'User canceled the download for Voice Filter dependency';
@@ -1648,7 +1498,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  308:
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
-                    entity = 8;
+                    entity = 7;
                     michal = michal[entity];
                     entity = undefined;
                     tangon = zuuluu.bind(entity)(michal);
@@ -1668,7 +1518,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.bind(golfie)(tangon);
             tangon = oscard.finally;
             michal = function() {
-                zuuluu = _closure1_slot13;
+                zuuluu = _closure1_slot12;
                 michal = zuuluu.delete;
                 entity = _closure2_slot2;
                 entity = michal.bind(zuuluu)(entity);
@@ -1676,7 +1526,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             michal = tangon.bind(oscard)(michal);
-            tangon = _closure1_slot13;
+            tangon = _closure1_slot12;
             zuuluu = tangon.set;
             zuuluu = zuuluu.bind(tangon)(report, michal);
             return michal;
@@ -1706,7 +1556,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['downloadVoiceFilterDependency'] = oscard;
     oscard = function() { // Original name: applyVoiceFilterInNativeModule
         entity = undefined;
-        tangon = _closure1_slot16;
+        tangon = _closure1_slot15;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1719,7 +1569,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function() { // Original name: cancelVoiceFilterDownload
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 8;
+        entity = 7;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);

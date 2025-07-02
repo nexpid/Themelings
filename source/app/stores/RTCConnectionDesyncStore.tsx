@@ -50,33 +50,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             michal = argFoo;
-            verify = argBar;
-            option = argBaz;
+            option = argBar;
+            offset = argBaz;
             report = _closure1_slot8;
             entity = {};
             tangon = michal.id;
             entity['userId'] = tangon;
-            entity['channelId'] = option;
+            entity['channelId'] = offset;
             tangon = report.prototype;
             tangon = Object.create(tangon, {constructor: {value: report}});
             kiloes = tangon;
             backup = entity;
             entity = new kiloes[report](backup, foxtra);
             oscard = entity instanceof Object ? entity : tangon;
-            offset = _closure1_slot13;
+            verify = _closure1_slot13;
             tangon = null;
-            golfie = verify;
+            golfie = option;
             if(!(tangon == golfie)) { _fun00004_ip = 71; continue _fun00003 }
  67:
             golfie = _closure1_slot14;
  71:
             report = michal.id;
             entity = undefined;
-            yankee = offset.bind(entity)(oscard, golfie, report);
-            offset = _closure1_slot17;
-            golfie = offset.set;
+            yankee = verify.bind(entity)(oscard, golfie, report);
+            verify = _closure1_slot17;
+            golfie = verify.set;
             report = michal.id;
-            report = golfie.bind(offset)(report, yankee);
+            report = golfie.bind(verify)(report, yankee);
             report = {};
             golfie = _closure1_slot16;
             golfie = golfie.USER;
@@ -94,13 +94,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['soundsharing'] = tangon;
             report['ringing'] = tangon;
             golfie = _closure1_slot1;
-            offset = _closure1_slot2;
+            verify = _closure1_slot2;
             oscard = 14;
-            oscard = offset[oscard];
+            oscard = verify[oscard];
             golfie = golfie.bind(entity)(oscard);
             oscard = golfie.getName;
-            oscard = oscard.bind(golfie)(verify, option, michal);
+            oscard = oscard.bind(golfie)(option, offset, michal);
             report['userNick'] = oscard;
+            golfie = _closure1_slot0;
+            oscard = 15;
+            oscard = verify[oscard];
+            golfie = golfie.bind(entity)(oscard);
+            oscard = golfie.getAvatarDecoration;
+            oscard = oscard.bind(golfie)(michal, option);
+            report['userAvatarDecoration'] = oscard;
             report['localVideoDisabled'] = tangon;
             tangon = _closure1_slot18;
             zuuluu = tangon.set;
@@ -309,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = new kiloes[michal](backup);
     michal = michal instanceof Object ? michal : option;
     var _closure1_slot19 = michal;
-    michal = 16;
+    michal = 17;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.Store;
@@ -429,7 +436,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = michal.bind(entity)(option);
     michal = 'RTCConnectionDesyncStore';
     option['displayName'] = michal;
-    michal = 17;
+    michal = 18;
     michal = oscard[michal];
     backup = golfie.bind(entity)(michal);
     michal = {};
@@ -449,7 +456,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = entity.context;
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 15;
+            entity = 16;
             entity = zuuluu[entity];
             zuuluu = undefined;
             entity = oscard.bind(zuuluu)(entity);
@@ -530,7 +537,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.context;
             oscard = _closure1_slot0;
             tangon = _closure1_slot2;
-            entity = 15;
+            entity = 16;
             tangon = tangon[entity];
             entity = undefined;
             entity = oscard.bind(entity)(tangon);
@@ -590,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = entity.context;
             oscard = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 15;
+            entity = 16;
             entity = zuuluu[entity];
             zuuluu = undefined;
             entity = oscard.bind(zuuluu)(entity);
@@ -612,7 +619,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = michal;
     michal = new kiloes[option](backup, foxtra, romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 18;
+    tangon = 19;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

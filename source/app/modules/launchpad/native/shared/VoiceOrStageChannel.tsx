@@ -528,10 +528,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = offset.isAndroid;
             verify = verify.bind(offset)();
             golfie = 0;
-            if(!verify) { _fun00010_ip = 488; continue _fun00009 }
- 485:
+            if(!verify) { _fun00010_ip = 489; continue _fun00009 }
+ 486:
             golfie = option;
- 488:
+ 489:
             michal['marginTop'] = golfie;
             michal['alignSelf'] = tangon;
             entity['joinButtonText'] = michal;

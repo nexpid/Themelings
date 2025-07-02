@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = 2;
         report = zuuluu[report];
         verify = option.bind(entity)(report);
-        oscard = verify.markDismissibleContentAsDismissed;
+        oscard = verify.UNSAFE_markDismissibleContentAsDismissed;
         report = 3;
         report = zuuluu[report];
         report = option.bind(entity)(report);

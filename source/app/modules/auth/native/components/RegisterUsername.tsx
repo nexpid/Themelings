@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     offset = {};
     offset['flexGrow'] = romeon;
     golfie['scrollContainer'] = offset;
-    offset = {'marginTop': 16, 'marginBottom': 16};
+    offset = {'marginTop': 24, 'marginBottom': 16};
     golfie['button'] = offset;
     offset = {};
     offset['marginTop'] = yankee;

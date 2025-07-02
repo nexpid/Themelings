@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 254; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 258; continue _fun00001 }
  13:
                     oscard = verify;
                     golfie = _closure1_slot1;
@@ -48,13 +48,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = offset.bind(yankee)(verify);
                     tangon['url'] = verify;
                     tangon = golfie.bind(option)(tangon);
-                    SaveGenerator(address=140);
- 138:
+                    SaveGenerator(address=144);
+ 142:
                     return tangon;
- 140:
+ 144:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 203; continue _fun00001 }
- 146:
+                    if(golfie) { _fun00002_ip = 207; continue _fun00001 }
+ 150:
                     option = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[report];
@@ -68,11 +68,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = tangon.body;
                     golfie['guild'] = offset;
                     golfie = option.bind(verify)(golfie);
- 201: // try_end0
-                    _fun00002_ip = 251; continue _fun00001;
- 203:
+ 205: // try_end0
+                    _fun00002_ip = 255; continue _fun00001;
+ 207:
                     return tangon;
- 206: // catch_target0
+ 210: // catch_target0
                     CatchBlockStart(arg_register=3);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -84,9 +84,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['type'] = golfie;
                     zuuluu['guildId'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 251:
+ 255:
                     return michal;
- 254:
+ 258:
                     return entity;
                 }
             };

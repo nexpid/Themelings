@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         michal = golfie[tangon];
         entity = undefined;
         offset = zuuluu.bind(entity)(michal);
-        verify = offset.markDismissibleContentAsDismissed;
+        verify = offset.UNSAFE_markDismissibleContentAsDismissed;
         michal = 1;
         report = golfie[michal];
         report = zuuluu.bind(entity)(report);
@@ -39,7 +39,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         report = verify.bind(offset)(option, report);
         report = golfie[tangon];
         offset = zuuluu.bind(entity)(report);
-        verify = offset.markDismissibleContentAsDismissed;
+        verify = offset.UNSAFE_markDismissibleContentAsDismissed;
         report = golfie[michal];
         report = zuuluu.bind(entity)(report);
         report = report.DismissibleContent;
@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         report = verify.bind(offset)(option, report);
         tangon = golfie[tangon];
         report = zuuluu.bind(entity)(tangon);
-        tangon = report.markDismissibleContentAsDismissed;
+        tangon = report.UNSAFE_markDismissibleContentAsDismissed;
         michal = golfie[michal];
         michal = zuuluu.bind(entity)(michal);
         michal = michal.DismissibleContent;

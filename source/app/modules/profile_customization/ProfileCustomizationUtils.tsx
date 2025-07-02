@@ -197,20 +197,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['userAvatarDecoration'] = tangon;
             tangon = null;
             offset = tangon == verify;
-            if(offset) { _fun00004_ip = 220; continue _fun00003 }
- 214:
+            if(offset) { _fun00004_ip = 218; continue _fun00003 }
+ 212:
             option = verify.avatarDecoration;
- 220:
+ 218:
             entity['guildAvatarDecoration'] = option;
-            if(!(tangon != report)) { _fun00004_ip = 234; continue _fun00003 }
- 231:
+            if(!(tangon != report)) { _fun00004_ip = 232; continue _fun00003 }
+ 229:
             oscard = golfie;
- 234:
+ 232:
             entity['pendingAvatarDecoration'] = oscard;
-            if(!(tangon != report)) { _fun00004_ip = 246; continue _fun00003 }
- 243:
+            if(!(tangon != report)) { _fun00004_ip = 244; continue _fun00003 }
+ 241:
             michal = zuuluu;
- 246:
+ 244:
             entity['pendingErrors'] = michal;
             return entity;
         }

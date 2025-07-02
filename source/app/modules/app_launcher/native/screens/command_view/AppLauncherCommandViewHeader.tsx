@@ -56,10 +56,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = verify.bind(entity)(tangon);
     option = yankee.createStyles;
     tangon = {};
-    report = {};
-    romeon = 'rgba(0, 0, 0, 0.6)';
-    report['backgroundColor'] = romeon;
-    tangon['backButton'] = report;
     romeon = {'alignItems': 'center', 'flexDirection': 'row', 'justifyContent': 'space-between', 'position': 'absolute', 'top': 4294967280, 'left': 0, 'right': 0};
     report = -16;
     romeon['padding'] = foxtra;
@@ -136,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             michal = argFoo;
             kiloes = michal.command;
-            update = michal.onPressBack;
+            result = michal.onPressBack;
             sizing = michal.scrollOffsetY;
             var _closure2_slot0 = sizing;
             michal = michal.section;
@@ -299,12 +295,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra = {'APP_ICON_SIZE': 72, 'APP_ICON_BORDER_WIDTH': 4};
             golfie = 4;
-            result = _closure1_slot5;
-            foxtra['DEFAULT_CONTENT_PADDING'] = result;
-            result = zuuluu[romeon];
-            result = michal.bind(tangon)(result);
-            result = result.interpolate;
-            foxtra['interpolate'] = result;
+            echoed = _closure1_slot5;
+            foxtra['DEFAULT_CONTENT_PADDING'] = echoed;
+            echoed = zuuluu[romeon];
+            echoed = michal.bind(tangon)(echoed);
+            echoed = echoed.interpolate;
+            foxtra['interpolate'] = echoed;
             foxtra['scrollOffsetY'] = sizing;
             foxtra['TOTAL_SCROLL_RANGE'] = backup;
             option['__closure'] = foxtra;
@@ -340,10 +336,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             foxtra = {};
-            result = zuuluu[romeon];
-            result = michal.bind(tangon)(result);
-            result = result.interpolate;
-            foxtra['interpolate'] = result;
+            echoed = zuuluu[romeon];
+            echoed = michal.bind(tangon)(echoed);
+            echoed = echoed.interpolate;
+            foxtra['interpolate'] = echoed;
             foxtra['scrollOffsetY'] = sizing;
             foxtra['TOTAL_SCROLL_RANGE'] = backup;
             entity['__closure'] = foxtra;
@@ -351,14 +347,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['__workletHash'] = foxtra;
             foxtra = _closure1_slot12;
             entity['__initData'] = foxtra;
-            ctrled = option.bind(verify)(entity);
+            source = option.bind(verify)(entity);
             entity = 9;
             entity = zuuluu[entity];
             verify = michal.bind(tangon)(entity);
             option = verify.useToken;
             michal = _closure1_slot1;
-            result = 6;
-            entity = zuuluu[result];
+            entity = 6;
+            entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             entity = entity.colors;
             entity = entity.BG_BASE_PRIMARY;
@@ -431,31 +427,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = option;
             entity['style'] = report;
             foxtra = _closure1_slot6;
-            echoed = _closure1_slot1;
+            option = _closure1_slot1;
             sizing = _closure1_slot2;
             report = sizing[romeon];
-            report = echoed.bind(tangon)(report);
-            option = report.View;
+            report = option.bind(tangon)(report);
+            echoed = report.View;
             report = {};
-            vacuum = offset.headerBannerOverlay;
-            source = new Array(2);
-            source[0] = vacuum;
-            source[1] = ctrled;
-            report['style'] = source;
-            option = foxtra.bind(tangon)(option, report);
+            ctrled = offset.headerBannerOverlay;
+            update = new Array(2);
+            update[0] = ctrled;
+            update[1] = source;
+            report['style'] = update;
+            echoed = foxtra.bind(tangon)(echoed, report);
             report = new Array(5);
-            report[0] = option;
+            report[0] = echoed;
             golfie = sizing[golfie];
-            option = echoed.bind(tangon)(golfie);
+            option = option.bind(tangon)(golfie);
             golfie = {};
-            source = offset.backButton;
-            golfie['style'] = source;
-            golfie['onPress'] = update;
-            result = sizing[result];
-            result = echoed.bind(tangon)(result);
-            result = result.colors;
-            result = result.WHITE;
-            golfie['iconColor'] = result;
+            golfie['onPress'] = result;
             golfie = foxtra.bind(tangon)(option, golfie);
             report[1] = golfie;
             option = _closure1_slot0;
@@ -471,10 +460,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = sizing;
             sizing = backup == kiloes;
             backup = undefined;
-            if(sizing) { _fun00002_ip = 851; continue _fun00001 }
- 846:
+            if(sizing) { _fun00002_ip = 817; continue _fun00001 }
+ 812:
             backup = kiloes.displayName;
- 851:
+ 817:
             golfie['children'] = backup;
             golfie = foxtra.bind(tangon)(option, golfie);
             report[2] = golfie;

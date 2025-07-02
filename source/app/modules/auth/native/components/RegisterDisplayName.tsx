@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = oscard[yankee];
     yankee = romeon.bind(entity)(yankee);
     yankee = yankee.spacing;
-    yankee = yankee.PX_16;
+    yankee = yankee.PX_24;
     verify['marginTop'] = yankee;
     tangon['button'] = verify;
     verify = {};

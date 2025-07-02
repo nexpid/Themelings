@@ -65,8 +65,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = report;
     report = 3;
     report = golfie[report];
-    report = oscard.bind(entity)(report);
-    verify = report.Logger;
+    verify = option.bind(entity)(report);
     report = verify.prototype;
     option = Object.create(report, {constructor: {value: verify}});
     foxtra = 'SoundUtils';

@@ -53,8 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.Logger;
+    option = golfie.bind(entity)(tangon);
     tangon = option.prototype;
     foxtra = Object.create(tangon, {constructor: {value: option}});
     romeon = 'SearchSessionAnalyticsManager';

@@ -3591,7 +3591,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             status = false;
             status = whisks.bind(config)(equals, limora, status);
             michal['avatarURI'] = status;
-            limora = config.avatarDecoration;
+            limora = verify.userAvatarDecoration;
             whisks = oscard != limora;
             status = undefined;
             if(!whisks) { _fun00068_ip = 1150; continue _fun00067 }

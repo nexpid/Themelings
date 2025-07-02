@@ -851,106 +851,108 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 entity = argFoo;
                 tangon = entity.streamKey;
-                option = entity.rtcServerId;
+                verify = entity.rtcServerId;
+                option = entity.rtcChannelId;
                 zuuluu = entity.region;
-                yankee = entity.viewerIds;
+                romeon = entity.viewerIds;
                 michal = _closure1_slot21;
                 michal = michal[tangon];
                 golfie = null;
                 oscard = michal;
-                if(!(golfie == michal)) { _fun00040_ip = 477; continue _fun00039 }
- 50:
+                if(!(golfie == michal)) { _fun00040_ip = 487; continue _fun00039 }
+ 56:
                 oscard = michal;
-                if(!(golfie != option)) { _fun00040_ip = 477; continue _fun00039 }
- 60:
+                if(!(golfie != verify)) { _fun00040_ip = 487; continue _fun00039 }
+ 66:
                 michal = _closure1_slot17;
                 michal = michal[tangon];
-                if(!(golfie == michal)) { _fun00040_ip = 80; continue _fun00039 }
- 72:
+                if(!(golfie == michal)) { _fun00040_ip = 86; continue _fun00039 }
+ 78:
                 michal = _closure1_slot16;
                 michal[tangon] = golfie;
- 80:
+ 86:
                 report = _closure1_slot0;
-                verify = _closure1_slot2;
+                offset = _closure1_slot2;
                 michal = 14;
-                michal = verify[michal];
-                verify = undefined;
-                report = report.bind(verify)(michal);
+                michal = offset[michal];
+                offset = undefined;
+                report = report.bind(offset)(michal);
                 michal = report.decodeStreamKey;
-                foxtra = michal.bind(report)(tangon);
+                backup = michal.bind(report)(tangon);
                 michal = _closure1_slot16;
                 michal = michal[tangon];
                 michal = golfie == michal;
-                if(!michal) { _fun00040_ip = 140; continue _fun00039 }
- 128:
+                if(!michal) { _fun00040_ip = 146; continue _fun00039 }
+ 134:
                 report = _closure1_slot18;
                 report = report[tangon];
                 michal = golfie == report;
- 140:
-                if(!michal) { _fun00040_ip = 187; continue _fun00039 }
- 143:
+ 146:
+                if(!michal) { _fun00040_ip = 193; continue _fun00039 }
+ 149:
                 report = _closure1_slot16;
-                offset = _closure1_slot0;
-                romeon = _closure1_slot2;
+                yankee = _closure1_slot0;
+                foxtra = _closure1_slot2;
                 michal = 15;
-                michal = romeon[michal];
-                romeon = offset.bind(verify)(michal);
-                offset = romeon.getStreamerApplication;
+                michal = foxtra[michal];
+                foxtra = yankee.bind(offset)(michal);
+                yankee = foxtra.getStreamerApplication;
                 michal = _closure1_slot12;
-                michal = offset.bind(romeon)(foxtra, michal);
+                michal = yankee.bind(foxtra)(backup, michal);
                 report[tangon] = michal;
- 187:
+ 193:
                 report = _closure1_slot0;
                 michal = _closure1_slot2;
-                offset = 12;
-                michal = michal[offset];
-                michal = report.bind(verify)(michal);
+                yankee = 12;
+                michal = michal[yankee];
+                michal = report.bind(offset)(michal);
                 report = michal.StreamRTCAnalyticsContext;
                 michal = {};
                 michal['streamRegion'] = zuuluu;
                 zuuluu = _closure1_slot16;
                 zuuluu = zuuluu[tangon];
                 michal['streamApplication'] = zuuluu;
-                romeon = _closure1_slot24;
+                foxtra = _closure1_slot24;
                 zuuluu = _closure1_slot18;
                 zuuluu = zuuluu[tangon];
-                zuuluu = romeon.bind(verify)(zuuluu);
+                zuuluu = foxtra.bind(offset)(zuuluu);
                 michal['streamSourceType'] = zuuluu;
                 zuuluu = _closure1_slot15;
                 zuuluu = zuuluu[tangon];
                 michal['actionContext'] = zuuluu;
-                romeon = golfie != yankee;
+                foxtra = golfie != romeon;
                 zuuluu = 0;
-                if(!romeon) { _fun00040_ip = 282; continue _fun00039 }
- 277:
-                zuuluu = yankee.length;
- 282:
+                if(!foxtra) { _fun00040_ip = 288; continue _fun00039 }
+ 283:
+                zuuluu = romeon.length;
+ 288:
                 michal['numViewers'] = zuuluu;
                 zuuluu = _closure1_slot19;
                 zuuluu = zuuluu[tangon];
                 michal['goLiveModalDurationMs'] = zuuluu;
                 zuuluu = report.prototype;
                 zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-                sizing = zuuluu;
-                kiloes = michal;
-                michal = new sizing[report](kiloes, backup);
+                output = zuuluu;
+                sizing = michal;
+                michal = new output[report](sizing, kiloes);
                 zuuluu = michal instanceof Object ? michal : zuuluu;
                 report = _closure1_slot1;
                 michal = _closure1_slot2;
-                yankee = 11;
-                yankee = michal[yankee];
-                foxtra = report.bind(verify)(yankee);
-                yankee = _closure1_slot3;
-                romeon = golfie != yankee;
-                yankee = 'Creating RTCConnection without session.';
-                yankee = foxtra.bind(verify)(romeon, yankee);
-                michal = michal[offset];
-                report = report.bind(verify)(michal);
+                romeon = 11;
+                romeon = michal[romeon];
+                backup = report.bind(offset)(romeon);
+                romeon = _closure1_slot3;
+                foxtra = golfie != romeon;
+                romeon = 'Creating RTCConnection without session.';
+                romeon = backup.bind(offset)(foxtra, romeon);
+                michal = michal[yankee];
+                report = report.bind(offset)(michal);
                 michal = {};
-                verify = _closure1_slot3;
-                michal['sessionId'] = verify;
+                offset = _closure1_slot3;
+                michal['sessionId'] = offset;
                 michal['streamKey'] = tangon;
-                michal['serverId'] = option;
+                michal['serverId'] = verify;
+                michal['channelId'] = option;
                 option = _closure1_slot20;
                 michal['initialLayout'] = option;
                 michal['analyticsContext'] = zuuluu;
@@ -964,14 +966,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['parentMediaSessionId'] = zuuluu;
                 zuuluu = report.prototype;
                 zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-                sizing = zuuluu;
-                kiloes = michal;
-                michal = new sizing[report](kiloes, backup);
+                output = zuuluu;
+                sizing = michal;
+                michal = new output[report](sizing, kiloes);
                 michal = michal instanceof Object ? michal : zuuluu;
                 zuuluu = _closure1_slot21;
                 zuuluu[tangon] = michal;
                 oscard = michal;
- 477:
+ 487:
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 16;

@@ -287,8 +287,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = ctrled.bind(tangon)(source, echoed);
             result[1] = echoed;
             echoed = null;
-            if(!update) { _fun00002_ip = 891; continue _fun00001 }
- 730:
+            if(!update) { _fun00002_ip = 892; continue _fun00001 }
+ 731:
             ctrled = _closure1_slot7;
             target = _closure1_slot0;
             status = _closure1_slot2;
@@ -323,7 +323,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = config.bind(tangon)(sequen, vacuum);
             update['children'] = vacuum;
             echoed = ctrled.bind(tangon)(source, update);
- 891:
+ 892:
             result[2] = echoed;
             kiloes['children'] = result;
             kiloes = output.bind(tangon)(sizing, kiloes);

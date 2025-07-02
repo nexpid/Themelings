@@ -1,79 +1,106 @@
 // app/modules/avatar_decorations/useAvatarDecoration.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
+    oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
-    entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
-    tangon = {};
-    entity = true;
-    tangon['value'] = entity;
-    entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    entity = 0;
-    golfie = oscard[entity];
-    tangon = argBaz;
-    entity = undefined;
-    tangon = tangon.bind(entity)(golfie);
-    var _closure1_slot2 = tangon;
-    tangon = 2;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/avatar_decorations/useAvatarDecoration.tsx';
-    tangon = report.bind(oscard)(tangon);
-    michal = function(argFoo, argBar) { // Original name: useAvatarDecoration
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    michal = function(argFoo, argBar) { // Original name: getAvatarDecoration
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            var _closure2_slot0 = michal;
-            entity = argBar;
-            var _closure2_slot1 = entity;
-            oscard = _closure1_slot0;
-            report = _closure1_slot1;
-            entity = 1;
-            report = report[entity];
+            option = argBar;
+            report = arguments[2];
             entity = undefined;
-            oscard = oscard.bind(entity)(report);
-            report = oscard.useStateFromStores;
-            golfie = _closure1_slot2;
-            tangon = new Array(1);
-            tangon[0] = golfie;
-            zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                    zuuluu = _closure2_slot1;
-                    entity = null;
-                    zuuluu = entity != zuuluu;
-                    if(!zuuluu) { _fun00004_ip = 48; continue _fun00003 }
- 16:
-                    report = _closure1_slot2;
-                    tangon = report.getMember;
-                    zuuluu = _closure2_slot1;
-                    michal = _closure2_slot0;
-                    michal = michal.id;
-                    entity = tangon.bind(report)(zuuluu, michal);
- 48:
-                    return entity;
-                }
-            };
-            tangon = report.bind(oscard)(tangon, zuuluu);
+            if(!(report === entity)) { _fun00002_ip = 33; continue _fun00001 }
+ 15:
+            tangon = _closure1_slot3;
+            zuuluu = new Array(1);
+            zuuluu[0] = tangon;
+            report = zuuluu;
+ 33:
+            tangon = _closure1_slot2;
+            zuuluu = 1;
+            tangon = tangon.bind(entity)(report, zuuluu);
+            zuuluu = 0;
+            golfie = tangon[zuuluu];
             zuuluu = null;
+            report = zuuluu != option;
+            tangon = null;
+            if(!report) { _fun00002_ip = 83; continue _fun00001 }
+ 66:
+            oscard = golfie.getMember;
+            report = michal.id;
+            tangon = oscard.bind(golfie)(option, report);
+ 83:
             report = zuuluu == tangon;
-            if(report) { _fun00002_ip = 84; continue _fun00001 }
- 78:
+            entity = undefined;
+            if(report) { _fun00002_ip = 98; continue _fun00001 }
+ 92:
             entity = tangon.avatarDecoration;
- 84:
-            if(!(zuuluu == entity)) { _fun00002_ip = 94; continue _fun00001 }
- 88:
+ 98:
+            if(!(zuuluu == entity)) { _fun00002_ip = 108; continue _fun00001 }
+ 102:
             entity = michal.avatarDecoration;
- 94:
+ 108:
             return entity;
         }
     };
-    zuuluu['useAvatarDecoration'] = michal;
+    var _closure1_slot4 = michal;
+    entity = global;
+    offset = entity.Object;
+    verify = offset.defineProperty;
+    report = {};
+    entity = true;
+    report['value'] = entity;
+    entity = '__esModule';
+    entity = verify.bind(offset)(zuuluu, entity, report);
+    entity = 0;
+    report = golfie[entity];
+    entity = undefined;
+    report = option.bind(entity)(report);
+    var _closure1_slot2 = report;
+    report = 1;
+    report = golfie[report];
+    report = option.bind(entity)(report);
+    var _closure1_slot3 = report;
+    report = 3;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/avatar_decorations/useAvatarDecoration.tsx';
+    report = oscard.bind(golfie)(report);
+    tangon = function(argFoo, argBar) { // Original name: useAvatarDecoration
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        michal = argBar;
+        var _closure2_slot1 = michal;
+        report = _closure1_slot0;
+        tangon = _closure1_slot1;
+        zuuluu = 2;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        tangon = report.bind(zuuluu)(tangon);
+        zuuluu = tangon.useStateFromStores;
+        report = _closure1_slot3;
+        michal = new Array(1);
+        michal[0] = report;
+        entity = function() {
+            report = _closure1_slot4;
+            tangon = _closure2_slot0;
+            zuuluu = _closure2_slot1;
+            entity = _closure1_slot3;
+            michal = new Array(1);
+            michal[0] = entity;
+            entity = undefined;
+            entity = report.bind(entity)(tangon, zuuluu, michal);
+            return entity;
+        };
+        entity = zuuluu.bind(tangon)(michal, entity);
+        return entity;
+    };
+    zuuluu['useAvatarDecoration'] = tangon;
+    zuuluu['getAvatarDecoration'] = michal;
     return entity;
 })();

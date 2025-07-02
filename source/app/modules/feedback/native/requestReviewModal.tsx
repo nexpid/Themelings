@@ -96,8 +96,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     var _closure1_slot4 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.Logger;
+    option = golfie.bind(entity)(tangon);
     tangon = option.prototype;
     golfie = Object.create(tangon, {constructor: {value: option}});
     romeon = 'requestReviewModal';

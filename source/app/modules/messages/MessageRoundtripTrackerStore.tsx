@@ -221,8 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot11 = michal;
     michal = 9;
     michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    verify = michal.Logger;
+    verify = golfie.bind(entity)(michal);
     michal = verify.prototype;
     option = Object.create(michal, {constructor: {value: verify}});
     romeon = 'MessageRoundtripTrackerStore';

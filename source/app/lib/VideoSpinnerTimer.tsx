@@ -79,12 +79,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.bind(entity)(zuuluu, tangon);
             tangon = null;
             zuuluu['spinnerVisibleStart'] = tangon;
-            tangon = _closure1_slot0;
+            tangon = _closure1_slot1;
             report = _closure1_slot2;
             michal = 8;
             michal = report[michal];
-            michal = tangon.bind(entity)(michal);
-            report = michal.Logger;
+            report = tangon.bind(entity)(michal);
             michal = report.prototype;
             tangon = Object.create(michal, {constructor: {value: report}});
             golfie = argFoo;

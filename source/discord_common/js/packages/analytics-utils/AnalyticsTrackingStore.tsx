@@ -161,8 +161,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         var _closure1_slot29 = report;
         tangon = tangon.window;
         tangon = tangon.requestIdleCallback;
-        if(!(report == tangon)) { _fun00002_ip = 361; continue _fun00001 }
- 356:
+        if(!(report == tangon)) { _fun00002_ip = 365; continue _fun00001 }
+ 360:
         tangon = function(argFoo) {
             michal = argFoo;
             var _closure2_slot0 = michal;
@@ -178,7 +178,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(michal)(entity);
             return entity;
         };
- 361:
+ 365:
         var _closure1_slot32 = tangon;
         tangon = 6;
         tangon = golfie[tangon];

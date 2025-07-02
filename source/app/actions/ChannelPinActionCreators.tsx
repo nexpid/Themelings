@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 184; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 188; continue _fun00001 }
  12:
                     zuuluu = undefined;
                     var _closure4_slot0 = zuuluu;
@@ -70,7 +70,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  82:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 181; continue _fun00001 }
+                    if(report) { _fun00002_ip = 185; continue _fun00001 }
  88:
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -156,9 +156,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 181:
+ 185:
                     return michal;
- 184:
+ 188:
                     return entity;
                 }
             };
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 175; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 179; continue _fun00005 }
  10:
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  62:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 172; continue _fun00005 }
+                    if(tangon) { _fun00006_ip = 176; continue _fun00005 }
  68:
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
@@ -282,9 +282,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 172:
+ 176:
                     return michal;
- 175:
+ 179:
                     return entity;
                 }
             };

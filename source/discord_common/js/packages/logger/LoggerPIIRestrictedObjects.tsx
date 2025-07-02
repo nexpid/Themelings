@@ -1,4 +1,4 @@
-// discord_common/js/shared/LoggerPIIRestrictedObjects.tsx
+// discord_common/js/packages/logger/LoggerPIIRestrictedObjects.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     zuuluu = argFre;
     entity = global;
@@ -16,7 +16,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     entity = undefined;
     report = michal.bind(entity)(tangon);
     tangon = report.fileFinishedImporting;
-    michal = '../discord_common/js/shared/LoggerPIIRestrictedObjects.tsx';
+    michal = '../discord_common/js/packages/logger/LoggerPIIRestrictedObjects.tsx';
     michal = tangon.bind(report)(michal);
     michal = function(argFoo, argBar) { // Original name: checkLogForPII
         michal = 1;

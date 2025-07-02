@@ -140,27 +140,32 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  59:
             golfie = false;
  61:
-            report = zuuluu.invertPressOpacity;
-            if(!(report === tangon)) { _fun00004_ip = 73; continue _fun00003 }
+            output = zuuluu.isSquarePreview;
+            if(!(output === tangon)) { _fun00004_ip = 73; continue _fun00003 }
  71:
-            report = false;
+            output = false;
  73:
-            entity = zuuluu.fadeIn;
-            if(!(entity === tangon)) { _fun00004_ip = 85; continue _fun00003 }
+            report = zuuluu.invertPressOpacity;
+            if(!(report === tangon)) { _fun00004_ip = 85; continue _fun00003 }
  83:
-            entity = false;
+            report = false;
  85:
+            entity = zuuluu.fadeIn;
+            if(!(entity === tangon)) { _fun00004_ip = 97; continue _fun00003 }
+ 95:
+            entity = false;
+ 97:
             var _closure2_slot0 = entity;
             option = zuuluu.style;
             var _closure2_slot1 = tangon;
             zuuluu = _closure1_slot6;
-            source = undefined;
-            update = golfie;
-            echoed = romeon;
-            result = yankee;
-            output = offset;
-            sizing = report;
-            offset = source[zuuluu](update, echoed, result, output, sizing, kiloes);
+            vacuum = undefined;
+            ctrled = golfie;
+            source = romeon;
+            update = yankee;
+            echoed = offset;
+            result = report;
+            offset = vacuum[zuuluu](ctrled, source, update, echoed, result, output);
             golfie = _closure1_slot1;
             zuuluu = _closure1_slot2;
             report = 3;
@@ -173,10 +178,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             yankee = golfie.bind(tangon)(zuuluu);
             golfie = yankee.useSharedValue;
             zuuluu = 1;
-            if(!entity) { _fun00004_ip = 179; continue _fun00003 }
- 177:
+            if(!entity) { _fun00004_ip = 191; continue _fun00003 }
+ 189:
             zuuluu = 0;
- 179:
+ 191:
             backup = golfie.bind(yankee)(zuuluu);
             _closure2_slot1 = backup;
             yankee = _closure1_slot3;
@@ -227,7 +232,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = entity[report];
             yankee = zuuluu.bind(tangon)(golfie);
             golfie = yankee.useAnimatedStyle;
-            michal = function() { // Original name: j
+            michal = function() { // Original name: S
                 entity = {};
                 zuuluu = _closure2_slot1;
                 michal = zuuluu.get;
@@ -275,8 +280,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['style'] = report;
             golfie = null;
             report = golfie != backup;
-            if(!report) { _fun00004_ip = 539; continue _fun00003 }
- 443:
+            if(!report) { _fun00004_ip = 564; continue _fun00003 }
+ 455:
             yankee = _closure1_slot4;
             option = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -286,7 +291,15 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = {};
             foxtra = offset.gradient;
             report['style'] = foxtra;
-            foxtra = {'x': 0, 'y': 0};
+            foxtra = {};
+            kiloes = 0;
+            sizing = 0;
+            if(!output) { _fun00004_ip = 506; continue _fun00003 }
+ 500:
+            sizing = -2;
+ 506:
+            foxtra['x'] = sizing;
+            foxtra['y'] = kiloes;
             report['start'] = foxtra;
             foxtra = {'x': 1, 'y': 0};
             report['end'] = foxtra;
@@ -297,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra[1] = backup;
             report['colors'] = foxtra;
             golfie = yankee.bind(tangon)(option, report);
- 539:
+ 564:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot4;

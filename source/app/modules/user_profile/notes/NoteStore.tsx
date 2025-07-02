@@ -80,8 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = michal.KvStore;
         michal = 6;
         michal = oscard[michal];
-        michal = report.bind(entity)(michal);
-        golfie = michal.Logger;
+        golfie = golfie.bind(entity)(michal);
         michal = golfie.prototype;
         offset = Object.create(michal, {constructor: {value: golfie}});
         michal = 'NoteStore';
@@ -167,8 +166,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = tangon.cachedIsEnabled;
         tangon = michal.bind(tangon)();
         michal = undefined;
-        if(tangon) { _fun00002_ip = 357; continue _fun00001 }
- 308:
+        if(tangon) { _fun00002_ip = 351; continue _fun00001 }
+ 302:
         tangon = {};
         verify = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
             michal = argBar;
@@ -211,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         tangon['USER_NOTE_LOAD_START'] = option;
         michal = tangon;
- 357:
+ 351:
         tangon = golfie.prototype;
         tangon = Object.create(tangon, {constructor: {value: golfie}});
         sizing = tangon;

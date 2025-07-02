@@ -103,7 +103,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 9;
             tangon = verify[tangon];
             offset = oscard.bind(golfie)(tangon);
-            report = offset.useIsDismissibleContentDismissed;
+            report = offset.UNSAFE_useIsDismissibleContentDismissed;
             option = 10;
             tangon = verify[option];
             tangon = oscard.bind(golfie)(tangon);

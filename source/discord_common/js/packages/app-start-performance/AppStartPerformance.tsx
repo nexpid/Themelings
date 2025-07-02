@@ -1,61 +1,52 @@
-// discord_common/js/shared/AppStartPerformance.tsx
+// discord_common/js/packages/app-start-performance/AppStartPerformance.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-        oscard = argFoo;
-        option = argBaz;
+        golfie = argBaz;
         zuuluu = argFre;
         report = argPlu;
-        var _closure1_slot0 = oscard;
         tangon = global;
-        offset = tangon.Object;
-        verify = offset.defineProperty;
-        golfie = {};
+        verify = tangon.Object;
+        option = verify.defineProperty;
+        oscard = {};
         entity = true;
-        golfie['value'] = entity;
+        oscard['value'] = entity;
         entity = '__esModule';
-        entity = verify.bind(offset)(zuuluu, entity, golfie);
+        entity = option.bind(verify)(zuuluu, entity, oscard);
         entity = 0;
-        golfie = report[entity];
+        oscard = report[entity];
         entity = undefined;
-        golfie = option.bind(entity)(golfie);
-        var _closure1_slot1 = golfie;
-        golfie = 1;
-        golfie = report[golfie];
-        golfie = option.bind(entity)(golfie);
-        var _closure1_slot2 = golfie;
-        golfie = 2;
-        golfie = report[golfie];
-        golfie = option.bind(entity)(golfie);
-        var _closure1_slot3 = golfie;
-        golfie = oscard.__getTotalRequireTime;
-        oscard = null;
-        if(!(oscard != golfie)) { _fun00002_ip = 118; continue _fun00001 }
- 111:
-        oscard = function() {
-            michal = _closure1_slot0;
-            entity = michal.__getTotalRequireTime;
-            entity = entity.bind(michal)();
-            return entity;
-        };
-        _fun00002_ip = 123; continue _fun00001;
- 118:
+        oscard = golfie.bind(entity)(oscard);
+        var _closure1_slot0 = oscard;
+        oscard = 1;
+        oscard = report[oscard];
+        oscard = golfie.bind(entity)(oscard);
+        var _closure1_slot1 = oscard;
+        oscard = 2;
+        oscard = report[oscard];
+        oscard = golfie.bind(entity)(oscard);
+        var _closure1_slot2 = oscard;
+        oscard = tangon.globalThis;
+        oscard = oscard.__getTotalRequireTime;
+        golfie = null;
+        if(!(golfie == oscard)) { _fun00002_ip = 115; continue _fun00001 }
+ 110:
         oscard = function() {
             entity = 0;
             return entity;
         };
- 123:
-        var _closure1_slot4 = oscard;
+ 115:
+        var _closure1_slot3 = oscard;
         tangon = tangon.performance;
         oscard = 'undefined';
         tangon = typeof tangon;
         tangon = oscard !== tangon;
-        var _closure1_slot5 = tangon;
+        var _closure1_slot4 = tangon;
         michal = function() {
-            tangon = _closure1_slot3;
+            tangon = _closure1_slot2;
             zuuluu = function() { // Original name: AppStartPerformance
                 zuuluu = this;
-                tangon = _closure1_slot2;
+                tangon = _closure1_slot1;
                 michal = _closure2_slot1;
                 entity = undefined;
                 michal = tangon.bind(entity)(zuuluu, michal);
@@ -99,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     tangon = this;
-                    entity = _closure1_slot5;
+                    entity = _closure1_slot4;
                     michal = !entity;
                     if(!entity) { _fun00004_ip = 25; continue _fun00003 }
  16:
@@ -281,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     zuuluu = this;
-                    michal = _closure1_slot4;
+                    michal = _closure1_slot3;
                     entity = undefined;
                     michal = michal.bind(entity)();
                     tangon = zuuluu.lastImportDuration;
@@ -503,7 +494,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             golfie = 'timeAsync';
             report['key'] = golfie;
-            option = _closure1_slot1;
+            option = _closure1_slot0;
             entity = undefined;
             golfie = function* (argFoo, argBar, argBaz) {
                 entity = function* (argFoo, argBar, argBaz) { // Original name: ?anon_0_
@@ -597,15 +588,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = michal.bind(entity)();
         tangon = michal.prototype;
         tangon = Object.create(tangon, {constructor: {value: michal}});
-        backup = tangon;
-        michal = new backup[michal](foxtra);
+        foxtra = tangon;
+        michal = new foxtra[michal](romeon);
         michal = michal instanceof Object ? michal : tangon;
         tangon = 3;
         report = report[tangon];
         tangon = argBar;
         oscard = tangon.bind(entity)(report);
         report = oscard.fileFinishedImporting;
-        tangon = '../discord_common/js/shared/AppStartPerformance.tsx';
+        tangon = '../discord_common/js/packages/app-start-performance/AppStartPerformance.tsx';
         tangon = report.bind(oscard)(tangon);
         zuuluu['default'] = michal;
         return entity;

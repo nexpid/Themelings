@@ -1278,6 +1278,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['SEARCH_SET_SHOW_BLOCKED_RESULTS'] = offset;
+    offset = function(argFoo) { // Original name: setShowNoResultsAlt
+        entity = argFoo;
+        zuuluu = entity.searchId;
+        michal = _closure1_slot18;
+        entity = undefined;
+        zuuluu = michal.bind(entity)(zuuluu);
+        michal = global;
+        tangon = michal.Math;
+        michal = tangon.random;
+        tangon = michal.bind(tangon)();
+        michal = 0.05;
+        michal = tangon < michal;
+        zuuluu['showNoResultsAlt'] = michal;
+        return entity;
+    };
+    michal['SEARCH_SET_SHOW_NO_RESULTS_ALT'] = offset;
     offset = function(argFoo) { // Original name: handleSearchScreenOpen
         entity = argFoo;
         zuuluu = entity.searchId;

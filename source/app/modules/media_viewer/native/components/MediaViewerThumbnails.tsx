@@ -235,10 +235,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = null;
             foxtra = yankee;
             yankee = foxtra;
-            if(!(kiloes != backup)) { _fun00004_ip = 304; continue _fun00003 }
- 301:
+            if(!(kiloes != backup)) { _fun00004_ip = 308; continue _fun00003 }
+ 305:
             yankee = backup;
- 304:
+ 308:
             option['source'] = yankee;
             yankee = false;
             option['enableAnimation'] = yankee;

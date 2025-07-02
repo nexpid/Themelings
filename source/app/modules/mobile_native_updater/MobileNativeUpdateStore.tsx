@@ -84,8 +84,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot9 = michal;
     michal = 6;
     michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    option = michal.Logger;
+    option = golfie.bind(entity)(michal);
     michal = option.prototype;
     verify = Object.create(michal, {constructor: {value: option}});
     michal = 'MobileNativeUpdateStore';

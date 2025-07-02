@@ -781,7 +781,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify = {};
     verify['flex'] = yankee;
     tangon['page'] = verify;
-    verify = {'width': '100%', 'marginTop': 16};
+    verify = {'width': '100%', 'marginTop': 24};
     tangon['button'] = verify;
     verify = {};
     verify['marginTop'] = offset;

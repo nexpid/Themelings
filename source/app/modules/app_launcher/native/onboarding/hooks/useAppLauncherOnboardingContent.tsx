@@ -253,7 +253,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = golfie[oscard];
                     verify = undefined;
                     offset = tangon.bind(verify)(zuuluu);
-                    option = offset.useIsDismissibleContentDismissed;
+                    option = offset.UNSAFE_useIsDismissibleContentDismissed;
                     zuuluu = 5;
                     report = golfie[zuuluu];
                     report = tangon.bind(verify)(report);
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = option.bind(offset)(report);
                     oscard = golfie[oscard];
                     option = tangon.bind(verify)(oscard);
-                    oscard = option.useIsDismissibleContentDismissed;
+                    oscard = option.UNSAFE_useIsDismissibleContentDismissed;
                     zuuluu = golfie[zuuluu];
                     zuuluu = tangon.bind(verify)(zuuluu);
                     zuuluu = zuuluu.DismissibleContent;

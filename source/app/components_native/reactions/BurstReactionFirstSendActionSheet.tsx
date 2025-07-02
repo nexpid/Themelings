@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 14;
             option = zuuluu[offset];
             yankee = romeon.bind(entity)(option);
-            option = yankee.isDismissibleContentDismissed;
+            option = yankee.UNSAFE_isDismissibleContentDismissed;
             verify = 15;
             zuuluu = zuuluu[verify];
             zuuluu = romeon.bind(entity)(zuuluu);
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot2;
             offset = zuuluu[offset];
             yankee = option.bind(entity)(offset);
-            offset = yankee.markDismissibleContentAsDismissed;
+            offset = yankee.UNSAFE_markDismissibleContentAsDismissed;
             verify = zuuluu[verify];
             verify = option.bind(entity)(verify);
             verify = verify.DismissibleContent;

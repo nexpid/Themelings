@@ -450,7 +450,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = option[michal];
                             michal = undefined;
                             oscard = golfie.bind(michal)(tangon);
-                            report = oscard.isDismissibleContentDismissed;
+                            report = oscard.UNSAFE_isDismissibleContentDismissed;
                             tangon = 20;
                             tangon = option[tangon];
                             tangon = golfie.bind(michal)(tangon);

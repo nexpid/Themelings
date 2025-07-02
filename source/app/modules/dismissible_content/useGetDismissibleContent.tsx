@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.UserSettingsTypes;
     var _closure1_slot9 = tangon;
-    tangon = 12;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -325,11 +325,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  13:
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 8;
+                    entity = 11;
                     michal = michal[entity];
                     entity = undefined;
                     tangon = zuuluu.bind(entity)(michal);
-                    zuuluu = tangon.markDismissibleContentAsDismissed;
+                    zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
                     michal = _closure2_slot3;
                     entity = {};
                     oscard = argFoo;
@@ -841,7 +841,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  211:
             backup = _closure1_slot1;
             kiloes = _closure1_slot2;
-            yankee = 11;
+            yankee = 12;
             yankee = kiloes[yankee];
             backup = backup.bind(tangon)(yankee);
             yankee = backup.compare;
@@ -863,7 +863,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  273:
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
-            offset = 11;
+            offset = 12;
             offset = backup[offset];
             yankee = yankee.bind(tangon)(offset);
             offset = yankee.compare;

@@ -229,9 +229,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = 0;
             zuuluu['documentsIndexed'] = report;
             zuuluu['totalResults'] = michal;
-            zuuluu['resultsBlocked'] = report;
-            zuuluu['showBlockedResults'] = tangon;
-            zuuluu['showNoResultsAlt'] = tangon;
             zuuluu['hasNextPage'] = tangon;
             report = global;
             report = report.Set;
@@ -253,11 +250,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = this;
             entity = true;
             michal['isFetching'] = entity;
-            zuuluu = false;
-            michal['isIndexing'] = zuuluu;
+            entity = false;
+            michal['isIndexing'] = entity;
             entity = null;
             michal['analyticsId'] = entity;
-            michal['showBlockedResults'] = zuuluu;
             michal['error'] = entity;
             entity = undefined;
             return entity;
@@ -312,13 +308,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['analyticsId'] = michal;
             michal = 0;
             zuuluu['documentsIndexed'] = michal;
-            michal = global;
-            tangon = michal.Math;
-            michal = tangon.random;
-            tangon = michal.bind(tangon)();
-            michal = 0.05;
-            michal = tangon < michal;
-            zuuluu['showNoResultsAlt'] = michal;
             return entity;
         };
         entity['value'] = oscard;
@@ -346,13 +335,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = null;
                 michal['error'] = tangon;
                 michal['documentsIndexed'] = report;
-                report = global;
-                oscard = report.Math;
-                report = oscard.random;
-                oscard = report.bind(oscard)();
-                report = 0.05;
-                report = oscard < report;
-                michal['showNoResultsAlt'] = report;
                 michal['cursor'] = zuuluu;
                 report = michal.dedupMessages;
                 zuuluu = argBar;
@@ -360,10 +342,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.filterBlockedMessages;
                 oscard = zuuluu.bind(michal)(report);
                 golfie = michal.messages;
-                if(!(tangon == golfie)) { _fun00012_ip = 171; continue _fun00011 }
- 167:
+                if(!(tangon == golfie)) { _fun00012_ip = 133; continue _fun00011 }
+ 129:
                 golfie = new Array(0);
- 171:
+ 133:
                 zuuluu = new Array(0);
                 option = 0;
                 offset = zuuluu;
@@ -517,7 +499,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(14);
+        entity = new Array(13);
         entity[0] = report;
         report = {};
         golfie = 'getMessage';
@@ -702,23 +684,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[11] = report;
         report = {};
-        golfie = 'getShowNoResultsAlt';
-        report['key'] = golfie;
-        golfie = function(argFoo) { // Original name: value
-            tangon = _closure1_slot17;
-            zuuluu = undefined;
-            michal = argFoo;
-            entity = function(argFoo) {
-                entity = argFoo;
-                entity = entity.showNoResultsAlt;
-                return entity;
-            };
-            entity = tangon.bind(zuuluu)(michal, entity);
-            return entity;
-        };
-        report['value'] = golfie;
-        entity[12] = report;
-        report = {};
         golfie = 'getLastSearchAnalyticsId';
         report['key'] = golfie;
         oscard = function() { // Original name: value
@@ -726,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[13] = report;
+        entity[12] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

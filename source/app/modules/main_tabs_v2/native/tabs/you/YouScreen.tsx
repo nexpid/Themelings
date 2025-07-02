@@ -1087,7 +1087,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara[1] = record;
             result['style'] = papara;
             papara = cntext;
-            if(!papara) { _fun00002_ip = 3208; continue _fun00001 }
+            if(!papara) { _fun00002_ip = 3209; continue _fun00001 }
  3022:
             variable38 = _closure1_slot23;
             variable45 = _closure1_slot0;
@@ -1150,12 +1150,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42 = variable48.bind(tangon)(variable45, variable42);
             cntext['children'] = variable42;
             papara = variable38.bind(tangon)(variable36, cntext);
- 3208:
+ 3209:
             cntext = new Array(3);
             cntext[0] = papara;
             papara = !update;
-            if(update) { _fun00002_ip = 3289; continue _fun00001 }
- 3222:
+            if(update) { _fun00002_ip = 3290; continue _fun00001 }
+ 3223:
             variable42 = _closure1_slot23;
             variable38 = _closure1_slot1;
             variable45 = _closure1_slot2;
@@ -1171,7 +1171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable36['settingsButtonRef'] = status;
             variable36['paddingTop'] = target;
             papara = variable42.bind(tangon)(variable38, variable36);
- 3289:
+ 3290:
             cntext[1] = papara;
             variable38 = _closure1_slot24;
             variable36 = _closure1_slot1;
@@ -1194,10 +1194,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42[2] = variable43;
             papara['style'] = variable42;
             variable40 = variable40 != variable50;
-            if(!variable40) { _fun00002_ip = 3746; continue _fun00001 }
- 3384:
-            if(variable39) { _fun00002_ip = 3444; continue _fun00001 }
- 3387:
+            if(!variable40) { _fun00002_ip = 3747; continue _fun00001 }
+ 3385:
+            if(variable39) { _fun00002_ip = 3445; continue _fun00001 }
+ 3388:
             variable43 = _closure1_slot23;
             variable42 = _closure1_slot1;
             variable45 = _closure1_slot2;
@@ -1211,8 +1211,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable39['accessibilityLabel'] = variable51;
             variable39['source'] = variable50;
             variable39 = variable43.bind(tangon)(variable42, variable39);
-            _fun00002_ip = 3743; continue _fun00001;
- 3444:
+            _fun00002_ip = 3744; continue _fun00001;
+ 3445:
             variable45 = _closure1_slot24;
             variable56 = _closure1_slot0;
             variable54 = _closure1_slot2;
@@ -1256,8 +1256,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable46 = new Array(2);
             variable46[0] = variable48;
             variable47 = !variable47;
-            if(!variable47) { _fun00002_ip = 3729; continue _fun00001 }
- 3604:
+            if(!variable47) { _fun00002_ip = 3730; continue _fun00001 }
+ 3605:
             variable50 = _closure1_slot23;
             variable54 = _closure1_slot0;
             variable51 = _closure1_slot2;
@@ -1286,13 +1286,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable51 = config.gifTagText;
             variable48['textStyle'] = variable51;
             variable47 = variable50.bind(tangon)(variable49, variable48);
- 3729:
+ 3730:
             variable46[1] = variable47;
             variable42['children'] = variable46;
             variable39 = variable45.bind(tangon)(variable43, variable42);
- 3743:
+ 3744:
             variable40 = variable39;
- 3746:
+ 3747:
             variable39 = new Array(2);
             variable39[0] = variable40;
             variable42 = _closure1_slot0;
@@ -1302,12 +1302,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable42 = variable42.bind(tangon)(variable40);
             variable40 = variable42.isIOS;
             variable40 = variable40.bind(variable42)();
-            if(!variable40) { _fun00002_ip = 3790; continue _fun00001 }
- 3787:
+            if(!variable40) { _fun00002_ip = 3791; continue _fun00001 }
+ 3788:
             variable40 = variable41;
- 3790:
-            if(!variable40) { _fun00002_ip = 3828; continue _fun00001 }
- 3793:
+ 3791:
+            if(!variable40) { _fun00002_ip = 3829; continue _fun00001 }
+ 3794:
             variable43 = _closure1_slot23;
             variable42 = _closure1_slot25;
             variable41 = {};
@@ -1316,7 +1316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable44 = variable44.absoluteFillObject;
             variable41['style'] = variable44;
             variable40 = variable43.bind(tangon)(variable42, variable41);
- 3828:
+ 3829:
             variable39[1] = variable40;
             papara['children'] = variable39;
             papara = variable38.bind(tangon)(variable36, papara);
@@ -1325,8 +1325,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = sequen.bind(tangon)(vacuum, result);
             result = new Array(3);
             result[0] = vacuum;
-            if(!update) { _fun00002_ip = 4043; continue _fun00001 }
- 3870:
+            if(!update) { _fun00002_ip = 4044; continue _fun00001 }
+ 3871:
             sequen = _closure1_slot24;
             cntext = _closure1_slot1;
             variable36 = _closure1_slot2;
@@ -1364,7 +1364,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config[1] = record;
             source['children'] = config;
             update = sequen.bind(tangon)(vacuum, source);
- 4043:
+ 4044:
             result[1] = update;
             source = _closure1_slot23;
             update = _closure1_slot1;

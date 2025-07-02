@@ -250,9 +250,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = option.bind(entity)(report);
     var _closure1_slot3 = report;
     report = 2;
-    option = golfie[report];
+    verify = golfie[report];
     report = argCor;
-    report = report.bind(entity)(option);
+    report = report.bind(entity)(verify);
     var _closure1_slot4 = report;
     report = 3;
     report = golfie[report];
@@ -266,8 +266,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = report;
     report = 5;
     report = golfie[report];
-    report = oscard.bind(entity)(report);
-    verify = report.Logger;
+    verify = option.bind(entity)(report);
     report = verify.prototype;
     option = Object.create(report, {constructor: {value: verify}});
     foxtra = 'useTooltip.native';

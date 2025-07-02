@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot12 = option;
     tangon = tangon.PREMIUM_TIER_2_TRIAL_FOR_EVERYONE_TRIAL_ID;
     var _closure1_slot13 = tangon;
-    tangon = 17;
+    tangon = 15;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = argFoo;
                         report = entity.userTrialOffer;
                         golfie = null;
-                        if(!(golfie != report)) { _fun00008_ip = 364; continue _fun00007 }
+                        if(!(golfie != report)) { _fun00008_ip = 237; continue _fun00007 }
  18:
                         entity = _closure1_slot10;
                         tangon = new Array(4);
@@ -217,85 +217,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = tangon.includes;
                         entity = report.trial_id;
                         entity = zuuluu.bind(tangon)(entity);
-                        if(!entity) { _fun00008_ip = 364; continue _fun00007 }
+                        if(!entity) { _fun00008_ip = 237; continue _fun00007 }
  79:
-                        tangon = _closure1_slot0;
-                        entity = _closure1_slot2;
-                        zuuluu = 10;
-                        zuuluu = entity[zuuluu];
-                        oscard = undefined;
-                        zuuluu = tangon.bind(oscard)(zuuluu);
-                        offset = zuuluu.GooglePlayPremiumTrialsExperiment;
-                        verify = offset.getCurrentConfig;
-                        option = {};
-                        zuuluu = 'UserTrialOfferManager';
-                        option['location'] = zuuluu;
-                        zuuluu = {};
-                        yankee = false;
-                        zuuluu['autoTrackExposure'] = yankee;
-                        zuuluu = verify.bind(offset)(option, zuuluu);
-                        zuuluu = zuuluu.enabled;
-                        verify = 11;
-                        entity = entity[verify];
-                        tangon = tangon.bind(oscard)(entity);
-                        entity = tangon.isIOS;
-                        option = entity.bind(tangon)();
-                        if(option) { _fun00008_ip = 205; continue _fun00007 }
- 170:
-                        tangon = _closure1_slot0;
-                        entity = _closure1_slot2;
-                        entity = entity[verify];
-                        tangon = tangon.bind(oscard)(entity);
-                        entity = tangon.isAndroid;
-                        entity = entity.bind(tangon)();
-                        if(!entity) { _fun00008_ip = 202; continue _fun00007 }
- 199:
-                        entity = zuuluu;
- 202:
-                        option = entity;
- 205:
                         tangon = report.trial_id;
                         zuuluu = _closure1_slot13;
-                        yankee = _closure1_slot0;
-                        romeon = _closure1_slot2;
-                        entity = 12;
-                        entity = romeon[entity];
-                        offset = yankee.bind(oscard)(entity);
-                        verify = offset.isDismissibleContentDismissed;
-                        entity = 13;
-                        entity = romeon[entity];
-                        entity = yankee.bind(oscard)(entity);
+                        offset = _closure1_slot0;
+                        yankee = _closure1_slot2;
+                        entity = 10;
+                        entity = yankee[entity];
+                        oscard = undefined;
+                        verify = offset.bind(oscard)(entity);
+                        option = verify.UNSAFE_isDismissibleContentDismissed;
+                        entity = 11;
+                        entity = yankee[entity];
+                        entity = offset.bind(oscard)(entity);
                         entity = entity.DismissibleContent;
                         entity = entity.TRIAL_FOR_ALL_INITIAL_UPSELL;
-                        entity = verify.bind(offset)(entity);
-                        if(!option) { _fun00008_ip = 290; continue _fun00007 }
- 273:
+                        entity = option.bind(verify)(entity);
                         report = report.expires_at;
-                        if(!(golfie != report)) { _fun00008_ip = 292; continue _fun00007 }
- 283:
-                        if(!(tangon === zuuluu)) { _fun00008_ip = 290; continue _fun00007 }
- 287:
-                        if(!entity) { _fun00008_ip = 292; continue _fun00007 }
- 290:
+                        if(!(golfie != report)) { _fun00008_ip = 165; continue _fun00007 }
+ 156:
+                        if(!(tangon === zuuluu)) { _fun00008_ip = 163; continue _fun00007 }
+ 160:
+                        if(!entity) { _fun00008_ip = 165; continue _fun00007 }
+ 163:
                         return oscard;
- 292:
+ 165:
                         tangon = _closure1_slot1;
                         entity = _closure1_slot2;
-                        zuuluu = 14;
+                        zuuluu = 12;
                         zuuluu = entity[zuuluu];
                         tangon = tangon.bind(oscard)(zuuluu);
                         zuuluu = tangon.openLazy;
                         report = _closure1_slot0;
-                        michal = 16;
+                        michal = 14;
                         michal = entity[michal];
                         report = report.bind(oscard)(michal);
-                        michal = 15;
+                        michal = 13;
                         michal = entity[michal];
                         entity = entity.paths;
                         michal = report.bind(oscard)(michal, entity);
                         entity = 'PremiumTrialOfferActionSheet';
                         entity = zuuluu.bind(tangon)(michal, entity);
- 364:
+ 237:
                         entity = undefined;
                         return entity;
                     }
@@ -319,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 18;
+    tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -112,7 +112,7 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             report = 10;
             report = entity[report];
             oscard = offset.bind(tangon)(report);
-            report = oscard.useIsDismissibleContentDismissed;
+            report = oscard.UNSAFE_useIsDismissibleContentDismissed;
             yankee = 11;
             entity = entity[yankee];
             entity = offset.bind(tangon)(entity);

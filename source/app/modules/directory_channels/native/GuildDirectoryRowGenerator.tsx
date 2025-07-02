@@ -48,89 +48,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 'modules/directory_channels/native/GuildDirectoryRowGenerator.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['RowType'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: generateFlatDirectoryRows
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            zuuluu = argBar;
-            michal = argFoo;
-            if(!michal) { _fun00002_ip = 22; continue _fun00001 }
- 11:
-            tangon = zuuluu.length;
-            michal = 0;
-            if(!(michal !== tangon)) { _fun00002_ip = 76; continue _fun00001 }
- 22:
-            tangon = zuuluu.length;
-            michal = 0;
-            if(!(michal !== tangon)) { _fun00002_ip = 70; continue _fun00001 }
- 33:
-            tangon = zuuluu.sort;
-            michal = function(argFoo, argBar) {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
- 0:
-                    entity = argBar;
-                    zuuluu = entity.approximateMemberCount;
-                    tangon = null;
-                    report = tangon != zuuluu;
-                    entity = 0;
-                    if(!report) { _fun00004_ip = 23; continue _fun00003 }
- 20:
-                    entity = zuuluu;
- 23:
-                    zuuluu = argFoo;
-                    zuuluu = zuuluu.approximateMemberCount;
-                    tangon = tangon != zuuluu;
-                    michal = 0;
-                    if(!tangon) { _fun00004_ip = 44; continue _fun00003 }
- 41:
-                    michal = zuuluu;
- 44:
-                    entity = entity - michal;
-                    return entity;
-                }
-            };
-            michal = tangon.bind(zuuluu)(michal);
-            michal = zuuluu.map;
-            entity = function(argFoo) {
-                entity = {};
-                michal = _closure1_slot3;
-                michal = michal.ENTRY;
-                entity['type'] = michal;
-                michal = argFoo;
-                entity['entry'] = michal;
-                return entity;
-            };
-            entity = michal.bind(zuuluu)(entity);
-            _fun00002_ip = 74; continue _fun00001;
- 70:
-            entity = new Array(0);
- 74:
-            _fun00002_ip = 83; continue _fun00001;
- 76:
-            entity = _closure1_slot4;
- 83:
-            return entity;
-        }
-    };
-    zuuluu['generateFlatDirectoryRows'] = tangon;
     michal = function(argFoo, argBar, argBaz) { // Original name: generateDirectoryRows
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             tangon = argBar;
             michal = argFoo;
-            if(!michal) { _fun00006_ip = 25; continue _fun00005 }
+            if(!michal) { _fun00002_ip = 25; continue _fun00001 }
  11:
             zuuluu = tangon.length;
             michal = 0;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 505; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 505; continue _fun00001 }
  25:
             michal = tangon.length;
             oscard = 0;
-            if(!(oscard !== michal)) { _fun00006_ip = 499; continue _fun00005 }
+            if(!(oscard !== michal)) { _fun00002_ip = 499; continue _fun00001 }
  39:
             zuuluu = _closure1_slot2;
             report = zuuluu.ALL;
             zuuluu = argBaz;
-            if(!(zuuluu === report)) { _fun00006_ip = 447; continue _fun00005 }
+            if(!(zuuluu === report)) { _fun00002_ip = 447; continue _fun00001 }
  62:
             option = new Array(0);
             report = _closure1_slot0;
@@ -158,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = zuuluu;
             zuuluu = yankee.length;
             golfie = option;
-            if(!(zuuluu > oscard)) { _fun00006_ip = 274; continue _fun00005 }
+            if(!(zuuluu > oscard)) { _fun00002_ip = 274; continue _fun00001 }
  160:
             report = option.push;
             zuuluu = {};
@@ -212,7 +148,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = zuuluu.bind(report)(option);
             report = verify.length;
             zuuluu = golfie;
-            if(!(report > oscard)) { _fun00006_ip = 445; continue _fun00005 }
+            if(!(report > oscard)) { _fun00002_ip = 445; continue _fun00001 }
  331:
             oscard = golfie.push;
             report = {};

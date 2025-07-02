@@ -169,7 +169,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = 6;
                     yankee = kiloes[yankee];
                     foxtra = backup.bind(zuuluu)(yankee);
-                    romeon = foxtra.isDismissibleContentDismissed;
+                    romeon = foxtra.UNSAFE_isDismissibleContentDismissed;
                     yankee = 7;
                     yankee = kiloes[yankee];
                     yankee = backup.bind(zuuluu)(yankee);

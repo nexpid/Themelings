@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['marginTop'] = backup;
     tangon['container'] = verify;
     verify = {};
-    backup = 16;
+    backup = 24;
     verify['marginTop'] = backup;
     tangon['password'] = verify;
     verify = {'tintColor': null, 'width': 24, 'height': 24, 'marginLeft': 8};
@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     backup = backup.INTERACTIVE_NORMAL;
     verify['tintColor'] = backup;
     tangon['trailingButton'] = verify;
-    verify = {'marginTop': 16, 'marginBottom': 50};
+    verify = {'marginTop': 24, 'marginBottom': 50};
     tangon['button'] = verify;
     verify = {};
     verify['marginTop'] = yankee;

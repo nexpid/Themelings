@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = argFoo;
                     golfie = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 178; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 182; continue _fun00001 }
  16:
                     zuuluu = _closure1_slot0;
                     report = _closure1_slot2;
@@ -35,19 +35,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = verify.bind(offset)(option, golfie);
                     michal['url'] = verify;
                     michal = zuuluu.bind(report)(michal);
-                    SaveGenerator(address=92);
- 90:
+                    SaveGenerator(address=96);
+ 94:
                     return michal;
- 92:
+ 96:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 175; continue _fun00001 }
- 98:
+                    if(zuuluu) { _fun00002_ip = 179; continue _fun00001 }
+ 102:
                     zuuluu = michal.ok;
-                    if(zuuluu) { _fun00002_ip = 112; continue _fun00001 }
- 107:
+                    if(zuuluu) { _fun00002_ip = 116; continue _fun00001 }
+ 111:
                     zuuluu = null;
                     return zuuluu;
- 112:
+ 116:
                     zuuluu = michal.body;
                     report = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -63,9 +63,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon['interactionData'] = zuuluu;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 175:
+ 179:
                     return michal;
- 178:
+ 182:
                     return entity;
                 }
             };

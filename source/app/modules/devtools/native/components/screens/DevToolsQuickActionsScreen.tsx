@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = 26;
         zuuluu = oscard[zuuluu];
         tangon = report.bind(entity)(zuuluu);
-        zuuluu = tangon.markDismissibleContentAsDismissed;
+        zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
         michal = michal.DismissibleContent;

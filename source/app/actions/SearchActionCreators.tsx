@@ -357,6 +357,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     zuuluu['setShowBlockedResults'] = tangon;
+    tangon = function(argFoo) { // Original name: setShowNoResultsAlt
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 5;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'SEARCH_SET_SHOW_NO_RESULTS_ALT';
+        michal['type'] = report;
+        report = argFoo;
+        michal['searchId'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['setShowNoResultsAlt'] = tangon;
     tangon = function(argFoo, argBar) { // Original name: addQueryToHistory
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;

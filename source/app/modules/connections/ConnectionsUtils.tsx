@@ -1356,7 +1356,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = verify[zuuluu];
                 golfie = undefined;
                 report = option.bind(golfie)(zuuluu);
-                tangon = report.isDismissibleContentDismissed;
+                tangon = report.UNSAFE_isDismissibleContentDismissed;
                 zuuluu = 13;
                 zuuluu = verify[zuuluu];
                 zuuluu = option.bind(golfie)(zuuluu);

@@ -343,11 +343,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
-                    report = this;
+                    oscard = this;
                     backup = entity.userId;
-                    kiloes = entity.sessionId;
-                    romeon = entity.guildId;
-                    foxtra = entity.channelId;
+                    result = entity.sessionId;
+                    sizing = entity.guildId;
+                    output = entity.channelId;
                     verify = entity.context;
                     golfie = undefined;
                     if(!(verify === golfie)) { _fun00012_ip = 53; continue _fun00011 }
@@ -355,55 +355,56 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = _closure1_slot25;
                     verify = zuuluu.DEFAULT;
  53:
-                    yankee = entity.rtcServerId;
-                    option = entity.parentMediaSessionId;
+                    foxtra = entity.streamServerId;
+                    option = entity.streamChannelId;
+                    tangon = entity.parentMediaSessionId;
                     var _closure3_slot0 = golfie;
                     entity = _closure1_slot6;
-                    tangon = _closure2_slot0;
-                    entity = entity.bind(golfie)(report, tangon);
+                    report = _closure2_slot0;
+                    entity = entity.bind(golfie)(oscard, report);
                     entity = _closure1_slot9;
-                    result = entity.bind(golfie)(tangon);
-                    tangon = _closure1_slot8;
+                    echoed = entity.bind(golfie)(report);
+                    report = _closure1_slot8;
                     entity = _closure1_slot33;
                     entity = entity.bind(golfie)();
-                    if(entity) { _fun00012_ip = 126; continue _fun00011 }
- 113:
-                    entity = result.apply;
-                    entity = entity.bind(result)(report, golfie);
-                    _fun00012_ip = 164; continue _fun00011;
- 126:
-                    oscard = global;
-                    output = oscard.Reflect;
-                    sizing = output.construct;
-                    oscard = _closure1_slot9;
-                    oscard = oscard.bind(golfie)(report);
-                    offset = oscard.constructor;
-                    oscard = new Array(0);
-                    entity = sizing.bind(output)(result, oscard, offset);
- 164:
-                    entity = tangon.bind(golfie)(report, entity);
+                    if(entity) { _fun00012_ip = 132; continue _fun00011 }
+ 119:
+                    entity = echoed.apply;
+                    entity = entity.bind(echoed)(oscard, golfie);
+                    _fun00012_ip = 170; continue _fun00011;
+ 132:
+                    offset = global;
+                    kiloes = offset.Reflect;
+                    romeon = kiloes.construct;
+                    offset = _closure1_slot9;
+                    offset = offset.bind(golfie)(oscard);
+                    yankee = offset.constructor;
+                    offset = new Array(0);
+                    entity = romeon.bind(kiloes)(echoed, offset, yankee);
+ 170:
+                    entity = report.bind(golfie)(oscard, entity);
                     _closure3_slot0 = entity;
                     offset = global;
-                    tangon = offset.Map;
-                    report = tangon.prototype;
-                    report = Object.create(report, {constructor: {value: tangon}});
-                    record = report;
-                    tangon = new record[tangon](config);
-                    tangon = tangon instanceof Object ? tangon : report;
-                    entity['_secureFramesRosterMap'] = tangon;
-                    tangon = offset.Map;
-                    report = tangon.prototype;
-                    report = Object.create(report, {constructor: {value: tangon}});
-                    record = report;
-                    tangon = new record[tangon](config);
-                    tangon = tangon instanceof Object ? tangon : report;
-                    entity['_secureFramesTransitionStates'] = tangon;
+                    report = offset.Map;
+                    oscard = report.prototype;
+                    oscard = Object.create(oscard, {constructor: {value: report}});
+                    target = oscard;
+                    report = new target[report](papara);
+                    report = report instanceof Object ? report : oscard;
+                    entity['_secureFramesRosterMap'] = report;
+                    report = offset.Map;
+                    oscard = report.prototype;
+                    oscard = Object.create(oscard, {constructor: {value: report}});
+                    target = oscard;
+                    report = new target[report](papara);
+                    report = report instanceof Object ? report : oscard;
+                    entity['_secureFramesTransitionStates'] = report;
                     oscard = 0;
                     entity['_secureFramesMaxConcurrentTransitions'] = oscard;
                     entity['_secureFramesTransitionPrepareCount'] = oscard;
                     entity['_secureFramesTransitionExecuteCount'] = oscard;
                     entity['_numNoiseCancellationChanges'] = oscard;
-                    tangon = function() {
+                    report = function() {
                         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                             michal = _closure3_slot0;
@@ -453,17 +454,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['reconnect'] = tangon;
-                    report = _closure1_slot1;
-                    sizing = _closure1_slot3;
-                    tangon = 19;
-                    tangon = sizing[tangon];
-                    result = report.bind(golfie)(tangon);
-                    output = entity._alertMLSFailure;
-                    tangon = 100;
-                    tangon = result.bind(golfie)(output, tangon);
-                    entity['_alertMLSFailureDebouced'] = tangon;
-                    tangon = function() {
+                    entity['reconnect'] = report;
+                    romeon = _closure1_slot1;
+                    kiloes = _closure1_slot3;
+                    report = 19;
+                    report = kiloes[report];
+                    echoed = romeon.bind(golfie)(report);
+                    yankee = entity._alertMLSFailure;
+                    report = 100;
+                    report = echoed.bind(golfie)(yankee, report);
+                    entity['_alertMLSFailureDebouced'] = report;
+                    report = function() {
                         tangon = _closure3_slot0;
                         zuuluu = tangon.expeditedHeartbeat;
                         michal = 5000;
@@ -472,8 +473,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = undefined;
                         return entity;
                     };
-                    entity['_handleNetworkOnline'] = tangon;
-                    tangon = function() {
+                    entity['_handleNetworkOnline'] = report;
+                    report = function() {
                         report = _closure3_slot0;
                         tangon = report.expeditedHeartbeat;
                         zuuluu = 15000;
@@ -483,8 +484,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = undefined;
                         return entity;
                     };
-                    entity['_handleNetworkOffline'] = tangon;
-                    tangon = function() {
+                    entity['_handleNetworkOffline'] = report;
+                    report = function() {
                         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                             entity = _closure3_slot0;
@@ -499,8 +500,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['_handleNoRoute'] = tangon;
-                    tangon = function() {
+                    entity['_handleNoRoute'] = report;
+                    report = function() {
                         tangon = _closure3_slot0;
                         zuuluu = tangon.expeditedHeartbeat;
                         michal = 5000;
@@ -509,8 +510,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = undefined;
                         return entity;
                     };
-                    entity['_handlePowerResume'] = tangon;
-                    tangon = function() {
+                    entity['_handlePowerResume'] = report;
+                    report = function() {
                         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                             michal = _closure3_slot0;
@@ -643,8 +644,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['_handleVoiceQualityPeriodicsStats'] = tangon;
-                    tangon = function() {
+                    entity['_handleVoiceQualityPeriodicsStats'] = report;
+                    report = function() {
                         entity = {};
                         tangon = _closure3_slot0;
                         michal = tangon.getInputDeviceName;
@@ -672,8 +673,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity['output_device_count'] = michal;
                         return entity;
                     };
-                    entity['getAudioDeviceStates'] = tangon;
-                    tangon = function() {
+                    entity['getAudioDeviceStates'] = report;
+                    report = function() {
                         entity = {};
                         zuuluu = _closure3_slot0;
                         michal = zuuluu.getVideoDeviceName;
@@ -690,8 +691,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity['camera_device_count'] = michal;
                         return entity;
                     };
-                    entity['getVideoDeviceStates'] = tangon;
-                    tangon = function() {
+                    entity['getVideoDeviceStates'] = report;
+                    report = function() {
                         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                             zuuluu = _closure1_slot14;
@@ -767,8 +768,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['_trackVoiceConnectionConnecting'] = tangon;
-                    tangon = function(argFoo) {
+                    entity['_trackVoiceConnectionConnecting'] = report;
+                    report = function(argFoo) {
                         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                             zuuluu = argFoo;
@@ -791,8 +792,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['incomingVideoEnabledChanged'] = tangon;
-                    tangon = function(argFoo) {
+                    entity['incomingVideoEnabledChanged'] = report;
+                    report = function(argFoo) {
                         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                             entity = _closure3_slot0;
@@ -809,60 +810,51 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['windowVisibilityChanged'] = tangon;
+                    entity['windowVisibilityChanged'] = report;
                     entity['context'] = verify;
-                    output = _closure1_slot15;
-                    tangon = output.fetchAsyncResources;
-                    tangon = tangon.bind(output)();
-                    entity['_fetchAsyncResourcesPromise'] = tangon;
-                    tangon = 21;
-                    tangon = sizing[tangon];
-                    output = report.bind(golfie)(tangon);
-                    tangon = null;
-                    report = romeon;
-                    if(!(tangon != yankee)) { _fun00012_ip = 480; continue _fun00011 }
- 477:
-                    report = yankee;
- 480:
-                    source = foxtra;
-                    if(!(tangon != report)) { _fun00012_ip = 490; continue _fun00011 }
- 487:
-                    source = report;
- 490:
-                    vacuum = entity.context;
+                    yankee = _closure1_slot15;
+                    report = yankee.fetchAsyncResources;
+                    report = report.bind(yankee)();
+                    entity['_fetchAsyncResourcesPromise'] = report;
+                    report = 21;
+                    report = kiloes[report];
+                    update = romeon.bind(golfie)(report);
+                    papara = entity.trueServerId;
+                    record = entity.context;
                     report = offset.HermesInternal;
-                    echoed = report.concat;
-                    record = 'RTCConnection(';
-                    sequen = ', ';
-                    ctrled = ')';
-                    config = source;
-                    config = record[echoed](config, sequen, vacuum, ctrled, source);
-                    sizing = output.prototype;
-                    sizing = Object.create(sizing, {constructor: {value: output}});
-                    record = sizing;
-                    report = new record[output](config, sequen);
-                    report = report instanceof Object ? report : sizing;
+                    ctrled = report.concat;
+                    target = 'RTCConnection(';
+                    cntext = ', ';
+                    config = ')';
+                    papara = target[ctrled](papara, cntext, record, config, sequen);
+                    echoed = update.prototype;
+                    echoed = Object.create(echoed, {constructor: {value: update}});
+                    target = echoed;
+                    report = new target[update](papara, cntext);
+                    report = report instanceof Object ? report : echoed;
                     entity['logger'] = report;
-                    output = entity.logger;
-                    sizing = output.enableNativeLogger;
+                    update = entity.logger;
+                    echoed = update.enableNativeLogger;
                     report = true;
-                    sizing = sizing.bind(output)(report);
+                    echoed = echoed.bind(update)(report);
                     entity['userId'] = backup;
-                    entity['sessionId'] = kiloes;
-                    entity['guildId'] = romeon;
-                    entity['_channelId'] = foxtra;
-                    kiloes = offset.Set;
-                    romeon = new Array(1);
-                    romeon[0] = foxtra;
-                    foxtra = kiloes.prototype;
-                    foxtra = Object.create(foxtra, {constructor: {value: kiloes}});
-                    record = foxtra;
-                    config = romeon;
-                    romeon = new record[kiloes](config, sequen);
-                    romeon = romeon instanceof Object ? romeon : foxtra;
-                    entity['channelIds'] = romeon;
-                    entity['rtcServerId'] = yankee;
-                    entity['parentMediaSessionId'] = option;
+                    entity['sessionId'] = result;
+                    entity['guildId'] = sizing;
+                    entity['_channelId'] = output;
+                    result = offset.Set;
+                    sizing = new Array(1);
+                    sizing[0] = output;
+                    output = result.prototype;
+                    output = Object.create(output, {constructor: {value: result}});
+                    target = output;
+                    papara = sizing;
+                    sizing = new target[result](papara, cntext);
+                    sizing = sizing instanceof Object ? sizing : output;
+                    entity['channelIds'] = sizing;
+                    entity['streamServerId'] = foxtra;
+                    entity['streamChannelId'] = option;
+                    entity['parentMediaSessionId'] = tangon;
+                    tangon = null;
                     entity['_endpoint'] = tangon;
                     entity['hostname'] = tangon;
                     entity['port'] = tangon;
@@ -872,39 +864,37 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     option = _closure1_slot22;
                     option = option.AWAITING_ENDPOINT;
                     entity['state'] = option;
-                    romeon = _closure1_slot0;
-                    foxtra = _closure1_slot3;
+                    foxtra = _closure1_slot0;
                     option = 22;
-                    option = foxtra[option];
-                    option = romeon.bind(golfie)(option);
-                    kiloes = option.StateHistory;
-                    config = entity.state;
-                    yankee = kiloes.prototype;
-                    yankee = Object.create(yankee, {constructor: {value: kiloes}});
-                    record = yankee;
-                    option = new record[kiloes](config, sequen);
-                    option = option instanceof Object ? option : yankee;
+                    option = kiloes[option];
+                    option = foxtra.bind(golfie)(option);
+                    output = option.StateHistory;
+                    papara = entity.state;
+                    sizing = output.prototype;
+                    sizing = Object.create(sizing, {constructor: {value: output}});
+                    target = sizing;
+                    option = new target[output](papara, cntext);
+                    option = option instanceof Object ? option : sizing;
                     entity['stateHistory'] = option;
                     entity['_socket'] = tangon;
-                    yankee = _closure1_slot1;
                     option = 23;
-                    option = foxtra[option];
-                    sizing = yankee.bind(golfie)(option);
-                    option = sizing.prototype;
-                    yankee = Object.create(option, {constructor: {value: sizing}});
-                    config = 1000;
-                    sequen = 10000;
-                    record = yankee;
-                    option = new record[sizing](config, sequen, vacuum);
-                    option = option instanceof Object ? option : yankee;
+                    option = kiloes[option];
+                    output = romeon.bind(golfie)(option);
+                    option = output.prototype;
+                    romeon = Object.create(option, {constructor: {value: output}});
+                    papara = 1000;
+                    cntext = 10000;
+                    target = romeon;
+                    option = new target[output](papara, cntext, record);
+                    option = option instanceof Object ? option : romeon;
                     entity['_backoff'] = option;
                     option = false;
                     entity['_destroyed'] = option;
-                    yankee = new Array(0);
-                    entity['_pings'] = yankee;
+                    romeon = new Array(0);
+                    entity['_pings'] = romeon;
                     entity['_pingBadCount'] = oscard;
-                    yankee = new Array(0);
-                    entity['_pingTimeouts'] = yankee;
+                    romeon = new Array(0);
+                    entity['_pingTimeouts'] = romeon;
                     entity['_mediaSessionId'] = tangon;
                     entity['_voiceQuality'] = tangon;
                     entity['_voiceQualityPeriodicStatsInterval'] = tangon;
@@ -916,41 +906,41 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity['_videoHealthManager'] = tangon;
                     entity['_sentVideo'] = option;
                     entity['_outboundLossRate'] = tangon;
-                    yankee = 18;
-                    yankee = foxtra[yankee];
-                    kiloes = romeon.bind(golfie)(yankee);
-                    yankee = kiloes.now;
-                    yankee = yankee.bind(kiloes)();
-                    entity['_createdTime'] = yankee;
+                    romeon = 18;
+                    romeon = kiloes[romeon];
+                    sizing = foxtra.bind(golfie)(romeon);
+                    romeon = sizing.now;
+                    romeon = romeon.bind(sizing)();
+                    entity['_createdTime'] = romeon;
                     entity['_connectStartTime'] = oscard;
                     entity['_connectCompletedTime'] = oscard;
-                    yankee = 24;
-                    yankee = foxtra[yankee];
-                    romeon = romeon.bind(golfie)(yankee);
-                    yankee = romeon.v4;
-                    yankee = yankee.bind(romeon)();
-                    entity['_rtcConnectionId'] = yankee;
+                    romeon = 24;
+                    romeon = kiloes[romeon];
+                    foxtra = foxtra.bind(golfie)(romeon);
+                    romeon = foxtra.v4;
+                    romeon = romeon.bind(foxtra)();
+                    entity['_rtcConnectionId'] = romeon;
                     entity['_connectCount'] = oscard;
                     entity['_connected'] = option;
                     entity['_connecting'] = option;
                     entity['_encountered_socket_failure'] = option;
                     entity['_inputDetected'] = option;
-                    yankee = new Array(0);
-                    entity['_selectedExperiments'] = yankee;
+                    romeon = new Array(0);
+                    entity['_selectedExperiments'] = romeon;
                     entity['_secureFramesState'] = tangon;
-                    romeon = offset.Set;
+                    foxtra = offset.Set;
                     offset = new Array(1);
                     offset[0] = backup;
-                    yankee = romeon.prototype;
-                    yankee = Object.create(yankee, {constructor: {value: romeon}});
-                    record = yankee;
-                    config = offset;
-                    offset = new record[romeon](config, sequen);
-                    offset = offset instanceof Object ? offset : yankee;
+                    romeon = foxtra.prototype;
+                    romeon = Object.create(romeon, {constructor: {value: foxtra}});
+                    target = romeon;
+                    papara = offset;
+                    offset = new target[foxtra](papara, cntext);
+                    offset = offset instanceof Object ? offset : romeon;
                     entity['_userIds'] = offset;
-                    yankee = entity._secureFramesRosterMap;
-                    offset = yankee.clear;
-                    offset = offset.bind(yankee)();
+                    romeon = entity._secureFramesRosterMap;
+                    offset = romeon.clear;
+                    offset = offset.bind(romeon)();
                     offset = {};
                     entity['_mlsFailuresRecovered'] = offset;
                     offset = {};
@@ -958,27 +948,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity['_mediaEngineConnectionId'] = tangon;
                     entity['_lastSentSpeakingStatus'] = oscard;
                     entity['_lastSentSSRC'] = golfie;
-                    yankee = _closure1_slot15;
                     offset = yankee.supports;
                     oscard = _closure1_slot24;
                     oscard = oscard.FIRST_FRAME_CALLBACK;
                     foxtra = offset.bind(yankee)(oscard);
-                    if(!foxtra) { _fun00012_ip = 1180; continue _fun00011 }
- 1155:
+                    if(!foxtra) { _fun00012_ip = 1163; continue _fun00011 }
+ 1138:
                     yankee = _closure1_slot15;
                     offset = yankee.supports;
                     oscard = _closure1_slot24;
                     oscard = oscard.REMOTE_USER_MULTI_STREAM;
                     foxtra = offset.bind(yankee)(oscard);
- 1180:
+ 1163:
                     oscard = _closure1_slot25;
                     oscard = oscard.DEFAULT;
-                    if(!(verify !== oscard)) { _fun00012_ip = 1359; continue _fun00011 }
- 1197:
+                    if(!(verify !== oscard)) { _fun00012_ip = 1342; continue _fun00011 }
+ 1180:
                     oscard = _closure1_slot25;
                     oscard = oscard.STREAM;
-                    if(!(verify === oscard)) { _fun00012_ip = 1550; continue _fun00011 }
- 1214:
+                    if(!(verify === oscard)) { _fun00012_ip = 1533; continue _fun00011 }
+ 1197:
                     offset = _closure1_slot1;
                     romeon = _closure1_slot3;
                     oscard = 26;
@@ -986,9 +975,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     verify = offset.bind(golfie)(verify);
                     offset = verify.prototype;
                     offset = Object.create(offset, {constructor: {value: verify}});
-                    record = offset;
-                    config = true;
-                    verify = new record[verify](config, sequen);
+                    target = offset;
+                    papara = true;
+                    verify = new target[verify](papara, cntext);
                     verify = verify instanceof Object ? verify : offset;
                     entity['_goLiveQualityManager'] = verify;
                     sizing = entity._goLiveQualityManager;
@@ -1070,18 +1059,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         }
                     };
                     oscard = offset.bind(yankee)(verify, oscard);
-                    _fun00012_ip = 1550; continue _fun00011;
- 1359:
+                    _fun00012_ip = 1533; continue _fun00011;
+ 1342:
                     offset = _closure1_slot14;
                     verify = offset.getChannel;
                     oscard = entity.channelId;
                     oscard = verify.bind(offset)(oscard);
                     verify = tangon == oscard;
                     kiloes = undefined;
-                    if(verify) { _fun00012_ip = 1392; continue _fun00011 }
- 1387:
+                    if(verify) { _fun00012_ip = 1375; continue _fun00011 }
+ 1370:
                     kiloes = oscard.type;
- 1392:
+ 1375:
                     oscard = _closure1_slot21;
                     verify = oscard.GUILD_STAGE_VOICE;
                     yankee = _closure1_slot1;
@@ -1091,11 +1080,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     yankee = yankee.bind(golfie)(offset);
                     offset = yankee.prototype;
                     offset = Object.create(offset, {constructor: {value: yankee}});
-                    sequen = kiloes === verify;
-                    record = offset;
-                    config = backup;
-                    vacuum = foxtra;
-                    verify = new record[yankee](config, sequen, vacuum, ctrled);
+                    cntext = kiloes === verify;
+                    target = offset;
+                    papara = backup;
+                    record = foxtra;
+                    verify = new target[yankee](papara, cntext, record, config);
                     verify = verify instanceof Object ? verify : offset;
                     entity['_localMediaSinkWantsManager'] = verify;
                     backup = entity._localMediaSinkWantsManager;
@@ -1177,7 +1166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         }
                     };
                     oscard = offset.bind(yankee)(verify, oscard);
- 1550:
+ 1533:
                     verify = _closure1_slot0;
                     romeon = _closure1_slot3;
                     oscard = 25;
@@ -1209,11 +1198,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     verify = _closure1_slot17;
                     oscard = verify.shouldRecordNextConnection;
                     oscard = oscard.bind(verify)();
-                    if(oscard) { _fun00012_ip = 1718; continue _fun00011 }
- 1710:
+                    if(oscard) { _fun00012_ip = 1701; continue _fun00011 }
+ 1693:
                     entity['_recordingEnabled'] = option;
-                    _fun00012_ip = 1755; continue _fun00011;
- 1718:
+                    _fun00012_ip = 1738; continue _fun00011;
+ 1701:
                     entity['_recordingEnabled'] = report;
                     oscard = _closure1_slot2;
                     verify = _closure1_slot3;
@@ -1222,7 +1211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = oscard.bind(golfie)(report);
                     report = oscard.setShouldRecordNextConnection;
                     report = report.bind(oscard)(option);
- 1755:
+ 1738:
                     oscard = _closure1_slot1;
                     option = _closure1_slot3;
                     report = 29;
@@ -1230,8 +1219,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = oscard.bind(golfie)(report);
                     verify = report.prototype;
                     verify = Object.create(verify, {constructor: {value: report}});
-                    record = verify;
-                    report = new record[report](config);
+                    target = verify;
+                    report = new target[report](papara);
                     report = report instanceof Object ? report : verify;
                     entity['_soundshareStats'] = report;
                     report = 30;
@@ -1251,8 +1240,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = oscard.bind(golfie)(report);
                     report = oscard.isDesktop;
                     report = report.bind(oscard)();
-                    if(!report) { _fun00012_ip = 1939; continue _fun00011 }
- 1885:
+                    if(!report) { _fun00012_ip = 1922; continue _fun00011 }
+ 1868:
                     oscard = _closure1_slot1;
                     option = _closure1_slot3;
                     report = 32;
@@ -1264,7 +1253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = 'resume';
                     report = golfie.bind(option)(report, oscard);
                     entity['powerMonitorListener'] = report;
- 1939:
+ 1922:
                     report = new Array(0);
                     entity['_supportedBandwidthEstimationExperiments'] = report;
                     entity['_bandwidthEstimationExperiment'] = tangon;
@@ -1348,7 +1337,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['get'] = entity;
-            entity = new Array(101);
+            entity = new Array(102);
             entity[0] = report;
             report = {};
             golfie = 'endpoint';
@@ -2796,47 +2785,76 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report['set'] = golfie;
             entity[41] = report;
             report = {};
-            golfie = 'trueChannelId';
+            golfie = 'trueServerId';
             report['key'] = golfie;
             golfie = function() { // Original name: get
                 _fun00083: for(var _fun00084_ip = 0; ; ) switch(_fun00084_ip) {
  0:
                     michal = this;
-                    zuuluu = michal.rtcServerId;
-                    entity = null;
-                    if(!(entity == zuuluu)) { _fun00084_ip = 22; continue _fun00083 }
+                    entity = michal.streamServerId;
+                    zuuluu = null;
+                    if(!(zuuluu == entity)) { _fun00084_ip = 20; continue _fun00083 }
  15:
+                    entity = michal.guildId;
+ 20:
+                    if(!(zuuluu == entity)) { _fun00084_ip = 29; continue _fun00083 }
+ 24:
                     entity = michal.channelId;
-                    _fun00084_ip = 77; continue _fun00083;
- 22:
-                    report = _closure1_slot1;
-                    tangon = _closure1_slot3;
-                    zuuluu = 38;
-                    zuuluu = tangon[zuuluu];
-                    tangon = undefined;
-                    zuuluu = report.bind(tangon)(zuuluu);
-                    michal = michal.rtcServerId;
-                    zuuluu = zuuluu.bind(tangon)(michal);
-                    michal = zuuluu.prev;
-                    zuuluu = michal.bind(zuuluu)();
-                    michal = zuuluu.toString;
-                    entity = michal.bind(zuuluu)();
- 77:
+ 29:
                     return entity;
                 }
             };
             report['get'] = golfie;
             entity[42] = report;
             report = {};
+            golfie = 'trueChannelId';
+            report['key'] = golfie;
+            golfie = function() { // Original name: get
+                _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
+ 0:
+                    michal = this;
+                    entity = michal.streamServerId;
+                    zuuluu = null;
+                    if(!(zuuluu != entity)) { _fun00086_ip = 90; continue _fun00085 }
+ 15:
+                    entity = michal.streamChannelId;
+                    if(!(zuuluu == entity)) { _fun00086_ip = 82; continue _fun00085 }
+ 25:
+                    zuuluu = _closure1_slot1;
+                    tangon = _closure1_slot3;
+                    entity = 38;
+                    entity = tangon[entity];
+                    tangon = undefined;
+                    zuuluu = zuuluu.bind(tangon)(entity);
+                    entity = michal.streamServerId;
+                    zuuluu = zuuluu.bind(tangon)(entity);
+                    entity = zuuluu.prev;
+                    zuuluu = entity.bind(zuuluu)();
+                    entity = zuuluu.toString;
+                    entity = entity.bind(zuuluu)();
+                    _fun00086_ip = 88; continue _fun00085;
+ 82:
+                    entity = michal.streamChannelId;
+ 88:
+                    _fun00086_ip = 95; continue _fun00085;
+ 90:
+                    entity = michal.channelId;
+ 95:
+                    return entity;
+                }
+            };
+            report['get'] = golfie;
+            entity[43] = report;
+            report = {};
             golfie = '_cleanupSocket';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                _fun00085: for(var _fun00086_ip = 0; ; ) switch(_fun00086_ip) {
+                _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
  0:
                     michal = this;
                     tangon = michal._socket;
                     entity = null;
-                    if(!(entity != tangon)) { _fun00086_ip = 41; continue _fun00085 }
+                    if(!(entity != tangon)) { _fun00088_ip = 41; continue _fun00087 }
  15:
                     zuuluu = tangon.close;
                     zuuluu = zuuluu.bind(tangon)();
@@ -2849,17 +2867,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[43] = report;
+            entity[44] = report;
             report = {};
             golfie = '_chooseExperiments';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
+                _fun00089: for(var _fun00090_ip = 0; ; ) switch(_fun00090_ip) {
  0:
                     zuuluu = this;
                     michal = new Array(0);
                     entity = zuuluu._recordingEnabled;
-                    if(!entity) { _fun00088_ip = 32; continue _fun00087 }
+                    if(!entity) { _fun00090_ip = 32; continue _fun00089 }
  16:
                     tangon = michal.push;
                     entity = 'connection_log';
@@ -2867,7 +2885,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  32:
                     tangon = zuuluu.guildId;
                     entity = null;
-                    if(!(entity != tangon)) { _fun00088_ip = 157; continue _fun00087 }
+                    if(!(entity != tangon)) { _fun00090_ip = 157; continue _fun00089 }
  43:
                     oscard = _closure1_slot1;
                     report = _closure1_slot3;
@@ -2887,14 +2905,14 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = oscard.bind(golfie)(report, tangon);
                     report = tangon.shouldOverrideKrisp;
                     tangon = tangon.overrideKrispSetting;
-                    if(!report) { _fun00088_ip = 157; continue _fun00087 }
+                    if(!report) { _fun00090_ip = 157; continue _fun00089 }
  125:
                     report = michal.push;
-                    if(tangon) { _fun00088_ip = 146; continue _fun00087 }
+                    if(tangon) { _fun00090_ip = 146; continue _fun00089 }
  133:
                     tangon = 'force_krisp_disabled';
                     tangon = report.bind(michal)(tangon);
-                    _fun00088_ip = 157; continue _fun00087;
+                    _fun00090_ip = 157; continue _fun00089;
  146:
                     tangon = 'force_krisp_enabled';
                     tangon = report.bind(michal)(tangon);
@@ -2904,7 +2922,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = _closure1_slot24;
                     tangon = tangon.FIXED_KEYFRAME_INTERVAL;
                     tangon = oscard.bind(golfie)(tangon);
-                    if(!tangon) { _fun00088_ip = 204; continue _fun00087 }
+                    if(!tangon) { _fun00090_ip = 204; continue _fun00089 }
  188:
                     oscard = michal.push;
                     tangon = 'fixed_keyframe_interval';
@@ -2913,7 +2931,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = zuuluu._supportedBandwidthEstimationExperiments;
                     oscard = tangon.length;
                     tangon = 0;
-                    if(!(tangon !== oscard)) { _fun00088_ip = 267; continue _fun00087 }
+                    if(!(tangon !== oscard)) { _fun00090_ip = 267; continue _fun00089 }
  221:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot3;
@@ -2923,7 +2941,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard = golfie.bind(tangon)(oscard);
                     tangon = oscard.workerExperimentString;
                     tangon = tangon.bind(oscard)();
-                    if(!(entity != tangon)) { _fun00088_ip = 267; continue _fun00087 }
+                    if(!(entity != tangon)) { _fun00090_ip = 267; continue _fun00089 }
  257:
                     entity = michal.push;
                     entity = entity.bind(michal)(tangon);
@@ -2932,7 +2950,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = _closure1_slot25;
                     entity = entity.DEFAULT;
                     entity = tangon === entity;
-                    if(!entity) { _fun00088_ip = 333; continue _fun00087 }
+                    if(!entity) { _fun00090_ip = 333; continue _fun00089 }
  289:
                     golfie = _closure1_slot0;
                     oscard = _closure1_slot3;
@@ -2945,7 +2963,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = oscard.bind(golfie)(tangon);
                     entity = tangon.enabled;
  333:
-                    if(!entity) { _fun00088_ip = 352; continue _fun00087 }
+                    if(!entity) { _fun00090_ip = 352; continue _fun00089 }
  336:
                     tangon = michal.push;
                     entity = 'audio_transport_cc';
@@ -2966,7 +2984,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     oscard['autoTrackExposure'] = option;
                     oscard = verify.bind(offset)(golfie, oscard);
                     oscard = oscard.enabled;
-                    if(!oscard) { _fun00088_ip = 431; continue _fun00087 }
+                    if(!oscard) { _fun00090_ip = 431; continue _fun00089 }
  415:
                     golfie = michal.push;
                     oscard = 'keyframe_on_join';
@@ -2984,7 +3002,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon['autoTrackExposure'] = option;
                     tangon = oscard.bind(golfie)(report, tangon);
                     tangon = tangon.enabled;
-                    if(!tangon) { _fun00088_ip = 500; continue _fun00087 }
+                    if(!tangon) { _fun00090_ip = 500; continue _fun00089 }
  484:
                     report = michal.push;
                     tangon = 'network_aware_socket';
@@ -2995,17 +3013,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[44] = report;
+            entity[45] = report;
             report = {};
             golfie = '_handleConnecting';
             report['key'] = golfie;
             golfie = function() { // Original name: value
-                _fun00089: for(var _fun00090_ip = 0; ; ) switch(_fun00090_ip) {
+                _fun00091: for(var _fun00092_ip = 0; ; ) switch(_fun00092_ip) {
  0:
                     zuuluu = this;
                     entity = zuuluu.endpoint;
                     michal = null;
-                    if(!(michal != entity)) { _fun00090_ip = 134; continue _fun00089 }
+                    if(!(michal != entity)) { _fun00092_ip = 134; continue _fun00091 }
  15:
                     report = _closure1_slot14;
                     tangon = report.getChannel;
@@ -3013,7 +3031,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = tangon.bind(report)(entity);
                     michal = michal == entity;
                     foxtra = undefined;
-                    if(michal) { _fun00090_ip = 51; continue _fun00089 }
+                    if(michal) { _fun00092_ip = 51; continue _fun00091 }
  46:
                     foxtra = entity.type;
  51:
@@ -3044,12 +3062,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[45] = report;
+            entity[46] = report;
             report = {};
             golfie = '_handleConnect';
             report['key'] = golfie;
             golfie = function(argFoo) { // Original name: value
-                _fun00091: for(var _fun00092_ip = 0; ; ) switch(_fun00092_ip) {
+                _fun00093: for(var _fun00094_ip = 0; ; ) switch(_fun00094_ip) {
  0:
                     michal = this;
                     var _closure3_slot0 = michal;
@@ -3058,7 +3076,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = michal.token;
                     var _closure3_slot2 = tangon;
                     zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00092_ip = 96; continue _fun00091 }
+                    if(!(zuuluu != tangon)) { _fun00094_ip = 96; continue _fun00093 }
  32:
                     report = michal.logger;
                     tangon = report.info;
@@ -3081,53 +3099,38 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = zuuluu.finally;
                     entity = function() {
-                        _fun00093: for(var _fun00094_ip = 0; ; ) switch(_fun00094_ip) {
- 0:
-                            report = _closure3_slot1;
-                            tangon = report.identify;
-                            michal = {};
-                            zuuluu = _closure3_slot0;
-                            zuuluu = zuuluu.rtcServerId;
-                            oscard = null;
-                            if(!(oscard == zuuluu)) { _fun00094_ip = 40; continue _fun00093 }
- 31:
-                            golfie = _closure3_slot0;
-                            zuuluu = golfie.guildId;
- 40:
-                            if(!(oscard == zuuluu)) { _fun00094_ip = 53; continue _fun00093 }
- 44:
-                            oscard = _closure3_slot0;
-                            zuuluu = oscard.channelId;
- 53:
-                            michal['serverId'] = zuuluu;
-                            zuuluu = _closure3_slot0;
-                            oscard = zuuluu.userId;
-                            michal['userId'] = oscard;
-                            oscard = zuuluu.sessionId;
-                            michal['sessionId'] = oscard;
-                            entity = _closure3_slot2;
-                            michal['token'] = entity;
-                            option = _closure1_slot15;
-                            oscard = option.getSupportedSecureFramesProtocolVersion;
-                            oscard = oscard.bind(option)();
-                            michal['maxDaveProtocolVersion'] = oscard;
-                            golfie = option.supports;
-                            oscard = _closure1_slot24;
-                            oscard = oscard.VIDEO;
-                            oscard = golfie.bind(option)(oscard);
-                            michal['video'] = oscard;
-                            golfie = option.getVideoStreamParameters;
-                            oscard = zuuluu.context;
-                            oscard = golfie.bind(option)(oscard);
-                            michal['streamParameters'] = oscard;
-                            michal = tangon.bind(report)(michal);
-                            michal = zuuluu.setState;
-                            entity = _closure1_slot22;
-                            entity = entity.AUTHENTICATING;
-                            entity = michal.bind(zuuluu)(entity);
-                            entity = undefined;
-                            return entity;
-                        }
+                        report = _closure3_slot1;
+                        tangon = report.identify;
+                        michal = {};
+                        zuuluu = _closure3_slot0;
+                        oscard = zuuluu.trueServerId;
+                        michal['serverId'] = oscard;
+                        oscard = zuuluu.userId;
+                        michal['userId'] = oscard;
+                        oscard = zuuluu.sessionId;
+                        michal['sessionId'] = oscard;
+                        entity = _closure3_slot2;
+                        michal['token'] = entity;
+                        option = _closure1_slot15;
+                        oscard = option.getSupportedSecureFramesProtocolVersion;
+                        oscard = oscard.bind(option)();
+                        michal['maxDaveProtocolVersion'] = oscard;
+                        golfie = option.supports;
+                        oscard = _closure1_slot24;
+                        oscard = oscard.VIDEO;
+                        oscard = golfie.bind(option)(oscard);
+                        michal['video'] = oscard;
+                        golfie = option.getVideoStreamParameters;
+                        oscard = zuuluu.context;
+                        oscard = golfie.bind(option)(oscard);
+                        michal['streamParameters'] = oscard;
+                        michal = tangon.bind(report)(michal);
+                        michal = zuuluu.setState;
+                        entity = _closure1_slot22;
+                        entity = entity.AUTHENTICATING;
+                        entity = michal.bind(zuuluu)(entity);
+                        entity = undefined;
+                        return entity;
                     };
                     entity = michal.bind(zuuluu)(entity);
                     entity = undefined;
@@ -3145,7 +3148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[46] = report;
+            entity[47] = report;
             report = {};
             golfie = '_handleDisconnect';
             report['key'] = golfie;
@@ -4167,7 +4170,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[47] = report;
+            entity[48] = report;
             report = {};
             golfie = '_handleResuming';
             report['key'] = golfie;
@@ -4193,7 +4196,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[48] = report;
+            entity[49] = report;
             report = {};
             golfie = '_handleReady';
             report['key'] = golfie;
@@ -4556,7 +4559,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             output = michal.Video;
                             sizing = yankee.guildId;
                             kiloes = yankee.channelId;
-                            romeon = yankee.rtcServerId;
+                            romeon = yankee.streamServerId;
                             result = yankee;
                             backup = option;
                             foxtra = golfie;
@@ -4581,7 +4584,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             output = entity.Video;
                             sizing = oscard.guildId;
                             kiloes = oscard.channelId;
-                            romeon = oscard.rtcServerId;
+                            romeon = oscard.streamServerId;
                             result = oscard;
                             backup = option;
                             foxtra = golfie;
@@ -5331,7 +5334,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[49] = report;
+            entity[50] = report;
             report = {};
             golfie = '_handleSpeaking';
             report['key'] = golfie;
@@ -5370,7 +5373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[50] = report;
+            entity[51] = report;
             report = {};
             golfie = 'handleFlags';
             report['key'] = golfie;
@@ -5391,7 +5394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[51] = report;
+            entity[52] = report;
             report = {};
             golfie = 'handlePlatform';
             report['key'] = golfie;
@@ -5414,7 +5417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[52] = report;
+            entity[53] = report;
             report = {};
             golfie = 'handleUsersMerged';
             report['key'] = golfie;
@@ -5442,7 +5445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[53] = report;
+            entity[54] = report;
             report = {};
             golfie = 'getOrCreateVideoQuality';
             report['key'] = golfie;
@@ -5557,7 +5560,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[54] = report;
+            entity[55] = report;
             report = {};
             golfie = '_handleVideoStreamId';
             report['key'] = golfie;
@@ -5582,7 +5585,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     result = zuuluu.Video;
                     output = michal.guildId;
                     sizing = michal.channelId;
-                    foxtra = michal.rtcServerId;
+                    foxtra = michal.streamServerId;
                     echoed = michal;
                     kiloes = report;
                     backup = tangon;
@@ -5716,7 +5719,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[55] = report;
+            entity[56] = report;
             report = {};
             golfie = '_handleLocalVideoDisabled';
             report['key'] = golfie;
@@ -5749,7 +5752,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[56] = report;
+            entity[57] = report;
             report = {};
             golfie = '_handleRemoteStreamsReady';
             report['key'] = golfie;
@@ -5786,7 +5789,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[57] = report;
+            entity[58] = report;
             report = {};
             golfie = '_handleVideo';
             report['key'] = golfie;
@@ -5956,7 +5959,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[58] = report;
+            entity[59] = report;
             report = {};
             golfie = '_handleControlPing';
             report['key'] = golfie;
@@ -5980,7 +5983,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[59] = report;
+            entity[60] = report;
             report = {};
             golfie = '_handlePing';
             report['key'] = golfie;
@@ -6037,7 +6040,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[60] = report;
+            entity[61] = report;
             report = {};
             golfie = '_handlePingTimeout';
             report['key'] = golfie;
@@ -6090,7 +6093,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[61] = report;
+            entity[62] = report;
             report = {};
             golfie = '_handleOutboundLossRate';
             report['key'] = golfie;
@@ -6111,7 +6114,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[62] = report;
+            entity[63] = report;
             report = {};
             golfie = '_handleSoundshareTrace';
             report['key'] = golfie;
@@ -6125,7 +6128,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[63] = report;
+            entity[64] = report;
             report = {};
             golfie = '_getAnalyticsProperties';
             report['key'] = golfie;
@@ -6163,7 +6166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[64] = report;
+            entity[65] = report;
             report = {};
             golfie = '_handleClientConnect';
             report['key'] = golfie;
@@ -6232,7 +6235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[65] = report;
+            entity[66] = report;
             report = {};
             golfie = '_handleClientDisconnect';
             report['key'] = golfie;
@@ -6401,7 +6404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[66] = report;
+            entity[67] = report;
             report = {};
             golfie = '_handleCodecs';
             report['key'] = golfie;
@@ -6450,7 +6453,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[67] = report;
+            entity[68] = report;
             report = {};
             golfie = '_handleSDP';
             report['key'] = golfie;
@@ -6481,7 +6484,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[68] = report;
+            entity[69] = report;
             report = {};
             golfie = '_handleMediaSessionId';
             report['key'] = golfie;
@@ -6545,7 +6548,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[69] = report;
+            entity[70] = report;
             report = {};
             golfie = '_handleMediaSinkWants';
             report['key'] = golfie;
@@ -6591,7 +6594,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[70] = report;
+            entity[71] = report;
             report = {};
             golfie = '_handleCodeVersion';
             report['key'] = golfie;
@@ -6605,7 +6608,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[71] = report;
+            entity[72] = report;
             report = {};
             golfie = '_handleKeyframeInterval';
             report['key'] = golfie;
@@ -6636,7 +6639,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[72] = report;
+            entity[73] = report;
             report = {};
             golfie = '_handleBandwidthEstimationExperiment';
             report['key'] = golfie;
@@ -6674,7 +6677,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[73] = report;
+            entity[74] = report;
             report = {};
             golfie = '_trackSecureFrameTransition';
             report['key'] = golfie;
@@ -6864,7 +6867,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[74] = report;
+            entity[75] = report;
             report = {};
             golfie = '_trackRemainingSecureFrameTransitions';
             report['key'] = golfie;
@@ -6889,7 +6892,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[75] = report;
+            entity[76] = report;
             report = {};
             golfie = '_storeSecureFrameNextTransitionData';
             report['key'] = golfie;
@@ -6925,7 +6928,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[76] = report;
+            entity[77] = report;
             report = {};
             golfie = '_storeSecureFrameTransitionData';
             report['key'] = golfie;
@@ -6969,7 +6972,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[77] = report;
+            entity[78] = report;
             report = {};
             golfie = '_handleSecureFramesInit';
             report['key'] = golfie;
@@ -7089,7 +7092,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[78] = report;
+            entity[79] = report;
             report = {};
             golfie = '_handleSecureFramesRosterChange';
             report['key'] = golfie;
@@ -7194,7 +7197,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[79] = report;
+            entity[80] = report;
             report = {};
             golfie = '_handleSecureFramesPrepareTransition';
             report['key'] = golfie;
@@ -7262,7 +7265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[80] = report;
+            entity[81] = report;
             report = {};
             golfie = '_handleSecureFramesPrepareEpoch';
             report['key'] = golfie;
@@ -7302,7 +7305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[81] = report;
+            entity[82] = report;
             report = {};
             golfie = '_sendMLSKeyPackage';
             report['key'] = golfie;
@@ -7343,7 +7346,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[82] = report;
+            entity[83] = report;
             report = {};
             golfie = '_maybeSendSecureFramesTransitionReady';
             report['key'] = golfie;
@@ -7388,7 +7391,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[83] = report;
+            entity[84] = report;
             report = {};
             golfie = '_handleSecureFramesExecuteTransition';
             report['key'] = golfie;
@@ -7463,7 +7466,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[84] = report;
+            entity[85] = report;
             report = {};
             golfie = '_handleMLSExternalSenderPackage';
             report['key'] = golfie;
@@ -7488,7 +7491,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[85] = report;
+            entity[86] = report;
             report = {};
             golfie = '_handleMLSProposals';
             report['key'] = golfie;
@@ -7584,7 +7587,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[86] = report;
+            entity[87] = report;
             report = {};
             golfie = '_handleMLSPrepareCommitTransition';
             report['key'] = golfie;
@@ -7682,7 +7685,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[87] = report;
+            entity[88] = report;
             report = {};
             golfie = '_handleMLSWelcome';
             report['key'] = golfie;
@@ -7772,7 +7775,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[88] = report;
+            entity[89] = report;
             report = {};
             golfie = 'getMLSPairwiseFingerprint';
             report['key'] = golfie;
@@ -7795,7 +7798,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[89] = report;
+            entity[90] = report;
             report = {};
             golfie = '_flagMLSInvalidCommitWelcome';
             report['key'] = golfie;
@@ -7824,7 +7827,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[90] = report;
+            entity[91] = report;
             report = {};
             golfie = '_handleMLSFailure';
             report['key'] = golfie;
@@ -7865,7 +7868,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[91] = report;
+            entity[92] = report;
             report = {};
             golfie = '_recoverMLSFailures';
             report['key'] = golfie;
@@ -7921,7 +7924,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[92] = report;
+            entity[93] = report;
             report = {};
             golfie = '_trackMLSFailures';
             report['key'] = golfie;
@@ -8111,7 +8114,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[93] = report;
+            entity[94] = report;
             report = {};
             golfie = '_alertMLSFailure';
             report['key'] = golfie;
@@ -8169,7 +8172,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[94] = report;
+            entity[95] = report;
             report = {};
             golfie = '_getExtraConnectionOptions';
             report['key'] = golfie;
@@ -8178,7 +8181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = golfie;
-            entity[95] = report;
+            entity[96] = report;
             report = {};
             golfie = 'shouldReportPeriodicStats';
             report['key'] = golfie;
@@ -8217,7 +8220,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[96] = report;
+            entity[97] = report;
             report = {};
             golfie = 'getInputDeviceName';
             report['key'] = golfie;
@@ -8241,7 +8244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[97] = report;
+            entity[98] = report;
             report = {};
             golfie = 'getOutputDeviceName';
             report['key'] = golfie;
@@ -8265,7 +8268,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[98] = report;
+            entity[99] = report;
             report = {};
             golfie = 'getVideoDeviceName';
             report['key'] = golfie;
@@ -8289,7 +8292,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 }
             };
             report['value'] = golfie;
-            entity[99] = report;
+            entity[100] = report;
             report = {};
             golfie = 'getGoLiveSource';
             report['key'] = golfie;
@@ -8300,7 +8303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 return entity;
             };
             report['value'] = oscard;
-            entity[100] = report;
+            entity[101] = report;
             entity = michal.bind(zuuluu)(tangon, entity);
             return entity;
         };

@@ -4142,6 +4142,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal['viewerIds'] = tangon;
         tangon = entity.rtc_server_id;
         michal['rtcServerId'] = tangon;
+        tangon = entity.rtc_channel_id;
+        michal['rtcChannelId'] = tangon;
         entity = entity.paused;
         michal['paused'] = entity;
         entity = undefined;

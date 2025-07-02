@@ -1132,7 +1132,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = tangon[zuuluu];
                     entity = undefined;
                     golfie = option.bind(entity)(report);
-                    report = golfie.isDismissibleContentDismissed;
+                    report = golfie.UNSAFE_isDismissibleContentDismissed;
                     oscard = 38;
                     tangon = tangon[oscard];
                     tangon = option.bind(entity)(tangon);
@@ -1145,7 +1145,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot2;
                     report = tangon[zuuluu];
                     golfie = option.bind(entity)(report);
-                    report = golfie.markDismissibleContentAsDismissed;
+                    report = golfie.UNSAFE_markDismissibleContentAsDismissed;
                     tangon = tangon[oscard];
                     tangon = option.bind(entity)(tangon);
                     tangon = tangon.DismissibleContent;
@@ -1156,7 +1156,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot2;
                     report = tangon[zuuluu];
                     golfie = option.bind(entity)(report);
-                    report = golfie.isDismissibleContentDismissed;
+                    report = golfie.UNSAFE_isDismissibleContentDismissed;
                     tangon = tangon[oscard];
                     tangon = option.bind(entity)(tangon);
                     tangon = tangon.DismissibleContent;
@@ -1168,7 +1168,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure1_slot2;
                     zuuluu = michal[zuuluu];
                     tangon = report.bind(entity)(zuuluu);
-                    zuuluu = tangon.markDismissibleContentAsDismissed;
+                    zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
                     michal = michal[oscard];
                     michal = report.bind(entity)(michal);
                     michal = michal.DismissibleContent;
@@ -1191,7 +1191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = tangon[zuuluu];
                     entity = undefined;
                     golfie = option.bind(entity)(report);
-                    report = golfie.isDismissibleContentDismissed;
+                    report = golfie.UNSAFE_isDismissibleContentDismissed;
                     oscard = 38;
                     tangon = tangon[oscard];
                     tangon = option.bind(entity)(tangon);
@@ -1204,7 +1204,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure1_slot2;
                     zuuluu = michal[zuuluu];
                     tangon = report.bind(entity)(zuuluu);
-                    zuuluu = tangon.markDismissibleContentAsDismissed;
+                    zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
                     michal = michal[oscard];
                     michal = report.bind(entity)(michal);
                     michal = michal.DismissibleContent;

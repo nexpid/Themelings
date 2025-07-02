@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = oscard[michal];
             michal = 1;
             michal = oscard[michal];
-            yankee = 29;
+            yankee = 30;
             zuuluu = zuuluu[yankee];
             oscard = report.bind(tangon)(zuuluu);
             report = oscard.useActivityAction;
@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.RECENT_APPS;
             michal['sectionName'] = output;
             michal['onActivityItemSelected'] = backup;
-            backup = 30;
+            backup = 31;
             backup = sizing[backup];
             backup = kiloes.bind(tangon)(backup);
             backup = backup.ApplicationCommandTriggerLocations;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.application;
             backup = report.bind(foxtra)(zuuluu);
             report = _closure1_slot12;
-            zuuluu = 24;
+            zuuluu = 29;
             zuuluu = offset[zuuluu];
             zuuluu = tangon.bind(oscard)(zuuluu);
             tangon = zuuluu.PressableOpacity;
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = _closure1_slot11;
             offset = _closure1_slot1;
             kiloes = _closure1_slot2;
-            golfie = 31;
+            golfie = 32;
             golfie = kiloes[golfie];
             offset = offset.bind(oscard)(golfie);
             golfie = {};
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot11;
             verify = _closure1_slot0;
             foxtra = _closure1_slot2;
-            option = 32;
+            option = 33;
             option = foxtra[option];
             option = verify.bind(oscard)(option);
             verify = option.SubmittingOverlay;
@@ -597,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = "function FrecencySectionTsx1(){const{withTiming,isRecentsMenuOpen}=this.__closure;return{transform:[{rotate:withTiming(isRecentsMenuOpen?'-180deg':'0deg')}]};}";
     report['code'] = option;
     var _closure1_slot15 = report;
-    report = 33;
+    report = 34;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -945,7 +945,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(ctrled === entity)) { _fun00010_ip = 636; continue _fun00009 }
  624:
             entity = echoed.length;
-            if(!(ctrled !== entity)) { _fun00010_ip = 1534; continue _fun00009 }
+            if(!(ctrled !== entity)) { _fun00010_ip = 1542; continue _fun00009 }
  636:
             entity = {};
             option = _closure1_slot0;
@@ -1154,7 +1154,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = 24;
                     zuuluu = verify[zuuluu];
                     zuuluu = tangon.bind(oscard)(zuuluu);
-                    tangon = zuuluu.PressableOpacity;
+                    tangon = zuuluu.PressableScale;
                     zuuluu = {};
                     option = _closure2_slot8;
                     option = option.commandContainer;
@@ -1462,7 +1462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = _closure1_slot11;
             output = _closure1_slot0;
             echoed = _closure1_slot2;
-            sizing = 24;
+            sizing = 29;
             sizing = echoed[sizing];
             sizing = output.bind(tangon)(sizing);
             output = sizing.PressableOpacity;
@@ -1483,6 +1483,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             sizing['onPress'] = echoed;
+            echoed = 'button';
+            sizing['accessibilityRole'] = echoed;
             source = _closure1_slot11;
             config = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -1518,8 +1520,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['contentContainerStyle'] = backup;
             oscard['horizontal'] = foxtra;
             oscard['showsHorizontalScrollIndicator'] = romeon;
-            if(!yankee) { _fun00010_ip = 1508; continue _fun00009 }
- 1481:
+            if(!yankee) { _fun00010_ip = 1516; continue _fun00009 }
+ 1489:
             romeon = [1, 2, 3, 4, 5];
             yankee = romeon.map;
             offset = function(argFoo, argBar) {
@@ -1532,14 +1534,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             verify = yankee.bind(romeon)(offset);
- 1508:
+ 1516:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 1534:
+ 1542:
             entity = null;
             return entity;
         }

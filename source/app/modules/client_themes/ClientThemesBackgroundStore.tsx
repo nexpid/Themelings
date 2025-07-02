@@ -599,7 +599,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = offset[zuuluu];
             report = undefined;
             option = verify.bind(report)(zuuluu);
-            tangon = option.isDismissibleContentDismissed;
+            tangon = option.UNSAFE_isDismissibleContentDismissed;
             zuuluu = 15;
             zuuluu = offset[zuuluu];
             zuuluu = verify.bind(report)(zuuluu);

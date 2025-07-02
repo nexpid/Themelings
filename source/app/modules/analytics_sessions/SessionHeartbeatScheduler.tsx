@@ -1013,8 +1013,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot14 = offset;
     offset = 7;
     offset = golfie[offset];
-    offset = oscard.bind(entity)(offset);
-    romeon = offset.Logger;
+    romeon = yankee.bind(entity)(offset);
     offset = romeon.prototype;
     yankee = Object.create(offset, {constructor: {value: romeon}});
     sizing = 'SessionHeartbeatScheduler';

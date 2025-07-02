@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             entity = entity.unsafe_rawColors;
             offset = entity.BLACK;
-            _fun00002_ip = 229; continue _fun00001;
+            _fun00002_ip = 230; continue _fun00001;
  199:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.bind(tangon)(entity);
             entity = entity.unsafe_rawColors;
             offset = entity.WHITE;
- 229:
+ 230:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot5;
             entity = {};

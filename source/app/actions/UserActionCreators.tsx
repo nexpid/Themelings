@@ -411,8 +411,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot6 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.Logger;
+    option = golfie.bind(entity)(tangon);
     tangon = option.prototype;
     golfie = Object.create(tangon, {constructor: {value: option}});
     romeon = 'UserProfileModalActionCreators';
@@ -617,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.getUser;
             tangon = michal.bind(zuuluu)(option);
             michal = null;
-            if(!(michal == tangon)) { _fun00014_ip = 118; continue _fun00013 }
+            if(!(michal == tangon)) { _fun00014_ip = 122; continue _fun00013 }
  33:
             report = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -656,13 +655,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
-            _fun00014_ip = 137; continue _fun00013;
- 118:
+            _fun00014_ip = 141; continue _fun00013;
+ 122:
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;
             entity = michal.bind(zuuluu)(tangon);
- 137:
+ 141:
             return entity;
         }
     };

@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 3;
             entity = offset[entity];
             yankee = romeon.bind(option)(entity);
-            michal = yankee.useIsDismissibleContentDismissed;
+            michal = yankee.UNSAFE_useIsDismissibleContentDismissed;
             entity = 4;
             entity = offset[entity];
             entity = romeon.bind(option)(entity);

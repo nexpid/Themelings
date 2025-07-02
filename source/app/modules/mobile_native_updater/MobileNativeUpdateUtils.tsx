@@ -1,6 +1,7 @@
 // app/modules/mobile_native_updater/MobileNativeUpdateUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
+    option = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
@@ -227,18 +228,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     var _closure1_slot6 = michal;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
+    offset = entity.Object;
+    verify = offset.defineProperty;
     report = {};
     entity = true;
     report['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    option = golfie[entity];
-    report = argBaz;
+    report = golfie[entity];
     entity = undefined;
-    report = report.bind(entity)(option);
+    report = option.bind(entity)(report);
     var _closure1_slot2 = report;
     report = 1;
     report = golfie[report];
@@ -247,13 +247,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = report;
     report = 2;
     report = golfie[report];
-    report = oscard.bind(entity)(report);
-    verify = report.Logger;
+    verify = option.bind(entity)(report);
     report = verify.prototype;
     option = Object.create(report, {constructor: {value: verify}});
-    romeon = 'MobileNativeUpdateUtils';
-    foxtra = option;
-    report = new foxtra[verify](romeon, yankee);
+    foxtra = 'MobileNativeUpdateUtils';
+    backup = option;
+    report = new backup[verify](foxtra, romeon);
     report = report instanceof Object ? report : option;
     var _closure1_slot4 = report;
     report = 7;

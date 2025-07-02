@@ -1,6 +1,7 @@
 // app/modules/device/native/DeviceState.tsx
 export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     oscard = argBar;
+    report = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
@@ -88,18 +89,17 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     };
     var _closure1_slot5 = entity;
     entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
+    verify = entity.Object;
+    option = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, tangon);
+    entity = option.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    report = golfie[entity];
-    tangon = argBaz;
+    tangon = golfie[entity];
     entity = undefined;
-    tangon = tangon.bind(entity)(report);
+    tangon = report.bind(entity)(tangon);
     var _closure1_slot2 = tangon;
     tangon = 1;
     tangon = golfie[tangon];
@@ -108,13 +108,12 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    option = tangon.Logger;
+    option = report.bind(entity)(tangon);
     tangon = option.prototype;
     report = Object.create(tangon, {constructor: {value: option}});
-    yankee = 'native/DeviceState.tsx';
-    romeon = report;
-    tangon = new romeon[option](yankee, offset);
+    romeon = 'native/DeviceState.tsx';
+    foxtra = report;
+    tangon = new foxtra[option](romeon, yankee);
     tangon = tangon instanceof Object ? tangon : report;
     var _closure1_slot4 = tangon;
     report = 4;

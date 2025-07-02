@@ -39,7 +39,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             entity = 2;
             entity = golfie[entity];
             report = oscard.bind(zuuluu)(entity);
-            michal = report.useIsDismissibleContentDismissed;
+            michal = report.UNSAFE_useIsDismissibleContentDismissed;
             entity = 3;
             entity = golfie[entity];
             entity = oscard.bind(zuuluu)(entity);

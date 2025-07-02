@@ -667,7 +667,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 31;
             entity = oscard[entity];
             zuuluu = verify.bind(tangon)(entity);
-            michal = zuuluu.useIsDismissibleContentDismissed;
+            michal = zuuluu.UNSAFE_useIsDismissibleContentDismissed;
             entity = 32;
             entity = oscard[entity];
             entity = verify.bind(tangon)(entity);

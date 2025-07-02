@@ -778,10 +778,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = foxtra.isAndroid;
         foxtra = yankee.bind(foxtra)();
         yankee = undefined;
-        if(!foxtra) { _fun00002_ip = 1213; continue _fun00001 }
- 1210:
+        if(!foxtra) { _fun00002_ip = 1212; continue _fun00001 }
+ 1209:
         yankee = romeon;
- 1213:
+ 1212:
         offset['lineHeight'] = yankee;
         tangon['countText'] = offset;
         tangon = golfie.bind(verify)(tangon);

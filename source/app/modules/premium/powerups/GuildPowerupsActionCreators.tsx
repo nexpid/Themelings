@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = oscard;
             tangon = true;
             entity = argBar;
-            if(!(tangon !== entity)) { _fun00002_ip = 115; continue _fun00001 }
+            if(!(tangon !== entity)) { _fun00002_ip = 119; continue _fun00001 }
  18:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -89,6 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = {};
             option = _closure1_slot3;
             golfie['application_id'] = option;
+            golfie['guild_id'] = oscard;
             entity['query'] = golfie;
             entity['oldFormErrors'] = tangon;
             tangon = false;
@@ -202,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 115:
+ 119:
             offset = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 3;

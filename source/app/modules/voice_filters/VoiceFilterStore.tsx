@@ -441,8 +441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot9 = michal;
     tangon = 6;
     tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    verify = tangon.Logger;
+    verify = option.bind(entity)(tangon);
     tangon = verify.prototype;
     yankee = Object.create(tangon, {constructor: {value: verify}});
     tangon = 'VoiceFilterStore';

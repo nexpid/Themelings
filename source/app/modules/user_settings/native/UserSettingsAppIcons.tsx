@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = golfie[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(michal);
-                tangon = report.markDismissibleContentAsDismissed;
+                tangon = report.UNSAFE_markDismissibleContentAsDismissed;
                 michal = 20;
                 michal = golfie[michal];
                 michal = zuuluu.bind(entity)(michal);

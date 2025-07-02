@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = yankee.activityIcon;
             golfie['style'] = foxtra;
             golfie = verify.bind(tangon)(option, golfie);
-            _fun00008_ip = 275; continue _fun00007;
+            _fun00008_ip = 276; continue _fun00007;
  211:
             verify = _closure1_slot4;
             option = {};
@@ -382,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.activityIcon;
             option['style'] = yankee;
             golfie = verify.bind(tangon)(offset, option);
- 275:
+ 276:
             report['children'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;

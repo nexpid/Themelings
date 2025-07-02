@@ -24,7 +24,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
     golfie = golfie.VanillaExperiment;
-    option = new Array(6);
+    option = new Array(5);
     option[0] = golfie;
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
@@ -42,11 +42,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.UnevenBucketsExperiment;
     option[4] = tangon;
-    tangon = 3;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.MobileShopSettingsEntryPointExperiment;
-    option[5] = tangon;
     yankee = michal.OPEN_USER_SETTINGS;
     michal = {};
     tangon = 'open user settings';
@@ -58,7 +53,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     offset = michal;
     michal = new foxtra[verify](romeon, yankee, offset, verify);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 4;
+    tangon = 3;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

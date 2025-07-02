@@ -91,8 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure1_slot10 = tangon;
         tangon = 7;
         tangon = oscard[tangon];
-        tangon = report.bind(entity)(tangon);
-        yankee = tangon.Logger;
+        yankee = golfie.bind(entity)(tangon);
         tangon = yankee.prototype;
         offset = Object.create(tangon, {constructor: {value: yankee}});
         backup = 'JSWatchdogManager';
@@ -125,10 +124,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         verify = offset.includes;
         option = 'dev';
         option = verify.bind(offset)(option);
-        if(!tangon) { _fun00002_ip = 373; continue _fun00001 }
- 370:
+        if(!tangon) { _fun00002_ip = 367; continue _fun00001 }
+ 364:
         tangon = !option;
- 373:
+ 367:
         var _closure1_slot13 = tangon;
         tangon = 17;
         tangon = oscard[tangon];

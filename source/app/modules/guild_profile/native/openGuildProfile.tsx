@@ -33,11 +33,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            yankee = arguments[1];
+            verify = arguments[1];
             entity = undefined;
-            if(!(yankee === entity)) { _fun00002_ip = 14; continue _fun00001 }
+            if(!(verify === entity)) { _fun00002_ip = 14; continue _fun00001 }
  12:
-            yankee = true;
+            verify = true;
  14:
             report = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -48,10 +48,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot3;
             report = zuuluu.OPEN_POPOUT;
             zuuluu = {};
-            verify = 'Guild Profile';
-            zuuluu['type'] = verify;
-            verify = michal.id;
-            zuuluu['guild_id'] = verify;
+            offset = 'Guild Profile';
+            zuuluu['type'] = offset;
+            offset = michal.id;
+            zuuluu['guild_id'] = offset;
             zuuluu = golfie.bind(option)(report, zuuluu);
             report = _closure1_slot0;
             zuuluu = 2;
@@ -60,7 +60,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = oscard.shouldNSFWGateGuild;
             zuuluu = michal.id;
             zuuluu = report.bind(oscard)(zuuluu);
-            if(zuuluu) { _fun00002_ip = 289; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 320; continue _fun00001 }
  117:
             report = michal.hasFeature;
             zuuluu = _closure1_slot4;
@@ -72,38 +72,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = zuuluu[oscard];
             option = golfie.bind(entity)(oscard);
             golfie = option.openLazy;
-            verify = _closure1_slot0;
+            offset = _closure1_slot0;
             oscard = 5;
             oscard = zuuluu[oscard];
-            oscard = verify.bind(entity)(oscard);
-            if(report) { _fun00002_ip = 250; continue _fun00001 }
+            oscard = offset.bind(entity)(oscard);
+            if(report) { _fun00002_ip = 253; continue _fun00001 }
  183:
             report = 7;
-            verify = zuuluu[report];
+            offset = zuuluu[report];
             report = zuuluu.paths;
-            offset = oscard.bind(entity)(verify, report);
+            yankee = oscard.bind(entity)(offset, report);
             romeon = michal.id;
             report = global;
             report = report.HermesInternal;
-            verify = report.concat;
+            offset = report.concat;
             report = 'GuildProfile:';
-            verify = verify.bind(report)(romeon);
+            offset = offset.bind(report)(romeon);
             report = {};
             report['guild'] = michal;
-            report['expanded'] = yankee;
-            report = golfie.bind(option)(offset, verify, report);
-            _fun00002_ip = 368; continue _fun00001;
- 250:
+            report['expanded'] = verify;
+            report = golfie.bind(option)(yankee, offset, report);
+            _fun00002_ip = 399; continue _fun00001;
+ 253:
             report = 6;
             report = zuuluu[report];
             zuuluu = zuuluu.paths;
             oscard = oscard.bind(entity)(report, zuuluu);
-            report = {};
-            report['guild'] = michal;
-            zuuluu = 'GuildProfile';
-            zuuluu = golfie.bind(option)(oscard, zuuluu, report);
-            _fun00002_ip = 368; continue _fun00001;
- 289:
+            offset = michal.id;
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            report = zuuluu.concat;
+            zuuluu = 'GuildProfile:';
+            report = report.bind(zuuluu)(offset);
+            zuuluu = {};
+            zuuluu['guild'] = michal;
+            zuuluu['expanded'] = verify;
+            zuuluu = golfie.bind(option)(oscard, report, zuuluu);
+            _fun00002_ip = 399; continue _fun00001;
+ 320:
             oscard = _closure1_slot1;
             zuuluu = _closure1_slot2;
             report = 3;
@@ -122,7 +128,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['guild'] = michal;
             michal = 'NsfwGateGuildSettingsActionSheet';
             michal = report.bind(oscard)(tangon, michal, zuuluu);
- 368:
+ 399:
             return entity;
         }
     };

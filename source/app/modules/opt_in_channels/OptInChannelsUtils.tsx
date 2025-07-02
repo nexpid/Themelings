@@ -416,7 +416,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = offset[michal];
             option = undefined;
             yankee = verify.bind(option)(michal);
-            golfie = yankee.useIsDismissibleContentDismissed;
+            golfie = yankee.UNSAFE_useIsDismissibleContentDismissed;
             michal = 16;
             michal = offset[michal];
             michal = verify.bind(option)(michal);

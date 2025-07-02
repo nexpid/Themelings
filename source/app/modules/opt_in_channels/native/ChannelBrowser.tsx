@@ -807,7 +807,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 19;
             zuuluu = foxtra[zuuluu];
             backup = golfie.bind(tangon)(zuuluu);
-            offset = backup.useIsDismissibleContentDismissed;
+            offset = backup.UNSAFE_useIsDismissibleContentDismissed;
             zuuluu = 20;
             zuuluu = foxtra[zuuluu];
             zuuluu = golfie.bind(tangon)(zuuluu);
@@ -907,7 +907,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = golfie[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(michal);
-                tangon = report.markDismissibleContentAsDismissed;
+                tangon = report.UNSAFE_markDismissibleContentAsDismissed;
                 michal = 20;
                 michal = golfie[michal];
                 michal = zuuluu.bind(entity)(michal);
@@ -1032,7 +1032,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = golfie[entity];
                 entity = undefined;
                 report = zuuluu.bind(entity)(michal);
-                tangon = report.markDismissibleContentAsDismissed;
+                tangon = report.UNSAFE_markDismissibleContentAsDismissed;
                 michal = 20;
                 michal = golfie[michal];
                 michal = zuuluu.bind(entity)(michal);

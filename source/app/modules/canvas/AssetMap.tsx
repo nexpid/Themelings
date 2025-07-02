@@ -139,8 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot4 = michal;
     michal = 3;
     michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    option = michal.Logger;
+    option = report.bind(entity)(michal);
     michal = option.prototype;
     report = Object.create(michal, {constructor: {value: option}});
     romeon = 'AssetMap';

@@ -172,33 +172,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot1 = golfie;
             tangon = 12;
             tangon = option[tangon];
-            report = report.bind(michal)(tangon);
-            tangon = report.useIsEligibleForBogoPromotion;
-            report = tangon.bind(report)();
+            option = report.bind(michal)(tangon);
+            report = option.useIsEligibleForBogoPromotion;
+            tangon = false;
+            report = report.bind(option)(tangon);
             var _closure2_slot2 = report;
             tangon = null;
             yankee = tangon != oscard;
             var _closure2_slot3 = yankee;
             verify = tangon == oscard;
             option = undefined;
-            if(verify) { _fun00004_ip = 135; continue _fun00003 }
- 130:
+            if(verify) { _fun00004_ip = 138; continue _fun00003 }
+ 133:
             option = oscard.id;
- 135:
+ 138:
             var _closure2_slot4 = option;
             verify = tangon == oscard;
             offset = undefined;
-            if(verify) { _fun00004_ip = 154; continue _fun00003 }
- 148:
+            if(verify) { _fun00004_ip = 157; continue _fun00003 }
+ 151:
             offset = oscard.paymentGatewayPlanId;
- 154:
+ 157:
             var _closure2_slot5 = offset;
             tangon = tangon == oscard;
             verify = undefined;
-            if(tangon) { _fun00004_ip = 173; continue _fun00003 }
- 167:
+            if(tangon) { _fun00004_ip = 176; continue _fun00003 }
+ 170:
             verify = oscard.paymentGatewaySubscriptionId;
- 173:
+ 176:
             var _closure2_slot6 = verify;
             tangon = _closure1_slot4;
             zuuluu = tangon.useCallback;

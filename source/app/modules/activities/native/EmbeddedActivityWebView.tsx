@@ -1475,7 +1475,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                     StartGenerator();
                                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                    if(michal) { _fun00042_ip = 361; continue _fun00041 }
+                                    if(michal) { _fun00042_ip = 365; continue _fun00041 }
  10:
                                     michal = undefined;
                                     offset = undefined;
@@ -1484,10 +1484,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     if(report) { _fun00042_ip = 32; continue _fun00041 }
  26:
                                     report = _closure2_slot17;
-                                    _fun00042_ip = 42; continue _fun00041;
+                                    _fun00042_ip = 46; continue _fun00041;
  32:
                                     report = {'top': 0, 'bottom': 0, 'left': 0, 'right': 0};
- 42:
+ 46:
                                     offset = report;
                                     oscard = {};
                                     report = 'safeAreaUpdateEvent';
@@ -1499,11 +1499,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     golfie = null;
                                     yankee = golfie == yankee;
                                     romeon = undefined;
-                                    if(yankee) { _fun00042_ip = 92; continue _fun00041 }
- 83:
+                                    if(yankee) { _fun00042_ip = 96; continue _fun00041 }
+ 87:
                                     yankee = _closure2_slot9;
                                     romeon = yankee.left;
- 92:
+ 96:
                                     yankee = offset;
                                     yankee = yankee.left;
                                     yankee = foxtra.bind(michal)(romeon, yankee);
@@ -1512,11 +1512,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     yankee = _closure2_slot9;
                                     yankee = golfie == yankee;
                                     romeon = undefined;
-                                    if(yankee) { _fun00042_ip = 136; continue _fun00041 }
- 127:
+                                    if(yankee) { _fun00042_ip = 140; continue _fun00041 }
+ 131:
                                     yankee = _closure2_slot9;
                                     romeon = yankee.right;
- 136:
+ 140:
                                     yankee = offset;
                                     yankee = yankee.right;
                                     yankee = foxtra.bind(michal)(romeon, yankee);
@@ -1525,11 +1525,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     yankee = _closure2_slot9;
                                     yankee = golfie == yankee;
                                     romeon = undefined;
-                                    if(yankee) { _fun00042_ip = 180; continue _fun00041 }
- 171:
+                                    if(yankee) { _fun00042_ip = 184; continue _fun00041 }
+ 175:
                                     yankee = _closure2_slot9;
                                     romeon = yankee.top;
- 180:
+ 184:
                                     yankee = offset;
                                     yankee = yankee.top;
                                     yankee = foxtra.bind(michal)(romeon, yankee);
@@ -1538,18 +1538,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     yankee = _closure2_slot9;
                                     foxtra = golfie == yankee;
                                     yankee = undefined;
-                                    if(foxtra) { _fun00042_ip = 224; continue _fun00041 }
- 215:
+                                    if(foxtra) { _fun00042_ip = 228; continue _fun00041 }
+ 219:
                                     foxtra = _closure2_slot9;
                                     yankee = foxtra.bottom;
- 224:
+ 228:
                                     offset = offset.bottom;
                                     offset = romeon.bind(michal)(yankee, offset);
                                     verify['bottom'] = offset;
                                     option['insets'] = verify;
                                     oscard['data'] = option;
                                     zuuluu = oscard;
- 251: // try_start_0
+ 255: // try_start_0
                                     verify = _closure2_slot15;
                                     option = verify.injectJavaScript;
                                     offset = _closure1_slot1;
@@ -1560,22 +1560,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     oscard = zuuluu;
                                     oscard = offset.bind(michal)(oscard);
                                     oscard = option.bind(verify)(oscard);
-                                    SaveGenerator(address=298);
- 296:
+                                    SaveGenerator(address=302);
+ 300:
                                     return oscard;
- 298:
+ 302:
                                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                                    if(option) { _fun00042_ip = 306; continue _fun00041 }
- 304: // try_end0
-                                    _fun00042_ip = 358; continue _fun00041;
- 306:
+                                    if(option) { _fun00042_ip = 310; continue _fun00041 }
+ 308: // try_end0
+                                    _fun00042_ip = 362; continue _fun00041;
+ 310:
                                     return oscard;
- 309: // catch_target0
+ 313: // catch_target0
                                     CatchBlockStart(arg_register=5);
                                     oscard = _closure2_slot31;
                                     oscard = oscard.current;
-                                    if(!(golfie != oscard)) { _fun00042_ip = 358; continue _fun00041 }
- 324:
+                                    if(!(golfie != oscard)) { _fun00042_ip = 362; continue _fun00041 }
+ 328:
                                     tangon = _closure2_slot32;
                                     oscard = _closure1_slot1;
                                     golfie = _closure1_slot3;
@@ -1584,9 +1584,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     report = oscard.bind(michal)(report);
                                     zuuluu = report.bind(michal)(zuuluu);
                                     zuuluu = tangon.bind(michal)(zuuluu);
- 358:
+ 362:
                                     return michal;
- 361:
+ 365:
                                     return entity;
                                 }
                             };

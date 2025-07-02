@@ -356,10 +356,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 17;
             oscard = backup[oscard];
             verify = verify.bind(tangon)(oscard);
-            oscard = {};
+            oscard = {'nameplate': null, 'fullOpacity': true, 'isSquarePreview': true};
             oscard['nameplate'] = foxtra;
-            foxtra = true;
-            oscard['fullOpacity'] = foxtra;
             backup = yankee.nameplate;
             foxtra = new Array(2);
             foxtra[0] = backup;
@@ -372,8 +370,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = new Array(2);
             oscard[0] = verify;
             report = option == report;
-            if(!report) { _fun00006_ip = 316; continue _fun00005 }
- 263:
+            if(!report) { _fun00006_ip = 322; continue _fun00005 }
+ 269:
             verify = _closure1_slot4;
             option = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -386,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = yankee;
             golfie['isNew'] = offset;
             report = verify.bind(tangon)(option, golfie);
- 316:
+ 322:
             oscard[1] = report;
             report = 'children';
             entity[report] = oscard;

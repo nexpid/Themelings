@@ -2370,7 +2370,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00026_ip = 108; continue _fun00025 }
+                    if(michal) { _fun00026_ip = 112; continue _fun00025 }
  7:
                     report = undefined;
                     zuuluu = undefined;
@@ -2390,21 +2390,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['url'] = zuuluu;
                     zuuluu = true;
                     michal = tangon.bind(report)(michal);
-                    SaveGenerator(address=89);
- 87:
+                    SaveGenerator(address=93);
+ 91:
                     return michal;
- 89:
+ 93:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00026_ip = 98; continue _fun00025 }
- 95: // try_end0
+                    if(tangon) { _fun00026_ip = 102; continue _fun00025 }
+ 99: // try_end0
                     return zuuluu;
- 98:
+ 102:
                     return michal;
- 101: // catch_target0
+ 105: // catch_target0
                     CatchBlockStart(arg_register=1);
                     michal = false;
                     return michal;
- 108:
+ 112:
                     return entity;
                 }
             };

@@ -232,8 +232,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot4 = golfie;
     golfie = 2;
     golfie = verify[golfie];
-    golfie = option.bind(entity)(golfie);
-    romeon = golfie.Logger;
+    romeon = yankee.bind(entity)(golfie);
     golfie = romeon.prototype;
     yankee = Object.create(golfie, {constructor: {value: romeon}});
     sizing = 'libdiscore';

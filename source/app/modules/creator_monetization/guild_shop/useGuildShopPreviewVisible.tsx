@@ -49,7 +49,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = 3;
             entity = oscard[entity];
             golfie = zuuluu.bind(offset)(entity);
-            michal = golfie.useIsDismissibleContentDismissed;
+            michal = golfie.UNSAFE_useIsDismissibleContentDismissed;
             entity = 4;
             entity = oscard[entity];
             entity = zuuluu.bind(offset)(entity);

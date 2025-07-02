@@ -1,20 +1,20 @@
 // app/modules/device/native/DeviceMedia.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = argBar;
+    tangon = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = tangon;
     var _closure1_slot2 = golfie;
     entity = global;
-    option = entity.Object;
-    tangon = option.defineProperty;
+    verify = entity.Object;
+    option = verify.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = tangon.bind(option)(zuuluu, entity, michal);
+    entity = option.bind(verify)(zuuluu, entity, michal);
     entity = 0;
     michal = golfie[entity];
     entity = undefined;
@@ -23,13 +23,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot3 = michal;
     michal = 1;
     michal = golfie[michal];
-    michal = oscard.bind(entity)(michal);
-    option = michal.Logger;
+    option = tangon.bind(entity)(michal);
     michal = option.prototype;
     tangon = Object.create(michal, {constructor: {value: option}});
-    yankee = 'DeviceMedia.tsx';
-    romeon = tangon;
-    michal = new romeon[option](yankee, offset);
+    romeon = 'DeviceMedia.tsx';
+    foxtra = tangon;
+    michal = new foxtra[option](romeon, yankee);
     michal = michal instanceof Object ? michal : tangon;
     var _closure1_slot4 = michal;
     michal = 2;

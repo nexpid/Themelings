@@ -408,7 +408,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.timeout;
                     entity = michal != zuuluu;
  81:
-                    if(!entity) { _fun00012_ip = 245; continue _fun00011 }
+                    if(!entity) { _fun00012_ip = 249; continue _fun00011 }
  87:
                     entity = _closure1_slot11;
                     entity['timeout'] = michal;
@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = entity.length;
  148:
                     entity = 5;
-                    if(!(!(michal > entity))) { _fun00012_ip = 245; continue _fun00011 }
+                    if(!(!(michal > entity))) { _fun00012_ip = 249; continue _fun00011 }
  155:
                     michal = _closure1_slot0;
                     oscard = _closure1_slot2;
@@ -515,7 +515,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         }
                     };
                     entity = michal.bind(zuuluu)(entity);
- 245:
+ 249:
                     entity = undefined;
                     return entity;
                 }

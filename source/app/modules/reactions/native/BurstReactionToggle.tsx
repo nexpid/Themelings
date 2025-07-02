@@ -102,10 +102,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(oscard) { _fun00002_ip = 73; continue _fun00001 }
  65:
             offset = entity.INTERACTIVE_NORMAL;
-            _fun00002_ip = 78; continue _fun00001;
+            _fun00002_ip = 79; continue _fun00001;
  73:
             offset = entity.WHITE;
- 78:
+ 79:
             zuuluu = _closure1_slot3;
             michal = zuuluu.useRef;
             entity = null;
@@ -301,15 +301,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = kiloes[report];
             report = golfie.bind(tangon)(report);
             golfie = report.t;
-            if(oscard) { _fun00002_ip = 227; continue _fun00001 }
- 212:
+            if(oscard) { _fun00002_ip = 228; continue _fun00001 }
+ 213:
             report = golfie.buV4am;
             report = yankee.bind(backup)(report);
-            _fun00002_ip = 240; continue _fun00001;
- 227:
+            _fun00002_ip = 241; continue _fun00001;
+ 228:
             golfie = golfie.5cRA/f;
             report = yankee.bind(backup)(golfie);
- 240:
+ 241:
             entity['accessibilityLabel'] = report;
             report = 'switch';
             entity['accessibilityRole'] = report;

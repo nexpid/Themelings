@@ -1169,7 +1169,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = oscard[entity];
                 entity = undefined;
                 tangon = report.bind(entity)(michal);
-                zuuluu = tangon.markDismissibleContentAsDismissed;
+                zuuluu = tangon.UNSAFE_markDismissibleContentAsDismissed;
                 michal = 30;
                 michal = oscard[michal];
                 michal = report.bind(entity)(michal);

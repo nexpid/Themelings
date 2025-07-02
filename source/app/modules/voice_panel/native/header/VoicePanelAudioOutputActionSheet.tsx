@@ -360,7 +360,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 23;
             entity = golfie[entity];
             zuuluu = tangon.bind(report)(entity);
-            michal = zuuluu.useIsDismissibleContentDismissed;
+            michal = zuuluu.UNSAFE_useIsDismissibleContentDismissed;
             entity = 24;
             entity = golfie[entity];
             entity = tangon.bind(report)(entity);
@@ -393,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = oscard[entity];
                     tangon = undefined;
                     zuuluu = report.bind(tangon)(entity);
-                    michal = zuuluu.markDismissibleContentAsDismissed;
+                    michal = zuuluu.UNSAFE_markDismissibleContentAsDismissed;
                     entity = 24;
                     entity = oscard[entity];
                     entity = report.bind(tangon)(entity);

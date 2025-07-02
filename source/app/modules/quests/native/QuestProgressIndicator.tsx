@@ -501,21 +501,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             zuuluu = entity.PressableOpacity;
-            _fun00002_ip = 829; continue _fun00001;
+            _fun00002_ip = 828; continue _fun00001;
  819:
             entity = _closure1_slot6;
             zuuluu = entity.Fragment;
- 829:
+ 828:
             michal = _closure1_slot9;
             entity = {};
-            if(!(romeon != oscard)) { _fun00002_ip = 847; continue _fun00001 }
- 839:
+            if(!(romeon != oscard)) { _fun00002_ip = 846; continue _fun00001 }
+ 838:
             report = {};
             report['onPress'] = oscard;
-            _fun00002_ip = 849; continue _fun00001;
- 847:
+            _fun00002_ip = 848; continue _fun00001;
+ 846:
             report = {};
- 849:
+ 848:
             variable42 = entity;
             variable41 = report;
             report = copyDataProperties(variable42, variable41);
@@ -629,8 +629,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = new Array(3);
             yankee[0] = backup;
             romeon = null;
-            if(!foxtra) { _fun00002_ip = 1432; continue _fun00001 }
- 1360:
+            if(!foxtra) { _fun00002_ip = 1431; continue _fun00001 }
+ 1359:
             update = _closure1_slot9;
             backup = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -649,7 +649,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra['autoPlay'] = source;
             foxtra['loop'] = source;
             romeon = update.bind(tangon)(backup, foxtra);
- 1432:
+ 1431:
             yankee[1] = romeon;
             backup = _closure1_slot9;
             foxtra = _closure1_slot7;

@@ -1,9 +1,10 @@
 // app/modules/quests/experiments/QuestsLoggingExperiment.tsx
-export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
     oscard = argPlu;
-    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot0 = entity;
     var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
@@ -103,8 +104,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             option = _closure1_slot1;
             entity = 2;
             entity = option[entity];
-            entity = zuuluu.bind(report)(entity);
-            report = entity.Logger;
+            report = zuuluu.bind(report)(entity);
             entity = global;
             entity = entity.HermesInternal;
             zuuluu = entity.concat;
@@ -116,53 +116,53 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             entity = new foxtra[report](romeon, yankee);
             zuuluu = entity instanceof Object ? entity : zuuluu;
             entity = {};
-            if(tangon) { _fun00002_ip = 247; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 241; continue _fun00001 }
+ 235:
+            report = _closure1_slot2;
+            _fun00002_ip = 247; continue _fun00001;
  241:
-            report = _closure1_slot2;
-            _fun00002_ip = 253; continue _fun00001;
- 247:
             report = zuuluu.log;
- 253:
+ 247:
             entity['log'] = report;
-            if(tangon) { _fun00002_ip = 267; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 261; continue _fun00001 }
+ 255:
+            report = _closure1_slot2;
+            _fun00002_ip = 266; continue _fun00001;
  261:
-            report = _closure1_slot2;
-            _fun00002_ip = 272; continue _fun00001;
- 267:
             report = zuuluu.warn;
- 272:
+ 266:
             entity['warn'] = report;
-            if(tangon) { _fun00002_ip = 285; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 279; continue _fun00001 }
+ 273:
+            report = _closure1_slot2;
+            _fun00002_ip = 284; continue _fun00001;
  279:
-            report = _closure1_slot2;
-            _fun00002_ip = 290; continue _fun00001;
- 285:
             report = zuuluu.error;
- 290:
+ 284:
             entity['error'] = report;
-            if(tangon) { _fun00002_ip = 303; continue _fun00001 }
+            if(tangon) { _fun00002_ip = 297; continue _fun00001 }
+ 291:
+            report = _closure1_slot2;
+            _fun00002_ip = 303; continue _fun00001;
  297:
-            report = _closure1_slot2;
-            _fun00002_ip = 309; continue _fun00001;
- 303:
             report = zuuluu.info;
- 309:
+ 303:
             entity['info'] = report;
-            if(tangon) { _fun00002_ip = 323; continue _fun00001 }
- 317:
+            if(tangon) { _fun00002_ip = 317; continue _fun00001 }
+ 311:
             report = _closure1_slot2;
-            _fun00002_ip = 329; continue _fun00001;
- 323:
+            _fun00002_ip = 323; continue _fun00001;
+ 317:
             report = zuuluu.verbose;
- 329:
+ 323:
             entity['verbose'] = report;
-            if(tangon) { _fun00002_ip = 343; continue _fun00001 }
- 337:
+            if(tangon) { _fun00002_ip = 337; continue _fun00001 }
+ 331:
             michal = _closure1_slot2;
-            _fun00002_ip = 349; continue _fun00001;
- 343:
+            _fun00002_ip = 343; continue _fun00001;
+ 337:
             michal = zuuluu.trace;
- 349:
+ 343:
             entity['trace'] = michal;
             return entity;
         }

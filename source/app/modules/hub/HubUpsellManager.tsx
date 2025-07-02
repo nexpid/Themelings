@@ -63,20 +63,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    zuuluu = _closure1_slot1;
+                    tangon = _closure1_slot1;
                     michal = _closure1_slot2;
                     entity = 6;
                     michal = michal[entity];
                     entity = undefined;
-                    michal = zuuluu.bind(entity)(michal);
+                    michal = tangon.bind(entity)(michal);
                     michal = michal.bind(entity)();
-                    if(michal) { _fun00004_ip = 402; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 405; continue _fun00003 }
  35:
-                    zuuluu = _closure1_slot5;
-                    michal = zuuluu.getCurrentUser;
-                    zuuluu = michal.bind(zuuluu)();
+                    tangon = _closure1_slot5;
+                    michal = tangon.getCurrentUser;
+                    tangon = michal.bind(tangon)();
                     report = null;
-                    michal = report != zuuluu;
+                    michal = report != tangon;
                     if(!michal) { _fun00004_ip = 143; continue _fun00003 }
  57:
                     yankee = _closure1_slot1;
@@ -92,18 +92,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = romeon[offset];
                     yankee = yankee.bind(entity)(offset);
                     offset = yankee.extractTimestamp;
-                    zuuluu = zuuluu.id;
-                    zuuluu = offset.bind(yankee)(zuuluu);
-                    golfie = golfie.bind(entity)(zuuluu);
-                    zuuluu = 'days';
-                    zuuluu = option.bind(verify)(golfie, zuuluu);
-                    michal = zuuluu < oscard;
+                    tangon = tangon.id;
+                    tangon = offset.bind(yankee)(tangon);
+                    golfie = golfie.bind(entity)(tangon);
+                    tangon = 'days';
+                    tangon = option.bind(verify)(golfie, tangon);
+                    michal = tangon < oscard;
  143:
                     oscard = _closure1_slot4;
-                    zuuluu = oscard.getGuildsArray;
-                    golfie = zuuluu.bind(oscard)();
+                    tangon = oscard.getGuildsArray;
+                    golfie = tangon.bind(oscard)();
                     oscard = golfie.find;
-                    zuuluu = function(argFoo) {
+                    tangon = function(argFoo) {
                         zuuluu = argFoo;
                         michal = zuuluu.hasFeature;
                         entity = _closure1_slot6;
@@ -111,60 +111,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = michal.bind(zuuluu)(entity);
                         return entity;
                     };
-                    zuuluu = oscard.bind(golfie)(zuuluu);
-                    golfie = report != zuuluu;
-                    offset = _closure1_slot0;
-                    report = _closure1_slot2;
-                    zuuluu = 9;
-                    oscard = report[zuuluu];
-                    verify = offset.bind(entity)(oscard);
-                    option = verify.isDismissibleContentDismissed;
+                    tangon = oscard.bind(golfie)(tangon);
+                    report = report != tangon;
+                    verify = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    oscard = 9;
+                    oscard = tangon[oscard];
+                    option = verify.bind(entity)(oscard);
+                    golfie = option.UNSAFE_isDismissibleContentDismissed;
                     oscard = 10;
-                    report = report[oscard];
-                    report = offset.bind(entity)(report);
-                    report = report.DismissibleContent;
-                    report = report.HUB_BACK_TO_SCHOOL_UPSELL;
-                    report = option.bind(verify)(report);
-                    report = !report;
+                    tangon = tangon[oscard];
+                    tangon = verify.bind(entity)(tangon);
+                    tangon = tangon.DismissibleContent;
+                    tangon = tangon.HUB_BACK_TO_SCHOOL_UPSELL;
+                    tangon = golfie.bind(option)(tangon);
+                    tangon = !tangon;
                     if(michal) { _fun00004_ip = 252; continue _fun00003 }
  241:
-                    option = _closure2_slot0;
-                    michal = option.bind(entity)();
+                    golfie = _closure2_slot0;
+                    michal = golfie.bind(entity)();
  252:
                     if(michal) { _fun00004_ip = 258; continue _fun00003 }
  255:
-                    michal = golfie;
+                    michal = report;
  258:
                     if(michal) { _fun00004_ip = 264; continue _fun00003 }
  261:
-                    michal = !report;
+                    michal = !tangon;
  264:
                     michal = !michal;
                     if(!michal) { _fun00004_ip = 300; continue _fun00003 }
  270:
-                    golfie = _closure1_slot0;
-                    option = _closure1_slot2;
-                    report = 11;
-                    report = option[report];
-                    golfie = golfie.bind(entity)(report);
-                    report = golfie.backToSchoolEnabled;
-                    michal = report.bind(golfie)();
- 300:
-                    if(!michal) { _fun00004_ip = 402; continue _fun00003 }
- 303:
-                    golfie = _closure1_slot1;
-                    michal = _closure1_slot2;
-                    report = 11;
-                    report = michal[report];
-                    option = golfie.bind(entity)(report);
-                    golfie = option.trackExposure;
-                    report = {};
-                    verify = '8b792a_1';
-                    report['location'] = verify;
-                    report = golfie.bind(option)(report);
-                    report = _closure2_slot1;
-                    report = report.bind(entity)();
                     report = _closure1_slot0;
+                    golfie = _closure1_slot2;
+                    tangon = 11;
+                    tangon = golfie[tangon];
+                    report = report.bind(entity)(tangon);
+                    tangon = report.backToSchoolEnabled;
+                    michal = tangon.bind(report)();
+ 300:
+                    if(!michal) { _fun00004_ip = 405; continue _fun00003 }
+ 303:
+                    report = _closure1_slot1;
+                    michal = _closure1_slot2;
+                    tangon = 11;
+                    tangon = michal[tangon];
+                    golfie = report.bind(entity)(tangon);
+                    report = golfie.trackExposure;
+                    tangon = {};
+                    option = '8b792a_1';
+                    tangon['location'] = option;
+                    tangon = report.bind(golfie)(tangon);
+                    tangon = _closure2_slot1;
+                    tangon = tangon.bind(entity)();
+                    report = _closure1_slot0;
+                    zuuluu = 12;
                     zuuluu = michal[zuuluu];
                     tangon = report.bind(entity)(zuuluu);
                     zuuluu = tangon.requestMarkDismissibleContentAsShown;
@@ -173,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = michal.DismissibleContent;
                     michal = michal.HUB_BACK_TO_SCHOOL_UPSELL;
                     michal = zuuluu.bind(tangon)(michal);
- 402:
+ 405:
                     return entity;
                 }
             };
@@ -190,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = golfie[entity];
         entity = undefined;
         report = zuuluu.bind(entity)(michal);
-        tangon = report.markDismissibleContentAsDismissed;
+        tangon = report.UNSAFE_markDismissibleContentAsDismissed;
         michal = 10;
         michal = golfie[michal];
         michal = zuuluu.bind(entity)(michal);
@@ -204,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['hideHubUpsell'] = tangon;
-    tangon = 12;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

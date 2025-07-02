@@ -360,11 +360,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = option.bind(zuuluu)(entity);
                 michal = entity.HeaderActionButton;
                 entity = {};
-                oscard = _closure1_slot1;
                 report = 20;
                 report = verify[report];
-                report = oscard.bind(zuuluu)(report);
-                entity['source'] = report;
+                report = option.bind(zuuluu)(report);
+                report = report.MagnifyingGlassIcon;
+                entity['IconComponent'] = report;
                 report = function() { // Original name: onPress
                     tangon = _closure2_slot4;
                     zuuluu = tangon.push;
