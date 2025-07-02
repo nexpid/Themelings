@@ -1475,16 +1475,6 @@
         "width": 258,
         "height": 235
     },
-    "checked": {
-        "file": "modules/directory_channels/native/images/checked.png",
-        "hash": "d32e287d9dcb4731cb935a4758ced8fd",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "CheckmarkLargeBoldIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/CheckmarkLargeBoldIcon.png",
         "hash": "c4359387c98e60b3198a64dd3ce907f4",
@@ -2530,16 +2520,6 @@
     "DoubleCheckmarkIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/DoubleCheckmarkIcon.png",
         "hash": "071892191446bc61a526af305b2bc356",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "down_arrow": {
-        "file": "modules/directory_channels/native/images/down_arrow.png",
-        "hash": "a0f3644f68fd05225c82decd1816d2c4",
         "scales": [
             2,
             3
@@ -3946,16 +3926,6 @@
         "width": 70,
         "height": 47
     },
-    "hub_events": {
-        "file": "modules/hub/native/images/hub_events.png",
-        "hash": "a2f6ba036de77a08e98a952a2a1640a9",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 20,
-        "height": 20
-    },
     "hub_events_upsell": {
         "file": "modules/guild_scheduled_events/native/images/hub_events_upsell.png",
         "hash": "4e13c76bdae1f417a3694a9f74a770c0",
@@ -3975,26 +3945,6 @@
         "width": 375,
         "height": 300
     },
-    "hub-add": {
-        "file": "modules/hub/native/images/hub-add.png",
-        "hash": "786db3cf84e06e64a9c629c321256acf",
-        "scales": [
-            1,
-            2
-        ],
-        "width": 72,
-        "height": 72
-    },
-    "hub-discovery": {
-        "file": "modules/hub/native/images/hub-discovery.png",
-        "hash": "b8a1ee8f067bea2e44f3c66f3cd51ea7",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "hub-header": {
         "file": "modules/hub/native/images/hub-header.png",
         "hash": "42c68794718ccb3cc57c33bf57ed6d23",
@@ -4008,16 +3958,6 @@
     "hub-icon": {
         "file": "modules/hub/native/images/hub-icon.png",
         "hash": "de9381483b96d23e35c5ec062950bf4c",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "hub-invite": {
-        "file": "modules/hub/native/images/hub-invite.png",
-        "hash": "fca417c08d96c305ac8c371c42d2d55d",
         "scales": [
             2,
             3
@@ -11305,16 +11245,6 @@
         "width": 84.5,
         "height": 90.5
     },
-    "more_horizontal": {
-        "file": "modules/directory_channels/native/images/more_horizontal.png",
-        "hash": "8bfba9895f3ef472e4d41c4416f3299e",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "MoreHorizontalIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/MoreHorizontalIcon.png",
         "hash": "7c1a49338ff6eef66022d2b7b1eba348",
@@ -11364,6 +11294,24 @@
         ],
         "width": 24,
         "height": 24
+    },
+    "nameplate_avatar_placeholder_dark_mode": {
+        "file": "images/nameplate_avatar_placeholder_dark_mode.png",
+        "hash": "dd1fce0fb6695abbba4a340bc5cd823e",
+        "scales": [
+            1
+        ],
+        "width": 128,
+        "height": 128
+    },
+    "nameplate_avatar_placeholder_light_mode": {
+        "file": "images/nameplate_avatar_placeholder_light_mode.png",
+        "hash": "d82ee9ebaba96d70f18b4f52bd66277a",
+        "scales": [
+            1
+        ],
+        "width": 128,
+        "height": 128
     },
     "NatureIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/NatureIcon.png",
@@ -11793,16 +11741,6 @@
     "PauseIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/PauseIcon.png",
         "hash": "79dcddfb5cf7e96d506c167e6d0110f4",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "pencil": {
-        "file": "modules/directory_channels/native/images/pencil.png",
-        "hash": "eda2f7f843135c48a72b75bf505c607d",
         "scales": [
             2,
             3
@@ -12604,16 +12542,6 @@
         ],
         "width": 16,
         "height": 16
-    },
-    "search": {
-        "file": "modules/hub/native/images/search.png",
-        "hash": "177e027c49aef54101f627b7e13847cf",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
     },
     "search_empty_state": {
         "file": "modules/hub/native/images/search_empty_state.png",
@@ -13804,16 +13732,6 @@
     "TranscriptOutlineIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/TranscriptOutlineIcon.png",
         "hash": "65b9279e2234b52697bfc4c10f371986",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
-    "trash": {
-        "file": "modules/directory_channels/native/images/trash.png",
-        "hash": "6e6eeba003f9d153cc81ea247f5b4914",
         "scales": [
             2,
             3
