@@ -65,29 +65,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = null;
             entity = zuuluu == verify;
             oscard = undefined;
-            if(entity) { _fun00002_ip = 138; continue _fun00001 }
+            if(entity) { _fun00002_ip = 143; continue _fun00001 }
  117:
-            offset = verify.hasFeature;
+            yankee = verify.features;
+            offset = yankee.has;
             entity = _closure1_slot3;
             entity = entity.ROLE_SUBSCRIPTIONS_ENABLED;
-            oscard = offset.bind(verify)(entity);
- 138:
+            oscard = offset.bind(yankee)(entity);
+ 143:
             entity = true;
             entity = entity === oscard;
-            if(!entity) { _fun00002_ip = 183; continue _fun00001 }
- 147:
+            if(!entity) { _fun00002_ip = 193; continue _fun00001 }
+ 152:
             zuuluu = zuuluu == verify;
             oscard = undefined;
-            if(zuuluu) { _fun00002_ip = 177; continue _fun00001 }
- 156:
-            offset = verify.hasFeature;
+            if(zuuluu) { _fun00002_ip = 187; continue _fun00001 }
+ 161:
+            yankee = verify.features;
+            offset = yankee.has;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.ROLE_SUBSCRIPTIONS_AVAILABLE_FOR_PURCHASE;
-            oscard = offset.bind(verify)(zuuluu);
- 177:
+            oscard = offset.bind(yankee)(zuuluu);
+ 187:
             zuuluu = false;
             entity = zuuluu === oscard;
- 183:
+ 193:
             oscard = _closure1_slot0;
             offset = _closure1_slot1;
             zuuluu = 4;
@@ -96,16 +98,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.canManageGuildRoleSubscriptions;
             zuuluu = zuuluu.bind(oscard)(verify);
             oscard = entity;
-            if(!entity) { _fun00002_ip = 223; continue _fun00001 }
- 220:
+            if(!entity) { _fun00002_ip = 233; continue _fun00001 }
+ 230:
             oscard = tangon;
- 223:
-            if(!oscard) { _fun00002_ip = 229; continue _fun00001 }
- 226:
+ 233:
+            if(!oscard) { _fun00002_ip = 239; continue _fun00001 }
+ 236:
             oscard = zuuluu;
- 229:
-            if(!oscard) { _fun00002_ip = 285; continue _fun00001 }
- 232:
+ 239:
+            if(!oscard) { _fun00002_ip = 295; continue _fun00001 }
+ 242:
             oscard = _closure1_slot0;
             verify = _closure1_slot1;
             report = 5;
@@ -118,19 +120,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = 'ca30d9_1';
             report['location'] = option;
             report = oscard.bind(golfie)(report);
- 285:
-            if(!entity) { _fun00002_ip = 291; continue _fun00001 }
- 288:
+ 295:
+            if(!entity) { _fun00002_ip = 301; continue _fun00001 }
+ 298:
             entity = tangon;
- 291:
-            if(!entity) { _fun00002_ip = 297; continue _fun00001 }
- 294:
+ 301:
+            if(!entity) { _fun00002_ip = 307; continue _fun00001 }
+ 304:
             entity = zuuluu;
- 297:
-            if(!entity) { _fun00002_ip = 303; continue _fun00001 }
- 300:
+ 307:
+            if(!entity) { _fun00002_ip = 313; continue _fun00001 }
+ 310:
             entity = michal;
- 303:
+ 313:
             return entity;
         }
     };

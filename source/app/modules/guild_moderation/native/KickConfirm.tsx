@@ -196,8 +196,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            status = romeon.bind(foxtra)(yankee, verify);
-            var _closure2_slot3 = status;
+            target = romeon.bind(foxtra)(yankee, verify);
+            var _closure2_slot3 = target;
             michal = option[michal];
             verify = zuuluu.bind(report)(michal);
             option = verify.useStateFromStores;
@@ -233,7 +233,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot6 = michal;
             zuuluu = tangon.useCallback;
             michal = new Array(3);
-            michal[0] = status;
+            michal[0] = target;
             michal[1] = entity;
             michal[2] = update;
             entity = function() {
@@ -247,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot4;
                     michal = golfie != zuuluu;
  24:
-                    if(!michal) { _fun00004_ip = 176; continue _fun00003 }
+                    if(!michal) { _fun00004_ip = 178; continue _fun00003 }
  30:
                     tangon = _closure2_slot6;
                     zuuluu = undefined;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     entity = michal.bind(zuuluu)(entity);
- 176:
+ 178:
                     entity = undefined;
                     return entity;
                 }
@@ -298,12 +298,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = zuuluu.bind(tangon)(entity, michal);
             michal = offset != update;
             entity = null;
-            if(!michal) { _fun00002_ip = 1326; continue _fun00001 }
- 373:
-            michal = offset != status;
+            if(!michal) { _fun00002_ip = 1332; continue _fun00001 }
+ 381:
+            michal = offset != target;
             entity = null;
-            if(!michal) { _fun00002_ip = 1326; continue _fun00001 }
- 385:
+            if(!michal) { _fun00002_ip = 1332; continue _fun00001 }
+ 393:
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot7;
             michal = {};
@@ -361,23 +361,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = record.bind(report)(source);
             source = source.t;
             sierra = source.1Ie87u;
-            target = {};
+            status = {};
             source = 15;
             equals = vacuum[source];
             quebec = sequen.bind(report)(equals);
             equals = quebec.getName;
             equals = equals.bind(quebec)(update);
-            target['user'] = equals;
-            target = limora.bind(whisks)(sierra, target);
-            output['children'] = target;
+            status['user'] = equals;
+            status = limora.bind(whisks)(sierra, status);
+            output['children'] = status;
             output = tangon.bind(report)(papara, output);
             foxtra[1] = output;
             output = vacuum[yankee];
             output = record.bind(report)(output);
             papara = output.Text;
             output = {'variant': 'text-lg/bold', 'color': 'info-warning-text'};
-            target = status.toString;
-            target = target.bind(status)();
+            target = target.name;
             output['children'] = target;
             output = tangon.bind(report)(papara, output);
             foxtra[2] = output;
@@ -478,8 +477,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[3] = foxtra;
             romeon = romeon.kickError;
             offset = null;
-            if(!romeon) { _fun00002_ip = 1302; continue _fun00001 }
- 1163:
+            if(!romeon) { _fun00002_ip = 1308; continue _fun00001 }
+ 1169:
             foxtra = _closure1_slot10;
             kiloes = _closure1_slot0;
             result = _closure1_slot2;
@@ -507,13 +506,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(output)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 1302:
+ 1308:
             verify[4] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1326:
+ 1332:
             return entity;
         }
     };

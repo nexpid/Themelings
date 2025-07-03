@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -151,7 +151,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = _closure1_slot9;
                     michal = _closure1_slot8;
                     michal = michal.NotResolved;
-                    if(!(zuuluu === michal)) { _fun00006_ip = 86; continue _fun00005 }
+                    if(!(zuuluu === michal)) { _fun00006_ip = 84; continue _fun00005 }
  21:
                     michal = _closure1_slot8;
                     michal = michal.Resolving;
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     entity = michal.bind(zuuluu)(entity);
- 86:
+ 84:
                     entity = undefined;
                     return entity;
                 }
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     var _closure4_slot0 = option;
                     michal = _closure1_slot11;
                     michal = option in michal;
-                    if(michal) { _fun00008_ip = 238; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 236; continue _fun00007 }
  26:
                     tangon = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie['state'] = verify;
                     tangon[option] = golfie;
                     _closure1_slot11 = tangon;
-                    _fun00008_ip = 238; continue _fun00007;
+                    _fun00008_ip = 236; continue _fun00007;
  112:
                     tangon = {};
                     yankee = _closure1_slot11;
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     entity = michal.bind(zuuluu)(entity);
- 238:
+ 236:
                     entity = undefined;
                     return entity;
                 }

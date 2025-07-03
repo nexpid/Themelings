@@ -90,25 +90,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot4;
                 michal = tangon.getGuild;
                 entity = _closure2_slot0;
-                report = michal.bind(tangon)(entity);
+                tangon = michal.bind(tangon)(entity);
                 entity = null;
-                entity = entity != report;
-                if(!entity) { _fun00002_ip = 84; continue _fun00001 }
+                entity = entity != tangon;
+                if(!entity) { _fun00002_ip = 94; continue _fun00001 }
  33:
-                tangon = report.hasFeature;
+                oscard = tangon.features;
+                report = oscard.has;
                 michal = _closure1_slot7;
                 michal = michal.MEMBER_VERIFICATION_GATE_ENABLED;
-                michal = tangon.bind(report)(michal);
-                if(!michal) { _fun00002_ip = 81; continue _fun00001 }
- 57:
-                tangon = report.hasFeature;
+                michal = report.bind(oscard)(michal);
+                if(!michal) { _fun00002_ip = 91; continue _fun00001 }
+ 62:
+                report = tangon.features;
+                tangon = report.has;
                 zuuluu = _closure1_slot7;
                 zuuluu = zuuluu.MEMBER_VERIFICATION_MANUAL_APPROVAL;
                 zuuluu = tangon.bind(report)(zuuluu);
                 michal = !zuuluu;
- 81:
+ 91:
                 entity = michal;
- 84:
+ 94:
                 return entity;
             }
         };

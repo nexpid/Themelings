@@ -157,10 +157,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             sizing = entity == foxtra;
             zuuluu = undefined;
-            if(sizing) { _fun00002_ip = 327; continue _fun00001 }
- 322:
+            if(sizing) { _fun00002_ip = 323; continue _fun00001 }
+ 318:
             zuuluu = foxtra.name;
- 327:
+ 323:
             tangon[2] = zuuluu;
             zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -266,8 +266,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(oscard)(zuuluu, michal);
             michal = entity == foxtra;
             entity = null;
-            if(michal) { _fun00002_ip = 731; continue _fun00001 }
- 416:
+            if(michal) { _fun00002_ip = 717; continue _fun00001 }
+ 406:
             tangon = _closure1_slot10;
             zuuluu = _closure1_slot11;
             michal = {};
@@ -415,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 731:
+ 717:
             return entity;
         }
     };

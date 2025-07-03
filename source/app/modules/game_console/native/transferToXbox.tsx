@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     option = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 403; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 401; continue _fun00001 }
  13:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot3;
@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 400; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 398; continue _fun00001 }
  72:
                     tangon = _closure1_slot2;
                     zuuluu = _closure1_slot3;
@@ -51,7 +51,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return zuuluu;
  106:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 397; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 395; continue _fun00001 }
  115:
                     report = _closure1_slot2;
                     tangon = _closure1_slot3;
@@ -64,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return tangon;
  146:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 394; continue _fun00001 }
+                    if(report) { _fun00002_ip = 392; continue _fun00001 }
  155:
                     verify = _closure1_slot1;
                     offset = _closure1_slot3;
@@ -84,11 +84,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return report;
  214:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 391; continue _fun00001 }
+                    if(offset) { _fun00002_ip = 389; continue _fun00001 }
  223:
                     backup = _closure1_slot1;
                     romeon = _closure1_slot3;
-                    if(report) { _fun00002_ip = 276; continue _fun00001 }
+                    if(report) { _fun00002_ip = 274; continue _fun00001 }
  234:
                     offset = 8;
                     offset = romeon[offset];
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset['importer'] = output;
                     offset = kiloes.bind(sizing)(offset);
                     return offset;
- 276:
+ 274:
                     offset = 11;
                     offset = romeon[offset];
                     kiloes = backup.bind(oscard)(offset);
@@ -155,15 +155,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.openURL;
                     golfie = golfie.bind(option)(verify);
                     return oscard;
- 391:
+ 389:
                     return report;
- 394:
+ 392:
                     return tangon;
- 397:
+ 395:
                     return zuuluu;
- 400:
+ 398:
                     return michal;
- 403:
+ 401:
                     return entity;
                 }
             };

@@ -30,20 +30,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.bind(report)(zuuluu, entity);
             tangon = entity.application;
             entity = entity.loading;
-            if(entity) { _fun00002_ip = 237; continue _fun00001 }
+            if(entity) { _fun00002_ip = 247; continue _fun00001 }
  97:
-            zuuluu = option.hasFeature;
+            oscard = option.features;
+            zuuluu = oscard.has;
             entity = _closure1_slot4;
             entity = entity.CREATOR_MONETIZABLE;
-            entity = zuuluu.bind(option)(entity);
-            if(entity) { _fun00002_ip = 183; continue _fun00001 }
- 121:
-            zuuluu = option.hasFeature;
+            entity = zuuluu.bind(oscard)(entity);
+            if(entity) { _fun00002_ip = 193; continue _fun00001 }
+ 126:
+            oscard = option.features;
+            zuuluu = oscard.has;
             entity = _closure1_slot4;
             entity = entity.CREATOR_MONETIZABLE_PROVISIONAL;
-            entity = zuuluu.bind(option)(entity);
-            if(entity) { _fun00002_ip = 183; continue _fun00001 }
- 145:
+            entity = zuuluu.bind(oscard)(entity);
+            if(entity) { _fun00002_ip = 193; continue _fun00001 }
+ 155:
             oscard = _closure1_slot7;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -53,26 +55,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['guild'] = option;
             entity = oscard.bind(report)(zuuluu, entity);
-            _fun00002_ip = 235; continue _fun00001;
- 183:
+            _fun00002_ip = 245; continue _fun00001;
+ 193:
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00002_ip = 213; continue _fun00001 }
- 189:
+            if(!(zuuluu != tangon)) { _fun00002_ip = 223; continue _fun00001 }
+ 199:
             oscard = golfie.replace;
             tangon = _closure1_slot5;
             tangon = tangon.ROLE_SUBSCRIPTIONS_TIERS;
             tangon = oscard.bind(golfie)(tangon);
             entity = null;
-            _fun00002_ip = 235; continue _fun00001;
- 213:
+            _fun00002_ip = 245; continue _fun00001;
+ 223:
             oscard = golfie.replace;
             tangon = _closure1_slot5;
             tangon = tangon.ROLE_SUBSCRIPTIONS_ENABLE_MONETIZATION;
             tangon = oscard.bind(golfie)(tangon);
             entity = null;
- 235:
-            _fun00002_ip = 269; continue _fun00001;
- 237:
+ 245:
+            _fun00002_ip = 279; continue _fun00001;
+ 247:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -81,7 +83,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = {};
             entity = tangon.bind(report)(zuuluu, michal);
- 269:
+ 279:
             return entity;
         }
     };

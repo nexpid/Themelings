@@ -152,19 +152,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = null;
             michal = verify == entity;
             ctrled = undefined;
-            if(michal) { _fun00002_ip = 172; continue _fun00001 }
- 166:
+            if(michal) { _fun00002_ip = 170; continue _fun00001 }
+ 164:
             ctrled = entity.openVoice;
- 172:
-            if(!(verify == ctrled)) { _fun00002_ip = 202; continue _fun00001 }
- 176:
+ 170:
+            if(!(verify == ctrled)) { _fun00002_ip = 200; continue _fun00001 }
+ 174:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 9;
             entity = zuuluu[entity];
             entity = michal.bind(tangon)(entity);
             ctrled = entity.noop;
- 202:
+ 200:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 10;
@@ -184,10 +184,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot4;
             entity = {};
             report = 'no-hide-descendants';
-            if(!sequen) { _fun00002_ip = 292; continue _fun00001 }
- 286:
+            if(!sequen) { _fun00002_ip = 290; continue _fun00001 }
+ 284:
             report = 'yes';
- 292:
+ 290:
             entity['importantForAccessibility'] = report;
             report = !sequen;
             entity['accessibilityElementsHidden'] = report;
@@ -214,8 +214,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['guildId'] = update;
             oscard['channelId'] = echoed;
             offset = null;
-            if(result) { _fun00002_ip = 488; continue _fun00001 }
- 410:
+            if(result) { _fun00002_ip = 486; continue _fun00001 }
+ 408:
             romeon = _closure1_slot6;
             yankee = _closure1_slot1;
             config = _closure1_slot2;
@@ -224,23 +224,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(tangon)(verify);
             verify = {};
             sequen = !sequen;
-            if(!sequen) { _fun00002_ip = 444; continue _fun00001 }
- 442:
+            if(!sequen) { _fun00002_ip = 442; continue _fun00001 }
+ 440:
             sequen = undefined;
- 444:
+ 442:
             verify['hidden'] = sequen;
             verify['animated'] = source;
-            if(kiloes) { _fun00002_ip = 471; continue _fun00001 }
- 457:
+            if(kiloes) { _fun00002_ip = 469; continue _fun00001 }
+ 455:
             kiloes = 'dark-content';
             source = 'dark';
-            if(!(source === vacuum)) { _fun00002_ip = 477; continue _fun00001 }
- 471:
+            if(!(source === vacuum)) { _fun00002_ip = 475; continue _fun00001 }
+ 469:
             kiloes = 'light-content';
- 477:
+ 475:
             verify['barStyle'] = kiloes;
             offset = romeon.bind(tangon)(yankee, verify);
- 488:
+ 486:
             verify = new Array(5);
             verify[0] = offset;
             romeon = _closure1_slot6;
@@ -252,10 +252,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = {};
             source['height'] = sizing;
             vacuum = undefined;
-            if(!result) { _fun00002_ip = 535; continue _fun00001 }
- 531:
+            if(!result) { _fun00002_ip = 533; continue _fun00001 }
+ 529:
             vacuum = 'none';
- 535:
+ 533:
             source['display'] = vacuum;
             kiloes[1] = source;
             offset['style'] = kiloes;
@@ -269,10 +269,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[0] = source;
             source = {};
             vacuum = undefined;
-            if(!result) { _fun00002_ip = 592; continue _fun00001 }
- 588:
+            if(!result) { _fun00002_ip = 590; continue _fun00001 }
+ 586:
             vacuum = 'none';
- 592:
+ 590:
             source['display'] = vacuum;
             kiloes[1] = source;
             offset['style'] = kiloes;
@@ -301,10 +301,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {};
             kiloes['top'] = sizing;
             sizing = undefined;
-            if(!result) { _fun00002_ip = 713; continue _fun00001 }
- 709:
+            if(!result) { _fun00002_ip = 711; continue _fun00001 }
+ 707:
             sizing = 'none';
- 713:
+ 711:
             kiloes['display'] = sizing;
             foxtra[1] = kiloes;
             offset['style'] = foxtra;

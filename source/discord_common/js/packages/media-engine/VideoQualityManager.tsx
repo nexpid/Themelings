@@ -332,9 +332,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report.bind(zuuluu)();
                 zuuluu['goliveMaxQuality'] = report;
                 zuuluu['goliveSimulcastEnabled'] = tangon;
+                zuuluu['goliveUsePixelCounts'] = tangon;
                 michal = _closure1_slot7;
                 zuuluu['goliveSimulcastLQBitrateMax'] = michal;
                 zuuluu['goliveSimulcastLQBitrateTarget'] = michal;
+                michal = {};
+                zuuluu['lastGoLivePixelCount'] = michal;
                 return entity;
             }
         };
@@ -345,26 +348,64 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = function(argFoo) { // Original name: value
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
+                golfie = argFoo;
                 report = this;
-                zuuluu = report.connection;
-                michal = zuuluu.getLocalWant;
-                entity = argFoo;
-                michal = michal.bind(zuuluu)(entity);
-                entity = report.isStreamContext;
-                if(entity) { _fun00010_ip = 47; continue _fun00009 }
- 34:
-                entity = report.getVideoQuality;
-                zuuluu = entity.bind(report)(michal);
-                _fun00010_ip = 60; continue _fun00009;
- 47:
-                entity = report.getGoliveQuality;
-                zuuluu = entity.bind(report)(michal);
- 60:
-                michal = report.qualityOverwrite;
+                michal = report.connection;
+                entity = michal.getLocalWant;
+                tangon = entity.bind(michal)(golfie);
                 oscard = null;
+                entity = oscard != golfie;
+                option = 0;
+                michal = 0;
+                if(!entity) { _fun00010_ip = 168; continue _fun00009 }
+ 41:
+                zuuluu = report.connection;
+                entity = zuuluu.getRemoteVideoSinkPixelCount;
+                offset = entity.bind(zuuluu)(golfie);
+                entity = report.lastGoLivePixelCount;
+                zuuluu = entity[golfie];
+                entity = offset;
+                if(!(oscard != zuuluu)) { _fun00010_ip = 155; continue _fun00009 }
+ 77:
+                zuuluu = report.lastGoLivePixelCount;
+                zuuluu = zuuluu[golfie];
+                entity = offset;
+                if(!(zuuluu > option)) { _fun00010_ip = 155; continue _fun00009 }
+ 94:
+                zuuluu = report.lastGoLivePixelCount;
+                zuuluu = zuuluu[golfie];
+                verify = offset / zuuluu;
+                option = 1.05;
+                zuuluu = offset;
+                if(!(!(verify > option))) { _fun00010_ip = 152; continue _fun00009 }
+ 125:
+                option = 0.95;
+                zuuluu = offset;
+                if(!(!(verify < option))) { _fun00010_ip = 152; continue _fun00009 }
+ 142:
+                option = report.lastGoLivePixelCount;
+                zuuluu = option[golfie];
+ 152:
                 entity = zuuluu;
-                if(!(oscard != michal)) { _fun00010_ip = 280; continue _fun00009 }
- 78:
+ 155:
+                zuuluu = report.lastGoLivePixelCount;
+                zuuluu[golfie] = entity;
+                michal = entity;
+ 168:
+                entity = report.isStreamContext;
+                if(entity) { _fun00010_ip = 190; continue _fun00009 }
+ 177:
+                entity = report.getVideoQuality;
+                zuuluu = entity.bind(report)(tangon);
+                _fun00010_ip = 204; continue _fun00009;
+ 190:
+                entity = report.getGoliveQuality;
+                zuuluu = entity.bind(report)(tangon, michal);
+ 204:
+                michal = report.qualityOverwrite;
+                entity = zuuluu;
+                if(!(oscard != michal)) { _fun00010_ip = 422; continue _fun00009 }
+ 220:
                 tangon = _closure1_slot12;
                 michal = {};
                 yankee = _closure1_slot13;
@@ -383,24 +424,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal['capture'] = golfie;
                 golfie = report.qualityOverwrite;
                 golfie = golfie.bitrateMin;
-                if(!(oscard == golfie)) { _fun00010_ip = 187; continue _fun00009 }
- 181:
+                if(!(oscard == golfie)) { _fun00010_ip = 329; continue _fun00009 }
+ 323:
                 golfie = zuuluu.bitrateMin;
- 187:
+ 329:
                 michal['bitrateMin'] = golfie;
                 golfie = report.qualityOverwrite;
                 golfie = golfie.bitrateMax;
-                if(!(oscard == golfie)) { _fun00010_ip = 214; continue _fun00009 }
- 208:
+                if(!(oscard == golfie)) { _fun00010_ip = 356; continue _fun00009 }
+ 350:
                 golfie = zuuluu.bitrateMax;
- 214:
+ 356:
                 michal['bitrateMax'] = golfie;
                 report = report.qualityOverwrite;
                 report = report.bitrateTarget;
-                if(!(oscard == report)) { _fun00010_ip = 241; continue _fun00009 }
- 235:
+                if(!(oscard == report)) { _fun00010_ip = 383; continue _fun00009 }
+ 377:
                 report = zuuluu.bitrateTarget;
- 241:
+ 383:
                 michal['bitrateTarget'] = report;
                 zuuluu = zuuluu.localWant;
                 michal['localWant'] = zuuluu;
@@ -410,12 +451,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 foxtra = michal;
                 michal = new backup[tangon](foxtra, romeon);
                 entity = michal instanceof Object ? michal : zuuluu;
- 280:
+ 422:
                 return entity;
             }
         };
         entity['value'] = michal;
-        michal = new Array(11);
+        michal = new Array(12);
         michal[0] = entity;
         entity = {};
         oscard = 'applyQualityConstraints';
@@ -634,6 +675,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['value'] = oscard;
         michal[6] = entity;
         entity = {};
+        oscard = 'setGoLiveUsePixelCounts';
+        entity['key'] = oscard;
+        oscard = function(argFoo) { // Original name: value
+            michal = argFoo;
+            entity = this;
+            entity['goliveUsePixelCounts'] = michal;
+            entity = undefined;
+            return entity;
+        };
+        entity['value'] = oscard;
+        michal[7] = entity;
+        entity = {};
         oscard = 'getVideoQuality';
         entity['key'] = oscard;
         oscard = function(argFoo) { // Original name: value
@@ -709,32 +762,155 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['value'] = oscard;
-        michal[7] = entity;
+        michal[8] = entity;
         entity = {};
         oscard = 'getGoliveQuality';
         entity['key'] = oscard;
-        oscard = function(argFoo) { // Original name: value
+        oscard = function(argFoo, argBar) { // Original name: value
             _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
-                zuuluu = this;
-                entity = zuuluu.goliveSimulcastEnabled;
-                if(!entity) { _fun00020_ip = 22; continue _fun00019 }
- 12:
-                michal = argFoo;
+                zuuluu = argFoo;
+                michal = this;
+                entity = michal.goliveSimulcastEnabled;
+                if(!entity) { _fun00020_ip = 25; continue _fun00019 }
+ 15:
                 entity = 100;
-                if(!(!(michal < entity))) { _fun00020_ip = 30; continue _fun00019 }
- 22:
-                entity = zuuluu.goliveMaxQuality;
-                _fun00020_ip = 42; continue _fun00019;
- 30:
-                michal = zuuluu.getGoliveLQQuality;
-                entity = michal.bind(zuuluu)();
- 42:
+                if(!(!(zuuluu < entity))) { _fun00020_ip = 558; continue _fun00019 }
+ 25:
+                entity = michal.goliveMaxQuality;
+                entity = entity.encode;
+                golfie = null;
+                oscard = golfie == entity;
+                tangon = undefined;
+                if(oscard) { _fun00020_ip = 54; continue _fun00019 }
+ 48:
+                tangon = entity.pixelCount;
+ 54:
+                option = golfie != tangon;
+                entity = 1;
+                oscard = entity;
+                if(!option) { _fun00020_ip = 70; continue _fun00019 }
+ 67:
+                oscard = tangon;
+ 70:
+                tangon = argBar;
+                kiloes = tangon / oscard;
+                if(!(!(kiloes >= entity))) { _fun00020_ip = 550; continue _fun00019 }
+ 84:
+                entity = 0;
+                if(!(!(kiloes <= entity))) { _fun00020_ip = 550; continue _fun00019 }
+ 93:
+                entity = michal.goliveUsePixelCounts;
+                if(!entity) { _fun00020_ip = 550; continue _fun00019 }
+ 105:
+                entity = michal.goliveMaxQuality;
+                entity = entity.bitrateMin;
+                foxtra = entity * kiloes;
+                entity = michal.goliveMaxQuality;
+                entity = entity.bitrateMax;
+                romeon = entity * kiloes;
+                entity = michal.goliveMaxQuality;
+                entity = entity.bitrateTarget;
+                entity = golfie != entity;
+                verify = undefined;
+                if(!entity) { _fun00020_ip = 174; continue _fun00019 }
+ 158:
+                entity = michal.goliveMaxQuality;
+                entity = entity.bitrateTarget;
+                verify = entity * kiloes;
+ 174:
+                entity = michal.goliveMaxQuality;
+                entity = entity.encode;
+                entity = golfie != entity;
+                oscard = undefined;
+                if(!entity) { _fun00020_ip = 382; continue _fun00019 }
+ 198:
+                entity = global;
+                offset = entity.Math;
+                option = offset.ceil;
+                tangon = michal.goliveMaxQuality;
+                tangon = tangon.encode;
+                yankee = tangon.width;
+                backup = entity.Math;
+                tangon = backup.sqrt;
+                tangon = tangon.bind(backup)(kiloes);
+                tangon = yankee * tangon;
+                offset = option.bind(offset)(tangon);
+                option = entity.Math;
+                tangon = option.ceil;
+                yankee = michal.goliveMaxQuality;
+                yankee = yankee.encode;
+                yankee = yankee.height;
+                backup = entity.Math;
+                entity = backup.sqrt;
+                entity = entity.bind(backup)(kiloes);
+                entity = yankee * entity;
+                tangon = tangon.bind(option)(entity);
+                option = _closure1_slot13;
+                entity = {};
+                entity['width'] = offset;
+                entity['height'] = tangon;
+                yankee = michal.goliveMaxQuality;
+                yankee = yankee.encode;
+                yankee = yankee.framerate;
+                entity['framerate'] = yankee;
+                tangon = offset * tangon;
+                entity['pixelCount'] = tangon;
+                tangon = option.prototype;
+                tangon = Object.create(tangon, {constructor: {value: option}});
+                result = tangon;
+                output = entity;
+                entity = new result[option](output, sizing);
+                oscard = entity instanceof Object ? entity : tangon;
+ 382:
+                tangon = _closure1_slot12;
+                entity = {};
+                entity['encode'] = oscard;
+                oscard = michal.goliveMaxQuality;
+                oscard = oscard.capture;
+                entity['capture'] = oscard;
+                oscard = global;
+                yankee = oscard.Math;
+                offset = yankee.max;
+                option = michal.options;
+                option = option.videoBitrateFloor;
+                option = offset.bind(yankee)(foxtra, option);
+                entity['bitrateMin'] = option;
+                yankee = oscard.Math;
+                offset = yankee.max;
+                option = michal.options;
+                option = option.videoBitrateFloor;
+                option = offset.bind(yankee)(romeon, option);
+                entity['bitrateMax'] = option;
+                report = undefined;
+                if(!(golfie != verify)) { _fun00020_ip = 515; continue _fun00019 }
+ 487:
+                option = oscard.Math;
+                golfie = option.max;
+                oscard = michal.options;
+                oscard = oscard.videoBitrateFloor;
+                report = golfie.bind(option)(verify, oscard);
+ 515:
+                entity['bitrateTarget'] = report;
+                entity['localWant'] = zuuluu;
+                zuuluu = tangon.prototype;
+                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
+                result = zuuluu;
+                output = entity;
+                entity = new result[tangon](output, sizing);
+                entity = entity instanceof Object ? entity : zuuluu;
+                return entity;
+ 550:
+                entity = michal.goliveMaxQuality;
+                return entity;
+ 558:
+                entity = michal.getGoliveLQQuality;
+                entity = entity.bind(michal)();
                 return entity;
             }
         };
         entity['value'] = oscard;
-        michal[8] = entity;
+        michal[9] = entity;
         entity = {};
         oscard = 'getDefaultGoliveQuality';
         entity['key'] = oscard;
@@ -770,7 +946,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         entity['value'] = oscard;
-        michal[9] = entity;
+        michal[10] = entity;
         entity = {};
         oscard = 'getGoliveLQQuality';
         entity['key'] = oscard;
@@ -906,7 +1082,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         entity['value'] = report;
-        michal[10] = entity;
+        michal[11] = entity;
         entity = undefined;
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;

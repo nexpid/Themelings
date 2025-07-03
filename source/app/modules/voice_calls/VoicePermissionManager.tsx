@@ -110,19 +110,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             zuuluu = entity == tangon;
             entity = undefined;
-            if(zuuluu) { _fun00008_ip = 43; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 41; continue _fun00007 }
  31:
             zuuluu = tangon.isListenModeCapable;
             entity = zuuluu.bind(tangon)();
- 43:
+ 41:
             entity = !entity;
-            if(entity) { _fun00008_ip = 68; continue _fun00007 }
- 49:
+            if(entity) { _fun00008_ip = 66; continue _fun00007 }
+ 47:
             tangon = _closure1_slot8;
             zuuluu = tangon.isSpeaker;
             michal = argFoo;
             entity = zuuluu.bind(tangon)(michal, report);
- 68:
+ 66:
             return entity;
         }
     };

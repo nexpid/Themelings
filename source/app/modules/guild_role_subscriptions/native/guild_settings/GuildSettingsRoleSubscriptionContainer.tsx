@@ -36,22 +36,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             zuuluu = entity == option;
             tangon = undefined;
-            if(zuuluu) { _fun00002_ip = 109; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 114; continue _fun00001 }
  88:
-            oscard = option.hasFeature;
+            verify = option.features;
+            oscard = verify.has;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.CREATOR_MONETIZABLE_RESTRICTED;
-            tangon = oscard.bind(option)(zuuluu);
- 109:
+            tangon = oscard.bind(verify)(zuuluu);
+ 114:
             zuuluu = entity == option;
             oscard = undefined;
-            if(zuuluu) { _fun00002_ip = 139; continue _fun00001 }
- 118:
-            verify = option.hasFeature;
+            if(zuuluu) { _fun00002_ip = 149; continue _fun00001 }
+ 123:
+            offset = option.features;
+            verify = offset.has;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.CREATOR_MONETIZABLE_PENDING_NEW_OWNER_ONBOARDING;
-            oscard = verify.bind(option)(zuuluu);
- 139:
+            oscard = verify.bind(offset)(zuuluu);
+ 149:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             zuuluu = 7;
@@ -64,20 +66,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.resubmittedRequest;
             verify = option.requestRejectedNoticeText;
             foxtra = option.reapplyNoticeText;
-            if(!(entity == offset)) { _fun00002_ip = 671; continue _fun00001 }
- 207:
-            if(!(entity == verify)) { _fun00002_ip = 632; continue _fun00001 }
- 214:
-            if(zuuluu) { _fun00002_ip = 540; continue _fun00001 }
- 220:
-            if(!(entity == foxtra)) { _fun00002_ip = 432; continue _fun00001 }
- 227:
+            if(!(entity == offset)) { _fun00002_ip = 681; continue _fun00001 }
+ 217:
+            if(!(entity == verify)) { _fun00002_ip = 642; continue _fun00001 }
+ 224:
+            if(zuuluu) { _fun00002_ip = 550; continue _fun00001 }
+ 230:
+            if(!(entity == foxtra)) { _fun00002_ip = 442; continue _fun00001 }
+ 237:
             zuuluu = true;
-            if(!(zuuluu !== oscard)) { _fun00002_ip = 337; continue _fun00001 }
- 233:
+            if(!(zuuluu !== oscard)) { _fun00002_ip = 347; continue _fun00001 }
+ 243:
             oscard = null;
-            if(!(zuuluu === tangon)) { _fun00002_ip = 717; continue _fun00001 }
- 242:
+            if(!(zuuluu === tangon)) { _fun00002_ip = 727; continue _fun00001 }
+ 252:
             option = _closure1_slot7;
             tangon = _closure1_slot1;
             result = _closure1_slot2;
@@ -98,8 +100,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.bind(sizing)(backup);
             zuuluu['notice'] = backup;
             oscard = option.bind(report)(tangon, zuuluu);
-            _fun00002_ip = 717; continue _fun00001;
- 337:
+            _fun00002_ip = 727; continue _fun00001;
+ 347:
             option = _closure1_slot7;
             tangon = _closure1_slot1;
             result = _closure1_slot2;
@@ -120,8 +122,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.bind(sizing)(backup);
             zuuluu['notice'] = backup;
             oscard = option.bind(report)(tangon, zuuluu);
-            _fun00002_ip = 717; continue _fun00001;
- 432:
+            _fun00002_ip = 727; continue _fun00001;
+ 442:
             option = _closure1_slot7;
             tangon = _closure1_slot1;
             output = _closure1_slot2;
@@ -145,8 +147,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['onClick'] = romeon;
             zuuluu['submitting'] = yankee;
             oscard = option.bind(report)(tangon, zuuluu);
-            _fun00002_ip = 717; continue _fun00001;
- 540:
+            _fun00002_ip = 727; continue _fun00001;
+ 550:
             option = _closure1_slot7;
             tangon = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -167,8 +169,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = romeon.bind(foxtra)(yankee);
             zuuluu['notice'] = yankee;
             oscard = option.bind(report)(tangon, zuuluu);
-            _fun00002_ip = 717; continue _fun00001;
- 632:
+            _fun00002_ip = 727; continue _fun00001;
+ 642:
             option = _closure1_slot7;
             tangon = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -178,8 +180,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             zuuluu['notice'] = verify;
             oscard = option.bind(report)(tangon, zuuluu);
-            _fun00002_ip = 717; continue _fun00001;
- 671:
+            _fun00002_ip = 727; continue _fun00001;
+ 681:
             option = _closure1_slot7;
             tangon = _closure1_slot1;
             verify = _closure1_slot2;
@@ -191,11 +193,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(offset)();
             zuuluu['children'] = verify;
             oscard = option.bind(report)(tangon, zuuluu);
- 717:
+ 727:
             zuuluu = entity != oscard;
             entity = null;
-            if(!zuuluu) { _fun00002_ip = 756; continue _fun00001 }
- 726:
+            if(!zuuluu) { _fun00002_ip = 766; continue _fun00001 }
+ 736:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot4;
             michal = {};
@@ -203,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['style'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 756:
+ 766:
             return entity;
         }
     };

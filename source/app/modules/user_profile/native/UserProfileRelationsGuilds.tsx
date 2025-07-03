@@ -149,8 +149,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.onSelectMutualGuild;
             var _closure2_slot0 = michal;
             romeon = entity.user;
-            golfie = yankee.guild;
-            var _closure2_slot1 = golfie;
+            oscard = yankee.guild;
+            var _closure2_slot1 = oscard;
             tangon = _closure1_slot8;
             michal = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -162,17 +162,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             offset = _closure1_slot8;
             verify = _closure1_slot1;
-            oscard = 10;
-            oscard = foxtra[oscard];
-            verify = verify.bind(zuuluu)(oscard);
-            oscard = {};
-            oscard['guild'] = golfie;
-            oscard = offset.bind(zuuluu)(verify, oscard);
-            entity['leading'] = oscard;
-            oscard = null;
-            if(!(oscard == romeon)) { _fun00004_ip = 122; continue _fun00003 }
+            golfie = 10;
+            golfie = foxtra[golfie];
+            verify = verify.bind(zuuluu)(golfie);
+            golfie = {};
+            golfie['guild'] = oscard;
+            golfie = offset.bind(zuuluu)(verify, golfie);
+            entity['leading'] = golfie;
+            golfie = null;
+            if(!(golfie == romeon)) { _fun00004_ip = 122; continue _fun00003 }
  114:
-            oscard = yankee.nick;
+            golfie = yankee.nick;
             _fun00004_ip = 146; continue _fun00003;
  122:
             offset = _closure1_slot8;
@@ -180,11 +180,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             option['user'] = romeon;
             option['item'] = yankee;
-            oscard = offset.bind(zuuluu)(verify, option);
+            golfie = offset.bind(zuuluu)(verify, option);
  146:
-            entity['subLabel'] = oscard;
-            oscard = golfie.toString;
-            oscard = oscard.bind(golfie)();
+            entity['subLabel'] = golfie;
+            oscard = oscard.name;
             entity['label'] = oscard;
             report = function() { // Original name: onPress
                 zuuluu = _closure1_slot0;

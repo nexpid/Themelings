@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00012_ip = 257; continue _fun00011 }
+                    if(michal) { _fun00012_ip = 253; continue _fun00011 }
  10:
                     oscard = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -495,13 +495,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = offset.bind(yankee)(verify);
                     tangon['url'] = verify;
                     tangon = golfie.bind(option)(tangon);
-                    SaveGenerator(address=147);
- 145:
+                    SaveGenerator(address=143);
+ 141:
                     return tangon;
- 147:
+ 143:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00012_ip = 202; continue _fun00011 }
- 153:
+                    if(golfie) { _fun00012_ip = 198; continue _fun00011 }
+ 149:
                     option = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[report];
@@ -513,11 +513,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = _closure2_slot0;
                     golfie['code'] = offset;
                     golfie = option.bind(verify)(golfie);
- 200: // try_end0
-                    _fun00012_ip = 254; continue _fun00011;
- 202:
+ 196: // try_end0
+                    _fun00012_ip = 250; continue _fun00011;
+ 198:
                     return tangon;
- 205: // catch_target0
+ 201: // catch_target0
                     CatchBlockStart(arg_register=3);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -530,9 +530,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = _closure2_slot0;
                     zuuluu['code'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 254:
+ 250:
                     return michal;
- 257:
+ 253:
                     return entity;
                 }
             };

@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 michal = !michal;
                 var _closure2_slot0 = michal;
- 70: // try_end0
-                _fun00004_ip = 74; continue _fun00003;
- 72: // catch_target0
+ 72: // try_end0
+                _fun00004_ip = 76; continue _fun00003;
+ 74: // catch_target0
                 CatchBlockStart(arg_register=1);
- 74:
+ 76:
                 michal = function() { // Original name: _isNativeReflectConstruct
                     entity = _closure2_slot0;
                     entity = !entity;
@@ -166,8 +166,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = tangon.cachedIsEnabled;
         tangon = michal.bind(tangon)();
         michal = undefined;
-        if(tangon) { _fun00002_ip = 351; continue _fun00001 }
- 302:
+        if(tangon) { _fun00002_ip = 363; continue _fun00001 }
+ 306:
         tangon = {};
         verify = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
             michal = argBar;
@@ -210,7 +210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         tangon['USER_NOTE_LOAD_START'] = option;
         michal = tangon;
- 351:
+ 363:
         tangon = golfie.prototype;
         tangon = Object.create(tangon, {constructor: {value: golfie}});
         sizing = tangon;

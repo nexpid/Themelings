@@ -98,22 +98,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot9;
                 michal = tangon.getGuild;
                 entity = _closure2_slot0;
-                report = michal.bind(tangon)(entity);
+                tangon = michal.bind(tangon)(entity);
                 entity = null;
-                tangon = entity == report;
+                report = entity == tangon;
                 michal = undefined;
-                if(tangon) { _fun00002_ip = 56; continue _fun00001 }
+                if(report) { _fun00002_ip = 61; continue _fun00001 }
  35:
-                tangon = report.hasFeature;
+                report = tangon.features;
+                tangon = report.has;
                 zuuluu = _closure1_slot12;
                 zuuluu = zuuluu.MEMBER_VERIFICATION_MANUAL_APPROVAL;
                 michal = tangon.bind(report)(zuuluu);
- 56:
+ 61:
                 entity = entity != michal;
-                if(!entity) { _fun00002_ip = 66; continue _fun00001 }
- 63:
+                if(!entity) { _fun00002_ip = 71; continue _fun00001 }
+ 68:
                 entity = michal;
- 66:
+ 71:
                 return entity;
             }
         };
@@ -199,15 +200,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot9;
                 zuuluu = tangon.getGuild;
                 michal = _closure2_slot0;
-                golfie = zuuluu.bind(tangon)(michal);
+                oscard = zuuluu.bind(tangon)(michal);
                 zuuluu = null;
-                if(!(zuuluu != golfie)) { _fun00006_ip = 59; continue _fun00005 }
+                if(!(zuuluu != oscard)) { _fun00006_ip = 59; continue _fun00005 }
  30:
-                oscard = _closure1_slot10;
-                tangon = oscard.can;
+                golfie = _closure1_slot10;
+                tangon = golfie.can;
                 michal = _closure1_slot13;
                 michal = michal.MANAGE_GUILD;
-                michal = tangon.bind(oscard)(michal, golfie);
+                michal = tangon.bind(golfie)(michal, oscard);
                 if(michal) { _fun00006_ip = 63; continue _fun00005 }
  59:
                 michal = false;
@@ -217,31 +218,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.getGuildIncident;
                 entity = _closure2_slot0;
                 tangon = michal.bind(tangon)(entity);
-                oscard = zuuluu == golfie;
+                golfie = zuuluu == oscard;
                 entity = undefined;
-                if(oscard) { _fun00006_ip = 127; continue _fun00005 }
+                if(golfie) { _fun00006_ip = 137; continue _fun00005 }
  91:
-                oscard = golfie.hasFeature;
-                oscard = zuuluu == oscard;
+                golfie = oscard.features;
+                golfie = golfie.has;
+                golfie = zuuluu == golfie;
                 entity = undefined;
-                if(oscard) { _fun00006_ip = 127; continue _fun00005 }
- 106:
-                oscard = golfie.hasFeature;
+                if(golfie) { _fun00006_ip = 137; continue _fun00005 }
+ 111:
+                golfie = oscard.features;
+                oscard = golfie.has;
                 report = _closure1_slot12;
                 report = report.INVITES_DISABLED;
                 entity = oscard.bind(golfie)(report);
- 127:
-                if(entity) { _fun00006_ip = 219; continue _fun00005 }
- 130:
+ 137:
+                if(entity) { _fun00006_ip = 229; continue _fun00005 }
+ 140:
                 report = zuuluu == tangon;
                 michal = undefined;
-                if(report) { _fun00006_ip = 145; continue _fun00005 }
- 139:
+                if(report) { _fun00006_ip = 155; continue _fun00005 }
+ 149:
                 michal = tangon.invitesDisabledUntil;
- 145:
+ 155:
                 michal = zuuluu != michal;
-                if(!michal) { _fun00006_ip = 216; continue _fun00005 }
- 152:
+                if(!michal) { _fun00006_ip = 226; continue _fun00005 }
+ 162:
                 zuuluu = global;
                 oscard = zuuluu.Date;
                 verify = tangon.invitesDisabledUntil;
@@ -257,9 +260,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = new offset[zuuluu](verify);
                 zuuluu = zuuluu instanceof Object ? zuuluu : report;
                 michal = tangon > zuuluu;
- 216:
+ 226:
                 entity = michal;
- 219:
+ 229:
                 return entity;
             }
         };

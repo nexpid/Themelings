@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 251; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 247; continue _fun00001 }
  10:
                     verify = argFoo;
                     oscard = _closure1_slot1;
@@ -63,13 +63,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = offset.bind(yankee)(option);
                     tangon['url'] = option;
                     tangon = oscard.bind(golfie)(tangon);
-                    SaveGenerator(address=137);
- 135:
+                    SaveGenerator(address=133);
+ 131:
                     return tangon;
- 137:
+ 133:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00002_ip = 204; continue _fun00001 }
- 143:
+                    if(oscard) { _fun00002_ip = 200; continue _fun00001 }
+ 139:
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
                     oscard = oscard[report];
@@ -83,11 +83,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard['welcomeScreen'] = verify;
                     oscard = golfie.bind(option)(oscard);
                     oscard = tangon.body;
- 201: // try_end0
+ 197: // try_end0
                     return oscard;
- 204:
+ 200:
                     return tangon;
- 207: // catch_target0
+ 203: // catch_target0
                     CatchBlockStart(arg_register=3);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -99,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['type'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
                     return michal;
- 251:
+ 247:
                     return entity;
                 }
             };

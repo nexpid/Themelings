@@ -965,8 +965,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = 1;
             zuuluu = tangon[zuuluu];
             var _closure2_slot16 = zuuluu;
-            if(!(entity !== romeon)) { _fun00008_ip = 1165; continue _fun00007 }
- 927:
+            if(!(entity !== romeon)) { _fun00008_ip = 1187; continue _fun00007 }
+ 947:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot6;
             entity = {'ref': null, 'style': null, 'contentOffset': null, 'keyboardShouldPersistTaps': 'handled', 'showsHorizontalScrollIndicator': false, 'pagingEnabled': true};
@@ -997,10 +997,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.isIOS;
             offset = option.bind(offset)();
             option = undefined;
-            if(!offset) { _fun00008_ip = 1077; continue _fun00007 }
- 1074:
+            if(!offset) { _fun00008_ip = 1097; continue _fun00007 }
+ 1094:
             option = 32;
- 1077:
+ 1097:
             entity['scrollEventThrottle'] = option;
             option = verify.map;
             oscard = function(argFoo, argBar) {
@@ -1028,8 +1028,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(zuuluu, entity);
             zuuluu = null;
             entity = oscard;
-            if(!(zuuluu != golfie)) { _fun00008_ip = 1163; continue _fun00007 }
- 1116:
+            if(!(zuuluu != golfie)) { _fun00008_ip = 1185; continue _fun00007 }
+ 1138:
             tangon = _closure1_slot5;
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -1041,9 +1041,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['gesture'] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1163:
+ 1185:
             return entity;
- 1165:
+ 1187:
             entity = null;
             return entity;
         }

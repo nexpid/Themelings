@@ -24,11 +24,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 72: // try_end0
-            _fun00002_ip = 76; continue _fun00001;
- 74: // catch_target0
+ 70: // try_end0
+            _fun00002_ip = 74; continue _fun00001;
+ 72: // catch_target0
             CatchBlockStart(arg_register=1);
- 76:
+ 74:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = michal == golfie;
             entity = undefined;
             tangon = undefined;
-            if(report) { _fun00006_ip = 62; continue _fun00005 }
+            if(report) { _fun00006_ip = 60; continue _fun00005 }
  43:
             oscard = golfie.filter;
             report = function(argFoo) {
@@ -228,13 +228,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             tangon = oscard.bind(golfie)(report);
- 62:
+ 60:
             report = michal != tangon;
             michal = null;
-            if(!report) { _fun00006_ip = 74; continue _fun00005 }
- 71:
+            if(!report) { _fun00006_ip = 72; continue _fun00005 }
+ 69:
             michal = tangon;
- 74:
+ 72:
             _closure1_slot10 = michal;
             return entity;
         }

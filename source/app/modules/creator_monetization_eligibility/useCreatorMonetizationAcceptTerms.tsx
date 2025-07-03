@@ -32,13 +32,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.isGuildOwner;
     var _closure1_slot7 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot8 = tangon;
-    tangon = 9;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot9 = tangon;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -51,16 +56,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot1 = golfie;
         foxtra = _closure1_slot0;
         backup = _closure1_slot3;
-        romeon = 5;
+        romeon = 6;
         entity = backup[romeon];
         verify = undefined;
         oscard = foxtra.bind(verify)(entity);
         report = oscard.useStateFromStores;
-        entity = _closure1_slot7;
+        entity = _closure1_slot8;
         tangon = new Array(1);
         tangon[0] = entity;
         entity = function() {
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot8;
             michal = zuuluu.getGuild;
             entity = _closure2_slot0;
             entity = michal.bind(zuuluu)(entity);
@@ -86,7 +91,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = entity[tangon];
         entity = entity[oscard];
         var _closure2_slot4 = entity;
-        entity = 6;
+        entity = 7;
         entity = backup[entity];
         oscard = foxtra.bind(verify)(entity);
         entity = oscard.useIsExpeditedOnboardingGuild;
@@ -96,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         romeon = backup[romeon];
         kiloes = foxtra.bind(verify)(romeon);
         backup = kiloes.useStateFromStores;
-        romeon = _closure1_slot8;
+        romeon = _closure1_slot9;
         foxtra = new Array(1);
         foxtra[0] = romeon;
         romeon = new Array(1);
@@ -104,21 +109,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                michal = _closure1_slot8;
+                michal = _closure1_slot9;
                 entity = michal.getCurrentUser;
-                tangon = entity.bind(michal)();
+                report = entity.bind(michal)();
+                tangon = _closure2_slot2;
+                entity = null;
+                entity = entity != tangon;
+                if(!entity) { _fun00002_ip = 48; continue _fun00001 }
+ 32:
+                tangon = _closure1_slot7;
                 zuuluu = _closure2_slot2;
-                michal = null;
-                zuuluu = michal == zuuluu;
                 michal = undefined;
-                if(zuuluu) { _fun00002_ip = 49; continue _fun00001 }
- 34:
-                zuuluu = _closure2_slot2;
-                entity = zuuluu.isOwner;
-                michal = entity.bind(zuuluu)(tangon);
- 49:
-                entity = true;
-                entity = entity === michal;
+                entity = tangon.bind(michal)(zuuluu, report);
+ 48:
                 return entity;
             }
         };
@@ -158,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  74:
                     tangon = _closure1_slot2;
                     oscard = _closure1_slot3;
-                    michal = 7;
+                    michal = 8;
                     michal = oscard[michal];
                     oscard = tangon.bind(report)(michal);
                     tangon = oscard.acceptCreatorMonetizationTermsV2;
@@ -178,7 +181,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  136: // try_start_1 // try_start_3
                     tangon = _closure1_slot2;
                     oscard = _closure1_slot3;
-                    michal = 7;
+                    michal = 8;
                     michal = oscard[michal];
                     golfie = tangon.bind(report)(michal);
                     oscard = golfie.acceptCreatorMonetizationTerms;
@@ -203,7 +206,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure2_slot3;
                     oscard = _closure1_slot1;
                     option = _closure1_slot3;
-                    michal = 8;
+                    michal = 9;
                     michal = option[michal];
                     michal = oscard.bind(report)(michal);
                     oscard = michal.prototype;

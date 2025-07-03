@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -345,11 +345,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 tangon['preferred_region'] = oscard;
                 tangon['preferred_regions'] = zuuluu;
  185:
-                if(!(michal != golfie)) { _fun00006_ip = 221; continue _fun00005 }
+                if(!(michal != golfie)) { _fun00006_ip = 223; continue _fun00005 }
  189:
                 zuuluu = michal == golfie;
                 michal = undefined;
-                if(zuuluu) { _fun00006_ip = 215; continue _fun00005 }
+                if(zuuluu) { _fun00006_ip = 217; continue _fun00005 }
  198:
                 oscard = golfie.map;
                 zuuluu = function(argFoo) {
@@ -364,9 +364,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return entity;
                 };
                 michal = oscard.bind(golfie)(zuuluu);
- 215:
+ 217:
                 tangon['tracks'] = michal;
- 221:
+ 223:
                 zuuluu = report.send;
                 michal = _closure1_slot8;
                 michal = michal.VOICE_STATE_UPDATE;
@@ -521,8 +521,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 };
                 zuuluu = golfie.bind(option)(zuuluu);
                 zuuluu = _closure3_slot3;
-                if(!(zuuluu > tangon)) { _fun00010_ip = 119; continue _fun00009 }
- 86:
+                if(!(zuuluu > tangon)) { _fun00010_ip = 121; continue _fun00009 }
+ 88:
                 tangon = report.send;
                 michal = _closure1_slot8;
                 zuuluu = michal.GUILD_SUBSCRIPTIONS_BULK;
@@ -530,7 +530,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 oscard = _closure3_slot2;
                 michal['subscriptions'] = oscard;
                 michal = tangon.bind(report)(zuuluu, michal);
- 119:
+ 121:
                 return entity;
             }
         };

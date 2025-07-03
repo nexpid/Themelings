@@ -228,18 +228,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal.return();
  116:
             michal = zuuluu.getGuild;
-            option = michal.bind(zuuluu)(tangon);
+            michal = michal.bind(zuuluu)(tangon);
             report = null;
-            if(!(report != option)) { _fun00008_ip = 284; continue _fun00007 }
+            if(!(report != michal)) { _fun00008_ip = 289; continue _fun00007 }
  135:
-            if(!(report != entity)) { _fun00008_ip = 284; continue _fun00007 }
+            if(!(report != entity)) { _fun00008_ip = 289; continue _fun00007 }
  142:
-            tangon = option.hasFeature;
+            option = michal.features;
+            tangon = option.has;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.ROLE_SUBSCRIPTIONS_ENABLED;
             zuuluu = tangon.bind(option)(zuuluu);
-            if(!zuuluu) { _fun00008_ip = 284; continue _fun00007 }
- 169:
+            if(!zuuluu) { _fun00008_ip = 289; continue _fun00007 }
+ 174:
             michal = _closure1_slot7;
             entity = entity.roles;
             tangon = michal.bind(oscard)(entity);
@@ -247,43 +248,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.done;
             zuuluu = michal;
             michal = undefined;
-            if(entity) { _fun00008_ip = 280; continue _fun00007 }
- 201:
+            if(entity) { _fun00008_ip = 285; continue _fun00007 }
+ 206:
             entity = zuuluu.value;
             verify = report == golfie;
             option = undefined;
-            if(verify) { _fun00008_ip = 219; continue _fun00007 }
- 215:
+            if(verify) { _fun00008_ip = 224; continue _fun00007 }
+ 220:
             option = golfie[entity];
- 219:
+ 224:
             verify = report == option;
             entity = undefined;
-            if(verify) { _fun00008_ip = 255; continue _fun00007 }
- 228:
+            if(verify) { _fun00008_ip = 260; continue _fun00007 }
+ 233:
             verify = option.tags;
             option = report == verify;
             michal = verify;
             entity = undefined;
-            if(option) { _fun00008_ip = 255; continue _fun00007 }
- 246:
+            if(option) { _fun00008_ip = 260; continue _fun00007 }
+ 251:
             entity = verify.subscription_listing_id;
             michal = verify;
- 255:
-            if(!(report == entity)) { _fun00008_ip = 276; continue _fun00007 }
- 259:
+ 260:
+            if(!(report == entity)) { _fun00008_ip = 281; continue _fun00007 }
+ 264:
             option = tangon.bind(oscard)();
             entity = option.done;
             zuuluu = option;
-            if(entity) { _fun00008_ip = 280; continue _fun00007 }
- 274:
-            _fun00008_ip = 201; continue _fun00007;
- 276:
+            if(entity) { _fun00008_ip = 285; continue _fun00007 }
+ 279:
+            _fun00008_ip = 206; continue _fun00007;
+ 281:
             entity = true;
             return entity;
- 280:
+ 285:
             entity = false;
             return entity;
- 284:
+ 289:
             entity = false;
             return entity;
         }

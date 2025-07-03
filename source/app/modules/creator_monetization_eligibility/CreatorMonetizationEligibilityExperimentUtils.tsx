@@ -110,37 +110,38 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = function(argFoo) { // Original name: useIsWhitegloveOnboardingGuild
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            report = argFoo;
-            tangon = _closure1_slot0;
+            tangon = argFoo;
+            report = _closure1_slot0;
             zuuluu = _closure1_slot1;
             entity = 1;
             zuuluu = zuuluu[entity];
             entity = undefined;
-            entity = tangon.bind(entity)(zuuluu);
+            entity = report.bind(entity)(zuuluu);
             oscard = entity.CreatorMonetizationRavenOnboardingUserExperiment;
-            tangon = oscard.useExperiment;
+            report = oscard.useExperiment;
             zuuluu = {};
             entity = 'e3bb71_7';
             zuuluu['location'] = entity;
             entity = {};
             golfie = false;
             entity['autoTrackExposure'] = golfie;
-            entity = tangon.bind(oscard)(zuuluu, entity);
+            entity = report.bind(oscard)(zuuluu, entity);
             zuuluu = entity.enableFastMonetizationOnboardingForUser;
             entity = null;
-            entity = entity != report;
-            if(!entity) { _fun00006_ip = 112; continue _fun00005 }
+            entity = entity != tangon;
+            if(!entity) { _fun00006_ip = 117; continue _fun00005 }
  82:
-            tangon = report.hasFeature;
+            report = tangon.features;
+            tangon = report.has;
             michal = _closure1_slot3;
             michal = michal.CREATOR_MONETIZABLE_WHITEGLOVE;
             michal = tangon.bind(report)(michal);
-            if(!michal) { _fun00006_ip = 109; continue _fun00005 }
- 106:
+            if(!michal) { _fun00006_ip = 114; continue _fun00005 }
+ 111:
             michal = zuuluu;
- 109:
+ 114:
             entity = michal;
- 112:
+ 117:
             return entity;
         }
     };
@@ -148,34 +149,35 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: isWhitegloveOnboardingGuild
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            report = argFoo;
-            tangon = _closure1_slot0;
+            tangon = argFoo;
+            report = _closure1_slot0;
             zuuluu = _closure1_slot1;
             entity = 1;
             zuuluu = zuuluu[entity];
             entity = undefined;
-            entity = tangon.bind(entity)(zuuluu);
-            tangon = entity.CreatorMonetizationRavenOnboardingUserExperiment;
-            zuuluu = tangon.getCurrentConfig;
+            entity = report.bind(entity)(zuuluu);
+            report = entity.CreatorMonetizationRavenOnboardingUserExperiment;
+            zuuluu = report.getCurrentConfig;
             entity = {};
             oscard = 'e3bb71_8';
             entity['location'] = oscard;
-            entity = zuuluu.bind(tangon)(entity);
+            entity = zuuluu.bind(report)(entity);
             zuuluu = entity.enableFastMonetizationOnboardingForUser;
             entity = null;
-            entity = entity != report;
-            if(!entity) { _fun00008_ip = 102; continue _fun00007 }
+            entity = entity != tangon;
+            if(!entity) { _fun00008_ip = 107; continue _fun00007 }
  72:
-            tangon = report.hasFeature;
+            report = tangon.features;
+            tangon = report.has;
             michal = _closure1_slot3;
             michal = michal.CREATOR_MONETIZABLE_WHITEGLOVE;
             michal = tangon.bind(report)(michal);
-            if(!michal) { _fun00008_ip = 99; continue _fun00007 }
- 96:
+            if(!michal) { _fun00008_ip = 104; continue _fun00007 }
+ 101:
             michal = zuuluu;
- 99:
+ 104:
             entity = michal;
- 102:
+ 107:
             return entity;
         }
     };

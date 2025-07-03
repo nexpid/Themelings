@@ -24,7 +24,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot3 = tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['confirmVideoUnstableConnection'] = tangon;
-    michal = function() {
+    tangon = function() {
         tangon = _closure1_slot2;
         zuuluu = tangon.lazy;
         entity = function() {
@@ -234,6 +234,41 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         michal = tangon.bind(report)(michal, zuuluu);
         return entity;
     };
-    zuuluu['alertUserReported'] = michal;
+    zuuluu['alertUserReported'] = tangon;
+    michal = function(argFoo) {
+        tangon = _closure1_slot2;
+        zuuluu = tangon.lazy;
+        entity = function() {
+            zuuluu = _closure1_slot0;
+            entity = _closure1_slot1;
+            michal = 3;
+            michal = entity[michal];
+            tangon = undefined;
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = 10;
+            michal = entity[michal];
+            entity = entity.paths;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        };
+        oscard = zuuluu.bind(tangon)(entity);
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot1;
+        entity = 4;
+        zuuluu = zuuluu[entity];
+        entity = undefined;
+        report = tangon.bind(entity)(zuuluu);
+        tangon = report.openAlert;
+        zuuluu = _closure1_slot3;
+        michal = {};
+        option = argFoo;
+        verify = michal;
+        golfie = copyDataProperties(verify, option);
+        zuuluu = zuuluu.bind(entity)(oscard, michal);
+        michal = 'thread-remove';
+        michal = tangon.bind(report)(michal, zuuluu);
+        return entity;
+    };
+    zuuluu['confirmThreadRemove'] = michal;
     return entity;
 })();

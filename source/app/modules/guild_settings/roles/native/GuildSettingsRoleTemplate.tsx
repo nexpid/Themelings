@@ -612,25 +612,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = verify.bind(offset)(golfie, tangon);
                             golfie = _closure1_slot9;
                             tangon = golfie.getGuild;
-                            option = tangon.bind(golfie)(option);
+                            golfie = tangon.bind(golfie)(option);
                             tangon = null;
-                            if(!(tangon != option)) { _fun00010_ip = 195; continue _fun00009 }
+                            if(!(tangon != golfie)) { _fun00010_ip = 200; continue _fun00009 }
  147:
-                            golfie = option.hasFeature;
+                            option = golfie.features;
+                            golfie = option.has;
                             oscard = _closure1_slot14;
                             oscard = oscard.COMMUNITY;
                             oscard = golfie.bind(option)(oscard);
-                            if(!oscard) { _fun00010_ip = 175; continue _fun00009 }
- 171:
-                            if(!(tangon == zuuluu)) { _fun00010_ip = 186; continue _fun00009 }
- 175:
+                            if(!oscard) { _fun00010_ip = 180; continue _fun00009 }
+ 176:
+                            if(!(tangon == zuuluu)) { _fun00010_ip = 191; continue _fun00009 }
+ 180:
                             tangon = _closure2_slot0;
                             tangon = tangon.bind(entity)(report);
-                            _fun00010_ip = 195; continue _fun00009;
- 186:
+                            _fun00010_ip = 200; continue _fun00009;
+ 191:
                             michal = _closure2_slot0;
                             michal = michal.bind(entity)(zuuluu);
- 195:
+ 200:
                             return entity;
                         }
                     };

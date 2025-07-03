@@ -85,7 +85,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 155; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 151; continue _fun00003 }
  13:
                     verify = michal.userId;
                     option = michal.applicationId;
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 152; continue _fun00003 }
+                    if(tangon) { _fun00004_ip = 148; continue _fun00003 }
  41: // try_start_0
                     oscard = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -111,27 +111,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = offset.bind(yankee)(verify, option);
                     tangon['url'] = option;
                     tangon = oscard.bind(golfie)(tangon);
-                    SaveGenerator(address=120);
- 118:
+                    SaveGenerator(address=116);
+ 114:
                     return tangon;
- 120:
+ 116:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=5);
-                    if(oscard) { _fun00004_ip = 132; continue _fun00003 }
- 126:
+                    if(oscard) { _fun00004_ip = 128; continue _fun00003 }
+ 122:
                     report = report.bind(zuuluu)();
- 130: // try_end0
-                    _fun00004_ip = 149; continue _fun00003;
- 132:
+ 126: // try_end0
+                    _fun00004_ip = 145; continue _fun00003;
+ 128:
                     return tangon;
- 135: // catch_target0
+ 131: // catch_target0
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot6;
                     tangon = tangon.bind(zuuluu)(report);
- 149:
+ 145:
                     return zuuluu;
- 152:
+ 148:
                     return michal;
- 155:
+ 151:
                     return entity;
                 }
             };

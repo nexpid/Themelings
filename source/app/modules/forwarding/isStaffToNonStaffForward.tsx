@@ -10,23 +10,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             michal = entity.isPrivate;
             michal = michal.bind(entity)();
-            if(michal) { _fun00002_ip = 70; continue _fun00001 }
+            if(michal) { _fun00002_ip = 75; continue _fun00001 }
  16:
             report = _closure1_slot1;
             tangon = report.getGuild;
             michal = entity.guild_id;
-            report = tangon.bind(report)(michal);
+            tangon = tangon.bind(report)(michal);
             michal = null;
-            michal = michal != report;
-            if(!michal) { _fun00002_ip = 68; continue _fun00001 }
+            michal = michal != tangon;
+            if(!michal) { _fun00002_ip = 73; continue _fun00001 }
  47:
-            tangon = report.hasFeature;
+            report = tangon.features;
+            tangon = report.has;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.INTERNAL_EMPLOYEE_ONLY;
             michal = tangon.bind(report)(zuuluu);
- 68:
+ 73:
             return michal;
- 70:
+ 75:
             zuuluu = entity.recipients;
             michal = zuuluu.every;
             entity = function(argFoo) {

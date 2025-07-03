@@ -100,9 +100,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            echoed = zuuluu.bind(tangon)(michal, entity);
+            result = zuuluu.bind(tangon)(michal, entity);
             entity = null;
-            if(!(entity != echoed)) { _fun00002_ip = 549; continue _fun00001 }
+            if(!(entity != result)) { _fun00002_ip = 545; continue _fun00001 }
  87:
             offset = _closure1_slot0;
             backup = _closure1_slot2;
@@ -130,13 +130,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = 9;
             sizing = backup[option];
             sizing = offset.bind(report)(sizing);
-            result = sizing.intl;
-            sizing = result.string;
+            echoed = sizing.intl;
+            sizing = echoed.string;
             option = backup[option];
             option = offset.bind(report)(option);
             option = option.t;
             option = option.SDTOLy;
-            option = sizing.bind(result)(option);
+            option = sizing.bind(echoed)(option);
             oscard['children'] = option;
             golfie = yankee.bind(report)(golfie, oscard);
             oscard = new Array(2);
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = backup[output];
             sizing = sizing.bind(report)(kiloes);
             kiloes = {};
-            kiloes['guild'] = echoed;
+            kiloes['guild'] = result;
             output = backup[output];
             output = offset.bind(report)(output);
             output = output.GuildIconSizes;
@@ -172,10 +172,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = offset.bind(report)(sizing);
             output = sizing.Text;
             sizing = {'style': null, 'variant': 'text-sm/medium', 'color': 'header-secondary'};
-            result = foxtra.guildName;
-            sizing['style'] = result;
-            result = echoed.toString;
-            result = result.bind(echoed)();
+            echoed = foxtra.guildName;
+            sizing['style'] = echoed;
+            result = result.name;
             sizing['children'] = result;
             sizing = yankee.bind(report)(output, sizing);
             kiloes[1] = sizing;
@@ -199,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 549:
+ 545:
             return entity;
         }
     };

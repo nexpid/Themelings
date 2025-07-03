@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         tangon = zuuluu.bind(tangon)(michal, entity);
                         zuuluu = _closure3_slot0;
                         michal = null;
-                        if(!(michal != zuuluu)) { _fun00004_ip = 98; continue _fun00003 }
+                        if(!(michal != zuuluu)) { _fun00004_ip = 100; continue _fun00003 }
  76:
                         zuuluu = _closure3_slot0;
                         michal = zuuluu.start;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             }
                         };
                         entity = michal.bind(zuuluu)(tangon, entity);
- 98:
+ 100:
                         entity = undefined;
                         return entity;
                     }

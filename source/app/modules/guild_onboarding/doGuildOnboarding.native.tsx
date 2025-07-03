@@ -17,7 +17,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 309; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 319; continue _fun00001 }
  10:
                     michal = argFoo;
                     verify = michal.guildId;
@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return golfie;
  24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 306; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 316; continue _fun00001 }
  33:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
@@ -52,21 +52,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  119:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 303; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 313; continue _fun00001 }
  128:
-                    report = zuuluu.hasFeature;
+                    option = zuuluu.features;
+                    report = option.has;
                     tangon = _closure1_slot8;
                     tangon = tangon.GUILD_ONBOARDING;
-                    tangon = report.bind(zuuluu)(tangon);
-                    if(!tangon) { _fun00002_ip = 173; continue _fun00001 }
- 152:
-                    option = zuuluu.hasFeature;
+                    tangon = report.bind(option)(tangon);
+                    if(!tangon) { _fun00002_ip = 183; continue _fun00001 }
+ 157:
+                    offset = zuuluu.features;
+                    option = offset.has;
                     report = _closure1_slot8;
                     report = report.COMMUNITY;
-                    tangon = option.bind(zuuluu)(report);
- 173:
-                    if(!tangon) { _fun00002_ip = 291; continue _fun00001 }
- 176:
+                    tangon = option.bind(offset)(report);
+ 183:
+                    if(!tangon) { _fun00002_ip = 301; continue _fun00001 }
+ 186:
                     report = _closure1_slot0;
                     option = _closure1_slot2;
                     tangon = 10;
@@ -74,18 +76,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.bind(golfie)(tangon);
                     tangon = report.maybeFetchOnboardingPrompts;
                     tangon = tangon.bind(report)(verify);
-                    SaveGenerator(address=211);
- 209:
+                    SaveGenerator(address=221);
+ 219:
                     return tangon;
- 211:
+ 221:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 300; continue _fun00001 }
- 217:
+                    if(report) { _fun00002_ip = 310; continue _fun00001 }
+ 227:
                     option = _closure1_slot6;
                     report = option.shouldShowOnboarding;
                     report = report.bind(option)(verify);
-                    if(!report) { _fun00002_ip = 291; continue _fun00001 }
- 235:
+                    if(!report) { _fun00002_ip = 301; continue _fun00001 }
+ 245:
                     option = _closure1_slot12;
                     report = function() { // Original name: fetchLandingAsset
                         entity = undefined;
@@ -98,36 +100,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     report = report.bind(golfie)(zuuluu);
-                    SaveGenerator(address=257);
- 255:
+                    SaveGenerator(address=267);
+ 265:
                     return report;
- 257:
+ 267:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 297; continue _fun00001 }
- 263:
+                    if(offset) { _fun00002_ip = 307; continue _fun00001 }
+ 273:
                     option[verify] = report;
                     option = _closure1_slot15;
                     oscard = zuuluu.id;
                     oscard = option.bind(golfie)(oscard);
-                    SaveGenerator(address=285);
- 283:
+                    SaveGenerator(address=295);
+ 293:
                     return oscard;
- 285:
+ 295:
                     ResumeGenerator(result_out_reg=5, return_bool_out_reg=7);
-                    if(option) { _fun00002_ip = 294; continue _fun00001 }
- 291:
+                    if(option) { _fun00002_ip = 304; continue _fun00001 }
+ 301:
                     return golfie;
- 294:
+ 304:
                     return oscard;
- 297:
+ 307:
                     return report;
- 300:
+ 310:
                     return tangon;
- 303:
+ 313:
                     return zuuluu;
- 306:
+ 316:
                     return michal;
- 309:
+ 319:
                     return entity;
                 }
             };

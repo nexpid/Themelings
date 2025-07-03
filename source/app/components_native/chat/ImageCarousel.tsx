@@ -308,10 +308,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot16;
             michal = cntext.id;
             record = null;
-            if(!(record == michal)) { _fun00002_ip = 389; continue _fun00001 }
- 383:
+            if(!(record == michal)) { _fun00002_ip = 379; continue _fun00001 }
+ 373:
             michal = cntext.uri;
- 389:
+ 379:
             backup = zuuluu.bind(tangon)(michal);
             _closure2_slot14 = backup;
             report = _closure1_slot3;
@@ -585,10 +585,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext.filename;
             papara = record != cntext;
             record = '';
-            if(!papara) { _fun00002_ip = 658; continue _fun00001 }
- 655:
+            if(!papara) { _fun00002_ip = 646; continue _fun00001 }
+ 643:
             record = cntext;
- 658:
+ 646:
             ctrled['name'] = record;
             ctrled = sequen.bind(config)(vacuum, ctrled);
             report['accessibilityLabel'] = ctrled;
@@ -607,19 +607,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['accessibilityActions'] = source;
             report['onAccessibilityAction'] = update;
             result = !result;
-            if(!result) { _fun00002_ip = 750; continue _fun00001 }
- 747:
+            if(!result) { _fun00002_ip = 738; continue _fun00001 }
+ 735:
             result = !echoed;
- 750:
+ 738:
             report['disabled'] = result;
             report['onPress'] = sizing;
             result = kiloes.pressableContainer;
             sizing = new Array(2);
             sizing[0] = result;
-            if(!output) { _fun00002_ip = 781; continue _fun00001 }
- 775:
+            if(!output) { _fun00002_ip = 769; continue _fun00001 }
+ 763:
             output = kiloes.highlightedTileContainer;
- 781:
+ 769:
             sizing[1] = output;
             report['style'] = sizing;
             foxtra = foxtra.bind(tangon)();
@@ -1066,7 +1066,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[0] = yankee;
             yankee = verify != foxtra;
             verify = null;
-            if(!yankee) { _fun00016_ip = 332; continue _fun00015 }
+            if(!yankee) { _fun00016_ip = 330; continue _fun00015 }
  297:
             yankee = global;
             romeon = yankee.Object;
@@ -1134,7 +1134,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             verify = yankee.bind(romeon)(offset);
- 332:
+ 330:
             option[1] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

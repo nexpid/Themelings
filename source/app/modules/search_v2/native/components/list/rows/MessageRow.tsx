@@ -548,10 +548,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = output.extractTimestamp;
             foxtra = verify.id;
             oscard = null;
-            if(!(oscard == foxtra)) { _fun00010_ip = 539; continue _fun00009 }
- 534:
+            if(!(oscard == foxtra)) { _fun00010_ip = 535; continue _fun00009 }
+ 530:
             foxtra = result.id;
- 539:
+ 535:
             foxtra = sizing.bind(output)(foxtra);
             foxtra = backup.bind(kiloes)(foxtra);
             option['children'] = foxtra;
@@ -562,8 +562,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.SUPPRESS_NOTIFICATIONS;
             yankee = yankee.bind(verify)(option);
             option = null;
-            if(!yankee) { _fun00010_ip = 645; continue _fun00009 }
- 589:
+            if(!yankee) { _fun00010_ip = 641; continue _fun00009 }
+ 585:
             foxtra = _closure1_slot11;
             romeon = _closure1_slot0;
             backup = _closure1_slot2;
@@ -577,13 +577,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = offset.suppressNotificationsIcon;
             yankee['style'] = backup;
             option = foxtra.bind(tangon)(romeon, yankee);
- 645:
+ 641:
             report[2] = option;
             option = verify.isPoll;
             option = option.bind(verify)();
             oscard = null;
-            if(!option) { _fun00010_ip = 706; continue _fun00009 }
- 664:
+            if(!option) { _fun00010_ip = 702; continue _fun00009 }
+ 660:
             verify = _closure1_slot11;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -594,7 +594,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.pollBadge;
             golfie['style'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 706:
+ 702:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

@@ -185,16 +185,17 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) { // Original name: guildHasVerificationGate
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            tangon = argFoo;
+            michal = argFoo;
             entity = null;
-            entity = entity != tangon;
-            if(!entity) { _fun00008_ip = 36; continue _fun00007 }
+            entity = entity != michal;
+            if(!entity) { _fun00008_ip = 41; continue _fun00007 }
  12:
-            zuuluu = tangon.hasFeature;
+            tangon = michal.features;
+            zuuluu = tangon.has;
             michal = _closure1_slot4;
             michal = michal.MEMBER_VERIFICATION_GATE_ENABLED;
             entity = zuuluu.bind(tangon)(michal);
- 36:
+ 41:
             return entity;
         }
     };

@@ -252,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = vacuum.length;
             update = 0;
             entity = true;
-            if(!(update !== zuuluu)) { _fun00010_ip = 1136; continue _fun00009 }
+            if(!(update !== zuuluu)) { _fun00010_ip = 1146; continue _fun00009 }
  83:
             zuuluu = _closure1_slot26;
             oscard = zuuluu.bind(sequen)(vacuum);
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie.has;
             zuuluu = zuuluu.bind(golfie)(option);
             entity = false;
-            if(!zuuluu) { _fun00010_ip = 1136; continue _fun00009 }
+            if(!zuuluu) { _fun00010_ip = 1146; continue _fun00009 }
  134:
             golfie = oscard.bind(sequen)();
             zuuluu = golfie.done;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = undefined;
             golfie = undefined;
             zuuluu = true;
-            if(oscard) { _fun00010_ip = 1124; continue _fun00009 }
+            if(oscard) { _fun00010_ip = 1134; continue _fun00009 }
  234:
             config = backup.value;
             if(report) { _fun00010_ip = 268; continue _fun00009 }
@@ -319,7 +319,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = verify;
             whisks = option;
             limora = golfie;
-            if(oscard) { _fun00010_ip = 1082; continue _fun00009 }
+            if(oscard) { _fun00010_ip = 1092; continue _fun00009 }
  321:
             oscard = ctrled[update];
             if(!(output != oscard)) { _fun00010_ip = 363; continue _fun00009 }
@@ -333,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = verify;
             whisks = option;
             limora = golfie;
-            if(oscard) { _fun00010_ip = 1082; continue _fun00009 }
+            if(oscard) { _fun00010_ip = 1092; continue _fun00009 }
  363:
             oscard = ctrled[kiloes];
             romeon = variable38;
@@ -349,16 +349,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = verify;
             whisks = option;
             limora = golfie;
-            if(oscard) { _fun00010_ip = 1082; continue _fun00009 }
+            if(oscard) { _fun00010_ip = 1092; continue _fun00009 }
  411:
             variable38 = vacuum.includes;
             oscard = _closure1_slot23;
             oscard = oscard.IS_COMMUNITY;
             oscard = variable38.bind(vacuum)(oscard);
-            if(!oscard) { _fun00010_ip = 485; continue _fun00009 }
+            if(!oscard) { _fun00010_ip = 490; continue _fun00009 }
  434:
-            variable39 = config;
-            variable38 = variable39.hasFeature;
+            oscard = config;
+            variable39 = oscard.features;
+            variable38 = variable39.has;
             oscard = _closure1_slot14;
             oscard = oscard.COMMUNITY;
             oscard = variable38.bind(variable39)(oscard);
@@ -369,16 +370,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = verify;
             whisks = option;
             limora = golfie;
-            if(!oscard) { _fun00010_ip = 1082; continue _fun00009 }
- 485:
+            if(!oscard) { _fun00010_ip = 1092; continue _fun00009 }
+ 490:
             variable38 = vacuum.includes;
             oscard = _closure1_slot23;
             oscard = oscard.IS_HUB;
             oscard = variable38.bind(vacuum)(oscard);
-            if(!oscard) { _fun00010_ip = 559; continue _fun00009 }
- 508:
-            variable39 = config;
-            variable38 = variable39.hasFeature;
+            if(!oscard) { _fun00010_ip = 569; continue _fun00009 }
+ 513:
+            oscard = config;
+            variable39 = oscard.features;
+            variable38 = variable39.has;
             oscard = _closure1_slot14;
             oscard = oscard.HUB;
             oscard = variable38.bind(variable39)(oscard);
@@ -389,14 +391,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = verify;
             whisks = option;
             limora = golfie;
-            if(!oscard) { _fun00010_ip = 1082; continue _fun00009 }
- 559:
+            if(!oscard) { _fun00010_ip = 1092; continue _fun00009 }
+ 569:
             variable38 = vacuum.includes;
             oscard = _closure1_slot23;
             oscard = oscard.GUILD_PERMISSIONS;
             oscard = variable38.bind(vacuum)(oscard);
-            if(!oscard) { _fun00010_ip = 764; continue _fun00009 }
- 585:
+            if(!oscard) { _fun00010_ip = 774; continue _fun00009 }
+ 595:
             oscard = source.length;
             sierra = foxtra;
             variable37 = romeon;
@@ -405,8 +407,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = verify;
             whisks = option;
             limora = golfie;
-            if(!(update !== oscard)) { _fun00010_ip = 1082; continue _fun00009 }
- 618:
+            if(!(update !== oscard)) { _fun00010_ip = 1092; continue _fun00009 }
+ 628:
             cntext = false;
             oscard = _closure1_slot26;
             oscard = oscard.bind(sequen)(source);
@@ -414,11 +416,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.bind(sequen)();
             record = oscard;
             oscard = oscard.done;
-            if(oscard) { _fun00010_ip = 734; continue _fun00009 }
- 647:
+            if(oscard) { _fun00010_ip = 744; continue _fun00009 }
+ 657:
             oscard = record;
             target = oscard.value;
- 655: // try_start_0
+ 665: // try_start_0
             variable38 = _closure1_slot2;
             oscard = _closure1_slot3;
             oscard = oscard[sizing];
@@ -430,22 +432,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable38 = variable39.can;
             oscard = config;
             oscard = variable38.bind(variable39)(variable40, oscard);
-            if(oscard) { _fun00010_ip = 710; continue _fun00009 }
- 708: // try_end0
-            _fun00010_ip = 716; continue _fun00009;
- 710: // try_start_1
+            if(oscard) { _fun00010_ip = 720; continue _fun00009 }
+ 718: // try_end0
+            _fun00010_ip = 726; continue _fun00009;
+ 720: // try_start_1
             cntext = true;
- 712: // try_end1
-            _fun00010_ip = 734; continue _fun00009;
- 714: // catch_target0 // catch_target1
+ 722: // try_end1
+            _fun00010_ip = 744; continue _fun00009;
+ 724: // catch_target0 // catch_target1
             CatchBlockStart(arg_register=5);
- 716:
+ 726:
             oscard = papara;
             oscard = oscard.bind(sequen)();
             record = oscard;
             oscard = oscard.done;
-            if(!oscard) { _fun00010_ip = 647; continue _fun00009 }
- 734:
+            if(!oscard) { _fun00010_ip = 657; continue _fun00009 }
+ 744:
             oscard = cntext;
             sierra = foxtra;
             variable37 = romeon;
@@ -454,17 +456,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = verify;
             whisks = option;
             limora = golfie;
-            if(!oscard) { _fun00010_ip = 1082; continue _fun00009 }
- 764:
+            if(!oscard) { _fun00010_ip = 1092; continue _fun00009 }
+ 774:
             variable38 = _closure1_slot13;
             oscard = variable38.getCurrentUser;
             variable41 = oscard.bind(variable38)();
             oscard = output == variable41;
             variable38 = undefined;
-            if(oscard) { _fun00010_ip = 791; continue _fun00009 }
- 786:
+            if(oscard) { _fun00010_ip = 801; continue _fun00009 }
+ 796:
             variable38 = variable41.id;
- 791:
+ 801:
             variable42 = config;
             oscard = variable42.ownerId;
             variable40 = variable38 === oscard;
@@ -477,8 +479,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot23;
             oscard = oscard.IS_OWNER;
             oscard = variable38.bind(vacuum)(oscard);
-            if(!oscard) { _fun00010_ip = 880; continue _fun00009 }
- 853:
+            if(!oscard) { _fun00010_ip = 890; continue _fun00009 }
+ 863:
             sierra = foxtra;
             variable37 = romeon;
             variable36 = variable41;
@@ -486,14 +488,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = variable39;
             whisks = option;
             limora = golfie;
-            if(!variable40) { _fun00010_ip = 1082; continue _fun00009 }
- 880:
+            if(!variable40) { _fun00010_ip = 1092; continue _fun00009 }
+ 890:
             variable38 = vacuum.includes;
             oscard = _closure1_slot23;
             oscard = oscard.IS_ADMIN;
             oscard = variable38.bind(vacuum)(oscard);
-            if(!oscard) { _fun00010_ip = 930; continue _fun00009 }
- 903:
+            if(!oscard) { _fun00010_ip = 940; continue _fun00009 }
+ 913:
             sierra = foxtra;
             variable37 = romeon;
             variable36 = variable41;
@@ -501,41 +503,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = option;
             limora = golfie;
             equals = variable39;
-            if(!equals) { _fun00010_ip = 1082; continue _fun00009 }
- 930:
+            if(!equals) { _fun00010_ip = 1092; continue _fun00009 }
+ 940:
             oscard = _closure1_slot21;
-            if(!(output == oscard)) { _fun00010_ip = 942; continue _fun00009 }
- 938:
+            if(!(output == oscard)) { _fun00010_ip = 952; continue _fun00009 }
+ 948:
             variable38 = {};
-            _fun00010_ip = 946; continue _fun00009;
- 942:
+            _fun00010_ip = 956; continue _fun00009;
+ 952:
             variable38 = _closure1_slot21;
- 946:
+ 956:
             _closure1_slot21 = variable38;
             oscard = status.key;
             oscard = variable38[oscard];
-            if(!(output == oscard)) { _fun00010_ip = 976; continue _fun00009 }
- 963:
+            if(!(output == oscard)) { _fun00010_ip = 986; continue _fun00009 }
+ 973:
             variable38 = _closure1_slot21;
             oscard = status.key;
             variable38[oscard] = status;
- 976:
+ 986:
             variable38 = _closure1_slot12;
             oscard = variable38.getGuildId;
             variable38 = oscard.bind(variable38)();
             oscard = output != variable38;
-            if(!oscard) { _fun00010_ip = 1009; continue _fun00009 }
- 997:
+            if(!oscard) { _fun00010_ip = 1019; continue _fun00009 }
+ 1007:
             variable42 = config;
             variable42 = variable42.id;
             oscard = variable38 === variable42;
- 1009:
+ 1019:
             variable43 = vacuum.includes;
             variable42 = _closure1_slot23;
             variable42 = variable42.IS_VIEWING;
             variable42 = variable43.bind(vacuum)(variable42);
-            if(!variable42) { _fun00010_ip = 1056; continue _fun00009 }
- 1032:
+            if(!variable42) { _fun00010_ip = 1066; continue _fun00009 }
+ 1042:
             sierra = foxtra;
             variable37 = romeon;
             variable36 = variable41;
@@ -543,8 +545,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = variable39;
             whisks = variable38;
             limora = oscard;
-            if(!limora) { _fun00010_ip = 1082; continue _fun00009 }
- 1056:
+            if(!limora) { _fun00010_ip = 1092; continue _fun00009 }
+ 1066:
             sierra = foxtra;
             variable37 = romeon;
             variable36 = variable41;
@@ -553,8 +555,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             whisks = variable38;
             limora = oscard;
             entity = true;
-            if(!report) { _fun00010_ip = 1136; continue _fun00009 }
- 1082:
+            if(!report) { _fun00010_ip = 1146; continue _fun00009 }
+ 1092:
             variable38 = result.bind(sequen)();
             oscard = variable38.done;
             foxtra = sierra;
@@ -567,15 +569,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = variable38;
             zuuluu = foxtra;
             if(!oscard) { _fun00010_ip = 234; continue _fun00009 }
- 1124:
-            entity = false;
-            if(!report) { _fun00010_ip = 1136; continue _fun00009 }
- 1129:
-            entity = false;
-            if(!zuuluu) { _fun00010_ip = 1136; continue _fun00009 }
  1134:
+            entity = false;
+            if(!report) { _fun00010_ip = 1146; continue _fun00009 }
+ 1139:
+            entity = false;
+            if(!zuuluu) { _fun00010_ip = 1146; continue _fun00009 }
+ 1144:
             entity = true;
- 1136:
+ 1146:
             return entity;
         }
     };

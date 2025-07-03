@@ -189,8 +189,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            report = entity.guild;
-            var _closure2_slot0 = report;
+            michal = entity.guild;
+            var _closure2_slot0 = michal;
             entity = entity.analyticsData;
             var _closure2_slot1 = entity;
             tangon = undefined;
@@ -199,24 +199,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot15;
             config = entity.bind(tangon)();
             entity = _closure1_slot9;
-            michal = entity.bind(tangon)();
-            entity = michal.time;
+            zuuluu = entity.bind(tangon)();
+            entity = zuuluu.time;
             var _closure2_slot2 = entity;
-            source = michal.pauseInvites;
+            source = zuuluu.pauseInvites;
             var _closure2_slot3 = source;
-            update = michal.pauseDms;
+            update = zuuluu.pauseDms;
             var _closure2_slot4 = update;
-            output = michal.hasTimeChanges;
-            zuuluu = _closure1_slot0;
+            output = zuuluu.hasTimeChanges;
+            report = _closure1_slot0;
             golfie = _closure1_slot2;
-            michal = 12;
-            michal = golfie[michal];
-            verify = zuuluu.bind(tangon)(michal);
+            zuuluu = 12;
+            zuuluu = golfie[zuuluu];
+            verify = report.bind(tangon)(zuuluu);
             option = verify.useStateFromStores;
-            michal = _closure1_slot4;
+            zuuluu = _closure1_slot4;
             oscard = new Array(1);
-            oscard[0] = michal;
-            michal = function() {
+            oscard[0] = zuuluu;
+            zuuluu = function() {
                 zuuluu = _closure1_slot4;
                 michal = zuuluu.getGuildIncident;
                 entity = _closure2_slot0;
@@ -224,28 +224,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            oscard = option.bind(verify)(oscard, michal);
-            michal = 13;
-            option = golfie[michal];
-            verify = zuuluu.bind(tangon)(option);
+            oscard = option.bind(verify)(oscard, zuuluu);
+            zuuluu = 13;
+            option = golfie[zuuluu];
+            verify = report.bind(tangon)(option);
             option = verify.hasInvitesDisabled;
             sizing = option.bind(verify)(oscard);
             var _closure2_slot5 = sizing;
-            michal = golfie[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.hasDMsDisabled;
-            echoed = michal.bind(zuuluu)(oscard);
+            zuuluu = golfie[zuuluu];
+            report = report.bind(tangon)(zuuluu);
+            zuuluu = report.hasDMsDisabled;
+            echoed = zuuluu.bind(report)(oscard);
             var _closure2_slot6 = echoed;
             backup = null;
-            michal = backup == report;
+            zuuluu = backup == michal;
             foxtra = undefined;
-            if(michal) { _fun00002_ip = 222; continue _fun00001 }
+            if(zuuluu) { _fun00002_ip = 227; continue _fun00001 }
  201:
-            zuuluu = report.hasFeature;
+            report = michal.features;
+            zuuluu = report.has;
             michal = _closure1_slot12;
             michal = michal.INVITES_DISABLED;
             foxtra = zuuluu.bind(report)(michal);
- 222:
+ 227:
             report = _closure1_slot3;
             oscard = report.useEffect;
             zuuluu = new Array(2);
@@ -384,10 +385,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             vacuum = backup != verify;
             backup = '';
-            if(!vacuum) { _fun00002_ip = 563; continue _fun00001 }
- 560:
+            if(!vacuum) { _fun00002_ip = 568; continue _fun00001 }
+ 565:
             backup = verify;
- 563:
+ 568:
             offset['text'] = backup;
             offset = golfie.bind(tangon)(romeon, offset);
             report['trailing'] = offset;
@@ -474,10 +475,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = config.bind(cntext)(sequen);
             romeon['subLabel'] = sequen;
             sequen = source;
-            if(sequen) { _fun00002_ip = 880; continue _fun00001 }
- 877:
+            if(sequen) { _fun00002_ip = 885; continue _fun00001 }
+ 882:
             sequen = foxtra;
- 880:
+ 885:
             romeon['value'] = sequen;
             sequen = function() { // Original name: onValueChange
                 zuuluu = _closure1_slot7;
@@ -492,8 +493,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = vacuum.bind(tangon)(backup, romeon);
             romeon = new Array(2);
             romeon[0] = backup;
-            if(!foxtra) { _fun00002_ip = 1089; continue _fun00001 }
- 920:
+            if(!foxtra) { _fun00002_ip = 1094; continue _fun00001 }
+ 925:
             sequen = _closure1_slot13;
             papara = _closure1_slot0;
             config = _closure1_slot2;
@@ -531,7 +532,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = record.bind(cntext)(config);
             backup['label'] = config;
             foxtra = sequen.bind(tangon)(vacuum, backup);
- 1089:
+ 1094:
             romeon[1] = foxtra;
             golfie['children'] = romeon;
             golfie = offset.bind(tangon)(verify, golfie);
@@ -700,14 +701,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = 'md';
             verify['size'] = foxtra;
             sizing = source !== sizing;
-            if(sizing) { _fun00002_ip = 1401; continue _fun00001 }
- 1397:
+            if(sizing) { _fun00002_ip = 1406; continue _fun00001 }
+ 1402:
             sizing = update !== echoed;
- 1401:
-            if(sizing) { _fun00002_ip = 1407; continue _fun00001 }
- 1404:
+ 1406:
+            if(sizing) { _fun00002_ip = 1412; continue _fun00001 }
+ 1409:
             sizing = output;
- 1407:
+ 1412:
             sizing = !sizing;
             verify['disabled'] = sizing;
             romeon = backup.bind(tangon)(romeon, verify);

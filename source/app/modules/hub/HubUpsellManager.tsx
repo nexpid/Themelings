@@ -104,8 +104,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = tangon.bind(oscard)();
                     oscard = golfie.find;
                     tangon = function(argFoo) {
-                        zuuluu = argFoo;
-                        michal = zuuluu.hasFeature;
+                        entity = argFoo;
+                        zuuluu = entity.features;
+                        michal = zuuluu.has;
                         entity = _closure1_slot6;
                         entity = entity.HUB;
                         entity = michal.bind(zuuluu)(entity);

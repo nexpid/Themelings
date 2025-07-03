@@ -696,7 +696,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report = tangon.type;
             michal = _closure1_slot60;
             michal = michal.CHANNEL;
-            if(!(report === michal)) { _fun00022_ip = 719; continue _fun00021 }
+            if(!(report === michal)) { _fun00022_ip = 717; continue _fun00021 }
  46:
             oscard = _closure1_slot29;
             report = oscard.getChannel;
@@ -712,99 +712,99 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = _closure1_slot10;
             report = oscard.getConnectedActivityLocation;
             report = report.bind(oscard)();
-            if(!(golfie != report)) { _fun00022_ip = 163; continue _fun00021 }
+            if(!(golfie != report)) { _fun00022_ip = 161; continue _fun00021 }
  102:
             oscard = _closure1_slot10;
             report = oscard.getActivityPanelMode;
             oscard = report.bind(oscard)();
             report = _closure1_slot55;
             report = report.PANEL;
-            if(!(oscard === report)) { _fun00022_ip = 163; continue _fun00021 }
+            if(!(oscard === report)) { _fun00022_ip = 161; continue _fun00021 }
  130:
             oscard = _closure1_slot10;
             report = oscard.getFocusedLayout;
             oscard = report.bind(oscard)();
             report = _closure1_slot56;
             report = report.NO_CHAT;
-            if(!(oscard !== report)) { _fun00022_ip = 699; continue _fun00021 }
- 163:
+            if(!(oscard !== report)) { _fun00022_ip = 697; continue _fun00021 }
+ 161:
             oscard = _closure1_slot33;
             report = oscard.isIdle;
             report = report.bind(oscard)();
-            if(report) { _fun00022_ip = 679; continue _fun00021 }
- 183:
+            if(report) { _fun00022_ip = 677; continue _fun00021 }
+ 181:
             report = tangon.canTrackUnreads;
             report = report.bind(tangon)();
-            if(report) { _fun00022_ip = 216; continue _fun00021 }
- 196:
+            if(report) { _fun00022_ip = 214; continue _fun00021 }
+ 194:
             oscard = _closure1_slot93;
             report = 'Cannot track unreads';
             report = oscard.bind(zuuluu)(tangon, report);
             report = false;
             return report;
- 216:
+ 214:
             report = golfie == verify;
             oscard = undefined;
-            if(report) { _fun00022_ip = 235; continue _fun00021 }
- 225:
+            if(report) { _fun00022_ip = 233; continue _fun00021 }
+ 223:
             report = verify.isForumLikeChannel;
             oscard = report.bind(verify)();
- 235:
+ 233:
             report = true;
-            if(!(report !== oscard)) { _fun00022_ip = 266; continue _fun00021 }
- 241:
+            if(!(report !== oscard)) { _fun00022_ip = 264; continue _fun00021 }
+ 239:
             offset = _closure1_slot72;
             option = offset.has;
             oscard = tangon.channelId;
             oscard = option.bind(offset)(oscard);
-            if(oscard) { _fun00022_ip = 659; continue _fun00021 }
- 266:
-            if(!michal) { _fun00022_ip = 296; continue _fun00021 }
- 269:
+            if(oscard) { _fun00022_ip = 657; continue _fun00021 }
+ 264:
+            if(!michal) { _fun00022_ip = 294; continue _fun00021 }
+ 267:
             oscard = tangon._persisted;
-            if(oscard) { _fun00022_ip = 296; continue _fun00021 }
- 278:
+            if(oscard) { _fun00022_ip = 294; continue _fun00021 }
+ 276:
             option = _closure1_slot93;
             oscard = 'unpersisted forum post';
             oscard = option.bind(zuuluu)(tangon, oscard);
             return report;
- 296:
+ 294:
             oscard = tangon.hasUnreadOrMentions;
             oscard = oscard.bind(tangon)();
-            if(oscard) { _fun00022_ip = 329; continue _fun00021 }
- 309:
+            if(oscard) { _fun00022_ip = 327; continue _fun00021 }
+ 307:
             option = _closure1_slot93;
             oscard = 'No unread or mentions';
             oscard = option.bind(zuuluu)(tangon, oscard);
             oscard = false;
             return oscard;
- 329:
+ 327:
             option = golfie == verify;
             oscard = undefined;
-            if(option) { _fun00022_ip = 348; continue _fun00021 }
- 338:
+            if(option) { _fun00022_ip = 346; continue _fun00021 }
+ 336:
             option = verify.isForumLikeChannel;
             oscard = option.bind(verify)();
- 348:
-            if(!(report !== oscard)) { _fun00022_ip = 639; continue _fun00021 }
- 355:
-            if(!michal) { _fun00022_ip = 367; continue _fun00021 }
- 358:
+ 346:
+            if(!(report !== oscard)) { _fun00022_ip = 637; continue _fun00021 }
+ 353:
+            if(!michal) { _fun00022_ip = 365; continue _fun00021 }
+ 356:
             michal = tangon._isJoinedThread;
-            if(!michal) { _fun00022_ip = 410; continue _fun00021 }
- 367:
+            if(!michal) { _fun00022_ip = 408; continue _fun00021 }
+ 365:
             option = _closure1_slot30;
             oscard = option.isAtBottom;
             michal = tangon.channelId;
             michal = oscard.bind(option)(michal);
-            if(michal) { _fun00022_ip = 410; continue _fun00021 }
- 390:
+            if(michal) { _fun00022_ip = 408; continue _fun00021 }
+ 388:
             oscard = _closure1_slot93;
             michal = 'Not at bottom';
             michal = oscard.bind(zuuluu)(tangon, michal);
             michal = false;
             return michal;
- 410:
+ 408:
             option = _closure1_slot11;
             oscard = option.getLayout;
             michal = tangon.channelId;
@@ -813,34 +813,34 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             oscard = verify.getChatOpen;
             michal = tangon.channelId;
             michal = oscard.bind(verify)(michal);
-            if(michal) { _fun00022_ip = 501; continue _fun00021 }
- 453:
+            if(michal) { _fun00022_ip = 499; continue _fun00021 }
+ 451:
             oscard = _closure1_slot45;
             oscard = oscard.NO_CHAT;
-            if(!(option !== oscard)) { _fun00022_ip = 481; continue _fun00021 }
- 467:
+            if(!(option !== oscard)) { _fun00022_ip = 479; continue _fun00021 }
+ 465:
             oscard = _closure1_slot45;
             oscard = oscard.FULL_SCREEN;
-            if(!(option === oscard)) { _fun00022_ip = 501; continue _fun00021 }
- 481:
+            if(!(option === oscard)) { _fun00022_ip = 499; continue _fun00021 }
+ 479:
             option = _closure1_slot93;
             oscard = 'Fullscreen video';
             oscard = option.bind(zuuluu)(tangon, oscard);
             oscard = false;
             return oscard;
- 501:
+ 499:
             verify = _closure1_slot34;
             option = verify.getMessages;
             oscard = tangon.channelId;
             oscard = option.bind(verify)(oscard);
-            if(!(golfie != oscard)) { _fun00022_ip = 619; continue _fun00021 }
- 525:
+            if(!(golfie != oscard)) { _fun00022_ip = 617; continue _fun00021 }
+ 523:
             golfie = oscard.ready;
-            if(!golfie) { _fun00022_ip = 619; continue _fun00021 }
- 534:
+            if(!golfie) { _fun00022_ip = 617; continue _fun00021 }
+ 532:
             oscard = oscard.loadingMore;
-            if(oscard) { _fun00022_ip = 619; continue _fun00021 }
- 543:
+            if(oscard) { _fun00022_ip = 617; continue _fun00021 }
+ 541:
             golfie = _closure1_slot0;
             option = _closure1_slot2;
             oscard = 47;
@@ -848,54 +848,54 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = golfie.bind(zuuluu)(oscard);
             oscard = golfie.isChannelFocused;
             oscard = oscard.bind(golfie)();
-            if(oscard) { _fun00022_ip = 599; continue _fun00021 }
- 576:
-            if(michal) { _fun00022_ip = 599; continue _fun00021 }
- 579:
+            if(oscard) { _fun00022_ip = 597; continue _fun00021 }
+ 574:
+            if(michal) { _fun00022_ip = 597; continue _fun00021 }
+ 577:
             oscard = _closure1_slot93;
             michal = 'Chat not focused';
             michal = oscard.bind(zuuluu)(tangon, michal);
             michal = false;
-            _fun00022_ip = 617; continue _fun00021;
- 599:
+            _fun00022_ip = 615; continue _fun00021;
+ 597:
             golfie = _closure1_slot93;
             oscard = 'Acked';
             oscard = golfie.bind(zuuluu)(tangon, oscard);
             michal = true;
+ 615:
+            _fun00022_ip = 635; continue _fun00021;
  617:
-            _fun00022_ip = 637; continue _fun00021;
- 619:
             oscard = _closure1_slot93;
             report = 'Still loading messages';
             report = oscard.bind(zuuluu)(tangon, report);
             michal = false;
- 637:
+ 635:
             return michal;
- 639:
+ 637:
             report = _closure1_slot93;
             michal = 'Forum-like channel';
             michal = report.bind(zuuluu)(tangon, michal);
             michal = false;
             return michal;
- 659:
+ 657:
             report = _closure1_slot93;
             michal = 'mobile auto ack disabled';
             michal = report.bind(zuuluu)(tangon, michal);
             michal = false;
             return michal;
- 679:
+ 677:
             report = _closure1_slot93;
             michal = 'Is idle';
             michal = report.bind(zuuluu)(tangon, michal);
             michal = false;
             return michal;
- 699:
+ 697:
             report = _closure1_slot93;
             michal = 'In activity';
             michal = report.bind(zuuluu)(tangon, michal);
             michal = false;
             return michal;
- 719:
+ 717:
             michal = _closure1_slot93;
             entity = 'not channel read state';
             entity = michal.bind(zuuluu)(tangon, entity);

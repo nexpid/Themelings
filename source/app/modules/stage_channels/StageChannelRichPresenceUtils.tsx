@@ -138,42 +138,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = report.isSpeaker;
             zuuluu = entity.id;
             zuuluu = tangon.bind(report)(oscard, zuuluu);
-            tangon = 0;
+            golfie = 0;
             if(!zuuluu) { _fun00004_ip = 49; continue _fun00003 }
  46:
-            tangon = 1;
+            golfie = 1;
  49:
-            oscard = _closure1_slot3;
-            report = oscard.getGuild;
+            report = _closure1_slot3;
+            tangon = report.getGuild;
             zuuluu = entity.getGuildId;
             zuuluu = zuuluu.bind(entity)();
-            golfie = report.bind(oscard)(zuuluu);
-            zuuluu = null;
-            report = tangon;
-            if(!(zuuluu != golfie)) { _fun00004_ip = 153; continue _fun00003 }
+            zuuluu = tangon.bind(report)(zuuluu);
+            tangon = null;
+            report = golfie;
+            if(!(tangon != zuuluu)) { _fun00004_ip = 163; continue _fun00003 }
  82:
-            oscard = golfie.hasFeature;
-            zuuluu = _closure1_slot6;
-            zuuluu = zuuluu.PARTNERED;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            oscard = tangon;
-            if(!zuuluu) { _fun00004_ip = 116; continue _fun00003 }
- 109:
-            zuuluu = 2;
-            oscard = tangon | zuuluu;
- 116:
-            tangon = golfie.hasFeature;
+            option = zuuluu.features;
+            oscard = option.has;
+            tangon = _closure1_slot6;
+            tangon = tangon.PARTNERED;
+            tangon = oscard.bind(option)(tangon);
+            oscard = golfie;
+            if(!tangon) { _fun00004_ip = 121; continue _fun00003 }
+ 114:
+            tangon = 2;
+            oscard = golfie | tangon;
+ 121:
+            golfie = zuuluu.features;
+            tangon = golfie.has;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.VERIFIED;
             tangon = tangon.bind(golfie)(zuuluu);
             zuuluu = oscard;
-            if(!tangon) { _fun00004_ip = 150; continue _fun00003 }
- 143:
+            if(!tangon) { _fun00004_ip = 160; continue _fun00003 }
+ 153:
             tangon = 4;
             zuuluu = oscard | tangon;
- 150:
+ 160:
             report = zuuluu;
- 153:
+ 163:
             tangon = report.toString;
             zuuluu = 16;
             yankee = tangon.bind(report)(zuuluu);

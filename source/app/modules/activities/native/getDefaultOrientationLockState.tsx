@@ -74,7 +74,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = undefined;
             tangon = zuuluu.bind(michal)(report);
  26:
-            if(!(entity != tangon)) { _fun00004_ip = 90; continue _fun00003 }
+            if(!(entity != tangon)) { _fun00004_ip = 88; continue _fun00003 }
  30:
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['applicationId'] = report;
             entity['lockState'] = tangon;
             entity = michal.bind(zuuluu)(entity);
- 90:
+ 88:
             entity = undefined;
             return entity;
         }

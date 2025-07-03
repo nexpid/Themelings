@@ -611,6 +611,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['lastRecvSeqNum'] = michal;
                 entity['sessionId'] = michal;
                 entity['serverId'] = michal;
+                entity['channelId'] = michal;
                 entity['token'] = michal;
                 michal = false;
                 entity['resumable'] = michal;
@@ -700,7 +701,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.HermesInternal;
                 golfie = zuuluu.concat;
                 report = '';
-                zuuluu = '?v=8';
+                zuuluu = '?v=9';
                 offset = golfie.bind(report)(option, zuuluu);
                 report = oscard.prototype;
                 report = Object.create(report, {constructor: {value: oscard}});
@@ -1493,37 +1494,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = michal.bind(report)();
                 report = zuuluu.serverId;
                 oscard = null;
-                if(!(oscard !== report)) { _fun00024_ip = 106; continue _fun00023 }
+                if(!(oscard !== report)) { _fun00024_ip = 115; continue _fun00023 }
  49:
+                report = zuuluu.channelId;
+                if(!(oscard !== report)) { _fun00024_ip = 115; continue _fun00023 }
+ 58:
                 report = zuuluu.token;
-                if(!(oscard !== report)) { _fun00024_ip = 106; continue _fun00023 }
- 59:
+                if(!(oscard !== report)) { _fun00024_ip = 115; continue _fun00023 }
+ 68:
                 report = zuuluu.sessionId;
-                if(!(oscard !== report)) { _fun00024_ip = 106; continue _fun00023 }
- 69:
-                report = zuuluu.resumable;
-                if(!report) { _fun00024_ip = 106; continue _fun00023 }
+                if(!(oscard !== report)) { _fun00024_ip = 115; continue _fun00023 }
  78:
+                report = zuuluu.resumable;
+                if(!report) { _fun00024_ip = 115; continue _fun00023 }
+ 87:
                 report = zuuluu.lastHeartbeatAckTime;
-                if(!(oscard != report)) { _fun00024_ip = 139; continue _fun00023 }
- 88:
+                if(!(oscard != report)) { _fun00024_ip = 148; continue _fun00023 }
+ 97:
                 report = zuuluu.lastHeartbeatAckTime;
                 oscard = michal - report;
                 report = _closure1_slot16;
-                if(!(!(oscard <= report))) { _fun00024_ip = 139; continue _fun00023 }
- 106:
+                if(!(!(oscard <= report))) { _fun00024_ip = 148; continue _fun00023 }
+ 115:
                 golfie = zuuluu.disconnect;
                 tangon = _closure1_slot13;
                 oscard = tangon.UNRESUMABLE;
                 report = false;
                 tangon = 'Cannot resume connection.';
                 tangon = golfie.bind(zuuluu)(report, oscard, tangon);
-                _fun00024_ip = 157; continue _fun00023;
- 139:
+                _fun00024_ip = 166; continue _fun00023;
+ 148:
                 tangon = zuuluu.doResume;
                 tangon = tangon.bind(zuuluu)();
                 zuuluu['lastHeartbeatAckTime'] = michal;
- 157:
+ 166:
                 return entity;
             }
         };
@@ -1548,28 +1552,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = zuuluu.info;
                 entity = tangon.serverId;
                 golfie = oscard != entity;
-                offset = '';
-                verify = offset;
+                romeon = '';
+                yankee = romeon;
                 if(!golfie) { _fun00026_ip = 61; continue _fun00025 }
  58:
-                verify = entity;
+                yankee = entity;
  61:
+                entity = tangon.channelId;
+                golfie = oscard != entity;
+                offset = romeon;
+                if(!golfie) { _fun00026_ip = 79; continue _fun00025 }
+ 76:
+                offset = entity;
+ 79:
                 entity = tangon.sessionId;
                 oscard = oscard != entity;
-                if(!oscard) { _fun00026_ip = 77; continue _fun00025 }
- 74:
-                offset = entity;
- 77:
+                if(!oscard) { _fun00026_ip = 95; continue _fun00025 }
+ 92:
+                romeon = entity;
+ 95:
                 entity = global;
                 entity = entity.HermesInternal;
-                option = entity.concat;
-                sizing = '[RESUME] resuming session. serverId=';
-                backup = ' sessionId=';
-                romeon = ' seqAck=';
-                kiloes = verify;
-                foxtra = offset;
-                yankee = report;
-                entity = sizing[option](kiloes, backup, foxtra, romeon, yankee, offset);
+                verify = entity.concat;
+                update = '[RESUME] resuming session. serverId=';
+                result = ' channelId=';
+                sizing = ' sessionId=';
+                backup = ' seqAck=';
+                echoed = yankee;
+                output = offset;
+                kiloes = romeon;
+                foxtra = report;
+                entity = update[verify](echoed, result, output, sizing, kiloes, backup, foxtra, romeon);
                 entity = michal.bind(zuuluu)(entity);
                 zuuluu = tangon.emit;
                 michal = _closure1_slot18;
@@ -1588,6 +1601,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['session_id'] = oscard;
                 oscard = tangon.serverId;
                 entity['server_id'] = oscard;
+                oscard = tangon.channelId;
+                entity['channel_id'] = oscard;
                 entity['seq_ack'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 entity = undefined;
@@ -1993,6 +2008,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = this;
             entity = null;
             michal['serverId'] = entity;
+            michal['channelId'] = entity;
             michal['sessionId'] = entity;
             michal['token'] = entity;
             zuuluu = false;
@@ -2414,19 +2430,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 michal = argFoo;
                 report = this;
-                foxtra = michal.serverId;
+                backup = michal.serverId;
+                foxtra = michal.channelId;
                 romeon = michal.userId;
                 yankee = michal.sessionId;
                 offset = michal.token;
                 verify = michal.maxDaveProtocolVersion;
                 option = michal.video;
                 entity = undefined;
-                if(!(option === entity)) { _fun00052_ip = 49; continue _fun00051 }
- 47:
+                if(!(option === entity)) { _fun00052_ip = 54; continue _fun00051 }
+ 52:
                 option = false;
- 49:
+ 54:
                 golfie = michal.streamParameters;
-                report['serverId'] = foxtra;
+                report['serverId'] = backup;
+                report['channelId'] = foxtra;
                 report['sessionId'] = yankee;
                 report['token'] = offset;
                 michal = _closure1_slot14;
@@ -2436,7 +2454,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure1_slot12;
                 zuuluu = michal.IDENTIFY;
                 michal = {};
-                michal['server_id'] = foxtra;
+                michal['server_id'] = backup;
+                michal['channel_id'] = foxtra;
                 michal['user_id'] = romeon;
                 michal['session_id'] = yankee;
                 michal['token'] = offset;

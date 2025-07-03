@@ -127,7 +127,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 if(michal) { _fun00002_ip = 21; continue _fun00001 }
  16:
                 tangon = report;
-                _fun00002_ip = 37; continue _fun00001;
+                _fun00002_ip = 39; continue _fun00001;
  21:
                 zuuluu = report.sort;
                 michal = function(argFoo, argBar) {
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 tangon = zuuluu.bind(report)(michal);
- 37:
+ 39:
                 zuuluu = tangon.map;
                 michal = function(argFoo) {
                     zuuluu = _closure1_slot4;

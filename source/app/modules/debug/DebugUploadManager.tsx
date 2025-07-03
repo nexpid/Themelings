@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 1099; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 1093; continue _fun00003 }
  12:
                     zuuluu = argFoo;
                     michal = undefined;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  118:
                     golfie = romeon != golfie;
                     romeon = '';
-                    if(!golfie) { _fun00004_ip = 177; continue _fun00003 }
+                    if(!golfie) { _fun00004_ip = 175; continue _fun00003 }
  129:
                     golfie = global;
                     backup = golfie.Promise;
@@ -266,27 +266,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     variable40 = foxtra;
                     golfie = new variable40[backup](variable39, variable38);
                     golfie = golfie instanceof Object ? golfie : foxtra;
-                    SaveGenerator(address=168);
- 166:
+                    SaveGenerator(address=166);
+ 164:
                     return golfie;
- 168:
+ 166:
                     ResumeGenerator(result_out_reg=6, return_bool_out_reg=12);
                     romeon = golfie;
-                    if(foxtra) { _fun00004_ip = 182; continue _fun00003 }
- 177:
+                    if(foxtra) { _fun00004_ip = 180; continue _fun00003 }
+ 175:
                     offset = romeon;
- 180: // try_end1
-                    _fun00004_ip = 211; continue _fun00003;
- 182: // try_end4
+ 178: // try_end1
+                    _fun00004_ip = 209; continue _fun00003;
+ 180: // try_end4
                     return golfie;
- 185: // try_start_5 // catch_target1
+ 183: // try_start_5 // catch_target1
                     CatchBlockStart(arg_register=12);
                     golfie = global;
                     golfie = golfie.HermesInternal;
                     romeon = golfie.concat;
                     golfie = 'System Logs failed ';
                     offset = romeon.bind(golfie)(foxtra);
- 211: // try_start_2
+ 209: // try_start_2
                     romeon = _closure1_slot1;
                     foxtra = _closure1_slot3;
                     golfie = 9;
@@ -307,26 +307,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     report = golfie.bind(romeon)(report);
-                    SaveGenerator(address=259);
- 257:
+                    SaveGenerator(address=255);
+ 253:
                     return report;
- 259:
+ 255:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 270; continue _fun00003 }
- 265:
+                    if(golfie) { _fun00004_ip = 266; continue _fun00003 }
+ 261:
                     option = report;
- 268: // try_end2
-                    _fun00004_ip = 299; continue _fun00003;
- 270: // try_end5
+ 264: // try_end2
+                    _fun00004_ip = 295; continue _fun00003;
+ 266: // try_end5
                     return report;
- 273: // try_start_6 // catch_target2
+ 269: // try_start_6 // catch_target2
                     CatchBlockStart(arg_register=11);
                     report = global;
                     report = report.HermesInternal;
                     golfie = report.concat;
                     report = 'Push logs failed: ';
                     option = golfie.bind(report)(romeon);
- 299: // try_start_3
+ 295: // try_start_3
                     golfie = _closure1_slot0;
                     romeon = _closure1_slot3;
                     report = 11;
@@ -338,21 +338,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = null;
                     golfie = report != golfie;
                     report = '';
-                    if(!golfie) { _fun00004_ip = 351; continue _fun00003 }
- 348:
+                    if(!golfie) { _fun00004_ip = 347; continue _fun00003 }
+ 344:
                     report = oscard;
- 351:
+ 347:
                     verify = report;
- 354: // try_end3
-                    _fun00004_ip = 382; continue _fun00003;
- 356: // catch_target3
+ 350: // try_end3
+                    _fun00004_ip = 378; continue _fun00003;
+ 352: // catch_target3
                     CatchBlockStart(arg_register=6);
                     report = global;
                     report = report.HermesInternal;
                     oscard = report.concat;
                     report = 'LibDiscore logs failed: ';
                     verify = oscard.bind(report)(golfie);
- 382:
+ 378:
                     report = yankee;
                     oscard = report.length;
                     report = offset;
@@ -366,8 +366,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = oscard + report;
                     tangon = oscard;
                     report = _closure1_slot7;
-                    if(!(oscard > report)) { _fun00004_ip = 652; continue _fun00003 }
- 443:
+                    if(!(oscard > report)) { _fun00004_ip = 648; continue _fun00003 }
+ 439:
                     report = _closure1_slot7;
                     report = report / tangon;
                     tangon = 1;
@@ -413,23 +413,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = foxtra.bind(backup)(tangon);
                     tangon = romeon - tangon;
                     verify = report.bind(oscard)(tangon);
- 652:
+ 648:
                     tangon = _closure1_slot10;
                     oscard = null;
                     report = oscard == tangon;
                     tangon = undefined;
-                    if(report) { _fun00004_ip = 677; continue _fun00003 }
- 667:
+                    if(report) { _fun00004_ip = 673; continue _fun00003 }
+ 663:
                     report = _closure1_slot10;
                     tangon = report.AppOpenedTimestamp;
- 677:
+ 673:
                     tangon = oscard != tangon;
                     oscard = null;
-                    if(!tangon) { _fun00004_ip = 696; continue _fun00003 }
- 686:
+                    if(!tangon) { _fun00004_ip = 692; continue _fun00003 }
+ 682:
                     tangon = _closure1_slot10;
                     oscard = tangon.AppOpenedTimestamp;
- 696:
+ 692:
                     kiloes = _closure1_slot1;
                     report = _closure1_slot3;
                     tangon = 12;
@@ -500,17 +500,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard['Content-Type'] = golfie;
                     zuuluu['headers'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
-                    SaveGenerator(address=1037);
- 1035:
+                    SaveGenerator(address=1031);
+ 1029:
                     return zuuluu;
- 1037:
+ 1031:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 1045; continue _fun00003 }
- 1043: // try_end6
-                    _fun00004_ip = 1096; continue _fun00003;
- 1045:
+                    if(tangon) { _fun00004_ip = 1039; continue _fun00003 }
+ 1037: // try_end6
+                    _fun00004_ip = 1090; continue _fun00003;
+ 1039:
                     return zuuluu;
- 1048: // catch_target4 // catch_target5 // catch_target6
+ 1042: // catch_target4 // catch_target5 // catch_target6
                     CatchBlockStart(arg_register=2);
                     report = _closure1_slot8;
                     tangon = report.error;
@@ -521,9 +521,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = 'uploadAppLogFiles: upload app log files error ';
                     zuuluu = oscard.bind(zuuluu)(golfie);
                     zuuluu = tangon.bind(report)(zuuluu);
- 1096:
+ 1090:
                     return michal;
- 1099:
+ 1093:
                     return entity;
                 }
             };

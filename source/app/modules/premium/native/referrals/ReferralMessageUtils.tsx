@@ -37,7 +37,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
             entity = zuuluu.hasFetchedSubscriptions;
             entity = entity.bind(zuuluu)();
             zuuluu = _closure1_slot1;
-            michal = zuuluu.shouldFetchOffer;
+            michal = zuuluu.isFetchingOffer;
             michal = michal.bind(zuuluu)();
             if(!entity) { _fun00002_ip = 53; continue _fun00001 }
  47:

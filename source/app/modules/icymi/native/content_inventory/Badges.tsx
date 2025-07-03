@@ -36,8 +36,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify = golfie.bind(option)(tangon, zuuluu);
             tangon = _closure1_slot7;
-            if(entity) { _fun00002_ip = 179; continue _fun00001 }
- 102:
+            if(entity) { _fun00002_ip = 181; continue _fun00001 }
+ 104:
             option = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 10;
@@ -55,13 +55,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.bind(option)(oscard, verify);
             entity['children'] = golfie;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 196; continue _fun00001;
- 179:
+            _fun00002_ip = 198; continue _fun00001;
+ 181:
             zuuluu = _closure1_slot11;
             michal = {};
             michal['entry'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 196:
+ 198:
             return entity;
         }
     };

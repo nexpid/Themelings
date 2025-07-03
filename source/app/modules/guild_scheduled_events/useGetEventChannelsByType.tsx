@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  48:
             michal = zuuluu.@@iterator;
  54:
-            if(michal) { _fun00002_ip = 344; continue _fun00001 }
+            if(michal) { _fun00002_ip = 342; continue _fun00001 }
  60:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 344:
+ 342:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -357,15 +357,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.bind(oscard)(zuuluu, entity);
             entity = tangon.isGuildStageVoice;
             entity = entity.bind(tangon)();
-            if(!entity) { _fun00010_ip = 128; continue _fun00009 }
- 125:
+            if(!entity) { _fun00010_ip = 124; continue _fun00009 }
+ 121:
             entity = michal;
- 128:
-            if(!entity) { _fun00010_ip = 137; continue _fun00009 }
- 131:
+ 124:
+            if(!entity) { _fun00010_ip = 133; continue _fun00009 }
+ 127:
             michal = null;
             entity = michal == zuuluu;
- 137:
+ 133:
             return entity;
         }
     };
@@ -398,10 +398,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report.bind(oscard)(tangon, entity, michal);
             entity = zuuluu.isGuildVoice;
             entity = entity.bind(zuuluu)();
-            if(!entity) { _fun00012_ip = 89; continue _fun00011 }
- 86:
+            if(!entity) { _fun00012_ip = 87; continue _fun00011 }
+ 84:
             entity = michal;
- 89:
+ 87:
             return entity;
         }
     };

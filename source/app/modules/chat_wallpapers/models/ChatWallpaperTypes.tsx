@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             entity = null;
             michal = entity != zuuluu;
             entity = undefined;
-            if(!michal) { _fun00002_ip = 45; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 41; continue _fun00001 }
  14:
             michal = {};
             tangon = zuuluu.wallpaper_id;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = zuuluu.setter_id;
             michal['setterId'] = zuuluu;
             entity = michal;
- 45:
+ 41:
             return entity;
         }
     };

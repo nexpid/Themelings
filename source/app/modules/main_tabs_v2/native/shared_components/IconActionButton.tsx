@@ -127,10 +127,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         output = golfie.bind(entity)(sizing);
         sizing = output.isAndroid;
         sizing = sizing.bind(output)();
-        if(!sizing) { _fun00002_ip = 383; continue _fun00001 }
- 377:
+        if(!sizing) { _fun00002_ip = 381; continue _fun00001 }
+ 375:
         kiloes = -2;
- 383:
+ 381:
         romeon['marginTop'] = kiloes;
         oscard['actionText'] = romeon;
         romeon = {'position': 'absolute', 'left': 4294967294, 'top': 4294967295};
@@ -211,18 +211,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 entity = golfie.bind(option)(entity, zuuluu);
                 zuuluu = null;
-                if(!(zuuluu == report)) { _fun00006_ip = 96; continue _fun00005 }
- 90:
+                if(!(zuuluu == report)) { _fun00006_ip = 94; continue _fun00005 }
+ 88:
                 entity = entity.bind(tangon)();
-                _fun00006_ip = 120; continue _fun00005;
- 96:
+                _fun00006_ip = 118; continue _fun00005;
+ 94:
                 zuuluu = _closure1_slot4;
                 michal = {};
                 golfie = 'sm';
                 michal['size'] = golfie;
                 michal['color'] = oscard;
                 entity = zuuluu.bind(tangon)(report, michal);
- 120:
+ 118:
                 return entity;
             }
         };

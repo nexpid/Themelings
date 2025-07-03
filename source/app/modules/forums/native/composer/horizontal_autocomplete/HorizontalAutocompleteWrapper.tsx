@@ -125,15 +125,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = oscard.type;
                     michal = _closure1_slot5;
                     michal = michal.USER;
-                    if(!(michal !== zuuluu)) { _fun00006_ip = 313; continue _fun00005 }
+                    if(!(michal !== zuuluu)) { _fun00006_ip = 307; continue _fun00005 }
  39:
                     michal = _closure1_slot5;
                     michal = michal.ROLE;
-                    if(!(michal !== zuuluu)) { _fun00006_ip = 224; continue _fun00005 }
+                    if(!(michal !== zuuluu)) { _fun00006_ip = 220; continue _fun00005 }
  56:
                     michal = _closure1_slot5;
                     michal = michal.CHANNEL;
-                    if(!(michal !== zuuluu)) { _fun00006_ip = 156; continue _fun00005 }
+                    if(!(michal !== zuuluu)) { _fun00006_ip = 154; continue _fun00005 }
  70:
                     michal = _closure1_slot5;
                     michal = michal.EMOJI;
@@ -166,7 +166,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal[option] = verify;
                     michal = golfie.bind(tangon)(zuuluu, michal);
                     return michal;
- 156:
+ 154:
                     golfie = _closure1_slot6;
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -191,7 +191,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal[option] = verify;
                     michal = golfie.bind(tangon)(zuuluu, michal);
                     return michal;
- 224:
+ 220:
                     golfie = _closure1_slot6;
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal[option] = verify;
                     michal = golfie.bind(tangon)(zuuluu, michal);
                     return michal;
- 313:
+ 307:
                     tangon = _closure1_slot6;
                     michal = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -255,10 +255,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = option.length;
             foxtra = 0;
             entity = entity > foxtra;
-            if(!entity) { _fun00002_ip = 214; continue _fun00001 }
- 211:
+            if(!entity) { _fun00002_ip = 210; continue _fun00001 }
+ 207:
             foxtra = 1;
- 214:
+ 210:
             _closure2_slot5 = foxtra;
             kiloes = _closure1_slot0;
             oscard = _closure1_slot2;

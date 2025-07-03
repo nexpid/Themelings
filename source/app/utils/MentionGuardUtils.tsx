@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  48:
             michal = zuuluu.@@iterator;
  54:
-            if(michal) { _fun00002_ip = 344; continue _fun00001 }
+            if(michal) { _fun00002_ip = 342; continue _fun00001 }
  60:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -139,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             return entity;
- 344:
+ 342:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -192,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot1 = michal;
             tangon = zuuluu.isThread;
             tangon = tangon.bind(zuuluu)();
-            if(tangon) { _fun00008_ip = 94; continue _fun00007 }
+            if(tangon) { _fun00008_ip = 92; continue _fun00007 }
  31:
             golfie = _closure1_slot3;
             oscard = golfie.getProps;
@@ -229,18 +229,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             tangon = report.bind(oscard)(tangon);
             entity = _closure2_slot1;
-            _fun00008_ip = 117; continue _fun00007;
- 94:
+            _fun00008_ip = 115; continue _fun00007;
+ 92:
             zuuluu = zuuluu.memberCount;
             tangon = null;
             tangon = tangon != zuuluu;
             michal = 0;
-            if(!tangon) { _fun00008_ip = 114; continue _fun00007 }
- 111:
+            if(!tangon) { _fun00008_ip = 112; continue _fun00007 }
+ 109:
             michal = zuuluu;
- 114:
+ 112:
             entity = michal;
- 117:
+ 115:
             return entity;
         }
     };

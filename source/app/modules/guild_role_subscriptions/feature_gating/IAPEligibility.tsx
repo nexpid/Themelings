@@ -140,8 +140,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot4;
             zuuluu = tangon.every;
             michal = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.hasFeature;
+                entity = _closure2_slot0;
+                zuuluu = entity.features;
+                michal = zuuluu.has;
                 entity = argFoo;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
@@ -229,8 +230,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = _closure1_slot4;
                     zuuluu = tangon.every;
                     michal = function(argFoo) {
-                        zuuluu = _closure3_slot0;
-                        michal = zuuluu.hasFeature;
+                        entity = _closure3_slot0;
+                        zuuluu = entity.features;
+                        michal = zuuluu.has;
                         entity = argFoo;
                         entity = michal.bind(zuuluu)(entity);
                         return entity;

@@ -271,10 +271,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot24;
             tangon = undefined;
             result = entity.bind(tangon)();
-            michal = offset.hasFeature;
+            zuuluu = offset.features;
+            michal = zuuluu.has;
             entity = _closure1_slot19;
             entity = entity.HUB;
-            option = michal.bind(offset)(entity);
+            option = michal.bind(zuuluu)(entity);
             zuuluu = _closure1_slot21;
             michal = _closure1_slot22;
             entity = {};
@@ -379,8 +380,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = oscard;
             oscard = null;
-            if(!option) { _fun00006_ip = 592; continue _fun00005 }
- 549:
+            if(!option) { _fun00006_ip = 597; continue _fun00005 }
+ 554:
             verify = _closure1_slot20;
             option = _closure1_slot1;
             yankee = _closure1_slot3;
@@ -392,7 +393,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = true;
             golfie['onDirectoryPage'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 592:
+ 597:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

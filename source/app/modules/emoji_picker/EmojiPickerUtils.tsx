@@ -1514,25 +1514,24 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
             entity = argFoo;
-            tangon = argBar;
-            zuuluu = entity.type;
+            zuuluu = argBar;
+            tangon = entity.type;
             michal = _closure1_slot9;
             michal = michal.GUILD;
-            if(!(zuuluu !== michal)) { _fun00032_ip = 35; continue _fun00031 }
+            if(!(tangon !== michal)) { _fun00032_ip = 35; continue _fun00031 }
  28:
             entity = entity.id;
-            _fun00032_ip = 60; continue _fun00031;
+            _fun00032_ip = 56; continue _fun00031;
  35:
             michal = null;
-            zuuluu = michal != tangon;
+            tangon = michal != zuuluu;
             michal = '';
-            if(!zuuluu) { _fun00032_ip = 57; continue _fun00031 }
+            if(!tangon) { _fun00032_ip = 53; continue _fun00031 }
  48:
-            zuuluu = tangon.toString;
-            michal = zuuluu.bind(tangon)();
- 57:
+            michal = zuuluu.name;
+ 53:
             entity = michal;
- 60:
+ 56:
             return entity;
         }
     };

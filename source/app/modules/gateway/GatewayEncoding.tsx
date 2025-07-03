@@ -116,20 +116,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         tangon = michal.bind(entity)();
         michal = tangon;
-        if(!(entity !== golfie)) { _fun00002_ip = 120; continue _fun00001 }
- 117:
+        if(!(entity !== golfie)) { _fun00002_ip = 122; continue _fun00001 }
+ 119:
         michal = golfie;
- 120:
+ 122:
         golfie = 3;
         golfie = oscard[golfie];
         golfie = report.bind(entity)(golfie);
         option = golfie.ProcessArgs;
         golfie = option.isDiscordGatewayPlaintextSet;
         golfie = golfie.bind(option)();
-        if(!golfie) { _fun00002_ip = 154; continue _fun00001 }
- 151:
+        if(!golfie) { _fun00002_ip = 156; continue _fun00001 }
+ 153:
         michal = tangon;
- 154:
+ 156:
         tangon = 4;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);

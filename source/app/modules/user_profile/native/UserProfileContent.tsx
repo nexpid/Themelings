@@ -107,35 +107,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = oscard.useRef;
             zuuluu = null;
             michal = null;
-            if(!backup) { _fun00002_ip = 268; continue _fun00001 }
- 225:
+            if(!backup) { _fun00002_ip = 272; continue _fun00001 }
+ 229:
             backup = zuuluu == romeon;
             michal = null;
-            if(!backup) { _fun00002_ip = 268; continue _fun00001 }
- 234:
+            if(!backup) { _fun00002_ip = 272; continue _fun00001 }
+ 238:
             michal = null;
-            if(!option) { _fun00002_ip = 268; continue _fun00001 }
- 239:
+            if(!option) { _fun00002_ip = 272; continue _fun00001 }
+ 243:
             michal = null;
-            if(offset) { _fun00002_ip = 268; continue _fun00001 }
- 244:
+            if(offset) { _fun00002_ip = 272; continue _fun00001 }
+ 248:
             kiloes = _closure1_slot1;
             sizing = _closure1_slot2;
             backup = 16;
             backup = sizing[backup];
             backup = kiloes.bind(tangon)(backup);
             michal = backup.bind(tangon)();
- 268:
+ 272:
             report = report.bind(oscard)(michal);
             michal = report.current;
             michal = zuuluu != michal;
             oscard = undefined;
-            if(!michal) { _fun00002_ip = 301; continue _fun00001 }
- 287:
+            if(!michal) { _fun00002_ip = 305; continue _fun00001 }
+ 291:
             zuuluu = report.current;
             michal = zuuluu.label;
             oscard = michal.bind(zuuluu)();
- 301:
+ 305:
             zuuluu = _closure1_slot13;
             michal = _closure1_slot1;
             backup = _closure1_slot2;
@@ -146,16 +146,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['ref'] = foxtra;
             entity['customStatusActivity'] = romeon;
             entity['hasCustomProfileTheme'] = yankee;
-            if(!option) { _fun00002_ip = 347; continue _fun00001 }
- 344:
+            if(!option) { _fun00002_ip = 351; continue _fun00001 }
+ 348:
             option = !offset;
- 347:
+ 351:
             entity['editEnabled'] = option;
             option = undefined;
-            if(offset) { _fun00002_ip = 360; continue _fun00001 }
- 357:
+            if(offset) { _fun00002_ip = 364; continue _fun00001 }
+ 361:
             option = verify;
- 360:
+ 364:
             entity['onPressTruncatedStatus'] = option;
             option = golfie.customStatusBubble;
             entity['style'] = option;
@@ -1036,9 +1036,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot3;
             michal = zuuluu.useRef;
             target = michal.bind(zuuluu)(entity);
-            if(!(entity != result)) { _fun00010_ip = 2806; continue _fun00009 }
+            if(!(entity != result)) { _fun00010_ip = 2815; continue _fun00009 }
  869:
-            if(!(entity != output)) { _fun00010_ip = 2806; continue _fun00009 }
+            if(!(entity != output)) { _fun00010_ip = 2815; continue _fun00009 }
  876:
             whisks = {};
             whisks['backgroundColor'] = sierra;
@@ -1549,7 +1549,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = kiloes.guild_id;
  2327:
             papara = entity != papara;
-            if(!papara) { _fun00010_ip = 2393; continue _fun00009 }
+            if(!papara) { _fun00010_ip = 2402; continue _fun00009 }
  2334:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
@@ -1562,10 +1562,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['currentUser'] = output;
             equals = kiloes.guild_id;
             target['guildId'] = equals;
+            equals = kiloes.id;
+            target['channelId'] = equals;
             target['showUserProfile'] = limora;
             target['style'] = whisks;
             papara = sierra.bind(report)(status, target);
- 2393:
+ 2402:
             cntext[6] = papara;
             quebec = _closure1_slot13;
             target = _closure1_slot0;
@@ -1591,8 +1593,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = status.bind(report)(target, papara);
             cntext[8] = papara;
             papara = !golfie;
-            if(!papara) { _fun00010_ip = 2552; continue _fun00009 }
- 2502:
+            if(!papara) { _fun00010_ip = 2561; continue _fun00009 }
+ 2511:
             sierra = _closure1_slot13;
             status = _closure1_slot1;
             equals = _closure1_slot2;
@@ -1605,7 +1607,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['style'] = whisks;
             target['onBack'] = limora;
             papara = sierra.bind(report)(status, target);
- 2552:
+ 2561:
             cntext[9] = papara;
             sequen['children'] = cntext;
             sequen = record.bind(report)(config, sequen);
@@ -1617,8 +1619,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.bind(report)(verify, option);
             oscard[1] = option;
             golfie = !golfie;
-            if(!golfie) { _fun00010_ip = 2790; continue _fun00009 }
- 2607:
+            if(!golfie) { _fun00010_ip = 2799; continue _fun00009 }
+ 2616:
             offset = _closure1_slot14;
             verify = _closure1_slot4;
             option = {};
@@ -1627,35 +1629,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = result.id;
             yankee = output.id;
             foxtra = null;
-            if(!(update !== yankee)) { _fun00010_ip = 2718; continue _fun00009 }
- 2643:
+            if(!(update !== yankee)) { _fun00010_ip = 2727; continue _fun00009 }
+ 2652:
             yankee = result.bot;
             foxtra = null;
-            if(yankee) { _fun00010_ip = 2718; continue _fun00009 }
- 2654:
+            if(yankee) { _fun00010_ip = 2727; continue _fun00009 }
+ 2663:
             yankee = _closure1_slot11;
             yankee = yankee.FRIEND;
-            if(!(echoed !== yankee)) { _fun00010_ip = 2695; continue _fun00009 }
- 2668:
+            if(!(echoed !== yankee)) { _fun00010_ip = 2704; continue _fun00009 }
+ 2677:
             yankee = null;
-            if(!backup) { _fun00010_ip = 2693; continue _fun00009 }
- 2673:
+            if(!backup) { _fun00010_ip = 2702; continue _fun00009 }
+ 2682:
             update = _closure1_slot13;
             echoed = _closure1_slot18;
             backup = {};
             backup['user'] = result;
             yankee = update.bind(report)(echoed, backup);
- 2693:
-            _fun00010_ip = 2715; continue _fun00009;
- 2695:
+ 2702:
+            _fun00010_ip = 2724; continue _fun00009;
+ 2704:
             update = _closure1_slot13;
             echoed = _closure1_slot17;
             backup = {};
             backup['user'] = result;
             yankee = update.bind(report)(echoed, backup);
- 2715:
+ 2724:
             foxtra = yankee;
- 2718:
+ 2727:
             yankee = new Array(2);
             yankee[0] = foxtra;
             backup = _closure1_slot13;
@@ -1673,12 +1675,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee[1] = romeon;
             option['children'] = yankee;
             golfie = offset.bind(report)(verify, option);
- 2790:
+ 2799:
             oscard[2] = golfie;
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 2806:
+ 2815:
             return entity;
         }
     };

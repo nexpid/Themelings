@@ -5489,7 +5489,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00080_ip = 195; continue _fun00079 }
+                        if(michal) { _fun00080_ip = 191; continue _fun00079 }
  12:
                         zuuluu = function() { // Original name: dispatchDelete
                             zuuluu = _closure1_slot1;
@@ -5535,7 +5535,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         };
                         var _closure4_slot0 = zuuluu;
                         michal = _closure2_slot2;
-                        if(michal) { _fun00080_ip = 184; continue _fun00079 }
+                        if(michal) { _fun00080_ip = 180; continue _fun00079 }
  34:
                         report = _closure1_slot1;
                         oscard = _closure1_slot2;
@@ -5551,7 +5551,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         return michal;
  78:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00080_ip = 181; continue _fun00079 }
+                        if(report) { _fun00080_ip = 177; continue _fun00079 }
  84:
                         oscard = _closure1_slot0;
                         offset = _closure1_slot2;
@@ -5576,16 +5576,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         };
                         tangon = report.bind(oscard)(tangon);
-                        _fun00080_ip = 190; continue _fun00079;
- 181:
+                        _fun00080_ip = 186; continue _fun00079;
+ 177:
                         return michal;
- 184:
+ 180:
                         michal = undefined;
                         michal = zuuluu.bind(michal)();
- 190:
+ 186:
                         michal = undefined;
                         return michal;
- 195:
+ 191:
                         return entity;
                     }
                 };

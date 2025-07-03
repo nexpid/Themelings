@@ -451,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = argFoo;
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=4);
-                    if(report) { _fun00008_ip = 842; continue _fun00007 }
+                    if(report) { _fun00008_ip = 848; continue _fun00007 }
  18:
                     offset = tangon;
                     var _closure4_slot0 = tangon;
@@ -480,7 +480,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = option;
                     tangon['onComplete'] = verify;
                     tangon = report.bind(michal)(tangon);
-                    _fun00008_ip = 839; continue _fun00007;
+                    _fun00008_ip = 845; continue _fun00007;
  137: // try_start_0
                     report = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -495,7 +495,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  176:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00008_ip = 637; continue _fun00007 }
+                    if(tangon) { _fun00008_ip = 641; continue _fun00007 }
  185:
                     tangon = zuuluu.failed_requests;
                     report = tangon.length;
@@ -528,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = foxtra.bind(michal)(romeon);
                     tangon['icon'] = romeon;
                     tangon = report.bind(verify)(tangon);
-                    _fun00008_ip = 584; continue _fun00007;
+                    _fun00008_ip = 588; continue _fun00007;
  328:
                     verify = offset;
                     report = verify.map;
@@ -617,7 +617,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     tangon['onConfirm'] = romeon;
                     tangon = report.bind(verify)(tangon);
- 584:
+ 588:
                     report = _closure1_slot33;
                     tangon = {};
                     verify = false;
@@ -629,11 +629,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['back'] = verify;
                     tangon['onComplete'] = option;
                     tangon = report.bind(michal)(tangon);
- 632: // try_end0
-                    _fun00008_ip = 839; continue _fun00007;
- 637:
+ 636: // try_end0
+                    _fun00008_ip = 845; continue _fun00007;
+ 641:
                     return zuuluu;
- 640: // catch_target0
+ 644: // catch_target0
                     CatchBlockStart(arg_register=2);
                     tangon = _closure1_slot1;
                     yankee = _closure1_slot2;
@@ -694,9 +694,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     zuuluu['onConfirm'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 839:
+ 845:
                     return michal;
- 842:
+ 848:
                     return entity;
                 }
             };
@@ -937,7 +937,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  43:
             zuuluu = zuuluu.onComplete;
             golfie = null;
-            if(!(golfie == zuuluu)) { _fun00014_ip = 80; continue _fun00013 }
+            if(!(golfie == zuuluu)) { _fun00014_ip = 82; continue _fun00013 }
  55:
             golfie = function() { // Original name: oldCloseContactSyncModal
                 _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
@@ -1062,8 +1062,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = tangon;
             verify = option;
             golfie = foxtra[golfie](romeon, yankee, offset, verify, option);
-            _fun00014_ip = 103; continue _fun00013;
- 80:
+            _fun00014_ip = 107; continue _fun00013;
+ 82:
             michal = function(argFoo) { // Original name: redesignCloseContactSyncModal
                 _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
@@ -1087,7 +1087,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = arguments[3];
                     tangon['num_contacts_added'] = golfie;
                     tangon = report.bind(oscard)(zuuluu, tangon);
-                    if(michal) { _fun00020_ip = 100; continue _fun00019 }
+                    if(michal) { _fun00020_ip = 102; continue _fun00019 }
  75:
                     michal = global;
                     report = michal.setTimeout;
@@ -1105,11 +1105,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     michal = 0;
                     michal = report.bind(entity)(tangon, michal);
-                    _fun00020_ip = 108; continue _fun00019;
- 100:
+                    _fun00020_ip = 110; continue _fun00019;
+ 102:
                     michal = argFoo;
                     michal = michal.bind(entity)(zuuluu);
- 108:
+ 110:
                     return entity;
                 }
             };
@@ -1119,7 +1119,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = report;
             verify = tangon;
             michal = foxtra[michal](romeon, yankee, offset, verify, option);
- 103:
+ 107:
             return entity;
         }
     };

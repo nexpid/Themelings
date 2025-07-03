@@ -8,27 +8,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: isCreatorMonetizationEnabledGuild
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = argFoo;
-            michal = report.hasFeature;
+            tangon = argFoo;
+            report = tangon.features;
+            michal = report.has;
             entity = _closure1_slot3;
             entity = entity.CREATOR_MONETIZABLE_DISABLED;
             entity = michal.bind(report)(entity);
             entity = !entity;
-            if(!entity) { _fun00002_ip = 81; continue _fun00001 }
- 33:
-            tangon = report.hasFeature;
+            if(!entity) { _fun00002_ip = 96; continue _fun00001 }
+ 38:
+            oscard = tangon.features;
+            report = oscard.has;
             michal = _closure1_slot3;
             michal = michal.CREATOR_MONETIZABLE;
-            michal = tangon.bind(report)(michal);
-            if(michal) { _fun00002_ip = 78; continue _fun00001 }
- 57:
-            tangon = report.hasFeature;
+            michal = report.bind(oscard)(michal);
+            if(michal) { _fun00002_ip = 93; continue _fun00001 }
+ 67:
+            report = tangon.features;
+            tangon = report.has;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.CREATOR_MONETIZABLE_PROVISIONAL;
             michal = tangon.bind(report)(zuuluu);
- 78:
+ 93:
             entity = michal;
- 81:
+ 96:
             return entity;
         }
     };

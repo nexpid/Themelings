@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = zuuluu.DelayedCall;
                 zuuluu = report.prototype;
                 zuuluu = Object.create(zuuluu, {constructor: {value: report}});
-                backup = 2000;
+                backup = 500;
                 foxtra = function() {
                     michal = _closure3_slot0;
                     entity = michal.update;

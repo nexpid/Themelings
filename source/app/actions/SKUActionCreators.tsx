@@ -605,7 +605,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = argFoo;
                     yankee = argBaz;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 338; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 334; continue _fun00009 }
  16:
                     golfie = romeon;
                     offset = argBar;
@@ -637,13 +637,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = yankee.bind(romeon)(offset);
                     michal['url'] = offset;
                     michal = zuuluu.bind(verify)(michal);
-                    SaveGenerator(address=156);
- 154:
+                    SaveGenerator(address=152);
+ 150:
                     return michal;
- 156:
+ 152:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 234; continue _fun00009 }
- 162:
+                    if(zuuluu) { _fun00010_ip = 230; continue _fun00009 }
+ 158:
                     verify = _closure1_slot1;
                     zuuluu = _closure1_slot2;
                     zuuluu = zuuluu[option];
@@ -660,11 +660,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['libraryApplications'] = yankee;
                     zuuluu = verify.bind(offset)(zuuluu);
                     zuuluu = michal.body;
- 231: // try_end0
+ 227: // try_end0
                     return zuuluu;
- 234:
+ 230:
                     return michal;
- 237: // catch_target0
+ 233: // catch_target0
                     CatchBlockStart(arg_register=9);
                     verify = _closure1_slot0;
                     zuuluu = _closure1_slot2;
@@ -690,7 +690,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['error'] = michal;
                     zuuluu = tangon.bind(report)(zuuluu);
                     throw michal;
- 338:
+ 334:
                     return entity;
                 }
             };

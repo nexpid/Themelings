@@ -35,7 +35,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             var _closure2_slot0 = michal;
             tangon = zuuluu.length;
             michal = 0;
-            if(!(michal !== tangon)) { _fun00002_ip = 242; continue _fun00001 }
+            if(!(michal !== tangon)) { _fun00002_ip = 240; continue _fun00001 }
  26:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
@@ -145,7 +145,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             foxtra = report;
             entity = sizing[michal](kiloes, backup, foxtra, romeon, yankee, offset);
             return entity;
- 242:
+ 240:
             entity = 'No logs';
             return entity;
         }

@@ -611,21 +611,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(verify)();
             tangon = option.bind(oscard)(tangon);
             tangon = report[tangon];
+            option = global;
+            verify = option.Date;
+            report = verify.now;
+            verify = report.bind(verify)();
             report = tangon.label_until;
             offset = null;
             report = offset != report;
             if(!report) { _fun00020_ip = 228; continue _fun00019 }
- 184:
-            option = global;
-            source = option.Date;
-            verify = source.now;
-            verify = verify.bind(source)();
+ 201:
+            vacuum = option.Date;
+            ctrled = vacuum.parse;
+            source = tangon.label_until;
+            source = ctrled.bind(vacuum)(source);
+            report = verify < source;
+ 228:
+            if(!report) { _fun00020_ip = 241; continue _fun00019 }
+ 231:
+            source = tangon.label_from;
+            report = offset != source;
+ 241:
+            if(!report) { _fun00020_ip = 271; continue _fun00019 }
+ 244:
             ctrled = option.Date;
             source = ctrled.parse;
-            option = tangon.label_until;
+            option = tangon.label_from;
             option = source.bind(ctrled)(option);
-            report = verify < option;
- 228:
+            report = verify > option;
+ 271:
             verify = _closure1_slot1;
             source = _closure1_slot2;
             option = 6;
@@ -640,8 +653,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = golfie.activity_preview_video_asset_id;
             option = offset != option;
             offset = null;
-            if(!option) { _fun00020_ip = 324; continue _fun00019 }
- 287:
+            if(!option) { _fun00020_ip = 367; continue _fun00019 }
+ 330:
             verify = _closure1_slot1;
             update = _closure1_slot2;
             option = 7;
@@ -650,7 +663,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = romeon.id;
             golfie = golfie.activity_preview_video_asset_id;
             offset = verify.bind(oscard)(option, golfie);
- 324:
+ 367:
             option = _closure1_slot1;
             verify = _closure1_slot2;
             golfie = 8;
@@ -659,10 +672,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             update = echoed.type;
             verify = 'channel';
             golfie = undefined;
-            if(!(verify === update)) { _fun00020_ip = 364; continue _fun00019 }
- 359:
+            if(!(verify === update)) { _fun00020_ip = 407; continue _fun00019 }
+ 402:
             golfie = echoed.channel;
- 364:
+ 407:
             option = option.bind(oscard)(golfie);
             golfie = option.find;
             michal = function(argFoo) {
@@ -703,8 +716,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['joinableEmbeddedApp'] = verify;
             entity['activityAction'] = option;
             entity['onActivityItemSelected'] = golfie;
-            if(report) { _fun00020_ip = 550; continue _fun00019 }
- 516:
+            if(report) { _fun00020_ip = 593; continue _fun00019 }
+ 559:
             report = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 9;
@@ -712,10 +725,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.EmbeddedActivityLabelTypes;
             zuuluu = zuuluu.NONE;
-            _fun00020_ip = 556; continue _fun00019;
- 550:
+            _fun00020_ip = 599; continue _fun00019;
+ 593:
             zuuluu = tangon.label_type;
- 556:
+ 599:
             entity['labelType'] = zuuluu;
             entity['staffReleasePhase'] = michal;
             return entity;

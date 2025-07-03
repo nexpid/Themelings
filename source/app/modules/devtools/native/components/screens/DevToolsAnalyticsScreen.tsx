@@ -350,14 +350,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.bind(report)(golfie);
                     option = golfie.Text;
                     golfie = null;
-                    if(!(golfie == foxtra)) { _fun00006_ip = 236; continue _fun00005 }
+                    if(!(golfie == foxtra)) { _fun00006_ip = 232; continue _fun00005 }
  204:
                     golfie = {'variant': 'text-sm/semibold', 'color': 'text-muted', 'style': null, 'children': 'null'};
                     offset = _closure2_slot1;
                     offset = offset.monospace;
                     golfie['style'] = offset;
-                    _fun00006_ip = 290; continue _fun00005;
- 236:
+                    _fun00006_ip = 286; continue _fun00005;
+ 232:
                     offset = {'variant': 'text-sm/semibold', 'color': 'header-primary'};
                     yankee = _closure2_slot1;
                     yankee = yankee.monospace;
@@ -368,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = yankee.bind(romeon)(foxtra);
                     offset['children'] = yankee;
                     golfie = offset;
- 290:
+ 286:
                     golfie = verify.bind(report)(option, golfie);
                     oscard[1] = golfie;
                     entity['children'] = oscard;

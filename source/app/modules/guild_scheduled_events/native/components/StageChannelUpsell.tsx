@@ -120,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = zuuluu[entity];
             var _closure2_slot2 = yankee;
             entity = null;
-            if(michal) { _fun00002_ip = 731; continue _fun00001 }
+            if(michal) { _fun00002_ip = 727; continue _fun00001 }
  83:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot5;
@@ -342,7 +342,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[5] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 731:
+ 727:
             return entity;
         }
     };

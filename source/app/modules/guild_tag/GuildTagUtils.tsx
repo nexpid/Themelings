@@ -90,8 +90,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['guildHasTag'] = report;
     report = function(argFoo) { // Original name: guildSupportsTags
-        zuuluu = argFoo;
-        michal = zuuluu.hasFeature;
+        entity = argFoo;
+        zuuluu = entity.features;
+        michal = zuuluu.has;
         entity = _closure1_slot6;
         entity = entity.GUILD_TAGS;
         entity = michal.bind(zuuluu)(entity);

@@ -467,18 +467,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = this;
             var _closure3_slot0 = entity;
             entity = entity.props;
-            yankee = entity.guild;
-            var _closure3_slot1 = yankee;
+            zuuluu = entity.guild;
+            var _closure3_slot1 = zuuluu;
             entity = new Array(0);
             var _closure3_slot2 = entity;
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            zuuluu = 19;
-            zuuluu = offset[zuuluu];
+            tangon = 19;
+            tangon = offset[tangon];
             report = undefined;
-            oscard = verify.bind(report)(zuuluu);
+            oscard = verify.bind(report)(tangon);
             tangon = oscard.generateVerificationLevelOptions;
-            option = yankee.hasFeature;
+            yankee = zuuluu.features;
+            option = yankee.has;
             zuuluu = _closure1_slot11;
             zuuluu = zuuluu.COMMUNITY;
             zuuluu = option.bind(yankee)(zuuluu);
@@ -639,19 +640,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = this;
                 var _closure3_slot0 = entity;
                 entity = entity.props;
-                yankee = entity.guild;
-                var _closure3_slot1 = yankee;
+                oscard = entity.guild;
+                var _closure3_slot1 = oscard;
                 offset = entity.isGoreEnabled;
                 entity = new Array(0);
                 var _closure3_slot2 = entity;
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 report = 19;
-                oscard = michal[report];
+                golfie = michal[report];
                 report = undefined;
-                option = zuuluu.bind(report)(oscard);
+                option = zuuluu.bind(report)(golfie);
                 golfie = option.generateContentFilterOptions;
-                verify = yankee.hasFeature;
+                yankee = oscard.features;
+                verify = yankee.has;
                 oscard = _closure1_slot11;
                 oscard = oscard.COMMUNITY;
                 oscard = verify.bind(yankee)(oscard);
@@ -755,15 +757,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = oscard[kiloes];
                 oscard = option.bind(report)(oscard);
                 option = oscard.t;
-                if(offset) { _fun00014_ip = 207; continue _fun00013 }
- 192:
+                if(offset) { _fun00014_ip = 212; continue _fun00013 }
+ 197:
                 oscard = option.Kd6OQU;
                 oscard = verify.bind(yankee)(oscard);
-                _fun00014_ip = 220; continue _fun00013;
- 207:
+                _fun00014_ip = 225; continue _fun00013;
+ 212:
                 option = option.bPgfJy;
                 oscard = verify.bind(yankee)(option);
- 220:
+ 225:
                 michal['title'] = oscard;
                 verify = _closure1_slot16;
                 yankee = _closure1_slot0;
@@ -781,13 +783,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = oscard[kiloes];
                 oscard = backup.bind(report)(oscard);
                 oscard = oscard.t;
-                if(offset) { _fun00014_ip = 307; continue _fun00013 }
- 297:
+                if(offset) { _fun00014_ip = 312; continue _fun00013 }
+ 302:
                 offset = oscard.zOmxND;
-                _fun00014_ip = 315; continue _fun00013;
- 307:
+                _fun00014_ip = 320; continue _fun00013;
+ 312:
                 offset = oscard.BI4ukJ;
- 315:
+ 320:
                 oscard = {};
                 kiloes = _closure1_slot1;
                 sizing = _closure1_slot2;

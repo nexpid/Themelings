@@ -548,14 +548,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             yankee = backup.bind(kiloes)(tangon, yankee);
             backup = !zuuluu;
-            if(backup) { _fun00008_ip = 294; continue _fun00007 }
- 291:
+            if(backup) { _fun00008_ip = 290; continue _fun00007 }
+ 287:
             backup = !entity;
- 294:
+ 290:
             zuuluu = foxtra.burst_count;
             entity = 0;
-            if(!(!(zuuluu > entity))) { _fun00008_ip = 394; continue _fun00007 }
- 306:
+            if(!(!(zuuluu > entity))) { _fun00008_ip = 390; continue _fun00007 }
+ 302:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot9;
             entity = {};
@@ -574,8 +574,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['animate'] = golfie;
             entity['animateCount'] = oscard;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00008_ip = 501; continue _fun00007;
- 394:
+            _fun00008_ip = 497; continue _fun00007;
+ 390:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot8;
             michal = {};
@@ -586,10 +586,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['selected'] = backup;
             backup = foxtra.burst_colors;
             kiloes = null;
-            if(!(kiloes == backup)) { _fun00008_ip = 447; continue _fun00007 }
- 443:
+            if(!(kiloes == backup)) { _fun00008_ip = 443; continue _fun00007 }
+ 439:
             backup = new Array(0);
- 447:
+ 443:
             michal['colors'] = backup;
             foxtra = foxtra.burst_count;
             michal['count'] = foxtra;
@@ -601,7 +601,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['animate'] = golfie;
             michal['animateCount'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 501:
+ 497:
             return entity;
         }
     };

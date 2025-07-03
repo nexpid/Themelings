@@ -500,7 +500,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00012_ip = 308; continue _fun00011 }
+                    if(zuuluu) { _fun00012_ip = 306; continue _fun00011 }
  15:
                     tangon = michal.application;
                     option = michal.applicationId;
@@ -514,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return offset;
  50:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00012_ip = 305; continue _fun00011 }
+                    if(zuuluu) { _fun00012_ip = 303; continue _fun00011 }
  59:
                     zuuluu = null;
                     if(!(zuuluu == tangon)) { _fun00012_ip = 152; continue _fun00011 }
@@ -556,7 +556,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  152:
                     _closure4_slot1 = tangon;
                     zuuluu = zuuluu != tangon;
-                    if(!zuuluu) { _fun00012_ip = 302; continue _fun00011 }
+                    if(!zuuluu) { _fun00012_ip = 300; continue _fun00011 }
  166:
                     verify = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -575,15 +575,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = !tangon;
  231:
                     tangon = !golfie;
-                    if(!golfie) { _fun00012_ip = 299; continue _fun00011 }
+                    if(!golfie) { _fun00012_ip = 297; continue _fun00011 }
  237:
                     golfie = _closure1_slot5;
                     report = golfie.hasActivityEverBeenLaunched;
                     report = report.bind(golfie)(option);
                     golfie = !report;
                     report = !golfie;
-                    if(!golfie) { _fun00012_ip = 296; continue _fun00011 }
- 263:
+                    if(!golfie) { _fun00012_ip = 294; continue _fun00011 }
+ 261:
                     golfie = global;
                     option = golfie.Promise;
                     golfie = option.prototype;
@@ -634,15 +634,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = golfie;
                     oscard = new kiloes[option](backup, foxtra);
                     report = oscard instanceof Object ? oscard : golfie;
- 296:
+ 294:
                     tangon = report;
- 299:
+ 297:
                     zuuluu = tangon;
- 302:
+ 300:
                     return zuuluu;
- 305:
+ 303:
                     return michal;
- 308:
+ 306:
                     return entity;
                 }
             };

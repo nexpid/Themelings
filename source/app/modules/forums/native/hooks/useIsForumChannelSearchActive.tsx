@@ -64,11 +64,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             zuuluu = report.bind(oscard)(tangon, michal, zuuluu);
-            if(!entity) { _fun00002_ip = 105; continue _fun00001 }
- 99:
+            if(!entity) { _fun00002_ip = 103; continue _fun00001 }
+ 97:
             michal = null;
             entity = michal != zuuluu;
- 105:
+ 103:
             return entity;
         }
     };

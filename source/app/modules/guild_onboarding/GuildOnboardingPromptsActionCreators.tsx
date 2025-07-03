@@ -100,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     golfie = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 424; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 429; continue _fun00001 }
  15:
                     tangon = _closure1_slot4;
                     michal = tangon.getId;
@@ -115,45 +115,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = _closure1_slot5;
                     michal = tangon.getMember;
                     tangon = michal.bind(tangon)(golfie, option);
-                    michal = null;
-                    verify = michal == tangon;
-                    option = undefined;
-                    if(verify) { _fun00002_ip = 92; continue _fun00001 }
+                    verify = null;
+                    option = verify == tangon;
+                    michal = undefined;
+                    if(option) { _fun00002_ip = 92; continue _fun00001 }
  87:
-                    option = tangon.flags;
+                    michal = tangon.flags;
  92:
-                    romeon = michal != option;
+                    romeon = verify != michal;
                     tangon = 0;
-                    verify = 0;
+                    option = 0;
                     if(!romeon) { _fun00002_ip = 106; continue _fun00001 }
  103:
-                    verify = option;
+                    option = michal;
  106:
-                    option = _closure1_slot12;
-                    option = option.COMPLETED_ONBOARDING;
-                    option = offset.bind(yankee)(verify, option);
+                    michal = _closure1_slot12;
+                    michal = michal.COMPLETED_ONBOARDING;
+                    option = offset.bind(yankee)(option, michal);
                     offset = _closure1_slot6;
-                    verify = offset.getGuild;
-                    offset = verify.bind(offset)(golfie);
-                    if(!(michal != offset)) { _fun00002_ip = 403; continue _fun00001 }
+                    michal = offset.getGuild;
+                    michal = michal.bind(offset)(golfie);
+                    if(!(verify != michal)) { _fun00002_ip = 408; continue _fun00001 }
  143:
-                    verify = offset.hasFeature;
+                    offset = michal.features;
+                    verify = offset.has;
                     michal = _closure1_slot11;
                     michal = michal.GUILD_ONBOARDING;
                     michal = verify.bind(offset)(michal);
-                    if(!michal) { _fun00002_ip = 403; continue _fun00001 }
- 170:
+                    if(!michal) { _fun00002_ip = 408; continue _fun00001 }
+ 175:
                     verify = _closure1_slot7;
                     michal = verify.shouldFetchPrompts;
                     michal = michal.bind(verify)(golfie);
                     offset = _closure1_slot7;
                     verify = offset.getOnboardingPrompts;
                     verify = verify.bind(offset)(golfie);
-                    if(michal) { _fun00002_ip = 293; continue _fun00001 }
- 203:
+                    if(michal) { _fun00002_ip = 298; continue _fun00001 }
+ 208:
                     michal = verify.length;
-                    if(!(michal > tangon)) { _fun00002_ip = 293; continue _fun00001 }
- 212:
+                    if(!(michal > tangon)) { _fun00002_ip = 298; continue _fun00001 }
+ 217:
                     tangon = verify.every;
                     michal = function(argFoo) {
                         entity = argFoo;
@@ -162,43 +163,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     michal = tangon.bind(verify)(michal);
-                    if(michal) { _fun00002_ip = 263; continue _fun00001 }
- 231:
-                    if(option) { _fun00002_ip = 243; continue _fun00001 }
- 234:
+                    if(michal) { _fun00002_ip = 268; continue _fun00001 }
+ 236:
+                    if(option) { _fun00002_ip = 248; continue _fun00001 }
+ 239:
                     michal = _closure1_slot16;
                     michal = michal.bind(oscard)(golfie);
- 243:
+ 248:
                     michal = global;
                     tangon = michal.Promise;
                     michal = tangon.resolve;
                     michal = michal.bind(tangon)();
-                    _fun00002_ip = 290; continue _fun00001;
- 263:
+                    _fun00002_ip = 295; continue _fun00001;
+ 268:
                     tangon = _closure1_slot17;
                     tangon = tangon.bind(oscard)(golfie);
                     tangon = global;
                     verify = tangon.Promise;
                     tangon = verify.resolve;
                     michal = tangon.bind(verify)();
- 290:
+ 295:
                     return michal;
- 293:
+ 298:
                     michal = _closure1_slot14;
                     michal = michal.bind(oscard)(golfie);
-                    SaveGenerator(address=306);
- 304:
+                    SaveGenerator(address=311);
+ 309:
                     return michal;
- 306:
+ 311:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 400; continue _fun00001 }
- 312:
+                    if(tangon) { _fun00002_ip = 405; continue _fun00001 }
+ 317:
                     tangon = global;
                     offset = tangon.Array;
                     verify = offset.isArray;
                     verify = verify.bind(offset)(michal);
-                    if(!verify) { _fun00002_ip = 352; continue _fun00001 }
- 333:
+                    if(!verify) { _fun00002_ip = 357; continue _fun00001 }
+ 338:
                     verify = michal.every;
                     zuuluu = function(argFoo) {
                         entity = argFoo;
@@ -207,32 +208,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     zuuluu = verify.bind(michal)(zuuluu);
-                    if(zuuluu) { _fun00002_ip = 372; continue _fun00001 }
- 352:
+                    if(zuuluu) { _fun00002_ip = 377; continue _fun00001 }
+ 357:
                     zuuluu = michal;
-                    if(option) { _fun00002_ip = 397; continue _fun00001 }
- 358:
+                    if(option) { _fun00002_ip = 402; continue _fun00001 }
+ 363:
                     option = _closure1_slot16;
                     option = option.bind(oscard)(golfie);
                     zuuluu = michal;
-                    _fun00002_ip = 397; continue _fun00001;
- 372:
+                    _fun00002_ip = 402; continue _fun00001;
+ 377:
                     report = _closure1_slot17;
                     report = report.bind(oscard)(golfie);
                     report = tangon.Promise;
                     tangon = report.resolve;
                     zuuluu = tangon.bind(report)();
- 397:
+ 402:
                     return zuuluu;
- 400:
+ 405:
                     return michal;
- 403:
+ 408:
                     michal = global;
                     zuuluu = michal.Promise;
                     michal = zuuluu.resolve;
                     michal = michal.bind(zuuluu)();
                     return michal;
- 424:
+ 429:
                     return entity;
                 }
             };

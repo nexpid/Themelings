@@ -130,47 +130,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo, argBar) { // Original name: checkGuildForFeature
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            report = argFoo;
-            tangon = argBar;
+            zuuluu = argFoo;
+            report = argBar;
             michal = null;
-            entity = michal != report;
-            if(!entity) { _fun00004_ip = 128; continue _fun00003 }
+            entity = michal != zuuluu;
+            if(!entity) { _fun00004_ip = 133; continue _fun00003 }
  15:
-            zuuluu = _closure1_slot2;
-            zuuluu = report instanceof zuuluu;
-            if(zuuluu) { _fun00004_ip = 114; continue _fun00003 }
+            tangon = _closure1_slot2;
+            tangon = zuuluu instanceof tangon;
+            if(tangon) { _fun00004_ip = 114; continue _fun00003 }
  29:
-            zuuluu = global;
-            option = zuuluu.Array;
+            tangon = global;
+            option = tangon.Array;
             golfie = option.isArray;
-            oscard = report.features;
+            oscard = zuuluu.features;
             oscard = golfie.bind(option)(oscard);
             if(oscard) { _fun00004_ip = 96; continue _fun00003 }
  56:
-            oscard = zuuluu.Boolean;
-            option = report.features;
+            oscard = tangon.Boolean;
+            option = zuuluu.features;
             golfie = michal == option;
-            zuuluu = undefined;
+            tangon = undefined;
             michal = undefined;
             if(golfie) { _fun00004_ip = 89; continue _fun00003 }
  79:
             golfie = option.has;
-            michal = golfie.bind(option)(tangon);
+            michal = golfie.bind(option)(report);
  89:
-            michal = oscard.bind(zuuluu)(michal);
+            michal = oscard.bind(tangon)(michal);
             _fun00004_ip = 112; continue _fun00003;
  96:
-            oscard = report.features;
-            zuuluu = oscard.includes;
-            michal = zuuluu.bind(oscard)(tangon);
+            oscard = zuuluu.features;
+            tangon = oscard.includes;
+            michal = tangon.bind(oscard)(report);
  112:
-            _fun00004_ip = 125; continue _fun00003;
+            _fun00004_ip = 130; continue _fun00003;
  114:
-            zuuluu = report.hasFeature;
-            michal = zuuluu.bind(report)(tangon);
- 125:
+            tangon = zuuluu.features;
+            zuuluu = tangon.has;
+            michal = zuuluu.bind(tangon)(report);
+ 130:
             entity = michal;
- 128:
+ 133:
             return entity;
         }
     };

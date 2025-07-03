@@ -80,18 +80,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             oscard = entity == zuuluu;
             tangon = undefined;
-            if(oscard) { _fun00002_ip = 89; continue _fun00001 }
- 66:
+            if(oscard) { _fun00002_ip = 91; continue _fun00001 }
+ 68:
             zuuluu = zuuluu.metadata;
             oscard = entity == zuuluu;
             tangon = undefined;
-            if(oscard) { _fun00002_ip = 89; continue _fun00001 }
- 81:
+            if(oscard) { _fun00002_ip = 91; continue _fun00001 }
+ 83:
             tangon = zuuluu.active_discount_expires_at;
- 89:
+ 91:
             entity = entity != tangon;
-            if(!entity) { _fun00002_ip = 156; continue _fun00001 }
- 96:
+            if(!entity) { _fun00002_ip = 158; continue _fun00001 }
+ 98:
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
             michal = 10;
@@ -106,7 +106,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = oscard.bind(report)(michal);
             michal = michal.bind(report)(tangon);
             entity = zuuluu <= michal;
- 156:
+ 158:
             return entity;
         }
     };
@@ -259,53 +259,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = null;
             oscard = report == tangon;
             zuuluu = undefined;
-            if(oscard) { _fun00008_ip = 89; continue _fun00007 }
- 66:
+            if(oscard) { _fun00008_ip = 91; continue _fun00007 }
+ 68:
             tangon = tangon.metadata;
             report = report == tangon;
             zuuluu = undefined;
-            if(report) { _fun00008_ip = 89; continue _fun00007 }
- 81:
+            if(report) { _fun00008_ip = 91; continue _fun00007 }
+ 83:
             zuuluu = tangon.active_discount_id;
- 89:
+ 91:
             tangon = _closure1_slot9;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 222; continue _fun00007 }
- 100:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 224; continue _fun00007 }
+ 102:
             tangon = _closure1_slot11;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 222; continue _fun00007 }
- 108:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 224; continue _fun00007 }
+ 110:
             tangon = _closure1_slot10;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 206; continue _fun00007 }
- 116:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
+ 118:
             tangon = _closure1_slot13;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 206; continue _fun00007 }
- 124:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
+ 126:
             tangon = _closure1_slot14;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 206; continue _fun00007 }
- 132:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 208; continue _fun00007 }
+ 134:
             tangon = _closure1_slot12;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 190; continue _fun00007 }
- 140:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 192; continue _fun00007 }
+ 142:
             tangon = _closure1_slot7;
-            if(!(tangon !== zuuluu)) { _fun00008_ip = 174; continue _fun00007 }
- 148:
+            if(!(tangon !== zuuluu)) { _fun00008_ip = 176; continue _fun00007 }
+ 150:
             michal = _closure1_slot8;
-            if(!(michal !== zuuluu)) { _fun00008_ip = 158; continue _fun00007 }
- 156:
-            return entity;
+            if(!(michal !== zuuluu)) { _fun00008_ip = 160; continue _fun00007 }
  158:
+            return entity;
+ 160:
             entity = {'duration': 1, 'percentage': 25};
             return entity;
- 174:
+ 176:
             entity = {'duration': 1, 'percentage': 20};
             return entity;
- 190:
+ 192:
             entity = {'duration': 1, 'percentage': 40};
             return entity;
- 206:
+ 208:
             entity = {'duration': 3, 'percentage': 30};
             return entity;
- 222:
+ 224:
             entity = {'duration': 1, 'percentage': 30};
             return entity;
         }
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard[verify];
             var _closure2_slot2 = oscard;
             oscard = argFoo;
-            if(oscard) { _fun00010_ip = 198; continue _fun00009 }
+            if(oscard) { _fun00010_ip = 204; continue _fun00009 }
  117:
             oscard = function() { // Original name: onFetchComplete
                 tangon = _closure2_slot0;
@@ -355,12 +355,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             var _closure2_slot3 = oscard;
             oscard = michal;
-            if(oscard) { _fun00010_ip = 135; continue _fun00009 }
- 132:
+            if(oscard) { _fun00010_ip = 137; continue _fun00009 }
+ 134:
             oscard = option;
- 135:
-            if(oscard) { _fun00010_ip = 184; continue _fun00009 }
- 138:
+ 137:
+            if(oscard) { _fun00010_ip = 190; continue _fun00009 }
+ 140:
             oscard = true;
             oscard = golfie.bind(report)(oscard);
             tangon = _closure1_slot17;
@@ -384,12 +384,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = tangon.bind(report)(entity);
- 184:
+ 190:
             entity = {};
             entity['churnUserDiscountOffer'] = zuuluu;
             entity['isFetchingChurnDiscountOffer'] = michal;
             return entity;
- 198:
+ 204:
             entity = {};
             entity['churnUserDiscountOffer'] = zuuluu;
             entity['isFetchingChurnDiscountOffer'] = michal;
@@ -421,25 +421,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.bind(michal)();
             zuuluu = null;
             entity = zuuluu !== tangon;
-            if(!entity) { _fun00012_ip = 80; continue _fun00011 }
- 72:
+            if(!entity) { _fun00012_ip = 82; continue _fun00011 }
+ 74:
             entity = tangon.hasPremiumNitroMonthly;
- 80:
+ 82:
             zuuluu = zuuluu == tangon;
-            if(zuuluu) { _fun00012_ip = 96; continue _fun00011 }
- 87:
+            if(zuuluu) { _fun00012_ip = 98; continue _fun00011 }
+ 89:
             tangon = tangon.hasActiveTrial;
             zuuluu = !tangon;
- 96:
-            if(!entity) { _fun00012_ip = 105; continue _fun00011 }
- 99:
+ 98:
+            if(!entity) { _fun00012_ip = 107; continue _fun00011 }
+ 101:
             zuuluu = !zuuluu;
             entity = !zuuluu;
- 105:
-            if(!entity) { _fun00012_ip = 111; continue _fun00011 }
- 108:
+ 107:
+            if(!entity) { _fun00012_ip = 113; continue _fun00011 }
+ 110:
             entity = !michal;
- 111:
+ 113:
             return entity;
         }
     };

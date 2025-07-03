@@ -124,9 +124,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = entity.isSubscriptionGated;
             kiloes = entity.needSubscriptionToAccess;
             romeon = _closure1_slot0;
-            vacuum = _closure1_slot2;
+            sequen = _closure1_slot2;
             tangon = 8;
-            golfie = vacuum[tangon];
+            golfie = sequen[tangon];
             tangon = undefined;
             offset = romeon.bind(tangon)(golfie);
             verify = offset.useStateFromStoresObject;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             oscard = verify.bind(offset)(golfie, oscard);
-            config = oscard.guild;
+            vacuum = oscard.guild;
             yankee = oscard.mentionsCount;
             offset = oscard.isMentionLowImportance;
             output = oscard.isLocked;
@@ -208,24 +208,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.isNewChannel;
             result = _closure1_slot1;
             golfie = 10;
-            golfie = vacuum[golfie];
+            golfie = sequen[golfie];
             golfie = result.bind(tangon)(golfie);
             backup = golfie.bind(tangon)(option);
             golfie = 11;
-            golfie = vacuum[golfie];
-            sequen = romeon.bind(tangon)(golfie);
-            verify = sequen.useOptInEnabledForGuild;
+            golfie = sequen[golfie];
+            config = romeon.bind(tangon)(golfie);
+            verify = config.useOptInEnabledForGuild;
             golfie = option.guild_id;
-            verify = verify.bind(sequen)(golfie);
+            verify = verify.bind(config)(golfie);
             golfie = 12;
-            golfie = vacuum[golfie];
+            golfie = sequen[golfie];
             record = romeon.bind(tangon)(golfie);
-            sequen = record.useUnreadThreadsCountForParent;
+            config = record.useUnreadThreadsCountForParent;
             romeon = option.guild_id;
             golfie = option.id;
-            golfie = sequen.bind(record)(romeon, golfie);
+            golfie = config.bind(record)(romeon, golfie);
             romeon = 13;
-            romeon = vacuum[romeon];
+            romeon = sequen[romeon];
             result = result.bind(tangon)(romeon);
             romeon = {};
             romeon['mentionsCount'] = yankee;
@@ -233,38 +233,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['postsWithUnreadsCount'] = golfie;
             romeon['muted'] = report;
             romeon = result.bind(tangon)(romeon);
-            if(romeon) { _fun00004_ip = 663; continue _fun00003 }
+            if(romeon) { _fun00004_ip = 668; continue _fun00003 }
  319:
             romeon = null;
             result = romeon == source;
-            vacuum = undefined;
+            sequen = undefined;
             if(result) { _fun00004_ip = 335; continue _fun00003 }
  330:
-            vacuum = source.length;
+            sequen = source.length;
  335:
-            sequen = romeon != vacuum;
+            config = romeon != sequen;
             result = 0;
-            if(!sequen) { _fun00004_ip = 347; continue _fun00003 }
+            if(!config) { _fun00004_ip = 347; continue _fun00003 }
  344:
-            result = vacuum;
+            result = sequen;
  347:
-            if(!(romeon != ctrled)) { _fun00004_ip = 428; continue _fun00003 }
+            if(!(romeon != ctrled)) { _fun00004_ip = 433; continue _fun00003 }
  351:
-            if(!ctrled) { _fun00004_ip = 428; continue _fun00003 }
+            if(!ctrled) { _fun00004_ip = 433; continue _fun00003 }
  354:
-            vacuum = romeon == config;
+            sequen = romeon == vacuum;
             ctrled = undefined;
-            if(vacuum) { _fun00004_ip = 384; continue _fun00003 }
+            if(sequen) { _fun00004_ip = 389; continue _fun00003 }
  363:
-            sequen = config.hasFeature;
+            config = vacuum.features;
+            sequen = config.has;
             vacuum = _closure1_slot8;
             vacuum = vacuum.COMMUNITY;
             ctrled = sequen.bind(config)(vacuum);
- 384:
-            if(!(romeon != ctrled)) { _fun00004_ip = 428; continue _fun00003 }
- 388:
-            if(!ctrled) { _fun00004_ip = 428; continue _fun00003 }
- 391:
+ 389:
+            if(!(romeon != ctrled)) { _fun00004_ip = 433; continue _fun00003 }
+ 393:
+            if(!ctrled) { _fun00004_ip = 433; continue _fun00003 }
+ 396:
             vacuum = _closure1_slot0;
             sequen = _closure1_slot2;
             ctrled = 15;
@@ -272,12 +273,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum.bind(tangon)(ctrled);
             ctrled = vacuum.hasStream;
             ctrled = ctrled.bind(vacuum)(source);
-            if(ctrled) { _fun00004_ip = 629; continue _fun00003 }
- 428:
-            if(!(romeon != foxtra)) { _fun00004_ip = 469; continue _fun00003 }
- 432:
-            if(!foxtra) { _fun00004_ip = 469; continue _fun00003 }
- 435:
+            if(ctrled) { _fun00004_ip = 634; continue _fun00003 }
+ 433:
+            if(!(romeon != foxtra)) { _fun00004_ip = 474; continue _fun00003 }
+ 437:
+            if(!foxtra) { _fun00004_ip = 474; continue _fun00003 }
+ 440:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot2;
             foxtra = 17;
@@ -285,21 +286,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = ctrled.bind(tangon)(foxtra);
             foxtra = ctrled.showChannelItemEmbeddedActivities;
             foxtra = foxtra.bind(ctrled)(backup);
-            if(foxtra) { _fun00004_ip = 585; continue _fun00003 }
- 469:
-            if(!(romeon != michal)) { _fun00004_ip = 480; continue _fun00003 }
- 473:
-            if(!(romeon != kiloes)) { _fun00004_ip = 480; continue _fun00003 }
- 477:
-            if(michal) { _fun00004_ip = 546; continue _fun00003 }
- 480:
+            if(foxtra) { _fun00004_ip = 590; continue _fun00003 }
+ 474:
+            if(!(romeon != michal)) { _fun00004_ip = 485; continue _fun00003 }
+ 478:
+            if(!(romeon != kiloes)) { _fun00004_ip = 485; continue _fun00003 }
+ 482:
+            if(michal) { _fun00004_ip = 551; continue _fun00003 }
+ 485:
             foxtra = romeon != zuuluu;
             michal = null;
-            if(!foxtra) { _fun00004_ip = 544; continue _fun00003 }
- 489:
-            michal = null;
-            if(!zuuluu) { _fun00004_ip = 544; continue _fun00003 }
+            if(!foxtra) { _fun00004_ip = 549; continue _fun00003 }
  494:
+            michal = null;
+            if(!zuuluu) { _fun00004_ip = 549; continue _fun00003 }
+ 499:
             foxtra = _closure1_slot10;
             romeon = _closure1_slot11;
             zuuluu = {};
@@ -311,9 +312,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['isLocked'] = output;
             zuuluu['selected'] = sizing;
             michal = foxtra.bind(tangon)(romeon, zuuluu);
- 544:
-            _fun00004_ip = 583; continue _fun00003;
- 546:
+ 549:
+            _fun00004_ip = 588; continue _fun00003;
+ 551:
             foxtra = _closure1_slot10;
             romeon = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -323,9 +324,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             zuuluu['locked'] = kiloes;
             michal = foxtra.bind(tangon)(romeon, zuuluu);
- 583:
-            _fun00004_ip = 627; continue _fun00003;
- 585:
+ 588:
+            _fun00004_ip = 632; continue _fun00003;
+ 590:
             foxtra = _closure1_slot10;
             romeon = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -336,9 +337,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['embeddedApps'] = backup;
             zuuluu['muted'] = report;
             michal = foxtra.bind(tangon)(romeon, zuuluu);
- 627:
-            _fun00004_ip = 661; continue _fun00003;
- 629:
+ 632:
+            _fun00004_ip = 666; continue _fun00003;
+ 634:
             foxtra = _closure1_slot10;
             romeon = _closure1_slot1;
             backup = _closure1_slot2;
@@ -347,9 +348,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.bind(tangon)(zuuluu);
             zuuluu = {};
             michal = foxtra.bind(tangon)(romeon, zuuluu);
- 661:
+ 666:
             return michal;
- 663:
+ 668:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -359,18 +360,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['mentionCount'] = yankee;
             entity['isMentionLowImportance'] = offset;
-            if(!oscard) { _fun00004_ip = 705; continue _fun00003 }
- 702:
+            if(!oscard) { _fun00004_ip = 710; continue _fun00003 }
+ 707:
             oscard = verify;
- 705:
+ 710:
             entity['isNewChannel'] = oscard;
             oscard = option.isForumLikeChannel;
             option = oscard.bind(option)();
             oscard = null;
-            if(!option) { _fun00004_ip = 728; continue _fun00003 }
- 725:
+            if(!option) { _fun00004_ip = 733; continue _fun00003 }
+ 730:
             oscard = golfie;
- 728:
+ 733:
             entity['postsWithUnreadsCount'] = oscard;
             entity['muted'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

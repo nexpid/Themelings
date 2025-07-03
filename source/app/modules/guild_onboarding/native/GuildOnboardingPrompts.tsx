@@ -74,29 +74,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo, argBar) { // Original name: showRulesInOnboarding
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            report = argFoo;
+            michal = argFoo;
             zuuluu = null;
-            entity = zuuluu != report;
-            if(!entity) { _fun00004_ip = 36; continue _fun00003 }
+            entity = zuuluu != michal;
+            if(!entity) { _fun00004_ip = 41; continue _fun00003 }
  12:
-            tangon = report.hasFeature;
-            michal = _closure1_slot17;
-            michal = michal.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            entity = tangon.bind(report)(michal);
- 36:
-            if(!entity) { _fun00004_ip = 63; continue _fun00003 }
- 39:
-            tangon = report.hasFeature;
+            oscard = michal.features;
+            report = oscard.has;
+            tangon = _closure1_slot17;
+            tangon = tangon.MEMBER_VERIFICATION_MANUAL_APPROVAL;
+            entity = report.bind(oscard)(tangon);
+ 41:
+            if(!entity) { _fun00004_ip = 73; continue _fun00003 }
+ 44:
+            report = michal.features;
+            tangon = report.has;
             michal = _closure1_slot17;
             michal = michal.MEMBER_VERIFICATION_GATE_ENABLED;
             entity = tangon.bind(report)(michal);
- 63:
+ 73:
             entity = !entity;
-            if(!entity) { _fun00004_ip = 76; continue _fun00003 }
- 69:
+            if(!entity) { _fun00004_ip = 86; continue _fun00003 }
+ 79:
             michal = argBar;
             entity = zuuluu != michal;
- 76:
+ 86:
             return entity;
         }
     };

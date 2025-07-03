@@ -357,7 +357,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = undefined;
             if(!(golfie === report)) { _fun00004_ip = 17; continue _fun00003 }
  15:
-            golfie = undefined;
+            golfie = null;
  17:
             if(!(michal === report)) { _fun00004_ip = 23; continue _fun00003 }
  21:

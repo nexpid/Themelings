@@ -528,13 +528,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 result = option.bind(verify)(tangon, entity);
                 kiloes = source != result;
                 entity = source == result;
-                if(entity) { _fun00014_ip = 193; continue _fun00013 }
+                if(entity) { _fun00014_ip = 198; continue _fun00013 }
  172:
-                option = result.hasFeature;
+                verify = result.features;
+                option = verify.has;
                 tangon = _closure1_slot17;
                 tangon = tangon.DISCOVERABLE;
-                entity = option.bind(result)(tangon);
- 193:
+                entity = option.bind(verify)(tangon);
+ 198:
                 verify = _closure1_slot5;
                 tangon = verify.useState;
                 entity = !entity;
@@ -684,12 +685,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option[update];
                 golfie = verify.bind(report)(golfie);
                 romeon = golfie.intl;
-                if(entity) { _fun00014_ip = 646; continue _fun00013 }
- 469:
-                if(kiloes) { _fun00014_ip = 578; continue _fun00013 }
- 472:
-                if(zuuluu) { _fun00014_ip = 533; continue _fun00013 }
- 475:
+                if(entity) { _fun00014_ip = 651; continue _fun00013 }
+ 474:
+                if(kiloes) { _fun00014_ip = 583; continue _fun00013 }
+ 477:
+                if(zuuluu) { _fun00014_ip = 538; continue _fun00013 }
+ 480:
                 offset = romeon.format;
                 entity = option[update];
                 entity = verify.bind(report)(entity);
@@ -737,8 +738,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sequen = offset.bind(romeon)(golfie, entity);
                 entity = 'Custom Sticker Popout (Soft Upsell)';
                 golfie = false;
-                _fun00014_ip = 744; continue _fun00013;
- 533:
+                _fun00014_ip = 749; continue _fun00013;
+ 538:
                 backup = romeon.string;
                 offset = option[update];
                 offset = verify.bind(report)(offset);
@@ -747,67 +748,67 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sequen = backup.bind(romeon)(offset);
                 golfie = true;
                 entity = 'Custom Sticker Popout (Upsell)';
-                _fun00014_ip = 744; continue _fun00013;
- 578:
+                _fun00014_ip = 749; continue _fun00013;
+ 583:
                 backup = romeon.string;
                 offset = option[update];
                 offset = verify.bind(report)(offset);
                 offset = offset.t;
-                if(oscard) { _fun00014_ip = 623; continue _fun00013 }
- 600:
+                if(oscard) { _fun00014_ip = 628; continue _fun00013 }
+ 605:
                 output = offset.lyD5ZW;
                 sequen = backup.bind(romeon)(output);
                 golfie = true;
                 entity = 'Custom Sticker Popout (Upsell)';
-                _fun00014_ip = 744; continue _fun00013;
- 623:
+                _fun00014_ip = 749; continue _fun00013;
+ 628:
                 offset = offset.jNphpq;
                 sequen = backup.bind(romeon)(offset);
                 golfie = true;
                 entity = 'Custom Sticker Popout (Upsell)';
-                _fun00014_ip = 744; continue _fun00013;
- 646:
+                _fun00014_ip = 749; continue _fun00013;
+ 651:
                 offset = romeon.string;
                 option = option[update];
                 option = verify.bind(report)(option);
                 option = option.t;
-                if(kiloes) { _fun00014_ip = 699; continue _fun00013 }
- 668:
-                if(zuuluu) { _fun00014_ip = 684; continue _fun00013 }
- 671:
+                if(kiloes) { _fun00014_ip = 704; continue _fun00013 }
+ 673:
+                if(zuuluu) { _fun00014_ip = 689; continue _fun00013 }
+ 676:
                 verify = option.vZaScH;
                 verify = offset.bind(romeon)(verify);
-                _fun00014_ip = 697; continue _fun00013;
- 684:
+                _fun00014_ip = 702; continue _fun00013;
+ 689:
                 backup = option.yHmoR0;
                 verify = offset.bind(romeon)(backup);
- 697:
-                _fun00014_ip = 733; continue _fun00013;
- 699:
-                if(oscard) { _fun00014_ip = 717; continue _fun00013 }
  702:
+                _fun00014_ip = 738; continue _fun00013;
+ 704:
+                if(oscard) { _fun00014_ip = 722; continue _fun00013 }
+ 707:
                 oscard = option.1f6D9v;
                 oscard = offset.bind(romeon)(oscard);
-                _fun00014_ip = 730; continue _fun00013;
- 717:
+                _fun00014_ip = 735; continue _fun00013;
+ 722:
                 option = option.fZ0DiI;
                 oscard = offset.bind(romeon)(option);
- 730:
+ 735:
                 verify = oscard;
- 733:
+ 738:
                 golfie = false;
                 entity = 'Custom Sticker Popout';
                 sequen = verify;
- 744:
+ 749:
                 output = !golfie;
-                if(golfie) { _fun00014_ip = 753; continue _fun00013 }
- 750:
+                if(golfie) { _fun00014_ip = 758; continue _fun00013 }
+ 755:
                 output = !kiloes;
- 753:
-                if(!output) { _fun00014_ip = 759; continue _fun00013 }
- 756:
+ 758:
+                if(!output) { _fun00014_ip = 764; continue _fun00013 }
+ 761:
                 output = zuuluu;
- 759:
+ 764:
                 zuuluu = {};
                 zuuluu['popoutAnalyticsConfig'] = tangon;
                 zuuluu['popoutType'] = entity;
@@ -860,8 +861,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 entity = tangon.bind(oscard)(entity, zuuluu);
                 entity = null;
-                if(!michal) { _fun00014_ip = 1648; continue _fun00013 }
- 844:
+                if(!michal) { _fun00014_ip = 1653; continue _fun00013 }
+ 849:
                 tangon = _closure1_slot22;
                 zuuluu = _closure1_slot21;
                 michal = {};
@@ -914,8 +915,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = tangon.bind(report)(option, oscard);
                 oscard = new Array(4);
                 oscard[0] = option;
-                if(!golfie) { _fun00014_ip = 1244; continue _fun00013 }
- 1077:
+                if(!golfie) { _fun00014_ip = 1249; continue _fun00013 }
+ 1082:
                 offset = _closure1_slot20;
                 backup = _closure1_slot1;
                 ctrled = _closure1_slot2;
@@ -981,11 +982,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 option['onPress'] = romeon;
                 golfie = offset.bind(report)(verify, option);
- 1244:
+ 1249:
                 oscard[1] = golfie;
                 golfie = output;
-                if(!golfie) { _fun00014_ip = 1412; continue _fun00013 }
- 1257:
+                if(!golfie) { _fun00014_ip = 1417; continue _fun00013 }
+ 1262:
                 offset = _closure1_slot20;
                 backup = _closure1_slot1;
                 ctrled = _closure1_slot2;
@@ -1055,15 +1056,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 option['onPress'] = yankee;
                 golfie = offset.bind(report)(verify, option);
- 1412:
+ 1417:
                 oscard[2] = golfie;
                 golfie = source != result;
-                if(golfie) { _fun00014_ip = 1427; continue _fun00013 }
- 1423:
+                if(golfie) { _fun00014_ip = 1432; continue _fun00013 }
+ 1428:
                 golfie = source != echoed;
- 1427:
-                if(!golfie) { _fun00014_ip = 1634; continue _fun00013 }
- 1433:
+ 1432:
+                if(!golfie) { _fun00014_ip = 1639; continue _fun00013 }
+ 1438:
                 offset = _closure1_slot22;
                 verify = _closure1_slot21;
                 option = {};
@@ -1085,10 +1086,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = ctrled[romeon];
                 foxtra = foxtra.bind(report)(romeon);
                 romeon = {};
-                if(!(source != echoed)) { _fun00014_ip = 1524; continue _fun00013 }
- 1521:
+                if(!(source != echoed)) { _fun00014_ip = 1529; continue _fun00013 }
+ 1526:
                 result = echoed;
- 1524:
+ 1529:
                 romeon['guild'] = result;
                 romeon['showingJoinGuildCta'] = output;
                 romeon['hasJoinedGuild'] = kiloes;
@@ -1101,25 +1102,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = sizing[update];
                 sizing = echoed.bind(report)(sizing);
                 sizing = sizing.t;
-                if(kiloes) { _fun00014_ip = 1597; continue _fun00013 }
- 1582:
+                if(kiloes) { _fun00014_ip = 1602; continue _fun00013 }
+ 1587:
                 kiloes = sizing.pDE7GR;
                 kiloes = output.bind(result)(kiloes);
-                _fun00014_ip = 1610; continue _fun00013;
- 1597:
+                _fun00014_ip = 1615; continue _fun00013;
+ 1602:
                 sizing = sizing.kx6pEB;
                 kiloes = output.bind(result)(sizing);
- 1610:
+ 1615:
                 romeon['title'] = kiloes;
                 romeon = backup.bind(report)(foxtra, romeon);
                 yankee[1] = romeon;
                 option['children'] = yankee;
                 golfie = offset.bind(report)(verify, option);
- 1634:
+ 1639:
                 oscard[3] = golfie;
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 1648:
+ 1653:
                 return entity;
             }
         };

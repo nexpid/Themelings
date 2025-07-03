@@ -207,27 +207,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = romeon.type;
                     entity = _closure1_slot7;
                     entity = entity.MESSAGE;
-                    if(!(entity !== michal)) { _fun00006_ip = 607; continue _fun00005 }
+                    if(!(entity !== michal)) { _fun00006_ip = 589; continue _fun00005 }
  34:
                     entity = _closure1_slot7;
                     entity = entity.MESSAGE_FAILED_TO_SEND;
-                    if(!(entity !== michal)) { _fun00006_ip = 527; continue _fun00005 }
+                    if(!(entity !== michal)) { _fun00006_ip = 511; continue _fun00005 }
  51:
                     entity = _closure1_slot7;
                     entity = entity.FORUM_THREAD_CREATED;
-                    if(!(entity !== michal)) { _fun00006_ip = 429; continue _fun00005 }
+                    if(!(entity !== michal)) { _fun00006_ip = 417; continue _fun00005 }
  68:
                     entity = _closure1_slot7;
                     entity = entity.BUG_REPORTER;
-                    if(!(entity !== michal)) { _fun00006_ip = 353; continue _fun00005 }
+                    if(!(entity !== michal)) { _fun00006_ip = 345; continue _fun00005 }
  85:
                     entity = _closure1_slot7;
                     entity = entity.ALERT;
-                    if(!(entity !== michal)) { _fun00006_ip = 286; continue _fun00005 }
+                    if(!(entity !== michal)) { _fun00006_ip = 280; continue _fun00005 }
  102:
                     entity = _closure1_slot7;
                     entity = entity.REACTION;
-                    if(!(entity !== michal)) { _fun00006_ip = 198; continue _fun00005 }
+                    if(!(entity !== michal)) { _fun00006_ip = 196; continue _fun00005 }
  116:
                     entity = _closure1_slot7;
                     entity = entity.MESSAGE_REMINDER;
@@ -305,7 +305,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie.bind(oscard)(report, michal);
                     entity['content'] = michal;
                     return entity;
- 198:
+ 196:
                     entity = romeon.channel;
                     var _closure3_slot7 = entity;
                     entity = romeon.message;
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = golfie.bind(oscard)(report, michal);
                     entity['content'] = michal;
                     return entity;
- 286:
+ 280:
                     entity = romeon.channel;
                     var _closure3_slot6 = entity;
                     entity = {};
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity['onPress'] = michal;
                     return entity;
- 353:
+ 345:
                     entity = {};
                     golfie = _closure1_slot10;
                     report = _closure1_slot0;
@@ -493,7 +493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity['onSettingsPress'] = michal;
                     return entity;
- 429:
+ 417:
                     michal = romeon.thread;
                     var _closure3_slot5 = michal;
                     entity = {};
@@ -551,7 +551,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.id;
                     entity['channelId'] = michal;
                     return entity;
- 527:
+ 511:
                     michal = romeon.channelId;
                     var _closure3_slot3 = michal;
                     entity = romeon.messageId;
@@ -591,7 +591,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['onPress'] = report;
                     entity['channelId'] = michal;
                     return entity;
- 607:
+ 589:
                     michal = romeon.channel;
                     var _closure3_slot1 = michal;
                     option = romeon.message;
@@ -830,10 +830,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     zuuluu = _closure2_slot9;
-                    if(!zuuluu) { _fun00012_ip = 248; continue _fun00011 }
+                    if(!zuuluu) { _fun00012_ip = 242; continue _fun00011 }
  15:
                     zuuluu = _closure2_slot11;
-                    if(zuuluu) { _fun00012_ip = 248; continue _fun00011 }
+                    if(zuuluu) { _fun00012_ip = 242; continue _fun00011 }
  25:
                     zuuluu = global;
                     tangon = zuuluu.Date;
@@ -938,7 +938,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     return entity;
- 248:
+ 242:
                     entity = undefined;
                     return entity;
                 }
@@ -1182,7 +1182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = 'animate-always';
                     entity = golfie.bind(option)(report, oscard, entity);
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00020_ip = 451; continue _fun00019;
+                    _fun00020_ip = 449; continue _fun00019;
  210:
                     zuuluu = _closure2_slot5;
                     michal = zuuluu.set;
@@ -1261,7 +1261,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     sizing = tangon;
                     entity = update[golfie](echoed, result, output, sizing, kiloes);
                     entity = michal.bind(zuuluu)(entity);
- 451:
+ 449:
                     entity = undefined;
                     return entity;
                 }
@@ -1506,10 +1506,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.safeAreaContainer;
             report['style'] = option;
             option = undefined;
-            if(!verify) { _fun00002_ip = 1505; continue _fun00001 }
- 1499:
+            if(!verify) { _fun00002_ip = 1473; continue _fun00001 }
+ 1467:
             option = 'no-hide-descendants';
- 1505:
+ 1473:
             report['importantForAccessibility'] = option;
             verify = _closure1_slot10;
             kiloes = _closure1_slot0;

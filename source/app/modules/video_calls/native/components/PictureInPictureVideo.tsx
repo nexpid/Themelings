@@ -474,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot17;
             entity = entity.ACTIVITY;
             oscard = null;
-            if(!(entity === zuuluu)) { _fun00004_ip = 771; continue _fun00003 }
+            if(!(entity === zuuluu)) { _fun00004_ip = 775; continue _fun00003 }
  398:
             backup = _closure1_slot18;
             zuuluu = _closure1_slot1;
@@ -518,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['onSingleTap'] = kiloes;
             oscard = backup.bind(tangon)(zuuluu, entity);
-            _fun00004_ip = 771; continue _fun00003;
+            _fun00004_ip = 775; continue _fun00003;
  456:
             zuuluu = _closure1_slot1;
             backup = _closure1_slot2;
@@ -558,14 +558,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = backup.bind(tangon)(zuuluu, michal);
  600:
             oscard = entity;
-            _fun00004_ip = 771; continue _fun00003;
+            _fun00004_ip = 775; continue _fun00003;
  608:
             entity = foxtra.user;
             michal = entity.id;
             zuuluu = _closure1_slot9;
             entity = zuuluu.getId;
             entity = entity.bind(zuuluu)();
-            if(!(michal !== entity)) { _fun00004_ip = 726; continue _fun00003 }
+            if(!(michal !== entity)) { _fun00004_ip = 730; continue _fun00003 }
  636:
             zuuluu = _closure1_slot18;
             michal = _closure1_slot1;
@@ -585,8 +585,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onSingleTap'] = golfie;
             entity['onDoubleTap'] = golfie;
             entity = zuuluu.bind(tangon)(michal, entity);
-            _fun00004_ip = 768; continue _fun00003;
- 726:
+            _fun00004_ip = 772; continue _fun00003;
+ 730:
             golfie = _closure1_slot18;
             zuuluu = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -597,19 +597,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onSingleTap'] = verify;
             michal['onDoubleTap'] = verify;
             entity = golfie.bind(tangon)(zuuluu, michal);
- 768:
+ 772:
             oscard = entity;
- 771:
+ 775:
             zuuluu = _closure1_slot20;
             michal = _closure1_slot19;
             entity = {};
             verify = option == romeon;
             golfie = null;
-            if(verify) { _fun00004_ip = 906; continue _fun00003 }
- 790:
+            if(verify) { _fun00004_ip = 910; continue _fun00003 }
+ 794:
             golfie = null;
-            if(report) { _fun00004_ip = 906; continue _fun00003 }
- 795:
+            if(report) { _fun00004_ip = 910; continue _fun00003 }
+ 799:
             verify = _closure1_slot18;
             option = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -652,7 +652,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             report['onSingleTap'] = offset;
             golfie = verify.bind(tangon)(option, report);
- 906:
+ 910:
             report = new Array(2);
             report[0] = golfie;
             report[1] = oscard;

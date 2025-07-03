@@ -1,0 +1,100 @@
+// app/modules/media_engine/GoLiveTileResolutionExperiment.tsx
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
+    entity = global;
+    option = entity.Object;
+    report = option.defineProperty;
+    tangon = {};
+    foxtra = true;
+    tangon['value'] = foxtra;
+    entity = '__esModule';
+    entity = report.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    tangon = golfie[entity];
+    entity = undefined;
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.CommonTriggerPoints;
+    tangon = 1;
+    tangon = golfie[tangon];
+    verify = oscard.bind(entity)(tangon);
+    option = verify.createExperiment;
+    tangon = {'kind': 'user', 'id': '2025-06_golive_tile_resolution_gating', 'label': 'GoLive Tile Resolution Gating'};
+    offset = {};
+    romeon = false;
+    offset['enabled'] = romeon;
+    tangon['defaultConfig'] = offset;
+    report = report.CONNECTION_OPEN;
+    tangon['commonTriggerPoint'] = report;
+    report = {'id': 0, 'label': 'Non-Nitro control'};
+    offset = {};
+    offset['enabled'] = romeon;
+    report['config'] = offset;
+    offset = new Array(4);
+    offset[0] = report;
+    report = {'id': 1, 'label': 'Tile size based wants enabled only for non-nitro users'};
+    yankee = {};
+    yankee['enabled'] = foxtra;
+    report['config'] = yankee;
+    offset[1] = report;
+    report = {'id': 2, 'label': 'Nitro control'};
+    yankee = {};
+    yankee['enabled'] = romeon;
+    report['config'] = yankee;
+    offset[2] = report;
+    yankee = {'id': 3, 'label': 'Tile size based wants enabled only for Nitro subscribers'};
+    report = 3;
+    romeon = {};
+    romeon['enabled'] = foxtra;
+    yankee['config'] = romeon;
+    offset[3] = yankee;
+    tangon['treatments'] = offset;
+    tangon = option.bind(verify)(tangon);
+    var _closure1_slot2 = tangon;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/media_engine/GoLiveTileResolutionExperiment.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['GoLiveTileResolutionExperiment'] = tangon;
+    michal = function(argFoo) { // Original name: getGoLiveTileResolutionExperimentConfig
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            michal = argFoo;
+            entity = michal.location;
+            report = michal.autoTrackExposure;
+            oscard = undefined;
+            if(!(report === oscard)) { _fun00002_ip = 22; continue _fun00001 }
+ 20:
+            report = true;
+ 22:
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot1;
+            zuuluu = 2;
+            zuuluu = golfie[zuuluu];
+            zuuluu = tangon.bind(oscard)(zuuluu);
+            golfie = zuuluu.AVHoldoutExperiment;
+            oscard = golfie.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = entity;
+            zuuluu = {};
+            zuuluu['autoTrackExposure'] = report;
+            zuuluu = oscard.bind(golfie)(tangon, zuuluu);
+            oscard = zuuluu.isInHoldout;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['location'] = entity;
+            entity = {};
+            entity['disable'] = oscard;
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['getGoLiveTileResolutionExperimentConfig'] = michal;
+    return entity;
+})();

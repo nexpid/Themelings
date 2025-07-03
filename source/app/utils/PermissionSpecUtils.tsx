@@ -928,19 +928,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = zuuluu;
             michal = new verify[michal](option);
             tangon = michal instanceof Object ? michal : zuuluu;
-            zuuluu = entity.hasFeature;
+            report = entity.features;
+            zuuluu = report.has;
             michal = _closure1_slot8;
             michal = michal.COMMUNITY;
-            michal = zuuluu.bind(entity)(michal);
-            if(michal) { _fun00010_ip = 87; continue _fun00009 }
- 58:
+            michal = zuuluu.bind(report)(michal);
+            if(michal) { _fun00010_ip = 92; continue _fun00009 }
+ 63:
             zuuluu = tangon.add;
             michal = _closure1_slot9;
             report = michal.VIEW_GUILD_ANALYTICS;
             michal = report.toString;
             michal = michal.bind(report)();
             michal = zuuluu.bind(tangon)(michal);
- 87:
+ 92:
             report = _closure1_slot2;
             zuuluu = _closure1_slot3;
             michal = 13;

@@ -177,8 +177,9 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             tangon = _closure1_slot3;
             zuuluu = tangon.some;
             michal = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.hasFeature;
+                entity = _closure2_slot0;
+                zuuluu = entity.features;
+                michal = zuuluu.has;
                 entity = argFoo;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;

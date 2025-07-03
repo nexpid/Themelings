@@ -45,22 +45,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = michal.bind(tangon)(entity);
             entity = null;
             entity = entity != oscard;
-            if(!entity) { _fun00002_ip = 82; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 87; continue _fun00001 }
  29:
-            tangon = oscard.hasFeature;
+            report = oscard.features;
+            tangon = report.has;
             michal = _closure1_slot4;
             michal = michal.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            michal = tangon.bind(oscard)(michal);
-            if(!michal) { _fun00002_ip = 79; continue _fun00001 }
- 53:
+            michal = tangon.bind(report)(michal);
+            if(!michal) { _fun00002_ip = 84; continue _fun00001 }
+ 58:
             report = _closure1_slot3;
             tangon = report.can;
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.KICK_MEMBERS;
             michal = tangon.bind(report)(zuuluu, oscard);
- 79:
+ 84:
             entity = michal;
- 82:
+ 87:
             return entity;
         }
     };
@@ -103,19 +104,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  117:
             entity = null;
             entity = entity != tangon;
-            if(!entity) { _fun00004_ip = 147; continue _fun00003 }
+            if(!entity) { _fun00004_ip = 152; continue _fun00003 }
  126:
-            golfie = tangon.hasFeature;
+            option = tangon.features;
+            golfie = option.has;
             oscard = _closure1_slot4;
             oscard = oscard.MEMBER_VERIFICATION_MANUAL_APPROVAL;
-            entity = golfie.bind(tangon)(oscard);
- 147:
-            if(!entity) { _fun00004_ip = 153; continue _fun00003 }
- 150:
+            entity = golfie.bind(option)(oscard);
+ 152:
+            if(!entity) { _fun00004_ip = 158; continue _fun00003 }
+ 155:
             entity = zuuluu;
- 153:
-            if(!entity) { _fun00004_ip = 187; continue _fun00003 }
- 156:
+ 158:
+            if(!entity) { _fun00004_ip = 192; continue _fun00003 }
+ 161:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot1;
             michal = 4;
@@ -123,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(michal);
             michal = zuuluu.guildHasVerificationGate;
             entity = michal.bind(zuuluu)(tangon);
- 187:
+ 192:
             return entity;
         }
     };

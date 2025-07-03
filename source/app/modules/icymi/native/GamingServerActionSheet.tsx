@@ -32,19 +32,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify = report.bind(oscard)(zuuluu, michal);
             report = !verify;
-            if(!report) { _fun00002_ip = 104; continue _fun00001 }
+            if(!report) { _fun00002_ip = 109; continue _fun00001 }
  83:
-            zuuluu = foxtra.hasFeature;
+            oscard = foxtra.features;
+            zuuluu = oscard.has;
             michal = _closure1_slot12;
             michal = michal.ANIMATED_BANNER;
-            report = zuuluu.bind(foxtra)(michal);
- 104:
+            report = zuuluu.bind(oscard)(michal);
+ 109:
             michal = foxtra.banner;
             offset = null;
             michal = offset != michal;
             sizing = undefined;
-            if(!michal) { _fun00002_ip = 160; continue _fun00001 }
- 121:
+            if(!michal) { _fun00002_ip = 165; continue _fun00001 }
+ 126:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 13;
@@ -70,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             sizing = michal.bind(zuuluu)(report, entity);
- 160:
+ 165:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot6;
             entity = {};
@@ -94,8 +95,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[0] = romeon;
             report['cutouts'] = option;
             option = foxtra.banner;
-            if(!(offset == option)) { _fun00002_ip = 320; continue _fun00001 }
- 274:
+            if(!(offset == option)) { _fun00002_ip = 325; continue _fun00001 }
+ 279:
             romeon = _closure1_slot13;
             offset = _closure1_slot6;
             option = {};
@@ -106,8 +107,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes[1] = output;
             option['style'] = kiloes;
             option = romeon.bind(tangon)(offset, option);
-            _fun00002_ip = 375; continue _fun00001;
- 320:
+            _fun00002_ip = 380; continue _fun00001;
+ 325:
             kiloes = _closure1_slot13;
             romeon = _closure1_slot1;
             output = _closure1_slot2;
@@ -121,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = 'cover';
             offset['resizeMode'] = sizing;
             option = kiloes.bind(tangon)(romeon, offset);
- 375:
+ 380:
             report['children'] = option;
             oscard = golfie.bind(tangon)(oscard, report);
             report = new Array(2);

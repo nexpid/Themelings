@@ -624,11 +624,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = function(argFoo) { // Original name: CommunitySection
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            entity = argFoo;
-            zuuluu = entity.guild;
-            entity = entity.pushScreen;
-            var _closure2_slot0 = entity;
-            michal = zuuluu.hasFeature;
+            michal = argFoo;
+            entity = michal.guild;
+            michal = michal.pushScreen;
+            var _closure2_slot0 = michal;
+            zuuluu = entity.features;
+            michal = zuuluu.has;
             entity = _closure1_slot11;
             entity = entity.COMMUNITY;
             report = michal.bind(zuuluu)(entity);
@@ -666,8 +667,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = kiloes[offset];
             offset = sizing.bind(zuuluu)(offset);
             offset = offset.t;
-            if(report) { _fun00006_ip = 338; continue _fun00005 }
- 197:
+            if(report) { _fun00006_ip = 343; continue _fun00005 }
+ 202:
             report = offset.ElKTeX;
             report = yankee.bind(romeon)(report);
             golfie['label'] = report;
@@ -705,8 +706,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['onPress'] = report;
             report = 'community-intro';
             report = verify.bind(zuuluu)(option, golfie, report);
-            _fun00006_ip = 474; continue _fun00005;
- 338:
+            _fun00006_ip = 479; continue _fun00005;
+ 343:
             offset = offset.nRtNqq;
             offset = yankee.bind(romeon)(offset);
             golfie['label'] = offset;
@@ -744,7 +745,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['onPress'] = oscard;
             oscard = 'community-overview';
             report = verify.bind(zuuluu)(option, golfie, oscard);
- 474:
+ 479:
             entity['children'] = report;
             entity = tangon.bind(zuuluu)(michal, entity);
             return entity;
@@ -1252,8 +1253,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = !target;
             update['disabled'] = target;
             romeon['iconProps'] = update;
-            update = source.toString;
-            update = update.bind(source)();
+            update = source.name;
             romeon['text'] = update;
             backup = kiloes.bind(tangon)(backup, romeon);
             romeon = new Array(5);
@@ -1274,18 +1274,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = update.bind(tangon)(kiloes, backup);
             romeon[1] = backup;
             backup = echoed;
-            if(!backup) { _fun00010_ip = 654; continue _fun00009 }
- 629:
+            if(!backup) { _fun00010_ip = 650; continue _fun00009 }
+ 625:
             ctrled = _closure1_slot16;
             update = _closure1_slot24;
             kiloes = {};
             kiloes['guild'] = source;
             kiloes['pushScreen'] = sizing;
             backup = ctrled.bind(tangon)(update, kiloes);
- 654:
+ 650:
             romeon[2] = backup;
-            if(!foxtra) { _fun00010_ip = 702; continue _fun00009 }
- 661:
+            if(!foxtra) { _fun00010_ip = 698; continue _fun00009 }
+ 657:
             update = _closure1_slot16;
             kiloes = _closure1_slot1;
             ctrled = _closure1_slot3;
@@ -1296,7 +1296,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup['guild'] = source;
             backup['pushScreen'] = sizing;
             foxtra = update.bind(tangon)(kiloes, backup);
- 702:
+ 698:
             romeon[3] = foxtra;
             kiloes = _closure1_slot16;
             backup = _closure1_slot25;

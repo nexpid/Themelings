@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             StartGenerator();
                             zuuluu = argFoo;
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                            if(tangon) { _fun00006_ip = 192; continue _fun00005 }
+                            if(tangon) { _fun00006_ip = 190; continue _fun00005 }
  15:
                             var _closure5_slot0 = zuuluu;
                             golfie = undefined;
@@ -256,21 +256,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             michal = oscard.bind(tangon)(report, michal);
                             michal = tangon.uploadFiles;
                             michal = michal.bind(tangon)(zuuluu);
-                            SaveGenerator(address=162);
- 160:
+                            SaveGenerator(address=160);
+ 158:
                             return michal;
- 162:
+ 160:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00006_ip = 189; continue _fun00005 }
- 168:
+                            if(zuuluu) { _fun00006_ip = 187; continue _fun00005 }
+ 166:
                             zuuluu = {};
                             tangon = tangon._file;
                             zuuluu['uploaderFile'] = tangon;
                             zuuluu['files'] = michal;
                             return zuuluu;
- 189:
+ 187:
                             return michal;
- 192:
+ 190:
                             return entity;
                         }
                     };
@@ -304,16 +304,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['parentChannel'] = option;
             option = null;
             yankee = option == offset;
-            if(yankee) { _fun00004_ip = 153; continue _fun00003 }
- 148:
+            if(yankee) { _fun00004_ip = 151; continue _fun00003 }
+ 146:
             verify = offset.name;
- 153:
+ 151:
             offset = option != verify;
             option = '';
-            if(!offset) { _fun00004_ip = 167; continue _fun00003 }
- 164:
+            if(!offset) { _fun00004_ip = 165; continue _fun00003 }
+ 162:
             option = verify;
- 167:
+ 165:
             entity['name'] = option;
             entity['appliedTags'] = golfie;
             entity['analyticsLocations'] = oscard;

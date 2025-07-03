@@ -1022,8 +1022,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = {};
         golfie = _closure1_slot11;
         oscard = golfie.THREAD_MEMBER;
-        tangon = argFoo;
-        report = tangon.id;
+        report = argFoo;
         tangon = argBar;
         tangon = oscard.bind(golfie)(report, tangon);
         entity['url'] = tangon;
@@ -1427,7 +1426,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['location'] = verify;
             zuuluu = golfie.bind(option)(oscard, zuuluu);
             zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00026_ip = 193; continue _fun00025 }
+            if(!(zuuluu == tangon)) { _fun00026_ip = 189; continue _fun00025 }
  137:
             zuuluu = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -1439,7 +1438,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.id;
             michal['channelId'] = report;
             michal = zuuluu.bind(tangon)(michal);
- 193:
+ 189:
             return entity;
         }
     };

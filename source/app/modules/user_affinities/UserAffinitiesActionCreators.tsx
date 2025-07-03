@@ -62,7 +62,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = entity.Promise;
             entity = zuuluu.resolve;
             entity = entity.bind(zuuluu)();
-            _fun00002_ip = 224; continue _fun00001;
+            _fun00002_ip = 220; continue _fun00001;
  84:
             tangon = _closure1_slot1;
             verify = _closure1_slot2;
@@ -212,7 +212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = tangon.bind(report)(zuuluu, michal);
- 224:
+ 220:
             return entity;
         }
     };

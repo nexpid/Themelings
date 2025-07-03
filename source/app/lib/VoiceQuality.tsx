@@ -429,7 +429,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 option = argFoo;
                                 michal = option.type;
                                 entity = 'audio';
-                                if(!(entity === michal)) { _fun00012_ip = 1416; continue _fun00011 }
+                                if(!(entity === michal)) { _fun00012_ip = 1407; continue _fun00011 }
  19:
                                 entity = _closure4_slot0;
                                 entity = entity.transport;
@@ -437,28 +437,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 verify = null;
                                 michal = verify != entity;
                                 oscard = 0;
-                                ctrled = 0;
+                                sequen = 0;
                                 if(!michal) { _fun00012_ip = 54; continue _fun00011 }
  51:
-                                ctrled = entity;
+                                sequen = entity;
  54:
-                                echoed = option.packetsReceived;
-                                sizing = option.packetsLost;
-                                result = option.bytesReceived;
-                                output = option.nackCount;
+                                source = option.packetsReceived;
+                                result = option.packetsLost;
+                                update = option.bytesReceived;
+                                echoed = option.nackCount;
                                 entity = option.fecPacketsReceived;
                                 michal = verify != entity;
-                                kiloes = 0;
+                                output = 0;
                                 if(!michal) { _fun00012_ip = 96; continue _fun00011 }
  93:
-                                kiloes = entity;
+                                output = entity;
  96:
                                 entity = option.fecPacketsDiscarded;
                                 michal = verify != entity;
-                                backup = 0;
+                                sizing = 0;
                                 if(!michal) { _fun00012_ip = 114; continue _fun00011 }
  111:
-                                backup = entity;
+                                sizing = entity;
  114:
                                 entity = option.jitterBuffer;
                                 zuuluu = verify != entity;
@@ -467,17 +467,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  129:
                                 michal = entity;
  132:
-                                yankee = {};
+                                romeon = {};
                                 entity = option.audioJitterBuffer;
-                                yankee['audioJitterBuffer'] = entity;
+                                romeon['audioJitterBuffer'] = entity;
                                 entity = option.audioJitterTarget;
-                                yankee['audioJitterTarget'] = entity;
+                                romeon['audioJitterTarget'] = entity;
                                 entity = option.audioJitterDelay;
-                                yankee['audioJitterDelay'] = entity;
+                                romeon['audioJitterDelay'] = entity;
                                 entity = option.relativeReceptionDelay;
-                                yankee['relativeReceptionDelay'] = entity;
+                                romeon['relativeReceptionDelay'] = entity;
                                 entity = option.relativePlayoutDelay;
-                                yankee['relativePlayoutDelay'] = entity;
+                                romeon['relativePlayoutDelay'] = entity;
                                 offset = {};
                                 entity = option.opSilence;
                                 offset['silent'] = entity;
@@ -557,170 +557,173 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 if(!(verify == entity)) { _fun00012_ip = 750; continue _fun00011 }
  462:
                                 entity = _closure3_slot0;
-                                romeon = entity.inboundStats;
+                                yankee = entity.inboundStats;
                                 zuuluu = _closure5_slot0;
                                 entity = {};
-                                entity['packetsReceived'] = echoed;
-                                entity['bytesReceived'] = result;
-                                entity['packetsLost'] = sizing;
-                                update = verify != output;
+                                entity['packetsReceived'] = source;
+                                entity['bytesReceived'] = update;
+                                entity['packetsLost'] = result;
+                                backup = verify != echoed;
                                 foxtra = 0;
-                                if(!update) { _fun00012_ip = 505; continue _fun00011 }
+                                if(!backup) { _fun00012_ip = 505; continue _fun00011 }
  502:
-                                foxtra = output;
+                                foxtra = echoed;
  505:
                                 entity['nackCount'] = foxtra;
-                                entity['fecPacketsReceived'] = kiloes;
-                                entity['fecPacketsDiscarded'] = backup;
+                                entity['fecPacketsReceived'] = output;
+                                entity['fecPacketsDiscarded'] = sizing;
                                 entity['mos'] = oscard;
                                 entity['mosSum'] = oscard;
                                 entity['mosCount'] = oscard;
                                 foxtra = [0, 0, 0, 0, 0];
                                 entity['mosBuckets'] = foxtra;
-                                entity['bufferStats'] = yankee;
+                                entity['bufferStats'] = romeon;
                                 entity['frameOpStats'] = offset;
-                                cntext = entity;
-                                record = golfie;
-                                foxtra = copyDataProperties(cntext, record);
-                                romeon[zuuluu] = entity;
+                                target = entity;
+                                papara = golfie;
+                                foxtra = copyDataProperties(target, papara);
+                                yankee[zuuluu] = entity;
                                 entity = _closure3_slot0;
-                                romeon = entity.periodicInboundStats;
+                                yankee = entity.periodicInboundStats;
                                 zuuluu = _closure5_slot0;
                                 entity = {};
                                 foxtra = global;
-                                source = foxtra.performance;
-                                update = source.now;
-                                update = update.bind(source)();
-                                entity['previousTimestampMs'] = update;
+                                kiloes = foxtra.performance;
+                                backup = kiloes.now;
+                                backup = backup.bind(kiloes)();
+                                entity['previousTimestampMs'] = backup;
                                 entity['previous'] = offset;
-                                update = foxtra.performance;
-                                foxtra = update.now;
-                                foxtra = foxtra.bind(update)();
+                                backup = foxtra.performance;
+                                foxtra = backup.now;
+                                foxtra = foxtra.bind(backup)();
                                 entity['currentTimestampMs'] = foxtra;
                                 entity['current'] = offset;
-                                update = option.accelerateRate;
-                                source = verify != update;
+                                backup = option.accelerateRate;
+                                kiloes = verify != backup;
                                 foxtra = 0;
-                                if(!source) { _fun00012_ip = 659; continue _fun00011 }
+                                if(!kiloes) { _fun00012_ip = 659; continue _fun00011 }
  656:
-                                foxtra = update;
+                                foxtra = backup;
  659:
                                 entity['accelerateRateSum'] = foxtra;
-                                update = option.expandRate;
-                                source = verify != update;
+                                backup = option.expandRate;
+                                kiloes = verify != backup;
                                 foxtra = 0;
-                                if(!source) { _fun00012_ip = 682; continue _fun00011 }
+                                if(!kiloes) { _fun00012_ip = 682; continue _fun00011 }
  679:
-                                foxtra = update;
+                                foxtra = backup;
  682:
                                 entity['expandRateSum'] = foxtra;
-                                update = option.preemptiveExpandRate;
-                                source = verify != update;
+                                backup = option.preemptiveExpandRate;
+                                kiloes = verify != backup;
                                 foxtra = 0;
-                                if(!source) { _fun00012_ip = 705; continue _fun00011 }
+                                if(!kiloes) { _fun00012_ip = 705; continue _fun00011 }
  702:
-                                foxtra = update;
+                                foxtra = backup;
  705:
                                 entity['preemptiveExpandRateSum'] = foxtra;
-                                update = option.speechExpandRate;
-                                source = verify != update;
+                                backup = option.speechExpandRate;
+                                kiloes = verify != backup;
                                 foxtra = 0;
-                                if(!source) { _fun00012_ip = 728; continue _fun00011 }
+                                if(!kiloes) { _fun00012_ip = 728; continue _fun00011 }
  725:
-                                foxtra = update;
+                                foxtra = backup;
  728:
                                 entity['speechExpandRateSum'] = foxtra;
                                 foxtra = 1;
                                 entity['numRateSamples'] = foxtra;
-                                romeon[zuuluu] = entity;
-                                _fun00012_ip = 1416; continue _fun00011;
+                                yankee[zuuluu] = entity;
+                                _fun00012_ip = 1407; continue _fun00011;
  750:
-                                zuuluu = _closure3_slot0;
-                                entity = zuuluu.inboundStats;
-                                romeon = _closure5_slot0;
-                                entity = entity[romeon];
-                                entity = entity.packetsReceived;
-                                entity = echoed - entity;
-                                foxtra = zuuluu.inboundStats;
-                                foxtra = foxtra[romeon];
-                                foxtra = foxtra.packetsLost;
-                                source = sizing - foxtra;
-                                zuuluu = zuuluu.inboundStats;
-                                zuuluu = zuuluu[romeon];
-                                romeon = zuuluu.mosBuckets;
-                                zuuluu = entity > oscard;
-                                if(!zuuluu) { _fun00012_ip = 825; continue _fun00011 }
- 821:
-                                zuuluu = source >= oscard;
+                                entity = _closure3_slot0;
+                                zuuluu = entity.inboundStats;
+                                entity = _closure5_slot0;
+                                kiloes = zuuluu[entity];
+                                entity = kiloes.packetsReceived;
+                                entity = source - entity;
+                                zuuluu = kiloes.packetsLost;
+                                vacuum = result - zuuluu;
+                                foxtra = kiloes.mosBuckets;
+                                yankee = kiloes.decryptFailureBeforeSuccessCount;
+                                if(!(verify == yankee)) { _fun00012_ip = 828; continue _fun00011 }
+ 804:
+                                zuuluu = golfie.decryptSuccessCount;
+                                backup = zuuluu > oscard;
+                                zuuluu = undefined;
+                                if(!backup) { _fun00012_ip = 825; continue _fun00011 }
+ 819:
+                                zuuluu = golfie.decryptFailureCount;
  825:
-                                foxtra = 0;
-                                if(!zuuluu) { _fun00012_ip = 934; continue _fun00011 }
- 830:
-                                update = _closure3_slot0;
-                                zuuluu = update.calculateMos;
-                                michal = ctrled + michal;
-                                sequen = _closure1_slot1;
-                                vacuum = _closure1_slot2;
-                                ctrled = 4;
-                                vacuum = vacuum[ctrled];
-                                ctrled = undefined;
-                                vacuum = sequen.bind(ctrled)(vacuum);
-                                ctrled = vacuum.clamp;
-                                entity = entity + source;
-                                source = source / entity;
+                                yankee = zuuluu;
+ 828:
+                                zuuluu = entity > oscard;
+                                if(!zuuluu) { _fun00012_ip = 839; continue _fun00011 }
+ 835:
+                                zuuluu = vacuum >= oscard;
+ 839:
+                                backup = 0;
+                                if(!zuuluu) { _fun00012_ip = 948; continue _fun00011 }
+ 844:
+                                ctrled = _closure3_slot0;
+                                zuuluu = ctrled.calculateMos;
+                                michal = sequen + michal;
+                                record = _closure1_slot1;
+                                config = _closure1_slot2;
+                                sequen = 4;
+                                config = config[sequen];
+                                sequen = undefined;
+                                config = record.bind(sequen)(config);
+                                sequen = config.clamp;
+                                entity = entity + vacuum;
+                                vacuum = vacuum / entity;
                                 entity = 1;
-                                entity = ctrled.bind(vacuum)(source, oscard, entity);
-                                entity = zuuluu.bind(update)(michal, entity);
+                                entity = sequen.bind(config)(vacuum, oscard, entity);
+                                entity = zuuluu.bind(ctrled)(michal, entity);
                                 michal = global;
                                 zuuluu = michal.Math;
                                 michal = zuuluu.floor;
                                 zuuluu = michal.bind(zuuluu)(entity);
-                                michal = romeon[zuuluu];
+                                michal = foxtra[zuuluu];
                                 michal = michal + 1;
-                                romeon[zuuluu] = michal;
-                                foxtra = entity;
- 934:
+                                foxtra[zuuluu] = michal;
+                                backup = entity;
+ 948:
                                 entity = _closure3_slot0;
                                 zuuluu = entity.inboundStats;
                                 michal = _closure5_slot0;
                                 entity = {};
-                                entity['packetsReceived'] = echoed;
-                                entity['bytesReceived'] = result;
-                                entity['packetsLost'] = sizing;
-                                result = verify != output;
-                                sizing = 0;
-                                if(!result) { _fun00012_ip = 977; continue _fun00011 }
- 974:
-                                sizing = output;
- 977:
-                                entity['nackCount'] = sizing;
-                                entity['fecPacketsReceived'] = kiloes;
-                                entity['fecPacketsDiscarded'] = backup;
-                                entity['mos'] = foxtra;
-                                backup = _closure3_slot0;
-                                sizing = backup.inboundStats;
-                                kiloes = _closure5_slot0;
-                                sizing = sizing[kiloes];
-                                sizing = sizing.mosSum;
-                                sizing = sizing + foxtra;
+                                entity['packetsReceived'] = source;
+                                entity['bytesReceived'] = update;
+                                entity['packetsLost'] = result;
+                                update = verify != echoed;
+                                result = 0;
+                                if(!update) { _fun00012_ip = 991; continue _fun00011 }
+ 988:
+                                result = echoed;
+ 991:
+                                entity['nackCount'] = result;
+                                entity['fecPacketsReceived'] = output;
+                                entity['fecPacketsDiscarded'] = sizing;
+                                entity['mos'] = backup;
+                                sizing = kiloes.mosSum;
+                                sizing = sizing + backup;
                                 entity['mosSum'] = sizing;
-                                backup = backup.inboundStats;
-                                backup = backup[kiloes];
-                                backup = backup.mosCount;
-                                kiloes = foxtra > oscard;
-                                foxtra = 0;
-                                if(!kiloes) { _fun00012_ip = 1058; continue _fun00011 }
- 1055:
-                                foxtra = 1;
- 1058:
-                                foxtra = backup + foxtra;
-                                entity['mosCount'] = foxtra;
-                                entity['mosBuckets'] = romeon;
-                                entity['bufferStats'] = yankee;
+                                kiloes = kiloes.mosCount;
+                                sizing = backup > oscard;
+                                backup = 0;
+                                if(!sizing) { _fun00012_ip = 1044; continue _fun00011 }
+ 1041:
+                                backup = 1;
+ 1044:
+                                backup = kiloes + backup;
+                                entity['mosCount'] = backup;
+                                entity['mosBuckets'] = foxtra;
+                                entity['bufferStats'] = romeon;
                                 entity['frameOpStats'] = offset;
-                                cntext = entity;
-                                record = golfie;
-                                golfie = copyDataProperties(cntext, record);
+                                entity['decryptFailureBeforeSuccessCount'] = yankee;
+                                target = entity;
+                                papara = golfie;
+                                golfie = copyDataProperties(target, papara);
                                 zuuluu[michal] = entity;
                                 golfie = _closure3_slot0;
                                 zuuluu = golfie.periodicInboundStats;
@@ -746,10 +749,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 yankee = option.accelerateRate;
                                 romeon = verify != yankee;
                                 golfie = 0;
-                                if(!romeon) { _fun00012_ip = 1214; continue _fun00011 }
- 1211:
+                                if(!romeon) { _fun00012_ip = 1205; continue _fun00011 }
+ 1202:
                                 golfie = yankee;
- 1214:
+ 1205:
                                 golfie = offset + golfie;
                                 entity['accelerateRateSum'] = golfie;
                                 golfie = _closure3_slot0;
@@ -760,10 +763,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 yankee = option.expandRate;
                                 romeon = verify != yankee;
                                 golfie = 0;
-                                if(!romeon) { _fun00012_ip = 1265; continue _fun00011 }
- 1262:
+                                if(!romeon) { _fun00012_ip = 1256; continue _fun00011 }
+ 1253:
                                 golfie = yankee;
- 1265:
+ 1256:
                                 golfie = offset + golfie;
                                 entity['expandRateSum'] = golfie;
                                 golfie = _closure3_slot0;
@@ -774,10 +777,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 yankee = option.preemptiveExpandRate;
                                 romeon = verify != yankee;
                                 golfie = 0;
-                                if(!romeon) { _fun00012_ip = 1316; continue _fun00011 }
- 1313:
+                                if(!romeon) { _fun00012_ip = 1307; continue _fun00011 }
+ 1304:
                                 golfie = yankee;
- 1316:
+ 1307:
                                 golfie = offset + golfie;
                                 entity['preemptiveExpandRateSum'] = golfie;
                                 golfie = _closure3_slot0;
@@ -788,10 +791,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 option = option.speechExpandRate;
                                 verify = verify != option;
                                 oscard = 0;
-                                if(!verify) { _fun00012_ip = 1367; continue _fun00011 }
- 1364:
+                                if(!verify) { _fun00012_ip = 1358; continue _fun00011 }
+ 1355:
                                 oscard = option;
- 1367:
+ 1358:
                                 oscard = golfie + oscard;
                                 entity['speechExpandRateSum'] = oscard;
                                 report = _closure3_slot0;
@@ -803,7 +806,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 tangon = report + tangon;
                                 entity['numRateSamples'] = tangon;
                                 zuuluu[michal] = entity;
- 1416:
+ 1407:
                                 entity = undefined;
                                 return entity;
                             }
@@ -1462,82 +1465,100 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
                     entity = argFoo;
-                    tangon = argBar;
-                    oscard = entity.passthroughCount;
-                    golfie = tangon.passthroughCount;
-                    report = null;
-                    option = report != golfie;
+                    report = argBar;
+                    zuuluu = entity.passthroughCount;
+                    golfie = report.passthroughCount;
+                    oscard = null;
+                    option = oscard != golfie;
                     michal = 0;
                     if(!option) { _fun00026_ip = 32; continue _fun00025 }
  29:
                     michal = golfie;
  32:
-                    michal = oscard + michal;
+                    michal = zuuluu + michal;
                     entity['passthroughCount'] = michal;
-                    oscard = entity.decryptSuccessCount;
-                    golfie = tangon.decryptSuccessCount;
-                    option = report != golfie;
+                    zuuluu = entity.decryptSuccessCount;
+                    golfie = report.decryptSuccessCount;
+                    option = oscard != golfie;
                     michal = 0;
                     if(!option) { _fun00026_ip = 66; continue _fun00025 }
  63:
                     michal = golfie;
  66:
-                    michal = oscard + michal;
+                    michal = zuuluu + michal;
                     entity['decryptSuccessCount'] = michal;
-                    oscard = entity.decryptFailureCount;
-                    golfie = tangon.decryptFailureCount;
-                    option = report != golfie;
+                    zuuluu = entity.decryptFailureCount;
+                    golfie = report.decryptFailureCount;
+                    option = oscard != golfie;
                     michal = 0;
                     if(!option) { _fun00026_ip = 100; continue _fun00025 }
  97:
                     michal = golfie;
  100:
-                    michal = oscard + michal;
+                    michal = zuuluu + michal;
                     entity['decryptFailureCount'] = michal;
-                    oscard = entity.decryptDuration;
-                    golfie = tangon.decryptDuration;
-                    option = report != golfie;
+                    zuuluu = entity.decryptDuration;
+                    golfie = report.decryptDuration;
+                    option = oscard != golfie;
                     michal = 0;
                     if(!option) { _fun00026_ip = 134; continue _fun00025 }
  131:
                     michal = golfie;
  134:
-                    michal = oscard + michal;
+                    michal = zuuluu + michal;
                     entity['decryptDuration'] = michal;
-                    oscard = entity.decryptAttempts;
-                    golfie = tangon.decryptAttempts;
-                    option = report != golfie;
+                    zuuluu = entity.decryptAttempts;
+                    golfie = report.decryptAttempts;
+                    option = oscard != golfie;
                     michal = 0;
                     if(!option) { _fun00026_ip = 168; continue _fun00025 }
  165:
                     michal = golfie;
  168:
-                    michal = oscard + michal;
+                    michal = zuuluu + michal;
                     entity['decryptAttempts'] = michal;
-                    oscard = entity.decryptMissingKeyCount;
-                    golfie = tangon.decryptMissingKeyCount;
-                    option = report != golfie;
+                    zuuluu = entity.decryptMissingKeyCount;
+                    golfie = report.decryptMissingKeyCount;
+                    option = oscard != golfie;
                     michal = 0;
                     if(!option) { _fun00026_ip = 202; continue _fun00025 }
  199:
                     michal = golfie;
  202:
-                    michal = oscard + michal;
+                    michal = zuuluu + michal;
                     entity['decryptMissingKeyCount'] = michal;
-                    michal = entity.decryptInvalidNonceCount;
-                    tangon = tangon.decryptInvalidNonceCount;
-                    report = report != tangon;
-                    zuuluu = 0;
-                    if(!report) { _fun00026_ip = 236; continue _fun00025 }
+                    zuuluu = entity.decryptInvalidNonceCount;
+                    golfie = report.decryptInvalidNonceCount;
+                    option = oscard != golfie;
+                    michal = 0;
+                    if(!option) { _fun00026_ip = 236; continue _fun00025 }
  233:
-                    zuuluu = tangon;
+                    michal = golfie;
  236:
-                    michal = michal + zuuluu;
+                    michal = zuuluu + michal;
                     entity['decryptInvalidNonceCount'] = michal;
+                    zuuluu = entity.decryptFailureAfterSuccessCount;
+                    golfie = report.decryptFailureCount;
+                    option = oscard != golfie;
+                    michal = 0;
+                    if(!option) { _fun00026_ip = 270; continue _fun00025 }
+ 267:
+                    michal = golfie;
+ 270:
+                    report = report.decryptFailureBeforeSuccessCount;
+                    oscard = oscard != report;
+                    tangon = 0;
+                    if(!oscard) { _fun00026_ip = 288; continue _fun00025 }
+ 285:
+                    tangon = report;
+ 288:
+                    michal = michal - tangon;
+                    michal = zuuluu + michal;
+                    entity['decryptFailureAfterSuccessCount'] = michal;
                     return entity;
                 }
             };
-            entity = {'passthroughCount': 0, 'decryptSuccessCount': 0, 'decryptFailureCount': 0, 'decryptDuration': 0, 'decryptAttempts': 0, 'decryptMissingKeyCount': 0, 'decryptInvalidNonceCount': 0};
+            entity = {'passthroughCount': 0, 'decryptSuccessCount': 0, 'decryptFailureCount': 0, 'decryptDuration': 0, 'decryptAttempts': 0, 'decryptMissingKeyCount': 0, 'decryptInvalidNonceCount': 0, 'decryptFailureAfterSuccessCount': 0};
             zuuluu = report.bind(oscard)(tangon, zuuluu, entity);
             entity = {};
             tangon = zuuluu.passthroughCount;
@@ -1552,8 +1573,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['decrypt_attempts'] = tangon;
             tangon = zuuluu.decryptMissingKeyCount;
             entity['decrypt_missing_key_count'] = tangon;
-            zuuluu = zuuluu.decryptInvalidNonceCount;
-            entity['decrypt_invalid_nonce_count'] = zuuluu;
+            tangon = zuuluu.decryptInvalidNonceCount;
+            entity['decrypt_invalid_nonce_count'] = tangon;
+            zuuluu = zuuluu.decryptFailureAfterSuccessCount;
+            entity['decrypt_failure_after_success_count'] = zuuluu;
             zuuluu = michal.outboundStats;
             zuuluu = zuuluu.passthroughCount;
             entity['encrypt_passthrough_count'] = zuuluu;

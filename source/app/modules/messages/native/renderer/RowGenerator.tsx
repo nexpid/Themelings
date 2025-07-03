@@ -101,81 +101,66 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  41:
                 michal = _closure1_slot6;
                 michal = michal.BLOCKED_GROUP;
-                if(!(michal !== option)) { _fun00002_ip = 376; continue _fun00001 }
+                if(!(michal !== option)) { _fun00002_ip = 317; continue _fun00001 }
  61:
                 michal = _closure1_slot6;
                 michal = michal.IGNORED_GROUP;
-                if(!(michal !== option)) { _fun00002_ip = 376; continue _fun00001 }
+                if(!(michal !== option)) { _fun00002_ip = 317; continue _fun00001 }
  78:
                 michal = _closure1_slot6;
                 michal = michal.MESSAGE;
-                if(!(michal !== option)) { _fun00002_ip = 334; continue _fun00001 }
+                if(!(michal !== option)) { _fun00002_ip = 275; continue _fun00001 }
  95:
-                michal = _closure1_slot6;
-                michal = michal.UPLOAD_PROGRESS;
-                if(!(michal !== option)) { _fun00002_ip = 292; continue _fun00001 }
- 112:
                 michal = _closure1_slot7;
                 michal = michal.DAY;
-                if(!(michal !== option)) { _fun00002_ip = 256; continue _fun00001 }
- 129:
+                if(!(michal !== option)) { _fun00002_ip = 239; continue _fun00001 }
+ 112:
                 michal = _closure1_slot7;
                 michal = michal.UNREAD;
-                if(!(michal !== option)) { _fun00002_ip = 256; continue _fun00001 }
- 143:
+                if(!(michal !== option)) { _fun00002_ip = 239; continue _fun00001 }
+ 126:
                 michal = _closure1_slot7;
                 michal = michal.SUMMARY;
-                if(!(michal !== option)) { _fun00002_ip = 256; continue _fun00001 }
- 157:
+                if(!(michal !== option)) { _fun00002_ip = 239; continue _fun00001 }
+ 140:
                 michal = _closure1_slot8;
                 michal = michal.LOAD_BEFORE;
-                if(!(michal !== option)) { _fun00002_ip = 220; continue _fun00001 }
- 171:
+                if(!(michal !== option)) { _fun00002_ip = 203; continue _fun00001 }
+ 154:
                 michal = _closure1_slot8;
                 michal = michal.LOAD_AFTER;
-                if(!(michal !== option)) { _fun00002_ip = 220; continue _fun00001 }
- 185:
+                if(!(michal !== option)) { _fun00002_ip = 203; continue _fun00001 }
+ 168:
                 golfie = _closure1_slot0;
                 oscard = _closure1_slot2;
-                michal = 11;
+                michal = 10;
                 oscard = oscard[michal];
                 michal = undefined;
                 golfie = golfie.bind(michal)(oscard);
                 oscard = golfie.assertNever;
                 oscard = oscard.bind(golfie)(option);
                 return michal;
- 220:
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot2;
-                michal = 10;
-                oscard = oscard[michal];
-                michal = undefined;
-                oscard = golfie.bind(michal)(oscard);
-                michal = oscard.generateLoadingRowData;
-                michal = michal.bind(oscard)(report, zuuluu);
-                return michal;
- 256:
+ 203:
                 golfie = _closure1_slot0;
                 oscard = _closure1_slot2;
                 michal = 9;
                 oscard = oscard[michal];
                 michal = undefined;
                 oscard = golfie.bind(michal)(oscard);
-                michal = oscard.generateSeparatorRowData;
+                michal = oscard.generateLoadingRowData;
                 michal = michal.bind(oscard)(report, zuuluu);
                 return michal;
- 292:
+ 239:
                 golfie = _closure1_slot0;
                 oscard = _closure1_slot2;
                 michal = 8;
                 oscard = oscard[michal];
                 michal = undefined;
-                golfie = golfie.bind(michal)(oscard);
-                oscard = golfie.generateUploadProgressRowData;
-                michal = tangon.options;
-                michal = oscard.bind(golfie)(report, michal, zuuluu);
+                oscard = golfie.bind(michal)(oscard);
+                michal = oscard.generateSeparatorRowData;
+                michal = michal.bind(oscard)(report, zuuluu);
                 return michal;
- 334:
+ 275:
                 golfie = _closure1_slot0;
                 oscard = _closure1_slot2;
                 michal = 7;
@@ -186,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.options;
                 michal = oscard.bind(golfie)(report, michal, zuuluu);
                 return michal;
- 376:
+ 317:
                 oscard = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 6;
@@ -205,7 +190,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)();
-    tangon = 12;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

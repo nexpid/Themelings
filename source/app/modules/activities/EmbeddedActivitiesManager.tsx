@@ -379,7 +379,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00018_ip = 729; continue _fun00017 }
+                    if(zuuluu) { _fun00018_ip = 727; continue _fun00017 }
  13:
                     oscard = michal.applicationId;
                     yankee = michal.location;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  35:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00018_ip = 726; continue _fun00017 }
+                    if(zuuluu) { _fun00018_ip = 724; continue _fun00017 }
  44:
                     option = _closure1_slot19;
                     golfie = option.getEmbeddedActivityDurationMs;
@@ -401,12 +401,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = zuuluu.bind(golfie)();
                     sizing = null;
                     zuuluu = sizing != kiloes;
-                    if(!zuuluu) { _fun00018_ip = 97; continue _fun00017 }
- 93:
+                    if(!zuuluu) { _fun00018_ip = 95; continue _fun00017 }
+ 91:
                     zuuluu = sizing != offset;
- 97:
-                    if(!zuuluu) { _fun00018_ip = 202; continue _fun00017 }
- 100:
+ 95:
+                    if(!zuuluu) { _fun00018_ip = 200; continue _fun00017 }
+ 98:
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
                     zuuluu = 19;
@@ -428,13 +428,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = false;
                     zuuluu['rejectWithError'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
-                    SaveGenerator(address=193);
- 191:
+                    SaveGenerator(address=191);
+ 189:
                     return zuuluu;
- 193:
+ 191:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00018_ip = 723; continue _fun00017 }
- 202:
+                    if(golfie) { _fun00018_ip = 721; continue _fun00017 }
+ 200:
                     golfie = _closure1_slot27;
                     backup = golfie[oscard];
                     option = _closure1_slot0;
@@ -454,10 +454,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = _closure1_slot15;
                     golfie = option.getCurrentUser;
                     ctrled = golfie.bind(option)();
-                    if(!(sizing != backup)) { _fun00018_ip = 720; continue _fun00017 }
- 295:
-                    if(!(sizing != ctrled)) { _fun00018_ip = 720; continue _fun00017 }
- 302:
+                    if(!(sizing != backup)) { _fun00018_ip = 718; continue _fun00017 }
+ 293:
+                    if(!(sizing != ctrled)) { _fun00018_ip = 718; continue _fun00017 }
+ 300:
                     option = _closure1_slot19;
                     golfie = option.getShelfActivities;
                     foxtra = golfie.bind(option)(kiloes);
@@ -501,24 +501,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie['release_phase'] = echoed;
                     ctrled = sizing == source;
                     echoed = undefined;
-                    if(ctrled) { _fun00018_ip = 516; continue _fun00017 }
- 495:
+                    if(ctrled) { _fun00018_ip = 514; continue _fun00017 }
+ 493:
                     source = source.activity;
                     ctrled = sizing == source;
                     echoed = undefined;
-                    if(ctrled) { _fun00018_ip = 516; continue _fun00017 }
- 510:
+                    if(ctrled) { _fun00018_ip = 514; continue _fun00017 }
+ 508:
                     echoed = source.shelf_rank;
- 516:
+ 514:
                     golfie['shelf_rank'] = echoed;
                     echoed = backup.activityUserSessionId;
                     golfie['activity_user_session_id'] = echoed;
                     source = sizing == update;
                     echoed = undefined;
-                    if(source) { _fun00018_ip = 546; continue _fun00017 }
- 541:
+                    if(source) { _fun00018_ip = 544; continue _fun00017 }
+ 539:
                     echoed = update.type;
- 546:
+ 544:
                     golfie['channel_type'] = echoed;
                     echoed = backup.mediaSessionIds;
                     golfie['media_session_ids'] = echoed;
@@ -539,13 +539,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = backup.launchId;
                     sizing = sizing != kiloes;
                     kiloes = undefined;
-                    if(!sizing) { _fun00018_ip = 657; continue _fun00017 }
- 640:
+                    if(!sizing) { _fun00018_ip = 655; continue _fun00017 }
+ 638:
                     output = backup.launchId;
                     sizing = new Array(1);
                     sizing[0] = output;
                     kiloes = sizing;
- 657:
+ 655:
                     golfie['instance_ids'] = kiloes;
                     kiloes = backup.mediaSessionIds;
                     golfie['media_session_ids'] = kiloes;
@@ -558,13 +558,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = verify.bind(offset)(option, golfie);
                     report = _closure1_slot27;
                     report = delete report[oscard];
- 720:
+ 718:
                     return tangon;
- 723:
+ 721:
                     return zuuluu;
- 726:
+ 724:
                     return michal;
- 729:
+ 727:
                     return entity;
                 }
             };

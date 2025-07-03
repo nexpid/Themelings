@@ -225,7 +225,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity = report.bind(oscard)(entity);
                     report = null;
-                    if(!(report == entity)) { _fun00004_ip = 88; continue _fun00003 }
+                    if(!(report == entity)) { _fun00004_ip = 86; continue _fun00003 }
  50:
                     report = _closure1_slot5;
                     tangon = report.getEmbeddedActivitiesForStartingChannel;
@@ -251,7 +251,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     entity = zuuluu.bind(tangon)(michal);
- 88:
+ 86:
                     return entity;
                 }
             };

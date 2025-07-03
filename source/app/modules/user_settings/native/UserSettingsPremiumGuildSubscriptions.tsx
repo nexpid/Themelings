@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -230,17 +230,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report['destinationPane'] = option;
                         report = oscard.bind(golfie)(report);
                         report = null;
-                        if(!(report == zuuluu)) { _fun00006_ip = 165; continue _fun00005 }
- 143:
+                        if(!(report == zuuluu)) { _fun00006_ip = 167; continue _fun00005 }
+ 145:
                         report = tangon.push;
                         michal = _closure1_slot15;
                         michal = michal.PREMIUM;
                         michal = report.bind(tangon)(michal);
-                        _fun00006_ip = 176; continue _fun00005;
- 165:
+                        _fun00006_ip = 178; continue _fun00005;
+ 167:
                         michal = tangon.navigate;
                         michal = michal.bind(tangon)(zuuluu);
- 176:
+ 178:
                         return entity;
                     }
                 };

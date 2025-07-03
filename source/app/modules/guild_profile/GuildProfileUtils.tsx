@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = argFoo;
             zuuluu = michal.guild;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00004_ip = 145; continue _fun00003 }
+            if(!(entity != zuuluu)) { _fun00004_ip = 150; continue _fun00003 }
  17:
             oscard = _closure1_slot0;
             report = _closure1_slot1;
@@ -88,39 +88,40 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             golfie = oscard.bind(report)(zuuluu);
             oscard = golfie.fromInviteGuild;
             zuuluu = michal.guild;
-            golfie = oscard.bind(golfie)(zuuluu);
-            oscard = golfie.hasFeature;
+            zuuluu = oscard.bind(golfie)(zuuluu);
+            golfie = zuuluu.features;
+            oscard = golfie.has;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.HUB;
             zuuluu = oscard.bind(golfie)(zuuluu);
-            if(zuuluu) { _fun00004_ip = 141; continue _fun00003 }
- 82:
+            if(zuuluu) { _fun00004_ip = 146; continue _fun00003 }
+ 87:
             oscard = entity == michal;
             zuuluu = undefined;
-            if(oscard) { _fun00004_ip = 96; continue _fun00003 }
- 91:
-            zuuluu = michal.channel;
+            if(oscard) { _fun00004_ip = 101; continue _fun00003 }
  96:
+            zuuluu = michal.channel;
+ 101:
             oscard = entity != zuuluu;
             zuuluu = null;
-            if(!oscard) { _fun00004_ip = 119; continue _fun00003 }
- 105:
+            if(!oscard) { _fun00004_ip = 124; continue _fun00003 }
+ 110:
             tangon = _closure1_slot2;
             michal = michal.channel;
             zuuluu = tangon.bind(report)(michal);
- 119:
+ 124:
             entity = entity == zuuluu;
-            if(entity) { _fun00004_ip = 139; continue _fun00003 }
- 126:
+            if(entity) { _fun00004_ip = 144; continue _fun00003 }
+ 131:
             michal = zuuluu.isGuildVocal;
             michal = michal.bind(zuuluu)();
             entity = !michal;
- 139:
+ 144:
             return entity;
- 141:
+ 146:
             entity = false;
             return entity;
- 145:
+ 150:
             entity = false;
             return entity;
         }

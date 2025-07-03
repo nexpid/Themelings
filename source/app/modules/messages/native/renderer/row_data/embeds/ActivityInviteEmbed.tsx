@@ -407,14 +407,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot17 = tangon;
-    tangon = 21;
+    tangon = 22;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.makeKeyedDataComponent;
     tangon = 'activityInviteEmbed';
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot18 = tangon;
-    tangon = 23;
+    tangon = 24;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -465,7 +465,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  142:
             verify = _closure1_slot0;
             golfie = _closure1_slot2;
-            zuuluu = 22;
+            zuuluu = 23;
             zuuluu = golfie[zuuluu];
             offset = verify.bind(tangon)(zuuluu);
             zuuluu = offset.useMessageRendererTheme;
@@ -575,7 +575,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             echoed = backup.bind(kiloes)(offset, report, golfie);
             golfie = _closure1_slot1;
-            report = 15;
+            report = 16;
             report = verify[report];
             report = golfie.bind(tangon)(report);
             source = report.bind(tangon)(echoed, michal, foxtra);
@@ -593,13 +593,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  475:
             update = _closure1_slot0;
             config = _closure1_slot2;
-            golfie = 17;
+            golfie = 18;
             golfie = config[golfie];
             offset = update.bind(tangon)(golfie);
             verify = offset.getAssetUriForEmbed;
             output = _closure1_slot5;
             kiloes = output.resolveAssetSource;
-            golfie = 18;
+            golfie = 19;
             golfie = config[golfie];
             update = update.bind(tangon)(golfie);
             golfie = update.getSpotifyErrorSource;
@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  546:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            golfie = 16;
+            golfie = 17;
             golfie = offset[golfie];
             golfie = verify.bind(tangon)(golfie);
             sizing = golfie.bind(tangon)(echoed, foxtra);
@@ -624,7 +624,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  586:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
-            golfie = 19;
+            golfie = 20;
             golfie = offset[golfie];
             offset = verify.bind(tangon)(golfie);
             verify = offset.getApplicationIconURL;
@@ -722,7 +722,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  863:
             kiloes = _closure1_slot0;
             golfie = _closure1_slot2;
-            offset = 20;
+            offset = 21;
             yankee = golfie[offset];
             yankee = kiloes.bind(tangon)(yankee);
             romeon = yankee.intl;
@@ -1214,59 +1214,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             report = argFoo;
-            entity = report.author;
-            echoed = null;
-            if(!(echoed != entity)) { _fun00022_ip = 25; continue _fun00021 }
- 15:
-            entity = report.activity;
-            if(!(echoed == entity)) { _fun00022_ip = 29; continue _fun00021 }
- 25:
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot2;
+            entity = 15;
+            michal = michal[entity];
             entity = undefined;
-            return entity;
- 29:
-            entity = report.activity;
-            vacuum = entity.type;
-            entity = report.activity;
-            sequen = entity.party_id;
-            entity = report.application;
-            if(!(echoed == entity)) { _fun00022_ip = 126; continue _fun00021 }
- 61:
-            zuuluu = echoed != sequen;
-            michal = undefined;
-            romeon = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.getIsRichPresenceActivityInviteRedesignEnabled;
+            michal = michal.bind(zuuluu)();
+            if(michal) { _fun00022_ip = 2413; continue _fun00021 }
+ 44:
+            michal = report.author;
+            result = null;
+            if(!(result != michal)) { _fun00022_ip = 2413; continue _fun00021 }
+ 59:
+            michal = report.activity;
+            if(!(result != michal)) { _fun00022_ip = 2413; continue _fun00021 }
+ 72:
+            michal = report.activity;
+            ctrled = michal.type;
+            michal = report.activity;
+            vacuum = michal.party_id;
+            michal = report.application;
+            if(!(result == michal)) { _fun00022_ip = 164; continue _fun00021 }
+ 104:
+            zuuluu = result != vacuum;
+            yankee = undefined;
             oscard = undefined;
-            verify = undefined;
-            if(!zuuluu) { _fun00022_ip = 142; continue _fun00021 }
- 76:
-            tangon = sequen.split;
+            option = undefined;
+            if(!zuuluu) { _fun00022_ip = 180; continue _fun00021 }
+ 117:
+            golfie = vacuum.split;
             zuuluu = ':';
-            option = tangon.bind(sequen)(zuuluu);
+            verify = golfie.bind(vacuum)(zuuluu);
             golfie = _closure1_slot3;
-            tangon = 1;
-            golfie = golfie.bind(michal)(option, tangon);
-            tangon = 0;
-            tangon = golfie[tangon];
+            zuuluu = 1;
+            golfie = golfie.bind(entity)(verify, zuuluu);
+            zuuluu = 0;
+            golfie = golfie[zuuluu];
             zuuluu = _closure1_slot13;
-            oscard = zuuluu[tangon];
-            romeon = undefined;
-            verify = undefined;
-            _fun00022_ip = 142; continue _fun00021;
- 126:
-            romeon = entity.id;
-            oscard = entity.name;
-            verify = entity.cover_image;
- 142:
-            michal = _closure1_slot6;
-            entity = michal.getId;
-            output = entity.bind(michal)();
-            entity = report.application;
-            if(!(echoed == entity)) { _fun00022_ip = 209; continue _fun00021 }
- 168:
-            golfie = _closure1_slot9;
-            zuuluu = golfie.findActivity;
-            entity = report.author;
-            michal = entity.id;
-            entity = function(argFoo) {
+            oscard = zuuluu[golfie];
+            yankee = undefined;
+            option = undefined;
+            _fun00022_ip = 180; continue _fun00021;
+ 164:
+            yankee = michal.id;
+            oscard = michal.name;
+            option = michal.cover_image;
+ 180:
+            zuuluu = _closure1_slot6;
+            michal = zuuluu.getId;
+            sizing = michal.bind(zuuluu)();
+            michal = report.application;
+            if(!(result == michal)) { _fun00022_ip = 244; continue _fun00021 }
+ 203:
+            verify = _closure1_slot9;
+            golfie = verify.findActivity;
+            michal = report.author;
+            zuuluu = michal.id;
+            michal = function(argFoo) {
                 entity = argFoo;
                 michal = entity.type;
                 entity = _closure1_slot14;
@@ -1274,621 +1280,621 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal === entity;
                 return entity;
             };
-            michal = zuuluu.bind(golfie)(michal, entity);
-            _fun00022_ip = 352; continue _fun00021;
- 209:
-            entity = report.author;
-            golfie = entity.id;
+            michal = golfie.bind(verify)(zuuluu, michal);
+            _fun00022_ip = 385; continue _fun00021;
+ 244:
+            zuuluu = report.author;
+            golfie = zuuluu.id;
             zuuluu = report.activity;
-            offset = echoed == zuuluu;
-            entity = undefined;
-            option = undefined;
-            if(offset) { _fun00022_ip = 242; continue _fun00021 }
- 237:
-            option = zuuluu.type;
- 242:
+            offset = result == zuuluu;
+            verify = undefined;
+            if(offset) { _fun00022_ip = 275; continue _fun00021 }
+ 270:
+            verify = zuuluu.type;
+ 275:
             zuuluu = _closure1_slot11;
             zuuluu = zuuluu.JOIN_REQUEST;
             offset = golfie;
-            if(!(option === zuuluu)) { _fun00022_ip = 326; continue _fun00021 }
- 259:
-            yankee = _closure1_slot7;
-            option = yankee.getChannel;
+            if(!(verify === zuuluu)) { _fun00022_ip = 359; continue _fun00021 }
+ 292:
+            romeon = _closure1_slot7;
+            verify = romeon.getChannel;
             zuuluu = report.getChannelId;
             zuuluu = zuuluu.bind(report)();
-            option = option.bind(yankee)(zuuluu);
-            if(!(echoed != option)) { _fun00022_ip = 2380; continue _fun00021 }
- 290:
-            zuuluu = output;
-            if(!(golfie === output)) { _fun00022_ip = 323; continue _fun00021 }
- 297:
-            golfie = option.isPrivate;
-            golfie = golfie.bind(option)();
-            zuuluu = output;
-            if(!golfie) { _fun00022_ip = 323; continue _fun00021 }
- 313:
-            golfie = option.getRecipientId;
-            zuuluu = golfie.bind(option)();
+            verify = verify.bind(romeon)(zuuluu);
+            if(!(result != verify)) { _fun00022_ip = 2411; continue _fun00021 }
  323:
+            zuuluu = sizing;
+            if(!(golfie === sizing)) { _fun00022_ip = 356; continue _fun00021 }
+ 330:
+            golfie = verify.isPrivate;
+            golfie = golfie.bind(verify)();
+            zuuluu = sizing;
+            if(!golfie) { _fun00022_ip = 356; continue _fun00021 }
+ 346:
+            golfie = verify.getRecipientId;
+            zuuluu = golfie.bind(verify)();
+ 356:
             offset = zuuluu;
- 326:
-            option = _closure1_slot9;
-            golfie = option.getApplicationActivity;
+ 359:
+            verify = _closure1_slot9;
+            golfie = verify.getApplicationActivity;
             zuuluu = report.application;
             zuuluu = zuuluu.id;
-            michal = golfie.bind(option)(offset, zuuluu);
- 352:
+            michal = golfie.bind(verify)(offset, zuuluu);
+ 385:
             golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            zuuluu = 15;
-            zuuluu = option[zuuluu];
-            option = undefined;
-            zuuluu = golfie.bind(option)(zuuluu);
-            ctrled = zuuluu.bind(option)(michal, report, romeon);
+            verify = _closure1_slot2;
+            zuuluu = 16;
+            zuuluu = verify[zuuluu];
+            zuuluu = golfie.bind(entity)(zuuluu);
+            source = zuuluu.bind(entity)(michal, report, yankee);
             zuuluu = _closure1_slot11;
             golfie = zuuluu.LISTEN;
-            foxtra = vacuum === golfie;
+            romeon = ctrled === golfie;
             zuuluu = zuuluu.JOIN_REQUEST;
-            zuuluu = vacuum === zuuluu;
+            zuuluu = ctrled === zuuluu;
             report = report.author;
-            sizing = report.id;
-            update = michal;
-            if(ctrled) { _fun00022_ip = 501; continue _fun00021 }
- 422:
-            kiloes = undefined;
-            if(!foxtra) { _fun00022_ip = 527; continue _fun00021 }
- 427:
-            backup = _closure1_slot0;
-            result = _closure1_slot2;
-            michal = 17;
-            michal = result[michal];
-            golfie = backup.bind(option)(michal);
-            report = golfie.getAssetUriForEmbed;
-            yankee = _closure1_slot5;
-            offset = yankee.resolveAssetSource;
+            kiloes = report.id;
+            echoed = michal;
+            if(source) { _fun00022_ip = 532; continue _fun00021 }
+ 453:
+            backup = undefined;
+            if(!romeon) { _fun00022_ip = 558; continue _fun00021 }
+ 458:
+            foxtra = _closure1_slot0;
+            output = _closure1_slot2;
             michal = 18;
-            michal = result[michal];
-            result = backup.bind(option)(michal);
-            backup = result.getSpotifyErrorSource;
-            michal = argBar;
-            michal = backup.bind(result)(michal);
-            michal = offset.bind(yankee)(michal);
-            kiloes = report.bind(golfie)(michal);
-            _fun00022_ip = 527; continue _fun00021;
- 501:
-            report = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 16;
-            michal = golfie[michal];
-            michal = report.bind(option)(michal);
-            kiloes = michal.bind(option)(update, romeon);
- 527:
-            michal = echoed == kiloes;
-            if(!michal) { _fun00022_ip = 538; continue _fun00021 }
- 534:
-            michal = echoed != romeon;
- 538:
-            if(!michal) { _fun00022_ip = 597; continue _fun00021 }
- 541:
-            report = _closure1_slot1;
-            golfie = _closure1_slot2;
+            michal = output[michal];
+            golfie = foxtra.bind(entity)(michal);
+            report = golfie.getAssetUriForEmbed;
+            offset = _closure1_slot5;
+            verify = offset.resolveAssetSource;
             michal = 19;
+            michal = output[michal];
+            output = foxtra.bind(entity)(michal);
+            foxtra = output.getSpotifyErrorSource;
+            michal = argBar;
+            michal = foxtra.bind(output)(michal);
+            michal = verify.bind(offset)(michal);
+            backup = report.bind(golfie)(michal);
+            _fun00022_ip = 558; continue _fun00021;
+ 532:
+            report = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 17;
             michal = golfie[michal];
-            golfie = report.bind(option)(michal);
+            michal = report.bind(entity)(michal);
+            backup = michal.bind(entity)(echoed, yankee);
+ 558:
+            michal = result == backup;
+            if(!michal) { _fun00022_ip = 569; continue _fun00021 }
+ 565:
+            michal = result != yankee;
+ 569:
+            if(!michal) { _fun00022_ip = 628; continue _fun00021 }
+ 572:
+            report = _closure1_slot1;
+            golfie = _closure1_slot2;
+            michal = 20;
+            michal = golfie[michal];
+            golfie = report.bind(entity)(michal);
             report = golfie.getApplicationIconURL;
             michal = {};
-            michal['id'] = romeon;
-            michal['icon'] = verify;
-            verify = _closure1_slot16;
-            michal['size'] = verify;
-            verify = false;
-            michal['fallbackAvatar'] = verify;
-            kiloes = report.bind(golfie)(michal);
- 597:
-            if(!(echoed != update)) { _fun00022_ip = 665; continue _fun00021 }
- 601:
-            michal = update.party;
-            if(!(echoed != michal)) { _fun00022_ip = 665; continue _fun00021 }
- 611:
-            michal = update.party;
+            michal['id'] = yankee;
+            michal['icon'] = option;
+            option = _closure1_slot16;
+            michal['size'] = option;
+            option = false;
+            michal['fallbackAvatar'] = option;
+            backup = report.bind(golfie)(michal);
+ 628:
+            if(!(result != echoed)) { _fun00022_ip = 696; continue _fun00021 }
+ 632:
+            michal = echoed.party;
+            if(!(result != michal)) { _fun00022_ip = 696; continue _fun00021 }
+ 642:
+            michal = echoed.party;
             michal = michal.size;
-            if(!(echoed != michal)) { _fun00022_ip = 665; continue _fun00021 }
- 626:
-            michal = update.party;
+            if(!(result != michal)) { _fun00022_ip = 696; continue _fun00021 }
+ 657:
+            michal = echoed.party;
             michal = michal.size;
             report = michal.length;
             michal = 2;
-            if(!(!(report < michal))) { _fun00022_ip = 665; continue _fun00021 }
- 649:
-            if(!ctrled) { _fun00022_ip = 665; continue _fun00021 }
- 652:
-            michal = update.party;
+            if(!(!(report < michal))) { _fun00022_ip = 696; continue _fun00021 }
+ 680:
+            if(!source) { _fun00022_ip = 696; continue _fun00021 }
+ 683:
+            michal = echoed.party;
             golfie = michal.size;
-            _fun00022_ip = 686; continue _fun00021;
- 665:
+            _fun00022_ip = 717; continue _fun00021;
+ 696:
             michal = new Array(2);
             report = -1;
             michal[0] = report;
             michal[1] = report;
             golfie = michal;
- 686:
+ 717:
             report = _closure1_slot3;
             michal = 2;
-            report = report.bind(option)(golfie, michal);
-            cntext = 0;
-            config = report[cntext];
+            report = report.bind(entity)(golfie, michal);
+            record = 0;
+            sequen = report[record];
             michal = 1;
             golfie = report[michal];
-            offset = -1;
-            source = config > offset;
-            if(!source) { _fun00022_ip = 729; continue _fun00021 }
- 725:
-            source = golfie > cntext;
- 729:
-            if(!source) { _fun00022_ip = 736; continue _fun00021 }
- 732:
-            source = config >= golfie;
- 736:
-            result = echoed != romeon;
-            if(!result) { _fun00022_ip = 747; continue _fun00021 }
- 743:
-            result = echoed != sequen;
- 747:
-            if(!result) { _fun00022_ip = 834; continue _fun00021 }
- 750:
+            verify = -1;
+            update = sequen > verify;
+            if(!update) { _fun00022_ip = 760; continue _fun00021 }
+ 756:
+            update = golfie > record;
+ 760:
+            if(!update) { _fun00022_ip = 767; continue _fun00021 }
+ 763:
+            update = sequen >= golfie;
+ 767:
+            output = result != yankee;
+            if(!output) { _fun00022_ip = 778; continue _fun00021 }
+ 774:
+            output = result != vacuum;
+ 778:
+            if(!output) { _fun00022_ip = 865; continue _fun00021 }
+ 781:
             report = _closure1_slot10;
             michal = report.getCurrentUser;
             report = michal.bind(report)();
-            verify = echoed == report;
+            option = result == report;
             michal = false;
-            if(verify) { _fun00022_ip = 831; continue _fun00021 }
- 772:
-            yankee = _closure1_slot9;
-            verify = yankee.getApplicationActivity;
+            if(option) { _fun00022_ip = 862; continue _fun00021 }
+ 803:
+            offset = _closure1_slot9;
+            option = offset.getApplicationActivity;
             report = report.id;
-            verify = verify.bind(yankee)(report, romeon);
-            report = echoed != verify;
-            if(!report) { _fun00022_ip = 810; continue _fun00021 }
- 800:
-            yankee = verify.party;
-            report = echoed != yankee;
- 810:
-            if(!report) { _fun00022_ip = 828; continue _fun00021 }
- 813:
-            verify = verify.party;
-            verify = verify.id;
-            report = sequen === verify;
- 828:
-            michal = report;
+            option = option.bind(offset)(report, yankee);
+            report = result != option;
+            if(!report) { _fun00022_ip = 841; continue _fun00021 }
  831:
-            result = michal;
- 834:
-            romeon = _closure1_slot0;
+            offset = option.party;
+            report = result != offset;
+ 841:
+            if(!report) { _fun00022_ip = 859; continue _fun00021 }
+ 844:
+            option = option.party;
+            option = option.id;
+            report = vacuum === option;
+ 859:
+            michal = report;
+ 862:
+            output = michal;
+ 865:
+            yankee = _closure1_slot0;
             michal = _closure1_slot2;
-            verify = 20;
-            report = michal[verify];
-            report = romeon.bind(option)(report);
-            yankee = report.intl;
-            report = yankee.string;
-            michal = michal[verify];
-            michal = romeon.bind(option)(michal);
+            option = 21;
+            report = michal[option];
+            report = yankee.bind(entity)(report);
+            offset = report.intl;
+            report = offset.string;
+            michal = michal[option];
+            michal = yankee.bind(entity)(michal);
             michal = michal.t;
             michal = michal.hC/Ze3;
-            michal = report.bind(yankee)(michal);
-            if(foxtra) { _fun00022_ip = 952; continue _fun00021 }
- 892:
-            backup = michal;
-            if(!zuuluu) { _fun00022_ip = 1011; continue _fun00021 }
- 898:
-            romeon = _closure1_slot0;
+            michal = report.bind(offset)(michal);
+            if(romeon) { _fun00022_ip = 983; continue _fun00021 }
+ 923:
+            foxtra = michal;
+            if(!zuuluu) { _fun00022_ip = 1042; continue _fun00021 }
+ 929:
+            yankee = _closure1_slot0;
             michal = _closure1_slot2;
-            report = michal[verify];
-            report = romeon.bind(option)(report);
-            yankee = report.intl;
-            report = yankee.string;
-            michal = michal[verify];
-            michal = romeon.bind(option)(michal);
+            report = michal[option];
+            report = yankee.bind(entity)(report);
+            offset = report.intl;
+            report = offset.string;
+            michal = michal[option];
+            michal = yankee.bind(entity)(michal);
             michal = michal.t;
             michal = michal.OKsSCQ;
-            backup = report.bind(yankee)(michal);
-            _fun00022_ip = 1011; continue _fun00021;
- 952:
+            foxtra = report.bind(offset)(michal);
+            _fun00022_ip = 1042; continue _fun00021;
+ 983:
             report = _closure1_slot0;
             michal = _closure1_slot2;
-            yankee = michal[verify];
-            yankee = report.bind(option)(yankee);
-            romeon = yankee.intl;
-            yankee = romeon.formatToPlainString;
-            michal = michal[verify];
-            michal = report.bind(option)(michal);
+            offset = michal[option];
+            offset = report.bind(entity)(offset);
+            yankee = offset.intl;
+            offset = yankee.formatToPlainString;
+            michal = michal[option];
+            michal = report.bind(entity)(michal);
             michal = michal.t;
             report = michal./8czHx;
             michal = {};
             michal['name'] = oscard;
-            backup = yankee.bind(romeon)(report, michal);
- 1011:
+            foxtra = offset.bind(yankee)(report, michal);
+ 1042:
             report = undefined;
-            if(!foxtra) { _fun00022_ip = 1092; continue _fun00021 }
- 1016:
-            record = '';
-            yankee = undefined;
-            michal = record;
-            if(!ctrled) { _fun00022_ip = 1086; continue _fun00021 }
- 1028:
-            romeon = echoed != update;
-            yankee = undefined;
-            michal = record;
-            if(!romeon) { _fun00022_ip = 1086; continue _fun00021 }
- 1040:
-            romeon = update.details;
-            romeon = echoed != romeon;
-            yankee = undefined;
-            michal = record;
-            if(!romeon) { _fun00022_ip = 1086; continue _fun00021 }
- 1058:
-            romeon = update.state;
-            romeon = echoed != romeon;
-            yankee = undefined;
-            michal = record;
-            if(!romeon) { _fun00022_ip = 1086; continue _fun00021 }
- 1075:
-            michal = update.details;
-            yankee = update.state;
- 1086:
-            report = yankee;
+            if(!romeon) { _fun00022_ip = 1123; continue _fun00021 }
+ 1047:
+            config = '';
+            offset = undefined;
+            michal = config;
+            if(!source) { _fun00022_ip = 1117; continue _fun00021 }
+ 1059:
+            yankee = result != echoed;
+            offset = undefined;
+            michal = config;
+            if(!yankee) { _fun00022_ip = 1117; continue _fun00021 }
+ 1071:
+            yankee = echoed.details;
+            yankee = result != yankee;
+            offset = undefined;
+            michal = config;
+            if(!yankee) { _fun00022_ip = 1117; continue _fun00021 }
+ 1089:
+            yankee = echoed.state;
+            yankee = result != yankee;
+            offset = undefined;
+            michal = config;
+            if(!yankee) { _fun00022_ip = 1117; continue _fun00021 }
+ 1106:
+            michal = echoed.details;
+            offset = echoed.state;
+ 1117:
+            report = offset;
             oscard = michal;
- 1092:
-            if(ctrled) { _fun00022_ip = 1300; continue _fun00021 }
- 1098:
+ 1123:
+            if(source) { _fun00022_ip = 1331; continue _fun00021 }
+ 1129:
             michal = _closure1_slot11;
             michal = michal.LISTEN;
-            if(!(michal !== vacuum)) { _fun00022_ip = 1243; continue _fun00021 }
- 1115:
+            if(!(michal !== ctrled)) { _fun00022_ip = 1274; continue _fun00021 }
+ 1146:
             michal = _closure1_slot11;
             michal = michal.WATCH;
-            if(!(michal !== vacuum)) { _fun00022_ip = 1186; continue _fun00021 }
- 1129:
-            record = _closure1_slot0;
+            if(!(michal !== ctrled)) { _fun00022_ip = 1217; continue _fun00021 }
+ 1160:
+            config = _closure1_slot0;
             michal = _closure1_slot2;
-            yankee = michal[verify];
-            yankee = record.bind(option)(yankee);
-            romeon = yankee.intl;
-            yankee = romeon.string;
-            michal = michal[verify];
-            michal = record.bind(option)(michal);
+            offset = michal[option];
+            offset = config.bind(entity)(offset);
+            yankee = offset.intl;
+            offset = yankee.string;
+            michal = michal[option];
+            michal = config.bind(entity)(michal);
             michal = michal.t;
             michal = michal.2Gbof3;
-            yankee = yankee.bind(romeon)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1186:
-            papara = _closure1_slot0;
+            offset = offset.bind(yankee)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1217:
+            cntext = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = papara.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = papara.bind(option)(michal);
+            yankee = michal[option];
+            yankee = cntext.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = cntext.bind(entity)(michal);
             michal = michal.t;
             michal = michal.B9kbnZ;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1243:
-            papara = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1274:
+            cntext = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = papara.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = papara.bind(option)(michal);
+            yankee = michal[option];
+            yankee = cntext.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = cntext.bind(entity)(michal);
             michal = michal.t;
             michal = michal.84qx9v;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1300:
-            if(source) { _fun00022_ip = 1948; continue _fun00021 }
- 1306:
-            if(result) { _fun00022_ip = 1894; continue _fun00021 }
- 1312:
-            if(!(echoed != update)) { _fun00022_ip = 1840; continue _fun00021 }
- 1319:
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1331:
+            if(update) { _fun00022_ip = 1979; continue _fun00021 }
+ 1337:
+            if(output) { _fun00022_ip = 1925; continue _fun00021 }
+ 1343:
+            if(!(result != echoed)) { _fun00022_ip = 1871; continue _fun00021 }
+ 1350:
             michal = _closure1_slot21;
-            michal = michal.bind(option)(update);
-            if(michal) { _fun00022_ip = 1840; continue _fun00021 }
- 1334:
-            michal = update.platform;
-            if(!(echoed == michal)) { _fun00022_ip = 1370; continue _fun00021 }
- 1344:
-            romeon = update.supported_platforms;
-            record = echoed == romeon;
+            michal = michal.bind(entity)(echoed);
+            if(michal) { _fun00022_ip = 1871; continue _fun00021 }
+ 1365:
+            michal = echoed.platform;
+            if(!(result == michal)) { _fun00022_ip = 1401; continue _fun00021 }
+ 1375:
+            yankee = echoed.supported_platforms;
+            config = result == yankee;
             michal = undefined;
-            if(record) { _fun00022_ip = 1363; continue _fun00021 }
- 1359:
-            michal = romeon[cntext];
- 1363:
-            if(!(echoed != michal)) { _fun00022_ip = 1840; continue _fun00021 }
- 1370:
-            romeon = update.platform;
-            if(!(echoed == romeon)) { _fun00022_ip = 1402; continue _fun00021 }
- 1380:
-            record = update.supported_platforms;
-            papara = echoed == record;
+            if(config) { _fun00022_ip = 1394; continue _fun00021 }
+ 1390:
+            michal = yankee[record];
+ 1394:
+            if(!(result != michal)) { _fun00022_ip = 1871; continue _fun00021 }
+ 1401:
+            yankee = echoed.platform;
+            if(!(result == yankee)) { _fun00022_ip = 1433; continue _fun00021 }
+ 1411:
+            config = echoed.supported_platforms;
+            cntext = result == config;
             michal = undefined;
-            if(papara) { _fun00022_ip = 1399; continue _fun00021 }
- 1395:
-            michal = record[cntext];
- 1399:
-            romeon = michal;
- 1402:
+            if(cntext) { _fun00022_ip = 1430; continue _fun00021 }
+ 1426:
+            michal = config[record];
+ 1430:
+            yankee = michal;
+ 1433:
             michal = _closure1_slot12;
             michal = michal.DESKTOP;
-            if(!(michal !== romeon)) { _fun00022_ip = 1783; continue _fun00021 }
- 1419:
+            if(!(michal !== yankee)) { _fun00022_ip = 1814; continue _fun00021 }
+ 1450:
             michal = _closure1_slot12;
             michal = michal.IOS;
-            if(!(michal !== romeon)) { _fun00022_ip = 1726; continue _fun00021 }
- 1436:
+            if(!(michal !== yankee)) { _fun00022_ip = 1757; continue _fun00021 }
+ 1467:
             michal = _closure1_slot12;
             michal = michal.ANDROID;
-            if(!(michal !== romeon)) { _fun00022_ip = 1669; continue _fun00021 }
- 1453:
-            michal = _closure1_slot12;
-            michal = michal.XBOX;
-            if(!(michal !== romeon)) { _fun00022_ip = 1612; continue _fun00021 }
- 1470:
-            michal = _closure1_slot12;
-            michal = michal.PS4;
-            if(!(michal !== romeon)) { _fun00022_ip = 1555; continue _fun00021 }
+            if(!(michal !== yankee)) { _fun00022_ip = 1700; continue _fun00021 }
  1484:
             michal = _closure1_slot12;
+            michal = michal.XBOX;
+            if(!(michal !== yankee)) { _fun00022_ip = 1643; continue _fun00021 }
+ 1501:
+            michal = _closure1_slot12;
+            michal = michal.PS4;
+            if(!(michal !== yankee)) { _fun00022_ip = 1586; continue _fun00021 }
+ 1515:
+            michal = _closure1_slot12;
             michal = michal.PS5;
-            if(!(michal !== romeon)) { _fun00022_ip = 1555; continue _fun00021 }
- 1498:
-            cntext = _closure1_slot0;
+            if(!(michal !== yankee)) { _fun00022_ip = 1586; continue _fun00021 }
+ 1529:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.c3EWuL;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1555:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1586:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal./ak8Mj;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1612:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1643:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.HEY5dX;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1669:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1700:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.5crb4u;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1726:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1757:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.ZozYtr;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1783:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1814:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.c3EWuL;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1840:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1871:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.c3EWuL;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1894:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1925:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.KC26NT;
-            yankee = romeon.bind(record)(michal);
-            _fun00022_ip = 2000; continue _fun00021;
- 1948:
-            cntext = _closure1_slot0;
+            offset = yankee.bind(config)(michal);
+            _fun00022_ip = 2031; continue _fun00021;
+ 1979:
+            record = _closure1_slot0;
             michal = _closure1_slot2;
-            romeon = michal[verify];
-            romeon = cntext.bind(option)(romeon);
-            record = romeon.intl;
-            romeon = record.string;
-            michal = michal[verify];
-            michal = cntext.bind(option)(michal);
+            yankee = michal[option];
+            yankee = record.bind(entity)(yankee);
+            config = yankee.intl;
+            yankee = config.string;
+            michal = michal[option];
+            michal = record.bind(entity)(michal);
             michal = michal.t;
             michal = michal.jfrMtr;
-            yankee = romeon.bind(record)(michal);
- 2000:
-            michal = echoed != sequen;
-            if(!michal) { _fun00022_ip = 2010; continue _fun00021 }
- 2007:
-            michal = ctrled;
- 2010:
-            if(!michal) { _fun00022_ip = 2026; continue _fun00021 }
- 2013:
-            offset = config > offset;
-            if(offset) { _fun00022_ip = 2023; continue _fun00021 }
- 2020:
-            offset = foxtra;
- 2023:
-            michal = offset;
- 2026:
-            offset = undefined;
-            if(!michal) { _fun00022_ip = 2143; continue _fun00021 }
+            offset = yankee.bind(config)(michal);
  2031:
-            romeon = _closure1_slot8;
-            michal = romeon.getParty;
-            record = michal.bind(romeon)(sequen);
-            romeon = echoed != record;
+            michal = result != vacuum;
+            if(!michal) { _fun00022_ip = 2041; continue _fun00021 }
+ 2038:
+            michal = source;
+ 2041:
+            if(!michal) { _fun00022_ip = 2057; continue _fun00021 }
+ 2044:
+            verify = sequen > verify;
+            if(verify) { _fun00022_ip = 2054; continue _fun00021 }
+ 2051:
+            verify = romeon;
+ 2054:
+            michal = verify;
+ 2057:
+            verify = undefined;
+            if(!michal) { _fun00022_ip = 2174; continue _fun00021 }
+ 2062:
+            yankee = _closure1_slot8;
+            michal = yankee.getParty;
+            config = michal.bind(yankee)(vacuum);
+            yankee = result != config;
             michal = undefined;
-            if(!romeon) { _fun00022_ip = 2140; continue _fun00021 }
- 2055:
-            sequen = new Array(0);
-            romeon = _closure1_slot19;
-            cntext = romeon.bind(option)(record);
-            record = cntext.bind(option)();
-            romeon = record.done;
-            if(romeon) { _fun00022_ip = 2129; continue _fun00021 }
- 2080:
-            target = record.value;
-            papara = _closure1_slot10;
-            romeon = papara.getUser;
-            papara = romeon.bind(papara)(target);
-            if(!(echoed != papara)) { _fun00022_ip = 2114; continue _fun00021 }
- 2104:
-            romeon = sequen.push;
-            romeon = romeon.bind(sequen)(papara);
- 2114:
-            papara = cntext.bind(option)();
-            romeon = papara.done;
-            record = papara;
-            if(!romeon) { _fun00022_ip = 2080; continue _fun00021 }
- 2129:
-            romeon = _closure1_slot22;
-            michal = romeon.bind(option)(sequen, config, golfie);
- 2140:
-            offset = michal;
- 2143:
-            michal = _closure1_slot11;
-            michal = michal.LISTEN;
-            romeon = ctrled;
-            if(!(michal !== vacuum)) { _fun00022_ip = 2235; continue _fun00021 }
+            if(!yankee) { _fun00022_ip = 2171; continue _fun00021 }
+ 2086:
+            vacuum = new Array(0);
+            yankee = _closure1_slot19;
+            record = yankee.bind(entity)(config);
+            config = record.bind(entity)();
+            yankee = config.done;
+            if(yankee) { _fun00022_ip = 2160; continue _fun00021 }
+ 2111:
+            papara = config.value;
+            cntext = _closure1_slot10;
+            yankee = cntext.getUser;
+            cntext = yankee.bind(cntext)(papara);
+            if(!(result != cntext)) { _fun00022_ip = 2145; continue _fun00021 }
+ 2135:
+            yankee = vacuum.push;
+            yankee = yankee.bind(vacuum)(cntext);
+ 2145:
+            cntext = record.bind(entity)();
+            yankee = cntext.done;
+            config = cntext;
+            if(!yankee) { _fun00022_ip = 2111; continue _fun00021 }
  2160:
-            michal = _closure1_slot11;
-            michal = michal.JOIN;
-            if(!(michal !== vacuum)) { _fun00022_ip = 2188; continue _fun00021 }
+            yankee = _closure1_slot22;
+            michal = yankee.bind(entity)(vacuum, sequen, golfie);
+ 2171:
+            verify = michal;
  2174:
             michal = _closure1_slot11;
+            michal = michal.LISTEN;
+            yankee = source;
+            if(!(michal !== ctrled)) { _fun00022_ip = 2266; continue _fun00021 }
+ 2191:
+            michal = _closure1_slot11;
+            michal = michal.JOIN;
+            if(!(michal !== ctrled)) { _fun00022_ip = 2219; continue _fun00021 }
+ 2205:
+            michal = _closure1_slot11;
             michal = michal.JOIN_REQUEST;
-            romeon = false;
-            _fun00022_ip = 2235; continue _fun00021;
- 2188:
-            michal = ctrled;
-            if(!ctrled) { _fun00022_ip = 2197; continue _fun00021 }
- 2194:
-            michal = !source;
- 2197:
-            if(!michal) { _fun00022_ip = 2204; continue _fun00021 }
- 2200:
-            michal = echoed != update;
- 2204:
-            if(!michal) { _fun00022_ip = 2216; continue _fun00021 }
- 2207:
-            echoed = _closure1_slot21;
-            michal = echoed.bind(option)(update);
- 2216:
-            if(!michal) { _fun00022_ip = 2222; continue _fun00021 }
+            yankee = false;
+            _fun00022_ip = 2266; continue _fun00021;
  2219:
-            michal = !result;
- 2222:
-            if(!michal) { _fun00022_ip = 2232; continue _fun00021 }
+            michal = source;
+            if(!source) { _fun00022_ip = 2228; continue _fun00021 }
  2225:
-            sizing = sizing === output;
-            michal = !sizing;
- 2232:
-            romeon = michal;
+            michal = !update;
+ 2228:
+            if(!michal) { _fun00022_ip = 2235; continue _fun00021 }
+ 2231:
+            michal = result != echoed;
  2235:
-            michal = {};
-            michal['coverImage'] = kiloes;
-            michal['isListening'] = foxtra;
-            michal['joinable'] = romeon;
-            kiloes = 'string';
-            foxtra = typeof backup;
-            romeon = backup;
-            if(!(kiloes === foxtra)) { _fun00022_ip = 2276; continue _fun00021 }
+            if(!michal) { _fun00022_ip = 2247; continue _fun00021 }
+ 2238:
+            result = _closure1_slot21;
+            michal = result.bind(entity)(echoed);
+ 2247:
+            if(!michal) { _fun00022_ip = 2253; continue _fun00021 }
+ 2250:
+            michal = !output;
+ 2253:
+            if(!michal) { _fun00022_ip = 2263; continue _fun00021 }
+ 2256:
+            kiloes = kiloes === sizing;
+            michal = !kiloes;
+ 2263:
+            yankee = michal;
  2266:
-            foxtra = backup.toUpperCase;
-            romeon = foxtra.bind(backup)();
- 2276:
-            michal['headerText'] = romeon;
-            michal['partyStatus'] = yankee;
-            michal['avatarsToRender'] = offset;
+            michal = {};
+            michal['coverImage'] = backup;
+            michal['isListening'] = romeon;
+            michal['joinable'] = yankee;
+            backup = 'string';
+            romeon = typeof foxtra;
+            yankee = foxtra;
+            if(!(backup === romeon)) { _fun00022_ip = 2307; continue _fun00021 }
+ 2297:
+            romeon = foxtra.toUpperCase;
+            yankee = romeon.bind(foxtra)();
+ 2307:
+            michal['headerText'] = yankee;
+            michal['partyStatus'] = offset;
+            michal['avatarsToRender'] = verify;
             michal['maxPartySize'] = golfie;
             michal['name'] = oscard;
             michal['subtext'] = report;
             golfie = _closure1_slot0;
             tangon = _closure1_slot2;
-            report = tangon[verify];
-            report = golfie.bind(option)(report);
+            report = tangon[option];
+            report = golfie.bind(entity)(report);
             oscard = report.intl;
             report = oscard.string;
-            tangon = tangon[verify];
-            tangon = golfie.bind(option)(tangon);
+            tangon = tangon[option];
+            tangon = golfie.bind(entity)(tangon);
             tangon = tangon.t;
-            if(zuuluu) { _fun00022_ip = 2362; continue _fun00021 }
- 2349:
+            if(zuuluu) { _fun00022_ip = 2393; continue _fun00021 }
+ 2380:
             zuuluu = tangon.VJlc0d;
             zuuluu = report.bind(oscard)(zuuluu);
-            _fun00022_ip = 2373; continue _fun00021;
- 2362:
+            _fun00022_ip = 2404; continue _fun00021;
+ 2393:
             tangon = tangon.hC/Ze3;
             zuuluu = report.bind(oscard)(tangon);
- 2373:
+ 2404:
             michal['ctaText'] = zuuluu;
             return michal;
- 2380:
+ 2411:
+            return entity;
+ 2413:
             return entity;
         }
     };

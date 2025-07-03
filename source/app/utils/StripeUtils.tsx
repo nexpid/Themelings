@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 579; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 575; continue _fun00003 }
  10:
                     foxtra = argFoo;
                     tangon = undefined;
@@ -77,47 +77,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = backup.bind(kiloes)(foxtra);
                     michal['url'] = foxtra;
                     michal = zuuluu.bind(option)(michal);
-                    SaveGenerator(address=104);
- 102:
+                    SaveGenerator(address=100);
+ 98:
                     return michal;
- 104:
+ 100:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 560; continue _fun00003 }
- 113:
+                    if(zuuluu) { _fun00004_ip = 556; continue _fun00003 }
+ 109:
                     zuuluu = michal.body;
                     golfie = zuuluu.stripe_payment_intent_client_secret;
                     zuuluu = _closure1_slot9;
                     zuuluu = zuuluu.bind(tangon)();
-                    SaveGenerator(address=136);
- 134:
+                    SaveGenerator(address=132);
+ 130:
                     return zuuluu;
- 136:
+ 132:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 557; continue _fun00003 }
- 145:
+                    if(tangon) { _fun00004_ip = 553; continue _fun00003 }
+ 141:
                     offset = zuuluu;
                     option = null;
-                    if(!(option != zuuluu)) { _fun00004_ip = 542; continue _fun00003 }
- 157:
+                    if(!(option != zuuluu)) { _fun00004_ip = 538; continue _fun00003 }
+ 153:
                     backup = offset;
                     foxtra = backup.retrievePaymentIntent;
                     tangon = golfie;
                     tangon = foxtra.bind(backup)(tangon);
-                    SaveGenerator(address=178);
- 176:
+                    SaveGenerator(address=174);
+ 172:
                     return tangon;
- 178:
+ 174:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=12);
-                    if(foxtra) { _fun00004_ip = 539; continue _fun00003 }
- 187:
+                    if(foxtra) { _fun00004_ip = 535; continue _fun00003 }
+ 183:
                     foxtra = tangon.error;
                     oscard = foxtra;
                     romeon = tangon.paymentIntent;
-                    if(!(option == foxtra)) { _fun00004_ip = 525; continue _fun00003 }
- 208:
+                    if(!(option == foxtra)) { _fun00004_ip = 521; continue _fun00003 }
+ 204:
                     foxtra = romeon;
-                    if(!(option != foxtra)) { _fun00004_ip = 510; continue _fun00003 }
- 218:
+                    if(!(option != foxtra)) { _fun00004_ip = 506; continue _fun00003 }
+ 214:
                     report = {};
                     kiloes = romeon;
                     sizing = kiloes.status;
@@ -125,51 +125,51 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = kiloes.REQUIRES_PAYMENT_METHOD;
                     kiloes = sizing === kiloes;
                     backup = kiloes;
-                    if(!kiloes) { _fun00004_ip = 261; continue _fun00003 }
- 248:
+                    if(!kiloes) { _fun00004_ip = 257; continue _fun00003 }
+ 244:
                     kiloes = romeon;
                     kiloes = kiloes.last_payment_error;
                     backup = option != kiloes;
- 261:
+ 257:
                     foxtra = backup;
-                    if(!backup) { _fun00004_ip = 286; continue _fun00003 }
- 267:
+                    if(!backup) { _fun00004_ip = 282; continue _fun00003 }
+ 263:
                     backup = romeon;
                     backup = backup.last_payment_error;
                     backup = backup.payment_method;
                     foxtra = option != backup;
- 286:
-                    if(!foxtra) { _fun00004_ip = 318; continue _fun00003 }
- 289:
+ 282:
+                    if(!foxtra) { _fun00004_ip = 314; continue _fun00003 }
+ 285:
                     backup = report;
                     foxtra = romeon;
                     foxtra = foxtra.last_payment_error;
                     foxtra = foxtra.payment_method;
                     foxtra = foxtra.id;
                     backup['payment_method'] = foxtra;
- 318:
+ 314:
                     foxtra = romeon;
                     backup = foxtra.status;
                     foxtra = _closure1_slot8;
                     foxtra = foxtra.REQUIRES_PAYMENT_METHOD;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 449; continue _fun00003 }
- 340:
+                    if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
+ 336:
                     foxtra = _closure1_slot8;
                     foxtra = foxtra.REQUIRES_CONFIRMATION;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 449; continue _fun00003 }
- 354:
+                    if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
+ 350:
                     foxtra = _closure1_slot8;
                     foxtra = foxtra.REQUIRES_ACTION;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 449; continue _fun00003 }
- 368:
+                    if(!(foxtra !== backup)) { _fun00004_ip = 445; continue _fun00003 }
+ 364:
                     foxtra = _closure1_slot8;
                     foxtra = foxtra.SUCCEEDED;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 444; continue _fun00003 }
- 382:
+                    if(!(foxtra !== backup)) { _fun00004_ip = 440; continue _fun00003 }
+ 378:
                     foxtra = _closure1_slot8;
                     foxtra = foxtra.PROCESSING;
-                    if(!(foxtra !== backup)) { _fun00004_ip = 444; continue _fun00003 }
- 396:
+                    if(!(foxtra !== backup)) { _fun00004_ip = 440; continue _fun00003 }
+ 392:
                     yankee = _closure1_slot8;
                     yankee = yankee.CANCELED;
                     yankee = {};
@@ -180,68 +180,68 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = 'Invalid Payment Intent status: ';
                     romeon = foxtra.bind(romeon)(backup);
                     yankee['error'] = romeon;
- 441: // try_end0
+ 437: // try_end0
                     return yankee;
- 444:
+ 440:
                     yankee = {};
                     return yankee;
- 449: // try_start_1
+ 445: // try_start_1
                     yankee = offset;
                     offset = yankee.confirmCardPayment;
                     report = offset.bind(yankee)(golfie, report);
-                    SaveGenerator(address=468);
- 466:
+                    SaveGenerator(address=464);
+ 462:
                     return report;
- 468:
+ 464:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 507; continue _fun00003 }
- 474:
+                    if(golfie) { _fun00004_ip = 503; continue _fun00003 }
+ 470:
                     golfie = report.error;
                     verify = golfie;
-                    if(!(option == golfie)) { _fun00004_ip = 490; continue _fun00003 }
- 486:
+                    if(!(option == golfie)) { _fun00004_ip = 486; continue _fun00003 }
+ 482:
                     golfie = {};
-                    _fun00004_ip = 504; continue _fun00003;
- 490:
+                    _fun00004_ip = 500; continue _fun00003;
+ 486:
                     option = {};
                     verify = verify.message;
                     option['error'] = verify;
                     golfie = option;
- 504: // try_end1
+ 500: // try_end1
                     return golfie;
- 507:
+ 503:
                     return report;
- 510: // try_start_2
+ 506: // try_start_2
                     report = {};
                     golfie = 'payment intent does not exist';
                     report['error'] = golfie;
- 522: // try_end2
+ 518: // try_end2
                     return report;
- 525: // try_start_3
+ 521: // try_start_3
                     report = {};
                     oscard = oscard.message;
                     report['error'] = oscard;
- 536: // try_end3
+ 532: // try_end3
                     return report;
- 539:
+ 535:
                     return tangon;
- 542: // try_start_4
+ 538: // try_start_4
                     tangon = {};
                     report = 'unable to load stripe';
                     tangon['error'] = report;
- 554: // try_end4
+ 550: // try_end4
                     return tangon;
- 557:
+ 553:
                     return zuuluu;
- 560:
+ 556:
                     return michal;
- 563: // catch_target0 // catch_target1 // catch_target2 // catch_target3 // catch_target4
+ 559: // catch_target0 // catch_target1 // catch_target2 // catch_target3 // catch_target4
                     CatchBlockStart(arg_register=2);
                     michal = {};
                     zuuluu = zuuluu.message;
                     michal['error'] = zuuluu;
                     return michal;
- 579:
+ 575:
                     return entity;
                 }
             };

@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            romeon = romeon.bind(foxtra)(yankee, golfie, option);
+            yankee = romeon.bind(foxtra)(yankee, golfie, option);
             michal = oscard[michal];
             option = zuuluu.bind(tangon)(michal);
             golfie = option.useStateFromStores;
@@ -250,12 +250,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             golfie['id'] = offset;
             offset = null;
-            yankee = offset != romeon;
-            if(!yankee) { _fun00004_ip = 248; continue _fun00003 }
+            romeon = offset != yankee;
+            if(!romeon) { _fun00004_ip = 244; continue _fun00003 }
  239:
-            yankee = romeon.toString;
-            offset = yankee.bind(romeon)();
- 248:
+            offset = yankee.name;
+ 244:
             golfie['name'] = offset;
             report['guild'] = golfie;
             golfie = {};

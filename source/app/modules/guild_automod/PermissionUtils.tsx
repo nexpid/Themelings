@@ -141,21 +141,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = _closure1_slot2;
                 zuuluu = tangon.getGuild;
                 entity = _closure2_slot0;
-                tangon = zuuluu.bind(tangon)(entity);
+                zuuluu = zuuluu.bind(tangon)(entity);
                 entity = null;
-                zuuluu = entity == tangon;
+                tangon = entity == zuuluu;
                 entity = undefined;
-                if(zuuluu) { _fun00006_ip = 56; continue _fun00005 }
+                if(tangon) { _fun00006_ip = 61; continue _fun00005 }
  35:
-                zuuluu = tangon.hasFeature;
+                tangon = zuuluu.features;
+                zuuluu = tangon.has;
                 michal = _closure1_slot4;
                 michal = michal.COMMUNITY;
                 entity = zuuluu.bind(tangon)(michal);
- 56:
-                if(entity) { _fun00006_ip = 61; continue _fun00005 }
- 59:
-                entity = false;
  61:
+                if(entity) { _fun00006_ip = 66; continue _fun00005 }
+ 64:
+                entity = false;
+ 66:
                 return entity;
             }
         };

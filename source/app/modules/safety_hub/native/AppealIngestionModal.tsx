@@ -867,7 +867,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.bind(tangon)(michal, golfie);
             golfie = new Array(2);
             golfie[0] = verify;
-            if(!option) { _fun00006_ip = 1274; continue _fun00005 }
+            if(!option) { _fun00006_ip = 1270; continue _fun00005 }
  659:
             yankee = _closure1_slot12;
             offset = _closure1_slot0;
@@ -932,7 +932,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  905:
             romeon['text'] = kiloes;
             romeon = backup.bind(tangon)(foxtra, romeon);
-            _fun00006_ip = 1264; continue _fun00005;
+            _fun00006_ip = 1260; continue _fun00005;
  920:
             kiloes = _closure1_slot13;
             backup = _closure1_slot14;
@@ -962,8 +962,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = new Array(3);
             sizing[0] = result;
             output = output !== ctrled;
-            if(!output) { _fun00006_ip = 1117; continue _fun00005 }
- 1057:
+            if(!output) { _fun00006_ip = 1113; continue _fun00005 }
+ 1053:
             source = _closure1_slot12;
             echoed = _closure1_slot0;
             result = _closure1_slot3;
@@ -975,7 +975,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['style'] = vacuum;
             result['children'] = ctrled;
             output = source.bind(tangon)(echoed, result);
- 1117:
+ 1113:
             sizing[1] = output;
             echoed = _closure1_slot12;
             ctrled = _closure1_slot1;
@@ -1008,10 +1008,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing[2] = output;
             foxtra['children'] = sizing;
             romeon = kiloes.bind(tangon)(backup, foxtra);
- 1264:
+ 1260:
             verify['children'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 1274:
+ 1270:
             golfie[1] = option;
             oscard['children'] = golfie;
             oscard = zuuluu.bind(tangon)(michal, oscard);

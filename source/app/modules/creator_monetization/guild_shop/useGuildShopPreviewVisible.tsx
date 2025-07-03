@@ -85,18 +85,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             oscard = entity == option;
             zuuluu = undefined;
-            if(oscard) { _fun00002_ip = 167; continue _fun00001 }
+            if(oscard) { _fun00002_ip = 172; continue _fun00001 }
  146:
-            yankee = option.hasFeature;
+            romeon = option.features;
+            yankee = romeon.has;
             oscard = _closure1_slot4;
             oscard = oscard.PRODUCTS_AVAILABLE_FOR_PURCHASE;
-            zuuluu = yankee.bind(option)(oscard);
- 167:
+            zuuluu = yankee.bind(romeon)(oscard);
+ 172:
             oscard = entity != zuuluu;
-            if(!oscard) { _fun00002_ip = 177; continue _fun00001 }
- 174:
+            if(!oscard) { _fun00002_ip = 182; continue _fun00001 }
+ 179:
             oscard = zuuluu;
- 177:
+ 182:
             yankee = _closure1_slot0;
             romeon = _closure1_slot1;
             zuuluu = 6;
@@ -105,10 +106,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = romeon.useGuildEligibleForGuildProducts;
             zuuluu = entity == option;
             offset = undefined;
-            if(zuuluu) { _fun00002_ip = 217; continue _fun00001 }
- 212:
-            offset = option.id;
+            if(zuuluu) { _fun00002_ip = 222; continue _fun00001 }
  217:
+            offset = option.id;
+ 222:
             zuuluu = 'useGuildShopPreviewVisible';
             zuuluu = yankee.bind(romeon)(offset, zuuluu);
             verify = _closure1_slot4;
@@ -124,47 +125,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     zuuluu = _closure2_slot0;
-                    michal = null;
-                    zuuluu = michal == zuuluu;
-                    michal = undefined;
-                    if(zuuluu) { _fun00006_ip = 36; continue _fun00005 }
+                    entity = null;
+                    zuuluu = entity == zuuluu;
+                    entity = undefined;
+                    if(zuuluu) { _fun00006_ip = 41; continue _fun00005 }
  18:
-                    tangon = _closure2_slot0;
-                    zuuluu = tangon.hasFeature;
-                    entity = argFoo;
-                    michal = zuuluu.bind(tangon)(entity);
- 36:
-                    entity = true;
-                    entity = entity === michal;
+                    michal = _closure2_slot0;
+                    tangon = michal.features;
+                    zuuluu = tangon.has;
+                    michal = argFoo;
+                    entity = zuuluu.bind(tangon)(michal);
+ 41:
                     return entity;
                 }
             };
             report = verify.bind(offset)(report);
             entity = entity != option;
-            if(!entity) { _fun00002_ip = 291; continue _fun00001 }
- 288:
+            if(!entity) { _fun00002_ip = 296; continue _fun00001 }
+ 293:
             entity = golfie;
- 291:
-            if(!entity) { _fun00002_ip = 297; continue _fun00001 }
- 294:
+ 296:
+            if(!entity) { _fun00002_ip = 302; continue _fun00001 }
+ 299:
             entity = !oscard;
- 297:
-            if(!entity) { _fun00002_ip = 303; continue _fun00001 }
- 300:
+ 302:
+            if(!entity) { _fun00002_ip = 308; continue _fun00001 }
+ 305:
             entity = report;
- 303:
-            if(!entity) { _fun00002_ip = 309; continue _fun00001 }
- 306:
+ 308:
+            if(!entity) { _fun00002_ip = 314; continue _fun00001 }
+ 311:
             entity = tangon;
- 309:
-            if(!entity) { _fun00002_ip = 315; continue _fun00001 }
- 312:
+ 314:
+            if(!entity) { _fun00002_ip = 320; continue _fun00001 }
+ 317:
             entity = zuuluu;
- 315:
-            if(!entity) { _fun00002_ip = 321; continue _fun00001 }
- 318:
+ 320:
+            if(!entity) { _fun00002_ip = 326; continue _fun00001 }
+ 323:
             entity = !michal;
- 321:
+ 326:
             return entity;
         }
     };

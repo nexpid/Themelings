@@ -1026,15 +1026,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(report)(entity);
             entity = tangon.canManageGuildRoleSubscriptions;
             entity = entity.bind(tangon)(michal);
-            if(!entity) { _fun00036_ip = 63; continue _fun00035 }
+            if(!entity) { _fun00036_ip = 68; continue _fun00035 }
  42:
-            oscard = michal.hasFeature;
+            golfie = michal.features;
+            oscard = golfie.has;
             tangon = _closure1_slot8;
             tangon = tangon.ROLE_SUBSCRIPTIONS_ENABLED;
-            entity = oscard.bind(michal)(tangon);
- 63:
-            if(!entity) { _fun00036_ip = 96; continue _fun00035 }
- 66:
+            entity = oscard.bind(golfie)(tangon);
+ 68:
+            if(!entity) { _fun00036_ip = 101; continue _fun00035 }
+ 71:
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
             tangon = 12;
@@ -1042,9 +1043,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.bind(report)(tangon);
             tangon = oscard.isUserEligibleForTierTemplates;
             entity = tangon.bind(oscard)();
- 96:
-            if(!entity) { _fun00036_ip = 135; continue _fun00035 }
- 99:
+ 101:
+            if(!entity) { _fun00036_ip = 140; continue _fun00035 }
+ 104:
             tangon = _closure1_slot0;
             oscard = _closure1_slot2;
             zuuluu = 12;
@@ -1053,7 +1054,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.isGuildEligibleForTierTemplates;
             michal = michal.id;
             entity = zuuluu.bind(tangon)(michal);
- 135:
+ 140:
             return entity;
         }
     };

@@ -166,24 +166,26 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argFoo;
-            tangon = zuuluu.hasFeature;
+            report = zuuluu.features;
+            tangon = report.has;
             entity = _closure1_slot3;
             entity = entity.VANITY_URL;
-            entity = tangon.bind(zuuluu)(entity);
-            if(entity) { _fun00004_ip = 69; continue _fun00003 }
- 30:
-            tangon = zuuluu.hasFeature;
+            entity = tangon.bind(report)(entity);
+            if(entity) { _fun00004_ip = 79; continue _fun00003 }
+ 35:
+            report = zuuluu.features;
+            tangon = report.has;
             michal = _closure1_slot3;
             michal = michal.GUILD_WEB_PAGE_VANITY_URL;
-            michal = tangon.bind(zuuluu)(michal);
-            if(!michal) { _fun00004_ip = 66; continue _fun00003 }
- 54:
+            michal = tangon.bind(report)(michal);
+            if(!michal) { _fun00004_ip = 76; continue _fun00003 }
+ 64:
             tangon = zuuluu.vanityURLCode;
             zuuluu = null;
             michal = zuuluu != tangon;
- 66:
+ 76:
             entity = michal;
- 69:
+ 79:
             return entity;
         }
     };

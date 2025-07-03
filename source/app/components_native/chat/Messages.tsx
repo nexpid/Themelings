@@ -2024,16 +2024,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure3_slot0;
                     entity = michal.getHandlers;
                     zuuluu = entity.bind(michal)();
-                    michal = zuuluu.handleTapUploadProgressClose;
-                    entity = argFoo;
-                    entity = michal.bind(zuuluu)(entity);
-                    return entity;
-                };
-                entity['handleTapUploadProgressClose'] = tangon;
-                tangon = function(argFoo) {
-                    michal = _closure3_slot0;
-                    entity = michal.getHandlers;
-                    zuuluu = entity.bind(michal)();
                     michal = zuuluu.handleTapCancelUploadItem;
                     entity = argFoo;
                     entity = michal.bind(zuuluu)(entity);
@@ -5506,8 +5496,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['animateEmoji'] = backup;
             backup = yankee.handleTapGiftCodeEmbed;
             report['onTapGiftCodeEmbed'] = backup;
-            backup = yankee.handleTapUploadProgressClose;
-            report['onTapUploadProgressClose'] = backup;
             backup = yankee.handleTapCancelUploadItem;
             report['onTapCancelUploadItem'] = backup;
             backup = yankee.handleTapReply;
@@ -6235,36 +6223,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = null;
                     report = 2;
                     tangon = 1;
-                    if(michal) { _fun00106_ip = 150; continue _fun00105 }
- 56:
+                    if(michal) { _fun00106_ip = 148; continue _fun00105 }
+ 54:
                     yankee = zuuluu.value;
                     michal = _closure1_slot3;
                     michal = michal.bind(verify)(yankee, report);
                     yankee = michal[golfie];
                     michal = michal[tangon];
                     yankee = michal.isLaunching;
-                    if(!yankee) { _fun00106_ip = 98; continue _fun00105 }
- 88:
+                    if(!yankee) { _fun00106_ip = 96; continue _fun00105 }
+ 86:
                     romeon = michal.componentId;
                     yankee = oscard != romeon;
- 98:
-                    if(!yankee) { _fun00106_ip = 116; continue _fun00105 }
- 101:
+ 96:
+                    if(!yankee) { _fun00106_ip = 114; continue _fun00105 }
+ 99:
                     romeon = michal.componentId;
                     romeon = romeon.length;
                     yankee = romeon > golfie;
- 116:
-                    if(!yankee) { _fun00106_ip = 135; continue _fun00105 }
- 119:
+ 114:
+                    if(!yankee) { _fun00106_ip = 133; continue _fun00105 }
+ 117:
                     yankee = entity.push;
                     michal = michal.componentId;
                     michal = yankee.bind(entity)(michal);
- 135:
+ 133:
                     yankee = option.bind(verify)();
                     michal = yankee.done;
                     zuuluu = yankee;
-                    if(!michal) { _fun00106_ip = 56; continue _fun00105 }
- 150:
+                    if(!michal) { _fun00106_ip = 54; continue _fun00105 }
+ 148:
                     return entity;
                 }
             };
@@ -7098,7 +7086,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00121: for(var _fun00122_ip = 0; ; ) switch(_fun00122_ip) {
  0:
                     entity = argFoo;
-                    verify = entity.guild;
+                    report = entity.guild;
                     offset = entity.channel;
                     var _closure3_slot0 = offset;
                     golfie = entity.messages;
@@ -7108,20 +7096,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = undefined;
                     var _closure3_slot3 = zuuluu;
                     tangon = null;
-                    report = tangon == verify;
+                    oscard = tangon == report;
                     entity = undefined;
-                    if(report) { _fun00122_ip = 80; continue _fun00121 }
+                    if(oscard) { _fun00122_ip = 85; continue _fun00121 }
  56:
-                    oscard = verify.hasFeature;
+                    verify = report.features;
+                    oscard = verify.has;
                     report = _closure1_slot62;
                     report = report.COMMUNITY;
                     entity = oscard.bind(verify)(report);
- 80:
+ 85:
                     verify = tangon != entity;
-                    if(!verify) { _fun00122_ip = 90; continue _fun00121 }
- 87:
+                    if(!verify) { _fun00122_ip = 95; continue _fun00121 }
+ 92:
                     verify = entity;
- 90:
+ 95:
                     _closure3_slot3 = verify;
                     oscard = _closure1_slot10;
                     report = oscard.useMemo;

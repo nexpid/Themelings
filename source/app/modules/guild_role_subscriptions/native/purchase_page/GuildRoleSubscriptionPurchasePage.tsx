@@ -432,13 +432,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = romeon[yankee];
  470:
             yankee = offset.bind(tangon)(verify);
-            if(!option) { _fun00004_ip = 1800; continue _fun00003 }
+            if(!option) { _fun00004_ip = 1805; continue _fun00003 }
  481:
-            if(!(whisks != zuuluu)) { _fun00004_ip = 1800; continue _fun00003 }
+            if(!(whisks != zuuluu)) { _fun00004_ip = 1805; continue _fun00003 }
  488:
-            if(!(whisks != status)) { _fun00004_ip = 1800; continue _fun00003 }
+            if(!(whisks != status)) { _fun00004_ip = 1805; continue _fun00003 }
  495:
-            if(!(whisks != golfie)) { _fun00004_ip = 1800; continue _fun00003 }
+            if(!(whisks != golfie)) { _fun00004_ip = 1805; continue _fun00003 }
  502:
             option = _closure1_slot2;
             verify = _closure1_slot3;
@@ -448,16 +448,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.getCoverImageURI;
             offset = golfie.bind(option)(zuuluu);
             ctrled = zuuluu.description;
-            option = status.hasFeature;
+            verify = status.features;
+            option = verify.has;
             golfie = _closure1_slot12;
             golfie = golfie.PARTNERED;
-            sierra = option.bind(status)(golfie);
+            sierra = option.bind(verify)(golfie);
             limora = zuuluu.store_page_trailer_url;
             _closure2_slot4 = limora;
-            if(!(whisks != michal)) { _fun00004_ip = 579; continue _fun00003 }
- 575:
-            if(!(whisks == entity)) { _fun00004_ip = 638; continue _fun00003 }
- 579:
+            if(!(whisks != michal)) { _fun00004_ip = 584; continue _fun00003 }
+ 580:
+            if(!(whisks == entity)) { _fun00004_ip = 643; continue _fun00003 }
+ 584:
             golfie = _closure1_slot0;
             option = _closure1_slot3;
             entity = 10;
@@ -470,8 +471,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.t;
             entity = entity.mPHb19;
             sequen = michal.bind(zuuluu)(entity);
-            _fun00004_ip = 712; continue _fun00003;
- 638:
+            _fun00004_ip = 717; continue _fun00003;
+ 643:
             michal = _closure1_slot0;
             option = _closure1_slot3;
             entity = 10;
@@ -550,7 +551,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['unlockHook'] = option;
             sequen = zuuluu.bind(golfie)(michal, entity);
- 712:
+ 717:
             zuuluu = _closure1_slot15;
             michal = _closure1_slot7;
             entity = {};
@@ -643,12 +644,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = output.bind(tangon)(verify, option);
             kiloes[3] = option;
             option = sierra;
-            if(sierra) { _fun00004_ip = 1130; continue _fun00003 }
- 1126:
+            if(sierra) { _fun00004_ip = 1135; continue _fun00003 }
+ 1131:
             option = whisks != limora;
- 1130:
-            if(!option) { _fun00004_ip = 1500; continue _fun00003 }
- 1136:
+ 1135:
+            if(!option) { _fun00004_ip = 1505; continue _fun00003 }
+ 1141:
             ctrled = _closure1_slot15;
             output = _closure1_slot16;
             verify = {};
@@ -676,8 +677,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = {};
             papara['gap'] = equals;
             equals = sierra;
-            if(!equals) { _fun00004_ip = 1341; continue _fun00003 }
- 1246:
+            if(!equals) { _fun00004_ip = 1346; continue _fun00003 }
+ 1251:
             variable36 = _closure1_slot14;
             quebec = _closure1_slot20;
             sierra = {};
@@ -699,12 +700,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable37 = variable38.bind(variable39)(variable37);
             sierra['text'] = variable37;
             equals = variable36.bind(tangon)(quebec, sierra);
- 1341:
+ 1346:
             sierra = new Array(2);
             sierra[0] = equals;
             limora = whisks != limora;
-            if(!limora) { _fun00004_ip = 1462; continue _fun00003 }
- 1356:
+            if(!limora) { _fun00004_ip = 1467; continue _fun00003 }
+ 1361:
             quebec = _closure1_slot14;
             equals = _closure1_slot20;
             whisks = {};
@@ -739,7 +740,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             whisks['onPress'] = variable36;
             limora = quebec.bind(tangon)(equals, whisks);
- 1462:
+ 1467:
             sierra[1] = limora;
             papara['children'] = sierra;
             papara = status.bind(tangon)(target, papara);
@@ -748,7 +749,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum[1] = config;
             verify['children'] = vacuum;
             option = ctrled.bind(tangon)(output, verify);
- 1500:
+ 1505:
             kiloes[4] = option;
             vacuum = _closure1_slot14;
             verify = _closure1_slot1;
@@ -832,7 +833,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = golfie;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 1800:
+ 1805:
             zuuluu = _closure1_slot14;
             michal = _closure1_slot6;
             entity = {};

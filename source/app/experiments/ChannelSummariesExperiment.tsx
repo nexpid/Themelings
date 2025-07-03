@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: canGuildUseConversationSummaries
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            golfie = argFoo;
+            oscard = argFoo;
             tangon = arguments[1];
             entity = undefined;
             if(!(tangon === entity)) { _fun00004_ip = 14; continue _fun00003 }
@@ -109,47 +109,49 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = true;
  14:
             michal = null;
-            entity = michal != golfie;
-            if(!entity) { _fun00004_ip = 135; continue _fun00003 }
- 23:
-            oscard = golfie.id;
-            zuuluu = michal != oscard;
-            if(!zuuluu) { _fun00004_ip = 60; continue _fun00003 }
- 35:
+            entity = michal != oscard;
+            if(!entity) { _fun00004_ip = 148; continue _fun00003 }
+ 26:
+            golfie = oscard.id;
+            zuuluu = michal != golfie;
+            if(!zuuluu) { _fun00004_ip = 63; continue _fun00003 }
+ 38:
             michal = _closure1_slot3;
-            michal = oscard === michal;
-            if(michal) { _fun00004_ip = 57; continue _fun00003 }
- 49:
+            michal = golfie === michal;
+            if(michal) { _fun00004_ip = 60; continue _fun00003 }
+ 52:
             report = _closure1_slot4;
-            michal = oscard === report;
- 57:
-            zuuluu = michal;
+            michal = golfie === report;
  60:
+            zuuluu = michal;
+ 63:
             michal = !zuuluu;
-            if(zuuluu) { _fun00004_ip = 132; continue _fun00003 }
- 66:
-            oscard = golfie.hasFeature;
+            if(zuuluu) { _fun00004_ip = 145; continue _fun00003 }
+ 69:
+            option = oscard.features;
+            golfie = option.has;
             zuuluu = _closure1_slot6;
             zuuluu = zuuluu.SUMMARIES_ENABLED_GA;
-            zuuluu = oscard.bind(golfie)(zuuluu);
-            oscard = !zuuluu;
-            zuuluu = !oscard;
-            if(oscard) { _fun00004_ip = 129; continue _fun00003 }
- 99:
+            zuuluu = golfie.bind(option)(zuuluu);
+            golfie = !zuuluu;
+            zuuluu = !golfie;
+            if(golfie) { _fun00004_ip = 142; continue _fun00003 }
+ 107:
             tangon = !tangon;
-            if(tangon) { _fun00004_ip = 126; continue _fun00003 }
- 105:
-            oscard = golfie.hasFeature;
+            if(tangon) { _fun00004_ip = 139; continue _fun00003 }
+ 113:
+            golfie = oscard.features;
+            oscard = golfie.has;
             report = _closure1_slot6;
             report = report.SUMMARIES_ENABLED_BY_USER;
             tangon = oscard.bind(golfie)(report);
- 126:
+ 139:
             zuuluu = tangon;
- 129:
+ 142:
             michal = zuuluu;
- 132:
+ 145:
             entity = michal;
- 135:
+ 148:
             return entity;
         }
     };

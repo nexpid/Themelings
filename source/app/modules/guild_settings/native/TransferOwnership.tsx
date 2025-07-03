@@ -121,8 +121,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            ctrled = entity.guild;
-            var _closure2_slot0 = ctrled;
+            source = entity.guild;
+            var _closure2_slot0 = source;
             config = entity.toUser;
             var _closure2_slot1 = config;
             tangon = undefined;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00004_ip = 234; continue _fun00003 }
+                            if(michal) { _fun00004_ip = 236; continue _fun00003 }
  10:
                             michal = _closure2_slot3;
                             michal = michal.mfaEnabled;
@@ -171,7 +171,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = _closure1_slot10;
                             tangon = tangon.CONFIRM_EMAIL_CODE;
                             tangon = report.bind(oscard)(tangon);
-                            _fun00004_ip = 229; continue _fun00003;
+                            _fun00004_ip = 231; continue _fun00003;
  123:
                             return michal;
  126:
@@ -220,10 +220,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return entity;
                             };
                             michal = tangon.bind(report)(michal, zuuluu);
- 229:
+ 231:
                             michal = undefined;
                             return michal;
- 234:
+ 236:
                             return entity;
                         }
                     };
@@ -272,8 +272,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             };
-            source = zuuluu.bind(report)(michal, entity);
-            _closure2_slot3 = source;
+            ctrled = zuuluu.bind(report)(michal, entity);
+            _closure2_slot3 = ctrled;
             zuuluu = _closure1_slot5;
             michal = zuuluu.useState;
             entity = false;
@@ -291,11 +291,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = backup[entity];
             zuuluu = vacuum.bind(tangon)(entity);
             michal = zuuluu.getNickname;
-            entity = ctrled.id;
+            entity = source.id;
             output = michal.bind(zuuluu)(entity, tangon, config);
             var _closure2_slot5 = output;
             michal = config.hasAvatarForGuild;
-            entity = ctrled.id;
+            entity = source.id;
             option = michal.bind(config)(entity);
             var _closure2_slot6 = option;
             update = function() { // Original name: GuildWithSmallIcon
@@ -348,9 +348,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = {};
                     offset = 'text-md/bold';
                     oscard['variant'] = offset;
-                    offset = _closure2_slot0;
-                    verify = offset.toString;
-                    verify = verify.bind(offset)();
+                    verify = _closure2_slot0;
+                    verify = verify.name;
                     oscard['children'] = verify;
                     oscard = option.bind(tangon)(golfie, oscard);
                     report[1] = oscard;
@@ -387,34 +386,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = backup[sequen];
             echoed = vacuum.bind(tangon)(result);
             result = {};
-            result['user'] = source;
-            source = ctrled.id;
-            result['guildId'] = source;
-            source = backup[sequen];
-            source = yankee.bind(tangon)(source);
-            source = source.AvatarSizes;
-            source = source.XXLARGE;
-            result['size'] = source;
+            result['user'] = ctrled;
+            ctrled = source.id;
+            result['guildId'] = ctrled;
+            ctrled = backup[sequen];
+            ctrled = yankee.bind(tangon)(ctrled);
+            ctrled = ctrled.AvatarSizes;
+            ctrled = ctrled.XXLARGE;
+            result['size'] = ctrled;
             echoed = foxtra.bind(tangon)(echoed, result);
             result = new Array(2);
             result[0] = echoed;
             echoed = {};
-            source = sizing.avatarFauxBorder;
-            echoed['style'] = source;
-            source = backup[sequen];
-            vacuum = vacuum.bind(tangon)(source);
-            source = {};
-            source['user'] = config;
-            source['guildId'] = tangon;
+            ctrled = sizing.avatarFauxBorder;
+            echoed['style'] = ctrled;
+            ctrled = backup[sequen];
+            vacuum = vacuum.bind(tangon)(ctrled);
+            ctrled = {};
+            ctrled['user'] = config;
+            ctrled['guildId'] = tangon;
             sequen = backup[sequen];
             sequen = yankee.bind(tangon)(sequen);
             sequen = sequen.AvatarSizes;
             sequen = sequen.XXLARGE;
-            source['size'] = sequen;
+            ctrled['size'] = sequen;
             sequen = sizing.otherUserAvatar;
-            source['style'] = sequen;
-            source = foxtra.bind(tangon)(vacuum, source);
-            echoed['children'] = source;
+            ctrled['style'] = sequen;
+            ctrled = foxtra.bind(tangon)(vacuum, ctrled);
+            echoed['children'] = ctrled;
             echoed = foxtra.bind(tangon)(oscard, echoed);
             result[1] = echoed;
             offset['children'] = result;
@@ -425,8 +424,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = yankee.bind(tangon)(result);
             echoed = result.Text;
             result = {'variant': 'text-xs/medium', 'color': 'header-secondary'};
-            source = ctrled.toString;
-            source = source.bind(ctrled)();
+            source = source.name;
             result['children'] = source;
             result = foxtra.bind(tangon)(echoed, result);
             golfie[2] = result;
@@ -435,10 +433,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.Text;
             offset = {'variant': 'text-md/medium', 'color': 'header-secondary'};
             backup = null;
-            if(!(backup == output)) { _fun00002_ip = 707; continue _fun00001 }
- 606:
-            if(option) { _fun00002_ip = 707; continue _fun00001 }
- 609:
+            if(!(backup == output)) { _fun00002_ip = 705; continue _fun00001 }
+ 604:
+            if(option) { _fun00002_ip = 705; continue _fun00001 }
+ 607:
             backup = _closure1_slot0;
             ctrled = _closure1_slot2;
             option = 21;
@@ -461,7 +459,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['user'] = echoed;
             option = output.bind(result)(backup, option);
             _fun00002_ip = 815; continue _fun00001;
- 707:
+ 705:
             output = _closure1_slot0;
             ctrled = _closure1_slot2;
             backup = 21;

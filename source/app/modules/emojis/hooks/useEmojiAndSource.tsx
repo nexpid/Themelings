@@ -137,22 +137,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = null;
             tangon = result != report;
             michal = result != report;
-            if(!michal) { _fun00002_ip = 159; continue _fun00001 }
+            if(!michal) { _fun00002_ip = 164; continue _fun00001 }
  138:
-            golfie = report.hasFeature;
+            option = report.features;
+            golfie = option.has;
             oscard = _closure1_slot10;
             oscard = oscard.DISCOVERABLE;
-            michal = golfie.bind(report)(oscard);
- 159:
+            michal = golfie.bind(option)(oscard);
+ 164:
             yankee = !tangon;
-            if(!tangon) { _fun00002_ip = 168; continue _fun00001 }
- 165:
+            if(!tangon) { _fun00002_ip = 173; continue _fun00001 }
+ 170:
             yankee = michal;
- 168:
-            if(!yankee) { _fun00002_ip = 175; continue _fun00001 }
- 171:
+ 173:
+            if(!yankee) { _fun00002_ip = 180; continue _fun00001 }
+ 176:
             yankee = result != foxtra;
- 175:
+ 180:
             _closure2_slot2 = yankee;
             romeon = _closure1_slot4;
             michal = romeon.useState;
@@ -174,12 +175,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = result != report;
             romeon = yankee;
             kiloes = null;
-            if(!option) { _fun00002_ip = 278; continue _fun00001 }
- 263:
+            if(!option) { _fun00002_ip = 283; continue _fun00001 }
+ 268:
             yankee = _closure1_slot7;
             option = yankee.createFromGuildRecord;
             kiloes = option.bind(yankee)(report);
- 278:
+ 283:
             yankee = _closure1_slot4;
             option = yankee.useState;
             option = option.bind(yankee)(kiloes);

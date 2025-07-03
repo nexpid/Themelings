@@ -606,14 +606,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = zuuluu.bind(tangon)(entity);
                 entity = null;
                 tangon = entity == golfie;
-                if(tangon) { _fun00022_ip = 57; continue _fun00021 }
+                if(tangon) { _fun00022_ip = 62; continue _fun00021 }
  33:
-                zuuluu = golfie.hasFeature;
+                report = golfie.features;
+                zuuluu = report.has;
                 entity = _closure1_slot9;
                 entity = entity.COMMUNITY;
-                entity = zuuluu.bind(golfie)(entity);
+                entity = zuuluu.bind(report)(entity);
                 tangon = !entity;
- 57:
+ 62:
                 entity = !tangon;
                 oscard = _closure1_slot8;
                 report = oscard.can;
@@ -624,14 +625,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure1_slot10;
                 michal = michal.MANAGE_ROLES;
                 michal = report.bind(oscard)(michal, golfie);
-                if(tangon) { _fun00022_ip = 114; continue _fun00021 }
- 111:
+                if(tangon) { _fun00022_ip = 119; continue _fun00021 }
+ 116:
                 entity = zuuluu;
- 114:
-                if(!entity) { _fun00022_ip = 120; continue _fun00021 }
- 117:
+ 119:
+                if(!entity) { _fun00022_ip = 125; continue _fun00021 }
+ 122:
                 entity = michal;
- 120:
+ 125:
                 return entity;
             }
         };
@@ -648,14 +649,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = zuuluu.bind(tangon)(entity);
             entity = null;
             tangon = entity == golfie;
-            if(tangon) { _fun00024_ip = 53; continue _fun00023 }
+            if(tangon) { _fun00024_ip = 58; continue _fun00023 }
  29:
-            zuuluu = golfie.hasFeature;
+            report = golfie.features;
+            zuuluu = report.has;
             entity = _closure1_slot9;
             entity = entity.COMMUNITY;
-            entity = zuuluu.bind(golfie)(entity);
+            entity = zuuluu.bind(report)(entity);
             tangon = !entity;
- 53:
+ 58:
             entity = !tangon;
             oscard = _closure1_slot8;
             report = oscard.can;
@@ -666,14 +668,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = _closure1_slot10;
             michal = michal.MANAGE_ROLES;
             michal = report.bind(oscard)(michal, golfie);
-            if(tangon) { _fun00024_ip = 110; continue _fun00023 }
- 107:
+            if(tangon) { _fun00024_ip = 115; continue _fun00023 }
+ 112:
             entity = zuuluu;
- 110:
-            if(!entity) { _fun00024_ip = 116; continue _fun00023 }
- 113:
+ 115:
+            if(!entity) { _fun00024_ip = 121; continue _fun00023 }
+ 118:
             entity = michal;
- 116:
+ 121:
             return entity;
         }
     };
@@ -681,22 +683,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = function(argFoo, argBar) { // Original name: isBlockedByOnboarding
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
-            oscard = argFoo;
+            michal = argFoo;
             entity = argBar;
             zuuluu = null;
-            if(!(zuuluu != oscard)) { _fun00026_ip = 226; continue _fun00025 }
+            if(!(zuuluu != michal)) { _fun00026_ip = 231; continue _fun00025 }
  15:
-            report = oscard.hasFeature;
+            oscard = michal.features;
+            report = oscard.has;
             tangon = _closure1_slot9;
             tangon = tangon.GUILD_ONBOARDING;
             tangon = report.bind(oscard)(tangon);
-            if(!tangon) { _fun00026_ip = 226; continue _fun00025 }
- 45:
-            if(!(zuuluu != entity)) { _fun00026_ip = 222; continue _fun00025 }
- 52:
+            if(!tangon) { _fun00026_ip = 231; continue _fun00025 }
+ 50:
+            if(!(zuuluu != entity)) { _fun00026_ip = 227; continue _fun00025 }
+ 57:
             tangon = entity.joinedAt;
-            if(!(zuuluu != tangon)) { _fun00026_ip = 222; continue _fun00025 }
- 65:
+            if(!(zuuluu != tangon)) { _fun00026_ip = 227; continue _fun00025 }
+ 70:
             tangon = global;
             oscard = tangon.Date;
             verify = entity.joinedAt;
@@ -706,15 +709,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = new offset[oscard](verify, option);
             report = tangon instanceof Object ? tangon : report;
             tangon = _closure1_slot12;
-            if(!(!(report < tangon))) { _fun00026_ip = 218; continue _fun00025 }
- 107:
+            if(!(!(report < tangon))) { _fun00026_ip = 223; continue _fun00025 }
+ 112:
             entity = entity.flags;
             tangon = zuuluu != entity;
             zuuluu = 0;
-            if(!tangon) { _fun00026_ip = 124; continue _fun00025 }
- 121:
+            if(!tangon) { _fun00026_ip = 129; continue _fun00025 }
+ 126:
             zuuluu = entity;
- 124:
+ 129:
             tangon = _closure1_slot2;
             entity = _closure1_slot3;
             golfie = 7;
@@ -726,8 +729,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.STARTED_ONBOARDING;
             entity = tangon.bind(report)(zuuluu, entity);
             report = zuuluu;
-            if(!entity) { _fun00026_ip = 216; continue _fun00025 }
- 174:
+            if(!entity) { _fun00026_ip = 221; continue _fun00025 }
+ 179:
             tangon = _closure1_slot2;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu[golfie];
@@ -737,15 +740,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.COMPLETED_ONBOARDING;
             michal = zuuluu.bind(tangon)(report, michal);
             entity = !michal;
- 216:
+ 221:
             return entity;
- 218:
+ 223:
             entity = false;
             return entity;
- 222:
+ 227:
             entity = false;
             return entity;
- 226:
+ 231:
             entity = false;
             return entity;
         }

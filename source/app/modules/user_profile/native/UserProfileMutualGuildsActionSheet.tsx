@@ -47,8 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['size'] = offset;
             oscard = option.bind(report)(golfie, oscard);
             michal['leading'] = oscard;
-            oscard = entity.toString;
-            oscard = oscard.bind(entity)();
+            oscard = entity.name;
             michal['label'] = oscard;
             option = _closure1_slot6;
             golfie = _closure1_slot3;
@@ -56,8 +55,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.mutualGuildSubLabel;
             oscard['style'] = verify;
             offset = romeon;
-            if(!romeon) { _fun00002_ip = 279; continue _fun00001 }
- 205:
+            if(!romeon) { _fun00002_ip = 275; continue _fun00001 }
+ 201:
             sizing = _closure1_slot5;
             kiloes = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -75,13 +74,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = entity.id;
             verify['guildId'] = output;
             offset = sizing.bind(report)(kiloes, verify);
- 279:
+ 275:
             verify = new Array(3);
             verify[0] = offset;
             offset = null;
             kiloes = offset != foxtra;
-            if(!kiloes) { _fun00002_ip = 349; continue _fun00001 }
- 296:
+            if(!kiloes) { _fun00002_ip = 345; continue _fun00001 }
+ 292:
             result = _closure1_slot5;
             output = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -92,15 +91,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
             sizing['children'] = foxtra;
             kiloes = result.bind(report)(output, sizing);
- 349:
+ 345:
             verify[1] = kiloes;
             offset = offset == foxtra;
-            if(!offset) { _fun00002_ip = 363; continue _fun00001 }
- 360:
+            if(!offset) { _fun00002_ip = 359; continue _fun00001 }
+ 356:
             offset = romeon;
- 363:
-            if(!offset) { _fun00002_ip = 424; continue _fun00001 }
- 366:
+ 359:
+            if(!offset) { _fun00002_ip = 420; continue _fun00001 }
+ 362:
             foxtra = _closure1_slot5;
             romeon = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -112,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.username;
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 424:
+ 420:
             verify[2] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
@@ -223,11 +222,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             verify = foxtra.container;
             report['style'] = verify;
-            if(!(option != backup)) { _fun00004_ip = 298; continue _fun00003 }
+            if(!(option != backup)) { _fun00004_ip = 302; continue _fun00003 }
  156:
             verify = backup.length;
             option = 0;
-            if(!(option !== verify)) { _fun00004_ip = 228; continue _fun00003 }
+            if(!(option !== verify)) { _fun00004_ip = 232; continue _fun00003 }
  167:
             offset = _closure1_slot5;
             verify = _closure1_slot0;
@@ -272,8 +271,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             option['renderItem'] = yankee;
             option = offset.bind(tangon)(verify, option);
-            _fun00004_ip = 296; continue _fun00003;
- 228:
+            _fun00004_ip = 300; continue _fun00003;
+ 232:
             yankee = _closure1_slot5;
             offset = _closure1_slot3;
             verify = {};
@@ -290,9 +289,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(tangon)(kiloes, backup);
             verify['children'] = backup;
             option = yankee.bind(tangon)(offset, verify);
- 296:
-            _fun00004_ip = 344; continue _fun00003;
- 298:
+ 300:
+            _fun00004_ip = 348; continue _fun00003;
+ 302:
             yankee = _closure1_slot5;
             offset = _closure1_slot3;
             verify = {};
@@ -304,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = backup.bind(tangon)(foxtra, romeon);
             verify['children'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 344:
+ 348:
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;

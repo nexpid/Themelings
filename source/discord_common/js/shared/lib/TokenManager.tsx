@@ -165,10 +165,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                 michal['wasEncrypted'] = zuuluu;
                 entity = michal;
  124:
-                _fun00008_ip = 140; continue _fun00007;
+                _fun00008_ip = 136; continue _fun00007;
  126:
                 entity = {'decryptedToken': null, 'wasEncrypted': false};
- 140:
+ 136:
                 return entity;
             }
         };

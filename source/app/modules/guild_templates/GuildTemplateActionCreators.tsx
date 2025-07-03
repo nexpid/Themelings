@@ -44,13 +44,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.bind(golfie)(michal);
             michal = report.isDispatching;
             michal = michal.bind(report)();
-            if(michal) { _fun00002_ip = 238; continue _fun00001 }
+            if(michal) { _fun00002_ip = 234; continue _fun00001 }
  50:
             report = _closure1_slot5;
             michal = report.get;
             michal = michal.bind(report)(oscard);
             report = null;
-            if(!(report == michal)) { _fun00002_ip = 236; continue _fun00001 }
+            if(!(report == michal)) { _fun00002_ip = 232; continue _fun00001 }
  73:
             report = _closure1_slot1;
             option = _closure1_slot2;
@@ -164,9 +164,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = report.set;
             tangon = tangon.bind(report)(oscard, zuuluu);
             return zuuluu;
- 236:
+ 232:
             return michal;
- 238:
+ 234:
             michal = global;
             zuuluu = michal.Promise;
             michal = zuuluu.resolve;

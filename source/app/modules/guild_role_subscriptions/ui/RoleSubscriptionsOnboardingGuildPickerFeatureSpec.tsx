@@ -19,11 +19,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = undefined;
     michal = michal.bind(entity)(golfie);
     var _closure1_slot2 = michal;
+    michal = 1;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    michal = michal.isGuildOwner;
+    var _closure1_slot3 = michal;
     michal = {};
     golfie = function() { // Original name: title
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 1;
+        entity = 2;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -40,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = function() { // Original name: description
         report = _closure1_slot0;
         oscard = _closure1_slot1;
-        entity = 1;
+        entity = 2;
         michal = oscard[entity];
         tangon = undefined;
         michal = report.bind(tangon)(michal);
@@ -59,7 +64,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function() { // Original name: useIsGuildSupported
         zuuluu = _closure1_slot0;
         golfie = _closure1_slot1;
-        entity = 2;
+        entity = 3;
         report = golfie[entity];
         michal = undefined;
         oscard = zuuluu.bind(michal)(report);
@@ -75,53 +80,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     report = argFoo;
-                    michal = report.isOwner;
+                    zuuluu = _closure1_slot3;
+                    option = undefined;
                     entity = argBar;
-                    entity = michal.bind(report)(entity);
-                    if(!entity) { _fun00002_ip = 227; continue _fun00001 }
- 23:
-                    option = _closure1_slot0;
+                    entity = zuuluu.bind(option)(report, entity);
+                    if(!entity) { _fun00002_ip = 226; continue _fun00001 }
+ 27:
+                    golfie = _closure1_slot0;
                     verify = _closure1_slot1;
-                    michal = 3;
+                    michal = 4;
                     michal = verify[michal];
-                    golfie = undefined;
-                    tangon = option.bind(golfie)(michal);
+                    tangon = golfie.bind(option)(michal);
                     zuuluu = tangon.canSeeGuildRoleSubscriptionSettings;
                     michal = {'guild': null, 'isOwner': true, 'canManageGuildRoleSubscriptions': true};
                     michal['guild'] = report;
-                    oscard = 4;
+                    oscard = 5;
                     offset = verify[oscard];
-                    romeon = option.bind(golfie)(offset);
+                    romeon = golfie.bind(option)(offset);
                     yankee = romeon.isMonetizationWaitlistEnabledForGuild;
                     offset = report.id;
                     offset = yankee.bind(romeon)(offset);
                     michal['isMonetizationWaitlistEnabledForGuild'] = offset;
-                    offset = 5;
+                    offset = 6;
                     offset = verify[offset];
-                    romeon = option.bind(golfie)(offset);
+                    romeon = golfie.bind(option)(offset);
                     yankee = romeon.isGuildEligibleForRoleSubscriptions;
                     offset = report.id;
                     offset = yankee.bind(romeon)(offset);
                     michal['isGuildEligibleForRoleSubscriptions'] = offset;
                     offset = verify[oscard];
-                    yankee = option.bind(golfie)(offset);
+                    yankee = golfie.bind(option)(offset);
                     offset = yankee.isExpeditedMonetizationOnboardingGuild;
                     offset = offset.bind(yankee)(report);
                     michal['isExpeditedMonetizationOnboardingGuild'] = offset;
                     oscard = verify[oscard];
-                    offset = option.bind(golfie)(oscard);
+                    offset = golfie.bind(option)(oscard);
                     oscard = offset.isUserInCreatorMonetizationEligibleCountry;
                     oscard = oscard.bind(offset)();
                     michal['isUserInCreatorMonetizationEligibleCountry'] = oscard;
-                    oscard = 6;
+                    oscard = 7;
                     oscard = verify[oscard];
-                    golfie = option.bind(golfie)(oscard);
+                    golfie = golfie.bind(option)(oscard);
                     oscard = golfie.shouldRestrictUpdatingCreatorMonetizationSettings;
                     report = report.id;
                     report = oscard.bind(golfie)(report);
                     michal['shouldRestrictUpdatingRoleSubscriptionSettings'] = report;
                     entity = zuuluu.bind(tangon)(michal);
- 227:
+ 226:
                     return entity;
                 }
             };
@@ -134,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['useIsGuildSupported'] = tangon;
-    tangon = 7;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

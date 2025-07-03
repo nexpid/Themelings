@@ -104,10 +104,10 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             verify = verify.bind(yankee)(foxtra, romeon);
             option['height'] = verify;
             verify = 0;
-            if(!offset) { _fun00002_ip = 231; continue _fun00001 }
- 228:
+            if(!offset) { _fun00002_ip = 233; continue _fun00001 }
+ 230:
             verify = 1;
- 231:
+ 233:
             option['opacity'] = verify;
             golfie[1] = option;
             entity['style'] = golfie;

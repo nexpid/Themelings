@@ -17,13 +17,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    tangon = golfie.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.isGuildOwner;
     var _closure1_slot2 = tangon;
     tangon = 1;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 2;
+    tangon = oscard[tangon];
+    tangon = golfie.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     golfie = tangon.GuildFeatures;
@@ -38,8 +43,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon[3] = option;
     golfie = golfie.CREATOR_MONETIZABLE_RESTRICTED;
     tangon[4] = golfie;
-    var _closure1_slot4 = tangon;
-    tangon = 5;
+    var _closure1_slot5 = tangon;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -52,16 +57,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = entity;
             option = _closure1_slot0;
             verify = _closure1_slot1;
-            entity = 3;
+            entity = 4;
             zuuluu = verify[entity];
             golfie = undefined;
             offset = option.bind(golfie)(zuuluu);
             oscard = offset.useStateFromStores;
-            zuuluu = _closure1_slot2;
+            zuuluu = _closure1_slot3;
             report = new Array(1);
             report[0] = zuuluu;
             zuuluu = function() {
-                zuuluu = _closure1_slot2;
+                zuuluu = _closure1_slot3;
                 michal = zuuluu.getGuild;
                 entity = _closure2_slot0;
                 entity = michal.bind(zuuluu)(entity);
@@ -72,17 +77,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify[entity];
             offset = option.bind(golfie)(entity);
             report = offset.useStateFromStores;
-            entity = _closure1_slot3;
+            entity = _closure1_slot4;
             zuuluu = new Array(1);
             zuuluu[0] = entity;
             entity = function() {
-                michal = _closure1_slot3;
+                michal = _closure1_slot4;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
             };
             report = report.bind(offset)(zuuluu, entity);
-            entity = 4;
+            entity = 5;
             zuuluu = verify[entity];
             offset = option.bind(golfie)(zuuluu);
             zuuluu = offset.useGuildRoleSubscriptionSettingsVisibility;
@@ -93,31 +98,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.VISIBLE;
             entity = zuuluu === entity;
             zuuluu = null;
-            if(!(zuuluu != oscard)) { _fun00002_ip = 208; continue _fun00001 }
+            if(!(zuuluu != oscard)) { _fun00002_ip = 207; continue _fun00001 }
  161:
-            zuuluu = oscard.isOwner;
-            zuuluu = zuuluu.bind(oscard)(report);
-            report = _closure1_slot4;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.bind(golfie)(oscard, report);
+            report = _closure1_slot5;
             tangon = report.every;
             michal = function(argFoo) {
-                zuuluu = _closure2_slot1;
-                michal = zuuluu.hasFeature;
+                entity = _closure2_slot1;
+                zuuluu = entity.features;
+                michal = zuuluu.has;
                 entity = argFoo;
                 entity = michal.bind(zuuluu)(entity);
                 entity = !entity;
                 return entity;
             };
             michal = tangon.bind(report)(michal);
-            if(!entity) { _fun00002_ip = 200; continue _fun00001 }
- 197:
+            if(!entity) { _fun00002_ip = 199; continue _fun00001 }
+ 196:
             entity = zuuluu;
- 200:
-            if(!entity) { _fun00002_ip = 206; continue _fun00001 }
- 203:
+ 199:
+            if(!entity) { _fun00002_ip = 205; continue _fun00001 }
+ 202:
             entity = michal;
- 206:
+ 205:
             return entity;
- 208:
+ 207:
             entity = false;
             return entity;
         }
@@ -126,58 +132,59 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: canSeeCreatorMonetizationOnboardingV2Upsell
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            report = _closure1_slot2;
+            report = _closure1_slot3;
             zuuluu = report.getGuild;
             entity = argFoo;
-            oscard = zuuluu.bind(report)(entity);
-            var _closure2_slot0 = oscard;
+            golfie = zuuluu.bind(report)(entity);
+            var _closure2_slot0 = golfie;
             entity = null;
-            if(!(entity != oscard)) { _fun00004_ip = 161; continue _fun00003 }
+            if(!(entity != golfie)) { _fun00004_ip = 160; continue _fun00003 }
  35:
-            report = _closure1_slot3;
+            report = _closure1_slot4;
             zuuluu = report.getCurrentUser;
-            report = zuuluu.bind(report)();
-            if(!(entity != report)) { _fun00004_ip = 157; continue _fun00003 }
+            oscard = zuuluu.bind(report)();
+            if(!(entity != oscard)) { _fun00004_ip = 156; continue _fun00003 }
  52:
             option = _closure1_slot0;
             verify = _closure1_slot1;
-            entity = 4;
+            entity = 5;
             zuuluu = verify[entity];
-            golfie = undefined;
-            offset = option.bind(golfie)(zuuluu);
+            report = undefined;
+            offset = option.bind(report)(zuuluu);
             zuuluu = offset.getGuildRoleSubscriptionSettingsVisibility;
-            zuuluu = zuuluu.bind(offset)(oscard);
+            zuuluu = zuuluu.bind(offset)(golfie);
             entity = verify[entity];
-            entity = option.bind(golfie)(entity);
+            entity = option.bind(report)(entity);
             entity = entity.GuildRoleSubscriptionSettingsVisibility;
             entity = entity.VISIBLE;
             entity = zuuluu === entity;
-            zuuluu = oscard.isOwner;
-            zuuluu = zuuluu.bind(oscard)(report);
-            report = _closure1_slot4;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu.bind(report)(golfie, oscard);
+            report = _closure1_slot5;
             tangon = report.every;
             michal = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.hasFeature;
+                entity = _closure2_slot0;
+                zuuluu = entity.features;
+                michal = zuuluu.has;
                 entity = argFoo;
                 entity = michal.bind(zuuluu)(entity);
                 entity = !entity;
                 return entity;
             };
             michal = tangon.bind(report)(michal);
-            if(!entity) { _fun00004_ip = 149; continue _fun00003 }
- 146:
+            if(!entity) { _fun00004_ip = 148; continue _fun00003 }
+ 145:
             entity = zuuluu;
- 149:
-            if(!entity) { _fun00004_ip = 155; continue _fun00003 }
- 152:
+ 148:
+            if(!entity) { _fun00004_ip = 154; continue _fun00003 }
+ 151:
             entity = michal;
- 155:
+ 154:
             return entity;
- 157:
+ 156:
             entity = false;
             return entity;
- 161:
+ 160:
             entity = false;
             return entity;
         }

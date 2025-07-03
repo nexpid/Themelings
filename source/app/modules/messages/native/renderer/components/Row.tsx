@@ -62,9 +62,6 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     option = tangon.BLOCKED_GROUP;
     option = golfie.bind(entity)(option);
     michal['BlockedGroup'] = option;
-    option = tangon.UPLOAD_PROGRESS;
-    option = golfie.bind(entity)(option);
-    michal['UploadProgress'] = option;
     tangon = tangon.LOADING;
     tangon = golfie.bind(entity)(tangon);
     michal['Loading'] = tangon;

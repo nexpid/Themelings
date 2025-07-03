@@ -115,10 +115,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 32;
             verify = foxtra >= golfie;
             golfie = 4;
-            if(!verify) { _fun00002_ip = 135; continue _fun00001 }
- 132:
+            if(!verify) { _fun00002_ip = 137; continue _fun00001 }
+ 134:
             golfie = 8;
- 135:
+ 137:
             oscard['paddingHorizontal'] = golfie;
             report[1] = oscard;
             entity['style'] = report;
@@ -136,10 +136,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = null;
             foxtra = verify != romeon;
             verify = 'text-md/semibold';
-            if(!foxtra) { _fun00002_ip = 220; continue _fun00001 }
- 217:
+            if(!foxtra) { _fun00002_ip = 222; continue _fun00001 }
+ 219:
             verify = romeon;
- 220:
+ 222:
             report['variant'] = verify;
             verify = _closure1_slot0;
             romeon = _closure1_slot1;

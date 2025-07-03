@@ -280,8 +280,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             golfie = foxtra != papara;
             offset = null;
-            if(!golfie) { _fun00002_ip = 492; continue _fun00001 }
- 428:
+            if(!golfie) { _fun00002_ip = 476; continue _fun00001 }
+ 412:
             kiloes = _closure1_slot8;
             yankee = _closure1_slot0;
             ctrled = _closure1_slot3;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['style'] = sizing;
             golfie['children'] = papara;
             offset = kiloes.bind(tangon)(yankee, golfie);
- 492:
+ 476:
             golfie = new Array(2);
             golfie[0] = offset;
             kiloes = _closure1_slot8;
@@ -563,8 +563,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot7;
             golfie = golfie.EXTERNAL;
             golfie = option === golfie;
-            if(!golfie) { _fun00002_ip = 1172; continue _fun00001 }
- 1012:
+            if(!golfie) { _fun00002_ip = 1148; continue _fun00001 }
+ 990:
             kiloes = _closure1_slot8;
             source = _closure1_slot0;
             sizing = _closure1_slot3;
@@ -608,7 +608,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = echoed.bind(update)(sizing);
             option['timeLabel'] = sizing;
             golfie = kiloes.bind(tangon)(yankee, option);
- 1172:
+ 1148:
             report[3] = golfie;
             yankee = _closure1_slot8;
             option = _closure1_slot0;
@@ -656,10 +656,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             kiloes = foxtra != backup;
             foxtra = '';
-            if(!kiloes) { _fun00002_ip = 1268; continue _fun00001 }
- 1265:
+            if(!kiloes) { _fun00002_ip = 1242; continue _fun00001 }
+ 1239:
             foxtra = backup;
- 1268:
+ 1242:
             golfie['description'] = foxtra;
             foxtra = function(argFoo) { // Original name: onChange
                 zuuluu = _closure2_slot13;

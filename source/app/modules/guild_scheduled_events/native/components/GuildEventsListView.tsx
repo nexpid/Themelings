@@ -94,15 +94,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = michal.bottom;
             michal = romeon.length;
             zuuluu = 0;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 391; continue _fun00001 }
+            if(!(zuuluu !== michal)) { _fun00002_ip = 388; continue _fun00001 }
  114:
             backup = new Array(0);
-            oscard = option.hasFeature;
+            foxtra = option.features;
+            oscard = foxtra.has;
             michal = _closure1_slot5;
             michal = michal.HUB;
-            michal = oscard.bind(option)(michal);
-            if(!michal) { _fun00002_ip = 184; continue _fun00001 }
- 142:
+            michal = oscard.bind(foxtra)(michal);
+            if(!michal) { _fun00002_ip = 189; continue _fun00001 }
+ 147:
             oscard = backup.push;
             foxtra = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -112,12 +113,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.DismissibleContent;
             michal = michal.HUB_EVENT_HEADER_UPSELL;
             michal = oscard.bind(backup)(michal);
- 184:
+ 189:
             michal = backup.length;
             michal = michal > zuuluu;
             oscard = undefined;
-            if(!michal) { _fun00002_ip = 246; continue _fun00001 }
- 198:
+            if(!michal) { _fun00002_ip = 249; continue _fun00001 }
+ 203:
             foxtra = _closure1_slot7;
             zuuluu = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -142,7 +143,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.DismissibleContent;
                     zuuluu = entity.HUB_EVENT_HEADER_UPSELL;
                     entity = null;
-                    if(!(tangon === zuuluu)) { _fun00004_ip = 108; continue _fun00003 }
+                    if(!(tangon === zuuluu)) { _fun00004_ip = 106; continue _fun00003 }
  64:
                     tangon = _closure1_slot7;
                     zuuluu = _closure1_slot1;
@@ -161,25 +162,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     michal['handleHubEventsHeaderClose'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 108:
+ 106:
                     return entity;
                 }
             };
             michal['children'] = backup;
             oscard = foxtra.bind(tangon)(zuuluu, michal);
- 246:
-            if(entity) { _fun00002_ip = 255; continue _fun00001 }
  249:
+            if(entity) { _fun00002_ip = 258; continue _fun00001 }
+ 252:
             zuuluu = _closure1_slot4;
-            _fun00002_ip = 281; continue _fun00001;
- 255:
+            _fun00002_ip = 284; continue _fun00001;
+ 258:
             michal = _closure1_slot0;
             foxtra = _closure1_slot2;
             entity = 6;
             entity = foxtra[entity];
             entity = michal.bind(tangon)(entity);
             zuuluu = entity.BottomSheetFlatList;
- 281:
+ 284:
             michal = _closure1_slot7;
             entity = {};
             entity['data'] = romeon;
@@ -264,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['contentContainerStyle'] = oscard;
             entity = michal.bind(tangon)(zuuluu, entity);
             return entity;
- 391:
+ 388:
             zuuluu = _closure1_slot7;
             michal = _closure1_slot0;
             offset = _closure1_slot2;

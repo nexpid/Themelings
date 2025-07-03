@@ -1,0 +1,157 @@
+// app/modules/user_profile/native/UserProfileConfirmThreadRemove.tsx
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    golfie = oscard[entity];
+    tangon = argCor;
+    entity = undefined;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot3 = golfie;
+    tangon = tangon.jsxs;
+    var _closure1_slot4 = tangon;
+    tangon = 6;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/user_profile/native/UserProfileConfirmThreadRemove.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: UserProfileConfirmThreadRemove
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = argFoo;
+            oscard = entity.isForumPost;
+            zuuluu = entity.user;
+            option = entity.onConfirm;
+            michal = _closure1_slot1;
+            report = _closure1_slot2;
+            entity = 2;
+            entity = report[entity];
+            tangon = undefined;
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useName;
+            romeon = entity.bind(michal)(zuuluu);
+            zuuluu = _closure1_slot3;
+            golfie = _closure1_slot0;
+            offset = 3;
+            entity = report[offset];
+            entity = golfie.bind(tangon)(entity);
+            michal = entity.AlertModal;
+            entity = {};
+            sizing = 4;
+            report = report[sizing];
+            report = golfie.bind(tangon)(report);
+            verify = report.intl;
+            golfie = verify.string;
+            foxtra = _closure1_slot0;
+            report = _closure1_slot2;
+            report = report[sizing];
+            report = foxtra.bind(tangon)(report);
+            foxtra = report.t;
+            if(oscard) { _fun00002_ip = 141; continue _fun00001 }
+ 131:
+            report = foxtra.ZPm8jI;
+            _fun00002_ip = 149; continue _fun00001;
+ 141:
+            report = foxtra.8sKSjo;
+ 149:
+            report = golfie.bind(verify)(report);
+            entity['title'] = report;
+            golfie = _closure1_slot0;
+            report = _closure1_slot2;
+            report = report[sizing];
+            report = golfie.bind(tangon)(report);
+            verify = report.intl;
+            golfie = verify.formatToPlainString;
+            foxtra = _closure1_slot0;
+            report = _closure1_slot2;
+            report = report[sizing];
+            report = foxtra.bind(tangon)(report);
+            report = report.t;
+            if(oscard) { _fun00002_ip = 220; continue _fun00001 }
+ 210:
+            oscard = report.hL+ZnZ;
+            _fun00002_ip = 228; continue _fun00001;
+ 220:
+            oscard = report.6UGfn5;
+ 228:
+            report = {};
+            report['user'] = romeon;
+            report = golfie.bind(verify)(oscard, report);
+            entity['content'] = report;
+            golfie = _closure1_slot4;
+            kiloes = _closure1_slot0;
+            verify = _closure1_slot2;
+            report = 5;
+            report = verify[report];
+            report = kiloes.bind(tangon)(report);
+            oscard = report.AlertActions;
+            report = {};
+            romeon = _closure1_slot3;
+            yankee = verify[offset];
+            yankee = kiloes.bind(tangon)(yankee);
+            foxtra = yankee.AlertActionButton;
+            yankee = {};
+            backup = 'destructive';
+            yankee['variant'] = backup;
+            backup = verify[sizing];
+            backup = kiloes.bind(tangon)(backup);
+            result = backup.intl;
+            output = result.string;
+            backup = verify[sizing];
+            backup = kiloes.bind(tangon)(backup);
+            backup = backup.t;
+            backup = backup.N86XcH;
+            backup = output.bind(result)(backup);
+            yankee['text'] = backup;
+            yankee['onPress'] = option;
+            option = 'remove-user-from-thread';
+            yankee = romeon.bind(tangon)(foxtra, yankee, option);
+            option = new Array(2);
+            option[0] = yankee;
+            offset = verify[offset];
+            offset = kiloes.bind(tangon)(offset);
+            yankee = offset.AlertActionButton;
+            offset = {};
+            foxtra = 'secondary';
+            offset['variant'] = foxtra;
+            foxtra = verify[sizing];
+            foxtra = kiloes.bind(tangon)(foxtra);
+            backup = foxtra.intl;
+            foxtra = backup.string;
+            verify = verify[sizing];
+            verify = kiloes.bind(tangon)(verify);
+            verify = verify.t;
+            verify = verify.yNbncX;
+            verify = foxtra.bind(backup)(verify);
+            offset['text'] = verify;
+            verify = 'cancel-remove-user-from-thread';
+            verify = romeon.bind(tangon)(yankee, offset, verify);
+            option[1] = verify;
+            report['children'] = option;
+            report = golfie.bind(tangon)(oscard, report);
+            entity['actions'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['default'] = michal;
+    return entity;
+})();

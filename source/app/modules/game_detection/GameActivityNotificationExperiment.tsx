@@ -77,11 +77,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.fromUserType;
             report = _closure1_slot2;
             report = report.NONE;
-            if(!(report !== tangon)) { _fun00002_ip = 119; continue _fun00001 }
+            if(!(report !== tangon)) { _fun00002_ip = 123; continue _fun00001 }
  55:
             report = _closure1_slot2;
             report = report.FRIENDS_ONLY;
-            if(!(report !== tangon)) { _fun00002_ip = 102; continue _fun00001 }
+            if(!(report !== tangon)) { _fun00002_ip = 104; continue _fun00001 }
  69:
             michal = _closure1_slot2;
             michal = michal.FRIENDS_AND_AFFINITY_USERS;
@@ -111,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = tangon.bind(zuuluu)(michal);
             return michal;
- 102:
+ 104:
             michal = zuuluu.filter;
             entity = function(argFoo) {
                 entity = argFoo;
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 119:
+ 123:
             entity = new Array(0);
             return entity;
         }

@@ -3105,6 +3105,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         zuuluu = _closure3_slot0;
                         oscard = zuuluu.trueServerId;
                         michal['serverId'] = oscard;
+                        oscard = zuuluu.trueChannelId;
+                        michal['channelId'] = oscard;
                         oscard = zuuluu.userId;
                         michal['userId'] = oscard;
                         oscard = zuuluu.sessionId;

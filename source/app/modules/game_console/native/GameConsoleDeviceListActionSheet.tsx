@@ -523,14 +523,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             result = report.bind(golfie)(entity, zuuluu);
             entity = result.length;
-            if(!(!(entity > michal))) { _fun00002_ip = 354; continue _fun00001 }
- 333:
+            if(!(!(entity > michal))) { _fun00002_ip = 342; continue _fun00001 }
+ 321:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot18;
             entity = {};
             option = zuuluu.bind(tangon)(michal, entity);
-            _fun00002_ip = 555; continue _fun00001;
- 354:
+            _fun00002_ip = 541; continue _fun00001;
+ 342:
             zuuluu = _closure1_slot13;
             michal = _closure1_slot14;
             entity = {};
@@ -592,7 +592,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = golfie;
             entity['children'] = report;
             option = zuuluu.bind(tangon)(michal, entity);
- 555:
+ 541:
             zuuluu = _closure1_slot12;
             michal = _closure1_slot0;
             report = _closure1_slot2;
@@ -607,8 +607,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['transferring'] = output;
             backup = backup != foxtra;
             foxtra = undefined;
-            if(!backup) { _fun00002_ip = 618; continue _fun00001 }
- 611:
+            if(!backup) { _fun00002_ip = 602; continue _fun00001 }
+ 597:
             foxtra = function() { // Original name: handleTransferVoice
                 entity = undefined;
                 tangon = _closure2_slot7;
@@ -619,7 +619,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(entity, michal);
                 return entity;
             };
- 618:
+ 602:
             report['onPress'] = foxtra;
             report = yankee.bind(tangon)(golfie, report);
             entity['footer'] = report;
@@ -646,10 +646,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot6;
             backup = {};
             yankee = offset;
-            if(yankee) { _fun00002_ip = 737; continue _fun00001 }
- 734:
+            if(yankee) { _fun00002_ip = 721; continue _fun00001 }
+ 718:
             yankee = output;
- 737:
+ 721:
             backup['disabled'] = yankee;
             oscard = function() { // Original name: onPress
                 zuuluu = _closure1_slot0;
@@ -698,15 +698,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = {};
             yankee = romeon.container;
             report['contentContainerStyle'] = yankee;
-            if(!offset) { _fun00002_ip = 946; continue _fun00001 }
- 920:
+            if(!offset) { _fun00002_ip = 928; continue _fun00001 }
+ 902:
             yankee = _closure1_slot12;
             offset = _closure1_slot9;
             verify = {};
             romeon = romeon.loading;
             verify['style'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 946:
+ 928:
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;

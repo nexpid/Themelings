@@ -313,7 +313,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         oscard['value'] = michal;
-        michal = new Array(5);
+        michal = new Array(4);
         michal[0] = oscard;
         oscard = {};
         option = 'getIconSource';
@@ -390,24 +390,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         oscard['value'] = option;
         michal[3] = oscard;
-        oscard = {};
-        option = 'acronym';
-        oscard['key'] = option;
-        option = function() { // Original name: get
-            zuuluu = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 11;
-            michal = michal[entity];
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(michal);
-            michal = zuuluu.getAcronym;
-            entity = this;
-            entity = entity.name;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        };
-        oscard['get'] = option;
-        michal[4] = oscard;
         oscard = {};
         option = 'getGuildFromEmojiId';
         oscard['key'] = option;
@@ -706,7 +688,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal = michal.bind(entity)(offset);
     var _closure1_slot15 = michal;
-    golfie = 12;
+    golfie = 11;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
     option = verify.fileFinishedImporting;

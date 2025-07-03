@@ -12,7 +12,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 6;
+            entity = 7;
             entity = report[entity];
             zuuluu = undefined;
             oscard = tangon.bind(zuuluu)(entity);
@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'age-gate-utils';
             entity['location'] = golfie;
             entity = michal.bind(oscard)(entity);
-            michal = 7;
+            michal = 8;
             michal = report[michal];
             zuuluu = tangon.bind(zuuluu)(michal);
             michal = zuuluu.shouldShowTiggerPawtect;
@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot12 = golfie;
+    var _closure1_slot13 = golfie;
     tangon = global;
     yankee = tangon.Object;
     option = yankee.defineProperty;
@@ -45,7 +45,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = 0;
     report = offset[entity];
     entity = undefined;
-    report = oscard.bind(entity)(report);
+    report = verify.bind(entity)(report);
+    report = report.isGuildNSFW;
     var _closure1_slot3 = report;
     report = 1;
     report = offset[report];
@@ -57,10 +58,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = report;
     report = 3;
     report = offset[report];
-    report = verify.bind(entity)(report);
-    report = report.AgeGateSource;
+    report = oscard.bind(entity)(report);
     var _closure1_slot6 = report;
     report = 4;
+    report = offset[report];
+    report = verify.bind(entity)(report);
+    report = report.AgeGateSource;
+    var _closure1_slot7 = report;
+    report = 5;
     report = offset[report];
     report = verify.bind(entity)(report);
     report = report.GuildNSFWContentLevel;
@@ -71,23 +76,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     kiloes = oscard;
     tangon = new kiloes[option](backup, foxtra);
     tangon = tangon instanceof Object ? tangon : oscard;
-    var _closure1_slot7 = tangon;
+    var _closure1_slot8 = tangon;
     oscard = report.AGE_RESTRICTED;
     tangon = new Array(2);
     tangon[0] = oscard;
     report = report.EXPLICIT;
     tangon[1] = report;
-    var _closure1_slot8 = tangon;
+    var _closure1_slot9 = tangon;
     oscard = function() { // Original name: shouldShowAgeGateForCurrentUser
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            zuuluu = _closure1_slot5;
+            zuuluu = _closure1_slot6;
             entity = zuuluu.getCurrentUser;
             entity = entity.bind(zuuluu)();
             zuuluu = null;
             if(!(zuuluu != entity)) { _fun00004_ip = 50; continue _fun00003 }
  22:
-            tangon = _closure1_slot12;
+            tangon = _closure1_slot13;
             michal = undefined;
             michal = tangon.bind(michal)();
             entity = entity.nsfwAllowed;
@@ -102,42 +107,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot9 = oscard;
+    var _closure1_slot10 = oscard;
     report = function(argFoo) { // Original name: shouldShowAgeGateForGuildId
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            report = argFoo;
-            entity = _closure1_slot9;
-            tangon = undefined;
-            entity = entity.bind(tangon)();
+            oscard = argFoo;
+            entity = _closure1_slot10;
+            report = undefined;
+            entity = entity.bind(report)();
             if(!entity) { _fun00006_ip = 110; continue _fun00005 }
  19:
             entity = null;
-            if(!(entity != report)) { _fun00006_ip = 110; continue _fun00005 }
+            if(!(entity != oscard)) { _fun00006_ip = 110; continue _fun00005 }
  25:
-            oscard = _closure1_slot4;
-            zuuluu = oscard.getGuild;
-            oscard = zuuluu.bind(oscard)(report);
-            zuuluu = entity == oscard;
-            entity = undefined;
-            if(zuuluu) { _fun00006_ip = 58; continue _fun00005 }
- 48:
-            zuuluu = oscard.isNSFW;
-            entity = zuuluu.bind(oscard)();
- 58:
+            tangon = _closure1_slot5;
+            michal = tangon.getGuild;
+            tangon = michal.bind(tangon)(oscard);
+            entity = entity != tangon;
             if(!entity) { _fun00006_ip = 108; continue _fun00005 }
- 61:
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            michal = 9;
-            michal = oscard[michal];
-            tangon = zuuluu.bind(tangon)(michal);
-            zuuluu = tangon.isEligibleForGuildContentLevelSetting;
-            michal = {};
-            michal['guildId'] = report;
-            report = 'age-gate-utils';
-            michal['location'] = report;
-            entity = zuuluu.bind(tangon)(michal);
+ 46:
+            michal = _closure1_slot3;
+            michal = michal.bind(report)(tangon);
+            if(!michal) { _fun00006_ip = 105; continue _fun00005 }
+ 58:
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot2;
+            zuuluu = 10;
+            zuuluu = golfie[zuuluu];
+            report = tangon.bind(report)(zuuluu);
+            tangon = report.isEligibleForGuildContentLevelSetting;
+            zuuluu = {};
+            zuuluu['guildId'] = oscard;
+            oscard = 'age-gate-utils';
+            zuuluu['location'] = oscard;
+            michal = tangon.bind(report)(zuuluu);
+ 105:
+            entity = michal;
  108:
             return entity;
  110:
@@ -145,12 +150,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = report;
+    var _closure1_slot11 = report;
     tangon = function(argFoo) { // Original name: shouldShowAgeGateForChannelId
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
-            entity = _closure1_slot9;
+            entity = _closure1_slot10;
             michal = undefined;
             entity = entity.bind(michal)();
             tangon = !entity;
@@ -162,7 +167,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = !tangon;
             if(tangon) { _fun00008_ip = 72; continue _fun00007 }
  34:
-            tangon = _closure1_slot3;
+            tangon = _closure1_slot4;
             zuuluu = tangon.getChannel;
             tangon = zuuluu.bind(tangon)(report);
             zuuluu = null;
@@ -178,8 +183,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot11 = tangon;
-    option = 11;
+    var _closure1_slot12 = tangon;
+    option = 12;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;
@@ -188,7 +193,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = function() { // Original name: userNeedsAgeGate
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
-            michal = _closure1_slot5;
+            michal = _closure1_slot6;
             entity = michal.getCurrentUser;
             michal = entity.bind(michal)();
             zuuluu = null;
@@ -197,14 +202,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  25:
             golfie = _closure1_slot1;
             oscard = _closure1_slot2;
-            report = 5;
+            report = 6;
             oscard = oscard[report];
             report = undefined;
             golfie = golfie.bind(report)(oscard);
             oscard = golfie.extractTimestamp;
             report = michal.id;
             report = oscard.bind(golfie)(report);
-            oscard = _closure1_slot7;
+            oscard = _closure1_slot8;
             tangon = oscard.getTime;
             tangon = tangon.bind(oscard)();
             entity = report > tangon;
@@ -219,7 +224,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['userNeedsAgeGate'] = option;
     option = function(argFoo) { // Original name: guildNeedsAgeGate
-        zuuluu = _closure1_slot8;
+        zuuluu = _closure1_slot9;
         michal = zuuluu.includes;
         entity = argFoo;
         entity = entity.nsfwLevel;
@@ -233,7 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             tangon = _closure1_slot0;
             report = _closure1_slot2;
-            entity = 6;
+            entity = 7;
             entity = report[entity];
             zuuluu = undefined;
             oscard = tangon.bind(zuuluu)(entity);
@@ -242,7 +247,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = 'age-gate-utils';
             entity['location'] = golfie;
             entity = michal.bind(oscard)(entity);
-            michal = 7;
+            michal = 8;
             michal = report[michal];
             zuuluu = tangon.bind(zuuluu)(michal);
             michal = zuuluu.useShouldShowTiggerPawtect;
@@ -261,31 +266,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = argFoo;
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 7;
+            entity = 8;
             entity = zuuluu[entity];
             option = undefined;
             michal = michal.bind(option)(entity);
             entity = michal.useIsAgeVerified;
             entity = entity.bind(michal)();
-            michal = _closure1_slot6;
+            michal = _closure1_slot7;
             michal = michal.NSFW_SERVER;
             zuuluu = report === michal;
             if(zuuluu) { _fun00014_ip = 69; continue _fun00013 }
  55:
-            michal = _closure1_slot6;
+            michal = _closure1_slot7;
             michal = michal.NSFW_SERVER_INVITE;
             zuuluu = report === michal;
  69:
             if(zuuluu) { _fun00014_ip = 86; continue _fun00013 }
  72:
-            michal = _closure1_slot6;
+            michal = _closure1_slot7;
             michal = michal.NSFW_SERVER_INVITE_EMBED;
             zuuluu = report === michal;
  86:
             michal = {};
             offset = _closure1_slot0;
             report = _closure1_slot2;
-            verify = 8;
+            verify = 9;
             oscard = report[verify];
             oscard = offset.bind(option)(oscard);
             golfie = oscard.intl;
@@ -357,20 +362,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tangon = argBaz;
-            zuuluu = _closure1_slot10;
+            zuuluu = _closure1_slot11;
             entity = undefined;
             michal = argFoo;
             michal = zuuluu.bind(entity)(michal);
             if(michal) { _fun00016_ip = 90; continue _fun00015 }
  23:
-            zuuluu = _closure1_slot11;
+            zuuluu = _closure1_slot12;
             michal = argBar;
             michal = zuuluu.bind(entity)(michal);
             if(!michal) { _fun00016_ip = 137; continue _fun00015 }
  38:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
-            michal = 10;
+            michal = 11;
             michal = oscard[michal];
             oscard = zuuluu.bind(entity)(michal);
             zuuluu = oscard.openAgeGateModal;
@@ -378,7 +383,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon;
             if(!(golfie == tangon)) { _fun00016_ip = 83; continue _fun00015 }
  73:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             michal = golfie.NSFW_CHANNEL;
  83:
             michal = zuuluu.bind(oscard)(michal);
@@ -386,14 +391,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  90:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot2;
-            michal = 10;
+            michal = 11;
             michal = oscard[michal];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.openAgeGateModal;
             oscard = null;
             if(!(oscard == tangon)) { _fun00016_ip = 132; continue _fun00015 }
  122:
-            report = _closure1_slot6;
+            report = _closure1_slot7;
             tangon = report.NSFW_SERVER;
  132:
             michal = michal.bind(zuuluu)(tangon);

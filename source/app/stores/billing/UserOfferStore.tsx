@@ -340,7 +340,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot15 = michal;
-    michal = 13;
+    michal = 12;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.PersistedStore;
@@ -507,6 +507,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[3] = report;
         report = {};
+        golfie = 'isFetchingOffer';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
+ 0:
+                entity = _closure1_slot14;
+                michal = entity.isFetching;
+                entity = null;
+                entity = entity != michal;
+                if(!entity) { _fun00022_ip = 25; continue _fun00021 }
+ 22:
+                entity = michal;
+ 25:
+                return entity;
+            }
+        };
+        report['value'] = golfie;
+        entity[4] = report;
+        report = {};
         golfie = 'hasFetchedOffer';
         report['key'] = golfie;
         golfie = function() { // Original name: value
@@ -515,62 +534,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             entity = entity != michal;
             return entity;
-        };
-        report['value'] = golfie;
-        entity[4] = report;
-        report = {};
-        golfie = 'shouldFetchOffer';
-        report['key'] = golfie;
-        golfie = function() { // Original name: value
-            _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
- 0:
-                tangon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                michal = 10;
-                zuuluu = zuuluu[michal];
-                michal = undefined;
-                michal = tangon.bind(michal)(zuuluu);
-                tangon = michal.UserTrialOfferTTLExperiment;
-                zuuluu = tangon.getCurrentConfig;
-                michal = {};
-                report = 'UserOfferStore.shouldFetchOffer';
-                michal['location'] = report;
-                michal = zuuluu.bind(tangon)(michal);
-                zuuluu = michal.enabled;
-                michal = michal.ttl;
-                report = 172800000;
-                if(!zuuluu) { _fun00022_ip = 77; continue _fun00021 }
- 74:
-                report = michal;
- 77:
-                michal = _closure1_slot14;
-                tangon = michal.userOffersLastFetchedAtDate;
-                entity = _closure1_slot14;
-                zuuluu = entity.isFetching;
-                entity = null;
-                michal = entity != zuuluu;
-                if(!michal) { _fun00022_ip = 109; continue _fun00021 }
- 106:
-                michal = zuuluu;
- 109:
-                if(!(entity != tangon)) { _fun00022_ip = 146; continue _fun00021 }
- 113:
-                entity = !michal;
-                if(!entity) { _fun00022_ip = 144; continue _fun00021 }
- 119:
-                zuuluu = global;
-                oscard = zuuluu.Date;
-                zuuluu = oscard.now;
-                zuuluu = zuuluu.bind(oscard)();
-                zuuluu = zuuluu - report;
-                entity = zuuluu > tangon;
- 144:
-                _fun00022_ip = 149; continue _fun00021;
- 146:
-                entity = !michal;
- 149:
-                return entity;
-            }
         };
         report['value'] = golfie;
         entity[5] = report;
@@ -650,7 +613,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = entity.bind(oscard)();
                 option = _closure1_slot0;
                 oscard = _closure1_slot1;
-                entity = 11;
+                entity = 10;
                 oscard = oscard[entity];
                 entity = undefined;
                 oscard = option.bind(entity)(oscard);
@@ -711,7 +674,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         tangon = tangon.bind(report)();
                         golfie = _closure1_slot0;
                         oscard = _closure1_slot1;
-                        report = 11;
+                        report = 10;
                         oscard = oscard[report];
                         report = undefined;
                         oscard = golfie.bind(report)(oscard);
@@ -745,7 +708,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = entity.bind(report)();
                 golfie = _closure1_slot0;
                 report = _closure1_slot1;
-                entity = 11;
+                entity = 10;
                 report = report[entity];
                 entity = undefined;
                 report = golfie.bind(entity)(report);
@@ -803,7 +766,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = entity.bind(tangon)();
                 oscard = _closure1_slot0;
                 tangon = _closure1_slot1;
-                entity = 11;
+                entity = 10;
                 tangon = tangon[entity];
                 entity = undefined;
                 tangon = oscard.bind(entity)(tangon);
@@ -869,7 +832,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = entity.bind(report)();
                 golfie = _closure1_slot0;
                 report = _closure1_slot1;
-                entity = 11;
+                entity = 10;
                 report = report[entity];
                 entity = undefined;
                 report = golfie.bind(entity)(report);
@@ -1002,7 +965,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = entity.bind(zuuluu)();
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot1;
-                entity = 12;
+                entity = 11;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
@@ -1179,7 +1142,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal[2] = yankee;
     option['migrations'] = michal;
-    michal = 14;
+    michal = 13;
     michal = oscard[michal];
     backup = golfie.bind(entity)(michal);
     michal = {};
@@ -1403,7 +1366,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = michal;
     michal = new kiloes[option](backup, foxtra, romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 15;
+    tangon = 14;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -73,31 +73,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = oscard == report;
                 tangon = undefined;
                 golfie = undefined;
-                if(michal) { _fun00002_ip = 58; continue _fun00001 }
+                if(michal) { _fun00002_ip = 63; continue _fun00001 }
  37:
-                option = report.hasFeature;
+                verify = report.features;
+                option = verify.has;
                 michal = _closure1_slot6;
                 michal = michal.WELCOME_SCREEN_ENABLED;
-                golfie = option.bind(report)(michal);
- 58:
+                golfie = option.bind(verify)(michal);
+ 63:
                 michal = true;
-                if(!(michal === golfie)) { _fun00002_ip = 88; continue _fun00001 }
- 64:
-                golfie = report.hasFeature;
+                if(!(michal === golfie)) { _fun00002_ip = 98; continue _fun00001 }
+ 69:
+                option = report.features;
+                golfie = option.has;
                 michal = _closure1_slot6;
                 michal = michal.COMMUNITY;
-                michal = golfie.bind(report)(michal);
-                if(michal) { _fun00002_ip = 92; continue _fun00001 }
- 88:
+                michal = golfie.bind(option)(michal);
+                if(michal) { _fun00002_ip = 102; continue _fun00001 }
+ 98:
                 michal = false;
                 return michal;
- 92:
-                golfie = report.hasFeature;
+ 102:
+                option = report.features;
+                golfie = option.has;
                 michal = _closure1_slot6;
                 michal = michal.GUILD_SERVER_GUIDE;
-                michal = golfie.bind(report)(michal);
-                if(michal) { _fun00002_ip = 205; continue _fun00001 }
- 116:
+                michal = golfie.bind(option)(michal);
+                if(michal) { _fun00002_ip = 220; continue _fun00001 }
+ 131:
                 option = _closure1_slot3;
                 michal = option.getChannel;
                 golfie = _closure2_slot0;
@@ -107,25 +110,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure2_slot1;
                 entity = option.bind(verify)(entity);
                 entity = golfie === entity;
-                if(!entity) { _fun00002_ip = 164; continue _fun00001 }
- 160:
+                if(!entity) { _fun00002_ip = 179; continue _fun00001 }
+ 175:
                 entity = oscard != michal;
- 164:
-                if(!entity) { _fun00002_ip = 186; continue _fun00001 }
- 167:
+ 179:
+                if(!entity) { _fun00002_ip = 201; continue _fun00001 }
+ 182:
                 oscard = michal.getGuildId;
                 oscard = oscard.bind(michal)();
                 report = report.id;
                 entity = oscard === report;
- 186:
-                if(!entity) { _fun00002_ip = 203; continue _fun00001 }
- 189:
+ 201:
+                if(!entity) { _fun00002_ip = 218; continue _fun00001 }
+ 204:
                 zuuluu = _closure1_slot2;
                 michal = michal.type;
                 entity = zuuluu.bind(tangon)(michal);
- 203:
+ 218:
                 return entity;
- 205:
+ 220:
                 entity = false;
                 return entity;
             }

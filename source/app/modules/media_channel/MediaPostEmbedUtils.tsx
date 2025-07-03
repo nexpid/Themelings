@@ -340,33 +340,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot3;
             tangon = report.getGuild;
             michal = argFoo;
-            report = tangon.bind(report)(michal);
+            tangon = tangon.bind(report)(michal);
             michal = null;
-            if(!(michal != report)) { _fun00008_ip = 102; continue _fun00007 }
+            if(!(michal != tangon)) { _fun00008_ip = 112; continue _fun00007 }
  29:
-            if(!(michal != zuuluu)) { _fun00008_ip = 102; continue _fun00007 }
+            if(!(michal != zuuluu)) { _fun00008_ip = 112; continue _fun00007 }
  33:
-            tangon = report.hasFeature;
+            oscard = tangon.features;
+            report = oscard.has;
             michal = _closure1_slot4;
             michal = michal.CREATOR_MONETIZABLE;
-            michal = tangon.bind(report)(michal);
-            if(michal) { _fun00008_ip = 78; continue _fun00007 }
- 57:
-            tangon = report.hasFeature;
+            michal = report.bind(oscard)(michal);
+            if(michal) { _fun00008_ip = 88; continue _fun00007 }
+ 62:
+            report = tangon.features;
+            tangon = report.has;
             entity = _closure1_slot4;
             entity = entity.CREATOR_MONETIZABLE_PROVISIONAL;
             michal = tangon.bind(report)(entity);
- 78:
+ 88:
             entity = zuuluu.isMediaChannel;
             zuuluu = entity.bind(zuuluu)();
             entity = true;
             entity = entity === zuuluu;
-            if(!entity) { _fun00008_ip = 100; continue _fun00007 }
- 97:
+            if(!entity) { _fun00008_ip = 110; continue _fun00007 }
+ 107:
             entity = michal;
- 100:
+ 110:
             return entity;
- 102:
+ 112:
             entity = false;
             return entity;
         }

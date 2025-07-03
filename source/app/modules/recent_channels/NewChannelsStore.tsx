@@ -522,56 +522,57 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = argFoo;
                 oscard = argBar;
                 tangon = null;
-                if(!(tangon != report)) { _fun00014_ip = 156; continue _fun00013 }
+                if(!(tangon != report)) { _fun00014_ip = 161; continue _fun00013 }
  15:
                 michal = _closure1_slot14;
                 entity = michal.getGuild;
-                option = entity.bind(michal)(report);
-                michal = tangon == option;
-                if(michal) { _fun00014_ip = 63; continue _fun00013 }
+                entity = entity.bind(michal)(report);
+                michal = tangon == entity;
+                if(michal) { _fun00014_ip = 68; continue _fun00013 }
  39:
-                golfie = option.hasFeature;
+                option = entity.features;
+                golfie = option.has;
                 entity = _closure1_slot19;
                 entity = entity.COMMUNITY;
                 entity = golfie.bind(option)(entity);
                 michal = !entity;
- 63:
+ 68:
                 entity = !michal;
-                if(michal) { _fun00014_ip = 154; continue _fun00013 }
- 69:
+                if(michal) { _fun00014_ip = 159; continue _fun00013 }
+ 74:
                 michal = tangon != report;
-                if(!michal) { _fun00014_ip = 88; continue _fun00013 }
- 76:
+                if(!michal) { _fun00014_ip = 93; continue _fun00013 }
+ 81:
                 golfie = _closure1_slot21;
                 golfie = golfie[report];
                 michal = tangon == golfie;
- 88:
-                if(!michal) { _fun00014_ip = 102; continue _fun00013 }
- 91:
+ 93:
+                if(!michal) { _fun00014_ip = 107; continue _fun00013 }
+ 96:
                 golfie = _closure1_slot25;
                 michal = undefined;
                 michal = golfie.bind(michal)(report);
- 102:
+ 107:
                 michal = _closure1_slot21;
                 golfie = michal[report];
                 report = tangon == golfie;
                 michal = undefined;
-                if(report) { _fun00014_ip = 129; continue _fun00013 }
- 119:
+                if(report) { _fun00014_ip = 134; continue _fun00013 }
+ 124:
                 report = golfie.has;
                 michal = report.bind(golfie)(oscard);
- 129:
-                if(!michal) { _fun00014_ip = 151; continue _fun00013 }
- 132:
+ 134:
+                if(!michal) { _fun00014_ip = 156; continue _fun00013 }
+ 137:
                 report = _closure1_slot15;
                 zuuluu = report.getTrackedAckMessageId;
                 zuuluu = zuuluu.bind(report)(oscard);
                 michal = tangon == zuuluu;
- 151:
-                entity = michal;
- 154:
-                return entity;
  156:
+                entity = michal;
+ 159:
+                return entity;
+ 161:
                 entity = false;
                 return entity;
             }

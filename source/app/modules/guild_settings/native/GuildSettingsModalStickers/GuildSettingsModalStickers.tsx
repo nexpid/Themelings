@@ -268,33 +268,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = null;
                     michal = report == zuuluu;
                     oscard = undefined;
-                    if(michal) { _fun00004_ip = 56; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 61; continue _fun00003 }
  35:
-                    golfie = zuuluu.hasFeature;
+                    option = zuuluu.features;
+                    golfie = option.has;
                     michal = _closure1_slot11;
                     michal = michal.MORE_STICKERS;
-                    oscard = golfie.bind(zuuluu)(michal);
- 56:
+                    oscard = golfie.bind(option)(michal);
+ 61:
                     michal = true;
-                    if(!(michal === oscard)) { _fun00004_ip = 74; continue _fun00003 }
- 62:
+                    if(!(michal === oscard)) { _fun00004_ip = 79; continue _fun00003 }
+ 67:
                     michal = _closure1_slot10;
                     michal = michal.TIER_3;
-                    _fun00004_ip = 106; continue _fun00003;
- 74:
+                    _fun00004_ip = 111; continue _fun00003;
+ 79:
                     oscard = report == zuuluu;
                     entity = undefined;
-                    if(oscard) { _fun00004_ip = 89; continue _fun00003 }
- 83:
+                    if(oscard) { _fun00004_ip = 94; continue _fun00003 }
+ 88:
                     entity = zuuluu.premiumTier;
- 89:
-                    if(!(report == entity)) { _fun00004_ip = 103; continue _fun00003 }
- 93:
+ 94:
+                    if(!(report == entity)) { _fun00004_ip = 108; continue _fun00003 }
+ 98:
                     tangon = _closure1_slot10;
                     entity = tangon.NONE;
- 103:
+ 108:
                     michal = entity;
- 106:
+ 111:
                     entity = {};
                     entity['guild'] = zuuluu;
                     entity['guildTier'] = michal;

@@ -225,25 +225,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = _closure1_slot6;
             michal = zuuluu.getGuild;
             entity = argFoo;
-            report = michal.bind(zuuluu)(entity);
+            michal = michal.bind(zuuluu)(entity);
             entity = null;
-            entity = entity != report;
-            if(!entity) { _fun00010_ip = 70; continue _fun00009 }
+            entity = entity != michal;
+            if(!entity) { _fun00010_ip = 75; continue _fun00009 }
  29:
-            zuuluu = report.hasFeature;
+            report = michal.features;
+            zuuluu = report.has;
             michal = _closure1_slot7;
             michal = michal.HUB;
             michal = zuuluu.bind(report)(michal);
             zuuluu = !michal;
             michal = !zuuluu;
-            if(zuuluu) { _fun00010_ip = 67; continue _fun00009 }
- 59:
+            if(zuuluu) { _fun00010_ip = 72; continue _fun00009 }
+ 64:
             zuuluu = true;
             _closure1_slot8 = zuuluu;
             michal = true;
- 67:
+ 72:
             entity = michal;
- 70:
+ 75:
             return entity;
         }
     };
@@ -369,18 +370,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         oscard = function(argFoo) { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                tangon = argFoo;
-                zuuluu = tangon.hasFeature;
+                entity = argFoo;
+                tangon = entity.features;
+                zuuluu = tangon.has;
                 entity = _closure1_slot7;
                 entity = entity.LINKED_TO_HUB;
                 entity = zuuluu.bind(tangon)(entity);
                 zuuluu = !entity;
                 entity = !zuuluu;
-                if(zuuluu) { _fun00014_ip = 43; continue _fun00013 }
- 36:
+                if(zuuluu) { _fun00014_ip = 48; continue _fun00013 }
+ 41:
                 michal = _closure1_slot8;
                 entity = !michal;
- 43:
+ 48:
                 return entity;
             }
         };

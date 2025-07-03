@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -163,10 +163,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = this;
                 var _closure3_slot0 = michal;
                 entity = michal._enableRequestIdleCallback;
-                if(!entity) { _fun00006_ip = 78; continue _fun00005 }
+                if(!entity) { _fun00006_ip = 80; continue _fun00005 }
  18:
                 entity = michal._criticalWorkScheduled;
-                if(entity) { _fun00006_ip = 78; continue _fun00005 }
+                if(entity) { _fun00006_ip = 80; continue _fun00005 }
  27:
                 entity = global;
                 report = entity.performance;
@@ -213,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = report.bind(entity)(tangon, zuuluu);
                 michal['_flushIdleHandler'] = zuuluu;
                 return entity;
- 78:
+ 80:
                 entity = michal._processWorkCallback;
                 entity = entity.bind(michal)();
                 return entity;

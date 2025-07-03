@@ -134,28 +134,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  143:
             sizing = michal;
  146:
-            zuuluu = golfie.hasFeature;
+            report = golfie.features;
+            zuuluu = report.has;
             michal = _closure1_slot7;
             michal = michal.ENHANCED_ROLE_COLORS;
-            vacuum = zuuluu.bind(golfie)(michal);
-            if(!vacuum) { _fun00002_ip = 181; continue _fun00001 }
- 170:
+            vacuum = zuuluu.bind(report)(michal);
+            if(!vacuum) { _fun00002_ip = 186; continue _fun00001 }
+ 175:
             zuuluu = equals.colors;
             michal = null;
             vacuum = michal != zuuluu;
- 181:
-            if(!vacuum) { _fun00002_ip = 201; continue _fun00001 }
- 184:
+ 186:
+            if(!vacuum) { _fun00002_ip = 206; continue _fun00001 }
+ 189:
             michal = equals.colors;
             zuuluu = michal.secondary_color;
             michal = null;
             vacuum = michal != zuuluu;
- 201:
+ 206:
             michal = 0;
-            if(!(michal === variable37)) { _fun00002_ip = 211; continue _fun00001 }
- 207:
+            if(!(michal === variable37)) { _fun00002_ip = 216; continue _fun00001 }
+ 212:
             variable37 = _closure1_slot5;
- 211:
+ 216:
             _closure2_slot1 = variable37;
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
@@ -177,8 +178,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['size'] = golfie;
             papara = zuuluu.bind(report)(michal);
             verify = null;
-            if(!(verify == papara)) { _fun00002_ip = 381; continue _fun00001 }
- 304:
+            if(!(verify == papara)) { _fun00002_ip = 386; continue _fun00001 }
+ 309:
             report = _closure1_slot9;
             result = _closure1_slot1;
             romeon = _closure1_slot2;
@@ -197,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = golfie.MEDIUM;
             michal['size'] = golfie;
             papara = report.bind(tangon)(zuuluu, michal);
- 381:
+ 386:
             report = _closure1_slot3;
             zuuluu = report.useCallback;
             michal = new Array(2);
@@ -323,17 +324,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = new Array(2);
             target[0] = sierra;
             sierra = vacuum;
-            if(!vacuum) { _fun00002_ip = 834; continue _fun00001 }
- 828:
+            if(!vacuum) { _fun00002_ip = 839; continue _fun00001 }
+ 833:
             sierra = status.ercRow;
- 834:
+ 839:
             target[1] = sierra;
             cntext['style'] = target;
-            if(!vacuum) { _fun00002_ip = 855; continue _fun00001 }
- 845:
+            if(!vacuum) { _fun00002_ip = 860; continue _fun00001 }
+ 850:
             target = equals.colorStrings;
-            if(!(verify == target)) { _fun00002_ip = 911; continue _fun00001 }
- 855:
+            if(!(verify == target)) { _fun00002_ip = 916; continue _fun00001 }
+ 860:
             limora = _closure1_slot9;
             sierra = _closure1_slot1;
             whisks = _closure1_slot2;
@@ -346,8 +347,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target['style'] = whisks;
             target['onSelect'] = update;
             sierra = limora.bind(tangon)(sierra, target);
-            _fun00002_ip = 1069; continue _fun00001;
- 911:
+            _fun00002_ip = 1074; continue _fun00001;
+ 916:
             whisks = _closure1_slot9;
             limora = _closure1_slot1;
             variable39 = _closure1_slot2;
@@ -380,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals = status.colorBlock;
             target['style'] = equals;
             sierra = whisks.bind(tangon)(limora, target);
- 1069:
+ 1074:
             target = new Array(2);
             target[0] = sierra;
             whisks = _closure1_slot9;
@@ -395,15 +396,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra['variant'] = equals;
             variable36 = _closure1_slot0;
             variable39 = _closure1_slot2;
-            if(vacuum) { _fun00002_ip = 1152; continue _fun00001 }
- 1127:
+            if(vacuum) { _fun00002_ip = 1157; continue _fun00001 }
+ 1132:
             equals = 24;
             equals = variable39[equals];
             quebec = variable36.bind(tangon)(equals);
             equals = quebec.int2hex;
             equals = equals.bind(quebec)(variable37);
-            _fun00002_ip = 1200; continue _fun00001;
- 1152:
+            _fun00002_ip = 1205; continue _fun00001;
+ 1157:
             quebec = variable39[echoed];
             quebec = variable36.bind(tangon)(quebec);
             variable37 = quebec.intl;
@@ -414,7 +415,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = variable38.bind(tangon)(quebec);
             quebec = quebec.vQz+6e;
             equals = variable36.bind(variable37)(quebec);
- 1200:
+ 1205:
             sierra['children'] = equals;
             sierra = whisks.bind(tangon)(limora, sierra);
             target[1] = sierra;
@@ -425,10 +426,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = zuuluu.bind(tangon)(config, sequen);
             option['label'] = sequen;
             sequen = sizing;
-            if(sizing) { _fun00002_ip = 1251; continue _fun00001 }
- 1248:
+            if(sizing) { _fun00002_ip = 1256; continue _fun00001 }
+ 1253:
             sequen = vacuum;
- 1251:
+ 1256:
             option['disabled'] = sequen;
             option['onPress'] = update;
             sequen = _closure1_slot0;
@@ -439,8 +440,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.Arrow;
             option['trailing'] = update;
             update = undefined;
-            if(!vacuum) { _fun00002_ip = 1350; continue _fun00001 }
- 1298:
+            if(!vacuum) { _fun00002_ip = 1355; continue _fun00001 }
+ 1303:
             record = _closure1_slot0;
             vacuum = _closure1_slot2;
             sequen = vacuum[echoed];
@@ -452,14 +453,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum.t;
             vacuum = vacuum.ZTpgyM;
             update = sequen.bind(config)(vacuum);
- 1350:
+ 1355:
             option['subLabel'] = update;
             yankee = romeon.bind(tangon)(yankee, option);
             option = new Array(2);
             option[0] = yankee;
             verify = null;
-            if(!offset) { _fun00002_ip = 1634; continue _fun00001 }
- 1377:
+            if(!offset) { _fun00002_ip = 1639; continue _fun00001 }
+ 1382:
             romeon = _closure1_slot10;
             yankee = _closure1_slot4;
             offset = {};
@@ -516,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update[1] = vacuum;
             offset['children'] = update;
             verify = romeon.bind(tangon)(yankee, offset);
- 1634:
+ 1639:
             option[1] = verify;
             oscard['children'] = option;
             oscard = zuuluu.bind(tangon)(golfie, oscard);
@@ -534,10 +535,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = verify.FormSwitchRow;
             verify = {};
             offset = sizing;
-            if(sizing) { _fun00002_ip = 1711; continue _fun00001 }
- 1708:
+            if(sizing) { _fun00002_ip = 1716; continue _fun00001 }
+ 1713:
             offset = output;
- 1711:
+ 1716:
             verify['disabled'] = offset;
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -577,10 +578,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = yankee.bind(tangon)(offset);
             yankee = offset.FormSwitchRow;
             offset = {};
-            if(sizing) { _fun00002_ip = 1901; continue _fun00001 }
- 1898:
+            if(sizing) { _fun00002_ip = 1906; continue _fun00001 }
+ 1903:
             sizing = output;
- 1901:
+ 1906:
             offset['disabled'] = sizing;
             sizing = _closure1_slot0;
             kiloes = _closure1_slot2;

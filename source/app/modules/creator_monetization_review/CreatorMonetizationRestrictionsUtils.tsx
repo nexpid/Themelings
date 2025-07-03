@@ -81,42 +81,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             golfie = argFoo;
             entity = null;
-            if(!(entity != golfie)) { _fun00006_ip = 121; continue _fun00005 }
+            if(!(entity != golfie)) { _fun00006_ip = 126; continue _fun00005 }
  9:
             tangon = _closure1_slot0;
             zuuluu = tangon.getMonetizationRestrictionsFetchState;
-            report = zuuluu.bind(tangon)(golfie);
+            oscard = zuuluu.bind(tangon)(golfie);
             zuuluu = tangon.getMonetizationRestrictions;
             tangon = zuuluu.bind(tangon)(golfie);
-            oscard = _closure1_slot2;
-            zuuluu = oscard.getGuild;
-            golfie = zuuluu.bind(oscard)(golfie);
+            report = _closure1_slot2;
+            zuuluu = report.getGuild;
+            report = zuuluu.bind(report)(golfie);
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu.FETCHED;
-            if(!(report !== zuuluu)) { _fun00006_ip = 108; continue _fun00005 }
+            if(!(oscard !== zuuluu)) { _fun00006_ip = 113; continue _fun00005 }
  66:
-            report = entity == golfie;
+            oscard = entity == report;
             zuuluu = undefined;
-            if(report) { _fun00006_ip = 96; continue _fun00005 }
+            if(oscard) { _fun00006_ip = 101; continue _fun00005 }
  75:
-            oscard = golfie.hasFeature;
+            golfie = report.features;
+            oscard = golfie.has;
             report = _closure1_slot4;
             report = report.CREATOR_MONETIZABLE_RESTRICTED;
             zuuluu = oscard.bind(golfie)(report);
- 96:
+ 101:
             entity = entity == zuuluu;
-            if(entity) { _fun00006_ip = 106; continue _fun00005 }
- 103:
-            entity = zuuluu;
- 106:
-            _fun00006_ip = 119; continue _fun00005;
+            if(entity) { _fun00006_ip = 111; continue _fun00005 }
  108:
+            entity = zuuluu;
+ 111:
+            _fun00006_ip = 124; continue _fun00005;
+ 113:
             zuuluu = _closure1_slot5;
             michal = undefined;
             entity = zuuluu.bind(michal)(tangon);
- 119:
+ 124:
             return entity;
- 121:
+ 126:
             entity = false;
             return entity;
         }
@@ -128,42 +129,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             golfie = argFoo;
             entity = null;
-            if(!(entity != golfie)) { _fun00008_ip = 121; continue _fun00007 }
+            if(!(entity != golfie)) { _fun00008_ip = 126; continue _fun00007 }
  9:
             tangon = _closure1_slot0;
             zuuluu = tangon.getMonetizationRestrictionsFetchState;
-            report = zuuluu.bind(tangon)(golfie);
+            oscard = zuuluu.bind(tangon)(golfie);
             zuuluu = tangon.getMonetizationRestrictions;
             tangon = zuuluu.bind(tangon)(golfie);
-            oscard = _closure1_slot2;
-            zuuluu = oscard.getGuild;
-            golfie = zuuluu.bind(oscard)(golfie);
+            report = _closure1_slot2;
+            zuuluu = report.getGuild;
+            report = zuuluu.bind(report)(golfie);
             zuuluu = _closure1_slot1;
             zuuluu = zuuluu.FETCHED;
-            if(!(report !== zuuluu)) { _fun00008_ip = 108; continue _fun00007 }
+            if(!(oscard !== zuuluu)) { _fun00008_ip = 113; continue _fun00007 }
  66:
-            report = entity == golfie;
+            oscard = entity == report;
             zuuluu = undefined;
-            if(report) { _fun00008_ip = 96; continue _fun00007 }
+            if(oscard) { _fun00008_ip = 101; continue _fun00007 }
  75:
-            oscard = golfie.hasFeature;
+            golfie = report.features;
+            oscard = golfie.has;
             report = _closure1_slot4;
             report = report.CREATOR_MONETIZABLE_RESTRICTED;
             zuuluu = oscard.bind(golfie)(report);
- 96:
+ 101:
             entity = entity == zuuluu;
-            if(entity) { _fun00008_ip = 106; continue _fun00007 }
- 103:
-            entity = zuuluu;
- 106:
-            _fun00008_ip = 119; continue _fun00007;
+            if(entity) { _fun00008_ip = 111; continue _fun00007 }
  108:
+            entity = zuuluu;
+ 111:
+            _fun00008_ip = 124; continue _fun00007;
+ 113:
             zuuluu = _closure1_slot6;
             michal = undefined;
             entity = zuuluu.bind(michal)(tangon);
- 119:
+ 124:
             return entity;
- 121:
+ 126:
             entity = false;
             return entity;
         }

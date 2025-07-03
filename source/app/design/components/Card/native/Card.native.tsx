@@ -110,11 +110,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = 'onPress';
             michal = michal in report;
             oscard = zuuluu;
-            if(!michal) { _fun00004_ip = 190; continue _fun00003 }
- 181:
+            if(!michal) { _fun00004_ip = 186; continue _fun00003 }
+ 177:
             michal = report.onPress;
-            if(!(offset == michal)) { _fun00004_ip = 227; continue _fun00003 }
- 190:
+            if(!(offset == michal)) { _fun00004_ip = 223; continue _fun00003 }
+ 186:
             yankee = _closure1_slot7;
             zuuluu = _closure1_slot6;
             michal = {};
@@ -125,7 +125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal[romeon] = golfie;
             michal = yankee.bind(tangon)(zuuluu, michal);
             return michal;
- 227:
+ 223:
             yankee = report.accessibilityRole;
             zuuluu = _closure1_slot4;
             michal = _closure1_slot3;
@@ -135,10 +135,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = {};
             romeon = offset != yankee;
             offset = 'button';
-            if(!romeon) { _fun00004_ip = 270; continue _fun00003 }
- 267:
+            if(!romeon) { _fun00004_ip = 266; continue _fun00003 }
+ 263:
             offset = yankee;
- 270:
+ 266:
             entity['accessibilityRole'] = offset;
             output = entity;
             sizing = report;

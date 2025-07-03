@@ -67,19 +67,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot5;
                 zuuluu = tangon.getGuild;
                 entity = _closure2_slot0;
-                oscard = zuuluu.bind(tangon)(entity);
+                tangon = zuuluu.bind(tangon)(entity);
                 entity = null;
-                zuuluu = entity != oscard;
+                zuuluu = entity != tangon;
                 entity = undefined;
-                if(!zuuluu) { _fun00002_ip = 66; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 50; continue _fun00001 }
  35:
-                report = _closure1_slot4;
-                tangon = report.getRole;
-                zuuluu = oscard.id;
-                michal = oscard.getEveryoneRoleId;
-                michal = michal.bind(oscard)();
-                entity = tangon.bind(report)(zuuluu, michal);
- 66:
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.getEveryoneRole;
+                entity = michal.bind(zuuluu)(tangon);
+ 50:
                 return entity;
             }
         };

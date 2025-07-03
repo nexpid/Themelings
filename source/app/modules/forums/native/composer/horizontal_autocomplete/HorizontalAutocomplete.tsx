@@ -360,8 +360,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = null;
             entity = offset != golfie;
             output = null;
-            if(!entity) { _fun00004_ip = 148; continue _fun00003 }
- 113:
+            if(!entity) { _fun00004_ip = 146; continue _fun00003 }
+ 111:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 19;
@@ -370,15 +370,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.getRoleIconData;
             entity = 30;
             output = michal.bind(zuuluu)(golfie, entity);
- 148:
+ 146:
             zuuluu = _closure1_slot11;
             michal = _closure1_slot14;
             entity = {};
             entity['onPress'] = report;
             report = offset != output;
             golfie = null;
-            if(!report) { _fun00004_ip = 290; continue _fun00003 }
- 171:
+            if(!report) { _fun00004_ip = 288; continue _fun00003 }
+ 169:
             romeon = _closure1_slot10;
             option = _closure1_slot4;
             report = {};
@@ -395,13 +395,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = output.customIconSrc;
             echoed = offset != result;
             result = undefined;
-            if(!echoed) { _fun00004_ip = 252; continue _fun00003 }
- 236:
+            if(!echoed) { _fun00004_ip = 250; continue _fun00003 }
+ 234:
             echoed = {};
             update = output.customIconSrc;
             echoed['uri'] = update;
             result = echoed;
- 252:
+ 250:
             backup['source'] = result;
             output = output.unicodeEmoji;
             backup['unicodeEmoji'] = output;
@@ -410,7 +410,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(tangon)(kiloes, backup);
             report['children'] = backup;
             golfie = romeon.bind(tangon)(option, report);
- 290:
+ 288:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot10;
@@ -426,12 +426,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = romeon;
             romeon = offset != foxtra;
             offset = undefined;
-            if(!romeon) { _fun00004_ip = 362; continue _fun00003 }
- 353:
+            if(!romeon) { _fun00004_ip = 360; continue _fun00003 }
+ 351:
             romeon = {};
             romeon['color'] = foxtra;
             offset = romeon;
- 362:
+ 360:
             verify[1] = offset;
             oscard['style'] = verify;
             verify = global;
@@ -482,8 +482,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = romeon.type;
             entity = _closure1_slot9;
             entity = entity.GUILD_CATEGORY;
-            if(!(michal !== entity)) { _fun00006_ip = 144; continue _fun00005 }
- 110:
+            if(!(michal !== entity)) { _fun00006_ip = 142; continue _fun00005 }
+ 108:
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 23;
@@ -491,14 +491,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = michal.getChannelIconWithGuild;
             golfie = entity.bind(michal)(romeon, zuuluu);
-            _fun00006_ip = 164; continue _fun00005;
- 144:
+            _fun00006_ip = 162; continue _fun00005;
+ 142:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 22;
             entity = zuuluu[entity];
             golfie = michal.bind(tangon)(entity);
- 164:
+ 162:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot1;
             yankee = _closure1_slot2;

@@ -186,21 +186,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = new Array(2);
             offset[0] = yankee;
             yankee = !option;
-            if(option) { _fun00002_ip = 432; continue _fun00001 }
- 421:
+            if(option) { _fun00002_ip = 434; continue _fun00001 }
+ 423:
             backup = {};
             kiloes = 0;
             backup['marginBottom'] = kiloes;
             yankee = backup;
- 432:
+ 434:
             offset[1] = yankee;
             report['titleStyle'] = offset;
             yankee = _closure1_slot3;
             offset = {'size': 'xs', 'color': 'interactive-normal'};
             offset = yankee.bind(tangon)(foxtra, offset);
             report['titleIcon'] = offset;
-            if(!option) { _fun00002_ip = 526; continue _fun00001 }
- 473:
+            if(!option) { _fun00002_ip = 528; continue _fun00001 }
+ 475:
             yankee = _closure1_slot3;
             offset = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -211,7 +211,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = {'variant': 'text-md/normal', 'color': 'text-normal'};
             verify['children'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 526:
+ 528:
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;

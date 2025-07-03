@@ -131,18 +131,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                         report = argFoo;
-                        zuuluu = report.hasFeature;
+                        tangon = report.features;
+                        zuuluu = tangon.has;
                         entity = _closure1_slot5;
                         entity = entity.ROLE_SUBSCRIPTIONS_AVAILABLE_FOR_PURCHASE;
-                        entity = zuuluu.bind(report)(entity);
-                        if(!entity) { _fun00006_ip = 56; continue _fun00005 }
- 30:
+                        entity = zuuluu.bind(tangon)(entity);
+                        if(!entity) { _fun00006_ip = 61; continue _fun00005 }
+ 35:
                         tangon = _closure1_slot3;
                         zuuluu = tangon.can;
                         michal = _closure1_slot7;
                         michal = michal.ADMINISTRATOR;
                         entity = zuuluu.bind(tangon)(michal, report);
- 56:
+ 61:
                         return entity;
                     }
                 };

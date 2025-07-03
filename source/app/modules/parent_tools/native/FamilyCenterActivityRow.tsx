@@ -178,21 +178,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = 'No text for action type';
             entity = michal.bind(tangon)(zuuluu, entity);
-            if(!(tangon !== result)) { _fun00004_ip = 707; continue _fun00003 }
+            if(!(tangon !== result)) { _fun00004_ip = 713; continue _fun00003 }
  132:
-            michal = result.hasFeature;
+            zuuluu = result.features;
+            michal = zuuluu.has;
             entity = _closure1_slot7;
             entity = entity.VERIFIED;
-            echoed = michal.bind(result)(entity);
-            if(echoed) { _fun00004_ip = 177; continue _fun00003 }
- 156:
-            michal = result.hasFeature;
+            echoed = michal.bind(zuuluu)(entity);
+            if(echoed) { _fun00004_ip = 187; continue _fun00003 }
+ 161:
+            zuuluu = result.features;
+            michal = zuuluu.has;
             entity = _closure1_slot7;
             entity = entity.PARTNERED;
-            echoed = michal.bind(result)(entity);
- 177:
-            entity = result.toString;
-            vacuum = entity.bind(result)();
+            echoed = michal.bind(zuuluu)(entity);
+ 187:
+            vacuum = result.name;
             zuuluu = _closure1_slot9;
             michal = _closure1_slot3;
             entity = {};
@@ -237,8 +238,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = sequen.headerAndIconContainer;
             kiloes['style'] = offset;
             yankee = null;
-            if(!echoed) { _fun00004_ip = 446; continue _fun00003 }
- 370:
+            if(!echoed) { _fun00004_ip = 452; continue _fun00003 }
+ 376:
             source = _closure1_slot8;
             record = _closure1_slot1;
             cntext = _closure1_slot2;
@@ -256,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed['size'] = config;
             echoed['disableColor'] = ctrled;
             yankee = source.bind(tangon)(update, echoed);
- 446:
+ 452:
             echoed = new Array(2);
             echoed[0] = yankee;
             ctrled = _closure1_slot8;
@@ -280,8 +281,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[0] = romeon;
             romeon = result.approximateMemberCount;
             offset = null;
-            if(!(tangon !== romeon)) { _fun00004_ip = 677; continue _fun00003 }
- 562:
+            if(!(tangon !== romeon)) { _fun00004_ip = 683; continue _fun00003 }
+ 568:
             foxtra = _closure1_slot8;
             sizing = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -305,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(output)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 677:
+ 683:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
@@ -313,7 +314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 707:
+ 713:
             entity = null;
             return entity;
         }

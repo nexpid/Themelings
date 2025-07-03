@@ -157,10 +157,10 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             romeon = foxtra.wumpus;
             verify['style'] = romeon;
             romeon = undefined;
-            if(!backup) { _fun00002_ip = 326; continue _fun00001 }
- 316:
+            if(!backup) { _fun00002_ip = 322; continue _fun00001 }
+ 312:
             romeon = 0.8;
- 326:
+ 322:
             verify['progress'] = romeon;
             offset = yankee.bind(tangon)(offset, verify);
             verify = new Array(3);
@@ -280,15 +280,15 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             echoed = echoed[sequen];
             echoed = source.bind(tangon)(echoed);
             source = echoed.t;
-            if(output) { _fun00002_ip = 822; continue _fun00001 }
- 809:
+            if(output) { _fun00002_ip = 816; continue _fun00001 }
+ 803:
             echoed = source.ZcgDJS;
             echoed = ctrled.bind(vacuum)(echoed);
-            _fun00002_ip = 833; continue _fun00001;
- 822:
+            _fun00002_ip = 827; continue _fun00001;
+ 816:
             source = source.RscU7O;
             echoed = ctrled.bind(vacuum)(source);
- 833:
+ 827:
             backup['text'] = echoed;
             result = function() { // Original name: onPress
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -373,19 +373,19 @@ export default (function(_, argBar, argBaz, argCor, __, argFre, argPlu) {
             echoed = _closure1_slot12;
             source = _closure1_slot0;
             ctrled = _closure1_slot2;
-            if(output) { _fun00002_ip = 885; continue _fun00001 }
- 865:
+            if(output) { _fun00002_ip = 877; continue _fun00001 }
+ 857:
             output = 21;
             output = ctrled[output];
             output = source.bind(tangon)(output);
             result = output.PauseIcon;
-            _fun00002_ip = 903; continue _fun00001;
- 885:
+            _fun00002_ip = 895; continue _fun00001;
+ 877:
             output = 20;
             output = ctrled[output];
             output = source.bind(tangon)(output);
             result = output.PlayIcon;
- 903:
+ 895:
             output = {};
             source = 'md';
             output['size'] = source;

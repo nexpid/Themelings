@@ -65,16 +65,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure2_slot0;
                     entity = null;
                     entity = entity != michal;
-                    if(!entity) { _fun00004_ip = 44; continue _fun00003 }
+                    if(!entity) { _fun00004_ip = 49; continue _fun00003 }
  16:
-                    tangon = _closure2_slot0;
-                    zuuluu = tangon.hasFeature;
+                    michal = _closure2_slot0;
+                    tangon = michal.features;
+                    zuuluu = tangon.has;
                     michal = _closure1_slot9;
                     michal = michal.CREATOR_MONETIZABLE_RESTRICTED;
                     entity = zuuluu.bind(tangon)(michal);
- 44:
-                    if(!entity) { _fun00004_ip = 88; continue _fun00003 }
- 47:
+ 49:
+                    if(!entity) { _fun00004_ip = 93; continue _fun00003 }
+ 52:
                     oscard = _closure1_slot5;
                     tangon = oscard.getMonetizationRestrictionsFetchState;
                     zuuluu = _closure2_slot0;
@@ -83,9 +84,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure1_slot6;
                     michal = michal.NOT_FETCHED;
                     entity = zuuluu === michal;
- 88:
-                    if(!entity) { _fun00004_ip = 148; continue _fun00003 }
- 91:
+ 93:
+                    if(!entity) { _fun00004_ip = 153; continue _fun00003 }
+ 96:
                     zuuluu = _closure1_slot2;
                     michal = _closure1_slot3;
                     entity = 5;
@@ -99,7 +100,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure2_slot1;
                     entity['signal'] = report;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 148:
+ 153:
                     entity = undefined;
                     return entity;
                 }
@@ -209,67 +210,70 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            verify = tangon.bind(report)(zuuluu, entity, michal);
+            option = tangon.bind(report)(zuuluu, entity, michal);
             entity = _closure1_slot10;
-            entity = entity.bind(oscard)(verify);
+            entity = entity.bind(oscard)(option);
             offset = entity.restrictions;
             michal = entity.restrictionsLoading;
             entity = {};
             report = null;
-            tangon = report == verify;
+            tangon = report == option;
             zuuluu = undefined;
-            if(tangon) { _fun00010_ip = 126; continue _fun00009 }
+            if(tangon) { _fun00010_ip = 131; continue _fun00009 }
  105:
-            option = verify.hasFeature;
+            yankee = option.features;
+            verify = yankee.has;
             tangon = _closure1_slot9;
             tangon = tangon.CREATOR_MONETIZABLE;
-            zuuluu = option.bind(verify)(tangon);
- 126:
-            if(zuuluu) { _fun00010_ip = 162; continue _fun00009 }
- 129:
-            option = report == verify;
+            zuuluu = verify.bind(yankee)(tangon);
+ 131:
+            if(zuuluu) { _fun00010_ip = 172; continue _fun00009 }
+ 134:
+            verify = report == option;
             tangon = undefined;
-            if(option) { _fun00010_ip = 159; continue _fun00009 }
- 138:
-            yankee = verify.hasFeature;
-            option = _closure1_slot9;
-            option = option.CREATOR_MONETIZABLE_PROVISIONAL;
-            tangon = yankee.bind(verify)(option);
- 159:
+            if(verify) { _fun00010_ip = 169; continue _fun00009 }
+ 143:
+            romeon = option.features;
+            yankee = romeon.has;
+            verify = _closure1_slot9;
+            verify = verify.CREATOR_MONETIZABLE_PROVISIONAL;
+            tangon = yankee.bind(romeon)(verify);
+ 169:
             zuuluu = tangon;
- 162:
+ 172:
             zuuluu = !zuuluu;
-            if(zuuluu) { _fun00010_ip = 250; continue _fun00009 }
- 168:
-            if(michal) { _fun00010_ip = 204; continue _fun00009 }
- 171:
-            option = _closure1_slot0;
+            if(zuuluu) { _fun00010_ip = 265; continue _fun00009 }
+ 178:
+            if(michal) { _fun00010_ip = 214; continue _fun00009 }
+ 181:
+            verify = _closure1_slot0;
             yankee = _closure1_slot3;
             tangon = 7;
             tangon = yankee[tangon];
-            option = option.bind(oscard)(tangon);
-            tangon = option.isRestrictedFromShowingGuildPurchaseEntryPoints;
-            tangon = tangon.bind(option)(offset);
-            _fun00010_ip = 247; continue _fun00009;
- 204:
-            option = report == verify;
+            verify = verify.bind(oscard)(tangon);
+            tangon = verify.isRestrictedFromShowingGuildPurchaseEntryPoints;
+            tangon = tangon.bind(verify)(offset);
+            _fun00010_ip = 262; continue _fun00009;
+ 214:
+            verify = report == option;
             oscard = undefined;
-            if(option) { _fun00010_ip = 234; continue _fun00009 }
- 213:
-            option = verify.hasFeature;
+            if(verify) { _fun00010_ip = 249; continue _fun00009 }
+ 223:
+            verify = option.features;
+            option = verify.has;
             golfie = _closure1_slot9;
             golfie = golfie.CREATOR_MONETIZABLE_RESTRICTED;
             oscard = option.bind(verify)(golfie);
- 234:
+ 249:
             report = report == oscard;
-            if(report) { _fun00010_ip = 244; continue _fun00009 }
- 241:
+            if(report) { _fun00010_ip = 259; continue _fun00009 }
+ 256:
             report = oscard;
- 244:
+ 259:
             tangon = report;
- 247:
+ 262:
             zuuluu = tangon;
- 250:
+ 265:
             entity['shouldHideGuildPurchaseEntryPoints'] = zuuluu;
             entity['restrictionsLoading'] = michal;
             return entity;
@@ -285,9 +289,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot3;
             michal = 6;
             michal = report[michal];
-            report = undefined;
-            golfie = zuuluu.bind(report)(michal);
-            oscard = golfie.useStateFromStores;
+            oscard = undefined;
+            golfie = zuuluu.bind(oscard)(michal);
+            report = golfie.useStateFromStores;
             michal = _closure1_slot7;
             zuuluu = new Array(1);
             zuuluu[0] = michal;
@@ -300,9 +304,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            oscard = oscard.bind(golfie)(zuuluu, entity, michal);
+            report = report.bind(golfie)(zuuluu, entity, michal);
             entity = _closure1_slot10;
-            entity = entity.bind(report)(oscard);
+            entity = entity.bind(oscard)(report);
             golfie = entity.restrictions;
             michal = entity.restrictionsLoading;
             if(michal) { _fun00012_ip = 128; continue _fun00011 }
@@ -311,45 +315,47 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot3;
             entity = 7;
             entity = option[entity];
-            zuuluu = zuuluu.bind(report)(entity);
+            zuuluu = zuuluu.bind(oscard)(entity);
             entity = zuuluu.isRestrictedFromUpdatingCreatorMonetizationSettings;
             zuuluu = entity.bind(zuuluu)(golfie);
-            _fun00012_ip = 173; continue _fun00011;
+            _fun00012_ip = 178; continue _fun00011;
  128:
             entity = null;
-            golfie = entity == oscard;
-            report = undefined;
-            if(golfie) { _fun00012_ip = 160; continue _fun00011 }
+            golfie = entity == report;
+            oscard = undefined;
+            if(golfie) { _fun00012_ip = 165; continue _fun00011 }
  139:
-            option = oscard.hasFeature;
+            verify = report.features;
+            option = verify.has;
             golfie = _closure1_slot9;
             golfie = golfie.CREATOR_MONETIZABLE_RESTRICTED;
-            report = option.bind(oscard)(golfie);
- 160:
-            entity = entity == report;
-            if(entity) { _fun00012_ip = 170; continue _fun00011 }
- 167:
-            entity = report;
- 170:
-            zuuluu = entity;
- 173:
-            entity = null;
+            oscard = option.bind(verify)(golfie);
+ 165:
             entity = entity == oscard;
-            if(entity) { _fun00012_ip = 206; continue _fun00011 }
- 182:
-            report = oscard.hasFeature;
+            if(entity) { _fun00012_ip = 175; continue _fun00011 }
+ 172:
+            entity = oscard;
+ 175:
+            zuuluu = entity;
+ 178:
+            entity = null;
+            entity = entity == report;
+            if(entity) { _fun00012_ip = 216; continue _fun00011 }
+ 187:
+            oscard = report.features;
+            report = oscard.has;
             tangon = _closure1_slot9;
             tangon = tangon.CREATOR_MONETIZABLE_PENDING_NEW_OWNER_ONBOARDING;
             tangon = report.bind(oscard)(tangon);
             entity = !tangon;
- 206:
+ 216:
             report = !entity;
             entity = {};
             tangon = zuuluu;
-            if(tangon) { _fun00012_ip = 220; continue _fun00011 }
- 217:
+            if(tangon) { _fun00012_ip = 230; continue _fun00011 }
+ 227:
             tangon = report;
- 220:
+ 230:
             entity['shouldRestrictUpdatingCreatorMonetizationSettings'] = tangon;
             zuuluu = !zuuluu;
             entity['allowSelfRemoveMonetization'] = zuuluu;

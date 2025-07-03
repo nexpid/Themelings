@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = _closure2_slot4;
                 option = oscard.length;
                 oscard = _closure2_slot0;
-                if(!(!(option < oscard))) { _fun00002_ip = 179; continue _fun00001 }
+                if(!(!(option < oscard))) { _fun00002_ip = 181; continue _fun00001 }
  142:
                 option = report.setTimeout;
                 report = _closure2_slot4;
@@ -91,8 +91,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 zuuluu = option.bind(report)(zuuluu, oscard);
                 _closure2_slot3 = zuuluu;
-                _fun00002_ip = 233; continue _fun00001;
- 179:
+                _fun00002_ip = 235; continue _fun00001;
+ 181:
                 oscard = _closure2_slot4;
                 report = oscard.push;
                 zuuluu = _closure2_slot1;
@@ -108,7 +108,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 foxtra = zuuluu;
                 romeon = michal;
                 entity = apply(foxtra, romeon, yankee);
- 233:
+ 235:
                 entity = undefined;
                 return entity;
             }

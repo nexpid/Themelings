@@ -249,22 +249,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = romeon != michal;
                     entity = undefined;
                     tangon = undefined;
-                    if(!zuuluu) { _fun00008_ip = 59; continue _fun00007 }
+                    if(!zuuluu) { _fun00008_ip = 34; continue _fun00007 }
  16:
-                    golfie = _closure1_slot10;
-                    oscard = golfie.getRole;
-                    report = michal.id;
-                    option = romeon == michal;
-                    zuuluu = undefined;
-                    if(option) { _fun00008_ip = 53; continue _fun00007 }
- 43:
-                    option = michal.getEveryoneRoleId;
-                    zuuluu = option.bind(michal)();
- 53:
-                    tangon = oscard.bind(golfie)(report, zuuluu);
- 59:
-                    if(!(romeon != tangon)) { _fun00008_ip = 363; continue _fun00007 }
- 66:
+                    report = _closure1_slot10;
+                    zuuluu = report.getEveryoneRole;
+                    tangon = zuuluu.bind(report)(michal);
+ 34:
+                    if(!(romeon != tangon)) { _fun00008_ip = 338; continue _fun00007 }
+ 41:
                     zuuluu = global;
                     oscard = zuuluu.Set;
                     kiloes = michal.features;
@@ -301,10 +293,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = {};
                     golfie['features'] = yankee;
                     yankee = michal.rulesChannelId;
-                    if(!(romeon == yankee)) { _fun00008_ip = 234; continue _fun00007 }
- 230:
+                    if(!(romeon == yankee)) { _fun00008_ip = 209; continue _fun00007 }
+ 205:
                     yankee = _closure1_slot11;
- 234:
+ 209:
                     golfie['rulesChannelId'] = yankee;
                     yankee = michal.safetyAlertsChannelId;
                     golfie['safetyAlertsChannelId'] = yankee;
@@ -313,17 +305,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = michal.explicitContentFilter;
                     golfie['explicitContentFilter'] = yankee;
                     yankee = michal.publicUpdatesChannelId;
-                    if(!(romeon == yankee)) { _fun00008_ip = 286; continue _fun00007 }
- 282:
+                    if(!(romeon == yankee)) { _fun00008_ip = 261; continue _fun00007 }
+ 257:
                     yankee = _closure1_slot11;
- 286:
+ 261:
                     golfie['publicUpdatesChannelId'] = yankee;
                     yankee = michal.defaultMessageNotifications;
                     golfie['defaultMessageNotifications'] = yankee;
                     golfie = verify.bind(offset)(option, golfie);
                     tangon = tangon.permissions;
-                    if(!(report !== tangon)) { _fun00008_ip = 363; continue _fun00007 }
- 318:
+                    if(!(report !== tangon)) { _fun00008_ip = 338; continue _fun00007 }
+ 293:
                     tangon = _closure1_slot0;
                     report = _closure1_slot3;
                     zuuluu = 13;
@@ -334,7 +326,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new Array(1);
                     michal[0] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 363:
+ 338:
                     return entity;
                 }
             };

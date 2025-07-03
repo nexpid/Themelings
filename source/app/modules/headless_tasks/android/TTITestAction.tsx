@@ -1505,7 +1505,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 StartGenerator();
                 oscard = argFoo;
                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=6);
-                if(golfie) { _fun00026_ip = 1161; continue _fun00025 }
+                if(golfie) { _fun00026_ip = 1163; continue _fun00025 }
  13:
                 golfie = undefined;
                 michal = undefined;
@@ -1612,10 +1612,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 option = offset.constructor;
                 verify = {};
                 offset = null;
-                if(!(offset == kiloes)) { _fun00026_ip = 412; continue _fun00025 }
- 410:
-                kiloes = {};
+                if(!(offset == kiloes)) { _fun00026_ip = 414; continue _fun00025 }
  412:
+                kiloes = {};
+ 414:
                 offset = global;
                 backup = offset.Object;
                 foxtra = backup.keys;
@@ -1629,7 +1629,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 backup = offset.Object;
                 foxtra = backup.values;
                 yankee = foxtra.bind(backup)(kiloes);
- 478: // try_start_0 // try_start_1
+ 480: // try_start_0 // try_start_1
                 backup = zuuluu;
                 zuuluu = new Array(2);
                 vacuum = zuuluu;
@@ -1666,22 +1666,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 ctrled = report;
                 source = undefined;
                 report = apply(vacuum, ctrled, source);
-                SaveGenerator(address=609);
- 607:
-                return report;
+                SaveGenerator(address=611);
  609:
+                return report;
+ 611:
                 ResumeGenerator(result_out_reg=4, return_bool_out_reg=7);
-                if(option) { _fun00026_ip = 626; continue _fun00025 }
- 615:
+                if(option) { _fun00026_ip = 628; continue _fun00025 }
+ 617:
                 zuuluu['result'] = report;
- 621: // try_end0
-                _fun00026_ip = 834; continue _fun00025;
- 626: // try_end1
+ 623: // try_end0
+                _fun00026_ip = 836; continue _fun00025;
+ 628: // try_end1
                 zuuluu = michal;
                 option = 'string';
                 zuuluu = typeof zuuluu;
-                if(!(option === zuuluu)) { _fun00026_ip = 786; continue _fun00025 }
- 643:
+                if(!(option === zuuluu)) { _fun00026_ip = 788; continue _fun00025 }
+ 645:
                 yankee = offset.fetch;
                 option = michal;
                 zuuluu = {};
@@ -1697,18 +1697,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 romeon['Content-Type'] = foxtra;
                 zuuluu['headers'] = romeon;
                 zuuluu = yankee.bind(golfie)(option, zuuluu);
-                SaveGenerator(address=715);
- 713:
-                return zuuluu;
+                SaveGenerator(address=717);
  715:
+                return zuuluu;
+ 717:
                 ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                if(option) { _fun00026_ip = 789; continue _fun00025 }
- 721:
+                if(option) { _fun00026_ip = 791; continue _fun00025 }
+ 723:
                 tangon = zuuluu;
                 option = zuuluu.ok;
                 romeon = _closure1_slot16;
-                if(option) { _fun00026_ip = 770; continue _fun00025 }
- 737:
+                if(option) { _fun00026_ip = 772; continue _fun00025 }
+ 739:
                 foxtra = {};
                 option = tangon;
                 option = option.status;
@@ -1716,16 +1716,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 yankee = 'error';
                 option = 'Failed to send backchannel reply';
                 option = romeon.bind(golfie)(yankee, option, foxtra);
-                _fun00026_ip = 786; continue _fun00025;
- 770:
+                _fun00026_ip = 788; continue _fun00025;
+ 772:
                 yankee = 'success';
                 option = 'Backchannel reply sent';
                 option = romeon.bind(golfie)(yankee, option);
- 786:
+ 788:
                 return report;
- 789:
+ 791:
                 return zuuluu;
- 792: // try_start_2 // catch_target0
+ 794: // try_start_2 // catch_target0
                 CatchBlockStart(arg_register=10);
                 report = verify;
                 zuuluu = {};
@@ -1736,12 +1736,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 option = option.bind(golfie)(yankee);
                 zuuluu['string'] = option;
                 report['error'] = zuuluu;
- 834: // try_end2
+ 836: // try_end2
                 zuuluu = michal;
                 report = 'string';
                 zuuluu = typeof zuuluu;
-                if(!(report === zuuluu)) { _fun00026_ip = 994; continue _fun00025 }
- 851:
+                if(!(report === zuuluu)) { _fun00026_ip = 996; continue _fun00025 }
+ 853:
                 option = offset.fetch;
                 report = michal;
                 zuuluu = {};
@@ -1757,18 +1757,18 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 yankee['Content-Type'] = romeon;
                 zuuluu['headers'] = yankee;
                 zuuluu = option.bind(golfie)(report, zuuluu);
-                SaveGenerator(address=923);
- 921:
-                return zuuluu;
+                SaveGenerator(address=925);
  923:
+                return zuuluu;
+ 925:
                 ResumeGenerator(result_out_reg=2, return_bool_out_reg=4);
-                if(report) { _fun00026_ip = 997; continue _fun00025 }
- 929:
+                if(report) { _fun00026_ip = 999; continue _fun00025 }
+ 931:
                 tangon = zuuluu;
                 report = zuuluu.ok;
                 yankee = _closure1_slot16;
-                if(report) { _fun00026_ip = 978; continue _fun00025 }
- 945:
+                if(report) { _fun00026_ip = 980; continue _fun00025 }
+ 947:
                 romeon = {};
                 report = tangon;
                 report = report.status;
@@ -1776,22 +1776,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 option = 'error';
                 report = 'Failed to send backchannel reply';
                 report = yankee.bind(golfie)(option, report, romeon);
-                _fun00026_ip = 994; continue _fun00025;
- 978:
+                _fun00026_ip = 996; continue _fun00025;
+ 980:
                 option = 'success';
                 report = 'Backchannel reply sent';
                 report = yankee.bind(golfie)(option, report);
- 994:
+ 996:
                 return golfie;
- 997:
+ 999:
                 return zuuluu;
- 1000: // catch_target1 // catch_target2
+ 1002: // catch_target1 // catch_target2
                 CatchBlockStart(arg_register=2);
                 report = michal;
                 option = 'string';
                 report = typeof report;
-                if(!(option === report)) { _fun00026_ip = 1156; continue _fun00025 }
- 1019:
+                if(!(option === report)) { _fun00026_ip = 1158; continue _fun00025 }
+ 1021:
                 option = offset.fetch;
                 report = michal;
                 michal = {};
@@ -1806,34 +1806,34 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, _, argPlu) {
                 verify['Content-Type'] = offset;
                 michal['headers'] = verify;
                 michal = option.bind(golfie)(report, michal);
-                SaveGenerator(address=1088);
- 1086:
-                return michal;
+                SaveGenerator(address=1090);
  1088:
+                return michal;
+ 1090:
                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                if(report) { _fun00026_ip = 1158; continue _fun00025 }
- 1094:
+                if(report) { _fun00026_ip = 1160; continue _fun00025 }
+ 1096:
                 tangon = michal;
                 report = michal.ok;
                 oscard = _closure1_slot16;
-                if(report) { _fun00026_ip = 1140; continue _fun00025 }
- 1110:
+                if(report) { _fun00026_ip = 1142; continue _fun00025 }
+ 1112:
                 option = {};
                 tangon = tangon.status;
                 option['status'] = tangon;
                 report = 'error';
                 tangon = 'Failed to send backchannel reply';
                 tangon = oscard.bind(golfie)(report, tangon, option);
-                _fun00026_ip = 1156; continue _fun00025;
- 1140:
+                _fun00026_ip = 1158; continue _fun00025;
+ 1142:
                 report = 'success';
                 tangon = 'Backchannel reply sent';
                 tangon = oscard.bind(golfie)(report, tangon);
- 1156:
-                throw zuuluu;
  1158:
+                throw zuuluu;
+ 1160:
                 return michal;
- 1161:
+ 1163:
                 return entity;
             }
         };

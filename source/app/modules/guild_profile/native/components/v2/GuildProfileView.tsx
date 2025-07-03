@@ -52,13 +52,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             golfie = entity.guildProfile;
             var _closure2_slot0 = golfie;
-            oscard = _closure1_slot0;
-            report = _closure1_slot2;
+            report = _closure1_slot0;
+            oscard = _closure1_slot2;
             zuuluu = 10;
-            zuuluu = report[zuuluu];
+            zuuluu = oscard[zuuluu];
             tangon = undefined;
-            option = oscard.bind(tangon)(zuuluu);
-            oscard = option.useStateFromStores;
+            option = report.bind(tangon)(zuuluu);
+            report = option.useStateFromStores;
             verify = _closure1_slot6;
             zuuluu = new Array(1);
             zuuluu[0] = verify;
@@ -86,34 +86,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            verify = oscard.bind(option)(zuuluu, michal);
-            zuuluu = _closure1_slot1;
-            michal = 12;
-            michal = report[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            michal = michal.bind(tangon)();
-            option = michal.width;
-            michal = _closure1_slot10;
-            oscard = michal.bind(tangon)();
+            michal = report.bind(option)(zuuluu, michal);
+            report = _closure1_slot1;
+            zuuluu = 12;
+            zuuluu = oscard[zuuluu];
+            zuuluu = report.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.bind(tangon)();
+            option = zuuluu.width;
+            zuuluu = _closure1_slot10;
+            oscard = zuuluu.bind(tangon)();
             zuuluu = null;
-            if(!(zuuluu != verify)) { _fun00004_ip = 141; continue _fun00003 }
+            if(!(zuuluu != michal)) { _fun00004_ip = 146; continue _fun00003 }
  107:
-            report = verify.hasFeature;
+            verify = michal.features;
+            report = verify.has;
             michal = _closure1_slot7;
             michal = michal.DISCOVERABLE;
             michal = report.bind(verify)(michal);
-            if(!michal) { _fun00004_ip = 141; continue _fun00003 }
- 131:
+            if(!michal) { _fun00004_ip = 146; continue _fun00003 }
+ 136:
             michal = golfie.customBanner;
-            if(!(zuuluu == michal)) { _fun00004_ip = 164; continue _fun00003 }
- 141:
+            if(!(zuuluu == michal)) { _fun00004_ip = 169; continue _fun00003 }
+ 146:
             report = _closure1_slot8;
             zuuluu = _closure1_slot14;
             michal = {};
             michal['guildProfile'] = golfie;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 164:
+ 169:
             verify = _closure1_slot1;
             offset = _closure1_slot2;
             michal = 13;

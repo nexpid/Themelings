@@ -65,7 +65,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = romeon.bind(foxtra)(option, golfie);
  222:
             entity['title'] = oscard;
-            if(!report) { _fun00002_ip = 400; continue _fun00001 }
+            if(!report) { _fun00002_ip = 398; continue _fun00001 }
  232:
             option = _closure1_slot10;
             foxtra = _closure1_slot1;
@@ -102,7 +102,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                     michal = _closure2_slot1;
-                    if(!michal) { _fun00004_ip = 86; continue _fun00003 }
+                    if(!michal) { _fun00004_ip = 84; continue _fun00003 }
  10:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
@@ -131,7 +131,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity['onClose'] = report;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 86:
+ 84:
                     entity = undefined;
                     return entity;
                 }
@@ -140,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = true;
             oscard['shrink'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 400:
+ 398:
             entity['trailing'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
@@ -250,10 +250,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = kiloes.id;
         result = zuuluu.bind(tangon)(michal);
         var _closure2_slot1 = result;
-        zuuluu = kiloes.hasFeature;
+        report = kiloes.features;
+        zuuluu = report.has;
         michal = _closure1_slot8;
         michal = michal.HUB;
-        yankee = zuuluu.bind(kiloes)(michal);
+        yankee = zuuluu.bind(report)(michal);
         var _closure2_slot2 = yankee;
         michal = _closure1_slot11;
         verify = michal.bind(tangon)();

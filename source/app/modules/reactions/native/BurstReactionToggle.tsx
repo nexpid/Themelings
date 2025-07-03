@@ -148,27 +148,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = verify[tangon];
                     tangon = option.bind(report)(tangon);
                     option = tangon.colors;
-                    if(michal) { _fun00004_ip = 116; continue _fun00003 }
- 108:
+                    if(michal) { _fun00004_ip = 118; continue _fun00003 }
+ 110:
                     tangon = option.INPUT_BACKGROUND;
-                    _fun00004_ip = 122; continue _fun00003;
- 116:
+                    _fun00004_ip = 124; continue _fun00003;
+ 118:
                     tangon = option.BG_BRAND;
- 122:
+ 124:
                     tangon = oscard.bind(golfie)(tangon);
                     oscard = null;
                     oscard = oscard != tangon;
                     option = '';
-                    if(!oscard) { _fun00004_ip = 143; continue _fun00003 }
- 140:
+                    if(!oscard) { _fun00004_ip = 145; continue _fun00003 }
+ 142:
                     option = tangon;
- 143:
+ 145:
                     var _closure3_slot1 = option;
                     oscard = 0;
-                    if(!michal) { _fun00004_ip = 158; continue _fun00003 }
- 152:
+                    if(!michal) { _fun00004_ip = 160; continue _fun00003 }
+ 154:
                     oscard = 360;
- 158:
+ 160:
                     var _closure3_slot2 = oscard;
                     tangon = _closure1_slot0;
                     offset = _closure1_slot2;
@@ -301,15 +301,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = kiloes[report];
             report = golfie.bind(tangon)(report);
             golfie = report.t;
-            if(oscard) { _fun00002_ip = 228; continue _fun00001 }
- 213:
+            if(oscard) { _fun00002_ip = 232; continue _fun00001 }
+ 217:
             report = golfie.buV4am;
             report = yankee.bind(backup)(report);
-            _fun00002_ip = 241; continue _fun00001;
- 228:
+            _fun00002_ip = 245; continue _fun00001;
+ 232:
             golfie = golfie.5cRA/f;
             report = yankee.bind(backup)(golfie);
- 241:
+ 245:
             entity['accessibilityLabel'] = report;
             report = 'switch';
             entity['accessibilityRole'] = report;

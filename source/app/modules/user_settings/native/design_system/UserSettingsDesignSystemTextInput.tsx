@@ -475,7 +475,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = foxtra.TextInput;
         foxtra = {'label': 'Input Label', 'placeholder': 'Placeholder text', 'description': 'Descriptions give context for the input.', 'errorMessage': 'Error messages communicate invalid states.'};
         backup = sizing.bind(tangon)(backup, foxtra);
-        foxtra = new Array(3);
+        foxtra = new Array(4);
         foxtra[0] = backup;
         update = _closure1_slot6;
         sizing = 13;
@@ -492,6 +492,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = {'label': 'Password', 'secureTextEntry': true, 'placeholder': 'Password', 'isClearable': true};
         backup = update.bind(tangon)(echoed, backup);
         foxtra[2] = backup;
+        update = _closure1_slot6;
+        backup = romeon[output];
+        backup = offset.bind(tangon)(backup);
+        echoed = backup.TextInput;
+        backup = {'label': 'Required Field', 'placeholder': 'Placeholder', 'description': 'Required inputs are indicated with an asterisk.', 'required': true};
+        backup = update.bind(tangon)(echoed, backup);
+        foxtra[3] = backup;
         option['children'] = foxtra;
         verify = verify.bind(tangon)(kiloes, option);
         option = new Array(40);

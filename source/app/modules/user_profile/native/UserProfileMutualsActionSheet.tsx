@@ -141,8 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['size'] = offset;
             oscard = option.bind(report)(golfie, oscard);
             michal['leading'] = oscard;
-            oscard = entity.toString;
-            oscard = oscard.bind(entity)();
+            oscard = entity.name;
             michal['label'] = oscard;
             option = _closure1_slot10;
             golfie = _closure1_slot5;
@@ -150,8 +149,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify.mutualGuildSubLabel;
             oscard['style'] = verify;
             offset = romeon;
-            if(!romeon) { _fun00002_ip = 279; continue _fun00001 }
- 205:
+            if(!romeon) { _fun00002_ip = 275; continue _fun00001 }
+ 201:
             sizing = _closure1_slot9;
             kiloes = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -169,13 +168,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = entity.id;
             verify['guildId'] = output;
             offset = sizing.bind(report)(kiloes, verify);
- 279:
+ 275:
             verify = new Array(3);
             verify[0] = offset;
             offset = null;
             kiloes = offset != foxtra;
-            if(!kiloes) { _fun00002_ip = 349; continue _fun00001 }
- 296:
+            if(!kiloes) { _fun00002_ip = 345; continue _fun00001 }
+ 292:
             result = _closure1_slot9;
             output = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -186,15 +185,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = {'variant': 'text-xs/medium', 'color': 'text-secondary'};
             sizing['children'] = foxtra;
             kiloes = result.bind(report)(output, sizing);
- 349:
+ 345:
             verify[1] = kiloes;
             offset = offset == foxtra;
-            if(!offset) { _fun00002_ip = 363; continue _fun00001 }
- 360:
+            if(!offset) { _fun00002_ip = 359; continue _fun00001 }
+ 356:
             offset = romeon;
- 363:
-            if(!offset) { _fun00002_ip = 424; continue _fun00001 }
- 366:
+ 359:
+            if(!offset) { _fun00002_ip = 420; continue _fun00001 }
+ 362:
             foxtra = _closure1_slot9;
             romeon = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -206,7 +205,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.username;
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 424:
+ 420:
             verify[2] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);

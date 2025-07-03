@@ -57,11 +57,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = report.getIsActivitiesEnabledForCurrentPlatform;
             yankee = entity.bind(report)();
             entity = null;
-            if(!(entity != sizing)) { _fun00002_ip = 614; continue _fun00001 }
+            if(!(entity != sizing)) { _fun00002_ip = 622; continue _fun00001 }
  122:
             if(!michal) { _fun00002_ip = 132; continue _fun00001 }
  125:
-            if(!(entity == backup)) { _fun00002_ip = 504; continue _fun00001 }
+            if(!(entity == backup)) { _fun00002_ip = 512; continue _fun00001 }
  132:
             if(!michal) { _fun00002_ip = 182; continue _fun00001 }
  135:
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = echoed.isFriend;
             michal = sizing.id;
             michal = report.bind(echoed)(michal);
-            if(michal) { _fun00002_ip = 500; continue _fun00001 }
+            if(michal) { _fun00002_ip = 508; continue _fun00001 }
  283:
             report = _closure1_slot1;
             michal = _closure1_slot2;
@@ -125,50 +125,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = output.getVoiceChannelId;
             michal = michal.bind(output)();
             output = report.bind(offset)(michal);
-            if(!(entity != output)) { _fun00002_ip = 496; continue _fun00001 }
+            if(!(entity != output)) { _fun00002_ip = 504; continue _fun00001 }
  350:
             result = verify.isInChannel;
             report = output.id;
             michal = sizing.id;
             michal = result.bind(verify)(report, michal);
-            if(!michal) { _fun00002_ip = 496; continue _fun00001 }
- 375:
+            if(!michal) { _fun00002_ip = 504; continue _fun00001 }
+ 378:
             report = output.type;
             michal = _closure1_slot4;
             michal = michal.DM;
-            if(!(michal !== report)) { _fun00002_ip = 492; continue _fun00001 }
- 394:
+            if(!(michal !== report)) { _fun00002_ip = 500; continue _fun00001 }
+ 397:
             michal = _closure1_slot4;
             michal = michal.GROUP_DM;
-            if(!(michal !== report)) { _fun00002_ip = 492; continue _fun00001 }
- 408:
+            if(!(michal !== report)) { _fun00002_ip = 500; continue _fun00001 }
+ 411:
             report = golfie.getGuild;
             michal = output.getGuildId;
             michal = michal.bind(output)();
             michal = report.bind(golfie)(michal);
-            if(!(entity != michal)) { _fun00002_ip = 488; continue _fun00001 }
- 432:
-            output = michal.hasFeature;
+            if(!(entity != michal)) { _fun00002_ip = 496; continue _fun00001 }
+ 435:
+            result = michal.features;
+            output = result.has;
             report = _closure1_slot5;
             report = report.COMMUNITY;
-            report = output.bind(michal)(report);
-            if(report) { _fun00002_ip = 488; continue _fun00001 }
- 456:
+            report = output.bind(result)(report);
+            if(report) { _fun00002_ip = 496; continue _fun00001 }
+ 464:
             report = oscard.getMemberCount;
             michal = michal.id;
             report = report.bind(oscard)(michal);
             entity = entity != report;
-            if(!entity) { _fun00002_ip = 486; continue _fun00001 }
- 479:
+            if(!entity) { _fun00002_ip = 494; continue _fun00001 }
+ 487:
             michal = 100;
             entity = report < michal;
- 486:
-            return entity;
- 488:
-            entity = false;
-            return entity;
- 492:
-            entity = true;
+ 494:
             return entity;
  496:
             entity = false;
@@ -177,6 +172,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = true;
             return entity;
  504:
+            entity = false;
+            return entity;
+ 508:
+            entity = true;
+            return entity;
+ 512:
             oscard = _closure1_slot1;
             report = _closure1_slot2;
             entity = 2;
@@ -202,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = entity.CAN_JOIN;
             entity = michal === entity;
             return entity;
- 614:
+ 622:
             entity = false;
             return entity;
         }

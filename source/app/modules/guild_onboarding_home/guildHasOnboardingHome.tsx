@@ -30,45 +30,48 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) { // Original name: guildHasOnboardingHome
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            tangon = argFoo;
+            michal = argFoo;
             entity = null;
-            entity = entity == tangon;
+            entity = entity == michal;
             if(entity) { _fun00002_ip = 28; continue _fun00001 }
  12:
-            zuuluu = tangon.id;
-            michal = _closure1_slot2;
-            entity = zuuluu === michal;
+            tangon = michal.id;
+            zuuluu = _closure1_slot2;
+            entity = tangon === zuuluu;
  28:
             if(entity) { _fun00002_ip = 47; continue _fun00001 }
  31:
-            zuuluu = tangon.id;
-            michal = _closure1_slot1;
-            entity = zuuluu === michal;
+            tangon = michal.id;
+            zuuluu = _closure1_slot1;
+            entity = tangon === zuuluu;
  47:
-            if(entity) { _fun00002_ip = 77; continue _fun00001 }
+            if(entity) { _fun00002_ip = 82; continue _fun00001 }
  50:
-            zuuluu = tangon.hasFeature;
-            michal = _closure1_slot0;
-            michal = michal.COMMUNITY;
-            michal = zuuluu.bind(tangon)(michal);
-            entity = !michal;
- 77:
-            if(entity) { _fun00002_ip = 107; continue _fun00001 }
- 80:
-            zuuluu = tangon.hasFeature;
-            michal = _closure1_slot0;
-            michal = michal.GUILD_SERVER_GUIDE;
-            michal = zuuluu.bind(tangon)(michal);
-            entity = !michal;
- 107:
-            if(entity) { _fun00002_ip = 137; continue _fun00001 }
- 110:
-            zuuluu = tangon.hasFeature;
+            report = michal.features;
+            tangon = report.has;
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.COMMUNITY;
+            zuuluu = tangon.bind(report)(zuuluu);
+            entity = !zuuluu;
+ 82:
+            if(entity) { _fun00002_ip = 117; continue _fun00001 }
+ 85:
+            report = michal.features;
+            tangon = report.has;
+            zuuluu = _closure1_slot0;
+            zuuluu = zuuluu.GUILD_SERVER_GUIDE;
+            zuuluu = tangon.bind(report)(zuuluu);
+            entity = !zuuluu;
+ 117:
+            if(entity) { _fun00002_ip = 152; continue _fun00001 }
+ 120:
+            tangon = michal.features;
+            zuuluu = tangon.has;
             michal = _closure1_slot0;
             michal = michal.GUILD_ONBOARDING;
             michal = zuuluu.bind(tangon)(michal);
             entity = !michal;
- 137:
+ 152:
             entity = !entity;
             return entity;
         }

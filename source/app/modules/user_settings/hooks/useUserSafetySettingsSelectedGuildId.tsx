@@ -79,21 +79,22 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            report = report.bind(oscard)(tangon, entity);
+            tangon = report.bind(oscard)(tangon, entity);
             entity = null;
-            tangon = entity == report;
-            if(tangon) { _fun00002_ip = 99; continue _fun00001 }
+            report = entity == tangon;
+            if(report) { _fun00002_ip = 104; continue _fun00001 }
  78:
-            tangon = report.hasFeature;
+            report = tangon.features;
+            tangon = report.has;
             zuuluu = _closure1_slot5;
             zuuluu = zuuluu.HUB;
             michal = tangon.bind(report)(zuuluu);
- 99:
+ 104:
             entity = entity != michal;
-            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
- 106:
+            if(!entity) { _fun00002_ip = 114; continue _fun00001 }
+ 111:
             entity = michal;
- 109:
+ 114:
             return entity;
         }
     };

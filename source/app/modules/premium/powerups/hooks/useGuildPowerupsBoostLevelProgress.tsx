@@ -95,17 +95,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = _closure1_slot3;
                     zuuluu = tangon.getGuild;
                     michal = _closure2_slot0;
-                    tangon = zuuluu.bind(tangon)(michal);
+                    zuuluu = zuuluu.bind(tangon)(michal);
                     michal = null;
-                    zuuluu = michal == tangon;
+                    tangon = michal == zuuluu;
                     michal = undefined;
-                    if(zuuluu) { _fun00006_ip = 56; continue _fun00005 }
+                    if(tangon) { _fun00006_ip = 61; continue _fun00005 }
  35:
-                    zuuluu = tangon.hasFeature;
+                    tangon = zuuluu.features;
+                    zuuluu = tangon.has;
                     entity = _closure1_slot6;
                     entity = entity.PREMIUM_TIER_3_OVERRIDE;
                     michal = zuuluu.bind(tangon)(entity);
- 56:
+ 61:
                     entity = true;
                     entity = entity === michal;
                     return entity;

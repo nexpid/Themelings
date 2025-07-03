@@ -158,13 +158,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = zuuluu.getCurrentUser;
                         report = michal.bind(zuuluu)();
                         michal = null;
-                        michal = michal != report;
-                        if(!michal) { _fun00006_ip = 31; continue _fun00005 }
+                        michal = michal == report;
+                        if(michal) { _fun00006_ip = 34; continue _fun00005 }
  25:
-                        michal = report.verified;
- 31:
-                        if(!michal) { _fun00006_ip = 70; continue _fun00005 }
+                        zuuluu = report.verified;
+                        michal = !zuuluu;
  34:
+                        if(michal) { _fun00006_ip = 70; continue _fun00005 }
+ 37:
                         oscard = _closure1_slot0;
                         tangon = _closure1_slot2;
                         zuuluu = 8;
@@ -172,16 +173,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         zuuluu = undefined;
                         tangon = oscard.bind(zuuluu)(tangon);
                         zuuluu = tangon.isPremium;
-                        zuuluu = zuuluu.bind(tangon)(report);
-                        michal = !zuuluu;
+                        michal = zuuluu.bind(tangon)(report);
  70:
-                        if(!michal) { _fun00006_ip = 87; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 87; continue _fun00005 }
  73:
                         tangon = _closure1_slot9;
-                        zuuluu = tangon.shouldFetchOffer;
+                        zuuluu = tangon.isFetchingOffer;
                         michal = zuuluu.bind(tangon)();
  87:
-                        if(!michal) { _fun00006_ip = 122; continue _fun00005 }
+                        if(michal) { _fun00006_ip = 122; continue _fun00005 }
  90:
                         zuuluu = _closure1_slot1;
                         michal = _closure1_slot2;

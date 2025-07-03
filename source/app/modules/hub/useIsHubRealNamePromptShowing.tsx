@@ -82,52 +82,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = null;
                 oscard = entity == zuuluu;
                 report = undefined;
-                if(oscard) { _fun00002_ip = 56; continue _fun00001 }
+                if(oscard) { _fun00002_ip = 61; continue _fun00001 }
  35:
-                golfie = zuuluu.hasFeature;
+                option = zuuluu.features;
+                golfie = option.has;
                 oscard = _closure1_slot8;
                 oscard = oscard.HUB;
-                report = golfie.bind(zuuluu)(oscard);
- 56:
+                report = golfie.bind(option)(oscard);
+ 61:
                 oscard = true;
-                if(!(oscard === report)) { _fun00002_ip = 176; continue _fun00001 }
- 62:
+                if(!(oscard === report)) { _fun00002_ip = 181; continue _fun00001 }
+ 67:
                 verify = _closure1_slot4;
                 option = verify.hasViewedPrompt;
                 report = _closure1_slot9;
                 golfie = report.REAL_NAME_PROMPT;
                 report = zuuluu.id;
                 report = option.bind(verify)(golfie, report);
-                if(!(oscard !== report)) { _fun00002_ip = 174; continue _fun00001 }
- 99:
+                if(!(oscard !== report)) { _fun00002_ip = 179; continue _fun00001 }
+ 104:
                 oscard = _closure1_slot7;
                 report = oscard.getCurrentUser;
                 golfie = report.bind(oscard)();
-                if(!(entity != golfie)) { _fun00002_ip = 172; continue _fun00001 }
- 116:
+                if(!(entity != golfie)) { _fun00002_ip = 177; continue _fun00001 }
+ 121:
                 oscard = _closure1_slot5;
                 report = oscard.getMember;
                 tangon = zuuluu.id;
                 option = entity == golfie;
                 zuuluu = undefined;
-                if(option) { _fun00002_ip = 145; continue _fun00001 }
- 140:
-                zuuluu = golfie.id;
+                if(option) { _fun00002_ip = 150; continue _fun00001 }
  145:
+                zuuluu = golfie.id;
+ 150:
                 zuuluu = report.bind(oscard)(tangon, zuuluu);
                 tangon = entity == zuuluu;
                 michal = undefined;
-                if(tangon) { _fun00002_ip = 166; continue _fun00001 }
- 160:
+                if(tangon) { _fun00002_ip = 171; continue _fun00001 }
+ 165:
                 michal = zuuluu.nick;
- 166:
+ 171:
                 michal = entity == michal;
                 return michal;
- 172:
+ 177:
                 return entity;
- 174:
+ 179:
                 return entity;
- 176:
+ 181:
                 return entity;
             }
         };

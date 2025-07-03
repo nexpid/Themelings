@@ -174,7 +174,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 693; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 697; continue _fun00003 }
  12:
                     michal = _closure2_slot2;
                     romeon = michal.current;
@@ -200,10 +200,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     golfie = zuuluu.bind(tangon)(michal);
                     yankee = null;
-                    if(!(yankee != golfie)) { _fun00004_ip = 676; continue _fun00003 }
- 57:
-                    if(!(yankee != romeon)) { _fun00004_ip = 676; continue _fun00003 }
- 64:
+                    if(!(yankee != golfie)) { _fun00004_ip = 680; continue _fun00003 }
+ 59:
+                    if(!(yankee != romeon)) { _fun00004_ip = 680; continue _fun00003 }
+ 66:
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
                     foxtra = 4;
@@ -213,13 +213,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = tangon.measureViewRefInWindow;
                     michal = golfie.ref;
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=109);
- 107:
-                    return michal;
+                    SaveGenerator(address=111);
  109:
+                    return michal;
+ 111:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 690; continue _fun00003 }
- 118:
+                    if(zuuluu) { _fun00004_ip = 694; continue _fun00003 }
+ 120:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
                     zuuluu = zuuluu[foxtra];
@@ -227,30 +227,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = offset.measureViewRefInView;
                     zuuluu = golfie.ref;
                     zuuluu = tangon.bind(offset)(zuuluu, romeon);
-                    SaveGenerator(address=156);
- 154:
-                    return zuuluu;
+                    SaveGenerator(address=158);
  156:
+                    return zuuluu;
+ 158:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 687; continue _fun00003 }
- 165:
-                    if(!(yankee != michal)) { _fun00004_ip = 676; continue _fun00003 }
- 172:
-                    if(!(yankee != zuuluu)) { _fun00004_ip = 676; continue _fun00003 }
- 179:
+                    if(tangon) { _fun00004_ip = 691; continue _fun00003 }
+ 167:
+                    if(!(yankee != michal)) { _fun00004_ip = 680; continue _fun00003 }
+ 174:
+                    if(!(yankee != zuuluu)) { _fun00004_ip = 680; continue _fun00003 }
+ 181:
                     offset = _closure1_slot0;
                     tangon = _closure1_slot2;
                     tangon = tangon[foxtra];
                     offset = offset.bind(option)(tangon);
                     tangon = offset.measureViewInWindow;
                     tangon = tangon.bind(offset)(romeon);
-                    SaveGenerator(address=211);
- 209:
-                    return tangon;
+                    SaveGenerator(address=213);
  211:
+                    return tangon;
+ 213:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                    if(offset) { _fun00004_ip = 684; continue _fun00003 }
- 220:
+                    if(offset) { _fun00004_ip = 688; continue _fun00003 }
+ 222:
                     golfie = golfie.offset;
                     report = function() { // Original name: calculateScrollOffset
                         entity = undefined;
@@ -263,29 +263,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return entity;
                     };
                     report = report.bind(option)(golfie, michal);
-                    SaveGenerator(address=241);
- 239:
+                    SaveGenerator(address=245);
+ 243:
                     return report;
- 241:
+ 245:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=6);
-                    if(golfie) { _fun00004_ip = 681; continue _fun00003 }
- 250:
+                    if(golfie) { _fun00004_ip = 685; continue _fun00003 }
+ 254:
                     backup = global;
                     golfie = backup.Number;
                     golfie = golfie.MAX_SAFE_INTEGER;
-                    if(!(report === golfie)) { _fun00004_ip = 309; continue _fun00003 }
- 268:
+                    if(!(report === golfie)) { _fun00004_ip = 313; continue _fun00003 }
+ 272:
                     golfie = _closure2_slot2;
                     romeon = golfie.current;
-                    if(!(yankee != romeon)) { _fun00004_ip = 676; continue _fun00003 }
- 284:
+                    if(!(yankee != romeon)) { _fun00004_ip = 680; continue _fun00003 }
+ 288:
                     offset = romeon.scrollToEnd;
                     golfie = {};
                     foxtra = true;
                     golfie['animated'] = foxtra;
                     golfie = offset.bind(romeon)(golfie);
-                    _fun00004_ip = 676; continue _fun00003;
- 309:
+                    _fun00004_ip = 680; continue _fun00003;
+ 313:
                     golfie = {};
                     offset = _closure2_slot0;
                     golfie['insets'] = offset;
@@ -320,8 +320,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = golfie.scrollOffset;
                     kiloes = kiloes + offset;
                     offset = undefined;
-                    if(!(!(kiloes <= romeon))) { _fun00004_ip = 552; continue _fun00003 }
- 468:
+                    if(!(!(kiloes <= romeon))) { _fun00004_ip = 556; continue _fun00003 }
+ 472:
                     kiloes = backup.Math;
                     backup = kiloes.max;
                     foxtra = foxtra - romeon;
@@ -338,60 +338,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = golfie.scrollOffset;
                     golfie = foxtra + golfie;
                     offset = undefined;
-                    if(!(!(golfie <= romeon))) { _fun00004_ip = 552; continue _fun00003 }
- 548:
-                    offset = golfie - romeon;
+                    if(!(!(golfie <= romeon))) { _fun00004_ip = 556; continue _fun00003 }
  552:
-                    if(!(yankee != offset)) { _fun00004_ip = 676; continue _fun00003 }
+                    offset = golfie - romeon;
  556:
+                    if(!(yankee != offset)) { _fun00004_ip = 680; continue _fun00003 }
+ 560:
                     golfie = _closure2_slot2;
                     backup = golfie.current;
                     romeon = yankee == backup;
                     oscard = undefined;
-                    if(romeon) { _fun00004_ip = 616; continue _fun00003 }
- 574:
+                    if(romeon) { _fun00004_ip = 620; continue _fun00003 }
+ 578:
                     romeon = backup.scrollTo;
                     romeon = yankee == romeon;
                     oscard = undefined;
-                    if(romeon) { _fun00004_ip = 616; continue _fun00003 }
- 589:
+                    if(romeon) { _fun00004_ip = 620; continue _fun00003 }
+ 593:
                     foxtra = backup.scrollTo;
                     romeon = {'x': 0, 'y': null, 'animated': true};
                     romeon['y'] = offset;
                     oscard = foxtra.bind(backup)(romeon);
- 616:
+ 620:
                     oscard = yankee != oscard;
                     option = undefined;
-                    if(oscard) { _fun00004_ip = 637; continue _fun00003 }
- 625:
+                    if(oscard) { _fun00004_ip = 641; continue _fun00003 }
+ 629:
                     golfie = golfie.current;
                     oscard = yankee == golfie;
                     option = golfie;
- 637:
-                    if(oscard) { _fun00004_ip = 650; continue _fun00003 }
- 640:
+ 641:
+                    if(oscard) { _fun00004_ip = 654; continue _fun00003 }
+ 644:
                     golfie = option.scrollToOffset;
                     oscard = yankee == golfie;
- 650:
-                    if(oscard) { _fun00004_ip = 676; continue _fun00003 }
- 653:
+ 654:
+                    if(oscard) { _fun00004_ip = 680; continue _fun00003 }
+ 657:
                     golfie = option.scrollToOffset;
                     oscard = {};
                     oscard['offset'] = offset;
                     oscard['animated'] = verify;
                     oscard = golfie.bind(option)(oscard);
- 676:
+ 680:
                     oscard = undefined;
                     return oscard;
- 681:
+ 685:
                     return report;
- 684:
+ 688:
                     return tangon;
- 687:
+ 691:
                     return zuuluu;
- 690:
+ 694:
                     return michal;
- 693:
+ 697:
                     return entity;
                 }
             };

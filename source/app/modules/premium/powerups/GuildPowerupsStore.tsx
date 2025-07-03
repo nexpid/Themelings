@@ -54,32 +54,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = offset == yankee;
             verify = undefined;
             zuuluu = undefined;
-            if(entity) { _fun00004_ip = 54; continue _fun00003 }
+            if(entity) { _fun00004_ip = 59; continue _fun00003 }
  33:
-            michal = yankee.hasFeature;
+            tangon = yankee.features;
+            michal = tangon.has;
             entity = _closure1_slot10;
             entity = entity.PREMIUM_TIER_3_OVERRIDE;
-            zuuluu = michal.bind(yankee)(entity);
- 54:
+            zuuluu = michal.bind(tangon)(entity);
+ 59:
             option = 0;
             michal = true;
             entity = 0;
-            if(!(michal !== zuuluu)) { _fun00004_ip = 101; continue _fun00003 }
- 64:
+            if(!(michal !== zuuluu)) { _fun00004_ip = 106; continue _fun00003 }
+ 69:
             zuuluu = _closure1_slot8;
             tangon = offset == yankee;
             michal = undefined;
-            if(tangon) { _fun00004_ip = 83; continue _fun00003 }
- 77:
+            if(tangon) { _fun00004_ip = 88; continue _fun00003 }
+ 82:
             michal = yankee.premiumTier;
- 83:
-            if(!(offset == michal)) { _fun00004_ip = 97; continue _fun00003 }
- 87:
+ 88:
+            if(!(offset == michal)) { _fun00004_ip = 102; continue _fun00003 }
+ 92:
             tangon = _closure1_slot9;
             michal = tangon.NONE;
- 97:
+ 102:
             entity = zuuluu[michal];
- 101:
+ 106:
             michal = global;
             tangon = michal.Object;
             zuuluu = tangon.entries;
@@ -92,30 +93,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = entity;
             zuuluu = 0;
             entity = tangon;
-            if(!michal) { _fun00004_ip = 218; continue _fun00003 }
- 150:
+            if(!michal) { _fun00004_ip = 228; continue _fun00003 }
+ 155:
             foxtra = golfie[zuuluu];
             michal = _closure1_slot5;
             michal = michal.bind(verify)(foxtra, oscard);
-            kiloes = michal[option];
+            sizing = michal[option];
             michal = michal[report];
             backup = offset != yankee;
-            if(!backup) { _fun00004_ip = 190; continue _fun00003 }
- 179:
-            foxtra = yankee.hasFeature;
-            backup = foxtra.bind(yankee)(kiloes);
- 190:
-            foxtra = tangon;
             if(!backup) { _fun00004_ip = 200; continue _fun00003 }
- 196:
-            foxtra = tangon + michal;
+ 184:
+            kiloes = yankee.features;
+            foxtra = kiloes.has;
+            backup = foxtra.bind(kiloes)(sizing);
  200:
+            foxtra = tangon;
+            if(!backup) { _fun00004_ip = 210; continue _fun00003 }
+ 206:
+            foxtra = tangon + michal;
+ 210:
             zuuluu = zuuluu + 1;
             michal = golfie.length;
             tangon = foxtra;
             entity = tangon;
-            if(zuuluu < michal) { _fun00004_ip = 150; continue _fun00003 }
- 218:
+            if(zuuluu < michal) { _fun00004_ip = 155; continue _fun00003 }
+ 228:
             return entity;
         }
     };

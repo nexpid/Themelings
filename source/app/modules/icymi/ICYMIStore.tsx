@@ -303,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(oscard)(zuuluu);
             zuuluu = tangon.isGuildItem;
             zuuluu = zuuluu.bind(tangon)(michal);
-            if(!zuuluu) { _fun00012_ip = 157; continue _fun00011 }
+            if(!zuuluu) { _fun00012_ip = 162; continue _fun00011 }
  63:
             zuuluu = michal.data;
             tangon = zuuluu.guild_id;
@@ -313,28 +313,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = golfie[zuuluu];
             zuuluu = report.bind(oscard)(zuuluu);
             zuuluu = zuuluu.GAME_CONTENT_GUILD_ID;
-            if(!(tangon !== zuuluu)) { _fun00012_ip = 165; continue _fun00011 }
+            if(!(tangon !== zuuluu)) { _fun00012_ip = 170; continue _fun00011 }
  103:
             tangon = _closure1_slot19;
             zuuluu = tangon.getGuild;
             michal = michal.data;
             michal = michal.guild_id;
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00012_ip = 161; continue _fun00011 }
+            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = null;
+            if(!(zuuluu != michal)) { _fun00012_ip = 166; continue _fun00011 }
  133:
-            michal = zuuluu.hasFeature;
+            zuuluu = michal.features;
+            michal = zuuluu.has;
             entity = _closure1_slot28;
             entity = entity.INTERNAL_EMPLOYEE_ONLY;
             entity = michal.bind(zuuluu)(entity);
-            if(entity) { _fun00012_ip = 161; continue _fun00011 }
- 157:
+            if(entity) { _fun00012_ip = 166; continue _fun00011 }
+ 162:
             entity = true;
             return entity;
- 161:
+ 166:
             entity = false;
             return entity;
- 165:
+ 170:
             entity = true;
             return entity;
         }
@@ -1216,9 +1217,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = zuuluu.bind(tangon)();
             zuuluu = tangon.filter;
             entity = function(argFoo) {
-                michal = argFoo;
-                entity = michal.isCommunity;
-                entity = entity.bind(michal)();
+                entity = argFoo;
+                zuuluu = entity.features;
+                michal = zuuluu.has;
+                entity = _closure1_slot28;
+                entity = entity.COMMUNITY;
+                entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
             entity = zuuluu.bind(tangon)(entity);

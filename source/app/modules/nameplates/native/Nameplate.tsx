@@ -280,8 +280,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['style'] = report;
             golfie = null;
             report = golfie != backup;
-            if(!report) { _fun00004_ip = 564; continue _fun00003 }
- 455:
+            if(!report) { _fun00004_ip = 560; continue _fun00003 }
+ 451:
             yankee = _closure1_slot4;
             option = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -294,10 +294,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra = {};
             kiloes = 0;
             sizing = 0;
-            if(!output) { _fun00004_ip = 506; continue _fun00003 }
- 500:
+            if(!output) { _fun00004_ip = 502; continue _fun00003 }
+ 496:
             sizing = -2;
- 506:
+ 502:
             foxtra['x'] = sizing;
             foxtra['y'] = kiloes;
             report['start'] = foxtra;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra[1] = backup;
             report['colors'] = foxtra;
             golfie = yankee.bind(tangon)(option, report);
- 564:
+ 560:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot4;

@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.jsx;
     var _closure1_slot4 = tangon;
-    tangon = 7;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -87,8 +87,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report['messageChannelId'] = entity;
                 entity = _closure2_slot2;
                 verify = null;
-                if(!(verify != entity)) { _fun00002_ip = 204; continue _fun00001 }
- 92:
+                if(!(verify != entity)) { _fun00002_ip = 218; continue _fun00001 }
+ 95:
                 option = _closure1_slot0;
                 offset = _closure1_slot2;
                 entity = 4;
@@ -107,16 +107,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['usernameOnClick'] = oscard;
                 option = _closure2_slot2;
                 option = option.originalName;
-                if(!(verify == option)) { _fun00002_ip = 186; continue _fun00001 }
- 177:
+                if(!(verify == option)) { _fun00002_ip = 189; continue _fun00001 }
+ 180:
                 verify = _closure2_slot2;
                 option = verify.name;
- 186:
+ 189:
                 entity['emojiName'] = option;
                 entity['emojiOnClick'] = report;
+                report = '[emoji]';
+                entity['emojiPreview'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
-                _fun00002_ip = 281; continue _fun00001;
- 204:
+                _fun00002_ip = 295; continue _fun00001;
+ 218:
                 option = _closure1_slot0;
                 verify = _closure1_slot2;
                 michal = 4;
@@ -134,13 +136,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['username'] = golfie;
                 michal['usernameOnClick'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 281:
+ 295:
                 return entity;
             }
         };
         report = option.bind(verify)(zuuluu, report);
         zuuluu = _closure1_slot4;
-        entity = 6;
+        entity = 8;
         entity = golfie[entity];
         michal = michal.bind(tangon)(entity);
         entity = {};
@@ -155,95 +157,157 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             tangon = argFoo;
             entity = tangon.message;
-            report = entity.author;
-            oscard = _closure1_slot0;
-            golfie = _closure1_slot2;
+            oscard = entity.author;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
             entity = 2;
-            entity = golfie[entity];
+            entity = verify[entity];
             zuuluu = undefined;
-            verify = oscard.bind(zuuluu)(entity);
-            option = verify.getMessageAuthor;
+            golfie = option.bind(zuuluu)(entity);
+            report = golfie.getMessageAuthor;
             entity = tangon.message;
-            entity = option.bind(verify)(entity);
+            entity = report.bind(golfie)(entity);
             yankee = entity.nick;
-            entity = 3;
-            entity = golfie[entity];
-            golfie = oscard.bind(zuuluu)(entity);
-            oscard = golfie.getSystemMessageEmoji;
-            entity = tangon.message;
-            entity = entity.content;
-            foxtra = oscard.bind(golfie)(entity);
             offset = {};
-            oscard = 'bindUserMenu';
-            offset['action'] = oscard;
-            entity = report.id;
+            golfie = 'bindUserMenu';
+            offset['action'] = golfie;
+            entity = oscard.id;
             offset['userId'] = entity;
             entity = tangon.message;
             entity = entity.channel_id;
             offset['messageChannelId'] = entity;
             entity = true;
             offset['medium'] = entity;
-            verify = {};
-            verify['action'] = oscard;
-            report = report.id;
-            verify['userId'] = report;
+            report = 3;
+            report = verify[report];
+            verify = option.bind(zuuluu)(report);
+            option = verify.getSystemMessageEmoji;
             report = tangon.message;
-            report = report.channel_id;
-            verify['messageChannelId'] = report;
-            verify['medium'] = entity;
-            entity = {};
-            backup = null;
-            if(!(backup != foxtra)) { _fun00004_ip = 275; continue _fun00003 }
- 180:
-            oscard = _closure1_slot0;
-            romeon = _closure1_slot2;
-            report = 4;
-            golfie = romeon[report];
-            golfie = oscard.bind(zuuluu)(golfie);
-            option = golfie.intl;
-            golfie = option.formatToParts;
-            report = romeon[report];
-            report = oscard.bind(zuuluu)(report);
-            report = report.t;
-            oscard = report.SYlkPj;
+            report = report.content;
+            option = option.bind(verify)(report);
+            kiloes = null;
+            if(!(kiloes != option)) { _fun00004_ip = 549; continue _fun00003 }
+ 146:
+            verify = _closure1_slot1;
+            backup = _closure1_slot2;
+            report = 6;
+            report = backup[report];
+            romeon = verify.bind(zuuluu)(report);
+            verify = romeon.getEmojiURL;
             report = {};
-            report['username'] = yankee;
-            report['usernameOnClick'] = offset;
-            romeon = foxtra.originalName;
-            if(!(backup == romeon)) { _fun00004_ip = 257; continue _fun00003 }
- 252:
-            romeon = foxtra.name;
- 257:
-            report['emojiName'] = romeon;
-            report['emojiOnClick'] = verify;
-            report = golfie.bind(option)(oscard, report);
-            _fun00004_ip = 343; continue _fun00003;
- 275:
+            foxtra = option.id;
+            report['id'] = foxtra;
+            foxtra = option.animated;
+            report['animated'] = foxtra;
+            foxtra = 48;
+            report['size'] = foxtra;
+            verify = verify.bind(romeon)(report);
+            romeon = {};
+            report = _closure1_slot0;
+            foxtra = 7;
+            foxtra = backup[foxtra];
+            foxtra = report.bind(zuuluu)(foxtra);
+            foxtra = foxtra.AST_KEY;
+            foxtra = foxtra.CUSTOM_EMOJI;
+            romeon['type'] = foxtra;
+            foxtra = false;
+            romeon['jumboable'] = foxtra;
+            romeon['src'] = verify;
+            foxtra = option.animated;
+            romeon['animateEmoji'] = foxtra;
+            romeon['frozenSrc'] = verify;
+            foxtra = option.name;
+            romeon['alt'] = foxtra;
+            foxtra = {};
+            foxtra['action'] = golfie;
+            oscard = oscard.id;
+            foxtra['userId'] = oscard;
+            oscard = tangon.message;
+            oscard = oscard.channel_id;
+            foxtra['messageChannelId'] = oscard;
+            foxtra['medium'] = entity;
+            entity = 4;
+            oscard = backup[entity];
+            oscard = report.bind(zuuluu)(oscard);
+            golfie = oscard.intl;
+            oscard = golfie.formatToParts;
+            entity = backup[entity];
+            entity = report.bind(zuuluu)(entity);
+            entity = entity.t;
+            report = entity.SYlkPj;
+            entity = {};
+            entity['username'] = yankee;
+            entity['usernameOnClick'] = offset;
+            backup = option.originalName;
+            if(!(kiloes == backup)) { _fun00004_ip = 382; continue _fun00003 }
+ 377:
+            backup = option.name;
+ 382:
+            entity['emojiName'] = backup;
+            entity['emojiOnClick'] = foxtra;
+            entity['emojiPreview'] = romeon;
+            oscard = oscard.bind(golfie)(report, entity);
+            report = {'count': 0, 'burst_count': 0, 'me': false, 'me_burst': false};
+            golfie = 0;
+            entity = {};
+            romeon = option.id;
+            entity['id'] = romeon;
+            romeon = option.name;
+            entity['name'] = romeon;
+            romeon = option.animated;
+            entity['animated'] = romeon;
+            entity['src'] = verify;
+            option = option.name;
+            entity['displayName'] = option;
+            report['emoji'] = entity;
+            entity = {};
+            entity['content'] = oscard;
+            option = _closure1_slot1;
+            verify = _closure1_slot2;
+            oscard = 5;
+            oscard = verify[oscard];
+            oscard = option.bind(zuuluu)(oscard);
+            sizing = oscard.bind(zuuluu)(tangon);
+            output = entity;
+            oscard = copyDataProperties(output, sizing);
+            oscard = tangon.reactions;
+            oscard = oscard.length;
+            if(!(!(oscard > golfie))) { _fun00004_ip = 532; continue _fun00003 }
+ 522:
+            oscard = new Array(1);
+            oscard[0] = report;
+            _fun00004_ip = 538; continue _fun00003;
+ 532:
+            oscard = tangon.reactions;
+ 538:
+            report = 'reactions';
+            entity[report] = oscard;
+            return entity;
+ 549:
+            entity = {};
             golfie = _closure1_slot0;
-            romeon = _closure1_slot2;
-            oscard = 4;
-            option = romeon[oscard];
+            oscard = _closure1_slot2;
+            report = 4;
+            option = oscard[report];
             option = golfie.bind(zuuluu)(option);
             verify = option.intl;
             option = verify.formatToParts;
-            oscard = romeon[oscard];
-            oscard = golfie.bind(zuuluu)(oscard);
-            oscard = oscard.t;
-            golfie = oscard.7NBgIS;
-            oscard = {};
-            oscard['username'] = yankee;
-            oscard['usernameOnClick'] = offset;
-            report = option.bind(verify)(golfie, oscard);
- 343:
+            report = oscard[report];
+            report = golfie.bind(zuuluu)(report);
+            report = report.t;
+            golfie = report.7NBgIS;
+            report = {};
+            report['username'] = yankee;
+            report['usernameOnClick'] = offset;
+            report = option.bind(verify)(golfie, report);
             entity['content'] = report;
             report = _closure1_slot1;
-            oscard = _closure1_slot2;
             michal = 5;
             michal = oscard[michal];
             michal = report.bind(zuuluu)(michal);
-            kiloes = michal.bind(zuuluu)(tangon);
-            sizing = entity;
-            michal = copyDataProperties(sizing, kiloes);
+            sizing = michal.bind(zuuluu)(tangon);
+            output = entity;
+            michal = copyDataProperties(output, sizing);
             return entity;
         }
     };

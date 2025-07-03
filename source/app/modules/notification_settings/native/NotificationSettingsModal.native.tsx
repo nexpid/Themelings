@@ -1466,59 +1466,57 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 golfie = this;
                 entity = golfie.props;
-                tangon = entity.guild;
-                entity = null;
-                entity = entity == tangon;
-                report = undefined;
-                michal = undefined;
-                if(entity) { _fun00018_ip = 50; continue _fun00017 }
- 26:
-                zuuluu = tangon.hasFeature;
+                entity = entity.guild;
+                michal = null;
+                if(!(michal != entity)) { _fun00018_ip = 51; continue _fun00017 }
+ 19:
+                tangon = entity.features;
+                zuuluu = tangon.has;
                 entity = _closure1_slot27;
                 entity = entity.HUB;
-                michal = zuuluu.bind(tangon)(entity);
- 50:
-                entity = true;
-                if(!(entity !== michal)) { _fun00018_ip = 169; continue _fun00017 }
- 56:
-                zuuluu = _closure1_slot32;
-                michal = _closure1_slot0;
+                entity = zuuluu.bind(tangon)(entity);
+                if(entity) { _fun00018_ip = 166; continue _fun00017 }
+ 51:
+                report = _closure1_slot32;
+                zuuluu = _closure1_slot0;
                 tangon = _closure1_slot2;
                 entity = 30;
                 entity = tangon[entity];
-                entity = michal.bind(report)(entity);
-                michal = entity.Form;
+                tangon = undefined;
+                entity = zuuluu.bind(tangon)(entity);
+                zuuluu = entity.Form;
                 entity = {};
-                tangon = golfie.renderMuteSection;
-                oscard = tangon.bind(golfie)();
-                tangon = new Array(4);
-                tangon[0] = oscard;
-                oscard = golfie.renderServerSettings;
-                oscard = oscard.bind(golfie)();
-                tangon[1] = oscard;
-                oscard = golfie.renderNotificationOptions;
-                oscard = oscard.bind(golfie)();
-                tangon[2] = oscard;
-                oscard = golfie.renderChannels;
-                oscard = oscard.bind(golfie)();
-                tangon[3] = oscard;
-                entity['children'] = tangon;
-                entity = zuuluu.bind(report)(michal, entity);
-                _fun00018_ip = 224; continue _fun00017;
- 169:
-                tangon = _closure1_slot31;
+                oscard = golfie.renderMuteSection;
+                option = oscard.bind(golfie)();
+                oscard = new Array(4);
+                oscard[0] = option;
+                option = golfie.renderServerSettings;
+                option = option.bind(golfie)();
+                oscard[1] = option;
+                option = golfie.renderNotificationOptions;
+                option = option.bind(golfie)();
+                oscard[2] = option;
+                option = golfie.renderChannels;
+                option = option.bind(golfie)();
+                oscard[3] = option;
+                entity['children'] = oscard;
+                entity = report.bind(tangon)(zuuluu, entity);
+                _fun00018_ip = 220; continue _fun00017;
+ 166:
+                report = _closure1_slot31;
                 zuuluu = _closure1_slot0;
-                oscard = _closure1_slot2;
+                tangon = _closure1_slot2;
                 michal = 30;
-                michal = oscard[michal];
-                michal = zuuluu.bind(report)(michal);
+                michal = tangon[michal];
+                tangon = undefined;
+                michal = zuuluu.bind(tangon)(michal);
                 zuuluu = michal.Form;
                 michal = {};
                 oscard = golfie.renderMuteSection;
                 oscard = oscard.bind(golfie)();
                 michal['children'] = oscard;
-                entity = tangon.bind(report)(zuuluu, michal);
- 224:
+                entity = report.bind(tangon)(zuuluu, michal);
+ 220:
                 return entity;
             }
         };

@@ -53,7 +53,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = zuuluu.current;
                         michal = tangon === zuuluu;
  32:
-                        if(!michal) { _fun00004_ip = 89; continue _fun00003 }
+                        if(!michal) { _fun00004_ip = 87; continue _fun00003 }
  35:
                         michal = _closure3_slot0;
                         report = undefined;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         };
                         entity = tangon.bind(report)(entity, zuuluu);
                         michal['current'] = entity;
- 89:
+ 87:
                         entity = undefined;
                         return entity;
                     }

@@ -85,28 +85,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                     michal = argFoo;
-                    tangon = michal.hasFeature;
+                    report = michal.features;
+                    tangon = report.has;
                     entity = _closure1_slot4;
                     entity = entity.ROLE_SUBSCRIPTIONS_ENABLED;
-                    entity = tangon.bind(michal)(entity);
-                    if(!entity) { _fun00002_ip = 54; continue _fun00001 }
- 30:
-                    report = michal.hasFeature;
+                    entity = tangon.bind(report)(entity);
+                    if(!entity) { _fun00002_ip = 64; continue _fun00001 }
+ 35:
+                    oscard = michal.features;
+                    report = oscard.has;
                     tangon = _closure1_slot4;
                     tangon = tangon.CREATOR_MONETIZABLE_RESTRICTED;
-                    tangon = report.bind(michal)(tangon);
+                    tangon = report.bind(oscard)(tangon);
                     entity = !tangon;
- 54:
-                    if(!entity) { _fun00002_ip = 83; continue _fun00001 }
- 57:
+ 64:
+                    if(!entity) { _fun00002_ip = 93; continue _fun00001 }
+ 67:
                     oscard = _closure1_slot3;
                     report = oscard.can;
                     tangon = _closure1_slot5;
                     tangon = tangon.ADMINISTRATOR;
                     entity = report.bind(oscard)(tangon, michal);
- 83:
-                    if(!entity) { _fun00002_ip = 118; continue _fun00001 }
- 86:
+ 93:
+                    if(!entity) { _fun00002_ip = 128; continue _fun00001 }
+ 96:
                     oscard = _closure1_slot0;
                     report = _closure1_slot1;
                     tangon = 5;
@@ -115,9 +117,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.bind(tangon)(report);
                     tangon = report.isUserEligibleForTierTemplates;
                     entity = tangon.bind(report)();
- 118:
-                    if(!entity) { _fun00002_ip = 159; continue _fun00001 }
- 121:
+ 128:
+                    if(!entity) { _fun00002_ip = 169; continue _fun00001 }
+ 131:
                     report = _closure1_slot0;
                     tangon = _closure1_slot1;
                     zuuluu = 5;
@@ -127,7 +129,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = tangon.isGuildEligibleForTierTemplates;
                     michal = michal.id;
                     entity = zuuluu.bind(tangon)(michal);
- 159:
+ 169:
                     return entity;
                 }
             };

@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo, argBar, argBaz) { // Original name: useEditGuildScheduledEventsBroadcastInfo
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            offset = argFoo;
+            golfie = argFoo;
             oscard = argBar;
             var _closure2_slot0 = oscard;
             michal = argBaz;
@@ -71,36 +71,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 0;
             tangon = zuuluu[report];
             var _closure2_slot2 = tangon;
-            golfie = 1;
-            zuuluu = zuuluu[golfie];
+            verify = 1;
+            zuuluu = zuuluu[verify];
             var _closure2_slot3 = zuuluu;
             zuuluu = yankee.useState;
-            verify = false;
-            zuuluu = zuuluu.bind(yankee)(verify);
+            offset = false;
+            zuuluu = zuuluu.bind(yankee)(offset);
             zuuluu = foxtra.bind(option)(zuuluu, romeon);
             report = zuuluu[report];
-            zuuluu = zuuluu[golfie];
+            zuuluu = zuuluu[verify];
             var _closure2_slot4 = zuuluu;
-            golfie = yankee.useRef;
-            golfie = golfie.bind(yankee)(verify);
-            var _closure2_slot5 = golfie;
-            golfie = null;
-            verify = golfie == offset;
+            verify = yankee.useRef;
+            verify = verify.bind(yankee)(offset);
+            var _closure2_slot5 = verify;
+            verify = null;
+            offset = verify == golfie;
             romeon = undefined;
-            if(verify) { _fun00002_ip = 136; continue _fun00001 }
+            if(offset) { _fun00002_ip = 136; continue _fun00001 }
  131:
-            romeon = offset.id;
+            romeon = golfie.id;
  136:
             var _closure2_slot6 = romeon;
-            golfie = golfie == offset;
+            verify = verify == golfie;
             yankee = undefined;
-            if(golfie) { _fun00002_ip = 170; continue _fun00001 }
+            if(verify) { _fun00002_ip = 175; continue _fun00001 }
  149:
-            verify = offset.hasFeature;
+            offset = golfie.features;
+            verify = offset.has;
             golfie = _closure1_slot7;
             golfie = golfie.HAS_DIRECTORY_ENTRY;
             yankee = verify.bind(offset)(golfie);
- 170:
+ 175:
             var _closure2_slot7 = yankee;
             offset = _closure1_slot4;
             verify = offset.useEffect;
@@ -118,15 +119,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure1_slot8;
                     michal = undefined;
                     michal = tangon.bind(michal)(zuuluu);
-                    _fun00004_ip = 71; continue _fun00003;
+                    _fun00004_ip = 69; continue _fun00003;
  30:
                     michal = _closure2_slot5;
                     michal = michal.current;
-                    if(michal) { _fun00004_ip = 71; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 69; continue _fun00003 }
  42:
                     michal = _closure2_slot6;
                     entity = null;
-                    if(!(entity != michal)) { _fun00004_ip = 71; continue _fun00003 }
+                    if(!(entity != michal)) { _fun00004_ip = 69; continue _fun00003 }
  52:
                     entity = function() {
                         tangon = _closure1_slot2;
@@ -203,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = undefined;
                     entity = entity.bind(michal)();
                     entity = entity.bind(michal)();
- 71:
+ 69:
                     entity = undefined;
                     return entity;
                 }
@@ -269,10 +270,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['broadcastInfo'] = tangon;
             tangon = michal;
-            if(!tangon) { _fun00002_ip = 304; continue _fun00001 }
- 301:
+            if(!tangon) { _fun00002_ip = 303; continue _fun00001 }
+ 300:
             tangon = report;
- 304:
+ 303:
             entity['broadcastToDirectoryChannels'] = tangon;
             entity['setBroadcastToDirectoryChannels'] = zuuluu;
             entity['canEveryoneRoleViewEvent'] = michal;

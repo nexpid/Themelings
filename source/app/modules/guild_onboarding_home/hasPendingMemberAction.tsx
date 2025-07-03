@@ -80,15 +80,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = option.bind(golfie)(report);
             entity = report.bind(golfie)(zuuluu);
  80:
-            if(!entity) { _fun00002_ip = 104; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
  83:
-            golfie = zuuluu.hasFeature;
+            option = zuuluu.features;
+            golfie = option.has;
             report = _closure1_slot8;
             report = report.GUILD_SERVER_GUIDE;
-            entity = golfie.bind(zuuluu)(report);
- 104:
-            if(!entity) { _fun00002_ip = 198; continue _fun00001 }
- 107:
+            entity = golfie.bind(option)(report);
+ 109:
+            if(!entity) { _fun00002_ip = 203; continue _fun00001 }
+ 112:
             option = _closure1_slot1;
             golfie = _closure1_slot2;
             report = 8;
@@ -101,38 +102,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = zuuluu.id;
             verify = offset.bind(yankee)(verify);
             offset = oscard == verify;
-            if(offset) { _fun00002_ip = 167; continue _fun00001 }
- 162:
-            report = verify.flags;
+            if(offset) { _fun00002_ip = 172; continue _fun00001 }
  167:
+            report = verify.flags;
+ 172:
             verify = oscard != report;
             oscard = 0;
-            if(!verify) { _fun00002_ip = 179; continue _fun00001 }
- 176:
+            if(!verify) { _fun00002_ip = 184; continue _fun00001 }
+ 181:
             oscard = report;
- 179:
+ 184:
             report = _closure1_slot9;
             report = report.COMPLETED_HOME_ACTIONS;
             report = golfie.bind(option)(oscard, report);
             entity = !report;
- 198:
-            if(!entity) { _fun00002_ip = 229; continue _fun00001 }
- 201:
+ 203:
+            if(!entity) { _fun00002_ip = 234; continue _fun00001 }
+ 206:
             option = _closure1_slot6;
             golfie = option.hasMemberAction;
             oscard = zuuluu.id;
             report = michal.id;
             entity = golfie.bind(option)(oscard, report);
- 229:
-            if(!entity) { _fun00002_ip = 263; continue _fun00001 }
- 232:
+ 234:
+            if(!entity) { _fun00002_ip = 268; continue _fun00001 }
+ 237:
             report = _closure1_slot7;
             tangon = report.hasCompletedActionForChannel;
             zuuluu = zuuluu.id;
             michal = michal.id;
             michal = tangon.bind(report)(zuuluu, michal);
             entity = !michal;
- 263:
+ 268:
             return entity;
         }
     };

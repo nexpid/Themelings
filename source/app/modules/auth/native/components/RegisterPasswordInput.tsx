@@ -562,10 +562,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['errorMessage'] = golfie;
             output = option != golfie;
             foxtra = undefined;
-            if(!output) { _fun00004_ip = 847; continue _fun00003 }
- 843:
-            foxtra = 'error';
+            if(!output) { _fun00004_ip = 851; continue _fun00003 }
  847:
+            foxtra = 'error';
+ 851:
             report['status'] = foxtra;
             oscard = verify.bind(tangon)(oscard, report);
             report = new Array(3);
@@ -581,12 +581,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report[1] = oscard;
             verify = option != yankee;
             oscard = null;
-            if(!verify) { _fun00004_ip = 1051; continue _fun00003 }
- 917:
+            if(!verify) { _fun00004_ip = 1055; continue _fun00003 }
+ 921:
             golfie = option == golfie;
             oscard = null;
-            if(!golfie) { _fun00004_ip = 1051; continue _fun00003 }
- 929:
+            if(!golfie) { _fun00004_ip = 1055; continue _fun00003 }
+ 933:
             verify = _closure1_slot11;
             option = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = 'children';
             golfie[offset] = yankee;
             oscard = verify.bind(tangon)(option, golfie);
- 1051:
+ 1055:
             report[2] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

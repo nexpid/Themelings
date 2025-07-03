@@ -95,109 +95,93 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                 zuuluu = _closure1_slot6;
                 tangon = zuuluu.getPremiumTypeSubscription;
-                michal = false;
-                option = tangon.bind(zuuluu)(michal);
-                michal = zuuluu.hasFetchedSubscriptions;
-                michal = michal.bind(zuuluu)();
-                tangon = null;
-                report = tangon == option;
+                entity = false;
+                option = tangon.bind(zuuluu)(entity);
+                entity = zuuluu.hasFetchedSubscriptions;
+                zuuluu = entity.bind(zuuluu)();
+                entity = null;
+                report = entity == option;
                 if(report) { _fun00002_ip = 70; continue _fun00001 }
  41:
-                zuuluu = global;
-                golfie = zuuluu.Object;
-                zuuluu = golfie.keys;
-                zuuluu = zuuluu.bind(golfie)(option);
-                golfie = zuuluu.length;
-                zuuluu = 0;
-                report = zuuluu === golfie;
+                tangon = global;
+                golfie = tangon.Object;
+                tangon = golfie.keys;
+                tangon = tangon.bind(golfie)(option);
+                golfie = tangon.length;
+                tangon = 0;
+                report = tangon === golfie;
  70:
                 golfie = _closure1_slot7;
-                zuuluu = golfie.hasFetchedOffer;
-                zuuluu = zuuluu.bind(golfie)();
-                if(!zuuluu) { _fun00002_ip = 104; continue _fun00001 }
+                tangon = golfie.hasFetchedOffer;
+                tangon = tangon.bind(golfie)();
+                if(!tangon) { _fun00002_ip = 104; continue _fun00001 }
  87:
                 option = _closure1_slot7;
                 golfie = option.hasAnyUnexpiredOffer;
                 golfie = golfie.bind(option)();
-                zuuluu = !golfie;
+                tangon = !golfie;
  104:
                 option = _closure1_slot7;
-                golfie = option.shouldFetchOffer;
+                golfie = option.isFetchingOffer;
                 golfie = golfie.bind(option)();
-                if(!michal) { _fun00002_ip = 130; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 130; continue _fun00001 }
  121:
                 if(!report) { _fun00002_ip = 130; continue _fun00001 }
  124:
-                if(zuuluu) { _fun00002_ip = 415; continue _fun00001 }
+                if(tangon) { _fun00002_ip = 418; continue _fun00001 }
  130:
-                if(!michal) { _fun00002_ip = 136; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 139; continue _fun00001 }
  133:
-                if(!golfie) { _fun00002_ip = 155; continue _fun00001 }
- 136:
+                if(golfie) { _fun00002_ip = 359; continue _fun00001 }
+ 139:
                 report = _closure2_slot6;
                 option = report.current;
                 report = 5;
-                if(!(!(option < report))) { _fun00002_ip = 220; continue _fun00001 }
- 155:
-                report = _closure2_slot1;
-                verify = undefined;
-                report = report.bind(verify)();
-                option = _closure1_slot0;
-                offset = _closure1_slot3;
-                report = 12;
-                report = offset[report];
-                option = option.bind(verify)(report);
-                report = option.getBestActiveInput;
-                report = report.bind(option)();
-                if(!(tangon != report)) { _fun00002_ip = 522; continue _fun00001 }
- 205:
-                tangon = report.closeCustomKeyboard;
-                tangon = tangon.bind(report)();
-                _fun00002_ip = 522; continue _fun00001;
- 220:
-                tangon = _closure2_slot4;
-                verify = undefined;
-                zuuluu = true;
-                zuuluu = tangon.bind(verify)(zuuluu);
-                report = global;
-                tangon = report.Promise;
-                zuuluu = tangon.all;
-                if(michal) { _fun00002_ip = 282; continue _fun00001 }
+                if(!(option < report)) { _fun00002_ip = 359; continue _fun00001 }
+ 161:
+                report = _closure2_slot4;
+                offset = undefined;
+                tangon = true;
+                tangon = report.bind(offset)(tangon);
+                option = global;
+                report = option.Promise;
+                tangon = report.all;
+                if(zuuluu) { _fun00002_ip = 223; continue _fun00001 }
+ 191:
+                verify = _closure1_slot0;
+                yankee = _closure1_slot3;
+                zuuluu = 8;
+                zuuluu = yankee[zuuluu];
+                verify = verify.bind(offset)(zuuluu);
+                zuuluu = verify.fetchSubscriptions;
+                verify = zuuluu.bind(verify)();
+                _fun00002_ip = 239; continue _fun00001;
+ 223:
+                yankee = option.Promise;
+                zuuluu = yankee.resolve;
+                verify = zuuluu.bind(yankee)();
+ 239:
+                zuuluu = new Array(2);
+                zuuluu[0] = verify;
+                if(golfie) { _fun00002_ip = 282; continue _fun00001 }
  250:
-                option = _closure1_slot0;
-                offset = _closure1_slot3;
-                michal = 8;
-                michal = offset[michal];
-                option = option.bind(verify)(michal);
-                michal = option.fetchSubscriptions;
-                option = michal.bind(option)();
+                verify = _closure1_slot1;
+                yankee = _closure1_slot3;
+                golfie = 9;
+                golfie = yankee[golfie];
+                verify = verify.bind(offset)(golfie);
+                golfie = verify.fetchUserTrialOffer;
+                golfie = golfie.bind(verify)();
                 _fun00002_ip = 298; continue _fun00001;
  282:
-                offset = report.Promise;
-                michal = offset.resolve;
-                option = michal.bind(offset)();
+                verify = option.Promise;
+                option = verify.resolve;
+                golfie = option.bind(verify)();
  298:
-                michal = new Array(2);
-                michal[0] = option;
-                if(golfie) { _fun00002_ip = 327; continue _fun00001 }
- 309:
-                golfie = report.Promise;
-                report = golfie.resolve;
-                report = report.bind(golfie)();
-                _fun00002_ip = 357; continue _fun00001;
- 327:
-                option = _closure1_slot1;
-                offset = _closure1_slot3;
-                golfie = 9;
-                golfie = offset[golfie];
-                option = option.bind(verify)(golfie);
-                golfie = option.fetchUserTrialOffer;
-                report = golfie.bind(option)();
- 357:
-                michal[1] = report;
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.then;
-                michal = function() {
+                zuuluu[1] = golfie;
+                report = tangon.bind(report)(zuuluu);
+                tangon = report.then;
+                zuuluu = function() {
                     zuuluu = _closure2_slot6;
                     tangon = zuuluu.current;
                     michal = 1;
@@ -208,9 +192,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.bind(entity)();
                     return entity;
                 };
-                tangon = zuuluu.bind(tangon)(michal);
-                zuuluu = tangon.catch;
-                michal = function() {
+                report = tangon.bind(report)(zuuluu);
+                tangon = report.catch;
+                zuuluu = function() {
                     tangon = _closure1_slot2;
                     option = _closure1_slot3;
                     entity = 10;
@@ -232,18 +216,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal);
                     return entity;
                 };
-                zuuluu = zuuluu.bind(tangon)(michal);
-                michal = zuuluu.finally;
-                entity = function() {
+                tangon = tangon.bind(report)(zuuluu);
+                zuuluu = tangon.finally;
+                michal = function() {
                     zuuluu = _closure2_slot4;
                     michal = undefined;
                     entity = false;
                     entity = zuuluu.bind(michal)(entity);
                     return entity;
                 };
-                entity = michal.bind(zuuluu)(entity);
-                _fun00002_ip = 522; continue _fun00001;
- 415:
+                michal = zuuluu.bind(tangon)(michal);
+                _fun00002_ip = 525; continue _fun00001;
+ 359:
+                michal = _closure2_slot1;
+                tangon = undefined;
+                michal = michal.bind(tangon)();
+                zuuluu = _closure1_slot0;
+                report = _closure1_slot3;
+                michal = 12;
+                michal = report[michal];
+                zuuluu = zuuluu.bind(tangon)(michal);
+                michal = zuuluu.getBestActiveInput;
+                michal = michal.bind(zuuluu)();
+                if(!(entity != michal)) { _fun00002_ip = 525; continue _fun00001 }
+ 406:
+                entity = michal.closeCustomKeyboard;
+                entity = entity.bind(michal)();
+                _fun00002_ip = 525; continue _fun00001;
+ 418:
                 michal = _closure1_slot1;
                 zuuluu = _closure1_slot3;
                 entity = 7;
@@ -262,17 +262,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['analyticsLocations'] = report;
                 report = _closure2_slot0;
                 oscard = _closure1_slot8;
-                if(report) { _fun00002_ip = 501; continue _fun00001 }
- 493:
+                if(report) { _fun00002_ip = 504; continue _fun00001 }
+ 496:
                 report = oscard.TIER_2;
-                _fun00002_ip = 507; continue _fun00001;
- 501:
+                _fun00002_ip = 510; continue _fun00001;
+ 504:
                 report = oscard.TIER_0;
- 507:
+ 510:
                 michal['premiumType'] = report;
                 entity = _closure2_slot3;
                 entity = zuuluu.bind(tangon)(michal, entity);
- 522:
+ 525:
                 entity = undefined;
                 return entity;
             }

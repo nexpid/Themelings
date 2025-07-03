@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     verify = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 321; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 317; continue _fun00001 }
  13:
                     oscard = verify;
                     michal = undefined;
@@ -49,19 +49,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = yankee.bind(romeon)(verify);
                     tangon['url'] = verify;
                     tangon = golfie.bind(option)(tangon);
-                    SaveGenerator(address=146);
- 144:
+                    SaveGenerator(address=142);
+ 140:
                     return tangon;
- 146:
+ 142:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 270; continue _fun00001 }
- 152:
+                    if(golfie) { _fun00002_ip = 266; continue _fun00001 }
+ 148:
                     golfie = tangon.body;
                     offset = golfie;
                     option = golfie.note_user_id;
                     golfie = oscard;
-                    if(!(option === golfie)) { _fun00002_ip = 234; continue _fun00001 }
- 175:
+                    if(!(option === golfie)) { _fun00002_ip = 230; continue _fun00001 }
+ 171:
                     option = _closure1_slot1;
                     golfie = _closure1_slot2;
                     golfie = golfie[report];
@@ -75,9 +75,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = offset.note;
                     golfie['note'] = offset;
                     golfie = option.bind(verify)(golfie);
- 232: // try_end0
-                    _fun00002_ip = 318; continue _fun00001;
- 234: // try_start_1
+ 228: // try_end0
+                    _fun00002_ip = 314; continue _fun00001;
+ 230: // try_start_1
                     golfie = global;
                     verify = golfie.Error;
                     golfie = verify.prototype;
@@ -87,9 +87,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = new backup[verify](foxtra, romeon);
                     golfie = golfie instanceof Object ? golfie : option;
                     throw golfie;
- 270: // try_end1
+ 266: // try_end1
                     return tangon;
- 273: // catch_target0 // catch_target1
+ 269: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=3);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -101,9 +101,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['type'] = golfie;
                     zuuluu['id'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 318:
+ 314:
                     return michal;
- 321:
+ 317:
                     return entity;
                 }
             };
@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure2_slot1;
                     michal = null;
-                    if(!(michal == zuuluu)) { _fun00006_ip = 31; continue _fun00005 }
+                    if(!(michal == zuuluu)) { _fun00006_ip = 33; continue _fun00005 }
  13:
                     zuuluu = _closure2_slot0;
                     michal = function() { // Original name: fetchNote
@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity = undefined;
                     entity = michal.bind(entity)(zuuluu);
- 31:
+ 33:
                     entity = undefined;
                     return entity;
                 }
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.bind(report)(michal, zuuluu);
             michal = null;
             if(!(michal == entity)) { _fun00004_ip = 118; continue _fun00003 }
- 104:
+ 108:
             entity = {'loading': true, 'note': null};
  118:
             return entity;

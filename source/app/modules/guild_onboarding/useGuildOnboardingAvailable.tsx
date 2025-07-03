@@ -33,18 +33,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: useGuildOnboardingAvailable
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            report = argFoo;
-            var _closure2_slot0 = report;
+            tangon = argFoo;
+            var _closure2_slot0 = tangon;
             oscard = _closure1_slot0;
-            tangon = _closure1_slot1;
+            report = _closure1_slot1;
             michal = 2;
-            tangon = tangon[michal];
+            report = report[michal];
             michal = undefined;
-            golfie = oscard.bind(michal)(tangon);
+            golfie = oscard.bind(michal)(report);
             oscard = golfie.useStateFromStores;
             option = _closure1_slot2;
-            tangon = new Array(1);
-            tangon[0] = option;
+            report = new Array(1);
+            report[0] = option;
             entity = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -77,21 +77,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity = oscard.bind(golfie)(tangon, entity);
-            if(entity) { _fun00002_ip = 102; continue _fun00001 }
- 67:
-            tangon = null;
-            tangon = tangon == report;
+            entity = oscard.bind(golfie)(report, entity);
+            if(entity) { _fun00002_ip = 105; continue _fun00001 }
+ 65:
+            report = null;
+            report = report == tangon;
             michal = undefined;
-            if(tangon) { _fun00002_ip = 99; continue _fun00001 }
- 78:
-            tangon = report.hasFeature;
+            if(report) { _fun00002_ip = 102; continue _fun00001 }
+ 76:
+            report = tangon.features;
+            tangon = report.has;
             zuuluu = _closure1_slot3;
             zuuluu = zuuluu.GUILD_ONBOARDING_HAS_PROMPTS;
             michal = tangon.bind(report)(zuuluu);
- 99:
-            entity = michal;
  102:
+            entity = michal;
+ 105:
             return entity;
         }
     };
@@ -99,30 +100,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: isGuildOnboardingAvailable
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            tangon = argFoo;
+            zuuluu = argFoo;
             entity = null;
-            if(!(entity != tangon)) { _fun00006_ip = 80; continue _fun00005 }
+            if(!(entity != zuuluu)) { _fun00006_ip = 85; continue _fun00005 }
  9:
             oscard = _closure1_slot2;
-            zuuluu = oscard.isFullServerPreview;
-            entity = tangon.id;
-            entity = zuuluu.bind(oscard)(entity);
+            tangon = oscard.isFullServerPreview;
+            entity = zuuluu.id;
+            entity = tangon.bind(oscard)(entity);
             report = oscard.isOnboardingEnabled;
-            zuuluu = tangon.id;
-            zuuluu = report.bind(oscard)(zuuluu);
+            tangon = zuuluu.id;
+            tangon = report.bind(oscard)(tangon);
             if(!entity) { _fun00006_ip = 54; continue _fun00005 }
  51:
-            entity = zuuluu;
+            entity = tangon;
  54:
-            if(entity) { _fun00006_ip = 78; continue _fun00005 }
+            if(entity) { _fun00006_ip = 83; continue _fun00005 }
  57:
-            zuuluu = tangon.hasFeature;
+            tangon = zuuluu.features;
+            zuuluu = tangon.has;
             michal = _closure1_slot3;
             michal = michal.GUILD_ONBOARDING_HAS_PROMPTS;
             entity = zuuluu.bind(tangon)(michal);
- 78:
+ 83:
             return entity;
- 80:
+ 85:
             entity = false;
             return entity;
         }

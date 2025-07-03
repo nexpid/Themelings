@@ -443,7 +443,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(27);
+        entity = new Array(29);
         entity[0] = report;
         report = {};
         option = 'getLocalMute';
@@ -1025,6 +1025,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = option;
         entity[20] = report;
         report = {};
+        option = 'setGoLiveUsePixelCounts';
+        report['key'] = option;
+        option = function(argFoo) { // Original name: value
+            entity = this;
+            zuuluu = entity.videoQualityManager;
+            michal = zuuluu.setGoLiveUsePixelCounts;
+            entity = argFoo;
+            entity = michal.bind(zuuluu)(entity);
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = option;
+        entity[21] = report;
+        report = {};
         option = 'applyQualityConstraints';
         report['key'] = option;
         option = function() { // Original name: value
@@ -1045,7 +1059,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = option;
-        entity[21] = report;
+        entity[22] = report;
         report = {};
         option = 'pickProperties';
         report['key'] = option;
@@ -1081,7 +1095,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = option;
-        entity[22] = report;
+        entity[23] = report;
         report = {};
         option = 'initializeStreamParameters';
         report['key'] = option;
@@ -1196,7 +1210,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = option;
-        entity[23] = report;
+        entity[24] = report;
         report = {};
         option = 'getLocalWant';
         report['key'] = option;
@@ -1286,7 +1300,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         report['value'] = option;
-        entity[24] = report;
+        entity[25] = report;
         report = {};
         option = 'getRemoteVideoSinkWants';
         report['key'] = option;
@@ -1298,19 +1312,53 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = option;
-        entity[25] = report;
+        entity[26] = report;
+        report = {};
+        option = 'getRemoteVideoSinkPixelCount';
+        report['key'] = option;
+        option = function(argFoo) { // Original name: value
+            _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+ 0:
+                oscard = argFoo;
+                zuuluu = undefined;
+                entity = 0;
+                if(!(zuuluu !== oscard)) { _fun00040_ip = 56; continue _fun00039 }
+ 11:
+                tangon = this;
+                tangon = tangon.remoteVideoSinkWants;
+                report = tangon.pixelCounts;
+                tangon = null;
+                golfie = tangon == report;
+                zuuluu = undefined;
+                if(golfie) { _fun00040_ip = 41; continue _fun00039 }
+ 37:
+                zuuluu = report[oscard];
+ 41:
+                tangon = tangon != zuuluu;
+                michal = 0;
+                if(!tangon) { _fun00040_ip = 53; continue _fun00039 }
+ 50:
+                michal = zuuluu;
+ 53:
+                entity = michal;
+ 56:
+                return entity;
+            }
+        };
+        report['value'] = option;
+        entity[27] = report;
         report = {};
         option = 'emitStats';
         report['key'] = option;
         option = _closure1_slot3;
         golfie = function* () {
             entity = function* () { // Original name: ?anon_0_
-                _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
+                _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
                     StartGenerator();
                     report = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00040_ip = 91; continue _fun00039 }
+                    if(michal) { _fun00042_ip = 91; continue _fun00041 }
  10:
                     michal = report.getStats;
                     michal = michal.bind(report)();
@@ -1319,10 +1367,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  24:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00040_ip = 88; continue _fun00039 }
+                    if(zuuluu) { _fun00042_ip = 88; continue _fun00041 }
  30:
                     zuuluu = null;
-                    if(!(zuuluu != michal)) { _fun00040_ip = 85; continue _fun00039 }
+                    if(!(zuuluu != michal)) { _fun00042_ip = 85; continue _fun00041 }
  36:
                     tangon = report.emit;
                     golfie = _closure1_slot0;
@@ -1357,7 +1405,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = oscard;
-        entity[26] = report;
+        entity[28] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

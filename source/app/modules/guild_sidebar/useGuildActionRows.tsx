@@ -39,48 +39,48 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: useGuildActionRows
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            verify = argFoo;
-            var _closure2_slot0 = verify;
+            golfie = argFoo;
+            var _closure2_slot0 = golfie;
             echoed = _closure1_slot1;
             source = _closure1_slot2;
             zuuluu = 3;
             zuuluu = source[zuuluu];
             update = undefined;
             tangon = echoed.bind(update)(zuuluu);
-            zuuluu = verify.id;
+            zuuluu = golfie.id;
             backup = tangon.bind(update)(zuuluu);
             tangon = _closure1_slot0;
             zuuluu = 4;
             zuuluu = source[zuuluu];
             oscard = tangon.bind(update)(zuuluu);
             report = oscard.useCanReviewGuildMemberApplications;
-            zuuluu = verify.id;
+            zuuluu = golfie.id;
             oscard = report.bind(oscard)(zuuluu);
             zuuluu = 5;
             zuuluu = source[zuuluu];
-            golfie = tangon.bind(update)(zuuluu);
-            report = golfie.useShowRoleSubscriptionsInChannelList;
-            zuuluu = verify.id;
-            yankee = report.bind(golfie)(zuuluu);
+            option = tangon.bind(update)(zuuluu);
+            report = option.useShowRoleSubscriptionsInChannelList;
+            zuuluu = golfie.id;
+            yankee = report.bind(option)(zuuluu);
             zuuluu = 6;
             zuuluu = source[zuuluu];
             report = tangon.bind(update)(zuuluu);
             zuuluu = report.useGuildShopVisibleInGuild;
-            offset = zuuluu.bind(report)(verify);
+            offset = zuuluu.bind(report)(golfie);
             zuuluu = 7;
             zuuluu = source[zuuluu];
-            golfie = tangon.bind(update)(zuuluu);
-            report = golfie.useCanSeeOnboardingHome;
-            zuuluu = verify.id;
-            sizing = report.bind(golfie)(zuuluu);
+            option = tangon.bind(update)(zuuluu);
+            report = option.useCanSeeOnboardingHome;
+            zuuluu = golfie.id;
+            sizing = report.bind(option)(zuuluu);
             zuuluu = 8;
             zuuluu = source[zuuluu];
-            option = tangon.bind(update)(zuuluu);
-            golfie = option.useStateFromStores;
+            verify = tangon.bind(update)(zuuluu);
+            option = verify.useStateFromStores;
             zuuluu = _closure1_slot3;
             report = new Array(1);
             report[0] = zuuluu;
-            romeon = verify.id;
+            romeon = golfie.id;
             zuuluu = new Array(1);
             zuuluu[0] = romeon;
             entity = function() {
@@ -91,173 +91,177 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
-            kiloes = golfie.bind(option)(report, entity, zuuluu);
+            kiloes = option.bind(verify)(report, entity, zuuluu);
             entity = 9;
             entity = source[entity];
             zuuluu = echoed.bind(update)(entity);
-            entity = verify.id;
+            entity = golfie.id;
             output = zuuluu.bind(update)(entity);
             entity = 10;
             entity = source[entity];
             report = tangon.bind(update)(entity);
             zuuluu = report.useAllActionsCompleted;
-            entity = verify.id;
+            entity = golfie.id;
             result = zuuluu.bind(report)(entity);
             entity = 11;
             entity = source[entity];
             report = tangon.bind(update)(entity);
             zuuluu = report.useCanAccessMemberSafetyPage;
-            entity = verify.id;
+            entity = golfie.id;
             report = zuuluu.bind(report)(entity);
             entity = new Array(0);
-            option = verify.hasFeature;
+            romeon = golfie.features;
+            verify = romeon.has;
             zuuluu = _closure1_slot5;
-            golfie = zuuluu.HUB;
-            romeon = option.bind(verify)(golfie);
-            option = verify.hasFeature;
-            golfie = zuuluu.COMMUNITY;
-            golfie = option.bind(verify)(golfie);
-            option = 12;
-            option = source[option];
-            ctrled = tangon.bind(update)(option);
+            option = zuuluu.HUB;
+            romeon = verify.bind(romeon)(option);
+            foxtra = golfie.features;
+            verify = foxtra.has;
+            option = zuuluu.COMMUNITY;
+            option = verify.bind(foxtra)(option);
+            verify = 12;
+            verify = source[verify];
+            ctrled = tangon.bind(update)(verify);
             foxtra = ctrled.useShowBrowseChannelsExperiment;
-            option = 13;
-            option = source[option];
-            sequen = tangon.bind(update)(option);
+            verify = 13;
+            verify = source[verify];
+            sequen = tangon.bind(update)(verify);
             vacuum = sequen.isOptInEnabledForGuild;
-            option = verify.id;
-            option = vacuum.bind(sequen)(option);
-            option = !option;
-            foxtra = foxtra.bind(ctrled)(option);
-            option = verify.hasFeature;
+            verify = golfie.id;
+            verify = vacuum.bind(sequen)(verify);
+            verify = !verify;
+            foxtra = foxtra.bind(ctrled)(verify);
+            ctrled = golfie.features;
+            verify = ctrled.has;
             zuuluu = zuuluu.ENABLED_MODERATION_EXPERIENCE_FOR_NON_COMMUNITY;
-            option = option.bind(verify)(zuuluu);
+            verify = verify.bind(ctrled)(zuuluu);
             zuuluu = 14;
             zuuluu = source[zuuluu];
             vacuum = tangon.bind(update)(zuuluu);
             ctrled = vacuum.useGuildPowerupsExperimentEnabled;
-            tangon = verify.id;
+            tangon = golfie.id;
             zuuluu = 'useGuildActionRow';
             zuuluu = ctrled.bind(vacuum)(tangon, zuuluu);
             tangon = 15;
             tangon = source[tangon];
             echoed = echoed.bind(update)(tangon);
-            tangon = verify.id;
+            tangon = golfie.id;
             tangon = echoed.bind(update)(tangon);
-            if(!romeon) { _fun00002_ip = 482; continue _fun00001 }
- 462:
+            if(!romeon) { _fun00002_ip = 497; continue _fun00001 }
+ 477:
             update = entity.push;
             echoed = _closure1_slot4;
             echoed = echoed.GUILD_HUB_HEADER_OPTIONS;
             echoed = update.bind(entity)(echoed);
- 482:
-            if(result) { _fun00002_ip = 530; continue _fun00001 }
- 485:
-            if(!sizing) { _fun00002_ip = 530; continue _fun00001 }
- 488:
-            if(!output) { _fun00002_ip = 530; continue _fun00001 }
- 491:
-            output = null;
-            if(!(output != kiloes)) { _fun00002_ip = 530; continue _fun00001 }
  497:
+            if(result) { _fun00002_ip = 545; continue _fun00001 }
+ 500:
+            if(!sizing) { _fun00002_ip = 545; continue _fun00001 }
+ 503:
+            if(!output) { _fun00002_ip = 545; continue _fun00001 }
+ 506:
+            output = null;
+            if(!(output != kiloes)) { _fun00002_ip = 545; continue _fun00001 }
+ 512:
             output = kiloes.length;
             kiloes = 0;
-            if(!(output > kiloes)) { _fun00002_ip = 530; continue _fun00001 }
- 508:
+            if(!(output > kiloes)) { _fun00002_ip = 545; continue _fun00001 }
+ 523:
             output = entity.push;
             kiloes = _closure1_slot4;
             kiloes = kiloes.GUILD_NEW_MEMBER_ACTIONS_PROGRESS_BAR;
             kiloes = output.bind(entity)(kiloes);
-            _fun00002_ip = 536; continue _fun00001;
- 530:
-            kiloes = verify.premiumProgressBarEnabled;
- 536:
-            kiloes = !romeon;
-            if(!kiloes) { _fun00002_ip = 545; continue _fun00001 }
- 542:
-            kiloes = sizing;
+            _fun00002_ip = 551; continue _fun00001;
  545:
-            if(!kiloes) { _fun00002_ip = 568; continue _fun00001 }
- 548:
+            kiloes = golfie.premiumProgressBarEnabled;
+ 551:
+            kiloes = !romeon;
+            if(!kiloes) { _fun00002_ip = 560; continue _fun00001 }
+ 557:
+            kiloes = sizing;
+ 560:
+            if(!kiloes) { _fun00002_ip = 583; continue _fun00001 }
+ 563:
             sizing = entity.push;
             kiloes = _closure1_slot4;
             kiloes = kiloes.GUILD_HOME;
             kiloes = sizing.bind(entity)(kiloes);
- 568:
-            if(!backup) { _fun00002_ip = 591; continue _fun00001 }
- 571:
+ 583:
+            if(!backup) { _fun00002_ip = 606; continue _fun00001 }
+ 586:
             kiloes = entity.push;
             backup = _closure1_slot4;
             backup = backup.GUILD_SCHEDULED_EVENTS;
             backup = kiloes.bind(entity)(backup);
- 591:
-            romeon = !romeon;
-            if(!romeon) { _fun00002_ip = 600; continue _fun00001 }
- 597:
-            romeon = golfie;
- 600:
-            if(!romeon) { _fun00002_ip = 606; continue _fun00001 }
- 603:
-            romeon = foxtra;
  606:
-            if(!romeon) { _fun00002_ip = 629; continue _fun00001 }
- 609:
+            romeon = !romeon;
+            if(!romeon) { _fun00002_ip = 615; continue _fun00001 }
+ 612:
+            romeon = option;
+ 615:
+            if(!romeon) { _fun00002_ip = 621; continue _fun00001 }
+ 618:
+            romeon = foxtra;
+ 621:
+            if(!romeon) { _fun00002_ip = 644; continue _fun00001 }
+ 624:
             foxtra = entity.push;
             romeon = _closure1_slot4;
             romeon = romeon.CHANNELS_AND_ROLES;
             romeon = foxtra.bind(entity)(romeon);
- 629:
-            if(!yankee) { _fun00002_ip = 652; continue _fun00001 }
- 632:
+ 644:
+            if(!yankee) { _fun00002_ip = 667; continue _fun00001 }
+ 647:
             romeon = entity.push;
             yankee = _closure1_slot4;
             yankee = yankee.GUILD_ROLE_SUBSCRIPTIONS;
             yankee = romeon.bind(entity)(yankee);
- 652:
-            if(!offset) { _fun00002_ip = 675; continue _fun00001 }
- 655:
+ 667:
+            if(!offset) { _fun00002_ip = 690; continue _fun00001 }
+ 670:
             yankee = entity.push;
             offset = _closure1_slot4;
             offset = offset.GUILD_SHOP;
             offset = yankee.bind(entity)(offset);
- 675:
-            if(!report) { _fun00002_ip = 687; continue _fun00001 }
- 678:
-            if(golfie) { _fun00002_ip = 684; continue _fun00001 }
- 681:
-            golfie = option;
- 684:
-            report = golfie;
- 687:
-            if(report) { _fun00002_ip = 717; continue _fun00001 }
  690:
-            if(!oscard) { _fun00002_ip = 714; continue _fun00001 }
+            if(!report) { _fun00002_ip = 702; continue _fun00001 }
  693:
-            option = verify.hasFeature;
+            if(option) { _fun00002_ip = 699; continue _fun00001 }
+ 696:
+            option = verify;
+ 699:
+            report = option;
+ 702:
+            if(report) { _fun00002_ip = 737; continue _fun00001 }
+ 705:
+            if(!oscard) { _fun00002_ip = 734; continue _fun00001 }
+ 708:
+            verify = golfie.features;
+            option = verify.has;
             golfie = _closure1_slot5;
             golfie = golfie.MEMBER_VERIFICATION_MANUAL_APPROVAL;
             oscard = option.bind(verify)(golfie);
- 714:
+ 734:
             report = oscard;
- 717:
-            if(!report) { _fun00002_ip = 740; continue _fun00001 }
- 720:
+ 737:
+            if(!report) { _fun00002_ip = 760; continue _fun00001 }
+ 740:
             oscard = entity.push;
             report = _closure1_slot4;
             report = report.GUILD_MOD_DASH_MEMBER_SAFETY;
             report = oscard.bind(entity)(report);
- 740:
-            if(!zuuluu) { _fun00002_ip = 746; continue _fun00001 }
- 743:
+ 760:
+            if(!zuuluu) { _fun00002_ip = 766; continue _fun00001 }
+ 763:
             zuuluu = tangon;
- 746:
-            if(!zuuluu) { _fun00002_ip = 769; continue _fun00001 }
- 749:
+ 766:
+            if(!zuuluu) { _fun00002_ip = 789; continue _fun00001 }
+ 769:
             zuuluu = entity.push;
             michal = _closure1_slot4;
             michal = michal.GUILD_BOOSTS;
             michal = zuuluu.bind(entity)(michal);
- 769:
+ 789:
             return entity;
         }
     };

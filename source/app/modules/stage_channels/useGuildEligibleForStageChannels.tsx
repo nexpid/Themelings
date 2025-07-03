@@ -36,17 +36,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = entity.Boolean;
             tangon = report.getGuild;
             entity = argFoo;
-            oscard = tangon.bind(report)(entity);
+            tangon = tangon.bind(report)(entity);
             entity = null;
-            tangon = entity == oscard;
+            report = entity == tangon;
             entity = undefined;
-            if(tangon) { _fun00002_ip = 114; continue _fun00001 }
+            if(report) { _fun00002_ip = 119; continue _fun00001 }
  90:
-            report = oscard.hasFeature;
+            oscard = tangon.features;
+            report = oscard.has;
             tangon = _closure1_slot3;
             tangon = tangon.COMMUNITY;
             entity = report.bind(oscard)(tangon);
- 114:
+ 119:
             entity = michal.bind(zuuluu)(entity);
             return entity;
         }

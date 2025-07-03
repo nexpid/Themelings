@@ -355,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = michal.width;
             michal = entity == sierra;
             entity = null;
-            if(michal) { _fun00008_ip = 821; continue _fun00007 }
+            if(michal) { _fun00008_ip = 817; continue _fun00007 }
  244:
             tangon = _closure1_slot17;
             zuuluu = _closure1_slot4;
@@ -489,7 +489,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 821:
+ 817:
             return entity;
         }
     };

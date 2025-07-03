@@ -46,15 +46,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: useInvitesDisabled
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            golfie = argFoo;
-            var _closure2_slot0 = golfie;
+            oscard = argFoo;
+            var _closure2_slot0 = oscard;
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot1;
             michal = 3;
             zuuluu = zuuluu[michal];
             michal = undefined;
-            oscard = tangon.bind(michal)(zuuluu);
-            tangon = oscard.useStateFromStores;
+            golfie = tangon.bind(michal)(zuuluu);
+            tangon = golfie.useStateFromStores;
             option = _closure1_slot2;
             zuuluu = new Array(1);
             zuuluu[0] = option;
@@ -75,28 +75,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            tangon = tangon.bind(oscard)(zuuluu, entity);
+            tangon = tangon.bind(golfie)(zuuluu, entity);
             zuuluu = null;
-            oscard = zuuluu == golfie;
+            golfie = zuuluu == oscard;
             entity = undefined;
-            if(oscard) { _fun00004_ip = 96; continue _fun00003 }
+            if(golfie) { _fun00004_ip = 101; continue _fun00003 }
  75:
-            oscard = golfie.hasFeature;
+            golfie = oscard.features;
+            oscard = golfie.has;
             report = _closure1_slot4;
             report = report.INVITES_DISABLED;
             entity = oscard.bind(golfie)(report);
- 96:
-            if(entity) { _fun00004_ip = 188; continue _fun00003 }
- 99:
+ 101:
+            if(entity) { _fun00004_ip = 193; continue _fun00003 }
+ 104:
             report = zuuluu == tangon;
             michal = undefined;
-            if(report) { _fun00004_ip = 114; continue _fun00003 }
- 108:
+            if(report) { _fun00004_ip = 119; continue _fun00003 }
+ 113:
             michal = tangon.invitesDisabledUntil;
- 114:
+ 119:
             michal = zuuluu != michal;
-            if(!michal) { _fun00004_ip = 185; continue _fun00003 }
- 121:
+            if(!michal) { _fun00004_ip = 190; continue _fun00003 }
+ 126:
             zuuluu = global;
             oscard = zuuluu.Date;
             offset = tangon.invitesDisabledUntil;
@@ -112,9 +113,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = new yankee[zuuluu](offset);
             zuuluu = zuuluu instanceof Object ? zuuluu : report;
             michal = tangon > zuuluu;
- 185:
+ 190:
             entity = michal;
- 188:
+ 193:
             return entity;
         }
     };

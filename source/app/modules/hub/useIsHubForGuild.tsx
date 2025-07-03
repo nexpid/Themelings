@@ -50,28 +50,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 zuuluu = _closure2_slot0;
                 entity = null;
-                if(!(entity != zuuluu)) { _fun00002_ip = 76; continue _fun00001 }
+                if(!(entity != zuuluu)) { _fun00002_ip = 81; continue _fun00001 }
  13:
                 report = _closure1_slot2;
                 tangon = report.getGuild;
                 michal = _closure2_slot0;
-                report = tangon.bind(report)(michal);
-                tangon = entity == report;
+                tangon = tangon.bind(report)(michal);
+                report = entity == tangon;
                 michal = undefined;
-                if(tangon) { _fun00002_ip = 64; continue _fun00001 }
+                if(report) { _fun00002_ip = 69; continue _fun00001 }
  43:
-                tangon = report.hasFeature;
+                report = tangon.features;
+                tangon = report.has;
                 zuuluu = _closure1_slot3;
                 zuuluu = zuuluu.HUB;
                 michal = tangon.bind(report)(zuuluu);
- 64:
+ 69:
                 entity = entity != michal;
-                if(!entity) { _fun00002_ip = 74; continue _fun00001 }
- 71:
-                entity = michal;
- 74:
-                return entity;
+                if(!entity) { _fun00002_ip = 79; continue _fun00001 }
  76:
+                entity = michal;
+ 79:
+                return entity;
+ 81:
                 entity = false;
                 return entity;
             }

@@ -380,10 +380,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = backup.bind(kiloes)(foxtra);
             tangon['title'] = foxtra;
             foxtra = entity != yankee;
-            if(!foxtra) { _fun00002_ip = 1076; continue _fun00001 }
- 1073:
+            if(!foxtra) { _fun00002_ip = 1074; continue _fun00001 }
+ 1071:
             verify = yankee;
- 1076:
+ 1074:
             tangon['header'] = verify;
             tangon['info'] = entity;
             tangon['tagline'] = entity;
@@ -416,10 +416,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.getAppGradientColors;
             yankee = entity != offset;
             golfie = undefined;
-            if(!yankee) { _fun00002_ip = 1225; continue _fun00001 }
- 1222:
+            if(!yankee) { _fun00002_ip = 1223; continue _fun00001 }
+ 1220:
             golfie = offset;
- 1225:
+ 1223:
             golfie = option.bind(verify)(golfie);
             tangon['gradientColors'] = golfie;
             golfie = 0;

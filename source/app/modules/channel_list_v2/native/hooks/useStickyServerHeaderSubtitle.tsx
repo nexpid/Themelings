@@ -46,20 +46,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                report = _closure2_slot0;
-                tangon = report.hasFeature;
+                entity = _closure2_slot0;
+                report = entity.features;
+                tangon = report.has;
                 entity = _closure1_slot3;
                 entity = entity.COMMUNITY;
                 tangon = tangon.bind(report)(entity);
                 entity = undefined;
-                if(!tangon) { _fun00002_ip = 60; continue _fun00001 }
- 36:
+                if(!tangon) { _fun00002_ip = 65; continue _fun00001 }
+ 41:
                 tangon = _closure1_slot2;
                 zuuluu = tangon.getMemberCount;
                 michal = _closure2_slot0;
                 michal = michal.id;
                 entity = zuuluu.bind(tangon)(michal);
- 60:
+ 65:
                 return entity;
             }
         };

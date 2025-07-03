@@ -69,7 +69,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = zuuluu.getCurrentUser;
                 report = entity.bind(zuuluu)();
                 zuuluu = null;
-                if(!(zuuluu != report)) { _fun00002_ip = 305; continue _fun00001 }
+                if(!(zuuluu != report)) { _fun00002_ip = 312; continue _fun00001 }
  25:
                 tangon = _closure1_slot0;
                 oscard = _closure1_slot1;
@@ -79,35 +79,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(golfie)(entity);
                 entity = tangon.isNewUser;
                 entity = entity.bind(tangon)(report);
-                if(!entity) { _fun00002_ip = 305; continue _fun00001 }
+                if(!entity) { _fun00002_ip = 312; continue _fun00001 }
  64:
                 oscard = _closure1_slot3;
                 report = oscard.getGuild;
-                tangon = _closure2_slot0;
-                report = report.bind(oscard)(tangon);
-                if(!(zuuluu != report)) { _fun00002_ip = 301; continue _fun00001 }
- 92:
-                oscard = report.hasFeature;
-                tangon = _closure1_slot5;
-                tangon = tangon.HUB;
-                oscard = oscard.bind(report)(tangon);
-                tangon = true;
-                if(!(tangon !== oscard)) { _fun00002_ip = 301; continue _fun00001 }
- 122:
-                oscard = _closure1_slot2;
-                tangon = oscard.getSelfMember;
                 entity = _closure2_slot0;
-                oscard = tangon.bind(oscard)(entity);
-                tangon = report.hasFeature;
+                entity = report.bind(oscard)(entity);
+                if(!(zuuluu != entity)) { _fun00002_ip = 308; continue _fun00001 }
+ 92:
+                option = entity.features;
+                oscard = option.has;
+                report = _closure1_slot5;
+                report = report.HUB;
+                report = oscard.bind(option)(report);
+                if(report) { _fun00002_ip = 308; continue _fun00001 }
+ 124:
+                oscard = _closure1_slot2;
+                report = oscard.getSelfMember;
+                tangon = _closure2_slot0;
+                oscard = report.bind(oscard)(tangon);
+                report = entity.features;
+                tangon = report.has;
                 entity = _closure1_slot5;
                 entity = entity.GUILD_ONBOARDING;
                 entity = tangon.bind(report)(entity);
-                if(!entity) { _fun00002_ip = 169; continue _fun00001 }
- 165:
-                entity = zuuluu != oscard;
- 169:
-                if(!entity) { _fun00002_ip = 231; continue _fun00001 }
+                if(!entity) { _fun00002_ip = 176; continue _fun00001 }
  172:
+                entity = zuuluu != oscard;
+ 176:
+                if(!entity) { _fun00002_ip = 238; continue _fun00001 }
+ 179:
                 report = _closure1_slot0;
                 option = _closure1_slot1;
                 tangon = 7;
@@ -117,16 +118,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = oscard.flags;
                 offset = zuuluu != tangon;
                 report = 0;
-                if(!offset) { _fun00002_ip = 215; continue _fun00001 }
- 212:
+                if(!offset) { _fun00002_ip = 222; continue _fun00001 }
+ 219:
                 report = tangon;
- 215:
+ 222:
                 tangon = _closure1_slot6;
                 tangon = tangon.STARTED_ONBOARDING;
                 entity = option.bind(verify)(report, tangon);
- 231:
-                if(!entity) { _fun00002_ip = 296; continue _fun00001 }
- 234:
+ 238:
+                if(!entity) { _fun00002_ip = 303; continue _fun00001 }
+ 241:
                 report = _closure1_slot0;
                 option = _closure1_slot1;
                 tangon = 7;
@@ -136,21 +137,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = oscard.flags;
                 golfie = zuuluu != oscard;
                 zuuluu = 0;
-                if(!golfie) { _fun00002_ip = 277; continue _fun00001 }
- 274:
+                if(!golfie) { _fun00002_ip = 284; continue _fun00001 }
+ 281:
                 zuuluu = oscard;
- 277:
+ 284:
                 michal = _closure1_slot6;
                 michal = michal.COMPLETED_ONBOARDING;
                 michal = tangon.bind(report)(zuuluu, michal);
                 entity = !michal;
- 296:
+ 303:
                 entity = !entity;
                 return entity;
- 301:
+ 308:
                 entity = false;
                 return entity;
- 305:
+ 312:
                 entity = false;
                 return entity;
             }

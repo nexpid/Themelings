@@ -1897,52 +1897,52 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = undefined;
                         tangon = undefined;
                         zuuluu = undefined;
-                        if(michal) { _fun00034_ip = 3452; continue _fun00033 }
+                        if(michal) { _fun00034_ip = 3457; continue _fun00033 }
  938:
                         variable45 = foxtra.value;
                         michal = _closure1_slot29;
                         michal = michal.LIVE_GUILD_STAGE;
-                        if(!(michal !== variable45)) { _fun00034_ip = 3305; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 3310; continue _fun00033 }
  960:
                         michal = _closure1_slot29;
                         michal = michal.LIVE_GUILD_EVENT;
-                        if(!(michal !== variable45)) { _fun00034_ip = 3256; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 3261; continue _fun00033 }
  977:
                         michal = _closure1_slot29;
                         michal = michal.UPCOMING_GUILD_EVENT;
-                        if(!(michal !== variable45)) { _fun00034_ip = 3204; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 3209; continue _fun00033 }
  994:
                         michal = _closure1_slot29;
                         michal = michal.VOICES;
-                        if(!(michal !== variable45)) { _fun00034_ip = 3099; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 3104; continue _fun00033 }
  1011:
                         michal = _closure1_slot29;
                         michal = michal.EMBEDDED_ACTIVITY;
-                        if(!(michal !== variable45)) { _fun00034_ip = 2932; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 2937; continue _fun00033 }
  1028:
                         michal = _closure1_slot29;
                         michal = michal.COMBINED_VC;
-                        if(!(michal !== variable45)) { _fun00034_ip = 2813; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 2818; continue _fun00033 }
  1045:
                         michal = _closure1_slot29;
                         michal = michal.STREAMS;
-                        if(!(michal !== variable45)) { _fun00034_ip = 2708; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 2713; continue _fun00033 }
  1062:
                         michal = _closure1_slot29;
                         michal = michal.USER_CUSTOM_STATUS;
-                        if(!(michal !== variable45)) { _fun00034_ip = 2603; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 2608; continue _fun00033 }
  1079:
                         michal = _closure1_slot29;
                         michal = michal.ACTIVITIES;
-                        if(!(michal !== variable45)) { _fun00034_ip = 2498; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 2503; continue _fun00033 }
  1096:
                         michal = _closure1_slot29;
                         michal = michal.ACTIVE_CHANNEL;
-                        if(!(michal !== variable45)) { _fun00034_ip = 2246; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 2251; continue _fun00033 }
  1113:
                         michal = _closure1_slot29;
                         michal = michal.USER;
-                        if(!(michal !== variable45)) { _fun00034_ip = 1899; continue _fun00033 }
+                        if(!(michal !== variable45)) { _fun00034_ip = 1904; continue _fun00033 }
  1130:
                         michal = _closure1_slot29;
                         michal = michal.STUDENT_HUB_ADD_CHANNEL;
@@ -1976,7 +1976,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        _fun00034_ip = 3404; continue _fun00033;
+                        _fun00034_ip = 3409; continue _fun00033;
  1258:
                         michal = _closure2_slot14;
                         michal = variable36 != michal;
@@ -2011,7 +2011,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        if(!michal) { _fun00034_ip = 3404; continue _fun00033 }
+                        if(!michal) { _fun00034_ip = 3409; continue _fun00033 }
  1364:
                         variable54 = entity.push;
                         michal = {};
@@ -2030,7 +2030,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        _fun00034_ip = 3404; continue _fun00033;
+                        _fun00034_ip = 3409; continue _fun00033;
  1428:
                         michal = _closure2_slot14;
                         michal = variable36 != michal;
@@ -2060,7 +2060,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        if(!michal) { _fun00034_ip = 3404; continue _fun00033 }
+                        if(!michal) { _fun00034_ip = 3409; continue _fun00033 }
  1523:
                         variable54 = entity.push;
                         michal = {};
@@ -2079,7 +2079,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        _fun00034_ip = 3404; continue _fun00033;
+                        _fun00034_ip = 3409; continue _fun00033;
  1587:
                         michal = _closure2_slot14;
                         michal = variable36 != michal;
@@ -2115,7 +2115,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        if(!michal) { _fun00034_ip = 3404; continue _fun00033 }
+                        if(!michal) { _fun00034_ip = 3409; continue _fun00033 }
  1699:
                         variable54 = entity.push;
                         michal = {};
@@ -2134,18 +2134,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        _fun00034_ip = 3404; continue _fun00033;
+                        _fun00034_ip = 3409; continue _fun00033;
  1763:
                         michal = _closure2_slot14;
                         michal = variable36 != michal;
-                        if(!michal) { _fun00034_ip = 1799; continue _fun00033 }
+                        if(!michal) { _fun00034_ip = 1804; continue _fun00033 }
  1774:
-                        variable56 = _closure2_slot14;
-                        variable55 = variable56.hasFeature;
+                        variable54 = _closure2_slot14;
+                        variable56 = variable54.features;
+                        variable55 = variable56.has;
                         variable54 = _closure1_slot31;
                         variable54 = variable54.HUB;
                         michal = variable55.bind(variable56)(variable54);
- 1799:
+ 1804:
                         variable53 = romeon;
                         variable52 = yankee;
                         variable51 = offset;
@@ -2156,8 +2157,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        if(!michal) { _fun00034_ip = 3404; continue _fun00033 }
- 1835:
+                        if(!michal) { _fun00034_ip = 3409; continue _fun00033 }
+ 1840:
                         variable54 = entity.push;
                         michal = {};
                         michal['kind'] = echoed;
@@ -2175,8 +2176,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        _fun00034_ip = 3404; continue _fun00033;
- 1899:
+                        _fun00034_ip = 3409; continue _fun00033;
+ 1904:
                         michal = cntext.length;
                         variable58 = variable39 < michal;
                         variable55 = 0;
@@ -2184,39 +2185,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = 0;
                         variable57 = 0;
                         variable56 = report;
-                        if(!variable58) { _fun00034_ip = 2015; continue _fun00033 }
- 1922:
+                        if(!variable58) { _fun00034_ip = 2020; continue _fun00033 }
+ 1927:
                         variable59 = cntext[variable54];
                         variable58 = _closure2_slot2;
                         variable60 = variable36 != variable58;
-                        if(!variable60) { _fun00034_ip = 1956; continue _fun00033 }
- 1937:
+                        if(!variable60) { _fun00034_ip = 1961; continue _fun00033 }
+ 1942:
                         variable62 = _closure2_slot2;
                         variable61 = variable62.has;
                         variable58 = variable59.userId;
                         variable60 = variable61.bind(variable62)(variable58);
- 1956:
+ 1961:
                         variable58 = variable55;
-                        if(variable60) { _fun00034_ip = 1975; continue _fun00033 }
- 1962:
+                        if(variable60) { _fun00034_ip = 1980; continue _fun00033 }
+ 1967:
                         variable60 = entity.push;
                         variable60 = variable60.bind(entity)(variable59);
                         variable58 = variable55 + 1;
- 1975:
+ 1980:
                         variable60 = variable54 + 1;
                         variable61 = cntext.length;
                         michal = variable58;
                         variable57 = variable60;
                         variable56 = variable59;
-                        if(!(variable60 < variable61)) { _fun00034_ip = 2015; continue _fun00033 }
- 1996:
+                        if(!(variable60 < variable61)) { _fun00034_ip = 2020; continue _fun00033 }
+ 2001:
                         variable55 = variable58;
                         variable54 = variable60;
                         variable57 = variable54;
                         variable56 = variable59;
                         michal = variable55;
-                        if(michal < variable40) { _fun00034_ip = 1922; continue _fun00033 }
- 2015:
+                        if(michal < variable40) { _fun00034_ip = 1927; continue _fun00033 }
+ 2020:
                         variable54 = record.length;
                         variable54 = variable39 < variable54;
                         variable53 = romeon;
@@ -2229,8 +2230,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = variable56;
                         variable45 = 0;
                         variable44 = zuuluu;
-                        if(!variable54) { _fun00034_ip = 3404; continue _fun00033 }
- 2059:
+                        if(!variable54) { _fun00034_ip = 3409; continue _fun00033 }
+ 2064:
                         variable55 = michal;
                         variable54 = 0;
                         variable53 = romeon;
@@ -2243,25 +2244,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = variable56;
                         variable45 = 0;
                         variable44 = zuuluu;
-                        if(!(michal < variable40)) { _fun00034_ip = 3404; continue _fun00033 }
- 2100:
+                        if(!(michal < variable40)) { _fun00034_ip = 3409; continue _fun00033 }
+ 2105:
                         variable58 = record[variable54];
                         michal = _closure2_slot2;
                         variable59 = variable36 != michal;
-                        if(!variable59) { _fun00034_ip = 2134; continue _fun00033 }
- 2115:
+                        if(!variable59) { _fun00034_ip = 2139; continue _fun00033 }
+ 2120:
                         variable61 = _closure2_slot2;
                         variable60 = variable61.has;
                         michal = variable58.userId;
                         variable59 = variable60.bind(variable61)(michal);
- 2134:
+ 2139:
                         michal = variable55;
-                        if(variable59) { _fun00034_ip = 2153; continue _fun00033 }
- 2140:
+                        if(variable59) { _fun00034_ip = 2158; continue _fun00033 }
+ 2145:
                         variable59 = entity.push;
                         variable59 = variable59.bind(entity)(variable58);
                         michal = variable55 + 1;
- 2153:
+ 2158:
                         variable59 = variable54 + 1;
                         variable60 = record.length;
                         variable53 = romeon;
@@ -2274,8 +2275,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = variable56;
                         variable44 = variable58;
                         variable45 = variable59;
-                        if(!(variable45 < variable60)) { _fun00034_ip = 3404; continue _fun00033 }
- 2198:
+                        if(!(variable45 < variable60)) { _fun00034_ip = 3409; continue _fun00033 }
+ 2203:
                         variable55 = michal;
                         variable54 = variable59;
                         variable53 = romeon;
@@ -2288,10 +2289,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = variable56;
                         variable45 = variable54;
                         variable44 = variable58;
-                        if(michal < variable40) { _fun00034_ip = 2100; continue _fun00033 }
- 2241:
-                        _fun00034_ip = 3404; continue _fun00033;
+                        if(michal < variable40) { _fun00034_ip = 2105; continue _fun00033 }
  2246:
+                        _fun00034_ip = 3409; continue _fun00033;
+ 2251:
                         michal = _closure2_slot1;
                         variable53 = romeon;
                         variable52 = yankee;
@@ -2303,8 +2304,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        if(!(variable36 != michal)) { _fun00034_ip = 3404; continue _fun00033 }
- 2287:
+                        if(!(variable36 != michal)) { _fun00034_ip = 3409; continue _fun00033 }
+ 2292:
                         variable54 = _closure1_slot0;
                         michal = _closure1_slot2;
                         michal = michal[ctrled];
@@ -2337,8 +2338,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable46 = report;
                         variable45 = tangon;
                         variable44 = zuuluu;
-                        if(!variable56) { _fun00034_ip = 3404; continue _fun00033 }
- 2419:
+                        if(!variable56) { _fun00034_ip = 3409; continue _fun00033 }
+ 2424:
                         variable57 = entity.push;
                         variable56 = {};
                         variable56['kind'] = update;
@@ -2359,10 +2360,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable45 = tangon;
                         variable44 = zuuluu;
                         variable49 = michal;
-                        if(variable49 < variable54) { _fun00034_ip = 2419; continue _fun00033 }
- 2493:
-                        _fun00034_ip = 3404; continue _fun00033;
+                        if(variable49 < variable54) { _fun00034_ip = 2424; continue _fun00033 }
  2498:
+                        _fun00034_ip = 3409; continue _fun00033;
+ 2503:
                         variable56 = target;
                         variable53 = romeon;
                         variable52 = yankee;
@@ -2375,7 +2376,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         variable45 = tangon;
                         variable44 = zuuluu;
                         for(michal in variable56)
- 2542:
+ 2547:
                         {
                             variable53 = romeon;
                             variable52 = yankee;
@@ -2387,13 +2388,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             variable46 = report;
                             variable45 = tangon;
                             variable44 = zuuluu;
- 2584:
+ 2589:
                             variable58 = michal;
                             variable59 = entity.push;
                             variable58 = target[variable58];
                             variable58 = variable59.bind(entity)(variable58);
-                            _fun00034_ip = 2542; continue _fun00033;
- 2603:
+                            _fun00034_ip = 2547; continue _fun00033;
+ 2608:
                             variable56 = papara;
                             variable53 = romeon;
                             variable52 = yankee;
@@ -2406,7 +2407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             variable45 = tangon;
                             variable44 = zuuluu;
                             for(michal in variable56)
- 2647:
+ 2652:
                             {
                                 variable53 = romeon;
                                 variable52 = yankee;
@@ -2418,13 +2419,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 variable46 = report;
                                 variable45 = tangon;
                                 variable44 = zuuluu;
- 2689:
+ 2694:
                                 variable58 = michal;
                                 variable59 = entity.push;
                                 variable58 = papara[variable58];
                                 variable58 = variable59.bind(entity)(variable58);
-                                _fun00034_ip = 2647; continue _fun00033;
- 2708:
+                                _fun00034_ip = 2652; continue _fun00033;
+ 2713:
                                 variable56 = status;
                                 variable53 = romeon;
                                 variable52 = yankee;
@@ -2437,7 +2438,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 variable45 = tangon;
                                 variable44 = zuuluu;
                                 for(michal in variable56)
- 2752:
+ 2757:
                                 {
                                     variable53 = romeon;
                                     variable52 = yankee;
@@ -2449,13 +2450,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     variable46 = report;
                                     variable45 = tangon;
                                     variable44 = zuuluu;
- 2794:
+ 2799:
                                     variable58 = michal;
                                     variable59 = entity.push;
                                     variable58 = status[variable58];
                                     variable58 = variable59.bind(entity)(variable58);
-                                    _fun00034_ip = 2752; continue _fun00033;
- 2813:
+                                    _fun00034_ip = 2757; continue _fun00033;
+ 2818:
                                     variable56 = limora;
                                     variable53 = romeon;
                                     variable52 = yankee;
@@ -2468,7 +2469,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                     variable45 = tangon;
                                     variable44 = zuuluu;
                                     for(michal in variable56)
- 2857:
+ 2862:
                                     {
                                         variable53 = romeon;
                                         variable52 = yankee;
@@ -2480,7 +2481,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                         variable46 = report;
                                         variable45 = tangon;
                                         variable44 = zuuluu;
- 2899:
+ 2904:
                                         variable60 = michal;
                                         variable59 = entity.push;
                                         variable58 = {};
@@ -2489,8 +2490,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                         variable60 = copyDataProperties(variable66, variable65);
                                         variable58[vacuum] = sequen;
                                         variable58 = variable59.bind(entity)(variable58);
-                                        _fun00034_ip = 2857; continue _fun00033;
- 2932:
+                                        _fun00034_ip = 2862; continue _fun00033;
+ 2937:
                                         variable61 = sierra;
                                         variable57 = romeon;
                                         variable56 = yankee;
@@ -2505,7 +2506,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                         variable45 = tangon;
                                         variable44 = zuuluu;
                                         for(variable58 in variable61)
- 2982:
+ 2987:
                                         {
                                             variable53 = variable57;
                                             variable52 = variable56;
@@ -2517,7 +2518,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             variable46 = report;
                                             variable45 = tangon;
                                             variable44 = zuuluu;
- 3024:
+ 3029:
                                             michal = variable58;
                                             variable54 = _closure1_slot35;
                                             michal = sierra[michal];
@@ -2527,8 +2528,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             variable57 = variable54;
                                             variable56 = variable55;
                                             variable54 = variable57;
-                                            if(michal) { _fun00034_ip = 2982; continue _fun00033 }
- 3061:
+                                            if(michal) { _fun00034_ip = 2987; continue _fun00033 }
+ 3066:
                                             variable63 = variable54.value;
                                             michal = entity.push;
                                             michal = michal.bind(entity)(variable63);
@@ -2537,10 +2538,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             variable57 = variable63;
                                             variable56 = variable55;
                                             variable54 = variable57;
-                                            if(michal) { _fun00034_ip = 2982; continue _fun00033 }
- 3097:
-                                            _fun00034_ip = 3061; continue _fun00033;
- 3099:
+                                            if(michal) { _fun00034_ip = 2987; continue _fun00033 }
+ 3102:
+                                            _fun00034_ip = 3066; continue _fun00033;
+ 3104:
                                             variable56 = limora;
                                             variable53 = romeon;
                                             variable52 = yankee;
@@ -2553,7 +2554,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                             variable45 = tangon;
                                             variable44 = zuuluu;
                                             for(michal in variable56)
- 3143:
+ 3148:
                                             {
                                                 variable53 = romeon;
                                                 variable52 = yankee;
@@ -2565,13 +2566,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 variable46 = report;
                                                 variable45 = tangon;
                                                 variable44 = zuuluu;
- 3185:
+ 3190:
                                                 variable58 = michal;
                                                 variable59 = entity.push;
                                                 variable58 = limora[variable58];
                                                 variable58 = variable59.bind(entity)(variable58);
-                                                _fun00034_ip = 3143; continue _fun00033;
- 3204:
+                                                _fun00034_ip = 3148; continue _fun00033;
+ 3209:
                                                 variable54 = equals.forEach;
                                                 michal = function(argFoo) {
                                                     zuuluu = _closure4_slot12;
@@ -2593,8 +2594,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 variable46 = report;
                                                 variable45 = tangon;
                                                 variable44 = zuuluu;
-                                                _fun00034_ip = 3404; continue _fun00033;
- 3256:
+                                                _fun00034_ip = 3409; continue _fun00033;
+ 3261:
                                                 variable54 = quebec.forEach;
                                                 michal = function(argFoo) {
                                                     zuuluu = _closure4_slot12;
@@ -2616,8 +2617,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 variable46 = report;
                                                 variable45 = tangon;
                                                 variable44 = zuuluu;
-                                                _fun00034_ip = 3404; continue _fun00033;
- 3305:
+                                                _fun00034_ip = 3409; continue _fun00033;
+ 3310:
                                                 variable56 = whisks;
                                                 variable53 = romeon;
                                                 variable52 = yankee;
@@ -2630,7 +2631,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                 variable45 = tangon;
                                                 variable44 = zuuluu;
                                                 for(michal in variable56)
- 3346:
+ 3351:
                                                 {
                                                     variable53 = romeon;
                                                     variable52 = yankee;
@@ -2642,12 +2643,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                                     variable46 = report;
                                                     variable45 = tangon;
                                                     variable44 = zuuluu;
- 3385:
+ 3390:
                                                     variable58 = michal;
                                                     variable59 = entity.push;
                                                     variable58 = whisks[variable58];
                                                     variable58 = variable59.bind(entity)(variable58);
-                                                    _fun00034_ip = 3346; continue _fun00033;
+                                                    _fun00034_ip = 3351; continue _fun00033;
                                                 }
                                             }
                                         }
@@ -2655,7 +2656,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 }
                             }
                         }
- 3404:
+ 3409:
                         variable54 = config.bind(variable37)();
                         michal = variable54.done;
                         romeon = variable53;
@@ -2670,7 +2671,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = variable44;
                         foxtra = variable54;
                         if(!michal) { _fun00034_ip = 938; continue _fun00033 }
- 3452:
+ 3457:
                         return entity;
                     }
                 };

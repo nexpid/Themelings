@@ -203,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 136; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 132; continue _fun00005 }
  10:
                     option = _closure1_slot0;
                     verify = _closure1_slot1;
@@ -222,28 +222,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = option.bind(verify)(golfie);
                     michal['url'] = golfie;
                     michal = report.bind(oscard)(michal);
-                    SaveGenerator(address=102);
- 100:
+                    SaveGenerator(address=98);
+ 96:
                     return michal;
- 102:
+ 98:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00006_ip = 133; continue _fun00005 }
- 108:
+                    if(report) { _fun00006_ip = 129; continue _fun00005 }
+ 104:
                     zuuluu = _closure1_slot2;
                     zuuluu = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=121);
- 119:
+                    SaveGenerator(address=117);
+ 115:
                     return zuuluu;
- 121:
+ 117:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 130; continue _fun00005 }
- 127:
+                    if(tangon) { _fun00006_ip = 126; continue _fun00005 }
+ 123:
                     return michal;
- 130:
+ 126:
                     return zuuluu;
- 133:
+ 129:
                     return michal;
- 136:
+ 132:
                     return entity;
                 }
             };
