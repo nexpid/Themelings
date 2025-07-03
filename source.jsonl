@@ -5579,7 +5579,7 @@
 { "file": "app/modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingProgressBar.tsx", "size": 18506 }
 { "file": "app/modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingProgressBarMarker.tsx", "size": 24174 }
 { "file": "app/design/components/Icon/native/redesign/generated/BoostSlashIcon.tsx", "size": 2702 }
-{ "file": "app/modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingTierCards.tsx", "size": 88284 }
+{ "file": "app/modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingTierCards.tsx", "size": 88282 }
 { "file": "app/design/components/Icon/native/redesign/generated/ScreenArrowIcon.tsx", "size": 2704 }
 { "file": "app/design/components/Icon/native/redesign/generated/ServerGridIcon.tsx", "size": 2702 }
 { "file": "app/modules/guild_boosting/native/marketing_redesign/GuildBoostingMarketingBoosterRecognitionCards.tsx", "size": 9736 }
@@ -5709,7 +5709,7 @@
 { "file": "app/utils/ProcessUtilsBase.tsx", "size": 2181 }
 { "file": "app/lib/SystemResponsiveness.tsx", "size": 13764 }
 { "file": "app/lib/VoiceDuration.tsx", "size": 32425 }
-{ "file": "app/lib/VideoQuality.tsx", "size": 157424 }
+{ "file": "app/lib/VideoQuality.tsx", "size": 156416 }
 { "file": "app/lib/VideoHealthManager.tsx", "size": 27732 }
 { "file": "app/modules/media_engine/dispatchAutoDisableVideo.tsx", "size": 2253 }
 { "file": "app/modules/media_engine/BandwidthEstimationExperiment.tsx", "size": 12842 }
@@ -6581,7 +6581,7 @@
 { "file": "app/modules/group_dm/getGroupDMRecipientLimit.tsx", "size": 2143 }
 { "file": "app/modules/keyboard/native/PortalKeyboardRenderer.tsx", "size": 10816 }
 { "file": "app/modules/keyboard/native/PortalKeyboardRendererComponent.tsx", "size": 7215 }
-{ "file": "app/modules/app_launcher/native/AppLauncherKeyboard.tsx", "size": 27077 }
+{ "file": "app/modules/app_launcher/native/AppLauncherKeyboard.tsx", "size": 27774 }
 { "file": "app/modules/keyboard/native/PortalKeyboardConstants.tsx", "size": 967 }
 { "file": "app/modules/app_launcher/native/onboarding/utils/completeAppLauncherOnboarding.tsx", "size": 2380 }
 { "file": "app/modules/app_launcher/native/onboarding/banner/AppLauncherOnboardingLayer.tsx", "size": 3480 }
@@ -7033,7 +7033,7 @@
 { "file": "app/modules/calls/mobile/CallKitManager.android.tsx", "size": 5324 }
 { "file": "app/modules/analytics/NoRenderBackgroundAppExperiment.tsx", "size": 1288 }
 { "file": "app/modules/app_startup/native/executeRunnable.tsx", "size": 6488 }
-{ "file": "app/modules/app_startup/native/NativeAppStartup.tsx", "size": 86883 }
+{ "file": "app/modules/app_startup/native/NativeAppStartup.tsx", "size": 87893 }
 { "file": "app/i18n/native/index.tsx", "size": 622 }
 { "file": "app/i18n/native/updateRules.tsx", "size": 10592 }
 { "file": "app/lib/superagentPatch.tsx", "size": 36179 }

@@ -208,10 +208,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = tangon.bind(report)(michal, zuuluu);
             michal = null;
-            if(!(michal == entity)) { _fun00004_ip = 118; continue _fun00003 }
+            if(!(michal == entity)) { _fun00004_ip = 122; continue _fun00003 }
  108:
             entity = {'loading': true, 'note': null};
- 118:
+ 122:
             return entity;
         }
     };
