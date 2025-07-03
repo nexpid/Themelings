@@ -4767,16 +4767,6 @@
         "width": 16,
         "height": 16
     },
-    "ic_discoverable_globe_guild_badge_light": {
-        "file": "images/native/icons/ic_discoverable_globe_guild_badge_light.png",
-        "hash": "bb7105b98490d0f2f1f6d3bd526a9b60",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 14,
-        "height": 14
-    },
     "ic_discoverable_guild_badge_dark_24px": {
         "file": "images/native/icons/ic_discoverable_guild_badge_dark_24px.png",
         "hash": "da49fe1fcc1d15f812a95db2869d9ae7",
@@ -9132,14 +9122,14 @@
         "height": 80
     },
     "img_nitro_badge": {
-        "file": "images/native/premium/upsell/img_nitro_badge.png",
-        "hash": "ff5825c454c175379e6be98cbe46511a",
+        "file": "images/native/premium/perks/img_nitro_badge.png",
+        "hash": "9d054f4a2e6965892d17aa00d900146e",
         "scales": [
             2,
             3
         ],
-        "width": 120,
-        "height": 80
+        "width": 24,
+        "height": 24
     },
     "img_nitro_basic": {
         "file": "images/native/premium/perks/img_nitro_basic.png",
@@ -10927,13 +10917,15 @@
         "height": 52
     },
     "mallow": {
-        "file": "modules/nuf_channels/native/images/mallow.png",
-        "hash": "94bb0fdcfba6a856a1567cdd4f281049",
+        "file": "modules/contact_sync/native/images/mallow.png",
+        "hash": "22ff64f3c42212e7404d5af41f019eda",
         "scales": [
-            1
+            1,
+            2,
+            3
         ],
-        "width": 120,
-        "height": 120
+        "width": 102,
+        "height": 106
     },
     "mallow_1": {
         "file": "images/native/avatars/mallow_1.png",
@@ -13480,6 +13472,16 @@
         "width": 24,
         "height": 24
     },
+    "ThreadMinusIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/ThreadMinusIcon.png",
+        "hash": "2afa76cb73cd0530bf7b369abfc4f5d6",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
     "ThreadPlusIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/ThreadPlusIcon.png",
         "hash": "dfc732054137add14f7eba7bbb6a477f",
@@ -13960,12 +13962,11 @@
         "height": 1320
     },
     "video": {
-        "file": "modules/voice_panel/native/images/video.png",
-        "hash": "a9d9f17a82c0681a83d7c3c4c21e6009",
+        "file": "images/native/icons/voice_calls/video.png",
+        "hash": "c902e6fcc190a5ea75515cf2b526309d",
         "scales": [
             2,
-            3,
-            4
+            3
         ],
         "width": 24,
         "height": 24
