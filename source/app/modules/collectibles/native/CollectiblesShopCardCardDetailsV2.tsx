@@ -100,16 +100,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.bind(zuuluu)(option, golfie);
                 kiloes = entity.discountPercentage;
                 entity = 'partiallyOwnedBundle';
-                if(!(entity !== michal)) { _fun00004_ip = 780; continue _fun00003 }
+                if(!(entity !== michal)) { _fun00004_ip = 796; continue _fun00003 }
  110:
                 entity = 'purchased';
-                if(!(entity !== michal)) { _fun00004_ip = 656; continue _fun00003 }
+                if(!(entity !== michal)) { _fun00004_ip = 668; continue _fun00003 }
  121:
                 entity = 'nitroUpsell';
-                if(!(entity !== michal)) { _fun00004_ip = 532; continue _fun00003 }
+                if(!(entity !== michal)) { _fun00004_ip = 540; continue _fun00003 }
  132:
                 entity = 'nitroClaim';
-                if(!(entity !== michal)) { _fun00004_ip = 406; continue _fun00003 }
+                if(!(entity !== michal)) { _fun00004_ip = 410; continue _fun00003 }
  145:
                 zuuluu = _closure1_slot6;
                 michal = _closure1_slot3;
@@ -146,8 +146,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie[1] = option;
                 option = 0;
                 option = kiloes > option;
-                if(!option) { _fun00004_ip = 390; continue _fun00003 }
- 301:
+                if(!option) { _fun00004_ip = 394; continue _fun00003 }
+ 305:
                 yankee = _closure1_slot5;
                 offset = _closure1_slot0;
                 verify = _closure1_slot2;
@@ -165,12 +165,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = backup.bind(foxtra)(kiloes, romeon);
                 verify['children'] = romeon;
                 option = yankee.bind(tangon)(offset, verify);
- 390:
+ 394:
                 golfie[2] = option;
                 entity['children'] = golfie;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
- 406:
+ 410:
                 zuuluu = _closure1_slot5;
                 michal = _closure1_slot3;
                 entity = {};
@@ -198,7 +198,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['children'] = golfie;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
- 532:
+ 540:
                 zuuluu = _closure1_slot5;
                 michal = _closure1_slot3;
                 entity = {};
@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['children'] = golfie;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
- 656:
+ 668:
                 zuuluu = _closure1_slot5;
                 michal = _closure1_slot3;
                 entity = {};
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity['children'] = golfie;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
- 780:
+ 796:
                 zuuluu = _closure1_slot5;
                 michal = _closure1_slot3;
                 entity = {};

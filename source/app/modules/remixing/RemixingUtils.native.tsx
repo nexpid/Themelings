@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = argBar;
                     yankee = argCor;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 371; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 373; continue _fun00001 }
  21:
                     zuuluu = undefined;
                     var _closure4_slot0 = zuuluu;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     return michal;
  77:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 368; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 370; continue _fun00001 }
  86:
                     offset = {};
                     offset['uri'] = oscard;
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = report.bind(oscard)(yankee);
                     _closure4_slot0 = report;
                     oscard = null;
-                    if(!(oscard != report)) { _fun00002_ip = 365; continue _fun00001 }
+                    if(!(oscard != report)) { _fun00002_ip = 367; continue _fun00001 }
  200:
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
@@ -135,11 +135,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     foxtra = undefined;
                     romeon = tangon;
                     tangon = sizing[golfie](kiloes, backup, foxtra, romeon, yankee);
- 365:
+ 367:
                     return zuuluu;
- 368:
+ 370:
                     return michal;
- 371:
+ 373:
                     return entity;
                 }
             };
@@ -162,20 +162,20 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = argBar;
             var _closure2_slot0 = tangon;
             golfie = null;
-            if(!(golfie != tangon)) { _fun00004_ip = 319; continue _fun00003 }
+            if(!(golfie != tangon)) { _fun00004_ip = 321; continue _fun00003 }
  21:
             michal = tangon.width;
-            if(!(golfie != michal)) { _fun00004_ip = 319; continue _fun00003 }
+            if(!(golfie != michal)) { _fun00004_ip = 321; continue _fun00003 }
  33:
             michal = tangon.width;
             report = 0;
-            if(!(!(michal <= report))) { _fun00004_ip = 319; continue _fun00003 }
+            if(!(!(michal <= report))) { _fun00004_ip = 321; continue _fun00003 }
  47:
             michal = tangon.height;
-            if(!(golfie != michal)) { _fun00004_ip = 319; continue _fun00003 }
+            if(!(golfie != michal)) { _fun00004_ip = 321; continue _fun00003 }
  59:
             michal = tangon.height;
-            if(!(!(michal <= report))) { _fun00004_ip = 319; continue _fun00003 }
+            if(!(!(michal <= report))) { _fun00004_ip = 321; continue _fun00003 }
  71:
             option = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -187,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = tangon.url;
             oscard = _closure1_slot13;
             oscard = verify.bind(offset)(option, oscard);
-            if(oscard) { _fun00004_ip = 319; continue _fun00003 }
+            if(oscard) { _fun00004_ip = 321; continue _fun00003 }
  123:
             verify = _closure1_slot8;
             option = verify.getChannel;
@@ -231,10 +231,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['channelId'] = option;
             golfie = golfie == oscard;
             report = undefined;
-            if(golfie) { _fun00004_ip = 274; continue _fun00003 }
- 269:
+            if(golfie) { _fun00004_ip = 276; continue _fun00003 }
+ 271:
             report = oscard.guild_id;
- 274:
+ 276:
             entity['guildId'] = report;
             report = tangon.width;
             entity['width'] = report;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['messageId'] = zuuluu;
             entity['mediaIndex'] = michal;
             return entity;
- 319:
+ 321:
             entity = undefined;
             return entity;
         }

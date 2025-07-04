@@ -381,7 +381,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = 14;
             michal = output[michal];
             option = golfie.bind(tangon)(michal);
-            michal = option.getAdUser;
+            michal = option.useAdUser;
             michal = michal.bind(option)();
             _closure2_slot4 = michal;
             michal = 15;

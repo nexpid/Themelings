@@ -76,7 +76,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = 2;
             zuuluu = golfie[zuuluu];
             zuuluu = tangon.bind(oscard)(zuuluu);
-            golfie = zuuluu.AVHoldoutExperiment;
+            golfie = zuuluu.AVHoldoutExperimentH12025;
             oscard = golfie.getCurrentConfig;
             tangon = {};
             tangon['location'] = entity;

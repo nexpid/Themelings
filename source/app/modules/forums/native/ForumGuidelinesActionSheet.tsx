@@ -571,7 +571,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             record = sequen.bind(tangon)(vacuum);
             config = record.parseForumPostGuidelines;
             sequen = papara.topic;
-            vacuum = {'channelId': null, 'allowHeading': true, 'allowList': true};
+            vacuum = {'channelId': null, 'allowHeading': true, 'allowList': true, 'allowLinks': true};
             papara = papara.id;
             vacuum['channelId'] = papara;
             vacuum = config.bind(record)(sequen, cntext, vacuum);

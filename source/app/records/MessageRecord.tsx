@@ -978,7 +978,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 zuuluu = option.bind(yankee)(zuuluu);
                 entity = _closure3_slot4;
-                if(!(golfie === entity)) { _fun00016_ip = 481; continue _fun00015 }
+                if(!(golfie === entity)) { _fun00016_ip = 477; continue _fun00015 }
  130:
                 golfie = _closure1_slot0;
                 entity = _closure1_slot2;
@@ -1006,7 +1006,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = new Array(0);
                 entity['burst_colors'] = golfie;
                 entity = michal.bind(zuuluu)(entity);
-                _fun00016_ip = 481; continue _fun00015;
+                _fun00016_ip = 477; continue _fun00015;
  267:
                 michal = zuuluu.push;
                 entity = {'emoji': null, 'me': false, 'me_burst': false, 'me_vote': null, 'count': 0, 'count_details': null, 'burst_count': 0};
@@ -1017,7 +1017,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = new Array(0);
                 entity['burst_colors'] = golfie;
                 entity = michal.bind(zuuluu)(entity);
-                _fun00016_ip = 481; continue _fun00015;
+                _fun00016_ip = 477; continue _fun00015;
  337:
                 michal = zuuluu.push;
                 entity = {'emoji': null, 'me': false, 'me_burst': null, 'count': 0, 'count_details': null, 'burst_count': 1};
@@ -1034,10 +1034,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = golfie.buildPlatformedThemedEmojiColorPalette;
                 report = {};
                 yankee = null;
-                if(!(yankee == verify)) { _fun00016_ip = 427; continue _fun00015 }
- 423:
+                if(!(yankee == verify)) { _fun00016_ip = 423; continue _fun00015 }
+ 419:
                 verify = new Array(0);
- 427:
+ 423:
                 report['colors'] = verify;
                 verify = _closure1_slot0;
                 yankee = _closure1_slot2;
@@ -1050,7 +1050,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.bind(golfie)(report);
                 entity['themedBurstColors'] = report;
                 entity = michal.bind(zuuluu)(entity);
- 481:
+ 477:
                 michal = tangon.set;
                 entity = 'reactions';
                 entity = michal.bind(tangon)(entity, zuuluu);

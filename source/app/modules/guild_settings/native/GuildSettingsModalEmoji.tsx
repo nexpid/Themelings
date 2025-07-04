@@ -220,25 +220,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(romeon)(tangon);
     var _closure1_slot21 = tangon;
     report = function(argFoo, argBar, argBaz) { // Original name: computeSectionItem
-        report = _closure1_slot0;
-        oscard = _closure1_slot2;
-        entity = 15;
-        zuuluu = oscard[entity];
-        michal = undefined;
-        zuuluu = report.bind(michal)(zuuluu);
-        tangon = zuuluu.intl;
-        zuuluu = tangon.formatToPlainString;
-        entity = oscard[entity];
-        entity = report.bind(michal)(entity);
-        entity = entity.t;
-        michal = entity.sgL8sL;
-        entity = {};
-        oscard = argBaz;
-        report = argBar;
-        report = oscard - report;
-        entity['count'] = report;
-        report = zuuluu.bind(tangon)(michal, entity);
         entity = global;
+        report = entity.Math;
+        tangon = report.max;
+        zuuluu = argBaz;
+        michal = argBar;
+        zuuluu = zuuluu - michal;
+        michal = 0;
+        oscard = tangon.bind(report)(zuuluu, michal);
+        golfie = _closure1_slot0;
+        option = _closure1_slot2;
+        michal = 15;
+        tangon = option[michal];
+        zuuluu = undefined;
+        tangon = golfie.bind(zuuluu)(tangon);
+        report = tangon.intl;
+        tangon = report.formatToPlainString;
+        michal = option[michal];
+        michal = golfie.bind(zuuluu)(michal);
+        michal = michal.t;
+        zuuluu = michal.sgL8sL;
+        michal = {};
+        michal['count'] = oscard;
+        report = tangon.bind(report)(zuuluu, michal);
         entity = entity.HermesInternal;
         tangon = entity.concat;
         zuuluu = '';
@@ -446,7 +450,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  42:
                         michal = report.type;
                         entity = 'SECTION';
-                        if(!(entity !== michal)) { _fun00010_ip = 134; continue _fun00009 }
+                        if(!(entity !== michal)) { _fun00010_ip = 152; continue _fun00009 }
  55:
                         entity = 'EMOJI';
                         if(!(entity !== michal)) { _fun00010_ip = 67; continue _fun00009 }
@@ -466,10 +470,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity['emoji'] = option;
                         golfie = golfie.id;
                         entity['guildId'] = golfie;
+                        if(oscard) { _fun00010_ip = 140; continue _fun00009 }
+ 125:
+                        golfie = report.emoji;
+                        golfie = golfie.available;
+                        oscard = !golfie;
+ 140:
                         entity['disabled'] = oscard;
                         entity = zuuluu.bind(tangon)(michal, entity);
                         return entity;
- 134:
+ 152:
                         zuuluu = _closure1_slot16;
                         michal = _closure1_slot0;
                         oscard = _closure1_slot2;

@@ -53,14 +53,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon.bind(report)(michal);
             michal = argFoo;
             michal = tangon.bind(report)(michal);
-            if(!entity) { _fun00002_ip = 95; continue _fun00001 }
- 92:
+            if(!entity) { _fun00002_ip = 97; continue _fun00001 }
+ 94:
             entity = zuuluu;
- 95:
-            if(!entity) { _fun00002_ip = 101; continue _fun00001 }
- 98:
+ 97:
+            if(!entity) { _fun00002_ip = 103; continue _fun00001 }
+ 100:
             entity = michal;
- 101:
+ 103:
             return entity;
         }
     };
@@ -102,10 +102,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             michal = tangon.bind(report)(michal, zuuluu);
-            if(!entity) { _fun00004_ip = 64; continue _fun00003 }
- 61:
+            if(!entity) { _fun00004_ip = 66; continue _fun00003 }
+ 63:
             entity = michal;
- 64:
+ 66:
             return entity;
         }
     };

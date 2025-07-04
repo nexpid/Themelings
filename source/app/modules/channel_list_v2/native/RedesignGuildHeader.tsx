@@ -299,12 +299,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['opacity'] = michal;
                     zuuluu = {};
                     tangon = 0;
-                    if(!(!(report >= tangon))) { _fun00006_ip = 116; continue _fun00005 }
- 107:
+                    if(!(!(report >= tangon))) { _fun00006_ip = 118; continue _fun00005 }
+ 109:
                     michal = 2;
                     michal = report / michal;
-                    _fun00006_ip = 193; continue _fun00005;
- 116:
+                    _fun00006_ip = 195; continue _fun00005;
+ 118:
                     option = _closure1_slot0;
                     golfie = _closure1_slot2;
                     golfie = golfie[offset];
@@ -322,19 +322,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = golfie;
                     backup = romeon;
                     michal = result[offset](output, sizing, kiloes, backup, foxtra);
- 193:
+ 195:
                     zuuluu['translateY'] = michal;
                     michal = new Array(2);
                     michal[0] = zuuluu;
                     zuuluu = {};
                     golfie = report >= tangon;
                     tangon = 1;
-                    if(golfie) { _fun00006_ip = 230; continue _fun00005 }
- 218:
+                    if(golfie) { _fun00006_ip = 232; continue _fun00005 }
+ 220:
                     oscard = _closure2_slot2;
                     report = oscard - report;
                     tangon = report / oscard;
- 230:
+ 232:
                     zuuluu['scale'] = tangon;
                     michal[1] = zuuluu;
                     entity['transform'] = michal;

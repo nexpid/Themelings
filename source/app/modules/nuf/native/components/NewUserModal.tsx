@@ -222,42 +222,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
-                    tangon = entity.navigation;
+                    zuuluu = entity.navigation;
                     entity = _closure2_slot5;
-                    entity['current'] = tangon;
+                    entity['current'] = zuuluu;
                     entity = {'headerStyle': null, 'headerShadowVisible': false, 'title': '', 'headerLeft': null, 'headerRight': null, 'fullScreenGestureEnabled': false};
-                    tangon = _closure2_slot0;
-                    tangon = tangon.header;
-                    entity['headerStyle'] = tangon;
-                    tangon = function() { // Original name: headerLeft
+                    zuuluu = _closure2_slot0;
+                    zuuluu = zuuluu.header;
+                    entity['headerStyle'] = zuuluu;
+                    zuuluu = false;
+                    report = function() { // Original name: headerLeft
                         entity = null;
                         return entity;
                     };
-                    entity['headerLeft'] = tangon;
-                    zuuluu = function() { // Original name: headerRight
+                    entity['headerLeft'] = report;
+                    tangon = function() { // Original name: headerRight
                         entity = null;
                         return entity;
                     };
-                    entity['headerRight'] = zuuluu;
-                    report = _closure1_slot0;
-                    tangon = _closure1_slot2;
-                    zuuluu = 15;
-                    tangon = tangon[zuuluu];
-                    zuuluu = undefined;
-                    tangon = report.bind(zuuluu)(tangon);
-                    zuuluu = tangon.isAndroid;
-                    tangon = zuuluu.bind(tangon)();
-                    zuuluu = 'card';
-                    if(!tangon) { _fun00008_ip = 126; continue _fun00007 }
- 120:
-                    zuuluu = 'transparentModal';
- 126:
-                    entity['presentation'] = zuuluu;
-                    zuuluu = 'slide_from_right';
-                    entity['animation'] = zuuluu;
-                    oscard = _closure2_slot6;
-                    golfie = entity;
-                    michal = copyDataProperties(golfie, oscard);
+                    entity['headerRight'] = tangon;
+                    oscard = _closure1_slot0;
+                    report = _closure1_slot2;
+                    tangon = 15;
+                    report = report[tangon];
+                    tangon = undefined;
+                    report = oscard.bind(tangon)(report);
+                    tangon = report.isAndroid;
+                    report = tangon.bind(report)();
+                    tangon = 'card';
+                    if(!report) { _fun00008_ip = 128; continue _fun00007 }
+ 122:
+                    tangon = 'transparentModal';
+ 128:
+                    entity['presentation'] = tangon;
+                    tangon = 'slide_from_right';
+                    entity['animation'] = tangon;
+                    entity['headerBackVisible'] = zuuluu;
+                    golfie = _closure2_slot6;
+                    option = entity;
+                    michal = copyDataProperties(option, golfie);
                     return entity;
                 }
             };

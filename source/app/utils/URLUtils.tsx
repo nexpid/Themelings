@@ -185,6 +185,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = michal;
     michal = {};
     michal['URL_REGEX'] = yankee;
+    yankee = function(argFoo) { // Original name: makeUrl
+        entity = global;
+        michal = entity.location;
+        option = michal.host;
+        michal = entity.location;
+        offset = michal.protocol;
+        entity = entity.HermesInternal;
+        tangon = entity.concat;
+        yankee = '';
+        verify = '//';
+        golfie = argFoo;
+        entity = yankee[tangon](offset, verify, option, golfie, oscard);
+        return entity;
+    };
+    michal['makeUrl'] = yankee;
     michal['isDiscordHostname'] = offset;
     offset = function(argFoo, argBar) { // Original name: isDiscordLocalhost
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
@@ -420,21 +435,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['toURLSafe'] = golfie;
-    tangon = function(argFoo) { // Original name: makeUrl
-        entity = global;
-        michal = entity.location;
-        option = michal.host;
-        michal = entity.location;
-        offset = michal.protocol;
-        entity = entity.HermesInternal;
-        tangon = entity.concat;
-        yankee = '';
-        verify = '//';
-        golfie = argFoo;
-        entity = yankee[tangon](offset, verify, option, golfie, oscard);
-        return entity;
+    tangon = function(argFoo) { // Original name: safeDecodeURIComponent
+        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+            entity = argFoo;
+ 3: // try_start_0
+            michal = global;
+            zuuluu = michal.decodeURIComponent;
+            michal = entity;
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
+ 21: // try_end0
+            return entity;
+ 23: // catch_target0
+            CatchBlockStart(arg_register=0);
+            entity = null;
+            return entity;
+        }
     };
-    michal['makeUrl'] = tangon;
+    michal['safeDecodeURIComponent'] = tangon;
     tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

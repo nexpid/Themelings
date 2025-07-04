@@ -116,7 +116,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             if(!(zuuluu != golfie)) { _fun00002_ip = 123; continue _fun00001 }
  116:
-            if(!(zuuluu == oscard)) { _fun00002_ip = 356; continue _fun00001 }
+            if(!(zuuluu == oscard)) { _fun00002_ip = 461; continue _fun00001 }
  123:
             verify = _closure1_slot3;
             zuuluu = michal.items;
@@ -137,18 +137,44 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = yankee.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CollectiblesItemType;
             zuuluu = zuuluu.AVATAR_DECORATION;
-            if(!(zuuluu !== verify)) { _fun00002_ip = 280; continue _fun00001 }
- 197:
+            if(!(zuuluu !== verify)) { _fun00002_ip = 385; continue _fun00001 }
+ 200:
             yankee = _closure1_slot0;
             zuuluu = _closure1_slot2;
             zuuluu = zuuluu[foxtra];
             zuuluu = yankee.bind(tangon)(zuuluu);
             zuuluu = zuuluu.CollectiblesItemType;
             zuuluu = zuuluu.PROFILE_EFFECT;
-            if(!(zuuluu !== verify)) { _fun00002_ip = 232; continue _fun00001 }
- 230:
+            if(!(zuuluu !== verify)) { _fun00002_ip = 337; continue _fun00001 }
+ 233:
+            yankee = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            zuuluu = zuuluu[foxtra];
+            zuuluu = yankee.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.CollectiblesItemType;
+            zuuluu = zuuluu.NAMEPLATE;
+            if(!(zuuluu !== verify)) { _fun00002_ip = 268; continue _fun00001 }
+ 266:
             return michal;
- 232:
+ 268:
+            verify = _closure1_slot5;
+            zuuluu = _closure1_slot4;
+            michal = {};
+            yankee = offset.overlayContainer;
+            michal['style'] = yankee;
+            foxtra = _closure1_slot1;
+            backup = _closure1_slot2;
+            yankee = 12;
+            yankee = backup[yankee];
+            foxtra = foxtra.bind(tangon)(yankee);
+            yankee = {};
+            yankee['item'] = romeon;
+            yankee['isPurchased'] = option;
+            yankee = verify.bind(tangon)(foxtra, yankee);
+            michal['children'] = yankee;
+            michal = verify.bind(tangon)(zuuluu, michal);
+            return michal;
+ 337:
             verify = _closure1_slot5;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -161,7 +187,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['isDarkTheme'] = report;
             michal = verify.bind(tangon)(zuuluu, michal);
             return michal;
- 280:
+ 385:
             verify = _closure1_slot5;
             zuuluu = _closure1_slot4;
             michal = {};
@@ -181,7 +207,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = offset;
             michal = verify.bind(tangon)(zuuluu, michal);
             return michal;
- 356:
+ 461:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot1;
             verify = _closure1_slot2;
@@ -206,14 +232,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = michal.bind(tangon)();
         option = _closure1_slot0;
         foxtra = _closure1_slot2;
-        michal = 12;
+        michal = 13;
         zuuluu = foxtra[michal];
         golfie = option.bind(tangon)(zuuluu);
         zuuluu = golfie.hexToRgbaString;
         michal = foxtra[michal];
         offset = option.bind(tangon)(michal);
         verify = offset.hexWithOpacity;
-        michal = 13;
+        michal = 14;
         michal = foxtra[michal];
         yankee = option.bind(tangon)(michal);
         option = yankee.useToken;
@@ -281,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 14;
+    tangon = 15;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

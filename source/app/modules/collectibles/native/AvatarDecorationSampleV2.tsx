@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.CollectiblesItemType;
             entity = entity.AVATAR_DECORATION;
             michal = michal === entity;
-            entity = 'Item cannot be undefined';
+            entity = 'Item must be Avatar Decoration';
             entity = zuuluu.bind(tangon)(michal, entity);
             zuuluu = _closure1_slot7;
             michal = _closure1_slot6;

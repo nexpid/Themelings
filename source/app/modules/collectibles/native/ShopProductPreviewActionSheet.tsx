@@ -89,14 +89,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = entity.bind(golfie)(zuuluu);
             result = _closure1_slot0;
             source = _closure1_slot2;
-            entity = 9;
+            entity = 10;
             entity = source[entity];
             report = result.bind(tangon)(entity);
             zuuluu = report.useMobileShopPDPDesignRefreshEnabled;
             entity = 'ShopProductPreviewActionSheet';
             entity = zuuluu.bind(report)(entity);
             kiloes = _closure1_slot1;
-            report = 10;
+            report = 11;
             zuuluu = source[report];
             foxtra = kiloes.bind(tangon)(zuuluu);
             zuuluu = new Array(1);
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = option;
             ctrled = 0;
             backup = arraySpread(sequen, vacuum, ctrled);
-            oscard = 11;
+            oscard = 12;
             oscard = source[oscard];
             oscard = kiloes.bind(tangon)(oscard);
             oscard = oscard.COLLECTIBLES_SHOP_PROFILE_PREVIEW;
@@ -123,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = zuuluu[offset];
             zuuluu = zuuluu[oscard];
             _closure2_slot2 = zuuluu;
-            sizing = 12;
+            sizing = 13;
             sizing = source[sizing];
             result = result.bind(tangon)(sizing);
             sizing = result.usePreviewCollectibleProduct;
@@ -133,70 +133,83 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['analyticsLocations'] = kiloes;
             result['setShouldReset'] = zuuluu;
             sizing = function(argFoo) { // Original name: useHandlePreviewPress
-                michal = argFoo;
-                option = michal.product;
-                var _closure3_slot0 = option;
-                report = michal.analyticsLocations;
-                var _closure3_slot1 = report;
-                golfie = michal.setShouldReset;
-                var _closure3_slot2 = golfie;
-                oscard = _closure1_slot0;
-                tangon = _closure1_slot2;
-                zuuluu = 6;
-                tangon = tangon[zuuluu];
-                zuuluu = undefined;
-                tangon = oscard.bind(zuuluu)(tangon);
-                zuuluu = tangon.useCurrentUser;
-                oscard = zuuluu.bind(tangon)();
-                var _closure3_slot3 = oscard;
-                tangon = _closure1_slot4;
-                zuuluu = tangon.useCallback;
-                michal = new Array(4);
-                michal[0] = option;
-                michal[1] = golfie;
-                oscard = oscard.id;
-                michal[2] = oscard;
-                michal[3] = report;
-                entity = function() {
-                    zuuluu = _closure3_slot2;
-                    entity = undefined;
-                    michal = false;
-                    michal = zuuluu.bind(entity)(michal);
-                    zuuluu = _closure1_slot1;
-                    report = _closure1_slot2;
-                    michal = 7;
-                    michal = report[michal];
-                    zuuluu = zuuluu.bind(entity)(michal);
-                    michal = {};
-                    report = _closure3_slot3;
-                    report = report.id;
-                    michal['userId'] = report;
-                    report = true;
-                    michal['isPreviewingChanges'] = report;
-                    tangon = _closure3_slot1;
-                    michal['sourceAnalyticsLocations'] = tangon;
-                    tangon = function() { // Original name: onClose
-                        zuuluu = _closure1_slot0;
-                        michal = _closure1_slot2;
-                        entity = 8;
-                        michal = michal[entity];
+                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                    michal = argFoo;
+                    zuuluu = michal.product;
+                    var _closure3_slot0 = zuuluu;
+                    verify = michal.analyticsLocations;
+                    var _closure3_slot1 = verify;
+                    yankee = michal.setShouldReset;
+                    var _closure3_slot2 = yankee;
+                    report = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    michal = 6;
+                    golfie = oscard[michal];
+                    michal = undefined;
+                    option = report.bind(michal)(golfie);
+                    golfie = option.useCurrentUser;
+                    offset = golfie.bind(option)();
+                    var _closure3_slot3 = offset;
+                    option = _closure1_slot4;
+                    golfie = option.useCallback;
+                    tangon = new Array(4);
+                    tangon[0] = zuuluu;
+                    tangon[1] = yankee;
+                    offset = offset.id;
+                    tangon[2] = offset;
+                    tangon[3] = verify;
+                    entity = function() {
+                        zuuluu = _closure3_slot2;
                         entity = undefined;
+                        michal = false;
+                        michal = zuuluu.bind(entity)(michal);
+                        zuuluu = _closure1_slot1;
+                        report = _closure1_slot2;
+                        michal = 7;
+                        michal = report[michal];
                         zuuluu = zuuluu.bind(entity)(michal);
-                        michal = zuuluu.openProductDetailActionSheet;
-                        entity = {};
-                        report = _closure3_slot0;
-                        entity['product'] = report;
+                        michal = {};
+                        report = _closure3_slot3;
+                        report = report.id;
+                        michal['userId'] = report;
+                        report = true;
+                        michal['isPreviewingChanges'] = report;
                         tangon = _closure3_slot1;
-                        entity['analyticsLocations'] = tangon;
-                        entity = michal.bind(zuuluu)(entity);
+                        michal['sourceAnalyticsLocations'] = tangon;
+                        tangon = function() { // Original name: onClose
+                            zuuluu = _closure1_slot0;
+                            michal = _closure1_slot2;
+                            entity = 8;
+                            michal = michal[entity];
+                            entity = undefined;
+                            zuuluu = zuuluu.bind(entity)(michal);
+                            michal = zuuluu.openProductDetailActionSheet;
+                            entity = {};
+                            report = _closure3_slot0;
+                            entity['product'] = report;
+                            tangon = _closure3_slot1;
+                            entity['analyticsLocations'] = tangon;
+                            entity = michal.bind(zuuluu)(entity);
+                            return entity;
+                        };
+                        michal['onClose'] = tangon;
+                        michal = zuuluu.bind(entity)(michal);
                         return entity;
                     };
-                    michal['onClose'] = tangon;
-                    michal = zuuluu.bind(entity)(michal);
+                    entity = golfie.bind(option)(entity, tangon);
+                    tangon = zuuluu.type;
+                    zuuluu = 9;
+                    zuuluu = oscard[zuuluu];
+                    zuuluu = report.bind(michal)(zuuluu);
+                    zuuluu = zuuluu.CollectiblesItemType;
+                    zuuluu = zuuluu.NAMEPLATE;
+                    if(!(tangon === zuuluu)) { _fun00004_ip = 156; continue _fun00003 }
+ 154:
+                    return michal;
+ 156:
                     return entity;
-                };
-                entity = zuuluu.bind(tangon)(entity, michal);
-                return entity;
+                }
             };
             result = sizing.bind(tangon)(result);
             update = _closure1_slot5;
@@ -204,19 +217,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing[0] = output;
             sizing[1] = zuuluu;
             zuuluu = function() {
-                _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot0;
                     tangon = entity.type;
                     report = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    entity = 13;
+                    entity = 9;
                     zuuluu = zuuluu[entity];
                     entity = undefined;
                     zuuluu = report.bind(entity)(zuuluu);
                     zuuluu = zuuluu.CollectiblesItemType;
                     zuuluu = zuuluu.BUNDLE;
-                    if(!(tangon === zuuluu)) { _fun00004_ip = 64; continue _fun00003 }
+                    if(!(tangon === zuuluu)) { _fun00006_ip = 64; continue _fun00005 }
  53:
                     zuuluu = _closure2_slot2;
                     michal = false;
@@ -238,14 +251,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[0] = foxtra;
             oscard[1] = zuuluu;
             zuuluu = function(argFoo) {
-                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+                _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
                     michal = entity.nativeEvent;
                     michal = michal.layout;
                     tangon = michal.height;
                     zuuluu = _closure2_slot3;
-                    if(!(tangon !== zuuluu)) { _fun00006_ip = 57; continue _fun00005 }
+                    if(!(tangon !== zuuluu)) { _fun00008_ip = 57; continue _fun00007 }
  30:
                     zuuluu = _closure2_slot4;
                     entity = entity.nativeEvent;

@@ -817,35 +817,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal = _closure3_slot0;
                         michal = michal._chatUpdatesQueue;
                         michal = michal.isBlocking;
-                        if(michal) { _fun00022_ip = 101; continue _fun00021 }
- 27:
+                        if(michal) { _fun00022_ip = 99; continue _fun00021 }
+ 25:
                         michal = zuuluu.isLoadingAtTop;
-                        if(!michal) { _fun00022_ip = 62; continue _fun00021 }
- 36:
+                        if(!michal) { _fun00022_ip = 60; continue _fun00021 }
+ 34:
                         michal = _closure3_slot0;
                         michal = michal.decelerating;
-                        if(michal) { _fun00022_ip = 79; continue _fun00021 }
- 49:
+                        if(michal) { _fun00022_ip = 77; continue _fun00021 }
+ 47:
                         michal = _closure3_slot0;
                         michal = michal.dragging;
-                        if(michal) { _fun00022_ip = 79; continue _fun00021 }
- 62:
+                        if(michal) { _fun00022_ip = 77; continue _fun00021 }
+ 60:
                         tangon = _closure3_slot0;
                         michal = tangon.applyNativeRowsUpdate;
                         michal = michal.bind(tangon)(zuuluu);
-                        _fun00022_ip = 121; continue _fun00021;
- 79:
+                        _fun00022_ip = 119; continue _fun00021;
+ 77:
                         michal = _closure3_slot0;
                         tangon = michal._chatUpdatesQueue;
                         michal = tangon.add;
                         michal = michal.bind(tangon)(zuuluu);
-                        _fun00022_ip = 121; continue _fun00021;
- 101:
+                        _fun00022_ip = 119; continue _fun00021;
+ 99:
                         entity = _closure3_slot0;
                         michal = entity._chatUpdatesQueue;
                         entity = michal.add;
                         entity = entity.bind(michal)(zuuluu);
- 121:
+ 119:
                         entity = undefined;
                         return entity;
                     }
@@ -1399,13 +1399,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         zuuluu = zuuluu._chatRef;
                         zuuluu = zuuluu.current;
                         echoed = tangon.bind(golfie)(zuuluu);
-                        if(!(update !== echoed)) { _fun00032_ip = 209; continue _fun00031 }
- 140:
+                        if(!(update !== echoed)) { _fun00032_ip = 207; continue _fun00031 }
+ 138:
                         zuuluu = _closure3_slot0;
                         zuuluu = zuuluu.props;
                         zuuluu = zuuluu.isStaff;
-                        if(!zuuluu) { _fun00032_ip = 381; continue _fun00031 }
- 161:
+                        if(!zuuluu) { _fun00032_ip = 379; continue _fun00031 }
+ 159:
                         result = _closure1_slot76;
                         golfie = result.log;
                         zuuluu = _closure3_slot0;
@@ -1416,8 +1416,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         ctrled = update;
                         source = echoed;
                         zuuluu = config[golfie](sequen, vacuum, ctrled, source, update);
-                        _fun00032_ip = 381; continue _fun00031;
- 209:
+                        _fun00032_ip = 379; continue _fun00031;
+ 207:
                         golfie = _closure3_slot0;
                         michal = golfie.props;
                         tangon = michal.visibleMessagesWindowHandler;
@@ -1454,7 +1454,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         michal['firstVisibleMessageIndex'] = oscard;
                         michal['lastVisibleMessageIndex'] = report;
                         michal = zuuluu.bind(tangon)(michal);
- 381:
+ 379:
                         return entity;
                     }
                 };
@@ -3002,10 +3002,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = golfie.mimeType;
                         yankee = option != offset;
                         verify = 'video';
-                        if(!yankee) { _fun00060_ip = 178; continue _fun00059 }
- 175:
+                        if(!yankee) { _fun00060_ip = 154; continue _fun00059 }
+ 151:
                         verify = offset;
- 178:
+ 154:
                         michal['mime_type'] = verify;
                         michal['file_size'] = option;
                         golfie = golfie.fileDurationSec;
@@ -3559,10 +3559,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = entity == report;
                 entity = undefined;
                 michal = undefined;
-                if(oscard) { _fun00074_ip = 41; continue _fun00073 }
+                if(oscard) { _fun00074_ip = 39; continue _fun00073 }
  33:
                 michal = report.rescrollToMessegeId;
- 41:
+ 39:
                 michal = tangon.bind(zuuluu)(michal);
                 michal = zuuluu.syncMessageDisplay;
                 michal = michal.bind(zuuluu)();
@@ -3716,7 +3716,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = michal.props;
                 tangon = tangon.currentUserId;
                 golfie = null;
-                if(!(golfie != tangon)) { _fun00080_ip = 3233; continue _fun00079 }
+                if(!(golfie != tangon)) { _fun00080_ip = 3231; continue _fun00079 }
  36:
                 tangon = michal.props;
                 tangon = tangon.messages;
@@ -3806,178 +3806,178 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = michal.props;
                 romeon = romeon.inlineAttachmentMedia;
                 foxtra = foxtra !== romeon;
-                if(foxtra) { _fun00080_ip = 419; continue _fun00079 }
- 398:
+                if(foxtra) { _fun00080_ip = 417; continue _fun00079 }
+ 396:
                 kiloes = zuuluu.inlineEmbedMedia;
                 romeon = michal.props;
                 romeon = romeon.inlineEmbedMedia;
                 foxtra = kiloes !== romeon;
- 419:
-                if(foxtra) { _fun00080_ip = 443; continue _fun00079 }
- 422:
+ 417:
+                if(foxtra) { _fun00080_ip = 441; continue _fun00079 }
+ 420:
                 kiloes = zuuluu.renderEmbeds;
                 romeon = michal.props;
                 romeon = romeon.renderEmbeds;
                 foxtra = kiloes !== romeon;
- 443:
-                if(foxtra) { _fun00080_ip = 467; continue _fun00079 }
- 446:
+ 441:
+                if(foxtra) { _fun00080_ip = 465; continue _fun00079 }
+ 444:
                 kiloes = zuuluu.renderReactions;
                 romeon = michal.props;
                 romeon = romeon.renderReactions;
                 foxtra = kiloes !== romeon;
- 467:
-                if(foxtra) { _fun00080_ip = 491; continue _fun00079 }
- 470:
+ 465:
+                if(foxtra) { _fun00080_ip = 489; continue _fun00079 }
+ 468:
                 kiloes = zuuluu.animateEmoji;
                 romeon = michal.props;
                 romeon = romeon.animateEmoji;
                 foxtra = kiloes !== romeon;
- 491:
-                if(foxtra) { _fun00080_ip = 515; continue _fun00079 }
- 494:
+ 489:
+                if(foxtra) { _fun00080_ip = 513; continue _fun00079 }
+ 492:
                 kiloes = zuuluu.animateStickers;
                 romeon = michal.props;
                 romeon = romeon.animateStickers;
                 foxtra = kiloes !== romeon;
- 515:
-                if(foxtra) { _fun00080_ip = 539; continue _fun00079 }
- 518:
+ 513:
+                if(foxtra) { _fun00080_ip = 537; continue _fun00079 }
+ 516:
                 kiloes = zuuluu.gifAutoPlay;
                 romeon = michal.props;
                 romeon = romeon.gifAutoPlay;
                 foxtra = kiloes !== romeon;
- 539:
-                if(foxtra) { _fun00080_ip = 563; continue _fun00079 }
- 542:
+ 537:
+                if(foxtra) { _fun00080_ip = 561; continue _fun00079 }
+ 540:
                 kiloes = zuuluu.containerWidth;
                 romeon = michal.props;
                 romeon = romeon.containerWidth;
                 foxtra = kiloes !== romeon;
- 563:
-                if(foxtra) { _fun00080_ip = 587; continue _fun00079 }
- 566:
+ 561:
+                if(foxtra) { _fun00080_ip = 585; continue _fun00079 }
+ 564:
                 kiloes = zuuluu.guildSystemChannelFlags;
                 romeon = michal.props;
                 romeon = romeon.guildSystemChannelFlags;
                 foxtra = kiloes !== romeon;
- 587:
-                if(foxtra) { _fun00080_ip = 611; continue _fun00079 }
- 590:
+ 585:
+                if(foxtra) { _fun00080_ip = 609; continue _fun00079 }
+ 588:
                 kiloes = zuuluu.userSettingsLocale;
                 romeon = michal.props;
                 romeon = romeon.userSettingsLocale;
                 foxtra = kiloes !== romeon;
- 611:
-                if(foxtra) { _fun00080_ip = 635; continue _fun00079 }
- 614:
+ 609:
+                if(foxtra) { _fun00080_ip = 633; continue _fun00079 }
+ 612:
                 kiloes = zuuluu.roleStyle;
                 romeon = michal.props;
                 romeon = romeon.roleStyle;
                 foxtra = kiloes !== romeon;
- 635:
-                if(foxtra) { _fun00080_ip = 659; continue _fun00079 }
- 638:
+ 633:
+                if(foxtra) { _fun00080_ip = 657; continue _fun00079 }
+ 636:
                 kiloes = zuuluu.canSendMessages;
                 romeon = michal.props;
                 romeon = romeon.canSendMessages;
                 foxtra = kiloes !== romeon;
- 659:
-                if(foxtra) { _fun00080_ip = 683; continue _fun00079 }
- 662:
+ 657:
+                if(foxtra) { _fun00080_ip = 681; continue _fun00079 }
+ 660:
                 kiloes = zuuluu.showPushFeedback;
                 romeon = michal.props;
                 romeon = romeon.showPushFeedback;
                 foxtra = kiloes !== romeon;
- 683:
-                if(foxtra) { _fun00080_ip = 707; continue _fun00079 }
- 686:
+ 681:
+                if(foxtra) { _fun00080_ip = 705; continue _fun00079 }
+ 684:
                 kiloes = zuuluu.selectedSummary;
                 romeon = michal.props;
                 romeon = romeon.selectedSummary;
                 foxtra = kiloes !== romeon;
- 707:
-                if(foxtra) { _fun00080_ip = 731; continue _fun00079 }
- 710:
+ 705:
+                if(foxtra) { _fun00080_ip = 729; continue _fun00079 }
+ 708:
                 kiloes = zuuluu.shouldObscureSpoiler;
                 romeon = michal.props;
                 romeon = romeon.shouldObscureSpoiler;
                 foxtra = kiloes !== romeon;
- 731:
-                if(foxtra) { _fun00080_ip = 755; continue _fun00079 }
- 734:
+ 729:
+                if(foxtra) { _fun00080_ip = 753; continue _fun00079 }
+ 732:
                 kiloes = zuuluu.shouldFilterKeywords;
                 romeon = michal.props;
                 romeon = romeon.shouldFilterKeywords;
                 foxtra = kiloes !== romeon;
- 755:
-                if(foxtra) { _fun00080_ip = 779; continue _fun00079 }
- 758:
+ 753:
+                if(foxtra) { _fun00080_ip = 777; continue _fun00079 }
+ 756:
                 kiloes = zuuluu.explicitMediaFalsePositiveInfo;
                 romeon = michal.props;
                 romeon = romeon.explicitMediaFalsePositiveInfo;
                 foxtra = kiloes !== romeon;
- 779:
-                if(foxtra) { _fun00080_ip = 803; continue _fun00079 }
- 782:
+ 777:
+                if(foxtra) { _fun00080_ip = 801; continue _fun00079 }
+ 780:
                 kiloes = zuuluu.isStaff;
                 romeon = michal.props;
                 romeon = romeon.isStaff;
                 foxtra = kiloes !== romeon;
- 803:
-                if(foxtra) { _fun00080_ip = 827; continue _fun00079 }
- 806:
+ 801:
+                if(foxtra) { _fun00080_ip = 825; continue _fun00079 }
+ 804:
                 kiloes = zuuluu.messageShortcutsEnabled;
                 romeon = michal.props;
                 romeon = romeon.messageShortcutsEnabled;
                 foxtra = kiloes !== romeon;
- 827:
-                if(foxtra) { _fun00080_ip = 851; continue _fun00079 }
- 830:
+ 825:
+                if(foxtra) { _fun00080_ip = 849; continue _fun00079 }
+ 828:
                 kiloes = zuuluu.isAgeVerified;
                 romeon = michal.props;
                 romeon = romeon.isAgeVerified;
                 foxtra = kiloes !== romeon;
- 851:
-                if(foxtra) { _fun00080_ip = 895; continue _fun00079 }
- 854:
+ 849:
+                if(foxtra) { _fun00080_ip = 893; continue _fun00079 }
+ 852:
                 romeon = argBar;
                 kiloes = romeon.shouldForceRender;
                 romeon = michal.state;
                 romeon = romeon.shouldForceRender;
                 romeon = kiloes !== romeon;
-                if(!romeon) { _fun00080_ip = 892; continue _fun00079 }
- 881:
+                if(!romeon) { _fun00080_ip = 890; continue _fun00079 }
+ 879:
                 kiloes = michal.state;
                 romeon = kiloes.shouldForceRender;
- 892:
+ 890:
                 foxtra = romeon;
- 895:
-                if(foxtra) { _fun00080_ip = 917; continue _fun00079 }
- 898:
+ 893:
+                if(foxtra) { _fun00080_ip = 915; continue _fun00079 }
+ 896:
                 kiloes = zuuluu.theme;
                 romeon = michal.props;
                 romeon = romeon.theme;
                 foxtra = kiloes !== romeon;
- 917:
+ 915:
                 kiloes = zuuluu.resolvingGiftCodes;
                 romeon = michal.props;
                 romeon = romeon.resolvingGiftCodes;
                 whisks = kiloes !== romeon;
-                if(whisks) { _fun00080_ip = 962; continue _fun00079 }
- 941:
+                if(whisks) { _fun00080_ip = 960; continue _fun00079 }
+ 939:
                 kiloes = zuuluu.resolvedGiftCodes;
                 romeon = michal.props;
                 romeon = romeon.resolvedGiftCodes;
                 whisks = kiloes !== romeon;
- 962:
-                if(whisks) { _fun00080_ip = 986; continue _fun00079 }
- 965:
+ 960:
+                if(whisks) { _fun00080_ip = 984; continue _fun00079 }
+ 963:
                 kiloes = zuuluu.acceptingGiftCodes;
                 romeon = michal.props;
                 romeon = romeon.acceptingGiftCodes;
                 whisks = kiloes !== romeon;
- 986:
+ 984:
                 var _closure3_slot2 = whisks;
                 limora = zuuluu.uploads;
                 romeon = michal.props;
@@ -4030,13 +4030,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = romeon.channel;
                 romeon = kiloes.isForumPost;
                 ctrled = romeon.bind(kiloes)();
-                if(!ctrled) { _fun00080_ip = 1268; continue _fun00079 }
- 1247:
+                if(!ctrled) { _fun00080_ip = 1266; continue _fun00079 }
+ 1245:
                 kiloes = zuuluu.isFollowingForumPost;
                 romeon = michal.props;
                 romeon = romeon.isFollowingForumPost;
                 ctrled = kiloes !== romeon;
- 1268:
+ 1266:
                 var _closure3_slot10 = ctrled;
                 kiloes = zuuluu.showMediaPostSharePrompt;
                 romeon = michal.props;
@@ -4057,38 +4057,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 kiloes = michal.props;
                 kiloes = kiloes.activityInstanceIds;
                 status = result !== kiloes;
-                if(status) { _fun00080_ip = 1392; continue _fun00079 }
- 1371:
+                if(status) { _fun00080_ip = 1390; continue _fun00079 }
+ 1369:
                 result = zuuluu.activityParticipants;
                 kiloes = michal.props;
                 kiloes = kiloes.activityParticipants;
                 status = result !== kiloes;
- 1392:
-                if(status) { _fun00080_ip = 1416; continue _fun00079 }
- 1395:
+ 1390:
+                if(status) { _fun00080_ip = 1414; continue _fun00079 }
+ 1393:
                 result = zuuluu.applicationAssetFetchingIds;
                 kiloes = michal.props;
                 kiloes = kiloes.applicationAssetFetchingIds;
                 status = result !== kiloes;
- 1416:
-                if(status) { _fun00080_ip = 1440; continue _fun00079 }
- 1419:
+ 1414:
+                if(status) { _fun00080_ip = 1438; continue _fun00079 }
+ 1417:
                 result = zuuluu.activityInstancePresenceDetails;
                 kiloes = michal.props;
                 kiloes = kiloes.activityInstancePresenceDetails;
                 status = result !== kiloes;
- 1440:
-                if(status) { _fun00080_ip = 1464; continue _fun00079 }
- 1443:
+ 1438:
+                if(status) { _fun00080_ip = 1462; continue _fun00079 }
+ 1441:
                 result = zuuluu.messagesWithActivitiesLaunching;
                 kiloes = michal.props;
                 kiloes = kiloes.messagesWithActivitiesLaunching;
                 status = result !== kiloes;
- 1464:
-                if(status) { _fun00080_ip = 1470; continue _fun00079 }
- 1467:
+ 1462:
+                if(status) { _fun00080_ip = 1468; continue _fun00079 }
+ 1465:
                 status = romeon;
- 1470:
+ 1468:
                 var _closure3_slot14 = status;
                 kiloes = _closure1_slot0;
                 romeon = _closure1_slot2;
@@ -4109,20 +4109,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = romeon.resolvedReferralTrialOfferIds;
                 romeon = output.bind(equals)(kiloes, romeon);
                 output = !romeon;
-                if(output) { _fun00080_ip = 1592; continue _fun00079 }
- 1571:
+                if(output) { _fun00080_ip = 1590; continue _fun00079 }
+ 1569:
                 kiloes = zuuluu.referralTrialOfferId;
                 romeon = michal.props;
                 romeon = romeon.referralTrialOfferId;
                 output = kiloes !== romeon;
- 1592:
-                if(output) { _fun00080_ip = 1616; continue _fun00079 }
- 1595:
+ 1590:
+                if(output) { _fun00080_ip = 1614; continue _fun00079 }
+ 1593:
                 kiloes = zuuluu.isPremiumTier2User;
                 romeon = michal.props;
                 romeon = romeon.isPremiumTier2User;
                 output = kiloes !== romeon;
- 1616:
+ 1614:
                 var _closure3_slot16 = output;
                 kiloes = zuuluu.guildInviteColorsFetched;
                 romeon = michal.props;
@@ -4134,220 +4134,220 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon = romeon.guildEmojis;
                 romeon = equals !== romeon;
                 var _closure3_slot18 = romeon;
-                if(foxtra) { _fun00080_ip = 2589; continue _fun00079 }
- 1676:
-                if(whisks) { _fun00080_ip = 2589; continue _fun00079 }
- 1682:
-                if(!(limora === sierra)) { _fun00080_ip = 2589; continue _fun00079 }
- 1689:
-                if(status) { _fun00080_ip = 2589; continue _fun00079 }
- 1695:
+                if(foxtra) { _fun00080_ip = 2587; continue _fun00079 }
+ 1674:
+                if(whisks) { _fun00080_ip = 2587; continue _fun00079 }
+ 1680:
+                if(!(limora === sierra)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1687:
+                if(status) { _fun00080_ip = 2587; continue _fun00079 }
+ 1693:
                 sierra = zuuluu.messages;
                 status = michal.props;
                 status = status.messages;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1719:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1717:
                 sierra = zuuluu.editingMessageId;
                 status = michal.props;
                 status = status.editingMessageId;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1743:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1741:
                 sierra = zuuluu.replyingMessageId;
                 status = michal.props;
                 status = status.replyingMessageId;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1767:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1765:
                 sierra = zuuluu.voiceStateChannelId;
                 status = michal.props;
                 status = status.voiceStateChannelId;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1791:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1789:
                 sierra = zuuluu.messageAuthorActivities;
                 status = michal.props;
                 status = status.messageAuthorActivities;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1815:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1813:
                 sierra = zuuluu.oldestUnreadMessageId;
                 status = michal.props;
                 status = status.oldestUnreadMessageId;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1839:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1837:
                 sierra = zuuluu.invites;
                 status = michal.props;
                 status = status.invites;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1863:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1861:
                 sierra = zuuluu.appDirectoryEmbedApplications;
                 status = michal.props;
                 status = status.appDirectoryEmbedApplications;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1887:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1885:
                 sierra = zuuluu.invalidAppDirectoryEmbedApplicationIds;
                 status = michal.props;
                 status = status.invalidAppDirectoryEmbedApplicationIds;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1911:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1909:
                 sierra = zuuluu.appDirectoryEmbedApplicationFetchStates;
                 status = michal.props;
                 status = status.appDirectoryEmbedApplicationFetchStates;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1935:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1933:
                 sierra = zuuluu.guildTemplates;
                 status = michal.props;
                 status = status.guildTemplates;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1959:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1957:
                 sierra = zuuluu.buildOverrides;
                 status = michal.props;
                 status = status.buildOverrides;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 1983:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 1981:
                 sierra = zuuluu.quests;
                 status = michal.props;
                 status = status.quests;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2007:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2005:
                 sierra = zuuluu.isFetchingCurrentQuests;
                 status = michal.props;
                 status = status.isFetchingCurrentQuests;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2031:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2029:
                 sierra = zuuluu.participantsLength;
                 status = michal.props;
                 status = status.participantsLength;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2055:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2053:
                 sierra = zuuluu.isMessagesReady;
                 status = michal.props;
                 status = status.isMessagesReady;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2079:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2077:
                 sierra = zuuluu.channelThreadsVersion;
                 status = michal.props;
                 status = status.channelThreadsVersion;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2103:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2101:
                 sierra = zuuluu.rsvpVersion;
                 status = michal.props;
                 status = status.rsvpVersion;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2127:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2125:
                 sierra = zuuluu.repliedIds;
                 status = michal.props;
                 status = status.repliedIds;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2151:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2149:
                 sierra = zuuluu.hasLoadedExperiments;
                 status = michal.props;
                 status = status.hasLoadedExperiments;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2175:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2173:
                 sierra = zuuluu.isMessageRequest;
                 status = michal.props;
                 status = status.isMessageRequest;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2199:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2197:
                 sierra = zuuluu.isSpamMessageRequest;
                 status = michal.props;
                 status = status.isSpamMessageRequest;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2223:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2221:
                 sierra = zuuluu.currentUserCommunicationDisabled;
                 status = michal.props;
                 status = status.currentUserCommunicationDisabled;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2247:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2245:
                 sierra = zuuluu.userSettingsLocale;
                 status = michal.props;
                 status = status.userSettingsLocale;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2271:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2269:
                 sierra = zuuluu.selectedSummary;
                 status = michal.props;
                 status = status.selectedSummary;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2295:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2293:
                 sierra = zuuluu.showPushFeedback;
                 status = michal.props;
                 status = status.showPushFeedback;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2319:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2317:
                 sierra = zuuluu.cacheStoreLoaded;
                 status = michal.props;
                 status = status.cacheStoreLoaded;
-                if(!(sierra === status)) { _fun00080_ip = 2589; continue _fun00079 }
- 2343:
-                if(target) { _fun00080_ip = 2589; continue _fun00079 }
- 2349:
-                if(papara) { _fun00080_ip = 2589; continue _fun00079 }
- 2355:
-                if(!(cntext === record)) { _fun00080_ip = 2589; continue _fun00079 }
- 2362:
-                if(config) { _fun00080_ip = 2589; continue _fun00079 }
- 2368:
-                if(sequen) { _fun00080_ip = 2589; continue _fun00079 }
- 2374:
-                if(vacuum) { _fun00080_ip = 2589; continue _fun00079 }
- 2380:
-                if(ctrled) { _fun00080_ip = 2589; continue _fun00079 }
- 2386:
-                if(!(golfie == offset)) { _fun00080_ip = 2589; continue _fun00079 }
- 2393:
-                if(!(golfie == option)) { _fun00080_ip = 2589; continue _fun00079 }
- 2400:
+                if(!(sierra === status)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2341:
+                if(target) { _fun00080_ip = 2587; continue _fun00079 }
+ 2347:
+                if(papara) { _fun00080_ip = 2587; continue _fun00079 }
+ 2353:
+                if(!(cntext === record)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2360:
+                if(config) { _fun00080_ip = 2587; continue _fun00079 }
+ 2366:
+                if(sequen) { _fun00080_ip = 2587; continue _fun00079 }
+ 2372:
+                if(vacuum) { _fun00080_ip = 2587; continue _fun00079 }
+ 2378:
+                if(ctrled) { _fun00080_ip = 2587; continue _fun00079 }
+ 2384:
+                if(!(golfie == offset)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2391:
+                if(!(golfie == option)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2398:
                 vacuum = zuuluu.androidKeyboardHeight;
                 ctrled = michal.props;
                 ctrled = ctrled.androidKeyboardHeight;
-                if(!(vacuum === ctrled)) { _fun00080_ip = 2589; continue _fun00079 }
- 2424:
+                if(!(vacuum === ctrled)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2422:
                 vacuum = zuuluu.mediaPostPreviewEmbeds;
                 ctrled = michal.props;
                 ctrled = ctrled.mediaPostPreviewEmbeds;
-                if(!(vacuum === ctrled)) { _fun00080_ip = 2589; continue _fun00079 }
- 2448:
+                if(!(vacuum === ctrled)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2446:
                 vacuum = zuuluu.shouldObscureSpoiler;
                 ctrled = michal.props;
                 ctrled = ctrled.shouldObscureSpoiler;
-                if(!(vacuum === ctrled)) { _fun00080_ip = 2589; continue _fun00079 }
- 2469:
+                if(!(vacuum === ctrled)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2467:
                 vacuum = zuuluu.shouldFilterKeywords;
                 ctrled = michal.props;
                 ctrled = ctrled.shouldFilterKeywords;
-                if(!(vacuum === ctrled)) { _fun00080_ip = 2589; continue _fun00079 }
- 2490:
+                if(!(vacuum === ctrled)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2488:
                 vacuum = zuuluu.shouldDisableInteractiveComponents;
                 ctrled = michal.props;
                 ctrled = ctrled.shouldDisableInteractiveComponents;
-                if(!(vacuum === ctrled)) { _fun00080_ip = 2589; continue _fun00079 }
- 2511:
-                if(source) { _fun00080_ip = 2589; continue _fun00079 }
- 2514:
-                if(update) { _fun00080_ip = 2589; continue _fun00079 }
- 2517:
+                if(!(vacuum === ctrled)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2509:
+                if(source) { _fun00080_ip = 2587; continue _fun00079 }
+ 2512:
+                if(update) { _fun00080_ip = 2587; continue _fun00079 }
+ 2515:
                 source = zuuluu.threadStartingReferenceMessage;
                 update = michal.props;
                 update = update.threadStartingReferenceMessage;
-                if(!(source === update)) { _fun00080_ip = 2589; continue _fun00079 }
- 2538:
-                if(echoed) { _fun00080_ip = 2589; continue _fun00079 }
- 2541:
+                if(!(source === update)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2536:
+                if(echoed) { _fun00080_ip = 2587; continue _fun00079 }
+ 2539:
                 update = zuuluu.applications;
                 echoed = michal.props;
                 echoed = echoed.applications;
-                if(!(update === echoed)) { _fun00080_ip = 2589; continue _fun00079 }
- 2562:
-                if(result) { _fun00080_ip = 2589; continue _fun00079 }
- 2565:
-                if(output) { _fun00080_ip = 2589; continue _fun00079 }
- 2568:
-                if(kiloes) { _fun00080_ip = 2589; continue _fun00079 }
- 2571:
-                if(romeon) { _fun00080_ip = 2589; continue _fun00079 }
- 2574:
+                if(!(update === echoed)) { _fun00080_ip = 2587; continue _fun00079 }
+ 2560:
+                if(result) { _fun00080_ip = 2587; continue _fun00079 }
+ 2563:
+                if(output) { _fun00080_ip = 2587; continue _fun00079 }
+ 2566:
+                if(kiloes) { _fun00080_ip = 2587; continue _fun00079 }
+ 2569:
+                if(romeon) { _fun00080_ip = 2587; continue _fun00079 }
+ 2572:
                 romeon = michal.recordTimings;
                 romeon = romeon.bind(michal)();
-                _fun00080_ip = 3233; continue _fun00079;
- 2589:
+                _fun00080_ip = 3231; continue _fun00079;
+ 2587:
                 romeon = global;
                 romeon = romeon.Set;
                 kiloes = romeon.prototype;
@@ -4359,65 +4359,65 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output = zuuluu.editingMessageId;
                 kiloes = michal.props;
                 kiloes = kiloes.editingMessageId;
-                if(!(output !== kiloes)) { _fun00080_ip = 2704; continue _fun00079 }
- 2642:
+                if(!(output !== kiloes)) { _fun00080_ip = 2702; continue _fun00079 }
+ 2640:
                 kiloes = michal.props;
                 kiloes = kiloes.editingMessageId;
-                if(!(golfie != kiloes)) { _fun00080_ip = 2678; continue _fun00079 }
- 2657:
+                if(!(golfie != kiloes)) { _fun00080_ip = 2676; continue _fun00079 }
+ 2655:
                 output = romeon.add;
                 kiloes = michal.props;
                 kiloes = kiloes.editingMessageId;
                 kiloes = output.bind(romeon)(kiloes);
- 2678:
+ 2676:
                 kiloes = zuuluu.editingMessageId;
-                if(!(golfie != kiloes)) { _fun00080_ip = 2704; continue _fun00079 }
- 2688:
+                if(!(golfie != kiloes)) { _fun00080_ip = 2702; continue _fun00079 }
+ 2686:
                 output = romeon.add;
                 kiloes = zuuluu.editingMessageId;
                 kiloes = output.bind(romeon)(kiloes);
- 2704:
+ 2702:
                 output = zuuluu.replyingMessageId;
                 kiloes = michal.props;
                 kiloes = kiloes.replyingMessageId;
-                if(!(output !== kiloes)) { _fun00080_ip = 2787; continue _fun00079 }
- 2725:
+                if(!(output !== kiloes)) { _fun00080_ip = 2785; continue _fun00079 }
+ 2723:
                 kiloes = michal.props;
                 kiloes = kiloes.replyingMessageId;
-                if(!(golfie != kiloes)) { _fun00080_ip = 2761; continue _fun00079 }
- 2740:
+                if(!(golfie != kiloes)) { _fun00080_ip = 2759; continue _fun00079 }
+ 2738:
                 output = romeon.add;
                 kiloes = michal.props;
                 kiloes = kiloes.replyingMessageId;
                 kiloes = output.bind(romeon)(kiloes);
- 2761:
+ 2759:
                 kiloes = zuuluu.replyingMessageId;
-                if(!(golfie != kiloes)) { _fun00080_ip = 2787; continue _fun00079 }
- 2771:
+                if(!(golfie != kiloes)) { _fun00080_ip = 2785; continue _fun00079 }
+ 2769:
                 output = romeon.add;
                 kiloes = zuuluu.replyingMessageId;
                 kiloes = output.bind(romeon)(kiloes);
- 2787:
+ 2785:
                 output = zuuluu.isMessagesReady;
                 kiloes = michal.props;
                 kiloes = kiloes.isMessagesReady;
-                if(!(output === kiloes)) { _fun00080_ip = 2871; continue _fun00079 }
- 2808:
+                if(!(output === kiloes)) { _fun00080_ip = 2869; continue _fun00079 }
+ 2806:
                 output = zuuluu.isCallActive;
                 kiloes = michal.props;
                 kiloes = kiloes.isCallActive;
-                if(!(output === kiloes)) { _fun00080_ip = 2871; continue _fun00079 }
- 2829:
+                if(!(output === kiloes)) { _fun00080_ip = 2869; continue _fun00079 }
+ 2827:
                 output = zuuluu.voiceStateChannelId;
                 kiloes = michal.props;
                 kiloes = kiloes.voiceStateChannelId;
-                if(!(output === kiloes)) { _fun00080_ip = 2871; continue _fun00079 }
- 2850:
+                if(!(output === kiloes)) { _fun00080_ip = 2869; continue _fun00079 }
+ 2848:
                 output = zuuluu.participantsLength;
                 kiloes = michal.props;
                 kiloes = kiloes.participantsLength;
-                if(!(output !== kiloes)) { _fun00080_ip = 2959; continue _fun00079 }
- 2871:
+                if(!(output !== kiloes)) { _fun00080_ip = 2957; continue _fun00079 }
+ 2869:
                 kiloes = _closure1_slot1;
                 output = _closure1_slot2;
                 backup = 63;
@@ -4439,12 +4439,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 backup = sizing.bind(output)(kiloes, backup);
-                if(!(golfie != backup)) { _fun00080_ip = 2959; continue _fun00079 }
- 2944:
+                if(!(golfie != backup)) { _fun00080_ip = 2957; continue _fun00079 }
+ 2942:
                 kiloes = romeon.add;
                 backup = backup.id;
                 backup = kiloes.bind(romeon)(backup);
- 2959:
+ 2957:
                 kiloes = zuuluu.channelThreadsVersion;
                 backup = michal.props;
                 backup = backup.channelThreadsVersion;
@@ -4468,18 +4468,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 backup = zuuluu.communicationDisabledVersion;
                 kiloes = golfie != backup;
                 golfie = -1;
-                if(!kiloes) { _fun00080_ip = 3081; continue _fun00079 }
- 3078:
+                if(!kiloes) { _fun00080_ip = 3079; continue _fun00079 }
+ 3076:
                 golfie = backup;
- 3081:
+ 3079:
                 var _closure3_slot24 = golfie;
                 zuuluu = zuuluu.cacheStoreLoaded;
                 golfie = !zuuluu;
-                if(!golfie) { _fun00080_ip = 3108; continue _fun00079 }
- 3097:
+                if(!golfie) { _fun00080_ip = 3106; continue _fun00079 }
+ 3095:
                 zuuluu = michal.props;
                 golfie = zuuluu.cacheStoreLoaded;
- 3108:
+ 3106:
                 var _closure3_slot25 = golfie;
                 zuuluu = michal.props;
                 backup = zuuluu.messages;
@@ -4956,7 +4956,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(michal)(entity);
                 entity = michal.recordTimings;
                 entity = entity.bind(michal)();
- 3233:
+ 3231:
                 entity = undefined;
                 return entity;
             }
@@ -5262,8 +5262,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = report.bind(tangon)(michal);
                 report = oscard.length;
                 michal = 0;
-                if(!(!(report <= michal))) { _fun00090_ip = 229; continue _fun00089 }
- 96:
+                if(!(!(report <= michal))) { _fun00090_ip = 225; continue _fun00089 }
+ 94:
                 golfie = _closure1_slot0;
                 option = _closure1_slot2;
                 report = 88;
@@ -5276,13 +5276,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = golfie.bind(option)(report);
                 report = tangon.props;
                 report = report.shouldTrackAnnouncementMessageViews;
-                if(!report) { _fun00090_ip = 229; continue _fun00089 }
- 155:
+                if(!report) { _fun00090_ip = 225; continue _fun00089 }
+ 153:
                 tangon = tangon.props;
                 report = tangon.guildId;
                 tangon = null;
-                if(!(tangon != report)) { _fun00090_ip = 229; continue _fun00089 }
- 171:
+                if(!(tangon != report)) { _fun00090_ip = 225; continue _fun00089 }
+ 169:
                 tangon = new Array(0);
                 _closure3_slot1 = tangon;
                 report = oscard.forEach;
@@ -5398,7 +5398,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.handleMessageListVisibilityChange;
                 michal = michal.bind(zuuluu)(tangon);
- 229:
+ 225:
                 return entity;
             }
         };
@@ -7098,19 +7098,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = null;
                     oscard = tangon == report;
                     entity = undefined;
-                    if(oscard) { _fun00122_ip = 85; continue _fun00121 }
+                    if(oscard) { _fun00122_ip = 94; continue _fun00121 }
  56:
                     verify = report.features;
+                    report = tangon == verify;
+                    entity = undefined;
+                    if(report) { _fun00122_ip = 94; continue _fun00121 }
+ 71:
                     oscard = verify.has;
                     report = _closure1_slot62;
                     report = report.COMMUNITY;
                     entity = oscard.bind(verify)(report);
- 85:
+ 94:
                     verify = tangon != entity;
-                    if(!verify) { _fun00122_ip = 95; continue _fun00121 }
- 92:
+                    if(!verify) { _fun00122_ip = 104; continue _fun00121 }
+ 101:
                     verify = entity;
- 95:
+ 104:
                     _closure3_slot3 = verify;
                     oscard = _closure1_slot10;
                     report = oscard.useMemo;

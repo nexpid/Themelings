@@ -35,6 +35,6 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/holdout_experiments/av/AVHoldoutExperimentH12025.tsx';
     tangon = report.bind(oscard)(tangon);
-    zuuluu['AVHoldoutExperiment'] = michal;
+    zuuluu['AVHoldoutExperimentH12025'] = michal;
     return entity;
 })();

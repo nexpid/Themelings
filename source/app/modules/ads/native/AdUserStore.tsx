@@ -35,13 +35,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot6 = michal;
+            _closure1_slot9 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot6 = entity;
+    var _closure1_slot9 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -71,6 +71,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = report[michal];
     michal = oscard.bind(entity)(michal);
     var _closure1_slot5 = michal;
+    michal = false;
+    var _closure1_slot6 = michal;
+    var _closure1_slot7 = michal;
+    michal = null;
+    var _closure1_slot8 = michal;
     michal = 5;
     michal = report[michal];
     michal = oscard.bind(entity)(michal);
@@ -88,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot4;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot3;
-                entity = _closure1_slot6;
+                entity = _closure1_slot9;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00004_ip = 69; continue _fun00003 }
  51:
@@ -112,21 +117,59 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             }
         };
         var _closure2_slot0 = tangon;
-        oscard = _closure1_slot5;
+        report = _closure1_slot5;
         zuuluu = undefined;
-        report = argFoo;
-        report = oscard.bind(zuuluu)(tangon, report);
+        michal = argFoo;
+        michal = report.bind(zuuluu)(tangon, michal);
         michal = _closure1_slot2;
         report = {};
-        oscard = 'adUser';
-        report['key'] = oscard;
+        entity = 'adUser';
+        report['key'] = entity;
         entity = function() { // Original name: get
             entity = _closure1_slot0;
             return entity;
         };
         report['get'] = entity;
-        entity = new Array(1);
+        entity = new Array(5);
         entity[0] = report;
+        report = {};
+        golfie = 'isFetching';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            entity = _closure1_slot6;
+            return entity;
+        };
+        report['get'] = golfie;
+        entity[1] = report;
+        report = {};
+        golfie = 'hasFetchFailed';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            entity = _closure1_slot7;
+            return entity;
+        };
+        report['get'] = golfie;
+        entity[2] = report;
+        report = {};
+        golfie = 'fetchPromise';
+        report['key'] = golfie;
+        golfie = function() { // Original name: get
+            entity = _closure1_slot8;
+            return entity;
+        };
+        report['get'] = golfie;
+        entity[3] = report;
+        report = {};
+        golfie = 'setFetchPromise';
+        report['key'] = golfie;
+        oscard = function(argFoo) { // Original name: value
+            entity = argFoo;
+            _closure1_slot8 = entity;
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[4] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -142,25 +185,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['POST_CONNECTION_OPEN'] = option;
-    tangon = function(argFoo) { // Original name: handleFetchAdUserSuccess
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-            entity = argFoo;
-            zuuluu = entity.advertisingId;
-            entity = entity.isLimitAdTrackingEnabled;
-            michal = null;
-            if(!(michal != zuuluu)) { _fun00006_ip = 40; continue _fun00005 }
- 21:
-            michal = {};
-            michal['advertisingId'] = zuuluu;
-            michal['isLimitAdTrackingEnabled'] = entity;
-            var _closure1_slot0 = michal;
- 40:
-            entity = undefined;
-            return entity;
-        }
+    option = function() { // Original name: handleFetchAdUserStart
+        entity = true;
+        _closure1_slot6 = entity;
+        entity = undefined;
+        return entity;
     };
-    michal['FETCH_AD_USER_SUCCESS'] = tangon;
+    michal['FETCH_AD_USER_START'] = option;
+    option = function(argFoo) { // Original name: handleFetchAdUserSuccess
+        entity = argFoo;
+        report = entity.advertisingId;
+        tangon = entity.isLimitAdTrackingEnabled;
+        entity = false;
+        _closure1_slot6 = entity;
+        zuuluu = null;
+        _closure1_slot8 = zuuluu;
+        zuuluu = {};
+        zuuluu['advertisingId'] = report;
+        zuuluu['isLimitAdTrackingEnabled'] = tangon;
+        var _closure1_slot0 = zuuluu;
+        _closure1_slot7 = entity;
+        entity = undefined;
+        return entity;
+    };
+    michal['FETCH_AD_USER_SUCCESS'] = option;
+    tangon = function() { // Original name: handleFetchAdUserFailure
+        entity = false;
+        _closure1_slot6 = entity;
+        entity = true;
+        _closure1_slot7 = entity;
+        entity = null;
+        _closure1_slot8 = entity;
+        entity = undefined;
+        return entity;
+    };
+    michal['FETCH_AD_USER_FAILURE'] = tangon;
     tangon = golfie.prototype;
     tangon = Object.create(tangon, {constructor: {value: golfie}});
     romeon = tangon;

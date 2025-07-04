@@ -303,10 +303,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {'setting': null, 'isDm': true, 'isFriend': true};
             golfie = report == oscard;
             report = undefined;
-            if(golfie) { _fun00010_ip = 165; continue _fun00009 }
- 159:
+            if(golfie) { _fun00010_ip = 169; continue _fun00009 }
+ 163:
             report = oscard.goreContentFriendDm;
- 165:
+ 169:
             michal['setting'] = report;
             michal = zuuluu.bind(tangon)(michal);
             entity['goreContentFriendDm'] = michal;
