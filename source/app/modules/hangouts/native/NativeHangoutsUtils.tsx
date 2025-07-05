@@ -100,14 +100,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = tangon.isIOS;
                 tangon = michal.bind(tangon)();
                 michal = global;
-                if(tangon) { _fun00006_ip = 75; continue _fun00005 }
+                if(tangon) { _fun00006_ip = 71; continue _fun00005 }
  42:
                 oscard = michal.Promise;
                 report = oscard.resolve;
                 tangon = {'hasActivity': false, 'hasActiveActivity': false};
                 tangon = report.bind(oscard)(tangon);
                 return tangon;
- 75:
+ 71:
                 zuuluu = _closure1_slot3;
                 zuuluu = zuuluu.DCDLockscreenWidgetManager;
                 var _closure2_slot0 = zuuluu;
@@ -132,10 +132,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             michal['hasActivity'] = entity;
                             entity = argBaz;
                             michal['hasActiveActivity'] = entity;
-                            _fun00008_ip = 50; continue _fun00007;
+                            _fun00008_ip = 46; continue _fun00007;
  36:
                             michal = {'hasActivity': false, 'hasActiveActivity': false};
- 50:
+ 46:
                             entity = undefined;
                             michal = zuuluu.bind(entity)(michal);
                             return entity;

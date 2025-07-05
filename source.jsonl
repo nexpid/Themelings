@@ -3325,7 +3325,7 @@
 { "file": "app/modules/directory_channels/native/components/GuildDirectoryNicknameUpsellModal.tsx", "size": 22684 }
 { "file": "app/modules/guild_member/GuildMemberActionCreators.tsx", "size": 3499 }
 { "file": "app/components_native/chat/MessagesFunctionalComponentExperiment.tsx", "size": 2137 }
-{ "file": "app/components_native/chat/MessagesFunctional.tsx", "size": 367276 }
+{ "file": "app/components_native/chat/MessagesFunctional.tsx", "size": 359289 }
 { "file": "app/modules/guild/BasicGuildStore.tsx", "size": 7716 }
 { "file": "app/modules/media_channel/MediaPostEmbedStore.tsx", "size": 9351 }
 { "file": "app/modules/media_channel/MediaPostSharePromptStore.tsx", "size": 9825 }
@@ -5404,7 +5404,7 @@
 { "file": "app/modules/messages/native/renderer/system_messages/ChannelLinkedToLobbySystemMessage.tsx", "size": 6033 }
 { "file": "app/modules/messages/native/renderer/system_messages/InGameMessageNuxSystemMessage.tsx", "size": 4512 }
 { "file": "app/modules/messages/native/renderer/system_messages/JoinRequestNotificationSystemMessage.tsx", "size": 13073 }
-{ "file": "app/modules/messages/native/renderer/system_messages/EmojiAddedSystemMessage.tsx", "size": 11597 }
+{ "file": "app/modules/messages/native/renderer/system_messages/EmojiAddedSystemMessage.tsx", "size": 13014 }
 { "file": "app/modules/emojis/useSystemMessageEmoji.tsx", "size": 3965 }
 { "file": "app/modules/chat_wallpapers/native/ChatWallpaperSystemMessages.tsx", "size": 4885 }
 { "file": "app/modules/messages/native/renderer/row_data/embeds/EmbeddedActivityInstanceEmbed.tsx", "size": 16194 }
