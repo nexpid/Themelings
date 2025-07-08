@@ -557,30 +557,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 entity = argFoo;
-                oscard = argBar;
-                report = this;
-                michal = entity.stickers;
-                zuuluu = null;
-                if(!(zuuluu != michal)) { _fun00014_ip = 44; continue _fun00013 }
- 21:
-                golfie = report.replace;
-                tangon = entity.id;
-                michal = entity.stickers;
-                michal = golfie.bind(report)(tangon, michal, oscard);
- 44:
-                michal = entity.stickerUpdates;
-                if(!(zuuluu != michal)) { _fun00014_ip = 99; continue _fun00013 }
- 54:
-                tangon = report.update;
-                yankee = entity.id;
-                michal = entity.stickerUpdates;
-                offset = michal.writes;
-                entity = entity.stickerUpdates;
+                report = argBar;
+                tangon = this;
+                zuuluu = entity.id;
+                entity = entity.stickers;
+                oscard = entity.op;
+                michal = 'full_sync';
+                if(!(michal !== oscard)) { _fun00014_ip = 76; continue _fun00013 }
+ 35:
+                michal = 'update';
+                if(!(michal === oscard)) { _fun00014_ip = 94; continue _fun00013 }
+ 43:
+                golfie = tangon.update;
+                offset = entity.writes;
                 verify = entity.deletes;
-                romeon = report;
-                option = oscard;
-                entity = romeon[tangon](yankee, offset, verify, option, golfie);
- 99:
+                romeon = tangon;
+                yankee = zuuluu;
+                option = report;
+                michal = romeon[golfie](yankee, offset, verify, option, golfie);
+                _fun00014_ip = 94; continue _fun00013;
+ 76:
+                michal = tangon.replace;
+                entity = entity.items;
+                entity = michal.bind(tangon)(zuuluu, entity, report);
+ 94:
                 entity = undefined;
                 return entity;
             }

@@ -1552,9 +1552,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = report.bind(entity)(tangon);
                 report = oscard.cleanString;
                 tangon = argFoo;
-                golfie = report.bind(oscard)(tangon);
+                oscard = report.bind(oscard)(tangon);
                 tangon = '';
-                if(!(tangon !== golfie)) { _fun00054_ip = 132; continue _fun00053 }
+                if(!(tangon !== oscard)) { _fun00054_ip = 161; continue _fun00053 }
  50:
                 tangon = argBar;
                 if(!tangon) { _fun00054_ip = 90; continue _fun00053 }
@@ -1566,28 +1566,32 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = tangon.bind(entity)(zuuluu);
                 tangon = report.requestMembers;
                 zuuluu = null;
-                zuuluu = tangon.bind(report)(zuuluu, golfie);
+                zuuluu = tangon.bind(report)(zuuluu, oscard);
  90:
-                oscard = michal.searchContext;
+                report = michal.searchContext;
                 zuuluu = null;
-                if(!(zuuluu != oscard)) { _fun00054_ip = 154; continue _fun00053 }
+                if(!(zuuluu != report)) { _fun00054_ip = 183; continue _fun00053 }
  102:
-                report = oscard.setQuery;
-                option = michal.affinities;
-                verify = new Array(0);
-                romeon = oscard;
-                yankee = golfie;
-                offset = undefined;
-                zuuluu = romeon[report](yankee, offset, verify, option, golfie);
-                _fun00054_ip = 154; continue _fun00053;
- 132:
+                tangon = report.setQuery;
+                zuuluu = {};
+                zuuluu['query'] = oscard;
+                zuuluu['filters'] = entity;
+                oscard = new Array(0);
+                zuuluu['blacklist'] = oscard;
+                oscard = michal.affinities;
+                zuuluu['boosters'] = oscard;
+                oscard = 0.002592;
+                zuuluu['boosterFallback'] = oscard;
+                zuuluu = tangon.bind(report)(zuuluu);
+                _fun00054_ip = 183; continue _fun00053;
+ 161:
                 zuuluu = michal.searchContext;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00054_ip = 154; continue _fun00053 }
- 144:
+                if(!(michal != zuuluu)) { _fun00054_ip = 183; continue _fun00053 }
+ 173:
                 michal = zuuluu.clearQuery;
                 michal = michal.bind(zuuluu)();
- 154:
+ 183:
                 return entity;
             }
         };

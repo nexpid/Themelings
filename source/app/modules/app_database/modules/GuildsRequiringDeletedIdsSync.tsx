@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = entity === zuuluu;
                         if(!entity) { _fun00008_ip = 26; continue _fun00007 }
  20:
-                        entity = michal.unableToSyncDeletes;
+                        entity = michal.unable_to_sync_deletes;
  26:
                         return entity;
                     }

@@ -777,32 +777,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = {};
         oscard = 'setQuery';
         entity['key'] = oscard;
-        oscard = function(argFoo, argBar, argBaz, argCor) { // Original name: value
+        oscard = function(argFoo) { // Original name: value
             _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
  0:
-                report = argFoo;
-                zuuluu = argCor;
+                entity = argFoo;
                 michal = this;
-                tangon = null;
-                if(!(tangon != report)) { _fun00032_ip = 75; continue _fun00031 }
- 15:
+                golfie = entity.query;
+                oscard = entity.filters;
+                zuuluu = entity.blacklist;
+                report = entity.boosters;
+                tangon = entity.boosterFallback;
                 entity = {};
-                entity['query'] = report;
-                report = argBar;
-                entity['filters'] = report;
-                report = argBaz;
-                entity['blacklist'] = report;
-                if(!(tangon == zuuluu)) { _fun00032_ip = 43; continue _fun00031 }
- 41:
-                zuuluu = {};
- 43:
-                entity['boosters'] = zuuluu;
+                entity['query'] = golfie;
+                entity['filters'] = oscard;
+                entity['blacklist'] = zuuluu;
+                zuuluu = null;
+                if(!(zuuluu == report)) { _fun00032_ip = 59; continue _fun00031 }
+ 57:
+                report = {};
+ 59:
+                entity['boosters'] = report;
+                report = zuuluu != tangon;
+                zuuluu = 1;
+                if(!report) { _fun00032_ip = 77; continue _fun00031 }
+ 74:
+                zuuluu = tangon;
+ 77:
+                entity['boosterFallback'] = zuuluu;
                 zuuluu = michal._limit;
                 entity['limit'] = zuuluu;
                 michal['_nextQuery'] = entity;
                 entity = michal._setNextQuery;
                 entity = entity.bind(michal)();
- 75:
                 entity = undefined;
                 return entity;
             }

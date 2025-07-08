@@ -15,7 +15,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  15:
             michal = global;
             zuuluu = michal.Set;
-            report = _closure1_slot3;
+            report = _closure1_slot4;
             tangon = report.reduce;
             michal = function(argFoo, argBar) {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -66,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot4 = report;
+    var _closure1_slot5 = report;
     tangon = function(argFoo) { // Original name: hasAutomodQuarantinedProfile
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -80,7 +80,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon != michal;
             if(!michal) { _fun00006_ip = 53; continue _fun00005 }
  30:
-            report = _closure1_slot3;
+            report = _closure1_slot4;
             tangon = report.some;
             zuuluu = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = tangon;
+    var _closure1_slot6 = tangon;
     entity = global;
     offset = entity.Object;
     golfie = offset.defineProperty;
@@ -132,6 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard = verify[oscard];
     oscard = option.bind(entity)(oscard);
     golfie = oscard.GuildMemberFlags;
+    var _closure1_slot3 = golfie;
     offset = golfie.AUTOMOD_QUARANTINED_BIO;
     oscard = new Array(3);
     oscard[0] = offset;
@@ -139,7 +140,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard[1] = offset;
     golfie = golfie.AUTOMOD_QUARANTINED_SERVER_TAG;
     oscard[2] = golfie;
-    var _closure1_slot3 = oscard;
+    var _closure1_slot4 = oscard;
     golfie = 4;
     golfie = verify[golfie];
     verify = option.bind(entity)(golfie);
@@ -155,7 +156,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = null;
             if(!(michal != entity)) { _fun00010_ip = 30; continue _fun00009 }
  9:
-            zuuluu = _closure1_slot4;
+            zuuluu = _closure1_slot5;
             michal = entity.flags;
             entity = undefined;
             entity = zuuluu.bind(entity)(michal);
@@ -173,6 +174,46 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['getAutomodQuarantinedGuildMemberFlags'] = report;
+    report = function(argFoo) { // Original name: getAutomodReason
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            tangon = argFoo;
+            zuuluu = tangon.has;
+            entity = _closure1_slot3;
+            entity = entity.AUTOMOD_QUARANTINED_USERNAME_OR_GUILD_NICKNAME;
+            entity = zuuluu.bind(tangon)(entity);
+            if(entity) { _fun00012_ip = 101; continue _fun00011 }
+ 29:
+            zuuluu = tangon.has;
+            entity = _closure1_slot3;
+            entity = entity.AUTOMOD_QUARANTINED_BIO;
+            entity = zuuluu.bind(tangon)(entity);
+            if(entity) { _fun00012_ip = 89; continue _fun00011 }
+ 52:
+            zuuluu = tangon.has;
+            entity = _closure1_slot3;
+            entity = entity.AUTOMOD_QUARANTINED_SERVER_TAG;
+            zuuluu = zuuluu.bind(tangon)(entity);
+            entity = null;
+            if(!zuuluu) { _fun00012_ip = 87; continue _fun00011 }
+ 77:
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.AUTOMOD_QUARANTINED_SERVER_TAG;
+ 87:
+            _fun00012_ip = 99; continue _fun00011;
+ 89:
+            zuuluu = _closure1_slot3;
+            entity = zuuluu.AUTOMOD_QUARANTINED_BIO;
+ 99:
+            _fun00012_ip = 111; continue _fun00011;
+ 101:
+            michal = _closure1_slot3;
+            entity = michal.AUTOMOD_QUARANTINED_USERNAME_OR_GUILD_NICKNAME;
+ 111:
+            return entity;
+        }
+    };
+    zuuluu['getAutomodReason'] = report;
     zuuluu['hasAutomodQuarantinedProfile'] = tangon;
     michal = function(argFoo) { // Original name: useCurrentUserAutomodQuaratinedProfile
         oscard = argFoo;
@@ -190,14 +231,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = new Array(1);
         michal[0] = oscard;
         entity = function() {
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 zuuluu = _closure2_slot0;
                 entity = null;
                 entity = entity != zuuluu;
-                if(!entity) { _fun00012_ip = 49; continue _fun00011 }
+                if(!entity) { _fun00014_ip = 49; continue _fun00013 }
  16:
-                tangon = _closure1_slot5;
+                tangon = _closure1_slot6;
                 report = _closure1_slot2;
                 zuuluu = report.getSelfMember;
                 michal = _closure2_slot0;

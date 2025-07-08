@@ -102,70 +102,82 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00004_ip = 210; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 248; continue _fun00003 }
  10:
                     michal = argFoo;
-                    verify = michal.phone;
+                    offset = michal.phone;
                     oscard = undefined;
                     SaveGenerator(address=25);
  23:
                     return oscard;
  25:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 207; continue _fun00003 }
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(tangon) { _fun00004_ip = 245; continue _fun00003 }
  34: // try_start_0
-                    tangon = _closure1_slot1;
-                    offset = _closure1_slot3;
-                    zuuluu = 6;
-                    zuuluu = offset[zuuluu];
-                    report = tangon.bind(oscard)(zuuluu);
-                    tangon = report.post;
-                    zuuluu = {};
-                    golfie = _closure1_slot8;
-                    golfie = golfie.REGISTER_PHONE;
-                    zuuluu['url'] = golfie;
-                    golfie = {};
-                    golfie['phone'] = verify;
-                    zuuluu['body'] = golfie;
-                    golfie = {};
-                    verify = _closure1_slot0;
-                    option = 7;
-                    option = offset[option];
-                    option = verify.bind(oscard)(option);
-                    option = option.NetworkActionNames;
-                    option = option.USER_REGISTER_PHONE;
-                    golfie['event'] = option;
-                    zuuluu['trackedActionData'] = golfie;
-                    golfie = false;
-                    zuuluu['rejectWithError'] = golfie;
-                    zuuluu = tangon.bind(report)(zuuluu);
+                    report = _closure1_slot1;
+                    yankee = _closure1_slot3;
+                    tangon = 6;
+                    tangon = yankee[tangon];
+                    golfie = report.bind(oscard)(tangon);
+                    report = golfie.post;
+                    tangon = {};
+                    option = _closure1_slot8;
+                    option = option.REGISTER_PHONE;
+                    tangon['url'] = option;
+                    option = {};
+                    option['phone'] = offset;
+                    tangon['body'] = option;
+                    option = {};
+                    offset = _closure1_slot0;
+                    verify = 7;
+                    verify = yankee[verify];
+                    verify = offset.bind(oscard)(verify);
+                    verify = verify.NetworkActionNames;
+                    verify = verify.USER_REGISTER_PHONE;
+                    option['event'] = verify;
+                    tangon['trackedActionData'] = option;
+                    option = false;
+                    tangon['rejectWithError'] = option;
+                    tangon = report.bind(golfie)(tangon);
                     SaveGenerator(address=145);
  143:
-                    return zuuluu;
+                    return tangon;
  145:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                    if(tangon) { _fun00004_ip = 154; continue _fun00003 }
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(report) { _fun00004_ip = 154; continue _fun00003 }
  151: // try_end0
-                    return zuuluu;
+                    return tangon;
  154:
-                    return zuuluu;
+                    return tangon;
  157: // catch_target0
-                    CatchBlockStart(arg_register=4);
-                    tangon = _closure1_slot1;
+                    CatchBlockStart(arg_register=6);
+                    zuuluu = golfie;
+                    option = _closure1_slot0;
+                    verify = _closure1_slot3;
+                    report = 9;
+                    report = verify[report];
+                    report = option.bind(oscard)(report);
+                    report = report.CaptchaCancelError;
+                    report = golfie instanceof report;
+                    if(report) { _fun00004_ip = 243; continue _fun00003 }
+ 198:
+                    report = _closure1_slot1;
                     golfie = _closure1_slot3;
-                    zuuluu = 8;
-                    zuuluu = golfie[zuuluu];
-                    zuuluu = tangon.bind(oscard)(zuuluu);
-                    tangon = zuuluu.prototype;
-                    tangon = Object.create(tangon, {constructor: {value: zuuluu}});
-                    romeon = tangon;
-                    yankee = report;
-                    zuuluu = new romeon[zuuluu](yankee, offset);
-                    zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
+                    tangon = 8;
+                    tangon = golfie[tangon];
+                    oscard = report.bind(oscard)(tangon);
+                    romeon = zuuluu;
+                    report = oscard.prototype;
+                    report = Object.create(report, {constructor: {value: oscard}});
+                    foxtra = report;
+                    tangon = new foxtra[oscard](romeon, yankee);
+                    tangon = tangon instanceof Object ? tangon : report;
+                    throw tangon;
+ 243:
                     throw zuuluu;
- 207:
+ 245:
                     return michal;
- 210:
+ 248:
                     return entity;
                 }
             };
@@ -218,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  104:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot3;
-            michal = 9;
+            michal = 10;
             michal = tangon[michal];
             tangon = zuuluu.bind(golfie)(michal);
             zuuluu = tangon.dispatch;
@@ -231,7 +243,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  156:
             zuuluu = _closure1_slot1;
             report = _closure1_slot3;
-            michal = 10;
+            michal = 11;
             michal = report[michal];
             tangon = zuuluu.bind(golfie)(michal);
             michal = _closure1_slot7;
@@ -372,7 +384,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function(argFoo) {
                 zuuluu = _closure1_slot1;
                 tangon = _closure1_slot3;
-                entity = 9;
+                entity = 10;
                 michal = tangon[entity];
                 entity = undefined;
                 golfie = zuuluu.bind(entity)(michal);
@@ -404,96 +416,108 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                    zuuluu = _closure1_slot1;
-                    tangon = _closure1_slot3;
-                    entity = 8;
-                    entity = tangon[entity];
-                    report = undefined;
-                    tangon = zuuluu.bind(report)(entity);
-                    entity = tangon.prototype;
-                    zuuluu = Object.create(entity, {constructor: {value: tangon}});
-                    offset = argFoo;
-                    yankee = zuuluu;
-                    entity = new yankee[tangon](offset, verify);
-                    entity = entity instanceof Object ? entity : zuuluu;
-                    zuuluu = entity.getFieldErrors;
-                    golfie = 'date_of_birth';
-                    tangon = zuuluu.bind(entity)(golfie);
-                    zuuluu = null;
-                    if(!(zuuluu != tangon)) { _fun00008_ip = 110; continue _fun00007 }
- 69:
-                    tangon = _closure1_slot2;
-                    oscard = _closure1_slot3;
-                    zuuluu = 11;
-                    zuuluu = oscard[zuuluu];
-                    oscard = tangon.bind(report)(zuuluu);
-                    tangon = oscard.preventUnderageRegistration;
-                    zuuluu = _closure1_slot10;
-                    zuuluu = zuuluu.REGISTER;
-                    zuuluu = tangon.bind(oscard)(zuuluu);
- 110:
+                    entity = argFoo;
+                    tangon = _closure1_slot0;
+                    report = _closure1_slot3;
+                    michal = 9;
+                    michal = report[michal];
+                    oscard = undefined;
+                    michal = tangon.bind(oscard)(michal);
+                    michal = michal.CaptchaCancelError;
+                    michal = entity instanceof michal;
+                    if(michal) { _fun00008_ip = 480; continue _fun00007 }
+ 44:
                     tangon = _closure1_slot1;
-                    oscard = _closure1_slot3;
-                    zuuluu = 5;
-                    zuuluu = oscard[zuuluu];
-                    report = tangon.bind(report)(zuuluu);
-                    tangon = report.track;
-                    michal = _closure1_slot6;
-                    zuuluu = michal.REGISTER_SUBMIT_ERRORED;
-                    michal = {};
-                    oscard = true;
-                    michal['is_unique_username_registration'] = oscard;
-                    option = entity.getFirstFieldErrorMessage;
-                    oscard = 'email';
-                    oscard = option.bind(entity)(oscard);
-                    michal['email_error_reason'] = oscard;
-                    option = entity.getFirstFieldErrorMessage;
-                    oscard = 'phone_token';
-                    oscard = option.bind(entity)(oscard);
-                    michal['phone_error_reason'] = oscard;
-                    option = entity.getFirstFieldErrorMessage;
-                    oscard = 'password';
-                    oscard = option.bind(entity)(oscard);
-                    michal['password_error_reason'] = oscard;
-                    option = entity.getFirstFieldErrorMessage;
-                    oscard = 'username';
-                    oscard = option.bind(entity)(oscard);
-                    michal['username_error_reason'] = oscard;
-                    option = entity.getFirstFieldErrorMessage;
-                    oscard = 'global_name';
-                    oscard = option.bind(entity)(oscard);
-                    michal['global_name_error_reason'] = oscard;
-                    oscard = entity.getFirstFieldErrorMessage;
-                    oscard = oscard.bind(entity)(golfie);
-                    michal['date_of_birth_error_reason'] = oscard;
-                    golfie = entity.getFirstFieldErrorMessage;
-                    oscard = 'promotional_email_opt_in';
-                    oscard = golfie.bind(entity)(oscard);
-                    michal['promotional_email_opt_in_error_reason'] = oscard;
-                    golfie = entity.getFirstFieldErrorMessage;
-                    oscard = 'fingerprint';
-                    oscard = golfie.bind(entity)(oscard);
-                    michal['fingerprint_error_reason'] = oscard;
-                    golfie = entity.getFirstFieldErrorMessage;
-                    oscard = 'invite';
-                    oscard = golfie.bind(entity)(oscard);
-                    michal['invite_error_reason'] = oscard;
-                    golfie = entity.getFirstFieldErrorMessage;
-                    oscard = 'gift_code_sku_id';
-                    oscard = golfie.bind(entity)(oscard);
-                    michal['gift_code_sku_id_error_reason'] = oscard;
-                    golfie = entity.getFirstFieldErrorMessage;
-                    oscard = 'guild_template_code';
-                    oscard = golfie.bind(entity)(oscard);
-                    michal['guild_template_code_error_reason'] = oscard;
-                    golfie = entity.getFirstFieldErrorMessage;
-                    oscard = 'consent';
-                    oscard = golfie.bind(entity)(oscard);
-                    michal['consent_error_reason'] = oscard;
-                    oscard = entity.getAnyErrorMessage;
-                    oscard = oscard.bind(entity)();
-                    michal['generic_error_reason'] = oscard;
-                    michal = tangon.bind(report)(zuuluu, michal);
+                    report = _closure1_slot3;
+                    michal = 8;
+                    michal = report[michal];
+                    michal = tangon.bind(oscard)(michal);
+                    tangon = michal.prototype;
+                    tangon = Object.create(tangon, {constructor: {value: michal}});
+                    romeon = tangon;
+                    yankee = entity;
+                    michal = new romeon[michal](yankee, offset);
+                    michal = michal instanceof Object ? michal : tangon;
+                    tangon = michal.getFieldErrors;
+                    option = 'date_of_birth';
+                    report = tangon.bind(michal)(option);
+                    tangon = null;
+                    if(!(tangon != report)) { _fun00008_ip = 149; continue _fun00007 }
+ 108:
+                    report = _closure1_slot2;
+                    golfie = _closure1_slot3;
+                    tangon = 12;
+                    tangon = golfie[tangon];
+                    golfie = report.bind(oscard)(tangon);
+                    report = golfie.preventUnderageRegistration;
+                    tangon = _closure1_slot10;
+                    tangon = tangon.REGISTER;
+                    tangon = report.bind(golfie)(tangon);
+ 149:
+                    report = _closure1_slot1;
+                    golfie = _closure1_slot3;
+                    tangon = 5;
+                    tangon = golfie[tangon];
+                    oscard = report.bind(oscard)(tangon);
+                    report = oscard.track;
+                    zuuluu = _closure1_slot6;
+                    tangon = zuuluu.REGISTER_SUBMIT_ERRORED;
+                    zuuluu = {};
+                    golfie = true;
+                    zuuluu['is_unique_username_registration'] = golfie;
+                    verify = michal.getFirstFieldErrorMessage;
+                    golfie = 'email';
+                    golfie = verify.bind(michal)(golfie);
+                    zuuluu['email_error_reason'] = golfie;
+                    verify = michal.getFirstFieldErrorMessage;
+                    golfie = 'phone_token';
+                    golfie = verify.bind(michal)(golfie);
+                    zuuluu['phone_error_reason'] = golfie;
+                    verify = michal.getFirstFieldErrorMessage;
+                    golfie = 'password';
+                    golfie = verify.bind(michal)(golfie);
+                    zuuluu['password_error_reason'] = golfie;
+                    verify = michal.getFirstFieldErrorMessage;
+                    golfie = 'username';
+                    golfie = verify.bind(michal)(golfie);
+                    zuuluu['username_error_reason'] = golfie;
+                    verify = michal.getFirstFieldErrorMessage;
+                    golfie = 'global_name';
+                    golfie = verify.bind(michal)(golfie);
+                    zuuluu['global_name_error_reason'] = golfie;
+                    golfie = michal.getFirstFieldErrorMessage;
+                    golfie = golfie.bind(michal)(option);
+                    zuuluu['date_of_birth_error_reason'] = golfie;
+                    option = michal.getFirstFieldErrorMessage;
+                    golfie = 'promotional_email_opt_in';
+                    golfie = option.bind(michal)(golfie);
+                    zuuluu['promotional_email_opt_in_error_reason'] = golfie;
+                    option = michal.getFirstFieldErrorMessage;
+                    golfie = 'fingerprint';
+                    golfie = option.bind(michal)(golfie);
+                    zuuluu['fingerprint_error_reason'] = golfie;
+                    option = michal.getFirstFieldErrorMessage;
+                    golfie = 'invite';
+                    golfie = option.bind(michal)(golfie);
+                    zuuluu['invite_error_reason'] = golfie;
+                    option = michal.getFirstFieldErrorMessage;
+                    golfie = 'gift_code_sku_id';
+                    golfie = option.bind(michal)(golfie);
+                    zuuluu['gift_code_sku_id_error_reason'] = golfie;
+                    option = michal.getFirstFieldErrorMessage;
+                    golfie = 'guild_template_code';
+                    golfie = option.bind(michal)(golfie);
+                    zuuluu['guild_template_code_error_reason'] = golfie;
+                    option = michal.getFirstFieldErrorMessage;
+                    golfie = 'consent';
+                    golfie = option.bind(michal)(golfie);
+                    zuuluu['consent_error_reason'] = golfie;
+                    golfie = michal.getAnyErrorMessage;
+                    golfie = golfie.bind(michal)();
+                    zuuluu['generic_error_reason'] = golfie;
+                    zuuluu = report.bind(oscard)(tangon, zuuluu);
+                    throw michal;
+ 480:
                     throw entity;
                 }
             };
@@ -535,7 +559,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot9 = option;
     report = report.AgeGateSource;
     var _closure1_slot10 = report;
-    report = 12;
+    report = 13;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

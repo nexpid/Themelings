@@ -144,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00006_ip = 119; continue _fun00005 }
+                            if(michal) { _fun00006_ip = 116; continue _fun00005 }
  7:
                             tangon = _closure1_slot9;
                             michal = tangon.getCurrentUser;
@@ -159,27 +159,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             tangon = _closure1_slot10;
                             tangon = tangon.TIER_2;
                             tangon = report.bind(oscard)(golfie, tangon);
-                            if(tangon) { _fun00006_ip = 116; continue _fun00005 }
+                            if(tangon) { _fun00006_ip = 113; continue _fun00005 }
  70:
                             tangon = _closure1_slot0;
                             report = _closure1_slot2;
                             zuuluu = 9;
                             zuuluu = report[zuuluu];
-                            report = tangon.bind(michal)(zuuluu);
-                            tangon = report.maybeFetchActiveBogoPromotion;
-                            zuuluu = false;
-                            zuuluu = tangon.bind(report)(zuuluu);
-                            SaveGenerator(address=107);
- 105:
+                            tangon = tangon.bind(michal)(zuuluu);
+                            zuuluu = tangon.maybeFetchActiveBogoPromotion;
+                            zuuluu = zuuluu.bind(tangon)();
+                            SaveGenerator(address=104);
+ 102:
                             return zuuluu;
- 107:
+ 104:
                             ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                            if(!tangon) { _fun00006_ip = 116; continue _fun00005 }
- 113:
+                            if(!tangon) { _fun00006_ip = 113; continue _fun00005 }
+ 110:
                             return zuuluu;
- 116:
+ 113:
                             return michal;
- 119:
+ 116:
                             return entity;
                         }
                     };

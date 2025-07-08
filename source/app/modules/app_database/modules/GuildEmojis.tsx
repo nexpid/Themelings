@@ -557,31 +557,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                 entity = argFoo;
-                oscard = argBar;
-                report = this;
-                michal = entity.emojiUpdates;
-                zuuluu = null;
-                if(!(zuuluu == michal)) { _fun00014_ip = 56; continue _fun00013 }
- 21:
+                report = argBar;
+                tangon = this;
                 michal = entity.emojis;
-                if(!(zuuluu != michal)) { _fun00014_ip = 101; continue _fun00013 }
- 31:
-                tangon = report.replace;
-                zuuluu = entity.id;
+                zuuluu = michal.op;
+                michal = 'full_sync';
+                if(!(michal !== zuuluu)) { _fun00014_ip = 93; continue _fun00013 }
+ 30:
+                michal = 'update';
+                if(!(michal !== zuuluu)) { _fun00014_ip = 46; continue _fun00013 }
+ 38:
                 michal = entity.emojis;
-                michal = tangon.bind(report)(zuuluu, michal, oscard);
-                _fun00014_ip = 101; continue _fun00013;
- 56:
-                tangon = report.update;
-                offset = entity.id;
-                michal = entity.emojiUpdates;
-                verify = michal.writes;
-                entity = entity.emojiUpdates;
-                option = entity.deletes;
-                yankee = report;
-                golfie = oscard;
-                entity = yankee[tangon](offset, verify, option, golfie, oscard);
- 101:
+                _fun00014_ip = 122; continue _fun00013;
+ 46:
+                golfie = tangon.update;
+                yankee = entity.id;
+                michal = entity.emojis;
+                offset = michal.writes;
+                michal = entity.emojis;
+                verify = michal.deletes;
+                romeon = tangon;
+                option = report;
+                michal = romeon[golfie](yankee, offset, verify, option, golfie);
+                _fun00014_ip = 122; continue _fun00013;
+ 93:
+                zuuluu = tangon.replace;
+                michal = entity.id;
+                entity = entity.emojis;
+                entity = entity.items;
+                entity = zuuluu.bind(tangon)(michal, entity, report);
+ 122:
                 entity = undefined;
                 return entity;
             }

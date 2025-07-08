@@ -50,70 +50,64 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = function(argFoo, argBar, argBaz) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            oscard = argFoo;
-            golfie = argBar;
-            report = argBaz;
+            report = argBar;
+            oscard = argBaz;
             entity = {};
             michal = {'flex': 1, 'position': 'relative', 'overflow': 'hidden', 'width': '100%'};
             zuuluu = 1;
             tangon = null;
-            option = tangon != report;
+            golfie = tangon != oscard;
             tangon = 263;
-            if(!option) { _fun00002_ip = 46; continue _fun00001 }
+            if(!golfie) { _fun00002_ip = 43; continue _fun00001 }
+ 40:
+            tangon = oscard;
  43:
-            tangon = report;
- 46:
             michal['maxWidth'] = tangon;
             tangon = 350;
+            oscard = argFoo;
             if(!oscard) { _fun00002_ip = 62; continue _fun00001 }
  60:
             tangon = undefined;
  62:
             michal['minHeight'] = tangon;
             tangon = zuuluu;
-            if(!golfie) { _fun00002_ip = 75; continue _fun00001 }
+            if(!report) { _fun00002_ip = 75; continue _fun00001 }
  73:
             tangon = undefined;
  75:
             michal['borderWidth'] = tangon;
-            offset = _closure1_slot1;
-            report = _closure1_slot2;
-            option = 6;
-            verify = report[option];
-            report = undefined;
-            verify = offset.bind(report)(verify);
-            verify = verify.colors;
-            if(golfie) { _fun00002_ip = 121; continue _fun00001 }
+            verify = _closure1_slot1;
+            oscard = _closure1_slot2;
+            golfie = 6;
+            option = oscard[golfie];
+            oscard = undefined;
+            option = verify.bind(oscard)(option);
+            option = option.colors;
+            if(report) { _fun00002_ip = 121; continue _fun00001 }
  113:
-            golfie = verify.BACKGROUND_FLOATING;
+            report = option.BACKGROUND_FLOATING;
             _fun00002_ip = 127; continue _fun00001;
  121:
-            golfie = verify.BORDER_FAINT;
+            report = option.BORDER_FAINT;
  127:
-            michal['borderColor'] = golfie;
-            golfie = _closure1_slot1;
+            michal['borderColor'] = report;
+            report = _closure1_slot1;
             tangon = _closure1_slot2;
-            verify = tangon[option];
-            verify = golfie.bind(report)(verify);
-            verify = verify.radii;
-            verify = verify.sm;
-            michal['borderRadius'] = verify;
-            tangon = tangon[option];
-            tangon = golfie.bind(report)(tangon);
+            option = tangon[golfie];
+            option = report.bind(oscard)(option);
+            option = option.radii;
+            option = option.sm;
+            michal['borderRadius'] = option;
+            tangon = tangon[golfie];
+            tangon = report.bind(oscard)(tangon);
             tangon = tangon.shadows;
-            yankee = tangon.SHADOW_HIGH;
-            romeon = michal;
-            tangon = copyDataProperties(romeon, yankee);
+            offset = tangon.SHADOW_HIGH;
+            yankee = michal;
+            tangon = copyDataProperties(yankee, offset);
             entity['profileContainer'] = michal;
             michal = {};
-            tangon = zuuluu;
-            if(!oscard) { _fun00002_ip = 207; continue _fun00001 }
- 205:
-            tangon = undefined;
- 207:
-            michal['flex'] = tangon;
-            entity['contentContainer'] = michal;
-            michal = {'flex': 1, 'marginTop': 12};
+            tangon = 12;
+            michal['marginTop'] = tangon;
             entity['aboutMeCard'] = michal;
             michal = {};
             michal['zIndex'] = zuuluu;
@@ -306,8 +300,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot8;
             romeon = _closure1_slot3;
             yankee = {};
-            sizing = foxtra.contentContainer;
-            yankee['style'] = sizing;
             variable36 = _closure1_slot7;
             result = _closure1_slot1;
             quebec = _closure1_slot2;
@@ -335,17 +327,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = new Array(2);
             echoed[0] = ctrled;
             ctrled = !source;
-            if(source) { _fun00004_ip = 833; continue _fun00003 }
- 819:
+            if(source) { _fun00004_ip = 823; continue _fun00003 }
+ 809:
             vacuum = {};
             quebec = _closure1_slot5;
             vacuum['paddingTop'] = quebec;
             ctrled = vacuum;
- 833:
+ 823:
             echoed[1] = ctrled;
             output['containerStyle'] = echoed;
-            if(!source) { _fun00004_ip = 923; continue _fun00003 }
- 845:
+            if(!source) { _fun00004_ip = 913; continue _fun00003 }
+ 835:
             vacuum = _closure1_slot7;
             ctrled = _closure1_slot1;
             quebec = _closure1_slot2;
@@ -363,7 +355,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = limora.emojiOnlyCustomStatusBubble;
             echoed['emojiOnlyStyle'] = limora;
             source = vacuum.bind(tangon)(ctrled, echoed);
- 923:
+ 913:
             echoed = new Array(3);
             echoed[0] = source;
             vacuum = _closure1_slot7;
@@ -378,16 +370,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = limora.PREVIEW;
             source['themeType'] = limora;
             source['displayName'] = sierra;
-            if(!(verify == status)) { _fun00004_ip = 1002; continue _fun00003 }
- 984:
+            if(!(verify == status)) { _fun00004_ip = 992; continue _fun00003 }
+ 974:
             limora = verify == sequen;
             sierra = undefined;
-            if(limora) { _fun00004_ip = 999; continue _fun00003 }
- 993:
+            if(limora) { _fun00004_ip = 989; continue _fun00003 }
+ 983:
             sierra = sequen.pronouns;
- 999:
+ 989:
             status = sierra;
- 1002:
+ 992:
             source['pronouns'] = status;
             source['badges'] = target;
             source['badgeContainerBackground'] = cntext;
@@ -395,8 +387,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = vacuum.bind(tangon)(ctrled, source);
             echoed[1] = source;
             update = !update;
-            if(!update) { _fun00004_ip = 1145; continue _fun00003 }
- 1038:
+            if(!update) { _fun00004_ip = 1135; continue _fun00003 }
+ 1028:
             vacuum = _closure1_slot7;
             ctrled = _closure1_slot1;
             papara = _closure1_slot2;
@@ -419,13 +411,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['style'] = sequen;
             record = verify != config;
             sequen = 3;
-            if(!record) { _fun00004_ip = 1134; continue _fun00003 }
- 1131:
+            if(!record) { _fun00004_ip = 1124; continue _fun00003 }
+ 1121:
             sequen = config;
- 1134:
+ 1124:
             source['bioLineClamp'] = sequen;
             update = vacuum.bind(tangon)(ctrled, source);
- 1145:
+ 1135:
             echoed[2] = update;
             output['children'] = echoed;
             output = kiloes.bind(tangon)(result, output);
@@ -434,8 +426,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = kiloes.bind(tangon)(romeon, yankee);
             option[1] = yankee;
             verify = verify != backup;
-            if(!verify) { _fun00004_ip = 1231; continue _fun00003 }
- 1184:
+            if(!verify) { _fun00004_ip = 1221; continue _fun00003 }
+ 1174:
             romeon = _closure1_slot7;
             yankee = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -447,7 +439,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.profileEffect;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1231:
+ 1221:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

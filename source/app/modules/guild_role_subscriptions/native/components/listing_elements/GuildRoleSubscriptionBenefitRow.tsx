@@ -223,7 +223,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = oscard;
             oscard = zuuluu.bind(tangon)(michal, entity);
             entity = null;
-            if(!(entity != foxtra)) { _fun00006_ip = 413; continue _fun00005 }
+            if(!(entity != foxtra)) { _fun00006_ip = 409; continue _fun00005 }
  226:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot3;
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = offset;
             entity['children'] = verify;
             oscard = zuuluu.bind(tangon)(michal, entity);
- 413:
+ 409:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot9;
             entity = {};

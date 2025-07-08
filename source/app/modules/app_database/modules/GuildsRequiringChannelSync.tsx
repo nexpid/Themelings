@@ -689,51 +689,53 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = argBar;
                 zuuluu = this;
                 michal = entity.channels;
-                oscard = null;
-                if(!(oscard != michal)) { _fun00024_ip = 45; continue _fun00023 }
- 23:
+                report = michal.op;
+                michal = 'full_sync';
+                if(!(michal === report)) { _fun00024_ip = 54; continue _fun00023 }
+ 32:
                 report = zuuluu.unmarkGuildForResync;
                 michal = entity.id;
                 michal = report.bind(zuuluu)(michal, tangon);
-                _fun00024_ip = 432; continue _fun00023;
- 45:
-                golfie = _closure1_slot6;
-                michal = golfie.getId;
-                yankee = michal.bind(golfie)();
+                _fun00024_ip = 443; continue _fun00023;
+ 54:
+                oscard = _closure1_slot6;
+                michal = oscard.getId;
+                yankee = michal.bind(oscard)();
                 var _closure3_slot0 = yankee;
-                option = _closure1_slot9;
-                golfie = option.getGuild;
+                golfie = _closure1_slot9;
+                oscard = golfie.getGuild;
                 michal = entity.id;
-                michal = golfie.bind(option)(michal);
+                michal = oscard.bind(golfie)(michal);
+                oscard = null;
                 option = oscard != michal;
                 golfie = true;
-                if(!option) { _fun00024_ip = 134; continue _fun00023 }
- 94:
+                if(!option) { _fun00024_ip = 145; continue _fun00023 }
+ 105:
                 offset = zuuluu.userBecameGuildOwner;
                 option = michal.ownerId;
                 romeon = entity.properties;
                 foxtra = oscard == romeon;
                 michal = undefined;
-                if(foxtra) { _fun00024_ip = 127; continue _fun00023 }
- 121:
+                if(foxtra) { _fun00024_ip = 138; continue _fun00023 }
+ 132:
                 michal = romeon.owner_id;
- 127:
+ 138:
                 golfie = offset.bind(zuuluu)(option, michal, yankee);
- 134:
+ 145:
                 option = null;
-                if(golfie) { _fun00024_ip = 292; continue _fun00023 }
- 142:
+                if(golfie) { _fun00024_ip = 303; continue _fun00023 }
+ 153:
                 yankee = _closure1_slot7;
                 offset = yankee.getSelfMember;
                 michal = entity.id;
                 michal = offset.bind(yankee)(michal);
-                if(!(oscard == michal)) { _fun00024_ip = 186; continue _fun00023 }
- 166:
+                if(!(oscard == michal)) { _fun00024_ip = 197; continue _fun00023 }
+ 177:
                 romeon = _closure1_slot7;
                 yankee = romeon.getCachedSelfMember;
                 offset = entity.id;
                 michal = yankee.bind(romeon)(offset);
- 186:
+ 197:
                 yankee = entity.members;
                 offset = yankee.find;
                 verify = function(argFoo) {
@@ -746,40 +748,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 yankee = offset.bind(yankee)(verify);
                 offset = zuuluu.processMemberRoleIds;
-                if(!(oscard == michal)) { _fun00024_ip = 227; continue _fun00023 }
- 221:
+                if(!(oscard == michal)) { _fun00024_ip = 238; continue _fun00023 }
+ 232:
                 verify = new Array(0);
-                _fun00024_ip = 233; continue _fun00023;
- 227:
+                _fun00024_ip = 244; continue _fun00023;
+ 238:
                 verify = michal.roles;
- 233:
+ 244:
                 romeon = oscard == yankee;
                 michal = undefined;
-                if(romeon) { _fun00024_ip = 248; continue _fun00023 }
- 242:
+                if(romeon) { _fun00024_ip = 259; continue _fun00023 }
+ 253:
                 michal = yankee.roles;
- 248:
-                if(!(oscard == michal)) { _fun00024_ip = 256; continue _fun00023 }
- 252:
+ 259:
+                if(!(oscard == michal)) { _fun00024_ip = 267; continue _fun00023 }
+ 263:
                 michal = new Array(0);
- 256:
+ 267:
                 michal = offset.bind(zuuluu)(verify, michal);
                 verify = michal.rolesAreDifferent;
                 michal = michal.allRoleIds;
                 offset = oscard != michal;
                 golfie = verify;
                 option = null;
-                if(!offset) { _fun00024_ip = 292; continue _fun00023 }
- 286:
+                if(!offset) { _fun00024_ip = 303; continue _fun00023 }
+ 297:
                 golfie = verify;
                 option = michal;
- 292:
+ 303:
                 michal = golfie;
-                if(golfie) { _fun00024_ip = 412; continue _fun00023 }
- 298:
+                if(golfie) { _fun00024_ip = 423; continue _fun00023 }
+ 309:
                 michal = golfie;
-                if(!(oscard != option)) { _fun00024_ip = 412; continue _fun00023 }
- 305:
+                if(!(oscard != option)) { _fun00024_ip = 423; continue _fun00023 }
+ 316:
                 verify = _closure1_slot8;
                 golfie = verify.getRoles;
                 oscard = entity.id;
@@ -788,11 +790,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = global;
                 oscard = oscard.Array;
                 oscard = verify instanceof oscard;
-                if(oscard) { _fun00024_ip = 354; continue _fun00023 }
- 346:
+                if(oscard) { _fun00024_ip = 365; continue _fun00023 }
+ 357:
                 oscard = entity.roles;
-                _fun00024_ip = 399; continue _fun00023;
- 354:
+                _fun00024_ip = 410; continue _fun00023;
+ 365:
                 offset = _closure1_slot0;
                 verify = _closure1_slot3;
                 report = 9;
@@ -803,16 +805,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = entity.id;
                 report = entity.roles;
                 oscard = offset.bind(yankee)(verify, report);
- 399:
+ 410:
                 report = zuuluu.rolesHaveVisibilityChanges;
                 michal = report.bind(zuuluu)(golfie, oscard, option);
- 412:
-                if(!michal) { _fun00024_ip = 432; continue _fun00023 }
- 415:
+ 423:
+                if(!michal) { _fun00024_ip = 443; continue _fun00023 }
+ 426:
                 michal = zuuluu.markGuildForResync;
                 entity = entity.id;
                 entity = michal.bind(zuuluu)(entity, tangon);
- 432:
+ 443:
                 entity = undefined;
                 return entity;
             }

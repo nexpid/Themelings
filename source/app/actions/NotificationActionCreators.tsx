@@ -270,18 +270,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         verify = report;
         option = golfie;
         golfie = copyDataProperties(verify, option);
-        golfie = function() { // Original name: onClick
+        golfie = function(argFoo) { // Original name: onClick
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 michal = _closure2_slot0;
                 zuuluu = michal.onClick;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00002_ip = 33; continue _fun00001 }
+                if(!(michal != zuuluu)) { _fun00002_ip = 37; continue _fun00001 }
  19:
-                michal = _closure2_slot0;
-                entity = michal.onClick;
-                entity = entity.bind(michal)();
- 33:
+                zuuluu = _closure2_slot0;
+                michal = zuuluu.onClick;
+                entity = argFoo;
+                entity = michal.bind(zuuluu)(entity);
+ 37:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot1;
                 entity = 2;

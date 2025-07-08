@@ -52,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.AbortCodes;
     var _closure1_slot12 = tangon;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -171,98 +171,98 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                             StartGenerator();
-                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00006_ip = 750; continue _fun00005 }
+                            ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                            if(michal) { _fun00006_ip = 792; continue _fun00005 }
  12:
-                            zuuluu = argFoo;
-                            var _closure5_slot0 = zuuluu;
-                            report = undefined;
-                            backup = undefined;
-                            var _closure5_slot1 = report;
+                            michal = argFoo;
+                            var _closure5_slot0 = michal;
+                            michal = undefined;
+                            kiloes = undefined;
+                            var _closure5_slot1 = michal;
                             option = undefined;
                             golfie = undefined;
                             oscard = undefined;
-                            tangon = _closure2_slot5;
-                            verify = tangon.current;
-                            tangon = _closure2_slot6;
-                            yankee = verify + tangon;
-                            backup = yankee;
-                            _closure5_slot1 = yankee;
-                            offset = _closure1_slot7;
-                            tangon = {};
-                            tangon['email'] = report;
-                            tangon['phone'] = yankee;
-                            tangon = offset.bind(report)(tangon);
-                            offset = _closure1_slot9;
-                            tangon = _closure2_slot0;
-                            option = offset.bind(report)(tangon);
+                            verify = _closure2_slot5;
+                            offset = verify.current;
+                            verify = _closure2_slot6;
+                            romeon = offset + verify;
+                            kiloes = romeon;
+                            _closure5_slot1 = romeon;
+                            yankee = _closure1_slot7;
+                            offset = {};
+                            offset['email'] = michal;
+                            offset['phone'] = romeon;
+                            offset = yankee.bind(michal)(offset);
+                            yankee = _closure1_slot9;
+                            offset = _closure2_slot0;
+                            option = yankee.bind(michal)(offset);
  97: // try_start_0
-                            offset = _closure1_slot0;
-                            yankee = _closure1_slot2;
-                            tangon = 9;
-                            tangon = yankee[tangon];
-                            yankee = offset.bind(report)(tangon);
-                            offset = yankee.registerPhone;
-                            tangon = {};
-                            romeon = backup;
-                            tangon['phone'] = romeon;
-                            tangon = offset.bind(yankee)(tangon);
+                            yankee = _closure1_slot0;
+                            romeon = _closure1_slot2;
+                            offset = 9;
+                            offset = romeon[offset];
+                            romeon = yankee.bind(michal)(offset);
+                            yankee = romeon.registerPhone;
+                            offset = {};
+                            foxtra = kiloes;
+                            offset['phone'] = foxtra;
+                            offset = yankee.bind(romeon)(offset);
                             SaveGenerator(address=142);
  140:
-                            return tangon;
+                            return offset;
  142:
-                            ResumeGenerator(result_out_reg=3, return_bool_out_reg=9);
-                            if(offset) { _fun00006_ip = 401; continue _fun00005 }
+                            ResumeGenerator(result_out_reg=9, return_bool_out_reg=10);
+                            if(yankee) { _fun00006_ip = 401; continue _fun00005 }
  151:
-                            yankee = _closure2_slot3;
-                            offset = {};
-                            romeon = option;
-                            offset['step'] = romeon;
-                            romeon = _closure1_slot10;
-                            romeon = romeon.PHONE_VERIFICATION;
-                            offset['toStep'] = romeon;
-                            romeon = _closure1_slot11;
-                            romeon = romeon.SUCCESS;
-                            offset['actionType'] = romeon;
-                            offset = yankee.bind(report)(offset);
+                            romeon = _closure2_slot3;
+                            yankee = {};
+                            foxtra = option;
+                            yankee['step'] = foxtra;
+                            foxtra = _closure1_slot10;
+                            foxtra = foxtra.PHONE_VERIFICATION;
+                            yankee['toStep'] = foxtra;
+                            foxtra = _closure1_slot11;
+                            foxtra = foxtra.SUCCESS;
+                            yankee['actionType'] = foxtra;
+                            yankee = romeon.bind(michal)(yankee);
  200: // try_end0
-                            foxtra = _closure2_slot2;
-                            romeon = foxtra.push;
-                            sizing = _closure1_slot0;
-                            echoed = _closure1_slot2;
-                            offset = 12;
-                            offset = echoed[offset];
-                            offset = sizing.bind(report)(offset);
-                            offset = offset.AuthStates;
-                            yankee = offset.VERIFY_PHONE;
-                            offset = {};
-                            kiloes = 8;
-                            output = echoed[kiloes];
-                            output = sizing.bind(report)(output);
-                            update = output.intl;
-                            result = update.string;
-                            output = echoed[kiloes];
-                            output = sizing.bind(report)(output);
-                            output = output.t;
-                            output = output.h7hdQk;
-                            output = result.bind(update)(output);
-                            offset['title'] = output;
-                            output = echoed[kiloes];
-                            output = sizing.bind(report)(output);
-                            result = output.intl;
-                            output = result.formatToPlainString;
-                            kiloes = echoed[kiloes];
-                            kiloes = sizing.bind(report)(kiloes);
-                            kiloes = kiloes.t;
-                            sizing = kiloes.e5WzVV;
-                            kiloes = {};
-                            kiloes['phone'] = backup;
-                            kiloes = output.bind(result)(sizing, kiloes);
-                            offset['description'] = kiloes;
-                            offset['phone'] = backup;
-                            backup = _closure2_slot0;
-                            offset['sourceState'] = backup;
-                            backup = function(argFoo) { // Original name: onPhoneTokenReceived
+                            backup = _closure2_slot2;
+                            foxtra = backup.push;
+                            output = _closure1_slot0;
+                            update = _closure1_slot2;
+                            yankee = 13;
+                            yankee = update[yankee];
+                            yankee = output.bind(michal)(yankee);
+                            yankee = yankee.AuthStates;
+                            romeon = yankee.VERIFY_PHONE;
+                            yankee = {};
+                            sizing = 8;
+                            result = update[sizing];
+                            result = output.bind(michal)(result);
+                            source = result.intl;
+                            echoed = source.string;
+                            result = update[sizing];
+                            result = output.bind(michal)(result);
+                            result = result.t;
+                            result = result.h7hdQk;
+                            result = echoed.bind(source)(result);
+                            yankee['title'] = result;
+                            result = update[sizing];
+                            result = output.bind(michal)(result);
+                            echoed = result.intl;
+                            result = echoed.formatToPlainString;
+                            sizing = update[sizing];
+                            sizing = output.bind(michal)(sizing);
+                            sizing = sizing.t;
+                            output = sizing.e5WzVV;
+                            sizing = {};
+                            sizing['phone'] = kiloes;
+                            sizing = result.bind(echoed)(output, sizing);
+                            yankee['description'] = sizing;
+                            yankee['phone'] = kiloes;
+                            kiloes = _closure2_slot0;
+                            yankee['sourceState'] = kiloes;
+                            kiloes = function(argFoo) { // Original name: onPhoneTokenReceived
                                 zuuluu = _closure1_slot7;
                                 michal = {};
                                 entity = undefined;
@@ -279,7 +279,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 golfie['step'] = zuuluu;
                                 tangon = _closure1_slot0;
                                 oscard = _closure1_slot2;
-                                zuuluu = 13;
+                                zuuluu = 14;
                                 report = oscard[zuuluu];
                                 yankee = tangon.bind(entity)(report);
                                 offset = yankee.getNextRegistrationTransitionStep;
@@ -299,8 +299,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = michal.bind(zuuluu)(tangon);
                                 return entity;
                             };
-                            offset['onPhoneTokenReceived'] = backup;
-                            backup = function() { // Original name: onBail
+                            yankee['onPhoneTokenReceived'] = kiloes;
+                            kiloes = function() { // Original name: onBail
                                 tangon = _closure2_slot7;
                                 entity = undefined;
                                 zuuluu = '';
@@ -312,111 +312,123 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = michal.bind(entity)();
                                 return entity;
                             };
-                            offset['onBail'] = backup;
-                            offset = romeon.bind(foxtra)(yankee, offset);
-                            return report;
+                            yankee['onBail'] = kiloes;
+                            yankee = foxtra.bind(backup)(romeon, yankee);
+                            return michal;
  401:
-                            return tangon;
+                            return offset;
  404: // catch_target0
                             CatchBlockStart(arg_register=10);
-                            offset = _closure1_slot0;
+                            report = yankee;
+                            romeon = _closure1_slot0;
+                            foxtra = _closure1_slot2;
+                            offset = 10;
+                            offset = foxtra[offset];
+                            offset = romeon.bind(michal)(offset);
+                            offset = offset.CaptchaCancelError;
+                            offset = yankee instanceof offset;
+                            if(offset) { _fun00006_ip = 789; continue _fun00005 }
+ 445:
+                            yankee = _closure1_slot0;
                             romeon = _closure1_slot2;
-                            tangon = 10;
-                            tangon = romeon[tangon];
-                            offset = offset.bind(report)(tangon);
-                            tangon = offset.getAuthenticationErrorsFromAPIError;
-                            yankee = tangon.bind(offset)(yankee);
+                            offset = 11;
+                            offset = romeon[offset];
+                            yankee = yankee.bind(michal)(offset);
+                            offset = yankee.getAuthenticationErrorsFromAPIError;
+                            yankee = offset.bind(yankee)(report);
                             golfie = yankee;
-                            tangon = _closure1_slot6;
-                            tangon = tangon.bind(report)(yankee);
-                            tangon = global;
-                            offset = tangon.Object;
-                            tangon = offset.keys;
-                            offset = tangon.bind(offset)(yankee);
-                            tangon = offset.filter;
-                            michal = function(argFoo) {
+                            report = _closure1_slot6;
+                            report = report.bind(michal)(yankee);
+                            report = global;
+                            offset = report.Object;
+                            report = offset.keys;
+                            offset = report.bind(offset)(yankee);
+                            report = offset.filter;
+                            zuuluu = function(argFoo) {
                                 zuuluu = ['phone'];
                                 michal = zuuluu.includes;
                                 entity = argFoo;
                                 entity = michal.bind(zuuluu)(entity);
                                 return entity;
                             };
-                            michal = tangon.bind(offset)(michal);
-                            oscard = michal;
-                            michal = michal.length;
+                            zuuluu = report.bind(offset)(zuuluu);
+                            oscard = zuuluu;
+                            zuuluu = zuuluu.length;
                             offset = 0;
-                            if(!(michal > offset)) { _fun00006_ip = 516; continue _fun00005 }
- 498:
-                            michal = golfie;
-                            tangon = michal.error_code;
-                            michal = null;
-                            if(!(michal == tangon)) { _fun00006_ip = 644; continue _fun00005 }
- 516:
+                            if(!(zuuluu > offset)) { _fun00006_ip = 555; continue _fun00005 }
+ 537:
+                            zuuluu = golfie;
+                            report = zuuluu.error_code;
+                            zuuluu = null;
+                            if(!(zuuluu == report)) { _fun00006_ip = 683; continue _fun00005 }
+ 555:
                             yankee = golfie;
                             yankee = yankee.error_code;
                             romeon = null;
                             yankee = romeon != yankee;
-                            tangon = yankee;
-                            if(!yankee) { _fun00006_ip = 549; continue _fun00005 }
- 537:
+                            report = yankee;
+                            if(!yankee) { _fun00006_ip = 588; continue _fun00005 }
+ 576:
                             yankee = golfie;
                             yankee = yankee.message;
-                            tangon = romeon != yankee;
- 549:
-                            michal = tangon;
-                            if(!tangon) { _fun00006_ip = 642; continue _fun00005 }
- 555:
+                            report = romeon != yankee;
+ 588:
+                            zuuluu = report;
+                            if(!report) { _fun00006_ip = 681; continue _fun00005 }
+ 594:
                             yankee = _closure2_slot3;
-                            tangon = {};
+                            report = {};
                             romeon = option;
-                            tangon['step'] = romeon;
+                            report['step'] = romeon;
                             romeon = _closure1_slot11;
                             romeon = romeon.RESPONSE_ERROR;
-                            tangon['actionType'] = romeon;
+                            report['actionType'] = romeon;
                             foxtra = _closure1_slot0;
                             backup = _closure1_slot2;
-                            romeon = 11;
+                            romeon = 12;
                             romeon = backup[romeon];
-                            backup = foxtra.bind(report)(romeon);
+                            backup = foxtra.bind(michal)(romeon);
                             foxtra = backup.getCommonErrorDetails;
                             romeon = golfie;
                             romeon = romeon.error_code;
                             foxtra = foxtra.bind(backup)(romeon);
                             romeon = new Array(1);
                             romeon[0] = foxtra;
-                            tangon['details'] = romeon;
-                            michal = yankee.bind(report)(tangon);
- 642:
-                            _fun00006_ip = 745; continue _fun00005;
- 644:
-                            tangon = _closure2_slot3;
-                            zuuluu = {};
-                            zuuluu['step'] = option;
+                            report['details'] = romeon;
+                            zuuluu = yankee.bind(michal)(report);
+ 681:
+                            _fun00006_ip = 784; continue _fun00005;
+ 683:
+                            report = _closure2_slot3;
+                            tangon = {};
+                            tangon['step'] = option;
                             option = _closure1_slot11;
                             option = option.RESPONSE_ERROR;
-                            zuuluu['actionType'] = option;
-                            ctrled = oscard;
-                            oscard = new Array(1);
+                            tangon['actionType'] = option;
                             vacuum = oscard;
-                            source = 0;
-                            option = arraySpread(vacuum, ctrled, source);
+                            oscard = new Array(1);
+                            sequen = oscard;
+                            ctrled = 0;
+                            option = arraySpread(sequen, vacuum, ctrled);
                             offset = _closure1_slot0;
                             yankee = _closure1_slot2;
-                            verify = 11;
+                            verify = 12;
                             verify = yankee[verify];
-                            offset = offset.bind(report)(verify);
+                            offset = offset.bind(michal)(verify);
                             verify = offset.getCommonErrorDetails;
                             golfie = golfie.error_code;
                             golfie = verify.bind(offset)(golfie);
                             oscard[option] = golfie;
                             golfie = 1;
                             golfie = option + golfie;
-                            zuuluu['details'] = oscard;
-                            michal = tangon.bind(report)(zuuluu);
- 745:
-                            michal = undefined;
+                            tangon['details'] = oscard;
+                            zuuluu = report.bind(michal)(tangon);
+ 784:
+                            zuuluu = undefined;
+                            return zuuluu;
+ 789:
                             return michal;
- 750:
+ 792:
                             return entity;
                         }
                     };
@@ -443,7 +455,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[2] = result;
             zuuluu[3] = output;
             report = kiloes.bind(sizing)(report, zuuluu);
-            zuuluu = 14;
+            zuuluu = 15;
             zuuluu = romeon[zuuluu];
             zuuluu = yankee.bind(backup)(zuuluu);
             zuuluu = zuuluu.PhoneOrEmailSelectorForceMode;
@@ -452,7 +464,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  320:
             yankee = _closure1_slot1;
             romeon = _closure1_slot2;
-            zuuluu = 15;
+            zuuluu = 16;
             zuuluu = romeon[zuuluu];
             yankee = yankee.bind(backup)(zuuluu);
             zuuluu = 'email';
@@ -461,7 +473,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  352:
             romeon = _closure1_slot1;
             kiloes = _closure1_slot2;
-            yankee = 15;
+            yankee = 16;
             yankee = kiloes[yankee];
             romeon = romeon.bind(backup)(yankee);
             yankee = 'phone';
@@ -481,7 +493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot1;
                     report = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    entity = 14;
+                    entity = 15;
                     tangon = tangon[entity];
                     entity = undefined;
                     entity = report.bind(entity)(tangon);
@@ -518,7 +530,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure1_slot1;
                     tangon = _closure1_slot2;
-                    entity = 16;
+                    entity = 17;
                     entity = tangon[entity];
                     oscard = undefined;
                     tangon = zuuluu.bind(oscard)(entity);

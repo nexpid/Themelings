@@ -1171,27 +1171,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                 entity = argFoo;
-                oscard = argBar;
-                report = this;
-                zuuluu = entity.channelUpdates;
-                michal = null;
-                if(!(michal == zuuluu)) { _fun00030_ip = 40; continue _fun00029 }
- 21:
-                zuuluu = report.onGuildSync;
+                tangon = argBar;
+                zuuluu = this;
                 michal = entity.id;
-                michal = zuuluu.bind(report)(michal, oscard);
-                _fun00030_ip = 85; continue _fun00029;
- 40:
-                tangon = report.onGuildUpdate;
-                offset = entity.id;
-                michal = entity.channelUpdates;
-                verify = michal.writes;
-                entity = entity.channelUpdates;
+                entity = entity.channels;
+                oscard = entity.op;
+                report = 'full_sync';
+                if(!(report !== oscard)) { _fun00030_ip = 76; continue _fun00029 }
+ 35:
+                report = 'update';
+                if(!(report === oscard)) { _fun00030_ip = 88; continue _fun00029 }
+ 43:
+                oscard = zuuluu.onGuildUpdate;
+                verify = entity.writes;
                 option = entity.deletes;
-                yankee = report;
-                golfie = oscard;
-                entity = yankee[tangon](offset, verify, option, golfie, oscard);
- 85:
+                yankee = zuuluu;
+                offset = michal;
+                golfie = tangon;
+                entity = yankee[oscard](offset, verify, option, golfie, oscard);
+                _fun00030_ip = 88; continue _fun00029;
+ 76:
+                entity = zuuluu.onGuildSync;
+                entity = entity.bind(zuuluu)(michal, tangon);
+ 88:
                 entity = undefined;
                 return entity;
             }

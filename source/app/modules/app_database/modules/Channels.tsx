@@ -1,5 +1,5 @@
 // app/modules/app_database/modules/Channels.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
     golfie = argBaz;
     zuuluu = argFre;
@@ -350,56 +350,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         };
                         zuuluu = michal.data_mode;
                         entity = 'unavailable';
-                        if(!(entity !== zuuluu)) { _fun00010_ip = 200; continue _fun00009 }
+                        if(!(entity !== zuuluu)) { _fun00010_ip = 215; continue _fun00009 }
  33:
                         entity = 'partial';
-                        if(!(entity !== zuuluu)) { _fun00010_ip = 93; continue _fun00009 }
+                        if(!(entity !== zuuluu)) { _fun00010_ip = 105; continue _fun00009 }
  41:
-                        option = _closure3_slot1;
-                        oscard = option.handleGuildSynchronize;
-                        report = michal.id;
-                        tangon = michal.channels;
-                        zuuluu = tangon.map;
-                        yankee = zuuluu.bind(tangon)(golfie);
-                        verify = _closure3_slot0;
-                        offset = null;
-                        foxtra = option;
-                        romeon = report;
-                        entity = foxtra[oscard](romeon, yankee, offset, verify, option);
-                        _fun00010_ip = 200; continue _fun00009;
- 93:
                         oscard = {};
+                        entity = 'full_sync';
+                        oscard['op'] = entity;
+                        zuuluu = michal.channels;
+                        entity = zuuluu.map;
+                        entity = entity.bind(zuuluu)(golfie);
+                        oscard['items'] = entity;
+                        report = _closure3_slot1;
+                        tangon = report.handleGuildSynchronize;
+                        zuuluu = michal.id;
+                        entity = _closure3_slot0;
+                        entity = tangon.bind(report)(zuuluu, oscard, entity);
+                        _fun00010_ip = 215; continue _fun00009;
+ 105:
+                        report = {};
+                        entity = 'update';
+                        report['op'] = entity;
                         entity = michal.partial_updates;
-                        tangon = entity.channels;
-                        report = null;
-                        zuuluu = report == tangon;
+                        oscard = entity.channels;
+                        zuuluu = null;
+                        tangon = zuuluu == oscard;
                         entity = undefined;
-                        if(zuuluu) { _fun00010_ip = 128; continue _fun00009 }
- 118:
-                        zuuluu = tangon.map;
-                        entity = zuuluu.bind(tangon)(golfie);
- 128:
-                        if(!(report == entity)) { _fun00010_ip = 136; continue _fun00009 }
- 132:
+                        if(tangon) { _fun00010_ip = 148; continue _fun00009 }
+ 138:
+                        tangon = oscard.map;
+                        entity = tangon.bind(oscard)(golfie);
+ 148:
+                        if(!(zuuluu == entity)) { _fun00010_ip = 156; continue _fun00009 }
+ 152:
                         entity = new Array(0);
- 136:
-                        oscard['writes'] = entity;
+ 156:
+                        report['writes'] = entity;
                         entity = michal.partial_updates;
                         entity = entity.deleted_channel_ids;
-                        if(!(report == entity)) { _fun00010_ip = 161; continue _fun00009 }
- 157:
+                        if(!(zuuluu == entity)) { _fun00010_ip = 181; continue _fun00009 }
+ 177:
                         entity = new Array(0);
- 161:
-                        oscard['deletes'] = entity;
+ 181:
+                        report['deletes'] = entity;
                         tangon = _closure3_slot1;
                         zuuluu = tangon.handleGuildSynchronize;
-                        romeon = michal.id;
-                        verify = _closure3_slot0;
-                        foxtra = tangon;
-                        yankee = null;
-                        offset = oscard;
-                        entity = foxtra[zuuluu](romeon, yankee, offset, verify, option);
- 200:
+                        michal = michal.id;
+                        entity = _closure3_slot0;
+                        entity = zuuluu.bind(tangon)(michal, report, entity);
+ 215:
                         entity = undefined;
                         return entity;
                     }
@@ -441,21 +441,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard = report.bind(entity)(tangon);
                 report = oscard.bind(entity)();
                 tangon = report.done;
-                if(tangon) { _fun00012_ip = 94; continue _fun00011 }
+                if(tangon) { _fun00012_ip = 85; continue _fun00011 }
  41:
                 tangon = report.value;
-                offset = zuuluu.handleGuildSynchronize;
-                backup = tangon.id;
-                foxtra = tangon.channels;
-                romeon = tangon.channelUpdates;
-                kiloes = zuuluu;
-                yankee = golfie;
-                tangon = kiloes[offset](backup, foxtra, romeon, yankee, offset);
+                verify = zuuluu.handleGuildSynchronize;
+                option = tangon.id;
+                tangon = tangon.channels;
+                tangon = verify.bind(zuuluu)(option, tangon, golfie);
                 option = oscard.bind(entity)();
                 tangon = option.done;
                 report = option;
                 if(!tangon) { _fun00012_ip = 41; continue _fun00011 }
- 94:
+ 85:
                 michal = michal.initialPrivateChannels;
                 zuuluu['privateChannels'] = michal;
                 return entity;
@@ -567,17 +564,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity['key'] = oscard;
         oscard = function(argFoo, argBar) { // Original name: handleGuildCreate
             entity = argFoo;
-            oscard = this;
-            report = oscard.handleGuildSynchronize;
+            report = this;
+            tangon = report.handleGuildSynchronize;
             michal = entity.guild;
-            offset = michal.id;
-            michal = entity.guild;
-            verify = michal.channels;
+            zuuluu = michal.id;
             entity = entity.guild;
-            option = entity.channelUpdates;
-            golfie = argBar;
-            yankee = oscard;
-            entity = yankee[report](offset, verify, option, golfie, oscard);
+            michal = entity.channels;
+            entity = argBar;
+            entity = tangon.bind(report)(zuuluu, michal, entity);
             entity = undefined;
             return entity;
         };
@@ -614,22 +608,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = {};
         oscard = 'handleGuildSynchronize';
         entity['key'] = oscard;
-        oscard = function(argFoo, argBar, argBaz, argCor) { // Original name: handleGuildSynchronize
+        oscard = function(argFoo, argBar, argBaz) { // Original name: handleGuildSynchronize
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                 oscard = argFoo;
-                report = argBar;
-                entity = argBaz;
-                golfie = argCor;
+                entity = argBar;
+                golfie = argBaz;
                 tangon = this;
-                michal = null;
-                if(!(michal != report)) { _fun00018_ip = 33; continue _fun00017 }
- 21:
+                zuuluu = entity.op;
+                michal = 'update';
+                if(!(michal !== zuuluu)) { _fun00018_ip = 58; continue _fun00017 }
+ 25:
+                michal = 'full_sync';
+                if(!(michal === zuuluu)) { _fun00018_ip = 170; continue _fun00017 }
+ 38:
                 zuuluu = tangon.replace;
-                zuuluu = zuuluu.bind(tangon)(oscard, report, golfie);
- 33:
-                if(!(michal != entity)) { _fun00018_ip = 149; continue _fun00017 }
- 37:
+                michal = entity.items;
+                michal = zuuluu.bind(tangon)(oscard, michal, golfie);
+                _fun00018_ip = 170; continue _fun00017;
+ 58:
                 tangon = _closure1_slot0;
                 report = _closure1_slot1;
                 zuuluu = 5;
@@ -646,16 +643,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = michal.bind(report)(entity);
                 michal = zuuluu.bind(report)();
                 entity = michal.done;
-                if(entity) { _fun00018_ip = 149; continue _fun00017 }
- 118:
+                if(entity) { _fun00018_ip = 170; continue _fun00017 }
+ 139:
                 golfie = michal.value;
                 entity = tangon.delete;
                 entity = entity.bind(tangon)(oscard, golfie);
                 golfie = zuuluu.bind(report)();
                 entity = golfie.done;
                 michal = golfie;
-                if(!entity) { _fun00018_ip = 118; continue _fun00017 }
- 149:
+                if(!entity) { _fun00018_ip = 139; continue _fun00017 }
+ 170:
                 entity = undefined;
                 return entity;
             }

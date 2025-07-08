@@ -1083,12 +1083,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  139:
             golfie = romeon.autocompletes;
             entity = false;
-            _fun00032_ip = 472; continue _fun00031;
+            _fun00032_ip = 482; continue _fun00031;
  152:
             backup = offset.type;
             foxtra = _closure1_slot14;
             foxtra = foxtra.EMPTY;
-            if(!(backup !== foxtra)) { _fun00032_ip = 431; continue _fun00031 }
+            if(!(backup !== foxtra)) { _fun00032_ip = 441; continue _fun00031 }
  174:
             backup = offset.type;
             foxtra = _closure1_slot14;
@@ -1103,69 +1103,72 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             backup = offset.filter;
             foxtra = _closure1_slot16;
             foxtra = foxtra.FILTER_MENTIONS;
-            if(!(backup === foxtra)) { _fun00032_ip = 431; continue _fun00031 }
+            if(!(backup === foxtra)) { _fun00032_ip = 441; continue _fun00031 }
  234:
             backup = zuuluu != report;
             golfie = undefined;
             entity = true;
-            if(!backup) { _fun00032_ip = 472; continue _fun00031 }
+            if(!backup) { _fun00032_ip = 482; continue _fun00031 }
  248:
-            backup = offset.token;
-            if(!(zuuluu != backup)) { _fun00032_ip = 289; continue _fun00031 }
+            output = offset.token;
+            if(!(zuuluu != output)) { _fun00032_ip = 289; continue _fun00031 }
  258:
-            kiloes = backup.getFullMatch;
-            sizing = kiloes.bind(backup)();
-            kiloes = sizing.trim;
-            kiloes = kiloes.bind(sizing)();
-            sizing = kiloes.length;
-            kiloes = 0;
-            if(!(!(sizing > kiloes))) { _fun00032_ip = 321; continue _fun00031 }
+            backup = output.getFullMatch;
+            kiloes = backup.bind(output)();
+            backup = kiloes.trim;
+            backup = backup.bind(kiloes)();
+            kiloes = backup.length;
+            backup = 0;
+            if(!(!(kiloes > backup))) { _fun00032_ip = 321; continue _fun00031 }
  289:
-            sizing = report.context;
-            kiloes = sizing.clearQuery;
-            kiloes = kiloes.bind(sizing)();
-            kiloes = _closure1_slot29;
-            golfie = kiloes.bind(oscard)(tangon, offset);
+            kiloes = report.context;
+            backup = kiloes.clearQuery;
+            backup = backup.bind(kiloes)();
+            backup = _closure1_slot29;
+            golfie = backup.bind(oscard)(tangon, offset);
             entity = true;
-            _fun00032_ip = 472; continue _fun00031;
+            _fun00032_ip = 482; continue _fun00031;
  321:
-            kiloes = _closure1_slot1;
-            sizing = _closure1_slot2;
+            backup = _closure1_slot1;
+            kiloes = _closure1_slot2;
             foxtra = 16;
-            foxtra = sizing[foxtra];
-            output = kiloes.bind(oscard)(foxtra);
-            sizing = output.requestMembers;
-            foxtra = backup.getFullMatch;
-            kiloes = foxtra.bind(backup)();
-            foxtra = kiloes.trim;
-            kiloes = foxtra.bind(kiloes)();
-            foxtra = _closure1_slot21;
-            foxtra = sizing.bind(output)(tangon, kiloes, foxtra);
-            sizing = report.context;
-            kiloes = sizing.setQuery;
-            foxtra = backup.getFullMatch;
-            backup = foxtra.bind(backup)();
+            foxtra = kiloes[foxtra];
+            sizing = backup.bind(oscard)(foxtra);
+            kiloes = sizing.requestMembers;
+            foxtra = output.getFullMatch;
+            backup = foxtra.bind(output)();
             foxtra = backup.trim;
             backup = foxtra.bind(backup)();
+            foxtra = _closure1_slot21;
+            foxtra = kiloes.bind(sizing)(tangon, backup, foxtra);
+            kiloes = report.context;
+            backup = kiloes.setQuery;
             foxtra = {};
-            foxtra['guild'] = tangon;
-            foxtra = kiloes.bind(sizing)(backup, foxtra);
+            sizing = output.getFullMatch;
+            output = sizing.bind(output)();
+            sizing = output.trim;
+            sizing = sizing.bind(output)();
+            foxtra['query'] = sizing;
+            sizing = {};
+            sizing['guild'] = tangon;
+            foxtra['filters'] = sizing;
+            foxtra = backup.bind(kiloes)(foxtra);
             golfie = romeon.autocompletes;
             entity = false;
-            _fun00032_ip = 472; continue _fun00031;
- 431:
-            if(!(zuuluu != report)) { _fun00032_ip = 460; continue _fun00031 }
- 435:
+            _fun00032_ip = 482; continue _fun00031;
+ 441:
+            if(!(zuuluu != report)) { _fun00032_ip = 470; continue _fun00031 }
+ 445:
             romeon = report.context;
             zuuluu = romeon.clearQuery;
             zuuluu = zuuluu.bind(romeon)();
             zuuluu = new Array(0);
             report['results'] = zuuluu;
- 460:
+ 470:
             zuuluu = _closure1_slot29;
             golfie = zuuluu.bind(oscard)(tangon, offset);
             entity = true;
- 472:
+ 482:
             zuuluu = _closure1_slot19;
             report = _closure1_slot24;
             michal = {};

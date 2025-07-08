@@ -406,82 +406,67 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     StartGenerator();
-                    oscard = arguments[0];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 195; continue _fun00005 }
- 13:
-                    tangon = undefined;
-                    if(!(oscard === tangon)) { _fun00006_ip = 21; continue _fun00005 }
- 19:
-                    oscard = true;
- 21:
-                    SaveGenerator(address=25);
- 23:
-                    return tangon;
- 25:
-                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00006_ip = 192; continue _fun00005 }
- 34:
-                    zuuluu = _closure1_slot16;
-                    zuuluu = zuuluu.bind(tangon)(oscard);
-                    SaveGenerator(address=50);
- 48:
-                    return zuuluu;
- 50:
-                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
-                    if(oscard) { _fun00006_ip = 189; continue _fun00005 }
- 59:
-                    if(!zuuluu) { _fun00006_ip = 180; continue _fun00005 }
- 62:
-                    oscard = _closure1_slot9;
-                    golfie = oscard.bogoPromotion;
-                    oscard = null;
-                    if(!(oscard != golfie)) { _fun00006_ip = 140; continue _fun00005 }
- 78:
-                    oscard = global;
-                    verify = oscard.Date;
-                    offset = golfie.endDate;
-                    option = verify.prototype;
-                    option = Object.create(option, {constructor: {value: verify}});
-                    yankee = option;
-                    golfie = new yankee[verify](offset, verify);
-                    option = golfie instanceof Object ? golfie : option;
-                    golfie = option.valueOf;
-                    golfie = golfie.bind(option)();
-                    option = oscard.Date;
-                    oscard = option.now;
-                    oscard = oscard.bind(option)();
-                    if(!(!(golfie >= oscard))) { _fun00006_ip = 186; continue _fun00005 }
- 140:
-                    oscard = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    report = 26;
-                    report = golfie[report];
-                    oscard = oscard.bind(tangon)(report);
-                    report = oscard.fetchActiveBogoPromotion;
-                    report = report.bind(oscard)();
-                    SaveGenerator(address=174);
- 172:
-                    return report;
- 174:
-                    ResumeGenerator(result_out_reg=4, return_bool_out_reg=5);
-                    if(oscard) { _fun00006_ip = 183; continue _fun00005 }
- 180:
-                    return tangon;
- 183:
-                    return report;
- 186:
-                    return tangon;
- 189:
-                    return zuuluu;
- 192:
+                    if(michal) { _fun00006_ip = 172; continue _fun00005 }
+ 10:
+                    report = _closure1_slot16;
+                    zuuluu = undefined;
+                    michal = false;
+                    michal = report.bind(zuuluu)(michal);
+                    SaveGenerator(address=30);
+ 28:
                     return michal;
- 195:
+ 30:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
+                    if(report) { _fun00006_ip = 169; continue _fun00005 }
+ 39:
+                    if(!michal) { _fun00006_ip = 160; continue _fun00005 }
+ 42:
+                    report = _closure1_slot9;
+                    oscard = report.bogoPromotion;
+                    report = null;
+                    if(!(report != oscard)) { _fun00006_ip = 120; continue _fun00005 }
+ 58:
+                    report = global;
+                    option = report.Date;
+                    verify = oscard.endDate;
+                    golfie = option.prototype;
+                    golfie = Object.create(golfie, {constructor: {value: option}});
+                    offset = golfie;
+                    oscard = new offset[option](verify, option);
+                    golfie = oscard instanceof Object ? oscard : golfie;
+                    oscard = golfie.valueOf;
+                    oscard = oscard.bind(golfie)();
+                    golfie = report.Date;
+                    report = golfie.now;
+                    report = report.bind(golfie)();
+                    if(!(!(oscard >= report))) { _fun00006_ip = 166; continue _fun00005 }
+ 120:
+                    report = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    tangon = 26;
+                    tangon = oscard[tangon];
+                    report = report.bind(zuuluu)(tangon);
+                    tangon = report.fetchActiveBogoPromotion;
+                    tangon = tangon.bind(report)();
+                    SaveGenerator(address=154);
+ 152:
+                    return tangon;
+ 154:
+                    ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
+                    if(report) { _fun00006_ip = 163; continue _fun00005 }
+ 160:
+                    return zuuluu;
+ 163:
+                    return tangon;
+ 166:
+                    return zuuluu;
+ 169:
+                    return michal;
+ 172:
                     return entity;
                 }
             };
-            michal = entity.next;
-            michal = michal.bind(entity)();
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);

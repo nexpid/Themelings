@@ -759,123 +759,121 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = function(argFoo) { // Original name: handleOneGuildCreate
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
-            entity = argFoo;
-            michal = entity.channels;
-            zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00028_ip = 195; continue _fun00027 }
- 18:
+            michal = argFoo;
+            golfie = michal.id;
+            entity = michal.channels;
+            michal = michal.threads;
+            tangon = entity.op;
+            zuuluu = 'full_sync';
+            if(!(zuuluu !== tangon)) { _fun00028_ip = 238; continue _fun00027 }
+ 38:
+            zuuluu = 'update';
+            if(!(zuuluu === tangon)) { _fun00028_ip = 395; continue _fun00027 }
+ 49:
+            zuuluu = entity.writes;
+            zuuluu = zuuluu.length;
+            report = 0;
+            zuuluu = zuuluu > report;
+            if(zuuluu) { _fun00028_ip = 84; continue _fun00027 }
+ 69:
+            tangon = entity.deletes;
+            tangon = tangon.length;
+            zuuluu = tangon > report;
+ 84:
+            if(!zuuluu) { _fun00028_ip = 105; continue _fun00027 }
+ 87:
+            tangon = _closure1_slot10;
+            zuuluu = tangon.invalidate;
+            zuuluu = zuuluu.bind(tangon)(golfie);
+ 105:
+            tangon = _closure1_slot40;
+            zuuluu = entity.deletes;
+            oscard = undefined;
+            report = tangon.bind(oscard)(zuuluu);
+            tangon = report.bind(oscard)();
+            zuuluu = tangon.done;
+            if(zuuluu) { _fun00028_ip = 174; continue _fun00027 }
+ 137:
+            offset = tangon.value;
+            verify = _closure1_slot52;
+            zuuluu = _closure1_slot24;
+            zuuluu = zuuluu[offset];
+            zuuluu = verify.bind(oscard)(zuuluu);
+            verify = report.bind(oscard)();
+            zuuluu = verify.done;
+            tangon = verify;
+            if(!zuuluu) { _fun00028_ip = 137; continue _fun00027 }
+ 174:
+            tangon = _closure1_slot40;
+            zuuluu = entity.writes;
+            report = tangon.bind(oscard)(zuuluu);
+            tangon = report.bind(oscard)();
+            zuuluu = tangon.done;
+            if(zuuluu) { _fun00028_ip = 395; continue _fun00027 }
+ 204:
+            verify = _closure1_slot50;
+            zuuluu = tangon.value;
+            zuuluu = verify.bind(oscard)(zuuluu);
+            verify = report.bind(oscard)();
+            zuuluu = verify.done;
+            tangon = verify;
+            if(zuuluu) { _fun00028_ip = 395; continue _fun00027 }
+ 236:
+            _fun00028_ip = 204; continue _fun00027;
+ 238:
             report = _closure1_slot22;
             tangon = report.fileOnly;
-            offset = entity.id;
-            michal = entity.channels;
-            verify = michal.length;
-            michal = global;
-            michal = michal.HermesInternal;
-            option = michal.concat;
-            oscard = 'GuildCreate contained full channels for ';
-            michal = ' #:';
-            michal = option.bind(oscard)(offset, michal, verify);
-            michal = tangon.bind(report)(michal);
-            tangon = _closure1_slot44;
-            michal = entity.id;
-            oscard = undefined;
-            michal = tangon.bind(oscard)(michal);
-            report = _closure1_slot33;
-            tangon = report.add;
-            michal = entity.id;
-            michal = tangon.bind(report)(michal);
-            report = _closure1_slot10;
-            tangon = report.restored;
-            michal = entity.id;
-            michal = tangon.bind(report)(michal);
-            tangon = _closure1_slot40;
-            michal = entity.channels;
-            report = tangon.bind(oscard)(michal);
-            tangon = report.bind(oscard)();
-            michal = tangon.done;
-            if(michal) { _fun00028_ip = 195; continue _fun00027 }
- 166:
-            option = _closure1_slot50;
-            michal = tangon.value;
-            michal = option.bind(oscard)(michal);
-            option = report.bind(oscard)();
-            michal = option.done;
-            tangon = option;
-            if(!michal) { _fun00028_ip = 166; continue _fun00027 }
- 195:
-            michal = entity.channelUpdates;
-            if(!(zuuluu != michal)) { _fun00028_ip = 400; continue _fun00027 }
- 208:
-            michal = entity.channelUpdates;
-            tangon = michal.writes;
-            tangon = tangon.length;
-            oscard = 0;
-            tangon = tangon > oscard;
-            if(tangon) { _fun00028_ip = 249; continue _fun00027 }
- 234:
-            report = michal.deletes;
-            report = report.length;
-            tangon = report > oscard;
- 249:
-            if(!tangon) { _fun00028_ip = 275; continue _fun00027 }
- 252:
-            oscard = _closure1_slot10;
-            report = oscard.invalidate;
-            tangon = entity.id;
-            tangon = report.bind(oscard)(tangon);
- 275:
-            report = _closure1_slot40;
-            tangon = michal.deletes;
-            oscard = undefined;
-            option = report.bind(oscard)(tangon);
-            report = option.bind(oscard)();
-            tangon = report.done;
-            if(tangon) { _fun00028_ip = 344; continue _fun00027 }
- 307:
-            offset = report.value;
-            verify = _closure1_slot52;
-            tangon = _closure1_slot24;
-            tangon = tangon[offset];
-            tangon = verify.bind(oscard)(tangon);
-            verify = option.bind(oscard)();
-            tangon = verify.done;
-            report = verify;
-            if(!tangon) { _fun00028_ip = 307; continue _fun00027 }
- 344:
-            tangon = _closure1_slot40;
-            michal = michal.writes;
-            report = tangon.bind(oscard)(michal);
-            tangon = report.bind(oscard)();
-            michal = tangon.done;
-            if(michal) { _fun00028_ip = 400; continue _fun00027 }
- 371:
-            option = _closure1_slot50;
-            michal = tangon.value;
-            michal = option.bind(oscard)(michal);
-            option = report.bind(oscard)();
-            michal = option.done;
-            tangon = option;
-            if(!michal) { _fun00028_ip = 371; continue _fun00027 }
- 400:
-            michal = entity.threads;
-            if(!(zuuluu != michal)) { _fun00028_ip = 471; continue _fun00027 }
- 410:
-            michal = _closure1_slot40;
-            entity = entity.threads;
+            zuuluu = entity.items;
+            offset = zuuluu.length;
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            verify = zuuluu.concat;
+            option = 'ConnectionOpen contained full channels for ';
+            zuuluu = ' #:';
+            zuuluu = verify.bind(option)(golfie, zuuluu, offset);
+            zuuluu = tangon.bind(report)(zuuluu);
+            zuuluu = _closure1_slot44;
+            report = undefined;
+            zuuluu = zuuluu.bind(report)(golfie);
+            tangon = _closure1_slot33;
+            zuuluu = tangon.add;
+            zuuluu = zuuluu.bind(tangon)(golfie);
+            tangon = _closure1_slot10;
+            zuuluu = tangon.restored;
+            zuuluu = zuuluu.bind(tangon)(golfie);
+            zuuluu = _closure1_slot40;
+            entity = entity.items;
+            tangon = zuuluu.bind(report)(entity);
+            zuuluu = tangon.bind(report)();
+            entity = zuuluu.done;
+            if(entity) { _fun00028_ip = 395; continue _fun00027 }
+ 366:
+            golfie = _closure1_slot50;
+            entity = zuuluu.value;
+            entity = golfie.bind(report)(entity);
+            golfie = tangon.bind(report)();
+            entity = golfie.done;
+            zuuluu = golfie;
+            if(!entity) { _fun00028_ip = 366; continue _fun00027 }
+ 395:
+            entity = null;
+            if(!(entity != michal)) { _fun00028_ip = 456; continue _fun00027 }
+ 401:
+            entity = _closure1_slot40;
             tangon = undefined;
-            zuuluu = michal.bind(tangon)(entity);
+            zuuluu = entity.bind(tangon)(michal);
             michal = zuuluu.bind(tangon)();
             entity = michal.done;
-            if(entity) { _fun00028_ip = 471; continue _fun00027 }
- 442:
+            if(entity) { _fun00028_ip = 456; continue _fun00027 }
+ 427:
             oscard = _closure1_slot49;
             entity = michal.value;
             entity = oscard.bind(tangon)(entity);
             oscard = zuuluu.bind(tangon)();
             entity = oscard.done;
             michal = oscard;
-            if(!entity) { _fun00028_ip = 442; continue _fun00027 }
- 471:
+            if(!entity) { _fun00028_ip = 427; continue _fun00027 }
+ 456:
             entity = undefined;
             return entity;
         }

@@ -2744,12 +2744,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         report = true;
                         _fun00062_ip = 684; continue _fun00061;
                     }
- 793:
-                    if(!tangon) { _fun00062_ip = 804; continue _fun00061 }
- 796:
+ 797:
+                    if(!tangon) { _fun00062_ip = 808; continue _fun00061 }
+ 800:
                     tangon = _closure1_slot57;
                     tangon = tangon.bind(entity)();
- 804:
+ 808:
                     tangon = zuuluu.waitFor;
                     michal = _closure1_slot9;
                     michal = tangon.bind(zuuluu)(michal);

@@ -143,23 +143,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     entity = _closure2_slot1;
-                    report = entity.current;
+                    tangon = entity.current;
                     entity = null;
-                    if(!(entity != report)) { _fun00010_ip = 39; continue _fun00009 }
+                    if(!(entity != tangon)) { _fun00010_ip = 28; continue _fun00009 }
  18:
-                    tangon = report.setNativeProps;
-                    zuuluu = {};
-                    oscard = '';
-                    zuuluu['text'] = oscard;
-                    zuuluu = tangon.bind(report)(zuuluu);
- 39:
+                    zuuluu = tangon.clear;
+                    zuuluu = zuuluu.bind(tangon)();
+ 28:
                     michal = _closure2_slot0;
                     michal = michal.onClear;
-                    if(!(entity != michal)) { _fun00010_ip = 59; continue _fun00009 }
- 53:
+                    if(!(entity != michal)) { _fun00010_ip = 48; continue _fun00009 }
+ 42:
                     entity = undefined;
                     entity = michal.bind(entity)();
- 59:
+ 48:
                     entity = undefined;
                     return entity;
                 }
@@ -243,29 +240,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = function(argFoo) { // Original name: setText
                     _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
-                        tangon = argFoo;
+                        zuuluu = argFoo;
+                        entity = '';
+                        if(!(entity !== zuuluu)) { _fun00018_ip = 63; continue _fun00017 }
+ 11:
                         michal = _closure2_slot1;
                         report = michal.current;
                         michal = null;
-                        if(!(michal != report)) { _fun00018_ip = 38; continue _fun00017 }
- 21:
-                        zuuluu = report.setNativeProps;
+                        if(!(michal != report)) { _fun00018_ip = 46; continue _fun00017 }
+ 29:
+                        tangon = report.setNativeProps;
                         michal = {};
-                        michal['text'] = tangon;
-                        michal = zuuluu.bind(report)(michal);
- 38:
-                        michal = '';
-                        if(!(michal !== tangon)) { _fun00018_ip = 63; continue _fun00017 }
+                        michal['text'] = zuuluu;
+                        michal = tangon.bind(report)(michal);
  46:
-                        zuuluu = _closure2_slot2;
-                        michal = zuuluu.setTextValue;
-                        michal = michal.bind(zuuluu)(tangon);
-                        _fun00018_ip = 77; continue _fun00017;
+                        michal = _closure2_slot2;
+                        entity = michal.setTextValue;
+                        entity = entity.bind(michal)(zuuluu);
+                        _fun00018_ip = 80; continue _fun00017;
  63:
                         michal = _closure2_slot2;
                         entity = michal.clear;
                         entity = entity.bind(michal)();
- 77:
+ 80:
                         entity = undefined;
                         return entity;
                     }

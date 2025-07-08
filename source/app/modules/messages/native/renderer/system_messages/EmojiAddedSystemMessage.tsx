@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.content;
             verify = oscard.bind(verify)(report);
             oscard = null;
-            if(!(oscard != verify)) { _fun00004_ip = 665; continue _fun00003 }
+            if(!(oscard != verify)) { _fun00004_ip = 661; continue _fun00003 }
  146:
             foxtra = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -261,10 +261,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['username'] = yankee;
             entity['usernameOnClick'] = offset;
             kiloes = verify.originalName;
-            if(!(oscard == kiloes)) { _fun00004_ip = 436; continue _fun00003 }
- 431:
+            if(!(oscard == kiloes)) { _fun00004_ip = 432; continue _fun00003 }
+ 427:
             kiloes = verify.name;
- 436:
+ 432:
             entity['emojiName'] = kiloes;
             entity['emojiOnClick'] = backup;
             entity['emojiPreview'] = foxtra;
@@ -280,8 +280,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.ADD_REACTIONS;
             entity = report.bind(option)(entity, foxtra);
             report = undefined;
-            if(!entity) { _fun00004_ip = 579; continue _fun00003 }
- 512:
+            if(!entity) { _fun00004_ip = 575; continue _fun00003 }
+ 508:
             entity = {'count': 0, 'burst_count': 0, 'me': false, 'me_burst': false};
             option = {};
             foxtra = verify.id;
@@ -295,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['displayName'] = verify;
             entity['emoji'] = option;
             report = entity;
- 579:
+ 575:
             entity = {};
             entity['content'] = golfie;
             option = _closure1_slot1;
@@ -309,20 +309,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.reactions;
             option = golfie.length;
             golfie = 0;
-            if(!(!(option > golfie))) { _fun00004_ip = 648; continue _fun00003 }
+            if(!(!(option > golfie))) { _fun00004_ip = 644; continue _fun00003 }
+ 630:
+            if(!(oscard != report)) { _fun00004_ip = 644; continue _fun00003 }
  634:
-            if(!(oscard != report)) { _fun00004_ip = 648; continue _fun00003 }
- 638:
             oscard = new Array(1);
             oscard[0] = report;
-            _fun00004_ip = 654; continue _fun00003;
- 648:
+            _fun00004_ip = 650; continue _fun00003;
+ 644:
             oscard = tangon.reactions;
- 654:
+ 650:
             report = 'reactions';
             entity[report] = oscard;
             return entity;
- 665:
+ 661:
             entity = {};
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;

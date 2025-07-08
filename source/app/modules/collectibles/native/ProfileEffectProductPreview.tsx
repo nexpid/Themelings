@@ -45,7 +45,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['profilePreview'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot5 = tangon;
-    tangon = 9;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -55,90 +55,79 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            kiloes = entity.product;
+            backup = entity.product;
             entity = _closure1_slot5;
             tangon = undefined;
-            verify = entity.bind(tangon)();
+            option = entity.bind(tangon)();
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 4;
             entity = zuuluu[entity];
             michal = michal.bind(tangon)(entity);
             entity = michal.useCurrentUser;
-            offset = entity.bind(michal)();
-            michal = _closure1_slot1;
-            entity = 5;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            entity = entity.bind(tangon)();
-            option = entity.width;
-            entity = kiloes.items;
+            verify = entity.bind(michal)();
+            entity = backup.items;
             entity = entity.length;
             michal = 0;
-            if(!(!(entity <= michal))) { _fun00002_ip = 354; continue _fun00001 }
- 97:
-            zuuluu = kiloes.type;
+            if(!(!(entity <= michal))) { _fun00002_ip = 303; continue _fun00001 }
+ 72:
+            zuuluu = backup.type;
             oscard = _closure1_slot0;
             golfie = _closure1_slot2;
-            entity = 6;
+            entity = 5;
             entity = golfie[entity];
             entity = oscard.bind(tangon)(entity);
             entity = entity.CollectiblesItemType;
             entity = entity.BUNDLE;
-            if(!(zuuluu !== entity)) { _fun00002_ip = 150; continue _fun00001 }
- 138:
-            entity = kiloes.items;
+            if(!(zuuluu !== entity)) { _fun00002_ip = 125; continue _fun00001 }
+ 113:
+            entity = backup.items;
             golfie = entity[michal];
-            _fun00002_ip = 163; continue _fun00001;
- 150:
-            michal = kiloes.items;
+            _fun00002_ip = 138; continue _fun00001;
+ 125:
+            michal = backup.items;
             entity = 1;
             golfie = michal[entity];
- 163:
+ 138:
             zuuluu = _closure1_slot4;
             michal = _closure1_slot3;
             entity = {};
-            oscard = verify.container;
+            oscard = option.container;
             entity['style'] = oscard;
             oscard = 'box-none';
             entity['pointerEvents'] = oscard;
-            romeon = _closure1_slot0;
-            yankee = _closure1_slot2;
-            oscard = 7;
-            foxtra = yankee[oscard];
-            foxtra = romeon.bind(tangon)(foxtra);
-            backup = foxtra.intl;
-            foxtra = backup.formatToPlainString;
-            oscard = yankee[oscard];
-            oscard = romeon.bind(tangon)(oscard);
+            yankee = _closure1_slot0;
+            offset = _closure1_slot2;
+            oscard = 6;
+            romeon = offset[oscard];
+            romeon = yankee.bind(tangon)(romeon);
+            foxtra = romeon.intl;
+            romeon = foxtra.formatToPlainString;
+            oscard = offset[oscard];
+            oscard = yankee.bind(tangon)(oscard);
             oscard = oscard.t;
-            romeon = oscard.HSX4HR;
+            yankee = oscard.HSX4HR;
             oscard = {};
-            kiloes = kiloes.name;
-            oscard['profileEffect'] = kiloes;
-            oscard = foxtra.bind(backup)(romeon, oscard);
+            backup = backup.name;
+            oscard['profileEffect'] = backup;
+            oscard = romeon.bind(foxtra)(yankee, oscard);
             entity['accessibilityLabel'] = oscard;
             oscard = 'button';
             entity['accessibilityRole'] = oscard;
             oscard = _closure1_slot1;
-            report = 8;
-            report = yankee[report];
+            report = 7;
+            report = offset[report];
             oscard = oscard.bind(tangon)(report);
             report = {};
-            report['user'] = offset;
-            verify = verify.profilePreview;
-            report['style'] = verify;
+            report['user'] = verify;
+            option = option.profilePreview;
+            report['style'] = option;
             report['pendingProfileEffectRecord'] = golfie;
-            golfie = 0.1;
-            golfie = golfie * option;
-            report['containerMargin'] = golfie;
-            golfie = true;
-            report['borderless'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 354:
+ 303:
             entity = null;
             return entity;
         }

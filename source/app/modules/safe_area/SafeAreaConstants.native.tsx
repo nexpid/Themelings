@@ -22,23 +22,23 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         verify = null;
         oscard = verify != tangon;
         tangon = undefined;
-        if(!oscard) { _fun00002_ip = 96; continue _fun00001 }
- 81:
+        if(!oscard) { _fun00002_ip = 100; continue _fun00001 }
+ 85:
         michal = option[michal];
         michal = golfie.bind(entity)(michal);
         tangon = michal.initialWindowMetrics;
- 96:
+ 100:
         michal = verify == tangon;
         oscard = undefined;
-        if(michal) { _fun00002_ip = 111; continue _fun00001 }
- 105:
+        if(michal) { _fun00002_ip = 115; continue _fun00001 }
+ 109:
         oscard = tangon.insets;
- 111:
+ 115:
         michal = report;
-        if(!(verify != oscard)) { _fun00002_ip = 121; continue _fun00001 }
- 118:
+        if(!(verify != oscard)) { _fun00002_ip = 125; continue _fun00001 }
+ 122:
         michal = oscard;
- 121:
+ 125:
         oscard = 1;
         oscard = option[oscard];
         option = golfie.bind(entity)(oscard);

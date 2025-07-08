@@ -18,6 +18,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['RECENCY'] = entity;
     entity = 'popularity';
     michal['POPULARITY'] = entity;
+    entity = 'relevance';
+    michal['RELEVANCE'] = entity;
     tangon = argPlu;
     entity = 0;
     report = tangon[entity];

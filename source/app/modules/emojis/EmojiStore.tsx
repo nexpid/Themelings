@@ -3960,36 +3960,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = report.bind(entity)(tangon);
             report = oscard.bind(entity)();
             tangon = report.done;
-            if(tangon) { _fun00146_ip = 84; continue _fun00145 }
+            if(tangon) { _fun00146_ip = 90; continue _fun00145 }
  43:
             tangon = report.value;
             option = _closure1_slot51;
             golfie = tangon.id;
             tangon = tangon.emojis;
+            tangon = tangon.items;
             tangon = option.bind(entity)(golfie, tangon);
             golfie = oscard.bind(entity)();
             tangon = golfie.done;
             report = golfie;
             if(!tangon) { _fun00146_ip = 43; continue _fun00145 }
- 84:
+ 90:
             report = zuuluu.guilds;
             tangon = report.every;
             zuuluu = function(argFoo) {
                 entity = argFoo;
-                michal = entity.emojis;
+                entity = entity.emojis;
+                michal = entity.items;
                 entity = null;
                 entity = entity != michal;
                 return entity;
             };
             zuuluu = tangon.bind(report)(zuuluu);
             tangon = _closure1_slot31;
-            if(zuuluu) { _fun00146_ip = 123; continue _fun00145 }
- 115:
+            if(zuuluu) { _fun00146_ip = 129; continue _fun00145 }
+ 121:
             zuuluu = tangon.Unloaded;
-            _fun00146_ip = 129; continue _fun00145;
- 123:
-            zuuluu = tangon.MaybeLoaded;
+            _fun00146_ip = 135; continue _fun00145;
  129:
+            zuuluu = tangon.MaybeLoaded;
+ 135:
             _closure1_slot32 = zuuluu;
             michal = _closure1_slot50;
             michal = michal.bind(entity)();
@@ -4119,31 +4121,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot31;
             zuuluu = zuuluu.MaybeLoaded;
             zuuluu = tangon === zuuluu;
-            if(!zuuluu) { _fun00154_ip = 44; continue _fun00153 }
+            if(!zuuluu) { _fun00154_ip = 51; continue _fun00153 }
  27:
             tangon = entity.guild;
-            report = tangon.emojis;
+            tangon = tangon.emojis;
+            report = tangon.op;
+            tangon = 'update';
+            zuuluu = tangon === report;
+ 51:
+            if(!zuuluu) { _fun00154_ip = 77; continue _fun00153 }
+ 54:
+            tangon = entity.guild;
+            tangon = tangon.emojis;
+            report = tangon.items;
             tangon = null;
             zuuluu = tangon == report;
- 44:
-            if(!zuuluu) { _fun00154_ip = 64; continue _fun00153 }
- 47:
-            tangon = entity.guild;
-            report = tangon.emojiUpdates;
-            tangon = null;
-            zuuluu = tangon != report;
- 64:
-            if(!zuuluu) { _fun00154_ip = 81; continue _fun00153 }
- 67:
+ 77:
+            if(!zuuluu) { _fun00154_ip = 94; continue _fun00153 }
+ 80:
             zuuluu = _closure1_slot31;
             zuuluu = zuuluu.Unloaded;
             _closure1_slot32 = zuuluu;
- 81:
+ 94:
             report = _closure1_slot51;
             zuuluu = entity.guild;
             tangon = zuuluu.id;
             entity = entity.guild;
-            zuuluu = entity.emojis;
+            entity = entity.emojis;
+            zuuluu = entity.items;
             entity = undefined;
             zuuluu = report.bind(entity)(tangon, zuuluu);
             michal = _closure1_slot50;

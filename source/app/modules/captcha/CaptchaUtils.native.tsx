@@ -162,24 +162,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 };
                 zuuluu['onCaptchaVerify'] = verify;
-                verify = function() { // Original name: onReject
-                    zuuluu = _closure3_slot1;
-                    entity = global;
-                    tangon = entity.Error;
-                    oscard = _closure2_slot2;
-                    entity = entity.HermesInternal;
-                    report = entity.concat;
-                    michal = 'Failed to display captcha for service ';
-                    entity = '.';
-                    option = report.bind(michal)(oscard, entity);
-                    michal = tangon.prototype;
-                    michal = Object.create(michal, {constructor: {value: tangon}});
-                    verify = michal;
-                    entity = new verify[tangon](option, golfie);
-                    michal = entity instanceof Object ? entity : michal;
-                    entity = undefined;
-                    entity = zuuluu.bind(entity)(michal);
-                    return entity;
+                verify = function(argFoo) { // Original name: onReject
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                        tangon = _closure1_slot0;
+                        entity = _closure1_slot2;
+                        report = 6;
+                        zuuluu = entity[report];
+                        entity = undefined;
+                        zuuluu = tangon.bind(entity)(zuuluu);
+                        zuuluu = zuuluu.CaptchaError;
+                        tangon = zuuluu.CANCEL;
+                        zuuluu = argFoo;
+                        if(!(zuuluu !== tangon)) { _fun00006_ip = 120; continue _fun00005 }
+ 44:
+                        tangon = _closure3_slot1;
+                        zuuluu = global;
+                        golfie = zuuluu.Error;
+                        verify = _closure2_slot2;
+                        zuuluu = zuuluu.HermesInternal;
+                        option = zuuluu.concat;
+                        oscard = 'Failed to display captcha for service ';
+                        zuuluu = '.';
+                        yankee = option.bind(oscard)(verify, zuuluu);
+                        oscard = golfie.prototype;
+                        oscard = Object.create(oscard, {constructor: {value: golfie}});
+                        romeon = oscard;
+                        zuuluu = new romeon[golfie](yankee, offset);
+                        zuuluu = zuuluu instanceof Object ? zuuluu : oscard;
+                        zuuluu = tangon.bind(entity)(zuuluu);
+                        _fun00006_ip = 175; continue _fun00005;
+ 120:
+                        zuuluu = _closure3_slot1;
+                        tangon = _closure1_slot0;
+                        michal = _closure1_slot2;
+                        michal = michal[report];
+                        michal = tangon.bind(entity)(michal);
+                        michal = michal.CaptchaCancelError;
+                        tangon = michal.prototype;
+                        tangon = Object.create(tangon, {constructor: {value: michal}});
+                        romeon = tangon;
+                        michal = new romeon[michal](yankee);
+                        michal = michal instanceof Object ? michal : tangon;
+                        michal = zuuluu.bind(entity)(michal);
+ 175:
+                        return entity;
+                    }
                 };
                 zuuluu['onReject'] = verify;
                 option = function() { // Original name: close
@@ -239,7 +267,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['useIsCaptchaModalOpen'] = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
