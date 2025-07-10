@@ -27,7 +27,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
-    tangon = 4;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -42,8 +42,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot1;
             oscard = 3;
             entity = option[oscard];
-            michal = undefined;
-            offset = golfie.bind(michal)(entity);
+            report = undefined;
+            offset = golfie.bind(report)(entity);
             verify = offset.useStateFromStores;
             entity = _closure1_slot2;
             tangon = new Array(1);
@@ -58,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = verify.bind(offset)(tangon, entity);
             var _closure2_slot1 = tangon;
             entity = option[oscard];
-            yankee = golfie.bind(michal)(entity);
+            yankee = golfie.bind(report)(entity);
             offset = yankee.useStateFromStores;
             entity = _closure1_slot3;
             verify = new Array(1);
@@ -83,11 +83,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             entity = offset.bind(yankee)(verify, entity);
             oscard = option[oscard];
-            golfie = golfie.bind(michal)(oscard);
-            oscard = golfie.useStateFromStores;
-            option = _closure1_slot4;
-            report = new Array(1);
-            report[0] = option;
+            option = golfie.bind(report)(oscard);
+            golfie = option.useStateFromStores;
+            verify = _closure1_slot4;
+            oscard = new Array(1);
+            oscard[0] = verify;
             zuuluu = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -106,24 +106,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = oscard.bind(golfie)(report, zuuluu);
+            zuuluu = golfie.bind(option)(oscard, zuuluu);
             entity = !entity;
             if(entity) { _fun00002_ip = 155; continue _fun00001 }
  152:
             entity = zuuluu;
  155:
-            if(!entity) { _fun00002_ip = 182; continue _fun00001 }
+            if(!entity) { _fun00002_ip = 189; continue _fun00001 }
  158:
-            zuuluu = null;
-            zuuluu = zuuluu == tangon;
-            michal = undefined;
-            if(zuuluu) { _fun00002_ip = 179; continue _fun00001 }
- 169:
-            zuuluu = tangon.isNSFW;
-            michal = zuuluu.bind(tangon)();
- 179:
-            entity = michal;
- 182:
+            zuuluu = _closure1_slot0;
+            oscard = _closure1_slot1;
+            michal = 4;
+            michal = oscard[michal];
+            zuuluu = zuuluu.bind(report)(michal);
+            michal = zuuluu.isChannelNSFW;
+            entity = michal.bind(zuuluu)(tangon);
+ 189:
             return entity;
         }
     };

@@ -265,10 +265,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = report.length;
             golfie = report > echoed;
             report = undefined;
-            if(!golfie) { _fun00002_ip = 323; continue _fun00001 }
- 320:
+            if(!golfie) { _fun00002_ip = 321; continue _fun00001 }
+ 318:
             report = oscard;
- 323:
+ 321:
             entity['onPress'] = report;
             report = sizing.item;
             entity['style'] = report;
@@ -278,18 +278,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = sizing.itemInner;
             option = new Array(2);
             option[0] = verify;
-            if(kiloes) { _fun00002_ip = 371; continue _fun00001 }
- 363:
+            if(kiloes) { _fun00002_ip = 369; continue _fun00001 }
+ 361:
             verify = sizing.fadedItem;
-            _fun00002_ip = 377; continue _fun00001;
- 371:
+            _fun00002_ip = 375; continue _fun00001;
+ 369:
             verify = sizing.activeItem;
- 377:
+ 375:
             option[1] = verify;
             report['style'] = option;
             option = romeon.icon;
-            if(!(update == option)) { _fun00002_ip = 620; continue _fun00001 }
- 397:
+            if(!(update == option)) { _fun00002_ip = 618; continue _fun00001 }
+ 395:
             verify = romeon.type;
             offset = _closure1_slot0;
             option = _closure1_slot2;
@@ -297,8 +297,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = offset.bind(tangon)(option);
             option = option.StickerCategoryTypes;
             option = option.GUILD;
-            if(!(verify !== option)) { _fun00002_ip = 532; continue _fun00001 }
- 435:
+            if(!(verify !== option)) { _fun00002_ip = 530; continue _fun00001 }
+ 433:
             offset = _closure1_slot14;
             verify = _closure1_slot1;
             result = _closure1_slot2;
@@ -308,28 +308,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = {};
             result = 'previewSticker';
             result = result in romeon;
-            if(!result) { _fun00002_ip = 482; continue _fun00001 }
- 472:
+            if(!result) { _fun00002_ip = 480; continue _fun00001 }
+ 470:
             result = romeon.previewSticker;
-            if(!(update == result)) { _fun00002_ip = 494; continue _fun00001 }
- 482:
+            if(!(update == result)) { _fun00002_ip = 492; continue _fun00001 }
+ 480:
             result = romeon.stickers;
             result = result[echoed];
-            _fun00002_ip = 500; continue _fun00001;
- 494:
+            _fun00002_ip = 498; continue _fun00001;
+ 492:
             result = romeon.previewSticker;
- 500:
+ 498:
             option['sticker'] = result;
-            if(!yankee) { _fun00002_ip = 511; continue _fun00001 }
- 508:
+            if(!yankee) { _fun00002_ip = 509; continue _fun00001 }
+ 506:
             yankee = kiloes;
- 511:
+ 509:
             option['animated'] = yankee;
             yankee = _closure1_slot11;
             option['size'] = yankee;
             option = offset.bind(tangon)(verify, option);
-            _fun00002_ip = 618; continue _fun00001;
- 532:
+            _fun00002_ip = 616; continue _fun00001;
+ 530:
             yankee = _closure1_slot14;
             offset = _closure1_slot1;
             result = _closure1_slot2;
@@ -349,9 +349,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = sizing.guildIcon;
             verify['style'] = kiloes;
             option = yankee.bind(tangon)(offset, verify);
+ 616:
+            _fun00002_ip = 731; continue _fun00001;
  618:
-            _fun00002_ip = 733; continue _fun00001;
- 620:
             yankee = _closure1_slot14;
             offset = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -377,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = foxtra.bind(backup)(romeon);
             verify['source'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 733:
+ 731:
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;
@@ -475,12 +475,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     zuuluu = zuuluu.bind(tangon)(michal);
                     michal = 0;
-                    if(!(zuuluu >= michal)) { _fun00008_ip = 44; continue _fun00007 }
- 33:
+                    if(!(zuuluu >= michal)) { _fun00008_ip = 42; continue _fun00007 }
+ 31:
                     michal = _closure2_slot5;
                     entity = undefined;
                     entity = michal.bind(entity)(zuuluu);
- 44:
+ 42:
                     entity = undefined;
                     return entity;
                 }
@@ -743,12 +743,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = new Array(2);
             report[0] = verify;
             oscard = option != oscard;
-            if(!oscard) { _fun00006_ip = 626; continue _fun00005 }
- 623:
+            if(!oscard) { _fun00006_ip = 606; continue _fun00005 }
+ 603:
             oscard = golfie;
- 626:
-            if(!oscard) { _fun00006_ip = 832; continue _fun00005 }
- 632:
+ 606:
+            if(!oscard) { _fun00006_ip = 812; continue _fun00005 }
+ 612:
             verify = _closure1_slot14;
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
@@ -795,7 +795,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = verify.bind(tangon)(yankee, offset);
             golfie['children'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 832:
+ 812:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

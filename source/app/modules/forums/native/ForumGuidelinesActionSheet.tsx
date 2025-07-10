@@ -202,17 +202,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option.bind(offset)(zuuluu, golfie);
             golfie = null;
             golfie = golfie != zuuluu;
-            if(!golfie) { _fun00002_ip = 217; continue _fun00001 }
- 214:
+            if(!golfie) { _fun00002_ip = 219; continue _fun00001 }
+ 216:
             oscard = zuuluu;
- 217:
+ 219:
             oscard = report < oscard;
             _closure2_slot5 = oscard;
             source = undefined;
-            if(oscard) { _fun00002_ip = 233; continue _fun00001 }
- 230:
+            if(oscard) { _fun00002_ip = 235; continue _fun00001 }
+ 232:
             source = zuuluu;
- 233:
+ 235:
             golfie = _closure1_slot4;
             report = golfie.useCallback;
             zuuluu = new Array(1);
@@ -275,8 +275,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             update = !oscard;
-            if(oscard) { _fun00002_ip = 451; continue _fun00001 }
- 304:
+            if(oscard) { _fun00002_ip = 459; continue _fun00001 }
+ 312:
             report = _closure1_slot7;
             echoed = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -311,7 +311,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.bind(tangon)(option, golfie);
             michal['children'] = golfie;
             update = report.bind(tangon)(zuuluu, michal);
- 451:
+ 459:
             report = _closure1_slot4;
             golfie = report.useMemo;
             zuuluu = new Array(2);
@@ -449,8 +449,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = {};
             echoed = foxtra.header;
             backup['style'] = echoed;
-            if(!kiloes) { _fun00002_ip = 1042; continue _fun00001 }
- 734:
+            if(!kiloes) { _fun00002_ip = 1056; continue _fun00001 }
+ 748:
             source = _closure1_slot8;
             sierra = _closure1_slot0;
             status = _closure1_slot2;
@@ -517,7 +517,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled[1] = vacuum;
             echoed['children'] = ctrled;
             kiloes = source.bind(tangon)(update, echoed);
- 1042:
+ 1056:
             echoed = new Array(3);
             echoed[0] = kiloes;
             update = _closure1_slot7;
@@ -586,8 +586,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.bind(tangon)(golfie, report);
             report = new Array(2);
             report[0] = golfie;
-            if(!oscard) { _fun00002_ip = 1501; continue _fun00001 }
- 1381:
+            if(!oscard) { _fun00002_ip = 1519; continue _fun00001 }
+ 1399:
             verify = _closure1_slot7;
             option = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -616,7 +616,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['text'] = yankee;
             golfie['onPress'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1501:
+ 1519:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

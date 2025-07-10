@@ -76,37 +76,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = null;
             report = offset == foxtra;
             entity = undefined;
-            if(report) { _fun00002_ip = 117; continue _fun00001 }
- 111:
+            if(report) { _fun00002_ip = 119; continue _fun00001 }
+ 113:
             entity = foxtra.colorString;
- 117:
+ 119:
             report = offset != entity;
             romeon = undefined;
-            if(!report) { _fun00002_ip = 129; continue _fun00001 }
- 126:
+            if(!report) { _fun00002_ip = 131; continue _fun00001 }
+ 128:
             romeon = entity;
- 129:
+ 131:
             entity = 'username';
             report = undefined;
-            if(!(entity === zuuluu)) { _fun00002_ip = 142; continue _fun00001 }
- 139:
+            if(!(entity === zuuluu)) { _fun00002_ip = 144; continue _fun00001 }
+ 141:
             report = romeon;
- 142:
+ 144:
             entity = offset != report;
             oscard = undefined;
-            if(!entity) { _fun00002_ip = 160; continue _fun00001 }
- 151:
+            if(!entity) { _fun00002_ip = 162; continue _fun00001 }
+ 153:
             entity = {};
             entity['color'] = report;
             oscard = entity;
- 160:
+ 162:
             entity = 'dot';
             report = undefined;
-            if(!(entity === zuuluu)) { _fun00002_ip = 248; continue _fun00001 }
- 170:
+            if(!(entity === zuuluu)) { _fun00002_ip = 250; continue _fun00001 }
+ 172:
             report = undefined;
-            if(!(tangon !== romeon)) { _fun00002_ip = 248; continue _fun00001 }
- 176:
+            if(!(tangon !== romeon)) { _fun00002_ip = 250; continue _fun00001 }
+ 178:
             golfie = _closure1_slot5;
             zuuluu = _closure1_slot0;
             backup = _closure1_slot2;
@@ -118,15 +118,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['color'] = romeon;
             backup = offset == foxtra;
             romeon = undefined;
-            if(backup) { _fun00002_ip = 227; continue _fun00001 }
- 221:
+            if(backup) { _fun00002_ip = 229; continue _fun00001 }
+ 223:
             romeon = foxtra.colorStrings;
- 227:
+ 229:
             entity['colors'] = romeon;
             yankee = yankee.newContainerRoleDot;
             entity['containerStyles'] = yankee;
             report = golfie.bind(tangon)(zuuluu, entity);
- 248:
+ 250:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 8;
@@ -143,28 +143,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = entity.length;
             entity = 0;
             entity = entity === zuuluu;
-            if(!entity) { _fun00002_ip = 329; continue _fun00001 }
- 319:
+            if(!entity) { _fun00002_ip = 331; continue _fun00001 }
+ 321:
             zuuluu = michal.interaction;
             entity = offset !== zuuluu;
- 329:
-            if(!entity) { _fun00002_ip = 342; continue _fun00001 }
- 332:
+ 331:
+            if(!entity) { _fun00002_ip = 344; continue _fun00001 }
+ 334:
             zuuluu = michal.interaction;
             entity = tangon !== zuuluu;
- 342:
-            if(!entity) { _fun00002_ip = 355; continue _fun00001 }
- 345:
+ 344:
+            if(!entity) { _fun00002_ip = 357; continue _fun00001 }
+ 347:
             zuuluu = michal.activityInstance;
             entity = offset !== zuuluu;
- 355:
-            if(!entity) { _fun00002_ip = 368; continue _fun00001 }
- 358:
+ 357:
+            if(!entity) { _fun00002_ip = 370; continue _fun00001 }
+ 360:
             zuuluu = michal.activityInstance;
             entity = tangon !== zuuluu;
- 368:
-            if(!entity) { _fun00002_ip = 496; continue _fun00001 }
- 374:
+ 370:
+            if(!entity) { _fun00002_ip = 498; continue _fun00001 }
+ 376:
             backup = _closure1_slot0;
             foxtra = _closure1_slot2;
             entity = 9;
@@ -183,17 +183,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = michal.interaction;
             output = offset == foxtra;
             backup = undefined;
-            if(output) { _fun00002_ip = 463; continue _fun00001 }
- 458:
+            if(output) { _fun00002_ip = 465; continue _fun00001 }
+ 460:
             backup = foxtra.user;
- 463:
+ 465:
             foxtra = verify.channel;
             foxtra = kiloes.bind(sizing)(backup, foxtra);
             foxtra = foxtra.nick;
             entity['username'] = foxtra;
             entity = yankee.bind(romeon)(zuuluu, entity);
             michal['content'] = entity;
- 496:
+ 498:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -213,10 +213,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = verify.guild;
             kiloes = offset == yankee;
             offset = undefined;
-            if(kiloes) { _fun00002_ip = 580; continue _fun00001 }
- 575:
+            if(kiloes) { _fun00002_ip = 582; continue _fun00001 }
+ 577:
             offset = yankee.id;
- 580:
+ 582:
             romeon['guildId'] = offset;
             offset = _closure1_slot0;
             yankee = _closure1_slot2;

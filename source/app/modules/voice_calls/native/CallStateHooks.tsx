@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     if(!(entity == zuuluu)) { _fun00004_ip = 37; continue _fun00003 }
  31:
                     entity = new Array(0);
-                    _fun00004_ip = 60; continue _fun00003;
+                    _fun00004_ip = 62; continue _fun00003;
  37:
                     report = zuuluu.ringing;
                     tangon = report.filter;
@@ -132,15 +132,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     };
                     entity = tangon.bind(report)(zuuluu);
- 60:
+ 62:
                     zuuluu = _closure1_slot10;
                     michal = zuuluu.initialized;
-                    if(michal) { _fun00004_ip = 84; continue _fun00003 }
- 73:
+                    if(michal) { _fun00004_ip = 86; continue _fun00003 }
+ 75:
                     report = entity.length;
                     tangon = 0;
                     michal = report > tangon;
- 84:
+ 86:
                     zuuluu['initialized'] = michal;
                     return entity;
                 }
@@ -258,50 +258,50 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = verify.bind(offset)(report, michal, zuuluu);
             zuuluu = _closure1_slot10;
             michal = zuuluu.initialized;
-            if(michal) { _fun00002_ip = 302; continue _fun00001 }
- 299:
+            if(michal) { _fun00002_ip = 308; continue _fun00001 }
+ 305:
             michal = option;
- 302:
+ 308:
             zuuluu['initialized'] = michal;
             michal = _closure1_slot11;
             zuuluu = michal.CONNECTING;
             michal = _closure1_slot10;
             michal = michal.initialized;
-            if(golfie) { _fun00002_ip = 423; continue _fun00001 }
- 331:
-            if(!michal) { _fun00002_ip = 348; continue _fun00001 }
- 334:
+            if(golfie) { _fun00002_ip = 429; continue _fun00001 }
+ 337:
+            if(!michal) { _fun00002_ip = 354; continue _fun00001 }
+ 340:
             golfie = _closure1_slot8;
             golfie = golfie.DISCONNECTED;
-            if(!(report !== golfie)) { _fun00002_ip = 411; continue _fun00001 }
- 348:
+            if(!(report !== golfie)) { _fun00002_ip = 417; continue _fun00001 }
+ 354:
             option = tangon.length;
             golfie = 0;
-            if(!(option > golfie)) { _fun00002_ip = 373; continue _fun00001 }
- 359:
+            if(!(option > golfie)) { _fun00002_ip = 379; continue _fun00001 }
+ 365:
             oscard = oscard.length;
             tangon = tangon.length;
-            if(!(oscard !== tangon)) { _fun00002_ip = 399; continue _fun00001 }
- 373:
+            if(!(oscard !== tangon)) { _fun00002_ip = 405; continue _fun00001 }
+ 379:
             tangon = _closure1_slot8;
             tangon = tangon.RTC_CONNECTED;
-            if(!(report === tangon)) { _fun00002_ip = 433; continue _fun00001 }
- 387:
+            if(!(report === tangon)) { _fun00002_ip = 439; continue _fun00001 }
+ 393:
             tangon = _closure1_slot11;
             zuuluu = tangon.CONNECTED;
-            _fun00002_ip = 433; continue _fun00001;
- 399:
+            _fun00002_ip = 439; continue _fun00001;
+ 405:
             tangon = _closure1_slot11;
             zuuluu = tangon.RINGING;
-            _fun00002_ip = 433; continue _fun00001;
- 411:
+            _fun00002_ip = 439; continue _fun00001;
+ 417:
             tangon = _closure1_slot11;
             zuuluu = tangon.DISCONNECTED;
-            _fun00002_ip = 433; continue _fun00001;
- 423:
+            _fun00002_ip = 439; continue _fun00001;
+ 429:
             entity = _closure1_slot11;
             zuuluu = entity.DISCONNECTING;
- 433:
+ 439:
             entity = {};
             entity['state'] = zuuluu;
             entity['initialized'] = michal;

@@ -52,85 +52,85 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = null;
             tangon = report == zuuluu;
             entity = undefined;
-            if(tangon) { _fun00002_ip = 81; continue _fun00001 }
- 75:
+            if(tangon) { _fun00002_ip = 79; continue _fun00001 }
+ 73:
             entity = zuuluu.bio;
- 81:
+ 79:
             golfie = '';
             entity = golfie === entity;
-            if(!entity) { _fun00002_ip = 111; continue _fun00001 }
- 92:
+            if(!entity) { _fun00002_ip = 109; continue _fun00001 }
+ 90:
             option = report == zuuluu;
             tangon = undefined;
-            if(option) { _fun00002_ip = 107; continue _fun00001 }
- 101:
+            if(option) { _fun00002_ip = 105; continue _fun00001 }
+ 99:
             tangon = zuuluu.pronouns;
- 107:
+ 105:
             entity = golfie === tangon;
- 111:
-            if(!entity) { _fun00002_ip = 133; continue _fun00001 }
- 114:
+ 109:
+            if(!entity) { _fun00002_ip = 131; continue _fun00001 }
+ 112:
             golfie = report == zuuluu;
             tangon = undefined;
-            if(golfie) { _fun00002_ip = 129; continue _fun00001 }
- 123:
+            if(golfie) { _fun00002_ip = 127; continue _fun00001 }
+ 121:
             tangon = zuuluu.banner;
- 129:
+ 127:
             entity = oscard === tangon;
- 133:
-            if(!entity) { _fun00002_ip = 155; continue _fun00001 }
- 136:
+ 131:
+            if(!entity) { _fun00002_ip = 153; continue _fun00001 }
+ 134:
             golfie = report == zuuluu;
             tangon = undefined;
-            if(golfie) { _fun00002_ip = 151; continue _fun00001 }
- 145:
+            if(golfie) { _fun00002_ip = 149; continue _fun00001 }
+ 143:
             tangon = zuuluu.accentColor;
- 151:
+ 149:
             entity = oscard === tangon;
- 155:
-            if(!entity) { _fun00002_ip = 177; continue _fun00001 }
- 158:
+ 153:
+            if(!entity) { _fun00002_ip = 175; continue _fun00001 }
+ 156:
             golfie = report == zuuluu;
             tangon = undefined;
-            if(golfie) { _fun00002_ip = 173; continue _fun00001 }
- 167:
+            if(golfie) { _fun00002_ip = 171; continue _fun00001 }
+ 165:
             tangon = zuuluu.banner;
- 173:
+ 171:
             entity = oscard === tangon;
- 177:
-            if(!entity) { _fun00002_ip = 195; continue _fun00001 }
- 180:
+ 175:
+            if(!entity) { _fun00002_ip = 193; continue _fun00001 }
+ 178:
             tangon = michal.flags;
             michal = michal.publicFlags;
             entity = tangon === michal;
- 195:
-            if(!entity) { _fun00002_ip = 258; continue _fun00001 }
- 198:
+ 193:
+            if(!entity) { _fun00002_ip = 256; continue _fun00001 }
+ 196:
             tangon = report == zuuluu;
             michal = undefined;
-            if(tangon) { _fun00002_ip = 213; continue _fun00001 }
- 207:
+            if(tangon) { _fun00002_ip = 211; continue _fun00001 }
+ 205:
             michal = zuuluu.badges;
- 213:
+ 211:
             michal = report == michal;
-            if(michal) { _fun00002_ip = 255; continue _fun00001 }
- 220:
+            if(michal) { _fun00002_ip = 253; continue _fun00001 }
+ 218:
             golfie = report == zuuluu;
             tangon = undefined;
-            if(golfie) { _fun00002_ip = 249; continue _fun00001 }
- 229:
+            if(golfie) { _fun00002_ip = 247; continue _fun00001 }
+ 227:
             zuuluu = zuuluu.badges;
             report = report == zuuluu;
             tangon = undefined;
-            if(report) { _fun00002_ip = 249; continue _fun00001 }
- 244:
+            if(report) { _fun00002_ip = 247; continue _fun00001 }
+ 242:
             tangon = zuuluu.length;
- 249:
+ 247:
             zuuluu = 0;
             michal = zuuluu === tangon;
- 255:
+ 253:
             entity = michal;
- 258:
+ 256:
             return entity;
         }
     };

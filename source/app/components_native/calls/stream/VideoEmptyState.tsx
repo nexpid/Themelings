@@ -339,12 +339,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[oscard] = romeon;
             oscard = new Array(3);
             oscard[0] = verify;
-            if(!golfie) { _fun00002_ip = 870; continue _fun00001 }
- 866:
+            if(!golfie) { _fun00002_ip = 866; continue _fun00001 }
+ 862:
             golfie = option != output;
- 870:
-            if(!golfie) { _fun00002_ip = 981; continue _fun00001 }
- 873:
+ 866:
+            if(!golfie) { _fun00002_ip = 977; continue _fun00001 }
+ 869:
             romeon = _closure1_slot5;
             backup = _closure1_slot0;
             result = _closure1_slot2;
@@ -367,11 +367,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(sizing)(backup, foxtra);
             option['children'] = foxtra;
             golfie = romeon.bind(tangon)(verify, option);
- 981:
+ 977:
             oscard[1] = golfie;
             report = !report;
-            if(!report) { _fun00002_ip = 1133; continue _fun00001 }
- 994:
+            if(!report) { _fun00002_ip = 1127; continue _fun00001 }
+ 990:
             verify = _closure1_slot5;
             foxtra = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -418,7 +418,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             golfie['onPress'] = offset;
             report = verify.bind(tangon)(option, golfie);
- 1133:
+ 1127:
             oscard[2] = report;
             report = 'children';
             entity[report] = oscard;

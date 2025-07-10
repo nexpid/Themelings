@@ -137,7 +137,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = verify.length;
             michal = 0;
             entity = null;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 360; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 364; continue _fun00001 }
  185:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot4;
@@ -220,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 360:
+ 364:
             return entity;
         }
     };

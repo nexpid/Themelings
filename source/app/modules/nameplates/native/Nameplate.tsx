@@ -200,10 +200,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             backup = romeon.bind(tangon)(yankee);
             romeon = backup.useSharedValue;
             yankee = 1;
-            if(!golfie) { _fun00004_ip = 243; continue _fun00003 }
- 241:
-            yankee = 0;
+            if(!golfie) { _fun00004_ip = 245; continue _fun00003 }
  243:
+            yankee = 0;
+ 245:
             sizing = romeon.bind(backup)(yankee);
             _closure2_slot1 = sizing;
             backup = _closure1_slot3;
@@ -276,10 +276,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             yankee = romeon.getBackgroundGradientColors;
             zuuluu = verify.palette;
             backup = yankee.bind(romeon)(zuuluu, foxtra);
-            if(!michal) { _fun00004_ip = 461; continue _fun00003 }
- 388:
-            if(entity) { _fun00004_ip = 461; continue _fun00003 }
- 391:
+            if(!michal) { _fun00004_ip = 467; continue _fun00003 }
+ 394:
+            if(entity) { _fun00004_ip = 467; continue _fun00003 }
+ 397:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 9;
@@ -294,8 +294,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = 'img.png';
             entity = romeon.bind(yankee)(foxtra, entity);
             romeon = michal.bind(zuuluu)(entity);
-            _fun00004_ip = 529; continue _fun00003;
- 461:
+            _fun00004_ip = 535; continue _fun00003;
+ 467:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 9;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity = 'static.png';
             entity = foxtra.bind(yankee)(kiloes, entity);
             romeon = michal.bind(zuuluu)(entity);
- 529:
+ 535:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot1;
             entity = _closure1_slot2;
@@ -326,8 +326,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             entity['style'] = report;
             golfie = null;
             report = golfie != backup;
-            if(!report) { _fun00004_ip = 700; continue _fun00003 }
- 591:
+            if(!report) { _fun00004_ip = 706; continue _fun00003 }
+ 597:
             yankee = _closure1_slot5;
             option = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -340,10 +340,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra = {};
             kiloes = 0;
             sizing = 0;
-            if(!output) { _fun00004_ip = 642; continue _fun00003 }
- 636:
-            sizing = -2;
+            if(!output) { _fun00004_ip = 648; continue _fun00003 }
  642:
+            sizing = -2;
+ 648:
             foxtra['x'] = sizing;
             foxtra['y'] = kiloes;
             report['start'] = foxtra;
@@ -356,7 +356,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             foxtra[1] = backup;
             report['colors'] = foxtra;
             golfie = yankee.bind(tangon)(option, report);
- 700:
+ 706:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot5;

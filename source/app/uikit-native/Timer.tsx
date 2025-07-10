@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -235,14 +235,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = oscard;
                 golfie = zuuluu;
                 tangon = michal;
-                if(!(report != yankee)) { _fun00004_ip = 335; continue _fun00003 }
- 183:
+                if(!(report != yankee)) { _fun00004_ip = 339; continue _fun00003 }
+ 187:
                 offset = 0;
                 option = oscard;
                 golfie = zuuluu;
                 tangon = michal;
-                if(!(yankee > offset)) { _fun00004_ip = 335; continue _fun00003 }
- 201:
+                if(!(yankee > offset)) { _fun00004_ip = 339; continue _fun00003 }
+ 205:
                 verify = global;
                 oscard = verify.Math;
                 zuuluu = oscard.max;
@@ -270,28 +270,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 verify = offset.floor;
                 oscard = yankee % oscard;
                 option = verify.bind(offset)(oscard);
- 335:
+ 339:
                 michal = {};
                 verify = report != option;
                 oscard = 0;
-                if(!verify) { _fun00004_ip = 349; continue _fun00003 }
- 346:
+                if(!verify) { _fun00004_ip = 353; continue _fun00003 }
+ 350:
                 oscard = option;
- 349:
+ 353:
                 michal['seconds'] = oscard;
                 option = report != golfie;
                 oscard = 0;
-                if(!option) { _fun00004_ip = 366; continue _fun00003 }
- 363:
+                if(!option) { _fun00004_ip = 370; continue _fun00003 }
+ 367:
                 oscard = golfie;
- 366:
+ 370:
                 michal['minutes'] = oscard;
                 report = report != tangon;
                 zuuluu = 0;
-                if(!report) { _fun00004_ip = 383; continue _fun00003 }
- 380:
+                if(!report) { _fun00004_ip = 387; continue _fun00003 }
+ 384:
                 zuuluu = tangon;
- 383:
+ 387:
                 michal['hours'] = zuuluu;
                 entity['state'] = michal;
                 return entity;

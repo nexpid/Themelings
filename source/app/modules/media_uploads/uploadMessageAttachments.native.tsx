@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 407; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 419; continue _fun00001 }
  15:
                     zuuluu = michal.channelId;
                     var _closure4_slot0 = zuuluu;
@@ -36,12 +36,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  69:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 404; continue _fun00001 }
+                    if(report) { _fun00002_ip = 416; continue _fun00001 }
  78:
                     option = _closure1_slot5;
                     oscard = option.has;
                     oscard = oscard.bind(option)(verify);
-                    if(oscard) { _fun00002_ip = 401; continue _fun00001 }
+                    if(oscard) { _fun00002_ip = 413; continue _fun00001 }
  101:
                     option = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  161:
                             michal = _closure4_slot3;
                             michal = michal._aborted;
-                            if(!michal) { _fun00004_ip = 197; continue _fun00003 }
+                            if(!michal) { _fun00004_ip = 199; continue _fun00003 }
  174:
                             michal = global;
                             tangon = michal.setTimeout;
@@ -257,7 +257,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             };
                             entity = 0;
                             entity = tangon.bind(zuuluu)(michal, entity);
- 197:
+ 199:
                             entity = undefined;
                             return entity;
                         }
@@ -287,23 +287,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = {};
                     tangon = oscard.uploadFiles;
                     tangon = tangon.bind(oscard)(golfie);
-                    SaveGenerator(address=379);
- 377:
+                    SaveGenerator(address=391);
+ 389:
                     return tangon;
- 379:
+ 391:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 398; continue _fun00001 }
- 385:
+                    if(golfie) { _fun00002_ip = 410; continue _fun00001 }
+ 397:
                     report['attachments'] = tangon;
                     report['uploader'] = oscard;
                     return report;
- 398:
+ 410:
                     return tangon;
- 401:
+ 413:
                     return zuuluu;
- 404:
+ 416:
                     return michal;
- 407:
+ 419:
                     return entity;
                 }
             };

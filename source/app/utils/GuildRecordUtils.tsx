@@ -23,139 +23,241 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['premiumSubscriberCount'] = entity;
             entity = oscard.name;
             zuuluu['name'] = entity;
-            entity = oscard.description;
-            zuuluu['description'] = entity;
-            entity = oscard.icon;
-            zuuluu['icon'] = entity;
-            entity = oscard.splash;
-            zuuluu['splash'] = entity;
-            entity = oscard.banner;
-            zuuluu['banner'] = entity;
-            entity = oscard.home_header;
-            zuuluu['homeHeader'] = entity;
-            golfie = _closure1_slot0;
-            michal = _closure1_slot2;
-            entity = 3;
-            entity = michal[entity];
-            michal = undefined;
-            verify = golfie.bind(michal)(entity);
-            golfie = verify.toSetInplace;
-            entity = oscard.features;
-            entity = golfie.bind(verify)(entity);
-            zuuluu['features'] = entity;
-            golfie = oscard.preferred_locale;
+            golfie = oscard.description;
             entity = null;
-            if(!(entity == golfie)) { _fun00002_ip = 176; continue _fun00001 }
- 166:
+            verify = entity != golfie;
+            michal = null;
+            if(!verify) { _fun00002_ip = 78; continue _fun00001 }
+ 75:
+            michal = golfie;
+ 78:
+            zuuluu['description'] = michal;
+            golfie = oscard.icon;
+            verify = entity != golfie;
+            michal = null;
+            if(!verify) { _fun00002_ip = 99; continue _fun00001 }
+ 96:
+            michal = golfie;
+ 99:
+            zuuluu['icon'] = michal;
+            golfie = oscard.splash;
+            verify = entity != golfie;
+            michal = null;
+            if(!verify) { _fun00002_ip = 121; continue _fun00001 }
+ 118:
+            michal = golfie;
+ 121:
+            zuuluu['splash'] = michal;
+            golfie = oscard.banner;
+            verify = entity != golfie;
+            michal = null;
+            if(!verify) { _fun00002_ip = 144; continue _fun00001 }
+ 141:
+            michal = golfie;
+ 144:
+            zuuluu['banner'] = michal;
+            golfie = oscard.home_header;
+            verify = entity != golfie;
+            michal = null;
+            if(!verify) { _fun00002_ip = 167; continue _fun00001 }
+ 164:
+            michal = golfie;
+ 167:
+            zuuluu['homeHeader'] = michal;
+            verify = _closure1_slot0;
+            golfie = _closure1_slot2;
+            michal = 3;
+            golfie = golfie[michal];
+            michal = undefined;
+            offset = verify.bind(michal)(golfie);
+            verify = offset.toSetInplace;
+            golfie = oscard.features;
+            golfie = verify.bind(offset)(golfie);
+            zuuluu['features'] = golfie;
+            golfie = oscard.preferred_locale;
+            if(!(entity == golfie)) { _fun00002_ip = 236; continue _fun00001 }
+ 226:
             verify = _closure1_slot7;
             golfie = verify.preferredLocale;
- 176:
+ 236:
             zuuluu['preferredLocale'] = golfie;
             golfie = oscard.owner_id;
             zuuluu['ownerId'] = golfie;
-            golfie = oscard.application_id;
+            verify = oscard.application_id;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 270; continue _fun00001 }
+ 267:
+            golfie = verify;
+ 270:
             zuuluu['application_id'] = golfie;
-            golfie = oscard.afk_channel_id;
+            verify = oscard.afk_channel_id;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 293; continue _fun00001 }
+ 290:
+            golfie = verify;
+ 293:
             zuuluu['afkChannelId'] = golfie;
             golfie = oscard.afk_timeout;
-            if(!(entity == golfie)) { _fun00002_ip = 234; continue _fun00001 }
- 224:
+            if(!(entity == golfie)) { _fun00002_ip = 318; continue _fun00001 }
+ 308:
             verify = _closure1_slot7;
             golfie = verify.afkTimeout;
- 234:
+ 318:
             zuuluu['afkTimeout'] = golfie;
-            golfie = oscard.system_channel_id;
+            verify = oscard.system_channel_id;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 341; continue _fun00001 }
+ 338:
+            golfie = verify;
+ 341:
             zuuluu['systemChannelId'] = golfie;
             golfie = oscard.verification_level;
-            if(!(entity == golfie)) { _fun00002_ip = 270; continue _fun00001 }
- 260:
+            if(!(entity == golfie)) { _fun00002_ip = 366; continue _fun00001 }
+ 356:
             verify = _closure1_slot7;
             golfie = verify.verificationLevel;
- 270:
+ 366:
             zuuluu['verificationLevel'] = golfie;
             golfie = oscard.explicit_content_filter;
-            if(!(entity == golfie)) { _fun00002_ip = 295; continue _fun00001 }
- 285:
+            if(!(entity == golfie)) { _fun00002_ip = 391; continue _fun00001 }
+ 381:
             verify = _closure1_slot7;
             golfie = verify.explicitContentFilter;
- 295:
+ 391:
             zuuluu['explicitContentFilter'] = golfie;
             golfie = oscard.default_message_notifications;
             zuuluu['defaultMessageNotifications'] = golfie;
             golfie = oscard.mfa_level;
-            if(!(entity == golfie)) { _fun00002_ip = 331; continue _fun00001 }
- 321:
+            if(!(entity == golfie)) { _fun00002_ip = 427; continue _fun00001 }
+ 417:
             verify = _closure1_slot7;
             golfie = verify.mfaLevel;
- 331:
+ 427:
             zuuluu['mfaLevel'] = golfie;
-            golfie = oscard.vanity_url_code;
+            verify = oscard.vanity_url_code;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 450; continue _fun00001 }
+ 447:
+            golfie = verify;
+ 450:
             zuuluu['vanityURLCode'] = golfie;
             golfie = oscard.premium_tier;
-            if(!(entity == golfie)) { _fun00002_ip = 367; continue _fun00001 }
- 357:
+            if(!(entity == golfie)) { _fun00002_ip = 475; continue _fun00001 }
+ 465:
             verify = _closure1_slot7;
             golfie = verify.premiumTier;
- 367:
+ 475:
             zuuluu['premiumTier'] = golfie;
             golfie = oscard.premium_progress_bar_enabled;
-            if(golfie) { _fun00002_ip = 391; continue _fun00001 }
- 381:
+            if(golfie) { _fun00002_ip = 499; continue _fun00001 }
+ 489:
             verify = _closure1_slot7;
             golfie = verify.premiumProgressBarEnabled;
- 391:
+ 499:
             zuuluu['premiumProgressBarEnabled'] = golfie;
             golfie = oscard.system_channel_flags;
             zuuluu['systemChannelFlags'] = golfie;
-            golfie = oscard.discovery_splash;
+            verify = oscard.discovery_splash;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 533; continue _fun00001 }
+ 530:
+            golfie = verify;
+ 533:
             zuuluu['discoverySplash'] = golfie;
-            golfie = oscard.rules_channel_id;
+            verify = oscard.rules_channel_id;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 556; continue _fun00001 }
+ 553:
+            golfie = verify;
+ 556:
             zuuluu['rulesChannelId'] = golfie;
-            golfie = oscard.safety_alerts_channel_id;
+            verify = oscard.safety_alerts_channel_id;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 579; continue _fun00001 }
+ 576:
+            golfie = verify;
+ 579:
             zuuluu['safetyAlertsChannelId'] = golfie;
-            golfie = oscard.public_updates_channel_id;
+            verify = oscard.public_updates_channel_id;
+            offset = entity != verify;
+            golfie = null;
+            if(!offset) { _fun00002_ip = 602; continue _fun00001 }
+ 599:
+            golfie = verify;
+ 602:
             zuuluu['publicUpdatesChannelId'] = golfie;
             golfie = oscard.max_stage_video_channel_users;
-            if(!(entity == golfie)) { _fun00002_ip = 471; continue _fun00001 }
- 461:
+            if(!(entity == golfie)) { _fun00002_ip = 627; continue _fun00001 }
+ 617:
             verify = _closure1_slot7;
             golfie = verify.maxStageVideoChannelUsers;
- 471:
+ 627:
             zuuluu['maxStageVideoChannelUsers'] = golfie;
             golfie = oscard.max_video_channel_users;
-            if(!(entity == golfie)) { _fun00002_ip = 496; continue _fun00001 }
- 486:
+            if(!(entity == golfie)) { _fun00002_ip = 652; continue _fun00001 }
+ 642:
             verify = _closure1_slot7;
             golfie = verify.maxVideoChannelUsers;
- 496:
+ 652:
             zuuluu['maxVideoChannelUsers'] = golfie;
             golfie = oscard.max_members;
-            if(!(entity == golfie)) { _fun00002_ip = 521; continue _fun00001 }
- 511:
+            if(!(entity == golfie)) { _fun00002_ip = 677; continue _fun00001 }
+ 667:
             verify = _closure1_slot7;
             golfie = verify.maxMembers;
- 521:
+ 677:
             zuuluu['maxMembers'] = golfie;
             golfie = oscard.nsfw_level;
-            if(!(entity == golfie)) { _fun00002_ip = 546; continue _fun00001 }
- 536:
+            if(!(entity == golfie)) { _fun00002_ip = 702; continue _fun00001 }
+ 692:
             option = _closure1_slot7;
             golfie = option.nsfwLevel;
- 546:
+ 702:
             zuuluu['nsfwLevel'] = golfie;
-            golfie = oscard.owner_configured_content_level;
+            option = oscard.owner_configured_content_level;
+            verify = entity != option;
+            golfie = null;
+            if(!verify) { _fun00002_ip = 725; continue _fun00001 }
+ 722:
+            golfie = option;
+ 725:
             zuuluu['ownerConfiguredContentLevel'] = golfie;
-            golfie = oscard.hub_type;
+            option = oscard.hub_type;
+            verify = entity != option;
+            golfie = null;
+            if(!verify) { _fun00002_ip = 748; continue _fun00001 }
+ 745:
+            golfie = option;
+ 748:
             zuuluu['hubType'] = golfie;
-            golfie = oscard.latest_onboarding_question_id;
+            option = oscard.latest_onboarding_question_id;
+            verify = entity != option;
+            golfie = null;
+            if(!verify) { _fun00002_ip = 771; continue _fun00001 }
+ 768:
+            golfie = option;
+ 771:
             zuuluu['latestOnboardingQuestionId'] = golfie;
-            golfie = oscard.profile;
+            option = oscard.profile;
+            verify = entity != option;
+            golfie = null;
+            if(!verify) { _fun00002_ip = 794; continue _fun00001 }
+ 791:
+            golfie = option;
+ 794:
             zuuluu['profile'] = golfie;
             golfie = oscard.premium_features;
             option = entity != golfie;
             golfie = null;
-            if(!option) { _fun00002_ip = 665; continue _fun00001 }
- 610:
+            if(!option) { _fun00002_ip = 869; continue _fun00001 }
+ 814:
             verify = oscard.premium_features;
             option = {};
             offset = verify.features;
@@ -167,13 +269,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.additional_sound_slots;
             option['additionalSoundSlots'] = verify;
             golfie = option;
- 665:
+ 869:
             zuuluu['premiumFeatures'] = golfie;
             golfie = oscard.moderator_reporting;
             golfie = entity != golfie;
             entity = null;
-            if(!golfie) { _fun00002_ip = 718; continue _fun00001 }
- 685:
+            if(!golfie) { _fun00002_ip = 922; continue _fun00001 }
+ 889:
             golfie = oscard.moderator_reporting;
             oscard = {};
             option = golfie.moderator_reporting_enabled;
@@ -181,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.moderator_report_channel_id;
             oscard['moderatorReportChannelId'] = golfie;
             entity = oscard;
- 718:
+ 922:
             zuuluu['moderatorReporting'] = entity;
             entity = argBaz;
             entity = report.bind(michal)(tangon, entity, zuuluu);

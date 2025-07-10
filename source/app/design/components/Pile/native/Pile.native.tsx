@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!zuuluu) { _fun00002_ip = 178; continue _fun00001 }
  169:
             entity = entity.length;
-            if(!(entity === michal)) { _fun00002_ip = 243; continue _fun00001 }
+            if(!(entity === michal)) { _fun00002_ip = 241; continue _fun00001 }
  178:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot4;
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 243:
+ 241:
             entity = global;
             zuuluu = entity.Error;
             entity = zuuluu.prototype;

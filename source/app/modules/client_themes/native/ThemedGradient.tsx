@@ -293,40 +293,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = kiloes.bind(sizing)(foxtra);
             entity['locations'] = foxtra;
             foxtra = null;
-            if(!(foxtra == backup)) { _fun00002_ip = 229; continue _fun00001 }
- 223:
+            if(!(foxtra == backup)) { _fun00002_ip = 233; continue _fun00001 }
+ 227:
             backup = report.angle;
- 229:
+ 233:
             entity['angle'] = backup;
             report = report.angleCenter;
-            if(!(foxtra == report)) { _fun00002_ip = 254; continue _fun00001 }
- 244:
+            if(!(foxtra == report)) { _fun00002_ip = 262; continue _fun00001 }
+ 248:
             report = {'x': 0.5, 'y': 0.5};
- 254:
+ 262:
             entity['angleCenter'] = report;
             report = true;
             entity['useAngle'] = report;
-            if(!offset) { _fun00002_ip = 278; continue _fun00001 }
- 269:
+            if(!offset) { _fun00002_ip = 286; continue _fun00001 }
+ 277:
             report = {};
             report['width'] = romeon;
             offset = report;
- 278:
+ 286:
             report = new Array(5);
             report[0] = offset;
-            if(!verify) { _fun00002_ip = 298; continue _fun00001 }
- 289:
+            if(!verify) { _fun00002_ip = 306; continue _fun00001 }
+ 297:
             offset = {};
             offset['height'] = yankee;
             verify = offset;
- 298:
+ 306:
             report[1] = verify;
             verify = option.linearGradient;
             report[2] = verify;
-            if(!golfie) { _fun00002_ip = 321; continue _fun00001 }
- 315:
+            if(!golfie) { _fun00002_ip = 329; continue _fun00001 }
+ 323:
             golfie = option.absolute;
- 321:
+ 329:
             report[3] = golfie;
             report[4] = oscard;
             entity['style'] = report;
@@ -399,37 +399,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = report.bind(oscard)(tangon);
             report = golfie.getColor;
             tangon = _closure1_slot5;
-            if(option) { _fun00006_ip = 223; continue _fun00005 }
- 210:
+            if(option) { _fun00006_ip = 225; continue _fun00005 }
+ 212:
             option = tangon.WHITE_500;
             backup = report.bind(golfie)(option);
-            _fun00006_ip = 234; continue _fun00005;
- 223:
+            _fun00006_ip = 236; continue _fun00005;
+ 225:
             tangon = tangon.BLACK_500;
             backup = report.bind(golfie)(tangon);
- 234:
+ 236:
             report = _closure1_slot1;
             golfie = _closure1_slot2;
             tangon = 15;
             tangon = golfie[tangon];
             tangon = report.bind(oscard)(tangon);
             tangon = tangon.bind(oscard)();
-            if(!(entity == zuuluu)) { _fun00006_ip = 267; continue _fun00005 }
- 262:
-            if(tangon) { _fun00006_ip = 267; continue _fun00005 }
- 265:
-            return entity;
+            if(!(entity == zuuluu)) { _fun00006_ip = 269; continue _fun00005 }
+ 264:
+            if(tangon) { _fun00006_ip = 269; continue _fun00005 }
  267:
-            if(!(entity != zuuluu)) { _fun00006_ip = 274; continue _fun00005 }
- 271:
+            return entity;
+ 269:
+            if(!(entity != zuuluu)) { _fun00006_ip = 276; continue _fun00005 }
+ 273:
             foxtra = zuuluu;
- 274:
+ 276:
             zuuluu = entity == foxtra;
             entity = null;
-            if(zuuluu) { _fun00006_ip = 477; continue _fun00005 }
- 286:
-            if(michal) { _fun00006_ip = 329; continue _fun00005 }
- 289:
+            if(zuuluu) { _fun00006_ip = 479; continue _fun00005 }
+ 288:
+            if(michal) { _fun00006_ip = 331; continue _fun00005 }
+ 291:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot9;
             michal = {};
@@ -439,8 +439,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 'gradient';
             michal[report] = foxtra;
             michal = tangon.bind(oscard)(zuuluu, michal);
-            _fun00006_ip = 474; continue _fun00005;
- 329:
+            _fun00006_ip = 476; continue _fun00005;
+ 331:
             report = _closure1_slot7;
             tangon = _closure1_slot3;
             zuuluu = {};
@@ -476,9 +476,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[1] = option;
             zuuluu['children'] = golfie;
             michal = report.bind(oscard)(tangon, zuuluu);
- 474:
+ 476:
             entity = michal;
- 477:
+ 479:
             return entity;
         }
     };

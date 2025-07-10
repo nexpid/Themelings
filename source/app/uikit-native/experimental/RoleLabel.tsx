@@ -78,17 +78,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             entity = 'username';
             entity = entity === golfie;
-            if(!entity) { _fun00002_ip = 92; continue _fun00001 }
- 86:
+            if(!entity) { _fun00002_ip = 94; continue _fun00001 }
+ 88:
             michal = null;
             entity = michal != foxtra;
- 92:
-            if(!entity) { _fun00002_ip = 104; continue _fun00001 }
- 95:
+ 94:
+            if(!entity) { _fun00002_ip = 106; continue _fun00001 }
+ 97:
             entity = {};
             entity['color'] = foxtra;
             offset = entity;
- 104:
+ 106:
             zuuluu = _closure1_slot5;
             michal = _closure1_slot2;
             entity = {};
@@ -97,13 +97,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = report;
             report = 'dot';
             golfie = report === golfie;
-            if(!golfie) { _fun00002_ip = 144; continue _fun00001 }
- 138:
+            if(!golfie) { _fun00002_ip = 146; continue _fun00001 }
+ 140:
             report = null;
             golfie = report != foxtra;
- 144:
-            if(!golfie) { _fun00002_ip = 208; continue _fun00001 }
- 147:
+ 146:
+            if(!golfie) { _fun00002_ip = 210; continue _fun00001 }
+ 149:
             yankee = _closure1_slot4;
             option = _closure1_slot0;
             backup = _closure1_slot1;
@@ -118,7 +118,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = romeon.roleDot;
             report['containerStyles'] = romeon;
             golfie = yankee.bind(tangon)(option, report);
- 208:
+ 210:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot4;

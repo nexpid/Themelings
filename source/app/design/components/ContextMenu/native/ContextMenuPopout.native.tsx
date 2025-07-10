@@ -128,8 +128,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = michal.includes;
                 michal = entity.bind(michal)(yankee);
                 entity = golfie;
-                if(!michal) { _fun00002_ip = 310; continue _fun00001 }
- 239:
+                if(!michal) { _fun00002_ip = 312; continue _fun00001 }
+ 241:
                 tangon = _closure1_slot8;
                 zuuluu = _closure1_slot7;
                 michal = {};
@@ -146,7 +146,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard[1] = golfie;
                 michal['children'] = oscard;
                 entity = tangon.bind(report)(zuuluu, michal);
- 310:
+ 312:
                 return entity;
             }
         };
@@ -239,15 +239,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = offset[oscard];
             oscard = verify.bind(tangon)(oscard);
             oscard = oscard.t;
-            if(report) { _fun00006_ip = 306; continue _fun00005 }
- 291:
+            if(report) { _fun00006_ip = 308; continue _fun00005 }
+ 293:
             report = oscard.xs0juL;
             report = golfie.bind(option)(report);
-            _fun00006_ip = 319; continue _fun00005;
- 306:
+            _fun00006_ip = 321; continue _fun00005;
+ 308:
             oscard = oscard.hPBScn;
             report = golfie.bind(option)(oscard);
- 319:
+ 321:
             entity['accessibilityLabel'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
@@ -500,8 +500,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.height;
             source = 'above';
             golfie = backup;
-            if(!(source === papara)) { _fun00008_ip = 445; continue _fun00007 }
- 340:
+            if(!(source === papara)) { _fun00008_ip = 447; continue _fun00007 }
+ 342:
             record = _closure1_slot0;
             status = _closure1_slot2;
             source = 10;
@@ -510,38 +510,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = record.isAndroid;
             source = source.bind(record)();
             golfie = backup;
-            if(!source) { _fun00008_ip = 445; continue _fun00007 }
- 375:
+            if(!source) { _fun00008_ip = 447; continue _fun00007 }
+ 377:
             record = _closure1_slot4;
             source = record.isVisible;
             source = source.bind(record)();
             golfie = backup;
-            if(!source) { _fun00008_ip = 445; continue _fun00007 }
- 395:
+            if(!source) { _fun00008_ip = 447; continue _fun00007 }
+ 397:
             record = _closure1_slot4;
             source = record.metrics;
             status = source.bind(record)();
             record = null;
             sierra = record == status;
             source = undefined;
-            if(sierra) { _fun00008_ip = 425; continue _fun00007 }
- 420:
+            if(sierra) { _fun00008_ip = 427; continue _fun00007 }
+ 422:
             source = status.height;
- 425:
+ 427:
             record = record != source;
             verify = 0;
-            if(!record) { _fun00008_ip = 437; continue _fun00007 }
- 434:
+            if(!record) { _fun00008_ip = 439; continue _fun00007 }
+ 436:
             verify = source;
- 437:
+ 439:
             verify = verify + zuuluu;
             golfie = backup - verify;
- 445:
+ 447:
             verify = 'below';
             verify = verify === papara;
             michal = michal - golfie;
-            if(verify) { _fun00008_ip = 498; continue _fun00007 }
- 462:
+            if(verify) { _fun00008_ip = 500; continue _fun00007 }
+ 464:
             backup = michal - offset;
             source = _closure1_slot0;
             record = _closure1_slot2;
@@ -550,8 +550,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = source.bind(tangon)(offset);
             offset = offset.CONTEXT_MENU_EDGE_OFFSET;
             backup = backup - offset;
-            _fun00008_ip = 532; continue _fun00007;
- 498:
+            _fun00008_ip = 534; continue _fun00007;
+ 500:
             zuuluu = michal - zuuluu;
             offset = _closure1_slot0;
             source = _closure1_slot2;
@@ -560,7 +560,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = offset.bind(tangon)(michal);
             michal = michal.CONTEXT_MENU_EDGE_OFFSET;
             backup = zuuluu - michal;
- 532:
+ 534:
             _closure2_slot9 = backup;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
@@ -572,10 +572,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _closure2_slot10 = michal;
             source = {};
             zuuluu = 'bottom';
-            if(!verify) { _fun00008_ip = 584; continue _fun00007 }
- 580:
+            if(!verify) { _fun00008_ip = 586; continue _fun00007 }
+ 582:
             zuuluu = 'top';
- 584:
+ 586:
             source[zuuluu] = golfie;
             source[cntext] = report;
             zuuluu = 'maxHeight';
@@ -1050,8 +1050,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['accessibilityRole'] = romeon;
             backup = null;
             romeon = backup != result;
-            if(!romeon) { _fun00008_ip = 1285; continue _fun00007 }
- 1154:
+            if(!romeon) { _fun00008_ip = 1297; continue _fun00007 }
+ 1166:
             source = _closure1_slot8;
             update = _closure1_slot7;
             romeon = {};
@@ -1081,7 +1081,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled[1] = vacuum;
             romeon['children'] = ctrled;
             backup = source.bind(tangon)(update, romeon);
- 1285:
+ 1297:
             romeon = new Array(2);
             romeon[0] = backup;
             backup = _closure1_slot18;

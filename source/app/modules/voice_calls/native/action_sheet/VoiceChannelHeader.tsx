@@ -225,21 +225,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = null;
             oscard = verify == report;
             result = undefined;
-            if(oscard) { _fun00004_ip = 179; continue _fun00003 }
- 174:
+            if(oscard) { _fun00004_ip = 183; continue _fun00003 }
+ 178:
             result = report.name;
- 179:
+ 183:
             golfie = _closure1_slot6;
             oscard = golfie.can;
             report = _closure1_slot7;
             report = report.CREATE_INSTANT_INVITE;
             report = oscard.bind(golfie)(report, romeon);
             foxtra = null;
-            if(!report) { _fun00004_ip = 220; continue _fun00003 }
- 210:
+            if(!report) { _fun00004_ip = 226; continue _fun00003 }
+ 214:
             foxtra = null;
-            if(michal) { _fun00004_ip = 220; continue _fun00003 }
- 215:
+            if(michal) { _fun00004_ip = 226; continue _fun00003 }
+ 219:
             foxtra = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -266,12 +266,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
- 220:
+ 226:
             michal = romeon.isPrivate;
             michal = michal.bind(romeon)();
             echoed = zuuluu;
-            if(!michal) { _fun00004_ip = 343; continue _fun00003 }
- 236:
+            if(!michal) { _fun00004_ip = 351; continue _fun00003 }
+ 242:
             zuuluu = _closure1_slot0;
             golfie = _closure1_slot2;
             michal = 17;
@@ -310,7 +310,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
             };
- 343:
+ 351:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot3;
             entity = {};
@@ -334,17 +334,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = option.bind(tangon)(romeon);
             backup = _closure1_slot1;
             kiloes = _closure1_slot2;
-            if(option) { _fun00004_ip = 455; continue _fun00003 }
- 441:
+            if(option) { _fun00004_ip = 463; continue _fun00003 }
+ 449:
             option = 22;
             option = kiloes[option];
             option = backup.bind(tangon)(option);
-            _fun00004_ip = 467; continue _fun00003;
- 455:
+            _fun00004_ip = 475; continue _fun00003;
+ 463:
             romeon = 21;
             romeon = kiloes[romeon];
             option = backup.bind(tangon)(romeon);
- 467:
+ 475:
             report['source'] = option;
             option = true;
             report['disableColor'] = option;
@@ -361,8 +361,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = 'string';
             romeon = typeof echoed;
             backup = echoed;
-            if(!(sizing === romeon)) { _fun00004_ip = 589; continue _fun00003 }
- 536:
+            if(!(sizing === romeon)) { _fun00004_ip = 597; continue _fun00003 }
+ 544:
             output = _closure1_slot9;
             kiloes = _closure1_slot0;
             update = _closure1_slot2;
@@ -373,13 +373,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-md/semibold', 'color': 'always-white'};
             romeon['children'] = echoed;
             backup = output.bind(tangon)(kiloes, romeon);
- 589:
+ 597:
             romeon = new Array(2);
             romeon[0] = backup;
             kiloes = typeof result;
             backup = result;
-            if(!(sizing === kiloes)) { _fun00004_ip = 660; continue _fun00003 }
- 607:
+            if(!(sizing === kiloes)) { _fun00004_ip = 668; continue _fun00003 }
+ 615:
             output = _closure1_slot9;
             sizing = _closure1_slot0;
             echoed = _closure1_slot2;
@@ -390,7 +390,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = {'lineClamp': 1, 'lineBreakMode': 'tail', 'variant': 'text-xs/medium', 'color': 'always-white'};
             kiloes['children'] = result;
             backup = output.bind(tangon)(sizing, kiloes);
- 660:
+ 668:
             romeon[1] = backup;
             oscard['children'] = romeon;
             oscard = option.bind(tangon)(golfie, oscard);
@@ -401,14 +401,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.icons;
             oscard['style'] = yankee;
             verify = verify != foxtra;
-            if(!verify) { _fun00004_ip = 725; continue _fun00003 }
- 705:
+            if(!verify) { _fun00004_ip = 733; continue _fun00003 }
+ 713:
             romeon = _closure1_slot9;
             yankee = _closure1_slot13;
             offset = {};
             offset['onPress'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 725:
+ 733:
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
             report[2] = oscard;

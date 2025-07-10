@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 345; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 347; continue _fun00001 }
  15:
                     verify = michal.nextStatus;
                     var _closure4_slot0 = verify;
@@ -32,7 +32,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  55:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00002_ip = 342; continue _fun00001 }
+                    if(report) { _fun00002_ip = 344; continue _fun00001 }
  64:
                     oscard = null;
                     if(!(oscard == option)) { _fun00002_ip = 87; continue _fun00001 }
@@ -92,13 +92,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         }
                     };
                     zuuluu = foxtra.bind(backup)(offset, zuuluu, yankee);
-                    SaveGenerator(address=163);
- 161:
-                    return zuuluu;
+                    SaveGenerator(address=165);
  163:
+                    return zuuluu;
+ 165:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=9);
-                    if(offset) { _fun00002_ip = 339; continue _fun00001 }
- 172:
+                    if(offset) { _fun00002_ip = 341; continue _fun00001 }
+ 174:
                     offset = {};
                     offset['next_status'] = verify;
                     offset['prev_status'] = option;
@@ -108,26 +108,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     result = offset;
                     option = copyDataProperties(result, output);
                     verify = offset;
-                    if(!(oscard != romeon)) { _fun00002_ip = 263; continue _fun00001 }
- 218:
+                    if(!(oscard != romeon)) { _fun00002_ip = 265; continue _fun00001 }
+ 220:
                     option = {};
                     result = option;
                     output = offset;
                     offset = copyDataProperties(result, output);
                     offset = oscard != romeon;
                     yankee = null;
-                    if(!offset) { _fun00002_ip = 249; continue _fun00001 }
- 239:
+                    if(!offset) { _fun00002_ip = 251; continue _fun00001 }
+ 241:
                     offset = 60000;
                     yankee = romeon / offset;
- 249:
+ 251:
                     offset = 'expire_duration_minutes';
                     option[offset] = yankee;
                     verify = option;
- 263:
+ 265:
                     option = verify;
-                    if(!(oscard != golfie)) { _fun00002_ip = 295; continue _fun00001 }
- 270:
+                    if(!(oscard != golfie)) { _fun00002_ip = 297; continue _fun00001 }
+ 272:
                     oscard = {};
                     result = oscard;
                     output = verify;
@@ -136,7 +136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = golfie;
                     golfie = copyDataProperties(result, output);
                     option = oscard;
- 295:
+ 297:
                     golfie = _closure1_slot1;
                     verify = _closure1_slot2;
                     oscard = 6;
@@ -147,11 +147,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.USER_STATUS_UPDATED;
                     report = oscard.bind(golfie)(report, option);
                     return tangon;
- 339:
+ 341:
                     return zuuluu;
- 342:
+ 344:
                     return michal;
- 345:
+ 347:
                     return entity;
                 }
             };

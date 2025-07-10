@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = _closure1_slot5;
                 tangon = tangon.QUESTS_BAR;
                 tangon = oscard.bind(golfie)(tangon);
-                if(!tangon) { _fun00004_ip = 133; continue _fun00003 }
+                if(!tangon) { _fun00004_ip = 135; continue _fun00003 }
  65:
                 tangon = zuuluu.clearTimeoutTimer;
                 tangon = tangon.bind(zuuluu)();
@@ -109,10 +109,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                michal = 10000;
+                michal = 30000;
                 michal = report.bind(entity)(tangon, michal);
                 zuuluu['timeoutTimer'] = michal;
- 133:
+ 135:
                 return entity;
             }
         };
@@ -141,36 +141,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure1_slot5;
                 michal = michal.QUESTS_BAR;
                 michal = tangon.bind(report)(michal);
-                if(!michal) { _fun00006_ip = 317; continue _fun00005 }
+                if(!michal) { _fun00006_ip = 328; continue _fun00005 }
  67:
                 tangon = zuuluu.startTime;
                 michal = null;
-                if(!(michal !== tangon)) { _fun00006_ip = 317; continue _fun00005 }
+                if(!(michal !== tangon)) { _fun00006_ip = 328; continue _fun00005 }
  82:
                 tangon = zuuluu.questId;
-                if(!(tangon === offset)) { _fun00006_ip = 317; continue _fun00005 }
+                if(!(tangon === offset)) { _fun00006_ip = 328; continue _fun00005 }
  95:
                 if(verify) { _fun00006_ip = 108; continue _fun00005 }
  98:
                 tangon = zuuluu.clearTimeoutTimer;
                 tangon = tangon.bind(zuuluu)();
  108:
-                golfie = global;
-                option = golfie.Math;
-                report = option.round;
-                yankee = golfie.performance;
+                report = 30000;
+                if(verify) { _fun00006_ip = 160; continue _fun00005 }
+ 117:
+                tangon = global;
+                option = tangon.Math;
+                golfie = option.round;
+                yankee = tangon.performance;
                 tangon = yankee.now;
                 yankee = tangon.bind(yankee)();
                 tangon = zuuluu.startTime;
                 tangon = yankee - tangon;
-                report = report.bind(option)(tangon);
+                report = golfie.bind(option)(tangon);
+ 160:
                 zuuluu['startTime'] = michal;
+                golfie = global;
                 zuuluu = golfie.Math;
                 michal = zuuluu.random;
                 zuuluu = michal.bind(zuuluu)();
                 michal = 0.1;
-                if(!(!(zuuluu > michal))) { _fun00006_ip = 317; continue _fun00005 }
- 190:
+                if(!(!(zuuluu > michal))) { _fun00006_ip = 328; continue _fun00005 }
+ 201:
                 zuuluu = _closure1_slot1;
                 yankee = _closure1_slot2;
                 michal = 4;
@@ -198,7 +203,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard[1] = golfie;
                 michal['tags'] = oscard;
                 michal = zuuluu.bind(tangon)(michal, report);
- 317:
+ 328:
                 return entity;
             }
         };

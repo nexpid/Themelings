@@ -41,47 +41,6 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['isNotNullish'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: areSetsEqual
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            oscard = argFoo;
-            tangon = argBar;
-            var _closure2_slot0 = tangon;
-            michal = oscard.size;
-            entity = tangon.size;
-            entity = michal === entity;
-            if(!entity) { _fun00002_ip = 92; continue _fun00001 }
- 29:
-            michal = oscard.size;
-            report = 0;
-            michal = report === michal;
-            if(!michal) { _fun00002_ip = 52; continue _fun00001 }
- 43:
-            tangon = tangon.size;
-            michal = report === tangon;
- 52:
-            if(michal) { _fun00002_ip = 89; continue _fun00001 }
- 55:
-            tangon = global;
-            report = tangon.Array;
-            tangon = report.from;
-            report = tangon.bind(report)(oscard);
-            tangon = report.every;
-            zuuluu = function(argFoo) {
-                zuuluu = _closure2_slot0;
-                michal = zuuluu.has;
-                entity = argFoo;
-                entity = michal.bind(zuuluu)(entity);
-                return entity;
-            };
-            michal = tangon.bind(report)(zuuluu);
- 89:
-            entity = michal;
- 92:
-            return entity;
-        }
-    };
-    zuuluu['areSetsEqual'] = tangon;
     michal = function(argFoo, argBar) { // Original name: isIn
         zuuluu = argBar;
         michal = zuuluu.includes;

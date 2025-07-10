@@ -1940,69 +1940,66 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
     option = function(argFoo) { // Original name: nsfwReturnToSafety
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
-            golfie = argFoo;
+            option = argFoo;
             zuuluu = _closure1_slot11;
-            michal = zuuluu.getGuild;
-            oscard = michal.bind(zuuluu)(golfie);
-            zuuluu = null;
-            michal = zuuluu != oscard;
-            if(!michal) { _fun00028_ip = 40; continue _fun00027 }
- 29:
-            report = _closure1_slot7;
-            tangon = undefined;
-            michal = report.bind(tangon)(oscard);
+            entity = zuuluu.getGuild;
+            tangon = entity.bind(zuuluu)(option);
+            zuuluu = _closure1_slot7;
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(tangon);
+            tangon = null;
+            if(!(tangon != option)) { _fun00028_ip = 196; continue _fun00027 }
  40:
-            if(!(zuuluu != golfie)) { _fun00028_ip = 186; continue _fun00027 }
- 47:
-            if(michal) { _fun00028_ip = 186; continue _fun00027 }
- 53:
-            tangon = _closure1_slot10;
-            michal = tangon.getDefaultChannel;
-            michal = michal.bind(tangon)(golfie);
-            if(!(zuuluu != michal)) { _fun00028_ip = 141; continue _fun00027 }
- 72:
-            zuuluu = michal.isNSFW;
-            zuuluu = zuuluu.bind(michal)();
-            if(zuuluu) { _fun00028_ip = 141; continue _fun00027 }
- 85:
+            if(zuuluu) { _fun00028_ip = 196; continue _fun00027 }
+ 46:
+            report = _closure1_slot10;
+            zuuluu = report.getDefaultChannel;
+            zuuluu = zuuluu.bind(report)(option);
+            if(!(tangon != zuuluu)) { _fun00028_ip = 153; continue _fun00027 }
+ 65:
             report = _closure1_slot0;
-            tangon = _closure1_slot3;
-            zuuluu = 16;
-            tangon = tangon[zuuluu];
-            zuuluu = undefined;
-            tangon = report.bind(zuuluu)(tangon);
-            zuuluu = tangon.transitionTo;
-            oscard = _closure1_slot20;
-            report = oscard.CHANNEL;
-            michal = michal.id;
-            michal = report.bind(oscard)(golfie, michal);
-            michal = zuuluu.bind(tangon)(michal);
-            _fun00028_ip = 229; continue _fun00027;
- 141:
+            oscard = _closure1_slot3;
+            tangon = 30;
+            tangon = oscard[tangon];
+            report = report.bind(entity)(tangon);
+            tangon = report.isChannelNSFW;
+            tangon = tangon.bind(report)(zuuluu);
+            if(tangon) { _fun00028_ip = 153; continue _fun00027 }
+ 99:
+            report = _closure1_slot0;
+            oscard = _closure1_slot3;
+            tangon = 16;
+            tangon = oscard[tangon];
+            report = report.bind(entity)(tangon);
+            tangon = report.transitionTo;
+            golfie = _closure1_slot20;
+            oscard = golfie.CHANNEL;
+            zuuluu = zuuluu.id;
+            zuuluu = oscard.bind(golfie)(option, zuuluu);
+            zuuluu = tangon.bind(report)(zuuluu);
+            _fun00028_ip = 237; continue _fun00027;
+ 153:
             tangon = _closure1_slot0;
-            zuuluu = _closure1_slot3;
-            michal = 16;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            tangon = tangon.bind(michal)(zuuluu);
+            report = _closure1_slot3;
+            zuuluu = 16;
+            zuuluu = report[zuuluu];
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.transitionTo;
+            zuuluu = _closure1_slot20;
+            zuuluu = zuuluu.FRIENDS;
+            zuuluu = tangon.bind(report)(zuuluu);
+            _fun00028_ip = 237; continue _fun00027;
+ 196:
+            tangon = _closure1_slot0;
+            report = _closure1_slot3;
+            zuuluu = 16;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
             zuuluu = tangon.transitionTo;
             michal = _closure1_slot20;
             michal = michal.FRIENDS;
             michal = zuuluu.bind(tangon)(michal);
-            _fun00028_ip = 229; continue _fun00027;
- 186:
-            tangon = _closure1_slot0;
-            zuuluu = _closure1_slot3;
-            michal = 16;
-            zuuluu = zuuluu[michal];
-            michal = undefined;
-            zuuluu = tangon.bind(michal)(zuuluu);
-            michal = zuuluu.transitionTo;
-            entity = _closure1_slot20;
-            entity = entity.FRIENDS;
-            entity = michal.bind(zuuluu)(entity);
- 229:
-            entity = undefined;
+ 237:
             return entity;
         }
     };
@@ -2609,7 +2606,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         return entity;
     };
     tangon['getGuildRoleConnectionsConfigurations'] = report;
-    report = 30;
+    report = 31;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;

@@ -99,15 +99,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = null;
             golfie = zuuluu == michal;
             verify = undefined;
-            if(golfie) { _fun00002_ip = 123; continue _fun00001 }
- 117:
+            if(golfie) { _fun00002_ip = 121; continue _fun00001 }
+ 115:
             verify = michal.verified;
- 123:
+ 121:
             golfie = zuuluu != verify;
-            if(!golfie) { _fun00002_ip = 133; continue _fun00001 }
- 130:
+            if(!golfie) { _fun00002_ip = 131; continue _fun00001 }
+ 128:
             golfie = verify;
- 133:
+ 131:
             offset = option.bind(tangon)(golfie);
             _closure2_slot1 = offset;
             verify = _closure1_slot4;
@@ -470,34 +470,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             oscard = option.bind(verify)(oscard, golfie);
-            if(report) { _fun00002_ip = 297; continue _fun00001 }
- 266:
+            if(report) { _fun00002_ip = 293; continue _fun00001 }
+ 262:
             golfie = zuuluu == michal;
             report = undefined;
-            if(golfie) { _fun00002_ip = 281; continue _fun00001 }
- 275:
+            if(golfie) { _fun00002_ip = 277; continue _fun00001 }
+ 271:
             report = michal.email;
+ 277:
+            if(!(zuuluu != report)) { _fun00002_ip = 293; continue _fun00001 }
  281:
-            if(!(zuuluu != report)) { _fun00002_ip = 297; continue _fun00001 }
- 285:
             report = _closure1_slot7;
             report = report.RESEND_EMAIL;
-            _fun00002_ip = 335; continue _fun00001;
+            _fun00002_ip = 331; continue _fun00001;
+ 293:
+            if(!(zuuluu != michal)) { _fun00002_ip = 306; continue _fun00001 }
  297:
-            if(!(zuuluu != michal)) { _fun00002_ip = 310; continue _fun00001 }
- 301:
             michal = michal.verified;
-            if(michal) { _fun00002_ip = 322; continue _fun00001 }
- 310:
+            if(michal) { _fun00002_ip = 318; continue _fun00001 }
+ 306:
             michal = _closure1_slot7;
             michal = michal.ENTER_EMAIL;
-            _fun00002_ip = 332; continue _fun00001;
- 322:
+            _fun00002_ip = 328; continue _fun00001;
+ 318:
             zuuluu = _closure1_slot7;
             michal = zuuluu.CONFIRM_EMAIL_CHANGE_START;
- 332:
+ 328:
             report = michal;
- 335:
+ 331:
             zuuluu = _closure1_slot8;
             option = _closure1_slot0;
             verify = _closure1_slot2;

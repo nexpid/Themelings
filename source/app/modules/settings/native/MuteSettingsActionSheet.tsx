@@ -188,10 +188,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             verify = tangon.bind(golfie)(michal, zuuluu);
             michal = null;
-            if(!(michal != backup)) { _fun00002_ip = 241; continue _fun00001 }
- 238:
-            if(entity) { _fun00002_ip = 327; continue _fun00001 }
- 241:
+            if(!(michal != backup)) { _fun00002_ip = 251; continue _fun00001 }
+ 248:
+            if(entity) { _fun00002_ip = 339; continue _fun00001 }
+ 251:
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
             entity = 9;
@@ -236,8 +236,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie.bind(option)(oscard);
             entity['children'] = oscard;
             oscard = zuuluu.bind(tangon)(michal, entity);
-            _fun00002_ip = 659; continue _fun00001;
- 327:
+            _fun00002_ip = 671; continue _fun00001;
+ 339:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot10;
             michal = {};
@@ -309,19 +309,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup[sizing];
             backup = kiloes.bind(entity)(backup);
             backup = backup.MuteSettingType;
-            if(foxtra) { _fun00002_ip = 629; continue _fun00001 }
- 621:
+            if(foxtra) { _fun00002_ip = 641; continue _fun00001 }
+ 633:
             foxtra = backup.CHANNEL;
-            _fun00002_ip = 635; continue _fun00001;
- 629:
+            _fun00002_ip = 647; continue _fun00001;
+ 641:
             foxtra = backup.DM;
- 635:
+ 647:
             option['type'] = foxtra;
             option = romeon.bind(entity)(yankee, option);
             golfie[1] = option;
             michal['children'] = golfie;
             oscard = tangon.bind(entity)(zuuluu, michal);
- 659:
+ 671:
             tangon = _closure1_slot11;
             golfie = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -362,9 +362,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  35:
             oscard = false;
  37:
-            if(zuuluu) { _fun00004_ip = 529; continue _fun00003 }
+            if(zuuluu) { _fun00004_ip = 533; continue _fun00003 }
  46:
-            if(michal) { _fun00004_ip = 414; continue _fun00003 }
+            if(michal) { _fun00004_ip = 416; continue _fun00003 }
  52:
             michal = _closure1_slot8;
             michal = michal.NO_MESSAGES;
@@ -467,7 +467,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 414:
+ 416:
             report = _closure1_slot9;
             golfie = _closure1_slot0;
             yankee = _closure1_slot2;
@@ -507,7 +507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 529:
+ 533:
             zuuluu = _closure1_slot9;
             option = _closure1_slot0;
             verify = _closure1_slot2;

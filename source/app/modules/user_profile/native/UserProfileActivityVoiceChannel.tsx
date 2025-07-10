@@ -143,19 +143,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = entity.bind(update)();
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                if(entity) { _fun00004_ip = 263; continue _fun00003 }
- 243:
+                if(entity) { _fun00004_ip = 261; continue _fun00003 }
+ 241:
                 entity = 13;
                 entity = zuuluu[entity];
                 entity = michal.bind(tangon)(entity);
                 foxtra = entity.VoiceNormalIcon;
-                _fun00004_ip = 281; continue _fun00003;
- 263:
+                _fun00004_ip = 279; continue _fun00003;
+ 261:
                 entity = 12;
                 entity = zuuluu[entity];
                 entity = michal.bind(tangon)(entity);
                 foxtra = entity.StageIcon;
- 281:
+ 279:
                 zuuluu = _closure1_slot7;
                 michal = _closure1_slot3;
                 entity = {};
@@ -165,8 +165,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option[1] = verify;
                 entity['style'] = option;
                 offset = _closure1_slot6;
-                if(report) { _fun00004_ip = 446; continue _fun00003 }
- 322:
+                if(report) { _fun00004_ip = 442; continue _fun00003 }
+ 320:
                 echoed = _closure1_slot0;
                 source = _closure1_slot2;
                 report = 16;
@@ -236,8 +236,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify = offset.bind(tangon)(romeon, verify);
                 report['children'] = verify;
                 option = offset.bind(tangon)(option, report);
-                _fun00004_ip = 596; continue _fun00003;
- 446:
+                _fun00004_ip = 592; continue _fun00003;
+ 442:
                 verify = _closure1_slot3;
                 report = {};
                 romeon = true;
@@ -272,7 +272,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = offset.bind(tangon)(backup, romeon);
                 report['children'] = romeon;
                 option = offset.bind(tangon)(verify, report);
- 596:
+ 592:
                 report = new Array(4);
                 report[0] = option;
                 offset = _closure1_slot6;
@@ -286,8 +286,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = offset.bind(tangon)(verify, option);
                 report[1] = option;
                 offset = _closure1_slot7;
-                if(golfie) { _fun00004_ip = 796; continue _fun00003 }
- 668:
+                if(golfie) { _fun00004_ip = 792; continue _fun00003 }
+ 664:
                 option = _closure1_slot3;
                 golfie = {};
                 verify = result.channelButton;
@@ -311,8 +311,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 verify[1] = romeon;
                 golfie['children'] = verify;
                 golfie = offset.bind(tangon)(option, golfie);
-                _fun00004_ip = 1035; continue _fun00003;
- 796:
+                _fun00004_ip = 1029; continue _fun00003;
+ 792:
                 backup = _closure1_slot0;
                 echoed = _closure1_slot2;
                 option = 16;
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon[1] = foxtra;
                 option['children'] = romeon;
                 golfie = offset.bind(tangon)(verify, option);
- 1035:
+ 1029:
                 report[2] = golfie;
                 option = _closure1_slot6;
                 foxtra = _closure1_slot0;
@@ -487,12 +487,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 romeon = sizing.length;
                 kiloes = 3;
                 foxtra = sizing;
-                if(!(!(romeon <= kiloes))) { _fun00004_ip = 1262; continue _fun00003 }
- 1249:
+                if(!(!(romeon <= kiloes))) { _fun00004_ip = 1252; continue _fun00003 }
+ 1239:
                 backup = sizing.slice;
                 romeon = 0;
                 foxtra = backup.bind(sizing)(romeon, kiloes);
- 1262:
+ 1252:
                 romeon = foxtra.map;
                 yankee = function(argFoo) {
                     entity = argFoo;

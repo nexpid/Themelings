@@ -186,7 +186,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = _closure2_slot1;
                     michal = null;
-                    if(!(michal == zuuluu)) { _fun00006_ip = 33; continue _fun00005 }
+                    if(!(michal == zuuluu)) { _fun00006_ip = 31; continue _fun00005 }
  13:
                     zuuluu = _closure2_slot0;
                     michal = function() { // Original name: fetchNote
@@ -201,17 +201,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     entity = undefined;
                     entity = michal.bind(entity)(zuuluu);
- 33:
+ 31:
                     entity = undefined;
                     return entity;
                 }
             };
             michal = tangon.bind(report)(michal, zuuluu);
             michal = null;
-            if(!(michal == entity)) { _fun00004_ip = 122; continue _fun00003 }
- 108:
+            if(!(michal == entity)) { _fun00004_ip = 118; continue _fun00003 }
+ 104:
             entity = {'loading': true, 'note': null};
- 122:
+ 118:
             return entity;
         }
     };

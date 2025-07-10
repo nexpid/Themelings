@@ -236,8 +236,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[0] = offset;
             offset = verify != echoed;
             verify = null;
-            if(!offset) { _fun00002_ip = 587; continue _fun00001 }
- 467:
+            if(!offset) { _fun00002_ip = 591; continue _fun00001 }
+ 471:
             backup = _closure1_slot6;
             sizing = _closure1_slot0;
             update = _closure1_slot1;
@@ -262,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = output.bind(result)(sizing, kiloes);
             offset['children'] = kiloes;
             verify = backup.bind(tangon)(romeon, offset);
- 587:
+ 591:
             option[1] = verify;
             report['children'] = option;
             golfie = zuuluu.bind(tangon)(golfie, report);

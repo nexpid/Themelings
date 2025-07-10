@@ -196,38 +196,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 10;
             tangon = ctrled[tangon];
             tangon = update.bind(report)(tangon);
-            if(!(report === oscard)) { _fun00002_ip = 405; continue _fun00001 }
- 357:
+            if(!(report === oscard)) { _fun00002_ip = 409; continue _fun00001 }
+ 361:
             ctrled = entity == source;
             update = undefined;
-            if(ctrled) { _fun00002_ip = 372; continue _fun00001 }
- 366:
+            if(ctrled) { _fun00002_ip = 376; continue _fun00001 }
+ 370:
             update = source.avatarDecoration;
- 372:
-            if(!(entity == update)) { _fun00002_ip = 384; continue _fun00001 }
  376:
+            if(!(entity == update)) { _fun00002_ip = 388; continue _fun00001 }
+ 380:
             echoed = echoed.avatarDecoration;
-            _fun00002_ip = 402; continue _fun00001;
- 384:
+            _fun00002_ip = 406; continue _fun00001;
+ 388:
             ctrled = entity == source;
             update = undefined;
-            if(ctrled) { _fun00002_ip = 399; continue _fun00001 }
- 393:
+            if(ctrled) { _fun00002_ip = 403; continue _fun00001 }
+ 397:
             update = source.avatarDecoration;
- 399:
+ 403:
             echoed = update;
- 402:
+ 406:
             oscard = echoed;
- 405:
+ 409:
             oscard = tangon.bind(report)(oscard);
             tangon = {};
             tangon['isMobileOnline'] = result;
             tangon['size'] = kiloes;
             kiloes = null;
-            if(output) { _fun00002_ip = 429; continue _fun00001 }
- 426:
+            if(output) { _fun00002_ip = 433; continue _fun00001 }
+ 430:
             kiloes = sizing;
- 429:
+ 433:
             tangon['status'] = kiloes;
             kiloes = romeon.avatarStatusStyle;
             romeon = new Array(2);
@@ -241,10 +241,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = backup.bind(report)(romeon);
             romeon = romeon.bind(report)(foxtra);
             tangon['streaming'] = romeon;
-            if(!offset) { _fun00002_ip = 492; continue _fun00001 }
- 489:
+            if(!offset) { _fun00002_ip = 496; continue _fun00001 }
+ 493:
             offset = !yankee;
- 492:
+ 496:
             tangon['animate'] = offset;
             tangon['avatarDecoration'] = oscard;
             _closure2_slot5 = tangon;
@@ -297,11 +297,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            if(!(entity == option)) { _fun00002_ip = 522; continue _fun00001 }
- 515:
+            if(!(entity == option)) { _fun00002_ip = 526; continue _fun00001 }
+ 519:
             entity = oscard.bind(report)(verify);
-            _fun00002_ip = 604; continue _fun00001;
- 522:
+            _fun00002_ip = 608; continue _fun00001;
+ 526:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot0;
             offset = _closure1_slot2;
@@ -322,7 +322,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = 'children';
             michal[oscard] = golfie;
             entity = tangon.bind(report)(zuuluu, michal);
- 604:
+ 608:
             return entity;
         }
     };

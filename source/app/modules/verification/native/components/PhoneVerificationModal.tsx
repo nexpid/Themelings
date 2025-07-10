@@ -179,8 +179,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = _closure2_slot0;
                 golfie = golfie.allowDeletePhone;
                 oscard = null;
-                if(!golfie) { _fun00002_ip = 141; continue _fun00001 }
- 134:
+                if(!golfie) { _fun00002_ip = 137; continue _fun00001 }
+ 132:
                 oscard = function() {
                     tangon = _closure3_slot1;
                     zuuluu = tangon.push;
@@ -234,7 +234,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
- 141:
+ 137:
                 report = 'onDeletePhone';
                 entity[report] = oscard;
                 entity = tangon.bind(zuuluu)(michal, entity);

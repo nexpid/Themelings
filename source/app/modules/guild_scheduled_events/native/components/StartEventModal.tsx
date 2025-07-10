@@ -325,10 +325,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.useManageResourcePermissions;
             backup = null;
-            if(!(backup != report)) { _fun00002_ip = 188; continue _fun00001 }
- 185:
+            if(!(backup != report)) { _fun00002_ip = 192; continue _fun00001 }
+ 189:
             entity = report;
- 188:
+ 192:
             entity = michal.bind(zuuluu)(entity);
             entity = entity.canManageGuildEvent;
             entity = entity.bind(tangon)(kiloes);
@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                             StartGenerator();
                             ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                            if(michal) { _fun00006_ip = 85; continue _fun00005 }
+                            if(michal) { _fun00006_ip = 87; continue _fun00005 }
  7:
                             zuuluu = _closure2_slot3;
                             if(zuuluu) { _fun00006_ip = 32; continue _fun00005 }
@@ -407,7 +407,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             tangon = undefined;
                             zuuluu = false;
                             zuuluu = report.bind(tangon)(zuuluu);
-                            _fun00006_ip = 77; continue _fun00005;
+                            _fun00006_ip = 79; continue _fun00005;
  32:
                             oscard = _closure2_slot6;
                             report = _closure2_slot0;
@@ -423,18 +423,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             zuuluu['onSuccess'] = michal;
                             michal = undefined;
                             michal = oscard.bind(michal)(report, tangon, zuuluu);
-                            SaveGenerator(address=71);
- 69:
-                            return michal;
+                            SaveGenerator(address=73);
  71:
+                            return michal;
+ 73:
                             ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                            if(zuuluu) { _fun00006_ip = 82; continue _fun00005 }
- 77:
+                            if(zuuluu) { _fun00006_ip = 84; continue _fun00005 }
+ 79:
                             zuuluu = undefined;
                             return zuuluu;
- 82:
+ 84:
                             return michal;
- 85:
+ 87:
                             return entity;
                         }
                     };
@@ -490,8 +490,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = foxtra.bind(tangon)(romeon, offset);
             verify[1] = offset;
             offset = null;
-            if(!yankee) { _fun00002_ip = 583; continue _fun00001 }
- 500:
+            if(!yankee) { _fun00002_ip = 593; continue _fun00001 }
+ 508:
             foxtra = _closure1_slot11;
             romeon = _closure1_slot6;
             yankee = {};
@@ -521,7 +521,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = ctrled.bind(tangon)(sizing, kiloes);
             yankee['children'] = kiloes;
             offset = foxtra.bind(tangon)(romeon, yankee);
- 583:
+ 593:
             verify[2] = offset;
             romeon = _closure1_slot12;
             yankee = _closure1_slot6;
@@ -530,8 +530,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['style'] = foxtra;
             foxtra = backup != source;
             backup = null;
-            if(!foxtra) { _fun00002_ip = 677; continue _fun00001 }
- 616:
+            if(!foxtra) { _fun00002_ip = 687; continue _fun00001 }
+ 626:
             sizing = _closure1_slot11;
             kiloes = _closure1_slot0;
             ctrled = _closure1_slot2;
@@ -546,7 +546,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = update.bind(source)();
             foxtra['children'] = update;
             backup = sizing.bind(tangon)(kiloes, foxtra);
- 677:
+ 687:
             foxtra = new Array(2);
             foxtra[0] = backup;
             sizing = _closure1_slot11;

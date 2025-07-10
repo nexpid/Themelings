@@ -291,18 +291,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: isGuildNSFW
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-            zuuluu = argFoo;
-            tangon = zuuluu.nsfwLevel;
-            entity = _closure1_slot5;
-            entity = entity.EXPLICIT;
-            entity = tangon === entity;
-            if(entity) { _fun00012_ip = 49; continue _fun00011 }
- 29:
-            zuuluu = zuuluu.nsfwLevel;
+            tangon = argFoo;
+            entity = null;
+            entity = entity != tangon;
+            if(!entity) { _fun00012_ip = 61; continue _fun00011 }
+ 12:
+            report = tangon.ownerConfiguredContentLevel;
             michal = _closure1_slot5;
-            michal = michal.AGE_RESTRICTED;
-            entity = zuuluu === michal;
- 49:
+            michal = michal.EXPLICIT;
+            michal = report === michal;
+            if(michal) { _fun00012_ip = 58; continue _fun00011 }
+ 38:
+            tangon = tangon.ownerConfiguredContentLevel;
+            zuuluu = _closure1_slot5;
+            zuuluu = zuuluu.AGE_RESTRICTED;
+            michal = tangon === zuuluu;
+ 58:
+            entity = michal;
+ 61:
             return entity;
         }
     };

@@ -112,7 +112,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             report = golfie.length;
             tangon = 0;
             entity = null;
-            if(!(tangon !== report)) { _fun00002_ip = 304; continue _fun00001 }
+            if(!(tangon !== report)) { _fun00002_ip = 302; continue _fun00001 }
  261:
             report = _closure1_slot4;
             tangon = _closure1_slot2;
@@ -134,7 +134,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
             zuuluu['children'] = michal;
             michal = undefined;
             entity = report.bind(michal)(tangon, zuuluu);
- 304:
+ 302:
             return entity;
         }
     };

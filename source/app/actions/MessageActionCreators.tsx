@@ -1539,8 +1539,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             record = ' and ';
             sequen = '. jump=';
             target = foxtra;
-            cntext = yankee;
-            config = offset;
+            cntext = offset;
+            config = yankee;
             tangon = status[source](target, papara, cntext, record, config, sequen, vacuum, ctrled);
             tangon = kiloes.bind(sizing)(tangon);
             sizing = _closure1_slot52;

@@ -61,13 +61,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['scope'] = verify;
     verify = function(argFoo) { // Original name: validation
         verify = argFoo;
-        kiloes = _closure1_slot1;
-        sizing = _closure1_slot2;
+        sizing = _closure1_slot1;
+        backup = _closure1_slot2;
         option = 3;
-        entity = sizing[option];
-        backup = undefined;
-        entity = kiloes.bind(backup)(entity);
-        michal = entity.bind(backup)(verify);
+        entity = backup[option];
+        foxtra = undefined;
+        entity = sizing.bind(foxtra)(entity);
+        michal = entity.bind(foxtra)(verify);
         entity = michal.required;
         zuuluu = entity.bind(michal)();
         michal = zuuluu.keys;
@@ -78,9 +78,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         vacuum = 0;
         tangon = tangon.bind(report)(vacuum);
         entity['pid'] = tangon;
-        tangon = sizing[option];
-        tangon = kiloes.bind(backup)(tangon);
-        oscard = tangon.bind(backup)(verify);
+        tangon = backup[option];
+        tangon = sizing.bind(foxtra)(tangon);
+        oscard = tangon.bind(foxtra)(verify);
         report = oscard.keys;
         tangon = {};
         offset = verify.string;
@@ -94,20 +94,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon['state'] = offset;
         offset = verify.string;
         yankee = offset.bind(verify)();
-        offset = yankee.min;
-        yankee = offset.bind(yankee)(romeon);
-        offset = yankee.max;
-        offset = offset.bind(yankee)(update);
-        tangon['details'] = offset;
-        offset = sizing[option];
-        offset = kiloes.bind(backup)(offset);
-        output = offset.bind(backup)(verify);
-        foxtra = output.keys;
-        offset = {};
-        yankee = verify.number;
-        echoed = yankee.bind(verify)();
-        result = echoed.min;
+        offset = yankee.uri;
+        kiloes = offset.bind(yankee)();
+        offset = kiloes.min;
         yankee = 1;
+        kiloes = offset.bind(kiloes)(yankee);
+        offset = kiloes.max;
+        source = 256;
+        offset = offset.bind(kiloes)(source);
+        tangon['state_url'] = offset;
+        offset = verify.string;
+        kiloes = offset.bind(verify)();
+        offset = kiloes.min;
+        kiloes = offset.bind(kiloes)(romeon);
+        offset = kiloes.max;
+        offset = offset.bind(kiloes)(update);
+        tangon['details'] = offset;
+        offset = verify.string;
+        kiloes = offset.bind(verify)();
+        offset = kiloes.uri;
+        kiloes = offset.bind(kiloes)();
+        offset = kiloes.min;
+        kiloes = offset.bind(kiloes)(yankee);
+        offset = kiloes.max;
+        offset = offset.bind(kiloes)(source);
+        tangon['details_url'] = offset;
+        offset = backup[option];
+        offset = sizing.bind(foxtra)(offset);
+        output = offset.bind(foxtra)(verify);
+        kiloes = output.keys;
+        offset = {};
+        result = verify.number;
+        echoed = result.bind(verify)();
+        result = echoed.min;
         result = result.bind(echoed)(yankee);
         offset['start'] = result;
         result = verify.number;
@@ -115,20 +134,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         result = echoed.min;
         result = result.bind(echoed)(yankee);
         offset['end'] = result;
-        offset = foxtra.bind(output)(offset);
+        offset = kiloes.bind(output)(offset);
         tangon['timestamps'] = offset;
-        offset = sizing[option];
-        offset = kiloes.bind(backup)(offset);
-        output = offset.bind(backup)(verify);
-        foxtra = output.keys;
+        offset = backup[option];
+        offset = sizing.bind(foxtra)(offset);
+        output = offset.bind(foxtra)(verify);
+        kiloes = output.keys;
         offset = {};
         result = verify.string;
         echoed = result.bind(verify)();
         result = echoed.min;
         echoed = result.bind(echoed)(yankee);
         result = echoed.max;
-        source = 256;
-        result = result.bind(echoed)(source);
+        ctrled = 300;
+        result = result.bind(echoed)(ctrled);
         offset['large_image'] = result;
         result = verify.string;
         echoed = result.bind(verify)();
@@ -139,10 +158,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset['large_text'] = result;
         result = verify.string;
         echoed = result.bind(verify)();
+        result = echoed.uri;
+        echoed = result.bind(echoed)();
         result = echoed.min;
         echoed = result.bind(echoed)(yankee);
         result = echoed.max;
         result = result.bind(echoed)(source);
+        offset['large_url'] = result;
+        result = verify.string;
+        echoed = result.bind(verify)();
+        result = echoed.min;
+        echoed = result.bind(echoed)(yankee);
+        result = echoed.max;
+        result = result.bind(echoed)(ctrled);
         offset['small_image'] = result;
         result = verify.string;
         echoed = result.bind(verify)();
@@ -151,12 +179,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         result = echoed.max;
         result = result.bind(echoed)(update);
         offset['small_text'] = result;
-        offset = foxtra.bind(output)(offset);
+        result = verify.string;
+        echoed = result.bind(verify)();
+        result = echoed.uri;
+        echoed = result.bind(echoed)();
+        result = echoed.min;
+        echoed = result.bind(echoed)(yankee);
+        result = echoed.max;
+        result = result.bind(echoed)(source);
+        offset['small_url'] = result;
+        offset = kiloes.bind(output)(offset);
         tangon['assets'] = offset;
-        offset = sizing[option];
-        offset = kiloes.bind(backup)(offset);
-        output = offset.bind(backup)(verify);
-        foxtra = output.keys;
+        offset = backup[option];
+        offset = sizing.bind(foxtra)(offset);
+        output = offset.bind(foxtra)(verify);
+        kiloes = output.keys;
         offset = {};
         result = verify.string;
         echoed = result.bind(verify)();
@@ -190,12 +227,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         result[1] = ctrled;
         result = echoed.bind(source)(result);
         offset['privacy'] = result;
-        offset = foxtra.bind(output)(offset);
+        offset = kiloes.bind(output)(offset);
         tangon['party'] = offset;
-        offset = sizing[option];
-        offset = kiloes.bind(backup)(offset);
-        output = offset.bind(backup)(verify);
-        foxtra = output.keys;
+        offset = backup[option];
+        offset = sizing.bind(foxtra)(offset);
+        output = offset.bind(foxtra)(verify);
+        kiloes = output.keys;
         offset = {};
         result = verify.string;
         echoed = result.bind(verify)();
@@ -218,40 +255,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         result = echoed.max;
         result = result.bind(echoed)(update);
         offset['spectate'] = result;
-        offset = foxtra.bind(output)(offset);
+        offset = kiloes.bind(output)(offset);
         tangon['secrets'] = offset;
         offset = verify.array;
-        foxtra = offset.bind(verify)();
-        offset = foxtra.items;
-        option = sizing[option];
-        option = kiloes.bind(backup)(option);
-        sizing = option.bind(backup)(verify);
-        kiloes = sizing.keys;
+        kiloes = offset.bind(verify)();
+        offset = kiloes.items;
+        option = backup[option];
+        option = sizing.bind(foxtra)(option);
+        result = option.bind(foxtra)(verify);
+        output = result.keys;
         option = {};
-        backup = verify.string;
-        output = backup.bind(verify)();
-        backup = output.min;
-        result = backup.bind(output)(yankee);
-        output = result.max;
-        backup = 32;
-        result = output.bind(result)(backup);
-        output = result.required;
-        output = output.bind(result)();
-        option['label'] = output;
-        output = verify.string;
-        result = output.bind(verify)();
-        output = result.uri;
-        result = output.bind(result)();
-        output = result.min;
-        echoed = output.bind(result)(yankee);
-        result = echoed.max;
-        output = 512;
-        result = result.bind(echoed)(output);
-        output = result.required;
-        output = output.bind(result)();
-        option['url'] = output;
-        option = kiloes.bind(sizing)(option);
-        offset = offset.bind(foxtra)(option);
+        sizing = verify.string;
+        echoed = sizing.bind(verify)();
+        sizing = echoed.min;
+        update = sizing.bind(echoed)(yankee);
+        echoed = update.max;
+        sizing = 32;
+        update = echoed.bind(update)(sizing);
+        echoed = update.required;
+        echoed = echoed.bind(update)();
+        option['label'] = echoed;
+        echoed = verify.string;
+        update = echoed.bind(verify)();
+        echoed = update.uri;
+        update = echoed.bind(update)();
+        echoed = update.min;
+        source = echoed.bind(update)(yankee);
+        update = source.max;
+        echoed = 512;
+        update = update.bind(source)(echoed);
+        echoed = update.required;
+        echoed = echoed.bind(update)();
+        option['url'] = echoed;
+        option = output.bind(result)(option);
+        offset = offset.bind(kiloes)(option);
         option = offset.min;
         offset = option.bind(offset)(yankee);
         option = offset.max;
@@ -264,11 +301,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         romeon = option.bind(verify)();
         offset = romeon.items;
         option = verify.string;
-        foxtra = option.bind(verify)();
-        option = foxtra.min;
-        foxtra = option.bind(foxtra)(yankee);
-        option = foxtra.max;
-        option = option.bind(foxtra)(backup);
+        kiloes = option.bind(verify)();
+        option = kiloes.min;
+        kiloes = option.bind(kiloes)(yankee);
+        option = kiloes.max;
+        option = option.bind(kiloes)(sizing);
         offset = offset.bind(romeon)(option);
         option = offset.min;
         yankee = option.bind(offset)(yankee);
@@ -277,19 +314,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         option = offset.bind(yankee)(option);
         tangon['supported_platforms'] = option;
         option = verify.number;
-        offset = option.bind(verify)();
-        verify = offset.default;
-        golfie = _closure1_slot6;
-        option = golfie.PLAYING;
-        romeon = verify.bind(offset)(option);
-        yankee = romeon.valid;
-        cntext = golfie.PLAYING;
-        record = golfie.LISTENING;
-        config = golfie.WATCHING;
-        sequen = golfie.COMPETING;
-        papara = romeon;
-        golfie = papara[yankee](cntext, record, config, sequen, vacuum);
-        tangon['type'] = golfie;
+        romeon = option.bind(verify)();
+        yankee = romeon.default;
+        option = _closure1_slot6;
+        offset = option.PLAYING;
+        sizing = yankee.bind(romeon)(offset);
+        kiloes = sizing.valid;
+        cntext = option.PLAYING;
+        record = option.LISTENING;
+        config = option.WATCHING;
+        sequen = option.COMPETING;
+        papara = sizing;
+        option = papara[kiloes](cntext, record, config, sequen, vacuum);
+        tangon['type'] = option;
+        option = verify.number;
+        verify = option.bind(verify)();
+        option = verify.optional;
+        yankee = option.bind(verify)();
+        offset = yankee.valid;
+        romeon = _closure1_slot0;
+        golfie = 4;
+        option = backup[golfie];
+        option = romeon.bind(foxtra)(option);
+        option = option.StatusDisplayTypes;
+        verify = option.NAME;
+        option = backup[golfie];
+        option = romeon.bind(foxtra)(option);
+        option = option.StatusDisplayTypes;
+        option = option.STATE;
+        golfie = backup[golfie];
+        golfie = romeon.bind(foxtra)(golfie);
+        golfie = golfie.StatusDisplayTypes;
+        golfie = golfie.DETAILS;
+        golfie = offset.bind(yankee)(verify, option, golfie);
+        tangon['status_display_type'] = golfie;
         oscard = report.bind(oscard)(tangon);
         report = oscard.allow;
         tangon = null;
@@ -329,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  117:
             oscard = _closure1_slot1;
             verify = _closure1_slot2;
-            zuuluu = 4;
+            zuuluu = 5;
             zuuluu = verify[zuuluu];
             offset = oscard.bind(tangon)(zuuluu);
             verify = {};
@@ -383,7 +441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['platform'] = verify;
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
-            verify = 6;
+            verify = 7;
             verify = romeon[verify];
             offset = offset.bind(tangon)(verify);
             verify = offset.computeActivityFlags;
@@ -416,7 +474,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  463:
             foxtra = _closure1_slot1;
             verify = _closure1_slot2;
-            sizing = 7;
+            sizing = 8;
             verify = verify[sizing];
             foxtra = foxtra.bind(tangon)(verify);
             verify = foxtra.values;
@@ -452,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  595:
             foxtra = _closure1_slot1;
             output = _closure1_slot2;
-            offset = 4;
+            offset = 5;
             offset = output[offset];
             result = foxtra.bind(tangon)(offset);
             output = {};
@@ -508,7 +566,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = zuuluu.bind(verify)(backup);
             zuuluu = romeon.length;
             zuuluu = kiloes < zuuluu;
-            offset = 8;
+            offset = 9;
             verify = 2;
             kiloes = 0;
             if(!zuuluu) { _fun00002_ip = 948; continue _fun00001 }
@@ -555,7 +613,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  978:
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
-            zuuluu = 9;
+            zuuluu = 10;
             zuuluu = verify[zuuluu];
             offset = oscard.bind(tangon)(zuuluu);
             verify = offset.fetchAssetIds;
@@ -647,7 +705,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  139:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 6;
                     zuuluu = report[zuuluu];
                     report = tangon.bind(oscard)(zuuluu);
                     tangon = report.dispatch;
@@ -672,25 +730,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['type'] = verify;
                     verify = option.name;
                     report['name'] = verify;
+                    verify = option.status_display_type;
+                    report['status_display_type'] = verify;
                     offset = option.details;
                     yankee = golfie != offset;
                     option = '';
                     verify = option;
-                    if(!yankee) { _fun00004_ip = 284; continue _fun00003 }
- 281:
+                    if(!yankee) { _fun00004_ip = 295; continue _fun00003 }
+ 292:
                     verify = offset;
- 284:
+ 295:
                     report['details'] = verify;
                     verify = _closure2_slot2;
                     verify = verify.state;
                     offset = golfie != verify;
-                    if(!offset) { _fun00004_ip = 308; continue _fun00003 }
- 305:
-                    option = verify;
- 308:
-                    report['state'] = option;
-                    if(!(golfie != tangon)) { _fun00004_ip = 355; continue _fun00003 }
+                    if(!offset) { _fun00004_ip = 319; continue _fun00003 }
  316:
+                    option = verify;
+ 319:
+                    report['state'] = option;
+                    option = _closure2_slot2;
+                    option = option.state_url;
+                    option = golfie != option;
+                    if(option) { _fun00004_ip = 354; continue _fun00003 }
+ 340:
+                    verify = _closure2_slot2;
+                    verify = verify.details_url;
+                    option = golfie != verify;
+ 354:
+                    if(option) { _fun00004_ip = 386; continue _fun00003 }
+ 357:
+                    verify = _closure2_slot2;
+                    offset = verify.assets;
+                    yankee = golfie == offset;
+                    verify = undefined;
+                    if(yankee) { _fun00004_ip = 382; continue _fun00003 }
+ 376:
+                    verify = offset.large_url;
+ 382:
+                    option = golfie != verify;
+ 386:
+                    if(option) { _fun00004_ip = 418; continue _fun00003 }
+ 389:
+                    verify = _closure2_slot2;
+                    offset = verify.assets;
+                    yankee = golfie == offset;
+                    verify = undefined;
+                    if(yankee) { _fun00004_ip = 414; continue _fun00003 }
+ 408:
+                    verify = offset.small_url;
+ 414:
+                    option = golfie != verify;
+ 418:
+                    report['has_urls'] = option;
+                    if(!(golfie != tangon)) { _fun00004_ip = 468; continue _fun00003 }
+ 429:
                     option = tangon.match;
                     option = !option;
                     option = !option;
@@ -699,47 +793,47 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = !tangon;
                     tangon = !tangon;
                     report['has_join_secret'] = tangon;
- 355:
+ 468:
                     tangon = _closure2_slot4;
-                    if(!(golfie != tangon)) { _fun00004_ip = 401; continue _fun00003 }
- 363:
+                    if(!(golfie != tangon)) { _fun00004_ip = 514; continue _fun00003 }
+ 476:
                     tangon = _closure2_slot4;
                     tangon = tangon.large_image;
                     tangon = !tangon;
-                    if(!tangon) { _fun00004_ip = 392; continue _fun00003 }
- 379:
+                    if(!tangon) { _fun00004_ip = 505; continue _fun00003 }
+ 492:
                     option = _closure2_slot4;
                     option = option.small_image;
                     tangon = !option;
- 392:
+ 505:
                     tangon = !tangon;
                     report['has_images'] = tangon;
- 401:
-                    if(!(golfie != zuuluu)) { _fun00004_ip = 470; continue _fun00003 }
- 405:
+ 514:
+                    if(!(golfie != zuuluu)) { _fun00004_ip = 583; continue _fun00003 }
+ 518:
                     tangon = zuuluu.size;
                     golfie = golfie != tangon;
                     tangon = undefined;
-                    if(!golfie) { _fun00004_ip = 451; continue _fun00003 }
- 419:
+                    if(!golfie) { _fun00004_ip = 564; continue _fun00003 }
+ 532:
                     golfie = zuuluu.size;
                     option = 1;
                     verify = golfie[option];
                     golfie = 0;
                     golfie = verify > golfie;
                     tangon = undefined;
-                    if(!golfie) { _fun00004_ip = 451; continue _fun00003 }
- 442:
+                    if(!golfie) { _fun00004_ip = 564; continue _fun00003 }
+ 555:
                     golfie = zuuluu.size;
                     tangon = golfie[option];
- 451:
+ 564:
                     report['party_max'] = tangon;
                     zuuluu = zuuluu.id;
                     report['party_id'] = zuuluu;
- 470:
+ 583:
                     tangon = _closure1_slot1;
                     golfie = _closure1_slot2;
-                    zuuluu = 10;
+                    zuuluu = 11;
                     zuuluu = golfie[zuuluu];
                     tangon = tangon.bind(oscard)(zuuluu);
                     zuuluu = tangon.track;
@@ -755,7 +849,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1118:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 4;
+            michal = 5;
             michal = oscard[michal];
             verify = zuuluu.bind(tangon)(michal);
             oscard = {};
@@ -773,7 +867,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1186:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 4;
+            michal = 5;
             michal = oscard[michal];
             verify = zuuluu.bind(tangon)(michal);
             oscard = {};
@@ -791,7 +885,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1254:
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
-            michal = 5;
+            michal = 6;
             michal = oscard[michal];
             oscard = zuuluu.bind(tangon)(michal);
             zuuluu = oscard.dispatch;
@@ -811,7 +905,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  1335:
             zuuluu = _closure1_slot1;
             report = _closure1_slot2;
-            michal = 4;
+            michal = 5;
             michal = report[michal];
             tangon = zuuluu.bind(tangon)(michal);
             zuuluu = {};
@@ -830,7 +924,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     tangon['handler'] = option;
     michal[golfie] = tangon;
-    tangon = 11;
+    tangon = 12;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

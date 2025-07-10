@@ -33,7 +33,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  81:
             var _closure2_slot0 = report;
             michal = null;
-            if(!(michal != report)) { _fun00002_ip = 113; continue _fun00001 }
+            if(!(michal != report)) { _fun00002_ip = 109; continue _fun00001 }
  91:
             michal = function(argFoo, argBar) { // Original name: fetchJoinSecret
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -130,14 +130,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(tangon, entity);
-            _fun00002_ip = 134; continue _fun00001;
- 113:
+            _fun00002_ip = 130; continue _fun00001;
+ 109:
             michal = global;
             tangon = michal.Promise;
             zuuluu = tangon.resolve;
             michal = false;
             entity = zuuluu.bind(tangon)(michal);
- 134:
+ 130:
             return entity;
         }
     };

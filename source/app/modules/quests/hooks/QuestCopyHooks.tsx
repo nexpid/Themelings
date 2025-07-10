@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  48:
             michal = zuuluu.@@iterator;
  54:
-            if(michal) { _fun00002_ip = 342; continue _fun00001 }
+            if(michal) { _fun00002_ip = 344; continue _fun00001 }
  60:
             oscard = report.Array;
             tangon = oscard.isArray;
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             return entity;
- 342:
+ 344:
             entity = michal.call;
             zuuluu = entity.bind(michal)(zuuluu);
             michal = zuuluu.next;
@@ -1123,10 +1123,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = null;
             option = oscard != report;
             oscard = undefined;
-            if(!option) { _fun00018_ip = 197; continue _fun00017 }
- 194:
+            if(!option) { _fun00018_ip = 199; continue _fun00017 }
+ 196:
             oscard = report;
- 197:
+ 199:
             report = 'thirdPartyTaskDetails';
             entity[report] = oscard;
             report = _closure1_slot0;
@@ -1269,8 +1269,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             michal = report.bind(oscard)(entity, michal);
             entity = null;
-            if(!tangon) { _fun00022_ip = 153; continue _fun00021 }
- 73:
+            if(!tangon) { _fun00022_ip = 157; continue _fun00021 }
+ 77:
             golfie = _closure1_slot0;
             option = _closure1_slot1;
             zuuluu = 5;
@@ -1282,17 +1282,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[zuuluu];
             zuuluu = golfie.bind(oscard)(zuuluu);
             zuuluu = zuuluu.t;
-            if(michal) { _fun00022_ip = 137; continue _fun00021 }
- 122:
+            if(michal) { _fun00022_ip = 141; continue _fun00021 }
+ 126:
             michal = zuuluu.GYGb3N;
             michal = tangon.bind(report)(michal);
-            _fun00022_ip = 150; continue _fun00021;
- 137:
+            _fun00022_ip = 154; continue _fun00021;
+ 141:
             zuuluu = zuuluu.hh7Rb2;
             michal = tangon.bind(report)(zuuluu);
- 150:
+ 154:
             entity = michal;
- 153:
+ 157:
             return entity;
         }
     };

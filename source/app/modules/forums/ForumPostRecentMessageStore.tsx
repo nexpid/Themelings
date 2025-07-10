@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -174,8 +174,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             michal = zuuluu.bind(report)(michal);
             michal = null;
-            if(!(michal != tangon)) { _fun00010_ip = 94; continue _fun00009 }
- 38:
+            if(!(michal != tangon)) { _fun00010_ip = 98; continue _fun00009 }
+ 40:
             zuuluu = tangon.filter;
             oscard = _closure1_slot0;
             report = _closure1_slot2;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = michal.bind(zuuluu)(entity);
- 94:
+ 98:
             entity = undefined;
             return entity;
         }
@@ -309,12 +309,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = argFoo;
                 zuuluu = _closure1_slot10;
                 zuuluu = michal in zuuluu;
-                if(zuuluu) { _fun00014_ip = 35; continue _fun00013 }
+                if(zuuluu) { _fun00014_ip = 39; continue _fun00013 }
  17:
                 tangon = _closure1_slot10;
                 zuuluu = {'loaded': false, 'message': null};
                 tangon[michal] = zuuluu;
- 35:
+ 39:
                 entity = _closure1_slot10;
                 entity = entity[michal];
                 return entity;

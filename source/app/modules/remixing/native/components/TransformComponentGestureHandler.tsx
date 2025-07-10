@@ -1065,7 +1065,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             entity = _closure3_slot12;
                             zuuluu = entity.current;
                             entity = null;
-                            if(!(entity != zuuluu)) { _fun00016_ip = 38; continue _fun00015 }
+                            if(!(entity != zuuluu)) { _fun00016_ip = 36; continue _fun00015 }
  18:
                             michal = zuuluu.measureInWindow;
                             entity = function(argFoo, argBar) {
@@ -1081,7 +1081,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 return entity;
                             };
                             entity = michal.bind(zuuluu)(entity);
- 38:
+ 36:
                             entity = undefined;
                             return entity;
                         }
@@ -1282,10 +1282,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     };
                     kiloes = echoed.bind(update)(kiloes, result);
                     var _closure3_slot35 = kiloes;
-                    if(!option) { _fun00012_ip = 1372; continue _fun00011 }
- 1369:
+                    if(!option) { _fun00012_ip = 1350; continue _fun00011 }
+ 1347:
                     sizing = golfie;
- 1372:
+ 1350:
                     _closure3_slot36 = sizing;
                     tangon = _closure1_slot5;
                     option = tangon.useMemo;

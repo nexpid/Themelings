@@ -666,6 +666,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['getUser'] = tangon;
+    tangon = function(argFoo) { // Original name: insertStaticUser
+        entity = argFoo;
+        report = _closure1_slot1;
+        tangon = _closure1_slot2;
+        zuuluu = 6;
+        tangon = tangon[zuuluu];
+        zuuluu = undefined;
+        report = report.bind(zuuluu)(tangon);
+        tangon = report.dispatch;
+        zuuluu = {};
+        oscard = 'USER_UPDATE';
+        zuuluu['type'] = oscard;
+        zuuluu['user'] = entity;
+        zuuluu = tangon.bind(report)(zuuluu);
+        zuuluu = _closure1_slot5;
+        michal = zuuluu.getUser;
+        entity = entity.id;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    zuuluu['insertStaticUser'] = tangon;
     tangon = function() { // Original name: fetchProfile
         entity = undefined;
         tangon = _closure1_slot8;

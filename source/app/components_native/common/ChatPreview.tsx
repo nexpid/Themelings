@@ -1259,7 +1259,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = {};
     tangon['withSafeArea'] = option;
     golfie['defaultProps'] = tangon;
-    tangon = 47;
+    tangon = 48;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -1350,24 +1350,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
                 entity = _closure2_slot1;
-                tangon = null;
-                zuuluu = tangon != entity;
+                report = null;
+                zuuluu = report != entity;
                 entity = null;
-                if(!zuuluu) { _fun00038_ip = 69; continue _fun00037 }
+                if(!zuuluu) { _fun00038_ip = 92; continue _fun00037 }
  18:
-                report = _closure2_slot1;
-                zuuluu = report.isNSFW;
-                zuuluu = zuuluu.bind(report)();
+                golfie = _closure1_slot0;
+                oscard = _closure1_slot3;
+                tangon = 46;
+                oscard = oscard[tangon];
+                tangon = undefined;
+                golfie = golfie.bind(tangon)(oscard);
+                oscard = golfie.isChannelNSFW;
+                tangon = _closure2_slot1;
+                tangon = oscard.bind(golfie)(tangon);
                 entity = null;
-                if(!zuuluu) { _fun00038_ip = 69; continue _fun00037 }
- 37:
+                if(!tangon) { _fun00038_ip = 92; continue _fun00037 }
+ 63:
                 tangon = _closure1_slot14;
                 zuuluu = tangon.didAgree;
                 report = _closure2_slot1;
                 michal = report.getGuildId;
                 michal = michal.bind(report)();
                 entity = zuuluu.bind(tangon)(michal);
- 69:
+ 92:
                 return entity;
             }
         };
@@ -1387,7 +1393,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         };
         golfie = output.bind(result)(golfie, michal);
-        michal = 46;
+        michal = 47;
         michal = oscard[michal];
         zuuluu = zuuluu.bind(tangon)(michal);
         michal = zuuluu.useShouldFilterKeywords;

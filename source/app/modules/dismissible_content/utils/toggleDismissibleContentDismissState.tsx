@@ -37,7 +37,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     oscard['value'] = entity;
     entity = '__esModule';
     entity = golfie.bind(option)(zuuluu, entity, oscard);
-    entity = 7;
+    entity = 8;
     tangon = tangon[entity];
     entity = undefined;
     oscard = report.bind(entity)(tangon);
@@ -50,7 +50,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argFoo;
             golfie = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            oscard = 6;
+            oscard = 7;
             report = zuuluu[oscard];
             zuuluu = undefined;
             golfie = golfie.bind(zuuluu)(report);
@@ -79,7 +79,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure3_slot0 = report;
                 tangon = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 5;
+                entity = 6;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 tangon = tangon.bind(entity)(zuuluu);
@@ -180,13 +180,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 var _closure3_slot0 = report;
                 tangon = _closure1_slot0;
                 option = _closure1_slot2;
-                zuuluu = 2;
+                zuuluu = 4;
                 zuuluu = option[zuuluu];
                 golfie = undefined;
                 tangon = tangon.bind(golfie)(zuuluu);
-                zuuluu = tangon.isSnowflakeBoundDismissibleContentDismissed;
+                zuuluu = tangon.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
                 oscard = _closure1_slot1;
-                entity = 4;
+                entity = 5;
                 entity = option[entity];
                 golfie = oscard.bind(golfie)(entity);
                 oscard = golfie.fromTimestamp;
@@ -218,7 +218,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         golfie = option.addSnowflakeBoundDismissedContent;
                         oscard = _closure3_slot0;
                         offset = _closure1_slot1;
-                        verify = 4;
+                        verify = 5;
                         verify = report[verify];
                         offset = offset.bind(entity)(verify);
                         verify = offset.fromTimestamp;

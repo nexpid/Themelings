@@ -194,7 +194,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = '../discord_common/js/shared/utils/SetUtils.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: setIsEqual
+    tangon = function(argFoo, argBar) { // Original name: areSetsEqual
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = argFoo;
@@ -235,7 +235,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['setIsEqual'] = tangon;
+    zuuluu['areSetsEqual'] = tangon;
     michal = function(argFoo) { // Original name: toSetInplace
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:

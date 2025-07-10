@@ -277,7 +277,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot3;
                     entity = null;
                     zuuluu = entity == zuuluu;
-                    if(zuuluu) { _fun00006_ip = 60; continue _fun00005 }
+                    if(zuuluu) { _fun00006_ip = 62; continue _fun00005 }
  16:
                     tangon = _closure1_slot6;
                     zuuluu = tangon.getEmbeddedActivitiesForChannel;
@@ -304,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         }
                     };
                     entity = zuuluu.bind(tangon)(michal);
- 60:
+ 62:
                     return entity;
                 }
             };
@@ -328,10 +328,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             yankee = entity == offset;
             verify = undefined;
-            if(yankee) { _fun00002_ip = 376; continue _fun00001 }
- 371:
+            if(yankee) { _fun00002_ip = 384; continue _fun00001 }
+ 379:
             verify = offset.id;
- 376:
+ 384:
             tangon['userId'] = verify;
             tangon['channelId'] = option;
             tangon['application'] = update;
@@ -350,21 +350,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = tangon.bind(oscard)(zuuluu, golfie);
             tangon = _closure1_slot17;
             yankee = tangon.bind(report)(zuuluu);
-            if(!(entity != update)) { _fun00002_ip = 1395; continue _fun00001 }
- 463:
-            if(!(entity != michal)) { _fun00002_ip = 1395; continue _fun00001 }
- 470:
+            if(!(entity != update)) { _fun00002_ip = 1411; continue _fun00001 }
+ 471:
+            if(!(entity != michal)) { _fun00002_ip = 1411; continue _fun00001 }
+ 478:
             tangon = update.getIconSource;
             michal = 32;
             romeon = tangon.bind(update)(michal);
-            if(!(entity == romeon)) { _fun00002_ip = 508; continue _fun00001 }
- 488:
+            if(!(entity == romeon)) { _fun00002_ip = 516; continue _fun00001 }
+ 496:
             tangon = _closure1_slot1;
             oscard = _closure1_slot2;
             michal = 19;
             michal = oscard[michal];
             romeon = tangon.bind(report)(michal);
- 508:
+ 516:
             cntext = update.name;
             michal = function() { // Original name: onEmbeddedActivityItemPress
                 zuuluu = _closure1_slot1;
@@ -439,13 +439,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = 19;
             foxtra = sizing[foxtra];
             foxtra = kiloes.bind(report)(foxtra);
-            if(!(romeon !== foxtra)) { _fun00002_ip = 750; continue _fun00001 }
- 742:
+            if(!(romeon !== foxtra)) { _fun00002_ip = 762; continue _fun00001 }
+ 754:
             foxtra = config.appIcon;
-            _fun00002_ip = 756; continue _fun00001;
- 750:
+            _fun00002_ip = 768; continue _fun00001;
+ 762:
             foxtra = config.appIconPlaceholder;
- 756:
+ 768:
             offset['style'] = foxtra;
             offset['source'] = romeon;
             yankee = tangon.bind(report)(yankee, offset);
@@ -480,13 +480,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = config.overflow;
             sizing = new Array(2);
             sizing[0] = ctrled;
-            if(output) { _fun00002_ip = 927; continue _fun00001 }
- 919:
+            if(output) { _fun00002_ip = 939; continue _fun00001 }
+ 931:
             output = config.overflowBackgroundColor;
-            _fun00002_ip = 933; continue _fun00001;
- 927:
+            _fun00002_ip = 945; continue _fun00001;
+ 939:
             output = config.overflowBackgroundColorActionSheet;
- 933:
+ 945:
             sizing[1] = output;
             yankee['overflowStyle'] = sizing;
             output = _closure1_slot0;
@@ -596,8 +596,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.EmbeddedActivityJoinability;
             output = sizing.CAN_JOIN;
             sizing = null;
-            if(!(result === output)) { _fun00002_ip = 1345; continue _fun00001 }
- 1202:
+            if(!(result === output)) { _fun00002_ip = 1361; continue _fun00001 }
+ 1216:
             echoed = _closure1_slot10;
             source = _closure1_slot1;
             ctrled = _closure1_slot2;
@@ -635,7 +635,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 100;
             output['cornerRadius'] = update;
             sizing = echoed.bind(report)(result, output);
- 1345:
+ 1361:
             backup['children'] = sizing;
             backup = kiloes.bind(report)(yankee, backup);
             foxtra[1] = backup;
@@ -647,7 +647,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 1395:
+ 1411:
             return entity;
         }
     };

@@ -389,12 +389,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = verify.bind(backup)(option);
             verify = null;
             backup = golfie;
-            if(!(verify == foxtra)) { _fun00004_ip = 638; continue _fun00003 }
- 582:
+            if(!(verify == foxtra)) { _fun00004_ip = 644; continue _fun00003 }
+ 588:
             golfie = verify != ctrled;
             verify = null;
-            if(!golfie) { _fun00004_ip = 636; continue _fun00003 }
- 591:
+            if(!golfie) { _fun00004_ip = 642; continue _fun00003 }
+ 597:
             source = _closure1_slot4;
             option = _closure1_slot1;
             vacuum = _closure1_slot2;
@@ -406,9 +406,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = romeon.icon;
             golfie['style'] = ctrled;
             verify = source.bind(tangon)(option, golfie);
- 636:
-            _fun00004_ip = 673; continue _fun00003;
- 638:
+ 642:
+            _fun00004_ip = 679; continue _fun00003;
+ 644:
             option = _closure1_slot4;
             golfie = {};
             source = 'sm';
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = source.tintColor;
             golfie['color'] = source;
             verify = option.bind(tangon)(foxtra, golfie);
- 673:
+ 679:
             golfie = _closure1_slot3;
             foxtra = golfie.useCallback;
             option = new Array(2);
@@ -500,24 +500,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = new Array(5);
             kiloes[0] = echoed;
             echoed = !output;
-            if(!echoed) { _fun00004_ip = 793; continue _fun00003 }
- 790:
-            echoed = !update;
- 793:
-            if(!echoed) { _fun00004_ip = 802; continue _fun00003 }
- 796:
-            echoed = romeon.border;
+            if(!echoed) { _fun00004_ip = 805; continue _fun00003 }
  802:
+            echoed = !update;
+ 805:
+            if(!echoed) { _fun00004_ip = 814; continue _fun00003 }
+ 808:
+            echoed = romeon.border;
+ 814:
             kiloes[1] = echoed;
-            if(!result) { _fun00004_ip = 815; continue _fun00003 }
- 809:
+            if(!result) { _fun00004_ip = 827; continue _fun00003 }
+ 821:
             result = romeon.roundedTop;
- 815:
+ 827:
             kiloes[2] = result;
-            if(!output) { _fun00004_ip = 828; continue _fun00003 }
- 822:
+            if(!output) { _fun00004_ip = 840; continue _fun00003 }
+ 834:
             output = romeon.roundedBottom;
- 828:
+ 840:
             kiloes[3] = output;
             kiloes[4] = sizing;
             entity['style'] = kiloes;
@@ -539,10 +539,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = romeon;
             romeon = 'text-primary';
             foxtra = 'destructive';
-            if(!(foxtra === backup)) { _fun00004_ip = 941; continue _fun00003 }
- 935:
+            if(!(foxtra === backup)) { _fun00004_ip = 953; continue _fun00003 }
+ 947:
             romeon = 'text-danger';
- 941:
+ 953:
             report['color'] = romeon;
             report['children'] = yankee;
             golfie = option.bind(tangon)(golfie, report);

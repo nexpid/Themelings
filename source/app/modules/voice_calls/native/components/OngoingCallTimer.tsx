@@ -75,8 +75,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = null;
             michal = michal != golfie;
             report = 0;
-            if(!michal) { _fun00002_ip = 123; continue _fun00001 }
- 92:
+            if(!michal) { _fun00002_ip = 125; continue _fun00001 }
+ 94:
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
             michal = 4;
@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = zuuluu.extractTimestamp;
             report = michal.bind(zuuluu)(golfie);
- 123:
+ 125:
             zuuluu = _closure1_slot4;
             michal = _closure1_slot1;
             golfie = _closure1_slot2;

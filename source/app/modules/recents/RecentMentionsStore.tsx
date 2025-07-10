@@ -1,12 +1,12 @@
 // app/modules/recents/RecentMentionsStore.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
-    golfie = argBaz;
+    golfie = argBar;
+    verify = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = golfie;
-    var _closure1_slot2 = oscard;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = verify;
+    var _closure1_slot2 = option;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -157,7 +157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot34 = entity;
-    entity = function(argFoo) { // Original name: hasMentionNotificationEnabled
+    tangon = function(argFoo) { // Original name: hasMentionNotificationEnabled
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             option = argFoo;
@@ -230,8 +230,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot35 = entity;
-    entity = function(argFoo) { // Original name: parseMessage
+    var _closure1_slot35 = tangon;
+    michal = function(argFoo) { // Original name: parseMessage
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             zuuluu = argFoo;
@@ -374,7 +374,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot36 = entity;
+    var _closure1_slot36 = michal;
     entity = function(argFoo) { // Original name: deleteMessage
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
@@ -427,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot37 = entity;
-    yankee = function(argFoo) { // Original name: handleMessageDelete
+    foxtra = function(argFoo) { // Original name: handleMessageDelete
         entity = argFoo;
         zuuluu = entity.id;
         michal = _closure1_slot37;
@@ -435,7 +435,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(entity)(zuuluu);
         return entity;
     };
-    foxtra = function(argFoo) { // Original name: handleSetRecentMentionsFilters
+    kiloes = function(argFoo) { // Original name: handleSetRecentMentionsFilters
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             entity = {};
@@ -583,8 +583,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot38 = foxtra;
-    romeon = function() { // Original name: handleConnectionOpen
+    var _closure1_slot38 = kiloes;
+    backup = function() { // Original name: handleConnectionOpen
         entity = new Array(0);
         _closure1_slot23 = entity;
         entity = {};
@@ -597,8 +597,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    var _closure1_slot39 = romeon;
-    verify = function() { // Original name: handleRelationshipUpdate
+    var _closure1_slot39 = backup;
+    yankee = function() { // Original name: handleRelationshipUpdate
         report = _closure1_slot33;
         tangon = {};
         golfie = _closure1_slot1;
@@ -633,7 +633,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _closure1_slot23 = michal;
         return entity;
     };
-    offset = function(argFoo) { // Original name: handleDeleteChannel
+    romeon = function(argFoo) { // Original name: handleDeleteChannel
         entity = argFoo;
         entity = entity.channel;
         var _closure2_slot0 = entity;
@@ -677,112 +677,112 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     entity = global;
-    kiloes = entity.Object;
-    option = kiloes.defineProperty;
-    michal = {};
-    backup = true;
-    michal['value'] = backup;
+    output = entity.Object;
+    offset = output.defineProperty;
+    report = {};
+    sizing = true;
+    report['value'] = sizing;
     entity = '__esModule';
-    entity = option.bind(kiloes)(zuuluu, entity, michal);
-    option = 0;
-    michal = oscard[option];
+    entity = offset.bind(output)(zuuluu, entity, report);
+    offset = 0;
+    report = option[offset];
     entity = undefined;
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = 5;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot8 = michal;
-    michal = 6;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot9 = michal;
-    michal = 7;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot10 = michal;
-    michal = 8;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot11 = michal;
-    michal = 9;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot12 = michal;
-    michal = 10;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot13 = michal;
-    michal = 11;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot14 = michal;
-    michal = 12;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot15 = michal;
-    michal = 13;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    var _closure1_slot16 = michal;
-    michal = 14;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    result = michal.RecentMentionsFilters;
-    var _closure1_slot17 = result;
-    kiloes = michal.ChannelTypes;
-    var _closure1_slot18 = kiloes;
-    kiloes = michal.MessageTypesSets;
-    var _closure1_slot19 = kiloes;
-    kiloes = michal.UserNotificationSettings;
-    var _closure1_slot20 = kiloes;
-    michal = michal.ChannelTypesSets;
-    var _closure1_slot21 = michal;
-    output = 'recentMentionFilterSettings';
-    var _closure1_slot22 = output;
-    michal = new Array(0);
-    var _closure1_slot23 = michal;
-    michal = {};
-    var _closure1_slot24 = michal;
-    michal = {};
-    var _closure1_slot25 = michal;
-    michal = false;
-    var _closure1_slot26 = michal;
-    var _closure1_slot27 = backup;
-    backup = 15;
-    backup = oscard[backup];
-    backup = report.bind(entity)(backup);
-    sizing = backup.Storage;
-    kiloes = sizing.get;
-    backup = {'guildFilter': null, 'everyoneFilter': true, 'roleFilter': true};
-    result = result.ALL_SERVERS;
-    backup['guildFilter'] = result;
-    backup = kiloes.bind(sizing)(output, backup);
-    var _closure1_slot28 = backup;
-    var _closure1_slot29 = michal;
-    var _closure1_slot30 = option;
-    var _closure1_slot31 = michal;
-    michal = 22;
-    michal = oscard[michal];
-    michal = golfie.bind(entity)(michal);
-    option = michal.Store;
-    michal = function(argFoo) {
+    report = verify.bind(entity)(report);
+    var _closure1_slot3 = report;
+    report = 1;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot4 = report;
+    report = 2;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot5 = report;
+    report = 3;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot6 = report;
+    report = 4;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot7 = report;
+    report = 5;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot8 = report;
+    report = 6;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot9 = report;
+    report = 7;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot10 = report;
+    report = 8;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot11 = report;
+    report = 9;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot12 = report;
+    report = 10;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot13 = report;
+    report = 11;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot14 = report;
+    report = 12;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot15 = report;
+    report = 13;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot16 = report;
+    report = 14;
+    report = option[report];
+    report = golfie.bind(entity)(report);
+    update = report.RecentMentionsFilters;
+    var _closure1_slot17 = update;
+    output = report.ChannelTypes;
+    var _closure1_slot18 = output;
+    output = report.MessageTypesSets;
+    var _closure1_slot19 = output;
+    output = report.UserNotificationSettings;
+    var _closure1_slot20 = output;
+    report = report.ChannelTypesSets;
+    var _closure1_slot21 = report;
+    echoed = 'recentMentionFilterSettings';
+    var _closure1_slot22 = echoed;
+    report = new Array(0);
+    var _closure1_slot23 = report;
+    report = {};
+    var _closure1_slot24 = report;
+    report = {};
+    var _closure1_slot25 = report;
+    report = false;
+    var _closure1_slot26 = report;
+    var _closure1_slot27 = sizing;
+    sizing = 15;
+    sizing = option[sizing];
+    sizing = golfie.bind(entity)(sizing);
+    result = sizing.Storage;
+    output = result.get;
+    sizing = {'guildFilter': null, 'everyoneFilter': true, 'roleFilter': true};
+    update = update.ALL_SERVERS;
+    sizing['guildFilter'] = update;
+    sizing = output.bind(result)(echoed, sizing);
+    var _closure1_slot28 = sizing;
+    var _closure1_slot29 = report;
+    var _closure1_slot30 = offset;
+    var _closure1_slot31 = report;
+    report = 22;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    offset = report.Store;
+    report = function(argFoo) {
         tangon = function() { // Original name: RecentMentionsStore
             _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
@@ -1011,14 +1011,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    option = michal.bind(entity)(option);
-    michal = 'RecentMentionsStore';
-    option['displayName'] = michal;
-    michal = 23;
-    michal = oscard[michal];
-    source = golfie.bind(entity)(michal);
-    michal = {};
-    backup = function(argFoo) { // Original name: handleLoadMentions
+    offset = report.bind(entity)(offset);
+    report = 'RecentMentionsStore';
+    offset['displayName'] = report;
+    report = 23;
+    report = option[report];
+    vacuum = verify.bind(entity)(report);
+    report = {};
+    sizing = function(argFoo) { // Original name: handleLoadMentions
         _fun00035: for(var _fun00036_ip = 0; ; ) switch(_fun00036_ip) {
  0:
             entity = argFoo;
@@ -1049,8 +1049,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['LOAD_RECENT_MENTIONS'] = backup;
-    backup = function(argFoo) { // Original name: handleLoadMentionsSuccess
+    report['LOAD_RECENT_MENTIONS'] = sizing;
+    sizing = function(argFoo) { // Original name: handleLoadMentionsSuccess
         _fun00037: for(var _fun00038_ip = 0; ; ) switch(_fun00038_ip) {
  0:
             entity = argFoo;
@@ -1112,23 +1112,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['LOAD_RECENT_MENTIONS_SUCCESS'] = backup;
-    backup = function() { // Original name: handleLoadMentionsFailure
+    report['LOAD_RECENT_MENTIONS_SUCCESS'] = sizing;
+    sizing = function() { // Original name: handleLoadMentionsFailure
         entity = false;
         _closure1_slot26 = entity;
         entity = undefined;
         return entity;
     };
-    michal['LOAD_RECENT_MENTIONS_FAILURE'] = backup;
-    michal['SET_RECENT_MENTIONS_FILTER'] = foxtra;
-    foxtra = function() { // Original name: handleClearMentions
+    report['LOAD_RECENT_MENTIONS_FAILURE'] = sizing;
+    report['SET_RECENT_MENTIONS_FILTER'] = kiloes;
+    kiloes = function() { // Original name: handleClearMentions
         michal = _closure1_slot39;
         entity = undefined;
         michal = michal.bind(entity)();
         return entity;
     };
-    michal['CLEAR_MENTIONS'] = foxtra;
-    foxtra = function(argFoo) { // Original name: handleTruncateMentions
+    report['CLEAR_MENTIONS'] = kiloes;
+    kiloes = function(argFoo) { // Original name: handleTruncateMentions
         _fun00039: for(var _fun00040_ip = 0; ; ) switch(_fun00040_ip) {
  0:
             entity = argFoo;
@@ -1172,8 +1172,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['TRUNCATE_MENTIONS'] = foxtra;
-    foxtra = function() { // Original name: handleChannelSelect
+    report['TRUNCATE_MENTIONS'] = kiloes;
+    kiloes = function() { // Original name: handleChannelSelect
         _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
  0:
             entity = _closure1_slot28;
@@ -1191,9 +1191,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['CHANNEL_SELECT'] = foxtra;
-    michal['CONNECTION_OPEN'] = romeon;
-    romeon = function(argFoo) { // Original name: handleGuildDelete
+    report['CHANNEL_SELECT'] = kiloes;
+    report['CONNECTION_OPEN'] = backup;
+    backup = function(argFoo) { // Original name: handleGuildDelete
         entity = argFoo;
         entity = entity.guild;
         var _closure2_slot0 = entity;
@@ -1246,8 +1246,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(entity)(michal);
         return entity;
     };
-    michal['GUILD_DELETE'] = romeon;
-    romeon = function(argFoo) { // Original name: handleIncomingMessage
+    report['GUILD_DELETE'] = backup;
+    backup = function(argFoo) { // Original name: handleIncomingMessage
         _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
             entity = argFoo;
@@ -1304,27 +1304,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    michal['MESSAGE_CREATE'] = romeon;
-    romeon = function(argFoo) { // Original name: handleMessageUpdate
+    report['MESSAGE_CREATE'] = backup;
+    backup = function(argFoo) { // Original name: handleMessageUpdate
         _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
             michal = argFoo;
             entity = michal.message;
-            golfie = entity.id;
-            var _closure2_slot0 = golfie;
-            oscard = _closure1_slot25;
-            entity = global;
-            zuuluu = entity.String;
-            entity = undefined;
-            zuuluu = zuuluu.bind(entity)(golfie);
-            oscard = oscard[zuuluu];
+            oscard = entity.id;
+            var _closure2_slot0 = oscard;
             zuuluu = null;
-            if(!(zuuluu != oscard)) { _fun00048_ip = 164; continue _fun00047 }
- 51:
+            if(!(zuuluu != oscard)) { _fun00048_ip = 158; continue _fun00047 }
+ 28:
+            entity = _closure1_slot25;
+            entity = entity[oscard];
+            if(!(zuuluu != entity)) { _fun00048_ip = 158; continue _fun00047 }
+ 43:
             golfie = _closure1_slot1;
-            option = _closure1_slot2;
-            oscard = 18;
-            oscard = option[oscard];
+            oscard = _closure1_slot2;
+            entity = 18;
+            oscard = oscard[entity];
+            entity = undefined;
             option = golfie.bind(entity)(oscard);
             golfie = option.findIndex;
             oscard = _closure1_slot23;
@@ -1341,8 +1340,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.bind(golfie)();
             _closure1_slot23 = oscard;
             golfie = oscard[tangon];
-            if(!(zuuluu != golfie)) { _fun00048_ip = 162; continue _fun00047 }
- 117:
+            if(!(zuuluu != golfie)) { _fun00048_ip = 156; continue _fun00047 }
+ 111:
             zuuluu = _closure1_slot23;
             oscard = _closure1_slot0;
             option = _closure1_slot2;
@@ -1353,17 +1352,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.message;
             michal = report.bind(oscard)(golfie, michal);
             zuuluu[tangon] = michal;
- 162:
+ 156:
             return entity;
- 164:
+ 158:
             entity = false;
             return entity;
         }
     };
-    michal['MESSAGE_UPDATE'] = romeon;
-    michal['MESSAGE_DELETE'] = yankee;
-    michal['RECENT_MENTION_DELETE'] = yankee;
-    yankee = function(argFoo) { // Original name: handleMessageDeleteBulk
+    report['MESSAGE_UPDATE'] = backup;
+    report['MESSAGE_DELETE'] = foxtra;
+    report['RECENT_MENTION_DELETE'] = foxtra;
+    foxtra = function(argFoo) { // Original name: handleMessageDeleteBulk
         entity = argFoo;
         report = entity.ids;
         tangon = _closure1_slot1;
@@ -1377,31 +1376,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(report, michal);
         return entity;
     };
-    michal['MESSAGE_DELETE_BULK'] = yankee;
-    michal['CHANNEL_DELETE'] = offset;
-    michal['THREAD_DELETE'] = offset;
-    michal['RELATIONSHIP_ADD'] = verify;
-    michal['RELATIONSHIP_REMOVE'] = verify;
-    michal['RELATIONSHIP_UPDATE'] = verify;
-    tangon = function() { // Original name: handleSetRecentMentionsStale
+    report['MESSAGE_DELETE_BULK'] = foxtra;
+    report['CHANNEL_DELETE'] = romeon;
+    report['THREAD_DELETE'] = romeon;
+    report['RELATIONSHIP_ADD'] = yankee;
+    report['RELATIONSHIP_REMOVE'] = yankee;
+    report['RELATIONSHIP_UPDATE'] = yankee;
+    oscard = function() { // Original name: handleSetRecentMentionsStale
         entity = true;
         _closure1_slot31 = entity;
         entity = undefined;
         return entity;
     };
-    michal['SET_RECENT_MENTIONS_STALE'] = tangon;
-    tangon = option.prototype;
-    tangon = Object.create(tangon, {constructor: {value: option}});
-    ctrled = tangon;
-    update = michal;
-    michal = new ctrled[option](source, update, echoed);
-    michal = michal instanceof Object ? michal : tangon;
-    tangon = 24;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/recents/RecentMentionsStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    zuuluu['default'] = michal;
+    report['SET_RECENT_MENTIONS_STALE'] = oscard;
+    oscard = offset.prototype;
+    oscard = Object.create(oscard, {constructor: {value: offset}});
+    sequen = oscard;
+    ctrled = report;
+    report = new sequen[offset](vacuum, ctrled, source);
+    report = report instanceof Object ? report : oscard;
+    oscard = 24;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/recents/RecentMentionsStore.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['default'] = report;
+    zuuluu['hasMentionNotificationEnabled'] = tangon;
+    zuuluu['parseMessage'] = michal;
     return entity;
 })();

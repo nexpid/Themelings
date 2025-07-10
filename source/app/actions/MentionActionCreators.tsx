@@ -81,60 +81,60 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = function(argFoo) { // Original name: fetchRecentMentions
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            yankee = argFoo;
-            offset = arguments[1];
-            verify = arguments[2];
-            option = arguments[3];
-            golfie = arguments[4];
-            var _closure2_slot0 = yankee;
-            entity = undefined;
-            if(!(offset === entity)) { _fun00002_ip = 34; continue _fun00001 }
+            offset = argFoo;
+            verify = arguments[1];
+            option = arguments[2];
+            golfie = arguments[3];
+            oscard = arguments[4];
+            var _closure2_slot0 = offset;
+            tangon = undefined;
+            if(!(verify === tangon)) { _fun00002_ip = 34; continue _fun00001 }
  27:
-            offset = _closure1_slot4;
+            verify = _closure1_slot4;
  34:
-            if(!(verify === entity)) { _fun00002_ip = 40; continue _fun00001 }
+            if(!(option === tangon)) { _fun00002_ip = 40; continue _fun00001 }
  38:
-            verify = null;
+            option = null;
  40:
-            if(!(option === entity)) { _fun00002_ip = 46; continue _fun00001 }
+            if(!(golfie === tangon)) { _fun00002_ip = 46; continue _fun00001 }
  44:
-            option = true;
- 46:
-            if(!(golfie === entity)) { _fun00002_ip = 52; continue _fun00001 }
- 50:
             golfie = true;
+ 46:
+            if(!(oscard === tangon)) { _fun00002_ip = 52; continue _fun00001 }
+ 50:
+            oscard = true;
  52:
-            tangon = _closure1_slot1;
-            report = _closure1_slot2;
-            zuuluu = 1;
-            zuuluu = report[zuuluu];
-            romeon = tangon.bind(entity)(zuuluu);
-            tangon = romeon.dispatch;
-            zuuluu = {};
+            zuuluu = _closure1_slot1;
+            yankee = _closure1_slot2;
+            michal = 1;
+            michal = yankee[michal];
+            romeon = zuuluu.bind(tangon)(michal);
+            zuuluu = romeon.dispatch;
+            michal = {};
             foxtra = 'LOAD_RECENT_MENTIONS';
-            zuuluu['type'] = foxtra;
-            zuuluu['guildId'] = verify;
-            zuuluu = tangon.bind(romeon)(zuuluu);
-            tangon = _closure1_slot0;
-            zuuluu = 2;
-            zuuluu = report[zuuluu];
-            zuuluu = tangon.bind(entity)(zuuluu);
-            report = zuuluu.HTTP;
-            tangon = report.get;
-            zuuluu = {'url': null, 'query': null, 'retries': 2, 'oldFormErrors': true, 'rejectWithError': true};
-            oscard = _closure1_slot3;
-            oscard = oscard.MENTIONS;
-            zuuluu['url'] = oscard;
-            oscard = {};
-            oscard['before'] = yankee;
-            oscard['limit'] = offset;
-            oscard['guild_id'] = verify;
-            oscard['roles'] = option;
-            oscard['everyone'] = golfie;
-            zuuluu['query'] = oscard;
-            report = tangon.bind(report)(zuuluu);
-            tangon = report.then;
-            zuuluu = function(argFoo) {
+            michal['type'] = foxtra;
+            michal['guildId'] = option;
+            michal = zuuluu.bind(romeon)(michal);
+            zuuluu = _closure1_slot0;
+            michal = 2;
+            michal = yankee[michal];
+            michal = zuuluu.bind(tangon)(michal);
+            tangon = michal.HTTP;
+            zuuluu = tangon.get;
+            michal = {'url': null, 'query': null, 'retries': 2, 'oldFormErrors': true, 'rejectWithError': true};
+            report = _closure1_slot3;
+            report = report.MENTIONS;
+            michal['url'] = report;
+            report = {};
+            report['before'] = offset;
+            report['limit'] = verify;
+            report['guild_id'] = option;
+            report['roles'] = golfie;
+            report['everyone'] = oscard;
+            michal['query'] = report;
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.then;
+            michal = function(argFoo) {
                 entity = argFoo;
                 oscard = entity.body;
                 zuuluu = _closure1_slot1;
@@ -159,7 +159,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            michal = function() {
+            entity = function() {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 1;
@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = zuuluu.bind(tangon)(michal);
                 return entity;
             };
-            michal = tangon.bind(report)(zuuluu, michal);
+            entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
         }
     };

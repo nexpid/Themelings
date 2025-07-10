@@ -87,7 +87,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 155; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 153; continue _fun00001 }
  10:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot1;
@@ -98,7 +98,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.guildsRequiringDeletedIdsSync;
                     zuuluu = michal.bind(zuuluu)();
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00002_ip = 124; continue _fun00001 }
+                    if(!(michal != zuuluu)) { _fun00002_ip = 122; continue _fun00001 }
  51:
                     michal = zuuluu.getMany;
                     michal = michal.bind(zuuluu)();
@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  65:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 121; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 119; continue _fun00001 }
  71:
                     zuuluu = global;
                     report = zuuluu.Set;
@@ -124,9 +124,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = new golfie[report](oscard, report);
                     zuuluu = zuuluu instanceof Object ? zuuluu : tangon;
                     return zuuluu;
- 121:
+ 119:
                     return michal;
- 124:
+ 122:
                     michal = global;
                     michal = michal.Set;
                     zuuluu = michal.prototype;
@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = new golfie[michal](oscard);
                     michal = michal instanceof Object ? michal : zuuluu;
                     return michal;
- 155:
+ 153:
                     return entity;
                 }
             };
@@ -182,8 +182,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.bind(zuuluu)(entity);
                 michal = zuuluu.length;
                 entity = 0;
-                if(!(michal > entity)) { _fun00004_ip = 106; continue _fun00003 }
- 56:
+                if(!(michal > entity)) { _fun00004_ip = 102; continue _fun00003 }
+ 52:
                 tangon = _closure1_slot0;
                 michal = _closure1_slot1;
                 entity = 3;
@@ -195,7 +195,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(tangon)(entity);
                 entity = michal.putAll;
                 entity = entity.bind(michal)(zuuluu);
- 106:
+ 102:
                 entity = undefined;
                 return entity;
             }
@@ -237,8 +237,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = michal.bind(zuuluu)(entity);
                 michal = zuuluu.length;
                 entity = 0;
-                if(!(michal > entity)) { _fun00006_ip = 106; continue _fun00005 }
- 56:
+                if(!(michal > entity)) { _fun00006_ip = 102; continue _fun00005 }
+ 52:
                 tangon = _closure1_slot0;
                 michal = _closure1_slot1;
                 entity = 3;
@@ -250,7 +250,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = michal.bind(tangon)(entity);
                 entity = michal.putAll;
                 entity = entity.bind(michal)(zuuluu);
- 106:
+ 102:
                 entity = undefined;
                 return entity;
             }

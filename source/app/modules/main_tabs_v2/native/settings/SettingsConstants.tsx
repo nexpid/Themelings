@@ -242,6 +242,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['IN_APP_NOTIFICATIONS'] = entity;
     entity = 'SYSTEM_NOTIFICATIONS';
     michal['SYSTEM_NOTIFICATIONS'] = entity;
+    entity = 'VOICE_ACTIVITY_NOTIFICATIONS';
+    michal['VOICE_ACTIVITY_NOTIFICATIONS'] = entity;
     entity = 'REACTION_NOTIFICATIONS';
     michal['REACTION_NOTIFICATIONS'] = entity;
     entity = 'ANDROID_MESSAGE_NOTIFICATIONS';

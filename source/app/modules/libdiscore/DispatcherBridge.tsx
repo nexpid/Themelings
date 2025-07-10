@@ -212,9 +212,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    yankee = tangon._privateSetDerivedDoNotUse;
+    yankee = tangon._libdiscoreSetKvDerivedData;
     var _closure1_slot5 = yankee;
-    tangon = tangon._privateSetKvApiDoNotUse;
+    tangon = tangon._libdiscoreSetKvRoot;
     var _closure1_slot6 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
@@ -547,8 +547,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         zuuluu = argFoo;
         michal = zuuluu.filter;
         entity = function(argFoo) {
-            entity = argFoo;
-            entity = entity.actionsHandledByLibdiscore;
+            michal = argFoo;
+            entity = michal.actionsHandledByLibdiscore;
+            entity = entity.bind(michal)();
             return entity;
         };
         entity = michal.bind(zuuluu)(entity);

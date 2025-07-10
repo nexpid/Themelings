@@ -214,13 +214,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = {};
             entity['screens'] = golfie;
             golfie = _closure1_slot6;
-            if(oscard) { _fun00002_ip = 174; continue _fun00001 }
- 166:
+            if(oscard) { _fun00002_ip = 180; continue _fun00001 }
+ 172:
             oscard = golfie.INTRO;
-            _fun00002_ip = 180; continue _fun00001;
- 174:
-            oscard = golfie.RETRY;
+            _fun00002_ip = 186; continue _fun00001;
  180:
+            oscard = golfie.RETRY;
+ 186:
             entity['initialRouteName'] = oscard;
             option = _closure1_slot0;
             verify = _closure1_slot2;

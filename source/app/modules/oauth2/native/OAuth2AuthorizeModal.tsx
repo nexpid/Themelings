@@ -202,15 +202,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing[update];
             sizing = source.bind(tangon)(sizing);
             sizing = sizing.t;
-            if(kiloes) { _fun00002_ip = 343; continue _fun00001 }
- 330:
+            if(kiloes) { _fun00002_ip = 339; continue _fun00001 }
+ 326:
             kiloes = sizing.cpT0Cg;
             kiloes = result.bind(echoed)(kiloes);
-            _fun00002_ip = 354; continue _fun00001;
- 343:
+            _fun00002_ip = 350; continue _fun00001;
+ 339:
             sizing = sizing.13/7kZ;
             kiloes = result.bind(echoed)(sizing);
- 354:
+ 350:
             oscard['accessibilityLabel'] = kiloes;
             backup = function() { // Original name: onPress
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -234,8 +234,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = _closure1_slot5;
             sizing = _closure1_slot0;
             ctrled = _closure1_slot2;
-            if(backup) { _fun00002_ip = 449; continue _fun00001 }
- 390:
+            if(backup) { _fun00002_ip = 443; continue _fun00001 }
+ 384:
             backup = 12;
             backup = ctrled[backup];
             backup = sizing.bind(tangon)(backup);
@@ -249,8 +249,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.INTERACTIVE_NORMAL;
             backup['color'] = echoed;
             backup = result.bind(tangon)(kiloes, backup);
-            _fun00002_ip = 506; continue _fun00001;
- 449:
+            _fun00002_ip = 500; continue _fun00001;
+ 443:
             kiloes = 11;
             kiloes = ctrled[kiloes];
             kiloes = sizing.bind(tangon)(kiloes);
@@ -264,7 +264,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.INTERACTIVE_NORMAL;
             kiloes['color'] = echoed;
             backup = result.bind(tangon)(sizing, kiloes);
- 506:
+ 500:
             oscard['children'] = backup;
             golfie = option.bind(tangon)(golfie, oscard);
             oscard = new Array(3);

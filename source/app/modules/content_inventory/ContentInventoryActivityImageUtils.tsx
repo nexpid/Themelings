@@ -266,7 +266,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify.application_id;
  54:
             report = zuuluu.bind(tangon)(entity);
-            if(!(option != verify)) { _fun00006_ip = 464; continue _fun00005 }
+            if(!(option != verify)) { _fun00006_ip = 514; continue _fun00005 }
  66:
             entity = option == verify;
             foxtra = undefined;
@@ -281,7 +281,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  96:
             entity = option != foxtra;
             tangon = undefined;
-            if(!entity) { _fun00006_ip = 233; continue _fun00005 }
+            if(!entity) { _fun00006_ip = 258; continue _fun00005 }
  108:
             entity = {};
             offset = _closure1_slot0;
@@ -314,8 +314,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = offset.bind(yankee)();
  226:
             entity['text'] = zuuluu;
+            offset = verify.assets;
+            yankee = option == offset;
+            zuuluu = undefined;
+            if(yankee) { _fun00006_ip = 251; continue _fun00005 }
+ 245:
+            zuuluu = offset.large_url;
+ 251:
+            entity['url'] = zuuluu;
             tangon = entity;
- 233:
+ 258:
             zuuluu = _closure1_slot1;
             offset = _closure1_slot2;
             entity = 13;
@@ -323,23 +331,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = zuuluu.bind(michal)(entity);
             entity = entity.bind(michal)(verify);
             backup = undefined;
-            if(entity) { _fun00006_ip = 293; continue _fun00005 }
- 263:
+            if(entity) { _fun00006_ip = 318; continue _fun00005 }
+ 288:
             entity = option == verify;
             backup = undefined;
-            if(entity) { _fun00006_ip = 293; continue _fun00005 }
- 272:
+            if(entity) { _fun00006_ip = 318; continue _fun00005 }
+ 297:
             entity = verify.assets;
             zuuluu = option == entity;
             backup = undefined;
-            if(zuuluu) { _fun00006_ip = 293; continue _fun00005 }
- 287:
+            if(zuuluu) { _fun00006_ip = 318; continue _fun00005 }
+ 312:
             backup = entity.small_image;
- 293:
+ 318:
             entity = option != backup;
             zuuluu = undefined;
-            if(!entity) { _fun00006_ip = 430; continue _fun00005 }
- 305:
+            if(!entity) { _fun00006_ip = 480; continue _fun00005 }
+ 330:
             entity = {};
             yankee = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -357,36 +365,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset[1] = kiloes;
             offset = romeon.bind(foxtra)(yankee, backup, offset);
             entity['src'] = offset;
+            yankee = verify.assets;
+            romeon = option == yankee;
+            offset = undefined;
+            if(romeon) { _fun00006_ip = 448; continue _fun00005 }
+ 423:
+            romeon = yankee.small_text;
+            yankee = option == romeon;
+            offset = undefined;
+            if(yankee) { _fun00006_ip = 448; continue _fun00005 }
+ 438:
+            yankee = romeon.trim;
+            offset = yankee.bind(romeon)();
+ 448:
+            entity['text'] = offset;
             offset = verify.assets;
             yankee = option == offset;
             verify = undefined;
-            if(yankee) { _fun00006_ip = 423; continue _fun00005 }
- 398:
-            yankee = offset.small_text;
-            offset = option == yankee;
-            verify = undefined;
-            if(offset) { _fun00006_ip = 423; continue _fun00005 }
- 413:
-            offset = yankee.trim;
-            verify = offset.bind(yankee)();
- 423:
-            entity['text'] = verify;
+            if(yankee) { _fun00006_ip = 473; continue _fun00005 }
+ 467:
+            verify = offset.small_url;
+ 473:
+            entity['url'] = verify;
             zuuluu = entity;
- 430:
+ 480:
             entity = {};
-            if(!(option == tangon)) { _fun00006_ip = 452; continue _fun00005 }
- 436:
+            if(!(option == tangon)) { _fun00006_ip = 502; continue _fun00005 }
+ 486:
             oscard = _closure1_slot5;
-            if(!(option != golfie)) { _fun00006_ip = 447; continue _fun00005 }
- 444:
+            if(!(option != golfie)) { _fun00006_ip = 497; continue _fun00005 }
+ 494:
             report = golfie;
- 447:
+ 497:
             tangon = oscard.bind(michal)(report);
- 452:
+ 502:
             entity['largeImage'] = tangon;
             entity['smallImage'] = zuuluu;
             return entity;
- 464:
+ 514:
             entity = {};
             entity['largeImage'] = michal;
             entity['smallImage'] = michal;

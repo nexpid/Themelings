@@ -238,8 +238,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = tangon.bind(golfie)(zuuluu, entity);
             entity = null;
             michal = entity == michal;
-            if(michal) { _fun00002_ip = 928; continue _fun00001 }
- 308:
+            if(michal) { _fun00002_ip = 920; continue _fun00001 }
+ 304:
             tangon = _closure1_slot12;
             zuuluu = _closure1_slot7;
             michal = {'style': null, 'keyboardShouldPersistTaps': 'handled', 'alwaysBounceVertical': false};
@@ -460,7 +460,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 928:
+ 920:
             return entity;
         }
     };

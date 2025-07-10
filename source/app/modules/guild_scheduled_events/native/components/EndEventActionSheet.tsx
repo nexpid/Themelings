@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(zuuluu)(entity);
             var _closure2_slot1 = michal;
             entity = null;
-            if(!(entity != michal)) { _fun00002_ip = 595; continue _fun00001 }
+            if(!(entity != michal)) { _fun00002_ip = 599; continue _fun00001 }
  80:
             echoed = function() { // Original name: handleClose
                 report = _closure1_slot1;
@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 595:
+ 599:
             return entity;
         }
     };

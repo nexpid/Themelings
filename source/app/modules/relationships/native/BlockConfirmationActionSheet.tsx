@@ -475,8 +475,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.bind(golfie)(entity, zuuluu);
             entity = null;
             zuuluu = entity == variable36;
-            if(zuuluu) { _fun00002_ip = 1865; continue _fun00001 }
- 387:
+            if(zuuluu) { _fun00002_ip = 1849; continue _fun00001 }
+ 379:
             tangon = _closure1_slot14;
             golfie = _closure1_slot0;
             verify = _closure1_slot2;
@@ -514,10 +514,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = true;
             oscard['scrollable'] = papara;
             verify = 485;
-            if(foxtra) { _fun00002_ip = 476; continue _fun00001 }
- 472:
+            if(foxtra) { _fun00002_ip = 466; continue _fun00001 }
+ 462:
             verify = _closure1_slot11;
- 476:
+ 466:
             romeon = verify + yankee;
             whisks = _closure1_slot1;
             update = _closure1_slot2;
@@ -665,8 +665,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = kiloes.bind(report)(sizing, backup);
             romeon[1] = backup;
             foxtra = !foxtra;
-            if(!foxtra) { _fun00002_ip = 1548; continue _fun00001 }
- 1159:
+            if(!foxtra) { _fun00002_ip = 1536; continue _fun00001 }
+ 1149:
             sizing = _closure1_slot14;
             kiloes = _closure1_slot5;
             backup = {};
@@ -801,7 +801,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = update.bind(report)(echoed, result);
             backup['children'] = result;
             foxtra = sizing.bind(report)(kiloes, backup);
- 1548:
+ 1536:
             romeon[2] = foxtra;
             kiloes = _closure1_slot15;
             backup = _closure1_slot5;
@@ -881,11 +881,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report.bind(oscard)(tangon);
                     report = _closure2_slot2;
                     tangon = null;
-                    if(!(tangon != report)) { _fun00008_ip = 116; continue _fun00007 }
- 108:
+                    if(!(tangon != report)) { _fun00008_ip = 114; continue _fun00007 }
+ 106:
                     zuuluu = _closure2_slot2;
                     zuuluu = zuuluu.bind(entity)();
- 116:
+ 114:
                     tangon = _closure1_slot1;
                     report = _closure1_slot2;
                     zuuluu = 24;
@@ -958,7 +958,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = option.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1865:
+ 1849:
             return entity;
         }
     };

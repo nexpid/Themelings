@@ -121,10 +121,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = tangon.bind(report)(zuuluu, michal);
                     zuuluu = entity != michal;
                     entity = undefined;
-                    if(!zuuluu) { _fun00004_ip = 69; continue _fun00003 }
- 66:
+                    if(!zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+ 64:
                     entity = michal;
- 69:
+ 67:
                     return entity;
                 }
             };

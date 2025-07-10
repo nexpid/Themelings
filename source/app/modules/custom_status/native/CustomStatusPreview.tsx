@@ -119,6 +119,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             papara = michal.pendingStatusEmoji;
             var _closure2_slot2 = papara;
             record = michal.pendingStatusLabel;
+            var _closure2_slot3 = record;
             config = michal.placeholderText;
             sizing = _closure1_slot1;
             echoed = _closure1_slot2;
@@ -166,10 +167,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = zuuluu.containerBackground;
             option = _closure1_slot3;
             golfie = option.useCallback;
-            zuuluu = new Array(3);
+            zuuluu = new Array(4);
             zuuluu[0] = vacuum;
             zuuluu[1] = cntext;
             zuuluu[2] = papara;
+            zuuluu[3] = record;
             entity = function() {
                 tangon = _closure1_slot0;
                 michal = _closure1_slot2;
@@ -196,8 +198,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon['user'] = zuuluu;
                 zuuluu = _closure2_slot1;
                 tangon['previewText'] = zuuluu;
-                michal = _closure2_slot2;
-                tangon['previewEmoji'] = michal;
+                zuuluu = _closure2_slot2;
+                tangon['previewEmoji'] = zuuluu;
+                michal = _closure2_slot3;
+                tangon['previewLabel'] = michal;
                 offset = 'UserProfileCustomStatusActionSheet';
                 option = 'stack';
                 romeon = golfie;
@@ -258,22 +262,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output[0] = result;
             result = '';
             echoed = result !== cntext;
-            if(echoed) { _fun00004_ip = 497; continue _fun00003 }
- 493:
+            if(echoed) { _fun00004_ip = 503; continue _fun00003 }
+ 499:
             echoed = backup !== papara;
- 497:
-            if(echoed) { _fun00004_ip = 504; continue _fun00003 }
- 500:
+ 503:
+            if(echoed) { _fun00004_ip = 510; continue _fun00003 }
+ 506:
             echoed = result !== config;
- 504:
-            result = !echoed;
-            if(echoed) { _fun00004_ip = 524; continue _fun00003 }
  510:
+            result = !echoed;
+            if(echoed) { _fun00004_ip = 530; continue _fun00003 }
+ 516:
             echoed = {};
             update = _closure1_slot5;
             echoed['paddingTop'] = update;
             result = echoed;
- 524:
+ 530:
             output[1] = result;
             romeon['containerStyle'] = output;
             update = _closure1_slot7;
@@ -306,10 +310,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['themeType'] = vacuum;
             sequen = backup == kiloes;
             vacuum = undefined;
-            if(sequen) { _fun00004_ip = 672; continue _fun00003 }
- 666:
-            vacuum = kiloes.pronouns;
+            if(sequen) { _fun00004_ip = 678; continue _fun00003 }
  672:
+            vacuum = kiloes.pronouns;
+ 678:
             result['pronouns'] = vacuum;
             result['badges'] = ctrled;
             result['badgeContainerBackground'] = source;
@@ -325,13 +329,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option[1] = verify;
             yankee = backup == kiloes;
             verify = undefined;
-            if(yankee) { _fun00004_ip = 747; continue _fun00003 }
- 741:
-            verify = kiloes.profileEffectId;
+            if(yankee) { _fun00004_ip = 753; continue _fun00003 }
  747:
+            verify = kiloes.profileEffectId;
+ 753:
             verify = backup != verify;
-            if(!verify) { _fun00004_ip = 816; continue _fun00003 }
- 754:
+            if(!verify) { _fun00004_ip = 822; continue _fun00003 }
+ 760:
             romeon = _closure1_slot7;
             yankee = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -341,15 +345,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = {};
             sizing = backup == kiloes;
             backup = undefined;
-            if(sizing) { _fun00004_ip = 795; continue _fun00003 }
- 789:
-            backup = kiloes.profileEffectId;
+            if(sizing) { _fun00004_ip = 801; continue _fun00003 }
  795:
+            backup = kiloes.profileEffectId;
+ 801:
             offset['profileEffectId'] = backup;
             foxtra = foxtra.profileEffect;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 816:
+ 822:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

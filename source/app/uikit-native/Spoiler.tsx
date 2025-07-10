@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -307,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = report.count;
                 report = zuuluu.bind(report)(oscard);
                 zuuluu = 0;
-                if(!(zuuluu !== report)) { _fun00010_ip = 278; continue _fun00009 }
+                if(!(zuuluu !== report)) { _fun00010_ip = 280; continue _fun00009 }
  138:
                 zuuluu = _closure1_slot7;
                 report = zuuluu.Children;
@@ -386,24 +386,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 oscard[0] = option;
                 option = golfie.props;
                 option = option.muted;
-                if(!option) { _fun00010_ip = 232; continue _fun00009 }
- 226:
+                if(!option) { _fun00010_ip = 234; continue _fun00009 }
+ 228:
                 option = verify.muted;
- 232:
+ 234:
                 oscard[1] = option;
                 entity['style'] = oscard;
                 oscard = golfie.props;
                 option = oscard.disableReveal;
                 oscard = undefined;
-                if(option) { _fun00010_ip = 262; continue _fun00009 }
- 256:
+                if(option) { _fun00010_ip = 264; continue _fun00009 }
+ 258:
                 oscard = golfie.handleTap;
- 262:
+ 264:
                 entity['onPress'] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);
                 return entity;
- 278:
+ 280:
                 entity = null;
                 return entity;
             }

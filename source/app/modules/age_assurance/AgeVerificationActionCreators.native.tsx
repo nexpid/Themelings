@@ -41,13 +41,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = argFoo;
             michal = report.onClose;
             entity = undefined;
-            if(!(michal === entity)) { _fun00002_ip = 22; continue _fun00001 }
+            if(!(michal === entity)) { _fun00002_ip = 24; continue _fun00001 }
  17:
             michal = function() { // Original name: s
                 entity = undefined;
                 return entity;
             };
- 22:
+ 24:
             var _closure2_slot0 = michal;
             michal = null;
             tangon = Object.create(michal);
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00004_ip = 86; continue _fun00003 }
+                        if(michal) { _fun00004_ip = 88; continue _fun00003 }
  9:
                         oscard = undefined;
                         var _closure4_slot0 = oscard;
@@ -89,7 +89,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return michal;
  60:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00004_ip = 83; continue _fun00003 }
+                        if(tangon) { _fun00004_ip = 85; continue _fun00003 }
  66:
                         tangon = michal.default;
                         _closure4_slot0 = tangon;
@@ -107,9 +107,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         return zuuluu;
- 83:
+ 85:
                         return michal;
- 86:
+ 88:
                         return entity;
                     }
                 };
@@ -161,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00008_ip = 86; continue _fun00007 }
+                        if(michal) { _fun00008_ip = 88; continue _fun00007 }
  9:
                         oscard = undefined;
                         var _closure4_slot0 = oscard;
@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return michal;
  60:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                        if(tangon) { _fun00008_ip = 83; continue _fun00007 }
+                        if(tangon) { _fun00008_ip = 85; continue _fun00007 }
  66:
                         tangon = michal.default;
                         _closure4_slot0 = tangon;
@@ -196,9 +196,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         return zuuluu;
- 83:
+ 85:
                         return michal;
- 86:
+ 88:
                         return entity;
                     }
                 };

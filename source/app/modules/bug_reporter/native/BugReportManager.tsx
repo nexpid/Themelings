@@ -28,11 +28,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -162,7 +162,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00006_ip = 156; continue _fun00005 }
+                    if(michal) { _fun00006_ip = 161; continue _fun00005 }
  10:
                     michal = _closure2_slot0;
                     zuuluu = undefined;
@@ -172,8 +172,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  27:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00006_ip = 153; continue _fun00005 }
- 33:
+                    if(tangon) { _fun00006_ip = 158; continue _fun00005 }
+ 36:
                     report = _closure1_slot1;
                     verify = _closure1_slot2;
                     tangon = 11;
@@ -192,10 +192,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = null;
                     option = golfie == michal;
                     golfie = undefined;
-                    if(option) { _fun00006_ip = 128; continue _fun00005 }
- 122:
+                    if(option) { _fun00006_ip = 131; continue _fun00005 }
+ 125:
                     golfie = michal.uri;
- 128:
+ 131:
                     tangon['imageUri'] = golfie;
                     golfie = function() { // Original name: onDismiss
                         zuuluu = _closure1_slot1;
@@ -211,9 +211,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['onDismiss'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 153:
+ 158:
                     return michal;
- 156:
+ 161:
                     return entity;
                 }
             };

@@ -104,16 +104,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             };
             tangon = oscard.bind(golfie)(report, zuuluu, tangon);
             entity = michal == entity;
-            if(entity) { _fun00004_ip = 114; continue _fun00003 }
- 94:
+            if(entity) { _fun00004_ip = 116; continue _fun00003 }
+ 96:
             michal = michal == tangon;
-            if(michal) { _fun00004_ip = 111; continue _fun00003 }
- 101:
+            if(michal) { _fun00004_ip = 113; continue _fun00003 }
+ 103:
             zuuluu = 50000;
             michal = tangon > zuuluu;
- 111:
+ 113:
             entity = !michal;
- 114:
+ 116:
             return entity;
         }
     };

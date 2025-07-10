@@ -341,11 +341,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00008_ip = 483; continue _fun00007 }
+                    if(michal) { _fun00008_ip = 489; continue _fun00007 }
  12:
                     zuuluu = _closure1_slot4;
                     zuuluu = zuuluu.isFetchingCurrentQuests;
-                    if(zuuluu) { _fun00008_ip = 478; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 484; continue _fun00007 }
  31:
                     option = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -385,7 +385,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  167:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=7);
-                    if(option) { _fun00008_ip = 355; continue _fun00007 }
+                    if(option) { _fun00008_ip = 361; continue _fun00007 }
  176:
                     option = zuuluu.body;
                     offset = option.quests;
@@ -477,11 +477,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = true;
                     tangon['wasSuccessful'] = yankee;
                     tangon = verify.bind(offset)(option, tangon);
- 350: // try_end0
-                    _fun00008_ip = 478; continue _fun00007;
- 355:
+ 356: // try_end0
+                    _fun00008_ip = 484; continue _fun00007;
+ 361:
                     return zuuluu;
- 358: // catch_target0
+ 364: // catch_target0
                     CatchBlockStart(arg_register=11);
                     tangon = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -511,10 +511,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = false;
                     michal['wasSuccessful'] = oscard;
                     michal = tangon.bind(report)(zuuluu, michal);
- 478:
+ 484:
                     michal = undefined;
                     return michal;
- 483:
+ 489:
                     return entity;
                 }
             };
@@ -1591,11 +1591,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00028_ip = 302; continue _fun00027 }
+                    if(michal) { _fun00028_ip = 304; continue _fun00027 }
  10:
                     michal = _closure1_slot4;
                     michal = michal.isFetchingClaimedQuests;
-                    if(michal) { _fun00028_ip = 297; continue _fun00027 }
+                    if(michal) { _fun00028_ip = 299; continue _fun00027 }
  29:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
@@ -1628,7 +1628,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  134:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                    if(report) { _fun00028_ip = 214; continue _fun00027 }
+                    if(report) { _fun00028_ip = 216; continue _fun00027 }
  140:
                     report = tangon.body;
                     golfie = report.quests;
@@ -1656,11 +1656,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report['type'] = offset;
                     report['quests'] = verify;
                     report = oscard.bind(golfie)(report);
- 212: // try_end0
-                    _fun00028_ip = 297; continue _fun00027;
- 214:
+ 214: // try_end0
+                    _fun00028_ip = 299; continue _fun00027;
+ 216:
                     return tangon;
- 217: // catch_target0
+ 219: // catch_target0
                     CatchBlockStart(arg_register=6);
                     oscard = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -1681,10 +1681,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report instanceof Object ? report : oscard;
                     michal['error'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 297:
+ 299:
                     michal = undefined;
                     return michal;
- 302:
+ 304:
                     return entity;
                 }
             };
@@ -1709,21 +1709,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
                     StartGenerator();
-                    foxtra = argFoo;
+                    kiloes = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 1088; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 1120; continue _fun00029 }
  13:
-                    oscard = foxtra;
+                    oscard = kiloes;
                     michal = undefined;
+                    record = undefined;
                     config = undefined;
                     sequen = undefined;
                     vacuum = undefined;
                     ctrled = undefined;
                     source = undefined;
-                    update = undefined;
-                    papara = undefined;
-                    kiloes = undefined;
-                    output = undefined;
+                    status = undefined;
+                    result = undefined;
+                    echoed = undefined;
+                    backup = undefined;
+                    foxtra = undefined;
                     option = undefined;
                     offset = _closure1_slot1;
                     report = _closure1_slot2;
@@ -1732,9 +1734,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = offset.bind(michal)(tangon);
                     yankee = romeon.dispatch;
                     tangon = {};
-                    backup = 'QUESTS_FETCH_QUEST_TO_DELIVER_BEGIN';
-                    tangon['type'] = backup;
-                    tangon['placement'] = foxtra;
+                    sizing = 'QUESTS_FETCH_QUEST_TO_DELIVER_BEGIN';
+                    tangon['type'] = sizing;
+                    tangon['placement'] = kiloes;
                     tangon = yankee.bind(romeon)(tangon);
                     tangon = 9;
                     report = report[tangon];
@@ -1742,7 +1744,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = offset.recordQuestRequestAttempt;
                     yankee = '/quests/decision';
                     report = report.bind(offset)(yankee);
- 117: // try_start_0
+ 121: // try_start_0
                     offset = _closure1_slot0;
                     romeon = _closure1_slot2;
                     report = 15;
@@ -1750,165 +1752,179 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = offset.bind(michal)(report);
                     report = offset.getSession;
                     report = report.bind(offset)();
-                    SaveGenerator(address=151);
- 149:
+                    SaveGenerator(address=155);
+ 153:
                     return report;
- 151:
+ 155:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00030_ip = 802; continue _fun00029 }
- 160:
-                    papara = report;
+                    if(offset) { _fun00030_ip = 834; continue _fun00029 }
+ 164:
+                    status = report;
                     romeon = _closure1_slot0;
-                    foxtra = _closure1_slot2;
+                    kiloes = _closure1_slot2;
                     offset = 16;
-                    offset = foxtra[offset];
+                    offset = kiloes[offset];
                     romeon = romeon.bind(michal)(offset);
                     offset = romeon.getOrRefreshAdSession;
                     offset = offset.bind(romeon)();
-                    SaveGenerator(address=197);
- 195:
+                    SaveGenerator(address=201);
+ 199:
                     return offset;
- 197:
+ 201:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(romeon) { _fun00030_ip = 799; continue _fun00029 }
- 206:
-                    kiloes = offset;
-                    foxtra = _closure1_slot0;
-                    backup = _closure1_slot2;
+                    if(romeon) { _fun00030_ip = 831; continue _fun00029 }
+ 210:
+                    result = offset;
+                    kiloes = _closure1_slot0;
+                    sizing = _closure1_slot2;
                     romeon = 4;
-                    romeon = backup[romeon];
-                    romeon = foxtra.bind(michal)(romeon);
-                    backup = romeon.HTTP;
-                    foxtra = backup.get;
+                    romeon = sizing[romeon];
+                    romeon = kiloes.bind(michal)(romeon);
+                    output = romeon.HTTP;
+                    sizing = output.get;
                     romeon = {};
-                    cntext = _closure1_slot8;
-                    record = cntext.QUEST_FETCH_QUEST_TO_DELIVER;
-                    result = oscard;
-                    sizing = papara;
-                    echoed = null;
-                    target = echoed == sizing;
-                    sizing = undefined;
-                    if(target) { _fun00030_ip = 274; continue _fun00029 }
- 268:
-                    sizing = papara.uuid;
- 274:
-                    kiloes = kiloes.uuid;
-                    kiloes = record.bind(cntext)(result, sizing, kiloes);
-                    romeon['url'] = kiloes;
-                    kiloes = false;
-                    romeon['rejectWithError'] = kiloes;
-                    romeon = foxtra.bind(backup)(romeon);
-                    SaveGenerator(address=306);
- 304:
+                    target = _closure1_slot8;
+                    papara = target.QUEST_FETCH_QUEST_TO_DELIVER;
+                    cntext = oscard;
+                    update = status;
+                    kiloes = null;
+                    sierra = kiloes == update;
+                    update = undefined;
+                    if(sierra) { _fun00030_ip = 278; continue _fun00029 }
+ 272:
+                    update = status.uuid;
+ 278:
+                    result = result.uuid;
+                    result = papara.bind(target)(cntext, update, result);
+                    romeon['url'] = result;
+                    result = false;
+                    romeon['rejectWithError'] = result;
+                    romeon = sizing.bind(output)(romeon);
+                    SaveGenerator(address=310);
+ 308:
                     return romeon;
- 306:
-                    ResumeGenerator(result_out_reg=11, return_bool_out_reg=12);
-                    if(foxtra) { _fun00030_ip = 796; continue _fun00029 }
- 315:
-                    result = romeon.body;
-                    output = result;
-                    backup = _closure1_slot1;
-                    cntext = _closure1_slot2;
-                    foxtra = cntext[zuuluu];
-                    kiloes = backup.bind(michal)(foxtra);
-                    backup = kiloes.dispatch;
-                    foxtra = {};
-                    sizing = 'QUESTS_FETCH_QUEST_TO_DELIVER_SUCCESS';
-                    foxtra['type'] = sizing;
-                    record = _closure1_slot0;
+ 310:
+                    ResumeGenerator(result_out_reg=11, return_bool_out_reg=15);
+                    if(sizing) { _fun00030_ip = 828; continue _fun00029 }
+ 319:
+                    sizing = romeon.body;
+                    echoed = sizing;
+                    sizing = sizing.quest;
+                    backup = sizing;
+                    sizing = kiloes != sizing;
+                    result = undefined;
+                    if(!sizing) { _fun00030_ip = 376; continue _fun00029 }
+ 345:
+                    output = _closure1_slot0;
+                    update = _closure1_slot2;
                     sizing = 10;
-                    sizing = cntext[sizing];
-                    cntext = record.bind(michal)(sizing);
-                    record = cntext.questConfigFromServer;
-                    sizing = result.quest;
-                    sizing = record.bind(cntext)(sizing);
-                    foxtra['quest'] = sizing;
-                    sizing = {};
-                    result = result.ad_identifiers;
-                    config = result;
-                    record = echoed == result;
-                    result = undefined;
-                    if(record) { _fun00030_ip = 421; continue _fun00029 }
- 415:
-                    result = config.ad_id;
- 421:
-                    sizing['ad_id'] = result;
-                    result = output;
-                    result = result.ad_identifiers;
-                    sequen = result;
-                    config = echoed == result;
-                    result = undefined;
-                    if(config) { _fun00030_ip = 453; continue _fun00029 }
+                    sizing = update[sizing];
+                    output = output.bind(michal)(sizing);
+                    sizing = output.questConfigFromServer;
+                    result = sizing.bind(output)(backup);
+ 376:
+                    foxtra = result;
+                    sizing = _closure1_slot1;
+                    backup = _closure1_slot2;
+                    backup = backup[zuuluu];
+                    output = sizing.bind(michal)(backup);
+                    sizing = output.dispatch;
+                    backup = {};
+                    update = 'QUESTS_FETCH_QUEST_TO_DELIVER_SUCCESS';
+                    backup['type'] = update;
+                    backup['quest'] = result;
+                    result = {};
+                    update = echoed;
+                    update = update.ad_identifiers;
+                    record = update;
+                    cntext = kiloes == update;
+                    update = undefined;
+                    if(cntext) { _fun00030_ip = 447; continue _fun00029 }
+ 441:
+                    update = record.ad_id;
  447:
-                    result = sequen.adset_id;
- 453:
-                    sizing['adset_id'] = result;
-                    result = output;
-                    result = result.ad_identifiers;
-                    vacuum = result;
-                    sequen = echoed == result;
-                    result = undefined;
-                    if(sequen) { _fun00030_ip = 485; continue _fun00029 }
+                    result['ad_id'] = update;
+                    update = echoed;
+                    update = update.ad_identifiers;
+                    config = update;
+                    record = kiloes == update;
+                    update = undefined;
+                    if(record) { _fun00030_ip = 479; continue _fun00029 }
+ 473:
+                    update = config.adset_id;
  479:
-                    result = vacuum.ad_set_id;
- 485:
-                    sizing['ad_set_id'] = result;
-                    result = output;
-                    result = result.ad_identifiers;
-                    ctrled = result;
-                    vacuum = echoed == result;
-                    result = undefined;
-                    if(vacuum) { _fun00030_ip = 517; continue _fun00029 }
+                    result['adset_id'] = update;
+                    update = echoed;
+                    update = update.ad_identifiers;
+                    sequen = update;
+                    config = kiloes == update;
+                    update = undefined;
+                    if(config) { _fun00030_ip = 511; continue _fun00029 }
+ 505:
+                    update = sequen.ad_set_id;
  511:
-                    result = ctrled.campaign_id;
- 517:
-                    sizing['campaign_id'] = result;
-                    result = output;
-                    result = result.ad_identifiers;
-                    source = result;
-                    ctrled = echoed == result;
-                    result = undefined;
-                    if(ctrled) { _fun00030_ip = 549; continue _fun00029 }
+                    result['ad_set_id'] = update;
+                    update = echoed;
+                    update = update.ad_identifiers;
+                    vacuum = update;
+                    sequen = kiloes == update;
+                    update = undefined;
+                    if(sequen) { _fun00030_ip = 543; continue _fun00029 }
+ 537:
+                    update = vacuum.campaign_id;
  543:
-                    result = source.creative_id;
- 549:
-                    sizing['creative_id'] = result;
-                    result = output;
-                    result = result.ad_identifiers;
-                    update = result;
-                    source = echoed == result;
-                    result = undefined;
-                    if(source) { _fun00030_ip = 581; continue _fun00029 }
+                    result['campaign_id'] = update;
+                    update = echoed;
+                    update = update.ad_identifiers;
+                    ctrled = update;
+                    vacuum = kiloes == update;
+                    update = undefined;
+                    if(vacuum) { _fun00030_ip = 575; continue _fun00029 }
+ 569:
+                    update = ctrled.creative_id;
  575:
-                    result = update.creative_type;
- 581:
-                    sizing['creative_type'] = result;
-                    result = output.request_id;
-                    sizing['decision_id'] = result;
-                    result = output.ad_identifiers;
-                    result = echoed != result;
-                    sizing['is_targeted'] = result;
-                    result = output.metadata_raw;
-                    sizing['metadata_raw'] = result;
-                    foxtra['adDecisionData'] = sizing;
-                    sizing = oscard;
-                    foxtra['placement'] = sizing;
-                    foxtra = backup.bind(kiloes)(foxtra);
+                    result['creative_id'] = update;
+                    update = echoed;
+                    update = update.ad_identifiers;
+                    source = update;
+                    ctrled = kiloes == update;
+                    update = undefined;
+                    if(ctrled) { _fun00030_ip = 607; continue _fun00029 }
+ 601:
+                    update = source.creative_type;
+ 607:
+                    result['creative_type'] = update;
+                    update = echoed.request_id;
+                    result['decision_id'] = update;
+                    update = echoed.ad_identifiers;
+                    update = kiloes != update;
+                    result['is_targeted'] = update;
+                    echoed = echoed.metadata_raw;
+                    result['metadata_raw'] = echoed;
+                    backup['adDecisionData'] = result;
+                    result = oscard;
+                    backup['placement'] = result;
+                    backup = sizing.bind(output)(backup);
+                    sizing = _closure1_slot1;
+                    backup = _closure1_slot2;
+                    backup = backup[tangon];
+                    output = sizing.bind(michal)(backup);
+                    sizing = output.recordQuestRequestApiResponse;
+                    backup = {};
+                    result = true;
+                    backup['wasSuccessful'] = result;
+                    backup = sizing.bind(output)(yankee, backup);
+                    backup = foxtra;
+                    if(!(kiloes != backup)) { _fun00030_ip = 823; continue _fun00029 }
+ 712:
                     echoed = _closure1_slot1;
                     update = _closure1_slot2;
-                    foxtra = update[tangon];
-                    kiloes = echoed.bind(michal)(foxtra);
-                    backup = kiloes.recordQuestRequestApiResponse;
-                    foxtra = {};
-                    sizing = true;
-                    foxtra['wasSuccessful'] = sizing;
-                    foxtra = backup.bind(kiloes)(yankee, foxtra);
-                    foxtra = 17;
-                    foxtra = update[foxtra];
-                    kiloes = echoed.bind(michal)(foxtra);
+                    backup = 17;
+                    backup = update[backup];
+                    kiloes = echoed.bind(michal)(backup);
                     backup = kiloes.startTracking;
-                    foxtra = output.quest;
-                    foxtra = foxtra.id;
+                    output = foxtra;
+                    foxtra = output.id;
                     foxtra = backup.bind(kiloes)(foxtra);
                     foxtra = 18;
                     foxtra = update[foxtra];
@@ -1920,23 +1936,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     result = 19;
                     result = update[result];
                     result = echoed.bind(michal)(result);
-                    sierra = result.bind(michal)();
-                    limora = foxtra;
-                    result = copyDataProperties(limora, sierra);
-                    output = output.quest;
+                    whisks = result.bind(michal)();
+                    equals = foxtra;
+                    result = copyDataProperties(equals, whisks);
                     result = output.id;
                     output = 'quest_id';
                     foxtra[output] = result;
                     foxtra = kiloes.bind(sizing)(backup, foxtra);
- 791: // try_end0
-                    _fun00030_ip = 1085; continue _fun00029;
- 796:
+ 823: // try_end0
+                    _fun00030_ip = 1117; continue _fun00029;
+ 828:
                     return romeon;
- 799:
+ 831:
                     return offset;
- 802:
+ 834:
                     return report;
- 805: // catch_target0
+ 837: // catch_target0
                     CatchBlockStart(arg_register=12);
                     verify = foxtra;
                     backup = _closure1_slot1;
@@ -1958,24 +1973,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = 19;
                     offset = kiloes[offset];
                     offset = backup.bind(michal)(offset);
-                    sierra = offset.bind(michal)();
-                    limora = tangon;
-                    offset = copyDataProperties(limora, sierra);
+                    whisks = offset.bind(michal)();
+                    equals = tangon;
+                    offset = copyDataProperties(equals, whisks);
                     offset = null;
                     backup = offset == foxtra;
                     foxtra = undefined;
-                    if(backup) { _fun00030_ip = 919; continue _fun00029 }
- 911:
+                    if(backup) { _fun00030_ip = 951; continue _fun00029 }
+ 943:
                     backup = verify;
                     foxtra = backup.message;
- 919:
+ 951:
                     option = foxtra;
                     foxtra = offset != foxtra;
                     offset = null;
-                    if(!foxtra) { _fun00030_ip = 934; continue _fun00029 }
- 931:
+                    if(!foxtra) { _fun00030_ip = 966; continue _fun00029 }
+ 963:
                     offset = option;
- 934:
+ 966:
                     option = 'reason';
                     tangon[option] = offset;
                     option = _closure1_slot1;
@@ -1985,9 +2000,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = option.bind(michal)(foxtra);
                     backup = foxtra.prototype;
                     backup = Object.create(backup, {constructor: {value: foxtra}});
-                    whisks = backup;
-                    limora = verify;
-                    foxtra = new whisks[foxtra](limora, sierra);
+                    quebec = backup;
+                    equals = verify;
+                    foxtra = new quebec[foxtra](equals, whisks);
                     backup = foxtra instanceof Object ? foxtra : backup;
                     foxtra = backup.getAnyErrorMessage;
                     backup = foxtra.bind(backup)();
@@ -2004,16 +2019,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = option.bind(michal)(golfie);
                     option = golfie.prototype;
                     option = Object.create(option, {constructor: {value: golfie}});
-                    whisks = option;
-                    limora = verify;
-                    golfie = new whisks[golfie](limora, sierra);
+                    quebec = option;
+                    equals = verify;
+                    golfie = new quebec[golfie](equals, whisks);
                     golfie = golfie instanceof Object ? golfie : option;
                     zuuluu['error'] = golfie;
                     zuuluu['placement'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 1085:
+ 1117:
                     return michal;
- 1088:
+ 1120:
                     return entity;
                 }
             };

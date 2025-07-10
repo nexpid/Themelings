@@ -135,7 +135,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot15 = tangon;
-    tangon = 27;
+    tangon = 28;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = 20;
             result = ctrled[result];
             source = echoed.bind(tangon)(result);
-            update = source.isSnowflakeBoundDismissibleContentDismissed;
+            update = source.UNSAFE_isSnowflakeBoundDismissibleContentDismissed;
             result = 21;
             result = ctrled[result];
             result = echoed.bind(tangon)(result);
@@ -282,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  436:
             update = _closure1_slot0;
             ctrled = _closure1_slot2;
-            output = 20;
+            output = 22;
             output = ctrled[output];
             echoed = update.bind(tangon)(output);
             result = echoed.isVersionedDismissibleContentDismissed;
@@ -298,7 +298,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  500:
             result = _closure1_slot0;
             echoed = _closure1_slot2;
-            output = 22;
+            output = 23;
             output = echoed[output];
             output = result.bind(tangon)(output);
             echoed = output.SeasonalGiftingReminderExperiment;
@@ -325,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  596:
             kiloes = _closure1_slot0;
             yankee = _closure1_slot2;
-            verify = 23;
+            verify = 24;
             yankee = yankee[verify];
             echoed = kiloes.bind(tangon)(yankee);
             result = echoed.useSelectedVersionedDismissibleContent;
@@ -341,7 +341,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  643:
             update = _closure1_slot0;
             ctrled = _closure1_slot2;
-            yankee = 24;
+            yankee = 25;
             yankee = ctrled[yankee];
             update = update.bind(tangon)(yankee);
             yankee = update.getVersionedDismissibleContentCurrentVersion;
@@ -414,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  898:
             kiloes = _closure1_slot0;
             sizing = _closure1_slot2;
-            backup = 26;
+            backup = 27;
             backup = sizing[backup];
             kiloes = kiloes.bind(tangon)(backup);
             backup = kiloes.isAndroid;
@@ -510,7 +510,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure1_slot9;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 25;
+                    entity = 26;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -526,7 +526,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure1_slot9;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 25;
+                    entity = 26;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -542,7 +542,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure1_slot9;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 25;
+                    entity = 26;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -558,7 +558,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure1_slot9;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    entity = 25;
+                    entity = 26;
                     entity = golfie[entity];
                     entity = michal.bind(tangon)(entity);
                     michal = entity.DismissibleActionSheet;
@@ -583,7 +583,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = foxtra.bind(tangon)(michal);
             zuuluu = michal.SelectedVersionedDismissibleContent;
             michal = {};
-            romeon = 24;
+            romeon = 25;
             romeon = backup[romeon];
             foxtra = foxtra.bind(tangon)(romeon);
             romeon = foxtra.getVersionedDismissibleContentCurrentVersion;
@@ -599,7 +599,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot9;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 25;
+                entity = 26;
                 entity = zuuluu[entity];
                 zuuluu = undefined;
                 entity = michal.bind(zuuluu)(entity);
@@ -639,7 +639,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot9;
                 michal = _closure1_slot0;
                 zuuluu = _closure1_slot2;
-                entity = 25;
+                entity = 26;
                 entity = zuuluu[entity];
                 zuuluu = undefined;
                 entity = michal.bind(zuuluu)(entity);

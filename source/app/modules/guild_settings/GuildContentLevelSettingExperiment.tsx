@@ -44,37 +44,55 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = oscard.bind(golfie)(report);
     zuuluu['GuildContentLevelSettingExperiment'] = tangon;
     tangon = function(argFoo) { // Original name: isEligibleForGuildContentLevelSetting
-        entity = argFoo;
-        report = entity.guildId;
-        entity = entity.location;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        michal['guildId'] = report;
-        michal['location'] = entity;
-        entity = {};
-        report = true;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = argFoo;
+            report = entity.guildId;
+            entity = entity.location;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['guildId'] = report;
+            michal['location'] = entity;
+            entity = {};
+            report = true;
+            entity['autoTrackExposure'] = report;
+            michal = zuuluu.bind(tangon)(michal, entity);
+            entity = null;
+            zuuluu = entity == michal;
+            entity = undefined;
+            if(zuuluu) { _fun00002_ip = 67; continue _fun00001 }
+ 62:
+            entity = michal.enabled;
+ 67:
+            return entity;
+        }
     };
     zuuluu['isEligibleForGuildContentLevelSetting'] = tangon;
     michal = function(argFoo) { // Original name: useIsGuildContentLevelSettingEnabled
-        entity = argFoo;
-        report = entity.guildId;
-        entity = entity.location;
-        tangon = _closure1_slot0;
-        zuuluu = tangon.getCurrentConfig;
-        michal = {};
-        michal['guildId'] = report;
-        michal['location'] = entity;
-        entity = {};
-        report = true;
-        entity['autoTrackExposure'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        entity = entity.enabled;
-        return entity;
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            entity = argFoo;
+            report = entity.guildId;
+            entity = entity.location;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['guildId'] = report;
+            michal['location'] = entity;
+            entity = {};
+            report = true;
+            entity['autoTrackExposure'] = report;
+            michal = zuuluu.bind(tangon)(michal, entity);
+            entity = null;
+            zuuluu = entity == michal;
+            entity = undefined;
+            if(zuuluu) { _fun00004_ip = 67; continue _fun00003 }
+ 62:
+            entity = michal.enabled;
+ 67:
+            return entity;
+        }
     };
     zuuluu['useIsGuildContentLevelSettingEnabled'] = michal;
     return entity;

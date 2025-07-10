@@ -1166,14 +1166,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[2] = kiloes;
             kiloes = null;
             output = kiloes != echoed;
-            if(!output) { _fun00016_ip = 882; continue _fun00015 }
- 862:
+            if(!output) { _fun00016_ip = 886; continue _fun00015 }
+ 866:
             result = _closure1_slot11;
             output = _closure1_slot30;
             sizing = {};
             sizing['children'] = echoed;
             kiloes = result.bind(tangon)(output, sizing);
- 882:
+ 886:
             backup[3] = kiloes;
             yankee['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);

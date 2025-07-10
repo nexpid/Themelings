@@ -80,8 +80,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = tangon.bind(entity)(zuuluu);
                 zuuluu = tangon.isCacheEnabled;
                 zuuluu = zuuluu.bind(tangon)();
-                if(!zuuluu) { _fun00002_ip = 181; continue _fun00001 }
- 96:
+                if(!zuuluu) { _fun00002_ip = 175; continue _fun00001 }
+ 92:
                 tangon = _closure1_slot6;
                 zuuluu = tangon.addChangeListener;
                 option = _closure1_slot1;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         michal = zuuluu.database;
                         tangon = michal.bind(zuuluu)();
                         michal = null;
-                        if(!(michal != tangon)) { _fun00004_ip = 61; continue _fun00003 }
+                        if(!(michal != tangon)) { _fun00004_ip = 59; continue _fun00003 }
  41:
                         zuuluu = tangon.transaction;
                         michal = function(argFoo) {
@@ -162,13 +162,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                             }
                         };
                         michal = zuuluu.bind(tangon)(michal);
- 61:
+ 59:
                         return entity;
                     }
                 };
                 michal = oscard.bind(golfie)(michal, report);
                 michal = zuuluu.bind(tangon)(michal);
- 181:
+ 175:
                 return entity;
             }
         };
@@ -184,7 +184,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 177; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 175; continue _fun00007 }
  10:
                     report = undefined;
                     michal = undefined;
@@ -199,7 +199,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)();
                     michal = zuuluu;
                     golfie = null;
-                    if(!(golfie != zuuluu)) { _fun00008_ip = 141; continue _fun00007 }
+                    if(!(golfie != zuuluu)) { _fun00008_ip = 139; continue _fun00007 }
  58:
                     zuuluu = michal;
                     michal = zuuluu.getMany;
@@ -209,7 +209,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return michal;
  75:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00008_ip = 138; continue _fun00007 }
+                    if(zuuluu) { _fun00008_ip = 136; continue _fun00007 }
  81:
                     tangon = michal.map;
                     zuuluu = function(argFoo) {
@@ -237,22 +237,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = global;
                     report = tangon.Object;
                     tangon = report.fromEntries;
-                    if(!(golfie == zuuluu)) { _fun00008_ip = 127; continue _fun00007 }
- 121:
+                    if(!(golfie == zuuluu)) { _fun00008_ip = 125; continue _fun00007 }
+ 119:
                     zuuluu = new Array(0);
-                    _fun00008_ip = 130; continue _fun00007;
- 127:
+                    _fun00008_ip = 128; continue _fun00007;
+ 125:
                     zuuluu = oscard;
- 130:
+ 128:
                     zuuluu = tangon.bind(report)(zuuluu);
- 135: // try_end0
+ 133: // try_end0
                     return zuuluu;
- 138:
+ 136:
                     return michal;
- 141:
+ 139:
                     michal = {};
                     return michal;
- 146: // catch_target0
+ 144: // catch_target0
                     CatchBlockStart(arg_register=4);
                     tangon = _closure1_slot7;
                     zuuluu = tangon.warn;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = zuuluu.bind(tangon)(michal, report);
                     michal = {};
                     return michal;
- 177:
+ 175:
                     return entity;
                 }
             };

@@ -240,16 +240,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['mentionCounts'] = zuuluu;
             oscard = tangon == report;
             zuuluu = undefined;
-            if(oscard) { _fun00010_ip = 69; continue _fun00009 }
- 63:
+            if(oscard) { _fun00010_ip = 65; continue _fun00009 }
+ 59:
             zuuluu = report.sentinel;
- 69:
+ 65:
             tangon = tangon != zuuluu;
             michal = 0;
-            if(!tangon) { _fun00010_ip = 81; continue _fun00009 }
- 78:
+            if(!tangon) { _fun00010_ip = 77; continue _fun00009 }
+ 74:
             michal = zuuluu;
- 81:
+ 77:
             entity['sentinel'] = michal;
             return entity;
         }

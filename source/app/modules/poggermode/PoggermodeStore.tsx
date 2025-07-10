@@ -27,11 +27,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(tangon)(michal);
             michal = !michal;
             var _closure2_slot0 = michal;
- 70: // try_end0
-            _fun00002_ip = 74; continue _fun00001;
- 72: // catch_target0
+ 72: // try_end0
+            _fun00002_ip = 76; continue _fun00001;
+ 74: // catch_target0
             CatchBlockStart(arg_register=1);
- 74:
+ 76:
             michal = function() { // Original name: _isNativeReflectConstruct
                 entity = _closure2_slot0;
                 entity = !entity;
@@ -168,10 +168,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = _closure1_slot16;
             oscard = oscard.bind(entity)(verify);
             oscard = golfie.bind(option)(oscard, tangon);
-            if(!report) { _fun00006_ip = 325; continue _fun00005 }
+            if(!report) { _fun00006_ip = 327; continue _fun00005 }
  293:
             report = tangon.decayInterval;
-            if(!(zuuluu != report)) { _fun00006_ip = 325; continue _fun00005 }
+            if(!(zuuluu != report)) { _fun00006_ip = 327; continue _fun00005 }
  303:
             tangon = report.start;
             zuuluu = 1000;
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 }
             };
             michal = tangon.bind(report)(zuuluu, michal);
- 325:
+ 327:
             return entity;
         }
     };
@@ -772,16 +772,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = golfie.bind(option)(report);
             report = _closure1_slot9;
             report = report.screenshakeEnabled;
-            if(!report) { _fun00026_ip = 253; continue _fun00025 }
+            if(!report) { _fun00026_ip = 255; continue _fun00025 }
  203:
             report = _closure1_slot9;
             golfie = report.screenshakeEnabledLocations;
             report = _closure1_slot11;
             report = report.MENTION;
             report = golfie[report];
-            if(!report) { _fun00026_ip = 253; continue _fun00025 }
+            if(!report) { _fun00026_ip = 255; continue _fun00025 }
  230:
-            if(!(michal != oscard)) { _fun00026_ip = 253; continue _fun00025 }
+            if(!(michal != oscard)) { _fun00026_ip = 255; continue _fun00025 }
  234:
             report = oscard.find;
             zuuluu = function(argFoo) {
@@ -792,21 +792,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             zuuluu = report.bind(oscard)(zuuluu);
-            if(!(michal == zuuluu)) { _fun00026_ip = 257; continue _fun00025 }
- 253:
+            if(!(michal == zuuluu)) { _fun00026_ip = 259; continue _fun00025 }
+ 255:
             zuuluu = false;
             return zuuluu;
- 257:
-            if(!(michal == option)) { _fun00026_ip = 288; continue _fun00025 }
- 261:
+ 259:
+            if(!(michal == option)) { _fun00026_ip = 290; continue _fun00025 }
+ 263:
             zuuluu = global;
             report = zuuluu.Math;
             zuuluu = report.random;
             report = zuuluu.bind(report)();
             zuuluu = 4;
             report = zuuluu * report;
-            _fun00026_ip = 353; continue _fun00025;
- 288:
+            _fun00026_ip = 355; continue _fun00025;
+ 290:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
             zuuluu = 12;
@@ -818,12 +818,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = oscard.bind(golfie)(option, zuuluu);
             oscard = michal != zuuluu;
             michal = 0.001;
-            if(!oscard) { _fun00026_ip = 350; continue _fun00025 }
- 347:
+            if(!oscard) { _fun00026_ip = 352; continue _fun00025 }
+ 349:
             michal = zuuluu;
- 350:
+ 352:
             report = michal;
- 353:
+ 355:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot1;
             michal = 13;

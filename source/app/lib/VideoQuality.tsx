@@ -3583,7 +3583,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = 13;
                 michal = golfie[michal];
                 tangon = tangon.bind(entity)(michal);
-                michal = tangon.setIsEqual;
+                michal = tangon.areSetsEqual;
                 michal = michal.bind(tangon)(oscard, report);
                 if(michal) { _fun00042_ip = 771; continue _fun00041 }
  754:
