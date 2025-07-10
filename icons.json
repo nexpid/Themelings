@@ -3052,6 +3052,24 @@
         "width": 343,
         "height": 149
     },
+    "featured_page_footer_dark": {
+        "file": "modules/collectibles/native/images/featured_page_footer_dark.png",
+        "hash": "8c6551e987e65957d7c90c18eddac8f1",
+        "scales": [
+            1
+        ],
+        "width": 375,
+        "height": 162
+    },
+    "featured_page_footer_light": {
+        "file": "modules/collectibles/native/images/featured_page_footer_light.png",
+        "hash": "bda37cc0de8c36fb8217439574ac2fe2",
+        "scales": [
+            1
+        ],
+        "width": 375,
+        "height": 162
+    },
     "feedback": {
         "file": "images/native/notifications/feedback.png",
         "hash": "f0ae2d21b58ec5aa8c53d98ac50b4e92",
@@ -11028,6 +11046,16 @@
         ],
         "width": 300,
         "height": 175
+    },
+    "MenuIcon": {
+        "file": "design/components/Icon/native/redesign/generated/images/MenuIcon.png",
+        "hash": "308f03a4a3f92cdaab846e9b9bb00492",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
     },
     "MessageRequest": {
         "file": "design/components/LottieIcon/native/generated/lotties/MessageRequest.lottie",
