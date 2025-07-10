@@ -890,12 +890,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot0 = entity;
             foxtra = michal.reactorUserId;
             tangon = null;
-            if(!(tangon != offset)) { _fun00022_ip = 745; continue _fun00021 }
+            if(!(tangon != offset)) { _fun00022_ip = 749; continue _fun00021 }
  41:
             michal = offset.reactions;
-            if(!(tangon != michal)) { _fun00022_ip = 745; continue _fun00021 }
+            if(!(tangon != michal)) { _fun00022_ip = 749; continue _fun00021 }
  54:
-            if(!(tangon != entity)) { _fun00022_ip = 745; continue _fun00021 }
+            if(!(tangon != entity)) { _fun00022_ip = 749; continue _fun00021 }
  61:
             zuuluu = _closure1_slot0;
             entity = _closure1_slot2;
@@ -905,7 +905,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.allowInAppNotifications;
             michal = michal.bind(zuuluu)();
-            if(!michal) { _fun00022_ip = 745; continue _fun00021 }
+            if(!michal) { _fun00022_ip = 749; continue _fun00021 }
  102:
             zuuluu = _closure1_slot0;
             option = _closure1_slot2;
@@ -914,21 +914,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.tryParseChannelPath;
             michal = michal.bind(zuuluu)(oscard);
-            if(!(tangon == michal)) { _fun00022_ip = 147; continue _fun00021 }
+            if(!(tangon == michal)) { _fun00022_ip = 151; continue _fun00021 }
  137:
             michal = {'channelId': null, 'guildId': null};
- 147:
+ 151:
             yankee = michal.channelId;
             verify = michal.guildId;
-            if(!(tangon != yankee)) { _fun00022_ip = 741; continue _fun00021 }
- 164:
+            if(!(tangon != yankee)) { _fun00022_ip = 745; continue _fun00021 }
+ 168:
             zuuluu = _closure1_slot17;
             michal = zuuluu.getCurrentlySelectedChannelId;
             michal = michal.bind(zuuluu)();
-            if(!(michal !== yankee)) { _fun00022_ip = 741; continue _fun00021 }
- 185:
-            if(!(tangon != verify)) { _fun00022_ip = 741; continue _fun00021 }
- 192:
+            if(!(michal !== yankee)) { _fun00022_ip = 745; continue _fun00021 }
+ 189:
+            if(!(tangon != verify)) { _fun00022_ip = 745; continue _fun00021 }
+ 196:
             oscard = _closure1_slot0;
             option = _closure1_slot2;
             michal = 34;
@@ -942,36 +942,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = oscard.bind(entity)(michal);
             michal = michal.ReactionNotificationType;
             michal = michal.NOTIFICATIONS_DISABLED;
-            if(!(zuuluu !== michal)) { _fun00022_ip = 737; continue _fun00021 }
- 259:
+            if(!(zuuluu !== michal)) { _fun00022_ip = 741; continue _fun00021 }
+ 263:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[report];
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.shouldNotify;
             michal = michal.bind(zuuluu)(offset, yankee);
-            if(michal) { _fun00022_ip = 295; continue _fun00021 }
- 291:
+            if(michal) { _fun00022_ip = 299; continue _fun00021 }
+ 295:
             michal = false;
             return michal;
- 295:
+ 299:
             zuuluu = _closure1_slot14;
             michal = zuuluu.getChannel;
             oscard = michal.bind(zuuluu)(yankee);
             zuuluu = tangon == oscard;
             michal = undefined;
-            if(zuuluu) { _fun00022_ip = 323; continue _fun00021 }
- 318:
+            if(zuuluu) { _fun00022_ip = 327; continue _fun00021 }
+ 322:
             michal = oscard.type;
- 323:
+ 327:
             zuuluu = tangon != michal;
-            if(!zuuluu) { _fun00022_ip = 349; continue _fun00021 }
- 330:
+            if(!zuuluu) { _fun00022_ip = 353; continue _fun00021 }
+ 334:
             report = oscard.type;
             michal = _closure1_slot19;
             michal = michal.GUILD_ANNOUNCEMENT;
             zuuluu = report === michal;
- 349:
+ 353:
             report = _closure1_slot0;
             option = _closure1_slot2;
             michal = 36;
@@ -981,10 +981,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = offset.reactions;
             kiloes = tangon == oscard;
             michal = undefined;
-            if(kiloes) { _fun00022_ip = 395; continue _fun00021 }
- 390:
+            if(kiloes) { _fun00022_ip = 399; continue _fun00021 }
+ 394:
             michal = oscard.type;
- 395:
+ 399:
             michal = option.bind(backup)(report, michal);
             option = _closure1_slot15;
             report = option.getGuild;
@@ -992,12 +992,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot18;
             report = option.getUser;
             option = report.bind(option)(foxtra);
-            if(!(tangon != oscard)) { _fun00022_ip = 733; continue _fun00021 }
- 437:
-            if(!(tangon == option)) { _fun00022_ip = 447; continue _fun00021 }
+            if(!(tangon != oscard)) { _fun00022_ip = 737; continue _fun00021 }
  441:
-            if(!zuuluu) { _fun00022_ip = 733; continue _fun00021 }
- 447:
+            if(!(tangon == option)) { _fun00022_ip = 451; continue _fun00021 }
+ 445:
+            if(!zuuluu) { _fun00022_ip = 737; continue _fun00021 }
+ 451:
             backup = offset.reactions;
             foxtra = backup.find;
             report = function(argFoo) {
@@ -1030,19 +1030,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = foxtra.bind(backup)(report);
             backup = tangon != foxtra;
             report = undefined;
-            if(!backup) { _fun00022_ip = 480; continue _fun00021 }
- 477:
+            if(!backup) { _fun00022_ip = 484; continue _fun00021 }
+ 481:
             report = foxtra;
- 480:
-            if(!(tangon == report)) { _fun00022_ip = 494; continue _fun00021 }
  484:
-            if(zuuluu) { _fun00022_ip = 494; continue _fun00021 }
- 487:
-            if(michal) { _fun00022_ip = 494; continue _fun00021 }
- 490:
+            if(!(tangon == report)) { _fun00022_ip = 498; continue _fun00021 }
+ 488:
+            if(zuuluu) { _fun00022_ip = 498; continue _fun00021 }
+ 491:
+            if(michal) { _fun00022_ip = 498; continue _fun00021 }
+ 494:
             michal = false;
             return michal;
- 494:
+ 498:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 37;
@@ -1058,13 +1058,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.bind(foxtra)(zuuluu, michal);
             zuuluu = michal.enableInAppNotifications;
             michal = michal.enableNotificationsForAllReactions;
-            if(!zuuluu) { _fun00022_ip = 565; continue _fun00021 }
- 562:
-            if(michal) { _fun00022_ip = 569; continue _fun00021 }
- 565:
+            if(!zuuluu) { _fun00022_ip = 569; continue _fun00021 }
+ 566:
+            if(michal) { _fun00022_ip = 573; continue _fun00021 }
+ 569:
             michal = false;
             return michal;
- 569:
+ 573:
             zuuluu = _closure1_slot28;
             michal = {};
             tangon = {};
@@ -1113,9 +1113,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['notification'] = tangon;
             michal = zuuluu.bind(entity)(michal);
             return entity;
- 733:
-            entity = false;
-            return entity;
  737:
             entity = false;
             return entity;
@@ -1123,6 +1120,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = false;
             return entity;
  745:
+            entity = false;
+            return entity;
+ 749:
             entity = false;
             return entity;
         }

@@ -433,10 +433,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.Text;
             offset = {'variant': 'text-md/medium', 'color': 'header-secondary'};
             backup = null;
-            if(!(backup == output)) { _fun00002_ip = 705; continue _fun00001 }
- 604:
-            if(option) { _fun00002_ip = 705; continue _fun00001 }
- 607:
+            if(!(backup == output)) { _fun00002_ip = 701; continue _fun00001 }
+ 600:
+            if(option) { _fun00002_ip = 701; continue _fun00001 }
+ 603:
             backup = _closure1_slot0;
             ctrled = _closure1_slot2;
             option = 21;
@@ -458,8 +458,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = echoed.bind(source)(config);
             option['user'] = echoed;
             option = output.bind(result)(backup, option);
-            _fun00002_ip = 815; continue _fun00001;
- 705:
+            _fun00002_ip = 811; continue _fun00001;
+ 701:
             output = _closure1_slot0;
             ctrled = _closure1_slot2;
             backup = 21;
@@ -560,7 +560,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             backup['AKAHook'] = update;
             option = result.bind(echoed)(output, backup);
- 815:
+ 811:
             offset['children'] = option;
             option = 'transfer-ownership-details';
             option = foxtra.bind(tangon)(yankee, offset, option);

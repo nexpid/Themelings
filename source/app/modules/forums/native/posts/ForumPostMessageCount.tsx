@@ -201,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report[1] = oscard;
                 oscard = null;
                 oscard = oscard != backup;
-                if(!oscard) { _fun00004_ip = 550; continue _fun00003 }
+                if(!oscard) { _fun00004_ip = 554; continue _fun00003 }
  416:
                 verify = _closure1_slot5;
                 yankee = _closure1_slot0;
@@ -230,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset[2] = yankee;
                 golfie['children'] = offset;
                 oscard = verify.bind(tangon)(option, golfie);
- 550:
+ 554:
                 report[2] = oscard;
                 entity['children'] = report;
                 entity = zuuluu.bind(tangon)(michal, entity);

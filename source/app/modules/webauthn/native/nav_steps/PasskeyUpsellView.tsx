@@ -476,15 +476,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum[ctrled];
             vacuum = sequen.bind(tangon)(vacuum);
             sequen = vacuum.t;
-            if(output) { _fun00002_ip = 1199; continue _fun00001 }
- 1186:
+            if(output) { _fun00002_ip = 1203; continue _fun00001 }
+ 1190:
             vacuum = sequen.NIFmCA;
             vacuum = config.bind(record)(vacuum);
-            _fun00002_ip = 1210; continue _fun00001;
- 1199:
+            _fun00002_ip = 1214; continue _fun00001;
+ 1203:
             sequen = sequen.wePEBA;
             vacuum = config.bind(record)(sequen);
- 1210:
+ 1214:
             foxtra['text'] = vacuum;
             source = function() { // Original name: onPress
                 zuuluu = _closure1_slot1;
@@ -535,15 +535,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result[ctrled];
             result = source.bind(tangon)(result);
             result = result.t;
-            if(output) { _fun00002_ip = 1355; continue _fun00001 }
- 1342:
+            if(output) { _fun00002_ip = 1359; continue _fun00001 }
+ 1346:
             output = result.7J6/nJ;
             output = echoed.bind(update)(output);
-            _fun00002_ip = 1366; continue _fun00001;
- 1355:
+            _fun00002_ip = 1370; continue _fun00001;
+ 1359:
             result = result.wePEBA;
             output = echoed.bind(update)(result);
- 1366:
+ 1370:
             foxtra['text'] = output;
             foxtra['onPress'] = sizing;
             foxtra = kiloes.bind(tangon)(backup, foxtra);

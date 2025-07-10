@@ -1,13 +1,13 @@
 // app/utils/GuildRecordUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
+    golfie = argBar;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
     entity = argBaz;
     var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: fromGuildPropertiesWithAdditionalFields
+    var _closure1_slot2 = option;
+    report = function(argFoo, argBar, argBaz) { // Original name: fromGuildPropertiesWithAdditionalFields
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscard = argFoo;
@@ -188,8 +188,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = tangon;
-    entity = function(argFoo) { // Original name: constructFromPartialGuildRecord
+    var _closure1_slot10 = report;
+    michal = function(argFoo) { // Original name: constructFromPartialGuildRecord
         zuuluu = _closure1_slot12;
         michal = {};
         tangon = _closure1_slot7;
@@ -202,7 +202,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot11 = michal;
     entity = function(argFoo) { // Original name: constructGuildInPlace
         tangon = _closure1_slot3;
         zuuluu = _closure1_slot8;
@@ -213,44 +213,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     var _closure1_slot12 = entity;
     entity = global;
-    verify = entity.Object;
-    option = verify.defineProperty;
-    report = {};
+    offset = entity.Object;
+    verify = offset.defineProperty;
+    oscard = {};
     entity = true;
-    report['value'] = entity;
+    oscard['value'] = entity;
     entity = '__esModule';
-    entity = option.bind(verify)(zuuluu, entity, report);
+    entity = verify.bind(offset)(zuuluu, entity, oscard);
     entity = 0;
-    report = golfie[entity];
+    oscard = option[entity];
     entity = undefined;
-    report = oscard.bind(entity)(report);
-    option = report.constructInPlace;
-    var _closure1_slot3 = option;
-    option = report.merge;
-    var _closure1_slot4 = option;
-    option = report.objectIsPlainRecordOfType;
-    var _closure1_slot5 = option;
-    report = report.tryReuseExistingInPlacePlainRecord;
-    var _closure1_slot6 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.GUILD_DEFAULT_PROPERTY_VALUES;
-    var _closure1_slot7 = option;
-    report = report.GuildRecordTypeTag;
-    var _closure1_slot8 = report;
-    report = 2;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    report = report.GuildNSFWContentLevel;
-    var _closure1_slot9 = report;
-    report = 5;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/GuildRecordUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: isGuildRecord
+    oscard = golfie.bind(entity)(oscard);
+    verify = oscard.constructInPlace;
+    var _closure1_slot3 = verify;
+    verify = oscard.merge;
+    var _closure1_slot4 = verify;
+    verify = oscard.objectIsPlainRecordOfType;
+    var _closure1_slot5 = verify;
+    oscard = oscard.tryReuseExistingInPlacePlainRecord;
+    var _closure1_slot6 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    verify = oscard.GUILD_DEFAULT_PROPERTY_VALUES;
+    var _closure1_slot7 = verify;
+    oscard = oscard.GuildRecordTypeTag;
+    var _closure1_slot8 = oscard;
+    oscard = 2;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    oscard = oscard.GuildNSFWContentLevel;
+    var _closure1_slot9 = oscard;
+    oscard = 5;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'utils/GuildRecordUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function(argFoo) { // Original name: isGuildRecord
         tangon = _closure1_slot5;
         zuuluu = _closure1_slot8;
         michal = undefined;
@@ -258,9 +258,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = tangon.bind(michal)(zuuluu, entity);
         return entity;
     };
-    zuuluu['isGuildRecord'] = report;
-    zuuluu['fromGuildPropertiesWithAdditionalFields'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: fromServer
+    zuuluu['isGuildRecord'] = oscard;
+    zuuluu['fromGuildPropertiesWithAdditionalFields'] = report;
+    report = function(argFoo, argBar) { // Original name: fromServer
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             entity = argFoo;
@@ -329,8 +329,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromServer'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: attachSerializedData
+    zuuluu['fromServer'] = report;
+    report = function(argFoo, argBar, argBaz) { // Original name: attachSerializedData
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             michal = argFoo;
@@ -377,8 +377,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['attachSerializedData'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: fromBackgroundSync
+    zuuluu['attachSerializedData'] = report;
+    report = function(argFoo, argBar) { // Original name: fromBackgroundSync
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             michal = argFoo;
@@ -401,8 +401,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromBackgroundSync'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: fromGuild
+    zuuluu['fromBackgroundSync'] = report;
+    report = function(argFoo, argBar) { // Original name: fromGuild
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = argFoo;
@@ -444,8 +444,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: fromInviteGuild
+    zuuluu['fromGuild'] = report;
+    report = function(argFoo) { // Original name: fromInviteGuild
         tangon = argFoo;
         zuuluu = _closure1_slot11;
         michal = {};
@@ -486,8 +486,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(entity)(michal);
         return entity;
     };
-    zuuluu['fromInviteGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: fromGuildProfile
+    zuuluu['fromInviteGuild'] = report;
+    report = function(argFoo) { // Original name: fromGuildProfile
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             tangon = argFoo;
@@ -530,8 +530,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromGuildProfile'] = tangon;
-    tangon = function(argFoo) { // Original name: fromStoreListingGuild
+    zuuluu['fromGuildProfile'] = report;
+    report = function(argFoo) { // Original name: fromStoreListingGuild
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
@@ -554,8 +554,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromStoreListingGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: fromDirectoryGuild
+    zuuluu['fromStoreListingGuild'] = report;
+    report = function(argFoo) { // Original name: fromDirectoryGuild
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             tangon = argFoo;
@@ -604,8 +604,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromDirectoryGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: fromGuildDirectoryEntry
+    zuuluu['fromDirectoryGuild'] = report;
+    report = function(argFoo) { // Original name: fromGuildDirectoryEntry
         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
             tangon = argFoo;
@@ -660,8 +660,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromGuildDirectoryEntry'] = tangon;
-    tangon = function(argFoo) { // Original name: fromVerificationGateGuild
+    zuuluu['fromGuildDirectoryEntry'] = report;
+    report = function(argFoo) { // Original name: fromVerificationGateGuild
         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
             tangon = argFoo;
@@ -717,8 +717,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromVerificationGateGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: fromClientDiscoverableGuild
+    zuuluu['fromVerificationGateGuild'] = report;
+    report = function(argFoo) { // Original name: fromClientDiscoverableGuild
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             report = argFoo;
@@ -797,8 +797,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromClientDiscoverableGuild'] = tangon;
-    tangon = function(argFoo) { // Original name: fromGuildBasic
+    zuuluu['fromClientDiscoverableGuild'] = report;
+    report = function(argFoo) { // Original name: fromGuildBasic
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             tangon = argFoo;
@@ -855,8 +855,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromGuildBasic'] = tangon;
-    tangon = function(argFoo) { // Original name: dangerouslyConstructGuildRecordFromUntypedObject
+    zuuluu['fromGuildBasic'] = report;
+    report = function(argFoo) { // Original name: dangerouslyConstructGuildRecordFromUntypedObject
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             report = argFoo;
@@ -1125,8 +1125,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['dangerouslyConstructGuildRecordFromUntypedObject'] = tangon;
-    tangon = function(argFoo) { // Original name: toGuildProperties
+    zuuluu['dangerouslyConstructGuildRecordFromUntypedObject'] = report;
+    report = function(argFoo) { // Original name: toGuildProperties
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             tangon = argFoo;
@@ -1256,8 +1256,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['toGuildProperties'] = tangon;
-    michal = function(argFoo) { // Original name: fromSerializedGuildRecord
+    zuuluu['toGuildProperties'] = report;
+    tangon = function(argFoo) { // Original name: fromSerializedGuildRecord
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
             tangon = argFoo;
@@ -1299,6 +1299,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['fromSerializedGuildRecord'] = michal;
+    zuuluu['fromSerializedGuildRecord'] = tangon;
+    zuuluu['constructFromPartialGuildRecord'] = michal;
     return entity;
 })();

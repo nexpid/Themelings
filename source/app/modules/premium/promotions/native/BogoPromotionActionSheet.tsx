@@ -119,9 +119,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 'modules/premium/promotions/native/BogoPromotionActionSheet.tsx';
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: BogoPromotionActionSheet
-        entity = argFoo;
-        entity = entity.markAsDismissed;
-        var _closure2_slot0 = entity;
+        michal = argFoo;
+        oscard = michal.markAsDismissed;
+        var _closure2_slot0 = oscard;
         michal = _closure1_slot15;
         tangon = undefined;
         kiloes = michal.bind(tangon)();
@@ -131,28 +131,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         michal = output[michal];
         michal = sizing.bind(tangon)(michal);
         michal = michal.bind(tangon)();
-        golfie = michal.analyticsLocations;
-        var _closure2_slot1 = golfie;
+        michal = michal.analyticsLocations;
+        var _closure2_slot1 = michal;
         backup = _closure1_slot0;
-        michal = 10;
-        michal = output[michal];
-        option = backup.bind(tangon)(michal);
-        oscard = option.useStateFromStores;
-        michal = _closure1_slot5;
-        zuuluu = new Array(1);
-        zuuluu[0] = michal;
-        michal = function() {
+        zuuluu = 10;
+        zuuluu = output[zuuluu];
+        option = backup.bind(tangon)(zuuluu);
+        golfie = option.useStateFromStores;
+        zuuluu = _closure1_slot5;
+        report = new Array(1);
+        report[0] = zuuluu;
+        zuuluu = function() {
             entity = _closure1_slot5;
             entity = entity.useReducedMotion;
             return entity;
         };
-        romeon = oscard.bind(option)(zuuluu, michal);
-        oscard = _closure1_slot3;
-        zuuluu = oscard.useCallback;
-        michal = new Array(2);
-        michal[0] = golfie;
-        michal[1] = entity;
-        entity = function() {
+        romeon = golfie.bind(option)(report, zuuluu);
+        report = _closure1_slot3;
+        golfie = report.useCallback;
+        zuuluu = new Array(2);
+        zuuluu[0] = michal;
+        zuuluu[1] = oscard;
+        michal = function() {
             zuuluu = _closure2_slot0;
             entity = _closure1_slot12;
             michal = entity.PRIMARY;
@@ -186,21 +186,39 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(entity)(michal);
             return entity;
         };
-        foxtra = zuuluu.bind(oscard)(entity, michal);
+        foxtra = golfie.bind(report)(michal, zuuluu);
+        golfie = report.useEffect;
+        zuuluu = function() {
+            entity = function() {
+                zuuluu = _closure2_slot0;
+                entity = _closure1_slot12;
+                michal = entity.USER_DISMISS;
+                entity = undefined;
+                michal = zuuluu.bind(entity)(michal);
+                return entity;
+            };
+            return entity;
+        };
+        michal = new Array(0);
+        michal = golfie.bind(report)(zuuluu, michal);
+        zuuluu = report.useCallback;
+        michal = new Array(1);
+        michal[0] = oscard;
+        entity = function() {
+            zuuluu = _closure2_slot0;
+            entity = _closure1_slot12;
+            michal = entity.USER_DISMISS;
+            entity = undefined;
+            michal = zuuluu.bind(entity)(michal);
+            return entity;
+        };
+        report = zuuluu.bind(report)(entity, michal);
         zuuluu = _closure1_slot13;
         entity = 12;
         entity = output[entity];
         entity = backup.bind(tangon)(entity);
         michal = entity.BottomSheet;
         entity = {};
-        report = function() { // Original name: onDismiss
-            zuuluu = _closure2_slot0;
-            entity = _closure1_slot12;
-            michal = entity.USER_DISMISS;
-            entity = undefined;
-            entity = zuuluu.bind(entity)(michal);
-            return entity;
-        };
         entity['onDismiss'] = report;
         golfie = _closure1_slot14;
         oscard = _closure1_slot4;

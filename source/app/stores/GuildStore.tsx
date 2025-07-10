@@ -226,56 +226,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
-    michal = {};
+    tangon = {};
     entity = true;
-    michal['value'] = entity;
+    tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, michal);
+    entity = golfie.bind(verify)(zuuluu, entity, tangon);
     entity = 0;
-    michal = oscard[entity];
+    tangon = oscard[entity];
     entity = undefined;
-    michal = option.bind(entity)(michal);
-    var _closure1_slot3 = michal;
-    michal = 1;
-    michal = oscard[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot4 = michal;
-    michal = 2;
-    michal = oscard[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot5 = michal;
-    michal = 3;
-    michal = oscard[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot6 = michal;
-    michal = 4;
-    michal = oscard[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot7 = michal;
-    michal = 5;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    golfie = michal.KvStore;
-    michal = 6;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.updateJoinedAt;
-    var _closure1_slot8 = michal;
-    michal = 7;
-    michal = oscard[michal];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot9 = michal;
-    michal = 8;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.FAVORITES;
-    var _closure1_slot10 = michal;
-    michal = 9;
-    michal = oscard[michal];
-    michal = report.bind(entity)(michal);
-    michal = michal.FAVORITES_GUILD_RECORD;
-    var _closure1_slot11 = michal;
-    michal = function(argFoo) {
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot5 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot6 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot7 = tangon;
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.KvStore;
+    tangon = 6;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.updateJoinedAt;
+    var _closure1_slot8 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot9 = tangon;
+    tangon = 8;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FAVORITES;
+    var _closure1_slot10 = tangon;
+    tangon = 9;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.FAVORITES_GUILD_RECORD;
+    var _closure1_slot11 = tangon;
+    tangon = function(argFoo) {
         tangon = function(argFoo) { // Original name: GuildStore
             _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -396,11 +396,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
-    golfie = michal.bind(entity)(golfie);
-    michal = 'GuildStore';
-    golfie['displayName'] = michal;
-    michal = {};
-    option = function(argFoo, argBar) { // Original name: BACKGROUND_SYNC
+    option = tangon.bind(entity)(golfie);
+    tangon = 'GuildStore';
+    option['displayName'] = tangon;
+    golfie = {};
+    tangon = function(argFoo, argBar) { // Original name: BACKGROUND_SYNC
         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             verify = argBar;
@@ -446,8 +446,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['BACKGROUND_SYNC'] = option;
-    option = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
+    golfie['BACKGROUND_SYNC'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
         zuuluu = argBar;
         michal = argFoo;
         michal = michal.guilds;
@@ -490,8 +490,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['CONNECTION_OPEN'] = option;
-    option = function(argFoo, argBar) { // Original name: OVERLAY_INITIALIZE
+    golfie['CONNECTION_OPEN'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: OVERLAY_INITIALIZE
         zuuluu = argBar;
         michal = argFoo;
         michal = michal.guilds;
@@ -556,8 +556,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['OVERLAY_INITIALIZE'] = option;
-    option = function(argFoo, argBar) { // Original name: CACHE_LOADED
+    golfie['OVERLAY_INITIALIZE'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: CACHE_LOADED
         zuuluu = argBar;
         michal = argFoo;
         michal = michal.guilds;
@@ -597,8 +597,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['CACHE_LOADED'] = option;
-    option = function(argFoo, argBar) { // Original name: CACHE_LOADED_LAZY
+    golfie['CACHE_LOADED'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: CACHE_LOADED_LAZY
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             zuuluu = argBar;
@@ -646,8 +646,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['CACHE_LOADED_LAZY'] = option;
-    option = function(argFoo, argBar) { // Original name: GUILD_CREATE
+    golfie['CACHE_LOADED_LAZY'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: GUILD_CREATE
         tangon = argBar;
         michal = argFoo;
         michal = michal.guild;
@@ -671,8 +671,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['GUILD_CREATE'] = option;
-    option = function(argFoo, argBar) { // Original name: GUILD_UPDATE
+    golfie['GUILD_CREATE'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: GUILD_UPDATE
         tangon = argBar;
         michal = argFoo;
         michal = michal.guild;
@@ -696,8 +696,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    michal['GUILD_UPDATE'] = option;
-    option = function(argFoo, argBar) { // Original name: GUILD_DELETE
+    golfie['GUILD_UPDATE'] = tangon;
+    tangon = function(argFoo, argBar) { // Original name: GUILD_DELETE
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             zuuluu = argBar;
@@ -714,8 +714,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['GUILD_DELETE'] = option;
-    tangon = function(argFoo, argBar) { // Original name: GUILD_MEMBER_ADD
+    golfie['GUILD_DELETE'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: GUILD_MEMBER_ADD
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
             entity = argFoo;
@@ -766,14 +766,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['GUILD_MEMBER_ADD'] = tangon;
-    tangon = golfie.prototype;
-    tangon = Object.create(tangon, {constructor: {value: golfie}});
+    golfie['GUILD_MEMBER_ADD'] = michal;
+    michal = 12;
+    michal = oscard[michal];
+    michal = report.bind(entity)(michal);
+    tangon = michal.GuildStoreExperiment;
+    michal = tangon.cachedIsEnabled;
+    yankee = michal.bind(tangon)();
+    tangon = option.prototype;
+    tangon = Object.create(tangon, {constructor: {value: option}});
     foxtra = tangon;
-    romeon = michal;
-    michal = new foxtra[golfie](romeon, yankee);
+    romeon = golfie;
+    michal = new foxtra[option](romeon, yankee, offset);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 12;
+    tangon = 13;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -1,12 +1,12 @@
 // app/lib/PlainRecord.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    option = argBar;
+    verify = argBar;
+    option = argBaz;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = option;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
-    var _closure1_slot2 = golfie;
+    offset = argPlu;
+    var _closure1_slot0 = verify;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = offset;
     report = function(argFoo, argBar) { // Original name: constructInPlace
         entity = argBar;
         zuuluu = _closure1_slot3;
@@ -67,7 +67,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  154:
             golfie = _closure1_slot1;
             oscard = _closure1_slot2;
-            report = 2;
+            report = 3;
             report = oscard[report];
             oscard = undefined;
             report = golfie.bind(oscard)(report);
@@ -77,7 +77,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  187:
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;
-            report = 2;
+            report = 3;
             oscard = oscard[report];
             report = undefined;
             oscard = golfie.bind(report)(oscard);
@@ -88,7 +88,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  226:
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;
-            report = 1;
+            report = 2;
             oscard = oscard[report];
             report = undefined;
             oscard = golfie.bind(report)(oscard);
@@ -154,25 +154,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot6 = michal;
     entity = global;
     yankee = entity.Object;
-    offset = yankee.defineProperty;
-    verify = {};
-    oscard = true;
-    verify['value'] = oscard;
-    oscard = '__esModule';
-    oscard = offset.bind(yankee)(zuuluu, oscard, verify);
-    verify = entity.Symbol;
-    oscard = verify.for;
-    entity = 'PlainRecord.TypeTag';
-    oscard = oscard.bind(verify)(entity);
-    var _closure1_slot3 = oscard;
-    entity = 3;
-    golfie = golfie[entity];
+    golfie = yankee.defineProperty;
+    oscard = {};
+    entity = true;
+    oscard['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(yankee)(zuuluu, entity, oscard);
+    oscard = 0;
+    golfie = offset[oscard];
     entity = undefined;
-    verify = option.bind(entity)(golfie);
-    option = verify.fileFinishedImporting;
-    golfie = 'lib/PlainRecord.tsx';
-    golfie = option.bind(verify)(golfie);
-    golfie = function(argFoo, argBar, argBaz) { // Original name: set
+    golfie = option.bind(entity)(golfie);
+    oscard = offset[oscard];
+    oscard = verify.bind(entity)(oscard);
+    oscard = oscard.TypeTag;
+    var _closure1_slot3 = oscard;
+    option = 4;
+    option = offset[option];
+    offset = verify.bind(entity)(option);
+    verify = offset.fileFinishedImporting;
+    option = 'lib/PlainRecord.tsx';
+    option = verify.bind(offset)(option);
+    zuuluu['default'] = golfie;
+    zuuluu['TypeTag'] = oscard;
+    oscard = function(argFoo, argBar, argBaz) { // Original name: set
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             report = argFoo;
@@ -195,8 +199,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['set'] = golfie;
-    golfie = function(argFoo, argBar) { // Original name: merge
+    zuuluu['set'] = oscard;
+    oscard = function(argFoo, argBar) { // Original name: merge
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
@@ -247,8 +251,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['merge'] = golfie;
-    golfie = function(argFoo, argBar, argBaz) { // Original name: tryReuseExistingInPlacePlainRecord
+    zuuluu['merge'] = oscard;
+    oscard = function(argFoo, argBar, argBaz) { // Original name: tryReuseExistingInPlacePlainRecord
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
             report = argFoo;
@@ -256,35 +260,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = argBaz;
             golfie = _closure1_slot1;
             oscard = _closure1_slot2;
-            tangon = 0;
+            tangon = 1;
             oscard = oscard[tangon];
             tangon = undefined;
             verify = golfie.bind(tangon)(oscard);
             oscard = null;
             option = oscard == entity;
-            if(option) { _fun00010_ip = 54; continue _fun00009 }
- 42:
+            if(option) { _fun00010_ip = 55; continue _fun00009 }
+ 43:
             golfie = _closure1_slot3;
             golfie = entity[golfie];
             option = golfie === report;
- 54:
+ 55:
             golfie = 'Existing record type does not match the expected type';
             golfie = verify.bind(tangon)(option, golfie);
-            if(!(oscard != entity)) { _fun00010_ip = 83; continue _fun00009 }
- 70:
+            if(!(oscard != entity)) { _fun00010_ip = 84; continue _fun00009 }
+ 71:
             oscard = _closure1_slot6;
             oscard = oscard.bind(tangon)(entity, michal);
-            if(oscard) { _fun00010_ip = 96; continue _fun00009 }
- 83:
+            if(oscard) { _fun00010_ip = 97; continue _fun00009 }
+ 84:
             zuuluu = _closure1_slot4;
             zuuluu = zuuluu.bind(tangon)(report, michal);
             entity = michal;
- 96:
+ 97:
             return entity;
         }
     };
-    zuuluu['tryReuseExistingInPlacePlainRecord'] = golfie;
-    zuuluu['TypeTag'] = oscard;
+    zuuluu['tryReuseExistingInPlacePlainRecord'] = oscard;
     oscard = function(argFoo, argBar) { // Original name: objectIsPlainRecordOfType
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:

@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = null;
             if(!(option == romeon)) { _fun00004_ip = 131; continue _fun00003 }
  124:
-            if(!(option != kiloes)) { _fun00004_ip = 446; continue _fun00003 }
+            if(!(option != kiloes)) { _fun00004_ip = 450; continue _fun00003 }
  131:
             tangon = _closure1_slot9;
             zuuluu = _closure1_slot5;
@@ -373,7 +373,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[0] = verify;
             verify = option != kiloes;
             option = null;
-            if(!verify) { _fun00004_ip = 430; continue _fun00003 }
+            if(!verify) { _fun00004_ip = 434; continue _fun00003 }
  346:
             yankee = _closure1_slot8;
             foxtra = _closure1_slot0;
@@ -393,19 +393,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = backup.bind(report)(foxtra, romeon);
             verify['children'] = romeon;
             option = yankee.bind(report)(offset, verify);
- 430:
+ 434:
             golfie[1] = option;
             entity['children'] = golfie;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00004_ip = 472; continue _fun00003;
- 446:
+            _fun00004_ip = 476; continue _fun00003;
+ 450:
             tangon = _closure1_slot8;
             zuuluu = _closure1_slot5;
             michal = {};
             oscard = oscard.emptySection;
             michal['style'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 472:
+ 476:
             return entity;
         }
     };

@@ -206,8 +206,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = yankee.bind(tangon)(offset);
             yankee = offset.Text;
             offset = {'variant': 'text-md/medium', 'color': 'header-secondary'};
-            if(!(output == kiloes)) { _fun00002_ip = 545; continue _fun00001 }
- 491:
+            if(!(output == kiloes)) { _fun00002_ip = 541; continue _fun00001 }
+ 487:
             update = _closure1_slot0;
             output = _closure1_slot2;
             result = output[sizing];
@@ -219,7 +219,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.t;
             output = output./CidxM;
             kiloes = result.bind(echoed)(output);
- 545:
+ 541:
             offset['children'] = kiloes;
             offset = romeon.bind(tangon)(yankee, offset);
             option[2] = offset;

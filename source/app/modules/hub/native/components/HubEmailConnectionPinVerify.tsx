@@ -456,8 +456,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = zuuluu.bind(tangon)(romeon, yankee);
             option[4] = yankee;
             verify = verify != backup;
-            if(!verify) { _fun00002_ip = 732; continue _fun00001 }
- 663:
+            if(!verify) { _fun00002_ip = 736; continue _fun00001 }
+ 667:
             romeon = _closure1_slot9;
             yankee = _closure1_slot0;
             offset = _closure1_slot2;
@@ -471,7 +471,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.bind(backup)();
             offset['children'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 732:
+ 736:
             option[5] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

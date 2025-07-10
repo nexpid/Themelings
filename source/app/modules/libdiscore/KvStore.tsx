@@ -107,20 +107,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = function(argFoo) { // Original name: KvStore
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                zuuluu = argFoo;
-                golfie = this;
-                var _closure3_slot0 = zuuluu;
-                michal = _closure1_slot2;
+                option = argFoo;
+                michal = arguments[1];
+                oscard = this;
+                var _closure3_slot0 = option;
+                report = undefined;
+                if(!(michal === report)) { _fun00004_ip = 23; continue _fun00003 }
+ 21:
+                michal = false;
+ 23:
+                var _closure3_slot1 = report;
+                var _closure3_slot2 = report;
+                var _closure3_slot3 = report;
+                var _closure3_slot4 = report;
+                var _closure3_slot5 = report;
+                verify = _closure1_slot2;
                 entity = _closure2_slot0;
-                oscard = undefined;
-                entity = michal.bind(oscard)(golfie, entity);
+                entity = verify.bind(report)(oscard, entity);
                 entity = {};
-                var _closure3_slot2 = entity;
-                michal = null;
-                if(!(michal != zuuluu)) { _fun00004_ip = 134; continue _fun00003 }
- 46:
+                _closure3_slot2 = entity;
+                if(michal) { _fun00004_ip = 160; continue _fun00003 }
+ 72:
                 verify = false;
-                var _closure3_slot3 = verify;
+                _closure3_slot3 = verify;
                 verify = {};
                 offset = function(argFoo) { // Original name: reset
                     _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -255,8 +264,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 verify['remove'] = offset;
-                var _closure3_slot4 = verify;
-                backup = function() { // Original name: _loop
+                _closure3_slot4 = verify;
+                foxtra = function() { // Original name: _loop
                     tangon = _closure3_slot0;
                     zuuluu = _closure3_slot5;
                     zuuluu = tangon[zuuluu];
@@ -285,57 +294,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                romeon = zuuluu;
-                for(verify in romeon)
- 112:
+                yankee = option;
+                for(option in yankee)
+ 138:
                 {
- 121:
-                    kiloes = verify;
-                    var _closure3_slot5 = kiloes;
-                    kiloes = backup.bind(oscard)();
-                    _fun00004_ip = 112; continue _fun00003;
+ 147:
+                    backup = option;
+                    _closure3_slot5 = backup;
+                    backup = foxtra.bind(report)();
+                    _fun00004_ip = 138; continue _fun00003;
                 }
- 134:
-                report = _closure2_slot0;
-                offset = _closure1_slot0;
-                yankee = _closure1_slot1;
-                verify = 7;
-                verify = yankee[verify];
-                verify = offset.bind(oscard)(verify);
-                romeon = new Array(2);
-                romeon[0] = verify;
-                romeon[1] = entity;
+ 160:
+                tangon = _closure2_slot0;
+                verify = _closure1_slot0;
+                offset = _closure1_slot1;
+                option = 7;
+                option = offset[option];
+                option = verify.bind(report)(option);
+                yankee = new Array(2);
+                yankee[0] = option;
+                yankee[1] = entity;
                 entity = _closure1_slot6;
-                yankee = entity.bind(oscard)(report);
-                report = _closure1_slot5;
+                offset = entity.bind(report)(tangon);
+                tangon = _closure1_slot5;
                 entity = _closure1_slot13;
-                entity = entity.bind(oscard)();
-                if(entity) { _fun00004_ip = 207; continue _fun00003 }
- 194:
-                entity = yankee.apply;
-                entity = entity.bind(yankee)(golfie, romeon);
-                _fun00004_ip = 241; continue _fun00003;
- 207:
-                verify = global;
-                offset = verify.Reflect;
-                verify = offset.construct;
-                option = _closure1_slot6;
-                option = option.bind(oscard)(golfie);
-                option = option.constructor;
-                entity = verify.bind(offset)(yankee, romeon, option);
- 241:
-                entity = report.bind(oscard)(golfie, entity);
-                var _closure3_slot1 = entity;
-                report = {};
-                tangon = 0;
-                report['length'] = tangon;
-                oscard = {};
-                report['memoized'] = oscard;
-                entity['derived'] = report;
-                entity['nextVersion'] = tangon;
+                entity = entity.bind(report)();
+                if(entity) { _fun00004_ip = 233; continue _fun00003 }
+ 220:
+                entity = offset.apply;
+                entity = entity.bind(offset)(oscard, yankee);
+                _fun00004_ip = 267; continue _fun00003;
+ 233:
+                option = global;
+                verify = option.Reflect;
+                option = verify.construct;
+                golfie = _closure1_slot6;
+                golfie = golfie.bind(report)(oscard);
+                golfie = golfie.constructor;
+                entity = option.bind(verify)(offset, yankee, golfie);
+ 267:
+                entity = tangon.bind(report)(oscard, entity);
+                _closure3_slot1 = entity;
                 tangon = {};
-                entity['root'] = tangon;
-                michal = michal == zuuluu;
+                zuuluu = 0;
+                tangon['length'] = zuuluu;
+                report = {};
+                tangon['memoized'] = report;
+                entity['derived'] = tangon;
+                entity['nextVersion'] = zuuluu;
+                zuuluu = {};
+                entity['root'] = zuuluu;
                 entity['actionsHandledByLibdiscore'] = michal;
                 return entity;
             }

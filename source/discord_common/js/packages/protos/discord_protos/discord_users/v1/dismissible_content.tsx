@@ -1693,10 +1693,6 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['GUILD_POWERUP_CHOICE_SKU_PURCHASE_COACHMARK'] = oscard;
     entity = 'GUILD_POWERUP_CHOICE_SKU_PURCHASE_COACHMARK';
     michal[oscard] = entity;
-    oscard = 10;
-    michal['GUILD_POWERUP_BOTH_SKU_PURCHASE_COACHMARK'] = oscard;
-    entity = 'GUILD_POWERUP_BOTH_SKU_PURCHASE_COACHMARK';
-    michal[oscard] = entity;
     entity = argPlu;
     oscard = entity[report];
     report = argBar;

@@ -1,11 +1,11 @@
 // app/modules/libdiscore/DispatcherBridge.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
-    verify = argBaz;
+    offset = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = verify;
+    var _closure1_slot1 = offset;
     var _closure1_slot2 = oscard;
     entity = function(argFoo, argBar) { // Original name: _createForOfIteratorHelperLoose
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00002_ip = 246; continue _fun00001 }
  233:
-            verify = _closure1_slot9;
+            verify = _closure1_slot10;
             golfie = verify.bind(option)(zuuluu, option);
  246:
             _fun00002_ip = 264; continue _fun00001;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = golfie;
             _fun00002_ip = 282; continue _fun00001;
  269:
-            golfie = _closure1_slot9;
+            golfie = _closure1_slot10;
             oscard = golfie.bind(option)(zuuluu, option);
  282:
             tangon = oscard;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot8 = entity;
+    var _closure1_slot9 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot10 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -194,40 +194,88 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     entity = 0;
     tangon = oscard[entity];
     entity = undefined;
-    option = verify.bind(entity)(tangon);
+    option = offset.bind(entity)(tangon);
     tangon = 1;
     tangon = oscard[tangon];
-    tangon = verify.bind(entity)(tangon);
+    tangon = offset.bind(entity)(tangon);
     var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    golfie = verify.bind(entity)(tangon);
+    verify = offset.bind(entity)(tangon);
     tangon = 3;
     tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    offset = tangon._privateSetDerivedDoNotUse;
-    var _closure1_slot4 = offset;
-    tangon = tangon._privateSetKvApiDoNotUse;
-    var _closure1_slot5 = tangon;
+    tangon = offset.bind(entity)(tangon);
+    var _closure1_slot4 = tangon;
     tangon = 4;
     tangon = oscard[tangon];
-    offset = verify.bind(entity)(tangon);
-    tangon = offset.prototype;
-    verify = Object.create(tangon, {constructor: {value: offset}});
-    foxtra = 'DispatcherBridge';
-    backup = verify;
-    tangon = new backup[offset](foxtra, romeon);
-    tangon = tangon instanceof Object ? tangon : verify;
+    golfie = offset.bind(entity)(tangon);
+    tangon = 5;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    yankee = tangon._privateSetDerivedDoNotUse;
+    var _closure1_slot5 = yankee;
+    tangon = tangon._privateSetKvApiDoNotUse;
     var _closure1_slot6 = tangon;
-    tangon = new Array(1);
-    tangon[0] = golfie;
+    tangon = 6;
+    tangon = oscard[tangon];
+    yankee = offset.bind(entity)(tangon);
+    tangon = yankee.prototype;
+    offset = Object.create(tangon, {constructor: {value: yankee}});
+    backup = 'DispatcherBridge';
+    kiloes = offset;
+    tangon = new kiloes[yankee](backup, foxtra);
+    tangon = tangon instanceof Object ? tangon : offset;
+    var _closure1_slot7 = tangon;
+    tangon = new Array(2);
+    tangon[0] = verify;
+    tangon[1] = golfie;
     golfie = {};
-    verify = function() { // Original name: CONNECTION_OPEN
+    verify = function(argFoo) { // Original name: GUILD_MEMBER_ADD
         entity = {};
+        tangon = argFoo;
+        report = entity;
+        michal = copyDataProperties(report, tangon);
+        zuuluu = _closure1_slot4;
+        michal = zuuluu.getId;
+        zuuluu = michal.bind(zuuluu)();
+        michal = 'currentUserId';
+        entity[michal] = zuuluu;
+        return entity;
+    };
+    golfie['GUILD_MEMBER_ADD'] = verify;
+    verify = function(argFoo) { // Original name: CONNECTION_OPEN
+        entity = {};
+        michal = argFoo;
+        michal = michal.guilds;
+        entity['guilds'] = michal;
         return entity;
     };
     golfie['CONNECTION_OPEN'] = verify;
-    var _closure1_slot7 = golfie;
+    verify = function(argFoo) { // Original name: CACHE_LOADED
+        entity = {};
+        michal = argFoo;
+        michal = michal.guilds;
+        entity['guilds'] = michal;
+        return entity;
+    };
+    golfie['CACHE_LOADED'] = verify;
+    verify = function(argFoo) { // Original name: CACHE_LOADED_LAZY
+        entity = {};
+        michal = argFoo;
+        michal = michal.guilds;
+        entity['guilds'] = michal;
+        return entity;
+    };
+    golfie['CACHE_LOADED_LAZY'] = verify;
+    verify = function(argFoo) { // Original name: BACKGROUND_SYNC
+        entity = {};
+        michal = argFoo;
+        michal = michal.guilds;
+        entity['guilds'] = michal;
+        return entity;
+    };
+    golfie['BACKGROUND_SYNC'] = verify;
+    var _closure1_slot8 = golfie;
     golfie = function(argFoo) { // Original name: DispatcherBridge
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -242,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             yankee = undefined;
             var _closure2_slot1 = romeon;
             golfie = _closure1_slot3;
-            report = _closure1_slot10;
+            report = _closure1_slot11;
             report = golfie.bind(entity)(romeon, report);
             report = global;
             golfie = report.Map;
@@ -255,7 +303,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  79: // try_start_0
             romeon = _closure1_slot0;
             foxtra = _closure1_slot2;
-            golfie = 5;
+            golfie = 7;
             golfie = foxtra[golfie];
             romeon = romeon.bind(entity)(golfie);
             golfie = romeon.getKvStoreApi;
@@ -277,7 +325,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = oscard.registerStore;
                 zuuluu = function(argFoo, argBar) {
                     tangon = _closure3_slot0;
-                    entity = _closure1_slot5;
+                    entity = _closure1_slot6;
                     zuuluu = tangon[entity];
                     michal = argFoo;
                     entity = argBar;
@@ -286,7 +334,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 michal = function(argFoo) {
                     zuuluu = _closure3_slot0;
-                    entity = _closure1_slot4;
+                    entity = _closure1_slot5;
                     michal = zuuluu[entity];
                     entity = argFoo;
                     entity = michal.bind(zuuluu)(entity);
@@ -310,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = undefined;
                 return entity;
             };
-            romeon = _closure1_slot8;
+            romeon = _closure1_slot9;
             golfie = option;
             golfie = romeon.bind(entity)(golfie);
             yankee = golfie;
@@ -329,7 +377,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = golfie.done;
             if(!golfie) { _fun00008_ip = 173; continue _fun00007 }
  207:
-            golfie = _closure1_slot6;
+            golfie = _closure1_slot7;
             verify = golfie.info;
             backup = option.length;
             offset = oscard;
@@ -363,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                     yankee = argFoo;
-                    michal = _closure1_slot7;
+                    michal = _closure1_slot8;
                     entity = yankee.type;
                     oscard = michal[entity];
                     verify = null;
@@ -392,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.bind(michal)(zuuluu);
                     if(!(verify == entity)) { _fun00010_ip = 151; continue _fun00009 }
  112:
-                    oscard = _closure1_slot6;
+                    oscard = _closure1_slot7;
                     report = oscard.info;
                     tangon = yankee.type;
                     zuuluu = 'When dispatching action';
@@ -400,7 +448,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = report.bind(oscard)(zuuluu, tangon, michal);
                     _fun00010_ip = 290; continue _fun00009;
  151:
-                    michal = _closure1_slot8;
+                    michal = _closure1_slot9;
                     entity = entity.storeTokens;
                     golfie = undefined;
                     oscard = michal.bind(golfie)(entity);
@@ -422,7 +470,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = entity.bind(romeon)(yankee);
                     _fun00010_ip = 275; continue _fun00009;
  242:
-                    foxtra = _closure1_slot6;
+                    foxtra = _closure1_slot7;
                     romeon = foxtra.warn;
                     result = yankee.type;
                     update = foxtra;
@@ -444,7 +492,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             var _closure2_slot4 = tangon;
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
-            tangon = 6;
+            tangon = 8;
             oscard = verify[tangon];
             option = golfie.bind(entity)(oscard);
             golfie = option.register;
@@ -476,7 +524,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  468: // try_end0
             _fun00008_ip = 518; continue _fun00007;
  470: // try_start_1
-            report = _closure1_slot6;
+            report = _closure1_slot7;
             tangon = report.info;
             zuuluu = 'Not initializing the action bridge, because discore kvStoreApi is unavailable.';
             zuuluu = tangon.bind(report)(zuuluu);
@@ -485,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return zuuluu;
  495: // catch_target0 // catch_target1
             CatchBlockStart(arg_register=4);
-            tangon = _closure1_slot6;
+            tangon = _closure1_slot7;
             zuuluu = tangon.error;
             michal = 'Failed to initialize the dispatcher bridge';
             michal = zuuluu.bind(tangon)(michal, report);
@@ -493,7 +541,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot10 = golfie;
+    var _closure1_slot11 = golfie;
     golfie = option.bind(entity)(golfie);
     michal = function(argFoo) { // Original name: filterKvStores
         zuuluu = argFoo;
@@ -506,13 +554,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    foxtra = michal.bind(entity)(tangon);
+    backup = michal.bind(entity)(tangon);
     tangon = golfie.prototype;
     tangon = Object.create(tangon, {constructor: {value: golfie}});
-    backup = tangon;
-    michal = new backup[golfie](foxtra, romeon);
+    kiloes = tangon;
+    michal = new kiloes[golfie](backup, foxtra);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 7;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
