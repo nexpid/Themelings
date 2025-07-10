@@ -702,14 +702,14 @@
         "height": 12
     },
     "badge": {
-        "file": "images/native/premium/guild_boosting/perks/badge.png",
-        "hash": "6d92319c85fd42e305e389df8a64c64a",
+        "file": "modules/premium/native/images/perks/badge.png",
+        "hash": "7d09a15a2a5682035199dcfee2a26d08",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 300,
+        "height": 175
     },
     "badge_2": {
         "file": "images/native/premium/guild_boosting/perks/badge_2.png",
@@ -2627,14 +2627,14 @@
         "height": 24
     },
     "emoji": {
-        "file": "images/native/premium/guild_boosting/perks/emoji.png",
-        "hash": "6ce9cfa41f5b080fb1f9fac04190337a",
+        "file": "modules/premium/native/images/perks/emoji.png",
+        "hash": "337f717407aa04f32bdedf504de7310b",
         "scales": [
             2,
             3
         ],
-        "width": 24,
-        "height": 24
+        "width": 300,
+        "height": 175
     },
     "emoji-negative": {
         "file": "modules/icymi/native/images/emoji-negative.png",
@@ -4534,8 +4534,8 @@
         "height": 32
     },
     "ic_check_18px": {
-        "file": "images/native/uikit/ic_check_18px.png",
-        "hash": "b1593fdc9e59f19aeb3fd9a550216915",
+        "file": "images/native/icons/ic_check_18px.png",
+        "hash": "0b73baa146c1e8e06b259fb4eb1affa0",
         "scales": [
             2,
             3
@@ -8551,8 +8551,8 @@
         "height": 48
     },
     "img_collectibles_shop": {
-        "file": "modules/avatar_decorations/images/native/img_collectibles_shop.png",
-        "hash": "76ceaad8c4534638abe7bc276e1feadd",
+        "file": "modules/collectibles/native/images/img_collectibles_shop.png",
+        "hash": "1852cc5a5de0318feebc04948ebfbffa",
         "scales": [
             2,
             3
@@ -9524,7 +9524,7 @@
         "height": 150
     },
     "img_none": {
-        "file": "modules/avatar_decorations/images/native/img_none.png",
+        "file": "modules/collectibles/native/images/img_none.png",
         "hash": "ac29907d56ae7a9f27a9104ef7aade6e",
         "scales": [
             2,
@@ -13161,14 +13161,14 @@
         "height": 16
     },
     "sticker": {
-        "file": "images/native/premium/guild_boosting/perks/sticker.png",
-        "hash": "4f7f3933dfbb31e71ae1545e9b3d82b6",
+        "file": "modules/premium/native/images/perks/sticker.png",
+        "hash": "fac2e3b3b87c5c331642c571eab831c9",
         "scales": [
             2,
             3
         ],
-        "width": 20,
-        "height": 20
+        "width": 300,
+        "height": 175
     },
     "sticker_search_empty": {
         "file": "modules/stickers/native/images/sticker_search_empty.png",
