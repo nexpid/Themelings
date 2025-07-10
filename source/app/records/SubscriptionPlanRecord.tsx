@@ -150,18 +150,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['currency'] = zuuluu;
                 zuuluu = michal.price;
                 entity['price'] = zuuluu;
-                zuuluu = michal.premiumUserPrice;
-                entity['premiumUserPrice'] = zuuluu;
                 zuuluu = michal.prices;
                 entity['prices'] = zuuluu;
                 zuuluu = michal.fallbackPrice;
-                if(!zuuluu) { _fun00004_ip = 260; continue _fun00003 }
- 236:
+                if(!zuuluu) { _fun00004_ip = 248; continue _fun00003 }
+ 224:
                 zuuluu = michal.fallbackPrice;
                 entity['fallbackPrice'] = zuuluu;
                 michal = michal.fallbackCurrency;
                 entity['fallbackCurrency'] = michal;
- 260:
+ 248:
                 return entity;
             }
         };
@@ -342,8 +340,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['prices'] = zuuluu;
             zuuluu = michal.price;
             entity['price_tier'] = zuuluu;
-            zuuluu = michal.premiumUserPrice;
-            entity['discount_price'] = zuuluu;
             zuuluu = michal.fallbackPrice;
             entity['fallback_price'] = zuuluu;
             michal = michal.fallbackCurrency;
@@ -488,18 +484,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = report.price;
                 zuuluu['price'] = tangon;
                 zuuluu['prices'] = entity;
-                entity = report.discount_price;
-                zuuluu['premiumUserPrice'] = entity;
                 entity = report.fallback_price;
                 entity = michal != entity;
-                if(!entity) { _fun00012_ip = 193; continue _fun00011 }
- 181:
+                if(!entity) { _fun00012_ip = 182; continue _fun00011 }
+ 170:
                 tangon = report.fallback_price;
                 michal = 0;
                 entity = michal !== tangon;
- 193:
-                if(!entity) { _fun00012_ip = 239; continue _fun00011 }
- 196:
+ 182:
+                if(!entity) { _fun00012_ip = 228; continue _fun00011 }
+ 185:
                 entity = global;
                 tangon = entity.Object;
                 michal = tangon.assign;
@@ -509,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = report.fallback_currency;
                 entity['fallbackCurrency'] = report;
                 entity = michal.bind(tangon)(zuuluu, entity);
- 239:
+ 228:
                 entity = _closure2_slot0;
                 michal = entity.prototype;
                 michal = Object.create(michal, {constructor: {value: entity}});

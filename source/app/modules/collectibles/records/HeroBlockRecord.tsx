@@ -63,8 +63,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = null;
                 oscard = michal != report;
                 report = null;
-                if(!oscard) { _fun00002_ip = 231; continue _fun00001 }
- 197:
+                if(!oscard) { _fun00002_ip = 229; continue _fun00001 }
+ 195:
                 oscard = global;
                 option = oscard.Date;
                 offset = tangon.unpublished_at;
@@ -73,25 +73,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 yankee = golfie;
                 oscard = new yankee[option](offset, verify);
                 report = oscard instanceof Object ? oscard : golfie;
- 231:
+ 229:
                 zuuluu['unpublishedAt'] = report;
                 report = tangon.banner_text_color;
                 zuuluu['bannerTextColor'] = report;
                 oscard = tangon.config;
                 golfie = michal == oscard;
                 report = undefined;
-                if(golfie) { _fun00002_ip = 269; continue _fun00001 }
- 263:
+                if(golfie) { _fun00002_ip = 267; continue _fun00001 }
+ 261:
                 report = oscard.responsive;
- 269:
+ 267:
                 zuuluu['responsive'] = report;
                 tangon = tangon.config;
                 report = michal == tangon;
                 michal = undefined;
-                if(report) { _fun00002_ip = 295; continue _fun00001 }
- 289:
+                if(report) { _fun00002_ip = 293; continue _fun00001 }
+ 287:
                 michal = tangon.background_style;
- 295:
+ 293:
                 zuuluu['backgroundStyle'] = michal;
                 return entity;
             }

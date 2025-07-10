@@ -386,10 +386,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     zuuluu['stringify'] = tangon;
     michal = function() { // Original name: getAllForDebugPanel
-        michal = _closure1_slot0;
-        entity = michal.toArray;
-        entity = entity.bind(michal)();
-        return entity;
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+ 0:
+            entity = arguments[0];
+            michal = undefined;
+            if(!(entity === michal)) { _fun00014_ip = 11; continue _fun00013 }
+ 9:
+            entity = false;
+ 11:
+            zuuluu = _closure1_slot0;
+            michal = zuuluu.toArray;
+            zuuluu = michal.bind(zuuluu)();
+            if(entity) { _fun00014_ip = 36; continue _fun00013 }
+ 31:
+            entity = zuuluu;
+            _fun00014_ip = 46; continue _fun00013;
+ 36:
+            michal = zuuluu.reverse;
+            entity = michal.bind(zuuluu)();
+ 46:
+            return entity;
+        }
     };
     zuuluu['getAllForDebugPanel'] = michal;
     return entity;

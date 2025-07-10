@@ -4,8 +4,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
-    var _closure1_slot0 = option;
-    var _closure1_slot1 = golfie;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = option;
+    var _closure1_slot2 = golfie;
     tangon = function(argFoo) { // Original name: GuildBadge
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -39,8 +40,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(zuuluu) { _fun00002_ip = 167; continue _fun00001 }
  107:
             tangon = _closure1_slot4;
-            zuuluu = _closure1_slot0;
-            verify = _closure1_slot1;
+            zuuluu = _closure1_slot1;
+            verify = _closure1_slot2;
             michal = 8;
             michal = verify[michal];
             zuuluu = zuuluu.bind(report)(michal);
@@ -66,60 +67,56 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal['value'] = entity;
     entity = '__esModule';
     entity = verify.bind(offset)(zuuluu, entity, michal);
-    foxtra = 0;
-    verify = golfie[foxtra];
+    romeon = 0;
+    verify = golfie[romeon];
     michal = argCor;
     entity = undefined;
     michal = michal.bind(entity)(verify);
-    romeon = 1;
-    michal = golfie[romeon];
-    michal = option.bind(entity)(michal);
-    var _closure1_slot2 = michal;
-    yankee = 2;
+    yankee = 1;
     michal = golfie[yankee];
     michal = oscard.bind(entity)(michal);
     michal = michal.GuildFeatures;
     var _closure1_slot3 = michal;
-    offset = 3;
+    offset = 2;
     michal = golfie[offset];
     michal = oscard.bind(entity)(michal);
     michal = michal.jsx;
     var _closure1_slot4 = michal;
     verify = {};
-    verify['PARTNERED'] = foxtra;
+    verify['PARTNERED'] = romeon;
     michal = 'PARTNERED';
-    verify[foxtra] = michal;
-    verify['VERIFIED'] = romeon;
-    michal = 'VERIFIED';
     verify[romeon] = michal;
-    verify['PARTNERED_BLACK'] = yankee;
-    michal = 'PARTNERED_BLACK';
+    verify['VERIFIED'] = yankee;
+    michal = 'VERIFIED';
     verify[yankee] = michal;
-    verify['VERIFIED_BLACK'] = offset;
-    michal = 'VERIFIED_BLACK';
+    verify['PARTNERED_BLACK'] = offset;
+    michal = 'PARTNERED_BLACK';
     verify[offset] = michal;
+    yankee = 3;
+    verify['VERIFIED_BLACK'] = yankee;
+    michal = 'VERIFIED_BLACK';
+    verify[yankee] = michal;
     offset = 4;
     verify['NONE'] = offset;
     michal = 'NONE';
     verify[offset] = michal;
     var _closure1_slot5 = verify;
     michal = {};
-    yankee = verify.VERIFIED;
-    offset = golfie[offset];
-    offset = option.bind(entity)(offset);
-    michal[yankee] = offset;
+    romeon = verify.VERIFIED;
+    yankee = golfie[yankee];
+    yankee = option.bind(entity)(yankee);
+    michal[romeon] = yankee;
     yankee = verify.PARTNERED;
-    offset = 5;
     offset = golfie[offset];
     offset = option.bind(entity)(offset);
     michal[yankee] = offset;
     yankee = verify.VERIFIED_BLACK;
-    offset = 6;
+    offset = 5;
     offset = golfie[offset];
     offset = option.bind(entity)(offset);
     michal[yankee] = offset;
     yankee = verify.PARTNERED_BLACK;
-    offset = 7;
+    offset = 6;
     offset = golfie[offset];
     offset = option.bind(entity)(offset);
     michal[yankee] = offset;
@@ -134,44 +131,49 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = argBar;
             michal = null;
             entity = michal != zuuluu;
-            if(!entity) { _fun00004_ip = 133; continue _fun00003 }
- 15:
-            tangon = _closure1_slot2;
-            tangon = zuuluu instanceof tangon;
-            if(tangon) { _fun00004_ip = 114; continue _fun00003 }
- 29:
+            if(!entity) { _fun00004_ip = 159; continue _fun00003 }
+ 18:
+            golfie = _closure1_slot0;
+            oscard = _closure1_slot2;
+            tangon = 7;
+            tangon = oscard[tangon];
+            oscard = undefined;
+            golfie = golfie.bind(oscard)(tangon);
+            tangon = golfie.isGuildRecord;
+            tangon = tangon.bind(golfie)(zuuluu);
+            if(tangon) { _fun00004_ip = 140; continue _fun00003 }
+ 57:
             tangon = global;
-            option = tangon.Array;
-            golfie = option.isArray;
-            oscard = zuuluu.features;
-            oscard = golfie.bind(option)(oscard);
-            if(oscard) { _fun00004_ip = 96; continue _fun00003 }
- 56:
-            oscard = tangon.Boolean;
+            verify = tangon.Array;
+            option = verify.isArray;
+            golfie = zuuluu.features;
+            golfie = option.bind(verify)(golfie);
+            if(golfie) { _fun00004_ip = 122; continue _fun00003 }
+ 84:
+            tangon = tangon.Boolean;
             option = zuuluu.features;
             golfie = michal == option;
-            tangon = undefined;
             michal = undefined;
-            if(golfie) { _fun00004_ip = 89; continue _fun00003 }
- 79:
+            if(golfie) { _fun00004_ip = 115; continue _fun00003 }
+ 105:
             golfie = option.has;
             michal = golfie.bind(option)(report);
- 89:
-            michal = oscard.bind(tangon)(michal);
-            _fun00004_ip = 112; continue _fun00003;
- 96:
+ 115:
+            michal = tangon.bind(oscard)(michal);
+            _fun00004_ip = 138; continue _fun00003;
+ 122:
             oscard = zuuluu.features;
             tangon = oscard.includes;
             michal = tangon.bind(oscard)(report);
- 112:
-            _fun00004_ip = 130; continue _fun00003;
- 114:
+ 138:
+            _fun00004_ip = 156; continue _fun00003;
+ 140:
             tangon = zuuluu.features;
             zuuluu = tangon.has;
             michal = zuuluu.bind(tangon)(report);
- 130:
+ 156:
             entity = michal;
- 133:
+ 159:
             return entity;
         }
     };

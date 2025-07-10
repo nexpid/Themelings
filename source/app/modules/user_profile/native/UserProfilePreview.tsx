@@ -126,56 +126,60 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: UserProfilePreview
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-            michal = argFoo;
-            record = michal.user;
-            variable41 = michal.guildId;
-            option = michal.pendingProfileEffectRecord;
-            output = michal.style;
-            entity = michal.compact;
+            entity = argFoo;
+            record = entity.user;
+            variable42 = entity.guildId;
+            option = entity.pendingProfileEffectRecord;
+            output = entity.style;
+            update = entity.compact;
             tangon = undefined;
-            if(!(entity === tangon)) { _fun00004_ip = 38; continue _fun00003 }
+            if(!(update === tangon)) { _fun00004_ip = 38; continue _fun00003 }
  36:
-            entity = false;
+            update = false;
  38:
-            config = michal.bioLineClamp;
-            golfie = michal.maxWidth;
-            zuuluu = _closure1_slot1;
-            oscard = _closure1_slot2;
-            michal = 7;
-            michal = oscard[michal];
-            report = zuuluu.bind(tangon)(michal);
-            michal = record.id;
-            sequen = report.bind(tangon)(michal, variable41);
-            michal = 8;
-            michal = oscard[michal];
-            report = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['user'] = record;
-            michal['displayProfile'] = sequen;
-            michal = report.bind(tangon)(michal);
-            report = michal.theme;
-            ctrled = michal.primaryColor;
-            echoed = michal.secondaryColor;
+            config = entity.bioLineClamp;
+            oscard = entity.maxWidth;
+            quebec = entity.gradientFullHeight;
+            if(!(quebec === tangon)) { _fun00004_ip = 62; continue _fun00003 }
+ 60:
+            quebec = false;
+ 62:
+            michal = _closure1_slot1;
+            zuuluu = _closure1_slot2;
+            entity = 7;
+            entity = zuuluu[entity];
+            report = michal.bind(tangon)(entity);
+            entity = record.id;
+            sequen = report.bind(tangon)(entity, variable42);
+            entity = 8;
+            entity = zuuluu[entity];
+            report = michal.bind(tangon)(entity);
+            entity = {};
+            entity['user'] = record;
+            entity['displayProfile'] = sequen;
+            entity = report.bind(tangon)(entity);
+            report = entity.theme;
+            ctrled = entity.primaryColor;
+            echoed = entity.secondaryColor;
             verify = null;
             whisks = verify != ctrled;
-            michal = _closure1_slot9;
-            foxtra = michal.bind(tangon)(entity, whisks, golfie);
-            michal = 9;
-            michal = oscard[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            limora = michal.bind(tangon)();
-            zuuluu = _closure1_slot0;
-            michal = 10;
-            michal = oscard[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = zuuluu.useCustomStatusActivity;
-            equals = michal.bind(zuuluu)();
+            entity = _closure1_slot9;
+            foxtra = entity.bind(tangon)(update, whisks, oscard);
+            entity = 9;
+            entity = zuuluu[entity];
+            entity = michal.bind(tangon)(entity);
+            limora = entity.bind(tangon)();
+            michal = _closure1_slot0;
+            entity = 10;
+            entity = zuuluu[entity];
+            michal = michal.bind(tangon)(entity);
+            entity = michal.useCustomStatusActivity;
+            equals = entity.bind(michal)();
             source = verify != equals;
-            update = entity;
-            if(!source) { _fun00004_ip = 201; continue _fun00003 }
- 198:
+            if(!source) { _fun00004_ip = 210; continue _fun00003 }
+ 207:
             source = !update;
- 201:
+ 210:
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
             entity = 11;
@@ -188,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['secondaryColor'] = echoed;
             entity = oscard.bind(golfie)(entity);
             vacuum = entity.gradientFallbackBackground;
-            variable38 = entity.avatarBackground;
+            variable39 = entity.avatarBackground;
             cntext = entity.containerBackground;
             entity = 12;
             entity = zuuluu[entity];
@@ -196,23 +200,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.getPreviewProfileEffectId;
             entity = {};
             oscard = null;
-            if(!(oscard !== option)) { _fun00004_ip = 309; continue _fun00003 }
- 292:
+            if(!(oscard !== option)) { _fun00004_ip = 318; continue _fun00003 }
+ 301:
             yankee = verify == option;
             golfie = undefined;
-            if(yankee) { _fun00004_ip = 306; continue _fun00003 }
- 301:
+            if(yankee) { _fun00004_ip = 315; continue _fun00003 }
+ 310:
             golfie = option.id;
- 306:
+ 315:
             oscard = golfie;
- 309:
+ 318:
             entity['pendingProfileEffectId'] = oscard;
             entity['displayProfile'] = sequen;
             backup = michal.bind(zuuluu)(entity);
             result = _closure1_slot0;
-            quebec = _closure1_slot2;
+            variable36 = _closure1_slot2;
             entity = 13;
-            entity = quebec[entity];
+            entity = variable36[entity];
             oscard = result.bind(tangon)(entity);
             zuuluu = oscard.useStateFromStoresObject;
             entity = _closure1_slot4;
@@ -229,27 +233,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = entity.pendingBanner;
             sizing = entity.pendingAccentColor;
             kiloes = entity.pendingThemeColors;
-            variable39 = entity.pendingAvatarDecoration;
+            variable40 = entity.pendingAvatarDecoration;
             sierra = entity.pendingGlobalName;
             status = entity.pendingPronouns;
             michal = entity.pendingLegacyUsernameDisabled;
             entity = 14;
-            entity = quebec[entity];
+            entity = variable36[entity];
             oscard = result.bind(tangon)(entity);
             zuuluu = oscard.getPendingAvatarSrc;
             entity = {};
             option = record.id;
             entity['userId'] = option;
             entity['image'] = golfie;
-            variable40 = zuuluu.bind(oscard)(entity);
+            variable41 = zuuluu.bind(oscard)(entity);
             yankee = _closure1_slot1;
             entity = 15;
-            entity = quebec[entity];
+            entity = variable36[entity];
             entity = yankee.bind(tangon)(entity);
             target = entity.bind(tangon)(sequen, michal);
             zuuluu = _closure1_slot7;
             entity = 16;
-            entity = quebec[entity];
+            entity = variable36[entity];
             entity = result.bind(tangon)(entity);
             michal = entity.ThemeContextProvider;
             entity = {};
@@ -266,78 +270,86 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = option;
             papara = false;
             option = 17;
-            option = quebec[option];
+            option = variable36[option];
             yankee = yankee.bind(tangon)(option);
             option = {};
             option['user'] = record;
             option['displayProfile'] = sequen;
             output = 18;
-            output = quebec[output];
+            output = variable36[output];
             output = result.bind(tangon)(output);
             output = output.PFX_MOBILE_ACTION_SHEET_BANNER_HEIGHT;
             option['bannerHeight'] = output;
             option['pendingBanner'] = romeon;
-            option['pendingAvatarSrc'] = variable40;
+            option['pendingAvatarSrc'] = variable41;
             output = verify != sizing;
             romeon = undefined;
-            if(!output) { _fun00004_ip = 640; continue _fun00003 }
- 637:
+            if(!output) { _fun00004_ip = 649; continue _fun00003 }
+ 646:
             romeon = sizing;
- 640:
+ 649:
             option['pendingAccentColor'] = romeon;
             sizing = verify != kiloes;
             romeon = undefined;
-            if(!sizing) { _fun00004_ip = 657; continue _fun00003 }
- 654:
+            if(!sizing) { _fun00004_ip = 666; continue _fun00003 }
+ 663:
             romeon = kiloes;
- 657:
+ 666:
             option['pendingThemeColors'] = romeon;
-            variable37 = true;
-            option['disableInteraction'] = variable37;
+            variable38 = true;
+            option['disableInteraction'] = variable38;
             yankee = zuuluu.bind(tangon)(yankee, option);
             option = new Array(3);
             option[0] = yankee;
             kiloes = _closure1_slot8;
             romeon = _closure1_slot3;
             yankee = {};
-            variable36 = _closure1_slot7;
+            variable37 = _closure1_slot7;
             result = _closure1_slot1;
-            quebec = _closure1_slot2;
+            variable36 = _closure1_slot2;
             sizing = 19;
-            sizing = quebec[sizing];
+            sizing = variable36[sizing];
             output = result.bind(tangon)(sizing);
             sizing = {};
             sizing['user'] = record;
-            sizing['guildId'] = variable41;
-            sizing['pendingAvatarSrc'] = variable40;
-            sizing['pendingAvatarDecoration'] = variable39;
-            sizing['backgroundColor'] = variable38;
-            sizing['disableStatus'] = variable37;
-            output = variable36.bind(tangon)(output, sizing);
+            sizing['guildId'] = variable42;
+            sizing['pendingAvatarSrc'] = variable41;
+            sizing['pendingAvatarDecoration'] = variable40;
+            sizing['backgroundColor'] = variable39;
+            sizing['disableStatus'] = variable38;
+            output = variable37.bind(tangon)(output, sizing);
             sizing = new Array(2);
             sizing[0] = output;
             output = 20;
-            output = quebec[output];
+            output = variable36[output];
             result = result.bind(tangon)(output);
             output = {};
             output['fallbackBackground'] = vacuum;
             output['primaryColor'] = ctrled;
             output['secondaryColor'] = echoed;
             ctrled = limora.profileContent;
-            echoed = new Array(2);
+            echoed = new Array(3);
             echoed[0] = ctrled;
             ctrled = !source;
-            if(source) { _fun00004_ip = 823; continue _fun00003 }
- 809:
+            if(source) { _fun00004_ip = 832; continue _fun00003 }
+ 818:
             vacuum = {};
-            quebec = _closure1_slot5;
-            vacuum['paddingTop'] = quebec;
+            variable36 = _closure1_slot5;
+            vacuum['paddingTop'] = variable36;
             ctrled = vacuum;
- 823:
+ 832:
             echoed[1] = ctrled;
+            ctrled = {};
+            vacuum = undefined;
+            if(!quebec) { _fun00004_ip = 849; continue _fun00003 }
+ 843:
+            vacuum = '100%';
+ 849:
+            ctrled['height'] = vacuum;
+            echoed[2] = ctrled;
             output['containerStyle'] = echoed;
-            if(!source) { _fun00004_ip = 913; continue _fun00003 }
- 835:
+            if(!source) { _fun00004_ip = 943; continue _fun00003 }
+ 865:
             vacuum = _closure1_slot7;
             ctrled = _closure1_slot1;
             quebec = _closure1_slot2;
@@ -355,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = limora.emojiOnlyCustomStatusBubble;
             echoed['emojiOnlyStyle'] = limora;
             source = vacuum.bind(tangon)(ctrled, echoed);
- 913:
+ 943:
             echoed = new Array(3);
             echoed[0] = source;
             vacuum = _closure1_slot7;
@@ -370,16 +382,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             limora = limora.PREVIEW;
             source['themeType'] = limora;
             source['displayName'] = sierra;
-            if(!(verify == status)) { _fun00004_ip = 992; continue _fun00003 }
- 974:
+            if(!(verify == status)) { _fun00004_ip = 1022; continue _fun00003 }
+ 1004:
             limora = verify == sequen;
             sierra = undefined;
-            if(limora) { _fun00004_ip = 989; continue _fun00003 }
- 983:
+            if(limora) { _fun00004_ip = 1019; continue _fun00003 }
+ 1013:
             sierra = sequen.pronouns;
- 989:
+ 1019:
             status = sierra;
- 992:
+ 1022:
             source['pronouns'] = status;
             source['badges'] = target;
             source['badgeContainerBackground'] = cntext;
@@ -387,8 +399,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = vacuum.bind(tangon)(ctrled, source);
             echoed[1] = source;
             update = !update;
-            if(!update) { _fun00004_ip = 1135; continue _fun00003 }
- 1028:
+            if(!update) { _fun00004_ip = 1165; continue _fun00003 }
+ 1058:
             vacuum = _closure1_slot7;
             ctrled = _closure1_slot1;
             papara = _closure1_slot2;
@@ -411,13 +423,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['style'] = sequen;
             record = verify != config;
             sequen = 3;
-            if(!record) { _fun00004_ip = 1124; continue _fun00003 }
- 1121:
+            if(!record) { _fun00004_ip = 1154; continue _fun00003 }
+ 1151:
             sequen = config;
- 1124:
+ 1154:
             source['bioLineClamp'] = sequen;
             update = vacuum.bind(tangon)(ctrled, source);
- 1135:
+ 1165:
             echoed[2] = update;
             output['children'] = echoed;
             output = kiloes.bind(tangon)(result, output);
@@ -426,8 +438,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = kiloes.bind(tangon)(romeon, yankee);
             option[1] = yankee;
             verify = verify != backup;
-            if(!verify) { _fun00004_ip = 1221; continue _fun00003 }
- 1174:
+            if(!verify) { _fun00004_ip = 1251; continue _fun00003 }
+ 1204:
             romeon = _closure1_slot7;
             yankee = _closure1_slot1;
             kiloes = _closure1_slot2;
@@ -439,7 +451,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = foxtra.profileEffect;
             offset['style'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1221:
+ 1251:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

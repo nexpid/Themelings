@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
-    tangon = 4;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -35,11 +35,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argFoo;
-            zuuluu = michal.applicationId;
-            var _closure2_slot0 = zuuluu;
+            offset = michal.applicationId;
+            var _closure2_slot0 = offset;
             zuuluu = michal.context;
             var _closure2_slot1 = zuuluu;
-            golfie = michal.launchingComponentId;
+            verify = michal.launchingComponentId;
             option = michal.onSubmissionComplete;
             var _closure2_slot2 = option;
             oscard = undefined;
@@ -49,8 +49,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = _closure1_slot2;
             michal = 2;
             michal = tangon[michal];
-            verify = zuuluu.bind(oscard)(michal);
-            tangon = verify.useStateFromStores;
+            golfie = zuuluu.bind(oscard)(michal);
+            michal = golfie.useGetOrFetchApplication;
+            yankee = michal.bind(golfie)(offset);
+            michal = 3;
+            michal = tangon[michal];
+            golfie = zuuluu.bind(oscard)(michal);
+            tangon = golfie.useStateFromStores;
             michal = _closure1_slot4;
             zuuluu = new Array(1);
             zuuluu[0] = michal;
@@ -74,22 +79,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            zuuluu = tangon.bind(verify)(zuuluu, michal);
+            golfie = tangon.bind(golfie)(zuuluu, michal);
             michal = null;
-            tangon = michal != zuuluu;
-            if(!tangon) { _fun00002_ip = 117; continue _fun00001 }
- 111:
-            tangon = zuuluu.isLaunching;
- 117:
-            if(!tangon) { _fun00002_ip = 130; continue _fun00001 }
- 120:
-            zuuluu = zuuluu.componentId;
-            tangon = zuuluu === golfie;
- 130:
+            zuuluu = michal != yankee;
+            if(!zuuluu) { _fun00002_ip = 165; continue _fun00001 }
+ 134:
+            offset = _closure1_slot0;
+            romeon = _closure1_slot2;
+            tangon = 4;
+            tangon = romeon[tangon];
+            offset = offset.bind(oscard)(tangon);
+            tangon = offset.canLaunchFrame;
+            zuuluu = tangon.bind(offset)(yankee);
+ 165:
+            tangon = !zuuluu;
+            if(!tangon) { _fun00002_ip = 200; continue _fun00001 }
+ 171:
+            zuuluu = michal != golfie;
+            if(!zuuluu) { _fun00002_ip = 184; continue _fun00001 }
+ 178:
+            zuuluu = golfie.isLaunching;
+ 184:
+            if(!zuuluu) { _fun00002_ip = 197; continue _fun00001 }
+ 187:
+            golfie = golfie.componentId;
+            zuuluu = golfie === verify;
+ 197:
+            tangon = zuuluu;
+ 200:
             _closure2_slot3 = tangon;
             golfie = _closure1_slot1;
             verify = _closure1_slot2;
-            zuuluu = 3;
+            zuuluu = 5;
             zuuluu = verify[zuuluu];
             zuuluu = golfie.bind(oscard)(zuuluu);
             zuuluu = zuuluu.bind(oscard)(tangon);
@@ -128,10 +149,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['submitting'] = tangon;
             tangon = michal != zuuluu;
             michal = null;
-            if(!tangon) { _fun00002_ip = 220; continue _fun00001 }
- 217:
+            if(!tangon) { _fun00002_ip = 290; continue _fun00001 }
+ 287:
             michal = zuuluu;
- 220:
+ 290:
             entity['wasSubmitting'] = michal;
             return entity;
         }

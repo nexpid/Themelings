@@ -7323,7 +7323,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = 116;
             report = r104[report];
             yankee = option.bind(tangon)(report);
-            report = yankee.useAnyGuildProfileEmbedEnabled;
+            report = yankee.useGuildProfileInviteEmbedHoldoutEnabled;
             kiloes = report.bind(yankee)(backup);
             report = 117;
             report = r104[report];
@@ -7493,7 +7493,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['messageShortcutsEnabled'] = output;
             oscard['activityInviteMessageIds'] = sizing;
             foxtra = 0;
-            if(!kiloes) { _fun00094_ip = 4082; continue _fun00093 }
+            if(kiloes) { _fun00094_ip = 4082; continue _fun00093 }
  4079:
             foxtra = backup;
  4082:

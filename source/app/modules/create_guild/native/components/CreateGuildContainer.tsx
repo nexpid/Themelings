@@ -39,19 +39,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot7 = tangon;
     tangon = 5;
     tangon = oscard[tangon];
-    tangon = golfie.bind(entity)(tangon);
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.UPLOAD_MEDIUM_SIZE;
     var _closure1_slot8 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.UPLOAD_MEDIUM_SIZE;
+    tangon = tangon.jsx;
     var _closure1_slot9 = tangon;
     tangon = 7;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    tangon = tangon.jsx;
-    var _closure1_slot10 = tangon;
-    tangon = 8;
     tangon = oscard[tangon];
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
@@ -60,14 +56,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     verify['flex'] = offset;
     tangon['flex'] = verify;
     verify = {};
-    offset = 9;
+    offset = 8;
     offset = oscard[offset];
     offset = report.bind(entity)(offset);
     offset = offset.NAV_BAR_HEIGHT;
     verify['marginTop'] = offset;
     tangon['contentContainer'] = verify;
     tangon = golfie.bind(option)(tangon);
-    var _closure1_slot11 = tangon;
+    var _closure1_slot10 = tangon;
     tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
@@ -108,13 +104,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot7 = tangon;
             var _closure2_slot8 = tangon;
             var _closure2_slot9 = tangon;
-            zuuluu = _closure1_slot11;
+            zuuluu = _closure1_slot10;
             echoed = zuuluu.bind(tangon)();
             update = _closure1_slot5;
             verify = update.useState;
             oscard = _closure1_slot1;
             result = _closure1_slot2;
-            zuuluu = 10;
+            zuuluu = 9;
             zuuluu = result[zuuluu];
             yankee = oscard.bind(tangon)(zuuluu);
             offset = yankee.getGuildNameSuggestion;
@@ -154,7 +150,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = function() {
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    michal = _closure1_slot8;
+                    michal = _closure1_slot7;
                     entity = michal.getCurrentUser;
                     tangon = entity.bind(michal)();
                     entity = null;
@@ -190,13 +186,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  7:
                         tangon = _closure1_slot1;
                         zuuluu = _closure1_slot2;
-                        michal = 11;
+                        michal = 10;
                         michal = zuuluu[michal];
                         zuuluu = undefined;
                         report = tangon.bind(zuuluu)(michal);
                         tangon = report.openImagePicker;
                         michal = {};
-                        oscard = _closure1_slot9;
+                        oscard = _closure1_slot8;
                         michal['size'] = oscard;
                         michal = tangon.bind(report)(michal);
                         SaveGenerator(address=57);
@@ -232,11 +228,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00008_ip = 398; continue _fun00007 }
+                        if(michal) { _fun00008_ip = 394; continue _fun00007 }
  10:
                         michal = undefined;
+                        oscard = undefined;
                         golfie = undefined;
-                        verify = undefined;
                         offset = undefined;
                         report = _closure2_slot7;
                         tangon = true;
@@ -244,11 +240,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  32: // try_start_0
                         tangon = _closure2_slot2;
                         option = null;
-                        if(!(option == tangon)) { _fun00008_ip = 348; continue _fun00007 }
+                        if(!(option == tangon)) { _fun00008_ip = 344; continue _fun00007 }
  45:
                         report = _closure1_slot1;
                         yankee = _closure1_slot2;
-                        tangon = 12;
+                        tangon = 11;
                         tangon = yankee[tangon];
                         kiloes = report.bind(michal)(tangon);
                         backup = kiloes.createGuildFromTemplate;
@@ -264,14 +260,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return tangon;
  105:
                         ResumeGenerator(result_out_reg=3, return_bool_out_reg=4);
-                        if(report) { _fun00008_ip = 345; continue _fun00007 }
+                        if(report) { _fun00008_ip = 341; continue _fun00007 }
  114:
-                        golfie = tangon;
+                        oscard = tangon;
                         romeon = tangon.id;
-                        verify = romeon;
+                        golfie = romeon;
                         yankee = _closure1_slot0;
                         foxtra = _closure1_slot2;
-                        report = 13;
+                        report = 12;
                         report = foxtra[report];
                         yankee = yankee.bind(michal)(report);
                         report = yankee.waitForGuild;
@@ -281,21 +277,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return report;
  160:
                         ResumeGenerator(result_out_reg=4, return_bool_out_reg=10);
-                        if(yankee) { _fun00008_ip = 342; continue _fun00007 }
+                        if(yankee) { _fun00008_ip = 338; continue _fun00007 }
  169:
-                        romeon = _closure1_slot7;
-                        yankee = romeon.getDefaultChannel;
-                        yankee = yankee.bind(romeon)(verify);
                         romeon = _closure1_slot6;
-                        update = golfie;
-                        verify = romeon.prototype;
-                        verify = Object.create(verify, {constructor: {value: romeon}});
-                        source = verify;
-                        golfie = new source[romeon](update, echoed);
-                        romeon = golfie instanceof Object ? golfie : verify;
-                        offset = romeon;
+                        yankee = romeon.getDefaultChannel;
+                        yankee = yankee.bind(romeon)(golfie);
                         golfie = _closure1_slot0;
                         verify = _closure1_slot2;
+                        romeon = 13;
+                        romeon = verify[romeon];
+                        foxtra = golfie.bind(michal)(romeon);
+                        romeon = foxtra.dangerouslyConstructGuildRecordFromUntypedObject;
+                        romeon = romeon.bind(foxtra)(oscard);
+                        offset = romeon;
                         oscard = 14;
                         oscard = verify[oscard];
                         verify = golfie.bind(michal)(oscard);
@@ -312,55 +306,55 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard['guild'] = romeon;
                         oscard['channel'] = yankee;
                         oscard = golfie.bind(verify)(oscard);
-                        SaveGenerator(address=292);
- 290:
+                        SaveGenerator(address=288);
+ 286:
                         return oscard;
- 292:
+ 288:
                         ResumeGenerator(result_out_reg=5, return_bool_out_reg=6);
-                        if(golfie) { _fun00008_ip = 339; continue _fun00007 }
- 298:
+                        if(golfie) { _fun00008_ip = 335; continue _fun00007 }
+ 294:
                         golfie = _closure2_slot0;
                         option = option == golfie;
                         golfie = undefined;
-                        if(option) { _fun00008_ip = 326; continue _fun00007 }
- 311:
+                        if(option) { _fun00008_ip = 322; continue _fun00007 }
+ 307:
                         verify = _closure2_slot0;
                         option = {};
                         option['guild'] = offset;
                         golfie = verify.bind(michal)(option);
+ 322:
+                        SaveGenerator(address=326);
+ 324:
+                        return golfie;
  326:
-                        SaveGenerator(address=330);
- 328:
-                        return golfie;
- 330:
                         ResumeGenerator(result_out_reg=6, return_bool_out_reg=7);
-                        if(!option) { _fun00008_ip = 371; continue _fun00007 }
- 336: // try_end0
+                        if(!option) { _fun00008_ip = 367; continue _fun00007 }
+ 332: // try_end0
                         return golfie;
- 339:
+ 335:
                         return oscard;
- 342:
+ 338:
                         return report;
- 345:
+ 341:
                         return tangon;
- 348: // try_start_1
+ 344: // try_start_1
                         golfie = _closure2_slot2;
                         oscard = _closure2_slot4;
                         report = _closure2_slot5;
                         tangon = _closure2_slot1;
                         tangon = golfie.bind(michal)(oscard, report, tangon);
- 371: // try_end1
-                        _fun00008_ip = 384; continue _fun00007;
- 373: // catch_target0 // catch_target1
+ 367: // try_end1
+                        _fun00008_ip = 380; continue _fun00007;
+ 369: // catch_target0 // catch_target1
                         CatchBlockStart(arg_register=4);
                         tangon = _closure2_slot8;
                         tangon = tangon.bind(michal)(report);
- 384:
+ 380:
                         tangon = _closure2_slot7;
                         zuuluu = false;
                         zuuluu = tangon.bind(michal)(zuuluu);
                         return michal;
- 398:
+ 394:
                         return entity;
                     }
                 };
@@ -376,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal[5] = golfie;
             michal[6] = source;
             verify = verify.bind(update)(zuuluu, michal);
-            zuuluu = _closure1_slot10;
+            zuuluu = _closure1_slot9;
             michal = _closure1_slot0;
             entity = 15;
             entity = result[entity];

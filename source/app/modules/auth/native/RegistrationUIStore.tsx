@@ -65,6 +65,37 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['setRegistrationErrors'] = tangon;
+    tangon = function() { // Original name: clearRegistrationErrorMessage
+        zuuluu = {};
+        report = _closure1_slot3;
+        tangon = report.getState;
+        tangon = tangon.bind(report)();
+        oscard = tangon.errors;
+        golfie = zuuluu;
+        tangon = copyDataProperties(golfie, oscard);
+        var _closure2_slot0 = zuuluu;
+        zuuluu = delete zuuluu.message;
+        tangon = _closure1_slot0;
+        zuuluu = _closure1_slot2;
+        entity = 1;
+        zuuluu = zuuluu[entity];
+        entity = undefined;
+        tangon = tangon.bind(entity)(zuuluu);
+        zuuluu = tangon.batchUpdates;
+        michal = function() {
+            zuuluu = _closure1_slot3;
+            michal = zuuluu.setState;
+            entity = {};
+            tangon = _closure2_slot0;
+            entity['errors'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
+            entity = undefined;
+            return entity;
+        };
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['clearRegistrationErrorMessage'] = tangon;
     tangon = function(argFoo) { // Original name: updateRegistrationOptions
         entity = argFoo;
         var _closure2_slot0 = entity;

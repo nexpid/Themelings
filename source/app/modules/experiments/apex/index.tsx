@@ -1,0 +1,36 @@
+// app/modules/experiments/apex/index.tsx
+export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
+    oscard = argBar;
+    zuuluu = argFre;
+    tangon = argPlu;
+    entity = global;
+    golfie = entity.Object;
+    report = golfie.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(golfie)(zuuluu, entity, michal);
+    entity = 0;
+    michal = tangon[entity];
+    entity = undefined;
+    golfie = oscard.bind(entity)(michal);
+    report = golfie.fileFinishedImporting;
+    michal = 'modules/experiments/apex/index.tsx';
+    michal = report.bind(golfie)(michal);
+    michal = 1;
+    report = tangon[michal];
+    report = oscard.bind(entity)(report);
+    report = report.ApexExperiment;
+    zuuluu['ApexExperiment'] = report;
+    report = 2;
+    report = tangon[report];
+    report = oscard.bind(entity)(report);
+    report = report.ApexExperimentsMessage;
+    zuuluu['ApexExperimentsMessage'] = report;
+    tangon = tangon[michal];
+    michal = argBaz;
+    michal = michal.bind(entity)(tangon);
+    zuuluu['createApexExperiment'] = michal;
+    return entity;
+})();

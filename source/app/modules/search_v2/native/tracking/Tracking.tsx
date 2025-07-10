@@ -132,7 +132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argFoo;
             zuuluu = _closure1_slot1;
             entity = _closure1_slot2;
-            oscard = 4;
+            oscard = 5;
             entity = entity[oscard];
             report = undefined;
             zuuluu = zuuluu.bind(report)(entity);
@@ -186,22 +186,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 2;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.AnalyticsSearchLocations;
-    var _closure1_slot5 = golfie;
-    golfie = tangon.SEARCH_HISTORY_TO_ANALYTICS_SEARCH_HISTORY;
-    var _closure1_slot6 = golfie;
+    option = tangon.AnalyticsSearchLocations;
+    var _closure1_slot5 = option;
+    option = tangon.SEARCH_HISTORY_TO_ANALYTICS_SEARCH_HISTORY;
+    var _closure1_slot6 = option;
     tangon = tangon.SEARCH_TAB_TO_ANALYTICS_SEARCH_TAB;
     var _closure1_slot7 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.AnalyticEvents;
-    var _closure1_slot8 = golfie;
-    golfie = tangon.SearchTokenTypes;
-    var _closure1_slot9 = golfie;
+    option = tangon.AnalyticEvents;
+    var _closure1_slot8 = option;
+    option = tangon.SearchTokenTypes;
+    var _closure1_slot9 = option;
     tangon = tangon.SearchTypes;
     var _closure1_slot10 = tangon;
-    tangon = 7;
+    tangon = 4;
+    tangon = oscard[tangon];
+    option = golfie.bind(entity)(tangon);
+    tangon = option.prototype;
+    foxtra = Object.create(tangon, {constructor: {value: option}});
+    romeon = 'SearchTracking';
+    tangon = new foxtra[option](romeon, yankee);
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -233,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = tangon.bind(report)(golfie, zuuluu);
         tangon = _closure1_slot1;
         report = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = report[zuuluu];
         report = tangon.bind(entity)(zuuluu);
         tangon = report.trackWithMetadata;
@@ -267,7 +274,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         romeon = zuuluu.bind(entity)(option);
         golfie = _closure1_slot1;
         verify = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = verify[zuuluu];
         report = golfie.bind(entity)(zuuluu);
         tangon = report.trackWithMetadata;
@@ -276,7 +283,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = {};
         foxtra = michal;
         oscard = copyDataProperties(foxtra, romeon);
-        oscard = 4;
+        oscard = 5;
         offset = verify[oscard];
         yankee = golfie.bind(entity)(offset);
         offset = yankee.getSearchCount;
@@ -324,7 +331,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = tangon.bind(report)(golfie, zuuluu);
         tangon = _closure1_slot1;
         report = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = report[zuuluu];
         report = tangon.bind(entity)(zuuluu);
         tangon = report.trackWithMetadata;
@@ -373,7 +380,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = tangon.bind(report)(golfie, zuuluu);
         tangon = _closure1_slot1;
         report = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = report[zuuluu];
         report = tangon.bind(entity)(zuuluu);
         tangon = report.trackWithMetadata;
@@ -407,7 +414,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = zuuluu.bind(entity)(tangon);
         tangon = _closure1_slot1;
         report = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = report[zuuluu];
         report = tangon.bind(entity)(zuuluu);
         tangon = report.trackWithMetadata;
@@ -439,7 +446,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = zuuluu[tangon];
             tangon = _closure1_slot1;
             report = _closure1_slot2;
-            zuuluu = 5;
+            zuuluu = 6;
             zuuluu = report[zuuluu];
             report = tangon.bind(entity)(zuuluu);
             tangon = report.trackWithMetadata;
@@ -478,7 +485,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = zuuluu.bind(tangon)(report);
             tangon = _closure1_slot1;
             report = _closure1_slot2;
-            zuuluu = 5;
+            zuuluu = 6;
             zuuluu = report[zuuluu];
             report = tangon.bind(entity)(zuuluu);
             tangon = report.trackWithMetadata;
@@ -544,7 +551,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = zuuluu.bind(tangon)(report, michal);
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
-            michal = 5;
+            michal = 6;
             michal = tangon[michal];
             report = zuuluu.bind(entity)(michal);
             tangon = report.trackWithMetadata;
@@ -590,7 +597,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal[golfie] = option;
             golfie = _closure1_slot0;
             option = _closure1_slot2;
-            oscard = 6;
+            oscard = 7;
             oscard = option[oscard];
             oscard = golfie.bind(entity)(oscard);
             golfie = oscard.SearchResultExactCountEnabled;
@@ -615,7 +622,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         romeon = michal.bind(entity)(zuuluu);
         zuuluu = _closure1_slot1;
         tangon = _closure1_slot2;
-        michal = 5;
+        michal = 6;
         michal = tangon[michal];
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
@@ -646,7 +653,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = zuuluu.bind(entity)(tangon);
         tangon = _closure1_slot1;
         oscard = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = oscard[zuuluu];
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = tangon.trackWithMetadata;
@@ -664,7 +671,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = zuuluu.bind(entity)(tangon);
         tangon = _closure1_slot1;
         oscard = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = oscard[zuuluu];
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = tangon.trackWithMetadata;
@@ -684,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = michal.bind(entity)(zuuluu);
         zuuluu = _closure1_slot1;
         tangon = _closure1_slot2;
-        michal = 5;
+        michal = 6;
         michal = tangon[michal];
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
@@ -713,7 +720,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         offset = michal.bind(entity)(zuuluu);
         zuuluu = _closure1_slot1;
         tangon = _closure1_slot2;
-        michal = 5;
+        michal = 6;
         michal = tangon[michal];
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
@@ -740,7 +747,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = zuuluu.bind(entity)(tangon);
         tangon = _closure1_slot1;
         oscard = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = oscard[zuuluu];
         tangon = tangon.bind(entity)(zuuluu);
         zuuluu = tangon.trackWithMetadata;
@@ -764,7 +771,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = zuuluu.bind(tangon)(golfie);
             tangon = _closure1_slot1;
             report = _closure1_slot2;
-            zuuluu = 5;
+            zuuluu = 6;
             zuuluu = report[zuuluu];
             report = tangon.bind(entity)(zuuluu);
             tangon = report.trackWithMetadata;
@@ -812,9 +819,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         golfie = tangon.bind(report)(golfie, zuuluu);
+        zuuluu = oscard.search_query_id;
         tangon = _closure1_slot1;
         report = _closure1_slot2;
-        zuuluu = 5;
+        zuuluu = 6;
         zuuluu = report[zuuluu];
         report = tangon.bind(entity)(zuuluu);
         tangon = report.trackWithMetadata;
@@ -871,7 +879,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = zuuluu.bind(tangon)(report, michal);
         zuuluu = _closure1_slot1;
         option = _closure1_slot2;
-        michal = 5;
+        michal = 6;
         michal = option[michal];
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
@@ -908,7 +916,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'search_query_content_length';
         michal[golfie] = verify;
         golfie = _closure1_slot0;
-        oscard = 6;
+        oscard = 7;
         oscard = option[oscard];
         oscard = golfie.bind(entity)(oscard);
         golfie = oscard.SearchResultExactCountEnabled;
@@ -947,7 +955,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = zuuluu.bind(tangon)(report, michal);
         zuuluu = _closure1_slot1;
         option = _closure1_slot2;
-        michal = 5;
+        michal = 6;
         michal = option[michal];
         report = zuuluu.bind(entity)(michal);
         tangon = report.trackWithMetadata;
@@ -972,7 +980,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'search_query_content_length';
         michal[golfie] = verify;
         golfie = _closure1_slot0;
-        oscard = 6;
+        oscard = 7;
         oscard = option[oscard];
         oscard = golfie.bind(entity)(oscard);
         golfie = oscard.SearchResultExactCountEnabled;

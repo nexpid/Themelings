@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 811; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 775; continue _fun00001 }
  13:
                     oscard = michal.guildId;
                     foxtra = michal.channelId;
@@ -28,7 +28,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return golfie;
  29:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 808; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 772; continue _fun00001 }
  38:
                     report = _closure1_slot8;
                     tangon = report.getGuild;
@@ -40,9 +40,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     if(!(tangon == verify)) { _fun00002_ip = 87; continue _fun00001 }
  76:
                     option = _closure1_slot10;
-                    if(!(oscard === option)) { _fun00002_ip = 803; continue _fun00001 }
+                    if(!(oscard === option)) { _fun00002_ip = 767; continue _fun00001 }
  87:
-                    if(!(tangon != foxtra)) { _fun00002_ip = 798; continue _fun00001 }
+                    if(!(tangon != foxtra)) { _fun00002_ip = 762; continue _fun00001 }
  94:
                     option = _closure1_slot11;
                     option = option.bind(golfie)(foxtra);
@@ -50,35 +50,35 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  109:
                     option = _closure1_slot12;
                     option = option.ROLE_SUBSCRIPTIONS;
-                    if(!(option !== foxtra)) { _fun00002_ip = 763; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 727; continue _fun00001 }
  126:
                     option = _closure1_slot12;
                     option = option.GUILD_SHOP;
-                    if(!(option !== foxtra)) { _fun00002_ip = 728; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 692; continue _fun00001 }
  143:
                     option = _closure1_slot12;
                     option = option.MEMBER_APPLICATIONS;
-                    if(!(option !== foxtra)) { _fun00002_ip = 694; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 658; continue _fun00001 }
  160:
                     option = _closure1_slot12;
                     option = option.GUILD_HOME;
-                    if(!(option !== foxtra)) { _fun00002_ip = 660; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 624; continue _fun00001 }
  177:
                     option = _closure1_slot12;
                     option = option.CHANNEL_BROWSER;
-                    if(!(option !== foxtra)) { _fun00002_ip = 624; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 588; continue _fun00001 }
  194:
                     option = _closure1_slot12;
                     option = option.GUILD_ONBOARDING;
-                    if(!(option !== foxtra)) { _fun00002_ip = 606; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 570; continue _fun00001 }
  211:
                     option = _closure1_slot12;
                     option = option.CUSTOMIZE_COMMUNITY;
-                    if(!(option !== foxtra)) { _fun00002_ip = 570; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 534; continue _fun00001 }
  228:
                     option = _closure1_slot12;
                     option = option.MEMBER_SAFETY;
-                    if(!(option !== foxtra)) { _fun00002_ip = 536; continue _fun00001 }
+                    if(!(option !== foxtra)) { _fun00002_ip = 500; continue _fun00001 }
  245:
                     option = _closure1_slot12;
                     option = option.GUILD_BOOSTS;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  279:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    option = 15;
+                    option = 14;
                     option = yankee[option];
                     offset = offset.bind(golfie)(option);
                     option = offset.assertNever;
@@ -105,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  334:
                     yankee = _closure1_slot1;
                     backup = _closure1_slot2;
-                    offset = 16;
+                    offset = 15;
                     offset = backup[offset];
                     yankee = yankee.bind(golfie)(offset);
                     offset = yankee.loadThread;
@@ -130,7 +130,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  404:
                     yankee = _closure1_slot0;
                     backup = _closure1_slot2;
-                    offset = 17;
+                    offset = 16;
                     offset = backup[offset];
                     yankee = yankee.bind(golfie)(offset);
                     offset = yankee.canViewChannel;
@@ -150,23 +150,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  467:
                     yankee = _closure1_slot1;
                     romeon = _closure1_slot2;
-                    offset = 14;
+                    offset = 13;
                     offset = romeon[offset];
                     offset = yankee.bind(golfie)(offset);
                     option = offset.bind(golfie)(verify);
  492:
                     return option;
  495:
-                    offset = _closure1_slot0;
-                    yankee = _closure1_slot2;
-                    option = 13;
-                    option = yankee[option];
-                    yankee = offset.bind(golfie)(option);
-                    offset = yankee.getGuildPowerupsExperimentEnabled;
-                    option = 'isAccessibleChannelOrThread';
-                    option = offset.bind(yankee)(oscard, option);
+                    option = true;
                     return option;
- 536:
+ 500:
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
                     option = 12;
@@ -175,34 +168,34 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = offset.canAccessMemberSafetyPage;
                     option = option.bind(offset)(oscard);
                     return option;
- 570:
+ 534:
                     option = tangon != verify;
-                    if(!option) { _fun00002_ip = 603; continue _fun00001 }
- 577:
+                    if(!option) { _fun00002_ip = 567; continue _fun00001 }
+ 541:
                     romeon = verify.features;
                     yankee = romeon.has;
                     offset = _closure1_slot9;
                     offset = offset.COMMUNITY;
                     option = yankee.bind(romeon)(offset);
- 603:
+ 567:
                     return option;
- 606:
+ 570:
                     offset = _closure1_slot5;
                     option = offset.shouldShowOnboarding;
                     option = option.bind(offset)(oscard);
                     return option;
- 624:
+ 588:
                     tangon = tangon != verify;
-                    if(!tangon) { _fun00002_ip = 657; continue _fun00001 }
- 631:
+                    if(!tangon) { _fun00002_ip = 621; continue _fun00001 }
+ 595:
                     yankee = verify.features;
                     offset = yankee.has;
                     option = _closure1_slot9;
                     option = option.COMMUNITY;
                     tangon = offset.bind(yankee)(option);
- 657:
+ 621:
                     return tangon;
- 660:
+ 624:
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
                     tangon = 11;
@@ -211,7 +204,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = option.canSeeOnboardingHome;
                     tangon = tangon.bind(option)(oscard);
                     return tangon;
- 694:
+ 658:
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
                     tangon = 10;
@@ -220,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = option.canReviewGuildMemberApplications;
                     tangon = tangon.bind(option)(oscard);
                     return tangon;
- 728:
+ 692:
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
                     tangon = 9;
@@ -229,7 +222,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = option.isGuildShopVisibleInGuild;
                     tangon = tangon.bind(option)(verify, report);
                     return tangon;
- 763:
+ 727:
                     tangon = _closure1_slot0;
                     option = _closure1_slot2;
                     zuuluu = 8;
@@ -238,15 +231,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = tangon.areRoleSubscriptionsVisibleInGuild;
                     zuuluu = zuuluu.bind(tangon)(oscard, report);
                     return zuuluu;
- 798:
+ 762:
                     zuuluu = true;
                     return zuuluu;
- 803:
+ 767:
                     zuuluu = false;
                     return zuuluu;
- 808:
+ 772:
                     return michal;
- 811:
+ 775:
                     return entity;
                 }
             };
@@ -311,7 +304,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot11 = golfie;
     tangon = tangon.StaticChannelRoute;
     var _closure1_slot12 = tangon;
-    tangon = 18;
+    tangon = 17;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

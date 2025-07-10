@@ -43,11 +43,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.getRTCConnection;
             zuuluu = entity.bind(michal)();
             entity = null;
-            if(!(entity != zuuluu)) { _fun00002_ip = 376; continue _fun00001 }
+            if(!(entity != zuuluu)) { _fun00002_ip = 374; continue _fun00001 }
  26:
             michal = zuuluu.getMediaEngineConnectionId;
             oscard = michal.bind(zuuluu)();
-            if(!(entity != oscard)) { _fun00002_ip = 374; continue _fun00001 }
+            if(!(entity != oscard)) { _fun00002_ip = 372; continue _fun00001 }
  43:
             report = _closure1_slot3;
             michal = report.isVideoEnabled;
@@ -59,16 +59,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot4;
             michal = report.getLastNonZeroRemoteVideoSinkWantsTime;
             report = michal.bind(report)();
-            if(!(entity != report)) { _fun00002_ip = 114; continue _fun00001 }
- 82:
+            if(!(entity != report)) { _fun00002_ip = 112; continue _fun00001 }
+ 80:
             michal = global;
             golfie = michal.performance;
             michal = golfie.now;
             michal = michal.bind(golfie)();
             report = michal - report;
             michal = _closure1_slot5;
-            if(!(!(report < michal))) { _fun00002_ip = 372; continue _fun00001 }
- 114:
+            if(!(!(report < michal))) { _fun00002_ip = 370; continue _fun00001 }
+ 112:
             michal = zuuluu.getRemoteVideoSinkWants;
             report = michal.bind(zuuluu)();
             michal = global;
@@ -119,8 +119,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             michal = zuuluu.bind(report)(michal);
-            if(michal) { _fun00002_ip = 370; continue _fun00001 }
- 169:
+            if(michal) { _fun00002_ip = 368; continue _fun00001 }
+ 167:
             zuuluu = _closure1_slot0;
             report = _closure1_slot1;
             michal = 4;
@@ -134,19 +134,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)(oscard, michal);
             report = entity == zuuluu;
             michal = null;
-            if(report) { _fun00002_ip = 368; continue _fun00001 }
- 229:
+            if(report) { _fun00002_ip = 366; continue _fun00001 }
+ 227:
             report = zuuluu.short;
             oscard = report.frameRate;
             report = 10;
-            if(!(!(oscard < report))) { _fun00002_ip = 269; continue _fun00001 }
- 248:
+            if(!(!(oscard < report))) { _fun00002_ip = 267; continue _fun00001 }
+ 246:
             zuuluu = zuuluu.long;
             zuuluu = zuuluu.frameRate;
             report = zuuluu < report;
             zuuluu = undefined;
-            if(!report) { _fun00002_ip = 365; continue _fun00001 }
- 269:
+            if(!report) { _fun00002_ip = 363; continue _fun00001 }
+ 267:
             report = {};
             oscard = _closure1_slot0;
             option = _closure1_slot1;
@@ -170,17 +170,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = new Array(1);
             tangon[0] = report;
             zuuluu = tangon;
- 365:
+ 363:
             michal = zuuluu;
- 368:
+ 366:
             return michal;
+ 368:
+            return entity;
  370:
             return entity;
  372:
             return entity;
  374:
-            return entity;
- 376:
             return entity;
         }
     };

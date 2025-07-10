@@ -35,11 +35,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'alignItems': 'center', 'width': '100%'};
+    verify = {'alignItems': 'center', 'width': '80%', 'height': '100%'};
     tangon['container'] = verify;
-    verify = {};
-    offset = 16;
-    verify['marginTop'] = offset;
+    verify = {'marginTop': 16, 'zIndex': 100};
     tangon['profilePreview'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot5 = tangon;
@@ -68,7 +66,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = kiloes.items;
             entity = entity.length;
             michal = 0;
-            if(!(!(entity <= michal))) { _fun00002_ip = 321; continue _fun00001 }
+            if(!(!(entity <= michal))) { _fun00002_ip = 322; continue _fun00001 }
  77:
             zuuluu = kiloes.type;
             oscard = _closure1_slot0;
@@ -123,13 +121,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = verify;
             report['pendingProfileEffectRecord'] = option;
             report['maxWidth'] = golfie;
-            golfie = 1;
-            report['bioLineClamp'] = golfie;
+            golfie = true;
+            report['gradientFullHeight'] = golfie;
             report = zuuluu.bind(tangon)(oscard, report);
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
- 321:
+ 322:
             entity = null;
             return entity;
         }

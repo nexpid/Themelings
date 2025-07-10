@@ -104,7 +104,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = function(argFoo) { // Original name: UserRecord
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                report = argFoo;
+                oscard = argFoo;
                 tangon = this;
                 entity = _closure1_slot4;
                 michal = _closure2_slot0;
@@ -152,15 +152,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 entity['hasAnyStaffLevel'] = michal;
-                golfie = report.premium_type;
+                golfie = oscard.premium_type;
                 michal = null;
                 if(!(michal == golfie)) { _fun00004_ip = 177; continue _fun00003 }
  171:
-                golfie = report.premiumType;
+                golfie = oscard.premiumType;
  177:
-                tangon = report.id;
+                tangon = oscard.id;
                 entity['id'] = tangon;
-                option = report.username;
+                option = oscard.username;
                 offset = michal != option;
                 tangon = '';
                 if(!offset) { _fun00004_ip = 207; continue _fun00003 }
@@ -168,13 +168,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = option;
  207:
                 entity['username'] = tangon;
-                tangon = report.discriminator;
+                tangon = oscard.discriminator;
                 if(!(michal == tangon)) { _fun00004_ip = 227; continue _fun00003 }
  223:
                 tangon = _closure1_slot10;
  227:
                 entity['discriminator'] = tangon;
-                option = report.avatar;
+                option = oscard.avatar;
                 offset = michal != option;
                 tangon = null;
                 if(!offset) { _fun00004_ip = 251; continue _fun00003 }
@@ -182,13 +182,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = option;
  251:
                 entity['avatar'] = tangon;
-                tangon = report.avatar_decoration_data;
+                tangon = oscard.avatar_decoration_data;
                 if(!(michal == tangon)) { _fun00004_ip = 273; continue _fun00003 }
  267:
-                tangon = report.avatarDecorationData;
+                tangon = oscard.avatarDecorationData;
  273:
                 entity['avatarDecoration'] = tangon;
-                option = report.email;
+                option = oscard.email;
                 offset = michal != option;
                 tangon = null;
                 if(!offset) { _fun00004_ip = 297; continue _fun00003 }
@@ -196,31 +196,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = option;
  297:
                 entity['email'] = tangon;
-                option = report.verified;
+                option = oscard.verified;
                 tangon = michal != option;
                 if(!tangon) { _fun00004_ip = 319; continue _fun00003 }
  316:
                 tangon = option;
  319:
                 entity['verified'] = tangon;
-                option = report.bot;
+                option = oscard.bot;
                 tangon = michal != option;
                 if(!tangon) { _fun00004_ip = 341; continue _fun00003 }
  338:
                 tangon = option;
  341:
                 entity['bot'] = tangon;
-                option = report.system;
+                option = oscard.system;
                 tangon = michal != option;
                 if(!tangon) { _fun00004_ip = 363; continue _fun00003 }
  360:
                 tangon = option;
  363:
                 entity['system'] = tangon;
-                option = report.mfa_enabled;
+                option = oscard.mfa_enabled;
                 if(!(michal == option)) { _fun00004_ip = 385; continue _fun00003 }
  379:
-                option = report.mfaEnabled;
+                option = oscard.mfaEnabled;
  385:
                 tangon = michal != option;
                 if(!tangon) { _fun00004_ip = 395; continue _fun00003 }
@@ -228,14 +228,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = option;
  395:
                 entity['mfaEnabled'] = tangon;
-                option = report.mobile;
+                option = oscard.mobile;
                 tangon = michal != option;
                 if(!tangon) { _fun00004_ip = 417; continue _fun00003 }
  414:
                 tangon = option;
  417:
                 entity['mobile'] = tangon;
-                option = report.desktop;
+                option = oscard.desktop;
                 tangon = michal != option;
                 if(!tangon) { _fun00004_ip = 439; continue _fun00003 }
  436:
@@ -249,7 +249,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = golfie;
  458:
                 entity['premiumType'] = tangon;
-                option = report.flags;
+                option = oscard.flags;
                 offset = michal != option;
                 tangon = 0;
                 golfie = 0;
@@ -258,10 +258,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option;
  483:
                 entity['flags'] = golfie;
-                option = report.public_flags;
+                option = oscard.public_flags;
                 if(!(michal == option)) { _fun00004_ip = 505; continue _fun00003 }
  499:
-                option = report.publicFlags;
+                option = oscard.publicFlags;
  505:
                 offset = michal != option;
                 golfie = 0;
@@ -270,10 +270,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option;
  517:
                 entity['publicFlags'] = golfie;
-                option = report.purchased_flags;
+                option = oscard.purchased_flags;
                 if(!(michal == option)) { _fun00004_ip = 539; continue _fun00003 }
  533:
-                option = report.purchasedFlags;
+                option = oscard.purchasedFlags;
  539:
                 offset = michal != option;
                 golfie = 0;
@@ -282,10 +282,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option;
  551:
                 entity['purchasedFlags'] = golfie;
-                option = report.premium_usage_flags;
+                option = oscard.premium_usage_flags;
                 if(!(michal == option)) { _fun00004_ip = 573; continue _fun00003 }
  567:
-                option = report.premiumUsageFlags;
+                option = oscard.premiumUsageFlags;
  573:
                 offset = michal != option;
                 golfie = 0;
@@ -294,7 +294,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option;
  585:
                 entity['premiumUsageFlags'] = golfie;
-                option = report.phone;
+                option = oscard.phone;
                 offset = michal != option;
                 golfie = null;
                 if(!offset) { _fun00004_ip = 609; continue _fun00003 }
@@ -302,28 +302,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option;
  609:
                 entity['phone'] = golfie;
-                golfie = report.nsfw_allowed;
+                golfie = oscard.nsfw_allowed;
                 if(!(michal == golfie)) { _fun00004_ip = 631; continue _fun00003 }
  625:
-                golfie = report.nsfwAllowed;
+                golfie = oscard.nsfwAllowed;
  631:
                 entity['nsfwAllowed'] = golfie;
-                golfie = report.age_verification_status;
+                golfie = oscard.age_verification_status;
                 if(!(michal == golfie)) { _fun00004_ip = 653; continue _fun00003 }
  647:
-                golfie = report.ageVerificationStatus;
+                golfie = oscard.ageVerificationStatus;
  653:
                 entity['ageVerificationStatus'] = golfie;
-                golfie = report.guildMemberAvatars;
+                golfie = oscard.guildMemberAvatars;
                 if(!(michal == golfie)) { _fun00004_ip = 671; continue _fun00003 }
  669:
                 golfie = {};
  671:
                 entity['guildMemberAvatars'] = golfie;
-                option = report.has_bounced_email;
+                option = oscard.has_bounced_email;
                 if(!(michal == option)) { _fun00004_ip = 695; continue _fun00003 }
  689:
-                option = report.hasBouncedEmail;
+                option = oscard.hasBouncedEmail;
  695:
                 golfie = michal != option;
                 if(!golfie) { _fun00004_ip = 705; continue _fun00003 }
@@ -331,10 +331,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option;
  705:
                 entity['hasBouncedEmail'] = golfie;
-                option = report.personal_connection_id;
+                option = oscard.personal_connection_id;
                 if(!(michal == option)) { _fun00004_ip = 727; continue _fun00003 }
  721:
-                option = report.personalConnectionId;
+                option = oscard.personalConnectionId;
  727:
                 offset = michal != option;
                 golfie = null;
@@ -343,35 +343,41 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie = option;
  739:
                 entity['personalConnectionId'] = golfie;
-                golfie = report.global_name;
+                golfie = oscard.global_name;
                 if(!(michal == golfie)) { _fun00004_ip = 761; continue _fun00003 }
  755:
-                golfie = report.globalName;
+                golfie = oscard.globalName;
  761:
                 entity['globalName'] = golfie;
-                golfie = report.banner;
+                golfie = oscard.banner;
                 entity['banner'] = golfie;
                 golfie = _closure1_slot0;
                 option = _closure1_slot3;
-                oscard = 8;
-                oscard = option[oscard];
-                option = golfie.bind(zuuluu)(oscard);
+                report = 8;
+                report = option[report];
+                option = golfie.bind(zuuluu)(report);
                 golfie = option.ensureUserPrimaryGuild;
-                offset = report.primary_guild;
+                offset = oscard.primary_guild;
                 if(!(michal == offset)) { _fun00004_ip = 821; continue _fun00003 }
  815:
-                offset = report.primaryGuild;
+                offset = oscard.primaryGuild;
  821:
                 yankee = michal != offset;
-                oscard = null;
+                report = null;
                 if(!yankee) { _fun00004_ip = 833; continue _fun00003 }
  830:
-                oscard = offset;
+                report = offset;
  833:
-                oscard = golfie.bind(option)(oscard);
-                entity['primaryGuild'] = oscard;
-                report = report.collectibles;
+                report = golfie.bind(option)(report);
+                entity['primaryGuild'] = report;
+                report = oscard.collectibles;
                 entity['collectibles'] = report;
+                report = oscard.display_name_styles;
+                if(!(michal == report)) { _fun00004_ip = 874; continue _fun00003 }
+ 868:
+                report = oscard.displayNameStyles;
+ 874:
+                entity['displayNameStyles'] = report;
                 report = global;
                 golfie = report.Object;
                 oscard = golfie.defineProperties;
@@ -491,14 +497,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.globalName;
                 oscard = michal == report;
                 zuuluu = undefined;
-                if(oscard) { _fun00004_ip = 994; continue _fun00003 }
- 989:
+                if(oscard) { _fun00004_ip = 1018; continue _fun00003 }
+ 1013:
                 zuuluu = report.length;
- 994:
-                if(!(tangon === zuuluu)) { _fun00004_ip = 1004; continue _fun00003 }
- 998:
+ 1018:
+                if(!(tangon === zuuluu)) { _fun00004_ip = 1028; continue _fun00003 }
+ 1022:
                 entity['globalName'] = michal;
- 1004:
+ 1028:
                 return entity;
             }
         };

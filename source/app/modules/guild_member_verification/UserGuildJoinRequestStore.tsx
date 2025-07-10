@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot14 = michal;
+            _closure1_slot13 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot13 = entity;
     michal = function(argFoo) { // Original name: joinRequestFromServer
         michal = argFoo;
         entity = {};
@@ -74,24 +74,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['interviewChannelId'] = michal;
         return entity;
     };
-    var _closure1_slot15 = michal;
+    var _closure1_slot14 = michal;
     entity = function(argFoo) { // Original name: deleteJoinRequest
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argFoo;
-            entity = _closure1_slot10;
-            entity = delete entity[zuuluu];
             entity = _closure1_slot9;
+            entity = delete entity[zuuluu];
+            entity = _closure1_slot8;
             if(!(entity === zuuluu)) { _fun00004_ip = 28; continue _fun00003 }
  22:
             entity = null;
-            _closure1_slot9 = entity;
+            _closure1_slot8 = entity;
  28:
             entity = undefined;
             return entity;
         }
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot15 = entity;
     offset = function(argFoo) { // Original name: handleGatewayJoinRequestUpdate
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -101,10 +101,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = null;
             if(!(oscard != report)) { _fun00006_ip = 118; continue _fun00005 }
  20:
-            tangon = _closure1_slot15;
+            tangon = _closure1_slot14;
             michal = undefined;
             report = tangon.bind(michal)(report);
-            golfie = _closure1_slot8;
+            golfie = _closure1_slot7;
             tangon = golfie.getCurrentUser;
             tangon = tangon.bind(golfie)();
             if(!(oscard != tangon)) { _fun00006_ip = 65; continue _fun00005 }
@@ -115,18 +115,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  65:
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
-            tangon = 7;
+            tangon = 6;
             tangon = golfie[tangon];
             oscard = oscard.bind(michal)(tangon);
             tangon = oscard.isApprovedAndAcked;
             tangon = tangon.bind(oscard)(report);
             if(tangon) { _fun00006_ip = 109; continue _fun00005 }
  99:
-            tangon = _closure1_slot10;
+            tangon = _closure1_slot9;
             tangon[zuuluu] = report;
             _fun00006_ip = 118; continue _fun00005;
  109:
-            entity = _closure1_slot16;
+            entity = _closure1_slot15;
             entity = entity.bind(michal)(zuuluu);
  118:
             entity = undefined;
@@ -169,20 +169,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = golfie[tangon];
     tangon = option.bind(entity)(tangon);
     var _closure1_slot7 = tangon;
-    tangon = 6;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
     tangon = null;
-    var _closure1_slot9 = tangon;
+    var _closure1_slot8 = tangon;
     tangon = {};
-    var _closure1_slot10 = tangon;
+    var _closure1_slot9 = tangon;
     tangon = false;
+    var _closure1_slot10 = tangon;
+    tangon = {};
     var _closure1_slot11 = tangon;
     tangon = {};
     var _closure1_slot12 = tangon;
-    tangon = {};
-    var _closure1_slot13 = tangon;
     tangon = 8;
     tangon = golfie[tangon];
     tangon = option.bind(entity)(tangon);
@@ -200,7 +196,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot4;
-                entity = _closure1_slot14;
+                entity = _closure1_slot13;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00008_ip = 69; continue _fun00007 }
  51:
@@ -233,7 +229,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = 'getRequest';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            michal = _closure1_slot10;
+            michal = _closure1_slot9;
             entity = argFoo;
             entity = michal[entity];
             return entity;
@@ -248,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = global;
             tangon = michal.Object;
             zuuluu = tangon.values;
-            michal = _closure1_slot10;
+            michal = _closure1_slot9;
             tangon = zuuluu.bind(tangon)(michal);
             zuuluu = tangon.map;
             michal = function(argFoo) {
@@ -284,22 +280,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function(argFoo) { // Original name: value
             _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                zuuluu = argFoo;
-                entity = _closure1_slot12;
-                tangon = entity[zuuluu];
+                report = argFoo;
+                entity = _closure1_slot11;
+                zuuluu = entity[report];
                 entity = null;
-                tangon = entity != tangon;
-                if(!tangon) { _fun00012_ip = 55; continue _fun00011 }
+                zuuluu = entity != zuuluu;
+                if(!zuuluu) { _fun00012_ip = 64; continue _fun00011 }
  23:
-                tangon = _closure1_slot7;
-                michal = _closure1_slot12;
-                report = michal[zuuluu];
-                zuuluu = tangon.prototype;
-                zuuluu = Object.create(zuuluu, {constructor: {value: tangon}});
-                oscard = zuuluu;
-                michal = new oscard[tangon](report, tangon);
-                entity = michal instanceof Object ? michal : zuuluu;
- 55:
+                oscard = _closure1_slot0;
+                tangon = _closure1_slot1;
+                zuuluu = 7;
+                tangon = tangon[zuuluu];
+                zuuluu = undefined;
+                tangon = oscard.bind(zuuluu)(tangon);
+                zuuluu = tangon.fromGuildBasic;
+                michal = _closure1_slot11;
+                michal = michal[report];
+                entity = zuuluu.bind(tangon)(michal);
+ 64:
                 return entity;
             }
         };
@@ -309,7 +307,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'hasFetchedRequestToJoinGuilds';
         report['key'] = golfie;
         golfie = function() { // Original name: get
-            entity = _closure1_slot11;
+            entity = _closure1_slot10;
             return entity;
         };
         report['get'] = golfie;
@@ -318,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'hasJoinRequestCoackmark';
         report['key'] = golfie;
         golfie = function() { // Original name: value
-            michal = _closure1_slot9;
+            michal = _closure1_slot8;
             entity = null;
             entity = entity != michal;
             return entity;
@@ -329,7 +327,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = 'getCooldown';
         report['key'] = golfie;
         oscard = function(argFoo) { // Original name: value
-            michal = _closure1_slot13;
+            michal = _closure1_slot12;
             entity = argFoo;
             entity = michal[entity];
             return entity;
@@ -350,11 +348,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = argFoo;
         zuuluu = entity.guildJoinRequests;
         entity = false;
+        _closure1_slot10 = entity;
+        entity = {};
         _closure1_slot11 = entity;
         entity = {};
-        _closure1_slot12 = entity;
-        entity = {};
-        _closure1_slot10 = entity;
+        _closure1_slot9 = entity;
         michal = zuuluu.forEach;
         entity = function(argFoo) {
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
@@ -364,8 +362,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = null;
                 if(!(entity != zuuluu)) { _fun00014_ip = 36; continue _fun00013 }
  14:
-                michal = _closure1_slot10;
-                tangon = _closure1_slot15;
+                michal = _closure1_slot9;
+                tangon = _closure1_slot14;
                 entity = undefined;
                 entity = tangon.bind(entity)(report);
                 michal[zuuluu] = entity;
@@ -384,7 +382,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = function(argFoo) { // Original name: handleRemoveJoinRequest
         entity = argFoo;
         zuuluu = entity.guildId;
-        michal = _closure1_slot16;
+        michal = _closure1_slot15;
         entity = undefined;
         michal = michal.bind(entity)(zuuluu);
         return entity;
@@ -399,28 +397,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = null;
             if(!(entity == report)) { _fun00016_ip = 36; continue _fun00015 }
  20:
-            michal = _closure1_slot16;
+            michal = _closure1_slot15;
             entity = undefined;
             entity = michal.bind(entity)(zuuluu);
             _fun00016_ip = 103; continue _fun00015;
  36:
-            tangon = _closure1_slot15;
+            tangon = _closure1_slot14;
             michal = undefined;
             report = tangon.bind(michal)(report);
             oscard = _closure1_slot0;
             golfie = _closure1_slot1;
-            tangon = 7;
+            tangon = 6;
             tangon = golfie[tangon];
             oscard = oscard.bind(michal)(tangon);
             tangon = oscard.isApprovedAndAcked;
             tangon = tangon.bind(oscard)(report);
             if(tangon) { _fun00016_ip = 94; continue _fun00015 }
  84:
-            tangon = _closure1_slot10;
+            tangon = _closure1_slot9;
             tangon[zuuluu] = report;
             _fun00016_ip = 103; continue _fun00015;
  94:
-            entity = _closure1_slot16;
+            entity = _closure1_slot15;
             entity = entity.bind(michal)(zuuluu);
  103:
             entity = undefined;
@@ -429,7 +427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     tangon['USER_GUILD_JOIN_REQUEST_UPDATE'] = offset;
     offset = function(argFoo) { // Original name: handleGuildLeave
-        zuuluu = _closure1_slot16;
+        zuuluu = _closure1_slot15;
         entity = argFoo;
         entity = entity.guild;
         michal = entity.id;
@@ -442,7 +440,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = argFoo;
         zuuluu = entity.guilds;
         entity = true;
-        _closure1_slot11 = entity;
+        _closure1_slot10 = entity;
         michal = zuuluu.forEach;
         entity = function(argFoo) {
             entity = argFoo;
@@ -451,7 +449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = entity.features;
             report = entity.icon;
             tangon = entity.splash;
-            michal = _closure1_slot12;
+            michal = _closure1_slot11;
             entity = {};
             entity['id'] = zuuluu;
             entity['name'] = golfie;
@@ -489,7 +487,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = michal.icon;
             oscard = michal.features;
             report = michal.splash;
-            zuuluu = _closure1_slot12;
+            zuuluu = _closure1_slot11;
             michal = {};
             michal['id'] = offset;
             michal['name'] = verify;
@@ -519,8 +517,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             if(!(oscard != option)) { _fun00020_ip = 124; continue _fun00019 }
  30:
             report = option.guild_id;
-            tangon = _closure1_slot10;
-            golfie = _closure1_slot15;
+            tangon = _closure1_slot9;
+            golfie = _closure1_slot14;
             zuuluu = undefined;
             zuuluu = golfie.bind(zuuluu)(option);
             tangon[report] = zuuluu;
@@ -529,7 +527,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = michal.icon;
             report = michal.features;
             tangon = michal.splash;
-            michal = _closure1_slot12;
+            michal = _closure1_slot11;
             entity = {};
             entity['id'] = zuuluu;
             entity['name'] = option;
@@ -550,7 +548,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = function(argFoo) { // Original name: handleAckApprovedGuildJoinRequest
         entity = argFoo;
         zuuluu = entity.guildId;
-        michal = _closure1_slot16;
+        michal = _closure1_slot15;
         entity = undefined;
         michal = michal.bind(entity)(zuuluu);
         return entity;
@@ -559,14 +557,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = function(argFoo) { // Original name: handleShowCoachmark
         entity = argFoo;
         michal = entity.guildId;
-        _closure1_slot9 = michal;
+        _closure1_slot8 = michal;
         entity = undefined;
         return entity;
     };
     tangon['USER_GUILD_JOIN_REQUEST_COACHMARK_SHOW'] = offset;
     offset = function() { // Original name: handleClearCoachmark
         entity = null;
-        _closure1_slot9 = entity;
+        _closure1_slot8 = entity;
         entity = undefined;
         return entity;
     };
@@ -577,7 +575,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = argFoo;
             zuuluu = entity.guildId;
             tangon = entity.cooldown;
-            michal = _closure1_slot13;
+            michal = _closure1_slot12;
             entity = null;
             report = entity != tangon;
             entity = 0;

@@ -361,8 +361,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = 0;
             entity['price'] = report;
             entity['price_tier'] = report;
-            report = null;
-            entity['discount_price'] = report;
             michal = michal.bind(tangon)(entity);
             entity = undefined;
             michal = zuuluu.bind(entity)(michal);

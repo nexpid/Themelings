@@ -2047,7 +2047,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     michal['setKrispSuppressionLevel'] = golfie;
-    tangon = function(argFoo) { // Original name: setKrispModelOverride
+    golfie = function(argFoo) { // Original name: setKrispModelOverride
         _fun00087: for(var _fun00088_ip = 0; ; ) switch(_fun00088_ip) {
  0:
             tangon = this;
@@ -2083,7 +2083,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    michal['setKrispModelOverride'] = tangon;
+    michal['setKrispModelOverride'] = golfie;
+    tangon = function(argFoo) { // Original name: setNoiseCancellationEnableStats
+        michal = _closure1_slot13;
+        entity = undefined;
+        michal = michal.bind(entity)();
+        return entity;
+    };
+    michal['setNoiseCancellationEnableStats'] = tangon;
     tangon = 16;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);

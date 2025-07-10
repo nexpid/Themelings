@@ -1583,6 +1583,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['colorBlock'] = yankee;
     yankee = {};
     yankee['paddingBottom'] = backup;
+    backup = oscard[romeon];
+    backup = foxtra.bind(entity)(backup);
+    backup = backup.spacing;
+    backup = backup.PX_16;
+    yankee['paddingHorizontal'] = backup;
     tangon['sceneFooter'] = yankee;
     yankee = {'width': '100%', 'paddingHorizontal': 16, 'paddingVertical': 16};
     tangon['nextButton'] = yankee;

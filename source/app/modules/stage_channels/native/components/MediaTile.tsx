@@ -108,13 +108,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             michal = tangon == yankee;
             entity = null;
-            if(michal) { _fun00002_ip = 375; continue _fun00001 }
+            if(michal) { _fun00002_ip = 371; continue _fun00001 }
  164:
             zuuluu = yankee.type;
             michal = _closure1_slot6;
             michal = michal.ACTIVITY;
             entity = null;
-            if(!(zuuluu !== michal)) { _fun00002_ip = 375; continue _fun00001 }
+            if(!(zuuluu !== michal)) { _fun00002_ip = 371; continue _fun00001 }
  188:
             tangon = _closure1_slot7;
             zuuluu = _closure1_slot4;
@@ -155,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 375:
+ 371:
             return entity;
         }
     };

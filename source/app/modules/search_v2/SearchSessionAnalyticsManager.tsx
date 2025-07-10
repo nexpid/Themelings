@@ -392,36 +392,42 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = {};
         oscard = 'initialize';
         entity['key'] = oscard;
-        oscard = function(argFoo, argBar) { // Original name: value
+        oscard = function(argFoo) { // Original name: value
             _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
+                entity = argFoo;
                 zuuluu = this;
-                report = _closure1_slot0;
-                tangon = _closure1_slot1;
+                golfie = entity.searchContext;
+                verify = entity.initialTab;
+                tangon = entity.initializeSearchQueryId;
+                oscard = _closure1_slot0;
+                report = _closure1_slot1;
                 entity = 4;
-                tangon = tangon[entity];
+                report = report[entity];
                 entity = undefined;
-                oscard = report.bind(entity)(tangon);
+                oscard = oscard.bind(entity)(report);
                 report = oscard.getSearchContextId;
-                tangon = argFoo;
-                report = report.bind(oscard)(tangon);
-                oscard = zuuluu.sessions;
-                tangon = oscard.has;
-                tangon = tangon.bind(oscard)(report);
-                if(tangon) { _fun00018_ip = 90; continue _fun00017 }
- 61:
+                report = report.bind(oscard)(golfie);
                 golfie = zuuluu.sessions;
-                oscard = golfie.set;
-                option = _closure1_slot4;
-                tangon = argBar;
-                tangon = option.bind(entity)(tangon);
-                tangon = oscard.bind(golfie)(report, tangon);
- 90:
-                oscard = zuuluu.searchQueryIds;
-                tangon = oscard.has;
-                tangon = tangon.bind(oscard)(report);
-                if(tangon) { _fun00018_ip = 156; continue _fun00017 }
- 109:
+                oscard = golfie.has;
+                oscard = oscard.bind(golfie)(report);
+                if(oscard) { _fun00018_ip = 105; continue _fun00017 }
+ 79:
+                option = zuuluu.sessions;
+                golfie = option.set;
+                oscard = _closure1_slot4;
+                oscard = oscard.bind(entity)(verify);
+                oscard = golfie.bind(option)(report, oscard);
+ 105:
+                if(!tangon) { _fun00018_ip = 127; continue _fun00017 }
+ 108:
+                golfie = zuuluu.searchQueryIds;
+                oscard = golfie.has;
+                oscard = oscard.bind(golfie)(report);
+                tangon = !oscard;
+ 127:
+                if(!tangon) { _fun00018_ip = 177; continue _fun00017 }
+ 130:
                 tangon = zuuluu.searchQueryIds;
                 zuuluu = tangon.set;
                 oscard = _closure1_slot0;
@@ -432,7 +438,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = oscard.v4;
                 michal = michal.bind(oscard)();
                 michal = zuuluu.bind(tangon)(report, michal);
- 156:
+ 177:
                 return entity;
             }
         };

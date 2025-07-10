@@ -57,7 +57,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['container'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot9 = tangon;
-    tangon = 20;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -66,72 +66,66 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = function(argFoo) { // Original name: ShopProductPreviewActionSheet
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            entity = argFoo;
-            output = entity.product;
+            michal = argFoo;
+            output = michal.product;
             var _closure2_slot0 = output;
-            option = entity.analyticsLocations;
+            golfie = michal.analyticsLocations;
             tangon = undefined;
-            if(!(option === tangon)) { _fun00002_ip = 31; continue _fun00001 }
+            if(!(golfie === tangon)) { _fun00002_ip = 31; continue _fun00001 }
  27:
-            option = new Array(0);
+            golfie = new Array(0);
  31:
-            var _closure2_slot1 = option;
+            var _closure2_slot1 = golfie;
             var _closure2_slot2 = tangon;
             var _closure2_slot3 = tangon;
             var _closure2_slot4 = tangon;
-            entity = _closure1_slot9;
-            echoed = entity.bind(tangon)();
-            golfie = _closure1_slot4;
-            entity = golfie.useRef;
+            michal = _closure1_slot9;
+            foxtra = michal.bind(tangon)();
+            oscard = _closure1_slot4;
+            michal = oscard.useRef;
             zuuluu = null;
-            yankee = entity.bind(golfie)(zuuluu);
-            entity = golfie.useRef;
-            romeon = entity.bind(golfie)(zuuluu);
-            result = _closure1_slot0;
-            source = _closure1_slot2;
-            entity = 10;
-            entity = source[entity];
-            report = result.bind(tangon)(entity);
-            zuuluu = report.useMobileShopPDPDesignRefreshEnabled;
-            entity = 'ShopProductPreviewActionSheet';
-            entity = zuuluu.bind(report)(entity);
+            offset = michal.bind(oscard)(zuuluu);
+            michal = oscard.useRef;
+            romeon = michal.bind(oscard)(zuuluu);
             kiloes = _closure1_slot1;
-            report = 11;
-            zuuluu = source[report];
-            foxtra = kiloes.bind(tangon)(zuuluu);
-            zuuluu = new Array(1);
-            offset = 0;
-            sequen = zuuluu;
-            vacuum = option;
-            ctrled = 0;
-            backup = arraySpread(sequen, vacuum, ctrled);
-            oscard = 12;
-            oscard = source[oscard];
-            oscard = kiloes.bind(tangon)(oscard);
-            oscard = oscard.COLLECTIBLES_SHOP_PROFILE_PREVIEW;
-            zuuluu[backup] = oscard;
-            oscard = 1;
-            backup = backup + oscard;
-            zuuluu = foxtra.bind(tangon)(zuuluu);
-            kiloes = zuuluu.analyticsLocations;
-            foxtra = golfie.useState;
-            zuuluu = true;
-            zuuluu = foxtra.bind(golfie)(zuuluu);
-            backup = _closure1_slot3;
-            foxtra = 2;
-            zuuluu = backup.bind(tangon)(zuuluu, foxtra);
-            update = zuuluu[offset];
-            zuuluu = zuuluu[oscard];
-            _closure2_slot2 = zuuluu;
-            sizing = 13;
-            sizing = source[sizing];
-            result = result.bind(tangon)(sizing);
-            sizing = result.usePreviewCollectibleProduct;
-            sizing = sizing.bind(result)(output, update);
-            result = {};
-            result['product'] = output;
-            result['analyticsLocations'] = kiloes;
-            result['setShouldReset'] = zuuluu;
+            result = _closure1_slot2;
+            report = 10;
+            michal = result[report];
+            yankee = kiloes.bind(tangon)(michal);
+            michal = new Array(1);
+            option = 0;
+            config = michal;
+            sequen = golfie;
+            vacuum = 0;
+            backup = arraySpread(config, sequen, vacuum);
+            zuuluu = 11;
+            zuuluu = result[zuuluu];
+            zuuluu = kiloes.bind(tangon)(zuuluu);
+            zuuluu = zuuluu.COLLECTIBLES_SHOP_PROFILE_PREVIEW;
+            michal[backup] = zuuluu;
+            zuuluu = 1;
+            backup = backup + zuuluu;
+            michal = yankee.bind(tangon)(michal);
+            kiloes = michal.analyticsLocations;
+            yankee = oscard.useState;
+            michal = true;
+            michal = yankee.bind(oscard)(michal);
+            echoed = _closure1_slot3;
+            yankee = 2;
+            michal = echoed.bind(tangon)(michal, yankee);
+            source = michal[option];
+            michal = michal[zuuluu];
+            _closure2_slot2 = michal;
+            backup = _closure1_slot0;
+            sizing = 12;
+            sizing = result[sizing];
+            update = backup.bind(tangon)(sizing);
+            sizing = update.usePreviewCollectibleProduct;
+            sizing = sizing.bind(update)(output, source);
+            update = {};
+            update['product'] = output;
+            update['analyticsLocations'] = kiloes;
+            update['setShouldReset'] = michal;
             sizing = function(argFoo) { // Original name: useHandlePreviewPress
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -211,12 +205,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            result = sizing.bind(tangon)(result);
-            update = _closure1_slot5;
+            update = sizing.bind(tangon)(update);
+            source = _closure1_slot5;
             sizing = new Array(2);
             sizing[0] = output;
-            sizing[1] = zuuluu;
-            zuuluu = function() {
+            sizing[1] = michal;
+            michal = function() {
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     entity = _closure2_slot0;
@@ -238,19 +232,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            sizing = update.bind(tangon)(zuuluu, sizing);
-            zuuluu = golfie.useState;
-            zuuluu = zuuluu.bind(golfie)(oscard);
-            zuuluu = backup.bind(tangon)(zuuluu, foxtra);
-            foxtra = zuuluu[offset];
-            _closure2_slot3 = foxtra;
-            zuuluu = zuuluu[oscard];
-            _closure2_slot4 = zuuluu;
-            offset = golfie.useCallback;
-            oscard = new Array(2);
-            oscard[0] = foxtra;
-            oscard[1] = zuuluu;
-            zuuluu = function(argFoo) {
+            sizing = source.bind(tangon)(michal, sizing);
+            michal = oscard.useState;
+            michal = michal.bind(oscard)(zuuluu);
+            michal = echoed.bind(tangon)(michal, yankee);
+            yankee = michal[option];
+            _closure2_slot3 = yankee;
+            michal = michal[zuuluu];
+            _closure2_slot4 = michal;
+            option = oscard.useCallback;
+            zuuluu = new Array(2);
+            zuuluu[0] = yankee;
+            zuuluu[1] = michal;
+            michal = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                     entity = argFoo;
@@ -271,16 +265,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            update = offset.bind(golfie)(zuuluu, oscard);
-            oscard = golfie.useEffect;
-            zuuluu = new Array(2);
-            zuuluu[0] = option;
-            option = output.skuId;
-            zuuluu[1] = option;
-            michal = function() {
+            echoed = option.bind(oscard)(michal, zuuluu);
+            zuuluu = oscard.useEffect;
+            michal = new Array(2);
+            michal[0] = golfie;
+            golfie = output.skuId;
+            michal[1] = golfie;
+            entity = function() {
                 tangon = _closure1_slot1;
                 zuuluu = _closure1_slot2;
-                entity = 14;
+                entity = 13;
                 zuuluu = zuuluu[entity];
                 entity = undefined;
                 report = tangon.bind(entity)(zuuluu);
@@ -298,76 +292,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.bind(report)(zuuluu, michal);
                 return entity;
             };
-            michal = oscard.bind(golfie)(michal, zuuluu);
-            zuuluu = _closure1_slot0;
-            oscard = _closure1_slot2;
-            if(entity) { _fun00002_ip = 444; continue _fun00001 }
- 424:
-            michal = 16;
-            michal = oscard[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            foxtra = michal.ProductPreviewV1;
-            _fun00002_ip = 462; continue _fun00001;
- 444:
-            michal = 15;
-            michal = oscard[michal];
-            michal = zuuluu.bind(tangon)(michal);
-            foxtra = michal.ProductPreviewV2;
- 462:
-            michal = _closure1_slot0;
-            zuuluu = _closure1_slot2;
-            if(entity) { _fun00002_ip = 493; continue _fun00001 }
- 473:
-            entity = 16;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            backup = entity.ProductDetailsV1;
-            _fun00002_ip = 511; continue _fun00001;
- 493:
-            entity = 15;
-            entity = zuuluu[entity];
-            entity = michal.bind(tangon)(entity);
-            backup = entity.ProductDetailsV2;
- 511:
+            entity = zuuluu.bind(oscard)(entity, michal);
             zuuluu = _closure1_slot7;
-            offset = _closure1_slot0;
-            source = _closure1_slot2;
-            entity = 17;
-            entity = source[entity];
-            entity = offset.bind(tangon)(entity);
+            entity = 14;
+            entity = result[entity];
+            entity = backup.bind(tangon)(entity);
             michal = entity.ThemeContextProvider;
             entity = {};
-            report = source[report];
-            report = offset.bind(tangon)(report);
+            report = result[report];
+            report = backup.bind(tangon)(report);
             oscard = report.AnalyticsLocationProvider;
             report = {};
             report['value'] = kiloes;
-            golfie = 18;
-            golfie = source[golfie];
-            golfie = offset.bind(tangon)(golfie);
+            golfie = 15;
+            golfie = result[golfie];
+            golfie = backup.bind(tangon)(golfie);
             option = golfie.BottomSheet;
             golfie = {'scrollable': true, 'startExpanded': true};
-            golfie['ref'] = yankee;
+            golfie['ref'] = offset;
             yankee = _closure1_slot8;
-            verify = 19;
-            verify = source[verify];
-            verify = offset.bind(tangon)(verify);
+            verify = 16;
+            verify = result[verify];
+            verify = backup.bind(tangon)(verify);
             offset = verify.BottomSheetScrollView;
             verify = {};
-            verify['onLayout'] = update;
-            update = false;
-            verify['scrollsToTop'] = update;
-            update = echoed.container;
-            echoed = new Array(1);
-            echoed[0] = update;
-            verify['style'] = echoed;
+            verify['onLayout'] = echoed;
+            echoed = false;
+            verify['scrollsToTop'] = echoed;
+            echoed = foxtra.container;
+            foxtra = new Array(1);
+            foxtra[0] = echoed;
+            verify['style'] = foxtra;
             verify['ref'] = romeon;
+            foxtra = 17;
+            romeon = result[foxtra];
+            romeon = backup.bind(tangon)(romeon);
+            echoed = romeon.ProductPreviewV2;
             romeon = {};
             romeon['product'] = output;
-            romeon['handlePreviewPress'] = result;
-            foxtra = zuuluu.bind(tangon)(foxtra, romeon);
+            romeon['handlePreviewPress'] = update;
+            echoed = zuuluu.bind(tangon)(echoed, romeon);
             romeon = new Array(2);
-            romeon[0] = foxtra;
+            romeon[0] = echoed;
+            foxtra = result[foxtra];
+            foxtra = backup.bind(tangon)(foxtra);
+            backup = foxtra.ProductDetailsV2;
             foxtra = {};
             foxtra['product'] = output;
             foxtra['onBuy'] = sizing;

@@ -36,13 +36,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot22 = michal;
+            _closure1_slot23 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot22 = entity;
+    var _closure1_slot23 = entity;
     entity = function(argFoo) { // Original name: getUpdatedActiveSubscriptions
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -68,7 +68,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             offset = entity;
             verify = zuuluu;
             report = arraySpread(offset, verify, option);
-            golfie = _closure1_slot24;
+            golfie = _closure1_slot25;
             oscard = undefined;
             oscard = golfie.bind(oscard)(michal);
             if(!oscard) { _fun00004_ip = 99; continue _fun00003 }
@@ -96,7 +96,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot24 = entity;
     report = function() { // Original name: reset
         entity = null;
         _closure1_slot11 = entity;
@@ -109,7 +109,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _closure1_slot17 = entity;
         _closure1_slot18 = zuuluu;
         _closure1_slot19 = zuuluu;
-        _closure1_slot21 = entity;
+        _closure1_slot21 = zuuluu;
+        _closure1_slot22 = entity;
         entity = undefined;
         return entity;
     };
@@ -121,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal !== entity;
         return entity;
     };
-    var _closure1_slot24 = entity;
+    var _closure1_slot25 = entity;
     michal = function(argFoo, argBar) { // Original name: getSubscriptionOfType
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -174,7 +175,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot25 = michal;
+    var _closure1_slot26 = michal;
     entity = global;
     yankee = entity.Object;
     verify = yankee.defineProperty;
@@ -242,7 +243,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot18 = verify;
     var _closure1_slot19 = verify;
     var _closure1_slot20 = tangon;
-    var _closure1_slot21 = tangon;
+    var _closure1_slot21 = verify;
+    var _closure1_slot22 = tangon;
     tangon = 10;
     tangon = golfie[tangon];
     tangon = option.bind(entity)(tangon);
@@ -260,7 +262,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot3;
                 verify = entity.bind(zuuluu)(michal);
                 michal = _closure1_slot2;
-                entity = _closure1_slot22;
+                entity = _closure1_slot23;
                 entity = entity.bind(zuuluu)();
                 if(entity) { _fun00008_ip = 69; continue _fun00007 }
  51:
@@ -299,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(16);
+        entity = new Array(17);
         entity[0] = report;
         report = {};
         golfie = 'hasFetchedMostRecentPremiumTypeSubscription';
@@ -331,7 +333,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  9:
                 report = true;
  11:
-                zuuluu = _closure1_slot25;
+                zuuluu = _closure1_slot26;
                 entity = _closure1_slot9;
                 michal = entity.PREMIUM;
                 entity = function(argFoo) {
@@ -361,7 +363,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  9:
                 tangon = true;
  11:
-                michal = _closure1_slot25;
+                michal = _closure1_slot26;
                 entity = _closure1_slot9;
                 entity = entity.PREMIUM;
                 entity = michal.bind(zuuluu)(entity, zuuluu, tangon);
@@ -376,7 +378,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = function() { // Original name: value
             _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
-                report = _closure1_slot25;
+                report = _closure1_slot26;
                 entity = _closure1_slot9;
                 tangon = entity.PREMIUM;
                 michal = undefined;
@@ -582,14 +584,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[14] = report;
         report = {};
-        golfie = 'getLastLazyPerkSync';
+        golfie = 'getIsFetchingMostRecentSubscription';
         report['key'] = golfie;
-        oscard = function() { // Original name: value
+        golfie = function() { // Original name: value
             entity = _closure1_slot21;
             return entity;
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[15] = report;
+        report = {};
+        golfie = 'getLastLazyPerkSync';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = _closure1_slot22;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[16] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };
@@ -631,7 +642,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure2_slot0;
                 michal = zuuluu.id;
                 report[michal] = zuuluu;
-                report = _closure1_slot24;
+                report = _closure1_slot25;
                 michal = undefined;
                 michal = report.bind(michal)(zuuluu);
                 if(!michal) { _fun00022_ip = 200; continue _fun00021 }
@@ -682,7 +693,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _closure1_slot12 = report;
         _closure1_slot14 = tangon;
         _closure1_slot15 = zuuluu;
-        _closure1_slot21 = michal;
+        _closure1_slot22 = michal;
         entity = undefined;
         return entity;
     };
@@ -708,7 +719,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = report.id;
             entity[zuuluu] = report;
             _closure1_slot11 = entity;
-            entity = _closure1_slot24;
+            entity = _closure1_slot25;
             tangon = undefined;
             entity = entity.bind(tangon)(report);
             if(!entity) { _fun00024_ip = 122; continue _fun00023 }
@@ -733,7 +744,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  154:
             if(!entity) { _fun00024_ip = 186; continue _fun00023 }
  157:
-            oscard = _closure1_slot23;
+            oscard = _closure1_slot24;
             entity = {};
             golfie = _closure1_slot14;
             entity['activeSubscriptions'] = golfie;
@@ -752,7 +763,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  216:
             if(!entity) { _fun00024_ip = 248; continue _fun00023 }
  219:
-            zuuluu = _closure1_slot23;
+            zuuluu = _closure1_slot24;
             entity = {};
             oscard = _closure1_slot15;
             entity['activeSubscriptions'] = oscard;
@@ -765,37 +776,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     tangon['BILLING_SUBSCRIPTION_UPDATE_SUCCESS'] = yankee;
+    yankee = function() { // Original name: handleMostRecentSubscriptionFetchStart
+        entity = true;
+        _closure1_slot21 = entity;
+        entity = undefined;
+        return entity;
+    };
+    tangon['BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_START'] = yankee;
     yankee = function(argFoo) { // Original name: handleMostRecentSubscriptionFetch
         _fun00025: for(var _fun00026_ip = 0; ; ) switch(_fun00026_ip) {
  0:
             entity = argFoo;
-            tangon = entity.subscription;
+            report = entity.subscription;
             entity = true;
             _closure1_slot16 = entity;
-            entity = null;
-            if(!(entity != tangon)) { _fun00026_ip = 67; continue _fun00025 }
- 24:
-            zuuluu = tangon.user_id;
-            report = _closure1_slot7;
-            entity = report.getId;
-            entity = entity.bind(report)();
-            if(!(zuuluu === entity)) { _fun00026_ip = 71; continue _fun00025 }
- 48:
-            zuuluu = _closure1_slot6;
-            entity = zuuluu.createFromServer;
-            entity = entity.bind(zuuluu)(tangon);
-            _closure1_slot13 = entity;
- 67:
-            entity = undefined;
-            return entity;
- 71:
             entity = false;
+            _closure1_slot21 = entity;
+            zuuluu = null;
+            if(!(zuuluu != report)) { _fun00026_ip = 73; continue _fun00025 }
+ 30:
+            tangon = report.user_id;
+            oscard = _closure1_slot7;
+            zuuluu = oscard.getId;
+            zuuluu = zuuluu.bind(oscard)();
+            if(!(tangon === zuuluu)) { _fun00026_ip = 77; continue _fun00025 }
+ 54:
+            tangon = _closure1_slot6;
+            zuuluu = tangon.createFromServer;
+            zuuluu = zuuluu.bind(tangon)(report);
+            _closure1_slot13 = zuuluu;
+ 73:
+            zuuluu = undefined;
+            return zuuluu;
+ 77:
             _closure1_slot16 = entity;
             entity = undefined;
             return entity;
         }
     };
     tangon['BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_SUCCESS'] = yankee;
+    yankee = function() { // Original name: handleMostRecentSubscriptionFetchFail
+        entity = false;
+        _closure1_slot21 = entity;
+        entity = undefined;
+        return entity;
+    };
+    tangon['BILLING_MOST_RECENT_SUBSCRIPTION_FETCH_FAIL'] = yankee;
     yankee = function(argFoo) { // Original name: handlePreviousSubscriptionFetch
         _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:

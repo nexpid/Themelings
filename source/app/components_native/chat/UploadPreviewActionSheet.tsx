@@ -313,15 +313,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             limora = verify.bind(offset)(zuuluu, golfie);
-            if(!ctrled) { _fun00002_ip = 409; continue _fun00001 }
- 406:
+            if(!ctrled) { _fun00002_ip = 413; continue _fun00001 }
+ 410:
             ctrled = entity;
- 409:
+ 413:
             zuuluu = 2;
-            if(!ctrled) { _fun00002_ip = 418; continue _fun00001 }
- 415:
+            if(!ctrled) { _fun00002_ip = 422; continue _fun00001 }
+ 419:
             zuuluu = 3;
- 418:
+ 422:
             golfie = _closure1_slot1;
             config = _closure1_slot2;
             entity = 15;
@@ -391,16 +391,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = output.bind(tangon)(kiloes);
             kiloes = output.isIOS;
             kiloes = kiloes.bind(output)();
-            if(!kiloes) { _fun00002_ip = 740; continue _fun00001 }
- 711:
-            if(!foxtra) { _fun00002_ip = 740; continue _fun00001 }
- 714:
+            if(!kiloes) { _fun00002_ip = 744; continue _fun00001 }
+ 715:
+            if(!foxtra) { _fun00002_ip = 744; continue _fun00001 }
+ 718:
             output = result.uri;
             kiloes = output.startsWith;
             foxtra = 'file://';
             foxtra = kiloes.bind(output)(foxtra);
-            if(foxtra) { _fun00002_ip = 786; continue _fun00001 }
- 740:
+            if(foxtra) { _fun00002_ip = 790; continue _fun00001 }
+ 744:
             output = _closure1_slot8;
             kiloes = _closure1_slot4;
             foxtra = {};
@@ -412,8 +412,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['style'] = config;
             foxtra['source'] = result;
             kiloes = output.bind(tangon)(kiloes, foxtra);
-            _fun00002_ip = 875; continue _fun00001;
- 786:
+            _fun00002_ip = 879; continue _fun00001;
+ 790:
             config = _closure1_slot8;
             output = _closure1_slot0;
             status = _closure1_slot2;
@@ -435,18 +435,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['muted'] = sierra;
             foxtra['paused'] = sierra;
             kiloes = config.bind(tangon)(output, foxtra);
- 875:
+ 879:
             foxtra = new Array(2);
             foxtra[0] = kiloes;
             kiloes = null;
             kiloes = kiloes != limora;
-            if(!kiloes) { _fun00002_ip = 900; continue _fun00001 }
- 892:
+            if(!kiloes) { _fun00002_ip = 904; continue _fun00001 }
+ 896:
             output = '';
             kiloes = output !== limora;
- 900:
-            if(!kiloes) { _fun00002_ip = 945; continue _fun00001 }
- 903:
+ 904:
+            if(!kiloes) { _fun00002_ip = 949; continue _fun00001 }
+ 907:
             status = _closure1_slot8;
             config = _closure1_slot0;
             whisks = _closure1_slot2;
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = {};
             output['label'] = limora;
             kiloes = status.bind(tangon)(config, output);
- 945:
+ 949:
             foxtra[1] = kiloes;
             offset['children'] = foxtra;
             yankee = verify.bind(tangon)(yankee, offset);
@@ -474,8 +474,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra['hasIcons'] = backup;
             result = result.filename;
             foxtra['title'] = result;
-            if(!ctrled) { _fun00002_ip = 1122; continue _fun00001 }
- 1017:
+            if(!ctrled) { _fun00002_ip = 1126; continue _fun00001 }
+ 1021:
             status = _closure1_slot8;
             quebec = _closure1_slot0;
             variable36 = _closure1_slot2;
@@ -516,15 +516,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result['label'] = limora;
             result['arrow'] = sierra;
             ctrled = status.bind(tangon)(config, result);
- 1122:
+ 1126:
             result = new Array(4);
             result[0] = ctrled;
-            if(!update) { _fun00002_ip = 1136; continue _fun00001 }
- 1133:
+            if(!update) { _fun00002_ip = 1140; continue _fun00001 }
+ 1137:
             update = !source;
- 1136:
-            if(!update) { _fun00002_ip = 1232; continue _fun00001 }
- 1139:
+ 1140:
+            if(!update) { _fun00002_ip = 1236; continue _fun00001 }
+ 1143:
             config = _closure1_slot8;
             limora = _closure1_slot0;
             whisks = _closure1_slot2;
@@ -546,11 +546,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             target = status.bind(sierra)(target);
             source['label'] = target;
             update = config.bind(tangon)(ctrled, source);
- 1232:
+ 1236:
             result[1] = update;
             update = !vacuum;
-            if(!update) { _fun00002_ip = 1351; continue _fun00001 }
- 1242:
+            if(!update) { _fun00002_ip = 1355; continue _fun00001 }
+ 1246:
             config = _closure1_slot8;
             status = _closure1_slot0;
             sierra = _closure1_slot2;
@@ -595,10 +595,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source['label'] = cntext;
             source['checked'] = record;
             update = config.bind(tangon)(ctrled, source);
- 1351:
+ 1355:
             result[2] = update;
-            if(!echoed) { _fun00002_ip = 1456; continue _fun00001 }
- 1358:
+            if(!echoed) { _fun00002_ip = 1460; continue _fun00001 }
+ 1362:
             ctrled = _closure1_slot8;
             papara = _closure1_slot0;
             target = _closure1_slot2;
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update['onPress'] = sequen;
             update['checked'] = vacuum;
             echoed = ctrled.bind(tangon)(source, update);
- 1456:
+ 1460:
             result[3] = echoed;
             foxtra['children'] = result;
             foxtra = output.bind(tangon)(kiloes, foxtra);

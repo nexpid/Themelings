@@ -462,7 +462,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = 32;
             tangon = golfie[tangon];
             verify = oscard.bind(report)(tangon);
-            tangon = verify.useGuildProfilePermissions;
+            tangon = verify.useGuildActionSheetPermissions;
             tangon = tangon.bind(verify)(variable37);
             variable54 = tangon.canEditNickname;
             tangon = 9;

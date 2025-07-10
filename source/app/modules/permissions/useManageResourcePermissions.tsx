@@ -35,22 +35,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = tangon;
     tangon = 4;
     tangon = golfie[tangon];
-    tangon = report.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.CREATE_GUILD_EVENT_CORE_PERMISSIONS;
+    var _closure1_slot7 = report;
+    report = tangon.CREATE_GUILD_EVENT_STAGE_CHANNEL_PERMISSIONS;
+    var _closure1_slot8 = report;
+    tangon = tangon.CREATE_GUILD_EVENT_VOICE_CHANNEL_PERMISSIONS;
+    var _closure1_slot9 = tangon;
     tangon = 5;
     tangon = golfie[tangon];
     tangon = oscard.bind(entity)(tangon);
-    report = tangon.CREATE_GUILD_EVENT_CORE_PERMISSIONS;
-    var _closure1_slot8 = report;
-    report = tangon.CREATE_GUILD_EVENT_STAGE_CHANNEL_PERMISSIONS;
-    var _closure1_slot9 = report;
-    tangon = tangon.CREATE_GUILD_EVENT_VOICE_CHANNEL_PERMISSIONS;
-    var _closure1_slot10 = tangon;
-    tangon = 6;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
     tangon = tangon.Permissions;
-    var _closure1_slot11 = tangon;
+    var _closure1_slot10 = tangon;
     tangon = {'canCreateExpressions': false, 'canCreateGuildEvent': false, 'canManageAllExpressions': false, 'canManageAllEvents': false};
     report = function() { // Original name: canManageGuildExpression
         entity = false;
@@ -62,7 +58,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     tangon['canManageGuildEvent'] = report;
-    var _closure1_slot12 = tangon;
+    var _closure1_slot11 = tangon;
     tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: canManageResource
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
@@ -145,7 +141,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot13 = tangon;
+    var _closure1_slot12 = tangon;
     tangon = function(argFoo) { // Original name: attachChannelPermissions
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
@@ -153,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = null;
             if(!(entity != zuuluu)) { _fun00004_ip = 140; continue _fun00003 }
  12:
-            report = _closure1_slot8;
+            report = _closure1_slot7;
             michal = zuuluu.isGuildStageVoice;
             michal = michal.bind(zuuluu)();
             if(michal) { _fun00004_ip = 51; continue _fun00003 }
@@ -162,19 +158,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(zuuluu)();
             if(!michal) { _fun00004_ip = 55; continue _fun00003 }
  45:
-            report = _closure1_slot10;
+            report = _closure1_slot9;
             _fun00004_ip = 55; continue _fun00003;
  51:
-            report = _closure1_slot9;
+            report = _closure1_slot8;
  55:
             oscard = _closure1_slot1;
             golfie = _closure1_slot2;
-            zuuluu = 7;
+            zuuluu = 6;
             michal = golfie[zuuluu];
             tangon = undefined;
             verify = oscard.bind(tangon)(michal);
             option = verify.combine;
-            michal = _closure1_slot11;
+            michal = _closure1_slot10;
             entity = michal.CREATE_EVENTS;
             option = option.bind(verify)(report, entity);
             entity = new Array(2);
@@ -187,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[1] = michal;
             return entity;
  140:
-            michal = _closure1_slot11;
+            michal = _closure1_slot10;
             zuuluu = michal.CREATE_EVENTS;
             entity = new Array(2);
             entity[0] = zuuluu;
@@ -196,7 +192,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot14 = tangon;
+    var _closure1_slot13 = tangon;
     report = 9;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
@@ -209,25 +205,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
             verify = argFoo;
             var _closure2_slot0 = verify;
-            zuuluu = _closure1_slot5;
-            zuuluu = verify instanceof zuuluu;
-            if(zuuluu) { _fun00006_ip = 36; continue _fun00005 }
- 23:
-            tangon = _closure1_slot14;
-            zuuluu = undefined;
-            zuuluu = tangon.bind(zuuluu)(verify);
-            _fun00006_ip = 67; continue _fun00005;
- 36:
-            report = _closure1_slot11;
+            tangon = _closure1_slot0;
+            report = _closure1_slot2;
+            zuuluu = 7;
+            zuuluu = report[zuuluu];
+            offset = undefined;
+            tangon = tangon.bind(offset)(zuuluu);
+            zuuluu = tangon.isGuildRecord;
+            zuuluu = zuuluu.bind(tangon)(verify);
+            if(zuuluu) { _fun00006_ip = 59; continue _fun00005 }
+ 48:
+            zuuluu = _closure1_slot13;
+            zuuluu = zuuluu.bind(offset)(verify);
+            _fun00006_ip = 90; continue _fun00005;
+ 59:
+            report = _closure1_slot10;
             oscard = report.CREATE_EVENTS;
             tangon = new Array(2);
             tangon[0] = oscard;
             report = report.MANAGE_EVENTS;
             tangon[1] = report;
             zuuluu = tangon;
- 67:
+ 90:
             foxtra = _closure1_slot3;
-            offset = undefined;
             report = 2;
             zuuluu = foxtra.bind(offset)(zuuluu, report);
             golfie = 0;
@@ -242,13 +242,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = yankee[zuuluu];
             kiloes = tangon.bind(offset)(option);
             backup = kiloes.useStateFromStoresArray;
-            option = _closure1_slot6;
+            option = _closure1_slot5;
             romeon = new Array(1);
             romeon[0] = option;
             option = function() {
-                report = _closure1_slot6;
+                report = _closure1_slot5;
                 oscard = report.can;
-                zuuluu = _closure1_slot11;
+                zuuluu = _closure1_slot10;
                 entity = zuuluu.CREATE_GUILD_EXPRESSIONS;
                 tangon = _closure2_slot0;
                 oscard = oscard.bind(report)(entity, tangon);
@@ -283,11 +283,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = yankee[zuuluu];
             yankee = tangon.bind(offset)(zuuluu);
             offset = yankee.useStateFromStores;
-            zuuluu = _closure1_slot7;
+            zuuluu = _closure1_slot6;
             tangon = new Array(1);
             tangon[0] = zuuluu;
             zuuluu = function() {
-                michal = _closure1_slot7;
+                michal = _closure1_slot6;
                 entity = michal.getCurrentUser;
                 entity = entity.bind(michal)();
                 return entity;
@@ -301,7 +301,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[1] = oscard;
             tangon[2] = romeon;
             zuuluu = function(argFoo) {
-                oscard = _closure1_slot13;
+                oscard = _closure1_slot12;
                 verify = _closure2_slot7;
                 option = _closure2_slot4;
                 golfie = _closure2_slot3;
@@ -317,7 +317,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu[1] = golfie;
             zuuluu[2] = romeon;
             entity = function(argFoo) {
-                oscard = _closure1_slot13;
+                oscard = _closure1_slot12;
                 verify = _closure2_slot7;
                 option = _closure2_slot6;
                 golfie = _closure2_slot5;
@@ -328,8 +328,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             zuuluu = offset.bind(yankee)(entity, zuuluu);
             entity = null;
-            if(!(entity != verify)) { _fun00006_ip = 345; continue _fun00005 }
- 311:
+            if(!(entity != verify)) { _fun00006_ip = 366; continue _fun00005 }
+ 332:
             entity = {};
             entity['canCreateExpressions'] = option;
             entity['canCreateGuildEvent'] = golfie;
@@ -337,10 +337,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['canManageAllEvents'] = report;
             entity['canManageGuildExpression'] = tangon;
             entity['canManageGuildEvent'] = zuuluu;
-            _fun00006_ip = 349; continue _fun00005;
- 345:
-            entity = _closure1_slot12;
- 349:
+            _fun00006_ip = 370; continue _fun00005;
+ 366:
+            entity = _closure1_slot11;
+ 370:
             return entity;
         }
     };
@@ -354,33 +354,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = undefined;
             if(!(offset === oscard)) { _fun00008_ip = 24; continue _fun00007 }
  17:
-            offset = _closure1_slot6;
+            offset = _closure1_slot5;
  24:
             if(!(verify === oscard)) { _fun00008_ip = 35; continue _fun00007 }
  28:
-            verify = _closure1_slot7;
+            verify = _closure1_slot6;
  35:
             var _closure2_slot0 = oscard;
             var _closure2_slot1 = oscard;
             var _closure2_slot2 = oscard;
             var _closure2_slot3 = oscard;
             var _closure2_slot4 = oscard;
-            entity = _closure1_slot5;
-            entity = option instanceof entity;
-            if(entity) { _fun00008_ip = 80; continue _fun00007 }
- 69:
-            entity = _closure1_slot14;
+            tangon = _closure1_slot0;
+            report = _closure1_slot2;
+            entity = 7;
+            entity = report[entity];
+            tangon = tangon.bind(oscard)(entity);
+            entity = tangon.isGuildRecord;
+            entity = entity.bind(tangon)(option);
+            if(entity) { _fun00008_ip = 103; continue _fun00007 }
+ 92:
+            entity = _closure1_slot13;
             report = entity.bind(oscard)(option);
-            _fun00008_ip = 111; continue _fun00007;
- 80:
-            tangon = _closure1_slot11;
+            _fun00008_ip = 134; continue _fun00007;
+ 103:
+            tangon = _closure1_slot10;
             golfie = tangon.CREATE_EVENTS;
             entity = new Array(2);
             entity[0] = golfie;
             tangon = tangon.MANAGE_EVENTS;
             entity[1] = tangon;
             report = entity;
- 111:
+ 134:
             tangon = _closure1_slot3;
             entity = 2;
             tangon = tangon.bind(oscard)(report, entity);
@@ -389,7 +394,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = 1;
             tangon = tangon[entity];
             golfie = offset.can;
-            entity = _closure1_slot11;
+            entity = _closure1_slot10;
             report = entity.CREATE_GUILD_EXPRESSIONS;
             golfie = golfie.bind(offset)(report, option);
             _closure2_slot0 = golfie;
@@ -407,15 +412,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.bind(verify)();
             _closure2_slot4 = entity;
             entity = null;
-            if(!(entity != option)) { _fun00008_ip = 280; continue _fun00007 }
- 236:
+            if(!(entity != option)) { _fun00008_ip = 303; continue _fun00007 }
+ 259:
             entity = {};
             entity['canCreateExpressions'] = golfie;
             entity['canCreateGuildEvent'] = oscard;
             entity['canManageAllExpressions'] = report;
             entity['canManageAllEvents'] = tangon;
             tangon = function(argFoo) { // Original name: canManageGuildExpression
-                oscard = _closure1_slot13;
+                oscard = _closure1_slot12;
                 verify = _closure2_slot4;
                 option = _closure2_slot1;
                 golfie = _closure2_slot0;
@@ -426,7 +431,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             entity['canManageGuildExpression'] = tangon;
             zuuluu = function(argFoo) { // Original name: canManageGuildEvent
-                oscard = _closure1_slot13;
+                oscard = _closure1_slot12;
                 verify = _closure2_slot4;
                 option = _closure2_slot3;
                 golfie = _closure2_slot2;
@@ -436,10 +441,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity['canManageGuildEvent'] = zuuluu;
-            _fun00008_ip = 284; continue _fun00007;
- 280:
-            entity = _closure1_slot12;
- 284:
+            _fun00008_ip = 307; continue _fun00007;
+ 303:
+            entity = _closure1_slot11;
+ 307:
             return entity;
         }
     };

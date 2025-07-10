@@ -1935,7 +1935,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = 78;
             foxtra = limora[foxtra];
             vacuum = target.bind(tangon)(foxtra);
-            foxtra = vacuum.useAnyGuildProfileEmbedEnabled;
+            foxtra = vacuum.useGuildProfileInviteEmbedHoldoutEnabled;
             vacuum = foxtra.bind(vacuum)(sequen);
             foxtra = 79;
             foxtra = limora[foxtra];
@@ -1953,7 +1953,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             };
             foxtra = target.bind(limora)(foxtra);
             variable58 = 0;
-            if(!vacuum) { _fun00008_ip = 3888; continue _fun00007 }
+            if(vacuum) { _fun00008_ip = 3888; continue _fun00007 }
  3885:
             variable58 = foxtra;
  3888:

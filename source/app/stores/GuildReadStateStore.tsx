@@ -1455,18 +1455,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(entity)(zuuluu);
             michal = oscard.length;
             golfie = tangon < michal;
-            if(!golfie) { _fun00042_ip = 110; continue _fun00041 }
+            if(!golfie) { _fun00042_ip = 116; continue _fun00041 }
  81:
             golfie = oscard[tangon];
-            if(!(zuuluu != golfie)) { _fun00042_ip = 103; continue _fun00041 }
+            if(!(zuuluu != golfie)) { _fun00042_ip = 109; continue _fun00041 }
  89:
             option = _closure1_slot49;
+            golfie = golfie.properties;
             golfie = golfie.id;
             golfie = option.bind(entity)(golfie);
- 103:
+ 109:
             tangon = tangon + 1;
             if(tangon < michal) { _fun00042_ip = 81; continue _fun00041 }
- 110:
+ 116:
             return entity;
         }
     };

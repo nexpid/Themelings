@@ -454,9 +454,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = verify;
  308:
             entity['properties'] = option;
-            verify = _closure1_slot2;
+            verify = _closure1_slot0;
             offset = _closure1_slot3;
-            option = 13;
+            option = 15;
             option = offset[option];
             foxtra = verify.bind(golfie)(option);
             romeon = foxtra.filterRoleDeletes;
@@ -705,9 +705,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = oscard.properties;
  329:
             entity['properties'] = option;
-            verify = _closure1_slot2;
+            verify = _closure1_slot0;
             offset = _closure1_slot3;
-            option = 13;
+            option = 15;
             option = offset[option];
             foxtra = verify.bind(golfie)(option);
             romeon = foxtra.filterRoleDeletes;
@@ -951,7 +951,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot11 = report;
     report = {};
     var _closure1_slot12 = report;
-    report = 15;
+    report = 16;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -1314,7 +1314,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = _closure1_slot3;
             update = update[kiloes];
             source = source.bind(offset)(update);
-            update = source.toServer;
+            update = source.toGuildProperties;
             update = update.bind(source)(report);
             ctrled['properties'] = update;
             config = _closure1_slot7;
@@ -1512,7 +1512,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 13;
             verify = yankee[verify];
             offset = offset.bind(michal)(verify);
-            verify = offset.toServer;
+            verify = offset.toGuildProperties;
             verify = verify.bind(offset)(option);
             oscard['properties'] = verify;
             yankee = _closure1_slot7;

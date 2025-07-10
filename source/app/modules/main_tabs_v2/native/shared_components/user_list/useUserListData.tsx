@@ -1554,7 +1554,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = argFoo;
                 oscard = report.bind(oscard)(tangon);
                 tangon = '';
-                if(!(tangon !== oscard)) { _fun00054_ip = 161; continue _fun00053 }
+                if(!(tangon !== oscard)) { _fun00054_ip = 147; continue _fun00053 }
  50:
                 tangon = argBar;
                 if(!tangon) { _fun00054_ip = 90; continue _fun00053 }
@@ -1570,28 +1570,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  90:
                 report = michal.searchContext;
                 zuuluu = null;
-                if(!(zuuluu != report)) { _fun00054_ip = 183; continue _fun00053 }
+                if(!(zuuluu != report)) { _fun00054_ip = 169; continue _fun00053 }
  102:
                 tangon = report.setQuery;
                 zuuluu = {};
                 zuuluu['query'] = oscard;
-                zuuluu['filters'] = entity;
-                oscard = new Array(0);
-                zuuluu['blacklist'] = oscard;
                 oscard = michal.affinities;
                 zuuluu['boosters'] = oscard;
                 oscard = 0.002592;
                 zuuluu['boosterFallback'] = oscard;
                 zuuluu = tangon.bind(report)(zuuluu);
-                _fun00054_ip = 183; continue _fun00053;
- 161:
+                _fun00054_ip = 169; continue _fun00053;
+ 147:
                 zuuluu = michal.searchContext;
                 michal = null;
-                if(!(michal != zuuluu)) { _fun00054_ip = 183; continue _fun00053 }
- 173:
+                if(!(michal != zuuluu)) { _fun00054_ip = 169; continue _fun00053 }
+ 159:
                 michal = zuuluu.clearQuery;
                 michal = michal.bind(zuuluu)();
- 183:
+ 169:
                 return entity;
             }
         };

@@ -18,164 +18,245 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = '__esModule';
         entity = golfie.bind(option)(zuuluu, entity, tangon);
         entity = 0;
-        golfie = oscard[entity];
-        tangon = argCor;
+        tangon = oscard[entity];
         entity = undefined;
-        golfie = tangon.bind(entity)(golfie);
+        tangon = verify.bind(entity)(tangon);
+        var _closure1_slot3 = tangon;
         tangon = 1;
+        golfie = oscard[tangon];
+        tangon = argCor;
+        golfie = tangon.bind(entity)(golfie);
+        var _closure1_slot4 = golfie;
+        tangon = 2;
         tangon = oscard[tangon];
         tangon = report.bind(entity)(tangon);
         tangon = tangon.jsx;
-        var _closure1_slot3 = tangon;
-        tangon = 2;
+        var _closure1_slot5 = tangon;
+        tangon = 3;
         tangon = oscard[tangon];
         option = report.bind(entity)(tangon);
         tangon = option.isReanimatedKeyboardEnabled;
         tangon = tangon.bind(option)();
-        if(tangon) { _fun00002_ip = 134; continue _fun00001 }
- 120:
-        tangon = 4;
+        if(tangon) { _fun00002_ip = 154; continue _fun00001 }
+ 140:
+        tangon = 5;
         tangon = oscard[tangon];
         tangon = verify.bind(entity)(tangon);
-        _fun00002_ip = 146; continue _fun00001;
- 134:
-        option = 3;
+        _fun00002_ip = 166; continue _fun00001;
+ 154:
+        option = 4;
         option = oscard[option];
         tangon = verify.bind(entity)(option);
- 146:
-        var _closure1_slot4 = tangon;
+ 166:
+        var _closure1_slot6 = tangon;
         tangon = {};
-        option = 'function ChannelSafeAreaBottomAnimatedAndroidTsx1(){const{keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,keyboardTypeSharedValue,KeyboardTypes,insets,customKeyboardHeight}=this.__closure;return{height:keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()?keyboardOpenedHeight.get():keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM?insets.get().bottom:insets.get().bottom+customKeyboardHeight};}';
+        option = 'function ChannelSafeAreaBottomAnimatedAndroidTsx1(){const{keyboardOpenOrOpening,keyboardWillOpenSharedValue,keyboardOpenedHeight,keyboardTypeSharedValue,KeyboardTypes,insets,customKeyboardHeight}=this.__closure;const height=keyboardOpenOrOpening.get()||keyboardWillOpenSharedValue.get()?keyboardOpenedHeight.get():keyboardTypeSharedValue.get()===KeyboardTypes.SYSTEM?insets.get().bottom:insets.get().bottom+customKeyboardHeight;return height;}';
         tangon['code'] = option;
-        var _closure1_slot5 = tangon;
+        var _closure1_slot7 = tangon;
+        tangon = {};
+        option = 'function ChannelSafeAreaBottomAnimatedAndroidTsx2(){const{heightSharedValue}=this.__closure;return{height:heightSharedValue.get()};}';
+        tangon['code'] = option;
+        var _closure1_slot8 = tangon;
         tangon = golfie.memo;
         michal = function(argFoo) { // Original name: ChannelSafeAreaBottom
             entity = argFoo;
-            golfie = entity.channelId;
+            verify = entity.channelId;
             michal = _closure1_slot1;
-            report = _closure1_slot2;
-            entity = 5;
-            entity = report[entity];
-            tangon = undefined;
-            entity = michal.bind(tangon)(entity);
-            romeon = entity.bind(tangon)();
-            var _closure2_slot0 = romeon;
-            entity = _closure1_slot4;
-            entity = entity.bind(tangon)();
-            foxtra = entity.keyboardOpenOrOpening;
-            var _closure2_slot1 = foxtra;
-            kiloes = entity.keyboardOpenedHeight;
-            var _closure2_slot2 = kiloes;
+            golfie = _closure1_slot2;
             entity = 6;
-            entity = report[entity];
-            entity = michal.bind(tangon)(entity);
-            yankee = entity.bind(tangon)();
-            var _closure2_slot3 = yankee;
+            entity = golfie[entity];
+            report = undefined;
+            entity = michal.bind(report)(entity);
+            backup = entity.bind(report)();
+            var _closure2_slot0 = backup;
+            entity = _closure1_slot6;
+            entity = entity.bind(report)();
+            kiloes = entity.keyboardOpenOrOpening;
+            var _closure2_slot1 = kiloes;
+            sizing = entity.keyboardOpenedHeight;
+            var _closure2_slot2 = sizing;
             entity = 7;
-            entity = report[entity];
-            entity = michal.bind(tangon)(entity);
-            golfie = entity.bind(tangon)(golfie);
-            backup = _closure1_slot0;
+            entity = golfie[entity];
+            entity = michal.bind(report)(entity);
+            foxtra = entity.bind(report)();
+            var _closure2_slot3 = foxtra;
+            offset = _closure1_slot0;
             entity = 8;
-            option = report[entity];
-            verify = backup.bind(tangon)(option);
-            option = verify.useAnimatedStyle;
-            oscard = function() { // Original name: l
+            oscard = golfie[entity];
+            yankee = offset.bind(report)(oscard);
+            option = yankee.useDerivedValue;
+            oscard = function() { // Original name: s
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                    entity = {};
-                    tangon = _closure2_slot1;
-                    michal = tangon.get;
-                    michal = michal.bind(tangon)();
-                    if(michal) { _fun00004_ip = 175; continue _fun00003 }
- 24:
-                    golfie = _closure1_slot0;
-                    report = _closure1_slot2;
-                    michal = 9;
-                    report = report[michal];
-                    oscard = undefined;
-                    report = golfie.bind(oscard)(report);
-                    golfie = report.keyboardWillOpenSharedValue;
-                    report = golfie.get;
-                    report = report.bind(golfie)();
-                    if(report) { _fun00004_ip = 175; continue _fun00003 }
- 67:
-                    report = _closure1_slot0;
-                    golfie = _closure1_slot2;
-                    michal = golfie[michal];
-                    michal = report.bind(oscard)(michal);
-                    tangon = michal.keyboardTypeSharedValue;
-                    michal = tangon.get;
-                    tangon = michal.bind(tangon)();
-                    michal = 10;
-                    michal = golfie[michal];
-                    michal = report.bind(oscard)(michal);
-                    michal = michal.KeyboardTypes;
-                    michal = michal.SYSTEM;
-                    if(!(tangon !== michal)) { _fun00004_ip = 155; continue _fun00003 }
- 127:
+                    zuuluu = _closure2_slot1;
+                    entity = zuuluu.get;
+                    entity = entity.bind(zuuluu)();
+                    if(entity) { _fun00004_ip = 173; continue _fun00003 }
+ 22:
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    entity = 9;
+                    tangon = tangon[entity];
+                    report = undefined;
+                    tangon = oscard.bind(report)(tangon);
+                    oscard = tangon.keyboardWillOpenSharedValue;
+                    tangon = oscard.get;
+                    tangon = tangon.bind(oscard)();
+                    if(tangon) { _fun00004_ip = 173; continue _fun00003 }
+ 65:
+                    tangon = _closure1_slot0;
+                    oscard = _closure1_slot2;
+                    entity = oscard[entity];
+                    entity = tangon.bind(report)(entity);
+                    zuuluu = entity.keyboardTypeSharedValue;
+                    entity = zuuluu.get;
+                    zuuluu = entity.bind(zuuluu)();
+                    entity = 10;
+                    entity = oscard[entity];
+                    entity = tangon.bind(report)(entity);
+                    entity = entity.KeyboardTypes;
+                    entity = entity.SYSTEM;
+                    if(!(zuuluu !== entity)) { _fun00004_ip = 153; continue _fun00003 }
+ 125:
+                    zuuluu = _closure2_slot0;
+                    entity = zuuluu.get;
+                    entity = entity.bind(zuuluu)();
+                    zuuluu = entity.bottom;
+                    entity = _closure2_slot3;
+                    entity = zuuluu + entity;
+                    _fun00004_ip = 171; continue _fun00003;
+ 153:
                     tangon = _closure2_slot0;
-                    michal = tangon.get;
-                    michal = michal.bind(tangon)();
-                    tangon = michal.bottom;
-                    michal = _closure2_slot3;
-                    michal = tangon + michal;
-                    _fun00004_ip = 173; continue _fun00003;
- 155:
-                    report = _closure2_slot0;
-                    tangon = report.get;
-                    tangon = tangon.bind(report)();
-                    michal = tangon.bottom;
- 173:
-                    _fun00004_ip = 188; continue _fun00003;
- 175:
-                    tangon = _closure2_slot2;
                     zuuluu = tangon.get;
-                    michal = zuuluu.bind(tangon)();
- 188:
-                    entity['height'] = michal;
+                    zuuluu = zuuluu.bind(tangon)();
+                    entity = zuuluu.bottom;
+ 171:
+                    _fun00004_ip = 186; continue _fun00003;
+ 173:
+                    zuuluu = _closure2_slot2;
+                    michal = zuuluu.get;
+                    entity = michal.bind(zuuluu)();
+ 186:
                     return entity;
                 }
             };
-            offset = {};
-            offset['keyboardOpenOrOpening'] = foxtra;
-            foxtra = 9;
-            sizing = report[foxtra];
-            sizing = backup.bind(tangon)(sizing);
-            sizing = sizing.keyboardWillOpenSharedValue;
-            offset['keyboardWillOpenSharedValue'] = sizing;
-            offset['keyboardOpenedHeight'] = kiloes;
-            foxtra = report[foxtra];
-            foxtra = backup.bind(tangon)(foxtra);
-            foxtra = foxtra.keyboardTypeSharedValue;
-            offset['keyboardTypeSharedValue'] = foxtra;
-            foxtra = 10;
-            foxtra = report[foxtra];
-            foxtra = backup.bind(tangon)(foxtra);
-            foxtra = foxtra.KeyboardTypes;
-            offset['KeyboardTypes'] = foxtra;
-            offset['insets'] = romeon;
-            offset['customKeyboardHeight'] = yankee;
-            oscard['__closure'] = offset;
-            offset = 11724498738023.0;
-            oscard['__workletHash'] = offset;
-            offset = _closure1_slot5;
-            oscard['__initData'] = offset;
-            oscard = option.bind(verify)(oscard);
-            zuuluu = _closure1_slot3;
-            entity = report[entity];
-            entity = michal.bind(tangon)(entity);
+            romeon = {};
+            romeon['keyboardOpenOrOpening'] = kiloes;
+            kiloes = 9;
+            output = golfie[kiloes];
+            output = offset.bind(report)(output);
+            output = output.keyboardWillOpenSharedValue;
+            romeon['keyboardWillOpenSharedValue'] = output;
+            romeon['keyboardOpenedHeight'] = sizing;
+            kiloes = golfie[kiloes];
+            kiloes = offset.bind(report)(kiloes);
+            kiloes = kiloes.keyboardTypeSharedValue;
+            romeon['keyboardTypeSharedValue'] = kiloes;
+            kiloes = 10;
+            kiloes = golfie[kiloes];
+            kiloes = offset.bind(report)(kiloes);
+            kiloes = kiloes.KeyboardTypes;
+            romeon['KeyboardTypes'] = kiloes;
+            romeon['insets'] = backup;
+            romeon['customKeyboardHeight'] = foxtra;
+            oscard['__closure'] = romeon;
+            romeon = 11852669645127.0;
+            oscard['__workletHash'] = romeon;
+            romeon = _closure1_slot7;
+            oscard['__initData'] = romeon;
+            oscard = option.bind(yankee)(oscard);
+            var _closure2_slot4 = oscard;
+            option = 11;
+            option = golfie[option];
+            option = michal.bind(report)(option);
+            verify = option.bind(report)(verify);
+            option = golfie[entity];
+            yankee = offset.bind(report)(option);
+            offset = yankee.useAnimatedStyle;
+            option = function() { // Original name: b
+                entity = {};
+                zuuluu = _closure2_slot4;
+                michal = zuuluu.get;
+                michal = michal.bind(zuuluu)();
+                entity['height'] = michal;
+                return entity;
+            };
+            romeon = {};
+            romeon['heightSharedValue'] = oscard;
+            option['__closure'] = romeon;
+            romeon = 15913264108790.0;
+            option['__workletHash'] = romeon;
+            romeon = _closure1_slot8;
+            option['__initData'] = romeon;
+            option = offset.bind(yankee)(option);
+            tangon = function(argFoo) { // Original name: useSelfHealingLayoutMonitor
+                oscard = argFoo;
+                var _closure3_slot0 = oscard;
+                report = _closure1_slot4;
+                tangon = report.useState;
+                entity = 0;
+                option = tangon.bind(report)(entity);
+                golfie = _closure1_slot3;
+                tangon = undefined;
+                zuuluu = 2;
+                tangon = golfie.bind(tangon)(option, zuuluu);
+                zuuluu = tangon[entity];
+                entity = 1;
+                entity = tangon[entity];
+                var _closure3_slot1 = entity;
+                entity = {};
+                entity['layoutKey'] = zuuluu;
+                tangon = report.useCallback;
+                zuuluu = new Array(1);
+                zuuluu[0] = oscard;
+                michal = function(argFoo) {
+                    _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                        entity = argFoo;
+                        entity = entity.nativeEvent;
+                        entity = entity.layout;
+                        zuuluu = entity.height;
+                        tangon = _closure3_slot0;
+                        michal = tangon.get;
+                        michal = michal.bind(tangon)();
+                        if(!(zuuluu !== michal)) { _fun00006_ip = 59; continue _fun00005 }
+ 39:
+                        zuuluu = _closure3_slot1;
+                        michal = undefined;
+                        entity = function(argFoo) {
+                            michal = argFoo;
+                            entity = 1;
+                            entity = michal + entity;
+                            return entity;
+                        };
+                        entity = zuuluu.bind(michal)(entity);
+ 59:
+                        entity = undefined;
+                        return entity;
+                    }
+                };
+                michal = tangon.bind(report)(michal, zuuluu);
+                entity['handleLayout'] = michal;
+                return entity;
+            };
+            oscard = tangon.bind(report)(oscard);
+            tangon = oscard.layoutKey;
+            oscard = oscard.handleLayout;
+            zuuluu = _closure1_slot5;
+            entity = golfie[entity];
+            entity = michal.bind(report)(entity);
             michal = entity.View;
             entity = {};
-            report = new Array(2);
-            report[0] = golfie;
-            report[1] = oscard;
-            entity['style'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            golfie = new Array(2);
+            golfie[0] = verify;
+            golfie[1] = option;
+            entity['style'] = golfie;
+            entity['onLayout'] = oscard;
+            entity = zuuluu.bind(report)(michal, entity, tangon);
             return entity;
         };
         michal = tangon.bind(golfie)(michal);
-        tangon = 11;
+        tangon = 12;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;

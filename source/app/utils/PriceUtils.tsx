@@ -1,11 +1,11 @@
 // app/utils/PriceUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    golfie = argBar;
+    option = argBar;
     zuuluu = argFre;
-    option = argPlu;
-    var _closure1_slot0 = golfie;
-    var _closure1_slot1 = option;
-    report = function(argFoo, argBar, argBaz) { // Original name: formatPrice
+    verify = argPlu;
+    var _closure1_slot0 = option;
+    var _closure1_slot1 = verify;
+    oscard = function(argFoo, argBar, argBaz) { // Original name: formatPrice
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             michal = argBaz;
@@ -57,8 +57,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot5 = report;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: formatRate
+    var _closure1_slot5 = oscard;
+    report = function(argFoo, argBar, argBaz) { // Original name: formatRate
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             report = argFoo;
@@ -149,40 +149,58 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot6 = tangon;
-    oscard = global;
-    yankee = oscard.Object;
-    offset = yankee.defineProperty;
-    verify = {};
+    var _closure1_slot6 = report;
+    tangon = function(argFoo) { // Original name: maybeShortenPrice
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+            report = argFoo;
+            zuuluu = report.length;
+            michal = 5;
+            entity = report;
+            if(!(zuuluu > michal)) { _fun00006_ip = 47; continue _fun00005 }
+ 18:
+            tangon = report.replace;
+            zuuluu = /\.00$/;
+            michal = '';
+            entity = tangon.bind(report)(zuuluu, michal);
+ 47:
+            return entity;
+        }
+    };
+    var _closure1_slot7 = tangon;
+    golfie = global;
+    romeon = golfie.Object;
+    yankee = romeon.defineProperty;
+    offset = {};
     entity = true;
-    verify['value'] = entity;
+    offset['value'] = entity;
     entity = '__esModule';
-    entity = offset.bind(yankee)(zuuluu, entity, verify);
+    entity = yankee.bind(romeon)(zuuluu, entity, offset);
     entity = 0;
-    offset = option[entity];
-    verify = argBaz;
+    yankee = verify[entity];
+    offset = argBaz;
     entity = undefined;
-    verify = verify.bind(entity)(offset);
-    var _closure1_slot2 = verify;
-    verify = 1;
-    verify = option[verify];
-    verify = golfie.bind(entity)(verify);
-    verify = verify.SubscriptionIntervalTypes;
-    var _closure1_slot3 = verify;
-    offset = oscard.Object;
-    verify = offset.freeze;
-    oscard = ['en-CA', 'en-AU', 'en-NZ'];
-    oscard = verify.bind(offset)(oscard);
-    var _closure1_slot4 = oscard;
-    oscard = 5;
-    oscard = option[oscard];
-    option = golfie.bind(entity)(oscard);
-    golfie = option.fileFinishedImporting;
-    oscard = 'utils/PriceUtils.tsx';
-    oscard = golfie.bind(option)(oscard);
-    zuuluu['formatPrice'] = report;
-    zuuluu['formatRate'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: formatPercent
+    offset = offset.bind(entity)(yankee);
+    var _closure1_slot2 = offset;
+    offset = 1;
+    offset = verify[offset];
+    offset = option.bind(entity)(offset);
+    offset = offset.SubscriptionIntervalTypes;
+    var _closure1_slot3 = offset;
+    yankee = golfie.Object;
+    offset = yankee.freeze;
+    golfie = ['en-CA', 'en-AU', 'en-NZ'];
+    golfie = offset.bind(yankee)(golfie);
+    var _closure1_slot4 = golfie;
+    golfie = 5;
+    golfie = verify[golfie];
+    verify = option.bind(entity)(golfie);
+    option = verify.fileFinishedImporting;
+    golfie = 'utils/PriceUtils.tsx';
+    golfie = option.bind(verify)(golfie);
+    zuuluu['formatPrice'] = oscard;
+    zuuluu['formatRate'] = report;
+    report = function(argFoo, argBar) { // Original name: formatPercent
         entity = global;
         tangon = entity.Intl;
         zuuluu = tangon.NumberFormat;
@@ -194,17 +212,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zuuluu['formatPercent'] = tangon;
-    michal = function(argFoo) { // Original name: formatSubscriptionPlanRate
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    zuuluu['formatPercent'] = report;
+    report = function(argFoo) { // Original name: formatSubscriptionPlanRate
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             entity = argFoo;
             michal = 'interval_count';
             michal = michal in entity;
-            if(michal) { _fun00006_ip = 22; continue _fun00005 }
+            if(michal) { _fun00008_ip = 22; continue _fun00007 }
  14:
             report = entity.intervalCount;
-            _fun00006_ip = 28; continue _fun00005;
+            _fun00008_ip = 28; continue _fun00007;
  22:
             report = entity.interval_count;
  28:
@@ -227,6 +245,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['formatSubscriptionPlanRate'] = michal;
+    zuuluu['formatSubscriptionPlanRate'] = report;
+    zuuluu['maybeShortenPrice'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: shortenAndFormatPrice
+        zuuluu = _closure1_slot7;
+        oscard = _closure1_slot5;
+        michal = undefined;
+        report = argFoo;
+        tangon = argBar;
+        entity = argBaz;
+        entity = oscard.bind(michal)(report, tangon, entity);
+        entity = zuuluu.bind(michal)(entity);
+        return entity;
+    };
+    zuuluu['shortenAndFormatPrice'] = michal;
     return entity;
 })();

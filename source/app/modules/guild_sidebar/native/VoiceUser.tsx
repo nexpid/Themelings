@@ -107,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.id;
                     michal = zuuluu.bind(tangon)(michal);
                     entity['localMute'] = michal;
-                    _fun00004_ip = 98; continue _fun00003;
+                    _fun00004_ip = 94; continue _fun00003;
  59:
                     michal = {'localMute': false, 'localDeaf': false};
                     tangon = _closure1_slot7;
@@ -115,7 +115,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = zuuluu.bind(tangon)();
                     michal['localVideo'] = zuuluu;
                     entity = michal;
- 98:
+ 94:
                     return entity;
                 }
             };

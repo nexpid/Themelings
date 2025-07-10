@@ -25,7 +25,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot2;
             option = report[golfie];
             verify = verify.bind(entity)(option);
-            option = verify.refreshSearchTokens;
+            option = verify.rebuildSearchTokenConfigs;
             option = option.bind(verify)();
             oscard = _closure1_slot1;
             report = report[golfie];

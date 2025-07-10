@@ -1,10 +1,10 @@
 // app/modules/collectibles/native/ProfileEffectSampleV2.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = argBar;
+    yankee = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
+    var _closure1_slot0 = yankee;
     var _closure1_slot1 = oscard;
     entity = global;
     option = entity.Object;
@@ -36,9 +36,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = {};
     verify = {'width': '100%', 'resizeMode': 'cover', 'bottom': 5};
     tangon['profileSkeletonBackground'] = verify;
-    verify = {'width': '100%', 'height': '100%', 'resizeMode': 'contain', 'bottom': 0};
+    verify = {'width': '100%', 'height': '100%', 'resizeMode': 'contain', 'bottom': 0, 'right': 0};
     tangon['profileSkeletonBackgroundBundle'] = verify;
-    verify = {'position': 'absolute', 'bottom': 0, 'left': 0, 'width': '100%', 'height': '100%', 'overflow': 'hidden'};
+    verify = {'position': 'absolute', 'bottom': 0, 'width': '100%', 'height': '100%', 'overflow': 'hidden'};
+    offset = 3;
+    offset = oscard[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.radii;
+    offset = offset.sm;
+    verify['borderRadius'] = offset;
     tangon['profileEffectContainer'] = verify;
     verify = {};
     offset = 0.5;
@@ -46,7 +52,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon['purchasedProfileEffect'] = verify;
     tangon = golfie.bind(option)(tangon);
     var _closure1_slot6 = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -94,11 +100,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = _closure1_slot1;
             if(offset) { _fun00002_ip = 142; continue _fun00001 }
  133:
-            offset = 4;
+            offset = 5;
             offset = foxtra[offset];
             _fun00002_ip = 149; continue _fun00001;
  142:
-            romeon = 3;
+            romeon = 4;
             offset = foxtra[romeon];
  149:
             offset = yankee.bind(tangon)(offset);
@@ -116,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = _closure1_slot4;
             golfie = _closure1_slot0;
             offset = _closure1_slot1;
-            oscard = 5;
+            oscard = 6;
             oscard = offset[oscard];
             golfie = golfie.bind(tangon)(oscard);
             oscard = {'profileEffectId': null, 'bannerAdjustment': 0, 'useThumbnail': true};

@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'position': 'absolute', 'top': 15, 'left': 18, 'width': 85, 'height': 125, 'transform': null, 'alignItems': 'flex-start', 'justifyContent': 'flex-start', 'flexDirection': 'column', 'zIndex': 0};
+    verify = {'position': 'absolute', 'top': 15, 'left': 18, 'width': 84, 'height': 128, 'transform': null, 'alignItems': 'flex-start', 'justifyContent': 'flex-start', 'flexDirection': 'column', 'zIndex': 0};
     yankee = {};
     offset = '-8deg';
     yankee['rotate'] = offset;

@@ -225,71 +225,85 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot9 = tangon;
     tangon = function(argFoo) { // Original name: AssetTileInternal
-        entity = argFoo;
-        report = entity.children;
-        michal = _closure1_slot7;
-        tangon = undefined;
-        oscard = michal.bind(tangon)();
-        option = _closure1_slot0;
-        foxtra = _closure1_slot2;
-        michal = 13;
-        zuuluu = foxtra[michal];
-        golfie = option.bind(tangon)(zuuluu);
-        zuuluu = golfie.hexToRgbaString;
-        michal = foxtra[michal];
-        offset = option.bind(tangon)(michal);
-        verify = offset.hexWithOpacity;
-        michal = 14;
-        michal = foxtra[michal];
-        yankee = option.bind(tangon)(michal);
-        option = yankee.useToken;
-        romeon = _closure1_slot1;
-        michal = 5;
-        michal = foxtra[michal];
-        michal = romeon.bind(tangon)(michal);
-        michal = michal.colors;
-        michal = michal.BACKGROUND_BASE_LOW;
-        option = option.bind(yankee)(michal);
-        michal = 0.8;
-        michal = verify.bind(offset)(option, michal);
-        option = zuuluu.bind(golfie)(michal);
-        zuuluu = _closure1_slot5;
-        michal = _closure1_slot4;
-        entity = {};
-        golfie = oscard.assetContainer;
-        oscard = new Array(2);
-        oscard[0] = golfie;
-        golfie = {};
-        golfie['backgroundColor'] = option;
-        oscard[1] = golfie;
-        entity['style'] = oscard;
-        entity['children'] = report;
-        entity = zuuluu.bind(tangon)(michal, entity);
-        return entity;
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            entity = argFoo;
+            report = entity.children;
+            yankee = entity.solidBackground;
+            tangon = undefined;
+            if(!(yankee === tangon)) { _fun00004_ip = 22; continue _fun00003 }
+ 20:
+            yankee = false;
+ 22:
+            michal = _closure1_slot7;
+            oscard = michal.bind(tangon)();
+            option = _closure1_slot0;
+            backup = _closure1_slot2;
+            michal = 13;
+            zuuluu = backup[michal];
+            golfie = option.bind(tangon)(zuuluu);
+            zuuluu = golfie.hexToRgbaString;
+            michal = backup[michal];
+            offset = option.bind(tangon)(michal);
+            verify = offset.hexWithOpacity;
+            michal = 14;
+            michal = backup[michal];
+            romeon = option.bind(tangon)(michal);
+            option = romeon.useToken;
+            foxtra = _closure1_slot1;
+            michal = 5;
+            michal = backup[michal];
+            michal = foxtra.bind(tangon)(michal);
+            michal = michal.colors;
+            michal = michal.BACKGROUND_BASE_LOW;
+            option = option.bind(romeon)(michal);
+            michal = 0.8;
+            if(!yankee) { _fun00004_ip = 140; continue _fun00003 }
+ 137:
+            michal = 1;
+ 140:
+            michal = verify.bind(offset)(option, michal);
+            option = zuuluu.bind(golfie)(michal);
+            zuuluu = _closure1_slot5;
+            michal = _closure1_slot4;
+            entity = {};
+            golfie = oscard.assetContainer;
+            oscard = new Array(2);
+            oscard[0] = golfie;
+            golfie = {};
+            golfie['backgroundColor'] = option;
+            oscard[1] = golfie;
+            entity['style'] = oscard;
+            entity['children'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
     };
     var _closure1_slot10 = tangon;
     tangon = golfie.memo;
     michal = function(argFoo) {
-        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-            entity = argFoo;
-            offset = entity.product;
-            verify = entity.isDarkTheme;
-            entity = entity.isPurchased;
+            michal = argFoo;
+            offset = michal.product;
+            verify = michal.isDarkTheme;
+            entity = michal.isPurchased;
+            report = michal.solidBackground;
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot10;
             michal = {};
             michal['product'] = offset;
             michal['isDarkTheme'] = verify;
+            michal['solidBackground'] = report;
             golfie = entity;
-            if(!golfie) { _fun00004_ip = 68; continue _fun00003 }
- 50:
+            if(!golfie) { _fun00006_ip = 79; continue _fun00005 }
+ 61:
             romeon = _closure1_slot5;
             yankee = _closure1_slot8;
             option = undefined;
             report = {};
             golfie = romeon.bind(option)(yankee, report);
- 68:
+ 79:
             report = new Array(2);
             report[0] = golfie;
             option = _closure1_slot5;

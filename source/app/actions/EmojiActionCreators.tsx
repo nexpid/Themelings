@@ -398,7 +398,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['rejectWithError'] = report;
             tangon = zuuluu.bind(tangon)(michal);
             zuuluu = tangon.then;
-            michal = function() {
+            michal = function(argFoo) {
                 zuuluu = _closure1_slot1;
                 michal = _closure1_slot2;
                 entity = 8;
@@ -412,6 +412,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 tangon = _closure2_slot0;
                 entity['guildId'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
+                entity = argFoo;
+                entity = entity.body;
                 return entity;
             };
             entity = function(argFoo) {

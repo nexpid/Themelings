@@ -1,0 +1,31 @@
+// app/modules/frames/FramesConstants.tsx
+export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
+    zuuluu = argFre;
+    entity = global;
+    report = entity.Object;
+    tangon = report.defineProperty;
+    michal = {};
+    entity = true;
+    michal['value'] = entity;
+    entity = '__esModule';
+    entity = tangon.bind(report)(zuuluu, entity, michal);
+    michal = {};
+    tangon = 0;
+    michal['FOCUSED'] = tangon;
+    entity = 'FOCUSED';
+    michal[tangon] = entity;
+    report = 1;
+    michal['PIP'] = report;
+    entity = 'PIP';
+    michal[report] = entity;
+    entity = argPlu;
+    report = entity[tangon];
+    tangon = argBar;
+    entity = undefined;
+    oscard = tangon.bind(entity)(report);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/frames/FramesConstants.tsx';
+    tangon = report.bind(oscard)(tangon);
+    zuuluu['FrameLayoutModes'] = michal;
+    return entity;
+})();

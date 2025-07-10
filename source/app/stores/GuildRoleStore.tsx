@@ -235,35 +235,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = report.bind(entity)();
             michal = zuuluu.done;
             tangon = 6;
-            if(michal) { _fun00010_ip = 143; continue _fun00009 }
+            if(michal) { _fun00010_ip = 134; continue _fun00009 }
  38:
             michal = zuuluu.value;
-            offset = michal.roles;
-            for(golfie in offset)
- 57:
+            option = michal.id;
+            golfie = michal.roles;
+            yankee = golfie;
+            for(michal in yankee)
+ 65:
             {
- 66:
-                kiloes = golfie;
-                foxtra = _closure1_slot1;
-                romeon = _closure1_slot2;
-                romeon = romeon[tangon];
-                backup = foxtra.bind(entity)(romeon);
-                foxtra = backup.fromSerializedGuildRole;
-                romeon = michal.roles;
-                romeon = romeon[kiloes];
-                romeon = foxtra.bind(backup)(romeon);
-                _fun00010_ip = 57; continue _fun00009;
+ 74:
+                foxtra = michal;
+                kiloes = _closure1_slot1;
+                backup = _closure1_slot2;
+                backup = backup[tangon];
+                kiloes = kiloes.bind(entity)(backup);
+                backup = kiloes.fromSerializedGuildRoleInPlace;
+                foxtra = golfie[foxtra];
+                foxtra = backup.bind(kiloes)(foxtra);
+                _fun00010_ip = 65; continue _fun00009;
             }
- 109:
-            option = _closure1_slot9;
-            golfie = michal.id;
-            michal = michal.roles;
-            option[golfie] = michal;
+ 111:
+            michal = _closure1_slot9;
+            michal[option] = golfie;
             golfie = report.bind(entity)();
             michal = golfie.done;
             zuuluu = golfie;
             if(!michal) { _fun00010_ip = 38; continue _fun00009 }
- 143:
+ 134:
             return entity;
         }
     };
@@ -296,7 +295,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  82:
             verify = _closure1_slot0;
             offset = _closure1_slot2;
-            report = 8;
+            report = 7;
             report = offset[report];
             report = verify.bind(entity)(report);
             report = report.bind(entity)(option, golfie);
@@ -371,7 +370,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = {};
     michal = option.bind(offset)(michal);
     var _closure1_slot10 = michal;
-    michal = 9;
+    michal = 8;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.Store;
@@ -515,7 +514,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = michal.bind(entity)(option);
     michal = 'GuildRoleStore';
     option['displayName'] = michal;
-    michal = 10;
+    michal = 9;
     michal = oscard[michal];
     backup = golfie.bind(entity)(michal);
     michal = {};
@@ -526,76 +525,75 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = argFoo;
             michal = entity.guilds;
             entity = undefined;
-            offset = zuuluu.bind(entity)(michal);
-            zuuluu = offset.bind(entity)();
+            verify = zuuluu.bind(entity)(michal);
+            zuuluu = verify.bind(entity)();
             michal = zuuluu.done;
-            verify = 7;
-            option = null;
-            golfie = 6;
+            option = 6;
+            golfie = null;
             oscard = 'partial';
             report = 'unavailable';
             tangon = zuuluu;
             zuuluu = undefined;
-            if(michal) { _fun00022_ip = 276; continue _fun00021 }
- 59:
-            backup = tangon.value;
+            if(michal) { _fun00022_ip = 273; continue _fun00021 }
+ 56:
+            foxtra = tangon.value;
+            yankee = _closure1_slot9;
+            michal = foxtra.id;
+            michal = yankee[michal];
+            if(!(golfie != michal)) { _fun00022_ip = 271; continue _fun00021 }
+ 81:
+            michal = foxtra.data_mode;
+            if(!(report !== michal)) { _fun00022_ip = 271; continue _fun00021 }
+ 94:
             romeon = _closure1_slot9;
-            michal = backup.id;
-            michal = romeon[michal];
-            if(!(option != michal)) { _fun00022_ip = 274; continue _fun00021 }
- 84:
-            michal = backup.data_mode;
-            if(!(report !== michal)) { _fun00022_ip = 274; continue _fun00021 }
- 97:
-            foxtra = _closure1_slot9;
-            romeon = backup.id;
-            michal = backup.data_mode;
-            if(!(oscard !== michal)) { _fun00022_ip = 158; continue _fun00021 }
- 116:
-            kiloes = _closure1_slot1;
+            yankee = foxtra.id;
+            michal = foxtra.data_mode;
+            if(!(oscard !== michal)) { _fun00022_ip = 155; continue _fun00021 }
+ 113:
+            backup = _closure1_slot1;
             michal = _closure1_slot2;
-            michal = michal[golfie];
-            output = kiloes.bind(entity)(michal);
-            sizing = output.sortServerRoles;
-            kiloes = backup.id;
-            michal = backup.roles;
-            michal = sizing.bind(output)(kiloes, michal);
-            _fun00022_ip = 250; continue _fun00021;
- 158:
-            sizing = _closure1_slot1;
-            kiloes = _closure1_slot2;
-            kiloes = kiloes[verify];
-            update = sizing.bind(entity)(kiloes);
-            echoed = update.filterRoleDeletes;
-            result = backup.id;
-            sizing = _closure1_slot9;
-            kiloes = backup.id;
-            kiloes = sizing[kiloes];
-            output = kiloes;
-            if(!(option == kiloes)) { _fun00022_ip = 210; continue _fun00021 }
- 206:
-            output = _closure1_slot10;
- 210:
-            sizing = backup.partial_updates;
-            ctrled = sizing.roles;
-            backup = backup.partial_updates;
-            source = backup.deleted_role_ids;
-            config = update;
-            sequen = result;
+            michal = michal[option];
+            sizing = backup.bind(entity)(michal);
+            kiloes = sizing.sortServerRoles;
+            backup = foxtra.id;
+            michal = foxtra.roles;
+            michal = kiloes.bind(sizing)(backup, michal);
+            _fun00022_ip = 247; continue _fun00021;
+ 155:
+            kiloes = _closure1_slot1;
+            backup = _closure1_slot2;
+            backup = backup[option];
+            echoed = kiloes.bind(entity)(backup);
+            result = echoed.filterRoleDeletes;
+            output = foxtra.id;
+            kiloes = _closure1_slot9;
+            backup = foxtra.id;
+            backup = kiloes[backup];
+            sizing = backup;
+            if(!(golfie == backup)) { _fun00022_ip = 207; continue _fun00021 }
+ 203:
+            sizing = _closure1_slot10;
+ 207:
+            kiloes = foxtra.partial_updates;
+            source = kiloes.roles;
+            foxtra = foxtra.partial_updates;
+            update = foxtra.deleted_role_ids;
+            sequen = echoed;
             vacuum = output;
-            michal = config[echoed](sequen, vacuum, ctrled, source, update);
-            zuuluu = kiloes;
- 250:
-            foxtra[romeon] = michal;
-            romeon = offset.bind(entity)();
-            michal = romeon.done;
-            tangon = romeon;
-            if(michal) { _fun00022_ip = 276; continue _fun00021 }
- 269:
-            _fun00022_ip = 59; continue _fun00021;
- 274:
+            ctrled = sizing;
+            michal = sequen[result](vacuum, ctrled, source, update, echoed);
+            zuuluu = backup;
+ 247:
+            romeon[yankee] = michal;
+            yankee = verify.bind(entity)();
+            michal = yankee.done;
+            tangon = yankee;
+            if(michal) { _fun00022_ip = 273; continue _fun00021 }
+ 266:
+            _fun00022_ip = 56; continue _fun00021;
+ 271:
             return entity;
- 276:
+ 273:
             return entity;
         }
     };
@@ -796,7 +794,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     foxtra = michal;
     michal = new kiloes[option](backup, foxtra, romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 11;
+    tangon = 10;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

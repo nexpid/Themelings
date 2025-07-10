@@ -588,20 +588,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie[0] = oscard;
             tangon = function() {
                 zuuluu = _closure1_slot11;
-                tangon = _closure2_slot0;
-                michal = tangon.type;
+                report = _closure2_slot0;
+                michal = report.type;
                 zuuluu = zuuluu[michal];
                 michal = 0;
-                zuuluu = zuuluu[michal];
-                report = _closure1_slot1;
+                tangon = zuuluu[michal];
+                zuuluu = _closure1_slot1;
                 oscard = _closure1_slot2;
                 entity = 21;
                 entity = oscard[entity];
                 michal = undefined;
-                option = report.bind(michal)(entity);
+                option = zuuluu.bind(michal)(entity);
                 entity = null;
-                golfie = entity != zuuluu;
-                yankee = tangon.type;
+                golfie = entity != tangon;
+                yankee = report.type;
                 entity = global;
                 entity = entity.HermesInternal;
                 offset = entity.concat;
@@ -611,9 +611,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = option.bind(michal)(golfie, entity);
                 entity = 15;
                 entity = oscard[entity];
-                michal = report.bind(michal)(entity);
-                entity = michal.initialize;
-                entity = entity.bind(michal)(tangon, zuuluu);
+                zuuluu = zuuluu.bind(michal)(entity);
+                michal = zuuluu.initialize;
+                entity = {};
+                entity['searchContext'] = report;
+                entity['initialTab'] = tangon;
+                tangon = true;
+                entity['initializeSearchQueryId'] = tangon;
+                entity = michal.bind(zuuluu)(entity);
                 entity = function() {
                     oscard = _closure1_slot0;
                     report = _closure1_slot2;

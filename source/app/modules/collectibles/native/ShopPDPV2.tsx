@@ -62,9 +62,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             entity = argFoo;
-            oscard = entity.product;
-            golfie = entity.width;
-            zuuluu = oscard.type;
+            golfie = entity.product;
+            oscard = entity.width;
+            zuuluu = golfie.type;
             report = _closure1_slot0;
             michal = _closure1_slot2;
             option = 9;
@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report.bind(tangon)(michal);
             michal = michal.CollectiblesItemType;
             michal = michal.NAMEPLATE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 260; continue _fun00001 }
+            if(!(michal !== zuuluu)) { _fun00002_ip = 243; continue _fun00001 }
  63:
             report = _closure1_slot0;
             michal = _closure1_slot2;
@@ -81,27 +81,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = report.bind(tangon)(michal);
             michal = michal.CollectiblesItemType;
             michal = michal.AVATAR_DECORATION;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 226; continue _fun00001 }
- 99:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 209; continue _fun00001 }
+ 96:
             report = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[option];
             michal = report.bind(tangon)(michal);
             michal = michal.CollectiblesItemType;
             michal = michal.PROFILE_EFFECT;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 169; continue _fun00001 }
- 132:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 166; continue _fun00001 }
+ 129:
             report = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[option];
             michal = report.bind(tangon)(michal);
             michal = michal.CollectiblesItemType;
             michal = michal.BUNDLE;
-            if(!(michal !== zuuluu)) { _fun00002_ip = 169; continue _fun00001 }
- 165:
+            if(!(michal !== zuuluu)) { _fun00002_ip = 166; continue _fun00001 }
+ 162:
             michal = null;
             return michal;
- 169:
+ 166:
             report = _closure1_slot6;
             zuuluu = _closure1_slot1;
             option = _closure1_slot2;
@@ -109,13 +109,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = option[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
-            michal['product'] = oscard;
-            oscard = 0.8;
-            oscard = oscard * golfie;
+            michal['product'] = golfie;
             michal['width'] = oscard;
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 226:
+ 209:
             report = _closure1_slot6;
             zuuluu = _closure1_slot1;
             oscard = _closure1_slot2;
@@ -125,7 +123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = {};
             michal = report.bind(tangon)(zuuluu, michal);
             return michal;
- 260:
+ 243:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot1;
             report = _closure1_slot2;
@@ -146,7 +144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
             report = argFoo;
             entity = {};
-            michal = {};
+            michal = {'borderBottomColor': null, 'borderBottomWidth': 1, 'paddingBottom': 25, 'marginTop': 25};
             option = _closure1_slot1;
             zuuluu = _closure1_slot2;
             oscard = 4;
@@ -156,8 +154,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.colors;
             oscard = oscard.BG_MOD_SUBTLE;
             michal['borderBottomColor'] = oscard;
-            oscard = 1;
-            michal['borderBottomWidth'] = oscard;
             oscard = _closure1_slot0;
             option = 9;
             zuuluu = zuuluu[option];
@@ -165,10 +161,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.CollectiblesItemType;
             zuuluu = zuuluu.AVATAR_DECORATION;
             zuuluu = report === zuuluu;
-            if(!zuuluu) { _fun00004_ip = 105; continue _fun00003 }
- 91:
-            zuuluu = {'marginTop': 54, 'paddingHorizontal': 16, 'paddingBottom': 44};
- 105:
+            if(!zuuluu) { _fun00004_ip = 108; continue _fun00003 }
+ 96:
+            oscard = {};
+            verify = 16;
+            oscard['paddingHorizontal'] = verify;
+            zuuluu = oscard;
+ 108:
             yankee = michal;
             offset = zuuluu;
             zuuluu = copyDataProperties(yankee, offset);
@@ -179,13 +178,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.CollectiblesItemType;
             zuuluu = zuuluu.NAMEPLATE;
             zuuluu = report === zuuluu;
-            if(!zuuluu) { _fun00004_ip = 163; continue _fun00003 }
- 151:
-            oscard = {};
-            verify = 8;
-            oscard['marginTop'] = verify;
-            zuuluu = oscard;
- 163:
+            if(!zuuluu) { _fun00004_ip = 168; continue _fun00003 }
+ 154:
+            zuuluu = {'marginTop': 8, 'paddingBottom': 0};
+ 168:
             yankee = michal;
             offset = zuuluu;
             zuuluu = copyDataProperties(yankee, offset);
@@ -196,8 +192,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = zuuluu.CollectiblesItemType;
             zuuluu = zuuluu.PROFILE_EFFECT;
             zuuluu = report === zuuluu;
-            if(zuuluu) { _fun00004_ip = 242; continue _fun00003 }
- 209:
+            if(zuuluu) { _fun00004_ip = 247; continue _fun00003 }
+ 214:
             oscard = _closure1_slot0;
             tangon = _closure1_slot2;
             tangon = tangon[option];
@@ -205,14 +201,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.CollectiblesItemType;
             tangon = tangon.BUNDLE;
             zuuluu = report === tangon;
- 242:
-            if(!zuuluu) { _fun00004_ip = 271; continue _fun00003 }
- 245:
-            tangon = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center', 'height': null, 'paddingBottom': 20};
+ 247:
+            if(!zuuluu) { _fun00004_ip = 288; continue _fun00003 }
+ 250:
+            tangon = {'flexDirection': 'row', 'justifyContent': 'center', 'alignItems': 'center'};
+            oscard = 0.48;
             report = argBar;
+            report = oscard * report;
             tangon['height'] = report;
             zuuluu = tangon;
- 271:
+ 288:
             yankee = michal;
             offset = zuuluu;
             zuuluu = copyDataProperties(yankee, offset);
@@ -583,12 +581,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = michal.bind(report)(entity);
             entity = entity.bind(report)();
             option = entity.width;
+            zuuluu = entity.height;
             michal = _closure1_slot10;
             entity = verify.type;
-            golfie = michal.bind(report)(entity, option);
+            golfie = michal.bind(report)(entity, zuuluu);
             entity = null;
-            if(!(entity != tangon)) { _fun00014_ip = 127; continue _fun00013 }
- 70:
+            if(!(entity != tangon)) { _fun00014_ip = 132; continue _fun00013 }
+ 75:
             zuuluu = _closure1_slot6;
             michal = _closure1_slot4;
             entity = {};
@@ -602,8 +601,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.bind(report)(offset, tangon);
             entity['children'] = tangon;
             entity = zuuluu.bind(report)(michal, entity);
-            _fun00014_ip = 178; continue _fun00013;
- 127:
+            _fun00014_ip = 183; continue _fun00013;
+ 132:
             tangon = _closure1_slot6;
             zuuluu = _closure1_slot5;
             michal = {};
@@ -616,7 +615,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = tangon.bind(report)(golfie, oscard);
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 178:
+ 183:
             return entity;
         }
     };

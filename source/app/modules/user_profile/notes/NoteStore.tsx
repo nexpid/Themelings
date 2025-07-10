@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = !entity;
                     return entity;
                 };
-                _closure1_slot5 = michal;
+                _closure1_slot6 = michal;
                 entity = undefined;
                 entity = michal.bind(entity)();
                 return entity;
             }
         };
-        var _closure1_slot5 = entity;
+        var _closure1_slot6 = entity;
         tangon = global;
         offset = tangon.Object;
         verify = offset.defineProperty;
@@ -77,8 +77,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = 5;
         michal = oscard[michal];
         michal = report.bind(entity)(michal);
-        verify = michal.KvStore;
+        verify = michal.TypeTag;
+        michal = michal.constructInPlace;
+        var _closure1_slot5 = michal;
         michal = 6;
+        michal = oscard[michal];
+        michal = report.bind(entity)(michal);
+        verify = michal.KvStore;
+        michal = 7;
         michal = oscard[michal];
         golfie = golfie.bind(entity)(michal);
         michal = golfie.prototype;
@@ -101,7 +107,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = _closure1_slot3;
                     verify = entity.bind(zuuluu)(michal);
                     michal = _closure1_slot2;
-                    entity = _closure1_slot5;
+                    entity = _closure1_slot6;
                     entity = entity.bind(zuuluu)();
                     if(entity) { _fun00006_ip = 69; continue _fun00005 }
  51:
@@ -149,7 +155,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         golfie = golfie.bind(entity)(verify);
         golfie['displayName'] = michal;
         verify = offset.info;
-        michal = 7;
+        michal = 8;
         yankee = oscard[michal];
         yankee = report.bind(entity)(yankee);
         romeon = yankee.NoteStoreExperiment;
@@ -166,8 +172,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = tangon.cachedIsEnabled;
         tangon = michal.bind(tangon)();
         michal = undefined;
-        if(tangon) { _fun00002_ip = 363; continue _fun00001 }
- 306:
+        if(tangon) { _fun00002_ip = 391; continue _fun00001 }
+ 334:
         tangon = {};
         verify = function(argFoo, argBar) { // Original name: CONNECTION_OPEN
             michal = argBar;
@@ -184,46 +190,54 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         tangon['OVERLAY_INITIALIZE'] = verify;
         verify = function(argFoo, argBar) { // Original name: USER_NOTE_UPDATE
-            report = argFoo;
-            tangon = argBar;
-            zuuluu = tangon.set;
-            michal = report.id;
-            entity = {};
-            oscard = false;
-            entity['loading'] = oscard;
-            report = report.note;
-            entity['note'] = report;
-            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = argFoo;
+            report = argBar;
+            tangon = report.set;
+            zuuluu = entity.id;
+            golfie = _closure1_slot5;
+            oscard = {};
+            michal = false;
+            oscard['loading'] = michal;
+            entity = entity.note;
+            oscard['note'] = entity;
             entity = undefined;
+            michal = 'Note';
+            michal = golfie.bind(entity)(michal, oscard);
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         };
         tangon['USER_NOTE_UPDATE'] = verify;
         option = function(argFoo, argBar) { // Original name: USER_NOTE_LOAD_START
-            tangon = argBar;
-            zuuluu = tangon.set;
+            report = argBar;
+            tangon = report.set;
             entity = argFoo;
-            michal = entity.userId;
-            entity = {'loading': true, 'note': null};
-            entity = zuuluu.bind(tangon)(michal, entity);
+            zuuluu = entity.userId;
+            golfie = _closure1_slot5;
             entity = undefined;
+            oscard = 'Note';
+            michal = {'loading': true, 'note': null};
+            michal = golfie.bind(entity)(oscard, michal);
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         };
         tangon['USER_NOTE_LOAD_START'] = option;
         michal = tangon;
- 363:
+ 391:
         tangon = golfie.prototype;
         tangon = Object.create(tangon, {constructor: {value: golfie}});
         sizing = tangon;
         kiloes = michal;
         michal = new sizing[golfie](kiloes, backup);
         michal = michal instanceof Object ? michal : tangon;
-        tangon = 8;
+        tangon = 9;
         tangon = oscard[tangon];
         oscard = report.bind(entity)(tangon);
         report = oscard.fileFinishedImporting;
         tangon = 'modules/user_profile/notes/NoteStore.tsx';
         tangon = report.bind(oscard)(tangon);
         zuuluu['default'] = michal;
+        michal = 'Note';
+        zuuluu['NoteRecordTypeTag'] = michal;
         return entity;
     }
 })();

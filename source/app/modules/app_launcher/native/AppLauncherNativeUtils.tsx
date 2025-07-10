@@ -47,7 +47,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.BuiltInSectionId;
     var _closure1_slot10 = tangon;
-    tangon = 20;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -742,7 +742,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
-            sizing = entity.applicationId;
+            oscard = entity.applicationId;
             kiloes = entity.context;
             verify = entity.sectionName;
             var _closure2_slot0 = verify;
@@ -770,14 +770,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = entity.bind(zuuluu)();
             entity = 17;
             zuuluu = romeon[entity];
-            oscard = yankee.bind(report)(zuuluu);
-            tangon = oscard.useActivityAction;
+            sizing = yankee.bind(report)(zuuluu);
+            tangon = sizing.useActivityAction;
             zuuluu = {};
             zuuluu['context'] = kiloes;
-            zuuluu['applicationId'] = sizing;
+            zuuluu['applicationId'] = oscard;
             zuuluu['fetchesApplication'] = golfie;
-            zuuluu = tangon.bind(oscard)(zuuluu);
+            zuuluu = tangon.bind(sizing)(zuuluu);
             _closure2_slot4 = zuuluu;
+            zuuluu = 18;
+            zuuluu = romeon[zuuluu];
+            tangon = yankee.bind(report)(zuuluu);
+            zuuluu = tangon.useGetOrFetchApplication;
+            sizing = zuuluu.bind(tangon)(oscard, golfie);
             zuuluu = 15;
             zuuluu = romeon[zuuluu];
             tangon = yankee.bind(report)(zuuluu);
@@ -788,10 +793,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = yankee.bind(report)(entity);
             zuuluu = tangon.useOnActivityItemSelected;
             entity = {};
-            entity['applicationId'] = sizing;
+            entity['application'] = sizing;
             entity['context'] = kiloes;
             kiloes = _closure1_slot1;
-            backup = 18;
+            backup = 19;
             backup = romeon[backup];
             backup = kiloes.bind(report)(backup);
             entity['embeddedActivitiesManager'] = backup;
@@ -849,17 +854,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = null;
             verify = golfie == oscard;
             option = undefined;
-            if(verify) { _fun00016_ip = 318; continue _fun00015 }
- 312:
+            if(verify) { _fun00016_ip = 342; continue _fun00015 }
+ 336:
             option = oscard.customId;
- 318:
+ 342:
             entity['customId'] = option;
             golfie = golfie == oscard;
             report = undefined;
-            if(golfie) { _fun00016_ip = 338; continue _fun00015 }
- 332:
+            if(golfie) { _fun00016_ip = 362; continue _fun00015 }
+ 356:
             report = oscard.referrerId;
- 338:
+ 362:
             entity['referrerId'] = report;
             entity = zuuluu.bind(tangon)(entity);
             _closure2_slot5 = entity;
@@ -867,7 +872,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = function() { // Original name: handleActivityItemSelected
                 report = _closure1_slot0;
                 oscard = _closure1_slot3;
-                michal = 19;
+                michal = 20;
                 zuuluu = oscard[michal];
                 entity = undefined;
                 tangon = report.bind(entity)(zuuluu);

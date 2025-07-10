@@ -1,11 +1,11 @@
 // app/modules/search_v2/native/components/tabs/SearchTabsPage.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     oscard = argBar;
-    romeon = argBaz;
+    option = argBaz;
     zuuluu = argFre;
     golfie = argPlu;
     var _closure1_slot0 = oscard;
-    var _closure1_slot1 = romeon;
+    var _closure1_slot1 = option;
     var _closure1_slot2 = golfie;
     entity = function(argFoo) { // Original name: SearchTabsPage
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = entity.onViewableItemsChanged;
             golfie = _closure1_slot0;
             tangon = _closure1_slot2;
-            michal = 8;
+            michal = 7;
             michal = tangon[michal];
             tangon = undefined;
             yankee = golfie.bind(tangon)(michal);
@@ -110,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             romeon = _closure1_slot2;
-            michal = 18;
+            michal = 17;
             michal = romeon[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
@@ -124,7 +124,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             romeon = _closure1_slot2;
-            michal = 17;
+            michal = 16;
             michal = romeon[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
@@ -138,7 +138,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot0;
             romeon = _closure1_slot2;
-            michal = 16;
+            michal = 15;
             michal = romeon[michal];
             michal = zuuluu.bind(tangon)(michal);
             zuuluu = michal.SearchTabsThreadScreen;
@@ -148,20 +148,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
  498:
-            golfie = _closure1_slot8;
-            zuuluu = _closure1_slot1;
-            yankee = _closure1_slot2;
-            michal = 15;
-            michal = yankee[michal];
-            zuuluu = zuuluu.bind(tangon)(michal);
-            michal = {};
-            michal['tab'] = offset;
-            michal['searchContext'] = report;
-            michal['isFocused'] = verify;
-            michal['onViewableItemsChanged'] = option;
-            michal = golfie.bind(tangon)(zuuluu, michal);
-            return michal;
- 552:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -175,7 +161,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 606:
+ 552:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             yankee = _closure1_slot2;
@@ -189,19 +175,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 660:
+ 606:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
-            verify = _closure1_slot2;
+            yankee = _closure1_slot2;
             michal = 12;
-            michal = verify[michal];
+            michal = yankee[michal];
             zuuluu = zuuluu.bind(tangon)(michal);
             michal = {};
+            michal['tab'] = offset;
             michal['searchContext'] = report;
+            michal['isFocused'] = verify;
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 704:
+ 660:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -213,7 +201,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
- 748:
+ 704:
             golfie = _closure1_slot8;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -225,11 +213,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['onViewableItemsChanged'] = option;
             michal = golfie.bind(tangon)(zuuluu, michal);
             return michal;
+ 748:
+            golfie = _closure1_slot8;
+            zuuluu = _closure1_slot1;
+            verify = _closure1_slot2;
+            michal = 9;
+            michal = verify[michal];
+            zuuluu = zuuluu.bind(tangon)(michal);
+            michal = {};
+            michal['searchContext'] = report;
+            michal['onViewableItemsChanged'] = option;
+            michal = golfie.bind(tangon)(zuuluu, michal);
+            return michal;
  792:
             zuuluu = _closure1_slot8;
             michal = _closure1_slot1;
             golfie = _closure1_slot2;
-            entity = 9;
+            entity = 8;
             entity = golfie[entity];
             michal = michal.bind(tangon)(entity);
             entity = {};
@@ -241,17 +241,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot11 = entity;
     entity = global;
-    option = entity.Object;
-    report = option.defineProperty;
+    verify = entity.Object;
+    report = verify.defineProperty;
     michal = {};
     entity = true;
     michal['value'] = entity;
     entity = '__esModule';
-    entity = report.bind(option)(zuuluu, entity, michal);
+    entity = report.bind(verify)(zuuluu, entity, michal);
     entity = 0;
     michal = golfie[entity];
     entity = undefined;
-    michal = romeon.bind(entity)(michal);
+    michal = option.bind(entity)(michal);
     var _closure1_slot3 = michal;
     yankee = 1;
     report = golfie[yankee];
@@ -265,7 +265,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot5 = michal;
     michal = 3;
     michal = golfie[michal];
-    michal = romeon.bind(entity)(michal);
+    michal = option.bind(entity)(michal);
     var _closure1_slot6 = michal;
     michal = 4;
     michal = golfie[michal];
@@ -284,19 +284,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     michal = {};
     offset = {};
     offset['flex'] = yankee;
-    yankee = 7;
-    yankee = golfie[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.BG_BASE_SECONDARY;
-    offset['backgroundColor'] = yankee;
     michal['container'] = offset;
     michal = option.bind(verify)(michal);
     var _closure1_slot9 = michal;
     michal = report.createContext;
     michal = michal.bind(report)(entity);
     var _closure1_slot10 = michal;
-    report = 22;
+    report = 21;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -312,7 +306,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         yankee = michal.bind(zuuluu)(entity);
         michal = _closure1_slot1;
         zuuluu = _closure1_slot2;
-        entity = 19;
+        entity = 18;
         entity = zuuluu[entity];
         tangon = undefined;
         golfie = michal.bind(tangon)(entity);
@@ -322,7 +316,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = golfie.bind(tangon)(oscard, entity);
         entity = _closure1_slot9;
         oscard = entity.bind(tangon)();
-        entity = 20;
+        entity = 19;
         entity = zuuluu[entity];
         michal = michal.bind(tangon)(entity);
         entity = yankee.selectedTab;
@@ -338,7 +332,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         };
         golfie = michal.bind(golfie)(verify, entity);
         michal = _closure1_slot0;
-        entity = 21;
+        entity = 20;
         entity = zuuluu[entity];
         zuuluu = michal.bind(tangon)(entity);
         michal = zuuluu.useSearchResultsViewedAnalytics;

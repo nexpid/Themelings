@@ -165,7 +165,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         report['value'] = entity;
-        entity = new Array(69);
+        entity = new Array(71);
         entity[0] = report;
         report = {};
         golfie = 'interact';
@@ -946,15 +946,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'fetchAsyncResources';
         report['key'] = golfie;
-        oscard = function() { // Original name: value
+        golfie = function() { // Original name: value
             entity = global;
             michal = entity.Promise;
             entity = michal.resolve;
             entity = entity.bind(michal)();
             return entity;
         };
-        report['value'] = oscard;
+        report['value'] = golfie;
         entity[68] = report;
+        report = {};
+        golfie = 'getNoiseCancellationStats';
+        report['key'] = golfie;
+        golfie = function() { // Original name: value
+            entity = global;
+            zuuluu = entity.Promise;
+            michal = zuuluu.reject;
+            report = entity.Error;
+            entity = report.prototype;
+            tangon = Object.create(entity, {constructor: {value: report}});
+            oscard = 'Dummy noise cancellation stats not supported';
+            golfie = tangon;
+            entity = new golfie[report](oscard, report);
+            entity = entity instanceof Object ? entity : tangon;
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        report['value'] = golfie;
+        entity[69] = report;
+        report = {};
+        golfie = 'setNoiseCancellationEnableStats';
+        report['key'] = golfie;
+        oscard = function() { // Original name: value
+            entity = undefined;
+            return entity;
+        };
+        report['value'] = oscard;
+        entity[70] = report;
         entity = michal.bind(zuuluu)(tangon, entity);
         return entity;
     };

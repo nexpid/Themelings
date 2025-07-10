@@ -1,11 +1,11 @@
 // app/modules/search_v2/native/components/layout/SearchScreenLayout.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
-    romeon = argBaz;
+    option = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    var _closure1_slot1 = romeon;
+    var _closure1_slot1 = option;
     var _closure1_slot2 = oscard;
     entity = function(argFoo) { // Original name: SearchFreezeContainer
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -20,7 +20,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot5;
             michal = _closure1_slot0;
             oscard = _closure1_slot2;
-            entity = 6;
+            entity = 5;
             entity = oscard[entity];
             entity = michal.bind(tangon)(entity);
             michal = entity.Freeze;
@@ -52,15 +52,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     var _closure1_slot9 = entity;
     entity = global;
-    option = entity.Object;
-    golfie = option.defineProperty;
+    verify = entity.Object;
+    golfie = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
-    foxtra = 0;
-    golfie = oscard[foxtra];
+    entity = golfie.bind(verify)(zuuluu, entity, tangon);
+    romeon = 0;
+    golfie = oscard[romeon];
     tangon = argCor;
     entity = undefined;
     golfie = tangon.bind(entity)(golfie);
@@ -71,7 +71,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot3 = tangon;
     tangon = 2;
     tangon = oscard[tangon];
-    tangon = romeon.bind(entity)(tangon);
+    tangon = option.bind(entity)(tangon);
     var _closure1_slot4 = tangon;
     tangon = 3;
     tangon = oscard[tangon];
@@ -88,16 +88,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = verify.createStyles;
     tangon = {};
     offset = {};
-    offset['opacity'] = foxtra;
+    offset['opacity'] = romeon;
     tangon['hidden'] = offset;
     offset = {};
     offset['flex'] = yankee;
-    yankee = 5;
-    yankee = oscard[yankee];
-    yankee = romeon.bind(entity)(yankee);
-    yankee = yankee.colors;
-    yankee = yankee.BG_BASE_PRIMARY;
-    offset['backgroundColor'] = yankee;
     tangon['visible'] = offset;
     tangon = option.bind(verify)(tangon);
     var _closure1_slot8 = tangon;
@@ -128,7 +122,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         sizing = _closure1_slot5;
         offset = _closure1_slot1;
         foxtra = _closure1_slot2;
-        entity = 7;
+        entity = 6;
         golfie = foxtra[entity];
         entity = undefined;
         kiloes = offset.bind(entity)(golfie);
@@ -145,7 +139,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard['visible'] = backup;
         oscard['containerStyle'] = yankee;
         yankee = _closure1_slot5;
-        verify = 8;
+        verify = 7;
         verify = foxtra[verify];
         offset = offset.bind(entity)(verify);
         verify = {};
@@ -159,7 +153,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     michal = tangon.bind(golfie)(michal);
-    tangon = 9;
+    tangon = 8;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

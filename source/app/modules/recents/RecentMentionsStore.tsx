@@ -491,24 +491,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = tangon.THIS_SERVER;
             tangon = 'guildFilter';
             report = golfie.bind(entity)(tangon, report);
-            if(report) { _fun00018_ip = 177; continue _fun00017 }
- 165:
+            if(report) { _fun00018_ip = 179; continue _fun00017 }
+ 167:
             oscard = 'everyoneFilter';
             tangon = false;
             report = golfie.bind(entity)(oscard, tangon);
- 177:
-            if(report) { _fun00018_ip = 192; continue _fun00017 }
- 180:
+ 179:
+            if(report) { _fun00018_ip = 194; continue _fun00017 }
+ 182:
             oscard = 'roleFilter';
             tangon = false;
             report = golfie.bind(entity)(oscard, tangon);
- 192:
+ 194:
             tangon = {};
             _closure1_slot25 = tangon;
             tangon = new Array(0);
             var _closure2_slot1 = tangon;
-            if(!report) { _fun00018_ip = 228; continue _fun00017 }
- 209:
+            if(!report) { _fun00018_ip = 230; continue _fun00017 }
+ 211:
             golfie = _closure1_slot23;
             oscard = golfie.forEach;
             report = function(argFoo) {
@@ -533,7 +533,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 }
             };
             report = oscard.bind(golfie)(report);
- 228:
+ 230:
             _closure1_slot23 = tangon;
             michal = function(argFoo) { // Original name: resetChannelMentionCount
                 zuuluu = argFoo;
@@ -575,11 +575,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot23;
             tangon = michal.length;
             michal = 0;
-            if(!(michal === tangon)) { _fun00018_ip = 263; continue _fun00017 }
- 257:
+            if(!(michal === tangon)) { _fun00018_ip = 265; continue _fun00017 }
+ 259:
             michal = false;
             _closure1_slot29 = michal;
- 263:
+ 265:
             return entity;
         }
     };

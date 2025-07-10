@@ -65,7 +65,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon['emoji'] = verify;
     verify = {'width': 28, 'height': 28};
     tangon['emojiImage'] = verify;
-    verify = {'paddingTop': 5, 'lineHeight': 28, 'fontSize': 28};
+    verify = {'paddingTop': 5, 'lineHeight': 28, 'fontSize': 28, 'color': null, 'textAlign': 'center'};
+    foxtra = oscard[offset];
+    foxtra = yankee.bind(entity)(foxtra);
+    foxtra = foxtra.colors;
+    foxtra = foxtra.INTERACTIVE_NORMAL;
+    verify['color'] = foxtra;
     tangon['emojiText'] = verify;
     verify = {'height': 52, 'alignSelf': 'stretch', 'flexDirection': 'row', 'justifyContent': 'space-between', 'alignItems': 'center', 'marginTop': 0, 'marginBottom': 0};
     tangon['emojiRow'] = verify;

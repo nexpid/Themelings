@@ -1,13 +1,13 @@
 // app/actions/SearchActionCreators.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
+    golfie = argBar;
+    verify = argBaz;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
-    tangon = function(argFoo, argBar, argBaz, argCor) { // Original name: search
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = verify;
+    var _closure1_slot2 = option;
+    report = function(argFoo, argBar, argBaz, argCor) { // Original name: search
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golfie = argFoo;
@@ -60,66 +60,92 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot6 = tangon;
-    entity = global;
-    offset = entity.Object;
-    verify = offset.defineProperty;
-    report = {};
-    entity = true;
-    report['value'] = entity;
-    entity = '__esModule';
-    entity = verify.bind(offset)(zuuluu, entity, report);
-    entity = 0;
-    report = golfie[entity];
-    entity = undefined;
-    report = option.bind(entity)(report);
-    var _closure1_slot3 = report;
-    report = 1;
-    report = golfie[report];
-    report = oscard.bind(entity)(report);
-    option = report.SEARCH_PAGE_SIZE;
-    var _closure1_slot4 = option;
-    report = report.SearchModes;
-    var _closure1_slot5 = report;
-    report = 6;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'actions/SearchActionCreators.tsx';
-    report = oscard.bind(golfie)(report);
-    zuuluu['search'] = tangon;
-    tangon = function(argFoo) { // Original name: searchQueryParamsToSearchMode
+    var _closure1_slot6 = report;
+    tangon = function(argFoo) { // Original name: searchModeToSearchQueryParams
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = argFoo;
+            michal = _closure1_slot5;
+            michal = michal.MOST_RELEVANT;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 76; continue _fun00003 }
+ 20:
+            michal = _closure1_slot5;
+            michal = michal.OLDEST;
+            if(!(michal !== zuuluu)) { _fun00004_ip = 60; continue _fun00003 }
+ 34:
+            entity = _closure1_slot5;
+            entity = entity.NEWEST;
+            entity = {'sort_by': 'timestamp', 'sort_order': 'desc'};
+            return entity;
+ 60:
+            entity = {'sort_by': 'timestamp', 'sort_order': 'asc'};
+            return entity;
+ 76:
+            entity = {'sort_by': 'relevance', 'sort_order': 'desc'};
+            return entity;
+        }
+    };
+    var _closure1_slot7 = tangon;
+    entity = global;
+    yankee = entity.Object;
+    offset = yankee.defineProperty;
+    oscard = {};
+    entity = true;
+    oscard['value'] = entity;
+    entity = '__esModule';
+    entity = offset.bind(yankee)(zuuluu, entity, oscard);
+    entity = 0;
+    oscard = option[entity];
+    entity = undefined;
+    oscard = verify.bind(entity)(oscard);
+    var _closure1_slot3 = oscard;
+    oscard = 1;
+    oscard = option[oscard];
+    oscard = golfie.bind(entity)(oscard);
+    verify = oscard.SEARCH_PAGE_SIZE;
+    var _closure1_slot4 = verify;
+    oscard = oscard.SearchModes;
+    var _closure1_slot5 = oscard;
+    oscard = 6;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'actions/SearchActionCreators.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['search'] = report;
+    zuuluu['searchModeToSearchQueryParams'] = tangon;
+    tangon = function(argFoo) { // Original name: searchQueryParamsToSearchMode
+        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             entity = argFoo;
             michal = entity.sort_by;
             zuuluu = null;
-            if(!(zuuluu != michal)) { _fun00004_ip = 102; continue _fun00003 }
+            if(!(zuuluu != michal)) { _fun00006_ip = 102; continue _fun00005 }
  15:
             michal = entity.sort_order;
-            if(!(zuuluu != michal)) { _fun00004_ip = 102; continue _fun00003 }
+            if(!(zuuluu != michal)) { _fun00006_ip = 102; continue _fun00005 }
  25:
             zuuluu = entity.sort_by;
             michal = 'relevance';
-            if(!(michal !== zuuluu)) { _fun00004_ip = 87; continue _fun00003 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 87; continue _fun00005 }
  41:
             michal = entity.sort_order;
             entity = 'asc';
-            if(!(entity !== michal)) { _fun00004_ip = 72; continue _fun00003 }
+            if(!(entity !== michal)) { _fun00006_ip = 72; continue _fun00005 }
  57:
             entity = _closure1_slot5;
             entity = entity.NEWEST;
-            _fun00004_ip = 85; continue _fun00003;
+            _fun00006_ip = 85; continue _fun00005;
  72:
             michal = _closure1_slot5;
             entity = michal.OLDEST;
  85:
-            _fun00004_ip = 100; continue _fun00003;
+            _fun00006_ip = 100; continue _fun00005;
  87:
             michal = _closure1_slot5;
             entity = michal.MOST_RELEVANT;
  100:
-            _fun00004_ip = 115; continue _fun00003;
+            _fun00006_ip = 115; continue _fun00005;
  102:
             michal = _closure1_slot5;
             entity = michal.NEWEST;
@@ -129,47 +155,26 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     };
     zuuluu['searchQueryParamsToSearchMode'] = tangon;
     tangon = function(argFoo, argBar, argBaz) { // Original name: searchByMode
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
- 0:
-            report = argFoo;
-            tangon = argBar;
-            michal = _closure1_slot3;
-            entity = michal.getQuery;
-            michal = entity.bind(michal)(report);
-            entity = _closure1_slot5;
-            entity = entity.MOST_RELEVANT;
-            if(!(entity !== tangon)) { _fun00006_ip = 94; continue _fun00005 }
- 38:
-            entity = _closure1_slot5;
-            entity = entity.OLDEST;
-            if(!(entity !== tangon)) { _fun00006_ip = 78; continue _fun00005 }
- 52:
-            entity = _closure1_slot5;
-            entity = entity.NEWEST;
-            entity = {'sort_by': 'timestamp', 'sort_order': 'desc'};
-            _fun00006_ip = 108; continue _fun00005;
- 78:
-            entity = {'sort_by': 'timestamp', 'sort_order': 'asc'};
-            _fun00006_ip = 108; continue _fun00005;
- 94:
-            entity = {'sort_by': 'relevance', 'sort_order': 'desc'};
- 108:
-            tangon = _closure1_slot6;
-            zuuluu = {};
-            option = zuuluu;
-            golfie = michal;
-            michal = copyDataProperties(option, golfie);
-            option = zuuluu;
-            golfie = entity;
-            entity = copyDataProperties(option, golfie);
-            michal = 0;
-            entity = 'offset';
-            zuuluu[entity] = michal;
-            entity = undefined;
-            michal = argBaz;
-            michal = tangon.bind(entity)(report, zuuluu, michal);
-            return entity;
-        }
+        report = argFoo;
+        tangon = _closure1_slot6;
+        zuuluu = {};
+        oscard = _closure1_slot3;
+        michal = oscard.getQuery;
+        option = michal.bind(oscard)(report);
+        verify = zuuluu;
+        michal = copyDataProperties(verify, option);
+        oscard = _closure1_slot7;
+        entity = undefined;
+        michal = argBar;
+        option = oscard.bind(entity)(michal);
+        verify = zuuluu;
+        michal = copyDataProperties(verify, option);
+        oscard = 0;
+        michal = 'offset';
+        zuuluu[michal] = oscard;
+        michal = argBaz;
+        michal = tangon.bind(entity)(report, zuuluu, michal);
+        return entity;
     };
     zuuluu['searchByMode'] = tangon;
     tangon = function(argFoo, argBar, argBaz) { // Original name: changePage

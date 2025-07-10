@@ -1261,16 +1261,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             output = update[kiloes];
             output = sizing.bind(tangon)(output);
             result = output.intl;
-            if(backup) { _fun00020_ip = 449; continue _fun00019 }
- 415:
+            if(backup) { _fun00020_ip = 453; continue _fun00019 }
+ 419:
             output = result.string;
             backup = update[kiloes];
             backup = sizing.bind(tangon)(backup);
             backup = backup.t;
             backup = backup.YstzGB;
             backup = output.bind(result)(backup);
-            _fun00020_ip = 506; continue _fun00019;
- 449:
+            _fun00020_ip = 510; continue _fun00019;
+ 453:
             output = result.formatToPlainString;
             kiloes = update[kiloes];
             kiloes = sizing.bind(tangon)(kiloes);
@@ -1282,7 +1282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             echoed = echoed.gameTitle;
             kiloes['gameTitle'] = echoed;
             backup = output.bind(result)(sizing, kiloes);
- 506:
+ 510:
             yankee['children'] = backup;
             yankee = foxtra.bind(tangon)(romeon, yankee);
             offset[1] = yankee;

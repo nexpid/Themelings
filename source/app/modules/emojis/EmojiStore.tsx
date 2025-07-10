@@ -496,10 +496,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure2_slot0;
                 entity = undefined;
                 michal = michal.bind(entity)();
-                report = _closure1_slot26;
-                tangon = report.slice;
-                zuuluu = 0;
-                zuuluu = tangon.bind(report)(zuuluu);
+                option = _closure1_slot26;
+                zuuluu = new Array(0);
+                golfie = 0;
+                verify = zuuluu;
+                tangon = arraySpread(verify, option, golfie);
                 _closure1_slot33 = zuuluu;
                 tangon = _closure1_slot1;
                 report = _closure1_slot2;
@@ -517,8 +518,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 };
                 zuuluu = report.bind(oscard)(tangon, zuuluu);
-                if(zuuluu) { _fun00020_ip = 125; continue _fun00019 }
- 82:
+                if(zuuluu) { _fun00020_ip = 126; continue _fun00019 }
+ 83:
                 report = _closure1_slot33;
                 tangon = report.splice;
                 oscard = _closure1_slot26;
@@ -528,7 +529,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.bind(oscard)(michal);
                 michal = 1;
                 michal = tangon.bind(report)(zuuluu, michal);
- 125:
+ 126:
                 return entity;
             }
         };
@@ -1508,8 +1509,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot31 = tangon;
     report = tangon.Unloaded;
     var _closure1_slot32 = report;
-    report = romeon.slice;
-    report = report.bind(romeon)(foxtra);
+    report = new Array(0);
+    ctrled = report;
+    source = romeon;
+    update = 0;
+    romeon = arraySpread(ctrled, source, update);
     var _closure1_slot33 = report;
     report = {};
     var _closure1_slot34 = report;

@@ -899,7 +899,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = tangon[zuuluu];
                     zuuluu = undefined;
                     tangon = report.bind(zuuluu)(tangon);
-                    zuuluu = tangon.clearSearch;
+                    zuuluu = tangon.clearAllSearchStates;
                     zuuluu = zuuluu.bind(tangon)();
                     tangon = _closure1_slot5;
                     zuuluu = tangon.setState;
@@ -929,7 +929,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal[entity];
                     entity = undefined;
                     tangon = tangon.bind(entity)(michal);
-                    michal = tangon.clearSearch;
+                    michal = tangon.clearAllSearchStates;
                     michal = michal.bind(tangon)();
                     report = _closure1_slot7;
                     tangon = _closure2_slot0;

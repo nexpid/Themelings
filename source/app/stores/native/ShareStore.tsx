@@ -242,27 +242,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = entity.state;
             entity = _closure1_slot18;
             entity = entity.INACTIVE;
-            if(!(tangon === entity)) { _fun00006_ip = 283; continue _fun00005 }
+            if(!(tangon === entity)) { _fun00006_ip = 273; continue _fun00005 }
  28:
             zuuluu = _closure1_slot4;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00006_ip = 283; continue _fun00005 }
+            if(!(entity != zuuluu)) { _fun00006_ip = 273; continue _fun00005 }
  41:
             oscard = _closure1_slot14;
             report = oscard.getGuild;
             zuuluu = _closure1_slot3;
-            option = report.bind(oscard)(zuuluu);
-            zuuluu = entity != option;
+            oscard = report.bind(oscard)(zuuluu);
+            zuuluu = entity != oscard;
             golfie = null;
-            if(!zuuluu) { _fun00006_ip = 97; continue _fun00005 }
+            if(!zuuluu) { _fun00006_ip = 87; continue _fun00005 }
  68:
             zuuluu = global;
-            oscard = zuuluu.JSON;
-            report = oscard.stringify;
-            zuuluu = option.toJS;
-            zuuluu = zuuluu.bind(option)();
-            golfie = report.bind(oscard)(zuuluu);
- 97:
+            report = zuuluu.JSON;
+            zuuluu = report.stringify;
+            golfie = zuuluu.bind(report)(oscard);
+ 87:
             oscard = _closure1_slot13;
             report = oscard.getChannel;
             option = _closure1_slot15;
@@ -271,8 +269,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = report.bind(oscard)(zuuluu);
             zuuluu = entity != verify;
             oscard = null;
-            if(!zuuluu) { _fun00006_ip = 253; continue _fun00005 }
- 134:
+            if(!zuuluu) { _fun00006_ip = 243; continue _fun00005 }
+ 124:
             zuuluu = global;
             option = zuuluu.JSON;
             report = option.stringify;
@@ -282,10 +280,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = zuuluu;
             offset = copyDataProperties(kiloes, backup);
             yankee = verify.recipients;
-            if(!(entity == yankee)) { _fun00006_ip = 181; continue _fun00005 }
- 177:
+            if(!(entity == yankee)) { _fun00006_ip = 171; continue _fun00005 }
+ 167:
             yankee = new Array(0);
- 181:
+ 171:
             offset = yankee.map;
             verify = _closure1_slot17;
             verify = verify.getUser;
@@ -302,18 +300,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = 'recipients';
             zuuluu[verify] = offset;
             oscard = report.bind(option)(zuuluu);
- 253:
+ 243:
             zuuluu = _closure1_slot11;
             report = zuuluu.ShareManager;
             zuuluu = report.setSelectedChannel;
             zuuluu = zuuluu.bind(report)(oscard, golfie);
             _closure1_slot3 = entity;
             _closure1_slot4 = entity;
- 283:
+ 273:
             zuuluu = _closure1_slot5;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00006_ip = 403; continue _fun00005 }
- 293:
+            if(!(entity != zuuluu)) { _fun00006_ip = 393; continue _fun00005 }
+ 283:
             report = _closure1_slot0;
             offset = _closure1_slot2;
             zuuluu = 14;
@@ -337,10 +335,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = oscard.bind(golfie)(report, zuuluu);
             zuuluu = _closure1_slot18;
             zuuluu = zuuluu.INACTIVE;
-            if(!(tangon === zuuluu)) { _fun00006_ip = 403; continue _fun00005 }
- 399:
+            if(!(tangon === zuuluu)) { _fun00006_ip = 393; continue _fun00005 }
+ 389:
             _closure1_slot5 = entity;
- 403:
+ 393:
             entity = false;
             return entity;
         }

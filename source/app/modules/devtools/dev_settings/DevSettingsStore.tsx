@@ -164,6 +164,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = tangon.SHOP;
     verify['category'] = offset;
     michal['shop_show_debug_overlay'] = verify;
+    verify = {};
+    offset = 'Bypass Google SKU sync in collectibles shop';
+    verify['label'] = offset;
+    offset = tangon.SHOP;
+    verify['category'] = offset;
+    michal['bypass_google_sku_sync'] = verify;
     var _closure1_slot5 = michal;
     verify = {};
     var _closure1_slot6 = verify;

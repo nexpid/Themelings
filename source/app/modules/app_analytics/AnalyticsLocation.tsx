@@ -897,6 +897,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['CLICKER_GAME'] = entity;
     entity = 'activity PIP';
     michal['ACTIVITY_PIP'] = entity;
+    entity = 'frame PIP';
+    michal['FRAME_PIP'] = entity;
     entity = 'video PIP';
     michal['VIDEO_PIP'] = entity;
     entity = 'incoming call modal';

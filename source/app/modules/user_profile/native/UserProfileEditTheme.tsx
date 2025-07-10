@@ -247,9 +247,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = false;
             michal = tangon.bind(oscard)(golfie, zuuluu, michal);
             _closure2_slot4 = michal;
-            if(!(entity != cntext)) { _fun00002_ip = 1033; continue _fun00001 }
+            if(!(entity != cntext)) { _fun00002_ip = 1031; continue _fun00001 }
  281:
-            if(!(entity != update)) { _fun00002_ip = 1033; continue _fun00001 }
+            if(!(entity != update)) { _fun00002_ip = 1031; continue _fun00001 }
  288:
             michal = function(argFoo) { // Original name: handleProfileThemeColorsChanged
                 _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -349,7 +349,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = output.bind(report)(foxtra, verify);
             verify = new Array(2);
             verify[0] = foxtra;
-            if(!romeon) { _fun00002_ip = 616; continue _fun00001 }
+            if(!romeon) { _fun00002_ip = 614; continue _fun00001 }
  459:
             result = _closure1_slot4;
             source = _closure1_slot0;
@@ -413,7 +413,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = ctrled.bind(report)(source, echoed);
             foxtra['children'] = echoed;
             romeon = result.bind(report)(output, foxtra);
- 616:
+ 614:
             verify[1] = romeon;
             oscard['children'] = verify;
             golfie = option.bind(report)(golfie, oscard);
@@ -539,7 +539,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['children'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return michal;
- 1033:
+ 1031:
             return entity;
         }
     };

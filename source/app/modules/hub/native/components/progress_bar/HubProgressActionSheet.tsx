@@ -491,7 +491,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset[0] = yankee;
             golfie['style'] = offset;
             romeon = _closure1_slot14;
-            if(verify) { _fun00002_ip = 1084; continue _fun00001 }
+            if(verify) { _fun00002_ip = 1088; continue _fun00001 }
  951:
             echoed = _closure1_slot0;
             kiloes = _closure1_slot2;
@@ -521,8 +521,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = romeon.bind(tangon)(backup, yankee);
             verify['children'] = yankee;
             verify = romeon.bind(tangon)(offset, verify);
-            _fun00002_ip = 1168; continue _fun00001;
- 1084:
+            _fun00002_ip = 1172; continue _fun00001;
+ 1088:
             yankee = _closure1_slot1;
             backup = _closure1_slot2;
             offset = 25;
@@ -542,7 +542,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset['text'] = backup;
             offset['onPress'] = foxtra;
             verify = romeon.bind(tangon)(yankee, offset);
- 1168:
+ 1172:
             golfie['children'] = verify;
             golfie = option.bind(tangon)(zuuluu, golfie);
             oscard[4] = golfie;

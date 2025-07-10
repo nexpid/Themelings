@@ -20,7 +20,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = 1;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
-    verify = new Array(9);
+    verify = new Array(10);
     verify[0] = tangon;
     tangon = 2;
     tangon = oscard[tangon];
@@ -60,6 +60,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = 9;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    tangon = tangon.StoreKitV2Experiment;
+    verify[9] = tangon;
+    tangon = 10;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     option = tangon.CommonTriggerPointConfiguration;
     yankee = michal.CONNECTION_OPEN_MOBILE;
     michal = {};
@@ -72,7 +77,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     offset = michal;
     michal = new foxtra[option](romeon, yankee, offset, verify);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

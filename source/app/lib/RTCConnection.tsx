@@ -343,11 +343,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                     entity = argFoo;
-                    oscard = this;
+                    offset = this;
                     backup = entity.userId;
-                    result = entity.sessionId;
-                    sizing = entity.guildId;
-                    output = entity.channelId;
+                    output = entity.sessionId;
+                    foxtra = entity.guildId;
+                    sizing = entity.channelId;
                     verify = entity.context;
                     golfie = undefined;
                     if(!(verify === golfie)) { _fun00012_ip = 53; continue _fun00011 }
@@ -355,56 +355,56 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = _closure1_slot25;
                     verify = zuuluu.DEFAULT;
  53:
-                    foxtra = entity.streamServerId;
-                    option = entity.streamChannelId;
+                    option = entity.streamServerId;
+                    report = entity.streamChannelId;
                     tangon = entity.parentMediaSessionId;
                     var _closure3_slot0 = golfie;
                     entity = _closure1_slot6;
-                    report = _closure2_slot0;
-                    entity = entity.bind(golfie)(oscard, report);
+                    oscard = _closure2_slot0;
+                    entity = entity.bind(golfie)(offset, oscard);
                     entity = _closure1_slot9;
-                    echoed = entity.bind(golfie)(report);
-                    report = _closure1_slot8;
+                    echoed = entity.bind(golfie)(oscard);
+                    oscard = _closure1_slot8;
                     entity = _closure1_slot33;
                     entity = entity.bind(golfie)();
                     if(entity) { _fun00012_ip = 132; continue _fun00011 }
  119:
                     entity = echoed.apply;
-                    entity = entity.bind(echoed)(oscard, golfie);
+                    entity = entity.bind(echoed)(offset, golfie);
                     _fun00012_ip = 170; continue _fun00011;
  132:
-                    offset = global;
-                    kiloes = offset.Reflect;
-                    romeon = kiloes.construct;
-                    offset = _closure1_slot9;
-                    offset = offset.bind(golfie)(oscard);
-                    yankee = offset.constructor;
-                    offset = new Array(0);
-                    entity = romeon.bind(kiloes)(echoed, offset, yankee);
+                    yankee = global;
+                    result = yankee.Reflect;
+                    kiloes = result.construct;
+                    yankee = _closure1_slot9;
+                    yankee = yankee.bind(golfie)(offset);
+                    romeon = yankee.constructor;
+                    yankee = new Array(0);
+                    entity = kiloes.bind(result)(echoed, yankee, romeon);
  170:
-                    entity = report.bind(golfie)(oscard, entity);
+                    entity = oscard.bind(golfie)(offset, entity);
                     _closure3_slot0 = entity;
                     offset = global;
-                    report = offset.Map;
-                    oscard = report.prototype;
-                    oscard = Object.create(oscard, {constructor: {value: report}});
-                    target = oscard;
-                    report = new target[report](papara);
-                    report = report instanceof Object ? report : oscard;
-                    entity['_secureFramesRosterMap'] = report;
-                    report = offset.Map;
-                    oscard = report.prototype;
-                    oscard = Object.create(oscard, {constructor: {value: report}});
-                    target = oscard;
-                    report = new target[report](papara);
-                    report = report instanceof Object ? report : oscard;
-                    entity['_secureFramesTransitionStates'] = report;
+                    oscard = offset.Map;
+                    yankee = oscard.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: oscard}});
+                    sequen = yankee;
+                    oscard = new sequen[oscard](vacuum);
+                    oscard = oscard instanceof Object ? oscard : yankee;
+                    entity['_secureFramesRosterMap'] = oscard;
+                    oscard = offset.Map;
+                    yankee = oscard.prototype;
+                    yankee = Object.create(yankee, {constructor: {value: oscard}});
+                    sequen = yankee;
+                    oscard = new sequen[oscard](vacuum);
+                    oscard = oscard instanceof Object ? oscard : yankee;
+                    entity['_secureFramesTransitionStates'] = oscard;
                     oscard = 0;
                     entity['_secureFramesMaxConcurrentTransitions'] = oscard;
                     entity['_secureFramesTransitionPrepareCount'] = oscard;
                     entity['_secureFramesTransitionExecuteCount'] = oscard;
                     entity['_numNoiseCancellationChanges'] = oscard;
-                    report = function() {
+                    yankee = function() {
                         _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                             michal = _closure3_slot0;
@@ -454,17 +454,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['reconnect'] = report;
+                    entity['reconnect'] = yankee;
                     romeon = _closure1_slot1;
                     kiloes = _closure1_slot3;
-                    report = 19;
-                    report = kiloes[report];
-                    echoed = romeon.bind(golfie)(report);
-                    yankee = entity._alertMLSFailure;
-                    report = 100;
-                    report = echoed.bind(golfie)(yankee, report);
-                    entity['_alertMLSFailureDebouced'] = report;
-                    report = function() {
+                    yankee = 19;
+                    yankee = kiloes[yankee];
+                    echoed = romeon.bind(golfie)(yankee);
+                    result = entity._alertMLSFailure;
+                    yankee = 100;
+                    yankee = echoed.bind(golfie)(result, yankee);
+                    entity['_alertMLSFailureDebouced'] = yankee;
+                    yankee = function() {
                         tangon = _closure3_slot0;
                         zuuluu = tangon.expeditedHeartbeat;
                         michal = 5000;
@@ -473,8 +473,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = undefined;
                         return entity;
                     };
-                    entity['_handleNetworkOnline'] = report;
-                    report = function() {
+                    entity['_handleNetworkOnline'] = yankee;
+                    yankee = function() {
                         report = _closure3_slot0;
                         tangon = report.expeditedHeartbeat;
                         zuuluu = 15000;
@@ -484,8 +484,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = undefined;
                         return entity;
                     };
-                    entity['_handleNetworkOffline'] = report;
-                    report = function() {
+                    entity['_handleNetworkOffline'] = yankee;
+                    yankee = function() {
                         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                             entity = _closure3_slot0;
@@ -500,8 +500,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['_handleNoRoute'] = report;
-                    report = function() {
+                    entity['_handleNoRoute'] = yankee;
+                    yankee = function() {
                         tangon = _closure3_slot0;
                         zuuluu = tangon.expeditedHeartbeat;
                         michal = 5000;
@@ -510,8 +510,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = undefined;
                         return entity;
                     };
-                    entity['_handlePowerResume'] = report;
-                    report = function() {
+                    entity['_handlePowerResume'] = yankee;
+                    yankee = function() {
                         _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
  0:
                             michal = _closure3_slot0;
@@ -644,8 +644,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['_handleVoiceQualityPeriodicsStats'] = report;
-                    report = function() {
+                    entity['_handleVoiceQualityPeriodicsStats'] = yankee;
+                    yankee = function() {
                         entity = {};
                         tangon = _closure3_slot0;
                         michal = tangon.getInputDeviceName;
@@ -673,8 +673,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity['output_device_count'] = michal;
                         return entity;
                     };
-                    entity['getAudioDeviceStates'] = report;
-                    report = function() {
+                    entity['getAudioDeviceStates'] = yankee;
+                    yankee = function() {
                         entity = {};
                         zuuluu = _closure3_slot0;
                         michal = zuuluu.getVideoDeviceName;
@@ -691,8 +691,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity['camera_device_count'] = michal;
                         return entity;
                     };
-                    entity['getVideoDeviceStates'] = report;
-                    report = function() {
+                    entity['getVideoDeviceStates'] = yankee;
+                    yankee = function() {
                         _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
  0:
                             zuuluu = _closure1_slot14;
@@ -768,8 +768,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['_trackVoiceConnectionConnecting'] = report;
-                    report = function(argFoo) {
+                    entity['_trackVoiceConnectionConnecting'] = yankee;
+                    yankee = function(argFoo) {
                         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
                             zuuluu = argFoo;
@@ -792,8 +792,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['incomingVideoEnabledChanged'] = report;
-                    report = function(argFoo) {
+                    entity['incomingVideoEnabledChanged'] = yankee;
+                    yankee = function(argFoo) {
                         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
                             entity = _closure3_slot0;
@@ -810,50 +810,50 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    entity['windowVisibilityChanged'] = report;
+                    entity['windowVisibilityChanged'] = yankee;
                     entity['context'] = verify;
                     yankee = _closure1_slot15;
-                    report = yankee.fetchAsyncResources;
-                    report = report.bind(yankee)();
-                    entity['_fetchAsyncResourcesPromise'] = report;
-                    report = 21;
-                    report = kiloes[report];
-                    update = romeon.bind(golfie)(report);
-                    papara = entity.trueServerId;
-                    record = entity.context;
-                    report = offset.HermesInternal;
-                    ctrled = report.concat;
-                    target = 'RTCConnection(';
-                    cntext = ', ';
-                    config = ')';
-                    papara = target[ctrled](papara, cntext, record, config, sequen);
-                    echoed = update.prototype;
-                    echoed = Object.create(echoed, {constructor: {value: update}});
-                    target = echoed;
-                    report = new target[update](papara, cntext);
-                    report = report instanceof Object ? report : echoed;
-                    entity['logger'] = report;
-                    update = entity.logger;
-                    echoed = update.enableNativeLogger;
-                    report = true;
-                    echoed = echoed.bind(update)(report);
+                    result = yankee.fetchAsyncResources;
+                    result = result.bind(yankee)();
+                    entity['_fetchAsyncResourcesPromise'] = result;
                     entity['userId'] = backup;
-                    entity['sessionId'] = result;
-                    entity['guildId'] = sizing;
-                    entity['_channelId'] = output;
-                    result = offset.Set;
-                    sizing = new Array(1);
-                    sizing[0] = output;
-                    output = result.prototype;
-                    output = Object.create(output, {constructor: {value: result}});
-                    target = output;
-                    papara = sizing;
-                    sizing = new target[result](papara, cntext);
-                    sizing = sizing instanceof Object ? sizing : output;
-                    entity['channelIds'] = sizing;
-                    entity['streamServerId'] = foxtra;
-                    entity['streamChannelId'] = option;
+                    entity['sessionId'] = output;
+                    entity['guildId'] = foxtra;
+                    entity['_channelId'] = sizing;
+                    output = offset.Set;
+                    foxtra = new Array(1);
+                    foxtra[0] = sizing;
+                    sizing = output.prototype;
+                    sizing = Object.create(sizing, {constructor: {value: output}});
+                    sequen = sizing;
+                    vacuum = foxtra;
+                    foxtra = new sequen[output](vacuum, ctrled);
+                    foxtra = foxtra instanceof Object ? foxtra : sizing;
+                    entity['channelIds'] = foxtra;
+                    entity['streamServerId'] = option;
+                    entity['streamChannelId'] = report;
                     entity['parentMediaSessionId'] = tangon;
+                    tangon = 21;
+                    tangon = kiloes[tangon];
+                    option = romeon.bind(golfie)(tangon);
+                    vacuum = entity.trueServerId;
+                    source = entity.context;
+                    tangon = offset.HermesInternal;
+                    sizing = tangon.concat;
+                    sequen = 'RTCConnection(';
+                    ctrled = ', ';
+                    update = ')';
+                    vacuum = sequen[sizing](vacuum, ctrled, source, update, echoed);
+                    report = option.prototype;
+                    report = Object.create(report, {constructor: {value: option}});
+                    sequen = report;
+                    tangon = new sequen[option](vacuum, ctrled);
+                    tangon = tangon instanceof Object ? tangon : report;
+                    entity['logger'] = tangon;
+                    option = entity.logger;
+                    tangon = option.enableNativeLogger;
+                    report = true;
+                    tangon = tangon.bind(option)(report);
                     tangon = null;
                     entity['_endpoint'] = tangon;
                     entity['hostname'] = tangon;
@@ -869,11 +869,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     option = kiloes[option];
                     option = foxtra.bind(golfie)(option);
                     output = option.StateHistory;
-                    papara = entity.state;
+                    vacuum = entity.state;
                     sizing = output.prototype;
                     sizing = Object.create(sizing, {constructor: {value: output}});
-                    target = sizing;
-                    option = new target[output](papara, cntext);
+                    sequen = sizing;
+                    option = new sequen[output](vacuum, ctrled);
                     option = option instanceof Object ? option : sizing;
                     entity['stateHistory'] = option;
                     entity['_socket'] = tangon;
@@ -882,10 +882,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     output = romeon.bind(golfie)(option);
                     option = output.prototype;
                     romeon = Object.create(option, {constructor: {value: output}});
-                    papara = 1000;
-                    cntext = 10000;
-                    target = romeon;
-                    option = new target[output](papara, cntext, record);
+                    vacuum = 1000;
+                    ctrled = 10000;
+                    sequen = romeon;
+                    option = new sequen[output](vacuum, ctrled, source);
                     option = option instanceof Object ? option : romeon;
                     entity['_backoff'] = option;
                     option = false;
@@ -933,9 +933,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     offset[0] = backup;
                     romeon = foxtra.prototype;
                     romeon = Object.create(romeon, {constructor: {value: foxtra}});
-                    target = romeon;
-                    papara = offset;
-                    offset = new target[foxtra](papara, cntext);
+                    sequen = romeon;
+                    vacuum = offset;
+                    offset = new sequen[foxtra](vacuum, ctrled);
                     offset = offset instanceof Object ? offset : romeon;
                     entity['_userIds'] = offset;
                     romeon = entity._secureFramesRosterMap;
@@ -975,9 +975,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     verify = offset.bind(golfie)(verify);
                     offset = verify.prototype;
                     offset = Object.create(offset, {constructor: {value: verify}});
-                    target = offset;
-                    papara = true;
-                    verify = new target[verify](papara, cntext);
+                    sequen = offset;
+                    vacuum = true;
+                    verify = new sequen[verify](vacuum, ctrled);
                     verify = verify instanceof Object ? verify : offset;
                     entity['_goLiveQualityManager'] = verify;
                     sizing = entity._goLiveQualityManager;
@@ -1080,11 +1080,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     yankee = yankee.bind(golfie)(offset);
                     offset = yankee.prototype;
                     offset = Object.create(offset, {constructor: {value: yankee}});
-                    cntext = kiloes === verify;
-                    target = offset;
-                    papara = backup;
-                    record = foxtra;
-                    verify = new target[yankee](papara, cntext, record, config);
+                    ctrled = kiloes === verify;
+                    sequen = offset;
+                    vacuum = backup;
+                    source = foxtra;
+                    verify = new sequen[yankee](vacuum, ctrled, source, update);
                     verify = verify instanceof Object ? verify : offset;
                     entity['_localMediaSinkWantsManager'] = verify;
                     backup = entity._localMediaSinkWantsManager;
@@ -1219,8 +1219,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = oscard.bind(golfie)(report);
                     verify = report.prototype;
                     verify = Object.create(verify, {constructor: {value: report}});
-                    target = verify;
-                    report = new target[report](papara);
+                    sequen = verify;
+                    report = new sequen[report](vacuum);
                     report = report instanceof Object ? report : verify;
                     entity['_soundshareStats'] = report;
                     report = 30;
@@ -6582,16 +6582,22 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal = {};
                     option = 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS';
                     michal['type'] = option;
-                    golfie = golfie.context;
-                    michal['context'] = golfie;
+                    option = golfie.context;
+                    michal['context'] = option;
                     michal['wants'] = tangon;
+                    option = golfie.channelId;
+                    michal['channelId'] = option;
+                    option = golfie.guildId;
+                    michal['guildId'] = option;
+                    golfie = golfie.userId;
+                    michal['userId'] = golfie;
                     michal = report.bind(oscard)(michal);
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00168_ip = 151; continue _fun00167 }
- 140:
+                    if(!(michal != zuuluu)) { _fun00168_ip = 178; continue _fun00167 }
+ 167:
                     michal = zuuluu.setRemoteVideoSinkWants;
                     michal = michal.bind(zuuluu)(tangon);
- 151:
+ 178:
                     return entity;
                 }
             };

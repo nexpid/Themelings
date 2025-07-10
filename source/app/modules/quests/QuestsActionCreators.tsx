@@ -1711,7 +1711,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     foxtra = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 1054; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 1088; continue _fun00029 }
  13:
                     oscard = foxtra;
                     michal = undefined;
@@ -1755,7 +1755,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return report;
  151:
                     ResumeGenerator(result_out_reg=4, return_bool_out_reg=9);
-                    if(offset) { _fun00030_ip = 768; continue _fun00029 }
+                    if(offset) { _fun00030_ip = 802; continue _fun00029 }
  160:
                     papara = report;
                     romeon = _closure1_slot0;
@@ -1770,7 +1770,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return offset;
  197:
                     ResumeGenerator(result_out_reg=9, return_bool_out_reg=11);
-                    if(romeon) { _fun00030_ip = 765; continue _fun00029 }
+                    if(romeon) { _fun00030_ip = 799; continue _fun00029 }
  206:
                     kiloes = offset;
                     foxtra = _closure1_slot0;
@@ -1803,7 +1803,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return romeon;
  306:
                     ResumeGenerator(result_out_reg=11, return_bool_out_reg=12);
-                    if(foxtra) { _fun00030_ip = 762; continue _fun00029 }
+                    if(foxtra) { _fun00030_ip = 796; continue _fun00029 }
  315:
                     result = romeon.body;
                     output = result;
@@ -1905,12 +1905,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     foxtra = backup.bind(kiloes)(yankee, foxtra);
                     foxtra = 17;
                     foxtra = update[foxtra];
+                    kiloes = echoed.bind(michal)(foxtra);
+                    backup = kiloes.startTracking;
+                    foxtra = output.quest;
+                    foxtra = foxtra.id;
+                    foxtra = backup.bind(kiloes)(foxtra);
+                    foxtra = 18;
+                    foxtra = update[foxtra];
                     sizing = echoed.bind(michal)(foxtra);
                     kiloes = sizing.track;
                     foxtra = _closure1_slot7;
                     backup = foxtra.QUEST_DECISION_RECEIVED;
                     foxtra = {};
-                    result = 18;
+                    result = 19;
                     result = update[result];
                     result = echoed.bind(michal)(result);
                     sierra = result.bind(michal)();
@@ -1921,15 +1928,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     output = 'quest_id';
                     foxtra[output] = result;
                     foxtra = kiloes.bind(sizing)(backup, foxtra);
- 757: // try_end0
-                    _fun00030_ip = 1051; continue _fun00029;
- 762:
+ 791: // try_end0
+                    _fun00030_ip = 1085; continue _fun00029;
+ 796:
                     return romeon;
- 765:
+ 799:
                     return offset;
- 768:
+ 802:
                     return report;
- 771: // catch_target0
+ 805: // catch_target0
                     CatchBlockStart(arg_register=12);
                     verify = foxtra;
                     backup = _closure1_slot1;
@@ -1941,14 +1948,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = false;
                     tangon['wasSuccessful'] = romeon;
                     tangon = report.bind(offset)(yankee, tangon);
-                    tangon = 17;
+                    tangon = 18;
                     tangon = kiloes[tangon];
                     romeon = backup.bind(michal)(tangon);
                     yankee = romeon.track;
                     tangon = _closure1_slot7;
                     report = tangon.QUEST_DECISION_ROUNDTRIP_ERROR;
                     tangon = {};
-                    offset = 18;
+                    offset = 19;
                     offset = kiloes[offset];
                     offset = backup.bind(michal)(offset);
                     sierra = offset.bind(michal)();
@@ -1957,18 +1964,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = null;
                     backup = offset == foxtra;
                     foxtra = undefined;
-                    if(backup) { _fun00030_ip = 885; continue _fun00029 }
- 877:
+                    if(backup) { _fun00030_ip = 919; continue _fun00029 }
+ 911:
                     backup = verify;
                     foxtra = backup.message;
- 885:
+ 919:
                     option = foxtra;
                     foxtra = offset != foxtra;
                     offset = null;
-                    if(!foxtra) { _fun00030_ip = 900; continue _fun00029 }
- 897:
+                    if(!foxtra) { _fun00030_ip = 934; continue _fun00029 }
+ 931:
                     offset = option;
- 900:
+ 934:
                     option = 'reason';
                     tangon[option] = offset;
                     option = _closure1_slot1;
@@ -2004,9 +2011,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['error'] = golfie;
                     zuuluu['placement'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 1051:
+ 1085:
                     return michal;
- 1054:
+ 1088:
                     return entity;
                 }
             };
@@ -2129,7 +2136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = undefined;
                     tangon = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    zuuluu = 19;
+                    zuuluu = 20;
                     report = romeon[zuuluu];
                     offset = tangon.bind(michal)(report);
                     verify = offset.resolveVideoQuestAsset;
@@ -2340,7 +2347,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot7 = golfie;
     tangon = tangon.Endpoints;
     var _closure1_slot8 = tangon;
-    tangon = 20;
+    tangon = 21;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

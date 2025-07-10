@@ -403,7 +403,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             golfie = zuuluu;
             michal = copyDataProperties(verify, option, golfie);
             zuuluu = entity == oscard;
-            if(zuuluu) { _fun00008_ip = 76; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 87; continue _fun00007 }
  40:
             report = _closure1_slot5;
             tangon = _closure1_slot9;
@@ -412,9 +412,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             verify = zuuluu;
             option = michal;
             michal = copyDataProperties(verify, option);
+            oscard = true;
+            michal = 'aria-hidden';
+            zuuluu[michal] = oscard;
             michal = undefined;
             entity = report.bind(michal)(tangon, zuuluu);
- 76:
+ 87:
             return entity;
         }
     };

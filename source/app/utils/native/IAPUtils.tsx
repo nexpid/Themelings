@@ -45,8 +45,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['transactionIdentifier'] = zuuluu;
             zuuluu = michal.productId;
             entity['productIdentifier'] = zuuluu;
-            michal = michal.transactionReceipt;
-            entity['transactionReceipt'] = michal;
+            zuuluu = michal.transactionReceipt;
+            entity['transactionReceipt'] = zuuluu;
+            michal = michal.verificationResultIOS;
+            entity['jwsRepresentation'] = michal;
             return entity;
         }
     };

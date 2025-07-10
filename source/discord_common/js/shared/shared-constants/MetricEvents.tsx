@@ -60,6 +60,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['RTC_CONNECTION_DUPLICATE_USER'] = michal;
     michal = 'quest_content_impression';
     tangon['QUEST_CONTENT_IMPRESSION'] = michal;
+    michal = 'quest_bar_render_delay';
+    tangon['QUEST_BAR_RENDER_DELAY'] = michal;
     michal = 'OtaCheckAttempt';
     tangon['OTA_CHECK_ATTEMPT'] = michal;
     michal = 'OtaAssetDownloadAttempt';
@@ -82,7 +84,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     golfie = entity.Set;
     report = golfie.prototype;
     oscard = Object.create(report, {constructor: {value: golfie}});
-    offset = ['OtaAssetDownloadAttempt', 'OtaCheckAttempt', 'afk_not_idle', 'app_crashed', 'appeal_ingestion_view', 'captcha_event', 'captcha_serve_volume_distribution', 'debug_ota_200_timeout', 'dm_settings_upsell_view', 'explicit_media_pending_message_loaded', 'explicit_media_pending_message_loaded_v2', 'explicit_media_scan_client_timed_out', 'explicit_media_scan_client_timed_out_distribution', 'explicit_media_scan_client_timeout_create', 'explicit_media_scan_client_timing', 'explicit_media_sender_fp_button_view', 'family_center_view', 'forum_channel_grid_auto_enabled', 'image_load_error', 'in_app_report_navigate_to_nonexistent_node', 'message_request_count_drift', 'message_request_view', 'ota_asset_download', 'ota_update_check', 'quest_content_impression', 'remix_font_loading_error', 'safety_hub_view', 'safety_warning_modal_view', 'safety_warning_view', 'socket_crashed', 'spam_message_request_error_view', 'spam_message_request_view'];
+    offset = ['OtaAssetDownloadAttempt', 'OtaCheckAttempt', 'afk_not_idle', 'app_crashed', 'appeal_ingestion_view', 'captcha_event', 'captcha_serve_volume_distribution', 'debug_ota_200_timeout', 'dm_settings_upsell_view', 'explicit_media_pending_message_loaded', 'explicit_media_pending_message_loaded_v2', 'explicit_media_scan_client_timed_out', 'explicit_media_scan_client_timed_out_distribution', 'explicit_media_scan_client_timeout_create', 'explicit_media_scan_client_timing', 'explicit_media_sender_fp_button_view', 'family_center_view', 'forum_channel_grid_auto_enabled', 'image_load_error', 'in_app_report_navigate_to_nonexistent_node', 'message_request_count_drift', 'message_request_view', 'ota_asset_download', 'ota_update_check', 'quest_bar_render_delay', 'quest_content_impression', 'remix_font_loading_error', 'safety_hub_view', 'safety_warning_modal_view', 'safety_warning_view', 'socket_crashed', 'spam_message_request_error_view', 'spam_message_request_view'];
     yankee = oscard;
     report = new yankee[golfie](offset, verify);
     report = report instanceof Object ? report : oscard;
