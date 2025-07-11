@@ -310,11 +310,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             tangon = oscard.isStaff;
             zuuluu = tangon.bind(oscard)();
  39:
-            if(!(entity != zuuluu)) { _fun00012_ip = 52; continue _fun00011 }
+            if(!(entity != zuuluu)) { _fun00012_ip = 50; continue _fun00011 }
  43:
             entity = 'always';
-            if(zuuluu) { _fun00012_ip = 121; continue _fun00011 }
- 52:
+            if(zuuluu) { _fun00012_ip = 119; continue _fun00011 }
+ 50:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot3;
             michal = 34;
@@ -327,12 +327,12 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal = michal.ReleaseChannels;
             zuuluu = michal.CANARY;
             michal = 'never';
-            if(!(tangon === zuuluu)) { _fun00012_ip = 118; continue _fun00011 }
- 112:
+            if(!(tangon === zuuluu)) { _fun00012_ip = 116; continue _fun00011 }
+ 110:
             michal = 'permittedDevicesOnly';
- 118:
+ 116:
             entity = michal;
- 121:
+ 119:
             return entity;
         }
     };
@@ -4299,7 +4299,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00106_ip = 563; continue _fun00105 }
+                    if(michal) { _fun00106_ip = 564; continue _fun00105 }
  10:
                     michal = undefined;
                     yankee = undefined;
@@ -4383,7 +4383,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = verify.emitChange;
                     report = report.bind(verify)();
  252: // try_end0
-                    _fun00106_ip = 538; continue _fun00105;
+                    _fun00106_ip = 539; continue _fun00105;
  257: // try_end1
                     report = false;
                     _closure1_slot98 = report;
@@ -4413,7 +4413,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     golfie = verify.includes;
                     romeon = ': ';
                     golfie = golfie.bind(verify)(romeon);
-                    if(!golfie) { _fun00106_ip = 472; continue _fun00105 }
+                    if(!golfie) { _fun00106_ip = 473; continue _fun00105 }
  382:
                     golfie = report.parseInt;
                     offset = oscard.message;
@@ -4428,19 +4428,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = oscard;
                     report = report.isNaN;
                     report = report.bind(michal)(oscard);
-                    if(report) { _fun00106_ip = 459; continue _fun00105 }
- 448:
+                    if(report) { _fun00106_ip = 460; continue _fun00105 }
+ 449:
                     oscard = tangon;
                     report = 0;
-                    if(!(report !== oscard)) { _fun00106_ip = 459; continue _fun00105 }
- 457:
-                    _fun00106_ip = 469; continue _fun00105;
- 459:
+                    if(!(report !== oscard)) { _fun00106_ip = 460; continue _fun00105 }
+ 458:
+                    _fun00106_ip = 470; continue _fun00105;
+ 460:
                     report = _closure1_slot54;
                     tangon = report.INITIALIZED;
- 469:
+ 470:
                     option = tangon;
- 472:
+ 473:
                     report = _closure1_slot1;
                     oscard = _closure1_slot3;
                     tangon = 40;
@@ -4457,16 +4457,16 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = false;
                     zuuluu['noiseCancellation'] = report;
                     zuuluu = tangon.bind(michal)(zuuluu);
- 538: // try_end2
+ 539: // try_end2
                     zuuluu = false;
                     _closure1_slot98 = zuuluu;
                     return michal;
- 550: // catch_target1 // catch_target2
+ 551: // catch_target1 // catch_target2
                     CatchBlockStart(arg_register=1);
                     zuuluu = false;
                     _closure1_slot98 = zuuluu;
                     throw michal;
- 563:
+ 564:
                     return entity;
                 }
             };

@@ -388,7 +388,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['onPress'] = report;
             entity['style'] = romeon;
             oscard = backup;
-            if(!oscard) { _fun00012_ip = 488; continue _fun00011 }
+            if(!oscard) { _fun00012_ip = 484; continue _fun00011 }
  318:
             sizing = _closure1_slot14;
             kiloes = _closure1_slot6;
@@ -426,27 +426,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = echoed.bind(tangon)(result, output);
             report['children'] = output;
             oscard = sizing.bind(tangon)(kiloes, report);
- 488:
+ 484:
             report = new Array(4);
             report[0] = oscard;
             oscard = foxtra.videoURI;
             oscard = option != oscard;
-            if(!oscard) { _fun00012_ip = 512; continue _fun00011 }
- 509:
+            if(!oscard) { _fun00012_ip = 508; continue _fun00011 }
+ 505:
             oscard = !backup;
- 512:
-            if(!oscard) { _fun00012_ip = 527; continue _fun00011 }
- 515:
+ 508:
+            if(!oscard) { _fun00012_ip = 523; continue _fun00011 }
+ 511:
             kiloes = _closure1_slot19;
             kiloes = kiloes.bind(tangon)(foxtra);
             oscard = !kiloes;
- 527:
-            if(!oscard) { _fun00012_ip = 533; continue _fun00011 }
- 530:
+ 523:
+            if(!oscard) { _fun00012_ip = 529; continue _fun00011 }
+ 526:
             oscard = verify;
- 533:
-            if(!oscard) { _fun00012_ip = 676; continue _fun00011 }
- 539:
+ 529:
+            if(!oscard) { _fun00012_ip = 672; continue _fun00011 }
+ 535:
             sizing = _closure1_slot14;
             kiloes = _closure1_slot6;
             verify = {};
@@ -479,7 +479,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = echoed.bind(tangon)(result, output);
             verify['children'] = output;
             oscard = sizing.bind(tangon)(kiloes, verify);
- 676:
+ 672:
             report[1] = oscard;
             verify = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -490,13 +490,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = foxtra.uri;
             verify = verify.bind(sizing)(oscard);
             oscard = null;
-            if(!verify) { _fun00012_ip = 1026; continue _fun00011 }
- 725:
+            if(!verify) { _fun00012_ip = 1022; continue _fun00011 }
+ 721:
             verify = _closure1_slot19;
             verify = verify.bind(tangon)(foxtra);
             oscard = null;
-            if(verify) { _fun00012_ip = 1026; continue _fun00011 }
- 742:
+            if(verify) { _fun00012_ip = 1022; continue _fun00011 }
+ 738:
             output = _closure1_slot14;
             sizing = _closure1_slot6;
             verify = {};
@@ -513,13 +513,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = config.muteIcon;
             vacuum = new Array(2);
             vacuum[0] = sequen;
-            if(source) { _fun00012_ip = 819; continue _fun00011 }
- 811:
+            if(source) { _fun00012_ip = 815; continue _fun00011 }
+ 807:
             sequen = config.iconBgSelected;
-            _fun00012_ip = 825; continue _fun00011;
- 819:
+            _fun00012_ip = 821; continue _fun00011;
+ 815:
             sequen = config.iconBg;
- 825:
+ 821:
             vacuum[1] = sequen;
             result['style'] = vacuum;
             ctrled = function() { // Original name: onPress
@@ -541,8 +541,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sequen = _closure1_slot14;
             vacuum = _closure1_slot0;
             cntext = _closure1_slot2;
-            if(source) { _fun00012_ip = 941; continue _fun00011 }
- 874:
+            if(source) { _fun00012_ip = 937; continue _fun00011 }
+ 870:
             source = 26;
             source = cntext[source];
             source = vacuum.bind(tangon)(source);
@@ -558,8 +558,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = 'sm';
             source['size'] = config;
             source = sequen.bind(tangon)(ctrled, source);
-            _fun00012_ip = 1006; continue _fun00011;
- 941:
+            _fun00012_ip = 1002; continue _fun00011;
+ 937:
             ctrled = 25;
             ctrled = cntext[ctrled];
             ctrled = vacuum.bind(tangon)(ctrled);
@@ -575,12 +575,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = 'sm';
             ctrled['size'] = config;
             source = sequen.bind(tangon)(vacuum, ctrled);
- 1006:
+ 1002:
             result['children'] = source;
             result = update.bind(tangon)(echoed, result);
             verify['children'] = result;
             oscard = output.bind(tangon)(sizing, verify);
- 1026:
+ 1022:
             report[2] = oscard;
             verify = _closure1_slot0;
             oscard = _closure1_slot2;
@@ -589,15 +589,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = kiloes.isVideo;
             oscard = foxtra.uri;
             oscard = verify.bind(kiloes)(oscard);
-            if(oscard) { _fun00012_ip = 1079; continue _fun00011 }
- 1067:
+            if(oscard) { _fun00012_ip = 1075; continue _fun00011 }
+ 1063:
             oscard = _closure1_slot19;
             oscard = oscard.bind(tangon)(foxtra);
-            if(!oscard) { _fun00012_ip = 1089; continue _fun00011 }
- 1079:
+            if(!oscard) { _fun00012_ip = 1085; continue _fun00011 }
+ 1075:
             oscard = foxtra.videoURI;
-            if(!(option == oscard)) { _fun00012_ip = 1125; continue _fun00011 }
- 1089:
+            if(!(option == oscard)) { _fun00012_ip = 1121; continue _fun00011 }
+ 1085:
             verify = _closure1_slot14;
             option = _closure1_slot21;
             oscard = {};
@@ -606,8 +606,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard['dimensions'] = romeon;
             oscard['isSpoiler'] = backup;
             oscard = verify.bind(tangon)(option, oscard);
-            _fun00012_ip = 1178; continue _fun00011;
- 1125:
+            _fun00012_ip = 1174; continue _fun00011;
+ 1121:
             verify = _closure1_slot14;
             option = _closure1_slot20;
             golfie = {};
@@ -621,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = !offset;
             golfie['autoplay'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 1178:
+ 1174:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

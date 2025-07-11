@@ -1256,61 +1256,61 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             golfie = function(argFoo, argBar, argBaz) { // Original name: getInFilterAutocompletionsForDMs
                 _fun00027: for(var _fun00028_ip = 0; ; ) switch(_fun00028_ip) {
  0:
-                    oscard = argFoo;
+                    report = argFoo;
                     tangon = argBaz;
                     golfie = _closure1_slot1;
                     offset = _closure1_slot2;
                     backup = 19;
-                    zuuluu = offset[backup];
-                    verify = undefined;
-                    romeon = golfie.bind(verify)(zuuluu);
+                    michal = offset[backup];
+                    option = undefined;
+                    romeon = golfie.bind(option)(michal);
                     yankee = romeon.queryGroupDMs;
-                    report = {};
-                    report['query'] = oscard;
-                    report['limit'] = tangon;
-                    zuuluu = true;
-                    report['fuzzy'] = zuuluu;
-                    option = _closure1_slot0;
-                    zuuluu = offset[backup];
-                    sizing = option.bind(verify)(zuuluu);
+                    zuuluu = {};
+                    zuuluu['query'] = report;
+                    zuuluu['limit'] = tangon;
+                    michal = true;
+                    zuuluu['fuzzy'] = michal;
+                    verify = _closure1_slot0;
+                    michal = offset[backup];
+                    sizing = verify.bind(option)(michal);
                     kiloes = sizing.getBoosterMap;
-                    zuuluu = 20;
-                    foxtra = offset[zuuluu];
-                    foxtra = option.bind(verify)(foxtra);
+                    michal = 20;
+                    foxtra = offset[michal];
+                    foxtra = verify.bind(option)(foxtra);
                     foxtra = foxtra.AutocompleterResultTypes;
                     foxtra = foxtra.GROUP_DM;
                     foxtra = kiloes.bind(sizing)(foxtra);
-                    report['boosters'] = foxtra;
-                    romeon = yankee.bind(romeon)(report);
-                    report = offset[backup];
-                    foxtra = golfie.bind(verify)(report);
+                    zuuluu['boosters'] = foxtra;
+                    romeon = yankee.bind(romeon)(zuuluu);
+                    zuuluu = offset[backup];
+                    foxtra = golfie.bind(option)(zuuluu);
                     yankee = foxtra.queryDMChannels;
-                    report = {};
-                    report['query'] = oscard;
-                    report['limit'] = tangon;
+                    zuuluu = {};
+                    zuuluu['query'] = report;
+                    zuuluu['limit'] = tangon;
                     backup = offset[backup];
-                    sizing = option.bind(verify)(backup);
+                    sizing = verify.bind(option)(backup);
                     kiloes = sizing.getBoosterMap;
-                    backup = offset[zuuluu];
-                    backup = option.bind(verify)(backup);
+                    backup = offset[michal];
+                    backup = verify.bind(option)(backup);
                     backup = backup.AutocompleterResultTypes;
                     backup = backup.USER;
                     backup = kiloes.bind(sizing)(backup);
-                    report['boosters'] = backup;
-                    yankee = yankee.bind(foxtra)(report);
-                    report = 12;
-                    report = offset[report];
-                    golfie = golfie.bind(verify)(report);
-                    report = romeon.concat;
-                    report = report.bind(romeon)(yankee);
-                    golfie = golfie.bind(verify)(report);
-                    report = golfie.sort;
+                    zuuluu['boosters'] = backup;
+                    yankee = yankee.bind(foxtra)(zuuluu);
+                    zuuluu = 12;
                     zuuluu = offset[zuuluu];
-                    zuuluu = option.bind(verify)(zuuluu);
-                    zuuluu = zuuluu.sortByMatchScore;
-                    golfie = report.bind(golfie)(zuuluu);
-                    report = golfie.map;
-                    zuuluu = function(argFoo) {
+                    golfie = golfie.bind(option)(zuuluu);
+                    zuuluu = romeon.concat;
+                    zuuluu = zuuluu.bind(romeon)(yankee);
+                    golfie = golfie.bind(option)(zuuluu);
+                    zuuluu = golfie.sort;
+                    michal = offset[michal];
+                    michal = verify.bind(option)(michal);
+                    michal = michal.sortByMatchScore;
+                    golfie = zuuluu.bind(golfie)(michal);
+                    zuuluu = golfie.map;
+                    michal = function(argFoo) {
                         entity = argFoo;
                         michal = entity.record;
                         zuuluu = entity.comparator;
@@ -1319,30 +1319,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity['channel'] = michal;
                         return entity;
                     };
-                    report = report.bind(golfie)(zuuluu);
-                    zuuluu = report.value;
-                    zuuluu = zuuluu.bind(report)();
-                    report = oscard.trim;
-                    oscard = report.bind(oscard)();
-                    report = '';
-                    if(!(report === oscard)) { _fun00028_ip = 440; continue _fun00027 }
+                    zuuluu = zuuluu.bind(golfie)(michal);
+                    michal = zuuluu.value;
+                    zuuluu = michal.bind(zuuluu)();
+                    michal = report.trim;
+                    report = michal.bind(report)();
+                    michal = '';
+                    if(!(michal === report)) { _fun00028_ip = 589; continue _fun00027 }
  292:
-                    oscard = _closure1_slot10;
-                    report = oscard.getChannelId;
-                    oscard = report.bind(oscard)();
-                    var _closure3_slot0 = oscard;
+                    report = _closure1_slot10;
+                    michal = report.getChannelId;
+                    golfie = michal.bind(report)();
+                    var _closure3_slot0 = golfie;
                     report = _closure1_slot4;
                     michal = report.getChannel;
-                    report = michal.bind(report)(oscard);
+                    report = michal.bind(report)(golfie);
                     michal = null;
-                    if(!(michal != report)) { _fun00028_ip = 440; continue _fun00027 }
- 330:
-                    michal = report.isPrivate;
-                    michal = michal.bind(report)();
-                    if(!michal) { _fun00028_ip = 440; continue _fun00027 }
- 343:
-                    michal = zuuluu.findIndex;
-                    entity = function(argFoo) {
+                    if(!(michal != report)) { _fun00028_ip = 589; continue _fun00027 }
+ 333:
+                    golfie = report.isPrivate;
+                    golfie = golfie.bind(report)();
+                    if(!golfie) { _fun00028_ip = 589; continue _fun00027 }
+ 349:
+                    golfie = zuuluu.findIndex;
+                    oscard = function(argFoo) {
                         entity = argFoo;
                         entity = entity.channel;
                         michal = entity.id;
@@ -1350,28 +1350,62 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         entity = michal === entity;
                         return entity;
                     };
-                    oscard = michal.bind(zuuluu)(entity);
-                    entity = -1;
-                    if(!(entity === oscard)) { _fun00028_ip = 399; continue _fun00027 }
- 371:
+                    oscard = golfie.bind(zuuluu)(oscard);
+                    golfie = -1;
+                    if(!(golfie === oscard)) { _fun00028_ip = 559; continue _fun00027 }
+ 380:
+                    golfie = report.isGroupDM;
+                    golfie = golfie.bind(report)();
+                    if(golfie) { _fun00028_ip = 495; continue _fun00027 }
+ 393:
+                    golfie = report.isDM;
+                    golfie = golfie.bind(report)();
+                    if(!golfie) { _fun00028_ip = 589; continue _fun00027 }
+ 409:
+                    golfie = report.getRecipientId;
+                    offset = golfie.bind(report)();
+                    verify = _closure1_slot13;
+                    golfie = verify.getUser;
+                    verify = golfie.bind(verify)(offset);
+                    if(!(michal != verify)) { _fun00028_ip = 589; continue _fun00027 }
+ 441:
+                    golfie = _closure1_slot1;
+                    offset = _closure1_slot2;
+                    michal = 15;
+                    michal = offset[michal];
+                    golfie = golfie.bind(option)(michal);
+                    michal = golfie.getUserTag;
+                    verify = michal.bind(golfie)(verify);
+                    golfie = zuuluu.unshift;
+                    michal = {};
+                    michal['text'] = verify;
+                    michal['channel'] = report;
+                    michal = golfie.bind(zuuluu)(michal);
+                    _fun00028_ip = 589; continue _fun00027;
+ 495:
+                    golfie = _closure1_slot0;
+                    verify = _closure1_slot2;
+                    michal = 14;
+                    michal = verify[michal];
+                    option = golfie.bind(option)(michal);
+                    golfie = option.computeChannelName;
+                    michal = _closure1_slot13;
+                    entity = _closure1_slot8;
+                    golfie = golfie.bind(option)(report, michal, entity);
                     michal = zuuluu.unshift;
                     entity = {};
-                    golfie = report.name;
                     entity['text'] = golfie;
                     entity['channel'] = report;
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00028_ip = 440; continue _fun00027;
- 399:
-                    michal = zuuluu.splice;
+                    _fun00028_ip = 589; continue _fun00027;
+ 559:
+                    michal = zuuluu[oscard];
+                    report = zuuluu.splice;
                     entity = 1;
-                    entity = michal.bind(zuuluu)(oscard, entity);
-                    michal = zuuluu.unshift;
-                    entity = {};
-                    oscard = report.name;
-                    entity['text'] = oscard;
-                    entity['channel'] = report;
-                    entity = michal.bind(zuuluu)(entity);
- 440:
+                    entity = report.bind(zuuluu)(oscard, entity);
+                    entity = zuuluu.unshift;
+                    entity = entity.bind(zuuluu)(michal);
+ 589:
                     michal = zuuluu.slice;
                     entity = 0;
                     entity = michal.bind(zuuluu)(entity, tangon);
@@ -1433,7 +1467,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.trim;
                     oscard = report.bind(oscard)();
                     report = '';
-                    if(!(report === oscard)) { _fun00030_ip = 260; continue _fun00029 }
+                    if(!(report === oscard)) { _fun00030_ip = 261; continue _fun00029 }
  182:
                     oscard = _closure1_slot10;
                     report = oscard.getChannelId;
@@ -1449,7 +1483,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     oscard = oscard.bind(zuuluu)(report);
                     report = null;
-                    if(!(report != oscard)) { _fun00030_ip = 260; continue _fun00029 }
+                    if(!(report != oscard)) { _fun00030_ip = 261; continue _fun00029 }
  224:
                     verify = zuuluu.splice;
                     report = zuuluu.indexOf;
@@ -1458,7 +1492,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = verify.bind(zuuluu)(option, report);
                     report = zuuluu.unshift;
                     report = report.bind(zuuluu)(oscard);
- 260:
+ 261:
                     oscard = _closure1_slot7;
                     report = oscard.getTextChannelNameDisambiguations;
                     report = report.bind(oscard)(golfie);

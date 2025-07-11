@@ -173,7 +173,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                             entity = argBar;
                             oscard = 0;
-                            if(!(entity > oscard)) { _fun00006_ip = 47; continue _fun00005 }
+                            if(!(entity > oscard)) { _fun00006_ip = 48; continue _fun00005 }
  9:
                             zuuluu = _closure3_slot1;
                             michal = zuuluu.push;
@@ -183,7 +183,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             entity = entity[oscard];
                             entity = tangon.bind(report)(entity);
                             entity = michal.bind(zuuluu)(entity);
- 47:
+ 48:
                             entity = undefined;
                             return entity;
                         }

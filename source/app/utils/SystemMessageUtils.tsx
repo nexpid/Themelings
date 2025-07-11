@@ -279,11 +279,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = michal.type;
             zuuluu = _closure1_slot10;
             zuuluu = zuuluu.RECIPIENT_ADD;
-            if(!(zuuluu !== report)) { _fun00004_ip = 3203; continue _fun00003 }
+            if(!(zuuluu !== report)) { _fun00004_ip = 3204; continue _fun00003 }
  211:
             zuuluu = _closure1_slot10;
             zuuluu = zuuluu.RECIPIENT_REMOVE;
-            if(!(zuuluu !== report)) { _fun00004_ip = 2930; continue _fun00003 }
+            if(!(zuuluu !== report)) { _fun00004_ip = 2931; continue _fun00003 }
  228:
             zuuluu = _closure1_slot10;
             zuuluu = zuuluu.CALL;
@@ -964,7 +964,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.call;
             report = foxtra != tangon;
             zuuluu = undefined;
-            if(!report) { _fun00004_ip = 2928; continue _fun00003 }
+            if(!report) { _fun00004_ip = 2929; continue _fun00003 }
  2789:
             oscard = tangon.participants;
             report = oscard.indexOf;
@@ -974,8 +974,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = report.bind(oscard)(tangon);
             tangon = -1;
             zuuluu = undefined;
-            if(!(tangon === report)) { _fun00004_ip = 2928; continue _fun00003 }
- 2831:
+            if(!(tangon === report)) { _fun00004_ip = 2929; continue _fun00003 }
+ 2832:
             golfie = _closure1_slot0;
             sizing = _closure1_slot2;
             tangon = 9;
@@ -997,18 +997,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon['usernameOnClick'] = sizing;
             tangon = verify.bind(kiloes)(golfie, tangon);
             zuuluu = report.bind(oscard)(tangon);
- 2928:
+ 2929:
             return zuuluu;
- 2930:
-            if(!(foxtra != romeon)) { _fun00004_ip = 3201; continue _fun00003 }
- 2937:
+ 2931:
+            if(!(foxtra != romeon)) { _fun00004_ip = 3202; continue _fun00003 }
+ 2938:
             michal = michal.author;
-            if(!(foxtra != michal)) { _fun00004_ip = 3104; continue _fun00003 }
- 2950:
+            if(!(foxtra != michal)) { _fun00004_ip = 3105; continue _fun00003 }
+ 2951:
             zuuluu = michal.id;
             michal = romeon.id;
-            if(!(zuuluu !== michal)) { _fun00004_ip = 3104; continue _fun00003 }
- 2967:
+            if(!(zuuluu !== michal)) { _fun00004_ip = 3105; continue _fun00003 }
+ 2968:
             report = _closure1_slot0;
             verify = _closure1_slot2;
             michal = 9;
@@ -1038,8 +1038,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['otherUsernameOnClick'] = verify;
             michal = oscard.bind(golfie)(report, michal);
             michal = zuuluu.bind(tangon)(michal);
-            _fun00004_ip = 3199; continue _fun00003;
- 3104:
+            _fun00004_ip = 3200; continue _fun00003;
+ 3105:
             oscard = _closure1_slot0;
             kiloes = _closure1_slot2;
             zuuluu = 9;
@@ -1061,13 +1061,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['usernameOnClick'] = kiloes;
             zuuluu = golfie.bind(verify)(oscard, zuuluu);
             michal = tangon.bind(report)(zuuluu);
- 3199:
+ 3200:
             return michal;
- 3201:
+ 3202:
             return entity;
- 3203:
-            if(!(foxtra != romeon)) { _fun00004_ip = 3347; continue _fun00003 }
- 3210:
+ 3204:
+            if(!(foxtra != romeon)) { _fun00004_ip = 3348; continue _fun00003 }
+ 3211:
             report = _closure1_slot0;
             verify = _closure1_slot2;
             michal = 9;
@@ -1098,7 +1098,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = oscard.bind(golfie)(report, michal);
             michal = zuuluu.bind(tangon)(michal);
             return michal;
- 3347:
+ 3348:
             return entity;
         }
     };

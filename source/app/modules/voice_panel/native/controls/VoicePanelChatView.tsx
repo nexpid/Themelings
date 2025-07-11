@@ -345,10 +345,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = offset.bind(tangon)(option);
             option = {'disableGradient': true, 'alwaysRespectKeyboard': false, 'setNoExtractUI': false};
             offset = true;
-            if(!(output == sizing)) { _fun00004_ip = 284; continue _fun00003 }
- 280:
-            sizing = _closure1_slot5;
+            if(!(output == sizing)) { _fun00004_ip = 288; continue _fun00003 }
  284:
+            sizing = _closure1_slot5;
+ 288:
             option['guildId'] = sizing;
             option['channelId'] = kiloes;
             option['chatInputRef'] = backup;

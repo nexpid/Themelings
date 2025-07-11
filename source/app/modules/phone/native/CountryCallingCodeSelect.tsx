@@ -518,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(foxtra !== option)) { _fun00008_ip = 319; continue _fun00007 }
  310:
             oscard = oscard.length;
-            if(!(golfie !== oscard)) { _fun00008_ip = 388; continue _fun00007 }
+            if(!(golfie !== oscard)) { _fun00008_ip = 386; continue _fun00007 }
  319:
             option = _closure1_slot7;
             golfie = _closure1_slot1;
@@ -535,8 +535,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 'always';
             oscard['keyboardShouldPersistTaps'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);
-            _fun00008_ip = 493; continue _fun00007;
- 388:
+            _fun00008_ip = 491; continue _fun00007;
+ 386:
             verify = _closure1_slot7;
             romeon = _closure1_slot1;
             backup = _closure1_slot2;
@@ -561,7 +561,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = yankee.bind(romeon)(offset);
             golfie['text'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 493:
+ 491:
             report[1] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

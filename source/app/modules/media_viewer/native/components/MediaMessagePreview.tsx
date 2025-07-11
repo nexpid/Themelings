@@ -82,11 +82,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = undefined;
                         michal = tangon.bind(entity)(zuuluu, michal);
                         michal = _closure4_slot0;
-                        if(!michal) { _fun00004_ip = 55; continue _fun00003 }
+                        if(!michal) { _fun00004_ip = 51; continue _fun00003 }
  35:
                         michal = {'numberOfLines': 3, 'expandable': false, 'seeMoreLabel': ''};
                         zuuluu['truncation'] = michal;
- 55:
+ 51:
                         return entity;
                     }
                 };

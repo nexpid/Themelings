@@ -1097,7 +1097,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = argFoo;
                     tangon = this;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00030_ip = 383; continue _fun00029 }
+                    if(michal) { _fun00030_ip = 384; continue _fun00029 }
  18:
                     var _closure4_slot0 = yankee;
                     golfie = _closure1_slot11;
@@ -1121,7 +1121,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     oscard = report.bind(oscard)(zuuluu);
                     zuuluu = null;
-                    if(!(zuuluu != oscard)) { _fun00030_ip = 375; continue _fun00029 }
+                    if(!(zuuluu != oscard)) { _fun00030_ip = 376; continue _fun00029 }
  109:
                     report = oscard.status;
                     option = _closure1_slot0;
@@ -1132,7 +1132,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = option.bind(golfie)(zuuluu);
                     zuuluu = zuuluu.CloudUploadStatus;
                     zuuluu = zuuluu.CANCELED;
-                    if(!(report !== zuuluu)) { _fun00030_ip = 375; continue _fun00029 }
+                    if(!(report !== zuuluu)) { _fun00030_ip = 376; continue _fun00029 }
  155:
                     report = tangon.files;
                     zuuluu = report.indexOf;
@@ -1168,13 +1168,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu.bind(golfie)(michal);
                     michal = zuuluu.cancelGetAttachmentFile;
                     michal = michal.bind(zuuluu)(oscard);
-                    SaveGenerator(address=310);
- 308:
+                    SaveGenerator(address=311);
+ 309:
                     return michal;
- 310:
+ 311:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00030_ip = 380; continue _fun00029 }
- 316:
+                    if(zuuluu) { _fun00030_ip = 381; continue _fun00029 }
+ 317:
                     zuuluu = oscard.cancel;
                     zuuluu = zuuluu.bind(oscard)();
                     golfie = tangon.emit;
@@ -1183,16 +1183,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = golfie.bind(tangon)(zuuluu, oscard);
                     zuuluu = tangon.files;
                     zuuluu = zuuluu.length;
-                    if(!(report === zuuluu)) { _fun00030_ip = 375; continue _fun00029 }
- 365:
+                    if(!(report === zuuluu)) { _fun00030_ip = 376; continue _fun00029 }
+ 366:
                     zuuluu = tangon.cancel;
                     zuuluu = zuuluu.bind(tangon)();
- 375:
+ 376:
                     zuuluu = undefined;
                     return zuuluu;
- 380:
+ 381:
                     return michal;
- 383:
+ 384:
                     return entity;
                 }
             };

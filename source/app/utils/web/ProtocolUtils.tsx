@@ -226,7 +226,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         foxtra = yankee.family;
  109:
         yankee = 'Android';
-        if(!(yankee !== foxtra)) { _fun00002_ip = 259; continue _fun00001 }
+        if(!(yankee !== foxtra)) { _fun00002_ip = 260; continue _fun00001 }
  122:
         yankee = report[verify];
         yankee = offset.bind(entity)(yankee);
@@ -238,18 +238,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         foxtra = yankee.family;
  152:
         yankee = 'iOS';
-        if(!(yankee !== foxtra)) { _fun00002_ip = 259; continue _fun00001 }
+        if(!(yankee !== foxtra)) { _fun00002_ip = 260; continue _fun00001 }
  162:
         yankee = report[verify];
         yankee = offset.bind(entity)(yankee);
         foxtra = yankee.layout;
         yankee = 'Gecko';
-        if(!(yankee !== foxtra)) { _fun00002_ip = 254; continue _fun00001 }
+        if(!(yankee !== foxtra)) { _fun00002_ip = 255; continue _fun00001 }
  187:
         yankee = report[verify];
         yankee = offset.bind(entity)(yankee);
         yankee = yankee.ua;
-        if(!(romeon != yankee)) { _fun00002_ip = 247; continue _fun00001 }
+        if(!(romeon != yankee)) { _fun00002_ip = 248; continue _fun00001 }
  206:
         verify = report[verify];
         verify = offset.bind(entity)(verify);
@@ -258,20 +258,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         verify = 'Valve Steam GameOverlay';
         offset = offset.bind(yankee)(verify);
         verify = -1;
-        if(!(verify === offset)) { _fun00002_ip = 249; continue _fun00001 }
- 247:
-        _fun00002_ip = 252; continue _fun00001;
- 249:
+        if(!(verify === offset)) { _fun00002_ip = 250; continue _fun00001 }
+ 248:
+        _fun00002_ip = 253; continue _fun00001;
+ 250:
         tangon = option;
- 252:
-        _fun00002_ip = 257; continue _fun00001;
- 254:
+ 253:
+        _fun00002_ip = 258; continue _fun00001;
+ 255:
         tangon = golfie;
- 257:
-        _fun00002_ip = 262; continue _fun00001;
- 259:
+ 258:
+        _fun00002_ip = 263; continue _fun00001;
+ 260:
         tangon = oscard;
- 262:
+ 263:
         michal['launch'] = tangon;
         tangon = 1;
         report = report[tangon];

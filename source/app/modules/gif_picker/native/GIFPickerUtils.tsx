@@ -32,120 +32,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     var _closure1_slot6 = tangon;
     tangon = /-(?:.(?!-))+$/;
     var _closure1_slot7 = tangon;
-    tangon = function(argFoo, argBar) { // Original name: transformFavoriteGifUrl
-        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
- 0:
-            zuuluu = argFoo;
-            option = argBar;
-            michal = _closure1_slot1;
-            tangon = _closure1_slot2;
-            entity = 2;
-            entity = tangon[entity];
-            report = undefined;
-            michal = michal.bind(report)(entity);
-            entity = michal.toURLSafe;
-            michal = entity.bind(michal)(zuuluu);
-            tangon = null;
-            if(!(tangon != michal)) { _fun00002_ip = 194; continue _fun00001 }
- 51:
-            golfie = _closure1_slot0;
-            entity = _closure1_slot2;
-            verify = 3;
-            entity = entity[verify];
-            golfie = golfie.bind(report)(entity);
-            entity = golfie.isExternalProxiedAttachmentUrl;
-            entity = entity.bind(golfie)(michal);
-            if(entity) { _fun00002_ip = 116; continue _fun00001 }
- 85:
-            golfie = _closure1_slot0;
-            entity = _closure1_slot2;
-            entity = entity[verify];
-            golfie = golfie.bind(report)(entity);
-            entity = golfie.isAttachmentUrl;
-            entity = entity.bind(golfie)(michal);
-            if(!entity) { _fun00002_ip = 194; continue _fun00001 }
- 116:
-            golfie = michal.pathname;
-            entity = golfie.toLowerCase;
-            verify = entity.bind(golfie)();
-            golfie = verify.endsWith;
-            entity = '.webp';
-            golfie = golfie.bind(verify)(entity);
-            verify = michal.pathname;
-            entity = verify.toLowerCase;
-            offset = entity.bind(verify)();
-            verify = offset.endsWith;
-            entity = '.avif';
-            entity = verify.bind(offset)(entity);
-            if(golfie) { _fun00002_ip = 344; continue _fun00001 }
- 188:
-            if(entity) { _fun00002_ip = 344; continue _fun00001 }
- 194:
-            verify = _closure1_slot5;
-            golfie = verify.test;
-            golfie = golfie.bind(verify)(option);
-            if(golfie) { _fun00002_ip = 259; continue _fun00001 }
- 211:
-            verify = _closure1_slot6;
-            golfie = verify.test;
-            golfie = golfie.bind(verify)(option);
-            if(!golfie) { _fun00002_ip = 257; continue _fun00001 }
- 228:
-            golfie = global;
-            golfie = golfie.HermesInternal;
-            offset = golfie.concat;
-            verify = '';
-            golfie = '.gif';
-            zuuluu = offset.bind(verify)(option, golfie);
- 257:
-            _fun00002_ip = 342; continue _fun00001;
- 259:
-            golfie = _closure1_slot7;
-            oscard = golfie.exec;
-            option = oscard.bind(golfie)(option);
-            oscard = tangon == option;
-            golfie = undefined;
-            if(oscard) { _fun00002_ip = 311; continue _fun00001 }
- 283:
-            oscard = 0;
-            oscard = option[oscard];
-            tangon = tangon == oscard;
-            golfie = undefined;
-            if(tangon) { _fun00002_ip = 311; continue _fun00001 }
- 298:
-            report = oscard.slice;
-            tangon = 1;
-            golfie = report.bind(oscard)(tangon);
- 311:
-            tangon = global;
-            tangon = tangon.HermesInternal;
-            oscard = tangon.concat;
-            report = 'https://media.giphy.com/media/';
-            tangon = '/giphy.gif';
-            zuuluu = oscard.bind(report)(golfie, tangon);
- 342:
-            return zuuluu;
- 344:
-            oscard = michal.searchParams;
-            report = oscard.set;
-            tangon = 'animated';
-            zuuluu = 'true';
-            zuuluu = report.bind(oscard)(tangon, zuuluu);
-            if(!entity) { _fun00002_ip = 399; continue _fun00001 }
- 372:
-            report = michal.searchParams;
-            tangon = report.set;
-            zuuluu = 'format';
-            entity = 'webp';
-            entity = tangon.bind(report)(zuuluu, entity);
- 399:
-            entity = michal.toString;
-            entity = entity.bind(michal)();
-            return entity;
-        }
-    };
-    var _closure1_slot8 = tangon;
-    tangon = 6;
+    tangon = 7;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -154,16 +41,188 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 56;
     zuuluu['GIF_HEADER_HEIGHT'] = tangon;
     michal = function() { // Original name: useFavoriteGIFsMobile
-        report = _closure1_slot0;
-        tangon = _closure1_slot2;
+        tangon = _closure1_slot1;
+        oscard = _closure1_slot2;
         zuuluu = 4;
-        tangon = tangon[zuuluu];
-        zuuluu = undefined;
-        report = report.bind(zuuluu)(tangon);
+        zuuluu = oscard[zuuluu];
+        report = undefined;
+        golfie = tangon.bind(report)(zuuluu);
+        tangon = golfie.useExperiment;
+        zuuluu = {};
+        option = 'useFavoriteGIFsMobile';
+        zuuluu['location'] = option;
+        zuuluu = tangon.bind(golfie)(zuuluu);
+        tangon = zuuluu.optimizationsEnabled;
+        var _closure2_slot0 = tangon;
+        zuuluu = zuuluu.sendParam;
+        var _closure2_slot1 = zuuluu;
+        tangon = _closure1_slot0;
+        zuuluu = 5;
+        zuuluu = oscard[zuuluu];
+        report = tangon.bind(report)(zuuluu);
         tangon = report.useSortedFavoriteGIFs;
-        zuuluu = _closure1_slot8;
+        zuuluu = function(argFoo, argBar) {
+            _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+                entity = argFoo;
+                romeon = argBar;
+                oscard = _closure2_slot0;
+                yankee = _closure2_slot1;
+                zuuluu = _closure1_slot1;
+                tangon = _closure1_slot2;
+                michal = 2;
+                michal = tangon[michal];
+                offset = undefined;
+                zuuluu = zuuluu.bind(offset)(michal);
+                michal = zuuluu.toURLSafe;
+                zuuluu = michal.bind(zuuluu)(entity);
+                option = null;
+                if(!(option != zuuluu)) { _fun00002_ip = 268; continue _fun00001 }
+ 62:
+                tangon = _closure1_slot0;
+                michal = _closure1_slot2;
+                report = 3;
+                michal = michal[report];
+                tangon = tangon.bind(offset)(michal);
+                michal = tangon.isExternalProxiedAttachmentUrl;
+                michal = michal.bind(tangon)(zuuluu);
+                if(michal) { _fun00002_ip = 130; continue _fun00001 }
+ 96:
+                tangon = _closure1_slot0;
+                michal = _closure1_slot2;
+                michal = michal[report];
+                tangon = tangon.bind(offset)(michal);
+                michal = tangon.isAttachmentUrl;
+                michal = michal.bind(tangon)(zuuluu);
+                if(!michal) { _fun00002_ip = 268; continue _fun00001 }
+ 130:
+                tangon = zuuluu.pathname;
+                michal = tangon.toLowerCase;
+                report = michal.bind(tangon)();
+                tangon = report.endsWith;
+                michal = '.webp';
+                report = tangon.bind(report)(michal);
+                tangon = zuuluu.pathname;
+                michal = tangon.toLowerCase;
+                golfie = michal.bind(tangon)();
+                tangon = golfie.endsWith;
+                michal = '.avif';
+                michal = tangon.bind(golfie)(michal);
+                golfie = zuuluu.pathname;
+                tangon = golfie.toLowerCase;
+                foxtra = tangon.bind(golfie)();
+                golfie = foxtra.endsWith;
+                tangon = '.gif';
+                golfie = golfie.bind(foxtra)(tangon);
+                tangon = golfie;
+                if(!golfie) { _fun00002_ip = 238; continue _fun00001 }
+ 235:
+                tangon = oscard;
+ 238:
+                if(!golfie) { _fun00002_ip = 244; continue _fun00001 }
+ 241:
+                golfie = yankee;
+ 244:
+                if(report) { _fun00002_ip = 421; continue _fun00001 }
+ 250:
+                if(michal) { _fun00002_ip = 421; continue _fun00001 }
+ 256:
+                if(tangon) { _fun00002_ip = 421; continue _fun00001 }
+ 262:
+                if(golfie) { _fun00002_ip = 421; continue _fun00001 }
+ 268:
+                foxtra = _closure1_slot5;
+                yankee = foxtra.test;
+                yankee = yankee.bind(foxtra)(romeon);
+                if(yankee) { _fun00002_ip = 333; continue _fun00001 }
+ 285:
+                foxtra = _closure1_slot6;
+                yankee = foxtra.test;
+                yankee = yankee.bind(foxtra)(romeon);
+                if(!yankee) { _fun00002_ip = 331; continue _fun00001 }
+ 302:
+                yankee = global;
+                yankee = yankee.HermesInternal;
+                backup = yankee.concat;
+                foxtra = '';
+                yankee = '.gif';
+                entity = backup.bind(foxtra)(romeon, yankee);
+ 331:
+                _fun00002_ip = 416; continue _fun00001;
+ 333:
+                yankee = _closure1_slot7;
+                verify = yankee.exec;
+                yankee = verify.bind(yankee)(romeon);
+                verify = option == yankee;
+                romeon = undefined;
+                if(verify) { _fun00002_ip = 385; continue _fun00001 }
+ 357:
+                verify = 0;
+                yankee = yankee[verify];
+                option = option == yankee;
+                romeon = undefined;
+                if(option) { _fun00002_ip = 385; continue _fun00001 }
+ 372:
+                verify = yankee.slice;
+                option = 1;
+                romeon = verify.bind(yankee)(option);
+ 385:
+                option = global;
+                option = option.HermesInternal;
+                yankee = option.concat;
+                verify = 'https://media.giphy.com/media/';
+                option = '/giphy.gif';
+                entity = yankee.bind(verify)(romeon, option);
+ 416:
+                _fun00002_ip = 548; continue _fun00001;
+ 421:
+                if(!golfie) { _fun00002_ip = 463; continue _fun00001 }
+ 424:
+                verify = zuuluu.searchParams;
+                option = verify.set;
+                golfie = global;
+                golfie = golfie.String;
+                oscard = oscard - 0;
+                golfie = golfie.bind(offset)(oscard);
+                oscard = 'gif_treatment';
+                oscard = option.bind(verify)(oscard, golfie);
+ 463:
+                if(report) { _fun00002_ip = 469; continue _fun00001 }
+ 466:
+                report = michal;
+ 469:
+                if(report) { _fun00002_ip = 475; continue _fun00001 }
+ 472:
+                report = tangon;
+ 475:
+                if(!report) { _fun00002_ip = 503; continue _fun00001 }
+ 478:
+                option = zuuluu.searchParams;
+                golfie = option.set;
+                oscard = 'animated';
+                report = 'true';
+                report = golfie.bind(option)(oscard, report);
+ 503:
+                if(michal) { _fun00002_ip = 509; continue _fun00001 }
+ 506:
+                michal = tangon;
+ 509:
+                if(!michal) { _fun00002_ip = 539; continue _fun00001 }
+ 512:
+                oscard = zuuluu.searchParams;
+                report = oscard.set;
+                tangon = 'format';
+                michal = 'webp';
+                michal = report.bind(oscard)(tangon, michal);
+ 539:
+                michal = zuuluu.toString;
+                entity = michal.bind(zuuluu)();
+ 548:
+                return entity;
+            }
+        };
         zuuluu = tangon.bind(report)(zuuluu);
-        var _closure2_slot0 = zuuluu;
+        var _closure2_slot2 = zuuluu;
         report = _closure1_slot3;
         tangon = report.useMemo;
         michal = new Array(1);
@@ -171,7 +230,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                entity = _closure2_slot0;
+                entity = _closure2_slot2;
                 entity = entity.length;
                 tangon = 0;
                 michal = entity > tangon;
@@ -185,7 +244,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['type'] = oscard;
                 option = _closure1_slot0;
                 offset = _closure1_slot2;
-                report = 5;
+                report = 6;
                 oscard = offset[report];
                 oscard = option.bind(verify)(oscard);
                 golfie = oscard.intl;
@@ -196,7 +255,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = report.k8fFjo;
                 report = oscard.bind(golfie)(report);
                 michal['name'] = report;
-                zuuluu = _closure2_slot0;
+                zuuluu = _closure2_slot2;
                 report = zuuluu[tangon];
                 report = report.src;
                 michal['src'] = report;

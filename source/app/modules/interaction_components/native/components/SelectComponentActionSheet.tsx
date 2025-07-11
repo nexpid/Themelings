@@ -890,10 +890,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = 'always';
             report['keyboardShouldPersistTaps'] = option;
             option = 'radiogroup';
-            if(!verify) { _fun00012_ip = 803; continue _fun00011 }
- 799:
+            if(!verify) { _fun00012_ip = 801; continue _fun00011 }
+ 797:
             option = 'none';
- 803:
+ 801:
             report['accessibilityRole'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['children'] = report;

@@ -76,21 +76,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = entity != oscard;
                 entity = -1;
                 report = entity;
-                if(!zuuluu) { _fun00002_ip = 40; continue _fun00001 }
+                if(!zuuluu) { _fun00002_ip = 41; continue _fun00001 }
  24:
                 tangon = michal.propsStack;
                 zuuluu = tangon.indexOf;
                 report = zuuluu.bind(tangon)(oscard);
- 40:
-                if(!(entity !== report)) { _fun00002_ip = 75; continue _fun00001 }
- 44:
+ 41:
+                if(!(entity !== report)) { _fun00002_ip = 76; continue _fun00001 }
+ 45:
                 tangon = michal.propsStack;
                 zuuluu = tangon.splice;
                 entity = 1;
                 entity = zuuluu.bind(tangon)(report, entity);
                 entity = michal.updatePropsStack;
                 entity = entity.bind(michal)();
- 75:
+ 76:
                 entity = undefined;
                 return entity;
             }
@@ -115,17 +115,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = michal != golfie;
                 michal = -1;
                 tangon = michal;
-                if(!report) { _fun00004_ip = 67; continue _fun00003 }
+                if(!report) { _fun00004_ip = 68; continue _fun00003 }
  51:
                 oscard = zuuluu.propsStack;
                 report = oscard.indexOf;
                 tangon = report.bind(oscard)(golfie);
- 67:
-                if(!(michal !== tangon)) { _fun00004_ip = 81; continue _fun00003 }
- 71:
+ 68:
+                if(!(michal !== tangon)) { _fun00004_ip = 82; continue _fun00003 }
+ 72:
                 michal = zuuluu.propsStack;
                 michal[tangon] = entity;
- 81:
+ 82:
                 michal = zuuluu.updatePropsStack;
                 michal = michal.bind(zuuluu)();
                 return entity;

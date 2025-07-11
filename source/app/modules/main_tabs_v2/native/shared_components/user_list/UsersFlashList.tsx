@@ -583,16 +583,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = 'on-drag';
  53:
             source = michal.keyboardShouldPersistTaps;
-            if(!(source === tangon)) { _fun00010_ip = 69; continue _fun00009 }
+            if(!(source === tangon)) { _fun00010_ip = 67; continue _fun00009 }
  63:
             source = 'always';
- 69:
+ 67:
             status = michal.insetEnd;
             result = michal.disableStickySections;
-            if(!(result === tangon)) { _fun00010_ip = 87; continue _fun00009 }
- 85:
+            if(!(result === tangon)) { _fun00010_ip = 85; continue _fun00009 }
+ 83:
             result = false;
- 87:
+ 85:
             vacuum = michal.onScroll;
             romeon = michal.renderAccessory;
             limora = michal.renderFooter;
@@ -603,25 +603,25 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = michal.style;
             var _closure2_slot5 = option;
             report = michal.showLoading;
-            if(!(report === tangon)) { _fun00010_ip = 146; continue _fun00009 }
- 144:
+            if(!(report === tangon)) { _fun00010_ip = 144; continue _fun00009 }
+ 142:
             report = false;
- 146:
+ 144:
             zuuluu = michal.inActionSheet;
             entity = michal.disableThemedGradient;
             var _closure2_slot6 = entity;
             golfie = michal.disableBackgroundOverlay;
-            if(!(golfie === tangon)) { _fun00010_ip = 174; continue _fun00009 }
- 172:
+            if(!(golfie === tangon)) { _fun00010_ip = 172; continue _fun00009 }
+ 170:
             golfie = false;
- 174:
+ 172:
             var _closure2_slot7 = golfie;
             sizing = michal.onViewableItemsChanged;
             variable36 = michal.fastTransitionAllowInitialBlankRender;
-            if(!(variable36 === tangon)) { _fun00010_ip = 198; continue _fun00009 }
- 196:
+            if(!(variable36 === tangon)) { _fun00010_ip = 196; continue _fun00009 }
+ 194:
             variable36 = true;
- 198:
+ 196:
             var _closure2_slot8 = variable36;
             var _closure2_slot9 = tangon;
             var _closure2_slot10 = tangon;
@@ -1112,27 +1112,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = verify.useClientThemesOverride;
             entity = entity.bind(verify)();
             _closure2_slot16 = entity;
-            if(!report) { _fun00010_ip = 690; continue _fun00009 }
- 687:
+            if(!report) { _fun00010_ip = 688; continue _fun00009 }
+ 685:
             report = oscard;
- 690:
-            if(!report) { _fun00010_ip = 696; continue _fun00009 }
- 693:
+ 688:
+            if(!report) { _fun00010_ip = 694; continue _fun00009 }
+ 691:
             report = !michal;
- 696:
+ 694:
             _closure2_slot17 = report;
             oscard = _closure1_slot0;
             verify = _closure1_slot2;
             michal = 17;
             michal = verify[michal];
             michal = oscard.bind(tangon)(michal);
-            if(zuuluu) { _fun00010_ip = 731; continue _fun00009 }
- 723:
+            if(zuuluu) { _fun00010_ip = 729; continue _fun00009 }
+ 721:
             backup = michal.AnimatedFlashList;
-            _fun00010_ip = 737; continue _fun00009;
- 731:
+            _fun00010_ip = 735; continue _fun00009;
+ 729:
             backup = michal.BottomSheetFlashList;
- 737:
+ 735:
             oscard = _closure1_slot4;
             zuuluu = oscard.useMemo;
             verify = foxtra.list;
@@ -1178,8 +1178,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = oscard;
             offset = null;
             oscard = null;
-            if(!report) { _fun00010_ip = 910; continue _fun00009 }
- 815:
+            if(!report) { _fun00010_ip = 908; continue _fun00009 }
+ 813:
             option = _closure1_slot8;
             golfie = _closure1_slot5;
             report = {};
@@ -1199,7 +1199,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = sierra.bind(tangon)(cntext, foxtra);
             report['children'] = foxtra;
             oscard = option.bind(tangon)(golfie, report);
- 910:
+ 908:
             report = new Array(2);
             report[0] = oscard;
             option = _closure1_slot9;
@@ -1229,10 +1229,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext['paddingTop'] = sierra;
             sierra = offset != status;
             target = 0;
-            if(!sierra) { _fun00010_ip = 1036; continue _fun00009 }
- 1033:
+            if(!sierra) { _fun00010_ip = 1034; continue _fun00009 }
+ 1031:
             target = status;
- 1036:
+ 1034:
             papara = papara + target;
             cntext['paddingBottom'] = papara;
             verify['contentContainerStyle'] = cntext;
@@ -1263,10 +1263,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['estimatedItemSize'] = echoed;
             verify['estimatedListSize'] = output;
             output = undefined;
-            if(result) { _fun00010_ip = 1150; continue _fun00009 }
- 1147:
+            if(result) { _fun00010_ip = 1148; continue _fun00009 }
+ 1145:
             output = yankee;
- 1150:
+ 1148:
             verify['stickyHeaderIndices'] = output;
             output = _closure1_slot13;
             verify['getItemType'] = output;
@@ -1277,10 +1277,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = new Array(2);
             verify[0] = foxtra;
             offset = offset != romeon;
-            if(!offset) { _fun00010_ip = 1204; continue _fun00009 }
- 1199:
+            if(!offset) { _fun00010_ip = 1202; continue _fun00009 }
+ 1197:
             offset = romeon.bind(tangon)(yankee);
- 1204:
+ 1202:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(tangon)(golfie, oscard);

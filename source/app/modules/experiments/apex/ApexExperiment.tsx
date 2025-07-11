@@ -71,8 +71,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     michal = function(argFoo) { // Original name: createApexExperiment
         zuuluu = argFoo;
-        report = zuuluu.name;
-        var _closure2_slot0 = report;
+        entity = zuuluu.name;
+        var _closure2_slot0 = entity;
         entity = zuuluu.kind;
         var _closure2_slot1 = entity;
         entity = zuuluu.variations;
@@ -80,9 +80,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.defaultConfig;
         var _closure2_slot3 = entity;
         tangon = _closure1_slot5;
-        entity = tangon.getHash;
-        entity = entity.bind(tangon)(report);
-        var _closure2_slot4 = entity;
         entity = tangon.registerExperiment;
         entity = entity.bind(tangon)(zuuluu);
         entity = {};
@@ -113,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = report.getEvaluationAndAssignment;
                     zuuluu = _closure2_slot1;
                     michal = _closure3_slot1;
-                    entity = _closure2_slot4;
+                    entity = _closure2_slot0;
                     entity = tangon.bind(report)(zuuluu, michal, entity);
                     return entity;
                 };
@@ -223,7 +220,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 golfie = zuuluu.bind(option)(verify, michal);
                 oscard = _closure1_slot5;
                 tangon = oscard.getEvaluationAndAssignment;
-                zuuluu = _closure2_slot4;
+                zuuluu = _closure2_slot0;
                 oscard = tangon.bind(oscard)(verify, golfie, zuuluu);
                 tangon = _closure1_slot2;
                 zuuluu = 2;

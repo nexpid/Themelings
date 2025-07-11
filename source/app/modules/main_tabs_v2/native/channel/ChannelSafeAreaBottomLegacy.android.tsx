@@ -58,10 +58,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             if(!(oscard !== report)) { _fun00002_ip = 120; continue _fun00001 }
  114:
             report = new Array(0);
-            _fun00002_ip = 128; continue _fun00001;
+            _fun00002_ip = 130; continue _fun00001;
  120:
             report = ['bottom'];
- 128:
+ 130:
             entity['edges'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

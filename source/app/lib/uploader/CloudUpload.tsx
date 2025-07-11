@@ -1659,24 +1659,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                                 StartGenerator();
                                 ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                                if(michal) { _fun00032_ip = 51; continue _fun00031 }
+                                if(michal) { _fun00032_ip = 53; continue _fun00031 }
  7:
                                 tangon = _closure4_slot1;
                                 zuuluu = tangon.getHash;
                                 michal = _closure4_slot4;
                                 michal = michal.largerChunks;
                                 michal = zuuluu.bind(tangon)(michal);
-                                SaveGenerator(address=39);
- 37:
-                                return michal;
+                                SaveGenerator(address=41);
  39:
+                                return michal;
+ 41:
                                 ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                                if(zuuluu) { _fun00032_ip = 48; continue _fun00031 }
- 45:
+                                if(zuuluu) { _fun00032_ip = 50; continue _fun00031 }
+ 47:
                                 return michal;
- 48:
+ 50:
                                 return michal;
- 51:
+ 53:
                                 return entity;
                             }
                         };

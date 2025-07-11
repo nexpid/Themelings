@@ -30,6 +30,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['SHELF'] = report;
     entity = 'SHELF';
     michal[report] = entity;
+    report = 5;
+    michal['COUNTDOWN_TIMER'] = report;
+    entity = 'COUNTDOWN_TIMER';
+    michal[report] = entity;
     entity = argPlu;
     report = entity[tangon];
     tangon = argBar;

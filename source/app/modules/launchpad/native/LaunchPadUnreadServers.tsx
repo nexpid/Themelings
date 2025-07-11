@@ -724,7 +724,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = foxtra.length;
             michal = michal > zuuluu;
             entity = null;
-            if(!michal) { _fun00010_ip = 686; continue _fun00009 }
+            if(!michal) { _fun00010_ip = 684; continue _fun00009 }
  363:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot5;
@@ -802,7 +802,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard[1] = golfie;
             michal['children'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 686:
+ 684:
             return entity;
         }
     };

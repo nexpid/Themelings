@@ -236,7 +236,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard = argBar;
                 michal = this;
                 golfie = null;
-                if(!(golfie != tangon)) { _fun00010_ip = 302; continue _fun00009 }
+                if(!(golfie != tangon)) { _fun00010_ip = 298; continue _fun00009 }
  18:
                 report = global;
                 option = report.Object;
@@ -278,7 +278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 option = entity.length;
                 entity = michal.maxSamples;
                 zuuluu = verify;
-                if(!(option > entity)) { _fun00010_ip = 282; continue _fun00009 }
+                if(!(option > entity)) { _fun00010_ip = 278; continue _fun00009 }
  190:
                 option = verify.recentUses;
                 entity = option.shift;
@@ -289,25 +289,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = verify;
                 if(option > entity) { _fun00010_ip = 190; continue _fun00009 }
  230:
-                _fun00010_ip = 282; continue _fun00009;
+                _fun00010_ip = 278; continue _fun00009;
  232:
                 entity = {'totalUses': 1, 'recentUses': null, 'frecency': 4294967295, 'score': 0};
-                if(!(golfie == oscard)) { _fun00010_ip = 265; continue _fun00009 }
- 250:
+                if(!(golfie == oscard)) { _fun00010_ip = 261; continue _fun00009 }
+ 246:
                 golfie = report.Date;
                 report = golfie.now;
                 oscard = report.bind(golfie)();
- 265:
+ 261:
                 report = new Array(1);
                 report[0] = oscard;
                 entity['recentUses'] = report;
                 zuuluu = entity;
- 282:
+ 278:
                 entity = michal.usageHistory;
                 entity[tangon] = zuuluu;
                 entity = michal.markDirty;
                 entity = entity.bind(michal)();
- 302:
+ 298:
                 entity = undefined;
                 return entity;
             }

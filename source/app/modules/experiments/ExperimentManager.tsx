@@ -1,41 +1,47 @@
 // app/modules/experiments/ExperimentManager.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    report = argBar;
+    oscard = argBar;
     option = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
+    golfie = argPlu;
     var _closure1_slot0 = option;
-    var _closure1_slot1 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
     verify = entity.Object;
-    golfie = verify.defineProperty;
+    report = verify.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
+    entity = report.bind(verify)(zuuluu, entity, tangon);
     tangon = 0;
-    golfie = oscard[tangon];
+    report = golfie[tangon];
     entity = undefined;
-    golfie = option.bind(entity)(golfie);
-    var _closure1_slot2 = golfie;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
+    report = option.bind(entity)(report);
+    var _closure1_slot2 = report;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
     tangon = tangon.registerExperiment;
     var _closure1_slot3 = tangon;
     tangon = 1;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    golfie = tangon.ExperimentTypes;
-    var _closure1_slot4 = golfie;
+    tangon = golfie[tangon];
+    tangon = oscard.bind(entity)(tangon);
+    report = tangon.ExperimentTypes;
+    var _closure1_slot4 = report;
     tangon = tangon.ExposureTypes;
-    tangon = 3;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/experiments/ExperimentManager.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar, argBaz) { // Original name: trackExposureToExperiment
+    tangon = {};
+    report = 'legacy';
+    tangon['LEGACY'] = report;
+    report = 'apex';
+    tangon['APEX'] = report;
+    var _closure1_slot5 = tangon;
+    report = 3;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/experiments/ExperimentManager.tsx';
+    report = oscard.bind(golfie)(report);
+    report = function(argFoo, argBar, argBaz) { // Original name: trackExposureToExperiment
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             oscard = argBaz;
@@ -87,8 +93,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['trackExposureToExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: registerUserExperiment
+    zuuluu['trackExposureToExperiment'] = report;
+    report = function(argFoo) { // Original name: registerUserExperiment
         entity = argFoo;
         michal = entity.id;
         golfie = entity.title;
@@ -111,8 +117,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['id'] = michal;
         return entity;
     };
-    zuuluu['registerUserExperiment'] = tangon;
-    tangon = function(argFoo) { // Original name: registerGuildExperiment
+    zuuluu['registerUserExperiment'] = report;
+    report = function(argFoo) { // Original name: registerGuildExperiment
         entity = argFoo;
         michal = entity.id;
         golfie = entity.title;
@@ -135,24 +141,77 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['id'] = michal;
         return entity;
     };
-    zuuluu['registerGuildExperiment'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: overrideBucket
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 2;
-        michal = michal[entity];
-        entity = undefined;
-        tangon = zuuluu.bind(entity)(michal);
-        zuuluu = tangon.dispatch;
-        michal = {};
-        report = 'EXPERIMENT_OVERRIDE_BUCKET';
-        michal['type'] = report;
-        report = argFoo;
-        michal['experimentId'] = report;
-        report = argBar;
-        michal['experimentBucket'] = report;
-        michal = zuuluu.bind(tangon)(michal);
-        return entity;
+    zuuluu['registerGuildExperiment'] = report;
+    zuuluu['ExperimentSystem'] = tangon;
+    michal = function(argFoo, argBar, argBaz) { // Original name: overrideBucket
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            zuuluu = argFoo;
+            tangon = argBar;
+            report = argBaz;
+            michal = _closure1_slot5;
+            michal = michal.LEGACY;
+            if(!(zuuluu !== michal)) { _fun00004_ip = 159; continue _fun00003 }
+ 29:
+            michal = _closure1_slot5;
+            michal = michal.APEX;
+            if(!(zuuluu === michal)) { _fun00004_ip = 223; continue _fun00003 }
+ 46:
+            michal = null;
+            if(!(michal != report)) { _fun00004_ip = 108; continue _fun00003 }
+ 52:
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            oscard = oscard.bind(michal)(zuuluu);
+            zuuluu = oscard.dispatch;
+            michal = {};
+            golfie = 'APEX_EXPERIMENT_OVERRIDE_CREATE';
+            michal['type'] = golfie;
+            michal['experimentName'] = tangon;
+            michal['variantId'] = report;
+            michal = zuuluu.bind(oscard)(michal);
+            _fun00004_ip = 223; continue _fun00003;
+ 108:
+            oscard = _closure1_slot0;
+            zuuluu = _closure1_slot1;
+            michal = 2;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            oscard = oscard.bind(michal)(zuuluu);
+            zuuluu = oscard.dispatch;
+            michal = {};
+            golfie = 'APEX_EXPERIMENT_OVERRIDE_DELETE';
+            michal['type'] = golfie;
+            michal['experimentName'] = tangon;
+            michal = zuuluu.bind(oscard)(michal);
+            _fun00004_ip = 223; continue _fun00003;
+ 159:
+            zuuluu = _closure1_slot0;
+            michal = _closure1_slot1;
+            entity = 2;
+            michal = michal[entity];
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.dispatch;
+            entity = {};
+            oscard = 'EXPERIMENT_OVERRIDE_BUCKET';
+            entity['type'] = oscard;
+            entity['experimentId'] = tangon;
+            tangon = null;
+            oscard = tangon != report;
+            if(!oscard) { _fun00004_ip = 213; continue _fun00003 }
+ 210:
+            tangon = report;
+ 213:
+            entity['experimentBucket'] = tangon;
+            entity = michal.bind(zuuluu)(entity);
+ 223:
+            entity = undefined;
+            return entity;
+        }
     };
     zuuluu['overrideBucket'] = michal;
     return entity;

@@ -102,21 +102,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = report[entity];
         entity = undefined;
         tangon = golfie.bind(entity)(tangon);
-        golfie = tangon.AllLibdiscoreExperiments;
+        golfie = tangon.ALL_LIBDISCORE_EXPERIMENTS;
         tangon = golfie.forEach;
         zuuluu = function(argFoo) {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                 entity = argFoo;
-                michal = entity.cachedIsEnabled;
+                michal = entity.isEnabled;
                 michal = michal.bind(entity)();
-                if(!michal) { _fun00004_ip = 39; continue _fun00003 }
+                if(!michal) { _fun00004_ip = 38; continue _fun00003 }
  16:
                 zuuluu = _closure2_slot0;
                 michal = zuuluu.push;
-                entity = entity.feature;
+                entity = entity.id;
                 entity = michal.bind(zuuluu)(entity);
- 39:
+ 38:
                 entity = undefined;
                 return entity;
             }

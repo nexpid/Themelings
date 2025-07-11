@@ -751,13 +751,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         output = entity.colorString;
                         kiloes = null;
                         output = kiloes != output;
-                        if(!output) { _fun00014_ip = 149; continue _fun00013 }
- 134:
+                        if(!output) { _fun00014_ip = 150; continue _fun00013 }
+ 135:
                         output = {};
                         result = entity.colorString;
                         output['color'] = result;
                         kiloes = output;
- 149:
+ 150:
                         option['style'] = kiloes;
                         kiloes = entity.name;
                         option['text'] = kiloes;

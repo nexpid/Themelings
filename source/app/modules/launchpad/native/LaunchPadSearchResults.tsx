@@ -769,7 +769,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = foxtra.length;
             golfie = report > golfie;
             report = null;
-            if(!golfie) { _fun00004_ip = 575; continue _fun00003 }
+            if(!golfie) { _fun00004_ip = 573; continue _fun00003 }
  413:
             verify = _closure1_slot9;
             option = _closure1_slot1;
@@ -802,12 +802,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = null;
             yankee = oscard != offset;
             oscard = 'default';
-            if(!yankee) { _fun00004_ip = 568; continue _fun00003 }
- 565:
+            if(!yankee) { _fun00004_ip = 566; continue _fun00003 }
+ 563:
             oscard = offset;
- 568:
+ 566:
             report = verify.bind(tangon)(option, golfie, oscard);
- 575:
+ 573:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;
@@ -954,7 +954,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = yankee.length;
             oscard = 0;
             oscard = golfie > oscard;
-            if(!oscard) { _fun00014_ip = 401; continue _fun00013 }
+            if(!oscard) { _fun00014_ip = 399; continue _fun00013 }
  255:
             option = _closure1_slot9;
             golfie = _closure1_slot1;
@@ -985,7 +985,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = 'always';
             oscard['keyboardShouldPersistTaps'] = verify;
             report = option.bind(tangon)(golfie, oscard);
- 401:
+ 399:
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
             return entity;

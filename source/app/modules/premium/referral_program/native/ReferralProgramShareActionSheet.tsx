@@ -392,18 +392,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         golfie = tangon;
                         zuuluu = arraySpread(option, golfie, oscard);
                         zuuluu = -1;
-                        if(!(zuuluu !== report)) { _fun00010_ip = 68; continue _fun00009 }
- 51:
+                        if(!(zuuluu !== report)) { _fun00010_ip = 69; continue _fun00009 }
+ 52:
                         tangon = entity.splice;
                         zuuluu = 1;
                         zuuluu = tangon.bind(entity)(report, zuuluu);
-                        _fun00010_ip = 87; continue _fun00009;
- 68:
+                        _fun00010_ip = 88; continue _fun00009;
+ 69:
                         zuuluu = entity.push;
                         michal = _closure3_slot0;
                         michal = michal.id;
                         michal = zuuluu.bind(entity)(michal);
- 87:
+ 88:
                         return entity;
                     }
                 };

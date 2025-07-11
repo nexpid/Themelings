@@ -815,7 +815,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  965:
             entity = tangon.length;
  970:
-            if(!(zuuluu !== entity)) { _fun00002_ip = 1188; continue _fun00001 }
+            if(!(zuuluu !== entity)) { _fun00002_ip = 1186; continue _fun00001 }
  977:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot1;
@@ -862,8 +862,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['sectionHeaderSize'] = offset;
             entity['sectionFooterSize'] = verify;
             entity = tangon.bind(report)(zuuluu, entity);
-            _fun00002_ip = 1235; continue _fun00001;
- 1188:
+            _fun00002_ip = 1233; continue _fun00001;
+ 1186:
             tangon = _closure1_slot11;
             zuuluu = _closure1_slot1;
             verify = _closure1_slot2;
@@ -875,7 +875,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal['insetTop'] = golfie;
             michal['insetBottom'] = oscard;
             entity = tangon.bind(report)(zuuluu, michal);
- 1235:
+ 1233:
             return entity;
         }
     };

@@ -4357,7 +4357,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = limora.bind(tangon)(sierra, kiloes);
             report[1] = kiloes;
             kiloes = _closure1_slot20;
-            if(verify) { _fun00038_ip = 2505; continue _fun00037 }
+            if(verify) { _fun00038_ip = 2503; continue _fun00037 }
  2074:
             variable40 = _closure1_slot1;
             variable45 = _closure1_slot3;
@@ -4715,10 +4715,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = ctrled.bind(tangon)(source);
             source = source.AppLauncherEntrypoint;
             source = source.VOICE;
-            if(!(option === source)) { _fun00038_ip = 2455; continue _fun00037 }
- 2449:
+            if(!(option === source)) { _fun00038_ip = 2453; continue _fun00037 }
+ 2447:
             update = backup.scrollerRef;
- 2455:
+ 2453:
             oscard['ref'] = update;
             oscard['onScroll'] = output;
             update = backup.onScroll;
@@ -4728,8 +4728,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = backup.animatedProps;
             oscard['animatedProps'] = backup;
             oscard = kiloes.bind(tangon)(verify, oscard);
-            _fun00038_ip = 2562; continue _fun00037;
- 2505:
+            _fun00038_ip = 2560; continue _fun00037;
+ 2503:
             backup = _closure1_slot0;
             update = _closure1_slot3;
             verify = 65;
@@ -4743,7 +4743,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['onSend'] = sizing;
             verify['entrypoint'] = option;
             oscard = kiloes.bind(tangon)(backup, verify);
- 2562:
+ 2560:
             report[2] = oscard;
             verify = _closure1_slot0;
             oscard = _closure1_slot3;
@@ -4752,8 +4752,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = oscard.AppLauncherEntrypoint;
             oscard = oscard.TEXT;
             oscard = option === oscard;
-            if(!oscard) { _fun00038_ip = 2649; continue _fun00037 }
- 2602:
+            if(!oscard) { _fun00038_ip = 2647; continue _fun00037 }
+ 2600:
             verify = _closure1_slot20;
             option = _closure1_slot1;
             foxtra = _closure1_slot3;
@@ -4765,7 +4765,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie['visible'] = yankee;
             golfie['markAsDismissed'] = offset;
             oscard = verify.bind(tangon)(option, golfie);
- 2649:
+ 2647:
             report[3] = oscard;
             entity['children'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);

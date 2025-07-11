@@ -1,11 +1,11 @@
 // app/modules/guild_settings/roles/native/InRolePromptNotice.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = argBar;
+    yankee = argBaz;
     zuuluu = argFre;
     oscard = argPlu;
     var _closure1_slot0 = report;
-    entity = argBaz;
-    var _closure1_slot1 = entity;
+    var _closure1_slot1 = yankee;
     var _closure1_slot2 = oscard;
     entity = global;
     option = entity.Object;
@@ -42,10 +42,28 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = report.bind(entity)(tangon);
     golfie = option.createStyles;
     tangon = {};
-    verify = {'paddingHorizontal': 16, 'paddingTop': 16, 'flexDirection': 'row', 'alignItems': 'center'};
+    verify = {};
+    offset = 5;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.spacing;
+    romeon = romeon.PX_16;
+    verify['paddingHorizontal'] = romeon;
+    romeon = oscard[offset];
+    romeon = yankee.bind(entity)(romeon);
+    romeon = romeon.spacing;
+    romeon = romeon.PX_4;
+    verify['paddingBottom'] = romeon;
+    romeon = 'row';
+    verify['flexDirection'] = romeon;
+    romeon = 'center';
+    verify['alignItems'] = romeon;
     tangon['promptRow'] = verify;
     verify = {};
-    offset = 8;
+    offset = oscard[offset];
+    offset = yankee.bind(entity)(offset);
+    offset = offset.spacing;
+    offset = offset.PX_4;
     verify['marginLeft'] = offset;
     tangon['promptText'] = verify;
     verify = {'height': 16, 'width': 16};
@@ -68,7 +86,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = entity.bind(oscard)();
             michal = _closure1_slot0;
             zuuluu = _closure1_slot2;
-            entity = 5;
+            entity = 6;
             entity = zuuluu[entity];
             report = michal.bind(oscard)(entity);
             zuuluu = report.hasFlag;
@@ -81,7 +99,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  77:
             zuuluu = _closure1_slot0;
             report = _closure1_slot2;
-            michal = 6;
+            michal = 7;
             michal = report[michal];
             zuuluu = zuuluu.bind(oscard)(michal);
             michal = zuuluu.isRolePowerful;
@@ -94,7 +112,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot5;
             foxtra = _closure1_slot1;
             kiloes = _closure1_slot2;
-            golfie = 7;
+            golfie = 8;
             golfie = kiloes[golfie];
             verify = foxtra.bind(oscard)(golfie);
             if(michal) { _fun00002_ip = 318; continue _fun00001 }
@@ -102,7 +120,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = {};
             golfie = yankee.icon;
             michal['style'] = golfie;
-            golfie = 8;
+            golfie = 9;
             golfie = kiloes[golfie];
             golfie = foxtra.bind(oscard)(golfie);
             michal['source'] = golfie;
@@ -139,11 +157,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = {};
             romeon = yankee.icon;
             golfie['style'] = romeon;
-            romeon = 8;
+            romeon = 9;
             romeon = kiloes[romeon];
             romeon = foxtra.bind(oscard)(romeon);
             golfie['source'] = romeon;
-            romeon = 9;
+            romeon = 5;
             romeon = kiloes[romeon];
             romeon = foxtra.bind(oscard)(romeon);
             romeon = romeon.unsafe_rawColors;

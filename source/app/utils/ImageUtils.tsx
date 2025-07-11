@@ -270,8 +270,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = report.indexOf;
             entity = 'base64';
             entity = tangon.bind(report)(entity);
-            if(!(!(entity >= oscard))) { _fun00008_ip = 75; continue _fun00007 }
- 41:
+            if(!(!(entity >= oscard))) { _fun00008_ip = 76; continue _fun00007 }
+ 42:
             entity = global;
             report = entity.btoa;
             entity = zuuluu.split;
@@ -280,8 +280,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon[entity];
             entity = undefined;
             report = report.bind(entity)(tangon);
-            _fun00008_ip = 107; continue _fun00007;
- 75:
+            _fun00008_ip = 108; continue _fun00007;
+ 76:
             entity = global;
             golfie = entity.atob;
             entity = zuuluu.split;
@@ -290,7 +290,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = tangon[entity];
             entity = undefined;
             report = golfie.bind(entity)(tangon);
- 107:
+ 108:
             entity = zuuluu.split;
             entity = entity.bind(zuuluu)(michal);
             zuuluu = entity[oscard];
@@ -314,15 +314,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = report.length;
             tangon = oscard < tangon;
             oscard = 0;
-            if(!tangon) { _fun00008_ip = 234; continue _fun00007 }
- 207:
+            if(!tangon) { _fun00008_ip = 235; continue _fun00007 }
+ 208:
             tangon = report.charCodeAt;
             tangon = tangon.bind(report)(oscard);
             entity[oscard] = tangon;
             oscard = oscard + 1;
             tangon = report.length;
-            if(oscard < tangon) { _fun00008_ip = 207; continue _fun00007 }
- 234:
+            if(oscard < tangon) { _fun00008_ip = 208; continue _fun00007 }
+ 235:
             tangon = zuuluu.Blob;
             zuuluu = new Array(1);
             zuuluu[0] = entity;
@@ -350,7 +350,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     StartGenerator();
                     zuuluu = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00010_ip = 181; continue _fun00009 }
+                    if(michal) { _fun00010_ip = 183; continue _fun00009 }
  13:
                     oscard = zuuluu.type;
                     michal = null;
@@ -365,7 +365,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     tangon = report[michal];
  49:
                     michal = 'image/png';
-                    if(!(michal === tangon)) { _fun00010_ip = 145; continue _fun00009 }
+                    if(!(michal === tangon)) { _fun00010_ip = 147; continue _fun00009 }
  59:
                     michal = zuuluu.text;
                     michal = michal.bind(zuuluu)();
@@ -374,15 +374,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  72:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00010_ip = 142; continue _fun00009 }
+                    if(zuuluu) { _fun00010_ip = 144; continue _fun00009 }
  78:
                     tangon = michal.indexOf;
                     zuuluu = 'IDAT';
                     oscard = tangon.bind(michal)(zuuluu);
                     report = 0;
                     zuuluu = oscard > report;
-                    if(!zuuluu) { _fun00010_ip = 139; continue _fun00009 }
- 103:
+                    if(!zuuluu) { _fun00010_ip = 141; continue _fun00009 }
+ 104:
                     tangon = michal.substring;
                     oscard = tangon.bind(michal)(report, oscard);
                     report = oscard.indexOf;
@@ -390,11 +390,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = report.bind(oscard)(tangon);
                     tangon = -1;
                     zuuluu = tangon !== report;
- 139:
+ 141:
                     return zuuluu;
- 142:
+ 144:
                     return michal;
- 145:
+ 147:
                     michal = global;
                     tangon = michal.Error;
                     michal = tangon.prototype;
@@ -404,7 +404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = new verify[tangon](option, golfie);
                     michal = michal instanceof Object ? michal : zuuluu;
                     throw michal;
- 181:
+ 183:
                     return entity;
                 }
             };
