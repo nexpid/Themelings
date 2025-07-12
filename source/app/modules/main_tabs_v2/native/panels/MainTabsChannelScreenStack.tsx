@@ -242,30 +242,37 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             output = michal.guildId;
             sizing = michal.channelId;
             kiloes = michal.showCreateThread;
-            source = michal.transitionState;
-            var _closure2_slot0 = source;
-            ctrled = michal.cleanup;
-            var _closure2_slot1 = ctrled;
+            vacuum = michal.transitionState;
+            var _closure2_slot0 = vacuum;
+            sequen = michal.cleanup;
+            var _closure2_slot1 = sequen;
             foxtra = michal.isActive;
             report = michal.freeze;
             backup = michal.index;
-            option = _closure1_slot0;
-            result = _closure1_slot2;
-            michal = 15;
-            michal = result[michal];
+            offset = _closure1_slot1;
+            romeon = _closure1_slot2;
+            michal = 9;
+            michal = romeon[michal];
             tangon = undefined;
+            michal = offset.bind(tangon)(michal);
+            source = michal.bind(tangon)();
+            michal = _closure1_slot15;
+            echoed = michal.bind(tangon)();
+            option = _closure1_slot0;
+            michal = 15;
+            michal = romeon[michal];
             zuuluu = option.bind(tangon)(michal);
             michal = zuuluu.useNavigation;
             michal = michal.bind(zuuluu)();
             var _closure2_slot2 = michal;
-            update = _closure1_slot4;
-            zuuluu = update.useRef;
+            ctrled = _closure1_slot4;
+            zuuluu = ctrled.useRef;
             oscard = false;
-            zuuluu = zuuluu.bind(update)(oscard);
+            zuuluu = zuuluu.bind(ctrled)(oscard);
             var _closure2_slot3 = zuuluu;
-            golfie = update.useCallback;
+            golfie = ctrled.useCallback;
             zuuluu = new Array(2);
-            zuuluu[0] = ctrled;
+            zuuluu[0] = sequen;
             zuuluu[1] = michal;
             michal = function(argFoo) {
                 _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
@@ -293,22 +300,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            golfie = golfie.bind(update)(michal, zuuluu);
-            offset = _closure1_slot1;
+            golfie = golfie.bind(ctrled)(michal, zuuluu);
             michal = 16;
-            michal = result[michal];
+            michal = romeon[michal];
             zuuluu = offset.bind(tangon)(michal);
             michal = {};
             verify = 11;
-            verify = result[verify];
+            verify = romeon[verify];
             verify = option.bind(tangon)(verify);
             verify = verify.TransitionStates;
             verify = verify.YEETED;
-            verify = source !== verify;
+            verify = vacuum !== verify;
             michal['canDrag'] = verify;
             michal['onVisibilityChange'] = golfie;
             golfie = 17;
-            golfie = result[golfie];
+            golfie = romeon[golfie];
             golfie = option.bind(tangon)(golfie);
             golfie = golfie.dismissKeyboard;
             michal['onDragStart'] = golfie;
@@ -316,18 +322,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(tangon)(michal);
             golfie = zuuluu.gesture;
             verify = zuuluu.panelGestureContext;
-            romeon = zuuluu.isDragging;
+            result = zuuluu.isDragging;
             oscard = zuuluu.translateX;
             michal = zuuluu.movePanel;
             zuuluu = zuuluu.maxWidth;
-            echoed = {};
-            echoed['cleanup'] = ctrled;
-            echoed['movePanel'] = michal;
-            var _closure2_slot4 = echoed;
-            michal = update.useRef;
-            michal = michal.bind(update)(echoed);
+            update = {};
+            update['cleanup'] = sequen;
+            update['movePanel'] = michal;
+            var _closure2_slot4 = update;
+            michal = ctrled.useRef;
+            michal = michal.bind(ctrled)(update);
             var _closure2_slot5 = michal;
-            echoed = update.useEffect;
+            update = ctrled.useEffect;
             michal = function() {
                 michal = _closure2_slot5;
                 entity = _closure2_slot4;
@@ -335,10 +341,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = undefined;
                 return entity;
             };
-            michal = echoed.bind(update)(michal);
-            echoed = update.useEffect;
+            michal = update.bind(ctrled)(michal);
+            update = ctrled.useEffect;
             michal = new Array(1);
-            michal[0] = source;
+            michal[0] = vacuum;
             entity = function() {
                 _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -394,49 +400,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            entity = echoed.bind(update)(entity, michal);
+            entity = update.bind(ctrled)(entity, michal);
             entity = 10;
-            entity = result[entity];
+            entity = romeon[entity];
             michal = option.bind(tangon)(entity);
             entity = michal.useMainTabsChannelScreenStyles;
-            romeon = entity.bind(michal)(romeon, oscard, zuuluu);
+            result = entity.bind(michal)(result, oscard, zuuluu);
             zuuluu = _closure1_slot13;
             entity = 12;
-            entity = result[entity];
+            entity = romeon[entity];
             entity = option.bind(tangon)(entity);
             michal = entity.Freeze;
             entity = {};
             entity['freeze'] = report;
             report = 18;
-            report = result[report];
+            report = romeon[report];
             report = option.bind(tangon)(report);
             oscard = report.GestureDetector;
             report = {};
             report['gesture'] = golfie;
             golfie = 19;
-            golfie = result[golfie];
+            golfie = romeon[golfie];
             golfie = option.bind(tangon)(golfie);
             golfie = golfie.MainTabsChannelScreenStackContext;
             option = golfie.Provider;
             golfie = {};
             golfie['value'] = verify;
-            verify = 20;
-            verify = result[verify];
-            verify = offset.bind(tangon)(verify);
-            offset = verify.View;
+            verify = 13;
+            verify = romeon[verify];
+            offset = offset.bind(tangon)(verify);
             verify = {};
+            romeon = new Array(2);
+            romeon[0] = result;
+            result = _closure1_slot12;
+            update = result.MIDNIGHT;
+            result = undefined;
+            if(!(source === update)) { _fun00006_ip = 522; continue _fun00005 }
+ 516:
+            result = echoed.midnightContainerStyles;
+ 522:
+            romeon[1] = result;
             verify['style'] = romeon;
             romeon = !foxtra;
-            if(romeon) { _fun00006_ip = 485; continue _fun00005 }
- 483:
+            if(romeon) { _fun00006_ip = 538; continue _fun00005 }
+ 536:
             romeon = undefined;
- 485:
+ 538:
             verify['accessibilityElementsHidden'] = romeon;
             romeon = 'no-hide-descendants';
-            if(!foxtra) { _fun00006_ip = 501; continue _fun00005 }
- 499:
+            if(!foxtra) { _fun00006_ip = 554; continue _fun00005 }
+ 552:
             romeon = undefined;
- 501:
+ 554:
             verify['importantForAccessibility'] = romeon;
             foxtra = _closure1_slot13;
             romeon = _closure1_slot1;
@@ -503,7 +518,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             var _closure2_slot12 = report;
             sequen = _closure1_slot0;
             config = _closure1_slot2;
-            entity = 21;
+            entity = 20;
             entity = config[entity];
             option = sequen.bind(report)(entity);
             golfie = option.useStateFromStores;
@@ -530,11 +545,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = 1;
             ctrled = option[golfie];
             var _closure2_slot8 = ctrled;
-            vacuum = 20;
+            vacuum = 21;
             golfie = config[vacuum];
             update = sequen.bind(report)(golfie);
             echoed = update.useAnimatedReaction;
-            option = function() { // Original name: w
+            option = function() { // Original name: H
                 zuuluu = _closure2_slot2;
                 michal = zuuluu.get;
                 michal = michal.bind(zuuluu)();
@@ -559,7 +574,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  10:
                     tangon = _closure1_slot0;
                     michal = _closure1_slot2;
-                    entity = 20;
+                    entity = 21;
                     entity = michal[entity];
                     michal = undefined;
                     report = tangon.bind(michal)(entity);

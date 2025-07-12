@@ -21,7 +21,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
     golfie = golfie.VanillaExperiment;
-    verify = new Array(85);
+    verify = new Array(86);
     verify[0] = golfie;
     golfie = oscard[tangon];
     golfie = report.bind(entity)(golfie);
@@ -422,6 +422,11 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     tangon = 69;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    tangon = tangon.SensitiveContentGoreExperiment;
+    verify[85] = tangon;
+    tangon = 70;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     option = tangon.CommonTriggerPointConfiguration;
     romeon = michal.CONNECTION_OPEN;
     michal = {};
@@ -434,7 +439,7 @@ export default (function(_, argBar, argBaz, __, ___, argFre, argPlu) {
     yankee = michal;
     michal = new backup[option](foxtra, romeon, yankee, offset);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 70;
+    tangon = 71;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -78,7 +78,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = undefined;
             if(!verify) { _fun00002_ip = 246; continue _fun00001 }
  233:
-            verify = _closure1_slot38;
+            verify = _closure1_slot39;
             golfie = verify.bind(option)(zuuluu, option);
  246:
             _fun00002_ip = 264; continue _fun00001;
@@ -90,7 +90,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = golfie;
             _fun00002_ip = 282; continue _fun00001;
  269:
-            golfie = _closure1_slot38;
+            golfie = _closure1_slot39;
             oscard = golfie.bind(option)(zuuluu, option);
  282:
             tangon = oscard;
@@ -149,7 +149,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot37 = entity;
+    var _closure1_slot38 = entity;
     entity = function(argFoo, argBar) { // Original name: _arrayLikeToArray
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
@@ -182,7 +182,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot38 = entity;
+    var _closure1_slot39 = entity;
     entity = function() { // Original name: _isNativeReflectConstruct
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
@@ -215,13 +215,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot39 = michal;
+            _closure1_slot40 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot39 = entity;
+    var _closure1_slot40 = entity;
     entity = function(argFoo) { // Original name: makeRTXSSRC
         _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
@@ -240,7 +240,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    var _closure1_slot40 = entity;
+    var _closure1_slot41 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -337,6 +337,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = option.PING_INTERVAL;
     var _closure1_slot35 = option;
     var _closure1_slot36 = tangon;
+    tangon = {'fec': true, 'packetLossRate': 0.3};
+    var _closure1_slot37 = tangon;
     tangon = 22;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
@@ -357,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = _closure1_slot7;
                 yankee = entity.bind(report)(zuuluu);
                 zuuluu = _closure1_slot6;
-                entity = _closure1_slot39;
+                entity = _closure1_slot40;
                 entity = entity.bind(report)();
                 if(entity) { _fun00012_ip = 82; continue _fun00011 }
  69:
@@ -961,7 +963,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         yankee = report[golfie];
                         yankee['ssrc'] = verify;
                         yankee = report[golfie];
-                        golfie = _closure1_slot40;
+                        golfie = _closure1_slot41;
                         golfie = golfie.bind(entity)(verify);
                         yankee['rtxSsrc'] = golfie;
                         _fun00030_ip = 324; continue _fun00029;
@@ -1051,7 +1053,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         yankee = _closure3_slot0;
                         tangon = yankee.audioSSRC;
  435:
-                        zuuluu = _closure1_slot40;
+                        zuuluu = _closure1_slot41;
                         kiloes = zuuluu.bind(entity)(verify);
                         michal = _closure3_slot0;
                         backup = michal.videoStreamParameters;
@@ -2600,21 +2602,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = function(argFoo, argBar, argBaz) { // Original name: value
             _fun00059: for(var _fun00060_ip = 0; ; ) switch(_fun00060_ip) {
  0:
+                tangon = argFoo;
+                report = argBar;
+                zuuluu = argBaz;
                 michal = this;
+                golfie = michal.logger;
+                oscard = golfie.info;
+                entity = global;
+                entity = entity.HermesInternal;
+                offset = entity.concat;
+                sizing = 'Setting codecs for context: ';
+                backup = ': ';
+                romeon = ' ';
+                kiloes = zuuluu;
+                foxtra = tangon;
+                yankee = report;
+                entity = sizing[offset](kiloes, backup, foxtra, romeon, yankee, offset);
+                entity = oscard.bind(golfie)(entity);
+                entity = michal.getCodecOptions;
+                oscard = entity.bind(michal)(tangon, report, zuuluu);
+                zuuluu = _closure1_slot22;
+                zuuluu = zuuluu.RED;
+                if(!(tangon !== zuuluu)) { _fun00060_ip = 108; continue _fun00059 }
+ 102:
+                report = _closure1_slot37;
+                _fun00060_ip = 122; continue _fun00059;
+ 108:
+                report = {'fec': false, 'packetLossRate': 0};
+ 122:
                 tangon = michal.conn;
                 zuuluu = tangon.setTransportOptions;
-                golfie = michal.getCodecOptions;
-                oscard = argFoo;
-                report = argBar;
-                entity = argBaz;
-                entity = golfie.bind(michal)(oscard, report, entity);
+                entity = {};
+                kiloes = entity;
+                backup = oscard;
+                oscard = copyDataProperties(kiloes, backup);
+                kiloes = entity;
+                backup = report;
+                report = copyDataProperties(kiloes, backup);
                 entity = zuuluu.bind(tangon)(entity);
                 entity = michal.videoEncoderFallbackPending;
-                if(!entity) { _fun00060_ip = 61; continue _fun00059 }
- 53:
+                if(!entity) { _fun00060_ip = 178; continue _fun00059 }
+ 170:
                 entity = false;
                 michal['videoEncoderFallbackPending'] = entity;
- 61:
+ 178:
                 entity = undefined;
                 return entity;
             }
@@ -2889,7 +2920,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 golfie['ssrc'] = foxtra;
                 golfie['videoSsrc'] = option;
                 golfie['videoSsrcs'] = yankee;
-                oscard = _closure1_slot40;
+                oscard = _closure1_slot41;
                 oscard = oscard.bind(michal)(option);
                 golfie['rtxSsrc'] = oscard;
                 oscard = zuuluu.getLocalMute;
@@ -4622,7 +4653,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = tangon.videoStreamParameters;
                 michal = michal[offset];
                 source = michal.ssrc;
-                michal = _closure1_slot40;
+                michal = _closure1_slot41;
                 entity = tangon.videoStreamParameters;
                 entity = entity[offset];
                 entity = entity.ssrc;
@@ -4704,7 +4735,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 tangon = _closure1_slot3;
                 tangon = tangon.bind(entity)(update, romeon);
                 record = tangon[output];
-                update = _closure1_slot37;
+                update = _closure1_slot38;
                 tangon = tangon[yankee];
                 config = update.bind(entity)(tangon);
                 tangon = config.bind(entity)();
@@ -5003,7 +5034,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         }
                     };
-                    zuuluu = _closure1_slot37;
+                    zuuluu = _closure1_slot38;
                     entity = _closure3_slot0;
                     michal = entity.videoStreamParameters;
                     entity = undefined;
@@ -5117,7 +5148,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             _fun00127: for(var _fun00128_ip = 0; ; ) switch(_fun00128_ip) {
  0:
                 oscard = argFoo;
-                michal = _closure1_slot37;
+                michal = _closure1_slot38;
                 tangon = undefined;
                 entity = argBar;
                 zuuluu = michal.bind(tangon)(entity);
@@ -5126,7 +5157,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 if(entity) { _fun00128_ip = 101; continue _fun00127 }
  32:
                 entity = michal.value;
-                golfie = _closure1_slot37;
+                golfie = _closure1_slot38;
                 verify = golfie.bind(tangon)(oscard);
                 option = verify.bind(tangon)();
                 golfie = option.done;
@@ -5202,7 +5233,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = zuuluu.remoteVideoSSRCs;
                     michal = michal[tangon];
                     entity['videoSsrcs'] = michal;
-                    michal = _closure1_slot40;
+                    michal = _closure1_slot41;
                     michal = michal.bind(oscard)(report);
                     entity['rtxSsrc'] = michal;
                     michal = zuuluu.getLocalMute;
@@ -5480,7 +5511,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = {'name': '', 'type': 0, 'rtxType': 0};
                 entity = {};
                 report['params'] = entity;
-                oscard = _closure1_slot37;
+                oscard = _closure1_slot38;
                 entity = record.codecs;
                 source = oscard.bind(sequen)(entity);
                 oscard = source.bind(sequen)();
@@ -5692,112 +5723,113 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         oscard = function() { // Original name: value
             _fun00141: for(var _fun00142_ip = 0; ; ) switch(_fun00142_ip) {
  0:
-                tangon = this;
+                zuuluu = this;
                 entity = {};
-                michal = tangon.selfMute;
+                michal = zuuluu.selfMute;
                 entity['selfMute'] = michal;
                 report = _closure1_slot19;
-                michal = tangon.inputMode;
-                michal = report[michal];
-                entity['inputMode'] = michal;
-                michal = tangon.createInputModeOptions;
-                michal = michal.bind(tangon)();
-                entity['inputModeOptions'] = michal;
-                michal = tangon.minimumJitterBufferLevel;
-                entity['minimumJitterBufferLevel'] = michal;
-                michal = tangon.postponeDecodeLevel;
-                entity['postponeDecodeLevel'] = michal;
-                michal = tangon.getAttenuationOptions;
-                option = michal.bind(tangon)();
-                verify = entity;
-                michal = copyDataProperties(verify, option);
-                michal = true;
-                report = 'fec';
-                entity[report] = michal;
-                oscard = 0.3;
-                report = 'packetLossRate';
-                entity[report] = oscard;
-                oscard = tangon.qos;
-                report = 'qos';
-                entity[report] = oscard;
-                oscard = _closure1_slot34;
-                report = 'prioritySpeakerDucking';
-                entity[report] = oscard;
-                oscard = tangon.voiceBitrate;
-                report = 'encodingVoiceBitRate';
-                entity[report] = oscard;
-                oscard = _closure1_slot31;
-                report = 'callBitRate';
-                entity[report] = oscard;
-                oscard = _closure1_slot32;
-                report = 'callMinBitRate';
-                entity[report] = oscard;
-                oscard = _closure1_slot33;
-                report = 'callMaxBitRate';
-                entity[report] = oscard;
-                oscard = tangon.videoDegradationPreference;
-                report = 'encodingVideoDegradationPreference';
-                entity[report] = oscard;
-                oscard = tangon.experimentalEncoders;
-                report = 'experimentalEncoders';
-                entity[report] = oscard;
-                oscard = tangon.hardwareH264;
-                report = 'hardwareH264';
-                entity[report] = oscard;
-                oscard = tangon.softwareH264;
-                report = 'softwareH264';
-                entity[report] = oscard;
-                oscard = tangon.reconnectInterval;
-                report = 'reconnectInterval';
-                entity[report] = oscard;
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot2;
-                report = 9;
-                oscard = oscard[report];
-                report = undefined;
-                golfie = golfie.bind(report)(oscard);
-                oscard = golfie.supportsFeature;
-                report = _closure1_slot26;
-                report = report.VIDEO_EFFECTS;
-                report = oscard.bind(golfie)(report);
-                if(!report) { _fun00142_ip = 354; continue _fun00141 }
+                tangon = zuuluu.inputMode;
+                tangon = report[tangon];
+                entity['inputMode'] = tangon;
+                tangon = zuuluu.createInputModeOptions;
+                tangon = tangon.bind(zuuluu)();
+                entity['inputModeOptions'] = tangon;
+                tangon = zuuluu.minimumJitterBufferLevel;
+                entity['minimumJitterBufferLevel'] = tangon;
+                tangon = zuuluu.postponeDecodeLevel;
+                entity['postponeDecodeLevel'] = tangon;
+                tangon = zuuluu.getAttenuationOptions;
+                golfie = tangon.bind(zuuluu)();
+                option = entity;
+                tangon = copyDataProperties(option, golfie);
+                golfie = _closure1_slot37;
+                option = entity;
+                tangon = copyDataProperties(option, golfie);
+                report = zuuluu.qos;
+                tangon = 'qos';
+                entity[tangon] = report;
+                report = _closure1_slot34;
+                tangon = 'prioritySpeakerDucking';
+                entity[tangon] = report;
+                report = zuuluu.voiceBitrate;
+                tangon = 'encodingVoiceBitRate';
+                entity[tangon] = report;
+                report = _closure1_slot31;
+                tangon = 'callBitRate';
+                entity[tangon] = report;
+                report = _closure1_slot32;
+                tangon = 'callMinBitRate';
+                entity[tangon] = report;
+                report = _closure1_slot33;
+                tangon = 'callMaxBitRate';
+                entity[tangon] = report;
+                report = zuuluu.videoDegradationPreference;
+                tangon = 'encodingVideoDegradationPreference';
+                entity[tangon] = report;
+                report = zuuluu.experimentalEncoders;
+                tangon = 'experimentalEncoders';
+                entity[tangon] = report;
+                report = zuuluu.hardwareH264;
+                tangon = 'hardwareH264';
+                entity[tangon] = report;
+                report = zuuluu.softwareH264;
+                tangon = 'softwareH264';
+                entity[tangon] = report;
+                report = zuuluu.reconnectInterval;
+                tangon = 'reconnectInterval';
+                entity[tangon] = report;
+                oscard = _closure1_slot0;
+                report = _closure1_slot2;
+                tangon = 9;
+                report = report[tangon];
+                tangon = undefined;
+                oscard = oscard.bind(tangon)(report);
+                report = oscard.supportsFeature;
+                tangon = _closure1_slot26;
+                tangon = tangon.VIDEO_EFFECTS;
+                tangon = report.bind(oscard)(tangon);
+                if(!tangon) { _fun00142_ip = 335; continue _fun00141 }
+ 316:
+                oscard = zuuluu.context;
+                report = _closure1_slot23;
+                report = report.STREAM;
+                tangon = oscard === report;
  335:
-                golfie = tangon.context;
-                oscard = _closure1_slot23;
-                oscard = oscard.STREAM;
-                report = golfie === oscard;
- 354:
-                if(!report) { _fun00142_ip = 365; continue _fun00141 }
- 357:
-                entity['enableVideoEffects'] = michal;
- 365:
-                golfie = tangon.experimentFlags;
-                oscard = golfie.has;
-                report = _closure1_slot11;
-                report = report.MUTE_BEFORE_PROCESSING;
-                report = oscard.bind(golfie)(report);
-                if(!report) { _fun00142_ip = 400; continue _fun00141 }
- 394:
-                entity['muteBeforeProcessing'] = michal;
- 400:
-                golfie = tangon.experimentFlags;
-                oscard = golfie.has;
-                report = _closure1_slot11;
-                report = report.PTT_BEFORE_PROCESSING;
-                report = oscard.bind(golfie)(report);
-                if(!report) { _fun00142_ip = 435; continue _fun00141 }
- 429:
-                entity['pttBeforeProcessing'] = michal;
- 435:
-                report = tangon.experimentFlags;
-                tangon = report.has;
-                zuuluu = _closure1_slot11;
-                zuuluu = zuuluu.SKIP_ENCODE;
-                zuuluu = tangon.bind(report)(zuuluu);
-                if(!zuuluu) { _fun00142_ip = 470; continue _fun00141 }
- 464:
+                if(!tangon) { _fun00142_ip = 348; continue _fun00141 }
+ 338:
+                tangon = true;
+                entity['enableVideoEffects'] = tangon;
+ 348:
+                oscard = zuuluu.experimentFlags;
+                report = oscard.has;
+                tangon = _closure1_slot11;
+                tangon = tangon.MUTE_BEFORE_PROCESSING;
+                tangon = report.bind(oscard)(tangon);
+                if(!tangon) { _fun00142_ip = 385; continue _fun00141 }
+ 377:
+                tangon = true;
+                entity['muteBeforeProcessing'] = tangon;
+ 385:
+                oscard = zuuluu.experimentFlags;
+                report = oscard.has;
+                tangon = _closure1_slot11;
+                tangon = tangon.PTT_BEFORE_PROCESSING;
+                tangon = report.bind(oscard)(tangon);
+                if(!tangon) { _fun00142_ip = 422; continue _fun00141 }
+ 414:
+                tangon = true;
+                entity['pttBeforeProcessing'] = tangon;
+ 422:
+                tangon = zuuluu.experimentFlags;
+                zuuluu = tangon.has;
+                michal = _closure1_slot11;
+                michal = michal.SKIP_ENCODE;
+                michal = zuuluu.bind(tangon)(michal);
+                if(!michal) { _fun00142_ip = 459; continue _fun00141 }
+ 451:
+                michal = true;
                 entity['skipEncode'] = michal;
- 470:
+ 459:
                 return entity;
             }
         };

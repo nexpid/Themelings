@@ -539,10 +539,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = romeon;
             romeon = 'text-primary';
             foxtra = 'destructive';
-            if(!(foxtra === backup)) { _fun00004_ip = 949; continue _fun00003 }
- 943:
+            if(!(foxtra === backup)) { _fun00004_ip = 953; continue _fun00003 }
+ 947:
             romeon = 'text-danger';
- 949:
+ 953:
             report['color'] = romeon;
             report['children'] = yankee;
             golfie = option.bind(tangon)(golfie, report);

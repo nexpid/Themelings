@@ -373,10 +373,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = oscard.collectibles;
                 entity['collectibles'] = report;
                 report = oscard.display_name_styles;
-                if(!(michal == report)) { _fun00004_ip = 874; continue _fun00003 }
- 868:
+                if(!(michal == report)) { _fun00004_ip = 872; continue _fun00003 }
+ 866:
                 report = oscard.displayNameStyles;
- 874:
+ 872:
                 entity['displayNameStyles'] = report;
                 report = global;
                 golfie = report.Object;
@@ -497,14 +497,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = entity.globalName;
                 oscard = michal == report;
                 zuuluu = undefined;
-                if(oscard) { _fun00004_ip = 1018; continue _fun00003 }
- 1013:
+                if(oscard) { _fun00004_ip = 1016; continue _fun00003 }
+ 1011:
                 zuuluu = report.length;
- 1018:
-                if(!(tangon === zuuluu)) { _fun00004_ip = 1028; continue _fun00003 }
- 1022:
+ 1016:
+                if(!(tangon === zuuluu)) { _fun00004_ip = 1026; continue _fun00003 }
+ 1020:
                 entity['globalName'] = michal;
- 1028:
+ 1026:
                 return entity;
             }
         };

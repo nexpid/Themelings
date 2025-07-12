@@ -137,6 +137,80 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot6 = entity;
+    entity = function() { // Original name: _UNSAFE_markSingleUseGuildDismissibleContentAsDismissed
+        report = undefined;
+        entity = undefined;
+        tangon = _closure1_slot3;
+        zuuluu = function* (argFoo, argBar) {
+            entity = function* (argFoo, argBar) { // Original name: ?anon_0_
+                _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+ 0:
+                    StartGenerator();
+                    option = argFoo;
+                    golfie = arguments[2];
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00006_ip = 141; continue _fun00005 }
+ 16:
+                    tangon = undefined;
+                    if(!(golfie === tangon)) { _fun00006_ip = 24; continue _fun00005 }
+ 22:
+                    golfie = {};
+ 24:
+                    SaveGenerator(address=28);
+ 26:
+                    return tangon;
+ 28:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
+                    if(zuuluu) { _fun00006_ip = 138; continue _fun00005 }
+ 34:
+                    oscard = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    verify = 5;
+                    offset = zuuluu[verify];
+                    yankee = oscard.bind(tangon)(offset);
+                    offset = yankee.markDismissibleContentAsDismissedPreProcessing;
+                    offset = offset.bind(yankee)(option, golfie);
+                    zuuluu = zuuluu[verify];
+                    offset = oscard.bind(tangon)(zuuluu);
+                    oscard = offset.UNSAFE_addGuildDismissedContent;
+                    zuuluu = argBar;
+                    zuuluu = oscard.bind(offset)(option, zuuluu);
+                    SaveGenerator(address=97);
+ 95:
+                    return zuuluu;
+ 97:
+                    ResumeGenerator(result_out_reg=2, return_bool_out_reg=5);
+                    if(oscard) { _fun00006_ip = 135; continue _fun00005 }
+ 103:
+                    oscard = _closure1_slot0;
+                    report = _closure1_slot2;
+                    report = report[verify];
+                    oscard = oscard.bind(tangon)(report);
+                    report = oscard.markDismissibleContentAsDismissedPostProcessing;
+                    report = report.bind(oscard)(option, golfie);
+                    return tangon;
+ 135:
+                    return zuuluu;
+ 138:
+                    return michal;
+ 141:
+                    return entity;
+                }
+            };
+            michal = entity.next;
+            michal = michal.bind(entity)();
+            return entity;
+        };
+        tangon = tangon.bind(report)(zuuluu);
+        _closure1_slot7 = tangon;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    var _closure1_slot7 = entity;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -196,8 +270,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['UNSAFE_markDismissibleContentAsDismissed'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: UNSAFE_isSnowflakeBoundDismissibleContentDismissed
-        _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+    tangon = function(argFoo, argBar) { // Original name: UNSAFE_isSnowflakeBoundDismissibleContentDismissed
+        _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
             report = argFoo;
             michal = _closure1_slot0;
@@ -208,7 +282,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = michal.bind(oscard)(entity);
             entity = michal.disableNewUserDismissibleContent;
             entity = entity.bind(michal)(report);
-            if(entity) { _fun00006_ip = 157; continue _fun00005 }
+            if(entity) { _fun00008_ip = 157; continue _fun00007 }
  42:
             entity = _closure1_slot4;
             entity = entity.settings;
@@ -216,19 +290,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = null;
             golfie = zuuluu == entity;
             michal = undefined;
-            if(golfie) { _fun00006_ip = 94; continue _fun00005 }
+            if(golfie) { _fun00008_ip = 94; continue _fun00007 }
  69:
             entity = entity.recurringDismissibleContentStates;
             entity = entity[report];
             report = zuuluu == entity;
             michal = undefined;
-            if(report) { _fun00006_ip = 94; continue _fun00005 }
+            if(report) { _fun00008_ip = 94; continue _fun00007 }
  88:
             michal = entity.lastDismissedObjectId;
  94:
             entity = {};
             zuuluu = zuuluu != michal;
-            if(!zuuluu) { _fun00006_ip = 145; continue _fun00005 }
+            if(!zuuluu) { _fun00008_ip = 145; continue _fun00007 }
  103:
             report = _closure1_slot1;
             golfie = _closure1_slot2;
@@ -249,6 +323,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['UNSAFE_isSnowflakeBoundDismissibleContentDismissed'] = michal;
+    zuuluu['UNSAFE_isSnowflakeBoundDismissibleContentDismissed'] = tangon;
+    michal = function() { // Original name: UNSAFE_markSingleUseGuildDismissibleContentAsDismissed
+        entity = undefined;
+        tangon = _closure1_slot7;
+        zuuluu = tangon.apply;
+        entity = arguments;
+        michal = entity;
+        entity = this;
+        entity = zuuluu.bind(tangon)(entity, michal);
+        return entity;
+    };
+    zuuluu['UNSAFE_markSingleUseGuildDismissibleContentAsDismissed'] = michal;
     return entity;
 })();

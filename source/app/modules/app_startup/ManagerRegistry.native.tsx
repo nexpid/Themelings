@@ -9,8 +9,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     verify = entity.Object;
     option = verify.defineProperty;
     michal = {};
-    golfie = true;
-    michal['value'] = golfie;
+    tangon = true;
+    michal['value'] = tangon;
     entity = '__esModule';
     entity = option.bind(verify)(zuuluu, entity, michal);
     michal = {};
@@ -43,7 +43,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['AgeGateManager'] = entity;
     entity = {};
     option = function() { // Original name: inlineRequire
@@ -57,7 +57,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['AppAnalyticsManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN'];
@@ -73,7 +73,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ATTManager'] = entity;
     entity = {};
     option = function() { // Original name: inlineRequire
@@ -87,7 +87,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['AudioSessionModeManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN', 'AUDIO_SET_LOCAL_VOLUME', 'AUDIO_TOGGLE_LOCAL_MUTE', 'AUDIO_TOGGLE_LOCAL_SOUNDBOARD_MUTE'];
@@ -118,7 +118,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['BackgroundSyncManager'] = entity;
     entity = {};
     option = function() { // Original name: inlineRequire
@@ -132,7 +132,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['BlockedDomainManager'] = entity;
     entity = {};
     option = function() { // Original name: inlineRequire
@@ -146,7 +146,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['BugReportManager'] = entity;
     entity = {};
     option = ['VOICE_STATE_UPDATES', 'EMBEDDED_ACTIVITY_CLOSE', 'CONNECTION_CLOSED'];
@@ -192,7 +192,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ChangelogManager'] = entity;
     entity = {};
     option = ['GUILD_LOCAL_RING_START', 'GUILD_RING_STOP'];
@@ -208,7 +208,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['ChannelCallManager'] = entity;
     entity = {};
     option = ['GUILD_CREATE', 'POST_CONNECTION_OPEN', 'CHANNEL_SYNC'];
@@ -239,7 +239,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ChannelSafetyWarningsManager'] = entity;
     entity = {};
     option = ['VOICE_CHANNEL_SELECT', 'CALL_CREATE', 'USER_SETTINGS_MODAL_OPEN'];
@@ -268,7 +268,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['CommunicationDisabledManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN'];
@@ -299,7 +299,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['CustomStatusManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN', 'IDLE'];
@@ -315,7 +315,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['DeadchatPromptManager'] = entity;
     entity = {};
     option = ['DM_SETTINGS_UPSELL_SHOW'];
@@ -361,7 +361,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadRightBeforeConnectionOpen'] = golfie;
+    entity['loadRightBeforeConnectionOpen'] = tangon;
     michal['EntityVersionsManager'] = entity;
     entity = {};
     option = ['CHANNEL_SELECT', 'LOAD_MESSAGES_SUCCESS', 'MESSAGE_CREATE', 'MESSAGE_UPDATE', 'SEARCH_FINISH', 'MOD_VIEW_SEARCH_FINISH', 'LOAD_FORUM_POSTS', 'LOAD_ARCHIVED_THREADS_SUCCESS', 'LOAD_THREADS_SUCCESS', 'LOGOUT', 'LOAD_PINNED_MESSAGES_SUCCESS', 'USER_SETTINGS_PROTO_UPDATE', 'CHANNEL_RTC_UPDATE_CHAT_OPEN', 'SIDEBAR_VIEW_CHANNEL'];
@@ -377,7 +377,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ExplicitMediaManager'] = entity;
     entity = {};
     option = ['APP_STATE_UPDATE', 'LOGOUT', 'POST_CONNECTION_OPEN'];
@@ -393,7 +393,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['KvBackgroundManager'] = entity;
     entity = {};
     option = ['VOICE_CHANNEL_SHOW_FEEDBACK', 'STREAM_CLOSE', 'EMBEDDED_ACTIVITY_CLOSE', 'IN_APP_REPORTS_SHOW_FEEDBACK', 'BLOCK_USER_SHOW_FEEDBACK'];
@@ -424,7 +424,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ForumManager'] = entity;
     entity = {};
     option = function() { // Original name: inlineRequire
@@ -438,7 +438,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['ForumGuidelinesManager'] = entity;
     entity = {};
     option = ['CHANNEL_SELECT', 'THREAD_CREATE'];
@@ -454,7 +454,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ForumPostAnalyticsManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN', 'CONNECTION_RESUMED', 'CONNECTION_CLOSED', 'APP_STATE_UPDATE'];
@@ -470,7 +470,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['FrecencyUserSettingsManager'] = entity;
     entity = {};
     option = ['WAIT_FOR_REMOTE_SESSION', 'POST_CONNECTION_OPEN', 'SESSIONS_REPLACE', 'AUDIO_TOGGLE_SELF_DEAF', 'AUDIO_TOGGLE_SELF_MUTE', 'VOICE_STATE_UPDATES', 'CONSOLE_COMMAND_UPDATE', 'PASSIVE_UPDATE_V2', 'REMOTE_SESSION_DISCONNECT'];
@@ -501,7 +501,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['GuildOnboardingHomeManager'] = entity;
     entity = {};
     option = ['CHANNEL_SELECT', 'GUILD_DELETE', 'POST_CONNECTION_OPEN'];
@@ -517,7 +517,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['GuildOnboardingManager'] = entity;
     entity = {};
     option = ['GUILD_POWERUP_ENTITLEMENTS_CREATE', 'GUILD_POWERUP_ENTITLEMENTS_DELETE', 'GUILD_APPLIED_BOOSTS_UPDATE'];
@@ -533,8 +533,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['GuildPowerupsManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN', 'GUILD_DELETE', 'GUILD_UNAVAILABLE', 'INVITE_RESOLVE_SUCCESS', 'CHANNEL_SELECT'];
@@ -550,7 +550,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['GuildScheduledEventManager'] = entity;
     entity = {};
     option = ['INVITE_ACCEPT_SUCCESS'];
@@ -581,7 +581,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MemberVerificationApplicationManager'] = entity;
     entity = {};
     option = ['MESSAGE_UPDATE', 'MESSAGE_CREATE'];
@@ -597,7 +597,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MessageSessionMetadataManager'] = entity;
     entity = {};
     option = ['NOTIFICATIONS_SET_DISABLED_SOUNDS'];
@@ -613,7 +613,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['HolidayEventsManager'] = entity;
     entity = {};
     option = ['APP_STATE_UPDATE', 'POST_CONNECTION_OPEN'];
@@ -704,7 +704,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['JSWatchdogManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN'];
@@ -780,7 +780,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = verify;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['MetricKitManager'] = entity;
     entity = {};
     verify = ['LOGOUT'];
@@ -796,7 +796,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = verify;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['MultiAccountManager'] = entity;
     entity = {};
     verify = ['START_HANGOUT', 'END_HANGOUT', 'APP_STATE_UPDATE', 'VOICE_STATE_UPDATES', 'SPEAKING', 'MESSAGE_CREATE', 'LOAD_USER_AFFINITIES_SUCCESS'];
@@ -873,7 +873,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['NotificationPermissionManager'] = entity;
     entity = {};
     option = ['LOGOUT'];
@@ -889,7 +889,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['loadAfterConnectionOpen'] = golfie;
+    entity['loadAfterConnectionOpen'] = tangon;
     michal['NUFChannelsManager'] = entity;
     entity = {};
     option = function() { // Original name: inlineRequire
@@ -903,7 +903,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['ParticipantFocusManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN'];
@@ -947,7 +947,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['ProximitySensorManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN', 'CURRENT_USER_UPDATE', 'LOGOUT'];
@@ -1008,7 +1008,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['SavedMessagesManager'] = entity;
     entity = {};
     option = ['SAVED_MESSAGES_UPDATE', 'SAVED_MESSAGE_CREATE', 'SAVED_MESSAGE_DELETE'];
@@ -1024,7 +1024,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MessageRemindersNotificationManager'] = entity;
     entity = {};
     option = ['USER_SETTINGS_PROTO_UPDATE', 'POST_CONNECTION_OPEN'];
@@ -1040,7 +1040,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['SearchManager'] = entity;
     entity = {};
     option = ['GUILD_CREATE', 'CHANNEL_CREATE', 'LOGOUT'];
@@ -1069,7 +1069,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['SelfPresenceStoreManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN'];
@@ -1100,7 +1100,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['SharedSpacesWarningManager'] = entity;
     entity = {};
     option = ['VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES'];
@@ -1176,7 +1176,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ThreadManager'] = entity;
     entity = {};
     option = ['GUILD_CREATE', 'POST_CONNECTION_OPEN'];
@@ -1207,7 +1207,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['UrgentSystemDMManagerBase'] = entity;
     entity = {};
     option = ['CATEGORY_COLLAPSE', 'CATEGORY_EXPAND', 'CATEGORY_COLLAPSE_ALL', 'CATEGORY_EXPAND_ALL', 'POST_CONNECTION_OPEN', 'USER_GUILD_SETTINGS_FULL_UPDATE'];
@@ -1268,7 +1268,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['UserTrialOfferManager'] = entity;
     entity = {};
     option = ['VOICE_CHANNEL_SELECT'];
@@ -1389,7 +1389,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MediaPostEmbedManager'] = entity;
     entity = {};
     option = ['RTC_CONNECTION_FLAGS', 'RTC_CONNECTION_STATE', 'POST_CONNECTION_OPEN', 'RTC_CONNECTION_USERS_MERGED', 'CLIPS_ALLOW_VOICE_RECORDING_UPDATE', 'CLIPS_SETTINGS_UPDATE', 'CLIPS_INIT_FAILURE', 'STREAM_START', 'RUNNING_GAMES_CHANGE', 'RUNNING_GAME_TOGGLE_DETECTION', 'CLIPS_RESTART', 'RTC_CONNECTION_VIDEO', 'MEDIA_ENGINE_SET_HARDWARE_ENCODING'];
@@ -1405,7 +1405,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ClipsManager'] = entity;
     entity = {};
     option = function() { // Original name: inlineRequire
@@ -1419,7 +1419,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['SearchFetchManager'] = entity;
     entity = {'inlineRequire': null, 'hasStoreChangeListeners': true, 'neverLoadBeforeConnectionOpen': true};
     option = function() { // Original name: inlineRequire
@@ -1448,7 +1448,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MidjourneyOnboardingManager'] = entity;
     entity = {};
     option = ['MESSAGE_ACK', 'CHANNEL_SELECT', 'POST_CONNECTION_OPEN', 'EXPERIMENT_OVERRIDE_BUCKET', 'EXPERIMENTS_FETCH_SUCCESS'];
@@ -1464,7 +1464,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['NativeNotificationsManager'] = entity;
     entity = {};
     option = ['VIBING_WUMPUS_PLAY_MUSIC', 'VIBING_WUMPUS_STOP_MUSIC', 'VIBING_WUMPUS_PAUSE_MUSIC'];
@@ -1480,7 +1480,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['InappropriateConversationsManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN', 'CONNECTION_CLOSED', 'IDLE', 'WINDOW_FOCUS', 'CONTENT_INVENTORY_TOGGLE_FEED_HIDDEN', 'CONTENT_INVENTORY_MANUAL_REFRESH', 'CONTENT_INVENTORY_INBOX_STALE', 'SPOTIFY_NEW_TRACK', 'GAME_PROFILE_OPEN'];
@@ -1496,7 +1496,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ContentInventoryManager'] = entity;
     entity = {};
     option = ['QUESTS_FETCH_CURRENT_QUESTS_BEGIN', 'POST_CONNECTION_OPEN', 'RUNNING_GAMES_CHANGE', 'USER_SETTINGS_PROTO_UPDATE', 'LOGOUT'];
@@ -1527,8 +1527,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['QuestMobileEmbedVisibilityManager'] = entity;
     entity = {};
     option = ['MESSAGE_CREATE', 'MESSAGE_SEND_FAILED'];
@@ -1544,7 +1544,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['MessageSendFailureNotificationManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN'];
@@ -1605,8 +1605,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['PasskeyUpsellManager'] = entity;
     entity = {};
     option = ['POST_CONNECTION_OPEN'];
@@ -1637,7 +1637,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ReferralMessageManager'] = entity;
     entity = {};
     option = ['MEDIA_ENGINE_SET_AUDIO_ENABLED', 'AUDIO_INPUT_DETECTED', 'AUDIO_SET_DISPLAY_SILENCE_WARNING', 'CERTIFIED_DEVICES_SET', 'AUDIO_SET_INPUT_DEVICE', 'AUDIO_SET_OUTPUT_DEVICE', 'MEDIA_ENGINE_DEVICES', 'RTC_CONNECTION_STATE', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_SET_GO_LIVE_SOURCE', 'MEDIA_ENGINE_SOUNDSHARE_FAILED', 'MEDIA_ENGINE_NOISE_CANCELLATION_ERROR', 'MEDIA_ENGINE_VOICE_ACTIVITY_DETECTION_ERROR', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED', 'NATIVE_SCREEN_SHARE_PICKER_UPDATE', 'NATIVE_SCREEN_SHARE_PICKER_ERROR', 'MEDIA_SESSION_JOINED', 'RTC_CONNECTION_UPDATE_ID', 'RTC_CONNECTION_REMOTE_VIDEO_SINK_WANTS', 'REPORT_AV_ERROR', 'VIDEO_STREAM_READY_TIMEOUT', 'CLEAR_VIDEO_STREAM_READY_TIMEOUT', 'RTC_CONNECTION_VIDEO'];
@@ -1653,7 +1653,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['AVErrorManager'] = entity;
     entity = {};
     option = ['STREAM_WATCH', 'STREAM_START', 'STREAM_CREATE', 'STREAM_UPDATE', 'STREAM_DELETE', 'STREAM_CLOSE', 'CALL_UPDATE', 'CHANNEL_UPDATES', 'VOICE_CHANNEL_SELECT', 'VOICE_STATE_UPDATES', 'MEDIA_ENGINE_VIDEO_STATE_CHANGED'];
@@ -1669,7 +1669,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['ApplicationStreamingManager'] = entity;
     entity = {};
     option = new Array(0);
@@ -1685,12 +1685,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         return entity;
     };
     entity['inlineRequire'] = option;
-    entity['hasStoreChangeListeners'] = golfie;
+    entity['hasStoreChangeListeners'] = tangon;
     michal['LibdiscoreExperimentManager'] = entity;
     entity = {};
     option = ['CONNECTION_OPEN_SUPPLEMENTAL', 'SAFETY_FLOWS_MODAL_OPEN', 'USER_REQUIRED_ACTION_UPDATE'];
     entity['actions'] = option;
-    option = function() { // Original name: inlineRequire
+    golfie = function() { // Original name: inlineRequire
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 109;
@@ -1700,29 +1700,16 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
         entity = entity.default;
         return entity;
     };
-    entity['inlineRequire'] = option;
-    entity['neverLoadBeforeConnectionOpen'] = golfie;
+    entity['inlineRequire'] = golfie;
+    entity['neverLoadBeforeConnectionOpen'] = tangon;
     michal['SafetyFlowsManager'] = entity;
-    entity = {'inlineRequire': null, 'neverLoadBeforeConnectionOpen': true, 'hasStoreChangeListeners': true};
-    tangon = function() { // Original name: inlineRequire
-        zuuluu = _closure1_slot0;
-        michal = _closure1_slot1;
-        entity = 110;
-        michal = michal[entity];
-        entity = undefined;
-        entity = zuuluu.bind(entity)(michal);
-        entity = entity.default;
-        return entity;
-    };
-    entity['inlineRequire'] = tangon;
-    michal['NotificationsInboxAutoLoadManager'] = entity;
-    entity = 111;
+    entity = 110;
     tangon = oscard[entity];
     entity = undefined;
     golfie = report.bind(entity)(tangon);
     tangon = golfie.initialize;
     tangon = tangon.bind(golfie)(michal);
-    tangon = 112;
+    tangon = 111;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

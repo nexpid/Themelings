@@ -1732,56 +1732,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = _closure1_slot36;
                     michal = zuuluu.has;
                     michal = michal.bind(zuuluu)(oscard);
-                    if(michal) { _fun00064_ip = 169; continue _fun00063 }
- 26:
+                    if(michal) { _fun00064_ip = 128; continue _fun00063 }
+ 23:
                     michal = 'rulesChannelId';
                     michal = michal !== oscard;
-                    if(!michal) { _fun00064_ip = 45; continue _fun00063 }
- 37:
+                    if(!michal) { _fun00064_ip = 42; continue _fun00063 }
+ 34:
                     zuuluu = 'publicUpdatesChannelId';
                     michal = zuuluu !== oscard;
+ 42:
+                    if(michal) { _fun00064_ip = 64; continue _fun00063 }
  45:
-                    if(michal) { _fun00064_ip = 67; continue _fun00063 }
- 48:
                     zuuluu = _closure2_slot2;
                     tangon = zuuluu[oscard];
                     zuuluu = _closure1_slot23;
                     michal = tangon !== zuuluu;
+ 64:
+                    if(!michal) { _fun00064_ip = 75; continue _fun00063 }
  67:
-                    if(!michal) { _fun00064_ip = 169; continue _fun00063 }
- 70:
+                    zuuluu = 'features';
+                    michal = zuuluu !== oscard;
+ 75:
+                    if(!michal) { _fun00064_ip = 128; continue _fun00063 }
+ 78:
                     report = _closure1_slot8;
                     tangon = _closure2_slot1;
-                    entity = 'features';
-                    if(!(entity === oscard)) { _fun00064_ip = 127; continue _fun00063 }
- 89:
-                    entity = global;
-                    golfie = entity.Set;
-                    entity = _closure2_slot2;
-                    offset = entity[oscard];
-                    zuuluu = golfie.prototype;
-                    zuuluu = Object.create(zuuluu, {constructor: {value: golfie}});
-                    yankee = zuuluu;
-                    entity = new yankee[golfie](offset, verify);
-                    zuuluu = entity instanceof Object ? entity : zuuluu;
-                    _fun00064_ip = 156; continue _fun00063;
- 127:
                     entity = 'ownerConfiguredContentLevel';
-                    if(!(entity === oscard)) { _fun00064_ip = 145; continue _fun00063 }
- 135:
+                    if(!(entity === oscard)) { _fun00064_ip = 107; continue _fun00063 }
+ 97:
                     entity = _closure2_slot0;
-                    entity = entity[oscard];
-                    _fun00064_ip = 153; continue _fun00063;
- 145:
-                    golfie = _closure2_slot2;
-                    entity = golfie[oscard];
- 153:
-                    zuuluu = entity;
- 156:
+                    zuuluu = entity[oscard];
+                    _fun00064_ip = 115; continue _fun00063;
+ 107:
+                    entity = _closure2_slot2;
+                    zuuluu = entity[oscard];
+ 115:
                     entity = undefined;
                     entity = report.bind(entity)(tangon, oscard, zuuluu);
                     _closure2_slot1 = entity;
- 169:
+ 128:
                     entity = undefined;
                     return entity;
                 }

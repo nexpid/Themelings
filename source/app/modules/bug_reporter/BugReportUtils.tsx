@@ -73,7 +73,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = argFoo;
                     yankee = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 1012; continue _fun00003 }
+                    if(zuuluu) { _fun00004_ip = 940; continue _fun00003 }
  16:
                     option = michal;
                     verify = argBaz;
@@ -85,55 +85,39 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu['name'] = tangon;
                     tangon = michal.name;
                     zuuluu['value'] = tangon;
-                    backup = new Array(4);
-                    backup[0] = zuuluu;
-                    tangon = {};
+                    tangon = new Array(4);
+                    tangon[0] = zuuluu;
+                    oscard = {};
                     zuuluu = 'priority';
-                    tangon['name'] = zuuluu;
-                    foxtra = michal.priority;
+                    oscard['name'] = zuuluu;
+                    backup = michal.priority;
                     romeon = global;
                     zuuluu = romeon.HermesInternal;
-                    oscard = zuuluu.concat;
+                    foxtra = zuuluu.concat;
                     zuuluu = '';
-                    oscard = oscard.bind(zuuluu)(foxtra);
-                    tangon['value'] = oscard;
-                    backup[1] = tangon;
-                    tangon = {};
-                    oscard = 'override_platform_information';
-                    tangon['name'] = oscard;
-                    foxtra = yankee.overridePlatformInformation;
-                    oscard = romeon.HermesInternal;
-                    oscard = oscard.concat;
-                    oscard = oscard.bind(zuuluu)(foxtra);
-                    tangon['value'] = oscard;
-                    backup[2] = tangon;
-                    tangon = {};
+                    foxtra = foxtra.bind(zuuluu)(backup);
+                    oscard['value'] = foxtra;
+                    tangon[1] = oscard;
+                    oscard = {};
+                    foxtra = 'override_platform_information';
+                    oscard['name'] = foxtra;
+                    backup = yankee.overridePlatformInformation;
+                    foxtra = romeon.HermesInternal;
+                    foxtra = foxtra.concat;
+                    foxtra = foxtra.bind(zuuluu)(backup);
+                    oscard['value'] = foxtra;
+                    tangon[2] = oscard;
+                    foxtra = {};
                     oscard = 'theme';
-                    tangon['name'] = oscard;
-                    foxtra = _closure1_slot4;
-                    foxtra = foxtra.theme;
-                    tangon['value'] = foxtra;
-                    backup[3] = tangon;
-                    report = backup;
-                    foxtra = backup.push;
-                    tangon = {};
-                    kiloes = 'design_id';
-                    tangon['name'] = kiloes;
-                    sizing = _closure1_slot0;
-                    output = _closure1_slot2;
-                    kiloes = 5;
-                    kiloes = output[kiloes];
-                    kiloes = sizing.bind(offset)(kiloes);
-                    kiloes = kiloes.DesignIds;
-                    sizing = kiloes.DESIGN_TABS_IA;
-                    kiloes = romeon.HermesInternal;
-                    kiloes = kiloes.concat;
-                    kiloes = kiloes.bind(zuuluu)(sizing);
-                    tangon['value'] = kiloes;
-                    tangon = foxtra.bind(backup)(tangon);
+                    foxtra['name'] = oscard;
+                    backup = _closure1_slot4;
+                    backup = backup.theme;
+                    foxtra['value'] = backup;
+                    tangon[3] = foxtra;
+                    report = tangon;
                     michal = michal.description;
-                    if(!(zuuluu !== michal)) { _fun00004_ip = 292; continue _fun00003 }
- 257:
+                    if(!(zuuluu !== michal)) { _fun00004_ip = 220; continue _fun00003 }
+ 185:
                     foxtra = report;
                     tangon = foxtra.push;
                     michal = {};
@@ -143,11 +127,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = backup.description;
                     michal['value'] = backup;
                     michal = tangon.bind(foxtra)(michal);
- 292:
+ 220:
                     michal = option;
                     michal = michal.url;
-                    if(!(zuuluu !== michal)) { _fun00004_ip = 341; continue _fun00003 }
- 304:
+                    if(!(zuuluu !== michal)) { _fun00004_ip = 269; continue _fun00003 }
+ 232:
                     foxtra = report;
                     tangon = foxtra.push;
                     michal = {};
@@ -157,12 +141,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     backup = backup.url;
                     michal['value'] = backup;
                     michal = tangon.bind(foxtra)(michal);
- 341:
+ 269:
                     michal = option;
                     tangon = michal.buildOverride;
                     michal = null;
-                    if(!(michal != tangon)) { _fun00004_ip = 394; continue _fun00003 }
- 356:
+                    if(!(michal != tangon)) { _fun00004_ip = 322; continue _fun00003 }
+ 284:
                     backup = report;
                     foxtra = backup.push;
                     tangon = {};
@@ -172,24 +156,24 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = kiloes.buildOverride;
                     tangon['value'] = kiloes;
                     tangon = foxtra.bind(backup)(tangon);
- 394:
+ 322:
                     tangon = option;
                     foxtra = tangon.feature;
                     backup = michal == foxtra;
                     tangon = undefined;
-                    if(backup) { _fun00004_ip = 418; continue _fun00003 }
- 412:
+                    if(backup) { _fun00004_ip = 346; continue _fun00003 }
+ 340:
                     tangon = foxtra.asana_inbox_id;
- 418:
+ 346:
                     golfie = tangon;
                     tangon = michal != tangon;
-                    if(!tangon) { _fun00004_ip = 435; continue _fun00003 }
- 428:
+                    if(!tangon) { _fun00004_ip = 363; continue _fun00003 }
+ 356:
                     foxtra = golfie;
                     tangon = zuuluu !== foxtra;
- 435:
-                    if(!tangon) { _fun00004_ip = 484; continue _fun00003 }
- 438:
+ 363:
+                    if(!tangon) { _fun00004_ip = 412; continue _fun00003 }
+ 366:
                     backup = report;
                     foxtra = backup.push;
                     tangon = {};
@@ -201,22 +185,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     kiloes = kiloes.bind(zuuluu)(sizing);
                     tangon['value'] = kiloes;
                     tangon = foxtra.bind(backup)(tangon);
- 484:
+ 412:
                     tangon = option;
                     tangon = tangon.feature;
                     backup = michal == tangon;
                     foxtra = undefined;
-                    if(backup) { _fun00004_ip = 507; continue _fun00003 }
- 502:
+                    if(backup) { _fun00004_ip = 435; continue _fun00003 }
+ 430:
                     foxtra = tangon.name;
- 507:
+ 435:
                     michal = michal != foxtra;
-                    if(!michal) { _fun00004_ip = 518; continue _fun00003 }
- 514:
+                    if(!michal) { _fun00004_ip = 446; continue _fun00003 }
+ 442:
                     michal = zuuluu !== foxtra;
- 518:
-                    if(!michal) { _fun00004_ip = 548; continue _fun00003 }
- 521:
+ 446:
+                    if(!michal) { _fun00004_ip = 476; continue _fun00003 }
+ 449:
                     tangon = report;
                     zuuluu = tangon.push;
                     michal = {};
@@ -224,10 +208,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['name'] = backup;
                     michal['value'] = foxtra;
                     michal = zuuluu.bind(tangon)(michal);
- 548:
+ 476:
                     michal = yankee.overridePlatformInformation;
-                    if(!michal) { _fun00004_ip = 791; continue _fun00003 }
- 560:
+                    if(!michal) { _fun00004_ip = 719; continue _fun00003 }
+ 488:
                     tangon = report;
                     zuuluu = tangon.push;
                     michal = {};
@@ -280,31 +264,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = yankee.locale;
                     michal['value'] = yankee;
                     michal = zuuluu.bind(tangon)(michal);
- 791:
+ 719:
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    michal = 6;
+                    michal = 5;
                     michal = romeon[michal];
                     tangon = yankee.bind(offset)(michal);
                     zuuluu = tangon.uploadDebugLogFiles;
-                    michal = 7;
+                    michal = 6;
                     michal = romeon[michal];
                     yankee = yankee.bind(offset)(michal);
                     michal = yankee.isIOS;
                     michal = michal.bind(yankee)();
                     yankee = _closure1_slot5;
-                    if(michal) { _fun00004_ip = 854; continue _fun00003 }
- 846:
+                    if(michal) { _fun00004_ip = 782; continue _fun00003 }
+ 774:
                     michal = yankee.ANDROID_APP;
-                    _fun00004_ip = 860; continue _fun00003;
- 854:
+                    _fun00004_ip = 788; continue _fun00003;
+ 782:
                     michal = yankee.IOS_APP;
- 860:
+ 788:
                     michal = zuuluu.bind(tangon)(michal);
- 865: // try_start_0
+ 793: // try_start_0
                     zuuluu = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    michal = 8;
+                    michal = 7;
                     michal = yankee[michal];
                     tangon = zuuluu.bind(offset)(michal);
                     zuuluu = tangon.post;
@@ -316,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['fields'] = report;
                     report = {};
                     verify = _closure1_slot0;
-                    oscard = 9;
+                    oscard = 8;
                     oscard = yankee[oscard];
                     oscard = verify.bind(offset)(oscard);
                     oscard = oscard.NetworkActionNames;
@@ -331,20 +315,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = false;
                     michal['rejectWithError'] = report;
                     michal = zuuluu.bind(tangon)(michal);
-                    SaveGenerator(address=995);
- 993:
+                    SaveGenerator(address=923);
+ 921:
                     return michal;
- 995:
+ 923:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00004_ip = 1004; continue _fun00003 }
- 1001: // try_end0
+                    if(zuuluu) { _fun00004_ip = 932; continue _fun00003 }
+ 929: // try_end0
                     return michal;
- 1004:
+ 932:
                     return michal;
- 1007: // catch_target0
+ 935: // catch_target0
                     CatchBlockStart(arg_register=1);
                     return michal;
- 1012:
+ 940:
                     return entity;
                 }
             };
@@ -384,7 +368,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     var _closure1_slot5 = golfie;
     tangon = tangon.Endpoints;
     var _closure1_slot6 = tangon;
-    tangon = 10;
+    tangon = 9;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

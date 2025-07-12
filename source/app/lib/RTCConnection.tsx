@@ -3260,17 +3260,17 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = report.state;
                     zuuluu = _closure1_slot21;
                     zuuluu = zuuluu.DISCONNECTED;
-                    if(!(tangon !== zuuluu)) { _fun00096_ip = 2308; continue _fun00095 }
+                    if(!(tangon !== zuuluu)) { _fun00096_ip = 2370; continue _fun00095 }
  430:
                     tangon = report._videoQuality;
                     var _closure3_slot3 = tangon;
-                    option = null;
-                    if(!(option != tangon)) { _fun00096_ip = 651; continue _fun00095 }
+                    yankee = null;
+                    if(!(yankee != tangon)) { _fun00096_ip = 651; continue _fun00095 }
  449:
-                    verify = report.context;
+                    option = report.context;
                     zuuluu = _closure1_slot24;
                     zuuluu = zuuluu.DEFAULT;
-                    if(!(verify === zuuluu)) { _fun00096_ip = 651; continue _fun00095 }
+                    if(!(option === zuuluu)) { _fun00096_ip = 651; continue _fun00095 }
  471:
                     zuuluu = tangon.stop;
                     zuuluu = zuuluu.bind(tangon)();
@@ -3278,8 +3278,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     if(!zuuluu) { _fun00096_ip = 626; continue _fun00095 }
  493:
                     zuuluu = tangon.getOutboundStats;
-                    offset = zuuluu.bind(tangon)();
-                    verify = offset.forEach;
+                    verify = zuuluu.bind(tangon)();
+                    option = verify.forEach;
                     zuuluu = function(argFoo) {
                         _fun00097: for(var _fun00098_ip = 0; ; ) switch(_fun00098_ip) {
  0:
@@ -3375,27 +3375,27 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    zuuluu = verify.bind(offset)(zuuluu);
+                    zuuluu = option.bind(verify)(zuuluu);
                     zuuluu = tangon.getCameraDurationStats;
                     romeon = zuuluu.bind(tangon)();
-                    zuuluu = option != romeon;
+                    zuuluu = yankee != romeon;
                     if(!zuuluu) { _fun00096_ip = 549; continue _fun00095 }
  537:
-                    offset = romeon.camera_enabled_duration;
-                    verify = 0;
-                    zuuluu = offset > verify;
+                    verify = romeon.camera_enabled_duration;
+                    option = 0;
+                    zuuluu = verify > option;
  549:
                     if(!zuuluu) { _fun00096_ip = 626; continue _fun00095 }
  552:
-                    offset = _closure1_slot1;
-                    verify = _closure1_slot3;
+                    verify = _closure1_slot1;
+                    option = _closure1_slot3;
                     zuuluu = 19;
-                    verify = verify[zuuluu];
+                    option = option[zuuluu];
                     zuuluu = undefined;
-                    yankee = offset.bind(zuuluu)(verify);
-                    offset = yankee.track;
+                    offset = verify.bind(zuuluu)(option);
+                    verify = offset.track;
                     zuuluu = _closure1_slot19;
-                    verify = zuuluu.VIDEO_CALL_ENDED;
+                    option = zuuluu.VIDEO_CALL_ENDED;
                     zuuluu = {};
                     ctrled = zuuluu;
                     source = romeon;
@@ -3404,11 +3404,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     foxtra = romeon.bind(report)();
                     romeon = 'media_session_id';
                     zuuluu[romeon] = foxtra;
-                    zuuluu = offset.bind(yankee)(verify, zuuluu);
+                    zuuluu = verify.bind(offset)(option, zuuluu);
  626:
                     zuuluu = tangon.getInboundParticipants;
-                    verify = zuuluu.bind(tangon)();
-                    tangon = verify.forEach;
+                    option = zuuluu.bind(tangon)();
+                    tangon = option.forEach;
                     zuuluu = function(argFoo) {
                         _fun00099: for(var _fun00100_ip = 0; ; ) switch(_fun00100_ip) {
  0:
@@ -3498,7 +3498,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             return entity;
                         }
                     };
-                    zuuluu = tangon.bind(verify)(zuuluu);
+                    zuuluu = tangon.bind(option)(zuuluu);
  651:
                     zuuluu = report.getMediaSessionId;
                     zuuluu = zuuluu.bind(report)();
@@ -3507,8 +3507,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = tangon.getMediaEngine;
                     tangon = zuuluu.bind(tangon)();
                     zuuluu = tangon.getCodecSurvey;
-                    verify = zuuluu.bind(tangon)();
-                    tangon = verify.then;
+                    option = zuuluu.bind(tangon)();
+                    tangon = option.then;
                     zuuluu = function(argFoo) {
                         _fun00101: for(var _fun00102_ip = 0; ; ) switch(_fun00102_ip) {
  0:
@@ -3560,8 +3560,8 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             throw entity;
                         }
                     };
-                    verify = tangon.bind(verify)(zuuluu);
-                    tangon = verify.catch;
+                    option = tangon.bind(option)(zuuluu);
+                    tangon = option.catch;
                     zuuluu = function(argFoo) {
                         entity = _closure3_slot0;
                         zuuluu = entity.logger;
@@ -3571,43 +3571,43 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = undefined;
                         return entity;
                     };
-                    zuuluu = tangon.bind(verify)(zuuluu);
+                    zuuluu = tangon.bind(option)(zuuluu);
                     tangon = report._trackMLSFailures;
                     zuuluu = {};
-                    verify = false;
-                    zuuluu['recovered'] = verify;
+                    option = false;
+                    zuuluu['recovered'] = option;
                     zuuluu = tangon.bind(report)(zuuluu);
                     tangon = _closure1_slot17;
                     zuuluu = tangon.shouldIncludePreferredRegion;
                     zuuluu = zuuluu.bind(tangon)();
-                    romeon = null;
+                    offset = null;
                     if(!zuuluu) { _fun00096_ip = 773; continue _fun00095 }
  759:
                     tangon = _closure1_slot17;
                     zuuluu = tangon.getPreferredRegion;
-                    romeon = zuuluu.bind(tangon)();
+                    offset = zuuluu.bind(tangon)();
  773:
                     tangon = _closure1_slot14;
                     zuuluu = tangon.getSettings;
                     tangon = zuuluu.bind(tangon)();
-                    offset = _closure1_slot13;
-                    verify = offset.getChannel;
+                    verify = _closure1_slot13;
+                    option = verify.getChannel;
                     zuuluu = report.channelId;
-                    verify = verify.bind(offset)(zuuluu);
-                    yankee = _closure1_slot10;
-                    offset = yankee.getConnectionStats;
+                    option = option.bind(verify)(zuuluu);
+                    romeon = _closure1_slot10;
+                    verify = romeon.getConnectionStats;
                     zuuluu = report.getMediaEngineConnectionId;
                     zuuluu = zuuluu.bind(report)();
-                    zuuluu = offset.bind(yankee)(zuuluu);
-                    foxtra = option == zuuluu;
-                    yankee = undefined;
-                    offset = undefined;
-                    if(foxtra) { _fun00096_ip = 890; continue _fun00095 }
+                    zuuluu = verify.bind(romeon)(zuuluu);
+                    romeon = yankee == zuuluu;
+                    foxtra = undefined;
+                    verify = undefined;
+                    if(romeon) { _fun00096_ip = 890; continue _fun00095 }
  842:
                     zuuluu = zuuluu.stats;
                     zuuluu = zuuluu.rtp;
                     kiloes = zuuluu.outbound;
-                    foxtra = kiloes.find;
+                    romeon = kiloes.find;
                     zuuluu = function(argFoo) {
                         entity = argFoo;
                         michal = entity.type;
@@ -3615,300 +3615,300 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         entity = entity === michal;
                         return entity;
                     };
-                    zuuluu = foxtra.bind(kiloes)(zuuluu);
-                    foxtra = option == zuuluu;
-                    offset = undefined;
-                    if(foxtra) { _fun00096_ip = 890; continue _fun00095 }
+                    zuuluu = romeon.bind(kiloes)(zuuluu);
+                    romeon = yankee == zuuluu;
+                    verify = undefined;
+                    if(romeon) { _fun00096_ip = 890; continue _fun00095 }
  884:
-                    offset = zuuluu.sampleRateMismatchPercent;
+                    verify = zuuluu.sampleRateMismatchPercent;
  890:
                     zuuluu = {};
-                    foxtra = report._getAnalyticsProperties;
-                    source = foxtra.bind(report)();
+                    romeon = report._getAnalyticsProperties;
+                    source = romeon.bind(report)();
                     ctrled = zuuluu;
-                    foxtra = copyDataProperties(ctrled, source);
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report.hostname;
-                    foxtra = 'hostname';
-                    zuuluu[foxtra] = kiloes;
+                    romeon = 'hostname';
+                    zuuluu[romeon] = kiloes;
                     kiloes = report.port;
-                    foxtra = 'port';
-                    zuuluu[foxtra] = kiloes;
+                    romeon = 'port';
+                    zuuluu[romeon] = kiloes;
                     kiloes = report.protocol;
-                    foxtra = 'protocol';
-                    zuuluu[foxtra] = kiloes;
-                    foxtra = 'reconnect';
-                    zuuluu[foxtra] = oscard;
-                    foxtra = 'reason';
-                    zuuluu[foxtra] = backup;
-                    foxtra = report.getDuration;
-                    backup = foxtra.bind(report)();
-                    foxtra = 'duration';
-                    zuuluu[foxtra] = backup;
+                    romeon = 'protocol';
+                    zuuluu[romeon] = kiloes;
+                    romeon = 'reconnect';
+                    zuuluu[romeon] = oscard;
+                    romeon = 'reason';
+                    zuuluu[romeon] = backup;
+                    romeon = report.getDuration;
+                    backup = romeon.bind(report)();
+                    romeon = 'duration';
+                    zuuluu[romeon] = backup;
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1018; continue _fun00095 }
  1006:
                     backup = kiloes.getMosStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1018:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1053; continue _fun00095 }
  1043:
                     backup = kiloes.getPacketStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1053:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1090; continue _fun00095 }
  1078:
                     backup = kiloes.getBytesStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1090:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1127; continue _fun00095 }
  1115:
                     backup = kiloes.getBufferStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1127:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1162; continue _fun00095 }
  1152:
                     backup = kiloes.getNetworkStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1162:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1199; continue _fun00095 }
  1187:
                     backup = kiloes.getSystemResourceStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1199:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1236; continue _fun00095 }
  1224:
                     backup = kiloes.getFrameOpStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1236:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1271; continue _fun00095 }
  1261:
                     backup = kiloes.getDurationStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1271:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1308; continue _fun00095 }
  1296:
                     backup = kiloes.getTransportStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1308:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1345; continue _fun00095 }
  1333:
                     backup = kiloes.getE2EEStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1345:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceQuality;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1382; continue _fun00095 }
  1370:
                     backup = kiloes.getAudioDeviceStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1382:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._voiceDuration;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1417; continue _fun00095 }
  1407:
                     backup = kiloes.getDurationStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1417:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
-                    foxtra = report.getAudioDeviceStates;
-                    source = foxtra.bind(report)();
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
+                    romeon = report.getAudioDeviceStates;
+                    source = romeon.bind(report)();
                     ctrled = zuuluu;
-                    foxtra = copyDataProperties(ctrled, source);
+                    romeon = copyDataProperties(ctrled, source);
                     kiloes = report._systemResponsiveness;
-                    backup = option == kiloes;
-                    foxtra = undefined;
+                    backup = yankee == kiloes;
+                    romeon = undefined;
                     if(backup) { _fun00096_ip = 1471; continue _fun00095 }
  1459:
                     backup = kiloes.getPttQueueLatencyStats;
-                    foxtra = backup.bind(kiloes)();
+                    romeon = backup.bind(kiloes)();
  1471:
                     ctrled = zuuluu;
-                    source = foxtra;
-                    foxtra = copyDataProperties(ctrled, source);
+                    source = romeon;
+                    romeon = copyDataProperties(ctrled, source);
                     backup = report._numNoiseCancellationChanges;
-                    foxtra = 'num_noise_cancellation_changes';
-                    zuuluu[foxtra] = backup;
-                    foxtra = report.getMediaSessionId;
-                    backup = foxtra.bind(report)();
-                    foxtra = 'media_session_id';
-                    zuuluu[foxtra] = backup;
-                    backup = option != verify;
-                    foxtra = null;
+                    romeon = 'num_noise_cancellation_changes';
+                    zuuluu[romeon] = backup;
+                    romeon = report.getMediaSessionId;
+                    backup = romeon.bind(report)();
+                    romeon = 'media_session_id';
+                    zuuluu[romeon] = backup;
+                    backup = yankee != option;
+                    romeon = null;
                     if(!backup) { _fun00096_ip = 1532; continue _fun00095 }
  1526:
-                    foxtra = verify.bitrate;
+                    romeon = option.bitrate;
  1532:
-                    verify = 'channel_bitrate';
-                    zuuluu[verify] = foxtra;
-                    verify = 'cloudflare_best_region';
-                    zuuluu[verify] = romeon;
-                    romeon = report._connectCount;
-                    verify = 'connect_count';
-                    zuuluu[verify] = romeon;
-                    foxtra = golfie.Math;
-                    romeon = foxtra.round;
-                    verify = report.getAveragePing;
-                    verify = verify.bind(report)();
-                    romeon = romeon.bind(foxtra)(verify);
-                    verify = 'ping_average';
-                    zuuluu[verify] = romeon;
-                    romeon = report._pingBadCount;
-                    verify = 'ping_bad_count';
-                    zuuluu[verify] = romeon;
-                    verify = report._pingTimeouts;
-                    romeon = verify.length;
-                    verify = 'ping_timeout';
-                    zuuluu[verify] = romeon;
-                    romeon = report._inputDetected;
-                    verify = 'input_detected';
-                    zuuluu[verify] = romeon;
-                    romeon = _closure1_slot14;
-                    verify = romeon.getNoInputDetectedNotice;
-                    romeon = verify.bind(romeon)();
-                    verify = 'no_input_detected_notice';
-                    zuuluu[verify] = romeon;
-                    romeon = tangon.mode;
-                    verify = 'audio_input_mode';
-                    zuuluu[verify] = romeon;
-                    verify = tangon.modeOptions;
-                    romeon = verify.autoThreshold;
-                    verify = 'automatic_audio_input_sensitivity_enabled';
-                    zuuluu[verify] = romeon;
-                    verify = tangon.modeOptions;
-                    romeon = verify.threshold;
-                    verify = 'audio_input_sensitivity';
-                    zuuluu[verify] = romeon;
-                    romeon = tangon.echoCancellation;
-                    verify = 'echo_cancellation_enabled';
-                    zuuluu[verify] = romeon;
-                    romeon = tangon.sidechainCompression;
-                    verify = 'sidechain_compression_enabled';
-                    zuuluu[verify] = romeon;
-                    romeon = tangon.noiseSuppression;
-                    verify = 'noise_suppression_enabled';
-                    zuuluu[verify] = romeon;
-                    romeon = tangon.noiseCancellation;
-                    verify = 'noise_cancellation_enabled';
-                    zuuluu[verify] = romeon;
-                    romeon = report._noiseCancellationError;
-                    verify = 'noise_canceller_error';
-                    zuuluu[verify] = romeon;
-                    romeon = tangon.automaticGainControl;
-                    verify = 'automatic_gain_control_enabled';
-                    zuuluu[verify] = romeon;
-                    romeon = tangon.outputVolume;
-                    verify = 'voice_output_volume';
-                    zuuluu[verify] = romeon;
-                    romeon = report._encryptionMode;
-                    verify = 'encryption_mode';
-                    zuuluu[verify] = romeon;
-                    verify = report.channelIds;
-                    romeon = verify.size;
-                    verify = 'channel_count';
-                    zuuluu[verify] = romeon;
-                    romeon = _closure1_slot1;
-                    foxtra = _closure1_slot3;
-                    verify = 45;
-                    verify = foxtra[verify];
-                    verify = romeon.bind(yankee)(verify);
-                    romeon = verify.bind(yankee)();
-                    verify = 'device_performance_class';
-                    zuuluu[verify] = romeon;
-                    verify = report._connection;
-                    romeon = option != verify;
-                    verify = null;
-                    if(!romeon) { _fun00096_ip = 1973; continue _fun00095 }
+                    option = 'channel_bitrate';
+                    zuuluu[option] = romeon;
+                    option = 'cloudflare_best_region';
+                    zuuluu[option] = offset;
+                    offset = report._connectCount;
+                    option = 'connect_count';
+                    zuuluu[option] = offset;
+                    romeon = golfie.Math;
+                    offset = romeon.round;
+                    option = report.getAveragePing;
+                    option = option.bind(report)();
+                    offset = offset.bind(romeon)(option);
+                    option = 'ping_average';
+                    zuuluu[option] = offset;
+                    offset = report._pingBadCount;
+                    option = 'ping_bad_count';
+                    zuuluu[option] = offset;
+                    option = report._pingTimeouts;
+                    offset = option.length;
+                    option = 'ping_timeout';
+                    zuuluu[option] = offset;
+                    offset = report._inputDetected;
+                    option = 'input_detected';
+                    zuuluu[option] = offset;
+                    offset = _closure1_slot14;
+                    option = offset.getNoInputDetectedNotice;
+                    offset = option.bind(offset)();
+                    option = 'no_input_detected_notice';
+                    zuuluu[option] = offset;
+                    offset = tangon.mode;
+                    option = 'audio_input_mode';
+                    zuuluu[option] = offset;
+                    option = tangon.modeOptions;
+                    offset = option.autoThreshold;
+                    option = 'automatic_audio_input_sensitivity_enabled';
+                    zuuluu[option] = offset;
+                    option = tangon.modeOptions;
+                    offset = option.threshold;
+                    option = 'audio_input_sensitivity';
+                    zuuluu[option] = offset;
+                    offset = tangon.echoCancellation;
+                    option = 'echo_cancellation_enabled';
+                    zuuluu[option] = offset;
+                    offset = tangon.sidechainCompression;
+                    option = 'sidechain_compression_enabled';
+                    zuuluu[option] = offset;
+                    offset = tangon.noiseSuppression;
+                    option = 'noise_suppression_enabled';
+                    zuuluu[option] = offset;
+                    offset = tangon.noiseCancellation;
+                    option = 'noise_cancellation_enabled';
+                    zuuluu[option] = offset;
+                    offset = report._noiseCancellationError;
+                    option = 'noise_canceller_error';
+                    zuuluu[option] = offset;
+                    offset = tangon.automaticGainControl;
+                    option = 'automatic_gain_control_enabled';
+                    zuuluu[option] = offset;
+                    offset = tangon.outputVolume;
+                    option = 'voice_output_volume';
+                    zuuluu[option] = offset;
+                    offset = report._encryptionMode;
+                    option = 'encryption_mode';
+                    zuuluu[option] = offset;
+                    option = report.channelIds;
+                    offset = option.size;
+                    option = 'channel_count';
+                    zuuluu[option] = offset;
+                    offset = _closure1_slot1;
+                    romeon = _closure1_slot3;
+                    option = 45;
+                    option = romeon[option];
+                    option = offset.bind(foxtra)(option);
+                    offset = option.bind(foxtra)();
+                    option = 'device_performance_class';
+                    zuuluu[option] = offset;
+                    option = report._connection;
+                    option = yankee != option;
+                    offset = null;
+                    if(!option) { _fun00096_ip = 1973; continue _fun00095 }
  1943:
-                    foxtra = report._connection;
-                    romeon = option == foxtra;
+                    backup = report._connection;
+                    romeon = yankee == backup;
                     option = undefined;
                     if(romeon) { _fun00096_ip = 1970; continue _fun00095 }
  1958:
-                    romeon = foxtra.getNumFastUdpReconnects;
-                    option = romeon.bind(foxtra)();
+                    romeon = backup.getNumFastUdpReconnects;
+                    option = romeon.bind(backup)();
  1970:
-                    verify = option;
+                    offset = option;
  1973:
                     option = 'num_fast_udp_reconnects';
-                    zuuluu[option] = verify;
-                    verify = report.parentMediaSessionId;
+                    zuuluu[option] = offset;
+                    offset = report.parentMediaSessionId;
                     option = 'parent_media_session_id';
-                    zuuluu[option] = verify;
-                    verify = _closure1_slot14;
-                    option = verify.getMediaEngine;
-                    romeon = option.bind(verify)();
+                    zuuluu[option] = offset;
+                    offset = _closure1_slot14;
+                    option = offset.getMediaEngine;
+                    romeon = option.bind(offset)();
                     option = romeon.getAudioSubsystem;
                     romeon = option.bind(romeon)();
                     option = 'audio_subsystem';
                     zuuluu[option] = romeon;
-                    option = verify.getMediaEngine;
-                    romeon = option.bind(verify)();
+                    option = offset.getMediaEngine;
+                    romeon = option.bind(offset)();
                     option = romeon.getAudioLayer;
                     romeon = option.bind(romeon)();
                     option = 'audio_layer';
@@ -3921,9 +3921,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     option = 'participant_type';
                     zuuluu[option] = romeon;
                     option = 'audio_capture_sample_rate_mismatch_percent';
-                    zuuluu[option] = offset;
-                    option = verify.getState;
-                    option = option.bind(verify)();
+                    zuuluu[option] = verify;
+                    option = offset.getState;
+                    option = option.bind(offset)();
                     verify = option.krispVersion;
                     option = 'krisp_sdk_version';
                     zuuluu[option] = verify;
@@ -3999,20 +3999,36 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         };
                         return entity;
                     };
-                    zuuluu = zuuluu.bind(yankee)();
+                    zuuluu = zuuluu.bind(foxtra)();
                     option = golfie.Promise;
                     tangon = option.all;
-                    verify = zuuluu.bind(yankee)();
-                    zuuluu = new Array(2);
+                    verify = zuuluu.bind(foxtra)();
+                    zuuluu = new Array(3);
                     zuuluu[0] = verify;
-                    offset = _closure1_slot1;
-                    romeon = _closure1_slot3;
+                    romeon = _closure1_slot1;
+                    backup = _closure1_slot3;
                     verify = 46;
-                    verify = romeon[verify];
-                    offset = offset.bind(yankee)(verify);
-                    verify = offset.getKrispModel;
-                    verify = verify.bind(offset)();
+                    verify = backup[verify];
+                    romeon = romeon.bind(foxtra)(verify);
+                    verify = romeon.getKrispModel;
+                    verify = verify.bind(romeon)();
                     zuuluu[1] = verify;
+                    verify = offset.getKrispEnableStats;
+                    verify = verify.bind(offset)();
+                    if(verify) { _fun00096_ip = 2312; continue _fun00095 }
+ 2293:
+                    offset = golfie.Promise;
+                    verify = offset.resolve;
+                    verify = verify.bind(offset)(yankee);
+                    _fun00096_ip = 2336; continue _fun00095;
+ 2312:
+                    yankee = _closure1_slot14;
+                    offset = yankee.getMediaEngine;
+                    yankee = offset.bind(yankee)();
+                    offset = yankee.getNoiseCancellationStats;
+                    verify = offset.bind(yankee)();
+ 2336:
+                    zuuluu[2] = verify;
                     tangon = tangon.bind(option)(zuuluu);
                     zuuluu = tangon.then;
                     entity = function(argFoo) {
@@ -4033,26 +4049,39 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             report = golfie;
  32: // try_start_0
                             golfie = report;
-                            offset = golfie.batteryUsageRounded;
+                            yankee = golfie.batteryUsageRounded;
  41: // try_end0
                             report = undefined;
                             golfie = zuuluu;
                             if(golfie) { _fun00106_ip = 69; continue _fun00105 }
  49:
+                            golfie = oscard().value;
+                            option = michal;
+                            option = option === tangon;
+                            zuuluu = option;
+                            if(option) { _fun00106_ip = 69; continue _fun00105 }
+ 66:
+                            report = golfie;
+ 69:
+                            offset = report;
+                            report = undefined;
+                            golfie = zuuluu;
+                            if(golfie) { _fun00106_ip = 100; continue _fun00105 }
+ 80:
                             oscard = oscard().value;
                             golfie = michal;
                             golfie = golfie === tangon;
                             zuuluu = golfie;
-                            if(golfie) { _fun00106_ip = 69; continue _fun00105 }
- 66:
+                            if(golfie) { _fun00106_ip = 100; continue _fun00105 }
+ 97:
                             report = oscard;
- 69:
+ 100:
                             verify = report;
                             report = zuuluu;
-                            if(report) { _fun00106_ip = 81; continue _fun00105 }
- 78:
+                            if(report) { _fun00106_ip = 112; continue _fun00105 }
+ 109:
                             michal.return();
- 81:
+ 112:
                             golfie = _closure1_slot1;
                             option = _closure1_slot3;
                             oscard = 19;
@@ -4062,34 +4091,74 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                             report = _closure1_slot19;
                             oscard = report.VOICE_DISCONNECT;
                             report = {};
-                            romeon = _closure3_slot5;
-                            foxtra = report;
-                            yankee = copyDataProperties(foxtra, romeon);
+                            foxtra = _closure3_slot5;
+                            backup = report;
+                            romeon = copyDataProperties(backup, foxtra);
+                            romeon = yankee;
+                            yankee = 'battery_usage';
+                            report[yankee] = romeon;
                             yankee = offset;
-                            offset = 'battery_usage';
+                            offset = 'krisp_nc_model';
                             report[offset] = yankee;
                             offset = verify;
-                            verify = 'krisp_nc_model';
+                            yankee = null;
+                            offset = yankee == offset;
+                            romeon = undefined;
+                            if(offset) { _fun00106_ip = 219; continue _fun00105 }
+ 208:
+                            offset = verify;
+                            romeon = offset.lowNoiseMs;
+ 219:
+                            offset = 'duration_low_noise_detected_ms';
+                            report[offset] = romeon;
+                            offset = verify;
+                            offset = yankee == offset;
+                            romeon = undefined;
+                            if(offset) { _fun00106_ip = 253; continue _fun00105 }
+ 242:
+                            offset = verify;
+                            romeon = offset.mediumNoiseMs;
+ 253:
+                            offset = 'duration_medium_noise_detected_ms';
+                            report[offset] = romeon;
+                            offset = verify;
+                            offset = yankee == offset;
+                            romeon = undefined;
+                            if(offset) { _fun00106_ip = 287; continue _fun00105 }
+ 276:
+                            offset = verify;
+                            romeon = offset.highNoiseMs;
+ 287:
+                            offset = 'duration_high_noise_detected_ms';
+                            report[offset] = romeon;
+                            offset = verify;
+                            yankee = yankee == offset;
+                            offset = undefined;
+                            if(yankee) { _fun00106_ip = 318; continue _fun00105 }
+ 310:
+                            offset = verify.talkTimeMs;
+ 318:
+                            verify = 'duration_noise_cancellation_voice_detected_ms';
                             report[verify] = offset;
                             report = golfie.bind(option)(oscard, report);
                             return tangon;
- 171: // catch_target0
+ 337: // catch_target0
                             CatchBlockStart(arg_register=0);
-                            _fun00106_ip = 177; continue _fun00105;
- 175:
+                            _fun00106_ip = 343; continue _fun00105;
+ 341:
                             CatchBlockStart(arg_register=0);
- 177:
-                            if(zuuluu) { _fun00106_ip = 183; continue _fun00105 }
- 180:
+ 343:
+                            if(zuuluu) { _fun00106_ip = 349; continue _fun00105 }
+ 346:
                             michal.return();
- 183:
+ 349:
                             throw entity;
                         }
                     };
                     entity = zuuluu.bind(tangon)(entity);
                     entity = report._trackRemainingSecureFrameTransitions;
                     entity = entity.bind(report)();
- 2308:
+ 2370:
                     entity = new Array(0);
                     report['_pingTimeouts'] = entity;
                     entity = new Array(0);
@@ -4102,11 +4171,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = null;
                     report['_mediaSessionId'] = zuuluu;
                     option = report._voiceQuality;
-                    if(!(zuuluu != option)) { _fun00096_ip = 2378; continue _fun00095 }
- 2368:
+                    if(!(zuuluu != option)) { _fun00096_ip = 2440; continue _fun00095 }
+ 2430:
                     entity = option.stop;
                     entity = entity.bind(option)();
- 2378:
+ 2440:
                     report['_voiceQuality'] = zuuluu;
                     verify = golfie.clearInterval;
                     option = report._voiceQualityPeriodicStatsInterval;
@@ -4117,26 +4186,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report['_noiseCancellationError'] = tangon;
                     report['_numNoiseCancellationChanges'] = tangon;
                     verify = report._voiceDuration;
-                    if(!(zuuluu != verify)) { _fun00096_ip = 2447; continue _fun00095 }
- 2437:
+                    if(!(zuuluu != verify)) { _fun00096_ip = 2509; continue _fun00095 }
+ 2499:
                     option = verify.stop;
                     option = option.bind(verify)();
- 2447:
+ 2509:
                     report['_voiceDuration'] = zuuluu;
                     verify = report._videoQuality;
-                    if(!(zuuluu != verify)) { _fun00096_ip = 2473; continue _fun00095 }
- 2463:
+                    if(!(zuuluu != verify)) { _fun00096_ip = 2535; continue _fun00095 }
+ 2525:
                     option = verify.stop;
                     option = option.bind(verify)();
- 2473:
+ 2535:
                     report['_videoQuality'] = zuuluu;
                     report['_videoHealthManager'] = zuuluu;
                     verify = report._localMediaSinkWantsManager;
-                    if(!(zuuluu != verify)) { _fun00096_ip = 2505; continue _fun00095 }
- 2495:
+                    if(!(zuuluu != verify)) { _fun00096_ip = 2567; continue _fun00095 }
+ 2557:
                     option = verify.reset;
                     option = option.bind(verify)();
- 2505:
+ 2567:
                     report['_secureFramesState'] = zuuluu;
                     verify = golfie.Set;
                     option = report.userId;
@@ -4160,13 +4229,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report['_secureFramesTransitionPrepareCount'] = tangon;
                     report['_secureFramesTransitionExecuteCount'] = tangon;
                     tangon = report._connection;
-                    if(!(zuuluu != tangon)) { _fun00096_ip = 2647; continue _fun00095 }
- 2625:
+                    if(!(zuuluu != tangon)) { _fun00096_ip = 2709; continue _fun00095 }
+ 2687:
                     tangon = report._connection;
                     report['_connection'] = zuuluu;
                     zuuluu = tangon.destroy;
                     zuuluu = zuuluu.bind(tangon)();
- 2647:
+ 2709:
                     tangon = report.setState;
                     michal = _closure1_slot21;
                     zuuluu = michal.DISCONNECTED;

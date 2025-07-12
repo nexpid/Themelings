@@ -361,12 +361,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.hasMention;
             michal = michal.id;
             michal = zuuluu.bind(tangon)(michal);
-            if(!michal) { _fun00014_ip = 46; continue _fun00013 }
- 34:
+            if(!michal) { _fun00014_ip = 48; continue _fun00013 }
+ 36:
             michal = _closure1_slot11;
             entity = true;
             michal['hasNewMentions'] = entity;
- 46:
+ 48:
             entity = undefined;
             return entity;
         }

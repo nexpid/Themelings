@@ -502,6 +502,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['EDIT_NAMEPLATE_MODAL'] = entity;
     entity = 'edit nameplate sheet';
     michal['EDIT_NAMEPLATE_SHEET'] = entity;
+    entity = 'edit display name styles modal';
+    michal['EDIT_DISPLAY_NAME_STYLES_MODAL'] = entity;
     entity = 'collectibles mobile shop marketing sheet';
     michal['COLLECTIBLES_MOBILE_SHOP_MARKETING_SHEET'] = entity;
     entity = 'channel_call_overflow_action_sheet';
@@ -646,6 +648,12 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['COLLECTIBLES_SHOP_HEADER_CAROUSEL'] = entity;
     entity = 'collectibles shop popular picks carousel';
     michal['COLLECTIBLES_SHOP_POPULAR_PICKS_CAROUSEL'] = entity;
+    entity = 'collectibles mobile shop all button';
+    michal['COLLECTIBLES_MOBILE_SHOP_ALL_BUTTON'] = entity;
+    entity = 'collectibles shop mobile featured page menu item';
+    michal['COLLECTIBLES_SHOP_MOBILE_FEATURED_PAGE_MENU_ITEM'] = entity;
+    entity = 'collectibles shop mobile shop all menu item';
+    michal['COLLECTIBLES_SHOP_MOBILE_SHOP_ALL_MENU_ITEM'] = entity;
     entity = 'collectibles profile settings upsell';
     michal['COLLECTIBLES_PROFILE_SETTINGS_UPSELL'] = entity;
     entity = 'collectibles payment modal';

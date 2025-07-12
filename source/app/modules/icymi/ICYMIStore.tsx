@@ -4373,12 +4373,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = michal.getChannel;
             yankee = entity.bind(michal)(romeon);
             michal = null;
-            if(!(michal != yankee)) { _fun00116_ip = 895; continue _fun00115 }
+            if(!(michal != yankee)) { _fun00116_ip = 907; continue _fun00115 }
  59:
             report = yankee.type;
             entity = _closure1_slot27;
             entity = entity.GUILD_TEXT;
-            if(!(report === entity)) { _fun00116_ip = 891; continue _fun00115 }
+            if(!(report === entity)) { _fun00116_ip = 903; continue _fun00115 }
  81:
             report = _closure1_slot43;
             entity = yankee.guild_id;
@@ -4403,17 +4403,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = oscard.bind(entity)(michal);
             michal = michal.ICYMICustomScore;
             michal = michal.MUTED;
-            if(!(report !== michal)) { _fun00116_ip = 887; continue _fun00115 }
+            if(!(report !== michal)) { _fun00116_ip = 899; continue _fun00115 }
  172:
             oscard = _closure1_slot23;
             report = oscard.isChannelMuted;
             michal = yankee.guild_id;
             michal = report.bind(oscard)(michal, romeon);
-            if(michal) { _fun00116_ip = 883; continue _fun00115 }
+            if(michal) { _fun00116_ip = 895; continue _fun00115 }
  199:
             michal = golfie.length;
             oscard = 0;
-            if(!(oscard !== michal)) { _fun00116_ip = 879; continue _fun00115 }
+            if(!(oscard !== michal)) { _fun00116_ip = 891; continue _fun00115 }
  213:
             report = golfie.filter;
             michal = function(argFoo) {
@@ -4460,8 +4460,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = golfie.reverse;
             option = michal.bind(golfie)();
             michal = option.length;
-            if(!(!(michal < report))) { _fun00116_ip = 875; continue _fun00115 }
- 264:
+            if(!(!(michal < report))) { _fun00116_ip = 887; continue _fun00115 }
+ 266:
             michal = option.length;
             golfie = 1;
             michal = michal - golfie;
@@ -4479,8 +4479,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = verify[michal];
             verify = foxtra.bind(entity)(verify);
             verify = verify.ACTIVE_CONVERSATION_AGE;
-            if(!(!(offset > verify))) { _fun00116_ip = 871; continue _fun00115 }
- 345:
+            if(!(!(offset > verify))) { _fun00116_ip = 883; continue _fun00115 }
+ 347:
             offset = option.filter;
             verify = function(argFoo) {
                 _fun00119: for(var _fun00120_ip = 0; ; ) switch(_fun00120_ip) {
@@ -4502,8 +4502,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = option.length;
             offset = offset / verify;
             verify = 0.5;
-            if(!(!(offset > verify))) { _fun00116_ip = 867; continue _fun00115 }
- 391:
+            if(!(!(offset > verify))) { _fun00116_ip = 879; continue _fun00115 }
+ 395:
             verify = global;
             kiloes = verify.Math;
             foxtra = kiloes.floor;
@@ -4639,8 +4639,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = option.bind(offset)(tangon);
             option = _closure1_slot40;
             option[verify] = michal;
-            if(tangon) { _fun00116_ip = 865; continue _fun00115 }
- 828:
+            if(tangon) { _fun00116_ip = 877; continue _fun00115 }
+ 840:
             tangon = new Array(1);
             tangon[0] = michal;
             echoed = _closure1_slot60;
@@ -4650,16 +4650,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = tangon.slice;
             michal = michal.bind(tangon)(oscard, report);
             _closure1_slot60 = michal;
- 865:
-            return entity;
- 867:
-            entity = false;
-            return entity;
- 871:
-            entity = false;
-            return entity;
- 875:
-            entity = false;
+ 877:
             return entity;
  879:
             entity = false;
@@ -4674,6 +4665,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = false;
             return entity;
  895:
+            entity = false;
+            return entity;
+ 899:
+            entity = false;
+            return entity;
+ 903:
+            entity = false;
+            return entity;
+ 907:
             entity = false;
             return entity;
         }

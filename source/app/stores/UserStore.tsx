@@ -427,18 +427,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['globalName'] = zuuluu;
             zuuluu = delete entity.global_name;
  382:
-            tangon = entity.primary_guild;
-            if(!(report !== tangon)) { _fun00014_ip = 429; continue _fun00013 }
+            oscard = entity.primary_guild;
+            if(!(report !== oscard)) { _fun00014_ip = 429; continue _fun00013 }
  392:
+            tangon = _closure1_slot0;
+            golfie = _closure1_slot3;
+            zuuluu = 11;
+            zuuluu = golfie[zuuluu];
+            tangon = tangon.bind(report)(zuuluu);
+            zuuluu = tangon.ensureUserPrimaryGuild;
+            zuuluu = zuuluu.bind(tangon)(oscard);
+            entity['primary_guild'] = zuuluu;
+ 429:
+            tangon = entity.display_name_styles;
+            if(!(report !== tangon)) { _fun00014_ip = 481; continue _fun00013 }
+ 439:
             zuuluu = _closure1_slot0;
             oscard = _closure1_slot3;
-            michal = 11;
+            michal = 15;
             michal = oscard[michal];
             zuuluu = zuuluu.bind(report)(michal);
-            michal = zuuluu.ensureUserPrimaryGuild;
+            michal = zuuluu.parseServerDisplayNameStyles;
             michal = michal.bind(zuuluu)(tangon);
-            entity['primary_guild'] = michal;
- 429:
+            entity['displayNameStyles'] = michal;
+            michal = delete entity.display_name_styles;
+ 481:
             return entity;
         }
     };
@@ -915,10 +928,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = oscard.bind(golfie)(tangon);
             golfie = _closure1_slot0;
             tangon = _closure1_slot3;
-            oscard = 16;
+            oscard = 17;
             oscard = tangon[oscard];
             golfie = golfie.bind(entity)(oscard);
-            oscard = 15;
+            oscard = 16;
             oscard = tangon[oscard];
             tangon = tangon.paths;
             golfie = golfie.bind(entity)(oscard, tangon);
@@ -966,7 +979,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(report)();
             tangon = tangon[zuuluu];
             zuuluu = null;
-            if(!(zuuluu != tangon)) { _fun00030_ip = 212; continue _fun00029 }
+            if(!(zuuluu != tangon)) { _fun00030_ip = 216; continue _fun00029 }
  157:
             tangon = _closure1_slot15;
             zuuluu = _closure1_slot17;
@@ -980,7 +993,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = new offset[oscard](verify, option);
             michal = michal instanceof Object ? michal : report;
             tangon[zuuluu] = michal;
- 212:
+ 216:
             return entity;
         }
     };
@@ -1446,7 +1459,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  36:
             oscard = _closure1_slot2;
             report = _closure1_slot3;
-            yankee = 17;
+            yankee = 18;
             report = report[yankee];
             golfie = oscard.bind(offset)(report);
             oscard = golfie.hasFlag;
@@ -1586,7 +1599,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = golfie.set;
                         verify = _closure1_slot0;
                         zuuluu = _closure1_slot3;
-                        michal = 18;
+                        michal = 19;
                         zuuluu = zuuluu[michal];
                         michal = undefined;
                         zuuluu = verify.bind(michal)(zuuluu);
@@ -2494,7 +2507,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = argBar;
                 oscard = _closure1_slot1;
                 report = _closure1_slot3;
-                entity = 19;
+                entity = 20;
                 entity = report[entity];
                 report = undefined;
                 entity = oscard.bind(report)(entity);
@@ -2540,7 +2553,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = option.set;
             verify = _closure1_slot0;
             oscard = _closure1_slot3;
-            zuuluu = 20;
+            zuuluu = 21;
             oscard = oscard[zuuluu];
             zuuluu = undefined;
             zuuluu = verify.bind(zuuluu)(oscard);
@@ -2578,7 +2591,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = golfie.ageVerificationStatus;
             oscard = _closure1_slot0;
             report = _closure1_slot3;
-            michal = 20;
+            michal = 21;
             report = report[michal];
             michal = undefined;
             michal = oscard.bind(michal)(report);
@@ -2860,7 +2873,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = report.filter;
             golfie = _closure1_slot0;
             oscard = _closure1_slot3;
-            zuuluu = 21;
+            zuuluu = 22;
             oscard = oscard[zuuluu];
             zuuluu = undefined;
             zuuluu = golfie.bind(zuuluu)(oscard);
@@ -3196,7 +3209,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     sizing = option;
     golfie = new sizing[golfie](kiloes);
     golfie = golfie instanceof Object ? golfie : option;
-    option = 22;
+    option = 23;
     option = offset[option];
     offset = verify.bind(entity)(option);
     verify = offset.fileFinishedImporting;

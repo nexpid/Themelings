@@ -18,7 +18,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = arguments[1];
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 659; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 656; continue _fun00001 }
  13:
                     yankee = argFoo;
                     verify = undefined;
@@ -26,7 +26,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  22:
                     michal = false;
  24:
-                    foxtra = michal;
+                    backup = michal;
                     offset = undefined;
                     zuuluu = undefined;
                     report = undefined;
@@ -35,26 +35,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return verify;
  37:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 656; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 653; continue _fun00001 }
  46: // try_start_0
                     golfie = _closure1_slot0;
-                    option = _closure1_slot2;
-                    tangon = 4;
-                    tangon = option[tangon];
+                    tangon = _closure1_slot2;
+                    foxtra = 5;
+                    tangon = tangon[foxtra];
                     tangon = golfie.bind(verify)(tangon);
                     option = tangon.HTTP;
                     golfie = option.post;
                     tangon = {};
-                    backup = _closure1_slot8;
-                    romeon = backup.QUEST_ON_CONSOLE_START;
-                    yankee = romeon.bind(backup)(yankee);
+                    kiloes = _closure1_slot9;
+                    romeon = kiloes.QUEST_ON_CONSOLE_START;
+                    yankee = romeon.bind(kiloes)(yankee);
                     tangon['url'] = yankee;
-                    romeon = foxtra;
+                    romeon = backup;
                     yankee = undefined;
                     if(!romeon) { _fun00002_ip = 119; continue _fun00001 }
  109:
                     romeon = {};
-                    romeon['preview'] = foxtra;
+                    romeon['preview'] = backup;
                     yankee = romeon;
  119:
                     tangon['query'] = yankee;
@@ -68,37 +68,36 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return tangon;
  145:
                     ResumeGenerator(result_out_reg=3, return_bool_out_reg=6);
-                    if(golfie) { _fun00002_ip = 307; continue _fun00001 }
+                    if(golfie) { _fun00002_ip = 304; continue _fun00001 }
  154:
                     golfie = tangon.body;
                     offset = golfie;
                     golfie = golfie.quest_user_status;
                     option = null;
-                    if(!(option == golfie)) { _fun00002_ip = 240; continue _fun00001 }
+                    if(!(option == golfie)) { _fun00002_ip = 237; continue _fun00001 }
  174:
                     golfie = offset;
                     golfie = golfie.error_hints_v2;
-                    if(!(option != golfie)) { _fun00002_ip = 293; continue _fun00001 }
+                    if(!(option != golfie)) { _fun00002_ip = 290; continue _fun00001 }
  187:
                     golfie = offset;
                     golfie = golfie.error_hints_v2;
                     golfie = golfie.length;
-                    foxtra = 0;
-                    if(!(golfie > foxtra)) { _fun00002_ip = 293; continue _fun00001 }
+                    romeon = 0;
+                    if(!(golfie > romeon)) { _fun00002_ip = 290; continue _fun00001 }
  207:
                     golfie = {};
                     option = offset;
-                    romeon = option.error_hints_v2;
-                    yankee = romeon.slice;
-                    option = 5;
-                    option = yankee.bind(romeon)(foxtra, option);
+                    yankee = option.error_hints_v2;
+                    option = yankee.slice;
+                    option = option.bind(yankee)(romeon, foxtra);
                     golfie['errorHints'] = option;
- 237: // try_end0
+ 234: // try_end0
                     return golfie;
- 240: // try_start_1
+ 237: // try_start_1
                     golfie = _closure1_slot1;
                     option = _closure1_slot2;
-                    oscard = 5;
+                    oscard = 6;
                     oscard = option[oscard];
                     option = golfie.bind(verify)(oscard);
                     golfie = option.dispatch;
@@ -108,41 +107,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = offset.quest_user_status;
                     oscard['user_status'] = offset;
                     oscard = golfie.bind(option)(oscard);
- 293: // try_end1
+ 290: // try_end1
                     oscard = {};
                     golfie = new Array(0);
                     oscard['errorHints'] = golfie;
                     return oscard;
- 307:
+ 304:
                     return tangon;
- 310: // catch_target0 // catch_target1
+ 307: // catch_target0 // catch_target1
                     CatchBlockStart(arg_register=7);
                     golfie = _closure1_slot1;
                     offset = _closure1_slot2;
-                    oscard = 6;
+                    oscard = 7;
                     oscard = offset[oscard];
                     oscard = golfie.bind(verify)(oscard);
                     golfie = oscard.prototype;
                     golfie = Object.create(golfie, {constructor: {value: oscard}});
-                    output = golfie;
-                    sizing = option;
-                    oscard = new output[oscard](sizing, kiloes);
+                    result = golfie;
+                    output = option;
+                    oscard = new result[oscard](output, sizing);
                     oscard = oscard instanceof Object ? oscard : golfie;
                     report = oscard;
                     golfie = oscard.status;
                     oscard = 429;
-                    if(!(oscard !== golfie)) { _fun00002_ip = 535; continue _fun00001 }
- 379:
+                    if(!(oscard !== golfie)) { _fun00002_ip = 532; continue _fun00001 }
+ 376:
                     oscard = report;
                     report = oscard.getAnyErrorMessage;
                     oscard = report.bind(oscard)();
                     zuuluu = oscard;
                     report = null;
-                    if(!(report == oscard)) { _fun00002_ip = 458; continue _fun00001 }
- 401:
+                    if(!(report == oscard)) { _fun00002_ip = 455; continue _fun00001 }
+ 398:
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    report = 8;
+                    report = 9;
                     oscard = offset[report];
                     oscard = option.bind(verify)(oscard);
                     golfie = oscard.intl;
@@ -152,15 +151,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = report.t;
                     report = report.xSCvBQ;
                     report = oscard.bind(golfie)(report);
-                    _fun00002_ip = 461; continue _fun00001;
- 458:
+                    _fun00002_ip = 458; continue _fun00001;
+ 455:
                     report = zuuluu;
- 461:
+ 458:
                     zuuluu = {};
                     oscard = {};
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    golfie = 7;
+                    golfie = 8;
                     golfie = offset[golfie];
                     golfie = option.bind(verify)(golfie);
                     golfie = golfie.QuestConsoleStartErrorLocal;
@@ -174,18 +173,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report[0] = oscard;
                     zuuluu['errorHints'] = report;
                     return zuuluu;
- 535:
+ 532:
                     zuuluu = {};
                     report = {};
                     option = _closure1_slot0;
                     offset = _closure1_slot2;
-                    tangon = 7;
+                    tangon = 8;
                     tangon = offset[tangon];
                     tangon = option.bind(verify)(tangon);
                     tangon = tangon.QuestConsoleStartErrorLocal;
                     tangon = tangon.RATE_LIMITED;
                     report['type'] = tangon;
-                    tangon = 8;
+                    tangon = 9;
                     oscard = offset[tangon];
                     oscard = option.bind(verify)(oscard);
                     golfie = oscard.intl;
@@ -203,9 +202,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon[0] = report;
                     zuuluu['errorHints'] = tangon;
                     return zuuluu;
- 656:
+ 653:
                     return michal;
- 659:
+ 656:
                     return entity;
                 }
             };
@@ -214,7 +213,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot9 = tangon;
+        _closure1_slot10 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -222,7 +221,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot10 = entity;
     entity = function() { // Original name: _manualStopConsoleQuest
         report = undefined;
         entity = undefined;
@@ -237,14 +236,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    michal = 4;
+                    michal = 5;
                     michal = zuuluu[michal];
                     zuuluu = undefined;
                     michal = tangon.bind(zuuluu)(michal);
                     report = michal.HTTP;
                     tangon = report.post;
                     michal = {};
-                    option = _closure1_slot8;
+                    option = _closure1_slot9;
                     golfie = option.QUEST_ON_CONSOLE_STOP;
                     oscard = argFoo;
                     oscard = golfie.bind(option)(oscard);
@@ -269,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot10 = tangon;
+        _closure1_slot11 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -277,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = function() { // Original name: _resetRecentQuestCompletions
         report = undefined;
         entity = undefined;
@@ -292,14 +291,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  7:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    michal = 4;
+                    michal = 5;
                     michal = zuuluu[michal];
                     zuuluu = undefined;
                     michal = tangon.bind(zuuluu)(michal);
                     report = michal.HTTP;
                     tangon = report.del;
                     michal = {};
-                    oscard = _closure1_slot8;
+                    oscard = _closure1_slot9;
                     oscard = oscard.QUESTS_RESET_RECENT_QUEST_COMPLETIONS;
                     michal['url'] = oscard;
                     oscard = false;
@@ -322,7 +321,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot11 = tangon;
+        _closure1_slot12 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -330,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot11 = entity;
+    var _closure1_slot12 = entity;
     entity = function() { // Original name: _fetchCurrentQuests
         report = undefined;
         entity = undefined;
@@ -349,7 +348,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  31:
                     option = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    golfie = 5;
+                    golfie = 6;
                     oscard = zuuluu[golfie];
                     report = undefined;
                     offset = option.bind(report)(oscard);
@@ -358,23 +357,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = 'QUESTS_FETCH_CURRENT_QUESTS_BEGIN';
                     oscard['type'] = yankee;
                     oscard = verify.bind(offset)(oscard);
-                    oscard = 9;
+                    oscard = 10;
                     zuuluu = zuuluu[oscard];
                     verify = option.bind(report)(zuuluu);
                     option = verify.recordQuestRequestAttempt;
-                    zuuluu = _closure1_slot8;
+                    zuuluu = _closure1_slot9;
                     zuuluu = zuuluu.QUESTS_CURRENT_QUESTS;
                     zuuluu = option.bind(verify)(zuuluu);
  106: // try_start_0
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
-                    zuuluu = 4;
+                    zuuluu = 5;
                     zuuluu = verify[zuuluu];
                     zuuluu = option.bind(report)(zuuluu);
                     verify = zuuluu.HTTP;
                     option = verify.get;
                     zuuluu = {};
-                    offset = _closure1_slot8;
+                    offset = _closure1_slot9;
                     offset = offset.QUESTS_CURRENT_QUESTS;
                     zuuluu['url'] = offset;
                     offset = false;
@@ -393,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = function(argFoo) {
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot2;
-                        entity = 10;
+                        entity = 11;
                         michal = michal[entity];
                         entity = undefined;
                         zuuluu = zuuluu.bind(entity)(michal);
@@ -407,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = function(argFoo) {
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot2;
-                        entity = 10;
+                        entity = 11;
                         michal = michal[entity];
                         entity = undefined;
                         zuuluu = zuuluu.bind(entity)(michal);
@@ -438,7 +437,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  35:
                             tangon = _closure1_slot0;
                             oscard = _closure1_slot2;
-                            zuuluu = 11;
+                            zuuluu = 12;
                             zuuluu = oscard[zuuluu];
                             zuuluu = tangon.bind(report)(zuuluu);
                             tangon = zuuluu.SharedQuestFields;
@@ -471,7 +470,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = tangon[oscard];
                     offset = option.bind(report)(tangon);
                     verify = offset.recordQuestRequestApiResponse;
-                    tangon = _closure1_slot8;
+                    tangon = _closure1_slot9;
                     option = tangon.QUESTS_CURRENT_QUESTS;
                     tangon = {};
                     yankee = true;
@@ -491,7 +490,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = {};
                     offset = 'QUESTS_FETCH_CURRENT_QUESTS_FAILURE';
                     golfie['type'] = offset;
-                    offset = 6;
+                    offset = 7;
                     offset = zuuluu[offset];
                     offset = tangon.bind(report)(offset);
                     yankee = offset.prototype;
@@ -505,7 +504,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = zuuluu[oscard];
                     report = tangon.bind(report)(zuuluu);
                     tangon = report.recordQuestRequestApiResponse;
-                    michal = _closure1_slot8;
+                    michal = _closure1_slot9;
                     zuuluu = michal.QUESTS_CURRENT_QUESTS;
                     michal = {};
                     oscard = false;
@@ -521,7 +520,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot12 = tangon;
+        _closure1_slot13 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -529,7 +528,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot12 = entity;
+    var _closure1_slot13 = entity;
     entity = function() { // Original name: _sendHeartbeat
         report = undefined;
         entity = undefined;
@@ -562,12 +561,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  57: // try_start_0
                     report = _closure1_slot1;
                     sizing = _closure1_slot2;
-                    tangon = 12;
+                    tangon = 13;
                     tangon = sizing[tangon];
                     oscard = report.bind(zuuluu)(tangon);
                     report = oscard.post;
                     tangon = {};
-                    romeon = _closure1_slot8;
+                    romeon = _closure1_slot9;
                     yankee = romeon.QUESTS_HEARTBEAT;
                     foxtra = option;
                     yankee = yankee.bind(romeon)(foxtra);
@@ -579,7 +578,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['body'] = yankee;
                     yankee = {};
                     kiloes = _closure1_slot0;
-                    romeon = 13;
+                    romeon = 14;
                     romeon = sizing[romeon];
                     romeon = kiloes.bind(zuuluu)(romeon);
                     romeon = romeon.NetworkActionNames;
@@ -622,7 +621,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  281:
                     oscard = _closure1_slot1;
                     romeon = _closure1_slot2;
-                    report = 5;
+                    report = 6;
                     report = romeon[report];
                     verify = oscard.bind(zuuluu)(report);
                     oscard = verify.dispatch;
@@ -630,7 +629,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     yankee = 'QUESTS_SEND_HEARTBEAT_SUCCESS';
                     report['type'] = yankee;
                     yankee = _closure1_slot0;
-                    offset = 10;
+                    offset = 11;
                     offset = romeon[offset];
                     romeon = yankee.bind(zuuluu)(offset);
                     yankee = romeon.questUserStatusFromServer;
@@ -650,14 +649,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     CatchBlockStart(arg_register=10);
                     offset = _closure1_slot1;
                     romeon = _closure1_slot2;
-                    tangon = 5;
+                    tangon = 6;
                     tangon = romeon[tangon];
                     oscard = offset.bind(zuuluu)(tangon);
                     report = oscard.dispatch;
                     tangon = {};
                     verify = 'QUESTS_SEND_HEARTBEAT_FAILURE';
                     tangon['type'] = verify;
-                    verify = 6;
+                    verify = 7;
                     verify = romeon[verify];
                     verify = offset.bind(zuuluu)(verify);
                     offset = verify.prototype;
@@ -683,7 +682,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot13 = tangon;
+        _closure1_slot14 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -691,7 +690,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot13 = entity;
+    var _closure1_slot14 = entity;
     entity = function() { // Original name: _enrollInQuest
         report = undefined;
         entity = undefined;
@@ -703,7 +702,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argBar;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00014_ip = 472; continue _fun00013 }
+                    if(zuuluu) { _fun00014_ip = 515; continue _fun00013 }
  13:
                     report = argFoo;
                     offset = michal;
@@ -713,7 +712,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  31:
                     tangon = _closure1_slot0;
                     zuuluu = _closure1_slot2;
-                    michal = 14;
+                    michal = 15;
                     zuuluu = zuuluu[michal];
                     michal = undefined;
                     tangon = tangon.bind(michal)(zuuluu);
@@ -734,15 +733,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['sourceQuestContent'] = oscard;
                     michal = zuuluu.bind(tangon)(michal);
  135:
+                    tangon = report;
+                    zuuluu = _closure1_slot7;
+                    if(!(tangon === zuuluu)) { _fun00014_ip = 181; continue _fun00013 }
+ 149:
+                    oscard = _closure1_slot0;
+                    tangon = _closure1_slot2;
+                    zuuluu = 16;
+                    tangon = tangon[zuuluu];
+                    zuuluu = undefined;
+                    tangon = oscard.bind(zuuluu)(tangon);
+                    zuuluu = tangon.dismissOrbsOnboardingExperience;
+                    zuuluu = zuuluu.bind(tangon)();
+ 181:
                     oscard = _closure1_slot4;
                     tangon = oscard.isEnrolling;
                     zuuluu = report;
                     zuuluu = tangon.bind(oscard)(zuuluu);
-                    if(zuuluu) { _fun00014_ip = 467; continue _fun00013 }
- 162:
+                    if(zuuluu) { _fun00014_ip = 510; continue _fun00013 }
+ 205:
                     golfie = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    oscard = 5;
+                    oscard = 6;
                     zuuluu = zuuluu[oscard];
                     tangon = undefined;
                     option = golfie.bind(tangon)(zuuluu);
@@ -753,16 +765,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = report;
                     zuuluu['questId'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
- 214: // try_start_0
+ 257: // try_start_0
                     foxtra = _closure1_slot0;
                     yankee = _closure1_slot2;
-                    zuuluu = 4;
+                    zuuluu = 5;
                     zuuluu = yankee[zuuluu];
                     zuuluu = foxtra.bind(tangon)(zuuluu);
                     option = zuuluu.HTTP;
                     golfie = option.post;
                     zuuluu = {};
-                    romeon = _closure1_slot8;
+                    romeon = _closure1_slot9;
                     verify = romeon.QUESTS_ENROLL;
                     backup = report;
                     verify = verify.bind(romeon)(backup);
@@ -770,7 +782,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = {};
                     romeon = offset.questContent;
                     verify['location'] = romeon;
-                    romeon = 10;
+                    romeon = 11;
                     yankee = yankee[romeon];
                     foxtra = foxtra.bind(tangon)(yankee);
                     yankee = foxtra.getAdDecisionData;
@@ -782,13 +794,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = true;
                     zuuluu['rejectWithError'] = verify;
                     zuuluu = golfie.bind(option)(zuuluu);
-                    SaveGenerator(address=337);
- 335:
+                    SaveGenerator(address=380);
+ 378:
                     return zuuluu;
- 337:
+ 380:
                     ResumeGenerator(result_out_reg=2, return_bool_out_reg=6);
-                    if(golfie) { _fun00014_ip = 418; continue _fun00013 }
- 343:
+                    if(golfie) { _fun00014_ip = 461; continue _fun00013 }
+ 386:
                     option = _closure1_slot1;
                     offset = _closure1_slot2;
                     golfie = offset[oscard];
@@ -805,11 +817,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = yankee.bind(romeon)(offset);
                     golfie['enrolledQuestUserStatus'] = offset;
                     golfie = option.bind(verify)(golfie);
- 416: // try_end0
-                    _fun00014_ip = 467; continue _fun00013;
- 418:
+ 459: // try_end0
+                    _fun00014_ip = 510; continue _fun00013;
+ 461:
                     return zuuluu;
- 421: // catch_target0
+ 464: // catch_target0
                     CatchBlockStart(arg_register=2);
                     zuuluu = _closure1_slot1;
                     michal = _closure1_slot2;
@@ -821,17 +833,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['type'] = oscard;
                     michal['questId'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 467:
+ 510:
                     michal = undefined;
                     return michal;
- 472:
+ 515:
                     return entity;
                 }
             };
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot14 = tangon;
+        _closure1_slot15 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -839,7 +851,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot14 = entity;
+    var _closure1_slot15 = entity;
     entity = function() { // Original name: _claimQuestReward
         report = undefined;
         entity = undefined;
@@ -865,7 +877,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  50:
                     option = _closure1_slot1;
                     zuuluu = _closure1_slot2;
-                    tangon = 5;
+                    tangon = 6;
                     zuuluu = zuuluu[tangon];
                     verify = option.bind(michal)(zuuluu);
                     option = verify.dispatch;
@@ -878,13 +890,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  100: // try_start_0
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
-                    zuuluu = 4;
+                    zuuluu = 5;
                     zuuluu = verify[zuuluu];
                     zuuluu = option.bind(michal)(zuuluu);
                     verify = zuuluu.HTTP;
                     option = verify.post;
                     zuuluu = {};
-                    backup = _closure1_slot8;
+                    backup = _closure1_slot9;
                     foxtra = backup.QUESTS_CLAIM_REWARD;
                     offset = golfie;
                     offset = foxtra.bind(backup)(offset);
@@ -905,7 +917,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  194:
                     verify = _closure1_slot0;
                     offset = _closure1_slot2;
-                    option = 10;
+                    option = 11;
                     option = offset[option];
                     offset = verify.bind(michal)(option);
                     verify = offset.questsEntitlementsFromServer;
@@ -960,7 +972,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon = {};
                     option = 'QUESTS_CLAIM_REWARD_FAILURE';
                     tangon['type'] = option;
-                    option = 6;
+                    option = 7;
                     option = offset[option];
                     option = verify.bind(michal)(option);
                     verify = option.prototype;
@@ -982,7 +994,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot15 = tangon;
+        _closure1_slot16 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -990,7 +1002,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot15 = entity;
+    var _closure1_slot16 = entity;
     entity = function() { // Original name: _fetchQuestRewardCode
         report = undefined;
         entity = undefined;
@@ -1012,7 +1024,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  40:
                     report = _closure1_slot1;
                     michal = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 6;
                     michal = michal[zuuluu];
                     verify = undefined;
                     golfie = report.bind(verify)(michal);
@@ -1026,13 +1038,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  92: // try_start_0
                     report = _closure1_slot0;
                     golfie = _closure1_slot2;
-                    michal = 4;
+                    michal = 5;
                     michal = golfie[michal];
                     michal = report.bind(verify)(michal);
                     golfie = michal.HTTP;
                     report = golfie.get;
                     michal = {};
-                    yankee = _closure1_slot8;
+                    yankee = _closure1_slot9;
                     offset = yankee.QUESTS_REWARD_CODE;
                     option = oscard;
                     option = offset.bind(yankee)(option);
@@ -1058,7 +1070,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = oscard;
                     report['questId'] = offset;
                     yankee = _closure1_slot0;
-                    offset = 10;
+                    offset = 11;
                     offset = romeon[offset];
                     romeon = yankee.bind(verify)(offset);
                     yankee = romeon.questsRewardCodeFromServer;
@@ -1080,7 +1092,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = {};
                     golfie = 'QUESTS_FETCH_REWARD_CODE_FAILURE';
                     zuuluu['type'] = golfie;
-                    golfie = 6;
+                    golfie = 7;
                     golfie = offset[golfie];
                     golfie = option.bind(verify)(golfie);
                     option = golfie.prototype;
@@ -1103,7 +1115,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot16 = tangon;
+        _closure1_slot17 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1111,7 +1123,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot16 = entity;
+    var _closure1_slot17 = entity;
     entity = function() { // Original name: _dismissQuestContent
         report = undefined;
         entity = undefined;
@@ -1133,7 +1145,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = michal.bind(zuuluu)(report);
                     golfie = _closure1_slot0;
                     michal = _closure1_slot2;
-                    romeon = 10;
+                    romeon = 11;
                     zuuluu = michal[romeon];
                     michal = undefined;
                     golfie = golfie.bind(michal)(zuuluu);
@@ -1145,7 +1157,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  87:
                     golfie = _closure1_slot1;
                     report = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 6;
                     report = report[zuuluu];
                     option = golfie.bind(michal)(report);
                     golfie = option.dispatch;
@@ -1160,13 +1172,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  144: // try_start_0
                     golfie = _closure1_slot0;
                     option = _closure1_slot2;
-                    report = 4;
+                    report = 5;
                     report = option[report];
                     report = golfie.bind(michal)(report);
                     option = report.HTTP;
                     golfie = option.post;
                     report = {};
-                    foxtra = _closure1_slot8;
+                    foxtra = _closure1_slot9;
                     yankee = foxtra.QUESTS_DISMISS_CONTENT;
                     offset = oscard;
                     verify = yankee.bind(foxtra)(offset, verify);
@@ -1213,7 +1225,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = {};
                     golfie = 'QUESTS_DISMISS_CONTENT_FAILURE';
                     zuuluu['type'] = golfie;
-                    golfie = 6;
+                    golfie = 7;
                     golfie = offset[golfie];
                     golfie = option.bind(michal)(golfie);
                     option = golfie.prototype;
@@ -1234,7 +1246,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot17 = tangon;
+        _closure1_slot18 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1242,7 +1254,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot17 = entity;
+    var _closure1_slot18 = entity;
     entity = function() { // Original name: _completeQuestPreview
         report = undefined;
         entity = undefined;
@@ -1272,13 +1284,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  41: // try_start_0
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    tangon = 4;
+                    tangon = 5;
                     tangon = oscard[tangon];
                     tangon = report.bind(zuuluu)(tangon);
                     oscard = tangon.HTTP;
                     report = oscard.post;
                     tangon = {};
-                    romeon = _closure1_slot8;
+                    romeon = _closure1_slot9;
                     yankee = romeon.QUESTS_PREVIEW_COMPLETE;
                     option = golfie;
                     option = yankee.bind(romeon)(option);
@@ -1298,7 +1310,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  131:
                     oscard = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    report = 5;
+                    report = 6;
                     report = yankee[report];
                     option = oscard.bind(zuuluu)(report);
                     oscard = option.dispatch;
@@ -1306,7 +1318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = 'QUESTS_PREVIEW_UPDATE_SUCCESS';
                     report['type'] = offset;
                     offset = _closure1_slot0;
-                    verify = 10;
+                    verify = 11;
                     verify = yankee[verify];
                     yankee = offset.bind(zuuluu)(verify);
                     offset = yankee.questUserStatusFromServer;
@@ -1322,14 +1334,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     CatchBlockStart(arg_register=9);
                     verify = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    tangon = 5;
+                    tangon = 6;
                     tangon = yankee[tangon];
                     oscard = verify.bind(zuuluu)(tangon);
                     report = oscard.dispatch;
                     tangon = {};
                     option = 'QUESTS_PREVIEW_UPDATE_FAILURE';
                     tangon['type'] = option;
-                    option = 6;
+                    option = 7;
                     option = yankee[option];
                     option = verify.bind(zuuluu)(option);
                     verify = option.prototype;
@@ -1354,7 +1366,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot18 = tangon;
+        _closure1_slot19 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1362,7 +1374,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot18 = entity;
+    var _closure1_slot19 = entity;
     entity = function() { // Original name: _resetQuestPreviewStatus
         report = undefined;
         entity = undefined;
@@ -1379,14 +1391,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  13: // try_start_0
                     zuuluu = _closure1_slot0;
                     tangon = _closure1_slot2;
-                    michal = 4;
+                    michal = 5;
                     michal = tangon[michal];
                     verify = undefined;
                     michal = zuuluu.bind(verify)(michal);
                     tangon = michal.HTTP;
                     zuuluu = tangon.del;
                     michal = {};
-                    offset = _closure1_slot8;
+                    offset = _closure1_slot9;
                     option = offset.QUESTS_PREVIEW_STATUS;
                     oscard = report;
                     oscard = option.bind(offset)(oscard);
@@ -1405,7 +1417,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  100:
                     tangon = _closure1_slot1;
                     offset = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 6;
                     zuuluu = offset[zuuluu];
                     oscard = tangon.bind(verify)(zuuluu);
                     tangon = oscard.dispatch;
@@ -1413,7 +1425,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = 'QUESTS_PREVIEW_UPDATE_SUCCESS';
                     zuuluu['type'] = option;
                     option = _closure1_slot0;
-                    golfie = 10;
+                    golfie = 11;
                     golfie = offset[golfie];
                     verify = option.bind(verify)(golfie);
                     option = verify.questUserStatusFromServer;
@@ -1429,7 +1441,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     CatchBlockStart(arg_register=7);
                     verify = _closure1_slot1;
                     offset = _closure1_slot2;
-                    michal = 5;
+                    michal = 6;
                     michal = offset[michal];
                     golfie = undefined;
                     tangon = verify.bind(golfie)(michal);
@@ -1437,7 +1449,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = {};
                     oscard = 'QUESTS_PREVIEW_UPDATE_FAILURE';
                     michal['type'] = oscard;
-                    oscard = 6;
+                    oscard = 7;
                     oscard = offset[oscard];
                     oscard = verify.bind(golfie)(oscard);
                     golfie = oscard.prototype;
@@ -1459,7 +1471,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot19 = tangon;
+        _closure1_slot20 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1467,7 +1479,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot19 = entity;
+    var _closure1_slot20 = entity;
     entity = function() { // Original name: _resetQuestDismissibilityStatus
         report = undefined;
         entity = undefined;
@@ -1484,7 +1496,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  13: // try_start_0
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 6;
                     michal = oscard[zuuluu];
                     verify = undefined;
                     option = tangon.bind(verify)(michal);
@@ -1494,13 +1506,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['type'] = offset;
                     michal = tangon.bind(option)(michal);
                     tangon = _closure1_slot0;
-                    michal = 4;
+                    michal = 5;
                     michal = oscard[michal];
                     michal = tangon.bind(verify)(michal);
                     oscard = michal.HTTP;
                     tangon = oscard.del;
                     michal = {};
-                    yankee = _closure1_slot8;
+                    yankee = _closure1_slot9;
                     offset = yankee.QUESTS_PREVIEW_DISMISSIBILITY;
                     option = report;
                     option = offset.bind(yankee)(option);
@@ -1526,7 +1538,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = 'QUESTS_PREVIEW_UPDATE_SUCCESS';
                     zuuluu['type'] = option;
                     option = _closure1_slot0;
-                    golfie = 10;
+                    golfie = 11;
                     golfie = offset[golfie];
                     verify = option.bind(verify)(golfie);
                     option = verify.questUserStatusFromServer;
@@ -1542,7 +1554,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     CatchBlockStart(arg_register=7);
                     verify = _closure1_slot1;
                     offset = _closure1_slot2;
-                    michal = 5;
+                    michal = 6;
                     michal = offset[michal];
                     golfie = undefined;
                     tangon = verify.bind(golfie)(michal);
@@ -1550,7 +1562,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = {};
                     oscard = 'QUESTS_PREVIEW_UPDATE_FAILURE';
                     michal['type'] = oscard;
-                    oscard = 6;
+                    oscard = 7;
                     oscard = offset[oscard];
                     oscard = verify.bind(golfie)(oscard);
                     golfie = oscard.prototype;
@@ -1572,7 +1584,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot20 = tangon;
+        _closure1_slot21 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1580,7 +1592,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot20 = entity;
+    var _closure1_slot21 = entity;
     entity = function() { // Original name: _fetchClaimedQuests
         report = undefined;
         entity = undefined;
@@ -1599,7 +1611,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  29:
                     report = _closure1_slot1;
                     tangon = _closure1_slot2;
-                    michal = 5;
+                    michal = 6;
                     tangon = tangon[michal];
                     option = undefined;
                     oscard = report.bind(option)(tangon);
@@ -1611,13 +1623,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  73: // try_start_0
                     report = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    tangon = 4;
+                    tangon = 5;
                     tangon = oscard[tangon];
                     tangon = report.bind(option)(tangon);
                     oscard = tangon.HTTP;
                     report = oscard.get;
                     tangon = {};
-                    golfie = _closure1_slot8;
+                    golfie = _closure1_slot9;
                     golfie = golfie.QUESTS_CLAIMED_QUESTS;
                     tangon['url'] = golfie;
                     golfie = false;
@@ -1636,7 +1648,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = function(argFoo) {
                         zuuluu = _closure1_slot0;
                         michal = _closure1_slot2;
-                        entity = 10;
+                        entity = 11;
                         michal = michal[entity];
                         entity = undefined;
                         zuuluu = zuuluu.bind(entity)(michal);
@@ -1670,7 +1682,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal = {};
                     report = 'QUESTS_FETCH_CLAIMED_QUESTS_FAILURE';
                     michal['type'] = report;
-                    report = 6;
+                    report = 7;
                     report = verify[report];
                     report = oscard.bind(option)(report);
                     oscard = report.prototype;
@@ -1691,7 +1703,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot21 = tangon;
+        _closure1_slot22 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -1699,7 +1711,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot21 = entity;
+    var _closure1_slot22 = entity;
     entity = function() { // Original name: _fetchQuestToDeliver
         report = undefined;
         entity = undefined;
@@ -1729,7 +1741,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = undefined;
                     offset = _closure1_slot1;
                     report = _closure1_slot2;
-                    zuuluu = 5;
+                    zuuluu = 6;
                     tangon = report[zuuluu];
                     romeon = offset.bind(michal)(tangon);
                     yankee = romeon.dispatch;
@@ -1738,7 +1750,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['type'] = sizing;
                     tangon['placement'] = kiloes;
                     tangon = yankee.bind(romeon)(tangon);
-                    tangon = 9;
+                    tangon = 10;
                     report = report[tangon];
                     offset = offset.bind(michal)(report);
                     report = offset.recordQuestRequestAttempt;
@@ -1747,7 +1759,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  121: // try_start_0
                     offset = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    report = 15;
+                    report = 17;
                     report = romeon[report];
                     offset = offset.bind(michal)(report);
                     report = offset.getSession;
@@ -1762,7 +1774,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     status = report;
                     romeon = _closure1_slot0;
                     kiloes = _closure1_slot2;
-                    offset = 16;
+                    offset = 18;
                     offset = kiloes[offset];
                     romeon = romeon.bind(michal)(offset);
                     offset = romeon.getOrRefreshAdSession;
@@ -1777,13 +1789,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     result = offset;
                     kiloes = _closure1_slot0;
                     sizing = _closure1_slot2;
-                    romeon = 4;
+                    romeon = 5;
                     romeon = sizing[romeon];
                     romeon = kiloes.bind(michal)(romeon);
                     output = romeon.HTTP;
                     sizing = output.get;
                     romeon = {};
-                    target = _closure1_slot8;
+                    target = _closure1_slot9;
                     papara = target.QUEST_FETCH_QUEST_TO_DELIVER;
                     cntext = oscard;
                     update = status;
@@ -1817,7 +1829,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  345:
                     output = _closure1_slot0;
                     update = _closure1_slot2;
-                    sizing = 10;
+                    sizing = 11;
                     sizing = update[sizing];
                     output = output.bind(michal)(sizing);
                     sizing = output.questConfigFromServer;
@@ -1919,21 +1931,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  712:
                     echoed = _closure1_slot1;
                     update = _closure1_slot2;
-                    backup = 17;
+                    backup = 19;
                     backup = update[backup];
                     kiloes = echoed.bind(michal)(backup);
                     backup = kiloes.startTracking;
                     output = foxtra;
                     foxtra = output.id;
                     foxtra = backup.bind(kiloes)(foxtra);
-                    foxtra = 18;
+                    foxtra = 20;
                     foxtra = update[foxtra];
                     sizing = echoed.bind(michal)(foxtra);
                     kiloes = sizing.track;
-                    foxtra = _closure1_slot7;
+                    foxtra = _closure1_slot8;
                     backup = foxtra.QUEST_DECISION_RECEIVED;
                     foxtra = {};
-                    result = 19;
+                    result = 21;
                     result = update[result];
                     result = echoed.bind(michal)(result);
                     whisks = result.bind(michal)();
@@ -1963,14 +1975,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = false;
                     tangon['wasSuccessful'] = romeon;
                     tangon = report.bind(offset)(yankee, tangon);
-                    tangon = 18;
+                    tangon = 20;
                     tangon = kiloes[tangon];
                     romeon = backup.bind(michal)(tangon);
                     yankee = romeon.track;
-                    tangon = _closure1_slot7;
+                    tangon = _closure1_slot8;
                     report = tangon.QUEST_DECISION_ROUNDTRIP_ERROR;
                     tangon = {};
-                    offset = 19;
+                    offset = 21;
                     offset = kiloes[offset];
                     offset = backup.bind(michal)(offset);
                     whisks = offset.bind(michal)();
@@ -1995,7 +2007,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon[option] = offset;
                     option = _closure1_slot1;
                     offset = _closure1_slot2;
-                    golfie = 6;
+                    golfie = 7;
                     foxtra = offset[golfie];
                     foxtra = option.bind(michal)(foxtra);
                     backup = foxtra.prototype;
@@ -2035,7 +2047,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot22 = tangon;
+        _closure1_slot23 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2043,7 +2055,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot22 = entity;
+    var _closure1_slot23 = entity;
     entity = function() { // Original name: _updateVideoProgress
         report = undefined;
         entity = undefined;
@@ -2060,13 +2072,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  16:
                     tangon = _closure1_slot1;
                     yankee = _closure1_slot2;
-                    michal = 12;
+                    michal = 13;
                     michal = yankee[michal];
                     zuuluu = undefined;
                     report = tangon.bind(zuuluu)(michal);
                     tangon = report.post;
                     michal = {};
-                    offset = _closure1_slot8;
+                    offset = _closure1_slot9;
                     oscard = offset.QUESTS_VIDEO_PROGRESS;
                     oscard = oscard.bind(offset)(option);
                     michal['url'] = oscard;
@@ -2075,7 +2087,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     michal['body'] = oscard;
                     oscard = {};
                     offset = _closure1_slot0;
-                    golfie = 13;
+                    golfie = 14;
                     golfie = yankee[golfie];
                     golfie = offset.bind(zuuluu)(golfie);
                     golfie = golfie.NetworkActionNames;
@@ -2124,7 +2136,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot23 = tangon;
+        _closure1_slot24 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2132,7 +2144,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot23 = entity;
+    var _closure1_slot24 = entity;
     entity = function() { // Original name: _fetchVideoTranscript
         report = undefined;
         entity = undefined;
@@ -2151,7 +2163,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = undefined;
                     tangon = _closure1_slot0;
                     romeon = _closure1_slot2;
-                    zuuluu = 20;
+                    zuuluu = 22;
                     report = romeon[zuuluu];
                     offset = tangon.bind(michal)(report);
                     verify = offset.resolveVideoQuestAsset;
@@ -2200,7 +2212,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  228: // try_start_0
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    zuuluu = 4;
+                    zuuluu = 5;
                     zuuluu = report[zuuluu];
                     zuuluu = tangon.bind(michal)(zuuluu);
                     report = zuuluu.HTTP;
@@ -2258,7 +2270,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot24 = tangon;
+        _closure1_slot25 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2266,7 +2278,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot24 = entity;
+    var _closure1_slot25 = entity;
     entity = function() { // Original name: _fetchQuest
         report = undefined;
         entity = undefined;
@@ -2281,14 +2293,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  10:
                     tangon = _closure1_slot0;
                     report = _closure1_slot2;
-                    michal = 4;
+                    michal = 5;
                     michal = report[michal];
                     report = undefined;
                     michal = tangon.bind(report)(michal);
                     oscard = michal.HTTP;
                     tangon = oscard.get;
                     michal = {};
-                    verify = _closure1_slot8;
+                    verify = _closure1_slot9;
                     option = verify.QUEST;
                     golfie = argFoo;
                     golfie = option.bind(verify)(golfie);
@@ -2305,7 +2317,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  90:
                     tangon = _closure1_slot0;
                     oscard = _closure1_slot2;
-                    zuuluu = 10;
+                    zuuluu = 11;
                     zuuluu = oscard[zuuluu];
                     report = tangon.bind(report)(zuuluu);
                     tangon = report.questConfigFromServer;
@@ -2321,7 +2333,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         tangon = tangon.bind(report)(zuuluu);
-        _closure1_slot25 = tangon;
+        _closure1_slot26 = tangon;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2329,7 +2341,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(entity, michal);
         return entity;
     };
-    var _closure1_slot25 = entity;
+    var _closure1_slot26 = entity;
     entity = global;
     verify = entity.Object;
     golfie = verify.defineProperty;
@@ -2358,11 +2370,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = 3;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
+    tangon = tangon.ORBS_INTRO_QUEST_ID;
+    var _closure1_slot7 = tangon;
+    tangon = 4;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
     golfie = tangon.AnalyticEvents;
-    var _closure1_slot7 = golfie;
+    var _closure1_slot8 = golfie;
     tangon = tangon.Endpoints;
-    var _closure1_slot8 = tangon;
-    tangon = 21;
+    var _closure1_slot9 = tangon;
+    tangon = 23;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -2370,7 +2387,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = report.bind(oscard)(tangon);
     tangon = function() { // Original name: manuallyStartConsoleQuest
         entity = undefined;
-        tangon = _closure1_slot9;
+        tangon = _closure1_slot10;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2381,7 +2398,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['manuallyStartConsoleQuest'] = tangon;
     tangon = function() { // Original name: manualStopConsoleQuest
         entity = undefined;
-        tangon = _closure1_slot10;
+        tangon = _closure1_slot11;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2392,7 +2409,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['manualStopConsoleQuest'] = tangon;
     tangon = function() { // Original name: resetRecentQuestCompletions
         entity = undefined;
-        tangon = _closure1_slot11;
+        tangon = _closure1_slot12;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2403,7 +2420,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['resetRecentQuestCompletions'] = tangon;
     tangon = function() { // Original name: fetchCurrentQuests
         entity = undefined;
-        tangon = _closure1_slot12;
+        tangon = _closure1_slot13;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2414,7 +2431,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['fetchCurrentQuests'] = tangon;
     tangon = function() { // Original name: sendHeartbeat
         entity = undefined;
-        tangon = _closure1_slot13;
+        tangon = _closure1_slot14;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2425,7 +2442,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['sendHeartbeat'] = tangon;
     tangon = function() { // Original name: enrollInQuest
         entity = undefined;
-        tangon = _closure1_slot14;
+        tangon = _closure1_slot15;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2436,7 +2453,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['enrollInQuest'] = tangon;
     tangon = function() { // Original name: claimQuestReward
         entity = undefined;
-        tangon = _closure1_slot15;
+        tangon = _closure1_slot16;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2447,7 +2464,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['claimQuestReward'] = tangon;
     tangon = function() { // Original name: fetchQuestRewardCode
         entity = undefined;
-        tangon = _closure1_slot16;
+        tangon = _closure1_slot17;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2458,7 +2475,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['fetchQuestRewardCode'] = tangon;
     tangon = function() { // Original name: dismissQuestContent
         entity = undefined;
-        tangon = _closure1_slot17;
+        tangon = _closure1_slot18;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2470,7 +2487,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: dismissProgressTrackingFailureNotice
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2486,7 +2503,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['dismissProgressTrackingFailureNotice'] = tangon;
     tangon = function() { // Original name: completeQuestPreview
         entity = undefined;
-        tangon = _closure1_slot18;
+        tangon = _closure1_slot19;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2497,7 +2514,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['completeQuestPreview'] = tangon;
     tangon = function() { // Original name: resetQuestPreviewStatus
         entity = undefined;
-        tangon = _closure1_slot19;
+        tangon = _closure1_slot20;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2508,7 +2525,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['resetQuestPreviewStatus'] = tangon;
     tangon = function() { // Original name: resetQuestDismissibilityStatus
         entity = undefined;
-        tangon = _closure1_slot20;
+        tangon = _closure1_slot21;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2520,7 +2537,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: overrideQuestDelivery
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2537,7 +2554,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar) { // Original name: selectTaskPlatform
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2556,7 +2573,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: questsVisibleMobileMessagesChanged
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2572,7 +2589,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['questsVisibleMobileMessagesChanged'] = tangon;
     tangon = function() { // Original name: fetchClaimedQuests
         entity = undefined;
-        tangon = _closure1_slot21;
+        tangon = _closure1_slot22;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2584,7 +2601,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo, argBar, argBaz) { // Original name: updateOptimisticProgress
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2604,7 +2621,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updateOptimisticProgress'] = tangon;
     tangon = function() { // Original name: fetchQuestToDeliver
         entity = undefined;
-        tangon = _closure1_slot22;
+        tangon = _closure1_slot23;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2616,7 +2633,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = function(argFoo) { // Original name: updatePrevRestingQuestDockMode
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2632,7 +2649,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updatePrevRestingQuestDockMode'] = tangon;
     tangon = function() { // Original name: updateVideoProgress
         entity = undefined;
-        tangon = _closure1_slot23;
+        tangon = _closure1_slot24;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2643,7 +2660,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updateVideoProgress'] = tangon;
     tangon = function() { // Original name: fetchVideoTranscript
         entity = undefined;
-        tangon = _closure1_slot24;
+        tangon = _closure1_slot25;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;
@@ -2657,7 +2674,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = entity.isVisible;
         zuuluu = _closure1_slot1;
         michal = _closure1_slot2;
-        entity = 5;
+        entity = 6;
         michal = michal[entity];
         entity = undefined;
         tangon = zuuluu.bind(entity)(michal);
@@ -2672,7 +2689,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['updateQuestDockVisibilityOverride'] = tangon;
     michal = function() { // Original name: fetchQuest
         entity = undefined;
-        tangon = _closure1_slot25;
+        tangon = _closure1_slot26;
         zuuluu = tangon.apply;
         entity = arguments;
         michal = entity;

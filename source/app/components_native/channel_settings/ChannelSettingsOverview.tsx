@@ -1939,51 +1939,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = golfie.bind(tangon)(zuuluu);
                 zuuluu = zuuluu.t;
                 zuuluu = zuuluu.PVbHDg;
-                golfie = report.bind(oscard)(zuuluu);
+                offset = report.bind(oscard)(zuuluu);
                 _fun00034_ip = 318; continue _fun00033;
  263:
-                option = _closure1_slot0;
-                verify = _closure1_slot2;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
                 zuuluu = 35;
-                report = verify[zuuluu];
-                report = option.bind(tangon)(report);
+                report = option[zuuluu];
+                report = golfie.bind(tangon)(report);
                 oscard = report.intl;
                 report = oscard.string;
-                zuuluu = verify[zuuluu];
-                zuuluu = option.bind(tangon)(zuuluu);
+                zuuluu = option[zuuluu];
+                zuuluu = golfie.bind(tangon)(zuuluu);
                 zuuluu = zuuluu.t;
                 zuuluu = zuuluu.OCAkGB;
-                golfie = report.bind(oscard)(zuuluu);
+                offset = report.bind(oscard)(zuuluu);
  318:
                 _fun00034_ip = 375; continue _fun00033;
  320:
-                option = _closure1_slot0;
-                verify = _closure1_slot2;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
                 zuuluu = 35;
-                report = verify[zuuluu];
-                report = option.bind(tangon)(report);
+                report = option[zuuluu];
+                report = golfie.bind(tangon)(report);
                 oscard = report.intl;
                 report = oscard.string;
-                zuuluu = verify[zuuluu];
-                zuuluu = option.bind(tangon)(zuuluu);
+                zuuluu = option[zuuluu];
+                zuuluu = golfie.bind(tangon)(zuuluu);
                 zuuluu = zuuluu.t;
                 zuuluu = zuuluu.j3XWjI;
-                golfie = report.bind(oscard)(zuuluu);
+                offset = report.bind(oscard)(zuuluu);
  375:
                 _fun00034_ip = 434; continue _fun00033;
  377:
-                option = _closure1_slot0;
-                verify = _closure1_slot2;
+                golfie = _closure1_slot0;
+                option = _closure1_slot2;
                 zuuluu = 35;
-                report = verify[zuuluu];
-                report = option.bind(tangon)(report);
+                report = option[zuuluu];
+                report = golfie.bind(tangon)(report);
                 oscard = report.intl;
                 report = oscard.string;
-                zuuluu = verify[zuuluu];
-                zuuluu = option.bind(tangon)(zuuluu);
+                zuuluu = option[zuuluu];
+                zuuluu = golfie.bind(tangon)(zuuluu);
                 zuuluu = zuuluu.t;
                 zuuluu = zuuluu.uyVrTE;
-                golfie = report.bind(oscard)(zuuluu);
+                offset = report.bind(oscard)(zuuluu);
  434:
                 oscard = _closure1_slot50;
                 yankee = _closure1_slot0;
@@ -1993,17 +1993,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = yankee.bind(tangon)(zuuluu);
                 report = zuuluu.FormSection;
                 zuuluu = {};
-                verify = _closure1_slot49;
-                verify = verify.ANDROID_NO_BORDER;
-                zuuluu['titleStyleType'] = verify;
-                zuuluu['title'] = golfie;
+                golfie = _closure1_slot49;
+                golfie = golfie.ANDROID_NO_BORDER;
+                zuuluu['titleStyleType'] = golfie;
+                zuuluu['title'] = offset;
                 golfie = foxtra[option];
                 golfie = yankee.bind(tangon)(golfie);
                 verify = golfie.FormInput;
                 golfie = {};
-                offset = romeon.props;
-                offset = offset.channelNameRef;
-                golfie['ref'] = offset;
+                output = romeon.props;
+                output = output.channelNameRef;
+                golfie['ref'] = output;
+                golfie['accessibilityLabel'] = offset;
                 offset = 45;
                 offset = foxtra[offset];
                 output = yankee.bind(tangon)(offset);
@@ -2028,13 +2029,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output = output[foxtra];
                 output = result.bind(tangon)(output);
                 output = output.ClearButtonVisibility;
-                if(sizing) { _fun00034_ip = 636; continue _fun00033 }
- 628:
+                if(sizing) { _fun00034_ip = 640; continue _fun00033 }
+ 632:
                 sizing = output.NEVER;
-                _fun00034_ip = 642; continue _fun00033;
- 636:
+                _fun00034_ip = 646; continue _fun00033;
+ 640:
                 sizing = output.WITH_CONTENT;
- 642:
+ 646:
                 golfie['clearButtonVisibility'] = sizing;
                 sizing = _closure1_slot36;
                 golfie['maxLength'] = sizing;
@@ -2046,8 +2047,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu['children'] = golfie;
                 golfie = oscard.bind(tangon)(report, zuuluu);
                 oscard = undefined;
-                if(!michal) { _fun00034_ip = 1016; continue _fun00033 }
- 699:
+                if(!michal) { _fun00034_ip = 1020; continue _fun00033 }
+ 703:
                 michal = backup.isForumLikeChannel;
                 verify = michal.bind(backup)();
                 sizing = _closure1_slot0;
@@ -2060,15 +2061,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = output[michal];
                 michal = sizing.bind(tangon)(michal);
                 michal = michal.t;
-                if(verify) { _fun00034_ip = 771; continue _fun00033 }
- 756:
+                if(verify) { _fun00034_ip = 775; continue _fun00033 }
+ 760:
                 verify = michal.X8jMDg;
                 sizing = zuuluu.bind(report)(verify);
-                _fun00034_ip = 782; continue _fun00033;
- 771:
+                _fun00034_ip = 786; continue _fun00033;
+ 775:
                 michal = michal.yR6Hwc;
                 sizing = zuuluu.bind(report)(michal);
- 782:
+ 786:
                 report = _closure1_slot50;
                 verify = _closure1_slot0;
                 result = _closure1_slot2;
@@ -2101,13 +2102,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option['showTopContainer'] = yankee;
                 yankee = backup.isForumLikeChannel;
                 yankee = yankee.bind(backup)();
-                if(yankee) { _fun00034_ip = 933; continue _fun00033 }
- 927:
+                if(yankee) { _fun00034_ip = 937; continue _fun00033 }
+ 931:
                 yankee = _closure1_slot45;
-                _fun00034_ip = 937; continue _fun00033;
- 933:
-                yankee = _closure1_slot46;
+                _fun00034_ip = 941; continue _fun00033;
  937:
+                yankee = _closure1_slot46;
+ 941:
                 option['maxLength'] = yankee;
                 option['showCharactersRemaining'] = offset;
                 yankee = _closure1_slot0;
@@ -2124,7 +2125,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 option = report.bind(tangon)(verify, option);
                 michal['children'] = option;
                 oscard = report.bind(tangon)(zuuluu, michal);
- 1016:
+ 1020:
                 zuuluu = _closure1_slot52;
                 michal = _closure1_slot51;
                 entity = {};

@@ -1076,6 +1076,151 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['useGetTimeReccuringSnowflakeBoundDismissibleContent'] = tangon;
+    tangon = function(argFoo, argBar, argBaz) { // Original name: UNSAFE_useGetSingleUseGuildDismissibleContent
+        _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+ 0:
+            oscard = argBar;
+            golfie = argBaz;
+            var _closure2_slot0 = oscard;
+            var _closure2_slot1 = golfie;
+            option = _closure1_slot0;
+            verify = _closure1_slot2;
+            entity = 10;
+            entity = verify[entity];
+            tangon = undefined;
+            yankee = option.bind(tangon)(entity);
+            offset = yankee.useStateFromStores;
+            entity = _closure1_slot4;
+            report = new Array(1);
+            report[0] = entity;
+            entity = function() {
+                zuuluu = _closure1_slot4;
+                michal = zuuluu.getGuildDismissedContentState;
+                entity = _closure2_slot0;
+                entity = michal.bind(zuuluu)(entity);
+                return entity;
+            };
+            entity = offset.bind(yankee)(report, entity);
+            var _closure2_slot2 = entity;
+            report = 12;
+            report = verify[report];
+            verify = option.bind(tangon)(report);
+            option = verify.useNewUserDismissibleContent;
+            report = argFoo;
+            verify = option.bind(verify)(report);
+            option = null;
+            var _closure2_slot3 = option;
+            yankee = _closure1_slot4;
+            offset = yankee.hasLoaded;
+            report = _closure1_slot10;
+            report = report.PRELOADED_USER_SETTINGS;
+            report = offset.bind(yankee)(report);
+            if(report) { _fun00042_ip = 166; continue _fun00041 }
+ 133:
+            entity = option != entity;
+            option = null;
+            if(!entity) { _fun00042_ip = 188; continue _fun00041 }
+ 142:
+            report = verify.find;
+            entity = function(argFoo) {
+                _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+ 0:
+                    zuuluu = argFoo;
+                    entity = _closure2_slot2;
+                    tangon = entity[zuuluu];
+                    entity = null;
+                    entity = entity == tangon;
+                    if(entity) { _fun00044_ip = 43; continue _fun00043 }
+ 23:
+                    michal = _closure2_slot2;
+                    michal = michal[zuuluu];
+                    zuuluu = michal.dismissed;
+                    michal = false;
+                    entity = michal === zuuluu;
+ 43:
+                    return entity;
+                }
+            };
+            entity = report.bind(verify)(entity);
+            _closure2_slot3 = entity;
+            option = entity;
+            _fun00042_ip = 188; continue _fun00041;
+ 166:
+            report = verify.find;
+            entity = function(argFoo) {
+                _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
+ 0:
+                    zuuluu = argFoo;
+                    entity = _closure2_slot2;
+                    report = null;
+                    entity = report == entity;
+                    if(entity) { _fun00046_ip = 31; continue _fun00045 }
+ 19:
+                    tangon = _closure2_slot2;
+                    tangon = tangon[zuuluu];
+                    entity = report == tangon;
+ 31:
+                    if(entity) { _fun00046_ip = 54; continue _fun00045 }
+ 34:
+                    michal = _closure2_slot2;
+                    michal = michal[zuuluu];
+                    zuuluu = michal.dismissed;
+                    michal = false;
+                    entity = michal === zuuluu;
+ 54:
+                    return entity;
+                }
+            };
+            entity = report.bind(verify)(entity);
+            _closure2_slot3 = entity;
+            option = entity;
+ 188:
+            entity = _closure1_slot11;
+            tangon = entity.bind(tangon)(option, oscard, golfie);
+            entity = new Array(2);
+            entity[0] = tangon;
+            report = _closure1_slot3;
+            tangon = report.useCallback;
+            zuuluu = new Array(3);
+            zuuluu[0] = option;
+            zuuluu[1] = golfie;
+            zuuluu[2] = oscard;
+            michal = function(argFoo, argBar) {
+                _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
+ 0:
+                    michal = _closure2_slot3;
+                    entity = null;
+                    if(!(entity != michal)) { _fun00048_ip = 90; continue _fun00047 }
+ 13:
+                    zuuluu = _closure1_slot0;
+                    michal = _closure1_slot2;
+                    entity = 14;
+                    michal = michal[entity];
+                    entity = undefined;
+                    report = zuuluu.bind(entity)(michal);
+                    tangon = report.UNSAFE_markSingleUseGuildDismissibleContentAsDismissed;
+                    zuuluu = _closure2_slot3;
+                    michal = _closure2_slot0;
+                    entity = {};
+                    golfie = argFoo;
+                    entity['dismissAction'] = golfie;
+                    oscard = _closure2_slot1;
+                    entity['groupName'] = oscard;
+                    entity['guildId'] = michal;
+                    oscard = argBar;
+                    entity['forceTrack'] = oscard;
+                    entity = tangon.bind(report)(zuuluu, michal, entity);
+ 90:
+                    entity = undefined;
+                    return entity;
+                }
+            };
+            michal = tangon.bind(report)(michal, zuuluu);
+            entity[1] = michal;
+            return entity;
+        }
+    };
+    zuuluu['UNSAFE_useGetSingleUseGuildDismissibleContent'] = tangon;
     michal = function(argFoo) { // Original name: useDangerouslyPeekDismissibleContents
         zuuluu = argFoo;
         oscard = _closure1_slot0;
@@ -1089,7 +1234,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         tangon = new Array(1);
         tangon[0] = michal;
         michal = function() {
-            _fun00041: for(var _fun00042_ip = 0; ; ) switch(_fun00042_ip) {
+            _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
  0:
                 entity = _closure1_slot4;
                 entity = entity.settings;
@@ -1097,7 +1242,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = null;
                 zuuluu = entity == michal;
                 entity = undefined;
-                if(zuuluu) { _fun00042_ip = 36; continue _fun00041 }
+                if(zuuluu) { _fun00050_ip = 36; continue _fun00049 }
  30:
                 entity = michal.dismissedContents;
  36:
@@ -1108,12 +1253,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         var _closure2_slot0 = michal;
         michal = zuuluu.filter;
         entity = function(argFoo) {
-            _fun00043: for(var _fun00044_ip = 0; ; ) switch(_fun00044_ip) {
+            _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
  0:
                 zuuluu = _closure2_slot0;
                 entity = null;
                 entity = entity != zuuluu;
-                if(!entity) { _fun00044_ip = 63; continue _fun00043 }
+                if(!entity) { _fun00052_ip = 63; continue _fun00051 }
  16:
                 report = _closure1_slot0;
                 tangon = _closure1_slot2;

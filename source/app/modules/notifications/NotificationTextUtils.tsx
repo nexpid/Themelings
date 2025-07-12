@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = _closure1_slot22;
             zuuluu = zuuluu.SUPPRESS_NOTIFICATIONS;
             zuuluu = oscard.bind(verify)(tangon, zuuluu);
-            if(zuuluu) { _fun00008_ip = 1060; continue _fun00007 }
+            if(zuuluu) { _fun00008_ip = 1062; continue _fun00007 }
  93:
             oscard = _closure1_slot10;
             tangon = oscard.getChannel;
@@ -362,11 +362,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = foxtra.id;
  200:
             yankee = offset.bind(yankee)(verify);
-            if(!(option != tangon)) { _fun00008_ip = 1056; continue _fun00007 }
+            if(!(option != tangon)) { _fun00008_ip = 1058; continue _fun00007 }
  212:
-            if(!(option != oscard)) { _fun00008_ip = 1056; continue _fun00007 }
+            if(!(option != oscard)) { _fun00008_ip = 1058; continue _fun00007 }
  219:
-            if(!(option != yankee)) { _fun00008_ip = 1056; continue _fun00007 }
+            if(!(option != yankee)) { _fun00008_ip = 1058; continue _fun00007 }
  226:
             offset = tangon.type;
             verify = _closure1_slot21;
@@ -376,7 +376,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = golfie.type;
             verify = _closure1_slot23;
             verify = verify.RECIPIENT_REMOVE;
-            if(!(offset !== verify)) { _fun00008_ip = 1052; continue _fun00007 }
+            if(!(offset !== verify)) { _fun00008_ip = 1054; continue _fun00007 }
  267:
             offset = _closure1_slot19;
             verify = offset.areSlayerNotificationsSuppressed;
@@ -392,7 +392,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = tangon.linkedLobby;
             verify = option != offset;
  318:
-            if(verify) { _fun00008_ip = 1048; continue _fun00007 }
+            if(verify) { _fun00008_ip = 1050; continue _fun00007 }
  324:
             offset = _closure1_slot29;
             verify = {};
@@ -417,7 +417,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot5;
             verify = offset.isMessageRequest;
             verify = verify.bind(offset)(michal);
-            if(verify) { _fun00008_ip = 1044; continue _fun00007 }
+            if(verify) { _fun00008_ip = 1046; continue _fun00007 }
  411:
             if(entity) { _fun00008_ip = 484; continue _fun00007 }
  414:
@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = _closure1_slot13;
             entity = verify.isBlockedOrIgnoredForMessage;
             entity = entity.bind(verify)(golfie);
-            if(entity) { _fun00008_ip = 1040; continue _fun00007 }
+            if(entity) { _fun00008_ip = 1042; continue _fun00007 }
  505:
             entity = golfie.activity_instance;
             if(!(report !== entity)) { _fun00008_ip = 553; continue _fun00007 }
@@ -457,7 +457,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.user;
             verify = entity.id;
             entity = oscard.id;
-            if(!(verify !== entity)) { _fun00008_ip = 1036; continue _fun00007 }
+            if(!(verify !== entity)) { _fun00008_ip = 1038; continue _fun00007 }
  553:
             entity = golfie.application_id;
             if(!(option != entity)) { _fun00008_ip = 618; continue _fun00007 }
@@ -476,23 +476,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  601:
             entity = entity.location;
             entity = entity.channel_id;
-            if(!(entity !== michal)) { _fun00008_ip = 1032; continue _fun00007 }
+            if(!(entity !== michal)) { _fun00008_ip = 1034; continue _fun00007 }
  618:
             michal = golfie.type;
             entity = _closure1_slot23;
             entity = entity.CHAT_WALLPAPER_SET;
-            if(!(michal !== entity)) { _fun00008_ip = 1028; continue _fun00007 }
+            if(!(michal !== entity)) { _fun00008_ip = 1030; continue _fun00007 }
  640:
             michal = golfie.type;
             entity = _closure1_slot23;
             entity = entity.CHAT_WALLPAPER_REMOVED;
-            if(!(michal !== entity)) { _fun00008_ip = 1028; continue _fun00007 }
+            if(!(michal !== entity)) { _fun00008_ip = 1030; continue _fun00007 }
  662:
             option = _closure1_slot8;
             michal = option.has;
             entity = tangon.type;
             entity = michal.bind(option)(entity);
-            if(entity) { _fun00008_ip = 869; continue _fun00007 }
+            if(entity) { _fun00008_ip = 871; continue _fun00007 }
  687:
             option = _closure1_slot7;
             michal = option.has;
@@ -510,10 +510,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option = _closure1_slot17;
             michal = option.allowAllMessages;
             michal = michal.bind(option)(tangon);
-            if(!michal) { _fun00008_ip = 756; continue _fun00007 }
- 753:
-            if(entity) { _fun00008_ip = 865; continue _fun00007 }
- 756:
+            if(!michal) { _fun00008_ip = 758; continue _fun00007 }
+ 755:
+            if(entity) { _fun00008_ip = 867; continue _fun00007 }
+ 758:
             option = _closure1_slot17;
             michal = option.isSuppressEveryoneEnabled;
             entity = tangon.getGuildId;
@@ -538,16 +538,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['suppressRoles'] = verify;
             entity = michal.bind(option)(entity);
             return entity;
- 865:
+ 867:
             entity = true;
             return entity;
- 869:
+ 871:
             option = _closure1_slot6;
             michal = option.isMuted;
             entity = tangon.id;
             entity = michal.bind(option)(entity);
-            if(entity) { _fun00008_ip = 1024; continue _fun00007 }
- 895:
+            if(entity) { _fun00008_ip = 1026; continue _fun00007 }
+ 897:
             michal = _closure1_slot0;
             option = _closure1_slot2;
             entity = 20;
@@ -558,13 +558,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = _closure1_slot27;
             entity = entity.NO_MESSAGES;
             entity = tangon !== entity;
-            if(!entity) { _fun00008_ip = 1022; continue _fun00007 }
- 943:
+            if(!entity) { _fun00008_ip = 1024; continue _fun00007 }
+ 945:
             michal = _closure1_slot27;
             michal = michal.ALL_MESSAGES;
             michal = tangon === michal;
-            if(michal) { _fun00008_ip = 1019; continue _fun00007 }
- 960:
+            if(michal) { _fun00008_ip = 1021; continue _fun00007 }
+ 962:
             tangon = _closure1_slot0;
             option = _closure1_slot2;
             zuuluu = 21;
@@ -579,38 +579,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['suppressEveryone'] = oscard;
             zuuluu['suppressRoles'] = oscard;
             michal = tangon.bind(report)(zuuluu);
- 1019:
+ 1021:
             entity = michal;
- 1022:
-            return entity;
  1024:
+            return entity;
+ 1026:
             entity = false;
             return entity;
- 1028:
+ 1030:
             entity = false;
             return entity;
- 1032:
+ 1034:
             entity = false;
             return entity;
- 1036:
+ 1038:
             entity = false;
             return entity;
- 1040:
+ 1042:
             entity = false;
             return entity;
- 1044:
+ 1046:
             entity = false;
             return entity;
- 1048:
+ 1050:
             entity = false;
             return entity;
- 1052:
+ 1054:
             entity = false;
             return entity;
- 1056:
+ 1058:
             entity = false;
             return entity;
- 1060:
+ 1062:
             entity = false;
             return entity;
         }

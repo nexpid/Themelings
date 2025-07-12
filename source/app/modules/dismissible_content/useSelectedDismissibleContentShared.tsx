@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = report.bind(entity)(tangon);
     tangon = tangon.ContentDismissActionType;
     var _closure1_slot4 = tangon;
-    tangon = 4;
+    tangon = 5;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
@@ -79,22 +79,35 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
                         michal = _closure2_slot2;
-                        if(!michal) { _fun00004_ip = 31; continue _fun00003 }
+                        if(!michal) { _fun00004_ip = 74; continue _fun00003 }
  10:
                         zuuluu = _closure1_slot3;
-                        tangon = zuuluu.lastDCDismissed;
+                        report = zuuluu.lastDCDismissed;
                         zuuluu = _closure2_slot0;
-                        michal = tangon !== zuuluu;
- 31:
-                        if(!michal) { _fun00004_ip = 61; continue _fun00003 }
+                        zuuluu = report !== zuuluu;
+                        if(zuuluu) { _fun00004_ip = 71; continue _fun00003 }
  34:
+                        oscard = _closure1_slot0;
+                        report = _closure1_slot1;
+                        tangon = 4;
+                        report = report[tangon];
+                        tangon = undefined;
+                        oscard = oscard.bind(tangon)(report);
+                        report = oscard.isSingleUseGuildDismissibleContent;
+                        tangon = _closure2_slot0;
+                        zuuluu = report.bind(oscard)(tangon);
+ 71:
+                        michal = zuuluu;
+ 74:
+                        if(!michal) { _fun00004_ip = 104; continue _fun00003 }
+ 77:
                         tangon = _closure2_slot1;
                         entity = _closure1_slot4;
                         zuuluu = entity.AUTO_DISMISS;
                         michal = undefined;
                         entity = true;
                         entity = tangon.bind(michal)(zuuluu, entity);
- 61:
+ 104:
                         entity = undefined;
                         return entity;
                     }

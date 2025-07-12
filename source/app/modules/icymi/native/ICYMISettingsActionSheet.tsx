@@ -884,7 +884,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = zuuluu.bind(tangon)(offset, report);
             report = new Array(3);
             report[0] = offset;
-            if(!golfie) { _fun00004_ip = 1616; continue _fun00003 }
+            if(!golfie) { _fun00004_ip = 1618; continue _fun00003 }
  1227:
             yankee = _closure1_slot14;
             output = _closure1_slot0;
@@ -988,7 +988,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[1] = foxtra;
             option['children'] = romeon;
             golfie = yankee.bind(tangon)(offset, option);
- 1616:
+ 1618:
             report[1] = golfie;
             option = _closure1_slot12;
             golfie = _closure1_slot5;
