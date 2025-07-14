@@ -29,7 +29,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     StartGenerator();
                     michal = argFoo;
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 331; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 335; continue _fun00001 }
  13:
                     romeon = michal.applicationId;
                     foxtra = michal.channelId;
@@ -41,7 +41,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     return zuuluu;
  36:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
-                    if(tangon) { _fun00002_ip = 328; continue _fun00001 }
+                    if(tangon) { _fun00002_ip = 332; continue _fun00001 }
  45: // try_start_0
                     report = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -96,18 +96,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     romeon = foxtra;
                     backup = offset != romeon;
                     romeon = null;
-                    if(!backup) { _fun00002_ip = 239; continue _fun00001 }
- 236:
+                    if(!backup) { _fun00002_ip = 243; continue _fun00001 }
+ 240:
                     romeon = foxtra;
- 239:
+ 243:
                     tangon['channelId'] = romeon;
                     romeon = yankee;
                     romeon = offset != romeon;
                     offset = null;
-                    if(!romeon) { _fun00002_ip = 258; continue _fun00001 }
- 255:
+                    if(!romeon) { _fun00002_ip = 262; continue _fun00001 }
+ 259:
                     offset = yankee;
- 258:
+ 262:
                     tangon['guildId'] = offset;
                     offset = _closure1_slot0;
                     yankee = _closure1_slot2;
@@ -125,9 +125,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     tangon['locationKind'] = golfie;
                     tangon = report.bind(oscard)(tangon);
                     return zuuluu;
- 328:
+ 332:
                     return michal;
- 331:
+ 335:
                     return entity;
                 }
             };

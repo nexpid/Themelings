@@ -93,7 +93,7 @@
 { "file": "discord_common/js/packages/tokens/shims.native.tsx", "size": 2628 }
 { "file": "app/modules/sentry/addSentryBreadcrumb.native.tsx", "size": 1581 }
 { "file": "app/utils/SentryUtils.native.tsx", "size": 16940 }
-{ "file": "app/modules/errors/native/SentryInitUtils.tsx", "size": 24138 }
+{ "file": "app/modules/errors/native/SentryInitUtils.tsx", "size": 24137 }
 { "file": "app/modules/routing/router_utils.tsx", "size": 19853 }
 { "file": "app/utils/ComponentDispatchUtils.tsx", "size": 16169 }
 { "file": "app/modules/routing/RoutingSources.tsx", "size": 1327 }
