@@ -1926,55 +1926,58 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     yankee = function(argFoo) { // Original name: queryUsers
         _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
  0:
-            oscard = argFoo;
-            tangon = arguments[1];
-            entity = arguments[3];
+            entity = argFoo;
+            option = entity.query;
+            report = entity.filter;
+            tangon = entity.boosters;
+            oscard = entity.limit;
             zuuluu = undefined;
-            if(!(tangon === zuuluu)) { _fun00046_ip = 18; continue _fun00045 }
- 15:
-            tangon = 10;
- 18:
-            if(!(entity === zuuluu)) { _fun00046_ip = 24; continue _fun00045 }
- 22:
+            if(!(oscard === zuuluu)) { _fun00046_ip = 34; continue _fun00045 }
+ 31:
+            oscard = 10;
+ 34:
+            entity = entity.request;
+            if(!(entity === zuuluu)) { _fun00046_ip = 46; continue _fun00045 }
+ 44:
             entity = true;
- 24:
-            if(!entity) { _fun00046_ip = 38; continue _fun00045 }
- 27:
-            report = oscard.length;
+ 46:
+            if(!entity) { _fun00046_ip = 60; continue _fun00045 }
+ 49:
+            golfie = option.length;
             michal = 0;
-            entity = report > michal;
- 38:
-            if(!entity) { _fun00046_ip = 79; continue _fun00045 }
- 41:
+            entity = golfie > michal;
+ 60:
+            if(!entity) { _fun00046_ip = 101; continue _fun00045 }
+ 63:
             michal = _closure1_slot1;
-            report = _closure1_slot3;
+            golfie = _closure1_slot3;
             entity = 38;
-            entity = report[entity];
-            report = michal.bind(zuuluu)(entity);
-            michal = report.requestMembers;
+            entity = golfie[entity];
+            golfie = michal.bind(zuuluu)(entity);
+            michal = golfie.requestMembers;
             entity = null;
-            entity = michal.bind(report)(entity, oscard, tangon);
- 79:
+            entity = michal.bind(golfie)(entity, option, oscard);
+ 101:
             michal = _closure1_slot57;
             entity = {};
-            entity['query'] = oscard;
-            golfie = _closure1_slot1;
-            option = _closure1_slot3;
-            oscard = 35;
-            oscard = option[oscard];
-            oscard = golfie.bind(zuuluu)(oscard);
-            golfie = _closure1_slot32;
-            report = golfie.getUsers;
-            report = report.bind(golfie)();
-            oscard = oscard.bind(zuuluu)(report);
-            report = oscard.values;
-            oscard = report.bind(oscard)();
-            report = oscard.value;
-            report = report.bind(oscard)();
-            entity['members'] = report;
-            entity['limit'] = tangon;
-            tangon = arguments[4];
-            entity['filter'] = tangon;
+            entity['query'] = option;
+            verify = _closure1_slot1;
+            offset = _closure1_slot3;
+            option = 35;
+            option = offset[option];
+            option = verify.bind(zuuluu)(option);
+            verify = _closure1_slot32;
+            golfie = verify.getUsers;
+            golfie = golfie.bind(verify)();
+            option = option.bind(zuuluu)(golfie);
+            golfie = option.values;
+            option = golfie.bind(option)();
+            golfie = option.value;
+            golfie = golfie.bind(option)();
+            entity['members'] = golfie;
+            entity['limit'] = oscard;
+            entity['filter'] = report;
+            entity['boosters'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;
         }

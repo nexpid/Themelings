@@ -329,14 +329,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     offset = michal.bind(entity)(tangon);
     michal = offset.prototype;
     tangon = Object.create(michal, {constructor: {value: offset}});
-    foxtra = '2025-05_libdiscore_notestore';
+    foxtra = '2025-05_libdiscore_notestore_v2';
     romeon = 'NoteStore';
     backup = tangon;
     michal = new backup[offset](foxtra, romeon, yankee);
     tangon = michal instanceof Object ? michal : tangon;
     michal = offset.prototype;
     oscard = Object.create(michal, {constructor: {value: offset}});
-    foxtra = '2025-07_libdiscore_guildstore';
+    foxtra = '2025-07_libdiscore_guildstore_v2';
     romeon = 'GuildStore';
     backup = oscard;
     michal = new backup[offset](foxtra, romeon, yankee);

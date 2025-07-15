@@ -1,82 +1,90 @@
 // app/utils/SearchUtils.tsx
 export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
-    oscard = argBar;
-    option = argBaz;
+    golfie = argBar;
+    verify = argBaz;
     zuuluu = argFre;
-    golfie = argPlu;
-    var _closure1_slot0 = oscard;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = golfie;
+    option = argPlu;
+    var _closure1_slot0 = golfie;
+    var _closure1_slot1 = verify;
+    var _closure1_slot2 = option;
+    tangon = function(argFoo) { // Original name: tokenizeQuery
+        zuuluu = _closure1_slot15;
+        michal = zuuluu.tokenize;
+        entity = argFoo;
+        entity = michal.bind(zuuluu)(entity);
+        return entity;
+    };
+    var _closure1_slot16 = tangon;
     entity = global;
-    offset = entity.Object;
-    report = offset.defineProperty;
-    tangon = {};
-    verify = true;
-    tangon['value'] = verify;
+    yankee = entity.Object;
+    oscard = yankee.defineProperty;
+    report = {};
+    offset = true;
+    report['value'] = offset;
     entity = '__esModule';
-    entity = report.bind(offset)(zuuluu, entity, tangon);
+    entity = oscard.bind(yankee)(zuuluu, entity, report);
     entity = 0;
-    tangon = golfie[entity];
+    report = option[entity];
     entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 2;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot5 = tangon;
-    tangon = 3;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 4;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot7 = tangon;
-    tangon = 5;
-    tangon = golfie[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot8 = tangon;
-    tangon = 6;
-    tangon = golfie[tangon];
-    tangon = oscard.bind(entity)(tangon);
-    report = tangon.SearchTokenTypes;
-    var _closure1_slot9 = report;
-    offset = tangon.SearchPopoutModes;
-    var _closure1_slot10 = offset;
-    offset = tangon.IS_SEARCH_ANSWER_TOKEN;
-    var _closure1_slot11 = offset;
-    offset = tangon.IS_SEARCH_FILTER_TOKEN;
-    var _closure1_slot12 = offset;
-    tangon = tangon.SearchTypes;
-    var _closure1_slot13 = tangon;
-    tangon = {};
-    offset = report.FILTER_BEFORE;
-    tangon[offset] = verify;
-    offset = report.FILTER_AFTER;
-    tangon[offset] = verify;
-    report = report.FILTER_ON;
-    tangon[report] = verify;
-    var _closure1_slot14 = tangon;
-    report = 10;
-    report = golfie[report];
-    report = option.bind(entity)(report);
-    option = report.prototype;
-    option = Object.create(option, {constructor: {value: report}});
-    backup = option;
-    report = new backup[report](foxtra);
-    report = report instanceof Object ? report : option;
-    var _closure1_slot15 = report;
-    report = 15;
-    report = golfie[report];
-    golfie = oscard.bind(entity)(report);
-    oscard = golfie.fileFinishedImporting;
-    report = 'utils/SearchUtils.tsx';
-    report = oscard.bind(golfie)(report);
-    report = function(argFoo) { // Original name: getSearchOptionAnswer
+    report = verify.bind(entity)(report);
+    var _closure1_slot3 = report;
+    report = 1;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot4 = report;
+    report = 2;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot5 = report;
+    report = 3;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot6 = report;
+    report = 4;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot7 = report;
+    report = 5;
+    report = option[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot8 = report;
+    report = 6;
+    report = option[report];
+    report = golfie.bind(entity)(report);
+    oscard = report.SearchTokenTypes;
+    var _closure1_slot9 = oscard;
+    yankee = report.SearchPopoutModes;
+    var _closure1_slot10 = yankee;
+    yankee = report.IS_SEARCH_ANSWER_TOKEN;
+    var _closure1_slot11 = yankee;
+    yankee = report.IS_SEARCH_FILTER_TOKEN;
+    var _closure1_slot12 = yankee;
+    report = report.SearchTypes;
+    var _closure1_slot13 = report;
+    report = {};
+    yankee = oscard.FILTER_BEFORE;
+    report[yankee] = offset;
+    yankee = oscard.FILTER_AFTER;
+    report[yankee] = offset;
+    oscard = oscard.FILTER_ON;
+    report[oscard] = offset;
+    var _closure1_slot14 = report;
+    oscard = 10;
+    oscard = option[oscard];
+    oscard = verify.bind(entity)(oscard);
+    verify = oscard.prototype;
+    verify = Object.create(verify, {constructor: {value: oscard}});
+    kiloes = verify;
+    oscard = new kiloes[oscard](backup);
+    oscard = oscard instanceof Object ? oscard : verify;
+    var _closure1_slot15 = oscard;
+    oscard = 15;
+    oscard = option[oscard];
+    option = golfie.bind(entity)(oscard);
+    golfie = option.fileFinishedImporting;
+    oscard = 'utils/SearchUtils.tsx';
+    oscard = golfie.bind(option)(oscard);
+    oscard = function(argFoo) { // Original name: getSearchOptionAnswer
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             zuuluu = argFoo;
@@ -244,9 +252,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getSearchOptionAnswer'] = report;
-    zuuluu['ShowDatePicker'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: setIncludeNSFW
+    zuuluu['getSearchOptionAnswer'] = oscard;
+    zuuluu['ShowDatePicker'] = report;
+    report = function(argFoo, argBar) { // Original name: setIncludeNSFW
         _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             tangon = _closure1_slot5;
@@ -277,8 +285,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['setIncludeNSFW'] = tangon;
-    tangon = function(argFoo) { // Original name: getSearchQueryFromTokens
+    zuuluu['setIncludeNSFW'] = report;
+    report = function(argFoo) { // Original name: getSearchQueryFromTokens
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
             tangon = argFoo;
@@ -504,8 +512,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getSearchQueryFromTokens'] = tangon;
-    tangon = function(argFoo) { // Original name: getNonTokenQuery
+    zuuluu['getSearchQueryFromTokens'] = report;
+    report = function(argFoo) { // Original name: getNonTokenQuery
         zuuluu = argFoo;
         michal = zuuluu.map;
         entity = function(argFoo) {
@@ -537,8 +545,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = entity.bind(michal)();
         return entity;
     };
-    zuuluu['getNonTokenQuery'] = tangon;
-    tangon = function(argFoo, argBar, argBaz) { // Original name: getSelectionScope
+    zuuluu['getNonTokenQuery'] = report;
+    report = function(argFoo, argBar, argBaz) { // Original name: getSelectionScope
         _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             oscard = argFoo;
@@ -609,8 +617,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getSelectionScope'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getAutocompleteMode
+    zuuluu['getSelectionScope'] = report;
+    report = function(argFoo, argBar) { // Original name: getAutocompleteMode
         _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
             entity = argFoo;
@@ -740,8 +748,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getAutocompleteMode'] = tangon;
-    tangon = function(argFoo, argBar) { // Original name: getFlattenedStringArray
+    zuuluu['getAutocompleteMode'] = report;
+    report = function(argFoo, argBar) { // Original name: getFlattenedStringArray
         michal = argBar;
         var _closure2_slot0 = michal;
         michal = new Array(0);
@@ -868,8 +876,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zuuluu['getFlattenedStringArray'] = tangon;
-    tangon = function(argFoo) { // Original name: getTotalResults
+    zuuluu['getFlattenedStringArray'] = report;
+    report = function(argFoo) { // Original name: getTotalResults
         tangon = argFoo;
         zuuluu = tangon.reduce;
         michal = function(argFoo, argBar) {
@@ -892,8 +900,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = zuuluu.bind(tangon)(michal, entity);
         return entity;
     };
-    zuuluu['getTotalResults'] = tangon;
-    tangon = function(argFoo) { // Original name: getQueryFromTokens
+    zuuluu['getTotalResults'] = report;
+    report = function(argFoo) { // Original name: getQueryFromTokens
         _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
  0:
             report = argFoo;
@@ -917,14 +925,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['getQueryFromTokens'] = tangon;
-    tangon = function(argFoo) { // Original name: tokenizeQuery
-        zuuluu = _closure1_slot15;
-        michal = zuuluu.tokenize;
-        entity = argFoo;
+    zuuluu['getQueryFromTokens'] = report;
+    report = function(argFoo, argBar) { // Original name: queryHasFilter
+        michal = argBar;
+        var _closure2_slot0 = michal;
+        tangon = _closure1_slot16;
+        zuuluu = undefined;
+        michal = argFoo;
+        zuuluu = tangon.bind(zuuluu)(michal);
+        michal = zuuluu.some;
+        entity = function(argFoo) {
+            entity = argFoo;
+            michal = entity.type;
+            entity = _closure2_slot0;
+            entity = michal === entity;
+            return entity;
+        };
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
+    zuuluu['queryHasFilter'] = report;
     zuuluu['tokenizeQuery'] = tangon;
     tangon = function() { // Original name: clearTokenCache
         michal = _closure1_slot15;

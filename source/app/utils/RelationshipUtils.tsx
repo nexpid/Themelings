@@ -34,7 +34,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = backup[golfie](foxtra, romeon, yankee, offset, verify, option);
         return entity;
     };
-    var _closure1_slot5 = entity;
+    var _closure1_slot4 = entity;
     entity = global;
     option = entity.Object;
     golfie = option.defineProperty;
@@ -47,18 +47,16 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = oscard[entity];
     entity = undefined;
     tangon = report.bind(entity)(tangon);
-    golfie = tangon.Routes;
-    var _closure1_slot3 = golfie;
     tangon = tangon.FriendsSections;
-    var _closure1_slot4 = tangon;
-    tangon = 7;
+    var _closure1_slot3 = tangon;
+    tangon = 6;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
     tangon = 'utils/RelationshipUtils.tsx';
     tangon = report.bind(oscard)(tangon);
     tangon = function(argFoo) { // Original name: showPendingNotification
-        report = _closure1_slot5;
+        report = _closure1_slot4;
         oscard = _closure1_slot0;
         golfie = _closure1_slot2;
         michal = 3;
@@ -74,24 +72,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = zuuluu.bind(tangon)(michal);
         zuuluu = argFoo;
         michal = function() {
-            tangon = _closure1_slot0;
-            report = _closure1_slot2;
-            entity = 4;
-            zuuluu = report[entity];
-            entity = undefined;
-            oscard = tangon.bind(entity)(zuuluu);
-            tangon = oscard.transitionTo;
-            zuuluu = _closure1_slot3;
-            zuuluu = zuuluu.FRIENDS;
-            zuuluu = tangon.bind(oscard)(zuuluu);
             tangon = _closure1_slot1;
-            zuuluu = 5;
-            zuuluu = report[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = tangon.setSection;
-            michal = _closure1_slot4;
-            michal = michal.PENDING;
-            michal = zuuluu.bind(tangon)(michal);
+            zuuluu = _closure1_slot2;
+            entity = 4;
+            zuuluu = zuuluu[entity];
+            entity = undefined;
+            report = tangon.bind(entity)(zuuluu);
+            tangon = report.transitionToSection;
+            michal = _closure1_slot3;
+            zuuluu = michal.PENDING;
+            michal = {};
+            oscard = true;
+            michal['explicit'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         };
         michal = report.bind(entity)(zuuluu, tangon, michal);
@@ -101,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: showAcceptedNotification
         report = argFoo;
         var _closure2_slot0 = report;
-        tangon = _closure1_slot5;
+        tangon = _closure1_slot4;
         option = _closure1_slot0;
         verify = _closure1_slot2;
         zuuluu = 3;
@@ -118,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = function() {
             zuuluu = _closure1_slot1;
             michal = _closure1_slot2;
-            entity = 6;
+            entity = 5;
             michal = michal[entity];
             entity = undefined;
             tangon = zuuluu.bind(entity)(michal);

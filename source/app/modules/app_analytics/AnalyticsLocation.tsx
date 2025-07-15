@@ -178,6 +178,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['GUILD_POWERUPS_GUILD_SETTINGS_PREMIUM'] = entity;
     entity = 'guild powerups - guild settings tag edit';
     michal['GUILD_POWERUPS_GUILD_SETTINGS_TAGS'] = entity;
+    entity = 'guild powerups - guild settings vanity url';
+    michal['GUILD_POWERUPS_GUILD_SETTINGS_VANITY_URL'] = entity;
     entity = 'guild powerups - channel list row';
     michal['GUILD_POWERUPS_CHANNEL_LIST_ROW'] = entity;
     entity = 'guild powerups - coachmark - level up';

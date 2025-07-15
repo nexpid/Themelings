@@ -51,13 +51,33 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['clear'] = tangon;
-    michal = function() { // Original name: serialize
+    tangon = function() { // Original name: serialize
         zuuluu = _closure1_slot0;
         michal = zuuluu.join;
         entity = ' -> ';
         entity = michal.bind(zuuluu)(entity);
         return entity;
     };
-    zuuluu['serialize'] = michal;
+    zuuluu['serialize'] = tangon;
+    michal = function() { // Original name: last
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            entity = _closure1_slot0;
+            zuuluu = entity.length;
+            entity = 0;
+            zuuluu = zuuluu > entity;
+            entity = null;
+            if(!zuuluu) { _fun00004_ip = 43; continue _fun00003 }
+ 23:
+            zuuluu = _closure1_slot0;
+            tangon = zuuluu.length;
+            michal = 1;
+            michal = tangon - michal;
+            entity = zuuluu[michal];
+ 43:
+            return entity;
+        }
+    };
+    zuuluu['last'] = michal;
     return entity;
 })();

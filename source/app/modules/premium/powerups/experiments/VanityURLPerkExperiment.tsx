@@ -47,22 +47,55 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 'modules/premium/powerups/experiments/VanityURLPerkExperiment.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['VanityURLPerkExperiment'] = tangon;
-    michal = function(argFoo, argBar) { // Original name: getVanityURLPerkExperimentEnabled
+    tangon = function(argFoo, argBar) { // Original name: useVanityURLPerkExperimentEnabled
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            golfie = argFoo;
+            tangon = _closure1_slot2;
+            zuuluu = tangon.useExperiment;
+            michal = {};
+            michal['guildId'] = golfie;
+            entity = argBar;
+            michal['location'] = entity;
+            entity = {};
+            report = null;
+            report = report != golfie;
+            if(!report) { _fun00002_ip = 48; continue _fun00001 }
+ 40:
+            option = _closure1_slot1;
+            report = golfie !== option;
+ 48:
+            if(!report) { _fun00002_ip = 59; continue _fun00001 }
+ 51:
+            oscard = _closure1_slot0;
+            report = golfie !== oscard;
+ 59:
+            report = !report;
+            entity['disable'] = report;
+            report = false;
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            entity = entity.enabled;
+            return entity;
+        }
+    };
+    zuuluu['useVanityURLPerkExperimentEnabled'] = tangon;
+    michal = function(argFoo, argBar) { // Original name: getVanityURLPerkExperimentEnabled
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
             zuuluu = argFoo;
             entity = null;
             entity = entity != zuuluu;
-            if(!entity) { _fun00002_ip = 83; continue _fun00001 }
+            if(!entity) { _fun00004_ip = 83; continue _fun00003 }
  12:
             michal = _closure1_slot1;
             michal = zuuluu !== michal;
-            if(!michal) { _fun00002_ip = 34; continue _fun00001 }
+            if(!michal) { _fun00004_ip = 34; continue _fun00003 }
  26:
             report = _closure1_slot0;
             michal = zuuluu !== report;
  34:
-            if(!michal) { _fun00002_ip = 80; continue _fun00001 }
+            if(!michal) { _fun00004_ip = 80; continue _fun00003 }
  37:
             oscard = _closure1_slot2;
             report = oscard.getCurrentConfig;

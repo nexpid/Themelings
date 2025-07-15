@@ -680,7 +680,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report['value'] = golfie;
         entity[12] = report;
         report = {};
-        golfie = 'isSearchStateActive';
+        golfie = 'hasSearchState';
         report['key'] = golfie;
         oscard = function(argFoo) { // Original name: value
             zuuluu = _closure1_slot10;

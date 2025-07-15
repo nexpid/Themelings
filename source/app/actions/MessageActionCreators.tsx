@@ -5105,21 +5105,21 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00070_ip = 487; continue _fun00069 }
+                    if(michal) { _fun00070_ip = 536; continue _fun00069 }
  12:
                     zuuluu = undefined;
                     var _closure4_slot0 = zuuluu;
                     yankee = _closure2_slot1;
-                    golfie = _closure2_slot0;
+                    oscard = _closure2_slot0;
                     report = _closure1_slot20;
                     michal = report.getEditActionSource;
-                    report = michal.bind(report)(golfie);
+                    report = michal.bind(report)(oscard);
                     michal = 'message_swipe';
                     if(!(michal === report)) { _fun00070_ip = 161; continue _fun00069 }
  59:
                     report = _closure1_slot19;
                     michal = report.getChannel;
-                    romeon = michal.bind(report)(golfie);
+                    romeon = michal.bind(report)(oscard);
                     report = _closure1_slot1;
                     option = _closure1_slot2;
                     michal = 42;
@@ -5130,7 +5130,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report = michal.MESSAGE_SWIPE_ACTION_SENT;
                     michal = {};
                     michal['message_id'] = yankee;
-                    michal['channel_id'] = golfie;
+                    michal['channel_id'] = oscard;
                     yankee = null;
                     foxtra = yankee == romeon;
                     yankee = undefined;
@@ -5151,65 +5151,77 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     michal = option[michal];
                     report = report.bind(zuuluu)(michal);
                     michal = report.unarchiveThreadIfNecessary;
-                    michal = michal.bind(report)(golfie);
+                    michal = michal.bind(report)(oscard);
                     SaveGenerator(address=196);
  194:
                     return michal;
  196:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                    if(report) { _fun00070_ip = 484; continue _fun00069 }
+                    if(report) { _fun00070_ip = 533; continue _fun00069 }
  205:
-                    verify = _closure2_slot0;
-                    golfie = _closure2_slot1;
-                    option = _closure1_slot22;
-                    report = option.getMessage;
-                    yankee = report.bind(option)(verify, golfie);
-                    report = null;
-                    option = report != yankee;
+                    yankee = _closure2_slot0;
+                    verify = _closure2_slot1;
+                    oscard = _closure1_slot22;
+                    report = oscard.getMessage;
+                    romeon = report.bind(oscard)(yankee, verify);
+                    oscard = null;
+                    option = oscard != romeon;
                     report = undefined;
                     if(!option) { _fun00070_ip = 382; continue _fun00069 }
  243:
-                    romeon = yankee.type;
+                    foxtra = romeon.type;
                     option = _closure1_slot36;
                     option = option.REPLY;
                     report = undefined;
-                    if(!(romeon === option)) { _fun00070_ip = 382; continue _fun00069 }
+                    if(!(foxtra === option)) { _fun00070_ip = 382; continue _fun00069 }
  264:
-                    foxtra = _closure1_slot14;
-                    romeon = foxtra.getMessageByReference;
-                    option = yankee.messageReference;
-                    option = romeon.bind(foxtra)(option);
-                    foxtra = option.state;
-                    romeon = _closure1_slot15;
-                    romeon = romeon.LOADED;
+                    backup = _closure1_slot14;
+                    foxtra = backup.getMessageByReference;
+                    option = romeon.messageReference;
+                    option = foxtra.bind(backup)(option);
+                    backup = option.state;
+                    foxtra = _closure1_slot15;
+                    foxtra = foxtra.LOADED;
                     report = undefined;
-                    if(!(foxtra === romeon)) { _fun00070_ip = 382; continue _fun00069 }
+                    if(!(backup === foxtra)) { _fun00070_ip = 382; continue _fun00069 }
  306:
-                    romeon = yankee.mentions;
-                    yankee = romeon.includes;
+                    foxtra = romeon.mentions;
+                    romeon = foxtra.includes;
                     option = option.message;
                     option = option.author;
                     option = option.id;
-                    option = yankee.bind(romeon)(option);
+                    option = romeon.bind(foxtra)(option);
                     report = undefined;
                     if(option) { _fun00070_ip = 382; continue _fun00069 }
  343:
                     option = {};
-                    yankee = global;
-                    foxtra = yankee.Object;
-                    romeon = foxtra.values;
-                    yankee = _closure1_slot37;
-                    yankee = romeon.bind(foxtra)(yankee);
-                    option['parse'] = yankee;
-                    yankee = false;
-                    option['replied_user'] = yankee;
+                    romeon = global;
+                    backup = romeon.Object;
+                    foxtra = backup.values;
+                    romeon = _closure1_slot37;
+                    romeon = foxtra.bind(backup)(romeon);
+                    option['parse'] = romeon;
+                    romeon = false;
+                    option['replied_user'] = romeon;
                     report = option;
  382:
+                    romeon = _closure1_slot22;
+                    option = romeon.getMessage;
+                    foxtra = option.bind(romeon)(yankee, verify);
+                    oscard = oscard != foxtra;
+                    if(!oscard) { _fun00070_ip = 426; continue _fun00069 }
+ 405:
+                    romeon = foxtra.hasFlag;
+                    option = _closure1_slot34;
+                    option = option.CROSSPOSTED;
+                    oscard = romeon.bind(foxtra)(option);
+ 426:
                     option = {};
-                    option['channelId'] = verify;
-                    option['messageId'] = golfie;
-                    oscard = _closure2_slot2;
-                    option['content'] = oscard;
+                    option['channelId'] = yankee;
+                    option['messageId'] = verify;
+                    golfie = _closure2_slot2;
+                    option['content'] = golfie;
+                    option['isCrossposted'] = oscard;
                     option['allowed_mentions'] = report;
                     _closure4_slot0 = option;
                     oscard = _closure1_slot1;
@@ -5337,9 +5349,9 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     };
                     tangon = oscard.bind(golfie)(report, tangon);
                     return zuuluu;
- 484:
+ 533:
                     return michal;
- 487:
+ 536:
                     return entity;
                 }
             };

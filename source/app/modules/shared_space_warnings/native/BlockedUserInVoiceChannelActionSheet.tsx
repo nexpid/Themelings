@@ -42,7 +42,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = 5;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
-    tangon = tangon.setDismissalTimeForChannel;
+    tangon = tangon.setDismissalTimeForUser;
     var _closure1_slot8 = tangon;
     tangon = 6;
     tangon = oscard[tangon];
@@ -495,9 +495,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = zuuluu.bind(entity)(michal);
                     michal = report.hideActionSheet;
                     michal = michal.bind(report)();
-                    michal = _closure1_slot8;
-                    option = _closure2_slot0;
-                    michal = michal.bind(entity)(option);
+                    report = _closure1_slot8;
+                    michal = _closure2_slot1;
+                    michal = report.bind(entity)(michal);
                     michal = 24;
                     michal = tangon[michal];
                     report = zuuluu.bind(entity)(michal);
@@ -505,32 +505,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = _closure1_slot11;
                     zuuluu = michal.VOICE_CHANNEL_BLOCKED_USER_WARNING_ENGAGEMENT;
                     michal = {};
-                    verify = _closure1_slot9;
-                    verify = verify.CLICK_TO_STAY;
-                    michal['action'] = verify;
+                    option = _closure1_slot9;
+                    option = option.CLICK_TO_STAY;
+                    michal['action'] = option;
+                    option = _closure2_slot0;
                     michal['channel_id'] = option;
                     option = _closure2_slot2;
-                    if(option) { _fun00006_ip = 111; continue _fun00005 }
- 105:
+                    if(option) { _fun00006_ip = 115; continue _fun00005 }
+ 109:
                     option = new Array(0);
-                    _fun00006_ip = 126; continue _fun00005;
- 111:
+                    _fun00006_ip = 130; continue _fun00005;
+ 115:
                     offset = _closure2_slot1;
                     verify = new Array(1);
                     verify[0] = offset;
                     option = verify;
- 126:
+ 130:
                     michal['blocked_user_ids'] = option;
                     option = _closure2_slot2;
-                    if(option) { _fun00006_ip = 152; continue _fun00005 }
- 138:
+                    if(option) { _fun00006_ip = 156; continue _fun00005 }
+ 142:
                     option = _closure2_slot1;
                     golfie = new Array(1);
                     golfie[0] = option;
-                    _fun00006_ip = 156; continue _fun00005;
- 152:
-                    golfie = new Array(0);
+                    _fun00006_ip = 160; continue _fun00005;
  156:
+                    golfie = new Array(0);
+ 160:
                     michal['ignored_user_ids'] = golfie;
                     oscard = _closure1_slot10;
                     oscard = oscard.POST_JOIN_SHEET;

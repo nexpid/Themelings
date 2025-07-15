@@ -19,7 +19,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     tangon = {};
     verify = golfie.CLASSIC;
     offset = 'discodo';
-    option = {'discodo': 'discodo', 'message1': 'message1', 'deafen': 'deafen', 'undeafen': 'undeafen', 'mute': 'mute', 'unmute': 'unmute', 'disconnect': 'disconnect', 'ptt_start': 'ptt_start', 'ptt_stop': 'ptt_stop', 'user_join': 'user_join', 'user_leave': 'user_leave', 'user_moved': 'user_moved', 'call_calling': 'call_calling', 'call_ringing': 'call_ringing', 'stream_started': 'stream_started', 'stream_ended': 'stream_ended', 'stream_user_joined': 'stream_user_joined', 'stream_user_left': 'stream_user_left', 'poggermode_enabled': 'poggermode_enabled', 'poggermode_applause': 'poggermode_applause', 'poggermode_achievement_unlock': 'poggermode_achievement_unlock', 'stage_waiting': 'stage_waiting'};
+    option = {'discodo': 'discodo', 'message1': 'message1', 'deafen': 'deafen', 'undeafen': 'undeafen', 'mute': 'mute', 'unmute': 'unmute', 'disconnect': 'disconnect', 'ptt_start': 'ptt_start', 'ptt_stop': 'ptt_stop', 'user_join': 'user_join', 'user_leave': 'user_leave', 'user_moved': 'user_moved', 'call_calling': 'call_calling', 'call_ringing': 'call_ringing', 'stream_started': 'stream_started', 'stream_ended': 'stream_ended', 'stream_user_joined': 'stream_user_joined', 'stream_user_left': 'stream_user_left', 'poggermode_enabled': 'poggermode_enabled', 'poggermode_applause': 'poggermode_applause', 'poggermode_achievement_unlock': 'poggermode_achievement_unlock', 'stage_waiting': 'stage_waiting', 'camera_off': 'camera_off', 'camera_on': 'camera_on'};
     tangon[verify] = option;
     verify = golfie.RETRO;
     option = {};

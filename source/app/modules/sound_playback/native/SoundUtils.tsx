@@ -299,6 +299,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = golfie.RING_TONE;
     tangon['call_ringing'] = option;
     option = golfie.VOICE;
+    tangon['camera_on'] = option;
+    option = golfie.VOICE;
+    tangon['camera_off'] = option;
+    option = golfie.VOICE;
     tangon['deafen'] = option;
     option = golfie.VOICE;
     tangon['disconnect'] = option;

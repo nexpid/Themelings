@@ -976,7 +976,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = _closure1_slot9;
             backup = _closure1_slot1;
             sizing = _closure1_slot2;
-            if(yankee) { _fun00002_ip = 1151; continue _fun00001 }
+            if(yankee) { _fun00002_ip = 1145; continue _fun00001 }
  920:
             romeon = 37;
             romeon = sizing[romeon];
@@ -1023,21 +1023,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon['sections'] = result;
             output = output.getSize;
             romeon['sectionHeaderSize'] = output;
-            output = false;
-            romeon['enabled'] = output;
             romeon = kiloes.bind(tangon)(foxtra, romeon);
-            _fun00002_ip = 1171; continue _fun00001;
- 1151:
+            _fun00002_ip = 1165; continue _fun00001;
+ 1145:
             foxtra = 36;
             foxtra = sizing[foxtra];
             backup = backup.bind(tangon)(foxtra);
             foxtra = {};
             romeon = kiloes.bind(tangon)(backup, foxtra);
- 1171:
+ 1165:
             option[1] = romeon;
             verify = null;
-            if(yankee) { _fun00002_ip = 1212; continue _fun00001 }
- 1180:
+            if(yankee) { _fun00002_ip = 1206; continue _fun00001 }
+ 1174:
             romeon = _closure1_slot9;
             yankee = _closure1_slot1;
             foxtra = _closure1_slot2;
@@ -1046,7 +1044,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.bind(tangon)(offset);
             offset = {};
             verify = romeon.bind(tangon)(yankee, offset);
- 1212:
+ 1206:
             option[2] = verify;
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);

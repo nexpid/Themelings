@@ -2898,12 +2898,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             quebec = quebec.bind(variable66)(kiloes, sequen);
             var _closure2_slot123 = quebec;
             variable65 = variable66.useCallback;
-            sequen = new Array(1);
+            sequen = new Array(2);
             sequen[0] = golfie;
+            sequen[1] = offset;
             kiloes = function(argFoo) {
                 entity = argFoo;
-                golfie = entity.firstVisibleMessageIndex;
-                oscard = entity.lastVisibleMessageIndex;
+                golfie = entity.firstVisibleMessageRowIndex;
+                oscard = entity.lastVisibleMessageRowIndex;
                 report = entity.firstVisibleMessagePercentVisible;
                 tangon = entity.lastVisibleMessagePercentVisible;
                 zuuluu = _closure1_slot0;
@@ -2914,12 +2915,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 zuuluu = zuuluu.bind(entity)(michal);
                 michal = zuuluu.getVisibleMessages;
                 entity = {};
-                entity['firstVisibleMessageIndex'] = golfie;
-                entity['lastVisibleMessageIndex'] = oscard;
+                entity['firstVisibleMessageRowIndex'] = golfie;
+                entity['lastVisibleMessageRowIndex'] = oscard;
                 entity['firstVisibleMessagePercentVisible'] = report;
                 entity['lastVisibleMessagePercentVisible'] = tangon;
-                tangon = _closure2_slot111;
-                entity['chatManager'] = tangon;
+                report = _closure2_slot111;
+                entity['chatManager'] = report;
+                tangon = _closure2_slot9;
+                entity['channelId'] = tangon;
                 entity = michal.bind(zuuluu)(entity);
                 return entity;
             };
@@ -3104,9 +3107,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     kiloes = output.bind(entity)(zuuluu);
                     backup = kiloes.handleVisibleMessagesChange;
                     zuuluu = {};
-                    zuuluu['firstVisibleMessageIndex'] = oscard;
+                    zuuluu['firstVisibleMessageRowIndex'] = oscard;
                     zuuluu['firstVisibleMessagePercentVisible'] = echoed;
-                    zuuluu['lastVisibleMessageIndex'] = report;
+                    zuuluu['lastVisibleMessageRowIndex'] = report;
                     zuuluu['lastVisibleMessagePercentVisible'] = sizing;
                     sizing = 92;
                     sizing = result[sizing];
@@ -3398,8 +3401,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     golfie = option.getPreviousRows;
                     golfie = golfie.bind(option)();
                     michal['rows'] = golfie;
-                    michal['firstVisibleMessageIndex'] = oscard;
-                    michal['lastVisibleMessageIndex'] = report;
+                    michal['firstVisibleMessageRowIndex'] = oscard;
+                    michal['lastVisibleMessageRowIndex'] = report;
                     michal = zuuluu.bind(tangon)(michal);
  425:
                     return entity;
@@ -4384,20 +4387,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable65 = variable65.bind(tangon)(verify);
             var _closure2_slot130 = variable65;
             variable66 = r121;
-            if(!variable66) { _fun00008_ip = 5405; continue _fun00007 }
- 5402:
+            if(!variable66) { _fun00008_ip = 5409; continue _fun00007 }
+ 5406:
             variable66 = !variable41;
- 5405:
-            if(!variable66) { _fun00008_ip = 5426; continue _fun00007 }
- 5408:
+ 5409:
+            if(!variable66) { _fun00008_ip = 5430; continue _fun00007 }
+ 5412:
             r123 = report == variable42;
             variable41 = undefined;
-            if(r123) { _fun00008_ip = 5423; continue _fun00007 }
- 5417:
+            if(r123) { _fun00008_ip = 5427; continue _fun00007 }
+ 5421:
             variable41 = variable42.isMessagesCached;
- 5423:
+ 5427:
             variable66 = variable41;
- 5426:
+ 5430:
             var _closure2_slot131 = variable66;
             variable41 = _closure1_slot5;
             r125 = variable41.useEffect;
@@ -4593,521 +4596,521 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals[60] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5824; continue _fun00007 }
- 5818:
+            if(variable68) { _fun00008_ip = 5828; continue _fun00007 }
+ 5822:
             variable67 = variable42.channelThreadsVersion;
- 5824:
+ 5828:
             equals[61] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5843; continue _fun00007 }
- 5837:
+            if(variable68) { _fun00008_ip = 5847; continue _fun00007 }
+ 5841:
             variable67 = variable42.rsvpVersion;
- 5843:
+ 5847:
             equals[62] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5862; continue _fun00007 }
- 5856:
+            if(variable68) { _fun00008_ip = 5866; continue _fun00007 }
+ 5860:
             variable67 = variable42.repliedIds;
- 5862:
+ 5866:
             equals[63] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5881; continue _fun00007 }
- 5875:
+            if(variable68) { _fun00008_ip = 5885; continue _fun00007 }
+ 5879:
             variable67 = variable42.hasLoadedExperiments;
- 5881:
+ 5885:
             equals[64] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5900; continue _fun00007 }
- 5894:
+            if(variable68) { _fun00008_ip = 5904; continue _fun00007 }
+ 5898:
             variable67 = variable42.communicationDisabledVersion;
- 5900:
+ 5904:
             equals[65] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5919; continue _fun00007 }
- 5913:
+            if(variable68) { _fun00008_ip = 5923; continue _fun00007 }
+ 5917:
             variable67 = variable42.failedMessagesVersion;
- 5919:
+ 5923:
             equals[66] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5938; continue _fun00007 }
- 5932:
+            if(variable68) { _fun00008_ip = 5942; continue _fun00007 }
+ 5936:
             variable67 = variable42.interactionStates;
- 5938:
+ 5942:
             equals[67] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5957; continue _fun00007 }
- 5951:
+            if(variable68) { _fun00008_ip = 5961; continue _fun00007 }
+ 5955:
             variable67 = variable42.interactionComponentStates;
- 5957:
+ 5961:
             equals[68] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5976; continue _fun00007 }
- 5970:
+            if(variable68) { _fun00008_ip = 5980; continue _fun00007 }
+ 5974:
             variable67 = variable42.interactionComponentStatesVersion;
- 5976:
+ 5980:
             equals[69] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 5995; continue _fun00007 }
- 5989:
+            if(variable68) { _fun00008_ip = 5999; continue _fun00007 }
+ 5993:
             variable67 = variable42.shouldDisableInteractiveComponents;
- 5995:
+ 5999:
             equals[70] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6014; continue _fun00007 }
- 6008:
+            if(variable68) { _fun00008_ip = 6018; continue _fun00007 }
+ 6012:
             variable67 = variable42.channelPolls;
- 6014:
+ 6018:
             equals[71] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6033; continue _fun00007 }
- 6027:
+            if(variable68) { _fun00008_ip = 6037; continue _fun00007 }
+ 6031:
             variable67 = variable42.activityInstanceIds;
- 6033:
+ 6037:
             equals[72] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6052; continue _fun00007 }
- 6046:
+            if(variable68) { _fun00008_ip = 6056; continue _fun00007 }
+ 6050:
             variable67 = variable42.activityParticipants;
- 6052:
+ 6056:
             equals[73] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6071; continue _fun00007 }
- 6065:
+            if(variable68) { _fun00008_ip = 6075; continue _fun00007 }
+ 6069:
             variable67 = variable42.activityInstancePresenceDetails;
- 6071:
+ 6075:
             equals[74] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6090; continue _fun00007 }
- 6084:
+            if(variable68) { _fun00008_ip = 6094; continue _fun00007 }
+ 6088:
             variable67 = variable42.messagesWithActivitiesLaunching;
- 6090:
+ 6094:
             equals[75] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6109; continue _fun00007 }
- 6103:
+            if(variable68) { _fun00008_ip = 6113; continue _fun00007 }
+ 6107:
             variable67 = variable42.invalidApplicationIds;
- 6109:
+ 6113:
             equals[76] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6128; continue _fun00007 }
- 6122:
+            if(variable68) { _fun00008_ip = 6132; continue _fun00007 }
+ 6126:
             variable67 = variable42.applicationAssetFetchingIds;
- 6128:
+ 6132:
             equals[77] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6147; continue _fun00007 }
- 6141:
+            if(variable68) { _fun00008_ip = 6151; continue _fun00007 }
+ 6145:
             variable67 = variable42.appDirectoryEmbedApplications;
- 6147:
+ 6151:
             equals[78] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6166; continue _fun00007 }
- 6160:
+            if(variable68) { _fun00008_ip = 6170; continue _fun00007 }
+ 6164:
             variable67 = variable42.invalidAppDirectoryEmbedApplicationIds;
- 6166:
+ 6170:
             equals[79] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6185; continue _fun00007 }
- 6179:
+            if(variable68) { _fun00008_ip = 6189; continue _fun00007 }
+ 6183:
             variable67 = variable42.appDirectoryEmbedApplicationFetchStates;
- 6185:
+ 6189:
             equals[80] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6204; continue _fun00007 }
- 6198:
+            if(variable68) { _fun00008_ip = 6208; continue _fun00007 }
+ 6202:
             variable67 = variable42.lazyCacheStatus;
- 6204:
+ 6208:
             equals[81] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6223; continue _fun00007 }
- 6217:
+            if(variable68) { _fun00008_ip = 6227; continue _fun00007 }
+ 6221:
             variable67 = variable42.isFollowingForumPost;
- 6223:
+ 6227:
             equals[82] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6242; continue _fun00007 }
- 6236:
+            if(variable68) { _fun00008_ip = 6246; continue _fun00007 }
+ 6240:
             variable67 = variable42.showMediaPostSharePrompt;
- 6242:
+ 6246:
             equals[83] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6261; continue _fun00007 }
- 6255:
+            if(variable68) { _fun00008_ip = 6265; continue _fun00007 }
+ 6259:
             variable67 = variable42.referralTrialOfferIds;
- 6261:
+ 6265:
             equals[84] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6280; continue _fun00007 }
- 6274:
+            if(variable68) { _fun00008_ip = 6284; continue _fun00007 }
+ 6278:
             variable67 = variable42.trialOffer;
- 6280:
+ 6284:
             equals[85] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6299; continue _fun00007 }
- 6293:
+            if(variable68) { _fun00008_ip = 6303; continue _fun00007 }
+ 6297:
             variable67 = variable42.isPremiumTier2User;
- 6299:
+ 6303:
             equals[86] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6318; continue _fun00007 }
- 6312:
+            if(variable68) { _fun00008_ip = 6322; continue _fun00007 }
+ 6316:
             variable67 = variable42.messageAuthorActivities;
- 6318:
+ 6322:
             equals[87] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6337; continue _fun00007 }
- 6331:
+            if(variable68) { _fun00008_ip = 6341; continue _fun00007 }
+ 6335:
             variable67 = variable42.activityInviteMessageIds;
- 6337:
+ 6341:
             equals[88] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6356; continue _fun00007 }
- 6350:
+            if(variable68) { _fun00008_ip = 6360; continue _fun00007 }
+ 6354:
             variable67 = variable42.resolvingGiftCodes;
- 6356:
+ 6360:
             equals[89] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6375; continue _fun00007 }
- 6369:
+            if(variable68) { _fun00008_ip = 6379; continue _fun00007 }
+ 6373:
             variable67 = variable42.resolvedGiftCodes;
- 6375:
+ 6379:
             equals[90] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6394; continue _fun00007 }
- 6388:
+            if(variable68) { _fun00008_ip = 6398; continue _fun00007 }
+ 6392:
             variable67 = variable42.acceptingGiftCodes;
- 6394:
+ 6398:
             equals[91] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6413; continue _fun00007 }
- 6407:
+            if(variable68) { _fun00008_ip = 6417; continue _fun00007 }
+ 6411:
             variable67 = variable42.mediaPostPreviewEmbeds;
- 6413:
+ 6417:
             equals[92] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6432; continue _fun00007 }
- 6426:
+            if(variable68) { _fun00008_ip = 6436; continue _fun00007 }
+ 6430:
             variable67 = variable42.explicitMediaFalsePositiveInfo;
- 6432:
+ 6436:
             equals[93] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6451; continue _fun00007 }
- 6445:
+            if(variable68) { _fun00008_ip = 6455; continue _fun00007 }
+ 6449:
             variable67 = variable42.guildTemplates;
- 6451:
+ 6455:
             equals[94] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6470; continue _fun00007 }
- 6464:
+            if(variable68) { _fun00008_ip = 6474; continue _fun00007 }
+ 6468:
             variable67 = variable42.buildOverrides;
- 6470:
+ 6474:
             equals[95] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6489; continue _fun00007 }
- 6483:
+            if(variable68) { _fun00008_ip = 6493; continue _fun00007 }
+ 6487:
             variable67 = variable42.quests;
- 6489:
+ 6493:
             equals[96] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6508; continue _fun00007 }
- 6502:
+            if(variable68) { _fun00008_ip = 6512; continue _fun00007 }
+ 6506:
             variable67 = variable42.isFetchingCurrentQuests;
- 6508:
+ 6512:
             equals[97] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6527; continue _fun00007 }
- 6521:
+            if(variable68) { _fun00008_ip = 6531; continue _fun00007 }
+ 6525:
             variable67 = variable42.showPushFeedback;
- 6527:
+ 6531:
             equals[98] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6546; continue _fun00007 }
- 6540:
+            if(variable68) { _fun00008_ip = 6550; continue _fun00007 }
+ 6544:
             variable67 = variable42.forwardGuildsVersion;
- 6546:
+ 6550:
             equals[99] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6565; continue _fun00007 }
- 6559:
+            if(variable68) { _fun00008_ip = 6569; continue _fun00007 }
+ 6563:
             variable67 = variable42.renderCommunicationDisabled;
- 6565:
+ 6569:
             equals[100] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6584; continue _fun00007 }
- 6578:
+            if(variable68) { _fun00008_ip = 6588; continue _fun00007 }
+ 6582:
             variable67 = variable42.editingMessageId;
- 6584:
+ 6588:
             equals[101] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6603; continue _fun00007 }
- 6597:
+            if(variable68) { _fun00008_ip = 6607; continue _fun00007 }
+ 6601:
             variable67 = variable42.replyingMessageId;
- 6603:
+ 6607:
             equals[102] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6622; continue _fun00007 }
- 6616:
+            if(variable68) { _fun00008_ip = 6626; continue _fun00007 }
+ 6620:
             variable67 = variable42.oldestUnreadMessageId;
- 6622:
+ 6626:
             equals[103] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6641; continue _fun00007 }
- 6635:
+            if(variable68) { _fun00008_ip = 6645; continue _fun00007 }
+ 6639:
             variable67 = variable42.isCallActive;
- 6641:
+ 6645:
             equals[104] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6660; continue _fun00007 }
- 6654:
+            if(variable68) { _fun00008_ip = 6664; continue _fun00007 }
+ 6658:
             variable67 = variable42.voiceStateChannelId;
- 6660:
+ 6664:
             equals[105] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6679; continue _fun00007 }
- 6673:
+            if(variable68) { _fun00008_ip = 6683; continue _fun00007 }
+ 6677:
             variable67 = variable42.participantsLength;
- 6679:
+ 6683:
             equals[106] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6698; continue _fun00007 }
- 6692:
+            if(variable68) { _fun00008_ip = 6702; continue _fun00007 }
+ 6696:
             variable67 = variable42.applications;
- 6698:
+ 6702:
             equals[107] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6717; continue _fun00007 }
- 6711:
+            if(variable68) { _fun00008_ip = 6721; continue _fun00007 }
+ 6715:
             variable67 = variable42.invites;
- 6717:
+ 6721:
             equals[108] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6736; continue _fun00007 }
- 6730:
+            if(variable68) { _fun00008_ip = 6740; continue _fun00007 }
+ 6734:
             variable67 = variable42.isSpamMessageRequest;
- 6736:
+ 6740:
             equals[109] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6755; continue _fun00007 }
- 6749:
+            if(variable68) { _fun00008_ip = 6759; continue _fun00007 }
+ 6753:
             variable67 = variable42.isMessageRequest;
- 6755:
+ 6759:
             equals[110] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6774; continue _fun00007 }
- 6768:
+            if(variable68) { _fun00008_ip = 6778; continue _fun00007 }
+ 6772:
             variable67 = variable42.currentUserCommunicationDisabled;
- 6774:
+ 6778:
             equals[111] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6793; continue _fun00007 }
- 6787:
+            if(variable68) { _fun00008_ip = 6797; continue _fun00007 }
+ 6791:
             variable67 = variable42.androidKeyboardHeight;
- 6793:
+ 6797:
             equals[112] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6812; continue _fun00007 }
- 6806:
+            if(variable68) { _fun00008_ip = 6816; continue _fun00007 }
+ 6810:
             variable67 = variable42.inlineAttachmentMedia;
- 6812:
+ 6816:
             equals[113] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6831; continue _fun00007 }
- 6825:
+            if(variable68) { _fun00008_ip = 6835; continue _fun00007 }
+ 6829:
             variable67 = variable42.inlineEmbedMedia;
- 6831:
+ 6835:
             equals[114] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6850; continue _fun00007 }
- 6844:
+            if(variable68) { _fun00008_ip = 6854; continue _fun00007 }
+ 6848:
             variable67 = variable42.renderEmbeds;
- 6850:
+ 6854:
             equals[115] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6869; continue _fun00007 }
- 6863:
+            if(variable68) { _fun00008_ip = 6873; continue _fun00007 }
+ 6867:
             variable67 = variable42.renderReactions;
- 6869:
+ 6873:
             equals[116] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6888; continue _fun00007 }
- 6882:
+            if(variable68) { _fun00008_ip = 6892; continue _fun00007 }
+ 6886:
             variable67 = variable42.animateEmoji;
- 6888:
+ 6892:
             equals[117] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6907; continue _fun00007 }
- 6901:
+            if(variable68) { _fun00008_ip = 6911; continue _fun00007 }
+ 6905:
             variable67 = variable42.animateStickers;
- 6907:
+ 6911:
             equals[118] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6926; continue _fun00007 }
- 6920:
+            if(variable68) { _fun00008_ip = 6930; continue _fun00007 }
+ 6924:
             variable67 = variable42.gifAutoPlay;
- 6926:
+ 6930:
             equals[119] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6945; continue _fun00007 }
- 6939:
+            if(variable68) { _fun00008_ip = 6949; continue _fun00007 }
+ 6943:
             variable67 = variable42.containerWidth;
- 6945:
+ 6949:
             equals[120] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6964; continue _fun00007 }
- 6958:
+            if(variable68) { _fun00008_ip = 6968; continue _fun00007 }
+ 6962:
             variable67 = variable42.guildSystemChannelFlags;
- 6964:
+ 6968:
             equals[121] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 6983; continue _fun00007 }
- 6977:
+            if(variable68) { _fun00008_ip = 6987; continue _fun00007 }
+ 6981:
             variable67 = variable42.userSettingsLocale;
- 6983:
+ 6987:
             equals[122] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7002; continue _fun00007 }
- 6996:
+            if(variable68) { _fun00008_ip = 7006; continue _fun00007 }
+ 7000:
             variable67 = variable42.roleStyle;
- 7002:
+ 7006:
             equals[123] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7021; continue _fun00007 }
- 7015:
+            if(variable68) { _fun00008_ip = 7025; continue _fun00007 }
+ 7019:
             variable67 = variable42.canSendMessages;
- 7021:
+ 7025:
             equals[124] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7040; continue _fun00007 }
- 7034:
+            if(variable68) { _fun00008_ip = 7044; continue _fun00007 }
+ 7038:
             variable67 = variable42.selectedSummary;
- 7040:
+ 7044:
             equals[125] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7059; continue _fun00007 }
- 7053:
+            if(variable68) { _fun00008_ip = 7063; continue _fun00007 }
+ 7057:
             variable67 = variable42.shouldObscureSpoiler;
- 7059:
+ 7063:
             equals[126] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7078; continue _fun00007 }
- 7072:
+            if(variable68) { _fun00008_ip = 7082; continue _fun00007 }
+ 7076:
             variable67 = variable42.shouldFilterKeywords;
- 7078:
+ 7082:
             equals[127] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7097; continue _fun00007 }
- 7091:
+            if(variable68) { _fun00008_ip = 7101; continue _fun00007 }
+ 7095:
             variable67 = variable42.isStaff;
- 7097:
+ 7101:
             equals[128] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7116; continue _fun00007 }
- 7110:
+            if(variable68) { _fun00008_ip = 7120; continue _fun00007 }
+ 7114:
             variable67 = variable42.messageShortcutsEnabled;
- 7116:
+ 7120:
             equals[129] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7135; continue _fun00007 }
- 7129:
+            if(variable68) { _fun00008_ip = 7139; continue _fun00007 }
+ 7133:
             variable67 = variable42.isAgeVerified;
- 7135:
+ 7139:
             equals[130] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7153; continue _fun00007 }
- 7148:
+            if(variable68) { _fun00008_ip = 7157; continue _fun00007 }
+ 7152:
             variable67 = variable42.theme;
- 7153:
+ 7157:
             equals[131] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7172; continue _fun00007 }
- 7166:
+            if(variable68) { _fun00008_ip = 7176; continue _fun00007 }
+ 7170:
             variable67 = variable42.threadStartingReferenceMessage;
- 7172:
+ 7176:
             equals[132] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7191; continue _fun00007 }
- 7185:
+            if(variable68) { _fun00008_ip = 7195; continue _fun00007 }
+ 7189:
             variable67 = variable42.unloadedContentEntryMessageIds;
- 7191:
+ 7195:
             equals[133] = variable67;
             variable68 = report == variable42;
             variable67 = undefined;
-            if(variable68) { _fun00008_ip = 7210; continue _fun00007 }
- 7204:
+            if(variable68) { _fun00008_ip = 7214; continue _fun00007 }
+ 7208:
             variable67 = variable42.guildInviteColorsFetched;
- 7210:
+ 7214:
             equals[134] = variable67;
             equals[135] = variable66;
             equals[136] = variable65;
@@ -5116,10 +5119,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals[138] = variable64;
             variable65 = report == variable42;
             variable64 = undefined;
-            if(variable65) { _fun00008_ip = 7251; continue _fun00007 }
- 7245:
+            if(variable65) { _fun00008_ip = 7255; continue _fun00007 }
+ 7249:
             variable64 = variable42.uploads;
- 7251:
+ 7255:
             equals[139] = variable64;
             equals[140] = variable63;
             equals[141] = variable62;
@@ -5137,10 +5140,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals[153] = variable37;
             variable53 = report == variable42;
             variable52 = undefined;
-            if(variable53) { _fun00008_ip = 7326; continue _fun00007 }
- 7320:
+            if(variable53) { _fun00008_ip = 7330; continue _fun00007 }
+ 7324:
             variable52 = variable42.shouldForceRender;
- 7326:
+ 7330:
             equals[154] = variable52;
             equals[155] = variable51;
             equals[156] = variable50;
@@ -5155,10 +5158,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             equals[165] = variable43;
             variable43 = report == variable42;
             report = undefined;
-            if(variable43) { _fun00008_ip = 7389; continue _fun00007 }
- 7383:
+            if(variable43) { _fun00008_ip = 7393; continue _fun00007 }
+ 7387:
             report = variable42.guildEmojis;
- 7389:
+ 7393:
             equals[166] = report;
             report = function() {
                 _fun00063: for(var _fun00064_ip = 0; ; ) switch(_fun00064_ip) {

@@ -666,17 +666,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     zuuluu = argFoo;
                     entity = '';
-                    if(!(entity !== zuuluu)) { _fun00010_ip = 52; continue _fun00009 }
+                    if(!(entity !== zuuluu)) { _fun00010_ip = 48; continue _fun00009 }
  11:
                     michal = _closure2_slot0;
-                    if(!(zuuluu !== michal)) { _fun00010_ip = 118; continue _fun00009 }
+                    if(!(zuuluu !== michal)) { _fun00010_ip = 114; continue _fun00009 }
  22:
                     zuuluu = _closure2_slot12;
                     michal = zuuluu.set;
                     entity = {'x': 0, 'y': 0, 'width': 0, 'height': 0};
                     entity = michal.bind(zuuluu)(entity);
-                    _fun00010_ip = 118; continue _fun00009;
- 52:
+                    _fun00010_ip = 114; continue _fun00009;
+ 48:
                     zuuluu = _closure2_slot12;
                     michal = zuuluu.set;
                     oscard = _closure1_slot0;
@@ -691,7 +691,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = entity.bind(oscard)();
                     entity = tangon.bind(report)(entity);
                     entity = michal.bind(zuuluu)(entity);
- 118:
+ 114:
                     entity = undefined;
                     return entity;
                 }

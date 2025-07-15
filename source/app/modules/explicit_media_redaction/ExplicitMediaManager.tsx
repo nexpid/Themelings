@@ -482,52 +482,52 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = tangon.channel_id;
                 entity = zuuluu[entity];
                 report = null;
-                if(!(report == entity)) { _fun00014_ip = 54; continue _fun00013 }
+                if(!(report == entity)) { _fun00014_ip = 50; continue _fun00013 }
  27:
                 golfie = _closure2_slot0;
                 zuuluu = tangon.channel_id;
                 entity = {'numOfAttachments': 0, 'numOfAttachmentsPendingScan': 0, 'numOfEmbeds': 0, 'numOfEmbedsPendingScan': 0};
                 golfie[zuuluu] = entity;
- 54:
+ 50:
                 zuuluu = _closure2_slot1;
                 entity = tangon.id;
                 entity = zuuluu[entity];
-                if(!(report == entity)) { _fun00014_ip = 109; continue _fun00013 }
- 71:
+                if(!(report == entity)) { _fun00014_ip = 105; continue _fun00013 }
+ 67:
                 golfie = _closure2_slot1;
                 zuuluu = tangon.id;
                 entity = {'channelId': null, 'numOfAttachments': 0, 'numOfGoreAttachments': 0, 'numOfExplicitAttachments': 0, 'numOfEmbeds': 0, 'numOfGoreEmbeds': 0, 'numOfExplicitEmbeds': 0};
                 option = tangon.channel_id;
                 entity['channelId'] = option;
                 golfie[zuuluu] = entity;
- 109:
+ 105:
                 zuuluu = tangon.attachments;
                 option = report == zuuluu;
                 entity = undefined;
                 golfie = undefined;
-                if(option) { _fun00014_ip = 131; continue _fun00013 }
- 126:
+                if(option) { _fun00014_ip = 127; continue _fun00013 }
+ 122:
                 golfie = zuuluu.length;
- 131:
+ 127:
                 option = report != golfie;
                 verify = 0;
-                if(!option) { _fun00014_ip = 143; continue _fun00013 }
- 140:
+                if(!option) { _fun00014_ip = 139; continue _fun00013 }
+ 136:
                 verify = golfie;
- 143:
+ 139:
                 option = tangon.embeds;
                 offset = report == option;
                 golfie = undefined;
-                if(offset) { _fun00014_ip = 163; continue _fun00013 }
- 158:
+                if(offset) { _fun00014_ip = 159; continue _fun00013 }
+ 154:
                 golfie = option.length;
- 163:
+ 159:
                 offset = report != golfie;
                 option = 0;
-                if(!offset) { _fun00014_ip = 175; continue _fun00013 }
- 172:
+                if(!offset) { _fun00014_ip = 171; continue _fun00013 }
+ 168:
                 option = golfie;
- 175:
+ 171:
                 offset = _closure1_slot0;
                 yankee = _closure1_slot2;
                 golfie = 16;
@@ -566,8 +566,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 offset = tangon.attachments;
                 golfie = report == offset;
                 option = undefined;
-                if(golfie) { _fun00014_ip = 388; continue _fun00013 }
- 368:
+                if(golfie) { _fun00014_ip = 384; continue _fun00013 }
+ 364:
                 verify = offset.filter;
                 golfie = function(argFoo) {
                     golfie = _closure1_slot0;
@@ -596,19 +596,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 golfie = verify.bind(offset)(golfie);
                 option = golfie.length;
- 388:
+ 384:
                 verify = report != option;
                 golfie = 0;
-                if(!verify) { _fun00014_ip = 400; continue _fun00013 }
- 397:
+                if(!verify) { _fun00014_ip = 396; continue _fun00013 }
+ 393:
                 golfie = option;
- 400:
+ 396:
                 michal['numOfExplicitAttachments'] = golfie;
                 offset = tangon.embeds;
                 golfie = report == offset;
                 option = undefined;
-                if(golfie) { _fun00014_ip = 441; continue _fun00013 }
- 421:
+                if(golfie) { _fun00014_ip = 437; continue _fun00013 }
+ 417:
                 verify = offset.filter;
                 golfie = function(argFoo) {
                     golfie = _closure1_slot0;
@@ -637,19 +637,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 golfie = verify.bind(offset)(golfie);
                 option = golfie.length;
- 441:
+ 437:
                 verify = report != option;
                 golfie = 0;
-                if(!verify) { _fun00014_ip = 453; continue _fun00013 }
- 450:
+                if(!verify) { _fun00014_ip = 449; continue _fun00013 }
+ 446:
                 golfie = option;
- 453:
+ 449:
                 michal['numOfExplicitEmbeds'] = golfie;
                 offset = tangon.attachments;
                 golfie = report == offset;
                 option = undefined;
-                if(golfie) { _fun00014_ip = 494; continue _fun00013 }
- 474:
+                if(golfie) { _fun00014_ip = 490; continue _fun00013 }
+ 470:
                 verify = offset.filter;
                 golfie = function(argFoo) {
                     golfie = _closure1_slot0;
@@ -678,19 +678,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 golfie = verify.bind(offset)(golfie);
                 option = golfie.length;
- 494:
+ 490:
                 verify = report != option;
                 golfie = 0;
-                if(!verify) { _fun00014_ip = 506; continue _fun00013 }
- 503:
+                if(!verify) { _fun00014_ip = 502; continue _fun00013 }
+ 499:
                 golfie = option;
- 506:
+ 502:
                 michal['numOfGoreAttachments'] = golfie;
                 option = tangon.embeds;
                 golfie = report == option;
                 tangon = undefined;
-                if(golfie) { _fun00014_ip = 547; continue _fun00013 }
- 527:
+                if(golfie) { _fun00014_ip = 543; continue _fun00013 }
+ 523:
                 golfie = option.filter;
                 oscard = function(argFoo) {
                     golfie = _closure1_slot0;
@@ -719,13 +719,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 };
                 oscard = golfie.bind(option)(oscard);
                 tangon = oscard.length;
- 547:
+ 543:
                 report = report != tangon;
                 zuuluu = 0;
-                if(!report) { _fun00014_ip = 559; continue _fun00013 }
- 556:
+                if(!report) { _fun00014_ip = 555; continue _fun00013 }
+ 552:
                 zuuluu = tangon;
- 559:
+ 555:
                 michal['numOfGoreEmbeds'] = zuuluu;
                 return entity;
             }

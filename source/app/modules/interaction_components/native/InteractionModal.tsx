@@ -148,12 +148,12 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = null;
             romeon = echoed != record;
             kiloes = null;
-            if(!romeon) { _fun00002_ip = 708; continue _fun00001 }
- 603:
+            if(!romeon) { _fun00002_ip = 712; continue _fun00001 }
+ 607:
             romeon = '';
             kiloes = null;
-            if(!(romeon !== record)) { _fun00002_ip = 708; continue _fun00001 }
- 613:
+            if(!(romeon !== record)) { _fun00002_ip = 712; continue _fun00001 }
+ 617:
             source = _closure1_slot6;
             echoed = _closure1_slot3;
             romeon = {};
@@ -176,7 +176,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             ctrled = config.bind(tangon)(sequen, ctrled);
             romeon['children'] = ctrled;
             kiloes = source.bind(tangon)(echoed, romeon);
- 708:
+ 712:
             romeon = new Array(2);
             romeon[0] = kiloes;
             sequen = _closure1_slot6;

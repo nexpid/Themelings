@@ -80,10 +80,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         backup = kiloes.isIOS;
         kiloes = backup.bind(kiloes)();
         backup = undefined;
-        if(!kiloes) { _fun00002_ip = 348; continue _fun00001 }
- 345:
+        if(!kiloes) { _fun00002_ip = 350; continue _fun00001 }
+ 347:
         backup = 60;
- 348:
+ 350:
         verify['fontSize'] = backup;
         backup = 74;
         verify['lineHeight'] = backup;

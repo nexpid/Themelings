@@ -108,8 +108,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 entity = argFoo;
                 offset = entity.rows;
-                oscard = entity.firstVisibleMessageIndex;
-                zuuluu = entity.lastVisibleMessageIndex;
+                oscard = entity.firstVisibleMessageRowIndex;
+                zuuluu = entity.lastVisibleMessageRowIndex;
                 michal = _closure2_slot0;
                 michal = michal.callback;
                 verify = null;

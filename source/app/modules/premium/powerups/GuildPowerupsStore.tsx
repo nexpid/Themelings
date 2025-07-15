@@ -93,7 +93,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = entity;
             zuuluu = 0;
             entity = tangon;
-            if(!michal) { _fun00004_ip = 228; continue _fun00003 }
+            if(!michal) { _fun00004_ip = 269; continue _fun00003 }
  155:
             foxtra = golfie[zuuluu];
             michal = _closure1_slot5;
@@ -107,17 +107,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = kiloes.has;
             backup = foxtra.bind(kiloes)(sizing);
  200:
+            if(!backup) { _fun00004_ip = 235; continue _fun00003 }
+ 203:
+            foxtra = michal.includedInLevel;
+            foxtra = offset == foxtra;
+            if(foxtra) { _fun00004_ip = 232; continue _fun00003 }
+ 216:
+            sizing = yankee.premiumTier;
+            kiloes = michal.includedInLevel;
+            foxtra = sizing < kiloes;
+ 232:
+            backup = foxtra;
+ 235:
             foxtra = tangon;
-            if(!backup) { _fun00004_ip = 210; continue _fun00003 }
- 206:
+            if(!backup) { _fun00004_ip = 251; continue _fun00003 }
+ 241:
+            michal = michal.boostPrice;
             foxtra = tangon + michal;
- 210:
+ 251:
             zuuluu = zuuluu + 1;
             michal = golfie.length;
             tangon = foxtra;
             entity = tangon;
             if(zuuluu < michal) { _fun00004_ip = 155; continue _fun00003 }
- 228:
+ 269:
             return entity;
         }
     };
@@ -239,7 +252,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = 7;
     michal = oscard[michal];
     michal = report.bind(entity)(michal);
-    michal = michal.AppliedGuildBoostsRequiredForPremiumFeature;
+    michal = michal.PURCHASABLE_PREMIUM_FEATURES_BOOST_INFO;
     var _closure1_slot7 = michal;
     michal = 8;
     michal = oscard[michal];

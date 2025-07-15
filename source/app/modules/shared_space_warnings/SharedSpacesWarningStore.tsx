@@ -37,6 +37,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = {};
         michal = {};
         entity['channelDismissTimestamps'] = michal;
+        michal = {};
+        entity['userDismissTimestamps'] = michal;
+        michal = null;
+        entity['globalDismissTimestamp'] = michal;
         michal = false;
         entity['queuedWarning'] = michal;
         return entity;
@@ -51,7 +55,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     report = 'modules/shared_space_warnings/SharedSpacesWarningStore.tsx';
     report = oscard.bind(golfie)(report);
     zuuluu['useSharedSpacesWarningStore'] = tangon;
-    tangon = function(argFoo) { // Original name: getDismissTimestamp
+    tangon = function(argFoo) { // Original name: getChannelDismissTimestamp
         michal = _closure1_slot0;
         entity = michal.getState;
         entity = entity.bind(michal)();
@@ -60,7 +64,25 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = michal[entity];
         return entity;
     };
-    zuuluu['getDismissTimestamp'] = tangon;
+    zuuluu['getChannelDismissTimestamp'] = tangon;
+    tangon = function(argFoo) { // Original name: getUserDismissTimestamp
+        michal = _closure1_slot0;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
+        michal = entity.userDismissTimestamps;
+        entity = argFoo;
+        entity = michal[entity];
+        return entity;
+    };
+    zuuluu['getUserDismissTimestamp'] = tangon;
+    tangon = function() { // Original name: getGlobalDismissTimestamp
+        michal = _closure1_slot0;
+        entity = michal.getState;
+        entity = entity.bind(michal)();
+        entity = entity.globalDismissTimestamp;
+        return entity;
+    };
+    zuuluu['getGlobalDismissTimestamp'] = tangon;
     tangon = function() { // Original name: isBlockedWarningQueued
         michal = _closure1_slot0;
         entity = michal.getState;
@@ -91,7 +113,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['dequeueBlockWarning'] = tangon;
-    michal = function(argFoo) { // Original name: setDismissalTimeForChannel
+    tangon = function(argFoo) { // Original name: setDismissalTimeForChannel
         michal = argFoo;
         var _closure2_slot0 = michal;
         zuuluu = _closure1_slot0;
@@ -116,6 +138,81 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = undefined;
         return entity;
     };
-    zuuluu['setDismissalTimeForChannel'] = michal;
+    zuuluu['setDismissalTimeForChannel'] = tangon;
+    tangon = function(argFoo) { // Original name: setDismissalTimeForUser
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot0;
+        michal = zuuluu.setState;
+        entity = function(argFoo) {
+            entity = {};
+            zuuluu = {};
+            michal = argFoo;
+            golfie = michal.userDismissTimestamps;
+            option = zuuluu;
+            michal = copyDataProperties(option, golfie);
+            report = _closure2_slot0;
+            michal = global;
+            oscard = michal.Date;
+            tangon = oscard.now;
+            tangon = tangon.bind(oscard)();
+            zuuluu[report] = tangon;
+            entity['userDismissTimestamps'] = zuuluu;
+            zuuluu = michal.Date;
+            michal = zuuluu.now;
+            michal = michal.bind(zuuluu)();
+            entity['globalDismissTimestamp'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['setDismissalTimeForUser'] = tangon;
+    michal = function(argFoo) { // Original name: setDismissalTimeForUsers
+        michal = global;
+        tangon = michal.Array;
+        zuuluu = tangon.from;
+        michal = argFoo;
+        report = zuuluu.bind(tangon)(michal);
+        tangon = report.reduce;
+        zuuluu = function(argFoo, argBar) {
+            entity = argFoo;
+            michal = global;
+            zuuluu = michal.Date;
+            michal = zuuluu.now;
+            zuuluu = michal.bind(zuuluu)();
+            michal = argBar;
+            entity[michal] = zuuluu;
+            return entity;
+        };
+        michal = {};
+        michal = tangon.bind(report)(zuuluu, michal);
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot0;
+        michal = zuuluu.setState;
+        entity = function(argFoo) {
+            entity = {};
+            michal = {};
+            zuuluu = argFoo;
+            tangon = zuuluu.userDismissTimestamps;
+            report = michal;
+            zuuluu = copyDataProperties(report, tangon);
+            tangon = _closure2_slot0;
+            report = michal;
+            zuuluu = copyDataProperties(report, tangon);
+            entity['userDismissTimestamps'] = michal;
+            michal = global;
+            zuuluu = michal.Date;
+            michal = zuuluu.now;
+            michal = michal.bind(zuuluu)();
+            entity['globalDismissTimestamp'] = michal;
+            return entity;
+        };
+        entity = michal.bind(zuuluu)(entity);
+        entity = undefined;
+        return entity;
+    };
+    zuuluu['setDismissalTimeForUsers'] = michal;
     return entity;
 })();

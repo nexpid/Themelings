@@ -1004,37 +1004,43 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify['request'] = romeon;
             michal = _closure1_slot18;
             michal = michal.GUILD;
-            if(!(michal !== tangon)) { _fun00022_ip = 265; continue _fun00021 }
+            if(!(michal !== tangon)) { _fun00022_ip = 317; continue _fun00021 }
  124:
             michal = _closure1_slot18;
             michal = michal.CHANNEL;
-            if(!(michal !== tangon)) { _fun00022_ip = 211; continue _fun00021 }
- 138:
+            if(!(michal !== tangon)) { _fun00022_ip = 263; continue _fun00021 }
+ 141:
             michal = _closure1_slot18;
             michal = michal.DMS;
-            if(!(michal !== tangon)) { _fun00022_ip = 158; continue _fun00021 }
- 152:
+            if(!(michal !== tangon)) { _fun00022_ip = 161; continue _fun00021 }
+ 155:
             michal = new Array(0);
             return michal;
- 158:
+ 161:
             tangon = _closure1_slot1;
-            golfie = _closure1_slot2;
-            michal = 19;
-            michal = golfie[michal];
-            option = tangon.bind(yankee)(michal);
-            golfie = option.queryUsers;
-            sizing = true;
-            backup = function() {
-                entity = true;
-                return entity;
-            };
-            echoed = option;
-            result = zuuluu;
-            output = foxtra;
-            kiloes = romeon;
-            golfie = echoed[golfie](result, output, sizing, kiloes, backup, foxtra);
-            _fun00022_ip = 317; continue _fun00021;
- 211:
+            kiloes = _closure1_slot2;
+            option = 19;
+            michal = kiloes[option];
+            golfie = tangon.bind(yankee)(michal);
+            tangon = golfie.queryUsers;
+            michal = {};
+            michal['query'] = zuuluu;
+            michal['limit'] = foxtra;
+            michal['request'] = romeon;
+            backup = _closure1_slot0;
+            option = kiloes[option];
+            foxtra = backup.bind(yankee)(option);
+            romeon = foxtra.getBoosterMap;
+            option = 20;
+            option = kiloes[option];
+            option = backup.bind(yankee)(option);
+            option = option.AutocompleterResultTypes;
+            option = option.USER;
+            option = romeon.bind(foxtra)(option);
+            michal['boosters'] = option;
+            golfie = tangon.bind(golfie)(michal);
+            _fun00022_ip = 369; continue _fun00021;
+ 263:
             tangon = _closure1_slot1;
             option = _closure1_slot2;
             michal = 19;
@@ -1042,14 +1048,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = tangon.bind(yankee)(michal);
             tangon = option.queryChannelUsers;
             michal = {};
-            result = michal;
-            output = verify;
-            romeon = copyDataProperties(result, output);
+            output = michal;
+            sizing = verify;
+            romeon = copyDataProperties(output, sizing);
             romeon = 'channelId';
             michal[romeon] = offset;
             golfie = tangon.bind(option)(michal);
-            _fun00022_ip = 317; continue _fun00021;
- 265:
+            _fun00022_ip = 369; continue _fun00021;
+ 317:
             tangon = _closure1_slot1;
             option = _closure1_slot2;
             michal = 19;
@@ -1057,13 +1063,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = tangon.bind(yankee)(michal);
             tangon = option.queryGuildUsers;
             michal = {};
-            result = michal;
-            output = verify;
-            verify = copyDataProperties(result, output);
+            output = michal;
+            sizing = verify;
+            verify = copyDataProperties(output, sizing);
             verify = 'guildId';
             michal[verify] = offset;
             golfie = tangon.bind(option)(michal);
- 317:
+ 369:
             tangon = _closure1_slot13;
             michal = tangon.getCurrentUser;
             tangon = michal.bind(tangon)();
@@ -1076,13 +1082,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = verify.bind(offset)(option, michal);
             michal = null;
             michal = michal != tangon;
-            if(!michal) { _fun00022_ip = 391; continue _fun00021 }
- 382:
+            if(!michal) { _fun00022_ip = 443; continue _fun00021 }
+ 434:
             zuuluu = zuuluu.length;
             michal = zuuluu > oscard;
- 391:
-            if(!michal) { _fun00022_ip = 495; continue _fun00021 }
- 394:
+ 443:
+            if(!michal) { _fun00022_ip = 547; continue _fun00021 }
+ 446:
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
             zuuluu = 13;
@@ -1097,17 +1103,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.bind(option)(zuuluu);
             zuuluu = oscard.startsWith;
             zuuluu = zuuluu.bind(oscard)(verify);
-            if(zuuluu) { _fun00022_ip = 492; continue _fun00021 }
- 463:
+            if(zuuluu) { _fun00022_ip = 544; continue _fun00021 }
+ 515:
             offset = _closure1_slot15;
             option = offset.substr;
             oscard = 1;
             option = option.bind(offset)(oscard);
             oscard = option.startsWith;
             zuuluu = oscard.bind(option)(verify);
- 492:
+ 544:
             michal = zuuluu;
- 495:
+ 547:
             _closure2_slot1 = michal;
             oscard = golfie.filter;
             zuuluu = function(argFoo) {
@@ -1161,15 +1167,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             };
             entity = zuuluu.bind(oscard)(entity);
-            if(!michal) { _fun00022_ip = 561; continue _fun00021 }
- 536:
+            if(!michal) { _fun00022_ip = 613; continue _fun00021 }
+ 588:
             zuuluu = entity.unshift;
             michal = {};
             report = _closure1_slot15;
             michal['text'] = report;
             michal['user'] = tangon;
             michal = zuuluu.bind(entity)(michal);
- 561:
+ 613:
             return entity;
         }
     };
