@@ -173,6 +173,11 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = report.bind(entity)(option);
     option = option.unsupportedCommand;
     michal[verify] = option;
+    verify = golfie.OPEN_INVITE;
+    option = oscard[tangon];
+    option = report.bind(entity)(option);
+    option = option.unsupportedCommand;
+    michal[verify] = option;
     verify = golfie.SHARE_INTERACTION;
     option = oscard[tangon];
     option = report.bind(entity)(option);

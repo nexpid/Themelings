@@ -407,8 +407,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = foxtra.type;
             entity = _closure1_slot8;
             entity = entity.GUILD_CATEGORY;
-            if(!(michal !== entity)) { _fun00008_ip = 109; continue _fun00007 }
- 75:
+            if(!(michal !== entity)) { _fun00008_ip = 108; continue _fun00007 }
+ 74:
             michal = _closure1_slot0;
             oscard = _closure1_slot2;
             entity = 19;
@@ -416,14 +416,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = michal.bind(tangon)(entity);
             entity = michal.getChannelIconWithGuild;
             oscard = entity.bind(michal)(foxtra, zuuluu);
-            _fun00008_ip = 129; continue _fun00007;
- 109:
+            _fun00008_ip = 128; continue _fun00007;
+ 108:
             michal = _closure1_slot1;
             zuuluu = _closure1_slot2;
             entity = 18;
             entity = zuuluu[entity];
             oscard = michal.bind(tangon)(entity);
- 129:
+ 128:
             zuuluu = _closure1_slot9;
             michal = _closure1_slot1;
             offset = _closure1_slot2;
@@ -467,10 +467,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report['style'] = option;
             option = null;
             option = option != verify;
-            if(!option) { _fun00008_ip = 330; continue _fun00007 }
- 325:
+            if(!option) { _fun00008_ip = 329; continue _fun00007 }
+ 324:
             option = verify.name;
- 330:
+ 329:
             report['children'] = option;
             report = golfie.bind(tangon)(oscard, report);
             entity['trailing'] = report;

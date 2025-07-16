@@ -193,7 +193,9 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['skuId'] = zuuluu;
                 zuuluu = michal.name;
                 entity['name'] = zuuluu;
-                zuuluu = michal.summary;
+                tangon = michal.summary;
+                zuuluu = tangon.trim;
+                zuuluu = zuuluu.bind(tangon)();
                 entity['summary'] = zuuluu;
                 zuuluu = michal.banner;
                 entity['banner'] = zuuluu;

@@ -213,22 +213,22 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal[0] = oscard;
                 backup = 0;
                 yankee = null;
-                if(!(backup === option)) { _fun00002_ip = 73; continue _fun00001 }
- 63:
+                if(!(backup === option)) { _fun00002_ip = 74; continue _fun00001 }
+ 64:
                 backup = _closure2_slot2;
                 yankee = backup.firstItem;
- 73:
+ 74:
                 michal[1] = yankee;
                 yankee = _closure2_slot0;
                 backup = yankee.length;
                 yankee = 1;
                 kiloes = backup - yankee;
                 backup = null;
-                if(!(option === kiloes)) { _fun00002_ip = 109; continue _fun00001 }
- 99:
+                if(!(option === kiloes)) { _fun00002_ip = 110; continue _fun00001 }
+ 100:
                 kiloes = _closure2_slot2;
                 backup = kiloes.lastItem;
- 109:
+ 110:
                 michal[2] = backup;
                 entity['style'] = michal;
                 sizing = _closure1_slot5;
@@ -249,8 +249,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = offset.length;
                 offset = offset - yankee;
                 oscard = null;
-                if(!(option !== offset)) { _fun00002_ip = 233; continue _fun00001 }
- 195:
+                if(!(option !== offset)) { _fun00002_ip = 234; continue _fun00001 }
+ 196:
                 yankee = _closure1_slot5;
                 offset = _closure1_slot0;
                 romeon = _closure1_slot2;
@@ -260,7 +260,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 offset = golfie.TableRowDivider;
                 golfie = {};
                 oscard = yankee.bind(michal)(offset, golfie);
- 233:
+ 234:
                 entity[1] = oscard;
                 zuuluu['children'] = entity;
                 entity = global;

@@ -163,29 +163,35 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     michal = function(argFoo) { // Original name: getIsDefaultErc
         _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-            michal = argFoo;
-            entity = michal.colors;
-            zuuluu = null;
-            entity = zuuluu != entity;
-            if(!entity) { _fun00008_ip = 34; continue _fun00007 }
- 17:
-            tangon = michal.colors;
-            report = tangon.primary_color;
-            tangon = 0;
-            entity = tangon === report;
- 34:
-            if(!entity) { _fun00008_ip = 52; continue _fun00007 }
- 37:
-            tangon = michal.colors;
-            tangon = tangon.secondary_color;
-            entity = zuuluu == tangon;
- 52:
-            if(!entity) { _fun00008_ip = 70; continue _fun00007 }
- 55:
-            michal = michal.colors;
-            michal = michal.tertiary_color;
-            entity = zuuluu == michal;
- 70:
+            zuuluu = argFoo;
+            entity = zuuluu.color;
+            oscard = 0;
+            entity = oscard === entity;
+            michal = zuuluu.colors;
+            tangon = null;
+            michal = tangon != michal;
+            if(!michal) { _fun00008_ip = 43; continue _fun00007 }
+ 28:
+            report = zuuluu.colors;
+            report = report.primary_color;
+            michal = oscard === report;
+ 43:
+            if(!michal) { _fun00008_ip = 61; continue _fun00007 }
+ 46:
+            report = zuuluu.colors;
+            report = report.secondary_color;
+            michal = tangon == report;
+ 61:
+            if(!michal) { _fun00008_ip = 79; continue _fun00007 }
+ 64:
+            zuuluu = zuuluu.colors;
+            zuuluu = zuuluu.tertiary_color;
+            michal = tangon == zuuluu;
+ 79:
+            if(entity) { _fun00008_ip = 85; continue _fun00007 }
+ 82:
+            entity = michal;
+ 85:
             return entity;
         }
     };

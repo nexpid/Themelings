@@ -20,6 +20,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['DATABASE'] = entity;
     entity = 'DEFAULT';
     michal['DEFAULT'] = entity;
+    entity = 'OOP_DEFAULT';
+    michal['OOP_DEFAULT'] = entity;
+    entity = 'OOP_DEFAULT_DATABASE';
+    michal['OOP_DEFAULT_DATABASE'] = entity;
     entity = 'DEV_OVERRIDE';
     michal['DEV_OVERRIDE'] = entity;
     entity = 'LEGACY_ENABLED';

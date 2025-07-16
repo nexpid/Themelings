@@ -711,139 +711,139 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = null;
                     michal = zuuluu != entity;
                     entity = null;
-                    if(!michal) { _fun00016_ip = 88; continue _fun00015 }
- 84:
+                    if(!michal) { _fun00016_ip = 87; continue _fun00015 }
+ 83:
                     entity = _closure2_slot6;
- 88:
+ 87:
                     report['underlying_error'] = entity;
                     entity = _closure2_slot7;
                     michal = zuuluu != entity;
                     entity = null;
-                    if(!michal) { _fun00016_ip = 112; continue _fun00015 }
- 108:
+                    if(!michal) { _fun00016_ip = 111; continue _fun00015 }
+ 107:
                     entity = _closure2_slot7;
- 112:
+ 111:
                     report['error_message'] = entity;
                     entity = _closure2_slot4;
                     michal = zuuluu == entity;
                     entity = undefined;
                     golfie = undefined;
-                    if(michal) { _fun00016_ip = 141; continue _fun00015 }
- 132:
+                    if(michal) { _fun00016_ip = 140; continue _fun00015 }
+ 131:
                     michal = _closure2_slot4;
                     golfie = michal.guild_id;
- 141:
+ 140:
                     option = zuuluu != golfie;
                     michal = null;
-                    if(!option) { _fun00016_ip = 153; continue _fun00015 }
- 150:
+                    if(!option) { _fun00016_ip = 152; continue _fun00015 }
+ 149:
                     michal = golfie;
- 153:
+ 152:
                     report['guild_id'] = michal;
                     michal = _closure2_slot3;
                     golfie = zuuluu != michal;
                     michal = null;
-                    if(!golfie) { _fun00016_ip = 174; continue _fun00015 }
- 170:
+                    if(!golfie) { _fun00016_ip = 173; continue _fun00015 }
+ 169:
                     michal = _closure2_slot3;
- 174:
+ 173:
                     report['channel_id'] = michal;
                     michal = _closure2_slot4;
                     michal = zuuluu == michal;
                     golfie = undefined;
-                    if(michal) { _fun00016_ip = 200; continue _fun00015 }
- 191:
+                    if(michal) { _fun00016_ip = 199; continue _fun00015 }
+ 190:
                     michal = _closure2_slot4;
                     golfie = michal.type;
- 200:
+ 199:
                     option = zuuluu != golfie;
                     michal = null;
-                    if(!option) { _fun00016_ip = 212; continue _fun00015 }
- 209:
+                    if(!option) { _fun00016_ip = 211; continue _fun00015 }
+ 208:
                     michal = golfie;
- 212:
+ 211:
                     report['channel_type'] = michal;
                     michal = _closure2_slot9;
                     golfie = zuuluu != michal;
                     michal = null;
-                    if(!golfie) { _fun00016_ip = 234; continue _fun00015 }
- 230:
+                    if(!golfie) { _fun00016_ip = 233; continue _fun00015 }
+ 229:
                     michal = _closure2_slot9;
- 234:
+ 233:
                     report['rtc_connection_id'] = michal;
                     michal = _closure2_slot8;
-                    if(!(zuuluu == michal)) { _fun00016_ip = 266; continue _fun00015 }
- 247:
+                    if(!(zuuluu == michal)) { _fun00016_ip = 265; continue _fun00015 }
+ 246:
                     golfie = _closure1_slot8;
                     michal = golfie.getMediaSessionId;
                     golfie = michal.bind(golfie)();
-                    _fun00016_ip = 270; continue _fun00015;
- 266:
+                    _fun00016_ip = 269; continue _fun00015;
+ 265:
                     golfie = _closure2_slot8;
- 270:
+ 269:
                     option = zuuluu != golfie;
                     michal = null;
-                    if(!option) { _fun00016_ip = 282; continue _fun00015 }
- 279:
+                    if(!option) { _fun00016_ip = 281; continue _fun00015 }
+ 278:
                     michal = golfie;
- 282:
+ 281:
                     report['media_session_id'] = michal;
                     michal = _closure2_slot18;
                     michal = zuuluu == michal;
                     golfie = undefined;
-                    if(michal) { _fun00016_ip = 310; continue _fun00015 }
- 300:
+                    if(michal) { _fun00016_ip = 309; continue _fun00015 }
+ 299:
                     michal = _closure2_slot18;
                     golfie = michal.parentMediaSessionId;
- 310:
+ 309:
                     option = zuuluu != golfie;
                     michal = null;
-                    if(!option) { _fun00016_ip = 322; continue _fun00015 }
- 319:
+                    if(!option) { _fun00016_ip = 321; continue _fun00015 }
+ 318:
                     michal = golfie;
- 322:
+ 321:
                     report['parent_media_session_id'] = michal;
                     michal = _closure2_slot5;
                     golfie = zuuluu != michal;
                     michal = null;
-                    if(!golfie) { _fun00016_ip = 344; continue _fun00015 }
- 340:
+                    if(!golfie) { _fun00016_ip = 343; continue _fun00015 }
+ 339:
                     michal = _closure2_slot5;
- 344:
+ 343:
                     report['context'] = michal;
                     option = _closure1_slot8;
                     golfie = option.getRTCConnection;
                     verify = golfie.bind(option)();
                     golfie = zuuluu == verify;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 386; continue _fun00015 }
- 374:
+                    if(golfie) { _fun00016_ip = 385; continue _fun00015 }
+ 373:
                     golfie = verify.getVoiceVersion;
                     option = golfie.bind(verify)();
- 386:
+ 385:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 398; continue _fun00015 }
- 395:
+                    if(!verify) { _fun00016_ip = 397; continue _fun00015 }
+ 394:
                     golfie = option;
- 398:
+ 397:
                     report['voice_backend_version'] = golfie;
                     option = _closure1_slot8;
                     golfie = option.getRTCConnection;
                     verify = golfie.bind(option)();
                     golfie = zuuluu == verify;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 438; continue _fun00015 }
- 426:
+                    if(golfie) { _fun00016_ip = 437; continue _fun00015 }
+ 425:
                     golfie = verify.getRtcWorkerVersion;
                     option = golfie.bind(verify)();
- 438:
+ 437:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 450; continue _fun00015 }
- 447:
+                    if(!verify) { _fun00016_ip = 449; continue _fun00015 }
+ 446:
                     golfie = option;
- 450:
+ 449:
                     report['rtc_worker_backend_version'] = golfie;
                     verify = _closure1_slot9;
                     option = verify.getRegion;
@@ -853,86 +853,86 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     option = option.bind(verify)(golfie);
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 496; continue _fun00015 }
- 493:
+                    if(!verify) { _fun00016_ip = 495; continue _fun00015 }
+ 492:
                     golfie = option;
- 496:
+ 495:
                     report['guild_region'] = golfie;
                     option = _closure1_slot8;
                     golfie = option.getHostname;
                     option = golfie.bind(option)();
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 527; continue _fun00015 }
- 524:
+                    if(!verify) { _fun00016_ip = 526; continue _fun00015 }
+ 523:
                     golfie = option;
- 527:
+ 526:
                     report['hostname'] = golfie;
                     golfie = _closure2_slot19;
                     golfie = zuuluu == golfie;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 559; continue _fun00015 }
- 545:
+                    if(golfie) { _fun00016_ip = 558; continue _fun00015 }
+ 544:
                     verify = _closure2_slot19;
                     golfie = verify.getDurationSeconds;
                     option = golfie.bind(verify)();
- 559:
+ 558:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 571; continue _fun00015 }
- 568:
+                    if(!verify) { _fun00016_ip = 570; continue _fun00015 }
+ 567:
                     golfie = option;
- 571:
+ 570:
                     report['duration'] = golfie;
                     golfie = _closure2_slot29;
                     option = zuuluu != golfie;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 592; continue _fun00015 }
- 588:
+                    if(!option) { _fun00016_ip = 591; continue _fun00015 }
+ 587:
                     golfie = _closure2_slot29;
- 592:
+ 591:
                     report['participant_type'] = golfie;
                     golfie = _closure2_slot1;
                     option = zuuluu == golfie;
                     verify = undefined;
-                    if(option) { _fun00016_ip = 616; continue _fun00015 }
- 610:
+                    if(option) { _fun00016_ip = 615; continue _fun00015 }
+ 609:
                     verify = golfie.num_frames;
- 616:
+ 615:
                     offset = zuuluu != verify;
                     option = 0;
-                    if(!offset) { _fun00016_ip = 628; continue _fun00015 }
- 625:
+                    if(!offset) { _fun00016_ip = 627; continue _fun00015 }
+ 624:
                     option = verify;
- 628:
+ 627:
                     report['num_frames'] = option;
                     option = _closure2_slot1;
                     offset = zuuluu == option;
                     verify = undefined;
-                    if(offset) { _fun00016_ip = 652; continue _fun00015 }
- 646:
+                    if(offset) { _fun00016_ip = 651; continue _fun00015 }
+ 645:
                     verify = option.num_packets;
- 652:
+ 651:
                     offset = zuuluu != verify;
                     option = 0;
-                    if(!offset) { _fun00016_ip = 664; continue _fun00015 }
- 661:
+                    if(!offset) { _fun00016_ip = 663; continue _fun00015 }
+ 660:
                     option = verify;
- 664:
+ 663:
                     report['num_packets'] = option;
                     option = _closure2_slot1;
                     offset = zuuluu == option;
                     verify = undefined;
-                    if(offset) { _fun00016_ip = 688; continue _fun00015 }
- 682:
+                    if(offset) { _fun00016_ip = 687; continue _fun00015 }
+ 681:
                     verify = option.num_bytes;
- 688:
+ 687:
                     offset = zuuluu != verify;
                     option = 0;
-                    if(!offset) { _fun00016_ip = 700; continue _fun00015 }
- 697:
+                    if(!offset) { _fun00016_ip = 699; continue _fun00015 }
+ 696:
                     option = verify;
- 700:
+ 699:
                     report['num_bytes'] = option;
                     yankee = _closure1_slot18;
                     offset = _closure2_slot26;
@@ -941,20 +941,20 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     verify = yankee.bind(entity)(offset, verify, option);
                     offset = zuuluu == verify;
                     option = undefined;
-                    if(offset) { _fun00016_ip = 743; continue _fun00015 }
- 737:
+                    if(offset) { _fun00016_ip = 742; continue _fun00015 }
+ 736:
                     option = verify.packetsLost;
- 743:
+ 742:
                     verify = zuuluu != option;
                     golfie = 0;
-                    if(!verify) { _fun00016_ip = 755; continue _fun00015 }
- 752:
+                    if(!verify) { _fun00016_ip = 754; continue _fun00015 }
+ 751:
                     golfie = option;
- 755:
+ 754:
                     report['num_packets_lost'] = golfie;
                     golfie = _closure2_slot10;
-                    if(!(zuuluu == golfie)) { _fun00016_ip = 846; continue _fun00015 }
- 770:
+                    if(!(zuuluu == golfie)) { _fun00016_ip = 845; continue _fun00015 }
+ 769:
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
                     golfie = 16;
@@ -968,26 +968,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = romeon.bind(entity)(yankee, offset, golfie);
                     yankee = zuuluu == offset;
                     golfie = undefined;
-                    if(yankee) { _fun00016_ip = 839; continue _fun00015 }
- 828:
+                    if(yankee) { _fun00016_ip = 838; continue _fun00015 }
+ 827:
                     offset = offset.codec;
                     golfie = offset.name;
- 839:
+ 838:
                     option = option.bind(verify)(golfie);
-                    _fun00016_ip = 850; continue _fun00015;
- 846:
+                    _fun00016_ip = 849; continue _fun00015;
+ 845:
                     option = _closure2_slot10;
- 850:
+ 849:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 862; continue _fun00015 }
- 859:
+                    if(!verify) { _fun00016_ip = 861; continue _fun00015 }
+ 858:
                     golfie = option;
- 862:
+ 861:
                     report['video_codec'] = golfie;
                     golfie = _closure2_slot11;
-                    if(!(zuuluu == golfie)) { _fun00016_ip = 936; continue _fun00015 }
- 875:
+                    if(!(zuuluu == golfie)) { _fun00016_ip = 935; continue _fun00015 }
+ 874:
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
                     golfie = 16;
@@ -999,25 +999,25 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = offset.bind(entity)(golfie);
                     yankee = zuuluu == offset;
                     golfie = undefined;
-                    if(yankee) { _fun00016_ip = 929; continue _fun00015 }
- 923:
+                    if(yankee) { _fun00016_ip = 928; continue _fun00015 }
+ 922:
                     golfie = offset.encoderImplementationName;
- 929:
+ 928:
                     option = option.bind(verify)(golfie);
-                    _fun00016_ip = 940; continue _fun00015;
- 936:
+                    _fun00016_ip = 939; continue _fun00015;
+ 935:
                     option = _closure2_slot11;
- 940:
+ 939:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 952; continue _fun00015 }
- 949:
+                    if(!verify) { _fun00016_ip = 951; continue _fun00015 }
+ 948:
                     golfie = option;
- 952:
+ 951:
                     report['video_encoder'] = golfie;
                     golfie = _closure2_slot12;
-                    if(!(zuuluu == golfie)) { _fun00016_ip = 1033; continue _fun00015 }
- 967:
+                    if(!(zuuluu == golfie)) { _fun00016_ip = 1032; continue _fun00015 }
+ 966:
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
                     golfie = 16;
@@ -1030,29 +1030,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     offset = yankee.bind(entity)(offset, golfie);
                     yankee = zuuluu == offset;
                     golfie = undefined;
-                    if(yankee) { _fun00016_ip = 1026; continue _fun00015 }
- 1020:
+                    if(yankee) { _fun00016_ip = 1025; continue _fun00015 }
+ 1019:
                     golfie = offset.decoderImplementationName;
- 1026:
+ 1025:
                     option = option.bind(verify)(golfie);
-                    _fun00016_ip = 1037; continue _fun00015;
- 1033:
+                    _fun00016_ip = 1036; continue _fun00015;
+ 1032:
                     option = _closure2_slot12;
- 1037:
+ 1036:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1049; continue _fun00015 }
- 1046:
+                    if(!verify) { _fun00016_ip = 1048; continue _fun00015 }
+ 1045:
                     golfie = option;
- 1049:
+ 1048:
                     report['video_decoder'] = golfie;
                     golfie = _closure2_slot13;
                     option = zuuluu != golfie;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1073; continue _fun00015 }
- 1069:
+                    if(!option) { _fun00016_ip = 1072; continue _fun00015 }
+ 1068:
                     golfie = _closure2_slot13;
- 1073:
+ 1072:
                     report['audio_capture_sample_rate_mismatch_percent'] = golfie;
                     option = _closure1_slot0;
                     verify = _closure1_slot2;
@@ -1071,192 +1071,192 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = offset.bind(entity)(verify, option, golfie);
                     verify = zuuluu == golfie;
                     option = undefined;
-                    if(verify) { _fun00016_ip = 1164; continue _fun00015 }
- 1158:
+                    if(verify) { _fun00016_ip = 1163; continue _fun00015 }
+ 1157:
                     option = golfie.bitrate;
- 1164:
+ 1163:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1176; continue _fun00015 }
- 1173:
+                    if(!verify) { _fun00016_ip = 1175; continue _fun00015 }
+ 1172:
                     golfie = option;
- 1176:
+ 1175:
                     report['bitrate'] = golfie;
                     option = _closure2_slot26;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1230; continue _fun00015 }
- 1190:
+                    if(!option) { _fun00016_ip = 1229; continue _fun00015 }
+ 1189:
                     verify = _closure1_slot16;
                     option = _closure2_slot30;
                     verify = verify.bind(entity)(option);
                     offset = zuuluu == verify;
                     option = undefined;
-                    if(offset) { _fun00016_ip = 1218; continue _fun00015 }
- 1212:
+                    if(offset) { _fun00016_ip = 1217; continue _fun00015 }
+ 1211:
                     option = verify.bitrateTarget;
- 1218:
+ 1217:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1230; continue _fun00015 }
- 1227:
+                    if(!verify) { _fun00016_ip = 1229; continue _fun00015 }
+ 1226:
                     golfie = option;
- 1230:
+ 1229:
                     report['target_bitrate'] = golfie;
                     golfie = _closure2_slot26;
                     verify = _closure2_slot27;
                     option = _closure2_slot28;
-                    if(golfie) { _fun00016_ip = 1291; continue _fun00015 }
- 1252:
+                    if(golfie) { _fun00016_ip = 1290; continue _fun00015 }
+ 1251:
                     golfie = _closure1_slot17;
                     option = golfie.bind(entity)(verify, option);
                     offset = zuuluu == option;
                     golfie = undefined;
-                    if(offset) { _fun00016_ip = 1277; continue _fun00015 }
- 1271:
+                    if(offset) { _fun00016_ip = 1276; continue _fun00015 }
+ 1270:
                     golfie = option.frameRateDecode;
- 1277:
+ 1276:
                     offset = zuuluu != golfie;
                     option = null;
-                    if(!offset) { _fun00016_ip = 1289; continue _fun00015 }
- 1286:
+                    if(!offset) { _fun00016_ip = 1288; continue _fun00015 }
+ 1285:
                     option = golfie;
- 1289:
-                    _fun00016_ip = 1330; continue _fun00015;
- 1291:
+ 1288:
+                    _fun00016_ip = 1329; continue _fun00015;
+ 1290:
                     golfie = _closure1_slot16;
                     golfie = golfie.bind(entity)(verify);
                     offset = zuuluu == golfie;
                     verify = undefined;
-                    if(offset) { _fun00016_ip = 1315; continue _fun00015 }
- 1309:
+                    if(offset) { _fun00016_ip = 1314; continue _fun00015 }
+ 1308:
                     verify = golfie.frameRateEncode;
- 1315:
+ 1314:
                     offset = zuuluu != verify;
                     golfie = null;
-                    if(!offset) { _fun00016_ip = 1327; continue _fun00015 }
- 1324:
+                    if(!offset) { _fun00016_ip = 1326; continue _fun00015 }
+ 1323:
                     golfie = verify;
- 1327:
+ 1326:
                     option = golfie;
- 1330:
+ 1329:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1342; continue _fun00015 }
- 1339:
+                    if(!verify) { _fun00016_ip = 1341; continue _fun00015 }
+ 1338:
                     golfie = option;
- 1342:
+ 1341:
                     report['fps'] = golfie;
                     verify = _closure2_slot27;
                     golfie = _closure1_slot14;
                     option = golfie.STREAM;
                     golfie = null;
-                    if(!(verify === option)) { _fun00016_ip = 1380; continue _fun00015 }
- 1367:
+                    if(!(verify === option)) { _fun00016_ip = 1379; continue _fun00015 }
+ 1366:
                     option = _closure2_slot26;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1380; continue _fun00015 }
- 1376:
+                    if(!option) { _fun00016_ip = 1379; continue _fun00015 }
+ 1375:
                     golfie = _closure2_slot21;
- 1380:
+ 1379:
                     report['target_fps'] = golfie;
                     golfie = _closure2_slot17;
                     golfie = zuuluu == golfie;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1410; continue _fun00015 }
- 1400:
+                    if(golfie) { _fun00016_ip = 1409; continue _fun00015 }
+ 1399:
                     golfie = _closure2_slot17;
                     option = golfie.ownerId;
- 1410:
+ 1409:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1422; continue _fun00015 }
- 1419:
+                    if(!verify) { _fun00016_ip = 1421; continue _fun00015 }
+ 1418:
                     golfie = option;
- 1422:
+ 1421:
                     report['sender_user_id'] = golfie;
                     golfie = _closure2_slot18;
                     golfie = zuuluu == golfie;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1454; continue _fun00015 }
- 1440:
+                    if(golfie) { _fun00016_ip = 1453; continue _fun00015 }
+ 1439:
                     verify = _closure2_slot18;
                     golfie = verify.getRegion;
                     option = golfie.bind(verify)();
- 1454:
+ 1453:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1466; continue _fun00015 }
- 1463:
+                    if(!verify) { _fun00016_ip = 1465; continue _fun00015 }
+ 1462:
                     golfie = option;
- 1466:
+ 1465:
                     report['stream_region'] = golfie;
                     option = _closure2_slot26;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1530; continue _fun00015 }
- 1480:
+                    if(!option) { _fun00016_ip = 1529; continue _fun00015 }
+ 1479:
                     option = _closure2_slot18;
                     verify = zuuluu == option;
                     option = undefined;
-                    if(verify) { _fun00016_ip = 1518; continue _fun00015 }
- 1493:
+                    if(verify) { _fun00016_ip = 1517; continue _fun00015 }
+ 1492:
                     verify = _closure2_slot18;
                     verify = verify.analyticsContext;
                     offset = zuuluu == verify;
                     option = undefined;
-                    if(offset) { _fun00016_ip = 1518; continue _fun00015 }
- 1512:
+                    if(offset) { _fun00016_ip = 1517; continue _fun00015 }
+ 1511:
                     option = verify.streamSourceType;
- 1518:
+ 1517:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1530; continue _fun00015 }
- 1527:
+                    if(!verify) { _fun00016_ip = 1529; continue _fun00015 }
+ 1526:
                     golfie = option;
- 1530:
+ 1529:
                     report['stream_source_type'] = golfie;
                     golfie = _closure2_slot18;
                     golfie = zuuluu == golfie;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1573; continue _fun00015 }
- 1548:
+                    if(golfie) { _fun00016_ip = 1572; continue _fun00015 }
+ 1547:
                     golfie = _closure2_slot18;
                     golfie = golfie.analyticsContext;
                     verify = zuuluu == golfie;
                     option = undefined;
-                    if(verify) { _fun00016_ip = 1573; continue _fun00015 }
- 1567:
+                    if(verify) { _fun00016_ip = 1572; continue _fun00015 }
+ 1566:
                     option = golfie.numViewers;
- 1573:
+ 1572:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1585; continue _fun00015 }
- 1582:
+                    if(!verify) { _fun00016_ip = 1584; continue _fun00015 }
+ 1581:
                     golfie = option;
- 1585:
+ 1584:
                     report['num_stream_viewers'] = golfie;
                     option = _closure2_slot26;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1618; continue _fun00015 }
- 1601:
+                    if(!option) { _fun00016_ip = 1617; continue _fun00015 }
+ 1600:
                     option = _closure2_slot20;
                     option = zuuluu != option;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1618; continue _fun00015 }
- 1614:
+                    if(!option) { _fun00016_ip = 1617; continue _fun00015 }
+ 1613:
                     golfie = _closure2_slot20;
- 1618:
+ 1617:
                     report['video_input_resolution_height'] = golfie;
                     option = _closure2_slot26;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1651; continue _fun00015 }
- 1634:
+                    if(!option) { _fun00016_ip = 1650; continue _fun00015 }
+ 1633:
                     option = _closure2_slot21;
                     option = zuuluu != option;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1651; continue _fun00015 }
- 1647:
+                    if(!option) { _fun00016_ip = 1650; continue _fun00015 }
+ 1646:
                     golfie = _closure2_slot21;
- 1651:
+ 1650:
                     report['video_input_frame_rate'] = golfie;
                     option = _closure1_slot21;
                     golfie = _closure2_slot30;
@@ -1265,177 +1265,177 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = _closure2_slot22;
                     option = zuuluu != golfie;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1695; continue _fun00015 }
- 1691:
+                    if(!option) { _fun00016_ip = 1694; continue _fun00015 }
+ 1690:
                     golfie = _closure2_slot22;
- 1695:
+ 1694:
                     report['share_application_name'] = golfie;
                     golfie = _closure2_slot23;
                     option = zuuluu != golfie;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1717; continue _fun00015 }
- 1713:
+                    if(!option) { _fun00016_ip = 1716; continue _fun00015 }
+ 1712:
                     golfie = _closure2_slot23;
- 1717:
+ 1716:
                     report['share_application_id'] = golfie;
                     golfie = _closure2_slot24;
                     option = zuuluu != golfie;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1739; continue _fun00015 }
- 1735:
+                    if(!option) { _fun00016_ip = 1738; continue _fun00015 }
+ 1734:
                     golfie = _closure2_slot24;
- 1739:
+ 1738:
                     report['share_application_executable'] = golfie;
                     golfie = _closure2_slot25;
                     option = zuuluu != golfie;
                     golfie = null;
-                    if(!option) { _fun00016_ip = 1761; continue _fun00015 }
- 1757:
+                    if(!option) { _fun00016_ip = 1760; continue _fun00015 }
+ 1756:
                     golfie = _closure2_slot25;
- 1761:
+ 1760:
                     report['share_application_distributor'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1781; continue _fun00015 }
- 1775:
+                    if(golfie) { _fun00016_ip = 1780; continue _fun00015 }
+ 1774:
                     option = oscard.cpu_brand;
- 1781:
+ 1780:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1793; continue _fun00015 }
- 1790:
+                    if(!verify) { _fun00016_ip = 1792; continue _fun00015 }
+ 1789:
                     golfie = option;
- 1793:
+ 1792:
                     report['cpu_brand'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1813; continue _fun00015 }
- 1807:
+                    if(golfie) { _fun00016_ip = 1812; continue _fun00015 }
+ 1806:
                     option = oscard.cpu_vendor;
- 1813:
+ 1812:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1825; continue _fun00015 }
- 1822:
+                    if(!verify) { _fun00016_ip = 1824; continue _fun00015 }
+ 1821:
                     golfie = option;
- 1825:
+ 1824:
                     report['cpu_vendor'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1845; continue _fun00015 }
- 1839:
+                    if(golfie) { _fun00016_ip = 1844; continue _fun00015 }
+ 1838:
                     option = oscard.cpu_memory;
- 1845:
+ 1844:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1857; continue _fun00015 }
- 1854:
+                    if(!verify) { _fun00016_ip = 1856; continue _fun00015 }
+ 1853:
                     golfie = option;
- 1857:
+ 1856:
                     report['cpu_memory'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1877; continue _fun00015 }
- 1871:
+                    if(golfie) { _fun00016_ip = 1876; continue _fun00015 }
+ 1870:
                     option = oscard.gpu_brand;
- 1877:
+ 1876:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1889; continue _fun00015 }
- 1886:
+                    if(!verify) { _fun00016_ip = 1888; continue _fun00015 }
+ 1885:
                     golfie = option;
- 1889:
+ 1888:
                     report['gpu_brand'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1909; continue _fun00015 }
- 1903:
+                    if(golfie) { _fun00016_ip = 1908; continue _fun00015 }
+ 1902:
                     option = oscard.gpu_count;
- 1909:
+ 1908:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1921; continue _fun00015 }
- 1918:
+                    if(!verify) { _fun00016_ip = 1920; continue _fun00015 }
+ 1917:
                     golfie = option;
- 1921:
+ 1920:
                     report['gpu_count'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1941; continue _fun00015 }
- 1935:
+                    if(golfie) { _fun00016_ip = 1940; continue _fun00015 }
+ 1934:
                     option = oscard.gpu_memory;
- 1941:
+ 1940:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1953; continue _fun00015 }
- 1950:
+                    if(!verify) { _fun00016_ip = 1952; continue _fun00015 }
+ 1949:
                     golfie = option;
- 1953:
+ 1952:
                     report['gpu_memory'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 1973; continue _fun00015 }
- 1967:
+                    if(golfie) { _fun00016_ip = 1972; continue _fun00015 }
+ 1966:
                     option = oscard.gpu_device_vendor_id;
- 1973:
+ 1972:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 1985; continue _fun00015 }
- 1982:
+                    if(!verify) { _fun00016_ip = 1984; continue _fun00015 }
+ 1981:
                     golfie = option;
- 1985:
+ 1984:
                     report['gpu_device_vendor_id'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 2005; continue _fun00015 }
- 1999:
+                    if(golfie) { _fun00016_ip = 2004; continue _fun00015 }
+ 1998:
                     option = oscard.gpu_device_device_id;
- 2005:
+ 2004:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 2017; continue _fun00015 }
- 2014:
+                    if(!verify) { _fun00016_ip = 2016; continue _fun00015 }
+ 2013:
                     golfie = option;
- 2017:
+ 2016:
                     report['gpu_device_device_id'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 2037; continue _fun00015 }
- 2031:
+                    if(golfie) { _fun00016_ip = 2036; continue _fun00015 }
+ 2030:
                     option = oscard.gpu_device_sub_sys_id;
- 2037:
+ 2036:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 2049; continue _fun00015 }
- 2046:
+                    if(!verify) { _fun00016_ip = 2048; continue _fun00015 }
+ 2045:
                     golfie = option;
- 2049:
+ 2048:
                     report['gpu_device_sub_sys_id'] = golfie;
                     golfie = zuuluu == oscard;
                     option = undefined;
-                    if(golfie) { _fun00016_ip = 2069; continue _fun00015 }
- 2063:
+                    if(golfie) { _fun00016_ip = 2068; continue _fun00015 }
+ 2062:
                     option = oscard.gpu_device_revision;
- 2069:
+ 2068:
                     verify = zuuluu != option;
                     golfie = null;
-                    if(!verify) { _fun00016_ip = 2081; continue _fun00015 }
- 2078:
+                    if(!verify) { _fun00016_ip = 2080; continue _fun00015 }
+ 2077:
                     golfie = option;
- 2081:
+ 2080:
                     report['gpu_device_revision'] = golfie;
                     option = zuuluu == oscard;
                     golfie = undefined;
-                    if(option) { _fun00016_ip = 2101; continue _fun00015 }
- 2095:
+                    if(option) { _fun00016_ip = 2100; continue _fun00015 }
+ 2094:
                     golfie = oscard.gpu_driver_version;
- 2101:
+ 2100:
                     option = zuuluu != golfie;
                     oscard = null;
-                    if(!option) { _fun00016_ip = 2113; continue _fun00015 }
- 2110:
+                    if(!option) { _fun00016_ip = 2112; continue _fun00015 }
+ 2109:
                     oscard = golfie;
- 2113:
+ 2112:
                     report['gpu_driver_version'] = oscard;
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -1446,10 +1446,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = oscard.bind(golfie)();
                     verify = zuuluu != golfie;
                     oscard = null;
-                    if(!verify) { _fun00016_ip = 2160; continue _fun00015 }
- 2157:
+                    if(!verify) { _fun00016_ip = 2159; continue _fun00015 }
+ 2156:
                     oscard = golfie;
- 2160:
+ 2159:
                     report['cpu_usage'] = oscard;
                     golfie = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -1459,10 +1459,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = oscard.bind(golfie)();
                     option = zuuluu != golfie;
                     oscard = null;
-                    if(!option) { _fun00016_ip = 2206; continue _fun00015 }
- 2203:
+                    if(!option) { _fun00016_ip = 2205; continue _fun00015 }
+ 2202:
                     oscard = golfie;
- 2206:
+ 2205:
                     report['memory_usage'] = oscard;
                     golfie = _closure1_slot19;
                     oscard = _closure2_slot30;
@@ -1477,8 +1477,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = oscard.bind(golfie)();
                     report['hardware_enabled'] = oscard;
                     oscard = _closure2_slot14;
-                    if(!(zuuluu == oscard)) { _fun00016_ip = 2326; continue _fun00015 }
- 2282:
+                    if(!(zuuluu == oscard)) { _fun00016_ip = 2325; continue _fun00015 }
+ 2281:
                     option = _closure1_slot7;
                     oscard = option.getInputDevices;
                     golfie = oscard.bind(option)();
@@ -1487,18 +1487,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = golfie[oscard];
                     option = zuuluu == golfie;
                     oscard = undefined;
-                    if(option) { _fun00016_ip = 2324; continue _fun00015 }
- 2319:
+                    if(option) { _fun00016_ip = 2323; continue _fun00015 }
+ 2318:
                     oscard = golfie.name;
- 2324:
-                    _fun00016_ip = 2330; continue _fun00015;
- 2326:
+ 2323:
+                    _fun00016_ip = 2329; continue _fun00015;
+ 2325:
                     oscard = _closure2_slot14;
- 2330:
+ 2329:
                     report['audio_input_device_name'] = oscard;
                     oscard = _closure2_slot15;
-                    if(!(zuuluu == oscard)) { _fun00016_ip = 2389; continue _fun00015 }
- 2345:
+                    if(!(zuuluu == oscard)) { _fun00016_ip = 2388; continue _fun00015 }
+ 2344:
                     option = _closure1_slot7;
                     oscard = option.getOutputDevices;
                     golfie = oscard.bind(option)();
@@ -1507,18 +1507,18 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     golfie = golfie[oscard];
                     option = zuuluu == golfie;
                     oscard = undefined;
-                    if(option) { _fun00016_ip = 2387; continue _fun00015 }
- 2382:
+                    if(option) { _fun00016_ip = 2386; continue _fun00015 }
+ 2381:
                     oscard = golfie.name;
- 2387:
-                    _fun00016_ip = 2393; continue _fun00015;
- 2389:
+ 2386:
+                    _fun00016_ip = 2392; continue _fun00015;
+ 2388:
                     oscard = _closure2_slot15;
- 2393:
+ 2392:
                     report['audio_output_device_name'] = oscard;
                     oscard = _closure2_slot16;
-                    if(!(zuuluu == oscard)) { _fun00016_ip = 2452; continue _fun00015 }
- 2408:
+                    if(!(zuuluu == oscard)) { _fun00016_ip = 2451; continue _fun00015 }
+ 2407:
                     option = _closure1_slot7;
                     oscard = option.getVideoDevices;
                     golfie = oscard.bind(option)();
@@ -1527,14 +1527,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     oscard = golfie[oscard];
                     golfie = zuuluu == oscard;
                     zuuluu = undefined;
-                    if(golfie) { _fun00016_ip = 2450; continue _fun00015 }
- 2445:
+                    if(golfie) { _fun00016_ip = 2449; continue _fun00015 }
+ 2444:
                     zuuluu = oscard.name;
- 2450:
-                    _fun00016_ip = 2456; continue _fun00015;
- 2452:
+ 2449:
+                    _fun00016_ip = 2455; continue _fun00015;
+ 2451:
                     zuuluu = _closure2_slot16;
- 2456:
+ 2455:
                     report['video_device_name'] = zuuluu;
                     golfie = _closure1_slot7;
                     zuuluu = golfie.getMediaEngine;

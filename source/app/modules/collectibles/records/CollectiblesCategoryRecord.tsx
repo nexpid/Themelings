@@ -38,13 +38,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot10 = michal;
+            _closure1_slot11 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot10 = entity;
+    var _closure1_slot11 = entity;
     entity = global;
     verify = entity.Object;
     option = verify.defineProperty;
@@ -90,6 +90,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     golfie = report.bind(entity)(golfie);
     golfie = golfie.HeroBannerConfigRecord;
     var _closure1_slot9 = golfie;
+    golfie = 9;
+    golfie = oscard[golfie];
+    golfie = report.bind(entity)(golfie);
+    golfie = golfie.AssetDisplayConfigRecord;
+    var _closure1_slot10 = golfie;
     michal = function(argFoo) {
         report = function(argFoo) { // Original name: CollectiblesCategoryRecord
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -105,7 +110,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot5;
                 verify = entity.bind(tangon)(zuuluu);
                 zuuluu = _closure1_slot4;
-                entity = _closure1_slot10;
+                entity = _closure1_slot11;
                 entity = entity.bind(tangon)();
                 if(entity) { _fun00004_ip = 73; continue _fun00003 }
  60:
@@ -146,8 +151,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['heroBannerAsset'] = zuuluu;
                 zuuluu = michal.bannerTextColor;
                 entity['bannerTextColor'] = zuuluu;
-                michal = michal.heroBannerConfig;
-                entity['heroBannerConfig'] = michal;
+                zuuluu = michal.heroBannerConfig;
+                entity['heroBannerConfig'] = zuuluu;
+                michal = michal.heroLogoDisplayConfig;
+                entity['heroLogoDisplayConfig'] = michal;
                 return entity;
             }
         };
@@ -164,44 +171,45 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 zuuluu = argFoo;
-                sequen = this;
-                source = zuuluu.products;
-                result = zuuluu.logo;
-                output = zuuluu.hero_ranking;
-                sizing = zuuluu.pdp_bg;
-                kiloes = zuuluu.mobile_bg;
-                backup = zuuluu.success_modal_bg;
-                foxtra = zuuluu.mobile_banner;
-                romeon = zuuluu.hero_banner;
-                yankee = zuuluu.hero_banner_asset;
-                offset = zuuluu.featured_block;
+                config = this;
+                ctrled = zuuluu.products;
+                echoed = zuuluu.logo;
+                result = zuuluu.hero_ranking;
+                output = zuuluu.pdp_bg;
+                sizing = zuuluu.mobile_bg;
+                kiloes = zuuluu.success_modal_bg;
+                backup = zuuluu.mobile_banner;
+                foxtra = zuuluu.hero_banner;
+                romeon = zuuluu.hero_banner_asset;
+                yankee = zuuluu.featured_block;
                 verify = zuuluu.hero_logo;
                 option = zuuluu.banner_text_color;
-                oscard = zuuluu.hero_banner_config;
-                michal = {'products': 0, 'logo': 0, 'hero_ranking': 0, 'pdp_bg': 0, 'mobile_bg': 0, 'success_modal_bg': 0, 'mobile_banner': 0, 'hero_banner': 0, 'hero_banner_asset': 0, 'featured_block': 0, 'hero_logo': 0, 'banner_text_color': 0, 'hero_banner_config': 0};
+                offset = zuuluu.hero_banner_config;
+                oscard = zuuluu.hero_logo_display_config;
+                michal = {'products': 0, 'logo': 0, 'hero_ranking': 0, 'pdp_bg': 0, 'mobile_bg': 0, 'success_modal_bg': 0, 'mobile_banner': 0, 'hero_banner': 0, 'hero_banner_asset': 0, 'featured_block': 0, 'hero_logo': 0, 'banner_text_color': 0, 'hero_banner_config': 0, 'hero_logo_display_config': 0};
                 report = null;
-                cntext = michal;
-                record = null;
-                entity = silentSetPrototypeOf(cntext, record);
-                cntext = {};
-                record = zuuluu;
-                config = michal;
-                ctrled = copyDataProperties(cntext, record, config);
+                papara = michal;
+                cntext = null;
+                entity = silentSetPrototypeOf(papara, cntext);
+                papara = {};
+                cntext = zuuluu;
+                record = michal;
+                vacuum = copyDataProperties(papara, cntext, record);
                 zuuluu = _closure2_slot0;
                 entity = {};
-                var _closure3_slot0 = sequen;
-                vacuum = _closure1_slot6;
-                echoed = _closure1_slot5;
+                var _closure3_slot0 = config;
+                sequen = _closure1_slot6;
+                update = _closure1_slot5;
                 tangon = undefined;
-                update = echoed.bind(tangon)(zuuluu);
-                echoed = 'fromServer';
-                update = vacuum.bind(tangon)(update, echoed, sequen);
-                var _closure3_slot1 = update;
-                vacuum = 'function';
-                echoed = typeof update;
-                if(!(vacuum === echoed)) { _fun00006_ip = 185; continue _fun00005 }
- 180:
-                update = function(argFoo) {
+                source = update.bind(tangon)(zuuluu);
+                update = 'fromServer';
+                source = sequen.bind(tangon)(source, update, config);
+                var _closure3_slot1 = source;
+                sequen = 'function';
+                update = typeof source;
+                if(!(sequen === update)) { _fun00006_ip = 191; continue _fun00005 }
+ 186:
+                source = function(argFoo) {
                     tangon = _closure3_slot1;
                     zuuluu = tangon.apply;
                     michal = _closure3_slot0;
@@ -209,14 +217,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
                 };
- 185:
-                echoed = new Array(1);
-                echoed[0] = ctrled;
-                record = update.bind(tangon)(echoed);
-                cntext = entity;
-                echoed = copyDataProperties(cntext, record);
-                update = source.reduce;
-                echoed = function(argFoo, argBar) {
+ 191:
+                update = new Array(1);
+                update[0] = vacuum;
+                cntext = source.bind(tangon)(update);
+                papara = entity;
+                update = copyDataProperties(papara, cntext);
+                source = ctrled.reduce;
+                update = function(argFoo, argBar) {
                     _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                         entity = argFoo;
@@ -227,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         report = zuuluu.type;
                         oscard = _closure1_slot0;
                         michal = _closure1_slot1;
-                        option = 9;
+                        option = 10;
                         michal = michal[option];
                         golfie = undefined;
                         michal = oscard.bind(golfie)(michal);
@@ -260,46 +268,56 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     }
                 };
                 golfie = new Array(0);
-                echoed = update.bind(source)(echoed, golfie);
+                update = source.bind(ctrled)(update, golfie);
                 golfie = 'products';
-                entity[golfie] = echoed;
+                entity[golfie] = update;
                 golfie = 'logo';
-                entity[golfie] = result;
+                entity[golfie] = echoed;
                 golfie = 'heroRanking';
-                entity[golfie] = output;
+                entity[golfie] = result;
                 golfie = 'pdpBg';
-                entity[golfie] = sizing;
+                entity[golfie] = output;
                 golfie = 'mobileBg';
-                entity[golfie] = kiloes;
+                entity[golfie] = sizing;
                 golfie = 'successModalBg';
-                entity[golfie] = backup;
+                entity[golfie] = kiloes;
                 golfie = 'mobileBanner';
-                entity[golfie] = foxtra;
+                entity[golfie] = backup;
                 golfie = 'heroBanner';
-                entity[golfie] = romeon;
+                entity[golfie] = foxtra;
                 golfie = 'heroBannerAsset';
-                entity[golfie] = yankee;
+                entity[golfie] = romeon;
                 golfie = 'featuredBlock';
-                entity[golfie] = offset;
+                entity[golfie] = yankee;
                 golfie = 'heroLogo';
                 entity[golfie] = verify;
                 golfie = 'bannerTextColor';
                 entity[golfie] = option;
+                golfie = report != offset;
+                option = undefined;
+                if(!golfie) { _fun00006_ip = 364; continue _fun00005 }
+ 349:
+                verify = _closure1_slot9;
+                golfie = verify.fromServer;
+                option = golfie.bind(verify)(offset);
+ 364:
+                golfie = 'heroBannerConfig';
+                entity[golfie] = option;
                 report = report != oscard;
                 tangon = undefined;
-                if(!report) { _fun00006_ip = 358; continue _fun00005 }
- 343:
-                report = _closure1_slot9;
+                if(!report) { _fun00006_ip = 397; continue _fun00005 }
+ 382:
+                report = _closure1_slot10;
                 michal = report.fromServer;
                 tangon = michal.bind(report)(oscard);
- 358:
-                michal = 'heroBannerConfig';
+ 397:
+                michal = 'heroLogoDisplayConfig';
                 entity[michal] = tangon;
                 michal = zuuluu.prototype;
                 michal = Object.create(michal, {constructor: {value: zuuluu}});
-                papara = michal;
-                cntext = entity;
-                entity = new papara[zuuluu](cntext, record);
+                target = michal;
+                papara = entity;
+                entity = new target[zuuluu](papara, cntext);
                 entity = entity instanceof Object ? entity : michal;
                 return entity;
             }
@@ -312,7 +330,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal = michal.bind(entity)(tangon);
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

@@ -322,14 +322,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             kiloes = _closure1_slot3;
             backup = kiloes.getApplication;
             tangon = oscard.id;
-            sizing = backup.bind(kiloes)(tangon);
-            tangon = entity == sizing;
+            tangon = backup.bind(kiloes)(tangon);
+            tangon = entity == tangon;
             if(!tangon) { _fun00002_ip = 891; continue _fun00001 }
  865:
-            output = _closure1_slot3;
-            kiloes = output.isFetchingApplication;
+            sizing = _closure1_slot3;
+            kiloes = sizing.isFetchingApplication;
             backup = oscard.id;
-            kiloes = kiloes.bind(output)(backup);
+            kiloes = kiloes.bind(sizing)(backup);
             backup = false;
             tangon = backup === kiloes;
  891:
@@ -344,23 +344,6 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = oscard.id;
             tangon = backup.bind(kiloes)(tangon);
  930:
-            tangon = entity != sizing;
-            backup = null;
-            if(!tangon) { _fun00002_ip = 970; continue _fun00001 }
- 939:
-            kiloes = _closure1_slot0;
-            output = _closure1_slot1;
-            tangon = 10;
-            tangon = output[tangon];
-            kiloes = kiloes.bind(golfie)(tangon);
-            tangon = kiloes.getViewAction;
-            backup = tangon.bind(kiloes)(sizing);
- 970:
-            if(!(entity != backup)) { _fun00002_ip = 984; continue _fun00001 }
- 974:
-            tangon = romeon.push;
-            tangon = tangon.bind(romeon)(backup);
- 984:
             tangon = {};
             backup = oscard.id;
             tangon['appId'] = backup;
@@ -380,10 +363,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             foxtra = backup.bind(kiloes)(foxtra);
             tangon['title'] = foxtra;
             foxtra = entity != yankee;
-            if(!foxtra) { _fun00002_ip = 1074; continue _fun00001 }
- 1071:
+            if(!foxtra) { _fun00002_ip = 1020; continue _fun00001 }
+ 1017:
             verify = yankee;
- 1074:
+ 1020:
             tangon['header'] = verify;
             tangon['info'] = entity;
             tangon['tagline'] = entity;
@@ -416,10 +399,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = verify.getAppGradientColors;
             yankee = entity != offset;
             golfie = undefined;
-            if(!yankee) { _fun00002_ip = 1223; continue _fun00001 }
- 1220:
+            if(!yankee) { _fun00002_ip = 1169; continue _fun00001 }
+ 1166:
             golfie = offset;
- 1223:
+ 1169:
             golfie = option.bind(verify)(golfie);
             tangon['gradientColors'] = golfie;
             golfie = 0;

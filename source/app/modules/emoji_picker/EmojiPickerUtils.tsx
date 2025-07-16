@@ -1390,46 +1390,46 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             offset = michal.category;
             yankee = michal.subCategory;
             entity = undefined;
-            if(!(yankee === entity)) { _fun00028_ip = 51; continue _fun00027 }
- 38:
+            if(!(yankee === entity)) { _fun00028_ip = 50; continue _fun00027 }
+ 37:
             zuuluu = _closure1_slot10;
             yankee = zuuluu.NONE;
- 51:
+ 50:
             option = michal.position;
             golfie = michal.newlyAddedHighlight;
             oscard = michal.isBurstReaction;
             zuuluu = _closure1_slot17;
             zuuluu = zuuluu.REACTION;
-            if(!(zuuluu !== tangon)) { _fun00028_ip = 123; continue _fun00027 }
- 85:
+            if(!(zuuluu !== tangon)) { _fun00028_ip = 122; continue _fun00027 }
+ 84:
             zuuluu = _closure1_slot17;
             zuuluu = zuuluu.STATUS;
-            if(!(zuuluu !== tangon)) { _fun00028_ip = 111; continue _fun00027 }
- 99:
+            if(!(zuuluu !== tangon)) { _fun00028_ip = 110; continue _fun00027 }
+ 98:
             zuuluu = _closure1_slot19;
             kiloes = zuuluu.EMOJI_PICKER_EMOJI_CLICKED;
-            _fun00028_ip = 147; continue _fun00027;
- 111:
+            _fun00028_ip = 146; continue _fun00027;
+ 110:
             zuuluu = _closure1_slot19;
             kiloes = zuuluu.EMOJI_PICKER_STATUS_EMOJI_CLICKED;
-            _fun00028_ip = 147; continue _fun00027;
- 123:
+            _fun00028_ip = 146; continue _fun00027;
+ 122:
             tangon = _closure1_slot19;
-            if(oscard) { _fun00028_ip = 138; continue _fun00027 }
- 130:
+            if(oscard) { _fun00028_ip = 137; continue _fun00027 }
+ 129:
             zuuluu = tangon.EMOJI_PICKER_REACTION_EMOJI_CLICKED;
-            _fun00028_ip = 144; continue _fun00027;
- 138:
+            _fun00028_ip = 143; continue _fun00027;
+ 137:
             zuuluu = tangon.EMOJI_PICKER_SUPER_REACTION_EMOJI_CLICKED;
- 144:
+ 143:
             kiloes = zuuluu;
- 147:
+ 146:
             foxtra = romeon.uniqueName;
             verify = null;
-            if(!(verify == foxtra)) { _fun00028_ip = 164; continue _fun00027 }
- 159:
+            if(!(verify == foxtra)) { _fun00028_ip = 163; continue _fun00027 }
+ 158:
             foxtra = romeon.name;
- 164:
+ 163:
             tangon = _closure1_slot1;
             report = _closure1_slot2;
             zuuluu = 22;
@@ -1454,11 +1454,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             michal['expression_picker_section'] = offset;
             offset = verify == yankee;
             verify = undefined;
-            if(offset) { _fun00028_ip = 285; continue _fun00027 }
- 276:
+            if(offset) { _fun00028_ip = 284; continue _fun00027 }
+ 275:
             offset = yankee.toString;
             verify = offset.bind(yankee)();
- 285:
+ 284:
             michal['expression_section'] = verify;
             michal['emoji_position'] = option;
             michal['newly_added_highlight'] = golfie;

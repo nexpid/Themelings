@@ -818,8 +818,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['estimatedListSize'] = output;
             output = argBar;
             entity['ref'] = output;
-            output = false;
-            entity['enabled'] = output;
             entity['style'] = sizing;
             entity['itemSize'] = kiloes;
             entity['renderItem'] = backup;

@@ -206,36 +206,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         entity = function(argFoo, argBar) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                entity = argBar;
-                zuuluu = entity.videoEnabled;
-                michal = entity.inVoiceChannel;
-                report = _closure1_slot0;
-                tangon = _closure1_slot1;
-                entity = 19;
-                entity = tangon[entity];
-                tangon = undefined;
-                report = report.bind(tangon)(entity);
-                entity = report.isCameraToggleSoundEnabled;
-                entity = entity.bind(report)();
-                if(entity) { _fun00006_ip = 55; continue _fun00005 }
- 53:
-                return tangon;
- 55:
                 entity = argFoo;
-                report = entity.videoEnabled;
+                michal = argBar;
+                zuuluu = michal.videoEnabled;
+                michal = michal.inVoiceChannel;
+                oscard = _closure1_slot0;
+                report = _closure1_slot1;
+                tangon = 19;
+                report = report[tangon];
+                tangon = undefined;
+                oscard = oscard.bind(tangon)(report);
+                report = oscard.isCameraToggleSoundEnabled;
+                report = report.bind(oscard)();
+                if(report) { _fun00006_ip = 58; continue _fun00005 }
+ 56:
+                return tangon;
+ 58:
+                oscard = entity.videoEnabled;
+                report = entity.inVoiceChannel;
                 entity = undefined;
-                if(!(report !== zuuluu)) { _fun00006_ip = 89; continue _fun00005 }
- 70:
+                if(!(oscard !== zuuluu)) { _fun00006_ip = 100; continue _fun00005 }
+ 76:
                 entity = undefined;
-                if(!michal) { _fun00006_ip = 89; continue _fun00005 }
- 75:
-                michal = 'camera_off';
-                if(!zuuluu) { _fun00006_ip = 86; continue _fun00005 }
- 82:
-                michal = 'camera_on';
+                if(!report) { _fun00006_ip = 100; continue _fun00005 }
+ 81:
+                entity = undefined;
+                if(!michal) { _fun00006_ip = 100; continue _fun00005 }
  86:
+                michal = 'camera_off';
+                if(!zuuluu) { _fun00006_ip = 97; continue _fun00005 }
+ 93:
+                michal = 'camera_on';
+ 97:
                 entity = michal;
- 89:
+ 100:
                 return entity;
             }
         };

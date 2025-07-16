@@ -445,7 +445,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = 25;
                     zuuluu = verify[zuuluu];
                     tangon = tangon.bind(entity)(zuuluu);
-                    if(michal) { _fun00004_ip = 846; continue _fun00003 }
+                    if(michal) { _fun00004_ip = 845; continue _fun00003 }
  721:
                     zuuluu = tangon.trackEmojiSelect;
                     michal = {};
@@ -458,20 +458,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = _closure2_slot1;
                     romeon = offset == yankee;
                     yankee = undefined;
-                    if(romeon) { _fun00004_ip = 775; continue _fun00003 }
- 766:
+                    if(romeon) { _fun00004_ip = 774; continue _fun00003 }
+ 765:
                     romeon = _closure2_slot1;
                     yankee = romeon.guild_id;
- 775:
-                    if(!(offset == yankee)) { _fun00004_ip = 791; continue _fun00003 }
- 779:
+ 774:
+                    if(!(offset == yankee)) { _fun00004_ip = 790; continue _fun00003 }
+ 778:
                     yankee = _closure1_slot6;
                     yankee = yankee.DM_CHANNEL;
-                    _fun00004_ip = 801; continue _fun00003;
- 791:
+                    _fun00004_ip = 800; continue _fun00003;
+ 790:
                     romeon = _closure1_slot6;
                     yankee = romeon.GUILD_CHANNEL;
- 801:
+ 800:
                     verify['page'] = yankee;
                     yankee = _closure1_slot7;
                     yankee = yankee.EMOJI_PICKER_POPOUT;
@@ -481,8 +481,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify['object'] = yankee;
                     michal['location'] = verify;
                     michal = zuuluu.bind(tangon)(michal);
-                    _fun00004_ip = 966; continue _fun00003;
- 846:
+                    _fun00004_ip = 965; continue _fun00003;
+ 845:
                     zuuluu = tangon.trackEmojiSearchSelect;
                     michal = {};
                     michal['emoji'] = golfie;
@@ -490,20 +490,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = _closure2_slot1;
                     yankee = offset == verify;
                     verify = undefined;
-                    if(yankee) { _fun00004_ip = 883; continue _fun00003 }
- 874:
+                    if(yankee) { _fun00004_ip = 882; continue _fun00003 }
+ 873:
                     yankee = _closure2_slot1;
                     verify = yankee.guild_id;
- 883:
-                    if(!(offset == verify)) { _fun00004_ip = 899; continue _fun00003 }
- 887:
+ 882:
+                    if(!(offset == verify)) { _fun00004_ip = 898; continue _fun00003 }
+ 886:
                     verify = _closure1_slot6;
                     verify = verify.DM_CHANNEL;
-                    _fun00004_ip = 909; continue _fun00003;
- 899:
+                    _fun00004_ip = 908; continue _fun00003;
+ 898:
                     offset = _closure1_slot6;
                     verify = offset.GUILD_CHANNEL;
- 909:
+ 908:
                     golfie['page'] = verify;
                     verify = _closure1_slot7;
                     verify = verify.EMOJI_PICKER_POPOUT;
@@ -516,7 +516,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = _closure2_slot5;
                     michal['intention'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 966:
+ 965:
                     return entity;
                 }
             };
@@ -586,7 +586,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = option.bind(tangon)(michal);
                     michal = michal.EmojiPickerFlashListItemType;
                     michal = michal.NATIVE_SECTION;
-                    if(!(michal !== oscard)) { _fun00008_ip = 861; continue _fun00007 }
+                    if(!(michal !== oscard)) { _fun00008_ip = 860; continue _fun00007 }
  68:
                     option = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -594,7 +594,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = option.bind(tangon)(michal);
                     michal = michal.EmojiPickerFlashListItemType;
                     michal = michal.PLACEHOLDER;
-                    if(!(michal !== oscard)) { _fun00008_ip = 861; continue _fun00007 }
+                    if(!(michal !== oscard)) { _fun00008_ip = 860; continue _fun00007 }
  104:
                     option = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -602,7 +602,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = option.bind(tangon)(michal);
                     michal = michal.EmojiPickerFlashListItemType;
                     michal = michal.EMOJI_ROW_SLIM;
-                    if(!(michal !== oscard)) { _fun00008_ip = 861; continue _fun00007 }
+                    if(!(michal !== oscard)) { _fun00008_ip = 860; continue _fun00007 }
  140:
                     option = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -610,7 +610,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = option.bind(tangon)(michal);
                     michal = michal.EmojiPickerFlashListItemType;
                     michal = michal.TITLE;
-                    if(!(michal !== oscard)) { _fun00008_ip = 752; continue _fun00007 }
+                    if(!(michal !== oscard)) { _fun00008_ip = 751; continue _fun00007 }
  176:
                     option = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -618,7 +618,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = option.bind(tangon)(michal);
                     michal = michal.EmojiPickerFlashListItemType;
                     michal = michal.PREMIUM_INLINE_ROADBLOCK;
-                    if(!(michal !== oscard)) { _fun00008_ip = 697; continue _fun00007 }
+                    if(!(michal !== oscard)) { _fun00008_ip = 696; continue _fun00007 }
  212:
                     option = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -643,7 +643,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = michal.EmojiPickerFlashListItemType;
                     michal = michal.FOOTER_UPSELL;
                     offset = undefined;
-                    if(!(michal === oscard)) { _fun00008_ip = 598; continue _fun00007 }
+                    if(!(michal === oscard)) { _fun00008_ip = 597; continue _fun00007 }
  322:
                     option = _closure1_slot13;
                     oscard = _closure1_slot0;
@@ -668,7 +668,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     verify = _closure2_slot11;
                     michal['useTier0UpsellContent'] = verify;
                     offset = option.bind(tangon)(oscard, michal);
-                    _fun00008_ip = 598; continue _fun00007;
+                    _fun00008_ip = 597; continue _fun00007;
  414:
                     option = _closure1_slot13;
                     oscard = _closure1_slot0;
@@ -679,7 +679,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = michal.NSFWRow;
                     michal = {};
                     offset = option.bind(tangon)(oscard, michal);
-                    _fun00008_ip = 598; continue _fun00007;
+                    _fun00008_ip = 597; continue _fun00007;
  457:
                     backup = report.emojis;
                     foxtra = report.emojisDisabled;
@@ -710,15 +710,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['row'] = yankee;
                     michal['isSectionNitroLocked'] = verify;
                     offset = option.bind(tangon)(oscard, michal);
- 598:
+ 597:
                     option = _closure1_slot15;
                     oscard = _closure1_slot14;
                     michal = {};
                     yankee = report.isSectionNitroLocked;
                     verify = true;
                     yankee = verify === yankee;
-                    if(!yankee) { _fun00008_ip = 673; continue _fun00007 }
- 623:
+                    if(!yankee) { _fun00008_ip = 672; continue _fun00007 }
+ 622:
                     foxtra = _closure1_slot13;
                     romeon = _closure1_slot0;
                     backup = _closure1_slot2;
@@ -730,14 +730,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     backup = _closure2_slot11;
                     verify['useTier0UpsellContent'] = backup;
                     yankee = foxtra.bind(tangon)(romeon, verify);
- 673:
+ 672:
                     verify = new Array(2);
                     verify[0] = yankee;
                     verify[1] = offset;
                     michal['children'] = verify;
                     michal = option.bind(tangon)(oscard, michal);
                     return michal;
- 697:
+ 696:
                     option = _closure1_slot13;
                     oscard = _closure1_slot1;
                     verify = _closure1_slot2;
@@ -751,19 +751,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal['useTier0UpsellContent'] = verify;
                     michal = option.bind(tangon)(oscard, michal);
                     return michal;
- 752:
+ 751:
                     oscard = report.title;
                     michal = 'StickyHeader';
-                    if(!(michal === zuuluu)) { _fun00008_ip = 794; continue _fun00007 }
- 765:
+                    if(!(michal === zuuluu)) { _fun00008_ip = 793; continue _fun00007 }
+ 764:
                     michal = _closure2_slot0;
                     zuuluu = michal.current;
                     michal = null;
-                    if(!(michal != zuuluu)) { _fun00008_ip = 794; continue _fun00007 }
- 783:
+                    if(!(michal != zuuluu)) { _fun00008_ip = 793; continue _fun00007 }
+ 782:
                     michal = zuuluu.onStickyHeaderRendered;
                     michal = michal.bind(zuuluu)(golfie);
- 794:
+ 793:
                     zuuluu = _closure1_slot13;
                     michal = _closure1_slot0;
                     golfie = _closure1_slot2;
@@ -779,7 +779,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['useTier0UpsellContent'] = report;
                     entity = zuuluu.bind(tangon)(michal, entity);
                     return entity;
- 861:
+ 860:
                     entity = null;
                     return entity;
                 }

@@ -55,7 +55,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                     StartGenerator();
                     ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                    if(michal) { _fun00002_ip = 291; continue _fun00001 }
+                    if(michal) { _fun00002_ip = 298; continue _fun00001 }
  10: // try_start_0
                     zuuluu = _closure1_slot0;
                     michal = _closure1_slot2;
@@ -72,7 +72,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return michal;
  63:
                     ResumeGenerator(result_out_reg=1, return_bool_out_reg=2);
-                    if(zuuluu) { _fun00002_ip = 178; continue _fun00001 }
+                    if(zuuluu) { _fun00002_ip = 185; continue _fun00001 }
  69:
                     verify = _closure1_slot1;
                     zuuluu = _closure1_slot2;
@@ -88,6 +88,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     option = {};
                     yankee = _closure2_slot0;
                     option['product'] = yankee;
+                    yankee = true;
+                    option['useCategoryImage'] = yankee;
                     option = verify.bind(offset)(option);
                     tangon = _closure1_slot0;
                     zuuluu = zuuluu[golfie];
@@ -99,11 +101,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = 'useHandleClaim';
                     zuuluu['location'] = oscard;
                     zuuluu = tangon.bind(report)(zuuluu);
- 176: // try_end0
-                    _fun00002_ip = 286; continue _fun00001;
- 178:
+ 183: // try_end0
+                    _fun00002_ip = 293; continue _fun00001;
+ 185:
                     return michal;
- 181: // catch_target0
+ 188: // catch_target0
                     CatchBlockStart(arg_register=1);
                     zuuluu = _closure1_slot1;
                     offset = _closure1_slot2;
@@ -128,10 +130,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     report = oscard.bind(golfie)(report);
                     michal['content'] = report;
                     michal = zuuluu.bind(tangon)(michal);
- 286:
+ 293:
                     michal = undefined;
                     return michal;
- 291:
+ 298:
                     return entity;
                 }
             };

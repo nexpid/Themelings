@@ -47,8 +47,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu['assetDark'] = tangon;
             tangon = michal.assetLight;
             zuuluu['assetLight'] = tangon;
-            michal = michal.version;
-            zuuluu['version'] = michal;
+            tangon = michal.version;
+            zuuluu['version'] = tangon;
+            michal = michal.refTargetBackground;
+            zuuluu['refTargetBackground'] = michal;
             return entity;
         };
         var _closure2_slot0 = report;
@@ -66,8 +68,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = michal.asset_dark;
             tangon = 'assetDark';
             entity[tangon] = report;
-            tangon = michal.asset_light;
-            michal = 'assetLight';
+            report = michal.asset_light;
+            tangon = 'assetLight';
+            entity[tangon] = report;
+            tangon = michal.ref_target_background;
+            michal = 'refTargetBackground';
             entity[michal] = tangon;
             michal = zuuluu.prototype;
             michal = Object.create(michal, {constructor: {value: zuuluu}});

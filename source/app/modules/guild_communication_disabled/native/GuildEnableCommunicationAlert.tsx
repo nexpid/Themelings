@@ -261,10 +261,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[option] = verify;
             verify = update == report;
             option = undefined;
-            if(verify) { _fun00002_ip = 332; continue _fun00001 }
- 326:
+            if(verify) { _fun00002_ip = 336; continue _fun00001 }
+ 330:
             option = report.onClose;
- 332:
+ 336:
             report = 'onClose';
             entity[report] = option;
             report = 'onCancel';
@@ -319,10 +319,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = source.bind(ctrled)(sequen, update, vacuum);
             ctrled = update != source;
             update = '';
-            if(!ctrled) { _fun00002_ip = 580; continue _fun00001 }
- 577:
+            if(!ctrled) { _fun00002_ip = 584; continue _fun00001 }
+ 581:
             update = source;
- 580:
+ 584:
             yankee['username'] = update;
             echoed = function() { // Original name: countdown
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {

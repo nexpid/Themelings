@@ -1,28 +1,28 @@
 // app/modules/dismissible_content/DismissibleContentShownStateStore.tsx
 export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
-    report = argBar;
+    oscard = argBar;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = oscard;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = golfie;
     entity = global;
     option = entity.Object;
-    golfie = option.defineProperty;
+    report = option.defineProperty;
     tangon = {};
     entity = true;
     tangon['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = report.bind(option)(zuuluu, entity, tangon);
     entity = 0;
-    tangon = oscard[entity];
+    tangon = golfie[entity];
     entity = undefined;
-    tangon = report.bind(entity)(tangon);
+    tangon = oscard.bind(entity)(tangon);
     tangon = tangon.TaskRunner;
-    golfie = tangon.prototype;
-    golfie = Object.create(golfie, {constructor: {value: tangon}});
-    romeon = golfie;
+    report = tangon.prototype;
+    report = Object.create(report, {constructor: {value: tangon}});
+    romeon = report;
     tangon = new romeon[tangon](yankee);
-    tangon = tangon instanceof Object ? tangon : golfie;
+    tangon = tangon instanceof Object ? tangon : report;
     var _closure1_slot2 = tangon;
     option = function() { // Original name: initState
         entity = {'candidates': null, 'shownFatigableCandidate': null, 'prevFatigableCandidate': null};
@@ -58,10 +58,10 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     };
     var _closure1_slot3 = option;
     tangon = 1;
-    tangon = oscard[tangon];
-    golfie = report.bind(entity)(tangon);
-    tangon = golfie.createWithEqualityFn;
-    tangon = tangon.bind(golfie)(option);
+    tangon = golfie[tangon];
+    report = oscard.bind(entity)(tangon);
+    tangon = report.createWithEqualityFn;
+    tangon = tangon.bind(report)(option);
     var _closure1_slot4 = tangon;
     tangon = function(argFoo) { // Original name: cloneState
         michal = argFoo;
@@ -254,91 +254,76 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             michal = entity.candidates;
             zuuluu = michal.size;
             michal = 0;
-            if(!(michal !== zuuluu)) { _fun00006_ip = 352; continue _fun00005 }
+            if(!(michal !== zuuluu)) { _fun00006_ip = 290; continue _fun00005 }
  23:
-            zuuluu = global;
-            michal = zuuluu.Date;
-            tangon = michal.prototype;
-            tangon = Object.create(tangon, {constructor: {value: michal}});
-            foxtra = tangon;
-            michal = new foxtra[michal](romeon);
-            tangon = michal instanceof Object ? michal : tangon;
-            michal = tangon.getTime;
-            tangon = michal.bind(tangon)();
+            michal = global;
+            michal = michal.Date;
+            zuuluu = michal.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
+            romeon = zuuluu;
+            michal = new romeon[michal](yankee);
+            zuuluu = michal instanceof Object ? michal : zuuluu;
+            michal = zuuluu.getTime;
+            zuuluu = michal.bind(zuuluu)();
             michal = entity.lastWinnerTime;
-            tangon = tangon - michal;
+            zuuluu = zuuluu - michal;
             michal = 300000;
-            michal = tangon > michal;
-            report = entity.prevFatigableCandidate;
+            michal = zuuluu > michal;
+            zuuluu = entity.prevFatigableCandidate;
             tangon = null;
-            report = tangon != report;
-            if(!report) { _fun00006_ip = 123; continue _fun00005 }
+            zuuluu = tangon != zuuluu;
+            if(!zuuluu) { _fun00006_ip = 123; continue _fun00005 }
  96:
-            option = entity.candidates;
-            golfie = option.has;
-            oscard = entity.prevFatigableCandidate;
-            oscard = oscard.content;
-            report = golfie.bind(option)(oscard);
+            golfie = entity.candidates;
+            oscard = golfie.has;
+            report = entity.prevFatigableCandidate;
+            report = report.content;
+            zuuluu = oscard.bind(golfie)(report);
  123:
-            if(!report) { _fun00006_ip = 136; continue _fun00005 }
+            if(!zuuluu) { _fun00006_ip = 136; continue _fun00005 }
  126:
-            oscard = entity.shownFatigableCandidate;
-            report = tangon == oscard;
+            report = entity.shownFatigableCandidate;
+            zuuluu = tangon == report;
  136:
-            if(!report) { _fun00006_ip = 215; continue _fun00005 }
+            if(!zuuluu) { _fun00006_ip = 215; continue _fun00005 }
  139:
             if(michal) { _fun00006_ip = 215; continue _fun00005 }
  142:
-            golfie = _closure1_slot2;
-            oscard = golfie.unschedule;
-            oscard = oscard.bind(golfie)();
-            golfie = _closure1_slot9;
-            report = entity.prevFatigableCandidate;
-            option = tangon != report;
-            oscard = undefined;
-            report = undefined;
-            if(!option) { _fun00006_ip = 207; continue _fun00005 }
- 180:
-            offset = entity.candidates;
-            verify = offset.get;
-            option = entity.prevFatigableCandidate;
-            option = option.content;
-            report = verify.bind(offset)(option);
- 207:
-            report = golfie.bind(oscard)(entity, report);
-            return entity;
- 215:
-            report = entity.shownFatigableCandidate;
-            if(!(tangon != report)) { _fun00006_ip = 230; continue _fun00005 }
- 225:
-            if(michal) { _fun00006_ip = 230; continue _fun00005 }
- 228:
-            return entity;
- 230:
             oscard = _closure1_slot2;
-            report = oscard.scheduled;
+            report = oscard.unschedule;
             report = report.bind(oscard)();
-            if(report) { _fun00006_ip = 350; continue _fun00005 }
- 250:
-            zuuluu = zuuluu.Date;
-            report = zuuluu.prototype;
-            report = Object.create(report, {constructor: {value: zuuluu}});
-            foxtra = report;
-            zuuluu = new foxtra[zuuluu](romeon);
-            report = zuuluu instanceof Object ? zuuluu : report;
-            zuuluu = report.getTime;
-            report = zuuluu.bind(report)();
+            oscard = _closure1_slot9;
+            zuuluu = entity.prevFatigableCandidate;
+            golfie = tangon != zuuluu;
+            report = undefined;
+            zuuluu = undefined;
+            if(!golfie) { _fun00006_ip = 207; continue _fun00005 }
+ 180:
+            verify = entity.candidates;
+            option = verify.get;
+            golfie = entity.prevFatigableCandidate;
+            golfie = golfie.content;
+            zuuluu = option.bind(verify)(golfie);
+ 207:
+            zuuluu = oscard.bind(report)(entity, zuuluu);
+            _fun00006_ip = 288; continue _fun00005;
+ 215:
             zuuluu = entity.shownFatigableCandidate;
-            zuuluu = tangon == zuuluu;
-            if(!zuuluu) { _fun00006_ip = 319; continue _fun00005 }
- 299:
-            tangon = entity.lastWinnerTime;
-            report = report - tangon;
-            tangon = 3600000;
-            zuuluu = report < tangon;
- 319:
-            if(zuuluu) { _fun00006_ip = 348; continue _fun00005 }
- 322:
+            if(!(tangon != zuuluu)) { _fun00006_ip = 228; continue _fun00005 }
+ 225:
+            if(!michal) { _fun00006_ip = 288; continue _fun00005 }
+ 228:
+            tangon = _closure1_slot2;
+            zuuluu = tangon.scheduled;
+            zuuluu = zuuluu.bind(tangon)();
+            if(zuuluu) { _fun00006_ip = 259; continue _fun00005 }
+ 248:
+            report = _closure1_slot11;
+            tangon = undefined;
+            zuuluu = report.bind(tangon)(entity);
+ 259:
+            if(zuuluu) { _fun00006_ip = 288; continue _fun00005 }
+ 262:
             report = _closure1_slot2;
             tangon = report.schedule;
             zuuluu = function() {
@@ -440,22 +425,47 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             };
             michal = 250;
             michal = tangon.bind(report)(zuuluu, michal);
- 348:
+ 288:
             return entity;
- 350:
-            return entity;
- 352:
+ 290:
             return entity;
         }
     };
     var _closure1_slot10 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/dismissible_content/DismissibleContentShownStateStore.tsx';
-    tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo, argBar) { // Original name: useDismissibleContentShownStateStore
+    tangon = function(argFoo) { // Original name: isStateInCooldown
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+ 0:
+            michal = argFoo;
+            entity = global;
+            entity = entity.Date;
+            zuuluu = entity.prototype;
+            zuuluu = Object.create(zuuluu, {constructor: {value: entity}});
+            report = zuuluu;
+            entity = new report[entity](tangon);
+            zuuluu = entity instanceof Object ? entity : zuuluu;
+            entity = zuuluu.getTime;
+            zuuluu = entity.bind(zuuluu)();
+            tangon = michal.shownFatigableCandidate;
+            entity = null;
+            entity = entity == tangon;
+            if(!entity) { _fun00012_ip = 76; continue _fun00011 }
+ 56:
+            michal = michal.lastWinnerTime;
+            zuuluu = zuuluu - michal;
+            michal = 3600000;
+            entity = zuuluu < michal;
+ 76:
+            return entity;
+        }
+    };
+    var _closure1_slot11 = tangon;
+    report = 4;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/dismissible_content/DismissibleContentShownStateStore.tsx';
+    report = oscard.bind(golfie)(report);
+    report = function(argFoo, argBar) { // Original name: useDismissibleContentShownStateStore
         tangon = _closure1_slot4;
         zuuluu = undefined;
         michal = argFoo;
@@ -463,7 +473,18 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         entity = tangon.bind(zuuluu)(michal, entity);
         return entity;
     };
-    zuuluu['default'] = tangon;
+    zuuluu['default'] = report;
+    report = function() {
+        zuuluu = _closure1_slot11;
+        michal = _closure1_slot4;
+        entity = michal.getState;
+        michal = entity.bind(michal)();
+        entity = undefined;
+        entity = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    zuuluu['isInCooldown'] = report;
+    zuuluu['isStateInCooldown'] = tangon;
     tangon = function(argFoo) {
         zuuluu = argFoo;
         var _closure2_slot0 = zuuluu;
@@ -486,14 +507,14 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = _closure1_slot4;
             michal = zuuluu.setState;
             entity = function(argFoo) {
-                _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
                     michal = _closure1_slot5;
                     tangon = undefined;
                     entity = argFoo;
                     entity = michal.bind(tangon)(entity);
                     report = _closure2_slot1;
-                    if(report) { _fun00012_ip = 64; continue _fun00011 }
+                    if(report) { _fun00014_ip = 64; continue _fun00013 }
  27:
                     report = _closure1_slot10;
                     verify = _closure2_slot0;
@@ -502,7 +523,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
                     oscard = verify.content;
                     oscard = golfie.bind(option)(oscard, verify);
                     report = report.bind(tangon)(entity);
-                    _fun00012_ip = 78; continue _fun00011;
+                    _fun00014_ip = 78; continue _fun00013;
  64:
                     zuuluu = _closure1_slot7;
                     michal = _closure2_slot0;
@@ -535,21 +556,21 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
             zuuluu = _closure1_slot4;
             michal = zuuluu.setState;
             entity = function(argFoo) {
-                _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+                _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                     michal = _closure1_slot5;
                     zuuluu = undefined;
                     entity = argFoo;
                     entity = michal.bind(zuuluu)(entity);
                     michal = _closure2_slot1;
-                    if(michal) { _fun00014_ip = 53; continue _fun00013 }
+                    if(michal) { _fun00016_ip = 53; continue _fun00015 }
  27:
                     report = _closure1_slot6;
                     golfie = _closure1_slot8;
                     michal = _closure2_slot0;
                     golfie = golfie.bind(zuuluu)(entity, michal);
                     michal = report.bind(zuuluu)(entity, michal);
-                    _fun00014_ip = 86; continue _fun00013;
+                    _fun00016_ip = 86; continue _fun00015;
  53:
                     michal = _closure1_slot10;
                     report = _closure1_slot6;
@@ -570,6 +591,49 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         return entity;
     };
     zuuluu['removeCandidateContent'] = tangon;
+    tangon = function() {
+        _fun00017: for(var _fun00018_ip = 0; ; ) switch(_fun00018_ip) {
+ 0:
+            michal = _closure1_slot4;
+            entity = michal.getState;
+            entity = entity.bind(michal)();
+            michal = entity.recentlyShown;
+            entity = 0;
+            michal = michal[entity];
+            entity = null;
+            zuuluu = entity != michal;
+            if(!zuuluu) { _fun00018_ip = 41; continue _fun00017 }
+ 38:
+            entity = michal;
+ 41:
+            return entity;
+        }
+    };
+    zuuluu['getLastShownDismissibleContent'] = tangon;
+    tangon = function() {
+        _fun00019: for(var _fun00020_ip = 0; ; ) switch(_fun00020_ip) {
+ 0:
+            michal = _closure1_slot4;
+            entity = michal.getState;
+            entity = entity.bind(michal)();
+            zuuluu = entity.shownFatigableCandidate;
+            entity = null;
+            tangon = entity == zuuluu;
+            michal = undefined;
+            if(tangon) { _fun00020_ip = 39; continue _fun00019 }
+ 34:
+            michal = zuuluu.content;
+ 39:
+            zuuluu = entity != michal;
+            entity = null;
+            if(!zuuluu) { _fun00020_ip = 51; continue _fun00019 }
+ 48:
+            entity = michal;
+ 51:
+            return entity;
+        }
+    };
+    zuuluu['getCurrentFatigableWinner'] = tangon;
     tangon = function(argFoo) {
         michal = _closure1_slot4;
         entity = michal.getState;

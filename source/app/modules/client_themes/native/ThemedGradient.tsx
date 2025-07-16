@@ -299,34 +299,34 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  233:
             entity['angle'] = backup;
             report = report.angleCenter;
-            if(!(foxtra == report)) { _fun00002_ip = 262; continue _fun00001 }
+            if(!(foxtra == report)) { _fun00002_ip = 258; continue _fun00001 }
  248:
             report = {'x': 0.5, 'y': 0.5};
- 262:
+ 258:
             entity['angleCenter'] = report;
             report = true;
             entity['useAngle'] = report;
-            if(!offset) { _fun00002_ip = 286; continue _fun00001 }
- 277:
+            if(!offset) { _fun00002_ip = 282; continue _fun00001 }
+ 273:
             report = {};
             report['width'] = romeon;
             offset = report;
- 286:
+ 282:
             report = new Array(5);
             report[0] = offset;
-            if(!verify) { _fun00002_ip = 306; continue _fun00001 }
- 297:
+            if(!verify) { _fun00002_ip = 302; continue _fun00001 }
+ 293:
             offset = {};
             offset['height'] = yankee;
             verify = offset;
- 306:
+ 302:
             report[1] = verify;
             verify = option.linearGradient;
             report[2] = verify;
-            if(!golfie) { _fun00002_ip = 329; continue _fun00001 }
- 323:
+            if(!golfie) { _fun00002_ip = 325; continue _fun00001 }
+ 319:
             golfie = option.absolute;
- 329:
+ 325:
             report[3] = golfie;
             report[4] = oscard;
             entity['style'] = report;

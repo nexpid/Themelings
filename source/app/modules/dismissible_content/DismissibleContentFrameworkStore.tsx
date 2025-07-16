@@ -46,6 +46,26 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     var _closure1_slot10 = entity;
+    entity = function(argFoo, argBar) { // Original name: hasAlreadySeenDCForGuild
+        _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+            entity = _closure1_slot9;
+            zuuluu = entity.seenForGuildId;
+            michal = zuuluu.get;
+            entity = argBar;
+            tangon = michal.bind(zuuluu)(entity);
+            entity = null;
+            entity = entity != tangon;
+            if(!entity) { _fun00004_ip = 48; continue _fun00003 }
+ 35:
+            zuuluu = tangon.has;
+            michal = argFoo;
+            entity = zuuluu.bind(tangon)(michal);
+ 48:
+            return entity;
+        }
+    };
+    var _closure1_slot11 = entity;
     option = global;
     offset = option.Object;
     verify = offset.defineProperty;
@@ -88,21 +108,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     verify = new backup[verify](foxtra);
     verify = verify instanceof Object ? verify : offset;
     michal['dismissibleContentSeenDuringSession'] = verify;
+    verify = option.Map;
+    offset = verify.prototype;
+    offset = Object.create(offset, {constructor: {value: verify}});
+    backup = offset;
+    verify = new backup[verify](foxtra);
+    verify = verify instanceof Object ? verify : offset;
+    michal['renderedAtTimestamps'] = verify;
     option = option.Map;
     verify = option.prototype;
     verify = Object.create(verify, {constructor: {value: option}});
     backup = verify;
     option = new backup[option](foxtra);
     option = option instanceof Object ? option : verify;
-    michal['renderedAtTimestamps'] = option;
+    michal['seenForGuildId'] = option;
     var _closure1_slot9 = michal;
-    michal = 8;
+    michal = 9;
     michal = oscard[michal];
     michal = golfie.bind(entity)(michal);
     option = michal.PersistedStore;
     michal = function(argFoo) {
         tangon = function() { // Original name: DismissibleContentFrameworkStore
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 tangon = this;
                 zuuluu = undefined;
@@ -115,13 +142,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure1_slot5;
                 entity = _closure1_slot10;
                 entity = entity.bind(zuuluu)();
-                if(entity) { _fun00004_ip = 69; continue _fun00003 }
+                if(entity) { _fun00006_ip = 69; continue _fun00005 }
  51:
                 golfie = verify.apply;
                 report = arguments;
                 entity = report;
                 entity = golfie.bind(verify)(tangon, entity);
-                _fun00004_ip = 105; continue _fun00003;
+                _fun00006_ip = 105; continue _fun00005;
  69:
                 golfie = global;
                 option = golfie.Reflect;
@@ -146,17 +173,17 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity = 'initialize';
         report['key'] = entity;
         entity = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = argFoo;
                 michal = null;
-                if(!(michal != entity)) { _fun00006_ip = 108; continue _fun00005 }
+                if(!(michal != entity)) { _fun00008_ip = 108; continue _fun00007 }
  9:
                 report = _closure1_slot9;
                 oscard = entity.numberOfDCsShownToday;
                 golfie = michal != oscard;
                 tangon = 0;
-                if(!golfie) { _fun00006_ip = 34; continue _fun00005 }
+                if(!golfie) { _fun00008_ip = 34; continue _fun00007 }
  31:
                 tangon = oscard;
  34:
@@ -167,7 +194,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure1_slot9;
                 oscard = entity.dailyCapOverridden;
                 tangon = michal != oscard;
-                if(!tangon) { _fun00006_ip = 76; continue _fun00005 }
+                if(!tangon) { _fun00008_ip = 76; continue _fun00007 }
  73:
                 tangon = oscard;
  76:
@@ -175,21 +202,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 zuuluu = _closure1_slot9;
                 tangon = entity.newUserMinAgeRequiredOverridden;
                 entity = michal != tangon;
-                if(!entity) { _fun00006_ip = 102; continue _fun00005 }
+                if(!entity) { _fun00008_ip = 102; continue _fun00007 }
  99:
                 entity = tangon;
  102:
                 zuuluu['newUserMinAgeRequiredOverridden'] = entity;
  108:
-                tangon = _closure1_slot9;
+                report = _closure1_slot9;
                 zuuluu = global;
-                zuuluu = zuuluu.Set;
+                tangon = zuuluu.Set;
+                oscard = tangon.prototype;
+                oscard = Object.create(oscard, {constructor: {value: tangon}});
+                option = oscard;
+                tangon = new option[tangon](golfie);
+                tangon = tangon instanceof Object ? tangon : oscard;
+                report['dismissibleContentSeenDuringSession'] = tangon;
+                tangon = _closure1_slot9;
+                zuuluu = zuuluu.Map;
                 report = zuuluu.prototype;
                 report = Object.create(report, {constructor: {value: zuuluu}});
                 option = report;
                 zuuluu = new option[zuuluu](golfie);
                 zuuluu = zuuluu instanceof Object ? zuuluu : report;
-                tangon['dismissibleContentSeenDuringSession'] = zuuluu;
+                tangon['seenForGuildId'] = zuuluu;
                 entity = _closure1_slot9;
                 entity['lastDCDismissed'] = michal;
                 entity = undefined;
@@ -254,36 +289,63 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = {};
         golfie = 'hasUserHitDCCap';
         report['key'] = golfie;
-        oscard = function(argFoo) { // Original name: value
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
+        oscard = function(argFoo, argBar) { // Original name: value
+            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                 tangon = argFoo;
+                oscard = argBar;
                 zuuluu = null;
-                if(!(zuuluu != tangon)) { _fun00008_ip = 72; continue _fun00007 }
- 9:
-                oscard = _closure1_slot0;
+                if(!(zuuluu != tangon)) { _fun00010_ip = 75; continue _fun00009 }
+ 12:
+                golfie = _closure1_slot0;
                 report = _closure1_slot2;
                 michal = 6;
                 report = report[michal];
                 michal = undefined;
-                michal = oscard.bind(michal)(report);
+                michal = golfie.bind(michal)(report);
                 report = michal.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
                 michal = report.has;
                 michal = michal.bind(report)(tangon);
-                if(michal) { _fun00008_ip = 246; continue _fun00007 }
- 56:
+                if(michal) { _fun00010_ip = 324; continue _fun00009 }
+ 59:
                 entity = _closure1_slot9;
                 entity = entity.dailyCapOverridden;
-                if(entity) { _fun00008_ip = 246; continue _fun00007 }
- 72:
-                if(!(zuuluu != tangon)) { _fun00008_ip = 105; continue _fun00007 }
- 76:
+                if(entity) { _fun00010_ip = 324; continue _fun00009 }
+ 75:
+                if(!(zuuluu != tangon)) { _fun00010_ip = 183; continue _fun00009 }
+ 79:
+                entity = zuuluu != oscard;
+                if(!entity) { _fun00010_ip = 122; continue _fun00009 }
+ 86:
+                golfie = _closure1_slot0;
+                report = _closure1_slot2;
+                michal = 7;
+                report = report[michal];
+                michal = undefined;
+                report = golfie.bind(michal)(report);
+                michal = report.isSingleUseGuildDismissibleContent;
+                entity = michal.bind(report)(tangon);
+ 122:
+                if(!entity) { _fun00010_ip = 150; continue _fun00009 }
+ 125:
+                if(!(zuuluu != oscard)) { _fun00010_ip = 150; continue _fun00009 }
+ 129:
+                report = _closure1_slot11;
+                michal = undefined;
+                michal = report.bind(michal)(tangon, oscard);
+                if(michal) { _fun00010_ip = 320; continue _fun00009 }
+ 150:
+                if(entity) { _fun00010_ip = 183; continue _fun00009 }
+ 153:
                 entity = _closure1_slot9;
                 michal = entity.dismissibleContentSeenDuringSession;
                 entity = michal.has;
                 entity = entity.bind(michal)(tangon);
-                if(entity) { _fun00008_ip = 242; continue _fun00007 }
- 105:
+                if(!entity) { _fun00010_ip = 183; continue _fun00009 }
+ 179:
+                entity = false;
+                return entity;
+ 183:
                 entity = global;
                 entity = entity.Date;
                 michal = entity.prototype;
@@ -302,30 +364,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 michal = _closure1_slot9;
                 michal = michal.dailyCapPeriodStart;
                 michal = zuuluu != michal;
-                if(!michal) { _fun00008_ip = 200; continue _fun00007 }
- 176:
+                if(!michal) { _fun00010_ip = 278; continue _fun00009 }
+ 254:
                 report = _closure1_slot9;
                 oscard = report.dailyCapPeriodStart;
                 report = golfie.getTime;
                 report = report.bind(golfie)();
                 michal = oscard < report;
- 200:
-                if(!michal) { _fun00008_ip = 223; continue _fun00007 }
- 203:
+ 278:
+                if(!michal) { _fun00010_ip = 301; continue _fun00009 }
+ 281:
                 michal = _closure1_slot9;
                 michal['numberOfDCsShownToday'] = tangon;
                 michal = _closure1_slot9;
                 michal['dailyCapPeriodStart'] = zuuluu;
- 223:
+ 301:
                 entity = _closure1_slot9;
                 michal = entity.numberOfDCsShownToday;
                 entity = 3;
                 entity = michal >= entity;
                 return entity;
- 242:
+ 320:
                 entity = false;
                 return entity;
- 246:
+ 324:
                 entity = false;
                 return entity;
             }
@@ -349,7 +411,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal[0] = verify;
     option['migrations'] = michal;
-    michal = 9;
+    michal = 10;
     michal = oscard[michal];
     foxtra = golfie.bind(entity)(michal);
     michal = {};
@@ -367,13 +429,21 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         report = tangon instanceof Object ? tangon : report;
         tangon = 'dismissibleContentSeenDuringSession';
         michal[tangon] = report;
+        tangon = zuuluu.Map;
+        report = tangon.prototype;
+        report = Object.create(report, {constructor: {value: tangon}});
+        option = report;
+        tangon = new option[tangon](golfie);
+        report = tangon instanceof Object ? tangon : report;
+        tangon = 'renderedAtTimestamps';
+        michal[tangon] = report;
         zuuluu = zuuluu.Map;
         tangon = zuuluu.prototype;
         tangon = Object.create(tangon, {constructor: {value: zuuluu}});
         option = tangon;
         zuuluu = new option[zuuluu](golfie);
         tangon = zuuluu instanceof Object ? zuuluu : tangon;
-        zuuluu = 'renderedAtTimestamps';
+        zuuluu = 'seenForGuildId';
         michal[zuuluu] = tangon;
         _closure1_slot9 = michal;
         entity = undefined;
@@ -399,10 +469,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['DCF_NEW_USER_MIN_AGE_REQUIRED_OVERRIDE'] = verify;
     verify = function(argFoo) { // Original name: handleDCShownToUser
-        _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
+        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
             entity = argFoo;
             golfie = entity.dismissibleContent;
+            option = entity.guildId;
             michal = global;
             entity = michal.Date;
             zuuluu = entity.prototype;
@@ -425,27 +496,71 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = zuuluu.CONTENT_TYPES_WITH_BYPASS_FATIGUE;
             zuuluu = tangon.has;
             zuuluu = zuuluu.bind(tangon)(golfie);
-            if(zuuluu) { _fun00010_ip = 374; continue _fun00009 }
- 115:
+            if(zuuluu) { _fun00012_ip = 525; continue _fun00011 }
+ 120:
             zuuluu = _closure1_slot9;
             zuuluu = zuuluu.dailyCapOverridden;
-            if(zuuluu) { _fun00010_ip = 374; continue _fun00009 }
- 131:
+            if(zuuluu) { _fun00012_ip = 525; continue _fun00011 }
+ 136:
+            tangon = _closure1_slot0;
+            report = _closure1_slot2;
+            zuuluu = 7;
+            zuuluu = report[zuuluu];
+            tangon = tangon.bind(entity)(zuuluu);
+            zuuluu = tangon.isSingleUseGuildDismissibleContent;
+            tangon = zuuluu.bind(tangon)(golfie);
+            if(!tangon) { _fun00012_ip = 176; continue _fun00011 }
+ 170:
+            zuuluu = null;
+            tangon = zuuluu != option;
+ 176:
+            if(tangon) { _fun00012_ip = 205; continue _fun00011 }
+ 179:
             zuuluu = _closure1_slot9;
-            tangon = zuuluu.dismissibleContentSeenDuringSession;
-            zuuluu = tangon.has;
-            zuuluu = zuuluu.bind(tangon)(golfie);
-            if(zuuluu) { _fun00010_ip = 374; continue _fun00009 }
- 157:
+            report = zuuluu.dismissibleContentSeenDuringSession;
+            zuuluu = report.has;
+            zuuluu = zuuluu.bind(report)(golfie);
+            if(zuuluu) { _fun00012_ip = 525; continue _fun00011 }
+ 205:
+            if(!tangon) { _fun00012_ip = 224; continue _fun00011 }
+ 208:
+            zuuluu = _closure1_slot11;
+            zuuluu = zuuluu.bind(entity)(golfie, option);
+            if(zuuluu) { _fun00012_ip = 525; continue _fun00011 }
+ 224:
             zuuluu = _closure1_slot9;
-            tangon = zuuluu.dismissibleContentSeenDuringSession;
-            zuuluu = tangon.add;
-            zuuluu = zuuluu.bind(tangon)(golfie);
+            if(tangon) { _fun00012_ip = 249; continue _fun00011 }
+ 231:
+            report = zuuluu.dismissibleContentSeenDuringSession;
+            tangon = report.add;
+            tangon = tangon.bind(report)(golfie);
+            _fun00012_ip = 328; continue _fun00011;
+ 249:
+            tangon = zuuluu.seenForGuildId;
+            zuuluu = tangon.get;
+            report = zuuluu.bind(tangon)(option);
+            zuuluu = null;
+            if(!(zuuluu == report)) { _fun00012_ip = 297; continue _fun00011 }
+ 271:
+            zuuluu = michal.Set;
+            tangon = zuuluu.prototype;
+            tangon = Object.create(tangon, {constructor: {value: zuuluu}});
+            foxtra = tangon;
+            zuuluu = new foxtra[zuuluu](romeon);
+            report = zuuluu instanceof Object ? zuuluu : tangon;
+ 297:
+            zuuluu = report.add;
+            zuuluu = zuuluu.bind(report)(golfie);
+            zuuluu = _closure1_slot9;
+            tangon = zuuluu.seenForGuildId;
+            zuuluu = tangon.set;
+            zuuluu = zuuluu.bind(tangon)(option, report);
+ 328:
             zuuluu = _closure1_slot9;
             tangon = zuuluu.dailyCapPeriodStart;
             zuuluu = null;
-            if(!(zuuluu == tangon)) { _fun00010_ip = 260; continue _fun00009 }
- 193:
+            if(!(zuuluu == tangon)) { _fun00012_ip = 411; continue _fun00011 }
+ 344:
             michal = michal.Date;
             zuuluu = michal.prototype;
             zuuluu = Object.create(zuuluu, {constructor: {value: michal}});
@@ -463,7 +578,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = tangon.getTime;
             michal = michal.bind(tangon)();
             zuuluu['dailyCapPeriodStart'] = michal;
- 260:
+ 411:
             zuuluu = _closure1_slot9;
             tangon = zuuluu.numberOfDCsShownToday;
             michal = 1;
@@ -472,11 +587,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot9;
             zuuluu = michal.numberOfDCsShownToday;
             michal = 3;
-            if(!(zuuluu > michal)) { _fun00010_ip = 374; continue _fun00009 }
- 300:
+            if(!(zuuluu > michal)) { _fun00012_ip = 525; continue _fun00011 }
+ 451:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
-            michal = 7;
+            michal = 8;
             michal = tangon[michal];
             report = zuuluu.bind(entity)(michal);
             tangon = report.track;
@@ -490,7 +605,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             oscard = oscard.numberOfDCsShownToday;
             michal['shown_dcs'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
- 374:
+ 525:
             return entity;
         }
     };
@@ -509,14 +624,14 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['DCF_HANDLE_DC_DISMISSED'] = verify;
     verify = function(argFoo) { // Original name: handleResetLastDCDismissed
-        _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+        _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.dismissibleContent;
             michal = _closure1_slot9;
             entity = null;
             tangon = entity != zuuluu;
-            if(!tangon) { _fun00012_ip = 28; continue _fun00011 }
+            if(!tangon) { _fun00014_ip = 28; continue _fun00013 }
  25:
             entity = zuuluu;
  28:
@@ -533,15 +648,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         tangon = _closure1_slot9;
         zuuluu = 0;
         tangon['numberOfDCsShownToday'] = zuuluu;
-        tangon = _closure1_slot9;
+        report = _closure1_slot9;
         zuuluu = global;
-        zuuluu = zuuluu.Set;
+        tangon = zuuluu.Set;
+        oscard = tangon.prototype;
+        oscard = Object.create(oscard, {constructor: {value: tangon}});
+        golfie = oscard;
+        tangon = new golfie[tangon](oscard);
+        tangon = tangon instanceof Object ? tangon : oscard;
+        report['dismissibleContentSeenDuringSession'] = tangon;
+        tangon = _closure1_slot9;
+        zuuluu = zuuluu.Map;
         report = zuuluu.prototype;
         report = Object.create(report, {constructor: {value: zuuluu}});
-        oscard = report;
-        zuuluu = new oscard[zuuluu](report);
+        golfie = report;
+        zuuluu = new golfie[zuuluu](oscard);
         zuuluu = zuuluu instanceof Object ? zuuluu : report;
-        tangon['dismissibleContentSeenDuringSession'] = zuuluu;
+        tangon['seenForGuildId'] = zuuluu;
         entity = _closure1_slot9;
         entity['lastDCDismissed'] = michal;
         entity = undefined;
@@ -554,7 +677,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     romeon = michal;
     michal = new backup[option](foxtra, romeon, yankee);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 10;
+    tangon = 11;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;

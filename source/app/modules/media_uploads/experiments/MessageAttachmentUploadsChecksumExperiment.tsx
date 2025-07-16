@@ -1,4 +1,4 @@
-// app/modules/messages/MessageAttachmentUploadsChecksumExperiment.tsx
+// app/modules/media_uploads/experiments/MessageAttachmentUploadsChecksumExperiment.tsx
 export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     report = argBar;
     zuuluu = argFre;
@@ -42,7 +42,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
-    tangon = 'modules/messages/MessageAttachmentUploadsChecksumExperiment.tsx';
+    tangon = 'modules/media_uploads/experiments/MessageAttachmentUploadsChecksumExperiment.tsx';
     tangon = report.bind(oscard)(tangon);
     zuuluu['default'] = michal;
     return entity;

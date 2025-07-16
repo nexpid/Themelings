@@ -36,13 +36,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = !entity;
                 return entity;
             };
-            _closure1_slot9 = michal;
+            _closure1_slot8 = michal;
             entity = undefined;
             entity = michal.bind(entity)();
             return entity;
         }
     };
-    var _closure1_slot9 = entity;
+    var _closure1_slot8 = entity;
     tangon = function(argFoo, argBar) { // Original name: getPriceFromServer
         michal = argFoo;
         entity = {};
@@ -56,7 +56,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         entity['taxInclusive'] = michal;
         return entity;
     };
-    var _closure1_slot10 = tangon;
+    var _closure1_slot9 = tangon;
     entity = global;
     offset = entity.Object;
     verify = offset.defineProperty;
@@ -92,17 +92,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = 6;
     report = option[report];
     report = golfie.bind(entity)(report);
-    report = report.GIFTABLE_CURRENCIES;
-    var _closure1_slot5 = report;
-    report = 7;
-    report = option[report];
-    report = golfie.bind(entity)(report);
     verify = report.PremiumSubscriptionSKUs;
-    var _closure1_slot6 = verify;
+    var _closure1_slot5 = verify;
     verify = report.PremiumTypes;
-    var _closure1_slot7 = verify;
+    var _closure1_slot6 = verify;
     report = report.SubscriptionPlans;
-    var _closure1_slot8 = report;
+    var _closure1_slot7 = report;
     report = function(argFoo) {
         report = function(argFoo) { // Original name: SubscriptionPlanRecord
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
@@ -116,7 +111,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity = _closure1_slot3;
                 offset = entity.bind(tangon)(zuuluu);
                 zuuluu = _closure1_slot2;
-                entity = _closure1_slot9;
+                entity = _closure1_slot8;
                 entity = entity.bind(tangon)();
                 if(entity) { _fun00004_ip = 65; continue _fun00003 }
  52:
@@ -150,16 +145,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 entity['currency'] = zuuluu;
                 zuuluu = michal.price;
                 entity['price'] = zuuluu;
-                zuuluu = michal.prices;
-                entity['prices'] = zuuluu;
-                zuuluu = michal.fallbackPrice;
-                if(!zuuluu) { _fun00004_ip = 248; continue _fun00003 }
- 224:
-                zuuluu = michal.fallbackPrice;
-                entity['fallbackPrice'] = zuuluu;
-                michal = michal.fallbackCurrency;
-                entity['fallbackCurrency'] = michal;
- 248:
+                michal = michal.prices;
+                entity['prices'] = michal;
                 return entity;
             }
         };
@@ -177,113 +164,41 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  0:
                 entity = this;
                 zuuluu = entity.skuId;
-                michal = _closure1_slot6;
+                michal = _closure1_slot5;
                 michal = michal.LEGACY;
                 if(!(michal !== zuuluu)) { _fun00006_ip = 96; continue _fun00005 }
  26:
-                michal = _closure1_slot6;
+                michal = _closure1_slot5;
                 michal = michal.TIER_2;
                 if(!(michal !== zuuluu)) { _fun00006_ip = 96; continue _fun00005 }
  40:
-                michal = _closure1_slot6;
+                michal = _closure1_slot5;
                 michal = michal.TIER_1;
                 if(!(michal !== zuuluu)) { _fun00006_ip = 84; continue _fun00005 }
  54:
-                michal = _closure1_slot6;
+                michal = _closure1_slot5;
                 michal = michal.TIER_0;
                 if(!(michal !== zuuluu)) { _fun00006_ip = 72; continue _fun00005 }
  68:
                 michal = null;
                 return michal;
  72:
-                michal = _closure1_slot7;
+                michal = _closure1_slot6;
                 michal = michal.TIER_0;
                 return michal;
  84:
-                michal = _closure1_slot7;
+                michal = _closure1_slot6;
                 michal = michal.TIER_1;
                 return michal;
  96:
-                entity = _closure1_slot7;
+                entity = _closure1_slot6;
                 entity = entity.TIER_2;
                 return entity;
             }
         };
         oscard['get'] = michal;
-        michal = new Array(5);
+        michal = new Array(2);
         michal[0] = oscard;
-        oscard = {};
-        golfie = 'isGiftableCurrency';
-        oscard['key'] = golfie;
-        golfie = function() { // Original name: get
-            zuuluu = _closure1_slot5;
-            michal = zuuluu.has;
-            entity = this;
-            entity = entity.currency;
-            entity = michal.bind(zuuluu)(entity);
-            return entity;
-        };
-        oscard['get'] = golfie;
-        michal[1] = oscard;
-        oscard = {};
-        golfie = 'giftPrice';
-        oscard['key'] = golfie;
-        golfie = function() { // Original name: get
-            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
- 0:
-                entity = this;
-                michal = entity.isGiftableCurrency;
-                if(michal) { _fun00008_ip = 75; continue _fun00007 }
- 14:
-                michal = entity.fallbackPrice;
-                zuuluu = 'number';
-                michal = typeof michal;
-                if(!(zuuluu !== michal)) { _fun00008_ip = 67; continue _fun00007 }
- 31:
-                michal = global;
-                tangon = michal.Error;
-                michal = tangon.prototype;
-                zuuluu = Object.create(michal, {constructor: {value: tangon}});
-                report = 'Missing fallback price for non-giftable currency';
-                oscard = zuuluu;
-                michal = new oscard[tangon](report, tangon);
-                michal = michal instanceof Object ? michal : zuuluu;
-                throw michal;
- 67:
-                michal = entity.fallbackPrice;
-                return michal;
- 75:
-                entity = entity.price;
-                return entity;
-            }
-        };
-        oscard['get'] = golfie;
-        michal[2] = oscard;
-        oscard = {};
-        golfie = 'getPrice';
-        oscard['key'] = golfie;
-        golfie = function() { // Original name: value
-            _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
- 0:
-                entity = arguments[0];
-                michal = this;
-                zuuluu = undefined;
-                if(!(entity === zuuluu)) { _fun00010_ip = 14; continue _fun00009 }
- 12:
-                entity = false;
- 14:
-                if(entity) { _fun00010_ip = 25; continue _fun00009 }
- 17:
-                entity = michal.price;
-                _fun00010_ip = 33; continue _fun00009;
- 25:
-                entity = michal.giftPrice;
- 33:
-                return entity;
-            }
-        };
-        oscard['value'] = golfie;
-        michal[3] = oscard;
         oscard = {};
         golfie = 'toServerData';
         oscard['key'] = golfie;
@@ -338,44 +253,40 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = michal.price;
             entity['price'] = tangon;
             entity['prices'] = zuuluu;
-            zuuluu = michal.price;
-            entity['price_tier'] = zuuluu;
-            zuuluu = michal.fallbackPrice;
-            entity['fallback_price'] = zuuluu;
-            michal = michal.fallbackCurrency;
-            entity['fallback_currency'] = michal;
+            michal = michal.price;
+            entity['price_tier'] = michal;
             return entity;
         };
         oscard['value'] = golfie;
-        michal[4] = oscard;
+        michal[1] = oscard;
         oscard = {};
         golfie = 'createFromServer';
         oscard['key'] = golfie;
         entity = function(argFoo) { // Original name: value
-            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                report = argFoo;
-                var _closure3_slot0 = report;
-                entity = {};
-                tangon = report.prices;
-                michal = null;
-                if(!(michal != tangon)) { _fun00012_ip = 66; continue _fun00011 }
+                tangon = argFoo;
+                var _closure3_slot0 = tangon;
+                michal = {};
+                report = tangon.prices;
+                zuuluu = null;
+                if(!(zuuluu != report)) { _fun00008_ip = 66; continue _fun00007 }
  23:
-                tangon = global;
-                golfie = tangon.Object;
-                oscard = golfie.keys;
-                tangon = report.prices;
-                golfie = oscard.bind(golfie)(tangon);
-                oscard = golfie.reduce;
-                tangon = function(argFoo, argBar) {
-                    _fun00013: for(var _fun00014_ip = 0; ; ) switch(_fun00014_ip) {
+                zuuluu = global;
+                oscard = zuuluu.Object;
+                report = oscard.keys;
+                zuuluu = tangon.prices;
+                oscard = report.bind(oscard)(zuuluu);
+                report = oscard.reduce;
+                zuuluu = function(argFoo, argBar) {
+                    _fun00009: for(var _fun00010_ip = 0; ; ) switch(_fun00010_ip) {
  0:
                         entity = argFoo;
                         zuuluu = argBar;
                         report = _closure3_slot0;
                         oscard = report.prices;
                         report = null;
-                        if(!(report != oscard)) { _fun00014_ip = 157; continue _fun00013 }
+                        if(!(report != oscard)) { _fun00010_ip = 157; continue _fun00009 }
  30:
                         michal = _closure3_slot0;
                         michal = michal.prices;
@@ -389,7 +300,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         verify = golfie.prices;
                         option = verify.map;
                         golfie = function(argFoo) {
-                            tangon = _closure1_slot10;
+                            tangon = _closure1_slot9;
                             entity = _closure3_slot0;
                             zuuluu = entity.tax_inclusive;
                             michal = undefined;
@@ -407,7 +318,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         golfie = oscard.bind(golfie)(report);
                         oscard = golfie.reduce;
                         report = function(argFoo, argBar) {
-                            _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
+                            _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
                                 entity = argFoo;
                                 oscard = argBar;
@@ -418,30 +329,30 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                                 option = undefined;
                                 tangon = zuuluu === option;
                                 zuuluu = undefined;
-                                if(tangon) { _fun00016_ip = 30; continue _fun00015 }
+                                if(tangon) { _fun00012_ip = 30; continue _fun00011 }
  27:
                                 zuuluu = report;
  30:
                                 report = undefined;
-                                if(tangon) { _fun00016_ip = 60; continue _fun00015 }
+                                if(tangon) { _fun00012_ip = 60; continue _fun00011 }
  35:
                                 golfie = oscard().value;
                                 oscard = michal;
                                 oscard = oscard === option;
                                 report = undefined;
                                 tangon = oscard;
-                                if(oscard) { _fun00016_ip = 60; continue _fun00015 }
+                                if(oscard) { _fun00012_ip = 60; continue _fun00011 }
  54:
                                 report = golfie;
                                 tangon = oscard;
  60:
-                                if(tangon) { _fun00016_ip = 66; continue _fun00015 }
+                                if(tangon) { _fun00012_ip = 66; continue _fun00011 }
  63:
                                 michal.return();
  66:
                                 tangon = report.map;
                                 michal = function(argFoo) {
-                                    tangon = _closure1_slot10;
+                                    tangon = _closure1_slot9;
                                     entity = _closure3_slot0;
                                     zuuluu = entity.tax_inclusive;
                                     michal = undefined;
@@ -463,53 +374,33 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                         return entity;
                     }
                 };
-                zuuluu = {};
-                entity = oscard.bind(golfie)(tangon, zuuluu);
- 66:
-                zuuluu = {};
-                tangon = report.id;
-                zuuluu['id'] = tangon;
-                tangon = report.name;
-                zuuluu['name'] = tangon;
-                tangon = report.interval;
-                zuuluu['interval'] = tangon;
-                tangon = report.interval_count;
-                zuuluu['intervalCount'] = tangon;
-                tangon = report.tax_inclusive;
-                zuuluu['taxInclusive'] = tangon;
-                tangon = report.sku_id;
-                zuuluu['skuId'] = tangon;
-                tangon = report.currency;
-                zuuluu['currency'] = tangon;
-                tangon = report.price;
-                zuuluu['price'] = tangon;
-                zuuluu['prices'] = entity;
-                entity = report.fallback_price;
-                entity = michal != entity;
-                if(!entity) { _fun00012_ip = 182; continue _fun00011 }
- 170:
-                tangon = report.fallback_price;
-                michal = 0;
-                entity = michal !== tangon;
- 182:
-                if(!entity) { _fun00012_ip = 228; continue _fun00011 }
- 185:
-                entity = global;
-                tangon = entity.Object;
-                michal = tangon.assign;
                 entity = {};
-                oscard = report.fallback_price;
-                entity['fallbackPrice'] = oscard;
-                report = report.fallback_currency;
-                entity['fallbackCurrency'] = report;
-                entity = michal.bind(tangon)(zuuluu, entity);
- 228:
-                entity = _closure2_slot0;
-                michal = entity.prototype;
-                michal = Object.create(michal, {constructor: {value: entity}});
-                offset = michal;
-                verify = zuuluu;
-                entity = new offset[entity](verify, option);
+                michal = report.bind(oscard)(zuuluu, entity);
+ 66:
+                zuuluu = _closure2_slot0;
+                entity = {};
+                report = tangon.id;
+                entity['id'] = report;
+                report = tangon.name;
+                entity['name'] = report;
+                report = tangon.interval;
+                entity['interval'] = report;
+                report = tangon.interval_count;
+                entity['intervalCount'] = report;
+                report = tangon.tax_inclusive;
+                entity['taxInclusive'] = report;
+                report = tangon.sku_id;
+                entity['skuId'] = report;
+                report = tangon.currency;
+                entity['currency'] = report;
+                tangon = tangon.price;
+                entity['price'] = tangon;
+                entity['prices'] = michal;
+                michal = zuuluu.prototype;
+                michal = Object.create(michal, {constructor: {value: zuuluu}});
+                verify = michal;
+                option = entity;
+                entity = new verify[zuuluu](option, golfie);
                 entity = entity instanceof Object ? entity : michal;
                 return entity;
             }
@@ -521,7 +412,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     report = report.bind(entity)(oscard);
-    oscard = 8;
+    oscard = 7;
     oscard = option[oscard];
     option = golfie.bind(entity)(oscard);
     golfie = option.fileFinishedImporting;
@@ -530,7 +421,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['default'] = report;
     zuuluu['getPriceFromServer'] = tangon;
     michal = function(argFoo) { // Original name: isNoneSubscription
-        entity = _closure1_slot8;
+        entity = _closure1_slot7;
         michal = entity.NONE_MONTH;
         zuuluu = new Array(4);
         zuuluu[0] = michal;

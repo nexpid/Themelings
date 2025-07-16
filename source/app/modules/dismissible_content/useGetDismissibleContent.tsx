@@ -59,13 +59,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = _closure2_slot0;
                     entity = null;
                     entity = entity != zuuluu;
-                    if(!entity) { _fun00006_ip = 38; continue _fun00005 }
+                    if(!entity) { _fun00006_ip = 43; continue _fun00005 }
  16:
-                    tangon = _closure1_slot6;
-                    zuuluu = tangon.hasUserHitDCCap;
-                    michal = _closure2_slot0;
-                    entity = zuuluu.bind(tangon)(michal);
- 38:
+                    report = _closure1_slot6;
+                    tangon = report.hasUserHitDCCap;
+                    zuuluu = _closure2_slot0;
+                    michal = _closure2_slot1;
+                    entity = tangon.bind(report)(zuuluu, michal);
+ 43:
                     return entity;
                 }
             };

@@ -160,5 +160,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
         }
     };
     zuuluu['getSettingsErrorMessage'] = michal;
+    michal = 'https://discord.gg';
+    zuuluu['VANITY_URL_INVITE_ENDPOINT'] = michal;
     return entity;
 })();

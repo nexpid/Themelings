@@ -217,11 +217,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu[0] = michal;
         michal = function() {
             tangon = _closure1_slot1;
-            oscard = _closure1_slot2;
+            report = _closure1_slot2;
             entity = 11;
-            report = oscard[entity];
+            oscard = report[entity];
             zuuluu = undefined;
-            verify = tangon.bind(zuuluu)(report);
+            verify = tangon.bind(zuuluu)(oscard);
             option = verify.throttle;
             golfie = function(argFoo, argBar) {
                 zuuluu = _closure1_slot1;
@@ -238,11 +238,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = report.bind(oscard)(tangon, zuuluu, michal);
                 return entity;
             };
-            report = 200;
-            report = option.bind(verify)(golfie, report);
-            var _closure3_slot0 = report;
-            report = oscard[entity];
-            verify = tangon.bind(zuuluu)(report);
+            oscard = 200;
+            oscard = option.bind(verify)(golfie, oscard);
+            var _closure3_slot0 = oscard;
+            oscard = report[entity];
+            verify = tangon.bind(zuuluu)(oscard);
             option = verify.throttle;
             golfie = function(argFoo) {
                 _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -346,20 +346,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     return entity;
                 }
             };
-            report = 500;
-            golfie = option.bind(verify)(golfie, report);
-            var _closure3_slot1 = golfie;
-            entity = oscard[entity];
-            tangon = tangon.bind(zuuluu)(entity);
-            zuuluu = tangon.debounce;
-            entity = function(argFoo) {
+            oscard = 500;
+            oscard = option.bind(verify)(golfie, oscard);
+            var _closure3_slot1 = oscard;
+            entity = report[entity];
+            report = tangon.bind(zuuluu)(entity);
+            tangon = report.debounce;
+            zuuluu = function(argFoo) {
                 zuuluu = _closure1_slot9;
                 entity = undefined;
                 michal = argFoo;
                 michal = zuuluu.bind(entity)(michal);
                 return entity;
             };
-            entity = zuuluu.bind(tangon)(entity, report);
+            entity = 32;
+            entity = tangon.bind(report)(zuuluu, entity);
             var _closure3_slot2 = entity;
             zuuluu = {};
             entity = function() { // Original name: backspace

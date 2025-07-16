@@ -1226,26 +1226,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['SEARCH_FINISH'] = yankee;
     yankee = function(argFoo) { // Original name: handleSearchResultsQueryUpdate
-        entity = argFoo;
-        report = entity.searchId;
-        tangon = entity.queryString;
-        zuuluu = entity.query;
-        michal = _closure1_slot18;
-        entity = undefined;
-        michal = michal.bind(entity)(report);
-        michal['searchResultsQueryString'] = tangon;
-        michal['query'] = zuuluu;
-        return entity;
+        _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
+ 0:
+            entity = argFoo;
+            oscard = entity.searchId;
+            report = entity.queryString;
+            michal = entity.query;
+            tangon = entity.offset;
+            zuuluu = _closure1_slot18;
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(oscard);
+            zuuluu['searchResultsQueryString'] = report;
+            zuuluu['query'] = michal;
+            michal = null;
+            report = michal != tangon;
+            michal = 0;
+            if(!report) { _fun00046_ip = 66; continue _fun00045 }
+ 63:
+            michal = tangon;
+ 66:
+            zuuluu['offset'] = michal;
+            return entity;
+        }
     };
     michal['SEARCH_RESULTS_QUERY_UPDATE'] = yankee;
     michal['SEARCH_EDITOR_STATE_CLEAR'] = offset;
     offset = function(argFoo) { // Original name: ensureEditorState
-        _fun00045: for(var _fun00046_ip = 0; ; ) switch(_fun00046_ip) {
+        _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.searchId;
             entity = null;
-            if(!(entity != zuuluu)) { _fun00046_ip = 29; continue _fun00045 }
+            if(!(entity != zuuluu)) { _fun00048_ip = 29; continue _fun00047 }
  15:
             michal = _closure1_slot18;
             entity = undefined;
@@ -1304,13 +1316,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['SEARCH_SCREEN_OPEN'] = offset;
     offset = function(argFoo) { // Original name: handleChannelSelect
-        _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
+        _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
  0:
             entity = argFoo;
             zuuluu = entity.guildId;
             report = entity.channelId;
             entity = null;
-            if(!(entity == zuuluu)) { _fun00048_ip = 98; continue _fun00047 }
+            if(!(entity == zuuluu)) { _fun00050_ip = 98; continue _fun00049 }
  19:
             oscard = _closure1_slot0;
             tangon = _closure1_slot2;
@@ -1324,15 +1336,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal['location'] = option;
             oscard = oscard.bind(golfie)(michal);
             michal = _closure1_slot22;
-            if(oscard) { _fun00048_ip = 81; continue _fun00047 }
+            if(oscard) { _fun00050_ip = 81; continue _fun00049 }
  74:
             report = michal.bind(tangon)(report);
-            _fun00048_ip = 112; continue _fun00047;
+            _fun00050_ip = 112; continue _fun00049;
  81:
             entity = _closure1_slot11;
             entity = entity.DMS;
             entity = michal.bind(tangon)(entity);
-            _fun00048_ip = 112; continue _fun00047;
+            _fun00050_ip = 112; continue _fun00049;
  98:
             michal = _closure1_slot22;
             entity = undefined;
@@ -1344,12 +1356,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['CHANNEL_SELECT'] = offset;
     offset = function() { // Original name: handleChannelToggleMembersSection
-        _fun00049: for(var _fun00050_ip = 0; ; ) switch(_fun00050_ip) {
+        _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
  0:
             zuuluu = _closure1_slot16;
             entity = null;
             entity = entity != zuuluu;
-            if(!entity) { _fun00050_ip = 38; continue _fun00049 }
+            if(!entity) { _fun00052_ip = 38; continue _fun00051 }
  16:
             tangon = _closure1_slot21;
             zuuluu = {};
@@ -1363,12 +1375,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['CHANNEL_TOGGLE_MEMBERS_SECTION'] = offset;
     offset = function(argFoo) { // Original name: clearSearchHistory
-        _fun00051: for(var _fun00052_ip = 0; ; ) switch(_fun00052_ip) {
+        _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
  0:
             entity = argFoo;
             michal = entity.searchId;
             entity = null;
-            if(!(entity != michal)) { _fun00052_ip = 82; continue _fun00051 }
+            if(!(entity != michal)) { _fun00054_ip = 82; continue _fun00053 }
  15:
             entity = _closure1_slot15;
             entity = delete entity[michal];
@@ -1385,7 +1397,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report = _closure1_slot15;
             entity['history'] = report;
             entity = zuuluu.bind(tangon)(michal, entity);
-            _fun00052_ip = 134; continue _fun00051;
+            _fun00054_ip = 134; continue _fun00053;
  82:
             tangon = _closure1_slot0;
             zuuluu = _closure1_slot2;
@@ -1406,7 +1418,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     };
     michal['SEARCH_CLEAR_HISTORY'] = offset;
     offset = function(argFoo) { // Original name: removeQueryFromHistory
-        _fun00053: for(var _fun00054_ip = 0; ; ) switch(_fun00054_ip) {
+        _fun00055: for(var _fun00056_ip = 0; ; ) switch(_fun00056_ip) {
  0:
             michal = argFoo;
             zuuluu = michal.searchId;
@@ -1415,7 +1427,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot15;
             tangon = michal[zuuluu];
             michal = null;
-            if(!(michal != tangon)) { _fun00054_ip = 118; continue _fun00053 }
+            if(!(michal != tangon)) { _fun00056_ip = 118; continue _fun00055 }
  37:
             michal = _closure1_slot15;
             oscard = michal[zuuluu];

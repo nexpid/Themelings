@@ -1,0 +1,105 @@
+// app/modules/media_uploads/experiments/ResumableAttachmentUploadsExperiment.tsx
+export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    var _closure1_slot1 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    yankee = true;
+    tangon['value'] = yankee;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    tangon = oscard[entity];
+    entity = undefined;
+    verify = report.bind(entity)(tangon);
+    option = verify.createExperiment;
+    golfie = {'kind': 'user', 'id': '2025-07_resumable_attachment_uploads', 'label': 'Resumable attachment uploads'};
+    tangon = {};
+    romeon = false;
+    tangon['enableResumableUploads'] = romeon;
+    golfie['defaultConfig'] = tangon;
+    tangon = {'id': 0, 'label': 'Control'};
+    offset = {};
+    offset['enableResumableUploads'] = romeon;
+    tangon['config'] = offset;
+    offset = new Array(2);
+    offset[0] = tangon;
+    foxtra = {'id': 1, 'label': 'Resumable Uploads Enabled'};
+    tangon = 1;
+    backup = {};
+    backup['enableResumableUploads'] = yankee;
+    foxtra['config'] = backup;
+    offset[1] = foxtra;
+    golfie['treatments'] = offset;
+    golfie = option.bind(verify)(golfie);
+    var _closure1_slot2 = golfie;
+    tangon = oscard[tangon];
+    option = report.bind(entity)(tangon);
+    golfie = option.createApexExperiment;
+    tangon = {'name': '2025-07-resumable-attachment-uploads', 'kind': 'user'};
+    verify = {};
+    verify['enableResumableUploads'] = romeon;
+    tangon['defaultConfig'] = verify;
+    verify = {};
+    offset = {};
+    offset['enableResumableUploads'] = romeon;
+    verify[0] = offset;
+    offset = {};
+    offset['enableResumableUploads'] = yankee;
+    verify[1] = offset;
+    tangon['variations'] = verify;
+    tangon = golfie.bind(option)(tangon);
+    var _closure1_slot3 = tangon;
+    tangon = 3;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'modules/media_uploads/experiments/ResumableAttachmentUploadsExperiment.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) { // Original name: getResumableAttachmentUploadsConfig
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            entity = argFoo;
+            entity = entity.location;
+            report = _closure1_slot0;
+            tangon = _closure1_slot1;
+            zuuluu = 2;
+            tangon = tangon[zuuluu];
+            zuuluu = undefined;
+            zuuluu = report.bind(zuuluu)(tangon);
+            golfie = zuuluu.MediaInfraHoldoutExperimentH22025;
+            oscard = golfie.getCurrentConfig;
+            tangon = {};
+            tangon['location'] = entity;
+            zuuluu = {};
+            report = true;
+            zuuluu['autoTrackExposure'] = report;
+            zuuluu = oscard.bind(golfie)(tangon, zuuluu);
+            oscard = zuuluu.isInHoldout;
+            if(oscard) { _fun00002_ip = 96; continue _fun00001 }
+ 75:
+            golfie = _closure1_slot3;
+            tangon = golfie.getConfig;
+            zuuluu = {};
+            zuuluu['location'] = entity;
+            zuuluu = tangon.bind(golfie)(zuuluu);
+ 96:
+            tangon = _closure1_slot2;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['location'] = entity;
+            entity = {};
+            entity['disable'] = oscard;
+            entity['autoTrackExposure'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['getResumableAttachmentUploadsConfig'] = michal;
+    return entity;
+})();

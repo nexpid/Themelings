@@ -181,13 +181,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = golfie.useBoosterEnhancedRoleColors;
             michal = 'useHasEnhancedRoleColorsForRole';
             michal = tangon.bind(golfie)(option, michal);
-            if(!michal) { _fun00008_ip = 104; continue _fun00007 }
- 98:
+            if(!michal) { _fun00008_ip = 102; continue _fun00007 }
+ 96:
             tangon = null;
             michal = tangon != report;
- 104:
-            if(!michal) { _fun00008_ip = 138; continue _fun00007 }
- 107:
+ 102:
+            if(!michal) { _fun00008_ip = 136; continue _fun00007 }
+ 105:
             tangon = _closure1_slot0;
             golfie = _closure1_slot2;
             zuuluu = 3;
@@ -195,11 +195,11 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = tangon.bind(oscard)(zuuluu);
             zuuluu = tangon.getIsRoleServerBooster;
             michal = zuuluu.bind(tangon)(report);
- 138:
-            if(entity) { _fun00008_ip = 144; continue _fun00007 }
- 141:
+ 136:
+            if(entity) { _fun00008_ip = 142; continue _fun00007 }
+ 139:
             entity = michal;
- 144:
+ 142:
             return entity;
         }
     };

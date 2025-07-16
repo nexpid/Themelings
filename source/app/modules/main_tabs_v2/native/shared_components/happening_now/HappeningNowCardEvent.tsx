@@ -580,19 +580,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = offset.HappeningNowCardSubtitle;
             offset = {};
             sizing = undefined;
-            if(!kiloes) { _fun00004_ip = 1220; continue _fun00003 }
- 1214:
+            if(!kiloes) { _fun00004_ip = 1216; continue _fun00003 }
+ 1210:
             sizing = 'text-positive';
- 1220:
+ 1216:
             offset['color'] = sizing;
             sizing = undefined;
-            if(!kiloes) { _fun00004_ip = 1233; continue _fun00003 }
- 1229:
+            if(!kiloes) { _fun00004_ip = 1229; continue _fun00003 }
+ 1225:
             sizing = 'text-xs/bold';
- 1233:
+ 1229:
             offset['variant'] = sizing;
-            if(!kiloes) { _fun00004_ip = 1329; continue _fun00003 }
- 1240:
+            if(!kiloes) { _fun00004_ip = 1325; continue _fun00003 }
+ 1236:
             output = _closure1_slot0;
             result = _closure1_slot2;
             backup = 24;
@@ -612,7 +612,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = backup.concat;
             backup = '· ';
             foxtra = kiloes.bind(backup)(sizing);
- 1329:
+ 1325:
             offset['children'] = foxtra;
             offset = romeon.bind(tangon)(yankee, offset);
             verify[1] = offset;

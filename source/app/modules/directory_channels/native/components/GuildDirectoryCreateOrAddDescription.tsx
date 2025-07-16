@@ -84,7 +84,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  0:
                         StartGenerator();
                         ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
-                        if(michal) { _fun00002_ip = 276; continue _fun00001 }
+                        if(michal) { _fun00002_ip = 275; continue _fun00001 }
  10:
                         michal = _closure2_slot3;
                         tangon = null;
@@ -94,7 +94,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         offset = michal.name;
                         verify = michal.icon;
                         option = michal.template;
-                        if(!(tangon != option)) { _fun00002_ip = 271; continue _fun00001 }
+                        if(!(tangon != option)) { _fun00002_ip = 270; continue _fun00001 }
  50:
                         report = _closure1_slot1;
                         oscard = _closure1_slot2;
@@ -109,7 +109,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         return michal;
  92:
                         ResumeGenerator(result_out_reg=1, return_bool_out_reg=4);
-                        if(report) { _fun00002_ip = 268; continue _fun00001 }
+                        if(report) { _fun00002_ip = 267; continue _fun00001 }
  101:
                         report = _closure1_slot0;
                         option = _closure1_slot2;
@@ -121,7 +121,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         _closure2_slot2 = zuuluu;
  136:
                         zuuluu = _closure2_slot2;
-                        if(!(tangon != zuuluu)) { _fun00002_ip = 260; continue _fun00001 }
+                        if(!(tangon != zuuluu)) { _fun00002_ip = 259; continue _fun00001 }
  144:
                         tangon = _closure1_slot0;
                         verify = _closure1_slot2;
@@ -148,23 +148,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         oscard = oscard.close;
                         zuuluu['onClose'] = oscard;
                         zuuluu = tangon.bind(report)(zuuluu);
-                        SaveGenerator(address=254);
- 252:
+                        SaveGenerator(address=253);
+ 251:
                         return zuuluu;
- 254:
+ 253:
                         ResumeGenerator(result_out_reg=2, return_bool_out_reg=3);
-                        if(tangon) { _fun00002_ip = 265; continue _fun00001 }
- 260:
+                        if(tangon) { _fun00002_ip = 264; continue _fun00001 }
+ 259:
                         tangon = undefined;
                         return tangon;
- 265:
+ 264:
                         return zuuluu;
- 268:
+ 267:
                         return michal;
- 271:
+ 270:
                         michal = undefined;
                         return michal;
- 276:
+ 275:
                         return entity;
                     }
                 };

@@ -276,7 +276,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             yankee = yankee.discordLogo;
             option['style'] = yankee;
             option = offset.bind(tangon)(verify, option);
-            _fun00002_ip = 955; continue _fun00001;
+            _fun00002_ip = 971; continue _fun00001;
  590:
             yankee = _closure1_slot10;
             offset = _closure1_slot9;
@@ -288,7 +288,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = echoed[romeon];
             romeon = ctrled.bind(tangon)(romeon);
             backup = romeon.ShopIcon;
-            romeon = {'size': 'sm', 'color': 'redesign-button-tertiary-text'};
+            romeon = {'size': 'md', 'color': 'icon-primary'};
             backup = kiloes.bind(tangon)(backup, romeon);
             romeon = new Array(3);
             romeon[0] = backup;
@@ -296,7 +296,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = echoed[backup];
             backup = ctrled.bind(tangon)(backup);
             sizing = backup.Text;
-            backup = {'variant': 'heading-lg/semibold', 'accessibilityRole': 'header'};
+            backup = {'style': null, 'variant': 'text-md/semibold', 'color': 'text-primary', 'accessibilityRole': 'header'};
+            output = {};
+            source = 2;
+            output['paddingTop'] = source;
+            backup['style'] = output;
             output = echoed[vacuum];
             output = ctrled.bind(tangon)(output);
             sequen = output.intl;
@@ -402,7 +406,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon[2] = foxtra;
             verify['children'] = romeon;
             option = yankee.bind(tangon)(offset, verify);
- 955:
+ 971:
             golfie[1] = option;
             report['children'] = golfie;
             report = oscard.bind(tangon)(michal, report);

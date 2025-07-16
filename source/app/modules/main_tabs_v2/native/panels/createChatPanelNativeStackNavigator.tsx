@@ -60,83 +60,125 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         zuuluu['screenListeners'] = romeon;
         zuuluu['screenOptions'] = offset;
         zuuluu = option.bind(verify)(report, zuuluu);
-        report = zuuluu.state;
-        var _closure2_slot0 = report;
-        option = zuuluu.descriptors;
+        romeon = zuuluu.state;
+        var _closure2_slot0 = romeon;
+        report = zuuluu.descriptors;
+        var _closure2_slot1 = report;
         verify = zuuluu.navigation;
-        var _closure2_slot1 = verify;
+        var _closure2_slot2 = verify;
         zuuluu = zuuluu.NavigationContent;
         foxtra = _closure1_slot2;
-        romeon = foxtra.useMemo;
-        offset = new Array(1);
-        offset[0] = report;
+        offset = foxtra.useMemo;
+        option = new Array(2);
+        option[0] = romeon;
+        option[1] = report;
         report = function() {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-                entity = {};
-                michal = _closure2_slot0;
-                sizing = entity;
-                kiloes = michal;
-                zuuluu = copyDataProperties(sizing, kiloes);
-                kiloes = michal.routes;
-                zuuluu = new Array(0);
-                tangon = 0;
-                sizing = zuuluu;
-                backup = 0;
-                michal = arraySpread(sizing, kiloes, backup);
+                zuuluu = {};
+                entity = _closure2_slot0;
+                source = zuuluu;
+                update = entity;
+                michal = copyDataProperties(source, update);
+                update = entity.routes;
+                tangon = new Array(0);
+                entity = 0;
+                source = tangon;
+                echoed = 0;
+                michal = arraySpread(source, update, echoed);
                 michal = 'routes';
-                entity[michal] = zuuluu;
-                yankee = new Array(0);
-                michal = new Array(0);
-                zuuluu = entity.routes;
-                zuuluu = zuuluu.length;
-                zuuluu = tangon < zuuluu;
-                verify = 3;
-                option = undefined;
-                golfie = null;
+                zuuluu[michal] = tangon;
+                foxtra = new Array(0);
+                tangon = new Array(0);
+                michal = {};
+                report = zuuluu.routes;
+                report = report.length;
+                report = entity < report;
+                yankee = 3;
+                offset = undefined;
+                verify = null;
+                golfie = 0;
                 oscard = 0;
-                report = 0;
-                if(!zuuluu) { _fun00002_ip = 195; continue _fun00001 }
- 89:
-                zuuluu = entity.routes;
-                foxtra = zuuluu[report];
-                romeon = _closure1_slot0;
-                zuuluu = _closure1_slot1;
-                zuuluu = zuuluu[verify];
-                romeon = romeon.bind(option)(zuuluu);
-                zuuluu = romeon.coerceChannelRoute;
-                zuuluu = zuuluu.bind(romeon)(foxtra);
-                if(!(golfie == zuuluu)) { _fun00002_ip = 146; continue _fun00001 }
- 131:
-                zuuluu = michal.push;
-                zuuluu = zuuluu.bind(michal)(foxtra);
-                romeon = oscard;
-                _fun00002_ip = 171; continue _fun00001;
- 146:
-                zuuluu = yankee.push;
-                zuuluu = zuuluu.bind(yankee)(foxtra);
-                zuuluu = entity.index;
-                romeon = oscard;
-                if(!(report <= zuuluu)) { _fun00002_ip = 171; continue _fun00001 }
- 168:
-                romeon = oscard + 1;
- 171:
-                report = report + 1;
-                zuuluu = entity.routes;
-                zuuluu = zuuluu.length;
-                oscard = romeon;
-                tangon = oscard;
-                if(report < zuuluu) { _fun00002_ip = 89; continue _fun00001 }
- 195:
-                zuuluu = entity.index;
-                zuuluu = zuuluu - tangon;
-                entity['index'] = zuuluu;
-                entity['routes'] = michal;
+                option = 0;
+                if(!report) { _fun00002_ip = 246; continue _fun00001 }
+ 96:
+                report = zuuluu.routes;
+                sizing = report[oscard];
+                kiloes = _closure1_slot0;
+                report = _closure1_slot1;
+                report = report[yankee];
+                kiloes = kiloes.bind(offset)(report);
+                report = kiloes.coerceChannelRoute;
+                report = report.bind(kiloes)(sizing);
+                if(!(verify == report)) { _fun00002_ip = 194; continue _fun00001 }
+ 138:
+                report = tangon.push;
+                report = report.bind(tangon)(sizing);
+                kiloes = sizing.key;
+                report = _closure2_slot1;
+                report = kiloes in report;
+                kiloes = golfie;
+                if(!report) { _fun00002_ip = 219; continue _fun00001 }
+ 167:
+                output = sizing.key;
+                result = _closure2_slot1;
+                report = sizing.key;
+                report = result[report];
+                michal[output] = report;
+                kiloes = golfie;
+                _fun00002_ip = 219; continue _fun00001;
+ 194:
+                report = foxtra.push;
+                report = report.bind(foxtra)(sizing);
+                report = zuuluu.index;
+                kiloes = golfie;
+                if(!(oscard <= report)) { _fun00002_ip = 219; continue _fun00001 }
+ 216:
+                kiloes = golfie + 1;
+ 219:
+                oscard = oscard + 1;
+                report = zuuluu.routes;
+                report = report.length;
+                golfie = kiloes;
+                option = golfie;
+                if(oscard < report) { _fun00002_ip = 96; continue _fun00001 }
+ 246:
+                report = global;
+                golfie = report.Math;
+                oscard = golfie.max;
+                report = zuuluu.index;
+                report = report - option;
+                report = oscard.bind(golfie)(entity, report);
+                zuuluu['index'] = report;
+                zuuluu['routes'] = tangon;
+                tangon = zuuluu.routes;
+                tangon = tangon.length;
+                if(!(entity !== tangon)) { _fun00002_ip = 347; continue _fun00001 }
+ 301:
+                report = zuuluu.index;
+                tangon = zuuluu.routes;
+                tangon = tangon.length;
+                if(!(report >= tangon)) { _fun00002_ip = 353; continue _fun00001 }
+ 321:
+                tangon = zuuluu.routes;
+                report = tangon.length;
+                tangon = 1;
+                tangon = report - tangon;
+                zuuluu['index'] = tangon;
+                _fun00002_ip = 353; continue _fun00001;
+ 347:
+                zuuluu['index'] = entity;
+ 353:
+                entity = {};
+                entity['state'] = zuuluu;
+                entity['filteredDescriptors'] = michal;
                 return entity;
             }
         };
-        offset = romeon.bind(foxtra)(report, offset);
-        var _closure2_slot2 = offset;
+        report = offset.bind(foxtra)(report, option);
+        offset = report.state;
+        var _closure2_slot3 = offset;
+        option = report.filteredDescriptors;
         romeon = foxtra.useEffect;
         report = new Array(3);
         report[0] = verify;
@@ -147,25 +189,25 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
         michal = function() {
             _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
  0:
-                entity = _closure2_slot1;
+                entity = _closure2_slot2;
                 report = null;
                 zuuluu = report == entity;
                 entity = undefined;
                 if(zuuluu) { _fun00004_ip = 66; continue _fun00003 }
  18:
-                zuuluu = _closure2_slot1;
+                zuuluu = _closure2_slot2;
                 zuuluu = zuuluu.addListener;
                 zuuluu = report == zuuluu;
                 entity = undefined;
                 if(zuuluu) { _fun00004_ip = 66; continue _fun00003 }
  37:
-                report = _closure2_slot1;
+                report = _closure2_slot2;
                 tangon = report.addListener;
                 zuuluu = 'tabPress';
                 michal = function(argFoo) {
                     entity = argFoo;
                     var _closure4_slot0 = entity;
-                    zuuluu = _closure2_slot1;
+                    zuuluu = _closure2_slot2;
                     entity = zuuluu.isFocused;
                     entity = entity.bind(zuuluu)();
                     var _closure4_slot1 = entity;
@@ -175,7 +217,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                     michal = function() {
                         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                            entity = _closure2_slot2;
+                            entity = _closure2_slot3;
                             michal = entity.index;
                             entity = 0;
                             entity = michal > entity;
@@ -191,7 +233,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
  47:
                             if(!entity) { _fun00006_ip = 132; continue _fun00005 }
  50:
-                            zuuluu = _closure2_slot1;
+                            zuuluu = _closure2_slot2;
                             michal = zuuluu.dispatch;
                             entity = {};
                             golfie = _closure1_slot0;
@@ -205,7 +247,7 @@ export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
                             option = report.bind(oscard)();
                             verify = entity;
                             report = copyDataProperties(verify, option);
-                            tangon = _closure2_slot2;
+                            tangon = _closure2_slot3;
                             report = tangon.key;
                             tangon = 'target';
                             entity[tangon] = report;

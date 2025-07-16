@@ -743,11 +743,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 output = entity.actionIconStyle;
                 offset = null;
                 romeon = null;
-                if(!update) { _fun00014_ip = 84; continue _fun00013 }
- 73:
+                if(!update) { _fun00014_ip = 83; continue _fun00013 }
+ 72:
                 entity = report.props;
                 romeon = entity.sortHandlers;
- 84:
+ 83:
                 zuuluu = _closure1_slot21;
                 michal = _closure1_slot11;
                 entity = {};
@@ -818,23 +818,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = result[report];
                 report = golfie.bind(tangon)(report);
                 report = report.unsafe_rawColors;
-                if(oscard) { _fun00014_ip = 303; continue _fun00013 }
- 279:
+                if(oscard) { _fun00014_ip = 302; continue _fun00013 }
+ 278:
                 golfie = report.PRIMARY_200;
                 oscard = 0.6;
                 oscard = option.bind(verify)(golfie, oscard);
-                _fun00014_ip = 325; continue _fun00013;
- 303:
+                _fun00014_ip = 324; continue _fun00013;
+ 302:
                 golfie = report.PRIMARY_700;
                 report = 0.6;
                 oscard = option.bind(verify)(golfie, report);
- 325:
+ 324:
                 golfie = offset != oscard;
                 report = undefined;
-                if(!golfie) { _fun00014_ip = 337; continue _fun00013 }
- 334:
+                if(!golfie) { _fun00014_ip = 336; continue _fun00013 }
+ 333:
                 report = oscard;
- 337:
+ 336:
                 entity['underlayColor'] = report;
                 vacuum = entity;
                 ctrled = romeon;
@@ -859,18 +859,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 sizing = new Array(2);
                 sizing[0] = result;
                 result = null;
-                if(!update) { _fun00014_ip = 443; continue _fun00013 }
- 437:
+                if(!update) { _fun00014_ip = 442; continue _fun00013 }
+ 436:
                 result = echoed.sortingCategoryView;
- 443:
+ 442:
                 sizing[1] = result;
                 option['viewStyle'] = sizing;
-                if(!(offset == foxtra)) { _fun00014_ip = 519; continue _fun00013 }
- 456:
+                if(!(offset == foxtra)) { _fun00014_ip = 518; continue _fun00013 }
+ 455:
                 romeon = offset != romeon;
                 offset = null;
-                if(!romeon) { _fun00014_ip = 517; continue _fun00013 }
- 465:
+                if(!romeon) { _fun00014_ip = 516; continue _fun00013 }
+ 464:
                 sizing = _closure1_slot21;
                 echoed = _closure1_slot1;
                 update = _closure1_slot3;
@@ -884,9 +884,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 romeon['source'] = result;
                 romeon['style'] = output;
                 offset = sizing.bind(tangon)(foxtra, romeon);
- 517:
-                _fun00014_ip = 550; continue _fun00013;
- 519:
+ 516:
+                _fun00014_ip = 549; continue _fun00013;
+ 518:
                 foxtra = _closure1_slot21;
                 romeon = _closure1_slot25;
                 yankee = {};
@@ -901,7 +901,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 };
                 yankee['onPress'] = backup;
                 offset = foxtra.bind(tangon)(romeon, yankee);
- 550:
+ 549:
                 option['icon'] = offset;
                 option = golfie.bind(tangon)(verify, option);
                 report['children'] = option;
@@ -1118,62 +1118,62 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     oscard = null;
                     entity = 'null';
                     offset = null;
-                    if(!(entity !== zuuluu)) { _fun00020_ip = 89; continue _fun00019 }
- 74:
+                    if(!(entity !== zuuluu)) { _fun00020_ip = 88; continue _fun00019 }
+ 73:
                     michal = _closure1_slot17;
                     entity = michal.getLocalChannel;
                     offset = entity.bind(michal)(zuuluu);
- 89:
-                    if(!(oscard == offset)) { _fun00020_ip = 158; continue _fun00019 }
- 93:
+ 88:
+                    if(!(oscard == offset)) { _fun00020_ip = 157; continue _fun00019 }
+ 92:
                     zuuluu = _closure1_slot21;
                     michal = _closure1_slot10;
                     entity = {};
                     foxtra = oscard == option;
                     tangon = null;
-                    if(!foxtra) { _fun00020_ip = 146; continue _fun00019 }
- 112:
+                    if(!foxtra) { _fun00020_ip = 145; continue _fun00019 }
+ 111:
                     romeon = romeon.null;
                     foxtra = romeon.length;
                     romeon = 0;
                     romeon = foxtra > romeon;
                     tangon = null;
-                    if(!romeon) { _fun00020_ip = 146; continue _fun00019 }
- 134:
+                    if(!romeon) { _fun00020_ip = 145; continue _fun00019 }
+ 133:
                     romeon = {};
                     foxtra = 36;
                     romeon['marginTop'] = foxtra;
                     tangon = romeon;
- 146:
+ 145:
                     entity['style'] = tangon;
                     entity = zuuluu.bind(report)(michal, entity);
-                    _fun00020_ip = 245; continue _fun00019;
- 158:
+                    _fun00020_ip = 243; continue _fun00019;
+ 157:
                     tangon = _closure1_slot21;
                     zuuluu = _closure1_slot24;
                     michal = {};
                     michal['category'] = offset;
                     offset = oscard != option;
-                    if(!offset) { _fun00020_ip = 200; continue _fun00019 }
- 180:
+                    if(!offset) { _fun00020_ip = 198; continue _fun00019 }
+ 178:
                     romeon = option.has;
                     yankee = _closure1_slot18;
                     yankee = yankee.GUILD_CATEGORY;
                     offset = romeon.bind(option)(yankee);
- 200:
+ 198:
                     michal['sortingEnabled'] = offset;
                     verify = verify.edit;
                     michal['editStyle'] = verify;
                     option = oscard == option;
                     oscard = undefined;
-                    if(!option) { _fun00020_ip = 235; continue _fun00019 }
- 225:
+                    if(!option) { _fun00020_ip = 233; continue _fun00019 }
+ 223:
                     golfie = _closure3_slot0;
                     oscard = golfie.handleChannelPress;
- 235:
+ 233:
                     michal['onPress'] = oscard;
                     entity = tangon.bind(report)(zuuluu, michal);
- 245:
+ 243:
                     return entity;
                 }
             };
@@ -1946,7 +1946,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 michal = _closure1_slot19;
                                 michal = michal.VIEW_CHANNEL;
                                 michal = tangon.bind(oscard)(michal, report);
-                                if(!michal) { _fun00038_ip = 159; continue _fun00037 }
+                                if(!michal) { _fun00038_ip = 158; continue _fun00037 }
  61:
                                 oscard = _closure4_slot4;
                                 tangon = 1;
@@ -2010,7 +2010,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                                 zuuluu = _closure4_slot3;
                                 michal = zuuluu.push;
                                 michal = michal.bind(zuuluu)(tangon);
- 159:
+ 158:
                                 return entity;
                             }
                         };

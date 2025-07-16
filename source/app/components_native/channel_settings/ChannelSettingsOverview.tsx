@@ -5369,16 +5369,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report = zuuluu.category;
                 entity = zuuluu.channel;
                 verify = zuuluu.canManageParent;
-                if(!michal) { _fun00084_ip = 402; continue _fun00083 }
- 43:
+                if(!michal) { _fun00084_ip = 401; continue _fun00083 }
+ 42:
                 michal = entity.type;
                 entity = _closure1_slot31;
                 entity = entity.GUILD_CATEGORY;
-                if(!(michal !== entity)) { _fun00084_ip = 402; continue _fun00083 }
- 68:
+                if(!(michal !== entity)) { _fun00084_ip = 401; continue _fun00083 }
+ 67:
                 entity = null;
-                if(!(entity != report)) { _fun00084_ip = 119; continue _fun00083 }
- 74:
+                if(!(entity != report)) { _fun00084_ip = 118; continue _fun00083 }
+ 73:
                 zuuluu = _closure1_slot0;
                 michal = _closure1_slot2;
                 entity = 45;
@@ -5389,8 +5389,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal = _closure1_slot25;
                 entity = _closure1_slot24;
                 yankee = zuuluu.bind(tangon)(report, michal, entity);
-                _fun00084_ip = 176; continue _fun00083;
- 119:
+                _fun00084_ip = 175; continue _fun00083;
+ 118:
                 report = _closure1_slot0;
                 oscard = _closure1_slot2;
                 entity = 35;
@@ -5404,7 +5404,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 entity = entity.t;
                 entity = entity.GSfOoq;
                 yankee = michal.bind(zuuluu)(entity);
- 176:
+ 175:
                 tangon = _closure1_slot50;
                 offset = _closure1_slot0;
                 romeon = _closure1_slot2;
@@ -5451,8 +5451,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 report['trailing'] = golfie;
                 report['arrow'] = verify;
                 golfie = undefined;
-                if(!verify) { _fun00084_ip = 380; continue _fun00083 }
- 373:
+                if(!verify) { _fun00084_ip = 379; continue _fun00083 }
+ 372:
                 golfie = function() {
                     zuuluu = _closure3_slot0;
                     michal = zuuluu.pushScreen;
@@ -5461,13 +5461,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity = michal.bind(zuuluu)(entity);
                     return entity;
                 };
- 380:
+ 379:
                 report['onPress'] = golfie;
                 report = tangon.bind(zuuluu)(oscard, report);
                 entity['children'] = report;
                 entity = tangon.bind(zuuluu)(michal, entity);
                 return entity;
- 402:
+ 401:
                 entity = null;
                 return entity;
             }
@@ -5770,7 +5770,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = entity.errors;
                     entity = _closure2_slot3;
                     oscard = null;
-                    if(!(oscard != entity)) { _fun00092_ip = 618; continue _fun00091 }
+                    if(!(oscard != entity)) { _fun00092_ip = 617; continue _fun00091 }
  45:
                     option = _closure1_slot21;
                     golfie = option.getGuild;
@@ -5811,8 +5811,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = romeon.bind(golfie)(offset);
                     offset = romeon.isChannelNSFW;
                     offset = offset.bind(romeon)(foxtra);
-                    if(!offset) { _fun00092_ip = 286; continue _fun00091 }
- 227:
+                    if(!offset) { _fun00092_ip = 285; continue _fun00091 }
+ 226:
                     kiloes = _closure1_slot20;
                     foxtra = kiloes.didAgree;
                     sizing = _closure2_slot3;
@@ -5820,19 +5820,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     romeon = romeon.bind(sizing)();
                     romeon = foxtra.bind(kiloes)(romeon);
                     romeon = !romeon;
-                    if(romeon) { _fun00092_ip = 283; continue _fun00091 }
- 262:
+                    if(romeon) { _fun00092_ip = 282; continue _fun00091 }
+ 261:
                     foxtra = oscard == yankee;
                     kiloes = undefined;
-                    if(foxtra) { _fun00092_ip = 277; continue _fun00091 }
- 271:
+                    if(foxtra) { _fun00092_ip = 276; continue _fun00091 }
+ 270:
                     kiloes = yankee.nsfwAllowed;
- 277:
+ 276:
                     foxtra = false;
                     romeon = foxtra === kiloes;
- 283:
+ 282:
                     offset = romeon;
- 286:
+ 285:
                     entity['pinDisabled'] = offset;
                     kiloes = _closure1_slot22;
                     foxtra = kiloes.can;
@@ -5842,29 +5842,29 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     offset = foxtra.bind(kiloes)(romeon, offset);
                     entity['canManageChannels'] = offset;
                     offset = oscard != yankee;
-                    if(!offset) { _fun00092_ip = 352; continue _fun00091 }
- 333:
+                    if(!offset) { _fun00092_ip = 351; continue _fun00091 }
+ 332:
                     romeon = _closure2_slot3;
                     romeon = romeon.ownerId;
                     yankee = yankee.id;
                     offset = romeon === yankee;
- 352:
+ 351:
                     entity['isChannelOwner'] = offset;
-                    if(!(oscard == backup)) { _fun00092_ip = 389; continue _fun00091 }
- 361:
+                    if(!(oscard == backup)) { _fun00092_ip = 388; continue _fun00091 }
+ 360:
                     romeon = _closure1_slot22;
                     yankee = romeon.can;
                     offset = _closure1_slot39;
                     offset = offset.MANAGE_CHANNELS;
                     offset = yankee.bind(romeon)(offset, option);
-                    _fun00092_ip = 415; continue _fun00091;
- 389:
+                    _fun00092_ip = 414; continue _fun00091;
+ 388:
                     foxtra = _closure1_slot22;
                     romeon = foxtra.can;
                     yankee = _closure1_slot39;
                     yankee = yankee.MANAGE_CHANNELS;
                     offset = romeon.bind(foxtra)(yankee, backup);
- 415:
+ 414:
                     entity['canManageParent'] = offset;
                     foxtra = _closure1_slot22;
                     backup = foxtra.can;
@@ -5880,15 +5880,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     yankee = _closure1_slot13;
                     offset = offset.type;
                     offset = yankee.bind(golfie)(offset);
-                    if(!offset) { _fun00092_ip = 525; continue _fun00091 }
- 495:
+                    if(!offset) { _fun00092_ip = 524; continue _fun00091 }
+ 494:
                     backup = _closure1_slot22;
                     foxtra = backup.can;
                     yankee = _closure1_slot39;
                     romeon = yankee.MANAGE_WEBHOOKS;
                     yankee = _closure2_slot3;
                     offset = foxtra.bind(backup)(romeon, yankee);
- 525:
+ 524:
                     entity['canManageWebhooks'] = offset;
                     yankee = _closure1_slot0;
                     romeon = _closure1_slot2;
@@ -5904,15 +5904,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     entity['errors'] = michal;
                     tangon = _closure1_slot16;
                     tangon = tangon.bind(golfie)(option);
-                    if(tangon) { _fun00092_ip = 611; continue _fun00091 }
- 597:
+                    if(tangon) { _fun00092_ip = 610; continue _fun00091 }
+ 596:
                     report = _closure2_slot3;
                     report = report.linkedLobby;
                     tangon = oscard != report;
- 611:
+ 610:
                     entity['isNSFWDisabled'] = tangon;
                     return entity;
- 618:
+ 617:
                     entity = {};
                     tangon = false;
                     entity['isThread'] = tangon;

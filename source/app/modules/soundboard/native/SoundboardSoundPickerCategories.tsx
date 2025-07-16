@@ -19,10 +19,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             romeon = michal.style;
             offset = michal.locked;
             report = undefined;
-            if(!(offset === report)) { _fun00002_ip = 49; continue _fun00001 }
- 47:
+            if(!(offset === report)) { _fun00002_ip = 48; continue _fun00001 }
+ 46:
             offset = false;
- 49:
+ 48:
             michal = _closure1_slot12;
             output = michal.bind(report)();
             michal = entity.categoryInfo;
@@ -34,40 +34,40 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.bind(report)(michal);
             michal = michal.SoundboardSoundGridSectionType;
             michal = michal.GUILD;
-            if(!(michal !== golfie)) { _fun00002_ip = 680; continue _fun00001 }
- 110:
+            if(!(michal !== golfie)) { _fun00002_ip = 679; continue _fun00001 }
+ 109:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[tangon];
             michal = zuuluu.bind(report)(michal);
             michal = michal.SoundboardSoundGridSectionType;
             michal = michal.FAVORITES;
-            if(!(michal !== golfie)) { _fun00002_ip = 605; continue _fun00001 }
- 146:
+            if(!(michal !== golfie)) { _fun00002_ip = 604; continue _fun00001 }
+ 145:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[tangon];
             michal = zuuluu.bind(report)(michal);
             michal = michal.SoundboardSoundGridSectionType;
             michal = michal.DEFAULTS;
-            if(!(michal !== golfie)) { _fun00002_ip = 527; continue _fun00001 }
- 182:
+            if(!(michal !== golfie)) { _fun00002_ip = 526; continue _fun00001 }
+ 181:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[tangon];
             michal = zuuluu.bind(report)(michal);
             michal = michal.SoundboardSoundGridSectionType;
             michal = michal.SEARCH;
-            if(!(michal !== golfie)) { _fun00002_ip = 449; continue _fun00001 }
- 218:
+            if(!(michal !== golfie)) { _fun00002_ip = 448; continue _fun00001 }
+ 217:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[tangon];
             michal = zuuluu.bind(report)(michal);
             michal = michal.SoundboardSoundGridSectionType;
             michal = michal.RECENTLY_HEARD;
-            if(!(michal !== golfie)) { _fun00002_ip = 371; continue _fun00001 }
- 251:
+            if(!(michal !== golfie)) { _fun00002_ip = 370; continue _fun00001 }
+ 250:
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             michal = michal[tangon];
@@ -77,8 +77,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = null;
             yankee = null;
             kiloes = null;
-            if(!(michal === golfie)) { _fun00002_ip = 744; continue _fun00001 }
- 293:
+            if(!(michal === golfie)) { _fun00002_ip = 743; continue _fun00001 }
+ 292:
             foxtra = _closure1_slot0;
             verify = _closure1_slot2;
             michal = 10;
@@ -96,8 +96,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = verify[michal];
             kiloes = option.bind(report)(michal);
             yankee = null;
-            _fun00002_ip = 744; continue _fun00001;
- 371:
+            _fun00002_ip = 743; continue _fun00001;
+ 370:
             verify = _closure1_slot0;
             option = _closure1_slot2;
             michal = 10;
@@ -115,8 +115,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option[michal];
             kiloes = zuuluu.bind(report)(michal);
             yankee = null;
-            _fun00002_ip = 744; continue _fun00001;
- 449:
+            _fun00002_ip = 743; continue _fun00001;
+ 448:
             verify = _closure1_slot0;
             option = _closure1_slot2;
             michal = 10;
@@ -134,8 +134,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option[michal];
             kiloes = zuuluu.bind(report)(michal);
             yankee = null;
-            _fun00002_ip = 744; continue _fun00001;
- 527:
+            _fun00002_ip = 743; continue _fun00001;
+ 526:
             verify = _closure1_slot0;
             option = _closure1_slot2;
             michal = 10;
@@ -153,8 +153,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option[michal];
             kiloes = zuuluu.bind(report)(michal);
             yankee = null;
-            _fun00002_ip = 744; continue _fun00001;
- 605:
+            _fun00002_ip = 743; continue _fun00001;
+ 604:
             verify = _closure1_slot0;
             option = _closure1_slot2;
             michal = 10;
@@ -172,8 +172,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = option[michal];
             kiloes = zuuluu.bind(report)(michal);
             yankee = null;
-            _fun00002_ip = 744; continue _fun00001;
- 680:
+            _fun00002_ip = 743; continue _fun00001;
+ 679:
             entity = entity.categoryInfo;
             option = entity.guild;
             tangon = option.name;
@@ -189,7 +189,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['style'] = option;
             yankee = golfie.bind(report)(michal, entity);
             kiloes = null;
- 744:
+ 743:
             zuuluu = _closure1_slot10;
             michal = _closure1_slot0;
             golfie = _closure1_slot2;
@@ -218,8 +218,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify[1] = romeon;
             oscard['style'] = verify;
             verify = null;
-            if(!(verify == yankee)) { _fun00002_ip = 882; continue _fun00001 }
- 836:
+            if(!(verify == yankee)) { _fun00002_ip = 881; continue _fun00001 }
+ 835:
             foxtra = _closure1_slot10;
             romeon = _closure1_slot1;
             sizing = _closure1_slot2;
@@ -231,11 +231,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify['style'] = sizing;
             verify['source'] = kiloes;
             yankee = foxtra.bind(report)(romeon, verify);
- 882:
+ 881:
             verify = new Array(2);
             verify[0] = yankee;
-            if(!offset) { _fun00002_ip = 971; continue _fun00001 }
- 893:
+            if(!offset) { _fun00002_ip = 970; continue _fun00001 }
+ 892:
             foxtra = _closure1_slot10;
             romeon = _closure1_slot5;
             yankee = {};
@@ -254,7 +254,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = sizing.bind(report)(kiloes, backup);
             yankee['children'] = backup;
             offset = foxtra.bind(report)(romeon, yankee);
- 971:
+ 970:
             verify[1] = offset;
             oscard['children'] = verify;
             oscard = option.bind(report)(golfie, oscard);
@@ -641,18 +641,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 michal['index'] = golfie;
                 option = _closure2_slot1;
                 oscard = null;
-                if(!(oscard != option)) { _fun00008_ip = 113; continue _fun00007 }
- 105:
+                if(!(oscard != option)) { _fun00008_ip = 112; continue _fun00007 }
+ 104:
                 oscard = _closure2_slot1;
-                if(!(golfie !== oscard)) { _fun00008_ip = 125; continue _fun00007 }
- 113:
+                if(!(golfie !== oscard)) { _fun00008_ip = 124; continue _fun00007 }
+ 112:
                 oscard = _closure2_slot3;
                 oscard = oscard.fadedItem;
-                _fun00008_ip = 135; continue _fun00007;
- 125:
+                _fun00008_ip = 134; continue _fun00007;
+ 124:
                 golfie = _closure2_slot3;
                 oscard = golfie.activeItem;
- 135:
+ 134:
                 michal['style'] = oscard;
                 report = _closure2_slot7;
                 michal['handlePressCategory'] = report;

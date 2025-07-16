@@ -693,7 +693,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity.return();
  58:
             entity = tangon.returnMentionIds;
-            if(entity) { _fun00024_ip = 534; continue _fun00023 }
+            if(entity) { _fun00024_ip = 542; continue _fun00023 }
  70:
             entity = _closure1_slot19;
             verify = entity.bind(golfie)(tangon);
@@ -707,30 +707,32 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = verify.id;
             oscard = report.bind(offset)(entity, michal);
  114:
-            if(!(option != oscard)) { _fun00024_ip = 439; continue _fun00023 }
+            if(!(option != oscard)) { _fun00024_ip = 447; continue _fun00023 }
  121:
+            report = _closure1_slot0;
+            offset = _closure1_slot2;
+            entity = 12;
+            entity = offset[entity];
+            offset = report.bind(golfie)(entity);
+            report = offset.getHasEnhancedRoleColorsForRole;
+            yankee = option == verify;
+            entity = undefined;
+            if(yankee) { _fun00024_ip = 161; continue _fun00023 }
+ 156:
+            entity = verify.id;
+ 161:
+            report = report.bind(offset)(entity, oscard);
+            if(!report) { _fun00024_ip = 204; continue _fun00023 }
+ 170:
             offset = _closure1_slot0;
             yankee = _closure1_slot2;
-            entity = 12;
+            entity = 13;
             entity = yankee[entity];
-            report = offset.bind(golfie)(entity);
-            entity = report.getIsDefaultErc;
-            entity = entity.bind(report)(oscard);
-            report = 13;
-            report = yankee[report];
-            yankee = offset.bind(golfie)(report);
-            offset = yankee.getHasEnhancedRoleColorsForRole;
-            romeon = option == verify;
-            report = undefined;
-            if(romeon) { _fun00024_ip = 184; continue _fun00023 }
- 179:
-            report = verify.id;
- 184:
-            report = offset.bind(yankee)(report, oscard);
-            if(!report) { _fun00024_ip = 196; continue _fun00023 }
- 193:
+            offset = offset.bind(golfie)(entity);
+            entity = offset.getIsDefaultErc;
+            entity = entity.bind(offset)(oscard);
             report = !entity;
- 196:
+ 204:
             entity = {};
             offset = 'mention';
             entity['type'] = offset;
@@ -738,44 +740,44 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['channelId'] = tangon;
             offset = option != verify;
             tangon = null;
-            if(!offset) { _fun00024_ip = 229; continue _fun00023 }
- 224:
+            if(!offset) { _fun00024_ip = 237; continue _fun00023 }
+ 232:
             tangon = verify.id;
- 229:
+ 237:
             entity['guildId'] = tangon;
             entity['roleId'] = michal;
             tangon = oscard.color;
             entity['roleColor'] = tangon;
             tangon = null;
-            if(!report) { _fun00024_ip = 333; continue _fun00023 }
- 253:
+            if(!report) { _fun00024_ip = 341; continue _fun00023 }
+ 261:
             report = {};
             offset = oscard.colors;
             yankee = option == offset;
             verify = undefined;
-            if(yankee) { _fun00024_ip = 275; continue _fun00023 }
- 269:
+            if(yankee) { _fun00024_ip = 283; continue _fun00023 }
+ 277:
             verify = offset.primary_color;
- 275:
+ 283:
             report['primaryColor'] = verify;
             offset = oscard.colors;
             yankee = option == offset;
             verify = undefined;
-            if(yankee) { _fun00024_ip = 300; continue _fun00023 }
- 294:
+            if(yankee) { _fun00024_ip = 308; continue _fun00023 }
+ 302:
             verify = offset.secondary_color;
- 300:
+ 308:
             report['secondaryColor'] = verify;
             verify = oscard.colors;
             offset = option == verify;
             option = undefined;
-            if(offset) { _fun00024_ip = 325; continue _fun00023 }
- 319:
+            if(offset) { _fun00024_ip = 333; continue _fun00023 }
+ 327:
             option = verify.tertiary_color;
- 325:
+ 333:
             report['tertiaryColor'] = option;
             tangon = report;
- 333:
+ 341:
             entity['roleColors'] = tangon;
             verify = oscard.name;
             tangon = global;
@@ -800,7 +802,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon[0] = report;
             entity['content'] = tangon;
             return entity;
- 439:
+ 447:
             entity = {};
             tangon = 'text';
             entity['type'] = tangon;
@@ -823,7 +825,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             zuuluu = tangon.bind(zuuluu)(report);
             entity['content'] = zuuluu;
             return entity;
- 534:
+ 542:
             entity = {};
             zuuluu = 'roleMention';
             entity['type'] = zuuluu;

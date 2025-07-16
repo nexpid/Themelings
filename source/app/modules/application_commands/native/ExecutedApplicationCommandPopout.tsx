@@ -358,7 +358,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = sizing.bind(option)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.SUB_COMMAND;
-            if(!(report !== entity)) { _fun00008_ip = 1147; continue _fun00007 }
+            if(!(report !== entity)) { _fun00008_ip = 1148; continue _fun00007 }
  210:
             report = michal.type;
             sizing = _closure1_slot0;
@@ -367,7 +367,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = sizing.bind(option)(entity);
             entity = entity.ApplicationCommandOptionType;
             entity = entity.SUB_COMMAND_GROUP;
-            if(!(report !== entity)) { _fun00008_ip = 1147; continue _fun00007 }
+            if(!(report !== entity)) { _fun00008_ip = 1148; continue _fun00007 }
  251:
             report = function(argFoo, argBar) { // Original name: getUserComponent
                 verify = argFoo;
@@ -494,7 +494,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             };
             entity = michal.value;
-            if(!(oscard != entity)) { _fun00008_ip = 1145; continue _fun00007 }
+            if(!(oscard != entity)) { _fun00008_ip = 1146; continue _fun00007 }
  284:
             echoed = michal.type;
             update = _closure1_slot0;
@@ -709,10 +709,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             source = ctrled.bind(option)(source);
             ctrled = source.LegacyText;
             source = {};
-            if(!echoed) { _fun00008_ip = 1073; continue _fun00007 }
- 1070:
+            if(!echoed) { _fun00008_ip = 1074; continue _fun00007 }
+ 1071:
             echoed = sequen;
- 1073:
+ 1074:
             echoed = tangon + echoed;
             source['children'] = echoed;
             config = michal.name;
@@ -728,9 +728,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['children'] = echoed;
             entity = result.bind(option)(sizing, entity, verify);
             entity = report.bind(kiloes)(entity);
- 1145:
+ 1146:
             return kiloes;
- 1147:
+ 1148:
             report = kiloes.push;
             result = _closure1_slot19;
             entity = _closure1_slot4;
@@ -756,20 +756,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = report.bind(kiloes)(entity);
             report = michal.options;
             entity = kiloes;
-            if(!(oscard != report)) { _fun00008_ip = 1444; continue _fun00007 }
- 1266:
+            if(!(oscard != report)) { _fun00008_ip = 1446; continue _fun00007 }
+ 1268:
             report = tangon.Object;
             tangon = report.fromEntries;
             result = oscard == output;
             sizing = undefined;
-            if(result) { _fun00008_ip = 1292; continue _fun00007 }
- 1287:
+            if(result) { _fun00008_ip = 1294; continue _fun00007 }
+ 1289:
             sizing = output.options;
- 1292:
-            if(!(oscard == sizing)) { _fun00008_ip = 1300; continue _fun00007 }
- 1296:
+ 1294:
+            if(!(oscard == sizing)) { _fun00008_ip = 1302; continue _fun00007 }
+ 1298:
             sizing = new Array(0);
- 1300:
+ 1302:
             oscard = sizing.map;
             zuuluu = function(argFoo) {
                 michal = argFoo;
@@ -788,8 +788,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = zuuluu.done;
             tangon = kiloes;
             entity = tangon;
-            if(michal) { _fun00008_ip = 1444; continue _fun00007 }
- 1354:
+            if(michal) { _fun00008_ip = 1446; continue _fun00007 }
+ 1356:
             output = zuuluu.value;
             kiloes = tangon.concat;
             sizing = _closure1_slot23;
@@ -810,8 +810,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             michal = sizing.done;
             zuuluu = sizing;
             entity = tangon;
-            if(!michal) { _fun00008_ip = 1354; continue _fun00007 }
- 1444:
+            if(!michal) { _fun00008_ip = 1356; continue _fun00007 }
+ 1446:
             return entity;
         }
     };

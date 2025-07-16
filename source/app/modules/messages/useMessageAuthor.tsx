@@ -449,147 +449,163 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             tangon = argFoo;
             michal = tangon.user;
             entity = tangon.channel;
-            report = tangon.guild;
-            romeon = tangon.guildRoles;
-            option = tangon.member;
+            oscard = tangon.guild;
+            foxtra = tangon.guildRoles;
+            verify = tangon.member;
             zuuluu = tangon.userName;
-            oscard = tangon.friendNickname;
-            golfie = null;
-            verify = golfie == michal;
-            tangon = '???';
-            if(verify) { _fun00022_ip = 100; continue _fun00021 }
+            golfie = tangon.friendNickname;
+            option = null;
+            tangon = option == michal;
+            report = '???';
+            if(tangon) { _fun00022_ip = 100; continue _fun00021 }
  57:
-            if(!(golfie == zuuluu)) { _fun00022_ip = 97; continue _fun00021 }
+            if(!(option == zuuluu)) { _fun00022_ip = 97; continue _fun00021 }
  61:
             yankee = _closure1_slot1;
             offset = _closure1_slot2;
-            verify = 8;
-            offset = offset[verify];
-            verify = undefined;
-            offset = yankee.bind(verify)(offset);
-            verify = offset.getName;
-            zuuluu = verify.bind(offset)(michal);
+            tangon = 8;
+            offset = offset[tangon];
+            tangon = undefined;
+            offset = yankee.bind(tangon)(offset);
+            tangon = offset.getName;
+            zuuluu = tangon.bind(offset)(michal);
  97:
-            tangon = zuuluu;
+            report = zuuluu;
  100:
-            offset = golfie == michal;
-            zuuluu = undefined;
-            verify = undefined;
-            if(offset) { _fun00022_ip = 116; continue _fun00021 }
+            zuuluu = option == michal;
+            tangon = undefined;
+            offset = undefined;
+            if(zuuluu) { _fun00022_ip = 117; continue _fun00021 }
  111:
-            verify = michal.id;
- 116:
-            if(!(golfie != verify)) { _fun00022_ip = 436; continue _fun00021 }
- 123:
-            if(!(golfie != entity)) { _fun00022_ip = 436; continue _fun00021 }
- 130:
-            verify = golfie == report;
+            offset = michal.displayNameStyles;
+ 117:
+            yankee = option != offset;
+            zuuluu = undefined;
+            if(!yankee) { _fun00022_ip = 129; continue _fun00021 }
+ 126:
+            zuuluu = offset;
+ 129:
+            yankee = option == michal;
+            offset = undefined;
+            if(yankee) { _fun00022_ip = 143; continue _fun00021 }
+ 138:
+            offset = michal.id;
+ 143:
+            if(!(option != offset)) { _fun00022_ip = 478; continue _fun00021 }
+ 150:
+            if(!(option != entity)) { _fun00022_ip = 478; continue _fun00021 }
+ 157:
+            offset = option == oscard;
             entity = undefined;
-            if(verify) { _fun00022_ip = 144; continue _fun00021 }
- 139:
-            entity = report.id;
- 144:
-            if(!(golfie != entity)) { _fun00022_ip = 404; continue _fun00021 }
- 151:
-            if(!(golfie != option)) { _fun00022_ip = 382; continue _fun00021 }
- 158:
+            if(offset) { _fun00022_ip = 171; continue _fun00021 }
+ 166:
+            entity = oscard.id;
+ 171:
+            if(!(option != entity)) { _fun00022_ip = 441; continue _fun00021 }
+ 178:
+            if(!(option != verify)) { _fun00022_ip = 414; continue _fun00021 }
+ 185:
             entity = {};
-            offset = option.nick;
-            verify = tangon;
-            if(!(golfie != offset)) { _fun00022_ip = 176; continue _fun00021 }
- 173:
-            verify = offset;
- 176:
-            entity['nick'] = verify;
-            offset = option.colorString;
-            yankee = golfie != offset;
-            verify = undefined;
-            if(!yankee) { _fun00022_ip = 199; continue _fun00021 }
- 196:
-            verify = offset;
- 199:
-            entity['colorString'] = verify;
-            offset = option.colorStrings;
-            yankee = golfie != offset;
-            verify = undefined;
-            if(!yankee) { _fun00022_ip = 222; continue _fun00021 }
- 219:
-            verify = offset;
- 222:
-            entity['colorStrings'] = verify;
-            verify = option.colorRoleId;
-            offset = golfie != verify;
-            verify = undefined;
-            if(!offset) { _fun00022_ip = 287; continue _fun00021 }
- 242:
-            offset = golfie != report;
-            verify = undefined;
-            if(!offset) { _fun00022_ip = 287; continue _fun00021 }
- 251:
-            yankee = golfie == romeon;
+            yankee = verify.nick;
+            offset = report;
+            if(!(option != yankee)) { _fun00022_ip = 203; continue _fun00021 }
+ 200:
+            offset = yankee;
+ 203:
+            entity['nick'] = offset;
+            yankee = verify.colorString;
+            romeon = option != yankee;
             offset = undefined;
-            if(yankee) { _fun00022_ip = 284; continue _fun00021 }
- 260:
-            yankee = option.colorRoleId;
-            yankee = romeon[yankee];
-            romeon = golfie == yankee;
+            if(!romeon) { _fun00022_ip = 226; continue _fun00021 }
+ 223:
+            offset = yankee;
+ 226:
+            entity['colorString'] = offset;
+            yankee = verify.colorStrings;
+            romeon = option != yankee;
             offset = undefined;
-            if(romeon) { _fun00022_ip = 284; continue _fun00021 }
- 279:
-            offset = yankee.name;
- 284:
-            verify = offset;
+            if(!romeon) { _fun00022_ip = 249; continue _fun00021 }
+ 246:
+            offset = yankee;
+ 249:
+            entity['colorStrings'] = offset;
+            offset = verify.colorRoleId;
+            yankee = option != offset;
+            offset = undefined;
+            if(!yankee) { _fun00022_ip = 314; continue _fun00021 }
+ 269:
+            yankee = option != oscard;
+            offset = undefined;
+            if(!yankee) { _fun00022_ip = 314; continue _fun00021 }
+ 278:
+            romeon = option == foxtra;
+            yankee = undefined;
+            if(romeon) { _fun00022_ip = 311; continue _fun00021 }
  287:
-            entity['colorRoleName'] = verify;
-            verify = option.colorRoleId;
-            entity['colorRoleId'] = verify;
-            verify = option.iconRoleId;
-            entity['iconRoleId'] = verify;
-            verify = option.avatar;
-            entity['guildMemberAvatar'] = verify;
-            option = option.avatarDecoration;
-            entity['guildMemberAvatarDecoration'] = option;
-            verify = michal.primaryGuild;
-            offset = golfie != verify;
-            option = undefined;
-            if(!offset) { _fun00022_ip = 356; continue _fun00021 }
- 353:
-            option = verify;
- 356:
-            entity['primaryGuild'] = option;
-            report = report.id;
-            entity['guildId'] = report;
+            romeon = verify.colorRoleId;
+            romeon = foxtra[romeon];
+            foxtra = option == romeon;
+            yankee = undefined;
+            if(foxtra) { _fun00022_ip = 311; continue _fun00021 }
+ 306:
+            yankee = romeon.name;
+ 311:
+            offset = yankee;
+ 314:
+            entity['colorRoleName'] = offset;
+            offset = verify.colorRoleId;
+            entity['colorRoleId'] = offset;
+            offset = verify.iconRoleId;
+            entity['iconRoleId'] = offset;
+            offset = verify.avatar;
+            entity['guildMemberAvatar'] = offset;
+            verify = verify.avatarDecoration;
+            entity['guildMemberAvatarDecoration'] = verify;
+            offset = michal.primaryGuild;
+            yankee = option != offset;
+            verify = undefined;
+            if(!yankee) { _fun00022_ip = 383; continue _fun00021 }
+ 380:
+            verify = offset;
+ 383:
+            entity['primaryGuild'] = verify;
+            oscard = oscard.id;
+            entity['guildId'] = oscard;
             michal = michal.id;
             entity['authorId'] = michal;
-            _fun00022_ip = 402; continue _fun00021;
- 382:
+            entity['displayNameStyles'] = zuuluu;
+            _fun00022_ip = 439; continue _fun00021;
+ 414:
             michal = {};
-            michal['nick'] = tangon;
-            michal['colorString'] = zuuluu;
-            michal['colorStrings'] = zuuluu;
-            entity = michal;
- 402:
-            _fun00022_ip = 434; continue _fun00021;
- 404:
-            michal = {};
-            report = tangon;
-            if(!(golfie != oscard)) { _fun00022_ip = 416; continue _fun00021 }
- 413:
-            report = oscard;
- 416:
             michal['nick'] = report;
-            michal['colorString'] = zuuluu;
-            michal['colorStrings'] = zuuluu;
+            michal['colorString'] = tangon;
+            michal['colorStrings'] = tangon;
+            michal['displayNameStyles'] = zuuluu;
             entity = michal;
- 434:
-            _fun00022_ip = 456; continue _fun00021;
- 436:
+ 439:
+            _fun00022_ip = 476; continue _fun00021;
+ 441:
             michal = {};
-            michal['nick'] = tangon;
-            michal['colorString'] = zuuluu;
-            michal['colorStrings'] = zuuluu;
+            oscard = report;
+            if(!(option != golfie)) { _fun00022_ip = 453; continue _fun00021 }
+ 450:
+            oscard = golfie;
+ 453:
+            michal['nick'] = oscard;
+            michal['colorString'] = tangon;
+            michal['colorStrings'] = tangon;
+            michal['displayNameStyles'] = zuuluu;
             entity = michal;
- 456:
+ 476:
+            _fun00022_ip = 503; continue _fun00021;
+ 478:
+            michal = {};
+            michal['nick'] = report;
+            michal['colorString'] = tangon;
+            michal['colorStrings'] = tangon;
+            michal['displayNameStyles'] = zuuluu;
+            entity = michal;
+ 503:
             return entity;
         }
     };

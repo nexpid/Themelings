@@ -21,7 +21,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     report = oscard.fileFinishedImporting;
     tangon = 'modules/dismissible_content/DismissibleContentFrameworkActionCreators.tsx';
     tangon = report.bind(oscard)(tangon);
-    tangon = function(argFoo) {
+    tangon = function(argFoo, argBar) {
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 0;
@@ -34,6 +34,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal['type'] = report;
         report = argFoo;
         michal['dismissibleContent'] = report;
+        report = argBar;
+        michal['guildId'] = report;
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
