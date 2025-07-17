@@ -741,16 +741,6 @@
         "width": 60,
         "height": 60
     },
-    "bell": {
-        "file": "modules/guild_scheduled_events/native/images/bell.png",
-        "hash": "fd49fb07fb819ce61e9240fd55fe1f4f",
-        "scales": [
-            2,
-            3
-        ],
-        "width": 24,
-        "height": 24
-    },
     "BellIcon": {
         "file": "design/components/Icon/native/redesign/generated/images/BellIcon.png",
         "hash": "c1c1a9eb17fa9b2b77ae27177cf9cab4",
@@ -12565,6 +12555,26 @@
     "settings": {
         "file": "modules/video_calls/native/images/settings.png",
         "hash": "28a4fc424c84aa1427fe3a27faf0383e",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "SettingsCircleIcon-primary": {
+        "file": "design/components/Icon/native/redesign/generated/images/SettingsCircleIcon-primary.png",
+        "hash": "80aabe2d99d59230f208e7a8c5d4cc04",
+        "scales": [
+            2,
+            3
+        ],
+        "width": 24,
+        "height": 24
+    },
+    "SettingsCircleIcon-secondary": {
+        "file": "design/components/Icon/native/redesign/generated/images/SettingsCircleIcon-secondary.png",
+        "hash": "d668a51272e01de45d6330662711378d",
         "scales": [
             2,
             3
