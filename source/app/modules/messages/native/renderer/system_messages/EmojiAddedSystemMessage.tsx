@@ -241,7 +241,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = tangon.message;
             entity = entity.content;
             verify = report.bind(option)(entity);
-            if(!(oscard != verify)) { _fun00004_ip = 878; continue _fun00003 }
+            if(!(oscard != verify)) { _fun00004_ip = 874; continue _fun00003 }
  280:
             report = _closure1_slot4;
             entity = report.getDisambiguatedEmojiContext;
@@ -296,14 +296,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = {'action': 'bindInsertText', 'text': null, 'addSpace': true};
             report = oscard == entity;
             golfie = undefined;
-            if(report) { _fun00004_ip = 534; continue _fun00003 }
- 529:
+            if(report) { _fun00004_ip = 530; continue _fun00003 }
+ 525:
             golfie = entity.name;
+ 530:
+            if(!(oscard == golfie)) { _fun00004_ip = 539; continue _fun00003 }
  534:
-            if(!(oscard == golfie)) { _fun00004_ip = 543; continue _fun00003 }
- 538:
             golfie = verify.name;
- 543:
+ 539:
             entity = global;
             entity = entity.HermesInternal;
             report = entity.concat;
@@ -325,10 +325,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['username'] = yankee;
             entity['usernameOnClick'] = offset;
             kiloes = verify.originalName;
-            if(!(oscard == kiloes)) { _fun00004_ip = 649; continue _fun00003 }
- 644:
+            if(!(oscard == kiloes)) { _fun00004_ip = 645; continue _fun00003 }
+ 640:
             kiloes = verify.name;
- 649:
+ 645:
             entity['emojiName'] = kiloes;
             entity['emojiOnClick'] = backup;
             entity['emojiPreview'] = foxtra;
@@ -344,8 +344,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.ADD_REACTIONS;
             entity = report.bind(option)(entity, foxtra);
             report = undefined;
-            if(!entity) { _fun00004_ip = 792; continue _fun00003 }
- 725:
+            if(!entity) { _fun00004_ip = 788; continue _fun00003 }
+ 721:
             entity = {'count': 0, 'burst_count': 0, 'me': false, 'me_burst': false};
             option = {};
             foxtra = verify.id;
@@ -359,7 +359,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             option['displayName'] = verify;
             entity['emoji'] = option;
             report = entity;
- 792:
+ 788:
             entity = {};
             entity['content'] = golfie;
             option = _closure1_slot1;
@@ -373,20 +373,20 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             golfie = tangon.reactions;
             option = golfie.length;
             golfie = 0;
-            if(!(!(option > golfie))) { _fun00004_ip = 861; continue _fun00003 }
+            if(!(!(option > golfie))) { _fun00004_ip = 857; continue _fun00003 }
+ 843:
+            if(!(oscard != report)) { _fun00004_ip = 857; continue _fun00003 }
  847:
-            if(!(oscard != report)) { _fun00004_ip = 861; continue _fun00003 }
- 851:
             oscard = new Array(1);
             oscard[0] = report;
-            _fun00004_ip = 867; continue _fun00003;
- 861:
+            _fun00004_ip = 863; continue _fun00003;
+ 857:
             oscard = tangon.reactions;
- 867:
+ 863:
             report = 'reactions';
             entity[report] = oscard;
             return entity;
- 878:
+ 874:
             entity = {};
             golfie = _closure1_slot0;
             oscard = _closure1_slot2;

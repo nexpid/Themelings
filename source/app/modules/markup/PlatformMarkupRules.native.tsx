@@ -335,10 +335,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = {};
             entity['id'] = oscard;
             entity['alt'] = report;
-            if(!tangon) { _fun00010_ip = 247; continue _fun00009 }
- 244:
+            if(!tangon) { _fun00010_ip = 243; continue _fun00009 }
+ 240:
             zuuluu = michal;
- 247:
+ 243:
             entity['src'] = zuuluu;
             entity['frozenSrc'] = michal;
             return entity;

@@ -412,9 +412,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     zuuluu['trackSearchResultViewed'] = tangon;
     tangon = function(argFoo) { // Original name: trackSearchResultSelected
         entity = argFoo;
-        echoed = entity.searchType;
-        result = entity.searchId;
-        output = entity.searchAnalyticsId;
+        update = entity.searchType;
+        echoed = entity.searchId;
+        result = entity.searchAnalyticsId;
+        output = entity.messageId;
         sizing = entity.guildId;
         kiloes = entity.channelId;
         backup = entity.pageResults;
@@ -435,14 +436,15 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = _closure1_slot4;
         zuuluu = michal.SEARCH_RESULT_SELECTED;
         michal = {};
-        michal['search_type'] = echoed;
-        michal['search_id'] = output;
-        output = _closure1_slot12;
-        output = output.bind(entity)(result);
-        michal['search_session_id'] = output;
-        output = _closure1_slot13;
-        output = output.bind(entity)(result);
-        michal['search_query_id'] = output;
+        michal['search_type'] = update;
+        michal['search_id'] = result;
+        result = _closure1_slot12;
+        result = result.bind(entity)(echoed);
+        michal['search_session_id'] = result;
+        result = _closure1_slot13;
+        result = result.bind(entity)(echoed);
+        michal['search_query_id'] = result;
+        michal['message_id'] = output;
         michal['guild_id'] = sizing;
         michal['channel_id'] = kiloes;
         michal['page_results'] = backup;
@@ -1143,20 +1145,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         }
     };
     zuuluu['trackSearchHistoryClick'] = tangon;
-    michal = function(argFoo) { // Original name: trackSearchResultAutocompleteClicked
+    tangon = function(argFoo) { // Original name: trackSearchResultAutocompleteClicked
         _fun00029: for(var _fun00030_ip = 0; ; ) switch(_fun00030_ip) {
  0:
             entity = argFoo;
-            output = entity.searchId;
-            backup = entity.searchQuery;
-            sizing = entity.searchQueryString;
-            romeon = entity.searchAutocompleteResultIndex;
-            yankee = entity.searchAutocompleteTotalResults;
+            echoed = entity.searchId;
+            sizing = entity.searchQuery;
+            result = entity.searchQueryString;
+            backup = entity.searchAutocompleteResultIndex;
+            foxtra = entity.searchAutocompleteTotalResults;
             tangon = entity.searchTokenType;
             report = entity.searchAutocompleteGroup;
-            option = entity.isSearchFilterPrefix;
-            golfie = entity.isSearchFilterAnswer;
-            oscard = entity.isSearchFilterComplete;
+            offset = entity.isSearchFilterPrefix;
+            verify = entity.isSearchFilterAnswer;
+            option = entity.isSearchFilterComplete;
+            golfie = entity.isInFilterForSelectedChannel;
+            oscard = entity.searchAutocompleteSelectAction;
             zuuluu = _closure1_slot0;
             michal = _closure1_slot2;
             entity = 4;
@@ -1164,27 +1168,27 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity = undefined;
             zuuluu = zuuluu.bind(entity)(michal);
             michal = zuuluu.getSearchType;
-            kiloes = michal.bind(zuuluu)(output);
+            output = michal.bind(zuuluu)(echoed);
             michal = _closure1_slot5;
             michal = michal.HISTORY;
             zuuluu = _closure1_slot9;
             michal = zuuluu.get;
-            offset = michal.bind(zuuluu)(report);
-            result = null;
-            if(!(result == offset)) { _fun00030_ip = 155; continue _fun00029 }
- 141:
+            romeon = michal.bind(zuuluu)(report);
+            update = null;
+            if(!(update == romeon)) { _fun00030_ip = 169; continue _fun00029 }
+ 155:
             zuuluu = _closure1_slot10;
             michal = zuuluu.get;
-            offset = michal.bind(zuuluu)(report);
- 155:
-            michal = result != tangon;
-            verify = null;
-            if(!michal) { _fun00030_ip = 178; continue _fun00029 }
- 164:
+            romeon = michal.bind(zuuluu)(report);
+ 169:
+            michal = update != tangon;
+            yankee = null;
+            if(!michal) { _fun00030_ip = 192; continue _fun00029 }
+ 178:
             zuuluu = _closure1_slot9;
             michal = zuuluu.get;
-            verify = michal.bind(zuuluu)(tangon);
- 178:
+            yankee = michal.bind(zuuluu)(tangon);
+ 192:
             zuuluu = _closure1_slot1;
             tangon = _closure1_slot2;
             michal = 6;
@@ -1194,39 +1198,85 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = _closure1_slot4;
             zuuluu = michal.SEARCH_MESSAGES_AUTOCOMPLETE_CLICKED;
             michal = {};
-            echoed = result != output;
-            result = null;
-            if(!echoed) { _fun00030_ip = 240; continue _fun00029 }
- 225:
-            update = _closure1_slot3;
-            echoed = update.getAnalyticsId;
-            result = echoed.bind(update)(output);
- 240:
-            michal['search_id'] = result;
-            michal['search_type'] = kiloes;
-            kiloes = _closure1_slot12;
-            kiloes = kiloes.bind(entity)(output);
-            michal['search_session_id'] = kiloes;
-            kiloes = _closure1_slot13;
-            kiloes = kiloes.bind(entity)(output);
-            michal['search_query_id'] = kiloes;
-            kiloes = _closure1_slot14;
+            source = update != echoed;
+            update = null;
+            if(!source) { _fun00030_ip = 254; continue _fun00029 }
+ 239:
+            ctrled = _closure1_slot3;
+            source = ctrled.getAnalyticsId;
+            update = source.bind(ctrled)(echoed);
+ 254:
+            michal['search_id'] = update;
+            michal['search_type'] = output;
+            output = _closure1_slot12;
+            output = output.bind(entity)(echoed);
+            michal['search_session_id'] = output;
+            output = _closure1_slot13;
+            output = output.bind(entity)(echoed);
+            michal['search_query_id'] = output;
+            output = _closure1_slot14;
+            output = output.bind(entity)(result);
+            michal['search_query_length'] = output;
+            kiloes = _closure1_slot15;
             kiloes = kiloes.bind(entity)(sizing);
-            michal['search_query_length'] = kiloes;
-            foxtra = _closure1_slot15;
-            foxtra = foxtra.bind(entity)(backup);
-            michal['search_query_content_length'] = foxtra;
-            michal['search_autocomplete_result_index'] = romeon;
-            michal['search_autocomplete_total_results'] = yankee;
-            michal['search_autocomplete_group'] = offset;
-            michal['search_autocomplete_filter_type'] = verify;
-            michal['is_search_filter_prefix'] = option;
-            michal['is_search_filter_answer'] = golfie;
-            michal['is_search_filter_complete'] = oscard;
+            michal['search_query_content_length'] = kiloes;
+            michal['search_autocomplete_result_index'] = backup;
+            michal['search_autocomplete_total_results'] = foxtra;
+            michal['search_autocomplete_group'] = romeon;
+            michal['search_autocomplete_filter_type'] = yankee;
+            michal['is_search_filter_prefix'] = offset;
+            michal['is_search_filter_answer'] = verify;
+            michal['is_search_filter_complete'] = option;
+            michal['is_in_filter_for_selected_channel'] = golfie;
+            michal['search_autocomplete_select_action'] = oscard;
             michal = tangon.bind(report)(zuuluu, michal);
             return entity;
         }
     };
-    zuuluu['trackSearchResultAutocompleteClicked'] = michal;
+    zuuluu['trackSearchResultAutocompleteClicked'] = tangon;
+    michal = function(argFoo) { // Original name: trackSearchMessagesSelectedChannelFilterClicked
+        _fun00031: for(var _fun00032_ip = 0; ; ) switch(_fun00032_ip) {
+ 0:
+            entity = argFoo;
+            option = entity.searchId;
+            oscard = entity.searchAutocompleteSelectAction;
+            zuuluu = _closure1_slot0;
+            tangon = _closure1_slot2;
+            entity = 4;
+            michal = tangon[entity];
+            entity = undefined;
+            zuuluu = zuuluu.bind(entity)(michal);
+            michal = zuuluu.getSearchType;
+            verify = michal.bind(zuuluu)(option);
+            zuuluu = _closure1_slot1;
+            michal = 6;
+            michal = tangon[michal];
+            report = zuuluu.bind(entity)(michal);
+            tangon = report.trackWithMetadata;
+            michal = _closure1_slot4;
+            zuuluu = michal.SEARCH_MESSAGES_SELECTED_CHANNEL_FILTER_CLICKED;
+            michal = {};
+            offset = null;
+            yankee = offset != option;
+            if(!yankee) { _fun00032_ip = 109; continue _fun00031 }
+ 94:
+            romeon = _closure1_slot3;
+            yankee = romeon.getAnalyticsId;
+            offset = yankee.bind(romeon)(option);
+ 109:
+            michal['search_id'] = offset;
+            michal['search_type'] = verify;
+            verify = _closure1_slot12;
+            verify = verify.bind(entity)(option);
+            michal['search_session_id'] = verify;
+            golfie = _closure1_slot13;
+            golfie = golfie.bind(entity)(option);
+            michal['search_query_id'] = golfie;
+            michal['search_autocomplete_select_action'] = oscard;
+            michal = tangon.bind(report)(zuuluu, michal);
+            return entity;
+        }
+    };
+    zuuluu['trackSearchMessagesSelectedChannelFilterClicked'] = michal;
     return entity;
 })();

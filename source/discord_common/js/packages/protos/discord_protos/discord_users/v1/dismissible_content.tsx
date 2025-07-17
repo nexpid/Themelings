@@ -1662,6 +1662,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     tangon['BOOSTER_ENHANCED_ROLE_COLORS_ADMIN_UPSELL'] = michal;
     entity = 'BOOSTER_ENHANCED_ROLE_COLORS_ADMIN_UPSELL';
     tangon[michal] = entity;
+    michal = 563;
+    tangon['NITRO_PRIVATE_BROWSING_SURVEY'] = michal;
+    entity = 'NITRO_PRIVATE_BROWSING_SURVEY';
+    tangon[michal] = entity;
     michal = {};
     michal['DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE'] = report;
     entity = 'DISABLE_UNSAFE_COMMUNITY_PERMISSIONS_NOTICE';

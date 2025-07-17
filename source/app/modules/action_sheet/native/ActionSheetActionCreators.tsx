@@ -166,36 +166,38 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon['openLazy'] = option;
-    report = function(argFoo) { // Original name: hideActionSheet
-        entity = argFoo;
-        var _closure2_slot0 = entity;
-        tangon = _closure1_slot1;
-        zuuluu = _closure1_slot2;
+    option = function(argFoo) { // Original name: hideActionSheet
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
         entity = 3;
-        zuuluu = zuuluu[entity];
+        michal = michal[entity];
         entity = undefined;
-        tangon = tangon.bind(entity)(zuuluu);
-        zuuluu = tangon.wait;
-        michal = function() {
-            zuuluu = _closure1_slot1;
-            michal = _closure1_slot2;
-            entity = 3;
-            michal = michal[entity];
-            entity = undefined;
-            tangon = zuuluu.bind(entity)(michal);
-            zuuluu = tangon.dispatch;
-            michal = {};
-            report = 'HIDE_ACTION_SHEET';
-            michal['type'] = report;
-            report = _closure2_slot0;
-            michal['key'] = report;
-            michal = zuuluu.bind(tangon)(michal);
-            return entity;
-        };
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'HIDE_ACTION_SHEET';
+        michal['type'] = report;
+        report = argFoo;
+        michal['key'] = report;
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    tangon['hideActionSheet'] = report;
+    tangon['hideActionSheet'] = option;
+    report = function() { // Original name: hideAllActionSheets
+        zuuluu = _closure1_slot1;
+        michal = _closure1_slot2;
+        entity = 3;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'HIDE_ALL_ACTION_SHEETS';
+        michal['type'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    tangon['hideAllActionSheets'] = report;
     report = 6;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);

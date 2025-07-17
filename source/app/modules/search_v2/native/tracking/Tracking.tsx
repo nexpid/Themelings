@@ -238,6 +238,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             return entity;
         };
         golfie = tangon.bind(report)(golfie, zuuluu);
+        zuuluu = verify.length;
         tangon = _closure1_slot1;
         report = _closure1_slot2;
         zuuluu = 6;

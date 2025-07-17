@@ -1,10 +1,9 @@
-// app/uikit-native/ThrottledButton.tsx
-export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+// app/modules/guild_scheduled_events/native/components/ThrottledButton.tsx
+export default (function(argFoo, argBar, _, argCor, __, argFre, argPlu) {
     oscard = argBar;
     zuuluu = argFre;
     golfie = argPlu;
-    entity = argBaz;
-    var _closure1_slot0 = entity;
+    var _closure1_slot0 = oscard;
     var _closure1_slot1 = golfie;
     michal = function() { // Original name: useThrottledActionHandler
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
@@ -106,7 +105,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
-    report = 'uikit-native/ThrottledButton.tsx';
+    report = 'modules/guild_scheduled_events/native/components/ThrottledButton.tsx';
     report = oscard.bind(golfie)(report);
     tangon = function(argFoo) { // Original name: ThrottledButton
         _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
@@ -136,7 +135,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot1;
             entity = 2;
             entity = offset[entity];
-            michal = michal.bind(tangon)(entity);
+            entity = michal.bind(tangon)(entity);
+            michal = entity.Button;
             entity = {};
             foxtra = entity;
             verify = copyDataProperties(foxtra, romeon);

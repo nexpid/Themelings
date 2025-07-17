@@ -18,7 +18,7 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal = report.bind(entity)(michal);
     michal = michal.DismissibleContent;
     option = michal.APPLICATION_COMMAND_TOOLTIP;
-    michal = new Array(104);
+    michal = new Array(105);
     michal[0] = option;
     option = oscard[tangon];
     option = report.bind(entity)(option);
@@ -530,11 +530,16 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     option = option.DismissibleContent;
     option = option.BOGO_2025_ANNOUNCEMENT_MODAL;
     michal[102] = option;
+    option = oscard[tangon];
+    option = report.bind(entity)(option);
+    option = option.DismissibleContent;
+    option = option.COLLECTIBLES_SHOP_ENTRY_MARKETING;
+    michal[103] = option;
     tangon = oscard[tangon];
     tangon = report.bind(entity)(tangon);
     tangon = tangon.DismissibleContent;
-    tangon = tangon.COLLECTIBLES_SHOP_ENTRY_MARKETING;
-    michal[103] = tangon;
+    tangon = tangon.NITRO_PRIVATE_BROWSING_SURVEY;
+    michal[104] = tangon;
     tangon = golfie.prototype;
     tangon = Object.create(tangon, {constructor: {value: golfie}});
     romeon = tangon;

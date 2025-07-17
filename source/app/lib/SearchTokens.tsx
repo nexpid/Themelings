@@ -1432,26 +1432,29 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     zuuluu = 19;
                     report = offset[zuuluu];
                     tangon = undefined;
-                    romeon = verify.bind(tangon)(report);
-                    option = romeon.queryChannels;
+                    foxtra = verify.bind(tangon)(report);
+                    option = foxtra.queryChannels;
                     report = {};
                     report['query'] = oscard;
                     yankee = _closure1_slot5;
                     report['type'] = yankee;
                     report['guildId'] = golfie;
-                    yankee = inf;
-                    report['limit'] = yankee;
-                    option = option.bind(romeon)(report);
+                    romeon = inf;
+                    report['limit'] = romeon;
+                    yankee = true;
+                    report['allowEmptyQueries'] = yankee;
+                    option = option.bind(foxtra)(report);
                     report = option.concat;
                     zuuluu = offset[zuuluu];
                     offset = verify.bind(tangon)(zuuluu);
                     verify = offset.queryChannels;
                     zuuluu = {};
                     zuuluu['query'] = oscard;
-                    romeon = _closure1_slot6;
-                    zuuluu['type'] = romeon;
+                    foxtra = _closure1_slot6;
+                    zuuluu['type'] = foxtra;
                     zuuluu['guildId'] = golfie;
-                    zuuluu['limit'] = yankee;
+                    zuuluu['limit'] = romeon;
+                    zuuluu['allowEmptyQueries'] = yankee;
                     zuuluu = verify.bind(offset)(zuuluu);
                     option = report.bind(option)(zuuluu);
                     report = option.map;
@@ -1473,8 +1476,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = oscard.trim;
                     oscard = report.bind(oscard)();
                     report = '';
-                    if(!(report === oscard)) { _fun00030_ip = 261; continue _fun00029 }
- 182:
+                    if(!(report === oscard)) { _fun00030_ip = 273; continue _fun00029 }
+ 194:
                     oscard = _closure1_slot10;
                     report = oscard.getChannelId;
                     report = report.bind(oscard)(golfie);
@@ -1489,8 +1492,8 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     };
                     oscard = oscard.bind(zuuluu)(report);
                     report = null;
-                    if(!(report != oscard)) { _fun00030_ip = 261; continue _fun00029 }
- 224:
+                    if(!(report != oscard)) { _fun00030_ip = 273; continue _fun00029 }
+ 236:
                     verify = zuuluu.splice;
                     report = zuuluu.indexOf;
                     option = report.bind(zuuluu)(oscard);
@@ -1498,7 +1501,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     report = verify.bind(zuuluu)(option, report);
                     report = zuuluu.unshift;
                     report = report.bind(zuuluu)(oscard);
- 261:
+ 273:
                     oscard = _closure1_slot7;
                     report = oscard.getTextChannelNameDisambiguations;
                     report = report.bind(oscard)(golfie);

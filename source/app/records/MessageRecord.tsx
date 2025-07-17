@@ -1070,17 +1070,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             michal = function(argFoo, argBar) {
                 michal = argBar;
                 tangon = michal.users;
-                michal = michal.emoji;
-                var _closure4_slot0 = michal;
+                zuuluu = michal.emoji;
+                var _closure4_slot0 = zuuluu;
+                michal = michal.reactionType;
+                var _closure4_slot1 = michal;
                 zuuluu = tangon.reduce;
                 michal = function(argFoo, argBar) {
-                    tangon = argFoo;
-                    zuuluu = tangon.addReaction;
-                    michal = _closure4_slot0;
-                    report = _closure3_slot0;
+                    oscard = argFoo;
+                    report = oscard.addReaction;
+                    offset = _closure4_slot0;
+                    michal = _closure3_slot0;
+                    golfie = _closure4_slot1;
                     entity = argBar;
-                    entity = entity === report;
-                    entity = zuuluu.bind(tangon)(michal, entity);
+                    verify = entity === michal;
+                    option = new Array(0);
+                    yankee = oscard;
+                    entity = yankee[report](offset, verify, option, golfie, oscard);
                     return entity;
                 };
                 entity = argFoo;

@@ -1495,6 +1495,75 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         return entity;
     };
     michal['syncIntegration'] = golfie;
+    golfie = function(argFoo) { // Original name: migratePinPermission
+        michal = argFoo;
+        var _closure2_slot0 = michal;
+        zuuluu = _closure1_slot3;
+        michal = undefined;
+        entity = function* () {
+            entity = function* () { // Original name: ?anon_0_
+                _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
+ 0:
+                    StartGenerator();
+                    ResumeGenerator(result_out_reg=0, return_bool_out_reg=1);
+                    if(michal) { _fun00024_ip = 115; continue _fun00023 }
+ 7:
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 10;
+                    michal = zuuluu[michal];
+                    zuuluu = undefined;
+                    michal = tangon.bind(zuuluu)(michal);
+                    report = michal.HTTP;
+                    tangon = report.post;
+                    michal = {};
+                    option = _closure1_slot10;
+                    golfie = option.GUILD_MIGRATE_PIN_PERMISSION;
+                    oscard = _closure2_slot0;
+                    oscard = golfie.bind(option)(oscard);
+                    michal['url'] = oscard;
+                    oscard = true;
+                    michal['rejectWithError'] = oscard;
+                    report = tangon.bind(report)(michal);
+                    tangon = report.then;
+                    michal = function() {
+                        zuuluu = _closure1_slot1;
+                        michal = _closure1_slot2;
+                        entity = 9;
+                        michal = michal[entity];
+                        entity = undefined;
+                        zuuluu = zuuluu.bind(entity)(michal);
+                        michal = zuuluu.dispatch;
+                        entity = {};
+                        tangon = 'GUILD_SETTINGS_PIN_PERMISSION_MIGRATED';
+                        entity['type'] = tangon;
+                        tangon = _closure2_slot0;
+                        entity['guildId'] = tangon;
+                        entity = michal.bind(zuuluu)(entity);
+                        return entity;
+                    };
+                    michal = tangon.bind(report)(michal);
+                    SaveGenerator(address=103);
+ 101:
+                    return michal;
+ 103:
+                    ResumeGenerator(result_out_reg=1, return_bool_out_reg=3);
+                    if(tangon) { _fun00024_ip = 112; continue _fun00023 }
+ 109:
+                    return zuuluu;
+ 112:
+                    return michal;
+ 115:
+                    return entity;
+                }
+            };
+            return entity;
+        };
+        entity = zuuluu.bind(michal)(entity);
+        entity = entity.bind(michal)();
+        return entity;
+    };
+    michal['migratePinPermission'] = golfie;
     var _closure1_slot16 = michal;
     tangon = 19;
     tangon = oscard[tangon];

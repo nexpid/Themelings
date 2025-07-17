@@ -3349,64 +3349,64 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
         michal = function(argFoo) { // Original name: value
             _fun00115: for(var _fun00116_ip = 0; ; ) switch(_fun00116_ip) {
  0:
-                golfie = argFoo;
-                report = arguments[1];
+                report = argFoo;
+                option = arguments[1];
                 zuuluu = arguments[2];
                 michal = this;
                 var _closure3_slot0 = michal;
                 entity = undefined;
-                if(!(report === entity)) { _fun00116_ip = 26; continue _fun00115 }
+                if(!(option === entity)) { _fun00116_ip = 26; continue _fun00115 }
  24:
-                report = false;
+                option = false;
  26:
-                var _closure3_slot1 = report;
+                var _closure3_slot1 = option;
                 var _closure3_slot2 = entity;
                 var _closure3_slot3 = entity;
                 var _closure3_slot4 = entity;
                 var _closure3_slot5 = entity;
                 var _closure3_slot6 = entity;
                 tangon = null;
-                option = golfie;
-                if(!(tangon == option)) { _fun00116_ip = 65; continue _fun00115 }
+                golfie = report;
+                if(!(tangon == golfie)) { _fun00116_ip = 65; continue _fun00115 }
  59:
-                option = michal._ackMessageId;
+                golfie = michal._ackMessageId;
  65:
-                if(!(tangon == option)) { _fun00116_ip = 81; continue _fun00115 }
+                if(!(tangon == golfie)) { _fun00116_ip = 81; continue _fun00115 }
  69:
                 verify = michal.guessAckMessageId;
-                option = verify.bind(michal)();
+                golfie = verify.bind(michal)();
  81:
-                michal['ackMessageId'] = option;
-                golfie = tangon != golfie;
-                michal['isManualAck'] = golfie;
+                michal['ackMessageId'] = golfie;
+                report = tangon != report;
+                michal['isManualAck'] = report;
                 michal['oldestUnreadMessageId'] = tangon;
-                option = false;
-                michal['estimated'] = option;
-                golfie = 0;
-                michal['unreadCount'] = golfie;
-                if(!report) { _fun00116_ip = 128; continue _fun00115 }
+                golfie = false;
+                michal['estimated'] = golfie;
+                report = 0;
+                michal['unreadCount'] = report;
+                if(!option) { _fun00116_ip = 128; continue _fun00115 }
  122:
-                michal['mentionCount'] = golfie;
+                michal['mentionCount'] = report;
  128:
                 report = michal.hasUnread;
                 report = report.bind(michal)();
-                if(!report) { _fun00116_ip = 385; continue _fun00115 }
+                if(!report) { _fun00116_ip = 303; continue _fun00115 }
  144:
-                offset = _closure1_slot39;
-                verify = offset.getCurrentUser;
-                verify = verify.bind(offset)();
-                _closure3_slot2 = verify;
-                verify = michal.getAckTimestamp;
-                verify = verify.bind(michal)();
-                _closure3_slot3 = verify;
-                _closure3_slot4 = option;
-                _closure3_slot5 = option;
+                verify = _closure1_slot39;
+                option = verify.getCurrentUser;
+                option = option.bind(verify)();
+                _closure3_slot2 = option;
+                option = michal.getAckTimestamp;
+                option = option.bind(michal)();
+                _closure3_slot3 = option;
+                _closure3_slot4 = golfie;
+                _closure3_slot5 = golfie;
                 _closure3_slot6 = tangon;
-                verify = _closure1_slot34;
-                option = verify.getMessages;
+                option = _closure1_slot34;
+                golfie = option.getMessages;
                 report = michal.channelId;
-                option = option.bind(verify)(report);
-                verify = option.forAll;
+                option = golfie.bind(option)(report);
+                golfie = option.forAll;
                 report = function(argFoo) {
                     _fun00117: for(var _fun00118_ip = 0; ; ) switch(_fun00118_ip) {
  0:
@@ -3478,66 +3478,38 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                         return entity;
                     }
                 };
-                report = verify.bind(option)(report);
-                report = option.hasPresent;
-                report = report.bind(option)();
-                if(!report) { _fun00116_ip = 308; continue _fun00115 }
- 239:
-                report = option.length;
-                if(!(report > golfie)) { _fun00116_ip = 308; continue _fun00115 }
- 248:
-                report = michal.lastMessageId;
-                if(!(tangon != report)) { _fun00116_ip = 308; continue _fun00115 }
- 258:
-                report = option.last;
-                golfie = report.bind(option)();
-                verify = tangon == golfie;
-                report = undefined;
-                if(verify) { _fun00116_ip = 282; continue _fun00115 }
- 277:
-                report = golfie.id;
- 282:
-                golfie = tangon != report;
-                if(!golfie) { _fun00116_ip = 299; continue _fun00115 }
- 289:
-                verify = michal.lastMessageId;
-                golfie = report !== verify;
- 299:
-                if(!golfie) { _fun00116_ip = 308; continue _fun00115 }
- 302:
-                michal['lastMessageId'] = report;
- 308:
+                report = golfie.bind(option)(report);
                 report = option.hasPresent;
                 report = report.bind(option)();
                 report = !report;
-                if(report) { _fun00116_ip = 359; continue _fun00115 }
- 324:
+                if(report) { _fun00116_ip = 277; continue _fun00115 }
+ 242:
                 verify = _closure3_slot4;
-                if(verify) { _fun00116_ip = 335; continue _fun00115 }
- 331:
+                if(verify) { _fun00116_ip = 253; continue _fun00115 }
+ 249:
                 verify = _closure3_slot5;
- 335:
+ 253:
                 golfie = !verify;
-                if(verify) { _fun00116_ip = 356; continue _fun00115 }
- 341:
+                if(verify) { _fun00116_ip = 274; continue _fun00115 }
+ 259:
                 verify = option.length;
                 option = michal.unreadCount;
                 golfie = verify === option;
- 356:
+ 274:
                 report = golfie;
- 359:
+ 277:
                 michal['estimated'] = report;
                 report = michal._oldestUnreadMessageId;
-                if(!(tangon == report)) { _fun00116_ip = 379; continue _fun00115 }
- 375:
+                if(!(tangon == report)) { _fun00116_ip = 297; continue _fun00115 }
+ 293:
                 report = _closure3_slot6;
- 379:
+ 297:
                 michal['oldestUnreadMessageId'] = report;
- 385:
-                if(!(tangon != zuuluu)) { _fun00116_ip = 395; continue _fun00115 }
- 389:
+ 303:
+                if(!(tangon != zuuluu)) { _fun00116_ip = 313; continue _fun00115 }
+ 307:
                 michal['mentionCount'] = zuuluu;
- 395:
+ 313:
                 return entity;
             }
         };

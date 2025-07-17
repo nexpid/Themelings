@@ -1064,7 +1064,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     option = 'IN_GAME';
     report[verify] = option;
     var _closure1_slot9 = report;
-    report = 13;
+    report = 12;
     report = golfie[report];
     golfie = oscard.bind(entity)(report);
     oscard = golfie.fileFinishedImporting;
@@ -1229,7 +1229,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     zuuluu['usePrimaryCtaCopy'] = tangon;
-    tangon = function(argFoo) { // Original name: usePremiumExtendableCopy
+    michal = function(argFoo) { // Original name: usePremiumExtendableCopy
         _fun00021: for(var _fun00022_ip = 0; ; ) switch(_fun00022_ip) {
  0:
             golfie = argFoo;
@@ -1296,49 +1296,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             return entity;
         }
     };
-    zuuluu['usePremiumExtendableCopy'] = tangon;
-    michal = function(argFoo) { // Original name: useClaimRewardCopy
-        _fun00023: for(var _fun00024_ip = 0; ; ) switch(_fun00024_ip) {
- 0:
-            report = arguments[1];
-            oscard = undefined;
-            if(!(report === oscard)) { _fun00024_ip = 11; continue _fun00023 }
- 9:
-            report = true;
- 11:
-            zuuluu = _closure1_slot0;
-            tangon = _closure1_slot1;
-            entity = 12;
-            entity = tangon[entity];
-            tangon = zuuluu.bind(oscard)(entity);
-            zuuluu = tangon.useIsQuestClaimRewardExclamationEnabled;
-            entity = {};
-            golfie = argFoo;
-            entity['location'] = golfie;
-            entity['autoTrackExposure'] = report;
-            entity = zuuluu.bind(tangon)(entity);
-            report = _closure1_slot0;
-            golfie = _closure1_slot1;
-            michal = 5;
-            zuuluu = golfie[michal];
-            zuuluu = report.bind(oscard)(zuuluu);
-            tangon = zuuluu.intl;
-            zuuluu = tangon.string;
-            michal = golfie[michal];
-            michal = report.bind(oscard)(michal);
-            michal = michal.t;
-            if(entity) { _fun00024_ip = 121; continue _fun00023 }
- 106:
-            entity = michal.cfY4PD;
-            entity = zuuluu.bind(tangon)(entity);
-            _fun00024_ip = 134; continue _fun00023;
- 121:
-            michal = michal.Av9jcX;
-            entity = zuuluu.bind(tangon)(michal);
- 134:
-            return entity;
-        }
-    };
-    zuuluu['useClaimRewardCopy'] = michal;
+    zuuluu['usePremiumExtendableCopy'] = michal;
     return entity;
 })();

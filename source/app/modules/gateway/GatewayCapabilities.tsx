@@ -31,10 +31,10 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
             michal = zuuluu.bind(entity)(michal);
             entity = michal.isChannelMetadataObfuscationEnabled;
             michal = entity.bind(michal)();
-            entity = 423935;
+            entity = 948223;
             if(!michal) { _fun00002_ip = 49; continue _fun00001 }
  43:
-            entity = 456703;
+            entity = 980991;
  49:
             return entity;
         }

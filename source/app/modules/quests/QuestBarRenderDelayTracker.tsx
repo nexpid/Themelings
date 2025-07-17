@@ -45,9 +45,28 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         };
         var _closure2_slot0 = zuuluu;
         entity = {};
-        michal = 'clearTimeoutTimer';
+        michal = 'isEligible';
         entity['key'] = michal;
         michal = function() { // Original name: value
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot2;
+            michal = 3;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            zuuluu = tangon.bind(michal)(zuuluu);
+            michal = zuuluu.isEligibleForQuestBarRenderDelay;
+            entity = _closure1_slot5;
+            entity = entity.QUESTS_BAR;
+            entity = michal.bind(zuuluu)(entity);
+            return entity;
+        };
+        entity['value'] = michal;
+        michal = new Array(6);
+        michal[0] = entity;
+        entity = {};
+        oscard = 'clearTimeoutTimer';
+        entity['key'] = oscard;
+        oscard = function() { // Original name: value
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 michal = this;
@@ -66,41 +85,84 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 return entity;
             }
         };
-        entity['value'] = michal;
-        michal = new Array(3);
-        michal[0] = entity;
+        entity['value'] = oscard;
+        michal[1] = entity;
+        entity = {};
+        oscard = 'sendMetric';
+        entity['key'] = oscard;
+        oscard = function(argFoo, argBar, argBaz) { // Original name: value
+            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+ 0:
+                report = global;
+                michal = report.Math;
+                entity = michal.random;
+                michal = entity.bind(michal)();
+                entity = 0.1;
+                if(!(!(michal > entity))) { _fun00004_ip = 176; continue _fun00003 }
+ 35:
+                zuuluu = _closure1_slot1;
+                option = _closure1_slot2;
+                michal = 4;
+                michal = option[michal];
+                golfie = undefined;
+                tangon = zuuluu.bind(golfie)(michal);
+                zuuluu = tangon.distribution;
+                michal = {};
+                oscard = _closure1_slot0;
+                entity = 5;
+                entity = option[entity];
+                entity = oscard.bind(golfie)(entity);
+                entity = entity.MetricEvents;
+                entity = entity.QUEST_BAR_RENDER_DELAY;
+                michal['name'] = entity;
+                entity = report.HermesInternal;
+                golfie = entity.concat;
+                oscard = 'quest_id:';
+                entity = argFoo;
+                oscard = golfie.bind(oscard)(entity);
+                entity = new Array(2);
+                entity[0] = oscard;
+                report = report.HermesInternal;
+                golfie = report.concat;
+                oscard = 'timeout:';
+                report = argBar;
+                report = golfie.bind(oscard)(report);
+                entity[1] = report;
+                michal['tags'] = entity;
+                entity = argBaz;
+                entity = zuuluu.bind(tangon)(michal, entity);
+ 176:
+                entity = undefined;
+                return entity;
+            }
+        };
+        entity['value'] = oscard;
+        michal[2] = entity;
         entity = {};
         oscard = 'startTracking';
         entity['key'] = oscard;
         oscard = function(argFoo) { // Original name: value
-            _fun00003: for(var _fun00004_ip = 0; ; ) switch(_fun00004_ip) {
+            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
-                report = argFoo;
-                zuuluu = this;
-                var _closure3_slot0 = zuuluu;
-                var _closure3_slot1 = report;
-                golfie = _closure1_slot0;
-                oscard = _closure1_slot2;
-                entity = 3;
-                oscard = oscard[entity];
-                entity = undefined;
-                golfie = golfie.bind(entity)(oscard);
-                oscard = golfie.isEligibleForQuestBarRenderDelay;
-                tangon = _closure1_slot5;
-                tangon = tangon.QUESTS_BAR;
-                tangon = oscard.bind(golfie)(tangon);
-                if(!tangon) { _fun00004_ip = 135; continue _fun00003 }
- 65:
-                tangon = zuuluu.clearTimeoutTimer;
-                tangon = tangon.bind(zuuluu)();
-                tangon = global;
-                golfie = tangon.performance;
-                oscard = golfie.now;
-                oscard = oscard.bind(golfie)();
-                zuuluu['startTime'] = oscard;
-                zuuluu['questId'] = report;
-                report = tangon.setTimeout;
-                tangon = function() {
+                tangon = argFoo;
+                michal = this;
+                var _closure3_slot0 = michal;
+                var _closure3_slot1 = tangon;
+                zuuluu = michal.isEligible;
+                zuuluu = zuuluu.bind(michal)();
+                if(!zuuluu) { _fun00006_ip = 101; continue _fun00005 }
+ 29:
+                zuuluu = michal.clearTracking;
+                zuuluu = zuuluu.bind(michal)();
+                zuuluu = global;
+                oscard = zuuluu.performance;
+                report = oscard.now;
+                report = report.bind(oscard)();
+                michal['startTime'] = report;
+                michal['questId'] = tangon;
+                report = zuuluu.setTimeout;
+                tangon = undefined;
+                zuuluu = function() {
                     tangon = _closure3_slot0;
                     zuuluu = tangon.stopTracking;
                     michal = _closure3_slot1;
@@ -109,106 +171,79 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = undefined;
                     return entity;
                 };
-                michal = 30000;
-                michal = report.bind(entity)(tangon, michal);
-                zuuluu['timeoutTimer'] = michal;
- 135:
+                entity = 30000;
+                entity = report.bind(tangon)(zuuluu, entity);
+                michal['timeoutTimer'] = entity;
+ 101:
+                entity = undefined;
                 return entity;
             }
         };
         entity['value'] = oscard;
-        michal[1] = entity;
+        michal[3] = entity;
         entity = {};
         oscard = 'stopTracking';
         entity['key'] = oscard;
-        report = function(argFoo) { // Original name: value
-            _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
+        oscard = function(argFoo) { // Original name: value
+            _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
-                offset = argFoo;
-                verify = arguments[1];
-                zuuluu = this;
+                oscard = argFoo;
+                report = arguments[1];
+                tangon = this;
                 entity = undefined;
-                if(!(verify === entity)) { _fun00006_ip = 17; continue _fun00005 }
+                if(!(report === entity)) { _fun00008_ip = 17; continue _fun00007 }
  15:
-                verify = false;
+                report = false;
  17:
-                tangon = _closure1_slot0;
-                report = _closure1_slot2;
-                michal = 3;
-                michal = report[michal];
-                report = tangon.bind(entity)(michal);
-                tangon = report.isEligibleForQuestBarRenderDelay;
-                michal = _closure1_slot5;
-                michal = michal.QUESTS_BAR;
-                michal = tangon.bind(report)(michal);
-                if(!michal) { _fun00006_ip = 328; continue _fun00005 }
- 67:
-                tangon = zuuluu.startTime;
+                michal = tangon.isEligible;
+                michal = michal.bind(tangon)();
+                if(!michal) { _fun00008_ip = 129; continue _fun00007 }
+ 30:
+                zuuluu = tangon.startTime;
                 michal = null;
-                if(!(michal !== tangon)) { _fun00006_ip = 328; continue _fun00005 }
- 82:
-                tangon = zuuluu.questId;
-                if(!(tangon === offset)) { _fun00006_ip = 328; continue _fun00005 }
- 95:
-                if(verify) { _fun00006_ip = 108; continue _fun00005 }
- 98:
-                tangon = zuuluu.clearTimeoutTimer;
-                tangon = tangon.bind(zuuluu)();
- 108:
-                report = 30000;
-                if(verify) { _fun00006_ip = 160; continue _fun00005 }
- 117:
-                tangon = global;
-                option = tangon.Math;
+                if(!(michal !== zuuluu)) { _fun00008_ip = 129; continue _fun00007 }
+ 42:
+                michal = tangon.questId;
+                if(!(michal === oscard)) { _fun00008_ip = 129; continue _fun00007 }
+ 52:
+                zuuluu = 30000;
+                if(report) { _fun00008_ip = 104; continue _fun00007 }
+ 61:
+                michal = global;
+                option = michal.Math;
                 golfie = option.round;
-                yankee = tangon.performance;
-                tangon = yankee.now;
-                yankee = tangon.bind(yankee)();
-                tangon = zuuluu.startTime;
-                tangon = yankee - tangon;
-                report = golfie.bind(option)(tangon);
- 160:
-                zuuluu['startTime'] = michal;
-                golfie = global;
-                zuuluu = golfie.Math;
-                michal = zuuluu.random;
-                zuuluu = michal.bind(zuuluu)();
-                michal = 0.1;
-                if(!(!(zuuluu > michal))) { _fun00006_ip = 328; continue _fun00005 }
- 201:
-                zuuluu = _closure1_slot1;
-                yankee = _closure1_slot2;
-                michal = 4;
-                michal = yankee[michal];
-                tangon = zuuluu.bind(entity)(michal);
-                zuuluu = tangon.distribution;
-                michal = {};
-                option = _closure1_slot0;
-                oscard = 5;
-                oscard = yankee[oscard];
-                oscard = option.bind(entity)(oscard);
-                oscard = oscard.MetricEvents;
-                oscard = oscard.QUEST_BAR_RENDER_DELAY;
-                michal['name'] = oscard;
-                oscard = golfie.HermesInternal;
-                option = oscard.concat;
-                oscard = 'quest_id:';
-                option = option.bind(oscard)(offset);
-                oscard = new Array(2);
-                oscard[0] = option;
-                golfie = golfie.HermesInternal;
-                option = golfie.concat;
-                golfie = 'timeout:';
-                golfie = option.bind(golfie)(verify);
-                oscard[1] = golfie;
-                michal['tags'] = oscard;
-                michal = zuuluu.bind(tangon)(michal, report);
- 328:
+                verify = michal.performance;
+                michal = verify.now;
+                verify = michal.bind(verify)();
+                michal = tangon.startTime;
+                michal = verify - michal;
+                zuuluu = golfie.bind(option)(michal);
+ 104:
+                michal = tangon.clearTracking;
+                michal = michal.bind(tangon)();
+                michal = tangon.sendMetric;
+                michal = michal.bind(tangon)(oscard, report, zuuluu);
+ 129:
                 return entity;
             }
         };
+        entity['value'] = oscard;
+        michal[4] = entity;
+        entity = {};
+        oscard = 'clearTracking';
+        entity['key'] = oscard;
+        report = function() { // Original name: value
+            michal = this;
+            entity = michal.clearTimeoutTimer;
+            entity = entity.bind(michal)();
+            entity = null;
+            michal['startTime'] = entity;
+            michal['questId'] = entity;
+            entity = undefined;
+            return entity;
+        };
         entity['value'] = report;
-        michal[2] = entity;
+        michal[5] = entity;
         entity = undefined;
         entity = tangon.bind(entity)(zuuluu, michal);
         return entity;

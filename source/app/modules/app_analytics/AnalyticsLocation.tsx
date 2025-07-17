@@ -248,6 +248,8 @@ export default (function(_, argBar, __, ___, ____, argFre, argPlu) {
     michal['GUILD_BOOSTING_UPSELL_BANNER'] = entity;
     entity = 'guild boosting sidebar display';
     michal['GUILD_BOOSTING_SIDEBAR_DISPLAY'] = entity;
+    entity = 'guild boosting enhanced role color coachmark';
+    michal['GUILD_BOOSTING_ENHANCED_ROLE_COLOR_COACHMARK'] = entity;
     entity = 'guilds list';
     michal['GUILDS_LIST'] = entity;
     entity = 'activity channel selector';

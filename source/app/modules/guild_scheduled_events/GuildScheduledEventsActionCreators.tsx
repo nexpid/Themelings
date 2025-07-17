@@ -1140,7 +1140,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             option = true;
             entity['is_canceled'] = option;
             entity = michal.bind(zuuluu)(entity, oscard, report);
-            _fun00022_ip = 180; continue _fun00021;
+            return entity;
  124:
             michal = zuuluu.updateGuildEventException;
             entity = {};
@@ -1156,8 +1156,6 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             romeon = report;
             yankee = tangon;
             entity = kiloes[michal](backup, foxtra, romeon, yankee, offset);
- 180:
-            entity = undefined;
             return entity;
         }
     };

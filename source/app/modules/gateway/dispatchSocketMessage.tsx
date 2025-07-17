@@ -3740,6 +3740,51 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         }
     };
     tangon = option.bind(entity)(golfie, tangon);
+    golfie = ['MESSAGE_POLL_VOTE_ADD_MANY'];
+    tangon = function(argFoo) {
+        entity = argFoo;
+        zuuluu = _closure1_slot26;
+        michal = {};
+        tangon = 'MESSAGE_REACTION_ADD_MANY';
+        michal['type'] = tangon;
+        tangon = entity.channel_id;
+        michal['channelId'] = tangon;
+        tangon = entity.message_id;
+        michal['messageId'] = tangon;
+        report = entity.votes;
+        tangon = report.map;
+        entity = function(argFoo) {
+            michal = argFoo;
+            entity = {};
+            oscard = entity;
+            report = michal;
+            zuuluu = copyDataProperties(oscard, report);
+            zuuluu = {};
+            michal = michal.answer_id;
+            zuuluu['id'] = michal;
+            michal = '';
+            zuuluu['name'] = michal;
+            michal = 'emoji';
+            entity[michal] = zuuluu;
+            tangon = _closure1_slot0;
+            zuuluu = _closure1_slot3;
+            michal = 24;
+            zuuluu = zuuluu[michal];
+            michal = undefined;
+            michal = tangon.bind(michal)(zuuluu);
+            michal = michal.ReactionTypes;
+            zuuluu = michal.VOTE;
+            michal = 'reactionType';
+            entity[michal] = zuuluu;
+            return entity;
+        };
+        entity = tangon.bind(report)(entity);
+        michal['reactions'] = entity;
+        entity = undefined;
+        michal = zuuluu.bind(entity)(michal);
+        return entity;
+    };
+    tangon = option.bind(entity)(golfie, tangon);
     golfie = ['MESSAGE_REACTION_REMOVE_ALL'];
     tangon = function(argFoo) {
         entity = argFoo;

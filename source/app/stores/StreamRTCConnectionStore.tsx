@@ -903,12 +903,12 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 report = _closure1_slot18;
                 report[zuuluu] = option;
                 report = null;
-                if(!(report != option)) { _fun00038_ip = 264; continue _fun00037 }
+                if(!(report != option)) { _fun00038_ip = 286; continue _fun00037 }
  195:
                 golfie = _closure1_slot9;
                 oscard = golfie.getGameForPID;
                 option = oscard.bind(golfie)(option);
-                if(!(report != option)) { _fun00038_ip = 264; continue _fun00037 }
+                if(!(report != option)) { _fun00038_ip = 286; continue _fun00037 }
  214:
                 golfie = _closure1_slot17;
                 oscard = {};
@@ -918,19 +918,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                 oscard['id'] = verify;
                 verify = option.exeName;
                 oscard['exe'] = verify;
-                option = option.distributor;
-                oscard['distributor'] = option;
+                verify = option.distributor;
+                oscard['distributor'] = verify;
+                verify = option.sku;
+                oscard['sku'] = verify;
+                option = option.gameMetadata;
+                oscard['gameMetadata'] = option;
                 golfie[zuuluu] = oscard;
- 264:
-                if(!(report == tangon)) { _fun00038_ip = 278; continue _fun00037 }
- 268:
+ 286:
+                if(!(report == tangon)) { _fun00038_ip = 300; continue _fun00037 }
+ 290:
                 report = _closure1_slot20;
                 report = delete report[zuuluu];
-                _fun00038_ip = 286; continue _fun00037;
- 278:
+                _fun00038_ip = 308; continue _fun00037;
+ 300:
                 michal = _closure1_slot20;
                 michal[zuuluu] = tangon;
- 286:
+ 308:
                 return entity;
             }
         };

@@ -503,7 +503,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     zuuluu['toggleSyncProfileThemeWithUserTheme'] = tangon;
-    michal = function(argFoo) { // Original name: setContrast
+    tangon = function(argFoo) { // Original name: setContrast
         zuuluu = _closure1_slot0;
         michal = _closure1_slot1;
         entity = 4;
@@ -519,6 +519,23 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         michal = zuuluu.bind(tangon)(michal);
         return entity;
     };
-    zuuluu['setContrast'] = michal;
+    zuuluu['setContrast'] = tangon;
+    michal = function(argFoo) { // Original name: setContrastMode
+        zuuluu = _closure1_slot0;
+        michal = _closure1_slot1;
+        entity = 4;
+        michal = michal[entity];
+        entity = undefined;
+        tangon = zuuluu.bind(entity)(michal);
+        zuuluu = tangon.dispatch;
+        michal = {};
+        report = 'ACCESSIBILITY_SET_CONTRAST_MODE';
+        michal['type'] = report;
+        report = argFoo;
+        michal['contrastMode'] = report;
+        michal = zuuluu.bind(tangon)(michal);
+        return entity;
+    };
+    zuuluu['setContrastMode'] = michal;
     return entity;
 })();

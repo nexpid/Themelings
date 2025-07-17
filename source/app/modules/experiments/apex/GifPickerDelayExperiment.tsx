@@ -1,0 +1,100 @@
+// app/modules/experiments/apex/GifPickerDelayExperiment.tsx
+export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
+    option = argBaz;
+    zuuluu = argFre;
+    golfie = argPlu;
+    entity = global;
+    oscard = entity.Object;
+    report = oscard.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = report.bind(oscard)(zuuluu, entity, tangon);
+    entity = 0;
+    tangon = golfie[entity];
+    entity = undefined;
+    verify = option.bind(entity)(tangon);
+    report = {'id': '2025-07_gif_picker_delay', 'kind': 'user', 'label': 'GIF Picker Delay'};
+    tangon = {'enabled': false, 'delayMs': 0, 'inExperiment': false};
+    report['defaultConfig'] = tangon;
+    tangon = {'id': 0, 'label': 'Control'};
+    oscard = {'enabled': false, 'delayMs': 0, 'inExperiment': true};
+    tangon['config'] = oscard;
+    offset = new Array(3);
+    offset[0] = tangon;
+    oscard = {'id': 1, 'label': 'Delay 100 ms'};
+    tangon = 1;
+    yankee = {'enabled': true, 'delayMs': 100, 'inExperiment': true};
+    oscard['config'] = yankee;
+    offset[1] = oscard;
+    yankee = {'id': 2, 'label': 'Delay 200 ms'};
+    oscard = 2;
+    romeon = {'enabled': true, 'delayMs': 200, 'inExperiment': true};
+    yankee['config'] = romeon;
+    offset[2] = yankee;
+    report['treatments'] = offset;
+    report = verify.bind(entity)(report);
+    var _closure1_slot0 = report;
+    tangon = golfie[tangon];
+    option = option.bind(entity)(tangon);
+    tangon = {'name': '2025-07-gif-picker-delay', 'kind': 'user'};
+    verify = {'enabled': false, 'delayMs': 0, 'inExperiment': false};
+    tangon['defaultConfig'] = verify;
+    verify = {};
+    offset = {'enabled': false, 'delayMs': 0, 'inExperiment': true};
+    verify[0] = offset;
+    offset = {'enabled': true, 'delayMs': 100, 'inExperiment': true};
+    verify[1] = offset;
+    offset = {'enabled': true, 'delayMs': 200, 'inExperiment': true};
+    verify[2] = offset;
+    tangon['variations'] = verify;
+    tangon = option.bind(entity)(tangon);
+    var _closure1_slot1 = tangon;
+    golfie = golfie[oscard];
+    oscard = argBar;
+    option = oscard.bind(entity)(golfie);
+    golfie = option.fileFinishedImporting;
+    oscard = 'modules/experiments/apex/GifPickerDelayExperiment.tsx';
+    oscard = golfie.bind(option)(oscard);
+    zuuluu['LegacyGifPickerDelayExperiment'] = report;
+    zuuluu['ApexGifPickerDelayExperiment'] = tangon;
+    michal = function(argFoo) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            oscard = argFoo;
+            tangon = _closure1_slot0;
+            zuuluu = tangon.getCurrentConfig;
+            michal = {};
+            michal['location'] = oscard;
+            tangon = zuuluu.bind(tangon)(michal);
+            zuuluu = tangon.enabled;
+            michal = tangon.delayMs;
+            tangon = tangon.inExperiment;
+            if(tangon) { _fun00002_ip = 103; continue _fun00001 }
+ 47:
+            report = _closure1_slot1;
+            tangon = report.getConfig;
+            entity = {};
+            entity['location'] = oscard;
+            tangon = tangon.bind(report)(entity);
+            entity = {};
+            report = tangon.enabled;
+            entity['enabled'] = report;
+            report = tangon.delayMs;
+            entity['delayMs'] = report;
+            tangon = tangon.inExperiment;
+            entity['inExperiment'] = tangon;
+            return entity;
+ 103:
+            entity = {};
+            entity['enabled'] = zuuluu;
+            entity['delayMs'] = michal;
+            michal = true;
+            entity['inExperiment'] = michal;
+            return entity;
+        }
+    };
+    zuuluu['gifPickerDelayExperiment'] = michal;
+    return entity;
+})();

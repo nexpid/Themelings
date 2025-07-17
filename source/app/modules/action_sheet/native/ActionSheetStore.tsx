@@ -101,7 +101,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             report['backdropKind'] = michal;
             michal = _closure1_slot5;
             tangon = michal.length;
-            michal = 2;
+            michal = 3;
             michal = tangon < michal;
             tangon = 'replaceAll';
             if(!(tangon !== oscard)) { _fun00004_ip = 181; continue _fun00003 }
@@ -386,6 +386,13 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
         return entity;
     };
     michal['HIDE_ACTION_SHEET'] = option;
+    option = function() { // Original name: handleHideAllActionSheets
+        entity = new Array(0);
+        _closure1_slot5 = entity;
+        entity = undefined;
+        return entity;
+    };
+    michal['HIDE_ALL_ACTION_SHEETS'] = option;
     tangon = function() { // Original name: handleHideActionSheetQuickSwitcher
         zuuluu = _closure1_slot7;
         entity = undefined;

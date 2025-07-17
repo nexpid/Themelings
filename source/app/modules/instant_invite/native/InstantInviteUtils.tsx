@@ -71,8 +71,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
             golfie = argFoo;
-            report = argBar;
-            oscard = argBaz;
+            oscard = argBar;
+            report = argBaz;
             yankee = {'isActionSheet': true, 'location': 'IOS Instant Invite Action Sheet Mount'};
             tangon = _closure1_slot1;
             entity = _closure1_slot2;
@@ -86,33 +86,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = {};
             romeon = 'Instant Invite';
             zuuluu['type'] = romeon;
-            zuuluu['source'] = report;
+            zuuluu['source'] = oscard;
             zuuluu = option.bind(offset)(tangon, zuuluu);
             tangon = null;
-            option = tangon == oscard;
+            option = tangon == report;
             zuuluu = undefined;
             if(option) { _fun00002_ip = 102; continue _fun00001 }
  96:
-            zuuluu = oscard.stream;
+            zuuluu = report.stream;
  102:
             if(!(tangon == zuuluu)) { _fun00002_ip = 161; continue _fun00001 }
  106:
-            option = tangon == oscard;
+            option = tangon == report;
             zuuluu = undefined;
             if(option) { _fun00002_ip = 121; continue _fun00001 }
  115:
-            zuuluu = oscard.targetApplicationId;
+            zuuluu = report.targetApplicationId;
  121:
             if(!(tangon != zuuluu)) { _fun00002_ip = 354; continue _fun00001 }
  128:
             zuuluu = _closure1_slot11;
             zuuluu = zuuluu.EMBEDDED_APPLICATION;
             yankee['targetType'] = zuuluu;
-            zuuluu = oscard.targetApplicationId;
+            zuuluu = report.targetApplicationId;
             yankee['targetApplicationId'] = zuuluu;
             _fun00002_ip = 354; continue _fun00001;
  161:
-            romeon = oscard.stream;
+            romeon = report.stream;
             zuuluu = _closure1_slot11;
             zuuluu = zuuluu.STREAM;
             yankee['targetType'] = zuuluu;
@@ -162,21 +162,21 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu['game_id'] = romeon;
             zuuluu = verify.bind(offset)(option, zuuluu);
  354:
-            zuuluu = tangon == oscard;
+            zuuluu = tangon == report;
             option = undefined;
             if(zuuluu) { _fun00002_ip = 369; continue _fun00001 }
  363:
-            option = oscard.createInvite;
+            option = report.createInvite;
  369:
             zuuluu = false;
             zuuluu = zuuluu !== option;
             if(!zuuluu) { _fun00002_ip = 396; continue _fun00001 }
  378:
-            verify = tangon == oscard;
+            verify = tangon == report;
             option = undefined;
             if(verify) { _fun00002_ip = 392; continue _fun00001 }
  387:
-            option = oscard.code;
+            option = report.code;
  392:
             zuuluu = tangon == option;
  396:
@@ -200,29 +200,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = zuuluu.bind(entity)(michal);
             michal = {};
             michal['channel'] = golfie;
-            michal['source'] = report;
-            golfie = tangon == oscard;
-            report = undefined;
+            michal['source'] = oscard;
+            golfie = tangon == report;
+            oscard = undefined;
             if(golfie) { _fun00002_ip = 492; continue _fun00001 }
  486:
-            report = oscard.guildScheduledEventId;
+            oscard = report.guildScheduledEventId;
  492:
-            michal['guildScheduledEventId'] = report;
-            golfie = tangon == oscard;
-            report = undefined;
+            michal['guildScheduledEventId'] = oscard;
+            golfie = tangon == report;
+            oscard = undefined;
             if(golfie) { _fun00002_ip = 512; continue _fun00001 }
  506:
-            report = oscard.targetApplicationId;
+            oscard = report.targetApplicationId;
  512:
-            michal['targetApplicationId'] = report;
-            golfie = tangon == oscard;
-            report = undefined;
+            michal['targetApplicationId'] = oscard;
+            golfie = tangon == report;
+            oscard = undefined;
             if(golfie) { _fun00002_ip = 531; continue _fun00001 }
  526:
-            report = oscard.code;
+            oscard = report.code;
  531:
-            michal['code'] = report;
+            michal['code'] = oscard;
             michal['vanityURLCode'] = tangon;
+            oscard = tangon == report;
+            tangon = undefined;
+            if(oscard) { _fun00002_ip = 555; continue _fun00001 }
+ 549:
+            tangon = report.stackingBehavior;
+ 555:
+            michal['stackingBehavior'] = tangon;
             michal = zuuluu.bind(entity)(michal);
             return entity;
         }

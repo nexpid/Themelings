@@ -179,7 +179,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     michal = 11;
                     michal = report[michal];
                     report = zuuluu.bind(tangon)(michal);
-                    tangon = report.openStartGuildEventActionSheet;
+                    tangon = report.openStartGuildEventModal;
                     zuuluu = _closure2_slot2;
                     michal = _closure2_slot3;
                     entity = function() {

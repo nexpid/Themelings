@@ -590,50 +590,50 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = 28;
             vacuum = record[vacuum];
             vacuum = sequen.bind(zuuluu)(vacuum);
-            variable42 = vacuum.bind(zuuluu)(report, variable52, foxtra);
+            variable42 = vacuum.bind(zuuluu)(report, variable52);
             variable44 = !result;
-            if(!variable44) { _fun00008_ip = 988; continue _fun00007 }
- 969:
+            if(!variable44) { _fun00008_ip = 987; continue _fun00007 }
+ 968:
             vacuum = variable52.type;
             result = _closure1_slot14;
             result = result.GUILD_ANNOUNCEMENT;
             variable44 = vacuum === result;
- 988:
-            if(!variable44) { _fun00008_ip = 1029; continue _fun00007 }
- 991:
+ 987:
+            if(!variable44) { _fun00008_ip = 1028; continue _fun00007 }
+ 990:
             vacuum = yankee == kiloes;
             result = undefined;
-            if(vacuum) { _fun00008_ip = 1026; continue _fun00007 }
- 1000:
+            if(vacuum) { _fun00008_ip = 1025; continue _fun00007 }
+ 999:
             record = kiloes.features;
             sequen = record.has;
             vacuum = _closure1_slot15;
             vacuum = vacuum.NEWS;
             result = sequen.bind(record)(vacuum);
- 1026:
+ 1025:
             variable44 = result;
- 1029:
-            if(!variable44) { _fun00008_ip = 1041; continue _fun00007 }
- 1032:
-            if(entity) { _fun00008_ip = 1038; continue _fun00007 }
- 1035:
+ 1028:
+            if(!variable44) { _fun00008_ip = 1040; continue _fun00007 }
+ 1031:
+            if(entity) { _fun00008_ip = 1037; continue _fun00007 }
+ 1034:
             entity = foxtra;
- 1038:
+ 1037:
             variable44 = entity;
- 1041:
-            if(!variable44) { _fun00008_ip = 1063; continue _fun00007 }
- 1044:
+ 1040:
+            if(!variable44) { _fun00008_ip = 1062; continue _fun00007 }
+ 1043:
             result = report.type;
             entity = _closure1_slot20;
             entity = entity.DEFAULT;
             variable44 = result === entity;
- 1063:
-            if(!variable44) { _fun00008_ip = 1079; continue _fun00007 }
- 1066:
+ 1062:
+            if(!variable44) { _fun00008_ip = 1078; continue _fun00007 }
+ 1065:
             entity = report.isPoll;
             entity = entity.bind(report)();
             variable44 = !entity;
- 1079:
+ 1078:
             result = _closure1_slot0;
             entity = _closure1_slot2;
             entity = entity[ctrled];
@@ -644,36 +644,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = entity.bind(report)();
             ctrled = yankee == result;
             entity = undefined;
-            if(ctrled) { _fun00008_ip = 1138; continue _fun00007 }
- 1127:
+            if(ctrled) { _fun00008_ip = 1137; continue _fun00007 }
+ 1126:
             result = result.embeds;
             entity = result.length;
- 1138:
+ 1137:
             ctrled = yankee != entity;
             result = 0;
-            if(!ctrled) { _fun00008_ip = 1150; continue _fun00007 }
- 1147:
+            if(!ctrled) { _fun00008_ip = 1149; continue _fun00007 }
+ 1146:
             result = entity;
- 1150:
+ 1149:
             variable51 = foxtra;
-            if(variable51) { _fun00008_ip = 1167; continue _fun00007 }
- 1156:
+            if(variable51) { _fun00008_ip = 1166; continue _fun00007 }
+ 1155:
             entity = report.canDeleteOwnMessage;
             variable51 = entity.bind(report)(variable46);
- 1167:
-            if(!variable51) { _fun00008_ip = 1174; continue _fun00007 }
- 1170:
+ 1166:
+            if(!variable51) { _fun00008_ip = 1173; continue _fun00007 }
+ 1169:
             variable51 = result > verify;
- 1174:
-            if(!variable51) { _fun00008_ip = 1196; continue _fun00007 }
- 1177:
+ 1173:
+            if(!variable51) { _fun00008_ip = 1195; continue _fun00007 }
+ 1176:
             entity = report.author;
             ctrled = entity.id;
             entity = _closure1_slot16;
             variable51 = ctrled !== entity;
- 1196:
-            if(!variable51) { _fun00008_ip = 1249; continue _fun00007 }
- 1199:
+ 1195:
+            if(!variable51) { _fun00008_ip = 1248; continue _fun00007 }
+ 1198:
             ctrled = _closure1_slot0;
             vacuum = _closure1_slot2;
             entity = 29;
@@ -685,9 +685,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = entity.EPHEMERAL;
             entity = vacuum.bind(sequen)(ctrled, entity);
             variable51 = !entity;
- 1249:
-            if(!variable51) { _fun00008_ip = 1281; continue _fun00007 }
- 1252:
+ 1248:
+            if(!variable51) { _fun00008_ip = 1280; continue _fun00007 }
+ 1251:
             ctrled = _closure1_slot1;
             vacuum = _closure1_slot2;
             entity = 30;
@@ -695,19 +695,19 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity = ctrled.bind(zuuluu)(entity);
             entity = entity.bind(zuuluu)(report);
             variable51 = romeon === entity;
- 1281:
+ 1280:
             entity = !echoed;
-            if(echoed) { _fun00008_ip = 1294; continue _fun00007 }
- 1287:
+            if(echoed) { _fun00008_ip = 1293; continue _fun00007 }
+ 1286:
             oscard = backup === oscard;
             entity = !oscard;
- 1294:
-            if(!entity) { _fun00008_ip = 1350; continue _fun00007 }
- 1297:
+ 1293:
+            if(!entity) { _fun00008_ip = 1349; continue _fun00007 }
+ 1296:
             oscard = report.interactionData;
             oscard = yankee == oscard;
-            if(oscard) { _fun00008_ip = 1347; continue _fun00007 }
- 1310:
+            if(oscard) { _fun00008_ip = 1346; continue _fun00007 }
+ 1309:
             echoed = _closure1_slot0;
             ctrled = _closure1_slot2;
             backup = 31;
@@ -716,9 +716,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             echoed = ctrled.canRetryInteractionData;
             backup = report.interactionData;
             oscard = echoed.bind(ctrled)(backup);
- 1347:
+ 1346:
             entity = oscard;
- 1350:
+ 1349:
             echoed = report.attachments;
             backup = echoed.filter;
             oscard = function(argFoo) {
@@ -750,18 +750,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup = report.author;
             backup = backup.id;
             sequen = backup === variable46;
-            if(!sequen) { _fun00008_ip = 1419; continue _fun00007 }
- 1391:
+            if(!sequen) { _fun00008_ip = 1418; continue _fun00007 }
+ 1390:
             oscard = oscard.length;
             oscard = oscard > romeon;
-            if(oscard) { _fun00008_ip = 1416; continue _fun00007 }
- 1403:
+            if(oscard) { _fun00008_ip = 1415; continue _fun00007 }
+ 1402:
             echoed = report.content;
             backup = '';
             oscard = backup !== echoed;
- 1416:
+ 1415:
             sequen = oscard;
- 1419:
+ 1418:
             oscard = _closure1_slot0;
             backup = _closure1_slot2;
             michal = backup[michal];
@@ -787,10 +787,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             oscard = backup.useIsReportToModEnabled;
             echoed = yankee == kiloes;
             michal = undefined;
-            if(echoed) { _fun00008_ip = 1498; continue _fun00007 }
- 1493:
+            if(echoed) { _fun00008_ip = 1497; continue _fun00007 }
+ 1492:
             michal = kiloes.id;
- 1498:
+ 1497:
             variable66 = oscard.bind(backup)(michal);
             oscard = function(argFoo) { // Original name: getProps
                 entity = argFoo;
@@ -970,13 +970,13 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = report.state;
             backup = _closure1_slot19;
             backup = backup.SEND_FAILED;
-            if(!(kiloes !== backup)) { _fun00008_ip = 6869; continue _fun00007 }
- 1539:
+            if(!(kiloes !== backup)) { _fun00008_ip = 6868; continue _fun00007 }
+ 1538:
             kiloes = report.type;
             backup = _closure1_slot20;
             backup = backup.THREAD_STARTER_MESSAGE;
-            if(!(kiloes !== backup)) { _fun00008_ip = 6738; continue _fun00007 }
- 1561:
+            if(!(kiloes !== backup)) { _fun00008_ip = 6737; continue _fun00007 }
+ 1560:
             backup = {};
             variable68 = _closure1_slot0;
             variable69 = _closure1_slot2;
@@ -1549,8 +1549,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['sortKey'] = vacuum;
             variable72 = oscard.bind(zuuluu)(kiloes);
             kiloes = {};
-            if(!(!(result > romeon))) { _fun00008_ip = 4267; continue _fun00007 }
- 4213:
+            if(!(!(result > romeon))) { _fun00008_ip = 4266; continue _fun00007 }
+ 4212:
             variable56 = _closure1_slot0;
             result = _closure1_slot2;
             vacuum = result[variable82];
@@ -1562,8 +1562,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             result = result.t;
             result = result.4sxKOT;
             result = vacuum.bind(variable55)(result);
-            _fun00008_ip = 4319; continue _fun00007;
- 4267:
+            _fun00008_ip = 4318; continue _fun00007;
+ 4266:
             variable68 = _closure1_slot0;
             vacuum = _closure1_slot2;
             variable55 = vacuum[variable82];
@@ -1575,7 +1575,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             vacuum = vacuum.t;
             vacuum = vacuum.wUIMqa;
             result = variable55.bind(variable56)(vacuum);
- 4319:
+ 4318:
             kiloes['label'] = result;
             variable80 = _closure1_slot0;
             variable81 = _closure1_slot2;
@@ -1745,8 +1745,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable78 = new Array(0);
             kiloes = 'Preview';
             kiloes = kiloes === variable77;
-            if(kiloes) { _fun00008_ip = 5139; continue _fun00007 }
- 5092:
+            if(kiloes) { _fun00008_ip = 5138; continue _fun00007 }
+ 5091:
             variable79 = _closure1_slot0;
             variable80 = _closure1_slot2;
             variable77 = 29;
@@ -1757,9 +1757,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable77 = _closure1_slot18;
             variable77 = variable77.EPHEMERAL;
             kiloes = variable80.bind(variable81)(variable79, variable77);
- 5139:
-            if(!kiloes) { _fun00008_ip = 5199; continue _fun00007 }
- 5142:
+ 5138:
+            if(!kiloes) { _fun00008_ip = 5198; continue _fun00007 }
+ 5141:
             kiloes = variable78.push;
             r104 = variable78;
             r103 = variable75;
@@ -1778,9 +1778,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable91 = sizing;
             variable90 = result;
             kiloes = r104[kiloes](r103, r102, r101, r100, variable100, variable99, variable98, variable97, variable96, variable95, variable94, variable93, variable92, variable91, variable90, variable89);
- 5199:
-            if(!offset) { _fun00008_ip = 5252; continue _fun00007 }
- 5202:
+ 5198:
+            if(!offset) { _fun00008_ip = 5251; continue _fun00007 }
+ 5201:
             variable77 = _closure1_slot0;
             variable79 = _closure1_slot2;
             kiloes = 29;
@@ -1792,9 +1792,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.EPHEMERAL;
             kiloes = variable79.bind(variable80)(variable77, kiloes);
             offset = !kiloes;
- 5252:
-            if(offset) { _fun00008_ip = 5321; continue _fun00007 }
- 5255:
+ 5251:
+            if(offset) { _fun00008_ip = 5320; continue _fun00007 }
+ 5254:
             offset = variable78.push;
             r104 = variable78;
             r103 = variable53;
@@ -1816,7 +1816,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable88 = sizing;
             variable87 = result;
             offset = r104[offset](r103, r102, r101, r100, variable100, variable99, variable98, variable97, variable96, variable95, variable94, variable93, variable92, variable91, variable90, variable89, variable88, variable87, variable86);
- 5321:
+ 5320:
             kiloes = _closure1_slot0;
             variable77 = _closure1_slot2;
             offset = 29;
@@ -1827,8 +1827,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = _closure1_slot18;
             offset = offset.EPHEMERAL;
             offset = variable77.bind(variable79)(kiloes, offset);
-            if(!offset) { _fun00008_ip = 5411; continue _fun00007 }
- 5371:
+            if(!offset) { _fun00008_ip = 5410; continue _fun00007 }
+ 5370:
             offset = variable78.push;
             offset = offset.bind(variable78)(variable74);
             offset = variable78.push;
@@ -1837,7 +1837,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = offset.bind(variable78)(variable69);
             offset = variable78.push;
             offset = offset.bind(variable78)(variable68);
- 5411:
+ 5410:
             offset = global;
             kiloes = offset.Set;
             variable77 = kiloes.prototype;
@@ -1848,30 +1848,30 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes instanceof Object ? kiloes : variable77;
             var _closure2_slot11 = kiloes;
             kiloes = new Array(0);
-            if(variable73) { _fun00008_ip = 5490; continue _fun00007 }
- 5453:
+            if(variable73) { _fun00008_ip = 5489; continue _fun00007 }
+ 5452:
             variable77 = report.hasFlag;
             variable73 = _closure1_slot18;
             variable73 = variable73.HAS_THREAD;
             variable73 = variable77.bind(report)(variable73);
-            if(!variable73) { _fun00008_ip = 5501; continue _fun00007 }
- 5477:
+            if(!variable73) { _fun00008_ip = 5500; continue _fun00007 }
+ 5476:
             variable73 = kiloes.unshift;
             variable73 = variable73.bind(kiloes)(variable76);
-            _fun00008_ip = 5501; continue _fun00007;
- 5490:
+            _fun00008_ip = 5500; continue _fun00007;
+ 5489:
             variable73 = kiloes.unshift;
             variable73 = variable73.bind(kiloes)(variable75);
- 5501:
+ 5500:
             variable73 = kiloes.unshift;
             variable73 = variable73.bind(kiloes)(variable74);
-            if(!variable71) { _fun00008_ip = 5526; continue _fun00007 }
- 5515:
+            if(!variable71) { _fun00008_ip = 5525; continue _fun00007 }
+ 5514:
             variable71 = kiloes.unshift;
             variable71 = variable71.bind(kiloes)(variable72);
- 5526:
-            if(!variable66) { _fun00008_ip = 5563; continue _fun00007 }
- 5529:
+ 5525:
+            if(!variable66) { _fun00008_ip = 5562; continue _fun00007 }
+ 5528:
             variable71 = _closure1_slot0;
             variable72 = _closure1_slot2;
             variable66 = 67;
@@ -1879,11 +1879,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable71 = variable71.bind(zuuluu)(variable66);
             variable66 = variable71.canReportMessageToMods;
             variable66 = variable66.bind(variable71)(report);
-            if(variable66) { _fun00008_ip = 5651; continue _fun00007 }
- 5563:
+            if(variable66) { _fun00008_ip = 5650; continue _fun00007 }
+ 5562:
             variable66 = yankee != variable47;
-            if(!variable66) { _fun00008_ip = 5601; continue _fun00007 }
- 5570:
+            if(!variable66) { _fun00008_ip = 5600; continue _fun00007 }
+ 5569:
             variable72 = _closure1_slot0;
             variable73 = _closure1_slot2;
             variable71 = 68;
@@ -1891,9 +1891,9 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable72 = variable72.bind(zuuluu)(variable71);
             variable71 = variable72.canReportUser;
             variable66 = variable71.bind(variable72)(variable47);
- 5601:
-            if(!variable66) { _fun00008_ip = 5635; continue _fun00007 }
- 5604:
+ 5600:
+            if(!variable66) { _fun00008_ip = 5634; continue _fun00007 }
+ 5603:
             variable72 = _closure1_slot0;
             variable73 = _closure1_slot2;
             variable71 = 68;
@@ -1901,243 +1901,243 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             variable72 = variable72.bind(zuuluu)(variable71);
             variable71 = variable72.canReportMessage;
             variable66 = variable71.bind(variable72)(report);
- 5635:
-            if(!variable66) { _fun00008_ip = 5673; continue _fun00007 }
- 5638:
+ 5634:
+            if(!variable66) { _fun00008_ip = 5672; continue _fun00007 }
+ 5637:
             variable66 = kiloes.unshift;
             variable66 = variable66.bind(kiloes)(variable70);
-            _fun00008_ip = 5673; continue _fun00007;
- 5651:
+            _fun00008_ip = 5672; continue _fun00007;
+ 5650:
             variable66 = kiloes.unshift;
             variable66 = variable66.bind(kiloes)(variable69);
             variable66 = kiloes.unshift;
             variable66 = variable66.bind(kiloes)(variable68);
- 5673:
+ 5672:
             variable66 = kiloes.unshift;
             variable66 = variable66.bind(kiloes)(variable67);
-            if(!variable65) { _fun00008_ip = 5760; continue _fun00007 }
- 5687:
-            if(!variable63) { _fun00008_ip = 5709; continue _fun00007 }
- 5690:
-            if(variable57) { _fun00008_ip = 5709; continue _fun00007 }
- 5693:
-            if(variable60) { _fun00008_ip = 5709; continue _fun00007 }
- 5696:
+            if(!variable65) { _fun00008_ip = 5759; continue _fun00007 }
+ 5686:
+            if(!variable63) { _fun00008_ip = 5708; continue _fun00007 }
+ 5689:
+            if(variable57) { _fun00008_ip = 5708; continue _fun00007 }
+ 5692:
+            if(variable60) { _fun00008_ip = 5708; continue _fun00007 }
+ 5695:
             variable63 = kiloes.unshift;
             variable63 = variable63.bind(kiloes)(variable64);
-            _fun00008_ip = 5760; continue _fun00007;
- 5709:
-            if(variable57) { _fun00008_ip = 5728; continue _fun00007 }
- 5712:
-            if(variable60) { _fun00008_ip = 5728; continue _fun00007 }
- 5715:
+            _fun00008_ip = 5759; continue _fun00007;
+ 5708:
+            if(variable57) { _fun00008_ip = 5727; continue _fun00007 }
+ 5711:
+            if(variable60) { _fun00008_ip = 5727; continue _fun00007 }
+ 5714:
             variable57 = kiloes.unshift;
             variable57 = variable57.bind(kiloes)(variable62);
-            _fun00008_ip = 5739; continue _fun00007;
- 5728:
+            _fun00008_ip = 5738; continue _fun00007;
+ 5727:
             variable57 = kiloes.unshift;
             variable57 = variable57.bind(kiloes)(variable61);
- 5739:
+ 5738:
             variable57 = kiloes.unshift;
-            if(variable60) { _fun00008_ip = 5755; continue _fun00007 }
- 5748:
+            if(variable60) { _fun00008_ip = 5754; continue _fun00007 }
+ 5747:
             variable59 = variable57.bind(kiloes)(variable59);
-            _fun00008_ip = 5760; continue _fun00007;
- 5755:
+            _fun00008_ip = 5759; continue _fun00007;
+ 5754:
             variable57 = variable57.bind(kiloes)(variable58);
- 5760:
-            if(!variable51) { _fun00008_ip = 5774; continue _fun00007 }
- 5763:
+ 5759:
+            if(!variable51) { _fun00008_ip = 5773; continue _fun00007 }
+ 5762:
             variable51 = kiloes.unshift;
             variable51 = variable51.bind(kiloes)(variable56);
- 5774:
+ 5773:
             variable51 = !foxtra;
-            if(!variable51) { _fun00008_ip = 5794; continue _fun00007 }
- 5780:
+            if(!variable51) { _fun00008_ip = 5793; continue _fun00007 }
+ 5779:
             variable56 = report.canDeleteOwnMessage;
             variable56 = variable56.bind(report)(variable46);
             variable51 = !variable56;
- 5794:
-            if(variable51) { _fun00008_ip = 5822; continue _fun00007 }
- 5797:
+ 5793:
+            if(variable51) { _fun00008_ip = 5821; continue _fun00007 }
+ 5796:
             variable56 = _closure1_slot21;
             variable58 = variable56.UNDELETABLE;
             variable57 = variable58.has;
             variable56 = report.type;
             variable51 = variable57.bind(variable58)(variable56);
- 5822:
-            if(variable51) { _fun00008_ip = 5836; continue _fun00007 }
- 5825:
+ 5821:
+            if(variable51) { _fun00008_ip = 5835; continue _fun00007 }
+ 5824:
             variable51 = kiloes.unshift;
             variable51 = variable51.bind(kiloes)(variable55);
- 5836:
+ 5835:
             variable55 = _closure1_slot1;
             variable56 = _closure1_slot2;
             variable51 = 69;
             variable51 = variable56[variable51];
             variable51 = variable55.bind(zuuluu)(variable51);
             variable51 = variable51.bind(zuuluu)(report, variable46);
-            if(!variable51) { _fun00008_ip = 5868; continue _fun00007 }
- 5865:
+            if(!variable51) { _fun00008_ip = 5867; continue _fun00007 }
+ 5864:
             variable51 = !variable54;
- 5868:
-            if(!variable51) { _fun00008_ip = 5882; continue _fun00007 }
- 5871:
+ 5867:
+            if(!variable51) { _fun00008_ip = 5881; continue _fun00007 }
+ 5870:
             variable51 = kiloes.unshift;
             variable51 = variable51.bind(kiloes)(variable53);
- 5882:
-            if(!variable44) { _fun00008_ip = 5896; continue _fun00007 }
- 5885:
+ 5881:
+            if(!variable44) { _fun00008_ip = 5895; continue _fun00007 }
+ 5884:
             variable44 = kiloes.unshift;
             variable44 = variable44.bind(kiloes)(variable49);
- 5896:
+ 5895:
             variable49 = variable52.type;
             variable44 = _closure1_slot14;
             variable44 = variable44.GROUP_DM;
             variable49 = variable49 === variable44;
             variable44 = variable52.isPrivate;
             variable44 = variable44.bind(variable52)();
-            if(!variable44) { _fun00008_ip = 5931; continue _fun00007 }
- 5928:
+            if(!variable44) { _fun00008_ip = 5930; continue _fun00007 }
+ 5927:
             variable44 = !variable49;
- 5931:
-            if(variable44) { _fun00008_ip = 5937; continue _fun00007 }
- 5934:
+ 5930:
+            if(variable44) { _fun00008_ip = 5936; continue _fun00007 }
+ 5933:
             variable44 = variable50;
- 5937:
-            if(variable44) { _fun00008_ip = 6015; continue _fun00007 }
- 5940:
+ 5936:
+            if(variable44) { _fun00008_ip = 6014; continue _fun00007 }
+ 5939:
             variable51 = _closure1_slot10;
             variable50 = variable51.can;
             variable44 = _closure1_slot22;
             variable44 = variable44.SEND_MESSAGES;
             variable44 = variable50.bind(variable51)(variable44, variable52);
-            if(variable44) { _fun00008_ip = 5972; continue _fun00007 }
- 5969:
+            if(variable44) { _fun00008_ip = 5971; continue _fun00007 }
+ 5968:
             variable44 = variable49;
- 5972:
-            if(!variable44) { _fun00008_ip = 5986; continue _fun00007 }
- 5975:
+ 5971:
+            if(!variable44) { _fun00008_ip = 5985; continue _fun00007 }
+ 5974:
             variable44 = kiloes.unshift;
             variable44 = variable44.bind(kiloes)(variable48);
- 5986:
+ 5985:
             variable48 = yankee == variable47;
             variable44 = undefined;
-            if(variable48) { _fun00008_ip = 6000; continue _fun00007 }
- 5995:
+            if(variable48) { _fun00008_ip = 5999; continue _fun00007 }
+ 5994:
             variable44 = variable47.id;
- 6000:
-            if(!(variable46 !== variable44)) { _fun00008_ip = 6015; continue _fun00007 }
- 6004:
+ 5999:
+            if(!(variable46 !== variable44)) { _fun00008_ip = 6014; continue _fun00007 }
+ 6003:
             variable44 = kiloes.unshift;
             variable44 = variable44.bind(kiloes)(variable45);
- 6015:
-            if(!variable42) { _fun00008_ip = 6041; continue _fun00007 }
- 6018:
+ 6014:
+            if(!variable42) { _fun00008_ip = 6040; continue _fun00007 }
+ 6017:
             variable42 = kiloes.unshift;
             variable44 = report.pinned;
-            if(!variable44) { _fun00008_ip = 6036; continue _fun00007 }
- 6033:
+            if(!variable44) { _fun00008_ip = 6035; continue _fun00007 }
+ 6032:
             variable40 = variable43;
- 6036:
+ 6035:
             variable40 = variable42.bind(kiloes)(variable40);
- 6041:
+ 6040:
             variable40 = report.getContentMessage;
             variable42 = variable40.bind(report)();
             variable40 = yankee != variable42;
-            if(!variable40) { _fun00008_ip = 6067; continue _fun00007 }
- 6058:
+            if(!variable40) { _fun00008_ip = 6066; continue _fun00007 }
+ 6057:
             variable43 = variable42.content;
             variable40 = yankee != variable43;
- 6067:
-            if(!variable40) { _fun00008_ip = 6083; continue _fun00007 }
- 6070:
+ 6066:
+            if(!variable40) { _fun00008_ip = 6082; continue _fun00007 }
+ 6069:
             variable44 = variable42.content;
             variable43 = '';
             variable40 = variable43 !== variable44;
- 6083:
-            if(!variable40) { _fun00008_ip = 6100; continue _fun00007 }
- 6086:
+ 6082:
+            if(!variable40) { _fun00008_ip = 6099; continue _fun00007 }
+ 6085:
             variable42 = variable42.content;
             variable42 = variable42.length;
             variable40 = variable42 > verify;
- 6100:
-            if(!variable40) { _fun00008_ip = 6107; continue _fun00007 }
- 6103:
+ 6099:
+            if(!variable40) { _fun00008_ip = 6106; continue _fun00007 }
+ 6102:
             variable40 = yankee == source;
- 6107:
-            if(!variable40) { _fun00008_ip = 6121; continue _fun00007 }
- 6110:
+ 6106:
+            if(!variable40) { _fun00008_ip = 6120; continue _fun00007 }
+ 6109:
             variable40 = kiloes.unshift;
             variable40 = variable40.bind(kiloes)(variable41);
- 6121:
-            if(!variable38) { _fun00008_ip = 6135; continue _fun00007 }
- 6124:
+ 6120:
+            if(!variable38) { _fun00008_ip = 6134; continue _fun00007 }
+ 6123:
             variable38 = kiloes.unshift;
             variable38 = variable38.bind(kiloes)(variable39);
- 6135:
-            if(!limora) { _fun00008_ip = 6149; continue _fun00007 }
- 6138:
+ 6134:
+            if(!limora) { _fun00008_ip = 6148; continue _fun00007 }
+ 6137:
             limora = kiloes.unshift;
             limora = limora.bind(kiloes)(variable37);
- 6149:
+ 6148:
             limora = yankee == source;
-            if(limora) { _fun00008_ip = 6159; continue _fun00007 }
- 6156:
+            if(limora) { _fun00008_ip = 6158; continue _fun00007 }
+ 6155:
             limora = variable36;
- 6159:
-            if(limora) { _fun00008_ip = 6390; continue _fun00007 }
- 6165:
+ 6158:
+            if(limora) { _fun00008_ip = 6389; continue _fun00007 }
+ 6164:
             limora = kiloes.unshift;
             limora = limora.bind(kiloes)(quebec);
             quebec = source.mediaType;
             limora = 'image';
-            if(!(limora !== quebec)) { _fun00008_ip = 6264; continue _fun00007 }
- 6190:
+            if(!(limora !== quebec)) { _fun00008_ip = 6263; continue _fun00007 }
+ 6189:
             quebec = source.mediaType;
             limora = 'video';
-            if(!(limora !== quebec)) { _fun00008_ip = 6251; continue _fun00007 }
- 6204:
+            if(!(limora !== quebec)) { _fun00008_ip = 6250; continue _fun00007 }
+ 6203:
             quebec = source.mediaType;
             limora = 'audio';
             limora = limora !== quebec;
-            if(!limora) { _fun00008_ip = 6235; continue _fun00007 }
- 6221:
+            if(!limora) { _fun00008_ip = 6234; continue _fun00007 }
+ 6220:
             variable36 = source.mediaType;
             quebec = 'file';
             limora = quebec !== variable36;
- 6235:
-            if(limora) { _fun00008_ip = 6311; continue _fun00007 }
- 6238:
+ 6234:
+            if(limora) { _fun00008_ip = 6310; continue _fun00007 }
+ 6237:
             limora = kiloes.unshift;
             limora = limora.bind(kiloes)(equals);
-            _fun00008_ip = 6311; continue _fun00007;
- 6251:
+            _fun00008_ip = 6310; continue _fun00007;
+ 6250:
             limora = kiloes.unshift;
             limora = limora.bind(kiloes)(whisks);
-            _fun00008_ip = 6311; continue _fun00007;
- 6264:
+            _fun00008_ip = 6310; continue _fun00007;
+ 6263:
             config = yankee != config;
-            if(!config) { _fun00008_ip = 6286; continue _fun00007 }
- 6271:
-            if(target) { _fun00008_ip = 6283; continue _fun00007 }
- 6274:
-            if(!status) { _fun00008_ip = 6280; continue _fun00007 }
- 6277:
+            if(!config) { _fun00008_ip = 6285; continue _fun00007 }
+ 6270:
+            if(target) { _fun00008_ip = 6282; continue _fun00007 }
+ 6273:
+            if(!status) { _fun00008_ip = 6279; continue _fun00007 }
+ 6276:
             status = sierra;
- 6280:
+ 6279:
             target = status;
- 6283:
+ 6282:
             config = target;
- 6286:
-            if(!config) { _fun00008_ip = 6300; continue _fun00007 }
- 6289:
+ 6285:
+            if(!config) { _fun00008_ip = 6299; continue _fun00007 }
+ 6288:
             config = kiloes.unshift;
             config = config.bind(kiloes)(papara);
- 6300:
+ 6299:
             config = kiloes.unshift;
             config = config.bind(kiloes)(cntext);
- 6311:
+ 6310:
             cntext = _closure1_slot0;
             papara = _closure1_slot2;
             config = 70;
@@ -2145,33 +2145,33 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             cntext = cntext.bind(zuuluu)(config);
             config = cntext.messageHasObscurableMedia;
             config = config.bind(cntext)(report);
-            if(!config) { _fun00008_ip = 6356; continue _fun00007 }
- 6345:
+            if(!config) { _fun00008_ip = 6355; continue _fun00007 }
+ 6344:
             config = kiloes.unshift;
             config = config.bind(kiloes)(record);
- 6356:
+ 6355:
             config = source.sourceType;
             source = 'attachment';
             source = source === config;
-            if(!source) { _fun00008_ip = 6376; continue _fun00007 }
- 6373:
+            if(!source) { _fun00008_ip = 6375; continue _fun00007 }
+ 6372:
             source = sequen;
- 6376:
-            if(!source) { _fun00008_ip = 6390; continue _fun00007 }
- 6379:
+ 6375:
+            if(!source) { _fun00008_ip = 6389; continue _fun00007 }
+ 6378:
             source = kiloes.unshift;
             source = source.bind(kiloes)(vacuum);
- 6390:
+ 6389:
             source = report.reactions;
             source = source.length;
             source = source > verify;
-            if(!source) { _fun00008_ip = 6458; continue _fun00007 }
- 6408:
+            if(!source) { _fun00008_ip = 6457; continue _fun00007 }
+ 6407:
             vacuum = report.isPoll;
             vacuum = vacuum.bind(report)();
             vacuum = !vacuum;
-            if(vacuum) { _fun00008_ip = 6455; continue _fun00007 }
- 6424:
+            if(vacuum) { _fun00008_ip = 6454; continue _fun00007 }
+ 6423:
             config = _closure1_slot0;
             record = _closure1_slot2;
             sequen = 71;
@@ -2179,24 +2179,24 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             config = config.bind(zuuluu)(sequen);
             sequen = config.hasNonVoteReactions;
             vacuum = sequen.bind(config)(report);
- 6455:
+ 6454:
             source = vacuum;
- 6458:
-            if(!source) { _fun00008_ip = 6486; continue _fun00007 }
- 6461:
+ 6457:
+            if(!source) { _fun00008_ip = 6485; continue _fun00007 }
+ 6460:
             source = kiloes.unshift;
             source = source.bind(kiloes)(ctrled);
-            if(!foxtra) { _fun00008_ip = 6486; continue _fun00007 }
- 6475:
+            if(!foxtra) { _fun00008_ip = 6485; continue _fun00007 }
+ 6474:
             foxtra = kiloes.unshift;
             foxtra = foxtra.bind(kiloes)(result);
- 6486:
+ 6485:
             foxtra = _closure1_slot25;
             result = foxtra.bind(zuuluu)(output);
             output = result.bind(zuuluu)();
             foxtra = output.done;
-            if(foxtra) { _fun00008_ip = 6571; continue _fun00007 }
- 6507:
+            if(foxtra) { _fun00008_ip = 6570; continue _fun00007 }
+ 6506:
             source = output.value;
             ctrled = _closure1_slot0;
             foxtra = _closure1_slot2;
@@ -2204,16 +2204,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             foxtra = ctrled.bind(zuuluu)(foxtra);
             foxtra = foxtra.PollMessageContextItemTypes;
             foxtra = foxtra.END_EARLY;
-            if(!(source === foxtra)) { _fun00008_ip = 6556; continue _fun00007 }
- 6545:
+            if(!(source === foxtra)) { _fun00008_ip = 6555; continue _fun00007 }
+ 6544:
             foxtra = kiloes.unshift;
             foxtra = foxtra.bind(kiloes)(echoed);
- 6556:
+ 6555:
             source = result.bind(zuuluu)();
             foxtra = source.done;
             output = source;
-            if(!foxtra) { _fun00008_ip = 6507; continue _fun00007 }
- 6571:
+            if(!foxtra) { _fun00008_ip = 6506; continue _fun00007 }
+ 6570:
             foxtra = kiloes.unshift;
             foxtra = foxtra.bind(kiloes)(sizing);
             sizing = _closure1_slot0;
@@ -2223,11 +2223,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sizing = sizing.bind(zuuluu)(foxtra);
             foxtra = sizing.canViewInteractionInfo;
             foxtra = foxtra.bind(sizing)(report);
-            if(!foxtra) { _fun00008_ip = 6627; continue _fun00007 }
- 6616:
+            if(!foxtra) { _fun00008_ip = 6626; continue _fun00007 }
+ 6615:
             foxtra = kiloes.unshift;
             foxtra = foxtra.bind(kiloes)(backup);
- 6627:
+ 6626:
             backup = kiloes.filter;
             foxtra = function(argFoo) {
                 zuuluu = _closure2_slot11;
@@ -2273,7 +2273,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon = offset.bind(foxtra)(tangon);
             tangon = michal.bind(zuuluu)(tangon);
             return tangon;
- 6738:
+ 6737:
             tangon = {};
             offset = _closure1_slot24;
             offset = offset.PRIMARY;
@@ -2304,10 +2304,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             tangon[0] = offset;
             tangon = michal.bind(zuuluu)(tangon);
             return tangon;
- 6869:
+ 6868:
             tangon = new Array(0);
-            if(!entity) { _fun00008_ip = 6994; continue _fun00007 }
- 6876:
+            if(!entity) { _fun00008_ip = 6993; continue _fun00007 }
+ 6875:
             offset = tangon.push;
             entity = {};
             foxtra = _closure1_slot24;
@@ -2334,23 +2334,23 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['IconComponent'] = romeon;
             entity = oscard.bind(zuuluu)(entity);
             entity = offset.bind(tangon)(entity);
- 6994:
+ 6993:
             entity = report.getContentMessage;
             report = entity.bind(report)();
             entity = yankee != report;
-            if(!entity) { _fun00008_ip = 7020; continue _fun00007 }
- 7011:
+            if(!entity) { _fun00008_ip = 7019; continue _fun00007 }
+ 7010:
             offset = report.content;
             entity = yankee != offset;
- 7020:
-            if(!entity) { _fun00008_ip = 7037; continue _fun00007 }
- 7023:
+ 7019:
+            if(!entity) { _fun00008_ip = 7036; continue _fun00007 }
+ 7022:
             report = report.content;
             report = report.length;
             entity = report > verify;
- 7037:
-            if(!entity) { _fun00008_ip = 7158; continue _fun00007 }
- 7040:
+ 7036:
+            if(!entity) { _fun00008_ip = 7157; continue _fun00007 }
+ 7039:
             report = tangon.push;
             entity = {};
             verify = _closure1_slot24;
@@ -2377,7 +2377,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity['IconComponent'] = option;
             entity = oscard.bind(zuuluu)(entity);
             entity = report.bind(tangon)(entity);
- 7158:
+ 7157:
             report = tangon.push;
             entity = {};
             option = _closure1_slot24;

@@ -570,10 +570,6 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
     tangon = tangon.bind(option)();
     var _closure1_slot12 = tangon;
     tangon = {};
-    option = {};
-    verify = 'black';
-    option['backgroundColor'] = verify;
-    tangon['mediaViewer'] = option;
     option = {'position': 'absolute', 'width': '100%', 'height': '100%'};
     tangon['platformStyles'] = option;
     var _closure1_slot13 = tangon;
@@ -2499,7 +2495,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             verify = backup[vacuum];
             foxtra = report.bind(tangon)(verify);
             offset = foxtra.useAnimatedStyle;
-            verify = function() { // Original name: ae
+            verify = function() { // Original name: re
                 _fun00047: for(var _fun00048_ip = 0; ; ) switch(_fun00048_ip) {
  0:
                     entity = {};
@@ -2694,12 +2690,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             report = _closure1_slot5;
             zuuluu = {};
             verify = _closure1_slot6;
-            foxtra = verify.absoluteFill;
-            verify = new Array(2);
-            verify[0] = foxtra;
-            foxtra = _closure1_slot13;
-            foxtra = foxtra.mediaViewer;
-            verify[1] = foxtra;
+            verify = verify.absoluteFill;
             zuuluu['style'] = verify;
             zuuluu['onAccessibilityEscape'] = echoed;
             zuuluu['onLayout'] = entity;
@@ -2756,27 +2747,27 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             backup[1] = update;
             entity['style'] = backup;
             backup = 'none';
-            if(!output) { _fun00038_ip = 1359; continue _fun00037 }
- 1353:
+            if(!output) { _fun00038_ip = 1337; continue _fun00037 }
+ 1331:
             backup = 'box-none';
- 1359:
+ 1337:
             entity['pointerEvents'] = backup;
             backup = romeon.renderOverlay;
             output = offset == backup;
             backup = undefined;
-            if(output) { _fun00038_ip = 1391; continue _fun00037 }
- 1379:
+            if(output) { _fun00038_ip = 1369; continue _fun00037 }
+ 1357:
             output = romeon.renderOverlay;
             backup = output.bind(romeon)(echoed, result);
- 1391:
+ 1369:
             entity['children'] = backup;
             entity = foxtra.bind(tangon)(yankee, entity);
             verify[3] = entity;
             entity = romeon.renderRemixingView;
             offset = offset == entity;
             entity = undefined;
-            if(offset) { _fun00038_ip = 1475; continue _fun00037 }
- 1420:
+            if(offset) { _fun00038_ip = 1453; continue _fun00037 }
+ 1398:
             yankee = romeon.renderRemixingView;
             foxtra = _closure1_slot0;
             backup = _closure1_slot2;
@@ -2789,7 +2780,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             offset = kiloes[offset];
             offset = foxtra.bind(backup)(offset);
             entity = yankee.bind(romeon)(offset);
- 1475:
+ 1453:
             verify[4] = entity;
             romeon = _closure1_slot10;
             yankee = _closure1_slot1;

@@ -215,12 +215,17 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                         entity = argFoo;
                         entity = entity.nativeEvent;
                         entity = entity.layout;
-                        zuuluu = entity.height;
+                        michal = entity.height;
+                        entity = michal.toFixed;
+                        report = 2;
+                        zuuluu = entity.bind(michal)(report);
                         tangon = _closure3_slot0;
                         michal = tangon.get;
-                        michal = michal.bind(tangon)();
-                        if(!(zuuluu !== michal)) { _fun00006_ip = 59; continue _fun00005 }
- 39:
+                        tangon = michal.bind(tangon)();
+                        michal = tangon.toFixed;
+                        michal = michal.bind(tangon)(report);
+                        if(!(zuuluu !== michal)) { _fun00006_ip = 84; continue _fun00005 }
+ 64:
                         zuuluu = _closure3_slot1;
                         michal = undefined;
                         entity = function(argFoo) {
@@ -230,7 +235,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                             return entity;
                         };
                         entity = zuuluu.bind(michal)(entity);
- 59:
+ 84:
                         entity = undefined;
                         return entity;
                     }

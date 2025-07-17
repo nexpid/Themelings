@@ -14,31 +14,31 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             romeon = entity.eventId;
             yankee = entity.event;
             offset = entity.onClose;
-            golfie = entity.isHubContext;
+            michal = entity.isHubContext;
             option = entity.recurrenceId;
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
+            report = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 3;
-            zuuluu = michal[entity];
+            tangon = zuuluu[entity];
             entity = undefined;
-            oscard = tangon.bind(entity)(zuuluu);
-            report = oscard.openLazy;
-            tangon = _closure1_slot0;
-            zuuluu = 5;
-            zuuluu = michal[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = 4;
-            zuuluu = michal[zuuluu];
-            michal = michal.paths;
-            tangon = tangon.bind(entity)(zuuluu, michal);
-            zuuluu = _closure1_slot5;
-            michal = {};
-            michal['eventId'] = romeon;
-            michal['event'] = yankee;
-            michal['onCloseActionSheet'] = offset;
-            michal['isHubContext'] = golfie;
-            golfie = null;
-            if(!(golfie == option)) { _fun00002_ip = 161; continue _fun00001 }
+            golfie = report.bind(entity)(tangon);
+            oscard = golfie.openLazy;
+            report = _closure1_slot0;
+            tangon = 5;
+            tangon = zuuluu[tangon];
+            report = report.bind(entity)(tangon);
+            tangon = 4;
+            tangon = zuuluu[tangon];
+            zuuluu = zuuluu.paths;
+            report = report.bind(entity)(tangon, zuuluu);
+            tangon = _closure1_slot5;
+            zuuluu = {};
+            zuuluu['eventId'] = romeon;
+            zuuluu['event'] = yankee;
+            zuuluu['onCloseActionSheet'] = offset;
+            zuuluu['isHubContext'] = michal;
+            michal = null;
+            if(!(michal == option)) { _fun00002_ip = 161; continue _fun00001 }
  130:
             offset = _closure1_slot0;
             romeon = _closure1_slot2;
@@ -48,14 +48,19 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             verify = offset.getNextRecurrenceIdInEvent;
             option = verify.bind(offset)(yankee);
  161:
-            verify = golfie != option;
-            golfie = undefined;
+            verify = michal != option;
+            michal = undefined;
             if(!verify) { _fun00002_ip = 173; continue _fun00001 }
  170:
-            golfie = option;
+            michal = option;
  173:
-            michal['recurrenceId'] = golfie;
-            michal = report.bind(oscard)(tangon, zuuluu, michal);
+            zuuluu['recurrenceId'] = michal;
+            foxtra = 'stack';
+            output = golfie;
+            sizing = report;
+            kiloes = tangon;
+            backup = zuuluu;
+            michal = output[oscard](sizing, kiloes, backup, foxtra, romeon);
             return entity;
         }
     };

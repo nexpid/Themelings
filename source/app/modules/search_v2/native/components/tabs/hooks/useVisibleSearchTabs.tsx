@@ -1,12 +1,12 @@
 // app/modules/search_v2/native/components/tabs/hooks/useVisibleSearchTabs.tsx
 export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
-    report = argBar;
-    option = argBaz;
+    oscard = argBar;
+    verify = argBaz;
     zuuluu = argFre;
-    oscard = argPlu;
-    var _closure1_slot0 = report;
-    var _closure1_slot1 = option;
-    var _closure1_slot2 = oscard;
+    golfie = argPlu;
+    var _closure1_slot0 = oscard;
+    var _closure1_slot1 = verify;
+    var _closure1_slot2 = golfie;
     entity = function(argFoo) { // Original name: getSearchTabsKey
         zuuluu = argFoo;
         michal = zuuluu.join;
@@ -15,75 +15,123 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         return entity;
     };
     var _closure1_slot11 = entity;
+    tangon = function(argFoo) { // Original name: createSearchTabsLayoutManager
+        oscard = argFoo;
+        zuuluu = _closure1_slot10;
+        entity = {};
+        entity['searchContext'] = oscard;
+        option = _closure1_slot6;
+        golfie = option.getState;
+        report = function(argFoo) {
+            michal = argFoo;
+            entity = michal.isInitialSearchQuery;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        report = golfie.bind(option)(oscard, report);
+        entity['isInitialSearchQuery'] = report;
+        option = _closure1_slot6;
+        golfie = option.getState;
+        report = function(argFoo) {
+            michal = argFoo;
+            entity = michal.hasUserAddedTags;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        report = golfie.bind(option)(oscard, report);
+        entity['hasUserAddedTags'] = report;
+        report = _closure1_slot6;
+        tangon = report.getState;
+        michal = function(argFoo) {
+            michal = argFoo;
+            entity = michal.isTagsEmpty;
+            entity = entity.bind(michal)();
+            return entity;
+        };
+        michal = tangon.bind(report)(oscard, michal);
+        entity['isTagsEmpty'] = michal;
+        michal = zuuluu.prototype;
+        michal = Object.create(michal, {constructor: {value: zuuluu}});
+        yankee = michal;
+        offset = entity;
+        entity = new yankee[zuuluu](offset, verify);
+        entity = entity instanceof Object ? entity : michal;
+        return entity;
+    };
+    var _closure1_slot12 = tangon;
     entity = global;
-    verify = entity.Object;
-    golfie = verify.defineProperty;
-    tangon = {};
+    offset = entity.Object;
+    option = offset.defineProperty;
+    report = {};
     entity = true;
-    tangon['value'] = entity;
+    report['value'] = entity;
     entity = '__esModule';
-    entity = golfie.bind(verify)(zuuluu, entity, tangon);
+    entity = option.bind(offset)(zuuluu, entity, report);
     entity = 0;
-    tangon = oscard[entity];
+    report = golfie[entity];
     entity = undefined;
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot3 = tangon;
-    tangon = 1;
-    tangon = oscard[tangon];
-    golfie = option.bind(entity)(tangon);
-    tangon = 2;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot4 = tangon;
-    tangon = 3;
-    verify = oscard[tangon];
-    tangon = argCor;
-    tangon = tangon.bind(entity)(verify);
-    var _closure1_slot5 = tangon;
-    tangon = 4;
-    tangon = oscard[tangon];
-    tangon = option.bind(entity)(tangon);
-    var _closure1_slot6 = tangon;
-    tangon = 5;
-    tangon = oscard[tangon];
-    tangon = report.bind(entity)(tangon);
-    option = tangon.SearchTabs;
-    var _closure1_slot7 = option;
-    option = tangon.SEARCH_TYPE_TO_SEARCH_INITIAL_TABS;
-    var _closure1_slot8 = option;
-    tangon = tangon.SEARCH_TYPE_TO_SEARCH_RESULT_TABS;
-    var _closure1_slot9 = tangon;
-    tangon = function(argFoo) { // Original name: SearchTabsLayoutManager
-        michal = argFoo;
+    report = verify.bind(entity)(report);
+    var _closure1_slot3 = report;
+    report = 1;
+    report = golfie[report];
+    option = verify.bind(entity)(report);
+    report = 2;
+    report = golfie[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot4 = report;
+    report = 3;
+    offset = golfie[report];
+    report = argCor;
+    report = report.bind(entity)(offset);
+    var _closure1_slot5 = report;
+    report = 4;
+    report = golfie[report];
+    report = verify.bind(entity)(report);
+    var _closure1_slot6 = report;
+    report = 5;
+    report = golfie[report];
+    report = oscard.bind(entity)(report);
+    verify = report.SearchTabs;
+    var _closure1_slot7 = verify;
+    verify = report.SEARCH_TYPE_TO_SEARCH_INITIAL_TABS;
+    var _closure1_slot8 = verify;
+    report = report.SEARCH_TYPE_TO_SEARCH_RESULT_TABS;
+    var _closure1_slot9 = report;
+    report = function(argFoo) { // Original name: SearchTabsLayoutManager
+        entity = argFoo;
         zuuluu = this;
         var _closure2_slot0 = zuuluu;
-        golfie = _closure1_slot4;
-        oscard = _closure1_slot12;
+        michal = entity.searchContext;
+        golfie = entity.isInitialSearchQuery;
+        oscard = entity.hasUserAddedTags;
+        report = entity.isTagsEmpty;
+        offset = _closure1_slot4;
+        verify = _closure1_slot13;
         entity = undefined;
-        oscard = golfie.bind(entity)(zuuluu, oscard);
-        oscard = null;
-        zuuluu['visibleTabCounts'] = oscard;
-        oscard = false;
-        zuuluu['isInitialSearchQuery'] = oscard;
-        oscard = function() {
+        verify = offset.bind(entity)(zuuluu, verify);
+        verify = null;
+        zuuluu['visibleTabCounts'] = verify;
+        verify = false;
+        zuuluu['isInitialSearchQuery'] = verify;
+        verify = function() {
             entity = _closure2_slot0;
             entity = entity.candidateTabs;
             return entity;
         };
-        zuuluu['getCandidateTabs'] = oscard;
-        oscard = function() {
+        zuuluu['getCandidateTabs'] = verify;
+        verify = function() {
             entity = _closure2_slot0;
             entity = entity.visibleTabs;
             return entity;
         };
-        zuuluu['getVisibleTabs'] = oscard;
-        oscard = function() {
+        zuuluu['getVisibleTabs'] = verify;
+        verify = function() {
             entity = _closure2_slot0;
             entity = entity.visibleTabCounts;
             return entity;
         };
-        zuuluu['getVisibleTabCounts'] = oscard;
-        oscard = function(argFoo) {
+        zuuluu['getVisibleTabCounts'] = verify;
+        verify = function(argFoo) {
             _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
                 entity = argFoo;
@@ -171,8 +219,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu['computeCandidateTabs'] = oscard;
-        oscard = function(argFoo) {
+        zuuluu['computeCandidateTabs'] = verify;
+        verify = function(argFoo) {
             _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                 entity = argFoo;
@@ -202,8 +250,8 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu['updateVisibleTabs'] = oscard;
-        report = function(argFoo) {
+        zuuluu['updateVisibleTabs'] = verify;
+        option = function(argFoo) {
             _fun00007: for(var _fun00008_ip = 0; ; ) switch(_fun00008_ip) {
  0:
                 entity = argFoo;
@@ -314,26 +362,36 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                 return entity;
             }
         };
-        zuuluu['computeVisibleTabs'] = report;
+        zuuluu['computeVisibleTabs'] = option;
         zuuluu['searchContext'] = michal;
         tangon = _closure1_slot8;
-        report = michal.type;
-        report = tangon[report];
-        zuuluu['candidateTabs'] = report;
         michal = michal.type;
         michal = tangon[michal];
+        zuuluu['candidateTabs'] = michal;
+        tangon = zuuluu.computeCandidateTabs;
+        michal = {};
+        michal['isInitialSearchQuery'] = golfie;
+        michal['hasUserAddedTags'] = oscard;
+        michal['isTagsEmpty'] = report;
+        michal = tangon.bind(zuuluu)(michal);
+        romeon = zuuluu.candidateTabs;
+        michal = new Array(0);
+        yankee = 0;
+        foxtra = michal;
+        tangon = arraySpread(foxtra, romeon, yankee);
         zuuluu['visibleTabs'] = michal;
         return entity;
     };
-    var _closure1_slot12 = tangon;
-    tangon = golfie.bind(entity)(tangon);
-    var _closure1_slot10 = tangon;
-    tangon = 12;
-    tangon = oscard[tangon];
-    oscard = report.bind(entity)(tangon);
-    report = oscard.fileFinishedImporting;
-    tangon = 'modules/search_v2/native/components/tabs/hooks/useVisibleSearchTabs.tsx';
-    tangon = report.bind(oscard)(tangon);
+    var _closure1_slot13 = report;
+    report = option.bind(entity)(report);
+    var _closure1_slot10 = report;
+    report = 12;
+    report = golfie[report];
+    golfie = oscard.bind(entity)(report);
+    oscard = golfie.fileFinishedImporting;
+    report = 'modules/search_v2/native/components/tabs/hooks/useVisibleSearchTabs.tsx';
+    report = oscard.bind(golfie)(report);
+    zuuluu['createSearchTabsLayoutManager'] = tangon;
     michal = function(argFoo) { // Original name: useVisibleSearchTabs
         golfie = argFoo;
         var _closure2_slot0 = golfie;
@@ -342,13 +400,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
         zuuluu = new Array(1);
         zuuluu[0] = golfie;
         michal = function() {
-            zuuluu = _closure1_slot10;
-            tangon = _closure2_slot0;
-            michal = zuuluu.prototype;
-            michal = Object.create(michal, {constructor: {value: zuuluu}});
-            report = michal;
-            entity = new report[zuuluu](tangon, zuuluu);
-            entity = entity instanceof Object ? entity : michal;
+            zuuluu = _closure1_slot12;
+            michal = _closure2_slot0;
+            entity = undefined;
+            entity = zuuluu.bind(entity)(michal);
             return entity;
         };
         yankee = report.bind(oscard)(michal, zuuluu);

@@ -216,7 +216,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
  107:
             tangon = tangon.maxFontSizeMultiplier;
             option = '';
-            if(!(option !== romeon)) { _fun00004_ip = 340; continue _fun00003 }
+            if(!(option !== romeon)) { _fun00004_ip = 344; continue _fun00003 }
  124:
             option = {'allowLinks': true, 'allowDevLinks': false, 'allowEmojiLinks': false, 'mentionChannels': null, 'soundboardSounds': null, 'isInteracting': false, 'formatInline': true, 'noStyleAndInteraction': true, 'allowHeading': true, 'allowList': true, 'allowGameMentions': null, 'disableAutoBlockNewlines': true, 'previewLinkTarget': false};
             foxtra = true;
@@ -243,10 +243,10 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option['channelId'] = entity;
             entity = null;
             entity = entity != michal;
-            if(!entity) { _fun00004_ip = 249; continue _fun00003 }
- 246:
+            if(!entity) { _fun00004_ip = 253; continue _fun00003 }
+ 250:
             entity = michal;
- 249:
+ 253:
             option['muted'] = entity;
             michal = _closure1_slot5;
             entity = {};
@@ -268,7 +268,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             entity['maxFontSizeMultiplier'] = tangon;
             entity = michal.bind(zuuluu)(entity);
             return entity;
- 340:
+ 344:
             entity = null;
             return entity;
         }

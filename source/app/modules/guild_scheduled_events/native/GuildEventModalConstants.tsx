@@ -24,6 +24,7 @@ export default (function(argFoo, argBar, _, __, ___, argFre, argPlu) {
     zuuluu['START_EVENT_MODAL_KEY'] = michal;
     michal = 'guild-scheduled-events-list';
     zuuluu['GUILD_EVENTS_LIST_ACTION_SHEET_KEY'] = michal;
+    michal = 'guild-scheduled-events-info';
     zuuluu['GUILD_EVENT_INFO_ACTION_SHEET_KEY'] = michal;
     michal = function(argFoo, argBar) {
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {

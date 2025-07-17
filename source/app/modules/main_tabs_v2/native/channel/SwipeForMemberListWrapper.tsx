@@ -296,7 +296,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[echoed];
             ctrled = oscard.bind(tangon)(zuuluu);
             romeon = ctrled.useDerivedValue;
-            zuuluu = function() { // Original name: X
+            zuuluu = function() { // Original name: N
                 michal = _closure2_slot9;
                 zuuluu = _closure2_slot7;
                 entity = zuuluu.get;
@@ -329,7 +329,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = option[echoed];
             sequen = oscard.bind(tangon)(zuuluu);
             ctrled = sequen.useDerivedValue;
-            zuuluu = function() { // Original name: N
+            zuuluu = function() { // Original name: X
                 _fun00005: for(var _fun00006_ip = 0; ; ) switch(_fun00006_ip) {
  0:
                     tangon = _closure2_slot2;
@@ -671,30 +671,48 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             zuuluu = function() {
                 _fun00011: for(var _fun00012_ip = 0; ; ) switch(_fun00012_ip) {
  0:
-                    entity = _closure2_slot11;
-                    if(entity) { _fun00012_ip = 98; continue _fun00011 }
- 10:
-                    golfie = _closure1_slot8;
-                    oscard = _closure2_slot0;
+                    michal = _closure2_slot11;
+                    if(michal) { _fun00012_ip = 100; continue _fun00011 }
+ 13:
+                    oscard = _closure1_slot8;
+                    golfie = _closure2_slot0;
                     tangon = undefined;
                     zuuluu = false;
                     michal = 'initial';
-                    michal = golfie.bind(tangon)(oscard, zuuluu, michal);
+                    michal = oscard.bind(tangon)(golfie, zuuluu, michal);
                     zuuluu = _closure1_slot0;
-                    golfie = _closure1_slot2;
+                    oscard = _closure1_slot2;
                     michal = 22;
-                    michal = golfie[michal];
+                    michal = oscard[michal];
                     michal = zuuluu.bind(tangon)(michal);
+                    oscard = michal.ComponentDispatch;
+                    tangon = oscard.dispatch;
+                    michal = _closure1_slot11;
+                    zuuluu = michal.CHANNEL_DETAILS_HIDDEN;
+                    michal = {};
+                    michal['channelId'] = golfie;
+                    golfie = _closure2_slot1;
+                    michal['screenIndex'] = golfie;
+                    michal = tangon.bind(oscard)(zuuluu, michal);
+                    _fun00012_ip = 168; continue _fun00011;
+ 100:
+                    tangon = _closure1_slot0;
+                    zuuluu = _closure1_slot2;
+                    michal = 22;
+                    zuuluu = zuuluu[michal];
+                    michal = undefined;
+                    michal = tangon.bind(michal)(zuuluu);
                     tangon = michal.ComponentDispatch;
                     zuuluu = tangon.dispatch;
                     entity = _closure1_slot11;
-                    michal = entity.SEARCH_TABS_RESET;
+                    michal = entity.CHANNEL_DETAILS_SHOWN;
                     entity = {};
+                    oscard = _closure2_slot0;
                     entity['channelId'] = oscard;
                     report = _closure2_slot1;
                     entity['screenIndex'] = report;
                     entity = zuuluu.bind(tangon)(michal, entity);
- 98:
+ 168:
                     entity = undefined;
                     return entity;
                 }

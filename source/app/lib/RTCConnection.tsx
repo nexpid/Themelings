@@ -3260,7 +3260,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     tangon = report.state;
                     zuuluu = _closure1_slot21;
                     zuuluu = zuuluu.DISCONNECTED;
-                    if(!(tangon !== zuuluu)) { _fun00096_ip = 2370; continue _fun00095 }
+                    if(!(tangon !== zuuluu)) { _fun00096_ip = 2391; continue _fun00095 }
  430:
                     tangon = report._videoQuality;
                     var _closure3_slot3 = tangon;
@@ -3940,6 +3940,10 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     option = tangon.vadUseKrisp;
                     tangon = 'vad_use_advanced_voice_activity';
                     zuuluu[tangon] = option;
+                    tangon = offset.getExperimentalSoundshare;
+                    option = tangon.bind(offset)();
+                    tangon = 'soundshare_experimental';
+                    zuuluu[tangon] = option;
                     var _closure3_slot5 = zuuluu;
                     zuuluu = function() {
                         tangon = _closure1_slot4;
@@ -4015,19 +4019,19 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu[1] = verify;
                     verify = offset.getKrispEnableStats;
                     verify = verify.bind(offset)();
-                    if(verify) { _fun00096_ip = 2312; continue _fun00095 }
- 2293:
+                    if(verify) { _fun00096_ip = 2333; continue _fun00095 }
+ 2314:
                     offset = golfie.Promise;
                     verify = offset.resolve;
                     verify = verify.bind(offset)(yankee);
-                    _fun00096_ip = 2336; continue _fun00095;
- 2312:
+                    _fun00096_ip = 2357; continue _fun00095;
+ 2333:
                     yankee = _closure1_slot14;
                     offset = yankee.getMediaEngine;
                     yankee = offset.bind(yankee)();
                     offset = yankee.getNoiseCancellationStats;
                     verify = offset.bind(yankee)();
- 2336:
+ 2357:
                     zuuluu[2] = verify;
                     tangon = tangon.bind(option)(zuuluu);
                     zuuluu = tangon.then;
@@ -4158,7 +4162,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     entity = zuuluu.bind(tangon)(entity);
                     entity = report._trackRemainingSecureFrameTransitions;
                     entity = entity.bind(report)();
- 2370:
+ 2391:
                     entity = new Array(0);
                     report['_pingTimeouts'] = entity;
                     entity = new Array(0);
@@ -4171,11 +4175,11 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     zuuluu = null;
                     report['_mediaSessionId'] = zuuluu;
                     option = report._voiceQuality;
-                    if(!(zuuluu != option)) { _fun00096_ip = 2440; continue _fun00095 }
- 2430:
+                    if(!(zuuluu != option)) { _fun00096_ip = 2461; continue _fun00095 }
+ 2451:
                     entity = option.stop;
                     entity = entity.bind(option)();
- 2440:
+ 2461:
                     report['_voiceQuality'] = zuuluu;
                     verify = golfie.clearInterval;
                     option = report._voiceQualityPeriodicStatsInterval;
@@ -4186,26 +4190,26 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report['_noiseCancellationError'] = tangon;
                     report['_numNoiseCancellationChanges'] = tangon;
                     verify = report._voiceDuration;
-                    if(!(zuuluu != verify)) { _fun00096_ip = 2509; continue _fun00095 }
- 2499:
+                    if(!(zuuluu != verify)) { _fun00096_ip = 2530; continue _fun00095 }
+ 2520:
                     option = verify.stop;
                     option = option.bind(verify)();
- 2509:
+ 2530:
                     report['_voiceDuration'] = zuuluu;
                     verify = report._videoQuality;
-                    if(!(zuuluu != verify)) { _fun00096_ip = 2535; continue _fun00095 }
- 2525:
+                    if(!(zuuluu != verify)) { _fun00096_ip = 2556; continue _fun00095 }
+ 2546:
                     option = verify.stop;
                     option = option.bind(verify)();
- 2535:
+ 2556:
                     report['_videoQuality'] = zuuluu;
                     report['_videoHealthManager'] = zuuluu;
                     verify = report._localMediaSinkWantsManager;
-                    if(!(zuuluu != verify)) { _fun00096_ip = 2567; continue _fun00095 }
- 2557:
+                    if(!(zuuluu != verify)) { _fun00096_ip = 2588; continue _fun00095 }
+ 2578:
                     option = verify.reset;
                     option = option.bind(verify)();
- 2567:
+ 2588:
                     report['_secureFramesState'] = zuuluu;
                     verify = golfie.Set;
                     option = report.userId;
@@ -4229,13 +4233,13 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     report['_secureFramesTransitionPrepareCount'] = tangon;
                     report['_secureFramesTransitionExecuteCount'] = tangon;
                     tangon = report._connection;
-                    if(!(zuuluu != tangon)) { _fun00096_ip = 2709; continue _fun00095 }
- 2687:
+                    if(!(zuuluu != tangon)) { _fun00096_ip = 2730; continue _fun00095 }
+ 2708:
                     tangon = report._connection;
                     report['_connection'] = zuuluu;
                     zuuluu = tangon.destroy;
                     zuuluu = zuuluu.bind(tangon)();
- 2709:
+ 2730:
                     tangon = report.setState;
                     michal = _closure1_slot21;
                     zuuluu = michal.DISCONNECTED;
@@ -4357,7 +4361,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
                     verify = yankee;
  311:
                     michal['signingKeyId'] = verify;
-                    verify = zuuluu._getExtraConnectionOptions;
+                    verify = zuuluu.getExtraConnectionOptions;
                     output = verify.bind(zuuluu)();
                     result = michal;
                     verify = copyDataProperties(result, output);
@@ -8159,7 +8163,7 @@ export default (function(argFoo, argBar, argBaz, argCor, argGra, argFre, argPlu)
             report['value'] = golfie;
             entity[94] = report;
             report = {};
-            golfie = '_getExtraConnectionOptions';
+            golfie = 'getExtraConnectionOptions';
             report['key'] = golfie;
             golfie = function() { // Original name: value
                 entity = {};

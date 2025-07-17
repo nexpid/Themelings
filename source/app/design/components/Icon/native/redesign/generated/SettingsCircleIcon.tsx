@@ -1,0 +1,134 @@
+// app/design/components/Icon/native/redesign/generated/SettingsCircleIcon.tsx
+export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
+    report = argBar;
+    zuuluu = argFre;
+    oscard = argPlu;
+    var _closure1_slot0 = report;
+    entity = argBaz;
+    var _closure1_slot1 = entity;
+    var _closure1_slot2 = oscard;
+    entity = global;
+    option = entity.Object;
+    golfie = option.defineProperty;
+    tangon = {};
+    entity = true;
+    tangon['value'] = entity;
+    entity = '__esModule';
+    entity = golfie.bind(option)(zuuluu, entity, tangon);
+    entity = 0;
+    golfie = oscard[entity];
+    tangon = argCor;
+    entity = undefined;
+    tangon = tangon.bind(entity)(golfie);
+    tangon = 1;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    tangon = tangon.View;
+    var _closure1_slot3 = tangon;
+    tangon = 2;
+    tangon = oscard[tangon];
+    tangon = report.bind(entity)(tangon);
+    golfie = tangon.jsx;
+    var _closure1_slot4 = golfie;
+    tangon = tangon.jsxs;
+    var _closure1_slot5 = tangon;
+    tangon = 7;
+    tangon = oscard[tangon];
+    oscard = report.bind(entity)(tangon);
+    report = oscard.fileFinishedImporting;
+    tangon = 'design/components/Icon/native/redesign/generated/SettingsCircleIcon.tsx';
+    tangon = report.bind(oscard)(tangon);
+    michal = function(argFoo) {
+        _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
+ 0:
+            zuuluu = argFoo;
+            offset = zuuluu.style;
+            foxtra = zuuluu.secondaryColor;
+            tangon = undefined;
+            if(!(foxtra === tangon)) { _fun00002_ip = 54; continue _fun00001 }
+ 20:
+            michal = _closure1_slot1;
+            report = _closure1_slot2;
+            entity = 3;
+            entity = report[entity];
+            entity = michal.bind(tangon)(entity);
+            entity = entity.colors;
+            foxtra = entity.STATUS_DANGER;
+ 54:
+            yankee = zuuluu.color;
+            if(!(yankee === tangon)) { _fun00002_ip = 97; continue _fun00001 }
+ 63:
+            michal = _closure1_slot1;
+            report = _closure1_slot2;
+            entity = 3;
+            entity = report[entity];
+            entity = michal.bind(tangon)(entity);
+            entity = entity.colors;
+            yankee = entity.INTERACTIVE_NORMAL;
+ 97:
+            michal = {'style': 0, 'secondaryColor': 0, 'color': 0};
+            result = null;
+            echoed = michal;
+            entity = silentSetPrototypeOf(echoed, result);
+            echoed = {};
+            result = zuuluu;
+            output = michal;
+            verify = copyDataProperties(echoed, result, output);
+            zuuluu = _closure1_slot5;
+            michal = _closure1_slot3;
+            entity = {};
+            option = _closure1_slot4;
+            backup = _closure1_slot0;
+            kiloes = _closure1_slot2;
+            oscard = 4;
+            report = kiloes[oscard];
+            report = backup.bind(tangon)(report);
+            golfie = report.BaseIconImage;
+            report = {};
+            sizing = 5;
+            sizing = kiloes[sizing];
+            sizing = backup.bind(tangon)(sizing);
+            report['source'] = sizing;
+            report['color'] = foxtra;
+            report['style'] = offset;
+            echoed = report;
+            result = verify;
+            foxtra = copyDataProperties(echoed, result);
+            golfie = option.bind(tangon)(golfie, report);
+            report = new Array(2);
+            report[0] = golfie;
+            oscard = kiloes[oscard];
+            oscard = backup.bind(tangon)(oscard);
+            golfie = oscard.BaseIconImage;
+            oscard = {};
+            foxtra = 6;
+            foxtra = kiloes[foxtra];
+            foxtra = backup.bind(tangon)(foxtra);
+            oscard['source'] = foxtra;
+            oscard['color'] = yankee;
+            yankee = new Array(1);
+            yankee[0] = offset;
+            offset = yankee.flat;
+            result = offset.bind(yankee)();
+            offset = new Array(1);
+            echoed = offset;
+            output = 0;
+            romeon = arraySpread(echoed, result, output);
+            yankee = {'position': 'absolute', 'top': 0};
+            offset[romeon] = yankee;
+            yankee = 1;
+            yankee = romeon + yankee;
+            oscard['style'] = offset;
+            echoed = oscard;
+            result = verify;
+            verify = copyDataProperties(echoed, result);
+            oscard = option.bind(tangon)(golfie, oscard);
+            report[1] = oscard;
+            entity['children'] = report;
+            entity = zuuluu.bind(tangon)(michal, entity);
+            return entity;
+        }
+    };
+    zuuluu['SettingsCircleIcon'] = michal;
+    return entity;
+})();

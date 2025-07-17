@@ -25,38 +25,38 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     michal = function(argFoo) { // Original name: openInstantInviteActionSheet
         _fun00001: for(var _fun00002_ip = 0; ; ) switch(_fun00002_ip) {
  0:
-            golfie = argFoo;
-            tangon = _closure1_slot1;
-            michal = _closure1_slot2;
+            michal = argFoo;
+            report = _closure1_slot1;
+            zuuluu = _closure1_slot2;
             entity = 0;
-            zuuluu = michal[entity];
+            tangon = zuuluu[entity];
             entity = undefined;
-            oscard = tangon.bind(entity)(zuuluu);
-            report = oscard.openLazy;
-            tangon = _closure1_slot0;
-            zuuluu = 2;
-            zuuluu = michal[zuuluu];
-            tangon = tangon.bind(entity)(zuuluu);
-            zuuluu = 1;
-            zuuluu = michal[zuuluu];
-            michal = michal.paths;
-            tangon = tangon.bind(entity)(zuuluu, michal);
-            verify = golfie.vanityURLCode;
-            michal = null;
-            if(!(michal == verify)) { _fun00002_ip = 89; continue _fun00001 }
+            golfie = report.bind(entity)(tangon);
+            oscard = golfie.openLazy;
+            report = _closure1_slot0;
+            tangon = 2;
+            tangon = zuuluu[tangon];
+            report = report.bind(entity)(tangon);
+            tangon = 1;
+            tangon = zuuluu[tangon];
+            zuuluu = zuuluu.paths;
+            report = report.bind(entity)(tangon, zuuluu);
+            verify = michal.vanityURLCode;
+            zuuluu = null;
+            if(!(zuuluu == verify)) { _fun00002_ip = 89; continue _fun00001 }
  79:
-            michal = golfie.channel;
-            verify = michal.id;
+            zuuluu = michal.channel;
+            verify = zuuluu.id;
  89:
-            michal = global;
-            michal = michal.HermesInternal;
-            zuuluu = michal.concat;
-            michal = 'InstantInviteActionSheet-';
-            zuuluu = zuuluu.bind(michal)(verify);
-            michal = {};
+            zuuluu = global;
+            zuuluu = zuuluu.HermesInternal;
+            tangon = zuuluu.concat;
+            zuuluu = 'InstantInviteActionSheet-';
+            tangon = tangon.bind(zuuluu)(verify);
+            zuuluu = {};
+            backup = zuuluu;
             foxtra = michal;
-            romeon = golfie;
-            verify = copyDataProperties(foxtra, romeon);
+            verify = copyDataProperties(backup, foxtra);
             verify = _closure1_slot0;
             offset = _closure1_slot2;
             option = 3;
@@ -65,17 +65,22 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             option = option.ImpressionNames;
             verify = option.GUILD_INVITE;
             option = 'impressionName';
-            michal[option] = verify;
-            option = {};
-            verify = golfie.channel;
-            verify = verify.id;
-            option['invite_channel_id'] = verify;
-            golfie = golfie.channel;
-            golfie = golfie.guild_id;
-            option['invite_guild_id'] = golfie;
-            golfie = 'impressionProperties';
-            michal[golfie] = option;
-            michal = report.bind(oscard)(tangon, zuuluu, michal);
+            zuuluu[option] = verify;
+            verify = {};
+            option = michal.channel;
+            option = option.id;
+            verify['invite_channel_id'] = option;
+            option = michal.channel;
+            option = option.guild_id;
+            verify['invite_guild_id'] = option;
+            option = 'impressionProperties';
+            zuuluu[option] = verify;
+            yankee = michal.stackingBehavior;
+            kiloes = golfie;
+            backup = report;
+            foxtra = tangon;
+            romeon = zuuluu;
+            michal = kiloes[oscard](backup, foxtra, romeon, yankee, offset);
             return entity;
         }
     };

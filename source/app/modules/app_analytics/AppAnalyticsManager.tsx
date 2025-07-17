@@ -113,7 +113,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     tangon = tangon.MINUTE;
     tangon = option * tangon;
     var _closure1_slot16 = tangon;
-    tangon = 16;
+    tangon = 17;
     tangon = oscard[tangon];
     tangon = golfie.bind(entity)(tangon);
     michal = function(argFoo) {
@@ -475,7 +475,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
             _fun00015: for(var _fun00016_ip = 0; ; ) switch(_fun00016_ip) {
  0:
                 tangon = _closure1_slot11;
-                zuuluu = tangon.findActivity;
+                michal = tangon.findActivity;
                 entity = function(argFoo) {
                     entity = argFoo;
                     michal = entity.type;
@@ -484,41 +484,68 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
                     entity = michal === entity;
                     return entity;
                 };
-                zuuluu = zuuluu.bind(tangon)(entity);
-                tangon = _closure1_slot8;
-                entity = tangon.getCurrentGameForAnalytics;
-                report = entity.bind(tangon)();
+                golfie = michal.bind(tangon)(entity);
+                michal = _closure1_slot8;
+                entity = michal.getCurrentGameForAnalytics;
+                report = entity.bind(michal)();
                 entity = {};
-                oscard = _closure1_slot1;
-                tangon = _closure1_slot2;
+                tangon = _closure1_slot1;
+                oscard = _closure1_slot2;
                 michal = 15;
-                michal = tangon[michal];
-                tangon = undefined;
-                michal = oscard.bind(tangon)(michal);
-                michal = michal.bind(tangon)(zuuluu);
+                michal = oscard[michal];
+                oscard = undefined;
+                michal = tangon.bind(oscard)(michal);
+                michal = michal.bind(oscard)(golfie);
                 entity['game_platform'] = michal;
                 michal = null;
-                oscard = michal != zuuluu;
+                option = michal != golfie;
                 tangon = null;
-                if(!oscard) { _fun00016_ip = 91; continue _fun00015 }
+                if(!option) { _fun00016_ip = 91; continue _fun00015 }
  86:
-                tangon = zuuluu.name;
+                tangon = golfie.name;
  91:
                 entity['game_name'] = tangon;
-                oscard = michal != report;
+                option = michal != report;
                 tangon = null;
-                if(!oscard) { _fun00016_ip = 111; continue _fun00015 }
+                if(!option) { _fun00016_ip = 111; continue _fun00015 }
  105:
                 tangon = report.exeName;
  111:
                 entity['game_exe_name'] = tangon;
-                tangon = michal != zuuluu;
-                michal = null;
-                if(!tangon) { _fun00016_ip = 133; continue _fun00015 }
+                option = michal != golfie;
+                tangon = null;
+                if(!option) { _fun00016_ip = 133; continue _fun00015 }
  127:
-                michal = zuuluu.application_id;
+                tangon = golfie.application_id;
  133:
-                entity['game_id'] = michal;
+                entity['game_id'] = tangon;
+                golfie = michal != report;
+                tangon = null;
+                if(!golfie) { _fun00016_ip = 153; continue _fun00015 }
+ 147:
+                tangon = report.distributor;
+ 153:
+                entity['game_distributor'] = tangon;
+                golfie = michal != report;
+                tangon = null;
+                if(!golfie) { _fun00016_ip = 175; continue _fun00015 }
+ 169:
+                tangon = report.sku;
+ 175:
+                entity['game_distributor_game_id'] = tangon;
+                tangon = michal != report;
+                michal = null;
+                if(!tangon) { _fun00016_ip = 222; continue _fun00015 }
+ 191:
+                tangon = _closure1_slot0;
+                golfie = _closure1_slot2;
+                zuuluu = 16;
+                zuuluu = golfie[zuuluu];
+                tangon = tangon.bind(oscard)(zuuluu);
+                zuuluu = tangon.getSubgameMetadata;
+                michal = zuuluu.bind(tangon)(report);
+ 222:
+                entity['game_metadata'] = michal;
                 return entity;
             }
         };
@@ -533,7 +560,7 @@ export default (function(argFoo, argBar, argBaz, _, __, argFre, argPlu) {
     foxtra = tangon;
     michal = new foxtra[michal](romeon);
     michal = michal instanceof Object ? michal : tangon;
-    tangon = 17;
+    tangon = 18;
     tangon = oscard[tangon];
     oscard = report.bind(entity)(tangon);
     report = oscard.fileFinishedImporting;
