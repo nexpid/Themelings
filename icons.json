@@ -5437,13 +5437,14 @@
         "height": 24
     },
     "ic_image": {
-        "file": "modules/polls/native/images/ic_image.png",
-        "hash": "98bac6d960f3d3373ce154b0b26cfa7b",
+        "file": "images/native/icons/ic_image.png",
+        "hash": "e71bfb9b43d4bbd3706e078113315f40",
         "scales": [
-            1
+            2,
+            3
         ],
-        "width": 32,
-        "height": 32
+        "width": 16,
+        "height": 16
     },
     "ic_image_upload": {
         "file": "images/native/icons/ic_image_upload.png",
@@ -5586,15 +5587,6 @@
         ],
         "width": 24,
         "height": 24
-    },
-    "ic_list": {
-        "file": "modules/polls/native/images/ic_list.png",
-        "hash": "a379906fe7736609cf7c1796ec2d6742",
-        "scales": [
-            1
-        ],
-        "width": 32,
-        "height": 32
     },
     "ic_loading_emoji_dark": {
         "file": "images/native/icons/ic_loading_emoji_dark.png",
