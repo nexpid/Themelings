@@ -102,6 +102,7 @@ export default {
 			{
 				change: DiffEnum.Changed,
 				sizeDiff: "-2 KB",
+				sizeDiffNum: -2000,
 			},
 		],
 		[

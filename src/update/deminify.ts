@@ -1,111 +1,103 @@
+import { writeFileSync } from "node:fs";
 import { extname } from "node:path";
 
-function getMatchTemplate(letter: string) {
-	return new RegExp(`(\\W|^)${letter}(\\d{1,2})(\\W|$)`, "g");
-}
+const variableMatch = /\br(\d{1,2})\b/g;
+const argumentMatch = /\ba(\d{1,2})\b/g;
 
-// plus some random variable names spat out by chat gpt thank you chat gpt
-const variableNames = [
-	"entity",
-	"michal",
-	"zuuluu",
-	"tangon",
-	"report",
-	"oscard",
-	"golfie",
-	"option",
-	"verify",
-	"offset",
-	"yankee",
-	"romeon",
-	"foxtra",
-	"backup",
-	"kiloes",
-	"sizing",
-	"output",
-	"result",
-	"echoed",
-	"update",
-	"source",
-	"ctrled",
-	"vacuum",
-	"sequen",
-	"config",
-	"record",
-	"cntext",
-	"papara",
-	"target",
-	"status",
-	"sierra",
-	"limora",
-	"whisks",
-	"equals",
-	"quebec",
-];
-const variableMatch = getMatchTemplate("r");
+const funMatch = /\b(_fun)(\d+)(_ip)?\b/g;
 
-const argumentNames = [
-	"argFoo",
-	"argBar",
-	"argBaz",
-	"argCor",
-	"argGra",
-	"argFre",
-	"argPlu",
-];
-const argumentMatch = getMatchTemplate("a");
+const functNameMatch = /(function\*?) ?(\(.*?\) {) \/\/ Original name: +\??(.+), environment: \w+$/g;
+const functOpenMatch = /function\*? ?\((.*?)\) {/;
+const functCloseMatch = /^\s+};/;
 
-const funMatch = /(\W|^)(_fun\d+(?:_ip)?)(\W|$)/gm;
+const stringMatch = /(["'`])(?:\\.|[^\\])*?\1/g;
+// biome-ignore lint/suspicious/noControlCharactersInRegex: this is needed
+const nullstringMatch = /(["'`])\x00(\d+)\x00\1/g;
 
 export function deminify(code: string, path: string) {
-	const argumentUsage = new Map<string, number>();
-	for (const [_, __, num] of code.match(argumentMatch) ?? []) {
-		if (argumentUsage.has(num))
-			argumentUsage.set(num, argumentUsage.get(num)! + 1);
-		else argumentUsage.set(num, 1);
-	}
-
-	const variableReplacer = (
-		_: string,
-		before: string,
-		num: string,
-		after: string,
-	) =>
-		`${before}${variableNames[Number(num)] ?? `variable${Number(num) + 1}`}${after}`;
-
-	// weird _fun52690 & _fun52690_ip vars which are seemingly randomized
-	const funCache = new Map<string, number>();
-	const getFun = (fun: string) => {
-		const suffix = fun.split("_")[2] ? `_${fun.split("_")[2]}` : "";
-
-		if (!funCache.has(fun)) funCache.set(fun, funCache.size + 1);
-		return `_fun${funCache.get(fun)!.toString().padStart(5, "0")}${suffix}`;
-	};
-
-	let unusedRep = 0;
-	let final = code
-		.replace(
-			argumentMatch,
-			(_, before, num, after) =>
-				`${before}${argumentUsage.has(num) && argumentUsage.get(num)! > 1 ? (argumentNames[Number(num)] ?? `argument${Number(num) + 1}`) : "_".repeat(++unusedRep)}${after}`,
-		)
-		.replace(variableMatch, variableReplacer)
-		.replace(variableMatch, variableReplacer) // do 2 rounds because uhhhhhhhhh im really good at coding
-		.replace(
-			funMatch,
-			(_, before, fun, after) => `${before}${getFun(fun)}${after}`,
-		);
-
-	final = final
+	const cleaned = code
 		.split(" = ")
 		.slice(1)
 		.join(" = ")
 		.slice(0, -1)
 		.replace(/ \/\/ Environment: \w+$/gm, "")
-		.replace(/( \/\/ Orig.+?), environment: \w+$/gm, "$1");
+		.split("\n");
 
-    return {
-        final,
-        res: `// ${path}\n${extname(path).startsWith(".ts") ? "export default" : "module.exports ="} (${final})();`
+	const lines: string[] = [];
+
+	let depth = 0;
+	const localArgs = new Map<number, number>();
+	const funMap = new Map<string, string>();
+
+	const varReplacer = (_: string, id: string) => `var${Number(id) + 1}`;
+	const argReplacer = (_: string, id: string) => {
+		const n = Number(id),
+			depth = localArgs.get(n);
+		if (!depth) console.warn(`WARNING! arg${n} does not have any depth (${path})`);
+
+		return `${depth === 1 ? "native" : "arg"}${n + 1}`;
+	};
+	const funReplacer = (_: string, prefix: string, id: string, suffix: string) => {
+		const num = funMap.get(id) ?? String(funMap.size + 1).padStart(4, "0");
+		funMap.set(id, num);
+
+		return `${prefix}${num}${suffix ?? ""}`;
+	};
+	const functNameReplacer = (_: string, prefix: string, stuff: string, name: string) => `${prefix} ${name}${stuff}`;
+
+	let j = 1;
+	for (const raw of cleaned) {
+		const nullStrings = new Map<string, string>();
+		const line = raw.replace(stringMatch, (match, quot: string) => {
+			const index = nullStrings.size + 1;
+			nullStrings.set(String(index), match);
+			return `${quot}\x00${index}\x00${quot}`;
+		});
+
+		// check for start of function
+		if (functOpenMatch.test(line)) {
+			const openedArgs = line.match(functOpenMatch)?.[1]?.split(", ")?.length || 0;
+
+			depth++;
+			for (let i = 0; i < openedArgs; i++) {
+				localArgs.set(i, depth);
+			}
+		}
+
+		// check for end of function
+		if (functCloseMatch.test(line)) {
+			for (const arg of localArgs.keys()) {
+				const n = localArgs.get(arg);
+				if (n === depth) localArgs.set(arg, n - 1);
+			}
+			depth--;
+		}
+
+		// sanity check
+		const y = j++;
+		if (depth < 0) {
+			writeFileSync("temp/depthcrashed.js", cleaned.join("\n"));
+			throw new Error(`parsing failed, depth went below 0 (LINE: ${y}, FILE: ${path})`);
+		}
+
+		const parsed = line
+			.replace(variableMatch, varReplacer)
+			.replace(argumentMatch, argReplacer)
+			.replace(funMatch, funReplacer)
+			.replace(functNameMatch, functNameReplacer)
+			.replace(nullstringMatch, (_, __, id: string) => {
+				if (nullStrings.has(id)) return nullStrings.get(id)!;
+				else {
+					writeFileSync("temp/nullcrashed.js", cleaned.join("\n"));
+					throw new Error(`parsing failed, nullstring ${id} doesn't exist (LINE: ${y}, FILE: ${path})`);
+				}
+			});
+		lines.push(parsed);
+	}
+
+	const final = lines.join("\n");
+	return {
+		final,
+		res: `// ${path}\n${extname(path).startsWith(".ts") ? "export default" : "module.exports ="} (${final})();`,
 	};
 }

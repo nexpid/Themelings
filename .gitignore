@@ -177,5 +177,4 @@ dist
 # Custom
 tmp
 *.env
-src/colors.png
-src/files.png
+temp
