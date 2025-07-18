@@ -100,14 +100,14 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = var4.isIOS;
                 var4 = var2.bind(var4)();
                 var2 = global;
-                if(var4) { _fun0003_ip = 75; continue _fun0003 }
+                if(var4) { _fun0003_ip = 71; continue _fun0003 }
  42:
                 var6 = var2.Promise;
                 var5 = var6.resolve;
                 var4 = {'hasActivity': false, 'hasActiveActivity': false};
                 var4 = var5.bind(var6)(var4);
                 return var4;
- 75:
+ 71:
                 var3 = _closure1_slot3;
                 var3 = var3.DCDLockscreenWidgetManager;
                 var _closure2_slot0 = var3;
@@ -132,10 +132,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                             var2['hasActivity'] = var1;
                             var1 = arg3;
                             var2['hasActiveActivity'] = var1;
-                            _fun0004_ip = 50; continue _fun0004;
+                            _fun0004_ip = 46; continue _fun0004;
  36:
                             var2 = {'hasActivity': false, 'hasActiveActivity': false};
- 50:
+ 46:
                             var1 = undefined;
                             var2 = var3.bind(var1)(var2);
                             return var1;

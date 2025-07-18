@@ -21,7 +21,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
     var7 = var7.VanillaExperiment;
-    var9 = new Array(89);
+    var9 = new Array(91);
     var9[0] = var7;
     var7 = var6[var4];
     var7 = var5.bind(var1)(var7);
@@ -441,6 +441,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = 72;
     var4 = var6[var4];
     var4 = var5.bind(var1)(var4);
+    var4 = var4.NitroRebrandChurnModalExperiment;
+    var9[89] = var4;
+    var4 = 73;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
+    var4 = var4.AlignChatInputExperiment;
+    var9[90] = var4;
+    var4 = 74;
+    var4 = var6[var4];
+    var4 = var5.bind(var1)(var4);
     var8 = var4.CommonTriggerPointConfiguration;
     var12 = var2.CONNECTION_OPEN;
     var2 = {};
@@ -453,7 +463,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var11 = var2;
     var2 = new var14[var8](var13, var12, var11, var10);
     var2 = var2 instanceof Object ? var2 : var4;
-    var4 = 73;
+    var4 = 75;
     var4 = var6[var4];
     var6 = var5.bind(var1)(var4);
     var5 = var6.fileFinishedImporting;

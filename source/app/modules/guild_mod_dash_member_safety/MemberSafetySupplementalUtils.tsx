@@ -308,18 +308,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var5['MANUAL_MEMBER_VERIFICATION'] = var6;
     var4 = 'MANUAL_MEMBER_VERIFICATION';
     var5[var6] = var4;
+    var6 = 8;
+    var5['SOCIAL_LAYER_INTEGRATION_LINKED_CHANNEL'] = var6;
+    var4 = 'SOCIAL_LAYER_INTEGRATION_LINKED_CHANNEL';
+    var5[var6] = var4;
     var _closure1_slot7 = var5;
     var4 = {};
-    var6 = 'discord';
-    var4['DISCORD'] = var6;
-    var6 = 'twitch';
-    var4['TWITCH'] = var6;
-    var6 = 'youtube';
-    var4['YOUTUBE'] = var6;
-    var6 = 'guild_subscription';
-    var4['GUILD_SUBSCRIPTION'] = var6;
+    var9 = 'discord';
+    var4['DISCORD'] = var9;
+    var9 = 'twitch';
+    var4['TWITCH'] = var9;
+    var9 = 'youtube';
+    var4['YOUTUBE'] = var9;
+    var9 = 'guild_subscription';
+    var4['GUILD_SUBSCRIPTION'] = var9;
     var _closure1_slot8 = var4;
-    var6 = 8;
     var6 = var8[var6];
     var8 = var7.bind(var1)(var6);
     var7 = var8.fileFinishedImporting;
@@ -365,32 +368,36 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  23:
             var3 = _closure1_slot7;
             var3 = var3.BOT;
-            if(!(var3 !== var4)) { _fun0002_ip = 631; continue _fun0002 }
+            if(!(var3 !== var4)) { _fun0002_ip = 707; continue _fun0002 }
  43:
             var3 = _closure1_slot7;
             var3 = var3.INTEGRATION;
-            if(!(var3 !== var4)) { _fun0002_ip = 574; continue _fun0002 }
+            if(!(var3 !== var4)) { _fun0002_ip = 650; continue _fun0002 }
  60:
             var3 = _closure1_slot7;
             var3 = var3.DISCOVERY;
-            if(!(var3 !== var4)) { _fun0002_ip = 515; continue _fun0002 }
+            if(!(var3 !== var4)) { _fun0002_ip = 591; continue _fun0002 }
  77:
             var3 = _closure1_slot7;
             var3 = var3.HUB;
-            if(!(var3 !== var4)) { _fun0002_ip = 456; continue _fun0002 }
+            if(!(var3 !== var4)) { _fun0002_ip = 532; continue _fun0002 }
  94:
             var3 = _closure1_slot7;
             var3 = var3.INVITE;
-            if(!(var3 !== var4)) { _fun0002_ip = 397; continue _fun0002 }
+            if(!(var3 !== var4)) { _fun0002_ip = 473; continue _fun0002 }
  111:
             var3 = _closure1_slot7;
             var3 = var3.VANITY_URL;
-            if(!(var3 !== var4)) { _fun0002_ip = 260; continue _fun0002 }
+            if(!(var3 !== var4)) { _fun0002_ip = 336; continue _fun0002 }
  128:
             var3 = _closure1_slot7;
             var3 = var3.MANUAL_MEMBER_VERIFICATION;
-            if(!(var3 !== var4)) { _fun0002_ip = 201; continue _fun0002 }
- 142:
+            if(!(var3 !== var4)) { _fun0002_ip = 277; continue _fun0002 }
+ 145:
+            var3 = _closure1_slot7;
+            var3 = var3.SOCIAL_LAYER_INTEGRATION_LINKED_CHANNEL;
+            if(!(var3 !== var4)) { _fun0002_ip = 218; continue _fun0002 }
+ 159:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 2;
@@ -404,7 +411,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.DvMBkZ;
             var3 = var4.bind(var6)(var3);
             return var3;
- 201:
+ 218:
+            var8 = _closure1_slot0;
+            var9 = _closure1_slot2;
+            var3 = 2;
+            var4 = var9[var3];
+            var4 = var8.bind(var5)(var4);
+            var6 = var4.intl;
+            var4 = var6.string;
+            var3 = var9[var3];
+            var3 = var8.bind(var5)(var3);
+            var3 = var3.t;
+            var3 = var3.9/ZreX;
+            var3 = var4.bind(var6)(var3);
+            return var3;
+ 277:
             var8 = _closure1_slot0;
             var9 = _closure1_slot2;
             var3 = 2;
@@ -418,12 +439,12 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.vdu7oa;
             var3 = var4.bind(var6)(var3);
             return var3;
- 260:
+ 336:
             var3 = null;
-            if(!(var3 != var7)) { _fun0002_ip = 338; continue _fun0002 }
- 266:
-            if(var2) { _fun0002_ip = 338; continue _fun0002 }
- 269:
+            if(!(var3 != var7)) { _fun0002_ip = 414; continue _fun0002 }
+ 342:
+            if(var2) { _fun0002_ip = 414; continue _fun0002 }
+ 345:
             var3 = _closure1_slot0;
             var8 = _closure1_slot2;
             var2 = 2;
@@ -438,8 +459,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = {};
             var2['vanityUrl'] = var7;
             var2 = var4.bind(var6)(var3, var2);
-            _fun0002_ip = 395; continue _fun0002;
- 338:
+            _fun0002_ip = 471; continue _fun0002;
+ 414:
             var7 = _closure1_slot0;
             var8 = _closure1_slot2;
             var3 = 2;
@@ -452,9 +473,9 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.t;
             var3 = var3.dGiD1N;
             var2 = var4.bind(var6)(var3);
- 395:
+ 471:
             return var2;
- 397:
+ 473:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -468,7 +489,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2./3vIRU;
             var2 = var3.bind(var4)(var2);
             return var2;
- 456:
+ 532:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -482,7 +503,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.Op8B3N;
             var2 = var3.bind(var4)(var2);
             return var2;
- 515:
+ 591:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -496,7 +517,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.Ql/e9f;
             var2 = var3.bind(var4)(var2);
             return var2;
- 574:
+ 650:
             var6 = _closure1_slot0;
             var7 = _closure1_slot2;
             var2 = 2;
@@ -510,7 +531,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var2 = var2.gmCUFx;
             var2 = var3.bind(var4)(var2);
             return var2;
- 631:
+ 707:
             var4 = _closure1_slot0;
             var6 = _closure1_slot2;
             var1 = 2;

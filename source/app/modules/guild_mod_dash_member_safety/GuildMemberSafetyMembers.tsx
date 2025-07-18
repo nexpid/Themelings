@@ -205,26 +205,30 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var9 = var7.userId;
                 var1 = var7.unusualDMActivityUntil;
                 var1 = var11.bind(var3)(var9, var1);
-                var16 = var1.hasUnusualDmActivity;
-                var15 = var1.hasUnusualAccountActivity;
-                var14 = var1.sourceInviteCode;
-                var13 = var1.joinSourceType;
-                var12 = var1.inviterId;
-                var11 = var1.integrationType;
-                var17 = _closure1_slot5;
-                var9 = var17.getUser;
+                var18 = var1.hasUnusualDmActivity;
+                var17 = var1.hasUnusualAccountActivity;
+                var16 = var1.sourceInviteCode;
+                var15 = var1.joinSourceType;
+                var14 = var1.inviterId;
+                var13 = var1.integrationType;
+                var12 = var1.joinSourceApplicationId;
+                var11 = var1.joinSourceChannelId;
+                var19 = _closure1_slot5;
+                var9 = var19.getUser;
                 var1 = var7.userId;
-                var9 = var9.bind(var17)(var1);
+                var9 = var9.bind(var19)(var1);
                 var1 = {};
-                var1['hasUnusualDmActivity'] = var16;
-                var1['hasUnusualAccountActivity'] = var15;
-                var1['sourceInviteCode'] = var14;
-                var1['joinSourceType'] = var13;
-                var1['inviterId'] = var12;
-                var1['integrationType'] = var11;
-                var19 = var1;
-                var18 = var7;
-                var11 = copyDataProperties(var19, var18);
+                var1['hasUnusualDmActivity'] = var18;
+                var1['hasUnusualAccountActivity'] = var17;
+                var1['sourceInviteCode'] = var16;
+                var1['joinSourceType'] = var15;
+                var1['inviterId'] = var14;
+                var1['integrationType'] = var13;
+                var1['joinSourceApplicationId'] = var12;
+                var1['joinSourceChannelId'] = var11;
+                var21 = var1;
+                var20 = var7;
+                var11 = copyDataProperties(var21, var20);
                 var3 = var3.newMemberTimestamp;
                 var11 = var4 <= var3;
                 var3 = 'isCurrentGuildMemberByTimestamp';
@@ -241,8 +245,8 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var3 = arg2;
                 var3 = var3.selectedSort;
                 var9 = null;
-                if(!(var9 == var3)) { _fun0003_ip = 282; continue _fun0003 }
- 250:
+                if(!(var9 == var3)) { _fun0003_ip = 304; continue _fun0003 }
+ 272:
                 var9 = _closure1_slot0;
                 var11 = _closure1_slot2;
                 var8 = 4;
@@ -250,15 +254,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var8 = var9.bind(var10)(var8);
                 var8 = var8.OrderBy;
                 var3 = var8.ORDER_BY_UNSPECIFIED;
- 282:
+ 304:
                 var5 = var5.bind(var6)(var7, var3);
                 var3 = 'sort';
                 var1[var3] = var5;
                 var3 = 'joinedAtTimestamp';
                 var1[var3] = var4;
-                var19 = var1;
-                var18 = var2;
-                var2 = copyDataProperties(var19, var18);
+                var21 = var1;
+                var20 = var2;
+                var2 = copyDataProperties(var21, var20);
                 return var1;
             }
         };
@@ -287,39 +291,55 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  57:
                 var1 = {};
  59:
-                var10 = var1.sourceInviteCode;
-                var9 = var1.joinSourceType;
-                var8 = var1.inviterId;
-                var6 = var1.integrationType;
+                var12 = var1.sourceInviteCode;
+                var11 = var1.joinSourceType;
+                var10 = var1.inviterId;
+                var9 = var1.integrationType;
+                var8 = var1.joinSourceApplicationId;
+                var6 = var1.joinSourceChannelId;
                 var1 = {};
+                var13 = var3 != var12;
+                var7 = null;
+                if(!var13) { _fun0004_ip = 109; continue _fun0004 }
+ 106:
+                var7 = var12;
+ 109:
+                var1['sourceInviteCode'] = var7;
+                var12 = var3 != var11;
+                var7 = null;
+                if(!var12) { _fun0004_ip = 126; continue _fun0004 }
+ 123:
+                var7 = var11;
+ 126:
+                var1['joinSourceType'] = var7;
                 var11 = var3 != var10;
                 var7 = null;
-                if(!var11) { _fun0004_ip = 97; continue _fun0004 }
- 94:
+                if(!var11) { _fun0004_ip = 143; continue _fun0004 }
+ 140:
                 var7 = var10;
- 97:
-                var1['sourceInviteCode'] = var7;
+ 143:
+                var1['inviterId'] = var7;
                 var10 = var3 != var9;
                 var7 = null;
-                if(!var10) { _fun0004_ip = 114; continue _fun0004 }
- 111:
+                if(!var10) { _fun0004_ip = 160; continue _fun0004 }
+ 157:
                 var7 = var9;
- 114:
-                var1['joinSourceType'] = var7;
+ 160:
+                var1['integrationType'] = var7;
                 var9 = var3 != var8;
                 var7 = null;
-                if(!var9) { _fun0004_ip = 131; continue _fun0004 }
- 128:
+                if(!var9) { _fun0004_ip = 177; continue _fun0004 }
+ 174:
                 var7 = var8;
- 131:
-                var1['inviterId'] = var7;
+ 177:
+                var1['joinSourceApplicationId'] = var7;
                 var7 = var3 != var6;
                 var3 = null;
-                if(!var7) { _fun0004_ip = 148; continue _fun0004 }
- 145:
+                if(!var7) { _fun0004_ip = 194; continue _fun0004 }
+ 191:
                 var3 = var6;
- 148:
-                var1['integrationType'] = var3;
+ 194:
+                var1['joinSourceChannelId'] = var3;
                 var6 = _closure1_slot11;
                 var3 = arg2;
                 var3 = var6.bind(var5)(var3);
@@ -361,7 +381,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = arg2;
                 var1 = this;
                 var6 = null;
-                if(!(var6 != var2)) { _fun0005_ip = 317; continue _fun0005 }
+                if(!(var6 != var2)) { _fun0005_ip = 361; continue _fun0005 }
  18:
                 var7 = {};
                 var22 = var7;
@@ -378,53 +398,65 @@ export default (function(native1, native2, native3, native4, native5, native6, n
  63:
                 var2 = var7.unusualDMActivityUntil;
  69:
-                var2 = var5.bind(var1)(var3, var2);
-                var9 = var2.sourceInviteCode;
-                var8 = var2.hasUnusualDmActivity;
-                var6 = var2.hasUnusualAccountActivity;
-                var5 = var2.joinSourceType;
-                var3 = var2.inviterId;
-                var2 = var2.integrationType;
-                var10 = var7.sourceInviteCode;
-                if(!(var10 !== var9)) { _fun0005_ip = 127; continue _fun0005 }
- 121:
-                var15['sourceInviteCode'] = var9;
- 127:
-                var9 = var7.hasUnusualDmActivity;
-                if(!(var9 !== var8)) { _fun0005_ip = 143; continue _fun0005 }
- 137:
-                var15['hasUnusualDmActivity'] = var8;
- 143:
-                var8 = var7.hasUnusualAccountActivity;
-                if(!(var8 !== var6)) { _fun0005_ip = 159; continue _fun0005 }
- 153:
-                var15['hasUnusualAccountActivity'] = var6;
- 159:
-                var6 = var7.joinSourceType;
-                if(!(var6 !== var5)) { _fun0005_ip = 175; continue _fun0005 }
- 169:
-                var15['joinSourceType'] = var5;
- 175:
+                var5 = var5.bind(var1)(var3, var2);
+                var16 = var5.sourceInviteCode;
+                var10 = var5.hasUnusualDmActivity;
+                var9 = var5.hasUnusualAccountActivity;
+                var8 = var5.joinSourceType;
+                var3 = var5.inviterId;
+                var2 = var5.integrationType;
+                var6 = var5.joinSourceApplicationId;
+                var5 = var5.joinSourceChannelId;
+                var17 = var7.sourceInviteCode;
+                if(!(var17 !== var16)) { _fun0005_ip = 139; continue _fun0005 }
+ 133:
+                var15['sourceInviteCode'] = var16;
+ 139:
+                var16 = var7.hasUnusualDmActivity;
+                if(!(var16 !== var10)) { _fun0005_ip = 155; continue _fun0005 }
+ 149:
+                var15['hasUnusualDmActivity'] = var10;
+ 155:
+                var10 = var7.hasUnusualAccountActivity;
+                if(!(var10 !== var9)) { _fun0005_ip = 171; continue _fun0005 }
+ 165:
+                var15['hasUnusualAccountActivity'] = var9;
+ 171:
+                var9 = var7.joinSourceType;
+                if(!(var9 !== var8)) { _fun0005_ip = 187; continue _fun0005 }
+ 181:
+                var15['joinSourceType'] = var8;
+ 187:
+                var8 = var7.joinSourceApplicationId;
+                if(!(var8 !== var6)) { _fun0005_ip = 203; continue _fun0005 }
+ 197:
+                var15['joinSourceApplicationId'] = var6;
+ 203:
+                var6 = var7.joinSourceChannelId;
+                if(!(var6 !== var5)) { _fun0005_ip = 219; continue _fun0005 }
+ 213:
+                var15['joinSourceChannelId'] = var5;
+ 219:
                 var5 = var7.inviterId;
-                if(!(var5 !== var3)) { _fun0005_ip = 191; continue _fun0005 }
- 185:
+                if(!(var5 !== var3)) { _fun0005_ip = 235; continue _fun0005 }
+ 229:
                 var15['inviterId'] = var3;
- 191:
+ 235:
                 var3 = var7.integrationType;
-                if(!(var3 !== var2)) { _fun0005_ip = 207; continue _fun0005 }
- 201:
+                if(!(var3 !== var2)) { _fun0005_ip = 251; continue _fun0005 }
+ 245:
                 var15['integrationType'] = var2;
- 207:
+ 251:
                 var13 = var15;
                 var2 = false;
                 var6 = 9;
                 var5 = undefined;
                 var3 = false;
                 for(var10 in var13)
- 230:
+ 274:
                 {
                     var3 = var2;
- 242:
+ 286:
                     var17 = var10;
                     var16 = var15[var17];
                     var19 = var7[var17];
@@ -433,23 +465,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var18 = var18[var6];
                     var18 = var20.bind(var5)(var18);
                     var18 = var18.bind(var5)(var16, var19);
-                    if(var18) { _fun0005_ip = 230; continue _fun0005 }
- 279:
+                    if(var18) { _fun0005_ip = 274; continue _fun0005 }
+ 323:
                     var7[var17] = var16;
                     var2 = true;
-                    _fun0005_ip = 230; continue _fun0005;
+                    _fun0005_ip = 274; continue _fun0005;
                 }
- 287:
+ 331:
                 var6 = var1._membersMap;
                 var5 = var6.set;
                 var2 = var7.userId;
                 var2 = var5.bind(var6)(var2, var7);
-                if(var2) { _fun0005_ip = 315; continue _fun0005 }
- 312:
+                if(var2) { _fun0005_ip = 359; continue _fun0005 }
+ 356:
                 var2 = var3;
- 315:
+ 359:
                 return var2;
- 317:
+ 361:
                 var3 = var1._membersMap;
                 var2 = var3.set;
                 var1 = var4.userId;

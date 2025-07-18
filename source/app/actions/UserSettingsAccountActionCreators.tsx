@@ -331,8 +331,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         var _closure2_slot11 = var3;
         var3 = var2.nameplate;
         var _closure2_slot12 = var3;
-        var2 = var2.primaryGuildId;
-        var _closure2_slot13 = var2;
+        var3 = var2.primaryGuildId;
+        var _closure2_slot13 = var3;
+        var2 = var2.displayNameStyles;
+        var _closure2_slot14 = var2;
         var3 = _closure1_slot1;
         var10 = _closure1_slot2;
         var2 = 3;
@@ -445,9 +447,28 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var2 = undefined;
                 if(!(var2 !== var4)) { _fun0003_ip = 237; continue _fun0003 }
  225:
-                var1 = _closure2_slot13;
-                var3['primary_guild_id'] = var1;
+                var4 = _closure2_slot13;
+                var3['primary_guild_id'] = var4;
  237:
+                var4 = _closure2_slot14;
+                if(!(var6 == var4)) { _fun0003_ip = 273; continue _fun0003 }
+ 245:
+                var4 = _closure2_slot14;
+                if(!(var6 === var4)) { _fun0003_ip = 312; continue _fun0003 }
+ 253:
+                var3['display_name_font_id'] = var6;
+                var3['display_name_effect_id'] = var6;
+                var3['display_name_colors'] = var6;
+                _fun0003_ip = 312; continue _fun0003;
+ 273:
+                var1 = _closure2_slot14;
+                var4 = var1.fontId;
+                var3['display_name_font_id'] = var4;
+                var4 = var1.effectId;
+                var3['display_name_effect_id'] = var4;
+                var1 = var1.colors;
+                var3['display_name_colors'] = var1;
+ 312:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var7 = 9;
@@ -460,15 +481,15 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var5 = _closure1_slot9;
                 var5 = var5.bind(var2)();
                 var8 = var6 != var5;
-                if(!var8) { _fun0003_ip = 299; continue _fun0003 }
- 295:
+                if(!var8) { _fun0003_ip = 374; continue _fun0003 }
+ 370:
                 var8 = var6 != var4;
- 299:
-                if(!var8) { _fun0003_ip = 314; continue _fun0003 }
- 302:
+ 374:
+                if(!var8) { _fun0003_ip = 389; continue _fun0003 }
+ 377:
                 var3['push_provider'] = var5;
                 var3['push_token'] = var4;
- 314:
+ 389:
                 var5 = _closure1_slot0;
                 var4 = _closure1_slot2;
                 var4 = var4[var7];
@@ -479,16 +500,16 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var4 = var5.bind(var7)(var4);
                 var5 = _closure1_slot8;
                 var5 = var6 != var5;
-                if(!var5) { _fun0003_ip = 366; continue _fun0003 }
- 362:
+                if(!var5) { _fun0003_ip = 441; continue _fun0003 }
+ 437:
                 var5 = var6 != var4;
- 366:
-                if(!var5) { _fun0003_ip = 385; continue _fun0003 }
- 369:
+ 441:
+                if(!var5) { _fun0003_ip = 460; continue _fun0003 }
+ 444:
                 var5 = _closure1_slot8;
                 var3['push_voip_provider'] = var5;
                 var3['push_voip_token'] = var4;
- 385:
+ 460:
                 var1 = _closure1_slot10;
                 var1 = var1.bind(var2)(var3);
                 return var1;

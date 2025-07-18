@@ -2619,6 +2619,23 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         return var1;
     };
     var3['updateOptimisticProgress'] = var4;
+    var4 = function resetOptimisticProgress(arg1) {
+        var3 = _closure1_slot1;
+        var2 = _closure1_slot2;
+        var1 = 6;
+        var2 = var2[var1];
+        var1 = undefined;
+        var4 = var3.bind(var1)(var2);
+        var3 = var4.dispatch;
+        var2 = {};
+        var5 = 'QUESTS_RESET_OPTIMISTIC_PROGRESS';
+        var2['type'] = var5;
+        var5 = arg1;
+        var2['questId'] = var5;
+        var2 = var3.bind(var4)(var2);
+        return var1;
+    };
+    var3['resetOptimisticProgress'] = var4;
     var4 = function fetchQuestToDeliver() {
         var1 = undefined;
         var4 = _closure1_slot23;

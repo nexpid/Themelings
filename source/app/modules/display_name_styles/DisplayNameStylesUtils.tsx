@@ -86,7 +86,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = arg1;
             var1 = null;
             var2 = var1 == var3;
-            if(var2) { _fun0001_ip = 56; continue _fun0001 }
+            if(var2) { _fun0001_ip = 52; continue _fun0001 }
  12:
             var2 = {};
             var4 = var3.font_id;
@@ -96,7 +96,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var3 = var3.colors;
             var2['colors'] = var3;
             var1 = var2;
- 56:
+ 52:
             return var1;
         }
     };

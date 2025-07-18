@@ -261,10 +261,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1[var8] = var9;
             var9 = var20 == var5;
             var8 = undefined;
-            if(var9) { _fun0001_ip = 336; continue _fun0001 }
- 330:
+            if(var9) { _fun0001_ip = 332; continue _fun0001 }
+ 326:
             var8 = var5.onClose;
- 336:
+ 332:
             var5 = 'onClose';
             var1[var5] = var8;
             var5 = 'onCancel';
@@ -319,10 +319,10 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var21 = var21.bind(var22)(var24, var20, var23);
             var22 = var20 != var21;
             var20 = '';
-            if(!var22) { _fun0001_ip = 584; continue _fun0001 }
- 581:
+            if(!var22) { _fun0001_ip = 580; continue _fun0001 }
+ 577:
             var20 = var21;
- 584:
+ 580:
             var11['username'] = var20;
             var19 = function countdown() {
                 _fun0003: for(var _fun0003_ip = 0; ; ) switch(_fun0003_ip) {

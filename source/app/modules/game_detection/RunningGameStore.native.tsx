@@ -38,13 +38,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = !var1;
                 return var1;
             };
-            _closure1_slot10 = var2;
+            _closure1_slot9 = var2;
             var1 = undefined;
             var1 = var2.bind(var1)();
             return var1;
         }
     };
-    var _closure1_slot10 = var1;
+    var _closure1_slot9 = var1;
     var1 = global;
     var9 = var1.Object;
     var8 = var9.defineProperty;
@@ -82,11 +82,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var _closure1_slot8 = var4;
-    var4 = 7;
-    var4 = var7[var4];
-    var4 = var5.bind(var1)(var4);
-    var _closure1_slot9 = var4;
-    var4 = 10;
+    var4 = 9;
     var4 = var7[var4];
     var4 = var5.bind(var1)(var4);
     var8 = var4.Store;
@@ -103,7 +99,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                 var1 = _closure1_slot5;
                 var9 = var1.bind(var3)(var2);
                 var2 = _closure1_slot4;
-                var1 = _closure1_slot10;
+                var1 = _closure1_slot9;
                 var1 = var1.bind(var3)();
                 if(var1) { _fun0002_ip = 69; continue _fun0002 }
  51:
@@ -355,7 +351,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var9 = var4.bind(var1)(var8);
     var4 = 'RunningGameStore';
     var9['displayName'] = var4;
-    var4 = 11;
+    var4 = 10;
     var4 = var7[var4];
     var12 = var5.bind(var1)(var4);
     var4 = var9.prototype;
@@ -364,7 +360,7 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     var13 = var5;
     var4 = new var13[var9](var12, var11, var10);
     var4 = var4 instanceof Object ? var4 : var5;
-    var5 = 12;
+    var5 = 11;
     var5 = var7[var5];
     var7 = var6.bind(var1)(var5);
     var6 = var7.fileFinishedImporting;
@@ -392,13 +388,13 @@ export default (function(native1, native2, native3, native4, native5, native6, n
             var1 = {'source': null, 'enabledOOP': false, 'enabledLegacy': false};
             var3 = _closure1_slot0;
             var5 = _closure1_slot1;
-            var2 = 8;
+            var2 = 7;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.OverlayGameStatusSource;
             var2 = var2.UNKNOWN;
             var1['source'] = var2;
-            var2 = 9;
+            var2 = 8;
             var2 = var5[var2];
             var2 = var3.bind(var4)(var2);
             var2 = var2.OverlayMethod;
@@ -414,36 +410,21 @@ export default (function(native1, native2, native3, native4, native5, native6, n
     };
     var3['isDetectionEnabled'] = var4;
     var2 = function transformForGameSettings(arg1) {
-        _fun0004: for(var _fun0004_ip = 0; ; ) switch(_fun0004_ip) {
- 0:
-            var2 = arguments[1];
-            var1 = undefined;
-            if(!(var2 === var1)) { _fun0004_ip = 40; continue _fun0004 }
- 9:
-            var3 = _closure1_slot9;
-            var2 = new Array(3);
-            var2[0] = var3;
-            var3 = _closure1_slot7;
-            var2[1] = var3;
-            var1 = _closure1_slot8;
-            var2[2] = var1;
- 40:
-            var1 = {};
-            var4 = arg1;
-            var5 = var1;
-            var2 = copyDataProperties(var5, var4);
-            var3 = '';
-            var2 = 'played';
-            var1[var2] = var3;
-            var3 = false;
-            var2 = 'overlay';
-            var1[var2] = var3;
-            var2 = 'verified';
-            var1[var2] = var3;
-            var2 = 'detectable';
-            var1[var2] = var3;
-            return var1;
-        }
+        var1 = {};
+        var4 = arg1;
+        var5 = var1;
+        var2 = copyDataProperties(var5, var4);
+        var3 = '';
+        var2 = 'played';
+        var1[var2] = var3;
+        var3 = false;
+        var2 = 'overlay';
+        var1[var2] = var3;
+        var2 = 'verified';
+        var1[var2] = var3;
+        var2 = 'detectable';
+        var1[var2] = var3;
+        return var1;
     };
     var3['transformForGameSettings'] = var2;
     return var1;

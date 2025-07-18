@@ -2011,14 +2011,38 @@ export default (function(native1, native2, native3, native4, native5, native6, n
         }
     };
     var2['QUESTS_UPDATE_OPTIMISTIC_PROGRESS'] = var7;
-    var7 = function handleUserCompletionUpdate(arg1) {
+    var7 = function handleResetOptimisticProgress(arg1) {
         _fun0028: for(var _fun0028_ip = 0; ; ) switch(_fun0028_ip) {
+ 0:
+            var1 = arg1;
+            var3 = var1.questId;
+            var4 = _closure1_slot30;
+            var2 = var4.has;
+            var2 = var2.bind(var4)(var3);
+            if(!var2) { _fun0028_ip = 43; continue _fun0028 }
+ 29:
+            var4 = _closure1_slot30;
+            var2 = var4.delete;
+            var2 = var2.bind(var4)(var3);
+ 43:
+            var2 = _closure1_slot26;
+            var1 = var2.getState;
+            var2 = var1.bind(var2)();
+            var1 = var2.resetQuest;
+            var1 = var1.bind(var2)(var3);
+            var1 = undefined;
+            return var1;
+        }
+    };
+    var2['QUESTS_RESET_OPTIMISTIC_PROGRESS'] = var7;
+    var7 = function handleUserCompletionUpdate(arg1) {
+        _fun0029: for(var _fun0029_ip = 0; ; ) switch(_fun0029_ip) {
  0:
             var1 = arg1;
             var4 = var1.quest_enrollment_blocked_until;
             var2 = null;
             var1 = var2 != var4;
-            if(!var1) { _fun0028_ip = 49; continue _fun0028 }
+            if(!var1) { _fun0029_ip = 49; continue _fun0029 }
  18:
             var1 = global;
             var1 = var1.Date;

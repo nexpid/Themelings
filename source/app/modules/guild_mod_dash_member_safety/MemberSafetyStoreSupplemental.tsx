@@ -172,24 +172,60 @@ export default (function(native1, native2, native3, native4, native5, native6, n
                     var6 = var8;
  270:
                     var1['inviterId'] = var6;
-                    var5 = var5.integrationType;
-                    if(!(var4 == var5)) { _fun0004_ip = 303; continue _fun0004 }
+                    var8 = var5.integrationType;
+                    if(!(var4 == var8)) { _fun0004_ip = 303; continue _fun0004 }
  285:
-                    var8 = var4 == var7;
+                    var9 = var4 == var7;
                     var6 = undefined;
-                    if(var8) { _fun0004_ip = 300; continue _fun0004 }
+                    if(var9) { _fun0004_ip = 300; continue _fun0004 }
  294:
                     var6 = var7.integrationType;
  300:
-                    var5 = var6;
+                    var8 = var6;
  303:
+                    var9 = var4 != var8;
+                    var6 = null;
+                    if(!var9) { _fun0004_ip = 315; continue _fun0004 }
+ 312:
+                    var6 = var8;
+ 315:
+                    var1['integrationType'] = var6;
+                    var8 = var5.joinSourceApplicationId;
+                    if(!(var4 == var8)) { _fun0004_ip = 348; continue _fun0004 }
+ 330:
+                    var9 = var4 == var7;
+                    var6 = undefined;
+                    if(var9) { _fun0004_ip = 345; continue _fun0004 }
+ 339:
+                    var6 = var7.joinSourceApplicationId;
+ 345:
+                    var8 = var6;
+ 348:
+                    var9 = var4 != var8;
+                    var6 = null;
+                    if(!var9) { _fun0004_ip = 360; continue _fun0004 }
+ 357:
+                    var6 = var8;
+ 360:
+                    var1['joinSourceApplicationId'] = var6;
+                    var5 = var5.joinSourceChannelId;
+                    if(!(var4 == var5)) { _fun0004_ip = 393; continue _fun0004 }
+ 375:
+                    var8 = var4 == var7;
+                    var6 = undefined;
+                    if(var8) { _fun0004_ip = 390; continue _fun0004 }
+ 384:
+                    var6 = var7.joinSourceChannelId;
+ 390:
+                    var5 = var6;
+ 393:
                     var6 = var4 != var5;
                     var4 = null;
-                    if(!var6) { _fun0004_ip = 315; continue _fun0004 }
- 312:
+                    if(!var6) { _fun0004_ip = 405; continue _fun0004 }
+ 402:
                     var4 = var5;
- 315:
-                    var1['integrationType'] = var4;
+ 405:
+                    var1['joinSourceChannelId'] = var4;
                     var3[var2] = var1;
                     var1 = undefined;
                     return var1;
