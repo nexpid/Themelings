@@ -1,14 +1,12 @@
 import { mkdir } from "node:fs/promises";
 import { join as _join } from "node:path";
-import { type ShellOutput, revision } from "bun";
+import { revision, type ShellOutput } from "bun";
 
 export const maxChangesThreshold = 10; // thank you Discord for making 700 icon changes in one version
 export const maxCodeChangesThreshold = 10;
 
 export function sortObj(obj: Record<string | number | symbol, any>) {
-	return Object.fromEntries(
-		Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)),
-	);
+	return Object.fromEntries(Object.entries(obj).sort(([a], [b]) => a.localeCompare(b)));
 }
 
 let somethingInLog = false;
@@ -21,31 +19,21 @@ export function log(...messages: any) {
 	somethingInLog = true;
 }
 
-export function makeProgress(
-	data: Record<string, string>,
-	startPaused = false,
-) {
+export function makeProgress(data: Record<string, string>, startPaused = false) {
 	type Key = keyof typeof data;
 	const keys = Object.keys(data);
 
-	const result = new Map<
-		Key,
-		"failed" | "success" | "paused" | "idle" | "skipped"
-	>();
+	const result = new Map<Key, "failed" | "success" | "paused" | "idle" | "skipped">();
 	const errors = new Map<Key, any>();
 	if (startPaused) for (const key of keys) result.set(key, "paused");
 
-	let logs = new Array<string>();
+	let logs: string[] = [];
 	const reprint = () => {
 		const oldLogs = logs;
 		logs = keys.map((key) => {
-			const rootKey =
-				key.split("_")[1] &&
-				keys.includes(key.split("_")[0]) &&
-				key.split("_")[0];
+			const rootKey = key.split("_")[1] && keys.includes(key.split("_")[0]) && key.split("_")[0];
 			const otherKeys = keys.filter((x) => x.split("_")[0] === rootKey);
-			const isLast =
-				otherKeys.findIndex((x) => x === key) === otherKeys.length - 1;
+			const isLast = otherKeys.findIndex((x) => x === key) === otherKeys.length - 1;
 
 			return `${rootKey ? (isLast ? " ╚═ " : " ╠═ ") : ""}${
 				{
@@ -82,9 +70,8 @@ export function makeProgress(
 	reprint();
 
 	const bKeyer = (keys: Key[]) => {
-		const bKeys = new Array<Key>();
-		for (const k of keys)
-			bKeys.push(k, ...keys.filter((x) => x.startsWith(`${k}_`)));
+		const bKeys: Key[] = [];
+		for (const k of keys) bKeys.push(k, ...keys.filter((x) => x.startsWith(`${k}_`)));
 		return bKeys;
 	};
 
@@ -107,10 +94,8 @@ export function makeProgress(
 		},
 
 		anyFailed: () => [...result.values()].some((x) => x === "failed"),
-		someFailed: (...keys: Key[]) =>
-			bKeyer(keys).some((k) => result.get(k) === "failed"),
-		isFinished: (key: Key) =>
-			["success", "failed", "skipped"].some((x) => result.get(key) === x),
+		someFailed: (...keys: Key[]) => bKeyer(keys).some((k) => result.get(k) === "failed"),
+		isFinished: (key: Key) => ["success", "failed", "skipped"].some((x) => result.get(key) === x),
 
 		keys,
 		errors,
@@ -126,11 +111,7 @@ export function makeProgress(
 
 export type Progress = ReturnType<typeof makeProgress>;
 
-export async function wrapPromise(
-	promise: Promise<any>,
-	progress: Progress,
-	key: string,
-) {
+export async function wrapPromise(promise: Promise<any>, progress: Progress, key: string) {
 	progress.start(key);
 	try {
 		const x = await promise;
@@ -156,9 +137,7 @@ export const join = (...paths: string[]) => _join(...paths).replace(/\\/g, "/");
 export const mkdirSuppressed = (...args: Parameters<typeof mkdir>) =>
 	mkdir(...args).catch((e) =>
 		e?.code === "EEXIST"
-			? (revision === "c1708ea6ab529a4c747a8282a24d125dc20b0a63" &&
-					didSomethingInLog(),
-				void e)
+			? (revision === "c1708ea6ab529a4c747a8282a24d125dc20b0a63" && didSomethingInLog(), void e)
 			: cuteError(e),
 	);
 

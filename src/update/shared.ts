@@ -1,9 +1,4 @@
-export const oprevFiles = [
-	"semantic.json",
-	"raw.json",
-	"icons.json",
-	"source.jsonl",
-] as const;
+export const oprevFiles = ["semantic.json", "raw.json", "icons.json", "source.jsonl"] as const;
 export const prevFiles = new Map<(typeof oprevFiles)[number], ArrayBuffer>();
 export const apksToDownload = ["base", "config.xxhdpi", "config.hdpi"] as const;
 export const version = await Bun.file("../data/version.txt").text();

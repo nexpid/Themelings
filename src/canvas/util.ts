@@ -1,11 +1,7 @@
 import type { CanvasRenderingContext2D } from "skia-canvas";
 
 // https://stackoverflow.com/a/16599668
-export function getLines(
-	ctx: CanvasRenderingContext2D,
-	text: string,
-	maxWidth: number,
-) {
+export function getLines(ctx: CanvasRenderingContext2D, text: string, maxWidth: number) {
 	const words = text.split(" ");
 	const lines = [];
 	let currentLine = words[0];

@@ -1,14 +1,7 @@
-import {
-    type CodeDiff,
-    type Diff,
-    DiffEnum,
-    type Icons,
-    type OutDiffs,
-    type SemanticColors,
-} from "../../types";
+import { type CodeDiff, type Diff, DiffEnum, type Icons, type OutDiffs, type SemanticColors } from "../../types";
 import { getGitChanged, gitChanged } from "../commit";
 import { diffAnyway, prevFiles } from "../shared";
-import { type Progress, formatBytes, join, log } from "../util";
+import { formatBytes, join, log, type Progress } from "../util";
 
 type RawColors = Record<string, string>;
 const diffRaw = async (progress: Progress) => {
@@ -18,21 +11,15 @@ const diffRaw = async (progress: Progress) => {
 		throw new Error("Missing prevFile: raw.json");
 	}
 
-	const oldRaw = JSON.parse(
-		new TextDecoder().decode(prevFiles.get("raw.json")),
-	) as RawColors;
-	const newRaw = (await Bun.file(
-		join("../data", "raw.json"),
-	).json()) as RawColors;
+	const oldRaw = JSON.parse(new TextDecoder().decode(prevFiles.get("raw.json"))) as RawColors;
+	const newRaw = (await Bun.file(join("../data", "raw.json")).json()) as RawColors;
 
 	const renamed = new Set<string>();
 
 	const changes = new Map<string, Diff>();
 	for (const raw of Object.keys(newRaw))
 		if (!oldRaw[raw]) {
-			const renamedRaw = Object.entries(oldRaw).find(
-				([rRaw, rVal]) => !newRaw[rRaw] && rVal === newRaw[raw],
-			)?.[0];
+			const renamedRaw = Object.entries(oldRaw).find(([rRaw, rVal]) => !newRaw[rRaw] && rVal === newRaw[raw])?.[0];
 
 			if (renamedRaw)
 				renamed.add(renamedRaw),
@@ -49,8 +36,7 @@ const diffRaw = async (progress: Progress) => {
 				cur: newRaw[raw],
 			});
 	for (const raw of Object.keys(oldRaw))
-		if (!newRaw[raw] && !renamed.has(raw))
-			changes.set(raw, { change: DiffEnum.Removed, old: oldRaw[raw] });
+		if (!newRaw[raw] && !renamed.has(raw)) changes.set(raw, { change: DiffEnum.Removed, old: oldRaw[raw] });
 
 	progress.update("diff_raw", true);
 	return changes;
@@ -65,47 +51,34 @@ const diffSemantic = async (progress: Progress) => {
 		throw new Error("Missing prevFile: semantic.json");
 	}
 
-	let oldSemantic = JSON.parse(
-		new TextDecoder().decode(prevFiles.get("semantic.json")),
-	) as SemanticColors;
+	let oldSemantic = JSON.parse(new TextDecoder().decode(prevFiles.get("semantic.json"))) as SemanticColors;
 
 	// transform PreviousSemanticColors to SemanticColors
 	if (typeof Object.values(Object.values(oldSemantic)[0])[0] === "string")
 		oldSemantic = Object.fromEntries(
-			Object.entries(oldSemantic as any as PreviousSemanticColors).map(
-				([clr, themes]) => [
-					clr,
-					Object.fromEntries(
-						Object.entries(themes).map(([theme, color]) => [
-							theme,
-							[color, { raw: "this is a placeholder", opacity: 0 }],
-						]),
-					),
-				],
-			),
+			Object.entries(oldSemantic as any as PreviousSemanticColors).map(([clr, themes]) => [
+				clr,
+				Object.fromEntries(
+					Object.entries(themes).map(([theme, color]) => [
+						theme,
+						[color, { raw: "this is a placeholder", opacity: 0 }],
+					]),
+				),
+			]),
 		) as any;
 
-	const newSemantic = (await Bun.file(
-		join("../data", "semantic.json"),
-	).json()) as SemanticColors;
+	const newSemantic = (await Bun.file(join("../data", "semantic.json")).json()) as SemanticColors;
 
 	const renamed = new Set<string>();
 
-	const transform = ([clr, _]: [string, { raw: string; opacity: number }]) =>
-		clr;
+	const transform = ([clr, _]: [string, { raw: string; opacity: number }]) => clr;
 	// 	val.raw === "this is a placeholder" ? clr : `${clr} (${val.raw})`;
 
-	const allVars = (
-		key: string,
-		sem: SemanticColors[string],
-		added: boolean,
-	) => {
+	const allVars = (key: string, sem: SemanticColors[string], added: boolean) => {
 		for (const [k, v] of Object.entries(sem)) {
 			changes.set(
 				`${key}.${k}`,
-				added
-					? { change: DiffEnum.Added, cur: transform(v) }
-					: { change: DiffEnum.Removed, old: transform(v) },
+				added ? { change: DiffEnum.Added, cur: transform(v) } : { change: DiffEnum.Removed, old: transform(v) },
 			);
 		}
 	};
@@ -119,9 +92,7 @@ const diffSemantic = async (progress: Progress) => {
 				([sSem, sVal]) =>
 					!newSemantic[sSem] &&
 					Object.keys(sVal).length === semL &&
-					Object.entries(sVal).every(
-						([skTheme, skVal]) => skVal[0] === semI[skTheme][0],
-					),
+					Object.entries(sVal).every(([skTheme, skVal]) => skVal[0] === semI[skTheme][0]),
 			)?.[0];
 
 			if (renamedSem)
@@ -139,10 +110,7 @@ const diffSemantic = async (progress: Progress) => {
 						change: DiffEnum.Added,
 						cur: transform(newSemantic[sem][clir]),
 					});
-				else if (
-					oldSemantic[sem][clir][0].toLowerCase() !==
-					newSemantic[sem][clir][0].toLowerCase()
-				)
+				else if (oldSemantic[sem][clir][0].toLowerCase() !== newSemantic[sem][clir][0].toLowerCase())
 					changes.set(`${sem}.${clir}`, {
 						change: DiffEnum.Changed,
 						old: transform(oldSemantic[sem][clir]),
@@ -150,8 +118,7 @@ const diffSemantic = async (progress: Progress) => {
 					});
 
 	for (const sem of Object.keys(oldSemantic))
-		if (!newSemantic[sem] && !renamed.has(sem))
-			allVars(sem, oldSemantic[sem], false);
+		if (!newSemantic[sem] && !renamed.has(sem)) allVars(sem, oldSemantic[sem], false);
 		else
 			for (const clir of Object.keys(oldSemantic[sem]))
 				if (!newSemantic[sem][clir])
@@ -171,12 +138,8 @@ const diffIcons = async (progress: Progress) => {
 		throw new Error("Missing prevFile: icons.json");
 	}
 
-	const oldIcons = JSON.parse(
-		new TextDecoder().decode(prevFiles.get("icons.json")),
-	) as Icons;
-	const newIcons = (await Bun.file(
-		join("../data", "icons.json"),
-	).json()) as Icons;
+	const oldIcons = JSON.parse(new TextDecoder().decode(prevFiles.get("icons.json"))) as Icons;
+	const newIcons = (await Bun.file(join("../data", "icons.json")).json()) as Icons;
 
 	const iconDir = {
 		old: join("../data", "oldicons"),
@@ -255,12 +218,8 @@ const diffCode = async (progress: Progress) => {
 			]),
 		);
 
-	const oldCode = jsonlToJson(
-		new TextDecoder().decode(prevFiles.get("source.jsonl")),
-	);
-	const newCode = jsonlToJson(
-		await Bun.file(join("../data", "source.jsonl")).text(),
-	);
+	const oldCode = jsonlToJson(new TextDecoder().decode(prevFiles.get("source.jsonl")));
+	const newCode = jsonlToJson(await Bun.file(join("../data", "source.jsonl")).text());
 
 	const renamed = new Set<string>();
 	const changes = new Map<string, CodeDiff>();
@@ -268,11 +227,7 @@ const diffCode = async (progress: Progress) => {
 		if (!oldCode.has(code)) {
 			const renamedCode = oldCode
 				.keys()
-				.find(
-					(vCode) =>
-						!newCode.has(vCode) &&
-						oldCode.get(vCode)!.de === newCode.get(code)!.de,
-				);
+				.find((vCode) => !newCode.has(vCode) && oldCode.get(vCode)!.de === newCode.get(code)!.de);
 
 			if (renamedCode)
 				renamed.add(renamedCode),
@@ -314,17 +269,14 @@ export default async function diffs(progress: Progress) {
 
 	if (!gitChanged.has("version.txt") && !diffAnyway) {
 		progress.update("diff", null);
-		for (const x of ["raw", "semantic", "icons", "code"])
-			progress.update(`diff_${x}`, null);
+		for (const x of ["raw", "semantic", "icons", "code"]) progress.update(`diff_${x}`, null);
 		return null;
 	}
 
 	const differs = {} as OutDiffs;
 
 	await Promise.allSettled([
-		gitChanged.has("raw.json")
-			? diffRaw(progress).then((x) => (differs.raw = x))
-			: progress.update("diff_raw", null),
+		gitChanged.has("raw.json") ? diffRaw(progress).then((x) => (differs.raw = x)) : progress.update("diff_raw", null),
 		gitChanged.has("semantic.json")
 			? diffSemantic(progress).then((x) => (differs.semantic = x))
 			: progress.update("diff_semantic", null),

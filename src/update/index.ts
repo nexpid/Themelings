@@ -44,9 +44,7 @@ if (!canReuseFolder) {
 	console.log("Downloading APKs...");
 
 	const downloadProgress = makeProgress({
-		...Object.fromEntries(
-			apksToDownload.map((apk) => [apk, `Downloading ${apk}.apk`]),
-		),
+		...Object.fromEntries(apksToDownload.map((apk) => [apk, `Downloading ${apk}.apk`])),
 		writing: "Writing APKs",
 	});
 	downloadProgress.pause("writing");
@@ -62,37 +60,23 @@ if (!canReuseFolder) {
 			);
 		}),
 	)) as PromiseFulfilledResult<ArrayBuffer>[];
-	if (downloadProgress.anyFailed())
-		throw new Error(
-			`Failed to download all APKs!\n${downloadProgress.prettyErrors()}`,
-		);
+	if (downloadProgress.anyFailed()) throw new Error(`Failed to download all APKs!\n${downloadProgress.prettyErrors()}`);
 
 	downloadProgress.start("writing");
 	await Bun.write("tmp/ver", version);
 
 	for (let i = 0; i < apksToDownload.length; i++)
-		await Bun.write(
-			join(tempFolder, `${apksToDownload[i]}.zip`),
-			apks[i].value,
-		);
+		await Bun.write(join(tempFolder, `${apksToDownload[i]}.zip`), apks[i].value);
 
 	downloadProgress.update("writing", true);
 	console.log("\nUnzipping APKs...");
 
-	const unzipProgress = makeProgress(
-		Object.fromEntries(
-			apksToDownload.map((apk) => [apk, `Unzipping ${apk}.apk`]),
-		),
-	);
+	const unzipProgress = makeProgress(Object.fromEntries(apksToDownload.map((apk) => [apk, `Unzipping ${apk}.apk`])));
 	await Promise.allSettled(
 		apksToDownload.map((apk) =>
 			wrapPromise(
 				Bun.$`unzip -o ${join(tempFolder, `${apk}.zip`)} ${{
-					raw: apkStuffToDownload[apk]
-						.flatMap((files) =>
-							Bun.$.braces(files).map((y) => JSON.stringify(y)),
-						)
-						.join(" "),
+					raw: apkStuffToDownload[apk].flatMap((files) => Bun.$.braces(files).map((y) => JSON.stringify(y))).join(" "),
 				}} -d ${join(tempFolder, apk)} 2>/dev/null`
 					.quiet()
 					.nothrow()
@@ -102,10 +86,7 @@ if (!canReuseFolder) {
 			),
 		),
 	);
-	if (unzipProgress.anyFailed())
-		throw new Error(
-			`Failed to unzip all APKs!\n${unzipProgress.prettyErrors()}`,
-		);
+	if (unzipProgress.anyFailed()) throw new Error(`Failed to unzip all APKs!\n${unzipProgress.prettyErrors()}`);
 } else console.log("Reusing folder!");
 
 // Run tasks

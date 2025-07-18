@@ -14,11 +14,7 @@ function findInHierarchy(a: string, b: string) {
 	const bArc = b.split("/");
 
 	let divergence = 0;
-	while (
-		divergence < aArc.length &&
-		divergence < bArc.length &&
-		aArc[divergence] === bArc[divergence]
-	) {
+	while (divergence < aArc.length && divergence < bArc.length && aArc[divergence] === bArc[divergence]) {
 		divergence++;
 	}
 
@@ -32,9 +28,7 @@ function cap(arr: string[], stuff: string, threshold = maxChangesThreshold) {
 	if (arr.length > threshold)
 		return [
 			...arr.slice(0, threshold),
-			`(+${arr.length - threshold} ${stuff}${
-				arr.length - threshold > 1 ? "s" : ""
-			})`,
+			`(+${arr.length - threshold} ${stuff}${arr.length - threshold > 1 ? "s" : ""})`,
 		];
 	return arr;
 }
@@ -55,11 +49,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 			entries
 				.filter((x) => x.change === DiffEnum.Added)
 				.sort((a, b) => a.name.localeCompare(b.name))
-				.map((x) =>
-					isCode
-						? `+ ${basename(x.name)} (${x.size})`
-						: `+ ${x.name}: ${x.cur}`,
-				),
+				.map((x) => (isCode ? `+ ${basename(x.name)} (${x.size})` : `+ ${x.name}: ${x.cur}`)),
 			"addition",
 			threshold,
 		),
@@ -96,9 +86,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 		Removed: cap(
 			entries
 				.filter((x) => x.change === DiffEnum.Removed)
-				.map((x) =>
-					isCode ? `- ${basename(x.name)} (${x.size})` : `- ${x.name}`,
-				),
+				.map((x) => (isCode ? `- ${basename(x.name)} (${x.size})` : `- ${x.name}`)),
 			"removal",
 			threshold,
 		),
@@ -106,9 +94,7 @@ function formatDiff(diffs: Map<string, Diff | CodeDiff>, isCode?: boolean) {
 
 	return Object.entries(sections)
 		.filter(([_, body]) => body.length > 0)
-		.map(
-			([title, body]) => `**${title}**\n\`\`\`diff\n${body.join("\n")}\`\`\``,
-		)
+		.map(([title, body]) => `**${title}**\n\`\`\`diff\n${body.join("\n")}\`\`\``)
 		.join("\n");
 }
 
@@ -128,11 +114,7 @@ async function triggerWebhook(
 
 	for (let i = 0; i < images.length; i++) {
 		const img = await images[i]?.toBuffer("png");
-		formData.append(
-			`files[${i}]`,
-			new Blob([img as any], { type: "image/png" }),
-			`${i}.png`,
-		);
+		formData.append(`files[${i}]`, new Blob([img as any], { type: "image/png" }), `${i}.png`);
 	}
 
 	formData.append(
@@ -153,8 +135,7 @@ async function triggerWebhook(
 					text: footer,
 				},
 			})),
-			allowed_mentions:
-				process.env.NODE_ENV === "test" ? { parse: [] } : { roles: [role] },
+			allowed_mentions: process.env.NODE_ENV === "test" ? { parse: [] } : { roles: [role] },
 		}),
 	);
 
@@ -165,9 +146,7 @@ async function triggerWebhook(
 
 	if (!res.ok)
 		throw new Error(
-			`Failed to send webhook message with embeds ${embeds
-				.map((x) => x.title)
-				.join(", ")}: ${await res.text()}`,
+			`Failed to send webhook message with embeds ${embeds.map((x) => x.title).join(", ")}: ${await res.text()}`,
 		);
 }
 

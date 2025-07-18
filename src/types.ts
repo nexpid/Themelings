@@ -50,10 +50,7 @@ export type CodeDiff =
 			size: string;
 	  };
 
-export type OutDiffs = Record<
-	"semantic" | "raw" | "icons",
-	Map<string, Diff> | undefined
-> & {
+export type OutDiffs = Record<"semantic" | "raw" | "icons", Map<string, Diff> | undefined> & {
 	code: Map<string, CodeDiff> | undefined;
 };
 
@@ -68,7 +65,4 @@ export type Icons = Record<
 	}
 >;
 
-export type SemanticColors = Record<
-	string,
-	Record<string, [string, { raw: string; opacity: number }]>
->;
+export type SemanticColors = Record<string, Record<string, [string, { raw: string; opacity: number }]>>;

@@ -28,10 +28,7 @@ const colors = {
 	importantBg: "#EEEEEE05", // custom, something like BG_MOD_**********
 };
 
-export function convertDiffs(
-	diffs: Map<string, Diff>,
-	color?: boolean,
-): Record<string, DataEntry[][]> {
+export function convertDiffs(diffs: Map<string, Diff>, color?: boolean): Record<string, DataEntry[][]> {
 	const obj = {
 		Added: [[]],
 		Changed: [[], []],
@@ -48,16 +45,11 @@ export function convertDiffs(
 
 	const entries = [...diffs.entries()];
 	for (const [label, change] of entries) {
-		if (
-			change.change === DiffEnum.Added &&
-			maxChangesThreshold >= changesCounter.Added
-		) {
+		if (change.change === DiffEnum.Added && maxChangesThreshold >= changesCounter.Added) {
 			if (!color && !change.curFile) continue;
 
 			if (changesCounter.Added === maxChangesThreshold) {
-				const count =
-					entries.filter(([_, x]) => x.change === DiffEnum.Added).length -
-					changesCounter.Added;
+				const count = entries.filter(([_, x]) => x.change === DiffEnum.Added).length - changesCounter.Added;
 
 				obj.Added[0].push({
 					label: [{ txt: `(+${count} addition${count > 1 ? "s" : ""})` }],
@@ -71,16 +63,11 @@ export function convertDiffs(
 				});
 			}
 			changesCounter.Added++;
-		} else if (
-			change.change === DiffEnum.Changed &&
-			maxChangesThreshold >= changesCounter.Changed
-		) {
+		} else if (change.change === DiffEnum.Changed && maxChangesThreshold >= changesCounter.Changed) {
 			if (!color && (!change.curFile || !change.oldFile)) continue;
 
 			if (changesCounter.Changed === maxChangesThreshold) {
-				const count =
-					entries.filter(([_, x]) => x.change === DiffEnum.Changed).length -
-					changesCounter.Changed;
+				const count = entries.filter(([_, x]) => x.change === DiffEnum.Changed).length - changesCounter.Changed;
 				const obja = {
 					label: [{ txt: `(+${count} change${count > 1 ? "s" : ""})` }],
 					important: true,
@@ -101,16 +88,11 @@ export function convertDiffs(
 				});
 			}
 			changesCounter.Changed++;
-		} else if (
-			change.change === DiffEnum.Renamed &&
-			maxChangesThreshold >= changesCounter.Renamed
-		) {
+		} else if (change.change === DiffEnum.Renamed && maxChangesThreshold >= changesCounter.Renamed) {
 			if (!color && !change.curFile) continue;
 
 			if (changesCounter.Renamed === maxChangesThreshold) {
-				const count =
-					entries.filter(([_, x]) => x.change === DiffEnum.Renamed).length -
-					changesCounter.Renamed;
+				const count = entries.filter(([_, x]) => x.change === DiffEnum.Renamed).length - changesCounter.Renamed;
 
 				obj.Renamed[0].push({
 					label: [{ txt: `(+${count} rename${count > 1 ? "s" : ""})` }],
@@ -124,16 +106,11 @@ export function convertDiffs(
 				});
 			}
 			changesCounter.Renamed++;
-		} else if (
-			change.change === DiffEnum.Removed &&
-			maxChangesThreshold >= changesCounter.Removed
-		) {
+		} else if (change.change === DiffEnum.Removed && maxChangesThreshold >= changesCounter.Removed) {
 			if (!color && !change.oldFile) continue;
 
 			if (changesCounter.Removed === maxChangesThreshold) {
-				const count =
-					entries.filter(([_, x]) => x.change === DiffEnum.Removed).length -
-					changesCounter.Removed;
+				const count = entries.filter(([_, x]) => x.change === DiffEnum.Removed).length - changesCounter.Removed;
 
 				obj.Removed[0].push({
 					label: [{ txt: `(+${count} removal${count > 1 ? "s" : ""})` }],
@@ -150,9 +127,7 @@ export function convertDiffs(
 		}
 	}
 
-	return Object.fromEntries(
-		Object.entries(obj).filter(([_, entries]) => entries[0].length > 0),
-	);
+	return Object.fromEntries(Object.entries(obj).filter(([_, entries]) => entries[0].length > 0));
 }
 
 export default async function draw(data: Record<string, DataEntry[][]>) {
@@ -190,17 +165,11 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 		imageWidths.set(file, img.width * mult);
 	}
 
-	const textMeasurements = new Array<number>();
+	const textMeasurements: number[] = [];
 	const textWidthMap = new Map<Label[], number>();
 
 	const widForAsset = (asset: DataEntry) =>
-		asset.file
-			? imageWidths.get(asset.file!)!
-			: asset.important
-				? importantTextItemWid
-				: asset.color
-					? itemHei
-					: 0;
+		asset.file ? imageWidths.get(asset.file!)! : asset.important ? importantTextItemWid : asset.color ? itemHei : 0;
 
 	for (const [_, changes] of entries) {
 		for (const row of changes) {
@@ -208,11 +177,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 			for (const text of row) {
 				let wid = 0;
 				if (text.important) wid = importantTextItemWid;
-				else
-					wid = Math.max(
-						...text.label.map(({ txt }) => measureCtx.measureText(txt).width),
-						widForAsset(text),
-					);
+				else wid = Math.max(...text.label.map(({ txt }) => measureCtx.measureText(txt).width), widForAsset(text));
 
 				rowLen += wid;
 				textWidthMap.set(text.label, wid);
@@ -224,9 +189,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 	const widestText = Math.max(...textMeasurements);
 	const tallestText = entries.map(([_, changes]) =>
 		changes.map((x) => {
-			const sep = Math.max(
-				...x.map((y) => (Array.isArray(y.label) ? y.label : [y.label]).length),
-			);
+			const sep = Math.max(...x.map((y) => (Array.isArray(y.label) ? y.label : [y.label]).length));
 
 			return sep * textHei + (sep - 1) * 1;
 		}),
@@ -260,9 +223,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 	let y = padding;
 	for (const [title, changes] of entries) {
 		const changesTextHei = changes.map((x) => {
-			const sep = Math.max(
-				...x.map((y) => (Array.isArray(y.label) ? y.label : [y.label]).length),
-			);
+			const sep = Math.max(...x.map((y) => (Array.isArray(y.label) ? y.label : [y.label]).length));
 
 			return sep * textHei + (sep - 1) * 1;
 		});
@@ -292,7 +253,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 			throw new Error("Rows must be the same length");
 		}
 
-		const textWids = new Array<number>();
+		const textWids: number[] = [];
 		for (let i = 0; i < changes[0].length; i++) {
 			const wids = [];
 			for (const row of changes) wids.push(textWidthMap.get(row[i].label)!);
@@ -327,13 +288,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 				if (asset.color) {
 					ctx.fillStyle = asset.color;
 					ctx.beginPath();
-					ctx.arc(
-						midX + spacing + itemHei / 2,
-						y + thisTextHei + itemHei / 2,
-						itemHei / 2,
-						0,
-						2 * Math.PI,
-					);
+					ctx.arc(midX + spacing + itemHei / 2, y + thisTextHei + itemHei / 2, itemHei / 2, 0, 2 * Math.PI);
 					ctx.fill();
 				} else if (asset.file) {
 					ctx.drawImage(
@@ -346,13 +301,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 				} else if (asset.important) {
 					ctx.fillStyle = colors.importantBg;
 					ctx.beginPath();
-					ctx.roundRect(
-						x + spacing,
-						y,
-						importantTextItemWid,
-						importantTextItemWid,
-						25,
-					);
+					ctx.roundRect(x + spacing, y, importantTextItemWid, importantTextItemWid, 25);
 					ctx.fill();
 
 					ctx.fillStyle = colors.textNormal;
@@ -360,19 +309,12 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 
 					const lines = getLines(ctx, asset.label[0].txt, importantTextItemWid);
 
-					const startY =
-						y +
-						importantTextItemWid / 2 -
-						(lines.length * (importantTextFontSize + 1)) / 2;
+					const startY = y + importantTextItemWid / 2 - (lines.length * (importantTextFontSize + 1)) / 2;
 					for (let l = 0; l < lines.length; l++) {
 						const textWid = ctx.measureText(lines[l]).width;
 						const setX = x + spacing + importantTextItemWid / 2 - textWid / 2;
 
-						ctx.fillText(
-							lines[l],
-							setX,
-							startY + l * (importantTextFontSize + 1),
-						);
+						ctx.fillText(lines[l], setX, startY + l * (importantTextFontSize + 1));
 					}
 				}
 
@@ -392,11 +334,7 @@ export default async function draw(data: Record<string, DataEntry[][]>) {
 	const watermarkTextWidth = ctx.measureText(watermarkText).width;
 
 	ctx.fillStyle = "#fff4";
-	ctx.fillText(
-		watermarkText,
-		canvas.width - watermarkTextWidth - padding / 2,
-		0,
-	);
+	ctx.fillText(watermarkText, canvas.width - watermarkTextWidth - padding / 2, 0);
 
 	return canvas;
 }

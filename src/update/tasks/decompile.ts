@@ -1,15 +1,11 @@
 import { exists } from "node:fs/promises";
 import { commit } from "../commit";
 import { cuteVersion } from "../shared";
-import { type Progress, handleShellErr, join } from "../util";
+import { handleShellErr, join, type Progress } from "../util";
 
 const gzipWorkerURL = new URL("decompile-gzip.ts", import.meta.url).href;
 
-export default async function decompile(
-	progress: Progress,
-	pathToBundle: string,
-	tmpDir: string,
-) {
+export default async function decompile(progress: Progress, pathToBundle: string, tmpDir: string) {
 	const pathToDecompiler = join(tmpDir, "decompiler");
 
 	progress.start("decompile_downloading");
@@ -21,20 +17,14 @@ export default async function decompile(
 		progress.update("decompile_downloading", true);
 	} else progress.update("decompile_downloading", null);
 
-	const { exitCode: hasPython } = await Bun.$`python --version`
-		.nothrow()
-		.quiet();
-	if (hasPython !== 0)
-		throw new Error("Cannot use Python! Are you sure it's installed?");
+	const { exitCode: hasPython } = await Bun.$`python --version`.nothrow().quiet();
+	if (hasPython !== 0) throw new Error("Cannot use Python! Are you sure it's installed?");
 
 	const pathToJs = join(tmpDir, "code.js");
 
 	progress.start("decompile_decompiling");
 	if (!(await Bun.file(pathToJs).exists())) {
-		await Bun.$`python ${join(
-			pathToDecompiler,
-			"hbc_decompiler.py",
-		)} ${pathToBundle} ${pathToJs}`
+		await Bun.$`python ${join(pathToDecompiler, "hbc_decompiler.py")} ${pathToBundle} ${pathToJs}`
 			.quiet()
 			.nothrow()
 			.then(handleShellErr);
@@ -48,10 +38,7 @@ export default async function decompile(
 	progress.start("decompile_gzip");
 	gzipper.addEventListener("message", async ({ data }) => {
 		if (data === true) {
-			await commit(
-				[gzFile],
-				`chore: update decompiled code for ${cuteVersion}`,
-			);
+			await commit([gzFile], `chore: update decompiled code for ${cuteVersion}`);
 			progress.update("decompile_gzip", true);
 		}
 		gzipper.terminate();

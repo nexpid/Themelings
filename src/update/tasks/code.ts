@@ -3,13 +3,13 @@ import { dirname } from "node:path";
 import { commit } from "../commit";
 import { deminify } from "../deminify";
 import { cuteVersion } from "../shared";
-import { type Progress, join, mkdirSuppressed, sortByHierarchy } from "../util";
+import { join, mkdirSuppressed, type Progress, sortByHierarchy } from "../util";
 
 const moduleStartIndentation = " ".repeat(4);
 
 export default async function code(progress: Progress, code: string[]) {
 	progress.start("code_getting");
-	const files = new Map<string, { final: string, res: string }>();
+	const files = new Map<string, { final: string; res: string }>();
 
 	let moduleStart: number | null = null;
 
@@ -17,10 +17,7 @@ export default async function code(progress: Progress, code: string[]) {
 		const line = code[i];
 
 		// find the start of the file import based on the indentation
-		if (
-			new RegExp(`^${moduleStartIndentation}r\\d = function\\(`).test(line) &&
-			line.includes(" { // Environment:")
-		) {
+		if (new RegExp(`^${moduleStartIndentation}r\\d = function\\(`).test(line) && line.includes(" { // Environment:")) {
 			moduleStart = i;
 		}
 
@@ -28,8 +25,7 @@ export default async function code(progress: Progress, code: string[]) {
 		const path = code[i + 1]?.match(/ = '(.*?)';$/)?.[1];
 		if (line.match(/ = r\d\.fileFinishedImporting;$/) && path) {
 			const start = moduleStart;
-			if (!start)
-				throw `moduleStart was null for ${start}~${i}; null ~ ${code[i]}`;
+			if (!start) throw `moduleStart was null for ${start}~${i}; null ~ ${code[i]}`;
 			moduleStart = null;
 
 			// find the end of the file import based on the indentation
@@ -42,16 +38,18 @@ export default async function code(progress: Progress, code: string[]) {
 				}
 			}
 
-			if (!moduleEnd)
-				throw `moduleEnd was null for ${start}~${i}; ${code[start]} ~ ${code[i]}`;
+			if (!moduleEnd) throw `moduleEnd was null for ${start}~${i}; ${code[start]} ~ ${code[i]}`;
 
-            const realPath = join("app", path);
+			const realPath = join("app", path);
 			files.set(
 				realPath,
-				deminify(code
-					.slice(start, moduleEnd + 1)
-					.map((line) => line.slice(moduleStartIndentation.length))
-					.join("\n"), realPath),
+				deminify(
+					code
+						.slice(start, moduleEnd + 1)
+						.map((line) => line.slice(moduleStartIndentation.length))
+						.join("\n"),
+					realPath,
+				),
 			);
 		}
 	}
@@ -59,10 +57,7 @@ export default async function code(progress: Progress, code: string[]) {
 	await Bun.write(
 		"../data/source.jsonl",
 		[...files.entries()]
-			.map(
-				([file, text]) =>
-					`{ "file": ${JSON.stringify(file)}, "size": ${text.final.length} }`,
-			)
+			.map(([file, text]) => `{ "file": ${JSON.stringify(file)}, "size": ${text.final.length} }`)
 			.join("\n"),
 	);
 
@@ -73,19 +68,10 @@ export default async function code(progress: Progress, code: string[]) {
 
 	await rm(filePrefix, { recursive: true, force: true });
 
-	const dirs = new Set(
-		[...files.keys()].map((x) => dirname(x)).sort(sortByHierarchy),
-	);
-	await Promise.all(
-		dirs
-			.values()
-			.map((dir) =>
-				mkdirSuppressed(join(filePrefix, dir), { recursive: true }),
-			),
-	);
+	const dirs = new Set([...files.keys()].map((x) => dirname(x)).sort(sortByHierarchy));
+	await Promise.all(dirs.values().map((dir) => mkdirSuppressed(join(filePrefix, dir), { recursive: true })));
 
-	for (const [file, text] of files.entries())
-		await Bun.write(join(filePrefix, file), text.res);
+	for (const [file, text] of files.entries()) await Bun.write(join(filePrefix, file), text.res);
 
 	progress.update("code_remaking", true);
 	progress.start("code_pushing");
@@ -93,9 +79,6 @@ export default async function code(progress: Progress, code: string[]) {
 	// hope the files get written in this time idk :P blehhh
 	await Bun.sleep(1500);
 
-	await commit(
-		["source.jsonl", "source/*"],
-		`chore: update source for ${cuteVersion}`,
-	);
+	await commit(["source.jsonl", "source/*"], `chore: update source for ${cuteVersion}`);
 	progress.update("code_pushing", true);
 }

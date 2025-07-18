@@ -2,27 +2,14 @@ import { exists, rm } from "node:fs/promises";
 import mock from "../mock";
 import type { OutDiffs } from "../types";
 import { commit } from "./commit";
-import {
-	apksToDownload,
-	cuteVersion,
-	isMock,
-	oprevFiles,
-	prevFiles,
-	version,
-} from "./shared";
+import { apksToDownload, cuteVersion, isMock, oprevFiles, prevFiles, version } from "./shared";
 import codeTask from "./tasks/code";
 import colors from "./tasks/colors";
 import decompile from "./tasks/decompile";
 import diffs from "./tasks/diffs";
 import icons from "./tasks/icons";
 import { webhook } from "./tasks/webhook";
-import {
-	cuteError,
-	handleShellErr,
-	join,
-	makeProgress,
-	wrapPromise,
-} from "./util";
+import { cuteError, handleShellErr, join, makeProgress, wrapPromise } from "./util";
 
 export async function runTasks(tempFolder: string) {
 	console.log("\nRunning tasks...");
@@ -61,21 +48,13 @@ export async function runTasks(tempFolder: string) {
 
 			// reset to remote branch (without pulling latest commit)
 			taskProgress.start("preinit_discard");
-			await Bun.$`git reset --hard`
-				.cwd("../data")
-				.nothrow()
-				.quiet()
-				.then(handleShellErr);
+			await Bun.$`git reset --hard`.cwd("../data").nothrow().quiet().then(handleShellErr);
 			if (await exists(join("../data", "oldicons")))
 				await rm(join("../data", "oldicons"), { force: true, recursive: true });
 			await Bun.write("../data/version.txt", version); // lel
 
 			// unstage all files
-			await Bun.$`git restore --staged .`
-				.cwd("../data")
-				.nothrow()
-				.quiet()
-				.then(handleShellErr);
+			await Bun.$`git restore --staged .`.cwd("../data").nothrow().quiet().then(handleShellErr);
 
 			taskProgress.update("preinit_discard", true);
 
@@ -94,20 +73,14 @@ export async function runTasks(tempFolder: string) {
 		let pathToJs: string;
 		try {
 			taskProgress.start("decompile");
-			pathToJs = await decompile(
-				taskProgress,
-				join(tempFolder, "base", "assets", "index.android.bundle"),
-				tempFolder,
-			);
+			pathToJs = await decompile(taskProgress, join(tempFolder, "base", "assets", "index.android.bundle"), tempFolder);
 			taskProgress.update("decompile", true);
 		} catch (e) {
 			taskProgress.update("decompile", false);
 			throw new Error(`Failed to decompile!\n${e}`);
 		}
 
-		const code = (await Bun.file(pathToJs).text())
-			.replace(/\r/g, "")
-			.split("\n");
+		const code = (await Bun.file(pathToJs).text()).replace(/\r/g, "").split("\n");
 
 		try {
 			taskProgress.start("code");
@@ -121,33 +94,20 @@ export async function runTasks(tempFolder: string) {
 		await Promise.allSettled([
 			wrapPromise(colors(code), taskProgress, "colors"),
 			wrapPromise(
-				icons(
-					taskProgress,
-					code,
-					...apksToDownload.map((apk) => join(tempFolder, apk)),
-				),
+				icons(taskProgress, code, ...apksToDownload.map((apk) => join(tempFolder, apk))),
 				taskProgress,
 				"icons",
 			),
 		]);
 		if (taskProgress.someFailed("colors", "icons"))
-			throw new Error(
-				`Failed at the colors + icons task!\n${taskProgress.prettyErrors(
-					"colors",
-					"icons",
-				)}`,
-			);
+			throw new Error(`Failed at the colors + icons task!\n${taskProgress.prettyErrors("colors", "icons")}`);
 
 		while (!taskProgress.isFinished("decompile_gzip")) {
 			await Bun.sleep(1000);
 		}
 
 		if (taskProgress.someFailed("decompile_gzip"))
-			throw new Error(
-				`Failed at the decompile gzip task!\n${taskProgress.prettyErrors(
-					"decompile_gzip",
-				)}`,
-			);
+			throw new Error(`Failed at the decompile gzip task!\n${taskProgress.prettyErrors("decompile_gzip")}`);
 
 		try {
 			taskProgress.start("diff");

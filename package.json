@@ -2,7 +2,7 @@
 	"name": "themelings",
 	"type": "module",
 	"devDependencies": {
-		"@biomejs/biome": "1.9.0",
+		"@biomejs/biome": "^2.1.2",
 		"@types/bun": "latest",
 		"@types/color": "^3.0.6"
 	},
@@ -22,6 +22,9 @@
 		"color": "^4.2.3",
 		"skia-canvas": "^1.0.2"
 	},
-	"trustedDependencies": ["@biomejs/biome", "skia-canvas"],
-	"packageManager": "bun@1.2.2"
+	"trustedDependencies": [
+		"@biomejs/biome",
+		"skia-canvas"
+	],
+	"packageManager": "bun@1.2.17"
 }

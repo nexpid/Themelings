@@ -8,10 +8,7 @@ import { sortObj } from "../util";
 
 Object.freeze = (obj: any) => obj;
 
-export function evalModule(
-	code: string[],
-	hookLine: number,
-): (...args: any[]) => any {
+export function evalModule(code: string[], hookLine: number): (...args: any[]) => any {
 	/*
 	  1. r3 = '../discord_common/js/packages/tokens/colors/generated/generated-definitions.tsx';
 	  2. r3 = r4.bind(r5)(r3);
@@ -34,9 +31,7 @@ export function evalModule(
 }
 
 export function getInternalRawColors(code: string[]) {
-	const moduleLine = code.findIndex((l) =>
-		l.includes("colors/generated/Colors.tsx'"),
-	);
+	const moduleLine = code.findIndex((l) => l.includes("colors/generated/Colors.tsx'"));
 	if (moduleLine === -1) throw new Error("Cannot find semanticColorsHookLine!");
 
 	const internalModule: {
@@ -56,27 +51,18 @@ export function getInternalRawColors(code: string[]) {
 	);
 
 	const raw = internalModule.default;
-	for (const key of Object.keys(raw))
-		raw[key] = Color(raw[key]).hex().toLowerCase();
+	for (const key of Object.keys(raw)) raw[key] = Color(raw[key]).hex().toLowerCase();
 
 	return raw;
 }
 
-export function getInternalSemanticColors(
-	code: string[],
-	raw: Record<string, string>,
-): SemanticColors {
-	const moduleLine = code.findIndex((l) =>
-		l.includes("colors/generated/native/generated-definitions.tsx'"),
-	);
+export function getInternalSemanticColors(code: string[], raw: Record<string, string>): SemanticColors {
+	const moduleLine = code.findIndex((l) => l.includes("colors/generated/native/generated-definitions.tsx'"));
 	if (moduleLine === -1) throw new Error("Cannot find semanticColorsHookLine!");
 
 	const internalModule: {
 		_private: {
-			SemanticColors: Record<
-				string,
-				Record<string, { raw: string; opacity: number }>
-			>;
+			SemanticColors: Record<string, Record<string, { raw: string; opacity: number }>>;
 		};
 	} = {} as any;
 
@@ -113,10 +99,7 @@ export function getInternalSemanticColors(
 			const clr = raw[sem[key][theme].raw];
 			if (clr) {
 				const color = Color(clr).alpha(sem[key][theme].opacity);
-				sem[key][theme] = [
-					(color.alpha() === 1 ? color.hex() : color.hexa()).toLowerCase(),
-					sem[key][theme],
-				];
+				sem[key][theme] = [(color.alpha() === 1 ? color.hex() : color.hexa()).toLowerCase(), sem[key][theme]];
 			} else delete sem[key][theme];
 		}
 
@@ -128,25 +111,15 @@ export default async function colors(code: string[]) {
 	await Bun.write("../data/raw.json", JSON.stringify(sortObj(raw), null, 2));
 
 	const semantic = getInternalSemanticColors(code, raw);
-	await Bun.write(
-		"../data/semantic.json",
-		JSON.stringify(sortObj(semantic), null, 2),
-	);
+	await Bun.write("../data/semantic.json", JSON.stringify(sortObj(semantic), null, 2));
 
 	const simpleSemantic = semantic as any;
 	for (const key of Object.keys(simpleSemantic)) {
 		simpleSemantic[key] = { ...simpleSemantic[key] };
 
-		for (const theme of Object.keys(simpleSemantic[key]))
-			simpleSemantic[key][theme] = semantic[key][theme][0];
+		for (const theme of Object.keys(simpleSemantic[key])) simpleSemantic[key][theme] = semantic[key][theme][0];
 	}
-	await Bun.write(
-		"../data/semantic_simple.json",
-		JSON.stringify(sortObj(simpleSemantic), null, 2),
-	);
+	await Bun.write("../data/semantic_simple.json", JSON.stringify(sortObj(simpleSemantic), null, 2));
 
-	await commit(
-		["raw.json", "semantic.json", "semantic_simple.json"],
-		`chore: update colors for ${cuteVersion}`,
-	);
+	await commit(["raw.json", "semantic.json", "semantic_simple.json"], `chore: update colors for ${cuteVersion}`);
 }
