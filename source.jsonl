@@ -411,6 +411,9 @@
 { "file": "discord_common/js/shared/lib/PlatformUtils.tsx", "size": 5466 }
 { "file": "app/utils/StoreUtils.tsx", "size": 45935 }
 { "file": "app/modules/billing/Constants.tsx", "size": 831 }
+{ "file": "app/modules/billing/actions/StripeActionCreators.tsx", "size": 7273 }
+{ "file": "app/modules/billing/utils/PaymentMethodUtils.tsx", "size": 13373 }
+{ "file": "app/modules/billing/RegionalPaymentMethods.tsx", "size": 14371 }
 { "file": "app/utils/StripeUtils.tsx", "size": 24874 }
 { "file": "app/utils/PurchaseTokenUtils.tsx", "size": 7036 }
 { "file": "app/modules/game_store/getAnalyticsDataForSKU.tsx", "size": 6532 }
@@ -7169,7 +7172,7 @@
 { "file": "app/modules/guild_onboarding_home/native/NewMemberActionsCompletedModal.tsx", "size": 8644 }
 { "file": "app/modules/guild_onboarding/native/GuildOnboardingManager.tsx", "size": 14321 }
 { "file": "app/modules/premium/powerups/GuildPowerupsManager.tsx", "size": 12930 }
-{ "file": "app/modules/premium/powerups/experiments/VanityURLPerkExperiment.tsx", "size": 4036 }
+{ "file": "app/modules/premium/powerups/experiments/VanityURLPerkExperiment.tsx", "size": 6024 }
 { "file": "app/modules/guild_verification/GuildVerificationManager.tsx", "size": 8868 }
 { "file": "app/modules/guild_member_verification/native/components/MemberVerificationApplicationManager.tsx", "size": 12054 }
 { "file": "app/modules/provisional_accounts/MessageSessionMetadataManager.tsx", "size": 9409 }

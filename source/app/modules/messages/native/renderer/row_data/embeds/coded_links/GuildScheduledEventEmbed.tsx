@@ -246,7 +246,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
  940:
             kiloes = verify != status;
             echoed = undefined;
-            if(!kiloes) { _fun00002_ip = 1000; continue _fun00001 }
+            if(!kiloes) { _fun00002_ip = 1004; continue _fun00001 }
  949:
             vacuum = _closure1_slot1;
             sequen = _closure1_slot2;
@@ -258,7 +258,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes['channelId'] = entity;
             entity = true;
             echoed = vacuum.bind(sequen)(status, entity, kiloes);
- 1000:
+ 1004:
             kiloes = _closure1_slot0;
             vacuum = _closure1_slot2;
             entity = 25;
@@ -266,16 +266,16 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = kiloes.bind(yankee)(entity);
             entity = kiloes.getLocationFromEvent;
             kiloes = entity.bind(kiloes)(michal);
-            if(!(verify == kiloes)) { _fun00002_ip = 1052; continue _fun00001 }
- 1035:
+            if(!(verify == kiloes)) { _fun00002_ip = 1056; continue _fun00001 }
+ 1039:
             vacuum = verify == target;
             entity = undefined;
-            if(vacuum) { _fun00002_ip = 1049; continue _fun00001 }
- 1044:
+            if(vacuum) { _fun00002_ip = 1053; continue _fun00001 }
+ 1048:
             entity = target.name;
- 1049:
+ 1053:
             kiloes = entity;
- 1052:
+ 1056:
             sequen = _closure1_slot0;
             entity = _closure1_slot2;
             vacuum = 26;
@@ -294,15 +294,15 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             sierra = limora.getGuildEventUserCounts;
             status = michal.guild_id;
             papara = michal.id;
-            if(!(verify == equals)) { _fun00002_ip = 1148; continue _fun00001 }
- 1142:
+            if(!(verify == equals)) { _fun00002_ip = 1152; continue _fun00001 }
+ 1146:
             entity = new Array(0);
-            _fun00002_ip = 1159; continue _fun00001;
- 1148:
+            _fun00002_ip = 1163; continue _fun00001;
+ 1152:
             whisks = new Array(1);
             whisks[0] = equals;
             entity = whisks;
- 1159:
+ 1163:
             entity = sierra.bind(limora)(status, papara, entity);
             papara = _closure1_slot1;
             entity = _closure1_slot2;
@@ -318,10 +318,10 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             update = 'acceptLabelBackgroundColor';
             entity[update] = cntext;
             cntext = undefined;
-            if(!golfie) { _fun00002_ip = 1231; continue _fun00001 }
- 1225:
+            if(!golfie) { _fun00002_ip = 1235; continue _fun00001 }
+ 1229:
             cntext = zuuluu.acceptLabelDisabledBorderColor;
- 1231:
+ 1235:
             update = 'acceptLabelBorderColor';
             entity[update] = cntext;
             update = 'acceptLabelColor';
@@ -332,11 +332,11 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[update] = source;
             update = verify == ctrled;
             source = undefined;
-            if(update) { _fun00002_ip = 1290; continue _fun00001 }
- 1280:
+            if(update) { _fun00002_ip = 1294; continue _fun00001 }
+ 1284:
             update = ctrled.toLocaleString;
             source = update.bind(ctrled)();
- 1290:
+ 1294:
             update = 'badgeCount';
             entity[update] = source;
             source = _closure1_slot0;
@@ -353,31 +353,31 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[update] = source;
             update = verify != sequen;
             source = undefined;
-            if(!update) { _fun00002_ip = 1389; continue _fun00001 }
- 1361:
+            if(!update) { _fun00002_ip = 1393; continue _fun00001 }
+ 1365:
             ctrled = _closure1_slot0;
             update = _closure1_slot2;
             update = update[output];
             ctrled = ctrled.bind(yankee)(update);
             update = ctrled.getAssetUriForEmbed;
             source = update.bind(ctrled)(sequen);
- 1389:
+ 1393:
             update = 'channelIcon';
             entity[update] = source;
             source = verify != kiloes;
             update = undefined;
-            if(!source) { _fun00002_ip = 1410; continue _fun00001 }
- 1407:
+            if(!source) { _fun00002_ip = 1414; continue _fun00001 }
+ 1411:
             update = kiloes;
- 1410:
+ 1414:
             kiloes = 'channelName';
             entity[kiloes] = update;
             kiloes = 'content';
             entity[kiloes] = echoed;
             kiloes = verify != vacuum;
             echoed = undefined;
-            if(!kiloes) { _fun00002_ip = 1481; continue _fun00001 }
- 1437:
+            if(!kiloes) { _fun00002_ip = 1485; continue _fun00001 }
+ 1441:
             update = _closure1_slot0;
             kiloes = _closure1_slot2;
             kiloes = kiloes[output];
@@ -387,7 +387,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             kiloes = michal.guild_id;
             kiloes = ctrled.bind(vacuum)(kiloes);
             echoed = update.bind(source)(kiloes);
- 1481:
+ 1485:
             kiloes = 'creatorAvatar';
             entity[kiloes] = echoed;
             kiloes = _closure1_slot13;
@@ -398,18 +398,18 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[kiloes] = result;
             result = verify == foxtra;
             kiloes = undefined;
-            if(result) { _fun00002_ip = 1532; continue _fun00001 }
- 1527:
+            if(result) { _fun00002_ip = 1536; continue _fun00001 }
+ 1531:
             kiloes = foxtra.name;
- 1532:
+ 1536:
             foxtra = 'guildName';
             entity[foxtra] = kiloes;
             foxtra = _closure1_slot5;
             kiloes = foxtra.bind(yankee)(offset);
-            if(!(verify == kiloes)) { _fun00002_ip = 1560; continue _fun00001 }
- 1554:
+            if(!(verify == kiloes)) { _fun00002_ip = 1564; continue _fun00001 }
+ 1558:
             kiloes = zuuluu.headerColor;
- 1560:
+ 1564:
             foxtra = 'headerColor';
             entity[foxtra] = kiloes;
             kiloes = _closure1_slot0;
@@ -422,14 +422,14 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
             entity[foxtra] = kiloes;
             foxtra = 'headerText';
             entity[foxtra] = backup;
-            if(!romeon) { _fun00002_ip = 1631; continue _fun00001 }
- 1618:
+            if(!romeon) { _fun00002_ip = 1635; continue _fun00001 }
+ 1622:
             option = _closure1_slot5;
             option = option.bind(yankee)(offset);
-            if(!(verify == option)) { _fun00002_ip = 1637; continue _fun00001 }
- 1631:
+            if(!(verify == option)) { _fun00002_ip = 1641; continue _fun00001 }
+ 1635:
             option = zuuluu.headerColor;
- 1637:
+ 1641:
             zuuluu = 'headerTextColor';
             entity[zuuluu] = option;
             zuuluu = 'isRsvped';
@@ -739,7 +739,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu = entity != zuuluu;
                     report = undefined;
                     entity = undefined;
-                    if(!zuuluu) { _fun00006_ip = 82; continue _fun00005 }
+                    if(!zuuluu) { _fun00006_ip = 86; continue _fun00005 }
  20:
                     tangon = _closure1_slot1;
                     oscard = _closure1_slot2;
@@ -753,7 +753,7 @@ export default (function(argFoo, argBar, argBaz, argCor, _, argFre, argPlu) {
                     zuuluu['channelId'] = michal;
                     michal = true;
                     entity = report.bind(oscard)(tangon, michal, zuuluu);
- 82:
+ 86:
                     return entity;
                 }
             };
